@@ -1,0 +1,80 @@
+data_AME
+#
+_chem_comp.id                   AME
+_chem_comp.name                 N-ACETYLMETHIONINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        191.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AME  CT2   .  C  0  ?  ?  ?  1  1 
+AME  CT1   .  C  0  ?  ?  ?  1  2 
+AME  OT    .  O  0  ?  ?  ?  1  3 
+AME  CB    .  C  0  ?  ?  ?  1  4 
+AME  CG    .  C  0  ?  ?  ?  1  5 
+AME  SD    .  S  0  ?  ?  ?  1  6 
+AME  CE    .  C  0  ?  ?  ?  1  7 
+AME  C     .  C  0  ?  ?  ?  1  8 
+AME  O     .  O  0  ?  ?  ?  1  9 
+AME  OXT   .  O  0  ?  ?  ?  1  10
+AME  N     .  N  0  ?  ?  ?  1  11
+AME  CA    .  C  0  ?  ?  ?  1  12
+AME  3HT2  .  H  0  ?  ?  ?  0  13
+AME  2HT2  .  H  0  ?  ?  ?  0  14
+AME  1HT2  .  H  0  ?  ?  ?  0  15
+AME  2HB   .  H  0  ?  ?  ?  0  16
+AME  1HB   .  H  0  ?  ?  ?  0  17
+AME  2HG   .  H  0  ?  ?  ?  0  18
+AME  1HG   .  H  0  ?  ?  ?  0  19
+AME  3HE   .  H  0  ?  ?  ?  0  20
+AME  2HE   .  H  0  ?  ?  ?  0  21
+AME  1HE   .  H  0  ?  ?  ?  0  22
+AME  HO    .  H  0  ?  ?  ?  1  23
+AME  1HN   .  H  0  ?  ?  ?  0  24
+AME  HA    .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AME  CT2  CT1   SING  1 
+AME  CT2  3HT2  SING  2 
+AME  CT2  2HT2  SING  3 
+AME  CT2  1HT2  SING  4 
+AME  CT1  OT    DOUB  5 
+AME  CT1  N     SING  6 
+AME  CB   CG    SING  7 
+AME  CB   CA    SING  8 
+AME  CB   2HB   SING  9 
+AME  CB   1HB   SING  10
+AME  CG   SD    SING  11
+AME  CG   2HG   SING  12
+AME  CG   1HG   SING  13
+AME  SD   CE    SING  14
+AME  CE   3HE   SING  15
+AME  CE   2HE   SING  16
+AME  CE   1HE   SING  17
+AME  C    O     DOUB  18
+AME  C    OXT   SING  19
+AME  C    CA    SING  20
+AME  OXT  HO    SING  21
+AME  N    CA    SING  22
+AME  N    1HN   SING  23
+AME  CA   HA    SING  24
+#

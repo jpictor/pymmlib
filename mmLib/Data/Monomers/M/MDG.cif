@@ -1,0 +1,129 @@
+data_MDG
+#
+_chem_comp.id                   MDG
+_chem_comp.name                 7N-METHYL-8-HYDROGUANOSINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N5 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        459.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MDG  PB    .  P  0  ?  ?  ?  1  1 
+MDG  O1B   .  O  0  ?  ?  ?  1  2 
+MDG  O2B   .  O  0  ?  ?  ?  1  3 
+MDG  O3B   .  O  0  ?  ?  ?  1  4 
+MDG  O3A   .  O  0  ?  ?  ?  1  5 
+MDG  PA    .  P  0  ?  ?  ?  1  6 
+MDG  O1A   .  O  0  ?  ?  ?  1  7 
+MDG  O2A   .  O  0  ?  ?  ?  1  8 
+MDG  O5*   .  O  0  ?  ?  ?  1  9 
+MDG  C5*   .  C  0  ?  ?  ?  1  10
+MDG  C4*   .  C  0  ?  ?  ?  1  11
+MDG  O4*   .  O  0  ?  ?  ?  1  12
+MDG  C3*   .  C  0  ?  ?  ?  1  13
+MDG  O3*   .  O  0  ?  ?  ?  1  14
+MDG  C2*   .  C  0  ?  ?  ?  1  15
+MDG  O2*   .  O  0  ?  ?  ?  1  16
+MDG  C1*   .  C  0  ?  ?  ?  1  17
+MDG  N9    .  N  0  ?  ?  ?  1  18
+MDG  C8    .  C  0  ?  ?  ?  1  19
+MDG  N7    .  N  0  ?  ?  ?  1  20
+MDG  CM7   .  C  0  ?  ?  ?  1  21
+MDG  C5    .  C  0  ?  ?  ?  1  22
+MDG  C6    .  C  0  ?  ?  ?  1  23
+MDG  O6    .  O  0  ?  ?  ?  1  24
+MDG  N1    .  N  0  ?  ?  ?  1  25
+MDG  C2    .  C  0  ?  ?  ?  1  26
+MDG  N2    .  N  0  ?  ?  ?  1  27
+MDG  N3    .  N  0  ?  ?  ?  1  28
+MDG  C4    .  C  0  ?  ?  ?  1  29
+MDG  2HOB  .  H  0  ?  ?  ?  0  30
+MDG  3HOB  .  H  0  ?  ?  ?  0  31
+MDG  2HOA  .  H  0  ?  ?  ?  0  32
+MDG  H1*   .  H  0  ?  ?  ?  1  33
+MDG  H2*   .  H  0  ?  ?  ?  1  34
+MDG  H3*   .  H  0  ?  ?  ?  1  35
+MDG  H4*   .  H  0  ?  ?  ?  1  36
+MDG  *HO2  .  H  0  ?  ?  ?  0  37
+MDG  *HO3  .  H  0  ?  ?  ?  0  38
+MDG  1H5*  .  H  0  ?  ?  ?  0  39
+MDG  2H5*  .  H  0  ?  ?  ?  0  40
+MDG  1H8   .  H  0  ?  ?  ?  0  41
+MDG  2H8   .  H  0  ?  ?  ?  0  42
+MDG  1HM7  .  H  0  ?  ?  ?  0  43
+MDG  2HM7  .  H  0  ?  ?  ?  0  44
+MDG  3HM7  .  H  0  ?  ?  ?  0  45
+MDG  HN1   .  H  0  ?  ?  ?  1  46
+MDG  1HN2  .  H  0  ?  ?  ?  0  47
+MDG  2HN2  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MDG  PB   O1B   DOUB  1 
+MDG  PB   O2B   SING  2 
+MDG  PB   O3B   SING  3 
+MDG  PB   O3A   SING  4 
+MDG  O2B  2HOB  SING  5 
+MDG  O3B  3HOB  SING  6 
+MDG  O3A  PA    SING  7 
+MDG  PA   O1A   DOUB  8 
+MDG  PA   O2A   SING  9 
+MDG  PA   O5*   SING  10
+MDG  O2A  2HOA  SING  11
+MDG  O5*  C5*   SING  12
+MDG  C5*  C4*   SING  13
+MDG  C5*  1H5*  SING  14
+MDG  C5*  2H5*  SING  15
+MDG  C4*  O4*   SING  16
+MDG  C4*  C3*   SING  17
+MDG  C4*  H4*   SING  18
+MDG  O4*  C1*   SING  19
+MDG  C3*  O3*   SING  20
+MDG  C3*  C2*   SING  21
+MDG  C3*  H3*   SING  22
+MDG  O3*  *HO3  SING  23
+MDG  C2*  O2*   SING  24
+MDG  C2*  C1*   SING  25
+MDG  C2*  H2*   SING  26
+MDG  O2*  *HO2  SING  27
+MDG  C1*  N9    SING  28
+MDG  C1*  H1*   SING  29
+MDG  N9   C8    SING  30
+MDG  N9   C4    SING  31
+MDG  C8   N7    SING  32
+MDG  C8   1H8   SING  33
+MDG  C8   2H8   SING  34
+MDG  N7   C5    SING  35
+MDG  N7   CM7   SING  36
+MDG  CM7  1HM7  SING  37
+MDG  CM7  2HM7  SING  38
+MDG  CM7  3HM7  SING  39
+MDG  C5   C6    SING  40
+MDG  C5   C4    DOUB  41
+MDG  C6   O6    DOUB  42
+MDG  C6   N1    SING  43
+MDG  N1   C2    SING  44
+MDG  N1   HN1   SING  45
+MDG  C2   N2    SING  46
+MDG  C2   N3    DOUB  47
+MDG  N2   1HN2  SING  48
+MDG  N2   2HN2  SING  49
+MDG  N3   C4    SING  50
+#

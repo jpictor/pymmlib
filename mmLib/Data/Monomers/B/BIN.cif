@@ -1,0 +1,130 @@
+data_BIN
+#
+_chem_comp.id                   BIN
+_chem_comp.name                 2,3-DICARBOXY-4-(2-CHLORO-PHENYL)-1-ETHYL-5-ISOPROPOXYCARBONYL-6-METHYL-PYRIDINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H21 N1 O6 CL1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       406.842
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIN  C1    .  C   0  ?  ?  ?  1  1 
+BIN  C2    .  C   0  ?  ?  ?  1  2 
+BIN  C3    .  C   0  ?  ?  ?  1  3 
+BIN  C4    .  C   0  ?  ?  ?  1  4 
+BIN  C5    .  C   0  ?  ?  ?  1  5 
+BIN  C6    .  C   0  ?  ?  ?  1  6 
+BIN  C7    .  C   0  ?  ?  ?  1  7 
+BIN  C8    .  C   0  ?  ?  ?  1  8 
+BIN  C9    .  C   0  ?  ?  ?  1  9 
+BIN  C11   .  C   0  ?  ?  ?  1  10
+BIN  C12   .  C   0  ?  ?  ?  1  11
+BIN  C13   .  C   0  ?  ?  ?  1  12
+BIN  C14   .  C   0  ?  ?  ?  1  13
+BIN  C15   .  C   0  ?  ?  ?  1  14
+BIN  C16   .  C   0  ?  ?  ?  1  15
+BIN  C17   .  C   0  ?  ?  ?  1  16
+BIN  C18   .  C   0  ?  ?  ?  1  17
+BIN  C19   .  C   0  ?  ?  ?  1  18
+BIN  C20   .  C   0  ?  ?  ?  1  19
+BIN  C21   .  C   0  ?  ?  ?  1  20
+BIN  N10   .  N   1  ?  ?  ?  1  21
+BIN  O3A   .  O   0  ?  ?  ?  1  22
+BIN  O3B   .  O   0  ?  ?  ?  1  23
+BIN  O4A   .  O   0  ?  ?  ?  1  24
+BIN  O4B   .  O   0  ?  ?  ?  1  25
+BIN  O8A   .  O   0  ?  ?  ?  1  26
+BIN  O8    .  O   0  ?  ?  ?  1  27
+BIN  CL2   .  CL  0  ?  ?  ?  0  28
+BIN  H3    .  H   0  ?  ?  ?  1  29
+BIN  H4    .  H   0  ?  ?  ?  1  30
+BIN  H5    .  H   0  ?  ?  ?  1  31
+BIN  H6    .  H   0  ?  ?  ?  1  32
+BIN  1H15  .  H   0  ?  ?  ?  0  33
+BIN  2H15  .  H   0  ?  ?  ?  0  34
+BIN  3H15  .  H   0  ?  ?  ?  0  35
+BIN  1H16  .  H   0  ?  ?  ?  0  36
+BIN  2H16  .  H   0  ?  ?  ?  0  37
+BIN  3H16  .  H   0  ?  ?  ?  0  38
+BIN  1H17  .  H   0  ?  ?  ?  0  39
+BIN  2H17  .  H   0  ?  ?  ?  0  40
+BIN  H19   .  H   0  ?  ?  ?  1  41
+BIN  1H20  .  H   0  ?  ?  ?  0  42
+BIN  2H20  .  H   0  ?  ?  ?  0  43
+BIN  3H20  .  H   0  ?  ?  ?  0  44
+BIN  1H21  .  H   0  ?  ?  ?  0  45
+BIN  2H21  .  H   0  ?  ?  ?  0  46
+BIN  3H21  .  H   0  ?  ?  ?  0  47
+BIN  3HOB  .  H   0  ?  ?  ?  0  48
+BIN  4HOB  .  H   0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIN  C1   C2    DOUB  1 
+BIN  C1   C6    SING  2 
+BIN  C1   C7    SING  3 
+BIN  C2   C3    SING  4 
+BIN  C2   CL2   SING  5 
+BIN  C3   C4    DOUB  6 
+BIN  C3   H3    SING  7 
+BIN  C4   C5    SING  8 
+BIN  C4   H4    SING  9 
+BIN  C5   C6    DOUB  10
+BIN  C5   H5    SING  11
+BIN  C6   H6    SING  12
+BIN  C7   C8    DOUB  13
+BIN  C7   C12   SING  14
+BIN  C8   C11   SING  15
+BIN  C8   C18   SING  16
+BIN  C9   C12   DOUB  17
+BIN  C9   N10   SING  18
+BIN  C9   C14   SING  19
+BIN  C11  N10   DOUB  20
+BIN  C11  C15   SING  21
+BIN  C12  C13   SING  22
+BIN  C13  O3A   DOUB  23
+BIN  C13  O3B   SING  24
+BIN  C14  O4A   DOUB  25
+BIN  C14  O4B   SING  26
+BIN  C15  1H15  SING  27
+BIN  C15  2H15  SING  28
+BIN  C15  3H15  SING  29
+BIN  C16  C17   SING  30
+BIN  C16  1H16  SING  31
+BIN  C16  2H16  SING  32
+BIN  C16  3H16  SING  33
+BIN  C17  N10   SING  34
+BIN  C17  1H17  SING  35
+BIN  C17  2H17  SING  36
+BIN  C18  O8A   DOUB  37
+BIN  C18  O8    SING  38
+BIN  C19  O8    SING  39
+BIN  C19  C20   SING  40
+BIN  C19  C21   SING  41
+BIN  C19  H19   SING  42
+BIN  C20  1H20  SING  43
+BIN  C20  2H20  SING  44
+BIN  C20  3H20  SING  45
+BIN  C21  1H21  SING  46
+BIN  C21  2H21  SING  47
+BIN  C21  3H21  SING  48
+BIN  O3B  3HOB  SING  49
+BIN  O4B  4HOB  SING  50
+#

@@ -1,0 +1,65 @@
+data_DTH
+#
+_chem_comp.id                       DTH
+_chem_comp.name                     D-THREONINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  THR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            119.120
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTH  N     .  N  0  ?  ?  ?  1  1 
+DTH  CA    .  C  0  ?  ?  ?  1  2 
+DTH  CB    .  C  0  ?  ?  ?  1  3 
+DTH  CG2   .  C  0  ?  ?  ?  1  4 
+DTH  OG1   .  O  0  ?  ?  ?  1  5 
+DTH  C     .  C  0  ?  ?  ?  1  6 
+DTH  O     .  O  0  ?  ?  ?  1  7 
+DTH  OXT   .  O  0  ?  ?  ?  1  8 
+DTH  H     .  H  0  ?  ?  ?  1  9 
+DTH  HN2   .  H  0  ?  ?  ?  1  10
+DTH  HA    .  H  0  ?  ?  ?  1  11
+DTH  HB    .  H  0  ?  ?  ?  1  12
+DTH  1HG2  .  H  0  ?  ?  ?  0  13
+DTH  2HG2  .  H  0  ?  ?  ?  0  14
+DTH  3HG2  .  H  0  ?  ?  ?  0  15
+DTH  HOG   .  H  0  ?  ?  ?  1  16
+DTH  HXT   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTH  N    CA    SING  1 
+DTH  N    H     SING  2 
+DTH  N    HN2   SING  3 
+DTH  CA   CB    SING  4 
+DTH  CA   C     SING  5 
+DTH  CA   HA    SING  6 
+DTH  CB   CG2   SING  7 
+DTH  CB   OG1   SING  8 
+DTH  CB   HB    SING  9 
+DTH  CG2  1HG2  SING  10
+DTH  CG2  2HG2  SING  11
+DTH  CG2  3HG2  SING  12
+DTH  OG1  HOG   SING  13
+DTH  C    O     DOUB  14
+DTH  C    OXT   SING  15
+DTH  OXT  HXT   SING  16
+#

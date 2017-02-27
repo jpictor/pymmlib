@@ -1,0 +1,76 @@
+data_LPD
+#
+_chem_comp.id                       LPD
+_chem_comp.name                     L-PROLINAMIDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H10 N2 O1'
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            114.147
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          LPD
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1C[C@H](NC1)C(=O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+LPD  O     .  O  0  46.654  -9.264  64.795  1  N  1 
+LPD  C     .  C  0  46.597  -8.529  63.794  1  N  2 
+LPD  N2    .  N  0  47.175  -8.851  62.656  1  N  3 
+LPD  CA    .  C  0  45.766  -7.243  63.788  1  N  4 
+LPD  N     .  N  0  44.569  -7.513  64.571  1  N  5 
+LPD  CD    .  C  0  44.711  -6.944  65.900  1  N  6 
+LPD  CG    .  C  0  45.964  -6.064  65.887  1  N  7 
+LPD  CB    .  C  0  46.465  -6.063  64.462  1  N  8 
+LPD  1HN2  .  H  0  47.040  -8.159  61.947  0  N  9 
+LPD  2HN2  .  H  0  47.693  -9.695  62.516  0  N  10
+LPD  HA    .  H  0  45.576  -6.973  62.739  1  N  11
+LPD  HN    .  H  0  43.777  -7.103  64.118  1  N  12
+LPD  1HD   .  H  0  43.826  -6.341  66.152  0  N  13
+LPD  2HD   .  H  0  44.802  -7.739  66.655  0  N  14
+LPD  1HG   .  H  0  45.721  -5.041  66.212  0  N  15
+LPD  2HG   .  H  0  46.728  -6.448  66.578  0  N  16
+LPD  1HB   .  H  0  47.558  -6.184  64.430  0  N  17
+LPD  2HB   .  H  0  46.245  -5.113  63.953  0  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+LPD  O   C     DOUB  N  1 
+LPD  C   N2    SING  N  2 
+LPD  C   CA    SING  N  3 
+LPD  N2  1HN2  SING  N  4 
+LPD  N2  2HN2  SING  N  5 
+LPD  CA  N     SING  N  6 
+LPD  CA  CB    SING  N  7 
+LPD  CA  HA    SING  N  8 
+LPD  N   CD    SING  N  9 
+LPD  N   HN    SING  N  10
+LPD  CD  CG    SING  N  11
+LPD  CD  1HD   SING  N  12
+LPD  CD  2HD   SING  N  13
+LPD  CG  CB    SING  N  14
+LPD  CG  1HG   SING  N  15
+LPD  CG  2HG   SING  N  16
+LPD  CB  1HB   SING  N  17
+LPD  CB  2HB   SING  N  18
+#

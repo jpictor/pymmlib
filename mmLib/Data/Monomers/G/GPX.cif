@@ -1,0 +1,124 @@
+data_GPX
+#
+_chem_comp.id                   GPX
+_chem_comp.name                 'GUANOSINE 5'-DIPHOSPHATE 2':3'-CYCLIC MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        505.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GPX  P1    .  P  0  ?  ?  ?  1  1 
+GPX  N9    .  N  0  ?  ?  ?  1  2 
+GPX  C8    .  C  0  ?  ?  ?  1  3 
+GPX  N7    .  N  0  ?  ?  ?  1  4 
+GPX  C5    .  C  0  ?  ?  ?  1  5 
+GPX  C6    .  C  0  ?  ?  ?  1  6 
+GPX  O6    .  O  0  ?  ?  ?  1  7 
+GPX  N1    .  N  0  ?  ?  ?  1  8 
+GPX  C2    .  C  0  ?  ?  ?  1  9 
+GPX  N2    .  N  0  ?  ?  ?  1  10
+GPX  N3    .  N  0  ?  ?  ?  1  11
+GPX  C4    .  C  0  ?  ?  ?  1  12
+GPX  O11   .  O  0  ?  ?  ?  1  13
+GPX  O21   .  O  0  ?  ?  ?  1  14
+GPX  O3'   .  O  0  ?  ?  ?  1  15
+GPX  PA    .  P  0  ?  ?  ?  1  16
+GPX  O1A   .  O  0  ?  ?  ?  1  17
+GPX  O2A   .  O  0  ?  ?  ?  1  18
+GPX  O3A   .  O  0  ?  ?  ?  1  19
+GPX  O5'   .  O  0  ?  ?  ?  1  20
+GPX  PB    .  P  0  ?  ?  ?  1  21
+GPX  O1B   .  O  0  ?  ?  ?  1  22
+GPX  O2B   .  O  0  ?  ?  ?  1  23
+GPX  O3B   .  O  0  ?  ?  ?  1  24
+GPX  C5'   .  C  0  ?  ?  ?  1  25
+GPX  C4'   .  C  0  ?  ?  ?  1  26
+GPX  O4'   .  O  0  ?  ?  ?  1  27
+GPX  C1'   .  C  0  ?  ?  ?  1  28
+GPX  C2'   .  C  0  ?  ?  ?  1  29
+GPX  O2'   .  O  0  ?  ?  ?  1  30
+GPX  C3'   .  C  0  ?  ?  ?  1  31
+GPX  H1'   .  H  0  ?  ?  ?  1  32
+GPX  H2'   .  H  0  ?  ?  ?  1  33
+GPX  H3'   .  H  0  ?  ?  ?  1  34
+GPX  H4'   .  H  0  ?  ?  ?  1  35
+GPX  1H5'  .  H  0  ?  ?  ?  0  36
+GPX  2H5'  .  H  0  ?  ?  ?  0  37
+GPX  HO1   .  H  0  ?  ?  ?  1  38
+GPX  HN1   .  H  0  ?  ?  ?  1  39
+GPX  1HN2  .  H  0  ?  ?  ?  0  40
+GPX  2HN2  .  H  0  ?  ?  ?  0  41
+GPX  H8    .  H  0  ?  ?  ?  1  42
+GPX  2HOA  .  H  0  ?  ?  ?  0  43
+GPX  2HOB  .  H  0  ?  ?  ?  0  44
+GPX  3HOB  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GPX  P1   O11   SING  1 
+GPX  P1   O21   DOUB  2 
+GPX  P1   O3'   SING  3 
+GPX  P1   O2'   SING  4 
+GPX  N9   C8    SING  5 
+GPX  N9   C4    SING  6 
+GPX  N9   C1'   SING  7 
+GPX  C8   N7    DOUB  8 
+GPX  C8   H8    SING  9 
+GPX  N7   C5    SING  10
+GPX  C5   C6    SING  11
+GPX  C5   C4    DOUB  12
+GPX  C6   O6    DOUB  13
+GPX  C6   N1    SING  14
+GPX  N1   C2    SING  15
+GPX  N1   HN1   SING  16
+GPX  C2   N2    SING  17
+GPX  C2   N3    DOUB  18
+GPX  N2   1HN2  SING  19
+GPX  N2   2HN2  SING  20
+GPX  N3   C4    SING  21
+GPX  O11  HO1   SING  22
+GPX  O3'  C3'   SING  23
+GPX  PA   O1A   DOUB  24
+GPX  PA   O2A   SING  25
+GPX  PA   O3A   SING  26
+GPX  PA   O5'   SING  27
+GPX  O2A  2HOA  SING  28
+GPX  O3A  PB    SING  29
+GPX  O5'  C5'   SING  30
+GPX  PB   O1B   DOUB  31
+GPX  PB   O2B   SING  32
+GPX  PB   O3B   SING  33
+GPX  O2B  2HOB  SING  34
+GPX  O3B  3HOB  SING  35
+GPX  C5'  C4'   SING  36
+GPX  C5'  1H5'  SING  37
+GPX  C5'  2H5'  SING  38
+GPX  C4'  O4'   SING  39
+GPX  C4'  C3'   SING  40
+GPX  C4'  H4'   SING  41
+GPX  O4'  C1'   SING  42
+GPX  C1'  C2'   SING  43
+GPX  C1'  H1'   SING  44
+GPX  C2'  O2'   SING  45
+GPX  C2'  C3'   SING  46
+GPX  C2'  H2'   SING  47
+GPX  C3'  H3'   SING  48
+#

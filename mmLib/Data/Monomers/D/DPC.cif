@@ -1,0 +1,142 @@
+data_DPC
+#
+_chem_comp.id                   DPC
+_chem_comp.name                 '5-ACETYLAMINO-4-AMINO-6-(PHENETHYL-PROPYL-CARBAMOYL)-5,6-DIHYDRO-4H-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H27 N3 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        389.450
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPC  C1    .  C  0  ?  ?  ?  1  1 
+DPC  O1A   .  O  0  ?  ?  ?  1  2 
+DPC  O1B   .  O  0  ?  ?  ?  1  3 
+DPC  C2    .  C  0  ?  ?  ?  1  4 
+DPC  C3    .  C  0  ?  ?  ?  1  5 
+DPC  C4    .  C  0  ?  ?  ?  1  6 
+DPC  C5    .  C  0  ?  ?  ?  1  7 
+DPC  N5    .  N  0  ?  ?  ?  1  8 
+DPC  C10   .  C  0  ?  ?  ?  1  9 
+DPC  O10   .  O  0  ?  ?  ?  1  10
+DPC  C11   .  C  0  ?  ?  ?  1  11
+DPC  C6    .  C  0  ?  ?  ?  1  12
+DPC  O6    .  O  0  ?  ?  ?  1  13
+DPC  C7    .  C  0  ?  ?  ?  1  14
+DPC  O7    .  O  0  ?  ?  ?  1  15
+DPC  N8    .  N  0  ?  ?  ?  1  16
+DPC  C81   .  C  0  ?  ?  ?  1  17
+DPC  C82   .  C  0  ?  ?  ?  1  18
+DPC  CG    .  C  0  ?  ?  ?  1  19
+DPC  CD1   .  C  0  ?  ?  ?  1  20
+DPC  CD2   .  C  0  ?  ?  ?  1  21
+DPC  CE1   .  C  0  ?  ?  ?  1  22
+DPC  CE2   .  C  0  ?  ?  ?  1  23
+DPC  CZ    .  C  0  ?  ?  ?  1  24
+DPC  C9    .  C  0  ?  ?  ?  1  25
+DPC  C91   .  C  0  ?  ?  ?  1  26
+DPC  C92   .  C  0  ?  ?  ?  1  27
+DPC  NE    .  N  0  ?  ?  ?  1  28
+DPC  HO1   .  H  0  ?  ?  ?  1  29
+DPC  H3    .  H  0  ?  ?  ?  1  30
+DPC  H4    .  H  0  ?  ?  ?  1  31
+DPC  H5    .  H  0  ?  ?  ?  1  32
+DPC  HN5   .  H  0  ?  ?  ?  1  33
+DPC  1H11  .  H  0  ?  ?  ?  0  34
+DPC  2H11  .  H  0  ?  ?  ?  0  35
+DPC  3H11  .  H  0  ?  ?  ?  0  36
+DPC  H6    .  H  0  ?  ?  ?  1  37
+DPC  1H81  .  H  0  ?  ?  ?  0  38
+DPC  2H81  .  H  0  ?  ?  ?  0  39
+DPC  1H82  .  H  0  ?  ?  ?  0  40
+DPC  2H82  .  H  0  ?  ?  ?  0  41
+DPC  HD1   .  H  0  ?  ?  ?  1  42
+DPC  HD2   .  H  0  ?  ?  ?  1  43
+DPC  HE1   .  H  0  ?  ?  ?  1  44
+DPC  HE2   .  H  0  ?  ?  ?  1  45
+DPC  HZ    .  H  0  ?  ?  ?  1  46
+DPC  1H9   .  H  0  ?  ?  ?  0  47
+DPC  2H9   .  H  0  ?  ?  ?  0  48
+DPC  1H91  .  H  0  ?  ?  ?  0  49
+DPC  2H91  .  H  0  ?  ?  ?  0  50
+DPC  1H92  .  H  0  ?  ?  ?  0  51
+DPC  2H92  .  H  0  ?  ?  ?  0  52
+DPC  3H92  .  H  0  ?  ?  ?  0  53
+DPC  1HNE  .  H  0  ?  ?  ?  0  54
+DPC  2HNE  .  H  0  ?  ?  ?  0  55
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPC  C1   O1A   DOUB  1 
+DPC  C1   O1B   SING  2 
+DPC  C1   C2    SING  3 
+DPC  O1B  HO1   SING  4 
+DPC  C2   C3    DOUB  5 
+DPC  C2   O6    SING  6 
+DPC  C3   C4    SING  7 
+DPC  C3   H3    SING  8 
+DPC  C4   C5    SING  9 
+DPC  C4   NE    SING  10
+DPC  C4   H4    SING  11
+DPC  C5   N5    SING  12
+DPC  C5   C6    SING  13
+DPC  C5   H5    SING  14
+DPC  N5   C10   SING  15
+DPC  N5   HN5   SING  16
+DPC  C10  O10   DOUB  17
+DPC  C10  C11   SING  18
+DPC  C11  1H11  SING  19
+DPC  C11  2H11  SING  20
+DPC  C11  3H11  SING  21
+DPC  C6   O6    SING  22
+DPC  C6   C7    SING  23
+DPC  C6   H6    SING  24
+DPC  C7   O7    DOUB  25
+DPC  C7   N8    SING  26
+DPC  N8   C81   SING  27
+DPC  N8   C9    SING  28
+DPC  C81  C82   SING  29
+DPC  C81  1H81  SING  30
+DPC  C81  2H81  SING  31
+DPC  C82  CG    SING  32
+DPC  C82  1H82  SING  33
+DPC  C82  2H82  SING  34
+DPC  CG   CD1   DOUB  35
+DPC  CG   CD2   SING  36
+DPC  CD1  CE1   SING  37
+DPC  CD1  HD1   SING  38
+DPC  CD2  CE2   DOUB  39
+DPC  CD2  HD2   SING  40
+DPC  CE1  CZ    DOUB  41
+DPC  CE1  HE1   SING  42
+DPC  CE2  CZ    SING  43
+DPC  CE2  HE2   SING  44
+DPC  CZ   HZ    SING  45
+DPC  C9   C91   SING  46
+DPC  C9   1H9   SING  47
+DPC  C9   2H9   SING  48
+DPC  C91  C92   SING  49
+DPC  C91  1H91  SING  50
+DPC  C91  2H91  SING  51
+DPC  C92  1H92  SING  52
+DPC  C92  2H92  SING  53
+DPC  C92  3H92  SING  54
+DPC  NE   1HNE  SING  55
+DPC  NE   2HNE  SING  56
+#

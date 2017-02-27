@@ -1,0 +1,86 @@
+data_CAM
+#
+_chem_comp.id                   CAM
+_chem_comp.name                 CAMPHOR
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CAM  C1    .  C  0  ?  ?  ?  1  1 
+CAM  C2    .  C  0  ?  ?  ?  1  2 
+CAM  O     .  O  0  ?  ?  ?  1  3 
+CAM  C3    .  C  0  ?  ?  ?  1  4 
+CAM  C4    .  C  0  ?  ?  ?  1  5 
+CAM  C5    .  C  0  ?  ?  ?  1  6 
+CAM  C6    .  C  0  ?  ?  ?  1  7 
+CAM  C7    .  C  0  ?  ?  ?  1  8 
+CAM  C8    .  C  0  ?  ?  ?  1  9 
+CAM  C9    .  C  0  ?  ?  ?  1  10
+CAM  C10   .  C  0  ?  ?  ?  1  11
+CAM  1H3   .  H  0  ?  ?  ?  0  12
+CAM  2H3   .  H  0  ?  ?  ?  0  13
+CAM  H4    .  H  0  ?  ?  ?  1  14
+CAM  1H5   .  H  0  ?  ?  ?  0  15
+CAM  2H5   .  H  0  ?  ?  ?  0  16
+CAM  1H6   .  H  0  ?  ?  ?  0  17
+CAM  2H6   .  H  0  ?  ?  ?  0  18
+CAM  1H8   .  H  0  ?  ?  ?  0  19
+CAM  2H8   .  H  0  ?  ?  ?  0  20
+CAM  3H8   .  H  0  ?  ?  ?  0  21
+CAM  1H9   .  H  0  ?  ?  ?  0  22
+CAM  2H9   .  H  0  ?  ?  ?  0  23
+CAM  3H9   .  H  0  ?  ?  ?  0  24
+CAM  1H10  .  H  0  ?  ?  ?  0  25
+CAM  2H10  .  H  0  ?  ?  ?  0  26
+CAM  3H10  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CAM  C1   C2    SING  1 
+CAM  C1   C6    SING  2 
+CAM  C1   C7    SING  3 
+CAM  C1   C10   SING  4 
+CAM  C2   C3    SING  5 
+CAM  C2   O     DOUB  6 
+CAM  C3   C4    SING  7 
+CAM  C3   1H3   SING  8 
+CAM  C3   2H3   SING  9 
+CAM  C4   C5    SING  10
+CAM  C4   C7    SING  11
+CAM  C4   H4    SING  12
+CAM  C5   C6    SING  13
+CAM  C5   1H5   SING  14
+CAM  C5   2H5   SING  15
+CAM  C6   1H6   SING  16
+CAM  C6   2H6   SING  17
+CAM  C7   C8    SING  18
+CAM  C7   C9    SING  19
+CAM  C8   1H8   SING  20
+CAM  C8   2H8   SING  21
+CAM  C8   3H8   SING  22
+CAM  C9   1H9   SING  23
+CAM  C9   2H9   SING  24
+CAM  C9   3H9   SING  25
+CAM  C10  1H10  SING  26
+CAM  C10  2H10  SING  27
+CAM  C10  3H10  SING  28
+#

@@ -1,0 +1,88 @@
+data_ATZ
+#
+_chem_comp.id                   ATZ
+_chem_comp.name                 '2-CHLORO-4-ISOPROPYLAMINO-6-ETHYLAMINO -1,3,5-TRIAZINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 N5 CL1'
+_chem_comp.pdbx_synonyms        ATRAZINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.685
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATZ  N1    .  N   0  ?  ?  ?  1  1 
+ATZ  C2    .  C   0  ?  ?  ?  1  2 
+ATZ  CL2   .  CL  0  ?  ?  ?  0  3 
+ATZ  N3    .  N   0  ?  ?  ?  1  4 
+ATZ  C4    .  C   0  ?  ?  ?  1  5 
+ATZ  N5    .  N   0  ?  ?  ?  1  6 
+ATZ  C6    .  C   0  ?  ?  ?  1  7 
+ATZ  N7    .  N   0  ?  ?  ?  1  8 
+ATZ  C8    .  C   0  ?  ?  ?  1  9 
+ATZ  C9    .  C   0  ?  ?  ?  1  10
+ATZ  C10   .  C   0  ?  ?  ?  1  11
+ATZ  N11   .  N   0  ?  ?  ?  1  12
+ATZ  C12   .  C   0  ?  ?  ?  1  13
+ATZ  C13   .  C   0  ?  ?  ?  1  14
+ATZ  HN7   .  H   0  ?  ?  ?  1  15
+ATZ  H8    .  H   0  ?  ?  ?  1  16
+ATZ  1H9   .  H   0  ?  ?  ?  0  17
+ATZ  2H9   .  H   0  ?  ?  ?  0  18
+ATZ  3H9   .  H   0  ?  ?  ?  0  19
+ATZ  1H10  .  H   0  ?  ?  ?  0  20
+ATZ  2H10  .  H   0  ?  ?  ?  0  21
+ATZ  3H10  .  H   0  ?  ?  ?  0  22
+ATZ  H11   .  H   0  ?  ?  ?  1  23
+ATZ  1H12  .  H   0  ?  ?  ?  0  24
+ATZ  2H12  .  H   0  ?  ?  ?  0  25
+ATZ  1H13  .  H   0  ?  ?  ?  0  26
+ATZ  2H13  .  H   0  ?  ?  ?  0  27
+ATZ  3H13  .  H   0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATZ  N1   C2    DOUB  1 
+ATZ  N1   C6    SING  2 
+ATZ  C2   CL2   SING  3 
+ATZ  C2   N3    SING  4 
+ATZ  N3   C4    DOUB  5 
+ATZ  C4   N5    SING  6 
+ATZ  C4   N7    SING  7 
+ATZ  N5   C6    DOUB  8 
+ATZ  C6   N11   SING  9 
+ATZ  N7   C8    SING  10
+ATZ  N7   HN7   SING  11
+ATZ  C8   C9    SING  12
+ATZ  C8   C10   SING  13
+ATZ  C8   H8    SING  14
+ATZ  C9   1H9   SING  15
+ATZ  C9   2H9   SING  16
+ATZ  C9   3H9   SING  17
+ATZ  C10  1H10  SING  18
+ATZ  C10  2H10  SING  19
+ATZ  C10  3H10  SING  20
+ATZ  N11  C12   SING  21
+ATZ  N11  H11   SING  22
+ATZ  C12  C13   SING  23
+ATZ  C12  1H12  SING  24
+ATZ  C12  2H12  SING  25
+ATZ  C13  1H13  SING  26
+ATZ  C13  2H13  SING  27
+ATZ  C13  3H13  SING  28
+#

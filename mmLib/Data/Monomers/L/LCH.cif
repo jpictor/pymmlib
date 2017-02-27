@@ -1,0 +1,111 @@
+data_LCH
+#
+_chem_comp.id                   LCH
+_chem_comp.name                 '[(1R,3R,4R,7S)-7-HYDROXY-3-(5-METHYLCYTOSIN-1-YL)-2,5-DIOXABICYCLO[2.2.1]HEPT-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N3 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        349.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LCH  O5*   .  O  0  -8.45    2.731  -4.562  1  1 
+LCH  C5*   .  C  0  -8.244   2.297  -5.893  1  2 
+LCH  C4*   .  C  0  -6.765   2.37   -6.271  1  3 
+LCH  O4*   .  O  0  -6.24    3.699  -6.148  1  4 
+LCH  C1*   .  C  0  -4.82    3.566  -6.253  1  5 
+LCH  N1    .  N  0  -4.058   4.101  -5.079  1  6 
+LCH  C6    .  C  0  -4.662   4.364  -3.854  1  7 
+LCH  C5    .  C  0  -3.953   4.768  -2.764  1  8 
+LCH  C5M   .  C  0  -4.643   5.019  -1.434  1  9 
+LCH  C4    .  C  0  -2.532   4.953  -2.927  1  10
+LCH  N4    .  N  0  -1.72    5.347  -1.936  1  11
+LCH  N3    .  N  1  -1.96    4.739  -4.161  1  12
+LCH  C2    .  C  0  -2.681   4.295  -5.262  1  13
+LCH  O2    .  O  0  -2.11    4.087  -6.332  1  14
+LCH  C3*   .  C  0  -5.769   1.544  -5.467  1  15
+LCH  C2*   .  C  0  -4.67    2.055  -6.411  1  16
+LCH  O2*   .  O  0  -5.073   1.851  -7.747  1  17
+LCH  O3*   .  O  0  -5.958   .154   -5.137  1  18
+LCH  C6*   .  C  0  -6.475   1.912  -7.7    1  19
+LCH  P     .  P  0  -9.898   3.264  -4.086  1  20
+LCH  O1P   .  O  0  -10.945  2.471  -4.769  1  21
+LCH  O2P   .  O  0  -9.894   3.368  -2.609  1  22
+LCH  OXT   .  O  0  ?        ?      ?       1  23
+LCH  HXT   .  H  0  ?        ?      ?       1  24
+LCH  1H5*  .  H  0  -8.802   2.941  -6.576  0  25
+LCH  2H5*  .  H  0  -8.606   1.274  -6      0  26
+LCH  H1*   .  H  0  -4.455   3.989  -7.195  1  27
+LCH  H6    .  H  0  -5.733   4.257  -3.732  1  28
+LCH  1H5M  .  H  0  -4.305   5.965  -1.012  0  29
+LCH  2H5M  .  H  0  -4.402   4.21   -.743   0  30
+LCH  3H5M  .  H  0  -5.724   5.063  -1.566  0  31
+LCH  1H4   .  H  0  -.73     5.482  -2.106  0  32
+LCH  2H4   .  H  0  -2.085   5.504  -1.007  0  33
+LCH  H3*   .  H  0  -5.659   2.018  -4.491  1  34
+LCH  1H2*  .  H  0  -3.655   1.719  -6.252  0  35
+LCH  1H6*  .  H  0  -6.888   2.586  -8.451  0  36
+LCH  2H6*  .  H  0  -6.803   .899   -7.829  0  37
+LCH  H3    .  H  1  -.974    4.919  -4.297  1  38
+LCH  HA    .  H  0  -5.337   -.361  -4.636  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LCH  O5*  C5*   SING  1 
+LCH  O5*  P     SING  2 
+LCH  C5*  C4*   SING  3 
+LCH  C5*  1H5*  SING  4 
+LCH  C5*  2H5*  SING  5 
+LCH  C4*  O4*   SING  6 
+LCH  C4*  C3*   SING  7 
+LCH  C4*  C6*   SING  8 
+LCH  O4*  C1*   SING  9 
+LCH  C1*  N1    SING  10
+LCH  C1*  C2*   SING  11
+LCH  C1*  H1*   SING  12
+LCH  N1   C6    SING  13
+LCH  N1   C2    SING  14
+LCH  C6   C5    DOUB  15
+LCH  C6   H6    SING  16
+LCH  C5   C5M   SING  17
+LCH  C5   C4    SING  18
+LCH  C5M  1H5M  SING  19
+LCH  C5M  2H5M  SING  20
+LCH  C5M  3H5M  SING  21
+LCH  C4   N4    SING  22
+LCH  C4   N3    DOUB  23
+LCH  N4   1H4   SING  24
+LCH  N4   2H4   SING  25
+LCH  N3   C2    SING  26
+LCH  N3   H3    SING  27
+LCH  C2   O2    DOUB  28
+LCH  C3*  C2*   SING  29
+LCH  C3*  O3*   SING  30
+LCH  C3*  H3*   SING  31
+LCH  C2*  O2*   SING  32
+LCH  C2*  1H2*  SING  33
+LCH  O2*  C6*   SING  34
+LCH  O3*  HA    SING  35
+LCH  C6*  1H6*  SING  36
+LCH  C6*  2H6*  SING  37
+LCH  P    O1P   DOUB  38
+LCH  P    O2P   SING  39
+LCH  P    OXT   SING  40
+LCH  OXT  HXT   SING  41
+#

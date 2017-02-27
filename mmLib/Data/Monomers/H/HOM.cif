@@ -1,0 +1,88 @@
+data_HOM
+#
+_chem_comp.id                   HOM
+_chem_comp.name                 7-HYDROXY-4-METHYL-3-(2-HYDROXY-ETHYL)COUMARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        220.224
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HOM  CA    .  C  0  ?  ?  ?  1  1 
+HOM  CA2   .  C  0  ?  ?  ?  1  2 
+HOM  CA3   .  C  0  ?  ?  ?  1  3 
+HOM  CA4   .  C  0  ?  ?  ?  1  4 
+HOM  CA5   .  C  0  ?  ?  ?  1  5 
+HOM  CA6   .  C  0  ?  ?  ?  1  6 
+HOM  CA7   .  C  0  ?  ?  ?  1  7 
+HOM  CA8   .  C  0  ?  ?  ?  1  8 
+HOM  CA9   .  C  0  ?  ?  ?  1  9 
+HOM  CB    .  C  0  ?  ?  ?  1  10
+HOM  CB7   .  C  0  ?  ?  ?  1  11
+HOM  CB8   .  C  0  ?  ?  ?  1  12
+HOM  OA2   .  O  0  ?  ?  ?  1  13
+HOM  OA3   .  O  0  ?  ?  ?  1  14
+HOM  OA4   .  O  0  ?  ?  ?  1  15
+HOM  OA1   .  O  0  ?  ?  ?  1  16
+HOM  1HB8  .  H  0  ?  ?  ?  0  17
+HOM  2HB8  .  H  0  ?  ?  ?  0  18
+HOM  3HB8  .  H  0  ?  ?  ?  0  19
+HOM  1HA7  .  H  0  ?  ?  ?  0  20
+HOM  1HA6  .  H  0  ?  ?  ?  0  21
+HOM  1HO4  .  H  0  ?  ?  ?  0  22
+HOM  1HA4  .  H  0  ?  ?  ?  0  23
+HOM  1HB   .  H  0  ?  ?  ?  0  24
+HOM  2HB   .  H  0  ?  ?  ?  0  25
+HOM  1HB7  .  H  0  ?  ?  ?  0  26
+HOM  2HB7  .  H  0  ?  ?  ?  0  27
+HOM  1HO1  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HOM  CA   CA2   SING  1 
+HOM  CA   CA9   DOUB  2 
+HOM  CA   CB    SING  3 
+HOM  CA2  OA2   DOUB  4 
+HOM  CA2  OA3   SING  5 
+HOM  CA3  CA4   DOUB  6 
+HOM  CA3  CA8   SING  7 
+HOM  CA3  OA3   SING  8 
+HOM  CA4  CA5   SING  9 
+HOM  CA4  1HA4  SING  10
+HOM  CA5  CA6   DOUB  11
+HOM  CA5  OA4   SING  12
+HOM  CA6  CA7   SING  13
+HOM  CA6  1HA6  SING  14
+HOM  CA7  CA8   DOUB  15
+HOM  CA7  1HA7  SING  16
+HOM  CA8  CA9   SING  17
+HOM  CA9  CB8   SING  18
+HOM  CB   CB7   SING  19
+HOM  CB   1HB   SING  20
+HOM  CB   2HB   SING  21
+HOM  CB7  OA1   SING  22
+HOM  CB7  1HB7  SING  23
+HOM  CB7  2HB7  SING  24
+HOM  CB8  1HB8  SING  25
+HOM  CB8  2HB8  SING  26
+HOM  CB8  3HB8  SING  27
+HOM  OA4  1HO4  SING  28
+HOM  OA1  1HO1  SING  29
+#

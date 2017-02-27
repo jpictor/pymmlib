@@ -1,0 +1,94 @@
+data_EMO
+#
+_chem_comp.id                   EMO
+_chem_comp.name                 3-METHYL-1,6,8-TRIHYDROXYANTHRAQUINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O5'
+_chem_comp.pdbx_synonyms        EMODIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EMO  C1    .  C  0  ?  ?  ?  1  1 
+EMO  O1    .  O  0  ?  ?  ?  1  2 
+EMO  C2    .  C  0  ?  ?  ?  1  3 
+EMO  C3    .  C  0  ?  ?  ?  1  4 
+EMO  O3    .  O  0  ?  ?  ?  1  5 
+EMO  C4    .  C  0  ?  ?  ?  1  6 
+EMO  C5    .  C  0  ?  ?  ?  1  7 
+EMO  C6    .  C  0  ?  ?  ?  1  8 
+EMO  O6    .  O  0  ?  ?  ?  1  9 
+EMO  C7    .  C  0  ?  ?  ?  1  10
+EMO  C8    .  C  0  ?  ?  ?  1  11
+EMO  C9    .  C  0  ?  ?  ?  1  12
+EMO  C10   .  C  0  ?  ?  ?  1  13
+EMO  C16   .  C  0  ?  ?  ?  1  14
+EMO  C17   .  C  0  ?  ?  ?  1  15
+EMO  O17   .  O  0  ?  ?  ?  1  16
+EMO  C18   .  C  0  ?  ?  ?  1  17
+EMO  C19   .  C  0  ?  ?  ?  1  18
+EMO  O19   .  O  0  ?  ?  ?  1  19
+EMO  C20   .  C  0  ?  ?  ?  1  20
+EMO  HO1   .  H  0  ?  ?  ?  1  21
+EMO  HO3   .  H  0  ?  ?  ?  1  22
+EMO  H17   .  H  0  ?  ?  ?  1  23
+EMO  H2    .  H  0  ?  ?  ?  1  24
+EMO  H4    .  H  0  ?  ?  ?  1  25
+EMO  H8    .  H  0  ?  ?  ?  1  26
+EMO  H16   .  H  0  ?  ?  ?  1  27
+EMO  1H10  .  H  0  ?  ?  ?  0  28
+EMO  2H10  .  H  0  ?  ?  ?  0  29
+EMO  3H10  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EMO  C1   O1    SING  1 
+EMO  C1   C2    DOUB  2 
+EMO  C1   C20   SING  3 
+EMO  O1   HO1   SING  4 
+EMO  C2   C3    SING  5 
+EMO  C2   H2    SING  6 
+EMO  C3   O3    SING  7 
+EMO  C3   C4    DOUB  8 
+EMO  O3   HO3   SING  9 
+EMO  C4   C5    SING  10
+EMO  C4   H4    SING  11
+EMO  C5   C6    SING  12
+EMO  C5   C20   DOUB  13
+EMO  C6   O6    DOUB  14
+EMO  C6   C7    SING  15
+EMO  C7   C8    DOUB  16
+EMO  C7   C18   SING  17
+EMO  C8   C9    SING  18
+EMO  C8   H8    SING  19
+EMO  C9   C10   SING  20
+EMO  C9   C16   DOUB  21
+EMO  C10  1H10  SING  22
+EMO  C10  2H10  SING  23
+EMO  C10  3H10  SING  24
+EMO  C16  C17   SING  25
+EMO  C16  H16   SING  26
+EMO  C17  O17   SING  27
+EMO  C17  C18   DOUB  28
+EMO  O17  H17   SING  29
+EMO  C18  C19   SING  30
+EMO  C19  O19   DOUB  31
+EMO  C19  C20   SING  32
+#

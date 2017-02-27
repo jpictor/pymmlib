@@ -1,0 +1,103 @@
+data_PT1
+#
+_chem_comp.id                   PT1
+_chem_comp.name                 'PTEROIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 N6 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        312.287
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PT1  C2    .  C  0  ?  ?  ?  1  1 
+PT1  C3    .  C  0  ?  ?  ?  1  2 
+PT1  C5    .  C  0  ?  ?  ?  1  3 
+PT1  N6    .  N  0  ?  ?  ?  1  4 
+PT1  C7    .  C  0  ?  ?  ?  1  5 
+PT1  N9    .  N  0  ?  ?  ?  1  6 
+PT1  C10   .  C  0  ?  ?  ?  1  7 
+PT1  N11   .  N  0  ?  ?  ?  1  8 
+PT1  C12   .  C  0  ?  ?  ?  1  9 
+PT1  C21   .  C  0  ?  ?  ?  1  10
+PT1  O22   .  O  0  ?  ?  ?  1  11
+PT1  O1    .  O  0  ?  ?  ?  1  12
+PT1  N4    .  N  0  ?  ?  ?  1  13
+PT1  N8    .  N  0  ?  ?  ?  1  14
+PT1  C13   .  C  0  ?  ?  ?  1  15
+PT1  N14   .  N  0  ?  ?  ?  1  16
+PT1  C15   .  C  0  ?  ?  ?  1  17
+PT1  C16   .  C  0  ?  ?  ?  1  18
+PT1  C17   .  C  0  ?  ?  ?  1  19
+PT1  C18   .  C  0  ?  ?  ?  1  20
+PT1  C19   .  C  0  ?  ?  ?  1  21
+PT1  C20   .  C  0  ?  ?  ?  1  22
+PT1  O23   .  O  0  ?  ?  ?  1  23
+PT1  1H11  .  H  0  ?  ?  ?  0  24
+PT1  2H11  .  H  0  ?  ?  ?  0  25
+PT1  H12   .  H  0  ?  ?  ?  1  26
+PT1  HO1   .  H  0  ?  ?  ?  1  27
+PT1  1H13  .  H  0  ?  ?  ?  0  28
+PT1  2H13  .  H  0  ?  ?  ?  0  29
+PT1  H14   .  H  0  ?  ?  ?  1  30
+PT1  H16   .  H  0  ?  ?  ?  1  31
+PT1  H17   .  H  0  ?  ?  ?  1  32
+PT1  H18   .  H  0  ?  ?  ?  1  33
+PT1  H19   .  H  0  ?  ?  ?  1  34
+PT1  H23   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PT1  C2   C3    SING  1 
+PT1  C2   O1    SING  2 
+PT1  C2   N4    DOUB  3 
+PT1  C3   C5    DOUB  4 
+PT1  C3   N6    SING  5 
+PT1  C5   N9    SING  6 
+PT1  C5   N8    SING  7 
+PT1  N6   C10   DOUB  8 
+PT1  C7   N9    DOUB  9 
+PT1  C7   N11   SING  10
+PT1  C7   N4    SING  11
+PT1  C10  C12   SING  12
+PT1  C10  C13   SING  13
+PT1  N11  1H11  SING  14
+PT1  N11  2H11  SING  15
+PT1  C12  N8    DOUB  16
+PT1  C12  H12   SING  17
+PT1  C21  O22   DOUB  18
+PT1  C21  C20   SING  19
+PT1  C21  O23   SING  20
+PT1  O1   HO1   SING  21
+PT1  C13  N14   SING  22
+PT1  C13  1H13  SING  23
+PT1  C13  2H13  SING  24
+PT1  N14  C15   SING  25
+PT1  N14  H14   SING  26
+PT1  C15  C16   DOUB  27
+PT1  C15  C17   SING  28
+PT1  C16  C18   SING  29
+PT1  C16  H16   SING  30
+PT1  C17  C19   DOUB  31
+PT1  C17  H17   SING  32
+PT1  C18  C20   DOUB  33
+PT1  C18  H18   SING  34
+PT1  C19  C20   SING  35
+PT1  C19  H19   SING  36
+PT1  O23  H23   SING  37
+#

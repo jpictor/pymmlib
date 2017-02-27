@@ -1,0 +1,101 @@
+data_TTQ
+#
+_chem_comp.id                       TTQ
+_chem_comp.name                     6-AMINO-7-HYDROXY-L-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H13 N3 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            235.242
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          TTQ
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(c(c2c1C(=CN2)C[C@@H](C(=O)O)N)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+TTQ  N     .  N  0  2.990  -6.338  47.020  1  N  1 
+TTQ  CA    .  C  0  3.875  -5.668  47.931  1  N  2 
+TTQ  C     .  C  0  3.006  -5.000  49.009  1  N  3 
+TTQ  O     .  O  0  1.800  -4.795  48.802  1  N  4 
+TTQ  CB    .  C  0  4.832  -4.701  47.195  1  N  5 
+TTQ  CG    .  C  0  4.240  -3.612  46.353  1  N  6 
+TTQ  CD1   .  C  0  3.938  -2.364  46.808  1  N  7 
+TTQ  CD2   .  C  0  3.940  -3.579  44.901  1  Y  8 
+TTQ  NE1   .  N  0  3.479  -1.591  45.809  1  N  9 
+TTQ  CE2   .  C  0  3.457  -2.292  44.636  1  Y  10
+TTQ  CE3   .  C  0  4.006  -4.500  43.809  1  Y  11
+TTQ  CZ2   .  C  0  3.072  -1.880  43.368  1  Y  12
+TTQ  CZ3   .  C  0  3.637  -4.061  42.561  1  Y  13
+TTQ  CH2   .  C  0  3.167  -2.788  42.348  1  Y  14
+TTQ  O2    .  O  0  2.626  -0.617  43.146  1  N  15
+TTQ  N2    .  N  0  2.796  -2.432  41.025  1  N  16
+TTQ  OXT   .  O  0  3.604  -4.738  50.175  1  N  17
+TTQ  1HN   .  H  0  2.108  -6.494  47.465  0  N  18
+TTQ  2HN   .  H  0  2.857  -5.771  46.207  0  N  19
+TTQ  HA    .  H  0  4.552  -6.382  48.423  1  N  20
+TTQ  1HB   .  H  0  5.446  -5.319  46.523  0  N  21
+TTQ  2HB   .  H  0  5.359  -4.169  48.001  0  N  22
+TTQ  HD1   .  H  0  4.052  -2.040  47.832  1  N  23
+TTQ  HNE1  .  H  0  3.194  -0.638  45.910  0  N  24
+TTQ  HE3   .  H  0  4.338  -5.516  43.962  1  N  25
+TTQ  HZ3   .  H  0  3.719  -4.737  41.722  1  N  26
+TTQ  HO2   .  H  0  2.522  -0.167  43.976  1  N  27
+TTQ  1HN2  .  H  0  1.801  -2.348  40.968  0  N  28
+TTQ  2HN2  .  H  0  3.218  -1.558  40.784  0  N  29
+TTQ  HOXT  .  H  0  2.968  -4.384  50.785  0  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+TTQ  N    CA    SING  N  1 
+TTQ  N    1HN   SING  N  2 
+TTQ  N    2HN   SING  N  3 
+TTQ  CA   CB    SING  N  4 
+TTQ  CA   C     SING  N  5 
+TTQ  CA   HA    SING  N  6 
+TTQ  C    O     DOUB  N  7 
+TTQ  C    OXT   SING  N  8 
+TTQ  CB   CG    SING  N  9 
+TTQ  CB   1HB   SING  N  10
+TTQ  CB   2HB   SING  N  11
+TTQ  CG   CD2   SING  N  12
+TTQ  CG   CD1   DOUB  N  13
+TTQ  CD1  NE1   SING  N  14
+TTQ  CD1  HD1   SING  N  15
+TTQ  CD2  CE3   DOUB  Y  16
+TTQ  CD2  CE2   SING  Y  17
+TTQ  NE1  CE2   SING  N  18
+TTQ  NE1  HNE1  SING  N  19
+TTQ  CE2  CZ2   DOUB  Y  20
+TTQ  CE3  CZ3   SING  Y  21
+TTQ  CE3  HE3   SING  N  22
+TTQ  CZ2  CH2   SING  Y  23
+TTQ  CZ2  O2    SING  N  24
+TTQ  CZ3  CH2   DOUB  Y  25
+TTQ  CZ3  HZ3   SING  N  26
+TTQ  CH2  N2    SING  N  27
+TTQ  O2   HO2   SING  N  28
+TTQ  N2   1HN2  SING  N  29
+TTQ  N2   2HN2  SING  N  30
+TTQ  OXT  HOXT  SING  N  31
+#

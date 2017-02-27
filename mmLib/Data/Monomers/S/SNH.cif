@@ -1,0 +1,123 @@
+data_SNH
+#
+_chem_comp.id                   SNH
+_chem_comp.name                 '5'-ACETYL-4-{[(2,4-DIMETHYLPHENYL)SULFONYL]AMINO}-2,2'-BITHIOPHENE-5-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H17 N1 O5 S3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        435.527
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SNH  C1    .  C  0  9.061   32.449  72.431  1  1 
+SNH  C2    .  C  0  8.861   33.176  73.584  1  2 
+SNH  C3    .  C  0  7.489   33.537  73.830  1  3 
+SNH  C4    .  C  0  6.663   33.054  72.814  1  4 
+SNH  S5    .  S  0  7.593   32.187  71.626  1  5 
+SNH  C6    .  C  0  5.193   33.231  72.722  1  6 
+SNH  O7    .  O  0  4.608   32.731  71.743  1  7 
+SNH  O8    .  O  0  4.580   33.864  73.607  1  8 
+SNH  N9    .  N  0  7.037   34.270  74.945  1  9 
+SNH  S11   .  S  0  7.865   35.518  75.715  1  10
+SNH  O12   .  O  0  7.004   36.152  76.686  1  11
+SNH  O13   .  O  0  9.063   34.935  76.301  1  12
+SNH  C14   .  C  0  8.301   36.767  74.483  1  13
+SNH  C15   .  C  0  9.681   36.932  74.170  1  14
+SNH  C16   .  C  0  10.108  37.884  73.212  1  15
+SNH  C17   .  C  0  9.163   38.699  72.540  1  16
+SNH  C18   .  C  0  7.782   38.535  72.851  1  17
+SNH  C19   .  C  0  7.325   37.581  73.813  1  18
+SNH  C20   .  C  0  5.831   37.486  74.066  1  19
+SNH  C21   .  C  0  9.597   39.714  71.521  1  20
+SNH  C22   .  C  0  10.349  31.940  71.922  1  21
+SNH  C23   .  C  0  10.498  30.823  71.128  1  22
+SNH  C24   .  C  0  11.841  30.556  70.784  1  23
+SNH  C25   .  C  0  12.723  31.480  71.322  1  24
+SNH  S26   .  S  0  11.871  32.657  72.237  1  25
+SNH  C27   .  C  0  14.208  31.461  71.138  1  26
+SNH  C28   .  C  0  14.847  30.361  70.299  1  27
+SNH  O29   .  O  0  14.922  32.313  71.649  1  28
+SNH  HO7   .  H  0  ?       ?       ?       1  29
+SNH  H2    .  H  0  ?       ?       ?       1  30
+SNH  HN9   .  H  0  ?       ?       ?       1  31
+SNH  H15   .  H  0  ?       ?       ?       1  32
+SNH  H16   .  H  0  ?       ?       ?       1  33
+SNH  H18   .  H  0  ?       ?       ?       1  34
+SNH  1H20  .  H  0  ?       ?       ?       0  35
+SNH  2H20  .  H  0  ?       ?       ?       0  36
+SNH  3H20  .  H  0  ?       ?       ?       0  37
+SNH  1H21  .  H  0  ?       ?       ?       0  38
+SNH  2H21  .  H  0  ?       ?       ?       0  39
+SNH  3H21  .  H  0  ?       ?       ?       0  40
+SNH  H24   .  H  0  ?       ?       ?       1  41
+SNH  H23   .  H  0  ?       ?       ?       1  42
+SNH  1H28  .  H  0  ?       ?       ?       0  43
+SNH  2H28  .  H  0  ?       ?       ?       0  44
+SNH  3H28  .  H  0  ?       ?       ?       0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SNH  C1   S5    AROM  1 
+SNH  C1   C2    AROM  2 
+SNH  C1   C22   SING  3 
+SNH  C2   H2    SING  4 
+SNH  C2   C3    AROM  5 
+SNH  C3   C4    AROM  6 
+SNH  C3   N9    SING  7 
+SNH  C4   C6    SING  8 
+SNH  C4   S5    AROM  9 
+SNH  C6   O7    SING  10
+SNH  C6   O8    DOUB  11
+SNH  O7   HO7   SING  12
+SNH  N9   HN9   SING  13
+SNH  N9   S11   SING  14
+SNH  S11  O12   DOUB  15
+SNH  S11  O13   DOUB  16
+SNH  S11  C14   SING  17
+SNH  C14  C15   AROM  18
+SNH  C14  C19   AROM  19
+SNH  C15  H15   SING  20
+SNH  C15  C16   AROM  21
+SNH  C16  H16   SING  22
+SNH  C16  C17   AROM  23
+SNH  C17  C18   AROM  24
+SNH  C17  C21   SING  25
+SNH  C18  H18   SING  26
+SNH  C18  C19   AROM  27
+SNH  C19  C20   SING  28
+SNH  C20  1H20  SING  29
+SNH  C20  2H20  SING  30
+SNH  C20  3H20  SING  31
+SNH  C21  1H21  SING  32
+SNH  C21  2H21  SING  33
+SNH  C21  3H21  SING  34
+SNH  C22  S26   AROM  35
+SNH  C22  C23   AROM  36
+SNH  C23  C24   AROM  37
+SNH  C23  H23   SING  38
+SNH  C24  C25   AROM  39
+SNH  C24  H24   SING  40
+SNH  C25  S26   AROM  41
+SNH  C25  C27   SING  42
+SNH  C27  O29   DOUB  43
+SNH  C27  C28   SING  44
+SNH  C28  1H28  SING  45
+SNH  C28  2H28  SING  46
+SNH  C28  3H28  SING  47
+#

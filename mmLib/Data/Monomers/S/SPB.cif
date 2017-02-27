@@ -1,0 +1,117 @@
+data_SPB
+#
+_chem_comp.id                   SPB
+_chem_comp.name                 '4-(4-STYRYL-PHENYLCARBAMOYL)-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H19 N1 O3'
+_chem_comp.pdbx_synonyms        '5-OXO-5-({4-[(E)-2-PHENYLVINYL]PHENYL}AMINO)PENTANOIC ACID; N-(TRANS-4-STILBENYL)-5-AMINO-5-OXO-PENTANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        309.364
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPB  C1    .  C  0  ?  ?  ?  1  1 
+SPB  C2    .  C  0  ?  ?  ?  1  2 
+SPB  C3    .  C  0  ?  ?  ?  1  3 
+SPB  C4    .  C  0  ?  ?  ?  1  4 
+SPB  C5    .  C  0  ?  ?  ?  1  5 
+SPB  C6    .  C  0  ?  ?  ?  1  6 
+SPB  C7    .  C  0  ?  ?  ?  1  7 
+SPB  C8    .  C  0  ?  ?  ?  1  8 
+SPB  C9    .  C  0  ?  ?  ?  1  9 
+SPB  C10   .  C  0  ?  ?  ?  1  10
+SPB  C11   .  C  0  ?  ?  ?  1  11
+SPB  C12   .  C  0  ?  ?  ?  1  12
+SPB  C13   .  C  0  ?  ?  ?  1  13
+SPB  C14   .  C  0  ?  ?  ?  1  14
+SPB  N15   .  N  0  ?  ?  ?  1  15
+SPB  C16   .  C  0  ?  ?  ?  1  16
+SPB  C17   .  C  0  ?  ?  ?  1  17
+SPB  C18   .  C  0  ?  ?  ?  1  18
+SPB  C19   .  C  0  ?  ?  ?  1  19
+SPB  C20   .  C  0  ?  ?  ?  1  20
+SPB  O21   .  O  0  ?  ?  ?  1  21
+SPB  O22   .  O  0  ?  ?  ?  1  22
+SPB  O23   .  O  0  ?  ?  ?  1  23
+SPB  OH23  .  H  0  ?  ?  ?  0  24
+SPB  1H19  .  H  0  ?  ?  ?  0  25
+SPB  2H19  .  H  0  ?  ?  ?  0  26
+SPB  1H18  .  H  0  ?  ?  ?  0  27
+SPB  2H18  .  H  0  ?  ?  ?  0  28
+SPB  1H17  .  H  0  ?  ?  ?  0  29
+SPB  2H17  .  H  0  ?  ?  ?  0  30
+SPB  NH15  .  H  0  ?  ?  ?  0  31
+SPB  CH13  .  H  0  ?  ?  ?  0  32
+SPB  CH14  .  H  0  ?  ?  ?  0  33
+SPB  CH11  .  H  0  ?  ?  ?  0  34
+SPB  CH10  .  H  0  ?  ?  ?  0  35
+SPB  HC8   .  H  0  ?  ?  ?  1  36
+SPB  HC7   .  H  0  ?  ?  ?  1  37
+SPB  HC1   .  H  0  ?  ?  ?  1  38
+SPB  HC2   .  H  0  ?  ?  ?  1  39
+SPB  HC3   .  H  0  ?  ?  ?  1  40
+SPB  HC4   .  H  0  ?  ?  ?  1  41
+SPB  HC5   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPB  C1   C2    DOUB  1 
+SPB  C1   C6    SING  2 
+SPB  C1   HC1   SING  3 
+SPB  C2   C3    SING  4 
+SPB  C2   HC2   SING  5 
+SPB  C3   C4    DOUB  6 
+SPB  C3   HC3   SING  7 
+SPB  C4   C5    SING  8 
+SPB  C4   HC4   SING  9 
+SPB  C5   C6    DOUB  10
+SPB  C5   HC5   SING  11
+SPB  C6   C7    SING  12
+SPB  C7   C8    DOUB  13
+SPB  C7   HC7   SING  14
+SPB  C8   C9    SING  15
+SPB  C8   HC8   SING  16
+SPB  C9   C10   DOUB  17
+SPB  C9   C14   SING  18
+SPB  C10  C11   SING  19
+SPB  C10  CH10  SING  20
+SPB  C11  C12   DOUB  21
+SPB  C11  CH11  SING  22
+SPB  C12  C13   SING  23
+SPB  C12  N15   SING  24
+SPB  C13  C14   DOUB  25
+SPB  C13  CH13  SING  26
+SPB  C14  CH14  SING  27
+SPB  N15  C16   SING  28
+SPB  N15  NH15  SING  29
+SPB  C16  C17   SING  30
+SPB  C16  O22   DOUB  31
+SPB  C17  C18   SING  32
+SPB  C17  1H17  SING  33
+SPB  C17  2H17  SING  34
+SPB  C18  C19   SING  35
+SPB  C18  1H18  SING  36
+SPB  C18  2H18  SING  37
+SPB  C19  C20   SING  38
+SPB  C19  1H19  SING  39
+SPB  C19  2H19  SING  40
+SPB  C20  O21   DOUB  41
+SPB  C20  O23   SING  42
+SPB  O23  OH23  SING  43
+#

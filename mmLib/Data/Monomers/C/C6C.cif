@@ -1,0 +1,94 @@
+data_C6C
+#
+_chem_comp.id                       C6C
+_chem_comp.name                     'S-CYCLOHEXYL THIOCYSTEINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H17 N1 O2 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            235.359
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+C6C  N    .  N  0  ?  ?  ?  1  1 
+C6C  CA   .  C  0  ?  ?  ?  1  2 
+C6C  C    .  C  0  ?  ?  ?  1  3 
+C6C  O    .  O  0  ?  ?  ?  1  4 
+C6C  CB   .  C  0  ?  ?  ?  1  5 
+C6C  SG   .  S  0  ?  ?  ?  1  6 
+C6C  SD   .  S  0  ?  ?  ?  1  7 
+C6C  C1   .  C  0  ?  ?  ?  1  8 
+C6C  C2   .  C  0  ?  ?  ?  1  9 
+C6C  C3   .  C  0  ?  ?  ?  1  10
+C6C  C4   .  C  0  ?  ?  ?  1  11
+C6C  C5   .  C  0  ?  ?  ?  1  12
+C6C  C6   .  C  0  ?  ?  ?  1  13
+C6C  OXT  .  O  0  ?  ?  ?  1  14
+C6C  1HN  .  H  0  ?  ?  ?  0  15
+C6C  2HN  .  H  0  ?  ?  ?  0  16
+C6C  HA   .  H  0  ?  ?  ?  1  17
+C6C  1HB  .  H  0  ?  ?  ?  0  18
+C6C  2HB  .  H  0  ?  ?  ?  0  19
+C6C  H1   .  H  0  ?  ?  ?  1  20
+C6C  1H2  .  H  0  ?  ?  ?  0  21
+C6C  2H2  .  H  0  ?  ?  ?  0  22
+C6C  1H3  .  H  0  ?  ?  ?  0  23
+C6C  2H3  .  H  0  ?  ?  ?  0  24
+C6C  1H4  .  H  0  ?  ?  ?  0  25
+C6C  2H4  .  H  0  ?  ?  ?  0  26
+C6C  1H5  .  H  0  ?  ?  ?  0  27
+C6C  2H5  .  H  0  ?  ?  ?  0  28
+C6C  1H6  .  H  0  ?  ?  ?  0  29
+C6C  2H6  .  H  0  ?  ?  ?  0  30
+C6C  HXT  .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+C6C  N    CA   SING  1 
+C6C  N    1HN  SING  2 
+C6C  N    2HN  SING  3 
+C6C  CA   C    SING  4 
+C6C  CA   CB   SING  5 
+C6C  CA   HA   SING  6 
+C6C  C    O    DOUB  7 
+C6C  C    OXT  SING  8 
+C6C  CB   SG   SING  9 
+C6C  CB   1HB  SING  10
+C6C  CB   2HB  SING  11
+C6C  SG   SD   SING  12
+C6C  SD   C1   SING  13
+C6C  C1   C2   SING  14
+C6C  C1   C6   SING  15
+C6C  C1   H1   SING  16
+C6C  C2   C3   SING  17
+C6C  C2   1H2  SING  18
+C6C  C2   2H2  SING  19
+C6C  C3   C4   SING  20
+C6C  C3   1H3  SING  21
+C6C  C3   2H3  SING  22
+C6C  C4   C5   SING  23
+C6C  C4   1H4  SING  24
+C6C  C4   2H4  SING  25
+C6C  C5   C6   SING  26
+C6C  C5   1H5  SING  27
+C6C  C5   2H5  SING  28
+C6C  C6   1H6  SING  29
+C6C  C6   2H6  SING  30
+C6C  OXT  HXT  SING  31
+#

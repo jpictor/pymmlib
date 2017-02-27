@@ -1,0 +1,110 @@
+data_PLS
+#
+_chem_comp.id                   PLS
+_chem_comp.name                 [3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL]-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N2 O8 P1'
+_chem_comp.pdbx_synonyms        PYRIDOXYL-SERINE-5-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        336.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLS  N     .  N  0  ?  ?  ?  1  1 
+PLS  CA    .  C  0  ?  ?  ?  1  2 
+PLS  CB    .  C  0  ?  ?  ?  1  3 
+PLS  OG    .  O  0  ?  ?  ?  1  4 
+PLS  C     .  C  0  ?  ?  ?  1  5 
+PLS  O     .  O  0  ?  ?  ?  1  6 
+PLS  OXT   .  O  0  ?  ?  ?  1  7 
+PLS  N1    .  N  0  ?  ?  ?  1  8 
+PLS  C2    .  C  0  ?  ?  ?  1  9 
+PLS  C2A   .  C  0  ?  ?  ?  1  10
+PLS  C3    .  C  0  ?  ?  ?  1  11
+PLS  O3    .  O  0  ?  ?  ?  1  12
+PLS  C4    .  C  0  ?  ?  ?  1  13
+PLS  C4A   .  C  0  ?  ?  ?  1  14
+PLS  C5    .  C  0  ?  ?  ?  1  15
+PLS  C6    .  C  0  ?  ?  ?  1  16
+PLS  C5A   .  C  0  ?  ?  ?  1  17
+PLS  O4P   .  O  0  ?  ?  ?  1  18
+PLS  P     .  P  0  ?  ?  ?  1  19
+PLS  O1P   .  O  0  ?  ?  ?  1  20
+PLS  O2P   .  O  0  ?  ?  ?  1  21
+PLS  O3P   .  O  0  ?  ?  ?  1  22
+PLS  HN    .  H  0  ?  ?  ?  1  23
+PLS  HA    .  H  0  ?  ?  ?  1  24
+PLS  1HB   .  H  0  ?  ?  ?  0  25
+PLS  2HB   .  H  0  ?  ?  ?  0  26
+PLS  HOG   .  H  0  ?  ?  ?  1  27
+PLS  HXT   .  H  0  ?  ?  ?  1  28
+PLS  1H2A  .  H  0  ?  ?  ?  0  29
+PLS  2H2A  .  H  0  ?  ?  ?  0  30
+PLS  3H2A  .  H  0  ?  ?  ?  0  31
+PLS  HO3   .  H  0  ?  ?  ?  1  32
+PLS  1H4A  .  H  0  ?  ?  ?  0  33
+PLS  2H4A  .  H  0  ?  ?  ?  0  34
+PLS  1H5A  .  H  0  ?  ?  ?  0  35
+PLS  2H5A  .  H  0  ?  ?  ?  0  36
+PLS  H6    .  H  0  ?  ?  ?  1  37
+PLS  2HOP  .  H  0  ?  ?  ?  0  38
+PLS  3HOP  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLS  N    CA    SING  1 
+PLS  N    C4A   SING  2 
+PLS  N    HN    SING  3 
+PLS  CA   CB    SING  4 
+PLS  CA   C     SING  5 
+PLS  CA   HA    SING  6 
+PLS  CB   OG    SING  7 
+PLS  CB   1HB   SING  8 
+PLS  CB   2HB   SING  9 
+PLS  OG   HOG   SING  10
+PLS  C    O     DOUB  11
+PLS  C    OXT   SING  12
+PLS  OXT  HXT   SING  13
+PLS  N1   C2    DOUB  14
+PLS  N1   C6    SING  15
+PLS  C2   C2A   SING  16
+PLS  C2   C3    SING  17
+PLS  C2A  1H2A  SING  18
+PLS  C2A  2H2A  SING  19
+PLS  C2A  3H2A  SING  20
+PLS  C3   O3    SING  21
+PLS  C3   C4    DOUB  22
+PLS  O3   HO3   SING  23
+PLS  C4   C4A   SING  24
+PLS  C4   C5    SING  25
+PLS  C4A  1H4A  SING  26
+PLS  C4A  2H4A  SING  27
+PLS  C5   C6    DOUB  28
+PLS  C5   C5A   SING  29
+PLS  C6   H6    SING  30
+PLS  C5A  O4P   SING  31
+PLS  C5A  1H5A  SING  32
+PLS  C5A  2H5A  SING  33
+PLS  O4P  P     SING  34
+PLS  P    O1P   DOUB  35
+PLS  P    O2P   SING  36
+PLS  P    O3P   SING  37
+PLS  O2P  2HOP  SING  38
+PLS  O3P  3HOP  SING  39
+#

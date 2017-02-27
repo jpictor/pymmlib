@@ -1,0 +1,107 @@
+data_BPT
+#
+_chem_comp.id                   BPT
+_chem_comp.name                 'BIS(TRANS-PLATINUM ETHYLENEDIAMINE DIAMINE CHLORO)COMPLEX'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H24 N6 CL2 PT2'
+_chem_comp.pdbx_synonyms        1,1/T,T
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       617.360
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPT  PT1   .  PT  1  ?  ?  ?  0  1 
+BPT  CL1   .  CL  0  ?  ?  ?  0  2 
+BPT  N1    .  N   0  ?  ?  ?  1  3 
+BPT  C1    .  C   0  ?  ?  ?  1  4 
+BPT  C2    .  C   0  ?  ?  ?  1  5 
+BPT  C3    .  C   0  ?  ?  ?  1  6 
+BPT  C4    .  C   0  ?  ?  ?  1  7 
+BPT  N2    .  N   0  ?  ?  ?  1  8 
+BPT  PT2   .  PT  1  ?  ?  ?  0  9 
+BPT  N3    .  N   0  ?  ?  ?  1  10
+BPT  N4    .  N   0  ?  ?  ?  1  11
+BPT  N5    .  N   0  ?  ?  ?  1  12
+BPT  N6    .  N   0  ?  ?  ?  1  13
+BPT  CL2   .  CL  0  ?  ?  ?  0  14
+BPT  1HN1  .  H   0  ?  ?  ?  0  15
+BPT  2HN1  .  H   0  ?  ?  ?  0  16
+BPT  1HN2  .  H   0  ?  ?  ?  0  17
+BPT  2HN2  .  H   0  ?  ?  ?  0  18
+BPT  1HC1  .  H   0  ?  ?  ?  0  19
+BPT  2HC1  .  H   0  ?  ?  ?  0  20
+BPT  1HC2  .  H   0  ?  ?  ?  0  21
+BPT  2HC2  .  H   0  ?  ?  ?  0  22
+BPT  1HC3  .  H   0  ?  ?  ?  0  23
+BPT  2HC3  .  H   0  ?  ?  ?  0  24
+BPT  1HC4  .  H   0  ?  ?  ?  0  25
+BPT  2HC4  .  H   0  ?  ?  ?  0  26
+BPT  1HN3  .  H   0  ?  ?  ?  0  27
+BPT  2HN3  .  H   0  ?  ?  ?  0  28
+BPT  3HN3  .  H   0  ?  ?  ?  0  29
+BPT  1HN4  .  H   0  ?  ?  ?  0  30
+BPT  2HN4  .  H   0  ?  ?  ?  0  31
+BPT  3HN4  .  H   0  ?  ?  ?  0  32
+BPT  1HN5  .  H   0  ?  ?  ?  0  33
+BPT  2HN5  .  H   0  ?  ?  ?  0  34
+BPT  3HN5  .  H   0  ?  ?  ?  0  35
+BPT  1HN6  .  H   0  ?  ?  ?  0  36
+BPT  2HN6  .  H   0  ?  ?  ?  0  37
+BPT  3HN6  .  H   0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPT  PT1  N1    SING  1 
+BPT  PT1  N3    SING  2 
+BPT  PT1  N4    SING  3 
+BPT  PT1  CL1   SING  4 
+BPT  N1   C1    SING  5 
+BPT  N1   1HN1  SING  6 
+BPT  N1   2HN1  SING  7 
+BPT  C1   C2    SING  8 
+BPT  C1   1HC1  SING  9 
+BPT  C1   2HC1  SING  10
+BPT  C2   C3    SING  11
+BPT  C2   1HC2  SING  12
+BPT  C2   2HC2  SING  13
+BPT  C3   C4    SING  14
+BPT  C3   1HC3  SING  15
+BPT  C3   2HC3  SING  16
+BPT  C4   N2    SING  17
+BPT  C4   1HC4  SING  18
+BPT  C4   2HC4  SING  19
+BPT  N2   PT2   SING  20
+BPT  N2   1HN2  SING  21
+BPT  N2   2HN2  SING  22
+BPT  PT2  N5    SING  23
+BPT  PT2  N6    SING  24
+BPT  PT2  CL2   SING  25
+BPT  N3   1HN3  SING  26
+BPT  N3   2HN3  SING  27
+BPT  N3   3HN3  SING  28
+BPT  N4   1HN4  SING  29
+BPT  N4   2HN4  SING  30
+BPT  N4   3HN4  SING  31
+BPT  N5   1HN5  SING  32
+BPT  N5   2HN5  SING  33
+BPT  N5   3HN5  SING  34
+BPT  N6   1HN6  SING  35
+BPT  N6   2HN6  SING  36
+BPT  N6   3HN6  SING  37
+#

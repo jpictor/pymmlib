@@ -1,0 +1,87 @@
+data_MNX
+#
+_chem_comp.id                   MNX
+_chem_comp.name                 1,8-DI-HYDROXY-4-NITRO-XANTHEN-9-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H7 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        273.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MNX  C1    .  C  0   26.650  3.579   16.384  1  1 
+MNX  C2    .  C  0   25.952  4.813   16.172  1  2 
+MNX  C3    .  C  0   25.311  5.464   17.285  1  3 
+MNX  C4    .  C  0   25.345  4.872   18.572  1  4 
+MNX  C5    .  C  0   26.031  3.649   18.775  1  5 
+MNX  C6    .  C  0   26.676  3.000   17.684  1  6 
+MNX  O13   .  O  0   24.624  6.655   17.108  1  7 
+MNX  C14   .  C  0   24.525  7.313   15.872  1  8 
+MNX  C15   .  C  0   25.144  6.756   14.702  1  9 
+MNX  C16   .  C  0   25.895  5.474   14.839  1  10
+MNX  C22   .  C  0   25.029  7.439   13.448  1  11
+MNX  C23   .  C  0   24.310  8.650   13.367  1  12
+MNX  C24   .  C  0   23.695  9.197   14.519  1  13
+MNX  C25   .  C  0   23.797  8.542   15.772  1  14
+MNX  O16   .  O  0   26.445  4.949   13.856  1  15
+MNX  O1    .  O  0   27.287  2.914   15.334  1  16
+MNX  O22   .  O  0   25.610  6.945   12.281  1  17
+MNX  N25   .  N  1   23.147  9.142   16.920  1  18
+MNX  O2B   .  O  -1  23.203  8.565   18.160  1  19
+MNX  O2A   .  O  0   22.459  10.314  16.769  1  20
+MNX  HO1   .  H  0   ?       ?       ?       1  21
+MNX  HC4   .  H  0   ?       ?       ?       1  22
+MNX  HC5   .  H  0   ?       ?       ?       1  23
+MNX  HC6   .  H  0   ?       ?       ?       1  24
+MNX  HO22  .  H  0   ?       ?       ?       0  25
+MNX  HC23  .  H  0   ?       ?       ?       0  26
+MNX  HC24  .  H  0   ?       ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MNX  C1   C2    AROM  1 
+MNX  C1   C6    AROM  2 
+MNX  C1   O1    SING  3 
+MNX  C2   C3    AROM  4 
+MNX  C2   C16   AROM  5 
+MNX  C3   C4    AROM  6 
+MNX  C3   O13   AROM  7 
+MNX  C4   C5    AROM  8 
+MNX  C4   HC4   SING  9 
+MNX  C5   C6    AROM  10
+MNX  C5   HC5   SING  11
+MNX  C6   HC6   SING  12
+MNX  O13  C14   AROM  13
+MNX  C14  C15   AROM  14
+MNX  C14  C25   AROM  15
+MNX  C15  C16   AROM  16
+MNX  C15  C22   AROM  17
+MNX  C16  O16   DOUB  18
+MNX  C22  C23   AROM  19
+MNX  C22  O22   SING  20
+MNX  C23  C24   AROM  21
+MNX  C23  HC23  SING  22
+MNX  C24  C25   AROM  23
+MNX  C24  HC24  SING  24
+MNX  C25  N25   SING  25
+MNX  O1   HO1   SING  26
+MNX  O22  HO22  SING  27
+MNX  N25  O2B   SING  28
+MNX  N25  O2A   DOUB  29
+#

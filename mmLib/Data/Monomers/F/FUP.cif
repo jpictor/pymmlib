@@ -1,0 +1,107 @@
+data_FUP
+#
+_chem_comp.id                   FUP
+_chem_comp.name                 2',3'-DIDEOXY-3'-FLUORO-URIDIDINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N2 O10 F1 P2'
+_chem_comp.pdbx_synonyms        FUDP
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        390.155
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FUP  PB    .  P  0  ?  ?  ?  1  1 
+FUP  O1B   .  O  0  ?  ?  ?  1  2 
+FUP  O2B   .  O  0  ?  ?  ?  1  3 
+FUP  O3B   .  O  0  ?  ?  ?  1  4 
+FUP  O3A   .  O  0  ?  ?  ?  1  5 
+FUP  PA    .  P  0  ?  ?  ?  1  6 
+FUP  O1A   .  O  0  ?  ?  ?  1  7 
+FUP  O2A   .  O  0  ?  ?  ?  1  8 
+FUP  O5*   .  O  0  ?  ?  ?  1  9 
+FUP  C5*   .  C  0  ?  ?  ?  1  10
+FUP  C4*   .  C  0  ?  ?  ?  1  11
+FUP  O4*   .  O  0  ?  ?  ?  1  12
+FUP  C3*   .  C  0  ?  ?  ?  1  13
+FUP  F3*   .  F  0  ?  ?  ?  1  14
+FUP  C2*   .  C  0  ?  ?  ?  1  15
+FUP  C1*   .  C  0  ?  ?  ?  1  16
+FUP  N1    .  N  0  ?  ?  ?  1  17
+FUP  C2    .  C  0  ?  ?  ?  1  18
+FUP  O2    .  O  0  ?  ?  ?  1  19
+FUP  N3    .  N  0  ?  ?  ?  1  20
+FUP  C4    .  C  0  ?  ?  ?  1  21
+FUP  O4    .  O  0  ?  ?  ?  1  22
+FUP  C5    .  C  0  ?  ?  ?  1  23
+FUP  C6    .  C  0  ?  ?  ?  1  24
+FUP  2HOB  .  H  0  ?  ?  ?  0  25
+FUP  3HOB  .  H  0  ?  ?  ?  0  26
+FUP  2HOA  .  H  0  ?  ?  ?  0  27
+FUP  1H5*  .  H  0  ?  ?  ?  0  28
+FUP  2H5*  .  H  0  ?  ?  ?  0  29
+FUP  H4*   .  H  0  ?  ?  ?  1  30
+FUP  H3*   .  H  0  ?  ?  ?  1  31
+FUP  1H2*  .  H  0  ?  ?  ?  0  32
+FUP  2H2*  .  H  0  ?  ?  ?  0  33
+FUP  H1*   .  H  0  ?  ?  ?  1  34
+FUP  HN3   .  H  0  ?  ?  ?  1  35
+FUP  H5    .  H  0  ?  ?  ?  1  36
+FUP  H6    .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FUP  PB   O1B   DOUB  1 
+FUP  PB   O2B   SING  2 
+FUP  PB   O3B   SING  3 
+FUP  PB   O3A   SING  4 
+FUP  O2B  2HOB  SING  5 
+FUP  O3B  3HOB  SING  6 
+FUP  O3A  PA    SING  7 
+FUP  PA   O1A   DOUB  8 
+FUP  PA   O2A   SING  9 
+FUP  PA   O5*   SING  10
+FUP  O2A  2HOA  SING  11
+FUP  O5*  C5*   SING  12
+FUP  C5*  C4*   SING  13
+FUP  C5*  1H5*  SING  14
+FUP  C5*  2H5*  SING  15
+FUP  C4*  O4*   SING  16
+FUP  C4*  C3*   SING  17
+FUP  C4*  H4*   SING  18
+FUP  O4*  C1*   SING  19
+FUP  C3*  C2*   SING  20
+FUP  C3*  F3*   SING  21
+FUP  C3*  H3*   SING  22
+FUP  C2*  C1*   SING  23
+FUP  C2*  1H2*  SING  24
+FUP  C2*  2H2*  SING  25
+FUP  C1*  N1    SING  26
+FUP  C1*  H1*   SING  27
+FUP  N1   C6    SING  28
+FUP  N1   C2    SING  29
+FUP  C2   O2    DOUB  30
+FUP  C2   N3    SING  31
+FUP  N3   C4    SING  32
+FUP  N3   HN3   SING  33
+FUP  C4   O4    DOUB  34
+FUP  C4   C5    SING  35
+FUP  C5   C6    DOUB  36
+FUP  C5   H5    SING  37
+FUP  C6   H6    SING  38
+#

@@ -1,0 +1,63 @@
+data_IHB
+#
+_chem_comp.id                   IHB
+_chem_comp.name                 '3-IODO-4-HYDROXYBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 O3 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        264.019
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IHB  C1   .  C  0  ?  ?  ?  1  1 
+IHB  C2   .  C  0  ?  ?  ?  1  2 
+IHB  C3   .  C  0  ?  ?  ?  1  3 
+IHB  I3   .  I  0  ?  ?  ?  1  4 
+IHB  C4   .  C  0  ?  ?  ?  1  5 
+IHB  O4   .  O  0  ?  ?  ?  1  6 
+IHB  C5   .  C  0  ?  ?  ?  1  7 
+IHB  C6   .  C  0  ?  ?  ?  1  8 
+IHB  C7   .  C  0  ?  ?  ?  1  9 
+IHB  O1   .  O  0  ?  ?  ?  1  10
+IHB  O2   .  O  0  ?  ?  ?  1  11
+IHB  H2   .  H  0  ?  ?  ?  1  12
+IHB  HO4  .  H  0  ?  ?  ?  1  13
+IHB  H5   .  H  0  ?  ?  ?  1  14
+IHB  H6   .  H  0  ?  ?  ?  1  15
+IHB  HO2  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IHB  C1  C2   DOUB  1 
+IHB  C1  C6   SING  2 
+IHB  C1  C7   SING  3 
+IHB  C2  C3   SING  4 
+IHB  C2  H2   SING  5 
+IHB  C3  C4   DOUB  6 
+IHB  C3  I3   SING  7 
+IHB  C4  C5   SING  8 
+IHB  C4  O4   SING  9 
+IHB  O4  HO4  SING  10
+IHB  C5  C6   DOUB  11
+IHB  C5  H5   SING  12
+IHB  C6  H6   SING  13
+IHB  C7  O1   DOUB  14
+IHB  C7  O2   SING  15
+IHB  O2  HO2  SING  16
+#

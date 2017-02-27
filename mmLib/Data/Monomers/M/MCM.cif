@@ -1,0 +1,77 @@
+data_MCM
+#
+_chem_comp.id                   MCM
+_chem_comp.name                 7-AMINO-4-METHYL-CHROMEN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N1 O2'
+_chem_comp.pdbx_synonyms        7-AMINO-4-METHYLCOUMARIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        175.187
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCM  N     .  N  0  8.405   40.641  7.060  1  1 
+MCM  CA    .  C  0  8.448   41.053  5.593  1  2 
+MCM  C2    .  C  0  9.752   41.185  4.988  1  3 
+MCM  C3    .  C  0  9.732   41.386  3.609  1  4 
+MCM  C4    .  C  0  11.046  41.788  1.413  1  5 
+MCM  C5    .  C  0  9.826   41.813  0.562  1  6 
+MCM  C6    .  C  0  8.465   41.670  1.359  1  7 
+MCM  C7    .  C  0  8.375   41.509  2.904  1  8 
+MCM  C8    .  C  0  7.104   41.465  3.614  1  9 
+MCM  C9    .  C  0  7.155   41.268  4.974  1  10
+MCM  C10   .  C  0  7.129   41.460  0.523  1  11
+MCM  O1    .  O  0  10.964  41.567  2.827  1  12
+MCM  O2    .  O  0  12.149  42.109  0.909  1  13
+MCM  H5    .  H  0  ?       ?       ?      1  14
+MCM  1H10  .  H  0  ?       ?       ?      0  15
+MCM  2H10  .  H  0  ?       ?       ?      0  16
+MCM  3H10  .  H  0  ?       ?       ?      0  17
+MCM  H8    .  H  0  ?       ?       ?      1  18
+MCM  H9    .  H  0  ?       ?       ?      1  19
+MCM  H2    .  H  0  ?       ?       ?      1  20
+MCM  1HN   .  H  0  ?       ?       ?      0  21
+MCM  2HN   .  H  0  ?       ?       ?      0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCM  N    CA    SING  1 
+MCM  N    1HN   SING  2 
+MCM  N    2HN   SING  3 
+MCM  CA   C2    AROM  4 
+MCM  CA   C9    AROM  5 
+MCM  C2   C3    AROM  6 
+MCM  C2   H2    SING  7 
+MCM  C3   C7    AROM  8 
+MCM  C3   O1    AROM  9 
+MCM  C4   C5    AROM  10
+MCM  C4   O1    AROM  11
+MCM  C4   O2    DOUB  12
+MCM  C5   C6    AROM  13
+MCM  C5   H5    SING  14
+MCM  C6   C7    AROM  15
+MCM  C6   C10   SING  16
+MCM  C7   C8    AROM  17
+MCM  C8   C9    AROM  18
+MCM  C8   H8    SING  19
+MCM  C9   H9    SING  20
+MCM  C10  1H10  SING  21
+MCM  C10  2H10  SING  22
+MCM  C10  3H10  SING  23
+#

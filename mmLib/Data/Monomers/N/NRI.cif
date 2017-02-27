@@ -1,0 +1,79 @@
+data_NRI
+#
+_chem_comp.id                   NRI
+_chem_comp.name                 'PHOSPHORIC ACID MONO-(4-HYDROXY-PYRROLIDIN-3-YLMETHYL) ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        197.127
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NRI  P     .  P  0  ?  ?  ?  1  1 
+NRI  O1P   .  O  0  ?  ?  ?  1  2 
+NRI  O2P   .  O  0  ?  ?  ?  1  3 
+NRI  O3P   .  O  0  ?  ?  ?  1  4 
+NRI  O5*   .  O  0  ?  ?  ?  1  5 
+NRI  C2*   .  C  0  ?  ?  ?  1  6 
+NRI  C5*   .  C  0  ?  ?  ?  1  7 
+NRI  C4*   .  C  0  ?  ?  ?  1  8 
+NRI  C3*   .  C  0  ?  ?  ?  1  9 
+NRI  C6*   .  C  0  ?  ?  ?  1  10
+NRI  N1*   .  N  0  ?  ?  ?  1  11
+NRI  O3*   .  O  0  ?  ?  ?  1  12
+NRI  3HOP  .  H  0  ?  ?  ?  0  13
+NRI  2HOP  .  H  0  ?  ?  ?  0  14
+NRI  1HN*  .  H  0  ?  ?  ?  0  15
+NRI  3HO*  .  H  0  ?  ?  ?  0  16
+NRI  1H5*  .  H  0  ?  ?  ?  0  17
+NRI  2H5*  .  H  0  ?  ?  ?  0  18
+NRI  H4*   .  H  0  ?  ?  ?  1  19
+NRI  H3*   .  H  0  ?  ?  ?  1  20
+NRI  1H6*  .  H  0  ?  ?  ?  0  21
+NRI  2H6*  .  H  0  ?  ?  ?  0  22
+NRI  1H2*  .  H  0  ?  ?  ?  0  23
+NRI  2H2*  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NRI  P    O3P   SING  1 
+NRI  P    O1P   DOUB  2 
+NRI  P    O2P   SING  3 
+NRI  P    O5*   SING  4 
+NRI  O2P  2HOP  SING  5 
+NRI  O3P  3HOP  SING  6 
+NRI  O5*  C5*   SING  7 
+NRI  C2*  C3*   SING  8 
+NRI  C2*  N1*   SING  9 
+NRI  C2*  1H2*  SING  10
+NRI  C2*  2H2*  SING  11
+NRI  C5*  C4*   SING  12
+NRI  C5*  1H5*  SING  13
+NRI  C5*  2H5*  SING  14
+NRI  C4*  C3*   SING  15
+NRI  C4*  C6*   SING  16
+NRI  C4*  H4*   SING  17
+NRI  C3*  O3*   SING  18
+NRI  C3*  H3*   SING  19
+NRI  C6*  N1*   SING  20
+NRI  C6*  1H6*  SING  21
+NRI  C6*  2H6*  SING  22
+NRI  N1*  1HN*  SING  23
+NRI  O3*  3HO*  SING  24
+#

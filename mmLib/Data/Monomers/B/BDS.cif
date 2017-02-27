@@ -1,0 +1,126 @@
+data_BDS
+#
+_chem_comp.id                   BDS
+_chem_comp.name                 '2,3-BIS-BENZO[1,3]DIOXOL-5-YLMETHYL-SUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H18 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        386.357
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BDS  C1    .  C  0  ?  ?  ?  1  1 
+BDS  C2    .  C  0  ?  ?  ?  1  2 
+BDS  O3    .  O  0  ?  ?  ?  1  3 
+BDS  O4    .  O  0  ?  ?  ?  1  4 
+BDS  C5    .  C  0  ?  ?  ?  1  5 
+BDS  C6    .  C  0  ?  ?  ?  1  6 
+BDS  C7    .  C  0  ?  ?  ?  1  7 
+BDS  C8    .  C  0  ?  ?  ?  1  8 
+BDS  C9    .  C  0  ?  ?  ?  1  9 
+BDS  O10   .  O  0  ?  ?  ?  1  10
+BDS  C11   .  C  0  ?  ?  ?  1  11
+BDS  O12   .  O  0  ?  ?  ?  1  12
+BDS  C13   .  C  0  ?  ?  ?  1  13
+BDS  C14   .  C  0  ?  ?  ?  1  14
+BDS  C15   .  C  0  ?  ?  ?  1  15
+BDS  C16   .  C  0  ?  ?  ?  1  16
+BDS  O17   .  O  0  ?  ?  ?  1  17
+BDS  O18   .  O  0  ?  ?  ?  1  18
+BDS  C19   .  C  0  ?  ?  ?  1  19
+BDS  C20   .  C  0  ?  ?  ?  1  20
+BDS  C21   .  C  0  ?  ?  ?  1  21
+BDS  C22   .  C  0  ?  ?  ?  1  22
+BDS  C23   .  C  0  ?  ?  ?  1  23
+BDS  O24   .  O  0  ?  ?  ?  1  24
+BDS  C25   .  C  0  ?  ?  ?  1  25
+BDS  O26   .  O  0  ?  ?  ?  1  26
+BDS  C27   .  C  0  ?  ?  ?  1  27
+BDS  C28   .  C  0  ?  ?  ?  1  28
+BDS  1H25  .  H  0  ?  ?  ?  0  29
+BDS  2H25  .  H  0  ?  ?  ?  0  30
+BDS  1H22  .  H  0  ?  ?  ?  0  31
+BDS  1H21  .  H  0  ?  ?  ?  0  32
+BDS  1H28  .  H  0  ?  ?  ?  0  33
+BDS  1H19  .  H  0  ?  ?  ?  0  34
+BDS  2H19  .  H  0  ?  ?  ?  0  35
+BDS  1H15  .  H  0  ?  ?  ?  0  36
+BDS  1HXT  .  H  0  ?  ?  ?  0  37
+BDS  1HC1  .  H  0  ?  ?  ?  0  38
+BDS  2HXT  .  H  0  ?  ?  ?  0  39
+BDS  1HC5  .  H  0  ?  ?  ?  0  40
+BDS  2HC5  .  H  0  ?  ?  ?  0  41
+BDS  1HC7  .  H  0  ?  ?  ?  0  42
+BDS  1H14  .  H  0  ?  ?  ?  0  43
+BDS  1HC8  .  H  0  ?  ?  ?  0  44
+BDS  1H11  .  H  0  ?  ?  ?  0  45
+BDS  2H11  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BDS  C1   C2    SING  1 
+BDS  C1   C5    SING  2 
+BDS  C1   C15   SING  3 
+BDS  C1   1HC1  SING  4 
+BDS  C2   O3    DOUB  5 
+BDS  C2   O4    SING  6 
+BDS  O4   2HXT  SING  7 
+BDS  C5   C6    SING  8 
+BDS  C5   1HC5  SING  9 
+BDS  C5   2HC5  SING  10
+BDS  C6   C7    DOUB  11
+BDS  C6   C14   SING  12
+BDS  C7   C8    SING  13
+BDS  C7   1HC7  SING  14
+BDS  C8   C9    DOUB  15
+BDS  C8   1HC8  SING  16
+BDS  C9   O10   SING  17
+BDS  C9   C13   SING  18
+BDS  O10  C11   SING  19
+BDS  C11  O12   SING  20
+BDS  C11  1H11  SING  21
+BDS  C11  2H11  SING  22
+BDS  O12  C13   SING  23
+BDS  C13  C14   DOUB  24
+BDS  C14  1H14  SING  25
+BDS  C15  C16   SING  26
+BDS  C15  C19   SING  27
+BDS  C15  1H15  SING  28
+BDS  C16  O17   DOUB  29
+BDS  C16  O18   SING  30
+BDS  O18  1HXT  SING  31
+BDS  C19  C20   SING  32
+BDS  C19  1H19  SING  33
+BDS  C19  2H19  SING  34
+BDS  C20  C21   DOUB  35
+BDS  C20  C28   SING  36
+BDS  C21  C22   SING  37
+BDS  C21  1H21  SING  38
+BDS  C22  C23   DOUB  39
+BDS  C22  1H22  SING  40
+BDS  C23  O24   SING  41
+BDS  C23  C27   SING  42
+BDS  O24  C25   SING  43
+BDS  C25  O26   SING  44
+BDS  C25  1H25  SING  45
+BDS  C25  2H25  SING  46
+BDS  O26  C27   SING  47
+BDS  C27  C28   DOUB  48
+BDS  C28  1H28  SING  49
+#

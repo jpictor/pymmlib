@@ -1,0 +1,96 @@
+data_4HG
+#
+_chem_comp.id                   4HG
+_chem_comp.name                 N-[(4-HYDROXY-8-IODOISOQUINOLIN-3-YL)CARBONYL]GLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N2 O4 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        372.119
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          4HG
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc2c(cnc(c2O)C(=O)NCC(=O)O)c(c1)I
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+4HG  C1    .  C  0  6.402  47.732  23.948  1  Y  1 
+4HG  C2    .  C  0  5.605  48.926  24.148  1  Y  2 
+4HG  C3    .  C  0  4.348  48.772  24.866  1  Y  3 
+4HG  C4    .  C  0  5.894  46.467  24.465  1  Y  4 
+4HG  C5    .  C  0  4.620  46.347  25.178  1  Y  5 
+4HG  C6    .  C  0  3.801  47.537  25.405  1  Y  6 
+4HG  C7    .  C  0  2.561  47.422  26.170  1  Y  7 
+4HG  N1    .  N  0  2.123  46.191  26.702  1  Y  8 
+4HG  C8    .  C  0  2.909  45.036  26.474  1  Y  9 
+4HG  C9    .  C  0  4.152  45.073  25.705  1  Y  10
+4HG  I1    .  I  0  3.255  50.452  25.281  1  N  11
+4HG  O1    .  O  0  4.832  43.935  25.524  1  N  12
+4HG  C10   .  C  0  2.322  43.788  27.058  1  N  13
+4HG  C11   .  C  0  2.019  41.436  26.967  1  N  14
+4HG  C12   .  C  0  2.639  40.204  26.313  1  N  15
+4HG  O2    .  O  0  2.223  39.085  26.655  1  N  16
+4HG  O3    .  O  0  1.408  43.881  27.875  1  N  17
+4HG  O4    .  O  0  3.593  40.351  25.512  1  N  18
+4HG  N2    .  N  0  2.775  42.591  26.678  1  N  19
+4HG  H1    .  H  0  7.348  47.778  23.429  1  N  20
+4HG  H2    .  H  0  5.930  49.888  23.780  1  N  21
+4HG  H4    .  H  0  6.485  45.576  24.315  1  N  22
+4HG  H7    .  H  0  1.962  48.306  26.333  1  N  23
+4HG  HO1   .  H  0  4.993  43.806  24.597  1  N  24
+4HG  1H11  .  H  0  0.997  41.571  26.582  0  N  25
+4HG  2H11  .  H  0  2.004  41.287  28.057  0  N  26
+4HG  HO2   .  H  0  2.733  38.411  26.222  1  N  27
+4HG  HN2   .  H  0  3.645  42.514  26.191  1  N  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+4HG  C1   C2    DOUB  Y  1 
+4HG  C1   C4    SING  Y  2 
+4HG  C1   H1    SING  N  3 
+4HG  C2   C3    SING  Y  4 
+4HG  C2   H2    SING  N  5 
+4HG  C3   I1    SING  N  6 
+4HG  C3   C6    DOUB  Y  7 
+4HG  C4   C5    DOUB  Y  8 
+4HG  C4   H4    SING  N  9 
+4HG  C5   C6    SING  Y  10
+4HG  C5   C9    SING  Y  11
+4HG  C6   C7    SING  Y  12
+4HG  C7   N1    DOUB  Y  13
+4HG  C7   H7    SING  N  14
+4HG  N1   C8    SING  Y  15
+4HG  C8   C9    DOUB  Y  16
+4HG  C8   C10   SING  N  17
+4HG  C9   O1    SING  N  18
+4HG  O1   HO1   SING  N  19
+4HG  C10  N2    SING  N  20
+4HG  C10  O3    DOUB  N  21
+4HG  C11  C12   SING  N  22
+4HG  C11  N2    SING  N  23
+4HG  C11  1H11  SING  N  24
+4HG  C11  2H11  SING  N  25
+4HG  C12  O4    DOUB  N  26
+4HG  C12  O2    SING  N  27
+4HG  O2   HO2   SING  N  28
+4HG  N2   HN2   SING  N  29
+#

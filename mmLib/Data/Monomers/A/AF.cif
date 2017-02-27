@@ -1,0 +1,83 @@
+data_AF
+#
+_chem_comp.id                   AF
+_chem_comp.name                 2-AMINOFLUORENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H11 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        181.237
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AF  N    .  N  0  ?  ?  ?  1  1 
+AF  C2   .  C  0  ?  ?  ?  1  2 
+AF  C3   .  C  0  ?  ?  ?  1  3 
+AF  C4   .  C  0  ?  ?  ?  1  4 
+AF  C4A  .  C  0  ?  ?  ?  1  5 
+AF  C4B  .  C  0  ?  ?  ?  1  6 
+AF  C5   .  C  0  ?  ?  ?  1  7 
+AF  C6   .  C  0  ?  ?  ?  1  8 
+AF  C7   .  C  0  ?  ?  ?  1  9 
+AF  C8   .  C  0  ?  ?  ?  1  10
+AF  C8A  .  C  0  ?  ?  ?  1  11
+AF  C9   .  C  0  ?  ?  ?  1  12
+AF  C9A  .  C  0  ?  ?  ?  1  13
+AF  C1   .  C  0  ?  ?  ?  1  14
+AF  1HN  .  H  0  ?  ?  ?  0  15
+AF  2HN  .  H  0  ?  ?  ?  0  16
+AF  H1   .  H  0  ?  ?  ?  1  17
+AF  H3   .  H  0  ?  ?  ?  1  18
+AF  H4   .  H  0  ?  ?  ?  1  19
+AF  H5   .  H  0  ?  ?  ?  1  20
+AF  H6   .  H  0  ?  ?  ?  1  21
+AF  H7   .  H  0  ?  ?  ?  1  22
+AF  H8   .  H  0  ?  ?  ?  1  23
+AF  1H9  .  H  0  ?  ?  ?  0  24
+AF  2H9  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AF  N    C2   SING  1 
+AF  N    1HN  SING  2 
+AF  N    2HN  SING  3 
+AF  C2   C3   DOUB  4 
+AF  C2   C1   SING  5 
+AF  C3   C4   SING  6 
+AF  C3   H3   SING  7 
+AF  C4   C4A  DOUB  8 
+AF  C4   H4   SING  9 
+AF  C4A  C4B  SING  10
+AF  C4A  C9A  SING  11
+AF  C4B  C5   DOUB  12
+AF  C4B  C8A  SING  13
+AF  C5   C6   SING  14
+AF  C5   H5   SING  15
+AF  C6   C7   DOUB  16
+AF  C6   H6   SING  17
+AF  C7   C8   SING  18
+AF  C7   H7   SING  19
+AF  C8   C8A  DOUB  20
+AF  C8   H8   SING  21
+AF  C8A  C9   SING  22
+AF  C9   C9A  SING  23
+AF  C9   1H9  SING  24
+AF  C9   2H9  SING  25
+AF  C9A  C1   DOUB  26
+AF  C1   H1   SING  27
+#

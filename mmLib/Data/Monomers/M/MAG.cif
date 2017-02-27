@@ -1,0 +1,97 @@
+data_MAG
+#
+_chem_comp.id                   MAG
+_chem_comp.name                 ALPHA-METHYL-N-ACETYL-D-GLUCOSAMINE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C9 H17 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAG  C1   .  C  0  ?  ?  ?  1  1 
+MAG  C2   .  C  0  ?  ?  ?  1  2 
+MAG  C3   .  C  0  ?  ?  ?  1  3 
+MAG  C4   .  C  0  ?  ?  ?  1  4 
+MAG  C5   .  C  0  ?  ?  ?  1  5 
+MAG  C6   .  C  0  ?  ?  ?  1  6 
+MAG  C7   .  C  0  ?  ?  ?  1  7 
+MAG  C8   .  C  0  ?  ?  ?  1  8 
+MAG  N2   .  N  0  ?  ?  ?  1  9 
+MAG  O1   .  O  0  ?  ?  ?  1  10
+MAG  O3   .  O  0  ?  ?  ?  1  11
+MAG  O4   .  O  0  ?  ?  ?  1  12
+MAG  O5   .  O  0  ?  ?  ?  1  13
+MAG  O6   .  O  0  ?  ?  ?  1  14
+MAG  O7   .  O  0  ?  ?  ?  1  15
+MAG  CM   .  C  0  ?  ?  ?  1  16
+MAG  H1   .  H  0  ?  ?  ?  1  17
+MAG  H2   .  H  0  ?  ?  ?  1  18
+MAG  H3   .  H  0  ?  ?  ?  1  19
+MAG  H4   .  H  0  ?  ?  ?  1  20
+MAG  H5   .  H  0  ?  ?  ?  1  21
+MAG  1H6  .  H  0  ?  ?  ?  0  22
+MAG  2H6  .  H  0  ?  ?  ?  0  23
+MAG  1H8  .  H  0  ?  ?  ?  0  24
+MAG  2H8  .  H  0  ?  ?  ?  0  25
+MAG  3H8  .  H  0  ?  ?  ?  0  26
+MAG  HN2  .  H  0  ?  ?  ?  1  27
+MAG  HO4  .  H  0  ?  ?  ?  1  28
+MAG  HO3  .  H  0  ?  ?  ?  1  29
+MAG  HO6  .  H  0  ?  ?  ?  1  30
+MAG  1HM  .  H  0  ?  ?  ?  0  31
+MAG  2HM  .  H  0  ?  ?  ?  0  32
+MAG  3HM  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAG  C1  C2   SING  1 
+MAG  C1  O5   SING  2 
+MAG  C1  O1   SING  3 
+MAG  C1  H1   SING  4 
+MAG  C2  C3   SING  5 
+MAG  C2  N2   SING  6 
+MAG  C2  H2   SING  7 
+MAG  C3  C4   SING  8 
+MAG  C3  O3   SING  9 
+MAG  C3  H3   SING  10
+MAG  C4  C5   SING  11
+MAG  C4  O4   SING  12
+MAG  C4  H4   SING  13
+MAG  C5  C6   SING  14
+MAG  C5  O5   SING  15
+MAG  C5  H5   SING  16
+MAG  C6  O6   SING  17
+MAG  C6  1H6  SING  18
+MAG  C6  2H6  SING  19
+MAG  C7  C8   SING  20
+MAG  C7  N2   SING  21
+MAG  C7  O7   DOUB  22
+MAG  C8  1H8  SING  23
+MAG  C8  2H8  SING  24
+MAG  C8  3H8  SING  25
+MAG  N2  HN2  SING  26
+MAG  O1  CM   SING  27
+MAG  O3  HO3  SING  28
+MAG  O4  HO4  SING  29
+MAG  O6  HO6  SING  30
+MAG  CM  1HM  SING  31
+MAG  CM  2HM  SING  32
+MAG  CM  3HM  SING  33
+#

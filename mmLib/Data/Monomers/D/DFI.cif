@@ -1,0 +1,88 @@
+data_DFI
+#
+_chem_comp.id                   DFI
+_chem_comp.name                 2,2-DIFLUOROSTATINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C8 H15 N1 O3 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        211.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFI  N     .  N  0  ?  ?  ?  1  1 
+DFI  CA    .  C  0  ?  ?  ?  1  2 
+DFI  CB    .  C  0  ?  ?  ?  1  3 
+DFI  CG    .  C  0  ?  ?  ?  1  4 
+DFI  CD1   .  C  0  ?  ?  ?  1  5 
+DFI  CD2   .  C  0  ?  ?  ?  1  6 
+DFI  CH    .  C  0  ?  ?  ?  1  7 
+DFI  OH    .  O  0  ?  ?  ?  1  8 
+DFI  CM    .  C  0  ?  ?  ?  1  9 
+DFI  F1    .  F  0  ?  ?  ?  1  10
+DFI  F2    .  F  0  ?  ?  ?  1  11
+DFI  C     .  C  0  ?  ?  ?  1  12
+DFI  O     .  O  0  ?  ?  ?  1  13
+DFI  OXT   .  O  0  ?  ?  ?  1  14
+DFI  1HN   .  H  0  ?  ?  ?  0  15
+DFI  2HN   .  H  0  ?  ?  ?  0  16
+DFI  HA    .  H  0  ?  ?  ?  1  17
+DFI  1HB   .  H  0  ?  ?  ?  0  18
+DFI  2HB   .  H  0  ?  ?  ?  0  19
+DFI  HG    .  H  0  ?  ?  ?  1  20
+DFI  1HD1  .  H  0  ?  ?  ?  0  21
+DFI  2HD1  .  H  0  ?  ?  ?  0  22
+DFI  3HD1  .  H  0  ?  ?  ?  0  23
+DFI  1HD2  .  H  0  ?  ?  ?  0  24
+DFI  2HD2  .  H  0  ?  ?  ?  0  25
+DFI  3HD2  .  H  0  ?  ?  ?  0  26
+DFI  HC    .  H  0  ?  ?  ?  1  27
+DFI  HH    .  H  0  ?  ?  ?  1  28
+DFI  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFI  N    CA    SING  1 
+DFI  N    1HN   SING  2 
+DFI  N    2HN   SING  3 
+DFI  CA   CB    SING  4 
+DFI  CA   CH    SING  5 
+DFI  CA   HA    SING  6 
+DFI  CB   CG    SING  7 
+DFI  CB   1HB   SING  8 
+DFI  CB   2HB   SING  9 
+DFI  CG   CD1   SING  10
+DFI  CG   CD2   SING  11
+DFI  CG   HG    SING  12
+DFI  CD1  1HD1  SING  13
+DFI  CD1  2HD1  SING  14
+DFI  CD1  3HD1  SING  15
+DFI  CD2  1HD2  SING  16
+DFI  CD2  2HD2  SING  17
+DFI  CD2  3HD2  SING  18
+DFI  CH   CM    SING  19
+DFI  CH   OH    SING  20
+DFI  CH   HC    SING  21
+DFI  OH   HH    SING  22
+DFI  CM   C     SING  23
+DFI  CM   F1    SING  24
+DFI  CM   F2    SING  25
+DFI  C    O     DOUB  26
+DFI  C    OXT   SING  27
+DFI  OXT  HXT   SING  28
+#

@@ -1,0 +1,109 @@
+data_SCP
+#
+_chem_comp.id                   SCP
+_chem_comp.name                 [3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL]-N,O-CYCLOSERYLAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N3 O7 P1'
+_chem_comp.pdbx_synonyms        PYRIDOXYL-N,O-CYCLOSERYLAMIDE-5-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        333.237
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SCP  N1    .  N  0  ?  ?  ?  1  1 
+SCP  C2    .  C  0  ?  ?  ?  1  2 
+SCP  C2A   .  C  0  ?  ?  ?  1  3 
+SCP  C3    .  C  0  ?  ?  ?  1  4 
+SCP  O3    .  O  0  ?  ?  ?  1  5 
+SCP  C4    .  C  0  ?  ?  ?  1  6 
+SCP  C4A   .  C  0  ?  ?  ?  1  7 
+SCP  C5    .  C  0  ?  ?  ?  1  8 
+SCP  C6    .  C  0  ?  ?  ?  1  9 
+SCP  C5A   .  C  0  ?  ?  ?  1  10
+SCP  O4P   .  O  0  ?  ?  ?  1  11
+SCP  P     .  P  0  ?  ?  ?  1  12
+SCP  O1P   .  O  0  ?  ?  ?  1  13
+SCP  O2P   .  O  0  ?  ?  ?  1  14
+SCP  O3P   .  O  0  ?  ?  ?  1  15
+SCP  N     .  N  0  ?  ?  ?  1  16
+SCP  CA    .  C  0  ?  ?  ?  1  17
+SCP  C     .  C  0  ?  ?  ?  1  18
+SCP  O     .  O  0  ?  ?  ?  1  19
+SCP  ND    .  N  0  ?  ?  ?  1  20
+SCP  OG    .  O  0  ?  ?  ?  1  21
+SCP  CB    .  C  0  ?  ?  ?  1  22
+SCP  1H2A  .  H  0  ?  ?  ?  0  23
+SCP  2H2A  .  H  0  ?  ?  ?  0  24
+SCP  3H2A  .  H  0  ?  ?  ?  0  25
+SCP  HO3   .  H  0  ?  ?  ?  1  26
+SCP  1H4A  .  H  0  ?  ?  ?  0  27
+SCP  2H4A  .  H  0  ?  ?  ?  0  28
+SCP  1H5A  .  H  0  ?  ?  ?  0  29
+SCP  2H5A  .  H  0  ?  ?  ?  0  30
+SCP  H6    .  H  0  ?  ?  ?  1  31
+SCP  2HOP  .  H  0  ?  ?  ?  0  32
+SCP  3HOP  .  H  0  ?  ?  ?  0  33
+SCP  HN    .  H  0  ?  ?  ?  1  34
+SCP  HA    .  H  0  ?  ?  ?  1  35
+SCP  HND   .  H  0  ?  ?  ?  1  36
+SCP  1HB   .  H  0  ?  ?  ?  0  37
+SCP  2HB   .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SCP  N1   C2    DOUB  1 
+SCP  N1   C6    SING  2 
+SCP  C2   C2A   SING  3 
+SCP  C2   C3    SING  4 
+SCP  C2A  1H2A  SING  5 
+SCP  C2A  2H2A  SING  6 
+SCP  C2A  3H2A  SING  7 
+SCP  C3   O3    SING  8 
+SCP  C3   C4    DOUB  9 
+SCP  O3   HO3   SING  10
+SCP  C4   C4A   SING  11
+SCP  C4   C5    SING  12
+SCP  C4A  N     SING  13
+SCP  C4A  1H4A  SING  14
+SCP  C4A  2H4A  SING  15
+SCP  C5   C6    DOUB  16
+SCP  C5   C5A   SING  17
+SCP  C6   H6    SING  18
+SCP  C5A  O4P   SING  19
+SCP  C5A  1H5A  SING  20
+SCP  C5A  2H5A  SING  21
+SCP  O4P  P     SING  22
+SCP  P    O1P   DOUB  23
+SCP  P    O2P   SING  24
+SCP  P    O3P   SING  25
+SCP  O2P  2HOP  SING  26
+SCP  O3P  3HOP  SING  27
+SCP  N    CA    SING  28
+SCP  N    HN    SING  29
+SCP  CA   CB    SING  30
+SCP  CA   C     SING  31
+SCP  CA   HA    SING  32
+SCP  C    ND    SING  33
+SCP  C    O     DOUB  34
+SCP  ND   OG    SING  35
+SCP  ND   HND   SING  36
+SCP  OG   CB    SING  37
+SCP  CB   1HB   SING  38
+SCP  CB   2HB   SING  39
+#

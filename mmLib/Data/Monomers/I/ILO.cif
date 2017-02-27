@@ -1,0 +1,84 @@
+data_ILO
+#
+_chem_comp.id                   ILO
+_chem_comp.name                 N5-IMINOETHYL-L-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        173.214
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ILO  N     .  N  0  ?  ?  ?  1  1 
+ILO  CA    .  C  0  ?  ?  ?  1  2 
+ILO  CB    .  C  0  ?  ?  ?  1  3 
+ILO  CG    .  C  0  ?  ?  ?  1  4 
+ILO  CD    .  C  0  ?  ?  ?  1  5 
+ILO  NE    .  N  0  ?  ?  ?  1  6 
+ILO  CZ    .  C  0  ?  ?  ?  1  7 
+ILO  CH1   .  C  0  ?  ?  ?  1  8 
+ILO  NH2   .  N  0  ?  ?  ?  1  9 
+ILO  C     .  C  0  ?  ?  ?  1  10
+ILO  OA1   .  O  0  ?  ?  ?  1  11
+ILO  OA2   .  O  0  ?  ?  ?  1  12
+ILO  HN2   .  H  0  ?  ?  ?  1  13
+ILO  HNE   .  H  0  ?  ?  ?  1  14
+ILO  1HCD  .  H  0  ?  ?  ?  0  15
+ILO  2HCD  .  H  0  ?  ?  ?  0  16
+ILO  1HCG  .  H  0  ?  ?  ?  0  17
+ILO  2HCG  .  H  0  ?  ?  ?  0  18
+ILO  1HCB  .  H  0  ?  ?  ?  0  19
+ILO  2HCB  .  H  0  ?  ?  ?  0  20
+ILO  HCA   .  H  0  ?  ?  ?  1  21
+ILO  1HN   .  H  0  ?  ?  ?  0  22
+ILO  2HN   .  H  0  ?  ?  ?  0  23
+ILO  HO2   .  H  0  ?  ?  ?  1  24
+ILO  1HC1  .  H  0  ?  ?  ?  0  25
+ILO  2HC1  .  H  0  ?  ?  ?  0  26
+ILO  3HC1  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ILO  N    CA    SING  1 
+ILO  N    1HN   SING  2 
+ILO  N    2HN   SING  3 
+ILO  CA   CB    SING  4 
+ILO  CA   C     SING  5 
+ILO  CA   HCA   SING  6 
+ILO  CB   CG    SING  7 
+ILO  CB   1HCB  SING  8 
+ILO  CB   2HCB  SING  9 
+ILO  CG   CD    SING  10
+ILO  CG   1HCG  SING  11
+ILO  CG   2HCG  SING  12
+ILO  CD   NE    SING  13
+ILO  CD   1HCD  SING  14
+ILO  CD   2HCD  SING  15
+ILO  NE   CZ    SING  16
+ILO  NE   HNE   SING  17
+ILO  CZ   CH1   SING  18
+ILO  CZ   NH2   DOUB  19
+ILO  CH1  1HC1  SING  20
+ILO  CH1  2HC1  SING  21
+ILO  CH1  3HC1  SING  22
+ILO  NH2  HN2   SING  23
+ILO  C    OA1   DOUB  24
+ILO  C    OA2   SING  25
+ILO  OA2  HO2   SING  26
+#

@@ -1,0 +1,100 @@
+data_OES
+#
+_chem_comp.id                   OES
+_chem_comp.name                 'N-OCTYL-2-HYDROXYETHYL SULFOXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H22 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        206.343
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OES  C1    .  C  0  ?  ?  ?  1  1 
+OES  C2    .  C  0  ?  ?  ?  1  2 
+OES  C3    .  C  0  ?  ?  ?  1  3 
+OES  C4    .  C  0  ?  ?  ?  1  4 
+OES  C5    .  C  0  ?  ?  ?  1  5 
+OES  C6    .  C  0  ?  ?  ?  1  6 
+OES  C7    .  C  0  ?  ?  ?  1  7 
+OES  C8    .  C  0  ?  ?  ?  1  8 
+OES  S2    .  S  0  ?  ?  ?  1  9 
+OES  C22   .  C  0  ?  ?  ?  1  10
+OES  C23   .  C  0  ?  ?  ?  1  11
+OES  O2    .  O  0  ?  ?  ?  1  12
+OES  O3    .  O  0  ?  ?  ?  1  13
+OES  1HC1  .  H  0  ?  ?  ?  0  14
+OES  2HC1  .  H  0  ?  ?  ?  0  15
+OES  3HC1  .  H  0  ?  ?  ?  0  16
+OES  1HC2  .  H  0  ?  ?  ?  0  17
+OES  2HC2  .  H  0  ?  ?  ?  0  18
+OES  1HC3  .  H  0  ?  ?  ?  0  19
+OES  2HC3  .  H  0  ?  ?  ?  0  20
+OES  1HC4  .  H  0  ?  ?  ?  0  21
+OES  2HC4  .  H  0  ?  ?  ?  0  22
+OES  1HC5  .  H  0  ?  ?  ?  0  23
+OES  2HC5  .  H  0  ?  ?  ?  0  24
+OES  1HC6  .  H  0  ?  ?  ?  0  25
+OES  2HC6  .  H  0  ?  ?  ?  0  26
+OES  1HC7  .  H  0  ?  ?  ?  0  27
+OES  2HC7  .  H  0  ?  ?  ?  0  28
+OES  1HC8  .  H  0  ?  ?  ?  0  29
+OES  2HC8  .  H  0  ?  ?  ?  0  30
+OES  1H22  .  H  0  ?  ?  ?  0  31
+OES  2H22  .  H  0  ?  ?  ?  0  32
+OES  1H23  .  H  0  ?  ?  ?  0  33
+OES  2H23  .  H  0  ?  ?  ?  0  34
+OES  1HO3  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OES  C1   C2    SING  1 
+OES  C1   1HC1  SING  2 
+OES  C1   2HC1  SING  3 
+OES  C1   3HC1  SING  4 
+OES  C2   C3    SING  5 
+OES  C2   1HC2  SING  6 
+OES  C2   2HC2  SING  7 
+OES  C3   C4    SING  8 
+OES  C3   1HC3  SING  9 
+OES  C3   2HC3  SING  10
+OES  C4   C5    SING  11
+OES  C4   1HC4  SING  12
+OES  C4   2HC4  SING  13
+OES  C5   C6    SING  14
+OES  C5   1HC5  SING  15
+OES  C5   2HC5  SING  16
+OES  C6   C7    SING  17
+OES  C6   1HC6  SING  18
+OES  C6   2HC6  SING  19
+OES  C7   C8    SING  20
+OES  C7   1HC7  SING  21
+OES  C7   2HC7  SING  22
+OES  C8   S2    SING  23
+OES  C8   1HC8  SING  24
+OES  C8   2HC8  SING  25
+OES  S2   C22   SING  26
+OES  S2   O2    DOUB  27
+OES  C22  C23   SING  28
+OES  C22  1H22  SING  29
+OES  C22  2H22  SING  30
+OES  C23  O3    SING  31
+OES  C23  1H23  SING  32
+OES  C23  2H23  SING  33
+OES  O3   1HO3  SING  34
+#

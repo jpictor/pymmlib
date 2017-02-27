@@ -1,0 +1,56 @@
+data_FSX
+#
+_chem_comp.id                   FSX
+_chem_comp.name                 'BIS-(MU-2-OXO),[(MU-3--SULFIDO)-BIS(MU-2--SULFIDO)-TRIS(CYS-S)-TRI-IRON] (AQUA)(GLU-O)IRON(II)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O3 FE4 S3'
+_chem_comp.pdbx_synonyms        'FE4-S3-O3 CLUSTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        367.566
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FSX  FE1  .  FE  0  37.597  44.042  8.894   0  1 
+FSX  FE2  .  FE  0  40.31   45.104  7.647   0  2 
+FSX  FE3  .  FE  0  38.895  42.599  10.778  0  3 
+FSX  FE4  .  FE  0  40.275  42.102  8.457   0  4 
+FSX  O1   .  O   0  40.899  45.505  9.649   1  5 
+FSX  S2   .  S   0  38.148  44.671  10.943  1  6 
+FSX  S3   .  S   0  38.014  41.788  8.844   1  7 
+FSX  S4   .  S   0  41.108  42.616  10.439  1  8 
+FSX  O24  .  O   0  40.604  43.365  7.157   1  9 
+FSX  O12  .  O   0  38.454  45.026  7.606   1  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FSX  FE1  S3   SING  1 
+FSX  FE1  O12  SING  2 
+FSX  FE1  FE3  SING  3 
+FSX  FE1  S2   SING  4 
+FSX  FE2  O12  SING  5 
+FSX  FE2  O24  SING  6 
+FSX  FE2  O1   SING  7 
+FSX  FE3  FE4  SING  8 
+FSX  FE3  S2   SING  9 
+FSX  FE3  S3   SING  10
+FSX  FE3  S4   SING  11
+FSX  FE4  S3   SING  12
+FSX  FE4  S4   SING  13
+FSX  FE4  O24  SING  14
+#

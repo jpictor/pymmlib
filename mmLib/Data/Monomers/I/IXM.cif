@@ -1,0 +1,99 @@
+data_IXM
+#
+_chem_comp.id                   IXM
+_chem_comp.name                 (Z)-1H,1'H-[2,3']BIINDOLYLIDENE-3,2'-DIONE-3-OXIME
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H11 N3 O2'
+_chem_comp.pdbx_synonyms        INDIRUBIN-3'-MONOXIME
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        277.282
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IXM  C1   .  C  0  40.306  3.918   35.381  1  1 
+IXM  C2   .  C  0  39.689  5.274   35.224  1  2 
+IXM  C3   .  C  0  40.821  3.877   36.699  1  3 
+IXM  N4   .  N  0  40.596  5.055   37.347  1  4 
+IXM  C5   .  C  0  41.470  2.735   37.209  1  5 
+IXM  C7   .  C  0  41.614  1.606   36.362  1  6 
+IXM  C9   .  C  0  41.102  1.640   35.027  1  7 
+IXM  C11  .  C  0  40.437  2.806   34.523  1  8 
+IXM  C13  .  C  0  39.939  5.973   36.556  1  9 
+IXM  C14  .  C  0  39.592  7.234   36.934  1  10
+IXM  C15  .  C  0  40.117  7.736   38.276  1  11
+IXM  N16  .  N  0  39.588  9.009   38.435  1  12
+IXM  C17  .  C  0  38.798  9.372   37.355  1  13
+IXM  C18  .  C  0  38.752  8.333   36.387  1  14
+IXM  C19  .  C  0  38.110  10.598  37.215  1  15
+IXM  C20  .  C  0  37.333  10.792  36.048  1  16
+IXM  C21  .  C  0  37.264  9.769   35.052  1  17
+IXM  C22  .  C  0  37.978  8.536   35.221  1  18
+IXM  O23  .  O  0  40.847  7.149   39.076  1  19
+IXM  N24  .  N  0  39.040  5.805   34.233  1  20
+IXM  O39  .  O  0  38.883  5.011   33.096  1  21
+IXM  H39  .  H  0  ?       ?       ?       1  22
+IXM  H20  .  H  0  ?       ?       ?       1  23
+IXM  H21  .  H  0  ?       ?       ?       1  24
+IXM  H22  .  H  0  ?       ?       ?       1  25
+IXM  H19  .  H  0  ?       ?       ?       1  26
+IXM  H16  .  H  0  ?       ?       ?       1  27
+IXM  HN4  .  H  0  ?       ?       ?       1  28
+IXM  HC5  .  H  0  ?       ?       ?       1  29
+IXM  HC7  .  H  0  ?       ?       ?       1  30
+IXM  HC9  .  H  0  ?       ?       ?       1  31
+IXM  H11  .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IXM  C1   C2   SING  1 
+IXM  C1   C3   AROM  2 
+IXM  C1   C11  AROM  3 
+IXM  C2   C13  SING  4 
+IXM  C2   N24  DOUB  5 
+IXM  C3   N4   SING  6 
+IXM  C3   C5   AROM  7 
+IXM  N4   C13  SING  8 
+IXM  N4   HN4  SING  9 
+IXM  C5   C7   AROM  10
+IXM  C5   HC5  SING  11
+IXM  C7   C9   AROM  12
+IXM  C7   HC7  SING  13
+IXM  C9   C11  AROM  14
+IXM  C9   HC9  SING  15
+IXM  C11  H11  SING  16
+IXM  C13  C14  DOUB  17
+IXM  C14  C15  SING  18
+IXM  C14  C18  SING  19
+IXM  C15  N16  SING  20
+IXM  C15  O23  DOUB  21
+IXM  N16  C17  SING  22
+IXM  N16  H16  SING  23
+IXM  C17  C18  AROM  24
+IXM  C17  C19  AROM  25
+IXM  C18  C22  AROM  26
+IXM  C19  C20  AROM  27
+IXM  C19  H19  SING  28
+IXM  C20  C21  AROM  29
+IXM  C20  H20  SING  30
+IXM  C21  C22  AROM  31
+IXM  C21  H21  SING  32
+IXM  C22  H22  SING  33
+IXM  N24  O39  SING  34
+IXM  O39  H39  SING  35
+#

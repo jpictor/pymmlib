@@ -1,0 +1,97 @@
+data_IMB
+#
+_chem_comp.id                   IMB
+_chem_comp.name                 '[(ISOQUINOLIN-1-YLAMINO)-PHOSPHONO-METHYL]-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N2 O6 P2'
+_chem_comp.pdbx_synonyms        '(3-ISOQUINOLYLAMINE) METHYLENE-1,1-BISPHOSPHONATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        318.162
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IMB  N1   .  N  0  21.446  19.419  28.572  1  1 
+IMB  C2   .  C  0  21.619  19.363  27.175  1  2 
+IMB  C3   .  C  0  22.333  20.465  26.550  1  3 
+IMB  C4   .  C  0  22.810  21.528  27.371  1  4 
+IMB  C5   .  C  0  22.612  21.532  28.750  1  5 
+IMB  C6   .  C  0  21.930  20.479  29.350  1  6 
+IMB  C9   .  C  0  22.543  20.543  25.130  1  7 
+IMB  C10  .  C  0  23.214  21.664  24.564  1  8 
+IMB  C11  .  C  0  23.684  22.715  25.401  1  9 
+IMB  C12  .  C  0  23.484  22.650  26.807  1  10
+IMB  N17  .  N  0  21.079  18.222  26.550  1  11
+IMB  C18  .  C  0  21.132  17.857  25.136  1  12
+IMB  P20  .  P  0  19.471  17.543  24.458  1  13
+IMB  P21  .  P  0  22.170  16.399  24.937  1  14
+IMB  O23  .  O  0  22.246  16.008  23.446  1  15
+IMB  O25  .  O  0  21.657  15.315  25.729  1  16
+IMB  O26  .  O  0  23.588  16.638  25.521  1  17
+IMB  O28  .  O  0  19.573  17.149  22.963  1  18
+IMB  O30  .  O  0  18.623  18.708  24.616  1  19
+IMB  O31  .  O  0  18.741  16.437  25.267  1  20
+IMB  H28  .  H  0  ?       ?       ?       1  21
+IMB  H31  .  H  0  ?       ?       ?       1  22
+IMB  H18  .  H  0  ?       ?       ?       1  23
+IMB  H17  .  H  0  ?       ?       ?       1  24
+IMB  H6   .  H  0  ?       ?       ?       1  25
+IMB  H5   .  H  0  ?       ?       ?       1  26
+IMB  H12  .  H  0  ?       ?       ?       1  27
+IMB  H11  .  H  0  ?       ?       ?       1  28
+IMB  H10  .  H  0  ?       ?       ?       1  29
+IMB  H9   .  H  0  ?       ?       ?       1  30
+IMB  H25  .  H  0  ?       ?       ?       1  31
+IMB  H26  .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IMB  N1   C2   AROM  1 
+IMB  N1   C6   AROM  2 
+IMB  C2   N17  SING  3 
+IMB  C2   C3   AROM  4 
+IMB  C3   C9   AROM  5 
+IMB  C3   C4   AROM  6 
+IMB  C4   C5   AROM  7 
+IMB  C4   C12  AROM  8 
+IMB  C5   C6   AROM  9 
+IMB  C5   H5   SING  10
+IMB  C6   H6   SING  11
+IMB  C9   C10  AROM  12
+IMB  C9   H9   SING  13
+IMB  C10  C11  AROM  14
+IMB  C10  H10  SING  15
+IMB  C11  C12  AROM  16
+IMB  C11  H11  SING  17
+IMB  C12  H12  SING  18
+IMB  N17  C18  SING  19
+IMB  N17  H17  SING  20
+IMB  C18  P20  SING  21
+IMB  C18  H18  SING  22
+IMB  C18  P21  SING  23
+IMB  P20  O28  SING  24
+IMB  P20  O30  DOUB  25
+IMB  P20  O31  SING  26
+IMB  P21  O23  DOUB  27
+IMB  P21  O25  SING  28
+IMB  P21  O26  SING  29
+IMB  O25  H25  SING  30
+IMB  O26  H26  SING  31
+IMB  O28  H28  SING  32
+IMB  O31  H31  SING  33
+#

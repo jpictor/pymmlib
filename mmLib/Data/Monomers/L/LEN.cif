@@ -1,0 +1,69 @@
+data_LEN
+#
+_chem_comp.id                       LEN
+_chem_comp.name                     3-METHYLBUTAN-1-AMINE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C5 H13 N1'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            87.164
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LEN  CD2   .  C  0  38.335  37.381  -1.057  1  1 
+LEN  CG    .  C  0  38.484  38.451  -2.113  1  2 
+LEN  CD1   .  C  0  39.910  38.929  -2.067  1  3 
+LEN  CB    .  C  0  38.269  37.878  -3.513  1  4 
+LEN  CA    .  C  0  38.548  38.975  -4.574  1  5 
+LEN  N     .  N  0  37.469  40.062  -4.368  1  6 
+LEN  1HD2  .  H  0  ?       ?       ?       0  7 
+LEN  2HD2  .  H  0  ?       ?       ?       0  8 
+LEN  3HD2  .  H  0  ?       ?       ?       0  9 
+LEN  HG    .  H  0  ?       ?       ?       1  10
+LEN  1HD1  .  H  0  ?       ?       ?       0  11
+LEN  2HD1  .  H  0  ?       ?       ?       0  12
+LEN  3HD1  .  H  0  ?       ?       ?       0  13
+LEN  1HB   .  H  0  ?       ?       ?       0  14
+LEN  2HB   .  H  0  ?       ?       ?       0  15
+LEN  1HA   .  H  0  ?       ?       ?       0  16
+LEN  2HA   .  H  0  ?       ?       ?       0  17
+LEN  1HN   .  H  0  ?       ?       ?       0  18
+LEN  2HN   .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LEN  CD2  CG    SING  1 
+LEN  CD2  1HD2  SING  2 
+LEN  CD2  2HD2  SING  3 
+LEN  CD2  3HD2  SING  4 
+LEN  CG   CD1   SING  5 
+LEN  CG   CB    SING  6 
+LEN  CG   HG    SING  7 
+LEN  CD1  1HD1  SING  8 
+LEN  CD1  2HD1  SING  9 
+LEN  CD1  3HD1  SING  10
+LEN  CB   CA    SING  11
+LEN  CB   1HB   SING  12
+LEN  CB   2HB   SING  13
+LEN  CA   N     SING  14
+LEN  CA   1HA   SING  15
+LEN  CA   2HA   SING  16
+LEN  N    1HN   SING  17
+LEN  N    2HN   SING  18
+#

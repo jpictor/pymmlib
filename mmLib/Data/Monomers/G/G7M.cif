@@ -1,0 +1,118 @@
+data_G7M
+#
+_chem_comp.id                       G7M
+_chem_comp.name                     N7-METHYL-GUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N5 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           378.258
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G7M  O3P   .  O  0  ?  ?  ?  1  1 
+G7M  P     .  P  0  ?  ?  ?  1  2 
+G7M  O1P   .  O  0  ?  ?  ?  1  3 
+G7M  O2P   .  O  0  ?  ?  ?  1  4 
+G7M  O5*   .  O  0  ?  ?  ?  1  5 
+G7M  C5*   .  C  0  ?  ?  ?  1  6 
+G7M  C4*   .  C  0  ?  ?  ?  1  7 
+G7M  O4*   .  O  0  ?  ?  ?  1  8 
+G7M  C3*   .  C  0  ?  ?  ?  1  9 
+G7M  O3*   .  O  0  ?  ?  ?  1  10
+G7M  C2*   .  C  0  ?  ?  ?  1  11
+G7M  O2*   .  O  0  ?  ?  ?  1  12
+G7M  C1*   .  C  0  ?  ?  ?  1  13
+G7M  N9    .  N  0  ?  ?  ?  1  14
+G7M  C8    .  C  0  ?  ?  ?  1  15
+G7M  N7    .  N  1  ?  ?  ?  1  16
+G7M  CN7   .  C  0  ?  ?  ?  1  17
+G7M  C5    .  C  0  ?  ?  ?  1  18
+G7M  C6    .  C  0  ?  ?  ?  1  19
+G7M  O6    .  O  0  ?  ?  ?  1  20
+G7M  N1    .  N  0  ?  ?  ?  1  21
+G7M  C2    .  C  0  ?  ?  ?  1  22
+G7M  N2    .  N  0  ?  ?  ?  1  23
+G7M  N3    .  N  0  ?  ?  ?  1  24
+G7M  C4    .  C  0  ?  ?  ?  1  25
+G7M  3HOP  .  H  0  ?  ?  ?  0  26
+G7M  2HOP  .  H  0  ?  ?  ?  0  27
+G7M  1H5*  .  H  0  ?  ?  ?  0  28
+G7M  2H5*  .  H  0  ?  ?  ?  0  29
+G7M  H4*   .  H  0  ?  ?  ?  1  30
+G7M  H3*   .  H  0  ?  ?  ?  1  31
+G7M  H2*   .  H  0  ?  ?  ?  1  32
+G7M  2HO*  .  H  0  ?  ?  ?  0  33
+G7M  H1*   .  H  0  ?  ?  ?  1  34
+G7M  H8    .  H  0  ?  ?  ?  1  35
+G7M  1HN7  .  H  0  ?  ?  ?  0  36
+G7M  2HN7  .  H  0  ?  ?  ?  0  37
+G7M  3HN7  .  H  0  ?  ?  ?  0  38
+G7M  H1    .  H  0  ?  ?  ?  1  39
+G7M  1H2   .  H  0  ?  ?  ?  0  40
+G7M  2H2   .  H  0  ?  ?  ?  0  41
+G7M  H3T   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G7M  O3P  P     SING  1 
+G7M  O3P  3HOP  SING  2 
+G7M  P    O1P   DOUB  3 
+G7M  P    O2P   SING  4 
+G7M  P    O5*   SING  5 
+G7M  O2P  2HOP  SING  6 
+G7M  O5*  C5*   SING  7 
+G7M  C5*  C4*   SING  8 
+G7M  C5*  1H5*  SING  9 
+G7M  C5*  2H5*  SING  10
+G7M  C4*  O4*   SING  11
+G7M  C4*  C3*   SING  12
+G7M  C4*  H4*   SING  13
+G7M  O4*  C1*   SING  14
+G7M  C3*  O3*   SING  15
+G7M  C3*  C2*   SING  16
+G7M  C3*  H3*   SING  17
+G7M  O3*  H3T   SING  18
+G7M  C2*  O2*   SING  19
+G7M  C2*  C1*   SING  20
+G7M  C2*  H2*   SING  21
+G7M  O2*  2HO*  SING  22
+G7M  C1*  N9    SING  23
+G7M  C1*  H1*   SING  24
+G7M  N9   C8    SING  25
+G7M  N9   C4    SING  26
+G7M  C8   N7    DOUB  27
+G7M  C8   H8    SING  28
+G7M  N7   C5    SING  29
+G7M  N7   CN7   SING  30
+G7M  CN7  1HN7  SING  31
+G7M  CN7  2HN7  SING  32
+G7M  CN7  3HN7  SING  33
+G7M  C5   C6    SING  34
+G7M  C5   C4    DOUB  35
+G7M  C6   O6    DOUB  36
+G7M  C6   N1    SING  37
+G7M  N1   C2    SING  38
+G7M  N1   H1    SING  39
+G7M  C2   N2    SING  40
+G7M  C2   N3    DOUB  41
+G7M  N2   1H2   SING  42
+G7M  N2   2H2   SING  43
+G7M  N3   C4    SING  44
+#

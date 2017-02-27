@@ -1,0 +1,111 @@
+data_MMT
+#
+_chem_comp.id                       MMT
+_chem_comp.name                     5'-O-(DIMETHYLAMINO)-THYMIDINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H19 N3 O5'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            285.299
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MMT  CO3*  .  C  0  ?  ?  ?  0  1 
+MMT  NP    .  N  0  ?  ?  ?  1  2 
+MMT  CP    .  C  0  ?  ?  ?  1  3 
+MMT  O5*   .  O  0  ?  ?  ?  1  4 
+MMT  C5*   .  C  0  ?  ?  ?  1  5 
+MMT  C4*   .  C  0  ?  ?  ?  1  6 
+MMT  O4*   .  O  0  ?  ?  ?  1  7 
+MMT  C1*   .  C  0  ?  ?  ?  1  8 
+MMT  C2*   .  C  0  ?  ?  ?  1  9 
+MMT  C3*   .  C  0  ?  ?  ?  1  10
+MMT  O3*   .  O  0  ?  ?  ?  1  11
+MMT  N1    .  N  0  ?  ?  ?  1  12
+MMT  C2    .  C  0  ?  ?  ?  1  13
+MMT  N3    .  N  0  ?  ?  ?  1  14
+MMT  C4    .  C  0  ?  ?  ?  1  15
+MMT  C5    .  C  0  ?  ?  ?  1  16
+MMT  C6    .  C  0  ?  ?  ?  1  17
+MMT  O2    .  O  0  ?  ?  ?  1  18
+MMT  O4    .  O  0  ?  ?  ?  1  19
+MMT  C5M   .  C  0  ?  ?  ?  1  20
+MMT  1HC3  .  H  0  ?  ?  ?  0  21
+MMT  2HC3  .  H  0  ?  ?  ?  0  22
+MMT  3HC3  .  H  0  ?  ?  ?  0  23
+MMT  1HNP  .  H  0  ?  ?  ?  0  24
+MMT  2HNP  .  H  0  ?  ?  ?  0  25
+MMT  3HNP  .  H  0  ?  ?  ?  0  26
+MMT  H3T   .  H  0  ?  ?  ?  1  27
+MMT  1H5*  .  H  0  ?  ?  ?  0  28
+MMT  2H5*  .  H  0  ?  ?  ?  0  29
+MMT  H4*   .  H  0  ?  ?  ?  1  30
+MMT  H1*   .  H  0  ?  ?  ?  1  31
+MMT  1H2*  .  H  0  ?  ?  ?  0  32
+MMT  H3*   .  H  0  ?  ?  ?  1  33
+MMT  2H2*  .  H  0  ?  ?  ?  0  34
+MMT  H3    .  H  0  ?  ?  ?  1  35
+MMT  H6    .  H  0  ?  ?  ?  1  36
+MMT  1H5M  .  H  0  ?  ?  ?  0  37
+MMT  2H5M  .  H  0  ?  ?  ?  0  38
+MMT  3H5M  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MMT  CO3*  1HC3  SING  1 
+MMT  CO3*  2HC3  SING  2 
+MMT  CO3*  3HC3  SING  3 
+MMT  CO3*  NP    SING  4 
+MMT  NP    CP    SING  5 
+MMT  NP    O5*   SING  6 
+MMT  CP    1HNP  SING  7 
+MMT  CP    2HNP  SING  8 
+MMT  CP    3HNP  SING  9 
+MMT  O5*   C5*   SING  10
+MMT  C5*   C4*   SING  11
+MMT  C5*   1H5*  SING  12
+MMT  C5*   2H5*  SING  13
+MMT  C4*   O4*   SING  14
+MMT  C4*   C3*   SING  15
+MMT  C4*   H4*   SING  16
+MMT  O4*   C1*   SING  17
+MMT  C1*   C2*   SING  18
+MMT  C1*   H1*   SING  19
+MMT  C1*   N1    SING  20
+MMT  C2*   C3*   SING  21
+MMT  C2*   1H2*  SING  22
+MMT  C2*   2H2*  SING  23
+MMT  C3*   O3*   SING  24
+MMT  C3*   H3*   SING  25
+MMT  O3*   H3T   SING  26
+MMT  N1    C2    SING  27
+MMT  N1    C6    SING  28
+MMT  C2    N3    SING  29
+MMT  C2    O2    DOUB  30
+MMT  N3    C4    SING  31
+MMT  N3    H3    SING  32
+MMT  C4    C5    SING  33
+MMT  C4    O4    DOUB  34
+MMT  C5    C6    DOUB  35
+MMT  C5    C5M   SING  36
+MMT  C6    H6    SING  37
+MMT  C5M   1H5M  SING  38
+MMT  C5M   2H5M  SING  39
+MMT  C5M   3H5M  SING  40
+#

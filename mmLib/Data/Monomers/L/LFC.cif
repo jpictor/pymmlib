@@ -1,0 +1,86 @@
+data_LFC
+#
+_chem_comp.id                   LFC
+_chem_comp.name                 '6-DEOXY-L-GALACTONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          LFC
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@@H]([C@H]([C@H]([C@@H](C(=O)O)O)O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+LFC  O1A   .  O  0  -20.790  69.622  30.553  1  N  1 
+LFC  C1    .  C  0  -20.363  69.182  29.462  1  N  2 
+LFC  O1B   .  O  0  -19.458  69.701  28.782  1  N  3 
+LFC  C2    .  C  0  -21.008  67.882  28.918  1  N  4 
+LFC  O2    .  O  0  -22.229  67.599  29.601  1  N  5 
+LFC  C3    .  C  0  -21.291  67.972  27.407  1  N  6 
+LFC  O3    .  O  0  -22.297  68.961  27.174  1  N  7 
+LFC  C4    .  C  0  -21.778  66.624  26.823  1  N  8 
+LFC  O4    .  O  0  -20.990  65.518  27.282  1  N  9 
+LFC  C5    .  C  0  -21.758  66.611  25.280  1  N  10
+LFC  C6    .  C  0  -22.477  65.411  24.645  1  N  11
+LFC  O5    .  O  0  -20.398  66.635  24.828  1  N  12
+LFC  HO1B  .  H  0  -19.141  70.483  29.219  0  N  13
+LFC  H2    .  H  0  -20.286  67.071  29.094  1  N  14
+LFC  HO2   .  H  0  -22.063  67.536  30.534  1  N  15
+LFC  H3    .  H  0  -20.348  68.241  26.909  1  N  16
+LFC  HO3   .  H  0  -22.722  69.180  27.995  1  N  17
+LFC  H4    .  H  0  -22.813  66.517  27.180  1  N  18
+LFC  HO4   .  H  0  -20.816  64.930  26.556  1  N  19
+LFC  H5    .  H  0  -22.312  67.506  24.959  1  N  20
+LFC  1H6   .  H  0  -22.649  65.609  23.577  0  N  21
+LFC  2H6   .  H  0  -21.855  64.511  24.755  0  N  22
+LFC  3H6   .  H  0  -23.442  65.254  25.148  0  N  23
+LFC  HO5   .  H  0  -20.380  66.640  23.878  1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+LFC  O1A  C1    DOUB  N  1 
+LFC  C1   O1B   SING  N  2 
+LFC  C1   C2    SING  N  3 
+LFC  O1B  HO1B  SING  N  4 
+LFC  C2   O2    SING  N  5 
+LFC  C2   C3    SING  N  6 
+LFC  C2   H2    SING  N  7 
+LFC  O2   HO2   SING  N  8 
+LFC  C3   O3    SING  N  9 
+LFC  C3   C4    SING  N  10
+LFC  C3   H3    SING  N  11
+LFC  O3   HO3   SING  N  12
+LFC  C4   O4    SING  N  13
+LFC  C4   C5    SING  N  14
+LFC  C4   H4    SING  N  15
+LFC  O4   HO4   SING  N  16
+LFC  C5   C6    SING  N  17
+LFC  C5   O5    SING  N  18
+LFC  C5   H5    SING  N  19
+LFC  C6   1H6   SING  N  20
+LFC  C6   2H6   SING  N  21
+LFC  C6   3H6   SING  N  22
+LFC  O5   HO5   SING  N  23
+#

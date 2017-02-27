@@ -1,0 +1,89 @@
+data_ADC
+#
+_chem_comp.id                   ADC
+_chem_comp.name                 (1'R,2'S)-9-(2-HYDROXY-3'-KETO-CYCLOPENTEN-1-YL)ADENINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        233.229
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADC  C5'   .  C  0  ?  ?  ?  1  1 
+ADC  C4'   .  C  0  ?  ?  ?  1  2 
+ADC  C3'   .  C  0  ?  ?  ?  1  3 
+ADC  O3'   .  O  0  ?  ?  ?  1  4 
+ADC  C2'   .  C  0  ?  ?  ?  1  5 
+ADC  O2'   .  O  0  ?  ?  ?  1  6 
+ADC  C1'   .  C  0  ?  ?  ?  1  7 
+ADC  N9    .  N  0  ?  ?  ?  1  8 
+ADC  C8    .  C  0  ?  ?  ?  1  9 
+ADC  N7    .  N  0  ?  ?  ?  1  10
+ADC  C5    .  C  0  ?  ?  ?  1  11
+ADC  C6    .  C  0  ?  ?  ?  1  12
+ADC  N6    .  N  0  ?  ?  ?  1  13
+ADC  N1    .  N  0  ?  ?  ?  1  14
+ADC  C2    .  C  0  ?  ?  ?  1  15
+ADC  N3    .  N  0  ?  ?  ?  1  16
+ADC  C4    .  C  0  ?  ?  ?  1  17
+ADC  H5'   .  H  0  ?  ?  ?  1  18
+ADC  H4'   .  H  0  ?  ?  ?  1  19
+ADC  H3'   .  H  0  ?  ?  ?  1  20
+ADC  HO3   .  H  0  ?  ?  ?  1  21
+ADC  H2'   .  H  0  ?  ?  ?  1  22
+ADC  HO2   .  H  0  ?  ?  ?  1  23
+ADC  H1'   .  H  0  ?  ?  ?  1  24
+ADC  H8    .  H  0  ?  ?  ?  1  25
+ADC  1HN6  .  H  0  ?  ?  ?  0  26
+ADC  2HN6  .  H  0  ?  ?  ?  0  27
+ADC  H2    .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADC  C5'  C4'   DOUB  1 
+ADC  C5'  C1'   SING  2 
+ADC  C5'  H5'   SING  3 
+ADC  C4'  C3'   SING  4 
+ADC  C4'  H4'   SING  5 
+ADC  C3'  O3'   SING  6 
+ADC  C3'  C2'   SING  7 
+ADC  C3'  H3'   SING  8 
+ADC  O3'  HO3   SING  9 
+ADC  C2'  O2'   SING  10
+ADC  C2'  C1'   SING  11
+ADC  C2'  H2'   SING  12
+ADC  O2'  HO2   SING  13
+ADC  C1'  N9    SING  14
+ADC  C1'  H1'   SING  15
+ADC  N9   C8    SING  16
+ADC  N9   C4    SING  17
+ADC  C8   N7    DOUB  18
+ADC  C8   H8    SING  19
+ADC  N7   C5    SING  20
+ADC  C5   C6    SING  21
+ADC  C5   C4    DOUB  22
+ADC  C6   N6    SING  23
+ADC  C6   N1    DOUB  24
+ADC  N6   1HN6  SING  25
+ADC  N6   2HN6  SING  26
+ADC  N1   C2    SING  27
+ADC  C2   N3    DOUB  28
+ADC  C2   H2    SING  29
+ADC  N3   C4    SING  30
+#

@@ -1,0 +1,73 @@
+data_HAI
+#
+_chem_comp.id                   HAI
+_chem_comp.name                 'CYCLOHEXYLAMMONIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       100.183
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HAI  C1   .  C  0  ?  ?  ?  1  1 
+HAI  C2   .  C  0  ?  ?  ?  1  2 
+HAI  C3   .  C  0  ?  ?  ?  1  3 
+HAI  C4   .  C  0  ?  ?  ?  1  4 
+HAI  C5   .  C  0  ?  ?  ?  1  5 
+HAI  C6   .  C  0  ?  ?  ?  1  6 
+HAI  N    .  N  1  ?  ?  ?  1  7 
+HAI  H1   .  H  0  ?  ?  ?  1  8 
+HAI  1H2  .  H  0  ?  ?  ?  0  9 
+HAI  2H2  .  H  0  ?  ?  ?  0  10
+HAI  1H3  .  H  0  ?  ?  ?  0  11
+HAI  2H3  .  H  0  ?  ?  ?  0  12
+HAI  1H4  .  H  0  ?  ?  ?  0  13
+HAI  2H4  .  H  0  ?  ?  ?  0  14
+HAI  1H5  .  H  0  ?  ?  ?  0  15
+HAI  2H5  .  H  0  ?  ?  ?  0  16
+HAI  1H6  .  H  0  ?  ?  ?  0  17
+HAI  2H6  .  H  0  ?  ?  ?  0  18
+HAI  1HN  .  H  0  ?  ?  ?  0  19
+HAI  2HN  .  H  0  ?  ?  ?  0  20
+HAI  3HN  .  H  0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HAI  C1  C2   SING  1 
+HAI  C1  C6   SING  2 
+HAI  C1  N    SING  3 
+HAI  C1  H1   SING  4 
+HAI  C2  C3   SING  5 
+HAI  C2  1H2  SING  6 
+HAI  C2  2H2  SING  7 
+HAI  C3  C4   SING  8 
+HAI  C3  1H3  SING  9 
+HAI  C3  2H3  SING  10
+HAI  C4  C5   SING  11
+HAI  C4  1H4  SING  12
+HAI  C4  2H4  SING  13
+HAI  C5  C6   SING  14
+HAI  C5  1H5  SING  15
+HAI  C5  2H5  SING  16
+HAI  C6  1H6  SING  17
+HAI  C6  2H6  SING  18
+HAI  N   1HN  SING  19
+HAI  N   2HN  SING  20
+HAI  N   3HN  SING  21
+#

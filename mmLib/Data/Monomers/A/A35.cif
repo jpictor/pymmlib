@@ -1,0 +1,116 @@
+data_A35
+#
+_chem_comp.id                       A35
+_chem_comp.name                     '2-AMINO DEOXYADENOSINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N6 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            360.266
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+A35  N1    .  N  0  14.837  13.475  11.496  1  1 
+A35  C2    .  C  0  15.857  12.598  11.481  1  2 
+A35  C4    .  C  0  17.353  14.181  11.622  1  3 
+A35  C5    .  C  0  16.431  15.168  11.669  1  4 
+A35  C6    .  C  0  15.047  14.823  11.580  1  5 
+A35  C8    .  C  0  18.348  16.134  11.769  1  6 
+A35  N2    .  N  0  15.504  11.298  11.433  1  7 
+A35  N3    .  N  0  17.180  12.842  11.517  1  8 
+A35  N9    .  N  0  18.586  14.789  11.701  1  9 
+A35  N7    .  N  0  17.045  16.417  11.753  1  10
+A35  N6    .  N  0  14.050  15.692  11.575  1  11
+A35  P     .  P  0  22.453  17.998  13.642  1  12
+A35  O1P   .  O  0  22.212  18.979  12.635  1  13
+A35  O2P   .  O  0  21.691  18.452  14.959  1  14
+A35  O5*   .  O  0  21.868  16.566  13.228  1  15
+A35  C5*   .  C  0  22.083  15.414  14.020  1  16
+A35  C4*   .  C  0  21.674  14.207  13.223  1  17
+A35  O4*   .  O  0  20.290  13.996  13.154  1  18
+A35  C1*   .  C  0  19.858  14.047  11.753  1  19
+A35  C2*   .  C  0  20.957  14.694  10.998  1  20
+A35  C3*   .  C  0  22.162  14.226  11.753  1  21
+A35  O3*   .  O  0  22.588  12.887  11.475  1  22
+A35  O3P   .  O  0  23.865  17.636  14.104  1  23
+A35  CH2   .  C  0  16.692  10.446  11.334  1  24
+A35  H1*   .  H  0  19.702  13.011  11.372  1  25
+A35  1H2*  .  H  0  20.868  15.800  10.885  0  26
+A35  2H2*  .  H  0  20.971  14.480  9.904   0  27
+A35  H3*   .  H  0  23.007  14.942  11.628  1  28
+A35  H4*   .  H  0  22.125  13.313  13.714  1  29
+A35  HA    .  H  0  23.353  12.590  11.954  1  30
+A35  1H5*  .  H  0  21.568  15.470  15.007  0  31
+A35  2H5*  .  H  0  23.129  15.343  14.398  0  32
+A35  H2    .  H  0  14.544  10.955  11.462  1  33
+A35  1H6N  .  H  0  14.207  16.698  11.638  0  34
+A35  2H6N  .  H  0  13.062  15.446  11.512  0  35
+A35  H8    .  H  0  19.142  16.897  11.830  1  36
+A35  1HH2  .  H  0  16.400  9.371   11.294  0  37
+A35  2HH2  .  H  0  17.417  10.648  12.157  0  38
+A35  3HH2  .  H  0  17.337  10.733  10.470  0  39
+A35  H2P   .  H  0  ?       ?       ?       1  40
+A35  H3P   .  H  0  ?       ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+A35  N1   C2    AROM  1 
+A35  N1   C6    AROM  2 
+A35  C2   N3    AROM  3 
+A35  C2   N2    SING  4 
+A35  C4   N3    AROM  5 
+A35  C4   C5    AROM  6 
+A35  C4   N9    SING  7 
+A35  C5   C6    AROM  8 
+A35  C5   N7    SING  9 
+A35  C6   N6    SING  10
+A35  C8   N7    DOUB  11
+A35  C8   N9    SING  12
+A35  C8   H8    SING  13
+A35  N2   CH2   SING  14
+A35  N2   H2    SING  15
+A35  N9   C1*   SING  16
+A35  N6   1H6N  SING  17
+A35  N6   2H6N  SING  18
+A35  P    O3P   SING  19
+A35  P    O1P   DOUB  20
+A35  P    O2P   SING  21
+A35  P    O5*   SING  22
+A35  O2P  H2P   SING  23
+A35  O5*  C5*   SING  24
+A35  C5*  C4*   SING  25
+A35  C5*  1H5*  SING  26
+A35  C5*  2H5*  SING  27
+A35  C4*  C3*   SING  28
+A35  C4*  O4*   SING  29
+A35  C4*  H4*   SING  30
+A35  O4*  C1*   SING  31
+A35  C1*  C2*   SING  32
+A35  C1*  H1*   SING  33
+A35  C2*  C3*   SING  34
+A35  C2*  1H2*  SING  35
+A35  C2*  2H2*  SING  36
+A35  C3*  O3*   SING  37
+A35  C3*  H3*   SING  38
+A35  O3*  HA    SING  39
+A35  O3P  H3P   SING  40
+A35  CH2  1HH2  SING  41
+A35  CH2  2HH2  SING  42
+A35  CH2  3HH2  SING  43
+#

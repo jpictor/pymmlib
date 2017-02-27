@@ -1,0 +1,98 @@
+data_IBP
+#
+_chem_comp.id                   IBP
+_chem_comp.name                 IBUPROFEN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H18 O2'
+_chem_comp.pdbx_synonyms        '2-(4-ISOBUTYLPHENYL)PROPIONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        206.284
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBP  C1    .  C  0  ?  ?  ?  1  1 
+IBP  C2    .  C  0  ?  ?  ?  1  2 
+IBP  C3    .  C  0  ?  ?  ?  1  3 
+IBP  C4    .  C  0  ?  ?  ?  1  4 
+IBP  C5    .  C  0  ?  ?  ?  1  5 
+IBP  C6    .  C  0  ?  ?  ?  1  6 
+IBP  C7    .  C  0  ?  ?  ?  1  7 
+IBP  C8    .  C  0  ?  ?  ?  1  8 
+IBP  C9    .  C  0  ?  ?  ?  1  9 
+IBP  C10   .  C  0  ?  ?  ?  1  10
+IBP  C11   .  C  0  ?  ?  ?  1  11
+IBP  C12   .  C  0  ?  ?  ?  1  12
+IBP  C13   .  C  0  ?  ?  ?  1  13
+IBP  O1    .  O  0  ?  ?  ?  1  14
+IBP  O2    .  O  0  ?  ?  ?  1  15
+IBP  HO1   .  H  0  ?  ?  ?  1  16
+IBP  1H7   .  H  0  ?  ?  ?  0  17
+IBP  2H7   .  H  0  ?  ?  ?  0  18
+IBP  3H7   .  H  0  ?  ?  ?  0  19
+IBP  1H6   .  H  0  ?  ?  ?  0  20
+IBP  1H9   .  H  0  ?  ?  ?  0  21
+IBP  1H10  .  H  0  ?  ?  ?  0  22
+IBP  1H12  .  H  0  ?  ?  ?  0  23
+IBP  1H13  .  H  0  ?  ?  ?  0  24
+IBP  1H2   .  H  0  ?  ?  ?  0  25
+IBP  2H2   .  H  0  ?  ?  ?  0  26
+IBP  1H3   .  H  0  ?  ?  ?  0  27
+IBP  1H4   .  H  0  ?  ?  ?  0  28
+IBP  2H4   .  H  0  ?  ?  ?  0  29
+IBP  3H4   .  H  0  ?  ?  ?  0  30
+IBP  1H5   .  H  0  ?  ?  ?  0  31
+IBP  2H5   .  H  0  ?  ?  ?  0  32
+IBP  3H5   .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBP  C1   C6    SING  1 
+IBP  C1   O1    SING  2 
+IBP  C1   O2    DOUB  3 
+IBP  C2   C3    SING  4 
+IBP  C2   C11   SING  5 
+IBP  C2   1H2   SING  6 
+IBP  C2   2H2   SING  7 
+IBP  C3   C4    SING  8 
+IBP  C3   C5    SING  9 
+IBP  C3   1H3   SING  10
+IBP  C4   1H4   SING  11
+IBP  C4   2H4   SING  12
+IBP  C4   3H4   SING  13
+IBP  C5   1H5   SING  14
+IBP  C5   2H5   SING  15
+IBP  C5   3H5   SING  16
+IBP  C6   C7    SING  17
+IBP  C6   C8    SING  18
+IBP  C6   1H6   SING  19
+IBP  C7   1H7   SING  20
+IBP  C7   2H7   SING  21
+IBP  C7   3H7   SING  22
+IBP  C8   C9    DOUB  23
+IBP  C8   C13   SING  24
+IBP  C9   C10   SING  25
+IBP  C9   1H9   SING  26
+IBP  C10  C11   DOUB  27
+IBP  C10  1H10  SING  28
+IBP  C11  C12   SING  29
+IBP  C12  C13   DOUB  30
+IBP  C12  1H12  SING  31
+IBP  C13  1H13  SING  32
+IBP  O1   HO1   SING  33
+#

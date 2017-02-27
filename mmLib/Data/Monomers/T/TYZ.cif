@@ -1,0 +1,75 @@
+data_TYZ
+#
+_chem_comp.id                   TYZ
+_chem_comp.name                 'PARA ACETAMIDO BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H9 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        179.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYZ  O1    .  O  0  16.169  8.329   42.943  1  1 
+TYZ  O2    .  O  0  ?       ?       ?       1  2 
+TYZ  C7    .  C  0  15.899  9.2     42.072  1  3 
+TYZ  C3    .  C  0  16.91   10.131  41.579  1  4 
+TYZ  C4    .  C  0  16.665  10.798  40.411  1  5 
+TYZ  C5    .  C  0  17.697  11.628  39.969  1  6 
+TYZ  C6    .  C  0  18.947  11.777  40.618  1  7 
+TYZ  C1    .  C  0  19.199  11.098  41.791  1  8 
+TYZ  C2    .  C  0  18.196  10.254  42.248  1  9 
+TYZ  C8    .  C  0  19.713  13.534  39.128  1  10
+TYZ  N     .  N  0  19.91   12.645  40.166  1  11
+TYZ  O4    .  O  0  20.633  14.22   38.632  1  12
+TYZ  C9    .  C  0  18.325  13.699  38.533  1  13
+TYZ  H1    .  H  0  ?       ?       ?       1  14
+TYZ  H4    .  H  0  15.718  10.688  39.856  1  15
+TYZ  H2    .  H  0  18.381  9.653   43.154  1  16
+TYZ  H5    .  H  0  17.527  12.21   39.048  1  17
+TYZ  HA    .  H  0  20.149  11.219  42.338  1  18
+TYZ  1H9C  .  H  0  18.166  14.417  37.695  0  19
+TYZ  2H9C  .  H  0  17.614  13.95   39.355  0  20
+TYZ  3H9C  .  H  0  17.953  12.696  38.217  0  21
+TYZ  HN    .  H  0  ?       ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYZ  O1  C7    DOUB  1 
+TYZ  O2  C7    SING  2 
+TYZ  O2  H1    SING  3 
+TYZ  C7  C3    SING  4 
+TYZ  C3  C4    SING  5 
+TYZ  C3  C2    DOUB  6 
+TYZ  C4  C5    DOUB  7 
+TYZ  C4  H4    SING  8 
+TYZ  C5  C6    SING  9 
+TYZ  C5  H5    SING  10
+TYZ  C6  C1    DOUB  11
+TYZ  C6  N     SING  12
+TYZ  C1  C2    SING  13
+TYZ  C1  HA    SING  14
+TYZ  C2  H2    SING  15
+TYZ  C8  N     SING  16
+TYZ  C8  O4    DOUB  17
+TYZ  C8  C9    SING  18
+TYZ  N   HN    SING  19
+TYZ  C9  1H9C  SING  20
+TYZ  C9  2H9C  SING  21
+TYZ  C9  3H9C  SING  22
+#

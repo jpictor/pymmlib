@@ -1,0 +1,101 @@
+data_C37
+#
+_chem_comp.id                       C37
+_chem_comp.name                     5-FLUORO-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N3 O7 F1 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            325.190
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+C37  O3P   .  O  0  -29.412  49.710  104.520  1  1 
+C37  P     .  P  0  -28.571  49.348  105.690  1  2 
+C37  O1P   .  O  0  -28.843  50.028  106.982  1  3 
+C37  O2P   .  O  0  -28.694  47.753  105.921  1  4 
+C37  O5*   .  O  0  -27.024  49.448  105.254  1  5 
+C37  C5*   .  C  0  -26.060  48.700  105.988  1  6 
+C37  C4*   .  C  0  -24.897  48.141  105.087  1  7 
+C37  O4*   .  O  0  -25.362  47.786  103.852  1  8 
+C37  C3*   .  C  0  -23.971  49.152  104.468  1  9 
+C37  O3*   .  O  0  -22.966  49.481  105.439  1  10
+C37  C2*   .  C  0  -23.373  48.425  103.269  1  11
+C37  C1*   .  C  0  -24.245  47.267  103.211  1  12
+C37  N1    .  N  0  -24.716  46.866  101.874  1  13
+C37  C2    .  C  0  -23.871  46.204  101.063  1  14
+C37  O2    .  O  0  -22.681  46.054  101.430  1  15
+C37  N3    .  N  0  -24.419  45.738  99.871   1  16
+C37  C4    .  C  0  -25.697  45.903  99.492   1  17
+C37  N4    .  N  0  -26.194  45.448  98.305   1  18
+C37  C5    .  C  0  -26.509  46.588  100.362  1  19
+C37  C6    .  C  0  -26.007  47.042  101.491  1  20
+C37  F     .  F  0  -27.922  46.681  100.229  1  21
+C37  1H5*  .  H  0  -26.548  47.878  106.563  0  22
+C37  2H5*  .  H  0  -25.653  49.299  106.836  0  23
+C37  H4*   .  H  0  -24.343  47.310  105.583  1  24
+C37  H3*   .  H  0  -24.529  50.062  104.146  1  25
+C37  H1*   .  H  0  -23.816  46.403  103.770  1  26
+C37  HA    .  H  0  -22.381  50.119  105.048  1  27
+C37  1H2*  .  H  0  -22.281  48.207  103.329  0  28
+C37  2H2*  .  H  0  -23.295  49.021  102.330  0  29
+C37  H6    .  H  0  -26.676  47.600  102.168  1  30
+C37  1H4N  .  H  0  -27.164  45.573  98.017   0  31
+C37  2H4N  .  H  0  -25.591  44.939  97.659   0  32
+C37  H2P   .  H  0  ?        ?       ?        1  33
+C37  H3P   .  H  0  ?        ?       ?        1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+C37  O3P  H3P   SING  1 
+C37  O3P  P     SING  2 
+C37  P    O1P   DOUB  3 
+C37  P    O2P   SING  4 
+C37  P    O5*   SING  5 
+C37  O2P  H2P   SING  6 
+C37  O5*  C5*   SING  7 
+C37  C5*  C4*   SING  8 
+C37  C5*  1H5*  SING  9 
+C37  C5*  2H5*  SING  10
+C37  C4*  O4*   SING  11
+C37  C4*  C3*   SING  12
+C37  C4*  H4*   SING  13
+C37  O4*  C1*   SING  14
+C37  C3*  O3*   SING  15
+C37  C3*  C2*   SING  16
+C37  C3*  H3*   SING  17
+C37  O3*  HA    SING  18
+C37  C2*  C1*   SING  19
+C37  C2*  1H2*  SING  20
+C37  C2*  2H2*  SING  21
+C37  C1*  N1    SING  22
+C37  C1*  H1*   SING  23
+C37  N1   C2    SING  24
+C37  N1   C6    SING  25
+C37  C2   O2    DOUB  26
+C37  C2   N3    SING  27
+C37  N3   C4    DOUB  28
+C37  C4   N4    SING  29
+C37  C4   C5    SING  30
+C37  N4   1H4N  SING  31
+C37  N4   2H4N  SING  32
+C37  C5   C6    DOUB  33
+C37  C5   F     SING  34
+C37  C6   H6    SING  35
+#

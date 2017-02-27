@@ -1,0 +1,120 @@
+data_PNS
+#
+_chem_comp.id                   PNS
+_chem_comp.name                 4'-PHOSPHOPANTETHEINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H23 N2 O7 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        358.346
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PNS  O23   .  O  0  ?  ?  ?  1  1 
+PNS  P24   .  P  0  ?  ?  ?  1  2 
+PNS  O25   .  O  0  ?  ?  ?  1  3 
+PNS  O26   .  O  0  ?  ?  ?  1  4 
+PNS  O27   .  O  0  ?  ?  ?  1  5 
+PNS  C28   .  C  0  ?  ?  ?  1  6 
+PNS  C29   .  C  0  ?  ?  ?  1  7 
+PNS  C30   .  C  0  ?  ?  ?  1  8 
+PNS  C31   .  C  0  ?  ?  ?  1  9 
+PNS  C32   .  C  0  ?  ?  ?  1  10
+PNS  O33   .  O  0  ?  ?  ?  1  11
+PNS  C34   .  C  0  ?  ?  ?  1  12
+PNS  O35   .  O  0  ?  ?  ?  1  13
+PNS  N36   .  N  0  ?  ?  ?  1  14
+PNS  C37   .  C  0  ?  ?  ?  1  15
+PNS  C38   .  C  0  ?  ?  ?  1  16
+PNS  C39   .  C  0  ?  ?  ?  1  17
+PNS  O40   .  O  0  ?  ?  ?  1  18
+PNS  N41   .  N  0  ?  ?  ?  1  19
+PNS  C42   .  C  0  ?  ?  ?  1  20
+PNS  C43   .  C  0  ?  ?  ?  1  21
+PNS  S44   .  S  0  ?  ?  ?  1  22
+PNS  2H28  .  H  0  ?  ?  ?  0  23
+PNS  1H28  .  H  0  ?  ?  ?  0  24
+PNS  3H30  .  H  0  ?  ?  ?  0  25
+PNS  2H30  .  H  0  ?  ?  ?  0  26
+PNS  1H30  .  H  0  ?  ?  ?  0  27
+PNS  3H31  .  H  0  ?  ?  ?  0  28
+PNS  2H31  .  H  0  ?  ?  ?  0  29
+PNS  1H31  .  H  0  ?  ?  ?  0  30
+PNS  H32   .  H  0  ?  ?  ?  1  31
+PNS  H33   .  H  0  ?  ?  ?  1  32
+PNS  H36   .  H  0  ?  ?  ?  1  33
+PNS  2H37  .  H  0  ?  ?  ?  0  34
+PNS  1H37  .  H  0  ?  ?  ?  0  35
+PNS  2H38  .  H  0  ?  ?  ?  0  36
+PNS  1H38  .  H  0  ?  ?  ?  0  37
+PNS  H41   .  H  0  ?  ?  ?  1  38
+PNS  2H42  .  H  0  ?  ?  ?  0  39
+PNS  1H42  .  H  0  ?  ?  ?  0  40
+PNS  1H43  .  H  0  ?  ?  ?  0  41
+PNS  2H43  .  H  0  ?  ?  ?  0  42
+PNS  H44   .  H  0  ?  ?  ?  1  43
+PNS  1HOP  .  H  0  ?  ?  ?  0  44
+PNS  2HOP  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PNS  O23  P24   SING  1 
+PNS  O23  1HOP  SING  2 
+PNS  P24  O25   SING  3 
+PNS  P24  O26   DOUB  4 
+PNS  P24  O27   SING  5 
+PNS  O25  2HOP  SING  6 
+PNS  O27  C28   SING  7 
+PNS  C28  C29   SING  8 
+PNS  C28  2H28  SING  9 
+PNS  C28  1H28  SING  10
+PNS  C29  C30   SING  11
+PNS  C29  C31   SING  12
+PNS  C29  C32   SING  13
+PNS  C30  3H30  SING  14
+PNS  C30  2H30  SING  15
+PNS  C30  1H30  SING  16
+PNS  C31  3H31  SING  17
+PNS  C31  2H31  SING  18
+PNS  C31  1H31  SING  19
+PNS  C32  O33   SING  20
+PNS  C32  C34   SING  21
+PNS  C32  H32   SING  22
+PNS  O33  H33   SING  23
+PNS  C34  O35   DOUB  24
+PNS  C34  N36   SING  25
+PNS  N36  C37   SING  26
+PNS  N36  H36   SING  27
+PNS  C37  C38   SING  28
+PNS  C37  2H37  SING  29
+PNS  C37  1H37  SING  30
+PNS  C38  C39   SING  31
+PNS  C38  2H38  SING  32
+PNS  C38  1H38  SING  33
+PNS  C39  O40   DOUB  34
+PNS  C39  N41   SING  35
+PNS  N41  C42   SING  36
+PNS  N41  H41   SING  37
+PNS  C42  C43   SING  38
+PNS  C42  2H42  SING  39
+PNS  C42  1H42  SING  40
+PNS  C43  S44   SING  41
+PNS  C43  1H43  SING  42
+PNS  C43  2H43  SING  43
+PNS  S44  H44   SING  44
+#

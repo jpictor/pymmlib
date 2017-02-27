@@ -1,0 +1,85 @@
+data_MLZ
+#
+_chem_comp.id                       MLZ
+_chem_comp.name                     N-METHYL-LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            160.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MLZ  N     .  N  0  ?  ?  ?  1  1 
+MLZ  CA    .  C  0  ?  ?  ?  1  2 
+MLZ  CB    .  C  0  ?  ?  ?  1  3 
+MLZ  CG    .  C  0  ?  ?  ?  1  4 
+MLZ  CD    .  C  0  ?  ?  ?  1  5 
+MLZ  CE    .  C  0  ?  ?  ?  1  6 
+MLZ  NZ    .  N  0  ?  ?  ?  1  7 
+MLZ  CM    .  C  0  ?  ?  ?  1  8 
+MLZ  C     .  C  0  ?  ?  ?  1  9 
+MLZ  O     .  O  0  ?  ?  ?  1  10
+MLZ  OXT   .  O  0  ?  ?  ?  1  11
+MLZ  1HN   .  H  0  ?  ?  ?  0  12
+MLZ  2HN   .  H  0  ?  ?  ?  0  13
+MLZ  HA    .  H  0  ?  ?  ?  1  14
+MLZ  1HB   .  H  0  ?  ?  ?  0  15
+MLZ  2HB   .  H  0  ?  ?  ?  0  16
+MLZ  1HG   .  H  0  ?  ?  ?  0  17
+MLZ  2HG   .  H  0  ?  ?  ?  0  18
+MLZ  1HD   .  H  0  ?  ?  ?  0  19
+MLZ  2HD   .  H  0  ?  ?  ?  0  20
+MLZ  1HE   .  H  0  ?  ?  ?  0  21
+MLZ  2HE   .  H  0  ?  ?  ?  0  22
+MLZ  HZ    .  H  0  ?  ?  ?  1  23
+MLZ  1HCM  .  H  0  ?  ?  ?  0  24
+MLZ  2HCM  .  H  0  ?  ?  ?  0  25
+MLZ  3HCM  .  H  0  ?  ?  ?  0  26
+MLZ  HXT   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MLZ  N    CA    SING  1 
+MLZ  N    1HN   SING  2 
+MLZ  N    2HN   SING  3 
+MLZ  CA   CB    SING  4 
+MLZ  CA   C     SING  5 
+MLZ  CA   HA    SING  6 
+MLZ  CB   CG    SING  7 
+MLZ  CB   1HB   SING  8 
+MLZ  CB   2HB   SING  9 
+MLZ  CG   CD    SING  10
+MLZ  CG   1HG   SING  11
+MLZ  CG   2HG   SING  12
+MLZ  CD   CE    SING  13
+MLZ  CD   1HD   SING  14
+MLZ  CD   2HD   SING  15
+MLZ  CE   NZ    SING  16
+MLZ  CE   1HE   SING  17
+MLZ  CE   2HE   SING  18
+MLZ  NZ   CM    SING  19
+MLZ  NZ   HZ    SING  20
+MLZ  CM   1HCM  SING  21
+MLZ  CM   2HCM  SING  22
+MLZ  CM   3HCM  SING  23
+MLZ  C    O     DOUB  24
+MLZ  C    OXT   SING  25
+MLZ  OXT  HXT   SING  26
+#

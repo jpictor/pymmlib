@@ -1,0 +1,118 @@
+data_LPL
+#
+_chem_comp.id                   LPL
+_chem_comp.name                 LEU-HYDROXYETHYLENE-LEU
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H27 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        245.361
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LPL  N     .  N  0  ?  ?  ?  1  1 
+LPL  CA    .  C  0  ?  ?  ?  1  2 
+LPL  CB    .  C  0  ?  ?  ?  1  3 
+LPL  CG    .  C  0  ?  ?  ?  1  4 
+LPL  CD1   .  C  0  ?  ?  ?  1  5 
+LPL  CD2   .  C  0  ?  ?  ?  1  6 
+LPL  CH    .  C  0  ?  ?  ?  1  7 
+LPL  OH    .  O  0  ?  ?  ?  1  8 
+LPL  CM    .  C  0  ?  ?  ?  1  9 
+LPL  CA1   .  C  0  ?  ?  ?  1  10
+LPL  CB1   .  C  0  ?  ?  ?  1  11
+LPL  CG1   .  C  0  ?  ?  ?  1  12
+LPL  CD3   .  C  0  ?  ?  ?  1  13
+LPL  CD4   .  C  0  ?  ?  ?  1  14
+LPL  C     .  C  0  ?  ?  ?  1  15
+LPL  O     .  O  0  ?  ?  ?  1  16
+LPL  OXT   .  O  0  ?  ?  ?  1  17
+LPL  1HN   .  H  0  ?  ?  ?  0  18
+LPL  2HN   .  H  0  ?  ?  ?  0  19
+LPL  HA    .  H  0  ?  ?  ?  1  20
+LPL  1HB   .  H  0  ?  ?  ?  0  21
+LPL  2HB   .  H  0  ?  ?  ?  0  22
+LPL  HG    .  H  0  ?  ?  ?  1  23
+LPL  1HD1  .  H  0  ?  ?  ?  0  24
+LPL  2HD1  .  H  0  ?  ?  ?  0  25
+LPL  3HD1  .  H  0  ?  ?  ?  0  26
+LPL  1HD2  .  H  0  ?  ?  ?  0  27
+LPL  2HD2  .  H  0  ?  ?  ?  0  28
+LPL  3HD2  .  H  0  ?  ?  ?  0  29
+LPL  HH    .  H  0  ?  ?  ?  1  30
+LPL  HO    .  H  0  ?  ?  ?  1  31
+LPL  1HM   .  H  0  ?  ?  ?  0  32
+LPL  2HM   .  H  0  ?  ?  ?  0  33
+LPL  HA1   .  H  0  ?  ?  ?  1  34
+LPL  1HB1  .  H  0  ?  ?  ?  0  35
+LPL  2HB1  .  H  0  ?  ?  ?  0  36
+LPL  HG1   .  H  0  ?  ?  ?  1  37
+LPL  1HD3  .  H  0  ?  ?  ?  0  38
+LPL  2HD3  .  H  0  ?  ?  ?  0  39
+LPL  3HD3  .  H  0  ?  ?  ?  0  40
+LPL  1HD4  .  H  0  ?  ?  ?  0  41
+LPL  2HD4  .  H  0  ?  ?  ?  0  42
+LPL  3HD4  .  H  0  ?  ?  ?  0  43
+LPL  HXT   .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LPL  N    CA    SING  1 
+LPL  N    1HN   SING  2 
+LPL  N    2HN   SING  3 
+LPL  CA   CB    SING  4 
+LPL  CA   CH    SING  5 
+LPL  CA   HA    SING  6 
+LPL  CB   CG    SING  7 
+LPL  CB   1HB   SING  8 
+LPL  CB   2HB   SING  9 
+LPL  CG   CD1   SING  10
+LPL  CG   CD2   SING  11
+LPL  CG   HG    SING  12
+LPL  CD1  1HD1  SING  13
+LPL  CD1  2HD1  SING  14
+LPL  CD1  3HD1  SING  15
+LPL  CD2  1HD2  SING  16
+LPL  CD2  2HD2  SING  17
+LPL  CD2  3HD2  SING  18
+LPL  CH   CM    SING  19
+LPL  CH   OH    SING  20
+LPL  CH   HH    SING  21
+LPL  OH   HO    SING  22
+LPL  CM   CA1   SING  23
+LPL  CM   1HM   SING  24
+LPL  CM   2HM   SING  25
+LPL  CA1  CB1   SING  26
+LPL  CA1  C     SING  27
+LPL  CA1  HA1   SING  28
+LPL  CB1  CG1   SING  29
+LPL  CB1  1HB1  SING  30
+LPL  CB1  2HB1  SING  31
+LPL  CG1  CD3   SING  32
+LPL  CG1  CD4   SING  33
+LPL  CG1  HG1   SING  34
+LPL  CD3  1HD3  SING  35
+LPL  CD3  2HD3  SING  36
+LPL  CD3  3HD3  SING  37
+LPL  CD4  1HD4  SING  38
+LPL  CD4  2HD4  SING  39
+LPL  CD4  3HD4  SING  40
+LPL  C    O     DOUB  41
+LPL  C    OXT   SING  42
+LPL  OXT  HXT   SING  43
+#

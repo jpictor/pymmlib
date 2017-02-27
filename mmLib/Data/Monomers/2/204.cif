@@ -1,0 +1,75 @@
+data_204
+#
+_chem_comp.id                   204
+_chem_comp.name                 '2-AMINO-4-HYDROXYPYRIMIDINE-5-CARBOXYLIC ACID ETHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N3 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        183.166
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+204  C1    .  C  0  51.345  47.259  71.503  1  1 
+204  C2    .  C  0  50.095  47.867  72.101  1  2 
+204  O3    .  O  0  49.793  47.180  73.311  1  3 
+204  C4    .  C  0  48.698  47.525  74.039  1  4 
+204  O5    .  O  0  47.960  48.438  73.674  1  5 
+204  C6    .  C  0  48.406  46.772  75.291  1  6 
+204  C7    .  C  0  49.253  45.729  75.722  1  7 
+204  N8    .  N  0  48.987  45.036  76.864  1  8 
+204  C9    .  C  0  47.904  45.321  77.611  1  9 
+204  N10   .  N  0  47.652  44.587  78.777  1  10
+204  N11   .  N  0  47.060  46.307  77.234  1  11
+204  C12   .  C  0  47.272  47.046  76.110  1  12
+204  O13   .  O  0  46.385  48.041  75.774  1  13
+204  H13   .  H  0  ?       ?       ?       1  14
+204  H7    .  H  0  ?       ?       ?       1  15
+204  1H10  .  H  0  ?       ?       ?       0  16
+204  2H10  .  H  0  ?       ?       ?       0  17
+204  1H2   .  H  0  ?       ?       ?       0  18
+204  2H2   .  H  0  ?       ?       ?       0  19
+204  1H1   .  H  0  ?       ?       ?       0  20
+204  2H1   .  H  0  ?       ?       ?       0  21
+204  3H1   .  H  0  ?       ?       ?       0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+204  C1   C2    SING  1 
+204  C1   1H1   SING  2 
+204  C1   2H1   SING  3 
+204  C1   3H1   SING  4 
+204  C2   O3    SING  5 
+204  C2   1H2   SING  6 
+204  C2   2H2   SING  7 
+204  O3   C4    SING  8 
+204  C4   C6    SING  9 
+204  C4   O5    DOUB  10
+204  C6   C12   DOUB  11
+204  C6   C7    SING  12
+204  C7   H7    SING  13
+204  C7   N8    DOUB  14
+204  N8   C9    SING  15
+204  C9   N11   DOUB  16
+204  C9   N10   SING  17
+204  N10  1H10  SING  18
+204  N10  2H10  SING  19
+204  N11  C12   SING  20
+204  C12  O13   SING  21
+204  O13  H13   SING  22
+#

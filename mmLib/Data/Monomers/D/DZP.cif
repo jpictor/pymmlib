@@ -1,0 +1,99 @@
+data_DZP
+#
+_chem_comp.id                   DZP
+_chem_comp.name                 7-CHLORO-1-METHYL-5-PHENYL-1,3-DIHYDRO-2H-1,4-BENZODIAZEPIN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H13 N2 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        284.745
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DZP  C1    .  C   0  9.541   -3.639  -15.335  1  1 
+DZP  C2    .  C   0  9.54    -3.987  -13.974  1  2 
+DZP  C3    .  C   0  9.367   -2.984  -13      1  3 
+DZP  C4    .  C   0  9.198   -1.638  -13.374  1  4 
+DZP  C5    .  C   0  9.021   .179    -15.214  1  5 
+DZP  C6    .  C   0  8.918   2.478   -14.075  1  6 
+DZP  C7    .  C   0  9.584   3.461   -13.293  1  7 
+DZP  C8    .  C   0  10.929  3.285   -12.871  1  8 
+DZP  C9    .  C   0  11.61   2.098   -13.224  1  9 
+DZP  C11   .  C   0  9.373   -2.291  -15.734  1  10
+DZP  C12   .  C   0  9.197   -1.261  -14.757  1  11
+DZP  C13   .  C   0  9.64    1.269   -14.403  1  12
+DZP  C14   .  C   0  10.988  1.133   -13.969  1  13
+DZP  N15   .  N   0  8.308   .398    -16.293  1  14
+DZP  C17   .  C   0  8.094   1.799   -16.745  1  15
+DZP  C18   .  C   0  7.084   2.44    -15.808  1  16
+DZP  C20   .  C   0  6.559   3.297   -13.577  1  17
+DZP  N2    .  N   0  7.541   2.708   -14.51   1  18
+DZP  O1    .  O   0  5.939   2.677   -16.159  1  19
+DZP  CL    .  CL  0  13.282  1.827   -12.763  0  20
+DZP  H1    .  H   0  9.674   -4.423  -16.1    1  21
+DZP  H2    .  H   0  9.674   -5.039  -13.67   1  22
+DZP  H11   .  H   0  9.378   -2.033  -16.806  1  23
+DZP  H3    .  H   0  9.364   -3.257  -11.931  1  24
+DZP  H4    .  H   0  9.065   -.867   -12.597  1  25
+DZP  H7    .  H   0  9.045   4.38    -13.008  1  26
+DZP  H8    .  H   0  11.435  4.064   -12.276  1  27
+DZP  H14   .  H   0  11.549  .223    -14.241  1  28
+DZP  1H17  .  H   0  7.794   1.867   -17.817  0  29
+DZP  2H17  .  H   0  9.043   2.379   -16.82   0  30
+DZP  1H20  .  H   0  5.509   3.472   -13.909  0  31
+DZP  2H20  .  H   0  6.972   4.258   -13.192  0  32
+DZP  3H20  .  H   0  6.537   2.676   -12.651  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DZP  C1   C2    AROM  1 
+DZP  C1   C11   AROM  2 
+DZP  C1   H1    SING  3 
+DZP  C2   C3    AROM  4 
+DZP  C2   H2    SING  5 
+DZP  C3   C4    AROM  6 
+DZP  C3   H3    SING  7 
+DZP  C4   C12   AROM  8 
+DZP  C4   H4    SING  9 
+DZP  C5   C12   SING  10
+DZP  C5   C13   SING  11
+DZP  C5   N15   DOUB  12
+DZP  C6   C7    AROM  13
+DZP  C6   C13   AROM  14
+DZP  C6   N2    SING  15
+DZP  C7   C8    AROM  16
+DZP  C7   H7    SING  17
+DZP  C8   C9    AROM  18
+DZP  C8   H8    SING  19
+DZP  C9   CL    SING  20
+DZP  C9   C14   AROM  21
+DZP  C11  C12   AROM  22
+DZP  C11  H11   SING  23
+DZP  C13  C14   AROM  24
+DZP  C14  H14   SING  25
+DZP  N15  C17   SING  26
+DZP  C17  C18   SING  27
+DZP  C17  1H17  SING  28
+DZP  C17  2H17  SING  29
+DZP  C18  N2    SING  30
+DZP  C18  O1    DOUB  31
+DZP  C20  N2    SING  32
+DZP  C20  1H20  SING  33
+DZP  C20  2H20  SING  34
+DZP  C20  3H20  SING  35
+#

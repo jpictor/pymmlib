@@ -1,0 +1,78 @@
+data_SLE
+#
+_chem_comp.id                   SLE
+_chem_comp.name                 '2-(THIOMETHYLENE)-4-METHYLPENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H14 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SLE  C1   .  C  0  ?  ?  ?  1  1 
+SLE  O1   .  O  0  ?  ?  ?  1  2 
+SLE  O2   .  O  0  ?  ?  ?  1  3 
+SLE  C2   .  C  0  ?  ?  ?  1  4 
+SLE  CH   .  C  0  ?  ?  ?  1  5 
+SLE  S    .  S  0  ?  ?  ?  1  6 
+SLE  C3   .  C  0  ?  ?  ?  1  7 
+SLE  C4   .  C  0  ?  ?  ?  1  8 
+SLE  CM   .  C  0  ?  ?  ?  1  9 
+SLE  C5   .  C  0  ?  ?  ?  1  10
+SLE  HO2  .  H  0  ?  ?  ?  1  11
+SLE  H2   .  H  0  ?  ?  ?  1  12
+SLE  1HH  .  H  0  ?  ?  ?  0  13
+SLE  2HH  .  H  0  ?  ?  ?  0  14
+SLE  HS   .  H  0  ?  ?  ?  1  15
+SLE  1H3  .  H  0  ?  ?  ?  0  16
+SLE  2H3  .  H  0  ?  ?  ?  0  17
+SLE  H4   .  H  0  ?  ?  ?  1  18
+SLE  1HM  .  H  0  ?  ?  ?  0  19
+SLE  2HM  .  H  0  ?  ?  ?  0  20
+SLE  3HM  .  H  0  ?  ?  ?  0  21
+SLE  1H5  .  H  0  ?  ?  ?  0  22
+SLE  2H5  .  H  0  ?  ?  ?  0  23
+SLE  3H5  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SLE  C1  C2   SING  1 
+SLE  C1  O1   DOUB  2 
+SLE  C1  O2   SING  3 
+SLE  O2  HO2  SING  4 
+SLE  C2  CH   SING  5 
+SLE  C2  C3   SING  6 
+SLE  C2  H2   SING  7 
+SLE  CH  S    SING  8 
+SLE  CH  1HH  SING  9 
+SLE  CH  2HH  SING  10
+SLE  S   HS   SING  11
+SLE  C3  C4   SING  12
+SLE  C3  1H3  SING  13
+SLE  C3  2H3  SING  14
+SLE  C4  C5   SING  15
+SLE  C4  CM   SING  16
+SLE  C4  H4   SING  17
+SLE  CM  1HM  SING  18
+SLE  CM  2HM  SING  19
+SLE  CM  3HM  SING  20
+SLE  C5  1H5  SING  21
+SLE  C5  2H5  SING  22
+SLE  C5  3H5  SING  23
+#

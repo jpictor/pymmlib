@@ -1,0 +1,70 @@
+data_TRC
+#
+_chem_comp.id                   TRC
+_chem_comp.name                 'TRICARBALLYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRC  C1   .  C  0  ?  ?  ?  1  1 
+TRC  O1   .  O  0  ?  ?  ?  1  2 
+TRC  O2   .  O  0  ?  ?  ?  1  3 
+TRC  C2   .  C  0  ?  ?  ?  1  4 
+TRC  C3   .  C  0  ?  ?  ?  1  5 
+TRC  C4   .  C  0  ?  ?  ?  1  6 
+TRC  C5   .  C  0  ?  ?  ?  1  7 
+TRC  O3   .  O  0  ?  ?  ?  1  8 
+TRC  O4   .  O  0  ?  ?  ?  1  9 
+TRC  C6   .  C  0  ?  ?  ?  1  10
+TRC  O5   .  O  0  ?  ?  ?  1  11
+TRC  O6   .  O  0  ?  ?  ?  1  12
+TRC  HO2  .  H  0  ?  ?  ?  1  13
+TRC  1H2  .  H  0  ?  ?  ?  0  14
+TRC  2H2  .  H  0  ?  ?  ?  0  15
+TRC  H3   .  H  0  ?  ?  ?  1  16
+TRC  1H4  .  H  0  ?  ?  ?  0  17
+TRC  2H4  .  H  0  ?  ?  ?  0  18
+TRC  HO4  .  H  0  ?  ?  ?  1  19
+TRC  HO6  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRC  C1  O1   DOUB  1 
+TRC  C1  O2   SING  2 
+TRC  C1  C2   SING  3 
+TRC  O2  HO2  SING  4 
+TRC  C2  C3   SING  5 
+TRC  C2  1H2  SING  6 
+TRC  C2  2H2  SING  7 
+TRC  C3  C6   SING  8 
+TRC  C3  C4   SING  9 
+TRC  C3  H3   SING  10
+TRC  C4  C5   SING  11
+TRC  C4  1H4  SING  12
+TRC  C4  2H4  SING  13
+TRC  C5  O3   DOUB  14
+TRC  C5  O4   SING  15
+TRC  O4  HO4  SING  16
+TRC  C6  O5   DOUB  17
+TRC  C6  O6   SING  18
+TRC  O6  HO6  SING  19
+#

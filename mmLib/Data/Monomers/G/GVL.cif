@@ -1,0 +1,108 @@
+data_GVL
+#
+_chem_comp.id                   GVL
+_chem_comp.name                 O-[(R)-{[(3R)-4-AMINO-3-HYDROXY-2,2-DIMETHYL-4-OXOBUTYL]OXY}(HYDROXY)PHOSPHORYL]-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H19 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        314.231
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GVL  O     .  O  0  -14.182  -21.951  -23.662  1  1 
+GVL  C     .  C  0  -14.123  -22.891  -22.871  1  2 
+GVL  CA    .  C  0  -14.211  -24.352  -23.379  1  3 
+GVL  N     .  N  0  -13.936  -25.336  -22.292  1  4 
+GVL  CB    .  C  0  -15.6    -24.61   -23.955  1  5 
+GVL  O25   .  O  0  -16.57   -24.329  -22.945  1  6 
+GVL  P24   .  P  0  -18.156  -24.442  -23.21   1  7 
+GVL  O23   .  O  0  -18.312  -24.584  -24.837  1  8 
+GVL  O26   .  O  0  -18.735  -25.603  -22.488  1  9 
+GVL  O27   .  O  0  -18.767  -22.999  -22.731  1  10
+GVL  C28   .  C  0  -18.199  -22.269  -21.611  1  11
+GVL  C29   .  C  0  -18.98   -20.988  -21.307  1  12
+GVL  C30   .  C  0  -18.373  -20.3    -20.075  1  13
+GVL  C31   .  C  0  -18.932  -20.034  -22.511  1  14
+GVL  C32   .  C  0  -20.433  -21.47   -21.029  1  15
+GVL  O33   .  O  0  -20.425  -22.493  -20.027  1  16
+GVL  C34   .  C  0  -21.432  -20.355  -20.653  1  17
+GVL  O35   .  O  0  -21.623  -19.408  -21.412  1  18
+GVL  N36   .  N  0  -22.116  -20.542  -19.521  1  19
+GVL  OXT   .  O  0  -14.006  -22.711  -21.558  1  20
+GVL  HA    .  H  0  -13.434  -24.485  -24.167  1  21
+GVL  HOT   .  H  0  -13.96   -23.437  -20.947  1  22
+GVL  1HN   .  H  0  -14.549  -25.184  -21.491  0  23
+GVL  2HN   .  H  0  -13.994  -26.298  -22.626  0  24
+GVL  1HBC  .  H  0  -15.705  -25.638  -24.374  0  25
+GVL  2HBC  .  H  0  -15.785  -24.041  -24.896  0  26
+GVL  H23   .  H  0  -19.247  -24.651  -24.993  1  27
+GVL  1H28  .  H  0  -17.117  -22.054  -21.775  0  28
+GVL  2H28  .  H  0  -18.115  -22.916  -20.707  0  29
+GVL  1H30  .  H  0  -17.281  -20.11   -20.193  0  30
+GVL  2H30  .  H  0  -18.321  -20.981  -19.194  0  31
+GVL  3H30  .  H  0  -18.942  -19.367  -19.854  0  32
+GVL  1H31  .  H  0  -19.289  -20.526  -23.446  0  33
+GVL  2H31  .  H  0  -17.885  -19.817  -22.828  0  34
+GVL  3H31  .  H  0  -19.501  -19.101  -22.29   0  35
+GVL  H32   .  H  0  -20.804  -21.873  -22      1  36
+GVL  H33   .  H  0  -21.312  -22.787  -19.857  1  37
+GVL  1H36  .  H  0  -22.776  -19.805  -19.273  0  38
+GVL  2H36  .  H  0  -21.957  -21.328  -18.891  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GVL  O    C     DOUB  1 
+GVL  C    CA    SING  2 
+GVL  C    OXT   SING  3 
+GVL  CA   N     SING  4 
+GVL  CA   CB    SING  5 
+GVL  CA   HA    SING  6 
+GVL  N    1HN   SING  7 
+GVL  N    2HN   SING  8 
+GVL  CB   O25   SING  9 
+GVL  CB   1HBC  SING  10
+GVL  CB   2HBC  SING  11
+GVL  O25  P24   SING  12
+GVL  P24  O23   SING  13
+GVL  P24  O26   DOUB  14
+GVL  P24  O27   SING  15
+GVL  O23  H23   SING  16
+GVL  O27  C28   SING  17
+GVL  C28  C29   SING  18
+GVL  C28  1H28  SING  19
+GVL  C28  2H28  SING  20
+GVL  C29  C30   SING  21
+GVL  C29  C31   SING  22
+GVL  C29  C32   SING  23
+GVL  C30  1H30  SING  24
+GVL  C30  2H30  SING  25
+GVL  C30  3H30  SING  26
+GVL  C31  1H31  SING  27
+GVL  C31  2H31  SING  28
+GVL  C31  3H31  SING  29
+GVL  C32  O33   SING  30
+GVL  C32  C34   SING  31
+GVL  C32  H32   SING  32
+GVL  O33  H33   SING  33
+GVL  C34  O35   DOUB  34
+GVL  C34  N36   SING  35
+GVL  N36  1H36  SING  36
+GVL  N36  2H36  SING  37
+GVL  OXT  HOT   SING  38
+#

@@ -1,0 +1,70 @@
+data_NCD
+#
+_chem_comp.id                   NCD
+_chem_comp.name                 N-CARBAMOYL-L-ASPARTATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H8 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.129
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NCD  C6    .  C  0  ?  ?  ?  1  1 
+NCD  C61   .  C  0  ?  ?  ?  1  2 
+NCD  O61   .  O  0  ?  ?  ?  1  3 
+NCD  O62   .  O  0  ?  ?  ?  1  4 
+NCD  N1    .  N  0  ?  ?  ?  1  5 
+NCD  C2    .  C  0  ?  ?  ?  1  6 
+NCD  O2    .  O  0  ?  ?  ?  1  7 
+NCD  N3    .  N  0  ?  ?  ?  1  8 
+NCD  C5    .  C  0  ?  ?  ?  1  9 
+NCD  C4    .  C  0  ?  ?  ?  1  10
+NCD  O4    .  O  0  ?  ?  ?  1  11
+NCD  O5    .  O  0  ?  ?  ?  1  12
+NCD  1HO5  .  H  0  ?  ?  ?  0  13
+NCD  1H5   .  H  0  ?  ?  ?  0  14
+NCD  2H5   .  H  0  ?  ?  ?  0  15
+NCD  1H6   .  H  0  ?  ?  ?  0  16
+NCD  1H61  .  H  0  ?  ?  ?  0  17
+NCD  1H1   .  H  0  ?  ?  ?  0  18
+NCD  1H3   .  H  0  ?  ?  ?  0  19
+NCD  2H3   .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NCD  C6   C61   SING  1 
+NCD  C6   N1    SING  2 
+NCD  C6   C5    SING  3 
+NCD  C6   1H6   SING  4 
+NCD  C61  O61   SING  5 
+NCD  C61  O62   DOUB  6 
+NCD  O61  1H61  SING  7 
+NCD  N1   C2    SING  8 
+NCD  N1   1H1   SING  9 
+NCD  C2   O2    DOUB  10
+NCD  C2   N3    SING  11
+NCD  N3   1H3   SING  12
+NCD  N3   2H3   SING  13
+NCD  C5   C4    SING  14
+NCD  C5   1H5   SING  15
+NCD  C5   2H5   SING  16
+NCD  C4   O4    DOUB  17
+NCD  C4   O5    SING  18
+NCD  O5   1HO5  SING  19
+#

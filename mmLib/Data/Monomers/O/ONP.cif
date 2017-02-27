@@ -1,0 +1,103 @@
+data_ONP
+#
+_chem_comp.id                   ONP
+_chem_comp.name                 'O-NITROPHENYL AMINOETHYLDIPHOSPHATE BERYLLIUM TRIFLUORIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N2 O9 BE1 F3 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        407.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ONP  BE    .  BE  0  ?  ?  ?  0  1 
+ONP  F1    .  F   0  ?  ?  ?  1  2 
+ONP  F2    .  F   0  ?  ?  ?  1  3 
+ONP  F3    .  F   0  ?  ?  ?  1  4 
+ONP  PB    .  P   0  ?  ?  ?  1  5 
+ONP  OB1   .  O   0  ?  ?  ?  1  6 
+ONP  OB2   .  O   0  ?  ?  ?  1  7 
+ONP  OB3   .  O   0  ?  ?  ?  1  8 
+ONP  OA3   .  O   0  ?  ?  ?  1  9 
+ONP  PA    .  P   0  ?  ?  ?  1  10
+ONP  OA1   .  O   0  ?  ?  ?  1  11
+ONP  OA2   .  O   0  ?  ?  ?  1  12
+ONP  OE2   .  O   0  ?  ?  ?  1  13
+ONP  NA3   .  N   0  ?  ?  ?  1  14
+ONP  CA2   .  C   0  ?  ?  ?  1  15
+ONP  CA1   .  C   0  ?  ?  ?  1  16
+ONP  C1    .  C   0  ?  ?  ?  1  17
+ONP  C6    .  C   0  ?  ?  ?  1  18
+ONP  C5    .  C   0  ?  ?  ?  1  19
+ONP  C4    .  C   0  ?  ?  ?  1  20
+ONP  C3    .  C   0  ?  ?  ?  1  21
+ONP  C2    .  C   0  ?  ?  ?  1  22
+ONP  N2    .  N   0  ?  ?  ?  1  23
+ONP  O2A   .  O   0  ?  ?  ?  1  24
+ONP  O2B   .  O   0  ?  ?  ?  1  25
+ONP  2HOB  .  H   0  ?  ?  ?  0  26
+ONP  2HOA  .  H   0  ?  ?  ?  0  27
+ONP  1HA1  .  H   0  ?  ?  ?  0  28
+ONP  2HA1  .  H   0  ?  ?  ?  0  29
+ONP  1HA2  .  H   0  ?  ?  ?  0  30
+ONP  2HA2  .  H   0  ?  ?  ?  0  31
+ONP  1HNA  .  H   0  ?  ?  ?  0  32
+ONP  H6    .  H   0  ?  ?  ?  1  33
+ONP  H5    .  H   0  ?  ?  ?  1  34
+ONP  H4    .  H   0  ?  ?  ?  1  35
+ONP  H3    .  H   0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ONP  BE   F1    SING  1 
+ONP  BE   F2    SING  2 
+ONP  BE   F3    SING  3 
+ONP  BE   OB3   SING  4 
+ONP  PB   OB1   DOUB  5 
+ONP  PB   OB2   SING  6 
+ONP  PB   OB3   SING  7 
+ONP  PB   OA3   SING  8 
+ONP  OB2  2HOB  SING  9 
+ONP  OA3  PA    SING  10
+ONP  PA   OA1   SING  11
+ONP  PA   OA2   DOUB  12
+ONP  PA   OE2   SING  13
+ONP  OA1  2HOA  SING  14
+ONP  OE2  CA1   SING  15
+ONP  NA3  CA2   SING  16
+ONP  NA3  C1    SING  17
+ONP  NA3  1HNA  SING  18
+ONP  CA2  CA1   SING  19
+ONP  CA2  1HA2  SING  20
+ONP  CA2  2HA2  SING  21
+ONP  CA1  1HA1  SING  22
+ONP  CA1  2HA1  SING  23
+ONP  C1   C6    DOUB  24
+ONP  C1   C2    SING  25
+ONP  C6   C5    SING  26
+ONP  C6   H6    SING  27
+ONP  C5   C4    DOUB  28
+ONP  C5   H5    SING  29
+ONP  C4   C3    SING  30
+ONP  C4   H4    SING  31
+ONP  C3   C2    DOUB  32
+ONP  C3   H3    SING  33
+ONP  C2   N2    SING  34
+ONP  N2   O2A   DOUB  35
+ONP  N2   O2B   DOUB  36
+#

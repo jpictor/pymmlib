@@ -1,0 +1,90 @@
+data_ALC
+#
+_chem_comp.id                       ALC
+_chem_comp.name                     '2-AMINO-3-CYCLOHEXYL-PROPIONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H17 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            171.239
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALC  N     .  N  0  ?  ?  ?  1  1 
+ALC  CA    .  C  0  ?  ?  ?  1  2 
+ALC  C     .  C  0  ?  ?  ?  1  3 
+ALC  O     .  O  0  ?  ?  ?  1  4 
+ALC  CB    .  C  0  ?  ?  ?  1  5 
+ALC  CG    .  C  0  ?  ?  ?  1  6 
+ALC  CD2   .  C  0  ?  ?  ?  1  7 
+ALC  CE2   .  C  0  ?  ?  ?  1  8 
+ALC  CZ    .  C  0  ?  ?  ?  1  9 
+ALC  CE1   .  C  0  ?  ?  ?  1  10
+ALC  CD1   .  C  0  ?  ?  ?  1  11
+ALC  OXT   .  O  0  ?  ?  ?  1  12
+ALC  H     .  H  0  ?  ?  ?  1  13
+ALC  HN2   .  H  0  ?  ?  ?  1  14
+ALC  HA    .  H  0  ?  ?  ?  1  15
+ALC  1HB   .  H  0  ?  ?  ?  0  16
+ALC  2HB   .  H  0  ?  ?  ?  0  17
+ALC  HG    .  H  0  ?  ?  ?  1  18
+ALC  1HD2  .  H  0  ?  ?  ?  0  19
+ALC  2HD2  .  H  0  ?  ?  ?  0  20
+ALC  1HE2  .  H  0  ?  ?  ?  0  21
+ALC  2HE2  .  H  0  ?  ?  ?  0  22
+ALC  1HZ   .  H  0  ?  ?  ?  0  23
+ALC  2HZ   .  H  0  ?  ?  ?  0  24
+ALC  1HD1  .  H  0  ?  ?  ?  0  25
+ALC  2HD1  .  H  0  ?  ?  ?  0  26
+ALC  1HE1  .  H  0  ?  ?  ?  0  27
+ALC  2HE1  .  H  0  ?  ?  ?  0  28
+ALC  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALC  N    CA    SING  1 
+ALC  N    H     SING  2 
+ALC  N    HN2   SING  3 
+ALC  CA   C     SING  4 
+ALC  CA   CB    SING  5 
+ALC  CA   HA    SING  6 
+ALC  C    O     DOUB  7 
+ALC  C    OXT   SING  8 
+ALC  CB   CG    SING  9 
+ALC  CB   1HB   SING  10
+ALC  CB   2HB   SING  11
+ALC  CG   CD2   SING  12
+ALC  CG   CD1   SING  13
+ALC  CG   HG    SING  14
+ALC  CD2  CE2   SING  15
+ALC  CD2  1HD2  SING  16
+ALC  CD2  2HD2  SING  17
+ALC  CE2  CZ    SING  18
+ALC  CE2  1HE2  SING  19
+ALC  CE2  2HE2  SING  20
+ALC  CZ   CE1   SING  21
+ALC  CZ   1HZ   SING  22
+ALC  CZ   2HZ   SING  23
+ALC  CE1  CD1   SING  24
+ALC  CE1  1HE1  SING  25
+ALC  CE1  2HE1  SING  26
+ALC  CD1  1HD1  SING  27
+ALC  CD1  2HD1  SING  28
+ALC  OXT  HXT   SING  29
+#

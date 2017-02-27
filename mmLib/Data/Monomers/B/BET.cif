@@ -1,0 +1,70 @@
+data_BET
+#
+_chem_comp.id                   BET
+_chem_comp.name                 'TRIMETHYL GLYCINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       118.155
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BET  N    .  N  1  ?  ?  ?  1  1 
+BET  CA   .  C  0  ?  ?  ?  1  2 
+BET  C    .  C  0  ?  ?  ?  1  3 
+BET  O1   .  O  0  ?  ?  ?  1  4 
+BET  O2   .  O  0  ?  ?  ?  1  5 
+BET  C1   .  C  0  ?  ?  ?  1  6 
+BET  C2   .  C  0  ?  ?  ?  1  7 
+BET  C3   .  C  0  ?  ?  ?  1  8 
+BET  1HA  .  H  0  ?  ?  ?  0  9 
+BET  2HA  .  H  0  ?  ?  ?  0  10
+BET  HO2  .  H  0  ?  ?  ?  1  11
+BET  1H1  .  H  0  ?  ?  ?  0  12
+BET  2H1  .  H  0  ?  ?  ?  0  13
+BET  3H1  .  H  0  ?  ?  ?  0  14
+BET  1H2  .  H  0  ?  ?  ?  0  15
+BET  2H2  .  H  0  ?  ?  ?  0  16
+BET  3H2  .  H  0  ?  ?  ?  0  17
+BET  1H3  .  H  0  ?  ?  ?  0  18
+BET  2H3  .  H  0  ?  ?  ?  0  19
+BET  3H3  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BET  N   CA   SING  1 
+BET  N   C1   SING  2 
+BET  N   C2   SING  3 
+BET  N   C3   SING  4 
+BET  CA  C    SING  5 
+BET  CA  1HA  SING  6 
+BET  CA  2HA  SING  7 
+BET  C   O1   DOUB  8 
+BET  C   O2   SING  9 
+BET  O2  HO2  SING  10
+BET  C1  1H1  SING  11
+BET  C1  2H1  SING  12
+BET  C1  3H1  SING  13
+BET  C2  1H2  SING  14
+BET  C2  2H2  SING  15
+BET  C2  3H2  SING  16
+BET  C3  1H3  SING  17
+BET  C3  2H3  SING  18
+BET  C3  3H3  SING  19
+#

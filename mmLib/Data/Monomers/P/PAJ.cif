@@ -1,0 +1,145 @@
+data_PAJ
+#
+_chem_comp.id                   PAJ
+_chem_comp.name                 'PANTOYL ADENYLATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H24 N5 O10 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        477.367
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAJ  P     .  P  0  33.600  36.293  43.936  1  1 
+PAJ  O1P   .  O  0  34.931  35.931  43.518  1  2 
+PAJ  O2P   .  O  0  33.281  37.729  44.154  1  3 
+PAJ  O5*   .  O  0  32.610  35.636  42.820  1  4 
+PAJ  C5*   .  C  0  31.426  35.798  43.261  1  5 
+PAJ  C4*   .  C  0  30.536  34.932  42.372  1  6 
+PAJ  O4*   .  O  0  30.613  35.395  40.986  1  7 
+PAJ  C3*   .  C  0  30.937  33.435  42.328  1  8 
+PAJ  O3*   .  O  0  29.758  32.666  42.409  1  9 
+PAJ  C2*   .  C  0  31.618  33.282  41.027  1  10
+PAJ  O2*   .  O  0  31.668  31.945  40.496  1  11
+PAJ  C1*   .  C  0  30.878  34.271  40.153  1  12
+PAJ  N9    .  N  0  31.696  34.610  39.034  1  13
+PAJ  C8    .  C  0  32.948  35.153  38.961  1  14
+PAJ  N7    .  N  0  33.449  35.347  37.772  1  15
+PAJ  C5    .  C  0  32.460  34.903  36.952  1  16
+PAJ  C6    .  C  0  32.340  34.826  35.534  1  17
+PAJ  N6    .  N  0  33.309  35.230  34.711  1  18
+PAJ  N1    .  N  0  31.163  34.305  34.996  1  19
+PAJ  C2    .  C  0  30.123  33.869  35.815  1  20
+PAJ  N3    .  N  0  30.141  33.905  37.217  1  21
+PAJ  C4    .  C  0  31.346  34.435  37.709  1  22
+PAJ  O11   .  O  0  33.118  33.193  45.012  1  23
+PAJ  C11   .  C  0  33.260  34.152  45.899  1  24
+PAJ  O12   .  O  0  33.367  35.614  45.315  1  25
+PAJ  C12   .  C  0  33.321  33.801  47.384  1  26
+PAJ  O13   .  O  0  33.923  32.458  47.495  1  27
+PAJ  C13   .  C  0  31.880  33.853  48.067  1  28
+PAJ  C14   .  C  0  31.207  35.256  47.900  1  29
+PAJ  C15   .  C  0  30.947  32.699  47.494  1  30
+PAJ  C16   .  C  0  32.121  33.547  49.562  1  31
+PAJ  O14   .  O  0  32.989  34.512  50.154  1  32
+PAJ  1H6   .  H  0  ?       ?       ?       0  33
+PAJ  2H6   .  H  0  ?       ?       ?       0  34
+PAJ  H2    .  H  0  ?       ?       ?       1  35
+PAJ  H8    .  H  0  ?       ?       ?       1  36
+PAJ  H1*   .  H  0  ?       ?       ?       1  37
+PAJ  H2*   .  H  0  ?       ?       ?       1  38
+PAJ  2HO*  .  H  0  ?       ?       ?       0  39
+PAJ  H3*   .  H  0  ?       ?       ?       1  40
+PAJ  H3T   .  H  0  ?       ?       ?       1  41
+PAJ  H4*   .  H  0  ?       ?       ?       1  42
+PAJ  1H5*  .  H  0  ?       ?       ?       0  43
+PAJ  2H5*  .  H  0  ?       ?       ?       0  44
+PAJ  2HOP  .  H  0  ?       ?       ?       0  45
+PAJ  H13   .  H  0  ?       ?       ?       1  46
+PAJ  1H14  .  H  0  ?       ?       ?       0  47
+PAJ  2H14  .  H  0  ?       ?       ?       0  48
+PAJ  3H14  .  H  0  ?       ?       ?       0  49
+PAJ  1H15  .  H  0  ?       ?       ?       0  50
+PAJ  2H15  .  H  0  ?       ?       ?       0  51
+PAJ  3H15  .  H  0  ?       ?       ?       0  52
+PAJ  1H16  .  H  0  ?       ?       ?       0  53
+PAJ  2H16  .  H  0  ?       ?       ?       0  54
+PAJ  H14   .  H  0  ?       ?       ?       1  55
+PAJ  H12   .  H  0  ?       ?       ?       1  56
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAJ  P    O1P   DOUB  1 
+PAJ  P    O2P   SING  2 
+PAJ  P    O5*   SING  3 
+PAJ  P    O12   SING  4 
+PAJ  O2P  2HOP  SING  5 
+PAJ  O5*  C5*   SING  6 
+PAJ  C5*  C4*   SING  7 
+PAJ  C5*  1H5*  SING  8 
+PAJ  C5*  2H5*  SING  9 
+PAJ  C4*  O4*   SING  10
+PAJ  C4*  C3*   SING  11
+PAJ  C4*  H4*   SING  12
+PAJ  O4*  C1*   SING  13
+PAJ  C3*  O3*   SING  14
+PAJ  C3*  C2*   SING  15
+PAJ  C3*  H3*   SING  16
+PAJ  O3*  H3T   SING  17
+PAJ  C2*  O2*   SING  18
+PAJ  C2*  C1*   SING  19
+PAJ  C2*  H2*   SING  20
+PAJ  O2*  2HO*  SING  21
+PAJ  C1*  N9    SING  22
+PAJ  C1*  H1*   SING  23
+PAJ  N9   C8    SING  24
+PAJ  N9   C4    SING  25
+PAJ  C8   N7    DOUB  26
+PAJ  C8   H8    SING  27
+PAJ  N7   C5    SING  28
+PAJ  C5   C6    DOUB  29
+PAJ  C5   C4    SING  30
+PAJ  C6   N6    SING  31
+PAJ  C6   N1    SING  32
+PAJ  N6   1H6   SING  33
+PAJ  N6   2H6   SING  34
+PAJ  N1   C2    DOUB  35
+PAJ  C2   N3    SING  36
+PAJ  C2   H2    SING  37
+PAJ  N3   C4    DOUB  38
+PAJ  O11  C11   DOUB  39
+PAJ  C11  O12   SING  40
+PAJ  C11  C12   SING  41
+PAJ  C12  O13   SING  42
+PAJ  C12  C13   SING  43
+PAJ  C12  H12   SING  44
+PAJ  O13  H13   SING  45
+PAJ  C13  C14   SING  46
+PAJ  C13  C15   SING  47
+PAJ  C13  C16   SING  48
+PAJ  C14  1H14  SING  49
+PAJ  C14  2H14  SING  50
+PAJ  C14  3H14  SING  51
+PAJ  C15  1H15  SING  52
+PAJ  C15  2H15  SING  53
+PAJ  C15  3H15  SING  54
+PAJ  C16  O14   SING  55
+PAJ  C16  1H16  SING  56
+PAJ  C16  2H16  SING  57
+PAJ  O14  H14   SING  58
+#

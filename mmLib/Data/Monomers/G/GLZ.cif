@@ -1,0 +1,49 @@
+data_GLZ
+#
+_chem_comp.id                       GLZ
+_chem_comp.name                     AMINO-ACETALDEHYDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C2 H5 N1 O1'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            59.068
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLZ  N    .  N  0  ?  ?  ?  1  1
+GLZ  CA   .  C  0  ?  ?  ?  1  2
+GLZ  C    .  C  0  ?  ?  ?  1  3
+GLZ  O    .  O  0  ?  ?  ?  1  4
+GLZ  H    .  H  0  ?  ?  ?  1  5
+GLZ  HN2  .  H  0  ?  ?  ?  1  6
+GLZ  1HA  .  H  0  ?  ?  ?  0  7
+GLZ  2HA  .  H  0  ?  ?  ?  0  8
+GLZ  HXT  .  H  0  ?  ?  ?  1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLZ  N   CA   SING  1
+GLZ  N   H    SING  2
+GLZ  N   HN2  SING  3
+GLZ  CA  C    SING  4
+GLZ  CA  1HA  SING  5
+GLZ  CA  2HA  SING  6
+GLZ  C   O    DOUB  7
+GLZ  C   HXT  SING  8
+#

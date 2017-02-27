@@ -1,0 +1,132 @@
+data_BPF
+#
+_chem_comp.id                   BPF
+_chem_comp.name                 2,5-BIS{[4-(N-ETHYLAMIDINO)]PHENYL}FURAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H22 N4 O1'
+_chem_comp.pdbx_synonyms        'DB185; FURAMIDINE DERIVATIVE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        358.442
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPF  C1    .  C  0  ?  ?  ?  1  1 
+BPF  C2    .  C  0  ?  ?  ?  1  2 
+BPF  C3    .  C  0  ?  ?  ?  1  3 
+BPF  C4    .  C  0  ?  ?  ?  1  4 
+BPF  C5    .  C  0  ?  ?  ?  1  5 
+BPF  C6    .  C  0  ?  ?  ?  1  6 
+BPF  O1    .  O  0  ?  ?  ?  1  7 
+BPF  CA    .  C  0  ?  ?  ?  1  8 
+BPF  CB    .  C  0  ?  ?  ?  1  9 
+BPF  CB'   .  C  0  ?  ?  ?  1  10
+BPF  CA'   .  C  0  ?  ?  ?  1  11
+BPF  C7    .  C  0  ?  ?  ?  1  12
+BPF  N1    .  N  0  ?  ?  ?  1  13
+BPF  N2    .  N  0  ?  ?  ?  1  14
+BPF  C8    .  C  0  ?  ?  ?  1  15
+BPF  C9    .  C  0  ?  ?  ?  1  16
+BPF  C1'   .  C  0  ?  ?  ?  1  17
+BPF  C2'   .  C  0  ?  ?  ?  1  18
+BPF  C3'   .  C  0  ?  ?  ?  1  19
+BPF  C4'   .  C  0  ?  ?  ?  1  20
+BPF  C5'   .  C  0  ?  ?  ?  1  21
+BPF  C6'   .  C  0  ?  ?  ?  1  22
+BPF  C7'   .  C  0  ?  ?  ?  1  23
+BPF  N1'   .  N  0  ?  ?  ?  1  24
+BPF  N2'   .  N  0  ?  ?  ?  1  25
+BPF  C8'   .  C  0  ?  ?  ?  1  26
+BPF  C9'   .  C  0  ?  ?  ?  1  27
+BPF  HB    .  H  0  ?  ?  ?  1  28
+BPF  HB'   .  H  0  ?  ?  ?  1  29
+BPF  HN1   .  H  0  ?  ?  ?  1  30
+BPF  H2    .  H  0  ?  ?  ?  1  31
+BPF  H3    .  H  0  ?  ?  ?  1  32
+BPF  H5    .  H  0  ?  ?  ?  1  33
+BPF  H6    .  H  0  ?  ?  ?  1  34
+BPF  H2'   .  H  0  ?  ?  ?  1  35
+BPF  H3'   .  H  0  ?  ?  ?  1  36
+BPF  H5'   .  H  0  ?  ?  ?  1  37
+BPF  H6'   .  H  0  ?  ?  ?  1  38
+BPF  H8    .  H  0  ?  ?  ?  1  39
+BPF  1H9   .  H  0  ?  ?  ?  0  40
+BPF  2H9   .  H  0  ?  ?  ?  0  41
+BPF  3H9   .  H  0  ?  ?  ?  0  42
+BPF  1HN1  .  H  0  ?  ?  ?  0  43
+BPF  2HN1  .  H  0  ?  ?  ?  0  44
+BPF  1H8'  .  H  0  ?  ?  ?  0  45
+BPF  2H8'  .  H  0  ?  ?  ?  0  46
+BPF  1H9'  .  H  0  ?  ?  ?  0  47
+BPF  2H9'  .  H  0  ?  ?  ?  0  48
+BPF  3H9'  .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPF  C1   C2    DOUB  1 
+BPF  C1   C6    SING  2 
+BPF  C1   CA    SING  3 
+BPF  C2   C3    SING  4 
+BPF  C2   H2    SING  5 
+BPF  C3   C4    DOUB  6 
+BPF  C3   H3    SING  7 
+BPF  C4   C5    SING  8 
+BPF  C4   C7    SING  9 
+BPF  C5   C6    DOUB  10
+BPF  C5   H5    SING  11
+BPF  C6   H6    SING  12
+BPF  O1   CA    SING  13
+BPF  O1   CA'   SING  14
+BPF  CA   CB    DOUB  15
+BPF  CB   CB'   SING  16
+BPF  CB   HB    SING  17
+BPF  CB'  CA'   DOUB  18
+BPF  CB'  HB'   SING  19
+BPF  CA'  C1'   SING  20
+BPF  C7   N1    DOUB  21
+BPF  C7   N2    SING  22
+BPF  N1   HN1   SING  23
+BPF  N2   C8    DOUB  24
+BPF  C8   C9    SING  25
+BPF  C8   H8    SING  26
+BPF  C9   1H9   SING  27
+BPF  C9   2H9   SING  28
+BPF  C9   3H9   SING  29
+BPF  C1'  C2'   DOUB  30
+BPF  C1'  C6'   SING  31
+BPF  C2'  C3'   SING  32
+BPF  C2'  H2'   SING  33
+BPF  C3'  C4'   DOUB  34
+BPF  C3'  H3'   SING  35
+BPF  C4'  C5'   SING  36
+BPF  C4'  C7'   SING  37
+BPF  C5'  C6'   DOUB  38
+BPF  C5'  H5'   SING  39
+BPF  C6'  H6'   SING  40
+BPF  C7'  N1'   SING  41
+BPF  C7'  N2'   DOUB  42
+BPF  N1'  1HN1  SING  43
+BPF  N1'  2HN1  SING  44
+BPF  N2'  C8'   SING  45
+BPF  C8'  C9'   SING  46
+BPF  C8'  1H8'  SING  47
+BPF  C8'  2H8'  SING  48
+BPF  C9'  1H9'  SING  49
+BPF  C9'  2H9'  SING  50
+BPF  C9'  3H9'  SING  51
+#

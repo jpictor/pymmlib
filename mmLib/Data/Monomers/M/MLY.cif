@@ -1,0 +1,91 @@
+data_MLY
+#
+_chem_comp.id                       MLY
+_chem_comp.name                     N-DIMETHYL-LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H18 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.242
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MLY  N     .  N  0  ?  ?  ?  1  1 
+MLY  CA    .  C  0  ?  ?  ?  1  2 
+MLY  CB    .  C  0  ?  ?  ?  1  3 
+MLY  CG    .  C  0  ?  ?  ?  1  4 
+MLY  CD    .  C  0  ?  ?  ?  1  5 
+MLY  CE    .  C  0  ?  ?  ?  1  6 
+MLY  NZ    .  N  0  ?  ?  ?  1  7 
+MLY  CH1   .  C  0  ?  ?  ?  1  8 
+MLY  CH2   .  C  0  ?  ?  ?  1  9 
+MLY  C     .  C  0  ?  ?  ?  1  10
+MLY  O     .  O  0  ?  ?  ?  1  11
+MLY  OXT   .  O  0  ?  ?  ?  1  12
+MLY  1HN   .  H  0  ?  ?  ?  0  13
+MLY  2HN   .  H  0  ?  ?  ?  0  14
+MLY  HA    .  H  0  ?  ?  ?  1  15
+MLY  1HB   .  H  0  ?  ?  ?  0  16
+MLY  2HB   .  H  0  ?  ?  ?  0  17
+MLY  1HG   .  H  0  ?  ?  ?  0  18
+MLY  2HG   .  H  0  ?  ?  ?  0  19
+MLY  1HD   .  H  0  ?  ?  ?  0  20
+MLY  2HD   .  H  0  ?  ?  ?  0  21
+MLY  1HE   .  H  0  ?  ?  ?  0  22
+MLY  2HE   .  H  0  ?  ?  ?  0  23
+MLY  1HC1  .  H  0  ?  ?  ?  0  24
+MLY  2HC1  .  H  0  ?  ?  ?  0  25
+MLY  3HC1  .  H  0  ?  ?  ?  0  26
+MLY  1HC2  .  H  0  ?  ?  ?  0  27
+MLY  2HC2  .  H  0  ?  ?  ?  0  28
+MLY  3HC2  .  H  0  ?  ?  ?  0  29
+MLY  HXT   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MLY  N    CA    SING  1 
+MLY  N    1HN   SING  2 
+MLY  N    2HN   SING  3 
+MLY  CA   CB    SING  4 
+MLY  CA   C     SING  5 
+MLY  CA   HA    SING  6 
+MLY  CB   CG    SING  7 
+MLY  CB   1HB   SING  8 
+MLY  CB   2HB   SING  9 
+MLY  CG   CD    SING  10
+MLY  CG   1HG   SING  11
+MLY  CG   2HG   SING  12
+MLY  CD   CE    SING  13
+MLY  CD   1HD   SING  14
+MLY  CD   2HD   SING  15
+MLY  CE   NZ    SING  16
+MLY  CE   1HE   SING  17
+MLY  CE   2HE   SING  18
+MLY  NZ   CH1   SING  19
+MLY  NZ   CH2   SING  20
+MLY  CH1  1HC1  SING  21
+MLY  CH1  2HC1  SING  22
+MLY  CH1  3HC1  SING  23
+MLY  CH2  1HC2  SING  24
+MLY  CH2  2HC2  SING  25
+MLY  CH2  3HC2  SING  26
+MLY  C    O     DOUB  27
+MLY  C    OXT   SING  28
+MLY  OXT  HXT   SING  29
+#

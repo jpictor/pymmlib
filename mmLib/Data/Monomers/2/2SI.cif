@@ -1,0 +1,85 @@
+data_2SI
+#
+_chem_comp.id                   2SI
+_chem_comp.name                 '2-O-SULFO-A-L-IDURONIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O10 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2SI  C1    .  C  0  ?  ?  ?  1  1 
+2SI  C2    .  C  0  ?  ?  ?  1  2 
+2SI  C3    .  C  0  ?  ?  ?  1  3 
+2SI  C4    .  C  0  ?  ?  ?  1  4 
+2SI  C5    .  C  0  ?  ?  ?  1  5 
+2SI  C6    .  C  0  ?  ?  ?  1  6 
+2SI  O1    .  O  0  ?  ?  ?  1  7 
+2SI  O2    .  O  0  ?  ?  ?  1  8 
+2SI  O3    .  O  0  ?  ?  ?  1  9 
+2SI  O5    .  O  0  ?  ?  ?  1  10
+2SI  O61   .  O  0  ?  ?  ?  1  11
+2SI  O62   .  O  0  ?  ?  ?  1  12
+2SI  S     .  S  0  ?  ?  ?  1  13
+2SI  O1S   .  O  0  ?  ?  ?  1  14
+2SI  O2S   .  O  0  ?  ?  ?  1  15
+2SI  O3S   .  O  0  ?  ?  ?  1  16
+2SI  O4    .  O  0  ?  ?  ?  1  17
+2SI  H1    .  H  0  ?  ?  ?  1  18
+2SI  H2    .  H  0  ?  ?  ?  1  19
+2SI  H3    .  H  0  ?  ?  ?  1  20
+2SI  H4    .  H  0  ?  ?  ?  1  21
+2SI  H5    .  H  0  ?  ?  ?  1  22
+2SI  1H1O  .  H  0  ?  ?  ?  0  23
+2SI  1H3O  .  H  0  ?  ?  ?  0  24
+2SI  1H4O  .  H  0  ?  ?  ?  0  25
+2SI  3HOS  .  H  0  ?  ?  ?  0  26
+2SI  1HO6  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2SI  C1   C2    SING  1 
+2SI  C1   O5    SING  2 
+2SI  C1   O1    SING  3 
+2SI  C1   H1    SING  4 
+2SI  C2   C3    SING  5 
+2SI  C2   O2    SING  6 
+2SI  C2   H2    SING  7 
+2SI  C3   C4    SING  8 
+2SI  C3   O3    SING  9 
+2SI  C3   H3    SING  10
+2SI  C4   C5    SING  11
+2SI  C4   O4    SING  12
+2SI  C4   H4    SING  13
+2SI  C5   C6    SING  14
+2SI  C5   O5    SING  15
+2SI  C5   H5    SING  16
+2SI  C6   O61   SING  17
+2SI  C6   O62   DOUB  18
+2SI  O1   1H1O  SING  19
+2SI  O2   S     SING  20
+2SI  O3   1H3O  SING  21
+2SI  O61  1HO6  SING  22
+2SI  S    O1S   DOUB  23
+2SI  S    O2S   DOUB  24
+2SI  S    O3S   SING  25
+2SI  O3S  3HOS  SING  26
+2SI  O4   1H4O  SING  27
+#

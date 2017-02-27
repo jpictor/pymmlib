@@ -1,0 +1,96 @@
+data_KOR
+#
+_chem_comp.id                       KOR
+_chem_comp.name                     L-HOMOCYSTEINE-S-N-S-L-CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N3 O5 S2'
+_chem_comp.pdbx_synonyms            N-THIOSULFOXIMIDE
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            285.333
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KOR  OAO   .  O  0  5.589  10.032  9.241  1  1 
+KOR  CAN   .  C  0  5.085  10.615  8.277  1  2 
+KOR  OAQ   .  O  0  5.585  11.54   7.647  1  3 
+KOR  CAJ   .  C  0  3.714  10.104  7.833  1  4 
+KOR  NAK   .  N  0  2.988  11.212  7.147  1  5 
+KOR  CAI   .  C  0  3.896  8.927   6.861  1  6 
+KOR  C     .  C  0  .684   2.344   9.747  1  7 
+KOR  O     .  O  0  .78    3       10.79  1  8 
+KOR  OXT   .  O  0  ?      ?       ?      1  9 
+KOR  N     .  N  0  1.836  1.086   7.921  1  10
+KOR  OAA   .  O  0  3.791  4.271   6.198  1  11
+KOR  CAH   .  C  0  4.62   7.68    7.262  1  12
+KOR  SAG   .  S  0  3.294  6.769   8.17   1  13
+KOR  NAF   .  N  0  4.015  5.348   8.481  1  14
+KOR  SAE   .  S  0  3.744  4.014   7.651  1  15
+KOR  CB    .  C  0  2.045  3.519   8.048  1  16
+KOR  CA    .  C  0  1.911  2.212   8.855  1  17
+KOR  HAO   .  H  0  ?      ?       ?      1  18
+KOR  HAJ   .  H  0  3.132  9.769   8.723  1  19
+KOR  1HAK  .  H  0  3.387  12.081  6.791  0  20
+KOR  2HAK  .  H  0  2.329  11.868  7.566  0  21
+KOR  1HAI  .  H  0  4.378  9.32    5.936  0  22
+KOR  2HAI  .  H  0  2.887  8.632   6.489  0  23
+KOR  1HAH  .  H  0  5.565  7.839   7.831  0  24
+KOR  2HAH  .  H  0  5.1    7.117   6.427  0  25
+KOR  HA    .  H  0  2.814  2.089   9.498  1  26
+KOR  1HN   .  H  0  1.201  .442    8.392  0  27
+KOR  2HN   .  H  0  2.761  .663    8      0  28
+KOR  HAF   .  H  0  4.681  5.306   9.253  1  29
+KOR  1HBC  .  H  0  1.517  4.349   8.573  0  30
+KOR  2HBC  .  H  0  1.436  3.458   7.116  0  31
+KOR  HXT   .  H  0  ?      ?       ?      1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KOR  OAO  CAN   SING  1 
+KOR  OAO  HAO   SING  2 
+KOR  CAN  OAQ   DOUB  3 
+KOR  CAN  CAJ   SING  4 
+KOR  CAJ  NAK   SING  5 
+KOR  CAJ  CAI   SING  6 
+KOR  CAJ  HAJ   SING  7 
+KOR  NAK  1HAK  SING  8 
+KOR  NAK  2HAK  SING  9 
+KOR  CAI  CAH   SING  10
+KOR  CAI  1HAI  SING  11
+KOR  CAI  2HAI  SING  12
+KOR  C    O     DOUB  13
+KOR  C    OXT   SING  14
+KOR  C    CA    SING  15
+KOR  OXT  HXT   SING  16
+KOR  N    CA    SING  17
+KOR  N    1HN   SING  18
+KOR  N    2HN   SING  19
+KOR  OAA  SAE   DOUB  20
+KOR  CAH  SAG   SING  21
+KOR  CAH  1HAH  SING  22
+KOR  CAH  2HAH  SING  23
+KOR  SAG  NAF   SING  24
+KOR  NAF  SAE   SING  25
+KOR  NAF  HAF   SING  26
+KOR  SAE  CB    SING  27
+KOR  CB   CA    SING  28
+KOR  CB   1HBC  SING  29
+KOR  CB   2HBC  SING  30
+KOR  CA   HA    SING  31
+#

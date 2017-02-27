@@ -1,0 +1,142 @@
+data_EOD
+#
+_chem_comp.id                   EOD
+_chem_comp.name                 '11-[(2R,3S)-3-PENTYLOXIRAN-2-YL]UNDECANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H34 O3'
+_chem_comp.pdbx_synonyms        '(+-)-CIS-12,13-EPOXY-9(Z)-OCTADECANOIC ACID, LEUKOTOXIN B, (+-)-VERNOLIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.465
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EOD  O1    .  O  0  33.775  93.563  54.213  1  1 
+EOD  C1    .  C  0  32.947  94.460  53.943  1  2 
+EOD  O2    .  O  0  33.214  95.673  53.802  1  3 
+EOD  C2    .  C  0  31.489  94.035  53.757  1  4 
+EOD  C3    .  C  0  30.656  95.077  53.008  1  5 
+EOD  C4    .  C  0  31.173  95.387  51.602  1  6 
+EOD  C5    .  C  0  30.094  95.135  50.547  1  7 
+EOD  C6    .  C  0  30.734  95.041  49.160  1  8 
+EOD  C7    .  C  0  29.975  94.081  48.241  1  9 
+EOD  C8    .  C  0  30.627  94.031  46.858  1  10
+EOD  C9    .  C  0  30.851  92.557  46.511  1  11
+EOD  C10   .  C  0  30.332  92.047  45.166  1  12
+EOD  C11   .  C  0  29.648  93.123  44.320  1  13
+EOD  C12   .  C  0  28.193  92.785  44.047  1  14
+EOD  O3    .  O  0  27.210  93.828  44.120  1  15
+EOD  C13   .  C  0  27.486  93.312  42.810  1  16
+EOD  C14   .  C  0  28.419  94.090  41.895  1  17
+EOD  C15   .  C  0  27.883  93.909  40.474  1  18
+EOD  C16   .  C  0  28.722  93.117  39.469  1  19
+EOD  C17   .  C  0  30.060  92.574  39.974  1  20
+EOD  C18   .  C  0  30.610  91.535  38.995  1  21
+EOD  1H18  .  H  0  ?       ?       ?       0  22
+EOD  2H18  .  H  0  ?       ?       ?       0  23
+EOD  3H18  .  H  0  ?       ?       ?       0  24
+EOD  1H17  .  H  0  ?       ?       ?       0  25
+EOD  2H17  .  H  0  ?       ?       ?       0  26
+EOD  1H16  .  H  0  ?       ?       ?       0  27
+EOD  2H16  .  H  0  ?       ?       ?       0  28
+EOD  1H15  .  H  0  ?       ?       ?       0  29
+EOD  2H15  .  H  0  ?       ?       ?       0  30
+EOD  1H14  .  H  0  ?       ?       ?       0  31
+EOD  2H14  .  H  0  ?       ?       ?       0  32
+EOD  H13   .  H  0  ?       ?       ?       1  33
+EOD  H12   .  H  0  ?       ?       ?       1  34
+EOD  1H11  .  H  0  ?       ?       ?       0  35
+EOD  2H11  .  H  0  ?       ?       ?       0  36
+EOD  1H10  .  H  0  ?       ?       ?       0  37
+EOD  2H10  .  H  0  ?       ?       ?       0  38
+EOD  1H9   .  H  0  ?       ?       ?       0  39
+EOD  2H9   .  H  0  ?       ?       ?       0  40
+EOD  1H8   .  H  0  ?       ?       ?       0  41
+EOD  2H8   .  H  0  ?       ?       ?       0  42
+EOD  1H7   .  H  0  ?       ?       ?       0  43
+EOD  2H7   .  H  0  ?       ?       ?       0  44
+EOD  1H6   .  H  0  ?       ?       ?       0  45
+EOD  2H6   .  H  0  ?       ?       ?       0  46
+EOD  1H5   .  H  0  ?       ?       ?       0  47
+EOD  2H5   .  H  0  ?       ?       ?       0  48
+EOD  1H4   .  H  0  ?       ?       ?       0  49
+EOD  2H4   .  H  0  ?       ?       ?       0  50
+EOD  1H3   .  H  0  ?       ?       ?       0  51
+EOD  2H3   .  H  0  ?       ?       ?       0  52
+EOD  1H2   .  H  0  ?       ?       ?       0  53
+EOD  2H2   .  H  0  ?       ?       ?       0  54
+EOD  HO2   .  H  0  ?       ?       ?       1  55
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EOD  O1   C1    DOUB  1 
+EOD  C1   C2    SING  2 
+EOD  C1   O2    SING  3 
+EOD  O2   HO2   SING  4 
+EOD  C2   C3    SING  5 
+EOD  C2   1H2   SING  6 
+EOD  C2   2H2   SING  7 
+EOD  C3   C4    SING  8 
+EOD  C3   1H3   SING  9 
+EOD  C3   2H3   SING  10
+EOD  C4   C5    SING  11
+EOD  C4   1H4   SING  12
+EOD  C4   2H4   SING  13
+EOD  C5   C6    SING  14
+EOD  C5   1H5   SING  15
+EOD  C5   2H5   SING  16
+EOD  C6   C7    SING  17
+EOD  C6   1H6   SING  18
+EOD  C6   2H6   SING  19
+EOD  C7   C8    SING  20
+EOD  C7   1H7   SING  21
+EOD  C7   2H7   SING  22
+EOD  C8   C9    SING  23
+EOD  C8   1H8   SING  24
+EOD  C8   2H8   SING  25
+EOD  C9   C10   SING  26
+EOD  C9   1H9   SING  27
+EOD  C9   2H9   SING  28
+EOD  C10  C11   SING  29
+EOD  C10  1H10  SING  30
+EOD  C10  2H10  SING  31
+EOD  C11  C12   SING  32
+EOD  C11  1H11  SING  33
+EOD  C11  2H11  SING  34
+EOD  C12  O3    SING  35
+EOD  C12  C13   SING  36
+EOD  C12  H12   SING  37
+EOD  O3   C13   SING  38
+EOD  C13  C14   SING  39
+EOD  C13  H13   SING  40
+EOD  C14  C15   SING  41
+EOD  C14  1H14  SING  42
+EOD  C14  2H14  SING  43
+EOD  C15  C16   SING  44
+EOD  C15  1H15  SING  45
+EOD  C15  2H15  SING  46
+EOD  C16  C17   SING  47
+EOD  C16  1H16  SING  48
+EOD  C16  2H16  SING  49
+EOD  C17  C18   SING  50
+EOD  C17  1H17  SING  51
+EOD  C17  2H17  SING  52
+EOD  C18  1H18  SING  53
+EOD  C18  2H18  SING  54
+EOD  C18  3H18  SING  55
+#

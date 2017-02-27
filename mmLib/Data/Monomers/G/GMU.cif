@@ -1,0 +1,136 @@
+data_GMU
+#
+_chem_comp.id                   GMU
+_chem_comp.name                 '2'-O-[(2-GUANIDINIUM)ETHYL]-5-METHYLURIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C13 H24 N5 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        425.334
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GMU  O3P   .  O  0  11.960  4.666   4.086  1  1 
+GMU  P     .  P  0  10.752  4.213   4.796  1  2 
+GMU  O2P   .  O  0  10.907  3.496   6.095  1  3 
+GMU  O5*   .  O  0  9.770   5.438   5.142  1  4 
+GMU  C5*   .  C  0  9.541   6.440   4.169  1  5 
+GMU  C4*   .  C  0  8.431   7.348   4.628  1  6 
+GMU  O4*   .  O  0  7.190   6.626   4.811  1  7 
+GMU  C3*   .  C  0  8.653   7.975   5.988  1  8 
+GMU  O3*   .  O  0  9.647   9.037   5.903  1  9 
+GMU  C2*   .  C  0  7.253   8.443   6.303  1  10
+GMU  C1*   .  C  0  6.469   7.210   5.894  1  11
+GMU  N1    .  N  0  6.333   6.229   6.979  1  12
+GMU  C2    .  C  0  5.282   6.413   7.889  1  13
+GMU  O2    .  O  0  4.509   7.355   7.776  1  14
+GMU  N3    .  N  0  5.170   5.470   8.868  1  15
+GMU  C6    .  C  0  7.184   5.167   7.147  1  16
+GMU  C5    .  C  0  7.108   4.269   8.144  1  17
+GMU  C5M   .  C  0  8.053   3.135   8.299  1  18
+GMU  C4    .  C  0  5.999   4.409   9.086  1  19
+GMU  O4    .  O  0  5.783   3.635   9.996  1  20
+GMU  O2*   .  O  0  6.959   9.562   5.475  1  21
+GMU  CA*   .  C  0  5.710   10.167  5.740  1  22
+GMU  CB*   .  C  0  5.557   11.358  4.803  1  23
+GMU  NC*   .  N  0  6.620   12.353  5.085  1  24
+GMU  CD*   .  C  0  7.881   12.411  4.587  1  25
+GMU  NE*   .  N  0  8.657   13.484  4.857  1  26
+GMU  NF*   .  N  0  8.395   11.436  3.832  1  27
+GMU  O1P   .  O  0  ?       ?       ?      1  28
+GMU  H3*   .  H  0  ?       ?       ?      1  29
+GMU  H1    .  H  0  ?       ?       ?      1  30
+GMU  H4*   .  H  0  ?       ?       ?      1  31
+GMU  H1*   .  H  0  ?       ?       ?      1  32
+GMU  H6    .  H  0  ?       ?       ?      1  33
+GMU  HN3   .  H  0  ?       ?       ?      1  34
+GMU  1H5M  .  H  0  ?       ?       ?      0  35
+GMU  2H5M  .  H  0  ?       ?       ?      0  36
+GMU  3H5M  .  H  0  ?       ?       ?      0  37
+GMU  H2*   .  H  0  ?       ?       ?      1  38
+GMU  1HA*  .  H  0  ?       ?       ?      0  39
+GMU  2HA*  .  H  0  ?       ?       ?      0  40
+GMU  1HB*  .  H  0  ?       ?       ?      0  41
+GMU  2HB*  .  H  0  ?       ?       ?      0  42
+GMU  HC*   .  H  0  ?       ?       ?      1  43
+GMU  HD*   .  H  0  ?       ?       ?      1  44
+GMU  1HE*  .  H  0  ?       ?       ?      0  45
+GMU  2HE*  .  H  0  ?       ?       ?      0  46
+GMU  1HF*  .  H  0  ?       ?       ?      0  47
+GMU  2HF*  .  H  0  ?       ?       ?      0  48
+GMU  1H5*  .  H  0  ?       ?       ?      0  49
+GMU  2H5*  .  H  0  ?       ?       ?      0  50
+GMU  H3P   .  H  0  ?       ?       ?      1  51
+GMU  H2P   .  H  0  ?       ?       ?      1  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GMU  O3P  P     SING  1 
+GMU  O3P  H3P   SING  2 
+GMU  P    O5*   SING  3 
+GMU  P    O1P   DOUB  4 
+GMU  P    O2P   SING  5 
+GMU  O2P  H2P   SING  6 
+GMU  O5*  C5*   SING  7 
+GMU  C5*  C4*   SING  8 
+GMU  C5*  1H5*  SING  9 
+GMU  C5*  2H5*  SING  10
+GMU  C4*  C3*   SING  11
+GMU  C4*  H4*   SING  12
+GMU  C4*  O4*   SING  13
+GMU  O4*  C1*   SING  14
+GMU  C3*  O3*   SING  15
+GMU  C3*  H1    SING  16
+GMU  C3*  C2*   SING  17
+GMU  O3*  H3*   SING  18
+GMU  C2*  C1*   SING  19
+GMU  C2*  H2*   SING  20
+GMU  C2*  O2*   SING  21
+GMU  C1*  H1*   SING  22
+GMU  C1*  N1    SING  23
+GMU  N1   C6    SING  24
+GMU  N1   C2    SING  25
+GMU  C2   N3    SING  26
+GMU  C2   O2    DOUB  27
+GMU  N3   C4    SING  28
+GMU  N3   HN3   SING  29
+GMU  C6   H6    SING  30
+GMU  C6   C5    DOUB  31
+GMU  C5   C4    SING  32
+GMU  C5   C5M   SING  33
+GMU  C5M  1H5M  SING  34
+GMU  C5M  2H5M  SING  35
+GMU  C5M  3H5M  SING  36
+GMU  C4   O4    DOUB  37
+GMU  O2*  CA*   SING  38
+GMU  CA*  1HA*  SING  39
+GMU  CA*  2HA*  SING  40
+GMU  CA*  CB*   SING  41
+GMU  CB*  1HB*  SING  42
+GMU  CB*  2HB*  SING  43
+GMU  CB*  NC*   SING  44
+GMU  NC*  HC*   SING  45
+GMU  NC*  CD*   SING  46
+GMU  CD*  HD*   SING  47
+GMU  CD*  NE*   SING  48
+GMU  CD*  NF*   SING  49
+GMU  NE*  1HE*  SING  50
+GMU  NE*  2HE*  SING  51
+GMU  NF*  1HF*  SING  52
+GMU  NF*  2HF*  SING  53
+#

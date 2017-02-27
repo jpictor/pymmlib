@@ -1,0 +1,110 @@
+data_HDP
+#
+_chem_comp.id                   HDP
+_chem_comp.name                 '[(1S,6S)-6-HYDROXY-4-(5-METHYL-2,4-DIOXO-3,4-DIHYDROPYRIMIDIN-1(2H)-YL)CYCLOHEX-2-EN-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C12 H17 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        332.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HDP  P     .  P  0  180.301  424.082  -24.391  1  1 
+HDP  O1P   .  O  0  179.827  423.997  -25.790  1  2 
+HDP  O2P   .  O  0  179.390  423.713  -23.282  1  3 
+HDP  O5*   .  O  0  181.637  423.192  -24.255  1  4 
+HDP  C5*   .  C  0  182.563  423.083  -25.344  1  5 
+HDP  C4'   .  C  0  183.899  422.481  -24.907  1  6 
+HDP  C1'   .  C  0  183.664  421.499  -22.087  1  7 
+HDP  N1    .  N  0  182.790  421.742  -20.912  1  8 
+HDP  C6    .  C  0  181.570  422.359  -21.045  1  9 
+HDP  C2    .  C  0  183.251  421.325  -19.677  1  10
+HDP  O2    .  O  0  184.336  420.768  -19.532  1  11
+HDP  N3    .  N  0  182.416  421.565  -18.606  1  12
+HDP  C4    .  C  0  181.178  422.172  -18.656  1  13
+HDP  O4    .  O  0  180.517  422.324  -17.636  1  14
+HDP  C5    .  C  0  180.774  422.575  -19.979  1  15
+HDP  C5A   .  C  0  179.418  423.251  -20.169  1  16
+HDP  C2'   .  C  0  182.847  420.951  -23.257  1  17
+HDP  C3'   .  C  0  183.618  421.023  -24.561  1  18
+HDP  O3*   .  O  0  184.846  420.291  -24.462  1  19
+HDP  C5'   .  C  0  184.481  423.238  -23.709  1  20
+HDP  C6'   .  C  0  184.377  422.804  -22.463  1  21
+HDP  O3P   .  O  0  ?        ?        ?        1  22
+HDP  H4'   .  H  0  184.609  422.524  -25.733  1  23
+HDP  1H5*  .  H  0  182.745  424.078  -25.751  0  24
+HDP  2H5*  .  H  0  182.127  422.457  -26.123  0  25
+HDP  H3'   .  H  0  183.008  420.586  -25.354  1  26
+HDP  H2'   .  H  0  181.937  421.547  -23.362  1  27
+HDP  H2''  .  H  0  182.591  419.906  -23.053  0  28
+HDP  H1'   .  H  0  184.424  420.767  -21.812  1  29
+HDP  H6    .  H  0  181.242  422.695  -22.029  1  30
+HDP  H3    .  H  0  182.744  421.276  -17.698  1  31
+HDP  H51   .  H  0  178.760  422.985  -19.345  1  32
+HDP  H52   .  H  0  178.975  422.920  -21.110  1  33
+HDP  H53   .  H  0  179.550  424.330  -20.188  1  34
+HDP  H6'   .  H  0  184.807  423.366  -21.638  1  35
+HDP  H5'   .  H  0  184.998  424.165  -23.934  1  36
+HDP  2HOP  .  H  0  ?        ?        ?        0  37
+HDP  3HOP  .  H  0  ?        ?        ?        0  38
+HDP  H3T   .  H  0  ?        ?        ?        1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HDP  P    O5*   SING  1 
+HDP  P    O2P   SING  2 
+HDP  P    O3P   SING  3 
+HDP  P    O1P   DOUB  4 
+HDP  O2P  2HOP  SING  5 
+HDP  O5*  C5*   SING  6 
+HDP  C5*  C4'   SING  7 
+HDP  C5*  1H5*  SING  8 
+HDP  C5*  2H5*  SING  9 
+HDP  C4'  C5'   SING  10
+HDP  C4'  H4'   SING  11
+HDP  C4'  C3'   SING  12
+HDP  C1'  C2'   SING  13
+HDP  C1'  C6'   SING  14
+HDP  C1'  H1'   SING  15
+HDP  C1'  N1    SING  16
+HDP  N1   C6    SING  17
+HDP  N1   C2    SING  18
+HDP  C6   H6    SING  19
+HDP  C6   C5    DOUB  20
+HDP  C2   N3    SING  21
+HDP  C2   O2    DOUB  22
+HDP  N3   C4    SING  23
+HDP  N3   H3    SING  24
+HDP  C4   C5    SING  25
+HDP  C4   O4    DOUB  26
+HDP  C5   C5A   SING  27
+HDP  C5A  H51   SING  28
+HDP  C5A  H52   SING  29
+HDP  C5A  H53   SING  30
+HDP  C2'  C3'   SING  31
+HDP  C2'  H2'   SING  32
+HDP  C2'  H2''  SING  33
+HDP  C3'  H3'   SING  34
+HDP  C3'  O3*   SING  35
+HDP  O3*  H3T   SING  36
+HDP  C5'  C6'   DOUB  37
+HDP  C5'  H5'   SING  38
+HDP  C6'  H6'   SING  39
+HDP  O3P  3HOP  SING  40
+#

@@ -1,0 +1,60 @@
+data_TRA
+#
+_chem_comp.id                   TRA
+_chem_comp.name                 'ACONITATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C6 H3 O6'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       171.086
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRA  CA   .  C  0   ?  ?  ?  1  1 
+TRA  CB   .  C  0   ?  ?  ?  1  2 
+TRA  CG   .  C  0   ?  ?  ?  1  3 
+TRA  CAC  .  C  0   ?  ?  ?  1  4 
+TRA  CBC  .  C  0   ?  ?  ?  1  5 
+TRA  CGC  .  C  0   ?  ?  ?  1  6 
+TRA  OA1  .  O  0   ?  ?  ?  1  7 
+TRA  OA2  .  O  -1  ?  ?  ?  1  8 
+TRA  OB1  .  O  0   ?  ?  ?  1  9 
+TRA  OB2  .  O  -1  ?  ?  ?  1  10
+TRA  OG1  .  O  0   ?  ?  ?  1  11
+TRA  OG2  .  O  -1  ?  ?  ?  1  12
+TRA  HA   .  H  0   ?  ?  ?  1  13
+TRA  1HG  .  H  0   ?  ?  ?  0  14
+TRA  2HG  .  H  0   ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRA  CA   CB   DOUB  1 
+TRA  CA   HA   SING  2 
+TRA  CA   CAC  SING  3 
+TRA  CB   CG   SING  4 
+TRA  CB   CBC  SING  5 
+TRA  CG   CGC  SING  6 
+TRA  CG   1HG  SING  7 
+TRA  CG   2HG  SING  8 
+TRA  CAC  OA1  DOUB  9 
+TRA  CAC  OA2  SING  10
+TRA  CBC  OB1  DOUB  11
+TRA  CBC  OB2  SING  12
+TRA  CGC  OG1  DOUB  13
+TRA  CGC  OG2  SING  14
+#

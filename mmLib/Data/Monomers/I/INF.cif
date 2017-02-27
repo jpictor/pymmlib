@@ -1,0 +1,87 @@
+data_INF
+#
+_chem_comp.id                   INF
+_chem_comp.name                 D-[(N-HYDROXYAMINO)CARBONYL]PHENYLALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.216
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+INF  N    .  N  0  ?  ?  ?  1  1 
+INF  CA   .  C  0  ?  ?  ?  1  2 
+INF  C    .  C  0  ?  ?  ?  1  3 
+INF  O    .  O  0  ?  ?  ?  1  4 
+INF  CB   .  C  0  ?  ?  ?  1  5 
+INF  CG   .  C  0  ?  ?  ?  1  6 
+INF  CD1  .  C  0  ?  ?  ?  1  7 
+INF  CD2  .  C  0  ?  ?  ?  1  8 
+INF  CE1  .  C  0  ?  ?  ?  1  9 
+INF  CE2  .  C  0  ?  ?  ?  1  10
+INF  CZ   .  C  0  ?  ?  ?  1  11
+INF  OXT  .  O  0  ?  ?  ?  1  12
+INF  C1   .  C  0  ?  ?  ?  1  13
+INF  N2   .  N  0  ?  ?  ?  1  14
+INF  O1   .  O  0  ?  ?  ?  1  15
+INF  O2   .  O  0  ?  ?  ?  1  16
+INF  H    .  H  0  ?  ?  ?  1  17
+INF  HA   .  H  0  ?  ?  ?  1  18
+INF  1HB  .  H  0  ?  ?  ?  0  19
+INF  2HB  .  H  0  ?  ?  ?  0  20
+INF  HD1  .  H  0  ?  ?  ?  1  21
+INF  HD2  .  H  0  ?  ?  ?  1  22
+INF  HE1  .  H  0  ?  ?  ?  1  23
+INF  HE2  .  H  0  ?  ?  ?  1  24
+INF  HZ   .  H  0  ?  ?  ?  1  25
+INF  HXT  .  H  0  ?  ?  ?  1  26
+INF  H2N  .  H  0  ?  ?  ?  1  27
+INF  H2O  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+INF  N    CA   SING  1 
+INF  N    C1   SING  2 
+INF  N    H    SING  3 
+INF  CA   CB   SING  4 
+INF  CA   C    SING  5 
+INF  CA   HA   SING  6 
+INF  C    OXT  SING  7 
+INF  C    O    DOUB  8 
+INF  CB   CG   SING  9 
+INF  CB   1HB  SING  10
+INF  CB   2HB  SING  11
+INF  CG   CD1  AROM  12
+INF  CG   CD2  AROM  13
+INF  CD1  CE1  AROM  14
+INF  CD1  HD1  SING  15
+INF  CD2  CE2  AROM  16
+INF  CD2  HD2  SING  17
+INF  CE1  CZ   AROM  18
+INF  CE1  HE1  SING  19
+INF  CE2  CZ   AROM  20
+INF  CE2  HE2  SING  21
+INF  CZ   HZ   SING  22
+INF  OXT  HXT  SING  23
+INF  C1   N2   SING  24
+INF  C1   O1   DOUB  25
+INF  N2   O2   SING  26
+INF  N2   H2N  SING  27
+INF  O2   H2O  SING  28
+#

@@ -1,0 +1,109 @@
+data_TLN
+#
+_chem_comp.id                   TLN
+_chem_comp.name                 '[(1R,3R,4R,7S)-7-HYDROXY-3-(THYMIN-1-YL)-2,5-DIOXABICYCLO[2.2.1]HEPT-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C11 H15 N2 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        350.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TLN  P     .  P  0  -6.215  -9.738   1.168   1  1 
+TLN  O1P   .  O  0  -5.754  -8.585   1.971   1  2 
+TLN  O2P   .  O  0  -6.322  -11.078  1.789   1  3 
+TLN  O3P   .  O  0  -7.644  -9.363   .526    1  4 
+TLN  O5*   .  O  0  -5.291  -9.846   -.142   1  5 
+TLN  C5*   .  C  0  -5.257  -11.005  -.954   1  6 
+TLN  C4*   .  C  0  -4.545  -10.642  -2.258  1  7 
+TLN  O4*   .  O  0  -5.343  -9.779   -3.063  1  8 
+TLN  C1*   .  C  0  -4.448  -9.176   -3.989  1  9 
+TLN  N1    .  N  0  -4.486  -7.675   -3.927  1  10
+TLN  C6    .  C  0  -4.861  -7.037   -2.764  1  11
+TLN  C5    .  C  0  -4.879  -5.681   -2.642  1  12
+TLN  C5M   .  C  0  -5.222  -5.04    -1.301  1  13
+TLN  C4    .  C  0  -4.558  -4.841   -3.79   1  14
+TLN  O4    .  O  0  -4.593  -3.612   -3.824  1  15
+TLN  N3    .  N  0  -4.203  -5.54    -4.935  1  16
+TLN  C2    .  C  0  -4.12   -6.929   -5.055  1  17
+TLN  O2    .  O  0  -3.737  -7.444   -6.104  1  18
+TLN  C3*   .  C  0  -3.225  -9.901   -2.074  1  19
+TLN  C2*   .  C  0  -3.116  -9.811   -3.587  1  20
+TLN  O2*   .  O  0  -3.169  -11.167  -4.025  1  21
+TLN  O3*   .  O  0  -2.206  -10.658  -1.442  1  22
+TLN  C6*   .  C  0  -4.107  -11.804  -3.161  1  23
+TLN  1H5*  .  H  0  -6.269  -11.347  -1.174  0  24
+TLN  2H5*  .  H  0  -4.708  -11.792  -.435   0  25
+TLN  H1*   .  H  0  -4.663  -9.547   -4.983  1  26
+TLN  H6    .  H  0  -5.166  -7.663   -1.94   1  27
+TLN  1H5M  .  H  0  -4.319  -4.619   -.855   0  28
+TLN  2H5M  .  H  0  -5.637  -5.77    -.606   0  29
+TLN  3H5M  .  H  0  -5.942  -4.232   -1.433  0  30
+TLN  H3    .  H  0  -3.921  -4.959   -5.719  1  31
+TLN  H3*   .  H  0  -3.35   -8.93    -1.599  1  32
+TLN  1H2*  .  H  0  -2.256  -9.261   -3.955  0  33
+TLN  1H6*  .  H  0  -4.951  -12.211  -3.719  0  34
+TLN  2H6*  .  H  0  -3.61   -12.581  -2.581  0  35
+TLN  H3T   .  H  0  -1.384  -10.196  -1.327  1  36
+TLN  3HOP  .  H  0  ?       ?        ?       0  37
+TLN  2HOP  .  H  0  ?       ?        ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TLN  P    O1P   DOUB  1 
+TLN  P    O2P   SING  2 
+TLN  P    O5*   SING  3 
+TLN  P    O3P   SING  4 
+TLN  O2P  2HOP  SING  5 
+TLN  O3P  3HOP  SING  6 
+TLN  O5*  C5*   SING  7 
+TLN  C5*  C4*   SING  8 
+TLN  C5*  1H5*  SING  9 
+TLN  C5*  2H5*  SING  10
+TLN  C4*  O4*   SING  11
+TLN  C4*  C3*   SING  12
+TLN  C4*  C6*   SING  13
+TLN  O4*  C1*   SING  14
+TLN  C1*  N1    SING  15
+TLN  C1*  H1*   SING  16
+TLN  C1*  C2*   SING  17
+TLN  N1   C6    SING  18
+TLN  N1   C2    SING  19
+TLN  C6   H6    SING  20
+TLN  C6   C5    DOUB  21
+TLN  C5   C5M   SING  22
+TLN  C5   C4    SING  23
+TLN  C5M  1H5M  SING  24
+TLN  C5M  2H5M  SING  25
+TLN  C5M  3H5M  SING  26
+TLN  C4   O4    DOUB  27
+TLN  C4   N3    SING  28
+TLN  N3   H3    SING  29
+TLN  N3   C2    SING  30
+TLN  C2   O2    DOUB  31
+TLN  C3*  C2*   SING  32
+TLN  C3*  O3*   SING  33
+TLN  C3*  H3*   SING  34
+TLN  C2*  O2*   SING  35
+TLN  C2*  1H2*  SING  36
+TLN  O2*  C6*   SING  37
+TLN  O3*  H3T   SING  38
+TLN  C6*  1H6*  SING  39
+TLN  C6*  2H6*  SING  40
+#

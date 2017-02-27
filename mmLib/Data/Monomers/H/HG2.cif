@@ -1,0 +1,36 @@
+data_HG2
+#
+_chem_comp.id                   HG2
+_chem_comp.name                 DIBROMOMERCURY
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'BR2 HG1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        360.398
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HG2  HG   .  HG  0  44.234  9.981   -2.078  0  1
+HG2  BR1  .  BR  0  46.181  9.777   -0.147  0  2
+HG2  BR2  .  BR  0  44.527  12.279  -0.833  0  3
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HG2  HG  BR1  SING  1
+HG2  HG  BR2  SING  2
+#

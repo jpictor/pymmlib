@@ -1,0 +1,73 @@
+data_AOL
+#
+_chem_comp.id                   AOL
+_chem_comp.name                 (1R,2R,3S,4S,5R)-5-AMINOCYCLOPENTANE-1,2,3,4-TETROL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.146
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AOL  O4    .  O  0  33.342  65.197  9.489   1  1 
+AOL  C4    .  C  0  32.707  66.384  9.044   1  2 
+AOL  C3    .  C  0  32.959  66.863  7.605   1  3 
+AOL  O3    .  O  0  33.691  65.868  6.913   1  4 
+AOL  C2    .  C  0  31.597  67.294  7.060   1  5 
+AOL  O2    .  O  0  31.554  67.470  5.664   1  6 
+AOL  C1    .  C  0  30.680  66.218  7.645   1  7 
+AOL  O1    .  O  0  30.606  65.035  6.868   1  8 
+AOL  C5    .  C  0  31.202  66.107  9.079   1  9 
+AOL  N5    .  N  0  30.756  64.761  9.468   1  10
+AOL  HO4   .  H  0  33.484  64.617  8.750   1  11
+AOL  H4    .  H  0  33.116  67.163  9.704   1  12
+AOL  H3    .  H  0  33.607  67.745  7.496   1  13
+AOL  HO3   .  H  0  33.855  66.156  6.023   1  14
+AOL  H2    .  H  0  31.290  68.307  7.358   1  15
+AOL  HO2   .  H  0  31.544  68.398  5.462   1  16
+AOL  H1    .  H  0  29.608  66.464  7.637   1  17
+AOL  HO1   .  H  0  30.589  65.262  5.946   1  18
+AOL  H5    .  H  0  30.836  66.822  9.830   1  19
+AOL  1HN5  .  H  0  30.655  64.194  8.651   0  20
+AOL  2HN5  .  H  0  31.433  64.349  10.078  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AOL  O4  C4    SING  1 
+AOL  O4  HO4   SING  2 
+AOL  C4  C3    SING  3 
+AOL  C4  C5    SING  4 
+AOL  C4  H4    SING  5 
+AOL  C3  O3    SING  6 
+AOL  C3  C2    SING  7 
+AOL  C3  H3    SING  8 
+AOL  O3  HO3   SING  9 
+AOL  C2  O2    SING  10
+AOL  C2  C1    SING  11
+AOL  C2  H2    SING  12
+AOL  O2  HO2   SING  13
+AOL  C1  O1    SING  14
+AOL  C1  C5    SING  15
+AOL  C1  H1    SING  16
+AOL  O1  HO1   SING  17
+AOL  C5  N5    SING  18
+AOL  C5  H5    SING  19
+AOL  N5  1HN5  SING  20
+AOL  N5  2HN5  SING  21
+#

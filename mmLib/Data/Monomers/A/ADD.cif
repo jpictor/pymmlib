@@ -1,0 +1,145 @@
+data_ADD
+#
+_chem_comp.id                   ADD
+_chem_comp.name                 '2,6,8-TRIMETHYL-3-AMINO-9-BENZYL-9-METHOXYNONANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H33 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        335.486
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADD  C1    .  C  0  ?  ?  ?  1  1 
+ADD  O1    .  O  0  ?  ?  ?  1  2 
+ADD  O2    .  O  0  ?  ?  ?  1  3 
+ADD  C2    .  C  0  ?  ?  ?  1  4 
+ADD  CM2   .  C  0  ?  ?  ?  1  5 
+ADD  C3    .  C  0  ?  ?  ?  1  6 
+ADD  N3    .  N  0  ?  ?  ?  1  7 
+ADD  C4    .  C  0  ?  ?  ?  1  8 
+ADD  C5    .  C  0  ?  ?  ?  1  9 
+ADD  C6    .  C  0  ?  ?  ?  1  10
+ADD  CM6   .  C  0  ?  ?  ?  1  11
+ADD  C7    .  C  0  ?  ?  ?  1  12
+ADD  C8    .  C  0  ?  ?  ?  1  13
+ADD  CM8   .  C  0  ?  ?  ?  1  14
+ADD  C9    .  C  0  ?  ?  ?  1  15
+ADD  O9    .  O  0  ?  ?  ?  1  16
+ADD  CM9   .  C  0  ?  ?  ?  1  17
+ADD  C'    .  C  0  ?  ?  ?  1  18
+ADD  C1'   .  C  0  ?  ?  ?  1  19
+ADD  C2'   .  C  0  ?  ?  ?  1  20
+ADD  C3'   .  C  0  ?  ?  ?  1  21
+ADD  C4'   .  C  0  ?  ?  ?  1  22
+ADD  C5'   .  C  0  ?  ?  ?  1  23
+ADD  C6'   .  C  0  ?  ?  ?  1  24
+ADD  HO2   .  H  0  ?  ?  ?  1  25
+ADD  H2    .  H  0  ?  ?  ?  1  26
+ADD  1HM2  .  H  0  ?  ?  ?  0  27
+ADD  2HM2  .  H  0  ?  ?  ?  0  28
+ADD  3HM2  .  H  0  ?  ?  ?  0  29
+ADD  H3    .  H  0  ?  ?  ?  1  30
+ADD  1HN3  .  H  0  ?  ?  ?  0  31
+ADD  2HN3  .  H  0  ?  ?  ?  0  32
+ADD  1H4   .  H  0  ?  ?  ?  0  33
+ADD  2H4   .  H  0  ?  ?  ?  0  34
+ADD  1H5   .  H  0  ?  ?  ?  0  35
+ADD  2H5   .  H  0  ?  ?  ?  0  36
+ADD  H6    .  H  0  ?  ?  ?  1  37
+ADD  1HM6  .  H  0  ?  ?  ?  0  38
+ADD  2HM6  .  H  0  ?  ?  ?  0  39
+ADD  3HM6  .  H  0  ?  ?  ?  0  40
+ADD  1H7   .  H  0  ?  ?  ?  0  41
+ADD  2H7   .  H  0  ?  ?  ?  0  42
+ADD  H8    .  H  0  ?  ?  ?  1  43
+ADD  1HM8  .  H  0  ?  ?  ?  0  44
+ADD  2HM8  .  H  0  ?  ?  ?  0  45
+ADD  3HM8  .  H  0  ?  ?  ?  0  46
+ADD  H9    .  H  0  ?  ?  ?  1  47
+ADD  1HM9  .  H  0  ?  ?  ?  0  48
+ADD  2HM9  .  H  0  ?  ?  ?  0  49
+ADD  3HM9  .  H  0  ?  ?  ?  0  50
+ADD  1H'   .  H  0  ?  ?  ?  0  51
+ADD  2H'   .  H  0  ?  ?  ?  0  52
+ADD  H2'   .  H  0  ?  ?  ?  1  53
+ADD  H3'   .  H  0  ?  ?  ?  1  54
+ADD  H4'   .  H  0  ?  ?  ?  1  55
+ADD  H5'   .  H  0  ?  ?  ?  1  56
+ADD  H6'   .  H  0  ?  ?  ?  1  57
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADD  C1   C2    SING  1 
+ADD  C1   O1    DOUB  2 
+ADD  C1   O2    SING  3 
+ADD  O2   HO2   SING  4 
+ADD  C2   C3    SING  5 
+ADD  C2   CM2   SING  6 
+ADD  C2   H2    SING  7 
+ADD  CM2  1HM2  SING  8 
+ADD  CM2  2HM2  SING  9 
+ADD  CM2  3HM2  SING  10
+ADD  C3   C4    SING  11
+ADD  C3   N3    SING  12
+ADD  C3   H3    SING  13
+ADD  N3   1HN3  SING  14
+ADD  N3   2HN3  SING  15
+ADD  C4   C5    SING  16
+ADD  C4   1H4   SING  17
+ADD  C4   2H4   SING  18
+ADD  C5   C6    SING  19
+ADD  C5   1H5   SING  20
+ADD  C5   2H5   SING  21
+ADD  C6   C7    SING  22
+ADD  C6   CM6   SING  23
+ADD  C6   H6    SING  24
+ADD  CM6  1HM6  SING  25
+ADD  CM6  2HM6  SING  26
+ADD  CM6  3HM6  SING  27
+ADD  C7   C8    SING  28
+ADD  C7   1H7   SING  29
+ADD  C7   2H7   SING  30
+ADD  C8   C9    SING  31
+ADD  C8   CM8   SING  32
+ADD  C8   H8    SING  33
+ADD  CM8  1HM8  SING  34
+ADD  CM8  2HM8  SING  35
+ADD  CM8  3HM8  SING  36
+ADD  C9   O9    SING  37
+ADD  C9   C'    SING  38
+ADD  C9   H9    SING  39
+ADD  O9   CM9   SING  40
+ADD  CM9  1HM9  SING  41
+ADD  CM9  2HM9  SING  42
+ADD  CM9  3HM9  SING  43
+ADD  C'   C1'   SING  44
+ADD  C'   1H'   SING  45
+ADD  C'   2H'   SING  46
+ADD  C1'  C2'   DOUB  47
+ADD  C1'  C6'   SING  48
+ADD  C2'  C3'   SING  49
+ADD  C2'  H2'   SING  50
+ADD  C3'  C4'   DOUB  51
+ADD  C3'  H3'   SING  52
+ADD  C4'  C5'   SING  53
+ADD  C4'  H4'   SING  54
+ADD  C5'  C6'   DOUB  55
+ADD  C5'  H5'   SING  56
+ADD  C6'  H6'   SING  57
+#

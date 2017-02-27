@@ -1,0 +1,111 @@
+data_BAI
+#
+_chem_comp.id                   BAI
+_chem_comp.name                 (5-AMIDINO-2-BENZIMIDAZOLYL)(2-BENZIMIDAZOLYL)METHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H16 N6'
+_chem_comp.pdbx_synonyms        HEMI-BABIM
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       292.343
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BAI  C1    .  C  0  ?  ?  ?  1  1 
+BAI  C2    .  C  0  ?  ?  ?  1  2 
+BAI  C3    .  C  0  ?  ?  ?  1  3 
+BAI  C4    .  C  0  ?  ?  ?  1  4 
+BAI  C5    .  C  0  ?  ?  ?  1  5 
+BAI  C6    .  C  0  ?  ?  ?  1  6 
+BAI  C7    .  C  0  ?  ?  ?  1  7 
+BAI  C8    .  C  0  ?  ?  ?  1  8 
+BAI  C9    .  C  0  ?  ?  ?  1  9 
+BAI  N1    .  N  0  ?  ?  ?  1  10
+BAI  N2    .  N  1  ?  ?  ?  1  11
+BAI  N3    .  N  0  ?  ?  ?  1  12
+BAI  N4    .  N  0  ?  ?  ?  1  13
+BAI  C1'   .  C  0  ?  ?  ?  1  14
+BAI  C2'   .  C  0  ?  ?  ?  1  15
+BAI  C3'   .  C  0  ?  ?  ?  1  16
+BAI  C4'   .  C  0  ?  ?  ?  1  17
+BAI  C5'   .  C  0  ?  ?  ?  1  18
+BAI  C6'   .  C  0  ?  ?  ?  1  19
+BAI  C8'   .  C  0  ?  ?  ?  1  20
+BAI  N3'   .  N  0  ?  ?  ?  1  21
+BAI  N4'   .  N  0  ?  ?  ?  1  22
+BAI  1HH1  .  H  0  ?  ?  ?  0  23
+BAI  2HH1  .  H  0  ?  ?  ?  0  24
+BAI  1HH2  .  H  0  ?  ?  ?  0  25
+BAI  2HH2  .  H  0  ?  ?  ?  0  26
+BAI  H2    .  H  0  ?  ?  ?  1  27
+BAI  H3    .  H  0  ?  ?  ?  1  28
+BAI  H6    .  H  0  ?  ?  ?  1  29
+BAI  HN3   .  H  0  ?  ?  ?  1  30
+BAI  HN4   .  H  0  ?  ?  ?  1  31
+BAI  1H9   .  H  0  ?  ?  ?  0  32
+BAI  2H9   .  H  0  ?  ?  ?  0  33
+BAI  H1'   .  H  0  ?  ?  ?  1  34
+BAI  H2'   .  H  0  ?  ?  ?  1  35
+BAI  H3'   .  H  0  ?  ?  ?  1  36
+BAI  H6'   .  H  0  ?  ?  ?  1  37
+BAI  'HN3  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BAI  C1   C2    SING  1 
+BAI  C1   C6    DOUB  2 
+BAI  C1   C7    SING  3 
+BAI  C2   C3    DOUB  4 
+BAI  C2   H2    SING  5 
+BAI  C3   C4    SING  6 
+BAI  C3   H3    SING  7 
+BAI  C4   C5    DOUB  8 
+BAI  C4   N3    SING  9 
+BAI  C5   C6    SING  10
+BAI  C5   N4    SING  11
+BAI  C6   H6    SING  12
+BAI  C7   N1    SING  13
+BAI  C7   N2    DOUB  14
+BAI  C8   N3    SING  15
+BAI  C8   N4    DOUB  16
+BAI  C8   C9    SING  17
+BAI  C9   C8'   SING  18
+BAI  C9   1H9   SING  19
+BAI  C9   2H9   SING  20
+BAI  N1   1HH1  SING  21
+BAI  N1   2HH1  SING  22
+BAI  N2   1HH2  SING  23
+BAI  N2   2HH2  SING  24
+BAI  N3   HN3   SING  25
+BAI  N4   HN4   SING  26
+BAI  C1'  C2'   SING  27
+BAI  C1'  C6'   DOUB  28
+BAI  C1'  H1'   SING  29
+BAI  C2'  C3'   DOUB  30
+BAI  C2'  H2'   SING  31
+BAI  C3'  C4'   SING  32
+BAI  C3'  H3'   SING  33
+BAI  C4'  C5'   DOUB  34
+BAI  C4'  N3'   SING  35
+BAI  C5'  C6'   SING  36
+BAI  C5'  N4'   SING  37
+BAI  C6'  H6'   SING  38
+BAI  C8'  N3'   SING  39
+BAI  C8'  N4'   DOUB  40
+BAI  N3'  'HN3  SING  41
+#

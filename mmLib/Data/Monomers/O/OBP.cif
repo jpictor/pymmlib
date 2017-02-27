@@ -1,0 +1,85 @@
+data_OBP
+#
+_chem_comp.id                   OBP
+_chem_comp.name                 '2'-HYDROXY-1,1'-BIPHENYL-2-SULFINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 O3 S1'
+_chem_comp.pdbx_synonyms        '2'-HYDROXYBIPHENYL-2-SULFINIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        234.269
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OBP  CX1   .  C  0  123.397  11.046  18.651  1  1 
+OBP  CX2   .  C  0  122.964  11.877  17.461  1  2 
+OBP  CX3   .  C  0  122.915  11.238  16.058  1  3 
+OBP  CX4   .  C  0  123.323  9.806   15.928  1  4 
+OBP  CX5   .  C  0  123.751  9.006   17.130  1  5 
+OBP  CX6   .  C  0  123.781  9.629   18.482  1  6 
+OBP  CX7   .  C  0  122.613  13.238  17.728  1  7 
+OBP  CX8   .  C  0  121.233  13.640  18.138  1  8 
+OBP  CX9   .  C  0  120.932  15.081  18.407  1  9 
+OBP  CX10  .  C  0  122.016  16.110  18.267  0  10
+OBP  CX11  .  C  0  123.398  15.711  17.855  0  11
+OBP  CX12  .  C  0  123.701  14.275  17.588  0  12
+OBP  OH    .  O  0  125.015  13.978  17.207  1  13
+OBP  SX1   .  S  0  122.153  12.348  14.651  1  14
+OBP  OX1   .  O  0  123.290  13.322  14.523  1  15
+OBP  OX2   .  O  0  122.073  11.459  13.500  1  16
+OBP  HOH   .  H  0  ?        ?       ?       1  17
+OBP  HX11  .  H  0  ?        ?       ?       0  18
+OBP  HX10  .  H  0  ?        ?       ?       0  19
+OBP  HX9   .  H  0  ?        ?       ?       1  20
+OBP  HX8   .  H  0  ?        ?       ?       1  21
+OBP  HX1   .  H  0  ?        ?       ?       1  22
+OBP  HX6   .  H  0  ?        ?       ?       1  23
+OBP  HX5   .  H  0  ?        ?       ?       1  24
+OBP  HX4   .  H  0  ?        ?       ?       1  25
+OBP  HX2   .  H  0  ?        ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OBP  CX1   CX2   DOUB  1 
+OBP  CX1   HX1   SING  2 
+OBP  CX1   CX6   SING  3 
+OBP  CX2   CX7   SING  4 
+OBP  CX2   CX3   SING  5 
+OBP  CX3   CX4   DOUB  6 
+OBP  CX3   SX1   SING  7 
+OBP  CX4   CX5   SING  8 
+OBP  CX4   HX4   SING  9 
+OBP  CX5   CX6   DOUB  10
+OBP  CX5   HX5   SING  11
+OBP  CX6   HX6   SING  12
+OBP  CX7   CX8   DOUB  13
+OBP  CX7   CX12  SING  14
+OBP  CX8   CX9   SING  15
+OBP  CX8   HX8   SING  16
+OBP  CX9   CX10  DOUB  17
+OBP  CX9   HX9   SING  18
+OBP  CX10  CX11  SING  19
+OBP  CX10  HX10  SING  20
+OBP  CX11  CX12  DOUB  21
+OBP  CX11  HX11  SING  22
+OBP  CX12  OH    SING  23
+OBP  OH    HOH   SING  24
+OBP  SX1   OX1   DOUB  25
+OBP  SX1   OX2   SING  26
+OBP  OX2   HX2   SING  27
+#

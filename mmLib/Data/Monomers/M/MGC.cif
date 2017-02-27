@@ -1,0 +1,97 @@
+data_MGC
+#
+_chem_comp.id                   MGC
+_chem_comp.name                 ALPHA-METHYL-N-ACETYL-D-GALACTOSAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C9 H17 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGC  O6   .  O  0  ?  ?  ?  1  1 
+MGC  C6   .  C  0  ?  ?  ?  1  2 
+MGC  C5   .  C  0  ?  ?  ?  1  3 
+MGC  O5   .  O  0  ?  ?  ?  1  4 
+MGC  C1   .  C  0  ?  ?  ?  1  5 
+MGC  O1   .  O  0  ?  ?  ?  1  6 
+MGC  CM   .  C  0  ?  ?  ?  1  7 
+MGC  C2   .  C  0  ?  ?  ?  1  8 
+MGC  N2   .  N  0  ?  ?  ?  1  9 
+MGC  C7   .  C  0  ?  ?  ?  1  10
+MGC  O7   .  O  0  ?  ?  ?  1  11
+MGC  C8   .  C  0  ?  ?  ?  1  12
+MGC  C3   .  C  0  ?  ?  ?  1  13
+MGC  O3   .  O  0  ?  ?  ?  1  14
+MGC  C4   .  C  0  ?  ?  ?  1  15
+MGC  O4   .  O  0  ?  ?  ?  1  16
+MGC  HO6  .  H  0  ?  ?  ?  1  17
+MGC  1H6  .  H  0  ?  ?  ?  0  18
+MGC  2H6  .  H  0  ?  ?  ?  0  19
+MGC  H5   .  H  0  ?  ?  ?  1  20
+MGC  H1   .  H  0  ?  ?  ?  1  21
+MGC  1HM  .  H  0  ?  ?  ?  0  22
+MGC  2HM  .  H  0  ?  ?  ?  0  23
+MGC  3HM  .  H  0  ?  ?  ?  0  24
+MGC  H2   .  H  0  ?  ?  ?  1  25
+MGC  HN2  .  H  0  ?  ?  ?  1  26
+MGC  1H8  .  H  0  ?  ?  ?  0  27
+MGC  2H8  .  H  0  ?  ?  ?  0  28
+MGC  3H8  .  H  0  ?  ?  ?  0  29
+MGC  H3   .  H  0  ?  ?  ?  1  30
+MGC  HO3  .  H  0  ?  ?  ?  1  31
+MGC  H4   .  H  0  ?  ?  ?  1  32
+MGC  HO4  .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGC  O6  HO6  SING  1 
+MGC  O6  C6   SING  2 
+MGC  C6  1H6  SING  3 
+MGC  C6  2H6  SING  4 
+MGC  C6  C5   SING  5 
+MGC  C5  H5   SING  6 
+MGC  C5  O5   SING  7 
+MGC  C5  C4   SING  8 
+MGC  O5  C1   SING  9 
+MGC  C1  H1   SING  10
+MGC  C1  O1   SING  11
+MGC  C1  C2   SING  12
+MGC  O1  CM   SING  13
+MGC  CM  1HM  SING  14
+MGC  CM  2HM  SING  15
+MGC  CM  3HM  SING  16
+MGC  C2  H2   SING  17
+MGC  C2  N2   SING  18
+MGC  C2  C3   SING  19
+MGC  N2  HN2  SING  20
+MGC  N2  C7   SING  21
+MGC  C7  O7   DOUB  22
+MGC  C7  C8   SING  23
+MGC  C8  1H8  SING  24
+MGC  C8  2H8  SING  25
+MGC  C8  3H8  SING  26
+MGC  C3  H3   SING  27
+MGC  C3  O3   SING  28
+MGC  C3  C4   SING  29
+MGC  O3  HO3  SING  30
+MGC  C4  H4   SING  31
+MGC  C4  O4   SING  32
+MGC  O4  HO4  SING  33
+#

@@ -1,0 +1,62 @@
+data_XAN
+#
+_chem_comp.id                   XAN
+_chem_comp.name                 XANTHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XAN  N9   .  N  0  ?  ?  ?  1  1 
+XAN  C4   .  C  0  ?  ?  ?  1  2 
+XAN  N3   .  N  0  ?  ?  ?  1  3 
+XAN  C2   .  C  0  ?  ?  ?  1  4 
+XAN  O2   .  O  0  ?  ?  ?  1  5 
+XAN  N1   .  N  0  ?  ?  ?  1  6 
+XAN  C6   .  C  0  ?  ?  ?  1  7 
+XAN  O6   .  O  0  ?  ?  ?  1  8 
+XAN  C5   .  C  0  ?  ?  ?  1  9 
+XAN  N7   .  N  0  ?  ?  ?  1  10
+XAN  C8   .  C  0  ?  ?  ?  1  11
+XAN  HN9  .  H  0  ?  ?  ?  1  12
+XAN  HN3  .  H  0  ?  ?  ?  1  13
+XAN  HN1  .  H  0  ?  ?  ?  1  14
+XAN  H8   .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XAN  N9  C4   SING  1 
+XAN  N9  C8   SING  2 
+XAN  N9  HN9  SING  3 
+XAN  C4  N3   SING  4 
+XAN  C4  C5   DOUB  5 
+XAN  N3  C2   SING  6 
+XAN  N3  HN3  SING  7 
+XAN  C2  O2   DOUB  8 
+XAN  C2  N1   SING  9 
+XAN  N1  C6   SING  10
+XAN  N1  HN1  SING  11
+XAN  C6  O6   DOUB  12
+XAN  C6  C5   SING  13
+XAN  C5  N7   SING  14
+XAN  N7  C8   DOUB  15
+XAN  C8  H8   SING  16
+#

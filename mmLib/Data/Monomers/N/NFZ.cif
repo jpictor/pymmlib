@@ -1,0 +1,72 @@
+data_NFZ
+#
+_chem_comp.id                   NFZ
+_chem_comp.name                 NITROFURAZONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N4 O4'
+_chem_comp.pdbx_synonyms        '5-NITRO-2-FURALDEHYDE SEMICARBAZONE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NFZ  O4    .  O  0   5.180  6.708  49.626  1  1 
+NFZ  C6    .  C  0   5.740  6.948  48.586  1  2 
+NFZ  N4    .  N  0   6.859  7.675  48.510  1  3 
+NFZ  N3    .  N  0   5.192  6.449  47.495  1  4 
+NFZ  N2    .  N  0   5.517  6.855  46.298  1  5 
+NFZ  C5    .  C  0   4.817  6.424  45.334  1  6 
+NFZ  C3    .  C  0   5.143  6.901  44.003  1  7 
+NFZ  C4    .  C  0   4.474  6.668  42.864  1  8 
+NFZ  C2    .  C  0   5.181  7.379  41.818  1  9 
+NFZ  O3    .  O  0   6.280  7.765  43.814  1  10
+NFZ  C1    .  C  0   6.227  7.993  42.398  1  11
+NFZ  N1    .  N  1   7.133  8.744  41.806  1  12
+NFZ  O1    .  O  0   7.013  9.081  40.464  1  13
+NFZ  O2    .  O  -1  8.073  9.148  42.476  1  14
+NFZ  1HN4  .  H  0   ?      ?      ?       0  15
+NFZ  2HN4  .  H  0   ?      ?      ?       0  16
+NFZ  HN3   .  H  0   ?      ?      ?       1  17
+NFZ  H5    .  H  0   ?      ?      ?       1  18
+NFZ  H4    .  H  0   ?      ?      ?       1  19
+NFZ  H2    .  H  0   ?      ?      ?       1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NFZ  O4  C6    DOUB  1 
+NFZ  C6  N4    SING  2 
+NFZ  C6  N3    SING  3 
+NFZ  N4  1HN4  SING  4 
+NFZ  N4  2HN4  SING  5 
+NFZ  N3  N2    SING  6 
+NFZ  N3  HN3   SING  7 
+NFZ  N2  C5    DOUB  8 
+NFZ  C5  C3    SING  9 
+NFZ  C5  H5    SING  10
+NFZ  C3  C4    DOUB  11
+NFZ  C3  O3    SING  12
+NFZ  C4  C2    SING  13
+NFZ  C4  H4    SING  14
+NFZ  C2  C1    DOUB  15
+NFZ  C2  H2    SING  16
+NFZ  O3  C1    SING  17
+NFZ  C1  N1    SING  18
+NFZ  N1  O1    DOUB  19
+NFZ  N1  O2    SING  20
+#

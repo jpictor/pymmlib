@@ -1,0 +1,90 @@
+data_TPL
+#
+_chem_comp.id                       TPL
+_chem_comp.name                     TRYPTOPHANOL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H14 N2 O1'
+_chem_comp.pdbx_synonyms            2-AMINO-3-(1H-INDOL-3-YL)-PROPAN-1-OL
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            190.244
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPL  N    .  N  0  ?  ?  ?  1  1 
+TPL  CA   .  C  0  ?  ?  ?  1  2 
+TPL  CB1  .  C  0  ?  ?  ?  1  3 
+TPL  CG   .  C  0  ?  ?  ?  1  4 
+TPL  CD1  .  C  0  ?  ?  ?  1  5 
+TPL  CD2  .  C  0  ?  ?  ?  1  6 
+TPL  CE3  .  C  0  ?  ?  ?  1  7 
+TPL  CE2  .  C  0  ?  ?  ?  1  8 
+TPL  NE1  .  N  0  ?  ?  ?  1  9 
+TPL  CZ3  .  C  0  ?  ?  ?  1  10
+TPL  CZ2  .  C  0  ?  ?  ?  1  11
+TPL  CH2  .  C  0  ?  ?  ?  1  12
+TPL  C    .  C  0  ?  ?  ?  1  13
+TPL  OXT  .  O  0  ?  ?  ?  1  14
+TPL  H    .  H  0  ?  ?  ?  1  15
+TPL  HA   .  H  0  ?  ?  ?  1  16
+TPL  1HB  .  H  0  ?  ?  ?  0  17
+TPL  2HB  .  H  0  ?  ?  ?  0  18
+TPL  HD1  .  H  0  ?  ?  ?  1  19
+TPL  HE3  .  H  0  ?  ?  ?  1  20
+TPL  HE1  .  H  0  ?  ?  ?  1  21
+TPL  HZ3  .  H  0  ?  ?  ?  1  22
+TPL  HZ2  .  H  0  ?  ?  ?  1  23
+TPL  HH2  .  H  0  ?  ?  ?  1  24
+TPL  1HC  .  H  0  ?  ?  ?  0  25
+TPL  2HC  .  H  0  ?  ?  ?  0  26
+TPL  HXT  .  H  0  ?  ?  ?  1  27
+TPL  HN2  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPL  N    H    SING  1 
+TPL  N    CA   SING  2 
+TPL  N    HN2  SING  3 
+TPL  CA   HA   SING  4 
+TPL  CA   CB1  SING  5 
+TPL  CA   C    SING  6 
+TPL  CB1  1HB  SING  7 
+TPL  CB1  2HB  SING  8 
+TPL  CB1  CG   SING  9 
+TPL  CG   CD1  DOUB  10
+TPL  CG   CD2  SING  11
+TPL  CD1  NE1  SING  12
+TPL  CD1  HD1  SING  13
+TPL  CD2  CE3  SING  14
+TPL  CD2  CE2  DOUB  15
+TPL  CE3  HE3  SING  16
+TPL  CE3  CZ3  DOUB  17
+TPL  CE2  NE1  SING  18
+TPL  CE2  CZ2  SING  19
+TPL  NE1  HE1  SING  20
+TPL  CZ3  HZ3  SING  21
+TPL  CZ3  CH2  SING  22
+TPL  CZ2  CH2  DOUB  23
+TPL  CZ2  HZ2  SING  24
+TPL  CH2  HH2  SING  25
+TPL  C    1HC  SING  26
+TPL  C    2HC  SING  27
+TPL  C    OXT  SING  28
+TPL  OXT  HXT  SING  29
+#

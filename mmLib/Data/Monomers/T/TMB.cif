@@ -1,0 +1,103 @@
+data_TMB
+#
+_chem_comp.id                       TMB
+_chem_comp.name                     N-METHYL-4-[(E)-2-BUTENYL]-4,N-DIMETHYL-THREONINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H21 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  THR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            215.292
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMB  N     .  N  0  ?  ?  ?  1  1 
+TMB  CT    .  C  0  ?  ?  ?  1  2 
+TMB  CN    .  C  0  ?  ?  ?  1  3 
+TMB  CA    .  C  0  ?  ?  ?  1  4 
+TMB  C     .  C  0  ?  ?  ?  1  5 
+TMB  O     .  O  0  ?  ?  ?  1  6 
+TMB  OXT   .  O  0  ?  ?  ?  1  7 
+TMB  CB    .  C  0  ?  ?  ?  1  8 
+TMB  OG1   .  O  0  ?  ?  ?  1  9 
+TMB  CG2   .  C  0  ?  ?  ?  1  10
+TMB  CD1   .  C  0  ?  ?  ?  1  11
+TMB  CD2   .  C  0  ?  ?  ?  1  12
+TMB  CE    .  C  0  ?  ?  ?  1  13
+TMB  CZ    .  C  0  ?  ?  ?  1  14
+TMB  CH    .  C  0  ?  ?  ?  1  15
+TMB  1HCT  .  H  0  ?  ?  ?  0  16
+TMB  2HCT  .  H  0  ?  ?  ?  0  17
+TMB  3HCT  .  H  0  ?  ?  ?  0  18
+TMB  1HCN  .  H  0  ?  ?  ?  0  19
+TMB  2HCN  .  H  0  ?  ?  ?  0  20
+TMB  3HCN  .  H  0  ?  ?  ?  0  21
+TMB  HA    .  H  0  ?  ?  ?  1  22
+TMB  HXT   .  H  0  ?  ?  ?  1  23
+TMB  HB    .  H  0  ?  ?  ?  1  24
+TMB  HG1   .  H  0  ?  ?  ?  1  25
+TMB  HG2   .  H  0  ?  ?  ?  1  26
+TMB  1HD1  .  H  0  ?  ?  ?  0  27
+TMB  2HD1  .  H  0  ?  ?  ?  0  28
+TMB  3HD1  .  H  0  ?  ?  ?  0  29
+TMB  1HD2  .  H  0  ?  ?  ?  0  30
+TMB  2HD2  .  H  0  ?  ?  ?  0  31
+TMB  HE    .  H  0  ?  ?  ?  1  32
+TMB  HZ    .  H  0  ?  ?  ?  1  33
+TMB  1HH   .  H  0  ?  ?  ?  0  34
+TMB  2HH   .  H  0  ?  ?  ?  0  35
+TMB  3HH   .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMB  N    CN    SING  1 
+TMB  N    CA    SING  2 
+TMB  N    CT    SING  3 
+TMB  CT   1HCT  SING  4 
+TMB  CT   2HCT  SING  5 
+TMB  CT   3HCT  SING  6 
+TMB  CN   1HCN  SING  7 
+TMB  CN   2HCN  SING  8 
+TMB  CN   3HCN  SING  9 
+TMB  CA   CB    SING  10
+TMB  CA   C     SING  11
+TMB  CA   HA    SING  12
+TMB  C    O     DOUB  13
+TMB  C    OXT   SING  14
+TMB  OXT  HXT   SING  15
+TMB  CB   CG2   SING  16
+TMB  CB   OG1   SING  17
+TMB  CB   HB    SING  18
+TMB  OG1  HG1   SING  19
+TMB  CG2  CD1   SING  20
+TMB  CG2  CD2   SING  21
+TMB  CG2  HG2   SING  22
+TMB  CD1  1HD1  SING  23
+TMB  CD1  2HD1  SING  24
+TMB  CD1  3HD1  SING  25
+TMB  CD2  CE    SING  26
+TMB  CD2  1HD2  SING  27
+TMB  CD2  2HD2  SING  28
+TMB  CE   CZ    DOUB  29
+TMB  CE   HE    SING  30
+TMB  CZ   CH    SING  31
+TMB  CZ   HZ    SING  32
+TMB  CH   1HH   SING  33
+TMB  CH   2HH   SING  34
+TMB  CH   3HH   SING  35
+#

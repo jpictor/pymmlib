@@ -1,0 +1,105 @@
+data_NCF
+#
+_chem_comp.id                   NCF
+_chem_comp.name                 '(2R)-2-{(1R)-2-OXO-1-[(2-THIENYLACETYL)AMINO]ETHYL}-5,6-DIHYDRO-2H-1,3-THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H15 N2 O4 S2'
+_chem_comp.pdbx_synonyms        NITROCEFIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        327.392
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NCF  S1    .  S  0  -1.475  -.305   38.986  1  1 
+NCF  C2    .  C  0  -3.264  -.395   39.03   1  2 
+NCF  C3    .  C  0  -3.929  -1.688  39.39   1  3 
+NCF  C4    .  C  0  -3.121  -2.984  39.234  1  4 
+NCF  C4'   .  C  0  -3.703  -4.355  39.567  1  5 
+NCF  O4A   .  O  0  -4.857  -4.514  39.98   1  6 
+NCF  O4B   .  O  0  -2.905  -5.256  39.379  1  7 
+NCF  N5    .  N  0  -1.808  -3.024  38.78   1  8 
+NCF  C6    .  C  0  -.923   -1.943  38.364  1  9 
+NCF  C7    .  C  0  -.767   -1.993  36.738  1  10
+NCF  C8    .  C  0  -.872   -3.505  36.335  1  11
+NCF  O9    .  O  0  -1.799  -3.913  35.594  1  12
+NCF  N10   .  N  0  -1.915  -1.316  36.049  1  13
+NCF  C11   .  C  0  -1.859  .086    35.669  1  14
+NCF  O12   .  O  0  -.878   .84     35.873  1  15
+NCF  C13   .  C  0  -3.13   .605    34.996  1  16
+NCF  C14   .  C  0  -2.795  1.213   33.666  1  17
+NCF  C15   .  C  0  -2.755  .55     32.339  1  18
+NCF  C16   .  C  0  -2.391  1.557   31.418  1  19
+NCF  C17   .  C  0  -2.171  2.816   31.899  1  20
+NCF  S19   .  S  0  -2.416  2.836   33.605  1  21
+NCF  1H2C  .  H  0  -3.662  -.052   38.046  0  22
+NCF  2H2C  .  H  0  -3.644  .402    39.711  0  23
+NCF  H6    .  H  0  .082    -2.146  38.803  1  24
+NCF  1H3C  .  H  0  -4.881  -1.781  38.817  0  25
+NCF  2H3C  .  H  0  -4.315  -1.622  40.434  0  26
+NCF  H4A   .  H  0  ?       ?       ?       1  27
+NCF  H7    .  H  0  .208    -1.558  36.415  1  28
+NCF  H10   .  H  0  -2.757  -1.854  35.842  1  29
+NCF  1H13  .  H  0  -3.69   1.314   35.65   0  30
+NCF  2H13  .  H  0  -3.91   -.187   34.909  0  31
+NCF  H15   .  H  0  -2.966  -.51    32.118  1  32
+NCF  H16   .  H  0  -2.288  1.333   30.343  1  33
+NCF  H17   .  H  0  -1.881  3.688   31.289  1  34
+NCF  HO'   .  H  0  ?       ?       ?       1  35
+NCF  H8    .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NCF  S1   C2    SING  1 
+NCF  S1   C6    SING  2 
+NCF  C2   C3    SING  3 
+NCF  C2   1H2C  SING  4 
+NCF  C2   2H2C  SING  5 
+NCF  C3   C4    SING  6 
+NCF  C3   1H3C  SING  7 
+NCF  C3   2H3C  SING  8 
+NCF  C4   C4'   SING  9 
+NCF  C4   N5    DOUB  10
+NCF  C4'  O4A   SING  11
+NCF  C4'  O4B   DOUB  12
+NCF  O4A  H4A   SING  13
+NCF  N5   C6    SING  14
+NCF  C6   C7    SING  15
+NCF  C6   H6    SING  16
+NCF  C7   C8    SING  17
+NCF  C7   N10   SING  18
+NCF  C7   H7    SING  19
+NCF  C8   O9    DOUB  20
+NCF  C8   H8    SING  21
+NCF  O9   HO'   SING  22
+NCF  N10  C11   SING  23
+NCF  N10  H10   SING  24
+NCF  C11  O12   DOUB  25
+NCF  C11  C13   SING  26
+NCF  C13  C14   SING  27
+NCF  C13  1H13  SING  28
+NCF  C13  2H13  SING  29
+NCF  C14  C15   DOUB  30
+NCF  C14  S19   SING  31
+NCF  C15  C16   SING  32
+NCF  C15  H15   SING  33
+NCF  C16  C17   DOUB  34
+NCF  C16  H16   SING  35
+NCF  C17  S19   SING  36
+NCF  C17  H17   SING  37
+#

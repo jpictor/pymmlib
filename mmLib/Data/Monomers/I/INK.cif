@@ -1,0 +1,95 @@
+data_INK
+#
+_chem_comp.id                   INK
+_chem_comp.name                 '(RP,SP)-O-(2R)-(1-PHENOXYBUT-2-YL)-METHYLPHOSPHONIC ACID CHLORIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 O3 CL1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        262.672
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+INK  P     .  P   0  ?  ?  ?  1  1 
+INK  CL    .  CL  0  ?  ?  ?  0  2 
+INK  C1    .  C   0  ?  ?  ?  1  3 
+INK  O1    .  O   0  ?  ?  ?  1  4 
+INK  O2    .  O   0  ?  ?  ?  1  5 
+INK  C2    .  C   0  ?  ?  ?  1  6 
+INK  C3    .  C   0  ?  ?  ?  1  7 
+INK  C4    .  C   0  ?  ?  ?  1  8 
+INK  C5    .  C   0  ?  ?  ?  1  9 
+INK  O3    .  O   0  ?  ?  ?  1  10
+INK  C6    .  C   0  ?  ?  ?  1  11
+INK  C7    .  C   0  ?  ?  ?  1  12
+INK  C8    .  C   0  ?  ?  ?  1  13
+INK  C9    .  C   0  ?  ?  ?  1  14
+INK  C10   .  C   0  ?  ?  ?  1  15
+INK  C11   .  C   0  ?  ?  ?  1  16
+INK  1HC1  .  H   0  ?  ?  ?  0  17
+INK  2HC1  .  H   0  ?  ?  ?  0  18
+INK  3HC1  .  H   0  ?  ?  ?  0  19
+INK  HC2   .  H   0  ?  ?  ?  1  20
+INK  1HC3  .  H   0  ?  ?  ?  0  21
+INK  2HC3  .  H   0  ?  ?  ?  0  22
+INK  1HC4  .  H   0  ?  ?  ?  0  23
+INK  2HC4  .  H   0  ?  ?  ?  0  24
+INK  3HC4  .  H   0  ?  ?  ?  0  25
+INK  1HC5  .  H   0  ?  ?  ?  0  26
+INK  2HC5  .  H   0  ?  ?  ?  0  27
+INK  HC6   .  H   0  ?  ?  ?  1  28
+INK  HC7   .  H   0  ?  ?  ?  1  29
+INK  HC8   .  H   0  ?  ?  ?  1  30
+INK  HC9   .  H   0  ?  ?  ?  1  31
+INK  H11   .  H   0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+INK  P    C1    SING  1 
+INK  P    O1    DOUB  2 
+INK  P    O2    SING  3 
+INK  P    CL    SING  4 
+INK  C1   1HC1  SING  5 
+INK  C1   2HC1  SING  6 
+INK  C1   3HC1  SING  7 
+INK  O2   C2    SING  8 
+INK  C2   C3    SING  9 
+INK  C2   C5    SING  10
+INK  C2   HC2   SING  11
+INK  C3   C4    SING  12
+INK  C3   1HC3  SING  13
+INK  C3   2HC3  SING  14
+INK  C4   1HC4  SING  15
+INK  C4   2HC4  SING  16
+INK  C4   3HC4  SING  17
+INK  C5   O3    SING  18
+INK  C5   1HC5  SING  19
+INK  C5   2HC5  SING  20
+INK  O3   C10   SING  21
+INK  C6   C7    AROM  22
+INK  C6   C11   AROM  23
+INK  C6   HC6   SING  24
+INK  C7   C8    AROM  25
+INK  C7   HC7   SING  26
+INK  C8   C9    AROM  27
+INK  C8   HC8   SING  28
+INK  C9   C10   AROM  29
+INK  C9   HC9   SING  30
+INK  C10  C11   AROM  31
+INK  C11  H11   SING  32
+#

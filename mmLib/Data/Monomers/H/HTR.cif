@@ -1,0 +1,89 @@
+data_HTR
+#
+_chem_comp.id                       HTR
+_chem_comp.name                     BETA-HYDROXYTRYPTOPHANE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            220.227
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTR  N    .  N  0  ?  ?  ?  1  1 
+HTR  CA   .  C  0  ?  ?  ?  1  2 
+HTR  CB   .  C  0  ?  ?  ?  1  3 
+HTR  OH   .  O  0  ?  ?  ?  1  4 
+HTR  CG   .  C  0  ?  ?  ?  1  5 
+HTR  CD1  .  C  0  ?  ?  ?  1  6 
+HTR  NE1  .  N  0  ?  ?  ?  1  7 
+HTR  CE2  .  C  0  ?  ?  ?  1  8 
+HTR  CZ2  .  C  0  ?  ?  ?  1  9 
+HTR  CH2  .  C  0  ?  ?  ?  1  10
+HTR  CZ3  .  C  0  ?  ?  ?  1  11
+HTR  CE3  .  C  0  ?  ?  ?  1  12
+HTR  CD2  .  C  0  ?  ?  ?  1  13
+HTR  C    .  C  0  ?  ?  ?  1  14
+HTR  O    .  O  0  ?  ?  ?  1  15
+HTR  OXT  .  O  0  ?  ?  ?  1  16
+HTR  1HN  .  H  0  ?  ?  ?  0  17
+HTR  2HN  .  H  0  ?  ?  ?  0  18
+HTR  HA   .  H  0  ?  ?  ?  1  19
+HTR  HB   .  H  0  ?  ?  ?  1  20
+HTR  HO   .  H  0  ?  ?  ?  1  21
+HTR  HD1  .  H  0  ?  ?  ?  1  22
+HTR  HE1  .  H  0  ?  ?  ?  1  23
+HTR  HZ2  .  H  0  ?  ?  ?  1  24
+HTR  HH2  .  H  0  ?  ?  ?  1  25
+HTR  HZ3  .  H  0  ?  ?  ?  1  26
+HTR  HE3  .  H  0  ?  ?  ?  1  27
+HTR  HXT  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTR  N    CA   SING  1 
+HTR  N    1HN  SING  2 
+HTR  N    2HN  SING  3 
+HTR  CA   CB   SING  4 
+HTR  CA   C    SING  5 
+HTR  CA   HA   SING  6 
+HTR  CB   CG   SING  7 
+HTR  CB   OH   SING  8 
+HTR  CB   HB   SING  9 
+HTR  OH   HO   SING  10
+HTR  CG   CD1  DOUB  11
+HTR  CG   CD2  SING  12
+HTR  CD1  NE1  SING  13
+HTR  CD1  HD1  SING  14
+HTR  NE1  CE2  SING  15
+HTR  NE1  HE1  SING  16
+HTR  CE2  CZ2  DOUB  17
+HTR  CE2  CD2  SING  18
+HTR  CZ2  CH2  SING  19
+HTR  CZ2  HZ2  SING  20
+HTR  CH2  CZ3  DOUB  21
+HTR  CH2  HH2  SING  22
+HTR  CZ3  CE3  SING  23
+HTR  CZ3  HZ3  SING  24
+HTR  CE3  CD2  DOUB  25
+HTR  CE3  HE3  SING  26
+HTR  C    O    DOUB  27
+HTR  C    OXT  SING  28
+HTR  OXT  HXT  SING  29
+#

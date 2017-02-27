@@ -1,0 +1,57 @@
+data_BML
+#
+_chem_comp.id                   BML
+_chem_comp.name                 4-BROMOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        173.009
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BML  O1   .  O   0  -45.637  42.360  -46.346  1  1 
+BML  C1   .  C   0  -46.682  42.258  -45.527  1  2 
+BML  C2   .  C   0  -46.845  40.951  -44.831  1  3 
+BML  C3   .  C   0  -48.009  40.878  -43.935  1  4 
+BML  C4   .  C   0  -48.910  41.963  -43.746  1  5 
+BML  C5   .  C   0  -48.643  43.107  -44.449  1  6 
+BML  C6   .  C   0  -47.654  43.324  -45.279  1  7 
+BML  BR4  .  BR  0  -50.329  41.705  -42.575  0  8 
+BML  HO1  .  H   0  ?        ?       ?        1  9 
+BML  H6   .  H   0  ?        ?       ?        1  10
+BML  H5   .  H   0  ?        ?       ?        1  11
+BML  H3   .  H   0  ?        ?       ?        1  12
+BML  H2   .  H   0  ?        ?       ?        1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BML  O1  C1   SING  1 
+BML  O1  HO1  SING  2 
+BML  C1  C6   DOUB  3 
+BML  C1  C2   SING  4 
+BML  C2  C3   DOUB  5 
+BML  C2  H2   SING  6 
+BML  C3  C4   SING  7 
+BML  C3  H3   SING  8 
+BML  C4  C5   DOUB  9 
+BML  C4  BR4  SING  10
+BML  C5  C6   SING  11
+BML  C5  H5   SING  12
+BML  C6  H6   SING  13
+#

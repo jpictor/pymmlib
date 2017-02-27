@@ -1,0 +1,130 @@
+data_G2L
+#
+_chem_comp.id                       G2L
+_chem_comp.name                     3'-O-METHYOXYETHYL-GUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H20 N5 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            421.303
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G2L  O3P   .  O  0  ?  ?  ?  1  1 
+G2L  P     .  P  0  ?  ?  ?  1  2 
+G2L  O1P   .  O  0  ?  ?  ?  1  3 
+G2L  O2P   .  O  0  ?  ?  ?  1  4 
+G2L  O5*   .  O  0  ?  ?  ?  1  5 
+G2L  C5*   .  C  0  ?  ?  ?  1  6 
+G2L  C4*   .  C  0  ?  ?  ?  1  7 
+G2L  O4*   .  O  0  ?  ?  ?  1  8 
+G2L  C3*   .  C  0  ?  ?  ?  1  9 
+G2L  O3*   .  O  0  ?  ?  ?  1  10
+G2L  C2*   .  C  0  ?  ?  ?  1  11
+G2L  O2*   .  O  0  ?  ?  ?  1  12
+G2L  C1*   .  C  0  ?  ?  ?  1  13
+G2L  N9    .  N  0  ?  ?  ?  1  14
+G2L  C8    .  C  0  ?  ?  ?  1  15
+G2L  N7    .  N  0  ?  ?  ?  1  16
+G2L  C5    .  C  0  ?  ?  ?  1  17
+G2L  C6    .  C  0  ?  ?  ?  1  18
+G2L  O6    .  O  0  ?  ?  ?  1  19
+G2L  N1    .  N  0  ?  ?  ?  1  20
+G2L  C2    .  C  0  ?  ?  ?  1  21
+G2L  N2    .  N  0  ?  ?  ?  1  22
+G2L  N3    .  N  0  ?  ?  ?  1  23
+G2L  C4    .  C  0  ?  ?  ?  1  24
+G2L  CA*   .  C  0  ?  ?  ?  1  25
+G2L  CB*   .  C  0  ?  ?  ?  1  26
+G2L  OC*   .  O  0  ?  ?  ?  1  27
+G2L  CD*   .  C  0  ?  ?  ?  1  28
+G2L  2HO*  .  H  0  ?  ?  ?  0  29
+G2L  H2*   .  H  0  ?  ?  ?  1  30
+G2L  H1*   .  H  0  ?  ?  ?  1  31
+G2L  H4*   .  H  0  ?  ?  ?  1  32
+G2L  1H5*  .  H  0  ?  ?  ?  0  33
+G2L  2H5*  .  H  0  ?  ?  ?  0  34
+G2L  3HOP  .  H  0  ?  ?  ?  0  35
+G2L  2HOP  .  H  0  ?  ?  ?  0  36
+G2L  H3*   .  H  0  ?  ?  ?  1  37
+G2L  H8    .  H  0  ?  ?  ?  1  38
+G2L  1H2   .  H  0  ?  ?  ?  0  39
+G2L  2H2   .  H  0  ?  ?  ?  0  40
+G2L  H1    .  H  0  ?  ?  ?  1  41
+G2L  1HA*  .  H  0  ?  ?  ?  0  42
+G2L  2HA*  .  H  0  ?  ?  ?  0  43
+G2L  1HB*  .  H  0  ?  ?  ?  0  44
+G2L  2HB*  .  H  0  ?  ?  ?  0  45
+G2L  1HD*  .  H  0  ?  ?  ?  0  46
+G2L  2HD*  .  H  0  ?  ?  ?  0  47
+G2L  3HD*  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G2L  O3P  P     SING  1 
+G2L  O3P  3HOP  SING  2 
+G2L  P    O5*   SING  3 
+G2L  P    O1P   DOUB  4 
+G2L  P    O2P   SING  5 
+G2L  O2P  2HOP  SING  6 
+G2L  O5*  C5*   SING  7 
+G2L  C5*  C4*   SING  8 
+G2L  C5*  1H5*  SING  9 
+G2L  C5*  2H5*  SING  10
+G2L  C4*  O4*   SING  11
+G2L  C4*  H4*   SING  12
+G2L  C4*  C3*   SING  13
+G2L  O4*  C1*   SING  14
+G2L  C3*  C2*   SING  15
+G2L  C3*  H3*   SING  16
+G2L  C3*  O3*   SING  17
+G2L  O3*  CA*   SING  18
+G2L  C2*  O2*   SING  19
+G2L  C2*  H2*   SING  20
+G2L  C2*  C1*   SING  21
+G2L  O2*  2HO*  SING  22
+G2L  C1*  H1*   SING  23
+G2L  C1*  N9    SING  24
+G2L  N9   C8    SING  25
+G2L  N9   C4    SING  26
+G2L  C8   H8    SING  27
+G2L  C8   N7    DOUB  28
+G2L  N7   C5    SING  29
+G2L  C5   C4    DOUB  30
+G2L  C5   C6    SING  31
+G2L  C6   N1    SING  32
+G2L  C6   O6    DOUB  33
+G2L  N1   C2    SING  34
+G2L  N1   H1    SING  35
+G2L  C2   N3    DOUB  36
+G2L  C2   N2    SING  37
+G2L  N2   1H2   SING  38
+G2L  N2   2H2   SING  39
+G2L  N3   C4    SING  40
+G2L  CA*  1HA*  SING  41
+G2L  CA*  2HA*  SING  42
+G2L  CA*  CB*   SING  43
+G2L  CB*  1HB*  SING  44
+G2L  CB*  2HB*  SING  45
+G2L  CB*  OC*   SING  46
+G2L  OC*  CD*   SING  47
+G2L  CD*  1HD*  SING  48
+G2L  CD*  2HD*  SING  49
+G2L  CD*  3HD*  SING  50
+#

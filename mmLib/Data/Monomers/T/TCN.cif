@@ -1,0 +1,48 @@
+data_TCN
+#
+_chem_comp.id                   TCN
+_chem_comp.name                 'TETRACYANONICKELATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C4 N4 NI1'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       162.771
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCN  NI  .  NI  -2  ?  ?  ?  0  1
+TCN  C1  .  C   0   ?  ?  ?  1  2
+TCN  N1  .  N   0   ?  ?  ?  1  3
+TCN  C2  .  C   0   ?  ?  ?  1  4
+TCN  N2  .  N   0   ?  ?  ?  1  5
+TCN  C3  .  C   0   ?  ?  ?  1  6
+TCN  N3  .  N   0   ?  ?  ?  1  7
+TCN  C4  .  C   0   ?  ?  ?  1  8
+TCN  N4  .  N   0   ?  ?  ?  1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCN  NI  C1  SING  1
+TCN  NI  C2  SING  2
+TCN  NI  C3  SING  3
+TCN  NI  C4  SING  4
+TCN  C1  N1  TRIP  5
+TCN  C2  N2  TRIP  6
+TCN  C3  N3  TRIP  7
+TCN  C4  N4  TRIP  8
+#

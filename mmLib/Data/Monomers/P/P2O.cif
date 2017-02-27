@@ -1,0 +1,72 @@
+data_P2O
+#
+_chem_comp.id                   P2O
+_chem_comp.name                 3-PROP-2-YN-1-YL-1,3-OXAZOLIDIN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N1 O2'
+_chem_comp.pdbx_synonyms        1-(PROP-2-YNYL)-OXAZOLIDINE-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        125.127
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          P2O
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       'C#CCN1CCOC1=O'
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+P2O  C13   .  C  0  15.274  21.640  40.652  1  N  1 
+P2O  C9    .  C  0  16.806  24.562  42.361  1  N  2 
+P2O  C11   .  C  0  14.646  23.707  41.402  1  N  3 
+P2O  C8    .  C  0  17.165  24.142  43.722  1  N  4 
+P2O  C7    .  C  0  17.105  23.830  44.905  1  N  5 
+P2O  C14   .  C  0  16.496  22.282  41.325  1  N  6 
+P2O  O11   .  O  0  14.016  24.762  41.488  1  N  7 
+P2O  N10   .  N  0  15.943  23.573  41.722  1  N  8 
+P2O  O12   .  O  0  14.159  22.520  40.932  1  N  9 
+P2O  1H13  .  H  0  15.432  21.547  39.567  0  N  10
+P2O  2H13  .  H  0  15.091  20.625  41.034  0  N  11
+P2O  1H9   .  H  0  16.273  25.523  42.411  0  N  12
+P2O  2H9   .  H  0  17.727  24.661  41.768  0  N  13
+P2O  H7    .  H  0  17.053  23.560  45.929  1  N  14
+P2O  1H14  .  H  0  16.858  21.698  42.184  0  N  15
+P2O  2H14  .  H  0  17.384  22.350  40.679  0  N  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+P2O  C13  C14   SING  N  1 
+P2O  C13  O12   SING  N  2 
+P2O  C13  1H13  SING  N  3 
+P2O  C13  2H13  SING  N  4 
+P2O  C9   C8    SING  N  5 
+P2O  C9   N10   SING  N  6 
+P2O  C9   1H9   SING  N  7 
+P2O  C9   2H9   SING  N  8 
+P2O  C11  O11   DOUB  N  9 
+P2O  C11  N10   SING  N  10
+P2O  C11  O12   SING  N  11
+P2O  C8   C7    TRIP  N  12
+P2O  C7   H7    SING  N  13
+P2O  C14  N10   SING  N  14
+P2O  C14  1H14  SING  N  15
+P2O  C14  2H14  SING  N  16
+#

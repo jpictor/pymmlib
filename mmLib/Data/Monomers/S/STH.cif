@@ -1,0 +1,74 @@
+data_STH
+#
+_chem_comp.id                   STH
+_chem_comp.name                 2-AMINO-4H-1,3-BENZOXATHIIN-4-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        183.225
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+STH  C8    .  C  0  48.982  61.309  47.995  1  1 
+STH  O8    .  O  0  48.457  60.379  48.856  1  2 
+STH  C1    .  C  0  48.411  61.529  46.637  1  3 
+STH  C2    .  C  0  49.023  62.536  45.743  1  4 
+STH  C3    .  C  0  48.474  62.746  44.442  1  5 
+STH  C4    .  C  0  47.356  61.981  43.997  1  6 
+STH  C5    .  C  0  46.759  60.998  44.849  1  7 
+STH  C6    .  C  0  47.280  60.771  46.141  1  8 
+STH  C7    .  C  0  50.478  63.373  47.517  1  9 
+STH  O2    .  O  0  50.137  63.315  46.142  1  10
+STH  N7    .  N  0  51.831  63.630  47.612  1  11
+STH  S7    .  S  0  50.093  62.084  48.423  1  12
+STH  HO8   .  H  0  ?       ?       ?       1  13
+STH  H8    .  H  0  ?       ?       ?       1  14
+STH  H7    .  H  0  ?       ?       ?       1  15
+STH  H6    .  H  0  ?       ?       ?       1  16
+STH  H5    .  H  0  ?       ?       ?       1  17
+STH  H4    .  H  0  ?       ?       ?       1  18
+STH  H3    .  H  0  ?       ?       ?       1  19
+STH  1HN7  .  H  0  ?       ?       ?       0  20
+STH  2HN7  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+STH  C8  O8    SING  1 
+STH  C8  H8    SING  2 
+STH  C8  S7    SING  3 
+STH  C8  C1    SING  4 
+STH  O8  HO8   SING  5 
+STH  C1  C2    AROM  6 
+STH  C1  C6    AROM  7 
+STH  C2  O2    SING  8 
+STH  C2  C3    AROM  9 
+STH  C3  C4    AROM  10
+STH  C3  H3    SING  11
+STH  C4  C5    AROM  12
+STH  C4  H4    SING  13
+STH  C5  C6    AROM  14
+STH  C5  H5    SING  15
+STH  C6  H6    SING  16
+STH  C7  S7    SING  17
+STH  C7  H7    SING  18
+STH  C7  O2    SING  19
+STH  C7  N7    SING  20
+STH  N7  1HN7  SING  21
+STH  N7  2HN7  SING  22
+#

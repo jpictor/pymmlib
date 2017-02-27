@@ -1,0 +1,85 @@
+data_G6S
+#
+_chem_comp.id                   G6S
+_chem_comp.name                 D-GALACTOSE-6-SULFATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H11 O9 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.207
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G6S  C1   .  C  0  ?  ?  ?  1  1 
+G6S  C2   .  C  0  ?  ?  ?  1  2 
+G6S  C3   .  C  0  ?  ?  ?  1  3 
+G6S  C4   .  C  0  ?  ?  ?  1  4 
+G6S  C5   .  C  0  ?  ?  ?  1  5 
+G6S  C6   .  C  0  ?  ?  ?  1  6 
+G6S  O1   .  O  0  ?  ?  ?  1  7 
+G6S  O2   .  O  0  ?  ?  ?  1  8 
+G6S  O3   .  O  0  ?  ?  ?  1  9 
+G6S  O4   .  O  0  ?  ?  ?  1  10
+G6S  O5   .  O  0  ?  ?  ?  1  11
+G6S  O6   .  O  0  ?  ?  ?  1  12
+G6S  S    .  S  0  ?  ?  ?  1  13
+G6S  O7   .  O  0  ?  ?  ?  1  14
+G6S  O8   .  O  0  ?  ?  ?  1  15
+G6S  O9   .  O  0  ?  ?  ?  1  16
+G6S  H1   .  H  0  ?  ?  ?  1  17
+G6S  H2   .  H  0  ?  ?  ?  1  18
+G6S  H3   .  H  0  ?  ?  ?  1  19
+G6S  H4   .  H  0  ?  ?  ?  1  20
+G6S  H5   .  H  0  ?  ?  ?  1  21
+G6S  1H6  .  H  0  ?  ?  ?  0  22
+G6S  2H6  .  H  0  ?  ?  ?  0  23
+G6S  HO1  .  H  0  ?  ?  ?  1  24
+G6S  HO2  .  H  0  ?  ?  ?  1  25
+G6S  HO3  .  H  0  ?  ?  ?  1  26
+G6S  HO4  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G6S  C1  C2   SING  1 
+G6S  C1  O1   SING  2 
+G6S  C1  O5   SING  3 
+G6S  C1  H1   SING  4 
+G6S  C2  C3   SING  5 
+G6S  C2  O2   SING  6 
+G6S  C2  H2   SING  7 
+G6S  C3  C4   SING  8 
+G6S  C3  O3   SING  9 
+G6S  C3  H3   SING  10
+G6S  C4  C5   SING  11
+G6S  C4  O4   SING  12
+G6S  C4  H4   SING  13
+G6S  C5  C6   SING  14
+G6S  C5  O5   SING  15
+G6S  C5  H5   SING  16
+G6S  C6  O6   SING  17
+G6S  C6  1H6  SING  18
+G6S  C6  2H6  SING  19
+G6S  O1  HO1  SING  20
+G6S  O2  HO2  SING  21
+G6S  O3  HO3  SING  22
+G6S  O4  HO4  SING  23
+G6S  O6  S    SING  24
+G6S  S   O7   DOUB  25
+G6S  S   O8   DOUB  26
+G6S  S   O9   SING  27
+#

@@ -1,0 +1,96 @@
+data_CHQ
+#
+_chem_comp.id                   CHQ
+_chem_comp.name                 'CYCLO-(L-HISTIDINE-L-PROLINE) INHIBITOR'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N4 O2'
+_chem_comp.pdbx_synonyms        (3S,8AR)-3-(1H-IMIDAZOL-5-YLMETHYL)HEXAHYDROPYRROLO[1,2-A]PYRAZINE-1,4-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        234.257
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CHQ  N     .  N  0  17.597  42.278  101.911  1  1 
+CHQ  CA    .  C  0  18.93   42.2    102.531  1  2 
+CHQ  C     .  C  0  19.477  43.573  102.943  1  3 
+CHQ  O     .  O  0  20.664  43.674  103.251  1  4 
+CHQ  CB    .  C  0  19.88   41.583  101.5    1  5 
+CHQ  ND1   .  N  0  21.219  42.581  99.584   1  6 
+CHQ  CE1   .  C  0  20.944  43.434  98.604   1  7 
+CHQ  NE2   .  N  0  19.68   43.841  98.617   1  8 
+CHQ  CD2   .  C  0  19.147  43.207  99.659   1  9 
+CHQ  CG    .  C  0  20.072  42.448  100.249  1  10
+CHQ  NP    .  N  0  18.679  44.721  103.008  1  11
+CHQ  CAP   .  C  0  17.236  44.655  102.727  1  12
+CHQ  CP    .  C  0  16.808  43.435  101.906  1  13
+CHQ  OP    .  O  0  15.746  43.443  101.283  1  14
+CHQ  CBP   .  C  0  17.064  45.97   101.965  1  15
+CHQ  CGP   .  C  0  17.843  46.908  102.892  1  16
+CHQ  CDP   .  C  0  19.13   46.123  103.165  1  17
+CHQ  H     .  H  0  17.227  41.442  101.459  1  18
+CHQ  HA    .  H  0  18.881  41.539  103.428  1  19
+CHQ  1HBC  .  H  0  19.547  40.556  101.222  0  20
+CHQ  2HBC  .  H  0  20.863  41.34   101.966  0  21
+CHQ  HD1   .  H  0  22.111  42.128  99.784   1  22
+CHQ  HE1   .  H  0  21.686  43.769  97.859   1  23
+CHQ  HD2   .  H  0  18.097  43.296  99.986   1  24
+CHQ  HAP   .  H  0  16.661  44.691  103.682  1  25
+CHQ  1HDP  .  H  0  20.001  46.411  102.532  0  26
+CHQ  2HDP  .  H  0  19.625  46.353  104.137  0  27
+CHQ  1HBP  .  H  0  16.014  46.269  101.738  0  28
+CHQ  2HBP  .  H  0  17.385  45.961  100.897  0  29
+CHQ  1HGP  .  H  0  18      47.937  102.491  0  30
+CHQ  2HGP  .  H  0  17.289  47.228  103.805  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CHQ  N    CA    SING  1 
+CHQ  N    CP    SING  2 
+CHQ  N    H     SING  3 
+CHQ  CA   C     SING  4 
+CHQ  CA   CB    SING  5 
+CHQ  CA   HA    SING  6 
+CHQ  C    O     DOUB  7 
+CHQ  C    NP    SING  8 
+CHQ  CB   CG    SING  9 
+CHQ  CB   1HBC  SING  10
+CHQ  CB   2HBC  SING  11
+CHQ  ND1  CE1   SING  12
+CHQ  ND1  CG    SING  13
+CHQ  ND1  HD1   SING  14
+CHQ  CE1  NE2   DOUB  15
+CHQ  CE1  HE1   SING  16
+CHQ  NE2  CD2   SING  17
+CHQ  CD2  CG    DOUB  18
+CHQ  CD2  HD2   SING  19
+CHQ  NP   CAP   SING  20
+CHQ  NP   CDP   SING  21
+CHQ  CAP  CP    SING  22
+CHQ  CAP  CBP   SING  23
+CHQ  CAP  HAP   SING  24
+CHQ  CP   OP    DOUB  25
+CHQ  CBP  CGP   SING  26
+CHQ  CBP  1HBP  SING  27
+CHQ  CBP  2HBP  SING  28
+CHQ  CGP  CDP   SING  29
+CHQ  CGP  1HGP  SING  30
+CHQ  CGP  2HGP  SING  31
+CHQ  CDP  1HDP  SING  32
+CHQ  CDP  2HDP  SING  33
+#

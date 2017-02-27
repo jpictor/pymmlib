@@ -1,0 +1,75 @@
+data_LLA
+#
+_chem_comp.id                   LLA
+_chem_comp.name                 'L-2-HYDROXY-3-PHENYL-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.176
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LLA  O    .  O  0  ?  ?  ?  1  1 
+LLA  CA   .  C  0  ?  ?  ?  1  2 
+LLA  CB   .  C  0  ?  ?  ?  1  3 
+LLA  CG   .  C  0  ?  ?  ?  1  4 
+LLA  CD1  .  C  0  ?  ?  ?  1  5 
+LLA  CD2  .  C  0  ?  ?  ?  1  6 
+LLA  CE1  .  C  0  ?  ?  ?  1  7 
+LLA  CE2  .  C  0  ?  ?  ?  1  8 
+LLA  CZ   .  C  0  ?  ?  ?  1  9 
+LLA  C    .  C  0  ?  ?  ?  1  10
+LLA  OA   .  O  0  ?  ?  ?  1  11
+LLA  OXT  .  O  0  ?  ?  ?  1  12
+LLA  HA   .  H  0  ?  ?  ?  1  13
+LLA  H1B  .  H  0  ?  ?  ?  1  14
+LLA  H2B  .  H  0  ?  ?  ?  1  15
+LLA  HD1  .  H  0  ?  ?  ?  1  16
+LLA  HD2  .  H  0  ?  ?  ?  1  17
+LLA  HE1  .  H  0  ?  ?  ?  1  18
+LLA  HE2  .  H  0  ?  ?  ?  1  19
+LLA  HZ   .  H  0  ?  ?  ?  1  20
+LLA  HOA  .  H  0  ?  ?  ?  1  21
+LLA  HXT  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LLA  O    C    DOUB  1 
+LLA  CA   OA   SING  2 
+LLA  CA   CB   SING  3 
+LLA  CA   C    SING  4 
+LLA  CA   HA   SING  5 
+LLA  CB   CG   SING  6 
+LLA  CB   H1B  SING  7 
+LLA  CB   H2B  SING  8 
+LLA  CG   CD1  DOUB  9 
+LLA  CG   CD2  SING  10
+LLA  CD1  CE1  SING  11
+LLA  CD1  HD1  SING  12
+LLA  CD2  CE2  DOUB  13
+LLA  CD2  HD2  SING  14
+LLA  CE1  CZ   DOUB  15
+LLA  CE1  HE1  SING  16
+LLA  CE2  CZ   SING  17
+LLA  CE2  HE2  SING  18
+LLA  CZ   HZ   SING  19
+LLA  C    OXT  SING  20
+LLA  OA   HOA  SING  21
+LLA  OXT  HXT  SING  22
+#

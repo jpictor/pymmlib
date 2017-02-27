@@ -1,0 +1,121 @@
+data_TPB
+#
+_chem_comp.id                   TPB
+_chem_comp.name                 4-[4-(2,4,6-TRIMETHYL-PHENYLAMINO)-PYRIMIDIN-2-YLAMINO]-BENZONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H19 N5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        329.404
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPB  C1    .  C  0  146.748  -22.256  73.676  1  1 
+TPB  N7    .  N  0  146.428  -21.852  72.362  1  2 
+TPB  C2    .  C  0  146.022  -21.603  74.740  1  3 
+TPB  C21   .  C  0  144.982  -20.538  74.410  1  4 
+TPB  C3    .  C  0  146.267  -21.952  76.121  1  5 
+TPB  C4    .  C  0  147.226  -22.936  76.465  1  6 
+TPB  C5    .  C  0  147.980  -23.604  75.407  1  7 
+TPB  C6    .  C  0  147.750  -23.270  73.999  1  8 
+TPB  C61   .  C  0  148.605  -24.038  72.960  1  9 
+TPB  C8    .  C  0  145.539  -22.711  71.585  1  10
+TPB  N1    .  N  0  145.072  -23.862  72.145  1  11
+TPB  C9    .  C  0  144.239  -24.740  71.494  1  12
+TPB  N5    .  N  0  143.808  -25.957  72.122  1  13
+TPB  N3    .  N  0  143.822  -24.403  70.162  1  14
+TPB  C10   .  C  0  144.321  -23.176  69.578  1  15
+TPB  C7    .  C  0  145.169  -22.355  70.300  1  16
+TPB  C11   .  C  0  144.363  -26.561  73.313  1  17
+TPB  C12   .  C  0  144.055  -27.932  73.561  1  18
+TPB  C13   .  C  0  144.560  -28.620  74.731  1  19
+TPB  C14   .  C  0  145.375  -27.929  75.671  1  20
+TPB  C15   .  C  0  145.703  -26.525  75.454  1  21
+TPB  C16   .  C  0  145.194  -25.843  74.282  1  22
+TPB  C17   .  C  0  145.844  -28.696  76.782  1  23
+TPB  N6    .  N  0  146.205  -29.367  77.661  1  24
+TPB  C41   .  C  0  147.445  -23.264  77.911  1  25
+TPB  H12   .  H  0  ?        ?        ?       1  26
+TPB  H13   .  H  0  ?        ?        ?       1  27
+TPB  H15   .  H  0  ?        ?        ?       1  28
+TPB  H16   .  H  0  ?        ?        ?       1  29
+TPB  HN5   .  H  0  ?        ?        ?       1  30
+TPB  H10   .  H  0  ?        ?        ?       1  31
+TPB  H7    .  H  0  ?        ?        ?       1  32
+TPB  HN7   .  H  0  ?        ?        ?       1  33
+TPB  1H21  .  H  0  ?        ?        ?       0  34
+TPB  2H21  .  H  0  ?        ?        ?       0  35
+TPB  3H21  .  H  0  ?        ?        ?       0  36
+TPB  H3    .  H  0  ?        ?        ?       1  37
+TPB  1H41  .  H  0  ?        ?        ?       0  38
+TPB  2H41  .  H  0  ?        ?        ?       0  39
+TPB  3H41  .  H  0  ?        ?        ?       0  40
+TPB  H5    .  H  0  ?        ?        ?       1  41
+TPB  1H61  .  H  0  ?        ?        ?       0  42
+TPB  2H61  .  H  0  ?        ?        ?       0  43
+TPB  3H61  .  H  0  ?        ?        ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPB  C1   N7    SING  1 
+TPB  C1   C2    DOUB  2 
+TPB  C1   C6    SING  3 
+TPB  N7   C8    SING  4 
+TPB  N7   HN7   SING  5 
+TPB  C2   C21   SING  6 
+TPB  C2   C3    SING  7 
+TPB  C21  1H21  SING  8 
+TPB  C21  2H21  SING  9 
+TPB  C21  3H21  SING  10
+TPB  C3   C4    DOUB  11
+TPB  C3   H3    SING  12
+TPB  C4   C5    SING  13
+TPB  C4   C41   SING  14
+TPB  C5   C6    DOUB  15
+TPB  C5   H5    SING  16
+TPB  C6   C61   SING  17
+TPB  C61  1H61  SING  18
+TPB  C61  2H61  SING  19
+TPB  C61  3H61  SING  20
+TPB  C8   N1    DOUB  21
+TPB  C8   C7    SING  22
+TPB  N1   C9    SING  23
+TPB  C9   N5    SING  24
+TPB  C9   N3    DOUB  25
+TPB  N5   C11   SING  26
+TPB  N5   HN5   SING  27
+TPB  N3   C10   SING  28
+TPB  C10  C7    DOUB  29
+TPB  C10  H10   SING  30
+TPB  C7   H7    SING  31
+TPB  C11  C12   DOUB  32
+TPB  C11  C16   SING  33
+TPB  C12  C13   SING  34
+TPB  C12  H12   SING  35
+TPB  C13  C14   DOUB  36
+TPB  C13  H13   SING  37
+TPB  C14  C15   SING  38
+TPB  C14  C17   SING  39
+TPB  C15  C16   DOUB  40
+TPB  C15  H15   SING  41
+TPB  C16  H16   SING  42
+TPB  C17  N6    TRIP  43
+TPB  C41  1H41  SING  44
+TPB  C41  2H41  SING  45
+TPB  C41  3H41  SING  46
+#

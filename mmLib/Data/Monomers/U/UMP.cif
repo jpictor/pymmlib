@@ -1,0 +1,100 @@
+data_UMP
+#
+_chem_comp.id                       UMP
+_chem_comp.name                     '2'-DEOXYURIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O8 P1'
+_chem_comp.pdbx_synonyms            DUMP
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            308.184
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UMP  N1    .  N  0  ?  ?  ?  1  1 
+UMP  C2    .  C  0  ?  ?  ?  1  2 
+UMP  N3    .  N  0  ?  ?  ?  1  3 
+UMP  C4    .  C  0  ?  ?  ?  1  4 
+UMP  C5    .  C  0  ?  ?  ?  1  5 
+UMP  C6    .  C  0  ?  ?  ?  1  6 
+UMP  O2    .  O  0  ?  ?  ?  1  7 
+UMP  O4    .  O  0  ?  ?  ?  1  8 
+UMP  C1*   .  C  0  ?  ?  ?  1  9 
+UMP  C2*   .  C  0  ?  ?  ?  1  10
+UMP  C3*   .  C  0  ?  ?  ?  1  11
+UMP  C4*   .  C  0  ?  ?  ?  1  12
+UMP  O3*   .  O  0  ?  ?  ?  1  13
+UMP  O4*   .  O  0  ?  ?  ?  1  14
+UMP  C5*   .  C  0  ?  ?  ?  1  15
+UMP  O5*   .  O  0  ?  ?  ?  1  16
+UMP  P     .  P  0  ?  ?  ?  1  17
+UMP  O1P   .  O  0  ?  ?  ?  1  18
+UMP  O2P   .  O  0  ?  ?  ?  1  19
+UMP  O3P   .  O  0  ?  ?  ?  1  20
+UMP  HN3   .  H  0  ?  ?  ?  1  21
+UMP  H5    .  H  0  ?  ?  ?  1  22
+UMP  H6    .  H  0  ?  ?  ?  1  23
+UMP  H1*   .  H  0  ?  ?  ?  1  24
+UMP  1H2*  .  H  0  ?  ?  ?  0  25
+UMP  2H2*  .  H  0  ?  ?  ?  0  26
+UMP  H3*   .  H  0  ?  ?  ?  1  27
+UMP  *HO3  .  H  0  ?  ?  ?  0  28
+UMP  H4*   .  H  0  ?  ?  ?  1  29
+UMP  1H5*  .  H  0  ?  ?  ?  0  30
+UMP  2H5*  .  H  0  ?  ?  ?  0  31
+UMP  2HOP  .  H  0  ?  ?  ?  0  32
+UMP  3HOP  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UMP  N1   C2    SING  1 
+UMP  N1   C6    SING  2 
+UMP  N1   C1*   SING  3 
+UMP  C2   N3    SING  4 
+UMP  C2   O2    DOUB  5 
+UMP  N3   C4    SING  6 
+UMP  N3   HN3   SING  7 
+UMP  C4   C5    SING  8 
+UMP  C4   O4    DOUB  9 
+UMP  C5   C6    DOUB  10
+UMP  C5   H5    SING  11
+UMP  C6   H6    SING  12
+UMP  C1*  C2*   SING  13
+UMP  C1*  O4*   SING  14
+UMP  C1*  H1*   SING  15
+UMP  C2*  C3*   SING  16
+UMP  C2*  1H2*  SING  17
+UMP  C2*  2H2*  SING  18
+UMP  C3*  C4*   SING  19
+UMP  C3*  O3*   SING  20
+UMP  C3*  H3*   SING  21
+UMP  C4*  O4*   SING  22
+UMP  C4*  C5*   SING  23
+UMP  C4*  H4*   SING  24
+UMP  O3*  *HO3  SING  25
+UMP  C5*  O5*   SING  26
+UMP  C5*  1H5*  SING  27
+UMP  C5*  2H5*  SING  28
+UMP  O5*  P     SING  29
+UMP  P    O1P   DOUB  30
+UMP  P    O2P   SING  31
+UMP  P    O3P   SING  32
+UMP  O2P  2HOP  SING  33
+UMP  O3P  3HOP  SING  34
+#

@@ -1,0 +1,115 @@
+data_ADX
+#
+_chem_comp.id                   ADX
+_chem_comp.name                 ADENOSINE-5'-PHOSPHOSULFATE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C10 H14 N5 O10 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        427.282
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADX  SB    .  S  0  ?  ?  ?  1  1 
+ADX  O1B   .  O  0  ?  ?  ?  1  2 
+ADX  O2B   .  O  0  ?  ?  ?  1  3 
+ADX  O3B   .  O  0  ?  ?  ?  1  4 
+ADX  PA    .  P  0  ?  ?  ?  1  5 
+ADX  O1A   .  O  0  ?  ?  ?  1  6 
+ADX  O2A   .  O  0  ?  ?  ?  1  7 
+ADX  O3A   .  O  0  ?  ?  ?  1  8 
+ADX  O5*   .  O  0  ?  ?  ?  1  9 
+ADX  C5*   .  C  0  ?  ?  ?  1  10
+ADX  C4*   .  C  0  ?  ?  ?  1  11
+ADX  O4*   .  O  0  ?  ?  ?  1  12
+ADX  C3*   .  C  0  ?  ?  ?  1  13
+ADX  O3*   .  O  0  ?  ?  ?  1  14
+ADX  C2*   .  C  0  ?  ?  ?  1  15
+ADX  O2*   .  O  0  ?  ?  ?  1  16
+ADX  C1*   .  C  0  ?  ?  ?  1  17
+ADX  N9    .  N  0  ?  ?  ?  1  18
+ADX  C8    .  C  0  ?  ?  ?  1  19
+ADX  N7    .  N  0  ?  ?  ?  1  20
+ADX  C5    .  C  0  ?  ?  ?  1  21
+ADX  C6    .  C  0  ?  ?  ?  1  22
+ADX  N6    .  N  0  ?  ?  ?  1  23
+ADX  N1    .  N  0  ?  ?  ?  1  24
+ADX  C2    .  C  0  ?  ?  ?  1  25
+ADX  N3    .  N  0  ?  ?  ?  1  26
+ADX  C4    .  C  0  ?  ?  ?  1  27
+ADX  2HOA  .  H  0  ?  ?  ?  0  28
+ADX  3HOB  .  H  0  ?  ?  ?  0  29
+ADX  1H5*  .  H  0  ?  ?  ?  0  30
+ADX  2H5*  .  H  0  ?  ?  ?  0  31
+ADX  H4*   .  H  0  ?  ?  ?  1  32
+ADX  H3*   .  H  0  ?  ?  ?  1  33
+ADX  *HO3  .  H  0  ?  ?  ?  0  34
+ADX  H2*   .  H  0  ?  ?  ?  1  35
+ADX  *HO2  .  H  0  ?  ?  ?  0  36
+ADX  H1*   .  H  0  ?  ?  ?  1  37
+ADX  H8    .  H  0  ?  ?  ?  1  38
+ADX  1HN6  .  H  0  ?  ?  ?  0  39
+ADX  2HN6  .  H  0  ?  ?  ?  0  40
+ADX  H2    .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADX  SB   O1B   DOUB  1 
+ADX  SB   O2B   DOUB  2 
+ADX  SB   O3B   SING  3 
+ADX  SB   O3A   SING  4 
+ADX  O3B  3HOB  SING  5 
+ADX  PA   O1A   DOUB  6 
+ADX  PA   O2A   SING  7 
+ADX  PA   O3A   SING  8 
+ADX  PA   O5*   SING  9 
+ADX  O2A  2HOA  SING  10
+ADX  O5*  C5*   SING  11
+ADX  C5*  C4*   SING  12
+ADX  C5*  1H5*  SING  13
+ADX  C5*  2H5*  SING  14
+ADX  C4*  O4*   SING  15
+ADX  C4*  C3*   SING  16
+ADX  C4*  H4*   SING  17
+ADX  O4*  C1*   SING  18
+ADX  C3*  O3*   SING  19
+ADX  C3*  C2*   SING  20
+ADX  C3*  H3*   SING  21
+ADX  O3*  *HO3  SING  22
+ADX  C2*  O2*   SING  23
+ADX  C2*  C1*   SING  24
+ADX  C2*  H2*   SING  25
+ADX  O2*  *HO2  SING  26
+ADX  C1*  N9    SING  27
+ADX  C1*  H1*   SING  28
+ADX  N9   C8    SING  29
+ADX  N9   C4    SING  30
+ADX  C8   N7    DOUB  31
+ADX  C8   H8    SING  32
+ADX  N7   C5    SING  33
+ADX  C5   C6    SING  34
+ADX  C5   C4    DOUB  35
+ADX  C6   N6    SING  36
+ADX  C6   N1    DOUB  37
+ADX  N6   1HN6  SING  38
+ADX  N6   2HN6  SING  39
+ADX  N1   C2    SING  40
+ADX  C2   N3    DOUB  41
+ADX  C2   H2    SING  42
+ADX  N3   C4    SING  43
+#

@@ -1,0 +1,97 @@
+data_NPL
+#
+_chem_comp.id                   NPL
+_chem_comp.name                 N-METHYL-4-DEOXY-4-AMINO-PYRIDOXAL-5-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H16 N2 O5 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       263.210
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPL  N1    .  N  1  ?  ?  ?  1  1 
+NPL  C1    .  C  0  ?  ?  ?  1  2 
+NPL  C2    .  C  0  ?  ?  ?  1  3 
+NPL  C2A   .  C  0  ?  ?  ?  1  4 
+NPL  C3    .  C  0  ?  ?  ?  1  5 
+NPL  O3    .  O  0  ?  ?  ?  1  6 
+NPL  C4    .  C  0  ?  ?  ?  1  7 
+NPL  C4A   .  C  0  ?  ?  ?  1  8 
+NPL  N4    .  N  0  ?  ?  ?  1  9 
+NPL  C5    .  C  0  ?  ?  ?  1  10
+NPL  C5A   .  C  0  ?  ?  ?  1  11
+NPL  O4P   .  O  0  ?  ?  ?  1  12
+NPL  P     .  P  0  ?  ?  ?  1  13
+NPL  O1P   .  O  0  ?  ?  ?  1  14
+NPL  O2P   .  O  0  ?  ?  ?  1  15
+NPL  O3P   .  O  0  ?  ?  ?  1  16
+NPL  C6    .  C  0  ?  ?  ?  1  17
+NPL  1H1   .  H  0  ?  ?  ?  0  18
+NPL  2H1   .  H  0  ?  ?  ?  0  19
+NPL  3H1   .  H  0  ?  ?  ?  0  20
+NPL  1H2   .  H  0  ?  ?  ?  0  21
+NPL  2H2   .  H  0  ?  ?  ?  0  22
+NPL  3H2   .  H  0  ?  ?  ?  0  23
+NPL  HO3   .  H  0  ?  ?  ?  1  24
+NPL  1H4   .  H  0  ?  ?  ?  0  25
+NPL  2H4   .  H  0  ?  ?  ?  0  26
+NPL  1HN4  .  H  0  ?  ?  ?  0  27
+NPL  2HN4  .  H  0  ?  ?  ?  0  28
+NPL  1H5   .  H  0  ?  ?  ?  0  29
+NPL  2H5   .  H  0  ?  ?  ?  0  30
+NPL  2HOP  .  H  0  ?  ?  ?  0  31
+NPL  3HOP  .  H  0  ?  ?  ?  0  32
+NPL  H6    .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPL  N1   C1    SING  1 
+NPL  N1   C2    SING  2 
+NPL  N1   C6    DOUB  3 
+NPL  C1   1H1   SING  4 
+NPL  C1   2H1   SING  5 
+NPL  C1   3H1   SING  6 
+NPL  C2   C2A   SING  7 
+NPL  C2   C3    DOUB  8 
+NPL  C2A  1H2   SING  9 
+NPL  C2A  2H2   SING  10
+NPL  C2A  3H2   SING  11
+NPL  C3   C4    SING  12
+NPL  C3   O3    SING  13
+NPL  O3   HO3   SING  14
+NPL  C4   C5    DOUB  15
+NPL  C4   C4A   SING  16
+NPL  C4A  N4    SING  17
+NPL  C4A  1H4   SING  18
+NPL  C4A  2H4   SING  19
+NPL  N4   1HN4  SING  20
+NPL  N4   2HN4  SING  21
+NPL  C5   C5A   SING  22
+NPL  C5   C6    SING  23
+NPL  C5A  O4P   SING  24
+NPL  C5A  1H5   SING  25
+NPL  C5A  2H5   SING  26
+NPL  O4P  P     SING  27
+NPL  P    O1P   DOUB  28
+NPL  P    O2P   SING  29
+NPL  P    O3P   SING  30
+NPL  O2P  2HOP  SING  31
+NPL  O3P  3HOP  SING  32
+NPL  C6   H6    SING  33
+#

@@ -1,0 +1,77 @@
+data_HLU
+#
+_chem_comp.id                       HLU
+_chem_comp.name                     BETA-HYDROXYLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            147.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HLU  N     .  N  0  15.295  9.866  20.545  1  1 
+HLU  CA    .  C  0  15.758  8.599  21.116  1  2 
+HLU  CB    .  C  0  16.925  7.983  20.252  1  3 
+HLU  CG    .  C  0  16.511  7.096  19.075  1  4 
+HLU  CD1   .  C  0  15.326  7.549  18.239  1  5 
+HLU  CD2   .  C  0  17.742  6.802  18.152  1  6 
+HLU  C     .  C  0  16.205  8.573  22.559  1  7 
+HLU  O     .  O  0  15.796  7.716  23.287  1  8 
+HLU  OH    .  O  0  17.833  7.210  21.043  1  9 
+HLU  OXT   .  O  0  ?       ?      ?       1  10
+HLU  HA    .  H  0  ?       ?      ?       1  11
+HLU  1HN   .  H  0  ?       ?      ?       0  12
+HLU  2HN   .  H  0  ?       ?      ?       0  13
+HLU  HB    .  H  0  ?       ?      ?       1  14
+HLU  HO    .  H  0  ?       ?      ?       1  15
+HLU  HG    .  H  0  ?       ?      ?       1  16
+HLU  1HD1  .  H  0  ?       ?      ?       0  17
+HLU  2HD1  .  H  0  ?       ?      ?       0  18
+HLU  3HD1  .  H  0  ?       ?      ?       0  19
+HLU  1HD2  .  H  0  ?       ?      ?       0  20
+HLU  2HD2  .  H  0  ?       ?      ?       0  21
+HLU  3HD2  .  H  0  ?       ?      ?       0  22
+HLU  HXT   .  H  0  ?       ?      ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HLU  N    CA    SING  1 
+HLU  N    1HN   SING  2 
+HLU  N    2HN   SING  3 
+HLU  CA   C     SING  4 
+HLU  CA   HA    SING  5 
+HLU  CA   CB    SING  6 
+HLU  CB   HB    SING  7 
+HLU  CB   OH    SING  8 
+HLU  CB   CG    SING  9 
+HLU  CG   HG    SING  10
+HLU  CG   CD1   SING  11
+HLU  CG   CD2   SING  12
+HLU  CD1  1HD1  SING  13
+HLU  CD1  2HD1  SING  14
+HLU  CD1  3HD1  SING  15
+HLU  CD2  1HD2  SING  16
+HLU  CD2  2HD2  SING  17
+HLU  CD2  3HD2  SING  18
+HLU  C    O     DOUB  19
+HLU  C    OXT   SING  20
+HLU  OH   HO    SING  21
+HLU  OXT  HXT   SING  22
+#

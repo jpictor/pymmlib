@@ -1,0 +1,70 @@
+data_QNC
+#
+_chem_comp.id                   QNC
+_chem_comp.name                 2-CARBONYLQUINOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H7 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        157.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+QNC  O    .  O  0  ?  ?  ?  1  1 
+QNC  C    .  C  0  ?  ?  ?  1  2 
+QNC  N1   .  N  0  ?  ?  ?  1  3 
+QNC  C2   .  C  0  ?  ?  ?  1  4 
+QNC  C3   .  C  0  ?  ?  ?  1  5 
+QNC  C4   .  C  0  ?  ?  ?  1  6 
+QNC  C4A  .  C  0  ?  ?  ?  1  7 
+QNC  C5   .  C  0  ?  ?  ?  1  8 
+QNC  C6   .  C  0  ?  ?  ?  1  9 
+QNC  C7   .  C  0  ?  ?  ?  1  10
+QNC  C8   .  C  0  ?  ?  ?  1  11
+QNC  C8A  .  C  0  ?  ?  ?  1  12
+QNC  H    .  H  0  ?  ?  ?  1  13
+QNC  H3   .  H  0  ?  ?  ?  1  14
+QNC  H4   .  H  0  ?  ?  ?  1  15
+QNC  H5   .  H  0  ?  ?  ?  1  16
+QNC  H6   .  H  0  ?  ?  ?  1  17
+QNC  H7   .  H  0  ?  ?  ?  1  18
+QNC  H8   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+QNC  O    C    DOUB  1 
+QNC  C    C2   SING  2 
+QNC  C    H    SING  3 
+QNC  N1   C2   DOUB  4 
+QNC  N1   C8A  SING  5 
+QNC  C2   C3   SING  6 
+QNC  C3   C4   DOUB  7 
+QNC  C3   H3   SING  8 
+QNC  C4   C4A  SING  9 
+QNC  C4   H4   SING  10
+QNC  C4A  C5   DOUB  11
+QNC  C4A  C8A  SING  12
+QNC  C5   C6   SING  13
+QNC  C5   H5   SING  14
+QNC  C6   C7   DOUB  15
+QNC  C6   H6   SING  16
+QNC  C7   C8   SING  17
+QNC  C7   H7   SING  18
+QNC  C8   C8A  DOUB  19
+QNC  C8   H8   SING  20
+#

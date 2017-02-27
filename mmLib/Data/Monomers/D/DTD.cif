@@ -1,0 +1,63 @@
+data_DTD
+#
+_chem_comp.id                   DTD
+_chem_comp.name                 'DITHIANE DIOL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H8 O2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.226
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTD  S1   .  S  0  ?  ?  ?  1  1 
+DTD  C1   .  C  0  ?  ?  ?  1  2 
+DTD  C2   .  C  0  ?  ?  ?  1  3 
+DTD  O2   .  O  0  ?  ?  ?  1  4 
+DTD  C3   .  C  0  ?  ?  ?  1  5 
+DTD  O3   .  O  0  ?  ?  ?  1  6 
+DTD  C4   .  C  0  ?  ?  ?  1  7 
+DTD  S4   .  S  0  ?  ?  ?  1  8 
+DTD  HO2  .  H  0  ?  ?  ?  1  9 
+DTD  HO3  .  H  0  ?  ?  ?  1  10
+DTD  H11  .  H  0  ?  ?  ?  1  11
+DTD  H12  .  H  0  ?  ?  ?  1  12
+DTD  H41  .  H  0  ?  ?  ?  1  13
+DTD  H42  .  H  0  ?  ?  ?  1  14
+DTD  H31  .  H  0  ?  ?  ?  1  15
+DTD  H21  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTD  S1  C1   SING  1 
+DTD  S1  S4   SING  2 
+DTD  C1  C2   SING  3 
+DTD  C1  H11  SING  4 
+DTD  C1  H12  SING  5 
+DTD  C2  O2   SING  6 
+DTD  C2  C3   SING  7 
+DTD  C2  H21  SING  8 
+DTD  O2  HO2  SING  9 
+DTD  C3  O3   SING  10
+DTD  C3  C4   SING  11
+DTD  C3  H31  SING  12
+DTD  O3  HO3  SING  13
+DTD  C4  S4   SING  14
+DTD  C4  H41  SING  15
+DTD  C4  H42  SING  16
+#

@@ -1,0 +1,116 @@
+data_PCZ
+#
+_chem_comp.id                   PCZ
+_chem_comp.name                 'PCNOTAXIME GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H15 N5 O6 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        413.422
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCZ  O1    .  O  0  37.582  17.498  60.94   1  1 
+PCZ  C1    .  C  0  36.9    17.985  61.81   1  2 
+PCZ  C2    .  C  0  37.389  19.184  62.576  1  3 
+PCZ  C3    .  C  0  36.246  20.337  62.397  1  4 
+PCZ  C5    .  C  0  35.455  22.643  60.628  1  5 
+PCZ  C51   .  C  0  35.052  23.605  59.764  1  6 
+PCZ  C52   .  C  0  36.105  23.042  61.87   1  7 
+PCZ  C6    .  C  0  35.215  21.18   60.273  1  8 
+PCZ  C61   .  C  0  34.525  20.596  58.982  1  9 
+PCZ  O62   .  O  0  33.725  19.641  59.087  1  10
+PCZ  O63   .  O  0  34.829  21.135  57.89   1  11
+PCZ  N7    .  N  0  35.593  20.227  61.113  1  12
+PCZ  N8    .  N  0  38.738  19.673  62.204  1  13
+PCZ  C9    .  C  0  39.738  19.336  63.091  1  14
+PCZ  O91   .  O  0  39.492  18.664  64.127  1  15
+PCZ  C10   .  C  0  41.065  19.787  62.741  1  16
+PCZ  N11   .  N  0  41.525  21.079  62.736  1  17
+PCZ  O12   .  O  0  40.547  22.087  63.127  1  18
+PCZ  C13   .  C  0  41.128  23.342  62.798  1  19
+PCZ  C14   .  C  0  42.101  18.8    62.347  1  20
+PCZ  C15   .  C  0  41.866  17.38   62.16   1  21
+PCZ  S16   .  S  0  43.234  16.552  61.726  1  22
+PCZ  C17   .  C  0  44.145  17.943  61.759  1  23
+PCZ  N18   .  N  0  43.414  18.998  62.095  1  24
+PCZ  N19   .  N  0  45.52   17.984  61.465  1  25
+PCZ  S1    .  S  0  36.755  21.89   63.12   1  26
+PCZ  O11   .  O  0  ?       ?       ?       1  27
+PCZ  H2    .  H  0  ?       ?       ?       1  28
+PCZ  H3    .  H  0  35.45   19.996  63.1    1  29
+PCZ  H8    .  H  0  38.913  20.216  61.358  1  30
+PCZ  1H52  .  H  0  36.944  23.721  61.59   0  31
+PCZ  2H52  .  H  0  35.399  23.725  62.398  0  32
+PCZ  1H51  .  H  0  34.56   23.303  58.824  0  33
+PCZ  2H51  .  H  0  35.226  24.663  60.021  0  34
+PCZ  H63   .  H  0  ?       ?       ?       1  35
+PCZ  1H13  .  H  0  40.38   24.113  63.097  0  36
+PCZ  2H13  .  H  0  41.446  23.42   61.732  0  37
+PCZ  3H13  .  H  0  42.135  23.499  63.251  0  38
+PCZ  H15   .  H  0  40.881  16.902  62.293  1  39
+PCZ  1H19  .  H  0  46.082  17.173  61.207  0  40
+PCZ  2H19  .  H  0  46.079  18.837  61.485  0  41
+PCZ  HO'   .  H  0  ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCZ  O1   C1    DOUB  1 
+PCZ  C1   C2    SING  2 
+PCZ  C1   O11   SING  3 
+PCZ  C2   C3    SING  4 
+PCZ  C2   N8    SING  5 
+PCZ  C2   H2    SING  6 
+PCZ  C3   N7    SING  7 
+PCZ  C3   S1    SING  8 
+PCZ  C3   H3    SING  9 
+PCZ  C5   C52   SING  10
+PCZ  C5   C51   DOUB  11
+PCZ  C5   C6    SING  12
+PCZ  C51  1H51  SING  13
+PCZ  C51  2H51  SING  14
+PCZ  C52  S1    SING  15
+PCZ  C52  1H52  SING  16
+PCZ  C52  2H52  SING  17
+PCZ  C6   C61   SING  18
+PCZ  C6   N7    DOUB  19
+PCZ  C61  O63   SING  20
+PCZ  C61  O62   DOUB  21
+PCZ  O63  H63   SING  22
+PCZ  N8   C9    SING  23
+PCZ  N8   H8    SING  24
+PCZ  C9   O91   DOUB  25
+PCZ  C9   C10   SING  26
+PCZ  C10  N11   DOUB  27
+PCZ  C10  C14   SING  28
+PCZ  N11  O12   SING  29
+PCZ  O12  C13   SING  30
+PCZ  C13  1H13  SING  31
+PCZ  C13  2H13  SING  32
+PCZ  C13  3H13  SING  33
+PCZ  C14  C15   DOUB  34
+PCZ  C14  N18   SING  35
+PCZ  C15  S16   SING  36
+PCZ  C15  H15   SING  37
+PCZ  S16  C17   SING  38
+PCZ  C17  N18   DOUB  39
+PCZ  C17  N19   SING  40
+PCZ  N19  1H19  SING  41
+PCZ  N19  2H19  SING  42
+PCZ  O11  HO'   SING  43
+#

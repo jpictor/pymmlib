@@ -1,0 +1,107 @@
+data_CK6
+#
+_chem_comp.id                   CK6
+_chem_comp.name                 4-[4-(4-METHYL-2-METHYLAMINO-THIAZOL-5-YL)-PYRIMIDIN-2-YLAMINO]-PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H15 N5 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        313.376
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CK6  C6A   .  C  0  -2.460  4.753   25.077  1  1 
+CK6  C1A   .  C  0  -1.487  5.893   25.148  1  2 
+CK6  N2A   .  N  0  -1.823  6.990   24.436  1  3 
+CK6  C3A   .  C  0  -1.031  8.017   24.460  1  4 
+CK6  N7A   .  N  0  -1.323  9.116   23.777  1  5 
+CK6  C8A   .  C  0  -0.527  10.344  23.712  1  6 
+CK6  C5A   .  C  0  -0.303  6.069   25.802  1  7 
+CK6  S4A   .  S  0  0.364   7.708   25.472  1  8 
+CK6  C4    .  C  0  0.520   5.234   26.718  1  9 
+CK6  C5    .  C  0  0.151   3.925   27.058  1  10
+CK6  N3    .  N  0  1.643   5.803   27.215  1  11
+CK6  C2    .  C  0  2.455   5.119   28.075  1  12
+CK6  N1    .  N  0  2.179   3.833   28.465  1  13
+CK6  C6    .  C  0  1.033   3.290   27.935  1  14
+CK6  N7    .  N  0  3.561   5.687   28.573  1  15
+CK6  C1B   .  C  0  4.094   6.957   28.349  1  16
+CK6  C2B   .  C  0  3.498   7.887   27.478  1  17
+CK6  C3B   .  C  0  3.993   9.144   27.228  1  18
+CK6  C6B   .  C  0  5.289   7.398   28.990  1  19
+CK6  C5B   .  C  0  5.813   8.691   28.749  1  20
+CK6  C4B   .  C  0  5.157   9.568   27.859  1  21
+CK6  O7B   .  O  0  5.602   10.853  27.560  1  22
+CK6  1H8A  .  H  0  ?       ?       ?       0  23
+CK6  2H8A  .  H  0  ?       ?       ?       0  24
+CK6  3H8A  .  H  0  ?       ?       ?       0  25
+CK6  H7A   .  H  0  ?       ?       ?       1  26
+CK6  1H6A  .  H  0  ?       ?       ?       0  27
+CK6  2H6A  .  H  0  ?       ?       ?       0  28
+CK6  3H6A  .  H  0  ?       ?       ?       0  29
+CK6  H5    .  H  0  ?       ?       ?       1  30
+CK6  H6    .  H  0  ?       ?       ?       1  31
+CK6  HN7   .  H  0  ?       ?       ?       1  32
+CK6  H6B   .  H  0  ?       ?       ?       1  33
+CK6  H5B   .  H  0  ?       ?       ?       1  34
+CK6  H7B   .  H  0  ?       ?       ?       1  35
+CK6  H3B   .  H  0  ?       ?       ?       1  36
+CK6  H2B   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CK6  C6A  C1A   SING  1 
+CK6  C6A  1H6A  SING  2 
+CK6  C6A  2H6A  SING  3 
+CK6  C6A  3H6A  SING  4 
+CK6  C1A  N2A   SING  5 
+CK6  C1A  C5A   DOUB  6 
+CK6  N2A  C3A   DOUB  7 
+CK6  C3A  N7A   SING  8 
+CK6  C3A  S4A   SING  9 
+CK6  N7A  C8A   SING  10
+CK6  N7A  H7A   SING  11
+CK6  C8A  1H8A  SING  12
+CK6  C8A  2H8A  SING  13
+CK6  C8A  3H8A  SING  14
+CK6  C5A  S4A   SING  15
+CK6  C5A  C4    SING  16
+CK6  C4   C5    AROM  17
+CK6  C4   N3    AROM  18
+CK6  C5   C6    AROM  19
+CK6  C5   H5    SING  20
+CK6  N3   C2    AROM  21
+CK6  C2   N1    AROM  22
+CK6  C2   N7    SING  23
+CK6  N1   C6    AROM  24
+CK6  C6   H6    SING  25
+CK6  N7   C1B   SING  26
+CK6  N7   HN7   SING  27
+CK6  C1B  C6B   AROM  28
+CK6  C1B  C2B   AROM  29
+CK6  C2B  C3B   AROM  30
+CK6  C2B  H2B   SING  31
+CK6  C3B  C4B   AROM  32
+CK6  C3B  H3B   SING  33
+CK6  C6B  C5B   AROM  34
+CK6  C6B  H6B   SING  35
+CK6  C5B  C4B   AROM  36
+CK6  C5B  H5B   SING  37
+CK6  C4B  O7B   SING  38
+CK6  O7B  H7B   SING  39
+#

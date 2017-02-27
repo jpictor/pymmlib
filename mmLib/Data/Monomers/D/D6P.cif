@@ -1,0 +1,91 @@
+data_D6P
+#
+_chem_comp.id                   D6P
+_chem_comp.name                 '(3,4,5,7-TETRAHYDROXY-HEPT-1-ENYL)-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 O7 P1'
+_chem_comp.pdbx_synonyms        '2-DEOXY-D-GLUCITOL 6-(E)-VINYLHOMOPHOSPHONATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        242.165
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D6P  C1   .  C  0  -10.032  41.398  5.501   1  1 
+D6P  C2   .  C  0  -11.445  41.142  6.083   1  2 
+D6P  C3   .  C  0  -11.454  41.088  7.623   1  3 
+D6P  C4   .  C  0  -11.088  39.629  7.998   1  4 
+D6P  C5   .  C  0  -10.852  39.520  9.525   1  5 
+D6P  C6   .  C  0  -9.941   38.438  9.653   1  6 
+D6P  O1   .  O  0  -9.201   40.274  5.711   1  7 
+D6P  O3   .  O  0  -12.713  41.449  8.126   1  8 
+D6P  O4   .  O  0  -12.158  38.813  7.602   1  9 
+D6P  O5   .  O  0  -10.315  40.738  9.975   1  10
+D6P  C7   .  C  0  -10.069  37.646  10.698  1  11
+D6P  P    .  P  0  -9.114   36.527  10.817  1  12
+D6P  O1P  .  O  0  -9.301   35.880  12.286  1  13
+D6P  O2P  .  O  0  -9.447   35.476  9.644   1  14
+D6P  O3P  .  O  0  -7.631   37.110  10.631  1  15
+D6P  HO1  .  H  0  ?        ?       ?       1  16
+D6P  1H1  .  H  0  ?        ?       ?       0  17
+D6P  2H1  .  H  0  ?        ?       ?       0  18
+D6P  1H2  .  H  0  ?        ?       ?       0  19
+D6P  2H2  .  H  0  ?        ?       ?       0  20
+D6P  H3   .  H  0  ?        ?       ?       1  21
+D6P  HO3  .  H  0  ?        ?       ?       1  22
+D6P  H4   .  H  0  ?        ?       ?       1  23
+D6P  HO4  .  H  0  ?        ?       ?       1  24
+D6P  H5   .  H  0  ?        ?       ?       1  25
+D6P  HO5  .  H  0  ?        ?       ?       1  26
+D6P  H6   .  H  0  ?        ?       ?       1  27
+D6P  H7   .  H  0  ?        ?       ?       1  28
+D6P  H1P  .  H  0  ?        ?       ?       1  29
+D6P  H2P  .  H  0  ?        ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D6P  C1   O1   SING  1 
+D6P  C1   C2   SING  2 
+D6P  C1   1H1  SING  3 
+D6P  C1   2H1  SING  4 
+D6P  C2   C3   SING  5 
+D6P  C2   1H2  SING  6 
+D6P  C2   2H2  SING  7 
+D6P  C3   O3   SING  8 
+D6P  C3   C4   SING  9 
+D6P  C3   H3   SING  10
+D6P  C4   O4   SING  11
+D6P  C4   C5   SING  12
+D6P  C4   H4   SING  13
+D6P  C5   O5   SING  14
+D6P  C5   C6   SING  15
+D6P  C5   H5   SING  16
+D6P  C6   C7   DOUB  17
+D6P  C6   H6   SING  18
+D6P  O1   HO1  SING  19
+D6P  O3   HO3  SING  20
+D6P  O4   HO4  SING  21
+D6P  O5   HO5  SING  22
+D6P  C7   P    SING  23
+D6P  C7   H7   SING  24
+D6P  P    O1P  SING  25
+D6P  P    O2P  SING  26
+D6P  P    O3P  DOUB  27
+D6P  O1P  H1P  SING  28
+D6P  O2P  H2P  SING  29
+#

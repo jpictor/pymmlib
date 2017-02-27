@@ -1,0 +1,99 @@
+data_PSO
+#
+_chem_comp.id                   PSO
+_chem_comp.name                 4'-HYDROXYMETHYL-4,5',8-TRIMETHYLPSORALEN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H14 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        258.273
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PSO  O1    .  O  0  ?  ?  ?  1  1 
+PSO  C2    .  C  0  ?  ?  ?  1  2 
+PSO  C3    .  C  0  ?  ?  ?  1  3 
+PSO  C4    .  C  0  ?  ?  ?  1  4 
+PSO  C5    .  C  0  ?  ?  ?  1  5 
+PSO  C6    .  C  0  ?  ?  ?  1  6 
+PSO  C7    .  C  0  ?  ?  ?  1  7 
+PSO  C8    .  C  0  ?  ?  ?  1  8 
+PSO  C9    .  C  0  ?  ?  ?  1  9 
+PSO  C10   .  C  0  ?  ?  ?  1  10
+PSO  C4'   .  C  0  ?  ?  ?  1  11
+PSO  C5'   .  C  0  ?  ?  ?  1  12
+PSO  O6'   .  O  0  ?  ?  ?  1  13
+PSO  O11   .  O  0  ?  ?  ?  1  14
+PSO  C12   .  C  0  ?  ?  ?  1  15
+PSO  C13   .  C  0  ?  ?  ?  1  16
+PSO  O14   .  O  0  ?  ?  ?  1  17
+PSO  C15   .  C  0  ?  ?  ?  1  18
+PSO  C16   .  C  0  ?  ?  ?  1  19
+PSO  H3    .  H  0  ?  ?  ?  1  20
+PSO  H5    .  H  0  ?  ?  ?  1  21
+PSO  1H12  .  H  0  ?  ?  ?  0  22
+PSO  2H12  .  H  0  ?  ?  ?  0  23
+PSO  3H12  .  H  0  ?  ?  ?  0  24
+PSO  1H13  .  H  0  ?  ?  ?  0  25
+PSO  2H13  .  H  0  ?  ?  ?  0  26
+PSO  H14   .  H  0  ?  ?  ?  1  27
+PSO  1H15  .  H  0  ?  ?  ?  0  28
+PSO  2H15  .  H  0  ?  ?  ?  0  29
+PSO  3H15  .  H  0  ?  ?  ?  0  30
+PSO  1H16  .  H  0  ?  ?  ?  0  31
+PSO  2H16  .  H  0  ?  ?  ?  0  32
+PSO  3H16  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PSO  O1   C2    SING  1 
+PSO  O1   C9    SING  2 
+PSO  C2   C3    SING  3 
+PSO  C2   O11   DOUB  4 
+PSO  C3   C4    DOUB  5 
+PSO  C3   H3    SING  6 
+PSO  C4   C10   SING  7 
+PSO  C4   C12   SING  8 
+PSO  C5   C6    DOUB  9 
+PSO  C5   C10   SING  10
+PSO  C5   H5    SING  11
+PSO  C6   C7    SING  12
+PSO  C6   C4'   SING  13
+PSO  C7   C8    DOUB  14
+PSO  C7   O6'   SING  15
+PSO  C8   C9    SING  16
+PSO  C8   C16   SING  17
+PSO  C9   C10   DOUB  18
+PSO  C4'  C5'   DOUB  19
+PSO  C4'  C13   SING  20
+PSO  C5'  O6'   SING  21
+PSO  C5'  C15   SING  22
+PSO  C12  1H12  SING  23
+PSO  C12  2H12  SING  24
+PSO  C12  3H12  SING  25
+PSO  C13  O14   SING  26
+PSO  C13  1H13  SING  27
+PSO  C13  2H13  SING  28
+PSO  O14  H14   SING  29
+PSO  C15  1H15  SING  30
+PSO  C15  2H15  SING  31
+PSO  C15  3H15  SING  32
+PSO  C16  1H16  SING  33
+PSO  C16  2H16  SING  34
+PSO  C16  3H16  SING  35
+#

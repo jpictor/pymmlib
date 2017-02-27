@@ -1,0 +1,86 @@
+data_L06
+#
+_chem_comp.id                   L06
+_chem_comp.name                 '5-{[AMINO(IMINO)METHYL]AMINO}-2-(SULFANYLMETHYL)PENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 N3 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        205.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+L06  S     .  S  0  34.486  12.619  59.899  1  1 
+L06  C1    .  C  0  35.662  11.941  58.697  1  2 
+L06  C2    .  C  0  37.146  11.972  59.187  1  3 
+L06  C3    .  C  0  38.226  11.829  58.028  1  4 
+L06  C4    .  C  0  37.854  10.776  56.938  1  5 
+L06  C5    .  C  0  38.920  10.586  55.810  1  6 
+L06  N6    .  N  0  39.496  9.294   55.900  1  7 
+L06  C7    .  C  0  40.241  8.850   56.916  1  8 
+L06  N8    .  N  0  40.696  7.604   56.835  1  9 
+L06  N9    .  N  0  40.600  9.677   57.956  1  10
+L06  C10   .  C  0  37.291  10.918  60.245  1  11
+L06  O11   .  O  0  36.953  9.698   60.049  1  12
+L06  O12   .  O  0  37.713  11.254  61.385  1  13
+L06  HN8   .  H  0  ?       ?       ?       1  14
+L06  1HN9  .  H  0  ?       ?       ?       0  15
+L06  2HN9  .  H  0  ?       ?       ?       0  16
+L06  HN6   .  H  0  ?       ?       ?       1  17
+L06  1H5   .  H  0  ?       ?       ?       0  18
+L06  2H5   .  H  0  ?       ?       ?       0  19
+L06  1H4   .  H  0  ?       ?       ?       0  20
+L06  2H4   .  H  0  ?       ?       ?       0  21
+L06  1H3   .  H  0  ?       ?       ?       0  22
+L06  2H3   .  H  0  ?       ?       ?       0  23
+L06  H2    .  H  0  ?       ?       ?       1  24
+L06  1H1   .  H  0  ?       ?       ?       0  25
+L06  2H1   .  H  0  ?       ?       ?       0  26
+L06  HS    .  H  0  ?       ?       ?       1  27
+L06  H12   .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+L06  S    C1    SING  1 
+L06  S    HS    SING  2 
+L06  C1   C2    SING  3 
+L06  C1   1H1   SING  4 
+L06  C1   2H1   SING  5 
+L06  C2   C3    SING  6 
+L06  C2   C10   SING  7 
+L06  C2   H2    SING  8 
+L06  C3   C4    SING  9 
+L06  C3   1H3   SING  10
+L06  C3   2H3   SING  11
+L06  C4   C5    SING  12
+L06  C4   1H4   SING  13
+L06  C4   2H4   SING  14
+L06  C5   N6    SING  15
+L06  C5   1H5   SING  16
+L06  C5   2H5   SING  17
+L06  N6   C7    SING  18
+L06  N6   HN6   SING  19
+L06  C7   N8    DOUB  20
+L06  C7   N9    SING  21
+L06  N8   HN8   SING  22
+L06  N9   1HN9  SING  23
+L06  N9   2HN9  SING  24
+L06  C10  O11   DOUB  25
+L06  C10  O12   SING  26
+L06  O12  H12   SING  27
+#

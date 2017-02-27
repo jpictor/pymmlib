@@ -1,0 +1,92 @@
+data_PAO
+#
+_chem_comp.id                   PAO
+_chem_comp.name                 N-(PHOSPHONOACETYL)-L-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 N2 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.179
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAO  N     .  N  0  ?  ?  ?  1  1 
+PAO  CA    .  C  0  ?  ?  ?  1  2 
+PAO  CB    .  C  0  ?  ?  ?  1  3 
+PAO  CG    .  C  0  ?  ?  ?  1  4 
+PAO  CD    .  C  0  ?  ?  ?  1  5 
+PAO  NE    .  N  0  ?  ?  ?  1  6 
+PAO  C     .  C  0  ?  ?  ?  1  7 
+PAO  O     .  O  0  ?  ?  ?  1  8 
+PAO  OXT   .  O  0  ?  ?  ?  1  9 
+PAO  C1    .  C  0  ?  ?  ?  1  10
+PAO  O1    .  O  0  ?  ?  ?  1  11
+PAO  C1P   .  C  0  ?  ?  ?  1  12
+PAO  P     .  P  0  ?  ?  ?  1  13
+PAO  O1P   .  O  0  ?  ?  ?  1  14
+PAO  O2P   .  O  0  ?  ?  ?  1  15
+PAO  O3P   .  O  0  ?  ?  ?  1  16
+PAO  1HN   .  H  0  ?  ?  ?  0  17
+PAO  2HN   .  H  0  ?  ?  ?  0  18
+PAO  HA    .  H  0  ?  ?  ?  1  19
+PAO  1HB   .  H  0  ?  ?  ?  0  20
+PAO  2HB   .  H  0  ?  ?  ?  0  21
+PAO  1HG   .  H  0  ?  ?  ?  0  22
+PAO  2HG   .  H  0  ?  ?  ?  0  23
+PAO  1HD   .  H  0  ?  ?  ?  0  24
+PAO  2HD   .  H  0  ?  ?  ?  0  25
+PAO  HNE   .  H  0  ?  ?  ?  1  26
+PAO  HXT   .  H  0  ?  ?  ?  1  27
+PAO  1HP   .  H  0  ?  ?  ?  0  28
+PAO  2HP   .  H  0  ?  ?  ?  0  29
+PAO  2HOP  .  H  0  ?  ?  ?  0  30
+PAO  3HOP  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAO  N    CA    SING  1 
+PAO  N    1HN   SING  2 
+PAO  N    2HN   SING  3 
+PAO  CA   CB    SING  4 
+PAO  CA   C     SING  5 
+PAO  CA   HA    SING  6 
+PAO  CB   CG    SING  7 
+PAO  CB   1HB   SING  8 
+PAO  CB   2HB   SING  9 
+PAO  CG   CD    SING  10
+PAO  CG   1HG   SING  11
+PAO  CG   2HG   SING  12
+PAO  CD   NE    SING  13
+PAO  CD   1HD   SING  14
+PAO  CD   2HD   SING  15
+PAO  NE   C1    SING  16
+PAO  NE   HNE   SING  17
+PAO  C    O     DOUB  18
+PAO  C    OXT   SING  19
+PAO  OXT  HXT   SING  20
+PAO  C1   C1P   SING  21
+PAO  C1   O1    DOUB  22
+PAO  C1P  P     SING  23
+PAO  C1P  1HP   SING  24
+PAO  C1P  2HP   SING  25
+PAO  P    O1P   DOUB  26
+PAO  P    O2P   SING  27
+PAO  P    O3P   SING  28
+PAO  O2P  2HOP  SING  29
+PAO  O3P  3HOP  SING  30
+#

@@ -1,0 +1,61 @@
+data_SOC
+#
+_chem_comp.id                       SOC
+_chem_comp.name                     DIOXYSELENOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H6 N1 O4 SE1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            199.045
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SOC  N    .  N   0  ?  ?  ?  1  1 
+SOC  CA   .  C   0  ?  ?  ?  1  2 
+SOC  CB   .  C   0  ?  ?  ?  1  3 
+SOC  SE   .  SE  0  ?  ?  ?  0  4 
+SOC  OD1  .  O   0  ?  ?  ?  1  5 
+SOC  OD2  .  O   0  ?  ?  ?  1  6 
+SOC  C    .  C   0  ?  ?  ?  1  7 
+SOC  O    .  O   0  ?  ?  ?  1  8 
+SOC  OXT  .  O   0  ?  ?  ?  1  9 
+SOC  1HN  .  H   0  ?  ?  ?  0  10
+SOC  2HN  .  H   0  ?  ?  ?  0  11
+SOC  HA   .  H   0  ?  ?  ?  1  12
+SOC  1HB  .  H   0  ?  ?  ?  0  13
+SOC  2HB  .  H   0  ?  ?  ?  0  14
+SOC  HXT  .  H   0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SOC  N    CA   SING  1 
+SOC  N    1HN  SING  2 
+SOC  N    2HN  SING  3 
+SOC  CA   CB   SING  4 
+SOC  CA   C    SING  5 
+SOC  CA   HA   SING  6 
+SOC  CB   SE   SING  7 
+SOC  CB   1HB  SING  8 
+SOC  CB   2HB  SING  9 
+SOC  SE   OD1  DOUB  10
+SOC  SE   OD2  DOUB  11
+SOC  C    O    DOUB  12
+SOC  C    OXT  SING  13
+SOC  OXT  HXT  SING  14
+#

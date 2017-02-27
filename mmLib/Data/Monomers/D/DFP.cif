@@ -1,0 +1,78 @@
+data_DFP
+#
+_chem_comp.id                   DFP
+_chem_comp.name                 'DIISOPROPYLPHOSPHONO GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        165.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFP  C1    .  C  0  ?  ?  ?  1  1 
+DFP  C2    .  C  0  ?  ?  ?  1  2 
+DFP  C3    .  C  0  ?  ?  ?  1  3 
+DFP  C1'   .  C  0  ?  ?  ?  1  4 
+DFP  C2'   .  C  0  ?  ?  ?  1  5 
+DFP  C3'   .  C  0  ?  ?  ?  1  6 
+DFP  P     .  P  0  ?  ?  ?  1  7 
+DFP  O1P   .  O  0  ?  ?  ?  1  8 
+DFP  O2P   .  O  0  ?  ?  ?  1  9 
+DFP  O3P   .  O  0  ?  ?  ?  1  10
+DFP  H1    .  H  0  ?  ?  ?  1  11
+DFP  1H2   .  H  0  ?  ?  ?  0  12
+DFP  2H2   .  H  0  ?  ?  ?  0  13
+DFP  3H2   .  H  0  ?  ?  ?  0  14
+DFP  1H3   .  H  0  ?  ?  ?  0  15
+DFP  2H3   .  H  0  ?  ?  ?  0  16
+DFP  3H3   .  H  0  ?  ?  ?  0  17
+DFP  H1'   .  H  0  ?  ?  ?  1  18
+DFP  1H2'  .  H  0  ?  ?  ?  0  19
+DFP  2H2'  .  H  0  ?  ?  ?  0  20
+DFP  3H2'  .  H  0  ?  ?  ?  0  21
+DFP  1H3'  .  H  0  ?  ?  ?  0  22
+DFP  2H3'  .  H  0  ?  ?  ?  0  23
+DFP  3H3'  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFP  C1   O1P   SING  1 
+DFP  C1   C2    SING  2 
+DFP  C1   C3    SING  3 
+DFP  C1   H1    SING  4 
+DFP  C2   1H2   SING  5 
+DFP  C2   2H2   SING  6 
+DFP  C2   3H2   SING  7 
+DFP  C3   1H3   SING  8 
+DFP  C3   2H3   SING  9 
+DFP  C3   3H3   SING  10
+DFP  C1'  O2P   SING  11
+DFP  C1'  C2'   SING  12
+DFP  C1'  C3'   SING  13
+DFP  C1'  H1'   SING  14
+DFP  C2'  1H2'  SING  15
+DFP  C2'  2H2'  SING  16
+DFP  C2'  3H2'  SING  17
+DFP  C3'  1H3'  SING  18
+DFP  C3'  2H3'  SING  19
+DFP  C3'  3H3'  SING  20
+DFP  P    O1P   SING  21
+DFP  P    O2P   SING  22
+DFP  P    O3P   DOUB  23
+#

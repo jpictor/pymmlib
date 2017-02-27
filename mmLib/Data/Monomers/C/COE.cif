@@ -1,0 +1,141 @@
+data_COE
+#
+_chem_comp.id                   COE
+_chem_comp.name                 'FURO[2,3D]PYRIMIDINE ANTIFOLATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H22 N6 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        442.430
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COE  N1    .  N  0  ?  ?  ?  1  1 
+COE  C2    .  C  0  ?  ?  ?  1  2 
+COE  NA2   .  N  0  ?  ?  ?  1  3 
+COE  N3    .  N  0  ?  ?  ?  1  4 
+COE  C4    .  C  0  ?  ?  ?  1  5 
+COE  N4    .  N  0  ?  ?  ?  1  6 
+COE  C4A   .  C  0  ?  ?  ?  1  7 
+COE  C6    .  C  0  ?  ?  ?  1  8 
+COE  C7    .  C  0  ?  ?  ?  1  9 
+COE  O8    .  O  0  ?  ?  ?  1  10
+COE  C8A   .  C  0  ?  ?  ?  1  11
+COE  C9    .  C  0  ?  ?  ?  1  12
+COE  N10   .  N  0  ?  ?  ?  1  13
+COE  C10   .  C  0  ?  ?  ?  1  14
+COE  C11   .  C  0  ?  ?  ?  1  15
+COE  C12   .  C  0  ?  ?  ?  1  16
+COE  C13   .  C  0  ?  ?  ?  1  17
+COE  C14   .  C  0  ?  ?  ?  1  18
+COE  C15   .  C  0  ?  ?  ?  1  19
+COE  C16   .  C  0  ?  ?  ?  1  20
+COE  C     .  C  0  ?  ?  ?  1  21
+COE  O     .  O  0  ?  ?  ?  1  22
+COE  N     .  N  0  ?  ?  ?  1  23
+COE  CA    .  C  0  ?  ?  ?  1  24
+COE  CB    .  C  0  ?  ?  ?  1  25
+COE  CG    .  C  0  ?  ?  ?  1  26
+COE  CD    .  C  0  ?  ?  ?  1  27
+COE  OE1   .  O  0  ?  ?  ?  1  28
+COE  OE2   .  O  0  ?  ?  ?  1  29
+COE  CT    .  C  0  ?  ?  ?  1  30
+COE  O1    .  O  0  ?  ?  ?  1  31
+COE  O2    .  O  0  ?  ?  ?  1  32
+COE  1HN2  .  H  0  ?  ?  ?  0  33
+COE  2HN2  .  H  0  ?  ?  ?  0  34
+COE  1HN4  .  H  0  ?  ?  ?  0  35
+COE  2HN4  .  H  0  ?  ?  ?  0  36
+COE  H7    .  H  0  ?  ?  ?  1  37
+COE  1H9   .  H  0  ?  ?  ?  0  38
+COE  2H9   .  H  0  ?  ?  ?  0  39
+COE  1H10  .  H  0  ?  ?  ?  0  40
+COE  2H10  .  H  0  ?  ?  ?  0  41
+COE  3H10  .  H  0  ?  ?  ?  0  42
+COE  H12   .  H  0  ?  ?  ?  1  43
+COE  H13   .  H  0  ?  ?  ?  1  44
+COE  H15   .  H  0  ?  ?  ?  1  45
+COE  H16   .  H  0  ?  ?  ?  1  46
+COE  HN    .  H  0  ?  ?  ?  1  47
+COE  HA    .  H  0  ?  ?  ?  1  48
+COE  1HB   .  H  0  ?  ?  ?  0  49
+COE  2HB   .  H  0  ?  ?  ?  0  50
+COE  1HG   .  H  0  ?  ?  ?  0  51
+COE  2HG   .  H  0  ?  ?  ?  0  52
+COE  2HOE  .  H  0  ?  ?  ?  0  53
+COE  HO2   .  H  0  ?  ?  ?  1  54
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COE  N1   C2    DOUB  1 
+COE  N1   C8A   SING  2 
+COE  C2   NA2   SING  3 
+COE  C2   N3    SING  4 
+COE  NA2  1HN2  SING  5 
+COE  NA2  2HN2  SING  6 
+COE  N3   C4    DOUB  7 
+COE  C4   N4    SING  8 
+COE  C4   C4A   SING  9 
+COE  N4   1HN4  SING  10
+COE  N4   2HN4  SING  11
+COE  C4A  C6    SING  12
+COE  C4A  C8A   DOUB  13
+COE  C6   C7    DOUB  14
+COE  C6   C9    SING  15
+COE  C7   O8    SING  16
+COE  C7   H7    SING  17
+COE  O8   C8A   SING  18
+COE  C9   N10   SING  19
+COE  C9   1H9   SING  20
+COE  C9   2H9   SING  21
+COE  N10  C14   SING  22
+COE  N10  C10   SING  23
+COE  C10  1H10  SING  24
+COE  C10  2H10  SING  25
+COE  C10  3H10  SING  26
+COE  C11  C12   DOUB  27
+COE  C11  C16   SING  28
+COE  C11  C     SING  29
+COE  C12  C13   SING  30
+COE  C12  H12   SING  31
+COE  C13  C14   DOUB  32
+COE  C13  H13   SING  33
+COE  C14  C15   SING  34
+COE  C15  C16   DOUB  35
+COE  C15  H15   SING  36
+COE  C16  H16   SING  37
+COE  C    O     DOUB  38
+COE  C    N     SING  39
+COE  N    CA    SING  40
+COE  N    HN    SING  41
+COE  CA   CB    SING  42
+COE  CA   CT    SING  43
+COE  CA   HA    SING  44
+COE  CB   CG    SING  45
+COE  CB   1HB   SING  46
+COE  CB   2HB   SING  47
+COE  CG   CD    SING  48
+COE  CG   1HG   SING  49
+COE  CG   2HG   SING  50
+COE  CD   OE1   DOUB  51
+COE  CD   OE2   SING  52
+COE  OE2  2HOE  SING  53
+COE  CT   O1    DOUB  54
+COE  CT   O2    SING  55
+COE  O2   HO2   SING  56
+#

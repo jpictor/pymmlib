@@ -1,0 +1,84 @@
+data_ISC
+#
+_chem_comp.id                   ISC
+_chem_comp.name                 ISOCHORISMATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 O6'
+_chem_comp.pdbx_synonyms        'ISOCHORISMIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        226.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISC  C1    .  C  0  6.043  20.858  75.237  1  1 
+ISC  C2    .  C  0  5.860  21.463  73.841  1  2 
+ISC  O3    .  O  0  4.673  22.125  73.789  1  3 
+ISC  C3    .  C  0  6.282  20.747  72.780  1  4 
+ISC  C4    .  C  0  6.120  19.283  72.892  1  5 
+ISC  C5    .  C  0  6.098  18.659  74.137  1  6 
+ISC  C6    .  C  0  6.128  19.394  75.337  1  7 
+ISC  C     .  C  0  6.048  21.667  76.519  1  8 
+ISC  O2    .  O  0  5.848  22.886  76.317  1  9 
+ISC  O1    .  O  0  6.247  21.214  77.655  1  10
+ISC  C1'   .  C  0  7.789  20.294  70.178  1  11
+ISC  O1'   .  O  0  7.958  19.246  69.505  1  12
+ISC  O2'   .  O  0  6.945  21.168  69.890  1  13
+ISC  C2'   .  C  0  8.364  20.410  71.499  1  14
+ISC  O3'   .  O  0  7.669  20.951  72.544  1  15
+ISC  C3'   .  C  0  9.713  19.949  71.655  1  16
+ISC  H1    .  H  0  ?      ?       ?       1  17
+ISC  H6    .  H  0  ?      ?       ?       1  18
+ISC  H5    .  H  0  ?      ?       ?       1  19
+ISC  H4    .  H  0  ?      ?       ?       1  20
+ISC  H2    .  H  0  ?      ?       ?       1  21
+ISC  HO3   .  H  0  ?      ?       ?       1  22
+ISC  HO2   .  H  0  ?      ?       ?       1  23
+ISC  1H3'  .  H  0  ?      ?       ?       0  24
+ISC  2H3'  .  H  0  ?      ?       ?       0  25
+ISC  H2'   .  H  0  ?      ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISC  C1   C2    SING  1 
+ISC  C1   C6    SING  2 
+ISC  C1   C     SING  3 
+ISC  C1   H1    SING  4 
+ISC  C2   O3    SING  5 
+ISC  C2   C3    SING  6 
+ISC  C2   H2    SING  7 
+ISC  O3   HO3   SING  8 
+ISC  C3   C4    DOUB  9 
+ISC  C3   O3'   SING  10
+ISC  C4   C5    SING  11
+ISC  C4   H4    SING  12
+ISC  C5   C6    DOUB  13
+ISC  C5   H5    SING  14
+ISC  C6   H6    SING  15
+ISC  C    O2    SING  16
+ISC  C    O1    DOUB  17
+ISC  O2   HO2   SING  18
+ISC  C1'  O1'   DOUB  19
+ISC  C1'  O2'   SING  20
+ISC  C1'  C2'   SING  21
+ISC  O2'  H2'   SING  22
+ISC  C2'  O3'   SING  23
+ISC  C2'  C3'   DOUB  24
+ISC  C3'  1H3'  SING  25
+ISC  C3'  2H3'  SING  26
+#

@@ -1,0 +1,57 @@
+data_SNO
+#
+_chem_comp.id                   SNO
+_chem_comp.name                 '(S)-PARA-NITROSTYRENE OXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 N1 O3'
+_chem_comp.pdbx_synonyms        (2S)-2-(4-NITROPHENYL)OXIRANE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        158.093
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SNO  C1  .  C  0   14.796  25.200  70.131  1  1 
+SNO  C2  .  C  0   13.979  26.303  70.394  1  2 
+SNO  C3  .  C  0   14.284  27.120  71.494  1  3 
+SNO  C4  .  C  0   15.396  26.845  72.327  1  4 
+SNO  C5  .  C  0   16.203  25.729  72.037  1  5 
+SNO  C6  .  C  0   15.908  24.897  70.937  1  6 
+SNO  C7  .  C  0   15.730  27.709  73.495  1  7 
+SNO  C8  .  C  0   15.375  29.113  73.514  1  8 
+SNO  N1  .  N  1   14.476  24.329  68.968  1  9 
+SNO  O1  .  O  -1  13.499  24.613  68.278  1  10
+SNO  O2  .  O  0   15.201  23.357  68.740  1  11
+SNO  O3  .  O  0   14.651  28.168  74.321  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SNO  C1  N1  SING  1 
+SNO  C1  C6  AROM  2 
+SNO  C1  C2  AROM  3 
+SNO  C2  C3  AROM  4 
+SNO  C3  C4  AROM  5 
+SNO  C4  C5  AROM  6 
+SNO  C4  C7  SING  7 
+SNO  C5  C6  AROM  8 
+SNO  C7  C8  SING  9 
+SNO  C7  O3  SING  10
+SNO  C8  O3  SING  11
+SNO  N1  O1  SING  12
+SNO  N1  O2  DOUB  13
+#

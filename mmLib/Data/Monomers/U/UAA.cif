@@ -1,0 +1,68 @@
+data_UAA
+#
+_chem_comp.id                   UAA
+_chem_comp.name                 'URACIL-6-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N2 O4'
+_chem_comp.pdbx_synonyms        6-CARBOXYMETHYLURACIL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.124
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UAA  O2    .  O  0  44.876   75.75    49.402   1  1 
+UAA  N3    .  N  0  44.33    73.716   48.586   1  2 
+UAA  C4    .  C  0  44.317   72.354   48.559   1  3 
+UAA  C5    .  C  0  45.05    71.731   49.639   1  4 
+UAA  C6    .  C  0  45.684   72.534   50.577   1  5 
+UAA  C7    .  C  0  46.483   71.924   51.72    1  6 
+UAA  C8    .  C  0  47.952   71.733   51.376   1  7 
+UAA  O8A   .  O  0  48.416   71.995   50.279   1  8 
+UAA  O8B   .  O  0  48.774   71.267   52.329   1  9 
+UAA  O4    .  O  0  43.734   71.708   47.695   1  10
+UAA  C2    .  C  0  44.939   74.54    49.489   1  11
+UAA  N1    .  N  0  45.62    73.921   50.487   1  12
+UAA  H1    .  H  0  46.097   74.487   51.189   1  13
+UAA  H3    .  H  0  43.819   74.18    47.835   1  14
+UAA  H5    .  H  0  45.104   70.632   49.716   1  15
+UAA  1H7C  .  H  0  46.025   70.966   52.061   0  16
+UAA  2H7C  .  H  0  46.366   72.523   52.653   0  17
+UAA  H2    .  H  0  49.6917  71.1477  52.1141  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UAA  O2  H2    SING  1 
+UAA  O2  C2    DOUB  2 
+UAA  N3  C4    SING  3 
+UAA  N3  H3    SING  4 
+UAA  N3  C2    SING  5 
+UAA  C4  C5    SING  6 
+UAA  C4  O4    DOUB  7 
+UAA  C5  C6    DOUB  8 
+UAA  C5  H5    SING  9 
+UAA  C6  C7    SING  10
+UAA  C6  N1    SING  11
+UAA  C7  C8    SING  12
+UAA  C7  1H7C  SING  13
+UAA  C7  2H7C  SING  14
+UAA  C8  O8B   SING  15
+UAA  C8  O8A   DOUB  16
+UAA  C2  N1    SING  17
+UAA  N1  H1    SING  18
+#

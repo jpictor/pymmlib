@@ -1,0 +1,102 @@
+data_MTP
+#
+_chem_comp.id                   MTP
+_chem_comp.name                 2-HYDROXYMETHYL-5-(6-METHYLSULFANYL-PURIN-9-YL)-TETRAHYDRO-FURAN-3,4-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N4 O4 S1'
+_chem_comp.pdbx_synonyms        9-BETA-D-RIBOFURANOSYL-6-METHYLTHIOPURINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.316
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTP  O5'   .  O  0  93.442  65.549  17.394  1  1 
+MTP  C5'   .  C  0  92.968  64.506  18.224  1  2 
+MTP  C4'   .  C  0  93.438  64.680  19.668  1  3 
+MTP  O4'   .  O  0  92.984  65.898  20.289  1  4 
+MTP  C1'   .  C  0  91.650  65.735  20.861  1  5 
+MTP  N9    .  N  0  90.757  66.585  20.004  1  6 
+MTP  C8    .  C  0  90.630  67.926  19.681  1  7 
+MTP  N7    .  N  0  89.612  68.132  18.810  1  8 
+MTP  C5    .  C  0  89.078  66.923  18.566  1  9 
+MTP  C6    .  C  0  87.993  66.659  17.702  1  10
+MTP  S6    .  S  0  87.105  67.917  16.738  1  11
+MTP  CS    .  C  0  85.891  66.786  15.902  1  12
+MTP  N1    .  N  0  87.645  65.337  17.632  1  13
+MTP  C2    .  C  0  88.318  64.401  18.349  1  14
+MTP  N3    .  N  0  89.370  64.595  19.192  1  15
+MTP  C4    .  C  0  89.718  65.930  19.260  1  16
+MTP  C2'   .  C  0  91.623  64.196  21.104  1  17
+MTP  O2'   .  O  0  91.434  64.059  22.500  1  18
+MTP  C3'   .  C  0  92.970  63.606  20.610  1  19
+MTP  O3'   .  O  0  93.961  63.502  21.629  1  20
+MTP  H5'   .  H  0  ?       ?       ?       1  21
+MTP  1H5'  .  H  0  ?       ?       ?       0  22
+MTP  2H5'  .  H  0  ?       ?       ?       0  23
+MTP  H4'   .  H  0  ?       ?       ?       1  24
+MTP  H1'   .  H  0  ?       ?       ?       1  25
+MTP  H8    .  H  0  ?       ?       ?       1  26
+MTP  1HS   .  H  0  ?       ?       ?       0  27
+MTP  2HS   .  H  0  ?       ?       ?       0  28
+MTP  3HS   .  H  0  ?       ?       ?       0  29
+MTP  H2    .  H  0  ?       ?       ?       1  30
+MTP  H2'   .  H  0  ?       ?       ?       1  31
+MTP  H1    .  H  0  ?       ?       ?       1  32
+MTP  H3'   .  H  0  ?       ?       ?       1  33
+MTP  H3    .  H  0  ?       ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTP  O5'  H5'   SING  1 
+MTP  O5'  C5'   SING  2 
+MTP  C5'  1H5'  SING  3 
+MTP  C5'  2H5'  SING  4 
+MTP  C5'  C4'   SING  5 
+MTP  C4'  H4'   SING  6 
+MTP  C4'  O4'   SING  7 
+MTP  C4'  C3'   SING  8 
+MTP  O4'  C1'   SING  9 
+MTP  C1'  H1'   SING  10
+MTP  C1'  N9    SING  11
+MTP  C1'  C2'   SING  12
+MTP  N9   C8    SING  13
+MTP  N9   C4    SING  14
+MTP  C8   H8    SING  15
+MTP  C8   N7    DOUB  16
+MTP  N7   C5    SING  17
+MTP  C5   C6    AROM  18
+MTP  C5   C4    AROM  19
+MTP  C6   S6    SING  20
+MTP  C6   N1    AROM  21
+MTP  S6   CS    SING  22
+MTP  CS   1HS   SING  23
+MTP  CS   2HS   SING  24
+MTP  CS   3HS   SING  25
+MTP  N1   C2    AROM  26
+MTP  C2   H2    SING  27
+MTP  C2   N3    AROM  28
+MTP  N3   C4    AROM  29
+MTP  C2'  H2'   SING  30
+MTP  C2'  O2'   SING  31
+MTP  C2'  C3'   SING  32
+MTP  O2'  H1    SING  33
+MTP  C3'  H3'   SING  34
+MTP  C3'  O3'   SING  35
+MTP  O3'  H3    SING  36
+#

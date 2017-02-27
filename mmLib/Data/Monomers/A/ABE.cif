@@ -1,0 +1,75 @@
+data_ABE
+#
+_chem_comp.id                   ABE
+_chem_comp.name                 ABEQUOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABE  C1   .  C  0  ?  ?  ?  1  1 
+ABE  C2   .  C  0  ?  ?  ?  1  2 
+ABE  C3   .  C  0  ?  ?  ?  1  3 
+ABE  C4   .  C  0  ?  ?  ?  1  4 
+ABE  C5   .  C  0  ?  ?  ?  1  5 
+ABE  C6   .  C  0  ?  ?  ?  1  6 
+ABE  O1   .  O  0  ?  ?  ?  1  7 
+ABE  O2   .  O  0  ?  ?  ?  1  8 
+ABE  O4   .  O  0  ?  ?  ?  1  9 
+ABE  O5   .  O  0  ?  ?  ?  1  10
+ABE  H1   .  H  0  ?  ?  ?  1  11
+ABE  H2   .  H  0  ?  ?  ?  1  12
+ABE  1H3  .  H  0  ?  ?  ?  0  13
+ABE  2H3  .  H  0  ?  ?  ?  0  14
+ABE  H4   .  H  0  ?  ?  ?  1  15
+ABE  H5   .  H  0  ?  ?  ?  1  16
+ABE  1H6  .  H  0  ?  ?  ?  0  17
+ABE  2H6  .  H  0  ?  ?  ?  0  18
+ABE  3H6  .  H  0  ?  ?  ?  0  19
+ABE  HO1  .  H  0  ?  ?  ?  1  20
+ABE  HO2  .  H  0  ?  ?  ?  1  21
+ABE  HO4  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABE  C1  C2   SING  1 
+ABE  C1  O1   SING  2 
+ABE  C1  O5   SING  3 
+ABE  C1  H1   SING  4 
+ABE  C2  C3   SING  5 
+ABE  C2  O2   SING  6 
+ABE  C2  H2   SING  7 
+ABE  C3  C4   SING  8 
+ABE  C3  1H3  SING  9 
+ABE  C3  2H3  SING  10
+ABE  C4  C5   SING  11
+ABE  C4  O4   SING  12
+ABE  C4  H4   SING  13
+ABE  C5  C6   SING  14
+ABE  C5  O5   SING  15
+ABE  C5  H5   SING  16
+ABE  C6  1H6  SING  17
+ABE  C6  2H6  SING  18
+ABE  C6  3H6  SING  19
+ABE  O1  HO1  SING  20
+ABE  O2  HO2  SING  21
+ABE  O4  HO4  SING  22
+#

@@ -1,0 +1,75 @@
+data_LOF
+#
+_chem_comp.id                   LOF
+_chem_comp.name                 '3-PHENYL-LACTIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.176
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LOF  C1   .  C  0  ?  ?  ?  1  1 
+LOF  O1   .  O  0  ?  ?  ?  1  2 
+LOF  O2   .  O  0  ?  ?  ?  1  3 
+LOF  C2   .  C  0  ?  ?  ?  1  4 
+LOF  O3   .  O  0  ?  ?  ?  1  5 
+LOF  C3   .  C  0  ?  ?  ?  1  6 
+LOF  C1'  .  C  0  ?  ?  ?  1  7 
+LOF  C2'  .  C  0  ?  ?  ?  1  8 
+LOF  C3'  .  C  0  ?  ?  ?  1  9 
+LOF  C4'  .  C  0  ?  ?  ?  1  10
+LOF  C5'  .  C  0  ?  ?  ?  1  11
+LOF  C6'  .  C  0  ?  ?  ?  1  12
+LOF  HO2  .  H  0  ?  ?  ?  1  13
+LOF  HO3  .  H  0  ?  ?  ?  1  14
+LOF  H2   .  H  0  ?  ?  ?  1  15
+LOF  1H3  .  H  0  ?  ?  ?  0  16
+LOF  2H3  .  H  0  ?  ?  ?  0  17
+LOF  H2'  .  H  0  ?  ?  ?  1  18
+LOF  H3'  .  H  0  ?  ?  ?  1  19
+LOF  H4'  .  H  0  ?  ?  ?  1  20
+LOF  H5'  .  H  0  ?  ?  ?  1  21
+LOF  H6'  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LOF  C1   C2   SING  1 
+LOF  C1   O1   DOUB  2 
+LOF  C1   O2   SING  3 
+LOF  O2   HO2  SING  4 
+LOF  C2   C3   SING  5 
+LOF  C2   O3   SING  6 
+LOF  C2   H2   SING  7 
+LOF  O3   HO3  SING  8 
+LOF  C3   C1'  SING  9 
+LOF  C3   1H3  SING  10
+LOF  C3   2H3  SING  11
+LOF  C1'  C2'  DOUB  12
+LOF  C1'  C6'  SING  13
+LOF  C2'  C3'  SING  14
+LOF  C2'  H2'  SING  15
+LOF  C3'  C4'  DOUB  16
+LOF  C3'  H3'  SING  17
+LOF  C4'  C5'  SING  18
+LOF  C4'  H4'  SING  19
+LOF  C5'  C6'  DOUB  20
+LOF  C5'  H5'  SING  21
+LOF  C6'  H6'  SING  22
+#

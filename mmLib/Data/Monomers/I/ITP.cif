@@ -1,0 +1,100 @@
+data_ITP
+#
+_chem_comp.id                   ITP
+_chem_comp.name                 'PHOSPHORIC ACID MONO-(2,3,4,6-TETRAHYDROXY-5-PHOSPHONOOXY-CYCLOHEXYL) ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O12 P2'
+_chem_comp.pdbx_synonyms        'INOSITOL 1,3-BISPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ITP  C1   .  C  0  ?  ?  ?  1  1 
+ITP  O1   .  O  0  ?  ?  ?  1  2 
+ITP  C2   .  C  0  ?  ?  ?  1  3 
+ITP  O2   .  O  0  ?  ?  ?  1  4 
+ITP  C3   .  C  0  ?  ?  ?  1  5 
+ITP  O3   .  O  0  ?  ?  ?  1  6 
+ITP  C4   .  C  0  ?  ?  ?  1  7 
+ITP  O4   .  O  0  ?  ?  ?  1  8 
+ITP  C5   .  C  0  ?  ?  ?  1  9 
+ITP  O5   .  O  0  ?  ?  ?  1  10
+ITP  C6   .  C  0  ?  ?  ?  1  11
+ITP  O6   .  O  0  ?  ?  ?  1  12
+ITP  P1   .  P  0  ?  ?  ?  1  13
+ITP  OP1  .  O  0  ?  ?  ?  1  14
+ITP  OP2  .  O  0  ?  ?  ?  1  15
+ITP  OP3  .  O  0  ?  ?  ?  1  16
+ITP  P3   .  P  0  ?  ?  ?  1  17
+ITP  O10  .  O  0  ?  ?  ?  1  18
+ITP  O11  .  O  0  ?  ?  ?  1  19
+ITP  O12  .  O  0  ?  ?  ?  1  20
+ITP  H1   .  H  0  ?  ?  ?  1  21
+ITP  H2   .  H  0  ?  ?  ?  1  22
+ITP  HO2  .  H  0  ?  ?  ?  1  23
+ITP  H3   .  H  0  ?  ?  ?  1  24
+ITP  H4   .  H  0  ?  ?  ?  1  25
+ITP  HO4  .  H  0  ?  ?  ?  1  26
+ITP  H5   .  H  0  ?  ?  ?  1  27
+ITP  HO5  .  H  0  ?  ?  ?  1  28
+ITP  H6   .  H  0  ?  ?  ?  1  29
+ITP  HO6  .  H  0  ?  ?  ?  1  30
+ITP  HP1  .  H  0  ?  ?  ?  1  31
+ITP  HP2  .  H  0  ?  ?  ?  1  32
+ITP  H10  .  H  0  ?  ?  ?  1  33
+ITP  H12  .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ITP  C1   O1   SING  1 
+ITP  C1   C2   SING  2 
+ITP  C1   C6   SING  3 
+ITP  C1   H1   SING  4 
+ITP  O1   P1   SING  5 
+ITP  C2   O2   SING  6 
+ITP  C2   C3   SING  7 
+ITP  C2   H2   SING  8 
+ITP  O2   HO2  SING  9 
+ITP  C3   O3   SING  10
+ITP  C3   C4   SING  11
+ITP  C3   H3   SING  12
+ITP  O3   P3   SING  13
+ITP  C4   O4   SING  14
+ITP  C4   C5   SING  15
+ITP  C4   H4   SING  16
+ITP  O4   HO4  SING  17
+ITP  C5   O5   SING  18
+ITP  C5   C6   SING  19
+ITP  C5   H5   SING  20
+ITP  O5   HO5  SING  21
+ITP  C6   O6   SING  22
+ITP  C6   H6   SING  23
+ITP  O6   HO6  SING  24
+ITP  P1   OP1  SING  25
+ITP  P1   OP2  SING  26
+ITP  P1   OP3  DOUB  27
+ITP  OP1  HP1  SING  28
+ITP  OP2  HP2  SING  29
+ITP  P3   O10  SING  30
+ITP  P3   O11  DOUB  31
+ITP  P3   O12  SING  32
+ITP  O10  H10  SING  33
+ITP  O12  H12  SING  34
+#

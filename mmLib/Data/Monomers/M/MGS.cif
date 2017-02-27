@@ -1,0 +1,117 @@
+data_MGS
+#
+_chem_comp.id                   MGS
+_chem_comp.name                 1,2-O-DIMETHYL-4-[2,4-DIHYDROXY-BUTYRAMIDO]-4,6-DIDEOXY-ALPHA-D-MANNOPYRANOSIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H23 N1 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.316
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGS  C1    .  C  0  ?  ?  ?  1  1 
+MGS  O1    .  O  0  ?  ?  ?  1  2 
+MGS  C7    .  C  0  ?  ?  ?  1  3 
+MGS  C2    .  C  0  ?  ?  ?  1  4 
+MGS  O2    .  O  0  ?  ?  ?  1  5 
+MGS  C8    .  C  0  ?  ?  ?  1  6 
+MGS  C3    .  C  0  ?  ?  ?  1  7 
+MGS  O3    .  O  0  ?  ?  ?  1  8 
+MGS  C4    .  C  0  ?  ?  ?  1  9 
+MGS  N4    .  N  0  ?  ?  ?  1  10
+MGS  C9    .  C  0  ?  ?  ?  1  11
+MGS  O9    .  O  0  ?  ?  ?  1  12
+MGS  C5    .  C  0  ?  ?  ?  1  13
+MGS  O5    .  O  0  ?  ?  ?  1  14
+MGS  C6    .  C  0  ?  ?  ?  1  15
+MGS  C12   .  C  0  ?  ?  ?  1  16
+MGS  O12   .  O  0  ?  ?  ?  1  17
+MGS  C11   .  C  0  ?  ?  ?  1  18
+MGS  C10   .  C  0  ?  ?  ?  1  19
+MGS  O10   .  O  0  ?  ?  ?  1  20
+MGS  1HC7  .  H  0  ?  ?  ?  0  21
+MGS  2HC7  .  H  0  ?  ?  ?  0  22
+MGS  3HC7  .  H  0  ?  ?  ?  0  23
+MGS  1HC8  .  H  0  ?  ?  ?  0  24
+MGS  2HC8  .  H  0  ?  ?  ?  0  25
+MGS  3HC8  .  H  0  ?  ?  ?  0  26
+MGS  HC2   .  H  0  ?  ?  ?  1  27
+MGS  HC1   .  H  0  ?  ?  ?  1  28
+MGS  HC3   .  H  0  ?  ?  ?  1  29
+MGS  HO3   .  H  0  ?  ?  ?  1  30
+MGS  HC5   .  H  0  ?  ?  ?  1  31
+MGS  1HC6  .  H  0  ?  ?  ?  0  32
+MGS  2HC6  .  H  0  ?  ?  ?  0  33
+MGS  3HC6  .  H  0  ?  ?  ?  0  34
+MGS  HC4   .  H  0  ?  ?  ?  1  35
+MGS  HN4   .  H  0  ?  ?  ?  1  36
+MGS  HC10  .  H  0  ?  ?  ?  0  37
+MGS  HO10  .  H  0  ?  ?  ?  0  38
+MGS  1H11  .  H  0  ?  ?  ?  0  39
+MGS  2H11  .  H  0  ?  ?  ?  0  40
+MGS  1H12  .  H  0  ?  ?  ?  0  41
+MGS  2H12  .  H  0  ?  ?  ?  0  42
+MGS  HO12  .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGS  C1   O1    SING  1 
+MGS  C1   C2    SING  2 
+MGS  C1   O5    SING  3 
+MGS  C1   HC1   SING  4 
+MGS  O1   C7    SING  5 
+MGS  C7   1HC7  SING  6 
+MGS  C7   2HC7  SING  7 
+MGS  C7   3HC7  SING  8 
+MGS  C2   O2    SING  9 
+MGS  C2   C3    SING  10
+MGS  C2   HC2   SING  11
+MGS  O2   C8    SING  12
+MGS  C8   1HC8  SING  13
+MGS  C8   2HC8  SING  14
+MGS  C8   3HC8  SING  15
+MGS  C3   O3    SING  16
+MGS  C3   C4    SING  17
+MGS  C3   HC3   SING  18
+MGS  O3   HO3   SING  19
+MGS  C4   N4    SING  20
+MGS  C4   C5    SING  21
+MGS  C4   HC4   SING  22
+MGS  N4   C9    SING  23
+MGS  N4   HN4   SING  24
+MGS  C9   O9    DOUB  25
+MGS  C9   C10   SING  26
+MGS  C5   O5    SING  27
+MGS  C5   C6    SING  28
+MGS  C5   HC5   SING  29
+MGS  C6   1HC6  SING  30
+MGS  C6   2HC6  SING  31
+MGS  C6   3HC6  SING  32
+MGS  C12  O12   SING  33
+MGS  C12  C11   SING  34
+MGS  C12  1H12  SING  35
+MGS  C12  2H12  SING  36
+MGS  O12  HO12  SING  37
+MGS  C11  C10   SING  38
+MGS  C11  1H11  SING  39
+MGS  C11  2H11  SING  40
+MGS  C10  O10   SING  41
+MGS  C10  HC10  SING  42
+MGS  O10  HO10  SING  43
+#

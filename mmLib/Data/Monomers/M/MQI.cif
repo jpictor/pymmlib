@@ -1,0 +1,76 @@
+data_MQI
+#
+_chem_comp.id                   MQI
+_chem_comp.name                 2-METHYL-8-QUINOLINESULFONYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H8 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        206.239
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MQI  S     .  S  0  ?  ?  ?  1  1 
+MQI  O1    .  O  0  ?  ?  ?  1  2 
+MQI  O2    .  O  0  ?  ?  ?  1  3 
+MQI  C1    .  C  0  ?  ?  ?  1  4 
+MQI  C2    .  C  0  ?  ?  ?  1  5 
+MQI  C3    .  C  0  ?  ?  ?  1  6 
+MQI  C4    .  C  0  ?  ?  ?  1  7 
+MQI  C5    .  C  0  ?  ?  ?  1  8 
+MQI  C6    .  C  0  ?  ?  ?  1  9 
+MQI  C7    .  C  0  ?  ?  ?  1  10
+MQI  C8    .  C  0  ?  ?  ?  1  11
+MQI  C9    .  C  0  ?  ?  ?  1  12
+MQI  C10   .  C  0  ?  ?  ?  1  13
+MQI  N     .  N  0  ?  ?  ?  1  14
+MQI  H1    .  H  0  ?  ?  ?  1  15
+MQI  H3    .  H  0  ?  ?  ?  1  16
+MQI  H5    .  H  0  ?  ?  ?  1  17
+MQI  H6    .  H  0  ?  ?  ?  1  18
+MQI  H7    .  H  0  ?  ?  ?  1  19
+MQI  1H10  .  H  0  ?  ?  ?  0  20
+MQI  2H10  .  H  0  ?  ?  ?  0  21
+MQI  3H10  .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MQI  S    C8    SING  1 
+MQI  S    O1    DOUB  2 
+MQI  S    O2    DOUB  3 
+MQI  C1   C2    SING  4 
+MQI  C1   H1    SING  5 
+MQI  C1   N     DOUB  6 
+MQI  C2   C3    DOUB  7 
+MQI  C2   C10   SING  8 
+MQI  C3   C4    SING  9 
+MQI  C3   H3    SING  10
+MQI  C4   C5    DOUB  11
+MQI  C4   C9    SING  12
+MQI  C5   C6    SING  13
+MQI  C5   H5    SING  14
+MQI  C6   C7    DOUB  15
+MQI  C6   H6    SING  16
+MQI  C7   C8    SING  17
+MQI  C7   H7    SING  18
+MQI  C8   C9    DOUB  19
+MQI  C9   N     SING  20
+MQI  C10  1H10  SING  21
+MQI  C10  2H10  SING  22
+MQI  C10  3H10  SING  23
+#

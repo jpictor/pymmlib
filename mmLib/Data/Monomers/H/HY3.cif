@@ -1,0 +1,67 @@
+data_HY3
+#
+_chem_comp.id                       HY3
+_chem_comp.name                     3-HYDROXYPROLINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O2'
+_chem_comp.pdbx_synonyms            (2S,3S)-3-HYDROXYPYRROLIDINE-2-CARBALDEHYDE
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            115.132
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HY3  C    .  C  0  4.402  24.209  82.570  1  1 
+HY3  O    .  O  0  3.749  23.161  82.517  1  2 
+HY3  N    .  N  0  4.674  23.733  84.915  1  3 
+HY3  CA   .  C  0  5.156  24.538  83.783  1  4 
+HY3  CB   .  C  0  6.639  24.145  83.709  1  5 
+HY3  CG   .  C  0  6.651  22.719  84.175  1  6 
+HY3  CD   .  C  0  5.702  22.773  85.371  1  7 
+HY3  O1   .  O  0  7.372  24.987  84.631  1  8 
+HY3  HO1  .  H  0  7.533  24.510  85.437  1  9 
+HY3  HB   .  H  0  7.091  24.258  82.712  1  10
+HY3  1HG  .  H  0  6.298  22.026  83.397  0  11
+HY3  2HG  .  H  0  7.655  22.343  84.423  0  12
+HY3  1HD  .  H  0  6.210  23.118  86.283  0  13
+HY3  2HD  .  H  0  5.291  21.791  85.648  0  14
+HY3  HN   .  H  0  4.445  24.345  85.672  1  15
+HY3  HA   .  H  0  5.026  25.625  83.895  1  16
+HY3  H    .  H  0  4.417  24.881  81.724  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HY3  C   CA   SING  1 
+HY3  C   H    SING  2 
+HY3  C   O    DOUB  3 
+HY3  N   CD   SING  4 
+HY3  N   HN   SING  5 
+HY3  N   CA   SING  6 
+HY3  CA  CB   SING  7 
+HY3  CA  HA   SING  8 
+HY3  CB  O1   SING  9 
+HY3  CB  HB   SING  10
+HY3  CB  CG   SING  11
+HY3  CG  1HG  SING  12
+HY3  CG  2HG  SING  13
+HY3  CG  CD   SING  14
+HY3  CD  1HD  SING  15
+HY3  CD  2HD  SING  16
+HY3  O1  HO1  SING  17
+#

@@ -1,0 +1,48 @@
+data_CNM
+#
+_chem_comp.id                   CNM
+_chem_comp.name                 ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        59.068
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CNM  C1   .  C  0  ?  ?  ?  1  1
+CNM  O1   .  O  0  ?  ?  ?  1  2
+CNM  N1   .  N  0  ?  ?  ?  1  3
+CNM  C2   .  C  0  ?  ?  ?  1  4
+CNM  1HN  .  H  0  ?  ?  ?  0  5
+CNM  2HN  .  H  0  ?  ?  ?  0  6
+CNM  1H2  .  H  0  ?  ?  ?  0  7
+CNM  2H2  .  H  0  ?  ?  ?  0  8
+CNM  3H2  .  H  0  ?  ?  ?  0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CNM  C1  C2   SING  1
+CNM  C1  O1   DOUB  2
+CNM  C1  N1   SING  3
+CNM  N1  1HN  SING  4
+CNM  N1  2HN  SING  5
+CNM  C2  1H2  SING  6
+CNM  C2  2H2  SING  7
+CNM  C2  3H2  SING  8
+#

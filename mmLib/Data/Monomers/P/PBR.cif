@@ -1,0 +1,57 @@
+data_PBR
+#
+_chem_comp.id                   PBR
+_chem_comp.name                 PENTABROMOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H1 O1 BR5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        488.593
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBR  BR1  .  BR  0  ?  ?  ?  0  1 
+PBR  BR2  .  BR  0  ?  ?  ?  0  2 
+PBR  BR3  .  BR  0  ?  ?  ?  0  3 
+PBR  BR4  .  BR  0  ?  ?  ?  0  4 
+PBR  BR5  .  BR  0  ?  ?  ?  0  5 
+PBR  O1   .  O   0  ?  ?  ?  1  6 
+PBR  C1   .  C   0  ?  ?  ?  1  7 
+PBR  C2   .  C   0  ?  ?  ?  1  8 
+PBR  C3   .  C   0  ?  ?  ?  1  9 
+PBR  C4   .  C   0  ?  ?  ?  1  10
+PBR  C5   .  C   0  ?  ?  ?  1  11
+PBR  C6   .  C   0  ?  ?  ?  1  12
+PBR  H1   .  H   0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBR  BR1  C1  SING  1 
+PBR  BR2  C2  SING  2 
+PBR  BR3  C3  SING  3 
+PBR  BR4  C4  SING  4 
+PBR  BR5  C5  SING  5 
+PBR  O1   C6  SING  6 
+PBR  O1   H1  SING  7 
+PBR  C1   C2  AROM  8 
+PBR  C1   C6  AROM  9 
+PBR  C2   C3  AROM  10
+PBR  C3   C4  AROM  11
+PBR  C4   C5  AROM  12
+PBR  C5   C6  AROM  13
+#

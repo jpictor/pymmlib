@@ -1,0 +1,98 @@
+data_VIO
+#
+_chem_comp.id                   VIO
+_chem_comp.name                 N5-(1-IMINO-3-BUTENYL)-L-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H20 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        202.276
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VIO  N     .  N  0  9.491   -1.133  26.135  1  1 
+VIO  CA    .  C  0  9.063   -1.431  24.740  1  2 
+VIO  C     .  C  0  8.961   -2.988  24.539  1  3 
+VIO  O     .  O  0  8.610   -3.428  23.419  1  4 
+VIO  OXT   .  O  0  9.251   -3.784  25.466  1  5 
+VIO  CB    .  C  0  10.112  -0.807  23.818  1  6 
+VIO  CG    .  C  0  10.305  0.713   23.900  1  7 
+VIO  CD    .  C  0  11.511  1.074   23.083  1  8 
+VIO  NE    .  N  0  12.738  0.378   23.583  1  9 
+VIO  CZ    .  C  0  14.009  0.306   23.082  1  10
+VIO  CH1   .  C  0  14.560  0.966   21.782  1  11
+VIO  NH2   .  N  1  14.853  -0.409  23.823  1  12
+VIO  C1    .  C  0  14.083  2.365   21.456  1  13
+VIO  C2    .  C  0  13.511  2.703   20.310  1  14
+VIO  HXT   .  H  0  ?       ?       ?       1  15
+VIO  HA    .  H  0  ?       ?       ?       1  16
+VIO  H     .  H  0  ?       ?       ?       1  17
+VIO  HN2   .  H  0  ?       ?       ?       1  18
+VIO  1HB   .  H  0  ?       ?       ?       0  19
+VIO  2HB   .  H  0  ?       ?       ?       0  20
+VIO  1HG   .  H  0  ?       ?       ?       0  21
+VIO  2HG   .  H  0  ?       ?       ?       0  22
+VIO  1HD   .  H  0  ?       ?       ?       0  23
+VIO  2HD   .  H  0  ?       ?       ?       0  24
+VIO  1HH1  .  H  0  ?       ?       ?       0  25
+VIO  2HH1  .  H  0  ?       ?       ?       0  26
+VIO  1H1   .  H  0  ?       ?       ?       0  27
+VIO  2H1   .  H  0  ?       ?       ?       0  28
+VIO  1H2   .  H  0  ?       ?       ?       0  29
+VIO  2H2   .  H  0  ?       ?       ?       0  30
+VIO  3H2   .  H  0  ?       ?       ?       0  31
+VIO  HE    .  H  0  ?       ?       ?       1  32
+VIO  1HH2  .  H  0  ?       ?       ?       0  33
+VIO  2HH2  .  H  0  ?       ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VIO  N    CA    SING  1 
+VIO  N    H     SING  2 
+VIO  N    HN2   SING  3 
+VIO  CA   C     SING  4 
+VIO  CA   CB    SING  5 
+VIO  CA   HA    SING  6 
+VIO  C    O     DOUB  7 
+VIO  C    OXT   SING  8 
+VIO  OXT  HXT   SING  9 
+VIO  CB   CG    SING  10
+VIO  CB   1HB   SING  11
+VIO  CB   2HB   SING  12
+VIO  CG   CD    SING  13
+VIO  CG   1HG   SING  14
+VIO  CG   2HG   SING  15
+VIO  CD   NE    SING  16
+VIO  CD   1HD   SING  17
+VIO  CD   2HD   SING  18
+VIO  NE   CZ    SING  19
+VIO  NE   HE    SING  20
+VIO  CZ   CH1   SING  21
+VIO  CZ   NH2   DOUB  22
+VIO  CH1  C1    SING  23
+VIO  CH1  1HH1  SING  24
+VIO  CH1  2HH1  SING  25
+VIO  NH2  1HH2  SING  26
+VIO  NH2  2HH2  SING  27
+VIO  C1   C2    SING  28
+VIO  C1   1H1   SING  29
+VIO  C1   2H1   SING  30
+VIO  C2   1H2   SING  31
+VIO  C2   2H2   SING  32
+VIO  C2   3H2   SING  33
+#

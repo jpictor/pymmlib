@@ -1,0 +1,63 @@
+data_KIV
+#
+_chem_comp.id                   KIV
+_chem_comp.name                 '3-METHYL-2-OXOBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H8 O3'
+_chem_comp.pdbx_synonyms        'ALPHA-KETOISOVALERIC ACID; KETOVALINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        116.116
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KIV  O1    .  O  0  ?  ?  ?  1  1 
+KIV  C1    .  C  0  ?  ?  ?  1  2 
+KIV  O2    .  O  0  ?  ?  ?  1  3 
+KIV  C2    .  C  0  ?  ?  ?  1  4 
+KIV  C3    .  C  0  ?  ?  ?  1  5 
+KIV  C4    .  C  0  ?  ?  ?  1  6 
+KIV  C5    .  C  0  ?  ?  ?  1  7 
+KIV  O3    .  O  0  ?  ?  ?  1  8 
+KIV  1HO1  .  H  0  ?  ?  ?  0  9 
+KIV  1HC3  .  H  0  ?  ?  ?  0  10
+KIV  1HC4  .  H  0  ?  ?  ?  0  11
+KIV  2HC4  .  H  0  ?  ?  ?  0  12
+KIV  3HC4  .  H  0  ?  ?  ?  0  13
+KIV  1HC5  .  H  0  ?  ?  ?  0  14
+KIV  2HC5  .  H  0  ?  ?  ?  0  15
+KIV  3HC5  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KIV  O1  C1    SING  1 
+KIV  O1  1HO1  SING  2 
+KIV  C1  O2    DOUB  3 
+KIV  C1  C2    SING  4 
+KIV  C2  C3    SING  5 
+KIV  C2  O3    DOUB  6 
+KIV  C3  C4    SING  7 
+KIV  C3  C5    SING  8 
+KIV  C3  1HC3  SING  9 
+KIV  C4  1HC4  SING  10
+KIV  C4  2HC4  SING  11
+KIV  C4  3HC4  SING  12
+KIV  C5  1HC5  SING  13
+KIV  C5  2HC5  SING  14
+KIV  C5  3HC5  SING  15
+#

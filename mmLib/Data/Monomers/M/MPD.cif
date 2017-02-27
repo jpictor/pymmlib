@@ -1,0 +1,97 @@
+data_MPD
+#
+_chem_comp.id                   MPD
+_chem_comp.name                 (4S)-2-METHYL-2,4-PENTANEDIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAS
+_chem_comp.formula              'C6 H14 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+MPD  SMILES            C[C@H](O)CC(C)(C)O                                            CACTVS              2.87 
+MPD  SMILES_CANONICAL  CC(O)CC(C)(C)O                                                CACTVS              2.87 
+MPD  INCHI             InChI=1/C6H14O2/c1-5(7)4-6(2,3)8/h5,7-8H,4H2,1-3H3/t5-/m0/s1  InChi               1    
+MPD  SMILES_CANONICAL  C[C@@H](CC(C)(C)O)O                                           OpenEye/OEToolkits  1.4.2
+MPD  SMILES            CC(CC(C)(C)O)O                                                OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          MPD
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       (4S)-2-methylpentane-2,4-diol
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+MPD  C1   .  C  0  -2.503  -3.420  8.511   1  N  N  N  1 
+MPD  C2   .  C  0  -2.962  -4.044  9.830   1  N  N  N  2 
+MPD  O2   .  O  0  -2.698  -5.408  9.790   1  N  N  N  3 
+MPD  CM   .  C  0  -4.456  -3.762  9.953   1  N  N  N  4 
+MPD  C3   .  C  0  -2.278  -3.458  11.042  1  N  N  N  5 
+MPD  C4   .  C  0  -2.192  -4.181  12.269  1  N  S  N  6 
+MPD  O4   .  O  0  -1.996  -5.510  12.308  1  N  N  N  7 
+MPD  C5   .  C  0  -1.655  -3.474  13.505  1  N  N  N  8 
+MPD  1H1  .  H  0  -2.625  -2.449  8.550   0  N  N  N  9 
+MPD  2H1  .  H  0  -3.034  -3.788  7.774   0  N  N  N  10
+MPD  3H1  .  H  0  -1.556  -3.625  8.366   0  N  N  N  11
+MPD  HO2  .  H  0  -3.086  -5.749  9.128   1  N  N  N  12
+MPD  1HM  .  H  0  -4.802  -4.188  10.765  0  N  N  N  13
+MPD  2HM  .  H  0  -4.922  -4.124  9.171   0  N  N  N  14
+MPD  3HM  .  H  0  -4.603  -2.795  10.003  0  N  N  N  15
+MPD  1H3  .  H  0  -1.352  -3.235  10.772  0  N  N  N  16
+MPD  2H3  .  H  0  -2.731  -2.600  11.243  0  N  N  N  17
+MPD  H4   .  H  0  -3.163  -4.173  12.509  1  N  N  N  18
+MPD  HO4  .  H  0  -1.942  -5.761  13.108  1  N  N  N  19
+MPD  1H5  .  H  0  -1.523  -4.127  14.223  0  N  N  N  20
+MPD  2H5  .  H  0  -2.296  -2.793  13.796  0  N  N  N  21
+MPD  3H5  .  H  0  -0.799  -3.047  13.291  0  N  N  N  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+MPD  C1  C2   SING  N  N  1 
+MPD  C1  1H1  SING  N  N  2 
+MPD  C1  2H1  SING  N  N  3 
+MPD  C1  3H1  SING  N  N  4 
+MPD  C2  O2   SING  N  N  5 
+MPD  C2  CM   SING  N  N  6 
+MPD  C2  C3   SING  N  N  7 
+MPD  O2  HO2  SING  N  N  8 
+MPD  CM  1HM  SING  N  N  9 
+MPD  CM  2HM  SING  N  N  10
+MPD  CM  3HM  SING  N  N  11
+MPD  C3  C4   SING  N  N  12
+MPD  C3  1H3  SING  N  N  13
+MPD  C3  2H3  SING  N  N  14
+MPD  C4  O4   SING  N  N  15
+MPD  C4  C5   SING  N  N  16
+MPD  C4  H4   SING  N  N  17
+MPD  O4  HO4  SING  N  N  18
+MPD  C5  1H5  SING  N  N  19
+MPD  C5  2H5  SING  N  N  20
+MPD  C5  3H5  SING  N  N  21
+#

@@ -1,0 +1,77 @@
+data_FRD
+#
+_chem_comp.id                   FRD
+_chem_comp.name                 1-PHENYL-2-AMINOPROPANE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FRD  N    .  N  0  ?  ?  ?  1  1 
+FRD  CA   .  C  0  ?  ?  ?  1  2 
+FRD  C    .  C  0  ?  ?  ?  1  3 
+FRD  CB   .  C  0  ?  ?  ?  1  4 
+FRD  CG   .  C  0  ?  ?  ?  1  5 
+FRD  CD1  .  C  0  ?  ?  ?  1  6 
+FRD  CD2  .  C  0  ?  ?  ?  1  7 
+FRD  CE1  .  C  0  ?  ?  ?  1  8 
+FRD  CE2  .  C  0  ?  ?  ?  1  9 
+FRD  CZ   .  C  0  ?  ?  ?  1  10
+FRD  H    .  H  0  ?  ?  ?  1  11
+FRD  HN2  .  H  0  ?  ?  ?  1  12
+FRD  HA   .  H  0  ?  ?  ?  1  13
+FRD  1H   .  H  0  ?  ?  ?  0  14
+FRD  2H   .  H  0  ?  ?  ?  0  15
+FRD  3H   .  H  0  ?  ?  ?  0  16
+FRD  1HB  .  H  0  ?  ?  ?  0  17
+FRD  2HB  .  H  0  ?  ?  ?  0  18
+FRD  HD1  .  H  0  ?  ?  ?  1  19
+FRD  HD2  .  H  0  ?  ?  ?  1  20
+FRD  HE1  .  H  0  ?  ?  ?  1  21
+FRD  HE2  .  H  0  ?  ?  ?  1  22
+FRD  HZ   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FRD  N    CA   SING  1 
+FRD  N    H    SING  2 
+FRD  N    HN2  SING  3 
+FRD  CA   C    SING  4 
+FRD  CA   CB   SING  5 
+FRD  CA   HA   SING  6 
+FRD  C    1H   SING  7 
+FRD  C    2H   SING  8 
+FRD  C    3H   SING  9 
+FRD  CB   CG   SING  10
+FRD  CB   1HB  SING  11
+FRD  CB   2HB  SING  12
+FRD  CG   CD1  DOUB  13
+FRD  CG   CD2  SING  14
+FRD  CD1  CE1  SING  15
+FRD  CD1  HD1  SING  16
+FRD  CD2  CE2  DOUB  17
+FRD  CD2  HD2  SING  18
+FRD  CE1  CZ   DOUB  19
+FRD  CE1  HE1  SING  20
+FRD  CE2  CZ   SING  21
+FRD  CE2  HE2  SING  22
+FRD  CZ   HZ   SING  23
+#

@@ -1,0 +1,80 @@
+data_BP3
+#
+_chem_comp.id                   BP3
+_chem_comp.name                 2'-CHLORO-BIPHENYL-2,3-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 CL1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        220.655
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BP3  CA1  .  C   0  22.490  21.771  16.533  1  1 
+BP3  CA2  .  C   0  21.124  22.006  16.281  1  2 
+BP3  OA2  .  O   0  20.609  23.281  16.237  1  3 
+BP3  CA3  .  C   0  20.217  20.938  16.063  1  4 
+BP3  OA3  .  O   0  18.884  21.225  15.822  1  5 
+BP3  CA4  .  C   0  20.674  19.603  16.092  1  6 
+BP3  CA5  .  C   0  22.046  19.351  16.341  1  7 
+BP3  CA6  .  C   0  22.946  20.433  16.561  1  8 
+BP3  CB1  .  C   0  23.429  22.922  16.767  1  9 
+BP3  CB2  .  C   0  23.379  23.705  17.961  1  10
+BP3  CB3  .  C   0  24.273  24.793  18.160  1  11
+BP3  CB4  .  C   0  25.234  25.113  17.168  1  12
+BP3  CB5  .  C   0  25.293  24.341  15.982  1  13
+BP3  CB6  .  C   0  24.394  23.258  15.791  1  14
+BP3  CL1  .  CL  0  22.252  23.423  19.272  0  15
+BP3  HA2  .  H   0  ?       ?       ?       1  16
+BP3  HA3  .  H   0  ?       ?       ?       1  17
+BP3  HA4  .  H   0  ?       ?       ?       1  18
+BP3  HA5  .  H   0  ?       ?       ?       1  19
+BP3  HA6  .  H   0  ?       ?       ?       1  20
+BP3  HB3  .  H   0  ?       ?       ?       1  21
+BP3  HB4  .  H   0  ?       ?       ?       1  22
+BP3  HB5  .  H   0  ?       ?       ?       1  23
+BP3  HB6  .  H   0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BP3  CA1  CA2  AROM  1 
+BP3  CA1  CA6  AROM  2 
+BP3  CA1  CB1  SING  3 
+BP3  CA2  OA2  SING  4 
+BP3  CA2  CA3  AROM  5 
+BP3  OA2  HA2  SING  6 
+BP3  CA3  OA3  SING  7 
+BP3  CA3  CA4  AROM  8 
+BP3  OA3  HA3  SING  9 
+BP3  CA4  CA5  AROM  10
+BP3  CA4  HA4  SING  11
+BP3  CA5  CA6  AROM  12
+BP3  CA5  HA5  SING  13
+BP3  CA6  HA6  SING  14
+BP3  CB1  CB2  AROM  15
+BP3  CB1  CB6  AROM  16
+BP3  CB2  CB3  AROM  17
+BP3  CB2  CL1  SING  18
+BP3  CB3  CB4  AROM  19
+BP3  CB3  HB3  SING  20
+BP3  CB4  CB5  AROM  21
+BP3  CB4  HB4  SING  22
+BP3  CB5  CB6  AROM  23
+BP3  CB5  HB5  SING  24
+BP3  CB6  HB6  SING  25
+#

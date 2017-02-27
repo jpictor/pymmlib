@@ -1,0 +1,55 @@
+data_SRI
+#
+_chem_comp.id                   SRI
+_chem_comp.name                 '(2Z)-3-HYDROXY-2-IMINOPROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 N1 O3'
+_chem_comp.pdbx_synonyms        IMINO-SERINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        103.077
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SRI  OXT  .  O  0  7.354  60.340  17.040  1  1 
+SRI  C    .  C  0  7.440  59.232  17.641  1  2 
+SRI  O    .  O  0  7.836  59.204  18.844  1  3 
+SRI  CA   .  C  0  7.057  57.971  16.913  1  4 
+SRI  N    .  N  0  6.739  57.985  15.638  1  5 
+SRI  CB   .  C  0  6.931  56.645  17.625  1  6 
+SRI  OG   .  O  0  5.514  56.387  17.789  1  7 
+SRI  HN   .  H  0  ?      ?       ?       1  8 
+SRI  1HB  .  H  0  ?      ?       ?       0  9 
+SRI  2HB  .  H  0  ?      ?       ?       0  10
+SRI  HOG  .  H  0  ?      ?       ?       1  11
+SRI  HO   .  H  0  ?      ?       ?       1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SRI  OXT  C    DOUB  1 
+SRI  C    CA   SING  2 
+SRI  C    O    SING  3 
+SRI  O    HO   SING  4 
+SRI  CA   N    DOUB  5 
+SRI  CA   CB   SING  6 
+SRI  N    HN   SING  7 
+SRI  CB   OG   SING  8 
+SRI  CB   1HB  SING  9 
+SRI  CB   2HB  SING  10
+SRI  OG   HOG  SING  11
+#

@@ -1,0 +1,48 @@
+data_EOH
+#
+_chem_comp.id                   EOH
+_chem_comp.name                 ETHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAS
+_chem_comp.formula              'C2 H6 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        46.069
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EOH  C1   .  C  0  ?  ?  ?  1  1
+EOH  C2   .  C  0  ?  ?  ?  1  2
+EOH  O    .  O  0  ?  ?  ?  1  3
+EOH  1H1  .  H  0  ?  ?  ?  0  4
+EOH  2H1  .  H  0  ?  ?  ?  0  5
+EOH  1H2  .  H  0  ?  ?  ?  0  6
+EOH  2H2  .  H  0  ?  ?  ?  0  7
+EOH  3H2  .  H  0  ?  ?  ?  0  8
+EOH  HO   .  H  0  ?  ?  ?  1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EOH  C1  C2   SING  1
+EOH  C1  O    SING  2
+EOH  C1  1H1  SING  3
+EOH  C1  2H1  SING  4
+EOH  C2  1H2  SING  5
+EOH  C2  2H2  SING  6
+EOH  C2  3H2  SING  7
+EOH  O   HO   SING  8
+#

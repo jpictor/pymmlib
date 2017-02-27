@@ -1,0 +1,86 @@
+data_BCS
+#
+_chem_comp.id                       BCS
+_chem_comp.name                     BENZYLCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H13 N1 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            211.278
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BCS  N    .  N  0  ?  ?  ?  1  1 
+BCS  CA   .  C  0  ?  ?  ?  1  2 
+BCS  CB   .  C  0  ?  ?  ?  1  3 
+BCS  SG   .  S  0  ?  ?  ?  1  4 
+BCS  CD   .  C  0  ?  ?  ?  1  5 
+BCS  CE   .  C  0  ?  ?  ?  1  6 
+BCS  CZ1  .  C  0  ?  ?  ?  1  7 
+BCS  CZ2  .  C  0  ?  ?  ?  1  8 
+BCS  CT1  .  C  0  ?  ?  ?  1  9 
+BCS  CT2  .  C  0  ?  ?  ?  1  10
+BCS  CH   .  C  0  ?  ?  ?  1  11
+BCS  C    .  C  0  ?  ?  ?  1  12
+BCS  O    .  O  0  ?  ?  ?  1  13
+BCS  OXT  .  O  0  ?  ?  ?  1  14
+BCS  1HN  .  H  0  ?  ?  ?  0  15
+BCS  2HN  .  H  0  ?  ?  ?  0  16
+BCS  HA   .  H  0  ?  ?  ?  1  17
+BCS  1HB  .  H  0  ?  ?  ?  0  18
+BCS  2HB  .  H  0  ?  ?  ?  0  19
+BCS  1HD  .  H  0  ?  ?  ?  0  20
+BCS  2HD  .  H  0  ?  ?  ?  0  21
+BCS  HZ1  .  H  0  ?  ?  ?  1  22
+BCS  HZ2  .  H  0  ?  ?  ?  1  23
+BCS  HT1  .  H  0  ?  ?  ?  1  24
+BCS  HT2  .  H  0  ?  ?  ?  1  25
+BCS  HH   .  H  0  ?  ?  ?  1  26
+BCS  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BCS  N    CA   SING  1 
+BCS  N    1HN  SING  2 
+BCS  N    2HN  SING  3 
+BCS  CA   CB   SING  4 
+BCS  CA   C    SING  5 
+BCS  CA   HA   SING  6 
+BCS  CB   SG   SING  7 
+BCS  CB   1HB  SING  8 
+BCS  CB   2HB  SING  9 
+BCS  SG   CD   SING  10
+BCS  CD   CE   SING  11
+BCS  CD   1HD  SING  12
+BCS  CD   2HD  SING  13
+BCS  CE   CZ1  DOUB  14
+BCS  CE   CZ2  SING  15
+BCS  CZ1  CT1  SING  16
+BCS  CZ1  HZ1  SING  17
+BCS  CZ2  CT2  DOUB  18
+BCS  CZ2  HZ2  SING  19
+BCS  CT1  CH   DOUB  20
+BCS  CT1  HT1  SING  21
+BCS  CT2  CH   SING  22
+BCS  CT2  HT2  SING  23
+BCS  CH   HH   SING  24
+BCS  C    O    DOUB  25
+BCS  C    OXT  SING  26
+BCS  OXT  HXT  SING  27
+#

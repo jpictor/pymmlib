@@ -1,0 +1,105 @@
+data_AP3
+#
+_chem_comp.id                   AP3
+_chem_comp.name                 '2-(1-CARBOXY-2-HYDROXY-2-METHYL-PROPYL)-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        277.335
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AP3  C1    .  C  0  ?  ?  ?  1  1 
+AP3  O1    .  O  0  ?  ?  ?  1  2 
+AP3  OXT   .  O  0  ?  ?  ?  1  3 
+AP3  C2    .  C  0  ?  ?  ?  1  4 
+AP3  C21   .  C  0  ?  ?  ?  1  5 
+AP3  O22   .  O  0  ?  ?  ?  1  6 
+AP3  C3    .  C  0  ?  ?  ?  1  7 
+AP3  S4    .  S  0  ?  ?  ?  1  8 
+AP3  C5    .  C  0  ?  ?  ?  1  9 
+AP3  C51   .  C  0  ?  ?  ?  1  10
+AP3  C52   .  C  0  ?  ?  ?  1  11
+AP3  C6    .  C  0  ?  ?  ?  1  12
+AP3  C8    .  C  0  ?  ?  ?  1  13
+AP3  O81   .  O  0  ?  ?  ?  1  14
+AP3  O82   .  O  0  ?  ?  ?  1  15
+AP3  N7    .  N  0  ?  ?  ?  1  16
+AP3  C9    .  C  0  ?  ?  ?  1  17
+AP3  C10   .  C  0  ?  ?  ?  1  18
+AP3  HXT   .  H  0  ?  ?  ?  1  19
+AP3  H2    .  H  0  ?  ?  ?  1  20
+AP3  HOM   .  H  0  ?  ?  ?  1  21
+AP3  H3    .  H  0  ?  ?  ?  1  22
+AP3  1H51  .  H  0  ?  ?  ?  0  23
+AP3  2H51  .  H  0  ?  ?  ?  0  24
+AP3  3H51  .  H  0  ?  ?  ?  0  25
+AP3  1H52  .  H  0  ?  ?  ?  0  26
+AP3  2H52  .  H  0  ?  ?  ?  0  27
+AP3  3H52  .  H  0  ?  ?  ?  0  28
+AP3  H6    .  H  0  ?  ?  ?  1  29
+AP3  HO    .  H  0  ?  ?  ?  1  30
+AP3  HN7   .  H  0  ?  ?  ?  1  31
+AP3  1H9   .  H  0  ?  ?  ?  0  32
+AP3  2H9   .  H  0  ?  ?  ?  0  33
+AP3  3H9   .  H  0  ?  ?  ?  0  34
+AP3  1H10  .  H  0  ?  ?  ?  0  35
+AP3  2H10  .  H  0  ?  ?  ?  0  36
+AP3  3H10  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AP3  C1   O1    DOUB  1 
+AP3  C1   C2    SING  2 
+AP3  C1   OXT   SING  3 
+AP3  OXT  HXT   SING  4 
+AP3  C2   C21   SING  5 
+AP3  C2   C3    SING  6 
+AP3  C2   H2    SING  7 
+AP3  C21  O22   SING  8 
+AP3  C21  C9    SING  9 
+AP3  C21  C10   SING  10
+AP3  O22  HOM   SING  11
+AP3  C3   S4    SING  12
+AP3  C3   N7    SING  13
+AP3  C3   H3    SING  14
+AP3  S4   C5    SING  15
+AP3  C5   C51   SING  16
+AP3  C5   C52   SING  17
+AP3  C5   C6    SING  18
+AP3  C51  1H51  SING  19
+AP3  C51  2H51  SING  20
+AP3  C51  3H51  SING  21
+AP3  C52  1H52  SING  22
+AP3  C52  2H52  SING  23
+AP3  C52  3H52  SING  24
+AP3  C6   C8    SING  25
+AP3  C6   N7    SING  26
+AP3  C6   H6    SING  27
+AP3  C8   O81   DOUB  28
+AP3  C8   O82   SING  29
+AP3  O82  HO    SING  30
+AP3  N7   HN7   SING  31
+AP3  C9   1H9   SING  32
+AP3  C9   2H9   SING  33
+AP3  C9   3H9   SING  34
+AP3  C10  1H10  SING  35
+AP3  C10  2H10  SING  36
+AP3  C10  3H10  SING  37
+#

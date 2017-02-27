@@ -1,0 +1,115 @@
+data_NOR
+#
+_chem_comp.id                   NOR
+_chem_comp.name                 CYCLOHEXYL-NORSTATINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H25 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        243.345
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NOR  N     .  N  0  ?  ?  ?  1  1 
+NOR  CA    .  C  0  ?  ?  ?  1  2 
+NOR  CB    .  C  0  ?  ?  ?  1  3 
+NOR  CG    .  C  0  ?  ?  ?  1  4 
+NOR  CD1   .  C  0  ?  ?  ?  1  5 
+NOR  CD2   .  C  0  ?  ?  ?  1  6 
+NOR  CE1   .  C  0  ?  ?  ?  1  7 
+NOR  CE2   .  C  0  ?  ?  ?  1  8 
+NOR  CZ    .  C  0  ?  ?  ?  1  9 
+NOR  CH    .  C  0  ?  ?  ?  1  10
+NOR  OH    .  O  0  ?  ?  ?  1  11
+NOR  C     .  C  0  ?  ?  ?  1  12
+NOR  O1    .  O  0  ?  ?  ?  1  13
+NOR  O2    .  O  0  ?  ?  ?  1  14
+NOR  CM    .  C  0  ?  ?  ?  1  15
+NOR  CM1   .  C  0  ?  ?  ?  1  16
+NOR  CM2   .  C  0  ?  ?  ?  1  17
+NOR  1HN   .  H  0  ?  ?  ?  0  18
+NOR  2HN   .  H  0  ?  ?  ?  0  19
+NOR  HA    .  H  0  ?  ?  ?  1  20
+NOR  1HB   .  H  0  ?  ?  ?  0  21
+NOR  2HB   .  H  0  ?  ?  ?  0  22
+NOR  HG    .  H  0  ?  ?  ?  1  23
+NOR  1HD1  .  H  0  ?  ?  ?  0  24
+NOR  2HD1  .  H  0  ?  ?  ?  0  25
+NOR  1HD2  .  H  0  ?  ?  ?  0  26
+NOR  2HD2  .  H  0  ?  ?  ?  0  27
+NOR  1HE1  .  H  0  ?  ?  ?  0  28
+NOR  2HE1  .  H  0  ?  ?  ?  0  29
+NOR  1HE2  .  H  0  ?  ?  ?  0  30
+NOR  2HE2  .  H  0  ?  ?  ?  0  31
+NOR  1HZ   .  H  0  ?  ?  ?  0  32
+NOR  2HZ   .  H  0  ?  ?  ?  0  33
+NOR  HC    .  H  0  ?  ?  ?  1  34
+NOR  HH    .  H  0  ?  ?  ?  1  35
+NOR  HM    .  H  0  ?  ?  ?  1  36
+NOR  1HM1  .  H  0  ?  ?  ?  0  37
+NOR  2HM1  .  H  0  ?  ?  ?  0  38
+NOR  3HM1  .  H  0  ?  ?  ?  0  39
+NOR  1HM2  .  H  0  ?  ?  ?  0  40
+NOR  2HM2  .  H  0  ?  ?  ?  0  41
+NOR  3HM2  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NOR  N    CA    SING  1 
+NOR  N    1HN   SING  2 
+NOR  N    2HN   SING  3 
+NOR  CA   CH    SING  4 
+NOR  CA   CB    SING  5 
+NOR  CA   HA    SING  6 
+NOR  CB   CG    SING  7 
+NOR  CB   1HB   SING  8 
+NOR  CB   2HB   SING  9 
+NOR  CG   CD1   SING  10
+NOR  CG   CD2   SING  11
+NOR  CG   HG    SING  12
+NOR  CD1  CE1   SING  13
+NOR  CD1  1HD1  SING  14
+NOR  CD1  2HD1  SING  15
+NOR  CD2  CE2   SING  16
+NOR  CD2  1HD2  SING  17
+NOR  CD2  2HD2  SING  18
+NOR  CE1  CZ    SING  19
+NOR  CE1  1HE1  SING  20
+NOR  CE1  2HE1  SING  21
+NOR  CE2  CZ    SING  22
+NOR  CE2  1HE2  SING  23
+NOR  CE2  2HE2  SING  24
+NOR  CZ   1HZ   SING  25
+NOR  CZ   2HZ   SING  26
+NOR  CH   C     SING  27
+NOR  CH   OH    SING  28
+NOR  CH   HC    SING  29
+NOR  OH   HH    SING  30
+NOR  C    O1    DOUB  31
+NOR  C    O2    SING  32
+NOR  O2   CM    SING  33
+NOR  CM   CM1   SING  34
+NOR  CM   CM2   SING  35
+NOR  CM   HM    SING  36
+NOR  CM1  1HM1  SING  37
+NOR  CM1  2HM1  SING  38
+NOR  CM1  3HM1  SING  39
+NOR  CM2  1HM2  SING  40
+NOR  CM2  2HM2  SING  41
+NOR  CM2  3HM2  SING  42
+#

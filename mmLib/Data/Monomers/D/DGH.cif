@@ -1,0 +1,73 @@
+data_DGH
+#
+_chem_comp.id                   DGH
+_chem_comp.name                 '(2R)-AMINO(4-HYDROXYPHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DGH  N    .  N  0  15.044  51.84   19.49   1  1 
+DGH  CA   .  C  0  14.809  51.717  18.031  1  2 
+DGH  C    .  C  0  13.33   51.744  17.766  1  3 
+DGH  O    .  O  0  12.523  52.13   18.638  1  4 
+DGH  C1   .  C  0  15.533  52.778  17.251  1  5 
+DGH  C2   .  C  0  16.592  52.364  16.442  1  6 
+DGH  C3   .  C  0  17.197  53.4    15.734  1  7 
+DGH  C4   .  C  0  16.796  54.708  15.912  1  8 
+DGH  O4   .  O  0  17.455  55.658  15.182  1  9 
+DGH  C5   .  C  0  15.738  55.147  16.669  1  10
+DGH  C6   .  C  0  15.142  54.088  17.369  1  11
+DGH  OXT  .  O  0  ?       ?       ?       1  12
+DGH  1HN  .  H  0  14.661  52.453  20.209  0  13
+DGH  2HA  .  H  0  15.832  52.176  20.044  0  14
+DGH  HB   .  H  0  15.198  50.725  17.703  1  15
+DGH  HA   .  H  0  16.92   51.313  16.37   1  16
+DGH  HC   .  H  0  14.31   54.322  18.055  1  17
+DGH  HD   .  H  0  18.007  53.172  15.022  1  18
+DGH  HE   .  H  0  17.179  56.559  15.305  1  19
+DGH  HF   .  H  0  15.401  56.196  16.72   1  20
+DGH  HG   .  H  0  ?       ?       ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DGH  N    CA   SING  1 
+DGH  N    1HN  SING  2 
+DGH  N    2HA  SING  3 
+DGH  CA   C    SING  4 
+DGH  CA   C1   SING  5 
+DGH  CA   HB   SING  6 
+DGH  C    O    DOUB  7 
+DGH  C    OXT  SING  8 
+DGH  C1   C2   AROM  9 
+DGH  C1   C6   AROM  10
+DGH  C2   C3   AROM  11
+DGH  C2   HA   SING  12
+DGH  C3   C4   AROM  13
+DGH  C3   HD   SING  14
+DGH  C4   O4   SING  15
+DGH  C4   C5   AROM  16
+DGH  O4   HE   SING  17
+DGH  C5   C6   AROM  18
+DGH  C5   HF   SING  19
+DGH  C6   HC   SING  20
+DGH  OXT  HG   SING  21
+#

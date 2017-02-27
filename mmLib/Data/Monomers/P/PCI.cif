@@ -1,0 +1,57 @@
+data_PCI
+#
+_chem_comp.id                   PCI
+_chem_comp.name                 PENTACHLOROPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H1 O1 CL5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.338
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCI  O1   .  O   0  ?  ?  ?  1  1 
+PCI  C1   .  C   0  ?  ?  ?  1  2 
+PCI  C2   .  C   0  ?  ?  ?  1  3 
+PCI  CL1  .  CL  0  ?  ?  ?  0  4 
+PCI  C3   .  C   0  ?  ?  ?  1  5 
+PCI  CL2  .  CL  0  ?  ?  ?  0  6 
+PCI  C4   .  C   0  ?  ?  ?  1  7 
+PCI  CL3  .  CL  0  ?  ?  ?  0  8 
+PCI  C5   .  C   0  ?  ?  ?  1  9 
+PCI  CL4  .  CL  0  ?  ?  ?  0  10
+PCI  C6   .  C   0  ?  ?  ?  1  11
+PCI  CL5  .  CL  0  ?  ?  ?  0  12
+PCI  HO1  .  H   0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCI  O1  HO1  SING  1 
+PCI  O1  C1   SING  2 
+PCI  C1  C2   AROM  3 
+PCI  C1  C6   AROM  4 
+PCI  C2  CL1  SING  5 
+PCI  C2  C3   AROM  6 
+PCI  C3  CL2  SING  7 
+PCI  C3  C4   AROM  8 
+PCI  C4  CL3  SING  9 
+PCI  C4  C5   AROM  10
+PCI  C5  CL4  SING  11
+PCI  C5  C6   AROM  12
+PCI  C6  CL5  SING  13
+#

@@ -1,0 +1,78 @@
+data_AMQ
+#
+_chem_comp.id                   AMQ
+_chem_comp.name                 '(S)-ALPHA-AMINO-3-HYDROXY-5-METHYL-4-ISOXAZOLEPROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H10 N2 O4'
+_chem_comp.pdbx_synonyms        AMPA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.167
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMQ  N     .  N  0  ?  ?  ?  1  1 
+AMQ  CA    .  C  0  ?  ?  ?  1  2 
+AMQ  C     .  C  0  ?  ?  ?  1  3 
+AMQ  OT1   .  O  0  ?  ?  ?  1  4 
+AMQ  OT2   .  O  0  ?  ?  ?  1  5 
+AMQ  CB    .  C  0  ?  ?  ?  1  6 
+AMQ  CG    .  C  0  ?  ?  ?  1  7 
+AMQ  CD1   .  C  0  ?  ?  ?  1  8 
+AMQ  CD2   .  C  0  ?  ?  ?  1  9 
+AMQ  CE2   .  C  0  ?  ?  ?  1  10
+AMQ  OE1   .  O  0  ?  ?  ?  1  11
+AMQ  NE1   .  N  0  ?  ?  ?  1  12
+AMQ  OE2   .  O  0  ?  ?  ?  1  13
+AMQ  H     .  H  0  ?  ?  ?  1  14
+AMQ  HN2   .  H  0  ?  ?  ?  1  15
+AMQ  HXT   .  H  0  ?  ?  ?  1  16
+AMQ  HA    .  H  0  ?  ?  ?  1  17
+AMQ  1HB   .  H  0  ?  ?  ?  0  18
+AMQ  2HB   .  H  0  ?  ?  ?  0  19
+AMQ  1HE2  .  H  0  ?  ?  ?  0  20
+AMQ  2HE2  .  H  0  ?  ?  ?  0  21
+AMQ  3HE2  .  H  0  ?  ?  ?  0  22
+AMQ  HE1   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMQ  N    CA    SING  1 
+AMQ  N    H     SING  2 
+AMQ  N    HN2   SING  3 
+AMQ  CA   C     SING  4 
+AMQ  CA   CB    SING  5 
+AMQ  CA   HA    SING  6 
+AMQ  C    OT1   DOUB  7 
+AMQ  C    OT2   SING  8 
+AMQ  OT2  HXT   SING  9 
+AMQ  CB   CG    SING  10
+AMQ  CB   1HB   SING  11
+AMQ  CB   2HB   SING  12
+AMQ  CG   CD1   SING  13
+AMQ  CG   CD2   DOUB  14
+AMQ  CD1  OE1   SING  15
+AMQ  CD1  NE1   DOUB  16
+AMQ  CD2  CE2   SING  17
+AMQ  CD2  OE2   SING  18
+AMQ  CE2  1HE2  SING  19
+AMQ  CE2  2HE2  SING  20
+AMQ  CE2  3HE2  SING  21
+AMQ  OE1  HE1   SING  22
+AMQ  NE1  OE2   SING  23
+#

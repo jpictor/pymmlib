@@ -1,0 +1,101 @@
+data_UA3
+#
+_chem_comp.id                   UA3
+_chem_comp.name                 'URACIL ARABINOSE-3'-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N2 O9 P1'
+_chem_comp.pdbx_synonyms        1-(3-O-PHOSPHONO-BETA-L-ARABINOFURANOSYL)PYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UA3  N1   .  N  0  36.503  -2.084  11.711  1  1 
+UA3  C2   .  C  0  35.21   -2.157  11.115  1  2 
+UA3  O2   .  O  0  34.738  -1.253  10.524  1  3 
+UA3  N3   .  N  0  34.584  -3.397  11.305  1  4 
+UA3  C4   .  C  0  35.079  -4.524  11.999  1  5 
+UA3  O4   .  O  0  34.381  -5.512  12.054  1  6 
+UA3  C5   .  C  0  36.401  -4.353  12.579  1  7 
+UA3  C6   .  C  0  37.056  -3.188  12.429  1  8 
+UA3  O5*  .  O  0  40.777  .336    13.964  1  9 
+UA3  C5*  .  C  0  40.223  .596    12.517  1  10
+UA3  C4*  .  C  0  38.937  .32     12.285  1  11
+UA3  O4*  .  O  0  38.734  -.959   11.693  1  12
+UA3  C3*  .  C  0  38.033  1.171   12.879  1  13
+UA3  O3*  .  O  0  37.313  2.45    12.414  1  14
+UA3  C2*  .  C  0  36.882  -.127   13.065  1  15
+UA3  O2*  .  O  0  37.063  -.815   14.546  1  16
+UA3  C1*  .  C  0  37.181  -.862   11.577  1  17
+UA3  O3P  .  O  0  35.124  3.18    13.313  1  18
+UA3  P    .  P  0  36.674  3.571   13.193  1  19
+UA3  O1P  .  O  0  36.906  4.864   12.468  1  20
+UA3  O2P  .  O  0  37.269  3.614   14.575  1  21
+UA3  H6   .  H  0  38.058  -3.081  12.877  1  22
+UA3  H1*  .  H  0  36.838  -.257   10.706  1  23
+UA3  H3   .  H  0  33.657  -3.498  10.891  1  24
+UA3  H5   .  H  0  36.867  -5.179  13.142  1  25
+UA3  H5*  .  H  0  41.692  .532    14.129  1  26
+UA3  1H5  .  H  0  ?       ?       ?       0  27
+UA3  2H5  .  H  0  ?       ?       ?       0  28
+UA3  H4   .  H  0  ?       ?       ?       1  29
+UA3  H3*  .  H  0  38.429  1.387   13.899  1  30
+UA3  H2*  .  H  0  35.861  .319    13.022  1  31
+UA3  HB   .  H  0  36.895  -.401   15.384  1  32
+UA3  H3P  .  H  0  ?       ?       ?       1  33
+UA3  H2P  .  H  0  ?       ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UA3  N1   C6   SING  1 
+UA3  N1   C1*  SING  2 
+UA3  N1   C2   SING  3 
+UA3  C2   O2   DOUB  4 
+UA3  C2   N3   SING  5 
+UA3  N3   C4   SING  6 
+UA3  N3   H3   SING  7 
+UA3  C4   O4   DOUB  8 
+UA3  C4   C5   SING  9 
+UA3  C5   C6   DOUB  10
+UA3  C5   H5   SING  11
+UA3  C6   H6   SING  12
+UA3  O5*  C5*  SING  13
+UA3  O5*  H5*  SING  14
+UA3  C5*  C4*  SING  15
+UA3  C5*  1H5  SING  16
+UA3  C5*  2H5  SING  17
+UA3  C4*  O4*  SING  18
+UA3  C4*  C3*  SING  19
+UA3  C4*  H4   SING  20
+UA3  O4*  C1*  SING  21
+UA3  C3*  O3*  SING  22
+UA3  C3*  H3*  SING  23
+UA3  C3*  C2*  SING  24
+UA3  O3*  P    SING  25
+UA3  C2*  O2*  SING  26
+UA3  C2*  C1*  SING  27
+UA3  C2*  H2*  SING  28
+UA3  O2*  HB   SING  29
+UA3  C1*  H1*  SING  30
+UA3  O3P  P    SING  31
+UA3  O3P  H3P  SING  32
+UA3  P    O1P  DOUB  33
+UA3  P    O2P  SING  34
+UA3  O2P  H2P  SING  35
+#

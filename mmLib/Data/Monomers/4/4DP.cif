@@ -1,0 +1,112 @@
+data_4DP
+#
+_chem_comp.id                       4DP
+_chem_comp.name                     3-[5-(DIMETHYLAMINO)-1,3-DIOXO-1,3-DIHYDRO-2H-ISOINDOL-2-YL]-L-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H15 N3 O4'
+_chem_comp.pdbx_synonyms            '4-(N,N-DIMETHYLAMINO)PHTHALIMIDOALANYL; DAPA'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            277.279
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          4DP
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CN(C)c1ccc2c(c1)C(=O)N(C2=O)C[C@@H](C(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+4DP  OAP   .  O  0  -25.561  64.445  13.703  1  N  1 
+4DP  CAJ   .  C  0  -26.768  64.320  13.892  1  N  2 
+4DP  CAL   .  C  0  -27.681  65.365  13.954  1  Y  3 
+4DP  CAG   .  C  0  -27.557  66.741  13.814  1  Y  4 
+4DP  CAH   .  C  0  -28.686  67.549  13.888  1  Y  5 
+4DP  NAM   .  N  0  -28.555  68.857  13.668  1  N  6 
+4DP  CAD   .  C  0  -29.702  69.768  13.789  1  N  7 
+4DP  CAC   .  C  0  -27.234  69.402  13.324  1  N  8 
+4DP  CAE   .  C  0  -29.935  66.973  14.102  1  Y  9 
+4DP  CAF   .  C  0  -30.059  65.594  14.240  1  Y  10
+4DP  CAK   .  C  0  -28.926  64.790  14.165  1  Y  11
+4DP  CAI   .  C  0  -28.707  63.418  14.218  1  N  12
+4DP  OAO   .  O  0  -29.575  62.560  14.378  1  N  13
+4DP  NAN   .  N  0  -27.413  63.168  14.048  1  N  14
+4DP  CB    .  C  0  -26.814  61.830  13.947  1  N  15
+4DP  CA    .  C  0  -26.452  61.205  15.296  1  N  16
+4DP  C     .  C  0  -26.037  59.778  15.005  1  N  17
+4DP  O     .  O  0  -24.874  59.522  14.699  1  N  18
+4DP  N     .  N  0  -25.315  61.897  15.918  1  N  19
+4DP  OXT   .  O  0  -26.975  58.845  15.084  1  N  20
+4DP  HAG   .  H  0  -26.586  67.183  13.648  1  N  21
+4DP  1HAD  .  H  0  -29.880  69.996  14.850  0  N  22
+4DP  2HAD  .  H  0  -29.489  70.700  13.245  0  N  23
+4DP  3HAD  .  H  0  -30.596  69.290  13.362  0  N  24
+4DP  1HAC  .  H  0  -27.165  69.538  12.235  0  N  25
+4DP  2HAC  .  H  0  -27.096  70.372  13.824  0  N  26
+4DP  3HAC  .  H  0  -26.452  68.704  13.656  0  N  27
+4DP  HAE   .  H  0  -30.813  67.600  14.161  1  N  28
+4DP  HAF   .  H  0  -31.030  65.150  14.404  1  N  29
+4DP  1HB   .  H  0  -27.540  61.170  13.451  0  N  30
+4DP  2HB   .  H  0  -25.876  61.941  13.383  0  N  31
+4DP  HA    .  H  0  -27.309  61.271  15.983  1  N  32
+4DP  1HN   .  H  0  -24.604  62.054  15.232  0  N  33
+4DP  2HN   .  H  0  -25.621  62.774  16.288  0  N  34
+4DP  HOXT  .  H  0  -26.599  57.999  14.873  0  N  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+4DP  OAP  CAJ   DOUB  N  1 
+4DP  CAJ  CAL   SING  N  2 
+4DP  CAJ  NAN   SING  N  3 
+4DP  CAL  CAG   SING  Y  4 
+4DP  CAL  CAK   DOUB  Y  5 
+4DP  CAG  CAH   DOUB  Y  6 
+4DP  CAG  HAG   SING  N  7 
+4DP  CAH  NAM   SING  N  8 
+4DP  CAH  CAE   SING  Y  9 
+4DP  NAM  CAC   SING  N  10
+4DP  NAM  CAD   SING  N  11
+4DP  CAD  1HAD  SING  N  12
+4DP  CAD  2HAD  SING  N  13
+4DP  CAD  3HAD  SING  N  14
+4DP  CAC  1HAC  SING  N  15
+4DP  CAC  2HAC  SING  N  16
+4DP  CAC  3HAC  SING  N  17
+4DP  CAE  CAF   DOUB  Y  18
+4DP  CAE  HAE   SING  N  19
+4DP  CAF  CAK   SING  Y  20
+4DP  CAF  HAF   SING  N  21
+4DP  CAK  CAI   SING  N  22
+4DP  CAI  NAN   SING  N  23
+4DP  CAI  OAO   DOUB  N  24
+4DP  NAN  CB    SING  N  25
+4DP  CB   CA    SING  N  26
+4DP  CB   1HB   SING  N  27
+4DP  CB   2HB   SING  N  28
+4DP  CA   C     SING  N  29
+4DP  CA   N     SING  N  30
+4DP  CA   HA    SING  N  31
+4DP  C    O     DOUB  N  32
+4DP  C    OXT   SING  N  33
+4DP  N    1HN   SING  N  34
+4DP  N    2HN   SING  N  35
+4DP  OXT  HOXT  SING  N  36
+#

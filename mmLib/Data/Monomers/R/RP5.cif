@@ -1,0 +1,82 @@
+data_RP5
+#
+_chem_comp.id                   RP5
+_chem_comp.name                 'RIBOSE-5-PHOSPHATE, PYRANOSE FORM'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 O8 P1'
+_chem_comp.pdbx_synonyms        '[(2R,3S,4S,5R)-3,4,5-TRIHYDROXYTETRAHYDROFURAN-2-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RP5  C1'   .  C  0  51.204  4.561  26.399  1  1 
+RP5  O1'   .  O  0  50.599  3.388  26.893  1  2 
+RP5  C2'   .  C  0  52.159  5.032  27.495  1  3 
+RP5  O2'   .  O  0  53.384  4.323  27.398  1  4 
+RP5  C3'   .  C  0  51.426  4.589  28.757  1  5 
+RP5  O3'   .  O  0  52.4    4.392  29.774  1  6 
+RP5  C4'   .  C  0  50.697  3.314  28.306  1  7 
+RP5  C5'   .  C  0  49.298  3.189  28.944  1  8 
+RP5  O5'   .  O  0  48.622  1.993  28.494  1  9 
+RP5  P'    .  P  0  48.925  .678   29.32   1  10
+RP5  O1P'  .  O  0  48.152  -.448  28.755  0  11
+RP5  O2P'  .  O  0  50.425  .355   29.228  0  12
+RP5  O3P'  .  O  0  48.54   .874   30.789  0  13
+RP5  O1    .  O  0  50.14   5.451  26.176  1  14
+RP5  H1'   .  H  0  51.779  4.449  25.468  1  15
+RP5  H2'   .  H  0  52.396  6.106  27.454  1  16
+RP5  H1    .  H  0  49.311  4.938  26.002  1  17
+RP5  H4'   .  H  0  51.255  2.422  28.628  1  18
+RP5  HA    .  H  0  53.204  3.349  27.412  1  19
+RP5  H3'   .  H  0  50.702  5.299  29.182  1  20
+RP5  HB    .  H  0  52.537  3.422  29.917  1  21
+RP5  1H5'  .  H  0  49.405  3.15   30.038  0  22
+RP5  2H5'  .  H  0  48.699  4.061  28.643  0  23
+RP5  HO'   .  H  0  50.552  -.627  29.22   1  24
+RP5  HOA   .  H  0  48.427  -.009  31.222  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RP5  C1'   O1'   SING  1 
+RP5  C1'   C2'   SING  2 
+RP5  C1'   O1    SING  3 
+RP5  C1'   H1'   SING  4 
+RP5  O1'   C4'   SING  5 
+RP5  C2'   O2'   SING  6 
+RP5  C2'   C3'   SING  7 
+RP5  C2'   H2'   SING  8 
+RP5  O2'   HA    SING  9 
+RP5  C3'   O3'   SING  10
+RP5  C3'   C4'   SING  11
+RP5  C3'   H3'   SING  12
+RP5  O3'   HB    SING  13
+RP5  C4'   C5'   SING  14
+RP5  C4'   H4'   SING  15
+RP5  C5'   O5'   SING  16
+RP5  C5'   1H5'  SING  17
+RP5  C5'   2H5'  SING  18
+RP5  O5'   P'    SING  19
+RP5  P'    O1P'  DOUB  20
+RP5  P'    O2P'  SING  21
+RP5  P'    O3P'  SING  22
+RP5  O2P'  HO'   SING  23
+RP5  O3P'  HOA   SING  24
+RP5  O1    H1    SING  25
+#

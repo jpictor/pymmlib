@@ -1,0 +1,83 @@
+data_NA3
+#
+_chem_comp.id                   NA3
+_chem_comp.name                 '(3S)-3-{[(5-BROMOPYRIDIN-3-YL)CARBONYL]AMINO}-4-OXOBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N2 O4 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        301.096
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NA3  C7   .  C   0  38.968  92.638  21.118  1  1 
+NA3  C8   .  C   0  39.984  93.331  21.802  1  2 
+NA3  C9   .  C   0  40.270  94.642  21.461  1  3 
+NA3  N2   .  N   0  39.633  95.290  20.496  1  4 
+NA3  C10  .  C   0  38.652  94.629  19.827  1  5 
+NA3  C6   .  C   0  38.276  93.314  20.091  1  6 
+NA3  BR1  .  BR  0  41.024  92.519  23.191  0  7 
+NA3  C5   .  C   0  37.113  92.707  19.375  1  8 
+NA3  O4   .  O   0  36.622  91.608  19.669  1  9 
+NA3  N1   .  N   0  36.692  93.463  18.360  1  10
+NA3  C3   .  C   0  35.527  93.159  17.527  1  11
+NA3  C2   .  C   0  34.737  94.406  17.190  1  12
+NA3  C4   .  C   0  35.358  92.099  16.451  1  13
+NA3  O3   .  O   0  35.704  90.929  16.699  1  14
+NA3  C1   .  C   0  34.205  95.088  18.399  1  15
+NA3  O2   .  O   0  33.873  96.276  18.280  1  16
+NA3  O1   .  O   0  34.101  94.415  19.440  1  17
+NA3  H4   .  H   0  ?       ?       ?       1  18
+NA3  H3   .  H   0  ?       ?       ?       1  19
+NA3  1H2  .  H   0  ?       ?       ?       0  20
+NA3  2H2  .  H   0  ?       ?       ?       0  21
+NA3  HO2  .  H   0  ?       ?       ?       1  22
+NA3  HN1  .  H   0  ?       ?       ?       1  23
+NA3  H10  .  H   0  ?       ?       ?       1  24
+NA3  H9   .  H   0  ?       ?       ?       1  25
+NA3  H7   .  H   0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NA3  C7   C8   AROM  1 
+NA3  C7   C6   AROM  2 
+NA3  C7   H7   SING  3 
+NA3  C8   C9   AROM  4 
+NA3  C8   BR1  SING  5 
+NA3  C9   N2   AROM  6 
+NA3  C9   H9   SING  7 
+NA3  N2   C10  AROM  8 
+NA3  C10  C6   AROM  9 
+NA3  C10  H10  SING  10
+NA3  C6   C5   SING  11
+NA3  C5   N1   SING  12
+NA3  C5   O4   DOUB  13
+NA3  N1   C3   SING  14
+NA3  N1   HN1  SING  15
+NA3  C3   C4   SING  16
+NA3  C3   C2   SING  17
+NA3  C3   H3   SING  18
+NA3  C2   C1   SING  19
+NA3  C2   1H2  SING  20
+NA3  C2   2H2  SING  21
+NA3  C4   O3   DOUB  22
+NA3  C4   H4   SING  23
+NA3  C1   O2   SING  24
+NA3  C1   O1   DOUB  25
+NA3  O2   HO2  SING  26
+#

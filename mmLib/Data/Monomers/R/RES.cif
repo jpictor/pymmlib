@@ -1,0 +1,78 @@
+data_RES
+#
+_chem_comp.id                   RES
+_chem_comp.name                 '4-PHOSPHO-D-ERYTHRONOHYDROXAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        231.099
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RES  O7    .  O  0  30.513  -11.469  16.463  1  1 
+RES  P     .  P  0  29.242  -12.241  16.228  1  2 
+RES  O5    .  O  0  28.847  -13.171  17.345  1  3 
+RES  O6    .  O  0  29.17   -12.864  14.855  1  4 
+RES  O4    .  O  0  28.088  -11.123  16.234  1  5 
+RES  C4    .  C  0  28.051  -10.117  15.225  1  6 
+RES  C3    .  C  0  26.667  -9.486   15.219  1  7 
+RES  O3    .  O  0  26.46   -8.797   16.444  1  8 
+RES  C2    .  C  0  26.48   -8.502   14.068  1  9 
+RES  O2    .  O  0  26.822  -9.104   12.827  1  10
+RES  C1    .  C  0  25.043  -8.073   14.059  1  11
+RES  O1    .  O  0  24.151  -8.904   13.988  1  12
+RES  N     .  N  0  24.801  -6.772   14.153  1  13
+RES  ON    .  O  0  23.469  -6.349   14.159  1  14
+RES  1H4C  .  H  0  28.347  -10.506  14.223  0  15
+RES  2H4C  .  H  0  28.864  -9.363   15.344  0  16
+RES  H3    .  H  0  25.904  -10.294  15.128  1  17
+RES  HA    .  H  0  25.596  -8.403   16.44   1  18
+RES  H2    .  H  0  27.129  -7.611   14.236  1  19
+RES  HB    .  H  0  26.706  -8.491   12.11   1  20
+RES  H     .  H  0  25.565  -6.1     14.219  1  21
+RES  HN    .  H  0  23.296  -5.417   14.226  1  22
+RES  H5    .  H  0  ?       ?        ?       1  23
+RES  H6    .  H  0  ?       ?        ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RES  O7  P     DOUB  1 
+RES  P   O5    SING  2 
+RES  P   O6    SING  3 
+RES  P   O4    SING  4 
+RES  O5  H5    SING  5 
+RES  O6  H6    SING  6 
+RES  O4  C4    SING  7 
+RES  C4  C3    SING  8 
+RES  C4  1H4C  SING  9 
+RES  C4  2H4C  SING  10
+RES  C3  O3    SING  11
+RES  C3  C2    SING  12
+RES  C3  H3    SING  13
+RES  O3  HA    SING  14
+RES  C2  O2    SING  15
+RES  C2  C1    SING  16
+RES  C2  H2    SING  17
+RES  O2  HB    SING  18
+RES  C1  O1    DOUB  19
+RES  C1  N     SING  20
+RES  N   ON    SING  21
+RES  N   H     SING  22
+RES  ON  HN    SING  23
+#

@@ -1,0 +1,87 @@
+data_UA5
+#
+_chem_comp.id                   UA5
+_chem_comp.name                 '(4-ETHYLPHENYL)SULFAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        201.240
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          UA5
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCc1ccc(cc1)NS(=O)(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+UA5  O3   .  O  0  18.051  -7.144  29.189  1  N  1 
+UA5  S1   .  S  0  19.527  -7.139  29.268  1  N  2 
+UA5  O1   .  O  0  20.084  -8.347  28.633  1  N  3 
+UA5  O2   .  O  0  19.997  -6.976  30.668  1  N  4 
+UA5  N1   .  N  0  19.994  -5.845  28.431  1  N  5 
+UA5  C3   .  C  0  21.292  -5.440  28.449  1  Y  6 
+UA5  C6   .  C  0  21.732  -4.501  29.378  1  Y  7 
+UA5  C2   .  C  0  23.062  -4.077  29.372  1  Y  8 
+UA5  C5   .  C  0  23.957  -4.591  28.439  1  Y  9 
+UA5  C7   .  C  0  25.409  -4.141  28.445  1  N  10
+UA5  C8   .  C  0  25.600  -2.966  27.512  1  N  11
+UA5  C4   .  C  0  23.517  -5.526  27.506  1  Y  12
+UA5  C1   .  C  0  22.186  -5.945  27.509  1  Y  13
+UA5  HO2  .  H  0  20.946  -6.941  30.682  1  N  14
+UA5  HN1  .  H  0  19.463  -5.079  28.792  1  N  15
+UA5  H6   .  H  0  21.042  -4.099  30.106  1  N  16
+UA5  H2   .  H  0  23.397  -3.347  30.094  1  N  17
+UA5  1H7  .  H  0  26.047  -4.974  28.113  0  N  18
+UA5  2H7  .  H  0  25.685  -3.836  29.465  0  N  19
+UA5  1H8  .  H  0  25.646  -2.036  28.098  0  N  20
+UA5  2H8  .  H  0  26.537  -3.093  26.950  0  N  21
+UA5  3H8  .  H  0  24.755  -2.915  26.809  0  N  22
+UA5  H4   .  H  0  24.207  -5.928  26.779  1  N  23
+UA5  H1   .  H  0  21.848  -6.665  26.778  1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+UA5  O3  S1   DOUB  N  1 
+UA5  S1  N1   SING  N  2 
+UA5  S1  O1   DOUB  N  3 
+UA5  S1  O2   SING  N  4 
+UA5  O2  HO2  SING  N  5 
+UA5  N1  C3   SING  N  6 
+UA5  N1  HN1  SING  N  7 
+UA5  C3  C1   SING  Y  8 
+UA5  C3  C6   DOUB  Y  9 
+UA5  C6  C2   SING  Y  10
+UA5  C6  H6   SING  N  11
+UA5  C2  C5   DOUB  Y  12
+UA5  C2  H2   SING  N  13
+UA5  C5  C4   SING  Y  14
+UA5  C5  C7   SING  N  15
+UA5  C7  C8   SING  N  16
+UA5  C7  1H7  SING  N  17
+UA5  C7  2H7  SING  N  18
+UA5  C8  1H8  SING  N  19
+UA5  C8  2H8  SING  N  20
+UA5  C8  3H8  SING  N  21
+UA5  C4  C1   DOUB  Y  22
+UA5  C4  H4   SING  N  23
+UA5  C1  H1   SING  N  24
+#

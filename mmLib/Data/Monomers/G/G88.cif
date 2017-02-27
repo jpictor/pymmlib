@@ -1,0 +1,80 @@
+data_G88
+#
+_chem_comp.id                   G88
+_chem_comp.name                 '(2S)-2-(PHOSPHONOMETHYL)PENTANEDIOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        226.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G88  O6    .  O  0  14.059  48.828  40.87   1  1 
+G88  C6    .  C  0  14.069  47.592  40.648  1  2 
+G88  O7    .  O  0  13.074  47.085  39.902  1  3 
+G88  C5    .  C  0  15.199  46.746  41.265  1  4 
+G88  C4    .  C  0  14.85   45.263  41.502  1  5 
+G88  C2    .  C  0  16.127  44.492  41.965  1  6 
+G88  C3    .  C  0  17.128  44.637  40.839  1  7 
+G88  O5    .  O  0  17.019  43.885  39.741  1  8 
+G88  O4    .  O  0  18.048  45.457  40.837  1  9 
+G88  C1    .  C  0  16.624  45.123  43.274  1  10
+G88  P1    .  P  0  17.595  43.979  44.23   1  11
+G88  O2    .  O  0  16.637  43.101  45.074  1  12
+G88  O3    .  O  0  18.442  43.015  43.024  1  13
+G88  O1    .  O  0  18.791  44.654  45.256  1  14
+G88  H7    .  H  0  13.082  46.15   39.734  1  15
+G88  1H5C  .  H  0  15.556  47.213  42.212  0  16
+G88  2H5C  .  H  0  16.123  46.829  40.647  0  17
+G88  1H4C  .  H  0  14.377  44.794  40.608  0  18
+G88  2H4C  .  H  0  14.002  45.139  42.215  0  19
+G88  H2    .  H  0  15.946  43.411  42.168  1  20
+G88  1H1C  .  H  0  15.779  45.537  43.872  0  21
+G88  2H1C  .  H  0  17.182  46.069  43.083  0  22
+G88  H5    .  H  0  17.647  43.976  39.034  1  23
+G88  H3    .  H  0  18.96   42.404  43.535  1  24
+G88  H1    .  H  0  19.309  44.043  45.767  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G88  O6  C6    DOUB  1 
+G88  C6  O7    SING  2 
+G88  C6  C5    SING  3 
+G88  O7  H7    SING  4 
+G88  C5  1H5C  SING  5 
+G88  C5  2H5C  SING  6 
+G88  C5  C4    SING  7 
+G88  C4  1H4C  SING  8 
+G88  C4  2H4C  SING  9 
+G88  C4  C2    SING  10
+G88  C2  H2    SING  11
+G88  C2  C1    SING  12
+G88  C2  C3    SING  13
+G88  C3  O5    SING  14
+G88  C3  O4    DOUB  15
+G88  O5  H5    SING  16
+G88  C1  1H1C  SING  17
+G88  C1  2H1C  SING  18
+G88  C1  P1    SING  19
+G88  P1  O1    SING  20
+G88  P1  O2    DOUB  21
+G88  P1  O3    SING  22
+G88  O3  H3    SING  23
+G88  O1  H1    SING  24
+#

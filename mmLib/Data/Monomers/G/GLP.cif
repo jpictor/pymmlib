@@ -1,0 +1,91 @@
+data_GLP
+#
+_chem_comp.id                   GLP
+_chem_comp.name                 'GLUCOSAMINE 6-PHOSPHATE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLP  C1    .  C  0  ?  ?  ?  1  1 
+GLP  C2    .  C  0  ?  ?  ?  1  2 
+GLP  C3    .  C  0  ?  ?  ?  1  3 
+GLP  C4    .  C  0  ?  ?  ?  1  4 
+GLP  C5    .  C  0  ?  ?  ?  1  5 
+GLP  C6    .  C  0  ?  ?  ?  1  6 
+GLP  O1    .  O  0  ?  ?  ?  1  7 
+GLP  N2    .  N  0  ?  ?  ?  1  8 
+GLP  O3    .  O  0  ?  ?  ?  1  9 
+GLP  O4    .  O  0  ?  ?  ?  1  10
+GLP  O5    .  O  0  ?  ?  ?  1  11
+GLP  O6    .  O  0  ?  ?  ?  1  12
+GLP  P     .  P  0  ?  ?  ?  1  13
+GLP  O1P   .  O  0  ?  ?  ?  1  14
+GLP  O2P   .  O  0  ?  ?  ?  1  15
+GLP  O3P   .  O  0  ?  ?  ?  1  16
+GLP  H1    .  H  0  ?  ?  ?  1  17
+GLP  H2    .  H  0  ?  ?  ?  1  18
+GLP  H3    .  H  0  ?  ?  ?  1  19
+GLP  H4    .  H  0  ?  ?  ?  1  20
+GLP  H5    .  H  0  ?  ?  ?  1  21
+GLP  1H6   .  H  0  ?  ?  ?  0  22
+GLP  2H6   .  H  0  ?  ?  ?  0  23
+GLP  HO1   .  H  0  ?  ?  ?  1  24
+GLP  1HN2  .  H  0  ?  ?  ?  0  25
+GLP  2HN2  .  H  0  ?  ?  ?  0  26
+GLP  HO3   .  H  0  ?  ?  ?  1  27
+GLP  HO4   .  H  0  ?  ?  ?  1  28
+GLP  2HOP  .  H  0  ?  ?  ?  0  29
+GLP  3HOP  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLP  C1   C2    SING  1 
+GLP  C1   O1    SING  2 
+GLP  C1   O5    SING  3 
+GLP  C1   H1    SING  4 
+GLP  C2   C3    SING  5 
+GLP  C2   N2    SING  6 
+GLP  C2   H2    SING  7 
+GLP  C3   C4    SING  8 
+GLP  C3   O3    SING  9 
+GLP  C3   H3    SING  10
+GLP  C4   C5    SING  11
+GLP  C4   O4    SING  12
+GLP  C4   H4    SING  13
+GLP  C5   C6    SING  14
+GLP  C5   O5    SING  15
+GLP  C5   H5    SING  16
+GLP  C6   O6    SING  17
+GLP  C6   1H6   SING  18
+GLP  C6   2H6   SING  19
+GLP  O1   HO1   SING  20
+GLP  N2   1HN2  SING  21
+GLP  N2   2HN2  SING  22
+GLP  O3   HO3   SING  23
+GLP  O4   HO4   SING  24
+GLP  O6   P     SING  25
+GLP  P    O1P   DOUB  26
+GLP  P    O2P   SING  27
+GLP  P    O3P   SING  28
+GLP  O2P  2HOP  SING  29
+GLP  O3P  3HOP  SING  30
+#

@@ -1,0 +1,91 @@
+data_CBE
+#
+_chem_comp.id                   CBE
+_chem_comp.name                 2-METHYL-N-PHENYL-5,6-DIHYDRO-1,4-OXATHIINE-3-CARBOXAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O2 S1'
+_chem_comp.pdbx_synonyms        '5,6-DIHYDRO-2-METHYL-1,4-OXATHIIN-3-CARBOXANILID; CARBOXIN; CBX'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBE  C1   .  C  0  84.328  98.568  107.055  1  1 
+CBE  C2   .  C  0  83.218  97.670  106.564  1  2 
+CBE  C3   .  C  0  83.532  96.376  106.409  1  3 
+CBE  S4   .  S  0  82.190  95.376  105.833  1  4 
+CBE  C5   .  C  0  80.984  96.501  105.064  1  5 
+CBE  C6   .  C  0  81.445  97.971  105.054  1  6 
+CBE  O7   .  O  0  82.011  98.276  106.331  1  7 
+CBE  C8   .  C  0  84.878  95.833  106.695  1  8 
+CBE  O9   .  O  0  85.879  96.449  106.332  1  9 
+CBE  N10  .  N  0  85.006  94.679  107.343  1  10
+CBE  C11  .  C  0  86.294  94.159  107.616  1  11
+CBE  C12  .  C  0  86.577  92.814  107.351  1  12
+CBE  C13  .  C  0  87.851  92.300  107.621  1  13
+CBE  C14  .  C  0  88.842  93.132  108.156  1  14
+CBE  C15  .  C  0  88.559  94.477  108.421  1  15
+CBE  C16  .  C  0  87.285  94.991  108.151  1  16
+CBE  H10  .  H  0  ?       ?       ?        1  17
+CBE  1H6  .  H  0  ?       ?       ?        0  18
+CBE  2H6  .  H  0  ?       ?       ?        0  19
+CBE  1H5  .  H  0  ?       ?       ?        0  20
+CBE  2H5  .  H  0  ?       ?       ?        0  21
+CBE  1H1  .  H  0  ?       ?       ?        0  22
+CBE  2H1  .  H  0  ?       ?       ?        0  23
+CBE  3H1  .  H  0  ?       ?       ?        0  24
+CBE  H16  .  H  0  ?       ?       ?        1  25
+CBE  H15  .  H  0  ?       ?       ?        1  26
+CBE  H14  .  H  0  ?       ?       ?        1  27
+CBE  H13  .  H  0  ?       ?       ?        1  28
+CBE  H12  .  H  0  ?       ?       ?        1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBE  C1   C2   SING  1 
+CBE  C1   1H1  SING  2 
+CBE  C1   2H1  SING  3 
+CBE  C1   3H1  SING  4 
+CBE  C2   C3   DOUB  5 
+CBE  C2   O7   SING  6 
+CBE  C3   C8   SING  7 
+CBE  C3   S4   SING  8 
+CBE  S4   C5   SING  9 
+CBE  C5   C6   SING  10
+CBE  C5   1H5  SING  11
+CBE  C5   2H5  SING  12
+CBE  C6   O7   SING  13
+CBE  C6   1H6  SING  14
+CBE  C6   2H6  SING  15
+CBE  C8   N10  SING  16
+CBE  C8   O9   DOUB  17
+CBE  N10  H10  SING  18
+CBE  N10  C11  SING  19
+CBE  C11  C16  DOUB  20
+CBE  C11  C12  SING  21
+CBE  C12  C13  DOUB  22
+CBE  C12  H12  SING  23
+CBE  C13  C14  SING  24
+CBE  C13  H13  SING  25
+CBE  C14  C15  DOUB  26
+CBE  C14  H14  SING  27
+CBE  C15  C16  SING  28
+CBE  C15  H15  SING  29
+CBE  C16  H16  SING  30
+#

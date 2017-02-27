@@ -1,0 +1,118 @@
+data_MNU
+#
+_chem_comp.id                       MNU
+_chem_comp.name                     (2R,4S)-1-[(4R)-3,4-DIHYDROXYTETRAHYDROFURAN-2-YL]-5-[(METHYLAMINO)METHYL]-1,2,3,4-TETRAHYDROPYRIMIDINE-2,4-DIOL-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H18 N3 O9 P1'
+_chem_comp.pdbx_synonyms            C5-(METHYLAMINO)METHYL-URIDINE-5'-MONOPHOSPHATE
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            367.252
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MNU  P     .  P  0  202.242  105.340  7.725   1  1 
+MNU  O2P   .  O  0  203.172  105.111  8.877   1  2 
+MNU  O1P   .  O  0  202.008  106.728  7.226   1  3 
+MNU  O5*   .  O  0  200.840  104.714  8.140   1  4 
+MNU  C5*   .  C  0  200.106  105.210  9.276   1  5 
+MNU  C4*   .  C  0  198.684  104.732  9.197   1  6 
+MNU  O4*   .  O  0  198.036  105.365  8.073   1  7 
+MNU  C1*   .  C  0  197.224  104.426  7.393   1  8 
+MNU  N1    .  N  0  197.686  104.344  5.997   1  9 
+MNU  C6    .  C  0  198.684  105.170  5.534   1  10
+MNU  C2    .  C  0  197.090  103.424  5.159   1  11
+MNU  O2    .  O  0  196.219  102.671  5.524   1  12
+MNU  N3    .  N  0  197.562  103.415  3.874   1  13
+MNU  C4    .  C  0  198.556  104.213  3.348   1  14
+MNU  O4    .  O  0  198.876  104.082  2.162   1  15
+MNU  C5    .  C  0  199.128  105.138  4.278   1  16
+MNU  C7    .  C  0  200.238  106.088  3.845   1  17
+MNU  N8    .  N  0  201.484  105.793  4.590   1  18
+MNU  C9    .  C  0  202.623  106.671  4.230   1  19
+MNU  C2*   .  C  0  197.264  103.118  8.184   1  20
+MNU  O2*   .  O  0  196.170  103.073  9.075   1  21
+MNU  C3*   .  C  0  198.585  103.248  8.919   1  22
+MNU  O3*   .  O  0  198.609  102.539  10.133  1  23
+MNU  O3P   .  O  0  ?        ?        ?       1  24
+MNU  1H9   .  H  0  ?        ?        ?       0  25
+MNU  2H9   .  H  0  ?        ?        ?       0  26
+MNU  3H9   .  H  0  ?        ?        ?       0  27
+MNU  HN8   .  H  0  ?        ?        ?       1  28
+MNU  1H7   .  H  0  ?        ?        ?       0  29
+MNU  2H7   .  H  0  ?        ?        ?       0  30
+MNU  H6    .  H  0  ?        ?        ?       1  31
+MNU  H1*   .  H  0  ?        ?        ?       1  32
+MNU  H4*   .  H  0  ?        ?        ?       1  33
+MNU  1H5*  .  H  0  ?        ?        ?       0  34
+MNU  2H5*  .  H  0  ?        ?        ?       0  35
+MNU  2HOP  .  H  0  ?        ?        ?       0  36
+MNU  3HOP  .  H  0  ?        ?        ?       0  37
+MNU  H3*   .  H  0  ?        ?        ?       1  38
+MNU  H3T   .  H  0  ?        ?        ?       1  39
+MNU  H2*   .  H  0  ?        ?        ?       1  40
+MNU  2HO*  .  H  0  ?        ?        ?       0  41
+MNU  HN3   .  H  0  ?        ?        ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MNU  P    O5*   SING  1 
+MNU  P    O3P   SING  2 
+MNU  P    O2P   SING  3 
+MNU  P    O1P   DOUB  4 
+MNU  O2P  2HOP  SING  5 
+MNU  O5*  C5*   SING  6 
+MNU  C5*  C4*   SING  7 
+MNU  C5*  1H5*  SING  8 
+MNU  C5*  2H5*  SING  9 
+MNU  C4*  O4*   SING  10
+MNU  C4*  C3*   SING  11
+MNU  C4*  H4*   SING  12
+MNU  O4*  C1*   SING  13
+MNU  C1*  N1    SING  14
+MNU  C1*  C2*   SING  15
+MNU  C1*  H1*   SING  16
+MNU  N1   C6    SING  17
+MNU  N1   C2    SING  18
+MNU  C6   C5    DOUB  19
+MNU  C6   H6    SING  20
+MNU  C2   O2    DOUB  21
+MNU  C2   N3    SING  22
+MNU  N3   C4    SING  23
+MNU  N3   HN3   SING  24
+MNU  C4   C5    SING  25
+MNU  C4   O4    DOUB  26
+MNU  C5   C7    SING  27
+MNU  C7   N8    SING  28
+MNU  C7   1H7   SING  29
+MNU  C7   2H7   SING  30
+MNU  N8   C9    SING  31
+MNU  N8   HN8   SING  32
+MNU  C9   1H9   SING  33
+MNU  C9   2H9   SING  34
+MNU  C9   3H9   SING  35
+MNU  C2*  C3*   SING  36
+MNU  C2*  O2*   SING  37
+MNU  C2*  H2*   SING  38
+MNU  O2*  2HO*  SING  39
+MNU  C3*  O3*   SING  40
+MNU  C3*  H3*   SING  41
+MNU  O3*  H3T   SING  42
+MNU  O3P  3HOP  SING  43
+#

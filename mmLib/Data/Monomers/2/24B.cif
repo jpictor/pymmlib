@@ -1,0 +1,64 @@
+data_24B
+#
+_chem_comp.id                   24B
+_chem_comp.name                 (2,4-DIFLUOROPHENYL)METHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O1 F2'
+_chem_comp.pdbx_synonyms        '2,4-DIFLUOROBENZYL ALCOHOL 2,4-DIFLUORO-1-(HYDROXYMETHYL)BENZENE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+24B  F2   .  F  0  2.011   -2.653  21.413  1  1 
+24B  F4   .  F  0  2.977   -1.490  16.999  1  2 
+24B  O1   .  O  0  -1.195  -3.899  20.941  1  3 
+24B  C1   .  C  0  0.216   -2.241  19.944  1  4 
+24B  C2   .  C  0  1.660   -2.317  20.191  1  5 
+24B  C3   .  C  0  2.583   -2.079  19.209  1  6 
+24B  C4   .  C  0  2.098   -1.741  17.957  1  7 
+24B  C5   .  C  0  0.738   -1.653  17.672  1  8 
+24B  C6   .  C  0  -0.213  -1.898  18.662  1  9 
+24B  C7   .  C  0  -0.747  -2.547  21.064  1  10
+24B  HO1  .  H  0  ?       ?       ?       1  11
+24B  H3   .  H  0  ?       ?       ?       1  12
+24B  H5   .  H  0  ?       ?       ?       1  13
+24B  H6   .  H  0  ?       ?       ?       1  14
+24B  1H7  .  H  0  ?       ?       ?       0  15
+24B  2H7  .  H  0  ?       ?       ?       0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+24B  F2  C2   SING  1 
+24B  F4  C4   SING  2 
+24B  O1  C7   SING  3 
+24B  O1  HO1  SING  4 
+24B  C1  C2   AROM  5 
+24B  C1  C6   AROM  6 
+24B  C1  C7   SING  7 
+24B  C2  C3   AROM  8 
+24B  C3  C4   AROM  9 
+24B  C3  H3   SING  10
+24B  C4  C5   AROM  11
+24B  C5  C6   AROM  12
+24B  C5  H5   SING  13
+24B  C6  H6   SING  14
+24B  C7  1H7  SING  15
+24B  C7  2H7  SING  16
+#

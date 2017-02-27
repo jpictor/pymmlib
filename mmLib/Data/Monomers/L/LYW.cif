@@ -1,0 +1,70 @@
+data_LYW
+#
+_chem_comp.id                   LYW
+_chem_comp.name                 '1-AMINO-1-CARBONYL PENTANE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        114.167
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LYW  C1   .  C  0  ?  ?  ?  1  1 
+LYW  N    .  N  0  ?  ?  ?  1  2 
+LYW  C    .  C  0  ?  ?  ?  1  3 
+LYW  O    .  O  0  ?  ?  ?  1  4 
+LYW  C2   .  C  0  ?  ?  ?  1  5 
+LYW  C3   .  C  0  ?  ?  ?  1  6 
+LYW  C4   .  C  0  ?  ?  ?  1  7 
+LYW  C5   .  C  0  ?  ?  ?  1  8 
+LYW  H1   .  H  0  ?  ?  ?  1  9 
+LYW  1HN  .  H  0  ?  ?  ?  0  10
+LYW  2HN  .  H  0  ?  ?  ?  0  11
+LYW  1H2  .  H  0  ?  ?  ?  0  12
+LYW  2H2  .  H  0  ?  ?  ?  0  13
+LYW  1H3  .  H  0  ?  ?  ?  0  14
+LYW  2H3  .  H  0  ?  ?  ?  0  15
+LYW  1H4  .  H  0  ?  ?  ?  0  16
+LYW  2H4  .  H  0  ?  ?  ?  0  17
+LYW  1H5  .  H  0  ?  ?  ?  0  18
+LYW  2H5  .  H  0  ?  ?  ?  0  19
+LYW  3H5  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LYW  C1  C2   SING  1 
+LYW  C1  C    SING  2 
+LYW  C1  N    SING  3 
+LYW  C1  H1   SING  4 
+LYW  N   1HN  SING  5 
+LYW  N   2HN  SING  6 
+LYW  C   O    DOUB  7 
+LYW  C2  C3   SING  8 
+LYW  C2  1H2  SING  9 
+LYW  C2  2H2  SING  10
+LYW  C3  C4   SING  11
+LYW  C3  1H3  SING  12
+LYW  C3  2H3  SING  13
+LYW  C4  C5   SING  14
+LYW  C4  1H4  SING  15
+LYW  C4  2H4  SING  16
+LYW  C5  1H5  SING  17
+LYW  C5  2H5  SING  18
+LYW  C5  3H5  SING  19
+#

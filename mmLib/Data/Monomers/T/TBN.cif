@@ -1,0 +1,101 @@
+data_TBN
+#
+_chem_comp.id                       TBN
+_chem_comp.name                     '2-(4-AMINO-PYRROLO[2,3-D]PYRIMIDIN-7-YL)-5-HYDROXYMETHYL-TETRAHYDRO-FURAN-3,4-DIOL
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C11 H14 N4 O4'
+_chem_comp.pdbx_synonyms            7-DEAZAADENOSINE
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            266.256
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBN  O5'   .  O  0  93.102  65.343  17.035  1  1 
+TBN  C5'   .  C  0  92.952  64.241  17.949  1  2 
+TBN  C4'   .  C  0  93.363  64.633  19.391  1  3 
+TBN  O4'   .  O  0  93.051  65.998  19.698  1  4 
+TBN  C1'   .  C  0  91.875  66.056  20.521  1  5 
+TBN  N9    .  N  0  90.832  66.775  19.722  1  6 
+TBN  C8    .  C  0  90.728  68.158  19.565  1  7 
+TBN  C7    .  C  0  89.667  68.478  18.767  1  8 
+TBN  C5    .  C  0  89.092  67.296  18.413  1  9 
+TBN  C6    .  C  0  87.954  67.112  17.581  1  10
+TBN  N1    .  N  0  87.600  65.790  17.398  1  11
+TBN  C2    .  C  0  88.319  64.797  17.991  1  12
+TBN  N3    .  N  0  89.413  64.904  18.792  1  13
+TBN  C4    .  C  0  89.764  66.227  18.972  1  14
+TBN  N6    .  N  0  87.263  68.110  17.006  1  15
+TBN  C2'   .  C  0  91.616  64.647  21.089  1  16
+TBN  O2'   .  O  0  91.814  64.719  22.502  1  17
+TBN  C3'   .  C  0  92.629  63.741  20.397  1  18
+TBN  O3'   .  O  0  93.502  63.055  21.310  1  19
+TBN  H5'   .  H  0  ?       ?       ?       1  20
+TBN  1H5'  .  H  0  ?       ?       ?       0  21
+TBN  2H5'  .  H  0  ?       ?       ?       0  22
+TBN  H4'   .  H  0  ?       ?       ?       1  23
+TBN  H1'   .  H  0  ?       ?       ?       1  24
+TBN  H8    .  H  0  ?       ?       ?       1  25
+TBN  H7    .  H  0  ?       ?       ?       1  26
+TBN  H2    .  H  0  ?       ?       ?       1  27
+TBN  1HN6  .  H  0  ?       ?       ?       0  28
+TBN  2HN6  .  H  0  ?       ?       ?       0  29
+TBN  H2'   .  H  0  ?       ?       ?       1  30
+TBN  H1    .  H  0  ?       ?       ?       1  31
+TBN  H3'   .  H  0  ?       ?       ?       1  32
+TBN  H3    .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBN  O5'  H5'   SING  1 
+TBN  O5'  C5'   SING  2 
+TBN  C5'  1H5'  SING  3 
+TBN  C5'  2H5'  SING  4 
+TBN  C5'  C4'   SING  5 
+TBN  C4'  H4'   SING  6 
+TBN  C4'  O4'   SING  7 
+TBN  C4'  C3'   SING  8 
+TBN  O4'  C1'   SING  9 
+TBN  C1'  H1'   SING  10
+TBN  C1'  N9    SING  11
+TBN  C1'  C2'   SING  12
+TBN  N9   C8    SING  13
+TBN  N9   C4    SING  14
+TBN  C8   H8    SING  15
+TBN  C8   C7    DOUB  16
+TBN  C7   H7    SING  17
+TBN  C7   C5    SING  18
+TBN  C5   C6    AROM  19
+TBN  C5   C4    AROM  20
+TBN  C6   N1    AROM  21
+TBN  C6   N6    SING  22
+TBN  N1   C2    AROM  23
+TBN  C2   H2    SING  24
+TBN  C2   N3    AROM  25
+TBN  N3   C4    AROM  26
+TBN  N6   1HN6  SING  27
+TBN  N6   2HN6  SING  28
+TBN  C2'  H2'   SING  29
+TBN  C2'  O2'   SING  30
+TBN  C2'  C3'   SING  31
+TBN  O2'  H1    SING  32
+TBN  C3'  H3'   SING  33
+TBN  C3'  O3'   SING  34
+TBN  O3'  H3    SING  35
+#

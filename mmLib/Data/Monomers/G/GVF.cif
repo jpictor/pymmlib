@@ -1,0 +1,103 @@
+data_GVF
+#
+_chem_comp.id                   GVF
+_chem_comp.name                 'BENZENE-1,2,3,4-TETRAYL TETRAKIS[DIHYDROGEN (PHOSPHATE)]'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 O16 P4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        462.030
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GVF  OAE  .  O  0  12.566  7.794   13.192  1  1 
+GVF  PAH  .  P  0  12.703  8.478   14.641  1  2 
+GVF  OAG  .  O  0  13.858  7.646   15.393  1  3 
+GVF  OAI  .  O  0  11.417  8.432   15.371  1  4 
+GVF  OAM  .  O  0  13.212  9.985   14.378  1  5 
+GVF  CAL  .  C  0  14.258  10.406  15.14   1  6 
+GVF  CAP  .  C  0  14.083  10.899  16.435  1  7 
+GVF  OAQ  .  O  0  12.935  10.66   17.129  1  8 
+GVF  PAT  .  P  0  11.673  11.558  16.682  1  9 
+GVF  OAS  .  O  0  12.149  12.58   15.533  1  10
+GVF  OAY  .  O  0  10.66   10.506  16.003  1  11
+GVF  OAU  .  O  0  11.024  12.243  17.82   1  12
+GVF  CAO  .  C  0  15.132  11.551  17.078  1  13
+GVF  OAR  .  O  0  14.906  12.256  18.223  1  14
+GVF  PAW  .  P  0  14.785  11.402  19.585  1  15
+GVF  OAV  .  O  0  13.223  11.256  19.935  1  16
+GVF  OAZ  .  O  0  15.302  9.911   19.267  1  17
+GVF  OAX  .  O  0  15.517  12.056  20.692  1  18
+GVF  CAN  .  C  0  16.364  11.671  16.443  1  19
+GVF  CAJ  .  C  0  16.552  11.162  15.158  1  20
+GVF  CAK  .  C  0  15.494  10.534  14.51   1  21
+GVF  OAF  .  O  0  15.553  10.093  13.224  1  22
+GVF  PAC  .  P  0  16.993  9.709   12.614  1  23
+GVF  OAB  .  O  0  17.856  11.064  12.519  1  24
+GVF  OAA  .  O  0  16.635  9.252   11.114  1  25
+GVF  OAD  .  O  0  17.685  8.635   13.359  1  26
+GVF  HAE  .  H  0  11.884  8.285   12.748  1  27
+GVF  HAG  .  H  0  13.939  8.05    16.249  1  28
+GVF  HAS  .  H  0  11.405  13.109  15.27   1  29
+GVF  HAY  .  H  0  9.916   11.035  15.74   1  30
+GVF  HAN  .  H  0  17.198  12.173  16.962  1  31
+GVF  HAV  .  H  0  13.152  10.753  20.738  1  32
+GVF  HAZ  .  H  0  15.231  9.408   20.07   1  33
+GVF  HAJ  .  H  0  17.531  11.255  14.658  1  34
+GVF  HAB  .  H  0  18.705  10.837  12.159  1  35
+GVF  HAA  .  H  0  17.484  9.026   10.754  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GVF  OAE  PAH  SING  1 
+GVF  OAE  HAE  SING  2 
+GVF  PAH  OAG  SING  3 
+GVF  PAH  OAI  DOUB  4 
+GVF  PAH  OAM  SING  5 
+GVF  OAG  HAG  SING  6 
+GVF  OAM  CAL  SING  7 
+GVF  CAL  CAP  SING  8 
+GVF  CAL  CAK  DOUB  9 
+GVF  CAP  OAQ  SING  10
+GVF  CAP  CAO  DOUB  11
+GVF  OAQ  PAT  SING  12
+GVF  PAT  OAS  SING  13
+GVF  PAT  OAY  SING  14
+GVF  PAT  OAU  DOUB  15
+GVF  OAS  HAS  SING  16
+GVF  OAY  HAY  SING  17
+GVF  CAO  OAR  SING  18
+GVF  CAO  CAN  SING  19
+GVF  OAR  PAW  SING  20
+GVF  PAW  OAV  SING  21
+GVF  PAW  OAZ  SING  22
+GVF  PAW  OAX  DOUB  23
+GVF  OAV  HAV  SING  24
+GVF  OAZ  HAZ  SING  25
+GVF  CAN  CAJ  DOUB  26
+GVF  CAN  HAN  SING  27
+GVF  CAJ  CAK  SING  28
+GVF  CAJ  HAJ  SING  29
+GVF  CAK  OAF  SING  30
+GVF  OAF  PAC  SING  31
+GVF  PAC  OAB  SING  32
+GVF  PAC  OAA  SING  33
+GVF  PAC  OAD  DOUB  34
+GVF  OAB  HAB  SING  35
+GVF  OAA  HAA  SING  36
+#

@@ -1,0 +1,71 @@
+data_DHN
+#
+_chem_comp.id                       DHN
+_chem_comp.name                     '5-HYDROXY NORVALINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            133.147
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHN  N    .  N  0  ?  ?  ?  1  1 
+DHN  CA   .  C  0  ?  ?  ?  1  2 
+DHN  CB   .  C  0  ?  ?  ?  1  3 
+DHN  CG   .  C  0  ?  ?  ?  1  4 
+DHN  CD   .  C  0  ?  ?  ?  1  5 
+DHN  OG   .  O  0  ?  ?  ?  1  6 
+DHN  C    .  C  0  ?  ?  ?  1  7 
+DHN  O    .  O  0  ?  ?  ?  1  8 
+DHN  OXT  .  O  0  ?  ?  ?  1  9 
+DHN  1HN  .  H  0  ?  ?  ?  0  10
+DHN  2HN  .  H  0  ?  ?  ?  0  11
+DHN  HA   .  H  0  ?  ?  ?  1  12
+DHN  1HB  .  H  0  ?  ?  ?  0  13
+DHN  2HB  .  H  0  ?  ?  ?  0  14
+DHN  1HG  .  H  0  ?  ?  ?  0  15
+DHN  2HG  .  H  0  ?  ?  ?  0  16
+DHN  1HD  .  H  0  ?  ?  ?  0  17
+DHN  2HD  .  H  0  ?  ?  ?  0  18
+DHN  HOG  .  H  0  ?  ?  ?  1  19
+DHN  HXT  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHN  N    CA   SING  1 
+DHN  N    1HN  SING  2 
+DHN  N    2HN  SING  3 
+DHN  CA   CB   SING  4 
+DHN  CA   C    SING  5 
+DHN  CA   HA   SING  6 
+DHN  CB   CG   SING  7 
+DHN  CB   1HB  SING  8 
+DHN  CB   2HB  SING  9 
+DHN  CG   CD   SING  10
+DHN  CG   1HG  SING  11
+DHN  CG   2HG  SING  12
+DHN  CD   OG   SING  13
+DHN  CD   1HD  SING  14
+DHN  CD   2HD  SING  15
+DHN  OG   HOG  SING  16
+DHN  C    O    DOUB  17
+DHN  C    OXT  SING  18
+DHN  OXT  HXT  SING  19
+#

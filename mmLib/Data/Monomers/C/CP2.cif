@@ -1,0 +1,52 @@
+data_CP2
+#
+_chem_comp.id                   CP2
+_chem_comp.name                 1,2-DICHLORO-PROPANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        112.986
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CP2  CL1   .  CL  0  ?  ?  ?  0  1 
+CP2  C2    .  C   0  ?  ?  ?  1  2 
+CP2  C3    .  C   0  ?  ?  ?  1  3 
+CP2  C4    .  C   0  ?  ?  ?  1  4 
+CP2  CL5   .  CL  0  ?  ?  ?  0  5 
+CP2  1HC2  .  H   0  ?  ?  ?  0  6 
+CP2  2HC2  .  H   0  ?  ?  ?  0  7 
+CP2  1HC3  .  H   0  ?  ?  ?  0  8 
+CP2  1HC4  .  H   0  ?  ?  ?  0  9 
+CP2  2HC4  .  H   0  ?  ?  ?  0  10
+CP2  3HC4  .  H   0  ?  ?  ?  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CP2  CL1  C2    SING  1 
+CP2  C2   C3    SING  2 
+CP2  C2   1HC2  SING  3 
+CP2  C2   2HC2  SING  4 
+CP2  C3   C4    SING  5 
+CP2  C3   CL5   SING  6 
+CP2  C3   1HC3  SING  7 
+CP2  C4   1HC4  SING  8 
+CP2  C4   2HC4  SING  9 
+CP2  C4   3HC4  SING  10
+#

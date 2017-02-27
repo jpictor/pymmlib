@@ -1,0 +1,54 @@
+data_NML
+#
+_chem_comp.id                   NML
+_chem_comp.name                 N-METHYLACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        73.094
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NML  C1   .  C  0  -7.126   -5.581  -15.964  1  1 
+NML  C2   .  C  0  -8.055   -5.176  -17.142  1  2 
+NML  O2   .  O  0  -7.991   -4.086  -17.734  1  3 
+NML  N3   .  N  0  -8.986   -6.106  -17.473  1  4 
+NML  C3   .  C  0  -10.040  -6.090  -18.491  1  5 
+NML  HN3  .  H  0  ?        ?       ?        1  6 
+NML  1H1  .  H  0  ?        ?       ?        0  7 
+NML  2H1  .  H  0  ?        ?       ?        0  8 
+NML  3H1  .  H  0  ?        ?       ?        0  9 
+NML  1H3  .  H  0  ?        ?       ?        0  10
+NML  2H3  .  H  0  ?        ?       ?        0  11
+NML  3H3  .  H  0  ?        ?       ?        0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NML  C1  C2   SING  1 
+NML  C1  1H1  SING  2 
+NML  C1  2H1  SING  3 
+NML  C1  3H1  SING  4 
+NML  C2  N3   SING  5 
+NML  C2  O2   DOUB  6 
+NML  N3  HN3  SING  7 
+NML  N3  C3   SING  8 
+NML  C3  1H3  SING  9 
+NML  C3  2H3  SING  10
+NML  C3  3H3  SING  11
+#

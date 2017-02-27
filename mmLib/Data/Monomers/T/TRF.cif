@@ -1,0 +1,91 @@
+data_TRF
+#
+_chem_comp.id                       TRF
+_chem_comp.name                     N1-FORMYL-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C12 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            232.238
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRF  N    .  N  0  ?  ?  ?  1  1 
+TRF  CA   .  C  0  ?  ?  ?  1  2 
+TRF  CB   .  C  0  ?  ?  ?  1  3 
+TRF  CG   .  C  0  ?  ?  ?  1  4 
+TRF  CD1  .  C  0  ?  ?  ?  1  5 
+TRF  NE1  .  N  0  ?  ?  ?  1  6 
+TRF  CE2  .  C  0  ?  ?  ?  1  7 
+TRF  CZ2  .  C  0  ?  ?  ?  1  8 
+TRF  CH2  .  C  0  ?  ?  ?  1  9 
+TRF  CZ3  .  C  0  ?  ?  ?  1  10
+TRF  CE3  .  C  0  ?  ?  ?  1  11
+TRF  CD2  .  C  0  ?  ?  ?  1  12
+TRF  C    .  C  0  ?  ?  ?  1  13
+TRF  C1   .  C  0  ?  ?  ?  1  14
+TRF  O1   .  O  0  ?  ?  ?  1  15
+TRF  O    .  O  0  ?  ?  ?  1  16
+TRF  OXT  .  O  0  ?  ?  ?  1  17
+TRF  1HN  .  H  0  ?  ?  ?  0  18
+TRF  2HN  .  H  0  ?  ?  ?  0  19
+TRF  HA   .  H  0  ?  ?  ?  1  20
+TRF  1HB  .  H  0  ?  ?  ?  0  21
+TRF  2HB  .  H  0  ?  ?  ?  0  22
+TRF  HD1  .  H  0  ?  ?  ?  1  23
+TRF  HZ2  .  H  0  ?  ?  ?  1  24
+TRF  HH2  .  H  0  ?  ?  ?  1  25
+TRF  HZ3  .  H  0  ?  ?  ?  1  26
+TRF  HE3  .  H  0  ?  ?  ?  1  27
+TRF  HXT  .  H  0  ?  ?  ?  1  28
+TRF  HC1  .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRF  N    CA   SING  1 
+TRF  N    1HN  SING  2 
+TRF  N    2HN  SING  3 
+TRF  CA   CB   SING  4 
+TRF  CA   C    SING  5 
+TRF  CA   HA   SING  6 
+TRF  CB   CG   SING  7 
+TRF  CB   1HB  SING  8 
+TRF  CB   2HB  SING  9 
+TRF  CG   CD1  DOUB  10
+TRF  CG   CD2  SING  11
+TRF  CD1  NE1  SING  12
+TRF  CD1  HD1  SING  13
+TRF  NE1  CE2  SING  14
+TRF  NE1  C1   SING  15
+TRF  CE2  CZ2  DOUB  16
+TRF  CE2  CD2  SING  17
+TRF  CZ2  CH2  SING  18
+TRF  CZ2  HZ2  SING  19
+TRF  CH2  CZ3  DOUB  20
+TRF  CH2  HH2  SING  21
+TRF  CZ3  CE3  SING  22
+TRF  CZ3  HZ3  SING  23
+TRF  CE3  CD2  DOUB  24
+TRF  CE3  HE3  SING  25
+TRF  C    O    DOUB  26
+TRF  C    OXT  SING  27
+TRF  C1   O1   DOUB  28
+TRF  C1   HC1  SING  29
+TRF  OXT  HXT  SING  30
+#

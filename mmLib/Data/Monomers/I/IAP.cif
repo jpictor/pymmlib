@@ -1,0 +1,77 @@
+data_IAP
+#
+_chem_comp.id                   IAP
+_chem_comp.name                 '4-IODO-ACETAMIDO PHENYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O3 B1 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        304.879
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAP  B     .  B  0  ?  ?  ?  1  1 
+IAP  O1    .  O  0  ?  ?  ?  1  2 
+IAP  O2    .  O  0  ?  ?  ?  1  3 
+IAP  C1    .  C  0  ?  ?  ?  1  4 
+IAP  C2    .  C  0  ?  ?  ?  1  5 
+IAP  C3    .  C  0  ?  ?  ?  1  6 
+IAP  C4    .  C  0  ?  ?  ?  1  7 
+IAP  C5    .  C  0  ?  ?  ?  1  8 
+IAP  C6    .  C  0  ?  ?  ?  1  9 
+IAP  N1    .  N  0  ?  ?  ?  1  10
+IAP  C7    .  C  0  ?  ?  ?  1  11
+IAP  O3    .  O  0  ?  ?  ?  1  12
+IAP  C8    .  C  0  ?  ?  ?  1  13
+IAP  I     .  I  0  ?  ?  ?  1  14
+IAP  1H8   .  H  0  ?  ?  ?  0  15
+IAP  2H8   .  H  0  ?  ?  ?  0  16
+IAP  1HN1  .  H  0  ?  ?  ?  0  17
+IAP  1H4   .  H  0  ?  ?  ?  0  18
+IAP  1H3   .  H  0  ?  ?  ?  0  19
+IAP  1H2   .  H  0  ?  ?  ?  0  20
+IAP  1H6   .  H  0  ?  ?  ?  0  21
+IAP  1HO2  .  H  0  ?  ?  ?  0  22
+IAP  1HO1  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAP  B   O1    SING  1 
+IAP  B   O2    SING  2 
+IAP  B   C1    SING  3 
+IAP  O1  1HO1  SING  4 
+IAP  O2  1HO2  SING  5 
+IAP  C1  C2    AROM  6 
+IAP  C1  C6    AROM  7 
+IAP  C2  C3    AROM  8 
+IAP  C2  1H2   SING  9 
+IAP  C3  C4    AROM  10
+IAP  C3  1H3   SING  11
+IAP  C4  C5    AROM  12
+IAP  C4  1H4   SING  13
+IAP  C5  C6    AROM  14
+IAP  C5  N1    SING  15
+IAP  C6  1H6   SING  16
+IAP  N1  C7    SING  17
+IAP  N1  1HN1  SING  18
+IAP  C7  O3    DOUB  19
+IAP  C7  C8    SING  20
+IAP  C8  I     SING  21
+IAP  C8  1H8   SING  22
+IAP  C8  2H8   SING  23
+#

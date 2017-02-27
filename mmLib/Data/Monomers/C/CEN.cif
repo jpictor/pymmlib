@@ -1,0 +1,121 @@
+data_CEN
+#
+_chem_comp.id                   CEN
+_chem_comp.name                 '7BETA-(4CARBOXYBUTANAMIDO) CEPHALOSPORANIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N2 O8 S1'
+_chem_comp.pdbx_synonyms        'GLUTARYL 7-AMINO CEPHALOSPORANIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        386.376
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CEN  S1    .  S  0  ?  ?  ?  1  1 
+CEN  C2    .  C  0  ?  ?  ?  1  2 
+CEN  C3    .  C  0  ?  ?  ?  1  3 
+CEN  C4    .  C  0  ?  ?  ?  1  4 
+CEN  N5    .  N  0  ?  ?  ?  1  5 
+CEN  C6    .  C  0  ?  ?  ?  1  6 
+CEN  C7    .  C  0  ?  ?  ?  1  7 
+CEN  C8    .  C  0  ?  ?  ?  1  8 
+CEN  O9    .  O  0  ?  ?  ?  1  9 
+CEN  C13   .  C  0  ?  ?  ?  1  10
+CEN  N14   .  N  0  ?  ?  ?  1  11
+CEN  C15   .  C  0  ?  ?  ?  1  12
+CEN  O16   .  O  0  ?  ?  ?  1  13
+CEN  C17   .  C  0  ?  ?  ?  1  14
+CEN  C1    .  C  0  ?  ?  ?  1  15
+CEN  O2    .  O  0  ?  ?  ?  1  16
+CEN  O3    .  O  0  ?  ?  ?  1  17
+CEN  C     .  C  0  ?  ?  ?  1  18
+CEN  C5    .  C  0  ?  ?  ?  1  19
+CEN  C9    .  C  0  ?  ?  ?  1  20
+CEN  C11   .  C  0  ?  ?  ?  1  21
+CEN  O     .  O  0  ?  ?  ?  1  22
+CEN  O1    .  O  0  ?  ?  ?  1  23
+CEN  C10   .  C  0  ?  ?  ?  1  24
+CEN  O4    .  O  0  ?  ?  ?  1  25
+CEN  O5    .  O  0  ?  ?  ?  1  26
+CEN  1HC   .  H  0  ?  ?  ?  0  27
+CEN  2HC   .  H  0  ?  ?  ?  0  28
+CEN  3HC   .  H  0  ?  ?  ?  0  29
+CEN  1H13  .  H  0  ?  ?  ?  0  30
+CEN  2H13  .  H  0  ?  ?  ?  0  31
+CEN  HO4   .  H  0  ?  ?  ?  1  32
+CEN  1HC2  .  H  0  ?  ?  ?  0  33
+CEN  2HC2  .  H  0  ?  ?  ?  0  34
+CEN  HC6   .  H  0  ?  ?  ?  1  35
+CEN  HC7   .  H  0  ?  ?  ?  1  36
+CEN  H14   .  H  0  ?  ?  ?  1  37
+CEN  1H17  .  H  0  ?  ?  ?  0  38
+CEN  2H17  .  H  0  ?  ?  ?  0  39
+CEN  1HC5  .  H  0  ?  ?  ?  0  40
+CEN  2HC5  .  H  0  ?  ?  ?  0  41
+CEN  1HC9  .  H  0  ?  ?  ?  0  42
+CEN  2HC9  .  H  0  ?  ?  ?  0  43
+CEN  HO    .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CEN  S1   C2    SING  1 
+CEN  S1   C6    SING  2 
+CEN  C2   C3    SING  3 
+CEN  C2   1HC2  SING  4 
+CEN  C2   2HC2  SING  5 
+CEN  C3   C4    DOUB  6 
+CEN  C3   C13   SING  7 
+CEN  C4   N5    SING  8 
+CEN  C4   C10   SING  9 
+CEN  N5   C6    SING  10
+CEN  N5   C8    SING  11
+CEN  C6   C7    SING  12
+CEN  C6   HC6   SING  13
+CEN  C7   C8    SING  14
+CEN  C7   N14   SING  15
+CEN  C7   HC7   SING  16
+CEN  C8   O9    DOUB  17
+CEN  C13  O3    SING  18
+CEN  C13  1H13  SING  19
+CEN  C13  2H13  SING  20
+CEN  N14  C15   SING  21
+CEN  N14  H14   SING  22
+CEN  C15  O16   DOUB  23
+CEN  C15  C17   SING  24
+CEN  C17  C5    SING  25
+CEN  C17  1H17  SING  26
+CEN  C17  2H17  SING  27
+CEN  C1   O2    DOUB  28
+CEN  C1   O3    SING  29
+CEN  C1   C     SING  30
+CEN  C    1HC   SING  31
+CEN  C    2HC   SING  32
+CEN  C    3HC   SING  33
+CEN  C5   C9    SING  34
+CEN  C5   1HC5  SING  35
+CEN  C5   2HC5  SING  36
+CEN  C9   C11   SING  37
+CEN  C9   1HC9  SING  38
+CEN  C9   2HC9  SING  39
+CEN  C11  O     SING  40
+CEN  C11  O1    DOUB  41
+CEN  O    HO    SING  42
+CEN  C10  O4    SING  43
+CEN  C10  O5    DOUB  44
+CEN  O4   HO4   SING  45
+#

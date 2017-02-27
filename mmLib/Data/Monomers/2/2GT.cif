@@ -1,0 +1,117 @@
+data_2GT
+#
+_chem_comp.id                       2GT
+_chem_comp.name                     '2'-O-PROPARGYL THYMIDINE-5'-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H17 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            376.259
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2GT  P     .  P  0  10.749  4.067   5.377   1  1 
+2GT  O1P   .  O  0  11.961  4.604   4.673   1  2 
+2GT  O2P   .  O  0  10.921  3.350   6.620   1  3 
+2GT  O5*   .  O  0  9.747   5.281   5.596   1  4 
+2GT  C5*   .  C  0  9.479   6.145   4.523   1  5 
+2GT  C4*   .  C  0  8.428   7.143   4.925   1  6 
+2GT  O4*   .  O  0  7.160   6.460   5.106   1  7 
+2GT  C1*   .  C  0  6.438   7.082   6.161   1  8 
+2GT  N1    .  N  0  6.258   6.107   7.266   1  9 
+2GT  C6    .  C  0  7.110   5.029   7.466   1  10
+2GT  C2    .  C  0  5.200   6.336   8.099   1  11
+2GT  O2    .  O  0  4.485   7.315   7.980   1  12
+2GT  N3    .  N  0  5.027   5.398   9.095   1  13
+2GT  C4    .  C  0  5.827   4.304   9.354   1  14
+2GT  O4    .  O  0  5.576   3.577   10.291  1  15
+2GT  C5    .  C  0  6.949   4.135   8.461   1  16
+2GT  C5M   .  C  0  7.884   2.988   8.690   1  17
+2GT  C2*   .  C  0  7.268   8.288   6.624   1  18
+2GT  O2*   .  O  0  6.939   9.362   5.745   1  19
+2GT  CB'   .  C  0  5.693   9.974   6.052   1  20
+2GT  CC'   .  C  0  5.418   11.002  5.044   1  21
+2GT  CD'   .  C  0  5.193   11.831  4.192   1  22
+2GT  C3*   .  C  0  8.666   7.817   6.267   1  23
+2GT  O3*   .  O  0  9.613   8.876   6.221   1  24
+2GT  O3P   .  O  0  ?       ?       ?       1  25
+2GT  HD'   .  H  0  ?       ?       ?       1  26
+2GT  1HB'  .  H  0  ?       ?       ?       0  27
+2GT  2HB'  .  H  0  ?       ?       ?       0  28
+2GT  H2*   .  H  0  ?       ?       ?       1  29
+2GT  H3*   .  H  0  ?       ?       ?       1  30
+2GT  H3T   .  H  0  ?       ?       ?       1  31
+2GT  H4*   .  H  0  ?       ?       ?       1  32
+2GT  1H5*  .  H  0  ?       ?       ?       0  33
+2GT  2H5*  .  H  0  ?       ?       ?       0  34
+2GT  3HOP  .  H  0  ?       ?       ?       0  35
+2GT  H1*   .  H  0  ?       ?       ?       1  36
+2GT  H6    .  H  0  ?       ?       ?       1  37
+2GT  1H5M  .  H  0  ?       ?       ?       0  38
+2GT  2H5M  .  H  0  ?       ?       ?       0  39
+2GT  3H5M  .  H  0  ?       ?       ?       0  40
+2GT  HN3   .  H  0  ?       ?       ?       1  41
+2GT  2HOP  .  H  0  ?       ?       ?       0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2GT  P    O5*   SING  1 
+2GT  P    O3P   SING  2 
+2GT  P    O1P   DOUB  3 
+2GT  P    O2P   SING  4 
+2GT  O2P  2HOP  SING  5 
+2GT  O5*  C5*   SING  6 
+2GT  C5*  C4*   SING  7 
+2GT  C5*  1H5*  SING  8 
+2GT  C5*  2H5*  SING  9 
+2GT  C4*  C3*   SING  10
+2GT  C4*  O4*   SING  11
+2GT  C4*  H4*   SING  12
+2GT  O4*  C1*   SING  13
+2GT  C1*  C2*   SING  14
+2GT  C1*  N1    SING  15
+2GT  C1*  H1*   SING  16
+2GT  N1   C6    SING  17
+2GT  N1   C2    SING  18
+2GT  C6   C5    DOUB  19
+2GT  C6   H6    SING  20
+2GT  C2   N3    SING  21
+2GT  C2   O2    DOUB  22
+2GT  N3   C4    SING  23
+2GT  N3   HN3   SING  24
+2GT  C4   C5    SING  25
+2GT  C4   O4    DOUB  26
+2GT  C5   C5M   SING  27
+2GT  C5M  1H5M  SING  28
+2GT  C5M  2H5M  SING  29
+2GT  C5M  3H5M  SING  30
+2GT  C2*  O2*   SING  31
+2GT  C2*  C3*   SING  32
+2GT  C2*  H2*   SING  33
+2GT  O2*  CB'   SING  34
+2GT  CB'  CC'   SING  35
+2GT  CB'  1HB'  SING  36
+2GT  CB'  2HB'  SING  37
+2GT  CC'  CD'   TRIP  38
+2GT  CD'  HD'   SING  39
+2GT  C3*  O3*   SING  40
+2GT  C3*  H3*   SING  41
+2GT  O3*  H3T   SING  42
+2GT  O3P  3HOP  SING  43
+#

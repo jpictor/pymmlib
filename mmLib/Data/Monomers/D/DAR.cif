@@ -1,0 +1,85 @@
+data_DAR
+#
+_chem_comp.id                       DAR
+_chem_comp.name                     D-ARGININE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H15 N4 O2'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           175.210
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAR  N     .  N  0  ?  ?  ?  1  1 
+DAR  CA    .  C  0  ?  ?  ?  1  2 
+DAR  CB    .  C  0  ?  ?  ?  1  3 
+DAR  CG    .  C  0  ?  ?  ?  1  4 
+DAR  CD    .  C  0  ?  ?  ?  1  5 
+DAR  NE    .  N  0  ?  ?  ?  1  6 
+DAR  CZ    .  C  0  ?  ?  ?  1  7 
+DAR  NH1   .  N  0  ?  ?  ?  1  8 
+DAR  NH2   .  N  1  ?  ?  ?  1  9 
+DAR  C     .  C  0  ?  ?  ?  1  10
+DAR  O     .  O  0  ?  ?  ?  1  11
+DAR  OXT   .  O  0  ?  ?  ?  1  12
+DAR  H     .  H  0  ?  ?  ?  1  13
+DAR  HN2   .  H  0  ?  ?  ?  1  14
+DAR  HA    .  H  0  ?  ?  ?  1  15
+DAR  1HB   .  H  0  ?  ?  ?  0  16
+DAR  2HB   .  H  0  ?  ?  ?  0  17
+DAR  1HG   .  H  0  ?  ?  ?  0  18
+DAR  2HG   .  H  0  ?  ?  ?  0  19
+DAR  1HD   .  H  0  ?  ?  ?  0  20
+DAR  2HD   .  H  0  ?  ?  ?  0  21
+DAR  HNE   .  H  0  ?  ?  ?  1  22
+DAR  1HH1  .  H  0  ?  ?  ?  0  23
+DAR  2HH1  .  H  0  ?  ?  ?  0  24
+DAR  1HH2  .  H  0  ?  ?  ?  0  25
+DAR  2HH2  .  H  0  ?  ?  ?  0  26
+DAR  HXT   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAR  N    CA    SING  1 
+DAR  N    H     SING  2 
+DAR  N    HN2   SING  3 
+DAR  CA   C     SING  4 
+DAR  CA   CB    SING  5 
+DAR  CA   HA    SING  6 
+DAR  CB   CG    SING  7 
+DAR  CB   1HB   SING  8 
+DAR  CB   2HB   SING  9 
+DAR  CG   CD    SING  10
+DAR  CG   1HG   SING  11
+DAR  CG   2HG   SING  12
+DAR  CD   NE    SING  13
+DAR  CD   1HD   SING  14
+DAR  CD   2HD   SING  15
+DAR  NE   CZ    SING  16
+DAR  NE   HNE   SING  17
+DAR  CZ   NH1   SING  18
+DAR  CZ   NH2   DOUB  19
+DAR  NH1  1HH1  SING  20
+DAR  NH1  2HH1  SING  21
+DAR  NH2  1HH2  SING  22
+DAR  NH2  2HH2  SING  23
+DAR  C    O     DOUB  24
+DAR  C    OXT   SING  25
+DAR  OXT  HXT   SING  26
+#

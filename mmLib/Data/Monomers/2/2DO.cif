@@ -1,0 +1,78 @@
+data_2DO
+#
+_chem_comp.id                   2DO
+_chem_comp.name                 (2S)-2-AMINOHEXANE-1,1-DIOL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        133.190
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2DO  N     .  N  0  18.083  24.795  18.423  1  1 
+2DO  CA    .  C  0  17.350  23.822  19.232  1  2 
+2DO  C     .  C  0  15.847  23.837  18.916  1  3 
+2DO  CB    .  C  0  17.670  24.091  20.708  1  4 
+2DO  CG    .  C  0  19.076  23.958  21.211  1  5 
+2DO  CD    .  C  0  19.819  22.763  20.721  1  6 
+2DO  CE    .  C  0  19.302  21.427  21.170  1  7 
+2DO  O     .  O  0  15.291  25.110  19.228  1  8 
+2DO  OXT   .  O  0  15.473  23.752  17.507  1  9 
+2DO  HO    .  H  0  ?       ?       ?       1  10
+2DO  HCA   .  H  0  17.671  22.798  18.988  1  11
+2DO  1HN   .  H  0  18.251  25.620  18.964  0  12
+2DO  2HN   .  H  0  18.957  24.401  18.138  0  13
+2DO  1HCB  .  H  0  17.378  25.135  20.897  0  14
+2DO  2HCB  .  H  0  17.131  23.294  21.240  0  15
+2DO  1HCG  .  H  0  19.630  24.851  20.884  0  16
+2DO  2HCG  .  H  0  19.002  23.847  22.302  0  17
+2DO  1HCD  .  H  0  19.772  22.778  19.622  0  18
+2DO  2HCD  .  H  0  20.830  22.849  21.144  0  19
+2DO  1HCE  .  H  0  19.175  20.769  20.298  0  20
+2DO  2HCE  .  H  0  20.019  20.973  21.870  0  21
+2DO  3HCE  .  H  0  18.332  21.559  21.673  0  22
+2DO  H     .  H  0  ?       ?       ?       1  23
+2DO  HXT   .  H  0  15.000  24.536  17.257  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2DO  N    CA    SING  1 
+2DO  N    1HN   SING  2 
+2DO  N    2HN   SING  3 
+2DO  CA   C     SING  4 
+2DO  CA   HCA   SING  5 
+2DO  CA   CB    SING  6 
+2DO  C    O     SING  7 
+2DO  C    OXT   SING  8 
+2DO  C    H     SING  9 
+2DO  CB   1HCB  SING  10
+2DO  CB   2HCB  SING  11
+2DO  CB   CG    SING  12
+2DO  CG   1HCG  SING  13
+2DO  CG   2HCG  SING  14
+2DO  CG   CD    SING  15
+2DO  CD   1HCD  SING  16
+2DO  CD   2HCD  SING  17
+2DO  CD   CE    SING  18
+2DO  CE   1HCE  SING  19
+2DO  CE   2HCE  SING  20
+2DO  CE   3HCE  SING  21
+2DO  O    HO    SING  22
+2DO  OXT  HXT   SING  23
+#

@@ -1,0 +1,121 @@
+data_GNH
+#
+_chem_comp.id                   GNH
+_chem_comp.name                 'AMINOPHOSPHONIC ACID-GUANYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N6 O10 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        442.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNH  N3B   .  N  0  ?  ?  ?  1  1 
+GNH  PB    .  P  0  ?  ?  ?  1  2 
+GNH  O1B   .  O  0  ?  ?  ?  1  3 
+GNH  O2B   .  O  0  ?  ?  ?  1  4 
+GNH  O3A   .  O  0  ?  ?  ?  1  5 
+GNH  PA    .  P  0  ?  ?  ?  1  6 
+GNH  O1A   .  O  0  ?  ?  ?  1  7 
+GNH  O2A   .  O  0  ?  ?  ?  1  8 
+GNH  O5*   .  O  0  ?  ?  ?  1  9 
+GNH  C5*   .  C  0  ?  ?  ?  1  10
+GNH  C4*   .  C  0  ?  ?  ?  1  11
+GNH  O4*   .  O  0  ?  ?  ?  1  12
+GNH  C3*   .  C  0  ?  ?  ?  1  13
+GNH  O3*   .  O  0  ?  ?  ?  1  14
+GNH  C2*   .  C  0  ?  ?  ?  1  15
+GNH  O2*   .  O  0  ?  ?  ?  1  16
+GNH  C1*   .  C  0  ?  ?  ?  1  17
+GNH  N9    .  N  0  ?  ?  ?  1  18
+GNH  C8    .  C  0  ?  ?  ?  1  19
+GNH  N7    .  N  0  ?  ?  ?  1  20
+GNH  C5    .  C  0  ?  ?  ?  1  21
+GNH  C6    .  C  0  ?  ?  ?  1  22
+GNH  O6    .  O  0  ?  ?  ?  1  23
+GNH  N1    .  N  0  ?  ?  ?  1  24
+GNH  C2    .  C  0  ?  ?  ?  1  25
+GNH  N2    .  N  0  ?  ?  ?  1  26
+GNH  N3    .  N  0  ?  ?  ?  1  27
+GNH  C4    .  C  0  ?  ?  ?  1  28
+GNH  1HN2  .  H  0  ?  ?  ?  0  29
+GNH  2HN2  .  H  0  ?  ?  ?  0  30
+GNH  HN1   .  H  0  ?  ?  ?  1  31
+GNH  H8    .  H  0  ?  ?  ?  1  32
+GNH  H1*   .  H  0  ?  ?  ?  1  33
+GNH  H2*   .  H  0  ?  ?  ?  1  34
+GNH  *HO2  .  H  0  ?  ?  ?  0  35
+GNH  H3*   .  H  0  ?  ?  ?  1  36
+GNH  *HO3  .  H  0  ?  ?  ?  0  37
+GNH  H4*   .  H  0  ?  ?  ?  1  38
+GNH  2H5*  .  H  0  ?  ?  ?  0  39
+GNH  1H5*  .  H  0  ?  ?  ?  0  40
+GNH  2HOA  .  H  0  ?  ?  ?  0  41
+GNH  2HOB  .  H  0  ?  ?  ?  0  42
+GNH  1HN3  .  H  0  ?  ?  ?  0  43
+GNH  2HN3  .  H  0  ?  ?  ?  0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNH  N3B  PB    SING  1 
+GNH  N3B  1HN3  SING  2 
+GNH  N3B  2HN3  SING  3 
+GNH  PB   O1B   DOUB  4 
+GNH  PB   O2B   SING  5 
+GNH  PB   O3A   SING  6 
+GNH  O2B  2HOB  SING  7 
+GNH  O3A  PA    SING  8 
+GNH  PA   O1A   DOUB  9 
+GNH  PA   O2A   SING  10
+GNH  PA   O5*   SING  11
+GNH  O2A  2HOA  SING  12
+GNH  O5*  C5*   SING  13
+GNH  C5*  C4*   SING  14
+GNH  C5*  1H5*  SING  15
+GNH  C5*  2H5*  SING  16
+GNH  C4*  O4*   SING  17
+GNH  C4*  C3*   SING  18
+GNH  C4*  H4*   SING  19
+GNH  O4*  C1*   SING  20
+GNH  C3*  O3*   SING  21
+GNH  C3*  C2*   SING  22
+GNH  C3*  H3*   SING  23
+GNH  O3*  *HO3  SING  24
+GNH  C2*  O2*   SING  25
+GNH  C2*  C1*   SING  26
+GNH  C2*  H2*   SING  27
+GNH  O2*  *HO2  SING  28
+GNH  C1*  N9    SING  29
+GNH  C1*  H1*   SING  30
+GNH  N9   C8    SING  31
+GNH  N9   C4    SING  32
+GNH  C8   N7    DOUB  33
+GNH  C8   H8    SING  34
+GNH  N7   C5    SING  35
+GNH  C5   C6    SING  36
+GNH  C5   C4    DOUB  37
+GNH  C6   O6    DOUB  38
+GNH  C6   N1    SING  39
+GNH  N1   C2    SING  40
+GNH  N1   HN1   SING  41
+GNH  C2   N2    SING  42
+GNH  C2   N3    DOUB  43
+GNH  N2   1HN2  SING  44
+GNH  N2   2HN2  SING  45
+GNH  N3   C4    SING  46
+#

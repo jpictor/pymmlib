@@ -1,0 +1,105 @@
+data_PX1
+#
+_chem_comp.id                   PX1
+_chem_comp.name                 (1Z)-7-AMINO-1-(HYDROXYMETHYLENE)-2-IMINO-4,6-DIMETHYL-3-OXO-2,3-DIHYDRO-1H-PHENOXAZINE-9-CARBALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H13 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        311.296
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PX1  C1    .  C  0  11.35   61.494  47.031  1  1 
+PX1  C     .  C  0  11.092  61.251  48.501  1  2 
+PX1  O     .  O  0  12.015  60.884  49.237  1  3 
+PX1  C2    .  C  0  12.042  62.635  46.654  1  4 
+PX1  N2    .  N  0  12.544  63.549  47.467  1  5 
+PX1  C3    .  C  0  12.314  62.921  45.186  1  6 
+PX1  O3    .  O  0  12.951  63.959  44.908  1  7 
+PX1  C4    .  C  0  11.846  61.995  44.2    1  8 
+PX1  O5    .  O  0  10.736  60.053  43.67   1  9 
+PX1  C6    .  C  0  9.716   58.065  42.968  1  10
+PX1  C7    .  C  0  9.009   56.908  43.287  1  11
+PX1  C8    .  C  0  8.707   56.645  44.633  1  12
+PX1  C9    .  C  0  9.13    57.448  45.659  1  13
+PX1  C*    .  C  0  8.74    57.057  47.067  1  14
+PX1  O*    .  O  0  7.584   57.282  47.451  1  15
+PX1  N10   .  N  0  10.238  59.487  46.367  1  16
+PX1  C11   .  C  0  10.887  60.591  46.034  1  17
+PX1  C12   .  C  0  11.185  60.899  44.626  1  18
+PX1  C13   .  C  0  10.091  58.883  44.017  1  19
+PX1  C14   .  C  0  9.851   58.617  45.369  1  20
+PX1  C15   .  C  0  12.113  62.233  42.73   1  21
+PX1  C16   .  C  0  10.037  58.456  41.536  1  22
+PX1  N7    .  N  0  8.587   56.075  42.332  1  23
+PX1  H     .  H  0  10.119  61.395  48.901  1  24
+PX1  HA    .  H  0  12.892  60.754  48.876  1  25
+PX1  H2    .  H  0  12.439  63.45   48.452  1  26
+PX1  1H15  .  H  0  12.207  61.267  42.213  0  27
+PX1  2H15  .  H  0  11.279  62.803  42.294  0  28
+PX1  3H15  .  H  0  13.047  62.803  42.615  0  29
+PX1  1H16  .  H  0  9.101   58.608  40.978  0  30
+PX1  2H16  .  H  0  10.621  59.388  41.533  0  31
+PX1  3H16  .  H  0  10.621  57.655  41.06   0  32
+PX1  H8    .  H  0  8.126   55.787  44.865  1  33
+PX1  1H7N  .  H  0  8.776   56.277  41.376  0  34
+PX1  2H7N  .  H  0  8.083   55.252  42.576  0  35
+PX1  H9    .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PX1  C1   C     DOUB  1 
+PX1  C1   C2    SING  2 
+PX1  C1   C11   SING  3 
+PX1  C    O     SING  4 
+PX1  C    H     SING  5 
+PX1  O    HA    SING  6 
+PX1  C2   N2    DOUB  7 
+PX1  C2   C3    SING  8 
+PX1  N2   H2    SING  9 
+PX1  C3   O3    DOUB  10
+PX1  C3   C4    SING  11
+PX1  C4   C12   DOUB  12
+PX1  C4   C15   SING  13
+PX1  O5   C12   SING  14
+PX1  O5   C13   SING  15
+PX1  C6   C7    AROM  16
+PX1  C6   C13   AROM  17
+PX1  C6   C16   SING  18
+PX1  C7   C8    AROM  19
+PX1  C7   N7    SING  20
+PX1  C8   C9    AROM  21
+PX1  C8   H8    SING  22
+PX1  C9   C*    SING  23
+PX1  C9   C14   AROM  24
+PX1  C*   O*    DOUB  25
+PX1  C*   H9    SING  26
+PX1  N10  C11   DOUB  27
+PX1  N10  C14   SING  28
+PX1  C11  C12   SING  29
+PX1  C13  C14   AROM  30
+PX1  C15  1H15  SING  31
+PX1  C15  2H15  SING  32
+PX1  C15  3H15  SING  33
+PX1  C16  1H16  SING  34
+PX1  C16  2H16  SING  35
+PX1  C16  3H16  SING  36
+PX1  N7   1H7N  SING  37
+PX1  N7   2H7N  SING  38
+#

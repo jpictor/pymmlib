@@ -1,0 +1,112 @@
+data_DPU
+#
+_chem_comp.id                   DPU
+_chem_comp.name                 'MIXED CARBAMIC PHOSPHORIC ACID ANHYDRIDE OF 7,8-DIAMINONONANIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H21 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        312.259
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPU  CA    .  C  0  ?  ?  ?  1  1 
+DPU  C     .  C  0  ?  ?  ?  1  2 
+DPU  OI1   .  O  0  ?  ?  ?  1  3 
+DPU  OI2   .  O  0  ?  ?  ?  1  4 
+DPU  CB    .  C  0  ?  ?  ?  1  5 
+DPU  CG    .  C  0  ?  ?  ?  1  6 
+DPU  CD    .  C  0  ?  ?  ?  1  7 
+DPU  CE    .  C  0  ?  ?  ?  1  8 
+DPU  CZ    .  C  0  ?  ?  ?  1  9 
+DPU  CH    .  C  0  ?  ?  ?  1  10
+DPU  CS    .  C  0  ?  ?  ?  1  11
+DPU  N1    .  N  0  ?  ?  ?  1  12
+DPU  N2    .  N  0  ?  ?  ?  1  13
+DPU  CN1   .  C  0  ?  ?  ?  1  14
+DPU  O12   .  O  0  ?  ?  ?  1  15
+DPU  O2B   .  O  0  ?  ?  ?  1  16
+DPU  PB    .  P  0  ?  ?  ?  1  17
+DPU  O1B   .  O  0  ?  ?  ?  1  18
+DPU  O3B   .  O  0  ?  ?  ?  1  19
+DPU  O2A   .  O  0  ?  ?  ?  1  20
+DPU  1HA   .  H  0  ?  ?  ?  0  21
+DPU  2HA   .  H  0  ?  ?  ?  0  22
+DPU  HO1   .  H  0  ?  ?  ?  1  23
+DPU  1HB   .  H  0  ?  ?  ?  0  24
+DPU  2HB   .  H  0  ?  ?  ?  0  25
+DPU  1HG   .  H  0  ?  ?  ?  0  26
+DPU  2HG   .  H  0  ?  ?  ?  0  27
+DPU  1HD   .  H  0  ?  ?  ?  0  28
+DPU  2HD   .  H  0  ?  ?  ?  0  29
+DPU  1HE   .  H  0  ?  ?  ?  0  30
+DPU  2HE   .  H  0  ?  ?  ?  0  31
+DPU  HZ    .  H  0  ?  ?  ?  1  32
+DPU  HH    .  H  0  ?  ?  ?  1  33
+DPU  1HS   .  H  0  ?  ?  ?  0  34
+DPU  2HS   .  H  0  ?  ?  ?  0  35
+DPU  3HS   .  H  0  ?  ?  ?  0  36
+DPU  HN1   .  H  0  ?  ?  ?  1  37
+DPU  1HN2  .  H  0  ?  ?  ?  0  38
+DPU  2HN2  .  H  0  ?  ?  ?  0  39
+DPU  HO3   .  H  0  ?  ?  ?  1  40
+DPU  HO2   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPU  CA   C     SING  1 
+DPU  CA   CB    SING  2 
+DPU  CA   1HA   SING  3 
+DPU  CA   2HA   SING  4 
+DPU  C    OI1   SING  5 
+DPU  C    OI2   DOUB  6 
+DPU  OI1  HO1   SING  7 
+DPU  CB   CG    SING  8 
+DPU  CB   1HB   SING  9 
+DPU  CB   2HB   SING  10
+DPU  CG   CD    SING  11
+DPU  CG   1HG   SING  12
+DPU  CG   2HG   SING  13
+DPU  CD   CE    SING  14
+DPU  CD   1HD   SING  15
+DPU  CD   2HD   SING  16
+DPU  CE   CZ    SING  17
+DPU  CE   1HE   SING  18
+DPU  CE   2HE   SING  19
+DPU  CZ   CH    SING  20
+DPU  CZ   N1    SING  21
+DPU  CZ   HZ    SING  22
+DPU  CH   CS    SING  23
+DPU  CH   N2    SING  24
+DPU  CH   HH    SING  25
+DPU  CS   1HS   SING  26
+DPU  CS   2HS   SING  27
+DPU  CS   3HS   SING  28
+DPU  N1   CN1   SING  29
+DPU  N1   HN1   SING  30
+DPU  N2   1HN2  SING  31
+DPU  N2   2HN2  SING  32
+DPU  CN1  O12   DOUB  33
+DPU  CN1  O1B   SING  34
+DPU  O2B  PB    DOUB  35
+DPU  PB   O1B   SING  36
+DPU  PB   O3B   SING  37
+DPU  PB   O2A   SING  38
+DPU  O3B  HO3   SING  39
+DPU  O2A  HO2   SING  40
+#

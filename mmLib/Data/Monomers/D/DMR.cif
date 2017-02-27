@@ -1,0 +1,60 @@
+data_DMR
+#
+_chem_comp.id                   DMR
+_chem_comp.name                 '2-HYDROXY-SUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        134.088
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMR  C1    .  C  0  ?  ?  ?  1  1 
+DMR  O1A   .  O  0  ?  ?  ?  1  2 
+DMR  O1B   .  O  0  ?  ?  ?  1  3 
+DMR  C2    .  C  0  ?  ?  ?  1  4 
+DMR  O2    .  O  0  ?  ?  ?  1  5 
+DMR  C3    .  C  0  ?  ?  ?  1  6 
+DMR  C4    .  C  0  ?  ?  ?  1  7 
+DMR  O4A   .  O  0  ?  ?  ?  1  8 
+DMR  O4B   .  O  0  ?  ?  ?  1  9 
+DMR  1H3   .  H  0  ?  ?  ?  0  10
+DMR  2H3   .  H  0  ?  ?  ?  0  11
+DMR  1H2   .  H  0  ?  ?  ?  0  12
+DMR  1HO2  .  H  0  ?  ?  ?  0  13
+DMR  1HO4  .  H  0  ?  ?  ?  0  14
+DMR  1HO1  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMR  C1   O1A   DOUB  1 
+DMR  C1   O1B   SING  2 
+DMR  C1   C2    SING  3 
+DMR  O1B  1HO1  SING  4 
+DMR  C2   O2    SING  5 
+DMR  C2   C3    SING  6 
+DMR  C2   1H2   SING  7 
+DMR  O2   1HO2  SING  8 
+DMR  C3   C4    SING  9 
+DMR  C3   1H3   SING  10
+DMR  C3   2H3   SING  11
+DMR  C4   O4A   SING  12
+DMR  C4   O4B   DOUB  13
+DMR  O4A  1HO4  SING  14
+#

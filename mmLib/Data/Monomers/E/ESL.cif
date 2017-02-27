@@ -1,0 +1,125 @@
+data_ESL
+#
+_chem_comp.id                   ESL
+_chem_comp.name                 ESTRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H24 O3'
+_chem_comp.pdbx_synonyms        1,3,5(10)-ESTRATRIENE-3,16,17-TRIOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        288.386
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ESL  C2    .  C  0  -34.422  5.739  60.682  1  1 
+ESL  C3    .  C  0  -35.933  5.994  60.566  1  2 
+ESL  C4    .  C  0  -36.457  6.539  61.925  1  3 
+ESL  C5    .  C  0  -36.211  5.504  63.007  1  4 
+ESL  C6    .  C  0  -37.107  4.262  62.667  1  5 
+ESL  C7    .  C  0  -36.590  5.901  64.464  1  6 
+ESL  O1    .  O  0  -37.996  5.741  64.734  1  7 
+ESL  C8    .  C  0  -35.683  4.966  65.335  1  8 
+ESL  O2    .  O  0  -34.956  5.720  66.302  1  9 
+ESL  C9    .  C  0  -34.722  4.213  64.342  1  10
+ESL  C10   .  C  0  -34.677  5.226  63.171  1  11
+ESL  C12   .  C  0  -34.055  4.754  61.847  1  12
+ESL  C14   .  C  0  -32.497  4.655  61.955  1  13
+ESL  C15   .  C  0  -31.848  4.156  60.648  1  14
+ESL  C16   .  C  0  -32.588  4.492  59.374  1  15
+ESL  C17   .  C  0  -32.035  4.048  58.146  1  16
+ESL  C18   .  C  0  -32.681  4.332  56.922  1  17
+ESL  O3    .  O  0  -32.144  3.900  55.750  1  18
+ESL  C19   .  C  0  -33.890  5.066  56.915  1  19
+ESL  C20   .  C  0  -34.445  5.512  58.129  1  20
+ESL  C21   .  C  0  -33.802  5.229  59.357  1  21
+ESL  1H6   .  H  0  ?        ?      ?       0  22
+ESL  2H6   .  H  0  ?        ?      ?       0  23
+ESL  3H6   .  H  0  ?        ?      ?       0  24
+ESL  1H4   .  H  0  ?        ?      ?       0  25
+ESL  2H4   .  H  0  ?        ?      ?       0  26
+ESL  1H3   .  H  0  ?        ?      ?       0  27
+ESL  2H3   .  H  0  ?        ?      ?       0  28
+ESL  H2    .  H  0  ?        ?      ?       1  29
+ESL  H20   .  H  0  ?        ?      ?       1  30
+ESL  H19   .  H  0  ?        ?      ?       1  31
+ESL  HO3   .  H  0  ?        ?      ?       1  32
+ESL  H17   .  H  0  ?        ?      ?       1  33
+ESL  1H15  .  H  0  ?        ?      ?       0  34
+ESL  2H15  .  H  0  ?        ?      ?       0  35
+ESL  1H14  .  H  0  ?        ?      ?       0  36
+ESL  2H14  .  H  0  ?        ?      ?       0  37
+ESL  H12   .  H  0  ?        ?      ?       1  38
+ESL  H10   .  H  0  ?        ?      ?       1  39
+ESL  1H9   .  H  0  ?        ?      ?       0  40
+ESL  2H9   .  H  0  ?        ?      ?       0  41
+ESL  H8    .  H  0  ?        ?      ?       1  42
+ESL  HO2   .  H  0  ?        ?      ?       1  43
+ESL  H7    .  H  0  ?        ?      ?       1  44
+ESL  HO1   .  H  0  ?        ?      ?       1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ESL  C2   C3    SING  1 
+ESL  C2   C21   SING  2 
+ESL  C2   C12   SING  3 
+ESL  C2   H2    SING  4 
+ESL  C3   C4    SING  5 
+ESL  C3   1H3   SING  6 
+ESL  C3   2H3   SING  7 
+ESL  C4   C5    SING  8 
+ESL  C4   1H4   SING  9 
+ESL  C4   2H4   SING  10
+ESL  C5   C6    SING  11
+ESL  C5   C10   SING  12
+ESL  C5   C7    SING  13
+ESL  C6   1H6   SING  14
+ESL  C6   2H6   SING  15
+ESL  C6   3H6   SING  16
+ESL  C7   C8    SING  17
+ESL  C7   O1    SING  18
+ESL  C7   H7    SING  19
+ESL  O1   HO1   SING  20
+ESL  C8   C9    SING  21
+ESL  C8   O2    SING  22
+ESL  C8   H8    SING  23
+ESL  O2   HO2   SING  24
+ESL  C9   C10   SING  25
+ESL  C9   1H9   SING  26
+ESL  C9   2H9   SING  27
+ESL  C10  C12   SING  28
+ESL  C10  H10   SING  29
+ESL  C12  C14   SING  30
+ESL  C12  H12   SING  31
+ESL  C14  C15   SING  32
+ESL  C14  1H14  SING  33
+ESL  C14  2H14  SING  34
+ESL  C15  C16   SING  35
+ESL  C15  1H15  SING  36
+ESL  C15  2H15  SING  37
+ESL  C16  C17   DOUB  38
+ESL  C16  C21   SING  39
+ESL  C17  C18   SING  40
+ESL  C17  H17   SING  41
+ESL  C18  C19   DOUB  42
+ESL  C18  O3    SING  43
+ESL  O3   HO3   SING  44
+ESL  C19  C20   SING  45
+ESL  C19  H19   SING  46
+ESL  C20  C21   DOUB  47
+ESL  C20  H20   SING  48
+#

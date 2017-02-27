@@ -1,0 +1,109 @@
+data_BPI
+#
+_chem_comp.id                   BPI
+_chem_comp.name                 (1S)-1,2,3,4-TETRAHYDRO-BENZO[C]PHENANTHRENE-2,3,4-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H16 O3'
+_chem_comp.pdbx_synonyms        1S-TRANS-ANTI-BENZO[C]PHENANTHRENE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.323
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPI  C1   .  C  0  ?  ?  ?  1  1 
+BPI  C2   .  C  0  ?  ?  ?  1  2 
+BPI  O2   .  O  0  ?  ?  ?  1  3 
+BPI  C3   .  C  0  ?  ?  ?  1  4 
+BPI  O3   .  O  0  ?  ?  ?  1  5 
+BPI  C4   .  C  0  ?  ?  ?  1  6 
+BPI  O4   .  O  0  ?  ?  ?  1  7 
+BPI  C5   .  C  0  ?  ?  ?  1  8 
+BPI  C6   .  C  0  ?  ?  ?  1  9 
+BPI  C7   .  C  0  ?  ?  ?  1  10
+BPI  C8   .  C  0  ?  ?  ?  1  11
+BPI  C9   .  C  0  ?  ?  ?  1  12
+BPI  C10  .  C  0  ?  ?  ?  1  13
+BPI  C11  .  C  0  ?  ?  ?  1  14
+BPI  C12  .  C  0  ?  ?  ?  1  15
+BPI  C13  .  C  0  ?  ?  ?  1  16
+BPI  C14  .  C  0  ?  ?  ?  1  17
+BPI  C15  .  C  0  ?  ?  ?  1  18
+BPI  C16  .  C  0  ?  ?  ?  1  19
+BPI  C17  .  C  0  ?  ?  ?  1  20
+BPI  C18  .  C  0  ?  ?  ?  1  21
+BPI  1H1  .  H  0  ?  ?  ?  0  22
+BPI  2H1  .  H  0  ?  ?  ?  0  23
+BPI  H2   .  H  0  ?  ?  ?  1  24
+BPI  2HO  .  H  0  ?  ?  ?  0  25
+BPI  H3   .  H  0  ?  ?  ?  1  26
+BPI  3HO  .  H  0  ?  ?  ?  0  27
+BPI  H4   .  H  0  ?  ?  ?  1  28
+BPI  4HO  .  H  0  ?  ?  ?  0  29
+BPI  H5   .  H  0  ?  ?  ?  1  30
+BPI  H6   .  H  0  ?  ?  ?  1  31
+BPI  H7   .  H  0  ?  ?  ?  1  32
+BPI  H8   .  H  0  ?  ?  ?  1  33
+BPI  H9   .  H  0  ?  ?  ?  1  34
+BPI  H10  .  H  0  ?  ?  ?  1  35
+BPI  H11  .  H  0  ?  ?  ?  1  36
+BPI  H12  .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPI  C1   1H1  SING  1 
+BPI  C1   2H1  SING  2 
+BPI  C1   C2   SING  3 
+BPI  C1   C13  SING  4 
+BPI  C2   H2   SING  5 
+BPI  C2   O2   SING  6 
+BPI  C2   C3   SING  7 
+BPI  O2   2HO  SING  8 
+BPI  C3   H3   SING  9 
+BPI  C3   O3   SING  10
+BPI  C3   C4   SING  11
+BPI  O3   3HO  SING  12
+BPI  C4   H4   SING  13
+BPI  C4   O4   SING  14
+BPI  C4   C14  SING  15
+BPI  O4   4HO  SING  16
+BPI  C5   H5   SING  17
+BPI  C5   C6   DOUB  18
+BPI  C5   C14  SING  19
+BPI  C6   H6   SING  20
+BPI  C6   C15  SING  21
+BPI  C7   H7   SING  22
+BPI  C7   C8   DOUB  23
+BPI  C7   C15  SING  24
+BPI  C8   H8   SING  25
+BPI  C8   C18  SING  26
+BPI  C9   H9   SING  27
+BPI  C9   C10  DOUB  28
+BPI  C9   C18  SING  29
+BPI  C10  H10  SING  30
+BPI  C10  C11  SING  31
+BPI  C11  H11  SING  32
+BPI  C11  C12  DOUB  33
+BPI  C12  H12  SING  34
+BPI  C12  C17  SING  35
+BPI  C13  C14  DOUB  36
+BPI  C13  C16  SING  37
+BPI  C15  C16  DOUB  38
+BPI  C16  C17  SING  39
+BPI  C17  C18  DOUB  40
+#

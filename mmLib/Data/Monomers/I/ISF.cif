@@ -1,0 +1,92 @@
+data_ISF
+#
+_chem_comp.id                   ISF
+_chem_comp.name                 'P-(2'-IODO-5'-THENOYL)HYDROTROPIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H11 O3 I1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        386.204
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISF  S1    .  S  0  ?  ?  ?  1  1 
+ISF  C2    .  C  0  ?  ?  ?  1  2 
+ISF  C3    .  C  0  ?  ?  ?  1  3 
+ISF  C4    .  C  0  ?  ?  ?  1  4 
+ISF  C5    .  C  0  ?  ?  ?  1  5 
+ISF  I1    .  I  0  ?  ?  ?  1  6 
+ISF  C6    .  C  0  ?  ?  ?  1  7 
+ISF  O7    .  O  0  ?  ?  ?  1  8 
+ISF  C8    .  C  0  ?  ?  ?  1  9 
+ISF  C9    .  C  0  ?  ?  ?  1  10
+ISF  C10   .  C  0  ?  ?  ?  1  11
+ISF  C11   .  C  0  ?  ?  ?  1  12
+ISF  C12   .  C  0  ?  ?  ?  1  13
+ISF  C13   .  C  0  ?  ?  ?  1  14
+ISF  C14   .  C  0  ?  ?  ?  1  15
+ISF  C15   .  C  0  ?  ?  ?  1  16
+ISF  C16   .  C  0  ?  ?  ?  1  17
+ISF  O17   .  O  0  ?  ?  ?  1  18
+ISF  O18   .  O  0  ?  ?  ?  1  19
+ISF  H3    .  H  0  ?  ?  ?  1  20
+ISF  H4    .  H  0  ?  ?  ?  1  21
+ISF  H9    .  H  0  ?  ?  ?  1  22
+ISF  H10   .  H  0  ?  ?  ?  1  23
+ISF  H12   .  H  0  ?  ?  ?  1  24
+ISF  H13   .  H  0  ?  ?  ?  1  25
+ISF  H14   .  H  0  ?  ?  ?  1  26
+ISF  1H15  .  H  0  ?  ?  ?  0  27
+ISF  2H15  .  H  0  ?  ?  ?  0  28
+ISF  3H15  .  H  0  ?  ?  ?  0  29
+ISF  HO8   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISF  S1   C2    SING  1 
+ISF  S1   C5    SING  2 
+ISF  C2   C3    DOUB  3 
+ISF  C2   C6    SING  4 
+ISF  C3   C4    SING  5 
+ISF  C3   H3    SING  6 
+ISF  C4   C5    DOUB  7 
+ISF  C4   H4    SING  8 
+ISF  C5   I1    SING  9 
+ISF  C6   C8    SING  10
+ISF  C6   O7    DOUB  11
+ISF  C8   C9    DOUB  12
+ISF  C8   C13   SING  13
+ISF  C9   C10   SING  14
+ISF  C9   H9    SING  15
+ISF  C10  C11   DOUB  16
+ISF  C10  H10   SING  17
+ISF  C11  C12   SING  18
+ISF  C11  C14   SING  19
+ISF  C12  C13   DOUB  20
+ISF  C12  H12   SING  21
+ISF  C13  H13   SING  22
+ISF  C14  C15   SING  23
+ISF  C14  C16   SING  24
+ISF  C14  H14   SING  25
+ISF  C15  1H15  SING  26
+ISF  C15  2H15  SING  27
+ISF  C15  3H15  SING  28
+ISF  C16  O17   DOUB  29
+ISF  C16  O18   SING  30
+ISF  O18  HO8   SING  31
+#

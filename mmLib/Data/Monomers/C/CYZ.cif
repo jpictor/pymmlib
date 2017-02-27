@@ -1,0 +1,115 @@
+data_CYZ
+#
+_chem_comp.id                   CYZ
+_chem_comp.name                 CYCLOTHIAZIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N3 O4 CL1 S2'
+_chem_comp.pdbx_synonyms        '3-BICYCLO[2.2.1]HEPT-5-EN-2-YL-6-CHLORO-3,4- DIHYDRO-2H-1,2,4-BENZOTHIADIAZINE-7-SULFONAMIDE 1,1 DIOXIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        389.871
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYZ  C1   .  C   0  60.931  85.396  55.297  1  1 
+CYZ  C2   .  C   0  59.609  84.979  56.040  1  2 
+CYZ  C3   .  C   0  58.417  85.533  55.207  1  3 
+CYZ  C4   .  C   0  58.436  86.874  55.455  1  4 
+CYZ  C5   .  C   0  59.624  87.041  56.409  1  5 
+CYZ  C6   .  C   0  60.931  86.924  55.539  1  6 
+CYZ  C7   .  C   0  59.607  85.795  57.322  1  7 
+CYZ  C8   .  C   0  60.996  84.932  53.930  1  8 
+CYZ  N1   .  N   0  60.953  83.611  53.634  1  9 
+CYZ  S1   .  S   0  60.636  82.815  52.188  1  10
+CYZ  C9   .  C   0  62.080  83.503  51.460  1  11
+CYZ  C10  .  C   0  62.679  84.748  52.133  1  12
+CYZ  N2   .  N   0  62.122  85.305  53.234  1  13
+CYZ  C11  .  C   0  62.648  82.823  50.223  1  14
+CYZ  C12  .  C   0  63.899  83.446  49.606  1  15
+CYZ  C13  .  C   0  64.528  84.702  50.261  1  16
+CYZ  C14  .  C   0  63.936  85.372  51.518  1  17
+CYZ  CL   .  CL  0  65.927  85.461  49.626  0  18
+CYZ  S2   .  S   0  64.476  82.576  48.156  1  19
+CYZ  O1   .  O   0  59.446  83.378  51.512  1  20
+CYZ  O2   .  O   0  60.645  81.341  52.169  1  21
+CYZ  O3   .  O   0  63.956  81.202  48.199  1  22
+CYZ  O4   .  O   0  65.945  82.624  48.231  1  23
+CYZ  N3   .  N   0  63.610  83.465  47.010  1  24
+CYZ  1H1  .  H   0  ?       ?       ?       0  25
+CYZ  1H2  .  H   0  ?       ?       ?       0  26
+CYZ  1H3  .  H   0  ?       ?       ?       0  27
+CYZ  1H4  .  H   0  ?       ?       ?       0  28
+CYZ  1H5  .  H   0  ?       ?       ?       0  29
+CYZ  1H6  .  H   0  ?       ?       ?       0  30
+CYZ  2H6  .  H   0  ?       ?       ?       0  31
+CYZ  1H7  .  H   0  ?       ?       ?       0  32
+CYZ  2H7  .  H   0  ?       ?       ?       0  33
+CYZ  1H8  .  H   0  ?       ?       ?       0  34
+CYZ  HN1  .  H   0  ?       ?       ?       1  35
+CYZ  HN2  .  H   0  ?       ?       ?       1  36
+CYZ  H11  .  H   0  ?       ?       ?       1  37
+CYZ  H14  .  H   0  ?       ?       ?       1  38
+CYZ  H31  .  H   0  ?       ?       ?       1  39
+CYZ  H32  .  H   0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYZ  C1   C2   SING  1 
+CYZ  C1   C6   SING  2 
+CYZ  C1   C8   SING  3 
+CYZ  C1   1H1  SING  4 
+CYZ  C2   C3   SING  5 
+CYZ  C2   C7   SING  6 
+CYZ  C2   1H2  SING  7 
+CYZ  C3   C4   DOUB  8 
+CYZ  C3   1H3  SING  9 
+CYZ  C4   C5   SING  10
+CYZ  C4   1H4  SING  11
+CYZ  C5   C6   SING  12
+CYZ  C5   C7   SING  13
+CYZ  C5   1H5  SING  14
+CYZ  C6   1H6  SING  15
+CYZ  C6   2H6  SING  16
+CYZ  C7   1H7  SING  17
+CYZ  C7   2H7  SING  18
+CYZ  C8   N1   SING  19
+CYZ  C8   N2   SING  20
+CYZ  C8   1H8  SING  21
+CYZ  N1   S1   SING  22
+CYZ  N1   HN1  SING  23
+CYZ  S1   C9   SING  24
+CYZ  S1   O1   DOUB  25
+CYZ  S1   O2   DOUB  26
+CYZ  C9   C10  DOUB  27
+CYZ  C9   C11  SING  28
+CYZ  C10  N2   SING  29
+CYZ  C10  C14  SING  30
+CYZ  N2   HN2  SING  31
+CYZ  C11  C12  DOUB  32
+CYZ  C11  H11  SING  33
+CYZ  C12  C13  SING  34
+CYZ  C12  S2   SING  35
+CYZ  C13  C14  DOUB  36
+CYZ  C13  CL   SING  37
+CYZ  C14  H14  SING  38
+CYZ  S2   O3   DOUB  39
+CYZ  S2   O4   DOUB  40
+CYZ  S2   N3   SING  41
+CYZ  N3   H31  SING  42
+CYZ  N3   H32  SING  43
+#

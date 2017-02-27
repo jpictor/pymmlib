@@ -1,0 +1,105 @@
+data_3AG
+#
+_chem_comp.id                   3AG
+_chem_comp.name                 2-[METHYL-(4-METHYL-PENT-3-ENYL)-AMINO]-ETHYL-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H18 N1 O7 P2'
+_chem_comp.pdbx_synonyms        '3-AZA-2,3-DIHYDROGERANYL DIPHOSPHATE'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       314.191
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3AG  C1    .  C  0   41.644  45.607  45.904  1  1 
+3AG  C2    .  C  0   41.692  44.655  47.087  1  2 
+3AG  C3    .  C  0   40.337  44.279  47.640  1  3 
+3AG  C4    .  C  0   42.821  44.157  47.640  1  4 
+3AG  O1    .  O  0   46.625  51.599  49.637  1  5 
+3AG  C5    .  C  0   44.235  44.439  47.202  1  6 
+3AG  C6    .  C  0   44.883  45.568  48.031  1  7 
+3AG  N1    .  N  0   44.097  46.806  48.228  1  8 
+3AG  C7    .  C  0   44.424  47.405  49.548  1  9 
+3AG  C8    .  C  0   45.910  47.736  49.858  1  10
+3AG  C9    .  C  0   44.338  47.771  47.138  1  11
+3AG  O2    .  O  0   46.231  49.041  49.370  1  12
+3AG  P1    .  P  0   45.798  50.357  50.189  1  13
+3AG  O3    .  O  0   44.223  50.578  49.933  1  14
+3AG  O4    .  O  -1  46.074  50.126  51.747  1  15
+3AG  P2    .  P  0   43.530  51.827  50.666  1  16
+3AG  O5    .  O  0   44.068  53.191  50.046  1  17
+3AG  O6    .  O  -1  43.859  51.781  52.235  1  18
+3AG  O7    .  O  -1  41.951  51.701  50.433  1  19
+3AG  1HC1  .  H  0   ?       ?       ?       0  20
+3AG  2HC1  .  H  0   ?       ?       ?       0  21
+3AG  3HC1  .  H  0   ?       ?       ?       0  22
+3AG  1HC3  .  H  0   ?       ?       ?       0  23
+3AG  2HC3  .  H  0   ?       ?       ?       0  24
+3AG  3HC3  .  H  0   ?       ?       ?       0  25
+3AG  HC4   .  H  0   ?       ?       ?       1  26
+3AG  1HC5  .  H  0   ?       ?       ?       0  27
+3AG  2HC5  .  H  0   ?       ?       ?       0  28
+3AG  1HC6  .  H  0   ?       ?       ?       0  29
+3AG  2HC6  .  H  0   ?       ?       ?       0  30
+3AG  1HC7  .  H  0   ?       ?       ?       0  31
+3AG  2HC7  .  H  0   ?       ?       ?       0  32
+3AG  1HC8  .  H  0   ?       ?       ?       0  33
+3AG  2HC8  .  H  0   ?       ?       ?       0  34
+3AG  1HC9  .  H  0   ?       ?       ?       0  35
+3AG  2HC9  .  H  0   ?       ?       ?       0  36
+3AG  3HC9  .  H  0   ?       ?       ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3AG  C1  C2    SING  1 
+3AG  C1  1HC1  SING  2 
+3AG  C1  2HC1  SING  3 
+3AG  C1  3HC1  SING  4 
+3AG  C2  C3    SING  5 
+3AG  C2  C4    DOUB  6 
+3AG  C3  1HC3  SING  7 
+3AG  C3  2HC3  SING  8 
+3AG  C3  3HC3  SING  9 
+3AG  C4  C5    SING  10
+3AG  C4  HC4   SING  11
+3AG  O1  P1    DOUB  12
+3AG  C5  C6    SING  13
+3AG  C5  1HC5  SING  14
+3AG  C5  2HC5  SING  15
+3AG  C6  N1    SING  16
+3AG  C6  1HC6  SING  17
+3AG  C6  2HC6  SING  18
+3AG  N1  C7    SING  19
+3AG  N1  C9    SING  20
+3AG  C7  C8    SING  21
+3AG  C7  1HC7  SING  22
+3AG  C7  2HC7  SING  23
+3AG  C8  O2    SING  24
+3AG  C8  1HC8  SING  25
+3AG  C8  2HC8  SING  26
+3AG  C9  1HC9  SING  27
+3AG  C9  2HC9  SING  28
+3AG  C9  3HC9  SING  29
+3AG  O2  P1    SING  30
+3AG  P1  O3    SING  31
+3AG  P1  O4    SING  32
+3AG  O3  P2    SING  33
+3AG  P2  O5    DOUB  34
+3AG  P2  O6    SING  35
+3AG  P2  O7    SING  36
+#

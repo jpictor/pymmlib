@@ -1,0 +1,128 @@
+data_ELP
+#
+_chem_comp.id                   ELP
+_chem_comp.name                 '(1R)-1-[((1E)-{3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYLENE)AMINO]-1-PHENYLETHYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H20 N2 O8 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        430.290
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ELP  C3    .  C  0  15.850  52.380  15.997  1  1 
+ELP  C2    .  C  0  16.089  52.988  14.708  1  2 
+ELP  N1    .  N  0  17.219  52.647  13.955  1  3 
+ELP  C6    .  C  0  18.145  51.746  14.454  1  4 
+ELP  C4    .  C  0  16.789  51.397  16.545  1  5 
+ELP  C4A   .  C  0  16.534  50.701  17.887  1  6 
+ELP  N2    .  N  0  16.468  51.375  18.946  1  7 
+ELP  C     .  C  0  15.948  50.972  20.211  1  8 
+ELP  CA1   .  C  0  16.611  49.631  20.662  1  9 
+ELP  CA2   .  C  0  16.451  52.169  20.838  1  10
+ELP  P2    .  P  0  14.210  51.031  20.297  1  11
+ELP  O6    .  O  0  13.808  51.164  21.766  1  12
+ELP  O7    .  O  0  13.624  52.202  19.542  1  13
+ELP  O8    .  O  0  13.612  49.810  19.706  1  14
+ELP  O1    .  O  0  14.742  52.790  16.676  1  15
+ELP  C2A   .  C  0  15.095  54.004  14.192  1  16
+ELP  C5    .  C  0  17.962  51.095  15.741  1  17
+ELP  C5A   .  C  0  19.028  50.200  16.286  1  18
+ELP  O2    .  O  0  18.881  48.853  15.834  1  19
+ELP  P1    .  P  0  19.892  48.005  16.593  1  20
+ELP  O3    .  O  0  19.472  46.616  16.438  1  21
+ELP  O4    .  O  0  21.236  48.125  16.086  1  22
+ELP  O5    .  O  0  19.723  48.294  17.999  1  23
+ELP  CB2   .  C  0  17.521  52.039  21.786  1  24
+ELP  CG2   .  C  0  18.015  53.209  22.431  1  25
+ELP  CD    .  C  0  17.422  54.500  22.100  1  26
+ELP  CG1   .  C  0  16.331  54.602  21.114  1  27
+ELP  CB1   .  C  0  15.860  53.442  20.495  1  28
+ELP  HO4   .  H  0  ?       ?       ?       1  29
+ELP  HO5   .  H  0  ?       ?       ?       1  30
+ELP  HO7   .  H  0  ?       ?       ?       1  31
+ELP  HO1   .  H  0  ?       ?       ?       1  32
+ELP  HO8   .  H  0  ?       ?       ?       1  33
+ELP  HC6   .  H  0  ?       ?       ?       1  34
+ELP  HB1   .  H  0  ?       ?       ?       1  35
+ELP  HG1   .  H  0  ?       ?       ?       1  36
+ELP  HB2   .  H  0  ?       ?       ?       1  37
+ELP  HG2   .  H  0  ?       ?       ?       1  38
+ELP  HCD   .  H  0  ?       ?       ?       1  39
+ELP  1HA1  .  H  0  ?       ?       ?       0  40
+ELP  2HA1  .  H  0  ?       ?       ?       0  41
+ELP  3HA1  .  H  0  ?       ?       ?       0  42
+ELP  1H2A  .  H  0  ?       ?       ?       0  43
+ELP  2H2A  .  H  0  ?       ?       ?       0  44
+ELP  3H2A  .  H  0  ?       ?       ?       0  45
+ELP  1H5A  .  H  0  ?       ?       ?       0  46
+ELP  2H5A  .  H  0  ?       ?       ?       0  47
+ELP  H4A   .  H  0  ?       ?       ?       1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ELP  C3   C2    AROM  1 
+ELP  C3   C4    AROM  2 
+ELP  C3   O1    SING  3 
+ELP  C2   N1    AROM  4 
+ELP  C2   C2A   SING  5 
+ELP  N1   C6    AROM  6 
+ELP  C6   C5    AROM  7 
+ELP  C6   HC6   SING  8 
+ELP  C4   C4A   SING  9 
+ELP  C4   C5    AROM  10
+ELP  C4A  N2    DOUB  11
+ELP  C4A  H4A   SING  12
+ELP  N2   C     SING  13
+ELP  C    CA1   SING  14
+ELP  C    CA2   SING  15
+ELP  C    P2    SING  16
+ELP  CA1  1HA1  SING  17
+ELP  CA1  2HA1  SING  18
+ELP  CA1  3HA1  SING  19
+ELP  CA2  CB2   AROM  20
+ELP  CA2  CB1   AROM  21
+ELP  P2   O6    DOUB  22
+ELP  P2   O7    SING  23
+ELP  P2   O8    SING  24
+ELP  O7   HO7   SING  25
+ELP  O8   HO8   SING  26
+ELP  O1   HO1   SING  27
+ELP  C2A  1H2A  SING  28
+ELP  C2A  2H2A  SING  29
+ELP  C2A  3H2A  SING  30
+ELP  C5   C5A   SING  31
+ELP  C5A  O2    SING  32
+ELP  C5A  1H5A  SING  33
+ELP  C5A  2H5A  SING  34
+ELP  O2   P1    SING  35
+ELP  P1   O3    DOUB  36
+ELP  P1   O4    SING  37
+ELP  P1   O5    SING  38
+ELP  O4   HO4   SING  39
+ELP  O5   HO5   SING  40
+ELP  CB2  CG2   AROM  41
+ELP  CB2  HB2   SING  42
+ELP  CG2  CD    AROM  43
+ELP  CG2  HG2   SING  44
+ELP  CD   CG1   AROM  45
+ELP  CD   HCD   SING  46
+ELP  CG1  CB1   AROM  47
+ELP  CG1  HG1   SING  48
+ELP  CB1  HB1   SING  49
+#

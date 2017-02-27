@@ -1,0 +1,77 @@
+data_2AB
+#
+_chem_comp.id                   2AB
+_chem_comp.name                 '4-(2-AMINOETHYL)BENZENESULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        185.240
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2AB  C1    .  C  0  ?  ?  ?  1  1 
+2AB  C2    .  C  0  ?  ?  ?  1  2 
+2AB  C3    .  C  0  ?  ?  ?  1  3 
+2AB  C4    .  C  0  ?  ?  ?  1  4 
+2AB  C5    .  C  0  ?  ?  ?  1  5 
+2AB  C6    .  C  0  ?  ?  ?  1  6 
+2AB  N9    .  N  0  ?  ?  ?  1  7 
+2AB  S10   .  S  0  ?  ?  ?  1  8 
+2AB  O12   .  O  0  ?  ?  ?  1  9 
+2AB  O11   .  O  0  ?  ?  ?  1  10
+2AB  C7    .  C  0  ?  ?  ?  1  11
+2AB  C8    .  C  0  ?  ?  ?  1  12
+2AB  1H1   .  H  0  ?  ?  ?  0  13
+2AB  2H1   .  H  0  ?  ?  ?  0  14
+2AB  1H2   .  H  0  ?  ?  ?  0  15
+2AB  2H2   .  H  0  ?  ?  ?  0  16
+2AB  1HN9  .  H  0  ?  ?  ?  0  17
+2AB  2HN9  .  H  0  ?  ?  ?  0  18
+2AB  H4    .  H  0  ?  ?  ?  1  19
+2AB  H5    .  H  0  ?  ?  ?  1  20
+2AB  H7    .  H  0  ?  ?  ?  1  21
+2AB  H8    .  H  0  ?  ?  ?  1  22
+2AB  H12   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2AB  C1   C2    SING  1 
+2AB  C1   N9    SING  2 
+2AB  C1   1H1   SING  3 
+2AB  C1   2H1   SING  4 
+2AB  C2   C3    SING  5 
+2AB  C2   1H2   SING  6 
+2AB  C2   2H2   SING  7 
+2AB  C3   C4    DOUB  8 
+2AB  C3   C8    SING  9 
+2AB  C4   C5    SING  10
+2AB  C4   H4    SING  11
+2AB  C5   C6    DOUB  12
+2AB  C5   H5    SING  13
+2AB  C6   S10   SING  14
+2AB  C6   C7    SING  15
+2AB  N9   1HN9  SING  16
+2AB  N9   2HN9  SING  17
+2AB  S10  O12   SING  18
+2AB  S10  O11   DOUB  19
+2AB  O12  H12   SING  20
+2AB  C7   C8    DOUB  21
+2AB  C7   H7    SING  22
+2AB  C8   H8    SING  23
+#

@@ -1,0 +1,108 @@
+data_PG7
+#
+_chem_comp.id                       PG7
+_chem_comp.name                     '((2R,3R,5R)-5-(2-AMINO-6-HYDROXY-9H-PURIN-9-YL)-3-HYDROXY-TETRAHYDROFURAN-2-YL)METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            347.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PG7  P     .  P  0  13.545  3.142  -3.046  1  1 
+PG7  O1P   .  O  0  14.555  3.002  -4.119  1  2 
+PG7  O2P   .  O  0  13.816  4.034  -1.897  1  3 
+PG7  O5*   .  O  0  12.148  3.587  -3.718  1  4 
+PG7  O3*   .  O  0  10.233  5.257  -6.807  1  5 
+PG7  C1*   .  C  0  8.246   3.881  -4.263  1  6 
+PG7  C2*   .  C  0  8.686   5.210  -4.873  1  7 
+PG7  C3*   .  C  0  10.087  4.944  -5.432  1  8 
+PG7  C4*   .  C  0  10.256  3.440  -5.209  1  9 
+PG7  C5*   .  C  0  11.708  3.034  -4.947  1  10
+PG7  O4*   .  O  0  9.428   3.125  -4.105  1  11
+PG7  N2    .  N  0  2.990   3.328  -3.893  1  12
+PG7  O6    .  O  0  4.548   4.271  0.551   1  13
+PG7  C6    .  C  0  4.787   4.150  -0.786  1  14
+PG7  C5    .  C  0  6.089   4.227  -1.352  1  15
+PG7  N7    .  N  0  7.316   4.515  -0.766  1  16
+PG7  C8    .  C  0  8.154   4.430  -1.759  1  17
+PG7  N9    .  N  0  7.579   4.094  -2.959  1  18
+PG7  C4    .  C  0  6.231   3.998  -2.699  1  19
+PG7  N3    .  N  0  5.242   3.707  -3.592  1  20
+PG7  C2    .  C  0  4.011   3.609  -3.051  1  21
+PG7  N1    .  N  0  3.790   3.828  -1.697  1  22
+PG7  O3P   .  O  0  ?       ?      ?       1  23
+PG7  H6    .  H  0  5.428   4.490  1.039   1  24
+PG7  H8    .  H  0  ?       ?      ?       1  25
+PG7  H1*   .  H  0  7.610   3.295  -4.927  1  26
+PG7  H4*   .  H  0  9.853   2.926  -6.082  1  27
+PG7  1H5*  .  H  0  11.773  1.947  -4.908  0  28
+PG7  2H5*  .  H  0  12.333  3.400  -5.762  0  29
+PG7  3HOP  .  H  0  ?       ?      ?       0  30
+PG7  2HOP  .  H  0  ?       ?      ?       0  31
+PG7  H3*   .  H  0  10.853  5.510  -4.902  1  32
+PG7  H3T   .  H  0  ?       ?      ?       1  33
+PG7  1H2*  .  H  0  8.674   5.918  -4.045  0  34
+PG7  2H2*  .  H  0  7.944   5.426  -5.642  0  35
+PG7  HN2   .  H  0  ?       ?      ?       1  36
+PG7  1H2   .  H  0  3.205   3.338  -4.901  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PG7  P    O5*   SING  1 
+PG7  P    O1P   DOUB  2 
+PG7  P    O3P   SING  3 
+PG7  P    O2P   SING  4 
+PG7  O2P  2HOP  SING  5 
+PG7  O5*  C5*   SING  6 
+PG7  O3*  C3*   SING  7 
+PG7  O3*  H3T   SING  8 
+PG7  C1*  N9    SING  9 
+PG7  C1*  H1*   SING  10
+PG7  C1*  O4*   SING  11
+PG7  C1*  C2*   SING  12
+PG7  C2*  C3*   SING  13
+PG7  C2*  1H2*  SING  14
+PG7  C2*  2H2*  SING  15
+PG7  C3*  C4*   SING  16
+PG7  C3*  H3*   SING  17
+PG7  C4*  O4*   SING  18
+PG7  C4*  H4*   SING  19
+PG7  C4*  C5*   SING  20
+PG7  C5*  1H5*  SING  21
+PG7  C5*  2H5*  SING  22
+PG7  N2   C2    SING  23
+PG7  N2   HN2   SING  24
+PG7  N2   1H2   SING  25
+PG7  O6   H6    SING  26
+PG7  O6   C6    SING  27
+PG7  C6   N1    DOUB  28
+PG7  C6   C5    SING  29
+PG7  C5   C4    DOUB  30
+PG7  C5   N7    SING  31
+PG7  N7   C8    DOUB  32
+PG7  C8   H8    SING  33
+PG7  C8   N9    SING  34
+PG7  N9   C4    SING  35
+PG7  C4   N3    SING  36
+PG7  N3   C2    DOUB  37
+PG7  C2   N1    SING  38
+PG7  O3P  3HOP  SING  39
+#

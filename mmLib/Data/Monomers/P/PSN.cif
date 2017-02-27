@@ -1,0 +1,99 @@
+data_PSN
+#
+_chem_comp.id                   PSN
+_chem_comp.name                 'BENZYL 2-FORMYLPHENYL HYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H13 O5 P1'
+_chem_comp.pdbx_synonyms        PASBN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PSN  C1    .  C  0  18.255  26.221  20.886  1  1 
+PSN  C2    .  C  0  18.298  24.848  20.500  1  2 
+PSN  C3    .  C  0  17.409  24.374  19.484  1  3 
+PSN  C4    .  C  0  16.480  25.236  18.809  1  4 
+PSN  C5    .  C  0  16.436  26.596  19.232  1  5 
+PSN  C6    .  C  0  17.292  27.103  20.294  1  6 
+PSN  C7    .  C  0  15.607  24.671  17.714  1  7 
+PSN  O8    .  O  0  15.448  27.415  18.587  1  8 
+PSN  P9    .  P  0  15.828  28.279  17.291  1  9 
+PSN  O10   .  O  0  16.551  29.599  17.580  1  10
+PSN  O11   .  O  0  14.459  28.783  16.749  1  11
+PSN  C12   .  C  0  17.561  29.847  18.630  1  12
+PSN  C13   .  C  0  18.959  29.128  18.441  1  13
+PSN  C16   .  C  0  20.020  29.470  19.379  1  14
+PSN  C17   .  C  0  21.311  28.898  19.155  1  15
+PSN  C18   .  C  0  21.538  27.994  18.029  1  16
+PSN  C19   .  C  0  20.446  27.550  17.199  1  17
+PSN  C20   .  C  0  19.159  28.135  17.387  1  18
+PSN  O32   .  O  0  16.524  27.465  16.187  1  19
+PSN  O25   .  O  0  15.770  24.824  16.382  1  20
+PSN  H1    .  H  0  ?       ?       ?       1  21
+PSN  H2    .  H  0  ?       ?       ?       1  22
+PSN  H3    .  H  0  ?       ?       ?       1  23
+PSN  H6    .  H  0  ?       ?       ?       1  24
+PSN  H7    .  H  0  ?       ?       ?       1  25
+PSN  1H12  .  H  0  ?       ?       ?       0  26
+PSN  2H12  .  H  0  ?       ?       ?       0  27
+PSN  H16   .  H  0  ?       ?       ?       1  28
+PSN  H17   .  H  0  ?       ?       ?       1  29
+PSN  H18   .  H  0  ?       ?       ?       1  30
+PSN  H19   .  H  0  ?       ?       ?       1  31
+PSN  H20   .  H  0  ?       ?       ?       1  32
+PSN  H32   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PSN  C1   C2    SING  1 
+PSN  C1   C6    DOUB  2 
+PSN  C1   H1    SING  3 
+PSN  C2   C3    DOUB  4 
+PSN  C2   H2    SING  5 
+PSN  C3   C4    SING  6 
+PSN  C3   H3    SING  7 
+PSN  C4   C5    DOUB  8 
+PSN  C4   C7    SING  9 
+PSN  C5   C6    SING  10
+PSN  C5   O8    SING  11
+PSN  C6   H6    SING  12
+PSN  C7   O25   DOUB  13
+PSN  C7   H7    SING  14
+PSN  O8   P9    SING  15
+PSN  P9   O10   SING  16
+PSN  P9   O11   DOUB  17
+PSN  P9   O32   SING  18
+PSN  O10  C12   SING  19
+PSN  C12  C13   SING  20
+PSN  C12  1H12  SING  21
+PSN  C12  2H12  SING  22
+PSN  C13  C16   DOUB  23
+PSN  C13  C20   SING  24
+PSN  C16  C17   SING  25
+PSN  C16  H16   SING  26
+PSN  C17  C18   DOUB  27
+PSN  C17  H17   SING  28
+PSN  C18  C19   SING  29
+PSN  C18  H18   SING  30
+PSN  C19  C20   DOUB  31
+PSN  C19  H19   SING  32
+PSN  C20  H20   SING  33
+PSN  O32  H32   SING  34
+#

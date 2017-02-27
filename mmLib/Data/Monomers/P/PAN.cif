@@ -1,0 +1,86 @@
+data_PAN
+#
+_chem_comp.id                   PAN
+_chem_comp.name                 '5-PHOSPHO-D-ARABINOHYDROXAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        261.125
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAN  C2    .  C  0  15.254  9.386   30.024  1  1 
+PAN  C3    .  C  0  16.745  8.911   29.864  1  2 
+PAN  C4    .  C  0  17.244  8.170   31.150  1  3 
+PAN  C5    .  C  0  18.724  7.738   30.881  1  4 
+PAN  O2    .  O  0  14.471  8.212   30.325  1  5 
+PAN  O3    .  O  0  16.837  7.932   28.848  1  6 
+PAN  O4    .  O  0  17.174  9.145   32.205  1  7 
+PAN  O5    .  O  0  19.443  9.016   30.592  1  8 
+PAN  P     .  P  0  21.003  8.656   30.198  1  9 
+PAN  O1P   .  O  0  21.688  7.850   31.309  1  10
+PAN  O2P   .  O  0  21.031  7.776   28.963  1  11
+PAN  O3P   .  O  0  21.659  10.015  29.921  1  12
+PAN  C1    .  C  0  15.016  10.148  28.676  1  13
+PAN  O1    .  O  0  15.509  11.145  28.161  1  14
+PAN  N     .  N  0  14.061  9.504   28.032  1  15
+PAN  ON1   .  O  0  13.561  9.926   26.731  1  16
+PAN  2HOP  .  H  0  ?       ?       ?       0  17
+PAN  3HOP  .  H  0  ?       ?       ?       0  18
+PAN  1H5   .  H  0  ?       ?       ?       0  19
+PAN  2H5   .  H  0  ?       ?       ?       0  20
+PAN  H4    .  H  0  ?       ?       ?       1  21
+PAN  HO4   .  H  0  ?       ?       ?       1  22
+PAN  H3    .  H  0  ?       ?       ?       1  23
+PAN  HO3   .  H  0  ?       ?       ?       1  24
+PAN  H2    .  H  0  ?       ?       ?       1  25
+PAN  HO2   .  H  0  ?       ?       ?       1  26
+PAN  HN    .  H  0  ?       ?       ?       1  27
+PAN  HO1   .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAN  C2   C3    SING  1 
+PAN  C2   O2    SING  2 
+PAN  C2   C1    SING  3 
+PAN  C2   H2    SING  4 
+PAN  C3   C4    SING  5 
+PAN  C3   O3    SING  6 
+PAN  C3   H3    SING  7 
+PAN  C4   C5    SING  8 
+PAN  C4   O4    SING  9 
+PAN  C4   H4    SING  10
+PAN  C5   O5    SING  11
+PAN  C5   1H5   SING  12
+PAN  C5   2H5   SING  13
+PAN  O2   HO2   SING  14
+PAN  O3   HO3   SING  15
+PAN  O4   HO4   SING  16
+PAN  O5   P     SING  17
+PAN  P    O1P   DOUB  18
+PAN  P    O2P   SING  19
+PAN  P    O3P   SING  20
+PAN  O2P  2HOP  SING  21
+PAN  O3P  3HOP  SING  22
+PAN  C1   O1    DOUB  23
+PAN  C1   N     SING  24
+PAN  N    ON1   SING  25
+PAN  N    HN    SING  26
+PAN  ON1  HO1   SING  27
+#

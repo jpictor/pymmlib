@@ -1,0 +1,107 @@
+data_GWB
+#
+_chem_comp.id                   GWB
+_chem_comp.name                 4-[(CYCLOPROPYLETHYNYL)OXY]-6-FLUORO-3-ISOPROPYLQUINOLIN-2(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H16 N1 O2 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        285.317
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GWB  CA    .  C  0  0.773   -34.633  26.138  1  1 
+GWB  CB    .  C  0  1.268   -33.715  26.621  1  2 
+GWB  CC    .  C  0  1.996   -32.371  27.324  1  3 
+GWB  CD    .  C  0  2.049   -31.385  26.234  1  4 
+GWB  CE    .  C  0  0.970   -31.322  27.289  1  5 
+GWB  N1    .  N  0  -0.772  -35.328  21.404  1  6 
+GWB  C6    .  C  0  0.365   -36.065  21.768  1  7 
+GWB  O2    .  O  0  1.067   -36.561  20.880  1  8 
+GWB  C5    .  C  0  0.674   -36.223  23.229  1  9 
+GWB  C4    .  C  0  -0.191  -35.646  24.162  1  10
+GWB  O4    .  O  0  0.122   -35.766  25.529  1  11
+GWB  C2    .  C  0  -1.608  -34.756  22.336  1  12
+GWB  C3    .  C  0  -1.329  -34.920  23.746  1  13
+GWB  C7    .  C  0  -2.185  -34.280  24.686  1  14
+GWB  C8    .  C  0  -3.275  -33.488  24.251  1  15
+GWB  C9    .  C  0  -3.539  -33.325  22.861  1  16
+GWB  C10   .  C  0  -2.708  -33.962  21.905  1  17
+GWB  F     .  F  0  -4.071  -32.864  25.185  1  18
+GWB  C11   .  C  0  1.957   -36.919  23.748  1  19
+GWB  C12   .  C  0  3.249   -36.490  23.041  1  20
+GWB  C13   .  C  0  1.824   -38.443  23.835  1  21
+GWB  1H12  .  H  0  ?       ?        ?       0  22
+GWB  2H12  .  H  0  ?       ?        ?       0  23
+GWB  3H12  .  H  0  ?       ?        ?       0  24
+GWB  H11   .  H  0  ?       ?        ?       1  25
+GWB  1H13  .  H  0  ?       ?        ?       0  26
+GWB  2H13  .  H  0  ?       ?        ?       0  27
+GWB  3H13  .  H  0  ?       ?        ?       0  28
+GWB  HN1   .  H  0  ?       ?        ?       1  29
+GWB  H10   .  H  0  ?       ?        ?       1  30
+GWB  H9    .  H  0  ?       ?        ?       1  31
+GWB  H7    .  H  0  ?       ?        ?       1  32
+GWB  HC    .  H  0  ?       ?        ?       1  33
+GWB  1HE   .  H  0  ?       ?        ?       0  34
+GWB  2HE   .  H  0  ?       ?        ?       0  35
+GWB  1HD   .  H  0  ?       ?        ?       0  36
+GWB  2HD   .  H  0  ?       ?        ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GWB  CA   O4    SING  1 
+GWB  CA   CB    TRIP  2 
+GWB  CB   CC    SING  3 
+GWB  CC   CE    SING  4 
+GWB  CC   CD    SING  5 
+GWB  CC   HC    SING  6 
+GWB  CD   CE    SING  7 
+GWB  CD   1HD   SING  8 
+GWB  CD   2HD   SING  9 
+GWB  CE   1HE   SING  10
+GWB  CE   2HE   SING  11
+GWB  N1   C6    SING  12
+GWB  N1   C2    SING  13
+GWB  N1   HN1   SING  14
+GWB  C6   C5    SING  15
+GWB  C6   O2    DOUB  16
+GWB  C5   C11   SING  17
+GWB  C5   C4    DOUB  18
+GWB  C4   C3    SING  19
+GWB  C4   O4    SING  20
+GWB  C2   C10   DOUB  21
+GWB  C2   C3    SING  22
+GWB  C3   C7    DOUB  23
+GWB  C7   C8    SING  24
+GWB  C7   H7    SING  25
+GWB  C8   C9    DOUB  26
+GWB  C8   F     SING  27
+GWB  C9   C10   SING  28
+GWB  C9   H9    SING  29
+GWB  C10  H10   SING  30
+GWB  C11  C12   SING  31
+GWB  C11  C13   SING  32
+GWB  C11  H11   SING  33
+GWB  C12  1H12  SING  34
+GWB  C12  2H12  SING  35
+GWB  C12  3H12  SING  36
+GWB  C13  1H13  SING  37
+GWB  C13  2H13  SING  38
+GWB  C13  3H13  SING  39
+#

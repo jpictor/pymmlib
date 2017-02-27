@@ -1,0 +1,70 @@
+data_FGP
+#
+_chem_comp.id                   FGP
+_chem_comp.name                 '2-AMINO-3-HYDROXY-3-PHOSPHONOOXY-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C3 H8 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        201.072
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FGP  N     .  N  0  20.215  37.144  -18.722  1  1 
+FGP  CA    .  C  0  20.935  38.052  -19.613  1  2 
+FGP  CB    .  C  0  21.610  37.284  -20.747  1  3 
+FGP  OG1   .  O  0  22.386  38.187  -21.543  1  4 
+FGP  OG2   .  O  0  22.451  36.263  -20.201  1  5 
+FGP  C     .  C  0  20.133  39.202  -20.225  1  6 
+FGP  O     .  O  0  20.432  40.368  -19.973  1  7 
+FGP  P     .  P  0  22.071  34.739  -20.458  1  8 
+FGP  O1P   .  O  0  20.718  34.451  -19.870  1  9 
+FGP  O2P   .  O  0  22.037  34.471  -21.933  1  10
+FGP  O3P   .  O  0  23.100  33.860  -19.815  1  11
+FGP  O2    .  O  0  ?       ?       ?        1  12
+FGP  HA    .  H  0  ?       ?       ?        1  13
+FGP  HB    .  H  0  ?       ?       ?        1  14
+FGP  HOG   .  H  0  ?       ?       ?        1  15
+FGP  HO2   .  H  0  ?       ?       ?        1  16
+FGP  1HN   .  H  0  ?       ?       ?        0  17
+FGP  2HN   .  H  0  ?       ?       ?        0  18
+FGP  HO2P  .  H  0  ?       ?       ?        0  19
+FGP  HO3P  .  H  0  ?       ?       ?        0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FGP  N    CA    SING  1 
+FGP  N    1HN   SING  2 
+FGP  N    2HN   SING  3 
+FGP  CA   CB    SING  4 
+FGP  CA   C     SING  5 
+FGP  CA   HA    SING  6 
+FGP  CB   OG1   SING  7 
+FGP  CB   OG2   SING  8 
+FGP  CB   HB    SING  9 
+FGP  OG1  HOG   SING  10
+FGP  OG2  P     SING  11
+FGP  C    O     DOUB  12
+FGP  C    O2    SING  13
+FGP  P    O1P   DOUB  14
+FGP  P    O2P   SING  15
+FGP  P    O3P   SING  16
+FGP  O2P  HO2P  SING  17
+FGP  O3P  HO3P  SING  18
+FGP  O2   HO2   SING  19
+#

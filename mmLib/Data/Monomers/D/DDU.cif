@@ -1,0 +1,86 @@
+data_DDU
+#
+_chem_comp.id                   DDU
+_chem_comp.name                 2'-5'DIDEOXYURIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.205
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DDU  N1    .  N  0  ?  ?  ?  1  1 
+DDU  C2    .  C  0  ?  ?  ?  1  2 
+DDU  N3    .  N  0  ?  ?  ?  1  3 
+DDU  C4    .  C  0  ?  ?  ?  1  4 
+DDU  C5    .  C  0  ?  ?  ?  1  5 
+DDU  C6    .  C  0  ?  ?  ?  1  6 
+DDU  O2    .  O  0  ?  ?  ?  1  7 
+DDU  O4    .  O  0  ?  ?  ?  1  8 
+DDU  C1*   .  C  0  ?  ?  ?  1  9 
+DDU  C2*   .  C  0  ?  ?  ?  1  10
+DDU  C3*   .  C  0  ?  ?  ?  1  11
+DDU  C4*   .  C  0  ?  ?  ?  1  12
+DDU  O3*   .  O  0  ?  ?  ?  1  13
+DDU  O4*   .  O  0  ?  ?  ?  1  14
+DDU  C5*   .  C  0  ?  ?  ?  1  15
+DDU  HN3   .  H  0  ?  ?  ?  1  16
+DDU  H5    .  H  0  ?  ?  ?  1  17
+DDU  H6    .  H  0  ?  ?  ?  1  18
+DDU  H1*   .  H  0  ?  ?  ?  1  19
+DDU  1H2*  .  H  0  ?  ?  ?  0  20
+DDU  2H2*  .  H  0  ?  ?  ?  0  21
+DDU  H3*   .  H  0  ?  ?  ?  1  22
+DDU  *HO3  .  H  0  ?  ?  ?  0  23
+DDU  H4*   .  H  0  ?  ?  ?  1  24
+DDU  1H5*  .  H  0  ?  ?  ?  0  25
+DDU  2H5*  .  H  0  ?  ?  ?  0  26
+DDU  3H5*  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DDU  N1   C2    SING  1 
+DDU  N1   C6    SING  2 
+DDU  N1   C1*   SING  3 
+DDU  C2   N3    SING  4 
+DDU  C2   O2    DOUB  5 
+DDU  N3   C4    SING  6 
+DDU  N3   HN3   SING  7 
+DDU  C4   C5    SING  8 
+DDU  C4   O4    DOUB  9 
+DDU  C5   C6    DOUB  10
+DDU  C5   H5    SING  11
+DDU  C6   H6    SING  12
+DDU  C1*  C2*   SING  13
+DDU  C1*  O4*   SING  14
+DDU  C1*  H1*   SING  15
+DDU  C2*  C3*   SING  16
+DDU  C2*  1H2*  SING  17
+DDU  C2*  2H2*  SING  18
+DDU  C3*  C4*   SING  19
+DDU  C3*  O3*   SING  20
+DDU  C3*  H3*   SING  21
+DDU  C4*  O4*   SING  22
+DDU  C4*  C5*   SING  23
+DDU  C4*  H4*   SING  24
+DDU  O3*  *HO3  SING  25
+DDU  C5*  1H5*  SING  26
+DDU  C5*  2H5*  SING  27
+DDU  C5*  3H5*  SING  28
+#

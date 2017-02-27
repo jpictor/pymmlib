@@ -1,0 +1,71 @@
+data_HSO
+#
+_chem_comp.id                   HSO
+_chem_comp.name                 HISTIDINOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N3 O1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       140.165
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HSO  N    .  N  0  ?  ?  ?  1  1 
+HSO  CA   .  C  0  ?  ?  ?  1  2 
+HSO  CB   .  C  0  ?  ?  ?  1  3 
+HSO  CG   .  C  0  ?  ?  ?  1  4 
+HSO  ND1  .  N  1  ?  ?  ?  1  5 
+HSO  CD2  .  C  0  ?  ?  ?  1  6 
+HSO  CE1  .  C  0  ?  ?  ?  1  7 
+HSO  NE2  .  N  0  ?  ?  ?  1  8 
+HSO  C    .  C  0  ?  ?  ?  1  9 
+HSO  O    .  O  0  ?  ?  ?  1  10
+HSO  1HN  .  H  0  ?  ?  ?  0  11
+HSO  2HN  .  H  0  ?  ?  ?  0  12
+HSO  HA   .  H  0  ?  ?  ?  1  13
+HSO  1HB  .  H  0  ?  ?  ?  0  14
+HSO  2HB  .  H  0  ?  ?  ?  0  15
+HSO  HD1  .  H  0  ?  ?  ?  1  16
+HSO  HD2  .  H  0  ?  ?  ?  1  17
+HSO  HE1  .  H  0  ?  ?  ?  1  18
+HSO  HE2  .  H  0  ?  ?  ?  1  19
+HSO  H    .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HSO  N    CA   SING  1 
+HSO  N    1HN  SING  2 
+HSO  N    2HN  SING  3 
+HSO  CA   CB   SING  4 
+HSO  CA   C    SING  5 
+HSO  CA   HA   SING  6 
+HSO  CB   CG   SING  7 
+HSO  CB   1HB  SING  8 
+HSO  CB   2HB  SING  9 
+HSO  CG   CD2  DOUB  10
+HSO  CG   ND1  SING  11
+HSO  ND1  CE1  DOUB  12
+HSO  ND1  HD1  SING  13
+HSO  CD2  NE2  SING  14
+HSO  CD2  HD2  SING  15
+HSO  CE1  NE2  SING  16
+HSO  CE1  HE1  SING  17
+HSO  NE2  HE2  SING  18
+HSO  C    O    DOUB  19
+HSO  C    H    SING  20
+#

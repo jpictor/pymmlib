@@ -1,0 +1,80 @@
+data_PDH
+#
+_chem_comp.id                   PDH
+_chem_comp.name                 (2S)-2-AMINO-3-PHENYL-1-PROPANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1 O1'
+_chem_comp.pdbx_synonyms        D-PHENYLALANINOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDH  C    .  C  0  23.559  -.911   -1.187  1  1 
+PDH  O    .  O  0  23.367  -.885   -2.591  1  2 
+PDH  CA   .  C  0  24.612  .178    -.736   1  3 
+PDH  N    .  N  0  24.023  .828    .5      1  4 
+PDH  CB   .  C  0  25.38   1.011   -1.727  1  5 
+PDH  CG   .  C  0  26.851  1.166   -1.424  1  6 
+PDH  CD1  .  C  0  27.289  2.09    -.482   1  7 
+PDH  CD2  .  C  0  27.792  .384    -2.085  1  8 
+PDH  CE1  .  C  0  28.641  2.231   -.205   1  9 
+PDH  CE2  .  C  0  29.144  .521    -1.813  1  10
+PDH  CZ   .  C  0  29.569  1.445   -.872   1  11
+PDH  H1   .  H  0  22.613  -.717   -.704   1  12
+PDH  H2   .  H  0  23.914  -1.89   -.903   1  13
+PDH  HO   .  H  0  22.456  -1.111  -2.794  1  14
+PDH  HA   .  H  0  25.447  -.248   -.516   1  15
+PDH  1HB  .  H  0  24.945  2       -1.76   0  16
+PDH  2HB  .  H  0  25.294  .558    -2.703  0  17
+PDH  HD1  .  H  0  26.567  2.701   .038    1  18
+PDH  HD2  .  H  0  27.46   -.336   -2.819  1  19
+PDH  HE1  .  H  0  28.971  2.952   .528    1  20
+PDH  HE2  .  H  0  29.865  -.092   -2.333  1  21
+PDH  HZ   .  H  0  30.622  1.553   -.658   1  22
+PDH  HN   .  H  0  23.063  1.023   .523    1  23
+PDH  H    .  H  0  24.617  1.059   1.296   1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDH  C    O    SING  1 
+PDH  C    CA   SING  2 
+PDH  C    H1   SING  3 
+PDH  C    H2   SING  4 
+PDH  O    HO   SING  5 
+PDH  CA   N    SING  6 
+PDH  CA   CB   SING  7 
+PDH  CA   HA   SING  8 
+PDH  N    HN   SING  9 
+PDH  N    H    SING  10
+PDH  CB   CG   SING  11
+PDH  CB   1HB  SING  12
+PDH  CB   2HB  SING  13
+PDH  CG   CD1  AROM  14
+PDH  CG   CD2  AROM  15
+PDH  CD1  CE1  AROM  16
+PDH  CD1  HD1  SING  17
+PDH  CD2  CE2  AROM  18
+PDH  CD2  HD2  SING  19
+PDH  CE1  CZ   AROM  20
+PDH  CE1  HE1  SING  21
+PDH  CE2  CZ   AROM  22
+PDH  CE2  HE2  SING  23
+PDH  CZ   HZ   SING  24
+#

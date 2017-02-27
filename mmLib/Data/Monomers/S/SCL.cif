@@ -1,0 +1,77 @@
+data_SCL
+#
+_chem_comp.id                   SCL
+_chem_comp.name                 'ACETIC ACID SALICYLOYL-AMINO-ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H9 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        195.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SCL  C1   .  C  0  ?  ?  ?  1  1 
+SCL  C2   .  C  0  ?  ?  ?  1  2 
+SCL  C3   .  C  0  ?  ?  ?  1  3 
+SCL  C4   .  C  0  ?  ?  ?  1  4 
+SCL  C5   .  C  0  ?  ?  ?  1  5 
+SCL  C6   .  C  0  ?  ?  ?  1  6 
+SCL  C7   .  C  0  ?  ?  ?  1  7 
+SCL  C8   .  C  0  ?  ?  ?  1  8 
+SCL  C9   .  C  0  ?  ?  ?  1  9 
+SCL  N1   .  N  0  ?  ?  ?  1  10
+SCL  O1   .  O  0  ?  ?  ?  1  11
+SCL  O2   .  O  0  ?  ?  ?  1  12
+SCL  O3   .  O  0  ?  ?  ?  1  13
+SCL  O4   .  O  0  ?  ?  ?  1  14
+SCL  1H9  .  H  0  ?  ?  ?  0  15
+SCL  2H9  .  H  0  ?  ?  ?  0  16
+SCL  3H9  .  H  0  ?  ?  ?  0  17
+SCL  HN1  .  H  0  ?  ?  ?  1  18
+SCL  HO1  .  H  0  ?  ?  ?  1  19
+SCL  H3   .  H  0  ?  ?  ?  1  20
+SCL  H4   .  H  0  ?  ?  ?  1  21
+SCL  H5   .  H  0  ?  ?  ?  1  22
+SCL  H6   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SCL  C1  C2   DOUB  1 
+SCL  C1  C6   SING  2 
+SCL  C1  C7   SING  3 
+SCL  C2  C3   SING  4 
+SCL  C2  O1   SING  5 
+SCL  C3  C4   DOUB  6 
+SCL  C3  H3   SING  7 
+SCL  C4  C5   SING  8 
+SCL  C4  H4   SING  9 
+SCL  C5  C6   DOUB  10
+SCL  C5  H5   SING  11
+SCL  C6  H6   SING  12
+SCL  C7  N1   SING  13
+SCL  C7  O2   DOUB  14
+SCL  C8  C9   SING  15
+SCL  C8  O3   SING  16
+SCL  C8  O4   DOUB  17
+SCL  C9  1H9  SING  18
+SCL  C9  2H9  SING  19
+SCL  C9  3H9  SING  20
+SCL  N1  O3   SING  21
+SCL  N1  HN1  SING  22
+SCL  O1  HO1  SING  23
+#

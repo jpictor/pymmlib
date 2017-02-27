@@ -1,0 +1,80 @@
+data_RM1
+#
+_chem_comp.id                   RM1
+_chem_comp.name                 N-METHYL-1(R)-AMINOINDAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        147.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RM1  C10   .  C  0  53.722  149.239  24.667  1  1 
+RM1  N10   .  N  0  53.672  150.505  25.4    1  2 
+RM1  C9    .  C  0  52.79   151.578  24.95   1  3 
+RM1  C8    .  C  0  52.584  152.665  25.958  1  4 
+RM1  C7    .  C  0  52.07   152.527  27.189  1  5 
+RM1  C6    .  C  0  51.925  153.626  27.952  1  6 
+RM1  C5    .  C  0  52.262  154.842  27.485  1  7 
+RM1  C4    .  C  0  52.785  154.966  26.251  1  8 
+RM1  C3    .  C  0  52.958  153.853  25.514  1  9 
+RM1  C2    .  C  0  53.56   153.79   24.137  1  10
+RM1  C1    .  C  0  53.522  152.293  23.805  1  11
+RM1  1H10  .  H  0  54.396  148.42   25.011  0  12
+RM1  2H10  .  H  0  53.953  149.46   23.599  0  13
+RM1  3H10  .  H  0  52.686  148.835  24.592  0  14
+RM1  H10   .  H  0  54.62   150.875  25.468  1  15
+RM1  H9    .  H  0  51.813  151.169  24.602  1  16
+RM1  1H1C  .  H  0  53.074  152.082  22.806  0  17
+RM1  2H1C  .  H  0  54.533  151.868  23.605  0  18
+RM1  H7    .  H  0  51.773  151.535  27.568  1  19
+RM1  H6    .  H  0  51.524  153.529  28.975  1  20
+RM1  H5    .  H  0  52.11   155.736  28.113  1  21
+RM1  H4    .  H  0  53.065  155.956  25.853  1  22
+RM1  1H2C  .  H  0  53.063  154.445  23.383  0  23
+RM1  2H2C  .  H  0  54.568  154.259  24.05   0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RM1  C10  N10   SING  1 
+RM1  C10  1H10  SING  2 
+RM1  C10  2H10  SING  3 
+RM1  C10  3H10  SING  4 
+RM1  N10  C9    SING  5 
+RM1  N10  H10   SING  6 
+RM1  C9   C8    SING  7 
+RM1  C9   C1    SING  8 
+RM1  C9   H9    SING  9 
+RM1  C8   C7    AROM  10
+RM1  C8   C3    AROM  11
+RM1  C7   C6    AROM  12
+RM1  C7   H7    SING  13
+RM1  C6   C5    AROM  14
+RM1  C6   H6    SING  15
+RM1  C5   C4    AROM  16
+RM1  C5   H5    SING  17
+RM1  C4   C3    AROM  18
+RM1  C4   H4    SING  19
+RM1  C3   C2    SING  20
+RM1  C2   C1    SING  21
+RM1  C2   1H2C  SING  22
+RM1  C2   2H2C  SING  23
+RM1  C1   1H1C  SING  24
+RM1  C1   2H1C  SING  25
+#

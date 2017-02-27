@@ -1,0 +1,83 @@
+data_CRW
+#
+_chem_comp.id                       CRW
+_chem_comp.name                     '[2-(1-AMINOETHYL)-4-METHYLENE-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H11 N3 O3'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (ALA-SER-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'ALA, SER, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            197.193
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRW  N1    .  N  0  1.638   4.144  1.498  1  1 
+CRW  CA1   .  C  0  0.554   5.101  1.755  1  2 
+CRW  CB1   .  C  0  -0.384  5.176  0.567  1  3 
+CRW  C1    .  C  0  -0.107  4.543  3.012  1  4 
+CRW  N2    .  N  0  -1.266  4.003  3.121  1  5 
+CRW  N3    .  N  0  0.545   4.635  4.207  1  6 
+CRW  C2    .  C  0  -0.240  3.999  5.152  1  7 
+CRW  O2    .  O  0  0.085   3.796  6.337  1  8 
+CRW  CA2   .  C  0  -1.419  3.621  4.423  1  9 
+CRW  CA3   .  C  0  1.817   5.122  4.519  1  10
+CRW  C3    .  C  0  1.993   6.498  5.127  1  11
+CRW  O3    .  O  0  2.944   6.723  5.857  1  12
+CRW  CB2   .  C  0  -2.436  3.030  5.025  1  13
+CRW  OXT   .  O  0  ?       ?      ?      1  14
+CRW  1HB1  .  H  0  ?       ?      ?      0  15
+CRW  2HB1  .  H  0  ?       ?      ?      0  16
+CRW  3HB1  .  H  0  ?       ?      ?      0  17
+CRW  HA1   .  H  0  ?       ?      ?      1  18
+CRW  1HN1  .  H  0  ?       ?      ?      0  19
+CRW  2HN1  .  H  0  ?       ?      ?      0  20
+CRW  1HB2  .  H  0  ?       ?      ?      0  21
+CRW  2HB2  .  H  0  ?       ?      ?      0  22
+CRW  1HA3  .  H  0  ?       ?      ?      0  23
+CRW  2HA3  .  H  0  ?       ?      ?      0  24
+CRW  HXT   .  H  0  ?       ?      ?      1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRW  N1   CA1   SING  1 
+CRW  N1   1HN1  SING  2 
+CRW  N1   2HN1  SING  3 
+CRW  CA1  CB1   SING  4 
+CRW  CA1  C1    SING  5 
+CRW  CA1  HA1   SING  6 
+CRW  CB1  1HB1  SING  7 
+CRW  CB1  2HB1  SING  8 
+CRW  CB1  3HB1  SING  9 
+CRW  C1   N2    DOUB  10
+CRW  C1   N3    SING  11
+CRW  N2   CA2   SING  12
+CRW  N3   C2    SING  13
+CRW  N3   CA3   SING  14
+CRW  C2   CA2   SING  15
+CRW  C2   O2    DOUB  16
+CRW  CA2  CB2   DOUB  17
+CRW  CA3  C3    SING  18
+CRW  CA3  1HA3  SING  19
+CRW  CA3  2HA3  SING  20
+CRW  C3   O3    DOUB  21
+CRW  C3   OXT   SING  22
+CRW  CB2  1HB2  SING  23
+CRW  CB2  2HB2  SING  24
+CRW  OXT  HXT   SING  25
+#

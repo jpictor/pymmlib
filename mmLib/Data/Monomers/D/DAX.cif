@@ -1,0 +1,123 @@
+data_DAX
+#
+_chem_comp.id                   DAX
+_chem_comp.name                 5-BROMO-N[2-(DIMETHYLAMINO)ETHYL]-9-AMINOACRIDINE-4-CARBOXAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C18 H21 N4 O1 BR1'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       389.294
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAX  C1    .  C   0  12.694  -8.294  20.165  1  1 
+DAX  C2    .  C   0  12.681  -8.227  21.556  1  2 
+DAX  C3    .  C   0  11.625  -7.551  22.182  1  3 
+DAX  C4    .  C   0  10.570  -6.979  21.509  1  4 
+DAX  C5    .  C   0  8.416   -5.868  17.382  1  5 
+DAX  C6    .  C   0  8.379   -5.879  16.014  1  6 
+DAX  C7    .  C   0  9.404   -6.480  15.293  1  7 
+DAX  C8    .  C   0  10.504  -7.053  15.888  1  8 
+DAX  C9    .  C   0  11.620  -7.598  18.014  1  9 
+DAX  N9    .  N   0  12.628  -8.120  17.273  1  10
+DAX  N10   .  N   1  9.632   -6.403  19.394  1  11
+DAX  C11   .  C   0  11.670  -7.681  19.417  1  12
+DAX  C12   .  C   0  10.564  -7.035  20.078  1  13
+DAX  C13   .  C   0  10.555  -7.025  17.271  1  14
+DAX  C14   .  C   0  9.512   -6.427  18.052  1  15
+DAX  CD1   .  C   0  9.545   -6.285  22.303  1  16
+DAX  OD1   .  O   0  8.899   -5.663  21.427  1  17
+DAX  ND1   .  N   0  9.782   -5.720  23.455  1  18
+DAX  BR    .  BR  0  6.900   -5.127  18.278  0  19
+DAX  CD2   .  C   0  10.740  -5.913  24.469  1  20
+DAX  CD3   .  C   0  10.909  -4.530  25.156  1  21
+DAX  ND2   .  N   1  11.267  -5.000  26.513  1  22
+DAX  CD7   .  C   0  11.434  -6.495  26.279  1  23
+DAX  CD8   .  C   0  12.565  -4.486  26.920  1  24
+DAX  1HD7  .  H   0  ?       ?       ?       0  25
+DAX  2HD7  .  H   0  ?       ?       ?       0  26
+DAX  3HD7  .  H   0  ?       ?       ?       0  27
+DAX  1HD8  .  H   0  ?       ?       ?       0  28
+DAX  2HD8  .  H   0  ?       ?       ?       0  29
+DAX  3HD8  .  H   0  ?       ?       ?       0  30
+DAX  HD2   .  H   0  ?       ?       ?       1  31
+DAX  1HD3  .  H   0  ?       ?       ?       0  32
+DAX  2HD3  .  H   0  ?       ?       ?       0  33
+DAX  1HD2  .  H   0  ?       ?       ?       0  34
+DAX  2HD2  .  H   0  ?       ?       ?       0  35
+DAX  HD1   .  H   0  ?       ?       ?       1  36
+DAX  H3    .  H   0  ?       ?       ?       1  37
+DAX  H2    .  H   0  ?       ?       ?       1  38
+DAX  H1    .  H   0  ?       ?       ?       1  39
+DAX  1H9   .  H   0  ?       ?       ?       0  40
+DAX  2H9   .  H   0  ?       ?       ?       0  41
+DAX  H10   .  H   0  ?       ?       ?       1  42
+DAX  H6    .  H   0  ?       ?       ?       1  43
+DAX  H7    .  H   0  ?       ?       ?       1  44
+DAX  H8    .  H   0  ?       ?       ?       1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAX  C1   C2    DOUB  1 
+DAX  C1   C11   SING  2 
+DAX  C1   H1    SING  3 
+DAX  C2   C3    SING  4 
+DAX  C2   H2    SING  5 
+DAX  C3   C4    DOUB  6 
+DAX  C3   H3    SING  7 
+DAX  C4   C12   SING  8 
+DAX  C4   CD1   SING  9 
+DAX  C5   C6    DOUB  10
+DAX  C5   C14   SING  11
+DAX  C5   BR    SING  12
+DAX  C6   C7    SING  13
+DAX  C6   H6    SING  14
+DAX  C7   C8    DOUB  15
+DAX  C7   H7    SING  16
+DAX  C8   C13   SING  17
+DAX  C8   H8    SING  18
+DAX  C9   N9    SING  19
+DAX  C9   C11   SING  20
+DAX  C9   C13   DOUB  21
+DAX  N9   1H9   SING  22
+DAX  N9   2H9   SING  23
+DAX  N10  C12   SING  24
+DAX  N10  C14   DOUB  25
+DAX  N10  H10   SING  26
+DAX  C11  C12   DOUB  27
+DAX  C13  C14   SING  28
+DAX  CD1  OD1   DOUB  29
+DAX  CD1  ND1   SING  30
+DAX  ND1  CD2   SING  31
+DAX  ND1  HD1   SING  32
+DAX  CD2  CD3   SING  33
+DAX  CD2  1HD2  SING  34
+DAX  CD2  2HD2  SING  35
+DAX  CD3  ND2   SING  36
+DAX  CD3  1HD3  SING  37
+DAX  CD3  2HD3  SING  38
+DAX  ND2  CD7   SING  39
+DAX  ND2  CD8   SING  40
+DAX  ND2  HD2   SING  41
+DAX  CD7  1HD7  SING  42
+DAX  CD7  2HD7  SING  43
+DAX  CD7  3HD7  SING  44
+DAX  CD8  1HD8  SING  45
+DAX  CD8  2HD8  SING  46
+DAX  CD8  3HD8  SING  47
+#

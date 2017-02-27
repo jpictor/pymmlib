@@ -1,0 +1,57 @@
+data_FLA
+#
+_chem_comp.id                       FLA
+_chem_comp.name                     TRIFLUOROALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H4 N1 O2 F3'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            143.065
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FLA  N    .  N  0  ?  ?  ?  1  1 
+FLA  CA   .  C  0  ?  ?  ?  1  2 
+FLA  C    .  C  0  ?  ?  ?  1  3 
+FLA  O    .  O  0  ?  ?  ?  1  4 
+FLA  CB   .  C  0  ?  ?  ?  1  5 
+FLA  OXT  .  O  0  ?  ?  ?  1  6 
+FLA  F1   .  F  0  ?  ?  ?  1  7 
+FLA  F2   .  F  0  ?  ?  ?  1  8 
+FLA  F3   .  F  0  ?  ?  ?  1  9 
+FLA  H    .  H  0  ?  ?  ?  1  10
+FLA  HN2  .  H  0  ?  ?  ?  1  11
+FLA  HA   .  H  0  ?  ?  ?  1  12
+FLA  HXT  .  H  0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FLA  N    CA   SING  1 
+FLA  N    H    SING  2 
+FLA  N    HN2  SING  3 
+FLA  CA   C    SING  4 
+FLA  CA   CB   SING  5 
+FLA  CA   HA   SING  6 
+FLA  C    O    DOUB  7 
+FLA  C    OXT  SING  8 
+FLA  CB   F1   SING  9 
+FLA  CB   F2   SING  10
+FLA  CB   F3   SING  11
+FLA  OXT  HXT  SING  12
+#

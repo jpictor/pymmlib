@@ -1,0 +1,92 @@
+data_HEE
+#
+_chem_comp.id                   HEE
+_chem_comp.name                 'N-HEXYLPHOSPHONATE ETHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H19 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEE  C1    .  C  0  ?  ?  ?  1  1 
+HEE  C2    .  C  0  ?  ?  ?  1  2 
+HEE  C3    .  C  0  ?  ?  ?  1  3 
+HEE  C4    .  C  0  ?  ?  ?  1  4 
+HEE  C5    .  C  0  ?  ?  ?  1  5 
+HEE  C6    .  C  0  ?  ?  ?  1  6 
+HEE  P     .  P  0  ?  ?  ?  1  7 
+HEE  O1P   .  O  0  ?  ?  ?  1  8 
+HEE  O2P   .  O  0  ?  ?  ?  1  9 
+HEE  O3P   .  O  0  ?  ?  ?  1  10
+HEE  C1'   .  C  0  ?  ?  ?  1  11
+HEE  C2'   .  C  0  ?  ?  ?  1  12
+HEE  1H1   .  H  0  ?  ?  ?  0  13
+HEE  2H1   .  H  0  ?  ?  ?  0  14
+HEE  1H2   .  H  0  ?  ?  ?  0  15
+HEE  2H2   .  H  0  ?  ?  ?  0  16
+HEE  1H3   .  H  0  ?  ?  ?  0  17
+HEE  2H3   .  H  0  ?  ?  ?  0  18
+HEE  1H4   .  H  0  ?  ?  ?  0  19
+HEE  2H4   .  H  0  ?  ?  ?  0  20
+HEE  1H5   .  H  0  ?  ?  ?  0  21
+HEE  2H5   .  H  0  ?  ?  ?  0  22
+HEE  1H6   .  H  0  ?  ?  ?  0  23
+HEE  2H6   .  H  0  ?  ?  ?  0  24
+HEE  3H6   .  H  0  ?  ?  ?  0  25
+HEE  3HOP  .  H  0  ?  ?  ?  0  26
+HEE  1H1'  .  H  0  ?  ?  ?  0  27
+HEE  2H1'  .  H  0  ?  ?  ?  0  28
+HEE  1H2'  .  H  0  ?  ?  ?  0  29
+HEE  2H2'  .  H  0  ?  ?  ?  0  30
+HEE  3H2'  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEE  C1   P     SING  1 
+HEE  C1   C2    SING  2 
+HEE  C1   1H1   SING  3 
+HEE  C1   2H1   SING  4 
+HEE  C2   C3    SING  5 
+HEE  C2   1H2   SING  6 
+HEE  C2   2H2   SING  7 
+HEE  C3   C4    SING  8 
+HEE  C3   1H3   SING  9 
+HEE  C3   2H3   SING  10
+HEE  C4   C5    SING  11
+HEE  C4   1H4   SING  12
+HEE  C4   2H4   SING  13
+HEE  C5   C6    SING  14
+HEE  C5   1H5   SING  15
+HEE  C5   2H5   SING  16
+HEE  C6   1H6   SING  17
+HEE  C6   2H6   SING  18
+HEE  C6   3H6   SING  19
+HEE  P    O1P   DOUB  20
+HEE  P    O2P   SING  21
+HEE  P    O3P   SING  22
+HEE  O2P  C1'   SING  23
+HEE  O3P  3HOP  SING  24
+HEE  C1'  C2'   SING  25
+HEE  C1'  1H1'  SING  26
+HEE  C1'  2H1'  SING  27
+HEE  C2'  1H2'  SING  28
+HEE  C2'  2H2'  SING  29
+HEE  C2'  3H2'  SING  30
+#

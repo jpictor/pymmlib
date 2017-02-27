@@ -1,0 +1,79 @@
+data_AMC
+#
+_chem_comp.id                   AMC
+_chem_comp.name                 AMINOMETHYLCYCLOHEXANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       114.210
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMC  C1   .  C  0  ?  ?  ?  1  1 
+AMC  C2   .  C  0  ?  ?  ?  1  2 
+AMC  C3   .  C  0  ?  ?  ?  1  3 
+AMC  C4   .  C  0  ?  ?  ?  1  4 
+AMC  C5   .  C  0  ?  ?  ?  1  5 
+AMC  C6   .  C  0  ?  ?  ?  1  6 
+AMC  CM   .  C  0  ?  ?  ?  1  7 
+AMC  N    .  N  1  ?  ?  ?  1  8 
+AMC  H1   .  H  0  ?  ?  ?  1  9 
+AMC  1H2  .  H  0  ?  ?  ?  0  10
+AMC  2H2  .  H  0  ?  ?  ?  0  11
+AMC  1H3  .  H  0  ?  ?  ?  0  12
+AMC  2H3  .  H  0  ?  ?  ?  0  13
+AMC  1H4  .  H  0  ?  ?  ?  0  14
+AMC  2H4  .  H  0  ?  ?  ?  0  15
+AMC  1H5  .  H  0  ?  ?  ?  0  16
+AMC  2H5  .  H  0  ?  ?  ?  0  17
+AMC  1H6  .  H  0  ?  ?  ?  0  18
+AMC  2H6  .  H  0  ?  ?  ?  0  19
+AMC  1HM  .  H  0  ?  ?  ?  0  20
+AMC  2HM  .  H  0  ?  ?  ?  0  21
+AMC  1HN  .  H  0  ?  ?  ?  0  22
+AMC  2HN  .  H  0  ?  ?  ?  0  23
+AMC  3HN  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMC  C1  C2   SING  1 
+AMC  C1  C6   SING  2 
+AMC  C1  CM   SING  3 
+AMC  C1  H1   SING  4 
+AMC  C2  C3   SING  5 
+AMC  C2  1H2  SING  6 
+AMC  C2  2H2  SING  7 
+AMC  C3  C4   SING  8 
+AMC  C3  1H3  SING  9 
+AMC  C3  2H3  SING  10
+AMC  C4  C5   SING  11
+AMC  C4  1H4  SING  12
+AMC  C4  2H4  SING  13
+AMC  C5  C6   SING  14
+AMC  C5  1H5  SING  15
+AMC  C5  2H5  SING  16
+AMC  C6  1H6  SING  17
+AMC  C6  2H6  SING  18
+AMC  CM  N    SING  19
+AMC  CM  1HM  SING  20
+AMC  CM  2HM  SING  21
+AMC  N   1HN  SING  22
+AMC  N   2HN  SING  23
+AMC  N   3HN  SING  24
+#

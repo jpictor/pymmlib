@@ -1,0 +1,127 @@
+data_ATR
+#
+_chem_comp.id                   ATR
+_chem_comp.name                 2'-MONOPHOSPHOADENOSINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        507.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATR  PB    .  P  0  ?  ?  ?  1  1 
+ATR  O1B   .  O  0  ?  ?  ?  1  2 
+ATR  O2B   .  O  0  ?  ?  ?  1  3 
+ATR  O3B   .  O  0  ?  ?  ?  1  4 
+ATR  PA    .  P  0  ?  ?  ?  1  5 
+ATR  O1A   .  O  0  ?  ?  ?  1  6 
+ATR  O2A   .  O  0  ?  ?  ?  1  7 
+ATR  O3A   .  O  0  ?  ?  ?  1  8 
+ATR  O5*   .  O  0  ?  ?  ?  1  9 
+ATR  C5*   .  C  0  ?  ?  ?  1  10
+ATR  C4*   .  C  0  ?  ?  ?  1  11
+ATR  O4*   .  O  0  ?  ?  ?  1  12
+ATR  C3*   .  C  0  ?  ?  ?  1  13
+ATR  O3*   .  O  0  ?  ?  ?  1  14
+ATR  C2*   .  C  0  ?  ?  ?  1  15
+ATR  O2*   .  O  0  ?  ?  ?  1  16
+ATR  P2*   .  P  0  ?  ?  ?  1  17
+ATR  O1P   .  O  0  ?  ?  ?  1  18
+ATR  O2P   .  O  0  ?  ?  ?  1  19
+ATR  O3P   .  O  0  ?  ?  ?  1  20
+ATR  C1*   .  C  0  ?  ?  ?  1  21
+ATR  N9    .  N  0  ?  ?  ?  1  22
+ATR  C8    .  C  0  ?  ?  ?  1  23
+ATR  N7    .  N  0  ?  ?  ?  1  24
+ATR  C5    .  C  0  ?  ?  ?  1  25
+ATR  C6    .  C  0  ?  ?  ?  1  26
+ATR  N6    .  N  0  ?  ?  ?  1  27
+ATR  N1    .  N  0  ?  ?  ?  1  28
+ATR  C2    .  C  0  ?  ?  ?  1  29
+ATR  N3    .  N  0  ?  ?  ?  1  30
+ATR  C4    .  C  0  ?  ?  ?  1  31
+ATR  2HOA  .  H  0  ?  ?  ?  0  32
+ATR  2HOB  .  H  0  ?  ?  ?  0  33
+ATR  3HOB  .  H  0  ?  ?  ?  0  34
+ATR  1H5*  .  H  0  ?  ?  ?  0  35
+ATR  2H5*  .  H  0  ?  ?  ?  0  36
+ATR  H4*   .  H  0  ?  ?  ?  1  37
+ATR  H3*   .  H  0  ?  ?  ?  1  38
+ATR  *HO3  .  H  0  ?  ?  ?  0  39
+ATR  H2*   .  H  0  ?  ?  ?  1  40
+ATR  2HOP  .  H  0  ?  ?  ?  0  41
+ATR  3HOP  .  H  0  ?  ?  ?  0  42
+ATR  H1*   .  H  0  ?  ?  ?  1  43
+ATR  H8    .  H  0  ?  ?  ?  1  44
+ATR  1HN6  .  H  0  ?  ?  ?  0  45
+ATR  2HN6  .  H  0  ?  ?  ?  0  46
+ATR  H2    .  H  0  ?  ?  ?  1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATR  PB   O1B   DOUB  1 
+ATR  PB   O2B   SING  2 
+ATR  PB   O3B   SING  3 
+ATR  PB   O3A   SING  4 
+ATR  O2B  2HOB  SING  5 
+ATR  O3B  3HOB  SING  6 
+ATR  PA   O1A   DOUB  7 
+ATR  PA   O2A   SING  8 
+ATR  PA   O3A   SING  9 
+ATR  PA   O5*   SING  10
+ATR  O2A  2HOA  SING  11
+ATR  O5*  C5*   SING  12
+ATR  C5*  C4*   SING  13
+ATR  C5*  1H5*  SING  14
+ATR  C5*  2H5*  SING  15
+ATR  C4*  O4*   SING  16
+ATR  C4*  C3*   SING  17
+ATR  C4*  H4*   SING  18
+ATR  O4*  C1*   SING  19
+ATR  C3*  O3*   SING  20
+ATR  C3*  C2*   SING  21
+ATR  C3*  H3*   SING  22
+ATR  O3*  *HO3  SING  23
+ATR  C2*  O2*   SING  24
+ATR  C2*  C1*   SING  25
+ATR  C2*  H2*   SING  26
+ATR  O2*  P2*   SING  27
+ATR  P2*  O1P   DOUB  28
+ATR  P2*  O2P   SING  29
+ATR  P2*  O3P   SING  30
+ATR  O2P  2HOP  SING  31
+ATR  O3P  3HOP  SING  32
+ATR  C1*  N9    SING  33
+ATR  C1*  H1*   SING  34
+ATR  N9   C8    SING  35
+ATR  N9   C4    SING  36
+ATR  C8   N7    DOUB  37
+ATR  C8   H8    SING  38
+ATR  N7   C5    SING  39
+ATR  C5   C6    SING  40
+ATR  C5   C4    DOUB  41
+ATR  C6   N6    SING  42
+ATR  C6   N1    DOUB  43
+ATR  N6   1HN6  SING  44
+ATR  N6   2HN6  SING  45
+ATR  N1   C2    SING  46
+ATR  C2   N3    DOUB  47
+ATR  C2   H2    SING  48
+ATR  N3   C4    SING  49
+#

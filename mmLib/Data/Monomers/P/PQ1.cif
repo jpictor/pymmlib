@@ -1,0 +1,121 @@
+data_PQ1
+#
+_chem_comp.id                   PQ1
+_chem_comp.name                 'PHOSPHORIC ACID MONO-[5-(2-AMINO-5-AMINOMETHYL-4-OXO-3,5-DIHYDRO-4H-PYRIDO[2,3-D]PYRIMIDIN-8-YL)-3,4-DIHYDROXY-TETRAHYDRO-FURAN-2-YLMETHYL] ESTER'
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C12 H18 N5 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        391.277
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PQ1  P     .  P  0  59.172  -4.193   38.375  1  1 
+PQ1  O3P   .  O  0  59.100  -3.636   36.991  1  2 
+PQ1  O2P   .  O  0  60.499  -4.565   38.944  1  3 
+PQ1  O5*   .  O  0  58.213  -5.460   38.508  1  4 
+PQ1  C5*   .  C  0  57.920  -6.282   37.386  1  5 
+PQ1  C4*   .  C  0  58.306  -7.706   37.680  1  6 
+PQ1  O4*   .  O  0  57.536  -8.153   38.825  1  7 
+PQ1  C1*   .  C  0  56.527  -9.069   38.426  1  8 
+PQ1  N9    .  N  0  55.235  -8.537   38.885  1  9 
+PQ1  C4    .  C  0  53.964  -9.122   38.744  1  10
+PQ1  N3    .  N  0  53.676  -10.277  38.095  1  11
+PQ1  C2    .  C  0  52.381  -10.571  38.142  1  12
+PQ1  N2    .  N  0  51.916  -11.659  37.513  1  13
+PQ1  N1    .  N  0  51.447  -9.817   38.799  1  14
+PQ1  C6    .  C  0  51.713  -8.641   39.488  1  15
+PQ1  O6    .  O  0  50.782  -8.056   40.076  1  16
+PQ1  C5    .  C  0  53.120  -8.278   39.418  1  17
+PQ1  C7    .  C  0  53.772  -7.193   39.934  1  18
+PQ1  C8    .  C  0  55.058  -7.341   39.601  1  19
+PQ1  C10   .  C  0  53.158  -6.041   40.735  1  20
+PQ1  N11   .  N  0  54.233  -5.234   41.358  1  21
+PQ1  C2*   .  C  0  56.669  -9.363   36.924  1  22
+PQ1  O2*   .  O  0  56.789  -10.769  36.791  1  23
+PQ1  C3*   .  C  0  57.990  -8.678   36.564  1  24
+PQ1  O3*   .  O  0  59.073  -9.323   35.889  1  25
+PQ1  O1P   .  O  0  ?       ?        ?       1  26
+PQ1  H2*   .  H  0  ?       ?        ?       1  27
+PQ1  H1    .  H  0  ?       ?        ?       1  28
+PQ1  H3*   .  H  0  ?       ?        ?       1  29
+PQ1  H2    .  H  0  ?       ?        ?       1  30
+PQ1  H4*   .  H  0  ?       ?        ?       1  31
+PQ1  H1*   .  H  0  ?       ?        ?       1  32
+PQ1  H8    .  H  0  ?       ?        ?       1  33
+PQ1  1HN2  .  H  0  ?       ?        ?       0  34
+PQ1  2HN2  .  H  0  ?       ?        ?       0  35
+PQ1  HN1   .  H  0  ?       ?        ?       1  36
+PQ1  1H10  .  H  0  ?       ?        ?       0  37
+PQ1  2H10  .  H  0  ?       ?        ?       0  38
+PQ1  1H11  .  H  0  ?       ?        ?       0  39
+PQ1  2H11  .  H  0  ?       ?        ?       0  40
+PQ1  1H5*  .  H  0  ?       ?        ?       0  41
+PQ1  2H5*  .  H  0  ?       ?        ?       0  42
+PQ1  2HOP  .  H  0  ?       ?        ?       0  43
+PQ1  3HOP  .  H  0  ?       ?        ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PQ1  P    O5*   SING  1 
+PQ1  P    O3P   SING  2 
+PQ1  P    O1P   DOUB  3 
+PQ1  P    O2P   SING  4 
+PQ1  O3P  3HOP  SING  5 
+PQ1  O2P  2HOP  SING  6 
+PQ1  O5*  C5*   SING  7 
+PQ1  C5*  C4*   SING  8 
+PQ1  C5*  1H5*  SING  9 
+PQ1  C5*  2H5*  SING  10
+PQ1  C4*  C3*   SING  11
+PQ1  C4*  H4*   SING  12
+PQ1  C4*  O4*   SING  13
+PQ1  O4*  C1*   SING  14
+PQ1  C1*  C2*   SING  15
+PQ1  C1*  H1*   SING  16
+PQ1  C1*  N9    SING  17
+PQ1  N9   C8    SING  18
+PQ1  N9   C4    SING  19
+PQ1  C4   C5    DOUB  20
+PQ1  C4   N3    SING  21
+PQ1  N3   C2    DOUB  22
+PQ1  C2   N2    SING  23
+PQ1  C2   N1    SING  24
+PQ1  N2   1HN2  SING  25
+PQ1  N2   2HN2  SING  26
+PQ1  N1   HN1   SING  27
+PQ1  N1   C6    SING  28
+PQ1  C6   C5    SING  29
+PQ1  C6   O6    DOUB  30
+PQ1  C5   C7    SING  31
+PQ1  C7   C8    DOUB  32
+PQ1  C7   C10   SING  33
+PQ1  C8   H8    SING  34
+PQ1  C10  1H10  SING  35
+PQ1  C10  2H10  SING  36
+PQ1  C10  N11   SING  37
+PQ1  N11  1H11  SING  38
+PQ1  N11  2H11  SING  39
+PQ1  C2*  O2*   SING  40
+PQ1  C2*  H1    SING  41
+PQ1  C2*  C3*   SING  42
+PQ1  O2*  H2*   SING  43
+PQ1  C3*  H3*   SING  44
+PQ1  C3*  O3*   SING  45
+PQ1  O3*  H2    SING  46
+#

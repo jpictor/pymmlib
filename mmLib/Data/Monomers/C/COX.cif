@@ -1,0 +1,106 @@
+data_COX
+#
+_chem_comp.id                   COX
+_chem_comp.name                 4-(5-METHYL-3-PHENYLISOXAZOL-4-YL)BENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 N2 O3 S1'
+_chem_comp.pdbx_synonyms        VALDECOXIB
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        314.358
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COX  S1    .  S  0  -5.734  0.959   16.452  1  1 
+COX  O1    .  O  0  -7.296  1.060   16.246  1  2 
+COX  O2    .  O  0  -5.163  1.148   17.904  1  3 
+COX  N1    .  N  0  -5.187  -0.540  15.863  1  4 
+COX  C1    .  C  0  -5.012  2.242   15.512  1  5 
+COX  C2    .  C  0  -5.851  3.131   14.785  1  6 
+COX  C3    .  C  0  -5.255  4.182   14.046  1  7 
+COX  C4    .  C  0  -3.820  4.380   14.012  1  8 
+COX  C5    .  C  0  -3.019  3.448   14.766  1  9 
+COX  C6    .  C  0  -3.604  2.391   15.505  1  10
+COX  C7    .  C  0  -3.227  5.475   13.266  1  11
+COX  C8    .  C  0  -2.025  5.450   12.487  1  12
+COX  C9    .  C  0  -1.030  4.342   12.179  1  13
+COX  O3    .  O  0  -1.777  6.696   11.956  1  14
+COX  N2    .  N  0  -2.745  7.475   12.347  1  15
+COX  C10   .  C  0  -3.683  6.846   13.140  1  16
+COX  C11   .  C  0  -4.861  7.522   13.635  1  17
+COX  C12   .  C  0  -5.829  8.066   12.724  1  18
+COX  C13   .  C  0  -6.992  8.725   13.187  1  19
+COX  C14   .  C  0  -7.218  8.856   14.580  1  20
+COX  C15   .  C  0  -6.285  8.334   15.510  1  21
+COX  C16   .  C  0  -5.122  7.675   15.047  1  22
+COX  1H9   .  H  0  ?       ?       ?       0  23
+COX  2H9   .  H  0  ?       ?       ?       0  24
+COX  3H9   .  H  0  ?       ?       ?       0  25
+COX  H16   .  H  0  ?       ?       ?       1  26
+COX  H15   .  H  0  ?       ?       ?       1  27
+COX  H14   .  H  0  ?       ?       ?       1  28
+COX  H13   .  H  0  ?       ?       ?       1  29
+COX  H12   .  H  0  ?       ?       ?       1  30
+COX  H5    .  H  0  ?       ?       ?       1  31
+COX  H6    .  H  0  ?       ?       ?       1  32
+COX  H2    .  H  0  ?       ?       ?       1  33
+COX  H3    .  H  0  ?       ?       ?       1  34
+COX  1HN1  .  H  0  ?       ?       ?       0  35
+COX  2HN1  .  H  0  ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COX  S1   C1    SING  1 
+COX  S1   N1    SING  2 
+COX  S1   O1    DOUB  3 
+COX  S1   O2    DOUB  4 
+COX  N1   1HN1  SING  5 
+COX  N1   2HN1  SING  6 
+COX  C1   C6    DOUB  7 
+COX  C1   C2    SING  8 
+COX  C2   C3    DOUB  9 
+COX  C2   H2    SING  10
+COX  C3   C4    SING  11
+COX  C3   H3    SING  12
+COX  C4   C7    SING  13
+COX  C4   C5    DOUB  14
+COX  C5   C6    SING  15
+COX  C5   H5    SING  16
+COX  C6   H6    SING  17
+COX  C7   C10   SING  18
+COX  C7   C8    DOUB  19
+COX  C8   C9    SING  20
+COX  C8   O3    SING  21
+COX  C9   1H9   SING  22
+COX  C9   2H9   SING  23
+COX  C9   3H9   SING  24
+COX  O3   N2    SING  25
+COX  N2   C10   DOUB  26
+COX  C10  C11   SING  27
+COX  C11  C16   SING  28
+COX  C11  C12   DOUB  29
+COX  C12  C13   SING  30
+COX  C12  H12   SING  31
+COX  C13  C14   DOUB  32
+COX  C13  H13   SING  33
+COX  C14  C15   SING  34
+COX  C14  H14   SING  35
+COX  C15  C16   DOUB  36
+COX  C15  H15   SING  37
+COX  C16  H16   SING  38
+#

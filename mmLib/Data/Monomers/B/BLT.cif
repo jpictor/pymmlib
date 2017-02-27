@@ -1,0 +1,108 @@
+data_BLT
+#
+_chem_comp.id                   BLT
+_chem_comp.name                 '1,4-DIDEOXY-1,4-[[2R,3R)-2,4-DIHYDROXY-3-(SULFOXY)BUTYL]EPISELENONIUMYLIDENE]-D-ARABINITOL INNER SALT'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H18 O9 S1 SE1'
+_chem_comp.pdbx_synonyms        'DIASTEREOMER OF SELENO-SALACINOL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        381.256
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BLT  C1    .  C   0   31.612  66.590  6.772   1  1 
+BLT  O1    .  O   0   31.717  67.601  5.724   1  2 
+BLT  C2    .  C   0   32.812  66.733  7.753   1  3 
+BLT  O2    .  O   0   33.927  66.084  7.243   1  4 
+BLT  C3    .  C   0   32.314  66.038  9.058   1  5 
+BLT  SE4   .  SE  1   30.496  65.386  8.895   0  6 
+BLT  C5    .  C   0   30.270  66.746  7.491   1  7 
+BLT  C6    .  C   0   29.054  66.451  6.527   1  8 
+BLT  O6    .  O   0   27.854  66.675  7.340   1  9 
+BLT  C7    .  C   0   29.498  66.166  10.237  1  10
+BLT  C8    .  C   0   29.189  65.358  11.459  1  11
+BLT  O8    .  O   0   28.757  64.022  11.032  1  12
+BLT  C9    .  C   0   28.119  65.883  12.396  1  13
+BLT  C10   .  C   0   28.004  64.974  13.645  1  14
+BLT  O10   .  O   0   29.203  65.115  14.420  1  15
+BLT  O9    .  O   0   28.482  67.247  12.699  1  16
+BLT  S9    .  S   0   27.638  68.502  12.394  1  17
+BLT  O11   .  O   -1  27.283  68.560  10.989  1  18
+BLT  O12   .  O   -1  28.387  69.680  12.822  1  19
+BLT  O13   .  O   -1  26.476  68.257  13.248  1  20
+BLT  H10   .  H   0   ?       ?       ?       1  21
+BLT  1H10  .  H   0   ?       ?       ?       0  22
+BLT  2H10  .  H   0   ?       ?       ?       0  23
+BLT  H9    .  H   0   ?       ?       ?       1  24
+BLT  H8    .  H   0   ?       ?       ?       1  25
+BLT  HO8   .  H   0   ?       ?       ?       1  26
+BLT  1H7   .  H   0   ?       ?       ?       0  27
+BLT  2H7   .  H   0   ?       ?       ?       0  28
+BLT  1H3   .  H   0   ?       ?       ?       0  29
+BLT  2H3   .  H   0   ?       ?       ?       0  30
+BLT  H2    .  H   0   ?       ?       ?       1  31
+BLT  HO2   .  H   0   ?       ?       ?       1  32
+BLT  H1    .  H   0   ?       ?       ?       1  33
+BLT  HO1   .  H   0   ?       ?       ?       1  34
+BLT  H5    .  H   0   ?       ?       ?       1  35
+BLT  1H6   .  H   0   ?       ?       ?       0  36
+BLT  2H6   .  H   0   ?       ?       ?       0  37
+BLT  HO6   .  H   0   ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BLT  C1   C2    SING  1 
+BLT  C1   O1    SING  2 
+BLT  C1   C5    SING  3 
+BLT  C1   H1    SING  4 
+BLT  O1   HO1   SING  5 
+BLT  C2   C3    SING  6 
+BLT  C2   O2    SING  7 
+BLT  C2   H2    SING  8 
+BLT  O2   HO2   SING  9 
+BLT  C3   SE4   SING  10
+BLT  C3   1H3   SING  11
+BLT  C3   2H3   SING  12
+BLT  SE4  C7    SING  13
+BLT  SE4  C5    SING  14
+BLT  C5   C6    SING  15
+BLT  C5   H5    SING  16
+BLT  C6   O6    SING  17
+BLT  C6   1H6   SING  18
+BLT  C6   2H6   SING  19
+BLT  O6   HO6   SING  20
+BLT  C7   C8    SING  21
+BLT  C7   1H7   SING  22
+BLT  C7   2H7   SING  23
+BLT  C8   C9    SING  24
+BLT  C8   O8    SING  25
+BLT  C8   H8    SING  26
+BLT  O8   HO8   SING  27
+BLT  C9   C10   SING  28
+BLT  C9   O9    SING  29
+BLT  C9   H9    SING  30
+BLT  C10  O10   SING  31
+BLT  C10  1H10  SING  32
+BLT  C10  2H10  SING  33
+BLT  O10  H10   SING  34
+BLT  O9   S9    SING  35
+BLT  S9   O11   SING  36
+BLT  S9   O12   SING  37
+BLT  S9   O13   SING  38
+#

@@ -1,0 +1,93 @@
+data_AR3
+#
+_chem_comp.id                   AR3
+_chem_comp.name                 CYTARABINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N3 O5'
+_chem_comp.pdbx_synonyms        '1-BETA-D-ARABINOFURANOSYLCYTOSINE; ARA-C'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        243.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AR3  O5'   .  O  0  69.603  37.846  20.126  1  1 
+AR3  C5'   .  C  0  70.084  37.180  21.290  1  2 
+AR3  C4'   .  C  0  70.191  35.672  21.069  1  3 
+AR3  O4'   .  O  0  68.908  35.015  20.820  1  4 
+AR3  C1'   .  C  0  68.945  34.157  19.690  1  5 
+AR3  N1    .  N  0  67.581  34.094  19.091  1  6 
+AR3  C6    .  C  0  66.781  35.110  19.044  1  7 
+AR3  C5    .  C  0  65.581  35.014  18.562  1  8 
+AR3  C4    .  C  0  65.145  33.836  18.102  1  9 
+AR3  N3    .  N  0  65.955  32.800  18.065  1  10
+AR3  C2    .  C  0  67.182  32.939  18.562  1  11
+AR3  O2    .  O  0  67.993  31.922  18.522  1  12
+AR3  N4    .  N  0  63.889  33.644  17.594  1  13
+AR3  C2'   .  C  0  70.097  34.681  18.834  1  14
+AR3  O1    .  O  0  69.589  35.628  17.902  1  15
+AR3  C3'   .  C  0  71.052  35.302  19.868  1  16
+AR3  O3'   .  O  0  72.081  34.348  20.236  1  17
+AR3  H5'   .  H  0  ?       ?       ?       1  18
+AR3  1H5'  .  H  0  ?       ?       ?       0  19
+AR3  2H5'  .  H  0  ?       ?       ?       0  20
+AR3  H4'   .  H  0  ?       ?       ?       1  21
+AR3  H1'   .  H  0  ?       ?       ?       1  22
+AR3  H6    .  H  0  ?       ?       ?       1  23
+AR3  H5    .  H  0  ?       ?       ?       1  24
+AR3  1HN4  .  H  0  ?       ?       ?       0  25
+AR3  2HN4  .  H  0  ?       ?       ?       0  26
+AR3  H2'   .  H  0  ?       ?       ?       1  27
+AR3  HO1   .  H  0  ?       ?       ?       1  28
+AR3  H3'   .  H  0  ?       ?       ?       1  29
+AR3  H1    .  H  0  ?       ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AR3  O5'  H5'   SING  1 
+AR3  O5'  C5'   SING  2 
+AR3  C5'  1H5'  SING  3 
+AR3  C5'  2H5'  SING  4 
+AR3  C5'  C4'   SING  5 
+AR3  C4'  H4'   SING  6 
+AR3  C4'  O4'   SING  7 
+AR3  C4'  C3'   SING  8 
+AR3  O4'  C1'   SING  9 
+AR3  C1'  H1'   SING  10
+AR3  C1'  N1    SING  11
+AR3  C1'  C2'   SING  12
+AR3  N1   C6    SING  13
+AR3  N1   C2    SING  14
+AR3  C6   H6    SING  15
+AR3  C6   C5    DOUB  16
+AR3  C5   H5    SING  17
+AR3  C5   C4    SING  18
+AR3  C4   N3    DOUB  19
+AR3  C4   N4    SING  20
+AR3  N3   C2    SING  21
+AR3  C2   O2    DOUB  22
+AR3  N4   1HN4  SING  23
+AR3  N4   2HN4  SING  24
+AR3  C2'  H2'   SING  25
+AR3  C2'  O1    SING  26
+AR3  C2'  C3'   SING  27
+AR3  O1   HO1   SING  28
+AR3  C3'  H3'   SING  29
+AR3  C3'  O3'   SING  30
+AR3  O3'  H1    SING  31
+#

@@ -1,0 +1,84 @@
+data_NSB
+#
+_chem_comp.id                   NSB
+_chem_comp.name                 N,N,N-TRIMETHYL-3-SULFOPROPAN-1-AMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H16 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       182.257
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NSB  O50   .  O  0  0.232  69.230  35.796  1  1 
+NSB  S8    .  S  0  1.063  69.556  34.615  1  2 
+NSB  O46   .  O  0  0.699  70.902  34.123  1  3 
+NSB  O48   .  O  0  2.498  69.569  34.992  1  4 
+NSB  C6    .  C  0  0.797  68.398  33.444  1  5 
+NSB  C4    .  C  0  1.047  67.002  34.010  1  6 
+NSB  C2    .  C  0  1.632  66.072  32.949  1  7 
+NSB  N1    .  N  1  2.653  65.119  33.441  1  8 
+NSB  C20   .  C  0  3.211  64.446  32.265  1  9 
+NSB  C18   .  C  0  2.049  64.107  34.324  1  10
+NSB  C16   .  C  0  3.747  65.795  34.158  1  11
+NSB  1H20  .  H  0  ?      ?       ?       0  12
+NSB  2H20  .  H  0  ?      ?       ?       0  13
+NSB  3H20  .  H  0  ?      ?       ?       0  14
+NSB  1H18  .  H  0  ?      ?       ?       0  15
+NSB  2H18  .  H  0  ?      ?       ?       0  16
+NSB  3H18  .  H  0  ?      ?       ?       0  17
+NSB  1H16  .  H  0  ?      ?       ?       0  18
+NSB  2H16  .  H  0  ?      ?       ?       0  19
+NSB  3H16  .  H  0  ?      ?       ?       0  20
+NSB  1H2   .  H  0  ?      ?       ?       0  21
+NSB  2H2   .  H  0  ?      ?       ?       0  22
+NSB  1H4   .  H  0  ?      ?       ?       0  23
+NSB  2H4   .  H  0  ?      ?       ?       0  24
+NSB  1H6   .  H  0  ?      ?       ?       0  25
+NSB  2H6   .  H  0  ?      ?       ?       0  26
+NSB  H50   .  H  0  ?      ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NSB  O50  S8    SING  1 
+NSB  O50  H50   SING  2 
+NSB  S8   C6    SING  3 
+NSB  S8   O46   DOUB  4 
+NSB  S8   O48   DOUB  5 
+NSB  C6   C4    SING  6 
+NSB  C6   1H6   SING  7 
+NSB  C6   2H6   SING  8 
+NSB  C4   C2    SING  9 
+NSB  C4   1H4   SING  10
+NSB  C4   2H4   SING  11
+NSB  C2   N1    SING  12
+NSB  C2   1H2   SING  13
+NSB  C2   2H2   SING  14
+NSB  N1   C20   SING  15
+NSB  N1   C18   SING  16
+NSB  N1   C16   SING  17
+NSB  C20  1H20  SING  18
+NSB  C20  2H20  SING  19
+NSB  C20  3H20  SING  20
+NSB  C18  1H18  SING  21
+NSB  C18  2H18  SING  22
+NSB  C18  3H18  SING  23
+NSB  C16  1H16  SING  24
+NSB  C16  2H16  SING  25
+NSB  C16  3H16  SING  26
+#

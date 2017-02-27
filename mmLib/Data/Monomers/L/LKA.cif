@@ -1,0 +1,81 @@
+data_LKA
+#
+_chem_comp.id                   LKA
+_chem_comp.name                 5-THIO-A/B-D-MANNOPYRANOSYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        195.233
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LKA  C5    .  C  0  29.872  67.241  7.219   1  1 
+LKA  S0    .  S  0  29.556  66.497  8.851   1  2 
+LKA  C1    .  C  0  30.917  65.319  9.159   1  3 
+LKA  N1    .  N  0  30.881  64.710  10.260  1  4 
+LKA  C2    .  C  0  32.364  66.064  9.120   1  5 
+LKA  O2    .  O  0  33.387  65.463  9.472   1  6 
+LKA  C3    .  C  0  32.474  66.846  7.667   1  7 
+LKA  O3    .  O  0  33.650  66.243  6.970   1  8 
+LKA  C4    .  C  0  31.392  66.761  6.767   1  9 
+LKA  O4    .  O  0  31.473  67.472  5.518   1  10
+LKA  C6    .  C  0  28.902  66.843  6.584   1  11
+LKA  O6    .  O  0  27.637  67.124  6.848   1  12
+LKA  HO6   .  H  0  ?       ?       ?       1  13
+LKA  1H6   .  H  0  ?       ?       ?       0  14
+LKA  2H6   .  H  0  ?       ?       ?       0  15
+LKA  H5    .  H  0  ?       ?       ?       1  16
+LKA  H1    .  H  0  ?       ?       ?       1  17
+LKA  1HN1  .  H  0  ?       ?       ?       0  18
+LKA  2HN1  .  H  0  ?       ?       ?       0  19
+LKA  H2    .  H  0  ?       ?       ?       1  20
+LKA  HO2   .  H  0  ?       ?       ?       1  21
+LKA  H3    .  H  0  ?       ?       ?       1  22
+LKA  HO3   .  H  0  ?       ?       ?       1  23
+LKA  H4    .  H  0  ?       ?       ?       1  24
+LKA  HO4   .  H  0  ?       ?       ?       1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LKA  C5  C6    SING  1 
+LKA  C5  H5    SING  2 
+LKA  C5  S0    SING  3 
+LKA  C5  C4    SING  4 
+LKA  S0  C1    SING  5 
+LKA  C1  H1    SING  6 
+LKA  C1  N1    SING  7 
+LKA  C1  C2    SING  8 
+LKA  N1  1HN1  SING  9 
+LKA  N1  2HN1  SING  10
+LKA  C2  H2    SING  11
+LKA  C2  O2    SING  12
+LKA  C2  C3    SING  13
+LKA  O2  HO2   SING  14
+LKA  C3  H3    SING  15
+LKA  C3  O3    SING  16
+LKA  C3  C4    SING  17
+LKA  O3  HO3   SING  18
+LKA  C4  H4    SING  19
+LKA  C4  O4    SING  20
+LKA  O4  HO4   SING  21
+LKA  C6  O6    SING  22
+LKA  C6  1H6   SING  23
+LKA  C6  2H6   SING  24
+LKA  O6  HO6   SING  25
+#

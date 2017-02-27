@@ -1,0 +1,74 @@
+data_XXP
+#
+_chem_comp.id                   XXP
+_chem_comp.name                 '2-KETO,5-NITRO,6-HYDROXY-3,5-HEXADIENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.109
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          XXP
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C(=C\C(=O)C(=O)O)\C(=C/O)\N(=O)=O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XXP  O8    .  O  0   1.619  -26.184  11.573  1  N  1 
+XXP  N7    .  N  1   1.857  -26.898  10.333  1  N  2 
+XXP  O9    .  O  -1  1.072  -27.713  9.813   1  N  3 
+XXP  C5    .  C  0   3.008  -26.670  9.760   1  N  4 
+XXP  C6    .  C  0   3.550  -25.585  10.387  1  N  5 
+XXP  O10   .  O  0   4.711  -24.969  10.171  1  N  6 
+XXP  C4    .  C  0   3.423  -27.598  8.640   1  N  7 
+XXP  C3    .  C  0   4.610  -27.854  8.054   1  N  8 
+XXP  C2    .  C  0   5.865  -27.172  8.450   1  N  9 
+XXP  O11   .  O  0   6.944  -27.753  8.363   1  N  10
+XXP  C1    .  C  0   5.809  -25.755  8.900   1  N  11
+XXP  O12   .  O  0   4.985  -24.987  8.317   1  N  12
+XXP  O13   .  O  0   6.576  -25.356  9.823   1  N  13
+XXP  H6    .  H  0   2.947  -25.163  11.177  1  N  14
+XXP  HO10  .  H  0   4.824  -24.822  9.239   0  N  15
+XXP  H4    .  H  0   2.605  -28.170  8.227   1  N  16
+XXP  H3    .  H  0   4.648  -28.587  7.262   1  N  17
+XXP  HO13  .  H  0   6.425  -24.432  9.984   0  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XXP  O8   N7    DOUB  N  1 
+XXP  N7   C5    SING  N  2 
+XXP  N7   O9    SING  N  3 
+XXP  C5   C4    SING  N  4 
+XXP  C5   C6    DOUB  N  5 
+XXP  C6   O10   SING  N  6 
+XXP  C6   H6    SING  N  7 
+XXP  O10  HO10  SING  N  8 
+XXP  C4   C3    DOUB  N  9 
+XXP  C4   H4    SING  N  10
+XXP  C3   C2    SING  N  11
+XXP  C3   H3    SING  N  12
+XXP  C2   O11   DOUB  N  13
+XXP  C2   C1    SING  N  14
+XXP  C1   O12   DOUB  N  15
+XXP  C1   O13   SING  N  16
+XXP  O13  HO13  SING  N  17
+#

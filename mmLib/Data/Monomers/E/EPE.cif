@@ -1,0 +1,98 @@
+data_EPE
+#
+_chem_comp.id                   EPE
+_chem_comp.name                 '4-(2-HYDROXYETHYL)-1-PIPERAZINE ETHANESULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N2 O4 S1'
+_chem_comp.pdbx_synonyms        HEPES
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.301
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EPE  N1    .  N  0  ?  ?  ?  1  1 
+EPE  C2    .  C  0  ?  ?  ?  1  2 
+EPE  C3    .  C  0  ?  ?  ?  1  3 
+EPE  N4    .  N  0  ?  ?  ?  1  4 
+EPE  C5    .  C  0  ?  ?  ?  1  5 
+EPE  C6    .  C  0  ?  ?  ?  1  6 
+EPE  C7    .  C  0  ?  ?  ?  1  7 
+EPE  C8    .  C  0  ?  ?  ?  1  8 
+EPE  O8    .  O  0  ?  ?  ?  1  9 
+EPE  C9    .  C  0  ?  ?  ?  1  10
+EPE  C10   .  C  0  ?  ?  ?  1  11
+EPE  S     .  S  0  ?  ?  ?  1  12
+EPE  O1S   .  O  0  ?  ?  ?  1  13
+EPE  O2S   .  O  0  ?  ?  ?  1  14
+EPE  O3S   .  O  0  ?  ?  ?  1  15
+EPE  1H2   .  H  0  ?  ?  ?  0  16
+EPE  2H2   .  H  0  ?  ?  ?  0  17
+EPE  1H3   .  H  0  ?  ?  ?  0  18
+EPE  2H3   .  H  0  ?  ?  ?  0  19
+EPE  1H5   .  H  0  ?  ?  ?  0  20
+EPE  2H5   .  H  0  ?  ?  ?  0  21
+EPE  1H6   .  H  0  ?  ?  ?  0  22
+EPE  2H6   .  H  0  ?  ?  ?  0  23
+EPE  1H7   .  H  0  ?  ?  ?  0  24
+EPE  2H7   .  H  0  ?  ?  ?  0  25
+EPE  1H8   .  H  0  ?  ?  ?  0  26
+EPE  2H8   .  H  0  ?  ?  ?  0  27
+EPE  HO8   .  H  0  ?  ?  ?  1  28
+EPE  1H9   .  H  0  ?  ?  ?  0  29
+EPE  2H9   .  H  0  ?  ?  ?  0  30
+EPE  1H10  .  H  0  ?  ?  ?  0  31
+EPE  2H10  .  H  0  ?  ?  ?  0  32
+EPE  3HOS  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EPE  N1   C2    SING  1 
+EPE  N1   C6    SING  2 
+EPE  N1   C9    SING  3 
+EPE  C2   C3    SING  4 
+EPE  C2   1H2   SING  5 
+EPE  C2   2H2   SING  6 
+EPE  C3   N4    SING  7 
+EPE  C3   1H3   SING  8 
+EPE  C3   2H3   SING  9 
+EPE  N4   C5    SING  10
+EPE  N4   C7    SING  11
+EPE  C5   C6    SING  12
+EPE  C5   1H5   SING  13
+EPE  C5   2H5   SING  14
+EPE  C6   1H6   SING  15
+EPE  C6   2H6   SING  16
+EPE  C7   C8    SING  17
+EPE  C7   1H7   SING  18
+EPE  C7   2H7   SING  19
+EPE  C8   O8    SING  20
+EPE  C8   1H8   SING  21
+EPE  C8   2H8   SING  22
+EPE  O8   HO8   SING  23
+EPE  C9   C10   SING  24
+EPE  C9   1H9   SING  25
+EPE  C9   2H9   SING  26
+EPE  C10  S     SING  27
+EPE  C10  1H10  SING  28
+EPE  C10  2H10  SING  29
+EPE  S    O1S   DOUB  30
+EPE  S    O2S   DOUB  31
+EPE  S    O3S   SING  32
+EPE  O3S  3HOS  SING  33
+#

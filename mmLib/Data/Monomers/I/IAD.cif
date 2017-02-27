@@ -1,0 +1,102 @@
+data_IAD
+#
+_chem_comp.id                   IAD
+_chem_comp.name                 'N-[1H-INDOL-3-YL-ACETYL]ASPARTIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        290.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAD  OD2  .  O  0  ?  ?  ?  1  1 
+IAD  CG   .  C  0  ?  ?  ?  1  2 
+IAD  OD1  .  O  0  ?  ?  ?  1  3 
+IAD  CB   .  C  0  ?  ?  ?  1  4 
+IAD  CA   .  C  0  ?  ?  ?  1  5 
+IAD  C    .  C  0  ?  ?  ?  1  6 
+IAD  O    .  O  0  ?  ?  ?  1  7 
+IAD  O1   .  O  0  ?  ?  ?  1  8 
+IAD  N    .  N  0  ?  ?  ?  1  9 
+IAD  C11  .  C  0  ?  ?  ?  1  10
+IAD  O11  .  O  0  ?  ?  ?  1  11
+IAD  C10  .  C  0  ?  ?  ?  1  12
+IAD  C3   .  C  0  ?  ?  ?  1  13
+IAD  C2   .  C  0  ?  ?  ?  1  14
+IAD  N1   .  N  0  ?  ?  ?  1  15
+IAD  C9   .  C  0  ?  ?  ?  1  16
+IAD  C4   .  C  0  ?  ?  ?  1  17
+IAD  C8   .  C  0  ?  ?  ?  1  18
+IAD  C7   .  C  0  ?  ?  ?  1  19
+IAD  C6   .  C  0  ?  ?  ?  1  20
+IAD  C5   .  C  0  ?  ?  ?  1  21
+IAD  HD2  .  H  0  ?  ?  ?  1  22
+IAD  1HB  .  H  0  ?  ?  ?  0  23
+IAD  2HB  .  H  0  ?  ?  ?  0  24
+IAD  HO1  .  H  0  ?  ?  ?  1  25
+IAD  H    .  H  0  ?  ?  ?  1  26
+IAD  1H   .  H  0  ?  ?  ?  0  27
+IAD  2H   .  H  0  ?  ?  ?  0  28
+IAD  H2   .  H  0  ?  ?  ?  1  29
+IAD  HN1  .  H  0  ?  ?  ?  1  30
+IAD  H4   .  H  0  ?  ?  ?  1  31
+IAD  H5   .  H  0  ?  ?  ?  1  32
+IAD  H6   .  H  0  ?  ?  ?  1  33
+IAD  H7   .  H  0  ?  ?  ?  1  34
+IAD  HA   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAD  OD2  CG   SING  1 
+IAD  OD2  HD2  SING  2 
+IAD  CG   OD1  DOUB  3 
+IAD  CG   CB   SING  4 
+IAD  CB   CA   SING  5 
+IAD  CB   1HB  SING  6 
+IAD  CB   2HB  SING  7 
+IAD  CA   C    SING  8 
+IAD  CA   N    SING  9 
+IAD  CA   HA   SING  10
+IAD  C    O    DOUB  11
+IAD  C    O1   SING  12
+IAD  O1   HO1  SING  13
+IAD  N    C11  SING  14
+IAD  N    H    SING  15
+IAD  C11  O11  DOUB  16
+IAD  C11  C10  SING  17
+IAD  C10  C3   SING  18
+IAD  C10  1H   SING  19
+IAD  C10  2H   SING  20
+IAD  C3   C2   AROM  21
+IAD  C3   C9   AROM  22
+IAD  C2   N1   AROM  23
+IAD  C2   H2   SING  24
+IAD  N1   C8   AROM  25
+IAD  N1   HN1  SING  26
+IAD  C9   C4   AROM  27
+IAD  C9   C8   AROM  28
+IAD  C4   C5   AROM  29
+IAD  C4   H4   SING  30
+IAD  C8   C7   AROM  31
+IAD  C7   C6   AROM  32
+IAD  C7   H7   SING  33
+IAD  C6   C5   AROM  34
+IAD  C6   H6   SING  35
+IAD  C5   H5   SING  36
+#

@@ -1,0 +1,113 @@
+data_SC1
+#
+_chem_comp.id                   SC1
+_chem_comp.name                 '[3R-[3A,4A,5B(S*)]]-5-(1-CARBOXY-1-PHOSPHONOETHOXY)-4-HYDROXY-3-(PHOSPHONOOXY)-1-CYCLOHEXENE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 O13 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        406.176
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SC1  C1   .  C  0  56.286  12.177  27.907  1  1 
+SC1  C2   .  C  0  55.144  11.388  28.252  1  2 
+SC1  C3   .  C  0  55.316  10.114  29.052  1  3 
+SC1  C4   .  C  0  56.715  10.062  29.867  1  4 
+SC1  C5   .  C  0  57.874  10.284  28.846  1  5 
+SC1  C6   .  C  0  57.698  11.778  28.327  1  6 
+SC1  C7   .  C  0  56.107  13.435  27.136  1  7 
+SC1  O1   .  O  0  55.140  8.871   28.056  1  8 
+SC1  O2   .  O  0  56.720  8.781   30.505  1  9 
+SC1  O3   .  O  0  59.144  10.166  29.499  1  10
+SC1  O4   .  O  0  55.213  13.483  26.305  1  11
+SC1  O5   .  O  0  56.863  14.330  27.398  1  12
+SC1  P1   .  P  0  53.731  7.966   27.831  1  13
+SC1  O6   .  O  0  52.710  8.945   27.219  1  14
+SC1  O7   .  O  0  53.355  7.467   29.277  1  15
+SC1  O8   .  O  0  54.247  6.931   26.821  1  16
+SC1  C8   .  C  0  60.098  9.084   29.123  1  17
+SC1  C9   .  C  0  59.527  7.580   29.019  1  18
+SC1  C10  .  C  0  61.326  9.188   30.028  1  19
+SC1  O9   .  O  0  61.774  10.327  30.393  1  20
+SC1  O10  .  O  0  61.716  8.069   30.459  1  21
+SC1  P2   .  P  0  60.530  9.366   27.292  1  22
+SC1  O11  .  O  0  61.858  8.610   27.023  1  23
+SC1  O12  .  O  0  60.763  10.840  27.087  1  24
+SC1  O13  .  O  0  59.403  8.768   26.388  1  25
+SC1  1H9  .  H  0  ?       ?       ?       0  26
+SC1  2H9  .  H  0  ?       ?       ?       0  27
+SC1  3H9  .  H  0  ?       ?       ?       0  28
+SC1  H5   .  H  0  ?       ?       ?       1  29
+SC1  1H6  .  H  0  ?       ?       ?       0  30
+SC1  2H6  .  H  0  ?       ?       ?       0  31
+SC1  H2   .  H  0  ?       ?       ?       1  32
+SC1  H3   .  H  0  ?       ?       ?       1  33
+SC1  HO7  .  H  0  ?       ?       ?       1  34
+SC1  HO8  .  H  0  ?       ?       ?       1  35
+SC1  H4   .  H  0  ?       ?       ?       1  36
+SC1  HO2  .  H  0  ?       ?       ?       1  37
+SC1  HO5  .  H  0  ?       ?       ?       1  38
+SC1  H10  .  H  0  ?       ?       ?       1  39
+SC1  H11  .  H  0  ?       ?       ?       1  40
+SC1  H13  .  H  0  ?       ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SC1  C1   C6   SING  1 
+SC1  C1   C2   DOUB  2 
+SC1  C1   C7   SING  3 
+SC1  C2   C3   SING  4 
+SC1  C2   H2   SING  5 
+SC1  C3   O1   SING  6 
+SC1  C3   C4   SING  7 
+SC1  C3   H3   SING  8 
+SC1  C4   C5   SING  9 
+SC1  C4   O2   SING  10
+SC1  C4   H4   SING  11
+SC1  C5   O3   SING  12
+SC1  C5   C6   SING  13
+SC1  C5   H5   SING  14
+SC1  C6   1H6  SING  15
+SC1  C6   2H6  SING  16
+SC1  C7   O4   DOUB  17
+SC1  C7   O5   SING  18
+SC1  O1   P1   SING  19
+SC1  O2   HO2  SING  20
+SC1  O3   C8   SING  21
+SC1  O5   HO5  SING  22
+SC1  P1   O6   DOUB  23
+SC1  P1   O7   SING  24
+SC1  P1   O8   SING  25
+SC1  O7   HO7  SING  26
+SC1  O8   HO8  SING  27
+SC1  C8   C9   SING  28
+SC1  C8   C10  SING  29
+SC1  C8   P2   SING  30
+SC1  C9   1H9  SING  31
+SC1  C9   2H9  SING  32
+SC1  C9   3H9  SING  33
+SC1  C10  O9   DOUB  34
+SC1  C10  O10  SING  35
+SC1  O10  H10  SING  36
+SC1  P2   O11  SING  37
+SC1  P2   O12  DOUB  38
+SC1  P2   O13  SING  39
+SC1  O11  H11  SING  40
+SC1  O13  H13  SING  41
+#

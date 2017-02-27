@@ -1,0 +1,68 @@
+data_AJ3
+#
+_chem_comp.id                   AJ3
+_chem_comp.name                 3-(PROP-2-ENE-1-SULFINYL)-PROPENE-1-THIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 O1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AJ3  S5    .  S  0  ?  ?  ?  1  1 
+AJ3  C6B   .  C  0  ?  ?  ?  1  2 
+AJ3  C7    .  C  0  ?  ?  ?  1  3 
+AJ3  C8B   .  C  0  ?  ?  ?  1  4 
+AJ3  S9    .  S  0  ?  ?  ?  1  5 
+AJ3  C10   .  C  0  ?  ?  ?  1  6 
+AJ3  C11   .  C  0  ?  ?  ?  1  7 
+AJ3  C12   .  C  0  ?  ?  ?  1  8 
+AJ3  O13   .  O  0  ?  ?  ?  1  9 
+AJ3  H6B   .  H  0  ?  ?  ?  1  10
+AJ3  H7    .  H  0  ?  ?  ?  1  11
+AJ3  1H8B  .  H  0  ?  ?  ?  0  12
+AJ3  2H8B  .  H  0  ?  ?  ?  0  13
+AJ3  1H10  .  H  0  ?  ?  ?  0  14
+AJ3  2H10  .  H  0  ?  ?  ?  0  15
+AJ3  H11   .  H  0  ?  ?  ?  1  16
+AJ3  1H12  .  H  0  ?  ?  ?  0  17
+AJ3  2H12  .  H  0  ?  ?  ?  0  18
+AJ3  HS5   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AJ3  S5   C6B   SING  1 
+AJ3  S5   HS5   SING  2 
+AJ3  C6B  C7    DOUB  3 
+AJ3  C6B  H6B   SING  4 
+AJ3  C7   C8B   SING  5 
+AJ3  C7   H7    SING  6 
+AJ3  C8B  S9    SING  7 
+AJ3  C8B  1H8B  SING  8 
+AJ3  C8B  2H8B  SING  9 
+AJ3  S9   C10   SING  10
+AJ3  S9   O13   DOUB  11
+AJ3  C10  C11   SING  12
+AJ3  C10  1H10  SING  13
+AJ3  C10  2H10  SING  14
+AJ3  C11  C12   DOUB  15
+AJ3  C11  H11   SING  16
+AJ3  C12  1H12  SING  17
+AJ3  C12  2H12  SING  18
+#

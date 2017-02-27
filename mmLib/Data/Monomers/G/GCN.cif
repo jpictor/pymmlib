@@ -1,0 +1,79 @@
+data_GCN
+#
+_chem_comp.id                   GCN
+_chem_comp.name                 3-DEOXY-D-GLUCOSAMINE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GCN  C1    .  C  0  ?  ?  ?  1  1 
+GCN  C2    .  C  0  ?  ?  ?  1  2 
+GCN  C3    .  C  0  ?  ?  ?  1  3 
+GCN  C4    .  C  0  ?  ?  ?  1  4 
+GCN  C5    .  C  0  ?  ?  ?  1  5 
+GCN  C6    .  C  0  ?  ?  ?  1  6 
+GCN  N2    .  N  0  ?  ?  ?  1  7 
+GCN  O1    .  O  0  ?  ?  ?  1  8 
+GCN  O4    .  O  0  ?  ?  ?  1  9 
+GCN  O5    .  O  0  ?  ?  ?  1  10
+GCN  O6    .  O  0  ?  ?  ?  1  11
+GCN  HO1   .  H  0  ?  ?  ?  1  12
+GCN  H1    .  H  0  ?  ?  ?  1  13
+GCN  H2    .  H  0  ?  ?  ?  1  14
+GCN  1HN2  .  H  0  ?  ?  ?  0  15
+GCN  2HN2  .  H  0  ?  ?  ?  0  16
+GCN  1H3   .  H  0  ?  ?  ?  0  17
+GCN  2H3   .  H  0  ?  ?  ?  0  18
+GCN  H4    .  H  0  ?  ?  ?  1  19
+GCN  HO4   .  H  0  ?  ?  ?  1  20
+GCN  H5    .  H  0  ?  ?  ?  1  21
+GCN  1H6   .  H  0  ?  ?  ?  0  22
+GCN  2H6   .  H  0  ?  ?  ?  0  23
+GCN  HO6   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GCN  C1  C2    SING  1 
+GCN  C1  O1    SING  2 
+GCN  C1  O5    SING  3 
+GCN  C1  H1    SING  4 
+GCN  C2  C3    SING  5 
+GCN  C2  N2    SING  6 
+GCN  C2  H2    SING  7 
+GCN  C3  C4    SING  8 
+GCN  C3  1H3   SING  9 
+GCN  C3  2H3   SING  10
+GCN  C4  C5    SING  11
+GCN  C4  O4    SING  12
+GCN  C4  H4    SING  13
+GCN  C5  C6    SING  14
+GCN  C5  O5    SING  15
+GCN  C5  H5    SING  16
+GCN  C6  O6    SING  17
+GCN  C6  1H6   SING  18
+GCN  C6  2H6   SING  19
+GCN  N2  1HN2  SING  20
+GCN  N2  2HN2  SING  21
+GCN  O1  HO1   SING  22
+GCN  O4  HO4   SING  23
+GCN  O6  HO6   SING  24
+#

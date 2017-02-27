@@ -1,0 +1,91 @@
+data_NP1
+#
+_chem_comp.id                   NP1
+_chem_comp.name                 N-(3-AMINOPROPYL)-4-METHYL-2-NITROBENZENAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        209.247
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NP1  NZ    .  N  0  -3.638   10.305  -11.745  1  1 
+NP1  CA    .  C  0  -3.822   10.221  -10.263  1  2 
+NP1  CB    .  C  0  -5.316   10.463  -10.023  1  3 
+NP1  CG    .  C  0  -6.136   9.440   -10.817  1  4 
+NP1  NE    .  N  0  -7.437   10.118  -11.107  1  5 
+NP1  CD    .  C  0  -8.221   10.536  -10.112  1  6 
+NP1  CE1   .  C  0  -7.979   11.794  -9.506   1  7 
+NP1  CE2   .  C  0  -9.325   9.751   -9.687   1  8 
+NP1  NO2   .  N  0  -9.577   8.573   -10.249  1  9 
+NP1  OC1   .  O  0  -8.747   8.084   -11.293  1  10
+NP1  OC2   .  O  0  -10.683  7.802   -9.797   1  11
+NP1  CR1   .  C  0  -8.819   12.252  -8.465   1  12
+NP1  CR2   .  C  0  -10.163  10.215  -8.648   1  13
+NP1  CZ    .  C  0  -9.910   11.463  -8.038   1  14
+NP1  CM    .  C  0  -10.811  11.954  -6.936   1  15
+NP1  1HM   .  H  0  ?        ?       ?        0  16
+NP1  2HM   .  H  0  ?        ?       ?        0  17
+NP1  3HM   .  H  0  ?        ?       ?        0  18
+NP1  HR1   .  H  0  ?        ?       ?        1  19
+NP1  HE1   .  H  0  ?        ?       ?        1  20
+NP1  HNE   .  H  0  ?        ?       ?        1  21
+NP1  1HG   .  H  0  ?        ?       ?        0  22
+NP1  2HG   .  H  0  ?        ?       ?        0  23
+NP1  1HB   .  H  0  ?        ?       ?        0  24
+NP1  2HB   .  H  0  ?        ?       ?        0  25
+NP1  1HA   .  H  0  ?        ?       ?        0  26
+NP1  2HA   .  H  0  ?        ?       ?        0  27
+NP1  1HNZ  .  H  0  ?        ?       ?        0  28
+NP1  2HNZ  .  H  0  ?        ?       ?        0  29
+NP1  HR2   .  H  0  ?        ?       ?        1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NP1  NZ   CA    SING  1 
+NP1  NZ   1HNZ  SING  2 
+NP1  NZ   2HNZ  SING  3 
+NP1  CA   CB    SING  4 
+NP1  CA   1HA   SING  5 
+NP1  CA   2HA   SING  6 
+NP1  CB   CG    SING  7 
+NP1  CB   1HB   SING  8 
+NP1  CB   2HB   SING  9 
+NP1  CG   NE    SING  10
+NP1  CG   1HG   SING  11
+NP1  CG   2HG   SING  12
+NP1  NE   CD    SING  13
+NP1  NE   HNE   SING  14
+NP1  CD   CE1   DOUB  15
+NP1  CD   CE2   SING  16
+NP1  CE1  CR1   SING  17
+NP1  CE1  HE1   SING  18
+NP1  CE2  CR2   DOUB  19
+NP1  CE2  NO2   SING  20
+NP1  NO2  OC1   DOUB  21
+NP1  NO2  OC2   SING  22
+NP1  CR1  CZ    DOUB  23
+NP1  CR1  HR1   SING  24
+NP1  CR2  CZ    SING  25
+NP1  CR2  HR2   SING  26
+NP1  CZ   CM    SING  27
+NP1  CM   1HM   SING  28
+NP1  CM   2HM   SING  29
+NP1  CM   3HM   SING  30
+#

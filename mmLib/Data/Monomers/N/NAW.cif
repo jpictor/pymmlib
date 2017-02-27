@@ -1,0 +1,50 @@
+data_NAW
+#
+_chem_comp.id                   NAW
+_chem_comp.name                 'SODIUM ION, 3 WATERS COORDINATED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETIC
+_chem_comp.formula              'H6 O3 NA1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       77.035
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAW  NA    .  NA  1  ?  ?  ?  0  1 
+NAW  O1    .  O   0  ?  ?  ?  1  2 
+NAW  O2    .  O   0  ?  ?  ?  1  3 
+NAW  O3    .  O   0  ?  ?  ?  1  4 
+NAW  1HO1  .  H   0  ?  ?  ?  0  5 
+NAW  2HO1  .  H   0  ?  ?  ?  0  6 
+NAW  1HO2  .  H   0  ?  ?  ?  0  7 
+NAW  2HO2  .  H   0  ?  ?  ?  0  8 
+NAW  1HO3  .  H   0  ?  ?  ?  0  9 
+NAW  2HO3  .  H   0  ?  ?  ?  0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAW  NA  O1    SING  1
+NAW  NA  O2    SING  2
+NAW  NA  O3    SING  3
+NAW  O1  1HO1  SING  4
+NAW  O1  2HO1  SING  5
+NAW  O2  1HO2  SING  6
+NAW  O2  2HO2  SING  7
+NAW  O3  1HO3  SING  8
+NAW  O3  2HO3  SING  9
+#

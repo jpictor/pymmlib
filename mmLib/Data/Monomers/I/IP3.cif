@@ -1,0 +1,66 @@
+data_IP3
+#
+_chem_comp.id                   IP3
+_chem_comp.name                 1-HYDROXY-3-METHYLBUTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        88.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IP3  C1   .  C  0  ?  ?  ?  1  1 
+IP3  C2   .  C  0  ?  ?  ?  1  2 
+IP3  C3   .  C  0  ?  ?  ?  1  3 
+IP3  C4   .  C  0  ?  ?  ?  1  4 
+IP3  C5   .  C  0  ?  ?  ?  1  5 
+IP3  O1   .  O  0  ?  ?  ?  1  6 
+IP3  1H1  .  H  0  ?  ?  ?  0  7 
+IP3  2H1  .  H  0  ?  ?  ?  0  8 
+IP3  1H2  .  H  0  ?  ?  ?  0  9 
+IP3  2H2  .  H  0  ?  ?  ?  0  10
+IP3  H3   .  H  0  ?  ?  ?  1  11
+IP3  1H4  .  H  0  ?  ?  ?  0  12
+IP3  2H4  .  H  0  ?  ?  ?  0  13
+IP3  3H4  .  H  0  ?  ?  ?  0  14
+IP3  1H5  .  H  0  ?  ?  ?  0  15
+IP3  2H5  .  H  0  ?  ?  ?  0  16
+IP3  3H5  .  H  0  ?  ?  ?  0  17
+IP3  HO1  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IP3  C1  C2   SING  1 
+IP3  C1  O1   SING  2 
+IP3  C1  1H1  SING  3 
+IP3  C1  2H1  SING  4 
+IP3  C2  C3   SING  5 
+IP3  C2  1H2  SING  6 
+IP3  C2  2H2  SING  7 
+IP3  C3  C4   SING  8 
+IP3  C3  C5   SING  9 
+IP3  C3  H3   SING  10
+IP3  C4  1H4  SING  11
+IP3  C4  2H4  SING  12
+IP3  C4  3H4  SING  13
+IP3  C5  1H5  SING  14
+IP3  C5  2H5  SING  15
+IP3  C5  3H5  SING  16
+IP3  O1  HO1  SING  17
+#

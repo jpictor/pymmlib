@@ -1,0 +1,59 @@
+data_HPY
+#
+_chem_comp.id                   HPY
+_chem_comp.name                 4-HYDROXY-3,4-DIHYDRO-1H-PYRIMIDIN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        114.104
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPY  N1   .  N  0  ?  ?  ?  1  1 
+HPY  C2   .  C  0  ?  ?  ?  1  2 
+HPY  O2   .  O  0  ?  ?  ?  1  3 
+HPY  N3   .  N  0  ?  ?  ?  1  4 
+HPY  C4   .  C  0  ?  ?  ?  1  5 
+HPY  O4   .  O  0  ?  ?  ?  1  6 
+HPY  C5   .  C  0  ?  ?  ?  1  7 
+HPY  C6   .  C  0  ?  ?  ?  1  8 
+HPY  H1   .  H  0  ?  ?  ?  1  9 
+HPY  H3   .  H  0  ?  ?  ?  1  10
+HPY  H4   .  H  0  ?  ?  ?  1  11
+HPY  HO4  .  H  0  ?  ?  ?  1  12
+HPY  H5   .  H  0  ?  ?  ?  1  13
+HPY  H6   .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPY  N1  C2   SING  1 
+HPY  N1  C6   SING  2 
+HPY  N1  H1   SING  3 
+HPY  C2  O2   DOUB  4 
+HPY  C2  N3   SING  5 
+HPY  N3  C4   SING  6 
+HPY  N3  H3   SING  7 
+HPY  C4  O4   SING  8 
+HPY  C4  C5   SING  9 
+HPY  C4  H4   SING  10
+HPY  O4  HO4  SING  11
+HPY  C5  C6   DOUB  12
+HPY  C5  H5   SING  13
+HPY  C6  H6   SING  14
+#

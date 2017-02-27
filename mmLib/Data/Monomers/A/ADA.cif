@@ -1,0 +1,78 @@
+data_ADA
+#
+_chem_comp.id                   ADA
+_chem_comp.name                 'ALPHA-D-GALACTOPYRANURONIC ACID'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O7'
+_chem_comp.pdbx_synonyms        'ALPHA D-GALACTURONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADA  C1   .  C  0  20.831  .3      27.409  1  1 
+ADA  C2   .  C  0  22.11   1.081   27.771  1  2 
+ADA  C3   .  C  0  22.5    1.068   29.263  1  3 
+ADA  C4   .  C  0  21.314  1.144   30.251  1  4 
+ADA  C5   .  C  0  20.268  .099    29.789  1  5 
+ADA  C6   .  C  0  19.063  .23     30.762  1  6 
+ADA  O1   .  O  0  21.084  -1.043  27.04   1  7 
+ADA  O2   .  O  0  23.189  .6      26.989  1  8 
+ADA  O3   .  O  0  23.377  2.15    29.491  1  9 
+ADA  O4   .  O  0  20.615  2.407   30.202  1  10
+ADA  O5   .  O  0  19.861  .347    28.447  1  11
+ADA  O6B  .  O  0  19.223  .708    31.896  1  12
+ADA  O6A  .  O  0  17.948  -.13    30.412  1  13
+ADA  H1   .  H  0  20.382  .803    26.521  1  14
+ADA  H2   .  H  0  21.941  2.145   27.483  1  15
+ADA  HA   .  H  0  20.296  -1.524  26.817  1  16
+ADA  H3   .  H  0  23.057  .124    29.465  1  17
+ADA  HB   .  H  0  23.977  1.081   27.212  1  18
+ADA  H4   .  H  0  21.655  .925    31.29   1  19
+ADA  HC   .  H  0  23.617  2.142   30.41   1  20
+ADA  H5   .  H  0  20.702  -.925   29.866  1  21
+ADA  HD   .  H  0  19.886  2.454   30.809  1  22
+ADA  H6B  .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADA  C1   C2   SING  1 
+ADA  C1   O1   SING  2 
+ADA  C1   O5   SING  3 
+ADA  C1   H1   SING  4 
+ADA  C2   C3   SING  5 
+ADA  C2   O2   SING  6 
+ADA  C2   H2   SING  7 
+ADA  C3   C4   SING  8 
+ADA  C3   O3   SING  9 
+ADA  C3   H3   SING  10
+ADA  C4   C5   SING  11
+ADA  C4   O4   SING  12
+ADA  C4   H4   SING  13
+ADA  C5   C6   SING  14
+ADA  C5   O5   SING  15
+ADA  C5   H5   SING  16
+ADA  C6   O6B  SING  17
+ADA  C6   O6A  DOUB  18
+ADA  O1   HA   SING  19
+ADA  O2   HB   SING  20
+ADA  O3   HC   SING  21
+ADA  O4   HD   SING  22
+ADA  O6B  H6B  SING  23
+#

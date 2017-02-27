@@ -1,0 +1,106 @@
+data_DMC
+#
+_chem_comp.id                   DMC
+_chem_comp.name                 '3-(4-DIETHYLAMINO-2-HYDROXY-PHENYL)-2-METHYL-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N1 O3'
+_chem_comp.pdbx_synonyms        'PARA-DIETHYLAMINO-O-HYDROXY-ALPHA-METHYL CINNAMIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.309
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMC  O     .  O  0  ?  ?  ?  1  1 
+DMC  C     .  C  0  ?  ?  ?  1  2 
+DMC  CA    .  C  0  ?  ?  ?  1  3 
+DMC  CB1   .  C  0  ?  ?  ?  1  4 
+DMC  CB2   .  C  0  ?  ?  ?  1  5 
+DMC  CG    .  C  0  ?  ?  ?  1  6 
+DMC  CD1   .  C  0  ?  ?  ?  1  7 
+DMC  CE1   .  C  0  ?  ?  ?  1  8 
+DMC  CZ    .  C  0  ?  ?  ?  1  9 
+DMC  CE2   .  C  0  ?  ?  ?  1  10
+DMC  CD2   .  C  0  ?  ?  ?  1  11
+DMC  OH    .  O  0  ?  ?  ?  1  12
+DMC  N     .  N  0  ?  ?  ?  1  13
+DMC  CH1   .  C  0  ?  ?  ?  1  14
+DMC  CH2   .  C  0  ?  ?  ?  1  15
+DMC  CM1   .  C  0  ?  ?  ?  1  16
+DMC  CM2   .  C  0  ?  ?  ?  1  17
+DMC  OXT   .  O  0  ?  ?  ?  1  18
+DMC  HB1   .  H  0  ?  ?  ?  1  19
+DMC  1HB2  .  H  0  ?  ?  ?  0  20
+DMC  2HB2  .  H  0  ?  ?  ?  0  21
+DMC  3HB2  .  H  0  ?  ?  ?  0  22
+DMC  HE1   .  H  0  ?  ?  ?  1  23
+DMC  HE2   .  H  0  ?  ?  ?  1  24
+DMC  HD2   .  H  0  ?  ?  ?  1  25
+DMC  HO    .  H  0  ?  ?  ?  1  26
+DMC  1HH1  .  H  0  ?  ?  ?  0  27
+DMC  2HH1  .  H  0  ?  ?  ?  0  28
+DMC  1HH2  .  H  0  ?  ?  ?  0  29
+DMC  2HH2  .  H  0  ?  ?  ?  0  30
+DMC  1HM1  .  H  0  ?  ?  ?  0  31
+DMC  2HM1  .  H  0  ?  ?  ?  0  32
+DMC  3HM1  .  H  0  ?  ?  ?  0  33
+DMC  1HM2  .  H  0  ?  ?  ?  0  34
+DMC  2HM2  .  H  0  ?  ?  ?  0  35
+DMC  3HM2  .  H  0  ?  ?  ?  0  36
+DMC  HXT   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMC  O    C     DOUB  1 
+DMC  C    CA    SING  2 
+DMC  C    OXT   SING  3 
+DMC  CA   CB1   DOUB  4 
+DMC  CA   CB2   SING  5 
+DMC  CB1  CG    SING  6 
+DMC  CB1  HB1   SING  7 
+DMC  CB2  1HB2  SING  8 
+DMC  CB2  2HB2  SING  9 
+DMC  CB2  3HB2  SING  10
+DMC  CG   CD1   DOUB  11
+DMC  CG   CD2   SING  12
+DMC  CD1  CE1   SING  13
+DMC  CD1  OH    SING  14
+DMC  CE1  CZ    DOUB  15
+DMC  CE1  HE1   SING  16
+DMC  CZ   CE2   SING  17
+DMC  CZ   N     SING  18
+DMC  CE2  CD2   DOUB  19
+DMC  CE2  HE2   SING  20
+DMC  CD2  HD2   SING  21
+DMC  OH   HO    SING  22
+DMC  N    CH1   SING  23
+DMC  N    CH2   SING  24
+DMC  CH1  CM1   SING  25
+DMC  CH1  1HH1  SING  26
+DMC  CH1  2HH1  SING  27
+DMC  CH2  CM2   SING  28
+DMC  CH2  1HH2  SING  29
+DMC  CH2  2HH2  SING  30
+DMC  CM1  1HM1  SING  31
+DMC  CM1  2HM1  SING  32
+DMC  CM1  3HM1  SING  33
+DMC  CM2  1HM2  SING  34
+DMC  CM2  2HM2  SING  35
+DMC  CM2  3HM2  SING  36
+DMC  OXT  HXT   SING  37
+#

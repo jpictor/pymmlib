@@ -1,0 +1,105 @@
+data_RAN
+#
+_chem_comp.id                   RAN
+_chem_comp.name                 'PHOSPHORIC ACID MONO-[3,4,6-TRIHYDROXY-5-(1-HYDROXY-ETHYLAMINO)-TETRAHYDRO-PYRAN-2-YLMETHYL] ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N1 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        303.205
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAN  C1    .  C  0  ?  ?  ?  1  1 
+RAN  O1    .  O  0  ?  ?  ?  1  2 
+RAN  C2    .  C  0  ?  ?  ?  1  3 
+RAN  N2    .  N  0  ?  ?  ?  1  4 
+RAN  C7    .  C  0  ?  ?  ?  1  5 
+RAN  O7    .  O  0  ?  ?  ?  1  6 
+RAN  C8    .  C  0  ?  ?  ?  1  7 
+RAN  C3    .  C  0  ?  ?  ?  1  8 
+RAN  O3    .  O  0  ?  ?  ?  1  9 
+RAN  C4    .  C  0  ?  ?  ?  1  10
+RAN  O4    .  O  0  ?  ?  ?  1  11
+RAN  C5    .  C  0  ?  ?  ?  1  12
+RAN  O5    .  O  0  ?  ?  ?  1  13
+RAN  C6    .  C  0  ?  ?  ?  1  14
+RAN  O6    .  O  0  ?  ?  ?  1  15
+RAN  P     .  P  0  ?  ?  ?  1  16
+RAN  O1P   .  O  0  ?  ?  ?  1  17
+RAN  O2P   .  O  0  ?  ?  ?  1  18
+RAN  O3P   .  O  0  ?  ?  ?  1  19
+RAN  HO2P  .  H  0  ?  ?  ?  0  20
+RAN  HO3P  .  H  0  ?  ?  ?  0  21
+RAN  1H6   .  H  0  ?  ?  ?  0  22
+RAN  2H6   .  H  0  ?  ?  ?  0  23
+RAN  H5    .  H  0  ?  ?  ?  1  24
+RAN  H1    .  H  0  ?  ?  ?  1  25
+RAN  HO1   .  H  0  ?  ?  ?  1  26
+RAN  HO4   .  H  0  ?  ?  ?  1  27
+RAN  H4    .  H  0  ?  ?  ?  1  28
+RAN  HO3   .  H  0  ?  ?  ?  1  29
+RAN  H3    .  H  0  ?  ?  ?  1  30
+RAN  H2    .  H  0  ?  ?  ?  1  31
+RAN  HN2   .  H  0  ?  ?  ?  1  32
+RAN  H7    .  H  0  ?  ?  ?  1  33
+RAN  HO7   .  H  0  ?  ?  ?  1  34
+RAN  1H8   .  H  0  ?  ?  ?  0  35
+RAN  2H8   .  H  0  ?  ?  ?  0  36
+RAN  3H8   .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAN  C1   O1    SING  1 
+RAN  C1   C2    SING  2 
+RAN  C1   O5    SING  3 
+RAN  C1   H1    SING  4 
+RAN  O1   HO1   SING  5 
+RAN  C2   N2    SING  6 
+RAN  C2   C3    SING  7 
+RAN  C2   H2    SING  8 
+RAN  N2   C7    SING  9 
+RAN  N2   HN2   SING  10
+RAN  C7   O7    SING  11
+RAN  C7   C8    SING  12
+RAN  C7   H7    SING  13
+RAN  O7   HO7   SING  14
+RAN  C8   1H8   SING  15
+RAN  C8   2H8   SING  16
+RAN  C8   3H8   SING  17
+RAN  C3   O3    SING  18
+RAN  C3   C4    SING  19
+RAN  C3   H3    SING  20
+RAN  O3   HO3   SING  21
+RAN  C4   O4    SING  22
+RAN  C4   C5    SING  23
+RAN  C4   H4    SING  24
+RAN  O4   HO4   SING  25
+RAN  C5   O5    SING  26
+RAN  C5   C6    SING  27
+RAN  C5   H5    SING  28
+RAN  C6   O6    SING  29
+RAN  C6   1H6   SING  30
+RAN  C6   2H6   SING  31
+RAN  O6   P     SING  32
+RAN  P    O1P   DOUB  33
+RAN  P    O2P   SING  34
+RAN  P    O3P   SING  35
+RAN  O2P  HO2P  SING  36
+RAN  O3P  HO3P  SING  37
+#

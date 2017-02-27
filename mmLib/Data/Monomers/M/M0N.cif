@@ -1,0 +1,105 @@
+data_M0N
+#
+_chem_comp.id                   M0N
+_chem_comp.name                 '(1-HYDROXY-2-IMIDAZO[1,2-A]PYRIDIN-3-YLETHANE-1,1-DIYL)BIS(PHOSPHONIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O7 P2'
+_chem_comp.pdbx_synonyms        'MINODRONATE; 1-HYDROXY-2-(5,6,7,8-TETRAHYDROIMIDAZO[1,2-A]PYRIDIN-3-YL)ETHANE-1,1-DIYLDIPHOSPONIC ACID; (1-HYDROXY-2-IMIDAZO[1,2-A]PYRIDIN-3-YL-ETHYLIDENE)-1,1-BISPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        322.151
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          M0N
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1=CC2=NC=C(N2C=C1)CC(O)(P(=O)(O)O)P(=O)(O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+M0N  O    .  O  0  25.883  2.068   9.652   1  N  1 
+M0N  C9   .  C  0  25.525  0.664   9.647   1  N  2 
+M0N  C8   .  C  0  26.504  -0.248  9.895   1  N  3 
+M0N  C2   .  C  0  27.336  -0.399  11.127  1  N  4 
+M0N  C1   .  C  0  28.070  0.544   11.792  1  N  5 
+M0N  N1   .  N  0  28.692  -0.011  12.884  1  N  6 
+M0N  C7   .  C  0  28.373  -1.341  12.950  1  N  7 
+M0N  C6   .  C  0  28.738  -2.333  13.859  1  N  8 
+M0N  C5   .  C  0  28.254  -3.593  13.655  1  N  9 
+M0N  C4   .  C  0  27.418  -3.903  12.579  1  N  10
+M0N  C3   .  C  0  27.039  -2.919  11.690  1  N  11
+M0N  N2   .  N  0  27.520  -1.620  11.854  1  N  12
+M0N  P1   .  P  0  24.336  0.555   11.002  1  N  13
+M0N  O2   .  O  0  24.864  0.151   12.324  1  N  14
+M0N  O3   .  O  0  23.372  -0.555  10.520  1  N  15
+M0N  O1   .  O  0  23.512  1.856   10.910  1  N  16
+M0N  P2   .  P  0  24.881  0.267   7.993   1  N  17
+M0N  O5   .  O  0  24.367  1.461   7.251   1  N  18
+M0N  O6   .  O  0  26.154  -0.293  7.248   1  N  19
+M0N  O4   .  O  0  23.886  -0.873  8.110   1  N  20
+M0N  HO   .  H  0  25.961  2.372   10.549  1  N  21
+M0N  1H8  .  H  0  25.985  -1.214  9.812   0  N  22
+M0N  2H8  .  H  0  27.275  0.128   9.206   0  N  23
+M0N  H1   .  H  0  28.150  1.581   11.499  1  N  24
+M0N  H6   .  H  0  29.382  -2.112  14.697  1  N  25
+M0N  H5   .  H  0  28.526  -4.376  14.348  1  N  26
+M0N  H4   .  H  0  27.068  -4.916  12.443  1  N  27
+M0N  H3   .  H  0  26.374  -3.153  10.872  1  N  28
+M0N  HO2  .  H  0  25.809  0.064   12.275  1  N  29
+M0N  HO1  .  H  0  23.343  2.187   11.784  1  N  30
+M0N  HO5  .  H  0  24.258  2.187   7.854   1  N  31
+M0N  HO4  .  H  0  23.678  -1.203  7.244   1  N  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+M0N  O   C9   SING  N  1 
+M0N  O   HO   SING  N  2 
+M0N  C9  P2   SING  N  3 
+M0N  C9  C8   SING  N  4 
+M0N  C9  P1   SING  N  5 
+M0N  C8  C2   SING  N  6 
+M0N  C8  1H8  SING  N  7 
+M0N  C8  2H8  SING  N  8 
+M0N  C2  C1   DOUB  N  9 
+M0N  C2  N2   SING  N  10
+M0N  C1  N1   SING  N  11
+M0N  C1  H1   SING  N  12
+M0N  N1  C7   DOUB  N  13
+M0N  C7  N2   SING  N  14
+M0N  C7  C6   SING  N  15
+M0N  C6  C5   DOUB  N  16
+M0N  C6  H6   SING  N  17
+M0N  C5  C4   SING  N  18
+M0N  C5  H5   SING  N  19
+M0N  C4  C3   DOUB  N  20
+M0N  C4  H4   SING  N  21
+M0N  C3  N2   SING  N  22
+M0N  C3  H3   SING  N  23
+M0N  P1  O3   DOUB  N  24
+M0N  P1  O1   SING  N  25
+M0N  P1  O2   SING  N  26
+M0N  O2  HO2  SING  N  27
+M0N  O1  HO1  SING  N  28
+M0N  P2  O6   DOUB  N  29
+M0N  P2  O5   SING  N  30
+M0N  P2  O4   SING  N  31
+M0N  O5  HO5  SING  N  32
+M0N  O4  HO4  SING  N  33
+#

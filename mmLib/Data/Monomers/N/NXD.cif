@@ -1,0 +1,132 @@
+data_NXD
+#
+_chem_comp.id                   NXD
+_chem_comp.name                 'METHYL 5-(ACETYLAMINO)-9-{[AMINO(OXO)ACETYL]AMINO}-3,5,9-TRIDEOXY-D-GLYCERO-ALPHA-D-GLUCO-NON-2-ULOPYRANOSIDONIC ACID'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C14 H23 N3 O10'
+_chem_comp.pdbx_synonyms        'ALPHA METHYL -9-(AMINOOXALYL-AMINO)-9-DEOXYNEU5AC, OXAMIDO-NEU5AC'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        393.350
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NXD  C11   .  C  0  -5.337  13.357  30.493  1  1 
+NXD  C10   .  C  0  -3.822  13.569  30.313  1  2 
+NXD  O10   .  O  0  -3.294  14.628  30.654  1  3 
+NXD  N5    .  N  0  -3.135  12.554  29.782  1  4 
+NXD  C5    .  C  0  -3.736  11.283  29.348  1  5 
+NXD  C4    .  C  0  -3.254  10.133  30.233  1  6 
+NXD  O4    .  O  0  -3.683  10.361  31.576  1  7 
+NXD  C3    .  C  0  -3.805  8.781   29.733  1  8 
+NXD  C2    .  C  0  -3.504  8.562   28.230  1  9 
+NXD  C1    .  C  0  -2.000  8.274   28.042  1  10
+NXD  O1A   .  O  0  -1.427  7.467   28.773  1  11
+NXD  O1B   .  O  0  -1.360  8.848   27.160  1  12
+NXD  O2    .  O  0  -4.280  7.426   27.769  1  13
+NXD  CB    .  C  0  -4.238  7.196   26.338  1  14
+NXD  O6    .  O  0  -3.910  9.735   27.450  1  15
+NXD  C6    .  C  0  -3.348  11.004  27.884  1  16
+NXD  C7    .  C  0  -3.791  12.083  26.885  1  17
+NXD  O7    .  O  0  -5.230  12.152  26.834  1  18
+NXD  C8    .  C  0  -3.222  11.837  25.477  1  19
+NXD  O8    .  O  0  -1.928  11.216  25.547  1  20
+NXD  C9    .  C  0  -3.125  13.162  24.728  1  21
+NXD  NAB   .  N  0  -2.927  12.963  23.287  1  22
+NXD  CAC   .  C  0  -3.918  12.704  22.433  1  23
+NXD  OAD   .  O  0  -5.101  12.593  22.763  1  24
+NXD  CAF   .  C  0  -3.538  12.534  20.962  1  25
+NXD  OAG   .  O  0  -2.350  12.656  20.674  1  26
+NXD  NAK   .  N  0  -4.480  12.271  20.056  1  27
+NXD  H1A   .  H  0  ?       ?       ?       1  28
+NXD  1HB   .  H  0  ?       ?       ?       0  29
+NXD  2HB   .  H  0  ?       ?       ?       0  30
+NXD  3HB   .  H  0  ?       ?       ?       0  31
+NXD  H6    .  H  0  ?       ?       ?       1  32
+NXD  H7    .  H  0  ?       ?       ?       1  33
+NXD  HO7   .  H  0  ?       ?       ?       1  34
+NXD  H8    .  H  0  ?       ?       ?       1  35
+NXD  HO8   .  H  0  ?       ?       ?       1  36
+NXD  1H9   .  H  0  ?       ?       ?       0  37
+NXD  2H9   .  H  0  ?       ?       ?       0  38
+NXD  HAB   .  H  0  ?       ?       ?       1  39
+NXD  1HAK  .  H  0  ?       ?       ?       0  40
+NXD  2HAK  .  H  0  ?       ?       ?       0  41
+NXD  H5    .  H  0  ?       ?       ?       1  42
+NXD  HN5   .  H  0  ?       ?       ?       1  43
+NXD  1H11  .  H  0  ?       ?       ?       0  44
+NXD  2H11  .  H  0  ?       ?       ?       0  45
+NXD  3H11  .  H  0  ?       ?       ?       0  46
+NXD  H4    .  H  0  ?       ?       ?       1  47
+NXD  HO4   .  H  0  ?       ?       ?       1  48
+NXD  1H3   .  H  0  ?       ?       ?       0  49
+NXD  2H3   .  H  0  ?       ?       ?       0  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NXD  C11  C10   SING  1 
+NXD  C11  1H11  SING  2 
+NXD  C11  2H11  SING  3 
+NXD  C11  3H11  SING  4 
+NXD  C10  N5    SING  5 
+NXD  C10  O10   DOUB  6 
+NXD  N5   C5    SING  7 
+NXD  N5   HN5   SING  8 
+NXD  C5   C6    SING  9 
+NXD  C5   H5    SING  10
+NXD  C5   C4    SING  11
+NXD  C4   H4    SING  12
+NXD  C4   O4    SING  13
+NXD  C4   C3    SING  14
+NXD  O4   HO4   SING  15
+NXD  C3   C2    SING  16
+NXD  C3   1H3   SING  17
+NXD  C3   2H3   SING  18
+NXD  C2   C1    SING  19
+NXD  C2   O2    SING  20
+NXD  C2   O6    SING  21
+NXD  C1   O1A   SING  22
+NXD  C1   O1B   DOUB  23
+NXD  O1A  H1A   SING  24
+NXD  O2   CB    SING  25
+NXD  CB   1HB   SING  26
+NXD  CB   2HB   SING  27
+NXD  CB   3HB   SING  28
+NXD  O6   C6    SING  29
+NXD  C6   H6    SING  30
+NXD  C6   C7    SING  31
+NXD  C7   H7    SING  32
+NXD  C7   O7    SING  33
+NXD  C7   C8    SING  34
+NXD  O7   HO7   SING  35
+NXD  C8   H8    SING  36
+NXD  C8   O8    SING  37
+NXD  C8   C9    SING  38
+NXD  O8   HO8   SING  39
+NXD  C9   1H9   SING  40
+NXD  C9   2H9   SING  41
+NXD  C9   NAB   SING  42
+NXD  NAB  HAB   SING  43
+NXD  NAB  CAC   SING  44
+NXD  CAC  OAD   DOUB  45
+NXD  CAC  CAF   SING  46
+NXD  CAF  OAG   DOUB  47
+NXD  CAF  NAK   SING  48
+NXD  NAK  1HAK  SING  49
+NXD  NAK  2HAK  SING  50
+#

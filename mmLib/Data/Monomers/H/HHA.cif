@@ -1,0 +1,71 @@
+data_HHA
+#
+_chem_comp.id                   HHA
+_chem_comp.name                 '(2S,3S)-TRANS-2,3-DIHYDRO-3-HYDROXYANTHRANILIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        155.153
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HHA  O1    .  O  0  16.789  10.895  3.258  1  1 
+HHA  C     .  C  0  15.843  10.101  3.100  1  2 
+HHA  O2    .  O  0  15.977  9.073   2.373  1  3 
+HHA  C1    .  C  0  14.566  10.327  3.874  1  4 
+HHA  C6    .  C  0  13.534  9.325   3.859  1  5 
+HHA  C5    .  C  0  12.261  9.616   4.337  1  6 
+HHA  C4    .  C  0  11.925  10.896  4.835  1  7 
+HHA  C3    .  C  0  13.092  11.796  5.263  1  8 
+HHA  O3'   .  O  0  12.621  13.091  5.603  1  9 
+HHA  C2    .  C  0  14.201  11.736  4.262  1  10
+HHA  N2    .  N  0  15.369  12.590  4.597  1  11
+HHA  HO1   .  H  0  ?       ?       ?      1  12
+HHA  H6    .  H  0  ?       ?       ?      1  13
+HHA  H5    .  H  0  ?       ?       ?      1  14
+HHA  H4    .  H  0  ?       ?       ?      1  15
+HHA  H3    .  H  0  ?       ?       ?      1  16
+HHA  H3'   .  H  0  ?       ?       ?      1  17
+HHA  H2    .  H  0  ?       ?       ?      1  18
+HHA  1HN2  .  H  0  ?       ?       ?      0  19
+HHA  2HN2  .  H  0  ?       ?       ?      0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HHA  O1   HO1   SING  1 
+HHA  O1   C     SING  2 
+HHA  C    O2    DOUB  3 
+HHA  C    C1    SING  4 
+HHA  C1   C6    DOUB  5 
+HHA  C1   C2    SING  6 
+HHA  C6   H6    SING  7 
+HHA  C6   C5    SING  8 
+HHA  C5   H5    SING  9 
+HHA  C5   C4    DOUB  10
+HHA  C4   H4    SING  11
+HHA  C4   C3    SING  12
+HHA  C3   H3    SING  13
+HHA  C3   O3'   SING  14
+HHA  C3   C2    SING  15
+HHA  O3'  H3'   SING  16
+HHA  C2   H2    SING  17
+HHA  C2   N2    SING  18
+HHA  N2   1HN2  SING  19
+HHA  N2   2HN2  SING  20
+#

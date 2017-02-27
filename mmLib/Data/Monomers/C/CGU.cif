@@ -1,0 +1,75 @@
+data_CGU
+#
+_chem_comp.id                       CGU
+_chem_comp.name                     'GAMMA-CARBOXY-GLUTAMIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H9 N1 O6'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            191.140
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CGU  N    .  N  0  ?  ?  ?  1  1 
+CGU  CA   .  C  0  ?  ?  ?  1  2 
+CGU  C    .  C  0  ?  ?  ?  1  3 
+CGU  O    .  O  0  ?  ?  ?  1  4 
+CGU  OXT  .  O  0  ?  ?  ?  1  5 
+CGU  CB   .  C  0  ?  ?  ?  1  6 
+CGU  CG   .  C  0  ?  ?  ?  1  7 
+CGU  CD1  .  C  0  ?  ?  ?  1  8 
+CGU  CD2  .  C  0  ?  ?  ?  1  9 
+CGU  OE1  .  O  0  ?  ?  ?  1  10
+CGU  OE2  .  O  0  ?  ?  ?  1  11
+CGU  OE3  .  O  0  ?  ?  ?  1  12
+CGU  OE4  .  O  0  ?  ?  ?  1  13
+CGU  1HN  .  H  0  ?  ?  ?  0  14
+CGU  2HN  .  H  0  ?  ?  ?  0  15
+CGU  HXT  .  H  0  ?  ?  ?  1  16
+CGU  HA   .  H  0  ?  ?  ?  1  17
+CGU  1HB  .  H  0  ?  ?  ?  0  18
+CGU  2HB  .  H  0  ?  ?  ?  0  19
+CGU  HG   .  H  0  ?  ?  ?  1  20
+CGU  HE2  .  H  0  ?  ?  ?  1  21
+CGU  HE4  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CGU  N    CA   SING  1 
+CGU  N    1HN  SING  2 
+CGU  N    2HN  SING  3 
+CGU  CA   C    SING  4 
+CGU  CA   CB   SING  5 
+CGU  CA   HA   SING  6 
+CGU  C    O    DOUB  7 
+CGU  C    OXT  SING  8 
+CGU  OXT  HXT  SING  9 
+CGU  CB   CG   SING  10
+CGU  CB   1HB  SING  11
+CGU  CB   2HB  SING  12
+CGU  CG   CD1  SING  13
+CGU  CG   CD2  SING  14
+CGU  CG   HG   SING  15
+CGU  CD1  OE1  DOUB  16
+CGU  CD1  OE2  SING  17
+CGU  CD2  OE3  DOUB  18
+CGU  CD2  OE4  SING  19
+CGU  OE2  HE2  SING  20
+CGU  OE4  HE4  SING  21
+#

@@ -1,0 +1,85 @@
+data_ADM
+#
+_chem_comp.id                   ADM
+_chem_comp.name                 ADAMANTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADM  C1    .  C  0  ?  ?  ?  1  1 
+ADM  C2    .  C  0  ?  ?  ?  1  2 
+ADM  C3    .  C  0  ?  ?  ?  1  3 
+ADM  C4    .  C  0  ?  ?  ?  1  4 
+ADM  C5    .  C  0  ?  ?  ?  1  5 
+ADM  C6    .  C  0  ?  ?  ?  1  6 
+ADM  C7    .  C  0  ?  ?  ?  1  7 
+ADM  C8    .  C  0  ?  ?  ?  1  8 
+ADM  C9    .  C  0  ?  ?  ?  1  9 
+ADM  C10   .  C  0  ?  ?  ?  1  10
+ADM  H1    .  H  0  ?  ?  ?  1  11
+ADM  1H2   .  H  0  ?  ?  ?  0  12
+ADM  2H2   .  H  0  ?  ?  ?  0  13
+ADM  H3    .  H  0  ?  ?  ?  1  14
+ADM  1H4   .  H  0  ?  ?  ?  0  15
+ADM  2H4   .  H  0  ?  ?  ?  0  16
+ADM  H5    .  H  0  ?  ?  ?  1  17
+ADM  1H6   .  H  0  ?  ?  ?  0  18
+ADM  2H6   .  H  0  ?  ?  ?  0  19
+ADM  H7    .  H  0  ?  ?  ?  1  20
+ADM  1H8   .  H  0  ?  ?  ?  0  21
+ADM  2H8   .  H  0  ?  ?  ?  0  22
+ADM  1H9   .  H  0  ?  ?  ?  0  23
+ADM  2H9   .  H  0  ?  ?  ?  0  24
+ADM  1H10  .  H  0  ?  ?  ?  0  25
+ADM  2H10  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADM  C1   C2    SING  1 
+ADM  C1   C8    SING  2 
+ADM  C1   C9    SING  3 
+ADM  C1   H1    SING  4 
+ADM  C2   C3    SING  5 
+ADM  C2   1H2   SING  6 
+ADM  C2   2H2   SING  7 
+ADM  C3   C4    SING  8 
+ADM  C3   C10   SING  9 
+ADM  C3   H3    SING  10
+ADM  C4   C5    SING  11
+ADM  C4   1H4   SING  12
+ADM  C4   2H4   SING  13
+ADM  C5   C6    SING  14
+ADM  C5   C9    SING  15
+ADM  C5   H5    SING  16
+ADM  C6   C7    SING  17
+ADM  C6   1H6   SING  18
+ADM  C6   2H6   SING  19
+ADM  C7   C8    SING  20
+ADM  C7   C10   SING  21
+ADM  C7   H7    SING  22
+ADM  C8   1H8   SING  23
+ADM  C8   2H8   SING  24
+ADM  C9   1H9   SING  25
+ADM  C9   2H9   SING  26
+ADM  C10  1H10  SING  27
+ADM  C10  2H10  SING  28
+#

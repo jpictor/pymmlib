@@ -1,0 +1,66 @@
+data_DOR
+#
+_chem_comp.id                   DOR
+_chem_comp.name                 '(4S)-2,6-DIOXOHEXAHYDROPYRIMIDINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 N2 O4'
+_chem_comp.pdbx_synonyms        'DIHYDROOROTIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        158.113
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DOR  O2   .  O  0  24.908  37.392  72.778  1  1 
+DOR  C2   .  C  0  25.688  38.334  72.659  1  2 
+DOR  N1   .  N  0  25.221  39.577  72.599  1  3 
+DOR  N3   .  N  0  27.005  38.132  72.503  1  4 
+DOR  C4   .  C  0  27.882  39.101  72.116  1  5 
+DOR  O4   .  O  0  29.080  38.891  71.890  1  6 
+DOR  C5   .  C  0  27.382  40.531  71.987  1  7 
+DOR  C6   .  C  0  26.105  40.707  72.798  1  8 
+DOR  C7   .  C  0  25.420  41.961  72.363  1  9 
+DOR  O72  .  O  0  26.013  43.046  72.488  1  10
+DOR  O71  .  O  0  24.274  41.850  71.891  1  11
+DOR  H72  .  H  0  ?       ?       ?       1  12
+DOR  H6   .  H  0  ?       ?       ?       1  13
+DOR  HN1  .  H  0  ?       ?       ?       1  14
+DOR  HN3  .  H  0  ?       ?       ?       1  15
+DOR  1H5  .  H  0  ?       ?       ?       0  16
+DOR  2H5  .  H  0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DOR  O2   C2   DOUB  1 
+DOR  C2   N1   SING  2 
+DOR  C2   N3   SING  3 
+DOR  N1   C6   SING  4 
+DOR  N1   HN1  SING  5 
+DOR  N3   HN3  SING  6 
+DOR  N3   C4   SING  7 
+DOR  C4   O4   DOUB  8 
+DOR  C4   C5   SING  9 
+DOR  C5   C6   SING  10
+DOR  C5   1H5  SING  11
+DOR  C5   2H5  SING  12
+DOR  C6   C7   SING  13
+DOR  C6   H6   SING  14
+DOR  C7   O72  SING  15
+DOR  C7   O71  DOUB  16
+DOR  O72  H72  SING  17
+#

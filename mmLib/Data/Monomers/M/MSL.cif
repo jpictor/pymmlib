@@ -1,0 +1,78 @@
+data_MSL
+#
+_chem_comp.id                       MSL
+_chem_comp.name                     '(2S)-2-AMINO-4-(METHYLSULFONIMIDOYL)BUTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H12 N2 O3 S1'
+_chem_comp.pdbx_synonyms            'METHIONINE SULFOXIMINE'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            180.221
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSL  OXT  .  O  0  37.588  17.377  61.822  1  1 
+MSL  C    .  C  0  36.387  17.791  61.875  1  2 
+MSL  O    .  O  0  35.669  17.447  62.848  1  3 
+MSL  CA   .  C  0  35.800  18.677  60.754  1  4 
+MSL  N    .  N  0  35.279  17.887  59.629  1  5 
+MSL  CB   .  C  0  34.756  19.742  61.174  1  6 
+MSL  CG   .  C  0  33.995  20.269  59.929  1  7 
+MSL  SD   .  S  0  32.615  21.171  60.276  1  8 
+MSL  OE   .  O  0  33.022  22.203  61.220  1  9 
+MSL  NE   .  N  0  31.566  20.213  60.807  1  10
+MSL  CE   .  C  0  31.973  21.916  58.936  1  11
+MSL  HXT  .  H  0  ?       ?       ?       1  12
+MSL  HA   .  H  0  ?       ?       ?       1  13
+MSL  1HN  .  H  0  ?       ?       ?       0  14
+MSL  2HN  .  H  0  ?       ?       ?       0  15
+MSL  1HB  .  H  0  ?       ?       ?       0  16
+MSL  2HB  .  H  0  ?       ?       ?       0  17
+MSL  1HG  .  H  0  ?       ?       ?       0  18
+MSL  2HG  .  H  0  ?       ?       ?       0  19
+MSL  HNE  .  H  0  ?       ?       ?       1  20
+MSL  1HE  .  H  0  ?       ?       ?       0  21
+MSL  2HE  .  H  0  ?       ?       ?       0  22
+MSL  3HE  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSL  OXT  HXT  SING  1 
+MSL  OXT  C    SING  2 
+MSL  C    O    DOUB  3 
+MSL  C    CA   SING  4 
+MSL  CA   HA   SING  5 
+MSL  CA   N    SING  6 
+MSL  CA   CB   SING  7 
+MSL  N    1HN  SING  8 
+MSL  N    2HN  SING  9 
+MSL  CB   1HB  SING  10
+MSL  CB   2HB  SING  11
+MSL  CB   CG   SING  12
+MSL  CG   1HG  SING  13
+MSL  CG   2HG  SING  14
+MSL  CG   SD   SING  15
+MSL  SD   OE   DOUB  16
+MSL  SD   NE   DOUB  17
+MSL  SD   CE   SING  18
+MSL  NE   HNE  SING  19
+MSL  CE   1HE  SING  20
+MSL  CE   2HE  SING  21
+MSL  CE   3HE  SING  22
+#

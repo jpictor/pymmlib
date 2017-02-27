@@ -1,0 +1,92 @@
+data_ASE
+#
+_chem_comp.id                   ASE
+_chem_comp.name                 'N-ACETYL SEROTONIN'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        218.255
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASE  C1    .  C  0  ?  ?  ?  1  1 
+ASE  C2    .  C  0  ?  ?  ?  1  2 
+ASE  C3    .  C  0  ?  ?  ?  1  3 
+ASE  C4    .  C  0  ?  ?  ?  1  4 
+ASE  C5    .  C  0  ?  ?  ?  1  5 
+ASE  C6    .  C  0  ?  ?  ?  1  6 
+ASE  C7    .  C  0  ?  ?  ?  1  7 
+ASE  C8    .  C  0  ?  ?  ?  1  8 
+ASE  N9    .  N  0  ?  ?  ?  1  9 
+ASE  O10   .  O  0  ?  ?  ?  1  10
+ASE  C11   .  C  0  ?  ?  ?  1  11
+ASE  C12   .  C  0  ?  ?  ?  1  12
+ASE  N13   .  N  0  ?  ?  ?  1  13
+ASE  C14   .  C  0  ?  ?  ?  1  14
+ASE  C15   .  C  0  ?  ?  ?  1  15
+ASE  O16   .  O  0  ?  ?  ?  1  16
+ASE  H2    .  H  0  ?  ?  ?  1  17
+ASE  H4    .  H  0  ?  ?  ?  1  18
+ASE  H5    .  H  0  ?  ?  ?  1  19
+ASE  H8    .  H  0  ?  ?  ?  1  20
+ASE  HN9   .  H  0  ?  ?  ?  1  21
+ASE  HO0   .  H  0  ?  ?  ?  1  22
+ASE  1H11  .  H  0  ?  ?  ?  0  23
+ASE  2H11  .  H  0  ?  ?  ?  0  24
+ASE  1H12  .  H  0  ?  ?  ?  0  25
+ASE  2H12  .  H  0  ?  ?  ?  0  26
+ASE  HN3   .  H  0  ?  ?  ?  1  27
+ASE  1H15  .  H  0  ?  ?  ?  0  28
+ASE  2H15  .  H  0  ?  ?  ?  0  29
+ASE  3H15  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASE  C1   C2    DOUB  1 
+ASE  C1   C4    SING  2 
+ASE  C1   O10   SING  3 
+ASE  C2   C3    SING  4 
+ASE  C2   H2    SING  5 
+ASE  C3   C6    DOUB  6 
+ASE  C3   C7    SING  7 
+ASE  C4   C5    DOUB  8 
+ASE  C4   H4    SING  9 
+ASE  C5   C6    SING  10
+ASE  C5   H5    SING  11
+ASE  C6   N9    SING  12
+ASE  C7   C8    DOUB  13
+ASE  C7   C11   SING  14
+ASE  C8   N9    SING  15
+ASE  C8   H8    SING  16
+ASE  N9   HN9   SING  17
+ASE  O10  HO0   SING  18
+ASE  C11  C12   SING  19
+ASE  C11  1H11  SING  20
+ASE  C11  2H11  SING  21
+ASE  C12  N13   SING  22
+ASE  C12  1H12  SING  23
+ASE  C12  2H12  SING  24
+ASE  N13  C14   SING  25
+ASE  N13  HN3   SING  26
+ASE  C14  C15   SING  27
+ASE  C14  O16   DOUB  28
+ASE  C15  1H15  SING  29
+ASE  C15  2H15  SING  30
+ASE  C15  3H15  SING  31
+#

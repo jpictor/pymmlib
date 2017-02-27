@@ -1,0 +1,95 @@
+data_CLM
+#
+_chem_comp.id                   CLM
+_chem_comp.name                 CHLORAMPHENICOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 N2 O5 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        323.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLM  C1    .  C   0  ?  ?  ?  1  1 
+CLM  CL1A  .  CL  0  ?  ?  ?  0  2 
+CLM  CL1B  .  CL  0  ?  ?  ?  0  3 
+CLM  C2    .  C   0  ?  ?  ?  1  4 
+CLM  O2    .  O   0  ?  ?  ?  1  5 
+CLM  N2    .  N   0  ?  ?  ?  1  6 
+CLM  C3    .  C   0  ?  ?  ?  1  7 
+CLM  C4    .  C   0  ?  ?  ?  1  8 
+CLM  O4    .  O   0  ?  ?  ?  1  9 
+CLM  C5    .  C   0  ?  ?  ?  1  10
+CLM  O5    .  O   0  ?  ?  ?  1  11
+CLM  C6    .  C   0  ?  ?  ?  1  12
+CLM  C7    .  C   0  ?  ?  ?  1  13
+CLM  C8    .  C   0  ?  ?  ?  1  14
+CLM  C9    .  C   0  ?  ?  ?  1  15
+CLM  N9    .  N   0  ?  ?  ?  1  16
+CLM  O9A   .  O   0  ?  ?  ?  1  17
+CLM  O9B   .  O   0  ?  ?  ?  1  18
+CLM  C10   .  C   0  ?  ?  ?  1  19
+CLM  C11   .  C   0  ?  ?  ?  1  20
+CLM  H1    .  H   0  ?  ?  ?  1  21
+CLM  HN2   .  H   0  ?  ?  ?  1  22
+CLM  H3    .  H   0  ?  ?  ?  1  23
+CLM  1H4   .  H   0  ?  ?  ?  0  24
+CLM  2H4   .  H   0  ?  ?  ?  0  25
+CLM  HO4   .  H   0  ?  ?  ?  1  26
+CLM  H5    .  H   0  ?  ?  ?  1  27
+CLM  HO5   .  H   0  ?  ?  ?  1  28
+CLM  H7    .  H   0  ?  ?  ?  1  29
+CLM  H8    .  H   0  ?  ?  ?  1  30
+CLM  H10   .  H   0  ?  ?  ?  1  31
+CLM  H11   .  H   0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLM  C1   CL1A  SING  1 
+CLM  C1   CL1B  SING  2 
+CLM  C1   C2    SING  3 
+CLM  C1   H1    SING  4 
+CLM  C2   O2    DOUB  5 
+CLM  C2   N2    SING  6 
+CLM  N2   C3    SING  7 
+CLM  N2   HN2   SING  8 
+CLM  C3   C4    SING  9 
+CLM  C3   C5    SING  10
+CLM  C3   H3    SING  11
+CLM  C4   O4    SING  12
+CLM  C4   1H4   SING  13
+CLM  C4   2H4   SING  14
+CLM  O4   HO4   SING  15
+CLM  C5   C6    SING  16
+CLM  C5   O5    SING  17
+CLM  C5   H5    SING  18
+CLM  O5   HO5   SING  19
+CLM  C6   C7    DOUB  20
+CLM  C6   C11   SING  21
+CLM  C7   C8    SING  22
+CLM  C7   H7    SING  23
+CLM  C8   C9    DOUB  24
+CLM  C8   H8    SING  25
+CLM  C9   C10   SING  26
+CLM  C9   N9    SING  27
+CLM  N9   O9A   DOUB  28
+CLM  N9   O9B   DOUB  29
+CLM  C10  C11   DOUB  30
+CLM  C10  H10   SING  31
+CLM  C11  H11   SING  32
+#

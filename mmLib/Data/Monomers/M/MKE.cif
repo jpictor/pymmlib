@@ -1,0 +1,73 @@
+data_MKE
+#
+_chem_comp.id                   MKE
+_chem_comp.name                 '(4S)-4-AMINO-5-OXOHEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 N1 O3'
+_chem_comp.pdbx_synonyms        'METHYLKETONE GLUTAMATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        145.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MKE  N     .  N  0  -5.805  -3.146  35.341  1  1 
+MKE  CA    .  C  0  -6.376  -1.855  35.722  1  2 
+MKE  CB    .  C  0  -6.587  -1.781  37.239  1  3 
+MKE  CG    .  C  0  -7.806  -2.558  37.741  1  4 
+MKE  CD    .  C  0  -7.981  -2.504  39.252  1  5 
+MKE  OE1   .  O  0  -7.034  -2.098  39.963  1  6 
+MKE  OE2   .  O  0  -9.077  -2.877  39.728  1  7 
+MKE  C     .  C  0  -5.547  -0.672  35.210  1  8 
+MKE  O     .  O  0  -5.943  0.468   35.304  1  9 
+MKE  CMK   .  C  0  -5.242  -0.932  33.749  1  10
+MKE  1HMK  .  H  0  ?       ?       ?       0  11
+MKE  2HMK  .  H  0  ?       ?       ?       0  12
+MKE  3HMK  .  H  0  ?       ?       ?       0  13
+MKE  HA    .  H  0  ?       ?       ?       1  14
+MKE  1HN   .  H  0  ?       ?       ?       0  15
+MKE  2HN   .  H  0  ?       ?       ?       0  16
+MKE  1HB   .  H  0  ?       ?       ?       0  17
+MKE  2HB   .  H  0  ?       ?       ?       0  18
+MKE  1HG   .  H  0  ?       ?       ?       0  19
+MKE  2HG   .  H  0  ?       ?       ?       0  20
+MKE  HE1   .  H  0  ?       ?       ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MKE  N    CA    SING  1 
+MKE  N    1HN   SING  2 
+MKE  N    2HN   SING  3 
+MKE  CA   C     SING  4 
+MKE  CA   CB    SING  5 
+MKE  CA   HA    SING  6 
+MKE  CB   CG    SING  7 
+MKE  CB   1HB   SING  8 
+MKE  CB   2HB   SING  9 
+MKE  CG   CD    SING  10
+MKE  CG   1HG   SING  11
+MKE  CG   2HG   SING  12
+MKE  CD   OE1   SING  13
+MKE  CD   OE2   DOUB  14
+MKE  OE1  HE1   SING  15
+MKE  C    CMK   SING  16
+MKE  C    O     DOUB  17
+MKE  CMK  1HMK  SING  18
+MKE  CMK  2HMK  SING  19
+MKE  CMK  3HMK  SING  20
+#

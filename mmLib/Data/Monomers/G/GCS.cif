@@ -1,0 +1,82 @@
+data_GCS
+#
+_chem_comp.id                   GCS
+_chem_comp.name                 D-GLUCOSAMINE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O5'
+_chem_comp.pdbx_synonyms        2-AMINO-2-DEOXY-D-GLUCOSE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        179.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GCS  C1    .  C  0  ?  ?  ?  1  1 
+GCS  C2    .  C  0  ?  ?  ?  1  2 
+GCS  C3    .  C  0  ?  ?  ?  1  3 
+GCS  C4    .  C  0  ?  ?  ?  1  4 
+GCS  C5    .  C  0  ?  ?  ?  1  5 
+GCS  C6    .  C  0  ?  ?  ?  1  6 
+GCS  N2    .  N  0  ?  ?  ?  1  7 
+GCS  O1    .  O  0  ?  ?  ?  1  8 
+GCS  O3    .  O  0  ?  ?  ?  1  9 
+GCS  O4    .  O  0  ?  ?  ?  1  10
+GCS  O5    .  O  0  ?  ?  ?  1  11
+GCS  O6    .  O  0  ?  ?  ?  1  12
+GCS  HO1   .  H  0  ?  ?  ?  1  13
+GCS  H1    .  H  0  ?  ?  ?  1  14
+GCS  H2    .  H  0  ?  ?  ?  1  15
+GCS  1HN2  .  H  0  ?  ?  ?  0  16
+GCS  2HN2  .  H  0  ?  ?  ?  0  17
+GCS  1H3   .  H  0  ?  ?  ?  0  18
+GCS  2H3   .  H  0  ?  ?  ?  0  19
+GCS  H4    .  H  0  ?  ?  ?  1  20
+GCS  HO4   .  H  0  ?  ?  ?  1  21
+GCS  H5    .  H  0  ?  ?  ?  1  22
+GCS  1H6   .  H  0  ?  ?  ?  0  23
+GCS  2H6   .  H  0  ?  ?  ?  0  24
+GCS  HO6   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GCS  C1  C2    SING  1 
+GCS  C1  O1    SING  2 
+GCS  C1  O5    SING  3 
+GCS  C1  H1    SING  4 
+GCS  C2  C3    SING  5 
+GCS  C2  N2    SING  6 
+GCS  C2  H2    SING  7 
+GCS  C3  C4    SING  8 
+GCS  C3  O3    SING  9 
+GCS  C3  1H3   SING  10
+GCS  C4  C5    SING  11
+GCS  C4  O4    SING  12
+GCS  C4  H4    SING  13
+GCS  C5  C6    SING  14
+GCS  C5  O5    SING  15
+GCS  C5  H5    SING  16
+GCS  C6  O6    SING  17
+GCS  C6  1H6   SING  18
+GCS  C6  2H6   SING  19
+GCS  N2  1HN2  SING  20
+GCS  N2  2HN2  SING  21
+GCS  O1  HO1   SING  22
+GCS  O3  2H3   SING  23
+GCS  O4  HO4   SING  24
+GCS  O6  HO6   SING  25
+#

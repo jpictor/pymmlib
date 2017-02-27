@@ -1,0 +1,122 @@
+data_UCP
+#
+_chem_comp.id                   UCP
+_chem_comp.name                 'PHOSPHOMETHYL PHOSPHONIC ACID DEOXYURIDYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N2 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        466.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UCP  N1    .  N  0  ?  ?  ?  1  1 
+UCP  C2    .  C  0  ?  ?  ?  1  2 
+UCP  O2    .  O  0  ?  ?  ?  1  3 
+UCP  N3    .  N  0  ?  ?  ?  1  4 
+UCP  C4    .  C  0  ?  ?  ?  1  5 
+UCP  O4    .  O  0  ?  ?  ?  1  6 
+UCP  C5    .  C  0  ?  ?  ?  1  7 
+UCP  C6    .  C  0  ?  ?  ?  1  8 
+UCP  C1*   .  C  0  ?  ?  ?  1  9 
+UCP  C2*   .  C  0  ?  ?  ?  1  10
+UCP  C3*   .  C  0  ?  ?  ?  1  11
+UCP  O3*   .  O  0  ?  ?  ?  1  12
+UCP  C4*   .  C  0  ?  ?  ?  1  13
+UCP  O4*   .  O  0  ?  ?  ?  1  14
+UCP  C5*   .  C  0  ?  ?  ?  1  15
+UCP  O5*   .  O  0  ?  ?  ?  1  16
+UCP  PA    .  P  0  ?  ?  ?  1  17
+UCP  O1A   .  O  0  ?  ?  ?  1  18
+UCP  O2A   .  O  0  ?  ?  ?  1  19
+UCP  O3A   .  O  0  ?  ?  ?  1  20
+UCP  PB    .  P  0  ?  ?  ?  1  21
+UCP  O1B   .  O  0  ?  ?  ?  1  22
+UCP  O2B   .  O  0  ?  ?  ?  1  23
+UCP  CC    .  C  0  ?  ?  ?  1  24
+UCP  PG    .  P  0  ?  ?  ?  1  25
+UCP  O1G   .  O  0  ?  ?  ?  1  26
+UCP  O2G   .  O  0  ?  ?  ?  1  27
+UCP  O3G   .  O  0  ?  ?  ?  1  28
+UCP  HN3   .  H  0  ?  ?  ?  1  29
+UCP  H5    .  H  0  ?  ?  ?  1  30
+UCP  H6    .  H  0  ?  ?  ?  1  31
+UCP  H1*   .  H  0  ?  ?  ?  1  32
+UCP  1H2*  .  H  0  ?  ?  ?  0  33
+UCP  2H2*  .  H  0  ?  ?  ?  0  34
+UCP  H3*   .  H  0  ?  ?  ?  1  35
+UCP  3HO*  .  H  0  ?  ?  ?  0  36
+UCP  H4*   .  H  0  ?  ?  ?  1  37
+UCP  1H5*  .  H  0  ?  ?  ?  0  38
+UCP  2H5*  .  H  0  ?  ?  ?  0  39
+UCP  2HOA  .  H  0  ?  ?  ?  0  40
+UCP  2HOB  .  H  0  ?  ?  ?  0  41
+UCP  1HCC  .  H  0  ?  ?  ?  0  42
+UCP  2HCC  .  H  0  ?  ?  ?  0  43
+UCP  2HOG  .  H  0  ?  ?  ?  0  44
+UCP  3HOG  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UCP  N1   C2    SING  1 
+UCP  N1   C6    SING  2 
+UCP  N1   C1*   SING  3 
+UCP  C2   N3    SING  4 
+UCP  C2   O2    DOUB  5 
+UCP  N3   C4    SING  6 
+UCP  N3   HN3   SING  7 
+UCP  C4   C5    SING  8 
+UCP  C4   O4    DOUB  9 
+UCP  C5   C6    DOUB  10
+UCP  C5   H5    SING  11
+UCP  C6   H6    SING  12
+UCP  C1*  C2*   SING  13
+UCP  C1*  O4*   SING  14
+UCP  C1*  H1*   SING  15
+UCP  C2*  C3*   SING  16
+UCP  C2*  1H2*  SING  17
+UCP  C2*  2H2*  SING  18
+UCP  C3*  C4*   SING  19
+UCP  C3*  O3*   SING  20
+UCP  C3*  H3*   SING  21
+UCP  O3*  3HO*  SING  22
+UCP  C4*  O4*   SING  23
+UCP  C4*  C5*   SING  24
+UCP  C4*  H4*   SING  25
+UCP  C5*  O5*   SING  26
+UCP  C5*  1H5*  SING  27
+UCP  C5*  2H5*  SING  28
+UCP  O5*  PA    SING  29
+UCP  PA   O1A   DOUB  30
+UCP  PA   O2A   SING  31
+UCP  PA   O3A   SING  32
+UCP  O2A  2HOA  SING  33
+UCP  O3A  PB    SING  34
+UCP  PB   O1B   DOUB  35
+UCP  PB   O2B   SING  36
+UCP  PB   CC    SING  37
+UCP  O2B  2HOB  SING  38
+UCP  CC   PG    SING  39
+UCP  CC   1HCC  SING  40
+UCP  CC   2HCC  SING  41
+UCP  PG   O1G   DOUB  42
+UCP  PG   O2G   SING  43
+UCP  PG   O3G   SING  44
+UCP  O2G  2HOG  SING  45
+UCP  O3G  3HOG  SING  46
+#

@@ -1,0 +1,64 @@
+data_GUN
+#
+_chem_comp.id                   GUN
+_chem_comp.name                 GUANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H5 N5 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.127
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GUN  N9    .  N  0  ?  ?  ?  1  1 
+GUN  C8    .  C  0  ?  ?  ?  1  2 
+GUN  N7    .  N  0  ?  ?  ?  1  3 
+GUN  C5    .  C  0  ?  ?  ?  1  4 
+GUN  C6    .  C  0  ?  ?  ?  1  5 
+GUN  O6    .  O  0  ?  ?  ?  1  6 
+GUN  N1    .  N  0  ?  ?  ?  1  7 
+GUN  C2    .  C  0  ?  ?  ?  1  8 
+GUN  N2    .  N  0  ?  ?  ?  1  9 
+GUN  N3    .  N  0  ?  ?  ?  1  10
+GUN  C4    .  C  0  ?  ?  ?  1  11
+GUN  H8    .  H  0  ?  ?  ?  1  12
+GUN  HN9   .  H  0  ?  ?  ?  1  13
+GUN  HN1   .  H  0  ?  ?  ?  1  14
+GUN  1HN2  .  H  0  ?  ?  ?  0  15
+GUN  2HN2  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GUN  N9  C8    SING  1 
+GUN  N9  C4    SING  2 
+GUN  N9  HN9   SING  3 
+GUN  C8  N7    DOUB  4 
+GUN  C8  H8    SING  5 
+GUN  N7  C5    SING  6 
+GUN  C5  C6    SING  7 
+GUN  C5  C4    DOUB  8 
+GUN  C6  O6    DOUB  9 
+GUN  C6  N1    SING  10
+GUN  N1  C2    SING  11
+GUN  N1  HN1   SING  12
+GUN  C2  N2    SING  13
+GUN  C2  N3    DOUB  14
+GUN  N2  1HN2  SING  15
+GUN  N2  2HN2  SING  16
+GUN  N3  C4    SING  17
+#

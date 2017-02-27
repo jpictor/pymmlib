@@ -1,0 +1,107 @@
+data_ALJ
+#
+_chem_comp.id                   ALJ
+_chem_comp.name                 'CYCLO-(L-ARGININE-L-PROLINE) INHIBITOR'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N5 O2'
+_chem_comp.pdbx_synonyms        N''-{3-[(3S,8AR)-1,4-DIOXOOCTAHYDROPYRROLO[1,2-A]PYRAZIN-3-YL]PROPYL}GUANIDINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.303
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALJ  O     .  O  0  20.642  43.344  103.261  1  1 
+ALJ  C     .  C  0  19.484  43.342  102.846  1  2 
+ALJ  NP    .  N  0  18.808  44.554  102.647  1  3 
+ALJ  CDP   .  C  0  19.25   45.964  102.754  1  4 
+ALJ  CGP   .  C  0  17.966  46.765  102.522  1  5 
+ALJ  CBP   .  C  0  17.269  45.901  101.472  1  6 
+ALJ  CAP   .  C  0  17.417  44.546  102.164  1  7 
+ALJ  CP    .  C  0  17.2    43.392  101.186  1  8 
+ALJ  OP    .  O  0  16.441  43.526  100.224  1  9 
+ALJ  N     .  N  0  17.866  42.179  101.41   1  10
+ALJ  CA    .  C  0  18.759  42.024  102.569  1  11
+ALJ  CB    .  C  0  19.751  40.881  102.334  1  12
+ALJ  CG    .  C  0  18.988  39.569  102.528  1  13
+ALJ  CD    .  C  0  19.902  38.341  102.518  1  14
+ALJ  NE    .  N  0  19      37.189  102.676  1  15
+ALJ  CZ    .  C  0  18.742  36.384  101.648  1  16
+ALJ  NH1   .  N  0  19.365  36.554  100.485  1  17
+ALJ  NH2   .  N  0  17.899  35.364  101.8    1  18
+ALJ  HA    .  H  0  18.137  41.772  103.46   1  19
+ALJ  1HDP  .  H  0  20.091  46.236  102.075  0  20
+ALJ  2HDP  .  H  0  19.781  46.209  103.703  0  21
+ALJ  HAP   .  H  0  16.708  44.468  103.021  1  22
+ALJ  1HGP  .  H  0  18.112  47.834  102.242  0  23
+ALJ  2HGP  .  H  0  17.367  46.985  103.436  0  24
+ALJ  1HBP  .  H  0  16.235  46.203  101.186  0  25
+ALJ  2HBP  .  H  0  17.66   45.973  100.43   0  26
+ALJ  H     .  H  0  17.731  41.4    100.766  1  27
+ALJ  1HBC  .  H  0  20.661  40.955  102.974  0  28
+ALJ  2HBC  .  H  0  20.264  40.945  101.346  0  29
+ALJ  1HGC  .  H  0  18.174  39.466  101.773  0  30
+ALJ  2HGC  .  H  0  18.372  39.6    103.457  0  31
+ALJ  1HDC  .  H  0  20.719  38.381  103.276  0  32
+ALJ  2HDC  .  H  0  20.561  38.277  101.621  0  33
+ALJ  1HH1  .  H  0  19.167  35.937  99.697   0  34
+ALJ  2HH1  .  H  0  20.011  37.335  100.369  0  35
+ALJ  1HH2  .  H  0  17.701  34.747  101.012  0  36
+ALJ  2HH2  .  H  0  17.421  35.234  102.692  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALJ  O    C     DOUB  1 
+ALJ  C    NP    SING  2 
+ALJ  C    CA    SING  3 
+ALJ  NP   CDP   SING  4 
+ALJ  NP   CAP   SING  5 
+ALJ  CDP  CGP   SING  6 
+ALJ  CDP  1HDP  SING  7 
+ALJ  CDP  2HDP  SING  8 
+ALJ  CGP  CBP   SING  9 
+ALJ  CGP  1HGP  SING  10
+ALJ  CGP  2HGP  SING  11
+ALJ  CBP  CAP   SING  12
+ALJ  CBP  1HBP  SING  13
+ALJ  CBP  2HBP  SING  14
+ALJ  CAP  CP    SING  15
+ALJ  CAP  HAP   SING  16
+ALJ  CP   OP    DOUB  17
+ALJ  CP   N     SING  18
+ALJ  N    CA    SING  19
+ALJ  N    H     SING  20
+ALJ  CA   CB    SING  21
+ALJ  CA   HA    SING  22
+ALJ  CB   CG    SING  23
+ALJ  CB   1HBC  SING  24
+ALJ  CB   2HBC  SING  25
+ALJ  CG   CD    SING  26
+ALJ  CG   1HGC  SING  27
+ALJ  CG   2HGC  SING  28
+ALJ  CD   NE    SING  29
+ALJ  CD   1HDC  SING  30
+ALJ  CD   2HDC  SING  31
+ALJ  NE   CZ    DOUB  32
+ALJ  CZ   NH1   SING  33
+ALJ  CZ   NH2   SING  34
+ALJ  NH1  1HH1  SING  35
+ALJ  NH1  2HH1  SING  36
+ALJ  NH2  1HH2  SING  37
+ALJ  NH2  2HH2  SING  38
+#

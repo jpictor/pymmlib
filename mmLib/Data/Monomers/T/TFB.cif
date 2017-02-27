@@ -1,0 +1,63 @@
+data_TFB
+#
+_chem_comp.id                   TFB
+_chem_comp.name                 'TETRAHYDROFURAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H8 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        116.116
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TFB  OA   .  O  0  ?  ?  ?  1  1 
+TFB  CA   .  C  0  ?  ?  ?  1  2 
+TFB  C    .  C  0  ?  ?  ?  1  3 
+TFB  OB   .  O  0  ?  ?  ?  1  4 
+TFB  CB   .  C  0  ?  ?  ?  1  5 
+TFB  CG   .  C  0  ?  ?  ?  1  6 
+TFB  CD   .  C  0  ?  ?  ?  1  7 
+TFB  OXT  .  O  0  ?  ?  ?  1  8 
+TFB  1HB  .  H  0  ?  ?  ?  0  9 
+TFB  2HB  .  H  0  ?  ?  ?  0  10
+TFB  1HG  .  H  0  ?  ?  ?  0  11
+TFB  2HG  .  H  0  ?  ?  ?  0  12
+TFB  1HD  .  H  0  ?  ?  ?  0  13
+TFB  2HD  .  H  0  ?  ?  ?  0  14
+TFB  HA   .  H  0  ?  ?  ?  1  15
+TFB  HB   .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TFB  OA  CA   SING  1 
+TFB  OA  CD   SING  2 
+TFB  CA  C    SING  3 
+TFB  CA  CB   SING  4 
+TFB  CA  HA   SING  5 
+TFB  C   OB   SING  6 
+TFB  C   OXT  DOUB  7 
+TFB  OB  HB   SING  8 
+TFB  CB  CG   SING  9 
+TFB  CB  1HB  SING  10
+TFB  CB  2HB  SING  11
+TFB  CG  CD   SING  12
+TFB  CG  1HG  SING  13
+TFB  CG  2HG  SING  14
+TFB  CD  1HD  SING  15
+TFB  CD  2HD  SING  16
+#

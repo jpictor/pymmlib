@@ -1,0 +1,92 @@
+data_SBZ
+#
+_chem_comp.id                   SBZ
+_chem_comp.name                 [4-(1,3,2-DIOXABOROLAN-2-YLOXY)METHYL]BENZAMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N2 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        221.042
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBZ  BD    .  B  0  35.808  26.381  7.997   1  1 
+SBZ  OE1   .  O  0  35.155  25.953  9.151   1  2 
+SBZ  OE2   .  O  0  35.311  25.642  6.913   1  3 
+SBZ  OE3   .  O  0  37.211  26.166  8.015   1  4 
+SBZ  CZ2   .  C  0  36.226  24.605  6.624   1  5 
+SBZ  CZ3   .  C  0  37.553  25.062  7.209   1  6 
+SBZ  CZ1   .  C  0  35.498  26.535  10.398  1  7 
+SBZ  CH    .  C  0  34.380  27.156  11.198  1  8 
+SBZ  CQ1   .  C  0  34.078  26.728  12.502  1  9 
+SBZ  CQ2   .  C  0  33.683  28.234  10.640  1  10
+SBZ  CI1   .  C  0  33.081  27.390  13.246  1  11
+SBZ  CI2   .  C  0  32.735  28.929  11.400  1  12
+SBZ  CK    .  C  0  32.417  28.516  12.712  1  13
+SBZ  CL    .  C  0  31.476  29.244  13.476  1  14
+SBZ  NM1   .  N  1  30.920  28.740  14.580  1  15
+SBZ  NM2   .  N  0  31.112  30.493  13.164  1  16
+SBZ  2HM1  .  H  0  31.102  27.786  14.857  0  17
+SBZ  3HM1  .  H  0  30.255  29.295  15.096  0  18
+SBZ  2HM2  .  H  0  31.566  30.980  12.406  0  19
+SBZ  3HM2  .  H  0  30.461  30.985  13.758  0  20
+SBZ  HI2   .  H  0  32.245  29.778  10.946  1  21
+SBZ  HQ2   .  H  0  33.910  28.560  9.637   1  22
+SBZ  HQ1   .  H  0  34.619  25.906  12.951  1  23
+SBZ  HI1   .  H  0  32.898  27.067  14.258  1  24
+SBZ  2HZ1  .  H  0  36.008  25.793  11.006  0  25
+SBZ  3HZ1  .  H  0  36.225  27.312  10.166  0  26
+SBZ  2HZ3  .  H  0  38.228  25.371  6.415   0  27
+SBZ  3HZ3  .  H  0  37.998  24.273  7.814   0  28
+SBZ  2HZ2  .  H  0  36.315  24.436  5.552   0  29
+SBZ  3HZ2  .  H  0  35.898  23.698  7.131   0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBZ  BD   OE1   SING  1 
+SBZ  BD   OE3   SING  2 
+SBZ  BD   OE2   SING  3 
+SBZ  OE1  CZ1   SING  4 
+SBZ  OE2  CZ2   SING  5 
+SBZ  OE3  CZ3   SING  6 
+SBZ  CZ2  CZ3   SING  7 
+SBZ  CZ2  2HZ2  SING  8 
+SBZ  CZ2  3HZ2  SING  9 
+SBZ  CZ3  2HZ3  SING  10
+SBZ  CZ3  3HZ3  SING  11
+SBZ  CZ1  CH    SING  12
+SBZ  CZ1  2HZ1  SING  13
+SBZ  CZ1  3HZ1  SING  14
+SBZ  CH   CQ2   AROM  15
+SBZ  CH   CQ1   AROM  16
+SBZ  CQ1  HQ1   SING  17
+SBZ  CQ1  CI1   AROM  18
+SBZ  CQ2  CI2   AROM  19
+SBZ  CQ2  HQ2   SING  20
+SBZ  CI1  CK    AROM  21
+SBZ  CI1  HI1   SING  22
+SBZ  CI2  CK    AROM  23
+SBZ  CI2  HI2   SING  24
+SBZ  CK   CL    SING  25
+SBZ  CL   NM1   DOUB  26
+SBZ  CL   NM2   SING  27
+SBZ  NM1  2HM1  SING  28
+SBZ  NM1  3HM1  SING  29
+SBZ  NM2  2HM2  SING  30
+SBZ  NM2  3HM2  SING  31
+#

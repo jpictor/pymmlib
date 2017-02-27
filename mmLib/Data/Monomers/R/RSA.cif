@@ -1,0 +1,84 @@
+data_RSA
+#
+_chem_comp.id                   RSA
+_chem_comp.name                 N-PROPARGYL-1(S)-AMINOINDAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RSA  C13   .  C  0  53.972  152.289  22.000  1  1 
+RSA  C12   .  C  0  54.185  153.174  22.900  1  2 
+RSA  C11   .  C  0  53.033  153.759  23.706  1  3 
+RSA  N10   .  N  0  53.247  154.316  24.834  1  4 
+RSA  C9    .  C  0  52.128  154.857  25.569  1  5 
+RSA  C1    .  C  0  51.693  154.241  26.910  1  6 
+RSA  C2    .  C  0  51.578  155.379  27.951  1  7 
+RSA  C3    .  C  0  52.126  156.558  27.215  1  8 
+RSA  C8    .  C  0  52.424  156.275  25.914  1  9 
+RSA  C7    .  C  0  52.940  157.235  25.064  1  10
+RSA  C4    .  C  0  52.325  157.825  27.736  1  11
+RSA  C5    .  C  0  52.842  158.804  26.897  1  12
+RSA  C6    .  C  0  53.147  158.510  25.570  1  13
+RSA  H13   .  H  0  ?       ?        ?       1  14
+RSA  1H11  .  H  0  ?       ?        ?       0  15
+RSA  2H11  .  H  0  ?       ?        ?       0  16
+RSA  H10   .  H  0  ?       ?        ?       1  17
+RSA  H9    .  H  0  ?       ?        ?       1  18
+RSA  H7    .  H  0  ?       ?        ?       1  19
+RSA  H6    .  H  0  ?       ?        ?       1  20
+RSA  H5    .  H  0  ?       ?        ?       1  21
+RSA  H4    .  H  0  ?       ?        ?       1  22
+RSA  1H2   .  H  0  ?       ?        ?       0  23
+RSA  2H2   .  H  0  ?       ?        ?       0  24
+RSA  1H1   .  H  0  ?       ?        ?       0  25
+RSA  2H1   .  H  0  ?       ?        ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RSA  C13  H13   SING  1 
+RSA  C13  C12   TRIP  2 
+RSA  C12  C11   SING  3 
+RSA  C11  1H11  SING  4 
+RSA  C11  2H11  SING  5 
+RSA  C11  N10   SING  6 
+RSA  N10  H10   SING  7 
+RSA  N10  C9    SING  8 
+RSA  C9   H9    SING  9 
+RSA  C9   C8    SING  10
+RSA  C9   C1    SING  11
+RSA  C1   C2    SING  12
+RSA  C1   1H1   SING  13
+RSA  C1   2H1   SING  14
+RSA  C2   C3    SING  15
+RSA  C2   1H2   SING  16
+RSA  C2   2H2   SING  17
+RSA  C3   C4    AROM  18
+RSA  C3   C8    AROM  19
+RSA  C8   C7    AROM  20
+RSA  C7   H7    SING  21
+RSA  C7   C6    AROM  22
+RSA  C4   C5    AROM  23
+RSA  C4   H4    SING  24
+RSA  C5   C6    AROM  25
+RSA  C5   H5    SING  26
+RSA  C6   H6    SING  27
+#

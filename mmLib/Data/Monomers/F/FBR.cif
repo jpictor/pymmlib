@@ -1,0 +1,119 @@
+data_FBR
+#
+_chem_comp.id                   FBR
+_chem_comp.name                 (9AS)-4-BROMO-9A-BUTYL-7-HYDROXY-1,2,9,9A-TETRAHYDRO-3H-FLUOREN-3-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H19 O2 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        335.240
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          FBR
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCCC[C@@]12CCC(=O)C(=C1c3ccc(cc3C2)O)Br
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+FBR  C1    .  C   0  22.921  9.037   115.333  1  N  1 
+FBR  C2    .  C   0  22.445  8.085   116.450  1  N  2 
+FBR  C3    .  C   0  20.907  8.195   116.503  1  N  3 
+FBR  C4    .  C   0  20.347  7.794   115.154  1  N  4 
+FBR  O5    .  O   0  19.241  7.318   115.104  1  N  5 
+FBR  C6    .  C   0  21.143  8.022   113.926  1  N  6 
+FBR  BR7   .  BR  0  20.409  7.196   112.522  0  N  7 
+FBR  C8    .  C   0  22.349  8.625   113.999  1  N  8 
+FBR  C9    .  C   0  23.407  8.737   112.972  1  Y  9 
+FBR  C10   .  C   0  23.358  8.678   111.575  1  Y  10
+FBR  C11   .  C   0  24.547  8.853   110.857  1  Y  11
+FBR  C12   .  C   0  25.774  9.026   111.525  1  Y  12
+FBR  O13   .  O   0  26.927  9.109   110.839  1  N  13
+FBR  C14   .  C   0  25.812  9.060   112.924  1  Y  14
+FBR  C15   .  C   0  24.615  8.951   113.635  1  Y  15
+FBR  C16   .  C   0  24.446  9.022   115.134  1  N  16
+FBR  C17   .  C   0  22.413  10.482  115.521  1  N  17
+FBR  C18   .  C   0  23.137  11.290  116.604  1  N  18
+FBR  C19   .  C   0  22.229  12.296  117.319  1  N  19
+FBR  C20   .  C   0  23.016  12.819  118.540  1  N  20
+FBR  1H2   .  H   0  22.748  7.051   116.227  0  N  21
+FBR  2H2   .  H   0  22.893  8.358   117.417  0  N  22
+FBR  1H3   .  H   0  20.616  9.230   116.734  0  N  23
+FBR  2H3   .  H   0  20.510  7.532   117.286  0  N  24
+FBR  H10   .  H   0  22.424  8.501   111.062  1  N  25
+FBR  H11   .  H   0  24.523  8.855   109.777  1  N  26
+FBR  HO13  .  H   0  26.741  9.129   109.908  0  N  27
+FBR  H14   .  H   0  26.752  9.169   113.445  1  N  28
+FBR  1H16  .  H   0  24.907  8.156   115.631  0  N  29
+FBR  2H16  .  H   0  24.938  9.903   115.573  0  N  30
+FBR  1H17  .  H   0  22.548  11.010  114.565  0  N  31
+FBR  2H17  .  H   0  21.364  10.402  115.843  0  N  32
+FBR  1H18  .  H   0  23.528  10.587  117.354  0  N  33
+FBR  2H18  .  H   0  23.934  11.863  116.108  0  N  34
+FBR  1H19  .  H   0  21.972  13.126  116.645  0  N  35
+FBR  2H19  .  H   0  21.287  11.822  117.632  0  N  36
+FBR  1H20  .  H   0  24.075  12.943  118.269  0  N  37
+FBR  2H20  .  H   0  22.602  13.788  118.855  0  N  38
+FBR  3H20  .  H   0  22.932  12.098  119.366  0  N  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+FBR  C1   C8    SING  N  1 
+FBR  C1   C16   SING  N  2 
+FBR  C1   C17   SING  N  3 
+FBR  C1   C2    SING  N  4 
+FBR  C2   C3    SING  N  5 
+FBR  C2   1H2   SING  N  6 
+FBR  C2   2H2   SING  N  7 
+FBR  C3   C4    SING  N  8 
+FBR  C3   1H3   SING  N  9 
+FBR  C3   2H3   SING  N  10
+FBR  C4   C6    SING  N  11
+FBR  C4   O5    DOUB  N  12
+FBR  C6   BR7   SING  N  13
+FBR  C6   C8    DOUB  N  14
+FBR  C8   C9    SING  N  15
+FBR  C9   C10   DOUB  Y  16
+FBR  C9   C15   SING  Y  17
+FBR  C10  C11   SING  Y  18
+FBR  C10  H10   SING  N  19
+FBR  C11  C12   DOUB  Y  20
+FBR  C11  H11   SING  N  21
+FBR  C12  O13   SING  N  22
+FBR  C12  C14   SING  Y  23
+FBR  O13  HO13  SING  N  24
+FBR  C14  C15   DOUB  Y  25
+FBR  C14  H14   SING  N  26
+FBR  C15  C16   SING  N  27
+FBR  C16  1H16  SING  N  28
+FBR  C16  2H16  SING  N  29
+FBR  C17  C18   SING  N  30
+FBR  C17  1H17  SING  N  31
+FBR  C17  2H17  SING  N  32
+FBR  C18  C19   SING  N  33
+FBR  C18  1H18  SING  N  34
+FBR  C18  2H18  SING  N  35
+FBR  C19  C20   SING  N  36
+FBR  C19  1H19  SING  N  37
+FBR  C19  2H19  SING  N  38
+FBR  C20  1H20  SING  N  39
+FBR  C20  2H20  SING  N  40
+FBR  C20  3H20  SING  N  41
+#

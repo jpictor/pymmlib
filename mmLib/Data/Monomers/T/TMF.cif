@@ -1,0 +1,142 @@
+data_TMF
+#
+_chem_comp.id                   TMF
+_chem_comp.name                 '5,10-METHYLENE-6-HYDROFOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H21 N7 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        455.429
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMF  N1    .  N  0  ?  ?  ?  1  1 
+TMF  C2    .  C  0  ?  ?  ?  1  2 
+TMF  NA2   .  N  0  ?  ?  ?  1  3 
+TMF  N3    .  N  0  ?  ?  ?  1  4 
+TMF  C4    .  C  0  ?  ?  ?  1  5 
+TMF  O4    .  O  0  ?  ?  ?  1  6 
+TMF  C4A   .  C  0  ?  ?  ?  1  7 
+TMF  N5    .  N  0  ?  ?  ?  1  8 
+TMF  C6    .  C  0  ?  ?  ?  1  9 
+TMF  C7    .  C  0  ?  ?  ?  1  10
+TMF  N8    .  N  0  ?  ?  ?  1  11
+TMF  C8A   .  C  0  ?  ?  ?  1  12
+TMF  C9    .  C  0  ?  ?  ?  1  13
+TMF  N10   .  N  0  ?  ?  ?  1  14
+TMF  C11   .  C  0  ?  ?  ?  1  15
+TMF  C12   .  C  0  ?  ?  ?  1  16
+TMF  C13   .  C  0  ?  ?  ?  1  17
+TMF  C14   .  C  0  ?  ?  ?  1  18
+TMF  C15   .  C  0  ?  ?  ?  1  19
+TMF  C16   .  C  0  ?  ?  ?  1  20
+TMF  C     .  C  0  ?  ?  ?  1  21
+TMF  O     .  O  0  ?  ?  ?  1  22
+TMF  N     .  N  0  ?  ?  ?  1  23
+TMF  CA    .  C  0  ?  ?  ?  1  24
+TMF  CB    .  C  0  ?  ?  ?  1  25
+TMF  CG    .  C  0  ?  ?  ?  1  26
+TMF  CD    .  C  0  ?  ?  ?  1  27
+TMF  OE1   .  O  0  ?  ?  ?  1  28
+TMF  OE2   .  O  0  ?  ?  ?  1  29
+TMF  CT    .  C  0  ?  ?  ?  1  30
+TMF  O1    .  O  0  ?  ?  ?  1  31
+TMF  O2    .  O  0  ?  ?  ?  1  32
+TMF  CP1   .  C  0  ?  ?  ?  1  33
+TMF  HN1   .  H  0  ?  ?  ?  1  34
+TMF  1HN2  .  H  0  ?  ?  ?  0  35
+TMF  2HN2  .  H  0  ?  ?  ?  0  36
+TMF  H7    .  H  0  ?  ?  ?  1  37
+TMF  H6    .  H  0  ?  ?  ?  1  38
+TMF  1H9   .  H  0  ?  ?  ?  0  39
+TMF  2H9   .  H  0  ?  ?  ?  0  40
+TMF  H12   .  H  0  ?  ?  ?  1  41
+TMF  H13   .  H  0  ?  ?  ?  1  42
+TMF  H15   .  H  0  ?  ?  ?  1  43
+TMF  H16   .  H  0  ?  ?  ?  1  44
+TMF  HN    .  H  0  ?  ?  ?  1  45
+TMF  HA    .  H  0  ?  ?  ?  1  46
+TMF  1HB   .  H  0  ?  ?  ?  0  47
+TMF  2HB   .  H  0  ?  ?  ?  0  48
+TMF  1HG   .  H  0  ?  ?  ?  0  49
+TMF  2HG   .  H  0  ?  ?  ?  0  50
+TMF  2HOE  .  H  0  ?  ?  ?  0  51
+TMF  HO2   .  H  0  ?  ?  ?  1  52
+TMF  1HCP  .  H  0  ?  ?  ?  0  53
+TMF  2HCP  .  H  0  ?  ?  ?  0  54
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMF  N1   C2    SING  1 
+TMF  N1   C8A   SING  2 
+TMF  N1   HN1   SING  3 
+TMF  C2   NA2   SING  4 
+TMF  C2   N3    DOUB  5 
+TMF  NA2  1HN2  SING  6 
+TMF  NA2  2HN2  SING  7 
+TMF  N3   C4    SING  8 
+TMF  C4   O4    DOUB  9 
+TMF  C4   C4A   SING  10
+TMF  C4A  N5    SING  11
+TMF  C4A  C8A   DOUB  12
+TMF  N5   C6    SING  13
+TMF  N5   CP1   SING  14
+TMF  C6   C7    SING  15
+TMF  C6   C9    SING  16
+TMF  C6   H6    SING  17
+TMF  C7   N8    DOUB  18
+TMF  C7   H7    SING  19
+TMF  N8   C8A   SING  20
+TMF  C9   N10   SING  21
+TMF  C9   1H9   SING  22
+TMF  C9   2H9   SING  23
+TMF  N10  C14   SING  24
+TMF  N10  CP1   SING  25
+TMF  C11  C12   DOUB  26
+TMF  C11  C16   SING  27
+TMF  C11  C     SING  28
+TMF  C12  C13   SING  29
+TMF  C12  H12   SING  30
+TMF  C13  C14   DOUB  31
+TMF  C13  H13   SING  32
+TMF  C14  C15   SING  33
+TMF  C15  C16   DOUB  34
+TMF  C15  H15   SING  35
+TMF  C16  H16   SING  36
+TMF  C    O     DOUB  37
+TMF  C    N     SING  38
+TMF  N    CA    SING  39
+TMF  N    HN    SING  40
+TMF  CA   CB    SING  41
+TMF  CA   CT    SING  42
+TMF  CA   HA    SING  43
+TMF  CB   CG    SING  44
+TMF  CB   1HB   SING  45
+TMF  CB   2HB   SING  46
+TMF  CG   CD    SING  47
+TMF  CG   1HG   SING  48
+TMF  CG   2HG   SING  49
+TMF  CD   OE1   DOUB  50
+TMF  CD   OE2   SING  51
+TMF  OE2  2HOE  SING  52
+TMF  CT   O1    DOUB  53
+TMF  CT   O2    SING  54
+TMF  O2   HO2   SING  55
+TMF  CP1  1HCP  SING  56
+TMF  CP1  2HCP  SING  57
+#

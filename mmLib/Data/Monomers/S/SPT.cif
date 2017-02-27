@@ -1,0 +1,105 @@
+data_SPT
+#
+_chem_comp.id                       SPT
+_chem_comp.name                     '5'-THIO-THYMIDINE PHOSPHONIC ACID'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O7 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            338.271
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPT  S5*   .  S  0  83.518  3.220   -3.592  1  1 
+SPT  N1    .  N  0  78.949  0.541   -5.744  1  2 
+SPT  C6    .  C  0  79.745  1.060   -6.744  1  3 
+SPT  C2    .  C  0  77.718  -0.007  -6.019  1  4 
+SPT  O2    .  O  0  76.989  -0.481  -5.162  1  5 
+SPT  N3    .  N  0  77.372  0.017   -7.346  1  6 
+SPT  C4    .  C  0  78.119  0.527   -8.394  1  7 
+SPT  O4    .  O  0  77.679  0.489   -9.533  1  8 
+SPT  C5    .  C  0  79.396  1.080   -8.031  1  9 
+SPT  C5M   .  C  0  80.268  1.651   -9.103  1  10
+SPT  C2*   .  C  0  80.467  -0.498  -4.079  1  11
+SPT  C5*   .  C  0  82.433  2.049   -4.396  1  12
+SPT  C4*   .  C  0  81.320  1.642   -3.458  1  13
+SPT  O4*   .  O  0  80.045  1.823   -4.122  1  14
+SPT  C1*   .  C  0  79.414  0.564   -4.347  1  15
+SPT  C3*   .  C  0  81.374  0.169   -3.065  1  16
+SPT  O3*   .  O  0  80.853  -0.035  -1.751  1  17
+SPT  O3P   .  O  0  ?       ?       ?       1  18
+SPT  P     .  P  0  ?       ?       ?       1  19
+SPT  O1P   .  O  0  ?       ?       ?       1  20
+SPT  O2P   .  O  0  ?       ?       ?       1  21
+SPT  3HOP  .  H  0  ?       ?       ?       0  22
+SPT  2HOP  .  H  0  ?       ?       ?       0  23
+SPT  1H5*  .  H  0  ?       ?       ?       0  24
+SPT  2H5*  .  H  0  ?       ?       ?       0  25
+SPT  H4*   .  H  0  ?       ?       ?       1  26
+SPT  H3*   .  H  0  ?       ?       ?       1  27
+SPT  1H2*  .  H  0  ?       ?       ?       0  28
+SPT  2H2*  .  H  0  ?       ?       ?       0  29
+SPT  H1*   .  H  0  ?       ?       ?       1  30
+SPT  H3    .  H  0  ?       ?       ?       1  31
+SPT  1H5M  .  H  0  ?       ?       ?       0  32
+SPT  2H5M  .  H  0  ?       ?       ?       0  33
+SPT  3H5M  .  H  0  ?       ?       ?       0  34
+SPT  H6    .  H  0  ?       ?       ?       1  35
+SPT  H3T   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPT  S5*  C5*   SING  1 
+SPT  S5*  P     SING  2 
+SPT  N1   C6    SING  3 
+SPT  N1   C2    SING  4 
+SPT  N1   C1*   SING  5 
+SPT  C6   C5    DOUB  6 
+SPT  C6   H6    SING  7 
+SPT  C2   O2    DOUB  8 
+SPT  C2   N3    SING  9 
+SPT  N3   C4    SING  10
+SPT  N3   H3    SING  11
+SPT  C4   O4    DOUB  12
+SPT  C4   C5    SING  13
+SPT  C5   C5M   SING  14
+SPT  C5M  1H5M  SING  15
+SPT  C5M  2H5M  SING  16
+SPT  C5M  3H5M  SING  17
+SPT  C2*  C1*   SING  18
+SPT  C2*  C3*   SING  19
+SPT  C2*  1H2*  SING  20
+SPT  C2*  2H2*  SING  21
+SPT  C5*  C4*   SING  22
+SPT  C5*  1H5*  SING  23
+SPT  C5*  2H5*  SING  24
+SPT  C4*  O4*   SING  25
+SPT  C4*  C3*   SING  26
+SPT  C4*  H4*   SING  27
+SPT  O4*  C1*   SING  28
+SPT  C1*  H1*   SING  29
+SPT  C3*  O3*   SING  30
+SPT  C3*  H3*   SING  31
+SPT  O3*  H3T   SING  32
+SPT  O3P  P     SING  33
+SPT  O3P  3HOP  SING  34
+SPT  P    O1P   DOUB  35
+SPT  P    O2P   SING  36
+SPT  O2P  2HOP  SING  37
+#

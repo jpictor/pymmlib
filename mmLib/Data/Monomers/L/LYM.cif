@@ -1,0 +1,83 @@
+data_LYM
+#
+_chem_comp.id                       LYM
+_chem_comp.name                     DEOXY-METHYL-LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N2 O1'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            144.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LYM  N    .  N  0  ?  ?  ?  1  1 
+LYM  CA   .  C  0  ?  ?  ?  1  2 
+LYM  C    .  C  0  ?  ?  ?  1  3 
+LYM  O    .  O  0  ?  ?  ?  1  4 
+LYM  CB   .  C  0  ?  ?  ?  1  5 
+LYM  CG   .  C  0  ?  ?  ?  1  6 
+LYM  CD   .  C  0  ?  ?  ?  1  7 
+LYM  CE   .  C  0  ?  ?  ?  1  8 
+LYM  NZ   .  N  0  ?  ?  ?  1  9 
+LYM  CM   .  C  0  ?  ?  ?  1  10
+LYM  1HN  .  H  0  ?  ?  ?  0  11
+LYM  2HN  .  H  0  ?  ?  ?  0  12
+LYM  HA   .  H  0  ?  ?  ?  1  13
+LYM  1HB  .  H  0  ?  ?  ?  0  14
+LYM  2HB  .  H  0  ?  ?  ?  0  15
+LYM  1HG  .  H  0  ?  ?  ?  0  16
+LYM  2HG  .  H  0  ?  ?  ?  0  17
+LYM  1HD  .  H  0  ?  ?  ?  0  18
+LYM  2HD  .  H  0  ?  ?  ?  0  19
+LYM  1HE  .  H  0  ?  ?  ?  0  20
+LYM  2HE  .  H  0  ?  ?  ?  0  21
+LYM  1HZ  .  H  0  ?  ?  ?  0  22
+LYM  2HZ  .  H  0  ?  ?  ?  0  23
+LYM  1HM  .  H  0  ?  ?  ?  0  24
+LYM  2HM  .  H  0  ?  ?  ?  0  25
+LYM  3HM  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LYM  N   CA   SING  1 
+LYM  N   1HN  SING  2 
+LYM  N   2HN  SING  3 
+LYM  CA  C    SING  4 
+LYM  CA  CB   SING  5 
+LYM  CA  HA   SING  6 
+LYM  C   O    DOUB  7 
+LYM  C   CM   SING  8 
+LYM  CB  CG   SING  9 
+LYM  CB  1HB  SING  10
+LYM  CB  2HB  SING  11
+LYM  CG  CD   SING  12
+LYM  CG  1HG  SING  13
+LYM  CG  2HG  SING  14
+LYM  CD  CE   SING  15
+LYM  CD  1HD  SING  16
+LYM  CD  2HD  SING  17
+LYM  CE  NZ   SING  18
+LYM  CE  1HE  SING  19
+LYM  CE  2HE  SING  20
+LYM  NZ  1HZ  SING  21
+LYM  NZ  2HZ  SING  22
+LYM  CM  1HM  SING  23
+LYM  CM  2HM  SING  24
+LYM  CM  3HM  SING  25
+#

@@ -1,0 +1,96 @@
+data_IN2
+#
+_chem_comp.id                   IN2
+_chem_comp.name                 N,N-DIMETHYLCARBAMOYL-ALPHA-AZALYSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        218.255
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IN2  N1    .  N  0  ?  ?  ?  1  1 
+IN2  C2    .  C  0  ?  ?  ?  1  2 
+IN2  C3    .  C  0  ?  ?  ?  1  3 
+IN2  C4    .  C  0  ?  ?  ?  1  4 
+IN2  C5    .  C  0  ?  ?  ?  1  5 
+IN2  N6    .  N  0  ?  ?  ?  1  6 
+IN2  N7    .  N  0  ?  ?  ?  1  7 
+IN2  C8    .  C  0  ?  ?  ?  1  8 
+IN2  O8    .  O  0  ?  ?  ?  1  9 
+IN2  N9    .  N  0  ?  ?  ?  1  10
+IN2  C10   .  C  0  ?  ?  ?  1  11
+IN2  C11   .  C  0  ?  ?  ?  1  12
+IN2  C12   .  C  0  ?  ?  ?  1  13
+IN2  O1    .  O  0  ?  ?  ?  1  14
+IN2  O2    .  O  0  ?  ?  ?  1  15
+IN2  1HN1  .  H  0  ?  ?  ?  0  16
+IN2  2HN1  .  H  0  ?  ?  ?  0  17
+IN2  1H2   .  H  0  ?  ?  ?  0  18
+IN2  2H2   .  H  0  ?  ?  ?  0  19
+IN2  1H3   .  H  0  ?  ?  ?  0  20
+IN2  2H3   .  H  0  ?  ?  ?  0  21
+IN2  1H4   .  H  0  ?  ?  ?  0  22
+IN2  2H4   .  H  0  ?  ?  ?  0  23
+IN2  1H5   .  H  0  ?  ?  ?  0  24
+IN2  2H5   .  H  0  ?  ?  ?  0  25
+IN2  HN7   .  H  0  ?  ?  ?  1  26
+IN2  1H10  .  H  0  ?  ?  ?  0  27
+IN2  2H10  .  H  0  ?  ?  ?  0  28
+IN2  3H10  .  H  0  ?  ?  ?  0  29
+IN2  1H11  .  H  0  ?  ?  ?  0  30
+IN2  2H11  .  H  0  ?  ?  ?  0  31
+IN2  3H11  .  H  0  ?  ?  ?  0  32
+IN2  HO2   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IN2  N1   C2    SING  1 
+IN2  N1   1HN1  SING  2 
+IN2  N1   2HN1  SING  3 
+IN2  C2   C3    SING  4 
+IN2  C2   1H2   SING  5 
+IN2  C2   2H2   SING  6 
+IN2  C3   C4    SING  7 
+IN2  C3   1H3   SING  8 
+IN2  C3   2H3   SING  9 
+IN2  C4   C5    SING  10
+IN2  C4   1H4   SING  11
+IN2  C4   2H4   SING  12
+IN2  C5   N6    SING  13
+IN2  C5   1H5   SING  14
+IN2  C5   2H5   SING  15
+IN2  N6   N7    SING  16
+IN2  N6   C12   SING  17
+IN2  N7   C8    SING  18
+IN2  N7   HN7   SING  19
+IN2  C8   N9    SING  20
+IN2  C8   O8    DOUB  21
+IN2  N9   C10   SING  22
+IN2  N9   C11   SING  23
+IN2  C10  1H10  SING  24
+IN2  C10  2H10  SING  25
+IN2  C10  3H10  SING  26
+IN2  C11  1H11  SING  27
+IN2  C11  2H11  SING  28
+IN2  C11  3H11  SING  29
+IN2  C12  O1    DOUB  30
+IN2  C12  O2    SING  31
+IN2  O2   HO2   SING  32
+#

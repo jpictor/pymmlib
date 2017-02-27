@@ -1,0 +1,67 @@
+data_SCH
+#
+_chem_comp.id                       SCH
+_chem_comp.name                     'S-METHYL THIOCYSTEINE GROUP'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O2 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            167.241
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SCH  N    .  N  0  ?  ?  ?  1  1 
+SCH  CA   .  C  0  ?  ?  ?  1  2 
+SCH  CB   .  C  0  ?  ?  ?  1  3 
+SCH  SG   .  S  0  ?  ?  ?  1  4 
+SCH  SD   .  S  0  ?  ?  ?  1  5 
+SCH  CE   .  C  0  ?  ?  ?  1  6 
+SCH  C    .  C  0  ?  ?  ?  1  7 
+SCH  O    .  O  0  ?  ?  ?  1  8 
+SCH  OXT  .  O  0  ?  ?  ?  1  9 
+SCH  H    .  H  0  ?  ?  ?  1  10
+SCH  HN   .  H  0  ?  ?  ?  1  11
+SCH  HA   .  H  0  ?  ?  ?  1  12
+SCH  1HB  .  H  0  ?  ?  ?  0  13
+SCH  2HB  .  H  0  ?  ?  ?  0  14
+SCH  1HE  .  H  0  ?  ?  ?  0  15
+SCH  2HE  .  H  0  ?  ?  ?  0  16
+SCH  3HE  .  H  0  ?  ?  ?  0  17
+SCH  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SCH  N    CA   SING  1 
+SCH  N    H    SING  2 
+SCH  N    HN   SING  3 
+SCH  CA   CB   SING  4 
+SCH  CA   C    SING  5 
+SCH  CA   HA   SING  6 
+SCH  CB   SG   SING  7 
+SCH  CB   1HB  SING  8 
+SCH  CB   2HB  SING  9 
+SCH  SG   SD   SING  10
+SCH  SD   CE   SING  11
+SCH  CE   1HE  SING  12
+SCH  CE   2HE  SING  13
+SCH  CE   3HE  SING  14
+SCH  C    O    DOUB  15
+SCH  C    OXT  SING  16
+SCH  OXT  HXT  SING  17
+#

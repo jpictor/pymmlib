@@ -1,0 +1,129 @@
+data_PFD
+#
+_chem_comp.id                   PFD
+_chem_comp.name                 5-(2-ETHOXYETHYL)-5-[4-(4-FLUOROPHENOXY)PHENOXY]PYRIMIDINE-2,4,6(1H,3H,5H)-TRIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H19 N2 O6 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        402.378
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PFD  F29   .  F  0  69.660  55.552  24.989  1  1 
+PFD  C28   .  C  0  68.531  55.801  24.348  1  2 
+PFD  C26   .  C  0  68.276  57.077  23.863  1  3 
+PFD  C24   .  C  0  67.086  57.279  23.180  1  4 
+PFD  C27   .  C  0  67.638  54.748  24.186  1  5 
+PFD  C25   .  C  0  66.446  54.972  23.510  1  6 
+PFD  C23   .  C  0  66.180  56.233  23.012  1  7 
+PFD  O22   .  O  0  65.010  56.464  22.345  1  8 
+PFD  C20   .  C  0  63.779  56.291  22.913  1  9 
+PFD  C16   .  C  0  63.645  56.167  24.304  1  10
+PFD  C12   .  C  0  62.350  55.986  24.845  1  11
+PFD  C17   .  C  0  62.639  56.227  22.091  1  12
+PFD  C13   .  C  0  61.360  56.056  22.662  1  13
+PFD  C6    .  C  0  61.173  55.920  24.065  1  14
+PFD  O2    .  O  0  59.893  55.686  24.674  1  15
+PFD  C1    .  C  0  58.917  54.657  24.208  1  16
+PFD  C5    .  C  0  57.753  54.232  25.150  1  17
+PFD  C11   .  C  0  57.319  55.239  26.219  1  18
+PFD  O15   .  O  0  56.780  54.619  27.399  1  19
+PFD  C19   .  C  0  57.323  55.125  28.648  1  20
+PFD  C21   .  C  0  57.311  54.090  29.773  1  21
+PFD  C4    .  C  0  59.548  53.310  23.871  1  22
+PFD  O10   .  O  0  60.088  52.617  24.751  1  23
+PFD  N9    .  N  0  59.522  52.792  22.608  1  24
+PFD  C14   .  C  0  58.910  53.450  21.618  1  25
+PFD  O18   .  O  0  58.921  52.907  20.397  1  26
+PFD  N7    .  N  0  58.354  54.643  21.784  1  27
+PFD  C3    .  C  0  58.300  55.257  22.965  1  28
+PFD  O8    .  O  0  57.724  56.358  23.027  1  29
+PFD  HN9   .  H  0  ?       ?       ?       1  30
+PFD  HN7   .  H  0  ?       ?       ?       1  31
+PFD  H13   .  H  0  ?       ?       ?       1  32
+PFD  H17   .  H  0  ?       ?       ?       1  33
+PFD  H25   .  H  0  ?       ?       ?       1  34
+PFD  H27   .  H  0  ?       ?       ?       1  35
+PFD  H26   .  H  0  ?       ?       ?       1  36
+PFD  H24   .  H  0  ?       ?       ?       1  37
+PFD  H16   .  H  0  ?       ?       ?       1  38
+PFD  H12   .  H  0  ?       ?       ?       1  39
+PFD  1H5   .  H  0  ?       ?       ?       0  40
+PFD  2H5   .  H  0  ?       ?       ?       0  41
+PFD  1H11  .  H  0  ?       ?       ?       0  42
+PFD  2H11  .  H  0  ?       ?       ?       0  43
+PFD  1H19  .  H  0  ?       ?       ?       0  44
+PFD  2H19  .  H  0  ?       ?       ?       0  45
+PFD  1H21  .  H  0  ?       ?       ?       0  46
+PFD  2H21  .  H  0  ?       ?       ?       0  47
+PFD  3H21  .  H  0  ?       ?       ?       0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PFD  F29  C28   SING  1 
+PFD  C28  C27   AROM  2 
+PFD  C28  C26   AROM  3 
+PFD  C26  H26   SING  4 
+PFD  C26  C24   AROM  5 
+PFD  C24  C23   AROM  6 
+PFD  C24  H24   SING  7 
+PFD  C27  C25   AROM  8 
+PFD  C27  H27   SING  9 
+PFD  C25  C23   AROM  10
+PFD  C25  H25   SING  11
+PFD  C23  O22   SING  12
+PFD  O22  C20   SING  13
+PFD  C20  C17   AROM  14
+PFD  C20  C16   AROM  15
+PFD  C16  H16   SING  16
+PFD  C16  C12   AROM  17
+PFD  C12  C6    AROM  18
+PFD  C12  H12   SING  19
+PFD  C17  C13   AROM  20
+PFD  C17  H17   SING  21
+PFD  C13  C6    AROM  22
+PFD  C13  H13   SING  23
+PFD  C6   O2    SING  24
+PFD  O2   C1    SING  25
+PFD  C1   C3    SING  26
+PFD  C1   C4    SING  27
+PFD  C1   C5    SING  28
+PFD  C5   1H5   SING  29
+PFD  C5   2H5   SING  30
+PFD  C5   C11   SING  31
+PFD  C11  1H11  SING  32
+PFD  C11  2H11  SING  33
+PFD  C11  O15   SING  34
+PFD  O15  C19   SING  35
+PFD  C19  1H19  SING  36
+PFD  C19  2H19  SING  37
+PFD  C19  C21   SING  38
+PFD  C21  1H21  SING  39
+PFD  C21  2H21  SING  40
+PFD  C21  3H21  SING  41
+PFD  C4   N9    SING  42
+PFD  C4   O10   DOUB  43
+PFD  N9   HN9   SING  44
+PFD  N9   C14   SING  45
+PFD  C14  O18   DOUB  46
+PFD  C14  N7    SING  47
+PFD  N7   HN7   SING  48
+PFD  N7   C3    SING  49
+PFD  C3   O8    DOUB  50
+#

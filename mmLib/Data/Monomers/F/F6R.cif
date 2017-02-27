@@ -1,0 +1,84 @@
+data_F6R
+#
+_chem_comp.id                   F6R
+_chem_comp.name                 'FRUCTOSE -6-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        258.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+F6R  C1    .  C  0  29.336  19.668  -18.878  1  1 
+F6R  C2    .  C  0  28.244  19.447  -19.906  1  2 
+F6R  C3    .  C  0  28.347  19.777  -21.401  1  3 
+F6R  C4    .  C  0  29.519  20.716  -21.75   1  4 
+F6R  C5    .  C  0  29.6    21.066  -23.227  1  5 
+F6R  C6    .  C  0  30.804  21.951  -23.529  1  6 
+F6R  O1    .  O  0  29.109  18.907  -17.676  1  7 
+F6R  O2    .  O  0  27.191  19.018  -19.488  1  8 
+F6R  O3    .  O  0  27.17   20.462  -21.791  1  9 
+F6R  O4    .  O  0  29.371  21.912  -20.992  1  10
+F6R  O5    .  O  0  29.621  19.904  -24.047  1  11
+F6R  O6    .  O  0  31.999  21.193  -23.286  1  12
+F6R  P     .  P  0  33.407  21.943  -23.288  1  13
+F6R  O1P   .  O  0  33.429  22.82   -22.066  1  14
+F6R  O2P   .  O  0  33.436  22.769  -24.546  1  15
+F6R  O3P   .  O  0  34.458  20.882  -23.236  1  16
+F6R  1H1C  .  H  0  29.465  20.752  -18.652  0  17
+F6R  2H1C  .  H  0  30.343  19.456  -19.306  0  18
+F6R  H1    .  H  0  29.793  19.045  -17.032  1  19
+F6R  H3    .  H  0  28.44   18.832  -21.986  1  20
+F6R  H4    .  H  0  30.472  20.221  -21.45   1  21
+F6R  HA    .  H  0  27.234  20.666  -22.717  1  22
+F6R  H5    .  H  0  28.683  21.645  -23.487  1  23
+F6R  HB    .  H  0  30.093  22.491  -21.207  1  24
+F6R  1H6C  .  H  0  30.783  22.91   -22.961  0  25
+F6R  2H6C  .  H  0  30.772  22.381  -24.557  0  26
+F6R  HC    .  H  0  29.672  20.123  -24.97   1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+F6R  C1  C2    SING  1 
+F6R  C1  O1    SING  2 
+F6R  C1  1H1C  SING  3 
+F6R  C1  2H1C  SING  4 
+F6R  C2  C3    SING  5 
+F6R  C2  O2    DOUB  6 
+F6R  C3  C4    SING  7 
+F6R  C3  O3    SING  8 
+F6R  C3  H3    SING  9 
+F6R  C4  C5    SING  10
+F6R  C4  O4    SING  11
+F6R  C4  H4    SING  12
+F6R  C5  C6    SING  13
+F6R  C5  O5    SING  14
+F6R  C5  H5    SING  15
+F6R  C6  O6    SING  16
+F6R  C6  1H6C  SING  17
+F6R  C6  2H6C  SING  18
+F6R  O1  H1    SING  19
+F6R  O3  HA    SING  20
+F6R  O4  HB    SING  21
+F6R  O5  HC    SING  22
+F6R  O6  P     SING  23
+F6R  P   O1P   SING  24
+F6R  P   O2P   SING  25
+F6R  P   O3P   DOUB  26
+#

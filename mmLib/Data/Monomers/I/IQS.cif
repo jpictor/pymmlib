@@ -1,0 +1,99 @@
+data_IQS
+#
+_chem_comp.id                   IQS
+_chem_comp.name                 N-[2-(METHYLAMINO)ETHYL]-5-ISOQUINOLINESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N3 O2 S1'
+_chem_comp.pdbx_synonyms        H-8
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        265.329
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IQS  C1    .  C  0  ?  ?  ?  1  1 
+IQS  C2    .  C  0  ?  ?  ?  1  2 
+IQS  C3    .  C  0  ?  ?  ?  1  3 
+IQS  C4    .  C  0  ?  ?  ?  1  4 
+IQS  C5    .  C  0  ?  ?  ?  1  5 
+IQS  C6    .  C  0  ?  ?  ?  1  6 
+IQS  N7    .  N  0  ?  ?  ?  1  7 
+IQS  C8    .  C  0  ?  ?  ?  1  8 
+IQS  C9    .  C  0  ?  ?  ?  1  9 
+IQS  C10   .  C  0  ?  ?  ?  1  10
+IQS  S     .  S  0  ?  ?  ?  1  11
+IQS  O1    .  O  0  ?  ?  ?  1  12
+IQS  O2    .  O  0  ?  ?  ?  1  13
+IQS  N1'   .  N  0  ?  ?  ?  1  14
+IQS  C2'   .  C  0  ?  ?  ?  1  15
+IQS  C3'   .  C  0  ?  ?  ?  1  16
+IQS  N4'   .  N  0  ?  ?  ?  1  17
+IQS  C5'   .  C  0  ?  ?  ?  1  18
+IQS  H2    .  H  0  ?  ?  ?  1  19
+IQS  H3    .  H  0  ?  ?  ?  1  20
+IQS  H4    .  H  0  ?  ?  ?  1  21
+IQS  H6    .  H  0  ?  ?  ?  1  22
+IQS  H8    .  H  0  ?  ?  ?  1  23
+IQS  H9    .  H  0  ?  ?  ?  1  24
+IQS  HN1   .  H  0  ?  ?  ?  1  25
+IQS  1H2'  .  H  0  ?  ?  ?  0  26
+IQS  2H2'  .  H  0  ?  ?  ?  0  27
+IQS  1H3'  .  H  0  ?  ?  ?  0  28
+IQS  2H3'  .  H  0  ?  ?  ?  0  29
+IQS  HN4   .  H  0  ?  ?  ?  1  30
+IQS  1H5'  .  H  0  ?  ?  ?  0  31
+IQS  2H5'  .  H  0  ?  ?  ?  0  32
+IQS  3H5'  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IQS  C1   C2    DOUB  1 
+IQS  C1   C10   SING  2 
+IQS  C1   S     SING  3 
+IQS  C2   C3    SING  4 
+IQS  C2   H2    SING  5 
+IQS  C3   C4    DOUB  6 
+IQS  C3   H3    SING  7 
+IQS  C4   C5    SING  8 
+IQS  C4   H4    SING  9 
+IQS  C5   C6    SING  10
+IQS  C5   C10   DOUB  11
+IQS  C6   N7    DOUB  12
+IQS  C6   H6    SING  13
+IQS  N7   C8    SING  14
+IQS  C8   C9    DOUB  15
+IQS  C8   H8    SING  16
+IQS  C9   C10   SING  17
+IQS  C9   H9    SING  18
+IQS  S    N1'   SING  19
+IQS  S    O1    DOUB  20
+IQS  S    O2    DOUB  21
+IQS  N1'  C2'   SING  22
+IQS  N1'  HN1   SING  23
+IQS  C2'  C3'   SING  24
+IQS  C2'  1H2'  SING  25
+IQS  C2'  2H2'  SING  26
+IQS  C3'  N4'   SING  27
+IQS  C3'  1H3'  SING  28
+IQS  C3'  2H3'  SING  29
+IQS  N4'  C5'   SING  30
+IQS  N4'  HN4   SING  31
+IQS  C5'  1H5'  SING  32
+IQS  C5'  2H5'  SING  33
+IQS  C5'  3H5'  SING  34
+#

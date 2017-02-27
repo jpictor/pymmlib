@@ -1,0 +1,87 @@
+data_6CL
+#
+_chem_comp.id                       6CL
+_chem_comp.name                     6-CARBOXYLYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           191.206
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+6CL  N    .  N  0  149.803  6.051  -13.059  1  1 
+6CL  CA   .  C  0  151.256  6.006  -13.191  1  2 
+6CL  CB   .  C  0  151.888  5.850  -11.810  1  3 
+6CL  CG   .  C  0  153.220  6.564  -11.666  1  4 
+6CL  CD   .  C  0  154.269  5.667  -11.028  1  5 
+6CL  CE   .  C  0  155.524  5.582  -11.884  1  6 
+6CL  CZ   .  C  0  156.658  4.918  -11.129  1  7 
+6CL  OH1  .  O  0  156.782  5.160  -9.910   1  8 
+6CL  OH2  .  O  0  157.423  4.156  -11.755  1  9 
+6CL  NZ   .  N  1  155.934  6.932  -12.370  1  10
+6CL  C    .  C  0  151.689  4.843  -14.081  1  11
+6CL  O    .  O  0  152.873  4.689  -14.381  1  12
+6CL  OXT  .  O  0  ?        ?      ?        1  13
+6CL  HN2  .  H  0  149.370  5.338  -12.542  1  14
+6CL  HA   .  H  0  151.594  6.933  -13.630  1  15
+6CL  HB1  .  H  0  152.044  4.798  -11.617  1  16
+6CL  HB2  .  H  0  151.208  6.244  -11.070  1  17
+6CL  HG1  .  H  0  153.083  7.439  -11.047  1  18
+6CL  HG2  .  H  0  153.563  6.863  -12.645  1  19
+6CL  HD1  .  H  0  153.859  4.673  -10.908  1  20
+6CL  HD2  .  H  0  154.532  6.068  -10.061  1  21
+6CL  HE   .  H  0  155.300  4.972  -12.749  1  22
+6CL  HZ1  .  H  0  155.389  7.671  -11.884  1  23
+6CL  HZ2  .  H  0  155.765  7.009  -13.392  1  24
+6CL  HZ3  .  H  0  156.946  7.087  -12.186  1  25
+6CL  H    .  H  0  ?        ?      ?        1  26
+6CL  HXT  .  H  0  ?        ?      ?        1  27
+6CL  HH2  .  H  0  ?        ?      ?        1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+6CL  N    HN2  SING  1 
+6CL  N    CA   SING  2 
+6CL  N    H    SING  3 
+6CL  CA   HA   SING  4 
+6CL  CA   C    SING  5 
+6CL  CA   CB   SING  6 
+6CL  CB   HB1  SING  7 
+6CL  CB   HB2  SING  8 
+6CL  CB   CG   SING  9 
+6CL  CG   HG1  SING  10
+6CL  CG   HG2  SING  11
+6CL  CG   CD   SING  12
+6CL  CD   HD1  SING  13
+6CL  CD   HD2  SING  14
+6CL  CD   CE   SING  15
+6CL  CE   HE   SING  16
+6CL  CE   CZ   SING  17
+6CL  CE   NZ   SING  18
+6CL  CZ   OH1  DOUB  19
+6CL  CZ   OH2  SING  20
+6CL  OH2  HH2  SING  21
+6CL  NZ   HZ1  SING  22
+6CL  NZ   HZ2  SING  23
+6CL  NZ   HZ3  SING  24
+6CL  C    OXT  SING  25
+6CL  C    O    DOUB  26
+6CL  OXT  HXT  SING  27
+#

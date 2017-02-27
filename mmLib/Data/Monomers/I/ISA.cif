@@ -1,0 +1,76 @@
+data_ISA
+#
+_chem_comp.id                   ISA
+_chem_comp.name                 '3-(4-IODO-PHENYL)-2-MERCAPTO-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H9 O2 I1 S1'
+_chem_comp.pdbx_synonyms        PD150606
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISA  I    .  I  0  ?  ?  ?  1  1 
+ISA  CZ   .  C  0  ?  ?  ?  1  2 
+ISA  CE1  .  C  0  ?  ?  ?  1  3 
+ISA  CD1  .  C  0  ?  ?  ?  1  4 
+ISA  CE2  .  C  0  ?  ?  ?  1  5 
+ISA  CD2  .  C  0  ?  ?  ?  1  6 
+ISA  CG   .  C  0  ?  ?  ?  1  7 
+ISA  C4   .  C  0  ?  ?  ?  1  8 
+ISA  C3   .  C  0  ?  ?  ?  1  9 
+ISA  S3   .  S  0  ?  ?  ?  1  10
+ISA  C2   .  C  0  ?  ?  ?  1  11
+ISA  O3   .  O  0  ?  ?  ?  1  12
+ISA  O2   .  O  0  ?  ?  ?  1  13
+ISA  HE1  .  H  0  ?  ?  ?  1  14
+ISA  HD1  .  H  0  ?  ?  ?  1  15
+ISA  HE2  .  H  0  ?  ?  ?  1  16
+ISA  HD2  .  H  0  ?  ?  ?  1  17
+ISA  1H4  .  H  0  ?  ?  ?  0  18
+ISA  2H4  .  H  0  ?  ?  ?  0  19
+ISA  H3   .  H  0  ?  ?  ?  1  20
+ISA  HS3  .  H  0  ?  ?  ?  1  21
+ISA  HO2  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISA  I    CZ   SING  1 
+ISA  CZ   CE1  DOUB  2 
+ISA  CZ   CE2  SING  3 
+ISA  CE1  CD1  SING  4 
+ISA  CE1  HE1  SING  5 
+ISA  CD1  CG   DOUB  6 
+ISA  CD1  HD1  SING  7 
+ISA  CE2  CD2  DOUB  8 
+ISA  CE2  HE2  SING  9 
+ISA  CD2  CG   SING  10
+ISA  CD2  HD2  SING  11
+ISA  CG   C4   SING  12
+ISA  C4   C3   SING  13
+ISA  C4   1H4  SING  14
+ISA  C4   2H4  SING  15
+ISA  C3   S3   SING  16
+ISA  C3   C2   SING  17
+ISA  C3   H3   SING  18
+ISA  S3   HS3  SING  19
+ISA  C2   O3   DOUB  20
+ISA  C2   O2   SING  21
+ISA  O2   HO2  SING  22
+#

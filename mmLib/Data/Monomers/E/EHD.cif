@@ -1,0 +1,120 @@
+data_EHD
+#
+_chem_comp.id                   EHD
+_chem_comp.name                 4-ETHYL-4-HYDROXY-1,12-DIHYDRO-4H-2-OXA-6,12A-DIAZA-DIBENZO[B,H]FLUORENE-3,13-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H16 N2 O4'
+_chem_comp.pdbx_synonyms        CAMPTOTHECIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        348.357
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EHD  O18   .  O  0  24.984  -1.052  27.920  1  1 
+EHD  C14   .  C  0  23.664  -1.156  27.930  1  2 
+EHD  C15   .  C  0  22.902  -0.060  28.019  1  3 
+EHD  C19   .  C  0  23.702  1.194   28.082  1  4 
+EHD  O22   .  O  0  22.996  2.190   27.295  1  5 
+EHD  C20   .  C  0  21.625  2.242   27.242  1  6 
+EHD  O23   .  O  0  21.046  3.088   26.432  1  7 
+EHD  C16   .  C  0  21.499  -0.029  28.042  1  8 
+EHD  C17   .  C  0  20.921  -1.296  27.956  1  9 
+EHD  C21   .  C  0  20.814  1.295   28.123  1  10
+EHD  O24   .  O  0  19.591  1.191   27.621  1  11
+EHD  C25   .  C  0  20.710  1.902   29.536  1  12
+EHD  C31   .  C  0  19.203  1.899   30.032  1  13
+EHD  N12   .  N  0  23.032  -2.366  27.865  1  14
+EHD  C11   .  C  0  23.742  -3.614  27.788  1  15
+EHD  C8    .  C  0  22.578  -4.542  27.735  1  16
+EHD  C7    .  C  0  22.485  -5.862  27.646  1  17
+EHD  C6    .  C  0  21.223  -6.500  27.609  1  18
+EHD  C5    .  C  0  20.069  -5.680  27.654  1  19
+EHD  N10   .  N  0  20.134  -4.243  27.754  1  20
+EHD  C9    .  C  0  21.361  -3.752  27.790  1  21
+EHD  C13   .  C  0  21.718  -2.443  27.879  1  22
+EHD  C1    .  C  0  21.106  -7.895  27.550  1  23
+EHD  C2    .  C  0  19.873  -8.480  27.516  1  24
+EHD  C3    .  C  0  18.739  -7.664  27.579  1  25
+EHD  C4    .  C  0  18.849  -6.258  27.670  1  26
+EHD  H24   .  H  0  ?       ?       ?       1  27
+EHD  1H19  .  H  0  ?       ?       ?       0  28
+EHD  2H19  .  H  0  ?       ?       ?       0  29
+EHD  H17   .  H  0  ?       ?       ?       1  30
+EHD  1H11  .  H  0  ?       ?       ?       0  31
+EHD  2H11  .  H  0  ?       ?       ?       0  32
+EHD  H7    .  H  0  ?       ?       ?       1  33
+EHD  H1    .  H  0  ?       ?       ?       1  34
+EHD  H2    .  H  0  ?       ?       ?       1  35
+EHD  H3    .  H  0  ?       ?       ?       1  36
+EHD  H4    .  H  0  ?       ?       ?       1  37
+EHD  1H25  .  H  0  ?       ?       ?       0  38
+EHD  2H25  .  H  0  ?       ?       ?       0  39
+EHD  1H31  .  H  0  ?       ?       ?       0  40
+EHD  2H31  .  H  0  ?       ?       ?       0  41
+EHD  3H31  .  H  0  ?       ?       ?       0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EHD  O18  C14   DOUB  1 
+EHD  C14  N12   SING  2 
+EHD  C14  C15   SING  3 
+EHD  C15  C19   SING  4 
+EHD  C15  C16   DOUB  5 
+EHD  C19  O22   SING  6 
+EHD  C19  1H19  SING  7 
+EHD  C19  2H19  SING  8 
+EHD  O22  C20   SING  9 
+EHD  C20  C21   SING  10
+EHD  C20  O23   DOUB  11
+EHD  C16  C21   SING  12
+EHD  C16  C17   SING  13
+EHD  C17  H17   SING  14
+EHD  C17  C13   DOUB  15
+EHD  C21  O24   SING  16
+EHD  C21  C25   SING  17
+EHD  O24  H24   SING  18
+EHD  C25  1H25  SING  19
+EHD  C25  2H25  SING  20
+EHD  C25  C31   SING  21
+EHD  C31  1H31  SING  22
+EHD  C31  2H31  SING  23
+EHD  C31  3H31  SING  24
+EHD  N12  C13   SING  25
+EHD  N12  C11   SING  26
+EHD  C11  1H11  SING  27
+EHD  C11  2H11  SING  28
+EHD  C11  C8    SING  29
+EHD  C8   C7    DOUB  30
+EHD  C8   C9    SING  31
+EHD  C7   H7    SING  32
+EHD  C7   C6    SING  33
+EHD  C6   C1    DOUB  34
+EHD  C6   C5    SING  35
+EHD  C5   C4    DOUB  36
+EHD  C5   N10   SING  37
+EHD  N10  C9    DOUB  38
+EHD  C9   C13   SING  39
+EHD  C1   H1    SING  40
+EHD  C1   C2    SING  41
+EHD  C2   H2    SING  42
+EHD  C2   C3    DOUB  43
+EHD  C3   H3    SING  44
+EHD  C3   C4    SING  45
+EHD  C4   H4    SING  46
+#

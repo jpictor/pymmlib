@@ -1,0 +1,79 @@
+data_PPT
+#
+_chem_comp.id                   PPT
+_chem_comp.name                 '3-(P-TOLYL)PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.204
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPT  CA   .  C  0  ?  ?  ?  1  1 
+PPT  C    .  C  0  ?  ?  ?  1  2 
+PPT  OT1  .  O  0  ?  ?  ?  1  3 
+PPT  OT2  .  O  0  ?  ?  ?  1  4 
+PPT  CB   .  C  0  ?  ?  ?  1  5 
+PPT  CG   .  C  0  ?  ?  ?  1  6 
+PPT  CD1  .  C  0  ?  ?  ?  1  7 
+PPT  CD2  .  C  0  ?  ?  ?  1  8 
+PPT  CE1  .  C  0  ?  ?  ?  1  9 
+PPT  CE2  .  C  0  ?  ?  ?  1  10
+PPT  CZ   .  C  0  ?  ?  ?  1  11
+PPT  CH   .  C  0  ?  ?  ?  1  12
+PPT  1HA  .  H  0  ?  ?  ?  0  13
+PPT  2HA  .  H  0  ?  ?  ?  0  14
+PPT  HO2  .  H  0  ?  ?  ?  1  15
+PPT  1HB  .  H  0  ?  ?  ?  0  16
+PPT  2HB  .  H  0  ?  ?  ?  0  17
+PPT  1HH  .  H  0  ?  ?  ?  0  18
+PPT  2HH  .  H  0  ?  ?  ?  0  19
+PPT  3HH  .  H  0  ?  ?  ?  0  20
+PPT  HD1  .  H  0  ?  ?  ?  1  21
+PPT  HD2  .  H  0  ?  ?  ?  1  22
+PPT  HE1  .  H  0  ?  ?  ?  1  23
+PPT  HE2  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPT  CA   C    SING  1 
+PPT  CA   CB   SING  2 
+PPT  CA   1HA  SING  3 
+PPT  CA   2HA  SING  4 
+PPT  C    OT1  DOUB  5 
+PPT  C    OT2  SING  6 
+PPT  OT2  HO2  SING  7 
+PPT  CB   CG   SING  8 
+PPT  CB   1HB  SING  9 
+PPT  CB   2HB  SING  10
+PPT  CG   CD1  DOUB  11
+PPT  CG   CD2  SING  12
+PPT  CD1  CE1  SING  13
+PPT  CD1  HD1  SING  14
+PPT  CD2  CE2  DOUB  15
+PPT  CD2  HD2  SING  16
+PPT  CE1  CZ   DOUB  17
+PPT  CE1  HE1  SING  18
+PPT  CE2  CZ   SING  19
+PPT  CE2  HE2  SING  20
+PPT  CZ   CH   SING  21
+PPT  CH   1HH  SING  22
+PPT  CH   2HH  SING  23
+PPT  CH   3HH  SING  24
+#

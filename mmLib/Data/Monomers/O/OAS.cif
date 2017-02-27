@@ -1,0 +1,69 @@
+data_OAS
+#
+_chem_comp.id                       OAS
+_chem_comp.name                     O-ACETYLSERINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O4'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            147.130
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OAS  N     .  N  0  ?  ?  ?  1  1 
+OAS  CA    .  C  0  ?  ?  ?  1  2 
+OAS  CB    .  C  0  ?  ?  ?  1  3 
+OAS  OG    .  O  0  ?  ?  ?  1  4 
+OAS  C     .  C  0  ?  ?  ?  1  5 
+OAS  O     .  O  0  ?  ?  ?  1  6 
+OAS  C2A   .  C  0  ?  ?  ?  1  7 
+OAS  C1A   .  C  0  ?  ?  ?  1  8 
+OAS  OAC   .  O  0  ?  ?  ?  1  9 
+OAS  OXT   .  O  0  ?  ?  ?  1  10
+OAS  HN2   .  H  0  ?  ?  ?  1  11
+OAS  H     .  H  0  ?  ?  ?  1  12
+OAS  HA    .  H  0  ?  ?  ?  1  13
+OAS  HXT   .  H  0  ?  ?  ?  1  14
+OAS  1HB   .  H  0  ?  ?  ?  0  15
+OAS  2HB   .  H  0  ?  ?  ?  0  16
+OAS  1HC2  .  H  0  ?  ?  ?  0  17
+OAS  2HC2  .  H  0  ?  ?  ?  0  18
+OAS  3HC2  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OAS  N    CA    SING  1 
+OAS  N    H     SING  2 
+OAS  N    HN2   SING  3 
+OAS  CA   CB    SING  4 
+OAS  CA   C     SING  5 
+OAS  CA   HA    SING  6 
+OAS  CB   OG    SING  7 
+OAS  CB   1HB   SING  8 
+OAS  CB   2HB   SING  9 
+OAS  OG   C1A   SING  10
+OAS  C    O     DOUB  11
+OAS  C    OXT   SING  12
+OAS  C2A  C1A   SING  13
+OAS  C2A  1HC2  SING  14
+OAS  C2A  2HC2  SING  15
+OAS  C2A  3HC2  SING  16
+OAS  C1A  OAC   DOUB  17
+OAS  OXT  HXT   SING  18
+#

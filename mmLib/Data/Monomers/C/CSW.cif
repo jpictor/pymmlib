@@ -1,0 +1,87 @@
+data_CSW
+#
+_chem_comp.id                       CSW
+_chem_comp.name                     CYSTEINE-S-DIOXIDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O4 S1'
+_chem_comp.pdbx_synonyms            'CYSTEINE SULFINIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            153.153
+_chem_comp.formula_weight           ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+CSW  SMILES             N[C@@H](CS(=O)=O)C(O)=O                                            CACTVS   2.87 
+CSW  SMILES_CANNONICAL  NC(CS(=O)=O)C(O)=O                                                 CACTVS   2.87 
+CSW  INCHI              InChI=1/C3H7NO4S/c4-2(3(5)6)1-9(7)8/h2,9H,1,4H2,(H,5,6)/t2-/m0/s1  InChi    1    
+CSW  SMILES             C([C@@H](C(=O)O)N)S(=O)=O                                          OpenEye  1.3.4
+CSW  SMILES_CANNONICAL  C(C(C(=O)O)N)S(=O)=O                                               OpenEye  1.3.4
+#
+_pdbx_chem_comp_identifier.comp_id          CSW
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '(2R)-2-amino-3-sulfino-propanoic acid'
+_pdbx_chem_comp_identifier.program          Lexichem
+_pdbx_chem_comp_identifier.program_version  1.1
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+CSW  N    .  N  0  14.095      -0.586      37.447      1  N  N  N  1 
+CSW  CA   .  C  0  13.723      0.428       36.505      1  N  R  N  2 
+CSW  CB   .  C  0  12.454      0.007       35.765      1  N  N  N  3 
+CSW  SG   .  S  0  12.575      -1.67       35.003      1  N  N  N  4 
+CSW  C    .  C  0  13.654      1.789       37.287      1  N  N  N  5 
+CSW  O    .  O  0  14.278      2.757       36.851      1  N  N  N  6 
+CSW  OD1  .  O  0  12.432      -2.769      36.105      1  N  N  N  7 
+CSW  OD2  .  O  0  13.782      -1.714      34.013      1  N  N  N  8 
+CSW  OXT  .  O  0  12.889      1.86        38.423      1  N  N  Y  9 
+CSW  1HN  .  H  0  14.942      -0.305      37.94       0  N  N  N  10
+CSW  2HN  .  H  0  14.193      -1.5        37.006      0  N  N  N  11
+CSW  HA   .  H  0  14.47       0.57        35.689      1  N  N  N  12
+CSW  1HB  .  H  0  11.564      0.074       36.434      0  N  N  N  13
+CSW  2HB  .  H  0  12.169      0.768       35.002      0  N  N  N  14
+CSW  HS   .  H  0  123456.000  123456.000  123456.000  1  N  N  N  15
+CSW  HXT  .  H  0  12.847      2.682       38.895      1  N  N  N  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+CSW  N    CA   SING  N  N  1 
+CSW  N    1HN  SING  N  N  2 
+CSW  N    2HN  SING  N  N  3 
+CSW  CA   CB   SING  N  N  4 
+CSW  CA   C    SING  N  N  5 
+CSW  CA   HA   SING  N  N  6 
+CSW  CB   SG   SING  N  N  7 
+CSW  CB   1HB  SING  N  N  8 
+CSW  CB   2HB  SING  N  N  9 
+CSW  SG   OD1  DOUB  N  N  10
+CSW  SG   OD2  DOUB  N  N  11
+CSW  SG   HS   SING  N  N  12
+CSW  C    O    DOUB  N  N  13
+CSW  C    OXT  SING  N  N  14
+CSW  OXT  HXT  SING  N  N  15
+#

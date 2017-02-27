@@ -1,0 +1,104 @@
+data_EOB
+#
+_chem_comp.id                   EOB
+_chem_comp.name                 '{1,3-PHENYLENEBIS[IMINO(2-OXOETHANE-2,1-DIYL)]}BIS(PHOSPHONIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N2 O8 P2'
+_chem_comp.pdbx_synonyms        '2,2'-(1,3-PHENYLENEBIS(AZANEDIYL))BIS(2-OXOETHANE-2,1DIYL)DIPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        352.177
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EOB  OAF   .  O  0  69.454  55.253  47.980  1  1 
+EOB  PAU   .  P  0  70.496  54.174  48.572  1  2 
+EOB  OAE   .  O  0  70.580  52.980  47.493  1  3 
+EOB  OAC   .  O  0  71.818  54.763  48.889  1  4 
+EOB  CAM   .  C  0  69.681  53.451  50.019  1  5 
+EOB  CAQ   .  C  0  69.962  54.241  51.299  1  6 
+EOB  OAA   .  O  0  70.208  55.442  51.231  1  7 
+EOB  NAO   .  N  0  69.938  53.572  52.458  1  8 
+EOB  CAS   .  C  0  69.705  52.272  52.618  1  9 
+EOB  CAL   .  C  0  69.599  51.412  51.523  1  10
+EOB  CAJ   .  C  0  69.698  51.732  53.899  1  11
+EOB  CAI   .  C  0  69.595  50.358  54.082  1  12
+EOB  CAK   .  C  0  69.502  49.511  52.977  1  13
+EOB  CAT   .  C  0  69.505  50.033  51.688  1  14
+EOB  NAP   .  N  0  69.502  49.296  50.576  1  15
+EOB  CAR   .  C  0  69.413  47.974  50.462  1  16
+EOB  OAB   .  O  0  69.422  47.390  49.372  1  17
+EOB  CAN   .  C  0  69.274  47.162  51.750  1  18
+EOB  PAV   .  P  0  67.535  47.199  52.237  1  19
+EOB  OAH   .  O  0  67.255  48.630  52.917  1  20
+EOB  OAG   .  O  0  67.378  46.098  53.401  1  21
+EOB  OAD   .  O  0  66.644  46.964  51.071  1  22
+EOB  HAF   .  H  0  ?       ?       ?       1  23
+EOB  HAE   .  H  0  ?       ?       ?       1  24
+EOB  1HAM  .  H  0  ?       ?       ?       0  25
+EOB  2HAM  .  H  0  ?       ?       ?       0  26
+EOB  HAO   .  H  0  ?       ?       ?       1  27
+EOB  HAJ   .  H  0  ?       ?       ?       1  28
+EOB  HAI   .  H  0  ?       ?       ?       1  29
+EOB  HAK   .  H  0  ?       ?       ?       1  30
+EOB  HAP   .  H  0  ?       ?       ?       1  31
+EOB  1HAN  .  H  0  ?       ?       ?       0  32
+EOB  2HAN  .  H  0  ?       ?       ?       0  33
+EOB  HAH   .  H  0  ?       ?       ?       1  34
+EOB  HAG   .  H  0  ?       ?       ?       1  35
+EOB  HAL   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EOB  OAF  PAU   SING  1 
+EOB  OAF  HAF   SING  2 
+EOB  PAU  OAE   SING  3 
+EOB  PAU  OAC   DOUB  4 
+EOB  PAU  CAM   SING  5 
+EOB  OAE  HAE   SING  6 
+EOB  CAM  CAQ   SING  7 
+EOB  CAM  1HAM  SING  8 
+EOB  CAM  2HAM  SING  9 
+EOB  CAQ  OAA   DOUB  10
+EOB  CAQ  NAO   SING  11
+EOB  NAO  CAS   SING  12
+EOB  NAO  HAO   SING  13
+EOB  CAS  CAJ   DOUB  14
+EOB  CAS  CAL   SING  15
+EOB  CAL  CAT   DOUB  16
+EOB  CAL  HAL   SING  17
+EOB  CAJ  CAI   SING  18
+EOB  CAJ  HAJ   SING  19
+EOB  CAI  CAK   DOUB  20
+EOB  CAI  HAI   SING  21
+EOB  CAK  CAT   SING  22
+EOB  CAK  HAK   SING  23
+EOB  CAT  NAP   SING  24
+EOB  NAP  CAR   SING  25
+EOB  NAP  HAP   SING  26
+EOB  CAR  OAB   DOUB  27
+EOB  CAR  CAN   SING  28
+EOB  CAN  PAV   SING  29
+EOB  CAN  1HAN  SING  30
+EOB  CAN  2HAN  SING  31
+EOB  PAV  OAH   SING  32
+EOB  PAV  OAG   SING  33
+EOB  PAV  OAD   DOUB  34
+EOB  OAH  HAH   SING  35
+EOB  OAG  HAG   SING  36
+#

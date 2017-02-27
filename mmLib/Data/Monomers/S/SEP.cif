@@ -1,0 +1,70 @@
+data_SEP
+#
+_chem_comp.id                       SEP
+_chem_comp.name                     PHOSPHOSERINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H8 N1 O6 P1'
+_chem_comp.pdbx_synonyms            PHOSPHONOSERINE
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            185.073
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SEP  N     .  N  0  ?  ?  ?  1  1 
+SEP  CA    .  C  0  ?  ?  ?  1  2 
+SEP  CB    .  C  0  ?  ?  ?  1  3 
+SEP  OG    .  O  0  ?  ?  ?  1  4 
+SEP  C     .  C  0  ?  ?  ?  1  5 
+SEP  O     .  O  0  ?  ?  ?  1  6 
+SEP  OXT   .  O  0  ?  ?  ?  1  7 
+SEP  P     .  P  0  ?  ?  ?  1  8 
+SEP  O1P   .  O  0  ?  ?  ?  1  9 
+SEP  O2P   .  O  0  ?  ?  ?  1  10
+SEP  O3P   .  O  0  ?  ?  ?  1  11
+SEP  H     .  H  0  ?  ?  ?  1  12
+SEP  2HN   .  H  0  ?  ?  ?  0  13
+SEP  HA    .  H  0  ?  ?  ?  1  14
+SEP  1HB   .  H  0  ?  ?  ?  0  15
+SEP  2HB   .  H  0  ?  ?  ?  0  16
+SEP  HXT   .  H  0  ?  ?  ?  1  17
+SEP  2HOP  .  H  0  ?  ?  ?  0  18
+SEP  3HOP  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SEP  N    CA    SING  1 
+SEP  N    H     SING  2 
+SEP  N    2HN   SING  3 
+SEP  CA   CB    SING  4 
+SEP  CA   C     SING  5 
+SEP  CA   HA    SING  6 
+SEP  CB   OG    SING  7 
+SEP  CB   1HB   SING  8 
+SEP  CB   2HB   SING  9 
+SEP  OG   P     SING  10
+SEP  C    O     DOUB  11
+SEP  C    OXT   SING  12
+SEP  OXT  HXT   SING  13
+SEP  P    O1P   DOUB  14
+SEP  P    O2P   SING  15
+SEP  P    O3P   SING  16
+SEP  O2P  2HOP  SING  17
+SEP  O3P  3HOP  SING  18
+#

@@ -1,0 +1,120 @@
+data_TDP
+#
+_chem_comp.id                   TDP
+_chem_comp.name                 'THIAMIN DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N4 O7 P2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        424.304
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TDP  N1*   .  N  0   ?  ?  ?  1  1 
+TDP  C2*   .  C  0   ?  ?  ?  1  2 
+TDP  C2A   .  C  0   ?  ?  ?  1  3 
+TDP  N3*   .  N  0   ?  ?  ?  1  4 
+TDP  C4*   .  C  0   ?  ?  ?  1  5 
+TDP  N4*   .  N  0   ?  ?  ?  1  6 
+TDP  C5*   .  C  0   ?  ?  ?  1  7 
+TDP  C6*   .  C  0   ?  ?  ?  1  8 
+TDP  C35   .  C  0   ?  ?  ?  1  9 
+TDP  N3    .  N  1   ?  ?  ?  1  10
+TDP  C2    .  C  0   ?  ?  ?  1  11
+TDP  S1    .  S  0   ?  ?  ?  1  12
+TDP  C5    .  C  0   ?  ?  ?  1  13
+TDP  C4    .  C  0   ?  ?  ?  1  14
+TDP  C4A   .  C  0   ?  ?  ?  1  15
+TDP  C5A   .  C  0   ?  ?  ?  1  16
+TDP  C5B   .  C  0   ?  ?  ?  1  17
+TDP  O5G   .  O  0   ?  ?  ?  1  18
+TDP  P1    .  P  0   ?  ?  ?  1  19
+TDP  O11   .  O  0   ?  ?  ?  1  20
+TDP  O12   .  O  0   ?  ?  ?  1  21
+TDP  O13   .  O  0   ?  ?  ?  1  22
+TDP  P2    .  P  0   ?  ?  ?  1  23
+TDP  O21   .  O  0   ?  ?  ?  1  24
+TDP  O22   .  O  -1  ?  ?  ?  1  25
+TDP  O23   .  O  0   ?  ?  ?  1  26
+TDP  1H2A  .  H  0   ?  ?  ?  0  27
+TDP  2H2A  .  H  0   ?  ?  ?  0  28
+TDP  3H2A  .  H  0   ?  ?  ?  0  29
+TDP  1H4*  .  H  0   ?  ?  ?  0  30
+TDP  2H4*  .  H  0   ?  ?  ?  0  31
+TDP  H6*   .  H  0   ?  ?  ?  1  32
+TDP  1H35  .  H  0   ?  ?  ?  0  33
+TDP  2H35  .  H  0   ?  ?  ?  0  34
+TDP  H2    .  H  0   ?  ?  ?  1  35
+TDP  1H4A  .  H  0   ?  ?  ?  0  36
+TDP  2H4A  .  H  0   ?  ?  ?  0  37
+TDP  3H4A  .  H  0   ?  ?  ?  0  38
+TDP  1H5A  .  H  0   ?  ?  ?  0  39
+TDP  2H5A  .  H  0   ?  ?  ?  0  40
+TDP  1H5B  .  H  0   ?  ?  ?  0  41
+TDP  2H5B  .  H  0   ?  ?  ?  0  42
+TDP  H13   .  H  0   ?  ?  ?  1  43
+TDP  H23   .  H  0   ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TDP  N1*  C2*   DOUB  1 
+TDP  N1*  C6*   SING  2 
+TDP  C2*  C2A   SING  3 
+TDP  C2*  N3*   SING  4 
+TDP  C2A  1H2A  SING  5 
+TDP  C2A  2H2A  SING  6 
+TDP  C2A  3H2A  SING  7 
+TDP  N3*  C4*   DOUB  8 
+TDP  C4*  N4*   SING  9 
+TDP  C4*  C5*   SING  10
+TDP  N4*  1H4*  SING  11
+TDP  N4*  2H4*  SING  12
+TDP  C5*  C6*   DOUB  13
+TDP  C5*  C35   SING  14
+TDP  C6*  H6*   SING  15
+TDP  C35  N3    SING  16
+TDP  C35  1H35  SING  17
+TDP  C35  2H35  SING  18
+TDP  N3   C2    DOUB  19
+TDP  N3   C4    SING  20
+TDP  C2   S1    SING  21
+TDP  C2   H2    SING  22
+TDP  S1   C5    SING  23
+TDP  C5   C4    DOUB  24
+TDP  C5   C5A   SING  25
+TDP  C4   C4A   SING  26
+TDP  C4A  1H4A  SING  27
+TDP  C4A  2H4A  SING  28
+TDP  C4A  3H4A  SING  29
+TDP  C5A  C5B   SING  30
+TDP  C5A  1H5A  SING  31
+TDP  C5A  2H5A  SING  32
+TDP  C5B  O5G   SING  33
+TDP  C5B  1H5B  SING  34
+TDP  C5B  2H5B  SING  35
+TDP  O5G  P1    SING  36
+TDP  P1   O11   SING  37
+TDP  P1   O12   DOUB  38
+TDP  P1   O13   SING  39
+TDP  O11  P2    SING  40
+TDP  O13  H13   SING  41
+TDP  P2   O21   DOUB  42
+TDP  P2   O22   SING  43
+TDP  P2   O23   SING  44
+TDP  O23  H23   SING  45
+#

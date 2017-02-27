@@ -1,0 +1,114 @@
+data_MA7
+#
+_chem_comp.id                       MA7
+_chem_comp.name                     1N-METHYLADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N5 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           346.259
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MA7  C2    .  C  0  27.298  37.937  61.080  1  1 
+MA7  C4    .  C  0  27.082  38.726  63.124  1  2 
+MA7  C5    .  C  0  27.369  40.016  62.714  1  3 
+MA7  C6    .  C  0  27.627  40.210  61.347  1  4 
+MA7  C8    .  C  0  27.038  40.125  64.810  1  5 
+MA7  P     .  P  0  26.350  40.931  68.882  1  6 
+MA7  O1P   .  O  0  27.541  41.678  68.409  1  7 
+MA7  O2P   .  O  0  25.176  41.673  69.390  1  8 
+MA7  O5*   .  O  0  25.891  39.890  67.770  1  9 
+MA7  N9    .  N  0  26.853  38.806  64.479  1  10
+MA7  N3    .  N  0  27.031  37.627  62.346  1  11
+MA7  N1    .  N  1  27.582  39.128  60.544  1  12
+MA7  N6    .  N  0  27.918  41.396  60.806  1  13
+MA7  N7    .  N  0  27.342  40.890  63.791  1  14
+MA7  CN    .  C  0  27.853  39.266  59.088  1  15
+MA7  C2*   .  C  0  27.345  37.584  66.615  1  16
+MA7  C5*   .  C  0  24.818  38.983  68.008  1  17
+MA7  C4*   .  C  0  25.060  37.695  67.258  1  18
+MA7  O4*   .  O  0  25.160  37.994  65.847  1  19
+MA7  C1*   .  C  0  26.470  37.715  65.374  1  20
+MA7  C3*   .  C  0  26.372  37.010  67.630  1  21
+MA7  O3*   .  O  0  26.251  35.594  67.435  1  22
+MA7  O3P   .  O  0  ?       ?       ?       1  23
+MA7  1HN   .  H  0  ?       ?       ?       0  24
+MA7  2HN   .  H  0  ?       ?       ?       0  25
+MA7  3HN   .  H  0  ?       ?       ?       0  26
+MA7  H2    .  H  0  ?       ?       ?       1  27
+MA7  H8    .  H  0  ?       ?       ?       1  28
+MA7  H1*   .  H  0  ?       ?       ?       1  29
+MA7  1H2*  .  H  0  ?       ?       ?       0  30
+MA7  2H2*  .  H  0  ?       ?       ?       0  31
+MA7  H3*   .  H  0  ?       ?       ?       1  32
+MA7  H3T   .  H  0  ?       ?       ?       1  33
+MA7  H4*   .  H  0  ?       ?       ?       1  34
+MA7  1H5*  .  H  0  ?       ?       ?       0  35
+MA7  2H5*  .  H  0  ?       ?       ?       0  36
+MA7  3HOP  .  H  0  ?       ?       ?       0  37
+MA7  1H6   .  H  0  ?       ?       ?       0  38
+MA7  2H6   .  H  0  ?       ?       ?       0  39
+MA7  2HOP  .  H  0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MA7  C2   N1    SING  1 
+MA7  C2   N3    DOUB  2 
+MA7  C2   H2    SING  3 
+MA7  C4   N3    SING  4 
+MA7  C4   C5    DOUB  5 
+MA7  C4   N9    SING  6 
+MA7  C5   N7    SING  7 
+MA7  C5   C6    SING  8 
+MA7  C6   N1    DOUB  9 
+MA7  C6   N6    SING  10
+MA7  C8   N7    DOUB  11
+MA7  C8   N9    SING  12
+MA7  C8   H8    SING  13
+MA7  P    O5*   SING  14
+MA7  P    O1P   DOUB  15
+MA7  P    O3P   SING  16
+MA7  P    O2P   SING  17
+MA7  O2P  2HOP  SING  18
+MA7  O5*  C5*   SING  19
+MA7  N9   C1*   SING  20
+MA7  N1   CN    SING  21
+MA7  N6   1H6   SING  22
+MA7  N6   2H6   SING  23
+MA7  CN   1HN   SING  24
+MA7  CN   2HN   SING  25
+MA7  CN   3HN   SING  26
+MA7  C2*  C1*   SING  27
+MA7  C2*  C3*   SING  28
+MA7  C2*  1H2*  SING  29
+MA7  C2*  2H2*  SING  30
+MA7  C5*  C4*   SING  31
+MA7  C5*  1H5*  SING  32
+MA7  C5*  2H5*  SING  33
+MA7  C4*  C3*   SING  34
+MA7  C4*  O4*   SING  35
+MA7  C4*  H4*   SING  36
+MA7  O4*  C1*   SING  37
+MA7  C1*  H1*   SING  38
+MA7  C3*  O3*   SING  39
+MA7  C3*  H3*   SING  40
+MA7  O3*  H3T   SING  41
+MA7  O3P  3HOP  SING  42
+#

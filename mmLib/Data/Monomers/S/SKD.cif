@@ -1,0 +1,107 @@
+data_SKD
+#
+_chem_comp.id                   SKD
+_chem_comp.name                 '2-ACETYLAMINO-7-(1,2-DIHYDROXY-ETHYL)-3-HYDROXY-6,8-DIOXA-BICYCLO[3.2.1]OCTANE-5-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N1 O8'
+_chem_comp.pdbx_synonyms        2,7-ANHYDRO-NEU5AC
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        291.257
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SKD  C1    .  C  0  ?  ?  ?  1  1 
+SKD  C2    .  C  0  ?  ?  ?  1  2 
+SKD  C3    .  C  0  ?  ?  ?  1  3 
+SKD  C4    .  C  0  ?  ?  ?  1  4 
+SKD  C5    .  C  0  ?  ?  ?  1  5 
+SKD  C6    .  C  0  ?  ?  ?  1  6 
+SKD  C7    .  C  0  ?  ?  ?  1  7 
+SKD  C8    .  C  0  ?  ?  ?  1  8 
+SKD  C9    .  C  0  ?  ?  ?  1  9 
+SKD  C10   .  C  0  ?  ?  ?  1  10
+SKD  C11   .  C  0  ?  ?  ?  1  11
+SKD  N5    .  N  0  ?  ?  ?  1  12
+SKD  O1A   .  O  0  ?  ?  ?  1  13
+SKD  O1B   .  O  0  ?  ?  ?  1  14
+SKD  O4    .  O  0  ?  ?  ?  1  15
+SKD  O6    .  O  0  ?  ?  ?  1  16
+SKD  O7    .  O  0  ?  ?  ?  1  17
+SKD  O8    .  O  0  ?  ?  ?  1  18
+SKD  O9    .  O  0  ?  ?  ?  1  19
+SKD  O10   .  O  0  ?  ?  ?  1  20
+SKD  1HOB  .  H  0  ?  ?  ?  0  21
+SKD  1H3   .  H  0  ?  ?  ?  0  22
+SKD  2H3   .  H  0  ?  ?  ?  0  23
+SKD  H4    .  H  0  ?  ?  ?  1  24
+SKD  HO4   .  H  0  ?  ?  ?  1  25
+SKD  H5    .  H  0  ?  ?  ?  1  26
+SKD  H6    .  H  0  ?  ?  ?  1  27
+SKD  H7    .  H  0  ?  ?  ?  1  28
+SKD  H8    .  H  0  ?  ?  ?  1  29
+SKD  HO8   .  H  0  ?  ?  ?  1  30
+SKD  1H9   .  H  0  ?  ?  ?  0  31
+SKD  2H9   .  H  0  ?  ?  ?  0  32
+SKD  HO9   .  H  0  ?  ?  ?  1  33
+SKD  HN5   .  H  0  ?  ?  ?  1  34
+SKD  1H11  .  H  0  ?  ?  ?  0  35
+SKD  2H11  .  H  0  ?  ?  ?  0  36
+SKD  3H11  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SKD  C1   C2    SING  1 
+SKD  C1   O1A   DOUB  2 
+SKD  C1   O1B   SING  3 
+SKD  C2   C3    SING  4 
+SKD  C2   O6    SING  5 
+SKD  C2   O7    SING  6 
+SKD  C3   C4    SING  7 
+SKD  C3   1H3   SING  8 
+SKD  C3   2H3   SING  9 
+SKD  C4   O4    SING  10
+SKD  C4   C5    SING  11
+SKD  C4   H4    SING  12
+SKD  C5   N5    SING  13
+SKD  C5   C6    SING  14
+SKD  C5   H5    SING  15
+SKD  C6   C7    SING  16
+SKD  C6   O6    SING  17
+SKD  C6   H6    SING  18
+SKD  C7   C8    SING  19
+SKD  C7   O7    SING  20
+SKD  C7   H7    SING  21
+SKD  C8   C9    SING  22
+SKD  C8   O8    SING  23
+SKD  C8   H8    SING  24
+SKD  C9   O9    SING  25
+SKD  C9   1H9   SING  26
+SKD  C9   2H9   SING  27
+SKD  C10  N5    SING  28
+SKD  C10  C11   SING  29
+SKD  C10  O10   DOUB  30
+SKD  C11  1H11  SING  31
+SKD  C11  2H11  SING  32
+SKD  C11  3H11  SING  33
+SKD  N5   HN5   SING  34
+SKD  O1B  1HOB  SING  35
+SKD  O4   HO4   SING  36
+SKD  O8   HO8   SING  37
+SKD  O9   HO9   SING  38
+#

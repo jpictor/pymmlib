@@ -1,0 +1,107 @@
+data_AMW
+#
+_chem_comp.id                   AMW
+_chem_comp.name                 'ADENOSINE MONOTUNGSTATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O7 W1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        500.100
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMW  W     .  W  0  ?  ?  ?  1  1 
+AMW  O1W   .  O  0  ?  ?  ?  1  2 
+AMW  O2W   .  O  0  ?  ?  ?  1  3 
+AMW  O3W   .  O  0  ?  ?  ?  1  4 
+AMW  O5*   .  O  0  ?  ?  ?  1  5 
+AMW  C5*   .  C  0  ?  ?  ?  1  6 
+AMW  C4*   .  C  0  ?  ?  ?  1  7 
+AMW  O4*   .  O  0  ?  ?  ?  1  8 
+AMW  C3*   .  C  0  ?  ?  ?  1  9 
+AMW  O3*   .  O  0  ?  ?  ?  1  10
+AMW  C2*   .  C  0  ?  ?  ?  1  11
+AMW  O2*   .  O  0  ?  ?  ?  1  12
+AMW  C1*   .  C  0  ?  ?  ?  1  13
+AMW  N9    .  N  0  ?  ?  ?  1  14
+AMW  C8    .  C  0  ?  ?  ?  1  15
+AMW  N7    .  N  0  ?  ?  ?  1  16
+AMW  C5    .  C  0  ?  ?  ?  1  17
+AMW  C6    .  C  0  ?  ?  ?  1  18
+AMW  N6    .  N  0  ?  ?  ?  1  19
+AMW  N1    .  N  0  ?  ?  ?  1  20
+AMW  C2    .  C  0  ?  ?  ?  1  21
+AMW  N3    .  N  0  ?  ?  ?  1  22
+AMW  C4    .  C  0  ?  ?  ?  1  23
+AMW  2HOW  .  H  0  ?  ?  ?  0  24
+AMW  3HOW  .  H  0  ?  ?  ?  0  25
+AMW  1H5*  .  H  0  ?  ?  ?  0  26
+AMW  2H5*  .  H  0  ?  ?  ?  0  27
+AMW  H4*   .  H  0  ?  ?  ?  1  28
+AMW  H3*   .  H  0  ?  ?  ?  1  29
+AMW  *HO3  .  H  0  ?  ?  ?  0  30
+AMW  H2*   .  H  0  ?  ?  ?  1  31
+AMW  *HO2  .  H  0  ?  ?  ?  0  32
+AMW  H1*   .  H  0  ?  ?  ?  1  33
+AMW  H8    .  H  0  ?  ?  ?  1  34
+AMW  H2    .  H  0  ?  ?  ?  1  35
+AMW  1HN6  .  H  0  ?  ?  ?  0  36
+AMW  2HN6  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMW  W    O1W   DOUB  1 
+AMW  W    O2W   SING  2 
+AMW  W    O3W   SING  3 
+AMW  W    O5*   SING  4 
+AMW  O2W  2HOW  SING  5 
+AMW  O3W  3HOW  SING  6 
+AMW  O5*  C5*   SING  7 
+AMW  C5*  C4*   SING  8 
+AMW  C5*  1H5*  SING  9 
+AMW  C5*  2H5*  SING  10
+AMW  C4*  O4*   SING  11
+AMW  C4*  C3*   SING  12
+AMW  C4*  H4*   SING  13
+AMW  O4*  C1*   SING  14
+AMW  C3*  O3*   SING  15
+AMW  C3*  C2*   SING  16
+AMW  C3*  H3*   SING  17
+AMW  O3*  *HO3  SING  18
+AMW  C2*  O2*   SING  19
+AMW  C2*  C1*   SING  20
+AMW  C2*  H2*   SING  21
+AMW  O2*  *HO2  SING  22
+AMW  C1*  N9    SING  23
+AMW  C1*  H1*   SING  24
+AMW  N9   C8    SING  25
+AMW  N9   C4    SING  26
+AMW  C8   N7    DOUB  27
+AMW  C8   H8    SING  28
+AMW  N7   C5    SING  29
+AMW  C5   C6    SING  30
+AMW  C5   C4    DOUB  31
+AMW  C6   N6    SING  32
+AMW  C6   N1    DOUB  33
+AMW  N6   1HN6  SING  34
+AMW  N6   2HN6  SING  35
+AMW  N1   C2    SING  36
+AMW  C2   N3    DOUB  37
+AMW  C2   H2    SING  38
+AMW  N3   C4    SING  39
+#

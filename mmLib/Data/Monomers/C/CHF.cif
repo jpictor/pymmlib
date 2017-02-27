@@ -1,0 +1,105 @@
+data_CHF
+#
+_chem_comp.id                   CHF
+_chem_comp.name                 CYCLOHEXYLFLUOROSTATONE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H19 N1 O4 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.272
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CHF  N     .  N  0  ?  ?  ?  1  1 
+CHF  CA    .  C  0  ?  ?  ?  1  2 
+CHF  CB    .  C  0  ?  ?  ?  1  3 
+CHF  CG    .  C  0  ?  ?  ?  1  4 
+CHF  CD1   .  C  0  ?  ?  ?  1  5 
+CHF  CD2   .  C  0  ?  ?  ?  1  6 
+CHF  CE1   .  C  0  ?  ?  ?  1  7 
+CHF  CE2   .  C  0  ?  ?  ?  1  8 
+CHF  CZ    .  C  0  ?  ?  ?  1  9 
+CHF  CH    .  C  0  ?  ?  ?  1  10
+CHF  OH1   .  O  0  ?  ?  ?  1  11
+CHF  OH2   .  O  0  ?  ?  ?  1  12
+CHF  CM    .  C  0  ?  ?  ?  1  13
+CHF  F1    .  F  0  ?  ?  ?  1  14
+CHF  F2    .  F  0  ?  ?  ?  1  15
+CHF  C     .  C  0  ?  ?  ?  1  16
+CHF  O     .  O  0  ?  ?  ?  1  17
+CHF  OXT   .  O  0  ?  ?  ?  1  18
+CHF  1HN   .  H  0  ?  ?  ?  0  19
+CHF  2HN   .  H  0  ?  ?  ?  0  20
+CHF  HA    .  H  0  ?  ?  ?  1  21
+CHF  1HB   .  H  0  ?  ?  ?  0  22
+CHF  2HB   .  H  0  ?  ?  ?  0  23
+CHF  HG    .  H  0  ?  ?  ?  1  24
+CHF  1HD1  .  H  0  ?  ?  ?  0  25
+CHF  2HD1  .  H  0  ?  ?  ?  0  26
+CHF  1HD2  .  H  0  ?  ?  ?  0  27
+CHF  2HD2  .  H  0  ?  ?  ?  0  28
+CHF  1HE1  .  H  0  ?  ?  ?  0  29
+CHF  2HE1  .  H  0  ?  ?  ?  0  30
+CHF  1HE2  .  H  0  ?  ?  ?  0  31
+CHF  2HE2  .  H  0  ?  ?  ?  0  32
+CHF  1HZ   .  H  0  ?  ?  ?  0  33
+CHF  2HZ   .  H  0  ?  ?  ?  0  34
+CHF  HH1   .  H  0  ?  ?  ?  1  35
+CHF  HH2   .  H  0  ?  ?  ?  1  36
+CHF  HXT   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CHF  N    CA    SING  1 
+CHF  N    1HN   SING  2 
+CHF  N    2HN   SING  3 
+CHF  CA   CH    SING  4 
+CHF  CA   CB    SING  5 
+CHF  CA   HA    SING  6 
+CHF  CB   CG    SING  7 
+CHF  CB   1HB   SING  8 
+CHF  CB   2HB   SING  9 
+CHF  CG   CD1   SING  10
+CHF  CG   CD2   SING  11
+CHF  CG   HG    SING  12
+CHF  CD1  CE1   SING  13
+CHF  CD1  1HD1  SING  14
+CHF  CD1  2HD1  SING  15
+CHF  CD2  CE2   SING  16
+CHF  CD2  1HD2  SING  17
+CHF  CD2  2HD2  SING  18
+CHF  CE1  CZ    SING  19
+CHF  CE1  1HE1  SING  20
+CHF  CE1  2HE1  SING  21
+CHF  CE2  CZ    SING  22
+CHF  CE2  1HE2  SING  23
+CHF  CE2  2HE2  SING  24
+CHF  CZ   1HZ   SING  25
+CHF  CZ   2HZ   SING  26
+CHF  CH   CM    SING  27
+CHF  CH   OH1   SING  28
+CHF  CH   OH2   SING  29
+CHF  OH1  HH1   SING  30
+CHF  OH2  HH2   SING  31
+CHF  CM   C     SING  32
+CHF  CM   F1    SING  33
+CHF  CM   F2    SING  34
+CHF  C    O     DOUB  35
+CHF  C    OXT   SING  36
+CHF  OXT  HXT   SING  37
+#

@@ -1,0 +1,87 @@
+data_APM
+#
+_chem_comp.id                   APM
+_chem_comp.name                 M-AMIDINOPHENYL-3-ALANINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C10 H13 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        207.232
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APM  N     .  N  0  ?  ?  ?  1  1 
+APM  CA    .  C  0  ?  ?  ?  1  2 
+APM  C     .  C  0  ?  ?  ?  1  3 
+APM  O     .  O  0  ?  ?  ?  1  4 
+APM  CB    .  C  0  ?  ?  ?  1  5 
+APM  CG    .  C  0  ?  ?  ?  1  6 
+APM  CD1   .  C  0  ?  ?  ?  1  7 
+APM  CD2   .  C  0  ?  ?  ?  1  8 
+APM  CE1   .  C  0  ?  ?  ?  1  9 
+APM  CE2   .  C  0  ?  ?  ?  1  10
+APM  CZ    .  C  0  ?  ?  ?  1  11
+APM  CF    .  C  0  ?  ?  ?  1  12
+APM  NG1   .  N  0  ?  ?  ?  1  13
+APM  NG2   .  N  0  ?  ?  ?  1  14
+APM  OXT   .  O  0  ?  ?  ?  1  15
+APM  1HN   .  H  0  ?  ?  ?  0  16
+APM  2HN   .  H  0  ?  ?  ?  0  17
+APM  HA    .  H  0  ?  ?  ?  1  18
+APM  1HB   .  H  0  ?  ?  ?  0  19
+APM  2HB   .  H  0  ?  ?  ?  0  20
+APM  HD1   .  H  0  ?  ?  ?  1  21
+APM  HD2   .  H  0  ?  ?  ?  1  22
+APM  HE2   .  H  0  ?  ?  ?  1  23
+APM  HZ    .  H  0  ?  ?  ?  1  24
+APM  HG1   .  H  0  ?  ?  ?  1  25
+APM  1HG2  .  H  0  ?  ?  ?  0  26
+APM  2HG2  .  H  0  ?  ?  ?  0  27
+APM  HXT   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APM  N    CA    SING  1 
+APM  N    1HN   SING  2 
+APM  N    2HN   SING  3 
+APM  CA   C     SING  4 
+APM  CA   CB    SING  5 
+APM  CA   HA    SING  6 
+APM  C    O     DOUB  7 
+APM  C    OXT   SING  8 
+APM  CB   CG    SING  9 
+APM  CB   1HB   SING  10
+APM  CB   2HB   SING  11
+APM  CG   CD1   DOUB  12
+APM  CG   CD2   SING  13
+APM  CD1  CE1   SING  14
+APM  CD1  HD1   SING  15
+APM  CD2  CE2   DOUB  16
+APM  CD2  HD2   SING  17
+APM  CE1  CZ    DOUB  18
+APM  CE1  CF    SING  19
+APM  CE2  CZ    SING  20
+APM  CE2  HE2   SING  21
+APM  CZ   HZ    SING  22
+APM  CF   NG1   DOUB  23
+APM  CF   NG2   SING  24
+APM  NG1  HG1   SING  25
+APM  NG2  1HG2  SING  26
+APM  NG2  2HG2  SING  27
+APM  OXT  HXT   SING  28
+#

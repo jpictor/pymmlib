@@ -1,0 +1,114 @@
+data_U01
+#
+_chem_comp.id                   U01
+_chem_comp.name                 3-[1-(4-BROMO-PHENYL)-2-METHYL-PROPYL]-4-HYDROXY-CHROMEN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H17 O3 BR1'
+_chem_comp.pdbx_synonyms        'PARA-BROMOPHENYL ANALOGUE OF PHEN-PROCOUMON 3-(ALPHA-ETHYLBENZYL)-4-HYDROXYCOUMARIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        373.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+U01  CA    .  C   0  ?  ?  ?  1  1 
+U01  CA2   .  C   0  ?  ?  ?  1  2 
+U01  CA4   .  C   0  ?  ?  ?  1  3 
+U01  CA5   .  C   0  ?  ?  ?  1  4 
+U01  CA6   .  C   0  ?  ?  ?  1  5 
+U01  CB1   .  C   0  ?  ?  ?  1  6 
+U01  CB2   .  C   0  ?  ?  ?  1  7 
+U01  CB3   .  C   0  ?  ?  ?  1  8 
+U01  CB4   .  C   0  ?  ?  ?  1  9 
+U01  CB5   .  C   0  ?  ?  ?  1  10
+U01  CB6   .  C   0  ?  ?  ?  1  11
+U01  CG1   .  C   0  ?  ?  ?  1  12
+U01  CG2   .  C   0  ?  ?  ?  1  13
+U01  CG3   .  C   0  ?  ?  ?  1  14
+U01  CG4   .  C   0  ?  ?  ?  1  15
+U01  CD1   .  C   0  ?  ?  ?  1  16
+U01  CD2   .  C   0  ?  ?  ?  1  17
+U01  CD3   .  C   0  ?  ?  ?  1  18
+U01  CD4   .  C   0  ?  ?  ?  1  19
+U01  OA2   .  O   0  ?  ?  ?  1  20
+U01  OA3   .  O   0  ?  ?  ?  1  21
+U01  OA6   .  O   0  ?  ?  ?  1  22
+U01  BR    .  BR  0  ?  ?  ?  0  23
+U01  HB2   .  H   0  ?  ?  ?  1  24
+U01  HB3   .  H   0  ?  ?  ?  1  25
+U01  HB5   .  H   0  ?  ?  ?  1  26
+U01  HB6   .  H   0  ?  ?  ?  1  27
+U01  HG1   .  H   0  ?  ?  ?  1  28
+U01  HG2   .  H   0  ?  ?  ?  1  29
+U01  1HG3  .  H   0  ?  ?  ?  0  30
+U01  2HG3  .  H   0  ?  ?  ?  0  31
+U01  3HG3  .  H   0  ?  ?  ?  0  32
+U01  1HG4  .  H   0  ?  ?  ?  0  33
+U01  2HG4  .  H   0  ?  ?  ?  0  34
+U01  3HG4  .  H   0  ?  ?  ?  0  35
+U01  HD1   .  H   0  ?  ?  ?  1  36
+U01  HD2   .  H   0  ?  ?  ?  1  37
+U01  HD3   .  H   0  ?  ?  ?  1  38
+U01  HD4   .  H   0  ?  ?  ?  1  39
+U01  HO6   .  H   0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+U01  CA   CA2   SING  1 
+U01  CA   CA6   DOUB  2 
+U01  CA   CG1   SING  3 
+U01  CA2  OA2   DOUB  4 
+U01  CA2  OA3   SING  5 
+U01  CA4  CA5   DOUB  6 
+U01  CA4  CD1   SING  7 
+U01  CA4  OA3   SING  8 
+U01  CA5  CA6   SING  9 
+U01  CA5  CD4   SING  10
+U01  CA6  OA6   SING  11
+U01  CB1  CB2   DOUB  12
+U01  CB1  CB6   SING  13
+U01  CB1  CG1   SING  14
+U01  CB2  CB3   SING  15
+U01  CB2  HB2   SING  16
+U01  CB3  CB4   DOUB  17
+U01  CB3  HB3   SING  18
+U01  CB4  CB5   SING  19
+U01  CB4  BR    SING  20
+U01  CB5  CB6   DOUB  21
+U01  CB5  HB5   SING  22
+U01  CB6  HB6   SING  23
+U01  CG1  CG2   SING  24
+U01  CG1  HG1   SING  25
+U01  CG2  CG3   SING  26
+U01  CG2  CG4   SING  27
+U01  CG2  HG2   SING  28
+U01  CG3  1HG3  SING  29
+U01  CG3  2HG3  SING  30
+U01  CG3  3HG3  SING  31
+U01  CG4  1HG4  SING  32
+U01  CG4  2HG4  SING  33
+U01  CG4  3HG4  SING  34
+U01  CD1  CD2   DOUB  35
+U01  CD1  HD1   SING  36
+U01  CD2  CD3   SING  37
+U01  CD2  HD2   SING  38
+U01  CD3  CD4   DOUB  39
+U01  CD3  HD3   SING  40
+U01  CD4  HD4   SING  41
+U01  OA6  HO6   SING  42
+#

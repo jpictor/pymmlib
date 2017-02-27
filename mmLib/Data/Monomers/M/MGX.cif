@@ -1,0 +1,62 @@
+data_MGX
+#
+_chem_comp.id                   MGX
+_chem_comp.name                 1-METHYLGUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H7 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        73.097
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MGX
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CNC(=N)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MGX  CD    .  C  0  24.489  -29.536  -65.585  1  N  1 
+MGX  NE    .  N  0  24.421  -29.671  -64.127  1  N  2 
+MGX  CZ    .  C  0  23.301  -29.619  -63.393  1  N  3 
+MGX  NH1   .  N  0  22.112  -29.432  -63.962  1  N  4 
+MGX  NH2   .  N  0  23.376  -29.758  -62.078  1  N  5 
+MGX  1HD   .  H  0  24.506  -28.470  -65.855  0  N  6 
+MGX  2HD   .  H  0  25.403  -30.022  -65.956  0  N  7 
+MGX  3HD   .  H  0  23.609  -30.015  -66.039  0  N  8 
+MGX  HNE   .  H  0  25.282  -29.814  -63.639  1  N  9 
+MGX  1HH1  .  H  0  21.388  -29.419  -63.272  0  N  10
+MGX  2HH1  .  H  0  21.963  -29.320  -64.944  0  N  11
+MGX  HNH2  .  H  0  24.324  -29.892  -61.790  0  N  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MGX  CD   NE    SING  N  1 
+MGX  CD   1HD   SING  N  2 
+MGX  CD   2HD   SING  N  3 
+MGX  CD   3HD   SING  N  4 
+MGX  NE   CZ    SING  N  5 
+MGX  NE   HNE   SING  N  6 
+MGX  CZ   NH1   SING  N  7 
+MGX  CZ   NH2   DOUB  N  8 
+MGX  NH1  1HH1  SING  N  9 
+MGX  NH1  2HH1  SING  N  10
+MGX  NH2  HNH2  SING  N  11
+#

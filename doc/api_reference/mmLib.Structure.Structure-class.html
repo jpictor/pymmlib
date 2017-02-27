@@ -1,0 +1,1706 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.Structure.Structure</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        <a href="mmLib.Structure-module.html">Module&nbsp;Structure</a> ::
+        Class&nbsp;Structure
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.Structure.Structure-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class Structure</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure">source&nbsp;code</a></span></p>
+<pre class="base-tree">
+object --+
+         |
+        <strong class="uidshort">Structure</strong>
+</pre>
+
+<hr />
+<p>The Structure object is the parent container object for the entire 
+  macromolecular data structure. It contains a list of the Chain objects in
+  the structure hierarchy, and contains these additional data objects:</p>
+  <p>cifdb(mmLib.mmCIFDB) A mmCIF database with additional structure 
+  data.</p>
+  <p>unit_cell(mmLib.UnitCell) Unit cell/Spacegroup for the structure.</p>
+  <p>default_alt_loc(string) The default alternate location identifier used
+  when iterating or retreiving Atom objects in the structure.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">**args</span>)</span><br />
+      x.__init__(...) initializes x; see x.__class__.__doc__ for signature</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#__str__" class="summary-sig-name">__str__</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      str(x)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__str__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__deepcopy__"></a><span class="summary-sig-name">__deepcopy__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">memo</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__deepcopy__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__len__"></a><span class="summary-sig-name">__len__</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the number of stored Chain objects.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__len__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__getitem__"></a><span class="summary-sig-name">__getitem__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">chain_idx</span>)</span><br />
+      Same as get_chain, but raises KeyError if the requested chain_id is 
+      not found.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__getitem__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__iter__"></a><span class="summary-sig-name">__iter__</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates the Chain objects in the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__iter__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="__contains__"></a><span class="summary-sig-name">__contains__</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model_chain_idx</span>)</span><br />
+      Returns True if item is a Model in the Structure, or a Chain or 
+      chain_id in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__contains__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="index"></a><span class="summary-sig-name">index</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model_chain</span>)</span><br />
+      If item is a Model, returns the index of the Model in the Structure, 
+      or if the item is a Chain, returns the index of the Chain in the 
+      default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.index">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="sort"></a><span class="summary-sig-name">sort</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Sorts all Models and Chains in the Structure according to standard 
+      model_id, chain_id, and fragment_id sorting rules.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.sort">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#add_model" class="summary-sig-name">add_model</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model</span>,
+        <span class="summary-sig-arg">delay_sort</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Adds a Model to a Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#remove_model" class="summary-sig-name">remove_model</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model</span>)</span><br />
+      Removes a child Model object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.remove_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_model"></a><span class="summary-sig-name">get_model</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model_id</span>)</span><br />
+      Return the Model object with the argument model_id, or None if not 
+      found.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_default_model"></a><span class="summary-sig-name">get_default_model</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the default Model object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_default_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#set_default_model" class="summary-sig-name">set_default_model</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model_id</span>)</span><br />
+      Sets the default Model for the Structure to model_id.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.set_default_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#set_model" class="summary-sig-name">set_model</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">model_id</span>)</span><br />
+      DEP: Use set_default_model() Sets the default Model for the Structure
+      to model_id.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.set_model">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_models"></a><span class="summary-sig-name">iter_models</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Model objects.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_models">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_models"></a><span class="summary-sig-name">count_models</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all Model objects in the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_models">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#add_chain" class="summary-sig-name">add_chain</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">chain</span>,
+        <span class="summary-sig-arg">delay_sort</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Adds a Chain object to the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_chain">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="remove_chain"></a><span class="summary-sig-name">remove_chain</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">chain</span>)</span><br />
+      Removes a Chain object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.remove_chain">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_chain"></a><span class="summary-sig-name">get_chain</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">chain_id</span>)</span><br />
+      Returns the Chain object matching the chain_id character.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_chain">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_chains"></a><span class="summary-sig-name">count_chains</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all Chain objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_chains">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_chains"></a><span class="summary-sig-name">iter_chains</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Chain objects in the default Model, in alphabetical
+      order according to their chain_id.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_chains">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_all_chains"></a><span class="summary-sig-name">iter_all_chains</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Chain objects in all Model objects.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_chains">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="add_fragment"></a><span class="summary-sig-name">add_fragment</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">fragment</span>,
+        <span class="summary-sig-arg">delay_sort</span>=<span class="summary-sig-default">True</span>)</span><br />
+      Adds a Fragment object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_fragment">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="remove_fragment"></a><span class="summary-sig-name">remove_fragment</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">fragment</span>)</span><br />
+      Removes a Fragment object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.remove_fragment">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_fragments"></a><span class="summary-sig-name">count_fragments</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all Fragment objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_fragments">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_fragments" class="summary-sig-name">iter_fragments</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Fragment objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_fragments">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_all_fragments" class="summary-sig-name">iter_all_fragments</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Fragment objects in all Models.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_fragments">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="has_amino_acids"></a><span class="summary-sig-name">has_amino_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns True if there are AminoAcidResidue objects in the default 
+      Model of the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.has_amino_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_amino_acids"></a><span class="summary-sig-name">count_amino_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all AminoAcidResidue objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_amino_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_amino_acids"></a><span class="summary-sig-name">iter_amino_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Same as iter_fragments() but only iterates over Fragments of the 
+      subclass AminoAcidResidue.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_amino_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_all_amino_acids"></a><span class="summary-sig-name">iter_all_amino_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all AminoAcidResidue objects in all Models.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_amino_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="has_nucleic_acids"></a><span class="summary-sig-name">has_nucleic_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns True if the Structure contains NucleicAcidResiudes in the 
+      default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.has_nucleic_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_nucleic_acids"></a><span class="summary-sig-name">count_nucleic_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all NucleicAcidResidue objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_nucleic_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_nucleic_acids"></a><span class="summary-sig-name">iter_nucleic_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Same as iter_fragments() but only iterates over Fragments of the 
+      subclass NucleicAcidResidue.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_nucleic_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_all_nucleic_acids"></a><span class="summary-sig-name">iter_all_nucleic_acids</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all NucleicAcidResidue objects in all Models.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_nucleic_acids">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="has_standard_residues"></a><span class="summary-sig-name">has_standard_residues</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns True if the Structure contains amino or nucleic acids in the 
+      default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.has_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_standard_residues"></a><span class="summary-sig-name">count_standard_residues</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts the number of standard residues in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_standard_residues"></a><span class="summary-sig-name">iter_standard_residues</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over standard residues in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="has_non_standard_residues"></a><span class="summary-sig-name">has_non_standard_residues</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns True if there are non-standard residues in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.has_non_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_non_standard_residues"></a><span class="summary-sig-name">count_non_standard_residues</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all non-standard residues in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_non_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_non_standard_residues" class="summary-sig-name">iter_non_standard_residues</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over non-standard residues in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_non_standard_residues">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="has_waters"></a><span class="summary-sig-name">has_waters</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns True if there are waters in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.has_waters">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_waters"></a><span class="summary-sig-name">count_waters</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all waters in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_waters">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_waters"></a><span class="summary-sig-name">iter_waters</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterate over all waters in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_waters">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#add_atom" class="summary-sig-name">add_atom</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">atom</span>,
+        <span class="summary-sig-arg">delay_sort</span>=<span class="summary-sig-default">False</span>)</span><br />
+      Adds an Atom object to the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_atom">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="remove_atom"></a><span class="summary-sig-name">remove_atom</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">atom</span>)</span><br />
+      Removes an Atom.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.remove_atom">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_atoms" class="summary-sig-name">iter_atoms</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Atom objects in the default Model, using the 
+      default alt_loc.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_atoms">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_atoms"></a><span class="summary-sig-name">count_atoms</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all Atom objects in the default Model using the default 
+      alt_loc.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_atoms">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_all_atoms" class="summary-sig-name">iter_all_atoms</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Atom objects in the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_atoms">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_all_atoms"></a><span class="summary-sig-name">count_all_atoms</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all atoms in the default Model using the default alt_loc.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_all_atoms">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_equivalent_atom"></a><span class="summary-sig-name">get_equivalent_atom</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">atom</span>)</span><br />
+      Returns the atom with the same fragment_id and name as the argument 
+      atom, or None if it is not found.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_equivalent_atom">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#iter_bonds" class="summary-sig-name">iter_bonds</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all Bond objects.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_bonds">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="count_bonds"></a><span class="summary-sig-name">count_bonds</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all Bond objects using the default Model and default alt_loc.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.count_bonds">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="alt_loc_list"></a><span class="summary-sig-name">alt_loc_list</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Return the unique list of Atom alternate location IDs found in the 
+      Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.alt_loc_list">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="add_alpha_helix"></a><span class="summary-sig-name">add_alpha_helix</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">alpha_helix</span>)</span><br />
+      Adds an AlphaHelix to the default Model object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_alpha_helix">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_alpha_helicies"></a><span class="summary-sig-name">iter_alpha_helicies</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all child AlphaHelix objects in the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_alpha_helicies">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="add_beta_sheet"></a><span class="summary-sig-name">add_beta_sheet</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">beta_sheet</span>)</span><br />
+      Adds a BetaSheet to the default Model object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_beta_sheet">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_beta_sheets"></a><span class="summary-sig-name">iter_beta_sheets</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterate over all beta sheets in the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_beta_sheets">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="add_site"></a><span class="summary-sig-name">add_site</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">site</span>)</span><br />
+      Adds a Site object to the default Model.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_site">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_sites"></a><span class="summary-sig-name">iter_sites</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterate over all active/important sites defined in the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_sites">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_structure"></a><span class="summary-sig-name">get_structure</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns self.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_structure">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="get_default_alt_loc"></a><span class="summary-sig-name">get_default_alt_loc</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the default alt_loc string.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.get_default_alt_loc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_default_alt_loc"></a><span class="summary-sig-name">set_default_alt_loc</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">alt_loc</span>)</span><br />
+      Sets the default alt_loc for the Stucture.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.set_default_alt_loc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Structure.Structure-class.html#add_bonds_from_covalent_distance" class="summary-sig-name">add_bonds_from_covalent_distance</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Builds a Structure's bonds by atomic distance distance using the 
+      covalent radii in element.cif.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_bonds_from_covalent_distance">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="add_bonds_from_library"></a><span class="summary-sig-name">add_bonds_from_library</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Builds bonds for all Fragments in the Structure from bond tables for 
+      monomers retrieved from the Library implementation of the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_bonds_from_library">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">**args</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>x.__init__(...) initializes x; see x.__class__.__doc__ for 
+  signature</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__init__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="__str__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__str__</span>(<span class="sig-arg">self</span>)</span>
+    <br /><em class="fname">(Informal representation operator)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.__str__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>str(x)</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__str__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_model"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_model</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">model</span>,
+        <span class="sig-arg">delay_sort</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_model">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds a Model to a Structure. Raises the ModelOverwrite exception if 
+  the model_id of the Model matches the model_id of a Model already in the 
+  Structure. If there are no Models in the Structure, the Model is used as 
+  the default Model.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="remove_model"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">remove_model</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">model</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.remove_model">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Removes a child Model object. If the Model object is the default 
+  Model, then choose the Model with the lowest model_id as the new default 
+  Model, or None if there are no more Models.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_default_model"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_default_model</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">model_id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.set_default_model">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Sets the default Model for the Structure to model_id. Returns False if
+  a Model with the proper model_id does not exist in the Structure.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_model"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_model</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">model_id</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.set_model">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>DEP: Use set_default_model() Sets the default Model for the Structure 
+  to model_id. Returns False if a Model with the proper model_id does not 
+  exist in the Structure.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_chain"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_chain</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">chain</span>,
+        <span class="sig-arg">delay_sort</span>=<span class="sig-default">True</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_chain">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds a Chain object to the Structure. Creates necessary parent Model 
+  if necessary.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_fragments"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_fragments</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_fragments">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over all Fragment objects in the default Model. The iteration
+  is performed in order according the the parent Chain's chain_id, and the 
+  Fragment's position within the chain.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_all_fragments"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_all_fragments</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_fragments">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over all Fragment objects in all Models. The iteration is 
+  performed in order according the the parent Chain's chain_id, and the 
+  Fragment's position within the chain.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_non_standard_residues"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_non_standard_residues</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_non_standard_residues">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over non-standard residues in the default Model. Non-standard
+  residues are any Fragments which are not an amino or nucleic acid.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_atom"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_atom</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">atom</span>,
+        <span class="sig-arg">delay_sort</span>=<span class="sig-default">False</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_atom">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds an Atom object to the Structure. If a collision occurs, an error 
+  is raised.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_atoms"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_atoms</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_atoms">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over all Atom objects in the default Model, using the default
+  alt_loc. The iteration is preformed in order according to the Chain and 
+  Fragment ordering rules the Atom object is a part of.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_all_atoms"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_all_atoms</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_all_atoms">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over all Atom objects in the Structure. The iteration is 
+  performed according to common PDB ordering rules, over all Models and all
+  alternate conformations.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="iter_bonds"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">iter_bonds</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.iter_bonds">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Iterates over all Bond objects. The iteration is preformed by 
+  iterating over all Atom objects in the same order as iter_atoms(), then 
+  iterating over each Atom's Bond objects.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="add_bonds_from_covalent_distance"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">add_bonds_from_covalent_distance</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Structure-pysrc.html#Structure.add_bonds_from_covalent_distance">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Builds a Structure's bonds by atomic distance distance using the 
+  covalent radii in element.cif. A bond is built if the the distance 
+  between them is less than or equal to the sum of their covalent radii + 
+  0.54A.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:16 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

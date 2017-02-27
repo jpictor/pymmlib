@@ -1,0 +1,103 @@
+data_PBF
+#
+_chem_comp.id                       PBF
+_chem_comp.name                     PARA-(BENZOYL)-PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C16 H15 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            269.299
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBF  N    .  N  0  ?  ?  ?  1  1 
+PBF  C    .  C  0  ?  ?  ?  1  2 
+PBF  O    .  O  0  ?  ?  ?  1  3 
+PBF  CA   .  C  0  ?  ?  ?  1  4 
+PBF  CB   .  C  0  ?  ?  ?  1  5 
+PBF  CG   .  C  0  ?  ?  ?  1  6 
+PBF  CD1  .  C  0  ?  ?  ?  1  7 
+PBF  CD2  .  C  0  ?  ?  ?  1  8 
+PBF  CE1  .  C  0  ?  ?  ?  1  9 
+PBF  CE2  .  C  0  ?  ?  ?  1  10
+PBF  CZ   .  C  0  ?  ?  ?  1  11
+PBF  CN1  .  C  0  ?  ?  ?  1  12
+PBF  ON2  .  O  0  ?  ?  ?  1  13
+PBF  CT   .  C  0  ?  ?  ?  1  14
+PBF  CI1  .  C  0  ?  ?  ?  1  15
+PBF  CI2  .  C  0  ?  ?  ?  1  16
+PBF  CK1  .  C  0  ?  ?  ?  1  17
+PBF  CK2  .  C  0  ?  ?  ?  1  18
+PBF  CL   .  C  0  ?  ?  ?  1  19
+PBF  OXT  .  O  0  ?  ?  ?  1  20
+PBF  1HB  .  H  0  ?  ?  ?  0  21
+PBF  2HB  .  H  0  ?  ?  ?  0  22
+PBF  HD2  .  H  0  ?  ?  ?  1  23
+PBF  HD1  .  H  0  ?  ?  ?  1  24
+PBF  HE2  .  H  0  ?  ?  ?  1  25
+PBF  HE1  .  H  0  ?  ?  ?  1  26
+PBF  HI1  .  H  0  ?  ?  ?  1  27
+PBF  HI2  .  H  0  ?  ?  ?  1  28
+PBF  HK1  .  H  0  ?  ?  ?  1  29
+PBF  HK2  .  H  0  ?  ?  ?  1  30
+PBF  HCL  .  H  0  ?  ?  ?  1  31
+PBF  HCA  .  H  0  ?  ?  ?  1  32
+PBF  1HN  .  H  0  ?  ?  ?  0  33
+PBF  2HN  .  H  0  ?  ?  ?  0  34
+PBF  HXT  .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBF  N    CA   SING  1 
+PBF  N    1HN  SING  2 
+PBF  N    2HN  SING  3 
+PBF  C    O    DOUB  4 
+PBF  C    CA   SING  5 
+PBF  C    OXT  SING  6 
+PBF  CA   CB   SING  7 
+PBF  CA   HCA  SING  8 
+PBF  CB   CG   SING  9 
+PBF  CB   1HB  SING  10
+PBF  CB   2HB  SING  11
+PBF  CG   CD1  DOUB  12
+PBF  CG   CD2  SING  13
+PBF  CD1  CE1  SING  14
+PBF  CD1  HD1  SING  15
+PBF  CD2  CE2  DOUB  16
+PBF  CD2  HD2  SING  17
+PBF  CE1  CZ   DOUB  18
+PBF  CE1  HE1  SING  19
+PBF  CE2  CZ   SING  20
+PBF  CE2  HE2  SING  21
+PBF  CZ   CN1  SING  22
+PBF  CN1  ON2  DOUB  23
+PBF  CN1  CT   SING  24
+PBF  CT   CI1  DOUB  25
+PBF  CT   CI2  SING  26
+PBF  CI1  CK1  SING  27
+PBF  CI1  HI1  SING  28
+PBF  CI2  CK2  DOUB  29
+PBF  CI2  HI2  SING  30
+PBF  CK1  CL   DOUB  31
+PBF  CK1  HK1  SING  32
+PBF  CK2  CL   SING  33
+PBF  CK2  HK2  SING  34
+PBF  CL   HCL  SING  35
+PBF  OXT  HXT  SING  36
+#

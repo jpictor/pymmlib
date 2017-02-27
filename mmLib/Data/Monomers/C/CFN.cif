@@ -1,0 +1,79 @@
+data_CFN
+#
+_chem_comp.id                   CFN
+_chem_comp.name                 'FE(7)-MO-S(9)-N CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'N1 S9 FE7 MO1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        789.416
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CFN  S3A  .  S   0  ?       ?      ?       1  1 
+CFN  FE4  .  FE  0  ?       ?      ?       0  2 
+CFN  S1A  .  S   0  ?       ?      ?       1  3 
+CFN  S4A  .  S   0  ?       ?      ?       1  4 
+CFN  FE3  .  FE  0  ?       ?      ?       0  5 
+CFN  S2A  .  S   0  91.976  5.732  66.372  1  6 
+CFN  FE7  .  FE  0  88.585  6.411  68.878  0  7 
+CFN  S4B  .  S   0  87.632  7.809  70.296  1  8 
+CFN  MO1  .  MO  0  88.096  5.840  71.458  0  9 
+CFN  S1B  .  S   0  90.244  6.245  72.299  1  10
+CFN  FE6  .  FE  0  90.438  5.277  70.295  0  11
+CFN  FE2  .  FE  0  92.236  5.970  68.589  0  12
+CFN  FE1  .  FE  0  92.888  7.768  66.726  0  13
+CFN  FE5  .  FE  0  89.833  7.804  70.712  0  14
+CFN  S2B  .  S   0  92.240  4.151  69.853  1  15
+CFN  S3B  .  S   0  88.530  4.322  69.710  1  16
+CFN  S5A  .  S   0  88.185  6.689  66.713  1  17
+CFN  NX   .  N   0  90.533  6.899  69.034  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CFN  S3A  FE4  SING  1 
+CFN  S3A  FE5  SING  2 
+CFN  FE4  NX   SING  3 
+CFN  FE4  S1A  SING  4 
+CFN  FE4  S4A  SING  5 
+CFN  S1A  FE1  SING  6 
+CFN  S1A  FE2  SING  7 
+CFN  S4A  FE1  SING  8 
+CFN  S4A  FE3  SING  9 
+CFN  FE3  NX   SING  10
+CFN  FE3  S2A  SING  11
+CFN  FE3  S5A  SING  12
+CFN  S2A  FE1  SING  13
+CFN  S2A  FE2  SING  14
+CFN  FE7  NX   SING  15
+CFN  FE7  S3B  SING  16
+CFN  FE7  S4B  SING  17
+CFN  FE7  S5A  SING  18
+CFN  S4B  FE5  SING  19
+CFN  S4B  MO1  SING  20
+CFN  MO1  S1B  SING  21
+CFN  MO1  S3B  SING  22
+CFN  S1B  FE5  SING  23
+CFN  S1B  FE6  SING  24
+CFN  FE6  NX   SING  25
+CFN  FE6  S2B  SING  26
+CFN  FE6  S3B  SING  27
+CFN  FE2  NX   SING  28
+CFN  FE2  S2B  SING  29
+CFN  FE5  NX   SING  30
+#

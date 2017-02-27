@@ -1,0 +1,92 @@
+data_ACZ
+#
+_chem_comp.id                   ACZ
+_chem_comp.name                 CIS-AMICLENOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C10 H16 N2 O2'
+_chem_comp.pdbx_synonyms        '2-AMINO-4-(4-AMINO-CYCLOHEXA-2,5-DIENYL)-BUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACZ  NH    .  N  0  -17.722  -2.101  18.210  1  1 
+ACZ  CZ    .  C  0  -17.124  -2.298  16.990  1  2 
+ACZ  CE2   .  C  0  -17.744  -1.736  15.883  1  3 
+ACZ  CD2   .  C  0  -17.223  -1.874  14.598  1  4 
+ACZ  CG    .  C  0  -16.064  -2.601  14.394  1  5 
+ACZ  CD1   .  C  0  -15.428  -3.178  15.497  1  6 
+ACZ  CE1   .  C  0  -15.951  -3.030  16.785  1  7 
+ACZ  CX    .  C  0  -15.495  -2.762  12.995  1  8 
+ACZ  CB    .  C  0  -16.579  -3.052  11.962  1  9 
+ACZ  CA    .  C  0  -15.959  -3.491  10.638  1  10
+ACZ  N     .  N  0  -15.259  -4.763  10.805  1  11
+ACZ  C     .  C  0  -15.013  -2.447  10.147  1  12
+ACZ  O2    .  O  0  -13.863  -2.746  9.886   1  13
+ACZ  O     .  O  0  -15.384  -1.291  10.013  1  14
+ACZ  1HNH  .  H  0  ?        ?       ?       0  15
+ACZ  2HNH  .  H  0  ?        ?       ?       0  16
+ACZ  1HN   .  H  0  ?        ?       ?       0  17
+ACZ  2HN   .  H  0  ?        ?       ?       0  18
+ACZ  HCZ   .  H  0  ?        ?       ?       1  19
+ACZ  1HE1  .  H  0  ?        ?       ?       0  20
+ACZ  2HE2  .  H  0  ?        ?       ?       0  21
+ACZ  1HD1  .  H  0  ?        ?       ?       0  22
+ACZ  2HD2  .  H  0  ?        ?       ?       0  23
+ACZ  HCG   .  H  0  ?        ?       ?       1  24
+ACZ  HCA   .  H  0  ?        ?       ?       1  25
+ACZ  HO2   .  H  0  ?        ?       ?       1  26
+ACZ  1HCB  .  H  0  ?        ?       ?       0  27
+ACZ  2HCB  .  H  0  ?        ?       ?       0  28
+ACZ  1HCX  .  H  0  ?        ?       ?       0  29
+ACZ  2HCX  .  H  0  ?        ?       ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACZ  NH   CZ    SING  1 
+ACZ  NH   1HNH  SING  2 
+ACZ  NH   2HNH  SING  3 
+ACZ  CZ   CE2   SING  4 
+ACZ  CZ   CE1   SING  5 
+ACZ  CZ   HCZ   SING  6 
+ACZ  CE2  CD2   DOUB  7 
+ACZ  CE2  2HE2  SING  8 
+ACZ  CD2  CG    SING  9 
+ACZ  CD2  2HD2  SING  10
+ACZ  CG   CD1   SING  11
+ACZ  CG   CX    SING  12
+ACZ  CG   HCG   SING  13
+ACZ  CD1  CE1   DOUB  14
+ACZ  CD1  1HD1  SING  15
+ACZ  CE1  1HE1  SING  16
+ACZ  CX   CB    SING  17
+ACZ  CX   1HCX  SING  18
+ACZ  CX   2HCX  SING  19
+ACZ  CB   CA    SING  20
+ACZ  CB   1HCB  SING  21
+ACZ  CB   2HCB  SING  22
+ACZ  CA   N     SING  23
+ACZ  CA   C     SING  24
+ACZ  CA   HCA   SING  25
+ACZ  N    1HN   SING  26
+ACZ  N    2HN   SING  27
+ACZ  C    O2    SING  28
+ACZ  C    O     DOUB  29
+ACZ  O2   HO2   SING  30
+#

@@ -1,0 +1,80 @@
+data_NSN
+#
+_chem_comp.id                   NSN
+_chem_comp.name                 N~2~-(2-AMINO-1-METHYL-2-OXOETHYLIDENE)ASPARAGINATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        201.182
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NSN  C1    .  C  0   ?  ?  ?  1  1 
+NSN  C2    .  C  0   ?  ?  ?  1  2 
+NSN  C3    .  C  0   ?  ?  ?  1  3 
+NSN  O1    .  O  0   ?  ?  ?  1  4 
+NSN  N1    .  N  1   ?  ?  ?  1  5 
+NSN  C4    .  C  0   ?  ?  ?  1  6 
+NSN  C5    .  C  0   ?  ?  ?  1  7 
+NSN  C6    .  C  0   ?  ?  ?  1  8 
+NSN  O2    .  O  -1  ?  ?  ?  1  9 
+NSN  O3    .  O  0   ?  ?  ?  1  10
+NSN  C7    .  C  0   ?  ?  ?  1  11
+NSN  N2    .  N  0   ?  ?  ?  1  12
+NSN  O4    .  O  0   ?  ?  ?  1  13
+NSN  N3    .  N  0   ?  ?  ?  1  14
+NSN  1H1   .  H  0   ?  ?  ?  0  15
+NSN  2H1   .  H  0   ?  ?  ?  0  16
+NSN  3H1   .  H  0   ?  ?  ?  0  17
+NSN  H4    .  H  0   ?  ?  ?  1  18
+NSN  1H5   .  H  0   ?  ?  ?  0  19
+NSN  2H5   .  H  0   ?  ?  ?  0  20
+NSN  1HN2  .  H  0   ?  ?  ?  0  21
+NSN  2HN2  .  H  0   ?  ?  ?  0  22
+NSN  1HN3  .  H  0   ?  ?  ?  0  23
+NSN  2HN3  .  H  0   ?  ?  ?  0  24
+NSN  HN1   .  H  0   ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NSN  C1  C2    SING  1 
+NSN  C1  1H1   SING  2 
+NSN  C1  2H1   SING  3 
+NSN  C1  3H1   SING  4 
+NSN  C2  N1    DOUB  5 
+NSN  C2  C3    SING  6 
+NSN  C3  N3    SING  7 
+NSN  C3  O1    DOUB  8 
+NSN  N1  C4    SING  9 
+NSN  N1  HN1   SING  10
+NSN  C4  C5    SING  11
+NSN  C4  C7    SING  12
+NSN  C4  H4    SING  13
+NSN  C5  C6    SING  14
+NSN  C5  1H5   SING  15
+NSN  C5  2H5   SING  16
+NSN  C6  O2    SING  17
+NSN  C6  O3    DOUB  18
+NSN  C7  N2    SING  19
+NSN  C7  O4    DOUB  20
+NSN  N2  1HN2  SING  21
+NSN  N2  2HN2  SING  22
+NSN  N3  1HN3  SING  23
+NSN  N3  2HN3  SING  24
+#

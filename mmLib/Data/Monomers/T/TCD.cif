@@ -1,0 +1,97 @@
+data_TCD
+#
+_chem_comp.id                   TCD
+_chem_comp.name                 3,5-DICHLORO-2-{4-[(3,5-DICHLOROPYRIDIN-2-YL)OXY]PHENOXY}PYRIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H8 N2 O2 CL4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        402.063
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCD  C1    .  C   0  3.212   -11.514  42.952  1  1 
+TCD  O21   .  O   0  4.368   -12.186  43.274  1  2 
+TCD  C2    .  C   0  2.626   -10.558  43.810  1  3 
+TCD  C3    .  C   0  1.454   -9.935   43.446  1  4 
+TCD  C4    .  C   0  0.861   -10.168  42.189  1  5 
+TCD  O31   .  O   0  -0.270  -9.479   41.957  1  6 
+TCD  C5    .  C   0  1.440   -11.119  41.314  1  7 
+TCD  C6    .  C   0  2.625   -11.744  41.696  1  8 
+TCD  C22   .  C   0  4.224   -13.113  44.294  1  9 
+TCD  N23   .  N   0  2.914   -13.380  44.660  1  10
+TCD  C24   .  C   0  2.600   -14.252  45.634  1  11
+TCD  C25   .  C   0  3.527   -14.964  46.361  1  12
+TCD  CL25  .  CL  0  3.035   -16.081  47.624  0  13
+TCD  C26   .  C   0  4.868   -14.761  46.061  1  14
+TCD  C27   .  C   0  5.303   -13.779  44.959  1  15
+TCD  CL27  .  CL  0  7.002   -13.527  44.576  0  16
+TCD  C32   .  C   0  -1.526  -10.055  41.799  1  17
+TCD  N33   .  N   0  -1.738  -11.347  42.132  1  18
+TCD  C34   .  C   0  -2.968  -11.905  41.985  1  19
+TCD  C35   .  C   0  -4.085  -11.179  41.490  1  20
+TCD  CL35  .  CL  0  -5.679  -11.915  41.332  0  21
+TCD  C36   .  C   0  -3.842  -9.828   41.159  1  22
+TCD  C37   .  C   0  -2.592  -9.252   41.298  1  23
+TCD  CL37  .  CL  0  -2.345  -7.564   40.841  0  24
+TCD  H26   .  H   0  ?       ?        ?       1  25
+TCD  H6    .  H   0  ?       ?        ?       1  26
+TCD  H5    .  H   0  ?       ?        ?       1  27
+TCD  H36   .  H   0  ?       ?        ?       1  28
+TCD  H34   .  H   0  ?       ?        ?       1  29
+TCD  H3    .  H   0  ?       ?        ?       1  30
+TCD  H2    .  H   0  ?       ?        ?       1  31
+TCD  H24   .  H   0  ?       ?        ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCD  C1   O21   SING  1 
+TCD  C1   C6    DOUB  2 
+TCD  C1   C2    SING  3 
+TCD  O21  C22   SING  4 
+TCD  C2   C3    DOUB  5 
+TCD  C2   H2    SING  6 
+TCD  C3   C4    SING  7 
+TCD  C3   H3    SING  8 
+TCD  C4   C5    DOUB  9 
+TCD  C4   O31   SING  10
+TCD  O31  C32   SING  11
+TCD  C5   C6    SING  12
+TCD  C5   H5    SING  13
+TCD  C6   H6    SING  14
+TCD  C22  C27   DOUB  15
+TCD  C22  N23   SING  16
+TCD  N23  C24   DOUB  17
+TCD  C24  C25   SING  18
+TCD  C24  H24   SING  19
+TCD  C25  CL25  SING  20
+TCD  C25  C26   DOUB  21
+TCD  C26  C27   SING  22
+TCD  C26  H26   SING  23
+TCD  C27  CL27  SING  24
+TCD  C32  C37   DOUB  25
+TCD  C32  N33   SING  26
+TCD  N33  C34   DOUB  27
+TCD  C34  C35   SING  28
+TCD  C34  H34   SING  29
+TCD  C35  C36   DOUB  30
+TCD  C35  CL35  SING  31
+TCD  C36  C37   SING  32
+TCD  C36  H36   SING  33
+TCD  C37  CL37  SING  34
+#

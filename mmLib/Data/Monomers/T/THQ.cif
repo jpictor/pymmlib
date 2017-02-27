@@ -1,0 +1,77 @@
+data_THQ
+#
+_chem_comp.id                   THQ
+_chem_comp.name                 'PHOSPHORIC ACID MONO-[2-(4-METHYL-THIAZOL-5-YL)-ETHYL] ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N1 O4 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        223.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THQ  N1    .  N  0  ?  ?  ?  1  1 
+THQ  C1    .  C  0  ?  ?  ?  1  2 
+THQ  S1    .  S  0  ?  ?  ?  1  3 
+THQ  C2    .  C  0  ?  ?  ?  1  4 
+THQ  C3    .  C  0  ?  ?  ?  1  5 
+THQ  CM3   .  C  0  ?  ?  ?  1  6 
+THQ  C4    .  C  0  ?  ?  ?  1  7 
+THQ  C5    .  C  0  ?  ?  ?  1  8 
+THQ  O7    .  O  0  ?  ?  ?  1  9 
+THQ  P     .  P  0  ?  ?  ?  1  10
+THQ  O8    .  O  0  ?  ?  ?  1  11
+THQ  O9    .  O  0  ?  ?  ?  1  12
+THQ  O10   .  O  0  ?  ?  ?  1  13
+THQ  1H1   .  H  0  ?  ?  ?  0  14
+THQ  1HM3  .  H  0  ?  ?  ?  0  15
+THQ  2HM3  .  H  0  ?  ?  ?  0  16
+THQ  3HM3  .  H  0  ?  ?  ?  0  17
+THQ  1HC4  .  H  0  ?  ?  ?  0  18
+THQ  2HC4  .  H  0  ?  ?  ?  0  19
+THQ  1HC5  .  H  0  ?  ?  ?  0  20
+THQ  2HC5  .  H  0  ?  ?  ?  0  21
+THQ  1H10  .  H  0  ?  ?  ?  0  22
+THQ  1H9   .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THQ  N1   C1    DOUB  1 
+THQ  N1   C3    SING  2 
+THQ  C1   S1    SING  3 
+THQ  C1   1H1   SING  4 
+THQ  S1   C2    SING  5 
+THQ  C2   C3    DOUB  6 
+THQ  C2   C4    SING  7 
+THQ  C3   CM3   SING  8 
+THQ  CM3  1HM3  SING  9 
+THQ  CM3  2HM3  SING  10
+THQ  CM3  3HM3  SING  11
+THQ  C4   C5    SING  12
+THQ  C4   1HC4  SING  13
+THQ  C4   2HC4  SING  14
+THQ  C5   O7    SING  15
+THQ  C5   1HC5  SING  16
+THQ  C5   2HC5  SING  17
+THQ  O7   P     SING  18
+THQ  P    O8    DOUB  19
+THQ  P    O9    SING  20
+THQ  P    O10   SING  21
+THQ  O9   1H9   SING  22
+THQ  O10  1H10  SING  23
+#

@@ -1,0 +1,110 @@
+data_AP7
+#
+_chem_comp.id                       AP7
+_chem_comp.name                     'N1-PROTONATED ADENOSINE-5'-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            348.232
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AP7  C1*   .  C  0  83.398  19.268  -15.697  1  1 
+AP7  N1    .  N  0  81.627  20.963  -11.167  1  2 
+AP7  C2    .  C  0  81.943  21.604  -12.315  1  3 
+AP7  N3    .  N  0  82.404  21.094  -13.472  1  4 
+AP7  C4    .  C  0  82.532  19.744  -13.355  1  5 
+AP7  C5    .  C  0  82.257  18.967  -12.274  1  6 
+AP7  C6    .  C  0  81.778  19.612  -11.115  1  7 
+AP7  N6    .  N  0  81.459  18.977  -9.958   1  8 
+AP7  N7    .  N  0  82.513  17.648  -12.539  1  9 
+AP7  C8    .  C  0  82.945  17.653  -13.796  1  10
+AP7  N9    .  N  0  82.975  18.891  -14.332  1  11
+AP7  C2*   .  C  0  84.896  19.529  -15.819  1  12
+AP7  O2*   .  O  0  85.266  20.498  -16.774  1  13
+AP7  C3*   .  C  0  85.352  18.246  -16.458  1  14
+AP7  O3*   .  O  0  86.613  18.403  -17.106  1  15
+AP7  C4*   .  C  0  84.286  17.911  -17.496  1  16
+AP7  O4*   .  O  0  83.197  18.207  -16.604  1  17
+AP7  C5*   .  C  0  84.228  16.451  -17.884  1  18
+AP7  O5*   .  O  0  83.813  15.664  -16.770  1  19
+AP7  O1P   .  O  0  83.394  13.586  -18.082  1  20
+AP7  O2P   .  O  0  82.620  13.766  -15.680  1  21
+AP7  P     .  P  0  82.836  14.417  -16.992  1  22
+AP7  O3P   .  O  0  ?       ?       ?        1  23
+AP7  2HO*  .  H  0  86.160  20.791  -16.580  0  24
+AP7  H2*   .  H  0  85.387  19.634  -14.854  1  25
+AP7  H3*   .  H  0  85.463  17.435  -15.736  1  26
+AP7  H4*   .  H  0  84.502  18.507  -18.384  1  27
+AP7  H1*   .  H  0  82.849  20.154  -16.016  1  28
+AP7  H8    .  H  0  83.249  16.787  -14.366  1  29
+AP7  H2    .  H  0  81.778  22.667  -12.221  1  30
+AP7  H1    .  H  1  81.288  21.476  -10.366  1  31
+AP7  1H6   .  H  0  81.121  19.507  -9.167   0  32
+AP7  2H6   .  H  0  81.560  17.974  -9.887   0  33
+AP7  2H5*  .  H  0  85.217  16.148  -18.231  0  34
+AP7  1H5*  .  H  0  83.534  16.344  -18.719  0  35
+AP7  H3T   .  H  0  ?       ?       ?        1  36
+AP7  2HOP  .  H  0  ?       ?       ?        0  37
+AP7  3HOP  .  H  0  ?       ?       ?        0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AP7  C1*  O4*   SING  1 
+AP7  C1*  C2*   SING  2 
+AP7  C1*  H1*   SING  3 
+AP7  C1*  N9    SING  4 
+AP7  N1   C2    SING  5 
+AP7  N1   H1    SING  6 
+AP7  N1   C6    DOUB  7 
+AP7  C2   N3    DOUB  8 
+AP7  C2   H2    SING  9 
+AP7  N3   C4    SING  10
+AP7  C4   C5    DOUB  11
+AP7  C4   N9    SING  12
+AP7  C5   N7    SING  13
+AP7  C5   C6    SING  14
+AP7  C6   N6    SING  15
+AP7  N6   1H6   SING  16
+AP7  N6   2H6   SING  17
+AP7  N7   C8    DOUB  18
+AP7  C8   N9    SING  19
+AP7  C8   H8    SING  20
+AP7  C2*  O2*   SING  21
+AP7  C2*  H2*   SING  22
+AP7  C2*  C3*   SING  23
+AP7  O2*  2HO*  SING  24
+AP7  C3*  H3*   SING  25
+AP7  C3*  O3*   SING  26
+AP7  C3*  C4*   SING  27
+AP7  O3*  H3T   SING  28
+AP7  C4*  H4*   SING  29
+AP7  C4*  O4*   SING  30
+AP7  C4*  C5*   SING  31
+AP7  C5*  2H5*  SING  32
+AP7  C5*  1H5*  SING  33
+AP7  C5*  O5*   SING  34
+AP7  O5*  P     SING  35
+AP7  O1P  P     DOUB  36
+AP7  O2P  P     SING  37
+AP7  O2P  2HOP  SING  38
+AP7  P    O3P   SING  39
+AP7  O3P  3HOP  SING  40
+#

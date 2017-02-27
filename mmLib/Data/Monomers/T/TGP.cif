@@ -1,0 +1,108 @@
+data_TGP
+#
+_chem_comp.id                       TGP
+_chem_comp.name                     '5'-THIO-2'-DEOXY-GUANOSINE PHOSPHONIC ACID'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O6 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            363.284
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TGP  S5*   .  S  0  24.555  1.169   34.295  1  1 
+TGP  N9    .  N  0  22.296  -1.610  31.995  1  2 
+TGP  C4    .  C  0  21.520  -2.740  31.903  1  3 
+TGP  N3    .  N  0  20.171  -2.772  31.826  1  4 
+TGP  C2    .  C  0  19.715  -4.004  31.751  1  5 
+TGP  N2    .  N  0  18.409  -4.218  31.650  1  6 
+TGP  N1    .  N  0  20.514  -5.116  31.762  1  7 
+TGP  C6    .  C  0  21.906  -5.101  31.828  1  8 
+TGP  O6    .  O  0  22.535  -6.160  31.802  1  9 
+TGP  C5    .  C  0  22.408  -3.795  31.907  1  10
+TGP  N7    .  N  0  23.719  -3.339  31.997  1  11
+TGP  C8    .  C  0  23.605  -2.039  32.043  1  12
+TGP  C2*   .  C  0  21.597  0.293   33.450  1  13
+TGP  C5*   .  C  0  24.354  1.986   32.713  1  14
+TGP  C4*   .  C  0  22.935  1.823   32.215  1  15
+TGP  O4*   .  O  0  22.821  0.587   31.475  1  16
+TGP  C1*   .  C  0  21.816  -0.233  32.040  1  17
+TGP  C3*   .  C  0  21.849  1.779   33.286  1  18
+TGP  O3*   .  O  0  20.673  2.419   32.778  1  19
+TGP  O3P   .  O  0  ?       ?       ?       1  20
+TGP  P     .  P  0  ?       ?       ?       1  21
+TGP  O1P   .  O  0  ?       ?       ?       1  22
+TGP  O2P   .  O  0  ?       ?       ?       1  23
+TGP  3HOP  .  H  0  ?       ?       ?       0  24
+TGP  2HOP  .  H  0  ?       ?       ?       0  25
+TGP  1H5*  .  H  0  ?       ?       ?       0  26
+TGP  2H5*  .  H  0  ?       ?       ?       0  27
+TGP  H4*   .  H  0  ?       ?       ?       1  28
+TGP  H3*   .  H  0  ?       ?       ?       1  29
+TGP  1H2*  .  H  0  ?       ?       ?       0  30
+TGP  2H2*  .  H  0  ?       ?       ?       0  31
+TGP  H1*   .  H  0  ?       ?       ?       1  32
+TGP  H8    .  H  0  ?       ?       ?       1  33
+TGP  H1    .  H  0  ?       ?       ?       1  34
+TGP  1H2   .  H  0  ?       ?       ?       0  35
+TGP  2H2   .  H  0  ?       ?       ?       0  36
+TGP  H3T   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TGP  S5*  C5*   SING  1 
+TGP  S5*  P     SING  2 
+TGP  N9   C4    SING  3 
+TGP  N9   C8    SING  4 
+TGP  N9   C1*   SING  5 
+TGP  C4   N3    SING  6 
+TGP  C4   C5    DOUB  7 
+TGP  N3   C2    DOUB  8 
+TGP  C2   N2    SING  9 
+TGP  C2   N1    SING  10
+TGP  N2   1H2   SING  11
+TGP  N2   2H2   SING  12
+TGP  N1   C6    SING  13
+TGP  N1   H1    SING  14
+TGP  C6   O6    DOUB  15
+TGP  C6   C5    SING  16
+TGP  C5   N7    SING  17
+TGP  N7   C8    DOUB  18
+TGP  C8   H8    SING  19
+TGP  C2*  C1*   SING  20
+TGP  C2*  C3*   SING  21
+TGP  C2*  2H2*  SING  22
+TGP  C2*  1H2*  SING  23
+TGP  C5*  C4*   SING  24
+TGP  C5*  1H5*  SING  25
+TGP  C5*  2H5*  SING  26
+TGP  C4*  O4*   SING  27
+TGP  C4*  C3*   SING  28
+TGP  C4*  H4*   SING  29
+TGP  O4*  C1*   SING  30
+TGP  C1*  H1*   SING  31
+TGP  C3*  O3*   SING  32
+TGP  C3*  H3*   SING  33
+TGP  O3*  H3T   SING  34
+TGP  O3P  P     SING  35
+TGP  O3P  3HOP  SING  36
+TGP  P    O1P   DOUB  37
+TGP  P    O2P   SING  38
+TGP  O2P  2HOP  SING  39
+#

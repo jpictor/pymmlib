@@ -1,0 +1,124 @@
+data_BES
+#
+_chem_comp.id                   BES
+_chem_comp.name                 '2-(3-AMINO-2-HYDROXY-4-PHENYL-BUTYRYLAMINO)-4-METHYL-PENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H24 N2 O4'
+_chem_comp.pdbx_synonyms        BESTATIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.377
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BES  N2    .  N  0  ?  ?  ?  1  1 
+BES  C1    .  C  0  ?  ?  ?  1  2 
+BES  C6    .  C  0  ?  ?  ?  1  3 
+BES  C7    .  C  0  ?  ?  ?  1  4 
+BES  C8    .  C  0  ?  ?  ?  1  5 
+BES  C12   .  C  0  ?  ?  ?  1  6 
+BES  C9    .  C  0  ?  ?  ?  1  7 
+BES  C11   .  C  0  ?  ?  ?  1  8 
+BES  C10   .  C  0  ?  ?  ?  1  9 
+BES  C2    .  C  0  ?  ?  ?  1  10
+BES  O2    .  O  0  ?  ?  ?  1  11
+BES  C3    .  C  0  ?  ?  ?  1  12
+BES  O3    .  O  0  ?  ?  ?  1  13
+BES  N1    .  N  0  ?  ?  ?  1  14
+BES  C4    .  C  0  ?  ?  ?  1  15
+BES  C13   .  C  0  ?  ?  ?  1  16
+BES  C14   .  C  0  ?  ?  ?  1  17
+BES  C15   .  C  0  ?  ?  ?  1  18
+BES  C16   .  C  0  ?  ?  ?  1  19
+BES  C5    .  C  0  ?  ?  ?  1  20
+BES  O1    .  O  0  ?  ?  ?  1  21
+BES  O4    .  O  0  ?  ?  ?  1  22
+BES  H8    .  H  0  ?  ?  ?  1  23
+BES  H9    .  H  0  ?  ?  ?  1  24
+BES  H10   .  H  0  ?  ?  ?  1  25
+BES  H11   .  H  0  ?  ?  ?  1  26
+BES  H12   .  H  0  ?  ?  ?  1  27
+BES  1H6   .  H  0  ?  ?  ?  0  28
+BES  2H6   .  H  0  ?  ?  ?  0  29
+BES  H1    .  H  0  ?  ?  ?  1  30
+BES  1HN2  .  H  0  ?  ?  ?  0  31
+BES  2HN2  .  H  0  ?  ?  ?  0  32
+BES  H2    .  H  0  ?  ?  ?  1  33
+BES  HO2   .  H  0  ?  ?  ?  1  34
+BES  HN    .  H  0  ?  ?  ?  1  35
+BES  H4    .  H  0  ?  ?  ?  1  36
+BES  HO1   .  H  0  ?  ?  ?  1  37
+BES  1H13  .  H  0  ?  ?  ?  0  38
+BES  2H13  .  H  0  ?  ?  ?  0  39
+BES  H14   .  H  0  ?  ?  ?  1  40
+BES  1H15  .  H  0  ?  ?  ?  0  41
+BES  2H15  .  H  0  ?  ?  ?  0  42
+BES  3H15  .  H  0  ?  ?  ?  0  43
+BES  1H16  .  H  0  ?  ?  ?  0  44
+BES  2H16  .  H  0  ?  ?  ?  0  45
+BES  3H16  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BES  N2   C1    SING  1 
+BES  N2   1HN2  SING  2 
+BES  N2   2HN2  SING  3 
+BES  C1   C6    SING  4 
+BES  C1   C2    SING  5 
+BES  C1   H1    SING  6 
+BES  C6   C7    SING  7 
+BES  C6   1H6   SING  8 
+BES  C6   2H6   SING  9 
+BES  C7   C8    DOUB  10
+BES  C7   C12   SING  11
+BES  C8   C9    SING  12
+BES  C8   H8    SING  13
+BES  C12  C11   DOUB  14
+BES  C12  H12   SING  15
+BES  C9   C10   DOUB  16
+BES  C9   H9    SING  17
+BES  C11  C10   SING  18
+BES  C11  H11   SING  19
+BES  C10  H10   SING  20
+BES  C2   O2    SING  21
+BES  C2   C3    SING  22
+BES  C2   H2    SING  23
+BES  O2   HO2   SING  24
+BES  C3   O3    DOUB  25
+BES  C3   N1    SING  26
+BES  N1   C4    SING  27
+BES  N1   HN    SING  28
+BES  C4   C13   SING  29
+BES  C4   C5    SING  30
+BES  C4   H4    SING  31
+BES  C13  C14   SING  32
+BES  C13  1H13  SING  33
+BES  C13  2H13  SING  34
+BES  C14  C15   SING  35
+BES  C14  C16   SING  36
+BES  C14  H14   SING  37
+BES  C15  1H15  SING  38
+BES  C15  2H15  SING  39
+BES  C15  3H15  SING  40
+BES  C16  1H16  SING  41
+BES  C16  2H16  SING  42
+BES  C16  3H16  SING  43
+BES  C5   O1    SING  44
+BES  C5   O4    DOUB  45
+BES  O1   HO1   SING  46
+#

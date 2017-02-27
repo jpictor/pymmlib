@@ -1,0 +1,111 @@
+data_AVC
+#
+_chem_comp.id                       AVC
+_chem_comp.name                     ADENOSINE-5'-MONOPHOSPHATE-2',3'-VANADATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H12 N5 O9 P1 V1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            428.148
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AVC  O3P   .  O  0  ?  ?  ?  1  1 
+AVC  P     .  P  0  ?  ?  ?  1  2 
+AVC  O1P   .  O  0  ?  ?  ?  1  3 
+AVC  O2P   .  O  0  ?  ?  ?  1  4 
+AVC  O5*   .  O  0  ?  ?  ?  1  5 
+AVC  C5*   .  C  0  ?  ?  ?  1  6 
+AVC  C4*   .  C  0  ?  ?  ?  1  7 
+AVC  O4*   .  O  0  ?  ?  ?  1  8 
+AVC  C3*   .  C  0  ?  ?  ?  1  9 
+AVC  O3*   .  O  0  ?  ?  ?  1  10
+AVC  C2*   .  C  0  ?  ?  ?  1  11
+AVC  O2*   .  O  0  ?  ?  ?  1  12
+AVC  C1*   .  C  0  ?  ?  ?  1  13
+AVC  V     .  V  0  ?  ?  ?  1  14
+AVC  O1V   .  O  0  ?  ?  ?  1  15
+AVC  O2V   .  O  0  ?  ?  ?  1  16
+AVC  N9    .  N  0  ?  ?  ?  1  17
+AVC  C8    .  C  0  ?  ?  ?  1  18
+AVC  N7    .  N  0  ?  ?  ?  1  19
+AVC  C5    .  C  0  ?  ?  ?  1  20
+AVC  C6    .  C  0  ?  ?  ?  1  21
+AVC  N6    .  N  0  ?  ?  ?  1  22
+AVC  N1    .  N  0  ?  ?  ?  1  23
+AVC  C2    .  C  0  ?  ?  ?  1  24
+AVC  N3    .  N  0  ?  ?  ?  1  25
+AVC  C4    .  C  0  ?  ?  ?  1  26
+AVC  3HOP  .  H  0  ?  ?  ?  0  27
+AVC  2HOP  .  H  0  ?  ?  ?  0  28
+AVC  1H5*  .  H  0  ?  ?  ?  0  29
+AVC  2H5*  .  H  0  ?  ?  ?  0  30
+AVC  H4*   .  H  0  ?  ?  ?  1  31
+AVC  H3*   .  H  0  ?  ?  ?  1  32
+AVC  H2*   .  H  0  ?  ?  ?  1  33
+AVC  H1*   .  H  0  ?  ?  ?  1  34
+AVC  H8    .  H  0  ?  ?  ?  1  35
+AVC  1H6   .  H  0  ?  ?  ?  0  36
+AVC  2H6   .  H  0  ?  ?  ?  0  37
+AVC  H2    .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AVC  O3P  P     SING  1 
+AVC  O3P  3HOP  SING  2 
+AVC  P    O1P   DOUB  3 
+AVC  P    O2P   SING  4 
+AVC  P    O5*   SING  5 
+AVC  O2P  2HOP  SING  6 
+AVC  O5*  C5*   SING  7 
+AVC  C5*  C4*   SING  8 
+AVC  C5*  1H5*  SING  9 
+AVC  C5*  2H5*  SING  10
+AVC  C4*  O4*   SING  11
+AVC  C4*  C3*   SING  12
+AVC  C4*  H4*   SING  13
+AVC  O4*  C1*   SING  14
+AVC  C3*  O3*   SING  15
+AVC  C3*  C2*   SING  16
+AVC  C3*  H3*   SING  17
+AVC  O3*  V     SING  18
+AVC  C2*  O2*   SING  19
+AVC  C2*  C1*   SING  20
+AVC  C2*  H2*   SING  21
+AVC  O2*  V     SING  22
+AVC  C1*  N9    SING  23
+AVC  C1*  H1*   SING  24
+AVC  V    O1V   DOUB  25
+AVC  V    O2V   DOUB  26
+AVC  N9   C8    SING  27
+AVC  N9   C4    SING  28
+AVC  C8   N7    DOUB  29
+AVC  C8   H8    SING  30
+AVC  N7   C5    SING  31
+AVC  C5   C6    SING  32
+AVC  C5   C4    DOUB  33
+AVC  C6   N6    SING  34
+AVC  C6   N1    DOUB  35
+AVC  N6   1H6   SING  36
+AVC  N6   2H6   SING  37
+AVC  N1   C2    SING  38
+AVC  C2   N3    DOUB  39
+AVC  C2   H2    SING  40
+AVC  N3   C4    SING  41
+#

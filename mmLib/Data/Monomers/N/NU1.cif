@@ -1,0 +1,75 @@
+data_NU1
+#
+_chem_comp.id                   NU1
+_chem_comp.name                 8-HYDROXY-2-METHYL-3-HYDRO-QUINAZOLIN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 N2 O2'
+_chem_comp.pdbx_synonyms        NU1025
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NU1  C5   .  C  0  ?  ?  ?  1  1 
+NU1  O5   .  O  0  ?  ?  ?  1  2 
+NU1  C4A  .  C  0  ?  ?  ?  1  3 
+NU1  N4   .  N  0  ?  ?  ?  1  4 
+NU1  C3   .  C  0  ?  ?  ?  1  5 
+NU1  C9   .  C  0  ?  ?  ?  1  6 
+NU1  N2   .  N  0  ?  ?  ?  1  7 
+NU1  C1   .  C  0  ?  ?  ?  1  8 
+NU1  O1   .  O  0  ?  ?  ?  1  9 
+NU1  C8A  .  C  0  ?  ?  ?  1  10
+NU1  C8   .  C  0  ?  ?  ?  1  11
+NU1  C7   .  C  0  ?  ?  ?  1  12
+NU1  C6   .  C  0  ?  ?  ?  1  13
+NU1  HN2  .  H  0  ?  ?  ?  1  14
+NU1  1H9  .  H  0  ?  ?  ?  0  15
+NU1  2H9  .  H  0  ?  ?  ?  0  16
+NU1  3H9  .  H  0  ?  ?  ?  0  17
+NU1  HO5  .  H  0  ?  ?  ?  1  18
+NU1  H8   .  H  0  ?  ?  ?  1  19
+NU1  H7   .  H  0  ?  ?  ?  1  20
+NU1  H6   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NU1  C5   O5   SING  1 
+NU1  C5   C4A  SING  2 
+NU1  C5   C6   DOUB  3 
+NU1  O5   HO5  SING  4 
+NU1  C4A  N4   SING  5 
+NU1  C4A  C8A  DOUB  6 
+NU1  N4   C3   DOUB  7 
+NU1  C3   C9   SING  8 
+NU1  C3   N2   SING  9 
+NU1  C9   1H9  SING  10
+NU1  C9   2H9  SING  11
+NU1  C9   3H9  SING  12
+NU1  N2   C1   SING  13
+NU1  N2   HN2  SING  14
+NU1  C1   O1   DOUB  15
+NU1  C1   C8A  SING  16
+NU1  C8A  C8   SING  17
+NU1  C8   C7   DOUB  18
+NU1  C8   H8   SING  19
+NU1  C7   C6   SING  20
+NU1  C7   H7   SING  21
+NU1  C6   H6   SING  22
+#

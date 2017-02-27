@@ -1,0 +1,84 @@
+data_TN5
+#
+_chem_comp.id                   TN5
+_chem_comp.name                 2-(4-AMINO-2-CHLOROPHENOXY)-5-CHLOROPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N1 O2 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TN5  CL13  .  CL  0  13.437  94.314   23.965  0  1 
+TN5  C12   .  C   0  12.924  95.677   24.698  1  2 
+TN5  C11   .  C   0  11.544  95.708   25.219  1  3 
+TN5  C10   .  C   0  11.020  96.948   25.916  1  4 
+TN5  C9    .  C   0  11.889  98.165   26.090  1  5 
+TN5  C8    .  C   0  13.280  98.126   25.563  1  6 
+TN5  O2    .  O   0  14.088  99.206   25.710  1  7 
+TN5  C7    .  C   0  13.804  96.871   24.857  1  8 
+TN5  O1    .  O   0  11.303  99.284   26.759  1  9 
+TN5  C1    .  C   0  10.431  100.278  26.114  1  10
+TN5  C6    .  C   0  9.993   100.338  24.623  1  11
+TN5  C5    .  C   0  9.140   101.353  24.163  1  12
+TN5  C4    .  C   0  8.604   102.404  25.006  1  13
+TN5  N1    .  N   0  7.574   103.613  24.437  1  14
+TN5  C3    .  C   0  8.974   102.448  26.519  1  15
+TN5  C2    .  C   0  9.884   101.394  27.079  1  16
+TN5  CL14  .  CL  0  10.284  101.415  28.698  0  17
+TN5  1HN1  .  H   0  ?       ?        ?       0  18
+TN5  2HN1  .  H   0  ?       ?        ?       0  19
+TN5  H5    .  H   0  ?       ?        ?       1  20
+TN5  H6    .  H   0  ?       ?        ?       1  21
+TN5  H10   .  H   0  ?       ?        ?       1  22
+TN5  H11   .  H   0  ?       ?        ?       1  23
+TN5  H7    .  H   0  ?       ?        ?       1  24
+TN5  HO2   .  H   0  ?       ?        ?       1  25
+TN5  H3    .  H   0  ?       ?        ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TN5  CL13  C12   SING  1 
+TN5  C12   C11   AROM  2 
+TN5  C12   C7    AROM  3 
+TN5  C11   C10   AROM  4 
+TN5  C11   H11   SING  5 
+TN5  C10   C9    AROM  6 
+TN5  C10   H10   SING  7 
+TN5  C9    O1    SING  8 
+TN5  C9    C8    AROM  9 
+TN5  C8    C7    AROM  10
+TN5  C8    O2    SING  11
+TN5  O2    HO2   SING  12
+TN5  C7    H7    SING  13
+TN5  O1    C1    SING  14
+TN5  C1    C6    AROM  15
+TN5  C1    C2    AROM  16
+TN5  C6    C5    AROM  17
+TN5  C6    H6    SING  18
+TN5  C5    C4    AROM  19
+TN5  C5    H5    SING  20
+TN5  C4    N1    SING  21
+TN5  C4    C3    AROM  22
+TN5  N1    1HN1  SING  23
+TN5  N1    2HN1  SING  24
+TN5  C3    C2    AROM  25
+TN5  C3    H3    SING  26
+TN5  C2    CL14  SING  27
+#

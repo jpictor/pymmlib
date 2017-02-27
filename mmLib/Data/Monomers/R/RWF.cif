@@ -1,0 +1,111 @@
+data_RWF
+#
+_chem_comp.id                   RWF
+_chem_comp.name                 R-WARFARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H16 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.333
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RWF  C1    .  C  0  34.821  14.619  9.627   1  1 
+RWF  C2    .  C  0  30.851  14.227  9.572   1  2 
+RWF  C3    .  C  0  30.547  14.043  11.082  1  3 
+RWF  C4    .  C  0  29.077  14.052  11.407  1  4 
+RWF  C5    .  C  0  28.542  13.249  12.56   1  5 
+RWF  C6    .  C  0  30.536  12.952  8.741   1  6 
+RWF  C7    .  C  0  30.019  13.055  7.423   1  7 
+RWF  C8    .  C  0  29.731  11.896  6.651   1  8 
+RWF  C9    .  C  0  29.951  10.621  7.177   1  9 
+RWF  C10   .  C  0  30.451  10.496  8.453   1  10
+RWF  C11   .  C  0  32.479  15.914  8.56    1  11
+RWF  C12   .  C  0  30.746  11.641  9.242   1  12
+RWF  C13   .  C  0  32.306  14.71   9.369   1  13
+RWF  C14   .  C  0  33.448  14.092  9.891   1  14
+RWF  C15   .  C  0  36.037  14.039  10.111  1  15
+RWF  C16   .  C  0  37.28   14.618  9.785   1  16
+RWF  C17   .  C  0  37.339  15.779  8.973   1  17
+RWF  C18   .  C  0  36.165  16.37   8.49    1  18
+RWF  C19   .  C  0  34.918  15.785  8.818   1  19
+RWF  O1    .  O  0  33.773  16.4    8.314   1  20
+RWF  O2    .  O  0  31.57   16.557  8.053   1  21
+RWF  O3    .  O  0  28.233  14.817  10.585  1  22
+RWF  O4    .  O  0  33.449  12.975  10.662  1  23
+RWF  H15   .  H  0  36.002  13.169  10.718  1  24
+RWF  H2    .  H  0  30.176  15.007  9.189   1  25
+RWF  1H3C  .  H  0  30.969  13.08   11.407  0  26
+RWF  2H3C  .  H  0  30.999  14.897  11.608  0  27
+RWF  1H5C  .  H  0  27.442  13.264  12.539  0  28
+RWF  2H5C  .  H  0  28.896  12.211  12.479  0  29
+RWF  3H5C  .  H  0  28.896  13.685  13.506  0  30
+RWF  H7    .  H  0  29.844  14.015  7.006   1  31
+RWF  H12   .  H  0  31.13   11.513  10.223  1  32
+RWF  H8    .  H  0  29.346  12.001  5.667   1  33
+RWF  H9    .  H  0  29.735  9.757   6.599   1  34
+RWF  H10   .  H  0  30.619  9.528   8.855   1  35
+RWF  H4    .  H  0  34.277  12.61   10.974  1  36
+RWF  H16   .  H  0  38.177  14.183  10.149  1  37
+RWF  H17   .  H  0  38.281  16.204  8.729   1  38
+RWF  H18   .  H  0  36.209  17.243  7.887   1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RWF  C1   C14   SING  1 
+RWF  C1   C15   AROM  2 
+RWF  C1   C19   AROM  3 
+RWF  C2   C3    SING  4 
+RWF  C2   C6    SING  5 
+RWF  C2   C13   SING  6 
+RWF  C2   H2    SING  7 
+RWF  C3   C4    SING  8 
+RWF  C3   1H3C  SING  9 
+RWF  C3   2H3C  SING  10
+RWF  C4   C5    SING  11
+RWF  C4   O3    DOUB  12
+RWF  C5   1H5C  SING  13
+RWF  C5   2H5C  SING  14
+RWF  C5   3H5C  SING  15
+RWF  C6   C7    AROM  16
+RWF  C6   C12   AROM  17
+RWF  C7   C8    AROM  18
+RWF  C7   H7    SING  19
+RWF  C8   C9    AROM  20
+RWF  C8   H8    SING  21
+RWF  C9   C10   AROM  22
+RWF  C9   H9    SING  23
+RWF  C10  C12   AROM  24
+RWF  C10  H10   SING  25
+RWF  C11  C13   SING  26
+RWF  C11  O1    SING  27
+RWF  C11  O2    DOUB  28
+RWF  C12  H12   SING  29
+RWF  C13  C14   DOUB  30
+RWF  C14  O4    SING  31
+RWF  C15  C16   AROM  32
+RWF  C15  H15   SING  33
+RWF  C16  C17   AROM  34
+RWF  C16  H16   SING  35
+RWF  C17  C18   AROM  36
+RWF  C17  H17   SING  37
+RWF  C18  C19   AROM  38
+RWF  C18  H18   SING  39
+RWF  C19  O1    SING  40
+RWF  O4   H4    SING  41
+#

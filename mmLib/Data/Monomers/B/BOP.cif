@@ -1,0 +1,63 @@
+data_BOP
+#
+_chem_comp.id                   BOP
+_chem_comp.name                 1-BROMO-4-METHOXYBENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H7 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.036
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BOP  C2   .  C   0  47.648  30.827  97.591   1  1 
+BOP  C3   .  C   0  47.066  30.944  98.863   1  2 
+BOP  C4   .  C   0  47.846  31.051  100.003  1  3 
+BOP  C5   .  C   0  49.240  31.050  99.923   1  4 
+BOP  C6   .  C   0  49.835  30.953  98.652   1  5 
+BOP  O1   .  O   0  46.812  30.580  96.439   1  6 
+BOP  C7   .  C   0  46.684  31.561  95.364   1  7 
+BOP  BR1  .  BR  0  50.319  31.065  101.522  0  8 
+BOP  C1   .  C   0  49.052  30.844  97.488   1  9 
+BOP  H6   .  H   0  ?       ?       ?        1  10
+BOP  H1   .  H   0  ?       ?       ?        1  11
+BOP  1H7  .  H   0  ?       ?       ?        0  12
+BOP  2H7  .  H   0  ?       ?       ?        0  13
+BOP  3H7  .  H   0  ?       ?       ?        0  14
+BOP  H3   .  H   0  ?       ?       ?        1  15
+BOP  H4   .  H   0  ?       ?       ?        1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BOP  C2  C1   AROM  1 
+BOP  C2  O1   SING  2 
+BOP  C2  C3   AROM  3 
+BOP  C3  H3   SING  4 
+BOP  C3  C4   AROM  5 
+BOP  C4  H4   SING  6 
+BOP  C4  C5   AROM  7 
+BOP  C5  C6   AROM  8 
+BOP  C5  BR1  SING  9 
+BOP  C6  H6   SING  10
+BOP  C6  C1   AROM  11
+BOP  O1  C7   SING  12
+BOP  C7  1H7  SING  13
+BOP  C7  2H7  SING  14
+BOP  C7  3H7  SING  15
+BOP  C1  H1   SING  16
+#

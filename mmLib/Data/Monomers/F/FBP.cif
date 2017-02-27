@@ -1,0 +1,99 @@
+data_FBP
+#
+_chem_comp.id                   FBP
+_chem_comp.name                 FRUCTOSE-1,6-DIPHOSPHATE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FBP  P1    .  P  0  ?  ?  ?  1  1 
+FBP  O1P   .  O  0  ?  ?  ?  1  2 
+FBP  O2P   .  O  0  ?  ?  ?  1  3 
+FBP  O3P   .  O  0  ?  ?  ?  1  4 
+FBP  O1    .  O  0  ?  ?  ?  1  5 
+FBP  C1    .  C  0  ?  ?  ?  1  6 
+FBP  C2    .  C  0  ?  ?  ?  1  7 
+FBP  O2    .  O  0  ?  ?  ?  1  8 
+FBP  C3    .  C  0  ?  ?  ?  1  9 
+FBP  O3    .  O  0  ?  ?  ?  1  10
+FBP  C4    .  C  0  ?  ?  ?  1  11
+FBP  O4    .  O  0  ?  ?  ?  1  12
+FBP  C5    .  C  0  ?  ?  ?  1  13
+FBP  O5    .  O  0  ?  ?  ?  1  14
+FBP  C6    .  C  0  ?  ?  ?  1  15
+FBP  O6    .  O  0  ?  ?  ?  1  16
+FBP  P2    .  P  0  ?  ?  ?  1  17
+FBP  O4P   .  O  0  ?  ?  ?  1  18
+FBP  O5P   .  O  0  ?  ?  ?  1  19
+FBP  O6P   .  O  0  ?  ?  ?  1  20
+FBP  1H1   .  H  0  ?  ?  ?  0  21
+FBP  2H1   .  H  0  ?  ?  ?  0  22
+FBP  H3    .  H  0  ?  ?  ?  1  23
+FBP  H4    .  H  0  ?  ?  ?  1  24
+FBP  H5    .  H  0  ?  ?  ?  1  25
+FBP  1H6   .  H  0  ?  ?  ?  0  26
+FBP  2H6   .  H  0  ?  ?  ?  0  27
+FBP  HO2   .  H  0  ?  ?  ?  1  28
+FBP  HO3   .  H  0  ?  ?  ?  1  29
+FBP  HO4   .  H  0  ?  ?  ?  1  30
+FBP  2HOP  .  H  0  ?  ?  ?  0  31
+FBP  3HOP  .  H  0  ?  ?  ?  0  32
+FBP  5HOP  .  H  0  ?  ?  ?  0  33
+FBP  6HOP  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FBP  P1   O1    SING  1 
+FBP  P1   O1P   DOUB  2 
+FBP  P1   O2P   SING  3 
+FBP  P1   O3P   SING  4 
+FBP  O2P  2HOP  SING  5 
+FBP  O3P  3HOP  SING  6 
+FBP  O1   C1    SING  7 
+FBP  C1   C2    SING  8 
+FBP  C1   1H1   SING  9 
+FBP  C1   2H1   SING  10
+FBP  C2   O2    SING  11
+FBP  C2   C3    SING  12
+FBP  C2   O5    SING  13
+FBP  O2   HO2   SING  14
+FBP  C3   O3    SING  15
+FBP  C3   C4    SING  16
+FBP  C3   H3    SING  17
+FBP  O3   HO3   SING  18
+FBP  C4   O4    SING  19
+FBP  C4   C5    SING  20
+FBP  C4   H4    SING  21
+FBP  O4   HO4   SING  22
+FBP  C5   O5    SING  23
+FBP  C5   C6    SING  24
+FBP  C5   H5    SING  25
+FBP  C6   O6    SING  26
+FBP  C6   1H6   SING  27
+FBP  C6   2H6   SING  28
+FBP  O6   P2    SING  29
+FBP  P2   O4P   DOUB  30
+FBP  P2   O5P   SING  31
+FBP  P2   O6P   SING  32
+FBP  O5P  5HOP  SING  33
+FBP  O6P  6HOP  SING  34
+#

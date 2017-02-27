@@ -1,0 +1,149 @@
+data_LAD
+#
+_chem_comp.id                   LAD
+_chem_comp.name                 ADENOSINE-5'-[LYSYL-PHOSPHATE]
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H26 N7 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        475.397
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LAD  N     .  N  0  ?  ?  ?  1  1 
+LAD  CA    .  C  0  ?  ?  ?  1  2 
+LAD  CB    .  C  0  ?  ?  ?  1  3 
+LAD  CG    .  C  0  ?  ?  ?  1  4 
+LAD  CD    .  C  0  ?  ?  ?  1  5 
+LAD  CE    .  C  0  ?  ?  ?  1  6 
+LAD  NZ    .  N  0  ?  ?  ?  1  7 
+LAD  C     .  C  0  ?  ?  ?  1  8 
+LAD  O     .  O  0  ?  ?  ?  1  9 
+LAD  PA    .  P  0  ?  ?  ?  1  10
+LAD  O5'   .  O  0  ?  ?  ?  1  11
+LAD  C5'   .  C  0  ?  ?  ?  1  12
+LAD  C4'   .  C  0  ?  ?  ?  1  13
+LAD  O4'   .  O  0  ?  ?  ?  1  14
+LAD  C1'   .  C  0  ?  ?  ?  1  15
+LAD  N9    .  N  0  ?  ?  ?  1  16
+LAD  C4    .  C  0  ?  ?  ?  1  17
+LAD  N3    .  N  0  ?  ?  ?  1  18
+LAD  C2    .  C  0  ?  ?  ?  1  19
+LAD  N1    .  N  0  ?  ?  ?  1  20
+LAD  C6    .  C  0  ?  ?  ?  1  21
+LAD  N6    .  N  0  ?  ?  ?  1  22
+LAD  C5    .  C  0  ?  ?  ?  1  23
+LAD  N7    .  N  0  ?  ?  ?  1  24
+LAD  C8    .  C  0  ?  ?  ?  1  25
+LAD  C2'   .  C  0  ?  ?  ?  1  26
+LAD  O2'   .  O  0  ?  ?  ?  1  27
+LAD  C3'   .  C  0  ?  ?  ?  1  28
+LAD  O3'   .  O  0  ?  ?  ?  1  29
+LAD  O1A   .  O  0  ?  ?  ?  1  30
+LAD  O2A   .  O  0  ?  ?  ?  1  31
+LAD  O3A   .  O  0  ?  ?  ?  1  32
+LAD  2H    .  H  0  ?  ?  ?  0  33
+LAD  1H    .  H  0  ?  ?  ?  0  34
+LAD  HA    .  H  0  ?  ?  ?  1  35
+LAD  2HB   .  H  0  ?  ?  ?  0  36
+LAD  1HB   .  H  0  ?  ?  ?  0  37
+LAD  2HG   .  H  0  ?  ?  ?  0  38
+LAD  1HG   .  H  0  ?  ?  ?  0  39
+LAD  2HD   .  H  0  ?  ?  ?  0  40
+LAD  1HD   .  H  0  ?  ?  ?  0  41
+LAD  2HE   .  H  0  ?  ?  ?  0  42
+LAD  1HE   .  H  0  ?  ?  ?  0  43
+LAD  2HZ   .  H  0  ?  ?  ?  0  44
+LAD  1HZ   .  H  0  ?  ?  ?  0  45
+LAD  2H5'  .  H  0  ?  ?  ?  0  46
+LAD  1H5'  .  H  0  ?  ?  ?  0  47
+LAD  H4'   .  H  0  ?  ?  ?  1  48
+LAD  H2    .  H  0  ?  ?  ?  1  49
+LAD  H1'   .  H  0  ?  ?  ?  1  50
+LAD  H8    .  H  0  ?  ?  ?  1  51
+LAD  H2'   .  H  0  ?  ?  ?  1  52
+LAD  1H2O  .  H  0  ?  ?  ?  0  53
+LAD  H3'   .  H  0  ?  ?  ?  1  54
+LAD  1H3O  .  H  0  ?  ?  ?  0  55
+LAD  2H6   .  H  0  ?  ?  ?  0  56
+LAD  1H6   .  H  0  ?  ?  ?  0  57
+LAD  OH2A  .  H  0  ?  ?  ?  0  58
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LAD  N    CA    SING  1 
+LAD  N    2H    SING  2 
+LAD  N    1H    SING  3 
+LAD  CA   CB    SING  4 
+LAD  CA   C     SING  5 
+LAD  CA   HA    SING  6 
+LAD  CB   CG    SING  7 
+LAD  CB   2HB   SING  8 
+LAD  CB   1HB   SING  9 
+LAD  CG   CD    SING  10
+LAD  CG   2HG   SING  11
+LAD  CG   1HG   SING  12
+LAD  CD   CE    SING  13
+LAD  CD   2HD   SING  14
+LAD  CD   1HD   SING  15
+LAD  CE   NZ    SING  16
+LAD  CE   2HE   SING  17
+LAD  CE   1HE   SING  18
+LAD  NZ   2HZ   SING  19
+LAD  NZ   1HZ   SING  20
+LAD  C    O     DOUB  21
+LAD  C    O3A   SING  22
+LAD  PA   O5'   SING  23
+LAD  PA   O1A   DOUB  24
+LAD  PA   O2A   SING  25
+LAD  PA   O3A   SING  26
+LAD  O5'  C5'   SING  27
+LAD  C5'  C4'   SING  28
+LAD  C5'  2H5'  SING  29
+LAD  C5'  1H5'  SING  30
+LAD  C4'  O4'   SING  31
+LAD  C4'  C3'   SING  32
+LAD  C4'  H4'   SING  33
+LAD  O4'  C1'   SING  34
+LAD  C1'  N9    SING  35
+LAD  C1'  C2'   SING  36
+LAD  C1'  H1'   SING  37
+LAD  N9   C4    SING  38
+LAD  N9   C8    SING  39
+LAD  C4   N3    AROM  40
+LAD  C4   C5    AROM  41
+LAD  N3   C2    AROM  42
+LAD  C2   N1    AROM  43
+LAD  C2   H2    SING  44
+LAD  N1   C6    AROM  45
+LAD  C6   N6    SING  46
+LAD  C6   C5    AROM  47
+LAD  N6   2H6   SING  48
+LAD  N6   1H6   SING  49
+LAD  C5   N7    SING  50
+LAD  N7   C8    DOUB  51
+LAD  C8   H8    SING  52
+LAD  C2'  O2'   SING  53
+LAD  C2'  C3'   SING  54
+LAD  C2'  H2'   SING  55
+LAD  O2'  1H2O  SING  56
+LAD  C3'  O3'   SING  57
+LAD  C3'  H3'   SING  58
+LAD  O3'  1H3O  SING  59
+LAD  O2A  OH2A  SING  60
+#

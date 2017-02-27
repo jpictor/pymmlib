@@ -1,0 +1,66 @@
+data_HMB
+#
+_chem_comp.id                   HMB
+_chem_comp.name                 4-HYDROXY-4-METHOXYBUTANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HMB  CA   .  C  0  ?  ?  ?  1  1 
+HMB  CB   .  C  0  ?  ?  ?  1  2 
+HMB  CG   .  C  0  ?  ?  ?  1  3 
+HMB  CE   .  C  0  ?  ?  ?  1  4 
+HMB  C    .  C  0  ?  ?  ?  1  5 
+HMB  OD1  .  O  0  ?  ?  ?  1  6 
+HMB  OD2  .  O  0  ?  ?  ?  1  7 
+HMB  O    .  O  0  ?  ?  ?  1  8 
+HMB  1HA  .  H  0  ?  ?  ?  0  9 
+HMB  2HA  .  H  0  ?  ?  ?  0  10
+HMB  1HB  .  H  0  ?  ?  ?  0  11
+HMB  2HB  .  H  0  ?  ?  ?  0  12
+HMB  HG   .  H  0  ?  ?  ?  1  13
+HMB  1HE  .  H  0  ?  ?  ?  0  14
+HMB  2HE  .  H  0  ?  ?  ?  0  15
+HMB  3HE  .  H  0  ?  ?  ?  0  16
+HMB  H1   .  H  0  ?  ?  ?  1  17
+HMB  HD1  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HMB  CA   CB   SING  1 
+HMB  CA   C    SING  2 
+HMB  CA   1HA  SING  3 
+HMB  CA   2HA  SING  4 
+HMB  CB   CG   SING  5 
+HMB  CB   1HB  SING  6 
+HMB  CB   2HB  SING  7 
+HMB  CG   OD1  SING  8 
+HMB  CG   OD2  SING  9 
+HMB  CG   HG   SING  10
+HMB  CE   OD2  SING  11
+HMB  CE   1HE  SING  12
+HMB  CE   2HE  SING  13
+HMB  CE   3HE  SING  14
+HMB  C    O    DOUB  15
+HMB  C    H1   SING  16
+HMB  OD1  HD1  SING  17
+#

@@ -1,0 +1,97 @@
+data_LLY
+#
+_chem_comp.id                       LLY
+_chem_comp.name                     NZ-(DICARBOXYMETHYL)LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H16 N2 O6'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            248.235
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LLY  N    .  N  0  ?  ?  ?  1  1 
+LLY  CA   .  C  0  ?  ?  ?  1  2 
+LLY  CB   .  C  0  ?  ?  ?  1  3 
+LLY  CG   .  C  0  ?  ?  ?  1  4 
+LLY  CD   .  C  0  ?  ?  ?  1  5 
+LLY  CE   .  C  0  ?  ?  ?  1  6 
+LLY  NZ   .  N  0  ?  ?  ?  1  7 
+LLY  CH   .  C  0  ?  ?  ?  1  8 
+LLY  C1   .  C  0  ?  ?  ?  1  9 
+LLY  O1   .  O  0  ?  ?  ?  1  10
+LLY  O2   .  O  0  ?  ?  ?  1  11
+LLY  C2   .  C  0  ?  ?  ?  1  12
+LLY  O3   .  O  0  ?  ?  ?  1  13
+LLY  O4   .  O  0  ?  ?  ?  1  14
+LLY  C    .  C  0  ?  ?  ?  1  15
+LLY  O    .  O  0  ?  ?  ?  1  16
+LLY  OXT  .  O  0  ?  ?  ?  1  17
+LLY  1HN  .  H  0  ?  ?  ?  0  18
+LLY  2HN  .  H  0  ?  ?  ?  0  19
+LLY  HA   .  H  0  ?  ?  ?  1  20
+LLY  1HB  .  H  0  ?  ?  ?  0  21
+LLY  2HB  .  H  0  ?  ?  ?  0  22
+LLY  1HG  .  H  0  ?  ?  ?  0  23
+LLY  2HG  .  H  0  ?  ?  ?  0  24
+LLY  1HD  .  H  0  ?  ?  ?  0  25
+LLY  2HD  .  H  0  ?  ?  ?  0  26
+LLY  1HE  .  H  0  ?  ?  ?  0  27
+LLY  2HE  .  H  0  ?  ?  ?  0  28
+LLY  HNZ  .  H  0  ?  ?  ?  1  29
+LLY  HH   .  H  0  ?  ?  ?  1  30
+LLY  HO2  .  H  0  ?  ?  ?  1  31
+LLY  HO4  .  H  0  ?  ?  ?  1  32
+LLY  HXT  .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LLY  N    CA   SING  1 
+LLY  N    1HN  SING  2 
+LLY  N    2HN  SING  3 
+LLY  CA   CB   SING  4 
+LLY  CA   C    SING  5 
+LLY  CA   HA   SING  6 
+LLY  CB   CG   SING  7 
+LLY  CB   1HB  SING  8 
+LLY  CB   2HB  SING  9 
+LLY  CG   CD   SING  10
+LLY  CG   1HG  SING  11
+LLY  CG   2HG  SING  12
+LLY  CD   CE   SING  13
+LLY  CD   1HD  SING  14
+LLY  CD   2HD  SING  15
+LLY  CE   NZ   SING  16
+LLY  CE   1HE  SING  17
+LLY  CE   2HE  SING  18
+LLY  NZ   CH   SING  19
+LLY  NZ   HNZ  SING  20
+LLY  CH   C1   SING  21
+LLY  CH   C2   SING  22
+LLY  CH   HH   SING  23
+LLY  C1   O1   DOUB  24
+LLY  C1   O2   SING  25
+LLY  O2   HO2  SING  26
+LLY  C2   O3   DOUB  27
+LLY  C2   O4   SING  28
+LLY  O4   HO4  SING  29
+LLY  C    O    DOUB  30
+LLY  C    OXT  SING  31
+LLY  OXT  HXT  SING  32
+#

@@ -1,0 +1,75 @@
+data_FME
+#
+_chem_comp.id                       FME
+_chem_comp.name                     N-FORMYLMETHIONINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H11 N1 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            177.218
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FME  N    .  N  0  ?  ?  ?  1  1 
+FME  CN   .  C  0  ?  ?  ?  1  2 
+FME  O1   .  O  0  ?  ?  ?  1  3 
+FME  CA   .  C  0  ?  ?  ?  1  4 
+FME  CB   .  C  0  ?  ?  ?  1  5 
+FME  CG   .  C  0  ?  ?  ?  1  6 
+FME  SD   .  S  0  ?  ?  ?  1  7 
+FME  CE   .  C  0  ?  ?  ?  1  8 
+FME  C    .  C  0  ?  ?  ?  1  9 
+FME  O    .  O  0  ?  ?  ?  1  10
+FME  OXT  .  O  0  ?  ?  ?  1  11
+FME  HN   .  H  0  ?  ?  ?  1  12
+FME  HCN  .  H  0  ?  ?  ?  1  13
+FME  HA   .  H  0  ?  ?  ?  1  14
+FME  1HB  .  H  0  ?  ?  ?  0  15
+FME  2HB  .  H  0  ?  ?  ?  0  16
+FME  1HG  .  H  0  ?  ?  ?  0  17
+FME  2HG  .  H  0  ?  ?  ?  0  18
+FME  1HE  .  H  0  ?  ?  ?  0  19
+FME  2HE  .  H  0  ?  ?  ?  0  20
+FME  3HE  .  H  0  ?  ?  ?  0  21
+FME  HXT  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FME  N    CA   SING  1 
+FME  N    CN   SING  2 
+FME  N    HN   SING  3 
+FME  CN   O1   DOUB  4 
+FME  CN   HCN  SING  5 
+FME  CA   CB   SING  6 
+FME  CA   C    SING  7 
+FME  CA   HA   SING  8 
+FME  CB   CG   SING  9 
+FME  CB   1HB  SING  10
+FME  CB   2HB  SING  11
+FME  CG   SD   SING  12
+FME  CG   1HG  SING  13
+FME  CG   2HG  SING  14
+FME  SD   CE   SING  15
+FME  CE   1HE  SING  16
+FME  CE   2HE  SING  17
+FME  CE   3HE  SING  18
+FME  C    O    DOUB  19
+FME  C    OXT  SING  20
+FME  OXT  HXT  SING  21
+#

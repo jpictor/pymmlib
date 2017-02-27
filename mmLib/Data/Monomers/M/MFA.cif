@@ -1,0 +1,83 @@
+data_MFA
+#
+_chem_comp.id                   MFA
+_chem_comp.name                 ALPHA-L-1-METHYL-FUCOSE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MFA  C1   .  C  0  45.739  -5.212  21.867  1  1 
+MFA  CM   .  C  0  47.369  -6.950  22.055  1  2 
+MFA  O1   .  O  0  46.125  -6.391  22.519  1  3 
+MFA  C2   .  C  0  44.256  -4.919  22.156  1  4 
+MFA  O2   .  O  0  43.468  -6.061  21.847  1  5 
+MFA  C3   .  C  0  44.074  -4.549  23.631  1  6 
+MFA  O3   .  O  0  42.716  -4.195  23.877  1  7 
+MFA  C4   .  C  0  44.993  -3.380  23.993  1  8 
+MFA  O4   .  O  0  44.595  -2.220  23.274  1  9 
+MFA  C5   .  C  0  46.445  -3.734  23.641  1  10
+MFA  O5   .  O  0  46.544  -4.098  22.250  1  11
+MFA  C6   .  C  0  47.404  -2.583  23.862  1  12
+MFA  H1   .  H  0  ?       ?       ?       1  13
+MFA  H2   .  H  0  ?       ?       ?       1  14
+MFA  H3   .  H  0  ?       ?       ?       1  15
+MFA  H4   .  H  0  ?       ?       ?       1  16
+MFA  H5   .  H  0  ?       ?       ?       1  17
+MFA  1H6  .  H  0  ?       ?       ?       0  18
+MFA  2H6  .  H  0  ?       ?       ?       0  19
+MFA  3H6  .  H  0  ?       ?       ?       0  20
+MFA  HO2  .  H  0  ?       ?       ?       1  21
+MFA  HO3  .  H  0  ?       ?       ?       1  22
+MFA  HO4  .  H  0  ?       ?       ?       1  23
+MFA  1HM  .  H  0  ?       ?       ?       0  24
+MFA  2HM  .  H  0  ?       ?       ?       0  25
+MFA  3HM  .  H  0  ?       ?       ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MFA  C1  C2   SING  1 
+MFA  C1  O1   SING  2 
+MFA  C1  O5   SING  3 
+MFA  C1  H1   SING  4 
+MFA  CM  O1   SING  5 
+MFA  CM  1HM  SING  6 
+MFA  CM  2HM  SING  7 
+MFA  CM  3HM  SING  8 
+MFA  C2  C3   SING  9 
+MFA  C2  O2   SING  10
+MFA  C2  H2   SING  11
+MFA  O2  HO2  SING  12
+MFA  C3  C4   SING  13
+MFA  C3  O3   SING  14
+MFA  C3  H3   SING  15
+MFA  O3  HO3  SING  16
+MFA  C4  C5   SING  17
+MFA  C4  O4   SING  18
+MFA  C4  H4   SING  19
+MFA  O4  HO4  SING  20
+MFA  C5  C6   SING  21
+MFA  C5  O5   SING  22
+MFA  C5  H5   SING  23
+MFA  C6  1H6  SING  24
+MFA  C6  2H6  SING  25
+MFA  C6  3H6  SING  26
+#

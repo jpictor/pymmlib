@@ -1,0 +1,120 @@
+data_RTP
+#
+_chem_comp.id                   RTP
+_chem_comp.name                 'RIBAVIRIN TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C8 H15 N4 O14 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        484.146
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RTP  PG    .  P  0  70.020  29.191  2.189   1  1 
+RTP  O1G   .  O  0  70.409  30.443  2.901   1  2 
+RTP  O2G   .  O  0  70.177  27.903  2.924   1  3 
+RTP  O3G   .  O  0  70.685  29.321  0.861   1  4 
+RTP  O3B   .  O  0  68.437  29.314  1.886   1  5 
+RTP  PB    .  P  0  67.311  29.181  0.737   1  6 
+RTP  O1B   .  O  0  67.584  27.980  -0.098  1  7 
+RTP  O2B   .  O  0  65.983  29.325  1.375   1  8 
+RTP  O3A   .  O  0  67.487  30.449  -0.215  1  9 
+RTP  PA    .  P  0  68.207  30.674  -1.621  1  10
+RTP  O1A   .  O  0  67.190  30.730  -2.704  1  11
+RTP  O2A   .  O  0  69.352  29.735  -1.730  1  12
+RTP  O5*   .  O  0  68.785  32.135  -1.384  1  13
+RTP  C5*   .  C  0  69.785  32.353  -0.404  1  14
+RTP  C4*   .  C  0  69.334  33.411  0.564   1  15
+RTP  O4*   .  O  0  69.362  34.711  -0.084  1  16
+RTP  C1*   .  C  0  68.201  35.460  0.267   1  17
+RTP  N1    .  N  0  67.387  35.609  -0.934  1  18
+RTP  N2    .  N  0  66.752  36.747  -1.340  1  19
+RTP  N3    .  N  0  65.275  38.586  -2.723  1  20
+RTP  C6    .  C  0  65.313  37.310  -3.290  1  21
+RTP  O3    .  O  0  64.696  37.078  -4.335  1  22
+RTP  C3    .  C  0  66.101  36.421  -2.524  1  23
+RTP  N4    .  N  0  66.346  35.087  -2.837  1  24
+RTP  C5    .  C  0  67.106  34.651  -1.873  1  25
+RTP  C2*   .  C  0  67.472  34.699  1.377   1  26
+RTP  O2*   .  O  0  67.955  35.138  2.635   1  27
+RTP  C3*   .  C  0  67.903  33.287  1.044   1  28
+RTP  O3*   .  O  0  67.799  32.412  2.159   1  29
+RTP  2HOG  .  H  0  ?       ?       ?       0  30
+RTP  3HOG  .  H  0  ?       ?       ?       0  31
+RTP  2HOB  .  H  0  ?       ?       ?       0  32
+RTP  2HOA  .  H  0  ?       ?       ?       0  33
+RTP  1H5*  .  H  0  ?       ?       ?       0  34
+RTP  2H5*  .  H  0  ?       ?       ?       0  35
+RTP  *HO3  .  H  0  ?       ?       ?       0  36
+RTP  H3*   .  H  0  ?       ?       ?       1  37
+RTP  H4*   .  H  0  ?       ?       ?       1  38
+RTP  H2*   .  H  0  ?       ?       ?       1  39
+RTP  *HO2  .  H  0  ?       ?       ?       0  40
+RTP  H1*   .  H  0  ?       ?       ?       1  41
+RTP  H5    .  H  0  ?       ?       ?       1  42
+RTP  1HN3  .  H  0  ?       ?       ?       0  43
+RTP  2HN3  .  H  0  ?       ?       ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RTP  PG   O1G   DOUB  1 
+RTP  PG   O2G   SING  2 
+RTP  PG   O3G   SING  3 
+RTP  PG   O3B   SING  4 
+RTP  O2G  2HOG  SING  5 
+RTP  O3G  3HOG  SING  6 
+RTP  O3B  PB    SING  7 
+RTP  PB   O1B   DOUB  8 
+RTP  PB   O2B   SING  9 
+RTP  PB   O3A   SING  10
+RTP  O2B  2HOB  SING  11
+RTP  O3A  PA    SING  12
+RTP  PA   O1A   DOUB  13
+RTP  PA   O2A   SING  14
+RTP  PA   O5*   SING  15
+RTP  O2A  2HOA  SING  16
+RTP  O5*  C5*   SING  17
+RTP  C5*  C4*   SING  18
+RTP  C5*  1H5*  SING  19
+RTP  C5*  2H5*  SING  20
+RTP  C4*  O4*   SING  21
+RTP  C4*  C3*   SING  22
+RTP  C4*  H4*   SING  23
+RTP  O4*  C1*   SING  24
+RTP  C1*  N1    SING  25
+RTP  C1*  C2*   SING  26
+RTP  C1*  H1*   SING  27
+RTP  N1   N2    AROM  28
+RTP  N1   C5    AROM  29
+RTP  N2   C3    AROM  30
+RTP  N3   C6    SING  31
+RTP  N3   1HN3  SING  32
+RTP  N3   2HN3  SING  33
+RTP  C6   O3    DOUB  34
+RTP  C6   C3    SING  35
+RTP  C3   N4    AROM  36
+RTP  N4   C5    AROM  37
+RTP  C5   H5    SING  38
+RTP  C2*  O2*   SING  39
+RTP  C2*  C3*   SING  40
+RTP  C2*  H2*   SING  41
+RTP  O2*  *HO2  SING  42
+RTP  C3*  O3*   SING  43
+RTP  C3*  H3*   SING  44
+RTP  O3*  *HO3  SING  45
+#

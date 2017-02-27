@@ -1,0 +1,147 @@
+data_NHS
+#
+_chem_comp.id                   NHS
+_chem_comp.name                 '10-FORMYL-5,8,10-TRIDEAZAFOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C23 H22 N4 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        482.449
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NHS  N1    .  N  0  ?  ?  ?  1  1 
+NHS  C2    .  C  0  ?  ?  ?  1  2 
+NHS  NA2   .  N  0  ?  ?  ?  1  3 
+NHS  N3    .  N  0  ?  ?  ?  1  4 
+NHS  C4    .  C  0  ?  ?  ?  1  5 
+NHS  O4    .  O  0  ?  ?  ?  1  6 
+NHS  C4A   .  C  0  ?  ?  ?  1  7 
+NHS  C5    .  C  0  ?  ?  ?  1  8 
+NHS  C6    .  C  0  ?  ?  ?  1  9 
+NHS  C7    .  C  0  ?  ?  ?  1  10
+NHS  C8    .  C  0  ?  ?  ?  1  11
+NHS  C8A   .  C  0  ?  ?  ?  1  12
+NHS  C9    .  C  0  ?  ?  ?  1  13
+NHS  C10   .  C  0  ?  ?  ?  1  14
+NHS  C11   .  C  0  ?  ?  ?  1  15
+NHS  C12   .  C  0  ?  ?  ?  1  16
+NHS  C13   .  C  0  ?  ?  ?  1  17
+NHS  C14   .  C  0  ?  ?  ?  1  18
+NHS  C15   .  C  0  ?  ?  ?  1  19
+NHS  C16   .  C  0  ?  ?  ?  1  20
+NHS  C     .  C  0  ?  ?  ?  1  21
+NHS  O     .  O  0  ?  ?  ?  1  22
+NHS  N     .  N  0  ?  ?  ?  1  23
+NHS  CA    .  C  0  ?  ?  ?  1  24
+NHS  CB    .  C  0  ?  ?  ?  1  25
+NHS  CG    .  C  0  ?  ?  ?  1  26
+NHS  CD    .  C  0  ?  ?  ?  1  27
+NHS  OE1   .  O  0  ?  ?  ?  1  28
+NHS  OE2   .  O  0  ?  ?  ?  1  29
+NHS  CT    .  C  0  ?  ?  ?  1  30
+NHS  O1    .  O  0  ?  ?  ?  1  31
+NHS  O2    .  O  0  ?  ?  ?  1  32
+NHS  CA1   .  C  0  ?  ?  ?  1  33
+NHS  OA1   .  O  0  ?  ?  ?  1  34
+NHS  OA2   .  O  0  ?  ?  ?  1  35
+NHS  1HN2  .  H  0  ?  ?  ?  0  36
+NHS  2HN2  .  H  0  ?  ?  ?  0  37
+NHS  HN3   .  H  0  ?  ?  ?  1  38
+NHS  H5    .  H  0  ?  ?  ?  1  39
+NHS  H7    .  H  0  ?  ?  ?  1  40
+NHS  H8    .  H  0  ?  ?  ?  1  41
+NHS  1H9   .  H  0  ?  ?  ?  0  42
+NHS  2H9   .  H  0  ?  ?  ?  0  43
+NHS  H10   .  H  0  ?  ?  ?  1  44
+NHS  H12   .  H  0  ?  ?  ?  1  45
+NHS  H13   .  H  0  ?  ?  ?  1  46
+NHS  H15   .  H  0  ?  ?  ?  1  47
+NHS  H16   .  H  0  ?  ?  ?  1  48
+NHS  HN    .  H  0  ?  ?  ?  1  49
+NHS  HA    .  H  0  ?  ?  ?  1  50
+NHS  1HB   .  H  0  ?  ?  ?  0  51
+NHS  2HB   .  H  0  ?  ?  ?  0  52
+NHS  1HG   .  H  0  ?  ?  ?  0  53
+NHS  2HG   .  H  0  ?  ?  ?  0  54
+NHS  2HOE  .  H  0  ?  ?  ?  0  55
+NHS  HO2   .  H  0  ?  ?  ?  1  56
+NHS  HXT   .  H  0  ?  ?  ?  1  57
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NHS  N1   C2    DOUB  1 
+NHS  N1   C8A   SING  2 
+NHS  C2   NA2   SING  3 
+NHS  C2   N3    SING  4 
+NHS  NA2  1HN2  SING  5 
+NHS  NA2  2HN2  SING  6 
+NHS  N3   C4    SING  7 
+NHS  N3   HN3   SING  8 
+NHS  C4   O4    DOUB  9 
+NHS  C4   C4A   SING  10
+NHS  C4A  C5    DOUB  11
+NHS  C4A  C8A   SING  12
+NHS  C5   C6    SING  13
+NHS  C5   H5    SING  14
+NHS  C6   C7    DOUB  15
+NHS  C6   C9    SING  16
+NHS  C7   C8    SING  17
+NHS  C7   H7    SING  18
+NHS  C8   C8A   DOUB  19
+NHS  C8   H8    SING  20
+NHS  C9   C10   SING  21
+NHS  C9   1H9   SING  22
+NHS  C9   2H9   SING  23
+NHS  C10  C14   SING  24
+NHS  C10  CA1   SING  25
+NHS  C10  H10   SING  26
+NHS  C11  C12   DOUB  27
+NHS  C11  C16   SING  28
+NHS  C11  C     SING  29
+NHS  C12  C13   SING  30
+NHS  C12  H12   SING  31
+NHS  C13  C14   DOUB  32
+NHS  C13  H13   SING  33
+NHS  C14  C15   SING  34
+NHS  C15  C16   DOUB  35
+NHS  C15  H15   SING  36
+NHS  C16  H16   SING  37
+NHS  C    O     DOUB  38
+NHS  C    N     SING  39
+NHS  N    CA    SING  40
+NHS  N    HN    SING  41
+NHS  CA   CB    SING  42
+NHS  CA   CT    SING  43
+NHS  CA   HA    SING  44
+NHS  CB   CG    SING  45
+NHS  CB   1HB   SING  46
+NHS  CB   2HB   SING  47
+NHS  CG   CD    SING  48
+NHS  CG   1HG   SING  49
+NHS  CG   2HG   SING  50
+NHS  CD   OE1   DOUB  51
+NHS  CD   OE2   SING  52
+NHS  OE2  2HOE  SING  53
+NHS  CT   O1    DOUB  54
+NHS  CT   O2    SING  55
+NHS  O2   HO2   SING  56
+NHS  CA1  OA1   SING  57
+NHS  CA1  OA2   DOUB  58
+NHS  OA1  HXT   SING  59
+#

@@ -1,0 +1,71 @@
+data_XAA
+#
+_chem_comp.id                   XAA
+_chem_comp.name                 (1S,2S)-1-AMINO-1-(1,3-THIAZOL-2-YL)PROPAN-2-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N2 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        158.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XAA  C5    .  C  0  ?  ?  ?  1  1 
+XAA  N1    .  N  0  ?  ?  ?  1  2 
+XAA  C4    .  C  0  ?  ?  ?  1  3 
+XAA  C2    .  C  0  ?  ?  ?  1  4 
+XAA  S3    .  S  0  ?  ?  ?  1  5 
+XAA  C6    .  C  0  ?  ?  ?  1  6 
+XAA  N7    .  N  0  ?  ?  ?  1  7 
+XAA  C8    .  C  0  ?  ?  ?  1  8 
+XAA  C9    .  C  0  ?  ?  ?  1  9 
+XAA  O10   .  O  0  ?  ?  ?  1  10
+XAA  HC4   .  H  0  ?  ?  ?  1  11
+XAA  HC6   .  H  0  ?  ?  ?  1  12
+XAA  1HN7  .  H  0  ?  ?  ?  0  13
+XAA  2HN7  .  H  0  ?  ?  ?  0  14
+XAA  HC8   .  H  0  ?  ?  ?  1  15
+XAA  1HC   .  H  0  ?  ?  ?  0  16
+XAA  2HC   .  H  0  ?  ?  ?  0  17
+XAA  3HC   .  H  0  ?  ?  ?  0  18
+XAA  H10   .  H  0  ?  ?  ?  1  19
+XAA  HC5   .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XAA  C5   N1    SING  1 
+XAA  C5   C4    DOUB  2 
+XAA  C5   HC5   SING  3 
+XAA  N1   C2    DOUB  4 
+XAA  C4   S3    SING  5 
+XAA  C4   HC4   SING  6 
+XAA  C2   C6    SING  7 
+XAA  C2   S3    SING  8 
+XAA  C6   N7    SING  9 
+XAA  C6   C8    SING  10
+XAA  C6   HC6   SING  11
+XAA  N7   1HN7  SING  12
+XAA  N7   2HN7  SING  13
+XAA  C8   C9    SING  14
+XAA  C8   O10   SING  15
+XAA  C8   HC8   SING  16
+XAA  C9   1HC   SING  17
+XAA  C9   2HC   SING  18
+XAA  C9   3HC   SING  19
+XAA  O10  H10   SING  20
+#

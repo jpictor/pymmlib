@@ -1,0 +1,87 @@
+data_ACL
+#
+_chem_comp.id                       ACL
+_chem_comp.name                     DEOXY-CHLOROMETHYL-ARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N4 O1 CL1'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            206.675
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACL  N     .  N   0  ?  ?  ?  1  1 
+ACL  CA    .  C   0  ?  ?  ?  1  2 
+ACL  CB    .  C   0  ?  ?  ?  1  3 
+ACL  CG    .  C   0  ?  ?  ?  1  4 
+ACL  CD    .  C   0  ?  ?  ?  1  5 
+ACL  NE    .  N   0  ?  ?  ?  1  6 
+ACL  CZ    .  C   0  ?  ?  ?  1  7 
+ACL  NH1   .  N   0  ?  ?  ?  1  8 
+ACL  NH2   .  N   0  ?  ?  ?  1  9 
+ACL  C     .  C   0  ?  ?  ?  1  10
+ACL  O     .  O   0  ?  ?  ?  1  11
+ACL  CM    .  C   0  ?  ?  ?  1  12
+ACL  CL    .  CL  0  ?  ?  ?  0  13
+ACL  1HN   .  H   0  ?  ?  ?  0  14
+ACL  2HN   .  H   0  ?  ?  ?  0  15
+ACL  HA    .  H   0  ?  ?  ?  1  16
+ACL  1HB   .  H   0  ?  ?  ?  0  17
+ACL  2HB   .  H   0  ?  ?  ?  0  18
+ACL  1HG   .  H   0  ?  ?  ?  0  19
+ACL  2HG   .  H   0  ?  ?  ?  0  20
+ACL  1HD   .  H   0  ?  ?  ?  0  21
+ACL  2HD   .  H   0  ?  ?  ?  0  22
+ACL  HNE   .  H   0  ?  ?  ?  1  23
+ACL  HN1   .  H   0  ?  ?  ?  1  24
+ACL  1HN2  .  H   0  ?  ?  ?  0  25
+ACL  2HN2  .  H   0  ?  ?  ?  0  26
+ACL  1HM   .  H   0  ?  ?  ?  0  27
+ACL  2HM   .  H   0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACL  N    CA    SING  1 
+ACL  N    1HN   SING  2 
+ACL  N    2HN   SING  3 
+ACL  CA   CB    SING  4 
+ACL  CA   C     SING  5 
+ACL  CA   HA    SING  6 
+ACL  CB   CG    SING  7 
+ACL  CB   1HB   SING  8 
+ACL  CB   2HB   SING  9 
+ACL  CG   CD    SING  10
+ACL  CG   1HG   SING  11
+ACL  CG   2HG   SING  12
+ACL  CD   NE    SING  13
+ACL  CD   1HD   SING  14
+ACL  CD   2HD   SING  15
+ACL  NE   CZ    SING  16
+ACL  NE   HNE   SING  17
+ACL  CZ   NH1   DOUB  18
+ACL  CZ   NH2   SING  19
+ACL  NH1  HN1   SING  20
+ACL  NH2  1HN2  SING  21
+ACL  NH2  2HN2  SING  22
+ACL  C    CM    SING  23
+ACL  C    O     DOUB  24
+ACL  CM   1HM   SING  25
+ACL  CM   2HM   SING  26
+ACL  CM   CL    SING  27
+#

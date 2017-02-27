@@ -1,0 +1,78 @@
+data_HPN
+#
+_chem_comp.id                   HPN
+_chem_comp.name                 HEPTANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.202
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPN  N1    .  N  0  15.679  23.049  12.076  1  1 
+HPN  C1    .  C  0  15.373  23.628  11.017  1  2 
+HPN  O1    .  O  0  14.300  24.285  10.924  1  3 
+HPN  C2    .  C  0  16.309  23.542  9.908   1  4 
+HPN  C3    .  C  0  15.819  22.414  9.049   1  5 
+HPN  C4    .  C  0  16.638  22.543  7.789   1  6 
+HPN  C5    .  C  0  16.750  21.204  7.134   1  7 
+HPN  C6    .  C  0  17.016  21.230  5.644   1  8 
+HPN  C7    .  C  0  18.095  20.290  5.171   1  9 
+HPN  1HN1  .  H  0  ?       ?       ?       0  10
+HPN  2HN1  .  H  0  ?       ?       ?       0  11
+HPN  1H2   .  H  0  ?       ?       ?       0  12
+HPN  2H2   .  H  0  ?       ?       ?       0  13
+HPN  1H3   .  H  0  ?       ?       ?       0  14
+HPN  2H3   .  H  0  ?       ?       ?       0  15
+HPN  1H4   .  H  0  ?       ?       ?       0  16
+HPN  2H4   .  H  0  ?       ?       ?       0  17
+HPN  1H5   .  H  0  ?       ?       ?       0  18
+HPN  2H5   .  H  0  ?       ?       ?       0  19
+HPN  1H6   .  H  0  ?       ?       ?       0  20
+HPN  2H6   .  H  0  ?       ?       ?       0  21
+HPN  1H7   .  H  0  ?       ?       ?       0  22
+HPN  2H7   .  H  0  ?       ?       ?       0  23
+HPN  3H7   .  H  0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPN  N1  1HN1  SING  1 
+HPN  N1  2HN1  SING  2 
+HPN  N1  C1    SING  3 
+HPN  C1  O1    DOUB  4 
+HPN  C1  C2    SING  5 
+HPN  C2  1H2   SING  6 
+HPN  C2  2H2   SING  7 
+HPN  C2  C3    SING  8 
+HPN  C3  1H3   SING  9 
+HPN  C3  2H3   SING  10
+HPN  C3  C4    SING  11
+HPN  C4  1H4   SING  12
+HPN  C4  2H4   SING  13
+HPN  C4  C5    SING  14
+HPN  C5  1H5   SING  15
+HPN  C5  2H5   SING  16
+HPN  C5  C6    SING  17
+HPN  C6  1H6   SING  18
+HPN  C6  2H6   SING  19
+HPN  C6  C7    SING  20
+HPN  C7  1H7   SING  21
+HPN  C7  2H7   SING  22
+HPN  C7  3H7   SING  23
+#

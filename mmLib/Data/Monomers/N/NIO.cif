@@ -1,0 +1,59 @@
+data_NIO
+#
+_chem_comp.id                   NIO
+_chem_comp.name                 'NICOTINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        123.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NIO  N    .  N  0  ?  ?  ?  1  1 
+NIO  C1   .  C  0  ?  ?  ?  1  2 
+NIO  C2   .  C  0  ?  ?  ?  1  3 
+NIO  C3   .  C  0  ?  ?  ?  1  4 
+NIO  C4   .  C  0  ?  ?  ?  1  5 
+NIO  C5   .  C  0  ?  ?  ?  1  6 
+NIO  C6   .  C  0  ?  ?  ?  1  7 
+NIO  O1   .  O  0  ?  ?  ?  1  8 
+NIO  O2   .  O  0  ?  ?  ?  1  9 
+NIO  H1   .  H  0  ?  ?  ?  1  10
+NIO  H3   .  H  0  ?  ?  ?  1  11
+NIO  H4   .  H  0  ?  ?  ?  1  12
+NIO  H5   .  H  0  ?  ?  ?  1  13
+NIO  HO2  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NIO  N   C1   DOUB  1 
+NIO  N   C5   SING  2 
+NIO  C1  C2   SING  3 
+NIO  C1  H1   SING  4 
+NIO  C2  C3   DOUB  5 
+NIO  C2  C6   SING  6 
+NIO  C3  C4   SING  7 
+NIO  C3  H3   SING  8 
+NIO  C4  C5   DOUB  9 
+NIO  C4  H4   SING  10
+NIO  C5  H5   SING  11
+NIO  C6  O1   DOUB  12
+NIO  C6  O2   SING  13
+NIO  O2  HO2  SING  14
+#

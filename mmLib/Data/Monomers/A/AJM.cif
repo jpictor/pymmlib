@@ -1,0 +1,124 @@
+data_AJM
+#
+_chem_comp.id                   AJM
+_chem_comp.name                 AJMALINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H22 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.384
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AJM  O1    .  O  0  17.182  26.536  -8.086   1  1 
+AJM  C15   .  C  0  16.967  27.968  -8.164   1  2 
+AJM  C5    .  C  0  17.508  28.910  -9.236   1  3 
+AJM  C4    .  C  0  16.420  28.792  -10.255  1  4 
+AJM  C6    .  C  0  18.862  28.876  -9.852   1  5 
+AJM  C7    .  C  0  19.761  27.848  -10.085  1  6 
+AJM  C8    .  C  0  20.964  28.175  -10.720  1  7 
+AJM  C9    .  C  0  21.249  29.495  -11.110  1  8 
+AJM  C11   .  C  0  19.126  30.259  -10.277  1  9 
+AJM  C10   .  C  0  20.346  30.546  -10.889  1  10
+AJM  C14   .  C  0  15.577  28.496  -8.143   1  11
+AJM  C13   .  C  0  15.184  29.249  -7.184   1  12
+AJM  C16   .  C  0  13.980  29.594  -7.417   1  13
+AJM  C3    .  C  0  15.350  29.112  -9.263   1  14
+AJM  N2    .  N  0  15.053  30.482  -9.111   1  15
+AJM  C17   .  C  0  13.980  30.631  -8.199   1  16
+AJM  O2    .  O  0  12.860  31.392  -8.221   1  17
+AJM  C2    .  C  0  16.241  30.766  -8.408   1  18
+AJM  C12   .  C  0  16.107  30.387  -6.952   1  19
+AJM  C1    .  C  0  17.367  30.393  -8.988   1  20
+AJM  N1    .  N  0  18.123  31.088  -9.861   1  21
+AJM  C18   .  C  0  18.419  32.479  -9.561   1  22
+AJM  H1    .  H  0  ?       ?       ?        1  23
+AJM  H2    .  H  0  ?       ?       ?        1  24
+AJM  H14   .  H  0  ?       ?       ?        1  25
+AJM  H13   .  H  0  ?       ?       ?        1  26
+AJM  H3    .  H  0  ?       ?       ?        1  27
+AJM  1H18  .  H  0  ?       ?       ?        0  28
+AJM  2H18  .  H  0  ?       ?       ?        0  29
+AJM  3H18  .  H  0  ?       ?       ?        0  30
+AJM  1H12  .  H  0  ?       ?       ?        0  31
+AJM  2H12  .  H  0  ?       ?       ?        0  32
+AJM  1H16  .  H  0  ?       ?       ?        0  33
+AJM  2H16  .  H  0  ?       ?       ?        0  34
+AJM  H17   .  H  0  ?       ?       ?        1  35
+AJM  HO2   .  H  0  ?       ?       ?        1  36
+AJM  1H4   .  H  0  ?       ?       ?        0  37
+AJM  2H4   .  H  0  ?       ?       ?        0  38
+AJM  H15   .  H  0  ?       ?       ?        1  39
+AJM  HO1   .  H  0  ?       ?       ?        1  40
+AJM  H10   .  H  0  ?       ?       ?        1  41
+AJM  H9    .  H  0  ?       ?       ?        1  42
+AJM  H8    .  H  0  ?       ?       ?        1  43
+AJM  H7    .  H  0  ?       ?       ?        1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AJM  O1   C15   SING  1 
+AJM  O1   HO1   SING  2 
+AJM  C15  C14   SING  3 
+AJM  C15  C5    SING  4 
+AJM  C15  H15   SING  5 
+AJM  C5   C6    SING  6 
+AJM  C5   C1    SING  7 
+AJM  C5   C4    SING  8 
+AJM  C4   C3    SING  9 
+AJM  C4   1H4   SING  10
+AJM  C4   2H4   SING  11
+AJM  C6   C11   AROM  12
+AJM  C6   C7    AROM  13
+AJM  C7   C8    AROM  14
+AJM  C7   H7    SING  15
+AJM  C8   C9    AROM  16
+AJM  C8   H8    SING  17
+AJM  C9   C10   AROM  18
+AJM  C9   H9    SING  19
+AJM  C11  N1    SING  20
+AJM  C11  C10   AROM  21
+AJM  C10  H10   SING  22
+AJM  C14  C13   SING  23
+AJM  C14  C3    SING  24
+AJM  C14  H14   SING  25
+AJM  C13  C12   SING  26
+AJM  C13  C16   SING  27
+AJM  C13  H13   SING  28
+AJM  C16  C17   SING  29
+AJM  C16  1H16  SING  30
+AJM  C16  2H16  SING  31
+AJM  C3   H3    SING  32
+AJM  C3   N2    SING  33
+AJM  N2   C2    SING  34
+AJM  N2   C17   SING  35
+AJM  C17  O2    SING  36
+AJM  C17  H17   SING  37
+AJM  O2   HO2   SING  38
+AJM  C2   C1    SING  39
+AJM  C2   C12   SING  40
+AJM  C2   H2    SING  41
+AJM  C12  1H12  SING  42
+AJM  C12  2H12  SING  43
+AJM  C1   N1    SING  44
+AJM  C1   H1    SING  45
+AJM  N1   C18   SING  46
+AJM  C18  1H18  SING  47
+AJM  C18  2H18  SING  48
+AJM  C18  3H18  SING  49
+#

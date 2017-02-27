@@ -1,0 +1,105 @@
+data_PU2
+#
+_chem_comp.id                   PU2
+_chem_comp.name                 8-(2,5-DIMETHOXY-BENZYL)-2-FLUORO-9H-PURIN-6-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N5 O2 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        303.295
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PU2  C18   .  C  0  7.681   10.089  22.845  1  1 
+PU2  N2    .  N  0  2.26    9.958   25.319  1  2 
+PU2  C12   .  C  0  1.048   10.093  25.756  1  3 
+PU2  N4    .  N  0  .571    9.694   26.914  1  4 
+PU2  C14   .  C  0  -.711   9.929   27.094  1  5 
+PU2  C9    .  C  0  3.515   10.505  23.27   1  6 
+PU2  N3    .  N  0  -1.556  10.498  26.243  1  7 
+PU2  C11   .  C  0  .284    10.697  24.825  1  8 
+PU2  C13   .  C  0  -1.066  10.865  25.073  1  9 
+PU2  N5    .  N  0  -1.968  11.475  24.154  1  10
+PU2  N1    .  N  0  1.032   10.944  23.752  1  11
+PU2  C10   .  C  0  2.255   10.461  24.076  1  12
+PU2  C1    .  C  0  5.796   11.544  23.412  1  13
+PU2  C6    .  C  0  4.437   11.639  23.664  1  14
+PU2  C5    .  C  0  3.921   12.751  24.287  1  15
+PU2  C2    .  C  0  6.683   12.556  23.727  1  16
+PU2  C3    .  C  0  6.177   13.697  24.339  1  17
+PU2  C4    .  C  0  4.801   13.784  24.608  1  18
+PU2  F1    .  F  0  -1.304  9.482   28.52   1  19
+PU2  O1    .  O  0  4.235   14.918  25.261  1  20
+PU2  O2    .  O  0  6.269   10.384  22.805  1  21
+PU2  C7    .  C  0  5.031   16.022  25.711  1  22
+PU2  1H18  .  H  0  8.06    9.16    22.359  0  23
+PU2  2H18  .  H  0  8.017   10.097  23.908  0  24
+PU2  3H18  .  H  0  8.239   10.961  22.431  0  25
+PU2  1H9C  .  H  0  3.287   10.54   22.179  0  26
+PU2  2H9C  .  H  0  4.048   9.527   23.314  0  27
+PU2  H1    .  H  0  .748    11.395  22.882  1  28
+PU2  1H5N  .  H  0  -2.964  11.599  24.337  0  29
+PU2  2H5N  .  H  0  -1.589  11.759  23.25   0  30
+PU2  H2    .  H  0  7.758   12.461  23.5    1  31
+PU2  H5    .  H  0  2.846   12.823  24.525  1  32
+PU2  H3    .  H  0  6.85    14.527  24.611  1  33
+PU2  1H7C  .  H  0  4.588   16.909  26.222  0  34
+PU2  2H7C  .  H  0  5.617   16.393  24.838  0  35
+PU2  3H7C  .  H  0  5.829   15.614  26.374  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PU2  C18  O2    SING  1 
+PU2  C18  1H18  SING  2 
+PU2  C18  2H18  SING  3 
+PU2  C18  3H18  SING  4 
+PU2  N2   C12   SING  5 
+PU2  N2   C10   DOUB  6 
+PU2  C12  N4    AROM  7 
+PU2  C12  C11   AROM  8 
+PU2  N4   C14   AROM  9 
+PU2  C14  N3    AROM  10
+PU2  C14  F1    SING  11
+PU2  C9   C10   SING  12
+PU2  C9   C6    SING  13
+PU2  C9   1H9C  SING  14
+PU2  C9   2H9C  SING  15
+PU2  N3   C13   AROM  16
+PU2  C11  C13   AROM  17
+PU2  C11  N1    SING  18
+PU2  C13  N5    SING  19
+PU2  N5   1H5N  SING  20
+PU2  N5   2H5N  SING  21
+PU2  N1   C10   SING  22
+PU2  N1   H1    SING  23
+PU2  C1   C6    AROM  24
+PU2  C1   C2    AROM  25
+PU2  C1   O2    SING  26
+PU2  C6   C5    AROM  27
+PU2  C5   C4    AROM  28
+PU2  C5   H5    SING  29
+PU2  C2   C3    AROM  30
+PU2  C2   H2    SING  31
+PU2  C3   C4    AROM  32
+PU2  C3   H3    SING  33
+PU2  C4   O1    SING  34
+PU2  O1   C7    SING  35
+PU2  C7   1H7C  SING  36
+PU2  C7   2H7C  SING  37
+PU2  C7   3H7C  SING  38
+#

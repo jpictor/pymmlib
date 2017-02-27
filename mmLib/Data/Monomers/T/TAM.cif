@@ -1,0 +1,86 @@
+data_TAM
+#
+_chem_comp.id                   TAM
+_chem_comp.name                 TRIS(HYDROXYETHYL)AMINOMETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H17 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.216
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TAM  C    .  C  0  ?  ?  ?  1  1 
+TAM  C1   .  C  0  ?  ?  ?  1  2 
+TAM  C2   .  C  0  ?  ?  ?  1  3 
+TAM  C3   .  C  0  ?  ?  ?  1  4 
+TAM  C4   .  C  0  ?  ?  ?  1  5 
+TAM  C5   .  C  0  ?  ?  ?  1  6 
+TAM  C6   .  C  0  ?  ?  ?  1  7 
+TAM  N    .  N  0  ?  ?  ?  1  8 
+TAM  O4   .  O  0  ?  ?  ?  1  9 
+TAM  O5   .  O  0  ?  ?  ?  1  10
+TAM  O6   .  O  0  ?  ?  ?  1  11
+TAM  1H1  .  H  0  ?  ?  ?  0  12
+TAM  2H1  .  H  0  ?  ?  ?  0  13
+TAM  1H2  .  H  0  ?  ?  ?  0  14
+TAM  2H2  .  H  0  ?  ?  ?  0  15
+TAM  1H3  .  H  0  ?  ?  ?  0  16
+TAM  2H3  .  H  0  ?  ?  ?  0  17
+TAM  1H4  .  H  0  ?  ?  ?  0  18
+TAM  2H4  .  H  0  ?  ?  ?  0  19
+TAM  1H5  .  H  0  ?  ?  ?  0  20
+TAM  2H5  .  H  0  ?  ?  ?  0  21
+TAM  1H6  .  H  0  ?  ?  ?  0  22
+TAM  2H6  .  H  0  ?  ?  ?  0  23
+TAM  1HN  .  H  0  ?  ?  ?  0  24
+TAM  2HN  .  H  0  ?  ?  ?  0  25
+TAM  HO4  .  H  0  ?  ?  ?  1  26
+TAM  HO5  .  H  0  ?  ?  ?  1  27
+TAM  HO6  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TAM  C   C1   SING  1 
+TAM  C   C2   SING  2 
+TAM  C   C3   SING  3 
+TAM  C   N    SING  4 
+TAM  C1  C4   SING  5 
+TAM  C1  1H1  SING  6 
+TAM  C1  2H1  SING  7 
+TAM  C2  C5   SING  8 
+TAM  C2  1H2  SING  9 
+TAM  C2  2H2  SING  10
+TAM  C3  C6   SING  11
+TAM  C3  1H3  SING  12
+TAM  C3  2H3  SING  13
+TAM  C4  O4   SING  14
+TAM  C4  1H4  SING  15
+TAM  C4  2H4  SING  16
+TAM  C5  O5   SING  17
+TAM  C5  1H5  SING  18
+TAM  C5  2H5  SING  19
+TAM  C6  O6   SING  20
+TAM  C6  1H6  SING  21
+TAM  C6  2H6  SING  22
+TAM  N   1HN  SING  23
+TAM  N   2HN  SING  24
+TAM  O4  HO4  SING  25
+TAM  O5  HO5  SING  26
+TAM  O6  HO6  SING  27
+#

@@ -1,0 +1,74 @@
+data_YCM
+#
+_chem_comp.id                       YCM
+_chem_comp.name                     S-(2-AMINO-2-OXOETHYL)-L-CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H10 N2 O3 S1'
+_chem_comp.pdbx_synonyms            CYSTEINE-S-ACETAMIDE
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            178.206
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+YCM  N    .  N  0  -6.736  0.559   23.412  1  1 
+YCM  CA   .  C  0  -6.236  0.928   22.087  1  2 
+YCM  CB   .  C  0  -7.105  2.039   21.482  1  3 
+YCM  SG   .  S  0  -8.858  1.643   21.390  1  4 
+YCM  CD   .  C  0  -8.914  0.063   20.530  1  5 
+YCM  CE   .  C  0  -8.191  -0.044  19.214  1  6 
+YCM  OZ1  .  O  0  -7.020  -0.405  19.168  1  7 
+YCM  NZ2  .  N  0  -8.882  0.287   18.133  1  8 
+YCM  C    .  C  0  -4.786  1.389   22.025  1  9 
+YCM  O    .  O  0  -4.251  1.566   20.932  1  10
+YCM  OXT  .  O  0  ?       ?       ?       1  11
+YCM  H    .  H  0  ?       ?       ?       1  12
+YCM  HN2  .  H  0  ?       ?       ?       1  13
+YCM  HA   .  H  0  ?       ?       ?       1  14
+YCM  1HB  .  H  0  ?       ?       ?       0  15
+YCM  2HB  .  H  0  ?       ?       ?       0  16
+YCM  HXT  .  H  0  ?       ?       ?       1  17
+YCM  1HZ  .  H  0  ?       ?       ?       0  18
+YCM  2HZ  .  H  0  ?       ?       ?       0  19
+YCM  1HD  .  H  0  ?       ?       ?       0  20
+YCM  2HD  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+YCM  N    CA   SING  1 
+YCM  N    H    SING  2 
+YCM  N    HN2  SING  3 
+YCM  CA   CB   SING  4 
+YCM  CA   C    SING  5 
+YCM  CA   HA   SING  6 
+YCM  CB   SG   SING  7 
+YCM  CB   1HB  SING  8 
+YCM  CB   2HB  SING  9 
+YCM  SG   CD   SING  10
+YCM  CD   CE   SING  11
+YCM  CD   1HD  SING  12
+YCM  CD   2HD  SING  13
+YCM  CE   OZ1  DOUB  14
+YCM  CE   NZ2  SING  15
+YCM  NZ2  1HZ  SING  16
+YCM  NZ2  2HZ  SING  17
+YCM  C    O    DOUB  18
+YCM  C    OXT  SING  19
+YCM  OXT  HXT  SING  20
+#

@@ -1,0 +1,117 @@
+data_SON
+#
+_chem_comp.id                   SON
+_chem_comp.name                 'ADENOSINE PHOSPHONOACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H16 N5 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        389.261
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SON  PB    .  P  0  3.760   -20.399  4.834   1  1 
+SON  O1B   .  O  0  4.976   -21.228  5.022   1  2 
+SON  O2B   .  O  0  3.116   -20.106  6.138   1  3 
+SON  O3B   .  O  0  4.267   -18.996  4.273   1  4 
+SON  CB    .  C  0  2.653   -21.183  3.760   1  5 
+SON  CA    .  C  0  1.528   -22.062  4.261   1  6 
+SON  OA    .  O  0  1.676   -23.284  4.264   1  7 
+SON  O5'   .  O  0  0.579   -21.395  5.100   1  8 
+SON  C5'   .  C  0  0.009   -20.285  4.404   1  9 
+SON  C4'   .  C  0  -0.510  -19.263  5.389   1  10
+SON  O4'   .  O  0  -1.657  -19.793  6.102   1  11
+SON  C1'   .  C  0  -1.694  -19.255  7.415   1  12
+SON  N9    .  N  0  -1.724  -20.364  8.369   1  13
+SON  C4    .  C  0  -2.559  -20.480  9.453   1  14
+SON  N3    .  N  0  -3.510  -19.616  9.845   1  15
+SON  C2    .  C  0  -4.123  -20.062  10.942  1  16
+SON  N1    .  N  0  -3.907  -21.190  11.637  1  17
+SON  C6    .  C  0  -2.942  -22.035  11.212  1  18
+SON  N6    .  N  0  -2.723  -23.157  11.902  1  19
+SON  C5    .  C  0  -2.221  -21.677  10.062  1  20
+SON  N7    .  N  0  -1.193  -22.304  9.374   1  21
+SON  C8    .  C  0  -0.936  -21.488  8.381   1  22
+SON  C2'   .  C  0  -0.466  -18.356  7.582   1  23
+SON  O2'   .  O  0  -0.836  -17.005  7.398   1  24
+SON  C3'   .  C  0  0.463   -18.896  6.497   1  25
+SON  O3'   .  O  0  1.401   -17.924  6.045   1  26
+SON  1HN6  .  H  0  ?       ?        ?       0  27
+SON  2HN6  .  H  0  ?       ?        ?       0  28
+SON  H2    .  H  0  ?       ?        ?       1  29
+SON  H8    .  H  0  ?       ?        ?       1  30
+SON  H1'   .  H  0  ?       ?        ?       1  31
+SON  H4'   .  H  0  ?       ?        ?       1  32
+SON  1H5'  .  H  0  ?       ?        ?       0  33
+SON  2H5'  .  H  0  ?       ?        ?       0  34
+SON  1HB   .  H  0  ?       ?        ?       0  35
+SON  2HB   .  H  0  ?       ?        ?       0  36
+SON  H2B   .  H  0  ?       ?        ?       1  37
+SON  H3B   .  H  0  ?       ?        ?       1  38
+SON  H3'   .  H  0  ?       ?        ?       1  39
+SON  H1    .  H  0  ?       ?        ?       1  40
+SON  H2'   .  H  0  ?       ?        ?       1  41
+SON  H3    .  H  0  ?       ?        ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SON  PB   CB    SING  1 
+SON  PB   O1B   DOUB  2 
+SON  PB   O2B   SING  3 
+SON  PB   O3B   SING  4 
+SON  O2B  H2B   SING  5 
+SON  O3B  H3B   SING  6 
+SON  CB   CA    SING  7 
+SON  CB   1HB   SING  8 
+SON  CB   2HB   SING  9 
+SON  CA   O5'   SING  10
+SON  CA   OA    DOUB  11
+SON  O5'  C5'   SING  12
+SON  C5'  C4'   SING  13
+SON  C5'  1H5'  SING  14
+SON  C5'  2H5'  SING  15
+SON  C4'  O4'   SING  16
+SON  C4'  C3'   SING  17
+SON  C4'  H4'   SING  18
+SON  O4'  C1'   SING  19
+SON  C1'  N9    SING  20
+SON  C1'  C2'   SING  21
+SON  C1'  H1'   SING  22
+SON  N9   C8    SING  23
+SON  N9   C4    SING  24
+SON  C4   N3    AROM  25
+SON  C4   C5    AROM  26
+SON  N3   C2    AROM  27
+SON  C2   N1    AROM  28
+SON  C2   H2    SING  29
+SON  N1   C6    AROM  30
+SON  C6   N6    SING  31
+SON  C6   C5    AROM  32
+SON  N6   1HN6  SING  33
+SON  N6   2HN6  SING  34
+SON  C5   N7    SING  35
+SON  N7   C8    DOUB  36
+SON  C8   H8    SING  37
+SON  C2'  C3'   SING  38
+SON  C2'  O2'   SING  39
+SON  C2'  H2'   SING  40
+SON  O2'  H3    SING  41
+SON  C3'  O3'   SING  42
+SON  C3'  H3'   SING  43
+SON  O3'  H1    SING  44
+#

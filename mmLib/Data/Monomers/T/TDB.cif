@@ -1,0 +1,92 @@
+data_TDB
+#
+_chem_comp.id                   TDB
+_chem_comp.name                 6-METHYL-2(PROPANE-1-SULFONYL)-2H-THIENO[3,2-D][1,2,3]DIAZABORININ-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N2 O3 B1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        272.143
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TDB  S1    .  S  0  ?  ?  ?  1  1 
+TDB  C7    .  C  0  ?  ?  ?  1  2 
+TDB  C8    .  C  0  ?  ?  ?  1  3 
+TDB  C12   .  C  0  ?  ?  ?  1  4 
+TDB  C13   .  C  0  ?  ?  ?  1  5 
+TDB  C14   .  C  0  ?  ?  ?  1  6 
+TDB  C2    .  C  0  ?  ?  ?  1  7 
+TDB  N2    .  N  0  ?  ?  ?  1  8 
+TDB  N1    .  N  0  ?  ?  ?  1  9 
+TDB  B1    .  B  0  ?  ?  ?  1  10
+TDB  O1    .  O  0  ?  ?  ?  1  11
+TDB  S15   .  S  0  ?  ?  ?  1  12
+TDB  O15   .  O  0  ?  ?  ?  1  13
+TDB  O16   .  O  0  ?  ?  ?  1  14
+TDB  C15   .  C  0  ?  ?  ?  1  15
+TDB  C16   .  C  0  ?  ?  ?  1  16
+TDB  C17   .  C  0  ?  ?  ?  1  17
+TDB  1H8   .  H  0  ?  ?  ?  0  18
+TDB  2H8   .  H  0  ?  ?  ?  0  19
+TDB  3H8   .  H  0  ?  ?  ?  0  20
+TDB  H12   .  H  0  ?  ?  ?  1  21
+TDB  H2    .  H  0  ?  ?  ?  1  22
+TDB  HO1   .  H  0  ?  ?  ?  1  23
+TDB  1H15  .  H  0  ?  ?  ?  0  24
+TDB  2H15  .  H  0  ?  ?  ?  0  25
+TDB  1H16  .  H  0  ?  ?  ?  0  26
+TDB  2H16  .  H  0  ?  ?  ?  0  27
+TDB  1H17  .  H  0  ?  ?  ?  0  28
+TDB  2H17  .  H  0  ?  ?  ?  0  29
+TDB  3H17  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TDB  S1   C7    SING  1 
+TDB  S1   C14   SING  2 
+TDB  C7   C8    SING  3 
+TDB  C7   C12   DOUB  4 
+TDB  C8   1H8   SING  5 
+TDB  C8   2H8   SING  6 
+TDB  C8   3H8   SING  7 
+TDB  C12  C13   SING  8 
+TDB  C12  H12   SING  9 
+TDB  C13  C14   DOUB  10
+TDB  C13  B1    SING  11
+TDB  C14  C2    SING  12
+TDB  C2   N2    DOUB  13
+TDB  C2   H2    SING  14
+TDB  N2   N1    SING  15
+TDB  N1   B1    SING  16
+TDB  N1   S15   SING  17
+TDB  B1   O1    SING  18
+TDB  O1   HO1   SING  19
+TDB  S15  O15   DOUB  20
+TDB  S15  O16   DOUB  21
+TDB  S15  C15   SING  22
+TDB  C15  C16   SING  23
+TDB  C15  1H15  SING  24
+TDB  C15  2H15  SING  25
+TDB  C16  C17   SING  26
+TDB  C16  1H16  SING  27
+TDB  C16  2H16  SING  28
+TDB  C17  1H17  SING  29
+TDB  C17  2H17  SING  30
+TDB  C17  3H17  SING  31
+#

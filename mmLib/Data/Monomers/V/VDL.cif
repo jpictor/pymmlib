@@ -1,0 +1,67 @@
+data_VDL
+#
+_chem_comp.id                   VDL
+_chem_comp.name                 '(2R,3R)-2,3-DIAMINOBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 N2 O2'
+_chem_comp.pdbx_synonyms        'D-ERITHRO-2,3-DIAMINO-BUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.135
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VDL  N     .  N  0  35.59   31.145  34.372  1  1 
+VDL  CA    .  C  0  35.975  30.087  35.331  1  2 
+VDL  CB    .  C  0  34.82   29.787  36.266  1  3 
+VDL  CG1   .  C  0  35.119  28.597  37.147  1  4 
+VDL  CH2   .  C  0  37.207  30.529  36.07   1  5 
+VDL  OH    .  O  0  37.203  31.591  36.709  1  6 
+VDL  O     .  O  0  ?       ?       ?       1  7 
+VDL  NG2   .  N  0  34.454  30.986  37.12   1  8 
+VDL  1HN   .  H  0  36.356  31.63   33.905  0  9 
+VDL  2HN   .  H  0  35.197  31.996  34.774  0  10
+VDL  HA    .  H  0  36.218  29.161  34.759  1  11
+VDL  HB    .  H  0  33.933  29.532  35.64   1  12
+VDL  1HG1  .  H  0  34.27   28.376  37.835  0  13
+VDL  2HG1  .  H  0  36.074  28.733  37.707  0  14
+VDL  3HG1  .  H  0  35.399  27.702  36.544  0  15
+VDL  1HG2  .  H  0  34.754  31.945  37.294  0  16
+VDL  2HG2  .  H  0  34.481  31.293  38.092  0  17
+VDL  HO    .  H  0  ?       ?       ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VDL  N    1HN   SING  1 
+VDL  N    2HN   SING  2 
+VDL  N    CA    SING  3 
+VDL  CA   CB    SING  4 
+VDL  CA   CH2   SING  5 
+VDL  CA   HA    SING  6 
+VDL  CB   CG1   SING  7 
+VDL  CB   NG2   SING  8 
+VDL  CB   HB    SING  9 
+VDL  CG1  1HG1  SING  10
+VDL  CG1  2HG1  SING  11
+VDL  CG1  3HG1  SING  12
+VDL  CH2  OH    SING  13
+VDL  CH2  O     DOUB  14
+VDL  OH   HO    SING  15
+VDL  NG2  1HG2  SING  16
+VDL  NG2  2HG2  SING  17
+#

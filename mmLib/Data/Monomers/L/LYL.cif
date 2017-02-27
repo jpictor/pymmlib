@@ -1,0 +1,77 @@
+data_LYL
+#
+_chem_comp.id                   LYL
+_chem_comp.name                 2-ALLYL-6-METHYL-PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.204
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LYL  C1    .  C  0  27.279  6.561  3.244  1  1 
+LYL  C2    .  C  0  27.433  7.214  4.463  1  2 
+LYL  C3    .  C  0  26.496  5.411  3.143  1  3 
+LYL  C4    .  C  0  28.019  7.094  2.041  1  4 
+LYL  C5    .  C  0  26.796  6.699  5.601  1  5 
+LYL  C15   .  C  0  26.867  7.313  6.977  1  6 
+LYL  O6    .  O  0  28.238  8.333  4.444  1  7 
+LYL  C7    .  C  0  25.863  4.901  4.281  1  8 
+LYL  C8    .  C  0  26.000  5.562  5.499  1  9 
+LYL  C13   .  C  0  27.508  8.468  1.667  1  10
+LYL  C14   .  C  0  28.095  9.145  0.663  1  11
+LYL  HC3   .  H  0  ?       ?      ?      1  12
+LYL  HC7   .  H  0  ?       ?      ?      1  13
+LYL  HO6   .  H  0  ?       ?      ?      1  14
+LYL  HC8   .  H  0  ?       ?      ?      1  15
+LYL  H13   .  H  0  ?       ?      ?      1  16
+LYL  1H14  .  H  0  ?       ?      ?      0  17
+LYL  2H14  .  H  0  ?       ?      ?      0  18
+LYL  1HC4  .  H  0  ?       ?      ?      0  19
+LYL  2HC4  .  H  0  ?       ?      ?      0  20
+LYL  1H15  .  H  0  ?       ?      ?      0  21
+LYL  2H15  .  H  0  ?       ?      ?      0  22
+LYL  3H15  .  H  0  ?       ?      ?      0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LYL  C1   C2    AROM  1 
+LYL  C1   C3    AROM  2 
+LYL  C1   C4    SING  3 
+LYL  C2   C5    AROM  4 
+LYL  C2   O6    SING  5 
+LYL  C3   C7    AROM  6 
+LYL  C3   HC3   SING  7 
+LYL  C4   C13   SING  8 
+LYL  C4   1HC4  SING  9 
+LYL  C4   2HC4  SING  10
+LYL  C5   C15   SING  11
+LYL  C5   C8    AROM  12
+LYL  C15  1H15  SING  13
+LYL  C15  2H15  SING  14
+LYL  C15  3H15  SING  15
+LYL  O6   HO6   SING  16
+LYL  C7   C8    AROM  17
+LYL  C7   HC7   SING  18
+LYL  C8   HC8   SING  19
+LYL  C13  C14   DOUB  20
+LYL  C13  H13   SING  21
+LYL  C14  1H14  SING  22
+LYL  C14  2H14  SING  23
+#

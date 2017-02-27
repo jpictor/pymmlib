@@ -1,0 +1,93 @@
+data_DIF
+#
+_chem_comp.id                   DIF
+_chem_comp.name                 '2-[2,6-DICHLOROPHENYL)AMINO]BENZENEACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H11 N1 O2 CL2'
+_chem_comp.pdbx_synonyms        DICLOFENAC
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        296.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIF  C1    .  C   0  ?  ?  ?  1  1 
+DIF  C2    .  C   0  ?  ?  ?  1  2 
+DIF  CL2   .  CL  0  ?  ?  ?  0  3 
+DIF  C3    .  C   0  ?  ?  ?  1  4 
+DIF  C4    .  C   0  ?  ?  ?  1  5 
+DIF  CL4   .  CL  0  ?  ?  ?  0  6 
+DIF  C5    .  C   0  ?  ?  ?  1  7 
+DIF  C6    .  C   0  ?  ?  ?  1  8 
+DIF  N1    .  N   0  ?  ?  ?  1  9 
+DIF  C7    .  C   0  ?  ?  ?  1  10
+DIF  C8    .  C   0  ?  ?  ?  1  11
+DIF  C9    .  C   0  ?  ?  ?  1  12
+DIF  C10   .  C   0  ?  ?  ?  1  13
+DIF  C11   .  C   0  ?  ?  ?  1  14
+DIF  C12   .  C   0  ?  ?  ?  1  15
+DIF  C13   .  C   0  ?  ?  ?  1  16
+DIF  C14   .  C   0  ?  ?  ?  1  17
+DIF  O1    .  O   0  ?  ?  ?  1  18
+DIF  O2    .  O   0  ?  ?  ?  1  19
+DIF  H1    .  H   0  ?  ?  ?  1  20
+DIF  H5    .  H   0  ?  ?  ?  1  21
+DIF  H6    .  H   0  ?  ?  ?  1  22
+DIF  HN1   .  H   0  ?  ?  ?  1  23
+DIF  H9    .  H   0  ?  ?  ?  1  24
+DIF  H10   .  H   0  ?  ?  ?  1  25
+DIF  H11   .  H   0  ?  ?  ?  1  26
+DIF  H12   .  H   0  ?  ?  ?  1  27
+DIF  1H13  .  H   0  ?  ?  ?  0  28
+DIF  2H13  .  H   0  ?  ?  ?  0  29
+DIF  HO1   .  H   0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIF  C1   C2    DOUB  1 
+DIF  C1   C6    SING  2 
+DIF  C1   H1    SING  3 
+DIF  C2   C3    SING  4 
+DIF  C2   CL2   SING  5 
+DIF  C3   C4    DOUB  6 
+DIF  C3   N1    SING  7 
+DIF  C4   C5    SING  8 
+DIF  C4   CL4   SING  9 
+DIF  C5   C6    DOUB  10
+DIF  C5   H5    SING  11
+DIF  C6   H6    SING  12
+DIF  N1   C8    SING  13
+DIF  N1   HN1   SING  14
+DIF  C7   C8    DOUB  15
+DIF  C7   C12   SING  16
+DIF  C7   C13   SING  17
+DIF  C8   C9    SING  18
+DIF  C9   C10   DOUB  19
+DIF  C9   H9    SING  20
+DIF  C10  C11   SING  21
+DIF  C10  H10   SING  22
+DIF  C11  C12   DOUB  23
+DIF  C11  H11   SING  24
+DIF  C12  H12   SING  25
+DIF  C13  C14   SING  26
+DIF  C13  1H13  SING  27
+DIF  C13  2H13  SING  28
+DIF  C14  O1    SING  29
+DIF  C14  O2    DOUB  30
+DIF  O1   HO1   SING  31
+#

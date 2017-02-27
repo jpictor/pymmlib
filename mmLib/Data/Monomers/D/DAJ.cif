@@ -1,0 +1,101 @@
+data_DAJ
+#
+_chem_comp.id                   DAJ
+_chem_comp.name                 DECARBAMOYL-2,7-DIAMINOMITOSENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H16 N3 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       246.288
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAJ  C1    .  C  0  ?  ?  ?  1  1 
+DAJ  C2    .  C  0  ?  ?  ?  1  2 
+DAJ  N1    .  N  1  ?  ?  ?  1  3 
+DAJ  C3    .  C  0  ?  ?  ?  1  4 
+DAJ  N2    .  N  0  ?  ?  ?  1  5 
+DAJ  C4    .  C  0  ?  ?  ?  1  6 
+DAJ  C12   .  C  0  ?  ?  ?  1  7 
+DAJ  C11   .  C  0  ?  ?  ?  1  8 
+DAJ  O1    .  O  0  ?  ?  ?  1  9 
+DAJ  C5    .  C  0  ?  ?  ?  1  10
+DAJ  C6    .  C  0  ?  ?  ?  1  11
+DAJ  C13   .  C  0  ?  ?  ?  1  12
+DAJ  C7    .  C  0  ?  ?  ?  1  13
+DAJ  N3    .  N  0  ?  ?  ?  1  14
+DAJ  O2    .  O  0  ?  ?  ?  1  15
+DAJ  C8    .  C  0  ?  ?  ?  1  16
+DAJ  C9    .  C  0  ?  ?  ?  1  17
+DAJ  C10   .  C  0  ?  ?  ?  1  18
+DAJ  1H1   .  H  0  ?  ?  ?  0  19
+DAJ  2H1   .  H  0  ?  ?  ?  0  20
+DAJ  H2    .  H  0  ?  ?  ?  1  21
+DAJ  1HN   .  H  0  ?  ?  ?  0  22
+DAJ  2HN   .  H  0  ?  ?  ?  0  23
+DAJ  3HN   .  H  0  ?  ?  ?  0  24
+DAJ  1H3   .  H  0  ?  ?  ?  0  25
+DAJ  2H3   .  H  0  ?  ?  ?  0  26
+DAJ  1H13  .  H  0  ?  ?  ?  0  27
+DAJ  2H13  .  H  0  ?  ?  ?  0  28
+DAJ  3H13  .  H  0  ?  ?  ?  0  29
+DAJ  4HN   .  H  0  ?  ?  ?  0  30
+DAJ  5HN   .  H  0  ?  ?  ?  0  31
+DAJ  1H10  .  H  0  ?  ?  ?  0  32
+DAJ  2H10  .  H  0  ?  ?  ?  0  33
+DAJ  3H10  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAJ  C1   1H1   SING  1 
+DAJ  C1   2H1   SING  2 
+DAJ  C1   C2    SING  3 
+DAJ  C1   C4    SING  4 
+DAJ  C2   H2    SING  5 
+DAJ  C2   N1    SING  6 
+DAJ  C2   C3    SING  7 
+DAJ  N1   1HN   SING  8 
+DAJ  N1   2HN   SING  9 
+DAJ  N1   3HN   SING  10
+DAJ  C3   1H3   SING  11
+DAJ  C3   2H3   SING  12
+DAJ  C3   N2    SING  13
+DAJ  N2   C4    SING  14
+DAJ  N2   C12   SING  15
+DAJ  C4   C9    DOUB  16
+DAJ  C12  C11   DOUB  17
+DAJ  C12  C5    SING  18
+DAJ  C11  C8    SING  19
+DAJ  C11  C9    SING  20
+DAJ  O1   C5    DOUB  21
+DAJ  C5   C6    SING  22
+DAJ  C6   C13   SING  23
+DAJ  C6   C7    DOUB  24
+DAJ  C13  1H13  SING  25
+DAJ  C13  2H13  SING  26
+DAJ  C13  3H13  SING  27
+DAJ  C7   N3    SING  28
+DAJ  C7   C8    SING  29
+DAJ  N3   4HN   SING  30
+DAJ  N3   5HN   SING  31
+DAJ  O2   C8    DOUB  32
+DAJ  C9   C10   SING  33
+DAJ  C10  1H10  SING  34
+DAJ  C10  2H10  SING  35
+DAJ  C10  3H10  SING  36
+#

@@ -1,0 +1,71 @@
+data_XYP
+#
+_chem_comp.id                   XYP
+_chem_comp.name                 BETA-D-XYLOPYRANOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XYP  O4A   .  O  0  25.473  67.456  19.833  1  1 
+XYP  C1B   .  C  0  26.238  67.853  20.951  1  2 
+XYP  C2B   .  C  0  27.692  68.019  20.449  1  3 
+XYP  C3B   .  C  0  28.484  68.399  21.697  1  4 
+XYP  C4B   .  C  0  28.013  69.789  22.196  1  5 
+XYP  C5B   .  C  0  26.475  69.804  22.292  1  6 
+XYP  O2B   .  O  0  28.167  66.806  19.914  1  7 
+XYP  O3B   .  O  0  29.848  68.362  21.41   1  8 
+XYP  O4B   .  O  0  28.532  69.789  23.537  1  9 
+XYP  O5B   .  O  0  25.837  69.19   21.204  1  10
+XYP  HO4A  .  H  0  ?       ?       ?       0  11
+XYP  H1B   .  H  0  ?       ?       ?       1  12
+XYP  H2B   .  H  0  ?       ?       ?       1  13
+XYP  HO2B  .  H  0  ?       ?       ?       0  14
+XYP  H3B   .  H  0  ?       ?       ?       1  15
+XYP  HO3B  .  H  0  ?       ?       ?       0  16
+XYP  H4B   .  H  0  ?       ?       ?       1  17
+XYP  HO4B  .  H  0  ?       ?       ?       0  18
+XYP  1H5B  .  H  0  ?       ?       ?       0  19
+XYP  2H5B  .  H  0  ?       ?       ?       0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XYP  O4A  C1B   SING  1 
+XYP  O4A  HO4A  SING  2 
+XYP  C1B  C2B   SING  3 
+XYP  C1B  O5B   SING  4 
+XYP  C1B  H1B   SING  5 
+XYP  C2B  C3B   SING  6 
+XYP  C2B  O2B   SING  7 
+XYP  C2B  H2B   SING  8 
+XYP  C3B  C4B   SING  9 
+XYP  C3B  O3B   SING  10
+XYP  C3B  H3B   SING  11
+XYP  C4B  C5B   SING  12
+XYP  C4B  O4B   SING  13
+XYP  C4B  H4B   SING  14
+XYP  C5B  O5B   SING  15
+XYP  C5B  1H5B  SING  16
+XYP  C5B  2H5B  SING  17
+XYP  O2B  HO2B  SING  18
+XYP  O3B  HO3B  SING  19
+XYP  O4B  HO4B  SING  20
+#

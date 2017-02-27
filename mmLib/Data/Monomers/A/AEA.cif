@@ -1,0 +1,72 @@
+data_AEA
+#
+_chem_comp.id                   AEA
+_chem_comp.name                 '(2-AMINO-2-CARBAMOYL-ETHYLSULFANYL)-ACETIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 N2 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.206
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AEA  N1    .  N  0  ?  ?  ?  1  1 
+AEA  C1    .  C  0  ?  ?  ?  1  2 
+AEA  C3    .  C  0  ?  ?  ?  1  3 
+AEA  C2    .  C  0  ?  ?  ?  1  4 
+AEA  N2    .  N  0  ?  ?  ?  1  5 
+AEA  S1    .  S  0  ?  ?  ?  1  6 
+AEA  C4    .  C  0  ?  ?  ?  1  7 
+AEA  O1    .  O  0  ?  ?  ?  1  8 
+AEA  C5    .  C  0  ?  ?  ?  1  9 
+AEA  O3    .  O  0  ?  ?  ?  1  10
+AEA  O2    .  O  0  ?  ?  ?  1  11
+AEA  1HN1  .  H  0  ?  ?  ?  0  12
+AEA  2HN1  .  H  0  ?  ?  ?  0  13
+AEA  1H1   .  H  0  ?  ?  ?  0  14
+AEA  1H3   .  H  0  ?  ?  ?  0  15
+AEA  2H3   .  H  0  ?  ?  ?  0  16
+AEA  1H4   .  H  0  ?  ?  ?  0  17
+AEA  2H4   .  H  0  ?  ?  ?  0  18
+AEA  1HO2  .  H  0  ?  ?  ?  0  19
+AEA  1HN2  .  H  0  ?  ?  ?  0  20
+AEA  2HN2  .  H  0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AEA  N1  C1    SING  1 
+AEA  N1  1HN1  SING  2 
+AEA  N1  2HN1  SING  3 
+AEA  C1  C3    SING  4 
+AEA  C1  C2    SING  5 
+AEA  C1  1H1   SING  6 
+AEA  C3  S1    SING  7 
+AEA  C3  1H3   SING  8 
+AEA  C3  2H3   SING  9 
+AEA  C2  N2    SING  10
+AEA  C2  O3    DOUB  11
+AEA  N2  1HN2  SING  12
+AEA  N2  2HN2  SING  13
+AEA  S1  C4    SING  14
+AEA  C4  C5    SING  15
+AEA  C4  1H4   SING  16
+AEA  C4  2H4   SING  17
+AEA  O1  C5    DOUB  18
+AEA  C5  O2    SING  19
+AEA  O2  1HO2  SING  20
+#

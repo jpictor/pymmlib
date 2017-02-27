@@ -1,0 +1,113 @@
+data_BFA
+#
+_chem_comp.id                   BFA
+_chem_comp.name                 '9-BROMO-PHENAZINE-1-CARBOXYLIC ACID (2-DIMETHYLAMINO-ETHYL)-AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H17 N4 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        373.251
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BFA  BR    .  BR  0  ?  ?  ?  0  1 
+BFA  C4    .  C   0  ?  ?  ?  1  2 
+BFA  C3    .  C   0  ?  ?  ?  1  3 
+BFA  C2    .  C   0  ?  ?  ?  1  4 
+BFA  C1    .  C   0  ?  ?  ?  1  5 
+BFA  N9    .  N   0  ?  ?  ?  1  6 
+BFA  C8    .  C   0  ?  ?  ?  1  7 
+BFA  C7    .  C   0  ?  ?  ?  1  8 
+BFA  C6    .  C   0  ?  ?  ?  1  9 
+BFA  C5    .  C   0  ?  ?  ?  1  10
+BFA  C12   .  C   0  ?  ?  ?  1  11
+BFA  C11   .  C   0  ?  ?  ?  1  12
+BFA  C13   .  C   0  ?  ?  ?  1  13
+BFA  C14   .  C   0  ?  ?  ?  1  14
+BFA  N10   .  N   0  ?  ?  ?  1  15
+BFA  CD1   .  C   0  ?  ?  ?  1  16
+BFA  OD1   .  O   0  ?  ?  ?  1  17
+BFA  ND1   .  N   0  ?  ?  ?  1  18
+BFA  CD2   .  C   0  ?  ?  ?  1  19
+BFA  CD3   .  C   0  ?  ?  ?  1  20
+BFA  ND2   .  N   0  ?  ?  ?  1  21
+BFA  CD7   .  C   0  ?  ?  ?  1  22
+BFA  CD8   .  C   0  ?  ?  ?  1  23
+BFA  H1    .  H   0  ?  ?  ?  1  24
+BFA  H2    .  H   0  ?  ?  ?  1  25
+BFA  H3    .  H   0  ?  ?  ?  1  26
+BFA  H6    .  H   0  ?  ?  ?  1  27
+BFA  H7    .  H   0  ?  ?  ?  1  28
+BFA  H8    .  H   0  ?  ?  ?  1  29
+BFA  1HD2  .  H   0  ?  ?  ?  0  30
+BFA  2HD2  .  H   0  ?  ?  ?  0  31
+BFA  1HD3  .  H   0  ?  ?  ?  0  32
+BFA  2HD3  .  H   0  ?  ?  ?  0  33
+BFA  1HD7  .  H   0  ?  ?  ?  0  34
+BFA  2HD7  .  H   0  ?  ?  ?  0  35
+BFA  3HD7  .  H   0  ?  ?  ?  0  36
+BFA  1HD8  .  H   0  ?  ?  ?  0  37
+BFA  2HD8  .  H   0  ?  ?  ?  0  38
+BFA  3HD8  .  H   0  ?  ?  ?  0  39
+BFA  HN1   .  H   0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BFA  BR   C5    SING  1 
+BFA  C4   C3    DOUB  2 
+BFA  C4   C12   SING  3 
+BFA  C4   CD1   SING  4 
+BFA  C3   C2    SING  5 
+BFA  C3   H3    SING  6 
+BFA  C2   C1    DOUB  7 
+BFA  C2   H2    SING  8 
+BFA  C1   C11   SING  9 
+BFA  C1   H1    SING  10
+BFA  N9   C11   DOUB  11
+BFA  N9   C13   SING  12
+BFA  C8   C7    DOUB  13
+BFA  C8   C13   SING  14
+BFA  C8   H8    SING  15
+BFA  C7   C6    SING  16
+BFA  C7   H7    SING  17
+BFA  C6   C5    DOUB  18
+BFA  C6   H6    SING  19
+BFA  C5   C14   SING  20
+BFA  C12  C11   SING  21
+BFA  C12  N10   DOUB  22
+BFA  C13  C14   DOUB  23
+BFA  C14  N10   SING  24
+BFA  CD1  OD1   DOUB  25
+BFA  CD1  ND1   SING  26
+BFA  ND1  CD2   SING  27
+BFA  ND1  HN1   SING  28
+BFA  CD2  CD3   SING  29
+BFA  CD2  1HD2  SING  30
+BFA  CD2  2HD2  SING  31
+BFA  CD3  ND2   SING  32
+BFA  CD3  1HD3  SING  33
+BFA  CD3  2HD3  SING  34
+BFA  ND2  CD7   SING  35
+BFA  ND2  CD8   SING  36
+BFA  CD7  1HD7  SING  37
+BFA  CD7  2HD7  SING  38
+BFA  CD7  3HD7  SING  39
+BFA  CD8  1HD8  SING  40
+BFA  CD8  2HD8  SING  41
+BFA  CD8  3HD8  SING  42
+#

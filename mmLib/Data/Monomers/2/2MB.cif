@@ -1,0 +1,76 @@
+data_2MB
+#
+_chem_comp.id                   2MB
+_chem_comp.name                 '2-METHYL BUT-2-ENE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        70.134
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+2MB  SMILES_CANNONICAL  CC=C(C)C                            CACTVS   2.87 
+2MB  INCHI              InChI=1/C5H10/c1-4-5(2)3/h4H,1-3H3  InChi    1    
+2MB  SMILES             CC=C(C)C                            OpenEye  1.3.4
+2MB  SMILES_CANNONICAL  CC=C(C)C                            OpenEye  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+2MB  C4    .  C  0  ?  ?  ?  1  N  N  N  1 
+2MB  C3    .  C  0  ?  ?  ?  1  N  N  N  2 
+2MB  C2    .  C  0  ?  ?  ?  1  N  N  N  3 
+2MB  C1    .  C  0  ?  ?  ?  1  N  N  N  4 
+2MB  C2'   .  C  0  ?  ?  ?  1  N  N  N  5 
+2MB  1H4C  .  H  0  ?  ?  ?  0  N  N  N  6 
+2MB  2H4C  .  H  0  ?  ?  ?  0  N  N  N  7 
+2MB  3H4C  .  H  0  ?  ?  ?  0  N  N  N  8 
+2MB  H3    .  H  0  ?  ?  ?  1  N  N  N  9 
+2MB  1H1C  .  H  0  ?  ?  ?  0  N  N  N  10
+2MB  2H1C  .  H  0  ?  ?  ?  0  N  N  N  11
+2MB  3H1C  .  H  0  ?  ?  ?  0  N  N  N  12
+2MB  1H2'  .  H  0  ?  ?  ?  0  N  N  N  13
+2MB  2H2'  .  H  0  ?  ?  ?  0  N  N  N  14
+2MB  3H2'  .  H  0  ?  ?  ?  0  N  N  N  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+2MB  C4   C3    SING  N  N  1 
+2MB  C4   1H4C  SING  N  N  2 
+2MB  C4   2H4C  SING  N  N  3 
+2MB  C4   3H4C  SING  N  N  4 
+2MB  C3   C2    DOUB  N  N  5 
+2MB  C3   H3    SING  N  N  6 
+2MB  C2   C1    SING  N  N  7 
+2MB  C2   C2'   SING  N  N  8 
+2MB  C1   1H1C  SING  N  N  9 
+2MB  C1   2H1C  SING  N  N  10
+2MB  C1   3H1C  SING  N  N  11
+2MB  C2'  1H2'  SING  N  N  12
+2MB  C2'  2H2'  SING  N  N  13
+2MB  C2'  3H2'  SING  N  N  14
+#

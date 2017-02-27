@@ -1,0 +1,107 @@
+data_CBC
+#
+_chem_comp.id                   CBC
+_chem_comp.name                 N'-(5-CHLOROBENZOFURAN-2-CARBONYL)-2-(TRIFLUOROMETHYL)BENZENESULFONOHYDRAZIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H10 N2 O4 CL1 F3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        418.774
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBC  F49  .  F   0  32.805  61.622  93.102  1  1 
+CBC  C46  .  C   0  31.507  61.368  93.200  1  2 
+CBC  F50  .  F   0  30.960  61.372  91.997  1  3 
+CBC  F51  .  F   0  31.359  60.164  93.723  1  4 
+CBC  C41  .  C   0  30.828  62.386  94.095  1  5 
+CBC  C42  .  C   0  30.393  61.908  95.337  1  6 
+CBC  C43  .  C   0  29.752  62.724  96.266  1  7 
+CBC  C44  .  C   0  29.543  64.058  95.947  1  8 
+CBC  C45  .  C   0  29.975  64.549  94.712  1  9 
+CBC  C40  .  C   0  30.624  63.744  93.768  1  10
+CBC  S1   .  S   0  31.051  64.479  92.384  1  11
+CBC  O38  .  O   0  31.452  65.827  92.658  1  12
+CBC  O39  .  O   0  32.116  63.800  91.695  1  13
+CBC  N33  .  N   0  29.742  64.592  91.459  1  14
+CBC  N32  .  N   0  29.199  63.427  90.919  1  15
+CBC  C39  .  C   0  29.357  63.149  89.628  1  16
+CBC  O37  .  O   0  30.055  63.826  88.886  1  17
+CBC  C54  .  C   0  28.564  62.016  89.075  1  18
+CBC  C53  .  C   0  27.633  61.144  89.651  1  19
+CBC  O40  .  O   0  28.714  61.782  87.725  1  20
+CBC  C51  .  C   0  27.858  60.711  87.405  1  21
+CBC  C50  .  C   0  27.211  60.320  88.551  1  22
+CBC  C49  .  C   0  26.298  59.273  88.506  1  23
+CBC  C52  .  C   0  27.660  60.113  86.165  1  24
+CBC  C47  .  C   0  26.753  59.055  86.114  1  25
+CBC  C48  .  C   0  26.082  58.649  87.272  1  26
+CBC  CL1  .  CL  0  24.918  57.296  87.161  0  27
+CBC  H32  .  H   0  ?       ?       ?       1  28
+CBC  H33  .  H   0  ?       ?       ?       1  29
+CBC  H45  .  H   0  ?       ?       ?       1  30
+CBC  H44  .  H   0  ?       ?       ?       1  31
+CBC  H43  .  H   0  ?       ?       ?       1  32
+CBC  H42  .  H   0  ?       ?       ?       1  33
+CBC  H53  .  H   0  ?       ?       ?       1  34
+CBC  H49  .  H   0  ?       ?       ?       1  35
+CBC  H47  .  H   0  ?       ?       ?       1  36
+CBC  H52  .  H   0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBC  F49  C46  SING  1 
+CBC  C46  F50  SING  2 
+CBC  C46  F51  SING  3 
+CBC  C46  C41  SING  4 
+CBC  C41  C42  AROM  5 
+CBC  C41  C40  AROM  6 
+CBC  C42  C43  AROM  7 
+CBC  C42  H42  SING  8 
+CBC  C43  C44  AROM  9 
+CBC  C43  H43  SING  10
+CBC  C44  C45  AROM  11
+CBC  C44  H44  SING  12
+CBC  C45  C40  AROM  13
+CBC  C45  H45  SING  14
+CBC  C40  S1   SING  15
+CBC  S1   N33  SING  16
+CBC  S1   O38  DOUB  17
+CBC  S1   O39  DOUB  18
+CBC  N33  N32  SING  19
+CBC  N33  H33  SING  20
+CBC  N32  C39  SING  21
+CBC  N32  H32  SING  22
+CBC  C39  C54  SING  23
+CBC  C39  O37  DOUB  24
+CBC  C54  C53  DOUB  25
+CBC  C54  O40  SING  26
+CBC  C53  C50  SING  27
+CBC  C53  H53  SING  28
+CBC  O40  C51  SING  29
+CBC  C51  C52  AROM  30
+CBC  C51  C50  AROM  31
+CBC  C50  C49  AROM  32
+CBC  C49  C48  AROM  33
+CBC  C49  H49  SING  34
+CBC  C52  C47  AROM  35
+CBC  C52  H52  SING  36
+CBC  C47  C48  AROM  37
+CBC  C47  H47  SING  38
+CBC  C48  CL1  SING  39
+#

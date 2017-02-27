@@ -1,0 +1,73 @@
+data_NAT
+#
+_chem_comp.id                   NAT
+_chem_comp.name                 'ETHYL 4-(3-HYDROXYPHENYL)-6-METHYL-2-THIOXO-1,2,3,4-TETRAHYDROPYRIMIDINE-5-CARBOXYLATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 N2 O3 S1'
+_chem_comp.pdbx_synonyms        MONASTROL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        276.226
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAT  C1   .  C  0  18.944  14.071  112.221  1  1 
+NAT  C2   .  C  0  17.944  13.443  111.365  1  2 
+NAT  C3   .  C  0  16.900  12.619  111.914  1  3 
+NAT  C4   .  C  0  16.870  12.448  113.360  1  4 
+NAT  C5   .  C  0  17.841  13.103  114.210  1  5 
+NAT  C6   .  C  0  18.913  13.916  113.664  1  6 
+NAT  C7   .  C  0  18.023  13.606  109.893  1  7 
+NAT  N8   .  N  0  19.321  13.198  109.344  1  8 
+NAT  C9   .  C  0  20.214  14.045  108.786  1  9 
+NAT  N10  .  N  0  19.883  15.340  108.645  1  10
+NAT  C11  .  C  0  18.539  15.829  108.947  1  11
+NAT  C12  .  C  0  17.604  14.993  109.455  1  12
+NAT  O13  .  O  0  15.941  11.646  113.916  1  13
+NAT  C14  .  C  0  16.171  15.386  109.676  1  14
+NAT  O15  .  O  0  15.866  16.700  109.588  1  15
+NAT  C16  .  C  0  14.532  17.333  109.727  1  16
+NAT  C17  .  C  0  14.610  18.847  109.433  1  17
+NAT  C18  .  C  0  18.356  17.298  108.628  1  18
+NAT  O19  .  O  0  15.349  14.546  109.933  1  19
+NAT  S20  .  S  0  21.695  13.517  108.229  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAT  C1   C2   AROM  1 
+NAT  C1   C6   AROM  2 
+NAT  C2   C7   SING  3 
+NAT  C2   C3   AROM  4 
+NAT  C3   C4   AROM  5 
+NAT  C4   C5   AROM  6 
+NAT  C4   O13  SING  7 
+NAT  C5   C6   AROM  8 
+NAT  C7   N8   SING  9 
+NAT  C7   C12  SING  10
+NAT  N8   C9   SING  11
+NAT  C9   N10  SING  12
+NAT  C9   S20  DOUB  13
+NAT  N10  C11  SING  14
+NAT  C11  C12  DOUB  15
+NAT  C11  C18  SING  16
+NAT  C12  C14  SING  17
+NAT  C14  O15  SING  18
+NAT  C14  O19  DOUB  19
+NAT  O15  C16  SING  20
+NAT  C16  C17  SING  21
+#

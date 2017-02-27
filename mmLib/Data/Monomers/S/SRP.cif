@@ -1,0 +1,129 @@
+data_SRP
+#
+_chem_comp.id                   SRP
+_chem_comp.name                 'SERYL ADENYLATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N6 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        434.302
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SRP  PA    .  P  0  72.368  33.936  66.843  1  1 
+SRP  O1A   .  O  0  71.052  34.477  66.668  1  2 
+SRP  O2A   .  O  0  73.305  33.754  65.742  1  3 
+SRP  O3A   .  O  0  72.903  33.655  68.292  1  4 
+SRP  O5*   .  O  0  71.648  32.672  66.737  1  5 
+SRP  C5*   .  C  0  71.483  31.422  66.800  1  6 
+SRP  C4*   .  C  0  71.561  30.051  66.260  1  7 
+SRP  O4*   .  O  0  70.150  29.770  66.132  1  8 
+SRP  C3*   .  C  0  72.071  30.452  64.895  1  9 
+SRP  O3*   .  O  0  73.466  30.304  64.678  1  10
+SRP  C2*   .  C  0  71.158  29.614  63.976  1  11
+SRP  O2*   .  O  0  71.754  28.344  63.758  1  12
+SRP  C1*   .  C  0  69.822  29.470  64.740  1  13
+SRP  N9    .  N  0  68.765  30.408  64.303  1  14
+SRP  C8    .  C  0  68.620  31.793  64.508  1  15
+SRP  N7    .  N  0  67.555  32.301  63.978  1  16
+SRP  C5    .  C  0  66.958  31.193  63.387  1  17
+SRP  C6    .  C  0  65.745  31.018  62.624  1  18
+SRP  N6    .  N  0  64.935  32.030  62.355  1  19
+SRP  N1    .  N  0  65.422  29.747  62.162  1  20
+SRP  C2    .  C  0  66.229  28.695  62.423  1  21
+SRP  N3    .  N  0  67.386  28.727  63.123  1  22
+SRP  C4    .  C  0  67.691  30.045  63.583  1  23
+SRP  O     .  O  0  71.068  33.682  69.682  1  24
+SRP  C     .  C  0  72.291  33.750  69.579  1  25
+SRP  CA    .  C  0  73.179  33.682  70.824  1  26
+SRP  N     .  N  0  72.341  33.753  72.030  1  27
+SRP  CB    .  C  0  73.986  32.381  70.828  1  28
+SRP  OG    .  O  0  73.131  31.263  70.572  1  29
+SRP  1HN   .  H  0  ?       ?       ?       0  30
+SRP  2HN   .  H  0  ?       ?       ?       0  31
+SRP  HA    .  H  0  ?       ?       ?       1  32
+SRP  1HB   .  H  0  ?       ?       ?       0  33
+SRP  2HB   .  H  0  ?       ?       ?       0  34
+SRP  HOG   .  H  0  ?       ?       ?       1  35
+SRP  H2A   .  H  0  ?       ?       ?       1  36
+SRP  1H5*  .  H  0  ?       ?       ?       0  37
+SRP  2H5*  .  H  0  ?       ?       ?       0  38
+SRP  H4*   .  H  0  ?       ?       ?       1  39
+SRP  H1*   .  H  0  ?       ?       ?       1  40
+SRP  H2*   .  H  0  ?       ?       ?       1  41
+SRP  H1    .  H  0  ?       ?       ?       1  42
+SRP  H3*   .  H  0  ?       ?       ?       1  43
+SRP  H2    .  H  0  ?       ?       ?       1  44
+SRP  H8    .  H  0  ?       ?       ?       1  45
+SRP  1HN6  .  H  0  ?       ?       ?       0  46
+SRP  2HN6  .  H  0  ?       ?       ?       0  47
+SRP  H3    .  H  0  ?       ?       ?       1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SRP  PA   O3A   SING  1 
+SRP  PA   O1A   DOUB  2 
+SRP  PA   O2A   SING  3 
+SRP  PA   O5*   SING  4 
+SRP  O2A  H2A   SING  5 
+SRP  O3A  C     SING  6 
+SRP  O5*  C5*   SING  7 
+SRP  C5*  C4*   SING  8 
+SRP  C5*  1H5*  SING  9 
+SRP  C5*  2H5*  SING  10
+SRP  C4*  O4*   SING  11
+SRP  C4*  C3*   SING  12
+SRP  C4*  H4*   SING  13
+SRP  O4*  C1*   SING  14
+SRP  C3*  C2*   SING  15
+SRP  C3*  O3*   SING  16
+SRP  C3*  H3*   SING  17
+SRP  O3*  H2    SING  18
+SRP  C2*  C1*   SING  19
+SRP  C2*  O2*   SING  20
+SRP  C2*  H2*   SING  21
+SRP  O2*  H1    SING  22
+SRP  C1*  N9    SING  23
+SRP  C1*  H1*   SING  24
+SRP  N9   C8    SING  25
+SRP  N9   C4    SING  26
+SRP  C8   N7    DOUB  27
+SRP  C8   H8    SING  28
+SRP  N7   C5    SING  29
+SRP  C5   C6    SING  30
+SRP  C5   C4    DOUB  31
+SRP  C6   N6    SING  32
+SRP  C6   N1    DOUB  33
+SRP  N6   1HN6  SING  34
+SRP  N6   2HN6  SING  35
+SRP  N1   C2    SING  36
+SRP  C2   N3    DOUB  37
+SRP  C2   H3    SING  38
+SRP  N3   C4    SING  39
+SRP  O    C     DOUB  40
+SRP  C    CA    SING  41
+SRP  CA   N     SING  42
+SRP  CA   CB    SING  43
+SRP  CA   HA    SING  44
+SRP  N    1HN   SING  45
+SRP  N    2HN   SING  46
+SRP  CB   OG    SING  47
+SRP  CB   1HB   SING  48
+SRP  CB   2HB   SING  49
+SRP  OG   HOG   SING  50
+#

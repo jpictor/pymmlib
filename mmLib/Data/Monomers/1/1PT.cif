@@ -1,0 +1,79 @@
+data_1PT
+#
+_chem_comp.id                   1PT
+_chem_comp.name                 CYCLOHEXANE-1(R),2(R)-DIAMINE-PLATINUM(II)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N2 PT1'
+_chem_comp.pdbx_synonyms        OXALIPLATIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        309.280
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1PT  PT   .  PT  2  -0.083  2.214  2.698   0  1 
+1PT  N1   .  N   0  -1.960  2.680  2.095   1  2 
+1PT  N2   .  N   0  0.536   3.428  1.201   1  3 
+1PT  C1   .  C   0  -1.880  3.903  1.158   1  4 
+1PT  C2   .  C   0  -0.664  3.699  0.272   1  5 
+1PT  C3   .  C   0  -0.445  4.880  -0.628  1  6 
+1PT  C4   .  C   0  -1.661  5.126  -1.490  1  7 
+1PT  C5   .  C   0  -2.981  5.347  -0.596  1  8 
+1PT  C6   .  C   0  -3.114  4.090  0.340   1  9 
+1PT  1H1  .  H   0  -2.379  1.929  1.564   0  10
+1PT  2H1  .  H   0  -2.542  2.948  2.877   0  11
+1PT  1H2  .  H   0  0.843   4.324  1.553   0  12
+1PT  2H2  .  H   0  1.248   2.985  0.637   0  13
+1PT  H1   .  H   0  -1.735  4.800  1.760   1  14
+1PT  H2   .  H   0  -0.827  2.819  -0.352  1  15
+1PT  1H3  .  H   0  0.416   4.689  -1.269  0  16
+1PT  2H3  .  H   0  -0.250  5.764  -0.020  0  17
+1PT  1H4  .  H   0  -1.492  6.014  -2.100  0  18
+1PT  2H4  .  H   0  -1.813  4.268  -2.145  0  19
+1PT  1H5  .  H   0  -3.857  5.425  -1.240  0  20
+1PT  2H5  .  H   0  -2.877  6.250  0.005   0  21
+1PT  1H6  .  H   0  -3.277  3.203  -0.272  0  22
+1PT  2H6  .  H   0  -3.966  4.228  1.005   0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1PT  PT  N1   SING  1 
+1PT  PT  N2   SING  2 
+1PT  N1  1H1  SING  3 
+1PT  N1  2H1  SING  4 
+1PT  N1  C1   SING  5 
+1PT  N2  1H2  SING  6 
+1PT  N2  2H2  SING  7 
+1PT  N2  C2   SING  8 
+1PT  C1  C2   SING  9 
+1PT  C1  C6   SING  10
+1PT  C1  H1   SING  11
+1PT  C2  C3   SING  12
+1PT  C2  H2   SING  13
+1PT  C3  C4   SING  14
+1PT  C3  1H3  SING  15
+1PT  C3  2H3  SING  16
+1PT  C4  C5   SING  17
+1PT  C4  1H4  SING  18
+1PT  C4  2H4  SING  19
+1PT  C5  C6   SING  20
+1PT  C5  1H5  SING  21
+1PT  C5  2H5  SING  22
+1PT  C6  1H6  SING  23
+1PT  C6  2H6  SING  24
+#

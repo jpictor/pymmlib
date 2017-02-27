@@ -1,0 +1,87 @@
+data_KYN
+#
+_chem_comp.id                       KYN
+_chem_comp.name                     KYNURENINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H12 N2 O3'
+_chem_comp.pdbx_synonyms            'L-2-AMINO-4-[2-AMINOPHENYL]-4-OXOBUTANOIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            208.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KYN  N    .  N  0  -3.768  0.366   3.255  1  1 
+KYN  CA   .  C  0  -2.983  -0.890  3.396  1  2 
+KYN  CB   .  C  0  -2.373  -0.951  4.829  1  3 
+KYN  CG   .  C  0  -1.577  -4.780  5.649  1  4 
+KYN  CD1  .  C  0  -1.995  -5.817  6.490  1  5 
+KYN  CE1  .  C  0  -2.821  -5.554  7.572  1  6 
+KYN  CZ   .  C  0  -3.216  -4.256  7.850  1  7 
+KYN  CE2  .  C  0  -2.769  -3.209  7.057  1  8 
+KYN  CD2  .  C  0  -1.944  -3.430  5.935  1  9 
+KYN  C    .  C  0  -1.969  -0.934  2.229  1  10
+KYN  O    .  O  0  -2.202  -1.484  1.145  1  11
+KYN  OXT  .  O  0  ?       ?       ?      1  12
+KYN  C1   .  C  0  -1.508  -2.210  5.113  1  13
+KYN  O2   .  O  0  -0.382  -2.169  4.610  1  14
+KYN  N1   .  N  0  -0.831  -5.126  4.598  1  15
+KYN  HXT  .  H  0  ?       ?       ?      1  16
+KYN  HA   .  H  0  -3.648  -1.769  3.275  1  17
+KYN  H    .  H  0  -4.449  0.604   4.026  1  18
+KYN  HN2  .  H  0  ?       ?       ?      1  19
+KYN  1HB  .  H  0  -3.205  -0.965  5.561  0  20
+KYN  2HB  .  H  0  -1.846  -0.013  5.067  0  21
+KYN  2HE  .  H  0  -3.086  -2.227  7.360  0  22
+KYN  HZ   .  H  0  -3.872  -4.058  8.685  1  23
+KYN  1HE  .  H  0  -3.157  -6.364  8.202  0  24
+KYN  1HD  .  H  0  -1.690  -6.842  6.321  0  25
+KYN  1H1  .  H  0  -0.552  -4.369  3.963  0  26
+KYN  2H1  .  H  0  -0.596  -6.121  4.508  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KYN  N    CA   SING  1 
+KYN  N    H    SING  2 
+KYN  N    HN2  SING  3 
+KYN  CA   C    SING  4 
+KYN  CA   HA   SING  5 
+KYN  CA   CB   SING  6 
+KYN  CB   1HB  SING  7 
+KYN  CB   2HB  SING  8 
+KYN  CB   C1   SING  9 
+KYN  CG   CD1  DOUB  10
+KYN  CG   CD2  SING  11
+KYN  CG   N1   SING  12
+KYN  CD1  CE1  SING  13
+KYN  CD1  1HD  SING  14
+KYN  CE1  CZ   DOUB  15
+KYN  CE1  1HE  SING  16
+KYN  CZ   CE2  SING  17
+KYN  CZ   HZ   SING  18
+KYN  CE2  CD2  DOUB  19
+KYN  CE2  2HE  SING  20
+KYN  CD2  C1   SING  21
+KYN  C    OXT  SING  22
+KYN  C    O    DOUB  23
+KYN  OXT  HXT  SING  24
+KYN  C1   O2   DOUB  25
+KYN  N1   1H1  SING  26
+KYN  N1   2H1  SING  27
+#

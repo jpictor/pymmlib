@@ -1,0 +1,138 @@
+data_FMN
+#
+_chem_comp.id                   FMN
+_chem_comp.name                 'FLAVIN MONONUCLEOTIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H21 N4 O9 P1'
+_chem_comp.pdbx_synonyms        'RIBOFLAVIN MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        456.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FMN  N1    .  N  0  ?  ?  ?  1  1 
+FMN  C2    .  C  0  ?  ?  ?  1  2 
+FMN  O2    .  O  0  ?  ?  ?  1  3 
+FMN  N3    .  N  0  ?  ?  ?  1  4 
+FMN  C4    .  C  0  ?  ?  ?  1  5 
+FMN  O4    .  O  0  ?  ?  ?  1  6 
+FMN  C4A   .  C  0  ?  ?  ?  1  7 
+FMN  N5    .  N  0  ?  ?  ?  1  8 
+FMN  C5A   .  C  0  ?  ?  ?  1  9 
+FMN  C6    .  C  0  ?  ?  ?  1  10
+FMN  C7    .  C  0  ?  ?  ?  1  11
+FMN  C7M   .  C  0  ?  ?  ?  1  12
+FMN  C8    .  C  0  ?  ?  ?  1  13
+FMN  C8M   .  C  0  ?  ?  ?  1  14
+FMN  C9    .  C  0  ?  ?  ?  1  15
+FMN  C9A   .  C  0  ?  ?  ?  1  16
+FMN  N10   .  N  0  ?  ?  ?  1  17
+FMN  C10   .  C  0  ?  ?  ?  1  18
+FMN  C1*   .  C  0  ?  ?  ?  1  19
+FMN  C2*   .  C  0  ?  ?  ?  1  20
+FMN  O2*   .  O  0  ?  ?  ?  1  21
+FMN  C3*   .  C  0  ?  ?  ?  1  22
+FMN  O3*   .  O  0  ?  ?  ?  1  23
+FMN  C4*   .  C  0  ?  ?  ?  1  24
+FMN  O4*   .  O  0  ?  ?  ?  1  25
+FMN  C5*   .  C  0  ?  ?  ?  1  26
+FMN  O5*   .  O  0  ?  ?  ?  1  27
+FMN  P     .  P  0  ?  ?  ?  1  28
+FMN  O1P   .  O  0  ?  ?  ?  1  29
+FMN  O2P   .  O  0  ?  ?  ?  1  30
+FMN  O3P   .  O  0  ?  ?  ?  1  31
+FMN  HN3   .  H  0  ?  ?  ?  1  32
+FMN  H6    .  H  0  ?  ?  ?  1  33
+FMN  1HM7  .  H  0  ?  ?  ?  0  34
+FMN  2HM7  .  H  0  ?  ?  ?  0  35
+FMN  3HM7  .  H  0  ?  ?  ?  0  36
+FMN  1HM8  .  H  0  ?  ?  ?  0  37
+FMN  2HM8  .  H  0  ?  ?  ?  0  38
+FMN  3HM8  .  H  0  ?  ?  ?  0  39
+FMN  H9    .  H  0  ?  ?  ?  1  40
+FMN  1H1*  .  H  0  ?  ?  ?  0  41
+FMN  2H1*  .  H  0  ?  ?  ?  0  42
+FMN  H2*   .  H  0  ?  ?  ?  1  43
+FMN  *HO2  .  H  0  ?  ?  ?  0  44
+FMN  H3*   .  H  0  ?  ?  ?  1  45
+FMN  *HO3  .  H  0  ?  ?  ?  0  46
+FMN  H4*   .  H  0  ?  ?  ?  1  47
+FMN  *HO4  .  H  0  ?  ?  ?  0  48
+FMN  1H5*  .  H  0  ?  ?  ?  0  49
+FMN  2H5*  .  H  0  ?  ?  ?  0  50
+FMN  2HOP  .  H  0  ?  ?  ?  0  51
+FMN  3HOP  .  H  0  ?  ?  ?  0  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FMN  N1   C2    SING  1 
+FMN  N1   C10   DOUB  2 
+FMN  C2   O2    DOUB  3 
+FMN  C2   N3    SING  4 
+FMN  N3   C4    SING  5 
+FMN  N3   HN3   SING  6 
+FMN  C4   O4    DOUB  7 
+FMN  C4   C4A   SING  8 
+FMN  C4A  N5    DOUB  9 
+FMN  C4A  C10   SING  10
+FMN  N5   C5A   SING  11
+FMN  C5A  C6    DOUB  12
+FMN  C5A  C9A   SING  13
+FMN  C6   C7    SING  14
+FMN  C6   H6    SING  15
+FMN  C7   C7M   SING  16
+FMN  C7   C8    DOUB  17
+FMN  C7M  1HM7  SING  18
+FMN  C7M  2HM7  SING  19
+FMN  C7M  3HM7  SING  20
+FMN  C8   C8M   SING  21
+FMN  C8   C9    SING  22
+FMN  C8M  1HM8  SING  23
+FMN  C8M  2HM8  SING  24
+FMN  C8M  3HM8  SING  25
+FMN  C9   C9A   DOUB  26
+FMN  C9   H9    SING  27
+FMN  C9A  N10   SING  28
+FMN  N10  C10   SING  29
+FMN  N10  C1*   SING  30
+FMN  C1*  C2*   SING  31
+FMN  C1*  1H1*  SING  32
+FMN  C1*  2H1*  SING  33
+FMN  C2*  O2*   SING  34
+FMN  C2*  C3*   SING  35
+FMN  C2*  H2*   SING  36
+FMN  O2*  *HO2  SING  37
+FMN  C3*  O3*   SING  38
+FMN  C3*  C4*   SING  39
+FMN  C3*  H3*   SING  40
+FMN  O3*  *HO3  SING  41
+FMN  C4*  O4*   SING  42
+FMN  C4*  C5*   SING  43
+FMN  C4*  H4*   SING  44
+FMN  O4*  *HO4  SING  45
+FMN  C5*  O5*   SING  46
+FMN  C5*  1H5*  SING  47
+FMN  C5*  2H5*  SING  48
+FMN  O5*  P     SING  49
+FMN  P    O1P   DOUB  50
+FMN  P    O2P   SING  51
+FMN  P    O3P   SING  52
+FMN  O2P  2HOP  SING  53
+FMN  O3P  3HOP  SING  54
+#

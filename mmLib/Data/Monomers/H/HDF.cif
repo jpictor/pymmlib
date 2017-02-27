@@ -1,0 +1,119 @@
+data_HDF
+#
+_chem_comp.id                   HDF
+_chem_comp.name                 8-HYDROXY-10-(D-RIBO-2,3,4,5-TETRAHYDROXYPENTYL)-5-DEAZAISOALLOXAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H17 N3 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        363.326
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HDF  N1    .  N  0  ?  ?  ?  1  1 
+HDF  C2    .  C  0  ?  ?  ?  1  2 
+HDF  O2    .  O  0  ?  ?  ?  1  3 
+HDF  N3    .  N  0  ?  ?  ?  1  4 
+HDF  C4    .  C  0  ?  ?  ?  1  5 
+HDF  O4    .  O  0  ?  ?  ?  1  6 
+HDF  C4A   .  C  0  ?  ?  ?  1  7 
+HDF  C5    .  C  0  ?  ?  ?  1  8 
+HDF  C5A   .  C  0  ?  ?  ?  1  9 
+HDF  C6    .  C  0  ?  ?  ?  1  10
+HDF  C7    .  C  0  ?  ?  ?  1  11
+HDF  C8    .  C  0  ?  ?  ?  1  12
+HDF  O8    .  O  0  ?  ?  ?  1  13
+HDF  C9    .  C  0  ?  ?  ?  1  14
+HDF  C9A   .  C  0  ?  ?  ?  1  15
+HDF  N10   .  N  0  ?  ?  ?  1  16
+HDF  C10   .  C  0  ?  ?  ?  1  17
+HDF  C1*   .  C  0  ?  ?  ?  1  18
+HDF  C2*   .  C  0  ?  ?  ?  1  19
+HDF  O2*   .  O  0  ?  ?  ?  1  20
+HDF  C3*   .  C  0  ?  ?  ?  1  21
+HDF  O3*   .  O  0  ?  ?  ?  1  22
+HDF  C4*   .  C  0  ?  ?  ?  1  23
+HDF  O4*   .  O  0  ?  ?  ?  1  24
+HDF  C5*   .  C  0  ?  ?  ?  1  25
+HDF  O5*   .  O  0  ?  ?  ?  1  26
+HDF  HN3   .  H  0  ?  ?  ?  1  27
+HDF  H5    .  H  0  ?  ?  ?  1  28
+HDF  H6    .  H  0  ?  ?  ?  1  29
+HDF  H7    .  H  0  ?  ?  ?  1  30
+HDF  HO8   .  H  0  ?  ?  ?  1  31
+HDF  H9    .  H  0  ?  ?  ?  1  32
+HDF  1H1*  .  H  0  ?  ?  ?  0  33
+HDF  2H1*  .  H  0  ?  ?  ?  0  34
+HDF  H2*   .  H  0  ?  ?  ?  1  35
+HDF  *HO2  .  H  0  ?  ?  ?  0  36
+HDF  H3*   .  H  0  ?  ?  ?  1  37
+HDF  *HO3  .  H  0  ?  ?  ?  0  38
+HDF  H4*   .  H  0  ?  ?  ?  1  39
+HDF  *HO4  .  H  0  ?  ?  ?  0  40
+HDF  1H5*  .  H  0  ?  ?  ?  0  41
+HDF  2H5*  .  H  0  ?  ?  ?  0  42
+HDF  *HO5  .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HDF  N1   C2    SING  1 
+HDF  N1   C10   DOUB  2 
+HDF  C2   O2    DOUB  3 
+HDF  C2   N3    SING  4 
+HDF  N3   C4    SING  5 
+HDF  N3   HN3   SING  6 
+HDF  C4   O4    DOUB  7 
+HDF  C4   C4A   SING  8 
+HDF  C4A  C5    DOUB  9 
+HDF  C4A  C10   SING  10
+HDF  C5   C5A   SING  11
+HDF  C5   H5    SING  12
+HDF  C5A  C6    DOUB  13
+HDF  C5A  C9A   SING  14
+HDF  C6   C7    SING  15
+HDF  C6   H6    SING  16
+HDF  C7   C8    DOUB  17
+HDF  C7   H7    SING  18
+HDF  C8   C9    SING  19
+HDF  C8   O8    SING  20
+HDF  O8   HO8   SING  21
+HDF  C9   C9A   DOUB  22
+HDF  C9   H9    SING  23
+HDF  C9A  N10   SING  24
+HDF  N10  C10   SING  25
+HDF  N10  C1*   SING  26
+HDF  C1*  C2*   SING  27
+HDF  C1*  1H1*  SING  28
+HDF  C1*  2H1*  SING  29
+HDF  C2*  O2*   SING  30
+HDF  C2*  C3*   SING  31
+HDF  C2*  H2*   SING  32
+HDF  O2*  *HO2  SING  33
+HDF  C3*  O3*   SING  34
+HDF  C3*  C4*   SING  35
+HDF  C3*  H3*   SING  36
+HDF  O3*  *HO3  SING  37
+HDF  C4*  O4*   SING  38
+HDF  C4*  C5*   SING  39
+HDF  C4*  H4*   SING  40
+HDF  O4*  *HO4  SING  41
+HDF  C5*  O5*   SING  42
+HDF  C5*  1H5*  SING  43
+HDF  C5*  2H5*  SING  44
+HDF  O5*  *HO5  SING  45
+#

@@ -1,0 +1,95 @@
+data_BJI
+#
+_chem_comp.id                   BJI
+_chem_comp.name                 '1(R)-1-ACETAMIDO-2-(3-CARBOXYPHENYL)ETHYL BORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N1 O5 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        251.045
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BJI  C2    .  C  0  ?  ?  ?  1  1 
+BJI  C1    .  C  0  ?  ?  ?  1  2 
+BJI  N1    .  N  0  ?  ?  ?  1  3 
+BJI  C3    .  C  0  ?  ?  ?  1  4 
+BJI  C4    .  C  0  ?  ?  ?  1  5 
+BJI  O2    .  O  0  ?  ?  ?  1  6 
+BJI  C11   .  C  0  ?  ?  ?  1  7 
+BJI  O3    .  O  0  ?  ?  ?  1  8 
+BJI  O4    .  O  0  ?  ?  ?  1  9 
+BJI  B     .  B  0  ?  ?  ?  1  10
+BJI  OB1   .  O  0  ?  ?  ?  1  11
+BJI  C6    .  C  0  ?  ?  ?  1  12
+BJI  C5    .  C  0  ?  ?  ?  1  13
+BJI  C7    .  C  0  ?  ?  ?  1  14
+BJI  C10   .  C  0  ?  ?  ?  1  15
+BJI  C8    .  C  0  ?  ?  ?  1  16
+BJI  C9    .  C  0  ?  ?  ?  1  17
+BJI  OB2   .  O  0  ?  ?  ?  1  18
+BJI  1HOB  .  H  0  ?  ?  ?  0  19
+BJI  2HOB  .  H  0  ?  ?  ?  0  20
+BJI  H1    .  H  0  ?  ?  ?  1  21
+BJI  1H2   .  H  0  ?  ?  ?  0  22
+BJI  2H2   .  H  0  ?  ?  ?  0  23
+BJI  HN1   .  H  0  ?  ?  ?  1  24
+BJI  1H4   .  H  0  ?  ?  ?  0  25
+BJI  2H4   .  H  0  ?  ?  ?  0  26
+BJI  3H4   .  H  0  ?  ?  ?  0  27
+BJI  H6    .  H  0  ?  ?  ?  1  28
+BJI  H7    .  H  0  ?  ?  ?  1  29
+BJI  H8    .  H  0  ?  ?  ?  1  30
+BJI  H10   .  H  0  ?  ?  ?  1  31
+BJI  HO3   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BJI  C2   C1    SING  1 
+BJI  C2   C5    SING  2 
+BJI  C2   1H2   SING  3 
+BJI  C2   2H2   SING  4 
+BJI  C1   N1    SING  5 
+BJI  C1   B     SING  6 
+BJI  C1   H1    SING  7 
+BJI  N1   C3    SING  8 
+BJI  N1   HN1   SING  9 
+BJI  C3   C4    SING  10
+BJI  C3   O2    DOUB  11
+BJI  C4   1H4   SING  12
+BJI  C4   2H4   SING  13
+BJI  C4   3H4   SING  14
+BJI  C11  O3    SING  15
+BJI  C11  O4    DOUB  16
+BJI  C11  C9    SING  17
+BJI  O3   HO3   SING  18
+BJI  B    OB1   SING  19
+BJI  B    OB2   SING  20
+BJI  OB1  1HOB  SING  21
+BJI  C6   C5    DOUB  22
+BJI  C6   C7    SING  23
+BJI  C6   H6    SING  24
+BJI  C5   C10   SING  25
+BJI  C7   C8    DOUB  26
+BJI  C7   H7    SING  27
+BJI  C10  C9    DOUB  28
+BJI  C10  H10   SING  29
+BJI  C8   C9    SING  30
+BJI  C8   H8    SING  31
+BJI  OB2  2HOB  SING  32
+#

@@ -1,0 +1,81 @@
+data_APP
+#
+_chem_comp.id                   APP
+_chem_comp.name                 1-ACETYL-2-CARBOXYPIPERIDINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C8 H13 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APP  N1   .  N  0  ?  ?  ?  1  1 
+APP  C    .  C  0  ?  ?  ?  1  2 
+APP  O    .  O  0  ?  ?  ?  1  3 
+APP  CM   .  C  0  ?  ?  ?  1  4 
+APP  C2   .  C  0  ?  ?  ?  1  5 
+APP  C'   .  C  0  ?  ?  ?  1  6 
+APP  O1   .  O  0  ?  ?  ?  1  7 
+APP  O2   .  O  0  ?  ?  ?  1  8 
+APP  C3   .  C  0  ?  ?  ?  1  9 
+APP  C4   .  C  0  ?  ?  ?  1  10
+APP  C5   .  C  0  ?  ?  ?  1  11
+APP  C6   .  C  0  ?  ?  ?  1  12
+APP  1HM  .  H  0  ?  ?  ?  0  13
+APP  2HM  .  H  0  ?  ?  ?  0  14
+APP  3HM  .  H  0  ?  ?  ?  0  15
+APP  H2   .  H  0  ?  ?  ?  1  16
+APP  HO2  .  H  0  ?  ?  ?  1  17
+APP  1H3  .  H  0  ?  ?  ?  0  18
+APP  2H3  .  H  0  ?  ?  ?  0  19
+APP  1H4  .  H  0  ?  ?  ?  0  20
+APP  2H4  .  H  0  ?  ?  ?  0  21
+APP  1H5  .  H  0  ?  ?  ?  0  22
+APP  2H5  .  H  0  ?  ?  ?  0  23
+APP  1H6  .  H  0  ?  ?  ?  0  24
+APP  2H6  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APP  N1  C2   SING  1 
+APP  N1  C6   SING  2 
+APP  N1  C    SING  3 
+APP  C   O    DOUB  4 
+APP  C   CM   SING  5 
+APP  CM  1HM  SING  6 
+APP  CM  2HM  SING  7 
+APP  CM  3HM  SING  8 
+APP  C2  C3   SING  9 
+APP  C2  C'   SING  10
+APP  C2  H2   SING  11
+APP  C'  O1   DOUB  12
+APP  C'  O2   SING  13
+APP  O2  HO2  SING  14
+APP  C3  C4   SING  15
+APP  C3  1H3  SING  16
+APP  C3  2H3  SING  17
+APP  C4  C5   SING  18
+APP  C4  1H4  SING  19
+APP  C4  2H4  SING  20
+APP  C5  C6   SING  21
+APP  C5  1H5  SING  22
+APP  C5  2H5  SING  23
+APP  C6  1H6  SING  24
+APP  C6  2H6  SING  25
+#

@@ -1,0 +1,88 @@
+data_TLM
+#
+_chem_comp.id                   TLM
+_chem_comp.name                 THIOLACTOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 O2 S1'
+_chem_comp.pdbx_synonyms        4-HYDROXY-3,5-DIMETHYL-5-(2-METHYL-BUTA-1,3-DIENYL)-5H-THIOPHEN-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        210.290
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TLM  S1    .  S  0  ?  ?  ?  1  1 
+TLM  C1    .  C  0  ?  ?  ?  1  2 
+TLM  C2    .  C  0  ?  ?  ?  1  3 
+TLM  C3    .  C  0  ?  ?  ?  1  4 
+TLM  C4    .  C  0  ?  ?  ?  1  5 
+TLM  C5    .  C  0  ?  ?  ?  1  6 
+TLM  C6    .  C  0  ?  ?  ?  1  7 
+TLM  C7    .  C  0  ?  ?  ?  1  8 
+TLM  C8    .  C  0  ?  ?  ?  1  9 
+TLM  O1    .  O  0  ?  ?  ?  1  10
+TLM  C9    .  C  0  ?  ?  ?  1  11
+TLM  O2    .  O  0  ?  ?  ?  1  12
+TLM  C10   .  C  0  ?  ?  ?  1  13
+TLM  C11   .  C  0  ?  ?  ?  1  14
+TLM  HO2   .  H  0  ?  ?  ?  1  15
+TLM  1H10  .  H  0  ?  ?  ?  0  16
+TLM  2H10  .  H  0  ?  ?  ?  0  17
+TLM  3H10  .  H  0  ?  ?  ?  0  18
+TLM  1H5   .  H  0  ?  ?  ?  0  19
+TLM  1H11  .  H  0  ?  ?  ?  0  20
+TLM  2H11  .  H  0  ?  ?  ?  0  21
+TLM  3H11  .  H  0  ?  ?  ?  0  22
+TLM  1H7   .  H  0  ?  ?  ?  0  23
+TLM  1H8   .  H  0  ?  ?  ?  0  24
+TLM  2H8   .  H  0  ?  ?  ?  0  25
+TLM  1H9   .  H  0  ?  ?  ?  0  26
+TLM  2H9   .  H  0  ?  ?  ?  0  27
+TLM  3H9   .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TLM  S1   C1    SING  1 
+TLM  S1   C4    SING  2 
+TLM  C1   C2    SING  3 
+TLM  C1   O1    DOUB  4 
+TLM  C2   C3    DOUB  5 
+TLM  C2   C9    SING  6 
+TLM  C3   C4    SING  7 
+TLM  C3   O2    SING  8 
+TLM  C4   C5    SING  9 
+TLM  C4   C10   SING  10
+TLM  C5   C6    DOUB  11
+TLM  C5   1H5   SING  12
+TLM  C6   C7    SING  13
+TLM  C6   C11   SING  14
+TLM  C7   C8    DOUB  15
+TLM  C7   1H7   SING  16
+TLM  C8   1H8   SING  17
+TLM  C8   2H8   SING  18
+TLM  C9   1H9   SING  19
+TLM  C9   2H9   SING  20
+TLM  C9   3H9   SING  21
+TLM  O2   HO2   SING  22
+TLM  C10  1H10  SING  23
+TLM  C10  2H10  SING  24
+TLM  C10  3H10  SING  25
+TLM  C11  1H11  SING  26
+TLM  C11  2H11  SING  27
+TLM  C11  3H11  SING  28
+#

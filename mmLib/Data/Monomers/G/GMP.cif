@@ -1,0 +1,99 @@
+data_GMP
+#
+_chem_comp.id                   GMP
+_chem_comp.name                 GUANOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        283.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GMP  O5*   .  O  0  ?  ?  ?  1  1 
+GMP  C5*   .  C  0  ?  ?  ?  1  2 
+GMP  C4*   .  C  0  ?  ?  ?  1  3 
+GMP  O4*   .  O  0  ?  ?  ?  1  4 
+GMP  C3*   .  C  0  ?  ?  ?  1  5 
+GMP  O3*   .  O  0  ?  ?  ?  1  6 
+GMP  C2*   .  C  0  ?  ?  ?  1  7 
+GMP  O2*   .  O  0  ?  ?  ?  1  8 
+GMP  C1*   .  C  0  ?  ?  ?  1  9 
+GMP  N9    .  N  0  ?  ?  ?  1  10
+GMP  C8    .  C  0  ?  ?  ?  1  11
+GMP  N7    .  N  0  ?  ?  ?  1  12
+GMP  C5    .  C  0  ?  ?  ?  1  13
+GMP  C6    .  C  0  ?  ?  ?  1  14
+GMP  O6    .  O  0  ?  ?  ?  1  15
+GMP  N1    .  N  0  ?  ?  ?  1  16
+GMP  C2    .  C  0  ?  ?  ?  1  17
+GMP  N2    .  N  0  ?  ?  ?  1  18
+GMP  N3    .  N  0  ?  ?  ?  1  19
+GMP  C4    .  C  0  ?  ?  ?  1  20
+GMP  H1*   .  H  0  ?  ?  ?  1  21
+GMP  H2*   .  H  0  ?  ?  ?  1  22
+GMP  H3*   .  H  0  ?  ?  ?  1  23
+GMP  H4*   .  H  0  ?  ?  ?  1  24
+GMP  *HO2  .  H  0  ?  ?  ?  0  25
+GMP  *HO3  .  H  0  ?  ?  ?  0  26
+GMP  *HO5  .  H  0  ?  ?  ?  0  27
+GMP  1H5*  .  H  0  ?  ?  ?  0  28
+GMP  2H5*  .  H  0  ?  ?  ?  0  29
+GMP  H8    .  H  0  ?  ?  ?  1  30
+GMP  HN1   .  H  0  ?  ?  ?  1  31
+GMP  1HN2  .  H  0  ?  ?  ?  0  32
+GMP  2HN2  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GMP  O5*  C5*   SING  1 
+GMP  O5*  *HO5  SING  2 
+GMP  C5*  C4*   SING  3 
+GMP  C5*  1H5*  SING  4 
+GMP  C5*  2H5*  SING  5 
+GMP  C4*  O4*   SING  6 
+GMP  C4*  C3*   SING  7 
+GMP  C4*  H4*   SING  8 
+GMP  O4*  C1*   SING  9 
+GMP  C3*  O3*   SING  10
+GMP  C3*  C2*   SING  11
+GMP  C3*  H3*   SING  12
+GMP  O3*  *HO3  SING  13
+GMP  C2*  O2*   SING  14
+GMP  C2*  C1*   SING  15
+GMP  C2*  H2*   SING  16
+GMP  O2*  *HO2  SING  17
+GMP  C1*  N9    SING  18
+GMP  C1*  H1*   SING  19
+GMP  N9   C8    SING  20
+GMP  N9   C4    SING  21
+GMP  C8   N7    DOUB  22
+GMP  C8   H8    SING  23
+GMP  N7   C5    SING  24
+GMP  C5   C6    SING  25
+GMP  C5   C4    DOUB  26
+GMP  C6   O6    DOUB  27
+GMP  C6   N1    SING  28
+GMP  N1   C2    SING  29
+GMP  N1   HN1   SING  30
+GMP  C2   N2    SING  31
+GMP  C2   N3    DOUB  32
+GMP  N2   1HN2  SING  33
+GMP  N2   2HN2  SING  34
+GMP  N3   C4    SING  35
+#

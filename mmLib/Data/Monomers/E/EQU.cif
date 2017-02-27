@@ -1,0 +1,110 @@
+data_EQU
+#
+_chem_comp.id                   EQU
+_chem_comp.name                 EQUILENIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H18 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.339
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EQU  C1    .  C  0  ?  ?  ?  1  1 
+EQU  C2    .  C  0  ?  ?  ?  1  2 
+EQU  C3    .  C  0  ?  ?  ?  1  3 
+EQU  C4    .  C  0  ?  ?  ?  1  4 
+EQU  C5    .  C  0  ?  ?  ?  1  5 
+EQU  C6    .  C  0  ?  ?  ?  1  6 
+EQU  C10   .  C  0  ?  ?  ?  1  7 
+EQU  C11   .  C  0  ?  ?  ?  1  8 
+EQU  C12   .  C  0  ?  ?  ?  1  9 
+EQU  C13   .  C  0  ?  ?  ?  1  10
+EQU  C16   .  C  0  ?  ?  ?  1  11
+EQU  C17   .  C  0  ?  ?  ?  1  12
+EQU  C18   .  C  0  ?  ?  ?  1  13
+EQU  C19   .  C  0  ?  ?  ?  1  14
+EQU  C24   .  C  0  ?  ?  ?  1  15
+EQU  C25   .  C  0  ?  ?  ?  1  16
+EQU  C26   .  C  0  ?  ?  ?  1  17
+EQU  C27   .  C  0  ?  ?  ?  1  18
+EQU  O1    .  O  0  ?  ?  ?  1  19
+EQU  O26   .  O  0  ?  ?  ?  1  20
+EQU  H2    .  H  0  ?  ?  ?  1  21
+EQU  H5    .  H  0  ?  ?  ?  1  22
+EQU  H6    .  H  0  ?  ?  ?  1  23
+EQU  H10   .  H  0  ?  ?  ?  1  24
+EQU  H11   .  H  0  ?  ?  ?  1  25
+EQU  H16   .  H  0  ?  ?  ?  1  26
+EQU  1H18  .  H  0  ?  ?  ?  0  27
+EQU  2H18  .  H  0  ?  ?  ?  0  28
+EQU  1H19  .  H  0  ?  ?  ?  0  29
+EQU  2H19  .  H  0  ?  ?  ?  0  30
+EQU  1H24  .  H  0  ?  ?  ?  0  31
+EQU  2H24  .  H  0  ?  ?  ?  0  32
+EQU  1H25  .  H  0  ?  ?  ?  0  33
+EQU  2H25  .  H  0  ?  ?  ?  0  34
+EQU  1H27  .  H  0  ?  ?  ?  0  35
+EQU  2H27  .  H  0  ?  ?  ?  0  36
+EQU  3H27  .  H  0  ?  ?  ?  0  37
+EQU  HO1   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EQU  C1   C2    DOUB  1 
+EQU  C1   C6    SING  2 
+EQU  C1   O1    SING  3 
+EQU  C2   C3    SING  4 
+EQU  C2   H2    SING  5 
+EQU  C3   C4    DOUB  6 
+EQU  C3   C10   SING  7 
+EQU  C4   C5    SING  8 
+EQU  C4   C13   SING  9 
+EQU  C5   C6    DOUB  10
+EQU  C5   H5    SING  11
+EQU  C6   H6    SING  12
+EQU  C10  C11   DOUB  13
+EQU  C10  H10   SING  14
+EQU  C11  C12   SING  15
+EQU  C11  H11   SING  16
+EQU  C12  C13   DOUB  17
+EQU  C12  C16   SING  18
+EQU  C13  C19   SING  19
+EQU  C16  C17   SING  20
+EQU  C16  C24   SING  21
+EQU  C16  H16   SING  22
+EQU  C17  C18   SING  23
+EQU  C17  C26   SING  24
+EQU  C17  C27   SING  25
+EQU  C18  C19   SING  26
+EQU  C18  1H18  SING  27
+EQU  C18  2H18  SING  28
+EQU  C19  1H19  SING  29
+EQU  C19  2H19  SING  30
+EQU  C24  C25   SING  31
+EQU  C24  1H24  SING  32
+EQU  C24  2H24  SING  33
+EQU  C25  C26   SING  34
+EQU  C25  1H25  SING  35
+EQU  C25  2H25  SING  36
+EQU  C26  O26   DOUB  37
+EQU  C27  1H27  SING  38
+EQU  C27  2H27  SING  39
+EQU  C27  3H27  SING  40
+EQU  O1   HO1   SING  41
+#

@@ -1,0 +1,112 @@
+data_TYN
+#
+_chem_comp.id                       TYN
+_chem_comp.name                     AMINOBENZOFURAZAN-O-TYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H16 N4 O4'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            316.316
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYN  N     .  N  0  ?  ?  ?  1  1 
+TYN  CA    .  C  0  ?  ?  ?  1  2 
+TYN  CB    .  C  0  ?  ?  ?  1  3 
+TYN  CG    .  C  0  ?  ?  ?  1  4 
+TYN  CD1   .  C  0  ?  ?  ?  1  5 
+TYN  CE1   .  C  0  ?  ?  ?  1  6 
+TYN  CD2   .  C  0  ?  ?  ?  1  7 
+TYN  CE2   .  C  0  ?  ?  ?  1  8 
+TYN  CZ    .  C  0  ?  ?  ?  1  9 
+TYN  OC    .  O  0  ?  ?  ?  1  10
+TYN  C     .  C  0  ?  ?  ?  1  11
+TYN  O     .  O  0  ?  ?  ?  1  12
+TYN  OXT   .  O  0  ?  ?  ?  1  13
+TYN  O1    .  O  0  ?  ?  ?  1  14
+TYN  N1    .  N  0  ?  ?  ?  1  15
+TYN  N2    .  N  0  ?  ?  ?  1  16
+TYN  N3    .  N  0  ?  ?  ?  1  17
+TYN  C1    .  C  0  ?  ?  ?  1  18
+TYN  C2    .  C  0  ?  ?  ?  1  19
+TYN  C3    .  C  0  ?  ?  ?  1  20
+TYN  C4    .  C  0  ?  ?  ?  1  21
+TYN  C5    .  C  0  ?  ?  ?  1  22
+TYN  C6    .  C  0  ?  ?  ?  1  23
+TYN  1HN   .  H  0  ?  ?  ?  0  24
+TYN  2HN   .  H  0  ?  ?  ?  0  25
+TYN  HA    .  H  0  ?  ?  ?  1  26
+TYN  1HB   .  H  0  ?  ?  ?  0  27
+TYN  2HB   .  H  0  ?  ?  ?  0  28
+TYN  HD1   .  H  0  ?  ?  ?  1  29
+TYN  HE1   .  H  0  ?  ?  ?  1  30
+TYN  HD2   .  H  0  ?  ?  ?  1  31
+TYN  HE2   .  H  0  ?  ?  ?  1  32
+TYN  HXT   .  H  0  ?  ?  ?  1  33
+TYN  HN1   .  H  0  ?  ?  ?  1  34
+TYN  HN2   .  H  0  ?  ?  ?  1  35
+TYN  1HN3  .  H  0  ?  ?  ?  0  36
+TYN  2HN3  .  H  0  ?  ?  ?  0  37
+TYN  H3    .  H  0  ?  ?  ?  1  38
+TYN  H4    .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYN  N    CA    SING  1 
+TYN  N    1HN   SING  2 
+TYN  N    2HN   SING  3 
+TYN  CA   CB    SING  4 
+TYN  CA   C     SING  5 
+TYN  CA   HA    SING  6 
+TYN  CB   CG    SING  7 
+TYN  CB   1HB   SING  8 
+TYN  CB   2HB   SING  9 
+TYN  CG   CD1   DOUB  10
+TYN  CG   CD2   SING  11
+TYN  CD1  CE1   SING  12
+TYN  CD1  HD1   SING  13
+TYN  CE1  CZ    DOUB  14
+TYN  CE1  HE1   SING  15
+TYN  CD2  CE2   DOUB  16
+TYN  CD2  HD2   SING  17
+TYN  CE2  CZ    SING  18
+TYN  CE2  HE2   SING  19
+TYN  CZ   OC    SING  20
+TYN  OC   C5    SING  21
+TYN  C    O     DOUB  22
+TYN  C    OXT   SING  23
+TYN  OXT  HXT   SING  24
+TYN  O1   N1    SING  25
+TYN  O1   N2    SING  26
+TYN  N1   C1    SING  27
+TYN  N1   HN1   SING  28
+TYN  N2   C6    SING  29
+TYN  N2   HN2   SING  30
+TYN  N3   C2    SING  31
+TYN  N3   1HN3  SING  32
+TYN  N3   2HN3  SING  33
+TYN  C1   C2    DOUB  34
+TYN  C1   C6    SING  35
+TYN  C2   C3    SING  36
+TYN  C3   C4    DOUB  37
+TYN  C3   H3    SING  38
+TYN  C4   C5    SING  39
+TYN  C4   H4    SING  40
+TYN  C5   C6    DOUB  41
+#

@@ -1,0 +1,55 @@
+data_TCZ
+#
+_chem_comp.id                   TCZ
+_chem_comp.name                 1,3,5-TRICHLORO-BENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H3 CL3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        181.449
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCZ  C1   .  C   0  ?  ?  ?  1  1 
+TCZ  C2   .  C   0  ?  ?  ?  1  2 
+TCZ  C3   .  C   0  ?  ?  ?  1  3 
+TCZ  C4   .  C   0  ?  ?  ?  1  4 
+TCZ  C5   .  C   0  ?  ?  ?  1  5 
+TCZ  C6   .  C   0  ?  ?  ?  1  6 
+TCZ  CL1  .  CL  0  ?  ?  ?  0  7 
+TCZ  CL3  .  CL  0  ?  ?  ?  0  8 
+TCZ  CL5  .  CL  0  ?  ?  ?  0  9 
+TCZ  H2   .  H   0  ?  ?  ?  1  10
+TCZ  H4   .  H   0  ?  ?  ?  1  11
+TCZ  H6   .  H   0  ?  ?  ?  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCZ  C1  C2   AROM  1 
+TCZ  C1  C6   AROM  2 
+TCZ  C1  CL1  SING  3 
+TCZ  C2  C3   AROM  4 
+TCZ  C2  H2   SING  5 
+TCZ  C3  C4   AROM  6 
+TCZ  C3  CL3  SING  7 
+TCZ  C4  C5   AROM  8 
+TCZ  C4  H4   SING  9 
+TCZ  C5  C6   AROM  10
+TCZ  C5  CL5  SING  11
+TCZ  C6  H6   SING  12
+#

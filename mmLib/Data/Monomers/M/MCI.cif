@@ -1,0 +1,130 @@
+data_MCI
+#
+_chem_comp.id                   MCI
+_chem_comp.name                 '(2-MERCAPTOMETHYL-4-PHENYL-BUTYRYLIMINO)-(5-TETRAZOL-1-YLMETHYL-THIOPHEN-2-YL)-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H19 N5 O3 S2'
+_chem_comp.pdbx_synonyms        'MERCAPTOCARBOXYLATE INHIBITOR'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        429.511
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCI  C2    .  C  0  ?  ?  ?  1  1 
+MCI  C1    .  C  0  ?  ?  ?  1  2 
+MCI  C3    .  C  0  ?  ?  ?  1  3 
+MCI  C4    .  C  0  ?  ?  ?  1  4 
+MCI  C5    .  C  0  ?  ?  ?  1  5 
+MCI  C6    .  C  0  ?  ?  ?  1  6 
+MCI  C12   .  C  0  ?  ?  ?  1  7 
+MCI  C13   .  C  0  ?  ?  ?  1  8 
+MCI  C16   .  C  0  ?  ?  ?  1  9 
+MCI  C19   .  C  0  ?  ?  ?  1  10
+MCI  S20   .  S  0  ?  ?  ?  1  11
+MCI  C23   .  C  0  ?  ?  ?  1  12
+MCI  O25   .  O  0  ?  ?  ?  1  13
+MCI  N26   .  N  0  ?  ?  ?  1  14
+MCI  C27   .  C  0  ?  ?  ?  1  15
+MCI  C28   .  C  0  ?  ?  ?  1  16
+MCI  O29   .  O  0  ?  ?  ?  1  17
+MCI  O30   .  O  0  ?  ?  ?  1  18
+MCI  C31   .  C  0  ?  ?  ?  1  19
+MCI  C33   .  C  0  ?  ?  ?  1  20
+MCI  C34   .  C  0  ?  ?  ?  1  21
+MCI  C35   .  C  0  ?  ?  ?  1  22
+MCI  S36   .  S  0  ?  ?  ?  1  23
+MCI  C37   .  C  0  ?  ?  ?  1  24
+MCI  N38   .  N  0  ?  ?  ?  1  25
+MCI  C41   .  C  0  ?  ?  ?  1  26
+MCI  N42   .  N  0  ?  ?  ?  1  27
+MCI  N43   .  N  0  ?  ?  ?  1  28
+MCI  N44   .  N  0  ?  ?  ?  1  29
+MCI  1H3   .  H  0  ?  ?  ?  0  30
+MCI  1H4   .  H  0  ?  ?  ?  0  31
+MCI  1H5   .  H  0  ?  ?  ?  0  32
+MCI  1H6   .  H  0  ?  ?  ?  0  33
+MCI  1H1   .  H  0  ?  ?  ?  0  34
+MCI  1H12  .  H  0  ?  ?  ?  0  35
+MCI  2H12  .  H  0  ?  ?  ?  0  36
+MCI  1H13  .  H  0  ?  ?  ?  0  37
+MCI  2H13  .  H  0  ?  ?  ?  0  38
+MCI  1H16  .  H  0  ?  ?  ?  0  39
+MCI  1H19  .  H  0  ?  ?  ?  0  40
+MCI  2H19  .  H  0  ?  ?  ?  0  41
+MCI  HS    .  H  0  ?  ?  ?  1  42
+MCI  H30   .  H  0  ?  ?  ?  1  43
+MCI  1H33  .  H  0  ?  ?  ?  0  44
+MCI  1H34  .  H  0  ?  ?  ?  0  45
+MCI  1H37  .  H  0  ?  ?  ?  0  46
+MCI  2H37  .  H  0  ?  ?  ?  0  47
+MCI  1H41  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCI  C2   C1    DOUB  1 
+MCI  C2   C3    SING  2 
+MCI  C2   C12   SING  3 
+MCI  C1   C6    SING  4 
+MCI  C1   1H1   SING  5 
+MCI  C3   C4    DOUB  6 
+MCI  C3   1H3   SING  7 
+MCI  C4   C5    SING  8 
+MCI  C4   1H4   SING  9 
+MCI  C5   C6    DOUB  10
+MCI  C5   1H5   SING  11
+MCI  C6   1H6   SING  12
+MCI  C12  C13   SING  13
+MCI  C12  1H12  SING  14
+MCI  C12  2H12  SING  15
+MCI  C13  C16   SING  16
+MCI  C13  1H13  SING  17
+MCI  C13  2H13  SING  18
+MCI  C16  C19   SING  19
+MCI  C16  C23   SING  20
+MCI  C16  1H16  SING  21
+MCI  C19  S20   SING  22
+MCI  C19  1H19  SING  23
+MCI  C19  2H19  SING  24
+MCI  S20  HS    SING  25
+MCI  C23  O25   DOUB  26
+MCI  C23  N26   SING  27
+MCI  N26  C27   DOUB  28
+MCI  C27  C28   SING  29
+MCI  C27  C31   SING  30
+MCI  C28  O29   DOUB  31
+MCI  C28  O30   SING  32
+MCI  O30  H30   SING  33
+MCI  C31  C33   DOUB  34
+MCI  C31  S36   SING  35
+MCI  C33  C34   SING  36
+MCI  C33  1H33  SING  37
+MCI  C34  C35   DOUB  38
+MCI  C34  1H34  SING  39
+MCI  C35  S36   SING  40
+MCI  C35  C37   SING  41
+MCI  C37  N38   SING  42
+MCI  C37  1H37  SING  43
+MCI  C37  2H37  SING  44
+MCI  N38  C41   SING  45
+MCI  N38  N44   SING  46
+MCI  C41  N42   DOUB  47
+MCI  C41  1H41  SING  48
+MCI  N42  N43   SING  49
+MCI  N43  N44   DOUB  50
+#

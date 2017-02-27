@@ -1,0 +1,82 @@
+data_HTO
+#
+_chem_comp.id                   HTO
+_chem_comp.name                 HEPTANE-1,2,3-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.202
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTO  C1   .  C  0  ?  ?  ?  1  1 
+HTO  O1   .  O  0  ?  ?  ?  1  2 
+HTO  C2   .  C  0  ?  ?  ?  1  3 
+HTO  O2   .  O  0  ?  ?  ?  1  4 
+HTO  C3   .  C  0  ?  ?  ?  1  5 
+HTO  O3   .  O  0  ?  ?  ?  1  6 
+HTO  C4   .  C  0  ?  ?  ?  1  7 
+HTO  C5   .  C  0  ?  ?  ?  1  8 
+HTO  C6   .  C  0  ?  ?  ?  1  9 
+HTO  C7   .  C  0  ?  ?  ?  1  10
+HTO  1H1  .  H  0  ?  ?  ?  0  11
+HTO  2H1  .  H  0  ?  ?  ?  0  12
+HTO  HO1  .  H  0  ?  ?  ?  1  13
+HTO  H2   .  H  0  ?  ?  ?  1  14
+HTO  HO2  .  H  0  ?  ?  ?  1  15
+HTO  H3   .  H  0  ?  ?  ?  1  16
+HTO  HO3  .  H  0  ?  ?  ?  1  17
+HTO  1H4  .  H  0  ?  ?  ?  0  18
+HTO  2H4  .  H  0  ?  ?  ?  0  19
+HTO  1H5  .  H  0  ?  ?  ?  0  20
+HTO  2H5  .  H  0  ?  ?  ?  0  21
+HTO  1H6  .  H  0  ?  ?  ?  0  22
+HTO  2H6  .  H  0  ?  ?  ?  0  23
+HTO  1H7  .  H  0  ?  ?  ?  0  24
+HTO  2H7  .  H  0  ?  ?  ?  0  25
+HTO  3H7  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTO  C1  C2   SING  1 
+HTO  C1  O1   SING  2 
+HTO  C1  1H1  SING  3 
+HTO  C1  2H1  SING  4 
+HTO  O1  HO1  SING  5 
+HTO  C2  C3   SING  6 
+HTO  C2  O2   SING  7 
+HTO  C2  H2   SING  8 
+HTO  O2  HO2  SING  9 
+HTO  C3  C4   SING  10
+HTO  C3  O3   SING  11
+HTO  C3  H3   SING  12
+HTO  O3  HO3  SING  13
+HTO  C4  C5   SING  14
+HTO  C4  1H4  SING  15
+HTO  C4  2H4  SING  16
+HTO  C5  C6   SING  17
+HTO  C5  1H5  SING  18
+HTO  C5  2H5  SING  19
+HTO  C6  C7   SING  20
+HTO  C6  1H6  SING  21
+HTO  C6  2H6  SING  22
+HTO  C7  1H7  SING  23
+HTO  C7  2H7  SING  24
+HTO  C7  3H7  SING  25
+#

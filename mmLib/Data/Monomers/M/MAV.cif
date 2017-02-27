@@ -1,0 +1,77 @@
+data_MAV
+#
+_chem_comp.id                   MAV
+_chem_comp.name                 'D-MANNURONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAV  C1   .  C  0  -27.027  19.513  11.421  1  1 
+MAV  C2   .  C  0  -26.312  20.007  12.677  1  2 
+MAV  O2   .  O  0  -27.108  19.710  13.816  1  3 
+MAV  C3   .  C  0  -24.945  19.313  12.783  1  4 
+MAV  O3   .  O  0  -24.317  19.656  14.015  1  5 
+MAV  C4   .  C  0  -25.097  17.785  12.683  1  6 
+MAV  O4   .  O  0  -23.809  17.183  12.522  1  7 
+MAV  C5   .  C  0  -25.918  17.407  11.461  1  8 
+MAV  O5   .  O  0  -27.173  18.101  11.479  1  9 
+MAV  C6   .  C  0  -26.128  15.913  11.392  1  10
+MAV  O6A  .  O  0  -27.032  15.395  12.085  1  11
+MAV  O6B  .  O  0  -25.354  15.260  10.666  1  12
+MAV  O1   .  O  0  ?        ?       ?       1  13
+MAV  H1   .  H  0  ?        ?       ?       1  14
+MAV  HO1  .  H  0  ?        ?       ?       1  15
+MAV  H2   .  H  0  ?        ?       ?       1  16
+MAV  HO2  .  H  0  ?        ?       ?       1  17
+MAV  H3   .  H  0  ?        ?       ?       1  18
+MAV  HO3  .  H  0  ?        ?       ?       1  19
+MAV  H4   .  H  0  ?        ?       ?       1  20
+MAV  HO4  .  H  0  ?        ?       ?       1  21
+MAV  H5   .  H  0  ?        ?       ?       1  22
+MAV  HOB  .  H  0  ?        ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAV  C1   C2   SING  1 
+MAV  C1   O5   SING  2 
+MAV  C1   O1   SING  3 
+MAV  C1   H1   SING  4 
+MAV  C2   O2   SING  5 
+MAV  C2   C3   SING  6 
+MAV  C2   H2   SING  7 
+MAV  O2   HO2  SING  8 
+MAV  C3   O3   SING  9 
+MAV  C3   C4   SING  10
+MAV  C3   H3   SING  11
+MAV  O3   HO3  SING  12
+MAV  C4   O4   SING  13
+MAV  C4   C5   SING  14
+MAV  C4   H4   SING  15
+MAV  O4   HO4  SING  16
+MAV  C5   O5   SING  17
+MAV  C5   C6   SING  18
+MAV  C5   H5   SING  19
+MAV  C6   O6A  DOUB  20
+MAV  C6   O6B  SING  21
+MAV  O6B  HOB  SING  22
+MAV  O1   HO1  SING  23
+#

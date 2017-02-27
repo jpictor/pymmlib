@@ -1,0 +1,106 @@
+data_MTH
+#
+_chem_comp.id                   MTH
+_chem_comp.name                 2-(4-AMINO-PYRROLO[2,3-D]PYRIMIDIN-7-YL)-5-METHYLSULFANYLMETHYL-TETRAHYDRO-FURAN-3,4-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H16 N4 O3 S1'
+_chem_comp.pdbx_synonyms        5'-DEOXY-5'-(METHYLTHIO)-TUBERCIDIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        296.343
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTH  CS    .  C  0  56.122  68.580  22.581  1  1 
+MTH  S5*   .  S  0  55.506  70.222  23.127  1  2 
+MTH  C5*   .  C  0  56.164  71.262  21.783  1  3 
+MTH  C4*   .  C  0  57.624  71.662  21.993  1  4 
+MTH  O4*   .  O  0  58.186  72.179  20.746  1  5 
+MTH  C2*   .  C  0  57.637  74.050  22.074  1  6 
+MTH  O2*   .  O  0  58.456  75.195  22.479  1  7 
+MTH  C3*   .  C  0  57.849  72.763  23.005  1  8 
+MTH  O3*   .  O  0  59.247  72.659  23.481  1  9 
+MTH  C1*   .  C  0  57.932  73.616  20.586  1  10
+MTH  N9    .  N  0  56.756  73.755  19.522  1  11
+MTH  C8    .  C  0  56.885  73.457  18.167  1  12
+MTH  C7    .  C  0  55.774  73.630  17.472  1  13
+MTH  C5    .  C  0  54.854  74.065  18.410  1  14
+MTH  C6    .  C  0  53.472  74.426  18.349  1  15
+MTH  N6    .  N  0  52.767  74.389  17.212  1  16
+MTH  N1    .  N  0  52.865  74.821  19.529  1  17
+MTH  C2    .  C  0  53.565  74.859  20.674  1  18
+MTH  N3    .  N  0  54.866  74.541  20.843  1  19
+MTH  C4    .  C  0  55.444  74.153  19.671  1  20
+MTH  1HN6  .  H  0  ?       ?       ?       0  21
+MTH  2HN6  .  H  0  ?       ?       ?       0  22
+MTH  1HC2  .  H  0  ?       ?       ?       0  23
+MTH  1HC7  .  H  0  ?       ?       ?       0  24
+MTH  1HC8  .  H  0  ?       ?       ?       0  25
+MTH  1H1*  .  H  0  ?       ?       ?       0  26
+MTH  1H2*  .  H  0  ?       ?       ?       0  27
+MTH  1HO2  .  H  0  ?       ?       ?       0  28
+MTH  1HO3  .  H  0  ?       ?       ?       0  29
+MTH  1H3*  .  H  0  ?       ?       ?       0  30
+MTH  1H4*  .  H  0  ?       ?       ?       0  31
+MTH  1H5*  .  H  0  ?       ?       ?       0  32
+MTH  2H5*  .  H  0  ?       ?       ?       0  33
+MTH  1HCS  .  H  0  ?       ?       ?       0  34
+MTH  2HCS  .  H  0  ?       ?       ?       0  35
+MTH  3HCS  .  H  0  ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTH  CS   S5*   SING  1 
+MTH  CS   1HCS  SING  2 
+MTH  CS   2HCS  SING  3 
+MTH  CS   3HCS  SING  4 
+MTH  S5*  C5*   SING  5 
+MTH  C5*  C4*   SING  6 
+MTH  C5*  1H5*  SING  7 
+MTH  C5*  2H5*  SING  8 
+MTH  C4*  O4*   SING  9 
+MTH  C4*  C3*   SING  10
+MTH  C4*  1H4*  SING  11
+MTH  O4*  C1*   SING  12
+MTH  C2*  O2*   SING  13
+MTH  C2*  C3*   SING  14
+MTH  C2*  C1*   SING  15
+MTH  C2*  1H2*  SING  16
+MTH  O2*  1HO2  SING  17
+MTH  C3*  O3*   SING  18
+MTH  C3*  1H3*  SING  19
+MTH  O3*  1HO3  SING  20
+MTH  C1*  N9    SING  21
+MTH  C1*  1H1*  SING  22
+MTH  N9   C8    SING  23
+MTH  N9   C4    SING  24
+MTH  C8   C7    DOUB  25
+MTH  C8   1HC8  SING  26
+MTH  C7   C5    SING  27
+MTH  C7   1HC7  SING  28
+MTH  C5   C6    AROM  29
+MTH  C5   C4    AROM  30
+MTH  C6   N6    SING  31
+MTH  C6   N1    AROM  32
+MTH  N6   1HN6  SING  33
+MTH  N6   2HN6  SING  34
+MTH  N1   C2    AROM  35
+MTH  C2   N3    AROM  36
+MTH  C2   1HC2  SING  37
+MTH  N3   C4    AROM  38
+#

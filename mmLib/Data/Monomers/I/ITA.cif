@@ -1,0 +1,110 @@
+data_ITA
+#
+_chem_comp.id                   ITA
+_chem_comp.name                 '{4-[(CARBOXYMETHOXY)CARBONYL]-3,3-DIOXIDO-1-OXONAPHTHO[1,2-D]ISOTHIAZOL-2(1H)-YL}ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H11 N1 O9 S1'
+_chem_comp.pdbx_synonyms        '2-CARBOXYMETHYL-1,3,3-TRIOXO-1,2-DIHYDRONAPHTHO[ 1,2-D]ISOTHIAZOLE-4-CARBOXYLIC ACID CARBOXYMETHYL ESTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        393.324
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ITA  C1    .  C  0  -22.245  7.424   -10.440  1  1 
+ITA  C2    .  C  0  -23.064  6.485   -9.812   1  2 
+ITA  C3    .  C  0  -23.287  5.250   -10.449  1  3 
+ITA  C4    .  C  0  -22.704  4.952   -11.683  1  4 
+ITA  C5    .  C  0  -21.878  5.896   -12.317  1  5 
+ITA  C6    .  C  0  -21.662  7.120   -11.680  1  6 
+ITA  C7    .  C  0  -20.847  8.090   -12.264  1  7 
+ITA  C8    .  C  0  -20.090  8.064   -13.575  1  8 
+ITA  N9    .  N  0  -19.419  9.201   -13.783  1  9 
+ITA  C10   .  C  0  -18.953  9.351   -15.154  1  10
+ITA  C11   .  C  0  -17.681  8.558   -15.357  1  11
+ITA  O12   .  O  0  -17.035  8.256   -14.240  1  12
+ITA  O13   .  O  0  -17.294  8.230   -16.461  1  13
+ITA  S14   .  S  0  -19.533  10.278  -12.706  1  14
+ITA  O15   .  O  0  -20.086  11.490  -13.237  1  15
+ITA  O16   .  O  0  -18.241  10.320  -12.037  1  16
+ITA  C17   .  C  0  -20.606  9.323   -11.672  1  17
+ITA  C18   .  C  0  -21.188  9.627   -10.435  1  18
+ITA  C19   .  C  0  -20.967  10.944  -9.737   1  19
+ITA  O20   .  O  0  -21.761  11.275  -8.702   1  20
+ITA  C21   .  C  0  -21.422  12.586  -8.236   1  21
+ITA  C22   .  C  0  -20.448  12.573  -7.099   1  22
+ITA  O23   .  O  0  -19.965  11.405  -6.700   1  23
+ITA  O24   .  O  0  -20.094  13.608  -6.538   1  24
+ITA  O25   .  O  0  -20.075  11.689  -10.119  1  25
+ITA  C26   .  C  0  -22.013  8.665   -9.823   1  26
+ITA  O27   .  O  0  -20.137  7.089   -14.305  1  27
+ITA  H24   .  H  0  ?        ?       ?        1  28
+ITA  1H21  .  H  0  ?        ?       ?        0  29
+ITA  2H21  .  H  0  ?        ?       ?        0  30
+ITA  H26   .  H  0  ?        ?       ?        1  31
+ITA  H2    .  H  0  ?        ?       ?        1  32
+ITA  H3    .  H  0  ?        ?       ?        1  33
+ITA  H4    .  H  0  ?        ?       ?        1  34
+ITA  H5    .  H  0  ?        ?       ?        1  35
+ITA  1H10  .  H  0  ?        ?       ?        0  36
+ITA  2H10  .  H  0  ?        ?       ?        0  37
+ITA  H13   .  H  0  ?        ?       ?        1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ITA  C1   C26   DOUB  1 
+ITA  C1   C2    SING  2 
+ITA  C1   C6    SING  3 
+ITA  C2   C3    DOUB  4 
+ITA  C2   H2    SING  5 
+ITA  C3   C4    SING  6 
+ITA  C3   H3    SING  7 
+ITA  C4   C5    DOUB  8 
+ITA  C4   H4    SING  9 
+ITA  C5   C6    SING  10
+ITA  C5   H5    SING  11
+ITA  C6   C7    DOUB  12
+ITA  C7   C8    SING  13
+ITA  C7   C17   SING  14
+ITA  C8   O27   DOUB  15
+ITA  C8   N9    SING  16
+ITA  N9   C10   SING  17
+ITA  N9   S14   SING  18
+ITA  C10  C11   SING  19
+ITA  C10  1H10  SING  20
+ITA  C10  2H10  SING  21
+ITA  C11  O12   DOUB  22
+ITA  C11  O13   SING  23
+ITA  O13  H13   SING  24
+ITA  S14  O15   DOUB  25
+ITA  S14  O16   DOUB  26
+ITA  S14  C17   SING  27
+ITA  C17  C18   DOUB  28
+ITA  C18  C19   SING  29
+ITA  C18  C26   SING  30
+ITA  C19  O20   SING  31
+ITA  C19  O25   DOUB  32
+ITA  O20  C21   SING  33
+ITA  C21  C22   SING  34
+ITA  C21  1H21  SING  35
+ITA  C21  2H21  SING  36
+ITA  C22  O23   DOUB  37
+ITA  C22  O24   SING  38
+ITA  O24  H24   SING  39
+ITA  C26  H26   SING  40
+#

@@ -1,0 +1,73 @@
+data_BHL
+#
+_chem_comp.id                   BHL
+_chem_comp.name                 6-BROMOHEXAN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 O1 BR1'
+_chem_comp.pdbx_synonyms        6-BROMOHEXANOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        181.072
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BHL  BR1  .  BR  0  80.139  68.202  38.236  0  1 
+BHL  C1   .  C   0  79.935  66.478  37.382  1  2 
+BHL  C2   .  C   0  78.649  66.595  36.611  1  3 
+BHL  C3   .  C   0  77.612  65.636  37.144  1  4 
+BHL  C4   .  C   0  76.232  65.830  36.516  1  5 
+BHL  C5   .  C   0  75.192  64.741  36.875  1  6 
+BHL  C6   .  C   0  74.791  64.619  38.353  1  7 
+BHL  O7   .  O   0  75.775  63.936  39.140  1  8 
+BHL  HO7  .  H   0  ?       ?       ?       1  9 
+BHL  1H6  .  H   0  ?       ?       ?       0  10
+BHL  2H6  .  H   0  ?       ?       ?       0  11
+BHL  1H5  .  H   0  ?       ?       ?       0  12
+BHL  2H5  .  H   0  ?       ?       ?       0  13
+BHL  1H4  .  H   0  ?       ?       ?       0  14
+BHL  2H4  .  H   0  ?       ?       ?       0  15
+BHL  1H3  .  H   0  ?       ?       ?       0  16
+BHL  2H3  .  H   0  ?       ?       ?       0  17
+BHL  1H2  .  H   0  ?       ?       ?       0  18
+BHL  2H2  .  H   0  ?       ?       ?       0  19
+BHL  1H1  .  H   0  ?       ?       ?       0  20
+BHL  2H1  .  H   0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BHL  BR1  C1   SING  1 
+BHL  C1   C2   SING  2 
+BHL  C1   1H1  SING  3 
+BHL  C1   2H1  SING  4 
+BHL  C2   C3   SING  5 
+BHL  C2   1H2  SING  6 
+BHL  C2   2H2  SING  7 
+BHL  C3   C4   SING  8 
+BHL  C3   1H3  SING  9 
+BHL  C3   2H3  SING  10
+BHL  C4   C5   SING  11
+BHL  C4   1H4  SING  12
+BHL  C4   2H4  SING  13
+BHL  C5   C6   SING  14
+BHL  C5   1H5  SING  15
+BHL  C5   2H5  SING  16
+BHL  C6   O7   SING  17
+BHL  C6   1H6  SING  18
+BHL  C6   2H6  SING  19
+BHL  O7   HO7  SING  20
+#

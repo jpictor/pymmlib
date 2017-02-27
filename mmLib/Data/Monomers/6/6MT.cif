@@ -1,0 +1,111 @@
+data_6MT
+#
+_chem_comp.id                   6MT
+_chem_comp.name                 TRANS-N6-METHYL-DEOXY-ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C11 H16 N5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        345.251
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+6MT  O3P   .  O  0  ?  ?  ?  1  1 
+6MT  P     .  P  0  ?  ?  ?  1  2 
+6MT  O1P   .  O  0  ?  ?  ?  1  3 
+6MT  O2P   .  O  0  ?  ?  ?  1  4 
+6MT  O5*   .  O  0  ?  ?  ?  1  5 
+6MT  C5*   .  C  0  ?  ?  ?  1  6 
+6MT  C4*   .  C  0  ?  ?  ?  1  7 
+6MT  O4*   .  O  0  ?  ?  ?  1  8 
+6MT  C3*   .  C  0  ?  ?  ?  1  9 
+6MT  O3*   .  O  0  ?  ?  ?  1  10
+6MT  C2*   .  C  0  ?  ?  ?  1  11
+6MT  C1*   .  C  0  ?  ?  ?  1  12
+6MT  N9    .  N  0  ?  ?  ?  1  13
+6MT  C8    .  C  0  ?  ?  ?  1  14
+6MT  N7    .  N  0  ?  ?  ?  1  15
+6MT  C5    .  C  0  ?  ?  ?  1  16
+6MT  C6    .  C  0  ?  ?  ?  1  17
+6MT  N1    .  N  0  ?  ?  ?  1  18
+6MT  C2    .  C  0  ?  ?  ?  1  19
+6MT  N3    .  N  0  ?  ?  ?  1  20
+6MT  C4    .  C  0  ?  ?  ?  1  21
+6MT  N6    .  N  0  ?  ?  ?  1  22
+6MT  C1    .  C  0  ?  ?  ?  1  23
+6MT  3HOP  .  H  0  ?  ?  ?  0  24
+6MT  2HOP  .  H  0  ?  ?  ?  0  25
+6MT  1H5*  .  H  0  ?  ?  ?  0  26
+6MT  2H5*  .  H  0  ?  ?  ?  0  27
+6MT  H4*   .  H  0  ?  ?  ?  1  28
+6MT  H3*   .  H  0  ?  ?  ?  1  29
+6MT  1H2*  .  H  0  ?  ?  ?  0  30
+6MT  2H2*  .  H  0  ?  ?  ?  0  31
+6MT  H1*   .  H  0  ?  ?  ?  1  32
+6MT  H8    .  H  0  ?  ?  ?  1  33
+6MT  1H6   .  H  0  ?  ?  ?  0  34
+6MT  H2    .  H  0  ?  ?  ?  1  35
+6MT  H3T   .  H  0  ?  ?  ?  1  36
+6MT  1H1   .  H  0  ?  ?  ?  0  37
+6MT  2H1   .  H  0  ?  ?  ?  0  38
+6MT  3H1   .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+6MT  O3P  P     SING  1 
+6MT  O3P  3HOP  SING  2 
+6MT  P    O1P   DOUB  3 
+6MT  P    O2P   SING  4 
+6MT  P    O5*   SING  5 
+6MT  O2P  2HOP  SING  6 
+6MT  O5*  C5*   SING  7 
+6MT  C5*  C4*   SING  8 
+6MT  C5*  1H5*  SING  9 
+6MT  C5*  2H5*  SING  10
+6MT  C4*  O4*   SING  11
+6MT  C4*  C3*   SING  12
+6MT  C4*  H4*   SING  13
+6MT  O4*  C1*   SING  14
+6MT  C3*  O3*   SING  15
+6MT  C3*  C2*   SING  16
+6MT  C3*  H3*   SING  17
+6MT  O3*  H3T   SING  18
+6MT  C2*  2H2*  SING  19
+6MT  C2*  C1*   SING  20
+6MT  C2*  1H2*  SING  21
+6MT  C1*  N9    SING  22
+6MT  C1*  H1*   SING  23
+6MT  N9   C8    SING  24
+6MT  N9   C4    SING  25
+6MT  C8   N7    DOUB  26
+6MT  C8   H8    SING  27
+6MT  N7   C5    SING  28
+6MT  C5   C6    SING  29
+6MT  C5   C4    DOUB  30
+6MT  C6   N6    SING  31
+6MT  C6   N1    DOUB  32
+6MT  N1   C2    SING  33
+6MT  C2   N3    DOUB  34
+6MT  C2   H2    SING  35
+6MT  N3   C4    SING  36
+6MT  N6   1H6   SING  37
+6MT  N6   C1    SING  38
+6MT  C1   1H1   SING  39
+6MT  C1   2H1   SING  40
+6MT  C1   3H1   SING  41
+#

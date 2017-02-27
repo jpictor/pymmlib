@@ -1,0 +1,93 @@
+data_PQQ
+#
+_chem_comp.id                   PQQ
+_chem_comp.name                 'PYRROLOQUINOLINE QUINONE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H6 N2 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PQQ  N1    .  N  0  ?  ?  ?  1  1 
+PQQ  C2    .  C  0  ?  ?  ?  1  2 
+PQQ  C2X   .  C  0  ?  ?  ?  1  3 
+PQQ  O2A   .  O  0  ?  ?  ?  1  4 
+PQQ  O2B   .  O  0  ?  ?  ?  1  5 
+PQQ  C3    .  C  0  ?  ?  ?  1  6 
+PQQ  C3A   .  C  0  ?  ?  ?  1  7 
+PQQ  C1A   .  C  0  ?  ?  ?  1  8 
+PQQ  C4    .  C  0  ?  ?  ?  1  9 
+PQQ  O4    .  O  0  ?  ?  ?  1  10
+PQQ  C5    .  C  0  ?  ?  ?  1  11
+PQQ  O5    .  O  0  ?  ?  ?  1  12
+PQQ  C6A   .  C  0  ?  ?  ?  1  13
+PQQ  N6    .  N  0  ?  ?  ?  1  14
+PQQ  C7    .  C  0  ?  ?  ?  1  15
+PQQ  C7X   .  C  0  ?  ?  ?  1  16
+PQQ  O7A   .  O  0  ?  ?  ?  1  17
+PQQ  O7B   .  O  0  ?  ?  ?  1  18
+PQQ  C8    .  C  0  ?  ?  ?  1  19
+PQQ  C9    .  C  0  ?  ?  ?  1  20
+PQQ  C9X   .  C  0  ?  ?  ?  1  21
+PQQ  O9A   .  O  0  ?  ?  ?  1  22
+PQQ  O9B   .  O  0  ?  ?  ?  1  23
+PQQ  C9A   .  C  0  ?  ?  ?  1  24
+PQQ  HN1   .  H  0  ?  ?  ?  1  25
+PQQ  2HOB  .  H  0  ?  ?  ?  0  26
+PQQ  H3    .  H  0  ?  ?  ?  1  27
+PQQ  7HOB  .  H  0  ?  ?  ?  0  28
+PQQ  H8    .  H  0  ?  ?  ?  1  29
+PQQ  9HOB  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PQQ  N1   C1A   SING  1 
+PQQ  N1   C2    SING  2 
+PQQ  N1   HN1   SING  3 
+PQQ  C2   C3    DOUB  4 
+PQQ  C2   C2X   SING  5 
+PQQ  C2X  O2A   DOUB  6 
+PQQ  C2X  O2B   SING  7 
+PQQ  O2B  2HOB  SING  8 
+PQQ  C3   C3A   SING  9 
+PQQ  C3   H3    SING  10
+PQQ  C3A  C1A   DOUB  11
+PQQ  C3A  C4    SING  12
+PQQ  C1A  C9A   SING  13
+PQQ  C4   C5    SING  14
+PQQ  C4   O4    DOUB  15
+PQQ  C5   C6A   SING  16
+PQQ  C5   O5    DOUB  17
+PQQ  C6A  N6    DOUB  18
+PQQ  C6A  C9A   SING  19
+PQQ  N6   C7    SING  20
+PQQ  C7   C8    DOUB  21
+PQQ  C7   C7X   SING  22
+PQQ  C7X  O7A   DOUB  23
+PQQ  C7X  O7B   SING  24
+PQQ  O7B  7HOB  SING  25
+PQQ  C8   C9    SING  26
+PQQ  C8   H8    SING  27
+PQQ  C9   C9A   DOUB  28
+PQQ  C9   C9X   SING  29
+PQQ  C9X  O9A   DOUB  30
+PQQ  C9X  O9B   SING  31
+PQQ  O9B  9HOB  SING  32
+#

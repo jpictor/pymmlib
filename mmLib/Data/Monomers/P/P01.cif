@@ -1,0 +1,138 @@
+data_P01
+#
+_chem_comp.id                   P01
+_chem_comp.name                 2-({6-[(3-CHLOROPHENYL)AMINO]-9-ISOPROPYL-9H-PURIN-2-YL}AMINO)-3-METHYLBUTAN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H25 N6 O1 CL1'
+_chem_comp.pdbx_synonyms        'PURVALANOL A'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        388.899
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P01  CL1   .  CL  0  8.995   -11.569  -2.901  0  1 
+P01  C5A   .  C   0  9.965   -10.166  -3.412  1  2 
+P01  C6A   .  C   0  9.281   -9.152   -4.072  1  3 
+P01  C1A   .  C   0  9.969   -8.028   -4.513  1  4 
+P01  C2A   .  C   0  11.348  -7.963   -4.255  1  5 
+P01  C3A   .  C   0  12.033  -8.984   -3.582  1  6 
+P01  C4A   .  C   0  11.335  -10.103  -3.157  1  7 
+P01  N6    .  N   0  9.390   -7.008   -5.209  1  8 
+P01  C6    .  C   0  8.089   -6.908   -5.632  1  9 
+P01  C5    .  C   0  7.754   -5.832   -6.462  1  10
+P01  N7    .  N   0  8.489   -4.778   -6.998  1  11
+P01  C4    .  C   0  6.484   -5.695   -6.888  1  12
+P01  N9    .  N   0  6.354   -4.638   -7.661  1  13
+P01  C10   .  C   0  4.991   -4.382   -8.191  1  14
+P01  C11   .  C   0  4.917   -4.736   -9.676  1  15
+P01  C12   .  C   0  4.510   -2.966   -7.864  1  16
+P01  C8    .  C   0  7.570   -4.044   -7.734  1  17
+P01  N3    .  N   0  5.498   -6.551   -6.552  1  18
+P01  C2    .  C   0  5.825   -7.602   -5.751  1  19
+P01  N1    .  N   0  7.099   -7.774   -5.291  1  20
+P01  N21   .  N   0  4.840   -8.466   -5.408  1  21
+P01  C22   .  C   0  4.990   -9.421   -4.315  1  22
+P01  C25   .  C   0  4.026   -10.590  -4.532  1  23
+P01  C26   .  C   0  4.259   -11.228  -5.905  1  24
+P01  C27   .  C   0  4.125   -11.610  -3.399  1  25
+P01  C23   .  C   0  4.784   -8.725   -2.964  1  26
+P01  O24   .  O   0  3.407   -8.654   -2.608  1  27
+P01  1H26  .  H   0  ?       ?        ?       0  28
+P01  2H26  .  H   0  ?       ?        ?       0  29
+P01  3H26  .  H   0  ?       ?        ?       0  30
+P01  H25   .  H   0  ?       ?        ?       1  31
+P01  1H27  .  H   0  ?       ?        ?       0  32
+P01  2H27  .  H   0  ?       ?        ?       0  33
+P01  3H27  .  H   0  ?       ?        ?       0  34
+P01  H22   .  H   0  ?       ?        ?       1  35
+P01  1H23  .  H   0  ?       ?        ?       0  36
+P01  2H23  .  H   0  ?       ?        ?       0  37
+P01  H24   .  H   0  ?       ?        ?       1  38
+P01  H21   .  H   0  ?       ?        ?       1  39
+P01  HN6   .  H   0  ?       ?        ?       1  40
+P01  H2A   .  H   0  ?       ?        ?       1  41
+P01  H3A   .  H   0  ?       ?        ?       1  42
+P01  H4A   .  H   0  ?       ?        ?       1  43
+P01  H6A   .  H   0  ?       ?        ?       1  44
+P01  H8    .  H   0  ?       ?        ?       1  45
+P01  H10   .  H   0  ?       ?        ?       1  46
+P01  1H11  .  H   0  ?       ?        ?       0  47
+P01  2H11  .  H   0  ?       ?        ?       0  48
+P01  3H11  .  H   0  ?       ?        ?       0  49
+P01  1H12  .  H   0  ?       ?        ?       0  50
+P01  2H12  .  H   0  ?       ?        ?       0  51
+P01  3H12  .  H   0  ?       ?        ?       0  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P01  CL1  C5A   SING  1 
+P01  C5A  C4A   SING  2 
+P01  C5A  C6A   DOUB  3 
+P01  C6A  C1A   SING  4 
+P01  C6A  H6A   SING  5 
+P01  C1A  N6    SING  6 
+P01  C1A  C2A   DOUB  7 
+P01  C2A  C3A   SING  8 
+P01  C2A  H2A   SING  9 
+P01  C3A  C4A   DOUB  10
+P01  C3A  H3A   SING  11
+P01  C4A  H4A   SING  12
+P01  N6   C6    SING  13
+P01  N6   HN6   SING  14
+P01  C6   N1    SING  15
+P01  C6   C5    DOUB  16
+P01  C5   N7    SING  17
+P01  C5   C4    SING  18
+P01  N7   C8    DOUB  19
+P01  C4   N9    SING  20
+P01  C4   N3    DOUB  21
+P01  N9   C8    SING  22
+P01  N9   C10   SING  23
+P01  C10  C11   SING  24
+P01  C10  C12   SING  25
+P01  C10  H10   SING  26
+P01  C11  1H11  SING  27
+P01  C11  2H11  SING  28
+P01  C11  3H11  SING  29
+P01  C12  1H12  SING  30
+P01  C12  2H12  SING  31
+P01  C12  3H12  SING  32
+P01  C8   H8    SING  33
+P01  N3   C2    SING  34
+P01  C2   N21   SING  35
+P01  C2   N1    DOUB  36
+P01  N21  C22   SING  37
+P01  N21  H21   SING  38
+P01  C22  C25   SING  39
+P01  C22  C23   SING  40
+P01  C22  H22   SING  41
+P01  C25  C26   SING  42
+P01  C25  C27   SING  43
+P01  C25  H25   SING  44
+P01  C26  1H26  SING  45
+P01  C26  2H26  SING  46
+P01  C26  3H26  SING  47
+P01  C27  1H27  SING  48
+P01  C27  2H27  SING  49
+P01  C27  3H27  SING  50
+P01  C23  O24   SING  51
+P01  C23  1H23  SING  52
+P01  C23  2H23  SING  53
+P01  O24  H24   SING  54
+#

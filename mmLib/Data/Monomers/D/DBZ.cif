@@ -1,0 +1,86 @@
+data_DBZ
+#
+_chem_comp.id                       DBZ
+_chem_comp.name                     3-(BENZOYLAMINO)-L-ALANINE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C10 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            208.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DBZ  N    .  N  0  15.619  22.165  19.840  1  1 
+DBZ  CA   .  C  0  15.832  21.247  20.948  1  2 
+DBZ  CB   .  C  0  15.858  19.821  20.422  1  3 
+DBZ  NG   .  N  0  14.636  19.619  19.636  1  4 
+DBZ  CD2  .  C  0  13.501  19.236  20.250  1  5 
+DBZ  OD2  .  O  0  13.495  19.116  21.475  1  6 
+DBZ  C1   .  C  0  12.270  18.955  19.422  1  7 
+DBZ  C2   .  C  0  11.353  17.991  19.864  1  8 
+DBZ  C6   .  C  0  12.015  19.593  18.224  1  9 
+DBZ  C3   .  C  0  10.190  17.680  19.149  1  10
+DBZ  C5   .  C  0  10.846  19.310  17.511  1  11
+DBZ  C4   .  C  0  9.910   18.369  17.963  1  12
+DBZ  C    .  C  0  17.117  21.547  21.709  1  13
+DBZ  O    .  O  0  17.560  20.765  22.541  1  14
+DBZ  OXT  .  O  0  ?       ?       ?       1  15
+DBZ  1HN  .  H  0  ?       ?       ?       0  16
+DBZ  2HN  .  H  0  ?       ?       ?       0  17
+DBZ  HA   .  H  0  ?       ?       ?       1  18
+DBZ  1HB  .  H  0  ?       ?       ?       0  19
+DBZ  2HB  .  H  0  ?       ?       ?       0  20
+DBZ  HNG  .  H  0  ?       ?       ?       1  21
+DBZ  H6   .  H  0  ?       ?       ?       1  22
+DBZ  H5   .  H  0  ?       ?       ?       1  23
+DBZ  H4   .  H  0  ?       ?       ?       1  24
+DBZ  H3   .  H  0  ?       ?       ?       1  25
+DBZ  H2   .  H  0  ?       ?       ?       1  26
+DBZ  HXT  .  H  0  ?       ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DBZ  N    CA   SING  1 
+DBZ  N    1HN  SING  2 
+DBZ  N    2HN  SING  3 
+DBZ  CA   C    SING  4 
+DBZ  CA   CB   SING  5 
+DBZ  CA   HA   SING  6 
+DBZ  CB   NG   SING  7 
+DBZ  CB   1HB  SING  8 
+DBZ  CB   2HB  SING  9 
+DBZ  NG   CD2  SING  10
+DBZ  NG   HNG  SING  11
+DBZ  CD2  OD2  DOUB  12
+DBZ  CD2  C1   SING  13
+DBZ  C1   C6   AROM  14
+DBZ  C1   C2   AROM  15
+DBZ  C2   C3   AROM  16
+DBZ  C2   H2   SING  17
+DBZ  C6   C5   AROM  18
+DBZ  C6   H6   SING  19
+DBZ  C3   C4   AROM  20
+DBZ  C3   H3   SING  21
+DBZ  C5   C4   AROM  22
+DBZ  C5   H5   SING  23
+DBZ  C4   H4   SING  24
+DBZ  C    OXT  SING  25
+DBZ  C    O    DOUB  26
+DBZ  OXT  HXT  SING  27
+#

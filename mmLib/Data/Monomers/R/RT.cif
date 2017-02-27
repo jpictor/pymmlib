@@ -1,0 +1,107 @@
+data_RT
+#
+_chem_comp.id                       RT
+_chem_comp.name                     RIBOSYLTHYMINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            338.210
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RT  O3P   .  O  0  ?  ?  ?  1  1 
+RT  P     .  P  0  ?  ?  ?  1  2 
+RT  O1P   .  O  0  ?  ?  ?  1  3 
+RT  O2P   .  O  0  ?  ?  ?  1  4 
+RT  O5*   .  O  0  ?  ?  ?  1  5 
+RT  C5*   .  C  0  ?  ?  ?  1  6 
+RT  C4*   .  C  0  ?  ?  ?  1  7 
+RT  O4*   .  O  0  ?  ?  ?  1  8 
+RT  C3*   .  C  0  ?  ?  ?  1  9 
+RT  O3*   .  O  0  ?  ?  ?  1  10
+RT  C2*   .  C  0  ?  ?  ?  1  11
+RT  O2*   .  O  0  ?  ?  ?  1  12
+RT  C1*   .  C  0  ?  ?  ?  1  13
+RT  N1    .  N  0  ?  ?  ?  1  14
+RT  C2    .  C  0  ?  ?  ?  1  15
+RT  O2    .  O  0  ?  ?  ?  1  16
+RT  N3    .  N  0  ?  ?  ?  1  17
+RT  C4    .  C  0  ?  ?  ?  1  18
+RT  O4    .  O  0  ?  ?  ?  1  19
+RT  C5    .  C  0  ?  ?  ?  1  20
+RT  C5M   .  C  0  ?  ?  ?  1  21
+RT  C6    .  C  0  ?  ?  ?  1  22
+RT  3HOP  .  H  0  ?  ?  ?  0  23
+RT  2HOP  .  H  0  ?  ?  ?  0  24
+RT  1H5*  .  H  0  ?  ?  ?  0  25
+RT  2H5*  .  H  0  ?  ?  ?  0  26
+RT  H4*   .  H  0  ?  ?  ?  1  27
+RT  H3*   .  H  0  ?  ?  ?  1  28
+RT  H2*   .  H  0  ?  ?  ?  1  29
+RT  2HO*  .  H  0  ?  ?  ?  0  30
+RT  H1*   .  H  0  ?  ?  ?  1  31
+RT  H3    .  H  0  ?  ?  ?  1  32
+RT  1H5M  .  H  0  ?  ?  ?  0  33
+RT  2H5M  .  H  0  ?  ?  ?  0  34
+RT  3H5M  .  H  0  ?  ?  ?  0  35
+RT  H6    .  H  0  ?  ?  ?  1  36
+RT  H3T   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RT  O3P  P     SING  1 
+RT  O3P  3HOP  SING  2 
+RT  P    O1P   DOUB  3 
+RT  P    O2P   SING  4 
+RT  P    O5*   SING  5 
+RT  O2P  2HOP  SING  6 
+RT  O5*  C5*   SING  7 
+RT  C5*  C4*   SING  8 
+RT  C5*  1H5*  SING  9 
+RT  C5*  2H5*  SING  10
+RT  C4*  O4*   SING  11
+RT  C4*  C3*   SING  12
+RT  C4*  H4*   SING  13
+RT  O4*  C1*   SING  14
+RT  C3*  O3*   SING  15
+RT  C3*  C2*   SING  16
+RT  C3*  H3*   SING  17
+RT  O3*  H3T   SING  18
+RT  C2*  O2*   SING  19
+RT  C2*  C1*   SING  20
+RT  C2*  H2*   SING  21
+RT  O2*  2HO*  SING  22
+RT  C1*  N1    SING  23
+RT  C1*  H1*   SING  24
+RT  N1   C2    SING  25
+RT  N1   C6    SING  26
+RT  C2   O2    DOUB  27
+RT  C2   N3    SING  28
+RT  N3   C4    SING  29
+RT  N3   H3    SING  30
+RT  C4   O4    DOUB  31
+RT  C4   C5    SING  32
+RT  C5   C5M   SING  33
+RT  C5   C6    DOUB  34
+RT  C5M  1H5M  SING  35
+RT  C5M  2H5M  SING  36
+RT  C5M  3H5M  SING  37
+RT  C6   H6    SING  38
+#

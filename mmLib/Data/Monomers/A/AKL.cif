@@ -1,0 +1,68 @@
+data_AKL
+#
+_chem_comp.id                       AKL
+_chem_comp.name                     '3-AMINO-5-CHLORO-4-OXOPENTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H8 N1 O3 CL1'
+_chem_comp.pdbx_synonyms            'ASPARTIC ACID CHLOROMETHYL KETONE'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            165.576
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AKL  N    .  N   0  36.117  32.450  30.049  1  1 
+AKL  CA   .  C   0  34.761  32.821  30.466  1  2 
+AKL  CB   .  C   0  33.960  31.566  30.839  1  3 
+AKL  CG   .  C   0  33.396  30.793  29.666  1  4 
+AKL  OD2  .  O   0  33.137  29.589  29.808  1  5 
+AKL  OD1  .  O   0  33.181  31.436  28.621  1  6 
+AKL  C    .  C   0  34.711  33.860  31.571  1  7 
+AKL  O    .  O   0  33.632  33.989  32.217  1  8 
+AKL  CM   .  C   0  35.394  35.191  31.028  1  9 
+AKL  CL1  .  CL  0  ?       ?       ?       0  10
+AKL  HD2  .  H   0  ?       ?       ?       1  11
+AKL  1HB  .  H   0  ?       ?       ?       0  12
+AKL  2HB  .  H   0  ?       ?       ?       0  13
+AKL  HA   .  H   0  ?       ?       ?       1  14
+AKL  1HN  .  H   0  ?       ?       ?       0  15
+AKL  2HN  .  H   0  ?       ?       ?       0  16
+AKL  1HM  .  H   0  ?       ?       ?       0  17
+AKL  2HM  .  H   0  ?       ?       ?       0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AKL  N    CA   SING  1 
+AKL  N    1HN  SING  2 
+AKL  N    2HN  SING  3 
+AKL  CA   CB   SING  4 
+AKL  CA   HA   SING  5 
+AKL  CA   C    SING  6 
+AKL  CB   CG   SING  7 
+AKL  CB   1HB  SING  8 
+AKL  CB   2HB  SING  9 
+AKL  CG   OD2  SING  10
+AKL  CG   OD1  DOUB  11
+AKL  OD2  HD2  SING  12
+AKL  C    O    DOUB  13
+AKL  C    CM   SING  14
+AKL  CM   1HM  SING  15
+AKL  CM   2HM  SING  16
+AKL  CM   CL1  SING  17
+#

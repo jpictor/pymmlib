@@ -1,0 +1,111 @@
+data_LCC
+#
+_chem_comp.id                   LCC
+_chem_comp.name                 '[(1R,3R,4R,7S)-7-HYDROXY-3-(5-METHYLCYTOSIN-1-YL)-2,5-DIOXABICYCLO[2.2.1]HEPT-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N3 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        349.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LCC  O5*   .  O  0  -1.824  13.118  -12.576  1  1 
+LCC  C5*   .  C  0  -2.609  12.84   -13.72   1  2 
+LCC  C4*   .  C  0  -3.999  12.416  -13.24   1  3 
+LCC  O4*   .  O  0  -3.969  11.205  -12.475  1  4 
+LCC  C1*   .  C  0  -5.142  11.212  -11.663  1  5 
+LCC  N1    .  N  0  -4.841  11.305  -10.199  1  6 
+LCC  C6    .  C  0  -3.606  11.71   -9.736   1  7 
+LCC  C5    .  C  0  -3.341  11.801  -8.408   1  8 
+LCC  C5M   .  C  0  -1.979  12.266  -7.921   1  9 
+LCC  C4    .  C  0  -4.402  11.439  -7.497   1  10
+LCC  N4    .  N  0  -4.235  11.486  -6.171   1  11
+LCC  N3    .  N  0  -5.595  11.035  -7.956   1  12
+LCC  C2    .  C  0  -5.852  10.954  -9.293   1  13
+LCC  O2    .  O  0  -6.958  10.583  -9.683   1  14
+LCC  C3*   .  C  0  -4.699  13.43   -12.335  1  15
+LCC  C2*   .  C  0  -5.861  12.456  -12.21   1  16
+LCC  O2*   .  O  0  -6.259  12.171  -13.555  1  17
+LCC  O3*   .  O  0  -5.042  14.68   -12.912  1  18
+LCC  C6*   .  C  0  -5.064  12.243  -14.333  1  19
+LCC  P     .  P  0  -.315   13.673  -12.669  1  20
+LCC  O1P   .  O  0  -.274   14.726  -13.709  1  21
+LCC  O2P   .  O  0  .128    13.987  -11.293  1  22
+LCC  OXT   .  O  0  .54     12.411  -13.197  1  23
+LCC  1H5*  .  H  0  -2.157  12.039  -14.305  0  24
+LCC  2H5*  .  H  0  -2.692  13.736  -14.337  0  25
+LCC  H1*   .  H  0  -5.755  10.32   -11.823  1  26
+LCC  H6    .  H  0  -2.836  11.973  -10.443  1  27
+LCC  1H5M  .  H  0  -1.601  11.58   -7.162   0  28
+LCC  2H5M  .  H  0  -1.268  12.293  -8.748   0  29
+LCC  3H5M  .  H  0  -2.066  13.264  -7.494   0  30
+LCC  1H4   .  H  0  -4.998  11.204  -5.568   0  31
+LCC  2H4   .  H  0  -3.347  11.763  -5.782   0  32
+LCC  H3*   .  H  0  -4.169  13.582  -11.395  1  33
+LCC  1H2*  .  H  0  -6.668  12.804  -11.568  0  34
+LCC  1H6*  .  H  0  -4.893  11.36   -14.953  0  35
+LCC  2H6*  .  H  0  -5.096  13.127  -14.972  0  36
+LCC  H3T   .  H  0  -4.236  15.185  -13.043  1  37
+LCC  HXT   .  H  0  ?       ?       ?        1  38
+LCC  H1P   .  H  0  ?       ?       ?        1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LCC  O5*  C5*   SING  1 
+LCC  O5*  P     SING  2 
+LCC  C5*  1H5*  SING  3 
+LCC  C5*  2H5*  SING  4 
+LCC  C5*  C4*   SING  5 
+LCC  C4*  O4*   SING  6 
+LCC  C4*  C3*   SING  7 
+LCC  C4*  C6*   SING  8 
+LCC  O4*  C1*   SING  9 
+LCC  C1*  H1*   SING  10
+LCC  C1*  N1    SING  11
+LCC  C1*  C2*   SING  12
+LCC  N1   C6    SING  13
+LCC  N1   C2    SING  14
+LCC  C6   H6    SING  15
+LCC  C6   C5    DOUB  16
+LCC  C5   C5M   SING  17
+LCC  C5   C4    SING  18
+LCC  C5M  1H5M  SING  19
+LCC  C5M  2H5M  SING  20
+LCC  C5M  3H5M  SING  21
+LCC  C4   N4    SING  22
+LCC  C4   N3    DOUB  23
+LCC  N4   1H4   SING  24
+LCC  N4   2H4   SING  25
+LCC  N3   C2    SING  26
+LCC  C2   O2    DOUB  27
+LCC  C3*  H3*   SING  28
+LCC  C3*  C2*   SING  29
+LCC  C3*  O3*   SING  30
+LCC  C2*  1H2*  SING  31
+LCC  C2*  O2*   SING  32
+LCC  O2*  C6*   SING  33
+LCC  O3*  H3T   SING  34
+LCC  C6*  1H6*  SING  35
+LCC  C6*  2H6*  SING  36
+LCC  P    O1P   SING  37
+LCC  P    O2P   DOUB  38
+LCC  P    OXT   SING  39
+LCC  O1P  H1P   SING  40
+LCC  OXT  HXT   SING  41
+#

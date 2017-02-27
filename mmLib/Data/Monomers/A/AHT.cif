@@ -1,0 +1,97 @@
+data_AHT
+#
+_chem_comp.id                   AHT
+_chem_comp.name                 4-(2,5-DIAMINO-5-HYDROXY-PENTYL)-PHENOL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H18 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        210.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHT  N     .  N  0  ?  ?  ?  1  1 
+AHT  CA    .  C  0  ?  ?  ?  1  2 
+AHT  C     .  C  0  ?  ?  ?  1  3 
+AHT  CB    .  C  0  ?  ?  ?  1  4 
+AHT  CG    .  C  0  ?  ?  ?  1  5 
+AHT  CD1   .  C  0  ?  ?  ?  1  6 
+AHT  CD2   .  C  0  ?  ?  ?  1  7 
+AHT  CE1   .  C  0  ?  ?  ?  1  8 
+AHT  CE2   .  C  0  ?  ?  ?  1  9 
+AHT  CZ    .  C  0  ?  ?  ?  1  10
+AHT  OH    .  O  0  ?  ?  ?  1  11
+AHT  C1    .  C  0  ?  ?  ?  1  12
+AHT  C2    .  C  0  ?  ?  ?  1  13
+AHT  O2    .  O  0  ?  ?  ?  1  14
+AHT  N2    .  N  0  ?  ?  ?  1  15
+AHT  1HN   .  H  0  ?  ?  ?  0  16
+AHT  2HN   .  H  0  ?  ?  ?  0  17
+AHT  HA    .  H  0  ?  ?  ?  1  18
+AHT  1HB   .  H  0  ?  ?  ?  0  19
+AHT  2HB   .  H  0  ?  ?  ?  0  20
+AHT  1HC   .  H  0  ?  ?  ?  0  21
+AHT  2HC   .  H  0  ?  ?  ?  0  22
+AHT  HD1   .  H  0  ?  ?  ?  1  23
+AHT  HD2   .  H  0  ?  ?  ?  1  24
+AHT  HE1   .  H  0  ?  ?  ?  1  25
+AHT  HE2   .  H  0  ?  ?  ?  1  26
+AHT  HO    .  H  0  ?  ?  ?  1  27
+AHT  1H1   .  H  0  ?  ?  ?  0  28
+AHT  2H1   .  H  0  ?  ?  ?  0  29
+AHT  H2    .  H  0  ?  ?  ?  1  30
+AHT  HO2   .  H  0  ?  ?  ?  1  31
+AHT  1HN2  .  H  0  ?  ?  ?  0  32
+AHT  2HN2  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHT  N    CA    SING  1 
+AHT  N    1HN   SING  2 
+AHT  N    2HN   SING  3 
+AHT  CA   C     SING  4 
+AHT  CA   CB    SING  5 
+AHT  CA   HA    SING  6 
+AHT  C    C1    SING  7 
+AHT  C    1HC   SING  8 
+AHT  C    2HC   SING  9 
+AHT  CB   CG    SING  10
+AHT  CB   1HB   SING  11
+AHT  CB   2HB   SING  12
+AHT  CG   CD1   DOUB  13
+AHT  CG   CD2   SING  14
+AHT  CD1  CE1   SING  15
+AHT  CD1  HD1   SING  16
+AHT  CD2  CE2   DOUB  17
+AHT  CD2  HD2   SING  18
+AHT  CE1  CZ    DOUB  19
+AHT  CE1  HE1   SING  20
+AHT  CE2  CZ    SING  21
+AHT  CE2  HE2   SING  22
+AHT  CZ   OH    SING  23
+AHT  OH   HO    SING  24
+AHT  C1   C2    SING  25
+AHT  C1   1H1   SING  26
+AHT  C1   2H1   SING  27
+AHT  C2   N2    SING  28
+AHT  C2   O2    SING  29
+AHT  C2   H2    SING  30
+AHT  O2   HO2   SING  31
+AHT  N2   1HN2  SING  32
+AHT  N2   2HN2  SING  33
+#

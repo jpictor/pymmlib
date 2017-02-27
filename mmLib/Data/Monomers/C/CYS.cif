@@ -1,0 +1,58 @@
+data_CYS
+#
+_chem_comp.id                   CYS
+_chem_comp.name                 CYSTEINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C3 H7 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        121.154
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYS  N    .  N  0  ?  ?  ?  1  1 
+CYS  CA   .  C  0  ?  ?  ?  1  2 
+CYS  C    .  C  0  ?  ?  ?  1  3 
+CYS  O    .  O  0  ?  ?  ?  1  4 
+CYS  CB   .  C  0  ?  ?  ?  1  5 
+CYS  SG   .  S  0  ?  ?  ?  1  6 
+CYS  OXT  .  O  0  ?  ?  ?  1  7 
+CYS  H    .  H  0  ?  ?  ?  1  8 
+CYS  HN2  .  H  0  ?  ?  ?  1  9 
+CYS  HA   .  H  0  ?  ?  ?  1  10
+CYS  1HB  .  H  0  ?  ?  ?  0  11
+CYS  2HB  .  H  0  ?  ?  ?  0  12
+CYS  HG   .  H  0  ?  ?  ?  1  13
+CYS  HXT  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYS  N    CA   SING  1 
+CYS  N    H    SING  2 
+CYS  N    HN2  SING  3 
+CYS  CA   C    SING  4 
+CYS  CA   CB   SING  5 
+CYS  CA   HA   SING  6 
+CYS  C    O    DOUB  7 
+CYS  C    OXT  SING  8 
+CYS  CB   SG   SING  9 
+CYS  CB   1HB  SING  10
+CYS  CB   2HB  SING  11
+CYS  SG   HG   SING  12
+CYS  OXT  HXT  SING  13
+#

@@ -1,0 +1,100 @@
+data_CQR
+#
+_chem_comp.id                       CQR
+_chem_comp.name                     '[(4Z)-2-(AMINOMETHYL)-4-(4-HYDROXYBENZYLIDENE)-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C13 H13 N3 O4'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (GLY-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'GLY, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            275.263
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CQR  N     .  N  0  37.709  19.002  35.206  1  1 
+CQR  CA1   .  C  0  38.024  17.672  34.654  1  2 
+CQR  C1    .  C  0  37.058  17.590  33.494  1  3 
+CQR  N2    .  N  0  35.806  17.094  33.627  1  4 
+CQR  N3    .  N  0  37.323  18.065  32.271  1  5 
+CQR  C2    .  C  0  36.235  17.839  31.504  1  6 
+CQR  O2    .  O  0  36.230  18.229  30.275  1  7 
+CQR  CA2   .  C  0  35.317  17.270  32.374  1  8 
+CQR  CA3   .  C  0  38.471  18.660  31.794  1  9 
+CQR  CB2   .  C  0  34.003  16.899  31.945  1  10
+CQR  CG2   .  C  0  32.952  16.300  32.644  1  11
+CQR  CD1   .  C  0  33.030  15.951  33.995  1  12
+CQR  CD2   .  C  0  31.830  16.117  31.827  1  13
+CQR  CE1   .  C  0  31.954  15.359  34.662  1  14
+CQR  CE2   .  C  0  30.760  15.517  32.502  1  15
+CQR  CZ    .  C  0  30.824  15.170  33.858  1  16
+CQR  OH    .  O  0  29.676  14.606  34.342  1  17
+CQR  C     .  C  0  39.622  17.942  31.137  1  18
+CQR  O     .  O  0  40.291  18.671  30.406  1  19
+CQR  OXT   .  O  0  39.783  16.635  31.287  1  20
+CQR  1HN   .  H  0  ?       ?       ?       0  21
+CQR  2HN   .  H  0  ?       ?       ?       0  22
+CQR  1HA1  .  H  0  ?       ?       ?       0  23
+CQR  2HA1  .  H  0  ?       ?       ?       0  24
+CQR  HB2   .  H  0  ?       ?       ?       1  25
+CQR  HD2   .  H  0  ?       ?       ?       1  26
+CQR  HE2   .  H  0  ?       ?       ?       1  27
+CQR  HOH   .  H  0  ?       ?       ?       1  28
+CQR  HE1   .  H  0  ?       ?       ?       1  29
+CQR  HD1   .  H  0  ?       ?       ?       1  30
+CQR  1HA3  .  H  0  ?       ?       ?       0  31
+CQR  2HA3  .  H  0  ?       ?       ?       0  32
+CQR  HXT   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CQR  N    CA1   SING  1 
+CQR  N    1HN   SING  2 
+CQR  N    2HN   SING  3 
+CQR  CA1  C1    SING  4 
+CQR  CA1  1HA1  SING  5 
+CQR  CA1  2HA1  SING  6 
+CQR  C1   N2    DOUB  7 
+CQR  C1   N3    SING  8 
+CQR  N2   CA2   SING  9 
+CQR  N3   C2    SING  10
+CQR  N3   CA3   SING  11
+CQR  C2   CA2   SING  12
+CQR  C2   O2    DOUB  13
+CQR  CA2  CB2   DOUB  14
+CQR  CA3  C     SING  15
+CQR  CA3  1HA3  SING  16
+CQR  CA3  2HA3  SING  17
+CQR  CB2  CG2   SING  18
+CQR  CB2  HB2   SING  19
+CQR  CG2  CD2   SING  20
+CQR  CG2  CD1   DOUB  21
+CQR  CD1  CE1   SING  22
+CQR  CD1  HD1   SING  23
+CQR  CD2  CE2   DOUB  24
+CQR  CD2  HD2   SING  25
+CQR  CE1  CZ    DOUB  26
+CQR  CE1  HE1   SING  27
+CQR  CE2  CZ    SING  28
+CQR  CE2  HE2   SING  29
+CQR  CZ   OH    SING  30
+CQR  OH   HOH   SING  31
+CQR  C    O     DOUB  32
+CQR  C    OXT   SING  33
+CQR  OXT  HXT   SING  34
+#

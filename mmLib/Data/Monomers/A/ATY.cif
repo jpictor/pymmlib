@@ -1,0 +1,124 @@
+data_ATY
+#
+_chem_comp.id                   ATY
+_chem_comp.name                 3'-O-ACETYLTHYMIDINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N2 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        444.228
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATY  PA    .  P  0  ?  ?  ?  1  1 
+ATY  O1A   .  O  0  ?  ?  ?  1  2 
+ATY  O2A   .  O  0  ?  ?  ?  1  3 
+ATY  O3A   .  O  0  ?  ?  ?  1  4 
+ATY  PB    .  P  0  ?  ?  ?  1  5 
+ATY  O1B   .  O  0  ?  ?  ?  1  6 
+ATY  O2B   .  O  0  ?  ?  ?  1  7 
+ATY  O3B   .  O  0  ?  ?  ?  1  8 
+ATY  O5*   .  O  0  ?  ?  ?  1  9 
+ATY  C5*   .  C  0  ?  ?  ?  1  10
+ATY  C4*   .  C  0  ?  ?  ?  1  11
+ATY  O4*   .  O  0  ?  ?  ?  1  12
+ATY  C3*   .  C  0  ?  ?  ?  1  13
+ATY  O3*   .  O  0  ?  ?  ?  1  14
+ATY  CR    .  C  0  ?  ?  ?  1  15
+ATY  OR    .  O  0  ?  ?  ?  1  16
+ATY  CHR   .  C  0  ?  ?  ?  1  17
+ATY  C2*   .  C  0  ?  ?  ?  1  18
+ATY  C1*   .  C  0  ?  ?  ?  1  19
+ATY  N1    .  N  0  ?  ?  ?  1  20
+ATY  C2    .  C  0  ?  ?  ?  1  21
+ATY  O2    .  O  0  ?  ?  ?  1  22
+ATY  N3    .  N  0  ?  ?  ?  1  23
+ATY  C4    .  C  0  ?  ?  ?  1  24
+ATY  O4    .  O  0  ?  ?  ?  1  25
+ATY  C5    .  C  0  ?  ?  ?  1  26
+ATY  C5M   .  C  0  ?  ?  ?  1  27
+ATY  C6    .  C  0  ?  ?  ?  1  28
+ATY  2H5*  .  H  0  ?  ?  ?  0  29
+ATY  1H5*  .  H  0  ?  ?  ?  0  30
+ATY  H4*   .  H  0  ?  ?  ?  1  31
+ATY  H3*   .  H  0  ?  ?  ?  1  32
+ATY  3HHR  .  H  0  ?  ?  ?  0  33
+ATY  2HHR  .  H  0  ?  ?  ?  0  34
+ATY  1HHR  .  H  0  ?  ?  ?  0  35
+ATY  2H2*  .  H  0  ?  ?  ?  0  36
+ATY  1H2*  .  H  0  ?  ?  ?  0  37
+ATY  H1*   .  H  0  ?  ?  ?  1  38
+ATY  H3    .  H  0  ?  ?  ?  1  39
+ATY  3H5M  .  H  0  ?  ?  ?  0  40
+ATY  2H5M  .  H  0  ?  ?  ?  0  41
+ATY  1H5M  .  H  0  ?  ?  ?  0  42
+ATY  H6    .  H  0  ?  ?  ?  1  43
+ATY  2HPA  .  H  0  ?  ?  ?  0  44
+ATY  2HPB  .  H  0  ?  ?  ?  0  45
+ATY  3HPB  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATY  PA   O1A   DOUB  1 
+ATY  PA   O2A   SING  2 
+ATY  PA   O3A   SING  3 
+ATY  PA   O5*   SING  4 
+ATY  O2A  2HPA  SING  5 
+ATY  O3A  PB    SING  6 
+ATY  PB   O1B   DOUB  7 
+ATY  PB   O2B   SING  8 
+ATY  PB   O3B   SING  9 
+ATY  O2B  2HPB  SING  10
+ATY  O3B  3HPB  SING  11
+ATY  O5*  C5*   SING  12
+ATY  C5*  C4*   SING  13
+ATY  C5*  2H5*  SING  14
+ATY  C5*  1H5*  SING  15
+ATY  C4*  O4*   SING  16
+ATY  C4*  C3*   SING  17
+ATY  C4*  H4*   SING  18
+ATY  O4*  C1*   SING  19
+ATY  C3*  O3*   SING  20
+ATY  C3*  C2*   SING  21
+ATY  C3*  H3*   SING  22
+ATY  O3*  CR    SING  23
+ATY  CR   OR    DOUB  24
+ATY  CR   CHR   SING  25
+ATY  CHR  3HHR  SING  26
+ATY  CHR  2HHR  SING  27
+ATY  CHR  1HHR  SING  28
+ATY  C2*  C1*   SING  29
+ATY  C2*  2H2*  SING  30
+ATY  C2*  1H2*  SING  31
+ATY  C1*  N1    SING  32
+ATY  C1*  H1*   SING  33
+ATY  N1   C2    SING  34
+ATY  N1   C6    SING  35
+ATY  C2   O2    DOUB  36
+ATY  C2   N3    SING  37
+ATY  N3   C4    SING  38
+ATY  N3   H3    SING  39
+ATY  C4   O4    DOUB  40
+ATY  C4   C5    SING  41
+ATY  C5   C5M   SING  42
+ATY  C5   C6    DOUB  43
+ATY  C5M  3H5M  SING  44
+ATY  C5M  2H5M  SING  45
+ATY  C5M  1H5M  SING  46
+ATY  C6   H6    SING  47
+#

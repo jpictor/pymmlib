@@ -1,0 +1,55 @@
+data_ATQ
+#
+_chem_comp.id                   ATQ
+_chem_comp.name                 2-AMINOTHIAZOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 N2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        102.154
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATQ  N1    .  N  0  ?  ?  ?  1  1 
+ATQ  C2    .  C  0  ?  ?  ?  1  2 
+ATQ  S3    .  S  0  ?  ?  ?  1  3 
+ATQ  C4    .  C  0  ?  ?  ?  1  4 
+ATQ  C5    .  C  0  ?  ?  ?  1  5 
+ATQ  N2    .  N  0  ?  ?  ?  1  6 
+ATQ  1HN2  .  H  0  ?  ?  ?  0  7 
+ATQ  2HN2  .  H  0  ?  ?  ?  0  8 
+ATQ  1H5   .  H  0  ?  ?  ?  0  9 
+ATQ  2H5   .  H  0  ?  ?  ?  0  10
+ATQ  1H4   .  H  0  ?  ?  ?  0  11
+ATQ  2H4   .  H  0  ?  ?  ?  0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATQ  N1  C2    DOUB  1 
+ATQ  N1  C5    SING  2 
+ATQ  C2  S3    SING  3 
+ATQ  C2  N2    SING  4 
+ATQ  S3  C4    SING  5 
+ATQ  C4  C5    SING  6 
+ATQ  C4  1H4   SING  7 
+ATQ  C4  2H4   SING  8 
+ATQ  C5  1H5   SING  9 
+ATQ  C5  2H5   SING  10
+ATQ  N2  1HN2  SING  11
+ATQ  N2  2HN2  SING  12
+#

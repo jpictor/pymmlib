@@ -1,0 +1,73 @@
+data_PAF
+#
+_chem_comp.id                   PAF
+_chem_comp.name                 PANTOATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 O4'
+_chem_comp.pdbx_synonyms        2,4-DIHYDROXY-3,3-DIMETHYL-BUTYRATE
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       147.150
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAF  O1    .  O  -1  33.024  33.161  45.082  1  1 
+PAF  C1    .  C  0   33.318  34.105  45.910  1  2 
+PAF  O2    .  O  0   33.623  35.275  45.542  1  3 
+PAF  C2    .  C  0   33.302  33.764  47.439  1  4 
+PAF  O3    .  O  0   33.982  32.508  47.635  1  5 
+PAF  C3    .  C  0   31.869  33.670  48.042  1  6 
+PAF  C4    .  C  0   31.103  35.002  47.851  1  7 
+PAF  C5    .  C  0   31.077  32.502  47.442  1  8 
+PAF  C6    .  C  0   32.106  33.417  49.520  1  9 
+PAF  O4    .  O  0   32.855  34.484  50.070  1  10
+PAF  1HO3  .  H  0   ?       ?       ?       0  11
+PAF  1H2   .  H  0   ?       ?       ?       0  12
+PAF  1H4   .  H  0   ?       ?       ?       0  13
+PAF  2H4   .  H  0   ?       ?       ?       0  14
+PAF  3H4   .  H  0   ?       ?       ?       0  15
+PAF  1H5   .  H  0   ?       ?       ?       0  16
+PAF  2H5   .  H  0   ?       ?       ?       0  17
+PAF  3H5   .  H  0   ?       ?       ?       0  18
+PAF  1H6   .  H  0   ?       ?       ?       0  19
+PAF  2H6   .  H  0   ?       ?       ?       0  20
+PAF  1HO4  .  H  0   ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAF  O1  C1    SING  1 
+PAF  C1  O2    DOUB  2 
+PAF  C1  C2    SING  3 
+PAF  C2  O3    SING  4 
+PAF  C2  C3    SING  5 
+PAF  C2  1H2   SING  6 
+PAF  O3  1HO3  SING  7 
+PAF  C3  C4    SING  8 
+PAF  C3  C5    SING  9 
+PAF  C3  C6    SING  10
+PAF  C4  1H4   SING  11
+PAF  C4  2H4   SING  12
+PAF  C4  3H4   SING  13
+PAF  C5  1H5   SING  14
+PAF  C5  2H5   SING  15
+PAF  C5  3H5   SING  16
+PAF  C6  O4    SING  17
+PAF  C6  1H6   SING  18
+PAF  C6  2H6   SING  19
+PAF  O4  1HO4  SING  20
+#

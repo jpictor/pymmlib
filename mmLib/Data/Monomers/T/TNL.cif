@@ -1,0 +1,74 @@
+data_TNL
+#
+_chem_comp.id                   TNL
+_chem_comp.name                 2,4,6-TRINITROTOLUENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 N3 O6'
+_chem_comp.pdbx_synonyms        TNT
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        227.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TNL  C1    .  C  0  20.39   9.274   20.834  1  1 
+TNL  C7    .  C  0  19.625  8.736   22.006  1  2 
+TNL  C2    .  C  0  20.405  8.555   19.613  1  3 
+TNL  N2    .  N  0  19.61   7.331   19.509  1  4 
+TNL  O21   .  O  0  20.155  6.262   19.162  1  5 
+TNL  O22   .  O  0  18.451  7.37    19.783  1  6 
+TNL  C3    .  C  0  21.09   8.925   18.499  1  7 
+TNL  C4    .  C  0  21.768  10.109  18.598  1  8 
+TNL  N4    .  N  0  22.471  10.541  17.408  1  9 
+TNL  O41   .  O  0  22.733  11.736  17.354  1  10
+TNL  O42   .  O  0  22.797  9.713   16.587  1  11
+TNL  C5    .  C  0  21.817  10.888  19.719  1  12
+TNL  C6    .  C  0  21.132  10.431  20.83   1  13
+TNL  N6    .  N  0  21.245  11.264  22.045  1  14
+TNL  O61   .  O  0  22.346  11.635  22.379  1  15
+TNL  O62   .  O  0  20.232  11.534  22.666  1  16
+TNL  1H7C  .  H  0  19.613  9.302   22.967  0  17
+TNL  2H7C  .  H  0  19.976  7.698   22.211  0  18
+TNL  3H7C  .  H  0  18.572  8.556   21.688  0  19
+TNL  H3    .  H  0  21.099  8.314   17.581  1  20
+TNL  H5    .  H  0  22.377  11.838  19.737  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TNL  C1  C2    AROM  1 
+TNL  C1  C6    AROM  2 
+TNL  C1  C7    SING  3 
+TNL  C7  1H7C  SING  4 
+TNL  C7  2H7C  SING  5 
+TNL  C7  3H7C  SING  6 
+TNL  C2  N2    SING  7 
+TNL  C2  C3    AROM  8 
+TNL  N2  O21   DOUB  9 
+TNL  N2  O22   DOUB  10
+TNL  C3  C4    AROM  11
+TNL  C3  H3    SING  12
+TNL  C4  N4    SING  13
+TNL  C4  C5    AROM  14
+TNL  N4  O41   DOUB  15
+TNL  N4  O42   DOUB  16
+TNL  C5  C6    AROM  17
+TNL  C5  H5    SING  18
+TNL  C6  N6    SING  19
+TNL  N6  O61   DOUB  20
+TNL  N6  O62   DOUB  21
+#

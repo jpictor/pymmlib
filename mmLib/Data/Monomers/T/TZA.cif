@@ -1,0 +1,92 @@
+data_TZA
+#
+_chem_comp.id                   TZA
+_chem_comp.name                 TRANS-AMICLENOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C10 H16 N2 O2'
+_chem_comp.pdbx_synonyms        '2-AMINO-4-(4-AMINO-CYCLOHEXA-2,5-DIENYL)-BUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TZA  NH    .  N  0  44.837  -0.914  17.240  1  1 
+TZA  CZ    .  C  0  45.443  -0.558  16.094  1  2 
+TZA  CE2   .  C  0  45.061  0.618   15.452  1  3 
+TZA  CD2   .  C  0  45.687  1.000   14.260  1  4 
+TZA  CE1   .  C  0  46.448  -1.355  15.574  1  5 
+TZA  CD1   .  C  0  47.071  -0.986  14.402  1  6 
+TZA  CG    .  C  0  46.737  0.209   13.776  1  7 
+TZA  CX    .  C  0  47.277  0.337   12.425  1  8 
+TZA  CB    .  C  0  46.417  -0.516  11.465  1  9 
+TZA  CA    .  C  0  46.876  -0.524  9.997   1  10
+TZA  N     .  N  0  48.045  -1.386  10.014  1  11
+TZA  C     .  C  0  47.217  0.836   9.475   1  12
+TZA  O     .  O  0  46.365  1.684   9.371   1  13
+TZA  O2    .  O  0  48.355  1.100   9.137   1  14
+TZA  1HNH  .  H  0  ?       ?       ?       0  15
+TZA  2HNH  .  H  0  ?       ?       ?       0  16
+TZA  1HN   .  H  0  ?       ?       ?       0  17
+TZA  2HN   .  H  0  ?       ?       ?       0  18
+TZA  HCZ   .  H  0  ?       ?       ?       1  19
+TZA  1HE1  .  H  0  ?       ?       ?       0  20
+TZA  2HE2  .  H  0  ?       ?       ?       0  21
+TZA  1HD1  .  H  0  ?       ?       ?       0  22
+TZA  2HD2  .  H  0  ?       ?       ?       0  23
+TZA  HCG   .  H  0  ?       ?       ?       1  24
+TZA  HCA   .  H  0  ?       ?       ?       1  25
+TZA  HO2   .  H  0  ?       ?       ?       1  26
+TZA  1HCB  .  H  0  ?       ?       ?       0  27
+TZA  2HCB  .  H  0  ?       ?       ?       0  28
+TZA  1HCX  .  H  0  ?       ?       ?       0  29
+TZA  2HCX  .  H  0  ?       ?       ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TZA  NH   CZ    SING  1 
+TZA  NH   1HNH  SING  2 
+TZA  NH   2HNH  SING  3 
+TZA  CZ   CE2   SING  4 
+TZA  CZ   CE1   SING  5 
+TZA  CZ   HCZ   SING  6 
+TZA  CE2  CD2   DOUB  7 
+TZA  CE2  2HE2  SING  8 
+TZA  CD2  CG    SING  9 
+TZA  CD2  2HD2  SING  10
+TZA  CE1  CD1   DOUB  11
+TZA  CE1  1HE1  SING  12
+TZA  CD1  CG    SING  13
+TZA  CD1  1HD1  SING  14
+TZA  CG   CX    SING  15
+TZA  CG   HCG   SING  16
+TZA  CX   CB    SING  17
+TZA  CX   1HCX  SING  18
+TZA  CX   2HCX  SING  19
+TZA  CB   CA    SING  20
+TZA  CB   1HCB  SING  21
+TZA  CB   2HCB  SING  22
+TZA  CA   N     SING  23
+TZA  CA   C     SING  24
+TZA  CA   HCA   SING  25
+TZA  N    1HN   SING  26
+TZA  N    2HN   SING  27
+TZA  C    O     DOUB  28
+TZA  C    O2    SING  29
+TZA  O2   HO2   SING  30
+#

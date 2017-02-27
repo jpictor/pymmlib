@@ -1,0 +1,56 @@
+data_PPV
+#
+_chem_comp.id                   PPV
+_chem_comp.name                 PYROPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H4 O7 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        177.975
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPV  O11  .  O  0  21.057  23.552  14.539  1  1 
+PPV  P1   .  P  0  20.612  22.214  15.224  1  2 
+PPV  O21  .  O  0  21.852  21.487  15.833  1  3 
+PPV  O31  .  O  0  19.829  21.437  14.196  1  4 
+PPV  OPP  .  O  0  19.769  22.757  16.399  1  5 
+PPV  P2   .  P  0  18.419  23.582  16.460  1  6 
+PPV  O12  .  O  0  18.796  24.983  16.274  1  7 
+PPV  O22  .  O  0  17.497  23.020  15.448  1  8 
+PPV  O32  .  O  0  18.094  23.195  17.941  1  9 
+PPV  H11  .  H  0  ?       ?       ?       1  10
+PPV  H21  .  H  0  ?       ?       ?       1  11
+PPV  H12  .  H  0  ?       ?       ?       1  12
+PPV  H32  .  H  0  ?       ?       ?       1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPV  O11  P1   SING  1 
+PPV  O11  H11  SING  2 
+PPV  P1   O21  SING  3 
+PPV  P1   O31  DOUB  4 
+PPV  P1   OPP  SING  5 
+PPV  O21  H21  SING  6 
+PPV  OPP  P2   SING  7 
+PPV  P2   O12  SING  8 
+PPV  P2   O22  DOUB  9 
+PPV  P2   O32  SING  10
+PPV  O12  H12  SING  11
+PPV  O32  H32  SING  12
+#

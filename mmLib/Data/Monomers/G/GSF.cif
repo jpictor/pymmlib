@@ -1,0 +1,109 @@
+data_GSF
+#
+_chem_comp.id                   GSF
+_chem_comp.name                 L-GAMMA-GLUTAMYL-3-SULFINO-L-ALANYLGLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N3 O8 S1'
+_chem_comp.pdbx_synonyms        'GLUTATHIONE SULFINATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        339.320
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSF  CB1   .  C  0  16.511  68.341  3.553   1  1 
+GSF  CG1   .  C  0  16.459  66.861  2.991   1  2 
+GSF  CD1   .  C  0  15.030  66.261  2.988   1  3 
+GSF  OE1   .  O  0  14.066  66.937  3.407   1  4 
+GSF  C1    .  C  0  18.589  69.313  2.322   1  5 
+GSF  O11   .  O  0  18.975  68.284  1.723   1  6 
+GSF  O12   .  O  0  18.770  70.457  1.905   1  7 
+GSF  N1    .  N  0  17.477  70.499  4.232   1  8 
+GSF  CA1   .  C  0  17.842  69.152  3.664   1  9 
+GSF  N2    .  N  0  14.875  64.964  2.516   1  10
+GSF  CA2   .  C  0  13.506  64.263  2.485   1  11
+GSF  CB2   .  C  0  13.380  63.537  1.169   1  12
+GSF  SG2   .  S  0  13.212  64.493  -0.272  1  13
+GSF  O1S   .  O  0  14.491  64.532  -1.058  1  14
+GSF  O2S   .  O  0  12.140  63.743  -0.938  1  15
+GSF  C2    .  C  0  13.589  63.409  3.740   1  16
+GSF  O2    .  O  0  13.979  62.224  3.755   1  17
+GSF  N3    .  N  0  13.153  64.119  4.821   1  18
+GSF  CA3   .  C  0  13.112  63.510  6.187   1  19
+GSF  C3    .  C  0  12.584  64.511  7.194   1  20
+GSF  O31   .  O  0  12.284  64.051  8.305   1  21
+GSF  O32   .  O  0  12.465  65.726  6.885   1  22
+GSF  1HN1  .  H  0  ?       ?       ?       0  23
+GSF  2HN1  .  H  0  ?       ?       ?       0  24
+GSF  HA1   .  H  0  ?       ?       ?       1  25
+GSF  1HB1  .  H  0  ?       ?       ?       0  26
+GSF  2HB1  .  H  0  ?       ?       ?       0  27
+GSF  1HG1  .  H  0  ?       ?       ?       0  28
+GSF  2HG1  .  H  0  ?       ?       ?       0  29
+GSF  HN2   .  H  0  ?       ?       ?       1  30
+GSF  HA2   .  H  0  ?       ?       ?       1  31
+GSF  1HB2  .  H  0  ?       ?       ?       0  32
+GSF  2HB2  .  H  0  ?       ?       ?       0  33
+GSF  H2S   .  H  0  ?       ?       ?       1  34
+GSF  HN3   .  H  0  ?       ?       ?       1  35
+GSF  1HA3  .  H  0  ?       ?       ?       0  36
+GSF  2HA3  .  H  0  ?       ?       ?       0  37
+GSF  H31   .  H  0  ?       ?       ?       1  38
+GSF  H11   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSF  CB1  CA1   SING  1 
+GSF  CB1  CG1   SING  2 
+GSF  CB1  1HB1  SING  3 
+GSF  CB1  2HB1  SING  4 
+GSF  CG1  CD1   SING  5 
+GSF  CG1  1HG1  SING  6 
+GSF  CG1  2HG1  SING  7 
+GSF  CD1  OE1   DOUB  8 
+GSF  CD1  N2    SING  9 
+GSF  C1   CA1   SING  10
+GSF  C1   O11   SING  11
+GSF  C1   O12   DOUB  12
+GSF  O11  H11   SING  13
+GSF  N1   CA1   SING  14
+GSF  N1   1HN1  SING  15
+GSF  N1   2HN1  SING  16
+GSF  CA1  HA1   SING  17
+GSF  N2   CA2   SING  18
+GSF  N2   HN2   SING  19
+GSF  CA2  CB2   SING  20
+GSF  CA2  C2    SING  21
+GSF  CA2  HA2   SING  22
+GSF  CB2  SG2   SING  23
+GSF  CB2  1HB2  SING  24
+GSF  CB2  2HB2  SING  25
+GSF  SG2  O1S   DOUB  26
+GSF  SG2  O2S   SING  27
+GSF  O2S  H2S   SING  28
+GSF  C2   O2    DOUB  29
+GSF  C2   N3    SING  30
+GSF  N3   CA3   SING  31
+GSF  N3   HN3   SING  32
+GSF  CA3  C3    SING  33
+GSF  CA3  1HA3  SING  34
+GSF  CA3  2HA3  SING  35
+GSF  C3   O31   SING  36
+GSF  C3   O32   DOUB  37
+GSF  O31  H31   SING  38
+#

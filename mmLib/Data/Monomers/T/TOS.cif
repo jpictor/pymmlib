@@ -1,0 +1,67 @@
+data_TOS
+#
+_chem_comp.id                   TOS
+_chem_comp.name                 P-SULFINOTOLUENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H8 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TOS  S     .  S  0  ?  ?  ?  1  1 
+TOS  O1S   .  O  0  ?  ?  ?  1  2 
+TOS  O2S   .  O  0  ?  ?  ?  1  3 
+TOS  C1    .  C  0  ?  ?  ?  1  4 
+TOS  C2    .  C  0  ?  ?  ?  1  5 
+TOS  C3    .  C  0  ?  ?  ?  1  6 
+TOS  C4    .  C  0  ?  ?  ?  1  7 
+TOS  C5    .  C  0  ?  ?  ?  1  8 
+TOS  C6    .  C  0  ?  ?  ?  1  9 
+TOS  C     .  C  0  ?  ?  ?  1  10
+TOS  H2    .  H  0  ?  ?  ?  1  11
+TOS  H3    .  H  0  ?  ?  ?  1  12
+TOS  H5    .  H  0  ?  ?  ?  1  13
+TOS  H6    .  H  0  ?  ?  ?  1  14
+TOS  1H    .  H  0  ?  ?  ?  0  15
+TOS  2H    .  H  0  ?  ?  ?  0  16
+TOS  3H    .  H  0  ?  ?  ?  0  17
+TOS  2HOS  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TOS  S    C1    SING  1 
+TOS  S    O1S   DOUB  2 
+TOS  S    O2S   SING  3 
+TOS  O2S  2HOS  SING  4 
+TOS  C1   C2    DOUB  5 
+TOS  C1   C6    SING  6 
+TOS  C2   C3    SING  7 
+TOS  C2   H2    SING  8 
+TOS  C3   C4    DOUB  9 
+TOS  C3   H3    SING  10
+TOS  C4   C5    SING  11
+TOS  C4   C     SING  12
+TOS  C5   C6    DOUB  13
+TOS  C5   H5    SING  14
+TOS  C6   H6    SING  15
+TOS  C    1H    SING  16
+TOS  C    2H    SING  17
+TOS  C    3H    SING  18
+#

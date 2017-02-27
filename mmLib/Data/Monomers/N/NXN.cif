@@ -1,0 +1,86 @@
+data_NXN
+#
+_chem_comp.id                   NXN
+_chem_comp.name                 2-(2,4-DICHLORO-PHENOXY)-N-(2-MERCAPTO-ETHYL)-ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N1 O2 CL2 S1'
+_chem_comp.pdbx_synonyms        DICA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NXN  O17   .  O   0  48.148  16.535  1.718   1  1 
+NXN  C12   .  C   0  49.366  16.458  1.846   1  2 
+NXN  N1    .  N   0  50.007  16.539  3.024   1  3 
+NXN  C14   .  C   0  49.411  17.047  4.254   1  4 
+NXN  C15   .  C   0  50.247  16.652  5.465   1  5 
+NXN  S19   .  S   0  51.414  17.985  5.801   1  6 
+NXN  C9    .  C   0  50.250  16.268  0.631   1  7 
+NXN  O18   .  O   0  51.480  16.940  0.910   1  8 
+NXN  C10   .  C   0  52.624  16.866  0.149   1  9 
+NXN  C6    .  C   0  52.692  16.113  -1.026  1  10
+NXN  C5    .  C   0  53.878  16.072  -1.756  1  11
+NXN  C8    .  C   0  53.743  17.571  0.577   1  12
+NXN  CL4   .  CL  0  53.693  18.545  2.070   0  13
+NXN  C11   .  C   0  54.923  17.535  -0.139  1  14
+NXN  C16   .  C   0  54.973  16.789  -1.298  1  15
+NXN  CL3   .  CL  0  56.502  16.762  -2.194  0  16
+NXN  H6    .  H   0  ?       ?       ?       1  17
+NXN  H5    .  H   0  ?       ?       ?       1  18
+NXN  H11   .  H   0  ?       ?       ?       1  19
+NXN  1H9   .  H   0  ?       ?       ?       0  20
+NXN  2H9   .  H   0  ?       ?       ?       0  21
+NXN  1H14  .  H   0  ?       ?       ?       0  22
+NXN  2H14  .  H   0  ?       ?       ?       0  23
+NXN  1H15  .  H   0  ?       ?       ?       0  24
+NXN  2H15  .  H   0  ?       ?       ?       0  25
+NXN  H1    .  H   0  ?       ?       ?       1  26
+NXN  H19   .  H   0  ?       ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NXN  O17  C12   DOUB  1 
+NXN  C12  N1    SING  2 
+NXN  C12  C9    SING  3 
+NXN  N1   C14   SING  4 
+NXN  N1   H1    SING  5 
+NXN  C14  C15   SING  6 
+NXN  C14  1H14  SING  7 
+NXN  C14  2H14  SING  8 
+NXN  C15  S19   SING  9 
+NXN  C15  1H15  SING  10
+NXN  C15  2H15  SING  11
+NXN  S19  H19   SING  12
+NXN  C9   O18   SING  13
+NXN  C9   1H9   SING  14
+NXN  C9   2H9   SING  15
+NXN  O18  C10   SING  16
+NXN  C10  C6    AROM  17
+NXN  C10  C8    AROM  18
+NXN  C6   C5    AROM  19
+NXN  C6   H6    SING  20
+NXN  C5   C16   AROM  21
+NXN  C5   H5    SING  22
+NXN  C8   C11   AROM  23
+NXN  C8   CL4   SING  24
+NXN  C11  C16   AROM  25
+NXN  C11  H11   SING  26
+NXN  C16  CL3   SING  27
+#

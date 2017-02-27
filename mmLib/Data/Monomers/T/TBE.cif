@@ -1,0 +1,97 @@
+data_TBE
+#
+_chem_comp.id                   TBE
+_chem_comp.name                 'TAZOBACTAM INTERMEDIATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N4 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        301.297
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBE  S1    .  S  0  11.122  33.822  -0.278  1  1 
+TBE  O12   .  O  0  12.531  34.011  -0.496  1  2 
+TBE  O13   .  O  0  10.686  32.832  0.667   1  3 
+TBE  C2    .  C  0  10.403  35.432  0.060   1  4 
+TBE  C3    .  C  0  10.757  35.928  1.509   1  5 
+TBE  N4    .  N  0  10.225  35.014  2.537   1  6 
+TBE  C5    .  C  0  9.960   35.588  3.717   1  7 
+TBE  C20   .  C  0  10.927  36.436  -0.988  1  8 
+TBE  C14   .  C  0  8.856   35.292  -0.099  1  9 
+TBE  N15   .  N  0  8.161   36.575  0.087   1  10
+TBE  N16   .  N  0  7.957   37.342  -0.982  1  11
+TBE  N17   .  N  0  7.301   38.395  -0.554  1  12
+TBE  C18   .  C  0  7.098   38.285  0.767   1  13
+TBE  C19   .  C  0  7.646   37.123  1.183   1  14
+TBE  C9    .  C  0  12.252  36.122  1.707   1  15
+TBE  O10   .  O  0  12.982  35.154  2.009   1  16
+TBE  O11   .  O  0  12.758  37.253  1.564   1  17
+TBE  C6    .  C  0  9.500   34.835  4.849   1  18
+TBE  C7    .  C  0  9.275   33.333  4.797   1  19
+TBE  O8    .  O  0  9.870   32.661  4.010   1  20
+TBE  1H20  .  H  0  ?       ?       ?       0  21
+TBE  2H20  .  H  0  ?       ?       ?       0  22
+TBE  3H20  .  H  0  ?       ?       ?       0  23
+TBE  1H14  .  H  0  ?       ?       ?       0  24
+TBE  2H14  .  H  0  ?       ?       ?       0  25
+TBE  H19   .  H  0  ?       ?       ?       1  26
+TBE  H18   .  H  0  ?       ?       ?       1  27
+TBE  H3    .  H  0  ?       ?       ?       1  28
+TBE  HN4   .  H  0  ?       ?       ?       1  29
+TBE  H5    .  H  0  ?       ?       ?       1  30
+TBE  H6    .  H  0  ?       ?       ?       1  31
+TBE  H7    .  H  0  ?       ?       ?       1  32
+TBE  H10   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBE  S1   C2    SING  1 
+TBE  S1   O12   DOUB  2 
+TBE  S1   O13   DOUB  3 
+TBE  C2   C20   SING  4 
+TBE  C2   C14   SING  5 
+TBE  C2   C3    SING  6 
+TBE  C3   N4    SING  7 
+TBE  C3   C9    SING  8 
+TBE  C3   H3    SING  9 
+TBE  N4   C5    SING  10
+TBE  N4   HN4   SING  11
+TBE  C5   C6    DOUB  12
+TBE  C5   H5    SING  13
+TBE  C20  1H20  SING  14
+TBE  C20  2H20  SING  15
+TBE  C20  3H20  SING  16
+TBE  C14  N15   SING  17
+TBE  C14  1H14  SING  18
+TBE  C14  2H14  SING  19
+TBE  N15  C19   SING  20
+TBE  N15  N16   SING  21
+TBE  N16  N17   DOUB  22
+TBE  N17  C18   SING  23
+TBE  C18  C19   DOUB  24
+TBE  C18  H18   SING  25
+TBE  C19  H19   SING  26
+TBE  C9   O10   SING  27
+TBE  C9   O11   DOUB  28
+TBE  O10  H10   SING  29
+TBE  C6   C7    SING  30
+TBE  C6   H6    SING  31
+TBE  C7   O8    DOUB  32
+TBE  C7   H7    SING  33
+#

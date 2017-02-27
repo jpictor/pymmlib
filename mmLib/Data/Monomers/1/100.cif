@@ -1,0 +1,89 @@
+data_100
+#
+_chem_comp.id                   100
+_chem_comp.name                 1-(5-CHLOROINDOL-3-YL)-3-HYDROXY-3-(2H-TETRAZOL-5-YL)-PROPENONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H8 N5 O2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        289.680
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+100  N1   .  N   0  ?  ?  ?  1  1 
+100  N3   .  N   0  ?  ?  ?  1  2 
+100  C3   .  C   0  ?  ?  ?  1  3 
+100  N4   .  N   0  ?  ?  ?  1  4 
+100  N2   .  N   0  ?  ?  ?  1  5 
+100  C8   .  C   0  ?  ?  ?  1  6 
+100  C9   .  C   0  ?  ?  ?  1  7 
+100  O1   .  O   0  ?  ?  ?  1  8 
+100  C1   .  C   0  ?  ?  ?  1  9 
+100  C2   .  C   0  ?  ?  ?  1  10
+100  C10  .  C   0  ?  ?  ?  1  11
+100  C4   .  C   0  ?  ?  ?  1  12
+100  C5   .  C   0  ?  ?  ?  1  13
+100  C6   .  C   0  ?  ?  ?  1  14
+100  C7   .  C   0  ?  ?  ?  1  15
+100  C12  .  C   0  ?  ?  ?  1  16
+100  N9   .  N   0  ?  ?  ?  1  17
+100  C11  .  C   0  ?  ?  ?  1  18
+100  O2   .  O   0  ?  ?  ?  1  19
+100  CL1  .  CL  0  ?  ?  ?  0  20
+100  H1   .  H   0  ?  ?  ?  1  21
+100  H6   .  H   0  ?  ?  ?  1  22
+100  H10  .  H   0  ?  ?  ?  1  23
+100  HN9  .  H   0  ?  ?  ?  1  24
+100  H12  .  H   0  ?  ?  ?  1  25
+100  H9   .  H   0  ?  ?  ?  1  26
+100  HO1  .  H   0  ?  ?  ?  1  27
+100  HN1  .  H   0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+100  N1   N3   SING  1 
+100  N1   N2   SING  2 
+100  N1   HN1  SING  3 
+100  N3   C3   DOUB  4 
+100  C3   N4   SING  5 
+100  C3   C8   SING  6 
+100  N4   N2   DOUB  7 
+100  C8   C9   DOUB  8 
+100  C8   O1   SING  9 
+100  C9   C11  SING  10
+100  C9   H9   SING  11
+100  O1   HO1  SING  12
+100  C1   C2   DOUB  13
+100  C1   C6   SING  14
+100  C1   H1   SING  15
+100  C2   C10  SING  16
+100  C2   CL1  SING  17
+100  C10  C4   DOUB  18
+100  C10  H10  SING  19
+100  C4   C5   SING  20
+100  C4   C7   SING  21
+100  C5   C6   DOUB  22
+100  C5   N9   SING  23
+100  C6   H6   SING  24
+100  C7   C12  DOUB  25
+100  C7   C11  SING  26
+100  C12  N9   SING  27
+100  C12  H12  SING  28
+100  N9   HN9  SING  29
+100  C11  O2   DOUB  30
+#

@@ -1,0 +1,92 @@
+data_M28
+#
+_chem_comp.id                   M28
+_chem_comp.name                 '3-[4-(AMINOSULFONYL)PHENYL]PROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N1 O4 S1'
+_chem_comp.pdbx_synonyms        P-CARBOXYETHYLBENZENESULFONAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        229.250
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          M28
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(ccc1CCC(=O)O)S(=O)(=O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+M28  C1    .  C  0  -17.285  -0.148  -19.504  1  Y  1 
+M28  C2    .  C  0  -17.884  1.150   -19.659  1  Y  2 
+M28  C3    .  C  0  -18.491  1.766   -18.553  1  Y  3 
+M28  C4    .  C  0  -18.512  1.113   -17.298  1  Y  4 
+M28  C5    .  C  0  -17.894  -0.162  -17.197  1  Y  5 
+M28  C6    .  C  0  -17.286  -0.799  -18.262  1  Y  6 
+M28  S     .  S  0  -16.520  -0.961  -20.842  1  N  7 
+M28  O1    .  O  0  -16.101  0.090   -21.732  1  N  8 
+M28  O2    .  O  0  -17.498  -1.907  -21.358  1  N  9 
+M28  N3    .  N  0  -15.284  -1.744  -20.210  1  N  10
+M28  C7    .  C  0  -19.142  1.717   -16.104  1  N  11
+M28  C8    .  C  0  -18.147  1.497   -14.957  1  N  12
+M28  C9    .  C  0  -18.360  2.025   -13.565  1  N  13
+M28  O4    .  O  0  -19.064  3.040   -13.382  1  N  14
+M28  O5    .  O  0  -17.801  1.465   -12.588  1  N  15
+M28  H2    .  H  0  -17.867  1.647   -20.618  1  N  16
+M28  H3    .  H  0  -18.943  2.741   -18.660  1  N  17
+M28  H5    .  H  0  -17.900  -0.659  -16.238  1  N  18
+M28  H6    .  H  0  -16.826  -1.769  -18.141  1  N  19
+M28  1HN3  .  H  0  -14.596  -1.908  -20.917  0  N  20
+M28  2HN3  .  H  0  -14.883  -1.196  -19.476  0  N  21
+M28  1H7   .  H  0  -19.326  2.790   -16.261  0  N  22
+M28  2H7   .  H  0  -20.119  1.261   -15.886  0  N  23
+M28  1H8   .  H  0  -18.080  0.405   -14.842  0  N  24
+M28  2H8   .  H  0  -17.282  2.088   -15.292  0  N  25
+M28  HO5   .  H  0  -18.013  1.934   -11.790  1  N  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+M28  C1  S     SING  N  1 
+M28  C1  C2    DOUB  Y  2 
+M28  C1  C6    SING  Y  3 
+M28  C2  C3    SING  Y  4 
+M28  C2  H2    SING  N  5 
+M28  C3  C4    DOUB  Y  6 
+M28  C3  H3    SING  N  7 
+M28  C4  C5    SING  Y  8 
+M28  C4  C7    SING  N  9 
+M28  C5  C6    DOUB  Y  10
+M28  C5  H5    SING  N  11
+M28  C6  H6    SING  N  12
+M28  S   O1    DOUB  N  13
+M28  S   O2    DOUB  N  14
+M28  S   N3    SING  N  15
+M28  N3  1HN3  SING  N  16
+M28  N3  2HN3  SING  N  17
+M28  C7  C8    SING  N  18
+M28  C7  1H7   SING  N  19
+M28  C7  2H7   SING  N  20
+M28  C8  C9    SING  N  21
+M28  C8  1H8   SING  N  22
+M28  C8  2H8   SING  N  23
+M28  C9  O4    DOUB  N  24
+M28  C9  O5    SING  N  25
+M28  O5  HO5   SING  N  26
+#

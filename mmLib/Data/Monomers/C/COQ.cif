@@ -1,0 +1,123 @@
+data_COQ
+#
+_chem_comp.id                   COQ
+_chem_comp.name                 2,4-DIAMINO-6-[N-(3',5'-DIMETHOXYBENZYL)-N-METHYLAMINO]PYRIDO[2,3-D]PYRIMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H20 N6 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.384
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COQ  C2*   .  C  0  10.793  2.314  11.900  1  1 
+COQ  C4*   .  C  0  11.219  3.958  13.603  1  2 
+COQ  C4A   .  C  0  12.452  4.274  12.991  1  3 
+COQ  C5*   .  C  0  13.345  5.254  13.522  1  4 
+COQ  C6*   .  C  0  14.580  5.504  12.885  1  5 
+COQ  C7*   .  C  0  14.841  4.776  11.699  1  6 
+COQ  C8A   .  C  0  12.812  3.543  11.841  1  7 
+COQ  C9*   .  C  0  15.194  7.785  12.716  1  8 
+COQ  C1'   .  C  0  15.631  7.876  11.242  1  9 
+COQ  C2'   .  C  0  16.898  7.512  10.747  1  10
+COQ  C3'   .  C  0  17.165  7.654  9.367   1  11
+COQ  C4'   .  C  0  16.238  8.212  8.478   1  12
+COQ  C5'   .  C  0  15.051  8.679  8.997   1  13
+COQ  C6'   .  C  0  14.724  8.483  10.327  1  14
+COQ  C31   .  C  0  18.725  6.068  8.195   1  15
+COQ  C51   .  C  0  14.876  9.361  6.805   1  16
+COQ  CN*   .  C  0  16.536  6.339  14.290  1  17
+COQ  N1*   .  N  0  12.001  2.569  11.342  1  18
+COQ  N2*   .  N  0  9.876   1.383  11.541  1  19
+COQ  N3*   .  N  0  10.474  2.991  13.021  1  20
+COQ  N4*   .  N  0  10.663  4.460  14.738  1  21
+COQ  N8*   .  N  0  13.993  3.797  11.191  1  22
+COQ  N9*   .  N  0  15.434  6.487  13.342  1  23
+COQ  O3'   .  O  0  18.409  7.323  8.797   1  24
+COQ  O5'   .  O  0  14.136  9.212  8.063   1  25
+COQ  1HN2  .  H  0  ?       ?      ?       0  26
+COQ  2HN2  .  H  0  ?       ?      ?       0  27
+COQ  1HN4  .  H  0  ?       ?      ?       0  28
+COQ  2HN4  .  H  0  ?       ?      ?       0  29
+COQ  H5*   .  H  0  ?       ?      ?       1  30
+COQ  H7*   .  H  0  ?       ?      ?       1  31
+COQ  1H9*  .  H  0  ?       ?      ?       0  32
+COQ  2H9*  .  H  0  ?       ?      ?       0  33
+COQ  1HCN  .  H  0  ?       ?      ?       0  34
+COQ  2HCN  .  H  0  ?       ?      ?       0  35
+COQ  3HCN  .  H  0  ?       ?      ?       0  36
+COQ  H2'   .  H  0  ?       ?      ?       1  37
+COQ  H6'   .  H  0  ?       ?      ?       1  38
+COQ  H4'   .  H  0  ?       ?      ?       1  39
+COQ  1H31  .  H  0  ?       ?      ?       0  40
+COQ  2H31  .  H  0  ?       ?      ?       0  41
+COQ  3H31  .  H  0  ?       ?      ?       0  42
+COQ  1H51  .  H  0  ?       ?      ?       0  43
+COQ  2H51  .  H  0  ?       ?      ?       0  44
+COQ  3H51  .  H  0  ?       ?      ?       0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COQ  C2*  N1*   AROM  1 
+COQ  C2*  N2*   SING  2 
+COQ  C2*  N3*   AROM  3 
+COQ  C4*  C4A   AROM  4 
+COQ  C4*  N3*   AROM  5 
+COQ  C4*  N4*   SING  6 
+COQ  C4A  C5*   AROM  7 
+COQ  C4A  C8A   AROM  8 
+COQ  C5*  C6*   AROM  9 
+COQ  C5*  H5*   SING  10
+COQ  C6*  C7*   AROM  11
+COQ  C6*  N9*   SING  12
+COQ  C7*  N8*   AROM  13
+COQ  C7*  H7*   SING  14
+COQ  C8A  N1*   AROM  15
+COQ  C8A  N8*   AROM  16
+COQ  C9*  C1'   SING  17
+COQ  C9*  N9*   SING  18
+COQ  C9*  1H9*  SING  19
+COQ  C9*  2H9*  SING  20
+COQ  C1'  C2'   AROM  21
+COQ  C1'  C6'   AROM  22
+COQ  C2'  C3'   AROM  23
+COQ  C2'  H2'   SING  24
+COQ  C3'  C4'   AROM  25
+COQ  C3'  O3'   SING  26
+COQ  C4'  C5'   AROM  27
+COQ  C4'  H4'   SING  28
+COQ  C5'  C6'   AROM  29
+COQ  C5'  O5'   SING  30
+COQ  C6'  H6'   SING  31
+COQ  C31  O3'   SING  32
+COQ  C31  1H31  SING  33
+COQ  C31  2H31  SING  34
+COQ  C31  3H31  SING  35
+COQ  C51  O5'   SING  36
+COQ  C51  1H51  SING  37
+COQ  C51  2H51  SING  38
+COQ  C51  3H51  SING  39
+COQ  CN*  N9*   SING  40
+COQ  CN*  1HCN  SING  41
+COQ  CN*  2HCN  SING  42
+COQ  CN*  3HCN  SING  43
+COQ  N2*  1HN2  SING  44
+COQ  N2*  2HN2  SING  45
+COQ  N4*  1HN4  SING  46
+COQ  N4*  2HN4  SING  47
+#

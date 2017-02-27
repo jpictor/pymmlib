@@ -1,0 +1,106 @@
+data_SRD
+#
+_chem_comp.id                   SRD
+_chem_comp.name                 'D-1-NAPHTHYL-2-ACETAMIDO-ETHANE BORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H17 N1 O4 B1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       274.103
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SRD  C1    .  C  0   ?  ?  ?  1  1 
+SRD  C2    .  C  0   ?  ?  ?  1  2 
+SRD  C3    .  C  0   ?  ?  ?  1  3 
+SRD  C4    .  C  0   ?  ?  ?  1  4 
+SRD  C5    .  C  0   ?  ?  ?  1  5 
+SRD  C6    .  C  0   ?  ?  ?  1  6 
+SRD  C7    .  C  0   ?  ?  ?  1  7 
+SRD  C8    .  C  0   ?  ?  ?  1  8 
+SRD  C9    .  C  0   ?  ?  ?  1  9 
+SRD  C10   .  C  0   ?  ?  ?  1  10
+SRD  C7'   .  C  0   ?  ?  ?  1  11
+SRD  C8'   .  C  0   ?  ?  ?  1  12
+SRD  C9'   .  C  0   ?  ?  ?  1  13
+SRD  C     .  C  0   ?  ?  ?  1  14
+SRD  N     .  N  0   ?  ?  ?  1  15
+SRD  O     .  O  0   ?  ?  ?  1  16
+SRD  O1B   .  O  0   ?  ?  ?  1  17
+SRD  O2B   .  O  0   ?  ?  ?  1  18
+SRD  O3B   .  O  0   ?  ?  ?  1  19
+SRD  B     .  B  -1  ?  ?  ?  1  20
+SRD  H4    .  H  0   ?  ?  ?  1  21
+SRD  H5    .  H  0   ?  ?  ?  1  22
+SRD  H6    .  H  0   ?  ?  ?  1  23
+SRD  H7    .  H  0   ?  ?  ?  1  24
+SRD  H8    .  H  0   ?  ?  ?  1  25
+SRD  H9    .  H  0   ?  ?  ?  1  26
+SRD  H10   .  H  0   ?  ?  ?  1  27
+SRD  1H7'  .  H  0   ?  ?  ?  0  28
+SRD  2H7'  .  H  0   ?  ?  ?  0  29
+SRD  H8'   .  H  0   ?  ?  ?  1  30
+SRD  1H9'  .  H  0   ?  ?  ?  0  31
+SRD  2H9'  .  H  0   ?  ?  ?  0  32
+SRD  3H9'  .  H  0   ?  ?  ?  0  33
+SRD  HN    .  H  0   ?  ?  ?  1  34
+SRD  1HOB  .  H  0   ?  ?  ?  0  35
+SRD  2HOB  .  H  0   ?  ?  ?  0  36
+SRD  3HOB  .  H  0   ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SRD  C1   C2    DOUB  1 
+SRD  C1   C6    SING  2 
+SRD  C1   C7'   SING  3 
+SRD  C2   C3    SING  4 
+SRD  C2   C7    SING  5 
+SRD  C3   C4    DOUB  6 
+SRD  C3   C10   SING  7 
+SRD  C4   C5    SING  8 
+SRD  C4   H4    SING  9 
+SRD  C5   C6    DOUB  10
+SRD  C5   H5    SING  11
+SRD  C6   H6    SING  12
+SRD  C7   C8    DOUB  13
+SRD  C7   H7    SING  14
+SRD  C8   C9    SING  15
+SRD  C8   H8    SING  16
+SRD  C9   C10   DOUB  17
+SRD  C9   H9    SING  18
+SRD  C10  H10   SING  19
+SRD  C7'  C8'   SING  20
+SRD  C7'  1H7'  SING  21
+SRD  C7'  2H7'  SING  22
+SRD  C8'  N     SING  23
+SRD  C8'  B     SING  24
+SRD  C8'  H8'   SING  25
+SRD  C9'  C     SING  26
+SRD  C9'  1H9'  SING  27
+SRD  C9'  2H9'  SING  28
+SRD  C9'  3H9'  SING  29
+SRD  C    N     SING  30
+SRD  C    O     DOUB  31
+SRD  N    HN    SING  32
+SRD  O1B  B     SING  33
+SRD  O1B  1HOB  SING  34
+SRD  O2B  B     SING  35
+SRD  O2B  2HOB  SING  36
+SRD  O3B  B     SING  37
+SRD  O3B  3HOB  SING  38
+#

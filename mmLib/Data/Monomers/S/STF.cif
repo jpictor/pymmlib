@@ -1,0 +1,84 @@
+data_STF
+#
+_chem_comp.id                   STF
+_chem_comp.name                 (5R)-2-SULFANYL-5-[4-(TRIFLUOROMETHYL)BENZYL]-1,3-THIAZOL-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H8 N1 O1 F3 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        291.306
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+STF  C8   .  C  0  4.467  6.819  6.841  1  1 
+STF  S12  .  S  0  5.501  7.717  5.591  1  2 
+STF  C11  .  C  0  3.997  8.495  4.876  1  3 
+STF  N10  .  N  0  2.834  8.163  5.475  1  4 
+STF  C9   .  C  0  3.012  7.167  6.570  1  5 
+STF  O17  .  O  0  2.087  6.903  7.304  1  6 
+STF  S18  .  S  0  4.206  9.691  3.631  1  7 
+STF  C7   .  C  0  4.684  5.346  6.722  1  8 
+STF  C1   .  C  0  3.996  4.702  5.568  1  9 
+STF  C6   .  C  0  4.436  4.807  4.255  1  10
+STF  C5   .  C  0  3.738  4.226  3.181  1  11
+STF  C4   .  C  0  2.600  3.429  3.428  1  12
+STF  C3   .  C  0  2.249  3.183  4.772  1  13
+STF  C2   .  C  0  2.946  3.759  5.822  1  14
+STF  C13  .  C  0  1.814  2.825  2.267  1  15
+STF  F16  .  F  0  1.722  3.736  1.232  1  16
+STF  F15  .  F  0  0.555  2.458  2.632  1  17
+STF  F14  .  F  0  2.463  1.705  1.809  1  18
+STF  9H1  .  H  0  5.233  9.594  3.547  0  19
+STF  7H   .  H  0  4.757  7.186  7.829  0  20
+STF  6H   .  H  0  5.783  5.126  6.672  0  21
+STF  5H   .  H  0  4.361  4.828  7.675  0  22
+STF  1H   .  H  0  2.665  3.547  6.843  0  23
+STF  2H   .  H  0  1.401  2.521  4.985  0  24
+STF  3H   .  H  0  4.058  4.390  2.166  0  25
+STF  4H   .  H  0  5.319  5.423  4.034  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+STF  C8   C9   SING  1 
+STF  C8   7H   SING  2 
+STF  C8   S12  SING  3 
+STF  C8   C7   SING  4 
+STF  S12  C11  SING  5 
+STF  C11  S18  SING  6 
+STF  C11  N10  DOUB  7 
+STF  N10  C9   SING  8 
+STF  C9   O17  DOUB  9 
+STF  S18  9H1  SING  10
+STF  C7   6H   SING  11
+STF  C7   5H   SING  12
+STF  C7   C1   SING  13
+STF  C1   C2   SING  14
+STF  C1   C6   DOUB  15
+STF  C6   C5   SING  16
+STF  C6   4H   SING  17
+STF  C5   C4   DOUB  18
+STF  C5   3H   SING  19
+STF  C4   C3   SING  20
+STF  C4   C13  SING  21
+STF  C3   C2   DOUB  22
+STF  C3   2H   SING  23
+STF  C2   1H   SING  24
+STF  C13  F16  SING  25
+STF  C13  F15  SING  26
+STF  C13  F14  SING  27
+#

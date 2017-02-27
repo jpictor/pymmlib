@@ -1,0 +1,101 @@
+data_TPC
+#
+_chem_comp.id                       TPC
+_chem_comp.name                     '5'-THIO-2'-DEOXY-CYTOSINE PHOSPHONIC ACID'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H14 N3 O6 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            323.260
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPC  S5'   .  S  0  24.990  1.619   34.789  1  1 
+TPC  N1    .  N  0  22.423  -1.528  31.452  1  2 
+TPC  C6    .  C  0  23.714  -1.971  31.578  1  3 
+TPC  C2    .  C  0  21.388  -2.443  31.228  1  4 
+TPC  O2    .  O  0  20.217  -2.048  31.256  1  5 
+TPC  N3    .  N  0  21.693  -3.742  31.001  1  6 
+TPC  C4    .  C  0  22.962  -4.153  31.082  1  7 
+TPC  N4    .  N  0  23.229  -5.440  30.843  1  8 
+TPC  C5    .  C  0  24.023  -3.260  31.409  1  9 
+TPC  C2'   .  C  0  21.616  0.378   32.894  1  10
+TPC  C5'   .  C  0  24.883  1.011   33.065  1  11
+TPC  C4'   .  C  0  23.642  1.524   32.353  1  12
+TPC  O4'   .  O  0  23.334  0.607   31.279  1  13
+TPC  C1'   .  C  0  22.115  -0.088  31.529  1  14
+TPC  C3'   .  C  0  22.314  1.717   33.099  1  15
+TPC  O3'   .  O  0  21.583  2.778   32.428  1  16
+TPC  P     .  P  0  ?       ?       ?       1  17
+TPC  O1P   .  O  0  ?       ?       ?       1  18
+TPC  O2P   .  O  0  ?       ?       ?       1  19
+TPC  O3P   .  O  0  ?       ?       ?       1  20
+TPC  H3'   .  H  0  ?       ?       ?       1  21
+TPC  H1    .  H  0  ?       ?       ?       1  22
+TPC  1H2'  .  H  0  ?       ?       ?       0  23
+TPC  2H2'  .  H  0  ?       ?       ?       0  24
+TPC  H1'   .  H  0  ?       ?       ?       1  25
+TPC  H4'   .  H  0  ?       ?       ?       1  26
+TPC  1H5'  .  H  0  ?       ?       ?       0  27
+TPC  2H5'  .  H  0  ?       ?       ?       0  28
+TPC  HO2P  .  H  0  ?       ?       ?       0  29
+TPC  HO3P  .  H  0  ?       ?       ?       0  30
+TPC  H6    .  H  0  ?       ?       ?       1  31
+TPC  H5    .  H  0  ?       ?       ?       1  32
+TPC  1HN4  .  H  0  ?       ?       ?       0  33
+TPC  2HN4  .  H  0  ?       ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPC  S5'  C5'   SING  1 
+TPC  S5'  P     SING  2 
+TPC  N1   C1'   SING  3 
+TPC  N1   C6    SING  4 
+TPC  N1   C2    SING  5 
+TPC  C6   H6    SING  6 
+TPC  C6   C5    DOUB  7 
+TPC  C2   N3    SING  8 
+TPC  C2   O2    DOUB  9 
+TPC  N3   C4    DOUB  10
+TPC  C4   C5    SING  11
+TPC  C4   N4    SING  12
+TPC  N4   1HN4  SING  13
+TPC  N4   2HN4  SING  14
+TPC  C5   H5    SING  15
+TPC  C2'  C3'   SING  16
+TPC  C2'  1H2'  SING  17
+TPC  C2'  2H2'  SING  18
+TPC  C2'  C1'   SING  19
+TPC  C5'  C4'   SING  20
+TPC  C5'  1H5'  SING  21
+TPC  C5'  2H5'  SING  22
+TPC  C4'  O4'   SING  23
+TPC  C4'  C3'   SING  24
+TPC  C4'  H4'   SING  25
+TPC  O4'  C1'   SING  26
+TPC  C1'  H1'   SING  27
+TPC  C3'  O3'   SING  28
+TPC  C3'  H1    SING  29
+TPC  O3'  H3'   SING  30
+TPC  P    O1P   DOUB  31
+TPC  P    O2P   SING  32
+TPC  P    O3P   SING  33
+TPC  O2P  HO2P  SING  34
+TPC  O3P  HO3P  SING  35
+#

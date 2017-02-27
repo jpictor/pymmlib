@@ -1,0 +1,126 @@
+data_ITT
+#
+_chem_comp.id                   ITT
+_chem_comp.name                 'INOSINE 5'-TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N4 O14 P3'
+_chem_comp.pdbx_synonyms        'INOSINE TRIPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        508.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ITT  PG    .  P  0  49.542  59.202  33.933  1  1 
+ITT  O1G   .  O  0  50.780  58.891  34.562  1  2 
+ITT  O2G   .  O  0  48.399  59.127  34.866  1  3 
+ITT  O3G   .  O  0  49.269  58.291  32.825  1  4 
+ITT  PB    .  P  0  48.743  62.047  33.953  1  5 
+ITT  O1B   .  O  0  49.753  63.070  33.875  1  6 
+ITT  O2B   .  O  0  47.449  62.259  33.300  1  7 
+ITT  O3B   .  O  0  49.313  60.751  33.436  1  8 
+ITT  PA    .  P  0  48.714  62.398  36.765  1  9 
+ITT  O1A   .  O  0  47.443  61.828  37.447  1  10
+ITT  O2A   .  O  0  49.924  61.873  37.553  1  11
+ITT  O3A   .  O  0  48.281  61.778  35.371  1  12
+ITT  O5*   .  O  0  48.547  63.980  36.629  1  13
+ITT  C5*   .  C  0  48.820  65.044  37.646  1  14
+ITT  C4*   .  C  0  48.976  66.224  37.010  1  15
+ITT  O4*   .  O  0  49.962  66.742  38.028  1  16
+ITT  C3*   .  C  0  49.483  66.237  35.543  1  17
+ITT  O3*   .  O  0  48.618  66.067  34.500  1  18
+ITT  C2*   .  C  0  50.348  67.548  35.684  1  19
+ITT  O2*   .  O  0  49.396  68.593  35.191  1  20
+ITT  C1*   .  C  0  50.741  67.686  37.143  1  21
+ITT  N9    .  N  0  52.125  67.594  37.301  1  22
+ITT  C8    .  C  0  52.914  66.570  37.845  1  23
+ITT  N7    .  N  0  54.204  66.704  37.892  1  24
+ITT  C5    .  C  0  54.294  67.960  37.331  1  25
+ITT  C6    .  C  0  55.411  68.735  37.076  1  26
+ITT  O6    .  O  0  56.675  68.427  37.314  1  27
+ITT  N1    .  N  0  55.218  70.063  36.451  1  28
+ITT  C2    .  C  0  53.897  70.493  36.146  1  29
+ITT  N3    .  N  0  52.773  69.798  36.375  1  30
+ITT  C4    .  C  0  53.030  68.527  36.964  1  31
+ITT  HO6   .  H  0  ?       ?       ?       1  32
+ITT  H2    .  H  0  ?       ?       ?       1  33
+ITT  H8    .  H  0  ?       ?       ?       1  34
+ITT  H1*   .  H  0  ?       ?       ?       1  35
+ITT  H4*   .  H  0  ?       ?       ?       1  36
+ITT  1H5*  .  H  0  ?       ?       ?       0  37
+ITT  2H5*  .  H  0  ?       ?       ?       0  38
+ITT  H2A   .  H  0  ?       ?       ?       1  39
+ITT  H2B   .  H  0  ?       ?       ?       1  40
+ITT  H2G   .  H  0  ?       ?       ?       1  41
+ITT  H3G   .  H  0  ?       ?       ?       1  42
+ITT  H3*   .  H  0  ?       ?       ?       1  43
+ITT  H1    .  H  0  ?       ?       ?       1  44
+ITT  H2*   .  H  0  ?       ?       ?       1  45
+ITT  H3    .  H  0  ?       ?       ?       1  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ITT  PG   O3B   SING  1 
+ITT  PG   O1G   DOUB  2 
+ITT  PG   O2G   SING  3 
+ITT  PG   O3G   SING  4 
+ITT  O2G  H2G   SING  5 
+ITT  O3G  H3G   SING  6 
+ITT  PB   O3A   SING  7 
+ITT  PB   O1B   DOUB  8 
+ITT  PB   O2B   SING  9 
+ITT  PB   O3B   SING  10
+ITT  O2B  H2B   SING  11
+ITT  PA   O5*   SING  12
+ITT  PA   O1A   DOUB  13
+ITT  PA   O2A   SING  14
+ITT  PA   O3A   SING  15
+ITT  O2A  H2A   SING  16
+ITT  O5*  C5*   SING  17
+ITT  C5*  C4*   SING  18
+ITT  C5*  1H5*  SING  19
+ITT  C5*  2H5*  SING  20
+ITT  C4*  O4*   SING  21
+ITT  C4*  C3*   SING  22
+ITT  C4*  H4*   SING  23
+ITT  O4*  C1*   SING  24
+ITT  C3*  O3*   SING  25
+ITT  C3*  C2*   SING  26
+ITT  C3*  H3*   SING  27
+ITT  O3*  H1    SING  28
+ITT  C2*  C1*   SING  29
+ITT  C2*  O2*   SING  30
+ITT  C2*  H2*   SING  31
+ITT  O2*  H3    SING  32
+ITT  C1*  N9    SING  33
+ITT  C1*  H1*   SING  34
+ITT  N9   C8    SING  35
+ITT  N9   C4    SING  36
+ITT  C8   N7    DOUB  37
+ITT  C8   H8    SING  38
+ITT  N7   C5    SING  39
+ITT  C5   C4    DOUB  40
+ITT  C5   C6    SING  41
+ITT  C6   O6    SING  42
+ITT  C6   N1    DOUB  43
+ITT  O6   HO6   SING  44
+ITT  N1   C2    SING  45
+ITT  C2   N3    DOUB  46
+ITT  C2   H2    SING  47
+ITT  N3   C4    SING  48
+#

@@ -1,0 +1,120 @@
+data_TP7
+#
+_chem_comp.id                   TP7
+_chem_comp.name                 'PHOSPHORIC ACID N-(1-HYDROXY-7-MERCAPTO-HEPTYL)THREONINE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H24 N1 O7 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        345.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TP7  N     .  N  0  ?  ?  ?  1  1 
+TP7  P     .  P  0  ?  ?  ?  1  2 
+TP7  O1P   .  O  0  ?  ?  ?  1  3 
+TP7  O2P   .  O  0  ?  ?  ?  1  4 
+TP7  O3P   .  O  0  ?  ?  ?  1  5 
+TP7  O4P   .  O  0  ?  ?  ?  1  6 
+TP7  CB    .  C  0  ?  ?  ?  1  7 
+TP7  C     .  C  0  ?  ?  ?  1  8 
+TP7  O     .  O  0  ?  ?  ?  1  9 
+TP7  OXT   .  O  0  ?  ?  ?  1  10
+TP7  CA    .  C  0  ?  ?  ?  1  11
+TP7  CG    .  C  0  ?  ?  ?  1  12
+TP7  O1    .  O  0  ?  ?  ?  1  13
+TP7  C1    .  C  0  ?  ?  ?  1  14
+TP7  C2    .  C  0  ?  ?  ?  1  15
+TP7  C3    .  C  0  ?  ?  ?  1  16
+TP7  C4    .  C  0  ?  ?  ?  1  17
+TP7  C5    .  C  0  ?  ?  ?  1  18
+TP7  C6    .  C  0  ?  ?  ?  1  19
+TP7  C7    .  C  0  ?  ?  ?  1  20
+TP7  S7    .  S  0  ?  ?  ?  1  21
+TP7  HN    .  H  0  ?  ?  ?  1  22
+TP7  2HOP  .  H  0  ?  ?  ?  0  23
+TP7  3HOP  .  H  0  ?  ?  ?  0  24
+TP7  HB    .  H  0  ?  ?  ?  1  25
+TP7  HXT   .  H  0  ?  ?  ?  1  26
+TP7  HA    .  H  0  ?  ?  ?  1  27
+TP7  1HG   .  H  0  ?  ?  ?  0  28
+TP7  2HG   .  H  0  ?  ?  ?  0  29
+TP7  3HG   .  H  0  ?  ?  ?  0  30
+TP7  HO1   .  H  0  ?  ?  ?  1  31
+TP7  H1    .  H  0  ?  ?  ?  1  32
+TP7  1H2   .  H  0  ?  ?  ?  0  33
+TP7  2H2   .  H  0  ?  ?  ?  0  34
+TP7  1H3   .  H  0  ?  ?  ?  0  35
+TP7  2H3   .  H  0  ?  ?  ?  0  36
+TP7  1H4   .  H  0  ?  ?  ?  0  37
+TP7  2H4   .  H  0  ?  ?  ?  0  38
+TP7  1H5   .  H  0  ?  ?  ?  0  39
+TP7  2H5   .  H  0  ?  ?  ?  0  40
+TP7  1H6   .  H  0  ?  ?  ?  0  41
+TP7  2H6   .  H  0  ?  ?  ?  0  42
+TP7  1H7   .  H  0  ?  ?  ?  0  43
+TP7  2H7   .  H  0  ?  ?  ?  0  44
+TP7  HS7   .  H  0  ?  ?  ?  1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TP7  N    CA    SING  1 
+TP7  N    C1    SING  2 
+TP7  N    HN    SING  3 
+TP7  P    O4P   SING  4 
+TP7  P    O2P   SING  5 
+TP7  P    O3P   SING  6 
+TP7  P    O1P   DOUB  7 
+TP7  O2P  2HOP  SING  8 
+TP7  O3P  3HOP  SING  9 
+TP7  O4P  CB    SING  10
+TP7  CB   CA    SING  11
+TP7  CB   CG    SING  12
+TP7  CB   HB    SING  13
+TP7  C    O     DOUB  14
+TP7  C    OXT   SING  15
+TP7  C    CA    SING  16
+TP7  OXT  HXT   SING  17
+TP7  CA   HA    SING  18
+TP7  CG   1HG   SING  19
+TP7  CG   2HG   SING  20
+TP7  CG   3HG   SING  21
+TP7  O1   C1    SING  22
+TP7  O1   HO1   SING  23
+TP7  C1   C2    SING  24
+TP7  C1   H1    SING  25
+TP7  C2   C3    SING  26
+TP7  C2   1H2   SING  27
+TP7  C2   2H2   SING  28
+TP7  C3   C4    SING  29
+TP7  C3   1H3   SING  30
+TP7  C3   2H3   SING  31
+TP7  C4   C5    SING  32
+TP7  C4   1H4   SING  33
+TP7  C4   2H4   SING  34
+TP7  C5   C6    SING  35
+TP7  C5   1H5   SING  36
+TP7  C5   2H5   SING  37
+TP7  C6   C7    SING  38
+TP7  C6   1H6   SING  39
+TP7  C6   2H6   SING  40
+TP7  C7   S7    SING  41
+TP7  C7   1H7   SING  42
+TP7  C7   2H7   SING  43
+TP7  S7   HS7   SING  44
+#

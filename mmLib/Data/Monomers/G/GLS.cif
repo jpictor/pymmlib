@@ -1,0 +1,90 @@
+data_GLS
+#
+_chem_comp.id                   GLS
+_chem_comp.name                 'BETA-D-GLUCOPYRANOSE SPIROHYDANTOIN'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C8 H12 N2 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.192
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLS  C1   .  C  0  ?  ?  ?  1  1 
+GLS  C2   .  C  0  ?  ?  ?  1  2 
+GLS  O2   .  O  0  ?  ?  ?  1  3 
+GLS  C3   .  C  0  ?  ?  ?  1  4 
+GLS  O3   .  O  0  ?  ?  ?  1  5 
+GLS  C4   .  C  0  ?  ?  ?  1  6 
+GLS  O4   .  O  0  ?  ?  ?  1  7 
+GLS  C5   .  C  0  ?  ?  ?  1  8 
+GLS  C6   .  C  0  ?  ?  ?  1  9 
+GLS  O6   .  O  0  ?  ?  ?  1  10
+GLS  O5   .  O  0  ?  ?  ?  1  11
+GLS  N2   .  N  0  ?  ?  ?  1  12
+GLS  C8   .  C  0  ?  ?  ?  1  13
+GLS  O8   .  O  0  ?  ?  ?  1  14
+GLS  N1   .  N  0  ?  ?  ?  1  15
+GLS  C7   .  C  0  ?  ?  ?  1  16
+GLS  O7   .  O  0  ?  ?  ?  1  17
+GLS  H2   .  H  0  ?  ?  ?  1  18
+GLS  HO2  .  H  0  ?  ?  ?  1  19
+GLS  H3   .  H  0  ?  ?  ?  1  20
+GLS  HO3  .  H  0  ?  ?  ?  1  21
+GLS  H4   .  H  0  ?  ?  ?  1  22
+GLS  HO4  .  H  0  ?  ?  ?  1  23
+GLS  H5   .  H  0  ?  ?  ?  1  24
+GLS  1H6  .  H  0  ?  ?  ?  0  25
+GLS  2H6  .  H  0  ?  ?  ?  0  26
+GLS  HO6  .  H  0  ?  ?  ?  1  27
+GLS  HN2  .  H  0  ?  ?  ?  1  28
+GLS  HN1  .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLS  C1  C2   SING  1 
+GLS  C1  O5   SING  2 
+GLS  C1  N2   SING  3 
+GLS  C1  C7   SING  4 
+GLS  C2  O2   SING  5 
+GLS  C2  C3   SING  6 
+GLS  C2  H2   SING  7 
+GLS  O2  HO2  SING  8 
+GLS  C3  O3   SING  9 
+GLS  C3  C4   SING  10
+GLS  C3  H3   SING  11
+GLS  O3  HO3  SING  12
+GLS  C4  O4   SING  13
+GLS  C4  C5   SING  14
+GLS  C4  H4   SING  15
+GLS  O4  HO4  SING  16
+GLS  C5  C6   SING  17
+GLS  C5  O5   SING  18
+GLS  C5  H5   SING  19
+GLS  C6  O6   SING  20
+GLS  C6  1H6  SING  21
+GLS  C6  2H6  SING  22
+GLS  O6  HO6  SING  23
+GLS  N2  C8   SING  24
+GLS  N2  HN2  SING  25
+GLS  C8  O8   DOUB  26
+GLS  C8  N1   SING  27
+GLS  N1  C7   SING  28
+GLS  N1  HN1  SING  29
+GLS  C7  O7   DOUB  30
+#

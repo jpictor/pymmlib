@@ -1,0 +1,119 @@
+data_TNV
+#
+_chem_comp.id                   TNV
+_chem_comp.name                 [2-(6-AMINO-9H-PURIN-9-YL)-1-METHYLETHOXY]METHYL-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H16 N5 O10 P3'
+_chem_comp.pdbx_synonyms        TENOFOVIR-DIPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        447.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TNV  PA    .  P  0  70.122  57.567  -63.971  1  1 
+TNV  O1A   .  O  0  71.173  56.546  -63.481  1  2 
+TNV  O2A   .  O  0  69.998  58.732  -62.957  1  3 
+TNV  O3A   .  O  0  70.582  58.132  -65.326  1  4 
+TNV  PB    .  P  0  71.071  57.146  -66.478  1  5 
+TNV  O1B   .  O  0  70.185  57.359  -67.751  1  6 
+TNV  O2B   .  O  0  70.935  55.704  -65.955  1  7 
+TNV  O3B   .  O  0  72.580  57.431  -66.864  1  8 
+TNV  PG    .  P  0  73.773  57.275  -65.801  1  9 
+TNV  O1G   .  O  0  73.828  55.888  -65.320  1  10
+TNV  O2G   .  O  0  75.069  57.600  -66.468  1  11
+TNV  O3G   .  O  0  73.552  58.228  -64.575  1  12
+TNV  C9'   .  C  0  68.547  56.744  -64.065  1  13
+TNV  O9'   .  O  0  68.108  56.744  -65.359  1  14
+TNV  C8'   .  C  0  67.476  58.854  -66.358  1  15
+TNV  C7'   .  C  0  66.963  57.574  -65.653  1  16
+TNV  C6'   .  C  0  66.032  57.890  -64.389  1  17
+TNV  N9    .  N  0  65.851  59.301  -64.139  1  18
+TNV  C4    .  C  0  65.031  60.200  -64.787  1  19
+TNV  N3    .  N  0  64.196  59.926  -65.827  1  20
+TNV  C2    .  C  0  63.544  61.048  -66.237  1  21
+TNV  N1    .  N  0  63.647  62.329  -65.742  1  22
+TNV  C6    .  C  0  64.498  62.573  -64.691  1  23
+TNV  N6    .  N  0  64.574  63.823  -64.244  1  24
+TNV  C5    .  C  0  65.249  61.449  -64.157  1  25
+TNV  N7    .  N  0  66.184  61.313  -63.123  1  26
+TNV  C8    .  C  0  66.509  60.022  -63.154  1  27
+TNV  1H8'  .  H  0  ?       ?       ?        0  28
+TNV  2H8'  .  H  0  ?       ?       ?        0  29
+TNV  3H8'  .  H  0  ?       ?       ?        0  30
+TNV  H7'   .  H  0  ?       ?       ?        1  31
+TNV  1H6'  .  H  0  ?       ?       ?        0  32
+TNV  2H6'  .  H  0  ?       ?       ?        0  33
+TNV  H8    .  H  0  ?       ?       ?        1  34
+TNV  H2    .  H  0  ?       ?       ?        1  35
+TNV  1HN6  .  H  0  ?       ?       ?        0  36
+TNV  2HN6  .  H  0  ?       ?       ?        0  37
+TNV  1H9'  .  H  0  ?       ?       ?        0  38
+TNV  2H9'  .  H  0  ?       ?       ?        0  39
+TNV  H2A   .  H  0  ?       ?       ?        1  40
+TNV  H2B   .  H  0  ?       ?       ?        1  41
+TNV  H2G   .  H  0  ?       ?       ?        1  42
+TNV  H3G   .  H  0  ?       ?       ?        1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TNV  PA   C9'   SING  1 
+TNV  PA   O1A   DOUB  2 
+TNV  PA   O2A   SING  3 
+TNV  PA   O3A   SING  4 
+TNV  O2A  H2A   SING  5 
+TNV  O3A  PB    SING  6 
+TNV  PB   O1B   DOUB  7 
+TNV  PB   O2B   SING  8 
+TNV  PB   O3B   SING  9 
+TNV  O2B  H2B   SING  10
+TNV  O3B  PG    SING  11
+TNV  PG   O1G   DOUB  12
+TNV  PG   O2G   SING  13
+TNV  PG   O3G   SING  14
+TNV  O2G  H2G   SING  15
+TNV  O3G  H3G   SING  16
+TNV  C9'  O9'   SING  17
+TNV  C9'  1H9'  SING  18
+TNV  C9'  2H9'  SING  19
+TNV  O9'  C7'   SING  20
+TNV  C8'  C7'   SING  21
+TNV  C8'  1H8'  SING  22
+TNV  C8'  2H8'  SING  23
+TNV  C8'  3H8'  SING  24
+TNV  C7'  C6'   SING  25
+TNV  C7'  H7'   SING  26
+TNV  C6'  N9    SING  27
+TNV  C6'  1H6'  SING  28
+TNV  C6'  2H6'  SING  29
+TNV  N9   C8    SING  30
+TNV  N9   C4    SING  31
+TNV  C4   C5    DOUB  32
+TNV  C4   N3    SING  33
+TNV  N3   C2    DOUB  34
+TNV  C2   N1    SING  35
+TNV  C2   H2    SING  36
+TNV  N1   C6    DOUB  37
+TNV  C6   C5    SING  38
+TNV  C6   N6    SING  39
+TNV  N6   1HN6  SING  40
+TNV  N6   2HN6  SING  41
+TNV  C5   N7    SING  42
+TNV  N7   C8    DOUB  43
+TNV  C8   H8    SING  44
+#

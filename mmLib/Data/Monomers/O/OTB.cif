@@ -1,0 +1,66 @@
+data_OTB
+#
+_chem_comp.id                   OTB
+_chem_comp.name                 'TERTIARY-BUTOXYFORMIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OTB  C    .  C  0  ?  ?  ?  1  1 
+OTB  O1   .  O  0  ?  ?  ?  1  2 
+OTB  O2   .  O  0  ?  ?  ?  1  3 
+OTB  O    .  O  0  ?  ?  ?  1  4 
+OTB  C'   .  C  0  ?  ?  ?  1  5 
+OTB  C1   .  C  0  ?  ?  ?  1  6 
+OTB  C2   .  C  0  ?  ?  ?  1  7 
+OTB  C3   .  C  0  ?  ?  ?  1  8 
+OTB  HO2  .  H  0  ?  ?  ?  1  9 
+OTB  1H1  .  H  0  ?  ?  ?  0  10
+OTB  2H1  .  H  0  ?  ?  ?  0  11
+OTB  3H1  .  H  0  ?  ?  ?  0  12
+OTB  1H2  .  H  0  ?  ?  ?  0  13
+OTB  2H2  .  H  0  ?  ?  ?  0  14
+OTB  3H2  .  H  0  ?  ?  ?  0  15
+OTB  1H3  .  H  0  ?  ?  ?  0  16
+OTB  2H3  .  H  0  ?  ?  ?  0  17
+OTB  3H3  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OTB  C   O1   DOUB  1 
+OTB  C   O2   SING  2 
+OTB  C   O    SING  3 
+OTB  O2  HO2  SING  4 
+OTB  O   C'   SING  5 
+OTB  C'  C1   SING  6 
+OTB  C'  C2   SING  7 
+OTB  C'  C3   SING  8 
+OTB  C1  1H1  SING  9 
+OTB  C1  2H1  SING  10
+OTB  C1  3H1  SING  11
+OTB  C2  1H2  SING  12
+OTB  C2  2H2  SING  13
+OTB  C2  3H2  SING  14
+OTB  C3  1H3  SING  15
+OTB  C3  2H3  SING  16
+OTB  C3  3H3  SING  17
+#

@@ -1,0 +1,85 @@
+data_SYR
+#
+_chem_comp.id                   SYR
+_chem_comp.name                 SYRINGATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.202
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SYR  O3    .  O  0  9.632   114.092  12.497  1  1 
+SYR  C8    .  C  0  9.652   114.865  13.411  1  2 
+SYR  O4    .  O  0  9.127   116.085  13.328  1  3 
+SYR  C10   .  C  0  8.579   116.494  12.077  1  4 
+SYR  C6    .  C  0  10.257  114.543  14.728  1  5 
+SYR  C5    .  C  0  10.73   113.256  14.978  1  6 
+SYR  C4    .  C  0  11.313  112.915  16.208  1  7 
+SYR  O2    .  O  0  11.798  111.625  16.506  1  8 
+SYR  C7    .  C  0  11.545  110.628  15.538  1  9 
+SYR  C1    .  C  0  10.368  115.504  15.733  1  10
+SYR  C2    .  C  0  10.946  115.197  16.975  1  11
+SYR  O5    .  O  0  11.077  116.13   18.024  1  12
+SYR  C9    .  C  0  10.397  117.356  17.85   1  13
+SYR  C3    .  C  0  11.422  113.899  17.198  1  14
+SYR  O1    .  O  0  12.008  113.587  18.419  1  15
+SYR  1H10  .  H  0  8.139   117.516  12.007  0  16
+SYR  2H10  .  H  0  7.82    115.746  11.749  0  17
+SYR  3H10  .  H  0  9.352   116.374  11.283  0  18
+SYR  H5    .  H  0  10.644  112.488  14.191  1  19
+SYR  H1    .  H  0  9.994   116.525  15.548  1  20
+SYR  1H7C  .  H  0  11.929  109.608  15.774  0  21
+SYR  2H7C  .  H  0  11.932  110.958  14.546  0  22
+SYR  3H7C  .  H  0  10.452  110.58   15.321  0  23
+SYR  1H9C  .  H  0  10.501  118.094  18.68   0  24
+SYR  2H9C  .  H  0  9.318   117.165  17.646  0  25
+SYR  3H9C  .  H  0  10.703  117.825  16.886  0  26
+SYR  HA    .  H  0  12.082  114.255  19.091  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SYR  O3   C8    DOUB  1 
+SYR  C8   O4    SING  2 
+SYR  C8   C6    SING  3 
+SYR  O4   C10   SING  4 
+SYR  C10  1H10  SING  5 
+SYR  C10  2H10  SING  6 
+SYR  C10  3H10  SING  7 
+SYR  C6   C5    AROM  8 
+SYR  C6   C1    AROM  9 
+SYR  C5   C4    AROM  10
+SYR  C5   H5    SING  11
+SYR  C4   O2    SING  12
+SYR  C4   C3    AROM  13
+SYR  O2   C7    SING  14
+SYR  C7   1H7C  SING  15
+SYR  C7   2H7C  SING  16
+SYR  C7   3H7C  SING  17
+SYR  C1   C2    AROM  18
+SYR  C1   H1    SING  19
+SYR  C2   O5    SING  20
+SYR  C2   C3    AROM  21
+SYR  O5   C9    SING  22
+SYR  C9   1H9C  SING  23
+SYR  C9   2H9C  SING  24
+SYR  C9   3H9C  SING  25
+SYR  C3   O1    SING  26
+SYR  O1   HA    SING  27
+#

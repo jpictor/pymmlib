@@ -1,0 +1,69 @@
+data_4NL
+#
+_chem_comp.id                   4NL
+_chem_comp.name                 4-AMINOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        109.127
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          4NL
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(ccc1N)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+4NL  C2  .  C  0  0.864   -13.029  0.662   1  Y  1 
+4NL  C6  .  C  0  -0.199  -11.828  2.447   1  Y  2 
+4NL  C3  .  C  0  -0.047  -12.498  -0.237  1  Y  3 
+4NL  C4  .  C  0  -1.034  -11.633  0.205   1  Y  4 
+4NL  C5  .  C  0  -1.110  -11.297  1.548   1  Y  5 
+4NL  C1  .  C  0  0.788   -12.694  2.005   1  Y  6 
+4NL  N1  .  N  0  1.747   -13.238  2.940   1  N  7 
+4NL  O1  .  O  0  -1.968  -11.102  -0.708  1  N  8 
+4NL  H2  .  H  0  0.009   -12.776  -1.324  1  N  9 
+4NL  H6  .  H  0  1.423   -13.671  3.814   1  N  10
+4NL  H3  .  H  0  -1.915  -10.603  1.908   1  N  11
+4NL  H5  .  H  0  -2.559  -10.457  -0.239  1  N  12
+4NL  H4  .  H  0  -0.266  -11.564  3.537   1  N  13
+4NL  H1  .  H  0  1.658   -13.737  0.304   1  N  14
+4NL  H7  .  H  0  2.753   -13.181  2.737   1  N  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+4NL  C2  C3  SING  Y  1 
+4NL  C2  H1  SING  N  2 
+4NL  C2  C1  DOUB  Y  3 
+4NL  C6  C5  DOUB  Y  4 
+4NL  C6  C1  SING  Y  5 
+4NL  C6  H4  SING  N  6 
+4NL  C3  H2  SING  N  7 
+4NL  C3  C4  DOUB  Y  8 
+4NL  C4  O1  SING  N  9 
+4NL  C4  C5  SING  Y  10
+4NL  C5  H3  SING  N  11
+4NL  C1  N1  SING  N  12
+4NL  N1  H7  SING  N  13
+4NL  N1  H6  SING  N  14
+4NL  O1  H5  SING  N  15
+#

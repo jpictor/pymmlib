@@ -1,0 +1,75 @@
+data_12M
+#
+_chem_comp.id                   12M
+_chem_comp.name                 (2-ETHYLPHENYL)METHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+12M  CAH   .  C  0  1.244  22.251  16.422  1  1 
+12M  CAD   .  C  0  1.234  21.108  17.443  1  2 
+12M  CAA   .  C  0  2.643  20.788  17.977  1  3 
+12M  CAC   .  C  0  3.431  21.859  18.411  1  4 
+12M  CAG   .  C  0  4.714  21.653  18.910  1  5 
+12M  CAI   .  C  0  5.226  20.362  18.983  1  6 
+12M  CAE   .  C  0  4.453  19.287  18.555  1  7 
+12M  CAB   .  C  0  3.163  19.490  18.055  1  8 
+12M  CAF   .  C  0  2.390  18.246  17.612  1  9 
+12M  OAJ   .  O  0  2.986  17.056  18.120  1  10
+12M  1HAH  .  H  0  ?      ?       ?       0  11
+12M  2HAH  .  H  0  ?      ?       ?       0  12
+12M  3HAH  .  H  0  ?      ?       ?       0  13
+12M  1HAD  .  H  0  ?      ?       ?       0  14
+12M  2HAD  .  H  0  ?      ?       ?       0  15
+12M  HAC   .  H  0  ?      ?       ?       1  16
+12M  HAG   .  H  0  ?      ?       ?       1  17
+12M  HAI   .  H  0  ?      ?       ?       1  18
+12M  HAE   .  H  0  ?      ?       ?       1  19
+12M  1HAF  .  H  0  ?      ?       ?       0  20
+12M  2HAF  .  H  0  ?      ?       ?       0  21
+12M  HAJ   .  H  0  ?      ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+12M  CAH  CAD   SING  1 
+12M  CAH  1HAH  SING  2 
+12M  CAH  2HAH  SING  3 
+12M  CAH  3HAH  SING  4 
+12M  CAD  CAA   SING  5 
+12M  CAD  1HAD  SING  6 
+12M  CAD  2HAD  SING  7 
+12M  CAA  CAC   DOUB  8 
+12M  CAA  CAB   SING  9 
+12M  CAC  CAG   SING  10
+12M  CAC  HAC   SING  11
+12M  CAG  CAI   DOUB  12
+12M  CAG  HAG   SING  13
+12M  CAI  CAE   SING  14
+12M  CAI  HAI   SING  15
+12M  CAE  CAB   DOUB  16
+12M  CAE  HAE   SING  17
+12M  CAB  CAF   SING  18
+12M  CAF  OAJ   SING  19
+12M  CAF  1HAF  SING  20
+12M  CAF  2HAF  SING  21
+12M  OAJ  HAJ   SING  22
+#

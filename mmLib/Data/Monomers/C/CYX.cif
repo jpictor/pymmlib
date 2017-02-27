@@ -1,0 +1,68 @@
+data_CYX
+#
+_chem_comp.id                   CYX
+_chem_comp.name                 '(3-FORMYL-BUT-3-ENYL)-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 O4 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.097
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYX  C1   .  C  0  -4.307  -4.862  21.352  1  1 
+CYX  C2   .  C  0  -5.152  -5.738  22.316  1  2 
+CYX  O3   .  O  0  -3.182  -4.446  21.652  1  3 
+CYX  C4   .  C  0  -5.418  -7.039  22.067  1  4 
+CYX  C5   .  C  0  -5.712  -5.096  23.601  1  5 
+CYX  C6   .  C  0  -4.640  -4.294  24.402  1  6 
+CYX  P7   .  P  0  -4.958  -4.084  26.108  1  7 
+CYX  O8   .  O  0  -4.451  -2.630  26.559  1  8 
+CYX  O9   .  O  0  -4.168  -5.215  26.931  1  9 
+CYX  O10  .  O  0  -6.535  -4.222  26.391  1  10
+CYX  1H1  .  H  0  ?       ?       ?       0  11
+CYX  1H4  .  H  0  ?       ?       ?       0  12
+CYX  2H4  .  H  0  ?       ?       ?       0  13
+CYX  1H5  .  H  0  ?       ?       ?       0  14
+CYX  2H5  .  H  0  ?       ?       ?       0  15
+CYX  1H6  .  H  0  ?       ?       ?       0  16
+CYX  2H6  .  H  0  ?       ?       ?       0  17
+CYX  1H8  .  H  0  ?       ?       ?       0  18
+CYX  1H9  .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYX  C1  C2   SING  1 
+CYX  C1  O3   DOUB  2 
+CYX  C1  1H1  SING  3 
+CYX  C2  C4   DOUB  4 
+CYX  C2  C5   SING  5 
+CYX  C4  1H4  SING  6 
+CYX  C4  2H4  SING  7 
+CYX  C5  C6   SING  8 
+CYX  C5  1H5  SING  9 
+CYX  C5  2H5  SING  10
+CYX  C6  P7   SING  11
+CYX  C6  1H6  SING  12
+CYX  C6  2H6  SING  13
+CYX  P7  O8   SING  14
+CYX  P7  O9   SING  15
+CYX  P7  O10  DOUB  16
+CYX  O8  1H8  SING  17
+CYX  O9  1H9  SING  18
+#

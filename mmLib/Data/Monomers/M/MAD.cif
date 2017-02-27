@@ -1,0 +1,114 @@
+data_MAD
+#
+_chem_comp.id                       MAD
+_chem_comp.name                     6-HYDRO-1-METHYLADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            361.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAD  P     .  P  0  142.8    27.386  10.352  1  1 
+MAD  O1P   .  O  0  142.757  28.646  11.14   1  2 
+MAD  O2P   .  O  0  144.108  26.786  10.003  1  3 
+MAD  O5*   .  O  0  141.945  26.262  11.096  1  4 
+MAD  C5*   .  C  0  140.694  26.576  11.748  1  5 
+MAD  C4*   .  C  0  140.855  26.5    13.252  1  6 
+MAD  O4*   .  O  0  141.354  25.178  13.58   1  7 
+MAD  C3*   .  C  0  141.905  27.48   13.783  1  8 
+MAD  O3*   .  O  0  141.627  27.818  15.141  1  9 
+MAD  C2*   .  C  0  143.197  26.676  13.702  1  10
+MAD  O2*   .  O  0  144.172  27.108  14.635  1  11
+MAD  C1*   .  C  0  142.697  25.265  14.013  1  12
+MAD  N9    .  N  0  143.449  24.181  13.384  1  13
+MAD  C8    .  C  0  144.562  24.23   12.575  1  14
+MAD  N7    .  N  0  144.998  23.049  12.206  1  15
+MAD  C5    .  C  0  144.108  22.164  12.805  1  16
+MAD  C6    .  C  0  144.02   20.763  12.807  1  17
+MAD  N6    .  N  0  144.872  19.965  12.159  1  18
+MAD  N1    .  N  0  143.006  20.204  13.51   1  19
+MAD  CM1   .  C  0  142.816  18.726  13.587  1  20
+MAD  C2    .  C  0  142.15   20.995  14.157  1  21
+MAD  N3    .  N  0  142.13   22.32   14.23   1  22
+MAD  C4    .  C  0  143.149  22.85   13.525  1  23
+MAD  OXT   .  O  0  142.025  27.617  8.968   1  24
+MAD  1HM1  .  H  0  141.981  18.266  14.166  0  25
+MAD  2HM1  .  H  0  143.77   18.28   13.954  0  26
+MAD  3HM1  .  H  0  142.761  18.336  12.544  0  27
+MAD  1H5*  .  H  0  139.861  25.93   11.385  0  28
+MAD  2H5*  .  H  0  140.29   27.563  11.422  0  29
+MAD  H4*   .  H  0  139.875  26.677  13.753  1  30
+MAD  H3*   .  H  0  141.96   28.393  13.146  1  31
+MAD  H1*   .  H  0  142.722  25.117  15.118  1  32
+MAD  HA    .  H  0  142.278  28.426  15.47   1  33
+MAD  H2*   .  H  0  143.611  26.717  12.667  1  34
+MAD  HB    .  H  0  144.977  26.607  14.585  1  35
+MAD  H8    .  H  0  145.042  25.174  12.266  1  36
+MAD  H2    .  H  0  141.347  20.477  14.708  1  37
+MAD  HXT   .  H  0  ?        ?       ?       1  38
+MAD  H1P   .  H  0  ?        ?       ?       1  39
+MAD  H6    .  H  0  ?        ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAD  P    O1P   SING  1 
+MAD  P    O2P   DOUB  2 
+MAD  P    O5*   SING  3 
+MAD  P    OXT   SING  4 
+MAD  O1P  H1P   SING  5 
+MAD  O5*  C5*   SING  6 
+MAD  C5*  C4*   SING  7 
+MAD  C5*  1H5*  SING  8 
+MAD  C5*  2H5*  SING  9 
+MAD  C4*  O4*   SING  10
+MAD  C4*  C3*   SING  11
+MAD  C4*  H4*   SING  12
+MAD  O4*  C1*   SING  13
+MAD  C3*  O3*   SING  14
+MAD  C3*  C2*   SING  15
+MAD  C3*  H3*   SING  16
+MAD  O3*  HA    SING  17
+MAD  C2*  O2*   SING  18
+MAD  C2*  C1*   SING  19
+MAD  C2*  H2*   SING  20
+MAD  O2*  HB    SING  21
+MAD  C1*  N9    SING  22
+MAD  C1*  H1*   SING  23
+MAD  N9   C8    SING  24
+MAD  N9   C4    SING  25
+MAD  C8   N7    DOUB  26
+MAD  C8   H8    SING  27
+MAD  N7   C5    SING  28
+MAD  C5   C6    AROM  29
+MAD  C5   C4    AROM  30
+MAD  C6   N6    DOUB  31
+MAD  C6   N1    AROM  32
+MAD  N6   H6    SING  33
+MAD  N1   C2    AROM  34
+MAD  N1   CM1   SING  35
+MAD  CM1  1HM1  SING  36
+MAD  CM1  2HM1  SING  37
+MAD  CM1  3HM1  SING  38
+MAD  C2   N3    AROM  39
+MAD  C2   H2    SING  40
+MAD  N3   C4    AROM  41
+MAD  OXT  HXT   SING  42
+#

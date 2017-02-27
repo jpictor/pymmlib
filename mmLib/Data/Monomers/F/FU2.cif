@@ -1,0 +1,53 @@
+data_FU2
+#
+_chem_comp.id                   FU2
+_chem_comp.name                 FURFURAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        96.085
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FU2  C1   .  C  0  31.051  28.063  33.774  1  1 
+FU2  C2   .  C  0  32.387  27.949  33.234  1  2 
+FU2  O3   .  O  0  32.606  27.157  32.158  1  3 
+FU2  C4   .  C  0  33.926  27.334  31.999  1  4 
+FU2  C5   .  C  0  34.542  28.154  32.872  1  5 
+FU2  C6   .  C  0  33.435  28.591  33.751  1  6 
+FU2  OXT  .  O  0  ?       ?       ?       1  7 
+FU2  H1   .  H  0  ?       ?       ?       1  8 
+FU2  H4   .  H  0  ?       ?       ?       1  9 
+FU2  H5   .  H  0  ?       ?       ?       1  10
+FU2  H6   .  H  0  ?       ?       ?       1  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FU2  C1  C2   SING  1 
+FU2  C1  OXT  DOUB  2 
+FU2  C1  H1   SING  3 
+FU2  C2  O3   SING  4 
+FU2  C2  C6   DOUB  5 
+FU2  O3  C4   SING  6 
+FU2  C4  C5   DOUB  7 
+FU2  C4  H4   SING  8 
+FU2  C5  C6   SING  9 
+FU2  C5  H5   SING  10
+FU2  C6  H6   SING  11
+#

@@ -1,0 +1,89 @@
+data_APH
+#
+_chem_comp.id                       APH
+_chem_comp.name                     P-AMIDINOPHENYL-3-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H13 N3 O2'
+_chem_comp.pdbx_synonyms            D-BETA(4-AMIDINOPHENYL)-ALANINE
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            207.232
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APH  N     .  N  0  ?  ?  ?  1  1 
+APH  CA    .  C  0  ?  ?  ?  1  2 
+APH  C     .  C  0  ?  ?  ?  1  3 
+APH  O     .  O  0  ?  ?  ?  1  4 
+APH  CB    .  C  0  ?  ?  ?  1  5 
+APH  CG    .  C  0  ?  ?  ?  1  6 
+APH  CD1   .  C  0  ?  ?  ?  1  7 
+APH  CD2   .  C  0  ?  ?  ?  1  8 
+APH  CE1   .  C  0  ?  ?  ?  1  9 
+APH  CE2   .  C  0  ?  ?  ?  1  10
+APH  CZ    .  C  0  ?  ?  ?  1  11
+APH  CF    .  C  0  ?  ?  ?  1  12
+APH  NG1   .  N  0  ?  ?  ?  1  13
+APH  NG2   .  N  0  ?  ?  ?  1  14
+APH  OXT   .  O  0  ?  ?  ?  1  15
+APH  1HN   .  H  0  ?  ?  ?  0  16
+APH  2HN   .  H  0  ?  ?  ?  0  17
+APH  HA    .  H  0  ?  ?  ?  1  18
+APH  1HB   .  H  0  ?  ?  ?  0  19
+APH  2HB   .  H  0  ?  ?  ?  0  20
+APH  HD1   .  H  0  ?  ?  ?  1  21
+APH  HD2   .  H  0  ?  ?  ?  1  22
+APH  HE1   .  H  0  ?  ?  ?  1  23
+APH  HE2   .  H  0  ?  ?  ?  1  24
+APH  HG1   .  H  0  ?  ?  ?  1  25
+APH  1HG2  .  H  0  ?  ?  ?  0  26
+APH  2HG2  .  H  0  ?  ?  ?  0  27
+APH  HXT   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APH  N    CA    SING  1 
+APH  N    1HN   SING  2 
+APH  N    2HN   SING  3 
+APH  CA   C     SING  4 
+APH  CA   CB    SING  5 
+APH  CA   HA    SING  6 
+APH  C    O     DOUB  7 
+APH  C    OXT   SING  8 
+APH  CB   CG    SING  9 
+APH  CB   1HB   SING  10
+APH  CB   2HB   SING  11
+APH  CG   CD1   DOUB  12
+APH  CG   CD2   SING  13
+APH  CD1  CE1   SING  14
+APH  CD1  HD1   SING  15
+APH  CD2  CE2   DOUB  16
+APH  CD2  HD2   SING  17
+APH  CE1  CZ    DOUB  18
+APH  CE1  HE1   SING  19
+APH  CE2  CZ    SING  20
+APH  CE2  HE2   SING  21
+APH  CZ   CF    SING  22
+APH  CF   NG1   DOUB  23
+APH  CF   NG2   SING  24
+APH  NG1  HG1   SING  25
+APH  NG2  1HG2  SING  26
+APH  NG2  2HG2  SING  27
+APH  OXT  HXT   SING  28
+#

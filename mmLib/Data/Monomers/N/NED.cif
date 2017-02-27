@@ -1,0 +1,87 @@
+data_NED
+#
+_chem_comp.id                   NED
+_chem_comp.name                 2,6-DIAMINO-2,6-DIDEOXY-ALPHA-D-GLUCOPYRANOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H16 N2 O4'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       180.203
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NED  C1    .  C  0  ?  ?  ?  1  1 
+NED  O1    .  O  0  ?  ?  ?  1  2 
+NED  C2    .  C  0  ?  ?  ?  1  3 
+NED  N2    .  N  1  ?  ?  ?  1  4 
+NED  C3    .  C  0  ?  ?  ?  1  5 
+NED  O3    .  O  0  ?  ?  ?  1  6 
+NED  C4    .  C  0  ?  ?  ?  1  7 
+NED  O4    .  O  0  ?  ?  ?  1  8 
+NED  C5    .  C  0  ?  ?  ?  1  9 
+NED  O5    .  O  0  ?  ?  ?  1  10
+NED  C6    .  C  0  ?  ?  ?  1  11
+NED  N6    .  N  1  ?  ?  ?  1  12
+NED  H1    .  H  0  ?  ?  ?  1  13
+NED  H2    .  H  0  ?  ?  ?  1  14
+NED  1H2   .  H  0  ?  ?  ?  0  15
+NED  2H2   .  H  0  ?  ?  ?  0  16
+NED  3H2   .  H  0  ?  ?  ?  0  17
+NED  H3    .  H  0  ?  ?  ?  1  18
+NED  HO3   .  H  0  ?  ?  ?  1  19
+NED  H4    .  H  0  ?  ?  ?  1  20
+NED  HO4   .  H  0  ?  ?  ?  1  21
+NED  H5    .  H  0  ?  ?  ?  1  22
+NED  1H6   .  H  0  ?  ?  ?  0  23
+NED  2H6   .  H  0  ?  ?  ?  0  24
+NED  1HN6  .  H  0  ?  ?  ?  0  25
+NED  2HN6  .  H  0  ?  ?  ?  0  26
+NED  3H6   .  H  0  ?  ?  ?  0  27
+NED  HO1   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NED  C1  C2    SING  1 
+NED  C1  O5    SING  2 
+NED  C1  H1    SING  3 
+NED  C1  O1    SING  4 
+NED  O1  HO1   SING  5 
+NED  C2  N2    SING  6 
+NED  C2  C3    SING  7 
+NED  C2  H2    SING  8 
+NED  N2  1H2   SING  9 
+NED  N2  2H2   SING  10
+NED  N2  3H2   SING  11
+NED  C3  O3    SING  12
+NED  C3  C4    SING  13
+NED  C3  H3    SING  14
+NED  O3  HO3   SING  15
+NED  C4  O4    SING  16
+NED  C4  C5    SING  17
+NED  C4  H4    SING  18
+NED  O4  HO4   SING  19
+NED  C5  O5    SING  20
+NED  C5  C6    SING  21
+NED  C5  H5    SING  22
+NED  C6  N6    SING  23
+NED  C6  1H6   SING  24
+NED  C6  2H6   SING  25
+NED  N6  1HN6  SING  26
+NED  N6  2HN6  SING  27
+NED  N6  3H6   SING  28
+#

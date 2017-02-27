@@ -1,0 +1,99 @@
+data_KRA
+#
+_chem_comp.id                   KRA
+_chem_comp.name                 'KURASOIN A'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 O3'
+_chem_comp.pdbx_synonyms        1-(4-HYDROXY-PHENYL)-4-PHENYL-BUTANE-2,3-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.285
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KRA  C1    .  C  0  ?  ?  ?  1  1 
+KRA  O1    .  O  0  ?  ?  ?  1  2 
+KRA  C2    .  C  0  ?  ?  ?  1  3 
+KRA  C3    .  C  0  ?  ?  ?  1  4 
+KRA  C4    .  C  0  ?  ?  ?  1  5 
+KRA  C5    .  C  0  ?  ?  ?  1  6 
+KRA  C6    .  C  0  ?  ?  ?  1  7 
+KRA  C7    .  C  0  ?  ?  ?  1  8 
+KRA  C8    .  C  0  ?  ?  ?  1  9 
+KRA  O2    .  O  0  ?  ?  ?  1  10
+KRA  C9    .  C  0  ?  ?  ?  1  11
+KRA  O3    .  O  0  ?  ?  ?  1  12
+KRA  C10   .  C  0  ?  ?  ?  1  13
+KRA  C11   .  C  0  ?  ?  ?  1  14
+KRA  C12   .  C  0  ?  ?  ?  1  15
+KRA  C13   .  C  0  ?  ?  ?  1  16
+KRA  C14   .  C  0  ?  ?  ?  1  17
+KRA  C15   .  C  0  ?  ?  ?  1  18
+KRA  C16   .  C  0  ?  ?  ?  1  19
+KRA  HO1   .  H  0  ?  ?  ?  1  20
+KRA  H2    .  H  0  ?  ?  ?  1  21
+KRA  H3    .  H  0  ?  ?  ?  1  22
+KRA  H5    .  H  0  ?  ?  ?  1  23
+KRA  H6    .  H  0  ?  ?  ?  1  24
+KRA  1H7   .  H  0  ?  ?  ?  0  25
+KRA  2H7   .  H  0  ?  ?  ?  0  26
+KRA  1H10  .  H  0  ?  ?  ?  0  27
+KRA  2H10  .  H  0  ?  ?  ?  0  28
+KRA  H12   .  H  0  ?  ?  ?  1  29
+KRA  H13   .  H  0  ?  ?  ?  1  30
+KRA  H14   .  H  0  ?  ?  ?  1  31
+KRA  H15   .  H  0  ?  ?  ?  1  32
+KRA  H16   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KRA  C1   O1    SING  1 
+KRA  C1   C2    DOUB  2 
+KRA  C1   C6    SING  3 
+KRA  O1   HO1   SING  4 
+KRA  C2   C3    SING  5 
+KRA  C2   H2    SING  6 
+KRA  C3   C4    DOUB  7 
+KRA  C3   H3    SING  8 
+KRA  C4   C5    SING  9 
+KRA  C4   C7    SING  10
+KRA  C5   C6    DOUB  11
+KRA  C5   H5    SING  12
+KRA  C6   H6    SING  13
+KRA  C7   C8    SING  14
+KRA  C7   1H7   SING  15
+KRA  C7   2H7   SING  16
+KRA  C8   O2    DOUB  17
+KRA  C8   C9    SING  18
+KRA  C9   O3    DOUB  19
+KRA  C9   C10   SING  20
+KRA  C10  C11   SING  21
+KRA  C10  1H10  SING  22
+KRA  C10  2H10  SING  23
+KRA  C11  C12   DOUB  24
+KRA  C11  C16   SING  25
+KRA  C12  C13   SING  26
+KRA  C12  H12   SING  27
+KRA  C13  C14   DOUB  28
+KRA  C13  H13   SING  29
+KRA  C14  C15   SING  30
+KRA  C14  H14   SING  31
+KRA  C15  C16   DOUB  32
+KRA  C15  H15   SING  33
+KRA  C16  H16   SING  34
+#

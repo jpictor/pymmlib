@@ -1,0 +1,84 @@
+data_ROI
+#
+_chem_comp.id                   ROI
+_chem_comp.name                 7,8-DIHYDRO-7,7-DIMETHYL-6-HYDROXYPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        209.207
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ROI  N1    .  N  0  ?  ?  ?  1  1 
+ROI  C2    .  C  0  ?  ?  ?  1  2 
+ROI  N2    .  N  0  ?  ?  ?  1  3 
+ROI  N3    .  N  0  ?  ?  ?  1  4 
+ROI  C4    .  C  0  ?  ?  ?  1  5 
+ROI  O4    .  O  0  ?  ?  ?  1  6 
+ROI  C4A   .  C  0  ?  ?  ?  1  7 
+ROI  N5    .  N  0  ?  ?  ?  1  8 
+ROI  C6    .  C  0  ?  ?  ?  1  9 
+ROI  C7    .  C  0  ?  ?  ?  1  10
+ROI  C16   .  C  0  ?  ?  ?  1  11
+ROI  C15   .  C  0  ?  ?  ?  1  12
+ROI  N8    .  N  0  ?  ?  ?  1  13
+ROI  C8A   .  C  0  ?  ?  ?  1  14
+ROI  O9    .  O  0  ?  ?  ?  1  15
+ROI  1HN2  .  H  0  ?  ?  ?  0  16
+ROI  2HN2  .  H  0  ?  ?  ?  0  17
+ROI  HN3   .  H  0  ?  ?  ?  1  18
+ROI  1H15  .  H  0  ?  ?  ?  0  19
+ROI  2H15  .  H  0  ?  ?  ?  0  20
+ROI  3H15  .  H  0  ?  ?  ?  0  21
+ROI  1H16  .  H  0  ?  ?  ?  0  22
+ROI  2H16  .  H  0  ?  ?  ?  0  23
+ROI  3H16  .  H  0  ?  ?  ?  0  24
+ROI  HN8   .  H  0  ?  ?  ?  1  25
+ROI  HO9   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ROI  N1   C2    DOUB  1 
+ROI  N1   C8A   SING  2 
+ROI  C2   N2    SING  3 
+ROI  C2   N3    SING  4 
+ROI  N2   1HN2  SING  5 
+ROI  N2   2HN2  SING  6 
+ROI  N3   C4    SING  7 
+ROI  N3   HN3   SING  8 
+ROI  C4   O4    DOUB  9 
+ROI  C4   C4A   SING  10
+ROI  C4A  N5    SING  11
+ROI  C4A  C8A   DOUB  12
+ROI  N5   C6    DOUB  13
+ROI  C6   C7    SING  14
+ROI  C6   O9    SING  15
+ROI  C7   C16   SING  16
+ROI  C7   C15   SING  17
+ROI  C7   N8    SING  18
+ROI  C16  1H16  SING  19
+ROI  C16  2H16  SING  20
+ROI  C16  3H16  SING  21
+ROI  C15  1H15  SING  22
+ROI  C15  2H15  SING  23
+ROI  C15  3H15  SING  24
+ROI  N8   C8A   SING  25
+ROI  N8   HN8   SING  26
+ROI  O9   HO9   SING  27
+#

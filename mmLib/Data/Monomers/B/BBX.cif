@@ -1,0 +1,46 @@
+data_BBX
+#
+_chem_comp.id                   BBX
+_chem_comp.name                 1-BROMOETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        108.965
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BBX  BR1  .  BR  0  89.675  76.476  41.930  0  1
+BBX  C1   .  C   0  90.502  75.271  43.187  1  2
+BBX  C2   .  C   0  89.813  73.904  43.304  1  3
+BBX  1H2  .  H   0  ?       ?       ?       0  4
+BBX  2H2  .  H   0  ?       ?       ?       0  5
+BBX  3H2  .  H   0  ?       ?       ?       0  6
+BBX  1H1  .  H   0  ?       ?       ?       0  7
+BBX  2H1  .  H   0  ?       ?       ?       0  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BBX  BR1  C1   SING  1
+BBX  C1   C2   SING  2
+BBX  C1   1H1  SING  3
+BBX  C1   2H1  SING  4
+BBX  C2   1H2  SING  5
+BBX  C2   2H2  SING  6
+BBX  C2   3H2  SING  7
+#

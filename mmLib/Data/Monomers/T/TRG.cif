@@ -1,0 +1,91 @@
+data_TRG
+#
+_chem_comp.id                       TRG
+_chem_comp.name                     'L-(N,N DIMETHYL)LYSINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H18 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.242
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRG  N     .  N  0  ?  ?  ?  1  1 
+TRG  CA    .  C  0  ?  ?  ?  1  2 
+TRG  C     .  C  0  ?  ?  ?  1  3 
+TRG  O     .  O  0  ?  ?  ?  1  4 
+TRG  CB    .  C  0  ?  ?  ?  1  5 
+TRG  CG    .  C  0  ?  ?  ?  1  6 
+TRG  CD    .  C  0  ?  ?  ?  1  7 
+TRG  CE    .  C  0  ?  ?  ?  1  8 
+TRG  NZ    .  N  0  ?  ?  ?  1  9 
+TRG  CH1   .  C  0  ?  ?  ?  1  10
+TRG  CH2   .  C  0  ?  ?  ?  1  11
+TRG  OXT   .  O  0  ?  ?  ?  1  12
+TRG  H     .  H  0  ?  ?  ?  1  13
+TRG  HN2   .  H  0  ?  ?  ?  1  14
+TRG  HA    .  H  0  ?  ?  ?  1  15
+TRG  1HB   .  H  0  ?  ?  ?  0  16
+TRG  2HB   .  H  0  ?  ?  ?  0  17
+TRG  1HG   .  H  0  ?  ?  ?  0  18
+TRG  2HG   .  H  0  ?  ?  ?  0  19
+TRG  1HD   .  H  0  ?  ?  ?  0  20
+TRG  2HD   .  H  0  ?  ?  ?  0  21
+TRG  1HE   .  H  0  ?  ?  ?  0  22
+TRG  2HE   .  H  0  ?  ?  ?  0  23
+TRG  1HH1  .  H  0  ?  ?  ?  0  24
+TRG  2HH1  .  H  0  ?  ?  ?  0  25
+TRG  3HH1  .  H  0  ?  ?  ?  0  26
+TRG  1HH2  .  H  0  ?  ?  ?  0  27
+TRG  2HH2  .  H  0  ?  ?  ?  0  28
+TRG  3HH2  .  H  0  ?  ?  ?  0  29
+TRG  HXT   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRG  N    CA    SING  1 
+TRG  N    H     SING  2 
+TRG  N    HN2   SING  3 
+TRG  CA   C     SING  4 
+TRG  CA   CB    SING  5 
+TRG  CA   HA    SING  6 
+TRG  C    O     DOUB  7 
+TRG  C    OXT   SING  8 
+TRG  CB   CG    SING  9 
+TRG  CB   1HB   SING  10
+TRG  CB   2HB   SING  11
+TRG  CG   CD    SING  12
+TRG  CG   1HG   SING  13
+TRG  CG   2HG   SING  14
+TRG  CD   CE    SING  15
+TRG  CD   1HD   SING  16
+TRG  CD   2HD   SING  17
+TRG  CE   NZ    SING  18
+TRG  CE   1HE   SING  19
+TRG  CE   2HE   SING  20
+TRG  NZ   CH1   SING  21
+TRG  NZ   CH2   SING  22
+TRG  CH1  1HH1  SING  23
+TRG  CH1  2HH1  SING  24
+TRG  CH1  3HH1  SING  25
+TRG  CH2  1HH2  SING  26
+TRG  CH2  2HH2  SING  27
+TRG  CH2  3HH2  SING  28
+TRG  OXT  HXT   SING  29
+#

@@ -1,0 +1,82 @@
+data_HIT
+#
+_chem_comp.id                   HIT
+_chem_comp.name                 '2-(ALPHA-HYDROXYISOVALERYL) PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HIT  CA1   .  C  0  79.762  65.162  50.602  1  1 
+HIT  C3    .  C  0  80.783  65.852  51.494  1  2 
+HIT  C5    .  C  0  80.282  66.185  52.833  1  3 
+HIT  C9    .  C  0  81.967  65.045  51.851  1  4 
+HIT  C13   .  C  0  78.782  66.192  50.050  1  5 
+HIT  O14   .  O  0  77.694  66.328  50.595  1  6 
+HIT  CA2   .  C  0  79.181  67.058  48.858  1  7 
+HIT  C17   .  C  0  79.371  68.524  49.254  1  8 
+HIT  C21   .  C  0  78.097  66.899  47.799  1  9 
+HIT  O22   .  O  0  76.977  67.379  47.957  1  10
+HIT  O1    .  O  0  ?       ?       ?       1  11
+HIT  O25   .  O  0  ?       ?       ?       1  12
+HIT  HA1   .  H  0  79.197  64.448  51.195  1  13
+HIT  HA2   .  H  0  80.129  66.707  48.450  1  14
+HIT  1H17  .  H  0  78.444  68.912  49.677  0  15
+HIT  2H17  .  H  0  80.171  68.608  49.986  0  16
+HIT  3H17  .  H  0  79.626  69.101  48.366  0  17
+HIT  H3    .  H  0  81.137  66.757  51.029  1  18
+HIT  1H5   .  H  0  80.033  65.274  53.378  0  19
+HIT  2H5   .  H  0  81.027  66.794  53.340  0  20
+HIT  3H5   .  H  0  79.404  66.767  52.665  0  21
+HIT  1H9   .  H  0  82.452  64.851  50.920  0  22
+HIT  2H9   .  H  0  82.640  65.637  52.470  0  23
+HIT  3H9   .  H  0  81.652  64.124  52.338  0  24
+HIT  HO2   .  H  0  ?       ?       ?       1  25
+HIT  H22   .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HIT  CA1  HA1   SING  1 
+HIT  CA1  C13   SING  2 
+HIT  CA1  C3    SING  3 
+HIT  CA1  O25   SING  4 
+HIT  C3   H3    SING  5 
+HIT  C3   C5    SING  6 
+HIT  C3   C9    SING  7 
+HIT  C5   1H5   SING  8 
+HIT  C5   2H5   SING  9 
+HIT  C5   3H5   SING  10
+HIT  C9   1H9   SING  11
+HIT  C9   2H9   SING  12
+HIT  C9   3H9   SING  13
+HIT  C13  O14   DOUB  14
+HIT  C13  CA2   SING  15
+HIT  CA2  HA2   SING  16
+HIT  CA2  C21   SING  17
+HIT  CA2  C17   SING  18
+HIT  C17  1H17  SING  19
+HIT  C17  2H17  SING  20
+HIT  C17  3H17  SING  21
+HIT  C21  O1    DOUB  22
+HIT  C21  O22   SING  23
+HIT  O22  H22   SING  24
+HIT  O25  HO2   SING  25
+#

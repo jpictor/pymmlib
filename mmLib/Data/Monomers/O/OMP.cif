@@ -1,0 +1,106 @@
+data_OMP
+#
+_chem_comp.id                   OMP
+_chem_comp.name                 OROTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N2 O11 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        368.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMP  P     .  P  0  ?  ?  ?  1  1 
+OMP  O1P   .  O  0  ?  ?  ?  1  2 
+OMP  O2P   .  O  0  ?  ?  ?  1  3 
+OMP  O3P   .  O  0  ?  ?  ?  1  4 
+OMP  O5*   .  O  0  ?  ?  ?  1  5 
+OMP  C5*   .  C  0  ?  ?  ?  1  6 
+OMP  C4*   .  C  0  ?  ?  ?  1  7 
+OMP  O4*   .  O  0  ?  ?  ?  1  8 
+OMP  C3*   .  C  0  ?  ?  ?  1  9 
+OMP  O3*   .  O  0  ?  ?  ?  1  10
+OMP  C2*   .  C  0  ?  ?  ?  1  11
+OMP  O2*   .  O  0  ?  ?  ?  1  12
+OMP  C1*   .  C  0  ?  ?  ?  1  13
+OMP  N1    .  N  0  ?  ?  ?  1  14
+OMP  C2    .  C  0  ?  ?  ?  1  15
+OMP  O2    .  O  0  ?  ?  ?  1  16
+OMP  N3    .  N  0  ?  ?  ?  1  17
+OMP  C4    .  C  0  ?  ?  ?  1  18
+OMP  O4    .  O  0  ?  ?  ?  1  19
+OMP  C5    .  C  0  ?  ?  ?  1  20
+OMP  C6    .  C  0  ?  ?  ?  1  21
+OMP  C7    .  C  0  ?  ?  ?  1  22
+OMP  O71   .  O  0  ?  ?  ?  1  23
+OMP  O72   .  O  0  ?  ?  ?  1  24
+OMP  2HOP  .  H  0  ?  ?  ?  0  25
+OMP  3HOP  .  H  0  ?  ?  ?  0  26
+OMP  H1*   .  H  0  ?  ?  ?  1  27
+OMP  H2*   .  H  0  ?  ?  ?  1  28
+OMP  H3*   .  H  0  ?  ?  ?  1  29
+OMP  H4*   .  H  0  ?  ?  ?  1  30
+OMP  *HO2  .  H  0  ?  ?  ?  0  31
+OMP  *HO3  .  H  0  ?  ?  ?  0  32
+OMP  1H5*  .  H  0  ?  ?  ?  0  33
+OMP  2H5*  .  H  0  ?  ?  ?  0  34
+OMP  HN3   .  H  0  ?  ?  ?  1  35
+OMP  H5    .  H  0  ?  ?  ?  1  36
+OMP  HO7   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMP  P    O1P   DOUB  1 
+OMP  P    O2P   SING  2 
+OMP  P    O3P   SING  3 
+OMP  P    O5*   SING  4 
+OMP  O2P  2HOP  SING  5 
+OMP  O3P  3HOP  SING  6 
+OMP  O5*  C5*   SING  7 
+OMP  C5*  C4*   SING  8 
+OMP  C5*  1H5*  SING  9 
+OMP  C5*  2H5*  SING  10
+OMP  C4*  O4*   SING  11
+OMP  C4*  C3*   SING  12
+OMP  C4*  H4*   SING  13
+OMP  O4*  C1*   SING  14
+OMP  C3*  C2*   SING  15
+OMP  C3*  O3*   SING  16
+OMP  C3*  H3*   SING  17
+OMP  O3*  *HO3  SING  18
+OMP  C2*  C1*   SING  19
+OMP  C2*  O2*   SING  20
+OMP  C2*  H2*   SING  21
+OMP  O2*  *HO2  SING  22
+OMP  C1*  N1    SING  23
+OMP  C1*  H1*   SING  24
+OMP  N1   C2    SING  25
+OMP  N1   C6    SING  26
+OMP  C2   N3    SING  27
+OMP  C2   O2    DOUB  28
+OMP  N3   C4    SING  29
+OMP  N3   HN3   SING  30
+OMP  C4   C5    SING  31
+OMP  C4   O4    DOUB  32
+OMP  C5   C6    DOUB  33
+OMP  C5   H5    SING  34
+OMP  C6   C7    SING  35
+OMP  C7   O71   DOUB  36
+OMP  C7   O72   SING  37
+OMP  O72  HO7   SING  38
+#

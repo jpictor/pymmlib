@@ -1,0 +1,95 @@
+data_SHC
+#
+_chem_comp.id                       SHC
+_chem_comp.name                     S-HEXYLCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H19 N1 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            205.315
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SHC  N    .  N  0  ?  ?  ?  1  1 
+SHC  CA   .  C  0  ?  ?  ?  1  2 
+SHC  CB   .  C  0  ?  ?  ?  1  3 
+SHC  SG   .  S  0  ?  ?  ?  1  4 
+SHC  C1   .  C  0  ?  ?  ?  1  5 
+SHC  C2   .  C  0  ?  ?  ?  1  6 
+SHC  C3   .  C  0  ?  ?  ?  1  7 
+SHC  C4   .  C  0  ?  ?  ?  1  8 
+SHC  C5   .  C  0  ?  ?  ?  1  9 
+SHC  C6   .  C  0  ?  ?  ?  1  10
+SHC  C    .  C  0  ?  ?  ?  1  11
+SHC  OXT  .  O  0  ?  ?  ?  1  12
+SHC  O1   .  O  0  ?  ?  ?  1  13
+SHC  1HN  .  H  0  ?  ?  ?  0  14
+SHC  2HN  .  H  0  ?  ?  ?  0  15
+SHC  HA   .  H  0  ?  ?  ?  1  16
+SHC  1HB  .  H  0  ?  ?  ?  0  17
+SHC  2HB  .  H  0  ?  ?  ?  0  18
+SHC  1H1  .  H  0  ?  ?  ?  0  19
+SHC  2H1  .  H  0  ?  ?  ?  0  20
+SHC  1H2  .  H  0  ?  ?  ?  0  21
+SHC  2H2  .  H  0  ?  ?  ?  0  22
+SHC  1H3  .  H  0  ?  ?  ?  0  23
+SHC  2H3  .  H  0  ?  ?  ?  0  24
+SHC  1H4  .  H  0  ?  ?  ?  0  25
+SHC  2H4  .  H  0  ?  ?  ?  0  26
+SHC  1H5  .  H  0  ?  ?  ?  0  27
+SHC  2H5  .  H  0  ?  ?  ?  0  28
+SHC  1H6  .  H  0  ?  ?  ?  0  29
+SHC  2H6  .  H  0  ?  ?  ?  0  30
+SHC  3H6  .  H  0  ?  ?  ?  0  31
+SHC  HXT  .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SHC  N    CA   SING  1 
+SHC  N    1HN  SING  2 
+SHC  N    2HN  SING  3 
+SHC  CA   CB   SING  4 
+SHC  CA   C    SING  5 
+SHC  CA   HA   SING  6 
+SHC  CB   SG   SING  7 
+SHC  CB   1HB  SING  8 
+SHC  CB   2HB  SING  9 
+SHC  SG   C1   SING  10
+SHC  C1   C2   SING  11
+SHC  C1   1H1  SING  12
+SHC  C1   2H1  SING  13
+SHC  C2   C3   SING  14
+SHC  C2   1H2  SING  15
+SHC  C2   2H2  SING  16
+SHC  C3   C4   SING  17
+SHC  C3   1H3  SING  18
+SHC  C3   2H3  SING  19
+SHC  C4   C5   SING  20
+SHC  C4   1H4  SING  21
+SHC  C4   2H4  SING  22
+SHC  C5   C6   SING  23
+SHC  C5   1H5  SING  24
+SHC  C5   2H5  SING  25
+SHC  C6   1H6  SING  26
+SHC  C6   2H6  SING  27
+SHC  C6   3H6  SING  28
+SHC  C    O1   DOUB  29
+SHC  C    OXT  SING  30
+SHC  OXT  HXT  SING  31
+#

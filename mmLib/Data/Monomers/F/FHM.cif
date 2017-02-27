@@ -1,0 +1,116 @@
+data_FHM
+#
+_chem_comp.id                   FHM
+_chem_comp.name                 S-3-(4-FLUOROPHENOXY)-2-HYDROXY-2-METHYL-N-[4-NITRO-3-(TRIFLUOROMETHYL)PHENYL]PROPANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H14 N2 O5 F4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        402.302
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FHM  C17   .  C  0  30.083  -0.212  8.255   1  1 
+FHM  C18   .  C  0  29.832  -0.454  9.603   1  2 
+FHM  C19   .  C  0  29.183  0.504   10.376  1  3 
+FHM  F19   .  F  0  28.950  0.275   11.685  1  4 
+FHM  C20   .  C  0  28.783  1.705   9.798   1  5 
+FHM  C21   .  C  0  29.036  1.943   8.450   1  6 
+FHM  C16   .  C  0  29.686  0.990   7.671   1  7 
+FHM  O14   .  O  0  29.919  1.280   6.361   1  8 
+FHM  C13   .  C  0  29.883  0.149   5.475   1  9 
+FHM  C11   .  C  0  29.686  0.657   4.055   1  10
+FHM  O11   .  O  0  30.770  1.530   3.722   1  11
+FHM  C12   .  C  0  29.645  -0.529  3.089   1  12
+FHM  C10   .  C  0  28.370  1.437   3.991   1  13
+FHM  O10   .  O  0  27.293  0.857   4.132   1  14
+FHM  N9    .  N  0  28.514  2.743   3.770   1  15
+FHM  C6    .  C  0  27.535  3.644   3.690   1  16
+FHM  C5    .  C  0  26.195  3.344   3.927   1  17
+FHM  C1    .  C  0  27.886  4.967   3.440   1  18
+FHM  C2    .  C  0  26.905  5.953   3.446   1  19
+FHM  C3    .  C  0  25.571  5.646   3.703   1  20
+FHM  N8    .  N  0  24.725  6.677   3.737   1  21
+FHM  O2    .  O  0  23.364  6.553   4.119   1  22
+FHM  O1    .  O  0  25.207  7.989   3.481   1  23
+FHM  C4    .  C  0  25.195  4.320   3.938   1  24
+FHM  C7    .  C  0  23.737  3.894   4.197   1  25
+FHM  F2    .  F  0  23.365  4.252   5.423   1  26
+FHM  F3    .  F  0  22.880  4.417   3.324   1  27
+FHM  F1    .  F  0  23.575  2.577   4.103   1  28
+FHM  1H12  .  H  0  ?       ?       ?       0  29
+FHM  2H12  .  H  0  ?       ?       ?       0  30
+FHM  3H12  .  H  0  ?       ?       ?       0  31
+FHM  H11   .  H  0  ?       ?       ?       1  32
+FHM  1H13  .  H  0  ?       ?       ?       0  33
+FHM  2H13  .  H  0  ?       ?       ?       0  34
+FHM  H21   .  H  0  ?       ?       ?       1  35
+FHM  H20   .  H  0  ?       ?       ?       1  36
+FHM  H18   .  H  0  ?       ?       ?       1  37
+FHM  H17   .  H  0  ?       ?       ?       1  38
+FHM  HN9   .  H  0  ?       ?       ?       1  39
+FHM  H1    .  H  0  ?       ?       ?       1  40
+FHM  H2    .  H  0  ?       ?       ?       1  41
+FHM  H5    .  H  0  ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FHM  C17  C18   AROM  1 
+FHM  C17  C16   AROM  2 
+FHM  C17  H17   SING  3 
+FHM  C18  C19   AROM  4 
+FHM  C18  H18   SING  5 
+FHM  C19  C20   AROM  6 
+FHM  C19  F19   SING  7 
+FHM  C20  C21   AROM  8 
+FHM  C20  H20   SING  9 
+FHM  C21  C16   AROM  10
+FHM  C21  H21   SING  11
+FHM  C16  O14   SING  12
+FHM  O14  C13   SING  13
+FHM  C13  C11   SING  14
+FHM  C13  1H13  SING  15
+FHM  C13  2H13  SING  16
+FHM  C11  C12   SING  17
+FHM  C11  O11   SING  18
+FHM  C11  C10   SING  19
+FHM  O11  H11   SING  20
+FHM  C12  1H12  SING  21
+FHM  C12  2H12  SING  22
+FHM  C12  3H12  SING  23
+FHM  C10  O10   DOUB  24
+FHM  C10  N9    SING  25
+FHM  N9   C6    SING  26
+FHM  N9   HN9   SING  27
+FHM  C6   C1    AROM  28
+FHM  C6   C5    AROM  29
+FHM  C5   C4    AROM  30
+FHM  C5   H5    SING  31
+FHM  C1   C2    AROM  32
+FHM  C1   H1    SING  33
+FHM  C2   C3    AROM  34
+FHM  C2   H2    SING  35
+FHM  C3   C4    AROM  36
+FHM  C3   N8    SING  37
+FHM  N8   O2    DOUB  38
+FHM  N8   O1    DOUB  39
+FHM  C4   C7    SING  40
+FHM  C7   F2    SING  41
+FHM  C7   F3    SING  42
+FHM  C7   F1    SING  43
+#

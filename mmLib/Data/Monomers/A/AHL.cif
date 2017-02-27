@@ -1,0 +1,88 @@
+data_AHL
+#
+_chem_comp.id                       AHL
+_chem_comp.name                     N-HYDROXY-L-ARGININAMIDE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C6 H15 N5 O2'
+_chem_comp.pdbx_synonyms            'L-ARGININE HYDROXAMATE'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            189.217
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHL  N1    .  N  0  12.672  33.010  63.063  1  1 
+AHL  CA    .  C  0  11.272  33.299  63.140  1  2 
+AHL  CB    .  C  0  10.744  33.432  61.728  1  3 
+AHL  CG    .  C  0  9.384   34.114  61.745  1  4 
+AHL  CD    .  C  0  8.783   34.295  60.371  1  5 
+AHL  NE    .  N  0  8.398   33.016  59.740  1  6 
+AHL  CZ    .  C  0  8.450   32.720  58.437  1  7 
+AHL  NH1   .  N  0  9.245   33.382  57.610  1  8 
+AHL  NH2   .  N  0  7.682   31.746  57.965  1  9 
+AHL  C     .  C  0  10.501  32.178  63.862  1  10
+AHL  O1    .  O  0  10.397  31.054  63.321  1  11
+AHL  N2    .  N  0  10.019  32.404  64.905  1  12
+AHL  O2    .  O  0  9.321   31.520  65.619  1  13
+AHL  HO2   .  H  0  9.155   30.747  65.092  1  14
+AHL  HN2   .  H  0  10.139  33.321  65.286  1  15
+AHL  HA    .  H  0  11.130  34.228  63.712  1  16
+AHL  1HN1  .  H  0  12.947  32.943  62.104  0  17
+AHL  2HN1  .  H  0  13.188  33.742  63.507  0  18
+AHL  1HB   .  H  0  10.644  32.432  61.281  0  19
+AHL  2HB   .  H  0  11.445  34.037  61.135  0  20
+AHL  1HG   .  H  0  9.505   35.108  62.200  0  21
+AHL  2HG   .  H  0  8.702   33.467  62.316  0  22
+AHL  1HD   .  H  0  9.528   34.788  59.729  0  23
+AHL  2HD   .  H  0  7.870   34.898  60.484  0  24
+AHL  HNE   .  H  0  8.064   32.298  60.350  1  25
+AHL  HNH2  .  H  0  7.139   31.338  58.699  0  26
+AHL  1HH1  .  H  0  9.152   33.034  56.677  0  27
+AHL  2HH1  .  H  0  9.854   34.127  57.881  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHL  N1   CA    SING  1 
+AHL  N1   1HN1  SING  2 
+AHL  N1   2HN1  SING  3 
+AHL  CA   C     SING  4 
+AHL  CA   HA    SING  5 
+AHL  CA   CB    SING  6 
+AHL  CB   1HB   SING  7 
+AHL  CB   2HB   SING  8 
+AHL  CB   CG    SING  9 
+AHL  CG   1HG   SING  10
+AHL  CG   2HG   SING  11
+AHL  CG   CD    SING  12
+AHL  CD   1HD   SING  13
+AHL  CD   2HD   SING  14
+AHL  CD   NE    SING  15
+AHL  NE   HNE   SING  16
+AHL  NE   CZ    SING  17
+AHL  CZ   NH2   DOUB  18
+AHL  CZ   NH1   SING  19
+AHL  NH1  1HH1  SING  20
+AHL  NH1  2HH1  SING  21
+AHL  NH2  HNH2  SING  22
+AHL  C    N2    SING  23
+AHL  C    O1    DOUB  24
+AHL  N2   O2    SING  25
+AHL  N2   HN2   SING  26
+AHL  O2   HO2   SING  27
+#

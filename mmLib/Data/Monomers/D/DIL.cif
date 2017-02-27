@@ -1,0 +1,75 @@
+data_DIL
+#
+_chem_comp.id                       DIL
+_chem_comp.name                     D-ISOLEUCINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ILE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIL  N     .  N  0  ?  ?  ?  1  1 
+DIL  CA    .  C  0  ?  ?  ?  1  2 
+DIL  C     .  C  0  ?  ?  ?  1  3 
+DIL  O     .  O  0  ?  ?  ?  1  4 
+DIL  CB    .  C  0  ?  ?  ?  1  5 
+DIL  CG1   .  C  0  ?  ?  ?  1  6 
+DIL  CG2   .  C  0  ?  ?  ?  1  7 
+DIL  CD1   .  C  0  ?  ?  ?  1  8 
+DIL  OXT   .  O  0  ?  ?  ?  1  9 
+DIL  H     .  H  0  ?  ?  ?  1  10
+DIL  HN2   .  H  0  ?  ?  ?  1  11
+DIL  HA    .  H  0  ?  ?  ?  1  12
+DIL  HB    .  H  0  ?  ?  ?  1  13
+DIL  1HG1  .  H  0  ?  ?  ?  0  14
+DIL  2HG1  .  H  0  ?  ?  ?  0  15
+DIL  1HG2  .  H  0  ?  ?  ?  0  16
+DIL  2HG2  .  H  0  ?  ?  ?  0  17
+DIL  3HG2  .  H  0  ?  ?  ?  0  18
+DIL  1HD1  .  H  0  ?  ?  ?  0  19
+DIL  2HD1  .  H  0  ?  ?  ?  0  20
+DIL  3HD1  .  H  0  ?  ?  ?  0  21
+DIL  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIL  N    CA    SING  1 
+DIL  N    H     SING  2 
+DIL  N    HN2   SING  3 
+DIL  CA   C     SING  4 
+DIL  CA   CB    SING  5 
+DIL  CA   HA    SING  6 
+DIL  C    O     DOUB  7 
+DIL  C    OXT   SING  8 
+DIL  CB   CG1   SING  9 
+DIL  CB   CG2   SING  10
+DIL  CB   HB    SING  11
+DIL  CG1  CD1   SING  12
+DIL  CG1  1HG1  SING  13
+DIL  CG1  2HG1  SING  14
+DIL  CG2  1HG2  SING  15
+DIL  CG2  2HG2  SING  16
+DIL  CG2  3HG2  SING  17
+DIL  CD1  1HD1  SING  18
+DIL  CD1  2HD1  SING  19
+DIL  CD1  3HD1  SING  20
+DIL  OXT  HXT   SING  21
+#

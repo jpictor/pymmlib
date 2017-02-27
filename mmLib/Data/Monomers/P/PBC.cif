@@ -1,0 +1,63 @@
+data_PBC
+#
+_chem_comp.id                   PBC
+_chem_comp.name                 'PHENYL BORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 O2 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.930
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBC  B    .  B  0  ?  ?  ?  1  1 
+PBC  O1   .  O  0  ?  ?  ?  1  2 
+PBC  O2   .  O  0  ?  ?  ?  1  3 
+PBC  CG1  .  C  0  ?  ?  ?  1  4 
+PBC  CD1  .  C  0  ?  ?  ?  1  5 
+PBC  CG2  .  C  0  ?  ?  ?  1  6 
+PBC  CB2  .  C  0  ?  ?  ?  1  7 
+PBC  CA   .  C  0  ?  ?  ?  1  8 
+PBC  CB1  .  C  0  ?  ?  ?  1  9 
+PBC  HB1  .  H  0  ?  ?  ?  1  10
+PBC  HG1  .  H  0  ?  ?  ?  1  11
+PBC  HD1  .  H  0  ?  ?  ?  1  12
+PBC  HG2  .  H  0  ?  ?  ?  1  13
+PBC  HB2  .  H  0  ?  ?  ?  1  14
+PBC  HO1  .  H  0  ?  ?  ?  1  15
+PBC  HO2  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBC  B    O1   SING  1 
+PBC  B    O2   SING  2 
+PBC  B    CA   SING  3 
+PBC  O1   HO1  SING  4 
+PBC  O2   HO2  SING  5 
+PBC  CG1  CD1  AROM  6 
+PBC  CG1  CB1  AROM  7 
+PBC  CG1  HG1  SING  8 
+PBC  CD1  CG2  AROM  9 
+PBC  CD1  HD1  SING  10
+PBC  CG2  CB2  AROM  11
+PBC  CG2  HG2  SING  12
+PBC  CB2  CA   AROM  13
+PBC  CB2  HB2  SING  14
+PBC  CA   CB1  AROM  15
+PBC  CB1  HB1  SING  16
+#

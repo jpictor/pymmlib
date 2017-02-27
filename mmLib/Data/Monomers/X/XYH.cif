@@ -1,0 +1,72 @@
+data_XYH
+#
+_chem_comp.id                   XYH
+_chem_comp.name                 XYLAROHYDROXAMATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H8 N1 O7'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       194.121
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XYH  O1B  .  O  0   ?  ?  ?  1  1 
+XYH  O1A  .  O  -1  ?  ?  ?  1  2 
+XYH  C1   .  C  0   ?  ?  ?  1  3 
+XYH  C2   .  C  0   ?  ?  ?  1  4 
+XYH  OH2  .  O  0   ?  ?  ?  1  5 
+XYH  C3   .  C  0   ?  ?  ?  1  6 
+XYH  OH3  .  O  0   ?  ?  ?  1  7 
+XYH  C4   .  C  0   ?  ?  ?  1  8 
+XYH  OH4  .  O  0   ?  ?  ?  1  9 
+XYH  C5   .  C  0   ?  ?  ?  1  10
+XYH  OH5  .  O  0   ?  ?  ?  1  11
+XYH  N6   .  N  0   ?  ?  ?  1  12
+XYH  OH6  .  O  0   ?  ?  ?  1  13
+XYH  HO2  .  H  0   ?  ?  ?  1  14
+XYH  1H2  .  H  0   ?  ?  ?  0  15
+XYH  1H3  .  H  0   ?  ?  ?  0  16
+XYH  HO3  .  H  0   ?  ?  ?  1  17
+XYH  1H4  .  H  0   ?  ?  ?  0  18
+XYH  HO4  .  H  0   ?  ?  ?  1  19
+XYH  HN6  .  H  0   ?  ?  ?  1  20
+XYH  HO6  .  H  0   ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XYH  O1B  C1   DOUB  1 
+XYH  O1A  C1   SING  2 
+XYH  C1   C2   SING  3 
+XYH  C2   OH2  SING  4 
+XYH  C2   C3   SING  5 
+XYH  C2   1H2  SING  6 
+XYH  OH2  HO2  SING  7 
+XYH  C3   OH3  SING  8 
+XYH  C3   C4   SING  9 
+XYH  C3   1H3  SING  10
+XYH  OH3  HO3  SING  11
+XYH  C4   OH4  SING  12
+XYH  C4   C5   SING  13
+XYH  C4   1H4  SING  14
+XYH  OH4  HO4  SING  15
+XYH  C5   OH5  DOUB  16
+XYH  C5   N6   SING  17
+XYH  N6   OH6  SING  18
+XYH  N6   HN6  SING  19
+XYH  OH6  HO6  SING  20
+#

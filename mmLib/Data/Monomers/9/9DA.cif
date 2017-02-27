@@ -1,0 +1,64 @@
+data_9DA
+#
+_chem_comp.id                   9DA
+_chem_comp.name                 9-DEAZAADENINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        134.140
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+9DA  N1    .  N  0  8.348  32.765  41.777  1  1 
+9DA  C2    .  C  0  8.964  33.981  41.513  1  2 
+9DA  N3    .  N  0  8.775  34.630  40.351  1  3 
+9DA  C4    .  C  0  7.931  33.971  39.486  1  4 
+9DA  C5    .  C  0  7.287  32.757  39.689  1  5 
+9DA  C6    .  C  0  7.480  32.059  40.921  1  6 
+9DA  N6    .  N  0  7.009  30.972  41.314  1  7 
+9DA  N7    .  N  0  6.539  32.466  38.566  1  8 
+9DA  C8    .  C  0  6.726  33.484  37.696  1  9 
+9DA  C9    .  C  0  7.575  34.434  38.220  1  10
+9DA  1HN6  .  H  0  ?      ?       ?       0  11
+9DA  2HN6  .  H  0  ?      ?       ?       0  12
+9DA  HC2   .  H  0  ?      ?       ?       1  13
+9DA  HC8   .  H  0  ?      ?       ?       1  14
+9DA  HC9   .  H  0  ?      ?       ?       1  15
+9DA  HN7   .  H  0  ?      ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+9DA  N1  C2    AROM  1 
+9DA  N1  C6    AROM  2 
+9DA  C2  N3    AROM  3 
+9DA  C2  HC2   SING  4 
+9DA  N3  C4    AROM  5 
+9DA  C4  C5    AROM  6 
+9DA  C4  C9    SING  7 
+9DA  C5  C6    AROM  8 
+9DA  C5  N7    SING  9 
+9DA  C6  N6    SING  10
+9DA  N6  1HN6  SING  11
+9DA  N6  2HN6  SING  12
+9DA  N7  C8    SING  13
+9DA  N7  HN7   SING  14
+9DA  C8  C9    DOUB  15
+9DA  C8  HC8   SING  16
+9DA  C9  HC9   SING  17
+#

@@ -1,0 +1,111 @@
+data_5PA
+#
+_chem_comp.id                   5PA
+_chem_comp.name                 'N-[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-Y-LMETHYL]-1-AMINO-CYCLOPROPANECARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N2 O7 P1'
+_chem_comp.pdbx_synonyms        'N-PYRIDOXYL-1-AMINO-CYCLOPROPANECARBOXYLIC ACID-5-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        332.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5PA  C4    .  C  0  ?  ?  ?  1  1 
+5PA  C4A   .  C  0  ?  ?  ?  1  2 
+5PA  P     .  P  0  ?  ?  ?  1  3 
+5PA  O1P   .  O  0  ?  ?  ?  1  4 
+5PA  O2P   .  O  0  ?  ?  ?  1  5 
+5PA  O3P   .  O  0  ?  ?  ?  1  6 
+5PA  O4P   .  O  0  ?  ?  ?  1  7 
+5PA  C5A   .  C  0  ?  ?  ?  1  8 
+5PA  C5    .  C  0  ?  ?  ?  1  9 
+5PA  N1    .  N  0  ?  ?  ?  1  10
+5PA  C6    .  C  0  ?  ?  ?  1  11
+5PA  C2    .  C  0  ?  ?  ?  1  12
+5PA  C2A   .  C  0  ?  ?  ?  1  13
+5PA  C3    .  C  0  ?  ?  ?  1  14
+5PA  O3    .  O  0  ?  ?  ?  1  15
+5PA  N     .  N  0  ?  ?  ?  1  16
+5PA  C8    .  C  0  ?  ?  ?  1  17
+5PA  C7    .  C  0  ?  ?  ?  1  18
+5PA  O7    .  O  0  ?  ?  ?  1  19
+5PA  O8    .  O  0  ?  ?  ?  1  20
+5PA  C9    .  C  0  ?  ?  ?  1  21
+5PA  C10   .  C  0  ?  ?  ?  1  22
+5PA  1H10  .  H  0  ?  ?  ?  0  23
+5PA  2H10  .  H  0  ?  ?  ?  0  24
+5PA  1H2A  .  H  0  ?  ?  ?  0  25
+5PA  2H2A  .  H  0  ?  ?  ?  0  26
+5PA  3H2A  .  H  0  ?  ?  ?  0  27
+5PA  HO3   .  H  0  ?  ?  ?  1  28
+5PA  H6    .  H  0  ?  ?  ?  1  29
+5PA  1H5A  .  H  0  ?  ?  ?  0  30
+5PA  2H5A  .  H  0  ?  ?  ?  0  31
+5PA  2HOP  .  H  0  ?  ?  ?  0  32
+5PA  3HOP  .  H  0  ?  ?  ?  0  33
+5PA  1H4A  .  H  0  ?  ?  ?  0  34
+5PA  2H4A  .  H  0  ?  ?  ?  0  35
+5PA  1H9   .  H  0  ?  ?  ?  0  36
+5PA  2H9   .  H  0  ?  ?  ?  0  37
+5PA  HO8   .  H  0  ?  ?  ?  1  38
+5PA  HN    .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5PA  C4   C4A   SING  1 
+5PA  C4   C5    DOUB  2 
+5PA  C4   C3    SING  3 
+5PA  C4A  N     SING  4 
+5PA  C4A  1H4A  SING  5 
+5PA  C4A  2H4A  SING  6 
+5PA  P    O1P   DOUB  7 
+5PA  P    O2P   SING  8 
+5PA  P    O3P   SING  9 
+5PA  P    O4P   SING  10
+5PA  O2P  2HOP  SING  11
+5PA  O3P  3HOP  SING  12
+5PA  O4P  C5A   SING  13
+5PA  C5A  C5    SING  14
+5PA  C5A  1H5A  SING  15
+5PA  C5A  2H5A  SING  16
+5PA  C5   C6    SING  17
+5PA  N1   C6    DOUB  18
+5PA  N1   C2    SING  19
+5PA  C6   H6    SING  20
+5PA  C2   C2A   SING  21
+5PA  C2   C3    DOUB  22
+5PA  C2A  1H2A  SING  23
+5PA  C2A  2H2A  SING  24
+5PA  C2A  3H2A  SING  25
+5PA  C3   O3    SING  26
+5PA  O3   HO3   SING  27
+5PA  N    C8    SING  28
+5PA  N    HN    SING  29
+5PA  C8   C7    SING  30
+5PA  C8   C9    SING  31
+5PA  C8   C10   SING  32
+5PA  C7   O7    DOUB  33
+5PA  C7   O8    SING  34
+5PA  O8   HO8   SING  35
+5PA  C9   C10   SING  36
+5PA  C9   1H9   SING  37
+5PA  C9   2H9   SING  38
+5PA  C10  1H10  SING  39
+5PA  C10  2H10  SING  40
+#

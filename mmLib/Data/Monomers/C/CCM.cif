@@ -1,0 +1,73 @@
+data_CCM
+#
+_chem_comp.id                   CCM
+_chem_comp.name                 1-METHYL-1-CARBOXY-CYCLOPENTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        128.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CCM  CH2   .  C  0  ?  ?  ?  1  1 
+CCM  CA    .  C  0  ?  ?  ?  1  2 
+CCM  CB1   .  C  0  ?  ?  ?  1  3 
+CCM  CB2   .  C  0  ?  ?  ?  1  4 
+CCM  CG1   .  C  0  ?  ?  ?  1  5 
+CCM  CG2   .  C  0  ?  ?  ?  1  6 
+CCM  C     .  C  0  ?  ?  ?  1  7 
+CCM  O     .  O  0  ?  ?  ?  1  8 
+CCM  OXT   .  O  0  ?  ?  ?  1  9 
+CCM  1HH2  .  H  0  ?  ?  ?  0  10
+CCM  2HH2  .  H  0  ?  ?  ?  0  11
+CCM  3HH2  .  H  0  ?  ?  ?  0  12
+CCM  1HB1  .  H  0  ?  ?  ?  0  13
+CCM  2HB1  .  H  0  ?  ?  ?  0  14
+CCM  1HB2  .  H  0  ?  ?  ?  0  15
+CCM  2HB2  .  H  0  ?  ?  ?  0  16
+CCM  1HG1  .  H  0  ?  ?  ?  0  17
+CCM  2HG1  .  H  0  ?  ?  ?  0  18
+CCM  1HG2  .  H  0  ?  ?  ?  0  19
+CCM  2HG2  .  H  0  ?  ?  ?  0  20
+CCM  HXT   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CCM  CH2  CA    SING  1 
+CCM  CH2  1HH2  SING  2 
+CCM  CH2  2HH2  SING  3 
+CCM  CH2  3HH2  SING  4 
+CCM  CA   CB1   SING  5 
+CCM  CA   CB2   SING  6 
+CCM  CA   C     SING  7 
+CCM  CB1  CG1   SING  8 
+CCM  CB1  1HB1  SING  9 
+CCM  CB1  2HB1  SING  10
+CCM  CB2  CG2   SING  11
+CCM  CB2  1HB2  SING  12
+CCM  CB2  2HB2  SING  13
+CCM  CG1  CG2   SING  14
+CCM  CG1  1HG1  SING  15
+CCM  CG1  2HG1  SING  16
+CCM  CG2  1HG2  SING  17
+CCM  CG2  2HG2  SING  18
+CCM  C    O     DOUB  19
+CCM  C    OXT   SING  20
+CCM  OXT  HXT   SING  21
+#

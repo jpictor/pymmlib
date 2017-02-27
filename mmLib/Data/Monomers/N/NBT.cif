@@ -1,0 +1,62 @@
+data_NBT
+#
+_chem_comp.id                   NBT
+_chem_comp.name                 (2S)-2-NITROBUTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        103.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NBT  C1    .  C  0  94.386  91.913  87.959  1  1 
+NBT  C2    .  C  0  93.867  92.299  89.345  1  2 
+NBT  C3    .  C  0  94.548  91.468  90.439  1  3 
+NBT  C4    .  C  0  94.224  91.999  91.838  1  4 
+NBT  O15   .  O  0  93.046  94.643  89.681  1  5 
+NBT  O16   .  O  0  95.469  94.195  89.609  1  6 
+NBT  NCG   .  N  0  94.128  93.73   89.551  1  7 
+NBT  1H1C  .  H  0  93.891  92.517  87.163  0  8 
+NBT  2H1C  .  H  0  94.28   90.819  87.77   0  9 
+NBT  3H1C  .  H  0  95.497  91.988  87.901  0  10
+NBT  H2    .  H  0  92.767  92.12   89.384  1  11
+NBT  1H3C  .  H  0  95.649  91.403  90.274  0  12
+NBT  2H3C  .  H  0  94.293  90.386  90.346  0  13
+NBT  1H4C  .  H  0  94.719  91.395  92.633  0  14
+NBT  2H4C  .  H  0  93.123  92.064  92.003  0  15
+NBT  3H4C  .  H  0  94.479  93.08   91.931  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NBT  C1   C2    SING  1 
+NBT  C1   1H1C  SING  2 
+NBT  C1   2H1C  SING  3 
+NBT  C1   3H1C  SING  4 
+NBT  C2   C3    SING  5 
+NBT  C2   NCG   SING  6 
+NBT  C2   H2    SING  7 
+NBT  C3   C4    SING  8 
+NBT  C3   1H3C  SING  9 
+NBT  C3   2H3C  SING  10
+NBT  C4   1H4C  SING  11
+NBT  C4   2H4C  SING  12
+NBT  C4   3H4C  SING  13
+NBT  O15  NCG   DOUB  14
+NBT  O16  NCG   DOUB  15
+#

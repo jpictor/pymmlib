@@ -1,0 +1,89 @@
+data_PTX
+#
+_chem_comp.id                   PTX
+_chem_comp.name                 '{[(2E)-2-(2-AMINO-1,3-THIAZOL-4-YL)-2-(METHOXYIMINO)ETHANOYL]AMINO}METHYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N4 O5 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        294.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTX  P8    .  P  0  5.785  30.887  47.951  1  1 
+PTX  O81   .  O  0  7.093  31.440  47.512  1  2 
+PTX  O82   .  O  0  5.724  30.238  49.265  1  3 
+PTX  C7    .  C  0  5.091  29.866  46.706  1  4 
+PTX  N10   .  N  0  6.117  29.261  45.871  1  5 
+PTX  C11   .  C  0  5.873  28.119  45.229  1  6 
+PTX  O12   .  O  0  4.742  27.586  45.240  1  7 
+PTX  C13   .  C  0  7.028  27.626  44.534  1  8 
+PTX  N16   .  N  0  8.117  26.965  45.097  1  9 
+PTX  O17   .  O  0  8.037  26.765  46.549  1  10
+PTX  C18   .  C  0  9.100  25.881  46.877  1  11
+PTX  C14   .  C  0  7.159  27.804  43.101  1  12
+PTX  C15   .  C  0  6.262  28.606  42.272  1  13
+PTX  S16   .  S  0  6.682  28.606  40.690  1  14
+PTX  C17   .  C  0  8.006  27.596  41.005  1  15
+PTX  N18   .  N  0  8.898  27.139  40.028  1  16
+PTX  N19   .  N  0  8.090  27.292  42.279  1  17
+PTX  O1    .  O  0  ?      ?       ?       1  18
+PTX  H81   .  H  0  ?      ?       ?       1  19
+PTX  H82   .  H  0  ?      ?       ?       1  20
+PTX  1H7   .  H  0  ?      ?       ?       0  21
+PTX  2H7   .  H  0  ?      ?       ?       0  22
+PTX  H10   .  H  0  ?      ?       ?       1  23
+PTX  1H18  .  H  0  ?      ?       ?       0  24
+PTX  2H18  .  H  0  ?      ?       ?       0  25
+PTX  3H18  .  H  0  ?      ?       ?       0  26
+PTX  H15   .  H  0  ?      ?       ?       1  27
+PTX  1H1   .  H  0  ?      ?       ?       0  28
+PTX  2H1   .  H  0  ?      ?       ?       0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTX  P8   O81   SING  1 
+PTX  P8   O1    DOUB  2 
+PTX  P8   O82   SING  3 
+PTX  P8   C7    SING  4 
+PTX  O81  H81   SING  5 
+PTX  O82  H82   SING  6 
+PTX  C7   1H7   SING  7 
+PTX  C7   2H7   SING  8 
+PTX  C7   N10   SING  9 
+PTX  N10  H10   SING  10
+PTX  N10  C11   SING  11
+PTX  C11  O12   DOUB  12
+PTX  C11  C13   SING  13
+PTX  C13  N16   DOUB  14
+PTX  C13  C14   SING  15
+PTX  N16  O17   SING  16
+PTX  O17  C18   SING  17
+PTX  C18  1H18  SING  18
+PTX  C18  2H18  SING  19
+PTX  C18  3H18  SING  20
+PTX  C14  C15   DOUB  21
+PTX  C14  N19   SING  22
+PTX  C15  H15   SING  23
+PTX  C15  S16   SING  24
+PTX  S16  C17   SING  25
+PTX  C17  N19   DOUB  26
+PTX  C17  N18   SING  27
+PTX  N18  1H1   SING  28
+PTX  N18  2H1   SING  29
+#

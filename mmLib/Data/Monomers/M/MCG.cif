@@ -1,0 +1,84 @@
+data_MCG
+#
+_chem_comp.id                   MCG
+_chem_comp.name                 (S)-(ALPHA)-METHYL-4-CARBOXYPHENYLGLYCINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C10 H11 N1 O4'
+_chem_comp.pdbx_synonyms        '4-(1-AMINO-1-CARBOXY-ETHYL)-BENZOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        209.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCG  N    .  N  0  83.908  71.012  107.222  1  1 
+MCG  CA   .  C  0  83.123  70.701  106.008  1  2 
+MCG  C    .  C  0  82.929  69.209  105.873  1  3 
+MCG  CB   .  C  0  83.813  71.246  104.777  1  4 
+MCG  CG1  .  C  0  84.341  70.370  103.795  1  5 
+MCG  CG2  .  C  0  83.967  72.642  104.623  1  6 
+MCG  CD1  .  C  0  85.029  70.895  102.684  1  7 
+MCG  CD2  .  C  0  84.653  73.157  103.513  1  8 
+MCG  CE   .  C  0  85.188  72.287  102.555  1  9 
+MCG  CZ   .  C  0  85.932  72.825  101.448  1  10
+MCG  OH2  .  O  0  85.360  73.643  100.701  1  11
+MCG  OH1  .  O  0  87.117  72.453  101.297  1  12
+MCG  O    .  O  0  81.897  68.800  105.294  1  13
+MCG  OT   .  O  0  83.812  68.458  106.346  1  14
+MCG  CM   .  C  0  81.694  71.294  106.125  1  15
+MCG  HT   .  H  0  ?       ?       ?        1  16
+MCG  1HN  .  H  0  ?       ?       ?        0  17
+MCG  2HN  .  H  0  ?       ?       ?        0  18
+MCG  1HM  .  H  0  ?       ?       ?        0  19
+MCG  2HM  .  H  0  ?       ?       ?        0  20
+MCG  3HM  .  H  0  ?       ?       ?        0  21
+MCG  HG1  .  H  0  ?       ?       ?        1  22
+MCG  HG2  .  H  0  ?       ?       ?        1  23
+MCG  HD1  .  H  0  ?       ?       ?        1  24
+MCG  HD2  .  H  0  ?       ?       ?        1  25
+MCG  HO2  .  H  0  ?       ?       ?        1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCG  N    CA   SING  1 
+MCG  N    1HN  SING  2 
+MCG  N    2HN  SING  3 
+MCG  CA   C    SING  4 
+MCG  CA   CB   SING  5 
+MCG  CA   CM   SING  6 
+MCG  C    O    DOUB  7 
+MCG  C    OT   SING  8 
+MCG  CB   CG1  AROM  9 
+MCG  CB   CG2  AROM  10
+MCG  CG1  CD1  AROM  11
+MCG  CG1  HG1  SING  12
+MCG  CG2  CD2  AROM  13
+MCG  CG2  HG2  SING  14
+MCG  CD1  CE   AROM  15
+MCG  CD1  HD1  SING  16
+MCG  CD2  CE   AROM  17
+MCG  CD2  HD2  SING  18
+MCG  CE   CZ   SING  19
+MCG  CZ   OH2  SING  20
+MCG  CZ   OH1  DOUB  21
+MCG  OH2  HO2  SING  22
+MCG  OT   HT   SING  23
+MCG  CM   1HM  SING  24
+MCG  CM   2HM  SING  25
+MCG  CM   3HM  SING  26
+#

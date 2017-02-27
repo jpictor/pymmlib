@@ -1,0 +1,70 @@
+data_QUS
+#
+_chem_comp.id                   QUS
+_chem_comp.name                 '(S)-2-AMINO-3-(3,5-DIOXO-[1,2,4]OXADIAZOLIDIN-2-YL)-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 N3 O5'
+_chem_comp.pdbx_synonyms        QUISQUALATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        188.120
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+QUS  C01   .  C  0  31.482  53.532  6.403   1  1 
+QUS  C02   .  C  0  31.224  53.701  4.904   1  2 
+QUS  C03   .  C  0  32.103  54.884  4.470   1  3 
+QUS  C04   .  C  0  33.519  53.780  2.649   1  4 
+QUS  C05   .  C  0  32.235  54.487  0.939   1  5 
+QUS  NP3   .  N  0  29.752  53.892  4.792   1  6 
+QUS  N14   .  N  0  32.626  54.721  3.104   1  7 
+QUS  N15   .  N  0  33.257  53.666  1.327   1  8 
+QUS  O16   .  O  0  30.511  53.513  7.189   1  9 
+QUS  O17   .  O  0  32.677  53.418  6.776   1  10
+QUS  O18   .  O  0  34.339  53.216  3.345   1  11
+QUS  O19   .  O  0  31.723  54.657  -0.147  1  12
+QUS  O20   .  O  0  31.806  55.166  2.029   1  13
+QUS  H02   .  H  0  ?       ?       ?       1  14
+QUS  1H03  .  H  0  ?       ?       ?       0  15
+QUS  2H03  .  H  0  ?       ?       ?       0  16
+QUS  1HP3  .  H  0  ?       ?       ?       0  17
+QUS  2HP3  .  H  0  ?       ?       ?       0  18
+QUS  3HP3  .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+QUS  C01  C02   SING  1 
+QUS  C01  O16   DOUB  2 
+QUS  C01  O17   SING  3 
+QUS  C02  C03   SING  4 
+QUS  C02  NP3   SING  5 
+QUS  C02  H02   SING  6 
+QUS  C03  N14   SING  7 
+QUS  C03  1H03  SING  8 
+QUS  C03  2H03  SING  9 
+QUS  C04  N14   SING  10
+QUS  C04  N15   SING  11
+QUS  C04  O18   DOUB  12
+QUS  C05  N15   SING  13
+QUS  C05  O19   DOUB  14
+QUS  C05  O20   SING  15
+QUS  NP3  1HP3  SING  16
+QUS  NP3  2HP3  SING  17
+QUS  NP3  3HP3  SING  18
+QUS  N14  O20   SING  19
+#

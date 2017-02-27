@@ -1,0 +1,69 @@
+data_GAD
+#
+_chem_comp.id                   GAD
+_chem_comp.name                 '2,6-ANHYDRO-3-DEOXY-D-ERYTHRO-HEX-2-ENONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H8 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GAD  C1   .  C  0  -3.723  37.246  76.385  1  1 
+GAD  C2   .  C  0  -4.104  36.394  75.164  1  2 
+GAD  O2   .  O  0  -3.521  36.881  73.980  1  3 
+GAD  C3   .  C  0  -5.614  36.427  74.926  1  4 
+GAD  O3   .  O  0  -6.085  35.126  74.525  1  5 
+GAD  C4   .  C  0  -6.392  37.137  76.078  1  6 
+GAD  C5   .  C  0  -5.905  37.095  77.324  1  7 
+GAD  C6   .  C  0  -6.580  37.539  78.633  1  8 
+GAD  O6A  .  O  0  -7.734  38.089  78.693  1  9 
+GAD  O6B  .  O  0  -5.850  37.256  79.622  1  10
+GAD  O5   .  O  0  -4.543  36.637  77.411  1  11
+GAD  H6B  .  H  0  ?       ?       ?       1  12
+GAD  H4   .  H  0  ?       ?       ?       1  13
+GAD  H3   .  H  0  ?       ?       ?       1  14
+GAD  HO3  .  H  0  ?       ?       ?       1  15
+GAD  H2   .  H  0  ?       ?       ?       1  16
+GAD  HO2  .  H  0  ?       ?       ?       1  17
+GAD  1H1  .  H  0  ?       ?       ?       0  18
+GAD  2H1  .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GAD  C1   C2   SING  1 
+GAD  C1   O5   SING  2 
+GAD  C1   1H1  SING  3 
+GAD  C1   2H1  SING  4 
+GAD  C2   C3   SING  5 
+GAD  C2   O2   SING  6 
+GAD  C2   H2   SING  7 
+GAD  O2   HO2  SING  8 
+GAD  C3   C4   SING  9 
+GAD  C3   O3   SING  10
+GAD  C3   H3   SING  11
+GAD  O3   HO3  SING  12
+GAD  C4   C5   DOUB  13
+GAD  C4   H4   SING  14
+GAD  C5   C6   SING  15
+GAD  C5   O5   SING  16
+GAD  C6   O6A  DOUB  17
+GAD  C6   O6B  SING  18
+GAD  O6B  H6B  SING  19
+#

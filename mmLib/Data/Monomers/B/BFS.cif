@@ -1,0 +1,98 @@
+data_BFS
+#
+_chem_comp.id                   BFS
+_chem_comp.name                 'N-[1-(4-BROMOPHENYL)ETHYL]-5-FLUORO SALICYLAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H13 N1 O2 BR1 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.176
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BFS  C1    .  C   0  ?  ?  ?  1  1 
+BFS  C2    .  C   0  ?  ?  ?  1  2 
+BFS  C3    .  C   0  ?  ?  ?  1  3 
+BFS  C4    .  C   0  ?  ?  ?  1  4 
+BFS  C5    .  C   0  ?  ?  ?  1  5 
+BFS  C6    .  C   0  ?  ?  ?  1  6 
+BFS  C     .  C   0  ?  ?  ?  1  7 
+BFS  CE1   .  C   0  ?  ?  ?  1  8 
+BFS  CE2   .  C   0  ?  ?  ?  1  9 
+BFS  C1'   .  C   0  ?  ?  ?  1  10
+BFS  C2'   .  C   0  ?  ?  ?  1  11
+BFS  C3'   .  C   0  ?  ?  ?  1  12
+BFS  C4'   .  C   0  ?  ?  ?  1  13
+BFS  C5'   .  C   0  ?  ?  ?  1  14
+BFS  C6'   .  C   0  ?  ?  ?  1  15
+BFS  N     .  N   0  ?  ?  ?  1  16
+BFS  O     .  O   0  ?  ?  ?  1  17
+BFS  O2    .  O   0  ?  ?  ?  1  18
+BFS  F5    .  F   0  ?  ?  ?  1  19
+BFS  BR4   .  BR  0  ?  ?  ?  0  20
+BFS  H3    .  H   0  ?  ?  ?  1  21
+BFS  H4    .  H   0  ?  ?  ?  1  22
+BFS  H6    .  H   0  ?  ?  ?  1  23
+BFS  HE1   .  H   0  ?  ?  ?  1  24
+BFS  1HE2  .  H   0  ?  ?  ?  0  25
+BFS  2HE2  .  H   0  ?  ?  ?  0  26
+BFS  3HE2  .  H   0  ?  ?  ?  0  27
+BFS  H2'   .  H   0  ?  ?  ?  1  28
+BFS  H3'   .  H   0  ?  ?  ?  1  29
+BFS  H5'   .  H   0  ?  ?  ?  1  30
+BFS  H6'   .  H   0  ?  ?  ?  1  31
+BFS  HN    .  H   0  ?  ?  ?  1  32
+BFS  HO2   .  H   0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BFS  C1   C     SING  1 
+BFS  C1   C2    DOUB  2 
+BFS  C1   C6    SING  3 
+BFS  C2   C3    SING  4 
+BFS  C2   O2    SING  5 
+BFS  C3   C4    DOUB  6 
+BFS  C3   H3    SING  7 
+BFS  C4   C5    SING  8 
+BFS  C4   H4    SING  9 
+BFS  C5   C6    DOUB  10
+BFS  C5   F5    SING  11
+BFS  C6   H6    SING  12
+BFS  C    N     SING  13
+BFS  C    O     DOUB  14
+BFS  CE1  CE2   SING  15
+BFS  CE1  C1'   SING  16
+BFS  CE1  N     SING  17
+BFS  CE1  HE1   SING  18
+BFS  CE2  1HE2  SING  19
+BFS  CE2  2HE2  SING  20
+BFS  CE2  3HE2  SING  21
+BFS  C1'  C2'   DOUB  22
+BFS  C1'  C6'   SING  23
+BFS  C2'  C3'   SING  24
+BFS  C2'  H2'   SING  25
+BFS  C3'  C4'   DOUB  26
+BFS  C3'  H3'   SING  27
+BFS  C4'  C5'   SING  28
+BFS  C4'  BR4   SING  29
+BFS  C5'  C6'   DOUB  30
+BFS  C5'  H5'   SING  31
+BFS  C6'  H6'   SING  32
+BFS  N    HN    SING  33
+BFS  O2   HO2   SING  34
+#

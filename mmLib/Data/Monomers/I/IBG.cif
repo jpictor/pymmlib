@@ -1,0 +1,131 @@
+data_IBG
+#
+_chem_comp.id                   IBG
+_chem_comp.name                 GAMMA-GLUTAMYL[S-(2-IODOBENZYL)CYSTEINYL]GLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H22 N3 O6 I1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        523.342
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBG  N1    .  N  0  76.974  60.763  -5.895   1  1 
+IBG  CA1   .  C  0  75.980  60.040  -6.661   1  2 
+IBG  C1    .  C  0  74.640  60.367  -6.021   1  3 
+IBG  O11   .  O  0  73.680  60.502  -6.754   1  4 
+IBG  O12   .  O  0  74.572  60.487  -4.789   1  5 
+IBG  CB1   .  C  0  76.326  58.544  -6.638   1  6 
+IBG  CG1   .  C  0  75.299  57.734  -7.413   1  7 
+IBG  CD1   .  C  0  75.535  56.236  -7.353   1  8 
+IBG  OE1   .  O  0  76.497  55.712  -6.738   1  9 
+IBG  N2    .  N  0  74.603  55.567  -7.998   1  10
+IBG  CA2   .  C  0  74.588  54.113  -8.052   1  11
+IBG  C2    .  C  0  74.168  53.658  -9.436   1  12
+IBG  O2    .  O  0  73.832  52.462  -9.616   1  13
+IBG  CB2   .  C  0  73.598  53.524  -7.052   1  14
+IBG  SG2   .  S  0  73.823  53.941  -5.286   1  15
+IBG  N3    .  N  0  74.193  54.594  -10.405  1  16
+IBG  CA3   .  C  0  73.666  54.339  -11.733  1  17
+IBG  C3    .  C  0  74.728  54.330  -12.806  1  18
+IBG  O31   .  O  0  74.336  54.146  -13.963  1  19
+IBG  O32   .  O  0  75.904  54.514  -12.482  1  20
+IBG  CS    .  C  0  75.420  53.030  -5.031   1  21
+IBG  C1S   .  C  0  76.059  53.529  -3.721   1  22
+IBG  C2S   .  C  0  75.543  53.216  -2.436   1  23
+IBG  C3S   .  C  0  76.189  53.711  -1.258   1  24
+IBG  I2S   .  I  0  73.786  51.996  -2.153   1  25
+IBG  C4S   .  C  0  77.333  54.503  -1.334   1  26
+IBG  C5S   .  C  0  77.843  54.812  -2.613   1  27
+IBG  C6S   .  C  0  77.222  54.335  -3.798   1  28
+IBG  H31   .  H  0  ?       ?       ?        1  29
+IBG  1HC3  .  H  0  ?       ?       ?        0  30
+IBG  2HC3  .  H  0  ?       ?       ?        0  31
+IBG  1HB2  .  H  0  ?       ?       ?        0  32
+IBG  2HB2  .  H  0  ?       ?       ?        0  33
+IBG  1HCG  .  H  0  ?       ?       ?        0  34
+IBG  2HCG  .  H  0  ?       ?       ?        0  35
+IBG  1HCB  .  H  0  ?       ?       ?        0  36
+IBG  2HCB  .  H  0  ?       ?       ?        0  37
+IBG  1HCS  .  H  0  ?       ?       ?        0  38
+IBG  2HCS  .  H  0  ?       ?       ?        0  39
+IBG  H6S   .  H  0  ?       ?       ?        1  40
+IBG  H3S   .  H  0  ?       ?       ?        1  41
+IBG  H4S   .  H  0  ?       ?       ?        1  42
+IBG  H5S   .  H  0  ?       ?       ?        1  43
+IBG  1HN1  .  H  0  ?       ?       ?        0  44
+IBG  2HN1  .  H  0  ?       ?       ?        0  45
+IBG  CHA1  .  H  0  ?       ?       ?        0  46
+IBG  H12   .  H  0  ?       ?       ?        1  47
+IBG  HN2   .  H  0  ?       ?       ?        1  48
+IBG  HN3   .  H  0  ?       ?       ?        1  49
+IBG  CHA2  .  H  0  ?       ?       ?        0  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBG  N1   CA1   SING  1 
+IBG  N1   1HN1  SING  2 
+IBG  N1   2HN1  SING  3 
+IBG  CA1  C1    SING  4 
+IBG  CA1  CB1   SING  5 
+IBG  CA1  CHA1  SING  6 
+IBG  C1   O11   DOUB  7 
+IBG  C1   O12   SING  8 
+IBG  O12  H12   SING  9 
+IBG  CB1  CG1   SING  10
+IBG  CB1  1HCB  SING  11
+IBG  CB1  2HCB  SING  12
+IBG  CG1  CD1   SING  13
+IBG  CG1  1HCG  SING  14
+IBG  CG1  2HCG  SING  15
+IBG  CD1  OE1   DOUB  16
+IBG  CD1  N2    SING  17
+IBG  N2   CA2   SING  18
+IBG  N2   HN2   SING  19
+IBG  CA2  C2    SING  20
+IBG  CA2  CB2   SING  21
+IBG  CA2  CHA2  SING  22
+IBG  C2   O2    DOUB  23
+IBG  C2   N3    SING  24
+IBG  CB2  SG2   SING  25
+IBG  CB2  1HB2  SING  26
+IBG  CB2  2HB2  SING  27
+IBG  SG2  CS    SING  28
+IBG  N3   CA3   SING  29
+IBG  N3   HN3   SING  30
+IBG  CA3  C3    SING  31
+IBG  CA3  1HC3  SING  32
+IBG  CA3  2HC3  SING  33
+IBG  C3   O31   SING  34
+IBG  C3   O32   DOUB  35
+IBG  O31  H31   SING  36
+IBG  CS   C1S   SING  37
+IBG  CS   1HCS  SING  38
+IBG  CS   2HCS  SING  39
+IBG  C1S  C2S   AROM  40
+IBG  C1S  C6S   AROM  41
+IBG  C2S  C3S   AROM  42
+IBG  C2S  I2S   SING  43
+IBG  C3S  C4S   AROM  44
+IBG  C3S  H3S   SING  45
+IBG  C4S  C5S   AROM  46
+IBG  C4S  H4S   SING  47
+IBG  C5S  C6S   AROM  48
+IBG  C5S  H5S   SING  49
+IBG  C6S  H6S   SING  50
+#

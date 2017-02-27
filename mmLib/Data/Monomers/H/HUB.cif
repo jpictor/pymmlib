@@ -1,0 +1,112 @@
+data_HUB
+#
+_chem_comp.id                   HUB
+_chem_comp.name                 'HUPERZINE B'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H20 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        256.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HUB  C1    .  C  0  ?  ?  ?  1  1 
+HUB  O1    .  O  0  ?  ?  ?  1  2 
+HUB  N1    .  N  0  ?  ?  ?  1  3 
+HUB  C2    .  C  0  ?  ?  ?  1  4 
+HUB  C3    .  C  0  ?  ?  ?  1  5 
+HUB  C4    .  C  0  ?  ?  ?  1  6 
+HUB  C5    .  C  0  ?  ?  ?  1  7 
+HUB  C6    .  C  0  ?  ?  ?  1  8 
+HUB  C7    .  C  0  ?  ?  ?  1  9 
+HUB  C8    .  C  0  ?  ?  ?  1  10
+HUB  C9    .  C  0  ?  ?  ?  1  11
+HUB  C10   .  C  0  ?  ?  ?  1  12
+HUB  C11   .  C  0  ?  ?  ?  1  13
+HUB  C12   .  C  0  ?  ?  ?  1  14
+HUB  N2    .  N  0  ?  ?  ?  1  15
+HUB  C13   .  C  0  ?  ?  ?  1  16
+HUB  C14   .  C  0  ?  ?  ?  1  17
+HUB  C15   .  C  0  ?  ?  ?  1  18
+HUB  C90   .  C  0  ?  ?  ?  1  19
+HUB  H1    .  H  0  ?  ?  ?  1  20
+HUB  H2    .  H  0  ?  ?  ?  1  21
+HUB  1H90  .  H  0  ?  ?  ?  0  22
+HUB  2H90  .  H  0  ?  ?  ?  0  23
+HUB  1H9C  .  H  0  ?  ?  ?  0  24
+HUB  2H9C  .  H  0  ?  ?  ?  0  25
+HUB  HA    .  H  0  ?  ?  ?  1  26
+HUB  H3    .  H  0  ?  ?  ?  1  27
+HUB  1H6C  .  H  0  ?  ?  ?  0  28
+HUB  2H6C  .  H  0  ?  ?  ?  0  29
+HUB  H7    .  H  0  ?  ?  ?  1  30
+HUB  H8    .  H  0  ?  ?  ?  1  31
+HUB  H11   .  H  0  ?  ?  ?  1  32
+HUB  1H10  .  H  0  ?  ?  ?  0  33
+HUB  2H10  .  H  0  ?  ?  ?  0  34
+HUB  1H13  .  H  0  ?  ?  ?  0  35
+HUB  2H13  .  H  0  ?  ?  ?  0  36
+HUB  1H15  .  H  0  ?  ?  ?  0  37
+HUB  2H15  .  H  0  ?  ?  ?  0  38
+HUB  3H15  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HUB  C1   O1    DOUB  1 
+HUB  C1   N1    SING  2 
+HUB  C1   C2    SING  3 
+HUB  N1   C5    SING  4 
+HUB  N1   H1    SING  5 
+HUB  C2   C3    DOUB  6 
+HUB  C2   H2    SING  7 
+HUB  C3   C4    SING  8 
+HUB  C3   H3    SING  9 
+HUB  C4   C5    DOUB  10
+HUB  C4   C12   SING  11
+HUB  C5   C6    SING  12
+HUB  C6   C7    SING  13
+HUB  C6   1H6C  SING  14
+HUB  C6   2H6C  SING  15
+HUB  C7   C8    SING  16
+HUB  C7   C11   SING  17
+HUB  C7   H7    SING  18
+HUB  C8   C14   DOUB  19
+HUB  C8   H8    SING  20
+HUB  C9   C10   SING  21
+HUB  C9   1H9C  SING  22
+HUB  C9   2H9C  SING  23
+HUB  C9   C90   SING  24
+HUB  C10  C11   SING  25
+HUB  C10  1H10  SING  26
+HUB  C10  2H10  SING  27
+HUB  C11  C12   SING  28
+HUB  C11  H11   SING  29
+HUB  C12  N2    SING  30
+HUB  C12  C13   SING  31
+HUB  N2   HA    SING  32
+HUB  N2   C90   SING  33
+HUB  C13  C14   SING  34
+HUB  C13  1H13  SING  35
+HUB  C13  2H13  SING  36
+HUB  C14  C15   SING  37
+HUB  C15  1H15  SING  38
+HUB  C15  2H15  SING  39
+HUB  C15  3H15  SING  40
+HUB  C90  1H90  SING  41
+HUB  C90  2H90  SING  42
+#

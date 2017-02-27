@@ -1,0 +1,109 @@
+data_GPN
+#
+_chem_comp.id                       GPN
+_chem_comp.name                     2-AMINOETHYLGLYCINE-CARBONYLMETHYLENE-GUANINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N7 O4'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           310.292
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GPN  C8'   .  C  0  ?  ?  ?  1  1 
+GPN  C7'   .  C  0  ?  ?  ?  1  2 
+GPN  O7'   .  O  0  ?  ?  ?  1  3 
+GPN  C5'   .  C  0  ?  ?  ?  1  4 
+GPN  C'    .  C  0  ?  ?  ?  1  5 
+GPN  O1'   .  O  0  ?  ?  ?  1  6 
+GPN  OXT   .  O  0  ?  ?  ?  1  7 
+GPN  N4'   .  N  0  ?  ?  ?  1  8 
+GPN  C3'   .  C  0  ?  ?  ?  1  9 
+GPN  C2'   .  C  0  ?  ?  ?  1  10
+GPN  N1'   .  N  1  ?  ?  ?  1  11
+GPN  N9    .  N  0  ?  ?  ?  1  12
+GPN  C8    .  C  0  ?  ?  ?  1  13
+GPN  N7    .  N  0  ?  ?  ?  1  14
+GPN  C5    .  C  0  ?  ?  ?  1  15
+GPN  C6    .  C  0  ?  ?  ?  1  16
+GPN  O6    .  O  0  ?  ?  ?  1  17
+GPN  N1    .  N  0  ?  ?  ?  1  18
+GPN  C2    .  C  0  ?  ?  ?  1  19
+GPN  N2    .  N  0  ?  ?  ?  1  20
+GPN  N3    .  N  0  ?  ?  ?  1  21
+GPN  C4    .  C  0  ?  ?  ?  1  22
+GPN  1H1'  .  H  0  ?  ?  ?  0  23
+GPN  2H1'  .  H  0  ?  ?  ?  0  24
+GPN  3H1'  .  H  0  ?  ?  ?  0  25
+GPN  1H2'  .  H  0  ?  ?  ?  0  26
+GPN  2H2'  .  H  0  ?  ?  ?  0  27
+GPN  HXT   .  H  0  ?  ?  ?  1  28
+GPN  1H3'  .  H  0  ?  ?  ?  0  29
+GPN  2H3'  .  H  0  ?  ?  ?  0  30
+GPN  1H5'  .  H  0  ?  ?  ?  0  31
+GPN  2H5'  .  H  0  ?  ?  ?  0  32
+GPN  1H8'  .  H  0  ?  ?  ?  0  33
+GPN  2H8'  .  H  0  ?  ?  ?  0  34
+GPN  H8    .  H  0  ?  ?  ?  1  35
+GPN  HN1   .  H  0  ?  ?  ?  1  36
+GPN  1HN2  .  H  0  ?  ?  ?  0  37
+GPN  2HN2  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GPN  C8'  C7'   SING  1 
+GPN  C8'  N9    SING  2 
+GPN  C8'  1H8'  SING  3 
+GPN  C8'  2H8'  SING  4 
+GPN  C7'  N4'   SING  5 
+GPN  C7'  O7'   DOUB  6 
+GPN  C5'  N4'   SING  7 
+GPN  C5'  C'    SING  8 
+GPN  C5'  1H5'  SING  9 
+GPN  C5'  2H5'  SING  10
+GPN  C'   O1'   DOUB  11
+GPN  C'   OXT   SING  12
+GPN  OXT  HXT   SING  13
+GPN  N4'  C3'   SING  14
+GPN  C3'  C2'   SING  15
+GPN  C3'  1H3'  SING  16
+GPN  C3'  2H3'  SING  17
+GPN  C2'  N1'   SING  18
+GPN  C2'  1H2'  SING  19
+GPN  C2'  2H2'  SING  20
+GPN  N1'  1H1'  SING  21
+GPN  N1'  2H1'  SING  22
+GPN  N1'  3H1'  SING  23
+GPN  N9   C8    SING  24
+GPN  N9   C4    SING  25
+GPN  C8   N7    DOUB  26
+GPN  C8   H8    SING  27
+GPN  N7   C5    SING  28
+GPN  C5   C6    SING  29
+GPN  C5   C4    DOUB  30
+GPN  C6   O6    DOUB  31
+GPN  C6   N1    SING  32
+GPN  N1   C2    SING  33
+GPN  N1   HN1   SING  34
+GPN  C2   N2    SING  35
+GPN  C2   N3    DOUB  36
+GPN  N2   1HN2  SING  37
+GPN  N2   2HN2  SING  38
+GPN  N3   C4    SING  39
+#

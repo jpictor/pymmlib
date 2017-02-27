@@ -1,0 +1,81 @@
+data_TYC
+#
+_chem_comp.id                   TYC
+_chem_comp.name                 L-TYROSINAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.206
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYC  N     .  N  0  2.936  2.188  10.055  1  1 
+TYC  CA    .  C  0  2.401  3.263  9.256   1  2 
+TYC  C     .  C  0  2.17   2.69   7.844   1  3 
+TYC  O     .  O  0  2.65   1.571  7.634   1  4 
+TYC  CB    .  C  0  3.31   4.444  9.142   1  5 
+TYC  CG    .  C  0  4.237  4.84   10.234  1  6 
+TYC  CD1   .  C  0  5.293  4.093  10.686  1  7 
+TYC  CD2   .  C  0  3.974  6.08   10.806  1  8 
+TYC  CE1   .  C  0  6.152  4.498  11.725  1  9 
+TYC  CE2   .  C  0  4.819  6.5    11.813  1  10
+TYC  OH    .  O  0  6.661  6.276  13.288  1  11
+TYC  CZ    .  C  0  5.876  5.741  12.277  1  12
+TYC  NXT   .  N  0  1.494  3.434  6.993   1  13
+TYC  H0    .  H  0  3.623  1.756  9.771   1  14
+TYC  HA    .  H  0  1.544  3.55   9.633   1  15
+TYC  HB1   .  H  0  3.853  4.304  8.351   1  16
+TYC  HB2   .  H  0  2.747  5.213  8.961   1  17
+TYC  HD1   .  H  0  5.452  3.27   10.282  1  18
+TYC  HD2   .  H  0  3.26   6.603  10.522  1  19
+TYC  HE1   .  H  0  6.857  3.968  12.021  1  20
+TYC  HE2   .  H  0  4.669  7.334  12.198  1  21
+TYC  HH    .  H  0  7.261  5.75   13.476  1  22
+TYC  1HT2  .  H  0  1.349  3.15   6.195   0  23
+TYC  2HT2  .  H  0  1.199  4.205  7.236   0  24
+TYC  H     .  H  0  2.188  1.522  10.25   1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYC  N    CA    SING  1 
+TYC  N    H0    SING  2 
+TYC  N    H     SING  3 
+TYC  CA   CB    SING  4 
+TYC  CA   C     SING  5 
+TYC  CA   HA    SING  6 
+TYC  C    O     DOUB  7 
+TYC  C    NXT   SING  8 
+TYC  CB   CG    SING  9 
+TYC  CB   HB1   SING  10
+TYC  CB   HB2   SING  11
+TYC  CG   CD1   AROM  12
+TYC  CG   CD2   AROM  13
+TYC  CD1  CE1   AROM  14
+TYC  CD1  HD1   SING  15
+TYC  CD2  CE2   AROM  16
+TYC  CD2  HD2   SING  17
+TYC  CE1  CZ    AROM  18
+TYC  CE1  HE1   SING  19
+TYC  CE2  CZ    AROM  20
+TYC  CE2  HE2   SING  21
+TYC  OH   HH    SING  22
+TYC  OH   CZ    SING  23
+TYC  NXT  1HT2  SING  24
+TYC  NXT  2HT2  SING  25
+#

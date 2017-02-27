@@ -1,0 +1,99 @@
+data_SN2
+#
+_chem_comp.id                   SN2
+_chem_comp.name                 5-[BIS-2(CHLORO-ETHYL)-AMINO]-2,4-DINTRO-BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 N4 O5 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        351.146
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SN2  C1    .  C   0  -10.222  -13.907  49.741  1  1 
+SN2  C2    .  C   0  -9.878   -14.299  50.979  1  2 
+SN2  C3    .  C   0  -8.665   -15.128  51.242  1  3 
+SN2  C4    .  C   0  -7.851   -15.490  50.208  1  4 
+SN2  C5    .  C   0  -8.269   -15.082  48.832  1  5 
+SN2  C6    .  C   0  -9.381   -14.354  48.591  1  6 
+SN2  C7    .  C   0  -11.212  -11.737  49.985  1  7 
+SN2  C8    .  C   0  -12.604  -13.921  49.784  1  8 
+SN2  C9    .  C   0  -12.237  -11.290  51.072  1  9 
+SN2  C10   .  C   0  -13.015  -14.743  48.524  1  10
+SN2  C13   .  C   0  -8.589   -15.635  52.640  1  11
+SN2  O1    .  O   0  -6.482   -16.607  51.162  1  12
+SN2  O2    .  O   0  -9.604   -13.058  47.148  1  13
+SN2  O3    .  O   0  -5.857   -15.760  49.566  1  14
+SN2  O4    .  O   0  -9.242   -15.021  53.488  1  15
+SN2  O5    .  O   0  -10.014  -14.881  46.646  1  16
+SN2  N1    .  N   0  -6.757   -15.972  50.309  1  17
+SN2  N2    .  N   0  -9.689   -14.105  47.474  1  18
+SN2  N3    .  N   0  -11.336  -13.163  49.555  1  19
+SN2  N4    .  N   0  -8.484   -17.000  52.749  1  20
+SN2  CL1   .  CL  0  -12.165  -11.954  52.718  0  21
+SN2  CL2   .  CL  0  -11.938  -16.131  48.260  0  22
+SN2  1HN4  .  H   0  ?        ?        ?       0  23
+SN2  2HN4  .  H   0  ?        ?        ?       0  24
+SN2  HC2   .  H   0  ?        ?        ?       1  25
+SN2  HC5   .  H   0  ?        ?        ?       1  26
+SN2  1HC7  .  H   0  ?        ?        ?       0  27
+SN2  2HC7  .  H   0  ?        ?        ?       0  28
+SN2  1HC9  .  H   0  ?        ?        ?       0  29
+SN2  2HC9  .  H   0  ?        ?        ?       0  30
+SN2  1HC8  .  H   0  ?        ?        ?       0  31
+SN2  2HC8  .  H   0  ?        ?        ?       0  32
+SN2  1H10  .  H   0  ?        ?        ?       0  33
+SN2  2H10  .  H   0  ?        ?        ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SN2  C1   C2    AROM  1 
+SN2  C1   C6    AROM  2 
+SN2  C1   N3    SING  3 
+SN2  C2   C3    AROM  4 
+SN2  C2   HC2   SING  5 
+SN2  C3   C4    AROM  6 
+SN2  C3   C13   SING  7 
+SN2  C4   C5    AROM  8 
+SN2  C4   N1    SING  9 
+SN2  C5   C6    AROM  10
+SN2  C5   HC5   SING  11
+SN2  C6   N2    SING  12
+SN2  C7   C9    SING  13
+SN2  C7   N3    SING  14
+SN2  C7   1HC7  SING  15
+SN2  C7   2HC7  SING  16
+SN2  C8   C10   SING  17
+SN2  C8   N3    SING  18
+SN2  C8   1HC8  SING  19
+SN2  C8   2HC8  SING  20
+SN2  C9   CL2   SING  21
+SN2  C9   1HC9  SING  22
+SN2  C9   2HC9  SING  23
+SN2  C10  CL1   SING  24
+SN2  C10  1H10  SING  25
+SN2  C10  2H10  SING  26
+SN2  C13  O4    DOUB  27
+SN2  C13  N4    SING  28
+SN2  O1   N1    DOUB  29
+SN2  O2   N2    DOUB  30
+SN2  O3   N1    DOUB  31
+SN2  O5   N2    DOUB  32
+SN2  N4   1HN4  SING  33
+SN2  N4   2HN4  SING  34
+#

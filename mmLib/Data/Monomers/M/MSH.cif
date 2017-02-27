@@ -1,0 +1,82 @@
+data_MSH
+#
+_chem_comp.id                   MSH
+_chem_comp.name                 3-METHANESULFONYL-HEXANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.262
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSH  S1    .  S  0  ?  ?  ?  1  1 
+MSH  O2    .  O  0  ?  ?  ?  1  2 
+MSH  O3    .  O  0  ?  ?  ?  1  3 
+MSH  C4    .  C  0  ?  ?  ?  1  4 
+MSH  C5    .  C  0  ?  ?  ?  1  5 
+MSH  C6    .  C  0  ?  ?  ?  1  6 
+MSH  C7    .  C  0  ?  ?  ?  1  7 
+MSH  C8    .  C  0  ?  ?  ?  1  8 
+MSH  C9    .  C  0  ?  ?  ?  1  9 
+MSH  C10   .  C  0  ?  ?  ?  1  10
+MSH  1HC4  .  H  0  ?  ?  ?  0  11
+MSH  2HC4  .  H  0  ?  ?  ?  0  12
+MSH  3HC4  .  H  0  ?  ?  ?  0  13
+MSH  1HC5  .  H  0  ?  ?  ?  0  14
+MSH  2HC5  .  H  0  ?  ?  ?  0  15
+MSH  3HC5  .  H  0  ?  ?  ?  0  16
+MSH  1HC6  .  H  0  ?  ?  ?  0  17
+MSH  2HC6  .  H  0  ?  ?  ?  0  18
+MSH  1HC7  .  H  0  ?  ?  ?  0  19
+MSH  1HC8  .  H  0  ?  ?  ?  0  20
+MSH  2HC8  .  H  0  ?  ?  ?  0  21
+MSH  1HC9  .  H  0  ?  ?  ?  0  22
+MSH  2HC9  .  H  0  ?  ?  ?  0  23
+MSH  1H10  .  H  0  ?  ?  ?  0  24
+MSH  2H10  .  H  0  ?  ?  ?  0  25
+MSH  3H10  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSH  S1   O2    DOUB  1 
+MSH  S1   O3    DOUB  2 
+MSH  S1   C4    SING  3 
+MSH  S1   C7    SING  4 
+MSH  C4   1HC4  SING  5 
+MSH  C4   2HC4  SING  6 
+MSH  C4   3HC4  SING  7 
+MSH  C5   C6    SING  8 
+MSH  C5   1HC5  SING  9 
+MSH  C5   2HC5  SING  10
+MSH  C5   3HC5  SING  11
+MSH  C6   C7    SING  12
+MSH  C6   1HC6  SING  13
+MSH  C6   2HC6  SING  14
+MSH  C7   C8    SING  15
+MSH  C7   1HC7  SING  16
+MSH  C8   C9    SING  17
+MSH  C8   1HC8  SING  18
+MSH  C8   2HC8  SING  19
+MSH  C9   C10   SING  20
+MSH  C9   1HC9  SING  21
+MSH  C9   2HC9  SING  22
+MSH  C10  1H10  SING  23
+MSH  C10  2H10  SING  24
+MSH  C10  3H10  SING  25
+#

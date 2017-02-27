@@ -1,0 +1,110 @@
+data_CSL
+#
+_chem_comp.id                       CSL
+_chem_comp.name                     (D)-2'-METHYLSELENYL-2'-DEOXYCYTIDINE-5'-PHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                'RNA LINKING'
+_chem_comp.formula                  'C10 H16 N3 O7 P1 SE1'
+_chem_comp.pdbx_synonyms            (D)-2'-DEOXY-2'-SE-METHYLCYTIDINE-5'-PHOSPHATE
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            400.186
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSL  P     .  P   0  62.884  18.223  24.845  1  1 
+CSL  O2P   .  O   0  63.739  18.040  23.643  1  2 
+CSL  O1P   .  O   0  62.269  19.540  25.164  1  3 
+CSL  O5*   .  O   0  61.730  17.186  24.799  1  4 
+CSL  C5*   .  C   0  61.962  15.986  24.246  1  5 
+CSL  C4*   .  C   0  60.664  15.284  24.226  1  6 
+CSL  O4*   .  O   0  60.150  15.181  25.563  1  7 
+CSL  C1*   .  C   0  58.746  15.230  25.512  1  8 
+CSL  N1    .  N   0  58.294  16.334  26.307  1  9 
+CSL  C2    .  C   0  56.972  16.365  26.765  1  10
+CSL  O2    .  O   0  56.195  15.436  26.508  1  11
+CSL  N3    .  N   0  56.586  17.407  27.506  1  12
+CSL  C4    .  C   0  57.437  18.380  27.755  1  13
+CSL  N4    .  N   0  57.013  19.396  28.491  1  14
+CSL  C5    .  C   0  58.775  18.363  27.286  1  15
+CSL  C6    .  C   0  59.159  17.337  26.563  1  16
+CSL  C2*   .  C   0  58.362  15.387  24.053  1  17
+CSL  SE2*  .  SE  0  57.938  13.703  23.330  0  18
+CSL  CA*   .  C   0  59.189  12.355  23.778  1  19
+CSL  C3*   .  C   0  59.610  16.051  23.497  1  20
+CSL  O3*   .  O   0  59.811  15.935  22.120  1  21
+CSL  O3P   .  O   0  ?       ?       ?       1  22
+CSL  1HA*  .  H   0  ?       ?       ?       0  23
+CSL  2HA*  .  H   0  ?       ?       ?       0  24
+CSL  3HA*  .  H   0  ?       ?       ?       0  25
+CSL  H2*   .  H   0  ?       ?       ?       1  26
+CSL  H3*   .  H   0  ?       ?       ?       1  27
+CSL  H3T   .  H   0  ?       ?       ?       1  28
+CSL  H4*   .  H   0  ?       ?       ?       1  29
+CSL  1H5*  .  H   0  ?       ?       ?       0  30
+CSL  2H5*  .  H   0  ?       ?       ?       0  31
+CSL  2HOP  .  H   0  ?       ?       ?       0  32
+CSL  3HOP  .  H   0  ?       ?       ?       0  33
+CSL  H1*   .  H   0  ?       ?       ?       1  34
+CSL  H6    .  H   0  ?       ?       ?       1  35
+CSL  H5    .  H   0  ?       ?       ?       1  36
+CSL  1HN4  .  H   0  ?       ?       ?       0  37
+CSL  2HN4  .  H   0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSL  P     O5*   SING  1 
+CSL  P     O2P   SING  2 
+CSL  P     O3P   SING  3 
+CSL  P     O1P   DOUB  4 
+CSL  O2P   2HOP  SING  5 
+CSL  O5*   C5*   SING  6 
+CSL  C5*   C4*   SING  7 
+CSL  C5*   1H5*  SING  8 
+CSL  C5*   2H5*  SING  9 
+CSL  C4*   C3*   SING  10
+CSL  C4*   O4*   SING  11
+CSL  C4*   H4*   SING  12
+CSL  O4*   C1*   SING  13
+CSL  C1*   C2*   SING  14
+CSL  C1*   N1    SING  15
+CSL  C1*   H1*   SING  16
+CSL  N1    C6    SING  17
+CSL  N1    C2    SING  18
+CSL  C2    N3    SING  19
+CSL  C2    O2    DOUB  20
+CSL  N3    C4    DOUB  21
+CSL  C4    C5    SING  22
+CSL  C4    N4    SING  23
+CSL  N4    1HN4  SING  24
+CSL  N4    2HN4  SING  25
+CSL  C5    C6    DOUB  26
+CSL  C5    H5    SING  27
+CSL  C6    H6    SING  28
+CSL  C2*   SE2*  SING  29
+CSL  C2*   C3*   SING  30
+CSL  C2*   H2*   SING  31
+CSL  SE2*  CA*   SING  32
+CSL  CA*   1HA*  SING  33
+CSL  CA*   2HA*  SING  34
+CSL  CA*   3HA*  SING  35
+CSL  C3*   O3*   SING  36
+CSL  C3*   H3*   SING  37
+CSL  O3*   H3T   SING  38
+CSL  O3P   3HOP  SING  39
+#

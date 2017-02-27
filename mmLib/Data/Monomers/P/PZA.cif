@@ -1,0 +1,59 @@
+data_PZA
+#
+_chem_comp.id                   PZA
+_chem_comp.name                 PYRAZINE-2-CARBOXAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H5 N3 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        123.114
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PZA  C   .  C  0  -6.946  2.636   5.314  1  1 
+PZA  N1  .  N  0  -7.046  3.889   4.447  1  2 
+PZA  O   .  O  0  -7.384  2.947   6.619  1  3 
+PZA  C1  .  C  0  -3.282  1.653   4.441  1  4 
+PZA  C2  .  C  0  -3.399  0.157   4.752  1  5 
+PZA  N2  .  N  0  -4.343  -0.128  5.850  1  6 
+PZA  C3  .  C  0  -5.663  0.505   5.668  1  7 
+PZA  C4  .  C  0  -5.550  2.006   5.389  1  8 
+PZA  N3  .  N  0  -4.667  2.226   4.159  1  9 
+PZA  H1  .  H  0  -7.024  3.611   3.394  1  10
+PZA  H2  .  H  0  -6.220  4.563   4.669  1  11
+PZA  H3  .  H  0  -2.633  1.813   3.581  1  12
+PZA  H5  .  H  0  -2.418  -0.241  5.012  1  13
+PZA  H4  .  H  0  -6.251  0.349   6.571  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PZA  C   N1  SING  1 
+PZA  C   O   DOUB  2 
+PZA  C   C4  SING  3 
+PZA  N1  H1  SING  4 
+PZA  N1  H2  SING  5 
+PZA  C1  N3  AROM  6 
+PZA  C1  H3  SING  7 
+PZA  C1  C2  AROM  8 
+PZA  C2  H5  SING  9 
+PZA  C2  N2  AROM  10
+PZA  N2  C3  AROM  11
+PZA  C3  C4  AROM  12
+PZA  C3  H4  SING  13
+PZA  C4  N3  AROM  14
+#

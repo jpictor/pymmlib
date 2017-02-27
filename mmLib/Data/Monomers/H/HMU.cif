@@ -1,0 +1,64 @@
+data_HMU
+#
+_chem_comp.id                   HMU
+_chem_comp.name                 '5-HYDROXYMETHYL URACIL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 N2 O3'
+_chem_comp.pdbx_synonyms        5-(HYDROXYMETHYL)PYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        142.114
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HMU  N1    .  N  0  4.328  20.98   42.926  1  1 
+HMU  C2    .  C  0  4.245  22.334  42.473  1  2 
+HMU  O2    .  O  0  5.17   23.246  42.899  1  3 
+HMU  N3    .  N  0  3.137  22.528  41.576  1  4 
+HMU  C4    .  C  0  2.248  21.5    41.163  1  5 
+HMU  O3    .  O  0  1.211  18.816  39.902  1  6 
+HMU  O4    .  O  0  1.326  21.668  40.316  1  7 
+HMU  C5    .  C  0  2.409  20.09   41.665  1  8 
+HMU  CM5   .  C  0  1.523  18.858  41.271  1  9 
+HMU  C6    .  C  0  3.48   19.923  42.592  1  10
+HMU  H6    .  H  0  3.636  18.973  43.038  1  11
+HMU  1HM5  .  H  0  2.066  17.938  41.534  0  12
+HMU  2HM5  .  H  0  .574   18.949  41.82   0  13
+HMU  H3    .  H  0  1.144  17.873  39.607  1  14
+HMU  H1    .  H  0  ?      ?       ?       1  15
+HMU  H2    .  H  0  ?      ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HMU  N1   H1    SING  1 
+HMU  N1   C2    SING  2 
+HMU  N1   C6    SING  3 
+HMU  C2   O2    DOUB  4 
+HMU  C2   N3    SING  5 
+HMU  N3   H2    SING  6 
+HMU  N3   C4    SING  7 
+HMU  C4   C5    SING  8 
+HMU  C4   O4    DOUB  9 
+HMU  O3   H3    SING  10
+HMU  O3   CM5   SING  11
+HMU  C5   C6    DOUB  12
+HMU  C5   CM5   SING  13
+HMU  CM5  1HM5  SING  14
+HMU  CM5  2HM5  SING  15
+HMU  C6   H6    SING  16
+#

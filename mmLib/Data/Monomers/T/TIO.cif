@@ -1,0 +1,96 @@
+data_TIO
+#
+_chem_comp.id                   TIO
+_chem_comp.name                 (2-MERCAPTOMETHYL-3-PHENYL-PROPIONYL)-GLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N1 O3 S1'
+_chem_comp.pdbx_synonyms        THIORPHAN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.315
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TIO  SG1   .  S  0  ?  ?  ?  1  1 
+TIO  CB1   .  C  0  ?  ?  ?  1  2 
+TIO  CA1   .  C  0  ?  ?  ?  1  3 
+TIO  C     .  C  0  ?  ?  ?  1  4 
+TIO  O     .  O  0  ?  ?  ?  1  5 
+TIO  CB2   .  C  0  ?  ?  ?  1  6 
+TIO  CG2   .  C  0  ?  ?  ?  1  7 
+TIO  CD1   .  C  0  ?  ?  ?  1  8 
+TIO  CD2   .  C  0  ?  ?  ?  1  9 
+TIO  CE1   .  C  0  ?  ?  ?  1  10
+TIO  CE2   .  C  0  ?  ?  ?  1  11
+TIO  CZ    .  C  0  ?  ?  ?  1  12
+TIO  N     .  N  0  ?  ?  ?  1  13
+TIO  CA2   .  C  0  ?  ?  ?  1  14
+TIO  C1    .  C  0  ?  ?  ?  1  15
+TIO  O1    .  O  0  ?  ?  ?  1  16
+TIO  OH    .  O  0  ?  ?  ?  1  17
+TIO  HG    .  H  0  ?  ?  ?  1  18
+TIO  1HB1  .  H  0  ?  ?  ?  0  19
+TIO  2HB1  .  H  0  ?  ?  ?  0  20
+TIO  1HA1  .  H  0  ?  ?  ?  0  21
+TIO  1HB2  .  H  0  ?  ?  ?  0  22
+TIO  2HB2  .  H  0  ?  ?  ?  0  23
+TIO  HD1   .  H  0  ?  ?  ?  1  24
+TIO  HD2   .  H  0  ?  ?  ?  1  25
+TIO  HE1   .  H  0  ?  ?  ?  1  26
+TIO  HE2   .  H  0  ?  ?  ?  1  27
+TIO  HZ    .  H  0  ?  ?  ?  1  28
+TIO  HN    .  H  0  ?  ?  ?  1  29
+TIO  1HA2  .  H  0  ?  ?  ?  0  30
+TIO  2HA2  .  H  0  ?  ?  ?  0  31
+TIO  1HOH  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TIO  SG1  HG    SING  1 
+TIO  SG1  CB1   SING  2 
+TIO  CB1  1HB1  SING  3 
+TIO  CB1  2HB1  SING  4 
+TIO  CB1  CA1   SING  5 
+TIO  CA1  1HA1  SING  6 
+TIO  CA1  C     SING  7 
+TIO  CA1  CB2   SING  8 
+TIO  C    O     DOUB  9 
+TIO  C    N     SING  10
+TIO  CB2  CG2   SING  11
+TIO  CB2  1HB2  SING  12
+TIO  CB2  2HB2  SING  13
+TIO  CG2  CD1   DOUB  14
+TIO  CG2  CD2   SING  15
+TIO  CD1  CE1   SING  16
+TIO  CD1  HD1   SING  17
+TIO  CD2  CE2   DOUB  18
+TIO  CD2  HD2   SING  19
+TIO  CE1  CZ    DOUB  20
+TIO  CE1  HE1   SING  21
+TIO  CE2  CZ    SING  22
+TIO  CE2  HE2   SING  23
+TIO  CZ   HZ    SING  24
+TIO  N    CA2   SING  25
+TIO  N    HN    SING  26
+TIO  CA2  1HA2  SING  27
+TIO  CA2  2HA2  SING  28
+TIO  CA2  C1    SING  29
+TIO  C1   O1    DOUB  30
+TIO  C1   OH    SING  31
+TIO  OH   1HOH  SING  32
+#

@@ -1,0 +1,75 @@
+data_D3P
+#
+_chem_comp.id                   D3P
+_chem_comp.name                 '(2R)-AMINO(3,5-DIHYDROXYPHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        183.163
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D3P  N    .  N  0  40.857  34.553  -23.123  1  1 
+D3P  CA   .  C  0  42.037  34.873  -22.311  1  2 
+D3P  C    .  C  0  41.609  35.914  -21.22   1  3 
+D3P  O    .  O  0  40.53   35.797  -20.614  1  4 
+D3P  C1   .  C  0  42.689  33.742  -21.593  1  5 
+D3P  C2   .  C  0  41.902  32.754  -21.08   1  6 
+D3P  C3   .  C  0  42.471  31.693  -20.383  1  7 
+D3P  O3   .  O  0  41.637  30.725  -19.909  1  8 
+D3P  C4   .  C  0  43.826  31.619  -20.189  1  9 
+D3P  C5   .  C  0  44.626  32.637  -20.795  1  10
+D3P  O5   .  O  0  45.981  32.572  -20.667  1  11
+D3P  C6   .  C  0  44.065  33.722  -21.41   1  12
+D3P  OXT  .  O  0  ?       ?       ?        1  13
+D3P  1HN  .  H  0  41.162  34.158  -24.013  0  14
+D3P  2HN  .  H  0  40.422  35.421  -23.434  0  15
+D3P  HA   .  H  0  42.797  35.352  -22.972  1  16
+D3P  H2   .  H  0  40.808  32.796  -21.218  1  17
+D3P  H6   .  H  0  44.692  34.562  -21.753  1  18
+D3P  H3   .  H  0  42.026  30      -19.433  1  19
+D3P  H4   .  H  0  44.279  30.81   -19.592  1  20
+D3P  H5   .  H  0  46.371  31.818  -20.24   1  21
+D3P  HXT  .  H  0  ?       ?       ?        1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D3P  N    CA   SING  1 
+D3P  N    1HN  SING  2 
+D3P  N    2HN  SING  3 
+D3P  CA   C    SING  4 
+D3P  CA   C1   SING  5 
+D3P  CA   HA   SING  6 
+D3P  C    O    DOUB  7 
+D3P  C    OXT  SING  8 
+D3P  C1   C2   AROM  9 
+D3P  C1   C6   AROM  10
+D3P  C2   C3   AROM  11
+D3P  C2   H2   SING  12
+D3P  C3   O3   SING  13
+D3P  C3   C4   AROM  14
+D3P  O3   H3   SING  15
+D3P  C4   C5   AROM  16
+D3P  C4   H4   SING  17
+D3P  C5   O5   SING  18
+D3P  C5   C6   AROM  19
+D3P  O5   H5   SING  20
+D3P  C6   H6   SING  21
+D3P  OXT  HXT  SING  22
+#

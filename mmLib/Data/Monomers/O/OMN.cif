@@ -1,0 +1,88 @@
+data_OMN
+#
+_chem_comp.id                   OMN
+_chem_comp.name                 4-BROMO-3-(5'-CARBOXY-4'-CHLORO-2'-FLUOROPHENYL)-1-METHYL-5-TRIFLUOROMETHYL-PYRAZOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H6 N2 O2 BR1 CL1 F4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        401.542
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMN  C1   .  C   0  ?  ?  ?  1  1 
+OMN  N1   .  N   0  ?  ?  ?  1  2 
+OMN  N2   .  N   0  ?  ?  ?  1  3 
+OMN  C2   .  C   0  ?  ?  ?  1  4 
+OMN  C3   .  C   0  ?  ?  ?  1  5 
+OMN  BR1  .  BR  0  ?  ?  ?  0  6 
+OMN  C4   .  C   0  ?  ?  ?  1  7 
+OMN  C5   .  C   0  ?  ?  ?  1  8 
+OMN  F1   .  F   0  ?  ?  ?  1  9 
+OMN  F2   .  F   0  ?  ?  ?  1  10
+OMN  F3   .  F   0  ?  ?  ?  1  11
+OMN  C6   .  C   0  ?  ?  ?  1  12
+OMN  C7   .  C   0  ?  ?  ?  1  13
+OMN  C8   .  C   0  ?  ?  ?  1  14
+OMN  C9   .  C   0  ?  ?  ?  1  15
+OMN  O1   .  O   0  ?  ?  ?  1  16
+OMN  O2   .  O   0  ?  ?  ?  1  17
+OMN  C10  .  C   0  ?  ?  ?  1  18
+OMN  CL1  .  CL  0  ?  ?  ?  0  19
+OMN  C11  .  C   0  ?  ?  ?  1  20
+OMN  C12  .  C   0  ?  ?  ?  1  21
+OMN  F4   .  F   0  ?  ?  ?  1  22
+OMN  1H1  .  H   0  ?  ?  ?  0  23
+OMN  2H1  .  H   0  ?  ?  ?  0  24
+OMN  3H1  .  H   0  ?  ?  ?  0  25
+OMN  H7   .  H   0  ?  ?  ?  1  26
+OMN  HO1  .  H   0  ?  ?  ?  1  27
+OMN  H11  .  H   0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMN  C1   N1   SING  1 
+OMN  C1   1H1  SING  2 
+OMN  C1   2H1  SING  3 
+OMN  C1   3H1  SING  4 
+OMN  N1   N2   SING  5 
+OMN  N1   C4   SING  6 
+OMN  N2   C2   DOUB  7 
+OMN  C2   C3   SING  8 
+OMN  C2   C6   SING  9 
+OMN  C3   BR1  SING  10
+OMN  C3   C4   DOUB  11
+OMN  C4   C5   SING  12
+OMN  C5   F1   SING  13
+OMN  C5   F2   SING  14
+OMN  C5   F3   SING  15
+OMN  C6   C7   AROM  16
+OMN  C6   C12  AROM  17
+OMN  C7   C8   AROM  18
+OMN  C7   H7   SING  19
+OMN  C8   C9   SING  20
+OMN  C8   C10  AROM  21
+OMN  C9   O1   SING  22
+OMN  C9   O2   DOUB  23
+OMN  O1   HO1  SING  24
+OMN  C10  CL1  SING  25
+OMN  C10  C11  AROM  26
+OMN  C11  C12  AROM  27
+OMN  C11  H11  SING  28
+OMN  C12  F4   SING  29
+#

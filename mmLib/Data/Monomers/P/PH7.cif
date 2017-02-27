@@ -1,0 +1,121 @@
+data_PH7
+#
+_chem_comp.id                   PH7
+_chem_comp.name                 '(2Z)-2-(BENZOYLAMINO)-3-[4-(2-BROMOPHENOXY)PHENYL]-2-PROPENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H16 N1 O4 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        438.277
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PH7  C1    .  C   0  -9.739   55.117  46.892  1  1 
+PH7  C2    .  C   0  -8.622   54.764  47.579  1  2 
+PH7  N     .  N   0  -8.465   54.728  49.040  1  3 
+PH7  C     .  C   0  -8.178   55.822  49.802  1  4 
+PH7  O     .  O   0  -8.057   56.956  49.342  1  5 
+PH7  CB2   .  C   0  -11.038  55.611  47.382  1  6 
+PH7  CB3   .  C   0  -12.167  55.743  46.544  1  7 
+PH7  CB6   .  C   0  -13.432  56.768  48.378  1  8 
+PH7  CB1   .  C   0  -11.145  56.049  48.691  1  9 
+PH7  CB5   .  C   0  -12.306  56.613  49.189  1  10
+PH7  CA1   .  C   0  -14.812  57.569  50.235  1  11
+PH7  CA2   .  C   0  -14.571  58.868  50.725  1  12
+PH7  CA3   .  C   0  -14.809  59.178  52.093  1  13
+PH7  CA4   .  C   0  -15.333  58.195  52.956  1  14
+PH7  CA5   .  C   0  -15.620  56.902  52.472  1  15
+PH7  CA6   .  C   0  -15.348  56.597  51.126  1  16
+PH7  CD2   .  C   0  -7.450   54.282  46.796  1  17
+PH7  OC1   .  O   0  -7.497   54.388  45.553  1  18
+PH7  OC2   .  O   0  -6.491   53.729  47.378  1  19
+PH7  CC1   .  C   0  -8.046   55.536  51.227  1  20
+PH7  CC2   .  C   0  -7.272   56.390  52.039  1  21
+PH7  CC3   .  C   0  -7.311   56.244  53.437  1  22
+PH7  CC4   .  C   0  -8.128   55.241  54.021  1  23
+PH7  CC5   .  C   0  -8.860   54.344  53.208  1  24
+PH7  CC6   .  C   0  -8.801   54.478  51.809  1  25
+PH7  CB4   .  C   0  -13.346  56.360  47.040  1  26
+PH7  OAB   .  O   0  -14.612  57.286  48.873  1  27
+PH7  BRA2  .  BR  0  -14.095  60.210  49.516  0  28
+PH7  HC1   .  H   0  ?        ?       ?       1  29
+PH7  HN    .  H   0  ?        ?       ?       1  30
+PH7  HC6   .  H   0  ?        ?       ?       1  31
+PH7  HC5   .  H   0  ?        ?       ?       1  32
+PH7  HC4   .  H   0  ?        ?       ?       1  33
+PH7  HC3   .  H   0  ?        ?       ?       1  34
+PH7  HC2   .  H   0  ?        ?       ?       1  35
+PH7  H1    .  H   0  ?        ?       ?       1  36
+PH7  HB1   .  H   0  ?        ?       ?       1  37
+PH7  HB5   .  H   0  ?        ?       ?       1  38
+PH7  HA6   .  H   0  ?        ?       ?       1  39
+PH7  HA5   .  H   0  ?        ?       ?       1  40
+PH7  HA4   .  H   0  ?        ?       ?       1  41
+PH7  HA3   .  H   0  ?        ?       ?       1  42
+PH7  HB4   .  H   0  ?        ?       ?       1  43
+PH7  HB3   .  H   0  ?        ?       ?       1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PH7  C1   C2    DOUB  1 
+PH7  C1   H1    SING  2 
+PH7  C1   CB2   SING  3 
+PH7  C2   CD2   SING  4 
+PH7  C2   N     SING  5 
+PH7  N    HN    SING  6 
+PH7  N    C     SING  7 
+PH7  C    O     DOUB  8 
+PH7  C    CC1   SING  9 
+PH7  CB2  CB1   AROM  10
+PH7  CB2  CB3   AROM  11
+PH7  CB3  CB4   AROM  12
+PH7  CB3  HB3   SING  13
+PH7  CB6  CB5   AROM  14
+PH7  CB6  OAB   SING  15
+PH7  CB6  CB4   AROM  16
+PH7  CB1  HB1   SING  17
+PH7  CB1  CB5   AROM  18
+PH7  CB5  HB5   SING  19
+PH7  CA1  OAB   SING  20
+PH7  CA1  CA6   AROM  21
+PH7  CA1  CA2   AROM  22
+PH7  CA2  CA3   AROM  23
+PH7  CA2  BRA2  SING  24
+PH7  CA3  CA4   AROM  25
+PH7  CA3  HA3   SING  26
+PH7  CA4  CA5   AROM  27
+PH7  CA4  HA4   SING  28
+PH7  CA5  CA6   AROM  29
+PH7  CA5  HA5   SING  30
+PH7  CA6  HA6   SING  31
+PH7  CD2  OC1   SING  32
+PH7  CD2  OC2   DOUB  33
+PH7  OC1  HC1   SING  34
+PH7  CC1  CC6   AROM  35
+PH7  CC1  CC2   AROM  36
+PH7  CC2  CC3   AROM  37
+PH7  CC2  HC2   SING  38
+PH7  CC3  CC4   AROM  39
+PH7  CC3  HC3   SING  40
+PH7  CC4  CC5   AROM  41
+PH7  CC4  HC4   SING  42
+PH7  CC5  CC6   AROM  43
+PH7  CC5  HC5   SING  44
+PH7  CC6  HC6   SING  45
+PH7  CB4  HB4   SING  46
+#

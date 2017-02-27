@@ -1,0 +1,137 @@
+data_RPL
+#
+_chem_comp.id                   RPL
+_chem_comp.name                 '(C8-S)-HYDANTOCIDIN 5'-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H22 N3 O13 P1'
+_chem_comp.pdbx_synonyms        '[8,9-DIHYDROXY-3-(4-CARBOXY-HYDROXY-HYDROXYMETHYL-AMINO-BUTYL)-2,4-DIOXO-6-OXA-1,3-DIAZA-SPIRO[4.4]NON-7-YLMETHYL] PHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        459.303
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RPL  O1P   .  O  0  ?  ?  ?  1  1 
+RPL  O2P   .  O  0  ?  ?  ?  1  2 
+RPL  O3P   .  O  0  ?  ?  ?  1  3 
+RPL  P     .  P  0  ?  ?  ?  1  4 
+RPL  O5*   .  O  0  ?  ?  ?  1  5 
+RPL  C5*   .  C  0  ?  ?  ?  1  6 
+RPL  C4*   .  C  0  ?  ?  ?  1  7 
+RPL  O4*   .  O  0  ?  ?  ?  1  8 
+RPL  C3*   .  C  0  ?  ?  ?  1  9 
+RPL  O3*   .  O  0  ?  ?  ?  1  10
+RPL  C2*   .  C  0  ?  ?  ?  1  11
+RPL  O2*   .  O  0  ?  ?  ?  1  12
+RPL  C1*   .  C  0  ?  ?  ?  1  13
+RPL  N1    .  N  0  ?  ?  ?  1  14
+RPL  C2    .  C  0  ?  ?  ?  1  15
+RPL  O2    .  O  0  ?  ?  ?  1  16
+RPL  N3    .  N  0  ?  ?  ?  1  17
+RPL  C4    .  C  0  ?  ?  ?  1  18
+RPL  O4    .  O  0  ?  ?  ?  1  19
+RPL  C5A   .  C  0  ?  ?  ?  1  20
+RPL  C6A   .  C  0  ?  ?  ?  1  21
+RPL  C7A   .  C  0  ?  ?  ?  1  22
+RPL  C8A   .  C  0  ?  ?  ?  1  23
+RPL  C9A   .  C  0  ?  ?  ?  1  24
+RPL  O91A  .  O  0  ?  ?  ?  0  25
+RPL  O92A  .  O  0  ?  ?  ?  0  26
+RPL  N10A  .  N  0  ?  ?  ?  0  27
+RPL  O10A  .  O  0  ?  ?  ?  0  28
+RPL  C11A  .  C  0  ?  ?  ?  0  29
+RPL  O11A  .  O  0  ?  ?  ?  0  30
+RPL  HO2P  .  H  0  ?  ?  ?  0  31
+RPL  HO3P  .  H  0  ?  ?  ?  0  32
+RPL  1H5*  .  H  0  ?  ?  ?  0  33
+RPL  2H5*  .  H  0  ?  ?  ?  0  34
+RPL  H4    .  H  0  ?  ?  ?  1  35
+RPL  H3    .  H  0  ?  ?  ?  1  36
+RPL  H2    .  H  0  ?  ?  ?  1  37
+RPL  HO2*  .  H  0  ?  ?  ?  0  38
+RPL  HO3*  .  H  0  ?  ?  ?  0  39
+RPL  HN1   .  H  0  ?  ?  ?  1  40
+RPL  1H5   .  H  0  ?  ?  ?  0  41
+RPL  2H5   .  H  0  ?  ?  ?  0  42
+RPL  1H6   .  H  0  ?  ?  ?  0  43
+RPL  2H6   .  H  0  ?  ?  ?  0  44
+RPL  1H7   .  H  0  ?  ?  ?  0  45
+RPL  2H7   .  H  0  ?  ?  ?  0  46
+RPL  1H8   .  H  0  ?  ?  ?  0  47
+RPL  H91   .  H  0  ?  ?  ?  1  48
+RPL  H10   .  H  0  ?  ?  ?  1  49
+RPL  1H11  .  H  0  ?  ?  ?  0  50
+RPL  2H11  .  H  0  ?  ?  ?  0  51
+RPL  H11   .  H  0  ?  ?  ?  1  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RPL  O1P   P     DOUB  1 
+RPL  O2P   P     SING  2 
+RPL  O2P   HO2P  SING  3 
+RPL  O3P   P     SING  4 
+RPL  O3P   HO3P  SING  5 
+RPL  P     O5*   SING  6 
+RPL  O5*   C5*   SING  7 
+RPL  C5*   C4*   SING  8 
+RPL  C5*   1H5*  SING  9 
+RPL  C5*   2H5*  SING  10
+RPL  C4*   O4*   SING  11
+RPL  C4*   C3*   SING  12
+RPL  C4*   H4    SING  13
+RPL  O4*   C1*   SING  14
+RPL  C3*   O3*   SING  15
+RPL  C3*   C2*   SING  16
+RPL  C3*   H3    SING  17
+RPL  O3*   HO3*  SING  18
+RPL  C2*   O2*   SING  19
+RPL  C2*   C1*   SING  20
+RPL  C2*   H2    SING  21
+RPL  O2*   HO2*  SING  22
+RPL  C1*   N1    SING  23
+RPL  C1*   C4    SING  24
+RPL  N1    C2    SING  25
+RPL  N1    HN1   SING  26
+RPL  C2    O2    DOUB  27
+RPL  C2    N3    SING  28
+RPL  N3    C4    SING  29
+RPL  N3    C5A   SING  30
+RPL  C4    O4    DOUB  31
+RPL  C5A   C6A   SING  32
+RPL  C5A   1H5   SING  33
+RPL  C5A   2H5   SING  34
+RPL  C6A   C7A   SING  35
+RPL  C6A   1H6   SING  36
+RPL  C6A   2H6   SING  37
+RPL  C7A   C8A   SING  38
+RPL  C7A   1H7   SING  39
+RPL  C7A   2H7   SING  40
+RPL  C8A   C9A   SING  41
+RPL  C8A   N10A  SING  42
+RPL  C8A   1H8   SING  43
+RPL  C9A   O91A  SING  44
+RPL  C9A   O92A  DOUB  45
+RPL  O91A  H91   SING  46
+RPL  N10A  O10A  SING  47
+RPL  N10A  C11A  SING  48
+RPL  O10A  H10   SING  49
+RPL  C11A  O11A  SING  50
+RPL  C11A  1H11  SING  51
+RPL  C11A  2H11  SING  52
+RPL  O11A  H11   SING  53
+#

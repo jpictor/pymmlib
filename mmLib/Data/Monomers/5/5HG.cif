@@ -1,0 +1,100 @@
+data_5HG
+#
+_chem_comp.id                   5HG
+_chem_comp.name                 '{[2-(6-AMINO-9H-PURIN-9-YL)ETHOXY]METHYL}PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N5 O4 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        273.188
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          5HG
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1nc(c2c(n1)N(C=N2)CCOCP(=O)(O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+5HG  O36   .  O  0  16.719  9.068   10.912  1  N  1 
+5HG  P30   .  P  0  17.524  7.957   11.592  1  N  2 
+5HG  O32   .  O  0  17.395  6.582   10.946  1  N  3 
+5HG  O34   .  O  0  17.340  7.912   13.101  1  N  4 
+5HG  C28   .  C  0  19.252  8.462   11.414  1  N  5 
+5HG  O26   .  O  0  20.037  7.370   11.910  1  N  6 
+5HG  C24   .  C  0  21.172  7.755   12.687  1  N  7 
+5HG  C22   .  C  0  22.410  7.653   11.789  1  N  8 
+5HG  N17   .  N  0  23.601  8.093   12.510  1  N  9 
+5HG  C15   .  C  0  24.560  7.273   12.990  1  N  10
+5HG  N13   .  N  0  25.551  7.974   13.615  1  N  11
+5HG  C2    .  C  0  25.211  9.275   13.544  1  Y  12
+5HG  C3    .  C  0  23.922  9.351   12.822  1  Y  13
+5HG  N4    .  N  0  23.341  10.566  12.624  1  Y  14
+5HG  C5    .  C  0  23.932  11.689  13.069  1  Y  15
+5HG  N6    .  N  0  25.116  11.690  13.735  1  Y  16
+5HG  C1    .  C  0  25.806  10.544  14.004  1  Y  17
+5HG  N20   .  N  0  26.987  10.550  14.680  1  N  18
+5HG  HO32  .  H  0  17.368  6.677   10.001  0  N  19
+5HG  HO34  .  H  0  18.191  7.903   13.524  0  N  20
+5HG  1H28  .  H  0  19.490  8.663   10.359  0  N  21
+5HG  2H28  .  H  0  19.458  9.389   11.970  0  N  22
+5HG  1H24  .  H  0  21.279  7.087   13.554  0  N  23
+5HG  2H24  .  H  0  21.051  8.783   13.059  0  N  24
+5HG  1H22  .  H  0  22.268  8.291   10.904  0  N  25
+5HG  2H22  .  H  0  22.544  6.605   11.484  0  N  26
+5HG  H15   .  H  0  24.545  6.198   12.892  1  N  27
+5HG  H5    .  H  0  23.442  12.635  12.888  1  N  28
+5HG  1H20  .  H  0  27.745  10.551  14.028  0  N  29
+5HG  2H20  .  H  0  27.039  11.368  15.253  0  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+5HG  O36  P30   DOUB  N  1 
+5HG  P30  O32   SING  N  2 
+5HG  P30  C28   SING  N  3 
+5HG  P30  O34   SING  N  4 
+5HG  O32  HO32  SING  N  5 
+5HG  O34  HO34  SING  N  6 
+5HG  C28  O26   SING  N  7 
+5HG  C28  1H28  SING  N  8 
+5HG  C28  2H28  SING  N  9 
+5HG  O26  C24   SING  N  10
+5HG  C24  C22   SING  N  11
+5HG  C24  1H24  SING  N  12
+5HG  C24  2H24  SING  N  13
+5HG  C22  N17   SING  N  14
+5HG  C22  1H22  SING  N  15
+5HG  C22  2H22  SING  N  16
+5HG  N17  C3    SING  N  17
+5HG  N17  C15   SING  N  18
+5HG  C15  N13   DOUB  N  19
+5HG  C15  H15   SING  N  20
+5HG  N13  C2    SING  N  21
+5HG  C2   C3    SING  Y  22
+5HG  C2   C1    DOUB  Y  23
+5HG  C3   N4    DOUB  Y  24
+5HG  N4   C5    SING  Y  25
+5HG  C5   N6    DOUB  Y  26
+5HG  C5   H5    SING  N  27
+5HG  N6   C1    SING  Y  28
+5HG  C1   N20   SING  N  29
+5HG  N20  1H20  SING  N  30
+5HG  N20  2H20  SING  N  31
+#

@@ -1,0 +1,86 @@
+data_NGT
+#
+_chem_comp.id                   NGT
+_chem_comp.name                 3AR,5R,6S,7R,7AR-5-HYDROXYMETHYL-2-METHYL-5,6,7,7A-TETRAHYDRO-3AH-PYRANO[3,2-D]THIAZOLE-6,7-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N1 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        219.255
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NGT  C1    .  C  0  ?  ?  ?  1  1 
+NGT  C2    .  C  0  ?  ?  ?  1  2 
+NGT  C3    .  C  0  ?  ?  ?  1  3 
+NGT  C4    .  C  0  ?  ?  ?  1  4 
+NGT  C5    .  C  0  ?  ?  ?  1  5 
+NGT  C6    .  C  0  ?  ?  ?  1  6 
+NGT  C7    .  C  0  ?  ?  ?  1  7 
+NGT  C8    .  C  0  ?  ?  ?  1  8 
+NGT  N2    .  N  0  ?  ?  ?  1  9 
+NGT  S1    .  S  0  ?  ?  ?  1  10
+NGT  O3    .  O  0  ?  ?  ?  1  11
+NGT  O4    .  O  0  ?  ?  ?  1  12
+NGT  O5    .  O  0  ?  ?  ?  1  13
+NGT  O6    .  O  0  ?  ?  ?  1  14
+NGT  1HC8  .  H  0  ?  ?  ?  0  15
+NGT  2HC8  .  H  0  ?  ?  ?  0  16
+NGT  3HC8  .  H  0  ?  ?  ?  0  17
+NGT  HC1   .  H  0  ?  ?  ?  1  18
+NGT  HC2   .  H  0  ?  ?  ?  1  19
+NGT  HC3   .  H  0  ?  ?  ?  1  20
+NGT  HO3   .  H  0  ?  ?  ?  1  21
+NGT  HC4   .  H  0  ?  ?  ?  1  22
+NGT  HO4   .  H  0  ?  ?  ?  1  23
+NGT  HC5   .  H  0  ?  ?  ?  1  24
+NGT  1HC6  .  H  0  ?  ?  ?  0  25
+NGT  2HC6  .  H  0  ?  ?  ?  0  26
+NGT  HO6   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NGT  C1  C2    SING  1 
+NGT  C1  S1    SING  2 
+NGT  C1  O5    SING  3 
+NGT  C1  HC1   SING  4 
+NGT  C2  C3    SING  5 
+NGT  C2  N2    SING  6 
+NGT  C2  HC2   SING  7 
+NGT  C3  C4    SING  8 
+NGT  C3  O3    SING  9 
+NGT  C3  HC3   SING  10
+NGT  C4  C5    SING  11
+NGT  C4  O4    SING  12
+NGT  C4  HC4   SING  13
+NGT  C5  C6    SING  14
+NGT  C5  O5    SING  15
+NGT  C5  HC5   SING  16
+NGT  C6  O6    SING  17
+NGT  C6  1HC6  SING  18
+NGT  C6  2HC6  SING  19
+NGT  C7  C8    SING  20
+NGT  C7  N2    DOUB  21
+NGT  C7  S1    SING  22
+NGT  C8  1HC8  SING  23
+NGT  C8  2HC8  SING  24
+NGT  C8  3HC8  SING  25
+NGT  O3  HO3   SING  26
+NGT  O4  HO4   SING  27
+NGT  O6  HO6   SING  28
+#

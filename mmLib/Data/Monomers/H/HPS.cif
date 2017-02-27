@@ -1,0 +1,68 @@
+data_HPS
+#
+_chem_comp.id                   HPS
+_chem_comp.name                 'PHENYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 O4 P1'
+_chem_comp.pdbx_synonyms        PHENYLPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.093
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPS  C1   .  C  0  18.223  15.558  31.499  1  1 
+HPS  C2   .  C  0  18.670  15.590  30.105  1  2 
+HPS  C3   .  C  0  18.548  16.696  29.336  1  3 
+HPS  C4   .  C  0  18.028  17.813  29.980  1  4 
+HPS  C5   .  C  0  17.685  17.811  31.373  1  5 
+HPS  C6   .  C  0  17.676  16.632  32.156  1  6 
+HPS  O12  .  O  0  17.397  19.083  31.939  1  7 
+HPS  P13  .  P  0  18.516  20.247  32.524  1  8 
+HPS  O14  .  O  0  17.817  21.455  33.187  1  9 
+HPS  O15  .  O  0  19.390  20.669  31.259  1  10
+HPS  O16  .  O  0  19.416  19.470  33.531  1  11
+HPS  H4   .  H  0  ?       ?       ?       1  12
+HPS  H3   .  H  0  ?       ?       ?       1  13
+HPS  H2   .  H  0  ?       ?       ?       1  14
+HPS  H1   .  H  0  ?       ?       ?       1  15
+HPS  H6   .  H  0  ?       ?       ?       1  16
+HPS  H14  .  H  0  ?       ?       ?       1  17
+HPS  H15  .  H  0  ?       ?       ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPS  C1   C2   SING  1 
+HPS  C1   C6   DOUB  2 
+HPS  C1   H1   SING  3 
+HPS  C2   C3   DOUB  4 
+HPS  C2   H2   SING  5 
+HPS  C3   H3   SING  6 
+HPS  C3   C4   SING  7 
+HPS  C4   H4   SING  8 
+HPS  C4   C5   DOUB  9 
+HPS  C5   C6   SING  10
+HPS  C5   O12  SING  11
+HPS  C6   H6   SING  12
+HPS  O12  P13  SING  13
+HPS  P13  O16  DOUB  14
+HPS  P13  O14  SING  15
+HPS  P13  O15  SING  16
+HPS  O14  H14  SING  17
+HPS  O15  H15  SING  18
+#

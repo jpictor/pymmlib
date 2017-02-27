@@ -1,0 +1,67 @@
+data_PYB
+#
+_chem_comp.id                   PYB
+_chem_comp.name                 '4-AMINO-(1-METHYLPYRROLE)-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        140.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PYB  N    .  N  0  47.433  1.798  90.160  1  1 
+PYB  CA   .  C  0  46.694  2.495  91.087  1  2 
+PYB  CB1  .  C  0  45.675  3.431  90.797  1  3 
+PYB  CB   .  C  0  46.830  2.434  92.477  1  4 
+PYB  CG1  .  C  0  45.186  3.944  92.009  1  5 
+PYB  NG2  .  N  0  45.903  3.325  93.076  1  6 
+PYB  CD   .  C  0  45.798  3.495  94.546  1  7 
+PYB  C    .  C  0  44.137  4.946  92.244  1  8 
+PYB  O    .  O  0  44.051  5.350  93.402  1  9 
+PYB  OXT  .  O  0  ?       ?      ?       1  10
+PYB  H    .  H  0  ?       ?      ?       1  11
+PYB  HN2  .  H  0  ?       ?      ?       1  12
+PYB  HB   .  H  0  ?       ?      ?       1  13
+PYB  HB1  .  H  0  ?       ?      ?       1  14
+PYB  1HD  .  H  0  ?       ?      ?       0  15
+PYB  2HD  .  H  0  ?       ?      ?       0  16
+PYB  3HD  .  H  0  ?       ?      ?       0  17
+PYB  HXT  .  H  0  ?       ?      ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PYB  N    CA   SING  1 
+PYB  N    H    SING  2 
+PYB  N    HN2  SING  3 
+PYB  CA   CB1  SING  4 
+PYB  CA   CB   DOUB  5 
+PYB  CB1  CG1  DOUB  6 
+PYB  CB1  HB1  SING  7 
+PYB  CB   NG2  SING  8 
+PYB  CB   HB   SING  9 
+PYB  CG1  NG2  SING  10
+PYB  CG1  C    SING  11
+PYB  NG2  CD   SING  12
+PYB  CD   1HD  SING  13
+PYB  CD   2HD  SING  14
+PYB  CD   3HD  SING  15
+PYB  C    O    DOUB  16
+PYB  C    OXT  SING  17
+PYB  OXT  HXT  SING  18
+#

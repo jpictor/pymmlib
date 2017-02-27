@@ -1,0 +1,53 @@
+data_SBE
+#
+_chem_comp.id                   SBE
+_chem_comp.name                 1,3,2-DIOXABOROLAN-2-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        87.870
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBE  BD    .  B  0  35.901  26.747  7.733  1  1 
+SBE  OE1   .  O  0  37.183  26.106  7.623  1  2 
+SBE  OE2   .  O  0  35.155  26.438  6.566  1  3 
+SBE  OE3   .  O  0  35.198  26.319  8.851  1  4 
+SBE  CZ1   .  C  0  37.219  25.381  6.410  1  5 
+SBE  CZ2   .  C  0  35.797  25.424  5.852  1  6 
+SBE  HE3   .  H  0  35.271  26.798  9.681  1  7 
+SBE  2HZ2  .  H  0  35.296  24.473  6.019  0  8 
+SBE  3HZ2  .  H  0  35.804  25.672  4.795  0  9 
+SBE  2HZ1  .  H  0  37.547  24.350  6.536  0  10
+SBE  3HZ1  .  H  0  37.897  25.909  5.743  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBE  BD   OE3   SING  1 
+SBE  BD   OE2   SING  2 
+SBE  BD   OE1   SING  3 
+SBE  OE1  CZ1   SING  4 
+SBE  OE2  CZ2   SING  5 
+SBE  OE3  HE3   SING  6 
+SBE  CZ1  CZ2   SING  7 
+SBE  CZ1  2HZ1  SING  8 
+SBE  CZ1  3HZ1  SING  9 
+SBE  CZ2  2HZ2  SING  10
+SBE  CZ2  3HZ2  SING  11
+#

@@ -1,0 +1,74 @@
+data_LEU
+#
+_chem_comp.id                   LEU
+_chem_comp.name                 LEUCINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H13 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        131.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LEU  N     .  N  0  ?  ?  ?  1  1 
+LEU  CA    .  C  0  ?  ?  ?  1  2 
+LEU  C     .  C  0  ?  ?  ?  1  3 
+LEU  O     .  O  0  ?  ?  ?  1  4 
+LEU  CB    .  C  0  ?  ?  ?  1  5 
+LEU  CG    .  C  0  ?  ?  ?  1  6 
+LEU  CD1   .  C  0  ?  ?  ?  1  7 
+LEU  CD2   .  C  0  ?  ?  ?  1  8 
+LEU  OXT   .  O  0  ?  ?  ?  1  9 
+LEU  H     .  H  0  ?  ?  ?  1  10
+LEU  HN2   .  H  0  ?  ?  ?  1  11
+LEU  HA    .  H  0  ?  ?  ?  1  12
+LEU  1HB   .  H  0  ?  ?  ?  0  13
+LEU  2HB   .  H  0  ?  ?  ?  0  14
+LEU  HG    .  H  0  ?  ?  ?  1  15
+LEU  1HD1  .  H  0  ?  ?  ?  0  16
+LEU  2HD1  .  H  0  ?  ?  ?  0  17
+LEU  3HD1  .  H  0  ?  ?  ?  0  18
+LEU  1HD2  .  H  0  ?  ?  ?  0  19
+LEU  2HD2  .  H  0  ?  ?  ?  0  20
+LEU  3HD2  .  H  0  ?  ?  ?  0  21
+LEU  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LEU  N    CA    SING  1 
+LEU  N    H     SING  2 
+LEU  N    HN2   SING  3 
+LEU  CA   C     SING  4 
+LEU  CA   CB    SING  5 
+LEU  CA   HA    SING  6 
+LEU  C    O     DOUB  7 
+LEU  C    OXT   SING  8 
+LEU  CB   CG    SING  9 
+LEU  CB   1HB   SING  10
+LEU  CB   2HB   SING  11
+LEU  CG   CD1   SING  12
+LEU  CG   CD2   SING  13
+LEU  CG   HG    SING  14
+LEU  CD1  1HD1  SING  15
+LEU  CD1  2HD1  SING  16
+LEU  CD1  3HD1  SING  17
+LEU  CD2  1HD2  SING  18
+LEU  CD2  2HD2  SING  19
+LEU  CD2  3HD2  SING  20
+LEU  OXT  HXT   SING  21
+#

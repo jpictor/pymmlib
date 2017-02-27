@@ -1,0 +1,116 @@
+data_CSY
+#
+_chem_comp.id                       CSY
+_chem_comp.name                     '[4-(4-HYDROXY-BENZYL)-2-(2-HYDROXY-1-METHYL-ETHYL)-5-OXO-IMIDAZOLIDIN-1-YL]-ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H19 N3 O5'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (SER-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'SER, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            309.321
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSY  C1    .  C  0  ?  ?  ?  1  1 
+CSY  N2    .  N  0  ?  ?  ?  1  2 
+CSY  CA2   .  C  0  ?  ?  ?  1  3 
+CSY  C2    .  C  0  ?  ?  ?  1  4 
+CSY  O2    .  O  0  ?  ?  ?  1  5 
+CSY  N3    .  N  0  ?  ?  ?  1  6 
+CSY  CA3   .  C  0  ?  ?  ?  1  7 
+CSY  C3    .  C  0  ?  ?  ?  1  8 
+CSY  O3    .  O  0  ?  ?  ?  1  9 
+CSY  OXT   .  O  0  ?  ?  ?  1  10
+CSY  CA1   .  C  0  ?  ?  ?  1  11
+CSY  N1    .  N  0  ?  ?  ?  1  12
+CSY  CB1   .  C  0  ?  ?  ?  1  13
+CSY  OG2   .  O  0  ?  ?  ?  1  14
+CSY  CB2   .  C  0  ?  ?  ?  1  15
+CSY  CG    .  C  0  ?  ?  ?  1  16
+CSY  CD1   .  C  0  ?  ?  ?  1  17
+CSY  CD2   .  C  0  ?  ?  ?  1  18
+CSY  CE1   .  C  0  ?  ?  ?  1  19
+CSY  CE2   .  C  0  ?  ?  ?  1  20
+CSY  CZ    .  C  0  ?  ?  ?  1  21
+CSY  OH    .  O  0  ?  ?  ?  1  22
+CSY  H1    .  H  0  ?  ?  ?  1  23
+CSY  HN2   .  H  0  ?  ?  ?  1  24
+CSY  HA2   .  H  0  ?  ?  ?  1  25
+CSY  1HA3  .  H  0  ?  ?  ?  0  26
+CSY  2HA3  .  H  0  ?  ?  ?  0  27
+CSY  HXT   .  H  0  ?  ?  ?  1  28
+CSY  HA1   .  H  0  ?  ?  ?  1  29
+CSY  1HN1  .  H  0  ?  ?  ?  0  30
+CSY  2HN1  .  H  0  ?  ?  ?  0  31
+CSY  1HB1  .  H  0  ?  ?  ?  0  32
+CSY  2HB1  .  H  0  ?  ?  ?  0  33
+CSY  HOG   .  H  0  ?  ?  ?  1  34
+CSY  1HB2  .  H  0  ?  ?  ?  0  35
+CSY  2HB2  .  H  0  ?  ?  ?  0  36
+CSY  HD1   .  H  0  ?  ?  ?  1  37
+CSY  HD2   .  H  0  ?  ?  ?  1  38
+CSY  HE1   .  H  0  ?  ?  ?  1  39
+CSY  HE2   .  H  0  ?  ?  ?  1  40
+CSY  HO    .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSY  C1   N2    SING  1 
+CSY  C1   N3    SING  2 
+CSY  C1   CA1   SING  3 
+CSY  C1   H1    SING  4 
+CSY  N2   CA2   SING  5 
+CSY  N2   HN2   SING  6 
+CSY  CA2  C2    SING  7 
+CSY  CA2  CB2   SING  8 
+CSY  CA2  HA2   SING  9 
+CSY  C2   N3    SING  10
+CSY  C2   O2    DOUB  11
+CSY  N3   CA3   SING  12
+CSY  CA3  C3    SING  13
+CSY  CA3  1HA3  SING  14
+CSY  CA3  2HA3  SING  15
+CSY  C3   O3    DOUB  16
+CSY  C3   OXT   SING  17
+CSY  OXT  HXT   SING  18
+CSY  CA1  CB1   SING  19
+CSY  CA1  N1    SING  20
+CSY  CA1  HA1   SING  21
+CSY  N1   1HN1  SING  22
+CSY  N1   2HN1  SING  23
+CSY  CB1  OG2   SING  24
+CSY  CB1  1HB1  SING  25
+CSY  CB1  2HB1  SING  26
+CSY  OG2  HOG   SING  27
+CSY  CB2  CG    SING  28
+CSY  CB2  1HB2  SING  29
+CSY  CB2  2HB2  SING  30
+CSY  CG   CD1   DOUB  31
+CSY  CG   CD2   SING  32
+CSY  CD1  CE1   SING  33
+CSY  CD1  HD1   SING  34
+CSY  CD2  CE2   DOUB  35
+CSY  CD2  HD2   SING  36
+CSY  CE1  CZ    DOUB  37
+CSY  CE1  HE1   SING  38
+CSY  CE2  CZ    SING  39
+CSY  CE2  HE2   SING  40
+CSY  CZ   OH    SING  41
+CSY  OH   HO    SING  42
+#

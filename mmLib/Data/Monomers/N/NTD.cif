@@ -1,0 +1,98 @@
+data_NTD
+#
+_chem_comp.id                   NTD
+_chem_comp.name                 2-{HYDROXY[2-NITRO-4-(TRIFLUOROMETHYL)PHENYL]METHYLENE}CYCLOHEXANE-1,3-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10 N1 O5 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        329.232
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NTD  O1   .  O  0   58.554  52.619  39.056  1  1 
+NTD  C5   .  C  0   58.808  52.668  40.258  1  2 
+NTD  C2   .  C  0   60.076  53.402  40.698  1  3 
+NTD  C3   .  C  0   60.546  52.876  42.054  1  4 
+NTD  C4   .  C  0   59.405  52.941  43.069  1  5 
+NTD  C1   .  C  0   58.183  52.200  42.513  1  6 
+NTD  O5   .  O  0   57.393  51.707  43.319  1  7 
+NTD  C6   .  C  0   57.931  52.069  41.153  1  8 
+NTD  C7   .  C  0   56.715  51.291  40.651  1  9 
+NTD  O7   .  O  0   55.715  50.961  41.510  1  10
+NTD  C8   .  C  0   56.605  50.862  39.184  1  11
+NTD  C13  .  C  0   57.393  49.811  38.721  1  12
+NTD  C12  .  C  0   57.210  49.312  37.435  1  13
+NTD  C11  .  C  0   56.236  49.855  36.607  1  14
+NTD  C14  .  C  0   56.002  49.280  35.206  1  15
+NTD  F2   .  F  0   55.214  48.213  35.300  1  16
+NTD  F3   .  F  0   55.414  50.180  34.418  1  17
+NTD  F1   .  F  0   57.159  48.943  34.651  1  18
+NTD  C10  .  C  0   55.460  50.913  37.067  1  19
+NTD  C9   .  C  0   55.641  51.414  38.352  1  20
+NTD  N    .  N  1   54.911  52.451  38.752  1  21
+NTD  ON2  .  O  -1  55.121  53.037  40.022  1  22
+NTD  ON1  .  O  0   53.917  52.995  37.879  1  23
+NTD  1H2  .  H  0   ?       ?       ?       0  24
+NTD  2H2  .  H  0   ?       ?       ?       0  25
+NTD  1H3  .  H  0   ?       ?       ?       0  26
+NTD  2H3  .  H  0   ?       ?       ?       0  27
+NTD  1H4  .  H  0   ?       ?       ?       0  28
+NTD  2H4  .  H  0   ?       ?       ?       0  29
+NTD  HO7  .  H  0   ?       ?       ?       1  30
+NTD  H13  .  H  0   ?       ?       ?       1  31
+NTD  H12  .  H  0   ?       ?       ?       1  32
+NTD  H10  .  H  0   ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NTD  O1   C5   DOUB  1 
+NTD  C5   C2   SING  2 
+NTD  C5   C6   SING  3 
+NTD  C2   C3   SING  4 
+NTD  C2   1H2  SING  5 
+NTD  C2   2H2  SING  6 
+NTD  C3   C4   SING  7 
+NTD  C3   1H3  SING  8 
+NTD  C3   2H3  SING  9 
+NTD  C4   C1   SING  10
+NTD  C4   1H4  SING  11
+NTD  C4   2H4  SING  12
+NTD  C1   O5   DOUB  13
+NTD  C1   C6   SING  14
+NTD  C6   C7   DOUB  15
+NTD  C7   O7   SING  16
+NTD  C7   C8   SING  17
+NTD  O7   HO7  SING  18
+NTD  C8   C13  DOUB  19
+NTD  C8   C9   SING  20
+NTD  C13  C12  SING  21
+NTD  C13  H13  SING  22
+NTD  C12  C11  DOUB  23
+NTD  C12  H12  SING  24
+NTD  C11  C10  SING  25
+NTD  C11  C14  SING  26
+NTD  C14  F2   SING  27
+NTD  C14  F3   SING  28
+NTD  C14  F1   SING  29
+NTD  C10  C9   DOUB  30
+NTD  C10  H10  SING  31
+NTD  C9   N    SING  32
+NTD  N    ON2  SING  33
+NTD  N    ON1  DOUB  34
+#

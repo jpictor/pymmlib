@@ -1,0 +1,89 @@
+data_DPT
+#
+_chem_comp.id                   DPT
+_chem_comp.name                 4,7-DIMETHYL-[1,10]PHENANTHROLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        208.262
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPT  N1    .  N  0  ?  ?  ?  1  1 
+DPT  C2    .  C  0  ?  ?  ?  1  2 
+DPT  C3    .  C  0  ?  ?  ?  1  3 
+DPT  C4    .  C  0  ?  ?  ?  1  4 
+DPT  C4A   .  C  0  ?  ?  ?  1  5 
+DPT  C5    .  C  0  ?  ?  ?  1  6 
+DPT  C6    .  C  0  ?  ?  ?  1  7 
+DPT  C6A   .  C  0  ?  ?  ?  1  8 
+DPT  C7    .  C  0  ?  ?  ?  1  9 
+DPT  C8    .  C  0  ?  ?  ?  1  10
+DPT  C9    .  C  0  ?  ?  ?  1  11
+DPT  N10   .  N  0  ?  ?  ?  1  12
+DPT  C10   .  C  0  ?  ?  ?  1  13
+DPT  C1A   .  C  0  ?  ?  ?  1  14
+DPT  C11   .  C  0  ?  ?  ?  1  15
+DPT  C12   .  C  0  ?  ?  ?  1  16
+DPT  H2    .  H  0  ?  ?  ?  1  17
+DPT  H3    .  H  0  ?  ?  ?  1  18
+DPT  H5    .  H  0  ?  ?  ?  1  19
+DPT  H6    .  H  0  ?  ?  ?  1  20
+DPT  H8    .  H  0  ?  ?  ?  1  21
+DPT  H9    .  H  0  ?  ?  ?  1  22
+DPT  1H11  .  H  0  ?  ?  ?  0  23
+DPT  2H11  .  H  0  ?  ?  ?  0  24
+DPT  3H11  .  H  0  ?  ?  ?  0  25
+DPT  1H12  .  H  0  ?  ?  ?  0  26
+DPT  2H12  .  H  0  ?  ?  ?  0  27
+DPT  3H12  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPT  N1   C2    AROM  1 
+DPT  N1   C1A   AROM  2 
+DPT  C2   C3    AROM  3 
+DPT  C2   H2    SING  4 
+DPT  C3   C4    AROM  5 
+DPT  C3   H3    SING  6 
+DPT  C4   C4A   AROM  7 
+DPT  C4   C11   SING  8 
+DPT  C4A  C5    AROM  9 
+DPT  C4A  C1A   AROM  10
+DPT  C5   C6    AROM  11
+DPT  C5   H5    SING  12
+DPT  C6   C6A   AROM  13
+DPT  C6   H6    SING  14
+DPT  C6A  C7    AROM  15
+DPT  C6A  C10   AROM  16
+DPT  C7   C8    AROM  17
+DPT  C7   C12   SING  18
+DPT  C8   C9    AROM  19
+DPT  C8   H8    SING  20
+DPT  C9   N10   AROM  21
+DPT  C9   H9    SING  22
+DPT  N10  C10   AROM  23
+DPT  C10  C1A   AROM  24
+DPT  C11  1H11  SING  25
+DPT  C11  2H11  SING  26
+DPT  C11  3H11  SING  27
+DPT  C12  1H12  SING  28
+DPT  C12  2H12  SING  29
+DPT  C12  3H12  SING  30
+#

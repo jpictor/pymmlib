@@ -1,0 +1,81 @@
+data_ABF
+#
+_chem_comp.id                   ABF
+_chem_comp.name                 BETA-D-ARABINOFURANOSE-5'-PHOSPHATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H11 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABF  C1'   .  C  0  21.759  19.837  19.998  1  1 
+ABF  O1'   .  O  0  23.114  20.329  19.887  1  2 
+ABF  C2'   .  C  0  21.208  19.972  18.734  1  3 
+ABF  O2'   .  O  0  19.926  19.77   18.584  1  4 
+ABF  C3'   .  C  0  21.752  21.12   18.201  1  5 
+ABF  O3'   .  O  0  21.819  21.226  16.891  1  6 
+ABF  C4'   .  C  0  22.938  21.346  18.866  1  7 
+ABF  C5'   .  C  0  23.264  22.732  19.401  1  8 
+ABF  O5'   .  O  0  24.638  22.781  19.857  1  9 
+ABF  P'    .  P  0  25.341  24.082  20.497  1  10
+ABF  O1P'  .  O  0  25.09   25.233  19.599  0  11
+ABF  O2P'  .  O  0  24.753  24.306  21.877  0  12
+ABF  O3P'  .  O  0  26.753  23.616  20.574  0  13
+ABF  O1    .  O  0  21.099  20.454  20.919  1  14
+ABF  H1'   .  H  0  21.727  18.784  20.314  1  15
+ABF  H2'   .  H  0  21.49   19.104  18.121  1  16
+ABF  H1    .  H  0  20.67   19.792  21.518  1  17
+ABF  H4'   .  H  0  23.68   21.28   18.057  1  18
+ABF  HA    .  H  0  19.745  18.797  18.563  1  19
+ABF  H3'   .  H  0  21.036  21.936  18.376  1  20
+ABF  HB    .  H  0  20.904  21.257  16.515  1  21
+ABF  1H5'  .  H  0  23.12   23.473  18.601  0  22
+ABF  2H5'  .  H  0  22.597  22.957  20.246  0  23
+ABF  HO'   .  H  0  24.571  23.432  22.305  1  24
+ABF  HOA   .  H  0  26.775  22.626  20.575  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABF  C1'   O1'   SING  1 
+ABF  C1'   C2'   SING  2 
+ABF  C1'   O1    SING  3 
+ABF  C1'   H1'   SING  4 
+ABF  O1'   C4'   SING  5 
+ABF  C2'   O2'   SING  6 
+ABF  C2'   C3'   SING  7 
+ABF  C2'   H2'   SING  8 
+ABF  O2'   HA    SING  9 
+ABF  C3'   O3'   SING  10
+ABF  C3'   C4'   SING  11
+ABF  C3'   H3'   SING  12
+ABF  O3'   HB    SING  13
+ABF  C4'   C5'   SING  14
+ABF  C4'   H4'   SING  15
+ABF  C5'   O5'   SING  16
+ABF  C5'   1H5'  SING  17
+ABF  C5'   2H5'  SING  18
+ABF  O5'   P'    SING  19
+ABF  P'    O1P'  DOUB  20
+ABF  P'    O2P'  SING  21
+ABF  P'    O3P'  SING  22
+ABF  O2P'  HO'   SING  23
+ABF  O3P'  HOA   SING  24
+ABF  O1    H1    SING  25
+#

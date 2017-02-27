@@ -1,0 +1,136 @@
+data_DHT
+#
+_chem_comp.id                   DHT
+_chem_comp.name                 DIHYDROTESTOSTERONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H30 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        290.445
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHT  C1    .  C  0  ?  ?  ?  1  1 
+DHT  C2    .  C  0  ?  ?  ?  1  2 
+DHT  C3    .  C  0  ?  ?  ?  1  3 
+DHT  O3    .  O  0  ?  ?  ?  1  4 
+DHT  C4    .  C  0  ?  ?  ?  1  5 
+DHT  C5    .  C  0  ?  ?  ?  1  6 
+DHT  C6    .  C  0  ?  ?  ?  1  7 
+DHT  C7    .  C  0  ?  ?  ?  1  8 
+DHT  C8    .  C  0  ?  ?  ?  1  9 
+DHT  C9    .  C  0  ?  ?  ?  1  10
+DHT  C10   .  C  0  ?  ?  ?  1  11
+DHT  C11   .  C  0  ?  ?  ?  1  12
+DHT  C12   .  C  0  ?  ?  ?  1  13
+DHT  C13   .  C  0  ?  ?  ?  1  14
+DHT  C14   .  C  0  ?  ?  ?  1  15
+DHT  C15   .  C  0  ?  ?  ?  1  16
+DHT  C16   .  C  0  ?  ?  ?  1  17
+DHT  C17   .  C  0  ?  ?  ?  1  18
+DHT  O17   .  O  0  ?  ?  ?  1  19
+DHT  C18   .  C  0  ?  ?  ?  1  20
+DHT  C19   .  C  0  ?  ?  ?  1  21
+DHT  1H1   .  H  0  ?  ?  ?  0  22
+DHT  2H1   .  H  0  ?  ?  ?  0  23
+DHT  1H2   .  H  0  ?  ?  ?  0  24
+DHT  2H2   .  H  0  ?  ?  ?  0  25
+DHT  1H4   .  H  0  ?  ?  ?  0  26
+DHT  2H4   .  H  0  ?  ?  ?  0  27
+DHT  H5    .  H  0  ?  ?  ?  1  28
+DHT  1H6   .  H  0  ?  ?  ?  0  29
+DHT  2H6   .  H  0  ?  ?  ?  0  30
+DHT  1H7   .  H  0  ?  ?  ?  0  31
+DHT  2H7   .  H  0  ?  ?  ?  0  32
+DHT  H8    .  H  0  ?  ?  ?  1  33
+DHT  H9    .  H  0  ?  ?  ?  1  34
+DHT  1H11  .  H  0  ?  ?  ?  0  35
+DHT  2H11  .  H  0  ?  ?  ?  0  36
+DHT  1H12  .  H  0  ?  ?  ?  0  37
+DHT  2H12  .  H  0  ?  ?  ?  0  38
+DHT  H14   .  H  0  ?  ?  ?  1  39
+DHT  1H15  .  H  0  ?  ?  ?  0  40
+DHT  2H15  .  H  0  ?  ?  ?  0  41
+DHT  1H16  .  H  0  ?  ?  ?  0  42
+DHT  2H16  .  H  0  ?  ?  ?  0  43
+DHT  H17   .  H  0  ?  ?  ?  1  44
+DHT  HO7   .  H  0  ?  ?  ?  1  45
+DHT  1H18  .  H  0  ?  ?  ?  0  46
+DHT  2H18  .  H  0  ?  ?  ?  0  47
+DHT  3H18  .  H  0  ?  ?  ?  0  48
+DHT  1H19  .  H  0  ?  ?  ?  0  49
+DHT  2H19  .  H  0  ?  ?  ?  0  50
+DHT  3H19  .  H  0  ?  ?  ?  0  51
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHT  C1   C2    SING  1 
+DHT  C1   C10   SING  2 
+DHT  C1   1H1   SING  3 
+DHT  C1   2H1   SING  4 
+DHT  C2   C3    SING  5 
+DHT  C2   1H2   SING  6 
+DHT  C2   2H2   SING  7 
+DHT  C3   O3    DOUB  8 
+DHT  C3   C4    SING  9 
+DHT  C4   C5    SING  10
+DHT  C4   1H4   SING  11
+DHT  C4   2H4   SING  12
+DHT  C5   C6    SING  13
+DHT  C5   C10   SING  14
+DHT  C5   H5    SING  15
+DHT  C6   C7    SING  16
+DHT  C6   1H6   SING  17
+DHT  C6   2H6   SING  18
+DHT  C7   C8    SING  19
+DHT  C7   1H7   SING  20
+DHT  C7   2H7   SING  21
+DHT  C8   C9    SING  22
+DHT  C8   C14   SING  23
+DHT  C8   H8    SING  24
+DHT  C9   C10   SING  25
+DHT  C9   C11   SING  26
+DHT  C9   H9    SING  27
+DHT  C10  C19   SING  28
+DHT  C11  C12   SING  29
+DHT  C11  1H11  SING  30
+DHT  C11  2H11  SING  31
+DHT  C12  C13   SING  32
+DHT  C12  1H12  SING  33
+DHT  C12  2H12  SING  34
+DHT  C13  C14   SING  35
+DHT  C13  C17   SING  36
+DHT  C13  C18   SING  37
+DHT  C14  C15   SING  38
+DHT  C14  H14   SING  39
+DHT  C15  C16   SING  40
+DHT  C15  1H15  SING  41
+DHT  C15  2H15  SING  42
+DHT  C16  C17   SING  43
+DHT  C16  1H16  SING  44
+DHT  C16  2H16  SING  45
+DHT  C17  O17   SING  46
+DHT  C17  H17   SING  47
+DHT  O17  HO7   SING  48
+DHT  C18  1H18  SING  49
+DHT  C18  2H18  SING  50
+DHT  C18  3H18  SING  51
+DHT  C19  1H19  SING  52
+DHT  C19  2H19  SING  53
+DHT  C19  3H19  SING  54
+#

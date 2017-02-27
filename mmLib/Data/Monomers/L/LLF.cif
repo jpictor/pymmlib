@@ -1,0 +1,98 @@
+data_LLF
+#
+_chem_comp.id                   LLF
+_chem_comp.name                 '(4-{(E)-[(2,2-DIFLUOROETHYL)IMINO]METHYL}-5-HYDROXY-6-METHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N2 O5 F2 P1'
+_chem_comp.pdbx_synonyms        (E)-N-(2,2-DIFLUOROETHYL)PYRIDOXIMINE-5'-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        310.194
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LLF  CBF   .  C  0  8.661  -2.987  43.006  1  1 
+LLF  CAF   .  C  0  8.341  -1.882  41.996  1  2 
+LLF  F1    .  F  0  9.490  -3.892  42.265  1  3 
+LLF  F2    .  F  0  9.396  -2.459  44.136  1  4 
+LLF  NF    .  N  0  7.958  -0.697  42.729  1  5 
+LLF  C4A   .  C  0  6.686  -0.776  42.385  1  6 
+LLF  C4    .  C  0  5.722  -0.141  43.331  1  7 
+LLF  C3    .  C  0  6.151  0.378   44.564  1  8 
+LLF  O3    .  O  0  7.458  0.029   45.101  1  9 
+LLF  C2    .  C  0  5.324  1.268   45.263  1  10
+LLF  C2A   .  C  0  5.520  1.423   46.739  1  11
+LLF  N1    .  N  0  4.112  1.608   44.734  1  12
+LLF  C5    .  C  0  4.472  0.230   42.815  1  13
+LLF  C6    .  C  0  3.665  1.120   43.537  1  14
+LLF  C5M   .  C  0  4.266  0.059   41.338  1  15
+LLF  O4P   .  O  0  3.470  -1.056  40.865  1  16
+LLF  P     .  P  0  3.972  -2.084  39.742  1  17
+LLF  OP1   .  O  0  3.008  -3.160  39.889  1  18
+LLF  OP2   .  O  0  3.861  -1.548  38.376  1  19
+LLF  OP3   .  O  0  5.326  -2.620  39.969  1  20
+LLF  1H2A  .  H  0  ?      ?       ?       0  21
+LLF  2H2A  .  H  0  ?      ?       ?       0  22
+LLF  3H2A  .  H  0  ?      ?       ?       0  23
+LLF  H6    .  H  0  ?      ?       ?       1  24
+LLF  1H5M  .  H  0  ?      ?       ?       0  25
+LLF  2H5M  .  H  0  ?      ?       ?       0  26
+LLF  HP1   .  H  0  ?      ?       ?       1  27
+LLF  HP2   .  H  0  ?      ?       ?       1  28
+LLF  H4A   .  H  0  ?      ?       ?       1  29
+LLF  1HAF  .  H  0  ?      ?       ?       0  30
+LLF  2HAF  .  H  0  ?      ?       ?       0  31
+LLF  HBF   .  H  0  ?      ?       ?       1  32
+LLF  HO3   .  H  0  ?      ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LLF  CBF  CAF   SING  1 
+LLF  CBF  F1    SING  2 
+LLF  CBF  F2    SING  3 
+LLF  CBF  HBF   SING  4 
+LLF  CAF  NF    SING  5 
+LLF  CAF  1HAF  SING  6 
+LLF  CAF  2HAF  SING  7 
+LLF  NF   C4A   DOUB  8 
+LLF  C4A  C4    SING  9 
+LLF  C4A  H4A   SING  10
+LLF  C4   C5    SING  11
+LLF  C4   C3    DOUB  12
+LLF  C3   C2    SING  13
+LLF  C3   O3    SING  14
+LLF  O3   HO3   SING  15
+LLF  C2   C2A   SING  16
+LLF  C2   N1    DOUB  17
+LLF  C2A  1H2A  SING  18
+LLF  C2A  2H2A  SING  19
+LLF  C2A  3H2A  SING  20
+LLF  N1   C6    SING  21
+LLF  C5   C6    DOUB  22
+LLF  C5   C5M   SING  23
+LLF  C6   H6    SING  24
+LLF  C5M  O4P   SING  25
+LLF  C5M  1H5M  SING  26
+LLF  C5M  2H5M  SING  27
+LLF  O4P  P     SING  28
+LLF  P    OP1   SING  29
+LLF  P    OP2   SING  30
+LLF  P    OP3   DOUB  31
+LLF  OP1  HP1   SING  32
+LLF  OP2  HP2   SING  33
+#

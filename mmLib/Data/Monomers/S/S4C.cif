@@ -1,0 +1,103 @@
+data_S4C
+#
+_chem_comp.id                       S4C
+_chem_comp.name                     4'-THIO-4'-DEOXY-CYTOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H14 N3 O7 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            339.259
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+S4C  N1    .  N  0  -20.233  0.464   13.941  1  1 
+S4C  C2    .  C  0  -19.893  1.735   14.232  1  2 
+S4C  O2    .  O  0  -20.768  2.566   14.518  1  3 
+S4C  N3    .  N  0  -18.600  2.042   14.227  1  4 
+S4C  C1*   .  C  0  -21.691  0.230   14.013  1  5 
+S4C  C4    .  C  0  -17.672  1.140   13.952  1  6 
+S4C  N4    .  N  0  -16.412  1.538   13.899  1  7 
+S4C  C5    .  C  0  -17.997  -0.180  13.663  1  8 
+S4C  C6    .  C  0  -19.295  -0.497  13.657  1  9 
+S4C  C2*   .  C  0  -22.416  0.366   12.683  1  10
+S4C  O2*   .  O  0  -23.775  0.590   12.869  1  11
+S4C  C3*   .  C  0  -22.280  -0.941  11.958  1  12
+S4C  O3*   .  O  0  -22.925  -0.844  10.726  1  13
+S4C  C4*   .  C  0  -22.847  -2.158  12.817  1  14
+S4C  S4*   .  S  0  -21.905  -1.563  14.288  1  15
+S4C  O1P   .  O  0  -18.350  -3.496  11.612  1  16
+S4C  C5*   .  C  0  -22.160  -3.401  12.297  1  17
+S4C  O5*   .  O  0  -20.780  -3.173  12.137  1  18
+S4C  O2P   .  O  0  -20.092  -5.186  10.835  1  19
+S4C  P     .  P  0  -19.656  -4.199  11.829  1  20
+S4C  O3P   .  O  0  ?        ?       ?       1  21
+S4C  H2*   .  H  0  -24.182  0.651   11.999  1  22
+S4C  H1    .  H  0  ?        ?       ?       1  23
+S4C  H3*   .  H  0  ?        ?       ?       1  24
+S4C  H2    .  H  0  ?        ?       ?       1  25
+S4C  H4*   .  H  0  ?        ?       ?       1  26
+S4C  H1*   .  H  0  ?        ?       ?       1  27
+S4C  H6    .  H  0  ?        ?       ?       1  28
+S4C  H5    .  H  0  ?        ?       ?       1  29
+S4C  1H4   .  H  0  -15.674  0.873   13.800  0  30
+S4C  2H4   .  H  0  -16.199  2.525   13.961  0  31
+S4C  1H5*  .  H  0  ?        ?       ?       0  32
+S4C  2H5*  .  H  0  ?        ?       ?       0  33
+S4C  H1P   .  H  0  ?        ?       ?       1  34
+S4C  H2P   .  H  0  ?        ?       ?       1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+S4C  N1   C1*   SING  1 
+S4C  N1   C6    SING  2 
+S4C  N1   C2    SING  3 
+S4C  C2   N3    SING  4 
+S4C  C2   O2    DOUB  5 
+S4C  N3   C4    DOUB  6 
+S4C  C1*  S4*   SING  7 
+S4C  C1*  C2*   SING  8 
+S4C  C1*  H1*   SING  9 
+S4C  C4   C5    SING  10
+S4C  C4   N4    SING  11
+S4C  N4   1H4   SING  12
+S4C  N4   2H4   SING  13
+S4C  C5   C6    DOUB  14
+S4C  C5   H5    SING  15
+S4C  C6   H6    SING  16
+S4C  C2*  O2*   SING  17
+S4C  C2*  H1    SING  18
+S4C  C2*  C3*   SING  19
+S4C  O2*  H2*   SING  20
+S4C  C3*  H3*   SING  21
+S4C  C3*  O3*   SING  22
+S4C  C3*  C4*   SING  23
+S4C  O3*  H2    SING  24
+S4C  C4*  H4*   SING  25
+S4C  C4*  S4*   SING  26
+S4C  C4*  C5*   SING  27
+S4C  O1P  P     SING  28
+S4C  O1P  H1P   SING  29
+S4C  C5*  1H5*  SING  30
+S4C  C5*  2H5*  SING  31
+S4C  C5*  O5*   SING  32
+S4C  O5*  P     SING  33
+S4C  O2P  P     SING  34
+S4C  O2P  H2P   SING  35
+S4C  P    O3P   DOUB  36
+#

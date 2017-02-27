@@ -1,0 +1,93 @@
+data_TL5
+#
+_chem_comp.id                   TL5
+_chem_comp.name                 (5R)-4-HYDROXY-3,5-DIMETHYL-5-[(1E,3E)-2-METHYLPENTA-1,3-DIENYL]THIOPHEN-2(5H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H16 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.317
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TL5  O1    .  O  0  -7.049  40.831  32.292  1  1 
+TL5  C1    .  C  0  -6.215  40.503  31.469  1  2 
+TL5  C2    .  C  0  -6.521  39.970  30.293  1  3 
+TL5  C9    .  C  0  -7.937  39.665  29.896  1  4 
+TL5  S1    .  S  0  -4.594  40.699  31.774  1  5 
+TL5  C4    .  C  0  -4.147  39.892  30.266  1  6 
+TL5  C3    .  C  0  -5.455  39.737  29.534  1  7 
+TL5  O2    .  O  0  -5.513  39.404  28.246  1  8 
+TL5  C10   .  C  0  -3.522  38.511  30.494  1  9 
+TL5  C5    .  C  0  -3.215  40.807  29.498  1  10
+TL5  C6    .  C  0  -2.022  41.236  29.961  1  11
+TL5  C11   .  C  0  -1.433  40.843  31.293  1  12
+TL5  C7    .  C  0  -1.248  42.122  29.073  1  13
+TL5  C8    .  C  0  -0.047  42.587  29.410  1  14
+TL5  C12   .  C  0  0.698   43.470  28.451  1  15
+TL5  1H12  .  H  0  ?       ?       ?       0  16
+TL5  2H12  .  H  0  ?       ?       ?       0  17
+TL5  3H12  .  H  0  ?       ?       ?       0  18
+TL5  H8    .  H  0  ?       ?       ?       1  19
+TL5  H7    .  H  0  ?       ?       ?       1  20
+TL5  1H11  .  H  0  ?       ?       ?       0  21
+TL5  2H11  .  H  0  ?       ?       ?       0  22
+TL5  3H11  .  H  0  ?       ?       ?       0  23
+TL5  H5    .  H  0  ?       ?       ?       1  24
+TL5  1H10  .  H  0  ?       ?       ?       0  25
+TL5  2H10  .  H  0  ?       ?       ?       0  26
+TL5  3H10  .  H  0  ?       ?       ?       0  27
+TL5  1H9   .  H  0  ?       ?       ?       0  28
+TL5  2H9   .  H  0  ?       ?       ?       0  29
+TL5  3H9   .  H  0  ?       ?       ?       0  30
+TL5  HO2   .  H  0  ?       ?       ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TL5  O1   C1    DOUB  1 
+TL5  C1   S1    SING  2 
+TL5  C1   C2    SING  3 
+TL5  C2   C9    SING  4 
+TL5  C2   C3    DOUB  5 
+TL5  C9   1H9   SING  6 
+TL5  C9   2H9   SING  7 
+TL5  C9   3H9   SING  8 
+TL5  S1   C4    SING  9 
+TL5  C4   C5    SING  10
+TL5  C4   C10   SING  11
+TL5  C4   C3    SING  12
+TL5  C3   O2    SING  13
+TL5  O2   HO2   SING  14
+TL5  C10  1H10  SING  15
+TL5  C10  2H10  SING  16
+TL5  C10  3H10  SING  17
+TL5  C5   C6    DOUB  18
+TL5  C5   H5    SING  19
+TL5  C6   C7    SING  20
+TL5  C6   C11   SING  21
+TL5  C11  1H11  SING  22
+TL5  C11  2H11  SING  23
+TL5  C11  3H11  SING  24
+TL5  C7   C8    DOUB  25
+TL5  C7   H7    SING  26
+TL5  C8   C12   SING  27
+TL5  C8   H8    SING  28
+TL5  C12  1H12  SING  29
+TL5  C12  2H12  SING  30
+TL5  C12  3H12  SING  31
+#

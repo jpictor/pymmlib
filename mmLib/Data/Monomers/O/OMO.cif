@@ -1,0 +1,42 @@
+data_OMO
+#
+_chem_comp.id                   OMO
+_chem_comp.name                 'MO(VI)(=O)(OH)2 CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H2 O3 MO1'
+_chem_comp.pdbx_formal_charge   3
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       145.954
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMO  OM1  .  O   0  96.975  145.139  146.158  1  1
+OMO  MO   .  MO  6  96.336  143.565  146.070  0  2
+OMO  OR1  .  O   0  96.962  142.786  144.565  1  3
+OMO  OM2  .  O   0  97.169  142.526  147.265  1  4
+OMO  HO1  .  H   0  ?       ?        ?        1  5
+OMO  HO2  .  H   0  ?       ?        ?        1  6
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMO  OM1  MO   DOUB  1
+OMO  MO   OR1  SING  2
+OMO  MO   OM2  SING  3
+OMO  OR1  HO1  SING  4
+OMO  OM2  HO2  SING  5
+#

@@ -1,0 +1,120 @@
+data_TBD
+#
+_chem_comp.id                   TBD
+_chem_comp.name                 '2*-DEOXY-THYMIDINE-5*-ALPHA BORANO DIPHOSPHATE (ISOMER RP)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H19 N2 O10 B1 P2'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       400.025
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBD  PB    .  P  0   ?  ?  ?  1  1 
+TBD  O1B   .  O  0   ?  ?  ?  1  2 
+TBD  O2B   .  O  0   ?  ?  ?  1  3 
+TBD  O3B   .  O  0   ?  ?  ?  1  4 
+TBD  O3A   .  O  0   ?  ?  ?  1  5 
+TBD  PA    .  P  0   ?  ?  ?  1  6 
+TBD  B1A   .  B  -1  ?  ?  ?  1  7 
+TBD  O2A   .  O  0   ?  ?  ?  1  8 
+TBD  O5*   .  O  0   ?  ?  ?  1  9 
+TBD  C5*   .  C  0   ?  ?  ?  1  10
+TBD  C4*   .  C  0   ?  ?  ?  1  11
+TBD  O4*   .  O  0   ?  ?  ?  1  12
+TBD  C1*   .  C  0   ?  ?  ?  1  13
+TBD  N1    .  N  0   ?  ?  ?  1  14
+TBD  C6    .  C  0   ?  ?  ?  1  15
+TBD  C2    .  C  0   ?  ?  ?  1  16
+TBD  O2    .  O  0   ?  ?  ?  1  17
+TBD  N3    .  N  0   ?  ?  ?  1  18
+TBD  C4    .  C  0   ?  ?  ?  1  19
+TBD  O4    .  O  0   ?  ?  ?  1  20
+TBD  C5    .  C  0   ?  ?  ?  1  21
+TBD  C5A   .  C  0   ?  ?  ?  1  22
+TBD  C2*   .  C  0   ?  ?  ?  1  23
+TBD  C3*   .  C  0   ?  ?  ?  1  24
+TBD  O3*   .  O  0   ?  ?  ?  1  25
+TBD  HN3   .  H  0   ?  ?  ?  1  26
+TBD  1HCA  .  H  0   ?  ?  ?  0  27
+TBD  2HCA  .  H  0   ?  ?  ?  0  28
+TBD  3HCA  .  H  0   ?  ?  ?  0  29
+TBD  HC6   .  H  0   ?  ?  ?  1  30
+TBD  CH1*  .  H  0   ?  ?  ?  0  31
+TBD  1H2*  .  H  0   ?  ?  ?  0  32
+TBD  2H2*  .  H  0   ?  ?  ?  0  33
+TBD  OH3*  .  H  0   ?  ?  ?  0  34
+TBD  CH3*  .  H  0   ?  ?  ?  0  35
+TBD  CH4*  .  H  0   ?  ?  ?  0  36
+TBD  1H5*  .  H  0   ?  ?  ?  0  37
+TBD  2H5*  .  H  0   ?  ?  ?  0  38
+TBD  OH2A  .  H  0   ?  ?  ?  0  39
+TBD  OH2B  .  H  0   ?  ?  ?  0  40
+TBD  OH1B  .  H  0   ?  ?  ?  0  41
+TBD  H1B   .  H  0   ?  ?  ?  1  42
+TBD  H2B   .  H  0   ?  ?  ?  1  43
+TBD  H3B   .  H  0   ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBD  PB   O1B   SING  1 
+TBD  PB   O2B   SING  2 
+TBD  PB   O3B   DOUB  3 
+TBD  PB   O3A   SING  4 
+TBD  O1B  OH1B  SING  5 
+TBD  O2B  OH2B  SING  6 
+TBD  O3A  PA    SING  7 
+TBD  PA   B1A   DOUB  8 
+TBD  PA   O2A   SING  9 
+TBD  PA   O5*   SING  10
+TBD  B1A  H1B   SING  11
+TBD  B1A  H2B   SING  12
+TBD  B1A  H3B   SING  13
+TBD  O2A  OH2A  SING  14
+TBD  O5*  C5*   SING  15
+TBD  C5*  C4*   SING  16
+TBD  C5*  1H5*  SING  17
+TBD  C5*  2H5*  SING  18
+TBD  C4*  O4*   SING  19
+TBD  C4*  C3*   SING  20
+TBD  C4*  CH4*  SING  21
+TBD  O4*  C1*   SING  22
+TBD  C1*  N1    SING  23
+TBD  C1*  C2*   SING  24
+TBD  C1*  CH1*  SING  25
+TBD  N1   C6    SING  26
+TBD  N1   C2    SING  27
+TBD  C6   C5    DOUB  28
+TBD  C6   HC6   SING  29
+TBD  C2   O2    DOUB  30
+TBD  C2   N3    SING  31
+TBD  N3   C4    SING  32
+TBD  N3   HN3   SING  33
+TBD  C4   O4    DOUB  34
+TBD  C4   C5    SING  35
+TBD  C5   C5A   SING  36
+TBD  C5A  1HCA  SING  37
+TBD  C5A  2HCA  SING  38
+TBD  C5A  3HCA  SING  39
+TBD  C2*  C3*   SING  40
+TBD  C2*  1H2*  SING  41
+TBD  C2*  2H2*  SING  42
+TBD  C3*  O3*   SING  43
+TBD  C3*  CH3*  SING  44
+TBD  O3*  OH3*  SING  45
+#

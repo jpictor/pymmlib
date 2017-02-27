@@ -1,0 +1,100 @@
+data_D4M
+#
+_chem_comp.id                       D4M
+_chem_comp.name                     '[(5R)-5-(5-METHYL-2,4-DIOXO-3,4-DIHYDROPYRIMIDIN-1(2H)-YL)-2,5-DIHYDROFURAN-2-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H13 N2 O7 P1'
+_chem_comp.pdbx_synonyms            '2',3'-DIDEOXY-2',3-DIDEHYDROTHYMIDINE 5'-MONOPHOSPHATE, 2',3'-DEHYDRO-2',3'-DEOXY-THYMIDINE 5'-MONOPHOSPHATE'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            304.196
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D4M  O2P   .  O  0  17.153  38.848  28.332  1  1 
+D4M  P     .  P  0  16.496  40.073  29.009  1  2 
+D4M  O1P   .  O  0  17.643  41.181  29.184  1  3 
+D4M  O3P   .  O  0  15.868  39.871  30.400  1  4 
+D4M  O5*   .  O  0  15.370  40.574  27.944  1  5 
+D4M  C5*   .  C  0  14.189  41.270  28.442  1  6 
+D4M  C4*   .  C  0  13.921  42.352  27.407  1  7 
+D4M  O4*   .  O  0  13.480  41.639  26.176  1  8 
+D4M  C3*   .  C  0  12.783  43.259  27.861  1  9 
+D4M  C2*   .  C  0  11.829  43.224  26.934  1  10
+D4M  C1*   .  C  0  12.207  42.268  25.783  1  11
+D4M  N1    .  N  0  11.163  41.234  25.544  1  12
+D4M  C6    .  C  0  10.703  40.403  26.598  1  13
+D4M  C5    .  C  0  9.728   39.435  26.360  1  14
+D4M  C5M   .  C  0  9.305   38.526  27.522  1  15
+D4M  C4    .  C  0  9.164   39.281  25.070  1  16
+D4M  O4    .  O  0  8.302   38.430  24.755  1  17
+D4M  N3    .  N  0  9.602   40.108  24.066  1  18
+D4M  C2    .  C  0  10.582  41.062  24.249  1  19
+D4M  O2    .  O  0  10.893  41.742  23.269  1  20
+D4M  2HOP  .  H  0  ?       ?       ?       0  21
+D4M  3HOP  .  H  0  ?       ?       ?       0  22
+D4M  1H5*  .  H  0  ?       ?       ?       0  23
+D4M  2H5*  .  H  0  ?       ?       ?       0  24
+D4M  H4*   .  H  0  ?       ?       ?       1  25
+D4M  H1*   .  H  0  ?       ?       ?       1  26
+D4M  H2*   .  H  0  ?       ?       ?       1  27
+D4M  H3*   .  H  0  ?       ?       ?       1  28
+D4M  H6    .  H  0  ?       ?       ?       1  29
+D4M  H3    .  H  0  ?       ?       ?       1  30
+D4M  1H5M  .  H  0  ?       ?       ?       0  31
+D4M  2H5M  .  H  0  ?       ?       ?       0  32
+D4M  3H5M  .  H  0  ?       ?       ?       0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D4M  O2P  2HOP  SING  1 
+D4M  O2P  P     SING  2 
+D4M  P    O1P   DOUB  3 
+D4M  P    O3P   SING  4 
+D4M  P    O5*   SING  5 
+D4M  O3P  3HOP  SING  6 
+D4M  O5*  C5*   SING  7 
+D4M  C5*  1H5*  SING  8 
+D4M  C5*  2H5*  SING  9 
+D4M  C5*  C4*   SING  10
+D4M  C4*  H4*   SING  11
+D4M  C4*  O4*   SING  12
+D4M  C4*  C3*   SING  13
+D4M  O4*  C1*   SING  14
+D4M  C3*  C2*   DOUB  15
+D4M  C3*  H3*   SING  16
+D4M  C2*  C1*   SING  17
+D4M  C2*  H2*   SING  18
+D4M  C1*  H1*   SING  19
+D4M  C1*  N1    SING  20
+D4M  N1   C6    SING  21
+D4M  N1   C2    SING  22
+D4M  C6   H6    SING  23
+D4M  C6   C5    DOUB  24
+D4M  C5   C4    SING  25
+D4M  C5   C5M   SING  26
+D4M  C5M  1H5M  SING  27
+D4M  C5M  2H5M  SING  28
+D4M  C5M  3H5M  SING  29
+D4M  C4   O4    DOUB  30
+D4M  C4   N3    SING  31
+D4M  N3   H3    SING  32
+D4M  N3   C2    SING  33
+D4M  C2   O2    DOUB  34
+#

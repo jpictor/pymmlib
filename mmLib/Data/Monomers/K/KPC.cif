@@ -1,0 +1,72 @@
+data_KPC
+#
+_chem_comp.id                   KPC
+_chem_comp.name                 (2-[2-KETOPROPYLTHIO]ETHANESULFONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O4 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.252
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KPC  CAK   .  C  0  25.859  -2.491  10.433  1  1 
+KPC  CAJ   .  C  0  25.035  -2.276  11.704  1  2 
+KPC  OAC   .  O  0  23.862  -1.906  11.622  1  3 
+KPC  CAI   .  C  0  25.677  -2.512  13.072  1  4 
+KPC  SAH   .  S  0  24.445  -2.400  14.424  1  5 
+KPC  CAG   .  C  0  23.859  -4.126  14.486  1  6 
+KPC  CAF   .  C  0  22.492  -4.310  13.836  1  7 
+KPC  SAE   .  S  0  21.959  -6.053  13.853  1  8 
+KPC  OAD   .  O  0  22.978  -6.877  13.126  1  9 
+KPC  OAL   .  O  0  21.841  -6.527  15.270  1  10
+KPC  OAB   .  O  0  20.626  -6.174  13.179  1  11
+KPC  1HAK  .  H  0  ?       ?       ?       0  12
+KPC  2HAK  .  H  0  ?       ?       ?       0  13
+KPC  3HAK  .  H  0  ?       ?       ?       0  14
+KPC  1HAI  .  H  0  ?       ?       ?       0  15
+KPC  2HAI  .  H  0  ?       ?       ?       0  16
+KPC  1HAG  .  H  0  ?       ?       ?       0  17
+KPC  2HAG  .  H  0  ?       ?       ?       0  18
+KPC  1HAF  .  H  0  ?       ?       ?       0  19
+KPC  2HAF  .  H  0  ?       ?       ?       0  20
+KPC  1HAL  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KPC  CAK  CAJ   SING  1 
+KPC  CAK  1HAK  SING  2 
+KPC  CAK  2HAK  SING  3 
+KPC  CAK  3HAK  SING  4 
+KPC  CAJ  OAC   DOUB  5 
+KPC  CAJ  CAI   SING  6 
+KPC  CAI  SAH   SING  7 
+KPC  CAI  1HAI  SING  8 
+KPC  CAI  2HAI  SING  9 
+KPC  SAH  CAG   SING  10
+KPC  CAG  CAF   SING  11
+KPC  CAG  1HAG  SING  12
+KPC  CAG  2HAG  SING  13
+KPC  CAF  SAE   SING  14
+KPC  CAF  1HAF  SING  15
+KPC  CAF  2HAF  SING  16
+KPC  SAE  OAD   DOUB  17
+KPC  SAE  OAL   SING  18
+KPC  SAE  OAB   DOUB  19
+KPC  OAL  1HAL  SING  20
+#

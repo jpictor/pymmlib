@@ -1,0 +1,87 @@
+data_SBP
+#
+_chem_comp.id                   SBP
+_chem_comp.name                 [3-(1,3,2-DIOXABOROLAN-2-YLOXY)PROPYL]GUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N3 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        188.013
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBP  BD    .  B  0  35.766  27.189  7.939   1  1 
+SBP  OE1   .  O  0  35.021  27.086  9.164   1  2 
+SBP  OE2   .  O  0  36.934  26.306  8.018   1  3 
+SBP  OE3   .  O  0  35.047  26.775  6.763   1  4 
+SBP  CZ2   .  C  0  37.058  25.570  6.787   1  5 
+SBP  CZ3   .  C  0  35.731  25.748  6.022   1  6 
+SBP  CZ1   .  C  0  34.223  28.206  9.548   1  7 
+SBP  CH    .  C  0  33.518  27.906  10.852  1  8 
+SBP  CQ    .  C  0  32.783  29.142  11.375  1  9 
+SBP  NI    .  N  0  32.146  28.791  12.638  1  10
+SBP  CK    .  C  0  31.328  29.586  13.333  1  11
+SBP  NL1   .  N  1  31.051  30.812  12.897  1  12
+SBP  NL2   .  N  0  30.817  29.163  14.493  1  13
+SBP  1HL1  .  H  0  31.389  31.097  11.992  0  14
+SBP  2HL1  .  H  0  30.506  31.447  13.461  0  15
+SBP  1HL2  .  H  0  31.005  28.233  14.839  0  16
+SBP  2HL2  .  H  0  30.320  29.827  15.064  0  17
+SBP  HI    .  H  0  32.338  27.867  12.990  1  18
+SBP  2HQ   .  H  0  32.025  29.444  10.651  0  19
+SBP  3HQ   .  H  0  33.477  29.966  11.547  0  20
+SBP  2HH   .  H  0  34.261  27.597  11.586  0  21
+SBP  3HH   .  H  0  32.832  27.075  10.697  0  22
+SBP  2HZ1  .  H  0  34.846  29.088  9.696   0  23
+SBP  3HZ1  .  H  0  33.485  28.402  8.768   0  24
+SBP  2HZ3  .  H  0  35.185  24.805  6.051   0  25
+SBP  3HZ3  .  H  0  35.912  26.048  4.994   0  26
+SBP  2HZ2  .  H  0  37.262  24.519  6.975   0  27
+SBP  3HZ2  .  H  0  37.869  26.014  6.208   0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBP  BD   OE1   SING  1 
+SBP  BD   OE3   SING  2 
+SBP  BD   OE2   SING  3 
+SBP  OE1  CZ1   SING  4 
+SBP  OE2  CZ2   SING  5 
+SBP  OE3  CZ3   SING  6 
+SBP  CZ2  CZ3   SING  7 
+SBP  CZ2  2HZ2  SING  8 
+SBP  CZ2  3HZ2  SING  9 
+SBP  CZ3  2HZ3  SING  10
+SBP  CZ3  3HZ3  SING  11
+SBP  CZ1  CH    SING  12
+SBP  CZ1  2HZ1  SING  13
+SBP  CZ1  3HZ1  SING  14
+SBP  CH   CQ    SING  15
+SBP  CH   2HH   SING  16
+SBP  CH   3HH   SING  17
+SBP  CQ   NI    SING  18
+SBP  CQ   2HQ   SING  19
+SBP  CQ   3HQ   SING  20
+SBP  NI   CK    SING  21
+SBP  NI   HI    SING  22
+SBP  CK   NL1   DOUB  23
+SBP  CK   NL2   SING  24
+SBP  NL1  1HL1  SING  25
+SBP  NL1  2HL1  SING  26
+SBP  NL2  1HL2  SING  27
+SBP  NL2  2HL2  SING  28
+#

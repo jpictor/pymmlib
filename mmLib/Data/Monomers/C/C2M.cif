@@ -1,0 +1,87 @@
+data_C2M
+#
+_chem_comp.id                   C2M
+_chem_comp.name                 5-(3,4-DICHLOROPHENYL)-6-METHYLPYRIMIDINE-2,4-DIAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C11 H10 N4 CL2'
+_chem_comp.pdbx_synonyms        'METOPRINE, METHODICHLOROPHEN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        269.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+C2M  N1    .  N   0  43.545  -32.796  -5.145  1  1 
+C2M  C2    .  C   0  43.750  -31.843  -4.154  1  2 
+C2M  N2    .  N   0  43.361  -32.176  -2.885  1  3 
+C2M  C3    .  C   0  42.785  -33.393  -2.564  1  4 
+C2M  C4    .  C   0  42.523  -34.456  -3.571  1  5 
+C2M  C5    .  C   0  42.959  -34.047  -4.899  1  6 
+C2M  C6    .  C   0  41.898  -35.745  -3.228  1  7 
+C2M  C7    .  C   0  40.432  -35.770  -3.010  1  8 
+C2M  C8    .  C   0  39.750  -37.013  -2.652  1  9 
+C2M  C9    .  C   0  40.558  -38.303  -2.497  1  10
+C2M  C10   .  C   0  42.017  -38.286  -2.719  1  11
+C2M  C11   .  C   0  42.682  -37.010  -3.084  1  12
+C2M  N3    .  N   0  44.339  -30.534  -4.435  1  13
+C2M  N4    .  N   0  42.446  -33.576  -1.191  1  14
+C2M  C12   .  C   0  42.854  -34.845  -6.155  1  15
+C2M  CL1   .  CL  0  39.886  -39.784  -2.059  0  16
+C2M  CL2   .  CL  0  38.091  -36.870  -2.444  0  17
+C2M  1H12  .  H   0  ?       ?        ?       0  18
+C2M  2H12  .  H   0  ?       ?        ?       0  19
+C2M  3H12  .  H   0  ?       ?        ?       0  20
+C2M  1HN3  .  H   0  ?       ?        ?       0  21
+C2M  2HN3  .  H   0  ?       ?        ?       0  22
+C2M  1HN4  .  H   0  ?       ?        ?       0  23
+C2M  2HN4  .  H   0  ?       ?        ?       0  24
+C2M  H11   .  H   0  ?       ?        ?       1  25
+C2M  H10   .  H   0  ?       ?        ?       1  26
+C2M  H7    .  H   0  ?       ?        ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+C2M  N1   C5    AROM  1 
+C2M  N1   C2    AROM  2 
+C2M  C2   N3    SING  3 
+C2M  C2   N2    AROM  4 
+C2M  N2   C3    AROM  5 
+C2M  C3   N4    SING  6 
+C2M  C3   C4    AROM  7 
+C2M  C4   C5    AROM  8 
+C2M  C4   C6    SING  9 
+C2M  C5   C12   SING  10
+C2M  C6   C11   AROM  11
+C2M  C6   C7    AROM  12
+C2M  C7   C8    AROM  13
+C2M  C7   H7    SING  14
+C2M  C8   C9    AROM  15
+C2M  C8   CL2   SING  16
+C2M  C9   C10   AROM  17
+C2M  C9   CL1   SING  18
+C2M  C10  C11   AROM  19
+C2M  C10  H10   SING  20
+C2M  C11  H11   SING  21
+C2M  N3   1HN3  SING  22
+C2M  N3   2HN3  SING  23
+C2M  N4   1HN4  SING  24
+C2M  N4   2HN4  SING  25
+C2M  C12  1H12  SING  26
+C2M  C12  2H12  SING  27
+C2M  C12  3H12  SING  28
+#

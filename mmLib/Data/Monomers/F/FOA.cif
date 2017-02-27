@@ -1,0 +1,63 @@
+data_FOA
+#
+_chem_comp.id                   FOA
+_chem_comp.name                 '2-FUROIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        112.085
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          FOA
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1=COC(=C1)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+FOA  C1   .  C  0  -25.020  -11.126  -14.722  1  N  1 
+FOA  C2   .  C  0  -25.618  -10.140  -13.841  1  N  2 
+FOA  C3   .  C  0  -26.781  -10.147  -13.177  1  N  3 
+FOA  C4   .  C  0  -26.841  -8.942   -12.477  1  N  4 
+FOA  C5   .  C  0  -25.720  -8.257   -12.740  1  N  5 
+FOA  O6   .  O  0  -23.891  -10.874  -15.244  1  N  6 
+FOA  O7   .  O  0  -25.662  -12.163  -14.905  1  N  7 
+FOA  O8   .  O  0  -24.921  -8.966   -13.592  1  N  8 
+FOA  H3   .  H  0  -27.525  -10.930  -13.182  1  N  9 
+FOA  H4   .  H  0  -27.648  -8.618   -11.836  1  N  10
+FOA  H5   .  H  0  -25.482  -7.284   -12.336  1  N  11
+FOA  HO7  .  H  0  -25.181  -12.734  -15.492  1  N  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+FOA  C1  C2   SING  N  1 
+FOA  C1  O6   DOUB  N  2 
+FOA  C1  O7   SING  N  3 
+FOA  C2  C3   DOUB  N  4 
+FOA  C2  O8   SING  N  5 
+FOA  C3  C4   SING  N  6 
+FOA  C3  H3   SING  N  7 
+FOA  C4  C5   DOUB  N  8 
+FOA  C4  H4   SING  N  9 
+FOA  C5  O8   SING  N  10
+FOA  C5  H5   SING  N  11
+FOA  O7  HO7  SING  N  12
+#

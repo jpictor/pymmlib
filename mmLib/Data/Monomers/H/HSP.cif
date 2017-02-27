@@ -1,0 +1,95 @@
+data_HSP
+#
+_chem_comp.id                   HSP
+_chem_comp.name                 '4-(2-HYDROXYPHENYLSULFINYL)-BUTYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 O5 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        278.259
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HSP  O1    .  O  0  ?  ?  ?  1  1 
+HSP  O2    .  O  0  ?  ?  ?  1  2 
+HSP  O3    .  O  0  ?  ?  ?  1  3 
+HSP  C1    .  C  0  ?  ?  ?  1  4 
+HSP  C2    .  C  0  ?  ?  ?  1  5 
+HSP  C3    .  C  0  ?  ?  ?  1  6 
+HSP  C4    .  C  0  ?  ?  ?  1  7 
+HSP  C5    .  C  0  ?  ?  ?  1  8 
+HSP  C6    .  C  0  ?  ?  ?  1  9 
+HSP  O4    .  O  0  ?  ?  ?  1  10
+HSP  S1    .  S  0  ?  ?  ?  1  11
+HSP  C7    .  C  0  ?  ?  ?  1  12
+HSP  C8    .  C  0  ?  ?  ?  1  13
+HSP  C9    .  C  0  ?  ?  ?  1  14
+HSP  C10   .  C  0  ?  ?  ?  1  15
+HSP  P1    .  P  0  ?  ?  ?  1  16
+HSP  O5    .  O  0  ?  ?  ?  1  17
+HSP  HO1   .  H  0  ?  ?  ?  1  18
+HSP  HO2   .  H  0  ?  ?  ?  1  19
+HSP  1H10  .  H  0  ?  ?  ?  0  20
+HSP  2H10  .  H  0  ?  ?  ?  0  21
+HSP  1H9   .  H  0  ?  ?  ?  0  22
+HSP  2H9   .  H  0  ?  ?  ?  0  23
+HSP  1H8   .  H  0  ?  ?  ?  0  24
+HSP  2H8   .  H  0  ?  ?  ?  0  25
+HSP  1H7   .  H  0  ?  ?  ?  0  26
+HSP  2H7   .  H  0  ?  ?  ?  0  27
+HSP  H1    .  H  0  ?  ?  ?  1  28
+HSP  H6    .  H  0  ?  ?  ?  1  29
+HSP  H5    .  H  0  ?  ?  ?  1  30
+HSP  H4    .  H  0  ?  ?  ?  1  31
+HSP  HO4   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HSP  O1   P1    SING  1 
+HSP  O1   HO1   SING  2 
+HSP  O2   P1    SING  3 
+HSP  O2   HO2   SING  4 
+HSP  O3   S1    DOUB  5 
+HSP  C1   C2    DOUB  6 
+HSP  C1   C6    SING  7 
+HSP  C1   H1    SING  8 
+HSP  C2   C3    SING  9 
+HSP  C2   S1    SING  10
+HSP  C3   C4    DOUB  11
+HSP  C3   O4    SING  12
+HSP  C4   C5    SING  13
+HSP  C4   H4    SING  14
+HSP  C5   C6    DOUB  15
+HSP  C5   H5    SING  16
+HSP  C6   H6    SING  17
+HSP  O4   HO4   SING  18
+HSP  S1   C7    SING  19
+HSP  C7   C8    SING  20
+HSP  C7   1H7   SING  21
+HSP  C7   2H7   SING  22
+HSP  C8   C9    SING  23
+HSP  C8   1H8   SING  24
+HSP  C8   2H8   SING  25
+HSP  C9   C10   SING  26
+HSP  C9   1H9   SING  27
+HSP  C9   2H9   SING  28
+HSP  C10  P1    SING  29
+HSP  C10  1H10  SING  30
+HSP  C10  2H10  SING  31
+HSP  P1   O5    DOUB  32
+#

@@ -1,0 +1,193 @@
+data_BTX
+#
+_chem_comp.id                   BTX
+_chem_comp.name                 '((2R,3S,4R,5R)-5-(6-AMINO-9H-PURIN-9-YL)-3,4-DIHYDROXY-TETRAHYDROFURAN-2-YL)METHYL 5-((3AS,4S,6AR)-2-OXO-HEXAHYDRO-1H-THIENO[3,4-D]IMIDAZOL-4-YL)PENTYL HYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H30 N7 O8 P1 S1'
+_chem_comp.pdbx_synonyms        BIOTINOL-5-AMP
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        559.533
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+BTX  SMILES            Nc1ncnc2[n](cnc12)[C@@H]3O[C@H](CO[P@@](O)(=O)OCCCCC[C@@H]4SC[C@@H]5NC(=O)N[C@H]45)[C@@H](O)[C@H]3O                                                                                                                                            CACTVS              2.87 
+BTX  SMILES_CANONICAL  Nc1ncnc2[n](cnc12)C3OC(COP(O)(=O)OCCCCCC4SCC5NC(=O)NC45)C(O)C3O                                                                                                                                                                                CACTVS              2.87 
+BTX  INCHI             InChI=1/C20H30N7O8PS/c21-17-14-18(23-8-22-17)27(9-24-14)19-16(29)15(28)11(35-19)6-34-36(31,32)33-5-3-1-2-4-12-13-10(7-37-12)25-20(30)26-13/h8-13,15-16,19,28-29H,1-7H2,(H,31,32)(H2,21,22,23)(H2,25,26,30)/t10-,11+,12-,13-,15+,16+,19+/m0/s1  InChi               1    
+BTX  SMILES_CANONICAL  c1nc(c2c(n1)n(cn2)[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)OCCCCC[C@H]4[C@@H]5[C@H](CS4)NC(=O)N5)O)O)N                                                                                                                                        OpenEye/OEToolkits  1.4.2
+BTX  SMILES            c1nc(c2c(n1)n(cn2)C3C(C(C(O3)COP(=O)(O)OCCCCCC4C5C(CS4)NC(=O)N5)O)O)N                                                                                                                                                                          OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          BTX
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '[(2R,3S,4R,5R)-5-(6-aminopurin-9-yl)-3,4-dihydroxy-oxolan-2-yl]methoxy-[5-[(1S,5S,6S)-3-oxo-7-thia-2,4-diazabicyclo[3.3.0]oct-6-yl]pentoxy]phosphinic acid'
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+BTX  P     .  P  0  2.454   44.515  -28.820  1  N  R  N  1 
+BTX  O1P   .  O  0  3.530   43.665  -28.192  1  N  N  N  2 
+BTX  O2P   .  O  0  1.977   45.644  -27.874  1  N  N  N  3 
+BTX  O5*   .  O  0  1.193   43.599  -29.315  1  N  N  N  4 
+BTX  C5*   .  C  0  0.411   42.810  -28.473  1  N  N  N  5 
+BTX  C4*   .  C  0  -0.874  42.443  -29.013  1  N  R  N  6 
+BTX  O4*   .  O  0  -1.269  43.023  -30.226  1  N  N  N  7 
+BTX  C3*   .  C  0  -1.024  41.048  -29.306  1  N  S  N  8 
+BTX  O3*   .  O  0  -0.754  40.083  -28.317  1  N  N  N  9 
+BTX  C2*   .  C  0  -2.400  41.014  -29.871  1  N  R  N  10
+BTX  O2*   .  O  0  -3.311  40.919  -28.814  1  N  N  N  11
+BTX  C1*   .  C  0  -2.469  42.311  -30.683  1  N  R  N  12
+BTX  N9    .  N  0  -2.366  42.236  -32.157  1  Y  N  N  13
+BTX  C8    .  C  0  -1.727  41.299  -32.937  1  Y  N  N  14
+BTX  N7    .  N  0  -1.860  41.643  -34.233  1  Y  N  N  15
+BTX  C5    .  C  0  -2.596  42.799  -34.297  1  Y  N  N  16
+BTX  C6    .  C  0  -2.984  43.571  -35.395  1  Y  N  N  17
+BTX  N6    .  N  0  -2.656  43.209  -36.654  1  N  N  N  18
+BTX  N1    .  N  0  -3.752  44.749  -35.118  1  Y  N  N  19
+BTX  C2    .  C  0  -4.094  45.144  -33.819  1  Y  N  N  20
+BTX  N3    .  N  0  -3.677  44.348  -32.733  1  Y  N  N  21
+BTX  C4    .  C  0  -2.918  43.197  -33.007  1  Y  N  N  22
+BTX  C11B  .  C  0  3.850   45.857  -30.540  0  N  N  N  23
+BTX  O11B  .  O  0  2.870   45.105  -30.115  0  N  N  N  24
+BTX  C10B  .  C  0  3.906   46.064  -32.032  0  N  N  N  25
+BTX  C9B   .  C  0  3.881   44.889  -33.013  1  N  N  N  26
+BTX  C8B   .  C  0  4.952   45.058  -34.083  1  N  N  N  27
+BTX  C7B   .  C  0  4.493   44.648  -35.477  1  N  N  N  28
+BTX  C2B   .  C  0  5.482   44.942  -36.616  1  N  S  N  29
+BTX  S1B   .  S  0  4.974   44.255  -38.198  1  N  N  N  30
+BTX  C6B   .  C  0  6.500   44.807  -38.922  1  N  N  N  31
+BTX  C5B   .  C  0  7.526   44.372  -37.863  1  N  R  N  32
+BTX  N1B   .  N  0  7.912   42.952  -37.979  1  N  N  N  33
+BTX  C3B   .  C  0  7.637   42.293  -36.823  1  N  N  N  34
+BTX  O3B   .  O  0  7.871   41.066  -36.606  1  N  N  N  35
+BTX  N2B   .  N  0  7.075   43.136  -35.890  1  N  N  N  36
+BTX  C4B   .  C  0  6.947   44.473  -36.430  1  N  S  N  37
+BTX  H2P   .  H  0  1.879   45.300  -26.994  1  N  N  N  38
+BTX  1H5*  .  H  0  0.213   43.412  -27.574  0  N  N  N  39
+BTX  2H5*  .  H  0  0.967   41.883  -28.270  0  N  N  N  40
+BTX  H4*   .  H  0  -1.483  42.811  -28.174  1  N  N  N  41
+BTX  H3*   .  H  0  -0.222  40.710  -29.979  1  N  N  N  42
+BTX  H3    .  H  0  -0.693  39.225  -28.720  1  N  N  N  43
+BTX  H1    .  H  0  -2.644  40.158  -30.517  1  N  N  N  44
+BTX  H2*   .  H  0  -2.839  40.897  -27.990  1  N  N  N  45
+BTX  H1*   .  H  0  -3.463  42.751  -30.518  1  N  N  N  46
+BTX  H8    .  H  0  -1.204  40.429  -32.570  1  N  N  N  47
+BTX  1HN6  .  H  0  -2.898  43.702  -37.490  0  N  N  N  48
+BTX  2HN6  .  H  0  -2.129  42.361  -36.603  0  N  N  N  49
+BTX  H4    .  H  0  -4.668  46.044  -33.652  1  N  N  N  50
+BTX  1H11  .  H  0  4.778   45.333  -30.268  0  N  N  N  51
+BTX  2H11  .  H  0  3.736   46.846  -30.072  0  N  N  N  52
+BTX  1H10  .  H  0  4.914   46.479  -32.179  0  N  N  N  53
+BTX  2H10  .  H  0  3.023   46.672  -32.278  0  N  N  N  54
+BTX  1H9B  .  H  0  2.895   44.855  -33.500  0  N  N  N  55
+BTX  2H9B  .  H  0  4.069   43.956  -32.461  0  N  N  N  56
+BTX  1H8B  .  H  0  5.790   44.399  -33.810  0  N  N  N  57
+BTX  2H8B  .  H  0  5.238   46.120  -34.116  0  N  N  N  58
+BTX  1H7B  .  H  0  3.596   45.248  -35.691  0  N  N  N  59
+BTX  2H7B  .  H  0  4.321   43.562  -35.462  0  N  N  N  60
+BTX  H2B   .  H  0  5.458   46.041  -36.593  1  N  N  N  61
+BTX  1H6B  .  H  0  6.521   45.885  -39.142  0  N  N  N  62
+BTX  2H6B  .  H  0  6.689   44.337  -39.899  0  N  N  N  63
+BTX  H5B   .  H  0  8.380   45.044  -38.036  1  N  N  N  64
+BTX  H1B   .  H  0  8.318   42.535  -38.792  1  N  N  N  65
+BTX  H2    .  H  0  6.795   42.863  -34.970  1  N  N  N  66
+BTX  H4B   .  H  0  7.441   45.175  -35.742  1  N  N  N  67
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+BTX  P     O1P   DOUB  N  N  1 
+BTX  P     O2P   SING  N  N  2 
+BTX  P     O5*   SING  N  N  3 
+BTX  P     O11B  SING  N  N  4 
+BTX  O2P   H2P   SING  N  N  5 
+BTX  O5*   C5*   SING  N  N  6 
+BTX  C5*   C4*   SING  N  N  7 
+BTX  C5*   1H5*  SING  N  N  8 
+BTX  C5*   2H5*  SING  N  N  9 
+BTX  C4*   O4*   SING  N  N  10
+BTX  C4*   C3*   SING  N  N  11
+BTX  C4*   H4*   SING  N  N  12
+BTX  O4*   C1*   SING  N  N  13
+BTX  C3*   O3*   SING  N  N  14
+BTX  C3*   C2*   SING  N  N  15
+BTX  C3*   H3*   SING  N  N  16
+BTX  O3*   H3    SING  N  N  17
+BTX  C2*   O2*   SING  N  N  18
+BTX  C2*   C1*   SING  N  N  19
+BTX  C2*   H1    SING  N  N  20
+BTX  O2*   H2*   SING  N  N  21
+BTX  C1*   N9    SING  N  N  22
+BTX  C1*   H1*   SING  N  N  23
+BTX  N9    C8    SING  Y  N  24
+BTX  N9    C4    SING  Y  N  25
+BTX  C8    N7    DOUB  Y  N  26
+BTX  C8    H8    SING  N  N  27
+BTX  N7    C5    SING  Y  N  28
+BTX  C5    C6    SING  Y  N  29
+BTX  C5    C4    DOUB  Y  N  30
+BTX  C6    N6    SING  N  N  31
+BTX  C6    N1    DOUB  Y  N  32
+BTX  N6    1HN6  SING  N  N  33
+BTX  N6    2HN6  SING  N  N  34
+BTX  N1    C2    SING  Y  N  35
+BTX  C2    N3    DOUB  Y  N  36
+BTX  C2    H4    SING  N  N  37
+BTX  N3    C4    SING  Y  N  38
+BTX  C11B  O11B  SING  N  N  39
+BTX  C11B  C10B  SING  N  N  40
+BTX  C11B  1H11  SING  N  N  41
+BTX  C11B  2H11  SING  N  N  42
+BTX  C10B  C9B   SING  N  N  43
+BTX  C10B  1H10  SING  N  N  44
+BTX  C10B  2H10  SING  N  N  45
+BTX  C9B   C8B   SING  N  N  46
+BTX  C9B   1H9B  SING  N  N  47
+BTX  C9B   2H9B  SING  N  N  48
+BTX  C8B   C7B   SING  N  N  49
+BTX  C8B   1H8B  SING  N  N  50
+BTX  C8B   2H8B  SING  N  N  51
+BTX  C7B   C2B   SING  N  N  52
+BTX  C7B   1H7B  SING  N  N  53
+BTX  C7B   2H7B  SING  N  N  54
+BTX  C2B   S1B   SING  N  N  55
+BTX  C2B   C4B   SING  N  N  56
+BTX  C2B   H2B   SING  N  N  57
+BTX  S1B   C6B   SING  N  N  58
+BTX  C6B   C5B   SING  N  N  59
+BTX  C6B   1H6B  SING  N  N  60
+BTX  C6B   2H6B  SING  N  N  61
+BTX  C5B   N1B   SING  N  N  62
+BTX  C5B   C4B   SING  N  N  63
+BTX  C5B   H5B   SING  N  N  64
+BTX  N1B   C3B   SING  N  N  65
+BTX  N1B   H1B   SING  N  N  66
+BTX  C3B   O3B   DOUB  N  N  67
+BTX  C3B   N2B   SING  N  N  68
+BTX  N2B   C4B   SING  N  N  69
+BTX  N2B   H2    SING  N  N  70
+BTX  C4B   H4B   SING  N  N  71
+#

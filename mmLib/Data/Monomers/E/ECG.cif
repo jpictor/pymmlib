@@ -1,0 +1,95 @@
+data_ECG
+#
+_chem_comp.id                   ECG
+_chem_comp.name                 '3-HYDROXY-8-METHYL-8-AZA-BICYCLO[3.2.1]OCTANE-2-CARBOXYLIC ACID METHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N1 O3'
+_chem_comp.pdbx_synonyms        'ECGONINE METHYL ESTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        199.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ECG  C21   .  C  0  15.309  -3.698  31.700  1  1 
+ECG  C24   .  C  0  16.579  -3.157  32.403  1  2 
+ECG  C26   .  C  0  17.053  -4.067  33.623  1  3 
+ECG  C29   .  C  0  17.394  -5.565  33.208  1  4 
+ECG  O1    .  O  0  18.251  -6.140  34.181  1  5 
+ECG  C18   .  C  0  15.856  -4.653  30.594  1  6 
+ECG  C10   .  C  0  17.418  -4.597  30.719  1  7 
+ECG  N12   .  N  0  17.604  -3.227  31.329  1  8 
+ECG  C8    .  C  0  18.051  -5.659  31.741  1  9 
+ECG  C6    .  C  0  19.598  -5.451  31.729  1  10
+ECG  O5    .  O  0  20.306  -6.656  31.752  1  11
+ECG  C1    .  C  0  21.758  -6.630  31.749  1  12
+ECG  O7    .  O  0  20.099  -4.315  31.710  1  13
+ECG  C14   .  C  0  17.564  -2.094  30.319  1  14
+ECG  1H1   .  H  0  ?       ?       ?       0  15
+ECG  2H1   .  H  0  ?       ?       ?       0  16
+ECG  3H1   .  H  0  ?       ?       ?       0  17
+ECG  H8    .  H  0  ?       ?       ?       1  18
+ECG  H29   .  H  0  ?       ?       ?       1  19
+ECG  HO1   .  H  0  ?       ?       ?       1  20
+ECG  1H26  .  H  0  ?       ?       ?       0  21
+ECG  2H26  .  H  0  ?       ?       ?       0  22
+ECG  H24   .  H  0  ?       ?       ?       1  23
+ECG  1H21  .  H  0  ?       ?       ?       0  24
+ECG  2H21  .  H  0  ?       ?       ?       0  25
+ECG  1H18  .  H  0  ?       ?       ?       0  26
+ECG  2H18  .  H  0  ?       ?       ?       0  27
+ECG  H10   .  H  0  ?       ?       ?       1  28
+ECG  1H14  .  H  0  ?       ?       ?       0  29
+ECG  2H14  .  H  0  ?       ?       ?       0  30
+ECG  3H14  .  H  0  ?       ?       ?       0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ECG  C21  C24   SING  1 
+ECG  C21  C18   SING  2 
+ECG  C21  1H21  SING  3 
+ECG  C21  2H21  SING  4 
+ECG  C24  C26   SING  5 
+ECG  C24  N12   SING  6 
+ECG  C24  H24   SING  7 
+ECG  C26  C29   SING  8 
+ECG  C26  1H26  SING  9 
+ECG  C26  2H26  SING  10
+ECG  C29  C8    SING  11
+ECG  C29  O1    SING  12
+ECG  C29  H29   SING  13
+ECG  O1   HO1   SING  14
+ECG  C18  C10   SING  15
+ECG  C18  1H18  SING  16
+ECG  C18  2H18  SING  17
+ECG  C10  C8    SING  18
+ECG  C10  N12   SING  19
+ECG  C10  H10   SING  20
+ECG  N12  C14   SING  21
+ECG  C8   C6    SING  22
+ECG  C8   H8    SING  23
+ECG  C6   O5    SING  24
+ECG  C6   O7    DOUB  25
+ECG  O5   C1    SING  26
+ECG  C1   1H1   SING  27
+ECG  C1   2H1   SING  28
+ECG  C1   3H1   SING  29
+ECG  C14  1H14  SING  30
+ECG  C14  2H14  SING  31
+ECG  C14  3H14  SING  32
+#

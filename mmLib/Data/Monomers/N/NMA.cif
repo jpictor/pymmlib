@@ -1,0 +1,114 @@
+data_NMA
+#
+_chem_comp.id                   NMA
+_chem_comp.name                 N-[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL]-2-METHYLALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N2 O7 P1'
+_chem_comp.pdbx_synonyms        N-PYRIDOXYL-2-METHYLALANINE-5-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        334.265
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NMA  C4    .  C  0  ?  ?  ?  1  1 
+NMA  C4A   .  C  0  ?  ?  ?  1  2 
+NMA  P     .  P  0  ?  ?  ?  1  3 
+NMA  O1P   .  O  0  ?  ?  ?  1  4 
+NMA  O2P   .  O  0  ?  ?  ?  1  5 
+NMA  O3P   .  O  0  ?  ?  ?  1  6 
+NMA  O4P   .  O  0  ?  ?  ?  1  7 
+NMA  C5A   .  C  0  ?  ?  ?  1  8 
+NMA  C5    .  C  0  ?  ?  ?  1  9 
+NMA  N1    .  N  0  ?  ?  ?  1  10
+NMA  C6    .  C  0  ?  ?  ?  1  11
+NMA  C2    .  C  0  ?  ?  ?  1  12
+NMA  C2A   .  C  0  ?  ?  ?  1  13
+NMA  C3    .  C  0  ?  ?  ?  1  14
+NMA  O3    .  O  0  ?  ?  ?  1  15
+NMA  N     .  N  0  ?  ?  ?  1  16
+NMA  C8    .  C  0  ?  ?  ?  1  17
+NMA  C7    .  C  0  ?  ?  ?  1  18
+NMA  O7    .  O  0  ?  ?  ?  1  19
+NMA  O8    .  O  0  ?  ?  ?  1  20
+NMA  C9    .  C  0  ?  ?  ?  1  21
+NMA  C10   .  C  0  ?  ?  ?  1  22
+NMA  1H2A  .  H  0  ?  ?  ?  0  23
+NMA  2H2A  .  H  0  ?  ?  ?  0  24
+NMA  3H2A  .  H  0  ?  ?  ?  0  25
+NMA  H6    .  H  0  ?  ?  ?  1  26
+NMA  1H5A  .  H  0  ?  ?  ?  0  27
+NMA  2H5A  .  H  0  ?  ?  ?  0  28
+NMA  3HOP  .  H  0  ?  ?  ?  0  29
+NMA  2HOP  .  H  0  ?  ?  ?  0  30
+NMA  HO3   .  H  0  ?  ?  ?  1  31
+NMA  1H4A  .  H  0  ?  ?  ?  0  32
+NMA  2H4A  .  H  0  ?  ?  ?  0  33
+NMA  HN    .  H  0  ?  ?  ?  1  34
+NMA  1H9   .  H  0  ?  ?  ?  0  35
+NMA  2H9   .  H  0  ?  ?  ?  0  36
+NMA  3H9   .  H  0  ?  ?  ?  0  37
+NMA  1H10  .  H  0  ?  ?  ?  0  38
+NMA  2H10  .  H  0  ?  ?  ?  0  39
+NMA  3H10  .  H  0  ?  ?  ?  0  40
+NMA  HO8   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NMA  C4   C4A   SING  1 
+NMA  C4   C5    DOUB  2 
+NMA  C4   C3    SING  3 
+NMA  C4A  N     SING  4 
+NMA  C4A  1H4A  SING  5 
+NMA  C4A  2H4A  SING  6 
+NMA  P    O1P   DOUB  7 
+NMA  P    O2P   SING  8 
+NMA  P    O3P   SING  9 
+NMA  P    O4P   SING  10
+NMA  O2P  2HOP  SING  11
+NMA  O3P  3HOP  SING  12
+NMA  O4P  C5A   SING  13
+NMA  C5A  C5    SING  14
+NMA  C5A  1H5A  SING  15
+NMA  C5A  2H5A  SING  16
+NMA  C5   C6    SING  17
+NMA  N1   C6    DOUB  18
+NMA  N1   C2    SING  19
+NMA  C6   H6    SING  20
+NMA  C2   C2A   SING  21
+NMA  C2   C3    DOUB  22
+NMA  C2A  1H2A  SING  23
+NMA  C2A  2H2A  SING  24
+NMA  C2A  3H2A  SING  25
+NMA  C3   O3    SING  26
+NMA  O3   HO3   SING  27
+NMA  N    C8    SING  28
+NMA  N    HN    SING  29
+NMA  C8   C7    SING  30
+NMA  C8   C9    SING  31
+NMA  C8   C10   SING  32
+NMA  C7   O7    DOUB  33
+NMA  C7   O8    SING  34
+NMA  O8   HO8   SING  35
+NMA  C9   1H9   SING  36
+NMA  C9   2H9   SING  37
+NMA  C9   3H9   SING  38
+NMA  C10  1H10  SING  39
+NMA  C10  2H10  SING  40
+NMA  C10  3H10  SING  41
+#

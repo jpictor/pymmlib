@@ -1,0 +1,76 @@
+data_BNO
+#
+_chem_comp.id                   BNO
+_chem_comp.name                 'NORLEUCINE BORONIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H14 N1 O2 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        130.981
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNO  N    .  N  0  ?  ?  ?  1  1 
+BNO  CA   .  C  0  ?  ?  ?  1  2 
+BNO  CB   .  C  0  ?  ?  ?  1  3 
+BNO  CG   .  C  0  ?  ?  ?  1  4 
+BNO  CD   .  C  0  ?  ?  ?  1  5 
+BNO  CE   .  C  0  ?  ?  ?  1  6 
+BNO  B    .  B  0  ?  ?  ?  1  7 
+BNO  O1   .  O  0  ?  ?  ?  1  8 
+BNO  O2   .  O  0  ?  ?  ?  1  9 
+BNO  1HN  .  H  0  ?  ?  ?  0  10
+BNO  2HN  .  H  0  ?  ?  ?  0  11
+BNO  HA   .  H  0  ?  ?  ?  1  12
+BNO  1HB  .  H  0  ?  ?  ?  0  13
+BNO  2HB  .  H  0  ?  ?  ?  0  14
+BNO  1HG  .  H  0  ?  ?  ?  0  15
+BNO  2HG  .  H  0  ?  ?  ?  0  16
+BNO  1HD  .  H  0  ?  ?  ?  0  17
+BNO  2HD  .  H  0  ?  ?  ?  0  18
+BNO  1HE  .  H  0  ?  ?  ?  0  19
+BNO  2HE  .  H  0  ?  ?  ?  0  20
+BNO  3HE  .  H  0  ?  ?  ?  0  21
+BNO  HO1  .  H  0  ?  ?  ?  1  22
+BNO  HO2  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNO  N   CA   SING  1 
+BNO  N   1HN  SING  2 
+BNO  N   2HN  SING  3 
+BNO  CA  CB   SING  4 
+BNO  CA  B    SING  5 
+BNO  CA  HA   SING  6 
+BNO  CB  CG   SING  7 
+BNO  CB  1HB  SING  8 
+BNO  CB  2HB  SING  9 
+BNO  CG  CD   SING  10
+BNO  CG  1HG  SING  11
+BNO  CG  2HG  SING  12
+BNO  CD  CE   SING  13
+BNO  CD  1HD  SING  14
+BNO  CD  2HD  SING  15
+BNO  CE  1HE  SING  16
+BNO  CE  2HE  SING  17
+BNO  CE  3HE  SING  18
+BNO  B   O1   SING  19
+BNO  B   O2   SING  20
+BNO  O1  HO1  SING  21
+BNO  O2  HO2  SING  22
+#

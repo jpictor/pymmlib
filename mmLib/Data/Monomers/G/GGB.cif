@@ -1,0 +1,79 @@
+data_GGB
+#
+_chem_comp.id                   GGB
+_chem_comp.name                 L-CANAVANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N4 O3'
+_chem_comp.pdbx_synonyms        'L-2-AMINO-4-(GUANIDINOOXY)BUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GGB  N     .  N  0  ?  ?  ?  1  1 
+GGB  CA    .  C  0  ?  ?  ?  1  2 
+GGB  CB    .  C  0  ?  ?  ?  1  3 
+GGB  CG    .  C  0  ?  ?  ?  1  4 
+GGB  C     .  C  0  ?  ?  ?  1  5 
+GGB  OD    .  O  0  ?  ?  ?  1  6 
+GGB  NE    .  N  0  ?  ?  ?  1  7 
+GGB  CZ    .  C  0  ?  ?  ?  1  8 
+GGB  NH1   .  N  0  ?  ?  ?  1  9 
+GGB  NH2   .  N  0  ?  ?  ?  1  10
+GGB  OA1   .  O  0  ?  ?  ?  1  11
+GGB  OA2   .  O  0  ?  ?  ?  1  12
+GGB  HOA2  .  H  0  ?  ?  ?  0  13
+GGB  HCA   .  H  0  ?  ?  ?  1  14
+GGB  1HN   .  H  0  ?  ?  ?  0  15
+GGB  2HN   .  H  0  ?  ?  ?  0  16
+GGB  1HCB  .  H  0  ?  ?  ?  0  17
+GGB  2HCB  .  H  0  ?  ?  ?  0  18
+GGB  1HCG  .  H  0  ?  ?  ?  0  19
+GGB  2HCG  .  H  0  ?  ?  ?  0  20
+GGB  HNE   .  H  0  ?  ?  ?  1  21
+GGB  1HN2  .  H  0  ?  ?  ?  0  22
+GGB  2HN2  .  H  0  ?  ?  ?  0  23
+GGB  HN1   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GGB  N    CA    SING  1 
+GGB  N    1HN   SING  2 
+GGB  N    2HN   SING  3 
+GGB  CA   CB    SING  4 
+GGB  CA   C     SING  5 
+GGB  CA   HCA   SING  6 
+GGB  CB   CG    SING  7 
+GGB  CB   1HCB  SING  8 
+GGB  CB   2HCB  SING  9 
+GGB  CG   OD    SING  10
+GGB  CG   1HCG  SING  11
+GGB  CG   2HCG  SING  12
+GGB  C    OA1   DOUB  13
+GGB  C    OA2   SING  14
+GGB  OD   NE    SING  15
+GGB  NE   CZ    SING  16
+GGB  NE   HNE   SING  17
+GGB  CZ   NH1   DOUB  18
+GGB  CZ   NH2   SING  19
+GGB  NH1  HN1   SING  20
+GGB  NH2  1HN2  SING  21
+GGB  NH2  2HN2  SING  22
+GGB  OA2  HOA2  SING  23
+#

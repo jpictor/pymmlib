@@ -1,0 +1,73 @@
+data_0CS
+#
+_chem_comp.id                       0CS
+_chem_comp.name                     3-[(S)-HYDROPEROXYSULFINYL]-L-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O5 S1'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            169.152
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          0CS
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C([C@@H](C(=O)O)N)[S@@](=O)OO
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+0CS  N     .  N  0  27.856  1.298   19.653  1  N  1 
+0CS  CA    .  C  0  28.565  1.908   20.778  1  N  2 
+0CS  CB    .  C  0  27.595  2.687   21.668  1  N  3 
+0CS  C     .  C  0  29.234  0.783   21.565  1  N  4 
+0CS  O     .  O  0  28.726  -0.339  21.592  1  N  5 
+0CS  SG    .  S  0  26.911  4.172   20.866  1  N  6 
+0CS  OD1   .  O  0  25.699  4.649   21.699  1  N  7 
+0CS  OD2   .  O  0  28.148  5.157   20.526  1  N  8 
+0CS  OD3   .  O  0  28.959  5.718   21.563  1  N  9 
+0CS  OXT   .  O  0  30.356  1.073   22.222  1  N  10
+0CS  1HN   .  H  0  26.897  1.159   19.899  0  N  11
+0CS  2HN   .  H  0  27.912  1.901   18.857  0  N  12
+0CS  HA    .  H  0  29.319  2.622   20.414  1  N  13
+0CS  1HB   .  H  0  26.759  2.022   21.929  0  N  14
+0CS  2HB   .  H  0  28.159  3.023   22.551  0  N  15
+0CS  HOD3  .  H  0  29.844  5.842   21.241  0  N  16
+0CS  HXT   .  H  0  30.663  0.300   22.681  1  N  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+0CS  N    CA    SING  N  1 
+0CS  N    1HN   SING  N  2 
+0CS  N    2HN   SING  N  3 
+0CS  CA   CB    SING  N  4 
+0CS  CA   C     SING  N  5 
+0CS  CA   HA    SING  N  6 
+0CS  CB   SG    SING  N  7 
+0CS  CB   1HB   SING  N  8 
+0CS  CB   2HB   SING  N  9 
+0CS  C    O     DOUB  N  10
+0CS  C    OXT   SING  N  11
+0CS  SG   OD1   DOUB  N  12
+0CS  SG   OD2   SING  N  13
+0CS  OD2  OD3   SING  N  14
+0CS  OD3  HOD3  SING  N  15
+0CS  OXT  HXT   SING  N  16
+#

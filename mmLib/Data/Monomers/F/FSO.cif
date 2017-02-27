@@ -1,0 +1,55 @@
+data_FSO
+#
+_chem_comp.id                   FSO
+_chem_comp.name                 'IRON/SULFUR/OXYGEN HYBRID CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O3 FE4 S3'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       367.566
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FSO  FE5  .  FE  0  53.874  30.062  12.877  0  1 
+FSO  FE6  .  FE  0  53.397  27.397  12.998  0  2 
+FSO  FE7  .  FE  0  53.547  30.967  16.502  0  3 
+FSO  FE8  .  FE  0  51.508  29.051  14.731  0  4 
+FSO  S5   .  S   0  55.341  28.432  13.043  1  5 
+FSO  S6   .  S   0  52.044  29.029  12.21   1  6 
+FSO  S7   .  S   0  49.62   30.607  14.306  1  7 
+FSO  O8   .  O   0  52.77   27.288  14.869  1  8 
+FSO  O9   .  O   0  52.021  29.534  16.642  1  9 
+FSO  O10  .  O   0  53.482  30.722  14.811  1  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FSO  FE5  O10  SING  1 
+FSO  FE5  FE8  SING  2 
+FSO  FE5  S5   SING  3 
+FSO  FE5  S6   SING  4 
+FSO  FE6  S5   SING  5 
+FSO  FE6  S6   SING  6 
+FSO  FE6  O8   SING  7 
+FSO  FE6  FE8  SING  8 
+FSO  FE7  O9   SING  9 
+FSO  FE7  O10  SING  10
+FSO  FE8  S6   SING  11
+FSO  FE8  S7   SING  12
+FSO  FE8  O8   SING  13
+FSO  FE8  O9   SING  14
+#

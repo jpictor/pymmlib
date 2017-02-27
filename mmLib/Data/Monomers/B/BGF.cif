@@ -1,0 +1,115 @@
+data_BGF
+#
+_chem_comp.id                   BGF
+_chem_comp.name                 2,5-BIS(4-GUANYLPHENYL)FURAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C18 H18 N4 O1'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       306.366
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BGF  CA    .  C  0  ?  ?  ?  1  1 
+BGF  CB    .  C  0  ?  ?  ?  1  2 
+BGF  CB'   .  C  0  ?  ?  ?  1  3 
+BGF  CA'   .  C  0  ?  ?  ?  1  4 
+BGF  O1    .  O  0  ?  ?  ?  1  5 
+BGF  C1    .  C  0  ?  ?  ?  1  6 
+BGF  C2    .  C  0  ?  ?  ?  1  7 
+BGF  C3    .  C  0  ?  ?  ?  1  8 
+BGF  C4    .  C  0  ?  ?  ?  1  9 
+BGF  C5    .  C  0  ?  ?  ?  1  10
+BGF  C6    .  C  0  ?  ?  ?  1  11
+BGF  C7    .  C  0  ?  ?  ?  1  12
+BGF  N1    .  N  0  ?  ?  ?  1  13
+BGF  N2    .  N  1  ?  ?  ?  1  14
+BGF  C1'   .  C  0  ?  ?  ?  1  15
+BGF  C2'   .  C  0  ?  ?  ?  1  16
+BGF  C3'   .  C  0  ?  ?  ?  1  17
+BGF  C4'   .  C  0  ?  ?  ?  1  18
+BGF  C5'   .  C  0  ?  ?  ?  1  19
+BGF  C6'   .  C  0  ?  ?  ?  1  20
+BGF  C7'   .  C  0  ?  ?  ?  1  21
+BGF  N1'   .  N  0  ?  ?  ?  1  22
+BGF  N2'   .  N  1  ?  ?  ?  1  23
+BGF  HB    .  H  0  ?  ?  ?  1  24
+BGF  HB'   .  H  0  ?  ?  ?  1  25
+BGF  H2    .  H  0  ?  ?  ?  1  26
+BGF  H3    .  H  0  ?  ?  ?  1  27
+BGF  H5    .  H  0  ?  ?  ?  1  28
+BGF  H6    .  H  0  ?  ?  ?  1  29
+BGF  1HN1  .  H  0  ?  ?  ?  0  30
+BGF  2HN1  .  H  0  ?  ?  ?  0  31
+BGF  1HN2  .  H  0  ?  ?  ?  0  32
+BGF  2HN2  .  H  0  ?  ?  ?  0  33
+BGF  H2'   .  H  0  ?  ?  ?  1  34
+BGF  H3'   .  H  0  ?  ?  ?  1  35
+BGF  H5'   .  H  0  ?  ?  ?  1  36
+BGF  H6'   .  H  0  ?  ?  ?  1  37
+BGF  1H1'  .  H  0  ?  ?  ?  0  38
+BGF  2H1'  .  H  0  ?  ?  ?  0  39
+BGF  1H2'  .  H  0  ?  ?  ?  0  40
+BGF  2H2'  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BGF  CA   CB    DOUB  1 
+BGF  CA   C1    SING  2 
+BGF  CA   O1    SING  3 
+BGF  CB   CB'   SING  4 
+BGF  CB   HB    SING  5 
+BGF  CB'  CA'   DOUB  6 
+BGF  CB'  HB'   SING  7 
+BGF  CA'  C1'   SING  8 
+BGF  CA'  O1    SING  9 
+BGF  C1   C2    DOUB  10
+BGF  C1   C6    SING  11
+BGF  C2   C3    SING  12
+BGF  C2   H2    SING  13
+BGF  C3   C4    DOUB  14
+BGF  C3   H3    SING  15
+BGF  C4   C5    SING  16
+BGF  C4   C7    SING  17
+BGF  C5   C6    DOUB  18
+BGF  C5   H5    SING  19
+BGF  C6   H6    SING  20
+BGF  C7   N1    SING  21
+BGF  C7   N2    DOUB  22
+BGF  N1   1HN1  SING  23
+BGF  N1   2HN1  SING  24
+BGF  N2   1HN2  SING  25
+BGF  N2   2HN2  SING  26
+BGF  C1'  C2'   DOUB  27
+BGF  C1'  C6'   SING  28
+BGF  C2'  C3'   SING  29
+BGF  C2'  H2'   SING  30
+BGF  C3'  C4'   DOUB  31
+BGF  C3'  H3'   SING  32
+BGF  C4'  C5'   SING  33
+BGF  C4'  C7'   SING  34
+BGF  C5'  C6'   DOUB  35
+BGF  C5'  H5'   SING  36
+BGF  C6'  H6'   SING  37
+BGF  C7'  N1'   SING  38
+BGF  C7'  N2'   DOUB  39
+BGF  N1'  1H1'  SING  40
+BGF  N1'  2H1'  SING  41
+BGF  N2'  1H2'  SING  42
+BGF  N2'  2H2'  SING  43
+#

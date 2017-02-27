@@ -1,0 +1,83 @@
+data_DYB
+#
+_chem_comp.id                   DYB
+_chem_comp.name                 4-(1,3,2-DIOXABOROLAN-2-YLOXY)BUTAN-1-AMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N1 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.999
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DYB  BD    .  B  0  35.860  27.197  8.006   1  1 
+DYB  OE1   .  O  0  35.108  27.178  9.181   1  2 
+DYB  OE2   .  O  0  36.966  26.336  8.071   1  3 
+DYB  CZ2   .  C  0  37.188  25.710  6.830   1  4 
+DYB  OE3   .  O  0  35.165  26.761  6.860   1  5 
+DYB  CZ3   .  C  0  35.862  25.789  6.101   1  6 
+DYB  CZ1   .  C  0  34.128  28.168  9.465   1  7 
+DYB  CH    .  C  0  33.507  28.056  10.856  1  8 
+DYB  CQ    .  C  0  32.765  29.336  11.276  1  9 
+DYB  CI    .  C  0  32.191  29.194  12.686  1  10
+DYB  NK    .  N  1  31.503  30.426  13.105  1  11
+DYB  1HK   .  H  0  32.138  31.207  13.072  0  12
+DYB  2HK   .  H  0  31.175  30.324  14.050  0  13
+DYB  3HK   .  H  0  30.710  30.602  12.503  0  14
+DYB  2HI   .  H  0  33.005  28.989  13.382  0  15
+DYB  3HI   .  H  0  31.482  28.365  12.706  0  16
+DYB  2HQ   .  H  0  31.960  29.554  10.573  0  17
+DYB  3HQ   .  H  0  33.466  30.173  11.274  0  18
+DYB  2HH   .  H  0  32.831  27.201  10.886  0  19
+DYB  3HH   .  H  0  34.316  27.885  11.565  0  20
+DYB  2HZ1  .  H  0  34.594  29.146  9.374   0  21
+DYB  3HZ1  .  H  0  33.355  28.103  8.708   0  22
+DYB  2HZ3  .  H  0  35.355  24.830  6.133   0  23
+DYB  3HZ3  .  H  0  36.004  26.074  5.065   0  24
+DYB  2HZ2  .  H  0  37.502  24.672  6.913   0  25
+DYB  3HZ2  .  H  0  37.935  26.288  6.290   0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DYB  BD   OE1   SING  1 
+DYB  BD   OE3   SING  2 
+DYB  BD   OE2   SING  3 
+DYB  OE1  CZ1   SING  4 
+DYB  OE2  CZ2   SING  5 
+DYB  CZ2  CZ3   SING  6 
+DYB  CZ2  2HZ2  SING  7 
+DYB  CZ2  3HZ2  SING  8 
+DYB  OE3  CZ3   SING  9 
+DYB  CZ3  2HZ3  SING  10
+DYB  CZ3  3HZ3  SING  11
+DYB  CZ1  CH    SING  12
+DYB  CZ1  2HZ1  SING  13
+DYB  CZ1  3HZ1  SING  14
+DYB  CH   CQ    SING  15
+DYB  CH   2HH   SING  16
+DYB  CH   3HH   SING  17
+DYB  CQ   CI    SING  18
+DYB  CQ   2HQ   SING  19
+DYB  CQ   3HQ   SING  20
+DYB  CI   NK    SING  21
+DYB  CI   2HI   SING  22
+DYB  CI   3HI   SING  23
+DYB  NK   1HK   SING  24
+DYB  NK   2HK   SING  25
+DYB  NK   3HK   SING  26
+#

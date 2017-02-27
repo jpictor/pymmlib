@@ -1,0 +1,87 @@
+data_MBH
+#
+_chem_comp.id                   MBH
+_chem_comp.name                 '1-BENZYL-1-METHYL-1-(2-ACETYL)HYDRAZINIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C10 H15 N2 O1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       179.241
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MBH  N1    .  N  1  ?  ?  ?  1  1 
+MBH  N2    .  N  0  ?  ?  ?  1  2 
+MBH  C     .  C  0  ?  ?  ?  1  3 
+MBH  C1    .  C  0  ?  ?  ?  1  4 
+MBH  C2    .  C  0  ?  ?  ?  1  5 
+MBH  C3    .  C  0  ?  ?  ?  1  6 
+MBH  C4    .  C  0  ?  ?  ?  1  7 
+MBH  C5    .  C  0  ?  ?  ?  1  8 
+MBH  C6    .  C  0  ?  ?  ?  1  9 
+MBH  C1M   .  C  0  ?  ?  ?  1  10
+MBH  CA2   .  C  0  ?  ?  ?  1  11
+MBH  CA1   .  C  0  ?  ?  ?  1  12
+MBH  O     .  O  0  ?  ?  ?  1  13
+MBH  1HN2  .  H  0  ?  ?  ?  0  14
+MBH  2HN2  .  H  0  ?  ?  ?  0  15
+MBH  1H    .  H  0  ?  ?  ?  0  16
+MBH  2H    .  H  0  ?  ?  ?  0  17
+MBH  H2    .  H  0  ?  ?  ?  1  18
+MBH  H3    .  H  0  ?  ?  ?  1  19
+MBH  H4    .  H  0  ?  ?  ?  1  20
+MBH  H5    .  H  0  ?  ?  ?  1  21
+MBH  H6    .  H  0  ?  ?  ?  1  22
+MBH  1H1M  .  H  0  ?  ?  ?  0  23
+MBH  2H1M  .  H  0  ?  ?  ?  0  24
+MBH  3H1M  .  H  0  ?  ?  ?  0  25
+MBH  1HA2  .  H  0  ?  ?  ?  0  26
+MBH  2HA2  .  H  0  ?  ?  ?  0  27
+MBH  HA1   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MBH  N1   N2    SING  1 
+MBH  N1   C     SING  2 
+MBH  N1   C1M   SING  3 
+MBH  N1   CA2   SING  4 
+MBH  N2   1HN2  SING  5 
+MBH  N2   2HN2  SING  6 
+MBH  C    C1    SING  7 
+MBH  C    1H    SING  8 
+MBH  C    2H    SING  9 
+MBH  C1   C2    DOUB  10
+MBH  C1   C6    SING  11
+MBH  C2   C3    SING  12
+MBH  C2   H2    SING  13
+MBH  C3   C4    DOUB  14
+MBH  C3   H3    SING  15
+MBH  C4   C5    SING  16
+MBH  C4   H4    SING  17
+MBH  C5   C6    DOUB  18
+MBH  C5   H5    SING  19
+MBH  C6   H6    SING  20
+MBH  C1M  1H1M  SING  21
+MBH  C1M  2H1M  SING  22
+MBH  C1M  3H1M  SING  23
+MBH  CA2  CA1   SING  24
+MBH  CA2  1HA2  SING  25
+MBH  CA2  2HA2  SING  26
+MBH  CA1  O     DOUB  27
+MBH  CA1  HA1   SING  28
+#

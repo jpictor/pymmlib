@@ -1,0 +1,89 @@
+data_NGO
+#
+_chem_comp.id                   NGO
+_chem_comp.name                 2-METHYL-4,5-DIHYDRO-(1,2-DIDEOXY-ALPHA-D-GLUCOPYRANOSO)[2,1-D]-1,3-OXAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 N1 O5'
+_chem_comp.pdbx_synonyms        'N-ACETYLGLUCOSAMINE-OXAZOLINIUM ION INTERMEDIATE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       204.202
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NGO  C1    .  C  0  ?  ?  ?  1  1 
+NGO  C2    .  C  0  ?  ?  ?  1  2 
+NGO  C3    .  C  0  ?  ?  ?  1  3 
+NGO  C4    .  C  0  ?  ?  ?  1  4 
+NGO  C5    .  C  0  ?  ?  ?  1  5 
+NGO  C6    .  C  0  ?  ?  ?  1  6 
+NGO  C7    .  C  0  ?  ?  ?  1  7 
+NGO  C8    .  C  0  ?  ?  ?  1  8 
+NGO  N2    .  N  1  ?  ?  ?  1  9 
+NGO  O1    .  O  0  ?  ?  ?  1  10
+NGO  O3    .  O  0  ?  ?  ?  1  11
+NGO  O4    .  O  0  ?  ?  ?  1  12
+NGO  O5    .  O  0  ?  ?  ?  1  13
+NGO  O6    .  O  0  ?  ?  ?  1  14
+NGO  HC1   .  H  0  ?  ?  ?  1  15
+NGO  HC2   .  H  0  ?  ?  ?  1  16
+NGO  HC3   .  H  0  ?  ?  ?  1  17
+NGO  HO3   .  H  0  ?  ?  ?  1  18
+NGO  HC4   .  H  0  ?  ?  ?  1  19
+NGO  HO4   .  H  0  ?  ?  ?  1  20
+NGO  HC5   .  H  0  ?  ?  ?  1  21
+NGO  1HC6  .  H  0  ?  ?  ?  0  22
+NGO  2HC6  .  H  0  ?  ?  ?  0  23
+NGO  HO6   .  H  0  ?  ?  ?  1  24
+NGO  1HC8  .  H  0  ?  ?  ?  0  25
+NGO  2HC8  .  H  0  ?  ?  ?  0  26
+NGO  3HC8  .  H  0  ?  ?  ?  0  27
+NGO  HN    .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NGO  C1  C2    SING  1 
+NGO  C1  O1    SING  2 
+NGO  C1  O5    SING  3 
+NGO  C1  HC1   SING  4 
+NGO  C2  N2    SING  5 
+NGO  C2  C3    SING  6 
+NGO  C2  HC2   SING  7 
+NGO  C3  O3    SING  8 
+NGO  C3  C4    SING  9 
+NGO  C3  HC3   SING  10
+NGO  C4  O4    SING  11
+NGO  C4  C5    SING  12
+NGO  C4  HC4   SING  13
+NGO  C5  O5    SING  14
+NGO  C5  C6    SING  15
+NGO  C5  HC5   SING  16
+NGO  C6  O6    SING  17
+NGO  C6  1HC6  SING  18
+NGO  C6  2HC6  SING  19
+NGO  C7  N2    DOUB  20
+NGO  C7  O1    SING  21
+NGO  C7  C8    SING  22
+NGO  C8  1HC8  SING  23
+NGO  C8  2HC8  SING  24
+NGO  C8  3HC8  SING  25
+NGO  N2  HN    SING  26
+NGO  O3  HO3   SING  27
+NGO  O4  HO4   SING  28
+NGO  O6  HO6   SING  29
+#

@@ -1,0 +1,103 @@
+data_SHM
+#
+_chem_comp.id                   SHM
+_chem_comp.name                 HOMOBIOTIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H18 N2 O3 S1'
+_chem_comp.pdbx_synonyms        '6-(2-OXO-HEXAHYDRO-THIENO[3,4-D]IMIDAZOL-4-YL)-HEXANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        258.335
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SHM  C1   .  C  0  -4.680   34.414  10.153  1  1 
+SHM  C2   .  C  0  -5.976   34.489  10.974  1  2 
+SHM  N3   .  N  0  -5.676   35.566  11.929  1  3 
+SHM  C4   .  C  0  -4.434   36.058  11.732  1  4 
+SHM  N5   .  N  0  -3.807   35.438  10.718  1  5 
+SHM  C6   .  C  0  -6.220   33.080  11.648  1  6 
+SHM  S7   .  S  0  -4.525   32.445  11.873  1  7 
+SHM  C8   .  C  0  -3.985   33.019  10.225  1  8 
+SHM  C9   .  C  0  -7.065   33.120  12.957  1  9 
+SHM  C10  .  C  0  -7.505   31.740  13.462  1  10
+SHM  C11  .  C  0  -8.758   31.841  14.342  1  11
+SHM  C12  .  C  0  -9.007   30.503  15.084  1  12
+SHM  C13  .  C  0  -9.242   29.332  14.084  1  13
+SHM  C14  .  C  0  -10.569  29.436  13.348  1  14
+SHM  O15  .  O  0  -10.897  28.483  12.441  1  15
+SHM  O16  .  O  0  -11.361  30.354  13.539  1  16
+SHM  O17  .  O  0  -3.935   36.965  12.399  1  17
+SHM  H11  .  H  0  ?        ?       ?       1  18
+SHM  H12  .  H  0  ?        ?       ?       1  19
+SHM  HN3  .  H  0  ?        ?       ?       1  20
+SHM  HN5  .  H  0  ?        ?       ?       1  21
+SHM  H6   .  H  0  ?        ?       ?       1  22
+SHM  H81  .  H  0  ?        ?       ?       1  23
+SHM  H82  .  H  0  ?        ?       ?       1  24
+SHM  1H1  .  H  0  ?        ?       ?       0  25
+SHM  1H2  .  H  0  ?        ?       ?       0  26
+SHM  2H1  .  H  0  ?        ?       ?       0  27
+SHM  2H2  .  H  0  ?        ?       ?       0  28
+SHM  3H1  .  H  0  ?        ?       ?       0  29
+SHM  3H2  .  H  0  ?        ?       ?       0  30
+SHM  4H1  .  H  0  ?        ?       ?       0  31
+SHM  4H2  .  H  0  ?        ?       ?       0  32
+SHM  5H1  .  H  0  ?        ?       ?       0  33
+SHM  5H2  .  H  0  ?        ?       ?       0  34
+SHM  H16  .  H  0  ?        ?       ?       1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SHM  C1   C2   SING  1 
+SHM  C1   N5   SING  2 
+SHM  C1   C8   SING  3 
+SHM  C1   H11  SING  4 
+SHM  C2   N3   SING  5 
+SHM  C2   C6   SING  6 
+SHM  C2   H12  SING  7 
+SHM  N3   C4   SING  8 
+SHM  N3   HN3  SING  9 
+SHM  C4   N5   SING  10
+SHM  C4   O17  DOUB  11
+SHM  N5   HN5  SING  12
+SHM  C6   S7   SING  13
+SHM  C6   C9   SING  14
+SHM  C6   H6   SING  15
+SHM  S7   C8   SING  16
+SHM  C8   H81  SING  17
+SHM  C8   H82  SING  18
+SHM  C9   C10  SING  19
+SHM  C9   1H1  SING  20
+SHM  C9   1H2  SING  21
+SHM  C10  C11  SING  22
+SHM  C10  2H1  SING  23
+SHM  C10  2H2  SING  24
+SHM  C11  C12  SING  25
+SHM  C11  3H1  SING  26
+SHM  C11  3H2  SING  27
+SHM  C12  C13  SING  28
+SHM  C12  4H1  SING  29
+SHM  C12  4H2  SING  30
+SHM  C13  C14  SING  31
+SHM  C13  5H1  SING  32
+SHM  C13  5H2  SING  33
+SHM  C14  O15  DOUB  34
+SHM  C14  O16  SING  35
+SHM  O16  H16  SING  36
+#

@@ -1,0 +1,97 @@
+data_H1D
+#
+_chem_comp.id                       H1D
+_chem_comp.name                     '(2S)-2-AMINO-4-[(2R,3S)-2,3-DIHYDROXY-3-N-HYDROXYCARBAMOYL-PROPYLMERCAPTO]BUTYRIC ACID'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C8 H16 N2 O6 S1'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            268.284
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+H1D  O    .  O  0  -19.277  34.017  -15.683  1  1 
+H1D  C    .  C  0  -19.414  33.048  -14.904  1  2 
+H1D  OXT  .  O  0  -19.160  33.047  -13.681  1  3 
+H1D  CA   .  C  0  -19.943  31.744  -15.508  1  4 
+H1D  N    .  N  0  -20.010  30.709  -14.466  1  5 
+H1D  CB   .  C  0  -21.326  31.957  -16.129  1  6 
+H1D  CG   .  C  0  -22.367  32.413  -15.103  1  7 
+H1D  SD   .  S  0  -23.994  32.801  -15.846  1  8 
+H1D  C5   .  C  0  -24.623  31.112  -16.166  1  9 
+H1D  C4   .  C  0  -24.865  30.864  -17.655  1  10
+H1D  O4   .  O  0  -23.604  30.899  -18.330  1  11
+H1D  C3   .  C  0  -25.529  29.509  -17.914  1  12
+H1D  O3   .  O  0  -26.687  29.370  -17.087  1  13
+H1D  C2   .  C  0  -25.959  29.452  -19.381  1  14
+H1D  O2   .  O  0  -27.125  29.674  -19.704  1  15
+H1D  N1   .  N  0  -24.988  29.166  -20.243  1  16
+H1D  O1   .  O  0  -25.255  29.093  -21.575  1  17
+H1D  1HN  .  H  0  ?        ?       ?        0  18
+H1D  2HN  .  H  0  ?        ?       ?        0  19
+H1D  HA   .  H  0  ?        ?       ?        1  20
+H1D  1HB  .  H  0  ?        ?       ?        0  21
+H1D  2HB  .  H  0  ?        ?       ?        0  22
+H1D  1HG  .  H  0  ?        ?       ?        0  23
+H1D  2HG  .  H  0  ?        ?       ?        0  24
+H1D  1H5  .  H  0  ?        ?       ?        0  25
+H1D  2H5  .  H  0  ?        ?       ?        0  26
+H1D  H4   .  H  0  ?        ?       ?        1  27
+H1D  HO4  .  H  0  ?        ?       ?        1  28
+H1D  H3   .  H  0  ?        ?       ?        1  29
+H1D  HO3  .  H  0  ?        ?       ?        1  30
+H1D  HN1  .  H  0  ?        ?       ?        1  31
+H1D  HO1  .  H  0  ?        ?       ?        1  32
+H1D  HO   .  H  0  ?        ?       ?        1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+H1D  O   C    SING  1 
+H1D  O   HO   SING  2 
+H1D  C   CA   SING  3 
+H1D  C   OXT  DOUB  4 
+H1D  CA  N    SING  5 
+H1D  CA  CB   SING  6 
+H1D  CA  HA   SING  7 
+H1D  N   1HN  SING  8 
+H1D  N   2HN  SING  9 
+H1D  CB  CG   SING  10
+H1D  CB  1HB  SING  11
+H1D  CB  2HB  SING  12
+H1D  CG  SD   SING  13
+H1D  CG  1HG  SING  14
+H1D  CG  2HG  SING  15
+H1D  SD  C5   SING  16
+H1D  C5  C4   SING  17
+H1D  C5  1H5  SING  18
+H1D  C5  2H5  SING  19
+H1D  C4  O4   SING  20
+H1D  C4  C3   SING  21
+H1D  C4  H4   SING  22
+H1D  O4  HO4  SING  23
+H1D  C3  O3   SING  24
+H1D  C3  C2   SING  25
+H1D  C3  H3   SING  26
+H1D  O3  HO3  SING  27
+H1D  C2  O2   DOUB  28
+H1D  C2  N1   SING  29
+H1D  N1  O1   SING  30
+H1D  N1  HN1  SING  31
+H1D  O1  HO1  SING  32
+#

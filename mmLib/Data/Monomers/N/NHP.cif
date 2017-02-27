@@ -1,0 +1,95 @@
+data_NHP
+#
+_chem_comp.id                   NHP
+_chem_comp.name                 '4-(2-AMINOPHENYLTHIO)-BUTYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N1 O3 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        261.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NHP  C1    .  C  0  ?  ?  ?  1  1 
+NHP  C2    .  C  0  ?  ?  ?  1  2 
+NHP  C3    .  C  0  ?  ?  ?  1  3 
+NHP  C4    .  C  0  ?  ?  ?  1  4 
+NHP  C5    .  C  0  ?  ?  ?  1  5 
+NHP  C6    .  C  0  ?  ?  ?  1  6 
+NHP  N1    .  N  0  ?  ?  ?  1  7 
+NHP  S1    .  S  0  ?  ?  ?  1  8 
+NHP  C7    .  C  0  ?  ?  ?  1  9 
+NHP  C8    .  C  0  ?  ?  ?  1  10
+NHP  C9    .  C  0  ?  ?  ?  1  11
+NHP  C10   .  C  0  ?  ?  ?  1  12
+NHP  P1    .  P  0  ?  ?  ?  1  13
+NHP  O1    .  O  0  ?  ?  ?  1  14
+NHP  O2    .  O  0  ?  ?  ?  1  15
+NHP  O3    .  O  0  ?  ?  ?  1  16
+NHP  H1    .  H  0  ?  ?  ?  1  17
+NHP  H6    .  H  0  ?  ?  ?  1  18
+NHP  H5    .  H  0  ?  ?  ?  1  19
+NHP  H4    .  H  0  ?  ?  ?  1  20
+NHP  1HN1  .  H  0  ?  ?  ?  0  21
+NHP  2HN1  .  H  0  ?  ?  ?  0  22
+NHP  1H7   .  H  0  ?  ?  ?  0  23
+NHP  2H7   .  H  0  ?  ?  ?  0  24
+NHP  1H8   .  H  0  ?  ?  ?  0  25
+NHP  2H8   .  H  0  ?  ?  ?  0  26
+NHP  1H9   .  H  0  ?  ?  ?  0  27
+NHP  2H9   .  H  0  ?  ?  ?  0  28
+NHP  1H10  .  H  0  ?  ?  ?  0  29
+NHP  2H10  .  H  0  ?  ?  ?  0  30
+NHP  HO1   .  H  0  ?  ?  ?  1  31
+NHP  HO2   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NHP  C1   C2    DOUB  1 
+NHP  C1   C6    SING  2 
+NHP  C1   H1    SING  3 
+NHP  C2   C3    SING  4 
+NHP  C2   S1    SING  5 
+NHP  C3   C4    DOUB  6 
+NHP  C3   N1    SING  7 
+NHP  C4   C5    SING  8 
+NHP  C4   H4    SING  9 
+NHP  C5   C6    DOUB  10
+NHP  C5   H5    SING  11
+NHP  C6   H6    SING  12
+NHP  N1   1HN1  SING  13
+NHP  N1   2HN1  SING  14
+NHP  S1   C7    SING  15
+NHP  C7   C8    SING  16
+NHP  C7   1H7   SING  17
+NHP  C7   2H7   SING  18
+NHP  C8   C9    SING  19
+NHP  C8   1H8   SING  20
+NHP  C8   2H8   SING  21
+NHP  C9   C10   SING  22
+NHP  C9   1H9   SING  23
+NHP  C9   2H9   SING  24
+NHP  C10  P1    SING  25
+NHP  C10  1H10  SING  26
+NHP  C10  2H10  SING  27
+NHP  P1   O1    SING  28
+NHP  P1   O2    SING  29
+NHP  P1   O3    DOUB  30
+NHP  O1   HO1   SING  31
+NHP  O2   HO2   SING  32
+#

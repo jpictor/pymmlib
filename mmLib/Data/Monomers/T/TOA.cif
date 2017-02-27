@@ -1,0 +1,83 @@
+data_TOA
+#
+_chem_comp.id                   TOA
+_chem_comp.name                 '3-DEOXY-3-AMINO GLUCOSE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 N1 O5'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       180.180
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TOA  C1    .  C  0  ?  ?  ?  1  1 
+TOA  C2    .  C  0  ?  ?  ?  1  2 
+TOA  C3    .  C  0  ?  ?  ?  1  3 
+TOA  C4    .  C  0  ?  ?  ?  1  4 
+TOA  C5    .  C  0  ?  ?  ?  1  5 
+TOA  C6    .  C  0  ?  ?  ?  1  6 
+TOA  O1    .  O  0  ?  ?  ?  1  7 
+TOA  O2    .  O  0  ?  ?  ?  1  8 
+TOA  N3    .  N  1  ?  ?  ?  1  9 
+TOA  O4    .  O  0  ?  ?  ?  1  10
+TOA  O5    .  O  0  ?  ?  ?  1  11
+TOA  O6    .  O  0  ?  ?  ?  1  12
+TOA  H1    .  H  0  ?  ?  ?  1  13
+TOA  H2    .  H  0  ?  ?  ?  1  14
+TOA  H3    .  H  0  ?  ?  ?  1  15
+TOA  H4    .  H  0  ?  ?  ?  1  16
+TOA  H5    .  H  0  ?  ?  ?  1  17
+TOA  1H6   .  H  0  ?  ?  ?  0  18
+TOA  2H6   .  H  0  ?  ?  ?  0  19
+TOA  HO1   .  H  0  ?  ?  ?  1  20
+TOA  HO2   .  H  0  ?  ?  ?  1  21
+TOA  HO4   .  H  0  ?  ?  ?  1  22
+TOA  HO6   .  H  0  ?  ?  ?  1  23
+TOA  1HN3  .  H  0  ?  ?  ?  0  24
+TOA  2HN3  .  H  0  ?  ?  ?  0  25
+TOA  3HN3  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TOA  C1  C2    SING  1 
+TOA  C1  O1    SING  2 
+TOA  C1  O5    SING  3 
+TOA  C1  H1    SING  4 
+TOA  C2  C3    SING  5 
+TOA  C2  O2    SING  6 
+TOA  C2  H2    SING  7 
+TOA  C3  C4    SING  8 
+TOA  C3  N3    SING  9 
+TOA  C3  H3    SING  10
+TOA  C4  C5    SING  11
+TOA  C4  O4    SING  12
+TOA  C4  H4    SING  13
+TOA  C5  C6    SING  14
+TOA  C5  O5    SING  15
+TOA  C5  H5    SING  16
+TOA  C6  O6    SING  17
+TOA  C6  1H6   SING  18
+TOA  C6  2H6   SING  19
+TOA  O1  HO1   SING  20
+TOA  O2  HO2   SING  21
+TOA  N3  1HN3  SING  22
+TOA  N3  2HN3  SING  23
+TOA  N3  3HN3  SING  24
+TOA  O4  HO4   SING  25
+TOA  O6  HO6   SING  26
+#

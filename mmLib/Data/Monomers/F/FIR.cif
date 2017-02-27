@@ -1,0 +1,94 @@
+data_FIR
+#
+_chem_comp.id                   FIR
+_chem_comp.name                 (2R,4S)-2-AMINOFORMYL-6-FLUORO-SPIRO[CHROMAN-4,4'-IMIDAZOLIDINE]-2',5'-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 N3 O4 F1'
+_chem_comp.pdbx_synonyms        FIDARESTAT(STEREOISOMER)
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        279.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FIR  O3I   .  O  0  15.917  -5.597   20.515  1  1 
+FIR  O6I   .  O  0  15.006  -5.698   16.043  1  2 
+FIR  N1I   .  N  0  17.028  -6.461   18.682  1  3 
+FIR  C2I   .  C  0  16.103  -5.858   19.302  1  4 
+FIR  N4    .  N  0  15.086  -5.417   18.408  1  5 
+FIR  O10   .  O  0  17.757  -7.748   14.831  1  6 
+FIR  C16   .  C  0  16.383  -9.674   15.115  1  7 
+FIR  C11   .  C  0  16.879  -8.465   15.603  1  8 
+FIR  C12   .  C  0  16.434  -8.050   16.851  1  9 
+FIR  C13   .  C  0  15.557  -8.812   17.620  1  10
+FIR  C14   .  C  0  15.151  -10.012  17.114  1  11
+FIR  C15   .  C  0  15.554  -10.453  15.891  1  12
+FIR  C9    .  C  0  18.543  -6.743   15.462  1  13
+FIR  C5    .  C  0  15.418  -5.804   17.175  1  14
+FIR  F17   .  F  0  14.320  -10.778  17.880  1  15
+FIR  O20   .  O  0  19.408  -5.207   13.643  1  16
+FIR  N21   .  N  0  20.774  -5.977   15.132  1  17
+FIR  C19   .  C  0  19.516  -5.934   14.649  1  18
+FIR  C7I   .  C  0  16.750  -6.612   17.273  1  19
+FIR  C8I   .  C  0  17.565  -5.897   16.224  1  20
+FIR  1H21  .  H  0  ?       ?        ?       0  21
+FIR  2H21  .  H  0  ?       ?        ?       0  22
+FIR  H9    .  H  0  ?       ?        ?       1  23
+FIR  H16   .  H  0  ?       ?        ?       1  24
+FIR  H15   .  H  0  ?       ?        ?       1  25
+FIR  H13   .  H  0  ?       ?        ?       1  26
+FIR  H1I   .  H  0  ?       ?        ?       1  27
+FIR  HN4   .  H  0  ?       ?        ?       1  28
+FIR  1H8I  .  H  0  ?       ?        ?       0  29
+FIR  2H8I  .  H  0  ?       ?        ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FIR  O3I  C2I   DOUB  1 
+FIR  O6I  C5    DOUB  2 
+FIR  N1I  C7I   SING  3 
+FIR  N1I  H1I   SING  4 
+FIR  N1I  C2I   SING  5 
+FIR  C2I  N4    SING  6 
+FIR  N4   HN4   SING  7 
+FIR  N4   C5    SING  8 
+FIR  O10  C9    SING  9 
+FIR  O10  C11   SING  10
+FIR  C16  C11   AROM  11
+FIR  C16  H16   SING  12
+FIR  C16  C15   AROM  13
+FIR  C11  C12   AROM  14
+FIR  C12  C13   AROM  15
+FIR  C12  C7I   SING  16
+FIR  C13  C14   AROM  17
+FIR  C13  H13   SING  18
+FIR  C14  C15   AROM  19
+FIR  C14  F17   SING  20
+FIR  C15  H15   SING  21
+FIR  C9   C19   SING  22
+FIR  C9   H9    SING  23
+FIR  C9   C8I   SING  24
+FIR  C5   C7I   SING  25
+FIR  O20  C19   DOUB  26
+FIR  N21  1H21  SING  27
+FIR  N21  2H21  SING  28
+FIR  N21  C19   SING  29
+FIR  C7I  C8I   SING  30
+FIR  C8I  1H8I  SING  31
+FIR  C8I  2H8I  SING  32
+#

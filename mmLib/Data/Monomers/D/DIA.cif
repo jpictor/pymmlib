@@ -1,0 +1,91 @@
+data_DIA
+#
+_chem_comp.id                   DIA
+_chem_comp.name                 'OCTANE 1,8-DIAMINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H20 N2'
+_chem_comp.pdbx_synonyms        '1,8-DIAMINOOCTANE; OCTAMETHYLENEDIAMINE; 1,8-OCTANEDIAMINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.259
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIA  N1    .  N  0  ?  ?  ?  1  1 
+DIA  C1    .  C  0  ?  ?  ?  1  2 
+DIA  C2    .  C  0  ?  ?  ?  1  3 
+DIA  C3    .  C  0  ?  ?  ?  1  4 
+DIA  C4    .  C  0  ?  ?  ?  1  5 
+DIA  C5    .  C  0  ?  ?  ?  1  6 
+DIA  C6    .  C  0  ?  ?  ?  1  7 
+DIA  C7    .  C  0  ?  ?  ?  1  8 
+DIA  C8    .  C  0  ?  ?  ?  1  9 
+DIA  N8    .  N  0  ?  ?  ?  1  10
+DIA  1HN1  .  H  0  ?  ?  ?  0  11
+DIA  2HN1  .  H  0  ?  ?  ?  0  12
+DIA  1HC1  .  H  0  ?  ?  ?  0  13
+DIA  2HC1  .  H  0  ?  ?  ?  0  14
+DIA  1HC2  .  H  0  ?  ?  ?  0  15
+DIA  2HC2  .  H  0  ?  ?  ?  0  16
+DIA  1HC3  .  H  0  ?  ?  ?  0  17
+DIA  2HC3  .  H  0  ?  ?  ?  0  18
+DIA  1HC4  .  H  0  ?  ?  ?  0  19
+DIA  2HC4  .  H  0  ?  ?  ?  0  20
+DIA  1HC5  .  H  0  ?  ?  ?  0  21
+DIA  2HC5  .  H  0  ?  ?  ?  0  22
+DIA  1HC6  .  H  0  ?  ?  ?  0  23
+DIA  2HC6  .  H  0  ?  ?  ?  0  24
+DIA  1HC7  .  H  0  ?  ?  ?  0  25
+DIA  2HC7  .  H  0  ?  ?  ?  0  26
+DIA  1HC8  .  H  0  ?  ?  ?  0  27
+DIA  2HC8  .  H  0  ?  ?  ?  0  28
+DIA  1HN8  .  H  0  ?  ?  ?  0  29
+DIA  2HN8  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIA  N1  C1    SING  1 
+DIA  N1  1HN1  SING  2 
+DIA  N1  2HN1  SING  3 
+DIA  C1  C2    SING  4 
+DIA  C1  1HC1  SING  5 
+DIA  C1  2HC1  SING  6 
+DIA  C2  C3    SING  7 
+DIA  C2  1HC2  SING  8 
+DIA  C2  2HC2  SING  9 
+DIA  C3  C4    SING  10
+DIA  C3  1HC3  SING  11
+DIA  C3  2HC3  SING  12
+DIA  C4  C5    SING  13
+DIA  C4  1HC4  SING  14
+DIA  C4  2HC4  SING  15
+DIA  C5  C6    SING  16
+DIA  C5  1HC5  SING  17
+DIA  C5  2HC5  SING  18
+DIA  C6  C7    SING  19
+DIA  C6  1HC6  SING  20
+DIA  C6  2HC6  SING  21
+DIA  C7  C8    SING  22
+DIA  C7  1HC7  SING  23
+DIA  C7  2HC7  SING  24
+DIA  C8  N8    SING  25
+DIA  C8  1HC8  SING  26
+DIA  C8  2HC8  SING  27
+DIA  N8  1HN8  SING  28
+DIA  N8  2HN8  SING  29
+#

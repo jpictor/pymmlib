@@ -1,0 +1,111 @@
+data_TCO
+#
+_chem_comp.id                   TCO
+_chem_comp.name                 TERT-BUTYL(1S)-1-CYCLOHEXYL-2-OXOETHYLCARBAMATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H23 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        241.330
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCO  N     .  N  0  74.006  -9.577   134.866  1  1 
+TCO  CA    .  C  0  74.642  -10.564  133.923  1  2 
+TCO  C     .  C  0  76.059  -10.047  133.499  1  3 
+TCO  O     .  O  0  77.153  -10.614  133.679  1  4 
+TCO  CG2   .  C  0  73.445  -12.148  132.231  1  5 
+TCO  CD2   .  C  0  72.994  -12.400  130.775  1  6 
+TCO  CE    .  C  0  72.204  -11.204  130.201  1  7 
+TCO  CD1   .  C  0  73.062  -9.934   130.185  1  8 
+TCO  CG1   .  C  0  73.948  -9.726   131.444  1  9 
+TCO  CB    .  C  0  73.697  -10.695  132.651  1  10
+TCO  C1    .  C  0  73.260  -9.859   135.996  1  11
+TCO  O1    .  O  0  73.223  -10.960  136.570  1  12
+TCO  O2    .  O  0  72.515  -8.754   136.441  1  13
+TCO  C4    .  C  0  71.270  -7.131   137.690  1  14
+TCO  C3    .  C  0  71.871  -8.567   137.743  1  15
+TCO  C6    .  C  0  72.925  -8.541   138.870  1  16
+TCO  C5    .  C  0  70.739  -9.604   137.935  1  17
+TCO  HN    .  H  0  73.778  -8.633   134.521  1  18
+TCO  1H4   .  H  0  ?       ?        ?        0  19
+TCO  2H4   .  H  0  ?       ?        ?        0  20
+TCO  3H4   .  H  0  ?       ?        ?        0  21
+TCO  1H6   .  H  0  ?       ?        ?        0  22
+TCO  2H6   .  H  0  ?       ?        ?        0  23
+TCO  3H6   .  H  0  ?       ?        ?        0  24
+TCO  1H5   .  H  0  ?       ?        ?        0  25
+TCO  2H5   .  H  0  ?       ?        ?        0  26
+TCO  3H5   .  H  0  ?       ?        ?        0  27
+TCO  HA    .  H  0  74.762  -11.533  134.451  1  28
+TCO  HC    .  H  0  76.106  -9.060   133.007  1  29
+TCO  HB    .  H  0  72.676  -10.383  132.965  1  30
+TCO  1HG1  .  H  0  ?       ?        ?        0  31
+TCO  2HG1  .  H  0  ?       ?        ?        0  32
+TCO  1HD1  .  H  0  ?       ?        ?        0  33
+TCO  2HD1  .  H  0  ?       ?        ?        0  34
+TCO  1HE   .  H  0  ?       ?        ?        0  35
+TCO  2HE   .  H  0  ?       ?        ?        0  36
+TCO  1HD2  .  H  0  ?       ?        ?        0  37
+TCO  2HD2  .  H  0  ?       ?        ?        0  38
+TCO  1HG2  .  H  0  ?       ?        ?        0  39
+TCO  2HG2  .  H  0  ?       ?        ?        0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCO  N    HN    SING  1 
+TCO  N    C1    SING  2 
+TCO  N    CA    SING  3 
+TCO  CA   HA    SING  4 
+TCO  CA   C     SING  5 
+TCO  CA   CB    SING  6 
+TCO  C    HC    SING  7 
+TCO  C    O     DOUB  8 
+TCO  CG2  CD2   SING  9 
+TCO  CG2  CB    SING  10
+TCO  CG2  1HG2  SING  11
+TCO  CG2  2HG2  SING  12
+TCO  CD2  CE    SING  13
+TCO  CD2  1HD2  SING  14
+TCO  CD2  2HD2  SING  15
+TCO  CE   CD1   SING  16
+TCO  CE   1HE   SING  17
+TCO  CE   2HE   SING  18
+TCO  CD1  CG1   SING  19
+TCO  CD1  1HD1  SING  20
+TCO  CD1  2HD1  SING  21
+TCO  CG1  CB    SING  22
+TCO  CG1  1HG1  SING  23
+TCO  CG1  2HG1  SING  24
+TCO  CB   HB    SING  25
+TCO  C1   O1    DOUB  26
+TCO  C1   O2    SING  27
+TCO  O2   C3    SING  28
+TCO  C4   C3    SING  29
+TCO  C4   1H4   SING  30
+TCO  C4   2H4   SING  31
+TCO  C4   3H4   SING  32
+TCO  C3   C6    SING  33
+TCO  C3   C5    SING  34
+TCO  C6   1H6   SING  35
+TCO  C6   2H6   SING  36
+TCO  C6   3H6   SING  37
+TCO  C5   1H5   SING  38
+TCO  C5   2H5   SING  39
+TCO  C5   3H5   SING  40
+#

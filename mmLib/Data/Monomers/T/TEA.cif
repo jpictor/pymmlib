@@ -1,0 +1,76 @@
+data_TEA
+#
+_chem_comp.id                   TEA
+_chem_comp.name                 'TRIETHYLAMMONIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C6 H16 N1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       102.199
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TEA  N     .  N  1  ?  ?  ?  1  1 
+TEA  C11   .  C  0  ?  ?  ?  1  2 
+TEA  C12   .  C  0  ?  ?  ?  1  3 
+TEA  C21   .  C  0  ?  ?  ?  1  4 
+TEA  C22   .  C  0  ?  ?  ?  1  5 
+TEA  C31   .  C  0  ?  ?  ?  1  6 
+TEA  C32   .  C  0  ?  ?  ?  1  7 
+TEA  HN    .  H  0  ?  ?  ?  1  8 
+TEA  1H11  .  H  0  ?  ?  ?  0  9 
+TEA  2H11  .  H  0  ?  ?  ?  0  10
+TEA  1H12  .  H  0  ?  ?  ?  0  11
+TEA  2H12  .  H  0  ?  ?  ?  0  12
+TEA  3H12  .  H  0  ?  ?  ?  0  13
+TEA  1H21  .  H  0  ?  ?  ?  0  14
+TEA  2H21  .  H  0  ?  ?  ?  0  15
+TEA  1H22  .  H  0  ?  ?  ?  0  16
+TEA  2H22  .  H  0  ?  ?  ?  0  17
+TEA  3H22  .  H  0  ?  ?  ?  0  18
+TEA  1H31  .  H  0  ?  ?  ?  0  19
+TEA  2H31  .  H  0  ?  ?  ?  0  20
+TEA  1H32  .  H  0  ?  ?  ?  0  21
+TEA  2H32  .  H  0  ?  ?  ?  0  22
+TEA  3H32  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TEA  N    C11   SING  1 
+TEA  N    C21   SING  2 
+TEA  N    C31   SING  3 
+TEA  N    HN    SING  4 
+TEA  C11  C12   SING  5 
+TEA  C11  1H11  SING  6 
+TEA  C11  2H11  SING  7 
+TEA  C12  1H12  SING  8 
+TEA  C12  2H12  SING  9 
+TEA  C12  3H12  SING  10
+TEA  C21  C22   SING  11
+TEA  C21  1H21  SING  12
+TEA  C21  2H21  SING  13
+TEA  C22  1H22  SING  14
+TEA  C22  2H22  SING  15
+TEA  C22  3H22  SING  16
+TEA  C31  C32   SING  17
+TEA  C31  1H31  SING  18
+TEA  C31  2H31  SING  19
+TEA  C32  1H32  SING  20
+TEA  C32  2H32  SING  21
+TEA  C32  3H32  SING  22
+#

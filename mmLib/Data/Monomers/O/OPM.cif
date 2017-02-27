@@ -1,0 +1,109 @@
+data_OPM
+#
+_chem_comp.id                   OPM
+_chem_comp.name                 O1-PENTYL-MANNOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C11 H22 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        250.291
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPM  C3'   .  C  0  21.035  59.110  140.405  1  1 
+OPM  C4'   .  C  0  21.709  60.205  141.264  1  2 
+OPM  C5'   .  C  0  22.768  59.599  142.196  1  3 
+OPM  C1'   .  C  0  20.476  60.255  138.120  1  4 
+OPM  C2'   .  C  0  19.954  59.632  139.436  1  5 
+OPM  C2    .  C  0  21.039  57.251  136.028  1  6 
+OPM  O2    .  O  0  20.218  56.108  135.831  1  7 
+OPM  C3    .  C  0  21.660  57.705  134.674  1  8 
+OPM  O3    .  O  0  22.163  56.575  133.910  1  9 
+OPM  C4    .  C  0  20.638  58.458  133.808  1  10
+OPM  O4    .  O  0  21.307  59.040  132.701  1  11
+OPM  C5    .  C  0  19.927  59.551  134.616  1  12
+OPM  O5    .  O  0  19.286  58.960  135.771  1  13
+OPM  C6    .  C  0  18.855  60.316  133.826  1  14
+OPM  O6    .  O  0  18.131  59.423  132.946  1  15
+OPM  O1    .  O  0  21.058  59.364  137.186  1  16
+OPM  C1    .  C  0  20.221  58.370  136.698  1  17
+OPM  H1    .  H  0  ?       ?       ?        1  18
+OPM  H2    .  H  0  ?       ?       ?        1  19
+OPM  H3    .  H  0  ?       ?       ?        1  20
+OPM  H4    .  H  0  ?       ?       ?        1  21
+OPM  H5    .  H  0  ?       ?       ?        1  22
+OPM  1H6   .  H  0  ?       ?       ?        0  23
+OPM  2H6   .  H  0  ?       ?       ?        0  24
+OPM  HO2   .  H  0  ?       ?       ?        1  25
+OPM  HO3   .  H  0  ?       ?       ?        1  26
+OPM  HO4   .  H  0  ?       ?       ?        1  27
+OPM  HO6   .  H  0  ?       ?       ?        1  28
+OPM  1H1'  .  H  0  ?       ?       ?        0  29
+OPM  2H1'  .  H  0  ?       ?       ?        0  30
+OPM  1H2'  .  H  0  ?       ?       ?        0  31
+OPM  2H2'  .  H  0  ?       ?       ?        0  32
+OPM  1H3'  .  H  0  ?       ?       ?        0  33
+OPM  2H3'  .  H  0  ?       ?       ?        0  34
+OPM  1H4'  .  H  0  ?       ?       ?        0  35
+OPM  2H4'  .  H  0  ?       ?       ?        0  36
+OPM  1H5'  .  H  0  ?       ?       ?        0  37
+OPM  2H5'  .  H  0  ?       ?       ?        0  38
+OPM  3H5'  .  H  0  ?       ?       ?        0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPM  C3'  C4'   SING  1 
+OPM  C3'  C2'   SING  2 
+OPM  C3'  1H3'  SING  3 
+OPM  C3'  2H3'  SING  4 
+OPM  C4'  C5'   SING  5 
+OPM  C4'  1H4'  SING  6 
+OPM  C4'  2H4'  SING  7 
+OPM  C5'  1H5'  SING  8 
+OPM  C5'  2H5'  SING  9 
+OPM  C5'  3H5'  SING  10
+OPM  C1'  C2'   SING  11
+OPM  C1'  O1    SING  12
+OPM  C1'  1H1'  SING  13
+OPM  C1'  2H1'  SING  14
+OPM  C2'  1H2'  SING  15
+OPM  C2'  2H2'  SING  16
+OPM  C2   O2    SING  17
+OPM  C2   C3    SING  18
+OPM  C2   C1    SING  19
+OPM  C2   H2    SING  20
+OPM  O2   HO2   SING  21
+OPM  C3   O3    SING  22
+OPM  C3   C4    SING  23
+OPM  C3   H3    SING  24
+OPM  O3   HO3   SING  25
+OPM  C4   O4    SING  26
+OPM  C4   C5    SING  27
+OPM  C4   H4    SING  28
+OPM  O4   HO4   SING  29
+OPM  C5   O5    SING  30
+OPM  C5   C6    SING  31
+OPM  C5   H5    SING  32
+OPM  O5   C1    SING  33
+OPM  C6   O6    SING  34
+OPM  C6   1H6   SING  35
+OPM  C6   2H6   SING  36
+OPM  O6   HO6   SING  37
+OPM  O1   C1    SING  38
+OPM  C1   H1    SING  39
+#

@@ -1,0 +1,104 @@
+data_NBF
+#
+_chem_comp.id                   NBF
+_chem_comp.name                 '[(2-ETHOXY-1-NAPHTHOYL)AMINO]METHYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N1 O4 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        273.095
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NBF  C25   .  C  0  12.637  13.938  38.377  1  1 
+NBF  C24   .  C  0  11.701  12.856  37.791  1  2 
+NBF  O23   .  O  0  12.223  12.233  36.592  1  3 
+NBF  C15   .  C  0  13.579  11.977  36.420  1  4 
+NBF  C13   .  C  0  14.220  10.863  37.113  1  5 
+NBF  C11   .  C  0  13.399  9.965   38.027  1  6 
+NBF  O12   .  O  0  13.603  9.917   39.246  1  7 
+NBF  N10   .  N  0  12.469  9.261   37.392  1  8 
+NBF  C7    .  C  0  11.549  8.323   38.017  1  9 
+NBF  B     .  B  0  10.755  7.844   36.722  1  10
+NBF  O1    .  O  0  11.681  7.226   35.717  1  11
+NBF  O2    .  O  0  10.030  8.973   36.072  1  12
+NBF  C14   .  C  0  15.628  10.620  36.915  1  13
+NBF  C16   .  C  0  16.391  11.494  36.025  1  14
+NBF  C18   .  C  0  17.779  11.264  35.824  1  15
+NBF  C20   .  C  0  18.440  10.172  36.497  1  16
+NBF  C22   .  C  0  17.703  9.309   37.370  1  17
+NBF  C17   .  C  0  16.299  9.526   37.583  1  18
+NBF  C19   .  C  0  15.745  12.579  35.354  1  19
+NBF  C21   .  C  0  14.350  12.821  35.548  1  20
+NBF  1H25  .  H  0  ?       ?       ?       0  21
+NBF  2H25  .  H  0  ?       ?       ?       0  22
+NBF  3H25  .  H  0  ?       ?       ?       0  23
+NBF  1H24  .  H  0  ?       ?       ?       0  24
+NBF  2H24  .  H  0  ?       ?       ?       0  25
+NBF  H10   .  H  0  ?       ?       ?       1  26
+NBF  1H7   .  H  0  ?       ?       ?       0  27
+NBF  2H7   .  H  0  ?       ?       ?       0  28
+NBF  HO1   .  H  0  ?       ?       ?       1  29
+NBF  HO2   .  H  0  ?       ?       ?       1  30
+NBF  H18   .  H  0  ?       ?       ?       1  31
+NBF  H20   .  H  0  ?       ?       ?       1  32
+NBF  H22   .  H  0  ?       ?       ?       1  33
+NBF  H17   .  H  0  ?       ?       ?       1  34
+NBF  H19   .  H  0  ?       ?       ?       1  35
+NBF  H21   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NBF  C25  C24   SING  1 
+NBF  C25  1H25  SING  2 
+NBF  C25  2H25  SING  3 
+NBF  C25  3H25  SING  4 
+NBF  C24  O23   SING  5 
+NBF  C24  1H24  SING  6 
+NBF  C24  2H24  SING  7 
+NBF  O23  C15   SING  8 
+NBF  C15  C13   AROM  9 
+NBF  C15  C21   AROM  10
+NBF  C13  C11   SING  11
+NBF  C13  C14   AROM  12
+NBF  C11  O12   DOUB  13
+NBF  C11  N10   SING  14
+NBF  N10  C7    SING  15
+NBF  N10  H10   SING  16
+NBF  C7   B     SING  17
+NBF  C7   1H7   SING  18
+NBF  C7   2H7   SING  19
+NBF  B    O1    SING  20
+NBF  B    O2    SING  21
+NBF  O1   HO1   SING  22
+NBF  O2   HO2   SING  23
+NBF  C14  C16   AROM  24
+NBF  C14  C17   AROM  25
+NBF  C16  C18   AROM  26
+NBF  C16  C19   AROM  27
+NBF  C18  C20   AROM  28
+NBF  C18  H18   SING  29
+NBF  C20  C22   AROM  30
+NBF  C20  H20   SING  31
+NBF  C22  C17   AROM  32
+NBF  C22  H22   SING  33
+NBF  C17  H17   SING  34
+NBF  C19  C21   AROM  35
+NBF  C19  H19   SING  36
+NBF  C21  H21   SING  37
+#

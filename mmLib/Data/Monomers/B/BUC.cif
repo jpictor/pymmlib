@@ -1,0 +1,85 @@
+data_BUC
+#
+_chem_comp.id                       BUC
+_chem_comp.name                     S,S-BUTYLTHIOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N1 O2 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            209.321
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BUC  N    .  N  0  ?  ?  ?  1  1 
+BUC  CA   .  C  0  ?  ?  ?  1  2 
+BUC  CB   .  C  0  ?  ?  ?  1  3 
+BUC  SG   .  S  0  ?  ?  ?  1  4 
+BUC  SD   .  S  0  ?  ?  ?  1  5 
+BUC  C1   .  C  0  ?  ?  ?  1  6 
+BUC  C2   .  C  0  ?  ?  ?  1  7 
+BUC  C3   .  C  0  ?  ?  ?  1  8 
+BUC  C4   .  C  0  ?  ?  ?  1  9 
+BUC  C    .  C  0  ?  ?  ?  1  10
+BUC  O    .  O  0  ?  ?  ?  1  11
+BUC  OXT  .  O  0  ?  ?  ?  1  12
+BUC  1HN  .  H  0  ?  ?  ?  0  13
+BUC  2HN  .  H  0  ?  ?  ?  0  14
+BUC  HA   .  H  0  ?  ?  ?  1  15
+BUC  1HB  .  H  0  ?  ?  ?  0  16
+BUC  2HB  .  H  0  ?  ?  ?  0  17
+BUC  1H1  .  H  0  ?  ?  ?  0  18
+BUC  2H1  .  H  0  ?  ?  ?  0  19
+BUC  1H2  .  H  0  ?  ?  ?  0  20
+BUC  2H2  .  H  0  ?  ?  ?  0  21
+BUC  1H3  .  H  0  ?  ?  ?  0  22
+BUC  2H3  .  H  0  ?  ?  ?  0  23
+BUC  1H4  .  H  0  ?  ?  ?  0  24
+BUC  2H4  .  H  0  ?  ?  ?  0  25
+BUC  3H4  .  H  0  ?  ?  ?  0  26
+BUC  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BUC  N    CA   SING  1 
+BUC  N    1HN  SING  2 
+BUC  N    2HN  SING  3 
+BUC  CA   CB   SING  4 
+BUC  CA   C    SING  5 
+BUC  CA   HA   SING  6 
+BUC  CB   SG   SING  7 
+BUC  CB   1HB  SING  8 
+BUC  CB   2HB  SING  9 
+BUC  SG   SD   SING  10
+BUC  SD   C1   SING  11
+BUC  C1   C2   SING  12
+BUC  C1   1H1  SING  13
+BUC  C1   2H1  SING  14
+BUC  C2   C3   SING  15
+BUC  C2   1H2  SING  16
+BUC  C2   2H2  SING  17
+BUC  C3   C4   SING  18
+BUC  C3   1H3  SING  19
+BUC  C3   2H3  SING  20
+BUC  C4   1H4  SING  21
+BUC  C4   2H4  SING  22
+BUC  C4   3H4  SING  23
+BUC  C    O    DOUB  24
+BUC  C    OXT  SING  25
+BUC  OXT  HXT  SING  26
+#

@@ -1,0 +1,111 @@
+data_MBZ
+#
+_chem_comp.id                   MBZ
+_chem_comp.name                 1-[2-DEOXYRIBOFURANOSYL]-4-METHYL-BENZOIMIDAZOLE-5'-MONOPHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H17 N2 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        328.261
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MBZ  P     .  P  0  ?  ?  ?  1  1 
+MBZ  O1P   .  O  0  ?  ?  ?  1  2 
+MBZ  O2P   .  O  0  ?  ?  ?  1  3 
+MBZ  O3P   .  O  0  ?  ?  ?  1  4 
+MBZ  O5*   .  O  0  ?  ?  ?  1  5 
+MBZ  O3*   .  O  0  ?  ?  ?  1  6 
+MBZ  C1*   .  C  0  ?  ?  ?  1  7 
+MBZ  C2*   .  C  0  ?  ?  ?  1  8 
+MBZ  C3*   .  C  0  ?  ?  ?  1  9 
+MBZ  C4*   .  C  0  ?  ?  ?  1  10
+MBZ  C5*   .  C  0  ?  ?  ?  1  11
+MBZ  O4*   .  O  0  ?  ?  ?  1  12
+MBZ  C5M   .  C  0  ?  ?  ?  1  13
+MBZ  C6    .  C  0  ?  ?  ?  1  14
+MBZ  C7    .  C  0  ?  ?  ?  1  15
+MBZ  N7    .  N  0  ?  ?  ?  1  16
+MBZ  C8    .  C  0  ?  ?  ?  1  17
+MBZ  N1    .  N  0  ?  ?  ?  1  18
+MBZ  C9    .  C  0  ?  ?  ?  1  19
+MBZ  C10   .  C  0  ?  ?  ?  1  20
+MBZ  C11   .  C  0  ?  ?  ?  1  21
+MBZ  C12   .  C  0  ?  ?  ?  1  22
+MBZ  2HOP  .  H  0  ?  ?  ?  0  23
+MBZ  3HOP  .  H  0  ?  ?  ?  0  24
+MBZ  H1*   .  H  0  ?  ?  ?  1  25
+MBZ  1H2*  .  H  0  ?  ?  ?  0  26
+MBZ  2H2*  .  H  0  ?  ?  ?  0  27
+MBZ  H3*   .  H  0  ?  ?  ?  1  28
+MBZ  3HO*  .  H  0  ?  ?  ?  0  29
+MBZ  H4*   .  H  0  ?  ?  ?  1  30
+MBZ  1H5*  .  H  0  ?  ?  ?  0  31
+MBZ  2H5*  .  H  0  ?  ?  ?  0  32
+MBZ  1H5M  .  H  0  ?  ?  ?  0  33
+MBZ  2H5M  .  H  0  ?  ?  ?  0  34
+MBZ  3H5M  .  H  0  ?  ?  ?  0  35
+MBZ  H8    .  H  0  ?  ?  ?  1  36
+MBZ  H10   .  H  0  ?  ?  ?  1  37
+MBZ  H11   .  H  0  ?  ?  ?  1  38
+MBZ  H12   .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MBZ  P    O1P   DOUB  1 
+MBZ  P    O2P   SING  2 
+MBZ  P    O3P   SING  3 
+MBZ  P    O5*   SING  4 
+MBZ  O2P  2HOP  SING  5 
+MBZ  O3P  3HOP  SING  6 
+MBZ  O5*  C5*   SING  7 
+MBZ  O3*  C3*   SING  8 
+MBZ  O3*  3HO*  SING  9 
+MBZ  C1*  C2*   SING  10
+MBZ  C1*  O4*   SING  11
+MBZ  C1*  N1    SING  12
+MBZ  C1*  H1*   SING  13
+MBZ  C2*  C3*   SING  14
+MBZ  C2*  1H2*  SING  15
+MBZ  C2*  2H2*  SING  16
+MBZ  C3*  C4*   SING  17
+MBZ  C3*  H3*   SING  18
+MBZ  C4*  C5*   SING  19
+MBZ  C4*  O4*   SING  20
+MBZ  C4*  H4*   SING  21
+MBZ  C5*  1H5*  SING  22
+MBZ  C5*  2H5*  SING  23
+MBZ  C5M  C6    SING  24
+MBZ  C5M  1H5M  SING  25
+MBZ  C5M  2H5M  SING  26
+MBZ  C5M  3H5M  SING  27
+MBZ  C6   C7    SING  28
+MBZ  C6   C12   DOUB  29
+MBZ  C7   N7    SING  30
+MBZ  C7   C9    DOUB  31
+MBZ  N7   C8    DOUB  32
+MBZ  C8   N1    SING  33
+MBZ  C8   H8    SING  34
+MBZ  N1   C9    SING  35
+MBZ  C9   C10   SING  36
+MBZ  C10  C11   DOUB  37
+MBZ  C10  H10   SING  38
+MBZ  C11  C12   SING  39
+MBZ  C11  H11   SING  40
+MBZ  C12  H12   SING  41
+#

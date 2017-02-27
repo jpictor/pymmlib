@@ -1,0 +1,98 @@
+data_TMU
+#
+_chem_comp.id                   TMU
+_chem_comp.name                 N-(4-METHOXYBENZYL)-N'-(5-NITRO-1,3-THIAZOL-2-YL)UREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 N4 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.311
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMU  C1    .  C  0   22.489  23.573  6.754   1  1 
+TMU  S2    .  S  0   21.538  24.434  7.928   1  2 
+TMU  N3    .  N  0   21.633  23.382  5.771   1  3 
+TMU  N4    .  N  0   23.817  23.190  6.817   1  4 
+TMU  C5    .  C  0   20.033  24.484  6.989   1  5 
+TMU  C6    .  C  0   20.403  23.824  5.861   1  6 
+TMU  C7    .  C  0   24.641  23.544  7.838   1  7 
+TMU  N8    .  N  0   18.749  25.089  7.358   1  8 
+TMU  N9    .  N  0   25.934  23.126  7.779   1  9 
+TMU  O10   .  O  0   24.234  24.226  8.783   1  10
+TMU  O11   .  O  -1  17.956  25.426  6.489   1  11
+TMU  O12   .  O  0   18.486  25.269  8.533   1  12
+TMU  C13   .  C  0   26.918  23.452  8.826   1  13
+TMU  C14   .  C  0   26.934  22.359  9.861   1  14
+TMU  C15   .  C  0   26.817  21.001  9.469   1  15
+TMU  C16   .  C  0   27.065  22.696  11.224  1  16
+TMU  C17   .  C  0   26.829  19.983  10.442  1  17
+TMU  C18   .  C  0   27.078  21.685  12.201  1  18
+TMU  C19   .  C  0   26.960  20.318  11.818  1  19
+TMU  O20   .  O  0   26.967  19.330  12.770  1  20
+TMU  C21   .  C  0   28.329  18.938  13.019  1  21
+TMU  1H21  .  H  0   ?       ?       ?       0  22
+TMU  2H21  .  H  0   ?       ?       ?       0  23
+TMU  3H21  .  H  0   ?       ?       ?       0  24
+TMU  H17   .  H  0   ?       ?       ?       1  25
+TMU  H15   .  H  0   ?       ?       ?       1  26
+TMU  1H13  .  H  0   ?       ?       ?       0  27
+TMU  2H13  .  H  0   ?       ?       ?       0  28
+TMU  HN9   .  H  0   ?       ?       ?       1  29
+TMU  HN4   .  H  0   ?       ?       ?       1  30
+TMU  H6    .  H  0   ?       ?       ?       1  31
+TMU  H16   .  H  0   ?       ?       ?       1  32
+TMU  H18   .  H  0   ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMU  C1   N4    SING  1 
+TMU  C1   N3    DOUB  2 
+TMU  C1   S2    SING  3 
+TMU  S2   C5    SING  4 
+TMU  N3   C6    SING  5 
+TMU  N4   C7    SING  6 
+TMU  N4   HN4   SING  7 
+TMU  C5   C6    DOUB  8 
+TMU  C5   N8    SING  9 
+TMU  C6   H6    SING  10
+TMU  C7   N9    SING  11
+TMU  C7   O10   DOUB  12
+TMU  N8   O11   SING  13
+TMU  N8   O12   DOUB  14
+TMU  N9   C13   SING  15
+TMU  N9   HN9   SING  16
+TMU  C13  C14   SING  17
+TMU  C13  1H13  SING  18
+TMU  C13  2H13  SING  19
+TMU  C14  C15   AROM  20
+TMU  C14  C16   AROM  21
+TMU  C15  C17   AROM  22
+TMU  C15  H15   SING  23
+TMU  C16  C18   AROM  24
+TMU  C16  H16   SING  25
+TMU  C17  C19   AROM  26
+TMU  C17  H17   SING  27
+TMU  C18  C19   AROM  28
+TMU  C18  H18   SING  29
+TMU  C19  O20   SING  30
+TMU  O20  C21   SING  31
+TMU  C21  1H21  SING  32
+TMU  C21  2H21  SING  33
+TMU  C21  3H21  SING  34
+#

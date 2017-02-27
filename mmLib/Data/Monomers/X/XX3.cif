@@ -1,0 +1,69 @@
+data_XX3
+#
+_chem_comp.id                   XX3
+_chem_comp.name                 (1S)-1-HYDROPEROXY-1-HYDROXY-2-KETO-5-NITROCYCLOHEXA-3,5-DIENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.109
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XX3  O8    .  O  0   17.467  -55.142  -3.104  1  N  1 
+XX3  C2    .  C  0   18.362  -54.087  -3.466  1  N  2 
+XX3  O12   .  O  0   18.283  -53.875  -4.881  1  N  3 
+XX3  O13   .  O  0   17.030  -53.180  -5.415  1  N  4 
+XX3  C1    .  C  0   18.054  -52.724  -2.812  1  N  5 
+XX3  O7    .  O  0   16.870  -52.433  -2.411  1  N  6 
+XX3  C6    .  C  0   19.129  -51.881  -2.492  1  N  7 
+XX3  C5    .  C  0   20.319  -52.510  -2.084  1  N  8 
+XX3  C3    .  C  0   19.625  -54.632  -3.053  1  N  9 
+XX3  C4    .  C  0   20.499  -53.908  -2.233  1  N  10
+XX3  N9    .  N  1   21.553  -54.571  -1.661  1  N  11
+XX3  O10   .  O  -1  21.510  -56.010  -1.311  1  N  12
+XX3  O11   .  O  0   22.493  -53.841  -1.277  1  N  13
+XX3  HO8   .  H  0   17.269  -55.667  -3.871  1  N  14
+XX3  HO13  .  H  0   16.419  -53.036  -4.702  0  N  15
+XX3  H6    .  H  0   19.047  -50.806  -2.556  1  N  16
+XX3  H5    .  H  0   21.110  -51.917  -1.649  1  N  17
+XX3  1H3   .  H  0   ?       ?        ?       0  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XX3  O8   C2    SING  N  1 
+XX3  O8   HO8   SING  N  2 
+XX3  C2   O12   SING  N  3 
+XX3  C2   C3    SING  N  4 
+XX3  C2   C1    SING  N  5 
+XX3  O12  O13   SING  N  6 
+XX3  O13  HO13  SING  N  7 
+XX3  C1   C6    SING  N  8 
+XX3  C1   O7    DOUB  N  9 
+XX3  C6   C5    DOUB  N  10
+XX3  C6   H6    SING  N  11
+XX3  C5   C4    SING  N  12
+XX3  C5   H5    SING  N  13
+XX3  C3   C4    DOUB  N  14
+XX3  C3   1H3   SING  N  15
+XX3  C4   N9    SING  N  16
+XX3  N9   O10   SING  N  17
+XX3  N9   O11   DOUB  N  18
+#

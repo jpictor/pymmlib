@@ -1,0 +1,60 @@
+data_3FA
+#
+_chem_comp.id                   3FA
+_chem_comp.name                 3-FLUOROBENZENE-1,2-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O2 F1'
+_chem_comp.pdbx_synonyms        3-FLUOROCATECHOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        128.103
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3FA  O1   .  O  0  -9.255   5.476  19.272  1  1 
+3FA  C1   .  C  0  -10.517  5.394  18.766  1  2 
+3FA  C3   .  C  0  -10.955  4.202  18.201  1  3 
+3FA  F1   .  F  0  -10.126  3.136  18.208  1  4 
+3FA  C5   .  C  0  -12.222  4.109  17.642  1  5 
+3FA  C6   .  C  0  -13.064  5.217  17.653  1  6 
+3FA  C4   .  C  0  -12.636  6.403  18.233  1  7 
+3FA  C2   .  C  0  -11.363  6.493  18.783  1  8 
+3FA  O2   .  O  0  -10.945  7.651  19.364  1  9 
+3FA  HO2  .  H  0  ?        ?      ?       1  10
+3FA  H4   .  H  0  ?        ?      ?       1  11
+3FA  H6   .  H  0  ?        ?      ?       1  12
+3FA  H5   .  H  0  ?        ?      ?       1  13
+3FA  HO1  .  H  0  ?        ?      ?       1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3FA  O1  C1   SING  1 
+3FA  O1  HO1  SING  2 
+3FA  C1  C3   DOUB  3 
+3FA  C1  C2   SING  4 
+3FA  C3  C5   SING  5 
+3FA  C3  F1   SING  6 
+3FA  C5  C6   DOUB  7 
+3FA  C5  H5   SING  8 
+3FA  C6  C4   SING  9 
+3FA  C6  H6   SING  10
+3FA  C4  C2   DOUB  11
+3FA  C4  H4   SING  12
+3FA  C2  O2   SING  13
+3FA  O2  HO2  SING  14
+#

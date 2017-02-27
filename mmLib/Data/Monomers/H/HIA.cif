@@ -1,0 +1,75 @@
+data_HIA
+#
+_chem_comp.id                       HIA
+_chem_comp.name                     'L-HISTIDINE AMIDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H10 N4 O1'
+_chem_comp.pdbx_synonyms            L-HISTIDINAMIDE
+_chem_comp.mon_nstd_parent_comp_id  HIS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            154.171
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HIA  N     .  N  0  23.747  20.022  8.66    1  1 
+HIA  CA    .  C  0  23.811  18.566  8.512   1  2 
+HIA  CB    .  C  0  23.373  17.874  9.805   1  3 
+HIA  CG    .  C  0  24.296  18.112  10.958  1  4 
+HIA  ND1   .  N  0  24.773  19.363  11.284  1  5 
+HIA  CD2   .  C  0  24.831  17.258  11.865  1  6 
+HIA  CE1   .  C  0  25.563  19.271  12.34   1  7 
+HIA  NE2   .  N  0  25.614  18.004  12.711  1  8 
+HIA  C     .  C  0  22.965  18.061  7.35    1  9 
+HIA  O     .  O  0  23.473  17.209  6.593   1  10
+HIA  NXT   .  N  0  21.809  18.513  7.22    1  11
+HIA  1HN   .  H  0  24.22   20.859  8.321   0  12
+HIA  2HN   .  H  0  23.942  20.742  9.356   0  13
+HIA  HA    .  H  0  24.872  18.286  8.313   1  14
+HIA  1HBC  .  H  0  23.228  16.781  9.637   0  15
+HIA  2HBC  .  H  0  22.329  18.162  10.071  0  16
+HIA  HD1   .  H  0  24.551  20.226  10.788  1  17
+HIA  HD2   .  H  0  24.668  16.168  11.914  1  18
+HIA  HE1   .  H  0  26.089  20.109  12.828  1  19
+HIA  1HXT  .  H  0  21.243  18.175  6.442   0  20
+HIA  2HXT  .  H  0  21.394  19.209  7.839   0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HIA  N    CA    SING  1 
+HIA  N    1HN   SING  2 
+HIA  N    2HN   SING  3 
+HIA  CA   CB    SING  4 
+HIA  CA   C     SING  5 
+HIA  CA   HA    SING  6 
+HIA  CB   CG    SING  7 
+HIA  CB   1HBC  SING  8 
+HIA  CB   2HBC  SING  9 
+HIA  CG   ND1   SING  10
+HIA  CG   CD2   DOUB  11
+HIA  ND1  CE1   SING  12
+HIA  ND1  HD1   SING  13
+HIA  CD2  NE2   SING  14
+HIA  CD2  HD2   SING  15
+HIA  CE1  NE2   DOUB  16
+HIA  CE1  HE1   SING  17
+HIA  C    O     DOUB  18
+HIA  C    NXT   SING  19
+HIA  NXT  1HXT  SING  20
+HIA  NXT  2HXT  SING  21
+#

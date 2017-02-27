@@ -1,0 +1,93 @@
+data_BHM
+#
+_chem_comp.id                   BHM
+_chem_comp.name                 (R)-3-BROMO-2-HYDROXY-2-METHYL-N-[4-NITRO-3-(TRIFLUOROMETHYL)PHENYL]PROPANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H10 N2 O4 BR1 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        371.110
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BHM  BRAI  .  BR  0  30.748  1.562   6.284  0  1 
+BHM  C13   .  C   0  30.268  0.044   5.169  1  2 
+BHM  C11   .  C   0  29.797  0.524   3.794  1  3 
+BHM  O11   .  O   0  30.833  1.313   3.202  1  4 
+BHM  C12   .  C   0  29.475  -0.677  2.903  1  5 
+BHM  C10   .  C   0  28.541  1.386   3.943  1  6 
+BHM  O10   .  O   0  27.477  0.886   4.309  1  7 
+BHM  N09   .  N   0  28.728  2.680   3.691  1  8 
+BHM  C06   .  C   0  27.787  3.622   3.746  1  9 
+BHM  C05   .  C   0  26.454  3.345   4.038  1  10
+BHM  C01   .  C   0  28.154  4.935   3.470  1  11
+BHM  C02   .  C   0  27.193  5.939   3.508  1  12
+BHM  C03   .  C   0  25.865  5.657   3.817  1  13
+BHM  N08   .  N   0  25.039  6.703   3.874  1  14
+BHM  O02   .  O   0  23.697  6.611   4.329  1  15
+BHM  O01   .  O   0  25.539  8.001   3.584  1  16
+BHM  C04   .  C   0  25.474  4.339   4.070  1  17
+BHM  C07   .  C   0  24.008  3.923   4.290  1  18
+BHM  F01   .  F   0  23.612  4.280   5.508  1  19
+BHM  F02   .  F   0  23.182  4.462   3.397  1  20
+BHM  F03   .  F   0  23.834  2.609   4.182  1  21
+BHM  1H12  .  H   0  ?       ?       ?      0  22
+BHM  2H12  .  H   0  ?       ?       ?      0  23
+BHM  3H12  .  H   0  ?       ?       ?      0  24
+BHM  H11   .  H   0  ?       ?       ?      1  25
+BHM  1H13  .  H   0  ?       ?       ?      0  26
+BHM  2H13  .  H   0  ?       ?       ?      0  27
+BHM  H09   .  H   0  ?       ?       ?      1  28
+BHM  H01   .  H   0  ?       ?       ?      1  29
+BHM  H02   .  H   0  ?       ?       ?      1  30
+BHM  H05   .  H   0  ?       ?       ?      1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BHM  BRAI  C13   SING  1 
+BHM  C13   C11   SING  2 
+BHM  C13   1H13  SING  3 
+BHM  C13   2H13  SING  4 
+BHM  C11   C12   SING  5 
+BHM  C11   O11   SING  6 
+BHM  C11   C10   SING  7 
+BHM  O11   H11   SING  8 
+BHM  C12   1H12  SING  9 
+BHM  C12   2H12  SING  10
+BHM  C12   3H12  SING  11
+BHM  C10   O10   DOUB  12
+BHM  C10   N09   SING  13
+BHM  N09   C06   SING  14
+BHM  N09   H09   SING  15
+BHM  C06   C01   AROM  16
+BHM  C06   C05   AROM  17
+BHM  C05   C04   AROM  18
+BHM  C05   H05   SING  19
+BHM  C01   C02   AROM  20
+BHM  C01   H01   SING  21
+BHM  C02   C03   AROM  22
+BHM  C02   H02   SING  23
+BHM  C03   C04   AROM  24
+BHM  C03   N08   SING  25
+BHM  N08   O02   DOUB  26
+BHM  N08   O01   DOUB  27
+BHM  C04   C07   SING  28
+BHM  C07   F01   SING  29
+BHM  C07   F02   SING  30
+BHM  C07   F03   SING  31
+#

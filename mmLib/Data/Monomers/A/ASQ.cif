@@ -1,0 +1,73 @@
+data_ASQ
+#
+_chem_comp.id                       ASQ
+_chem_comp.name                     PHOSPHOASPARTATE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H8 N1 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            213.083
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASQ  N     .  N  0  ?  ?  ?  1  1 
+ASQ  CA    .  C  0  ?  ?  ?  1  2 
+ASQ  C     .  C  0  ?  ?  ?  1  3 
+ASQ  O     .  O  0  ?  ?  ?  1  4 
+ASQ  CB    .  C  0  ?  ?  ?  1  5 
+ASQ  CG    .  C  0  ?  ?  ?  1  6 
+ASQ  OD1   .  O  0  ?  ?  ?  1  7 
+ASQ  OD2   .  O  0  ?  ?  ?  1  8 
+ASQ  OXT   .  O  0  ?  ?  ?  1  9 
+ASQ  P     .  P  0  ?  ?  ?  1  10
+ASQ  O1P   .  O  0  ?  ?  ?  1  11
+ASQ  O2P   .  O  0  ?  ?  ?  1  12
+ASQ  O3P   .  O  0  ?  ?  ?  1  13
+ASQ  H     .  H  0  ?  ?  ?  1  14
+ASQ  HN2   .  H  0  ?  ?  ?  1  15
+ASQ  HA    .  H  0  ?  ?  ?  1  16
+ASQ  1HB   .  H  0  ?  ?  ?  0  17
+ASQ  2HB   .  H  0  ?  ?  ?  0  18
+ASQ  HXT   .  H  0  ?  ?  ?  1  19
+ASQ  2HOP  .  H  0  ?  ?  ?  0  20
+ASQ  3HOP  .  H  0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASQ  N    CA    SING  1 
+ASQ  N    H     SING  2 
+ASQ  N    HN2   SING  3 
+ASQ  CA   C     SING  4 
+ASQ  CA   CB    SING  5 
+ASQ  CA   HA    SING  6 
+ASQ  C    O     DOUB  7 
+ASQ  C    OXT   SING  8 
+ASQ  CB   CG    SING  9 
+ASQ  CB   1HB   SING  10
+ASQ  CB   2HB   SING  11
+ASQ  CG   OD1   DOUB  12
+ASQ  CG   OD2   SING  13
+ASQ  OD2  P     SING  14
+ASQ  OXT  HXT   SING  15
+ASQ  P    O1P   DOUB  16
+ASQ  P    O2P   SING  17
+ASQ  P    O3P   SING  18
+ASQ  O2P  2HOP  SING  19
+ASQ  O3P  3HOP  SING  20
+#

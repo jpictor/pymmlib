@@ -1,0 +1,126 @@
+data_CZM
+#
+_chem_comp.id                   CZM
+_chem_comp.name                 'N,N'-BIS-(2-HYDROXY-3-METHYL-BENZYLIDENE)-BENZENE-1,2-DIAMINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H20 N2 O2'
+_chem_comp.pdbx_synonyms        3,3'-ME2-SALOPHEN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        344.412
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CZM  OA    .  O  0  1.004   5.792  5.589   1  1 
+CZM  CA2   .  C  0  1.914   6.761  5.939   1  2 
+CZM  CA3   .  C  0  2.108   7.000  7.309   1  3 
+CZM  CA4   .  C  0  3.032   7.965  7.697   1  4 
+CZM  CA5   .  C  0  3.753   8.686  6.760   1  5 
+CZM  CA6   .  C  0  3.559   8.451  5.400   1  6 
+CZM  CA1   .  C  0  2.646   7.502  4.951   1  7 
+CZM  CA    .  C  0  2.403   7.343  3.536   1  8 
+CZM  NA    .  N  0  1.484   6.616  2.989   1  9 
+CZM  CC1   .  C  0  1.296   6.538  1.568   1  10
+CZM  CC6   .  C  0  1.878   7.431  0.663   1  11
+CZM  CC5   .  C  0  1.614   7.346  -0.702  1  12
+CZM  CC4   .  C  0  0.759   6.344  -1.173  1  13
+CZM  CC3   .  C  0  0.180   5.450  -0.268  1  14
+CZM  CC2   .  C  0  0.446   5.537  1.096   1  15
+CZM  NB    .  N  0  -0.109  4.644  2.075   1  16
+CZM  CB    .  C  0  -0.555  3.467  1.777   1  17
+CZM  CB1   .  C  0  -1.112  2.500  2.691   1  18
+CZM  CB6   .  C  0  -1.574  1.282  2.215   1  19
+CZM  CB5   .  C  0  -2.077  0.314  3.072   1  20
+CZM  CB4   .  C  0  -2.120  0.553  4.436   1  21
+CZM  CB3   .  C  0  -1.672  1.756  4.971   1  22
+CZM  CB2   .  C  0  -1.169  2.730  4.107   1  23
+CZM  OB    .  O  0  -0.761  3.916  4.661   1  24
+CZM  CB7   .  C  0  -1.732  1.949  6.454   1  25
+CZM  CA7   .  C  0  1.349   6.266  8.370   1  26
+CZM  HOA   .  H  0  ?       ?      ?       1  27
+CZM  HA4   .  H  0  ?       ?      ?       1  28
+CZM  HA5   .  H  0  ?       ?      ?       1  29
+CZM  HA6   .  H  0  ?       ?      ?       1  30
+CZM  HA    .  H  0  ?       ?      ?       1  31
+CZM  HC6   .  H  0  ?       ?      ?       1  32
+CZM  HC5   .  H  0  ?       ?      ?       1  33
+CZM  HC4   .  H  0  ?       ?      ?       1  34
+CZM  HC3   .  H  0  ?       ?      ?       1  35
+CZM  HB    .  H  0  ?       ?      ?       1  36
+CZM  HB6   .  H  0  ?       ?      ?       1  37
+CZM  HB5   .  H  0  ?       ?      ?       1  38
+CZM  HB4   .  H  0  ?       ?      ?       1  39
+CZM  HOB   .  H  0  ?       ?      ?       1  40
+CZM  1HB7  .  H  0  ?       ?      ?       0  41
+CZM  2HB7  .  H  0  ?       ?      ?       0  42
+CZM  3HB7  .  H  0  ?       ?      ?       0  43
+CZM  1HA7  .  H  0  ?       ?      ?       0  44
+CZM  2HA7  .  H  0  ?       ?      ?       0  45
+CZM  3HA7  .  H  0  ?       ?      ?       0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CZM  OA   HOA   SING  1 
+CZM  OA   CA2   SING  2 
+CZM  CA2  CA3   DOUB  3 
+CZM  CA2  CA1   SING  4 
+CZM  CA3  CA4   SING  5 
+CZM  CA3  CA7   SING  6 
+CZM  CA4  HA4   SING  7 
+CZM  CA4  CA5   DOUB  8 
+CZM  CA5  HA5   SING  9 
+CZM  CA5  CA6   SING  10
+CZM  CA6  HA6   SING  11
+CZM  CA6  CA1   DOUB  12
+CZM  CA1  CA    SING  13
+CZM  CA   HA    SING  14
+CZM  CA   NA    DOUB  15
+CZM  NA   CC1   SING  16
+CZM  CC1  CC6   DOUB  17
+CZM  CC1  CC2   SING  18
+CZM  CC6  HC6   SING  19
+CZM  CC6  CC5   SING  20
+CZM  CC5  HC5   SING  21
+CZM  CC5  CC4   DOUB  22
+CZM  CC4  HC4   SING  23
+CZM  CC4  CC3   SING  24
+CZM  CC3  HC3   SING  25
+CZM  CC3  CC2   DOUB  26
+CZM  CC2  NB    SING  27
+CZM  NB   CB    DOUB  28
+CZM  CB   HB    SING  29
+CZM  CB   CB1   SING  30
+CZM  CB1  CB6   DOUB  31
+CZM  CB1  CB2   SING  32
+CZM  CB6  HB6   SING  33
+CZM  CB6  CB5   SING  34
+CZM  CB5  HB5   SING  35
+CZM  CB5  CB4   DOUB  36
+CZM  CB4  HB4   SING  37
+CZM  CB4  CB3   SING  38
+CZM  CB3  CB2   DOUB  39
+CZM  CB3  CB7   SING  40
+CZM  CB2  OB    SING  41
+CZM  OB   HOB   SING  42
+CZM  CB7  1HB7  SING  43
+CZM  CB7  2HB7  SING  44
+CZM  CB7  3HB7  SING  45
+CZM  CA7  1HA7  SING  46
+CZM  CA7  2HA7  SING  47
+CZM  CA7  3HA7  SING  48
+#

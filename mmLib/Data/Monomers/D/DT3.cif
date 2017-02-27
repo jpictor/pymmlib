@@ -1,0 +1,70 @@
+data_DT3
+#
+_chem_comp.id                   DT3
+_chem_comp.name                 (2S,3S)-2,3-DIHYDROXY-4-SULFANYLBUTANE-1-SULFONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 O5 S2'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       201.232
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DT3  C2   .  C  0   7.288  8.467   -2.961  1  1 
+DT3  O2   .  O  0   5.487  9.727   -1.878  1  2 
+DT3  C3   .  C  0   6.460  9.785   -2.959  1  3 
+DT3  O3   .  O  0   6.415  7.389   -3.390  1  4 
+DT3  C4   .  C  0   5.727  9.950   -4.292  1  5 
+DT3  S2   .  S  0   5.028  11.587  -4.471  1  6 
+DT3  O4   .  O  0   4.310  11.597  -5.890  1  7 
+DT3  O5   .  O  -1  3.951  11.837  -3.252  1  8 
+DT3  O6   .  O  0   6.217  12.640  -4.403  1  9 
+DT3  C1   .  C  0   7.900  8.075   -1.589  1  10
+DT3  S1   .  S  0   8.805  6.599   -1.817  1  11
+DT3  HO3  .  H  0   ?      ?       ?       1  12
+DT3  H2   .  H  0   ?      ?       ?       1  13
+DT3  1H1  .  H  0   ?      ?       ?       0  14
+DT3  2H1  .  H  0   ?      ?       ?       0  15
+DT3  HS1  .  H  0   ?      ?       ?       1  16
+DT3  H3   .  H  0   ?      ?       ?       1  17
+DT3  HO2  .  H  0   ?      ?       ?       1  18
+DT3  1H4  .  H  0   ?      ?       ?       0  19
+DT3  2H4  .  H  0   ?      ?       ?       0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DT3  C2  C1   SING  1 
+DT3  C2  C3   SING  2 
+DT3  C2  O3   SING  3 
+DT3  C2  H2   SING  4 
+DT3  O2  C3   SING  5 
+DT3  O2  HO2  SING  6 
+DT3  C3  C4   SING  7 
+DT3  C3  H3   SING  8 
+DT3  O3  HO3  SING  9 
+DT3  C4  S2   SING  10
+DT3  C4  1H4  SING  11
+DT3  C4  2H4  SING  12
+DT3  S2  O4   DOUB  13
+DT3  S2  O5   SING  14
+DT3  S2  O6   DOUB  15
+DT3  C1  S1   SING  16
+DT3  C1  1H1  SING  17
+DT3  C1  2H1  SING  18
+DT3  S1  HS1  SING  19
+#

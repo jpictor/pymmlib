@@ -1,0 +1,94 @@
+data_AGP
+#
+_chem_comp.id                   AGP
+_chem_comp.name                 '2-DEOXY-2-AMINO GLUCITOL-6-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H16 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        261.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AGP  C1    .  C  0  ?  ?  ?  1  1 
+AGP  O1    .  O  0  ?  ?  ?  1  2 
+AGP  C2    .  C  0  ?  ?  ?  1  3 
+AGP  N2    .  N  0  ?  ?  ?  1  4 
+AGP  C3    .  C  0  ?  ?  ?  1  5 
+AGP  O3    .  O  0  ?  ?  ?  1  6 
+AGP  C4    .  C  0  ?  ?  ?  1  7 
+AGP  O4    .  O  0  ?  ?  ?  1  8 
+AGP  C5    .  C  0  ?  ?  ?  1  9 
+AGP  O5    .  O  0  ?  ?  ?  1  10
+AGP  C6    .  C  0  ?  ?  ?  1  11
+AGP  O6    .  O  0  ?  ?  ?  1  12
+AGP  P     .  P  0  ?  ?  ?  1  13
+AGP  O1P   .  O  0  ?  ?  ?  1  14
+AGP  O2P   .  O  0  ?  ?  ?  1  15
+AGP  O3P   .  O  0  ?  ?  ?  1  16
+AGP  1H1   .  H  0  ?  ?  ?  0  17
+AGP  2H1   .  H  0  ?  ?  ?  0  18
+AGP  HO1   .  H  0  ?  ?  ?  1  19
+AGP  H2    .  H  0  ?  ?  ?  1  20
+AGP  1HN2  .  H  0  ?  ?  ?  0  21
+AGP  2HN2  .  H  0  ?  ?  ?  0  22
+AGP  H3    .  H  0  ?  ?  ?  1  23
+AGP  HO3   .  H  0  ?  ?  ?  1  24
+AGP  H4    .  H  0  ?  ?  ?  1  25
+AGP  HO4   .  H  0  ?  ?  ?  1  26
+AGP  H5    .  H  0  ?  ?  ?  1  27
+AGP  HO5   .  H  0  ?  ?  ?  1  28
+AGP  1H6   .  H  0  ?  ?  ?  0  29
+AGP  2H6   .  H  0  ?  ?  ?  0  30
+AGP  2HOP  .  H  0  ?  ?  ?  0  31
+AGP  3HOP  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AGP  C1   C2    SING  1 
+AGP  C1   O1    SING  2 
+AGP  C1   1H1   SING  3 
+AGP  C1   2H1   SING  4 
+AGP  O1   HO1   SING  5 
+AGP  C2   C3    SING  6 
+AGP  C2   N2    SING  7 
+AGP  C2   H2    SING  8 
+AGP  N2   1HN2  SING  9 
+AGP  N2   2HN2  SING  10
+AGP  C3   C4    SING  11
+AGP  C3   O3    SING  12
+AGP  C3   H3    SING  13
+AGP  O3   HO3   SING  14
+AGP  C4   C5    SING  15
+AGP  C4   O4    SING  16
+AGP  C4   H4    SING  17
+AGP  O4   HO4   SING  18
+AGP  C5   C6    SING  19
+AGP  C5   O5    SING  20
+AGP  C5   H5    SING  21
+AGP  O5   HO5   SING  22
+AGP  C6   O6    SING  23
+AGP  C6   1H6   SING  24
+AGP  C6   2H6   SING  25
+AGP  O6   P     SING  26
+AGP  P    O1P   DOUB  27
+AGP  P    O2P   SING  28
+AGP  P    O3P   SING  29
+AGP  O2P  2HOP  SING  30
+AGP  O3P  3HOP  SING  31
+#

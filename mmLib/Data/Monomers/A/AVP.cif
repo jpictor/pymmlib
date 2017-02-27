@@ -1,0 +1,116 @@
+data_AVP
+#
+_chem_comp.id                   AVP
+_chem_comp.name                 'ACYCLOVIR TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 N5 O12 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        465.146
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AVP  PA    .  P  0  ?  ?  ?  1  1 
+AVP  O1A   .  O  0  ?  ?  ?  1  2 
+AVP  O2A   .  O  0  ?  ?  ?  1  3 
+AVP  O5'   .  O  0  ?  ?  ?  1  4 
+AVP  C5'   .  C  0  ?  ?  ?  1  5 
+AVP  C4'   .  C  0  ?  ?  ?  1  6 
+AVP  O4'   .  O  0  ?  ?  ?  1  7 
+AVP  C1'   .  C  0  ?  ?  ?  1  8 
+AVP  N9    .  N  0  ?  ?  ?  1  9 
+AVP  C4    .  C  0  ?  ?  ?  1  10
+AVP  N3    .  N  0  ?  ?  ?  1  11
+AVP  C2    .  C  0  ?  ?  ?  1  12
+AVP  N2    .  N  0  ?  ?  ?  1  13
+AVP  N1    .  N  0  ?  ?  ?  1  14
+AVP  C6    .  C  0  ?  ?  ?  1  15
+AVP  O6    .  O  0  ?  ?  ?  1  16
+AVP  C5    .  C  0  ?  ?  ?  1  17
+AVP  N7    .  N  0  ?  ?  ?  1  18
+AVP  C8    .  C  0  ?  ?  ?  1  19
+AVP  O3A   .  O  0  ?  ?  ?  1  20
+AVP  PB    .  P  0  ?  ?  ?  1  21
+AVP  O1B   .  O  0  ?  ?  ?  1  22
+AVP  O2B   .  O  0  ?  ?  ?  1  23
+AVP  O3B   .  O  0  ?  ?  ?  1  24
+AVP  PG    .  P  0  ?  ?  ?  1  25
+AVP  O1G   .  O  0  ?  ?  ?  1  26
+AVP  O2G   .  O  0  ?  ?  ?  1  27
+AVP  O3G   .  O  0  ?  ?  ?  1  28
+AVP  1H1G  .  H  0  ?  ?  ?  0  29
+AVP  1H2G  .  H  0  ?  ?  ?  0  30
+AVP  1H2B  .  H  0  ?  ?  ?  0  31
+AVP  1H2A  .  H  0  ?  ?  ?  0  32
+AVP  1H'5  .  H  0  ?  ?  ?  0  33
+AVP  2H'5  .  H  0  ?  ?  ?  0  34
+AVP  1H'4  .  H  0  ?  ?  ?  0  35
+AVP  2H'4  .  H  0  ?  ?  ?  0  36
+AVP  1H'1  .  H  0  ?  ?  ?  0  37
+AVP  2H'1  .  H  0  ?  ?  ?  0  38
+AVP  1HC8  .  H  0  ?  ?  ?  0  39
+AVP  1HN2  .  H  0  ?  ?  ?  0  40
+AVP  2HN2  .  H  0  ?  ?  ?  0  41
+AVP  1HN1  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AVP  PA   O1A   DOUB  1 
+AVP  PA   O2A   SING  2 
+AVP  PA   O5'   SING  3 
+AVP  PA   O3A   SING  4 
+AVP  O2A  1H2A  SING  5 
+AVP  O5'  C5'   SING  6 
+AVP  C5'  C4'   SING  7 
+AVP  C5'  1H'5  SING  8 
+AVP  C5'  2H'5  SING  9 
+AVP  C4'  O4'   SING  10
+AVP  C4'  1H'4  SING  11
+AVP  C4'  2H'4  SING  12
+AVP  O4'  C1'   SING  13
+AVP  C1'  N9    SING  14
+AVP  C1'  1H'1  SING  15
+AVP  C1'  2H'1  SING  16
+AVP  N9   C4    SING  17
+AVP  N9   C8    SING  18
+AVP  C4   N3    SING  19
+AVP  C4   C5    DOUB  20
+AVP  N3   C2    DOUB  21
+AVP  C2   N2    SING  22
+AVP  C2   N1    SING  23
+AVP  N2   1HN2  SING  24
+AVP  N2   2HN2  SING  25
+AVP  N1   C6    SING  26
+AVP  N1   1HN1  SING  27
+AVP  C6   O6    DOUB  28
+AVP  C6   C5    SING  29
+AVP  C5   N7    SING  30
+AVP  N7   C8    DOUB  31
+AVP  C8   1HC8  SING  32
+AVP  O3A  PB    SING  33
+AVP  PB   O1B   DOUB  34
+AVP  PB   O2B   SING  35
+AVP  PB   O3B   SING  36
+AVP  O2B  1H2B  SING  37
+AVP  O3B  PG    SING  38
+AVP  PG   O1G   SING  39
+AVP  PG   O2G   SING  40
+AVP  PG   O3G   DOUB  41
+AVP  O1G  1H1G  SING  42
+AVP  O2G  1H2G  SING  43
+#

@@ -1,0 +1,55 @@
+data_CIG
+#
+_chem_comp.id                   CIG
+_chem_comp.name                 2-AMINO-6-CHLOROPYRAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H4 N3 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.549
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CIG  N01   .  N   0  ?  ?  ?  1  1 
+CIG  C02   .  C   0  ?  ?  ?  1  2 
+CIG  C03   .  C   0  ?  ?  ?  1  3 
+CIG  N04   .  N   0  ?  ?  ?  1  4 
+CIG  C05   .  C   0  ?  ?  ?  1  5 
+CIG  C06   .  C   0  ?  ?  ?  1  6 
+CIG  CL07  .  CL  0  ?  ?  ?  0  7 
+CIG  N08   .  N   0  ?  ?  ?  1  8 
+CIG  1H01  .  H   0  ?  ?  ?  0  9 
+CIG  2H01  .  H   0  ?  ?  ?  0  10
+CIG  H03   .  H   0  ?  ?  ?  1  11
+CIG  H05   .  H   0  ?  ?  ?  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CIG  N01  C02   SING  1 
+CIG  N01  1H01  SING  2 
+CIG  N01  2H01  SING  3 
+CIG  C02  C03   AROM  4 
+CIG  C02  N08   AROM  5 
+CIG  C03  N04   AROM  6 
+CIG  C03  H03   SING  7 
+CIG  N04  C05   AROM  8 
+CIG  C05  C06   AROM  9 
+CIG  C05  H05   SING  10
+CIG  C06  CL07  SING  11
+CIG  C06  N08   AROM  12
+#

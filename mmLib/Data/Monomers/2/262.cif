@@ -1,0 +1,72 @@
+data_262
+#
+_chem_comp.id                   262
+_chem_comp.name                 '2-FORMYLPHENYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H7 O5 P1'
+_chem_comp.pdbx_synonyms        RU78262
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        202.103
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+262  C1   .  C  0  17.344  24.531  19.436  1  1 
+262  C2   .  C  0  18.002  24.840  20.655  1  2 
+262  C3   .  C  0  17.862  26.143  21.193  1  3 
+262  C4   .  C  0  17.068  27.110  20.495  1  4 
+262  C5   .  C  0  16.405  26.788  19.268  1  5 
+262  C6   .  C  0  16.518  25.443  18.745  1  6 
+262  C7   .  C  0  15.671  24.832  17.700  1  7 
+262  O8   .  O  0  15.466  27.739  18.777  1  8 
+262  P9   .  P  0  15.857  28.666  17.566  1  9 
+262  O10  .  O  0  14.517  29.069  16.940  1  10
+262  O11  .  O  0  16.683  27.830  16.540  1  11
+262  O14  .  O  0  16.571  29.901  18.060  1  12
+262  O12  .  O  0  15.339  25.272  16.524  1  13
+262  H4   .  H  0  ?       ?       ?       1  14
+262  H1   .  H  0  ?       ?       ?       1  15
+262  H2   .  H  0  ?       ?       ?       1  16
+262  H3   .  H  0  ?       ?       ?       1  17
+262  H7   .  H  0  ?       ?       ?       1  18
+262  H10  .  H  0  ?       ?       ?       1  19
+262  H11  .  H  0  ?       ?       ?       1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+262  C1   C6   SING  1 
+262  C1   H1   SING  2 
+262  C1   C2   DOUB  3 
+262  C2   C3   SING  4 
+262  C2   H2   SING  5 
+262  C3   C4   DOUB  6 
+262  C3   H3   SING  7 
+262  C4   C5   SING  8 
+262  C4   H4   SING  9 
+262  C5   O8   SING  10
+262  C5   C6   DOUB  11
+262  C6   C7   SING  12
+262  C7   O12  DOUB  13
+262  C7   H7   SING  14
+262  O8   P9   SING  15
+262  P9   O10  SING  16
+262  P9   O11  SING  17
+262  P9   O14  DOUB  18
+262  O10  H10  SING  19
+262  O11  H11  SING  20
+#

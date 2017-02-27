@@ -1,0 +1,82 @@
+data_OCA
+#
+_chem_comp.id                   OCA
+_chem_comp.name                 'OCTANOIC ACID (CAPRYLIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H16 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.213
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OCA  C1   .  C  0  ?  ?  ?  1  1 
+OCA  C2   .  C  0  ?  ?  ?  1  2 
+OCA  C3   .  C  0  ?  ?  ?  1  3 
+OCA  C4   .  C  0  ?  ?  ?  1  4 
+OCA  C5   .  C  0  ?  ?  ?  1  5 
+OCA  C6   .  C  0  ?  ?  ?  1  6 
+OCA  C7   .  C  0  ?  ?  ?  1  7 
+OCA  C8   .  C  0  ?  ?  ?  1  8 
+OCA  O1   .  O  0  ?  ?  ?  1  9 
+OCA  O2   .  O  0  ?  ?  ?  1  10
+OCA  1H2  .  H  0  ?  ?  ?  0  11
+OCA  2H2  .  H  0  ?  ?  ?  0  12
+OCA  1H3  .  H  0  ?  ?  ?  0  13
+OCA  2H3  .  H  0  ?  ?  ?  0  14
+OCA  1H4  .  H  0  ?  ?  ?  0  15
+OCA  2H4  .  H  0  ?  ?  ?  0  16
+OCA  1H5  .  H  0  ?  ?  ?  0  17
+OCA  2H5  .  H  0  ?  ?  ?  0  18
+OCA  1H6  .  H  0  ?  ?  ?  0  19
+OCA  2H6  .  H  0  ?  ?  ?  0  20
+OCA  1H7  .  H  0  ?  ?  ?  0  21
+OCA  2H7  .  H  0  ?  ?  ?  0  22
+OCA  1H8  .  H  0  ?  ?  ?  0  23
+OCA  2H8  .  H  0  ?  ?  ?  0  24
+OCA  3H8  .  H  0  ?  ?  ?  0  25
+OCA  HO2  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OCA  C1  C2   SING  1 
+OCA  C1  O1   DOUB  2 
+OCA  C1  O2   SING  3 
+OCA  C2  C3   SING  4 
+OCA  C2  1H2  SING  5 
+OCA  C2  2H2  SING  6 
+OCA  C3  C4   SING  7 
+OCA  C3  1H3  SING  8 
+OCA  C3  2H3  SING  9 
+OCA  C4  C5   SING  10
+OCA  C4  1H4  SING  11
+OCA  C4  2H4  SING  12
+OCA  C5  C6   SING  13
+OCA  C5  1H5  SING  14
+OCA  C5  2H5  SING  15
+OCA  C6  C7   SING  16
+OCA  C6  1H6  SING  17
+OCA  C6  2H6  SING  18
+OCA  C7  C8   SING  19
+OCA  C7  1H7  SING  20
+OCA  C7  2H7  SING  21
+OCA  C8  1H8  SING  22
+OCA  C8  2H8  SING  23
+OCA  C8  3H8  SING  24
+OCA  O2  HO2  SING  25
+#

@@ -1,0 +1,127 @@
+data_SMT
+#
+_chem_comp.id                       SMT
+_chem_comp.name                     2'-[(METHYLTHIO)ETHYLOXY]-THYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H21 N2 O9 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            412.351
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SMT  P     .  P  0  10.751  4.213  5.406   1  1 
+SMT  O1P   .  O  0  11.971  4.728  4.682   1  2 
+SMT  O2P   .  O  0  10.916  3.445  6.670   1  3 
+SMT  O3P   .  O  0  ?       ?      ?       1  4 
+SMT  O5'   .  O  0  9.743   5.400  5.717   1  5 
+SMT  C5'   .  C  0  9.440   6.334  4.704   1  6 
+SMT  C4'   .  C  0  8.344   7.233  5.184   1  7 
+SMT  O4'   .  O  0  7.136   6.429  5.377   1  8 
+SMT  C3'   .  C  0  8.503   7.870  6.523   1  9 
+SMT  O3'   .  O  0  9.445   8.960  6.469   1  10
+SMT  C2'   .  C  0  7.087   8.301  6.812   1  11
+SMT  O2'   .  O  0  6.828   9.421  6.046   1  12
+SMT  C1'   .  C  0  6.364   7.051  6.458   1  13
+SMT  N1    .  N  0  6.251   6.036  7.511   1  14
+SMT  C2    .  C  0  5.185   6.193  8.395   1  15
+SMT  O2    .  O  0  4.390   7.127  8.249   1  16
+SMT  N3    .  N  0  5.092   5.273  9.351   1  17
+SMT  C4    .  C  0  6.000   4.226  9.620   1  18
+SMT  O4    .  O  0  5.744   3.447  10.583  1  19
+SMT  C5    .  C  0  7.097   4.084  8.664   1  20
+SMT  C5A   .  C  0  8.129   3.062  8.827   1  21
+SMT  C6    .  C  0  7.115   5.047  7.708   1  22
+SMT  CA'   .  C  0  5.405   9.996  6.308   1  23
+SMT  CB    .  C  0  ?       ?      ?       1  24
+SMT  SC    .  S  0  ?       ?      ?       1  25
+SMT  CD    .  C  0  ?       ?      ?       1  26
+SMT  H5'   .  H  0  9.158   5.870  3.900   1  27
+SMT  2H5'  .  H  0  ?       ?      ?       0  28
+SMT  H4'   .  H  0  8.172   7.925  4.512   1  29
+SMT  H3'   .  H  0  8.794   7.205  7.181   1  30
+SMT  H2'   .  H  0  ?       ?      ?       1  31
+SMT  H1'   .  H  0  5.469   7.277  6.128   1  32
+SMT  H2P   .  H  0  ?       ?      ?       1  33
+SMT  H3P   .  H  0  ?       ?      ?       1  34
+SMT  H3    .  H  0  4.402   5.321  9.862   1  35
+SMT  H5A   .  H  0  7.923   2.518  9.590   1  36
+SMT  H6    .  H  0  7.829   5.010  7.113   1  37
+SMT  1HA   .  H  0  ?       ?      ?       0  38
+SMT  2HA   .  H  0  ?       ?      ?       0  39
+SMT  1HB   .  H  0  ?       ?      ?       0  40
+SMT  2HB   .  H  0  ?       ?      ?       0  41
+SMT  1HD   .  H  0  ?       ?      ?       0  42
+SMT  2HD   .  H  0  ?       ?      ?       0  43
+SMT  3HD   .  H  0  ?       ?      ?       0  44
+SMT  HO3   .  H  0  ?       ?      ?       1  45
+SMT  1H5A  .  H  0  ?       ?      ?       0  46
+SMT  2H5A  .  H  0  ?       ?      ?       0  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SMT  P    O1P   DOUB  1 
+SMT  P    O2P   SING  2 
+SMT  P    O5'   SING  3 
+SMT  P    O3P   SING  4 
+SMT  O2P  H2P   SING  5 
+SMT  O3P  H3P   SING  6 
+SMT  O5'  C5'   SING  7 
+SMT  C5'  H5'   SING  8 
+SMT  C5'  C4'   SING  9 
+SMT  C5'  2H5'  SING  10
+SMT  C4'  H4'   SING  11
+SMT  C4'  O4'   SING  12
+SMT  C4'  C3'   SING  13
+SMT  O4'  C1'   SING  14
+SMT  C3'  C2'   SING  15
+SMT  C3'  H3'   SING  16
+SMT  C3'  O3'   SING  17
+SMT  O3'  HO3   SING  18
+SMT  C2'  C1'   SING  19
+SMT  C2'  O2'   SING  20
+SMT  C2'  H2'   SING  21
+SMT  O2'  CA'   SING  22
+SMT  C1'  H1'   SING  23
+SMT  C1'  N1    SING  24
+SMT  N1   C6    SING  25
+SMT  N1   C2    SING  26
+SMT  C2   O2    DOUB  27
+SMT  C2   N3    SING  28
+SMT  N3   H3    SING  29
+SMT  N3   C4    SING  30
+SMT  C4   O4    DOUB  31
+SMT  C4   C5    SING  32
+SMT  C5   C6    DOUB  33
+SMT  C5   C5A   SING  34
+SMT  C5A  H5A   SING  35
+SMT  C5A  1H5A  SING  36
+SMT  C5A  2H5A  SING  37
+SMT  C6   H6    SING  38
+SMT  CA'  CB    SING  39
+SMT  CA'  1HA   SING  40
+SMT  CA'  2HA   SING  41
+SMT  CB   SC    SING  42
+SMT  CB   1HB   SING  43
+SMT  CB   2HB   SING  44
+SMT  SC   CD    SING  45
+SMT  CD   1HD   SING  46
+SMT  CD   2HD   SING  47
+SMT  CD   3HD   SING  48
+#

@@ -1,0 +1,70 @@
+data_NIC
+#
+_chem_comp.id                   NIC
+_chem_comp.name                 'NITROISOCITRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N1 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        193.113
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NIC  C1   .  C  0  ?  ?  ?  1  1 
+NIC  O1   .  O  0  ?  ?  ?  1  2 
+NIC  O2   .  O  0  ?  ?  ?  1  3 
+NIC  C2   .  C  0  ?  ?  ?  1  4 
+NIC  C3   .  C  0  ?  ?  ?  1  5 
+NIC  O7   .  O  0  ?  ?  ?  1  6 
+NIC  C4   .  C  0  ?  ?  ?  1  7 
+NIC  C5   .  C  0  ?  ?  ?  1  8 
+NIC  O3   .  O  0  ?  ?  ?  1  9 
+NIC  O4   .  O  0  ?  ?  ?  1  10
+NIC  N6   .  N  0  ?  ?  ?  1  11
+NIC  O5   .  O  0  ?  ?  ?  1  12
+NIC  O6   .  O  0  ?  ?  ?  1  13
+NIC  H2   .  H  0  ?  ?  ?  1  14
+NIC  H3   .  H  0  ?  ?  ?  1  15
+NIC  1H4  .  H  0  ?  ?  ?  0  16
+NIC  2H4  .  H  0  ?  ?  ?  0  17
+NIC  HO2  .  H  0  ?  ?  ?  1  18
+NIC  HO4  .  H  0  ?  ?  ?  1  19
+NIC  HO7  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NIC  C1  O1   DOUB  1 
+NIC  C1  O2   SING  2 
+NIC  C1  C2   SING  3 
+NIC  O2  HO2  SING  4 
+NIC  C2  C3   SING  5 
+NIC  C2  O7   SING  6 
+NIC  C2  H2   SING  7 
+NIC  C3  N6   SING  8 
+NIC  C3  C4   SING  9 
+NIC  C3  H3   SING  10
+NIC  O7  HO7  SING  11
+NIC  C4  C5   SING  12
+NIC  C4  1H4  SING  13
+NIC  C4  2H4  SING  14
+NIC  C5  O3   DOUB  15
+NIC  C5  O4   SING  16
+NIC  O4  HO4  SING  17
+NIC  N6  O5   DOUB  18
+NIC  N6  O6   DOUB  19
+#

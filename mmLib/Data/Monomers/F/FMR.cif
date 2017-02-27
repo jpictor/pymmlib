@@ -1,0 +1,50 @@
+data_FMR
+#
+_chem_comp.id                   FMR
+_chem_comp.name                 FUMARATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H2 O4'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       114.057
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FMR  C4   .  C  0   ?  ?  ?  1  1 
+FMR  C3   .  C  0   ?  ?  ?  1  2 
+FMR  C2   .  C  0   ?  ?  ?  1  3 
+FMR  C1   .  C  0   ?  ?  ?  1  4 
+FMR  O4A  .  O  -1  ?  ?  ?  1  5 
+FMR  O4B  .  O  0   ?  ?  ?  1  6 
+FMR  O1A  .  O  -1  ?  ?  ?  1  7 
+FMR  O1B  .  O  0   ?  ?  ?  1  8 
+FMR  H3   .  H  0   ?  ?  ?  1  9 
+FMR  H2   .  H  0   ?  ?  ?  1  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FMR  C4  C3   SING  1
+FMR  C4  O4A  SING  2
+FMR  C4  O4B  DOUB  3
+FMR  C3  C2   DOUB  4
+FMR  C3  H3   SING  5
+FMR  C2  C1   SING  6
+FMR  C2  H2   SING  7
+FMR  C1  O1A  SING  8
+FMR  C1  O1B  DOUB  9
+#

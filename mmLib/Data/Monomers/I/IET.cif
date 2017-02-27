@@ -1,0 +1,102 @@
+data_IET
+#
+_chem_comp.id                   IET
+_chem_comp.name                 1-(4-CYANO-PHENYL)-3-[2-(2,6-DICHLORO-PHENYL)-1-IMINO-ETHYL]-THIOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 N4 CL2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        363.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IET  C1   .  C   0  145.440  -22.243  72.803  1  1 
+IET  C7   .  C   0  145.517  -22.218  71.223  1  2 
+IET  C2   .  C   0  144.531  -21.460  73.640  1  3 
+IET  CL2  .  CL  0  143.517  -20.489  73.088  0  4 
+IET  C3   .  C   0  144.570  -21.592  75.069  1  5 
+IET  C4   .  C   0  145.495  -22.481  75.692  1  6 
+IET  C5   .  C   0  146.366  -23.238  74.893  1  7 
+IET  C6   .  C   0  146.349  -23.130  73.479  1  8 
+IET  CL6  .  CL  0  147.324  -23.993  72.719  0  9 
+IET  C8   .  C   0  144.506  -22.643  70.374  1  10
+IET  N1   .  N   0  143.350  -23.080  70.910  1  11
+IET  C9   .  C   0  142.532  -23.904  70.234  1  12
+IET  N5   .  N   0  142.202  -25.106  70.665  1  13
+IET  S2   .  S   0  141.851  -23.413  68.729  1  14
+IET  N3   .  N   0  144.696  -22.610  69.033  1  15
+IET  C11  .  C   0  142.617  -25.758  71.815  1  16
+IET  C12  .  C   0  143.987  -25.877  72.129  1  17
+IET  C13  .  C   0  144.420  -26.591  73.275  1  18
+IET  C14  .  C   0  143.496  -27.204  74.159  1  19
+IET  C15  .  C   0  142.096  -27.095  73.892  1  20
+IET  C16  .  C   0  141.655  -26.365  72.723  1  21
+IET  C17  .  C   0  143.978  -27.964  75.296  1  22
+IET  N6   .  N   0  144.362  -28.604  76.185  1  23
+IET  H3   .  H   0  ?        ?        ?       1  24
+IET  H4   .  H   0  ?        ?        ?       1  25
+IET  H5   .  H   0  ?        ?        ?       1  26
+IET  1H7  .  H   0  ?        ?        ?       0  27
+IET  2H7  .  H   0  ?        ?        ?       0  28
+IET  HN1  .  H   0  ?        ?        ?       1  29
+IET  HN5  .  H   0  ?        ?        ?       1  30
+IET  HN3  .  H   0  ?        ?        ?       1  31
+IET  H12  .  H   0  ?        ?        ?       1  32
+IET  H13  .  H   0  ?        ?        ?       1  33
+IET  H15  .  H   0  ?        ?        ?       1  34
+IET  H16  .  H   0  ?        ?        ?       1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IET  C1   C7   SING  1 
+IET  C1   C2   DOUB  2 
+IET  C1   C6   SING  3 
+IET  C7   C8   SING  4 
+IET  C7   1H7  SING  5 
+IET  C7   2H7  SING  6 
+IET  C2   CL2  SING  7 
+IET  C2   C3   SING  8 
+IET  C3   C4   DOUB  9 
+IET  C3   H3   SING  10
+IET  C4   C5   SING  11
+IET  C4   H4   SING  12
+IET  C5   C6   DOUB  13
+IET  C5   H5   SING  14
+IET  C6   CL6  SING  15
+IET  C8   N1   SING  16
+IET  C8   N3   DOUB  17
+IET  N1   C9   SING  18
+IET  N1   HN1  SING  19
+IET  C9   N5   SING  20
+IET  C9   S2   DOUB  21
+IET  N5   C11  SING  22
+IET  N5   HN5  SING  23
+IET  N3   HN3  SING  24
+IET  C11  C12  DOUB  25
+IET  C11  C16  SING  26
+IET  C12  C13  SING  27
+IET  C12  H12  SING  28
+IET  C13  C14  DOUB  29
+IET  C13  H13  SING  30
+IET  C14  C15  SING  31
+IET  C14  C17  SING  32
+IET  C15  C16  DOUB  33
+IET  C15  H15  SING  34
+IET  C16  H16  SING  35
+IET  C17  N6   TRIP  36
+#

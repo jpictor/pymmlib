@@ -1,0 +1,112 @@
+data_SB5
+#
+_chem_comp.id                   SB5
+_chem_comp.name                 4-(FLUOROPHENYL)-1-CYCLOPROPYLMETHYL-5-(2-AMINO-4-PYRIMIDINYL)IMIDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H16 N5 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        309.345
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SB5  FA1   .  F  0  ?  ?  ?  1  1 
+SB5  CA1   .  C  0  ?  ?  ?  1  2 
+SB5  CA2   .  C  0  ?  ?  ?  1  3 
+SB5  CA3   .  C  0  ?  ?  ?  1  4 
+SB5  CA4   .  C  0  ?  ?  ?  1  5 
+SB5  CA5   .  C  0  ?  ?  ?  1  6 
+SB5  CA6   .  C  0  ?  ?  ?  1  7 
+SB5  CB1   .  C  0  ?  ?  ?  1  8 
+SB5  NB2   .  N  0  ?  ?  ?  1  9 
+SB5  CB3   .  C  0  ?  ?  ?  1  10
+SB5  NB4   .  N  0  ?  ?  ?  1  11
+SB5  CB5   .  C  0  ?  ?  ?  1  12
+SB5  CB6   .  C  0  ?  ?  ?  1  13
+SB5  NB7   .  N  0  ?  ?  ?  1  14
+SB5  NC1   .  N  0  ?  ?  ?  1  15
+SB5  CC2   .  C  0  ?  ?  ?  1  16
+SB5  CC3   .  C  0  ?  ?  ?  1  17
+SB5  NC4   .  N  0  ?  ?  ?  1  18
+SB5  CC5   .  C  0  ?  ?  ?  1  19
+SB5  CD1   .  C  0  ?  ?  ?  1  20
+SB5  CE1   .  C  0  ?  ?  ?  1  21
+SB5  CE2   .  C  0  ?  ?  ?  1  22
+SB5  CE3   .  C  0  ?  ?  ?  1  23
+SB5  1HN7  .  H  0  ?  ?  ?  0  24
+SB5  2HN7  .  H  0  ?  ?  ?  0  25
+SB5  HCA1  .  H  0  ?  ?  ?  0  26
+SB5  HCA3  .  H  0  ?  ?  ?  0  27
+SB5  HCA4  .  H  0  ?  ?  ?  0  28
+SB5  HCA6  .  H  0  ?  ?  ?  0  29
+SB5  HCC5  .  H  0  ?  ?  ?  0  30
+SB5  HCB1  .  H  0  ?  ?  ?  0  31
+SB5  HCB6  .  H  0  ?  ?  ?  0  32
+SB5  1HCD  .  H  0  ?  ?  ?  0  33
+SB5  2HCD  .  H  0  ?  ?  ?  0  34
+SB5  HCE1  .  H  0  ?  ?  ?  0  35
+SB5  1HC3  .  H  0  ?  ?  ?  0  36
+SB5  2HC3  .  H  0  ?  ?  ?  0  37
+SB5  1HC2  .  H  0  ?  ?  ?  0  38
+SB5  2HC2  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SB5  FA1  CA2   SING  1 
+SB5  CA1  CA2   DOUB  2 
+SB5  CA1  CA6   SING  3 
+SB5  CA1  HCA1  SING  4 
+SB5  CA2  CA3   SING  5 
+SB5  CA3  CA4   DOUB  6 
+SB5  CA3  HCA3  SING  7 
+SB5  CA4  CA5   SING  8 
+SB5  CA4  HCA4  SING  9 
+SB5  CA5  CA6   DOUB  10
+SB5  CA5  CC3   SING  11
+SB5  CA6  HCA6  SING  12
+SB5  CB1  NB2   DOUB  13
+SB5  CB1  CB6   SING  14
+SB5  CB1  HCB1  SING  15
+SB5  NB2  CB3   SING  16
+SB5  CB3  NB4   DOUB  17
+SB5  CB3  NB7   SING  18
+SB5  NB4  CB5   SING  19
+SB5  CB5  CB6   DOUB  20
+SB5  CB5  CC2   SING  21
+SB5  CB6  HCB6  SING  22
+SB5  NB7  1HN7  SING  23
+SB5  NB7  2HN7  SING  24
+SB5  NC1  CC2   SING  25
+SB5  NC1  CC5   SING  26
+SB5  NC1  CD1   SING  27
+SB5  CC2  CC3   DOUB  28
+SB5  CC3  NC4   SING  29
+SB5  NC4  CC5   DOUB  30
+SB5  CC5  HCC5  SING  31
+SB5  CD1  CE1   SING  32
+SB5  CD1  1HCD  SING  33
+SB5  CD1  2HCD  SING  34
+SB5  CE1  CE2   SING  35
+SB5  CE1  CE3   SING  36
+SB5  CE1  HCE1  SING  37
+SB5  CE2  CE3   SING  38
+SB5  CE2  1HC2  SING  39
+SB5  CE2  2HC2  SING  40
+SB5  CE3  1HC3  SING  41
+SB5  CE3  2HC3  SING  42
+#

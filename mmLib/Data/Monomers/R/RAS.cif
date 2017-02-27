@@ -1,0 +1,85 @@
+data_RAS
+#
+_chem_comp.id                   RAS
+_chem_comp.name                 N-PROPARGYL-1(R)-AMINONDAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1'
+_chem_comp.pdbx_synonyms        RASAGILINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAS  N10   .  N  0  54.127  154.454  24.820  1  1 
+RAS  C11   .  C  0  53.963  153.808  23.719  1  2 
+RAS  C12   .  C  0  54.990  152.758  23.283  1  3 
+RAS  C13   .  C  0  55.011  152.203  22.116  1  4 
+RAS  C9    .  C  0  53.142  155.436  25.231  1  5 
+RAS  C1    .  C  0  53.735  156.856  25.325  1  6 
+RAS  C2    .  C  0  53.211  157.489  26.634  1  7 
+RAS  C3    .  C  0  52.714  156.306  27.401  1  8 
+RAS  C8    .  C  0  52.687  155.176  26.634  1  9 
+RAS  C7    .  C  0  52.260  153.967  27.153  1  10
+RAS  C4    .  C  0  52.322  156.294  28.728  1  11
+RAS  C5    .  C  0  51.889  155.087  29.265  1  12
+RAS  C6    .  C  0  51.860  153.933  28.483  1  13
+RAS  H13   .  H  0  ?       ?        ?       1  14
+RAS  1H11  .  H  0  ?       ?        ?       0  15
+RAS  2H11  .  H  0  ?       ?        ?       0  16
+RAS  H10   .  H  0  ?       ?        ?       1  17
+RAS  H9    .  H  0  ?       ?        ?       1  18
+RAS  H7    .  H  0  ?       ?        ?       1  19
+RAS  H6    .  H  0  ?       ?        ?       1  20
+RAS  H5    .  H  0  ?       ?        ?       1  21
+RAS  H4    .  H  0  ?       ?        ?       1  22
+RAS  1H2   .  H  0  ?       ?        ?       0  23
+RAS  2H2   .  H  0  ?       ?        ?       0  24
+RAS  1H1   .  H  0  ?       ?        ?       0  25
+RAS  2H1   .  H  0  ?       ?        ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAS  N10  C11   SING  1 
+RAS  N10  H10   SING  2 
+RAS  N10  C9    SING  3 
+RAS  C11  C12   SING  4 
+RAS  C11  1H11  SING  5 
+RAS  C11  2H11  SING  6 
+RAS  C12  C13   TRIP  7 
+RAS  C13  H13   SING  8 
+RAS  C9   H9    SING  9 
+RAS  C9   C8    SING  10
+RAS  C9   C1    SING  11
+RAS  C1   C2    SING  12
+RAS  C1   1H1   SING  13
+RAS  C1   2H1   SING  14
+RAS  C2   C3    SING  15
+RAS  C2   1H2   SING  16
+RAS  C2   2H2   SING  17
+RAS  C3   C4    AROM  18
+RAS  C3   C8    AROM  19
+RAS  C8   C7    AROM  20
+RAS  C7   H7    SING  21
+RAS  C7   C6    AROM  22
+RAS  C4   C5    AROM  23
+RAS  C4   H4    SING  24
+RAS  C5   C6    AROM  25
+RAS  C5   H5    SING  26
+RAS  C6   H6    SING  27
+#

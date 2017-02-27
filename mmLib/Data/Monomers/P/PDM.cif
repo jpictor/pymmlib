@@ -1,0 +1,107 @@
+data_PDM
+#
+_chem_comp.id                   PDM
+_chem_comp.name                 '4-[4-(2,5-DIOXO-PYRROLIDIN-1-YL)-PHENYLAMINO]-4-HYDROXY-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O5'
+_chem_comp.pdbx_synonyms        'PARA-PHENYL DIMALEMIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.291
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDM  CP1   .  C  0  10.190  -4.328  -10.438  1  1 
+PDM  CP2   .  C  0  10.691  -3.118  -10.915  1  2 
+PDM  CP3   .  C  0  9.936   -2.327  -11.787  1  3 
+PDM  CP4   .  C  0  8.671   -2.734  -12.193  1  4 
+PDM  CP5   .  C  0  8.199   -3.987  -11.730  1  5 
+PDM  CP6   .  C  0  9.011   -4.836  -10.936  1  6 
+PDM  CP7   .  C  0  8.192   -0.830  -13.761  1  7 
+PDM  CP8   .  C  0  8.664   -1.154  -15.201  1  8 
+PDM  CP9   .  C  0  9.946   -0.384  -15.599  1  9 
+PDM  C10   .  C  0  10.658  -1.008  -16.814  1  10
+PDM  C11   .  C  0  10.648  -6.455  -9.309   1  11
+PDM  NP1   .  N  0  11.007  -5.192  -9.623   1  12
+PDM  NP2   .  N  0  7.882   -1.871  -12.976  1  13
+PDM  OP1   .  O  0  9.504   -6.907  -9.356   1  14
+PDM  OP2   .  O  0  12.882  -3.869  -9.545   1  15
+PDM  OP3   .  O  0  8.216   0.328   -13.325  1  16
+PDM  OP4   .  O  0  11.853  -1.349  -16.651  1  17
+PDM  OP5   .  O  0  10.221  -0.654  -17.942  1  18
+PDM  C12   .  C  0  11.806  -7.090  -8.848   1  19
+PDM  C14   .  C  0  12.310  -4.948  -9.375   1  20
+PDM  C13   .  C  0  12.850  -6.143  -8.894   1  21
+PDM  1H12  .  H  0  ?       ?       ?        0  22
+PDM  2H12  .  H  0  ?       ?       ?        0  23
+PDM  1H13  .  H  0  ?       ?       ?        0  24
+PDM  2H13  .  H  0  ?       ?       ?        0  25
+PDM  HP2   .  H  0  ?       ?       ?        1  26
+PDM  HP3   .  H  0  ?       ?       ?        1  27
+PDM  HP5   .  H  0  ?       ?       ?        1  28
+PDM  HP6   .  H  0  ?       ?       ?        1  29
+PDM  NHP2  .  H  0  ?       ?       ?        0  30
+PDM  HP7   .  H  0  ?       ?       ?        1  31
+PDM  OHP3  .  H  0  ?       ?       ?        0  32
+PDM  1HP8  .  H  0  ?       ?       ?        0  33
+PDM  2HP8  .  H  0  ?       ?       ?        0  34
+PDM  1HP9  .  H  0  ?       ?       ?        0  35
+PDM  2HP9  .  H  0  ?       ?       ?        0  36
+PDM  OHP4  .  H  0  ?       ?       ?        0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDM  CP1  CP2   DOUB  1 
+PDM  CP1  CP6   SING  2 
+PDM  CP1  NP1   SING  3 
+PDM  CP2  CP3   SING  4 
+PDM  CP2  HP2   SING  5 
+PDM  CP3  CP4   DOUB  6 
+PDM  CP3  HP3   SING  7 
+PDM  CP4  CP5   SING  8 
+PDM  CP4  NP2   SING  9 
+PDM  CP5  CP6   DOUB  10
+PDM  CP5  HP5   SING  11
+PDM  CP6  HP6   SING  12
+PDM  CP7  CP8   SING  13
+PDM  CP7  NP2   SING  14
+PDM  CP7  OP3   SING  15
+PDM  CP7  HP7   SING  16
+PDM  CP8  CP9   SING  17
+PDM  CP8  1HP8  SING  18
+PDM  CP8  2HP8  SING  19
+PDM  CP9  C10   SING  20
+PDM  CP9  1HP9  SING  21
+PDM  CP9  2HP9  SING  22
+PDM  C10  OP4   SING  23
+PDM  C10  OP5   DOUB  24
+PDM  C11  NP1   SING  25
+PDM  C11  OP1   DOUB  26
+PDM  C11  C12   SING  27
+PDM  NP1  C14   SING  28
+PDM  NP2  NHP2  SING  29
+PDM  OP2  C14   DOUB  30
+PDM  OP3  OHP3  SING  31
+PDM  OP4  OHP4  SING  32
+PDM  C12  C13   SING  33
+PDM  C12  1H12  SING  34
+PDM  C12  2H12  SING  35
+PDM  C14  C13   SING  36
+PDM  C13  1H13  SING  37
+PDM  C13  2H13  SING  38
+#

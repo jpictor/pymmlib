@@ -1,0 +1,60 @@
+data_AAC
+#
+_chem_comp.id                   AAC
+_chem_comp.name                 'ACETYLAMINO-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H7 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.104
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAC  C1    .  C  0  ?  ?  ?  1  1 
+AAC  C2    .  C  0  ?  ?  ?  1  2 
+AAC  C3    .  C  0  ?  ?  ?  1  3 
+AAC  C4    .  C  0  ?  ?  ?  1  4 
+AAC  N1    .  N  0  ?  ?  ?  1  5 
+AAC  O1    .  O  0  ?  ?  ?  1  6 
+AAC  O2    .  O  0  ?  ?  ?  1  7 
+AAC  O3    .  O  0  ?  ?  ?  1  8 
+AAC  HO1   .  H  0  ?  ?  ?  1  9 
+AAC  1HC2  .  H  0  ?  ?  ?  0  10
+AAC  2HC2  .  H  0  ?  ?  ?  0  11
+AAC  HN1   .  H  0  ?  ?  ?  1  12
+AAC  1HC4  .  H  0  ?  ?  ?  0  13
+AAC  2HC4  .  H  0  ?  ?  ?  0  14
+AAC  3HC4  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAC  C1  C2    SING  1 
+AAC  C1  O1    SING  2 
+AAC  C1  O2    DOUB  3 
+AAC  C2  N1    SING  4 
+AAC  C2  1HC2  SING  5 
+AAC  C2  2HC2  SING  6 
+AAC  C3  C4    SING  7 
+AAC  C3  N1    SING  8 
+AAC  C3  O3    DOUB  9 
+AAC  C4  1HC4  SING  10
+AAC  C4  2HC4  SING  11
+AAC  C4  3HC4  SING  12
+AAC  N1  HN1   SING  13
+AAC  O1  HO1   SING  14
+#

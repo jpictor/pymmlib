@@ -1,0 +1,98 @@
+data_TZB
+#
+_chem_comp.id                   TZB
+_chem_comp.name                 '(4S)-2-[(1E)-1-AMINOPROP-1-ENYL]-4,5-DIHYDRO-1,3-THIAZOLE-4-CARBOXYLIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C7 H10 N2 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.228
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+TZB  SMILES            C/C=C(\N)C1=N[C@H](CS1)C(O)=O                                                               CACTVS              2.87 
+TZB  SMILES_CANONICAL  CC=C(N)C1=NC(CS1)C(O)=O                                                                     CACTVS              2.87 
+TZB  INCHI             InChI=1/C7H10N2O2S/c1-2-4(8)6-9-5(3-12-6)7(10)11/h2,5H,3,8H2,1H3,(H,10,11)/b4-2-/t5-/m1/s1  InChi               1    
+TZB  SMILES_CANONICAL  C\C=C(\C1=N[C@H](CS1)C(=O)O)/N                                                              OpenEye/OEToolkits  1.4.2
+TZB  SMILES            CC=C(C1=NC(CS1)C(=O)O)N                                                                     OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          TZB
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '(4R)-2-[(Z)-1-aminoprop-1-enyl]-4,5-dihydro-1,3-thiazole-4-carboxylic acid'
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+TZB  C31   .  C  0  5.190  19.455  -5.236  1  N  N  N  1 
+TZB  C41   .  C  0  5.119  17.992  -5.699  1  N  N  N  2 
+TZB  C21   .  C  0  4.786  19.889  -4.050  1  N  N  N  3 
+TZB  N     .  N  0  4.148  19.046  -3.025  1  N  N  N  4 
+TZB  C2    .  C  0  4.884  21.281  -3.727  1  N  N  N  5 
+TZB  S6    .  S  0  5.325  22.401  -4.997  1  N  N  N  6 
+TZB  C4    .  C  0  5.446  23.716  -3.764  1  N  N  N  7 
+TZB  C5    .  C  0  4.548  23.238  -2.615  1  N  S  N  8 
+TZB  O7    .  O  0  5.100  25.079  -1.296  1  N  N  N  9 
+TZB  C6    .  C  0  4.945  23.889  -1.309  1  N  N  N  10
+TZB  N1    .  N  0  4.551  21.770  -2.577  1  N  N  N  11
+TZB  O71   .  O  0  4.955  23.127  -0.222  1  N  N  Y  12
+TZB  HC3   .  H  0  5.579  20.299  -5.829  1  N  N  N  13
+TZB  1HC   .  H  0  5.458  17.627  -6.696  0  N  N  N  14
+TZB  2HC   .  H  0  5.653  17.383  -4.932  0  N  N  N  15
+TZB  3HC   .  H  0  4.059  17.665  -5.578  0  N  N  N  16
+TZB  1HN   .  H  0  3.837  19.379  -2.112  0  N  N  N  17
+TZB  2HN   .  H  0  4.776  18.260  -2.854  0  N  N  N  18
+TZB  1HC4  .  H  0  6.489  23.960  -3.457  0  N  N  N  19
+TZB  2HC4  .  H  0  5.192  24.730  -4.151  0  N  N  N  20
+TZB  HC5   .  H  0  3.494  23.557  -2.789  1  N  N  N  21
+TZB  HO'   .  H  0  5.204  23.535  0.598   1  N  N  N  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+TZB  C31  C41   SING  N  N  1 
+TZB  C31  C21   DOUB  N  Z  2 
+TZB  C31  HC3   SING  N  N  3 
+TZB  C41  1HC   SING  N  N  4 
+TZB  C41  2HC   SING  N  N  5 
+TZB  C41  3HC   SING  N  N  6 
+TZB  C21  N     SING  N  N  7 
+TZB  C21  C2    SING  N  N  8 
+TZB  N    1HN   SING  N  N  9 
+TZB  N    2HN   SING  N  N  10
+TZB  C2   S6    SING  N  N  11
+TZB  C2   N1    DOUB  N  N  12
+TZB  S6   C4    SING  N  N  13
+TZB  C4   C5    SING  N  N  14
+TZB  C4   1HC4  SING  N  N  15
+TZB  C4   2HC4  SING  N  N  16
+TZB  C5   C6    SING  N  N  17
+TZB  C5   N1    SING  N  N  18
+TZB  C5   HC5   SING  N  N  19
+TZB  O7   C6    DOUB  N  N  20
+TZB  C6   O71   SING  N  N  21
+TZB  O71  HO'   SING  N  N  22
+#

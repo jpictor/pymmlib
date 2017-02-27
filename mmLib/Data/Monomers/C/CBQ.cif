@@ -1,0 +1,84 @@
+data_CBQ
+#
+_chem_comp.id                   CBQ
+_chem_comp.name                 '[(5-CHLORO-PYRIDIN-2-YLAMINO)-PHOSPHONO-METHYL]-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 N2 O6 CL1 P2'
+_chem_comp.pdbx_synonyms        '[{(5-CHLORO-2-PYRIDINYL)AMINO} METHYLENE]-1,1-BISPHOSPHONATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.547
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBQ  O1   .  O   0  ?  ?  ?  1  1 
+CBQ  P1   .  P   0  ?  ?  ?  1  2 
+CBQ  O2   .  O   0  ?  ?  ?  1  3 
+CBQ  O3   .  O   0  ?  ?  ?  1  4 
+CBQ  C1   .  C   0  ?  ?  ?  1  5 
+CBQ  N1   .  N   0  ?  ?  ?  1  6 
+CBQ  C2   .  C   0  ?  ?  ?  1  7 
+CBQ  N2   .  N   0  ?  ?  ?  1  8 
+CBQ  C3   .  C   0  ?  ?  ?  1  9 
+CBQ  C4   .  C   0  ?  ?  ?  1  10
+CBQ  CL1  .  CL  0  ?  ?  ?  0  11
+CBQ  C5   .  C   0  ?  ?  ?  1  12
+CBQ  C6   .  C   0  ?  ?  ?  1  13
+CBQ  P2   .  P   0  ?  ?  ?  1  14
+CBQ  O4   .  O   0  ?  ?  ?  1  15
+CBQ  O5   .  O   0  ?  ?  ?  1  16
+CBQ  O6   .  O   0  ?  ?  ?  1  17
+CBQ  HO1  .  H   0  ?  ?  ?  1  18
+CBQ  HO3  .  H   0  ?  ?  ?  1  19
+CBQ  H1   .  H   0  ?  ?  ?  1  20
+CBQ  HN1  .  H   0  ?  ?  ?  1  21
+CBQ  H3   .  H   0  ?  ?  ?  1  22
+CBQ  H5   .  H   0  ?  ?  ?  1  23
+CBQ  H6   .  H   0  ?  ?  ?  1  24
+CBQ  HO5  .  H   0  ?  ?  ?  1  25
+CBQ  HO6  .  H   0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBQ  O1  HO1  SING  1 
+CBQ  O1  P1   SING  2 
+CBQ  P1  O2   DOUB  3 
+CBQ  P1  O3   SING  4 
+CBQ  P1  C1   SING  5 
+CBQ  O3  HO3  SING  6 
+CBQ  C1  H1   SING  7 
+CBQ  C1  N1   SING  8 
+CBQ  C1  P2   SING  9 
+CBQ  N1  HN1  SING  10
+CBQ  N1  C2   SING  11
+CBQ  C2  N2   AROM  12
+CBQ  C2  C6   AROM  13
+CBQ  N2  C3   AROM  14
+CBQ  C3  H3   SING  15
+CBQ  C3  C4   AROM  16
+CBQ  C4  CL1  SING  17
+CBQ  C4  C5   AROM  18
+CBQ  C5  H5   SING  19
+CBQ  C5  C6   AROM  20
+CBQ  C6  H6   SING  21
+CBQ  P2  O4   DOUB  22
+CBQ  P2  O5   SING  23
+CBQ  P2  O6   SING  24
+CBQ  O5  HO5  SING  25
+CBQ  O6  HO6  SING  26
+#

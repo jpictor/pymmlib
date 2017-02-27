@@ -1,0 +1,68 @@
+data_PPK
+#
+_chem_comp.id                   PPK
+_chem_comp.name                 '(DIPHOSPHONO)AMINOPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H6 N1 O9 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        256.970
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPK  O1G  .  O  0  -43.958  4.488  1.372   1  1 
+PPK  PG   .  P  0  -42.656  4.967  0.850   1  2 
+PPK  O2G  .  O  0  -42.099  5.856  1.843   1  3 
+PPK  O3G  .  O  0  -42.800  5.559  -0.534  1  4 
+PPK  N3B  .  N  0  -41.687  3.746  0.304   1  5 
+PPK  PB   .  P  0  -40.496  2.957  0.887   1  6 
+PPK  O1B  .  O  0  -39.949  2.060  -0.163  1  7 
+PPK  O2B  .  O  0  -39.599  3.972  1.480   1  8 
+PPK  O3A  .  O  0  -40.900  2.142  2.218   1  9 
+PPK  PA   .  P  0  -41.474  2.809  3.562   1  10
+PPK  O1A  .  O  0  -43.023  2.965  3.481   1  11
+PPK  O2A  .  O  0  -40.897  4.199  3.773   1  12
+PPK  O4A  .  O  0  -41.171  1.880  4.752   1  13
+PPK  H1G  .  H  0  ?        ?      ?       1  14
+PPK  H2G  .  H  0  ?        ?      ?       1  15
+PPK  H3B  .  H  0  ?        ?      ?       1  16
+PPK  H1B  .  H  0  ?        ?      ?       1  17
+PPK  H1A  .  H  0  ?        ?      ?       1  18
+PPK  H2A  .  H  0  ?        ?      ?       1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPK  O1G  PG   SING  1 
+PPK  O1G  H1G  SING  2 
+PPK  PG   O2G  SING  3 
+PPK  PG   O3G  DOUB  4 
+PPK  PG   N3B  SING  5 
+PPK  O2G  H2G  SING  6 
+PPK  N3B  PB   SING  7 
+PPK  N3B  H3B  SING  8 
+PPK  PB   O1B  SING  9 
+PPK  PB   O2B  DOUB  10
+PPK  PB   O3A  SING  11
+PPK  O1B  H1B  SING  12
+PPK  O3A  PA   SING  13
+PPK  PA   O1A  SING  14
+PPK  PA   O2A  SING  15
+PPK  PA   O4A  DOUB  16
+PPK  O1A  H1A  SING  17
+PPK  O2A  H2A  SING  18
+#

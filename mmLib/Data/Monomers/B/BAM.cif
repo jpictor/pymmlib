@@ -1,0 +1,67 @@
+data_BAM
+#
+_chem_comp.id                   BAM
+_chem_comp.name                 BENZAMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       121.161
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BAM  C1    .  C  0  ?  ?  ?  1  1 
+BAM  C2    .  C  0  ?  ?  ?  1  2 
+BAM  C3    .  C  0  ?  ?  ?  1  3 
+BAM  C4    .  C  0  ?  ?  ?  1  4 
+BAM  C5    .  C  0  ?  ?  ?  1  5 
+BAM  C6    .  C  0  ?  ?  ?  1  6 
+BAM  C     .  C  0  ?  ?  ?  1  7 
+BAM  N1    .  N  0  ?  ?  ?  1  8 
+BAM  N2    .  N  1  ?  ?  ?  1  9 
+BAM  1HN1  .  H  0  ?  ?  ?  0  10
+BAM  2HN1  .  H  0  ?  ?  ?  0  11
+BAM  1HN2  .  H  0  ?  ?  ?  0  12
+BAM  2HN2  .  H  0  ?  ?  ?  0  13
+BAM  1HC2  .  H  0  ?  ?  ?  0  14
+BAM  1HC3  .  H  0  ?  ?  ?  0  15
+BAM  1HC4  .  H  0  ?  ?  ?  0  16
+BAM  1HC5  .  H  0  ?  ?  ?  0  17
+BAM  1HC6  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BAM  C1  C2    DOUB  1 
+BAM  C1  C6    SING  2 
+BAM  C1  C     SING  3 
+BAM  C2  C3    SING  4 
+BAM  C2  1HC2  SING  5 
+BAM  C3  C4    DOUB  6 
+BAM  C3  1HC3  SING  7 
+BAM  C4  C5    SING  8 
+BAM  C4  1HC4  SING  9 
+BAM  C5  C6    DOUB  10
+BAM  C5  1HC5  SING  11
+BAM  C6  1HC6  SING  12
+BAM  C   N1    SING  13
+BAM  C   N2    DOUB  14
+BAM  N1  1HN1  SING  15
+BAM  N1  2HN1  SING  16
+BAM  N2  1HN2  SING  17
+BAM  N2  2HN2  SING  18
+#

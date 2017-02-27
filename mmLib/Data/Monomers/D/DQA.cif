@@ -1,0 +1,78 @@
+data_DQA
+#
+_chem_comp.id                   DQA
+_chem_comp.name                 '1,3,4-TRIHYDROXY-5-OXO-CYCLOHEXANECARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H10 O6'
+_chem_comp.pdbx_synonyms        '3-DEHYDROQUINIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        190.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DQA  C1   .  C  0  97.111  -24.558  87.569  1  1 
+DQA  C2   .  C  0  97.357  -23.378  88.391  1  2 
+DQA  C3   .  C  0  96.688  -22.186  87.871  1  3 
+DQA  O3   .  O  0  96.827  -21.044  88.685  1  4 
+DQA  C4   .  C  0  97.316  -21.901  86.612  1  5 
+DQA  O4   .  O  0  96.883  -20.758  85.957  1  6 
+DQA  C5   .  C  0  97.206  -23.101  85.653  1  7 
+DQA  C6   .  C  0  97.612  -24.364  86.180  1  8 
+DQA  C    .  C  0  97.763  -25.726  87.959  1  9 
+DQA  O1   .  O  0  98.600  -25.751  88.979  1  10
+DQA  O2   .  O  0  97.601  -26.887  87.336  1  11
+DQA  O5   .  O  0  96.884  -23.215  84.623  1  12
+DQA  O6   .  O  0  95.762  -24.967  87.707  1  13
+DQA  HO2  .  H  0  ?       ?        ?       1  14
+DQA  HO6  .  H  0  ?       ?        ?       1  15
+DQA  1H2  .  H  0  ?       ?        ?       0  16
+DQA  2H2  .  H  0  ?       ?        ?       0  17
+DQA  H3   .  H  0  ?       ?        ?       1  18
+DQA  HO3  .  H  0  ?       ?        ?       1  19
+DQA  H4   .  H  0  ?       ?        ?       1  20
+DQA  HO4  .  H  0  ?       ?        ?       1  21
+DQA  1H6  .  H  0  ?       ?        ?       0  22
+DQA  2H6  .  H  0  ?       ?        ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DQA  C1  C2   SING  1 
+DQA  C1  C6   SING  2 
+DQA  C1  C    SING  3 
+DQA  C1  O6   SING  4 
+DQA  C2  C3   SING  5 
+DQA  C2  1H2  SING  6 
+DQA  C2  2H2  SING  7 
+DQA  C3  O3   SING  8 
+DQA  C3  C4   SING  9 
+DQA  C3  H3   SING  10
+DQA  O3  HO3  SING  11
+DQA  C4  O4   SING  12
+DQA  C4  C5   SING  13
+DQA  C4  H4   SING  14
+DQA  O4  HO4  SING  15
+DQA  C5  C6   SING  16
+DQA  C5  O5   DOUB  17
+DQA  C6  1H6  SING  18
+DQA  C6  2H6  SING  19
+DQA  C   O1   DOUB  20
+DQA  C   O2   SING  21
+DQA  O2  HO2  SING  22
+DQA  O6  HO6  SING  23
+#

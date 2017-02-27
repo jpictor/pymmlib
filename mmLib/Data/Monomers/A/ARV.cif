@@ -1,0 +1,98 @@
+data_ARV
+#
+_chem_comp.id                   ARV
+_chem_comp.name                 5-N-ALLYL-ARGININE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H19 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARV  N     .  N  0  ?  ?  ?  1  1 
+ARV  CA    .  C  0  ?  ?  ?  1  2 
+ARV  C     .  C  0  ?  ?  ?  1  3 
+ARV  O     .  O  0  ?  ?  ?  1  4 
+ARV  CB    .  C  0  ?  ?  ?  1  5 
+ARV  CG    .  C  0  ?  ?  ?  1  6 
+ARV  CD    .  C  0  ?  ?  ?  1  7 
+ARV  NE    .  N  0  ?  ?  ?  1  8 
+ARV  CZ    .  C  0  ?  ?  ?  1  9 
+ARV  NH1   .  N  0  ?  ?  ?  1  10
+ARV  NH2   .  N  1  ?  ?  ?  1  11
+ARV  OXT   .  O  0  ?  ?  ?  1  12
+ARV  C1    .  C  0  ?  ?  ?  1  13
+ARV  C2    .  C  0  ?  ?  ?  1  14
+ARV  C3    .  C  0  ?  ?  ?  1  15
+ARV  H     .  H  0  ?  ?  ?  1  16
+ARV  HN2   .  H  0  ?  ?  ?  1  17
+ARV  HA    .  H  0  ?  ?  ?  1  18
+ARV  1HB   .  H  0  ?  ?  ?  0  19
+ARV  2HB   .  H  0  ?  ?  ?  0  20
+ARV  1HG   .  H  0  ?  ?  ?  0  21
+ARV  2HG   .  H  0  ?  ?  ?  0  22
+ARV  1HD   .  H  0  ?  ?  ?  0  23
+ARV  2HD   .  H  0  ?  ?  ?  0  24
+ARV  HE    .  H  0  ?  ?  ?  1  25
+ARV  2HH1  .  H  0  ?  ?  ?  0  26
+ARV  1HH2  .  H  0  ?  ?  ?  0  27
+ARV  2HH2  .  H  0  ?  ?  ?  0  28
+ARV  HXT   .  H  0  ?  ?  ?  1  29
+ARV  1HC1  .  H  0  ?  ?  ?  0  30
+ARV  2HC1  .  H  0  ?  ?  ?  0  31
+ARV  HC2   .  H  0  ?  ?  ?  1  32
+ARV  1HC3  .  H  0  ?  ?  ?  0  33
+ARV  2HC3  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARV  N    CA    SING  1 
+ARV  N    H     SING  2 
+ARV  N    HN2   SING  3 
+ARV  CA   C     SING  4 
+ARV  CA   CB    SING  5 
+ARV  CA   HA    SING  6 
+ARV  C    O     DOUB  7 
+ARV  C    OXT   SING  8 
+ARV  CB   CG    SING  9 
+ARV  CB   1HB   SING  10
+ARV  CB   2HB   SING  11
+ARV  CG   CD    SING  12
+ARV  CG   1HG   SING  13
+ARV  CG   2HG   SING  14
+ARV  CD   NE    SING  15
+ARV  CD   1HD   SING  16
+ARV  CD   2HD   SING  17
+ARV  NE   CZ    SING  18
+ARV  NE   HE    SING  19
+ARV  CZ   NH1   SING  20
+ARV  CZ   NH2   DOUB  21
+ARV  NH1  2HH1  SING  22
+ARV  NH2  1HH2  SING  23
+ARV  NH2  2HH2  SING  24
+ARV  NH2  C1    SING  25
+ARV  OXT  HXT   SING  26
+ARV  C1   C2    SING  27
+ARV  C1   1HC1  SING  28
+ARV  C1   2HC1  SING  29
+ARV  C2   C3    DOUB  30
+ARV  C2   HC2   SING  31
+ARV  C3   1HC3  SING  32
+ARV  C3   2HC3  SING  33
+#

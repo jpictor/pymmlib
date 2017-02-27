@@ -1,0 +1,65 @@
+data_SOT
+#
+_chem_comp.id                   SOT
+_chem_comp.name                 N-SULFONYLMORPHOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H8 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SOT  O1   .  O  0  ?  ?  ?  1  1 
+SOT  C2   .  C  0  ?  ?  ?  1  2 
+SOT  C3   .  C  0  ?  ?  ?  1  3 
+SOT  N4   .  N  0  ?  ?  ?  1  4 
+SOT  C5   .  C  0  ?  ?  ?  1  5 
+SOT  C6   .  C  0  ?  ?  ?  1  6 
+SOT  S    .  S  0  ?  ?  ?  1  7 
+SOT  O1S  .  O  0  ?  ?  ?  1  8 
+SOT  O2S  .  O  0  ?  ?  ?  1  9 
+SOT  1H2  .  H  0  ?  ?  ?  0  10
+SOT  2H2  .  H  0  ?  ?  ?  0  11
+SOT  1H3  .  H  0  ?  ?  ?  0  12
+SOT  2H3  .  H  0  ?  ?  ?  0  13
+SOT  1H5  .  H  0  ?  ?  ?  0  14
+SOT  2H5  .  H  0  ?  ?  ?  0  15
+SOT  1H6  .  H  0  ?  ?  ?  0  16
+SOT  2H6  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SOT  O1  C2   SING  1 
+SOT  O1  C6   SING  2 
+SOT  C2  C3   SING  3 
+SOT  C2  1H2  SING  4 
+SOT  C2  2H2  SING  5 
+SOT  C3  N4   SING  6 
+SOT  C3  1H3  SING  7 
+SOT  C3  2H3  SING  8 
+SOT  N4  C5   SING  9 
+SOT  N4  S    SING  10
+SOT  C5  C6   SING  11
+SOT  C5  1H5  SING  12
+SOT  C5  2H5  SING  13
+SOT  C6  1H6  SING  14
+SOT  C6  2H6  SING  15
+SOT  S   O1S  DOUB  16
+SOT  S   O2S  DOUB  17
+#

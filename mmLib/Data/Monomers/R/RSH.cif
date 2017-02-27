@@ -1,0 +1,79 @@
+data_RSH
+#
+_chem_comp.id                   RSH
+_chem_comp.name                 '3-DEOXY-D-LYXO-HEXONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_synonyms        D-2-KETO-3-DEOXYGALACTONATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RSH  O2    .  O  0  -14.028  62.816  12.568  1  1 
+RSH  C1    .  C  0  -13.999  63.426  13.657  1  2 
+RSH  O1    .  O  0  -13.825  64.677  13.705  1  3 
+RSH  C2    .  C  0  -14.187  62.662  14.907  1  4 
+RSH  C3    .  C  0  -13.097  61.687  15.362  1  5 
+RSH  C4    .  C  0  -11.69   62.034  14.797  1  6 
+RSH  O4    .  O  0  -10.926  62.659  15.84   1  7 
+RSH  C5    .  C  0  -10.953  60.788  14.147  1  8 
+RSH  O5    .  O  0  -9.549   60.673  14.468  1  9 
+RSH  C6    .  C  0  -10.936  60.851  12.6    1  10
+RSH  O6    .  O  0  -11.319  59.596  11.971  1  11
+RSH  OT    .  O  0  -15.155  62.112  14.847  1  12
+RSH  H1    .  H  0  ?        ?       ?       1  13
+RSH  1H2C  .  H  0  -14.393  63.379  15.736  0  14
+RSH  1H3C  .  H  0  -13.376  60.636  15.114  0  15
+RSH  2H3C  .  H  0  -13.071  61.612  16.474  0  16
+RSH  H4    .  H  0  -11.834  62.792  13.992  1  17
+RSH  HA    .  H  0  -10.067  62.871  15.495  1  18
+RSH  H5    .  H  0  -11.474  59.855  14.465  1  19
+RSH  HB    .  H  0  -9.108   59.927  14.079  1  20
+RSH  1H6C  .  H  0  -9.943   61.194  12.228  0  21
+RSH  2H6C  .  H  0  -11.571  61.69   12.23   0  22
+RSH  H6    .  H  0  -11.309  59.635  11.022  1  23
+RSH  HT    .  H  0  ?        ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RSH  O2  C1    DOUB  1 
+RSH  C1  O1    SING  2 
+RSH  C1  C2    SING  3 
+RSH  O1  H1    SING  4 
+RSH  C2  C3    SING  5 
+RSH  C2  OT    SING  6 
+RSH  C2  1H2C  SING  7 
+RSH  C3  C4    SING  8 
+RSH  C3  1H3C  SING  9 
+RSH  C3  2H3C  SING  10
+RSH  C4  O4    SING  11
+RSH  C4  C5    SING  12
+RSH  C4  H4    SING  13
+RSH  O4  HA    SING  14
+RSH  C5  O5    SING  15
+RSH  C5  C6    SING  16
+RSH  C5  H5    SING  17
+RSH  O5  HB    SING  18
+RSH  C6  O6    SING  19
+RSH  C6  1H6C  SING  20
+RSH  C6  2H6C  SING  21
+RSH  O6  H6    SING  22
+RSH  OT  HT    SING  23
+#

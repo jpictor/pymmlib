@@ -1,0 +1,61 @@
+data_2PC
+#
+_chem_comp.id                   2PC
+_chem_comp.name                 3,4-DIHYDRO-2H-PYRROLIUM-5-CARBOXYLATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        113.116
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2PC  N1   .  N  1   ?  ?  ?  1  1 
+2PC  C2   .  C  0   ?  ?  ?  1  2 
+2PC  C3   .  C  0   ?  ?  ?  1  3 
+2PC  C4   .  C  0   ?  ?  ?  1  4 
+2PC  C5   .  C  0   ?  ?  ?  1  5 
+2PC  C6   .  C  0   ?  ?  ?  1  6 
+2PC  O7   .  O  0   ?  ?  ?  1  7 
+2PC  O8   .  O  -1  ?  ?  ?  1  8 
+2PC  1H3  .  H  0   ?  ?  ?  0  9 
+2PC  2H3  .  H  0   ?  ?  ?  0  10
+2PC  1H4  .  H  0   ?  ?  ?  0  11
+2PC  2H4  .  H  0   ?  ?  ?  0  12
+2PC  1H5  .  H  0   ?  ?  ?  0  13
+2PC  2H5  .  H  0   ?  ?  ?  0  14
+2PC  HN1  .  H  0   ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2PC  N1  C2   DOUB  1 
+2PC  N1  C5   SING  2 
+2PC  N1  HN1  SING  3 
+2PC  C2  C3   SING  4 
+2PC  C2  C6   SING  5 
+2PC  C3  C4   SING  6 
+2PC  C3  1H3  SING  7 
+2PC  C3  2H3  SING  8 
+2PC  C4  C5   SING  9 
+2PC  C4  1H4  SING  10
+2PC  C4  2H4  SING  11
+2PC  C5  1H5  SING  12
+2PC  C5  2H5  SING  13
+2PC  C6  O7   DOUB  14
+2PC  C6  O8   SING  15
+#

@@ -1,0 +1,92 @@
+data_IBM
+#
+_chem_comp.id                   IBM
+_chem_comp.name                 3-ISOBUTYL-1-METHYLXANTHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        222.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBM  N9    .  N  0  44.028  15.049  46.236  1  1 
+IBM  C8    .  C  0  44.543  16.078  45.487  1  2 
+IBM  N7    .  N  0  44.595  17.219  46.130  1  3 
+IBM  C5    .  C  0  44.086  16.918  47.383  1  4 
+IBM  C4    .  C  0  43.733  15.588  47.465  1  5 
+IBM  N3    .  N  0  43.211  14.942  48.529  1  6 
+IBM  C2    .  C  0  43.014  15.730  49.631  1  7 
+IBM  N1    .  N  0  43.359  17.082  49.644  1  8 
+IBM  C6    .  C  0  43.892  17.679  48.527  1  9 
+IBM  O6    .  O  0  44.188  18.869  48.533  1  10
+IBM  O2    .  O  0  42.520  15.233  50.637  1  11
+IBM  C10   .  C  0  43.191  17.857  50.865  1  12
+IBM  C11   .  C  0  42.888  13.523  48.498  1  13
+IBM  C12   .  C  0  44.172  12.707  48.654  1  14
+IBM  C13   .  C  0  44.985  13.165  49.866  1  15
+IBM  C14   .  C  0  43.850  11.222  48.752  1  16
+IBM  1H13  .  H  0  ?       ?       ?       0  17
+IBM  2H13  .  H  0  ?       ?       ?       0  18
+IBM  3H13  .  H  0  ?       ?       ?       0  19
+IBM  H12   .  H  0  ?       ?       ?       1  20
+IBM  1H14  .  H  0  ?       ?       ?       0  21
+IBM  2H14  .  H  0  ?       ?       ?       0  22
+IBM  3H14  .  H  0  ?       ?       ?       0  23
+IBM  1H11  .  H  0  ?       ?       ?       0  24
+IBM  2H11  .  H  0  ?       ?       ?       0  25
+IBM  1H10  .  H  0  ?       ?       ?       0  26
+IBM  2H10  .  H  0  ?       ?       ?       0  27
+IBM  3H10  .  H  0  ?       ?       ?       0  28
+IBM  H8    .  H  0  ?       ?       ?       1  29
+IBM  HN9   .  H  0  ?       ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBM  N9   C8    SING  1 
+IBM  N9   C4    SING  2 
+IBM  N9   HN9   SING  3 
+IBM  C8   N7    DOUB  4 
+IBM  C8   H8    SING  5 
+IBM  N7   C5    SING  6 
+IBM  C5   C6    SING  7 
+IBM  C5   C4    DOUB  8 
+IBM  C4   N3    SING  9 
+IBM  N3   C11   SING  10
+IBM  N3   C2    SING  11
+IBM  C2   O2    DOUB  12
+IBM  C2   N1    SING  13
+IBM  N1   C10   SING  14
+IBM  N1   C6    SING  15
+IBM  C6   O6    DOUB  16
+IBM  C10  1H10  SING  17
+IBM  C10  2H10  SING  18
+IBM  C10  3H10  SING  19
+IBM  C11  C12   SING  20
+IBM  C11  1H11  SING  21
+IBM  C11  2H11  SING  22
+IBM  C12  C13   SING  23
+IBM  C12  C14   SING  24
+IBM  C12  H12   SING  25
+IBM  C13  1H13  SING  26
+IBM  C13  2H13  SING  27
+IBM  C13  3H13  SING  28
+IBM  C14  1H14  SING  29
+IBM  C14  2H14  SING  30
+IBM  C14  3H14  SING  31
+#

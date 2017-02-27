@@ -1,0 +1,98 @@
+data_SM3
+#
+_chem_comp.id                   SM3
+_chem_comp.name                 '(1R)-1-(2-THIENYLACETYLAMINO)-1-PHENYLMETHYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'B1 H14 C13 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        275.129
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SM3  CAF   .  C  0  21.376  5.663  12.902  1  1 
+SM3  CAC   .  C  0  20.255  5.991  12.077  1  2 
+SM3  CAB   .  C  0  20.393  5.570  10.798  1  3 
+SM3  SAD   .  S  0  21.870  4.766  10.536  1  4 
+SM3  CAE   .  C  0  22.352  4.981  12.171  1  5 
+SM3  CAG   .  C  0  23.697  4.439  12.624  1  6 
+SM3  CAH   .  C  0  24.508  5.552  13.312  1  7 
+SM3  OAI   .  O  0  24.745  6.624  12.727  1  8 
+SM3  NAJ   .  N  0  24.937  5.290  14.565  1  9 
+SM3  CAK   .  C  0  25.722  6.167  15.420  1  10
+SM3  B     .  B  0  26.289  5.337  16.621  1  11
+SM3  OAT   .  O  0  25.253  4.412  17.133  1  12
+SM3  OAO   .  O  0  26.734  6.201  17.691  1  13
+SM3  CAL   .  C  0  24.903  7.454  15.833  1  14
+SM3  CAQ   .  C  0  25.210  8.735  15.283  1  15
+SM3  CAM   .  C  0  23.826  7.336  16.781  1  16
+SM3  CAN   .  C  0  23.092  8.497  17.161  1  17
+SM3  CAS   .  C  0  23.412  9.762  16.608  1  18
+SM3  CAR   .  C  0  24.469  9.882  15.667  1  19
+SM3  HAB   .  H  0  ?       ?      ?       1  20
+SM3  HAC   .  H  0  ?       ?      ?       1  21
+SM3  HAF   .  H  0  ?       ?      ?       1  22
+SM3  1HAG  .  H  0  ?       ?      ?       0  23
+SM3  2HAG  .  H  0  ?       ?      ?       0  24
+SM3  HAJ   .  H  0  ?       ?      ?       1  25
+SM3  HAT   .  H  0  ?       ?      ?       1  26
+SM3  HAO   .  H  0  ?       ?      ?       1  27
+SM3  HAK   .  H  0  ?       ?      ?       1  28
+SM3  HAM   .  H  0  ?       ?      ?       1  29
+SM3  HAN   .  H  0  ?       ?      ?       1  30
+SM3  HAS   .  H  0  ?       ?      ?       1  31
+SM3  HAQ   .  H  0  ?       ?      ?       1  32
+SM3  HAR   .  H  0  ?       ?      ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SM3  CAF  CAC   SING  1 
+SM3  CAF  CAE   DOUB  2 
+SM3  CAF  HAF   SING  3 
+SM3  CAC  CAB   DOUB  4 
+SM3  CAC  HAC   SING  5 
+SM3  CAB  SAD   SING  6 
+SM3  CAB  HAB   SING  7 
+SM3  SAD  CAE   SING  8 
+SM3  CAE  CAG   SING  9 
+SM3  CAG  CAH   SING  10
+SM3  CAG  1HAG  SING  11
+SM3  CAG  2HAG  SING  12
+SM3  CAH  OAI   DOUB  13
+SM3  CAH  NAJ   SING  14
+SM3  NAJ  CAK   SING  15
+SM3  NAJ  HAJ   SING  16
+SM3  CAK  B     SING  17
+SM3  CAK  CAL   SING  18
+SM3  CAK  HAK   SING  19
+SM3  B    OAT   SING  20
+SM3  B    OAO   SING  21
+SM3  OAT  HAT   SING  22
+SM3  OAO  HAO   SING  23
+SM3  CAL  CAQ   AROM  24
+SM3  CAL  CAM   AROM  25
+SM3  CAQ  CAR   AROM  26
+SM3  CAQ  HAQ   SING  27
+SM3  CAM  CAN   AROM  28
+SM3  CAM  HAM   SING  29
+SM3  CAN  CAS   AROM  30
+SM3  CAN  HAN   SING  31
+SM3  CAS  CAR   AROM  32
+SM3  CAS  HAS   SING  33
+SM3  CAR  HAR   SING  34
+#

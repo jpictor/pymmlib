@@ -1,0 +1,99 @@
+data_IMH
+#
+_chem_comp.id                   IMH
+_chem_comp.name                 1,4-DIDEOXY-4-AZA-1-(S)-(9-DEAZAHYPOXANTHIN-9-YL)-D-RIBITOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N4 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.256
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IMH  O5*   .  O  0  ?  ?  ?  1  1 
+IMH  C5*   .  C  0  ?  ?  ?  1  2 
+IMH  C4*   .  C  0  ?  ?  ?  1  3 
+IMH  N4*   .  N  0  ?  ?  ?  1  4 
+IMH  C3*   .  C  0  ?  ?  ?  1  5 
+IMH  O3*   .  O  0  ?  ?  ?  1  6 
+IMH  C2*   .  C  0  ?  ?  ?  1  7 
+IMH  O2*   .  O  0  ?  ?  ?  1  8 
+IMH  C1*   .  C  0  ?  ?  ?  1  9 
+IMH  C9    .  C  0  ?  ?  ?  1  10
+IMH  C8    .  C  0  ?  ?  ?  1  11
+IMH  N7    .  N  0  ?  ?  ?  1  12
+IMH  C5    .  C  0  ?  ?  ?  1  13
+IMH  C6    .  C  0  ?  ?  ?  1  14
+IMH  O6    .  O  0  ?  ?  ?  1  15
+IMH  N1    .  N  0  ?  ?  ?  1  16
+IMH  C2    .  C  0  ?  ?  ?  1  17
+IMH  N3    .  N  0  ?  ?  ?  1  18
+IMH  C4    .  C  0  ?  ?  ?  1  19
+IMH  5HO*  .  H  0  ?  ?  ?  0  20
+IMH  1H5*  .  H  0  ?  ?  ?  0  21
+IMH  2H5*  .  H  0  ?  ?  ?  0  22
+IMH  H4*   .  H  0  ?  ?  ?  1  23
+IMH  4HN*  .  H  0  ?  ?  ?  0  24
+IMH  H3*   .  H  0  ?  ?  ?  1  25
+IMH  3HO*  .  H  0  ?  ?  ?  0  26
+IMH  H2*   .  H  0  ?  ?  ?  1  27
+IMH  2HO*  .  H  0  ?  ?  ?  0  28
+IMH  H1*   .  H  0  ?  ?  ?  1  29
+IMH  H8    .  H  0  ?  ?  ?  1  30
+IMH  HN7   .  H  0  ?  ?  ?  1  31
+IMH  HO6   .  H  0  ?  ?  ?  1  32
+IMH  H2    .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IMH  O5*  C5*   SING  1 
+IMH  O5*  5HO*  SING  2 
+IMH  C5*  C4*   SING  3 
+IMH  C5*  1H5*  SING  4 
+IMH  C5*  2H5*  SING  5 
+IMH  C4*  N4*   SING  6 
+IMH  C4*  C3*   SING  7 
+IMH  C4*  H4*   SING  8 
+IMH  N4*  C1*   SING  9 
+IMH  N4*  4HN*  SING  10
+IMH  C3*  O3*   SING  11
+IMH  C3*  C2*   SING  12
+IMH  C3*  H3*   SING  13
+IMH  O3*  3HO*  SING  14
+IMH  C2*  O2*   SING  15
+IMH  C2*  C1*   SING  16
+IMH  C2*  H2*   SING  17
+IMH  O2*  2HO*  SING  18
+IMH  C1*  C9    SING  19
+IMH  C1*  H1*   SING  20
+IMH  C9   C8    DOUB  21
+IMH  C9   C4    SING  22
+IMH  C8   N7    SING  23
+IMH  C8   H8    SING  24
+IMH  N7   C5    SING  25
+IMH  N7   HN7   SING  26
+IMH  C5   C6    SING  27
+IMH  C5   C4    DOUB  28
+IMH  C6   O6    SING  29
+IMH  C6   N1    DOUB  30
+IMH  O6   HO6   SING  31
+IMH  N1   C2    SING  32
+IMH  C2   N3    DOUB  33
+IMH  C2   H2    SING  34
+IMH  N3   C4    SING  35
+#

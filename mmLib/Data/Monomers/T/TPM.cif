@@ -1,0 +1,98 @@
+data_TPM
+#
+_chem_comp.id                   TPM
+_chem_comp.name                 2-(4-AMINOBENZYLAMINO)-3,4,5,6-TETRAHYDROPYRIDINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       204.294
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPM  C1    .  C  0  ?  ?  ?  1  1 
+TPM  C2    .  C  0  ?  ?  ?  1  2 
+TPM  C3    .  C  0  ?  ?  ?  1  3 
+TPM  C5    .  C  0  ?  ?  ?  1  4 
+TPM  C6    .  C  0  ?  ?  ?  1  5 
+TPM  C4    .  C  0  ?  ?  ?  1  6 
+TPM  C7    .  C  0  ?  ?  ?  1  7 
+TPM  N1    .  N  0  ?  ?  ?  1  8 
+TPM  N2    .  N  0  ?  ?  ?  1  9 
+TPM  C8    .  C  0  ?  ?  ?  1  10
+TPM  N3    .  N  1  ?  ?  ?  1  11
+TPM  C9    .  C  0  ?  ?  ?  1  12
+TPM  C10   .  C  0  ?  ?  ?  1  13
+TPM  C11   .  C  0  ?  ?  ?  1  14
+TPM  C12   .  C  0  ?  ?  ?  1  15
+TPM  1HN1  .  H  0  ?  ?  ?  0  16
+TPM  2HN1  .  H  0  ?  ?  ?  0  17
+TPM  1HC2  .  H  0  ?  ?  ?  0  18
+TPM  1HC3  .  H  0  ?  ?  ?  0  19
+TPM  1HC5  .  H  0  ?  ?  ?  0  20
+TPM  1HC6  .  H  0  ?  ?  ?  0  21
+TPM  1HC7  .  H  0  ?  ?  ?  0  22
+TPM  2HC7  .  H  0  ?  ?  ?  0  23
+TPM  1HN2  .  H  0  ?  ?  ?  0  24
+TPM  1HN3  .  H  0  ?  ?  ?  0  25
+TPM  1HC9  .  H  0  ?  ?  ?  0  26
+TPM  2HC9  .  H  0  ?  ?  ?  0  27
+TPM  1H10  .  H  0  ?  ?  ?  0  28
+TPM  2H10  .  H  0  ?  ?  ?  0  29
+TPM  1H11  .  H  0  ?  ?  ?  0  30
+TPM  2H11  .  H  0  ?  ?  ?  0  31
+TPM  1H12  .  H  0  ?  ?  ?  0  32
+TPM  2H12  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPM  C1   C2    DOUB  1 
+TPM  C1   C6    SING  2 
+TPM  C1   N1    SING  3 
+TPM  C2   C3    SING  4 
+TPM  C2   1HC2  SING  5 
+TPM  C3   C4    DOUB  6 
+TPM  C3   1HC3  SING  7 
+TPM  C5   C6    DOUB  8 
+TPM  C5   C4    SING  9 
+TPM  C5   1HC5  SING  10
+TPM  C6   1HC6  SING  11
+TPM  C4   C7    SING  12
+TPM  C7   N2    SING  13
+TPM  C7   1HC7  SING  14
+TPM  C7   2HC7  SING  15
+TPM  N1   1HN1  SING  16
+TPM  N1   2HN1  SING  17
+TPM  N2   C8    SING  18
+TPM  N2   1HN2  SING  19
+TPM  C8   N3    DOUB  20
+TPM  C8   C9    SING  21
+TPM  N3   C12   SING  22
+TPM  N3   1HN3  SING  23
+TPM  C9   C10   SING  24
+TPM  C9   1HC9  SING  25
+TPM  C9   2HC9  SING  26
+TPM  C10  C11   SING  27
+TPM  C10  1H10  SING  28
+TPM  C10  2H10  SING  29
+TPM  C11  C12   SING  30
+TPM  C11  1H11  SING  31
+TPM  C11  2H11  SING  32
+TPM  C12  1H12  SING  33
+TPM  C12  2H12  SING  34
+#

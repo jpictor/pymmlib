@@ -1,0 +1,90 @@
+data_TPD
+#
+_chem_comp.id                   TPD
+_chem_comp.name                 N-(2-THIENYLMETHYL)-2,5-THIOPHENEDISULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 N2 O4 S4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.429
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPD  C3    .  C  0  ?  ?  ?  1  1 
+TPD  C9    .  C  0  ?  ?  ?  1  2 
+TPD  C10   .  C  0  ?  ?  ?  1  3 
+TPD  C11   .  C  0  ?  ?  ?  1  4 
+TPD  C12   .  C  0  ?  ?  ?  1  5 
+TPD  C13   .  C  0  ?  ?  ?  1  6 
+TPD  O1A   .  O  0  ?  ?  ?  1  7 
+TPD  O2A   .  O  0  ?  ?  ?  1  8 
+TPD  N21   .  N  0  ?  ?  ?  1  9 
+TPD  S1    .  S  0  ?  ?  ?  1  10
+TPD  C4    .  C  0  ?  ?  ?  1  11
+TPD  C5    .  C  0  ?  ?  ?  1  12
+TPD  C6    .  C  0  ?  ?  ?  1  13
+TPD  S2    .  S  0  ?  ?  ?  1  14
+TPD  S7    .  S  0  ?  ?  ?  1  15
+TPD  O3B   .  O  0  ?  ?  ?  1  16
+TPD  O4B   .  O  0  ?  ?  ?  1  17
+TPD  N8    .  N  0  ?  ?  ?  1  18
+TPD  S14   .  S  0  ?  ?  ?  1  19
+TPD  1H9   .  H  0  ?  ?  ?  0  20
+TPD  2H9   .  H  0  ?  ?  ?  0  21
+TPD  H11   .  H  0  ?  ?  ?  1  22
+TPD  H12   .  H  0  ?  ?  ?  1  23
+TPD  H13   .  H  0  ?  ?  ?  1  24
+TPD  1HNL  .  H  0  ?  ?  ?  0  25
+TPD  2HNL  .  H  0  ?  ?  ?  0  26
+TPD  H4    .  H  0  ?  ?  ?  1  27
+TPD  H5    .  H  0  ?  ?  ?  1  28
+TPD  HN8   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPD  C3   S1    SING  1 
+TPD  C3   C4    DOUB  2 
+TPD  C3   S2    SING  3 
+TPD  C9   C10   SING  4 
+TPD  C9   N8    SING  5 
+TPD  C9   1H9   SING  6 
+TPD  C9   2H9   SING  7 
+TPD  C10  C11   DOUB  8 
+TPD  C10  S14   SING  9 
+TPD  C11  C12   SING  10
+TPD  C11  H11   SING  11
+TPD  C12  C13   DOUB  12
+TPD  C12  H12   SING  13
+TPD  C13  S14   SING  14
+TPD  C13  H13   SING  15
+TPD  O1A  S1    DOUB  16
+TPD  O2A  S1    DOUB  17
+TPD  N21  S1    SING  18
+TPD  N21  1HNL  SING  19
+TPD  N21  2HNL  SING  20
+TPD  C4   C5    SING  21
+TPD  C4   H4    SING  22
+TPD  C5   C6    DOUB  23
+TPD  C5   H5    SING  24
+TPD  C6   S2    SING  25
+TPD  C6   S7    SING  26
+TPD  S7   O3B   DOUB  27
+TPD  S7   O4B   DOUB  28
+TPD  S7   N8    SING  29
+TPD  N8   HN8   SING  30
+#

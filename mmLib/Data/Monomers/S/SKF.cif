@@ -1,0 +1,84 @@
+data_SKF
+#
+_chem_comp.id                   SKF
+_chem_comp.name                 '1,2,3,4-TETRAHYDRO-ISOQUINOLINE-7-SULFONIC ACID AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.266
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SKF  C4    .  C  0  ?  ?  ?  1  1 
+SKF  C5    .  C  0  ?  ?  ?  1  2 
+SKF  C6    .  C  0  ?  ?  ?  1  3 
+SKF  C7    .  C  0  ?  ?  ?  1  4 
+SKF  S     .  S  0  ?  ?  ?  1  5 
+SKF  C8    .  C  0  ?  ?  ?  1  6 
+SKF  C9    .  C  0  ?  ?  ?  1  7 
+SKF  O1    .  O  0  ?  ?  ?  1  8 
+SKF  O2    .  O  0  ?  ?  ?  1  9 
+SKF  N     .  N  0  ?  ?  ?  1  10
+SKF  C1    .  C  0  ?  ?  ?  1  11
+SKF  C2    .  C  0  ?  ?  ?  1  12
+SKF  C3    .  C  0  ?  ?  ?  1  13
+SKF  N1    .  N  0  ?  ?  ?  1  14
+SKF  H1N   .  H  0  ?  ?  ?  1  15
+SKF  H2N   .  H  0  ?  ?  ?  1  16
+SKF  HC5   .  H  0  ?  ?  ?  1  17
+SKF  HC4   .  H  0  ?  ?  ?  1  18
+SKF  HC7   .  H  0  ?  ?  ?  1  19
+SKF  1HC1  .  H  0  ?  ?  ?  0  20
+SKF  2HC1  .  H  0  ?  ?  ?  0  21
+SKF  HN1   .  H  0  ?  ?  ?  1  22
+SKF  1HC2  .  H  0  ?  ?  ?  0  23
+SKF  2HC2  .  H  0  ?  ?  ?  0  24
+SKF  1HC3  .  H  0  ?  ?  ?  0  25
+SKF  2HC3  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SKF  C4  C5    DOUB  1 
+SKF  C4  C9    SING  2 
+SKF  C4  HC4   SING  3 
+SKF  C5  C6    SING  4 
+SKF  C5  HC5   SING  5 
+SKF  C6  C7    DOUB  6 
+SKF  C6  S     SING  7 
+SKF  C7  C8    SING  8 
+SKF  C7  HC7   SING  9 
+SKF  S   O1    DOUB  10
+SKF  S   O2    DOUB  11
+SKF  S   N     SING  12
+SKF  C8  C9    DOUB  13
+SKF  C8  C1    SING  14
+SKF  C9  C3    SING  15
+SKF  N   H1N   SING  16
+SKF  N   H2N   SING  17
+SKF  C1  N1    SING  18
+SKF  C1  1HC1  SING  19
+SKF  C1  2HC1  SING  20
+SKF  C2  C3    SING  21
+SKF  C2  N1    SING  22
+SKF  C2  1HC2  SING  23
+SKF  C2  2HC2  SING  24
+SKF  C3  1HC3  SING  25
+SKF  C3  2HC3  SING  26
+SKF  N1  HN1   SING  27
+#

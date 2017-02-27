@@ -1,0 +1,107 @@
+data_DAE
+#
+_chem_comp.id                   DAE
+_chem_comp.name                 'O,P-DINITROPHENYL AMINOETHYLDIPHOSPHATE-BERYLLIUM TRIFLUORIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H10 N3 O11 BE1 F3 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        452.135
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAE  BE    .  BE  0  ?  ?  ?  0  1 
+DAE  F1    .  F   0  ?  ?  ?  1  2 
+DAE  F2    .  F   0  ?  ?  ?  1  3 
+DAE  F3    .  F   0  ?  ?  ?  1  4 
+DAE  PB    .  P   0  ?  ?  ?  1  5 
+DAE  OB1   .  O   0  ?  ?  ?  1  6 
+DAE  OB2   .  O   0  ?  ?  ?  1  7 
+DAE  OB3   .  O   0  ?  ?  ?  1  8 
+DAE  OA3   .  O   0  ?  ?  ?  1  9 
+DAE  PA    .  P   0  ?  ?  ?  1  10
+DAE  OA1   .  O   0  ?  ?  ?  1  11
+DAE  OA2   .  O   0  ?  ?  ?  1  12
+DAE  OE2   .  O   0  ?  ?  ?  1  13
+DAE  NA3   .  N   0  ?  ?  ?  1  14
+DAE  CA2   .  C   0  ?  ?  ?  1  15
+DAE  CA1   .  C   0  ?  ?  ?  1  16
+DAE  C1    .  C   0  ?  ?  ?  1  17
+DAE  C6    .  C   0  ?  ?  ?  1  18
+DAE  C5    .  C   0  ?  ?  ?  1  19
+DAE  C4    .  C   0  ?  ?  ?  1  20
+DAE  C3    .  C   0  ?  ?  ?  1  21
+DAE  C2    .  C   0  ?  ?  ?  1  22
+DAE  N4    .  N   0  ?  ?  ?  1  23
+DAE  O4A   .  O   0  ?  ?  ?  1  24
+DAE  O4B   .  O   0  ?  ?  ?  1  25
+DAE  N2    .  N   0  ?  ?  ?  1  26
+DAE  O2A   .  O   0  ?  ?  ?  1  27
+DAE  O2B   .  O   0  ?  ?  ?  1  28
+DAE  2HOB  .  H   0  ?  ?  ?  0  29
+DAE  2HOA  .  H   0  ?  ?  ?  0  30
+DAE  1HA1  .  H   0  ?  ?  ?  0  31
+DAE  2HA1  .  H   0  ?  ?  ?  0  32
+DAE  1HA2  .  H   0  ?  ?  ?  0  33
+DAE  2HA2  .  H   0  ?  ?  ?  0  34
+DAE  1HNA  .  H   0  ?  ?  ?  0  35
+DAE  H6    .  H   0  ?  ?  ?  1  36
+DAE  H5    .  H   0  ?  ?  ?  1  37
+DAE  H3    .  H   0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAE  BE   F1    SING  1 
+DAE  BE   F2    SING  2 
+DAE  BE   F3    SING  3 
+DAE  BE   OB3   SING  4 
+DAE  PB   OB1   DOUB  5 
+DAE  PB   OB2   SING  6 
+DAE  PB   OB3   SING  7 
+DAE  PB   OA3   SING  8 
+DAE  OB2  2HOB  SING  9 
+DAE  OA3  PA    SING  10
+DAE  PA   OA1   SING  11
+DAE  PA   OA2   DOUB  12
+DAE  PA   OE2   SING  13
+DAE  OA1  2HOA  SING  14
+DAE  OE2  CA1   SING  15
+DAE  NA3  CA2   SING  16
+DAE  NA3  C1    SING  17
+DAE  NA3  1HNA  SING  18
+DAE  CA2  CA1   SING  19
+DAE  CA2  1HA2  SING  20
+DAE  CA2  2HA2  SING  21
+DAE  CA1  1HA1  SING  22
+DAE  CA1  2HA1  SING  23
+DAE  C1   C6    DOUB  24
+DAE  C1   C2    SING  25
+DAE  C6   C5    SING  26
+DAE  C6   H6    SING  27
+DAE  C5   C4    DOUB  28
+DAE  C5   H5    SING  29
+DAE  C4   C3    SING  30
+DAE  C4   N4    SING  31
+DAE  C3   C2    DOUB  32
+DAE  C3   H3    SING  33
+DAE  C2   N2    SING  34
+DAE  N4   O4A   DOUB  35
+DAE  N4   O4B   DOUB  36
+DAE  N2   O2A   DOUB  37
+DAE  N2   O2B   DOUB  38
+#

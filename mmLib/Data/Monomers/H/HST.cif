@@ -1,0 +1,121 @@
+data_HST
+#
+_chem_comp.id                   HST
+_chem_comp.name                 4-CARBOXY-5-(1-PENTYL)HEXYLSULFANYL-1,2,3-TRIAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H25 N3 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        299.430
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HST  N1    .  N  0  ?  ?  ?  1  1 
+HST  N2    .  N  0  ?  ?  ?  1  2 
+HST  N3    .  N  0  ?  ?  ?  1  3 
+HST  CB1   .  C  0  ?  ?  ?  1  4 
+HST  CB2   .  C  0  ?  ?  ?  1  5 
+HST  CB3   .  C  0  ?  ?  ?  1  6 
+HST  O1    .  O  0  ?  ?  ?  1  7 
+HST  O2    .  O  0  ?  ?  ?  1  8 
+HST  S     .  S  0  ?  ?  ?  1  9 
+HST  C1    .  C  0  ?  ?  ?  1  10
+HST  C2    .  C  0  ?  ?  ?  1  11
+HST  C3    .  C  0  ?  ?  ?  1  12
+HST  C4    .  C  0  ?  ?  ?  1  13
+HST  C5    .  C  0  ?  ?  ?  1  14
+HST  C6    .  C  0  ?  ?  ?  1  15
+HST  C7    .  C  0  ?  ?  ?  1  16
+HST  C8    .  C  0  ?  ?  ?  1  17
+HST  C9    .  C  0  ?  ?  ?  1  18
+HST  C10   .  C  0  ?  ?  ?  1  19
+HST  C11   .  C  0  ?  ?  ?  1  20
+HST  HN1   .  H  0  ?  ?  ?  1  21
+HST  HO2   .  H  0  ?  ?  ?  1  22
+HST  1H1   .  H  0  ?  ?  ?  0  23
+HST  2H1   .  H  0  ?  ?  ?  0  24
+HST  3H1   .  H  0  ?  ?  ?  0  25
+HST  1H2   .  H  0  ?  ?  ?  0  26
+HST  2H2   .  H  0  ?  ?  ?  0  27
+HST  1H3   .  H  0  ?  ?  ?  0  28
+HST  2H3   .  H  0  ?  ?  ?  0  29
+HST  1H4   .  H  0  ?  ?  ?  0  30
+HST  2H4   .  H  0  ?  ?  ?  0  31
+HST  1H5   .  H  0  ?  ?  ?  0  32
+HST  2H5   .  H  0  ?  ?  ?  0  33
+HST  H6    .  H  0  ?  ?  ?  1  34
+HST  1H7   .  H  0  ?  ?  ?  0  35
+HST  2H7   .  H  0  ?  ?  ?  0  36
+HST  1H8   .  H  0  ?  ?  ?  0  37
+HST  2H8   .  H  0  ?  ?  ?  0  38
+HST  1H9   .  H  0  ?  ?  ?  0  39
+HST  2H9   .  H  0  ?  ?  ?  0  40
+HST  1H10  .  H  0  ?  ?  ?  0  41
+HST  2H10  .  H  0  ?  ?  ?  0  42
+HST  1H11  .  H  0  ?  ?  ?  0  43
+HST  2H11  .  H  0  ?  ?  ?  0  44
+HST  3H11  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HST  N1   N2    SING  1 
+HST  N1   CB1   SING  2 
+HST  N1   HN1   SING  3 
+HST  N2   N3    DOUB  4 
+HST  N3   CB2   SING  5 
+HST  CB1  CB2   DOUB  6 
+HST  CB1  S     SING  7 
+HST  CB2  CB3   SING  8 
+HST  CB3  O1    DOUB  9 
+HST  CB3  O2    SING  10
+HST  O2   HO2   SING  11
+HST  S    C6    SING  12
+HST  C1   C2    SING  13
+HST  C1   1H1   SING  14
+HST  C1   2H1   SING  15
+HST  C1   3H1   SING  16
+HST  C2   C3    SING  17
+HST  C2   1H2   SING  18
+HST  C2   2H2   SING  19
+HST  C3   C4    SING  20
+HST  C3   1H3   SING  21
+HST  C3   2H3   SING  22
+HST  C4   C5    SING  23
+HST  C4   1H4   SING  24
+HST  C4   2H4   SING  25
+HST  C5   C6    SING  26
+HST  C5   1H5   SING  27
+HST  C5   2H5   SING  28
+HST  C6   C7    SING  29
+HST  C6   H6    SING  30
+HST  C7   C8    SING  31
+HST  C7   1H7   SING  32
+HST  C7   2H7   SING  33
+HST  C8   C9    SING  34
+HST  C8   1H8   SING  35
+HST  C8   2H8   SING  36
+HST  C9   C10   SING  37
+HST  C9   1H9   SING  38
+HST  C9   2H9   SING  39
+HST  C10  C11   SING  40
+HST  C10  1H10  SING  41
+HST  C10  2H10  SING  42
+HST  C11  1H11  SING  43
+HST  C11  2H11  SING  44
+HST  C11  3H11  SING  45
+#

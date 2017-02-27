@@ -1,0 +1,86 @@
+data_IS2
+#
+_chem_comp.id                   IS2
+_chem_comp.name                 '[(4-ETHYLPHENYL)AMINO]CARBONYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N1 O4 P1'
+_chem_comp.pdbx_synonyms        ISO24
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        229.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IS2  C1    .  C  0  21.757  32.449  16.347  1  1 
+IS2  C2    .  C  0  20.613  32.834  17.146  1  2 
+IS2  C3    .  C  0  19.472  31.985  17.243  1  3 
+IS2  C4    .  C  0  19.513  30.662  16.652  1  4 
+IS2  C5    .  C  0  20.717  30.218  16.054  1  5 
+IS2  C6    .  C  0  21.844  31.075  15.946  1  6 
+IS2  N11   .  N  0  18.358  29.812  16.604  1  7 
+IS2  C12   .  C  0  17.116  30.268  17.043  1  8 
+IS2  O13   .  O  0  17.076  31.177  17.817  1  9 
+IS2  P14   .  P  0  15.925  28.985  17.255  1  10
+IS2  O15   .  O  0  14.395  29.552  16.726  1  11
+IS2  O16   .  O  0  15.930  28.590  18.686  1  12
+IS2  O17   .  O  0  16.306  27.907  16.404  1  13
+IS2  C18   .  C  0  23.015  33.281  16.403  1  14
+IS2  C19   .  C  0  22.680  34.808  16.298  1  15
+IS2  H6    .  H  0  ?       ?       ?       1  16
+IS2  H5    .  H  0  ?       ?       ?       1  17
+IS2  H3    .  H  0  ?       ?       ?       1  18
+IS2  H2    .  H  0  ?       ?       ?       1  19
+IS2  H11   .  H  0  ?       ?       ?       1  20
+IS2  H15   .  H  0  ?       ?       ?       1  21
+IS2  H16   .  H  0  ?       ?       ?       1  22
+IS2  1H18  .  H  0  ?       ?       ?       0  23
+IS2  2H18  .  H  0  ?       ?       ?       0  24
+IS2  1H19  .  H  0  ?       ?       ?       0  25
+IS2  2H19  .  H  0  ?       ?       ?       0  26
+IS2  3H19  .  H  0  ?       ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IS2  C1   C18   SING  1 
+IS2  C1   C6    DOUB  2 
+IS2  C1   C2    SING  3 
+IS2  C2   H2    SING  4 
+IS2  C2   C3    DOUB  5 
+IS2  C3   H3    SING  6 
+IS2  C3   C4    SING  7 
+IS2  C4   C5    DOUB  8 
+IS2  C4   N11   SING  9 
+IS2  C5   C6    SING  10
+IS2  C5   H5    SING  11
+IS2  C6   H6    SING  12
+IS2  N11  C12   SING  13
+IS2  N11  H11   SING  14
+IS2  C12  P14   SING  15
+IS2  C12  O13   DOUB  16
+IS2  P14  O15   SING  17
+IS2  P14  O17   DOUB  18
+IS2  P14  O16   SING  19
+IS2  O15  H15   SING  20
+IS2  O16  H16   SING  21
+IS2  C18  C19   SING  22
+IS2  C18  1H18  SING  23
+IS2  C18  2H18  SING  24
+IS2  C19  1H19  SING  25
+IS2  C19  2H19  SING  26
+IS2  C19  3H19  SING  27
+#

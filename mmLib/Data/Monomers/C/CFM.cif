@@ -1,0 +1,72 @@
+data_CFM
+#
+_chem_comp.id                   CFM
+_chem_comp.name                 'FE-MO-S CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE7 MO1 S9'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        775.409
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CFM  FE1  .  FE  0  ?  ?  ?  0  1 
+CFM  FE2  .  FE  0  ?  ?  ?  0  2 
+CFM  FE3  .  FE  0  ?  ?  ?  0  3 
+CFM  FE4  .  FE  0  ?  ?  ?  0  4 
+CFM  FE5  .  FE  0  ?  ?  ?  0  5 
+CFM  FE6  .  FE  0  ?  ?  ?  0  6 
+CFM  FE7  .  FE  0  ?  ?  ?  0  7 
+CFM  MO1  .  MO  0  ?  ?  ?  0  8 
+CFM  S1A  .  S   0  ?  ?  ?  1  9 
+CFM  S4A  .  S   0  ?  ?  ?  1  10
+CFM  S3A  .  S   0  ?  ?  ?  1  11
+CFM  S2A  .  S   0  ?  ?  ?  1  12
+CFM  S1B  .  S   0  ?  ?  ?  1  13
+CFM  S2B  .  S   0  ?  ?  ?  1  14
+CFM  S3B  .  S   0  ?  ?  ?  1  15
+CFM  S4B  .  S   0  ?  ?  ?  1  16
+CFM  S5   .  S   0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CFM  FE1  S1A  SING  1 
+CFM  FE1  S4A  SING  2 
+CFM  FE1  S2A  SING  3 
+CFM  FE2  S1A  SING  4 
+CFM  FE2  S2A  SING  5 
+CFM  FE2  S2B  SING  6 
+CFM  FE3  S4A  SING  7 
+CFM  FE3  S2A  SING  8 
+CFM  FE3  S5   SING  9 
+CFM  FE4  S1A  SING  10
+CFM  FE4  S4A  SING  11
+CFM  FE4  S3A  SING  12
+CFM  FE5  S3A  SING  13
+CFM  FE5  S1B  SING  14
+CFM  FE5  S4B  SING  15
+CFM  FE6  S1B  SING  16
+CFM  FE6  S2B  SING  17
+CFM  FE6  S3B  SING  18
+CFM  FE7  S3B  SING  19
+CFM  FE7  S4B  SING  20
+CFM  FE7  S5   SING  21
+CFM  MO1  S1B  SING  22
+CFM  MO1  S3B  SING  23
+CFM  MO1  S4B  SING  24
+#

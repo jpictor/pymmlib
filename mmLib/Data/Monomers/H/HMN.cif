@@ -1,0 +1,114 @@
+data_HMN
+#
+_chem_comp.id                   HMN
+_chem_comp.name                 '2,4,6,7,8,9-HEXAHYDROXY-5-METHYLCARBOXAMIDO NONANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H21 N1 O9'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        311.288
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HMN  C1    .  C  0  ?  ?  ?  1  1 
+HMN  O1A   .  O  0  ?  ?  ?  1  2 
+HMN  O1B   .  O  0  ?  ?  ?  1  3 
+HMN  C2    .  C  0  ?  ?  ?  1  4 
+HMN  O2    .  O  0  ?  ?  ?  1  5 
+HMN  C3    .  C  0  ?  ?  ?  1  6 
+HMN  C4    .  C  0  ?  ?  ?  1  7 
+HMN  O4    .  O  0  ?  ?  ?  1  8 
+HMN  C5    .  C  0  ?  ?  ?  1  9 
+HMN  N2    .  N  0  ?  ?  ?  1  10
+HMN  C10   .  C  0  ?  ?  ?  1  11
+HMN  O10   .  O  0  ?  ?  ?  1  12
+HMN  C11   .  C  0  ?  ?  ?  1  13
+HMN  C6    .  C  0  ?  ?  ?  1  14
+HMN  O6    .  O  0  ?  ?  ?  1  15
+HMN  C7    .  C  0  ?  ?  ?  1  16
+HMN  O7    .  O  0  ?  ?  ?  1  17
+HMN  C8    .  C  0  ?  ?  ?  1  18
+HMN  O8    .  O  0  ?  ?  ?  1  19
+HMN  C9    .  C  0  ?  ?  ?  1  20
+HMN  O9    .  O  0  ?  ?  ?  1  21
+HMN  HO1B  .  H  0  ?  ?  ?  0  22
+HMN  HC2   .  H  0  ?  ?  ?  1  23
+HMN  HO2   .  H  0  ?  ?  ?  1  24
+HMN  1HC3  .  H  0  ?  ?  ?  0  25
+HMN  2HC3  .  H  0  ?  ?  ?  0  26
+HMN  1H11  .  H  0  ?  ?  ?  0  27
+HMN  2H11  .  H  0  ?  ?  ?  0  28
+HMN  3H11  .  H  0  ?  ?  ?  0  29
+HMN  HO4   .  H  0  ?  ?  ?  1  30
+HMN  HC4   .  H  0  ?  ?  ?  1  31
+HMN  HC5   .  H  0  ?  ?  ?  1  32
+HMN  HN2   .  H  0  ?  ?  ?  1  33
+HMN  HC6   .  H  0  ?  ?  ?  1  34
+HMN  HO6   .  H  0  ?  ?  ?  1  35
+HMN  HC7   .  H  0  ?  ?  ?  1  36
+HMN  HO7   .  H  0  ?  ?  ?  1  37
+HMN  HC8   .  H  0  ?  ?  ?  1  38
+HMN  HO8   .  H  0  ?  ?  ?  1  39
+HMN  1HC9  .  H  0  ?  ?  ?  0  40
+HMN  2HC9  .  H  0  ?  ?  ?  0  41
+HMN  HO9   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HMN  C1   O1A   DOUB  1 
+HMN  C1   O1B   SING  2 
+HMN  C1   C2    SING  3 
+HMN  O1B  HO1B  SING  4 
+HMN  C2   O2    SING  5 
+HMN  C2   C3    SING  6 
+HMN  C2   HC2   SING  7 
+HMN  O2   HO2   SING  8 
+HMN  C3   C4    SING  9 
+HMN  C3   1HC3  SING  10
+HMN  C3   2HC3  SING  11
+HMN  C4   O4    SING  12
+HMN  C4   C5    SING  13
+HMN  C4   HC4   SING  14
+HMN  O4   HO4   SING  15
+HMN  C5   N2    SING  16
+HMN  C5   C6    SING  17
+HMN  C5   HC5   SING  18
+HMN  N2   C10   SING  19
+HMN  N2   HN2   SING  20
+HMN  C10  O10   DOUB  21
+HMN  C10  C11   SING  22
+HMN  C11  1H11  SING  23
+HMN  C11  2H11  SING  24
+HMN  C11  3H11  SING  25
+HMN  C6   O6    SING  26
+HMN  C6   C7    SING  27
+HMN  C6   HC6   SING  28
+HMN  O6   HO6   SING  29
+HMN  C7   O7    SING  30
+HMN  C7   C8    SING  31
+HMN  C7   HC7   SING  32
+HMN  O7   HO7   SING  33
+HMN  C8   O8    SING  34
+HMN  C8   C9    SING  35
+HMN  C8   HC8   SING  36
+HMN  O8   HO8   SING  37
+HMN  C9   O9    SING  38
+HMN  C9   1HC9  SING  39
+HMN  C9   2HC9  SING  40
+HMN  O9   HO9   SING  41
+#

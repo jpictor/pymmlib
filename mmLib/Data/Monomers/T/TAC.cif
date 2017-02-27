@@ -1,0 +1,146 @@
+data_TAC
+#
+_chem_comp.id                   TAC
+_chem_comp.name                 TETRACYCLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H24 N2 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        444.440
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TAC  C1    .  C  0  ?  ?  ?  1  1 
+TAC  O1    .  O  0  ?  ?  ?  1  2 
+TAC  C2    .  C  0  ?  ?  ?  1  3 
+TAC  C21   .  C  0  ?  ?  ?  1  4 
+TAC  O21   .  O  0  ?  ?  ?  1  5 
+TAC  N21   .  N  0  ?  ?  ?  1  6 
+TAC  C3    .  C  0  ?  ?  ?  1  7 
+TAC  O3    .  O  0  ?  ?  ?  1  8 
+TAC  C4    .  C  0  ?  ?  ?  1  9 
+TAC  N4    .  N  0  ?  ?  ?  1  10
+TAC  C42   .  C  0  ?  ?  ?  1  11
+TAC  C43   .  C  0  ?  ?  ?  1  12
+TAC  C41   .  C  0  ?  ?  ?  1  13
+TAC  C5    .  C  0  ?  ?  ?  1  14
+TAC  C51   .  C  0  ?  ?  ?  1  15
+TAC  C6    .  C  0  ?  ?  ?  1  16
+TAC  C62   .  C  0  ?  ?  ?  1  17
+TAC  O6    .  O  0  ?  ?  ?  1  18
+TAC  C61   .  C  0  ?  ?  ?  1  19
+TAC  C7    .  C  0  ?  ?  ?  1  20
+TAC  C8    .  C  0  ?  ?  ?  1  21
+TAC  C9    .  C  0  ?  ?  ?  1  22
+TAC  C10   .  C  0  ?  ?  ?  1  23
+TAC  O10   .  O  0  ?  ?  ?  1  24
+TAC  C1A   .  C  0  ?  ?  ?  1  25
+TAC  C11   .  C  0  ?  ?  ?  1  26
+TAC  O11   .  O  0  ?  ?  ?  1  27
+TAC  C1B   .  C  0  ?  ?  ?  1  28
+TAC  C12   .  C  0  ?  ?  ?  1  29
+TAC  O12   .  O  0  ?  ?  ?  1  30
+TAC  C1C   .  C  0  ?  ?  ?  1  31
+TAC  O1C   .  O  0  ?  ?  ?  1  32
+TAC  1HN2  .  H  0  ?  ?  ?  0  33
+TAC  2HN2  .  H  0  ?  ?  ?  0  34
+TAC  HO3   .  H  0  ?  ?  ?  1  35
+TAC  H4    .  H  0  ?  ?  ?  1  36
+TAC  1H42  .  H  0  ?  ?  ?  0  37
+TAC  2H42  .  H  0  ?  ?  ?  0  38
+TAC  3H42  .  H  0  ?  ?  ?  0  39
+TAC  1H43  .  H  0  ?  ?  ?  0  40
+TAC  2H43  .  H  0  ?  ?  ?  0  41
+TAC  3H43  .  H  0  ?  ?  ?  0  42
+TAC  H41   .  H  0  ?  ?  ?  1  43
+TAC  1H5   .  H  0  ?  ?  ?  0  44
+TAC  2H5   .  H  0  ?  ?  ?  0  45
+TAC  H51   .  H  0  ?  ?  ?  1  46
+TAC  1H62  .  H  0  ?  ?  ?  0  47
+TAC  2H62  .  H  0  ?  ?  ?  0  48
+TAC  3H62  .  H  0  ?  ?  ?  0  49
+TAC  HO6   .  H  0  ?  ?  ?  1  50
+TAC  H7    .  H  0  ?  ?  ?  1  51
+TAC  H8    .  H  0  ?  ?  ?  1  52
+TAC  H9    .  H  0  ?  ?  ?  1  53
+TAC  HO1   .  H  0  ?  ?  ?  1  54
+TAC  HO2   .  H  0  ?  ?  ?  1  55
+TAC  HOC   .  H  0  ?  ?  ?  1  56
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TAC  C1   C2    SING  1 
+TAC  C1   C1C   SING  2 
+TAC  C1   O1    DOUB  3 
+TAC  C2   C3    DOUB  4 
+TAC  C2   C21   SING  5 
+TAC  C21  O21   DOUB  6 
+TAC  C21  N21   SING  7 
+TAC  N21  1HN2  SING  8 
+TAC  N21  2HN2  SING  9 
+TAC  C3   C4    SING  10
+TAC  C3   O3    SING  11
+TAC  O3   HO3   SING  12
+TAC  C4   C41   SING  13
+TAC  C4   N4    SING  14
+TAC  C4   H4    SING  15
+TAC  N4   C42   SING  16
+TAC  N4   C43   SING  17
+TAC  C42  1H42  SING  18
+TAC  C42  2H42  SING  19
+TAC  C42  3H42  SING  20
+TAC  C43  1H43  SING  21
+TAC  C43  2H43  SING  22
+TAC  C43  3H43  SING  23
+TAC  C41  C5    SING  24
+TAC  C41  C1C   SING  25
+TAC  C41  H41   SING  26
+TAC  C5   C51   SING  27
+TAC  C5   1H5   SING  28
+TAC  C5   2H5   SING  29
+TAC  C51  C6    SING  30
+TAC  C51  C1B   SING  31
+TAC  C51  H51   SING  32
+TAC  C6   C61   SING  33
+TAC  C6   C62   SING  34
+TAC  C6   O6    SING  35
+TAC  C62  1H62  SING  36
+TAC  C62  2H62  SING  37
+TAC  C62  3H62  SING  38
+TAC  O6   HO6   SING  39
+TAC  C61  C7    DOUB  40
+TAC  C61  C1A   SING  41
+TAC  C7   C8    SING  42
+TAC  C7   H7    SING  43
+TAC  C8   C9    DOUB  44
+TAC  C8   H8    SING  45
+TAC  C9   C10   SING  46
+TAC  C9   H9    SING  47
+TAC  C10  C1A   DOUB  48
+TAC  C10  O10   SING  49
+TAC  O10  HO1   SING  50
+TAC  C1A  C11   SING  51
+TAC  C11  C1B   SING  52
+TAC  C11  O11   DOUB  53
+TAC  C1B  C12   DOUB  54
+TAC  C12  C1C   SING  55
+TAC  C12  O12   SING  56
+TAC  O12  HO2   SING  57
+TAC  C1C  O1C   SING  58
+TAC  O1C  HOC   SING  59
+#

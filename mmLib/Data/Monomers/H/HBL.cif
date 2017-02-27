@@ -1,0 +1,92 @@
+data_HBL
+#
+_chem_comp.id                   HBL
+_chem_comp.name                 7,8-DIHYDRO-L-BIOPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N5 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        239.233
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HBL  N1    .  N  0  -15.733  11.410  29.601  1  1 
+HBL  C2    .  C  0  -14.445  11.759  29.811  1  2 
+HBL  N2    .  N  0  -13.956  11.981  31.059  1  3 
+HBL  N3    .  N  0  -13.562  11.861  28.760  1  4 
+HBL  C4    .  C  0  -13.914  11.574  27.483  1  5 
+HBL  O4    .  O  0  -13.079  11.589  26.537  1  6 
+HBL  C4A   .  C  0  -15.259  11.171  27.194  1  7 
+HBL  C8A   .  C  0  -16.143  11.129  28.327  1  8 
+HBL  N5    .  N  0  -15.646  10.741  25.931  1  9 
+HBL  N8    .  N  0  -17.449  10.799  28.098  1  10
+HBL  C6    .  C  0  -17.050  10.500  25.694  1  11
+HBL  C7    .  C  0  -17.969  10.877  26.799  1  12
+HBL  C8    .  C  0  -17.405  9.801   24.363  1  13
+HBL  O9    .  O  0  -18.286  8.673   24.664  1  14
+HBL  C9    .  C  0  -18.144  10.679  23.353  1  15
+HBL  C10   .  C  0  -17.368  11.953  23.099  1  16
+HBL  O10   .  O  0  -19.454  11.018  23.908  1  17
+HBL  1HN2  .  H  0  ?        ?       ?       0  18
+HBL  2HN2  .  H  0  ?        ?       ?       0  19
+HBL  HN3   .  H  0  ?        ?       ?       1  20
+HBL  HN8   .  H  0  ?        ?       ?       1  21
+HBL  1HC7  .  H  0  ?        ?       ?       0  22
+HBL  2HC7  .  H  0  ?        ?       ?       0  23
+HBL  HC8   .  H  0  ?        ?       ?       1  24
+HBL  HO9   .  H  0  ?        ?       ?       1  25
+HBL  HC9   .  H  0  ?        ?       ?       1  26
+HBL  1H10  .  H  0  ?        ?       ?       0  27
+HBL  2H10  .  H  0  ?        ?       ?       0  28
+HBL  3H10  .  H  0  ?        ?       ?       0  29
+HBL  OH10  .  H  0  ?        ?       ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HBL  N1   C2    DOUB  1 
+HBL  N1   C8A   SING  2 
+HBL  C2   N2    SING  3 
+HBL  C2   N3    SING  4 
+HBL  N2   1HN2  SING  5 
+HBL  N2   2HN2  SING  6 
+HBL  N3   C4    SING  7 
+HBL  N3   HN3   SING  8 
+HBL  C4   O4    DOUB  9 
+HBL  C4   C4A   SING  10
+HBL  C4A  C8A   DOUB  11
+HBL  C4A  N5    SING  12
+HBL  C8A  N8    SING  13
+HBL  N5   C6    DOUB  14
+HBL  N8   C7    SING  15
+HBL  N8   HN8   SING  16
+HBL  C6   C7    SING  17
+HBL  C6   C8    SING  18
+HBL  C7   1HC7  SING  19
+HBL  C7   2HC7  SING  20
+HBL  C8   O9    SING  21
+HBL  C8   C9    SING  22
+HBL  C8   HC8   SING  23
+HBL  O9   HO9   SING  24
+HBL  C9   C10   SING  25
+HBL  C9   O10   SING  26
+HBL  C9   HC9   SING  27
+HBL  C10  1H10  SING  28
+HBL  C10  2H10  SING  29
+HBL  C10  3H10  SING  30
+HBL  O10  OH10  SING  31
+#

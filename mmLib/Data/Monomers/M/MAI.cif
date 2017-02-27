@@ -1,0 +1,91 @@
+data_MAI
+#
+_chem_comp.id                       MAI
+_chem_comp.name                     DEOXO-METHYLARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H18 N4 O1'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.245
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAI  N     .  N  0  ?  ?  ?  1  1 
+MAI  CA    .  C  0  ?  ?  ?  1  2 
+MAI  CF    .  C  0  ?  ?  ?  1  3 
+MAI  CJ    .  C  0  ?  ?  ?  1  4 
+MAI  CB    .  C  0  ?  ?  ?  1  5 
+MAI  CG    .  C  0  ?  ?  ?  1  6 
+MAI  CD    .  C  0  ?  ?  ?  1  7 
+MAI  NE    .  N  0  ?  ?  ?  1  8 
+MAI  CZ    .  C  0  ?  ?  ?  1  9 
+MAI  NH1   .  N  0  ?  ?  ?  1  10
+MAI  NH2   .  N  0  ?  ?  ?  1  11
+MAI  OH    .  O  0  ?  ?  ?  1  12
+MAI  1HN   .  H  0  ?  ?  ?  0  13
+MAI  2HN   .  H  0  ?  ?  ?  0  14
+MAI  HA    .  H  0  ?  ?  ?  1  15
+MAI  HF    .  H  0  ?  ?  ?  1  16
+MAI  1HJ   .  H  0  ?  ?  ?  0  17
+MAI  2HJ   .  H  0  ?  ?  ?  0  18
+MAI  3HJ   .  H  0  ?  ?  ?  0  19
+MAI  1HB   .  H  0  ?  ?  ?  0  20
+MAI  2HB   .  H  0  ?  ?  ?  0  21
+MAI  1HG   .  H  0  ?  ?  ?  0  22
+MAI  2HG   .  H  0  ?  ?  ?  0  23
+MAI  1HD   .  H  0  ?  ?  ?  0  24
+MAI  2HD   .  H  0  ?  ?  ?  0  25
+MAI  HNE   .  H  0  ?  ?  ?  1  26
+MAI  HN1   .  H  0  ?  ?  ?  1  27
+MAI  1HN2  .  H  0  ?  ?  ?  0  28
+MAI  2HN2  .  H  0  ?  ?  ?  0  29
+MAI  HO    .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAI  N    CA    SING  1 
+MAI  N    1HN   SING  2 
+MAI  N    2HN   SING  3 
+MAI  CA   CB    SING  4 
+MAI  CA   CF    SING  5 
+MAI  CA   HA    SING  6 
+MAI  CF   CJ    SING  7 
+MAI  CF   OH    SING  8 
+MAI  CF   HF    SING  9 
+MAI  CJ   1HJ   SING  10
+MAI  CJ   2HJ   SING  11
+MAI  CJ   3HJ   SING  12
+MAI  CB   CG    SING  13
+MAI  CB   1HB   SING  14
+MAI  CB   2HB   SING  15
+MAI  CG   CD    SING  16
+MAI  CG   1HG   SING  17
+MAI  CG   2HG   SING  18
+MAI  CD   NE    SING  19
+MAI  CD   1HD   SING  20
+MAI  CD   2HD   SING  21
+MAI  NE   CZ    SING  22
+MAI  NE   HNE   SING  23
+MAI  CZ   NH1   DOUB  24
+MAI  CZ   NH2   SING  25
+MAI  NH1  HN1   SING  26
+MAI  NH2  1HN2  SING  27
+MAI  NH2  2HN2  SING  28
+MAI  OH   HO    SING  29
+#

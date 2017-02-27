@@ -1,0 +1,58 @@
+data_2BR
+#
+_chem_comp.id                   2BR
+_chem_comp.name                 2-BROMOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O1 BR1'
+_chem_comp.pdbx_synonyms        BROMOPHENOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        173.009
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2BR  C13  .  C   0  1.614  20.117  10.613  1  1 
+2BR  C14  .  C   0  1.757  21.154  11.580  1  2 
+2BR  C15  .  C   0  1.729  20.857  12.957  1  3 
+2BR  C16  .  C   0  1.556  19.567  13.412  1  4 
+2BR  C17  .  C   0  1.408  18.519  12.456  1  5 
+2BR  C18  .  C   0  1.439  18.796  11.092  1  6 
+2BR  O3   .  O   0  1.550  19.299  14.811  1  7 
+2BR  BR1  .  BR  0  2.078  22.132  14.218  0  8 
+2BR  HO3  .  H   0  ?      ?       ?       1  9 
+2BR  H17  .  H   0  ?      ?       ?       1  10
+2BR  H18  .  H   0  ?      ?       ?       1  11
+2BR  H13  .  H   0  ?      ?       ?       1  12
+2BR  H14  .  H   0  ?      ?       ?       1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2BR  C13  C18  AROM  1 
+2BR  C13  C14  AROM  2 
+2BR  C13  H13  SING  3 
+2BR  C14  C15  AROM  4 
+2BR  C14  H14  SING  5 
+2BR  C15  C16  AROM  6 
+2BR  C15  BR1  SING  7 
+2BR  C16  O3   SING  8 
+2BR  C16  C17  AROM  9 
+2BR  C17  C18  AROM  10
+2BR  C17  H17  SING  11
+2BR  C18  H18  SING  12
+2BR  O3   HO3  SING  13
+#

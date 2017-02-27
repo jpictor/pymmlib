@@ -1,0 +1,99 @@
+data_HPR
+#
+_chem_comp.id                   HPR
+_chem_comp.name                 '6-HYDROXY-7,8-DIHYDRO PURINE NUCLEOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPR  N1    .  N  0  ?  ?  ?  1  1 
+HPR  C2    .  C  0  ?  ?  ?  1  2 
+HPR  N3    .  N  0  ?  ?  ?  1  3 
+HPR  C4    .  C  0  ?  ?  ?  1  4 
+HPR  C5    .  C  0  ?  ?  ?  1  5 
+HPR  C6    .  C  0  ?  ?  ?  1  6 
+HPR  O6    .  O  0  ?  ?  ?  1  7 
+HPR  N7    .  N  0  ?  ?  ?  1  8 
+HPR  C8    .  C  0  ?  ?  ?  1  9 
+HPR  N9    .  N  0  ?  ?  ?  1  10
+HPR  C1*   .  C  0  ?  ?  ?  1  11
+HPR  C2*   .  C  0  ?  ?  ?  1  12
+HPR  O2*   .  O  0  ?  ?  ?  1  13
+HPR  C3*   .  C  0  ?  ?  ?  1  14
+HPR  O3*   .  O  0  ?  ?  ?  1  15
+HPR  C4*   .  C  0  ?  ?  ?  1  16
+HPR  O4*   .  O  0  ?  ?  ?  1  17
+HPR  C5*   .  C  0  ?  ?  ?  1  18
+HPR  O5*   .  O  0  ?  ?  ?  1  19
+HPR  H2    .  H  0  ?  ?  ?  1  20
+HPR  HO6   .  H  0  ?  ?  ?  1  21
+HPR  HN7   .  H  0  ?  ?  ?  1  22
+HPR  1H8   .  H  0  ?  ?  ?  0  23
+HPR  2H8   .  H  0  ?  ?  ?  0  24
+HPR  H1*   .  H  0  ?  ?  ?  1  25
+HPR  H2*   .  H  0  ?  ?  ?  1  26
+HPR  *HO2  .  H  0  ?  ?  ?  0  27
+HPR  H3*   .  H  0  ?  ?  ?  1  28
+HPR  *HO3  .  H  0  ?  ?  ?  0  29
+HPR  H4*   .  H  0  ?  ?  ?  1  30
+HPR  1H5*  .  H  0  ?  ?  ?  0  31
+HPR  2H5*  .  H  0  ?  ?  ?  0  32
+HPR  *HO5  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPR  N1   C2    DOUB  1 
+HPR  N1   C6    SING  2 
+HPR  C2   N3    SING  3 
+HPR  C2   H2    SING  4 
+HPR  N3   C4    DOUB  5 
+HPR  C4   C5    SING  6 
+HPR  C4   N9    SING  7 
+HPR  C5   C6    DOUB  8 
+HPR  C5   N7    SING  9 
+HPR  C6   O6    SING  10
+HPR  O6   HO6   SING  11
+HPR  N7   C8    SING  12
+HPR  N7   HN7   SING  13
+HPR  C8   N9    SING  14
+HPR  C8   1H8   SING  15
+HPR  C8   2H8   SING  16
+HPR  N9   C1*   SING  17
+HPR  C1*  C2*   SING  18
+HPR  C1*  O4*   SING  19
+HPR  C1*  H1*   SING  20
+HPR  C2*  C3*   SING  21
+HPR  C2*  O2*   SING  22
+HPR  C2*  H2*   SING  23
+HPR  O2*  *HO2  SING  24
+HPR  C3*  C4*   SING  25
+HPR  C3*  O3*   SING  26
+HPR  C3*  H3*   SING  27
+HPR  O3*  *HO3  SING  28
+HPR  C4*  C5*   SING  29
+HPR  C4*  O4*   SING  30
+HPR  C4*  H4*   SING  31
+HPR  C5*  O5*   SING  32
+HPR  C5*  1H5*  SING  33
+HPR  C5*  2H5*  SING  34
+HPR  O5*  *HO5  SING  35
+#

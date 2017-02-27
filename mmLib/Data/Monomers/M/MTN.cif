@@ -1,0 +1,89 @@
+data_MTN
+#
+_chem_comp.id                   MTN
+_chem_comp.name                 2,2,5,5-TETRAMETHYL-3-(SULFANYLMETHYL)-2,5-DIHYDRO-1H-PYRROL-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N1 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.299
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTN  O1   .  O  0  ?  ?  ?  1  1 
+MTN  N1   .  N  0  ?  ?  ?  1  2 
+MTN  C1   .  C  0  ?  ?  ?  1  3 
+MTN  C2   .  C  0  ?  ?  ?  1  4 
+MTN  C3   .  C  0  ?  ?  ?  1  5 
+MTN  C4   .  C  0  ?  ?  ?  1  6 
+MTN  S1   .  S  0  ?  ?  ?  1  7 
+MTN  C5   .  C  0  ?  ?  ?  1  8 
+MTN  C6   .  C  0  ?  ?  ?  1  9 
+MTN  C7   .  C  0  ?  ?  ?  1  10
+MTN  C8   .  C  0  ?  ?  ?  1  11
+MTN  C9   .  C  0  ?  ?  ?  1  12
+MTN  HO1  .  H  0  ?  ?  ?  1  13
+MTN  H2   .  H  0  ?  ?  ?  1  14
+MTN  1H4  .  H  0  ?  ?  ?  0  15
+MTN  2H4  .  H  0  ?  ?  ?  0  16
+MTN  HS1  .  H  0  ?  ?  ?  1  17
+MTN  1H6  .  H  0  ?  ?  ?  0  18
+MTN  2H6  .  H  0  ?  ?  ?  0  19
+MTN  3H6  .  H  0  ?  ?  ?  0  20
+MTN  1H7  .  H  0  ?  ?  ?  0  21
+MTN  2H7  .  H  0  ?  ?  ?  0  22
+MTN  3H7  .  H  0  ?  ?  ?  0  23
+MTN  1H8  .  H  0  ?  ?  ?  0  24
+MTN  2H8  .  H  0  ?  ?  ?  0  25
+MTN  3H8  .  H  0  ?  ?  ?  0  26
+MTN  1H9  .  H  0  ?  ?  ?  0  27
+MTN  2H9  .  H  0  ?  ?  ?  0  28
+MTN  3H9  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTN  O1  HO1  SING  1 
+MTN  O1  N1   SING  2 
+MTN  N1  C1   SING  3 
+MTN  N1  C5   SING  4 
+MTN  C1  C2   SING  5 
+MTN  C1  C8   SING  6 
+MTN  C1  C9   SING  7 
+MTN  C2  H2   SING  8 
+MTN  C2  C3   DOUB  9 
+MTN  C3  C4   SING  10
+MTN  C3  C5   SING  11
+MTN  C4  1H4  SING  12
+MTN  C4  2H4  SING  13
+MTN  C4  S1   SING  14
+MTN  S1  HS1  SING  15
+MTN  C5  C6   SING  16
+MTN  C5  C7   SING  17
+MTN  C6  1H6  SING  18
+MTN  C6  2H6  SING  19
+MTN  C6  3H6  SING  20
+MTN  C7  1H7  SING  21
+MTN  C7  2H7  SING  22
+MTN  C7  3H7  SING  23
+MTN  C8  1H8  SING  24
+MTN  C8  2H8  SING  25
+MTN  C8  3H8  SING  26
+MTN  C9  1H9  SING  27
+MTN  C9  2H9  SING  28
+MTN  C9  3H9  SING  29
+#

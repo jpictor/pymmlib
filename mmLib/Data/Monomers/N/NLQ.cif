@@ -1,0 +1,82 @@
+data_NLQ
+#
+_chem_comp.id                       NLQ
+_chem_comp.name                     N~2~-ACETYL-L-GLUTAMINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H12 N2 O4'
+_chem_comp.pdbx_synonyms            N-ACETYL-L-GLUTAMINE
+_chem_comp.mon_nstd_parent_comp_id  GLN
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            188.183
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NLQ  O     .  O  0  60.549  27.268  32.460  1  1 
+NLQ  C     .  C  0  60.562  26.461  31.492  1  2 
+NLQ  OXT   .  O  0  60.717  26.802  30.294  1  3 
+NLQ  CA    .  C  0  60.435  24.991  31.786  1  4 
+NLQ  N     .  N  0  59.581  24.228  30.862  1  5 
+NLQ  C6    .  C  0  58.496  24.824  30.109  1  6 
+NLQ  O4    .  O  0  57.572  25.358  31.033  1  7 
+NLQ  C7    .  C  0  57.818  23.789  29.225  1  8 
+NLQ  CB    .  C  0  61.868  24.468  31.717  1  9 
+NLQ  CG    .  C  0  62.595  24.386  33.051  1  10
+NLQ  CD    .  C  0  62.744  22.907  33.366  1  11
+NLQ  NE2   .  N  0  61.462  22.390  32.944  1  12
+NLQ  OE1   .  O  0  63.790  22.288  32.625  1  13
+NLQ  HO    .  H  0  ?       ?       ?       1  14
+NLQ  HA    .  H  0  ?       ?       ?       1  15
+NLQ  HN    .  H  0  ?       ?       ?       1  16
+NLQ  1H7   .  H  0  ?       ?       ?       0  17
+NLQ  2H7   .  H  0  ?       ?       ?       0  18
+NLQ  3H7   .  H  0  ?       ?       ?       0  19
+NLQ  1HB   .  H  0  ?       ?       ?       0  20
+NLQ  2HB   .  H  0  ?       ?       ?       0  21
+NLQ  1HG   .  H  0  ?       ?       ?       0  22
+NLQ  2HG   .  H  0  ?       ?       ?       0  23
+NLQ  1HE2  .  H  0  ?       ?       ?       0  24
+NLQ  2HE2  .  H  0  ?       ?       ?       0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NLQ  O    HO    SING  1 
+NLQ  O    C     SING  2 
+NLQ  C    OXT   DOUB  3 
+NLQ  C    CA    SING  4 
+NLQ  CA   HA    SING  5 
+NLQ  CA   N     SING  6 
+NLQ  CA   CB    SING  7 
+NLQ  N    HN    SING  8 
+NLQ  N    C6    SING  9 
+NLQ  C6   O4    DOUB  10
+NLQ  C6   C7    SING  11
+NLQ  C7   1H7   SING  12
+NLQ  C7   2H7   SING  13
+NLQ  C7   3H7   SING  14
+NLQ  CB   1HB   SING  15
+NLQ  CB   2HB   SING  16
+NLQ  CB   CG    SING  17
+NLQ  CG   1HG   SING  18
+NLQ  CG   2HG   SING  19
+NLQ  CG   CD    SING  20
+NLQ  CD   OE1   DOUB  21
+NLQ  CD   NE2   SING  22
+NLQ  NE2  1HE2  SING  23
+NLQ  NE2  2HE2  SING  24
+#

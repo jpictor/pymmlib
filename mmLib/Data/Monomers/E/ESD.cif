@@ -1,0 +1,64 @@
+data_ESD
+#
+_chem_comp.id                   ESD
+_chem_comp.name                 '(2-AMINO-ETHYLSULFANYL)-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.181
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ESD  N    .  N  0  ?  ?  ?  1  1 
+ESD  CG   .  C  0  ?  ?  ?  1  2 
+ESD  SB   .  S  0  ?  ?  ?  1  3 
+ESD  CD   .  C  0  ?  ?  ?  1  4 
+ESD  CA   .  C  0  ?  ?  ?  1  5 
+ESD  C    .  C  0  ?  ?  ?  1  6 
+ESD  O    .  O  0  ?  ?  ?  1  7 
+ESD  OXT  .  O  0  ?  ?  ?  1  8 
+ESD  H    .  H  0  ?  ?  ?  1  9 
+ESD  HN2  .  H  0  ?  ?  ?  1  10
+ESD  1HG  .  H  0  ?  ?  ?  0  11
+ESD  2HG  .  H  0  ?  ?  ?  0  12
+ESD  2HD  .  H  0  ?  ?  ?  0  13
+ESD  1HD  .  H  0  ?  ?  ?  0  14
+ESD  2HA  .  H  0  ?  ?  ?  0  15
+ESD  1HA  .  H  0  ?  ?  ?  0  16
+ESD  HXT  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ESD  N    H    SING  1 
+ESD  N    HN2  SING  2 
+ESD  N    CD   SING  3 
+ESD  CG   1HG  SING  4 
+ESD  CG   2HG  SING  5 
+ESD  CG   SB   SING  6 
+ESD  CG   CD   SING  7 
+ESD  SB   CA   SING  8 
+ESD  CD   2HD  SING  9 
+ESD  CD   1HD  SING  10
+ESD  CA   2HA  SING  11
+ESD  CA   1HA  SING  12
+ESD  CA   C    SING  13
+ESD  C    O    DOUB  14
+ESD  C    OXT  SING  15
+ESD  OXT  HXT  SING  16
+#

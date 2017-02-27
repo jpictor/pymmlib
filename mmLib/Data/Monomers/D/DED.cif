@@ -1,0 +1,84 @@
+data_DED
+#
+_chem_comp.id                   DED
+_chem_comp.name                 2-DIMETHYLAMINO-ETHYL-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H13 N1 O7 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.097
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DED  O1    .  O  0  11.084  2.494  10.328  1  1 
+DED  O2    .  O  0  10.723  2.289  12.621  1  2 
+DED  O3    .  O  0  8.857   2.093  11.106  1  3 
+DED  P4    .  P  0  10.196  2.764  11.282  1  4 
+DED  O5    .  O  0  9.923   4.267  11.444  1  5 
+DED  O6    .  O  0  11.608  5.916  11.815  1  6 
+DED  O7    .  O  0  11.547  3.889  13.184  1  7 
+DED  P8    .  P  0  10.844  4.996  12.435  1  8 
+DED  O9    .  O  0  9.930   5.696  13.422  1  9 
+DED  C10   .  C  0  9.793   7.097  13.188  1  10
+DED  C11   .  C  0  8.641   7.654  14.059  1  11
+DED  N12   .  N  0  8.885   9.093  14.248  1  12
+DED  C13   .  C  0  9.149   9.388  15.660  1  13
+DED  C14   .  C  0  10.047  9.456  13.413  1  14
+DED  1H13  .  H  0  ?       ?      ?       0  15
+DED  2H13  .  H  0  ?       ?      ?       0  16
+DED  3H13  .  H  0  ?       ?      ?       0  17
+DED  1H14  .  H  0  ?       ?      ?       0  18
+DED  2H14  .  H  0  ?       ?      ?       0  19
+DED  3H14  .  H  0  ?       ?      ?       0  20
+DED  1H11  .  H  0  ?       ?      ?       0  21
+DED  2H11  .  H  0  ?       ?      ?       0  22
+DED  1H10  .  H  0  ?       ?      ?       0  23
+DED  2H10  .  H  0  ?       ?      ?       0  24
+DED  HO7   .  H  0  ?       ?      ?       1  25
+DED  HO3   .  H  0  ?       ?      ?       1  26
+DED  HO1   .  H  0  ?       ?      ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DED  O1   P4    SING  1 
+DED  O1   HO1   SING  2 
+DED  O2   P4    DOUB  3 
+DED  O3   P4    SING  4 
+DED  O3   HO3   SING  5 
+DED  P4   O5    SING  6 
+DED  O5   P8    SING  7 
+DED  O6   P8    DOUB  8 
+DED  O7   P8    SING  9 
+DED  O7   HO7   SING  10
+DED  P8   O9    SING  11
+DED  O9   C10   SING  12
+DED  C10  C11   SING  13
+DED  C10  1H10  SING  14
+DED  C10  2H10  SING  15
+DED  C11  N12   SING  16
+DED  C11  1H11  SING  17
+DED  C11  2H11  SING  18
+DED  N12  C13   SING  19
+DED  N12  C14   SING  20
+DED  C13  1H13  SING  21
+DED  C13  2H13  SING  22
+DED  C13  3H13  SING  23
+DED  C14  1H14  SING  24
+DED  C14  2H14  SING  25
+DED  C14  3H14  SING  26
+#

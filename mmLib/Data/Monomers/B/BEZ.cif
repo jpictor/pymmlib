@@ -1,0 +1,61 @@
+data_BEZ
+#
+_chem_comp.id                   BEZ
+_chem_comp.name                 'BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        122.123
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BEZ  C    .  C  0  ?  ?  ?  1  1 
+BEZ  O1   .  O  0  ?  ?  ?  1  2 
+BEZ  O2   .  O  0  ?  ?  ?  1  3 
+BEZ  C1   .  C  0  ?  ?  ?  1  4 
+BEZ  C2   .  C  0  ?  ?  ?  1  5 
+BEZ  C3   .  C  0  ?  ?  ?  1  6 
+BEZ  C4   .  C  0  ?  ?  ?  1  7 
+BEZ  C5   .  C  0  ?  ?  ?  1  8 
+BEZ  C6   .  C  0  ?  ?  ?  1  9 
+BEZ  HO2  .  H  0  ?  ?  ?  1  10
+BEZ  H2   .  H  0  ?  ?  ?  1  11
+BEZ  H3   .  H  0  ?  ?  ?  1  12
+BEZ  H4   .  H  0  ?  ?  ?  1  13
+BEZ  H5   .  H  0  ?  ?  ?  1  14
+BEZ  H6   .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BEZ  C   O1   DOUB  1 
+BEZ  C   O2   SING  2 
+BEZ  C   C1   SING  3 
+BEZ  O2  HO2  SING  4 
+BEZ  C1  C2   DOUB  5 
+BEZ  C1  C6   SING  6 
+BEZ  C2  C3   SING  7 
+BEZ  C2  H2   SING  8 
+BEZ  C3  C4   DOUB  9 
+BEZ  C3  H3   SING  10
+BEZ  C4  C5   SING  11
+BEZ  C4  H4   SING  12
+BEZ  C5  C6   DOUB  13
+BEZ  C5  H5   SING  14
+BEZ  C6  H6   SING  15
+#

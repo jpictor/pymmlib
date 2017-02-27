@@ -1,0 +1,117 @@
+data_CRF
+#
+_chem_comp.id                   CRF
+_chem_comp.name                 [2-(1-AMINO-2-HYDROXY-PROPYL)-4-(1H-INDOL-3-YLMETHYLENE)-5-OXO-4,5-DIHYDRO-IMIDAZOL-1-YL]-ACETALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H18 N4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.354
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRF  N1    .  N  0  24.650  27.297  34.017  1  1 
+CRF  CA1   .  C  0  25.500  26.252  34.558  1  2 
+CRF  CB1   .  C  0  26.615  25.927  33.563  1  3 
+CRF  CG1   .  C  0  26.076  25.159  32.381  1  4 
+CRF  OG1   .  O  0  27.141  27.149  33.131  1  5 
+CRF  C1    .  C  0  26.199  26.852  35.732  1  6 
+CRF  N2    .  N  0  27.394  27.458  35.687  1  7 
+CRF  N3    .  N  0  25.665  26.719  37.030  1  8 
+CRF  C2    .  C  0  26.633  27.297  37.878  1  9 
+CRF  O2    .  O  0  26.375  27.715  39.019  1  10
+CRF  CA2   .  C  0  27.740  27.763  37.016  1  11
+CRF  CA3   .  C  0  24.312  26.509  37.353  1  12
+CRF  C3    .  C  0  24.152  25.139  37.961  1  13
+CRF  O3    .  O  0  23.307  24.921  38.832  1  14
+CRF  CB2   .  C  0  28.723  28.576  37.475  1  15
+CRF  CG2   .  C  0  29.925  28.689  36.819  1  16
+CRF  CD1   .  C  0  30.137  28.670  35.471  1  17
+CRF  CD2   .  C  0  31.071  29.317  37.404  1  18
+CRF  CE2   .  C  0  31.917  29.680  36.357  1  19
+CRF  NE1   .  N  0  31.343  29.257  35.177  1  20
+CRF  CE3   .  C  0  31.427  29.639  38.726  1  21
+CRF  CZ2   .  C  0  33.091  30.332  36.653  1  22
+CRF  CZ3   .  C  0  32.608  30.290  39.018  1  23
+CRF  CH2   .  C  0  33.422  30.624  37.969  1  24
+CRF  H3    .  H  0  ?       ?       ?       1  25
+CRF  1HA3  .  H  0  ?       ?       ?       0  26
+CRF  2HA3  .  H  0  ?       ?       ?       0  27
+CRF  HA1   .  H  0  ?       ?       ?       1  28
+CRF  1HN1  .  H  0  ?       ?       ?       0  29
+CRF  2HN1  .  H  0  ?       ?       ?       0  30
+CRF  1HG1  .  H  0  ?       ?       ?       0  31
+CRF  2HG1  .  H  0  ?       ?       ?       0  32
+CRF  3HG1  .  H  0  ?       ?       ?       0  33
+CRF  HOG   .  H  0  ?       ?       ?       1  34
+CRF  HB2   .  H  0  ?       ?       ?       1  35
+CRF  HD1   .  H  0  ?       ?       ?       1  36
+CRF  HE1   .  H  0  ?       ?       ?       1  37
+CRF  HE3   .  H  0  ?       ?       ?       1  38
+CRF  HZ2   .  H  0  ?       ?       ?       1  39
+CRF  HZ3   .  H  0  ?       ?       ?       1  40
+CRF  HH2   .  H  0  ?       ?       ?       1  41
+CRF  HB1   .  H  0  ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRF  N1   CA1   SING  1 
+CRF  N1   1HN1  SING  2 
+CRF  N1   2HN1  SING  3 
+CRF  CA1  CB1   SING  4 
+CRF  CA1  C1    SING  5 
+CRF  CA1  HA1   SING  6 
+CRF  CB1  CG1   SING  7 
+CRF  CB1  OG1   SING  8 
+CRF  CB1  HB1   SING  9 
+CRF  CG1  1HG1  SING  10
+CRF  CG1  2HG1  SING  11
+CRF  CG1  3HG1  SING  12
+CRF  OG1  HOG   SING  13
+CRF  C1   N2    DOUB  14
+CRF  C1   N3    SING  15
+CRF  N2   CA2   SING  16
+CRF  N3   C2    SING  17
+CRF  N3   CA3   SING  18
+CRF  C2   O2    DOUB  19
+CRF  C2   CA2   SING  20
+CRF  CA2  CB2   DOUB  21
+CRF  CA3  C3    SING  22
+CRF  CA3  1HA3  SING  23
+CRF  CA3  2HA3  SING  24
+CRF  C3   O3    DOUB  25
+CRF  C3   H3    SING  26
+CRF  CB2  CG2   SING  27
+CRF  CB2  HB2   SING  28
+CRF  CG2  CD1   DOUB  29
+CRF  CG2  CD2   SING  30
+CRF  CD1  NE1   SING  31
+CRF  CD1  HD1   SING  32
+CRF  CD2  CE2   DOUB  33
+CRF  CD2  CE3   SING  34
+CRF  CE2  NE1   SING  35
+CRF  CE2  CZ2   SING  36
+CRF  NE1  HE1   SING  37
+CRF  CE3  CZ3   DOUB  38
+CRF  CE3  HE3   SING  39
+CRF  CZ2  CH2   DOUB  40
+CRF  CZ2  HZ2   SING  41
+CRF  CZ3  CH2   SING  42
+CRF  CZ3  HZ3   SING  43
+CRF  CH2  HH2   SING  44
+#

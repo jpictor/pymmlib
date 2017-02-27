@@ -1,0 +1,84 @@
+data_ZOL
+#
+_chem_comp.id                   ZOL
+_chem_comp.name                 'ZOLEDRONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 N2 O7 P2'
+_chem_comp.pdbx_synonyms        '(1-HYDROXY-2-IMIDAZOL-1-YLETHYLIDENE)DIPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        272.091
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZOL  O17  .  O  0  17.348  33.943  -8.860   1  1 
+ZOL  P14  .  P  0  16.144  34.196  -9.661   1  2 
+ZOL  O16  .  O  0  16.021  33.019  -10.636  1  3 
+ZOL  O15  .  O  0  16.043  35.546  -10.342  1  4 
+ZOL  C8   .  C  0  14.954  34.290  -8.276   1  5 
+ZOL  P9   .  P  0  15.358  35.693  -7.182   1  6 
+ZOL  O10  .  O  0  14.465  35.689  -5.968   1  7 
+ZOL  O11  .  O  0  16.834  35.612  -6.737   1  8 
+ZOL  O12  .  O  0  15.042  36.909  -7.943   1  9 
+ZOL  O13  .  O  0  13.641  34.500  -8.787   1  10
+ZOL  C7   .  C  0  14.921  33.043  -7.335   1  11
+ZOL  N15  .  N  0  14.591  31.764  -7.984   1  12
+ZOL  C16  .  C  0  13.713  31.557  -8.978   1  13
+ZOL  N17  .  N  0  13.718  30.255  -9.293   1  14
+ZOL  C18  .  C  0  14.570  29.633  -8.459   1  15
+ZOL  C19  .  C  0  15.124  30.585  -7.644   1  16
+ZOL  H13  .  H  0  ?       ?       ?        1  17
+ZOL  1H7  .  H  0  ?       ?       ?        0  18
+ZOL  2H7  .  H  0  ?       ?       ?        0  19
+ZOL  H19  .  H  0  ?       ?       ?        1  20
+ZOL  H18  .  H  0  ?       ?       ?        1  21
+ZOL  H16  .  H  0  ?       ?       ?        1  22
+ZOL  H17  .  H  0  ?       ?       ?        1  23
+ZOL  H1   .  H  0  ?       ?       ?        1  24
+ZOL  H10  .  H  0  ?       ?       ?        1  25
+ZOL  H11  .  H  0  ?       ?       ?        1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZOL  O17  P14  SING  1 
+ZOL  O17  H17  SING  2 
+ZOL  P14  C8   SING  3 
+ZOL  P14  O16  SING  4 
+ZOL  P14  O15  DOUB  5 
+ZOL  O16  H1   SING  6 
+ZOL  C8   O13  SING  7 
+ZOL  C8   C7   SING  8 
+ZOL  C8   P9   SING  9 
+ZOL  P9   O10  SING  10
+ZOL  P9   O11  SING  11
+ZOL  P9   O12  DOUB  12
+ZOL  O10  H10  SING  13
+ZOL  O11  H11  SING  14
+ZOL  O13  H13  SING  15
+ZOL  C7   N15  SING  16
+ZOL  C7   1H7  SING  17
+ZOL  C7   2H7  SING  18
+ZOL  N15  C19  SING  19
+ZOL  N15  C16  SING  20
+ZOL  C16  N17  DOUB  21
+ZOL  C16  H16  SING  22
+ZOL  N17  C18  SING  23
+ZOL  C18  C19  DOUB  24
+ZOL  C18  H18  SING  25
+ZOL  C19  H19  SING  26
+#

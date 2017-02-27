@@ -1,0 +1,62 @@
+data_EMB
+#
+_chem_comp.id                   EMB
+_chem_comp.name                 'METHYL-CARBAMIC ACID ETHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        103.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EMB  C1   .  C  0  ?  ?  ?  1  1 
+EMB  C2   .  C  0  ?  ?  ?  1  2 
+EMB  O1   .  O  0  ?  ?  ?  1  3 
+EMB  C3   .  C  0  ?  ?  ?  1  4 
+EMB  O2   .  O  0  ?  ?  ?  1  5 
+EMB  N1   .  N  0  ?  ?  ?  1  6 
+EMB  C4   .  C  0  ?  ?  ?  1  7 
+EMB  3H1  .  H  0  ?  ?  ?  0  8 
+EMB  2H1  .  H  0  ?  ?  ?  0  9 
+EMB  1H1  .  H  0  ?  ?  ?  0  10
+EMB  2H2  .  H  0  ?  ?  ?  0  11
+EMB  1H2  .  H  0  ?  ?  ?  0  12
+EMB  H1   .  H  0  ?  ?  ?  1  13
+EMB  3H4  .  H  0  ?  ?  ?  0  14
+EMB  2H4  .  H  0  ?  ?  ?  0  15
+EMB  1H4  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EMB  C1  C2   SING  1 
+EMB  C1  3H1  SING  2 
+EMB  C1  2H1  SING  3 
+EMB  C1  1H1  SING  4 
+EMB  C2  O1   SING  5 
+EMB  C2  2H2  SING  6 
+EMB  C2  1H2  SING  7 
+EMB  O1  C3   SING  8 
+EMB  C3  O2   DOUB  9 
+EMB  C3  N1   SING  10
+EMB  N1  C4   SING  11
+EMB  N1  H1   SING  12
+EMB  C4  3H4  SING  13
+EMB  C4  2H4  SING  14
+EMB  C4  1H4  SING  15
+#

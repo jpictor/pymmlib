@@ -1,0 +1,102 @@
+data_PLG
+#
+_chem_comp.id                   PLG
+_chem_comp.name                 N-GLYCINE-[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YL-METHANE]
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N2 O7 P1'
+_chem_comp.pdbx_synonyms        N-PYRIDOXYL-GLYCINE-5-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        306.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLG  N1    .  N  0  ?  ?  ?  1  1 
+PLG  C2    .  C  0  ?  ?  ?  1  2 
+PLG  C2A   .  C  0  ?  ?  ?  1  3 
+PLG  C3    .  C  0  ?  ?  ?  1  4 
+PLG  O3    .  O  0  ?  ?  ?  1  5 
+PLG  C4    .  C  0  ?  ?  ?  1  6 
+PLG  C4A   .  C  0  ?  ?  ?  1  7 
+PLG  C5    .  C  0  ?  ?  ?  1  8 
+PLG  C6    .  C  0  ?  ?  ?  1  9 
+PLG  C5A   .  C  0  ?  ?  ?  1  10
+PLG  OP4   .  O  0  ?  ?  ?  1  11
+PLG  P     .  P  0  ?  ?  ?  1  12
+PLG  OP1   .  O  0  ?  ?  ?  1  13
+PLG  OP2   .  O  0  ?  ?  ?  1  14
+PLG  OP3   .  O  0  ?  ?  ?  1  15
+PLG  C     .  C  0  ?  ?  ?  1  16
+PLG  O     .  O  0  ?  ?  ?  1  17
+PLG  OXT   .  O  0  ?  ?  ?  1  18
+PLG  CA    .  C  0  ?  ?  ?  1  19
+PLG  N     .  N  0  ?  ?  ?  1  20
+PLG  HXT   .  H  0  ?  ?  ?  1  21
+PLG  HA2   .  H  0  ?  ?  ?  1  22
+PLG  HA1   .  H  0  ?  ?  ?  1  23
+PLG  H     .  H  0  ?  ?  ?  1  24
+PLG  1H4A  .  H  0  ?  ?  ?  0  25
+PLG  2H4A  .  H  0  ?  ?  ?  0  26
+PLG  HO3   .  H  0  ?  ?  ?  1  27
+PLG  1H2A  .  H  0  ?  ?  ?  0  28
+PLG  2H2A  .  H  0  ?  ?  ?  0  29
+PLG  3H2A  .  H  0  ?  ?  ?  0  30
+PLG  1H5A  .  H  0  ?  ?  ?  0  31
+PLG  2H5A  .  H  0  ?  ?  ?  0  32
+PLG  H6    .  H  0  ?  ?  ?  1  33
+PLG  2HOP  .  H  0  ?  ?  ?  0  34
+PLG  3HOP  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLG  N1   C2    DOUB  1 
+PLG  N1   C6    SING  2 
+PLG  C2   C2A   SING  3 
+PLG  C2   C3    SING  4 
+PLG  C2A  1H2A  SING  5 
+PLG  C2A  2H2A  SING  6 
+PLG  C2A  3H2A  SING  7 
+PLG  C3   O3    SING  8 
+PLG  C3   C4    DOUB  9 
+PLG  O3   HO3   SING  10
+PLG  C4   C4A   SING  11
+PLG  C4   C5    SING  12
+PLG  C4A  N     SING  13
+PLG  C4A  1H4A  SING  14
+PLG  C4A  2H4A  SING  15
+PLG  C5   C6    DOUB  16
+PLG  C5   C5A   SING  17
+PLG  C6   H6    SING  18
+PLG  C5A  OP4   SING  19
+PLG  C5A  1H5A  SING  20
+PLG  C5A  2H5A  SING  21
+PLG  OP4  P     SING  22
+PLG  P    OP1   DOUB  23
+PLG  P    OP2   SING  24
+PLG  P    OP3   SING  25
+PLG  OP2  2HOP  SING  26
+PLG  OP3  3HOP  SING  27
+PLG  C    O     DOUB  28
+PLG  C    OXT   SING  29
+PLG  C    CA    SING  30
+PLG  OXT  HXT   SING  31
+PLG  CA   N     SING  32
+PLG  CA   HA2   SING  33
+PLG  CA   HA1   SING  34
+PLG  N    H     SING  35
+#

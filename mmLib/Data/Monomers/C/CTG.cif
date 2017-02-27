@@ -1,0 +1,113 @@
+data_CTG
+#
+_chem_comp.id                       CTG
+_chem_comp.name                     (5R,6S)-5,6-DIHYDRO-5,6-DIHYDROXYTHYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H17 N2 O10 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            356.225
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CTG  P     .  P  0  54.703  130.735  79.486  1  1 
+CTG  O1P   .  O  0  55.343  132.061  79.289  1  2 
+CTG  O2P   .  O  0  55.269  129.779  80.481  1  3 
+CTG  O5*   .  O  0  53.172  131.004  79.831  1  4 
+CTG  C5*   .  C  0  52.306  131.537  78.830  1  5 
+CTG  C4*   .  C  0  50.892  131.674  79.345  1  6 
+CTG  O4*   .  O  0  50.169  130.427  79.141  1  7 
+CTG  C1*   .  C  0  49.872  129.815  80.382  1  8 
+CTG  N1    .  N  0  50.241  128.384  80.326  1  9 
+CTG  C6    .  C  0  51.645  128.034  80.479  1  10
+CTG  O6    .  O  0  52.086  128.132  81.841  1  11
+CTG  C2    .  C  0  49.248  127.509  80.703  1  12
+CTG  O2    .  O  0  48.061  127.798  80.685  1  13
+CTG  N3    .  N  0  49.698  126.280  81.103  1  14
+CTG  C4    .  C  0  50.895  125.687  80.756  1  15
+CTG  O4    .  O  0  51.126  124.521  81.066  1  16
+CTG  C5    .  C  0  51.866  126.592  79.975  1  17
+CTG  C5M   .  C  0  51.588  126.505  78.480  1  18
+CTG  O5    .  O  0  53.220  126.194  80.232  1  19
+CTG  C2*   .  C  0  50.529  130.611  81.511  1  20
+CTG  C3*   .  C  0  50.845  131.947  80.841  1  21
+CTG  O3*   .  O  0  50.162  133.131  81.236  1  22
+CTG  O3P   .  O  0  ?       ?        ?       1  23
+CTG  1H5M  .  H  0  ?       ?        ?       0  24
+CTG  2H5M  .  H  0  ?       ?        ?       0  25
+CTG  3H5M  .  H  0  ?       ?        ?       0  26
+CTG  HO5   .  H  0  ?       ?        ?       1  27
+CTG  H3    .  H  0  ?       ?        ?       1  28
+CTG  H1*   .  H  0  ?       ?        ?       1  29
+CTG  1H2*  .  H  0  ?       ?        ?       0  30
+CTG  2H2*  .  H  0  ?       ?        ?       0  31
+CTG  H3*   .  H  0  ?       ?        ?       1  32
+CTG  H3T   .  H  0  ?       ?        ?       1  33
+CTG  H4*   .  H  0  ?       ?        ?       1  34
+CTG  1H5*  .  H  0  ?       ?        ?       0  35
+CTG  2H5*  .  H  0  ?       ?        ?       0  36
+CTG  3HOP  .  H  0  ?       ?        ?       0  37
+CTG  H6    .  H  0  ?       ?        ?       1  38
+CTG  HO6   .  H  0  ?       ?        ?       1  39
+CTG  2HOP  .  H  0  ?       ?        ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CTG  P    O5*   SING  1 
+CTG  P    O1P   DOUB  2 
+CTG  P    O3P   SING  3 
+CTG  P    O2P   SING  4 
+CTG  O2P  2HOP  SING  5 
+CTG  O5*  C5*   SING  6 
+CTG  C5*  C4*   SING  7 
+CTG  C5*  1H5*  SING  8 
+CTG  C5*  2H5*  SING  9 
+CTG  C4*  C3*   SING  10
+CTG  C4*  O4*   SING  11
+CTG  C4*  H4*   SING  12
+CTG  O4*  C1*   SING  13
+CTG  C1*  N1    SING  14
+CTG  C1*  C2*   SING  15
+CTG  C1*  H1*   SING  16
+CTG  N1   C2    SING  17
+CTG  N1   C6    SING  18
+CTG  C6   C5    SING  19
+CTG  C6   O6    SING  20
+CTG  C6   H6    SING  21
+CTG  O6   HO6   SING  22
+CTG  C2   N3    SING  23
+CTG  C2   O2    DOUB  24
+CTG  N3   C4    SING  25
+CTG  N3   H3    SING  26
+CTG  C4   C5    SING  27
+CTG  C4   O4    DOUB  28
+CTG  C5   C5M   SING  29
+CTG  C5   O5    SING  30
+CTG  C5M  1H5M  SING  31
+CTG  C5M  2H5M  SING  32
+CTG  C5M  3H5M  SING  33
+CTG  O5   HO5   SING  34
+CTG  C2*  C3*   SING  35
+CTG  C2*  1H2*  SING  36
+CTG  C2*  2H2*  SING  37
+CTG  C3*  O3*   SING  38
+CTG  C3*  H3*   SING  39
+CTG  O3*  H3T   SING  40
+CTG  O3P  3HOP  SING  41
+#

@@ -1,0 +1,63 @@
+data_XX2
+#
+_chem_comp.id                   XX2
+_chem_comp.name                 '1-KETO,2-HYDROXY,4-NITROBENZENE, 1 ELECTRON OXIDIZED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H4 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.102
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XX2  O11  .  O  -1  6.023  -36.378  36.532  1  N  1 
+XX2  N9   .  N  1   4.797  -36.655  36.727  1  N  2 
+XX2  O10  .  O  0   3.784  -35.602  36.591  1  N  3 
+XX2  C4   .  C  0   4.423  -37.960  36.780  1  Y  4 
+XX2  C3   .  C  0   3.048  -38.222  36.942  1  Y  5 
+XX2  C2   .  C  0   2.551  -39.580  36.742  1  Y  6 
+XX2  O8   .  O  0   1.223  -39.686  36.271  1  N  7 
+XX2  C5   .  C  0   5.345  -39.021  36.734  1  Y  8 
+XX2  C6   .  C  0   4.957  -40.348  36.438  1  Y  9 
+XX2  C1   .  C  0   3.592  -40.636  36.368  1  Y  10
+XX2  O7   .  O  0   3.212  -41.815  36.115  1  N  11
+XX2  H3   .  H  0   2.369  -37.427  37.211  1  N  12
+XX2  HO8  .  H  0   0.626  -39.710  37.009  1  N  13
+XX2  H5   .  H  0   6.387  -38.815  36.932  1  N  14
+XX2  H6   .  H  0   5.696  -41.118  36.271  1  N  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XX2  O11  N9   SING  N  1 
+XX2  N9   O10  DOUB  N  2 
+XX2  N9   C4   SING  N  3 
+XX2  C4   C3   DOUB  Y  4 
+XX2  C4   C5   SING  Y  5 
+XX2  C3   C2   SING  Y  6 
+XX2  C3   H3   SING  N  7 
+XX2  C2   O8   SING  N  8 
+XX2  C2   C1   SING  Y  9 
+XX2  O8   HO8  SING  N  10
+XX2  C5   C6   DOUB  Y  11
+XX2  C5   H5   SING  N  12
+XX2  C6   C1   SING  Y  13
+XX2  C6   H6   SING  N  14
+XX2  C1   O7   DOUB  N  15
+#

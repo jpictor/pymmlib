@@ -1,0 +1,114 @@
+data_HUX
+#
+_chem_comp.id                   HUX
+_chem_comp.name                 3-CHLORO-9-ETHYL-6,7,8,9,10,11-HEXAHYDRO-7,11-METHANOCYCLOOCTA[B]QUINOLIN-12-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H19 N2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.815
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HUX  CL1   .  CL  0  ?  ?  ?  0  1 
+HUX  C1    .  C   0  ?  ?  ?  1  2 
+HUX  N1    .  N   0  ?  ?  ?  1  3 
+HUX  C3    .  C   0  ?  ?  ?  1  4 
+HUX  C4    .  C   0  ?  ?  ?  1  5 
+HUX  N2    .  N   0  ?  ?  ?  1  6 
+HUX  C14   .  C   0  ?  ?  ?  1  7 
+HUX  C2    .  C   0  ?  ?  ?  1  8 
+HUX  C17   .  C   0  ?  ?  ?  1  9 
+HUX  C15   .  C   0  ?  ?  ?  1  10
+HUX  C5    .  C   0  ?  ?  ?  1  11
+HUX  C13   .  C   0  ?  ?  ?  1  12
+HUX  C6    .  C   0  ?  ?  ?  1  13
+HUX  C7    .  C   0  ?  ?  ?  1  14
+HUX  C12   .  C   0  ?  ?  ?  1  15
+HUX  C8    .  C   0  ?  ?  ?  1  16
+HUX  C9    .  C   0  ?  ?  ?  1  17
+HUX  C18   .  C   0  ?  ?  ?  1  18
+HUX  C11   .  C   0  ?  ?  ?  1  19
+HUX  C10   .  C   0  ?  ?  ?  1  20
+HUX  C16   .  C   0  ?  ?  ?  1  21
+HUX  1HN2  .  H   0  ?  ?  ?  0  22
+HUX  2HN2  .  H   0  ?  ?  ?  0  23
+HUX  HC2   .  H   0  ?  ?  ?  1  24
+HUX  H17   .  H   0  ?  ?  ?  1  25
+HUX  1HC5  .  H   0  ?  ?  ?  0  26
+HUX  2HC5  .  H   0  ?  ?  ?  0  27
+HUX  HC6   .  H   0  ?  ?  ?  1  28
+HUX  HC7   .  H   0  ?  ?  ?  1  29
+HUX  1H12  .  H   0  ?  ?  ?  0  30
+HUX  2H12  .  H   0  ?  ?  ?  0  31
+HUX  1HC9  .  H   0  ?  ?  ?  0  32
+HUX  2HC9  .  H   0  ?  ?  ?  0  33
+HUX  1H18  .  H   0  ?  ?  ?  0  34
+HUX  2H18  .  H   0  ?  ?  ?  0  35
+HUX  H11   .  H   0  ?  ?  ?  1  36
+HUX  1H10  .  H   0  ?  ?  ?  0  37
+HUX  2H10  .  H   0  ?  ?  ?  0  38
+HUX  3H10  .  H   0  ?  ?  ?  0  39
+HUX  H16   .  H   0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HUX  CL1  C1    SING  1 
+HUX  C1   C2    AROM  2 
+HUX  C1   C17   AROM  3 
+HUX  N1   C3    AROM  4 
+HUX  N1   C4    AROM  5 
+HUX  C3   C2    AROM  6 
+HUX  C3   C15   AROM  7 
+HUX  C4   C5    SING  8 
+HUX  C4   C13   AROM  9 
+HUX  N2   C14   SING  10
+HUX  N2   1HN2  SING  11
+HUX  N2   2HN2  SING  12
+HUX  C14  C13   AROM  13
+HUX  C14  C15   AROM  14
+HUX  C2   HC2   SING  15
+HUX  C17  C16   AROM  16
+HUX  C17  H17   SING  17
+HUX  C15  C16   AROM  18
+HUX  C5   C6    SING  19
+HUX  C5   1HC5  SING  20
+HUX  C5   2HC5  SING  21
+HUX  C13  C11   SING  22
+HUX  C6   C7    SING  23
+HUX  C6   C12   SING  24
+HUX  C6   HC6   SING  25
+HUX  C7   C8    DOUB  26
+HUX  C7   HC7   SING  27
+HUX  C12  C11   SING  28
+HUX  C12  1H12  SING  29
+HUX  C12  2H12  SING  30
+HUX  C8   C9    SING  31
+HUX  C8   C18   SING  32
+HUX  C9   C11   SING  33
+HUX  C9   1HC9  SING  34
+HUX  C9   2HC9  SING  35
+HUX  C18  C10   SING  36
+HUX  C18  1H18  SING  37
+HUX  C18  2H18  SING  38
+HUX  C11  H11   SING  39
+HUX  C10  1H10  SING  40
+HUX  C10  2H10  SING  41
+HUX  C10  3H10  SING  42
+HUX  C16  H16   SING  43
+#

@@ -1,0 +1,73 @@
+data_DDX
+#
+_chem_comp.id                   DDX
+_chem_comp.name                 2',3'-DEHYDRO-2',3'-DIDEOXYRIBOFURANOSE-5'-PHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C5 H9 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.096
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DDX  P     .  P  0  26.784  23.700  37.283  1  1 
+DDX  O1P   .  O  0  27.552  24.573  36.362  1  2 
+DDX  O2P   .  O  0  27.330  22.370  37.653  1  3 
+DDX  O3P   .  O  0  ?       ?       ?       1  4 
+DDX  O5*   .  O  0  25.309  23.495  36.706  1  5 
+DDX  C5*   .  C  0  24.730  24.508  35.959  1  6 
+DDX  C4*   .  C  0  23.186  24.474  36.096  1  7 
+DDX  O4*   .  O  0  22.621  23.906  34.918  1  8 
+DDX  C1*   .  C  0  21.916  22.706  35.247  1  9 
+DDX  C3*   .  C  0  22.662  23.631  37.228  1  10
+DDX  C2*   .  C  0  21.934  22.624  36.743  1  11
+DDX  O1*   .  O  0  20.755  22.784  34.483  1  12
+DDX  HO1*  .  H  0  ?       ?       ?       0  13
+DDX  H1*   .  H  0  ?       ?       ?       1  14
+DDX  H2*   .  H  0  ?       ?       ?       1  15
+DDX  H3*   .  H  0  ?       ?       ?       1  16
+DDX  H4*   .  H  0  ?       ?       ?       1  17
+DDX  1H5*  .  H  0  ?       ?       ?       0  18
+DDX  2H5*  .  H  0  ?       ?       ?       0  19
+DDX  2HOP  .  H  0  ?       ?       ?       0  20
+DDX  3HOP  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DDX  P    O1P   DOUB  1 
+DDX  P    O2P   SING  2 
+DDX  P    O3P   SING  3 
+DDX  P    O5*   SING  4 
+DDX  O2P  2HOP  SING  5 
+DDX  O3P  3HOP  SING  6 
+DDX  O5*  C5*   SING  7 
+DDX  C5*  C4*   SING  8 
+DDX  C5*  1H5*  SING  9 
+DDX  C5*  2H5*  SING  10
+DDX  C4*  O4*   SING  11
+DDX  C4*  C3*   SING  12
+DDX  C4*  H4*   SING  13
+DDX  O4*  C1*   SING  14
+DDX  C1*  C2*   SING  15
+DDX  C1*  O1*   SING  16
+DDX  C1*  H1*   SING  17
+DDX  C3*  C2*   DOUB  18
+DDX  C3*  H3*   SING  19
+DDX  C2*  H2*   SING  20
+DDX  O1*  HO1*  SING  21
+#

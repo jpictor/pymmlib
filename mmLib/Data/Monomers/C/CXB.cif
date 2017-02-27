@@ -1,0 +1,87 @@
+data_CXB
+#
+_chem_comp.id                   CXB
+_chem_comp.name                 '[(2-AMINO-ALPHA-METHOXYIMINO-4-THIAZOLYLACETYL)AMINO]METHYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N4 O4 B1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        258.058
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CXB  C18   .  C  0  11.294  13.040  37.642  1  1 
+CXB  O17   .  O  0  12.441  12.212  37.632  1  2 
+CXB  N16   .  N  0  13.605  11.997  36.995  1  3 
+CXB  C13   .  C  0  13.900  10.774  37.197  1  4 
+CXB  C11   .  C  0  13.030  9.715   37.818  1  5 
+CXB  O12   .  O  0  13.321  9.338   38.929  1  6 
+CXB  N10   .  N  0  12.073  9.251   37.108  1  7 
+CXB  C7    .  C  0  11.149  8.217   37.576  1  8 
+CXB  B     .  B  0  10.356  7.636   36.300  1  9 
+CXB  OB1   .  O  0  11.245  7.117   35.232  1  10
+CXB  OB2   .  O  0  9.390   8.597   35.714  1  11
+CXB  C14   .  C  0  15.308  10.382  36.908  1  12
+CXB  C15   .  C  0  15.910  9.254   37.388  1  13
+CXB  S16   .  S  0  17.565  9.187   36.910  1  14
+CXB  C17   .  C  0  17.330  10.654  36.070  1  15
+CXB  N18   .  N  0  18.391  11.202  35.363  1  16
+CXB  N19   .  N  0  16.115  11.189  36.132  1  17
+CXB  1H18  .  H  0  ?       ?       ?       0  18
+CXB  2H18  .  H  0  ?       ?       ?       0  19
+CXB  3H18  .  H  0  ?       ?       ?       0  20
+CXB  H10   .  H  0  ?       ?       ?       1  21
+CXB  1H7   .  H  0  ?       ?       ?       0  22
+CXB  2H7   .  H  0  ?       ?       ?       0  23
+CXB  HB1   .  H  0  ?       ?       ?       1  24
+CXB  HB2   .  H  0  ?       ?       ?       1  25
+CXB  H15   .  H  0  ?       ?       ?       1  26
+CXB  1H1   .  H  0  ?       ?       ?       0  27
+CXB  2H1   .  H  0  ?       ?       ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CXB  C18  O17   SING  1 
+CXB  C18  1H18  SING  2 
+CXB  C18  2H18  SING  3 
+CXB  C18  3H18  SING  4 
+CXB  O17  N16   SING  5 
+CXB  N16  C13   DOUB  6 
+CXB  C13  C11   SING  7 
+CXB  C13  C14   SING  8 
+CXB  C11  O12   DOUB  9 
+CXB  C11  N10   SING  10
+CXB  N10  C7    SING  11
+CXB  N10  H10   SING  12
+CXB  C7   B     SING  13
+CXB  C7   1H7   SING  14
+CXB  C7   2H7   SING  15
+CXB  B    OB1   SING  16
+CXB  B    OB2   SING  17
+CXB  OB1  HB1   SING  18
+CXB  OB2  HB2   SING  19
+CXB  C14  C15   DOUB  20
+CXB  C14  N19   SING  21
+CXB  C15  S16   SING  22
+CXB  C15  H15   SING  23
+CXB  S16  C17   SING  24
+CXB  C17  N18   SING  25
+CXB  C17  N19   DOUB  26
+CXB  N18  1H1   SING  27
+CXB  N18  2H1   SING  28
+#

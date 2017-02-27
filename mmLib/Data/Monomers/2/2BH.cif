@@ -1,0 +1,83 @@
+data_2BH
+#
+_chem_comp.id                   2BH
+_chem_comp.name                 [(1E,5S)-5-AMINO-5-CARBOXYPENT-1-ENYL](TRIHYDROXY)BORATE(1-)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O5 B1'
+_chem_comp.pdbx_synonyms        'DEHYDRO-2(S)-AMINO-6-BORONOHEXANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        189.982
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2BH  NP1   .  N  0   5.781   49.222  -2.094  1  1 
+2BH  C02   .  C  0   4.924   49.270  -3.346  1  2 
+2BH  C03   .  C  0   3.872   50.342  -3.209  1  3 
+2BH  O04   .  O  0   3.022   50.648  -4.020  1  4 
+2BH  O05   .  O  0   4.026   50.928  -2.004  1  5 
+2BH  C06   .  C  0   4.330   47.868  -3.497  1  6 
+2BH  C07   .  C  0   3.487   47.413  -2.295  1  7 
+2BH  C08   .  C  0   2.927   46.007  -2.448  1  8 
+2BH  C09   .  C  0   1.623   45.660  -2.169  1  9 
+2BH  B     .  B  -1  1.109   44.234  -2.284  1  10
+2BH  O11   .  O  0   -0.270  44.074  -1.993  1  11
+2BH  O12   .  O  0   1.836   43.367  -1.418  1  12
+2BH  O13   .  O  0   1.255   43.584  -3.499  1  13
+2BH  H02   .  H  0   ?       ?       ?       1  14
+2BH  2HP1  .  H  0   ?       ?       ?       0  15
+2BH  1HP1  .  H  0   ?       ?       ?       0  16
+2BH  1H06  .  H  0   ?       ?       ?       0  17
+2BH  2H06  .  H  0   ?       ?       ?       0  18
+2BH  1H07  .  H  0   ?       ?       ?       0  19
+2BH  2H07  .  H  0   ?       ?       ?       0  20
+2BH  H08   .  H  0   ?       ?       ?       1  21
+2BH  H09   .  H  0   ?       ?       ?       1  22
+2BH  H11   .  H  0   ?       ?       ?       1  23
+2BH  H12   .  H  0   ?       ?       ?       1  24
+2BH  H13   .  H  0   ?       ?       ?       1  25
+2BH  H04   .  H  0   ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2BH  NP1  C02   SING  1 
+2BH  NP1  1HP1  SING  2 
+2BH  NP1  2HP1  SING  3 
+2BH  C02  C03   SING  4 
+2BH  C02  H02   SING  5 
+2BH  C02  C06   SING  6 
+2BH  C03  O04   SING  7 
+2BH  C03  O05   DOUB  8 
+2BH  O04  H04   SING  9 
+2BH  C06  1H06  SING  10
+2BH  C06  2H06  SING  11
+2BH  C06  C07   SING  12
+2BH  C07  1H07  SING  13
+2BH  C07  2H07  SING  14
+2BH  C07  C08   SING  15
+2BH  C08  H08   SING  16
+2BH  C08  C09   DOUB  17
+2BH  C09  H09   SING  18
+2BH  C09  B     SING  19
+2BH  B    O11   SING  20
+2BH  B    O12   SING  21
+2BH  B    O13   SING  22
+2BH  O11  H11   SING  23
+2BH  O12  H12   SING  24
+2BH  O13  H13   SING  25
+#

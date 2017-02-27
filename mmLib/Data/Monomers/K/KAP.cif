@@ -1,0 +1,90 @@
+data_KAP
+#
+_chem_comp.id                   KAP
+_chem_comp.name                 '7-KETO-8-AMINOPELARGONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KAP  CA   .  C  0  ?  ?  ?  1  1 
+KAP  C    .  C  0  ?  ?  ?  1  2 
+KAP  OI1  .  O  0  ?  ?  ?  1  3 
+KAP  OI2  .  O  0  ?  ?  ?  1  4 
+KAP  CB   .  C  0  ?  ?  ?  1  5 
+KAP  CG   .  C  0  ?  ?  ?  1  6 
+KAP  CD   .  C  0  ?  ?  ?  1  7 
+KAP  CE   .  C  0  ?  ?  ?  1  8 
+KAP  CZ   .  C  0  ?  ?  ?  1  9 
+KAP  CH   .  C  0  ?  ?  ?  1  10
+KAP  CS   .  C  0  ?  ?  ?  1  11
+KAP  O    .  O  0  ?  ?  ?  1  12
+KAP  N    .  N  0  ?  ?  ?  1  13
+KAP  HO1  .  H  0  ?  ?  ?  1  14
+KAP  2HA  .  H  0  ?  ?  ?  0  15
+KAP  1HA  .  H  0  ?  ?  ?  0  16
+KAP  2HB  .  H  0  ?  ?  ?  0  17
+KAP  1HB  .  H  0  ?  ?  ?  0  18
+KAP  2HG  .  H  0  ?  ?  ?  0  19
+KAP  1HG  .  H  0  ?  ?  ?  0  20
+KAP  2HD  .  H  0  ?  ?  ?  0  21
+KAP  1HD  .  H  0  ?  ?  ?  0  22
+KAP  2HE  .  H  0  ?  ?  ?  0  23
+KAP  1HE  .  H  0  ?  ?  ?  0  24
+KAP  HH   .  H  0  ?  ?  ?  1  25
+KAP  3HS  .  H  0  ?  ?  ?  0  26
+KAP  2HS  .  H  0  ?  ?  ?  0  27
+KAP  1HS  .  H  0  ?  ?  ?  0  28
+KAP  1H   .  H  0  ?  ?  ?  0  29
+KAP  2H   .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KAP  CA   C    SING  1 
+KAP  CA   CB   SING  2 
+KAP  CA   2HA  SING  3 
+KAP  CA   1HA  SING  4 
+KAP  C    OI1  SING  5 
+KAP  C    OI2  DOUB  6 
+KAP  OI1  HO1  SING  7 
+KAP  CB   CG   SING  8 
+KAP  CB   2HB  SING  9 
+KAP  CB   1HB  SING  10
+KAP  CG   CD   SING  11
+KAP  CG   2HG  SING  12
+KAP  CG   1HG  SING  13
+KAP  CD   CE   SING  14
+KAP  CD   2HD  SING  15
+KAP  CD   1HD  SING  16
+KAP  CE   CZ   SING  17
+KAP  CE   2HE  SING  18
+KAP  CE   1HE  SING  19
+KAP  CZ   CH   SING  20
+KAP  CZ   O    DOUB  21
+KAP  CH   CS   SING  22
+KAP  CH   N    SING  23
+KAP  CH   HH   SING  24
+KAP  CS   3HS  SING  25
+KAP  CS   2HS  SING  26
+KAP  CS   1HS  SING  27
+KAP  N    1H   SING  28
+KAP  N    2H   SING  29
+#

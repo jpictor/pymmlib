@@ -1,0 +1,89 @@
+data_SPD
+#
+_chem_comp.id                   SPD
+_chem_comp.name                 SPERMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C7 H19 N3'
+_chem_comp.pdbx_synonyms        'N-(2-AMINO-PROPYL)-1,4-DIAMINOBUTANE; PA(34)'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        145.247
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPD  N1    .  N  0  ?  ?  ?  1  1 
+SPD  C2    .  C  0  ?  ?  ?  1  2 
+SPD  C3    .  C  0  ?  ?  ?  1  3 
+SPD  C4    .  C  0  ?  ?  ?  1  4 
+SPD  C5    .  C  0  ?  ?  ?  1  5 
+SPD  N6    .  N  0  ?  ?  ?  1  6 
+SPD  C7    .  C  0  ?  ?  ?  1  7 
+SPD  C8    .  C  0  ?  ?  ?  1  8 
+SPD  C9    .  C  0  ?  ?  ?  1  9 
+SPD  N10   .  N  0  ?  ?  ?  1  10
+SPD  1HN1  .  H  0  ?  ?  ?  0  11
+SPD  2HN1  .  H  0  ?  ?  ?  0  12
+SPD  1H2   .  H  0  ?  ?  ?  0  13
+SPD  2H2   .  H  0  ?  ?  ?  0  14
+SPD  1H3   .  H  0  ?  ?  ?  0  15
+SPD  2H3   .  H  0  ?  ?  ?  0  16
+SPD  1H4   .  H  0  ?  ?  ?  0  17
+SPD  2H4   .  H  0  ?  ?  ?  0  18
+SPD  1H5   .  H  0  ?  ?  ?  0  19
+SPD  2H5   .  H  0  ?  ?  ?  0  20
+SPD  HN6   .  H  0  ?  ?  ?  1  21
+SPD  1H7   .  H  0  ?  ?  ?  0  22
+SPD  2H7   .  H  0  ?  ?  ?  0  23
+SPD  1H8   .  H  0  ?  ?  ?  0  24
+SPD  2H8   .  H  0  ?  ?  ?  0  25
+SPD  1H9   .  H  0  ?  ?  ?  0  26
+SPD  2H9   .  H  0  ?  ?  ?  0  27
+SPD  1H10  .  H  0  ?  ?  ?  0  28
+SPD  2H10  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPD  N1   C2    SING  1 
+SPD  N1   1HN1  SING  2 
+SPD  N1   2HN1  SING  3 
+SPD  C2   C3    SING  4 
+SPD  C2   1H2   SING  5 
+SPD  C2   2H2   SING  6 
+SPD  C3   C4    SING  7 
+SPD  C3   1H3   SING  8 
+SPD  C3   2H3   SING  9 
+SPD  C4   C5    SING  10
+SPD  C4   1H4   SING  11
+SPD  C4   2H4   SING  12
+SPD  C5   N6    SING  13
+SPD  C5   1H5   SING  14
+SPD  C5   2H5   SING  15
+SPD  N6   C7    SING  16
+SPD  N6   HN6   SING  17
+SPD  C7   C8    SING  18
+SPD  C7   1H7   SING  19
+SPD  C7   2H7   SING  20
+SPD  C8   C9    SING  21
+SPD  C8   1H8   SING  22
+SPD  C8   2H8   SING  23
+SPD  C9   N10   SING  24
+SPD  C9   1H9   SING  25
+SPD  C9   2H9   SING  26
+SPD  N10  1H10  SING  27
+SPD  N10  2H10  SING  28
+#

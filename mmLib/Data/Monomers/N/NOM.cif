@@ -1,0 +1,103 @@
+data_NOM
+#
+_chem_comp.id                   NOM
+_chem_comp.name                 7-HYDROXY-5-METHYL-3,3A,5,11B-TETRAHYDRO-1,4-DIOXA-CYCLOPENTA[A]ANTHRACENE-2,6,11-TRIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 O6'
+_chem_comp.pdbx_synonyms        'NANAOMYCIN D'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        300.267
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NOM  C1    .  C  0  49.688  37.069  10.110  1  1 
+NOM  C2    .  C  0  49.017  38.049  10.821  1  2 
+NOM  C3    .  C  0  48.061  37.670  11.757  1  3 
+NOM  C4    .  C  0  47.752  36.328  12.020  1  4 
+NOM  C5    .  C  0  48.453  35.367  11.293  1  5 
+NOM  C6    .  C  0  49.422  35.731  10.362  1  6 
+NOM  C10   .  C  0  47.347  38.664  12.497  1  7 
+NOM  C9    .  C  0  46.357  38.302  13.468  1  8 
+NOM  C8    .  C  0  46.041  36.958  13.745  1  9 
+NOM  C7    .  C  0  46.765  35.958  12.996  1  10
+NOM  O3    .  O  0  46.477  34.799  13.240  1  11
+NOM  O4    .  O  0  47.544  39.866  12.337  1  12
+NOM  O2    .  O  0  48.171  34.033  11.486  1  13
+NOM  C13   .  C  0  45.718  39.342  14.143  1  14
+NOM  C14   .  C  0  44.416  38.926  14.870  1  15
+NOM  O1    .  O  0  44.374  37.651  15.422  1  16
+NOM  C11   .  C  0  45.077  36.662  14.689  1  17
+NOM  C12   .  C  0  44.378  35.330  14.774  1  18
+NOM  C15   .  C  0  43.994  40.072  15.763  1  19
+NOM  C16   .  C  0  44.769  41.271  15.151  1  20
+NOM  O5    .  O  0  44.493  42.408  15.562  1  21
+NOM  O6    .  O  0  45.630  41.034  14.292  1  22
+NOM  HC1   .  H  0  ?       ?       ?       1  23
+NOM  HC2   .  H  0  ?       ?       ?       1  24
+NOM  HC6   .  H  0  ?       ?       ?       1  25
+NOM  HO2   .  H  0  ?       ?       ?       1  26
+NOM  HC11  .  H  0  ?       ?       ?       0  27
+NOM  1H12  .  H  0  ?       ?       ?       0  28
+NOM  2H12  .  H  0  ?       ?       ?       0  29
+NOM  3H12  .  H  0  ?       ?       ?       0  30
+NOM  HC13  .  H  0  ?       ?       ?       0  31
+NOM  HC14  .  H  0  ?       ?       ?       0  32
+NOM  1H15  .  H  0  ?       ?       ?       0  33
+NOM  2H15  .  H  0  ?       ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NOM  C1   C2    AROM  1 
+NOM  C1   C6    AROM  2 
+NOM  C1   HC1   SING  3 
+NOM  C2   C3    AROM  4 
+NOM  C2   HC2   SING  5 
+NOM  C3   C4    AROM  6 
+NOM  C3   C10   SING  7 
+NOM  C4   C5    AROM  8 
+NOM  C4   C7    SING  9 
+NOM  C5   C6    AROM  10
+NOM  C5   O2    SING  11
+NOM  C6   HC6   SING  12
+NOM  C10  C9    SING  13
+NOM  C10  O4    DOUB  14
+NOM  C9   C8    DOUB  15
+NOM  C9   C13   SING  16
+NOM  C8   C7    SING  17
+NOM  C8   C11   SING  18
+NOM  C7   O3    DOUB  19
+NOM  O2   HO2   SING  20
+NOM  C13  C14   SING  21
+NOM  C13  O6    SING  22
+NOM  C13  HC13  SING  23
+NOM  C14  O1    SING  24
+NOM  C14  C15   SING  25
+NOM  C14  HC14  SING  26
+NOM  O1   C11   SING  27
+NOM  C11  C12   SING  28
+NOM  C11  HC11  SING  29
+NOM  C12  1H12  SING  30
+NOM  C12  2H12  SING  31
+NOM  C12  3H12  SING  32
+NOM  C15  C16   SING  33
+NOM  C15  1H15  SING  34
+NOM  C15  2H15  SING  35
+NOM  C16  O5    DOUB  36
+NOM  C16  O6    SING  37
+#

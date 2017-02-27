@@ -1,0 +1,77 @@
+data_OHP
+#
+_chem_comp.id                   OHP
+_chem_comp.name                 '(2-HYDROXYPHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.149
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          OHP
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc(c(c1)CC(=O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+OHP  C8    .  C  0  16.651  27.066  63.656  1  N  1 
+OHP  C7    .  C  0  17.616  25.907  63.768  1  N  2 
+OHP  C3    .  C  0  17.197  24.719  62.945  1  Y  3 
+OHP  C4    .  C  0  17.567  24.663  61.601  1  Y  4 
+OHP  C5    .  C  0  17.216  23.555  60.830  1  Y  5 
+OHP  C6    .  C  0  16.495  22.494  61.392  1  Y  6 
+OHP  C1    .  C  0  16.128  22.547  62.740  1  Y  7 
+OHP  C2    .  C  0  16.485  23.666  63.513  1  Y  8 
+OHP  O2    .  O  0  18.289  25.699  61.034  1  N  9 
+OHP  O9    .  O  0  16.094  27.458  64.694  1  N  10
+OHP  O10   .  O  0  16.472  27.604  62.541  1  N  11
+OHP  1H7   .  H  0  18.603  26.242  63.416  0  N  12
+OHP  2H7   .  H  0  17.638  25.592  64.822  0  N  13
+OHP  H5    .  H  0  17.503  23.515  59.790  1  N  14
+OHP  H6    .  H  0  16.224  21.641  60.788  1  N  15
+OHP  H1    .  H  0  15.574  21.734  63.185  1  N  16
+OHP  H2    .  H  0  16.205  23.709  64.555  1  N  17
+OHP  HO2   .  H  0  18.454  26.366  61.690  1  N  18
+OHP  HO10  .  H  0  15.864  28.328  62.632  0  N  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+OHP  C8   C7    SING  N  1 
+OHP  C8   O9    DOUB  N  2 
+OHP  C8   O10   SING  N  3 
+OHP  C7   C3    SING  N  4 
+OHP  C7   1H7   SING  N  5 
+OHP  C7   2H7   SING  N  6 
+OHP  C3   C4    DOUB  Y  7 
+OHP  C3   C2    SING  Y  8 
+OHP  C4   C5    SING  Y  9 
+OHP  C4   O2    SING  N  10
+OHP  C5   C6    DOUB  Y  11
+OHP  C5   H5    SING  N  12
+OHP  C6   C1    SING  Y  13
+OHP  C6   H6    SING  N  14
+OHP  C1   C2    DOUB  Y  15
+OHP  C1   H1    SING  N  16
+OHP  C2   H2    SING  N  17
+OHP  O2   HO2   SING  N  18
+OHP  O10  HO10  SING  N  19
+#

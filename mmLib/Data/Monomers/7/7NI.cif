@@ -1,0 +1,66 @@
+data_7NI
+#
+_chem_comp.id                   7NI
+_chem_comp.name                 7-NITROINDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.135
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+7NI  N1   .  N  0  ?  ?  ?  1  1 
+7NI  N2   .  N  0  ?  ?  ?  1  2 
+7NI  C3   .  C  0  ?  ?  ?  1  3 
+7NI  C4   .  C  0  ?  ?  ?  1  4 
+7NI  C5   .  C  0  ?  ?  ?  1  5 
+7NI  C6   .  C  0  ?  ?  ?  1  6 
+7NI  C7   .  C  0  ?  ?  ?  1  7 
+7NI  C8   .  C  0  ?  ?  ?  1  8 
+7NI  C9   .  C  0  ?  ?  ?  1  9 
+7NI  N10  .  N  0  ?  ?  ?  1  10
+7NI  O11  .  O  0  ?  ?  ?  1  11
+7NI  O12  .  O  0  ?  ?  ?  1  12
+7NI  1H3  .  H  0  ?  ?  ?  0  13
+7NI  1H1  .  H  0  ?  ?  ?  0  14
+7NI  1H4  .  H  0  ?  ?  ?  0  15
+7NI  1H5  .  H  0  ?  ?  ?  0  16
+7NI  1H6  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+7NI  N1   N2   SING  1 
+7NI  N1   C8   SING  2 
+7NI  N1   1H1  SING  3 
+7NI  N2   C3   DOUB  4 
+7NI  C3   C9   SING  5 
+7NI  C3   1H3  SING  6 
+7NI  C4   C5   DOUB  7 
+7NI  C4   C9   SING  8 
+7NI  C4   1H4  SING  9 
+7NI  C5   C6   SING  10
+7NI  C5   1H5  SING  11
+7NI  C6   C7   DOUB  12
+7NI  C6   1H6  SING  13
+7NI  C7   C8   SING  14
+7NI  C7   N10  SING  15
+7NI  C8   C9   DOUB  16
+7NI  N10  O11  DOUB  17
+7NI  N10  O12  DOUB  18
+#

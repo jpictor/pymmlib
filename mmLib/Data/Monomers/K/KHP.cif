@@ -1,0 +1,97 @@
+data_KHP
+#
+_chem_comp.id                   KHP
+_chem_comp.name                 2-HYDROXYMETHYL-5-(4-NITRO-PHENOXY)-TETRAHYDRO-FURAN-3,4-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H13 N1 O7'
+_chem_comp.pdbx_synonyms        4-NITROPHENYL-ARA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        271.226
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KHP  O5*   .  O  0   86.247  24.738  35.532  1  1 
+KHP  C5*   .  C  0   87.510  24.958  35.590  1  2 
+KHP  C4*   .  C  0   88.008  26.192  36.352  1  3 
+KHP  O4*   .  O  0   87.694  26.006  37.733  1  4 
+KHP  C1*   .  C  0   87.769  27.290  38.337  1  5 
+KHP  C2*   .  C  0   87.492  28.304  37.235  1  6 
+KHP  O2*   .  O  0   86.441  29.217  37.532  1  7 
+KHP  C3*   .  C  0   87.324  27.500  35.966  1  8 
+KHP  O3*   .  O  0   87.917  28.169  34.889  1  9 
+KHP  O1*   .  O  0   89.110  27.585  38.797  1  10
+KHP  C1'   .  C  0   89.583  26.874  39.958  1  11
+KHP  C2'   .  C  0   90.869  26.476  39.927  1  12
+KHP  C3'   .  C  0   91.387  25.800  40.966  1  13
+KHP  C4'   .  C  0   90.630  25.519  42.038  1  14
+KHP  N1'   .  N  1   91.167  24.848  43.068  1  15
+KHP  O3'   .  O  -1  90.495  24.577  44.056  1  16
+KHP  O2'   .  O  0   92.339  24.493  43.022  1  17
+KHP  C5'   .  C  0   89.344  25.912  42.071  1  18
+KHP  C6'   .  C  0   88.822  26.587  41.026  1  19
+KHP  H5*   .  H  0   ?       ?       ?       1  20
+KHP  1H5*  .  H  0   ?       ?       ?       0  21
+KHP  2H5*  .  H  0   ?       ?       ?       0  22
+KHP  H4*   .  H  0   ?       ?       ?       1  23
+KHP  H1*   .  H  0   ?       ?       ?       1  24
+KHP  H6'   .  H  0   ?       ?       ?       1  25
+KHP  H5'   .  H  0   ?       ?       ?       1  26
+KHP  H3'   .  H  0   ?       ?       ?       1  27
+KHP  H2'   .  H  0   ?       ?       ?       1  28
+KHP  H2*   .  H  0   ?       ?       ?       1  29
+KHP  H1    .  H  0   ?       ?       ?       1  30
+KHP  H3*   .  H  0   ?       ?       ?       1  31
+KHP  H2    .  H  0   ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KHP  O5*  H5*   SING  1 
+KHP  O5*  C5*   SING  2 
+KHP  C5*  1H5*  SING  3 
+KHP  C5*  2H5*  SING  4 
+KHP  C5*  C4*   SING  5 
+KHP  C4*  H4*   SING  6 
+KHP  C4*  O4*   SING  7 
+KHP  C4*  C3*   SING  8 
+KHP  O4*  C1*   SING  9 
+KHP  C1*  H1*   SING  10
+KHP  C1*  O1*   SING  11
+KHP  C1*  C2*   SING  12
+KHP  C2*  H2*   SING  13
+KHP  C2*  O2*   SING  14
+KHP  C2*  C3*   SING  15
+KHP  O2*  H1    SING  16
+KHP  C3*  H3*   SING  17
+KHP  C3*  O3*   SING  18
+KHP  O3*  H2    SING  19
+KHP  O1*  C1'   SING  20
+KHP  C1'  C6'   AROM  21
+KHP  C1'  C2'   AROM  22
+KHP  C2'  C3'   AROM  23
+KHP  C2'  H2'   SING  24
+KHP  C3'  C4'   AROM  25
+KHP  C3'  H3'   SING  26
+KHP  C4'  C5'   AROM  27
+KHP  C4'  N1'   SING  28
+KHP  N1'  O3'   SING  29
+KHP  N1'  O2'   DOUB  30
+KHP  C5'  C6'   AROM  31
+KHP  C5'  H5'   SING  32
+KHP  C6'  H6'   SING  33
+#

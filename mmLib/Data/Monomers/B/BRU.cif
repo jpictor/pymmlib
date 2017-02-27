@@ -1,0 +1,99 @@
+data_BRU
+#
+_chem_comp.id                       BRU
+_chem_comp.name                     5-BROMO-2'-DEOXYURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H12 N2 O8 BR1 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            387.080
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRU  N1    .  N   0  ?  ?  ?  1  1 
+BRU  C2    .  C   0  ?  ?  ?  1  2 
+BRU  N3    .  N   0  ?  ?  ?  1  3 
+BRU  C4    .  C   0  ?  ?  ?  1  4 
+BRU  C5    .  C   0  ?  ?  ?  1  5 
+BRU  C6    .  C   0  ?  ?  ?  1  6 
+BRU  O2    .  O   0  ?  ?  ?  1  7 
+BRU  O4    .  O   0  ?  ?  ?  1  8 
+BRU  BR    .  BR  0  ?  ?  ?  0  9 
+BRU  C1*   .  C   0  ?  ?  ?  1  10
+BRU  C2*   .  C   0  ?  ?  ?  1  11
+BRU  C3*   .  C   0  ?  ?  ?  1  12
+BRU  C4*   .  C   0  ?  ?  ?  1  13
+BRU  O3*   .  O   0  ?  ?  ?  1  14
+BRU  O4*   .  O   0  ?  ?  ?  1  15
+BRU  C5*   .  C   0  ?  ?  ?  1  16
+BRU  O5*   .  O   0  ?  ?  ?  1  17
+BRU  P     .  P   0  ?  ?  ?  1  18
+BRU  O1P   .  O   0  ?  ?  ?  1  19
+BRU  O2P   .  O   0  ?  ?  ?  1  20
+BRU  O3P   .  O   0  ?  ?  ?  1  21
+BRU  HN3   .  H   0  ?  ?  ?  1  22
+BRU  H6    .  H   0  ?  ?  ?  1  23
+BRU  H1*   .  H   0  ?  ?  ?  1  24
+BRU  1H2*  .  H   0  ?  ?  ?  0  25
+BRU  2H2*  .  H   0  ?  ?  ?  0  26
+BRU  H3*   .  H   0  ?  ?  ?  1  27
+BRU  *HO3  .  H   0  ?  ?  ?  0  28
+BRU  H4*   .  H   0  ?  ?  ?  1  29
+BRU  1H5*  .  H   0  ?  ?  ?  0  30
+BRU  2H5*  .  H   0  ?  ?  ?  0  31
+BRU  2HOP  .  H   0  ?  ?  ?  0  32
+BRU  3HOP  .  H   0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRU  N1   C2    SING  1 
+BRU  N1   C6    SING  2 
+BRU  N1   C1*   SING  3 
+BRU  C2   N3    SING  4 
+BRU  C2   O2    DOUB  5 
+BRU  N3   C4    SING  6 
+BRU  N3   HN3   SING  7 
+BRU  C4   C5    SING  8 
+BRU  C4   O4    DOUB  9 
+BRU  C5   C6    DOUB  10
+BRU  C5   BR    SING  11
+BRU  C6   H6    SING  12
+BRU  C1*  C2*   SING  13
+BRU  C1*  O4*   SING  14
+BRU  C1*  H1*   SING  15
+BRU  C2*  C3*   SING  16
+BRU  C2*  1H2*  SING  17
+BRU  C2*  2H2*  SING  18
+BRU  C3*  C4*   SING  19
+BRU  C3*  O3*   SING  20
+BRU  C3*  H3*   SING  21
+BRU  C4*  O4*   SING  22
+BRU  C4*  C5*   SING  23
+BRU  C4*  H4*   SING  24
+BRU  O3*  *HO3  SING  25
+BRU  C5*  O5*   SING  26
+BRU  C5*  1H5*  SING  27
+BRU  C5*  2H5*  SING  28
+BRU  O5*  P     SING  29
+BRU  P    O1P   DOUB  30
+BRU  P    O2P   SING  31
+BRU  P    O3P   SING  32
+BRU  O2P  2HOP  SING  33
+BRU  O3P  3HOP  SING  34
+#

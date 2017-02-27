@@ -1,0 +1,71 @@
+data_OMD
+#
+_chem_comp.id                   OMD
+_chem_comp.name                 '2-(3,6-DIHYDROXYPHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        168.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMD  C1   .  C  0  ?  ?  ?  1  1 
+OMD  C2   .  C  0  ?  ?  ?  1  2 
+OMD  C1'  .  C  0  ?  ?  ?  1  3 
+OMD  C2'  .  C  0  ?  ?  ?  1  4 
+OMD  C3'  .  C  0  ?  ?  ?  1  5 
+OMD  O3'  .  O  0  ?  ?  ?  1  6 
+OMD  C4'  .  C  0  ?  ?  ?  1  7 
+OMD  C5'  .  C  0  ?  ?  ?  1  8 
+OMD  C6'  .  C  0  ?  ?  ?  1  9 
+OMD  O6'  .  O  0  ?  ?  ?  1  10
+OMD  O1   .  O  0  ?  ?  ?  1  11
+OMD  O2   .  O  0  ?  ?  ?  1  12
+OMD  1H2  .  H  0  ?  ?  ?  0  13
+OMD  2H2  .  H  0  ?  ?  ?  0  14
+OMD  H2'  .  H  0  ?  ?  ?  1  15
+OMD  HO3  .  H  0  ?  ?  ?  1  16
+OMD  H4'  .  H  0  ?  ?  ?  1  17
+OMD  H5'  .  H  0  ?  ?  ?  1  18
+OMD  HO6  .  H  0  ?  ?  ?  1  19
+OMD  HO2  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMD  C1   C2   SING  1 
+OMD  C1   O1   DOUB  2 
+OMD  C1   O2   SING  3 
+OMD  C2   C1'  SING  4 
+OMD  C2   1H2  SING  5 
+OMD  C2   2H2  SING  6 
+OMD  C1'  C2'  DOUB  7 
+OMD  C1'  C6'  SING  8 
+OMD  C2'  C3'  SING  9 
+OMD  C2'  H2'  SING  10
+OMD  C3'  C4'  DOUB  11
+OMD  C3'  O3'  SING  12
+OMD  O3'  HO3  SING  13
+OMD  C4'  C5'  SING  14
+OMD  C4'  H4'  SING  15
+OMD  C5'  C6'  DOUB  16
+OMD  C5'  H5'  SING  17
+OMD  C6'  O6'  SING  18
+OMD  O6'  HO6  SING  19
+OMD  O2   HO2  SING  20
+#

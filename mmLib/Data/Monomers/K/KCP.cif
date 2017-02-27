@@ -1,0 +1,111 @@
+data_KCP
+#
+_chem_comp.id                   KCP
+_chem_comp.name                 '2-[CARBOXY-(2-THIOPHEN-2-YL-ACETYLAMINO)-METHYL]-5-METHYL-3,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O5 S2'
+_chem_comp.pdbx_synonyms        'HYDROLYZED CEPHALOTHIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        356.411
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KCP  S1    .  S  0  37.698  6.294  -0.357  1  1 
+KCP  C2    .  C  0  39.397  6.540  0.432   1  2 
+KCP  C3    .  C  0  40.548  6.713  -0.633  1  3 
+KCP  C3'   .  C  0  41.804  7.120  -0.212  1  4 
+KCP  C4    .  C  0  40.309  6.313  -2.141  1  5 
+KCP  C4'   .  C  0  41.333  6.509  -3.263  1  6 
+KCP  O4A   .  O  0  40.908  6.592  -4.437  1  7 
+KCP  O4B   .  O  0  42.559  6.612  -2.985  1  8 
+KCP  N5    .  N  0  39.126  5.652  -2.493  1  9 
+KCP  C6    .  C  0  38.265  5.011  -1.517  1  10
+KCP  C7    .  C  0  37.238  4.138  -2.257  1  11
+KCP  C8    .  C  0  37.882  2.724  -2.281  1  12
+KCP  O9A   .  O  0  39.044  2.560  -1.883  1  13
+KCP  O9B   .  O  0  37.251  1.759  -2.716  1  14
+KCP  N10   .  N  0  35.888  4.036  -1.678  1  15
+KCP  C11   .  C  0  34.825  3.688  -2.446  1  16
+KCP  O12   .  O  0  34.920  3.442  -3.682  1  17
+KCP  C13   .  C  0  33.498  3.564  -1.743  1  18
+KCP  C14   .  C  0  32.743  4.793  -1.409  1  19
+KCP  C15   .  C  0  31.438  5.018  -1.813  1  20
+KCP  C16   .  C  0  31.056  6.230  -1.115  1  21
+KCP  C17   .  C  0  31.952  6.819  -0.420  1  22
+KCP  S19   .  S  0  33.383  5.973  -0.478  1  23
+KCP  H17   .  H  0  ?       ?      ?       1  24
+KCP  H16   .  H  0  ?       ?      ?       1  25
+KCP  H15   .  H  0  ?       ?      ?       1  26
+KCP  1H13  .  H  0  ?       ?      ?       0  27
+KCP  2H13  .  H  0  ?       ?      ?       0  28
+KCP  H10   .  H  0  ?       ?      ?       1  29
+KCP  H7    .  H  0  ?       ?      ?       1  30
+KCP  H6    .  H  0  ?       ?      ?       1  31
+KCP  HO9   .  H  0  ?       ?      ?       1  32
+KCP  H5    .  H  0  ?       ?      ?       1  33
+KCP  1H2   .  H  0  ?       ?      ?       0  34
+KCP  2H2   .  H  0  ?       ?      ?       0  35
+KCP  HO4   .  H  0  ?       ?      ?       1  36
+KCP  1H3'  .  H  0  ?       ?      ?       0  37
+KCP  2H3'  .  H  0  ?       ?      ?       0  38
+KCP  3H3'  .  H  0  ?       ?      ?       0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KCP  S1   C2    SING  1 
+KCP  S1   C6    SING  2 
+KCP  C2   C3    SING  3 
+KCP  C2   1H2   SING  4 
+KCP  C2   2H2   SING  5 
+KCP  C3   C3'   SING  6 
+KCP  C3   C4    DOUB  7 
+KCP  C3'  1H3'  SING  8 
+KCP  C3'  2H3'  SING  9 
+KCP  C3'  3H3'  SING  10
+KCP  C4   C4'   SING  11
+KCP  C4   N5    SING  12
+KCP  C4'  O4A   SING  13
+KCP  C4'  O4B   DOUB  14
+KCP  O4A  HO4   SING  15
+KCP  N5   C6    SING  16
+KCP  N5   H5    SING  17
+KCP  C6   C7    SING  18
+KCP  C6   H6    SING  19
+KCP  C7   C8    SING  20
+KCP  C7   N10   SING  21
+KCP  C7   H7    SING  22
+KCP  C8   O9A   DOUB  23
+KCP  C8   O9B   SING  24
+KCP  O9B  HO9   SING  25
+KCP  N10  C11   SING  26
+KCP  N10  H10   SING  27
+KCP  C11  O12   DOUB  28
+KCP  C11  C13   SING  29
+KCP  C13  C14   SING  30
+KCP  C13  1H13  SING  31
+KCP  C13  2H13  SING  32
+KCP  C14  C15   DOUB  33
+KCP  C14  S19   SING  34
+KCP  C15  C16   SING  35
+KCP  C15  H15   SING  36
+KCP  C16  C17   DOUB  37
+KCP  C16  H16   SING  38
+KCP  C17  S19   SING  39
+KCP  C17  H17   SING  40
+#

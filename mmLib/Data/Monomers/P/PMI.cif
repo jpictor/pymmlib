@@ -1,0 +1,93 @@
+data_PMI
+#
+_chem_comp.id                   PMI
+_chem_comp.name                 '(2-AMINO-2,3-DIHYDRO-1H-INDEN-2-YL)PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N1 O3 P1'
+_chem_comp.pdbx_synonyms        '2-AMINOINDAN-2-PHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        213.172
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PMI
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2c(c1)CC(C2)(N)P(=O)(O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PMI  O14   .  O  0  48.219  -7.639   26.482  1  N  1 
+PMI  P10   .  P  0  47.054  -7.175   27.328  1  N  2 
+PMI  O12   .  O  0  47.310  -7.209   28.810  1  N  3 
+PMI  O13   .  O  0  46.556  -5.809   26.895  1  N  4 
+PMI  C8'   .  C  0  45.695  -8.334   27.014  1  N  5 
+PMI  C9'   .  C  0  46.201  -9.776   27.256  1  N  6 
+PMI  C2'   .  C  0  45.134  -10.386  28.108  1  Y  7 
+PMI  N11   .  N  0  45.306  -8.151   25.581  1  N  8 
+PMI  C7'   .  C  0  44.513  -8.006   27.977  1  N  9 
+PMI  C1'   .  C  0  44.137  -9.359   28.518  1  Y  10
+PMI  C6'   .  C  0  43.045  -9.709   29.329  1  Y  11
+PMI  C5'   .  C  0  42.911  -11.078  29.706  1  Y  12
+PMI  C4'   .  C  0  43.867  -12.067  29.311  1  Y  13
+PMI  C3'   .  C  0  44.976  -11.732  28.494  1  Y  14
+PMI  HO12  .  H  0  48.246  -7.216   28.970  0  N  15
+PMI  HO13  .  H  0  46.452  -5.253   27.658  0  N  16
+PMI  1H9'  .  H  0  46.323  -10.324  26.310  0  N  17
+PMI  2H9'  .  H  0  47.192  -9.804   27.732  0  N  18
+PMI  1H11  .  H  0  44.309  -8.110   25.508  0  N  19
+PMI  2H11  .  H  0  45.701  -7.300   25.235  0  N  20
+PMI  1H7'  .  H  0  44.819  -7.317   28.778  0  N  21
+PMI  2H7'  .  H  0  43.678  -7.493   27.478  0  N  22
+PMI  H6'   .  H  0  42.331  -8.967   29.656  1  N  23
+PMI  H5'   .  H  0  42.064  -11.377  30.306  1  N  24
+PMI  H4'   .  H  0  43.741  -13.087  29.641  1  N  25
+PMI  H3'   .  H  0  45.680  -12.487  28.176  1  N  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PMI  O14  P10   DOUB  N  1 
+PMI  P10  O13   SING  N  2 
+PMI  P10  C8'   SING  N  3 
+PMI  P10  O12   SING  N  4 
+PMI  O12  HO12  SING  N  5 
+PMI  O13  HO13  SING  N  6 
+PMI  C8'  N11   SING  N  7 
+PMI  C8'  C9'   SING  N  8 
+PMI  C8'  C7'   SING  N  9 
+PMI  C9'  C2'   SING  N  10
+PMI  C9'  1H9'  SING  N  11
+PMI  C9'  2H9'  SING  N  12
+PMI  C2'  C3'   DOUB  Y  13
+PMI  C2'  C1'   SING  Y  14
+PMI  N11  1H11  SING  N  15
+PMI  N11  2H11  SING  N  16
+PMI  C7'  C1'   SING  N  17
+PMI  C7'  1H7'  SING  N  18
+PMI  C7'  2H7'  SING  N  19
+PMI  C1'  C6'   DOUB  Y  20
+PMI  C6'  C5'   SING  Y  21
+PMI  C6'  H6'   SING  N  22
+PMI  C5'  C4'   DOUB  Y  23
+PMI  C5'  H5'   SING  N  24
+PMI  C4'  C3'   SING  Y  25
+PMI  C4'  H4'   SING  N  26
+PMI  C3'  H3'   SING  N  27
+#

@@ -1,0 +1,85 @@
+data_VPR
+#
+_chem_comp.id                   VPR
+_chem_comp.name                 2-PROPYLPENTANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H17 N1 O1'
+_chem_comp.pdbx_synonyms        VALPROMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        143.228
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VPR  C5    .  C  0  15.767  21.081  5.872   1  1 
+VPR  C4    .  C  0  16.503  21.722  6.999   1  2 
+VPR  C3    .  C  0  15.710  21.958  8.265   1  3 
+VPR  C2    .  C  0  16.074  23.229  9.029   1  4 
+VPR  C3A   .  C  0  17.573  23.416  9.166   1  5 
+VPR  C4A   .  C  0  17.881  24.671  9.969   1  6 
+VPR  C5A   .  C  0  19.290  25.208  9.809   1  7 
+VPR  C1    .  C  0  15.356  23.326  10.378  1  8 
+VPR  N     .  N  0  15.798  22.750  11.526  1  9 
+VPR  O     .  O  0  14.360  24.021  10.419  1  10
+VPR  1H5   .  H  0  ?       ?       ?       0  11
+VPR  2H5   .  H  0  ?       ?       ?       0  12
+VPR  3H5   .  H  0  ?       ?       ?       0  13
+VPR  1H4   .  H  0  ?       ?       ?       0  14
+VPR  2H4   .  H  0  ?       ?       ?       0  15
+VPR  1H3   .  H  0  ?       ?       ?       0  16
+VPR  2H3   .  H  0  ?       ?       ?       0  17
+VPR  H2    .  H  0  ?       ?       ?       1  18
+VPR  1H3A  .  H  0  ?       ?       ?       0  19
+VPR  2H3A  .  H  0  ?       ?       ?       0  20
+VPR  1H4A  .  H  0  ?       ?       ?       0  21
+VPR  2H4A  .  H  0  ?       ?       ?       0  22
+VPR  1H5A  .  H  0  ?       ?       ?       0  23
+VPR  2H5A  .  H  0  ?       ?       ?       0  24
+VPR  3H5A  .  H  0  ?       ?       ?       0  25
+VPR  1HN   .  H  0  ?       ?       ?       0  26
+VPR  2HN   .  H  0  ?       ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VPR  C5   C4    SING  1 
+VPR  C5   1H5   SING  2 
+VPR  C5   2H5   SING  3 
+VPR  C5   3H5   SING  4 
+VPR  C4   C3    SING  5 
+VPR  C4   1H4   SING  6 
+VPR  C4   2H4   SING  7 
+VPR  C3   C2    SING  8 
+VPR  C3   1H3   SING  9 
+VPR  C3   2H3   SING  10
+VPR  C2   C3A   SING  11
+VPR  C2   C1    SING  12
+VPR  C2   H2    SING  13
+VPR  C3A  C4A   SING  14
+VPR  C3A  1H3A  SING  15
+VPR  C3A  2H3A  SING  16
+VPR  C4A  C5A   SING  17
+VPR  C4A  1H4A  SING  18
+VPR  C4A  2H4A  SING  19
+VPR  C5A  1H5A  SING  20
+VPR  C5A  2H5A  SING  21
+VPR  C5A  3H5A  SING  22
+VPR  C1   N     SING  23
+VPR  C1   O     DOUB  24
+VPR  N    1HN   SING  25
+VPR  N    2HN   SING  26
+#

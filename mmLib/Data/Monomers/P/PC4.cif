@@ -1,0 +1,42 @@
+data_PC4
+#
+_chem_comp.id                   PC4
+_chem_comp.name                 TETRACHLOROPLATINATE(II)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'CL4 PT1'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       336.902
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PC4  PT   .  PT  2   42.354  47.435  24.380  0  N  1
+PC4  CL1  .  CL  -1  40.357  47.022  24.818  0  N  2
+PC4  CL2  .  CL  -1  42.310  48.903  26.077  0  N  3
+PC4  CL3  .  CL  -1  44.325  48.210  23.637  0  N  4
+PC4  CL4  .  CL  -1  41.843  45.838  22.796  0  N  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PC4  PT  CL1  SING  N  1
+PC4  PT  CL2  SING  N  2
+PC4  PT  CL3  SING  N  3
+PC4  PT  CL4  SING  N  4
+#

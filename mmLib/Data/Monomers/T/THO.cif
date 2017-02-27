@@ -1,0 +1,66 @@
+data_THO
+#
+_chem_comp.id                   THO
+_chem_comp.name                 'REDUCED THREONINE'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        105.136
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THO  N     .  N  0  ?  ?  ?  1  1 
+THO  CA    .  C  0  ?  ?  ?  1  2 
+THO  CB    .  C  0  ?  ?  ?  1  3 
+THO  CG2   .  C  0  ?  ?  ?  1  4 
+THO  OG1   .  O  0  ?  ?  ?  1  5 
+THO  C     .  C  0  ?  ?  ?  1  6 
+THO  O     .  O  0  ?  ?  ?  1  7 
+THO  1HN   .  H  0  ?  ?  ?  0  8 
+THO  2HN   .  H  0  ?  ?  ?  0  9 
+THO  HA    .  H  0  ?  ?  ?  1  10
+THO  HB    .  H  0  ?  ?  ?  1  11
+THO  1HG2  .  H  0  ?  ?  ?  0  12
+THO  2HG2  .  H  0  ?  ?  ?  0  13
+THO  3HG2  .  H  0  ?  ?  ?  0  14
+THO  HG1   .  H  0  ?  ?  ?  1  15
+THO  1H    .  H  0  ?  ?  ?  0  16
+THO  2H    .  H  0  ?  ?  ?  0  17
+THO  HO    .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THO  N    CA    SING  1 
+THO  N    1HN   SING  2 
+THO  N    2HN   SING  3 
+THO  CA   CB    SING  4 
+THO  CA   C     SING  5 
+THO  CA   HA    SING  6 
+THO  CB   OG1   SING  7 
+THO  CB   CG2   SING  8 
+THO  CB   HB    SING  9 
+THO  CG2  1HG2  SING  10
+THO  CG2  2HG2  SING  11
+THO  CG2  3HG2  SING  12
+THO  OG1  HG1   SING  13
+THO  C    O     SING  14
+THO  C    1H    SING  15
+THO  C    2H    SING  16
+THO  O    HO    SING  17
+#

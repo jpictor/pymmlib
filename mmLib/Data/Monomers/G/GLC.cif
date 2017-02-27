@@ -1,0 +1,79 @@
+data_GLC
+#
+_chem_comp.id                   GLC
+_chem_comp.name                 GLUCOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLC  C1   .  C  0  8.537   13.141   37.436  1  1 
+GLC  C2   .  C  0  8.657   12.625   38.866  1  2 
+GLC  C3   .  C  0  8.946   13.753   39.819  1  3 
+GLC  C4   .  C  0  10.145  14.523   39.36   1  4 
+GLC  C5   .  C  0  9.847   15.161   37.965  1  5 
+GLC  C6   .  C  0  11.109  15.823   37.373  1  6 
+GLC  O1   .  O  0  7.343   13.747   37.26   1  7 
+GLC  O2   .  O  0  7.43    12.031   39.245  1  8 
+GLC  O3   .  O  0  9.253   13.149   41.094  1  9 
+GLC  O4   .  O  0  10.317  15.675   40.245  1  10
+GLC  O5   .  O  0  9.352   14.183   37.085  1  11
+GLC  O6   .  O  0  10.583  16.542   36.238  1  12
+GLC  H1   .  H  0  13.235  -10.888  .607    1  13
+GLC  H2   .  H  0  14.358  -11.482  2.711   1  14
+GLC  H3   .  H  0  13.038  -9.135   3.856   1  15
+GLC  H4   .  H  0  15.901  -9.3     3.268   1  16
+GLC  H5   .  H  0  13.845  -7.812   1.79    1  17
+GLC  1H6  .  H  0  16.707  -7.992   1.235   0  18
+GLC  2H6  .  H  0  16.014  -6.667   1.893   0  19
+GLC  HO1  .  H  0  11.477  -9.538   .724    1  20
+GLC  HO2  .  H  0  12.544  -12.532  3.304   1  21
+GLC  HO3  .  H  0  13.577  -10.01   5.775   1  22
+GLC  HO4  .  H  0  16.057  -7.569   4.582   1  23
+GLC  HO6  .  H  0  15.515  -5.992   -.174   1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLC  C1  O5   SING  1 
+GLC  C1  H1   SING  2 
+GLC  C1  C2   SING  3 
+GLC  C1  O1   SING  4 
+GLC  C2  C3   SING  5 
+GLC  C2  O2   SING  6 
+GLC  C2  H2   SING  7 
+GLC  C3  C4   SING  8 
+GLC  C3  O3   SING  9 
+GLC  C3  H3   SING  10
+GLC  C4  C5   SING  11
+GLC  C4  O4   SING  12
+GLC  C4  H4   SING  13
+GLC  C5  C6   SING  14
+GLC  C5  O5   SING  15
+GLC  C5  H5   SING  16
+GLC  C6  O6   SING  17
+GLC  C6  1H6  SING  18
+GLC  C6  2H6  SING  19
+GLC  O1  HO1  SING  20
+GLC  O2  HO2  SING  21
+GLC  O3  HO3  SING  22
+GLC  O4  HO4  SING  23
+GLC  O6  HO6  SING  24
+#

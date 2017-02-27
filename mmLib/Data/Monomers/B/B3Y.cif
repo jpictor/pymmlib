@@ -1,0 +1,94 @@
+data_B3Y
+#
+_chem_comp.id                       B3Y
+_chem_comp.name                     '(3S)-3-AMINO-4-(4-HYDROXYPHENYL)BUTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H13 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            195.218
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          B3Y
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(ccc1C[C@@H](CC(=O)O)N)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+B3Y  O    .  O  0  -2.356  -7.548   16.947  1  N  1 
+B3Y  C    .  C  0  -2.176  -7.180   15.793  1  N  2 
+B3Y  CA   .  C  0  -3.016  -7.669   14.671  1  N  3 
+B3Y  CB   .  C  0  -4.342  -7.018   14.601  1  N  4 
+B3Y  N    .  N  0  -4.162  -5.747   13.911  1  N  5 
+B3Y  CG   .  C  0  -5.259  -7.891   13.763  1  N  6 
+B3Y  CD   .  C  0  -6.002  -9.019   14.501  1  Y  7 
+B3Y  CE2  .  C  0  -5.723  -10.374  14.242  1  Y  8 
+B3Y  CF2  .  C  0  -6.416  -11.394  14.893  1  Y  9 
+B3Y  CZ   .  C  0  -7.406  -11.078  15.823  1  Y  10
+B3Y  OH   .  O  0  -8.111  -12.075  16.480  1  N  11
+B3Y  CF1  .  C  0  -7.701  -9.742   16.091  1  Y  12
+B3Y  CE1  .  C  0  -7.008  -8.724   15.412  1  Y  13
+B3Y  OXT  .  O  0  -1.200  -6.372   15.459  1  N  14
+B3Y  HXT  .  H  0  ?       ?        ?       1  N  15
+B3Y  1HA  .  H  0  -3.171  -8.750   14.805  0  N  16
+B3Y  2HA  .  H  0  -2.485  -7.430   13.738  0  N  17
+B3Y  HB   .  H  0  -4.769  -6.871   15.604  1  N  18
+B3Y  1HN  .  H  0  -4.121  -5.006   14.581  0  N  19
+B3Y  2HN  .  H  0  -3.311  -5.770   13.387  0  N  20
+B3Y  1HG  .  H  0  -4.638  -8.364   12.989  0  N  21
+B3Y  2HG  .  H  0  -6.044  -7.218   13.388  0  N  22
+B3Y  HE2  .  H  0  -4.957  -10.629  13.525  1  N  23
+B3Y  HF2  .  H  0  -6.186  -12.427  14.677  1  N  24
+B3Y  HOH  .  H  0  -8.272  -12.796  15.883  1  N  25
+B3Y  HF1  .  H  0  -8.459  -9.490   16.818  1  N  26
+B3Y  HE1  .  H  0  -7.263  -7.692   15.603  1  N  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+B3Y  O    C    DOUB  N  1 
+B3Y  C    CA   SING  N  2 
+B3Y  C    OXT  SING  N  3 
+B3Y  CA   CB   SING  N  4 
+B3Y  CA   1HA  SING  N  5 
+B3Y  CA   2HA  SING  N  6 
+B3Y  CB   CG   SING  N  7 
+B3Y  CB   N    SING  N  8 
+B3Y  CB   HB   SING  N  9 
+B3Y  N    1HN  SING  N  10
+B3Y  N    2HN  SING  N  11
+B3Y  CG   CD   SING  N  12
+B3Y  CG   1HG  SING  N  13
+B3Y  CG   2HG  SING  N  14
+B3Y  CD   CE2  DOUB  Y  15
+B3Y  CD   CE1  SING  Y  16
+B3Y  CE2  CF2  SING  Y  17
+B3Y  CE2  HE2  SING  N  18
+B3Y  CF2  CZ   DOUB  Y  19
+B3Y  CF2  HF2  SING  N  20
+B3Y  CZ   CF1  SING  Y  21
+B3Y  CZ   OH   SING  N  22
+B3Y  OH   HOH  SING  N  23
+B3Y  CF1  CE1  DOUB  Y  24
+B3Y  CF1  HF1  SING  N  25
+B3Y  CE1  HE1  SING  N  26
+B3Y  OXT  HXT  SING  N  27
+#

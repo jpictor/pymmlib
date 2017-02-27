@@ -1,0 +1,67 @@
+data_PRO
+#
+_chem_comp.id                   PRO
+_chem_comp.name                 PROLINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H10 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        116.140
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PRO  N    .  N  0  ?  ?  ?  1  1 
+PRO  CA   .  C  0  ?  ?  ?  1  2 
+PRO  C    .  C  0  ?  ?  ?  1  3 
+PRO  O    .  O  0  ?  ?  ?  1  4 
+PRO  CB   .  C  0  ?  ?  ?  1  5 
+PRO  CG   .  C  0  ?  ?  ?  1  6 
+PRO  CD   .  C  0  ?  ?  ?  1  7 
+PRO  OXT  .  O  0  ?  ?  ?  1  8 
+PRO  HT1  .  H  0  ?  ?  ?  1  9 
+PRO  HT2  .  H  0  ?  ?  ?  1  10
+PRO  HA   .  H  0  ?  ?  ?  1  11
+PRO  1HB  .  H  0  ?  ?  ?  0  12
+PRO  2HB  .  H  0  ?  ?  ?  0  13
+PRO  1HG  .  H  0  ?  ?  ?  0  14
+PRO  2HG  .  H  0  ?  ?  ?  0  15
+PRO  1HD  .  H  0  ?  ?  ?  0  16
+PRO  2HD  .  H  0  ?  ?  ?  0  17
+PRO  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PRO  N    CA   SING  1 
+PRO  N    CD   SING  2 
+PRO  N    HT1  SING  3 
+PRO  N    HT2  SING  4 
+PRO  CA   C    SING  5 
+PRO  CA   CB   SING  6 
+PRO  CA   HA   SING  7 
+PRO  C    O    DOUB  8 
+PRO  C    OXT  SING  9 
+PRO  CB   CG   SING  10
+PRO  CB   1HB  SING  11
+PRO  CB   2HB  SING  12
+PRO  CG   CD   SING  13
+PRO  CG   1HG  SING  14
+PRO  CG   2HG  SING  15
+PRO  CD   1HD  SING  16
+PRO  CD   2HD  SING  17
+PRO  OXT  HXT  SING  18
+#

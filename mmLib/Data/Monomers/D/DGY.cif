@@ -1,0 +1,56 @@
+data_DGY
+#
+_chem_comp.id                   DGY
+_chem_comp.name                 '(2R)-2,3-DIHYDROXYPROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        106.078
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DGY  C1    .  C  0  -13.911  67.479  41.501  1  1 
+DGY  O1    .  O  0  -14.605  66.922  40.577  1  2 
+DGY  O2    .  O  0  -14.139  68.64   41.904  1  3 
+DGY  C2    .  C  0  -12.735  66.769  42.182  1  4 
+DGY  O3    .  O  0  -12.309  65.579  41.464  1  5 
+DGY  C3    .  C  0  -13.106  66.309  43.591  1  6 
+DGY  O4    .  O  0  -13.682  67.404  44.313  1  7 
+DGY  H1    .  H  0  ?        ?       ?       1  8 
+DGY  H2    .  H  0  -11.876  67.477  42.248  1  9 
+DGY  H3    .  H  0  -11.58   65.139  41.886  1  10
+DGY  1H3C  .  H  0  -12.24   65.858  44.129  0  11
+DGY  2H3C  .  H  0  -13.771  65.414  43.581  0  12
+DGY  H4    .  H  0  -13.913  67.118  45.189  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DGY  C1  O1    SING  1 
+DGY  C1  O2    DOUB  2 
+DGY  C1  C2    SING  3 
+DGY  O1  H1    SING  4 
+DGY  C2  O3    SING  5 
+DGY  C2  C3    SING  6 
+DGY  C2  H2    SING  7 
+DGY  O3  H3    SING  8 
+DGY  C3  O4    SING  9 
+DGY  C3  1H3C  SING  10
+DGY  C3  2H3C  SING  11
+DGY  O4  H4    SING  12
+#

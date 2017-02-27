@@ -1,0 +1,89 @@
+data_DBS
+#
+_chem_comp.id                       DBS
+_chem_comp.name                     '2-(2,3-DIHYDROXY-BENZOYLAMINO)-3-HYDROXY-PROPIONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H11 N1 O6'
+_chem_comp.pdbx_synonyms            2,3,-DIHYDROXYBENZOYLSERINE
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            241.200
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DBS  O4    .  O  0  57.454  103.732  36.579  1  1 
+DBS  C4    .  C  0  57.270  103.280  37.833  1  2 
+DBS  C7    .  C  0  57.945  102.272  38.504  1  3 
+DBS  C1    .  C  0  56.238  103.988  38.514  1  4 
+DBS  O1    .  O  0  55.663  104.937  37.795  1  5 
+DBS  C16   .  C  0  55.908  103.656  39.844  1  6 
+DBS  C13   .  C  0  56.602  102.623  40.503  1  7 
+DBS  C10   .  C  0  57.604  101.947  39.817  1  8 
+DBS  C19   .  C  0  54.831  104.393  40.555  1  9 
+DBS  O7    .  O  0  54.541  104.105  41.716  1  10
+DBS  N1    .  N  0  54.192  105.381  39.878  1  11
+DBS  C22   .  C  0  53.138  106.194  40.454  1  12
+DBS  C28   .  C  0  53.691  107.426  41.112  1  13
+DBS  O13   .  O  0  53.261  108.659  40.471  1  14
+DBS  C25   .  C  0  52.037  106.476  39.437  1  15
+DBS  O10   .  O  0  50.884  106.569  39.755  1  16
+DBS  O15   .  O  0  52.494  106.600  38.188  1  17
+DBS  HO1   .  H  0  ?       ?        ?       1  18
+DBS  HO4   .  H  0  ?       ?        ?       1  19
+DBS  HC7   .  H  0  ?       ?        ?       1  20
+DBS  HC10  .  H  0  ?       ?        ?       0  21
+DBS  HC13  .  H  0  ?       ?        ?       0  22
+DBS  HN1   .  H  0  ?       ?        ?       1  23
+DBS  HC22  .  H  0  ?       ?        ?       0  24
+DBS  1H28  .  H  0  ?       ?        ?       0  25
+DBS  2H28  .  H  0  ?       ?        ?       0  26
+DBS  HO13  .  H  0  ?       ?        ?       0  27
+DBS  HO15  .  H  0  ?       ?        ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DBS  O4   C4    SING  1 
+DBS  O4   HO4   SING  2 
+DBS  C4   C7    AROM  3 
+DBS  C4   C1    AROM  4 
+DBS  C7   C10   AROM  5 
+DBS  C7   HC7   SING  6 
+DBS  C1   O1    SING  7 
+DBS  C1   C16   AROM  8 
+DBS  O1   HO1   SING  9 
+DBS  C16  C13   AROM  10
+DBS  C16  C19   SING  11
+DBS  C13  C10   AROM  12
+DBS  C13  HC13  SING  13
+DBS  C10  HC10  SING  14
+DBS  C19  O7    DOUB  15
+DBS  C19  N1    SING  16
+DBS  N1   C22   SING  17
+DBS  N1   HN1   SING  18
+DBS  C22  C28   SING  19
+DBS  C22  C25   SING  20
+DBS  C22  HC22  SING  21
+DBS  C28  O13   SING  22
+DBS  C28  1H28  SING  23
+DBS  C28  2H28  SING  24
+DBS  O13  HO13  SING  25
+DBS  C25  O10   DOUB  26
+DBS  C25  O15   SING  27
+DBS  O15  HO15  SING  28
+#

@@ -1,0 +1,99 @@
+data_BRW
+#
+_chem_comp.id                   BRW
+_chem_comp.name                 6-BROMOINDIRUBIN-3'-OXIME
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H10 N3 O2 BR1'
+_chem_comp.pdbx_synonyms        '(3E)-6'-BROMO-2,3'-BIINDOLE-2',3(1H,1'H)-DIONE 3-OXIME'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        356.178
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRW  C1    .  C   0  94.405  70.408  9.094   1  1 
+BRW  C2    .  C   0  93.677  69.251  9.602   1  2 
+BRW  C3    .  C   0  95.808  69.982  8.983   1  3 
+BRW  N4    .  N   0  95.911  68.67   9.422   1  4 
+BRW  C5    .  C   0  96.774  70.813  8.52    1  5 
+BRW  C7    .  C   0  96.378  72.19   8.095   1  6 
+BRW  C9    .  C   0  95.075  72.591  8.194   1  7 
+BRW  C11   .  C   0  94.026  71.665  8.717   1  8 
+BRW  C13   .  C   0  94.633  68.168  9.788   1  9 
+BRW  C14   .  C   0  94.491  66.914  10.166  1  10
+BRW  C15   .  C   0  95.643  65.996  10.351  1  11
+BRW  N16   .  N   0  95.164  64.712  10.73   1  12
+BRW  C17   .  C   0  93.774  64.793  10.747  1  13
+BRW  C18   .  C   0  93.33   66.063  10.474  1  14
+BRW  C19   .  C   0  92.846  63.68   11.024  1  15
+BRW  C20   .  C   0  91.507  63.922  10.967  1  16
+BRW  C21   .  C   0  91.028  65.28   10.691  1  17
+BRW  C22   .  C   0  91.882  66.29   10.44   1  18
+BRW  O23   .  O   0  96.836  66.277  10.201  1  19
+BRW  N24   .  N   0  92.44   69.155  9.87    1  20
+BRW  O39   .  O   0  91.456  70.023  9.782   1  21
+BRW  BR21  .  BR  0  90.24   62.548  11.2    0  22
+BRW  H11   .  H   0  92.974  71.987  8.797   1  23
+BRW  H4    .  H   0  96.781  68.141  9.475   1  24
+BRW  H5    .  H   0  97.824  70.482  8.459   1  25
+BRW  H7    .  H   0  97.139  72.884  7.701   1  26
+BRW  H9    .  H   0  94.795  73.612  7.884   1  27
+BRW  H16   .  H   0  95.729  63.891  10.947  1  28
+BRW  H19   .  H   0  93.228  62.675  11.271  1  29
+BRW  H22   .  H   0  91.49   67.294  10.207  1  30
+BRW  H21   .  H   0  89.943  65.479  10.689  1  31
+BRW  H39   .  H   0  90.53   69.951  9.983   1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRW  C1   C2    SING  1 
+BRW  C1   C3    AROM  2 
+BRW  C1   C11   AROM  3 
+BRW  C2   C13   SING  4 
+BRW  C2   N24   DOUB  5 
+BRW  C3   N4    SING  6 
+BRW  C3   C5    AROM  7 
+BRW  N4   C13   SING  8 
+BRW  N4   H4    SING  9 
+BRW  C5   C7    AROM  10
+BRW  C5   H5    SING  11
+BRW  C7   C9    AROM  12
+BRW  C7   H7    SING  13
+BRW  C9   C11   AROM  14
+BRW  C9   H9    SING  15
+BRW  C11  H11   SING  16
+BRW  C13  C14   DOUB  17
+BRW  C14  C15   SING  18
+BRW  C14  C18   SING  19
+BRW  C15  N16   SING  20
+BRW  C15  O23   DOUB  21
+BRW  N16  C17   SING  22
+BRW  N16  H16   SING  23
+BRW  C17  C18   AROM  24
+BRW  C17  C19   AROM  25
+BRW  C18  C22   AROM  26
+BRW  C19  C20   AROM  27
+BRW  C19  H19   SING  28
+BRW  C20  C21   AROM  29
+BRW  C20  BR21  SING  30
+BRW  C21  C22   AROM  31
+BRW  C21  H21   SING  32
+BRW  C22  H22   SING  33
+BRW  N24  O39   SING  34
+BRW  O39  H39   SING  35
+#

@@ -1,0 +1,101 @@
+data_SUR
+#
+_chem_comp.id                       SUR
+_chem_comp.name                     1-(BETA-D-RIBOFURANOSYL)-2-THIO-URACIL-5'-PHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O8 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            340.244
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SUR  P     .  P  0  ?  ?  ?  1  1 
+SUR  O1P   .  O  0  ?  ?  ?  1  2 
+SUR  O2P   .  O  0  ?  ?  ?  1  3 
+SUR  O3P   .  O  0  ?  ?  ?  1  4 
+SUR  O5'   .  O  0  ?  ?  ?  1  5 
+SUR  C5'   .  C  0  ?  ?  ?  1  6 
+SUR  C4'   .  C  0  ?  ?  ?  1  7 
+SUR  O4'   .  O  0  ?  ?  ?  1  8 
+SUR  C3'   .  C  0  ?  ?  ?  1  9 
+SUR  C1'   .  C  0  ?  ?  ?  1  10
+SUR  N1    .  N  0  ?  ?  ?  1  11
+SUR  C2'   .  C  0  ?  ?  ?  1  12
+SUR  C6    .  C  0  ?  ?  ?  1  13
+SUR  C2    .  C  0  ?  ?  ?  1  14
+SUR  C5    .  C  0  ?  ?  ?  1  15
+SUR  S2    .  S  0  ?  ?  ?  1  16
+SUR  N3    .  N  0  ?  ?  ?  1  17
+SUR  C4    .  C  0  ?  ?  ?  1  18
+SUR  O4    .  O  0  ?  ?  ?  1  19
+SUR  O2'   .  O  0  ?  ?  ?  1  20
+SUR  O3'   .  O  0  ?  ?  ?  1  21
+SUR  1H5'  .  H  0  ?  ?  ?  0  22
+SUR  2H5'  .  H  0  ?  ?  ?  0  23
+SUR  H4'   .  H  0  ?  ?  ?  1  24
+SUR  H3'   .  H  0  ?  ?  ?  1  25
+SUR  H1'   .  H  0  ?  ?  ?  1  26
+SUR  H2'   .  H  0  ?  ?  ?  1  27
+SUR  HC6   .  H  0  ?  ?  ?  1  28
+SUR  HC5   .  H  0  ?  ?  ?  1  29
+SUR  HN3   .  H  0  ?  ?  ?  1  30
+SUR  HO2   .  H  0  ?  ?  ?  1  31
+SUR  HO3   .  H  0  ?  ?  ?  1  32
+SUR  1HOP  .  H  0  ?  ?  ?  0  33
+SUR  3HOP  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SUR  P    O1P   SING  1 
+SUR  P    O2P   DOUB  2 
+SUR  P    O3P   SING  3 
+SUR  P    O5'   SING  4 
+SUR  O1P  1HOP  SING  5 
+SUR  O3P  3HOP  SING  6 
+SUR  O5'  C5'   SING  7 
+SUR  C5'  1H5'  SING  8 
+SUR  C5'  2H5'  SING  9 
+SUR  C5'  C4'   SING  10
+SUR  C4'  O4'   SING  11
+SUR  C4'  C3'   SING  12
+SUR  C4'  H4'   SING  13
+SUR  O4'  C1'   SING  14
+SUR  C3'  C2'   SING  15
+SUR  C3'  O3'   SING  16
+SUR  C3'  H3'   SING  17
+SUR  C1'  N1    SING  18
+SUR  C1'  C2'   SING  19
+SUR  C1'  H1'   SING  20
+SUR  N1   C6    SING  21
+SUR  N1   C2    SING  22
+SUR  C2'  O2'   SING  23
+SUR  C2'  H2'   SING  24
+SUR  C6   C5    DOUB  25
+SUR  C6   HC6   SING  26
+SUR  C2   S2    DOUB  27
+SUR  C2   N3    SING  28
+SUR  C5   HC5   SING  29
+SUR  C5   C4    SING  30
+SUR  N3   C4    SING  31
+SUR  N3   HN3   SING  32
+SUR  C4   O4    DOUB  33
+SUR  O2'  HO2   SING  34
+SUR  O3'  HO3   SING  35
+#

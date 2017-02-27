@@ -1,0 +1,76 @@
+data_OTR
+#
+_chem_comp.id                   OTR
+_chem_comp.name                 4-(2R-AMINO-1-HYDROXYETHYL)PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N1 O2'
+_chem_comp.pdbx_synonyms        R-OCTOPAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        153.180
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OTR  C2    .  C  0  -26.604  24.913  60.873  1  1 
+OTR  C3    .  C  0  -25.292  24.453  60.932  1  2 
+OTR  C4    .  C  0  -24.391  24.798  59.930  1  3 
+OTR  O4    .  O  0  -23.104  24.367  60.009  1  4 
+OTR  C5    .  C  0  -24.800  25.599  58.867  1  5 
+OTR  C6    .  C  0  -26.113  26.059  58.812  1  6 
+OTR  C1    .  C  0  -27.018  25.719  59.815  1  7 
+OTR  C7    .  C  0  -28.465  26.220  59.813  1  8 
+OTR  O7    .  O  0  -28.638  27.150  60.885  1  9 
+OTR  C8    .  C  0  -28.852  26.894  58.495  1  10
+OTR  N8    .  N  0  -30.259  27.314  58.567  1  11
+OTR  1HN8  .  H  0  ?        ?       ?       0  12
+OTR  2HN8  .  H  0  ?        ?       ?       0  13
+OTR  1H8   .  H  0  ?        ?       ?       0  14
+OTR  2H8   .  H  0  ?        ?       ?       0  15
+OTR  H7    .  H  0  ?        ?       ?       1  16
+OTR  HO7   .  H  0  ?        ?       ?       1  17
+OTR  H6    .  H  0  ?        ?       ?       1  18
+OTR  H5    .  H  0  ?        ?       ?       1  19
+OTR  HO4   .  H  0  ?        ?       ?       1  20
+OTR  H3    .  H  0  ?        ?       ?       1  21
+OTR  H2    .  H  0  ?        ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OTR  C2  C3    AROM  1 
+OTR  C2  C1    AROM  2 
+OTR  C2  H2    SING  3 
+OTR  C3  C4    AROM  4 
+OTR  C3  H3    SING  5 
+OTR  C4  C5    AROM  6 
+OTR  C4  O4    SING  7 
+OTR  O4  HO4   SING  8 
+OTR  C5  C6    AROM  9 
+OTR  C5  H5    SING  10
+OTR  C6  C1    AROM  11
+OTR  C6  H6    SING  12
+OTR  C1  C7    SING  13
+OTR  C7  C8    SING  14
+OTR  C7  O7    SING  15
+OTR  C7  H7    SING  16
+OTR  O7  HO7   SING  17
+OTR  C8  N8    SING  18
+OTR  C8  1H8   SING  19
+OTR  C8  2H8   SING  20
+OTR  N8  1HN8  SING  21
+OTR  N8  2HN8  SING  22
+#

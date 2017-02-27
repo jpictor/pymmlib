@@ -1,0 +1,100 @@
+data_RVP
+#
+_chem_comp.id                   RVP
+_chem_comp.name                 'RIBAVIRIN MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N4 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.186
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RVP  P     .  P  0  67.956  55.326  15.030  1  1 
+RVP  O1P   .  O  0  67.599  55.298  13.584  1  2 
+RVP  O2P   .  O  0  68.773  54.112  15.339  1  3 
+RVP  O3P   .  O  0  68.746  56.610  15.417  1  4 
+RVP  O5*   .  O  0  66.712  55.355  16.025  1  5 
+RVP  C5*   .  C  0  65.739  54.316  15.952  1  6 
+RVP  C4*   .  C  0  64.671  54.502  16.988  1  7 
+RVP  O4*   .  O  0  63.926  55.711  16.580  1  8 
+RVP  C3*   .  C  0  63.577  53.460  17.161  1  9 
+RVP  O3*   .  O  0  63.984  52.307  17.873  1  10
+RVP  C2*   .  C  0  62.492  54.243  17.828  1  11
+RVP  O2*   .  O  0  62.627  54.319  19.229  1  12
+RVP  C1*   .  C  0  62.592  55.588  17.102  1  13
+RVP  N9    .  N  0  61.622  55.733  15.944  1  14
+RVP  C8    .  C  0  61.057  54.826  15.060  1  15
+RVP  N7    .  N  0  60.267  55.381  14.205  1  16
+RVP  C5    .  C  0  60.271  56.709  14.490  1  17
+RVP  C6    .  C  0  59.576  57.821  13.859  1  18
+RVP  O6    .  O  0  58.813  57.761  12.899  1  19
+RVP  N1    .  N  0  59.843  59.105  14.458  1  20
+RVP  N4    .  N  0  61.107  56.965  15.574  1  21
+RVP  1HN   .  H  0  ?       ?       ?       0  22
+RVP  2HN   .  H  0  ?       ?       ?       0  23
+RVP  HC8   .  H  0  ?       ?       ?       1  24
+RVP  H1*   .  H  0  ?       ?       ?       1  25
+RVP  H2*   .  H  0  ?       ?       ?       1  26
+RVP  H3*   .  H  0  ?       ?       ?       1  27
+RVP  H4*   .  H  0  ?       ?       ?       1  28
+RVP  1H5*  .  H  0  ?       ?       ?       0  29
+RVP  2H5*  .  H  0  ?       ?       ?       0  30
+RVP  2HO*  .  H  0  ?       ?       ?       0  31
+RVP  3HO*  .  H  0  ?       ?       ?       0  32
+RVP  1HOP  .  H  0  ?       ?       ?       0  33
+RVP  2HOP  .  H  0  ?       ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RVP  P    O1P   SING  1 
+RVP  P    O2P   SING  2 
+RVP  P    O3P   DOUB  3 
+RVP  P    O5*   SING  4 
+RVP  O1P  1HOP  SING  5 
+RVP  O2P  2HOP  SING  6 
+RVP  O5*  C5*   SING  7 
+RVP  C5*  C4*   SING  8 
+RVP  C5*  1H5*  SING  9 
+RVP  C5*  2H5*  SING  10
+RVP  C4*  O4*   SING  11
+RVP  C4*  C3*   SING  12
+RVP  C4*  H4*   SING  13
+RVP  O4*  C1*   SING  14
+RVP  C3*  O3*   SING  15
+RVP  C3*  C2*   SING  16
+RVP  C3*  H3*   SING  17
+RVP  O3*  3HO*  SING  18
+RVP  C2*  O2*   SING  19
+RVP  C2*  C1*   SING  20
+RVP  C2*  H2*   SING  21
+RVP  O2*  2HO*  SING  22
+RVP  C1*  N9    SING  23
+RVP  C1*  H1*   SING  24
+RVP  N9   C8    SING  25
+RVP  N9   N4    SING  26
+RVP  C8   N7    DOUB  27
+RVP  C8   HC8   SING  28
+RVP  N7   C5    SING  29
+RVP  C5   C6    SING  30
+RVP  C5   N4    DOUB  31
+RVP  C6   O6    DOUB  32
+RVP  C6   N1    SING  33
+RVP  N1   1HN   SING  34
+RVP  N1   2HN   SING  35
+#

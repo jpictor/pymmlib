@@ -1,0 +1,75 @@
+data_DNH
+#
+_chem_comp.id                   DNH
+_chem_comp.name                 1R,2R-DIAMINOCYCLOHEXANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        114.190
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DNH  C7   .  C  0  ?  ?  ?  1  1 
+DNH  C8   .  C  0  ?  ?  ?  1  2 
+DNH  C3   .  C  0  ?  ?  ?  1  3 
+DNH  C4   .  C  0  ?  ?  ?  1  4 
+DNH  C5   .  C  0  ?  ?  ?  1  5 
+DNH  C6   .  C  0  ?  ?  ?  1  6 
+DNH  N1   .  N  0  ?  ?  ?  1  7 
+DNH  N2   .  N  0  ?  ?  ?  1  8 
+DNH  1H1  .  H  0  ?  ?  ?  0  9 
+DNH  2H1  .  H  0  ?  ?  ?  0  10
+DNH  1H2  .  H  0  ?  ?  ?  0  11
+DNH  2H2  .  H  0  ?  ?  ?  0  12
+DNH  H3   .  H  0  ?  ?  ?  1  13
+DNH  H4   .  H  0  ?  ?  ?  1  14
+DNH  1H5  .  H  0  ?  ?  ?  0  15
+DNH  2H5  .  H  0  ?  ?  ?  0  16
+DNH  1H6  .  H  0  ?  ?  ?  0  17
+DNH  2H6  .  H  0  ?  ?  ?  0  18
+DNH  1H7  .  H  0  ?  ?  ?  0  19
+DNH  2H7  .  H  0  ?  ?  ?  0  20
+DNH  1H8  .  H  0  ?  ?  ?  0  21
+DNH  2H8  .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DNH  C7  C8   SING  1 
+DNH  C7  C5   SING  2 
+DNH  C7  1H7  SING  3 
+DNH  C7  2H7  SING  4 
+DNH  C8  C6   SING  5 
+DNH  C8  1H8  SING  6 
+DNH  C8  2H8  SING  7 
+DNH  C3  C4   SING  8 
+DNH  C3  C5   SING  9 
+DNH  C3  N1   SING  10
+DNH  C3  H3   SING  11
+DNH  C4  C6   SING  12
+DNH  C4  N2   SING  13
+DNH  C4  H4   SING  14
+DNH  C5  1H5  SING  15
+DNH  C5  2H5  SING  16
+DNH  C6  1H6  SING  17
+DNH  C6  2H6  SING  18
+DNH  N1  1H1  SING  19
+DNH  N1  2H1  SING  20
+DNH  N2  1H2  SING  21
+DNH  N2  2H2  SING  22
+#

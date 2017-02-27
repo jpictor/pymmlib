@@ -1,0 +1,112 @@
+data_W91
+#
+_chem_comp.id                   W91
+_chem_comp.name                 '5-(3-(2,6-DICHLORO-4-(4,5-DIHYDRO-2-OXAZOLYL)PHENOXY)PROPYL)-3-METHYL ISOXAZOLE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H16 N2 O3 CL2'
+_chem_comp.pdbx_synonyms        WIN56291
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        355.220
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+W91  C3    .  C   0  ?  ?  ?  1  1 
+W91  C31   .  C   0  ?  ?  ?  1  2 
+W91  C4    .  C   0  ?  ?  ?  1  3 
+W91  C5    .  C   0  ?  ?  ?  1  4 
+W91  O1    .  O   0  ?  ?  ?  1  5 
+W91  N2    .  N   0  ?  ?  ?  1  6 
+W91  C1C   .  C   0  ?  ?  ?  1  7 
+W91  C2C   .  C   0  ?  ?  ?  1  8 
+W91  C3C   .  C   0  ?  ?  ?  1  9 
+W91  O1B   .  O   0  ?  ?  ?  1  10
+W91  C1B   .  C   0  ?  ?  ?  1  11
+W91  C2B   .  C   0  ?  ?  ?  1  12
+W91  CL2   .  CL  0  ?  ?  ?  0  13
+W91  C3B   .  C   0  ?  ?  ?  1  14
+W91  C4B   .  C   0  ?  ?  ?  1  15
+W91  C5B   .  C   0  ?  ?  ?  1  16
+W91  C6B   .  C   0  ?  ?  ?  1  17
+W91  CL1   .  CL  0  ?  ?  ?  0  18
+W91  C2A   .  C   0  ?  ?  ?  1  19
+W91  N3A   .  N   0  ?  ?  ?  1  20
+W91  C4A   .  C   0  ?  ?  ?  1  21
+W91  C5A   .  C   0  ?  ?  ?  1  22
+W91  O1A   .  O   0  ?  ?  ?  1  23
+W91  1H31  .  H   0  ?  ?  ?  0  24
+W91  2H31  .  H   0  ?  ?  ?  0  25
+W91  3H31  .  H   0  ?  ?  ?  0  26
+W91  H4    .  H   0  ?  ?  ?  1  27
+W91  1H1C  .  H   0  ?  ?  ?  0  28
+W91  2H1C  .  H   0  ?  ?  ?  0  29
+W91  1H2C  .  H   0  ?  ?  ?  0  30
+W91  2H2C  .  H   0  ?  ?  ?  0  31
+W91  1H3C  .  H   0  ?  ?  ?  0  32
+W91  2H3C  .  H   0  ?  ?  ?  0  33
+W91  H3B   .  H   0  ?  ?  ?  1  34
+W91  H5B   .  H   0  ?  ?  ?  1  35
+W91  1H4A  .  H   0  ?  ?  ?  0  36
+W91  2H4A  .  H   0  ?  ?  ?  0  37
+W91  1H5A  .  H   0  ?  ?  ?  0  38
+W91  2H5A  .  H   0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+W91  C3   C31   SING  1 
+W91  C3   C4    SING  2 
+W91  C3   N2    DOUB  3 
+W91  C31  1H31  SING  4 
+W91  C31  2H31  SING  5 
+W91  C31  3H31  SING  6 
+W91  C4   C5    DOUB  7 
+W91  C4   H4    SING  8 
+W91  C5   O1    SING  9 
+W91  C5   C1C   SING  10
+W91  O1   N2    SING  11
+W91  C1C  C2C   SING  12
+W91  C1C  1H1C  SING  13
+W91  C1C  2H1C  SING  14
+W91  C2C  C3C   SING  15
+W91  C2C  1H2C  SING  16
+W91  C2C  2H2C  SING  17
+W91  C3C  O1B   SING  18
+W91  C3C  1H3C  SING  19
+W91  C3C  2H3C  SING  20
+W91  O1B  C1B   SING  21
+W91  C1B  C2B   DOUB  22
+W91  C1B  C6B   SING  23
+W91  C2B  CL2   SING  24
+W91  C2B  C3B   SING  25
+W91  C3B  C4B   DOUB  26
+W91  C3B  H3B   SING  27
+W91  C4B  C2A   SING  28
+W91  C4B  C5B   SING  29
+W91  C5B  C6B   DOUB  30
+W91  C5B  H5B   SING  31
+W91  C6B  CL1   SING  32
+W91  C2A  O1A   SING  33
+W91  C2A  N3A   DOUB  34
+W91  N3A  C4A   SING  35
+W91  C4A  C5A   SING  36
+W91  C4A  1H4A  SING  37
+W91  C4A  2H4A  SING  38
+W91  C5A  O1A   SING  39
+W91  C5A  1H5A  SING  40
+W91  C5A  2H5A  SING  41
+#

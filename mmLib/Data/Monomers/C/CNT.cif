@@ -1,0 +1,86 @@
+data_CNT
+#
+_chem_comp.id                   CNT
+_chem_comp.name                 N-METHYL-META-CHLORO-TYROSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N1 O3 CL1'
+_chem_comp.pdbx_synonyms        N-METHYL-3-CHLORO-TYROSINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        229.663
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CNT  N     .  N   0  96.52   -15.359  25.672  1  1 
+CNT  CM    .  C   0  97.366  -14.516  26.541  1  2 
+CNT  CA    .  C   0  96.736  -15.504  24.207  1  3 
+CNT  CB    .  C   0  96.301  -14.217  23.489  1  4 
+CNT  CG    .  C   0  94.808  -13.989  23.679  1  5 
+CNT  CD2   .  C   0  93.905  -14.509  22.743  1  6 
+CNT  CE2   .  C   0  92.528  -14.367  22.946  1  7 
+CNT  CL    .  CL  0  91.408  -15.069  21.769  0  8 
+CNT  CZ    .  C   0  92.046  -13.695  24.086  1  9 
+CNT  OH    .  O   0  90.708  -13.552  24.285  1  10
+CNT  CD1   .  C   0  92.95   -13.169  25.022  1  11
+CNT  CE1   .  C   0  94.333  -13.316  24.818  1  12
+CNT  C     .  C   0  98.192  -15.83   23.865  1  13
+CNT  O     .  O   0  98.838  -15.116  23.101  1  14
+CNT  OXT   .  O   0  ?       ?        ?       1  15
+CNT  H     .  H   0  96.578  -16.311  26.061  1  16
+CNT  1HMC  .  H   0  97.989  -15.158  27.181  0  17
+CNT  2HMC  .  H   0  98.013  -13.881  25.918  0  18
+CNT  3HMC  .  H   0  96.726  -13.881  27.171  0  19
+CNT  HA    .  H   0  96.123  -16.35   23.863  1  20
+CNT  1HBC  .  H   0  96.855  -13.363  23.906  0  21
+CNT  2HBC  .  H   0  96.516  -14.315  22.415  0  22
+CNT  HD2   .  H   0  94.265  -15.011  21.88   1  23
+CNT  HE1   .  H   0  95.019  -12.919  25.524  1  24
+CNT  HH    .  H   0  90.089  -13.909  23.649  1  25
+CNT  HD1   .  H   0  92.59   -12.661  25.882  1  26
+CNT  HXT   .  H   0  ?       ?        ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CNT  N    CM    SING  1 
+CNT  N    CA    SING  2 
+CNT  N    H     SING  3 
+CNT  CM   1HMC  SING  4 
+CNT  CM   2HMC  SING  5 
+CNT  CM   3HMC  SING  6 
+CNT  CA   CB    SING  7 
+CNT  CA   C     SING  8 
+CNT  CA   HA    SING  9 
+CNT  CB   CG    SING  10
+CNT  CB   1HBC  SING  11
+CNT  CB   2HBC  SING  12
+CNT  CG   CD2   AROM  13
+CNT  CG   CE1   AROM  14
+CNT  CD2  CE2   AROM  15
+CNT  CD2  HD2   SING  16
+CNT  CE2  CL    SING  17
+CNT  CE2  CZ    AROM  18
+CNT  CZ   OH    SING  19
+CNT  CZ   CD1   AROM  20
+CNT  OH   HH    SING  21
+CNT  CD1  CE1   AROM  22
+CNT  CD1  HD1   SING  23
+CNT  CE1  HE1   SING  24
+CNT  C    O     DOUB  25
+CNT  C    OXT   SING  26
+CNT  OXT  HXT   SING  27
+#

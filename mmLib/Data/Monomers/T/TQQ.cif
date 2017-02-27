@@ -1,0 +1,90 @@
+data_TQQ
+#
+_chem_comp.id                       TQQ
+_chem_comp.name                     '(S)-2-AMINO-3-(6,7-DIHYDRO-6-IMINO-7-OXO-1H-INDOL-3-YL)PROPANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H11 N3 O3'
+_chem_comp.pdbx_synonyms            3-[(6E)-6-IMINO-7-OXO-6,7-DIHYDRO-1H-INDOL-3-YL]-L-ALANINE
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            233.226
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TQQ  N    .  N  0  1.965  1.857  -1.644  1  1 
+TQQ  CA   .  C  0  1.299  2.926  -2.348  1  2 
+TQQ  C    .  C  0  2.337  3.775  -3.096  1  3 
+TQQ  O    .  O  0  3.540  3.640  -2.874  1  4 
+TQQ  CB   .  C  0  0.414  3.702  -1.361  1  5 
+TQQ  CG   .  C  0  1.093  4.401  -0.223  1  6 
+TQQ  CD1  .  C  0  1.526  5.686  -0.285  1  7 
+TQQ  CD2  .  C  0  1.368  3.962  1.150   1  8 
+TQQ  NE1  .  N  0  2.047  6.088  0.905   1  9 
+TQQ  CE2  .  C  0  1.966  5.054  1.792   1  10
+TQQ  CE3  .  C  0  1.176  2.789  1.890   1  11
+TQQ  CZ2  .  C  0  2.353  5.041  3.102   1  12
+TQQ  CZ3  .  C  0  1.589  2.791  3.207   1  13
+TQQ  CH2  .  C  0  2.165  3.941  3.781   1  14
+TQQ  O2   .  O  0  2.898  6.191  3.615   1  15
+TQQ  N2   .  N  0  2.595  4.033  5.158   1  16
+TQQ  OXT  .  O  0  ?      ?      ?       1  17
+TQQ  HXT  .  H  0  ?      ?      ?       1  18
+TQQ  HA   .  H  0  ?      ?      ?       1  19
+TQQ  1HN  .  H  0  ?      ?      ?       0  20
+TQQ  2HN  .  H  0  ?      ?      ?       0  21
+TQQ  1HB  .  H  0  ?      ?      ?       0  22
+TQQ  2HB  .  H  0  ?      ?      ?       0  23
+TQQ  HD1  .  H  0  ?      ?      ?       1  24
+TQQ  HE1  .  H  0  ?      ?      ?       1  25
+TQQ  HE3  .  H  0  ?      ?      ?       1  26
+TQQ  HZ3  .  H  0  ?      ?      ?       1  27
+TQQ  HN2  .  H  0  ?      ?      ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TQQ  N    CA   SING  1 
+TQQ  N    1HN  SING  2 
+TQQ  N    2HN  SING  3 
+TQQ  CA   C    SING  4 
+TQQ  CA   HA   SING  5 
+TQQ  CA   CB   SING  6 
+TQQ  C    O    DOUB  7 
+TQQ  C    OXT  SING  8 
+TQQ  CB   1HB  SING  9 
+TQQ  CB   2HB  SING  10
+TQQ  CB   CG   SING  11
+TQQ  CG   CD1  DOUB  12
+TQQ  CG   CD2  SING  13
+TQQ  CD1  HD1  SING  14
+TQQ  CD1  NE1  SING  15
+TQQ  CD2  CE2  DOUB  16
+TQQ  CD2  CE3  SING  17
+TQQ  NE1  HE1  SING  18
+TQQ  NE1  CE2  SING  19
+TQQ  CE2  CZ2  SING  20
+TQQ  CE3  HE3  SING  21
+TQQ  CE3  CZ3  DOUB  22
+TQQ  CZ2  CH2  SING  23
+TQQ  CZ2  O2   DOUB  24
+TQQ  CZ3  HZ3  SING  25
+TQQ  CZ3  CH2  SING  26
+TQQ  CH2  N2   DOUB  27
+TQQ  N2   HN2  SING  28
+TQQ  OXT  HXT  SING  29
+#

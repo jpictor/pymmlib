@@ -1,0 +1,125 @@
+data_BCV
+#
+_chem_comp.id                   BCV
+_chem_comp.name                 D-(L-A-AMINOADIPOYL)-L-CYSTEINYL-D-CYCLOPROPYLGLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H23 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        361.412
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BCV  N14   .  N  0  15.715  36.533  7.694  1  1 
+BCV  C2    .  C  0  15.803  36.371  6.221  1  2 
+BCV  C1    .  C  0  17.238  36.227  5.658  1  3 
+BCV  O19   .  O  0  18.168  36.363  6.477  1  4 
+BCV  O20   .  O  0  17.361  35.974  4.438  1  5 
+BCV  C3    .  C  0  15.226  37.594  5.527  1  6 
+BCV  C4    .  C  0  13.825  37.996  6.013  1  7 
+BCV  C7    .  C  0  13.349  39.235  5.246  1  8 
+BCV  C10   .  C  0  11.92   39.59   5.684  1  9 
+BCV  O15   .  O  0  11.613  39.865  6.853  1  10
+BCV  N11   .  N  0  10.953  39.525  4.779  1  11
+BCV  C12   .  C  0  9.516   39.783  4.995  1  12
+BCV  C16   .  C  0  9.092   40.649  3.813  1  13
+BCV  S17   .  S  0  9.371   39.804  2.218  1  14
+BCV  C13   .  C  0  8.734   38.459  4.999  1  15
+BCV  O18   .  O  0  9.327   37.386  4.858  1  16
+BCV  N29   .  N  0  7.412   38.428  5.1    1  17
+BCV  C30   .  C  0  6.523   37.254  4.87   1  18
+BCV  C31   .  C  0  5.188   37.295  5.584  1  19
+BCV  O42   .  O  0  5.085   38.209  6.419  1  20
+BCV  O43   .  O  0  4.349   36.415  5.309  1  21
+BCV  C32   .  C  0  6.525   37.016  3.324  1  22
+BCV  C37   .  C  0  6.183   35.77   2.512  1  23
+BCV  C33   .  C  0  7.065   36.855  1.893  1  24
+BCV  1H14  .  H  0  16.51   37.043  8.021  0  25
+BCV  2H14  .  H  0  15.695  35.632  8.128  0  26
+BCV  H2    .  H  0  15.25   35.44   6.026  1  27
+BCV  1H3C  .  H  0  15.131  37.339  4.461  0  28
+BCV  2H3C  .  H  0  15.904  38.44   5.714  0  29
+BCV  H20   .  H  0  18.283  35.899  4.221  1  30
+BCV  1H4C  .  H  0  13.864  38.225  7.088  0  31
+BCV  2H4C  .  H  0  13.125  37.166  5.837  0  32
+BCV  1H7C  .  H  0  13.36   39.025  4.166  0  33
+BCV  2H7C  .  H  0  14.019  40.08   5.462  0  34
+BCV  H11   .  H  0  11.227  39.274  3.85   1  35
+BCV  H12   .  H  0  9.32    40.274  5.959  1  36
+BCV  1H16  .  H  0  9.698   41.567  3.825  0  37
+BCV  2H16  .  H  0  8.02    40.876  3.909  0  38
+BCV  H29   .  H  0  6.964   39.284  5.358  1  39
+BCV  H30   .  H  0  6.91    36.351  5.364  1  40
+BCV  H32   .  H  0  6.373   37.943  3.896  1  41
+BCV  H43   .  H  0  3.575   36.535  5.847  1  42
+BCV  1H37  .  H  0  5.26    35.246  2.224  0  43
+BCV  2H37  .  H  0  6.387   34.707  2.71   0  44
+BCV  1H33  .  H  0  8.052   36.895  1.408  0  45
+BCV  2H33  .  H  0  6.926   37.474  .994   0  46
+BCV  H17   .  H  0  9.437   40.686  1.265  1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BCV  N14  C2    SING  1 
+BCV  N14  1H14  SING  2 
+BCV  N14  2H14  SING  3 
+BCV  C2   C1    SING  4 
+BCV  C2   C3    SING  5 
+BCV  C2   H2    SING  6 
+BCV  C1   O19   DOUB  7 
+BCV  C1   O20   SING  8 
+BCV  O20  H20   SING  9 
+BCV  C3   C4    SING  10
+BCV  C3   1H3C  SING  11
+BCV  C3   2H3C  SING  12
+BCV  C4   C7    SING  13
+BCV  C4   1H4C  SING  14
+BCV  C4   2H4C  SING  15
+BCV  C7   C10   SING  16
+BCV  C7   1H7C  SING  17
+BCV  C7   2H7C  SING  18
+BCV  C10  O15   DOUB  19
+BCV  C10  N11   SING  20
+BCV  N11  C12   SING  21
+BCV  N11  H11   SING  22
+BCV  C12  C16   SING  23
+BCV  C12  C13   SING  24
+BCV  C12  H12   SING  25
+BCV  C16  S17   SING  26
+BCV  C16  1H16  SING  27
+BCV  C16  2H16  SING  28
+BCV  S17  H17   SING  29
+BCV  C13  O18   DOUB  30
+BCV  C13  N29   SING  31
+BCV  N29  C30   SING  32
+BCV  N29  H29   SING  33
+BCV  C30  C31   SING  34
+BCV  C30  C32   SING  35
+BCV  C30  H30   SING  36
+BCV  C31  O42   DOUB  37
+BCV  C31  O43   SING  38
+BCV  O43  H43   SING  39
+BCV  C32  C37   SING  40
+BCV  C32  C33   SING  41
+BCV  C32  H32   SING  42
+BCV  C37  C33   SING  43
+BCV  C37  1H37  SING  44
+BCV  C37  2H37  SING  45
+BCV  C33  1H33  SING  46
+BCV  C33  2H33  SING  47
+#

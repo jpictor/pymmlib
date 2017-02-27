@@ -1,0 +1,92 @@
+data_NHE
+#
+_chem_comp.id                   NHE
+_chem_comp.name                 '2-[N-CYCLOHEXYLAMINO]ETHANE SULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H17 N1 O3 S1'
+_chem_comp.pdbx_synonyms        'N-CYCLOHEXYLTAURINE; CHES'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        207.287
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NHE  C3'   .  C  0  ?  ?  ?  1  1 
+NHE  C2'   .  C  0  ?  ?  ?  1  2 
+NHE  C1'   .  C  0  ?  ?  ?  1  3 
+NHE  C6'   .  C  0  ?  ?  ?  1  4 
+NHE  N     .  N  0  ?  ?  ?  1  5 
+NHE  C1    .  C  0  ?  ?  ?  1  6 
+NHE  C2    .  C  0  ?  ?  ?  1  7 
+NHE  S     .  S  0  ?  ?  ?  1  8 
+NHE  O1    .  O  0  ?  ?  ?  1  9 
+NHE  O2    .  O  0  ?  ?  ?  1  10
+NHE  O3    .  O  0  ?  ?  ?  1  11
+NHE  C5'   .  C  0  ?  ?  ?  1  12
+NHE  C4'   .  C  0  ?  ?  ?  1  13
+NHE  1H3'  .  H  0  ?  ?  ?  0  14
+NHE  2H3'  .  H  0  ?  ?  ?  0  15
+NHE  1H2'  .  H  0  ?  ?  ?  0  16
+NHE  2H2'  .  H  0  ?  ?  ?  0  17
+NHE  1H4'  .  H  0  ?  ?  ?  0  18
+NHE  2H4'  .  H  0  ?  ?  ?  0  19
+NHE  1HC'  .  H  0  ?  ?  ?  0  20
+NHE  1H6'  .  H  0  ?  ?  ?  0  21
+NHE  2H6'  .  H  0  ?  ?  ?  0  22
+NHE  HN    .  H  0  ?  ?  ?  1  23
+NHE  1H5'  .  H  0  ?  ?  ?  0  24
+NHE  2H5'  .  H  0  ?  ?  ?  0  25
+NHE  1HC1  .  H  0  ?  ?  ?  0  26
+NHE  2HC1  .  H  0  ?  ?  ?  0  27
+NHE  1HC2  .  H  0  ?  ?  ?  0  28
+NHE  2HC2  .  H  0  ?  ?  ?  0  29
+NHE  3HO   .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NHE  C3'  C2'   SING  1 
+NHE  C3'  C4'   SING  2 
+NHE  C3'  1H3'  SING  3 
+NHE  C3'  2H3'  SING  4 
+NHE  C2'  C1'   SING  5 
+NHE  C2'  1H2'  SING  6 
+NHE  C2'  2H2'  SING  7 
+NHE  C1'  C6'   SING  8 
+NHE  C1'  N     SING  9 
+NHE  C1'  1HC'  SING  10
+NHE  C6'  C5'   SING  11
+NHE  C6'  1H6'  SING  12
+NHE  C6'  2H6'  SING  13
+NHE  N    C1    SING  14
+NHE  N    HN    SING  15
+NHE  C1   C2    SING  16
+NHE  C1   1HC1  SING  17
+NHE  C1   2HC1  SING  18
+NHE  C2   S     SING  19
+NHE  C2   1HC2  SING  20
+NHE  C2   2HC2  SING  21
+NHE  S    O1    DOUB  22
+NHE  S    O2    DOUB  23
+NHE  S    O3    SING  24
+NHE  O3   3HO   SING  25
+NHE  C5'  C4'   SING  26
+NHE  C5'  1H5'  SING  27
+NHE  C5'  2H5'  SING  28
+NHE  C4'  1H4'  SING  29
+NHE  C4'  2H4'  SING  30
+#

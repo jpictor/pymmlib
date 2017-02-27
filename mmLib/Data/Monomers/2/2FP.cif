@@ -1,0 +1,98 @@
+data_2FP
+#
+_chem_comp.id                   2FP
+_chem_comp.name                 '1,6-FRUCTOSE DIPHOSPHATE (LINEAR FORM)'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2FP  P1   .  P  0  ?  ?  ?  1  1 
+2FP  O1   .  O  0  ?  ?  ?  1  2 
+2FP  C1   .  C  0  ?  ?  ?  1  3 
+2FP  C2   .  C  0  ?  ?  ?  1  4 
+2FP  O2   .  O  0  ?  ?  ?  1  5 
+2FP  C3   .  C  0  ?  ?  ?  1  6 
+2FP  O3   .  O  0  ?  ?  ?  1  7 
+2FP  C4   .  C  0  ?  ?  ?  1  8 
+2FP  O4   .  O  0  ?  ?  ?  1  9 
+2FP  C5   .  C  0  ?  ?  ?  1  10
+2FP  O5   .  O  0  ?  ?  ?  1  11
+2FP  C6   .  C  0  ?  ?  ?  1  12
+2FP  O6   .  O  0  ?  ?  ?  1  13
+2FP  O11  .  O  0  ?  ?  ?  1  14
+2FP  O12  .  O  0  ?  ?  ?  1  15
+2FP  O13  .  O  0  ?  ?  ?  1  16
+2FP  P6   .  P  0  ?  ?  ?  1  17
+2FP  O61  .  O  0  ?  ?  ?  1  18
+2FP  O62  .  O  0  ?  ?  ?  1  19
+2FP  O63  .  O  0  ?  ?  ?  1  20
+2FP  1H1  .  H  0  ?  ?  ?  0  21
+2FP  2H1  .  H  0  ?  ?  ?  0  22
+2FP  H2   .  H  0  ?  ?  ?  1  23
+2FP  HO2  .  H  0  ?  ?  ?  1  24
+2FP  H3   .  H  0  ?  ?  ?  1  25
+2FP  HO3  .  H  0  ?  ?  ?  1  26
+2FP  H4   .  H  0  ?  ?  ?  1  27
+2FP  HO4  .  H  0  ?  ?  ?  1  28
+2FP  1H6  .  H  0  ?  ?  ?  0  29
+2FP  2H6  .  H  0  ?  ?  ?  0  30
+2FP  HOB  .  H  0  ?  ?  ?  1  31
+2FP  HOC  .  H  0  ?  ?  ?  1  32
+2FP  H62  .  H  0  ?  ?  ?  1  33
+2FP  H63  .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2FP  P1   O1   SING  1 
+2FP  P1   O11  SING  2 
+2FP  P1   O12  SING  3 
+2FP  P1   O13  DOUB  4 
+2FP  O1   C1   SING  5 
+2FP  C1   C2   SING  6 
+2FP  C1   1H1  SING  7 
+2FP  C1   2H1  SING  8 
+2FP  C2   O2   SING  9 
+2FP  C2   C3   SING  10
+2FP  C2   H2   SING  11
+2FP  O2   HO2  SING  12
+2FP  C3   O3   SING  13
+2FP  C3   C4   SING  14
+2FP  C3   H3   SING  15
+2FP  O3   HO3  SING  16
+2FP  C4   O4   SING  17
+2FP  C4   C5   SING  18
+2FP  C4   H4   SING  19
+2FP  O4   HO4  SING  20
+2FP  C5   O5   DOUB  21
+2FP  C5   C6   SING  22
+2FP  C6   O6   SING  23
+2FP  C6   1H6  SING  24
+2FP  C6   2H6  SING  25
+2FP  O6   P6   SING  26
+2FP  O11  HOB  SING  27
+2FP  O12  HOC  SING  28
+2FP  P6   O61  DOUB  29
+2FP  P6   O62  SING  30
+2FP  P6   O63  SING  31
+2FP  O62  H62  SING  32
+2FP  O63  H63  SING  33
+#

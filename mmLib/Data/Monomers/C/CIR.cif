@@ -1,0 +1,80 @@
+data_CIR
+#
+_chem_comp.id                   CIR
+_chem_comp.name                 CITRULLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N3 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        175.187
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CIR  C1    .  C  0  ?  ?  ?  1  1 
+CIR  O1    .  O  0  ?  ?  ?  1  2 
+CIR  O2    .  O  0  ?  ?  ?  1  3 
+CIR  C2    .  C  0  ?  ?  ?  1  4 
+CIR  N2    .  N  0  ?  ?  ?  1  5 
+CIR  C3    .  C  0  ?  ?  ?  1  6 
+CIR  C4    .  C  0  ?  ?  ?  1  7 
+CIR  C5    .  C  0  ?  ?  ?  1  8 
+CIR  N6    .  N  0  ?  ?  ?  1  9 
+CIR  C7    .  C  0  ?  ?  ?  1  10
+CIR  O7    .  O  0  ?  ?  ?  1  11
+CIR  N8    .  N  0  ?  ?  ?  1  12
+CIR  HO2   .  H  0  ?  ?  ?  1  13
+CIR  H2    .  H  0  ?  ?  ?  1  14
+CIR  1HN2  .  H  0  ?  ?  ?  0  15
+CIR  2HN2  .  H  0  ?  ?  ?  0  16
+CIR  1H3   .  H  0  ?  ?  ?  0  17
+CIR  2H3   .  H  0  ?  ?  ?  0  18
+CIR  1H4   .  H  0  ?  ?  ?  0  19
+CIR  2H4   .  H  0  ?  ?  ?  0  20
+CIR  1H5   .  H  0  ?  ?  ?  0  21
+CIR  2H5   .  H  0  ?  ?  ?  0  22
+CIR  HN6   .  H  0  ?  ?  ?  1  23
+CIR  1HN8  .  H  0  ?  ?  ?  0  24
+CIR  2HN8  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CIR  C1  C2    SING  1 
+CIR  C1  O1    DOUB  2 
+CIR  C1  O2    SING  3 
+CIR  O2  HO2   SING  4 
+CIR  C2  C3    SING  5 
+CIR  C2  N2    SING  6 
+CIR  C2  H2    SING  7 
+CIR  N2  1HN2  SING  8 
+CIR  N2  2HN2  SING  9 
+CIR  C3  C4    SING  10
+CIR  C3  1H3   SING  11
+CIR  C3  2H3   SING  12
+CIR  C4  C5    SING  13
+CIR  C4  1H4   SING  14
+CIR  C4  2H4   SING  15
+CIR  C5  N6    SING  16
+CIR  C5  1H5   SING  17
+CIR  C5  2H5   SING  18
+CIR  N6  C7    SING  19
+CIR  N6  HN6   SING  20
+CIR  C7  O7    DOUB  21
+CIR  C7  N8    SING  22
+CIR  N8  1HN8  SING  23
+CIR  N8  2HN8  SING  24
+#

@@ -1,0 +1,52 @@
+data_XCC
+#
+_chem_comp.id                   XCC
+_chem_comp.name                 'FE(4)-NI(1)-S(4) CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE4 NI1 S4'
+_chem_comp.pdbx_synonyms        'C CLUSTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        410.328
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XCC  FE1  .  FE  0  -13.814  67.139  32.487  0  1
+XCC  FE2  .  FE  0  -12.141  69.628  30.894  0  2
+XCC  FE3  .  FE  0  -16.396  68.111  32.601  0  3
+XCC  FE4  .  FE  0  -15.199  67.464  30.091  0  4
+XCC  S1   .  S   0  -16.392  69.333  30.632  1  5
+XCC  S2   .  S   0  -15.687  66.042  31.863  1  6
+XCC  S4   .  S   0  -14.620  68.896  33.751  1  7
+XCC  S3   .  S   0  -12.995  67.946  30.449  1  8
+XCC  NI   .  NI  0  -14.603  70.103  31.807  0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XCC  FE1  S4  SING  1 
+XCC  FE1  S3  SING  2 
+XCC  FE1  S2  SING  3 
+XCC  FE2  S3  SING  4 
+XCC  FE3  S1  SING  5 
+XCC  FE3  S4  SING  6 
+XCC  FE3  S2  SING  7 
+XCC  FE4  S1  SING  8 
+XCC  FE4  S3  SING  9 
+XCC  FE4  S2  SING  10
+XCC  S1   NI  SING  11
+#

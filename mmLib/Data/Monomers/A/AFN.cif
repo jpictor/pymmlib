@@ -1,0 +1,111 @@
+data_AFN
+#
+_chem_comp.id                   AFN
+_chem_comp.name                 '8,9-DIHYDRO-9-HYDROXY-AFLATOXIN B1'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H14 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.293
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AFN  C8A   .  C  0  -55.044  9.716   -58.038  1  1 
+AFN  C9    .  C  0  -55.521  10.870  -57.138  1  2 
+AFN  O9    .  O  0  -56.212  11.832  -57.895  1  3 
+AFN  C9A   .  C  0  -54.244  11.485  -56.601  1  4 
+AFN  C9B   .  C  0  -53.621  10.731  -55.479  1  5 
+AFN  O7    .  O  0  -53.920  10.317  -58.672  1  6 
+AFN  C6A   .  C  0  -53.272  11.212  -57.766  1  7 
+AFN  O6A   .  O  0  -52.120  10.583  -57.203  1  8 
+AFN  C5A   .  C  0  -52.440  10.241  -55.915  1  9 
+AFN  C5B   .  C  0  -51.739  9.324   -55.132  1  10
+AFN  C4B   .  C  0  -52.294  8.906   -53.916  1  11
+AFN  O4    .  O  0  -51.615  8.010   -53.186  1  12
+AFN  CM    .  C  0  -50.421  8.413   -52.551  1  13
+AFN  C4A   .  C  0  -53.550  9.420   -53.474  1  14
+AFN  C10   .  C  0  -54.178  10.365  -54.273  1  15
+AFN  O10   .  O  0  -55.400  10.879  -53.908  1  16
+AFN  C11   .  C  0  -56.064  10.500  -52.728  1  17
+AFN  O11   .  O  0  -57.144  11.039  -52.501  1  18
+AFN  C12   .  C  0  -55.403  9.516   -51.932  1  19
+AFN  C3A   .  C  0  -54.192  8.998   -52.318  1  20
+AFN  C3    .  C  0  -53.742  7.929   -51.363  1  21
+AFN  C2A   .  C  0  -54.819  7.906   -50.288  1  22
+AFN  C1    .  C  0  -55.879  8.927   -50.721  1  23
+AFN  O1    .  O  0  -56.914  9.109   -50.083  1  24
+AFN  2H8A  .  H  0  ?        ?       ?        0  25
+AFN  H8A   .  H  0  -55.834  9.457   -58.743  1  26
+AFN  H9    .  H  0  -56.153  10.539  -56.336  1  27
+AFN  HO9   .  H  0  -56.601  11.390  -58.647  1  28
+AFN  H9A   .  H  0  -54.352  12.540  -56.360  1  29
+AFN  H6A   .  H  0  -52.993  12.129  -58.286  1  30
+AFN  H5B   .  H  0  -50.818  8.898   -55.479  1  31
+AFN  1HM   .  H  0  -49.983  7.567   -52.025  0  32
+AFN  2HM   .  H  0  -50.646  9.209   -51.843  0  33
+AFN  3HM   .  H  0  -49.713  8.784   -53.293  0  34
+AFN  1H3   .  H  0  -52.779  8.176   -50.917  0  35
+AFN  2H3   .  H  0  -53.698  6.962   -51.868  0  36
+AFN  1H2A  .  H  0  -54.378  8.191   -49.335  0  37
+AFN  2H2A  .  H  0  -55.265  6.915   -50.208  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AFN  C8A  2H8A  SING  1 
+AFN  C8A  H8A   SING  2 
+AFN  C8A  C9    SING  3 
+AFN  C8A  O7    SING  4 
+AFN  C9   H9    SING  5 
+AFN  C9   O9    SING  6 
+AFN  C9   C9A   SING  7 
+AFN  O9   HO9   SING  8 
+AFN  C9A  H9A   SING  9 
+AFN  C9A  C9B   SING  10
+AFN  C9A  C6A   SING  11
+AFN  C9B  C5A   DOUB  12
+AFN  C9B  C10   SING  13
+AFN  O7   C6A   SING  14
+AFN  C6A  H6A   SING  15
+AFN  C6A  O6A   SING  16
+AFN  O6A  C5A   SING  17
+AFN  C5A  C5B   SING  18
+AFN  C5B  H5B   SING  19
+AFN  C5B  C4B   DOUB  20
+AFN  C4B  O4    SING  21
+AFN  C4B  C4A   SING  22
+AFN  O4   CM    SING  23
+AFN  CM   1HM   SING  24
+AFN  CM   2HM   SING  25
+AFN  CM   3HM   SING  26
+AFN  C4A  C10   DOUB  27
+AFN  C4A  C3A   SING  28
+AFN  C10  O10   SING  29
+AFN  O10  C11   SING  30
+AFN  C11  O11   DOUB  31
+AFN  C11  C12   SING  32
+AFN  C12  C3A   DOUB  33
+AFN  C12  C1    SING  34
+AFN  C3A  C3    SING  35
+AFN  C3   1H3   SING  36
+AFN  C3   2H3   SING  37
+AFN  C3   C2A   SING  38
+AFN  C2A  1H2A  SING  39
+AFN  C2A  2H2A  SING  40
+AFN  C2A  C1    SING  41
+AFN  C1   O1    DOUB  42
+#

@@ -1,0 +1,84 @@
+data_GPE
+#
+_chem_comp.id                   GPE
+_chem_comp.name                 L-ALPHA-GLYCEROPHOSPHORYLETHANOLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H14 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GPE  P     .  P  0  ?  ?  ?  1  1 
+GPE  O11   .  O  0  ?  ?  ?  1  2 
+GPE  O12   .  O  0  ?  ?  ?  1  3 
+GPE  O14   .  O  0  ?  ?  ?  1  4 
+GPE  O13   .  O  0  ?  ?  ?  1  5 
+GPE  C1    .  C  0  ?  ?  ?  1  6 
+GPE  C2    .  C  0  ?  ?  ?  1  7 
+GPE  C3    .  C  0  ?  ?  ?  1  8 
+GPE  O31   .  O  0  ?  ?  ?  1  9 
+GPE  O21   .  O  0  ?  ?  ?  1  10
+GPE  C11   .  C  0  ?  ?  ?  1  11
+GPE  C12   .  C  0  ?  ?  ?  1  12
+GPE  N     .  N  0  ?  ?  ?  1  13
+GPE  HO4   .  H  0  ?  ?  ?  1  14
+GPE  1H1   .  H  0  ?  ?  ?  0  15
+GPE  2H1   .  H  0  ?  ?  ?  0  16
+GPE  H2    .  H  0  ?  ?  ?  1  17
+GPE  1H3   .  H  0  ?  ?  ?  0  18
+GPE  2H3   .  H  0  ?  ?  ?  0  19
+GPE  HO1   .  H  0  ?  ?  ?  1  20
+GPE  HO2   .  H  0  ?  ?  ?  1  21
+GPE  1H11  .  H  0  ?  ?  ?  0  22
+GPE  2H11  .  H  0  ?  ?  ?  0  23
+GPE  1H12  .  H  0  ?  ?  ?  0  24
+GPE  2H12  .  H  0  ?  ?  ?  0  25
+GPE  1HN   .  H  0  ?  ?  ?  0  26
+GPE  2HN   .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GPE  P    O11   SING  1 
+GPE  P    O12   SING  2 
+GPE  P    O14   SING  3 
+GPE  P    O13   DOUB  4 
+GPE  O11  C1    SING  5 
+GPE  O12  C11   SING  6 
+GPE  O14  HO4   SING  7 
+GPE  C1   C2    SING  8 
+GPE  C1   1H1   SING  9 
+GPE  C1   2H1   SING  10
+GPE  C2   C3    SING  11
+GPE  C2   O21   SING  12
+GPE  C2   H2    SING  13
+GPE  C3   O31   SING  14
+GPE  C3   1H3   SING  15
+GPE  C3   2H3   SING  16
+GPE  O31  HO1   SING  17
+GPE  O21  HO2   SING  18
+GPE  C11  C12   SING  19
+GPE  C11  1H11  SING  20
+GPE  C11  2H11  SING  21
+GPE  C12  N     SING  22
+GPE  C12  1H12  SING  23
+GPE  C12  2H12  SING  24
+GPE  N    1HN   SING  25
+GPE  N    2HN   SING  26
+#

@@ -1,0 +1,105 @@
+data_SVY
+#
+_chem_comp.id                   SVY
+_chem_comp.name                 O-[BIS(1-METHYLETHOXY)PHOSPHORYL]-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H20 N1 O6 P1'
+_chem_comp.pdbx_synonyms        'DIISOPROPYL PHOSPHATE-L-SERINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        269.234
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SVY  N     .  N  0  26.175  11.932  14.068  1  1 
+SVY  CA    .  C  0  27.27   12.258  13.16   1  2 
+SVY  C     .  C  0  28.513  11.397  13.485  1  3 
+SVY  O     .  O  0  28.424  10.165  13.461  1  4 
+SVY  CB    .  C  0  27.556  13.759  13.234  1  5 
+SVY  OG    .  O  0  28.266  14.219  12.102  1  6 
+SVY  C1    .  C  0  28.613  18.171  12.728  1  7 
+SVY  C2    .  C  0  29.483  19.406  13      1  8 
+SVY  C3    .  C  0  27.81   17.798  13.988  1  9 
+SVY  C1'   .  C  0  29.696  15.203  9.803   1  10
+SVY  C2'   .  C  0  29.77   13.982  8.901   1  11
+SVY  C3'   .  C  0  30.741  16.236  9.405   1  12
+SVY  P     .  P  0  29.212  15.483  12.41   1  13
+SVY  O1P   .  O  0  29.431  17.097  12.19   1  14
+SVY  O2P   .  O  0  29.935  14.791  11.145  1  15
+SVY  O3P   .  O  0  30.083  14.952  13.641  1  16
+SVY  OXT   .  O  0  29.652  12.023  13.794  1  17
+SVY  1HN   .  H  0  26.453  12.019  15.045  0  18
+SVY  2HN   .  H  0  25.355  12.5    13.854  0  19
+SVY  HA    .  H  0  26.983  12.018  12.109  1  20
+SVY  1HBC  .  H  0  28.085  14.024  14.179  0  21
+SVY  2HBC  .  H  0  26.618  14.342  13.388  0  22
+SVY  HOT   .  H  0  30.415  11.494  13.994  1  23
+SVY  H1    .  H  0  27.851  18.392  11.945  1  24
+SVY  1H2C  .  H  0  30.143  19.263  13.887  0  25
+SVY  2H2C  .  H  0  28.881  20.264  13.379  0  26
+SVY  3H2C  .  H  0  30.064  19.676  12.088  0  27
+SVY  1H3C  .  H  0  27.208  18.656  14.367  0  28
+SVY  2H3C  .  H  0  28.47   17.655  14.875  0  29
+SVY  3H3C  .  H  0  27.178  16.901  13.79   0  30
+SVY  H1'   .  H  0  28.686  15.666  9.705   1  31
+SVY  1H2'  .  H  0  30.795  13.545  8.883   0  32
+SVY  2H2'  .  H  0  29.686  14.259  7.824   0  33
+SVY  3H2'  .  H  0  29.005  13.225  9.193   0  34
+SVY  1H3'  .  H  0  30.657  16.513  8.328   0  35
+SVY  2H3'  .  H  0  31.767  15.799  9.387   0  36
+SVY  3H3'  .  H  0  30.687  17.132  10.067  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SVY  N    CA    SING  1 
+SVY  N    1HN   SING  2 
+SVY  N    2HN   SING  3 
+SVY  CA   C     SING  4 
+SVY  CA   CB    SING  5 
+SVY  CA   HA    SING  6 
+SVY  C    O     DOUB  7 
+SVY  C    OXT   SING  8 
+SVY  CB   OG    SING  9 
+SVY  CB   1HBC  SING  10
+SVY  CB   2HBC  SING  11
+SVY  OG   P     SING  12
+SVY  C1   C2    SING  13
+SVY  C1   C3    SING  14
+SVY  C1   O1P   SING  15
+SVY  C1   H1    SING  16
+SVY  C2   1H2C  SING  17
+SVY  C2   2H2C  SING  18
+SVY  C2   3H2C  SING  19
+SVY  C3   1H3C  SING  20
+SVY  C3   2H3C  SING  21
+SVY  C3   3H3C  SING  22
+SVY  C1'  C2'   SING  23
+SVY  C1'  C3'   SING  24
+SVY  C1'  O2P   SING  25
+SVY  C1'  H1'   SING  26
+SVY  C2'  1H2'  SING  27
+SVY  C2'  2H2'  SING  28
+SVY  C2'  3H2'  SING  29
+SVY  C3'  1H3'  SING  30
+SVY  C3'  2H3'  SING  31
+SVY  C3'  3H3'  SING  32
+SVY  P    O1P   SING  33
+SVY  P    O2P   SING  34
+SVY  P    O3P   DOUB  35
+SVY  OXT  HOT   SING  36
+#

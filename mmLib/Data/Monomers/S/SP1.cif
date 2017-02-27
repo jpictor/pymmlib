@@ -1,0 +1,103 @@
+data_SP1
+#
+_chem_comp.id                   SP1
+_chem_comp.name                 6-(6-AMINO-PURIN-9-YL)-2-THIOXO-TETRAHYDRO-2-FURO[3,2-D][1,3,2]DIOXAPHOSPHININE-2,7-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N5 O5 P1 S1'
+_chem_comp.pdbx_synonyms        SP-ADENOSINE-3',5'-CYCLIC-MONOPHOSPHOROTHIOATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        345.269
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SP1  P     .  P  0  ?  ?  ?  1  1 
+SP1  S1P   .  S  0  ?  ?  ?  1  2 
+SP1  O2P   .  O  0  ?  ?  ?  1  3 
+SP1  O5*   .  O  0  ?  ?  ?  1  4 
+SP1  C5*   .  C  0  ?  ?  ?  1  5 
+SP1  C4*   .  C  0  ?  ?  ?  1  6 
+SP1  O4*   .  O  0  ?  ?  ?  1  7 
+SP1  C3*   .  C  0  ?  ?  ?  1  8 
+SP1  O3*   .  O  0  ?  ?  ?  1  9 
+SP1  C2*   .  C  0  ?  ?  ?  1  10
+SP1  O2*   .  O  0  ?  ?  ?  1  11
+SP1  C1*   .  C  0  ?  ?  ?  1  12
+SP1  N9    .  N  0  ?  ?  ?  1  13
+SP1  C8    .  C  0  ?  ?  ?  1  14
+SP1  N7    .  N  0  ?  ?  ?  1  15
+SP1  C5    .  C  0  ?  ?  ?  1  16
+SP1  C6    .  C  0  ?  ?  ?  1  17
+SP1  N6    .  N  0  ?  ?  ?  1  18
+SP1  N1    .  N  0  ?  ?  ?  1  19
+SP1  C2    .  C  0  ?  ?  ?  1  20
+SP1  N3    .  N  0  ?  ?  ?  1  21
+SP1  C4    .  C  0  ?  ?  ?  1  22
+SP1  2HOP  .  H  0  ?  ?  ?  0  23
+SP1  1H5*  .  H  0  ?  ?  ?  0  24
+SP1  2H5*  .  H  0  ?  ?  ?  0  25
+SP1  H4*   .  H  0  ?  ?  ?  1  26
+SP1  H3*   .  H  0  ?  ?  ?  1  27
+SP1  H2*   .  H  0  ?  ?  ?  1  28
+SP1  *HO2  .  H  0  ?  ?  ?  0  29
+SP1  H1*   .  H  0  ?  ?  ?  1  30
+SP1  1HN6  .  H  0  ?  ?  ?  0  31
+SP1  2HN6  .  H  0  ?  ?  ?  0  32
+SP1  H8    .  H  0  ?  ?  ?  1  33
+SP1  H2    .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SP1  P    S1P   DOUB  1 
+SP1  P    O2P   SING  2 
+SP1  P    O5*   SING  3 
+SP1  P    O3*   SING  4 
+SP1  O2P  2HOP  SING  5 
+SP1  O5*  C5*   SING  6 
+SP1  C5*  C4*   SING  7 
+SP1  C5*  1H5*  SING  8 
+SP1  C5*  2H5*  SING  9 
+SP1  C4*  O4*   SING  10
+SP1  C4*  C3*   SING  11
+SP1  C4*  H4*   SING  12
+SP1  O4*  C1*   SING  13
+SP1  C3*  O3*   SING  14
+SP1  C3*  C2*   SING  15
+SP1  C3*  H3*   SING  16
+SP1  C2*  O2*   SING  17
+SP1  C2*  C1*   SING  18
+SP1  C2*  H2*   SING  19
+SP1  O2*  *HO2  SING  20
+SP1  C1*  N9    SING  21
+SP1  C1*  H1*   SING  22
+SP1  N9   C8    AROM  23
+SP1  N9   C4    AROM  24
+SP1  C8   N7    AROM  25
+SP1  C8   H8    AROM  26
+SP1  N7   C5    AROM  27
+SP1  C5   C6    AROM  28
+SP1  C5   C4    AROM  29
+SP1  C6   N6    SING  30
+SP1  C6   N1    AROM  31
+SP1  N6   1HN6  SING  32
+SP1  N6   2HN6  SING  33
+SP1  N1   C2    AROM  34
+SP1  C2   N3    AROM  35
+SP1  C2   H2    SING  36
+SP1  N3   C4    AROM  37
+#

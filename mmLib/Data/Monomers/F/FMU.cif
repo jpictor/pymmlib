@@ -1,0 +1,108 @@
+data_FMU
+#
+_chem_comp.id                   FMU
+_chem_comp.name                 5-FLUORO-5-METHYLURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N2 O9 F1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        357.209
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FMU  N1    .  N  0  79.069  -.492   19.581  1  1 
+FMU  N3    .  N  0  79.459  -.183   17.295  1  2 
+FMU  O2    .  O  0  78.838  1.472   18.559  1  3 
+FMU  C5    .  C  0  79.587  -2.502  18.216  1  4 
+FMU  C2    .  C  0  79.107  .278    18.478  1  5 
+FMU  C5M   .  C  0  78.398  -3.454  17.951  1  6 
+FMU  C6    .  C  0  79.527  -1.902  19.63   1  7 
+FMU  C1*   .  C  0  78.688  .073    20.862  1  8 
+FMU  C4    .  C  0  79.77   -1.468  17.069  1  9 
+FMU  O4    .  O  0  80.08   -1.875  15.956  1  10
+FMU  C2*   .  C  0  79.316  1.417   21.334  1  11
+FMU  O2*   .  O  0  79.871  1.294   22.647  1  12
+FMU  C3*   .  C  0  78.109  2.339   21.436  1  13
+FMU  C4*   .  C  0  77.008  1.322   21.741  1  14
+FMU  O3*   .  O  0  78.26   3.215   22.519  1  15
+FMU  O4*   .  O  0  77.281  .242    20.814  1  16
+FMU  C5*   .  C  0  75.611  1.807   21.378  1  17
+FMU  O5*   .  O  0  74.73   .677    21.49   1  18
+FMU  P     .  P  0  73.367  .734    22.3    1  19
+FMU  O1P   .  O  0  72.6    2.064   22.042  1  20
+FMU  O2P   .  O  0  72.587  -.596   22.166  1  21
+FMU  O3P   .  O  0  ?       ?       ?       1  22
+FMU  F     .  F  0  80.717  -3.227  18.172  1  23
+FMU  1H6C  .  H  0  78.898  -2.518  20.314  0  24
+FMU  2H6C  .  H  0  80.501  -2.002  20.163  0  25
+FMU  H1*   .  H  0  78.907  -.692   21.643  1  26
+FMU  H3    .  H  0  79.497  .47     16.512  1  27
+FMU  1H5M  .  H  0  78.441  -3.889  16.925  0  28
+FMU  2H5M  .  H  0  77.422  -2.948  18.138  0  29
+FMU  3H5M  .  H  0  78.332  -4.25   18.729  0  30
+FMU  H2*   .  H  0  80.066  1.8     20.604  1  31
+FMU  HA    .  H  0  80.254  2.114   22.935  1  32
+FMU  H3*   .  H  0  77.92   2.885   20.482  1  33
+FMU  H4*   .  H  0  77.057  .973    22.799  1  34
+FMU  HB    .  H  0  77.507  3.79    22.583  1  35
+FMU  1H5*  .  H  0  75.565  2.301   20.379  0  36
+FMU  2H5*  .  H  0  75.28   2.682   21.985  0  37
+FMU  H3P   .  H  0  ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FMU  N1   C2    SING  1 
+FMU  N1   C6    SING  2 
+FMU  N1   C1*   SING  3 
+FMU  N3   C2    SING  4 
+FMU  N3   C4    SING  5 
+FMU  N3   H3    SING  6 
+FMU  O2   C2    DOUB  7 
+FMU  C5   C4    SING  8 
+FMU  C5   C5M   SING  9 
+FMU  C5   C6    SING  10
+FMU  C5   F     SING  11
+FMU  C5M  1H5M  SING  12
+FMU  C5M  2H5M  SING  13
+FMU  C5M  3H5M  SING  14
+FMU  C6   1H6C  SING  15
+FMU  C6   2H6C  SING  16
+FMU  C1*  C2*   SING  17
+FMU  C1*  O4*   SING  18
+FMU  C1*  H1*   SING  19
+FMU  C4   O4    DOUB  20
+FMU  C2*  O2*   SING  21
+FMU  C2*  C3*   SING  22
+FMU  C2*  H2*   SING  23
+FMU  O2*  HA    SING  24
+FMU  C3*  C4*   SING  25
+FMU  C3*  O3*   SING  26
+FMU  C3*  H3*   SING  27
+FMU  C4*  O4*   SING  28
+FMU  C4*  C5*   SING  29
+FMU  C4*  H4*   SING  30
+FMU  O3*  HB    SING  31
+FMU  C5*  O5*   SING  32
+FMU  C5*  1H5*  SING  33
+FMU  C5*  2H5*  SING  34
+FMU  O5*  P     SING  35
+FMU  P    O1P   SING  36
+FMU  P    O2P   DOUB  37
+FMU  P    O3P   SING  38
+FMU  O3P  H3P   SING  39
+#

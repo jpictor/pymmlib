@@ -1,0 +1,76 @@
+data_LOL
+#
+_chem_comp.id                   LOL
+_chem_comp.name                 LEUCINOL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LOL  CD1   .  C  0  ?  ?  ?  1  1 
+LOL  CD2   .  C  0  ?  ?  ?  1  2 
+LOL  CG    .  C  0  ?  ?  ?  1  3 
+LOL  CB    .  C  0  ?  ?  ?  1  4 
+LOL  N     .  N  0  ?  ?  ?  1  5 
+LOL  CA    .  C  0  ?  ?  ?  1  6 
+LOL  C     .  C  0  ?  ?  ?  1  7 
+LOL  O     .  O  0  ?  ?  ?  1  8 
+LOL  1HD1  .  H  0  ?  ?  ?  0  9 
+LOL  2HD1  .  H  0  ?  ?  ?  0  10
+LOL  3HD1  .  H  0  ?  ?  ?  0  11
+LOL  1HD2  .  H  0  ?  ?  ?  0  12
+LOL  2HD2  .  H  0  ?  ?  ?  0  13
+LOL  3HD2  .  H  0  ?  ?  ?  0  14
+LOL  HG    .  H  0  ?  ?  ?  1  15
+LOL  1HB   .  H  0  ?  ?  ?  0  16
+LOL  2HB   .  H  0  ?  ?  ?  0  17
+LOL  1HN   .  H  0  ?  ?  ?  0  18
+LOL  2HN   .  H  0  ?  ?  ?  0  19
+LOL  HA    .  H  0  ?  ?  ?  1  20
+LOL  1H    .  H  0  ?  ?  ?  0  21
+LOL  2H    .  H  0  ?  ?  ?  0  22
+LOL  HO    .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LOL  CD1  CG    SING  1 
+LOL  CD1  1HD1  SING  2 
+LOL  CD1  2HD1  SING  3 
+LOL  CD1  3HD1  SING  4 
+LOL  CD2  CG    SING  5 
+LOL  CD2  1HD2  SING  6 
+LOL  CD2  2HD2  SING  7 
+LOL  CD2  3HD2  SING  8 
+LOL  CG   CB    SING  9 
+LOL  CG   HG    SING  10
+LOL  CB   CA    SING  11
+LOL  CB   1HB   SING  12
+LOL  CB   2HB   SING  13
+LOL  N    CA    SING  14
+LOL  N    1HN   SING  15
+LOL  N    2HN   SING  16
+LOL  CA   C     SING  17
+LOL  CA   HA    SING  18
+LOL  C    O     SING  19
+LOL  C    1H    SING  20
+LOL  C    2H    SING  21
+LOL  O    HO    SING  22
+#

@@ -1,0 +1,100 @@
+data_Y3
+#
+_chem_comp.id                   Y3
+_chem_comp.name                 '4-ACETYLAMINO-5-HYDROXYNAPHTHALENE-2,7-DISULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H11 N1 O8 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        361.341
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+Y3  C1    .  C  0  ?  ?  ?  1  1 
+Y3  C2    .  C  0  ?  ?  ?  1  2 
+Y3  C3    .  C  0  ?  ?  ?  1  3 
+Y3  C4    .  C  0  ?  ?  ?  1  4 
+Y3  C5    .  C  0  ?  ?  ?  1  5 
+Y3  C6    .  C  0  ?  ?  ?  1  6 
+Y3  C7    .  C  0  ?  ?  ?  1  7 
+Y3  C8    .  C  0  ?  ?  ?  1  8 
+Y3  C9    .  C  0  ?  ?  ?  1  9 
+Y3  C10   .  C  0  ?  ?  ?  1  10
+Y3  S11   .  S  0  ?  ?  ?  1  11
+Y3  O12   .  O  0  ?  ?  ?  1  12
+Y3  O13   .  O  0  ?  ?  ?  1  13
+Y3  O14   .  O  0  ?  ?  ?  1  14
+Y3  N15   .  N  0  ?  ?  ?  1  15
+Y3  C16   .  C  0  ?  ?  ?  1  16
+Y3  O17   .  O  0  ?  ?  ?  1  17
+Y3  C18   .  C  0  ?  ?  ?  1  18
+Y3  S19   .  S  0  ?  ?  ?  1  19
+Y3  O20   .  O  0  ?  ?  ?  1  20
+Y3  O21   .  O  0  ?  ?  ?  1  21
+Y3  O22   .  O  0  ?  ?  ?  1  22
+Y3  O23   .  O  0  ?  ?  ?  1  23
+Y3  H2    .  H  0  ?  ?  ?  1  24
+Y3  H4    .  H  0  ?  ?  ?  1  25
+Y3  H8    .  H  0  ?  ?  ?  1  26
+Y3  H10   .  H  0  ?  ?  ?  1  27
+Y3  HO4   .  H  0  ?  ?  ?  1  28
+Y3  HN5   .  H  0  ?  ?  ?  1  29
+Y3  1H18  .  H  0  ?  ?  ?  0  30
+Y3  2H18  .  H  0  ?  ?  ?  0  31
+Y3  3H18  .  H  0  ?  ?  ?  0  32
+Y3  HO2   .  H  0  ?  ?  ?  1  33
+Y3  HO3   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+Y3  C1   C2    DOUB  1 
+Y3  C1   C6    SING  2 
+Y3  C1   O23   SING  3 
+Y3  C2   C3    SING  4 
+Y3  C2   H2    SING  5 
+Y3  C3   C4    DOUB  6 
+Y3  C3   S11   SING  7 
+Y3  C4   C5    SING  8 
+Y3  C4   H4    SING  9 
+Y3  C5   C6    DOUB  10
+Y3  C5   C10   SING  11
+Y3  C6   C7    SING  12
+Y3  C7   C8    DOUB  13
+Y3  C7   N15   SING  14
+Y3  C8   C9    SING  15
+Y3  C8   H8    SING  16
+Y3  C9   C10   DOUB  17
+Y3  C9   S19   SING  18
+Y3  C10  H10   SING  19
+Y3  S11  O12   DOUB  20
+Y3  S11  O13   DOUB  21
+Y3  S11  O14   SING  22
+Y3  O14  HO4   SING  23
+Y3  N15  C16   SING  24
+Y3  N15  HN5   SING  25
+Y3  C16  O17   DOUB  26
+Y3  C16  C18   SING  27
+Y3  C18  1H18  SING  28
+Y3  C18  2H18  SING  29
+Y3  C18  3H18  SING  30
+Y3  S19  O20   DOUB  31
+Y3  S19  O21   DOUB  32
+Y3  S19  O22   SING  33
+Y3  O22  HO2   SING  34
+Y3  O23  HO3   SING  35
+#

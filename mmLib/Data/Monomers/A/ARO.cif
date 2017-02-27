@@ -1,0 +1,87 @@
+data_ARO
+#
+_chem_comp.id                       ARO
+_chem_comp.name                     'C-GAMMA-HYDROXY ARGININE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C6 H15 N4 O3'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           191.210
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARO  N     .  N  0  ?  ?  ?  1  1 
+ARO  CA    .  C  0  ?  ?  ?  1  2 
+ARO  C     .  C  0  ?  ?  ?  1  3 
+ARO  O     .  O  0  ?  ?  ?  1  4 
+ARO  CB    .  C  0  ?  ?  ?  1  5 
+ARO  CG    .  C  0  ?  ?  ?  1  6 
+ARO  OH    .  O  0  ?  ?  ?  1  7 
+ARO  CD    .  C  0  ?  ?  ?  1  8 
+ARO  NE    .  N  0  ?  ?  ?  1  9 
+ARO  CZ    .  C  0  ?  ?  ?  1  10
+ARO  NH1   .  N  0  ?  ?  ?  1  11
+ARO  NH2   .  N  1  ?  ?  ?  1  12
+ARO  OXT   .  O  0  ?  ?  ?  1  13
+ARO  H     .  H  0  ?  ?  ?  1  14
+ARO  HN2   .  H  0  ?  ?  ?  1  15
+ARO  HA    .  H  0  ?  ?  ?  1  16
+ARO  1HB   .  H  0  ?  ?  ?  0  17
+ARO  2HB   .  H  0  ?  ?  ?  0  18
+ARO  1HG   .  H  0  ?  ?  ?  0  19
+ARO  1HD   .  H  0  ?  ?  ?  0  20
+ARO  2HD   .  H  0  ?  ?  ?  0  21
+ARO  HE    .  H  0  ?  ?  ?  1  22
+ARO  1HH1  .  H  0  ?  ?  ?  0  23
+ARO  2HH1  .  H  0  ?  ?  ?  0  24
+ARO  1HH2  .  H  0  ?  ?  ?  0  25
+ARO  2HH2  .  H  0  ?  ?  ?  0  26
+ARO  HXT   .  H  0  ?  ?  ?  1  27
+ARO  HOH   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARO  N    CA    SING  1 
+ARO  N    H     SING  2 
+ARO  N    HN2   SING  3 
+ARO  CA   C     SING  4 
+ARO  CA   CB    SING  5 
+ARO  CA   HA    SING  6 
+ARO  C    O     DOUB  7 
+ARO  C    OXT   SING  8 
+ARO  CB   CG    SING  9 
+ARO  CB   1HB   SING  10
+ARO  CB   2HB   SING  11
+ARO  CG   CD    SING  12
+ARO  CG   1HG   SING  13
+ARO  CG   OH    SING  14
+ARO  OH   HOH   SING  15
+ARO  CD   NE    SING  16
+ARO  CD   1HD   SING  17
+ARO  CD   2HD   SING  18
+ARO  NE   CZ    SING  19
+ARO  NE   HE    SING  20
+ARO  CZ   NH1   SING  21
+ARO  CZ   NH2   DOUB  22
+ARO  NH1  1HH1  SING  23
+ARO  NH1  2HH1  SING  24
+ARO  NH2  1HH2  SING  25
+ARO  NH2  2HH2  SING  26
+ARO  OXT  HXT   SING  27
+#

@@ -1,0 +1,91 @@
+data_NAL
+#
+_chem_comp.id                       NAL
+_chem_comp.name                     BETA-(2-NAPHTHYL)-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            215.251
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAL  C1   .  C  0  ?  ?  ?  1  1 
+NAL  C2   .  C  0  ?  ?  ?  1  2 
+NAL  C3   .  C  0  ?  ?  ?  1  3 
+NAL  C4   .  C  0  ?  ?  ?  1  4 
+NAL  C4A  .  C  0  ?  ?  ?  1  5 
+NAL  C5   .  C  0  ?  ?  ?  1  6 
+NAL  C6   .  C  0  ?  ?  ?  1  7 
+NAL  C7   .  C  0  ?  ?  ?  1  8 
+NAL  C8   .  C  0  ?  ?  ?  1  9 
+NAL  C8A  .  C  0  ?  ?  ?  1  10
+NAL  C9   .  C  0  ?  ?  ?  1  11
+NAL  C10  .  C  0  ?  ?  ?  1  12
+NAL  C11  .  C  0  ?  ?  ?  1  13
+NAL  N    .  N  0  ?  ?  ?  1  14
+NAL  O1   .  O  0  ?  ?  ?  1  15
+NAL  O2   .  O  0  ?  ?  ?  1  16
+NAL  H1   .  H  0  ?  ?  ?  1  17
+NAL  H3   .  H  0  ?  ?  ?  1  18
+NAL  H4   .  H  0  ?  ?  ?  1  19
+NAL  H5   .  H  0  ?  ?  ?  1  20
+NAL  H6   .  H  0  ?  ?  ?  1  21
+NAL  H7   .  H  0  ?  ?  ?  1  22
+NAL  H8   .  H  0  ?  ?  ?  1  23
+NAL  1H9  .  H  0  ?  ?  ?  0  24
+NAL  2H9  .  H  0  ?  ?  ?  0  25
+NAL  H10  .  H  0  ?  ?  ?  1  26
+NAL  HO2  .  H  0  ?  ?  ?  1  27
+NAL  1HN  .  H  0  ?  ?  ?  0  28
+NAL  2HN  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAL  C1   C2   DOUB  1 
+NAL  C1   C8A  SING  2 
+NAL  C1   H1   SING  3 
+NAL  C2   C3   SING  4 
+NAL  C2   C9   SING  5 
+NAL  C3   C4   DOUB  6 
+NAL  C3   H3   SING  7 
+NAL  C4   C4A  SING  8 
+NAL  C4   H4   SING  9 
+NAL  C4A  C5   DOUB  10
+NAL  C4A  C8A  SING  11
+NAL  C5   C6   SING  12
+NAL  C5   H5   SING  13
+NAL  C6   C7   DOUB  14
+NAL  C6   H6   SING  15
+NAL  C7   C8   SING  16
+NAL  C7   H7   SING  17
+NAL  C8   C8A  DOUB  18
+NAL  C8   H8   SING  19
+NAL  C9   C10  SING  20
+NAL  C9   1H9  SING  21
+NAL  C9   2H9  SING  22
+NAL  C10  C11  SING  23
+NAL  C10  N    SING  24
+NAL  C10  H10  SING  25
+NAL  C11  O1   DOUB  26
+NAL  C11  O2   SING  27
+NAL  N    1HN  SING  28
+NAL  N    2HN  SING  29
+NAL  O2   HO2  SING  30
+#

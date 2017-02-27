@@ -1,0 +1,111 @@
+data_P1T
+#
+_chem_comp.id                   P1T
+_chem_comp.name                 '2-[({3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYL)AMINO]ACRYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        318.222
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          P1T
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       Cc1c(c(c(cn1)COP(=O)(O)O)CNC(=C)C(=O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+P1T  OP1   .  O  0  15.469  -9.747   4.456   1  N  1 
+P1T  P     .  P  0  14.123  -10.234  4.918   1  N  2 
+P1T  OP2   .  O  0  12.961  -9.551   4.291   1  N  3 
+P1T  OP3   .  O  0  13.944  -10.189  6.370   1  N  4 
+P1T  OP4   .  O  0  13.845  -11.796  4.638   1  N  5 
+P1T  C5A   .  C  0  14.345  -12.489  3.572   1  N  6 
+P1T  C5    .  C  0  14.226  -14.008  3.615   1  Y  7 
+P1T  C6    .  C  0  15.103  -14.721  4.401   1  Y  8 
+P1T  N1    .  N  0  15.101  -16.064  4.422   1  Y  9 
+P1T  C2    .  C  0  14.251  -16.774  3.683   1  Y  10
+P1T  C2A   .  C  0  14.235  -18.286  3.671   1  N  11
+P1T  C3    .  C  0  13.322  -16.057  2.866   1  Y  12
+P1T  O3A   .  O  0  12.480  -16.801  2.118   1  N  13
+P1T  C4    .  C  0  13.278  -14.680  2.822   1  Y  14
+P1T  C4A   .  C  0  12.359  -14.013  1.843   1  N  15
+P1T  N     .  N  0  12.232  -14.501  0.656   1  N  16
+P1T  CA    .  C  0  11.464  -13.967  -0.352  1  N  17
+P1T  CB    .  C  0  10.874  -12.805  -0.251  1  N  18
+P1T  C     .  C  0  11.331  -14.664  -1.640  1  N  19
+P1T  O     .  O  0  11.921  -15.745  -1.730  1  N  20
+P1T  OXT   .  O  0  10.739  -14.117  -2.647  1  N  21
+P1T  HOP1  .  H  0  15.462  -9.644   3.512   0  N  22
+P1T  HOP3  .  H  0  14.794  -10.179  6.794   0  N  23
+P1T  1H5A  .  H  0  15.417  -12.252  3.508   0  N  24
+P1T  2H5A  .  H  0  13.736  -12.175  2.711   0  N  25
+P1T  H6    .  H  0  15.811  -14.186  5.017   1  N  26
+P1T  1H2A  .  H  0  14.231  -18.645  2.631   0  N  27
+P1T  2H2A  .  H  0  15.129  -18.666  4.187   0  N  28
+P1T  3H2A  .  H  0  13.333  -18.647  4.187   0  N  29
+P1T  HO3A  .  H  0  11.687  -16.976  2.612   0  N  30
+P1T  1H4A  .  H  0  12.737  -12.988  1.715   0  N  31
+P1T  2H4A  .  H  0  11.361  -14.139  2.289   0  N  32
+P1T  HN    .  H  0  11.851  -15.414  0.802   1  N  33
+P1T  1HB   .  H  0  11.054  -12.413  0.739   0  N  34
+P1T  2HB   .  H  0  10.302  -12.319  -1.028  0  N  35
+P1T  HO    .  H  0  11.857  -16.068  -2.621  1  N  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+P1T  OP1  P     SING  N  1 
+P1T  OP1  HOP1  SING  N  2 
+P1T  P    OP2   DOUB  N  3 
+P1T  P    OP4   SING  N  4 
+P1T  P    OP3   SING  N  5 
+P1T  OP3  HOP3  SING  N  6 
+P1T  OP4  C5A   SING  N  7 
+P1T  C5A  C5    SING  N  8 
+P1T  C5A  1H5A  SING  N  9 
+P1T  C5A  2H5A  SING  N  10
+P1T  C5   C4    SING  Y  11
+P1T  C5   C6    DOUB  Y  12
+P1T  C6   N1    SING  Y  13
+P1T  C6   H6    SING  N  14
+P1T  N1   C2    DOUB  Y  15
+P1T  C2   C3    SING  Y  16
+P1T  C2   C2A   SING  N  17
+P1T  C2A  1H2A  SING  N  18
+P1T  C2A  2H2A  SING  N  19
+P1T  C2A  3H2A  SING  N  20
+P1T  C3   O3A   SING  N  21
+P1T  C3   C4    DOUB  Y  22
+P1T  O3A  HO3A  SING  N  23
+P1T  C4   C4A   SING  N  24
+P1T  C4A  N     SING  N  25
+P1T  C4A  1H4A  SING  N  26
+P1T  C4A  2H4A  SING  N  27
+P1T  N    CA    SING  N  28
+P1T  N    HN    SING  N  29
+P1T  CA   C     SING  N  30
+P1T  CA   CB    DOUB  N  31
+P1T  CB   1HB   SING  N  32
+P1T  CB   2HB   SING  N  33
+P1T  C    OXT   DOUB  N  34
+P1T  C    O     SING  N  35
+P1T  O    HO    SING  N  36
+#

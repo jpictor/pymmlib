@@ -1,0 +1,85 @@
+data_MHN
+#
+_chem_comp.id                   MHN
+_chem_comp.name                 6-METHYLHEPTAN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 O1'
+_chem_comp.pdbx_synonyms        'METHYL HEPTANOL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        130.230
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MHN  O1   .  O  0  12.931  33.296  36.660  1  1 
+MHN  C8   .  C  0  13.916  32.251  36.475  1  2 
+MHN  C7   .  C  0  14.199  32.145  34.963  1  3 
+MHN  C6   .  C  0  15.254  31.062  34.626  1  4 
+MHN  C5   .  C  0  15.540  30.969  33.106  1  5 
+MHN  C4   .  C  0  16.629  29.884  32.786  1  6 
+MHN  C2   .  C  0  17.064  29.645  31.276  1  7 
+MHN  C1   .  C  0  15.896  29.971  30.283  1  8 
+MHN  C3   .  C  0  18.261  30.544  30.899  1  9 
+MHN  HO1  .  H  0  ?       ?       ?       1  10
+MHN  1H8  .  H  0  ?       ?       ?       0  11
+MHN  2H8  .  H  0  ?       ?       ?       0  12
+MHN  1H7  .  H  0  ?       ?       ?       0  13
+MHN  2H7  .  H  0  ?       ?       ?       0  14
+MHN  1H6  .  H  0  ?       ?       ?       0  15
+MHN  2H6  .  H  0  ?       ?       ?       0  16
+MHN  1H5  .  H  0  ?       ?       ?       0  17
+MHN  2H5  .  H  0  ?       ?       ?       0  18
+MHN  1H4  .  H  0  ?       ?       ?       0  19
+MHN  2H4  .  H  0  ?       ?       ?       0  20
+MHN  H2   .  H  0  ?       ?       ?       1  21
+MHN  1H1  .  H  0  ?       ?       ?       0  22
+MHN  2H1  .  H  0  ?       ?       ?       0  23
+MHN  3H1  .  H  0  ?       ?       ?       0  24
+MHN  1H3  .  H  0  ?       ?       ?       0  25
+MHN  2H3  .  H  0  ?       ?       ?       0  26
+MHN  3H3  .  H  0  ?       ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MHN  O1  HO1  SING  1 
+MHN  O1  C8   SING  2 
+MHN  C8  1H8  SING  3 
+MHN  C8  2H8  SING  4 
+MHN  C8  C7   SING  5 
+MHN  C7  1H7  SING  6 
+MHN  C7  2H7  SING  7 
+MHN  C7  C6   SING  8 
+MHN  C6  1H6  SING  9 
+MHN  C6  2H6  SING  10
+MHN  C6  C5   SING  11
+MHN  C5  1H5  SING  12
+MHN  C5  2H5  SING  13
+MHN  C5  C4   SING  14
+MHN  C4  1H4  SING  15
+MHN  C4  2H4  SING  16
+MHN  C4  C2   SING  17
+MHN  C2  H2   SING  18
+MHN  C2  C1   SING  19
+MHN  C2  C3   SING  20
+MHN  C1  1H1  SING  21
+MHN  C1  2H1  SING  22
+MHN  C1  3H1  SING  23
+MHN  C3  1H3  SING  24
+MHN  C3  2H3  SING  25
+MHN  C3  3H3  SING  26
+#

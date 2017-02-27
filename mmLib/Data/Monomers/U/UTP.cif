@@ -1,0 +1,112 @@
+data_UTP
+#
+_chem_comp.id                   UTP
+_chem_comp.name                 'URIDINE 5'-TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N2 O15 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        480.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UTP  PA    .  P  0  18.309  26.365  27.441  1  1 
+UTP  O1A   .  O  0  19.058  25.478  26.514  1  2 
+UTP  O2A   .  O  0  18.46   26.206  28.913  1  3 
+UTP  O3A   .  O  0  16.725  26.328  27.094  1  4 
+UTP  O5*   .  O  0  18.566  27.884  27.076  1  5 
+UTP  PB    .  P  0  15.502  25.636  27.821  1  6 
+UTP  O1B   .  O  0  15.755  25.133  29.161  1  7 
+UTP  O2B   .  O  0  14.962  24.729  26.843  1  8 
+UTP  O3B   .  O  0  14.56   26.91   27.985  1  9 
+UTP  PG    .  P  0  13.146  27.07   28.678  1  10
+UTP  O1G   .  O  0  12.961  28.56   28.983  1  11
+UTP  O2G   .  O  0  12.192  26.542  27.637  1  12
+UTP  O3G   .  O  0  13.123  26.239  29.952  1  13
+UTP  C5*   .  C  0  17.953  28.908  27.837  1  14
+UTP  C4*   .  C  0  17.799  30.142  26.999  1  15
+UTP  O4*   .  O  0  16.765  29.918  26.002  1  16
+UTP  C1*   .  C  0  16.025  31.105  25.856  1  17
+UTP  C2*   .  C  0  15.96   31.654  27.282  1  18
+UTP  O2*   .  O  0  15.624  33.021  27.293  1  19
+UTP  C3*   .  C  0  17.378  31.376  27.787  1  20
+UTP  O3*   .  O  0  18.272  32.452  27.523  1  21
+UTP  N1    .  N  0  14.707  30.78   25.282  1  22
+UTP  C6    .  C  0  13.921  29.782  25.809  1  23
+UTP  C2    .  C  0  14.268  31.537  24.204  1  24
+UTP  O2    .  O  0  14.958  32.393  23.675  1  25
+UTP  N3    .  N  0  12.997  31.244  23.764  1  26
+UTP  C4    .  C  0  12.146  30.276  24.267  1  27
+UTP  O4    .  O  0  10.996  30.178  23.817  1  28
+UTP  C5    .  C  0  12.692  29.509  25.35   1  29
+UTP  1H5*  .  H  0  18.503  29.111  28.785  0  30
+UTP  2H5*  .  H  0  16.984  28.578  28.279  0  31
+UTP  H4*   .  H  0  18.764  30.353  26.481  1  32
+UTP  H3*   .  H  0  17.361  31.149  28.878  1  33
+UTP  H1*   .  H  0  16.568  31.818  25.193  1  34
+UTP  H2*   .  H  0  15.22   31.074  27.882  1  35
+UTP  HA    .  H  0  14.744  33.194  26.98   1  36
+UTP  HB    .  H  0  18.01   33.222  28.014  1  37
+UTP  H6    .  H  0  14.319  29.181  26.644  1  38
+UTP  H5    .  H  0  12.101  28.696  25.804  1  39
+UTP  H3    .  H  0  12.645  31.8    22.984  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UTP  PA   O1A   DOUB  1 
+UTP  PA   O2A   SING  2 
+UTP  PA   O3A   SING  3 
+UTP  PA   O5*   SING  4 
+UTP  O3A  PB    SING  5 
+UTP  O5*  C5*   SING  6 
+UTP  PB   O1B   SING  7 
+UTP  PB   O2B   DOUB  8 
+UTP  PB   O3B   SING  9 
+UTP  O3B  PG    SING  10
+UTP  PG   O1G   SING  11
+UTP  PG   O2G   DOUB  12
+UTP  PG   O3G   SING  13
+UTP  C5*  C4*   SING  14
+UTP  C5*  1H5*  SING  15
+UTP  C5*  2H5*  SING  16
+UTP  C4*  O4*   SING  17
+UTP  C4*  C3*   SING  18
+UTP  C4*  H4*   SING  19
+UTP  O4*  C1*   SING  20
+UTP  C1*  C2*   SING  21
+UTP  C1*  N1    SING  22
+UTP  C1*  H1*   SING  23
+UTP  C2*  O2*   SING  24
+UTP  C2*  C3*   SING  25
+UTP  C2*  H2*   SING  26
+UTP  O2*  HA    SING  27
+UTP  C3*  O3*   SING  28
+UTP  C3*  H3*   SING  29
+UTP  O3*  HB    SING  30
+UTP  N1   C6    SING  31
+UTP  N1   C2    SING  32
+UTP  C6   C5    DOUB  33
+UTP  C6   H6    SING  34
+UTP  C2   O2    DOUB  35
+UTP  C2   N3    SING  36
+UTP  N3   C4    SING  37
+UTP  N3   H3    SING  38
+UTP  C4   O4    DOUB  39
+UTP  C4   C5    SING  40
+UTP  C5   H5    SING  41
+#

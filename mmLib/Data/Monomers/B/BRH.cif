@@ -1,0 +1,72 @@
+data_BRH
+#
+_chem_comp.id                   BRH
+_chem_comp.name                 '(S)-2-AMINO-3-(4-BROMO-3-HYDROXY-ISOXAZOL-5-YL)PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N2 O4 BR1'
+_chem_comp.pdbx_synonyms        BR-HIBO
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        251.036
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRH  O1   .  O   0  -2.672  0.758   0.000  1  1 
+BRH  C1   .  C   0  -2.143  0.125   0.000  1  2 
+BRH  O2   .  O   0  -2.427  -0.649  0.000  1  3 
+BRH  C2   .  C   0  -1.331  0.267   0.000  1  4 
+BRH  N1   .  N   0  -1.472  1.080   0.000  1  5 
+BRH  C3   .  C   0  -0.518  0.408   0.000  1  6 
+BRH  C4   .  C   0  0.295   0.550   0.000  1  7 
+BRH  C5   .  C   0  0.887   -0.025  0.000  1  8 
+BRH  BR1  .  BR  0  0.743   -1.032  0.000  0  9 
+BRH  C6   .  C   0  1.616   0.361   0.000  1  10
+BRH  O3   .  O   0  2.357   -0.002  0.000  1  11
+BRH  N2   .  N   0  1.475   1.174   0.000  1  12
+BRH  O4   .  O   0  0.658   1.291   0.000  1  13
+BRH  H1   .  H   0  -3.179  0.670   0.000  1  14
+BRH  H2   .  H   0  -1.230  -0.308  0.000  1  15
+BRH  H3   .  H   0  -1.980  1.266   0.000  1  16
+BRH  H4   .  H   0  -1.057  1.427   0.000  1  17
+BRH  H5   .  H   0  -0.418  -0.167  0.000  1  18
+BRH  H6   .  H   0  -0.618  0.984   0.000  1  19
+BRH  H7   .  H   0  2.392   -0.515  0.000  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRH  O1  H1   SING  1 
+BRH  O1  C1   SING  2 
+BRH  C1  O2   DOUB  3 
+BRH  C1  C2   SING  4 
+BRH  C2  H2   SING  5 
+BRH  C2  N1   SING  6 
+BRH  C2  C3   SING  7 
+BRH  N1  H3   SING  8 
+BRH  N1  H4   SING  9 
+BRH  C3  H5   SING  10
+BRH  C3  H6   SING  11
+BRH  C3  C4   SING  12
+BRH  C4  C5   DOUB  13
+BRH  C4  O4   SING  14
+BRH  C5  BR1  SING  15
+BRH  C5  C6   SING  16
+BRH  C6  O3   SING  17
+BRH  C6  N2   DOUB  18
+BRH  O3  H7   SING  19
+BRH  N2  O4   SING  20
+#

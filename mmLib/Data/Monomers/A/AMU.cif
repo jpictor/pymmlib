@@ -1,0 +1,132 @@
+data_AMU
+#
+_chem_comp.id                   AMU
+_chem_comp.name                 'BETA-N-ACETYLMURAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N1 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.273
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+AMU  SMILES            C[C@@H](O[C@H]1[C@H](O)[C@@H](CO)O[C@@H](O)[C@@H]1NC(C)=O)C(O)=O                                                                                    CACTVS              2.87 
+AMU  SMILES_CANONICAL  CC(OC1C(O)C(CO)OC(O)C1NC(C)=O)C(O)=O                                                                                                                CACTVS              2.87 
+AMU  INCHI             InChI=1/C11H19NO8/c1-4(10(16)17)19-9-7(12-5(2)14)11(18)20-6(3-13)8(9)15/h4,6-9,11,13,15,18H,3H2,1-2H3,(H,12,14)(H,16,17)/t4-,6-,7-,8-,9-,11-/m1/s1  InChi               1    
+AMU  SMILES_CANONICAL  C[C@H](C(=O)O)O[C@@H]1[C@H]([C@@H](O[C@@H]([C@H]1O)CO)O)NC(=O)C                                                                                     OpenEye/OEToolkits  1.4.2
+AMU  SMILES            CC(C(=O)O)OC1C(C(OC(C1O)CO)O)NC(=O)C                                                                                                                OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          AMU
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '(2R)-2-[(2R,3R,4R,5S,6R)-3-acetamido-2,5-dihydroxy-6-(hydroxymethyl)oxan-4-yl]oxypropanoic acid'
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+AMU  C1    .  C  0  3.559   20.977  11.230  1  N  R  N  1 
+AMU  C2    .  C  0  3.379   22.460  11.489  1  N  R  N  2 
+AMU  C3    .  C  0  4.663   23.332  11.476  1  N  R  N  3 
+AMU  C4    .  C  0  5.710   22.651  12.360  1  N  S  N  4 
+AMU  C5    .  C  0  5.882   21.162  11.889  1  N  R  N  5 
+AMU  C6    .  C  0  6.885   20.387  12.722  1  N  N  N  6 
+AMU  C7    .  C  0  1.372   23.564  10.510  1  N  N  N  7 
+AMU  C8    .  C  0  0.806   24.014  9.177   1  N  N  N  8 
+AMU  C9    .  C  0  3.954   25.666  11.141  1  N  R  N  9 
+AMU  C10   .  C  0  2.819   26.554  11.635  1  N  N  N  10
+AMU  C11   .  C  0  5.212   26.479  10.864  1  N  N  N  11
+AMU  O1    .  O  0  2.357   20.350  11.634  1  N  N  N  12
+AMU  O3    .  O  0  4.174   24.560  12.027  1  N  N  N  13
+AMU  O4    .  O  0  6.956   23.349  12.359  1  N  N  N  14
+AMU  O5    .  O  0  4.635   20.485  11.999  1  N  N  N  15
+AMU  O6    .  O  0  6.259   20.015  13.938  1  N  N  N  16
+AMU  O7    .  O  0  0.790   23.733  11.583  1  N  N  N  17
+AMU  O10   .  O  0  2.407   27.485  10.945  1  N  N  N  18
+AMU  O11   .  O  0  2.281   26.213  12.804  1  N  N  Y  19
+AMU  N2    .  N  0  2.566   22.994  10.414  1  N  N  N  20
+AMU  H1    .  H  0  3.779   20.777  10.155  1  N  N  N  21
+AMU  H2    .  H  0  2.949   22.513  12.516  1  N  N  N  22
+AMU  H3    .  H  0  5.156   23.484  10.487  1  N  N  N  23
+AMU  H4    .  H  0  5.352   22.667  13.415  1  N  N  N  24
+AMU  H5    .  H  0  6.250   21.206  10.837  1  N  N  N  25
+AMU  1H6   .  H  0  7.314   19.515  12.175  0  N  N  N  26
+AMU  2H6   .  H  0  7.835   20.948  12.882  0  N  N  N  27
+AMU  1H8   .  H  0  1.332   23.861  8.206   0  N  N  N  28
+AMU  2H8   .  H  0  -0.209  23.563  9.078   0  N  N  N  29
+AMU  3H8   .  H  0  0.578   25.102  9.263   0  N  N  N  30
+AMU  H9    .  H  0  3.652   25.221  10.163  1  N  N  N  31
+AMU  1H11  .  H  0  6.042   25.829  10.502  0  N  N  N  32
+AMU  2H11  .  H  0  5.010   27.316  10.156  0  N  N  N  33
+AMU  3H11  .  H  0  5.517   27.076  11.754  0  N  N  N  34
+AMU  HO1   .  H  0  2.469   19.420  11.471  1  N  N  N  35
+AMU  HO4   .  H  0  7.606   22.926  12.907  1  N  N  N  36
+AMU  HO6   .  H  0  6.887   19.529  14.459  1  N  N  N  37
+AMU  HO11  .  H  0  1.573   26.766  13.112  0  N  N  N  38
+AMU  HN2   .  H  0  2.881   22.964  9.444   1  N  N  N  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+AMU  C1   C2    SING  N  N  1 
+AMU  C1   O1    SING  N  N  2 
+AMU  C1   O5    SING  N  N  3 
+AMU  C1   H1    SING  N  N  4 
+AMU  C2   C3    SING  N  N  5 
+AMU  C2   N2    SING  N  N  6 
+AMU  C2   H2    SING  N  N  7 
+AMU  C3   C4    SING  N  N  8 
+AMU  C3   O3    SING  N  N  9 
+AMU  C3   H3    SING  N  N  10
+AMU  C4   C5    SING  N  N  11
+AMU  C4   O4    SING  N  N  12
+AMU  C4   H4    SING  N  N  13
+AMU  C5   C6    SING  N  N  14
+AMU  C5   O5    SING  N  N  15
+AMU  C5   H5    SING  N  N  16
+AMU  C6   O6    SING  N  N  17
+AMU  C6   1H6   SING  N  N  18
+AMU  C6   2H6   SING  N  N  19
+AMU  C7   C8    SING  N  N  20
+AMU  C7   O7    DOUB  N  N  21
+AMU  C7   N2    SING  N  N  22
+AMU  C8   1H8   SING  N  N  23
+AMU  C8   2H8   SING  N  N  24
+AMU  C8   3H8   SING  N  N  25
+AMU  C9   C10   SING  N  N  26
+AMU  C9   C11   SING  N  N  27
+AMU  C9   O3    SING  N  N  28
+AMU  C9   H9    SING  N  N  29
+AMU  C10  O10   DOUB  N  N  30
+AMU  C10  O11   SING  N  N  31
+AMU  C11  1H11  SING  N  N  32
+AMU  C11  2H11  SING  N  N  33
+AMU  C11  3H11  SING  N  N  34
+AMU  O1   HO1   SING  N  N  35
+AMU  O4   HO4   SING  N  N  36
+AMU  O6   HO6   SING  N  N  37
+AMU  O11  HO11  SING  N  N  38
+AMU  N2   HN2   SING  N  N  39
+#

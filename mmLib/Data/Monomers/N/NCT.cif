@@ -1,0 +1,85 @@
+data_NCT
+#
+_chem_comp.id                   NCT
+_chem_comp.name                 (S)-3-(1-METHYLPYRROLIDIN-2-YL)PYRIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N2'
+_chem_comp.pdbx_synonyms        '(S)-(-)-NICOTINE, 3-[(2S)-1-METHYL-2-PYRROLIDINYL] PYRIDINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.234
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NCT  N1    .  N  0  14.530  10.959  39.396  1  1 
+NCT  C1    .  C  0  14.848  11.534  40.556  1  2 
+NCT  C2    .  C  0  15.983  12.295  40.734  1  3 
+NCT  C3    .  C  0  16.825  12.449  39.638  1  4 
+NCT  C4    .  C  0  16.523  11.839  38.434  1  5 
+NCT  C5    .  C  0  15.352  11.105  38.352  1  6 
+NCT  N2    .  N  0  17.641  13.401  42.234  1  7 
+NCT  C6    .  C  0  16.270  12.952  42.061  1  8 
+NCT  C7    .  C  0  15.467  14.258  42.221  1  9 
+NCT  C8    .  C  0  16.281  15.092  43.220  1  10
+NCT  C9    .  C  0  17.637  14.351  43.335  1  11
+NCT  C10   .  C  0  18.632  12.352  42.357  1  12
+NCT  HC1   .  H  0  ?       ?       ?       1  13
+NCT  HC3   .  H  0  ?       ?       ?       1  14
+NCT  HC4   .  H  0  ?       ?       ?       1  15
+NCT  HC5   .  H  0  ?       ?       ?       1  16
+NCT  HC6   .  H  0  ?       ?       ?       1  17
+NCT  1HC7  .  H  0  ?       ?       ?       0  18
+NCT  2HC7  .  H  0  ?       ?       ?       0  19
+NCT  1HC8  .  H  0  ?       ?       ?       0  20
+NCT  2HC8  .  H  0  ?       ?       ?       0  21
+NCT  1HC9  .  H  0  ?       ?       ?       0  22
+NCT  2HC9  .  H  0  ?       ?       ?       0  23
+NCT  1H10  .  H  0  ?       ?       ?       0  24
+NCT  2H10  .  H  0  ?       ?       ?       0  25
+NCT  3H10  .  H  0  ?       ?       ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NCT  N1   C1    DOUB  1 
+NCT  N1   C5    SING  2 
+NCT  C1   C2    SING  3 
+NCT  C1   HC1   SING  4 
+NCT  C2   C3    DOUB  5 
+NCT  C2   C6    SING  6 
+NCT  C3   C4    SING  7 
+NCT  C3   HC3   SING  8 
+NCT  C4   C5    DOUB  9 
+NCT  C4   HC4   SING  10
+NCT  C5   HC5   SING  11
+NCT  N2   C6    SING  12
+NCT  N2   C9    SING  13
+NCT  N2   C10   SING  14
+NCT  C6   C7    SING  15
+NCT  C6   HC6   SING  16
+NCT  C7   C8    SING  17
+NCT  C7   1HC7  SING  18
+NCT  C7   2HC7  SING  19
+NCT  C8   C9    SING  20
+NCT  C8   1HC8  SING  21
+NCT  C8   2HC8  SING  22
+NCT  C9   1HC9  SING  23
+NCT  C9   2HC9  SING  24
+NCT  C10  1H10  SING  25
+NCT  C10  2H10  SING  26
+NCT  C10  3H10  SING  27
+#

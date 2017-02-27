@@ -1,0 +1,117 @@
+data_FOX
+#
+_chem_comp.id                       FOX
+_chem_comp.name                     '((1R,2S,4R)-4-{[2-AMINO-5-(FORMYLAMINO)-6-OXO-3,6-DIHYDROPYRIMIDIN-4-YL]AMINO}-2-HYDROXYCYCLOPENTYL)METHYL 5'-PHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H18 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            363.266
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOX  O1P   .  O  0  23.839  52.081  21.985  1  1 
+FOX  P     .  P  0  23.758  50.625  22.341  1  2 
+FOX  O2P   .  O  0  22.554  49.880  22.018  1  3 
+FOX  O5*   .  O  0  25.029  49.872  21.706  1  4 
+FOX  C5*   .  C  0  26.356  50.263  22.036  1  5 
+FOX  C4*   .  C  0  27.351  49.653  21.042  1  6 
+FOX  C6*   .  C  0  28.759  50.017  21.513  1  7 
+FOX  C3*   .  C  0  27.310  48.103  21.082  1  8 
+FOX  O3*   .  O  0  27.935  47.573  19.886  1  9 
+FOX  C2*   .  C  0  28.194  47.776  22.268  1  10
+FOX  C1*   .  C  0  29.374  48.758  22.157  1  11
+FOX  N9    .  N  0  29.926  49.131  23.479  1  12
+FOX  C4    .  C  0  30.997  50.028  23.615  1  13
+FOX  N3    .  N  0  31.674  50.410  22.489  1  14
+FOX  C2    .  C  0  32.739  51.204  22.535  1  15
+FOX  N2    .  N  0  33.357  51.548  21.410  1  16
+FOX  N1    .  N  0  33.235  51.642  23.721  1  17
+FOX  C6    .  C  0  32.617  51.294  24.908  1  18
+FOX  O6    .  O  0  33.094  51.721  25.982  1  19
+FOX  C5    .  C  0  31.466  50.460  24.866  1  20
+FOX  N7    .  N  0  30.828  50.159  26.019  1  21
+FOX  C8    .  C  0  29.887  50.978  26.517  1  22
+FOX  O8    .  O  0  29.147  51.635  25.744  1  23
+FOX  O3P   .  O  0  ?       ?       ?       1  24
+FOX  2HOP  .  H  0  ?       ?       ?       0  25
+FOX  3HOP  .  H  0  ?       ?       ?       0  26
+FOX  1H5*  .  H  0  ?       ?       ?       0  27
+FOX  2H5*  .  H  0  ?       ?       ?       0  28
+FOX  1H6*  .  H  0  ?       ?       ?       0  29
+FOX  2H6*  .  H  0  ?       ?       ?       0  30
+FOX  H4*   .  H  0  ?       ?       ?       1  31
+FOX  H3*   .  H  0  ?       ?       ?       1  32
+FOX  H3T   .  H  0  ?       ?       ?       1  33
+FOX  1H2*  .  H  0  ?       ?       ?       0  34
+FOX  2H2*  .  H  0  ?       ?       ?       0  35
+FOX  H1*   .  H  0  ?       ?       ?       1  36
+FOX  H9    .  H  0  ?       ?       ?       1  37
+FOX  H3    .  H  0  ?       ?       ?       1  38
+FOX  1H2   .  H  0  ?       ?       ?       0  39
+FOX  2H2   .  H  0  ?       ?       ?       0  40
+FOX  H7    .  H  0  ?       ?       ?       1  41
+FOX  H8    .  H  0  ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOX  O1P  P     DOUB  1 
+FOX  P    O2P   SING  2 
+FOX  P    O5*   SING  3 
+FOX  P    O3P   SING  4 
+FOX  O2P  2HOP  SING  5 
+FOX  O5*  C5*   SING  6 
+FOX  C5*  C4*   SING  7 
+FOX  C5*  1H5*  SING  8 
+FOX  C5*  2H5*  SING  9 
+FOX  C4*  C6*   SING  10
+FOX  C4*  C3*   SING  11
+FOX  C4*  H4*   SING  12
+FOX  C6*  C1*   SING  13
+FOX  C6*  1H6*  SING  14
+FOX  C6*  2H6*  SING  15
+FOX  C3*  O3*   SING  16
+FOX  C3*  C2*   SING  17
+FOX  C3*  H3*   SING  18
+FOX  O3*  H3T   SING  19
+FOX  C2*  C1*   SING  20
+FOX  C2*  1H2*  SING  21
+FOX  C2*  2H2*  SING  22
+FOX  C1*  N9    SING  23
+FOX  C1*  H1*   SING  24
+FOX  N9   C4    SING  25
+FOX  N9   H9    SING  26
+FOX  C4   N3    SING  27
+FOX  C4   C5    DOUB  28
+FOX  N3   C2    SING  29
+FOX  N3   H3    SING  30
+FOX  C2   N2    SING  31
+FOX  C2   N1    DOUB  32
+FOX  N2   1H2   SING  33
+FOX  N2   2H2   SING  34
+FOX  N1   C6    SING  35
+FOX  C6   O6    DOUB  36
+FOX  C6   C5    SING  37
+FOX  C5   N7    SING  38
+FOX  N7   C8    SING  39
+FOX  N7   H7    SING  40
+FOX  C8   O8    DOUB  41
+FOX  C8   H8    SING  42
+FOX  O3P  3HOP  SING  43
+#

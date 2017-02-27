@@ -1,0 +1,115 @@
+data_ETP
+#
+_chem_comp.id                   ETP
+_chem_comp.name                 '3-(4-BENZENESULFONYL-THIOPHENE-2-SULFONYLAMINO)-PHENYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 N1 O6 B1 S3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        423.280
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ETP  B     .  B  0  ?  ?  ?  1  1 
+ETP  O1    .  O  0  ?  ?  ?  1  2 
+ETP  O2    .  O  0  ?  ?  ?  1  3 
+ETP  C1    .  C  0  ?  ?  ?  1  4 
+ETP  C2    .  C  0  ?  ?  ?  1  5 
+ETP  C3    .  C  0  ?  ?  ?  1  6 
+ETP  N1    .  N  0  ?  ?  ?  1  7 
+ETP  C4    .  C  0  ?  ?  ?  1  8 
+ETP  C5    .  C  0  ?  ?  ?  1  9 
+ETP  C6    .  C  0  ?  ?  ?  1  10
+ETP  S1    .  S  0  ?  ?  ?  1  11
+ETP  O3    .  O  0  ?  ?  ?  1  12
+ETP  O4    .  O  0  ?  ?  ?  1  13
+ETP  S3    .  S  0  ?  ?  ?  1  14
+ETP  C7    .  C  0  ?  ?  ?  1  15
+ETP  C8    .  C  0  ?  ?  ?  1  16
+ETP  C9    .  C  0  ?  ?  ?  1  17
+ETP  C10   .  C  0  ?  ?  ?  1  18
+ETP  S2    .  S  0  ?  ?  ?  1  19
+ETP  O6    .  O  0  ?  ?  ?  1  20
+ETP  O5    .  O  0  ?  ?  ?  1  21
+ETP  C11   .  C  0  ?  ?  ?  1  22
+ETP  C16   .  C  0  ?  ?  ?  1  23
+ETP  C15   .  C  0  ?  ?  ?  1  24
+ETP  C14   .  C  0  ?  ?  ?  1  25
+ETP  C13   .  C  0  ?  ?  ?  1  26
+ETP  C12   .  C  0  ?  ?  ?  1  27
+ETP  HO1   .  H  0  ?  ?  ?  1  28
+ETP  HO2   .  H  0  ?  ?  ?  1  29
+ETP  HC2   .  H  0  ?  ?  ?  1  30
+ETP  HC4   .  H  0  ?  ?  ?  1  31
+ETP  HC5   .  H  0  ?  ?  ?  1  32
+ETP  HC6   .  H  0  ?  ?  ?  1  33
+ETP  HN1   .  H  0  ?  ?  ?  1  34
+ETP  HC7   .  H  0  ?  ?  ?  1  35
+ETP  HC9   .  H  0  ?  ?  ?  1  36
+ETP  HC12  .  H  0  ?  ?  ?  0  37
+ETP  HC13  .  H  0  ?  ?  ?  0  38
+ETP  HC14  .  H  0  ?  ?  ?  0  39
+ETP  HC15  .  H  0  ?  ?  ?  0  40
+ETP  HC16  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ETP  B    O1    SING  1 
+ETP  B    O2    SING  2 
+ETP  B    C1    SING  3 
+ETP  O1   HO1   SING  4 
+ETP  O2   HO2   SING  5 
+ETP  C1   C2    AROM  6 
+ETP  C1   C6    AROM  7 
+ETP  C2   C3    AROM  8 
+ETP  C2   HC2   SING  9 
+ETP  C3   N1    SING  10
+ETP  C3   C4    AROM  11
+ETP  N1   S1    SING  12
+ETP  N1   HN1   SING  13
+ETP  C4   C5    AROM  14
+ETP  C4   HC4   SING  15
+ETP  C5   C6    AROM  16
+ETP  C5   HC5   SING  17
+ETP  C6   HC6   SING  18
+ETP  S1   O3    DOUB  19
+ETP  S1   O4    DOUB  20
+ETP  S1   C10   SING  21
+ETP  S3   C7    SING  22
+ETP  S3   C10   SING  23
+ETP  C7   C8    DOUB  24
+ETP  C7   HC7   SING  25
+ETP  C8   C9    SING  26
+ETP  C8   S2    SING  27
+ETP  C9   C10   DOUB  28
+ETP  C9   HC9   SING  29
+ETP  S2   O6    DOUB  30
+ETP  S2   O5    DOUB  31
+ETP  S2   C11   SING  32
+ETP  C11  C16   AROM  33
+ETP  C11  C12   AROM  34
+ETP  C16  C15   AROM  35
+ETP  C16  HC16  SING  36
+ETP  C15  C14   AROM  37
+ETP  C15  HC15  SING  38
+ETP  C14  C13   AROM  39
+ETP  C14  HC14  SING  40
+ETP  C13  C12   AROM  41
+ETP  C13  HC13  SING  42
+ETP  C12  HC12  SING  43
+#

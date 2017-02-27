@@ -1,0 +1,98 @@
+data_BNN
+#
+_chem_comp.id                       BNN
+_chem_comp.name                     ACETYL-P-AMIDINOPHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C12 H15 N3 O3'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            249.269
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNN  N     .  N  0  ?  ?  ?  1  1 
+BNN  CA    .  C  0  ?  ?  ?  1  2 
+BNN  C     .  C  0  ?  ?  ?  1  3 
+BNN  O     .  O  0  ?  ?  ?  1  4 
+BNN  O1    .  O  0  ?  ?  ?  1  5 
+BNN  CH    .  C  0  ?  ?  ?  1  6 
+BNN  C11   .  C  0  ?  ?  ?  1  7 
+BNN  N16   .  N  0  ?  ?  ?  1  8 
+BNN  N17   .  N  0  ?  ?  ?  1  9 
+BNN  C1    .  C  0  ?  ?  ?  1  10
+BNN  C2    .  C  0  ?  ?  ?  1  11
+BNN  C3    .  C  0  ?  ?  ?  1  12
+BNN  C4    .  C  0  ?  ?  ?  1  13
+BNN  C5    .  C  0  ?  ?  ?  1  14
+BNN  C6    .  C  0  ?  ?  ?  1  15
+BNN  C7    .  C  0  ?  ?  ?  1  16
+BNN  C15   .  C  0  ?  ?  ?  1  17
+BNN  OXT   .  O  0  ?  ?  ?  1  18
+BNN  H     .  H  0  ?  ?  ?  1  19
+BNN  HA    .  H  0  ?  ?  ?  1  20
+BNN  1HH1  .  H  0  ?  ?  ?  0  21
+BNN  2HH1  .  H  0  ?  ?  ?  0  22
+BNN  3HH1  .  H  0  ?  ?  ?  0  23
+BNN  1H16  .  H  0  ?  ?  ?  0  24
+BNN  2H16  .  H  0  ?  ?  ?  0  25
+BNN  H17   .  H  0  ?  ?  ?  1  26
+BNN  H2    .  H  0  ?  ?  ?  1  27
+BNN  H3    .  H  0  ?  ?  ?  1  28
+BNN  H5    .  H  0  ?  ?  ?  1  29
+BNN  H6    .  H  0  ?  ?  ?  1  30
+BNN  1H7   .  H  0  ?  ?  ?  0  31
+BNN  2H7   .  H  0  ?  ?  ?  0  32
+BNN  HXT   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNN  N    CA    SING  1 
+BNN  N    C11   SING  2 
+BNN  N    H     SING  3 
+BNN  CA   C     SING  4 
+BNN  CA   C7    SING  5 
+BNN  CA   HA    SING  6 
+BNN  C    O     DOUB  7 
+BNN  C    OXT   SING  8 
+BNN  O1   C11   DOUB  9 
+BNN  CH   C11   SING  10
+BNN  CH   1HH1  SING  11
+BNN  CH   2HH1  SING  12
+BNN  CH   3HH1  SING  13
+BNN  N16  C15   SING  14
+BNN  N16  1H16  SING  15
+BNN  N16  2H16  SING  16
+BNN  N17  C15   DOUB  17
+BNN  N17  H17   SING  18
+BNN  C1   C2    DOUB  19
+BNN  C1   C6    SING  20
+BNN  C1   C7    SING  21
+BNN  C2   C3    SING  22
+BNN  C2   H2    SING  23
+BNN  C3   C4    DOUB  24
+BNN  C3   H3    SING  25
+BNN  C4   C5    SING  26
+BNN  C4   C15   SING  27
+BNN  C5   C6    DOUB  28
+BNN  C5   H5    SING  29
+BNN  C6   H6    SING  30
+BNN  C7   1H7   SING  31
+BNN  C7   2H7   SING  32
+BNN  OXT  HXT   SING  33
+#

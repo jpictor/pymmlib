@@ -1,0 +1,57 @@
+data_ALT
+#
+_chem_comp.id                       ALT
+_chem_comp.name                     THIOALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C3 H7 N1 O1 S1'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            105.154
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALT  N    .  N  0  ?  ?  ?  1  1 
+ALT  CA   .  C  0  ?  ?  ?  1  2 
+ALT  CB   .  C  0  ?  ?  ?  1  3 
+ALT  C    .  C  0  ?  ?  ?  1  4 
+ALT  S    .  S  0  ?  ?  ?  1  5 
+ALT  OXT  .  O  0  ?  ?  ?  1  6 
+ALT  1HN  .  H  0  ?  ?  ?  0  7 
+ALT  2HN  .  H  0  ?  ?  ?  0  8 
+ALT  HA   .  H  0  ?  ?  ?  1  9 
+ALT  1HB  .  H  0  ?  ?  ?  0  10
+ALT  2HB  .  H  0  ?  ?  ?  0  11
+ALT  3HB  .  H  0  ?  ?  ?  0  12
+ALT  HXT  .  H  0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALT  N    CA   SING  1 
+ALT  N    1HN  SING  2 
+ALT  N    2HN  SING  3 
+ALT  CA   CB   SING  4 
+ALT  CA   C    SING  5 
+ALT  CA   HA   SING  6 
+ALT  CB   1HB  SING  7 
+ALT  CB   2HB  SING  8 
+ALT  CB   3HB  SING  9 
+ALT  C    S    DOUB  10
+ALT  C    OXT  SING  11
+ALT  OXT  HXT  SING  12
+#

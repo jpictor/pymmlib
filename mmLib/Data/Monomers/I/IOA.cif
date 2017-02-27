@@ -1,0 +1,100 @@
+data_IOA
+#
+_chem_comp.id                   IOA
+_chem_comp.name                 4-(AMINOSULFONYL)-N-[(2,5-DIFLUOROPHENYL)METHYL]-BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 N2 O3 F2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.317
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IOA  C01   .  C  0  ?  ?  ?  1  1 
+IOA  C02   .  C  0  ?  ?  ?  1  2 
+IOA  C03   .  C  0  ?  ?  ?  1  3 
+IOA  C04   .  C  0  ?  ?  ?  1  4 
+IOA  C05   .  C  0  ?  ?  ?  1  5 
+IOA  C06   .  C  0  ?  ?  ?  1  6 
+IOA  C07   .  C  0  ?  ?  ?  1  7 
+IOA  O08   .  O  0  ?  ?  ?  1  8 
+IOA  N09   .  N  0  ?  ?  ?  1  9 
+IOA  C10   .  C  0  ?  ?  ?  1  10
+IOA  S11   .  S  0  ?  ?  ?  1  11
+IOA  NP2   .  N  0  ?  ?  ?  1  12
+IOA  O13   .  O  0  ?  ?  ?  1  13
+IOA  O14   .  O  0  ?  ?  ?  1  14
+IOA  C15   .  C  0  ?  ?  ?  1  15
+IOA  C16   .  C  0  ?  ?  ?  1  16
+IOA  C17   .  C  0  ?  ?  ?  1  17
+IOA  C18   .  C  0  ?  ?  ?  1  18
+IOA  C19   .  C  0  ?  ?  ?  1  19
+IOA  C20   .  C  0  ?  ?  ?  1  20
+IOA  F21   .  F  0  ?  ?  ?  1  21
+IOA  F22   .  F  0  ?  ?  ?  1  22
+IOA  1H18  .  H  0  ?  ?  ?  0  23
+IOA  1H16  .  H  0  ?  ?  ?  0  24
+IOA  1H19  .  H  0  ?  ?  ?  0  25
+IOA  1H10  .  H  0  ?  ?  ?  0  26
+IOA  2H10  .  H  0  ?  ?  ?  0  27
+IOA  1H09  .  H  0  ?  ?  ?  0  28
+IOA  1H05  .  H  0  ?  ?  ?  0  29
+IOA  1H04  .  H  0  ?  ?  ?  0  30
+IOA  1H02  .  H  0  ?  ?  ?  0  31
+IOA  1H01  .  H  0  ?  ?  ?  0  32
+IOA  1HP2  .  H  0  ?  ?  ?  0  33
+IOA  2HP2  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IOA  C01  C02   DOUB  1 
+IOA  C01  C06   SING  2 
+IOA  C01  1H01  SING  3 
+IOA  C02  C03   SING  4 
+IOA  C02  1H02  SING  5 
+IOA  C03  C04   DOUB  6 
+IOA  C03  S11   SING  7 
+IOA  C04  C05   SING  8 
+IOA  C04  1H04  SING  9 
+IOA  C05  C06   DOUB  10
+IOA  C05  1H05  SING  11
+IOA  C06  C07   SING  12
+IOA  C07  O08   DOUB  13
+IOA  C07  N09   SING  14
+IOA  N09  C10   SING  15
+IOA  N09  1H09  SING  16
+IOA  C10  C15   SING  17
+IOA  C10  1H10  SING  18
+IOA  C10  2H10  SING  19
+IOA  S11  NP2   SING  20
+IOA  S11  O13   DOUB  21
+IOA  S11  O14   DOUB  22
+IOA  NP2  1HP2  SING  23
+IOA  NP2  2HP2  SING  24
+IOA  C15  C16   DOUB  25
+IOA  C15  C20   SING  26
+IOA  C16  C17   SING  27
+IOA  C16  1H16  SING  28
+IOA  C17  C18   DOUB  29
+IOA  C17  F22   SING  30
+IOA  C18  C19   SING  31
+IOA  C18  1H18  SING  32
+IOA  C19  C20   DOUB  33
+IOA  C19  1H19  SING  34
+IOA  C20  F21   SING  35
+#

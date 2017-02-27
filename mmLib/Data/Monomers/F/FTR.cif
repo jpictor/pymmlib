@@ -1,0 +1,87 @@
+data_FTR
+#
+_chem_comp.id                       FTR
+_chem_comp.name                     FLUOROTRYPTOPHANE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H11 N2 O2 F1'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            222.218
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FTR  N    .  N  0  ?  ?  ?  1  1 
+FTR  CA   .  C  0  ?  ?  ?  1  2 
+FTR  CB   .  C  0  ?  ?  ?  1  3 
+FTR  CG   .  C  0  ?  ?  ?  1  4 
+FTR  CD2  .  C  0  ?  ?  ?  1  5 
+FTR  CE2  .  C  0  ?  ?  ?  1  6 
+FTR  CE3  .  C  0  ?  ?  ?  1  7 
+FTR  CD1  .  C  0  ?  ?  ?  1  8 
+FTR  NE1  .  N  0  ?  ?  ?  1  9 
+FTR  CZ2  .  C  0  ?  ?  ?  1  10
+FTR  CZ3  .  C  0  ?  ?  ?  1  11
+FTR  F    .  F  0  ?  ?  ?  1  12
+FTR  CH2  .  C  0  ?  ?  ?  1  13
+FTR  C    .  C  0  ?  ?  ?  1  14
+FTR  O    .  O  0  ?  ?  ?  1  15
+FTR  OXT  .  O  0  ?  ?  ?  1  16
+FTR  1HN  .  H  0  ?  ?  ?  0  17
+FTR  2HN  .  H  0  ?  ?  ?  0  18
+FTR  HA   .  H  0  ?  ?  ?  1  19
+FTR  1HB  .  H  0  ?  ?  ?  0  20
+FTR  2HB  .  H  0  ?  ?  ?  0  21
+FTR  HE3  .  H  0  ?  ?  ?  1  22
+FTR  HD1  .  H  0  ?  ?  ?  1  23
+FTR  HNE  .  H  0  ?  ?  ?  1  24
+FTR  HZ2  .  H  0  ?  ?  ?  1  25
+FTR  HH2  .  H  0  ?  ?  ?  1  26
+FTR  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FTR  N    CA   SING  1 
+FTR  N    1HN  SING  2 
+FTR  N    2HN  SING  3 
+FTR  CA   CB   SING  4 
+FTR  CA   C    SING  5 
+FTR  CA   HA   SING  6 
+FTR  CB   CG   SING  7 
+FTR  CB   1HB  SING  8 
+FTR  CB   2HB  SING  9 
+FTR  CG   CD2  SING  10
+FTR  CG   CD1  DOUB  11
+FTR  CD2  CE2  DOUB  12
+FTR  CD2  CE3  SING  13
+FTR  CE2  NE1  SING  14
+FTR  CE2  CZ2  SING  15
+FTR  CE3  CZ3  DOUB  16
+FTR  CE3  HE3  SING  17
+FTR  CD1  NE1  SING  18
+FTR  CD1  HD1  SING  19
+FTR  NE1  HNE  SING  20
+FTR  CZ2  CH2  DOUB  21
+FTR  CZ2  HZ2  SING  22
+FTR  CZ3  CH2  SING  23
+FTR  CZ3  F    SING  24
+FTR  CH2  HH2  SING  25
+FTR  C    O    DOUB  26
+FTR  C    OXT  SING  27
+FTR  OXT  HXT  SING  28
+#

@@ -1,0 +1,95 @@
+data_NAF
+#
+_chem_comp.id                   NAF
+_chem_comp.name                 M-(N,N,N-TRIMETHYLAMMONIO)-2,2,2-TRIFLUORO-1,1-DIHYDROXYETHYLBENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N1 O2 F3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       250.240
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAF  C1    .  C  0  ?  ?  ?  1  1 
+NAF  C2    .  C  0  ?  ?  ?  1  2 
+NAF  C3    .  C  0  ?  ?  ?  1  3 
+NAF  C4    .  C  0  ?  ?  ?  1  4 
+NAF  C5    .  C  0  ?  ?  ?  1  5 
+NAF  C6    .  C  0  ?  ?  ?  1  6 
+NAF  C1'   .  C  0  ?  ?  ?  1  7 
+NAF  O1'   .  O  0  ?  ?  ?  1  8 
+NAF  O2'   .  O  0  ?  ?  ?  1  9 
+NAF  C2'   .  C  0  ?  ?  ?  1  10
+NAF  F1'   .  F  0  ?  ?  ?  1  11
+NAF  F2'   .  F  0  ?  ?  ?  1  12
+NAF  F3'   .  F  0  ?  ?  ?  1  13
+NAF  N1    .  N  1  ?  ?  ?  1  14
+NAF  CM1   .  C  0  ?  ?  ?  1  15
+NAF  CM2   .  C  0  ?  ?  ?  1  16
+NAF  CM3   .  C  0  ?  ?  ?  1  17
+NAF  H2    .  H  0  ?  ?  ?  1  18
+NAF  H4    .  H  0  ?  ?  ?  1  19
+NAF  H5    .  H  0  ?  ?  ?  1  20
+NAF  H6    .  H  0  ?  ?  ?  1  21
+NAF  HO1   .  H  0  ?  ?  ?  1  22
+NAF  HO2   .  H  0  ?  ?  ?  1  23
+NAF  1HM1  .  H  0  ?  ?  ?  0  24
+NAF  2HM1  .  H  0  ?  ?  ?  0  25
+NAF  3HM1  .  H  0  ?  ?  ?  0  26
+NAF  1HM2  .  H  0  ?  ?  ?  0  27
+NAF  2HM2  .  H  0  ?  ?  ?  0  28
+NAF  3HM2  .  H  0  ?  ?  ?  0  29
+NAF  1HM3  .  H  0  ?  ?  ?  0  30
+NAF  2HM3  .  H  0  ?  ?  ?  0  31
+NAF  3HM3  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAF  C1   C2    DOUB  1 
+NAF  C1   C6    SING  2 
+NAF  C1   N1    SING  3 
+NAF  C2   C3    SING  4 
+NAF  C2   H2    SING  5 
+NAF  C3   C4    DOUB  6 
+NAF  C3   C1'   SING  7 
+NAF  C4   C5    SING  8 
+NAF  C4   H4    SING  9 
+NAF  C5   C6    DOUB  10
+NAF  C5   H5    SING  11
+NAF  C6   H6    SING  12
+NAF  C1'  C2'   SING  13
+NAF  C1'  O1'   SING  14
+NAF  C1'  O2'   SING  15
+NAF  O1'  HO1   SING  16
+NAF  O2'  HO2   SING  17
+NAF  C2'  F1'   SING  18
+NAF  C2'  F2'   SING  19
+NAF  C2'  F3'   SING  20
+NAF  N1   CM1   SING  21
+NAF  N1   CM2   SING  22
+NAF  N1   CM3   SING  23
+NAF  CM1  1HM1  SING  24
+NAF  CM1  2HM1  SING  25
+NAF  CM1  3HM1  SING  26
+NAF  CM2  1HM2  SING  27
+NAF  CM2  2HM2  SING  28
+NAF  CM2  3HM2  SING  29
+NAF  CM3  1HM3  SING  30
+NAF  CM3  2HM3  SING  31
+NAF  CM3  3HM3  SING  32
+#

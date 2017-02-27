@@ -1,0 +1,80 @@
+data_HOZ
+#
+_chem_comp.id                   HOZ
+_chem_comp.name                 '(4S)-4,5-DIAMINOPENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        132.162
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          HOZ
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C(CC(=O)O)[C@@H](CN)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+HOZ  N     .  N  0  13.828  12.370  -52.924  1  N  1 
+HOZ  CA    .  C  0  13.252  13.558  -52.249  1  N  2 
+HOZ  C     .  C  0  12.446  14.570  -53.085  1  N  3 
+HOZ  N1    .  N  0  11.081  14.903  -52.630  1  N  4 
+HOZ  CB    .  C  0  14.382  14.230  -51.392  1  N  5 
+HOZ  CG    .  C  0  15.329  15.267  -52.052  1  N  6 
+HOZ  CD    .  C  0  16.346  15.813  -51.101  1  N  7 
+HOZ  OE1   .  O  0  15.985  16.652  -50.235  1  N  8 
+HOZ  OE2   .  O  0  17.533  15.417  -51.196  1  N  9 
+HOZ  1HN   .  H  0  13.958  12.568  -53.896  0  N  10
+HOZ  2HN   .  H  0  14.710  12.146  -52.509  0  N  11
+HOZ  HA    .  H  0  12.439  13.164  -51.621  1  N  12
+HOZ  1H    .  H  0  13.019  15.509  -53.087  0  N  13
+HOZ  2H    .  H  0  12.308  14.084  -54.062  0  N  14
+HOZ  1HN1  .  H  0  11.071  14.978  -51.633  0  N  15
+HOZ  2HN1  .  H  0  10.799  15.774  -53.033  0  N  16
+HOZ  1HB   .  H  0  13.873  14.757  -50.571  0  N  17
+HOZ  2HB   .  H  0  15.047  13.394  -51.130  0  N  18
+HOZ  1HG   .  H  0  15.859  14.774  -52.880  0  N  19
+HOZ  2HG   .  H  0  14.711  16.109  -52.397  0  N  20
+HOZ  HOE2  .  H  0  18.064  15.844  -50.534  0  N  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+HOZ  N    CA    SING  N  1 
+HOZ  N    1HN   SING  N  2 
+HOZ  N    2HN   SING  N  3 
+HOZ  CA   C     SING  N  4 
+HOZ  CA   CB    SING  N  5 
+HOZ  CA   HA    SING  N  6 
+HOZ  C    N1    SING  N  7 
+HOZ  C    1H    SING  N  8 
+HOZ  C    2H    SING  N  9 
+HOZ  N1   1HN1  SING  N  10
+HOZ  N1   2HN1  SING  N  11
+HOZ  CB   CG    SING  N  12
+HOZ  CB   1HB   SING  N  13
+HOZ  CB   2HB   SING  N  14
+HOZ  CG   CD    SING  N  15
+HOZ  CG   1HG   SING  N  16
+HOZ  CG   2HG   SING  N  17
+HOZ  CD   OE1   DOUB  N  18
+HOZ  CD   OE2   SING  N  19
+HOZ  OE2  HOE2  SING  N  20
+#

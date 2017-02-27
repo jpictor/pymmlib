@@ -1,0 +1,98 @@
+data_IGP
+#
+_chem_comp.id                   IGP
+_chem_comp.name                 'INDOLE-3-GLYCEROL PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        287.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IGP  C1    .  C  0  ?  ?  ?  1  1 
+IGP  P     .  P  0  ?  ?  ?  1  2 
+IGP  OP1   .  O  0  ?  ?  ?  1  3 
+IGP  OP2   .  O  0  ?  ?  ?  1  4 
+IGP  OP3   .  O  0  ?  ?  ?  1  5 
+IGP  OP4   .  O  0  ?  ?  ?  1  6 
+IGP  C2    .  C  0  ?  ?  ?  1  7 
+IGP  O2    .  O  0  ?  ?  ?  1  8 
+IGP  C3    .  C  0  ?  ?  ?  1  9 
+IGP  O3    .  O  0  ?  ?  ?  1  10
+IGP  CG    .  C  0  ?  ?  ?  1  11
+IGP  CD2   .  C  0  ?  ?  ?  1  12
+IGP  CE2   .  C  0  ?  ?  ?  1  13
+IGP  CE3   .  C  0  ?  ?  ?  1  14
+IGP  CD1   .  C  0  ?  ?  ?  1  15
+IGP  NE1   .  N  0  ?  ?  ?  1  16
+IGP  CZ2   .  C  0  ?  ?  ?  1  17
+IGP  CZ3   .  C  0  ?  ?  ?  1  18
+IGP  CH2   .  C  0  ?  ?  ?  1  19
+IGP  1H1   .  H  0  ?  ?  ?  0  20
+IGP  2H1   .  H  0  ?  ?  ?  0  21
+IGP  1HOP  .  H  0  ?  ?  ?  0  22
+IGP  2HOP  .  H  0  ?  ?  ?  0  23
+IGP  H2    .  H  0  ?  ?  ?  1  24
+IGP  HO2   .  H  0  ?  ?  ?  1  25
+IGP  H3    .  H  0  ?  ?  ?  1  26
+IGP  HO3   .  H  0  ?  ?  ?  1  27
+IGP  HE3   .  H  0  ?  ?  ?  1  28
+IGP  HD1   .  H  0  ?  ?  ?  1  29
+IGP  HN1   .  H  0  ?  ?  ?  1  30
+IGP  HZ2   .  H  0  ?  ?  ?  1  31
+IGP  HZ3   .  H  0  ?  ?  ?  1  32
+IGP  HH2   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IGP  C1   OP4   SING  1 
+IGP  C1   C2    SING  2 
+IGP  C1   1H1   SING  3 
+IGP  C1   2H1   SING  4 
+IGP  P    OP1   SING  5 
+IGP  P    OP2   SING  6 
+IGP  P    OP3   DOUB  7 
+IGP  P    OP4   SING  8 
+IGP  OP1  1HOP  SING  9 
+IGP  OP2  2HOP  SING  10
+IGP  C2   O2    SING  11
+IGP  C2   C3    SING  12
+IGP  C2   H2    SING  13
+IGP  O2   HO2   SING  14
+IGP  C3   O3    SING  15
+IGP  C3   CG    SING  16
+IGP  C3   H3    SING  17
+IGP  O3   HO3   SING  18
+IGP  CG   CD2   SING  19
+IGP  CG   CD1   DOUB  20
+IGP  CD2  CE2   DOUB  21
+IGP  CD2  CE3   SING  22
+IGP  CE2  NE1   SING  23
+IGP  CE2  CZ2   SING  24
+IGP  CE3  CZ3   DOUB  25
+IGP  CE3  HE3   SING  26
+IGP  CD1  NE1   SING  27
+IGP  CD1  HD1   SING  28
+IGP  NE1  HN1   SING  29
+IGP  CZ2  CH2   DOUB  30
+IGP  CZ2  HZ2   SING  31
+IGP  CZ3  CH2   SING  32
+IGP  CZ3  HZ3   SING  33
+IGP  CH2  HH2   SING  34
+#

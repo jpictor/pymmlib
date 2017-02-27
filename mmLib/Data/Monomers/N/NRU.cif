@@ -1,0 +1,87 @@
+data_NRU
+#
+_chem_comp.id                   NRU
+_chem_comp.name                 'RUTHENIUM (III) HEXAAMINE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H18 N6 RU1'
+_chem_comp.pdbx_synonyms        HEXAAMINORUTHENIUM
+_chem_comp.pdbx_formal_charge   3+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       203.252
+#
+_pdbx_chem_comp_descriptor.comp_id          NRU
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       [NH3][Ru]([NH3])([NH3])([NH3])([NH3])[NH3]
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NRU  N1    .  N   0  -1.597  6.601  -3.532  1  1 
+NRU  RU    .  RU  3  0.287   7.355  -3.922  0  2 
+NRU  N4    .  N   0  1.085   6.101  -2.436  1  3 
+NRU  N5    .  N   0  0.021   8.970  -2.610  1  4 
+NRU  N2    .  N   0  2.202   8.088  -4.380  1  5 
+NRU  N3    .  N   0  -0.632  8.541  -5.412  1  6 
+NRU  N6    .  N   0  0.516   5.844  -5.340  1  7 
+NRU  1HN1  .  H   0  -1.710  6.479  -2.546  0  8 
+NRU  HN1   .  H   0  ?       ?      ?       1  9 
+NRU  2HN1  .  H   0  -2.288  7.240  -3.870  0  10
+NRU  HN4   .  H   0  ?       ?      ?       1  11
+NRU  1HN4  .  H   0  1.212   5.181  -2.808  0  12
+NRU  2HN4  .  H   0  1.967   6.462  -2.133  0  13
+NRU  HN5   .  H   0  ?       ?      ?       1  14
+NRU  1HN5  .  H   0  -0.021  8.633  -1.670  0  15
+NRU  2HN5  .  H   0  0.789   9.604  -2.702  0  16
+NRU  HN2   .  H   0  ?       ?      ?       1  17
+NRU  1HN2  .  H   0  2.287   8.204  -5.370  0  18
+NRU  2HN2  .  H   0  2.338   8.969  -3.928  0  19
+NRU  HN3   .  H   0  ?       ?      ?       1  20
+NRU  1HN3  .  H   0  -0.777  9.466  -5.060  0  21
+NRU  2HN3  .  H   0  -0.041  8.580  -6.218  0  22
+NRU  HN6   .  H   0  ?       ?      ?       1  23
+NRU  1HN6  .  H   0  0.553   6.247  -6.254  0  24
+NRU  2HN6  .  H   0  1.364   5.345  -5.161  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NRU  N1  1HN1  SING  1 
+NRU  N1  HN1   SING  2 
+NRU  N1  2HN1  SING  3 
+NRU  N1  RU    SING  4 
+NRU  RU  N4    SING  5 
+NRU  RU  N5    SING  6 
+NRU  RU  N2    SING  7 
+NRU  RU  N3    SING  8 
+NRU  RU  N6    SING  9 
+NRU  N4  HN4   SING  10
+NRU  N4  1HN4  SING  11
+NRU  N4  2HN4  SING  12
+NRU  N5  HN5   SING  13
+NRU  N5  1HN5  SING  14
+NRU  N5  2HN5  SING  15
+NRU  N2  HN2   SING  16
+NRU  N2  1HN2  SING  17
+NRU  N2  2HN2  SING  18
+NRU  N3  HN3   SING  19
+NRU  N3  1HN3  SING  20
+NRU  N3  2HN3  SING  21
+NRU  N6  HN6   SING  22
+NRU  N6  1HN6  SING  23
+NRU  N6  2HN6  SING  24
+#

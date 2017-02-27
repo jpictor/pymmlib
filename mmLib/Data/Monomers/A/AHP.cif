@@ -1,0 +1,81 @@
+data_AHP
+#
+_chem_comp.id                       AHP
+_chem_comp.name                     '2-AMINO-HEPTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            145.201
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHP  N    .  N  0  ?  ?  ?  1  1 
+AHP  CA   .  C  0  ?  ?  ?  1  2 
+AHP  C    .  C  0  ?  ?  ?  1  3 
+AHP  O    .  O  0  ?  ?  ?  1  4 
+AHP  OXT  .  O  0  ?  ?  ?  1  5 
+AHP  CB   .  C  0  ?  ?  ?  1  6 
+AHP  CG   .  C  0  ?  ?  ?  1  7 
+AHP  CD   .  C  0  ?  ?  ?  1  8 
+AHP  CE   .  C  0  ?  ?  ?  1  9 
+AHP  CZ   .  C  0  ?  ?  ?  1  10
+AHP  1HN  .  H  0  ?  ?  ?  0  11
+AHP  2HN  .  H  0  ?  ?  ?  0  12
+AHP  HA   .  H  0  ?  ?  ?  1  13
+AHP  HXT  .  H  0  ?  ?  ?  1  14
+AHP  1HB  .  H  0  ?  ?  ?  0  15
+AHP  2HB  .  H  0  ?  ?  ?  0  16
+AHP  1HG  .  H  0  ?  ?  ?  0  17
+AHP  2HG  .  H  0  ?  ?  ?  0  18
+AHP  1HD  .  H  0  ?  ?  ?  0  19
+AHP  2HD  .  H  0  ?  ?  ?  0  20
+AHP  1HE  .  H  0  ?  ?  ?  0  21
+AHP  2HE  .  H  0  ?  ?  ?  0  22
+AHP  1HZ  .  H  0  ?  ?  ?  0  23
+AHP  2HZ  .  H  0  ?  ?  ?  0  24
+AHP  3HZ  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHP  N    CA   SING  1 
+AHP  N    1HN  SING  2 
+AHP  N    2HN  SING  3 
+AHP  CA   C    SING  4 
+AHP  CA   CB   SING  5 
+AHP  CA   HA   SING  6 
+AHP  C    O    DOUB  7 
+AHP  C    OXT  SING  8 
+AHP  OXT  HXT  SING  9 
+AHP  CB   CG   SING  10
+AHP  CB   1HB  SING  11
+AHP  CB   2HB  SING  12
+AHP  CG   CD   SING  13
+AHP  CG   1HG  SING  14
+AHP  CG   2HG  SING  15
+AHP  CD   CE   SING  16
+AHP  CD   1HD  SING  17
+AHP  CD   2HD  SING  18
+AHP  CE   CZ   SING  19
+AHP  CE   1HE  SING  20
+AHP  CE   2HE  SING  21
+AHP  CZ   1HZ  SING  22
+AHP  CZ   2HZ  SING  23
+AHP  CZ   3HZ  SING  24
+#

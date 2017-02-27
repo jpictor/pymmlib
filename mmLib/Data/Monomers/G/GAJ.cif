@@ -1,0 +1,101 @@
+data_GAJ
+#
+_chem_comp.id                   GAJ
+_chem_comp.name                 'N-TETRAZOL-5-YL 9-OXO-9H-XANTHENE-2 SULPHONAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H9 N5 O4 S1'
+_chem_comp.pdbx_synonyms        N-(1,4-DIHYDRO-5H-TETRAZOL-5-YLIDENE)-9-OXO-9H-XANTHENE-2-SULFONAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        343.316
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GAJ  O2   .  O  0  33.087  57.878  109.887  1  1 
+GAJ  S    .  S  0  31.647  58.005  110.262  1  2 
+GAJ  O1   .  O  0  31.114  59.334  109.889  1  3 
+GAJ  N4   .  N  0  30.626  56.87   109.583  1  4 
+GAJ  C14  .  C  0  30.875  55.566  109.75   1  5 
+GAJ  N    .  N  0  31.764  55.015  110.57   1  6 
+GAJ  N1   .  N  0  31.565  53.674  110.368  1  7 
+GAJ  N2   .  N  0  30.658  53.478  109.481  1  8 
+GAJ  N3   .  N  0  30.226  54.686  109.069  1  9 
+GAJ  C1   .  C  0  31.481  57.997  111.98   1  10
+GAJ  C    .  C  0  32.55   58.433  112.761  1  11
+GAJ  C2   .  C  0  30.262  57.682  112.585  1  12
+GAJ  C3   .  C  0  30.116  57.766  113.963  1  13
+GAJ  C4   .  C  0  31.163  58.183  114.764  1  14
+GAJ  O7   .  O  0  30.957  58.293  116.111  1  15
+GAJ  C6   .  C  0  31.964  58.675  116.935  1  16
+GAJ  C8   .  C  0  31.726  58.776  118.36   1  17
+GAJ  C9   .  C  0  32.723  59.186  119.177  1  18
+GAJ  C10  .  C  0  33.923  59.562  118.728  1  19
+GAJ  C11  .  C  0  34.286  59.445  117.436  1  20
+GAJ  C12  .  C  0  33.29   59.027  116.439  1  21
+GAJ  C13  .  C  0  33.553  59.005  114.991  1  22
+GAJ  C5   .  C  0  32.444  58.539  114.135  1  23
+GAJ  O    .  O  0  34.692  59.283  114.529  1  24
+GAJ  H    .  H  0  32.428  55.475  111.193  1  25
+GAJ  H3   .  H  0  29.521  54.868  108.355  1  26
+GAJ  HA   .  H  0  33.502  58.699  112.272  1  27
+GAJ  H2   .  H  0  29.409  57.364  111.963  1  28
+GAJ  HB   .  H  0  29.152  57.496  114.425  1  29
+GAJ  H8   .  H  0  30.737  58.52   118.777  1  30
+GAJ  H9   .  H  0  32.536  59.211  120.264  1  31
+GAJ  H10  .  H  0  34.647  59.986  119.444  1  32
+GAJ  H11  .  H  0  35.323  59.661  117.129  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GAJ  O2   S    DOUB  1 
+GAJ  S    O1   DOUB  2 
+GAJ  S    N4   SING  3 
+GAJ  S    C1   SING  4 
+GAJ  N4   C14  DOUB  5 
+GAJ  C14  N    SING  6 
+GAJ  C14  N3   SING  7 
+GAJ  N    N1   SING  8 
+GAJ  N    H    SING  9 
+GAJ  N1   N2   DOUB  10
+GAJ  N2   N3   SING  11
+GAJ  N3   H3   SING  12
+GAJ  C1   C    AROM  13
+GAJ  C1   C2   AROM  14
+GAJ  C    C5   AROM  15
+GAJ  C    HA   SING  16
+GAJ  C2   C3   AROM  17
+GAJ  C2   H2   SING  18
+GAJ  C3   C4   AROM  19
+GAJ  C3   HB   SING  20
+GAJ  C4   O7   SING  21
+GAJ  C4   C5   AROM  22
+GAJ  O7   C6   SING  23
+GAJ  C6   C8   AROM  24
+GAJ  C6   C12  AROM  25
+GAJ  C8   C9   AROM  26
+GAJ  C8   H8   SING  27
+GAJ  C9   C10  AROM  28
+GAJ  C9   H9   SING  29
+GAJ  C10  C11  AROM  30
+GAJ  C10  H10  SING  31
+GAJ  C11  C12  AROM  32
+GAJ  C11  H11  SING  33
+GAJ  C12  C13  SING  34
+GAJ  C13  C5   SING  35
+GAJ  C13  O    DOUB  36
+#

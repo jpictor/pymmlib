@@ -1,0 +1,68 @@
+data_MOP
+#
+_chem_comp.id                   MOP
+_chem_comp.name                 4-METHYLPENTANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        100.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOP  C1    .  C  0  ?  ?  ?  1  1 
+MOP  O1    .  O  0  ?  ?  ?  1  2 
+MOP  C2    .  C  0  ?  ?  ?  1  3 
+MOP  C3    .  C  0  ?  ?  ?  1  4 
+MOP  C4    .  C  0  ?  ?  ?  1  5 
+MOP  C5    .  C  0  ?  ?  ?  1  6 
+MOP  CM4   .  C  0  ?  ?  ?  1  7 
+MOP  H1    .  H  0  ?  ?  ?  1  8 
+MOP  1H2   .  H  0  ?  ?  ?  0  9 
+MOP  2H2   .  H  0  ?  ?  ?  0  10
+MOP  1H3   .  H  0  ?  ?  ?  0  11
+MOP  2H3   .  H  0  ?  ?  ?  0  12
+MOP  H4    .  H  0  ?  ?  ?  1  13
+MOP  1H5   .  H  0  ?  ?  ?  0  14
+MOP  2H5   .  H  0  ?  ?  ?  0  15
+MOP  3H5   .  H  0  ?  ?  ?  0  16
+MOP  1HM4  .  H  0  ?  ?  ?  0  17
+MOP  2HM4  .  H  0  ?  ?  ?  0  18
+MOP  3HM4  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOP  C1   C2    SING  1 
+MOP  C1   O1    DOUB  2 
+MOP  C1   H1    SING  3 
+MOP  C2   C3    SING  4 
+MOP  C2   1H2   SING  5 
+MOP  C2   2H2   SING  6 
+MOP  C3   C4    SING  7 
+MOP  C3   1H3   SING  8 
+MOP  C3   2H3   SING  9 
+MOP  C4   C5    SING  10
+MOP  C4   CM4   SING  11
+MOP  C4   H4    SING  12
+MOP  C5   1H5   SING  13
+MOP  C5   2H5   SING  14
+MOP  C5   3H5   SING  15
+MOP  CM4  1HM4  SING  16
+MOP  CM4  2HM4  SING  17
+MOP  CM4  3HM4  SING  18
+#

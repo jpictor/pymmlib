@@ -1,0 +1,100 @@
+data_SC
+#
+_chem_comp.id                   SC
+_chem_comp.name                 2-DEOXY-CYTIDINE-5'-THIOPHOSPHORATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N3 O6 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        323.260
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SC  N1    .  N  0  ?  ?  ?  1  1 
+SC  C2    .  C  0  ?  ?  ?  1  2 
+SC  N3    .  N  0  ?  ?  ?  1  3 
+SC  C4    .  C  0  ?  ?  ?  1  4 
+SC  C5    .  C  0  ?  ?  ?  1  5 
+SC  C6    .  C  0  ?  ?  ?  1  6 
+SC  O2    .  O  0  ?  ?  ?  1  7 
+SC  N4    .  N  0  ?  ?  ?  1  8 
+SC  C1*   .  C  0  ?  ?  ?  1  9 
+SC  C2*   .  C  0  ?  ?  ?  1  10
+SC  C3*   .  C  0  ?  ?  ?  1  11
+SC  C4*   .  C  0  ?  ?  ?  1  12
+SC  O4*   .  O  0  ?  ?  ?  1  13
+SC  O3*   .  O  0  ?  ?  ?  1  14
+SC  C5*   .  C  0  ?  ?  ?  1  15
+SC  O5*   .  O  0  ?  ?  ?  1  16
+SC  P     .  P  0  ?  ?  ?  1  17
+SC  O1P   .  O  0  ?  ?  ?  1  18
+SC  S2P   .  S  0  ?  ?  ?  1  19
+SC  O3P   .  O  0  ?  ?  ?  1  20
+SC  1HN4  .  H  0  ?  ?  ?  0  21
+SC  2HN4  .  H  0  ?  ?  ?  0  22
+SC  H5    .  H  0  ?  ?  ?  1  23
+SC  H6    .  H  0  ?  ?  ?  1  24
+SC  H1*   .  H  0  ?  ?  ?  1  25
+SC  1H2*  .  H  0  ?  ?  ?  0  26
+SC  2H2*  .  H  0  ?  ?  ?  0  27
+SC  H3*   .  H  0  ?  ?  ?  1  28
+SC  *HO3  .  H  0  ?  ?  ?  0  29
+SC  H4*   .  H  0  ?  ?  ?  1  30
+SC  1H5*  .  H  0  ?  ?  ?  0  31
+SC  2H5*  .  H  0  ?  ?  ?  0  32
+SC  1HOP  .  H  0  ?  ?  ?  0  33
+SC  3HOP  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SC  N1   C2    SING  1 
+SC  N1   C6    SING  2 
+SC  N1   C1*   SING  3 
+SC  C2   N3    SING  4 
+SC  C2   O2    DOUB  5 
+SC  N3   C4    DOUB  6 
+SC  C4   C5    SING  7 
+SC  C4   N4    SING  8 
+SC  C5   C6    DOUB  9 
+SC  C5   H5    SING  10
+SC  C6   H6    SING  11
+SC  N4   1HN4  SING  12
+SC  N4   2HN4  SING  13
+SC  C1*  C2*   SING  14
+SC  C1*  O4*   SING  15
+SC  C1*  H1*   SING  16
+SC  C2*  C3*   SING  17
+SC  C2*  1H2*  SING  18
+SC  C2*  2H2*  SING  19
+SC  C3*  C4*   SING  20
+SC  C3*  O3*   SING  21
+SC  C3*  H3*   SING  22
+SC  C4*  O4*   SING  23
+SC  C4*  C5*   SING  24
+SC  C4*  H4*   SING  25
+SC  O3*  *HO3  SING  26
+SC  C5*  O5*   SING  27
+SC  C5*  1H5*  SING  28
+SC  C5*  2H5*  SING  29
+SC  O5*  P     SING  30
+SC  P    O1P   SING  31
+SC  P    S2P   DOUB  32
+SC  P    O3P   SING  33
+SC  O1P  1HOP  SING  34
+SC  O3P  3HOP  SING  35
+#

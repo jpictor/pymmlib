@@ -1,0 +1,118 @@
+data_BPD
+#
+_chem_comp.id                   BPD
+_chem_comp.name                 'N-(M-TRIFLUOROMETHYLPHENYL) PHENOXAZINE-4,6-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H12 N1 O5 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        415.325
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPD  F1   .  F  0  ?  ?  ?  1  1 
+BPD  F2   .  F  0  ?  ?  ?  1  2 
+BPD  F3   .  F  0  ?  ?  ?  1  3 
+BPD  O1   .  O  0  ?  ?  ?  1  4 
+BPD  O2   .  O  0  ?  ?  ?  1  5 
+BPD  O3   .  O  0  ?  ?  ?  1  6 
+BPD  O4   .  O  0  ?  ?  ?  1  7 
+BPD  O5   .  O  0  ?  ?  ?  1  8 
+BPD  N1   .  N  0  ?  ?  ?  1  9 
+BPD  C1   .  C  0  ?  ?  ?  1  10
+BPD  C2   .  C  0  ?  ?  ?  1  11
+BPD  C3   .  C  0  ?  ?  ?  1  12
+BPD  C4   .  C  0  ?  ?  ?  1  13
+BPD  C5   .  C  0  ?  ?  ?  1  14
+BPD  C6   .  C  0  ?  ?  ?  1  15
+BPD  C7   .  C  0  ?  ?  ?  1  16
+BPD  C8   .  C  0  ?  ?  ?  1  17
+BPD  C9   .  C  0  ?  ?  ?  1  18
+BPD  C10  .  C  0  ?  ?  ?  1  19
+BPD  C11  .  C  0  ?  ?  ?  1  20
+BPD  C12  .  C  0  ?  ?  ?  1  21
+BPD  C13  .  C  0  ?  ?  ?  1  22
+BPD  C14  .  C  0  ?  ?  ?  1  23
+BPD  C16  .  C  0  ?  ?  ?  1  24
+BPD  C17  .  C  0  ?  ?  ?  1  25
+BPD  C18  .  C  0  ?  ?  ?  1  26
+BPD  C19  .  C  0  ?  ?  ?  1  27
+BPD  C20  .  C  0  ?  ?  ?  1  28
+BPD  C21  .  C  0  ?  ?  ?  1  29
+BPD  C22  .  C  0  ?  ?  ?  1  30
+BPD  HO3  .  H  0  ?  ?  ?  1  31
+BPD  HO5  .  H  0  ?  ?  ?  1  32
+BPD  H3   .  H  0  ?  ?  ?  1  33
+BPD  H4   .  H  0  ?  ?  ?  1  34
+BPD  H5   .  H  0  ?  ?  ?  1  35
+BPD  H7   .  H  0  ?  ?  ?  1  36
+BPD  H9   .  H  0  ?  ?  ?  1  37
+BPD  H10  .  H  0  ?  ?  ?  1  38
+BPD  H11  .  H  0  ?  ?  ?  1  39
+BPD  H17  .  H  0  ?  ?  ?  1  40
+BPD  H18  .  H  0  ?  ?  ?  1  41
+BPD  H19  .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPD  F1   C1   SING  1 
+BPD  F2   C1   SING  2 
+BPD  F3   C1   SING  3 
+BPD  O1   C13  SING  4 
+BPD  O1   C21  SING  5 
+BPD  O2   C14  DOUB  6 
+BPD  O3   C14  SING  7 
+BPD  O3   HO3  SING  8 
+BPD  O4   C22  DOUB  9 
+BPD  O5   C22  SING  10
+BPD  O5   HO5  SING  11
+BPD  N1   C6   SING  12
+BPD  N1   C8   SING  13
+BPD  N1   C16  SING  14
+BPD  C1   C2   SING  15
+BPD  C2   C3   DOUB  16
+BPD  C2   C7   SING  17
+BPD  C3   C4   SING  18
+BPD  C3   H3   SING  19
+BPD  C4   C5   DOUB  20
+BPD  C4   H4   SING  21
+BPD  C5   C6   SING  22
+BPD  C5   H5   SING  23
+BPD  C6   C7   DOUB  24
+BPD  C7   H7   SING  25
+BPD  C8   C9   SING  26
+BPD  C8   C13  DOUB  27
+BPD  C9   C10  DOUB  28
+BPD  C9   H9   SING  29
+BPD  C10  C11  SING  30
+BPD  C10  H10  SING  31
+BPD  C11  C12  DOUB  32
+BPD  C11  H11  SING  33
+BPD  C12  C13  SING  34
+BPD  C12  C14  SING  35
+BPD  C16  C17  SING  36
+BPD  C16  C21  DOUB  37
+BPD  C17  C18  DOUB  38
+BPD  C17  H17  SING  39
+BPD  C18  C19  SING  40
+BPD  C18  H18  SING  41
+BPD  C19  C20  DOUB  42
+BPD  C19  H19  SING  43
+BPD  C20  C21  SING  44
+BPD  C20  C22  SING  45
+#

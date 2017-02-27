@@ -1,0 +1,104 @@
+data_ICR
+#
+_chem_comp.id                   ICR
+_chem_comp.name                 '(4R)-5-IMINO-1-(5-O-PHOSPHONO-BETA-D-RIBOFURANOSYL)-4,5-DIHYDRO-1H-IMIDAZOLE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N3 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        339.198
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ICR  O6'   .  O  0  37.567  34.254  -126.996  1  1 
+ICR  P     .  P  0  36.431  35.310  -126.563  1  2 
+ICR  O7'   .  O  0  35.118  34.435  -126.247  1  3 
+ICR  O8'   .  O  0  36.842  36.165  -125.425  1  4 
+ICR  O5'   .  O  0  36.076  36.152  -127.889  1  5 
+ICR  C5'   .  C  0  37.069  36.964  -128.520  1  6 
+ICR  C4'   .  C  0  36.488  37.612  -129.777  1  7 
+ICR  O4'   .  O  0  35.907  36.593  -130.609  1  8 
+ICR  C3'   .  C  0  35.343  38.563  -129.415  1  9 
+ICR  O3'   .  O  0  35.630  39.873  -129.913  1  10
+ICR  C2'   .  C  0  34.151  37.976  -130.171  1  11
+ICR  O2'   .  O  0  33.356  39.036  -130.708  1  12
+ICR  C1'   .  C  0  34.870  37.278  -131.325  1  13
+ICR  N1    .  N  0  33.956  36.335  -132.013  1  14
+ICR  C2    .  C  0  32.889  35.738  -131.481  1  15
+ICR  N3    .  N  0  32.500  34.707  -132.230  1  16
+ICR  C4    .  C  0  32.930  34.978  -133.608  1  17
+ICR  C7    .  C  0  31.815  35.688  -134.382  1  18
+ICR  O9    .  O  0  32.138  36.305  -135.421  1  19
+ICR  O8    .  O  0  30.655  35.594  -133.928  1  20
+ICR  C5    .  C  0  34.057  35.956  -133.283  1  21
+ICR  N6    .  N  0  34.998  36.369  -134.128  1  22
+ICR  HN6   .  H  0  ?       ?       ?         1  23
+ICR  H4    .  H  0  ?       ?       ?         1  24
+ICR  H2    .  H  0  ?       ?       ?         1  25
+ICR  H1'   .  H  0  ?       ?       ?         1  26
+ICR  H4'   .  H  0  ?       ?       ?         1  27
+ICR  1H5'  .  H  0  ?       ?       ?         0  28
+ICR  2H5'  .  H  0  ?       ?       ?         0  29
+ICR  H6'   .  H  0  ?       ?       ?         1  30
+ICR  H8'   .  H  0  ?       ?       ?         1  31
+ICR  H3'   .  H  0  ?       ?       ?         1  32
+ICR  H1    .  H  0  ?       ?       ?         1  33
+ICR  H2'   .  H  0  ?       ?       ?         1  34
+ICR  H3    .  H  0  ?       ?       ?         1  35
+ICR  HO9   .  H  0  ?       ?       ?         1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ICR  O6'  P     SING  1 
+ICR  O6'  H6'   SING  2 
+ICR  P    O5'   SING  3 
+ICR  P    O7'   DOUB  4 
+ICR  P    O8'   SING  5 
+ICR  O8'  H8'   SING  6 
+ICR  O5'  C5'   SING  7 
+ICR  C5'  C4'   SING  8 
+ICR  C5'  1H5'  SING  9 
+ICR  C5'  2H5'  SING  10
+ICR  C4'  O4'   SING  11
+ICR  C4'  C3'   SING  12
+ICR  C4'  H4'   SING  13
+ICR  O4'  C1'   SING  14
+ICR  C3'  O3'   SING  15
+ICR  C3'  C2'   SING  16
+ICR  C3'  H3'   SING  17
+ICR  O3'  H1    SING  18
+ICR  C2'  C1'   SING  19
+ICR  C2'  O2'   SING  20
+ICR  C2'  H2'   SING  21
+ICR  O2'  H3    SING  22
+ICR  C1'  N1    SING  23
+ICR  C1'  H1'   SING  24
+ICR  N1   C2    SING  25
+ICR  N1   C5    SING  26
+ICR  C2   N3    DOUB  27
+ICR  C2   H2    SING  28
+ICR  N3   C4    SING  29
+ICR  C4   C5    SING  30
+ICR  C4   C7    SING  31
+ICR  C4   H4    SING  32
+ICR  C7   O9    SING  33
+ICR  C7   O8    DOUB  34
+ICR  O9   HO9   SING  35
+ICR  C5   N6    DOUB  36
+ICR  N6   HN6   SING  37
+#

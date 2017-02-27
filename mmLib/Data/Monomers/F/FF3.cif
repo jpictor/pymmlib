@@ -1,0 +1,65 @@
+data_FF3
+#
+_chem_comp.id                   FF3
+_chem_comp.name                 1-(5-AMINO-1,3,4-THIADIAZOL-2-YL)-1,1-DIFLUOROMETHANESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H4 N4 O2 F2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.207
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FF3  N4    .  N  0  -5.162  0.448   10.684  1  1 
+FF3  C1    .  C  0  -5.113  1.003   11.892  1  2 
+FF3  S1    .  S  0  -4.348  0.336   13.270  1  3 
+FF3  N1    .  N  0  -5.653  2.174   12.231  1  4 
+FF3  N2    .  N  0  -5.502  2.527   13.406  1  5 
+FF3  C2    .  C  0  -4.819  1.698   14.197  1  6 
+FF3  C3    .  C  0  -4.502  1.940   15.677  1  7 
+FF3  F1    .  F  0  -4.692  3.221   15.979  1  8 
+FF3  F2    .  F  0  -3.231  1.645   15.927  1  9 
+FF3  S2    .  S  0  -5.570  0.900   16.741  1  10
+FF3  O1    .  O  0  -5.192  1.134   18.174  1  11
+FF3  O2    .  O  0  -7.012  1.258   16.540  1  12
+FF3  N3    .  N  0  -5.342  -0.672  16.375  1  13
+FF3  1HN4  .  H  0  ?       ?       ?       0  14
+FF3  2HN4  .  H  0  ?       ?       ?       0  15
+FF3  1HN3  .  H  0  ?       ?       ?       0  16
+FF3  2HN3  .  H  0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FF3  N4  1HN4  SING  1 
+FF3  N4  2HN4  SING  2 
+FF3  N4  C1    SING  3 
+FF3  C1  N1    DOUB  4 
+FF3  C1  S1    SING  5 
+FF3  S1  C2    SING  6 
+FF3  N1  N2    SING  7 
+FF3  N2  C2    DOUB  8 
+FF3  C2  C3    SING  9 
+FF3  C3  F1    SING  10
+FF3  C3  F2    SING  11
+FF3  C3  S2    SING  12
+FF3  S2  O1    DOUB  13
+FF3  S2  O2    DOUB  14
+FF3  S2  N3    SING  15
+FF3  N3  1HN3  SING  16
+FF3  N3  2HN3  SING  17
+#

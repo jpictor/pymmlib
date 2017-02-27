@@ -1,0 +1,93 @@
+data_PDP
+#
+_chem_comp.id                   PDP
+_chem_comp.name                 PYRIDOXAL-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N1 O9 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        327.124
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDP  N1    .  N  0  ?  ?  ?  1  1 
+PDP  C2    .  C  0  ?  ?  ?  1  2 
+PDP  C2A   .  C  0  ?  ?  ?  1  3 
+PDP  C3    .  C  0  ?  ?  ?  1  4 
+PDP  O3    .  O  0  ?  ?  ?  1  5 
+PDP  C4    .  C  0  ?  ?  ?  1  6 
+PDP  C4A   .  C  0  ?  ?  ?  1  7 
+PDP  O4A   .  O  0  ?  ?  ?  1  8 
+PDP  C5    .  C  0  ?  ?  ?  1  9 
+PDP  C6    .  C  0  ?  ?  ?  1  10
+PDP  C5A   .  C  0  ?  ?  ?  1  11
+PDP  O5A   .  O  0  ?  ?  ?  1  12
+PDP  PA    .  P  0  ?  ?  ?  1  13
+PDP  O1A   .  O  0  ?  ?  ?  1  14
+PDP  O3A   .  O  0  ?  ?  ?  1  15
+PDP  O2A   .  O  0  ?  ?  ?  1  16
+PDP  PB    .  P  0  ?  ?  ?  1  17
+PDP  O1B   .  O  0  ?  ?  ?  1  18
+PDP  O2B   .  O  0  ?  ?  ?  1  19
+PDP  O3B   .  O  0  ?  ?  ?  1  20
+PDP  1H2A  .  H  0  ?  ?  ?  0  21
+PDP  2H2A  .  H  0  ?  ?  ?  0  22
+PDP  3H2A  .  H  0  ?  ?  ?  0  23
+PDP  HO3   .  H  0  ?  ?  ?  1  24
+PDP  H4A   .  H  0  ?  ?  ?  1  25
+PDP  1H5A  .  H  0  ?  ?  ?  0  26
+PDP  2H5A  .  H  0  ?  ?  ?  0  27
+PDP  H6    .  H  0  ?  ?  ?  1  28
+PDP  2HOA  .  H  0  ?  ?  ?  0  29
+PDP  2HOB  .  H  0  ?  ?  ?  0  30
+PDP  3HOB  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDP  N1   C2    DOUB  1 
+PDP  N1   C6    SING  2 
+PDP  C2   C2A   SING  3 
+PDP  C2   C3    SING  4 
+PDP  C2A  1H2A  SING  5 
+PDP  C2A  2H2A  SING  6 
+PDP  C2A  3H2A  SING  7 
+PDP  C3   O3    SING  8 
+PDP  C3   C4    DOUB  9 
+PDP  O3   HO3   SING  10
+PDP  C4   C4A   SING  11
+PDP  C4   C5    SING  12
+PDP  C4A  O4A   DOUB  13
+PDP  C4A  H4A   SING  14
+PDP  C5   C6    DOUB  15
+PDP  C5   C5A   SING  16
+PDP  C6   H6    SING  17
+PDP  C5A  O5A   SING  18
+PDP  C5A  1H5A  SING  19
+PDP  C5A  2H5A  SING  20
+PDP  O5A  PA    SING  21
+PDP  PA   O1A   DOUB  22
+PDP  PA   O2A   SING  23
+PDP  PA   O3A   SING  24
+PDP  O3A  PB    SING  25
+PDP  O2A  2HOA  SING  26
+PDP  PB   O1B   DOUB  27
+PDP  PB   O2B   SING  28
+PDP  PB   O3B   SING  29
+PDP  O2B  2HOB  SING  30
+PDP  O3B  3HOB  SING  31
+#

@@ -1,0 +1,86 @@
+data_BOR
+#
+_chem_comp.id                       BOR
+_chem_comp.name                     '(1R)-1-AMINO-4-{[(E)-AMINO(IMINO)METHYL]AMINO}BUTYLBORONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H15 N4 O2 B1'
+_chem_comp.pdbx_synonyms            'BORO ARGININE'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.009
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BOR  O1    .  O  0  9.529   43.126  68.632  1  1 
+BOR  B     .  B  0  8.173   43.177  68.134  1  2 
+BOR  O2    .  O  0  7.396   42.155  68.892  1  3 
+BOR  CA    .  C  0  8.183   42.626  66.521  1  4 
+BOR  N     .  N  0  7.040   41.796  66.140  1  5 
+BOR  CB    .  C  0  8.315   43.716  65.444  1  6 
+BOR  CG    .  C  0  8.866   43.132  64.121  1  7 
+BOR  CD    .  C  0  9.050   44.046  62.888  1  8 
+BOR  NE    .  N  0  9.604   43.297  61.747  1  9 
+BOR  CZ    .  C  0  9.656   43.752  60.495  1  10
+BOR  NH1   .  N  0  9.187   44.964  60.211  1  11
+BOR  NH2   .  N  0  10.166  42.993  59.525  1  12
+BOR  HO1   .  H  0  ?       ?       ?       1  13
+BOR  HO2   .  H  0  ?       ?       ?       1  14
+BOR  HA    .  H  0  ?       ?       ?       1  15
+BOR  1HN   .  H  0  ?       ?       ?       0  16
+BOR  2HN   .  H  0  ?       ?       ?       0  17
+BOR  1HB   .  H  0  ?       ?       ?       0  18
+BOR  2HB   .  H  0  ?       ?       ?       0  19
+BOR  1HG   .  H  0  ?       ?       ?       0  20
+BOR  2HG   .  H  0  ?       ?       ?       0  21
+BOR  1HD   .  H  0  ?       ?       ?       0  22
+BOR  2HD   .  H  0  ?       ?       ?       0  23
+BOR  HNE   .  H  0  ?       ?       ?       1  24
+BOR  HH1   .  H  0  ?       ?       ?       1  25
+BOR  1HH2  .  H  0  ?       ?       ?       0  26
+BOR  2HH2  .  H  0  ?       ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BOR  O1   HO1   SING  1 
+BOR  O1   B     SING  2 
+BOR  B    O2    SING  3 
+BOR  B    CA    SING  4 
+BOR  O2   HO2   SING  5 
+BOR  CA   HA    SING  6 
+BOR  CA   N     SING  7 
+BOR  CA   CB    SING  8 
+BOR  N    1HN   SING  9 
+BOR  N    2HN   SING  10
+BOR  CB   1HB   SING  11
+BOR  CB   2HB   SING  12
+BOR  CB   CG    SING  13
+BOR  CG   1HG   SING  14
+BOR  CG   2HG   SING  15
+BOR  CG   CD    SING  16
+BOR  CD   1HD   SING  17
+BOR  CD   2HD   SING  18
+BOR  CD   NE    SING  19
+BOR  NE   HNE   SING  20
+BOR  NE   CZ    SING  21
+BOR  CZ   NH1   DOUB  22
+BOR  CZ   NH2   SING  23
+BOR  NH1  HH1   SING  24
+BOR  NH2  1HH2  SING  25
+BOR  NH2  2HH2  SING  26
+#

@@ -1,0 +1,103 @@
+data_T36
+#
+_chem_comp.id                       T36
+_chem_comp.name                     'SPLIT LINKAGE THYMIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            306.211
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+T36  P     .  P  0  -1.559  8.716   15.808  1  1 
+T36  O1P   .  O  0  -2.112  10.067  15.564  1  2 
+T36  O2P   .  O  0  ?       ?       ?       1  3 
+T36  O3P   .  O  0  -0.532  8.568   16.866  1  4 
+T36  O5*   .  O  0  -2.798  7.719   16.207  1  5 
+T36  C5*   .  C  0  -4.244  7.862   16.026  1  6 
+T36  C4*   .  C  0  -5.209  7.335   17.158  1  7 
+T36  O4*   .  O  0  -5.277  5.893   17.202  1  8 
+T36  C3*   .  C  0  -4.893  7.754   18.598  1  9 
+T36  O3*   .  O  0  -6.094  7.956   19.378  1  10
+T36  C2*   .  C  0  -4.105  6.573   19.145  1  11
+T36  C1*   .  C  0  -4.457  5.369   18.240  1  12
+T36  N1    .  N  0  -3.308  4.780   17.497  1  13
+T36  C2    .  C  0  -3.445  3.940   16.328  1  14
+T36  O2    .  O  0  -4.520  3.551   15.863  1  15
+T36  N3    .  N  0  -2.279  3.528   15.726  1  16
+T36  C4    .  C  0  -1.075  3.935   16.226  1  17
+T36  C5    .  C  0  -0.945  4.742   17.321  1  18
+T36  C5M   .  C  0  0.203   5.370   18.076  1  19
+T36  C6    .  C  0  -2.049  5.125   17.887  1  20
+T36  H2P   .  H  0  ?       ?       ?       1  21
+T36  H3P   .  H  0  -0.368  7.606   17.035  1  22
+T36  1H5*  .  H  0  -4.532  7.336   15.090  0  23
+T36  2H5*  .  H  0  -4.480  8.940   15.879  0  24
+T36  H4*   .  H  0  -6.254  7.588   16.852  1  25
+T36  H3*   .  H  0  -4.250  8.666   18.578  1  26
+T36  H1*   .  H  0  -5.117  4.755   18.801  1  27
+T36  HA    .  H  0  -6.478  7.078   19.627  1  28
+T36  1H2*  .  H  0  -3.101  6.802   18.929  0  29
+T36  2H2*  .  H  0  -3.861  6.479   20.229  0  30
+T36  H6    .  H  0  -1.770  5.754   18.712  1  31
+T36  H4    .  H  0  -0.192  3.606   15.737  1  32
+T36  1H5M  .  H  0  1.227   5.130   17.792  0  33
+T36  2H5M  .  H  0  0.034   6.485   18.054  0  34
+T36  3H5M  .  H  0  0.054   5.157   19.172  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+T36  P    O1P   DOUB  1 
+T36  P    O2P   SING  2 
+T36  P    O3P   SING  3 
+T36  P    O5*   SING  4 
+T36  O2P  H2P   SING  5 
+T36  O3P  H3P   SING  6 
+T36  O5*  C5*   SING  7 
+T36  C5*  C4*   SING  8 
+T36  C5*  1H5*  SING  9 
+T36  C5*  2H5*  SING  10
+T36  C4*  O4*   SING  11
+T36  C4*  C3*   SING  12
+T36  C4*  H4*   SING  13
+T36  O4*  C1*   SING  14
+T36  C3*  O3*   SING  15
+T36  C3*  C2*   SING  16
+T36  C3*  H3*   SING  17
+T36  O3*  HA    SING  18
+T36  C2*  C1*   SING  19
+T36  C2*  1H2*  SING  20
+T36  C2*  2H2*  SING  21
+T36  C1*  N1    SING  22
+T36  C1*  H1*   SING  23
+T36  N1   C2    SING  24
+T36  N1   C6    SING  25
+T36  C2   O2    DOUB  26
+T36  C2   N3    SING  27
+T36  N3   C4    DOUB  28
+T36  C4   C5    SING  29
+T36  C4   H4    SING  30
+T36  C5   C5M   SING  31
+T36  C5   C6    DOUB  32
+T36  C5M  1H5M  SING  33
+T36  C5M  2H5M  SING  34
+T36  C5M  3H5M  SING  35
+T36  C6   H6    SING  36
+#

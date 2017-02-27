@@ -1,0 +1,78 @@
+data_HWD
+#
+_chem_comp.id                   HWD
+_chem_comp.name                 '2-AMINO-3-(2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N3 O4'
+_chem_comp.pdbx_synonyms        WILLARDIINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        199.166
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HWD  N1    .  N  0  16.266  1.712   15.430  1  1 
+HWD  C2    .  C  0  16.391  0.409   14.863  1  2 
+HWD  O2    .  O  0  16.468  -0.634  15.544  1  3 
+HWD  N3    .  N  0  16.421  0.386   13.468  1  4 
+HWD  C4    .  C  0  16.340  1.507   12.614  1  5 
+HWD  O4    .  O  0  16.381  1.370   11.404  1  6 
+HWD  C5    .  C  0  16.211  2.799   13.291  1  7 
+HWD  C6    .  C  0  16.154  2.861   14.643  1  8 
+HWD  C7    .  C  0  16.154  1.867   16.893  1  9 
+HWD  C8    .  C  0  14.854  1.331   17.490  1  10
+HWD  N8    .  N  0  13.729  2.301   17.246  1  11
+HWD  C9    .  C  0  14.948  0.972   18.980  1  12
+HWD  O91   .  O  0  14.147  1.450   19.743  1  13
+HWD  O92   .  O  0  15.938  0.210   19.282  1  14
+HWD  H3    .  H  0  ?       ?       ?       1  15
+HWD  H5    .  H  0  ?       ?       ?       1  16
+HWD  H6    .  H  0  ?       ?       ?       1  17
+HWD  1H7   .  H  0  ?       ?       ?       0  18
+HWD  2H7   .  H  0  ?       ?       ?       0  19
+HWD  H8    .  H  0  ?       ?       ?       1  20
+HWD  1H8   .  H  0  ?       ?       ?       0  21
+HWD  2H8   .  H  0  ?       ?       ?       0  22
+HWD  OH92  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HWD  N1   C2    SING  1 
+HWD  N1   C6    SING  2 
+HWD  N1   C7    SING  3 
+HWD  C2   O2    DOUB  4 
+HWD  C2   N3    SING  5 
+HWD  N3   C4    SING  6 
+HWD  N3   H3    SING  7 
+HWD  C4   O4    DOUB  8 
+HWD  C4   C5    SING  9 
+HWD  C5   C6    DOUB  10
+HWD  C5   H5    SING  11
+HWD  C6   H6    SING  12
+HWD  C7   C8    SING  13
+HWD  C7   1H7   SING  14
+HWD  C7   2H7   SING  15
+HWD  C8   N8    SING  16
+HWD  C8   C9    SING  17
+HWD  C8   H8    SING  18
+HWD  N8   1H8   SING  19
+HWD  N8   2H8   SING  20
+HWD  C9   O91   DOUB  21
+HWD  C9   O92   SING  22
+HWD  O92  OH92  SING  23
+#

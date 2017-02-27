@@ -1,0 +1,108 @@
+data_ALH
+#
+_chem_comp.id                   ALH
+_chem_comp.name                 6-PHENYL[5H]PYRROLO[2,3-B]PYRAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H17 N3 O1'
+_chem_comp.pdbx_synonyms        'ALOISINE A'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.330
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALH  OAO   .  O  0  .986   70.012  1.071   1  1 
+ALH  CAN   .  C  0  1.807  69.008  .937    1  2 
+ALH  CAU   .  C  0  2.379  68.399  2.055   1  3 
+ALH  CAT   .  C  0  3.249  67.316  1.914   1  4 
+ALH  CAM   .  C  0  3.552  66.89   .628    1  5 
+ALH  CAE   .  C  0  2.986  67.535  -.494   1  6 
+ALH  CAF   .  C  0  2.108  68.597  -.345   1  7 
+ALH  CAL   .  C  0  4.398  65.836  .311    1  8 
+ALH  NAS   .  N  0  4.637  65.442  -.971   1  9 
+ALH  CAR   .  C  0  5.484  64.436  -.839   1  10
+ALH  NAQ   .  N  0  6.07   63.661  -1.9    1  11
+ALH  CAJ   .  C  0  5.785  64.212  .48     1  12
+ALH  NAI   .  N  0  6.7    63.168  .83     1  13
+ALH  CAH   .  C  0  7.201  62.431  -.154   1  14
+ALH  CAP   .  C  0  6.88   62.672  -1.496  1  15
+ALH  CAK   .  C  0  5.083  65.08   1.299   1  16
+ALH  CAG   .  C  0  5.155  65.199  2.822   1  17
+ALH  CAD   .  C  0  4.349  64.271  3.729   1  18
+ALH  CAC   .  C  0  5.121  64.122  5.039   1  19
+ALH  CAB   .  C  0  4.515  64.833  6.245   1  20
+ALH  HAO   .  H  0  .053   69.684  1.027   1  21
+ALH  HAU   .  H  0  2.15   68.764  3.025   1  22
+ALH  HAF   .  H  0  1.681  69.078  -1.189  1  23
+ALH  HAT   .  H  0  3.665  66.834  2.763   1  24
+ALH  HAE   .  H  0  3.238  67.2    -1.469  1  25
+ALH  HAS   .  H  0  4.262  65.823  -1.81   1  26
+ALH  HAP   .  H  0  7.301  62.036  -2.234  1  27
+ALH  HAH   .  H  0  7.864  61.636  .083    1  28
+ALH  1HAG  .  H  0  6.212  65.061  3.095   0  29
+ALH  2HAG  .  H  0  4.689  66.178  3.007   0  30
+ALH  1HAD  .  H  0  3.358  64.706  3.925   0  31
+ALH  2HAD  .  H  0  4.206  63.291  3.251   0  32
+ALH  1HAC  .  H  0  5.184  63.049  5.275   0  33
+ALH  2HAC  .  H  0  6.098  64.598  4.869   0  34
+ALH  1HAB  .  H  0  3.418  64.795  6.181   0  35
+ALH  2HAB  .  H  0  4.845  64.335  7.168   0  36
+ALH  3HAB  .  H  0  4.845  65.882  6.256   0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALH  OAO  CAN   SING  1 
+ALH  OAO  HAO   SING  2 
+ALH  CAN  CAU   AROM  3 
+ALH  CAN  CAF   AROM  4 
+ALH  CAU  CAT   AROM  5 
+ALH  CAU  HAU   SING  6 
+ALH  CAT  CAM   AROM  7 
+ALH  CAT  HAT   SING  8 
+ALH  CAM  CAE   AROM  9 
+ALH  CAM  CAL   SING  10
+ALH  CAE  CAF   AROM  11
+ALH  CAE  HAE   SING  12
+ALH  CAF  HAF   SING  13
+ALH  CAL  NAS   SING  14
+ALH  CAL  CAK   DOUB  15
+ALH  NAS  CAR   SING  16
+ALH  NAS  HAS   SING  17
+ALH  CAR  NAQ   AROM  18
+ALH  CAR  CAJ   AROM  19
+ALH  NAQ  CAP   AROM  20
+ALH  CAJ  NAI   AROM  21
+ALH  CAJ  CAK   SING  22
+ALH  NAI  CAH   AROM  23
+ALH  CAH  CAP   AROM  24
+ALH  CAH  HAH   SING  25
+ALH  CAP  HAP   SING  26
+ALH  CAK  CAG   SING  27
+ALH  CAG  CAD   SING  28
+ALH  CAG  1HAG  SING  29
+ALH  CAG  2HAG  SING  30
+ALH  CAD  CAC   SING  31
+ALH  CAD  1HAD  SING  32
+ALH  CAD  2HAD  SING  33
+ALH  CAC  CAB   SING  34
+ALH  CAC  1HAC  SING  35
+ALH  CAC  2HAC  SING  36
+ALH  CAB  1HAB  SING  37
+ALH  CAB  2HAB  SING  38
+ALH  CAB  3HAB  SING  39
+#

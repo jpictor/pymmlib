@@ -1,0 +1,109 @@
+data_MI2
+#
+_chem_comp.id                   MI2
+_chem_comp.name                 2-(2-METHYLPHENYL)-1H-INDOLE-5-CARBOXIMIDAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H15 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.315
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MI2
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       Cc1ccccc1C2=Cc3cc(ccc3N2)C(=N)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MI2  C1    .  C  0  -3.626  49.283  1.435   1  Y  1 
+MI2  C2    .  C  0  -3.629  49.044  2.836   1  Y  2 
+MI2  N3    .  N  0  -2.377  49.165  3.299   1  N  3 
+MI2  C4    .  C  0  -1.571  49.465  2.259   1  N  4 
+MI2  C5    .  C  0  -2.314  49.547  1.083   1  N  5 
+MI2  C6    .  C  0  -0.083  49.672  2.371   1  Y  6 
+MI2  C7    .  C  0  0.473   50.816  1.713   1  Y  7 
+MI2  C8    .  C  0  1.869   51.070  1.777   1  Y  8 
+MI2  C9    .  C  0  2.722   50.192  2.491   1  Y  9 
+MI2  C10   .  C  0  2.179   49.055  3.147   1  Y  10
+MI2  C11   .  C  0  0.778   48.771  3.103   1  Y  11
+MI2  C12   .  C  0  0.291   47.546  3.825   1  N  12
+MI2  C13   .  C  0  -4.857  48.738  3.501   1  Y  13
+MI2  C14   .  C  0  -6.049  48.675  2.721   1  Y  14
+MI2  C15   .  C  0  -6.007  48.918  1.312   1  Y  15
+MI2  C16   .  C  0  -4.795  49.230  0.627   1  Y  16
+MI2  C17   .  C  0  -7.242  48.834  0.542   1  N  17
+MI2  N18   .  N  0  -8.167  47.798  0.824   1  N  18
+MI2  N19   .  N  0  -7.514  49.763  -0.488  1  N  19
+MI2  HN3   .  H  0  -2.090  49.052  4.250   1  N  20
+MI2  H5    .  H  0  -1.941  49.772  0.095   1  N  21
+MI2  H7    .  H  0  -0.172  51.488  1.166   1  N  22
+MI2  H8    .  H  0  2.282   51.935  1.280   1  N  23
+MI2  H9    .  H  0  3.783   50.387  2.536   1  N  24
+MI2  H10   .  H  0  2.837   48.392  3.689   1  N  25
+MI2  1H12  .  H  0  0.172   46.720  3.108   0  N  26
+MI2  2H12  .  H  0  1.022   47.260  4.596   0  N  27
+MI2  3H12  .  H  0  -0.678  47.761  4.300   0  N  28
+MI2  H13   .  H  0  -4.881  48.559  4.566   1  N  29
+MI2  H14   .  H  0  -6.990  48.442  3.197   1  N  30
+MI2  H16   .  H  0  -4.767  49.414  -0.437  1  N  31
+MI2  HN18  .  H  0  -7.805  47.247  1.576   0  N  32
+MI2  1H19  .  H  0  -8.395  49.530  -0.899  0  N  33
+MI2  2H19  .  H  0  -6.925  50.524  -0.759  0  N  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MI2  C1   C16   SING  Y  1 
+MI2  C1   C5    SING  N  2 
+MI2  C1   C2    DOUB  Y  3 
+MI2  C2   N3    SING  N  4 
+MI2  C2   C13   SING  Y  5 
+MI2  N3   C4    SING  N  6 
+MI2  N3   HN3   SING  N  7 
+MI2  C4   C5    DOUB  N  8 
+MI2  C4   C6    SING  N  9 
+MI2  C5   H5    SING  N  10
+MI2  C6   C7    SING  Y  11
+MI2  C6   C11   DOUB  Y  12
+MI2  C7   C8    DOUB  Y  13
+MI2  C7   H7    SING  N  14
+MI2  C8   C9    SING  Y  15
+MI2  C8   H8    SING  N  16
+MI2  C9   C10   DOUB  Y  17
+MI2  C9   H9    SING  N  18
+MI2  C10  C11   SING  Y  19
+MI2  C10  H10   SING  N  20
+MI2  C11  C12   SING  N  21
+MI2  C12  1H12  SING  N  22
+MI2  C12  2H12  SING  N  23
+MI2  C12  3H12  SING  N  24
+MI2  C13  C14   DOUB  Y  25
+MI2  C13  H13   SING  N  26
+MI2  C14  C15   SING  Y  27
+MI2  C14  H14   SING  N  28
+MI2  C15  C17   SING  N  29
+MI2  C15  C16   DOUB  Y  30
+MI2  C16  H16   SING  N  31
+MI2  C17  N19   SING  N  32
+MI2  C17  N18   DOUB  N  33
+MI2  N18  HN18  SING  N  34
+MI2  N19  1H19  SING  N  35
+MI2  N19  2H19  SING  N  36
+#

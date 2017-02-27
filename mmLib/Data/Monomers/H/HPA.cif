@@ -1,0 +1,60 @@
+data_HPA
+#
+_chem_comp.id                   HPA
+_chem_comp.name                 HYPOXANTHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.113
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPA  N1   .  N  0  ?  ?  ?  1  1 
+HPA  C2   .  C  0  ?  ?  ?  1  2 
+HPA  N3   .  N  0  ?  ?  ?  1  3 
+HPA  C4   .  C  0  ?  ?  ?  1  4 
+HPA  C5   .  C  0  ?  ?  ?  1  5 
+HPA  C6   .  C  0  ?  ?  ?  1  6 
+HPA  O6   .  O  0  ?  ?  ?  1  7 
+HPA  N7   .  N  0  ?  ?  ?  1  8 
+HPA  C8   .  C  0  ?  ?  ?  1  9 
+HPA  N9   .  N  0  ?  ?  ?  1  10
+HPA  HN1  .  H  0  ?  ?  ?  1  11
+HPA  H2   .  H  0  ?  ?  ?  1  12
+HPA  HN7  .  H  0  ?  ?  ?  1  13
+HPA  H8   .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPA  N1  C2   SING  1 
+HPA  N1  C6   SING  2 
+HPA  N1  HN1  SING  3 
+HPA  C2  N3   DOUB  4 
+HPA  C2  H2   SING  5 
+HPA  N3  C4   SING  6 
+HPA  C4  C5   DOUB  7 
+HPA  C4  N9   SING  8 
+HPA  C5  C6   SING  9 
+HPA  C5  N7   SING  10
+HPA  C6  O6   DOUB  11
+HPA  N7  C8   SING  12
+HPA  N7  HN7  SING  13
+HPA  C8  N9   DOUB  14
+HPA  C8  H8   SING  15
+#

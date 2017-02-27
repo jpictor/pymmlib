@@ -1,0 +1,120 @@
+data_PFM
+#
+_chem_comp.id                   PFM
+_chem_comp.name                 1-AMINO-7-(2-METHYL-3-OXIDO-5-((PHOSPHONOXY)METHYL)-4-PYRIDOXAL-5-OXO-6-HEPTENATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N2 O8 P1'
+_chem_comp.pdbx_synonyms        PYRIDOXYLIDENE-PROPEN-1-YL-3-ALANINE-5-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        374.286
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PFM  N     .  N  0  ?  ?  ?  1  1 
+PFM  CA    .  C  0  ?  ?  ?  1  2 
+PFM  C     .  C  0  ?  ?  ?  1  3 
+PFM  OA    .  O  0  ?  ?  ?  1  4 
+PFM  OB    .  O  0  ?  ?  ?  1  5 
+PFM  CB    .  C  0  ?  ?  ?  1  6 
+PFM  CG    .  C  0  ?  ?  ?  1  7 
+PFM  CD    .  C  0  ?  ?  ?  1  8 
+PFM  OE    .  O  0  ?  ?  ?  1  9 
+PFM  C4B   .  C  0  ?  ?  ?  1  10
+PFM  C4A   .  C  0  ?  ?  ?  1  11
+PFM  C4    .  C  0  ?  ?  ?  1  12
+PFM  C3    .  C  0  ?  ?  ?  1  13
+PFM  O3    .  O  0  ?  ?  ?  1  14
+PFM  C2    .  C  0  ?  ?  ?  1  15
+PFM  C2A   .  C  0  ?  ?  ?  1  16
+PFM  N1    .  N  0  ?  ?  ?  1  17
+PFM  C6    .  C  0  ?  ?  ?  1  18
+PFM  C5    .  C  0  ?  ?  ?  1  19
+PFM  C5A   .  C  0  ?  ?  ?  1  20
+PFM  P     .  P  0  ?  ?  ?  1  21
+PFM  OP1   .  O  0  ?  ?  ?  1  22
+PFM  OP2   .  O  0  ?  ?  ?  1  23
+PFM  OP3   .  O  0  ?  ?  ?  1  24
+PFM  OP4   .  O  0  ?  ?  ?  1  25
+PFM  1HN   .  H  0  ?  ?  ?  0  26
+PFM  2HN   .  H  0  ?  ?  ?  0  27
+PFM  HA    .  H  0  ?  ?  ?  1  28
+PFM  HOB   .  H  0  ?  ?  ?  1  29
+PFM  1HB   .  H  0  ?  ?  ?  0  30
+PFM  2HB   .  H  0  ?  ?  ?  0  31
+PFM  HG    .  H  0  ?  ?  ?  1  32
+PFM  HOE   .  H  0  ?  ?  ?  1  33
+PFM  H4B   .  H  0  ?  ?  ?  1  34
+PFM  H4A   .  H  0  ?  ?  ?  1  35
+PFM  HO3   .  H  0  ?  ?  ?  1  36
+PFM  1H2A  .  H  0  ?  ?  ?  0  37
+PFM  2H2A  .  H  0  ?  ?  ?  0  38
+PFM  3H2A  .  H  0  ?  ?  ?  0  39
+PFM  H6    .  H  0  ?  ?  ?  1  40
+PFM  1H5A  .  H  0  ?  ?  ?  0  41
+PFM  2H5A  .  H  0  ?  ?  ?  0  42
+PFM  2HOP  .  H  0  ?  ?  ?  0  43
+PFM  3HOP  .  H  0  ?  ?  ?  0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PFM  N    CA    SING  1 
+PFM  N    1HN   SING  2 
+PFM  N    2HN   SING  3 
+PFM  CA   C     SING  4 
+PFM  CA   CB    SING  5 
+PFM  CA   HA    SING  6 
+PFM  C    OA    DOUB  7 
+PFM  C    OB    SING  8 
+PFM  OB   HOB   SING  9 
+PFM  CB   CG    SING  10
+PFM  CB   1HB   SING  11
+PFM  CB   2HB   SING  12
+PFM  CG   CD    DOUB  13
+PFM  CG   HG    SING  14
+PFM  CD   OE    SING  15
+PFM  CD   C4B   SING  16
+PFM  OE   HOE   SING  17
+PFM  C4B  C4A   DOUB  18
+PFM  C4B  H4B   SING  19
+PFM  C4A  C4    SING  20
+PFM  C4A  H4A   SING  21
+PFM  C4   C3    DOUB  22
+PFM  C4   C5    SING  23
+PFM  C3   O3    SING  24
+PFM  C3   C2    SING  25
+PFM  O3   HO3   SING  26
+PFM  C2   C2A   SING  27
+PFM  C2   N1    DOUB  28
+PFM  C2A  1H2A  SING  29
+PFM  C2A  2H2A  SING  30
+PFM  C2A  3H2A  SING  31
+PFM  N1   C6    SING  32
+PFM  C6   C5    DOUB  33
+PFM  C6   H6    SING  34
+PFM  C5   C5A   SING  35
+PFM  C5A  OP4   SING  36
+PFM  C5A  1H5A  SING  37
+PFM  C5A  2H5A  SING  38
+PFM  P    OP1   DOUB  39
+PFM  P    OP2   SING  40
+PFM  P    OP3   SING  41
+PFM  P    OP4   SING  42
+PFM  OP2  2HOP  SING  43
+PFM  OP3  3HOP  SING  44
+#

@@ -1,0 +1,54 @@
+data_OAA
+#
+_chem_comp.id                   OAA
+_chem_comp.name                 'OXALOACETATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C4 H3 O5'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       131.065
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OAA  O1   .  O  0   ?  ?  ?  1  1 
+OAA  O2   .  O  -1  ?  ?  ?  1  2 
+OAA  O4   .  O  0   ?  ?  ?  1  3 
+OAA  O5   .  O  0   ?  ?  ?  1  4 
+OAA  O3   .  O  0   ?  ?  ?  1  5 
+OAA  C1   .  C  0   ?  ?  ?  1  6 
+OAA  C2   .  C  0   ?  ?  ?  1  7 
+OAA  C3   .  C  0   ?  ?  ?  1  8 
+OAA  C4   .  C  0   ?  ?  ?  1  9 
+OAA  HO5  .  H  0   ?  ?  ?  1  10
+OAA  1H2  .  H  0   ?  ?  ?  0  11
+OAA  2H2  .  H  0   ?  ?  ?  0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OAA  O1  C1   DOUB  1 
+OAA  O2  C1   SING  2 
+OAA  O4  C4   DOUB  3 
+OAA  O5  C4   SING  4 
+OAA  O5  HO5  SING  5 
+OAA  O3  C3   DOUB  6 
+OAA  C1  C2   SING  7 
+OAA  C2  C3   SING  8 
+OAA  C2  1H2  SING  9 
+OAA  C2  2H2  SING  10
+OAA  C3  C4   SING  11
+#

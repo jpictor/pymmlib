@@ -1,0 +1,106 @@
+data_BPM
+#
+_chem_comp.id                   BPM
+_chem_comp.name                 4-PHOSPHONOOXY-PHENYL-METHYL-[4-PHOSPHONOOXY]BENZEN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H14 O8 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        360.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPM  C0    .  C  0  ?  ?  ?  1  1 
+BPM  C1A   .  C  0  ?  ?  ?  1  2 
+BPM  C2A   .  C  0  ?  ?  ?  1  3 
+BPM  C3A   .  C  0  ?  ?  ?  1  4 
+BPM  C5A   .  C  0  ?  ?  ?  1  5 
+BPM  C6A   .  C  0  ?  ?  ?  1  6 
+BPM  C4A   .  C  0  ?  ?  ?  1  7 
+BPM  O1A   .  O  0  ?  ?  ?  1  8 
+BPM  PA    .  P  0  ?  ?  ?  1  9 
+BPM  O2A   .  O  0  ?  ?  ?  1  10
+BPM  O3A   .  O  0  ?  ?  ?  1  11
+BPM  O4A   .  O  0  ?  ?  ?  1  12
+BPM  C1B   .  C  0  ?  ?  ?  1  13
+BPM  C2B   .  C  0  ?  ?  ?  1  14
+BPM  C3B   .  C  0  ?  ?  ?  1  15
+BPM  C5B   .  C  0  ?  ?  ?  1  16
+BPM  C6B   .  C  0  ?  ?  ?  1  17
+BPM  C4B   .  C  0  ?  ?  ?  1  18
+BPM  O1B   .  O  0  ?  ?  ?  1  19
+BPM  PB    .  P  0  ?  ?  ?  1  20
+BPM  O2B   .  O  0  ?  ?  ?  1  21
+BPM  O3B   .  O  0  ?  ?  ?  1  22
+BPM  O4B   .  O  0  ?  ?  ?  1  23
+BPM  1HC0  .  H  0  ?  ?  ?  0  24
+BPM  2HC0  .  H  0  ?  ?  ?  0  25
+BPM  H2A   .  H  0  ?  ?  ?  1  26
+BPM  H3A   .  H  0  ?  ?  ?  1  27
+BPM  H5A   .  H  0  ?  ?  ?  1  28
+BPM  H6A   .  H  0  ?  ?  ?  1  29
+BPM  3HOA  .  H  0  ?  ?  ?  0  30
+BPM  4HOA  .  H  0  ?  ?  ?  0  31
+BPM  H2B   .  H  0  ?  ?  ?  1  32
+BPM  H3B   .  H  0  ?  ?  ?  1  33
+BPM  H5B   .  H  0  ?  ?  ?  1  34
+BPM  H6B   .  H  0  ?  ?  ?  1  35
+BPM  3HOB  .  H  0  ?  ?  ?  0  36
+BPM  4HOB  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPM  C0   C1A   SING  1 
+BPM  C0   C1B   SING  2 
+BPM  C0   1HC0  SING  3 
+BPM  C0   2HC0  SING  4 
+BPM  C1A  C2A   DOUB  5 
+BPM  C1A  C6A   SING  6 
+BPM  C2A  C3A   SING  7 
+BPM  C2A  H2A   SING  8 
+BPM  C3A  C4A   DOUB  9 
+BPM  C3A  H3A   SING  10
+BPM  C5A  C4A   SING  11
+BPM  C5A  C6A   DOUB  12
+BPM  C5A  H5A   SING  13
+BPM  C6A  H6A   SING  14
+BPM  C4A  O1A   SING  15
+BPM  O1A  PA    SING  16
+BPM  PA   O2A   DOUB  17
+BPM  PA   O3A   SING  18
+BPM  PA   O4A   SING  19
+BPM  O3A  3HOA  SING  20
+BPM  O4A  4HOA  SING  21
+BPM  C1B  C2B   DOUB  22
+BPM  C1B  C6B   SING  23
+BPM  C2B  C3B   SING  24
+BPM  C2B  H2B   SING  25
+BPM  C3B  C4B   DOUB  26
+BPM  C3B  H3B   SING  27
+BPM  C5B  C4B   SING  28
+BPM  C5B  C6B   DOUB  29
+BPM  C5B  H5B   SING  30
+BPM  C6B  H6B   SING  31
+BPM  C4B  O1B   SING  32
+BPM  O1B  PB    SING  33
+BPM  PB   O2B   DOUB  34
+BPM  PB   O3B   SING  35
+BPM  PB   O4B   SING  36
+BPM  O3B  3HOB  SING  37
+BPM  O4B  4HOB  SING  38
+#

@@ -1,0 +1,86 @@
+data_P25
+#
+_chem_comp.id                   P25
+_chem_comp.name                 'PENTYL TRIHYDROGEN DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H14 O7 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.109
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P25  C4    .  C  0  0.008   52.527  121.321  1  1 
+P25  CM4   .  C  0  -1.428  52.286  120.741  1  2 
+P25  C5    .  C  0  0.795   53.799  120.965  1  3 
+P25  C6    .  C  0  2.202   54.169  121.454  1  4 
+P25  C7    .  C  0  3.059   55.281  120.984  1  5 
+P25  O7    .  O  0  4.176   56.164  120.862  1  6 
+P25  PA    .  P  0  5.026   56.133  119.679  1  7 
+P25  O1A   .  O  0  6.026   57.105  119.836  1  8 
+P25  O2A   .  O  0  5.707   54.900  119.507  1  9 
+P25  O3A   .  O  0  4.179   56.495  118.408  1  10
+P25  PB    .  P  0  3.239   57.694  118.002  1  11
+P25  O1B   .  O  0  1.926   57.324  118.382  1  12
+P25  O2B   .  O  0  3.482   57.821  116.580  1  13
+P25  O3B   .  O  0  3.847   58.846  118.775  1  14
+P25  1HM4  .  H  0  ?       ?       ?        0  15
+P25  2HM4  .  H  0  ?       ?       ?        0  16
+P25  3HM4  .  H  0  ?       ?       ?        0  17
+P25  1H4   .  H  0  ?       ?       ?        0  18
+P25  2H4   .  H  0  ?       ?       ?        0  19
+P25  1H5   .  H  0  ?       ?       ?        0  20
+P25  2H5   .  H  0  ?       ?       ?        0  21
+P25  1H6   .  H  0  ?       ?       ?        0  22
+P25  2H6   .  H  0  ?       ?       ?        0  23
+P25  1H7   .  H  0  ?       ?       ?        0  24
+P25  2H7   .  H  0  ?       ?       ?        0  25
+P25  H2A   .  H  0  ?       ?       ?        1  26
+P25  H2B   .  H  0  ?       ?       ?        1  27
+P25  H3B   .  H  0  ?       ?       ?        1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P25  C4   CM4   SING  1 
+P25  C4   C5    SING  2 
+P25  C4   1H4   SING  3 
+P25  C4   2H4   SING  4 
+P25  CM4  1HM4  SING  5 
+P25  CM4  2HM4  SING  6 
+P25  CM4  3HM4  SING  7 
+P25  C5   C6    SING  8 
+P25  C5   1H5   SING  9 
+P25  C5   2H5   SING  10
+P25  C6   C7    SING  11
+P25  C6   1H6   SING  12
+P25  C6   2H6   SING  13
+P25  C7   O7    SING  14
+P25  C7   1H7   SING  15
+P25  C7   2H7   SING  16
+P25  O7   PA    SING  17
+P25  PA   O1A   DOUB  18
+P25  PA   O2A   SING  19
+P25  PA   O3A   SING  20
+P25  O2A  H2A   SING  21
+P25  O3A  PB    SING  22
+P25  PB   O1B   DOUB  23
+P25  PB   O2B   SING  24
+P25  PB   O3B   SING  25
+P25  O2B  H2B   SING  26
+P25  O3B  H3B   SING  27
+#

@@ -1,0 +1,71 @@
+data_AHR
+#
+_chem_comp.id                   AHR
+_chem_comp.name                 ALPHA-L-ARABINOFURANOSE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHR  O5*   .  O  0  56.628  22.715  55      1  1 
+AHR  C5*   .  C  0  56.143  23.859  54.257  1  2 
+AHR  C4*   .  C  0  55.444  23.36   52.997  1  3 
+AHR  O4*   .  O  0  56.217  22.389  52.264  1  4 
+AHR  C3*   .  C  0  55.153  24.454  52.018  1  5 
+AHR  O3*   .  O  0  53.821  24.818  52.309  1  6 
+AHR  C2*   .  C  0  55.144  23.678  50.725  1  7 
+AHR  O2*   .  O  0  55.358  24.522  49.616  1  8 
+AHR  C1*   .  C  0  56.223  22.646  50.872  1  9 
+AHR  O1*   .  O  0  55.851  21.463  50.167  1  10
+AHR  H4*   .  H  0  54.478  22.888  53.294  1  11
+AHR  H3*   .  H  0  55.878  25.3    52.043  1  12
+AHR  1H5*  .  H  0  55.492  24.523  54.872  0  13
+AHR  2H5*  .  H  0  56.949  24.597  54.035  0  14
+AHR  H1*   .  H  0  57.211  23.034  50.53   1  15
+AHR  HA    .  H  0  55.855  21.635  49.233  1  16
+AHR  H2*   .  H  0  54.16   23.166  50.612  1  17
+AHR  HB    .  H  0  55.352  24.033  48.801  1  18
+AHR  HC    .  H  0  53.636  25.512  51.688  1  19
+AHR  H5*   .  H  0  57.063  23.026  55.785  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHR  O5*  C5*   SING  1 
+AHR  O5*  H5*   SING  2 
+AHR  C5*  1H5*  SING  3 
+AHR  C5*  2H5*  SING  4 
+AHR  C5*  C4*   SING  5 
+AHR  C4*  O4*   SING  6 
+AHR  C4*  C3*   SING  7 
+AHR  C4*  H4*   SING  8 
+AHR  O4*  C1*   SING  9 
+AHR  C3*  O3*   SING  10
+AHR  C3*  H3*   SING  11
+AHR  C3*  C2*   SING  12
+AHR  O3*  HC    SING  13
+AHR  C2*  O2*   SING  14
+AHR  C2*  H2*   SING  15
+AHR  C2*  C1*   SING  16
+AHR  O2*  HB    SING  17
+AHR  C1*  O1*   SING  18
+AHR  C1*  H1*   SING  19
+AHR  O1*  HA    SING  20
+#

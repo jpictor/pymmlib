@@ -1,0 +1,117 @@
+data_TCQ
+#
+_chem_comp.id                   TCQ
+_chem_comp.name                 3-((3E)-4-(HYDROXYMETHYL)-6-OXO-3-{[(1S,2R)-2-PHENYLCYCLOPROPYL]IMINO}CYCLOHEXA-1,4-DIEN-1-YL)ALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H18 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.351
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCQ  N1    .  N  0   -.97    3.37    25.766  1  1 
+TCQ  C1    .  C  0   -1.731  3.41    27.015  1  2 
+TCQ  C2    .  C  0   -1.459  4.649   27.881  1  3 
+TCQ  O1    .  O  0   -.366   5.167   27.911  1  4 
+TCQ  C3    .  C  0   -1.334  2.257   27.927  1  5 
+TCQ  C4    .  C  0   -1.213  .91     27.244  1  6 
+TCQ  C5    .  C  0   -2.427  .083    26.993  1  7 
+TCQ  O3    .  O  0   -3.574  .521    27.312  1  8 
+TCQ  C6    .  C  0   -2.265  -1.244  26.33   1  9 
+TCQ  C7    .  C  0   -.996   -1.708  25.967  1  10
+TCQ  O4    .  O  0   -.812   -2.898  25.387  1  11
+TCQ  C8    .  C  0   .208    -.881   26.221  1  12
+TCQ  N2    .  N  1   1.416   -1.388  25.843  1  13
+TCQ  C9    .  C  0   2.657   -.651   26.043  1  14
+TCQ  C10   .  C  0   3.881   -1.391  26.559  1  15
+TCQ  C11   .  C  0   3.669   -1.249  25.05   1  16
+TCQ  C12   .  C  0   4.339   -.169   24.292  1  17
+TCQ  C13   .  C  0   5.459   .494    24.797  1  18
+TCQ  C14   .  C  0   6.052   1.513   24.059  1  19
+TCQ  C15   .  C  0   5.532   1.876   22.825  1  20
+TCQ  C16   .  C  0   4.42    1.212   22.318  1  21
+TCQ  C17   .  C  0   3.816   .196    23.055  1  22
+TCQ  C18   .  C  0   .052    .446    26.875  1  23
+TCQ  OXT   .  O  -1  ?       ?       ?       1  24
+TCQ  HN1   .  H  0   -.237   2.929   25.773  1  25
+TCQ  HN2   .  H  0   ?       ?       ?       1  26
+TCQ  HA    .  H  0   -2.807  3.335   26.806  1  27
+TCQ  HB1   .  H  0   -2.071  2.179   28.729  1  28
+TCQ  HB2   .  H  0   -.377   2.491   28.398  1  29
+TCQ  HQ3   .  H  0   -3.137  -1.857  26.138  1  30
+TCQ  HQ6   .  H  0   .915    1.059   27.078  1  31
+TCQ  HQ5   .  H  0   1.444   -2.158  25.469  1  32
+TCQ  HA1   .  H  0   2.686   .446    26.001  1  33
+TCQ  1HT2  .  H  0   4.622   -.759   27.047  0  34
+TCQ  2HT2  .  H  0   3.669   -2.357  26.992  0  35
+TCQ  HA3   .  H  0   3.3     -2.138  24.522  1  36
+TCQ  HT5   .  H  0   5.877   .23     25.758  1  37
+TCQ  HT6   .  H  0   6.923   2.025   24.449  1  38
+TCQ  HT7   .  H  0   6       2.665   22.25   1  39
+TCQ  HT8   .  H  0   4.019   1.496   21.356  1  40
+TCQ  HT9   .  H  0   2.947   -.317   22.662  1  41
+TCQ  H4    .  H  0   ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCQ  N1   C1    SING  1 
+TCQ  N1   HN1   SING  2 
+TCQ  N1   HN2   SING  3 
+TCQ  C1   C2    SING  4 
+TCQ  C1   C3    SING  5 
+TCQ  C1   HA    SING  6 
+TCQ  C2   O1    DOUB  7 
+TCQ  C2   OXT   SING  8 
+TCQ  C3   C4    SING  9 
+TCQ  C3   HB1   SING  10
+TCQ  C3   HB2   SING  11
+TCQ  C4   C5    SING  12
+TCQ  C4   C18   DOUB  13
+TCQ  C5   O3    DOUB  14
+TCQ  C5   C6    SING  15
+TCQ  C6   C7    DOUB  16
+TCQ  C6   HQ3   SING  17
+TCQ  C7   O4    SING  18
+TCQ  C7   C8    SING  19
+TCQ  O4   H4    SING  20
+TCQ  C8   C18   SING  21
+TCQ  C8   N2    DOUB  22
+TCQ  N2   C9    SING  23
+TCQ  N2   HQ5   SING  24
+TCQ  C9   C10   SING  25
+TCQ  C9   C11   SING  26
+TCQ  C9   HA1   SING  27
+TCQ  C10  C11   SING  28
+TCQ  C10  1HT2  SING  29
+TCQ  C10  2HT2  SING  30
+TCQ  C11  C12   SING  31
+TCQ  C11  HA3   SING  32
+TCQ  C12  C13   DOUB  33
+TCQ  C12  C17   SING  34
+TCQ  C13  C14   SING  35
+TCQ  C13  HT5   SING  36
+TCQ  C14  C15   DOUB  37
+TCQ  C14  HT6   SING  38
+TCQ  C15  C16   SING  39
+TCQ  C15  HT7   SING  40
+TCQ  C16  C17   DOUB  41
+TCQ  C16  HT8   SING  42
+TCQ  C17  HT9   SING  43
+TCQ  C18  HQ6   SING  44
+#

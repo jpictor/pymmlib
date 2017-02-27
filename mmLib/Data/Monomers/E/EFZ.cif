@@ -1,0 +1,94 @@
+data_EFZ
+#
+_chem_comp.id                   EFZ
+_chem_comp.name                 (-)-6-CHLORO-4-CYCLOPROPYLETHYNYL-4-TRIFLUOROMETHYL-1,4-DIHYDRO-2H-3,1-BENZOXAZIN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H9 N1 O2 CL1 F3'
+_chem_comp.pdbx_synonyms        DMP-266
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        315.679
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EFZ  CL    .  CL  0  ?  ?  ?  0  1 
+EFZ  F1    .  F   0  ?  ?  ?  1  2 
+EFZ  F2    .  F   0  ?  ?  ?  1  3 
+EFZ  F3    .  F   0  ?  ?  ?  1  4 
+EFZ  O1    .  O   0  ?  ?  ?  1  5 
+EFZ  O2    .  O   0  ?  ?  ?  1  6 
+EFZ  N     .  N   0  ?  ?  ?  1  7 
+EFZ  C1    .  C   0  ?  ?  ?  1  8 
+EFZ  C2    .  C   0  ?  ?  ?  1  9 
+EFZ  C3    .  C   0  ?  ?  ?  1  10
+EFZ  C4    .  C   0  ?  ?  ?  1  11
+EFZ  C5    .  C   0  ?  ?  ?  1  12
+EFZ  C6    .  C   0  ?  ?  ?  1  13
+EFZ  C7    .  C   0  ?  ?  ?  1  14
+EFZ  C8    .  C   0  ?  ?  ?  1  15
+EFZ  C9    .  C   0  ?  ?  ?  1  16
+EFZ  C10   .  C   0  ?  ?  ?  1  17
+EFZ  C11   .  C   0  ?  ?  ?  1  18
+EFZ  C12   .  C   0  ?  ?  ?  1  19
+EFZ  C13   .  C   0  ?  ?  ?  1  20
+EFZ  C14   .  C   0  ?  ?  ?  1  21
+EFZ  H2    .  H   0  ?  ?  ?  1  22
+EFZ  H3    .  H   0  ?  ?  ?  1  23
+EFZ  H5    .  H   0  ?  ?  ?  1  24
+EFZ  HN    .  H   0  ?  ?  ?  1  25
+EFZ  1H10  .  H   0  ?  ?  ?  0  26
+EFZ  1H11  .  H   0  ?  ?  ?  0  27
+EFZ  2H11  .  H   0  ?  ?  ?  0  28
+EFZ  1H12  .  H   0  ?  ?  ?  0  29
+EFZ  2H12  .  H   0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EFZ  CL   C4    SING  1 
+EFZ  F1   C13   SING  2 
+EFZ  F2   C13   SING  3 
+EFZ  F3   C13   SING  4 
+EFZ  O1   C14   DOUB  5 
+EFZ  O2   C7    SING  6 
+EFZ  O2   C14   SING  7 
+EFZ  N    C1    SING  8 
+EFZ  N    C14   SING  9 
+EFZ  N    HN    SING  10
+EFZ  C1   C2    AROM  11
+EFZ  C1   C6    AROM  12
+EFZ  C2   C3    AROM  13
+EFZ  C2   H2    SING  14
+EFZ  C3   C4    AROM  15
+EFZ  C3   H3    SING  16
+EFZ  C4   C5    AROM  17
+EFZ  C5   C6    AROM  18
+EFZ  C5   H5    SING  19
+EFZ  C6   C7    SING  20
+EFZ  C7   C8    SING  21
+EFZ  C7   C13   SING  22
+EFZ  C8   C9    TRIP  23
+EFZ  C9   C10   SING  24
+EFZ  C10  C11   SING  25
+EFZ  C10  C12   SING  26
+EFZ  C10  1H10  SING  27
+EFZ  C11  C12   SING  28
+EFZ  C11  1H11  SING  29
+EFZ  C11  2H11  SING  30
+EFZ  C12  1H12  SING  31
+EFZ  C12  2H12  SING  32
+#

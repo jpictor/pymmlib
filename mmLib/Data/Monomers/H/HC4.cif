@@ -1,0 +1,72 @@
+data_HC4
+#
+_chem_comp.id                   HC4
+_chem_comp.name                 '4'-HYDROXYCINNAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 O3'
+_chem_comp.pdbx_synonyms        'PARA-COUMARIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HC4  C1    .  C  0  ?  ?  ?  1  1 
+HC4  O1    .  O  0  ?  ?  ?  1  2 
+HC4  O2    .  O  0  ?  ?  ?  1  3 
+HC4  C2    .  C  0  ?  ?  ?  1  4 
+HC4  C3    .  C  0  ?  ?  ?  1  5 
+HC4  C1'   .  C  0  ?  ?  ?  1  6 
+HC4  C2'   .  C  0  ?  ?  ?  1  7 
+HC4  C3'   .  C  0  ?  ?  ?  1  8 
+HC4  C4'   .  C  0  ?  ?  ?  1  9 
+HC4  C5'   .  C  0  ?  ?  ?  1  10
+HC4  C6'   .  C  0  ?  ?  ?  1  11
+HC4  O4'   .  O  0  ?  ?  ?  1  12
+HC4  HO2   .  H  0  ?  ?  ?  1  13
+HC4  H2    .  H  0  ?  ?  ?  1  14
+HC4  H3    .  H  0  ?  ?  ?  1  15
+HC4  H2'   .  H  0  ?  ?  ?  1  16
+HC4  H3'   .  H  0  ?  ?  ?  1  17
+HC4  H5'   .  H  0  ?  ?  ?  1  18
+HC4  H6'   .  H  0  ?  ?  ?  1  19
+HC4  'HO4  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HC4  C1   C2    SING  1 
+HC4  C1   O1    DOUB  2 
+HC4  C1   O2    SING  3 
+HC4  O2   HO2   SING  4 
+HC4  C2   C3    DOUB  5 
+HC4  C2   H2    SING  6 
+HC4  C3   C1'   SING  7 
+HC4  C3   H3    SING  8 
+HC4  C1'  C2'   DOUB  9 
+HC4  C1'  C6'   SING  10
+HC4  C2'  C3'   SING  11
+HC4  C2'  H2'   SING  12
+HC4  C3'  C4'   DOUB  13
+HC4  C3'  H3'   SING  14
+HC4  C4'  C5'   SING  15
+HC4  C4'  O4'   SING  16
+HC4  C5'  C6'   DOUB  17
+HC4  C5'  H5'   SING  18
+HC4  C6'  H6'   SING  19
+HC4  O4'  'HO4  SING  20
+#

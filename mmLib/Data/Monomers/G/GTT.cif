@@ -1,0 +1,106 @@
+data_GTT
+#
+_chem_comp.id                   GTT
+_chem_comp.name                 GLUTATHIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H18 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       308.329
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GTT  N1    .  N  1  ?  ?  ?  1  1 
+GTT  CA1   .  C  0  ?  ?  ?  1  2 
+GTT  C1    .  C  0  ?  ?  ?  1  3 
+GTT  O11   .  O  0  ?  ?  ?  1  4 
+GTT  O12   .  O  0  ?  ?  ?  1  5 
+GTT  CB1   .  C  0  ?  ?  ?  1  6 
+GTT  CG1   .  C  0  ?  ?  ?  1  7 
+GTT  CD1   .  C  0  ?  ?  ?  1  8 
+GTT  OE1   .  O  0  ?  ?  ?  1  9 
+GTT  N2    .  N  0  ?  ?  ?  1  10
+GTT  CA2   .  C  0  ?  ?  ?  1  11
+GTT  C2    .  C  0  ?  ?  ?  1  12
+GTT  O2    .  O  0  ?  ?  ?  1  13
+GTT  CB2   .  C  0  ?  ?  ?  1  14
+GTT  SG2   .  S  0  ?  ?  ?  1  15
+GTT  N3    .  N  0  ?  ?  ?  1  16
+GTT  CA3   .  C  0  ?  ?  ?  1  17
+GTT  C3    .  C  0  ?  ?  ?  1  18
+GTT  O31   .  O  0  ?  ?  ?  1  19
+GTT  O32   .  O  0  ?  ?  ?  1  20
+GTT  1HB2  .  H  0  ?  ?  ?  0  21
+GTT  2HB2  .  H  0  ?  ?  ?  0  22
+GTT  HA2   .  H  0  ?  ?  ?  1  23
+GTT  HN2   .  H  0  ?  ?  ?  1  24
+GTT  1HG1  .  H  0  ?  ?  ?  0  25
+GTT  2HG1  .  H  0  ?  ?  ?  0  26
+GTT  1HB1  .  H  0  ?  ?  ?  0  27
+GTT  2HB1  .  H  0  ?  ?  ?  0  28
+GTT  HA1   .  H  0  ?  ?  ?  1  29
+GTT  1HN1  .  H  0  ?  ?  ?  0  30
+GTT  2HN1  .  H  0  ?  ?  ?  0  31
+GTT  3HN1  .  H  0  ?  ?  ?  0  32
+GTT  HN3   .  H  0  ?  ?  ?  1  33
+GTT  1HA3  .  H  0  ?  ?  ?  0  34
+GTT  2HA3  .  H  0  ?  ?  ?  0  35
+GTT  HSG   .  H  0  ?  ?  ?  1  36
+GTT  HO2   .  H  0  ?  ?  ?  1  37
+GTT  HO3   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GTT  N1   CA1   SING  1 
+GTT  N1   1HN1  SING  2 
+GTT  N1   2HN1  SING  3 
+GTT  N1   3HN1  SING  4 
+GTT  CA1  C1    SING  5 
+GTT  CA1  CB1   SING  6 
+GTT  CA1  HA1   SING  7 
+GTT  C1   O11   DOUB  8 
+GTT  C1   O12   SING  9 
+GTT  O12  HO2   SING  10
+GTT  CB1  CG1   SING  11
+GTT  CB1  1HB1  SING  12
+GTT  CB1  2HB1  SING  13
+GTT  CG1  CD1   SING  14
+GTT  CG1  1HG1  SING  15
+GTT  CG1  2HG1  SING  16
+GTT  CD1  OE1   DOUB  17
+GTT  CD1  N2    SING  18
+GTT  N2   CA2   SING  19
+GTT  N2   HN2   SING  20
+GTT  CA2  C2    SING  21
+GTT  CA2  CB2   SING  22
+GTT  CA2  HA2   SING  23
+GTT  C2   O2    DOUB  24
+GTT  C2   N3    SING  25
+GTT  CB2  SG2   SING  26
+GTT  CB2  1HB2  SING  27
+GTT  CB2  2HB2  SING  28
+GTT  SG2  HSG   SING  29
+GTT  N3   CA3   SING  30
+GTT  N3   HN3   SING  31
+GTT  CA3  C3    SING  32
+GTT  CA3  1HA3  SING  33
+GTT  CA3  2HA3  SING  34
+GTT  C3   O31   DOUB  35
+GTT  C3   O32   SING  36
+GTT  O32  HO3   SING  37
+#

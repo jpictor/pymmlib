@@ -1,0 +1,105 @@
+data_T49
+#
+_chem_comp.id                       T49
+_chem_comp.name                     'S4'-2'DEOXYTHYMIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O7 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            338.271
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+T49  O3P   .  O  0  8.573   13.161  11.031  1  1 
+T49  P     .  P  0  7.890   14.267  11.763  1  2 
+T49  O1P   .  O  0  6.501   14.107  12.289  1  3 
+T49  O2P   .  O  0  8.824   14.886  12.920  1  4 
+T49  O5*   .  O  0  7.911   15.504  10.775  1  5 
+T49  C5*   .  C  0  6.986   16.627  10.847  1  6 
+T49  C4*   .  C  0  7.380   17.754  9.925   1  7 
+T49  C3*   .  C  0  7.229   17.239  8.507   1  8 
+T49  O3*   .  O  0  6.645   18.272  7.807   1  9 
+T49  C2*   .  C  0  8.525   16.803  7.879   1  10
+T49  C1*   .  C  0  9.590   17.630  8.534   1  11
+T49  N1    .  N  0  10.959  17.649  8.172   1  12
+T49  C2    .  C  0  11.572  18.832  7.860   1  13
+T49  O2    .  O  0  10.963  19.896  7.873   1  14
+T49  N3    .  N  0  12.935  18.778  7.625   1  15
+T49  C4    .  C  0  13.688  17.662  7.690   1  16
+T49  O4    .  O  0  14.915  17.811  7.544   1  17
+T49  C5    .  C  0  12.954  16.437  7.999   1  18
+T49  C5M   .  C  0  13.605  15.097  8.040   1  19
+T49  C6    .  C  0  11.647  16.494  8.224   1  20
+T49  S     .  S  0  9.126   18.296  10.170  1  21
+T49  1H5*  .  H  0  6.871   16.987  11.896  0  22
+T49  2H5*  .  H  0  5.938   16.298  10.656  0  23
+T49  H4*   .  H  0  6.695   18.620  10.082  1  24
+T49  H3*   .  H  0  6.528   16.372  8.515   1  25
+T49  HA    .  H  0  6.550   17.949  6.918   1  26
+T49  1H2*  .  H  0  8.528   16.870  6.766   0  27
+T49  2H2*  .  H  0  8.707   15.705  7.946   0  28
+T49  H1*   .  H  0  9.335   18.563  7.979   1  29
+T49  H6    .  H  0  11.106  15.562  8.462   1  30
+T49  H3    .  H  0  13.406  19.650  7.384   1  31
+T49  1H5M  .  H  0  14.703  15.049  7.851   0  32
+T49  2H5M  .  H  0  13.080  14.411  7.334   0  33
+T49  3H5M  .  H  0  13.378  14.608  9.016   0  34
+T49  H2P   .  H  0  ?       ?       ?       1  35
+T49  H1P   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+T49  O3P  P     DOUB  1 
+T49  P    O1P   SING  2 
+T49  P    O2P   SING  3 
+T49  P    O5*   SING  4 
+T49  O1P  H1P   SING  5 
+T49  O2P  H2P   SING  6 
+T49  O5*  C5*   SING  7 
+T49  C5*  C4*   SING  8 
+T49  C5*  1H5*  SING  9 
+T49  C5*  2H5*  SING  10
+T49  C4*  C3*   SING  11
+T49  C4*  S     SING  12
+T49  C4*  H4*   SING  13
+T49  C3*  O3*   SING  14
+T49  C3*  C2*   SING  15
+T49  C3*  H3*   SING  16
+T49  O3*  HA    SING  17
+T49  C2*  C1*   SING  18
+T49  C2*  1H2*  SING  19
+T49  C2*  2H2*  SING  20
+T49  C1*  N1    SING  21
+T49  C1*  S     SING  22
+T49  C1*  H1*   SING  23
+T49  N1   C2    SING  24
+T49  N1   C6    SING  25
+T49  C2   O2    DOUB  26
+T49  C2   N3    SING  27
+T49  N3   C4    SING  28
+T49  N3   H3    SING  29
+T49  C4   O4    DOUB  30
+T49  C4   C5    SING  31
+T49  C5   C5M   SING  32
+T49  C5   C6    DOUB  33
+T49  C5M  1H5M  SING  34
+T49  C5M  2H5M  SING  35
+T49  C5M  3H5M  SING  36
+T49  C6   H6    SING  37
+#

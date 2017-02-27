@@ -1,0 +1,98 @@
+data_KRI
+#
+_chem_comp.id                   KRI
+_chem_comp.name                 '(S)-2-AMINO-4-[(2S,3R)-2,3,5-TRIHYDROXY-4-OXO-PENTYL]MERCAPTO-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N1 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.296
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KRI  O    .  O  0  -19.392  33.987  -15.688  1  1 
+KRI  C    .  C  0  -19.409  33.093  -14.844  1  2 
+KRI  OXT  .  O  0  -19.014  33.334  -13.705  1  3 
+KRI  CA   .  C  0  -19.920  31.696  -15.207  1  4 
+KRI  N    .  N  0  -19.326  30.704  -14.299  1  5 
+KRI  CB   .  C  0  -21.444  31.638  -15.084  1  6 
+KRI  CG   .  C  0  -22.133  32.530  -16.120  1  7 
+KRI  SD   .  S  0  -23.957  32.507  -15.982  1  8 
+KRI  C5   .  C  0  -24.300  30.805  -16.558  1  9 
+KRI  C4   .  C  0  -25.005  30.763  -17.915  1  10
+KRI  O4   .  O  0  -24.185  31.415  -18.888  1  11
+KRI  C3   .  C  0  -25.263  29.318  -18.348  1  12
+KRI  O3   .  O  0  -26.100  28.678  -17.381  1  13
+KRI  C2   .  C  0  -25.960  29.306  -19.710  1  14
+KRI  O2   .  O  0  -27.121  29.697  -19.817  1  15
+KRI  C1   .  C  0  -25.195  28.805  -20.937  1  16
+KRI  O1   .  O  0  -24.234  29.768  -21.379  1  17
+KRI  1HN  .  H  0  ?        ?       ?        0  18
+KRI  2HN  .  H  0  ?        ?       ?        0  19
+KRI  HA   .  H  0  ?        ?       ?        1  20
+KRI  1HB  .  H  0  ?        ?       ?        0  21
+KRI  2HB  .  H  0  ?        ?       ?        0  22
+KRI  1HG  .  H  0  ?        ?       ?        0  23
+KRI  2HG  .  H  0  ?        ?       ?        0  24
+KRI  1H5  .  H  0  ?        ?       ?        0  25
+KRI  2H5  .  H  0  ?        ?       ?        0  26
+KRI  H4   .  H  0  ?        ?       ?        1  27
+KRI  HO4  .  H  0  ?        ?       ?        1  28
+KRI  H3   .  H  0  ?        ?       ?        1  29
+KRI  HO3  .  H  0  ?        ?       ?        1  30
+KRI  1H1  .  H  0  ?        ?       ?        0  31
+KRI  2H1  .  H  0  ?        ?       ?        0  32
+KRI  HO1  .  H  0  ?        ?       ?        1  33
+KRI  HXT  .  H  0  ?        ?       ?        1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KRI  O    C    DOUB  1 
+KRI  C    OXT  SING  2 
+KRI  C    CA   SING  3 
+KRI  OXT  HXT  SING  4 
+KRI  CA   CB   SING  5 
+KRI  CA   N    SING  6 
+KRI  CA   HA   SING  7 
+KRI  N    1HN  SING  8 
+KRI  N    2HN  SING  9 
+KRI  CB   CG   SING  10
+KRI  CB   1HB  SING  11
+KRI  CB   2HB  SING  12
+KRI  CG   SD   SING  13
+KRI  CG   1HG  SING  14
+KRI  CG   2HG  SING  15
+KRI  SD   C5   SING  16
+KRI  C5   C4   SING  17
+KRI  C5   1H5  SING  18
+KRI  C5   2H5  SING  19
+KRI  C4   O4   SING  20
+KRI  C4   C3   SING  21
+KRI  C4   H4   SING  22
+KRI  O4   HO4  SING  23
+KRI  C3   O3   SING  24
+KRI  C3   C2   SING  25
+KRI  C3   H3   SING  26
+KRI  O3   HO3  SING  27
+KRI  C2   O2   DOUB  28
+KRI  C2   C1   SING  29
+KRI  C1   O1   SING  30
+KRI  C1   1H1  SING  31
+KRI  C1   2H1  SING  32
+KRI  O1   HO1  SING  33
+#

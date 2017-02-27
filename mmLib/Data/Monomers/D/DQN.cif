@@ -1,0 +1,79 @@
+data_DQN
+#
+_chem_comp.id                   DQN
+_chem_comp.name                 DUROQUINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.204
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DQN  C1    .  C  0  ?  ?  ?  1  1 
+DQN  O1    .  O  0  ?  ?  ?  1  2 
+DQN  C2    .  C  0  ?  ?  ?  1  3 
+DQN  C2M   .  C  0  ?  ?  ?  1  4 
+DQN  C3    .  C  0  ?  ?  ?  1  5 
+DQN  C3M   .  C  0  ?  ?  ?  1  6 
+DQN  C4    .  C  0  ?  ?  ?  1  7 
+DQN  O4    .  O  0  ?  ?  ?  1  8 
+DQN  C5    .  C  0  ?  ?  ?  1  9 
+DQN  C5M   .  C  0  ?  ?  ?  1  10
+DQN  C6    .  C  0  ?  ?  ?  1  11
+DQN  C6M   .  C  0  ?  ?  ?  1  12
+DQN  1H2M  .  H  0  ?  ?  ?  0  13
+DQN  2H2M  .  H  0  ?  ?  ?  0  14
+DQN  3H2M  .  H  0  ?  ?  ?  0  15
+DQN  1H3M  .  H  0  ?  ?  ?  0  16
+DQN  2H3M  .  H  0  ?  ?  ?  0  17
+DQN  3H3M  .  H  0  ?  ?  ?  0  18
+DQN  1H5M  .  H  0  ?  ?  ?  0  19
+DQN  2H5M  .  H  0  ?  ?  ?  0  20
+DQN  3H5M  .  H  0  ?  ?  ?  0  21
+DQN  1H6M  .  H  0  ?  ?  ?  0  22
+DQN  2H6M  .  H  0  ?  ?  ?  0  23
+DQN  3H6M  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DQN  C1   C2    SING  1 
+DQN  C1   C6    SING  2 
+DQN  C1   O1    DOUB  3 
+DQN  C2   C3    DOUB  4 
+DQN  C2   C2M   SING  5 
+DQN  C2M  1H2M  SING  6 
+DQN  C2M  2H2M  SING  7 
+DQN  C2M  3H2M  SING  8 
+DQN  C3   C4    SING  9 
+DQN  C3   C3M   SING  10
+DQN  C3M  1H3M  SING  11
+DQN  C3M  2H3M  SING  12
+DQN  C3M  3H3M  SING  13
+DQN  C4   C5    SING  14
+DQN  C4   O4    DOUB  15
+DQN  C5   C6    DOUB  16
+DQN  C5   C5M   SING  17
+DQN  C5M  1H5M  SING  18
+DQN  C5M  2H5M  SING  19
+DQN  C5M  3H5M  SING  20
+DQN  C6   C6M   SING  21
+DQN  C6M  1H6M  SING  22
+DQN  C6M  2H6M  SING  23
+DQN  C6M  3H6M  SING  24
+#

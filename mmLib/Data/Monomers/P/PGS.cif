@@ -1,0 +1,117 @@
+data_PGS
+#
+_chem_comp.id                   PGS
+_chem_comp.name                 '2-DEAZO-6-THIOPHOSPHATE GUANOSINE-5'-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N4 O10 P2 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       445.257
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PGS  PA    .  P  0  ?  ?  ?  1  1 
+PGS  O1A   .  O  0  ?  ?  ?  1  2 
+PGS  O2A   .  O  0  ?  ?  ?  1  3 
+PGS  O3A   .  O  0  ?  ?  ?  1  4 
+PGS  O5*   .  O  0  ?  ?  ?  1  5 
+PGS  C5*   .  C  0  ?  ?  ?  1  6 
+PGS  C4*   .  C  0  ?  ?  ?  1  7 
+PGS  O4*   .  O  0  ?  ?  ?  1  8 
+PGS  C3*   .  C  0  ?  ?  ?  1  9 
+PGS  O3*   .  O  0  ?  ?  ?  1  10
+PGS  C2*   .  C  0  ?  ?  ?  1  11
+PGS  O2*   .  O  0  ?  ?  ?  1  12
+PGS  C1*   .  C  0  ?  ?  ?  1  13
+PGS  N9    .  N  0  ?  ?  ?  1  14
+PGS  C8    .  C  0  ?  ?  ?  1  15
+PGS  N7    .  N  0  ?  ?  ?  1  16
+PGS  C5    .  C  0  ?  ?  ?  1  17
+PGS  C6    .  C  0  ?  ?  ?  1  18
+PGS  S6    .  S  0  ?  ?  ?  1  19
+PGS  P     .  P  0  ?  ?  ?  1  20
+PGS  O1P   .  O  0  ?  ?  ?  1  21
+PGS  O2P   .  O  0  ?  ?  ?  1  22
+PGS  O3P   .  O  0  ?  ?  ?  1  23
+PGS  N1    .  N  1  ?  ?  ?  1  24
+PGS  C2    .  C  0  ?  ?  ?  1  25
+PGS  N3    .  N  0  ?  ?  ?  1  26
+PGS  C4    .  C  0  ?  ?  ?  1  27
+PGS  2HOA  .  H  0  ?  ?  ?  0  28
+PGS  3HOA  .  H  0  ?  ?  ?  0  29
+PGS  3HOP  .  H  0  ?  ?  ?  0  30
+PGS  2HOP  .  H  0  ?  ?  ?  0  31
+PGS  H1*   .  H  0  ?  ?  ?  1  32
+PGS  H2*   .  H  0  ?  ?  ?  1  33
+PGS  H3*   .  H  0  ?  ?  ?  1  34
+PGS  H4*   .  H  0  ?  ?  ?  1  35
+PGS  *HO2  .  H  0  ?  ?  ?  0  36
+PGS  *HO3  .  H  0  ?  ?  ?  0  37
+PGS  1H5*  .  H  0  ?  ?  ?  0  38
+PGS  2H5*  .  H  0  ?  ?  ?  0  39
+PGS  H8    .  H  0  ?  ?  ?  1  40
+PGS  HN1   .  H  0  ?  ?  ?  1  41
+PGS  H2    .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PGS  PA   O1A   DOUB  1 
+PGS  PA   O2A   SING  2 
+PGS  PA   O3A   SING  3 
+PGS  PA   O5*   SING  4 
+PGS  O2A  2HOA  SING  5 
+PGS  O3A  3HOA  SING  6 
+PGS  O5*  C5*   SING  7 
+PGS  C5*  C4*   SING  8 
+PGS  C5*  1H5*  SING  9 
+PGS  C5*  2H5*  SING  10
+PGS  C4*  O4*   SING  11
+PGS  C4*  C3*   SING  12
+PGS  C4*  H4*   SING  13
+PGS  O4*  C1*   SING  14
+PGS  C3*  O3*   SING  15
+PGS  C3*  C2*   SING  16
+PGS  C3*  H3*   SING  17
+PGS  O3*  *HO3  SING  18
+PGS  C2*  O2*   SING  19
+PGS  C2*  C1*   SING  20
+PGS  C2*  H2*   SING  21
+PGS  O2*  *HO2  SING  22
+PGS  C1*  N9    SING  23
+PGS  C1*  H1*   SING  24
+PGS  N9   C8    SING  25
+PGS  N9   C4    SING  26
+PGS  C8   N7    DOUB  27
+PGS  C8   H8    SING  28
+PGS  N7   C5    SING  29
+PGS  C5   C6    SING  30
+PGS  C5   C4    DOUB  31
+PGS  C6   S6    SING  32
+PGS  C6   N1    DOUB  33
+PGS  S6   P     SING  34
+PGS  P    O1P   DOUB  35
+PGS  P    O2P   SING  36
+PGS  P    O3P   SING  37
+PGS  O2P  2HOP  SING  38
+PGS  O3P  3HOP  SING  39
+PGS  N1   C2    SING  40
+PGS  N1   HN1   SING  41
+PGS  C2   N3    DOUB  42
+PGS  C2   H2    SING  43
+PGS  N3   C4    SING  44
+#

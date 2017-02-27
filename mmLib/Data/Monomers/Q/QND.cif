@@ -1,0 +1,72 @@
+data_QND
+#
+_chem_comp.id                   QND
+_chem_comp.name                 'QUINALDIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        173.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+QND  N1   .  N  0  ?  ?  ?  1  1 
+QND  C2   .  C  0  ?  ?  ?  1  2 
+QND  C3   .  C  0  ?  ?  ?  1  3 
+QND  C4   .  C  0  ?  ?  ?  1  4 
+QND  C5   .  C  0  ?  ?  ?  1  5 
+QND  C6   .  C  0  ?  ?  ?  1  6 
+QND  C7   .  C  0  ?  ?  ?  1  7 
+QND  C8   .  C  0  ?  ?  ?  1  8 
+QND  C9   .  C  0  ?  ?  ?  1  9 
+QND  C10  .  C  0  ?  ?  ?  1  10
+QND  C    .  C  0  ?  ?  ?  1  11
+QND  O1   .  O  0  ?  ?  ?  1  12
+QND  O2   .  O  0  ?  ?  ?  1  13
+QND  H3   .  H  0  ?  ?  ?  1  14
+QND  H4   .  H  0  ?  ?  ?  1  15
+QND  H5   .  H  0  ?  ?  ?  1  16
+QND  H6   .  H  0  ?  ?  ?  1  17
+QND  H7   .  H  0  ?  ?  ?  1  18
+QND  H8   .  H  0  ?  ?  ?  1  19
+QND  HO2  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+QND  N1  C2   DOUB  1 
+QND  N1  C10  SING  2 
+QND  C2  C3   SING  3 
+QND  C2  C    SING  4 
+QND  C3  C4   DOUB  5 
+QND  C3  H3   SING  6 
+QND  C4  C9   SING  7 
+QND  C4  H4   SING  8 
+QND  C5  C6   DOUB  9 
+QND  C5  C9   SING  10
+QND  C5  H5   SING  11
+QND  C6  C7   SING  12
+QND  C6  H6   SING  13
+QND  C7  C8   DOUB  14
+QND  C7  H7   SING  15
+QND  C8  C10  SING  16
+QND  C8  H8   SING  17
+QND  C9  C10  DOUB  18
+QND  C   O1   DOUB  19
+QND  C   O2   SING  20
+QND  O2  HO2  SING  21
+#

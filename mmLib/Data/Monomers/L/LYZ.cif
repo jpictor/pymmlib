@@ -1,0 +1,81 @@
+data_LYZ
+#
+_chem_comp.id                       LYZ
+_chem_comp.name                     5-HYDROXYLYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H14 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            162.188
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LYZ  N    .  N  0  ?  ?  ?  1  1 
+LYZ  CA   .  C  0  ?  ?  ?  1  2 
+LYZ  C    .  C  0  ?  ?  ?  1  3 
+LYZ  O    .  O  0  ?  ?  ?  1  4 
+LYZ  CB   .  C  0  ?  ?  ?  1  5 
+LYZ  CG   .  C  0  ?  ?  ?  1  6 
+LYZ  CD   .  C  0  ?  ?  ?  1  7 
+LYZ  CE   .  C  0  ?  ?  ?  1  8 
+LYZ  NZ   .  N  0  ?  ?  ?  1  9 
+LYZ  OH   .  O  0  ?  ?  ?  1  10
+LYZ  OXT  .  O  0  ?  ?  ?  1  11
+LYZ  H    .  H  0  ?  ?  ?  1  12
+LYZ  HN2  .  H  0  ?  ?  ?  1  13
+LYZ  HA   .  H  0  ?  ?  ?  1  14
+LYZ  1HB  .  H  0  ?  ?  ?  0  15
+LYZ  2HB  .  H  0  ?  ?  ?  0  16
+LYZ  1HG  .  H  0  ?  ?  ?  0  17
+LYZ  2HG  .  H  0  ?  ?  ?  0  18
+LYZ  HD   .  H  0  ?  ?  ?  1  19
+LYZ  1HE  .  H  0  ?  ?  ?  0  20
+LYZ  2HE  .  H  0  ?  ?  ?  0  21
+LYZ  1HZ  .  H  0  ?  ?  ?  0  22
+LYZ  2HZ  .  H  0  ?  ?  ?  0  23
+LYZ  HO   .  H  0  ?  ?  ?  1  24
+LYZ  HXT  .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LYZ  N    CA   SING  1 
+LYZ  N    H    SING  2 
+LYZ  N    HN2  SING  3 
+LYZ  CA   C    SING  4 
+LYZ  CA   CB   SING  5 
+LYZ  CA   HA   SING  6 
+LYZ  C    O    DOUB  7 
+LYZ  C    OXT  SING  8 
+LYZ  CB   CG   SING  9 
+LYZ  CB   1HB  SING  10
+LYZ  CB   2HB  SING  11
+LYZ  CG   CD   SING  12
+LYZ  CG   1HG  SING  13
+LYZ  CG   2HG  SING  14
+LYZ  CD   CE   SING  15
+LYZ  CD   OH   SING  16
+LYZ  CD   HD   SING  17
+LYZ  CE   NZ   SING  18
+LYZ  CE   1HE  SING  19
+LYZ  CE   2HE  SING  20
+LYZ  NZ   1HZ  SING  21
+LYZ  NZ   2HZ  SING  22
+LYZ  OH   HO   SING  23
+LYZ  OXT  HXT  SING  24
+#

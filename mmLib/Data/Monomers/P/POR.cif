@@ -1,0 +1,112 @@
+data_POR
+#
+_chem_comp.id                   POR
+_chem_comp.name                 'PORPHYRIN FE(III)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H12 N4 FE1'
+_chem_comp.pdbx_formal_charge   3+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       364.189
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+POR  'FE'   .  FE  3  ?  ?  ?  0  1 
+POR  'CHA'  .  C   0  ?  ?  ?  1  2 
+POR  'CHB'  .  C   0  ?  ?  ?  1  3 
+POR  'CHC'  .  C   0  ?  ?  ?  1  4 
+POR  'CHD'  .  C   0  ?  ?  ?  1  5 
+POR  'N A'  .  N   0  ?  ?  ?  1  6 
+POR  'C1A'  .  C   0  ?  ?  ?  1  7 
+POR  'C2A'  .  C   0  ?  ?  ?  1  8 
+POR  'C3A'  .  C   0  ?  ?  ?  1  9 
+POR  'C4A'  .  C   0  ?  ?  ?  1  10
+POR  'N B'  .  N   0  ?  ?  ?  1  11
+POR  'C1B'  .  C   0  ?  ?  ?  1  12
+POR  'C2B'  .  C   0  ?  ?  ?  1  13
+POR  'C3B'  .  C   0  ?  ?  ?  1  14
+POR  'C4B'  .  C   0  ?  ?  ?  1  15
+POR  'N C'  .  N   0  ?  ?  ?  1  16
+POR  'C1C'  .  C   0  ?  ?  ?  1  17
+POR  'C2C'  .  C   0  ?  ?  ?  1  18
+POR  'C3C'  .  C   0  ?  ?  ?  1  19
+POR  'C4C'  .  C   0  ?  ?  ?  1  20
+POR  'N D'  .  N   0  ?  ?  ?  1  21
+POR  'C1D'  .  C   0  ?  ?  ?  1  22
+POR  'C2D'  .  C   0  ?  ?  ?  1  23
+POR  'C3D'  .  C   0  ?  ?  ?  1  24
+POR  'C4D'  .  C   0  ?  ?  ?  1  25
+POR  'HHA'  .  H   0  ?  ?  ?  1  26
+POR  'HHB'  .  H   0  ?  ?  ?  1  27
+POR  'HHC'  .  H   0  ?  ?  ?  1  28
+POR  'HHD'  .  H   0  ?  ?  ?  1  29
+POR  'H2A'  .  H   0  ?  ?  ?  1  30
+POR  'H3A'  .  H   0  ?  ?  ?  1  31
+POR  'H2B'  .  H   0  ?  ?  ?  1  32
+POR  'H3B'  .  H   0  ?  ?  ?  1  33
+POR  'H2C'  .  H   0  ?  ?  ?  1  34
+POR  'H3C'  .  H   0  ?  ?  ?  1  35
+POR  'H2D'  .  H   0  ?  ?  ?  1  36
+POR  'H3D'  .  H   0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+POR  'FE'   'N A'  SING  1 
+POR  'FE'   'N B'  SING  2 
+POR  'FE'   'N C'  SING  3 
+POR  'FE'   'N D'  SING  4 
+POR  'CHA'  'C1A'  DOUB  5 
+POR  'CHA'  'C4D'  SING  6 
+POR  'CHA'  'HHA'  SING  7 
+POR  'CHB'  'C4A'  SING  8 
+POR  'CHB'  'C1B'  DOUB  9 
+POR  'CHB'  'HHB'  SING  10
+POR  'CHC'  'C4B'  DOUB  11
+POR  'CHC'  'C1C'  SING  12
+POR  'CHC'  'HHC'  SING  13
+POR  'CHD'  'C4C'  DOUB  14
+POR  'CHD'  'C1D'  SING  15
+POR  'CHD'  'HHD'  SING  16
+POR  'N A'  'C1A'  SING  17
+POR  'N A'  'C4A'  DOUB  18
+POR  'C1A'  'C2A'  SING  19
+POR  'C2A'  'C3A'  DOUB  20
+POR  'C2A'  'H2A'  SING  21
+POR  'C3A'  'C4A'  SING  22
+POR  'C3A'  'H3A'  SING  23
+POR  'N B'  'C1B'  SING  24
+POR  'N B'  'C4B'  SING  25
+POR  'C1B'  'C2B'  SING  26
+POR  'C2B'  'C3B'  DOUB  27
+POR  'C2B'  'H2B'  SING  28
+POR  'C3B'  'C4B'  SING  29
+POR  'C3B'  'H3B'  SING  30
+POR  'N C'  'C1C'  DOUB  31
+POR  'N C'  'C4C'  SING  32
+POR  'C1C'  'C2C'  SING  33
+POR  'C2C'  'C3C'  DOUB  34
+POR  'C2C'  'H2C'  SING  35
+POR  'C3C'  'C4C'  SING  36
+POR  'C3C'  'H3C'  SING  37
+POR  'N D'  'C1D'  SING  38
+POR  'N D'  'C4D'  SING  39
+POR  'C1D'  'C2D'  DOUB  40
+POR  'C2D'  'C3D'  SING  41
+POR  'C2D'  'H2D'  SING  42
+POR  'C3D'  'C4D'  DOUB  43
+POR  'C3D'  'H3D'  SING  44
+#

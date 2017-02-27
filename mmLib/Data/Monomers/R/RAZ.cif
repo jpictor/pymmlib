@@ -1,0 +1,114 @@
+data_RAZ
+#
+_chem_comp.id                   RAZ
+_chem_comp.name                 (1R)-N,4-DIMETHYL-N-(4-METHYLPENT-3-ENYL)CYCLOHEX-3-ENAMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H26 N1'
+_chem_comp.pdbx_synonyms        '(4R)-7-AZABISABOLENE; R-AZABISABOLENE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       208.366
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAZ  C01   .  C  0  -21.646  109.050  16.696  1  1 
+RAZ  C02   .  C  0  -20.352  109.906  17.062  1  2 
+RAZ  C03   .  C  0  -22.644  109.143  17.918  1  3 
+RAZ  C05   .  C  0  -20.708  111.420  17.264  1  4 
+RAZ  C07   .  C  0  -22.968  110.629  18.175  1  5 
+RAZ  N08   .  N  1  -21.353  107.587  16.338  1  6 
+RAZ  C09   .  C  0  -18.743  108.576  13.718  1  7 
+RAZ  C10   .  C  0  -20.121  108.227  14.196  1  8 
+RAZ  C11   .  C  0  -20.152  107.401  15.508  1  9 
+RAZ  C14   .  C  0  -18.150  109.773  13.609  1  10
+RAZ  C17   .  C  0  -18.746  111.124  13.961  1  11
+RAZ  C18   .  C  0  -16.743  109.842  13.076  1  12
+RAZ  C19   .  C  0  -21.184  106.682  17.474  1  13
+RAZ  C31   .  C  0  -22.111  111.663  17.870  1  14
+RAZ  C32   .  C  0  -22.487  113.090  18.101  1  15
+RAZ  1H19  .  H  0  ?        ?        ?       0  16
+RAZ  2H19  .  H  0  ?        ?        ?       0  17
+RAZ  3H19  .  H  0  ?        ?        ?       0  18
+RAZ  H08   .  H  0  ?        ?        ?       1  19
+RAZ  1H11  .  H  0  ?        ?        ?       0  20
+RAZ  2H11  .  H  0  ?        ?        ?       0  21
+RAZ  1H10  .  H  0  ?        ?        ?       0  22
+RAZ  2H10  .  H  0  ?        ?        ?       0  23
+RAZ  H09   .  H  0  ?        ?        ?       1  24
+RAZ  1H17  .  H  0  ?        ?        ?       0  25
+RAZ  2H17  .  H  0  ?        ?        ?       0  26
+RAZ  3H17  .  H  0  ?        ?        ?       0  27
+RAZ  1H18  .  H  0  ?        ?        ?       0  28
+RAZ  2H18  .  H  0  ?        ?        ?       0  29
+RAZ  3H18  .  H  0  ?        ?        ?       0  30
+RAZ  H01   .  H  0  ?        ?        ?       1  31
+RAZ  1H02  .  H  0  ?        ?        ?       0  32
+RAZ  2H02  .  H  0  ?        ?        ?       0  33
+RAZ  H05   .  H  0  ?        ?        ?       1  34
+RAZ  1H32  .  H  0  ?        ?        ?       0  35
+RAZ  2H32  .  H  0  ?        ?        ?       0  36
+RAZ  3H32  .  H  0  ?        ?        ?       0  37
+RAZ  1H07  .  H  0  ?        ?        ?       0  38
+RAZ  2H07  .  H  0  ?        ?        ?       0  39
+RAZ  1H03  .  H  0  ?        ?        ?       0  40
+RAZ  2H03  .  H  0  ?        ?        ?       0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAZ  C01  N08   SING  1 
+RAZ  C01  C03   SING  2 
+RAZ  C01  C02   SING  3 
+RAZ  C01  H01   SING  4 
+RAZ  C02  C05   SING  5 
+RAZ  C02  1H02  SING  6 
+RAZ  C02  2H02  SING  7 
+RAZ  C03  C07   SING  8 
+RAZ  C03  1H03  SING  9 
+RAZ  C03  2H03  SING  10
+RAZ  C05  C31   DOUB  11
+RAZ  C05  H05   SING  12
+RAZ  C07  C31   SING  13
+RAZ  C07  1H07  SING  14
+RAZ  C07  2H07  SING  15
+RAZ  N08  C19   SING  16
+RAZ  N08  C11   SING  17
+RAZ  N08  H08   SING  18
+RAZ  C09  C10   SING  19
+RAZ  C09  C14   DOUB  20
+RAZ  C09  H09   SING  21
+RAZ  C10  C11   SING  22
+RAZ  C10  1H10  SING  23
+RAZ  C10  2H10  SING  24
+RAZ  C11  1H11  SING  25
+RAZ  C11  2H11  SING  26
+RAZ  C14  C17   SING  27
+RAZ  C14  C18   SING  28
+RAZ  C17  1H17  SING  29
+RAZ  C17  2H17  SING  30
+RAZ  C17  3H17  SING  31
+RAZ  C18  1H18  SING  32
+RAZ  C18  2H18  SING  33
+RAZ  C18  3H18  SING  34
+RAZ  C19  1H19  SING  35
+RAZ  C19  2H19  SING  36
+RAZ  C19  3H19  SING  37
+RAZ  C31  C32   SING  38
+RAZ  C32  1H32  SING  39
+RAZ  C32  2H32  SING  40
+RAZ  C32  3H32  SING  41
+#

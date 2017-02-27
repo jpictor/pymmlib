@@ -1,0 +1,63 @@
+data_AA3
+#
+_chem_comp.id                       AA3
+_chem_comp.name                     '2-AMINOBUTYRIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            103.121
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AA3  N    .  N  0  ?  ?  ?  1  1 
+AA3  CA   .  C  0  ?  ?  ?  1  2 
+AA3  C    .  C  0  ?  ?  ?  1  3 
+AA3  O    .  O  0  ?  ?  ?  1  4 
+AA3  CB   .  C  0  ?  ?  ?  1  5 
+AA3  CG   .  C  0  ?  ?  ?  1  6 
+AA3  OXT  .  O  0  ?  ?  ?  1  7 
+AA3  HXT  .  H  0  ?  ?  ?  1  8 
+AA3  HA   .  H  0  ?  ?  ?  1  9 
+AA3  H    .  H  0  ?  ?  ?  1  10
+AA3  HN   .  H  0  ?  ?  ?  1  11
+AA3  HB1  .  H  0  ?  ?  ?  1  12
+AA3  HB2  .  H  0  ?  ?  ?  1  13
+AA3  HG1  .  H  0  ?  ?  ?  1  14
+AA3  HG2  .  H  0  ?  ?  ?  1  15
+AA3  HG3  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AA3  N    CA   SING  1 
+AA3  N    H    SING  2 
+AA3  N    HN   SING  3 
+AA3  CA   C    SING  4 
+AA3  CA   CB   SING  5 
+AA3  CA   HA   SING  6 
+AA3  C    O    DOUB  7 
+AA3  C    OXT  SING  8 
+AA3  CB   CG   SING  9 
+AA3  CB   HB1  SING  10
+AA3  CB   HB2  SING  11
+AA3  CG   HG1  SING  12
+AA3  CG   HG2  SING  13
+AA3  CG   HG3  SING  14
+AA3  OXT  HXT  SING  15
+#

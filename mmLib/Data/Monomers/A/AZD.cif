@@ -1,0 +1,116 @@
+data_AZD
+#
+_chem_comp.id                   AZD
+_chem_comp.name                 3'-AZIDO-3'-DEOXYTHYMIDINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N5 O10 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        427.203
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AZD  PA    .  P  0   ?  ?  ?  1  1 
+AZD  O1A   .  O  0   ?  ?  ?  1  2 
+AZD  O2A   .  O  0   ?  ?  ?  1  3 
+AZD  O3A   .  O  0   ?  ?  ?  1  4 
+AZD  PB    .  P  0   ?  ?  ?  1  5 
+AZD  O1B   .  O  0   ?  ?  ?  1  6 
+AZD  O2B   .  O  0   ?  ?  ?  1  7 
+AZD  O3B   .  O  0   ?  ?  ?  1  8 
+AZD  O5*   .  O  0   ?  ?  ?  1  9 
+AZD  C5*   .  C  0   ?  ?  ?  1  10
+AZD  C4*   .  C  0   ?  ?  ?  1  11
+AZD  O4*   .  O  0   ?  ?  ?  1  12
+AZD  C3*   .  C  0   ?  ?  ?  1  13
+AZD  N3*   .  N  0   ?  ?  ?  1  14
+AZD  N4*   .  N  1   ?  ?  ?  1  15
+AZD  N5*   .  N  -1  ?  ?  ?  1  16
+AZD  C2*   .  C  0   ?  ?  ?  1  17
+AZD  C1*   .  C  0   ?  ?  ?  1  18
+AZD  N1    .  N  0   ?  ?  ?  1  19
+AZD  C2    .  C  0   ?  ?  ?  1  20
+AZD  O2    .  O  0   ?  ?  ?  1  21
+AZD  N3    .  N  0   ?  ?  ?  1  22
+AZD  C4    .  C  0   ?  ?  ?  1  23
+AZD  O4    .  O  0   ?  ?  ?  1  24
+AZD  C5    .  C  0   ?  ?  ?  1  25
+AZD  C5A   .  C  0   ?  ?  ?  1  26
+AZD  C6    .  C  0   ?  ?  ?  1  27
+AZD  2HOA  .  H  0   ?  ?  ?  0  28
+AZD  2HOB  .  H  0   ?  ?  ?  0  29
+AZD  3HOB  .  H  0   ?  ?  ?  0  30
+AZD  1H5*  .  H  0   ?  ?  ?  0  31
+AZD  2H5*  .  H  0   ?  ?  ?  0  32
+AZD  H4*   .  H  0   ?  ?  ?  1  33
+AZD  H3*   .  H  0   ?  ?  ?  1  34
+AZD  1H2*  .  H  0   ?  ?  ?  0  35
+AZD  2H2*  .  H  0   ?  ?  ?  0  36
+AZD  H1*   .  H  0   ?  ?  ?  1  37
+AZD  HN3   .  H  0   ?  ?  ?  1  38
+AZD  1H5   .  H  0   ?  ?  ?  0  39
+AZD  2H5   .  H  0   ?  ?  ?  0  40
+AZD  3H5   .  H  0   ?  ?  ?  0  41
+AZD  H6    .  H  0   ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AZD  PA   O1A   DOUB  1 
+AZD  PA   O2A   SING  2 
+AZD  PA   O3A   SING  3 
+AZD  PA   O5*   SING  4 
+AZD  O2A  2HOA  SING  5 
+AZD  O3A  PB    SING  6 
+AZD  PB   O1B   DOUB  7 
+AZD  PB   O2B   SING  8 
+AZD  PB   O3B   SING  9 
+AZD  O2B  2HOB  SING  10
+AZD  O3B  3HOB  SING  11
+AZD  O5*  C5*   SING  12
+AZD  C5*  C4*   SING  13
+AZD  C5*  1H5*  SING  14
+AZD  C5*  2H5*  SING  15
+AZD  C4*  C3*   SING  16
+AZD  C4*  O4*   SING  17
+AZD  C4*  H4*   SING  18
+AZD  O4*  C1*   SING  19
+AZD  C3*  C2*   SING  20
+AZD  C3*  N3*   SING  21
+AZD  C3*  H3*   SING  22
+AZD  N3*  N4*   DOUB  23
+AZD  N4*  N5*   DOUB  24
+AZD  C2*  C1*   SING  25
+AZD  C2*  1H2*  SING  26
+AZD  C2*  2H2*  SING  27
+AZD  C1*  N1    SING  28
+AZD  C1*  H1*   SING  29
+AZD  N1   C2    SING  30
+AZD  N1   C6    SING  31
+AZD  C2   O2    DOUB  32
+AZD  C2   N3    SING  33
+AZD  N3   C4    SING  34
+AZD  N3   HN3   SING  35
+AZD  C4   O4    DOUB  36
+AZD  C4   C5    SING  37
+AZD  C5   C6    DOUB  38
+AZD  C5   C5A   SING  39
+AZD  C5A  1H5   SING  40
+AZD  C5A  2H5   SING  41
+AZD  C5A  3H5   SING  42
+AZD  C6   H6    SING  43
+#

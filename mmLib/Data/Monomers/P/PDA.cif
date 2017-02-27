@@ -1,0 +1,108 @@
+data_PDA
+#
+_chem_comp.id                   PDA
+_chem_comp.name                 '2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL)-AMINO]-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N2 O7 P1'
+_chem_comp.pdbx_synonyms        PYRIDOXYL-ALANINE-5-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        320.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDA  N     .  N  0  ?  ?  ?  1  1 
+PDA  N1    .  N  0  ?  ?  ?  1  2 
+PDA  C2    .  C  0  ?  ?  ?  1  3 
+PDA  C2A   .  C  0  ?  ?  ?  1  4 
+PDA  C3    .  C  0  ?  ?  ?  1  5 
+PDA  O3A   .  O  0  ?  ?  ?  1  6 
+PDA  C4    .  C  0  ?  ?  ?  1  7 
+PDA  C4A   .  C  0  ?  ?  ?  1  8 
+PDA  C5    .  C  0  ?  ?  ?  1  9 
+PDA  C5A   .  C  0  ?  ?  ?  1  10
+PDA  OP4   .  O  0  ?  ?  ?  1  11
+PDA  P     .  P  0  ?  ?  ?  1  12
+PDA  OP1   .  O  0  ?  ?  ?  1  13
+PDA  OP2   .  O  0  ?  ?  ?  1  14
+PDA  OP3   .  O  0  ?  ?  ?  1  15
+PDA  C6    .  C  0  ?  ?  ?  1  16
+PDA  CA    .  C  0  ?  ?  ?  1  17
+PDA  CB    .  C  0  ?  ?  ?  1  18
+PDA  C     .  C  0  ?  ?  ?  1  19
+PDA  O     .  O  0  ?  ?  ?  1  20
+PDA  OXT   .  O  0  ?  ?  ?  1  21
+PDA  HN    .  H  0  ?  ?  ?  1  22
+PDA  1H2A  .  H  0  ?  ?  ?  0  23
+PDA  2H2A  .  H  0  ?  ?  ?  0  24
+PDA  3H2A  .  H  0  ?  ?  ?  0  25
+PDA  HOA   .  H  0  ?  ?  ?  1  26
+PDA  1H4A  .  H  0  ?  ?  ?  0  27
+PDA  2H4A  .  H  0  ?  ?  ?  0  28
+PDA  1H5A  .  H  0  ?  ?  ?  0  29
+PDA  2H5A  .  H  0  ?  ?  ?  0  30
+PDA  HO2   .  H  0  ?  ?  ?  1  31
+PDA  HO3   .  H  0  ?  ?  ?  1  32
+PDA  H6    .  H  0  ?  ?  ?  1  33
+PDA  HA    .  H  0  ?  ?  ?  1  34
+PDA  1HB   .  H  0  ?  ?  ?  0  35
+PDA  2HB   .  H  0  ?  ?  ?  0  36
+PDA  3HB   .  H  0  ?  ?  ?  0  37
+PDA  HO    .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDA  N    C4A   SING  1 
+PDA  N    CA    SING  2 
+PDA  N    HN    SING  3 
+PDA  N1   C2    DOUB  4 
+PDA  N1   C6    SING  5 
+PDA  C2   C2A   SING  6 
+PDA  C2   C3    SING  7 
+PDA  C2A  1H2A  SING  8 
+PDA  C2A  2H2A  SING  9 
+PDA  C2A  3H2A  SING  10
+PDA  C3   O3A   SING  11
+PDA  C3   C4    DOUB  12
+PDA  O3A  HOA   SING  13
+PDA  C4   C4A   SING  14
+PDA  C4   C5    SING  15
+PDA  C4A  1H4A  SING  16
+PDA  C4A  2H4A  SING  17
+PDA  C5   C5A   SING  18
+PDA  C5   C6    DOUB  19
+PDA  C5A  OP4   SING  20
+PDA  C5A  1H5A  SING  21
+PDA  C5A  2H5A  SING  22
+PDA  OP4  P     SING  23
+PDA  P    OP1   DOUB  24
+PDA  P    OP2   SING  25
+PDA  P    OP3   SING  26
+PDA  OP2  HO2   SING  27
+PDA  OP3  HO3   SING  28
+PDA  C6   H6    SING  29
+PDA  CA   CB    SING  30
+PDA  CA   C     SING  31
+PDA  CA   HA    SING  32
+PDA  CB   1HB   SING  33
+PDA  CB   2HB   SING  34
+PDA  CB   3HB   SING  35
+PDA  C    O     SING  36
+PDA  C    OXT   DOUB  37
+PDA  O    HO    SING  38
+#

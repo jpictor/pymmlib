@@ -1,0 +1,90 @@
+data_CCV
+#
+_chem_comp.id                   CCV
+_chem_comp.name                 6-[3-HYDROXY-2-(HYDROXYMETHYL)PROPYL]-5-METHYL-2,4(1H,3H)-PYRIMIDINEDIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N2 O4'
+_chem_comp.pdbx_synonyms        6-(DIHYDROXY-ISOBUTYL)-THYMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CCV  N1    .  N  0  ?  ?  ?  1  1 
+CCV  O1    .  O  0  ?  ?  ?  1  2 
+CCV  O2    .  O  0  ?  ?  ?  1  3 
+CCV  N2    .  N  0  ?  ?  ?  1  4 
+CCV  C1    .  C  0  ?  ?  ?  1  5 
+CCV  C2    .  C  0  ?  ?  ?  1  6 
+CCV  C3    .  C  0  ?  ?  ?  1  7 
+CCV  C4    .  C  0  ?  ?  ?  1  8 
+CCV  C5    .  C  0  ?  ?  ?  1  9 
+CCV  C11   .  C  0  ?  ?  ?  1  10
+CCV  C12   .  C  0  ?  ?  ?  1  11
+CCV  C13   .  C  0  ?  ?  ?  1  12
+CCV  C14   .  C  0  ?  ?  ?  1  13
+CCV  O3    .  O  0  ?  ?  ?  1  14
+CCV  O4    .  O  0  ?  ?  ?  1  15
+CCV  H1    .  H  0  ?  ?  ?  1  16
+CCV  H2    .  H  0  ?  ?  ?  1  17
+CCV  3H4   .  H  0  ?  ?  ?  0  18
+CCV  2H4   .  H  0  ?  ?  ?  0  19
+CCV  1H4   .  H  0  ?  ?  ?  0  20
+CCV  2H11  .  H  0  ?  ?  ?  0  21
+CCV  1H11  .  H  0  ?  ?  ?  0  22
+CCV  H12   .  H  0  ?  ?  ?  1  23
+CCV  2H13  .  H  0  ?  ?  ?  0  24
+CCV  1H13  .  H  0  ?  ?  ?  0  25
+CCV  2H14  .  H  0  ?  ?  ?  0  26
+CCV  1H14  .  H  0  ?  ?  ?  0  27
+CCV  H3    .  H  0  ?  ?  ?  1  28
+CCV  H4    .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CCV  N1   C1    SING  1 
+CCV  N1   C5    SING  2 
+CCV  N1   H1    SING  3 
+CCV  O1   C1    DOUB  4 
+CCV  O2   C2    DOUB  5 
+CCV  N2   C1    SING  6 
+CCV  N2   C2    SING  7 
+CCV  N2   H2    SING  8 
+CCV  C2   C3    SING  9 
+CCV  C3   C4    SING  10
+CCV  C3   C5    DOUB  11
+CCV  C4   3H4   SING  12
+CCV  C4   2H4   SING  13
+CCV  C4   1H4   SING  14
+CCV  C5   C11   SING  15
+CCV  C11  C12   SING  16
+CCV  C11  2H11  SING  17
+CCV  C11  1H11  SING  18
+CCV  C12  C13   SING  19
+CCV  C12  C14   SING  20
+CCV  C12  H12   SING  21
+CCV  C13  O3    SING  22
+CCV  C13  2H13  SING  23
+CCV  C13  1H13  SING  24
+CCV  C14  O4    SING  25
+CCV  C14  2H14  SING  26
+CCV  C14  1H14  SING  27
+CCV  O3   H3    SING  28
+CCV  O4   H4    SING  29
+#

@@ -1,0 +1,68 @@
+data_HYA
+#
+_chem_comp.id                   HYA
+_chem_comp.name                 '2,3,4,N-TETRAHYDROXY-BUTYRIMIDIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.119
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HYA  C1   .  C  0  ?  ?  ?  1  1 
+HYA  C2   .  C  0  ?  ?  ?  1  2 
+HYA  C3   .  C  0  ?  ?  ?  1  3 
+HYA  C4   .  C  0  ?  ?  ?  1  4 
+HYA  N    .  N  0  ?  ?  ?  1  5 
+HYA  O1   .  O  0  ?  ?  ?  1  6 
+HYA  O2   .  O  0  ?  ?  ?  1  7 
+HYA  O3   .  O  0  ?  ?  ?  1  8 
+HYA  O4   .  O  0  ?  ?  ?  1  9 
+HYA  O    .  O  0  ?  ?  ?  1  10
+HYA  H2   .  H  0  ?  ?  ?  1  11
+HYA  H3   .  H  0  ?  ?  ?  1  12
+HYA  1H4  .  H  0  ?  ?  ?  0  13
+HYA  2H4  .  H  0  ?  ?  ?  0  14
+HYA  HO1  .  H  0  ?  ?  ?  1  15
+HYA  HO2  .  H  0  ?  ?  ?  1  16
+HYA  HO3  .  H  0  ?  ?  ?  1  17
+HYA  HO4  .  H  0  ?  ?  ?  1  18
+HYA  HO   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HYA  C1  C2   SING  1 
+HYA  C1  N    DOUB  2 
+HYA  C1  O1   SING  3 
+HYA  C2  C3   SING  4 
+HYA  C2  O2   SING  5 
+HYA  C2  H2   SING  6 
+HYA  C3  C4   SING  7 
+HYA  C3  O3   SING  8 
+HYA  C3  H3   SING  9 
+HYA  C4  O4   SING  10
+HYA  C4  1H4  SING  11
+HYA  C4  2H4  SING  12
+HYA  N   O    SING  13
+HYA  O1  HO1  SING  14
+HYA  O2  HO2  SING  15
+HYA  O3  HO3  SING  16
+HYA  O4  HO4  SING  17
+HYA  O   HO   SING  18
+#

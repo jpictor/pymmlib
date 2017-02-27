@@ -1,0 +1,55 @@
+data_3GR
+#
+_chem_comp.id                   3GR
+_chem_comp.name                 GLYCERALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 O3'
+_chem_comp.pdbx_synonyms        (2R)-2,3-DIHYDROXYPROPANAL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        90.079
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3GR  C1    .  C  0  -10.808  60.518  12.36   1  1 
+3GR  O1    .  O  0  -11.406  59.626  11.356  1  2 
+3GR  C2    .  C  0  -10.735  60.034  13.849  1  3 
+3GR  O2    .  O  0  -9.329   60.001  14.135  1  4 
+3GR  C3    .  C  0  -11.509  60.85   14.914  1  5 
+3GR  O3    .  O  0  -11.355  62.022  15.375  1  6 
+3GR  1H1C  .  H  0  -11.331  61.502  12.326  0  7 
+3GR  2H1C  .  H  0  -9.785   60.806  12.023  0  8 
+3GR  H1    .  H  0  -11.45   59.919  10.453  1  9 
+3GR  H2    .  H  0  -11.113  58.986  13.884  1  10
+3GR  HA    .  H  0  -9.285   59.708  15.038  1  11
+3GR  H3    .  H  0  ?        ?       ?       1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3GR  C1  O1    SING  1 
+3GR  C1  C2    SING  2 
+3GR  C1  1H1C  SING  3 
+3GR  C1  2H1C  SING  4 
+3GR  O1  H1    SING  5 
+3GR  C2  O2    SING  6 
+3GR  C2  C3    SING  7 
+3GR  C2  H2    SING  8 
+3GR  O2  HA    SING  9 
+3GR  C3  O3    DOUB  10
+3GR  C3  H3    SING  11
+#

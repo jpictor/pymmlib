@@ -1,0 +1,64 @@
+data_LEA
+#
+_chem_comp.id                   LEA
+_chem_comp.name                 'LEVULINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        102.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LEA  C2   .  C  0  ?  ?  ?  1  1 
+LEA  O2   .  O  0  ?  ?  ?  1  2 
+LEA  C3   .  C  0  ?  ?  ?  1  3 
+LEA  C4   .  C  0  ?  ?  ?  1  4 
+LEA  C5   .  C  0  ?  ?  ?  1  5 
+LEA  C6   .  C  0  ?  ?  ?  1  6 
+LEA  O1   .  O  0  ?  ?  ?  1  7 
+LEA  HO2  .  H  0  ?  ?  ?  1  8 
+LEA  1H3  .  H  0  ?  ?  ?  0  9 
+LEA  2H3  .  H  0  ?  ?  ?  0  10
+LEA  1H4  .  H  0  ?  ?  ?  0  11
+LEA  2H4  .  H  0  ?  ?  ?  0  12
+LEA  1H5  .  H  0  ?  ?  ?  0  13
+LEA  2H5  .  H  0  ?  ?  ?  0  14
+LEA  1H6  .  H  0  ?  ?  ?  0  15
+LEA  2H6  .  H  0  ?  ?  ?  0  16
+LEA  3H6  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LEA  C2  O2   SING  1 
+LEA  C2  C3   SING  2 
+LEA  C2  O1   DOUB  3 
+LEA  O2  HO2  SING  4 
+LEA  C3  C4   SING  5 
+LEA  C3  1H3  SING  6 
+LEA  C3  2H3  SING  7 
+LEA  C4  C5   SING  8 
+LEA  C4  1H4  SING  9 
+LEA  C4  2H4  SING  10
+LEA  C5  C6   SING  11
+LEA  C5  1H5  SING  12
+LEA  C5  2H5  SING  13
+LEA  C6  1H6  SING  14
+LEA  C6  2H6  SING  15
+LEA  C6  3H6  SING  16
+#

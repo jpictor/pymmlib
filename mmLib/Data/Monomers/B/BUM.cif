@@ -1,0 +1,82 @@
+data_BUM
+#
+_chem_comp.id                   BUM
+_chem_comp.name                 2-AMINO-N,3,3-TRIMETHYLBUTANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.216
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BUM  CG2   .  C  0  ?  ?  ?  1  1 
+BUM  CG3   .  C  0  ?  ?  ?  1  2 
+BUM  CB    .  C  0  ?  ?  ?  1  3 
+BUM  CA    .  C  0  ?  ?  ?  1  4 
+BUM  CG1   .  C  0  ?  ?  ?  1  5 
+BUM  C     .  C  0  ?  ?  ?  1  6 
+BUM  O     .  O  0  ?  ?  ?  1  7 
+BUM  N     .  N  0  ?  ?  ?  1  8 
+BUM  N2    .  N  0  ?  ?  ?  1  9 
+BUM  CN2   .  C  0  ?  ?  ?  1  10
+BUM  1HG2  .  H  0  ?  ?  ?  0  11
+BUM  2HG2  .  H  0  ?  ?  ?  0  12
+BUM  3HG2  .  H  0  ?  ?  ?  0  13
+BUM  1HG3  .  H  0  ?  ?  ?  0  14
+BUM  2HG3  .  H  0  ?  ?  ?  0  15
+BUM  3HG3  .  H  0  ?  ?  ?  0  16
+BUM  HA    .  H  0  ?  ?  ?  1  17
+BUM  1HG1  .  H  0  ?  ?  ?  0  18
+BUM  2HG1  .  H  0  ?  ?  ?  0  19
+BUM  3HG1  .  H  0  ?  ?  ?  0  20
+BUM  1HN   .  H  0  ?  ?  ?  0  21
+BUM  2HN   .  H  0  ?  ?  ?  0  22
+BUM  H2    .  H  0  ?  ?  ?  1  23
+BUM  1HN2  .  H  0  ?  ?  ?  0  24
+BUM  2HN2  .  H  0  ?  ?  ?  0  25
+BUM  3HN2  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BUM  CG2  CB    SING  1 
+BUM  CG2  1HG2  SING  2 
+BUM  CG2  2HG2  SING  3 
+BUM  CG2  3HG2  SING  4 
+BUM  CG3  CB    SING  5 
+BUM  CG3  1HG3  SING  6 
+BUM  CG3  2HG3  SING  7 
+BUM  CG3  3HG3  SING  8 
+BUM  CB   CA    SING  9 
+BUM  CB   CG1   SING  10
+BUM  CA   C     SING  11
+BUM  CA   N     SING  12
+BUM  CA   HA    SING  13
+BUM  CG1  1HG1  SING  14
+BUM  CG1  2HG1  SING  15
+BUM  CG1  3HG1  SING  16
+BUM  C    O     DOUB  17
+BUM  C    N2    SING  18
+BUM  N    1HN   SING  19
+BUM  N    2HN   SING  20
+BUM  N2   CN2   SING  21
+BUM  N2   H2    SING  22
+BUM  CN2  1HN2  SING  23
+BUM  CN2  2HN2  SING  24
+BUM  CN2  3HN2  SING  25
+#

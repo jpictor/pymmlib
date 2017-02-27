@@ -1,0 +1,114 @@
+data_EQI
+#
+_chem_comp.id                   EQI
+_chem_comp.name                 EQUILIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H20 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        268.355
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EQI  C1    .  C  0  ?  ?  ?  1  1 
+EQI  C2    .  C  0  ?  ?  ?  1  2 
+EQI  C3    .  C  0  ?  ?  ?  1  3 
+EQI  C4    .  C  0  ?  ?  ?  1  4 
+EQI  C5    .  C  0  ?  ?  ?  1  5 
+EQI  C6    .  C  0  ?  ?  ?  1  6 
+EQI  C10   .  C  0  ?  ?  ?  1  7 
+EQI  C11   .  C  0  ?  ?  ?  1  8 
+EQI  C12   .  C  0  ?  ?  ?  1  9 
+EQI  C13   .  C  0  ?  ?  ?  1  10
+EQI  C16   .  C  0  ?  ?  ?  1  11
+EQI  C17   .  C  0  ?  ?  ?  1  12
+EQI  C18   .  C  0  ?  ?  ?  1  13
+EQI  C19   .  C  0  ?  ?  ?  1  14
+EQI  C24   .  C  0  ?  ?  ?  1  15
+EQI  C25   .  C  0  ?  ?  ?  1  16
+EQI  C26   .  C  0  ?  ?  ?  1  17
+EQI  C27   .  C  0  ?  ?  ?  1  18
+EQI  O1    .  O  0  ?  ?  ?  1  19
+EQI  O26   .  O  0  ?  ?  ?  1  20
+EQI  H2    .  H  0  ?  ?  ?  1  21
+EQI  H5    .  H  0  ?  ?  ?  1  22
+EQI  H6    .  H  0  ?  ?  ?  1  23
+EQI  H10   .  H  0  ?  ?  ?  1  24
+EQI  H11   .  H  0  ?  ?  ?  1  25
+EQI  H16   .  H  0  ?  ?  ?  1  26
+EQI  1H18  .  H  0  ?  ?  ?  0  27
+EQI  2H18  .  H  0  ?  ?  ?  0  28
+EQI  1H19  .  H  0  ?  ?  ?  0  29
+EQI  2H19  .  H  0  ?  ?  ?  0  30
+EQI  1H24  .  H  0  ?  ?  ?  0  31
+EQI  2H24  .  H  0  ?  ?  ?  0  32
+EQI  1H25  .  H  0  ?  ?  ?  0  33
+EQI  2H25  .  H  0  ?  ?  ?  0  34
+EQI  1H27  .  H  0  ?  ?  ?  0  35
+EQI  2H27  .  H  0  ?  ?  ?  0  36
+EQI  3H27  .  H  0  ?  ?  ?  0  37
+EQI  HO1   .  H  0  ?  ?  ?  1  38
+EQI  2H10  .  H  0  ?  ?  ?  0  39
+EQI  1H13  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EQI  C1   C2    DOUB  1 
+EQI  C1   C6    SING  2 
+EQI  C1   O1    SING  3 
+EQI  C2   C3    SING  4 
+EQI  C2   H2    SING  5 
+EQI  C3   C4    DOUB  6 
+EQI  C3   C10   SING  7 
+EQI  C4   C5    SING  8 
+EQI  C4   C13   SING  9 
+EQI  C5   C6    DOUB  10
+EQI  C5   H5    SING  11
+EQI  C6   H6    SING  12
+EQI  C10  C11   SING  13
+EQI  C10  H10   SING  14
+EQI  C10  2H10  SING  15
+EQI  C11  C12   DOUB  16
+EQI  C11  H11   SING  17
+EQI  C12  C13   SING  18
+EQI  C12  C16   SING  19
+EQI  C13  C19   SING  20
+EQI  C13  1H13  SING  21
+EQI  C16  C17   SING  22
+EQI  C16  C24   SING  23
+EQI  C16  H16   SING  24
+EQI  C17  C18   SING  25
+EQI  C17  C26   SING  26
+EQI  C17  C27   SING  27
+EQI  C18  C19   SING  28
+EQI  C18  1H18  SING  29
+EQI  C18  2H18  SING  30
+EQI  C19  1H19  SING  31
+EQI  C19  2H19  SING  32
+EQI  C24  C25   SING  33
+EQI  C24  1H24  SING  34
+EQI  C24  2H24  SING  35
+EQI  C25  C26   SING  36
+EQI  C25  1H25  SING  37
+EQI  C25  2H25  SING  38
+EQI  C26  O26   DOUB  39
+EQI  C27  1H27  SING  40
+EQI  C27  2H27  SING  41
+EQI  C27  3H27  SING  42
+EQI  O1   HO1   SING  43
+#

@@ -1,0 +1,93 @@
+data_LTT
+#
+_chem_comp.id                   LTT
+_chem_comp.name                 4-AMINO-1-[(2S,4S)-2-(HYDROXYMETHYL)-1,3-DIOXOLAN-4-YL]PYRIMIDIN-2(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N3 O4'
+_chem_comp.pdbx_synonyms        '(-)-L-2',3'-DIDEOXY-3'-OXACYTIDINE; TROXACITABINE; TROXATYL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        213.193
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          LTT
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1[C@H](O[C@H](O1)CO)N2C=CC(=NC2=O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+LTT  O1    .  O  0  38.761  93.941  92.307  1  N  1 
+LTT  C1    .  C  0  37.609  93.529  92.349  1  N  2 
+LTT  N2    .  N  0  37.318  92.249  92.088  1  N  3 
+LTT  C3    .  C  0  36.024  91.859  92.138  1  N  4 
+LTT  N3    .  N  0  35.727  90.572  91.900  1  N  5 
+LTT  C5    .  C  0  35.000  92.744  92.463  1  N  6 
+LTT  C7    .  C  0  35.343  94.066  92.741  1  N  7 
+LTT  N1    .  N  0  36.624  94.458  92.682  1  N  8 
+LTT  C4    .  C  0  37.048  95.843  92.926  1  N  9 
+LTT  O3    .  O  0  35.881  96.618  93.129  1  N  10
+LTT  C2    .  C  0  36.000  97.317  94.363  1  N  11
+LTT  C8    .  C  0  34.653  97.452  95.069  1  N  12
+LTT  O4    .  O  0  33.708  98.060  94.165  1  N  13
+LTT  O2    .  O  0  36.974  96.628  95.149  1  N  14
+LTT  C6    .  C  0  37.846  95.967  94.232  1  N  15
+LTT  1HN3  .  H  0  36.563  90.059  91.708  0  N  16
+LTT  2HN3  .  H  0  34.806  90.184  91.913  0  N  17
+LTT  H5    .  H  0  33.971  92.416  92.499  1  N  18
+LTT  H7    .  H  0  34.574  94.777  93.005  1  N  19
+LTT  H4    .  H  0  37.660  96.168  92.072  1  N  20
+LTT  H2    .  H  0  36.332  98.352  94.193  1  N  21
+LTT  1H8   .  H  0  34.766  98.082  95.964  0  N  22
+LTT  2H8   .  H  0  34.291  96.458  95.372  0  N  23
+LTT  HO4   .  H  0  32.881  98.194  94.613  1  N  24
+LTT  1H6   .  H  0  38.133  94.975  94.611  0  N  25
+LTT  2H6   .  H  0  38.782  96.526  94.085  0  N  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+LTT  O1  C1    DOUB  N  1 
+LTT  C1  N2    SING  N  2 
+LTT  C1  N1    SING  N  3 
+LTT  N2  C3    DOUB  N  4 
+LTT  C3  N3    SING  N  5 
+LTT  C3  C5    SING  N  6 
+LTT  N3  1HN3  SING  N  7 
+LTT  N3  2HN3  SING  N  8 
+LTT  C5  C7    DOUB  N  9 
+LTT  C5  H5    SING  N  10
+LTT  C7  N1    SING  N  11
+LTT  C7  H7    SING  N  12
+LTT  N1  C4    SING  N  13
+LTT  C4  O3    SING  N  14
+LTT  C4  C6    SING  N  15
+LTT  C4  H4    SING  N  16
+LTT  O3  C2    SING  N  17
+LTT  C2  C8    SING  N  18
+LTT  C2  O2    SING  N  19
+LTT  C2  H2    SING  N  20
+LTT  C8  O4    SING  N  21
+LTT  C8  1H8   SING  N  22
+LTT  C8  2H8   SING  N  23
+LTT  O4  HO4   SING  N  24
+LTT  O2  C6    SING  N  25
+LTT  C6  1H6   SING  N  26
+LTT  C6  2H6   SING  N  27
+#

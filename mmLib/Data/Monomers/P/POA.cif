@@ -1,0 +1,54 @@
+data_POA
+#
+_chem_comp.id                   POA
+_chem_comp.name                 PHOSPHONOACETALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 O4 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        124.033
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+POA  C1   .  C  0  36.288  94.241  19.402  1  1 
+POA  C2   .  C  0  37.719  94.180  18.923  1  2 
+POA  O2   .  O  0  38.062  94.621  17.742  1  3 
+POA  O1P  .  O  0  36.674  91.750  20.624  1  4 
+POA  O2P  .  O  0  35.163  91.827  18.620  1  5 
+POA  O3P  .  O  0  34.359  92.748  20.828  1  6 
+POA  P    .  P  0  35.599  92.580  19.887  1  7 
+POA  H2P  .  H  0  ?       ?       ?       1  8 
+POA  H3P  .  H  0  ?       ?       ?       1  9 
+POA  1H1  .  H  0  ?       ?       ?       0  10
+POA  2H1  .  H  0  ?       ?       ?       0  11
+POA  H2   .  H  0  ?       ?       ?       1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+POA  C1   C2   SING  1 
+POA  C1   P    SING  2 
+POA  C1   1H1  SING  3 
+POA  C1   2H1  SING  4 
+POA  C2   O2   DOUB  5 
+POA  C2   H2   SING  6 
+POA  O1P  P    DOUB  7 
+POA  O2P  P    SING  8 
+POA  O2P  H2P  SING  9 
+POA  O3P  P    SING  10
+POA  O3P  H3P  SING  11
+#

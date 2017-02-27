@@ -1,0 +1,60 @@
+data_EYS
+#
+_chem_comp.id                   EYS
+_chem_comp.name                 S-SELANYLCYSTEINAL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H8 N1 O1 S1 SE1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       185.122
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EYS  N    .  N   1  44.187  135.246  97.316  1  1 
+EYS  CA   .  C   0  43.585  135.563  98.613  1  2 
+EYS  CB   .  C   0  42.187  136.139  98.405  1  3 
+EYS  SE   .  SE  0  41.866  133.543  96.302  0  4 
+EYS  SG   .  S   0  41.011  134.898  97.777  1  5 
+EYS  C    .  C   0  43.473  134.384  99.588  1  6 
+EYS  O    .  O   0  43.351  134.599  100.79  1  7 
+EYS  3H   .  H   0  ?       ?        ?       0  8 
+EYS  2H   .  H   0  ?       ?        ?       0  9 
+EYS  1H   .  H   0  ?       ?        ?       0  10
+EYS  HA   .  H   0  ?       ?        ?       1  11
+EYS  2HB  .  H   0  ?       ?        ?       0  12
+EYS  1HB  .  H   0  ?       ?        ?       0  13
+EYS  HE   .  H   0  ?       ?        ?       1  14
+EYS  H    .  H   0  ?       ?        ?       1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EYS  N   2H   SING  1 
+EYS  N   1H   SING  2 
+EYS  N   CA   SING  3 
+EYS  N   3H   SING  4 
+EYS  CA  CB   SING  5 
+EYS  CA  C    SING  6 
+EYS  CA  HA   SING  7 
+EYS  CB  SG   SING  8 
+EYS  CB  2HB  SING  9 
+EYS  CB  1HB  SING  10
+EYS  SE  SG   SING  11
+EYS  SE  HE   SING  12
+EYS  C   O    DOUB  13
+EYS  C   H    SING  14
+#

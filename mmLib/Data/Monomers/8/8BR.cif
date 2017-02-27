@@ -1,0 +1,107 @@
+data_8BR
+#
+_chem_comp.id                   8BR
+_chem_comp.name                 8-BROMO-ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5 O7 BR1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        426.120
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+8BR  P     .  P   0  ?  ?  ?  1  1 
+8BR  O1P   .  O   0  ?  ?  ?  1  2 
+8BR  O2P   .  O   0  ?  ?  ?  1  3 
+8BR  O3P   .  O   0  ?  ?  ?  1  4 
+8BR  O5*   .  O   0  ?  ?  ?  1  5 
+8BR  C5*   .  C   0  ?  ?  ?  1  6 
+8BR  C4*   .  C   0  ?  ?  ?  1  7 
+8BR  O4*   .  O   0  ?  ?  ?  1  8 
+8BR  C3*   .  C   0  ?  ?  ?  1  9 
+8BR  O3*   .  O   0  ?  ?  ?  1  10
+8BR  C2*   .  C   0  ?  ?  ?  1  11
+8BR  O2*   .  O   0  ?  ?  ?  1  12
+8BR  C1*   .  C   0  ?  ?  ?  1  13
+8BR  N9    .  N   0  ?  ?  ?  1  14
+8BR  C8    .  C   0  ?  ?  ?  1  15
+8BR  BR8   .  BR  0  ?  ?  ?  0  16
+8BR  N7    .  N   0  ?  ?  ?  1  17
+8BR  C5    .  C   0  ?  ?  ?  1  18
+8BR  C6    .  C   0  ?  ?  ?  1  19
+8BR  N6    .  N   0  ?  ?  ?  1  20
+8BR  N1    .  N   0  ?  ?  ?  1  21
+8BR  C2    .  C   0  ?  ?  ?  1  22
+8BR  N3    .  N   0  ?  ?  ?  1  23
+8BR  C4    .  C   0  ?  ?  ?  1  24
+8BR  2HOP  .  H   0  ?  ?  ?  0  25
+8BR  3HOP  .  H   0  ?  ?  ?  0  26
+8BR  1H5*  .  H   0  ?  ?  ?  0  27
+8BR  2H5*  .  H   0  ?  ?  ?  0  28
+8BR  H4*   .  H   0  ?  ?  ?  1  29
+8BR  H3*   .  H   0  ?  ?  ?  1  30
+8BR  *HO3  .  H   0  ?  ?  ?  0  31
+8BR  H2*   .  H   0  ?  ?  ?  1  32
+8BR  *HO2  .  H   0  ?  ?  ?  0  33
+8BR  H1*   .  H   0  ?  ?  ?  1  34
+8BR  H2    .  H   0  ?  ?  ?  1  35
+8BR  1HN6  .  H   0  ?  ?  ?  0  36
+8BR  2HN6  .  H   0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+8BR  P    O1P   DOUB  1 
+8BR  P    O2P   SING  2 
+8BR  P    O3P   SING  3 
+8BR  P    O5*   SING  4 
+8BR  O2P  2HOP  SING  5 
+8BR  O3P  3HOP  SING  6 
+8BR  O5*  C5*   SING  7 
+8BR  C5*  C4*   SING  8 
+8BR  C5*  1H5*  SING  9 
+8BR  C5*  2H5*  SING  10
+8BR  C4*  O4*   SING  11
+8BR  C4*  C3*   SING  12
+8BR  C4*  H4*   SING  13
+8BR  O4*  C1*   SING  14
+8BR  C3*  O3*   SING  15
+8BR  C3*  C2*   SING  16
+8BR  C3*  H3*   SING  17
+8BR  O3*  *HO3  SING  18
+8BR  C2*  O2*   SING  19
+8BR  C2*  C1*   SING  20
+8BR  C2*  H2*   SING  21
+8BR  O2*  *HO2  SING  22
+8BR  C1*  N9    SING  23
+8BR  C1*  H1*   SING  24
+8BR  N9   C8    SING  25
+8BR  N9   C4    SING  26
+8BR  C8   N7    DOUB  27
+8BR  C8   BR8   SING  28
+8BR  N7   C5    SING  29
+8BR  C5   C6    SING  30
+8BR  C5   C4    DOUB  31
+8BR  C6   N6    SING  32
+8BR  C6   N1    DOUB  33
+8BR  N6   1HN6  SING  34
+8BR  N6   2HN6  SING  35
+8BR  N1   C2    SING  36
+8BR  C2   N3    DOUB  37
+8BR  C2   H2    SING  38
+8BR  N3   C4    SING  39
+#

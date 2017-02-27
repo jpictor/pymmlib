@@ -1,0 +1,116 @@
+data_MTQ
+#
+_chem_comp.id                   MTQ
+_chem_comp.name                 (MOLYBDOPTERIN-S,S)-DIOXO-THIO-MOLYBDENUM(V)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5 O8 MO1 P1 S3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        554.335
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTQ  N1    .  N   0  ?  ?  ?  1  1 
+MTQ  C2    .  C   0  ?  ?  ?  1  2 
+MTQ  N2    .  N   0  ?  ?  ?  1  3 
+MTQ  N3    .  N   0  ?  ?  ?  1  4 
+MTQ  C4    .  C   0  ?  ?  ?  1  5 
+MTQ  O4    .  O   0  ?  ?  ?  1  6 
+MTQ  N5    .  N   0  ?  ?  ?  1  7 
+MTQ  C6    .  C   0  ?  ?  ?  1  8 
+MTQ  C7    .  C   0  ?  ?  ?  1  9 
+MTQ  N8    .  N   0  ?  ?  ?  1  10
+MTQ  C9    .  C   0  ?  ?  ?  1  11
+MTQ  C10   .  C   0  ?  ?  ?  1  12
+MTQ  C1'   .  C   0  ?  ?  ?  1  13
+MTQ  S1'   .  S   0  ?  ?  ?  1  14
+MTQ  C2'   .  C   0  ?  ?  ?  1  15
+MTQ  S2'   .  S   0  ?  ?  ?  1  16
+MTQ  C3'   .  C   0  ?  ?  ?  1  17
+MTQ  O3'   .  O   0  ?  ?  ?  1  18
+MTQ  C4'   .  C   0  ?  ?  ?  1  19
+MTQ  O4'   .  O   0  ?  ?  ?  1  20
+MTQ  P     .  P   0  ?  ?  ?  1  21
+MTQ  O1P   .  O   0  ?  ?  ?  1  22
+MTQ  O2P   .  O   0  ?  ?  ?  1  23
+MTQ  O3P   .  O   0  ?  ?  ?  1  24
+MTQ  MOM1  .  MO  0  ?  ?  ?  0  25
+MTQ  SM1   .  S   0  ?  ?  ?  1  26
+MTQ  OM1   .  O   0  ?  ?  ?  1  27
+MTQ  OM2   .  O   0  ?  ?  ?  1  28
+MTQ  1HN2  .  H   0  ?  ?  ?  0  29
+MTQ  2HN2  .  H   0  ?  ?  ?  0  30
+MTQ  HN3   .  H   0  ?  ?  ?  1  31
+MTQ  HN5   .  H   0  ?  ?  ?  1  32
+MTQ  H6    .  H   0  ?  ?  ?  1  33
+MTQ  H7    .  H   0  ?  ?  ?  1  34
+MTQ  HN8   .  H   0  ?  ?  ?  1  35
+MTQ  H3'   .  H   0  ?  ?  ?  1  36
+MTQ  1H4'  .  H   0  ?  ?  ?  0  37
+MTQ  2H4'  .  H   0  ?  ?  ?  0  38
+MTQ  2HOP  .  H   0  ?  ?  ?  0  39
+MTQ  3HOP  .  H   0  ?  ?  ?  0  40
+MTQ  HSM1  .  H   0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTQ  N1    C2    DOUB  1 
+MTQ  N1    C10   SING  2 
+MTQ  C2    N2    SING  3 
+MTQ  C2    N3    SING  4 
+MTQ  N2    1HN2  SING  5 
+MTQ  N2    2HN2  SING  6 
+MTQ  N3    C4    SING  7 
+MTQ  N3    HN3   SING  8 
+MTQ  C4    O4    DOUB  9 
+MTQ  C4    C9    SING  10
+MTQ  N5    C6    SING  11
+MTQ  N5    C9    SING  12
+MTQ  N5    HN5   SING  13
+MTQ  C6    C7    SING  14
+MTQ  C6    C1'   SING  15
+MTQ  C6    H6    SING  16
+MTQ  C7    N8    SING  17
+MTQ  C7    O3'   SING  18
+MTQ  C7    H7    SING  19
+MTQ  N8    C10   SING  20
+MTQ  N8    HN8   SING  21
+MTQ  C9    C10   DOUB  22
+MTQ  C1'   C2'   DOUB  23
+MTQ  C1'   S1'   SING  24
+MTQ  S1'   MOM1  SING  25
+MTQ  C2'   C3'   SING  26
+MTQ  C2'   S2'   SING  27
+MTQ  S2'   MOM1  SING  28
+MTQ  C3'   C4'   SING  29
+MTQ  C3'   O3'   SING  30
+MTQ  C3'   H3'   SING  31
+MTQ  C4'   O4'   SING  32
+MTQ  C4'   1H4'  SING  33
+MTQ  C4'   2H4'  SING  34
+MTQ  O4'   P     SING  35
+MTQ  P     O1P   DOUB  36
+MTQ  P     O2P   SING  37
+MTQ  P     O3P   SING  38
+MTQ  O2P   2HOP  SING  39
+MTQ  O3P   3HOP  SING  40
+MTQ  MOM1  SM1   SING  41
+MTQ  MOM1  OM2   DOUB  42
+MTQ  MOM1  OM1   DOUB  43
+MTQ  SM1   HSM1  SING  44
+#

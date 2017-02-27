@@ -1,0 +1,74 @@
+data_TSD
+#
+_chem_comp.id                   TSD
+_chem_comp.name                 3-TRIMETHYLSILYL-PROPIONATE-2,2,3,3,-D4
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 O2 SI1 D4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        141.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSD  C1   .  C   0   -3.721  1.151   2.885   1  1 
+TSD  O12  .  O   -1  -3.690  0.072   3.512   1  2 
+TSD  O13  .  O   0   -4.601  2.010   3.103   1  3 
+TSD  C2   .  C   0   -2.644  1.436   1.836   1  4 
+TSD  C3   .  C   0   -3.054  0.959   0.405   1  5 
+TSD  SI4  .  SI  0   -1.801  1.157   -0.895  0  6 
+TSD  C4   .  C   0   -0.322  0.244   -0.421  1  7 
+TSD  C5   .  C   0   -2.464  0.505   -2.437  1  8 
+TSD  C6   .  C   0   -1.418  2.909   -1.075  1  9 
+TSD  1H4  .  H   0   -0.161  -0.596  -1.082  0  10
+TSD  2H4  .  H   0   -0.410  -0.135  0.586   0  11
+TSD  3H4  .  H   0   0.553   0.877   -0.466  0  12
+TSD  1H5  .  H   0   -1.679  0.374   -3.167  0  13
+TSD  2H5  .  H   0   -3.200  1.176   -2.853  0  14
+TSD  3H5  .  H   0   -2.936  -0.453  -2.276  0  15
+TSD  1H6  .  H   0   -0.664  3.062   -1.833  0  16
+TSD  2H6  .  H   0   -1.049  3.318   -0.147  0  17
+TSD  3H6  .  H   0   -2.298  3.466   -1.362  0  18
+TSD  1D3  .  D   0   -3.937  1.511   0.115   0  19
+TSD  2D3  .  D   0   -3.313  -0.087  0.471   0  20
+TSD  1D2  .  D   0   -2.463  2.501   1.809   0  21
+TSD  2D2  .  D   0   -1.738  0.924   2.125   0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSD  C1   C2   SING  1 
+TSD  C1   O12  SING  2 
+TSD  C1   O13  DOUB  3 
+TSD  C2   C3   SING  4 
+TSD  C2   1D2  SING  5 
+TSD  C2   2D2  SING  6 
+TSD  C3   SI4  SING  7 
+TSD  C3   1D3  SING  8 
+TSD  C3   2D3  SING  9 
+TSD  SI4  C4   SING  10
+TSD  SI4  C5   SING  11
+TSD  SI4  C6   SING  12
+TSD  C4   1H4  SING  13
+TSD  C4   2H4  SING  14
+TSD  C4   3H4  SING  15
+TSD  C5   1H5  SING  16
+TSD  C5   2H5  SING  17
+TSD  C5   3H5  SING  18
+TSD  C6   1H6  SING  19
+TSD  C6   2H6  SING  20
+TSD  C6   3H6  SING  21
+#

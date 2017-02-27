@@ -1,0 +1,114 @@
+data_REY
+#
+_chem_comp.id                   REY
+_chem_comp.name                 GLYCYL-L-ALPHA-AMINO-EPSILON-PIMELYL-D-ALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H21 N3 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        303.314
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+REY  C1    .  C  0   ?  ?  ?  1  1 
+REY  C2    .  C  0   ?  ?  ?  1  2 
+REY  C3    .  C  0   ?  ?  ?  1  3 
+REY  C4    .  C  0   ?  ?  ?  1  4 
+REY  C5    .  C  0   ?  ?  ?  1  5 
+REY  N1    .  N  0   ?  ?  ?  1  6 
+REY  O1    .  O  0   ?  ?  ?  1  7 
+REY  C6    .  C  0   ?  ?  ?  1  8 
+REY  C7    .  C  0   ?  ?  ?  1  9 
+REY  C8    .  C  0   ?  ?  ?  1  10
+REY  O2    .  O  0   ?  ?  ?  1  11
+REY  C9    .  C  0   ?  ?  ?  1  12
+REY  N3    .  N  0   ?  ?  ?  1  13
+REY  C10   .  C  0   ?  ?  ?  1  14
+REY  C11   .  C  0   ?  ?  ?  1  15
+REY  C12   .  C  0   ?  ?  ?  1  16
+REY  O3    .  O  0   ?  ?  ?  1  17
+REY  N4    .  N  1   ?  ?  ?  1  18
+REY  O4    .  O  0   ?  ?  ?  1  19
+REY  O5    .  O  -1  ?  ?  ?  1  20
+REY  O6    .  O  0   ?  ?  ?  1  21
+REY  HN1   .  H  0   ?  ?  ?  1  22
+REY  HN3   .  H  0   ?  ?  ?  1  23
+REY  1HN4  .  H  0   ?  ?  ?  0  24
+REY  2HN4  .  H  0   ?  ?  ?  0  25
+REY  3HN4  .  H  0   ?  ?  ?  0  26
+REY  HO2   .  H  0   ?  ?  ?  1  27
+REY  1HC1  .  H  0   ?  ?  ?  0  28
+REY  2HC1  .  H  0   ?  ?  ?  0  29
+REY  1HC2  .  H  0   ?  ?  ?  0  30
+REY  2HC2  .  H  0   ?  ?  ?  0  31
+REY  1HC3  .  H  0   ?  ?  ?  0  32
+REY  2HC3  .  H  0   ?  ?  ?  0  33
+REY  1HC4  .  H  0   ?  ?  ?  0  34
+REY  2HC4  .  H  0   ?  ?  ?  0  35
+REY  HC6   .  H  0   ?  ?  ?  1  36
+REY  1HC8  .  H  0   ?  ?  ?  0  37
+REY  2HC8  .  H  0   ?  ?  ?  0  38
+REY  3HC8  .  H  0   ?  ?  ?  0  39
+REY  HC9   .  H  0   ?  ?  ?  1  40
+REY  1H12  .  H  0   ?  ?  ?  0  41
+REY  2H12  .  H  0   ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+REY  C1   C2    SING  1 
+REY  C1   C3    SING  2 
+REY  C1   1HC1  SING  3 
+REY  C1   2HC1  SING  4 
+REY  C2   C4    SING  5 
+REY  C2   1HC2  SING  6 
+REY  C2   2HC2  SING  7 
+REY  C3   C5    SING  8 
+REY  C3   1HC3  SING  9 
+REY  C3   2HC3  SING  10
+REY  C4   C9    SING  11
+REY  C4   1HC4  SING  12
+REY  C4   2HC4  SING  13
+REY  C5   N1    SING  14
+REY  C5   O1    DOUB  15
+REY  N1   C6    SING  16
+REY  N1   HN1   SING  17
+REY  C6   C7    SING  18
+REY  C6   C8    SING  19
+REY  C6   HC6   SING  20
+REY  C7   O2    SING  21
+REY  C7   O6    DOUB  22
+REY  C8   1HC8  SING  23
+REY  C8   2HC8  SING  24
+REY  C8   3HC8  SING  25
+REY  O2   HO2   SING  26
+REY  C9   N3    SING  27
+REY  C9   C10   SING  28
+REY  C9   HC9   SING  29
+REY  N3   C11   SING  30
+REY  N3   HN3   SING  31
+REY  C10  O4    DOUB  32
+REY  C10  O5    SING  33
+REY  C11  C12   SING  34
+REY  C11  O3    DOUB  35
+REY  C12  N4    SING  36
+REY  C12  1H12  SING  37
+REY  C12  2H12  SING  38
+REY  N4   1HN4  SING  39
+REY  N4   2HN4  SING  40
+REY  N4   3HN4  SING  41
+#

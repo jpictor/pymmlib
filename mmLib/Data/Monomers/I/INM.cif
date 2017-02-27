@@ -1,0 +1,105 @@
+data_INM
+#
+_chem_comp.id                   INM
+_chem_comp.name                 '4-AMINO-6-[N-(3-METHOXYLPROPYL)-2H-THIENO[3,2-E][1,2]THIAZINE 1,1-DIOXIDE]-SULFONAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N3 O5 S3'
+_chem_comp.pdbx_synonyms        'AL-8520, [2H-THIENO[3,2-E]-1,2-THIAZINE-6-SULFONAMIDE, 4-AMINO-3,4-DIHYDRO-2-(3-METHOXYPROPYL)-, 1,1-DIOXIDE,(R)]'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        353.426
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+INM  N01   .  N  0  ?  ?  ?  1  1 
+INM  C02   .  C  0  ?  ?  ?  1  2 
+INM  S03   .  S  0  ?  ?  ?  1  3 
+INM  O04   .  O  0  ?  ?  ?  1  4 
+INM  O05   .  O  0  ?  ?  ?  1  5 
+INM  C06   .  C  0  ?  ?  ?  1  6 
+INM  N07   .  N  0  ?  ?  ?  1  7 
+INM  C08   .  C  0  ?  ?  ?  1  8 
+INM  C09   .  C  0  ?  ?  ?  1  9 
+INM  C10   .  C  0  ?  ?  ?  1  10
+INM  O11   .  O  0  ?  ?  ?  1  11
+INM  C12   .  C  0  ?  ?  ?  1  12
+INM  C13   .  C  0  ?  ?  ?  1  13
+INM  C14   .  C  0  ?  ?  ?  1  14
+INM  C15   .  C  0  ?  ?  ?  1  15
+INM  S16   .  S  0  ?  ?  ?  1  16
+INM  C17   .  C  0  ?  ?  ?  1  17
+INM  S18   .  S  0  ?  ?  ?  1  18
+INM  N19   .  N  0  ?  ?  ?  1  19
+INM  O20   .  O  0  ?  ?  ?  1  20
+INM  O21   .  O  0  ?  ?  ?  1  21
+INM  1H19  .  H  0  ?  ?  ?  0  22
+INM  2H19  .  H  0  ?  ?  ?  0  23
+INM  1H13  .  H  0  ?  ?  ?  0  24
+INM  1H7   .  H  0  ?  ?  ?  0  25
+INM  2H7   .  H  0  ?  ?  ?  0  26
+INM  1HC2  .  H  0  ?  ?  ?  0  27
+INM  1H8   .  H  0  ?  ?  ?  0  28
+INM  2H8   .  H  0  ?  ?  ?  0  29
+INM  1H9   .  H  0  ?  ?  ?  0  30
+INM  2H9   .  H  0  ?  ?  ?  0  31
+INM  1H10  .  H  0  ?  ?  ?  0  32
+INM  2H10  .  H  0  ?  ?  ?  0  33
+INM  1H12  .  H  0  ?  ?  ?  0  34
+INM  2H12  .  H  0  ?  ?  ?  0  35
+INM  3H12  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+INM  N01  C02   SING  1 
+INM  N01  S03   SING  2 
+INM  N01  C08   SING  3 
+INM  C02  C06   DOUB  4 
+INM  C02  1HC2  SING  5 
+INM  S03  O04   DOUB  6 
+INM  S03  O05   DOUB  7 
+INM  S03  C15   SING  8 
+INM  C06  N07   SING  9 
+INM  C06  C14   SING  10
+INM  N07  1H7   SING  11
+INM  N07  2H7   SING  12
+INM  C08  C09   SING  13
+INM  C08  1H8   SING  14
+INM  C08  2H8   SING  15
+INM  C09  C10   SING  16
+INM  C09  1H9   SING  17
+INM  C09  2H9   SING  18
+INM  C10  O11   SING  19
+INM  C10  1H10  SING  20
+INM  C10  2H10  SING  21
+INM  O11  C12   SING  22
+INM  C12  1H12  SING  23
+INM  C12  2H12  SING  24
+INM  C12  3H12  SING  25
+INM  C13  C14   SING  26
+INM  C13  C17   DOUB  27
+INM  C13  1H13  SING  28
+INM  C14  C15   DOUB  29
+INM  C15  S16   SING  30
+INM  S16  C17   SING  31
+INM  C17  S18   SING  32
+INM  S18  N19   SING  33
+INM  S18  O20   DOUB  34
+INM  S18  O21   DOUB  35
+INM  N19  1H19  SING  36
+INM  N19  2H19  SING  37
+#

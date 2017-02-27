@@ -1,0 +1,77 @@
+data_EMT
+#
+_chem_comp.id                   EMT
+_chem_comp.name                 '2-(ETHYLMERCURI-THIO)-BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 O2 HG1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        382.827
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EMT  SD   .  S   0  1.997  0.877  13.728  1  1 
+EMT  HG   .  HG  0  1.228  3.040  14.200  0  2 
+EMT  C1   .  C   0  ?      ?      ?       1  3 
+EMT  C2   .  C   0  ?      ?      ?       1  4 
+EMT  CE1  .  C   0  3.739  1.007  13.590  1  5 
+EMT  CD1  .  C   0  4.506  0.366  14.562  1  6 
+EMT  CG1  .  C   0  5.909  0.460  14.371  1  7 
+EMT  CD2  .  C   0  6.464  1.211  13.348  1  8 
+EMT  CE2  .  C   0  5.726  1.849  12.420  1  9 
+EMT  CZ   .  C   0  4.375  1.790  12.540  1  10
+EMT  CG   .  C   0  3.585  2.467  11.562  1  11
+EMT  OD2  .  O   0  3.757  2.662  10.534  1  12
+EMT  OD1  .  O   0  2.594  2.922  11.642  1  13
+EMT  HD1  .  H   0  ?      ?      ?       1  14
+EMT  HD2  .  H   0  ?      ?      ?       1  15
+EMT  HG1  .  H   0  ?      ?      ?       1  16
+EMT  HE2  .  H   0  ?      ?      ?       1  17
+EMT  HO   .  H   0  ?      ?      ?       1  18
+EMT  1H1  .  H   0  ?      ?      ?       0  19
+EMT  2H1  .  H   0  ?      ?      ?       0  20
+EMT  1H2  .  H   0  ?      ?      ?       0  21
+EMT  2H2  .  H   0  ?      ?      ?       0  22
+EMT  3H2  .  H   0  ?      ?      ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EMT  SD   CE1  SING  1 
+EMT  SD   HG   SING  2 
+EMT  HG   C1   SING  3 
+EMT  C1   1H1  SING  4 
+EMT  C1   2H1  SING  5 
+EMT  C1   C2   SING  6 
+EMT  C2   1H2  SING  7 
+EMT  C2   2H2  SING  8 
+EMT  C2   3H2  SING  9 
+EMT  CE1  CD1  AROM  10
+EMT  CE1  CZ   AROM  11
+EMT  CD1  CG1  AROM  12
+EMT  CD1  HD1  SING  13
+EMT  CG1  CD2  AROM  14
+EMT  CG1  HG1  SING  15
+EMT  CD2  CE2  AROM  16
+EMT  CD2  HD2  SING  17
+EMT  CE2  CZ   AROM  18
+EMT  CE2  HE2  SING  19
+EMT  CZ   CG   SING  20
+EMT  CG   OD2  SING  21
+EMT  CG   OD1  DOUB  22
+EMT  OD2  HO   SING  23
+#

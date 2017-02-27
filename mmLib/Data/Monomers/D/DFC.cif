@@ -1,0 +1,101 @@
+data_DFC
+#
+_chem_comp.id                       DFC
+_chem_comp.name                     '2'-DEOXY-L-RIBO-FURANOSYL CYTOSINE-5'-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H14 N3 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            307.199
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFC  O3P   .  O  0  ?  ?  ?  1  1 
+DFC  P     .  P  0  ?  ?  ?  1  2 
+DFC  O1P   .  O  0  ?  ?  ?  1  3 
+DFC  O2P   .  O  0  ?  ?  ?  1  4 
+DFC  O5*   .  O  0  ?  ?  ?  1  5 
+DFC  C5*   .  C  0  ?  ?  ?  1  6 
+DFC  C4*   .  C  0  ?  ?  ?  1  7 
+DFC  O4*   .  O  0  ?  ?  ?  1  8 
+DFC  C3*   .  C  0  ?  ?  ?  1  9 
+DFC  O3*   .  O  0  ?  ?  ?  1  10
+DFC  C2*   .  C  0  ?  ?  ?  1  11
+DFC  C1*   .  C  0  ?  ?  ?  1  12
+DFC  N1    .  N  0  ?  ?  ?  1  13
+DFC  C2    .  C  0  ?  ?  ?  1  14
+DFC  O2    .  O  0  ?  ?  ?  1  15
+DFC  N3    .  N  0  ?  ?  ?  1  16
+DFC  C4    .  C  0  ?  ?  ?  1  17
+DFC  N4    .  N  0  ?  ?  ?  1  18
+DFC  C5    .  C  0  ?  ?  ?  1  19
+DFC  C6    .  C  0  ?  ?  ?  1  20
+DFC  3HOP  .  H  0  ?  ?  ?  0  21
+DFC  2HOP  .  H  0  ?  ?  ?  0  22
+DFC  1H5*  .  H  0  ?  ?  ?  0  23
+DFC  2H5*  .  H  0  ?  ?  ?  0  24
+DFC  H4*   .  H  0  ?  ?  ?  1  25
+DFC  H3*   .  H  0  ?  ?  ?  1  26
+DFC  1H2*  .  H  0  ?  ?  ?  0  27
+DFC  2H2*  .  H  0  ?  ?  ?  0  28
+DFC  H1*   .  H  0  ?  ?  ?  1  29
+DFC  1H4   .  H  0  ?  ?  ?  0  30
+DFC  2H4   .  H  0  ?  ?  ?  0  31
+DFC  H5    .  H  0  ?  ?  ?  1  32
+DFC  H6    .  H  0  ?  ?  ?  1  33
+DFC  H3T   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFC  O3P  P     SING  1 
+DFC  O3P  3HOP  SING  2 
+DFC  P    O1P   DOUB  3 
+DFC  P    O2P   SING  4 
+DFC  P    O5*   SING  5 
+DFC  O2P  2HOP  SING  6 
+DFC  O5*  C5*   SING  7 
+DFC  C5*  C4*   SING  8 
+DFC  C5*  1H5*  SING  9 
+DFC  C5*  2H5*  SING  10
+DFC  C4*  O4*   SING  11
+DFC  C4*  C3*   SING  12
+DFC  C4*  H4*   SING  13
+DFC  O4*  C1*   SING  14
+DFC  C3*  O3*   SING  15
+DFC  C3*  C2*   SING  16
+DFC  C3*  H3*   SING  17
+DFC  O3*  H3T   SING  18
+DFC  C2*  2H2*  SING  19
+DFC  C2*  C1*   SING  20
+DFC  C2*  1H2*  SING  21
+DFC  C1*  N1    SING  22
+DFC  C1*  H1*   SING  23
+DFC  N1   C2    SING  24
+DFC  N1   C6    SING  25
+DFC  C2   O2    DOUB  26
+DFC  C2   N3    SING  27
+DFC  N3   C4    DOUB  28
+DFC  C4   N4    SING  29
+DFC  C4   C5    SING  30
+DFC  N4   1H4   SING  31
+DFC  N4   2H4   SING  32
+DFC  C5   C6    DOUB  33
+DFC  C5   H5    SING  34
+DFC  C6   H6    SING  35
+#

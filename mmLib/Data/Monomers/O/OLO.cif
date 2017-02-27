@@ -1,0 +1,113 @@
+data_OLO
+#
+_chem_comp.id                   OLO
+_chem_comp.name                 OLOMOUCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N6 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OLO  N    .  N  0  ?  ?  ?  1  1 
+OLO  C    .  C  0  ?  ?  ?  1  2 
+OLO  N1   .  N  0  ?  ?  ?  1  3 
+OLO  C3A  .  C  0  ?  ?  ?  1  4 
+OLO  C7A  .  C  0  ?  ?  ?  1  5 
+OLO  C1   .  C  0  ?  ?  ?  1  6 
+OLO  N2   .  N  0  ?  ?  ?  1  7 
+OLO  C2   .  C  0  ?  ?  ?  1  8 
+OLO  N3   .  N  0  ?  ?  ?  1  9 
+OLO  C3   .  C  0  ?  ?  ?  1  10
+OLO  N4   .  N  0  ?  ?  ?  1  11
+OLO  C4   .  C  0  ?  ?  ?  1  12
+OLO  C5   .  C  0  ?  ?  ?  1  13
+OLO  O    .  O  0  ?  ?  ?  1  14
+OLO  N5   .  N  0  ?  ?  ?  1  15
+OLO  C6   .  C  0  ?  ?  ?  1  16
+OLO  C7   .  C  0  ?  ?  ?  1  17
+OLO  C8   .  C  0  ?  ?  ?  1  18
+OLO  C9   .  C  0  ?  ?  ?  1  19
+OLO  C10  .  C  0  ?  ?  ?  1  20
+OLO  C11  .  C  0  ?  ?  ?  1  21
+OLO  C12  .  C  0  ?  ?  ?  1  22
+OLO  H    .  H  0  ?  ?  ?  1  23
+OLO  1H3  .  H  0  ?  ?  ?  0  24
+OLO  2H3  .  H  0  ?  ?  ?  0  25
+OLO  3H3  .  H  0  ?  ?  ?  0  26
+OLO  HN4  .  H  0  ?  ?  ?  1  27
+OLO  1H4  .  H  0  ?  ?  ?  0  28
+OLO  2H4  .  H  0  ?  ?  ?  0  29
+OLO  1H5  .  H  0  ?  ?  ?  0  30
+OLO  2H5  .  H  0  ?  ?  ?  0  31
+OLO  HO   .  H  0  ?  ?  ?  1  32
+OLO  HN5  .  H  0  ?  ?  ?  1  33
+OLO  1H6  .  H  0  ?  ?  ?  0  34
+OLO  2H6  .  H  0  ?  ?  ?  0  35
+OLO  H7   .  H  0  ?  ?  ?  1  36
+OLO  H8   .  H  0  ?  ?  ?  1  37
+OLO  H9   .  H  0  ?  ?  ?  1  38
+OLO  H10  .  H  0  ?  ?  ?  1  39
+OLO  H11  .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OLO  N    C    SING  1 
+OLO  N    C7A  SING  2 
+OLO  N    C3   SING  3 
+OLO  C    N1   DOUB  4 
+OLO  C    H    SING  5 
+OLO  N1   C3A  SING  6 
+OLO  C3A  C7A  DOUB  7 
+OLO  C3A  C1   SING  8 
+OLO  C7A  N3   SING  9 
+OLO  C1   N2   DOUB  10
+OLO  C1   N5   SING  11
+OLO  N2   C2   SING  12
+OLO  C2   N3   DOUB  13
+OLO  C2   N4   SING  14
+OLO  C3   1H3  SING  15
+OLO  C3   2H3  SING  16
+OLO  C3   3H3  SING  17
+OLO  N4   C4   SING  18
+OLO  N4   HN4  SING  19
+OLO  C4   C5   SING  20
+OLO  C4   1H4  SING  21
+OLO  C4   2H4  SING  22
+OLO  C5   O    SING  23
+OLO  C5   1H5  SING  24
+OLO  C5   2H5  SING  25
+OLO  O    HO   SING  26
+OLO  N5   C6   SING  27
+OLO  N5   HN5  SING  28
+OLO  C6   C12  SING  29
+OLO  C6   1H6  SING  30
+OLO  C6   2H6  SING  31
+OLO  C7   C8   DOUB  32
+OLO  C7   C12  SING  33
+OLO  C7   H7   SING  34
+OLO  C8   C9   SING  35
+OLO  C8   H8   SING  36
+OLO  C9   C10  DOUB  37
+OLO  C9   H9   SING  38
+OLO  C10  C11  SING  39
+OLO  C10  H10  SING  40
+OLO  C11  C12  DOUB  41
+OLO  C11  H11  SING  42
+#

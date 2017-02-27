@@ -1,0 +1,61 @@
+data_ORO
+#
+_chem_comp.id                   ORO
+_chem_comp.name                 'OROTIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.098
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ORO  N1   .  N  0  ?  ?  ?  1  1 
+ORO  C2   .  C  0  ?  ?  ?  1  2 
+ORO  O2   .  O  0  ?  ?  ?  1  3 
+ORO  N3   .  N  0  ?  ?  ?  1  4 
+ORO  C4   .  C  0  ?  ?  ?  1  5 
+ORO  O4   .  O  0  ?  ?  ?  1  6 
+ORO  C5   .  C  0  ?  ?  ?  1  7 
+ORO  C6   .  C  0  ?  ?  ?  1  8 
+ORO  C7   .  C  0  ?  ?  ?  1  9 
+ORO  O71  .  O  0  ?  ?  ?  1  10
+ORO  O72  .  O  0  ?  ?  ?  1  11
+ORO  HN1  .  H  0  ?  ?  ?  1  12
+ORO  HN3  .  H  0  ?  ?  ?  1  13
+ORO  H5   .  H  0  ?  ?  ?  1  14
+ORO  HO7  .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ORO  N1   C2   SING  1 
+ORO  N1   C6   SING  2 
+ORO  N1   HN1  SING  3 
+ORO  C2   N3   SING  4 
+ORO  C2   O2   DOUB  5 
+ORO  N3   C4   SING  6 
+ORO  N3   HN3  SING  7 
+ORO  C4   C5   SING  8 
+ORO  C4   O4   DOUB  9 
+ORO  C5   C6   DOUB  10
+ORO  C5   H5   SING  11
+ORO  C6   C7   SING  12
+ORO  C7   O71  DOUB  13
+ORO  C7   O72  SING  14
+ORO  O72  HO7  SING  15
+#

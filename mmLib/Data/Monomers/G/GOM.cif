@@ -1,0 +1,139 @@
+data_GOM
+#
+_chem_comp.id                   GOM
+_chem_comp.name                 GLUTAMOL-AMP
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C15 H22 N6 O9 P1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       461.347
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GOM  N     .  N  1   40.645  82.262  52.670  1  1 
+GOM  C     .  C  0   38.660  80.829  52.998  1  2 
+GOM  CA    .  C  0   39.187  82.229  52.651  1  3 
+GOM  CB    .  C  0   38.685  82.645  51.267  1  4 
+GOM  CG    .  C  0   37.176  82.614  51.111  1  5 
+GOM  CD    .  C  0   36.725  83.107  49.755  1  6 
+GOM  OE1   .  O  0   36.693  84.339  49.530  1  7 
+GOM  OE2   .  O  -1  36.412  82.249  48.911  1  8 
+GOM  P     .  P  0   39.243  78.703  54.436  1  9 
+GOM  O1P   .  O  0   40.422  77.871  54.077  1  10
+GOM  O2P   .  O  -1  38.806  78.778  55.863  1  11
+GOM  O3P   .  O  0   39.539  80.182  53.914  1  12
+GOM  O5*   .  O  0   37.976  78.228  53.594  1  13
+GOM  C5*   .  C  0   38.116  77.541  52.355  1  14
+GOM  C4*   .  C  0   36.762  77.392  51.671  1  15
+GOM  O4*   .  O  0   35.940  76.453  52.425  1  16
+GOM  C1*   .  C  0   34.838  77.126  53.004  1  17
+GOM  N9    .  N  0   34.546  76.608  54.343  1  18
+GOM  C4    .  C  0   33.456  75.821  54.625  1  19
+GOM  N3    .  N  0   32.537  75.364  53.752  1  20
+GOM  C2    .  C  0   31.604  74.655  54.382  1  21
+GOM  N1    .  N  0   31.493  74.374  55.687  1  22
+GOM  C6    .  C  0   32.436  74.848  56.535  1  23
+GOM  N6    .  N  0   32.316  74.574  57.832  1  24
+GOM  C5    .  C  0   33.484  75.610  55.991  1  25
+GOM  N7    .  N  0   34.589  76.227  56.561  1  26
+GOM  C8    .  C  0   35.192  76.796  55.542  1  27
+GOM  C2*   .  C  0   34.985  78.637  52.818  1  28
+GOM  O2*   .  O  0   33.728  79.164  52.448  1  29
+GOM  C3*   .  C  0   35.980  78.710  51.662  1  30
+GOM  O3*   .  O  0   35.519  79.196  50.400  1  31
+GOM  1HN6  .  H  0   ?       ?       ?       0  32
+GOM  2HN6  .  H  0   ?       ?       ?       0  33
+GOM  H2    .  H  0   ?       ?       ?       1  34
+GOM  H8    .  H  0   ?       ?       ?       1  35
+GOM  H1*   .  H  0   ?       ?       ?       1  36
+GOM  H2*   .  H  0   ?       ?       ?       1  37
+GOM  *HO2  .  H  0   ?       ?       ?       0  38
+GOM  H3*   .  H  0   ?       ?       ?       1  39
+GOM  *HO3  .  H  0   ?       ?       ?       0  40
+GOM  1H5*  .  H  0   ?       ?       ?       0  41
+GOM  2H5*  .  H  0   ?       ?       ?       0  42
+GOM  HA    .  H  0   ?       ?       ?       1  43
+GOM  HN2   .  H  0   ?       ?       ?       1  44
+GOM  HN3   .  H  0   ?       ?       ?       1  45
+GOM  1HB   .  H  0   ?       ?       ?       0  46
+GOM  2HB   .  H  0   ?       ?       ?       0  47
+GOM  1HG   .  H  0   ?       ?       ?       0  48
+GOM  2HG   .  H  0   ?       ?       ?       0  49
+GOM  H4*   .  H  0   ?       ?       ?       1  50
+GOM  1HC   .  H  0   ?       ?       ?       0  51
+GOM  2HC   .  H  0   ?       ?       ?       0  52
+GOM  H     .  H  0   ?       ?       ?       1  53
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GOM  N    CA    SING  1 
+GOM  N    HN2   SING  2 
+GOM  N    HN3   SING  3 
+GOM  N    H     SING  4 
+GOM  C    CA    SING  5 
+GOM  C    O3P   SING  6 
+GOM  C    1HC   SING  7 
+GOM  C    2HC   SING  8 
+GOM  CA   CB    SING  9 
+GOM  CA   HA    SING  10
+GOM  CB   CG    SING  11
+GOM  CB   1HB   SING  12
+GOM  CB   2HB   SING  13
+GOM  CG   CD    SING  14
+GOM  CG   1HG   SING  15
+GOM  CG   2HG   SING  16
+GOM  CD   OE1   DOUB  17
+GOM  CD   OE2   SING  18
+GOM  P    O1P   DOUB  19
+GOM  P    O2P   SING  20
+GOM  P    O3P   SING  21
+GOM  P    O5*   SING  22
+GOM  O5*  C5*   SING  23
+GOM  C5*  C4*   SING  24
+GOM  C5*  1H5*  SING  25
+GOM  C5*  2H5*  SING  26
+GOM  C4*  O4*   SING  27
+GOM  C4*  C3*   SING  28
+GOM  C4*  H4*   SING  29
+GOM  O4*  C1*   SING  30
+GOM  C1*  N9    SING  31
+GOM  C1*  C2*   SING  32
+GOM  C1*  H1*   SING  33
+GOM  N9   C4    AROM  34
+GOM  N9   C8    AROM  35
+GOM  C4   N3    AROM  36
+GOM  C4   C5    AROM  37
+GOM  N3   C2    AROM  38
+GOM  C2   N1    AROM  39
+GOM  C2   H2    SING  40
+GOM  N1   C6    AROM  41
+GOM  C6   N6    SING  42
+GOM  C6   C5    AROM  43
+GOM  N6   1HN6  SING  44
+GOM  N6   2HN6  SING  45
+GOM  C5   N7    AROM  46
+GOM  N7   C8    AROM  47
+GOM  C8   H8    SING  48
+GOM  C2*  O2*   SING  49
+GOM  C2*  C3*   SING  50
+GOM  C2*  H2*   SING  51
+GOM  O2*  *HO2  SING  52
+GOM  C3*  O3*   SING  53
+GOM  C3*  H3*   SING  54
+GOM  O3*  *HO3  SING  55
+#

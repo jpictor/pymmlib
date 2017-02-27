@@ -1,0 +1,64 @@
+data_URN
+#
+_chem_comp.id                   URN
+_chem_comp.name                 5,6-DIAMINOPYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 N4 O2'
+_chem_comp.pdbx_synonyms        5,6-DIAMINOURACIL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        142.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+URN  O4    .  O  0  59.232  -15.508  10.651  1  1 
+URN  C4    .  C  0  59.685  -15.156  9.578   1  2 
+URN  N3    .  N  0  60.491  -15.993  8.818   1  3 
+URN  C5    .  C  0  59.311  -13.768  9.167   1  4 
+URN  N5    .  N  0  58.500  -12.928  9.949   1  5 
+URN  C6    .  C  0  59.831  -13.368  7.816   1  6 
+URN  N6    .  N  0  59.561  -12.138  7.301   1  7 
+URN  N1    .  N  0  60.607  -14.267  7.116   1  8 
+URN  C2    .  C  0  60.956  -15.533  7.571   1  9 
+URN  O2    .  O  0  61.666  -16.221  6.778   1  10
+URN  1HN6  .  H  0  ?       ?        ?       0  11
+URN  2HN6  .  H  0  ?       ?        ?       0  12
+URN  1HN5  .  H  0  ?       ?        ?       0  13
+URN  2HN5  .  H  0  ?       ?        ?       0  14
+URN  HN3   .  H  0  ?       ?        ?       1  15
+URN  HN1   .  H  0  ?       ?        ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+URN  O4  C4    DOUB  1 
+URN  C4  C5    SING  2 
+URN  C4  N3    SING  3 
+URN  N3  HN3   SING  4 
+URN  N3  C2    SING  5 
+URN  C5  C6    DOUB  6 
+URN  C5  N5    SING  7 
+URN  N5  1HN5  SING  8 
+URN  N5  2HN5  SING  9 
+URN  C6  N6    SING  10
+URN  C6  N1    SING  11
+URN  N6  1HN6  SING  12
+URN  N6  2HN6  SING  13
+URN  N1  C2    SING  14
+URN  N1  HN1   SING  15
+URN  C2  O2    DOUB  16
+#

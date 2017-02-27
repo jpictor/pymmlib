@@ -1,0 +1,109 @@
+data_DCS
+#
+_chem_comp.id                   DCS
+_chem_comp.name                 D-[3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL]-N,O-CYCLOSERYLAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N3 O7 P1'
+_chem_comp.pdbx_synonyms        D-PYRIDOXYL-N,O-CYCLOSERYLAMIDE-5-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        333.237
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCS  N1    .  N  0  ?  ?  ?  1  1 
+DCS  C2    .  C  0  ?  ?  ?  1  2 
+DCS  C2A   .  C  0  ?  ?  ?  1  3 
+DCS  C3    .  C  0  ?  ?  ?  1  4 
+DCS  O3    .  O  0  ?  ?  ?  1  5 
+DCS  C4    .  C  0  ?  ?  ?  1  6 
+DCS  C4A   .  C  0  ?  ?  ?  1  7 
+DCS  C5    .  C  0  ?  ?  ?  1  8 
+DCS  C6    .  C  0  ?  ?  ?  1  9 
+DCS  C5A   .  C  0  ?  ?  ?  1  10
+DCS  O4P   .  O  0  ?  ?  ?  1  11
+DCS  P     .  P  0  ?  ?  ?  1  12
+DCS  O1P   .  O  0  ?  ?  ?  1  13
+DCS  O2P   .  O  0  ?  ?  ?  1  14
+DCS  O3P   .  O  0  ?  ?  ?  1  15
+DCS  N     .  N  0  ?  ?  ?  1  16
+DCS  CA    .  C  0  ?  ?  ?  1  17
+DCS  C     .  C  0  ?  ?  ?  1  18
+DCS  O     .  O  0  ?  ?  ?  1  19
+DCS  ND    .  N  0  ?  ?  ?  1  20
+DCS  OG    .  O  0  ?  ?  ?  1  21
+DCS  CB    .  C  0  ?  ?  ?  1  22
+DCS  1H2A  .  H  0  ?  ?  ?  0  23
+DCS  2H2A  .  H  0  ?  ?  ?  0  24
+DCS  3H2A  .  H  0  ?  ?  ?  0  25
+DCS  HO3   .  H  0  ?  ?  ?  1  26
+DCS  1H4A  .  H  0  ?  ?  ?  0  27
+DCS  2H4A  .  H  0  ?  ?  ?  0  28
+DCS  1H5A  .  H  0  ?  ?  ?  0  29
+DCS  2H5A  .  H  0  ?  ?  ?  0  30
+DCS  H6    .  H  0  ?  ?  ?  1  31
+DCS  2HOP  .  H  0  ?  ?  ?  0  32
+DCS  3HOP  .  H  0  ?  ?  ?  0  33
+DCS  HN    .  H  0  ?  ?  ?  1  34
+DCS  HA    .  H  0  ?  ?  ?  1  35
+DCS  HND   .  H  0  ?  ?  ?  1  36
+DCS  1HB   .  H  0  ?  ?  ?  0  37
+DCS  2HB   .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCS  N1   C2    DOUB  1 
+DCS  N1   C6    SING  2 
+DCS  C2   C2A   SING  3 
+DCS  C2   C3    SING  4 
+DCS  C2A  1H2A  SING  5 
+DCS  C2A  2H2A  SING  6 
+DCS  C2A  3H2A  SING  7 
+DCS  C3   O3    SING  8 
+DCS  C3   C4    DOUB  9 
+DCS  O3   HO3   SING  10
+DCS  C4   C4A   SING  11
+DCS  C4   C5    SING  12
+DCS  C4A  N     SING  13
+DCS  C4A  1H4A  SING  14
+DCS  C4A  2H4A  SING  15
+DCS  C5   C6    DOUB  16
+DCS  C5   C5A   SING  17
+DCS  C6   H6    SING  18
+DCS  C5A  O4P   SING  19
+DCS  C5A  1H5A  SING  20
+DCS  C5A  2H5A  SING  21
+DCS  O4P  P     SING  22
+DCS  P    O1P   DOUB  23
+DCS  P    O2P   SING  24
+DCS  P    O3P   SING  25
+DCS  O2P  2HOP  SING  26
+DCS  O3P  3HOP  SING  27
+DCS  N    CA    SING  28
+DCS  N    HN    SING  29
+DCS  CA   CB    SING  30
+DCS  CA   C     SING  31
+DCS  CA   HA    SING  32
+DCS  C    ND    SING  33
+DCS  C    O     DOUB  34
+DCS  ND   OG    SING  35
+DCS  ND   HND   SING  36
+DCS  OG   CB    SING  37
+DCS  CB   1HB   SING  38
+DCS  CB   2HB   SING  39
+#

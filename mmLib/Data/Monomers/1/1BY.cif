@@ -1,0 +1,97 @@
+data_1BY
+#
+_chem_comp.id                   1BY
+_chem_comp.name                 '[2-(PYRIDIN-2-YLAMINO)ETHANE-1,1-DIYL]BIS(PHOSPHONIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H12 N2 O6 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        282.129
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          1BY
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccnc(c1)NCC(P(=O)(O)O)P(=O)(O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+1BY  C5   .  C  0  16.928  19.319  41.922  1  Y  1 
+1BY  C4   .  C  0  17.879  18.284  41.500  1  Y  2 
+1BY  C6   .  C  0  15.626  19.029  41.992  1  Y  3 
+1BY  C7   .  C  0  15.190  17.685  41.606  1  Y  4 
+1BY  N2   .  N  0  16.032  16.814  41.218  1  Y  5 
+1BY  C3   .  C  0  17.456  17.060  41.144  1  Y  6 
+1BY  N1   .  N  0  18.362  16.198  40.724  1  N  7 
+1BY  C2   .  C  0  19.768  16.610  40.686  1  N  8 
+1BY  C1   .  C  0  20.683  15.433  41.073  1  N  9 
+1BY  P1   .  P  0  22.295  15.542  40.224  1  N  10
+1BY  O1   .  O  0  22.007  15.603  38.754  1  N  11
+1BY  O2   .  O  0  23.031  16.758  40.651  1  N  12
+1BY  O3   .  O  0  23.134  14.331  40.440  1  N  13
+1BY  P2   .  P  0  20.760  15.186  42.875  1  N  14
+1BY  O4   .  O  0  21.061  16.460  43.594  1  N  15
+1BY  O5   .  O  0  19.447  14.646  43.357  1  N  16
+1BY  O6   .  O  0  21.843  14.208  43.214  1  N  17
+1BY  H5   .  H  0  17.279  20.309  42.174  1  N  18
+1BY  H4   .  H  0  18.935  18.510  41.475  1  N  19
+1BY  H6   .  H  0  14.912  19.768  42.325  1  N  20
+1BY  H7   .  H  0  14.141  17.431  41.651  1  N  21
+1BY  HN1  .  H  0  18.112  15.959  39.786  1  N  22
+1BY  1H2  .  H  0  20.019  16.943  39.668  0  N  23
+1BY  2H2  .  H  0  19.919  17.431  41.403  0  N  24
+1BY  H1   .  H  0  20.234  14.500  40.702  1  N  25
+1BY  HO2  .  H  0  23.188  16.721  41.587  1  N  26
+1BY  HO3  .  H  0  23.313  13.916  39.604  1  N  27
+1BY  HO4  .  H  0  21.125  16.290  44.527  1  N  28
+1BY  HO5  .  H  0  19.478  14.532  44.300  1  N  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+1BY  C5  C4   DOUB  Y  1 
+1BY  C5  C6   SING  Y  2 
+1BY  C5  H5   SING  N  3 
+1BY  C4  C3   SING  Y  4 
+1BY  C4  H4   SING  N  5 
+1BY  C6  C7   DOUB  Y  6 
+1BY  C6  H6   SING  N  7 
+1BY  C7  N2   SING  Y  8 
+1BY  C7  H7   SING  N  9 
+1BY  N2  C3   DOUB  Y  10
+1BY  C3  N1   SING  N  11
+1BY  N1  C2   SING  N  12
+1BY  N1  HN1  SING  N  13
+1BY  C2  C1   SING  N  14
+1BY  C2  1H2  SING  N  15
+1BY  C2  2H2  SING  N  16
+1BY  C1  P1   SING  N  17
+1BY  C1  P2   SING  N  18
+1BY  C1  H1   SING  N  19
+1BY  P1  O1   DOUB  N  20
+1BY  P1  O3   SING  N  21
+1BY  P1  O2   SING  N  22
+1BY  O2  HO2  SING  N  23
+1BY  O3  HO3  SING  N  24
+1BY  P2  O6   DOUB  N  25
+1BY  P2  O5   SING  N  26
+1BY  P2  O4   SING  N  27
+1BY  O4  HO4  SING  N  28
+1BY  O5  HO5  SING  N  29
+#

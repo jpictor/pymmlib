@@ -1,0 +1,70 @@
+data_DTG
+#
+_chem_comp.id                   DTG
+_chem_comp.name                 'DES-AMINO T-BUTYL GLYCINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        116.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTG  CA   .  C  0  ?  ?  ?  1  1 
+DTG  CB   .  C  0  ?  ?  ?  1  2 
+DTG  CG1  .  C  0  ?  ?  ?  1  3 
+DTG  CG2  .  C  0  ?  ?  ?  1  4 
+DTG  CG3  .  C  0  ?  ?  ?  1  5 
+DTG  C    .  C  0  ?  ?  ?  1  6 
+DTG  O    .  O  0  ?  ?  ?  1  7 
+DTG  OXT  .  O  0  ?  ?  ?  1  8 
+DTG  1HA  .  H  0  ?  ?  ?  0  9 
+DTG  2HA  .  H  0  ?  ?  ?  0  10
+DTG  1H1  .  H  0  ?  ?  ?  0  11
+DTG  2H1  .  H  0  ?  ?  ?  0  12
+DTG  3H1  .  H  0  ?  ?  ?  0  13
+DTG  1H2  .  H  0  ?  ?  ?  0  14
+DTG  2H2  .  H  0  ?  ?  ?  0  15
+DTG  3H2  .  H  0  ?  ?  ?  0  16
+DTG  1H3  .  H  0  ?  ?  ?  0  17
+DTG  2H3  .  H  0  ?  ?  ?  0  18
+DTG  3H3  .  H  0  ?  ?  ?  0  19
+DTG  HXT  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTG  CA   CB   SING  1 
+DTG  CA   C    SING  2 
+DTG  CA   1HA  SING  3 
+DTG  CA   2HA  SING  4 
+DTG  CB   CG1  SING  5 
+DTG  CB   CG2  SING  6 
+DTG  CB   CG3  SING  7 
+DTG  CG1  1H1  SING  8 
+DTG  CG1  2H1  SING  9 
+DTG  CG1  3H1  SING  10
+DTG  CG2  1H2  SING  11
+DTG  CG2  2H2  SING  12
+DTG  CG2  3H2  SING  13
+DTG  CG3  1H3  SING  14
+DTG  CG3  2H3  SING  15
+DTG  CG3  3H3  SING  16
+DTG  C    O    DOUB  17
+DTG  C    OXT  SING  18
+DTG  OXT  HXT  SING  19
+#

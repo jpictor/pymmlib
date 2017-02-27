@@ -1,0 +1,109 @@
+data_AFA
+#
+_chem_comp.id                       AFA
+_chem_comp.name                     N-[7-METHYL-OCT-2,4-DIENOYL]ASPARAGINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H20 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  ASN
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            268.312
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AFA  N     .  N  0  ?  ?  ?  1  1 
+AFA  CA    .  C  0  ?  ?  ?  1  2 
+AFA  CB    .  C  0  ?  ?  ?  1  3 
+AFA  CG    .  C  0  ?  ?  ?  1  4 
+AFA  OD1   .  O  0  ?  ?  ?  1  5 
+AFA  ND2   .  N  0  ?  ?  ?  1  6 
+AFA  C     .  C  0  ?  ?  ?  1  7 
+AFA  O     .  O  0  ?  ?  ?  1  8 
+AFA  OXT   .  O  0  ?  ?  ?  1  9 
+AFA  C1    .  C  0  ?  ?  ?  1  10
+AFA  O1    .  O  0  ?  ?  ?  1  11
+AFA  C2    .  C  0  ?  ?  ?  1  12
+AFA  C3    .  C  0  ?  ?  ?  1  13
+AFA  C4    .  C  0  ?  ?  ?  1  14
+AFA  C5    .  C  0  ?  ?  ?  1  15
+AFA  C6    .  C  0  ?  ?  ?  1  16
+AFA  C7    .  C  0  ?  ?  ?  1  17
+AFA  C8    .  C  0  ?  ?  ?  1  18
+AFA  C9    .  C  0  ?  ?  ?  1  19
+AFA  HN    .  H  0  ?  ?  ?  1  20
+AFA  HA    .  H  0  ?  ?  ?  1  21
+AFA  1HB   .  H  0  ?  ?  ?  0  22
+AFA  2HB   .  H  0  ?  ?  ?  0  23
+AFA  1HND  .  H  0  ?  ?  ?  0  24
+AFA  2HND  .  H  0  ?  ?  ?  0  25
+AFA  HXT   .  H  0  ?  ?  ?  1  26
+AFA  H2    .  H  0  ?  ?  ?  1  27
+AFA  H3    .  H  0  ?  ?  ?  1  28
+AFA  H4    .  H  0  ?  ?  ?  1  29
+AFA  H5    .  H  0  ?  ?  ?  1  30
+AFA  1H6   .  H  0  ?  ?  ?  0  31
+AFA  2H6   .  H  0  ?  ?  ?  0  32
+AFA  H7    .  H  0  ?  ?  ?  1  33
+AFA  1H8   .  H  0  ?  ?  ?  0  34
+AFA  2H8   .  H  0  ?  ?  ?  0  35
+AFA  3H8   .  H  0  ?  ?  ?  0  36
+AFA  1H9   .  H  0  ?  ?  ?  0  37
+AFA  2H9   .  H  0  ?  ?  ?  0  38
+AFA  3H9   .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AFA  N    CA    SING  1 
+AFA  N    C1    SING  2 
+AFA  N    HN    SING  3 
+AFA  CA   CB    SING  4 
+AFA  CA   C     SING  5 
+AFA  CA   HA    SING  6 
+AFA  CB   CG    SING  7 
+AFA  CB   1HB   SING  8 
+AFA  CB   2HB   SING  9 
+AFA  CG   OD1   DOUB  10
+AFA  CG   ND2   SING  11
+AFA  ND2  1HND  SING  12
+AFA  ND2  2HND  SING  13
+AFA  C    O     DOUB  14
+AFA  C    OXT   SING  15
+AFA  OXT  HXT   SING  16
+AFA  C1   C2    SING  17
+AFA  C1   O1    DOUB  18
+AFA  C2   C3    DOUB  19
+AFA  C2   H2    SING  20
+AFA  C3   C4    SING  21
+AFA  C3   H3    SING  22
+AFA  C4   C5    DOUB  23
+AFA  C4   H4    SING  24
+AFA  C5   C6    SING  25
+AFA  C5   H5    SING  26
+AFA  C6   C7    SING  27
+AFA  C6   1H6   SING  28
+AFA  C6   2H6   SING  29
+AFA  C7   C8    SING  30
+AFA  C7   C9    SING  31
+AFA  C7   H7    SING  32
+AFA  C8   1H8   SING  33
+AFA  C8   2H8   SING  34
+AFA  C8   3H8   SING  35
+AFA  C9   1H9   SING  36
+AFA  C9   2H9   SING  37
+AFA  C9   3H9   SING  38
+#

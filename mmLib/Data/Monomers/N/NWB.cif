@@ -1,0 +1,86 @@
+data_NWB
+#
+_chem_comp.id                   NWB
+_chem_comp.name                 N,N,N-TRIMETHYL-4-OXOPENTAN-1-AMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NWB  N1    .  N  1  -.525   61.071  72.729  1  1 
+NWB  C2    .  C  0  .643    62.013  72.596  1  2 
+NWB  C3    .  C  0  .838    62.77   71.226  1  3 
+NWB  C5    .  C  0  2.316   63.125  69.569  1  4 
+NWB  O7    .  O  0  1.955   64.478  69.626  1  5 
+NWB  C6    .  C  0  3.42    62.859  68.905  1  6 
+NWB  C10   .  C  0  -.279   59.81   72.04   1  7 
+NWB  C8    .  C  0  -.574   60.684  74.115  1  8 
+NWB  C14   .  C  0  1.767   62.069  70.397  1  9 
+NWB  C9    .  C  0  -1.936  61.611  72.396  1  10
+NWB  1H2C  .  H  0  1.582   61.466  72.847  0  11
+NWB  2HA   .  H  0  .604    62.76   73.423  0  12
+NWB  1H8C  .  H  0  -1.439  59.987  74.213  0  13
+NWB  2H8C  .  H  0  -.621   61.55   74.816  0  14
+NWB  3H8C  .  H  0  .385    60.257  74.49   0  15
+NWB  1H9C  .  H  0  -2.8    60.914  72.494  0  16
+NWB  2H9C  .  H  0  -1.929  62.041  71.367  0  17
+NWB  3H9C  .  H  0  -2.131  62.523  73.006  0  18
+NWB  1H10  .  H  0  -1.143  59.113  72.138  0  19
+NWB  2H10  .  H  0  .669    59.335  72.386  0  20
+NWB  3H10  .  H  0  -.009   59.976  70.971  0  21
+NWB  1HA   .  H  0  1.138   63.833  71.378  0  22
+NWB  2HB   .  H  0  -.133   62.944  70.706  0  23
+NWB  1H14  .  H  0  1.334   61.21   69.833  0  24
+NWB  2H14  .  H  0  2.525   61.467  70.95   0  25
+NWB  H7    .  H  0  2.315   65.17   69.084  1  26
+NWB  1H6C  .  H  0  3.838   63.662  68.275  0  27
+NWB  2H6C  .  H  0  3.704   61.794  68.86   0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NWB  N1   C2    SING  1 
+NWB  N1   C10   SING  2 
+NWB  N1   C8    SING  3 
+NWB  N1   C9    SING  4 
+NWB  C2   C3    SING  5 
+NWB  C2   1H2C  SING  6 
+NWB  C2   2HA   SING  7 
+NWB  C3   C14   SING  8 
+NWB  C3   1HA   SING  9 
+NWB  C3   2HB   SING  10
+NWB  C5   O7    DOUB  11
+NWB  C5   C6    SING  12
+NWB  C5   C14   SING  13
+NWB  O7   H7    SING  14
+NWB  C6   1H6C  SING  15
+NWB  C6   2H6C  SING  16
+NWB  C10  1H10  SING  17
+NWB  C10  2H10  SING  18
+NWB  C10  3H10  SING  19
+NWB  C8   1H8C  SING  20
+NWB  C8   2H8C  SING  21
+NWB  C8   3H8C  SING  22
+NWB  C14  1H14  SING  23
+NWB  C14  2H14  SING  24
+NWB  C9   1H9C  SING  25
+NWB  C9   2H9C  SING  26
+NWB  C9   3H9C  SING  27
+#

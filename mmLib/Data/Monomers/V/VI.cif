@@ -1,0 +1,105 @@
+data_VI
+#
+_chem_comp.id                   VI
+_chem_comp.name                 '1,3-DIPHENYL-1H-PYRAZOLE-4,5-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H12 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.293
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+VI  O23   .  O  0  20.631  26.425  -1.558  1  N  1 
+VI  C18   .  C  0  19.681  25.656  -1.324  1  N  2 
+VI  O22   .  O  0  18.916  25.211  -2.209  1  N  3 
+VI  C4    .  C  0  19.339  25.209  0.044   1  N  4 
+VI  N5    .  N  0  18.870  24.041  0.489   1  N  5 
+VI  C6    .  C  0  18.748  22.915  -0.263  1  Y  6 
+VI  C11   .  C  0  19.888  22.427  -0.948  1  Y  7 
+VI  C10   .  C  0  19.893  21.277  -1.730  1  Y  8 
+VI  C9    .  C  0  18.730  20.525  -1.838  1  Y  9 
+VI  C8    .  C  0  17.577  20.939  -1.166  1  Y  10
+VI  C7    .  C  0  17.606  22.103  -0.383  1  Y  11
+VI  N1    .  N  0  18.665  23.994  1.879   1  N  12
+VI  C3    .  C  0  19.391  26.068  1.254   1  N  13
+VI  C19   .  C  0  19.846  27.471  1.291   1  N  14
+VI  O21   .  O  0  21.067  27.697  1.631   1  N  15
+VI  O20   .  O  0  19.024  28.361  0.998   1  N  16
+VI  C2    .  C  0  18.937  25.230  2.407   1  N  17
+VI  C12   .  C  0  18.821  25.559  3.854   1  Y  18
+VI  C17   .  C  0  18.944  26.879  4.323   1  Y  19
+VI  C16   .  C  0  18.872  27.109  5.698   1  Y  20
+VI  C15   .  C  0  18.660  26.031  6.597   1  Y  21
+VI  C14   .  C  0  18.538  24.720  6.126   1  Y  22
+VI  C13   .  C  0  18.623  24.486  4.752   1  Y  23
+VI  HO23  .  H  0  20.670  26.606  -2.490  0  N  24
+VI  H11   .  H  0  20.810  22.982  -0.857  1  N  25
+VI  H10   .  H  0  20.791  20.972  -2.247  1  N  26
+VI  H9    .  H  0  18.717  19.627  -2.437  1  N  27
+VI  H8    .  H  0  16.666  20.365  -1.249  1  N  28
+VI  H7    .  H  0  16.712  22.388  0.151   1  N  29
+VI  HO21  .  H  0  21.231  28.633  1.621   0  N  30
+VI  H17   .  H  0  19.091  27.698  3.634   1  N  31
+VI  H16   .  H  0  18.978  28.113  6.080   1  N  32
+VI  H15   .  H  0  18.592  26.226  7.657   1  N  33
+VI  H14   .  H  0  18.381  23.902  6.813   1  N  34
+VI  H13   .  H  0  18.537  23.478  4.373   1  N  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+VI  O23  C18   SING  N  1 
+VI  O23  HO23  SING  N  2 
+VI  C18  O22   DOUB  N  3 
+VI  C18  C4    SING  N  4 
+VI  C4   N5    SING  N  5 
+VI  C4   C3    DOUB  N  6 
+VI  N5   C6    SING  N  7 
+VI  N5   N1    SING  N  8 
+VI  C6   C11   DOUB  Y  9 
+VI  C6   C7    SING  Y  10
+VI  C11  C10   SING  Y  11
+VI  C11  H11   SING  N  12
+VI  C10  C9    DOUB  Y  13
+VI  C10  H10   SING  N  14
+VI  C9   C8    SING  Y  15
+VI  C9   H9    SING  N  16
+VI  C8   C7    DOUB  Y  17
+VI  C8   H8    SING  N  18
+VI  C7   H7    SING  N  19
+VI  N1   C2    DOUB  N  20
+VI  C3   C19   SING  N  21
+VI  C3   C2    SING  N  22
+VI  C19  O20   DOUB  N  23
+VI  C19  O21   SING  N  24
+VI  O21  HO21  SING  N  25
+VI  C2   C12   SING  N  26
+VI  C12  C17   DOUB  Y  27
+VI  C12  C13   SING  Y  28
+VI  C17  C16   SING  Y  29
+VI  C17  H17   SING  N  30
+VI  C16  C15   DOUB  Y  31
+VI  C16  H16   SING  N  32
+VI  C15  C14   SING  Y  33
+VI  C15  H15   SING  N  34
+VI  C14  C13   DOUB  Y  35
+VI  C14  H14   SING  N  36
+VI  C13  H13   SING  N  37
+#

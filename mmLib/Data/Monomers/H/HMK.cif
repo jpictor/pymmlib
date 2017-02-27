@@ -1,0 +1,103 @@
+data_HMK
+#
+_chem_comp.id                   HMK
+_chem_comp.name                 (6AR,12AR)-6H-[1,3]DIOXOLO[5,6][1]BENZOFURO[3,2-C]CHROMENE-3,6A(12AH)-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        300.267
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HMK  C1    .  C  0  102.073  73.219  32.872  1  1 
+HMK  O1    .  O  0  101.612  73.504  31.591  1  2 
+HMK  C2    .  C  0  102.281  74.559  30.907  1  3 
+HMK  C3    .  C  0  102.746  75.780  31.658  1  4 
+HMK  C4    .  C  0  102.488  75.872  33.227  1  5 
+HMK  C5    .  C  0  101.767  74.540  33.850  1  6 
+HMK  C6    .  C  0  102.534  74.507  29.461  1  7 
+HMK  C7    .  C  0  103.214  75.592  28.737  1  8 
+HMK  C8    .  C  0  103.649  76.775  29.509  1  9 
+HMK  C9    .  C  0  103.418  76.871  30.945  1  10
+HMK  O2    .  O  0  101.561  76.920  33.313  1  11
+HMK  O5    .  O  0  102.361  73.983  35.034  1  12
+HMK  O6    .  O  0  103.440  75.513  27.397  1  13
+HMK  C10   .  C  0  100.317  76.549  33.779  1  14
+HMK  C11   .  C  0  100.379  75.121  34.128  1  15
+HMK  C12   .  C  0  99.128   77.366  33.947  1  16
+HMK  C13   .  C  0  97.963   76.690  34.488  1  17
+HMK  C14   .  C  0  97.985   75.272  34.848  1  18
+HMK  C15   .  C  0  99.192   74.442  34.682  1  19
+HMK  O3    .  O  0  96.717   77.202  34.750  1  20
+HMK  C16   .  C  0  95.925   76.127  35.280  1  21
+HMK  O4    .  O  0  96.739   74.936  35.331  1  22
+HMK  HO6   .  H  0  ?        ?       ?       1  23
+HMK  H8    .  H  0  ?        ?       ?       1  24
+HMK  H9    .  H  0  ?        ?       ?       1  25
+HMK  1H1   .  H  0  ?        ?       ?       0  26
+HMK  2H1   .  H  0  ?        ?       ?       0  27
+HMK  HO5   .  H  0  ?        ?       ?       1  28
+HMK  H15   .  H  0  ?        ?       ?       1  29
+HMK  1H16  .  H  0  ?        ?       ?       0  30
+HMK  2H16  .  H  0  ?        ?       ?       0  31
+HMK  H12   .  H  0  ?        ?       ?       1  32
+HMK  H4    .  H  0  ?        ?       ?       1  33
+HMK  H6    .  H  0  ?        ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HMK  C1   O1    SING  1 
+HMK  C1   C5    SING  2 
+HMK  C1   1H1   SING  3 
+HMK  C1   2H1   SING  4 
+HMK  O1   C2    SING  5 
+HMK  C2   C3    SING  6 
+HMK  C2   C6    DOUB  7 
+HMK  C3   C9    DOUB  8 
+HMK  C3   C4    SING  9 
+HMK  C4   O2    SING  10
+HMK  C4   C5    SING  11
+HMK  C4   H4    SING  12
+HMK  C5   O5    SING  13
+HMK  C5   C11   SING  14
+HMK  C6   C7    SING  15
+HMK  C6   H6    SING  16
+HMK  C7   O6    SING  17
+HMK  C7   C8    DOUB  18
+HMK  C8   C9    SING  19
+HMK  C8   H8    SING  20
+HMK  C9   H9    SING  21
+HMK  O2   C10   SING  22
+HMK  O5   HO5   SING  23
+HMK  O6   HO6   SING  24
+HMK  C10  C12   DOUB  25
+HMK  C10  C11   SING  26
+HMK  C11  C15   DOUB  27
+HMK  C12  C13   SING  28
+HMK  C12  H12   SING  29
+HMK  C13  C14   DOUB  30
+HMK  C13  O3    SING  31
+HMK  C14  C15   SING  32
+HMK  C14  O4    SING  33
+HMK  C15  H15   SING  34
+HMK  O3   C16   SING  35
+HMK  C16  O4    SING  36
+HMK  C16  1H16  SING  37
+HMK  C16  2H16  SING  38
+#

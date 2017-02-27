@@ -1,0 +1,74 @@
+data_AHA
+#
+_chem_comp.id                   AHA
+_chem_comp.name                 '6-AMINO HEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        131.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHA  C1   .  C  0  ?  ?  ?  1  1 
+AHA  C2   .  C  0  ?  ?  ?  1  2 
+AHA  C3   .  C  0  ?  ?  ?  1  3 
+AHA  C4   .  C  0  ?  ?  ?  1  4 
+AHA  C5   .  C  0  ?  ?  ?  1  5 
+AHA  C6   .  C  0  ?  ?  ?  1  6 
+AHA  N    .  N  0  ?  ?  ?  1  7 
+AHA  O1   .  O  0  ?  ?  ?  1  8 
+AHA  O2   .  O  0  ?  ?  ?  1  9 
+AHA  1H2  .  H  0  ?  ?  ?  0  10
+AHA  2H2  .  H  0  ?  ?  ?  0  11
+AHA  1H3  .  H  0  ?  ?  ?  0  12
+AHA  2H3  .  H  0  ?  ?  ?  0  13
+AHA  1H4  .  H  0  ?  ?  ?  0  14
+AHA  2H4  .  H  0  ?  ?  ?  0  15
+AHA  1H5  .  H  0  ?  ?  ?  0  16
+AHA  2H5  .  H  0  ?  ?  ?  0  17
+AHA  1H6  .  H  0  ?  ?  ?  0  18
+AHA  2H6  .  H  0  ?  ?  ?  0  19
+AHA  1HN  .  H  0  ?  ?  ?  0  20
+AHA  2HN  .  H  0  ?  ?  ?  0  21
+AHA  HO2  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHA  C1  C2   SING  1 
+AHA  C1  O1   DOUB  2 
+AHA  C1  O2   SING  3 
+AHA  C2  C3   SING  4 
+AHA  C2  1H2  SING  5 
+AHA  C2  2H2  SING  6 
+AHA  C3  C4   SING  7 
+AHA  C3  1H3  SING  8 
+AHA  C3  2H3  SING  9 
+AHA  C4  C5   SING  10
+AHA  C4  1H4  SING  11
+AHA  C4  2H4  SING  12
+AHA  C5  C6   SING  13
+AHA  C5  1H5  SING  14
+AHA  C5  2H5  SING  15
+AHA  C6  N    SING  16
+AHA  C6  1H6  SING  17
+AHA  C6  2H6  SING  18
+AHA  N   1HN  SING  19
+AHA  N   2HN  SING  20
+AHA  O2  HO2  SING  21
+#

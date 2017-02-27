@@ -1,0 +1,123 @@
+data_KTP
+#
+_chem_comp.id                   KTP
+_chem_comp.name                 '(2-NAPHTHALEN-2-YL-1-NAPHTHALEN-1-YL-2-OXO-ETHYL)-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H17 O4 P1'
+_chem_comp.pdbx_synonyms        'BIS-NAPTHYL BETA-KETOPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        376.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KTP  P1    .  P  0  27.838  29.966  -10.009  1  1 
+KTP  O1    .  O  0  28.898  30.504  -9.128   1  2 
+KTP  O2    .  O  0  27.830  32.313  -13.331  1  3 
+KTP  C1    .  C  0  27.003  31.256  -11.126  1  4 
+KTP  C2    .  C  0  27.789  32.457  -12.165  1  5 
+KTP  O3    .  O  0  28.577  28.808  -10.853  1  6 
+KTP  O4    .  O  0  26.767  29.276  -9.032   1  7 
+KTP  C3    .  C  0  28.523  33.792  -11.894  1  8 
+KTP  C4    .  C  0  28.637  34.244  -10.564  1  9 
+KTP  C5    .  C  0  29.288  35.450  -10.251  1  10
+KTP  C6    .  C  0  29.387  35.878  -8.914   1  11
+KTP  C7    .  C  0  30.044  37.090  -8.612   1  12
+KTP  C8    .  C  0  30.606  37.889  -9.664   1  13
+KTP  C9    .  C  0  30.514  37.467  -11.022  1  14
+KTP  C10   .  C  0  29.866  36.264  -11.327  1  15
+KTP  C11   .  C  0  29.761  35.834  -12.654  1  16
+KTP  C12   .  C  0  29.099  34.613  -12.935  1  17
+KTP  C13   .  C  0  26.253  29.225  -12.580  1  18
+KTP  C14   .  C  0  25.922  30.430  -11.915  1  19
+KTP  C15   .  C  0  24.521  30.896  -11.980  1  20
+KTP  C16   .  C  0  24.101  32.097  -11.346  1  21
+KTP  C17   .  C  0  22.736  32.522  -11.428  1  22
+KTP  C18   .  C  0  21.779  31.740  -12.150  1  23
+KTP  C19   .  C  0  22.185  30.522  -12.797  1  24
+KTP  C20   .  C  0  23.531  30.095  -12.724  1  25
+KTP  C21   .  C  0  23.927  28.902  -13.361  1  26
+KTP  C22   .  C  0  25.283  28.468  -13.291  1  27
+KTP  HC6   .  H  0  ?       ?       ?        1  28
+KTP  HC7   .  H  0  ?       ?       ?        1  29
+KTP  HC8   .  H  0  ?       ?       ?        1  30
+KTP  HC9   .  H  0  ?       ?       ?        1  31
+KTP  HC11  .  H  0  ?       ?       ?        0  32
+KTP  HC12  .  H  0  ?       ?       ?        0  33
+KTP  HC4   .  H  0  ?       ?       ?        1  34
+KTP  HC1   .  H  0  ?       ?       ?        1  35
+KTP  HO3   .  H  0  ?       ?       ?        1  36
+KTP  HO4   .  H  0  ?       ?       ?        1  37
+KTP  HC13  .  H  0  ?       ?       ?        0  38
+KTP  HC22  .  H  0  ?       ?       ?        0  39
+KTP  HC21  .  H  0  ?       ?       ?        0  40
+KTP  HC19  .  H  0  ?       ?       ?        0  41
+KTP  HC18  .  H  0  ?       ?       ?        0  42
+KTP  HC17  .  H  0  ?       ?       ?        0  43
+KTP  HC16  .  H  0  ?       ?       ?        0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KTP  P1   O1    DOUB  1 
+KTP  P1   C1    SING  2 
+KTP  P1   O3    SING  3 
+KTP  P1   O4    SING  4 
+KTP  O2   C2    DOUB  5 
+KTP  C1   C14   SING  6 
+KTP  C1   C2    SING  7 
+KTP  C1   HC1   SING  8 
+KTP  C2   C3    SING  9 
+KTP  O3   HO3   SING  10
+KTP  O4   HO4   SING  11
+KTP  C3   C4    AROM  12
+KTP  C3   C12   AROM  13
+KTP  C4   C5    AROM  14
+KTP  C4   HC4   SING  15
+KTP  C5   C6    AROM  16
+KTP  C5   C10   AROM  17
+KTP  C6   C7    AROM  18
+KTP  C6   HC6   SING  19
+KTP  C7   C8    AROM  20
+KTP  C7   HC7   SING  21
+KTP  C8   C9    AROM  22
+KTP  C8   HC8   SING  23
+KTP  C9   C10   AROM  24
+KTP  C9   HC9   SING  25
+KTP  C10  C11   AROM  26
+KTP  C11  C12   AROM  27
+KTP  C11  HC11  SING  28
+KTP  C12  HC12  SING  29
+KTP  C13  C14   AROM  30
+KTP  C13  C22   AROM  31
+KTP  C13  HC13  SING  32
+KTP  C14  C15   AROM  33
+KTP  C15  C16   AROM  34
+KTP  C15  C20   AROM  35
+KTP  C16  C17   AROM  36
+KTP  C16  HC16  SING  37
+KTP  C17  C18   AROM  38
+KTP  C17  HC17  SING  39
+KTP  C18  C19   AROM  40
+KTP  C18  HC18  SING  41
+KTP  C19  C20   AROM  42
+KTP  C19  HC19  SING  43
+KTP  C20  C21   AROM  44
+KTP  C21  C22   AROM  45
+KTP  C21  HC21  SING  46
+KTP  C22  HC22  SING  47
+#

@@ -1,0 +1,48 @@
+data_NEH
+#
+_chem_comp.id                   NEH
+_chem_comp.name                 ETHANAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H6 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        44.076
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEH  N    .  N  0  -2.004  -3.030  -2.213  1  1
+NEH  CA   .  C  0  -1.908  -4.094  -1.218  1  2
+NEH  CB   .  C  0  -1.713  -5.473  -1.858  1  3
+NEH  H    .  H  0  -1.399  -2.215  -2.076  1  4
+NEH  2HA  .  H  0  -1.047  -3.892  -0.584  0  5
+NEH  3HA  .  H  0  -2.806  -4.098  -0.598  0  6
+NEH  1HB  .  H  0  -0.881  -5.450  -2.561  0  7
+NEH  2HB  .  H  0  -1.512  -6.207  -1.079  0  8
+NEH  3HB  .  H  0  -2.620  -5.781  -2.379  0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEH  N   H    SING  1
+NEH  N   CA   SING  2
+NEH  CA  2HA  SING  3
+NEH  CA  3HA  SING  4
+NEH  CA  CB   SING  5
+NEH  CB  1HB  SING  6
+NEH  CB  2HB  SING  7
+NEH  CB  3HB  SING  8
+#

@@ -1,0 +1,85 @@
+data_TRN
+#
+_chem_comp.id                       TRN
+_chem_comp.name                     NZ2-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H11 N3 O2'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            205.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRN  N    .  N  0  ?  ?  ?  1  1 
+TRN  CA   .  C  0  ?  ?  ?  1  2 
+TRN  CB   .  C  0  ?  ?  ?  1  3 
+TRN  CG   .  C  0  ?  ?  ?  1  4 
+TRN  CD1  .  C  0  ?  ?  ?  1  5 
+TRN  CD2  .  C  0  ?  ?  ?  1  6 
+TRN  NE1  .  N  0  ?  ?  ?  1  7 
+TRN  CE2  .  C  0  ?  ?  ?  1  8 
+TRN  CE3  .  C  0  ?  ?  ?  1  9 
+TRN  NZ2  .  N  0  ?  ?  ?  1  10
+TRN  CH2  .  C  0  ?  ?  ?  1  11
+TRN  CZ3  .  C  0  ?  ?  ?  1  12
+TRN  C    .  C  0  ?  ?  ?  1  13
+TRN  O    .  O  0  ?  ?  ?  1  14
+TRN  OXT  .  O  0  ?  ?  ?  1  15
+TRN  1HN  .  H  0  ?  ?  ?  0  16
+TRN  2HN  .  H  0  ?  ?  ?  0  17
+TRN  HA   .  H  0  ?  ?  ?  1  18
+TRN  1HB  .  H  0  ?  ?  ?  0  19
+TRN  2HB  .  H  0  ?  ?  ?  0  20
+TRN  HD1  .  H  0  ?  ?  ?  1  21
+TRN  HNE  .  H  0  ?  ?  ?  1  22
+TRN  HE3  .  H  0  ?  ?  ?  1  23
+TRN  HH2  .  H  0  ?  ?  ?  1  24
+TRN  HZ3  .  H  0  ?  ?  ?  1  25
+TRN  HXT  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRN  N    CA   SING  1 
+TRN  N    1HN  SING  2 
+TRN  N    2HN  SING  3 
+TRN  CA   CB   SING  4 
+TRN  CA   C    SING  5 
+TRN  CA   HA   SING  6 
+TRN  CB   CG   SING  7 
+TRN  CB   1HB  SING  8 
+TRN  CB   2HB  SING  9 
+TRN  CG   CD1  DOUB  10
+TRN  CG   CD2  SING  11
+TRN  CD1  NE1  SING  12
+TRN  CD1  HD1  SING  13
+TRN  CD2  CE2  SING  14
+TRN  CD2  CE3  DOUB  15
+TRN  NE1  CE2  SING  16
+TRN  NE1  HNE  SING  17
+TRN  CE2  NZ2  DOUB  18
+TRN  CE3  CZ3  SING  19
+TRN  CE3  HE3  SING  20
+TRN  NZ2  CH2  SING  21
+TRN  CH2  CZ3  DOUB  22
+TRN  CH2  HH2  SING  23
+TRN  CZ3  HZ3  SING  24
+TRN  C    O    DOUB  25
+TRN  C    OXT  SING  26
+TRN  OXT  HXT  SING  27
+#

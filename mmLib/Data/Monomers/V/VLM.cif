@@ -1,0 +1,70 @@
+data_VLM
+#
+_chem_comp.id                   VLM
+_chem_comp.name                 VALINYLAMINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H12 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        116.163
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VLM  N     .  N  0  ?  ?  ?  1  1 
+VLM  CA    .  C  0  ?  ?  ?  1  2 
+VLM  C     .  C  0  ?  ?  ?  1  3 
+VLM  O     .  O  0  ?  ?  ?  1  4 
+VLM  CB    .  C  0  ?  ?  ?  1  5 
+VLM  CG1   .  C  0  ?  ?  ?  1  6 
+VLM  CG2   .  C  0  ?  ?  ?  1  7 
+VLM  NT    .  N  0  ?  ?  ?  1  8 
+VLM  1HN   .  H  0  ?  ?  ?  0  9 
+VLM  2HN   .  H  0  ?  ?  ?  0  10
+VLM  HA    .  H  0  ?  ?  ?  1  11
+VLM  HB    .  H  0  ?  ?  ?  1  12
+VLM  1HG1  .  H  0  ?  ?  ?  0  13
+VLM  2HG1  .  H  0  ?  ?  ?  0  14
+VLM  3HG1  .  H  0  ?  ?  ?  0  15
+VLM  1HG2  .  H  0  ?  ?  ?  0  16
+VLM  2HG2  .  H  0  ?  ?  ?  0  17
+VLM  3HG2  .  H  0  ?  ?  ?  0  18
+VLM  1HNT  .  H  0  ?  ?  ?  0  19
+VLM  2HNT  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VLM  N    CA    SING  1 
+VLM  N    1HN   SING  2 
+VLM  N    2HN   SING  3 
+VLM  CA   C     SING  4 
+VLM  CA   CB    SING  5 
+VLM  CA   HA    SING  6 
+VLM  C    O     DOUB  7 
+VLM  C    NT    SING  8 
+VLM  CB   CG1   SING  9 
+VLM  CB   CG2   SING  10
+VLM  CB   HB    SING  11
+VLM  CG1  1HG1  SING  12
+VLM  CG1  2HG1  SING  13
+VLM  CG1  3HG1  SING  14
+VLM  CG2  1HG2  SING  15
+VLM  CG2  2HG2  SING  16
+VLM  CG2  3HG2  SING  17
+VLM  NT   1HNT  SING  18
+VLM  NT   2HNT  SING  19
+#

@@ -1,0 +1,80 @@
+data_INS
+#
+_chem_comp.id                   INS
+_chem_comp.name                 1,2,3,4,5,6-HEXAHYDROXY-CYCLOHEXANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_synonyms        MYO-INOSITOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+INS  C1   .  C  0  ?  ?  ?  1  1 
+INS  C2   .  C  0  ?  ?  ?  1  2 
+INS  C3   .  C  0  ?  ?  ?  1  3 
+INS  C4   .  C  0  ?  ?  ?  1  4 
+INS  C5   .  C  0  ?  ?  ?  1  5 
+INS  C6   .  C  0  ?  ?  ?  1  6 
+INS  O1   .  O  0  ?  ?  ?  1  7 
+INS  O2   .  O  0  ?  ?  ?  1  8 
+INS  O3   .  O  0  ?  ?  ?  1  9 
+INS  O4   .  O  0  ?  ?  ?  1  10
+INS  O5   .  O  0  ?  ?  ?  1  11
+INS  O6   .  O  0  ?  ?  ?  1  12
+INS  H1   .  H  0  ?  ?  ?  1  13
+INS  H2   .  H  0  ?  ?  ?  1  14
+INS  H3   .  H  0  ?  ?  ?  1  15
+INS  H4   .  H  0  ?  ?  ?  1  16
+INS  H5   .  H  0  ?  ?  ?  1  17
+INS  H6   .  H  0  ?  ?  ?  1  18
+INS  HO1  .  H  0  ?  ?  ?  1  19
+INS  HO2  .  H  0  ?  ?  ?  1  20
+INS  HO3  .  H  0  ?  ?  ?  1  21
+INS  HO4  .  H  0  ?  ?  ?  1  22
+INS  HO5  .  H  0  ?  ?  ?  1  23
+INS  HO6  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+INS  C1  C2   SING  1 
+INS  C1  C6   SING  2 
+INS  C1  O1   SING  3 
+INS  C1  H1   SING  4 
+INS  C2  C3   SING  5 
+INS  C2  O2   SING  6 
+INS  C2  H2   SING  7 
+INS  C3  C4   SING  8 
+INS  C3  O3   SING  9 
+INS  C3  H3   SING  10
+INS  C4  C5   SING  11
+INS  C4  O4   SING  12
+INS  C4  H4   SING  13
+INS  C5  C6   SING  14
+INS  C5  O5   SING  15
+INS  C5  H5   SING  16
+INS  C6  O6   SING  17
+INS  C6  H6   SING  18
+INS  O1  HO1  SING  19
+INS  O2  HO2  SING  20
+INS  O3  HO3  SING  21
+INS  O4  HO4  SING  22
+INS  O5  HO5  SING  23
+INS  O6  HO6  SING  24
+#

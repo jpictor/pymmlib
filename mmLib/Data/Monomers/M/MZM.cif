@@ -1,0 +1,77 @@
+data_MZM
+#
+_chem_comp.id                   MZM
+_chem_comp.name                 5-ACETAMIDO-4-METHYL-1,3,4-THIADIAZOLE-2-SULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N4 O3 S2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       237.271
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MZM  N1    .  N  0  ?  ?  ?  1  1 
+MZM  S1    .  S  0  ?  ?  ?  1  2 
+MZM  O1    .  O  0  ?  ?  ?  1  3 
+MZM  O2    .  O  0  ?  ?  ?  1  4 
+MZM  C1    .  C  0  ?  ?  ?  1  5 
+MZM  S2    .  S  0  ?  ?  ?  1  6 
+MZM  C2    .  C  0  ?  ?  ?  1  7 
+MZM  N2    .  N  1  ?  ?  ?  1  8 
+MZM  C5    .  C  0  ?  ?  ?  1  9 
+MZM  N3    .  N  0  ?  ?  ?  1  10
+MZM  N4    .  N  0  ?  ?  ?  1  11
+MZM  C3    .  C  0  ?  ?  ?  1  12
+MZM  O3    .  O  0  ?  ?  ?  1  13
+MZM  C4    .  C  0  ?  ?  ?  1  14
+MZM  1HN1  .  H  0  ?  ?  ?  0  15
+MZM  2HN1  .  H  0  ?  ?  ?  0  16
+MZM  HN4   .  H  0  ?  ?  ?  1  17
+MZM  1H4   .  H  0  ?  ?  ?  0  18
+MZM  2H4   .  H  0  ?  ?  ?  0  19
+MZM  3H4   .  H  0  ?  ?  ?  0  20
+MZM  1H5   .  H  0  ?  ?  ?  0  21
+MZM  2H5   .  H  0  ?  ?  ?  0  22
+MZM  3H5   .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MZM  N1  S1    SING  1 
+MZM  N1  1HN1  SING  2 
+MZM  N1  2HN1  SING  3 
+MZM  S1  C1    SING  4 
+MZM  S1  O1    DOUB  5 
+MZM  S1  O2    DOUB  6 
+MZM  C1  S2    SING  7 
+MZM  C1  N3    DOUB  8 
+MZM  S2  C2    SING  9 
+MZM  C2  N2    DOUB  10
+MZM  C2  N4    SING  11
+MZM  N2  N3    SING  12
+MZM  N2  C5    SING  13
+MZM  C5  1H5   SING  14
+MZM  C5  2H5   SING  15
+MZM  C5  3H5   SING  16
+MZM  N4  C3    SING  17
+MZM  N4  HN4   SING  18
+MZM  C3  O3    DOUB  19
+MZM  C3  C4    SING  20
+MZM  C4  1H4   SING  21
+MZM  C4  2H4   SING  22
+MZM  C4  3H4   SING  23
+#

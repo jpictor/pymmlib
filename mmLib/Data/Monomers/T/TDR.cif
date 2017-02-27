@@ -1,0 +1,61 @@
+data_TDR
+#
+_chem_comp.id                   TDR
+_chem_comp.name                 THYMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        126.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TDR  N1    .  N  0  ?  ?  ?  1  1 
+TDR  C2    .  C  0  ?  ?  ?  1  2 
+TDR  O2    .  O  0  ?  ?  ?  1  3 
+TDR  N3    .  N  0  ?  ?  ?  1  4 
+TDR  C4    .  C  0  ?  ?  ?  1  5 
+TDR  O4    .  O  0  ?  ?  ?  1  6 
+TDR  C5    .  C  0  ?  ?  ?  1  7 
+TDR  CM5   .  C  0  ?  ?  ?  1  8 
+TDR  C6    .  C  0  ?  ?  ?  1  9 
+TDR  HN1   .  H  0  ?  ?  ?  1  10
+TDR  HN3   .  H  0  ?  ?  ?  1  11
+TDR  1H5M  .  H  0  ?  ?  ?  0  12
+TDR  2H5M  .  H  0  ?  ?  ?  0  13
+TDR  3H5M  .  H  0  ?  ?  ?  0  14
+TDR  H6    .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TDR  N1   C2    SING  1 
+TDR  N1   C6    SING  2 
+TDR  N1   HN1   SING  3 
+TDR  C2   O2    DOUB  4 
+TDR  C2   N3    SING  5 
+TDR  N3   C4    SING  6 
+TDR  N3   HN3   SING  7 
+TDR  C4   O4    DOUB  8 
+TDR  C4   C5    SING  9 
+TDR  C5   CM5   SING  10
+TDR  C5   C6    DOUB  11
+TDR  CM5  1H5M  SING  12
+TDR  CM5  2H5M  SING  13
+TDR  CM5  3H5M  SING  14
+TDR  C6   H6    SING  15
+#

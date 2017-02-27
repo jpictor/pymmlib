@@ -1,0 +1,107 @@
+data_OMU
+#
+_chem_comp.id                       OMU
+_chem_comp.name                     'O2'-METHYLURIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            338.210
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMU  N1    .  N  0  ?  ?  ?  1  1 
+OMU  C2    .  C  0  ?  ?  ?  1  2 
+OMU  N3    .  N  0  ?  ?  ?  1  3 
+OMU  C4    .  C  0  ?  ?  ?  1  4 
+OMU  C5    .  C  0  ?  ?  ?  1  5 
+OMU  C6    .  C  0  ?  ?  ?  1  6 
+OMU  O2    .  O  0  ?  ?  ?  1  7 
+OMU  O4    .  O  0  ?  ?  ?  1  8 
+OMU  C1*   .  C  0  ?  ?  ?  1  9 
+OMU  C2*   .  C  0  ?  ?  ?  1  10
+OMU  O2*   .  O  0  ?  ?  ?  1  11
+OMU  CM2   .  C  0  ?  ?  ?  1  12
+OMU  C3*   .  C  0  ?  ?  ?  1  13
+OMU  C4*   .  C  0  ?  ?  ?  1  14
+OMU  O3*   .  O  0  ?  ?  ?  1  15
+OMU  O4*   .  O  0  ?  ?  ?  1  16
+OMU  C5*   .  C  0  ?  ?  ?  1  17
+OMU  O5*   .  O  0  ?  ?  ?  1  18
+OMU  P     .  P  0  ?  ?  ?  1  19
+OMU  O1P   .  O  0  ?  ?  ?  1  20
+OMU  O2P   .  O  0  ?  ?  ?  1  21
+OMU  O3P   .  O  0  ?  ?  ?  1  22
+OMU  HN3   .  H  0  ?  ?  ?  1  23
+OMU  H5    .  H  0  ?  ?  ?  1  24
+OMU  H6    .  H  0  ?  ?  ?  1  25
+OMU  H1*   .  H  0  ?  ?  ?  1  26
+OMU  H2*   .  H  0  ?  ?  ?  1  27
+OMU  1HM2  .  H  0  ?  ?  ?  0  28
+OMU  2HM2  .  H  0  ?  ?  ?  0  29
+OMU  3HM2  .  H  0  ?  ?  ?  0  30
+OMU  H3*   .  H  0  ?  ?  ?  1  31
+OMU  *HO3  .  H  0  ?  ?  ?  0  32
+OMU  H4*   .  H  0  ?  ?  ?  1  33
+OMU  1H5*  .  H  0  ?  ?  ?  0  34
+OMU  2H5*  .  H  0  ?  ?  ?  0  35
+OMU  2HOP  .  H  0  ?  ?  ?  0  36
+OMU  3HOP  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMU  N1   C2    SING  1 
+OMU  N1   C6    SING  2 
+OMU  N1   C1*   SING  3 
+OMU  C2   N3    SING  4 
+OMU  C2   O2    DOUB  5 
+OMU  N3   C4    SING  6 
+OMU  N3   HN3   SING  7 
+OMU  C4   C5    SING  8 
+OMU  C4   O4    DOUB  9 
+OMU  C5   C6    DOUB  10
+OMU  C5   H5    SING  11
+OMU  C6   H6    SING  12
+OMU  C1*  C2*   SING  13
+OMU  C1*  O4*   SING  14
+OMU  C1*  H1*   SING  15
+OMU  C2*  O2*   SING  16
+OMU  C2*  C3*   SING  17
+OMU  C2*  H2*   SING  18
+OMU  O2*  CM2   SING  19
+OMU  CM2  1HM2  SING  20
+OMU  CM2  2HM2  SING  21
+OMU  CM2  3HM2  SING  22
+OMU  C3*  C4*   SING  23
+OMU  C3*  O3*   SING  24
+OMU  C3*  H3*   SING  25
+OMU  C4*  O4*   SING  26
+OMU  C4*  C5*   SING  27
+OMU  C4*  H4*   SING  28
+OMU  O3*  *HO3  SING  29
+OMU  C5*  O5*   SING  30
+OMU  C5*  1H5*  SING  31
+OMU  C5*  2H5*  SING  32
+OMU  O5*  P     SING  33
+OMU  P    O1P   DOUB  34
+OMU  P    O2P   SING  35
+OMU  P    O3P   SING  36
+OMU  O2P  2HOP  SING  37
+OMU  O3P  3HOP  SING  38
+#

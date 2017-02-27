@@ -1,0 +1,73 @@
+data_GCT
+#
+_chem_comp.id                   GCT
+_chem_comp.name                 '4,5-DIHYDROXY-TETRAHYDRO-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GCT  C1    .  C  0  2.957   44.864  77.843  1  1 
+GCT  C2    .  C  0  2.628   44.120  79.132  1  2 
+GCT  O2    .  O  0  3.879   43.903  79.713  1  3 
+GCT  C3    .  C  0  2.041   42.781  78.756  1  4 
+GCT  O3    .  O  0  1.780   41.939  79.868  1  5 
+GCT  C4    .  C  0  0.727   43.108  78.044  1  6 
+GCT  C5    .  C  0  0.768   44.170  76.939  1  7 
+GCT  C6    .  C  0  -0.344  45.221  77.011  1  8 
+GCT  O6A   .  O  0  -0.160  46.375  76.521  1  9 
+GCT  O6B   .  O  0  -1.415  44.859  77.543  1  10
+GCT  O5    .  O  0  2.059   44.722  76.755  1  11
+GCT  HO3   .  H  0  ?       ?       ?       1  12
+GCT  HO2   .  H  0  ?       ?       ?       1  13
+GCT  HO6   .  H  0  ?       ?       ?       1  14
+GCT  HC5   .  H  0  ?       ?       ?       1  15
+GCT  HC2   .  H  0  ?       ?       ?       1  16
+GCT  HC3   .  H  0  ?       ?       ?       1  17
+GCT  1HC4  .  H  0  ?       ?       ?       0  18
+GCT  2HC4  .  H  0  ?       ?       ?       0  19
+GCT  1HC1  .  H  0  ?       ?       ?       0  20
+GCT  2HC1  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GCT  C1   C2    SING  1 
+GCT  C1   O5    SING  2 
+GCT  C1   1HC1  SING  3 
+GCT  C1   2HC1  SING  4 
+GCT  C2   O2    SING  5 
+GCT  C2   C3    SING  6 
+GCT  C2   HC2   SING  7 
+GCT  O2   HO2   SING  8 
+GCT  C3   O3    SING  9 
+GCT  C3   C4    SING  10
+GCT  C3   HC3   SING  11
+GCT  O3   HO3   SING  12
+GCT  C4   C5    SING  13
+GCT  C4   1HC4  SING  14
+GCT  C4   2HC4  SING  15
+GCT  C5   C6    SING  16
+GCT  C5   O5    SING  17
+GCT  C5   HC5   SING  18
+GCT  C6   O6A   DOUB  19
+GCT  C6   O6B   SING  20
+GCT  O6B  HO6   SING  21
+#

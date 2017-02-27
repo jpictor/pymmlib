@@ -1,0 +1,72 @@
+data_S70
+#
+_chem_comp.id                   S70
+_chem_comp.name                 '3-HYDROXY-2-OXO-4-PHOPHONOXY- BUTYL)-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 O9 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.034
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+S70  C1   .  C  0  22.647  -16.056  19.413  1  1 
+S70  C2   .  C  0  21.966  -17.390  18.850  1  2 
+S70  C3   .  C  0  20.369  -17.178  18.590  1  3 
+S70  C4   .  C  0  19.739  -17.225  17.194  1  4 
+S70  O5   .  O  0  22.663  -17.638  17.625  1  5 
+S70  O6   .  O  0  19.571  -16.948  19.518  1  6 
+S70  O7   .  O  0  23.746  -15.661  18.555  1  7 
+S70  P8   .  P  0  18.049  -17.022  17.345  1  8 
+S70  O9   .  O  0  17.530  -17.116  15.832  1  9 
+S70  O10  .  O  0  17.374  -18.215  18.186  1  10
+S70  O11  .  O  0  17.690  -15.597  17.957  1  11
+S70  P12  .  P  0  24.732  -14.334  18.717  1  12
+S70  O13  .  O  0  25.783  -14.296  17.518  1  13
+S70  O14  .  O  0  25.422  -14.245  20.185  1  14
+S70  O15  .  O  0  23.764  -12.995  18.526  1  15
+S70  1H1  .  H  0  ?       ?        ?       0  16
+S70  2H1  .  H  0  ?       ?        ?       0  17
+S70  1H4  .  H  0  ?       ?        ?       0  18
+S70  2H4  .  H  0  ?       ?        ?       0  19
+S70  HC2  .  H  0  ?       ?        ?       1  20
+S70  HO5  .  H  0  ?       ?        ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+S70  C1   C2   SING  1 
+S70  C1   O7   SING  2 
+S70  C1   1H1  SING  3 
+S70  C1   2H1  SING  4 
+S70  C2   O5   SING  5 
+S70  C2   C3   SING  6 
+S70  C2   HC2  SING  7 
+S70  C3   O6   DOUB  8 
+S70  C3   C4   SING  9 
+S70  C4   P8   SING  10
+S70  C4   1H4  SING  11
+S70  C4   2H4  SING  12
+S70  O5   HO5  SING  13
+S70  O7   P12  SING  14
+S70  P8   O9   SING  15
+S70  P8   O10  DOUB  16
+S70  P8   O11  SING  17
+S70  P12  O13  DOUB  18
+S70  P12  O14  SING  19
+S70  P12  O15  SING  20
+#

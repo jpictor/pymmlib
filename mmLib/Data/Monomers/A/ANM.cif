@@ -1,0 +1,108 @@
+data_ANM
+#
+_chem_comp.id                   ANM
+_chem_comp.name                 ANISOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C14 H19 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        265.308
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ANM  C1    .  C  0  ?  ?  ?  1  1 
+ANM  C2    .  C  0  ?  ?  ?  1  2 
+ANM  C3    .  C  0  ?  ?  ?  1  3 
+ANM  C4    .  C  0  ?  ?  ?  1  4 
+ANM  C5    .  C  0  ?  ?  ?  1  5 
+ANM  C6    .  C  0  ?  ?  ?  1  6 
+ANM  C9    .  C  0  ?  ?  ?  1  7 
+ANM  C10   .  C  0  ?  ?  ?  1  8 
+ANM  C11   .  C  0  ?  ?  ?  1  9 
+ANM  C12   .  C  0  ?  ?  ?  1  10
+ANM  C13   .  C  0  ?  ?  ?  1  11
+ANM  C14   .  C  0  ?  ?  ?  1  12
+ANM  C15   .  C  0  ?  ?  ?  1  13
+ANM  C16   .  C  0  ?  ?  ?  1  14
+ANM  N1    .  N  0  ?  ?  ?  1  15
+ANM  O1    .  O  0  ?  ?  ?  1  16
+ANM  O2    .  O  0  ?  ?  ?  1  17
+ANM  O3    .  O  0  ?  ?  ?  1  18
+ANM  O4    .  O  0  ?  ?  ?  1  19
+ANM  H1    .  H  0  ?  ?  ?  1  20
+ANM  H2    .  H  0  ?  ?  ?  1  21
+ANM  H3    .  H  0  ?  ?  ?  1  22
+ANM  1H4   .  H  0  ?  ?  ?  0  23
+ANM  2H4   .  H  0  ?  ?  ?  0  24
+ANM  1H6   .  H  0  ?  ?  ?  0  25
+ANM  2H6   .  H  0  ?  ?  ?  0  26
+ANM  3H6   .  H  0  ?  ?  ?  0  27
+ANM  H10   .  H  0  ?  ?  ?  1  28
+ANM  H11   .  H  0  ?  ?  ?  1  29
+ANM  H13   .  H  0  ?  ?  ?  1  30
+ANM  1H14  .  H  0  ?  ?  ?  0  31
+ANM  2H14  .  H  0  ?  ?  ?  0  32
+ANM  3H14  .  H  0  ?  ?  ?  0  33
+ANM  1H15  .  H  0  ?  ?  ?  0  34
+ANM  2H15  .  H  0  ?  ?  ?  0  35
+ANM  H16   .  H  0  ?  ?  ?  1  36
+ANM  HN1   .  H  0  ?  ?  ?  1  37
+ANM  HO4   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ANM  C1   C9    DOUB  1 
+ANM  C1   C13   SING  2 
+ANM  C1   H1    SING  3 
+ANM  C2   C3    SING  4 
+ANM  C2   C16   SING  5 
+ANM  C2   O2    SING  6 
+ANM  C2   H2    SING  7 
+ANM  C3   C4    SING  8 
+ANM  C3   O4    SING  9 
+ANM  C3   H3    SING  10
+ANM  C4   N1    SING  11
+ANM  C4   1H4   SING  12
+ANM  C4   2H4   SING  13
+ANM  C5   C6    SING  14
+ANM  C5   O2    SING  15
+ANM  C5   O3    DOUB  16
+ANM  C6   1H6   SING  17
+ANM  C6   2H6   SING  18
+ANM  C6   3H6   SING  19
+ANM  C9   C10   SING  20
+ANM  C9   O1    SING  21
+ANM  C10  C11   DOUB  22
+ANM  C10  H10   SING  23
+ANM  C11  C12   SING  24
+ANM  C11  H11   SING  25
+ANM  C12  C13   DOUB  26
+ANM  C12  C15   SING  27
+ANM  C13  H13   SING  28
+ANM  C14  O1    SING  29
+ANM  C14  1H14  SING  30
+ANM  C14  2H14  SING  31
+ANM  C14  3H14  SING  32
+ANM  C15  C16   SING  33
+ANM  C15  1H15  SING  34
+ANM  C15  2H15  SING  35
+ANM  C16  N1    SING  36
+ANM  C16  H16   SING  37
+ANM  N1   HN1   SING  38
+ANM  O4   HO4   SING  39
+#

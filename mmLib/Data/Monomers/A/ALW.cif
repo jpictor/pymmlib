@@ -1,0 +1,101 @@
+data_ALW
+#
+_chem_comp.id                   ALW
+_chem_comp.name                 'METHYL 5-(PROPYLSULFINYL)-1H-BENZIMIDAZOL-2-YLCARBAMATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N3 O3 S1'
+_chem_comp.pdbx_synonyms        'ALBENDAZOLE SULPHOXIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        281.329
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALW  S1    .  S  0  10.325  -8.263   -4.884  1  1 
+ALW  C11   .  C  0  11.802  -8.449   -3.82   1  2 
+ALW  3C11  .  C  0  13.113  -8.263   -4.571  0  3 
+ALW  C     .  C  0  14.281  -8.015   -3.604  1  4 
+ALW  N     .  N  0  6.371   -11.364  -3.396  1  5 
+ALW  C7    .  C  0  6.33    -12.709  -3.773  1  6 
+ALW  N1    .  N  0  7.363   -13.303  -4.474  1  7 
+ALW  C3A   .  C  0  8.161   -12.206  -4.609  1  8 
+ALW  C7A   .  C  0  7.606   -11.063  -3.936  1  9 
+ALW  C1    .  C  0  9.335   -12.084  -5.375  1  10
+ALW  C2    .  C  0  9.986   -10.857  -5.405  1  11
+ALW  C3    .  C  0  9.471   -9.759   -4.717  1  12
+ALW  C4    .  C  0  8.274   -9.816   -3.999  1  13
+ALW  N2    .  N  0  5.216   -13.557  -3.536  1  14
+ALW  C5    .  C  0  3.961   -13.36   -3.227  1  15
+ALW  O     .  O  0  3.305   -14.577  -3.284  1  16
+ALW  C6    .  C  0  1.864   -14.662  -3.274  1  17
+ALW  O1    .  O  0  3.447   -12.264  -3.004  1  18
+ALW  O2    .  O  0  9.812   -7.136   -5.57   1  19
+ALW  H1    .  H  0  9.726   -12.935  -5.933  1  20
+ALW  H2    .  H  0  10.91   -10.752  -5.973  1  21
+ALW  H4    .  H  0  7.869   -8.933   -3.505  1  22
+ALW  1H11  .  H  0  11.731  -7.674   -3.048  0  23
+ALW  2H11  .  H  0  11.783  -9.418   -3.289  0  24
+ALW  1H3'  .  H  0  13.275  -9.162   -5.186  0  25
+ALW  2H3'  .  H  0  13.044  -7.431   -5.294  0  26
+ALW  1HC   .  H  0  15.239  -7.958   -4.151  0  27
+ALW  2HC   .  H  0  14.175  -7.068   -3.05   0  28
+ALW  3HC   .  H  0  14.384  -8.811   -2.847  0  29
+ALW  HA    .  H  0  5.45    -14.556  -3.629  1  30
+ALW  HB    .  H  0  10.91   -10.752  -5.973  1  31
+ALW  1H6C  .  H  0  1.467   -14.786  -2.252  0  32
+ALW  2H6C  .  H  0  1.372   -13.788  -3.745  0  33
+ALW  3H6C  .  H  0  1.541   -15.551  -3.843  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALW  S1    C11   SING  1 
+ALW  S1    C3    SING  2 
+ALW  S1    O2    DOUB  3 
+ALW  C11   3C11  SING  4 
+ALW  C11   1H11  SING  5 
+ALW  C11   2H11  SING  6 
+ALW  3C11  C     SING  7 
+ALW  3C11  1H3'  SING  8 
+ALW  3C11  2H3'  SING  9 
+ALW  C     1HC   SING  10
+ALW  C     2HC   SING  11
+ALW  C     3HC   SING  12
+ALW  N     C7    DOUB  13
+ALW  N     C7A   SING  14
+ALW  C7    N1    SING  15
+ALW  C7    N2    SING  16
+ALW  N1    C3A   SING  17
+ALW  N1    H1    SING  18
+ALW  C3A   C7A   AROM  19
+ALW  C3A   C1    AROM  20
+ALW  C7A   C4    AROM  21
+ALW  C1    C2    AROM  22
+ALW  C1    H2    SING  23
+ALW  C2    C3    AROM  24
+ALW  C2    HB    SING  25
+ALW  C3    C4    AROM  26
+ALW  C4    H4    SING  27
+ALW  N2    C5    SING  28
+ALW  N2    HA    SING  29
+ALW  C5    O     SING  30
+ALW  C5    O1    DOUB  31
+ALW  O     C6    SING  32
+ALW  C6    1H6C  SING  33
+ALW  C6    2H6C  SING  34
+ALW  C6    3H6C  SING  35
+#

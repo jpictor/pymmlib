@@ -1,0 +1,54 @@
+data_MOE
+#
+_chem_comp.id                   MOE
+_chem_comp.name                 METHOXY-ETHOXYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C3 H7 O2'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       75.087
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOE  O2*   .  O  -1  ?  ?  ?  1  1 
+MOE  CA*   .  C  0   ?  ?  ?  1  2 
+MOE  CB*   .  C  0   ?  ?  ?  1  3 
+MOE  OC*   .  O  0   ?  ?  ?  1  4 
+MOE  CD*   .  C  0   ?  ?  ?  1  5 
+MOE  1HA*  .  H  0   ?  ?  ?  0  6 
+MOE  2HA*  .  H  0   ?  ?  ?  0  7 
+MOE  1HB*  .  H  0   ?  ?  ?  0  8 
+MOE  2HB*  .  H  0   ?  ?  ?  0  9 
+MOE  1HD*  .  H  0   ?  ?  ?  0  10
+MOE  2HD*  .  H  0   ?  ?  ?  0  11
+MOE  3HD*  .  H  0   ?  ?  ?  0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOE  O2*  CA*   SING  1 
+MOE  CA*  CB*   SING  2 
+MOE  CA*  1HA*  SING  3 
+MOE  CA*  2HA*  SING  4 
+MOE  CB*  OC*   SING  5 
+MOE  CB*  1HB*  SING  6 
+MOE  CB*  2HB*  SING  7 
+MOE  OC*  CD*   SING  8 
+MOE  CD*  1HD*  SING  9 
+MOE  CD*  2HD*  SING  10
+MOE  CD*  3HD*  SING  11
+#

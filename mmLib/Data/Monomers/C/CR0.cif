@@ -1,0 +1,113 @@
+data_CR0
+#
+_chem_comp.id                       CR0
+_chem_comp.name                     [2-(1-AMINO-2-HYDROXYPROPYL)-2-HYDROXY-4-ISOBUTYL-5-OXO-2,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETALDEHYDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C12 H21 N3 O4'
+_chem_comp.pdbx_synonyms            '1-(2-ETHANONE)-2-HYDROXY-2-(1-AMINO-2-METHYL-2-ETHANOL)-4-(2-DIMETHYL)ETHANE-IMIDAZOLINE-5-ONE; CHROMOPHORE (THR-LEU-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'THR, LEU, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            271.316
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CR0  N1    .  N  0  23.242  27.435  36.145  1  1 
+CR0  CA1   .  C  0  24.192  26.274  36.256  1  2 
+CR0  CB1   .  C  0  25.100  26.080  34.998  1  3 
+CR0  CG1   .  C  0  24.260  25.833  33.756  1  4 
+CR0  OG1   .  O  0  25.926  27.225  34.764  1  5 
+CR0  C1    .  C  0  24.982  26.180  37.557  1  6 
+CR0  N2    .  N  0  26.232  27.008  37.497  1  7 
+CR0  N3    .  N  0  24.282  26.615  38.761  1  8 
+CR0  C2    .  C  0  25.040  27.468  39.574  1  9 
+CR0  O2    .  O  0  24.763  27.848  40.683  1  10
+CR0  CA2   .  C  0  26.287  27.691  38.753  1  11
+CR0  CA3   .  C  0  22.922  26.226  39.129  1  12
+CR0  C3    .  C  0  22.777  24.910  39.829  1  13
+CR0  O3    .  O  0  21.962  24.757  40.702  1  14
+CR0  CB2   .  C  0  27.405  28.671  39.094  1  15
+CR0  CG2   .  C  0  28.689  28.654  38.246  1  16
+CR0  CD1   .  C  0  28.470  29.184  36.853  1  17
+CR0  CD2   .  C  0  29.761  29.506  39.009  1  18
+CR0  OE1   .  O  0  25.581  24.935  37.690  1  19
+CR0  HG1   .  H  0  ?       ?       ?       1  20
+CR0  HB1   .  H  0  ?       ?       ?       1  21
+CR0  1HG1  .  H  0  ?       ?       ?       0  22
+CR0  2HG1  .  H  0  ?       ?       ?       0  23
+CR0  3HG1  .  H  0  ?       ?       ?       0  24
+CR0  HA1   .  H  0  ?       ?       ?       1  25
+CR0  1HN1  .  H  0  ?       ?       ?       0  26
+CR0  2HN1  .  H  0  ?       ?       ?       0  27
+CR0  HE1   .  H  0  ?       ?       ?       1  28
+CR0  1HA3  .  H  0  ?       ?       ?       0  29
+CR0  2HA3  .  H  0  ?       ?       ?       0  30
+CR0  H3    .  H  0  ?       ?       ?       1  31
+CR0  1HB2  .  H  0  ?       ?       ?       0  32
+CR0  2HB2  .  H  0  ?       ?       ?       0  33
+CR0  HG2   .  H  0  ?       ?       ?       1  34
+CR0  1HD1  .  H  0  ?       ?       ?       0  35
+CR0  2HD1  .  H  0  ?       ?       ?       0  36
+CR0  3HD1  .  H  0  ?       ?       ?       0  37
+CR0  1HD2  .  H  0  ?       ?       ?       0  38
+CR0  2HD2  .  H  0  ?       ?       ?       0  39
+CR0  3HD2  .  H  0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CR0  N1   CA1   SING  1 
+CR0  N1   1HN1  SING  2 
+CR0  N1   2HN1  SING  3 
+CR0  CA1  CB1   SING  4 
+CR0  CA1  HA1   SING  5 
+CR0  CA1  C1    SING  6 
+CR0  CB1  OG1   SING  7 
+CR0  CB1  HB1   SING  8 
+CR0  CB1  CG1   SING  9 
+CR0  CG1  1HG1  SING  10
+CR0  CG1  2HG1  SING  11
+CR0  CG1  3HG1  SING  12
+CR0  OG1  HG1   SING  13
+CR0  C1   OE1   SING  14
+CR0  C1   N2    SING  15
+CR0  C1   N3    SING  16
+CR0  N2   CA2   DOUB  17
+CR0  N3   C2    SING  18
+CR0  N3   CA3   SING  19
+CR0  C2   CA2   SING  20
+CR0  C2   O2    DOUB  21
+CR0  CA2  CB2   SING  22
+CR0  CA3  1HA3  SING  23
+CR0  CA3  2HA3  SING  24
+CR0  CA3  C3    SING  25
+CR0  C3   H3    SING  26
+CR0  C3   O3    DOUB  27
+CR0  CB2  1HB2  SING  28
+CR0  CB2  2HB2  SING  29
+CR0  CB2  CG2   SING  30
+CR0  CG2  HG2   SING  31
+CR0  CG2  CD1   SING  32
+CR0  CG2  CD2   SING  33
+CR0  CD1  1HD1  SING  34
+CR0  CD1  2HD1  SING  35
+CR0  CD1  3HD1  SING  36
+CR0  CD2  1HD2  SING  37
+CR0  CD2  2HD2  SING  38
+CR0  CD2  3HD2  SING  39
+CR0  OE1  HE1   SING  40
+#

@@ -1,0 +1,80 @@
+data_BPY
+#
+_chem_comp.id                   BPY
+_chem_comp.name                 BIPHENYL-2,3-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPY  CK1   .  C  0  ?  ?  ?  1  1 
+BPY  CK2   .  C  0  ?  ?  ?  1  2 
+BPY  CK3   .  C  0  ?  ?  ?  1  3 
+BPY  CK4   .  C  0  ?  ?  ?  1  4 
+BPY  CK5   .  C  0  ?  ?  ?  1  5 
+BPY  CK6   .  C  0  ?  ?  ?  1  6 
+BPY  CK7   .  C  0  ?  ?  ?  1  7 
+BPY  CK8   .  C  0  ?  ?  ?  1  8 
+BPY  CK9   .  C  0  ?  ?  ?  1  9 
+BPY  CK10  .  C  0  ?  ?  ?  0  10
+BPY  CK11  .  C  0  ?  ?  ?  0  11
+BPY  CK12  .  C  0  ?  ?  ?  0  12
+BPY  OK1   .  O  0  ?  ?  ?  1  13
+BPY  OK2   .  O  0  ?  ?  ?  1  14
+BPY  HCK1  .  H  0  ?  ?  ?  0  15
+BPY  HCK5  .  H  0  ?  ?  ?  0  16
+BPY  HCK6  .  H  0  ?  ?  ?  0  17
+BPY  HCK8  .  H  0  ?  ?  ?  0  18
+BPY  HCK9  .  H  0  ?  ?  ?  0  19
+BPY  HC10  .  H  0  ?  ?  ?  0  20
+BPY  HC11  .  H  0  ?  ?  ?  0  21
+BPY  HC12  .  H  0  ?  ?  ?  0  22
+BPY  H0K1  .  H  0  ?  ?  ?  0  23
+BPY  HOK2  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPY  CK1   CK2   DOUB  1 
+BPY  CK1   CK6   SING  2 
+BPY  CK1   HCK1  SING  3 
+BPY  CK2   CK3   SING  4 
+BPY  CK2   CK7   SING  5 
+BPY  CK3   CK4   DOUB  6 
+BPY  CK3   OK2   SING  7 
+BPY  CK4   CK5   SING  8 
+BPY  CK4   OK1   SING  9 
+BPY  CK5   CK6   DOUB  10
+BPY  CK5   HCK5  SING  11
+BPY  CK6   HCK6  SING  12
+BPY  CK7   CK8   DOUB  13
+BPY  CK7   CK12  SING  14
+BPY  CK8   CK9   SING  15
+BPY  CK8   HCK8  SING  16
+BPY  CK9   CK10  DOUB  17
+BPY  CK9   HCK9  SING  18
+BPY  CK10  CK11  SING  19
+BPY  CK10  HC10  SING  20
+BPY  CK11  CK12  DOUB  21
+BPY  CK11  HC11  SING  22
+BPY  CK12  HC12  SING  23
+BPY  OK1   H0K1  SING  24
+BPY  OK2   HOK2  SING  25
+#

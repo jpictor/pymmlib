@@ -1,0 +1,120 @@
+data_G36
+#
+_chem_comp.id                       G36
+_chem_comp.name                     O6-ETHYL-2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H18 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            375.277
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G36  P     .  P  0  24.937  21.171  17.237  1  1 
+G36  O1P   .  O  0  24.376  22.084  16.191  1  2 
+G36  O2P   .  O  0  26.453  21.204  17.350  1  3 
+G36  O3P   .  O  0  24.332  21.857  18.576  1  4 
+G36  O5*   .  O  0  24.412  19.672  17.156  1  5 
+G36  C5*   .  C  0  23.889  18.974  18.342  1  6 
+G36  C4*   .  C  0  22.391  18.730  18.027  1  7 
+G36  O4*   .  O  0  21.763  20.019  17.940  1  8 
+G36  C3*   .  C  0  22.109  18.003  16.741  1  9 
+G36  O3*   .  O  0  21.207  16.871  16.794  1  10
+G36  C2*   .  C  0  21.556  19.110  15.803  1  11
+G36  CM2   .  C  0  20.143  26.137  15.053  1  12
+G36  C1*   .  C  0  20.840  19.994  16.781  1  13
+G36  N9    .  N  0  20.504  21.345  16.299  1  14
+G36  C8    .  C  0  21.294  22.303  15.689  1  15
+G36  N7    .  N  0  20.666  23.423  15.428  1  16
+G36  C5    .  C  0  19.361  23.204  15.890  1  17
+G36  C6    .  C  0  18.217  24.026  15.910  1  18
+G36  O6    .  O  0  18.002  25.261  15.441  1  19
+G36  N1    .  N  0  17.099  23.435  16.446  1  20
+G36  C2    .  C  0  17.115  22.196  16.955  1  21
+G36  N2    .  N  0  15.956  21.787  17.491  1  22
+G36  C1M   .  C  0  18.699  26.385  15.562  1  23
+G36  N3    .  N  0  18.176  21.378  16.982  1  24
+G36  C4    .  C  0  19.256  21.940  16.419  1  25
+G36  1H5*  .  H  0  24.069  19.513  19.301  0  26
+G36  2H5*  .  H  0  24.452  18.050  18.610  0  27
+G36  H4*   .  H  0  21.933  18.162  18.870  1  28
+G36  H3*   .  H  0  23.081  17.651  16.323  1  29
+G36  H1*   .  H  0  19.897  19.486  17.091  1  30
+G36  HA    .  H  0  21.029  16.412  15.982  1  31
+G36  1H2*  .  H  0  20.939  18.747  14.948  0  32
+G36  2H2*  .  H  0  22.317  19.620  15.167  0  33
+G36  H8    .  H  0  22.357  22.139  15.444  1  34
+G36  1H1M  .  H  0  18.678  26.789  16.601  0  35
+G36  2H1M  .  H  0  18.210  27.246  15.050  0  36
+G36  1H2N  .  H  0  15.968  20.844  17.879  0  37
+G36  2H2N  .  H  0  15.148  22.410  17.470  0  38
+G36  1HM2  .  H  0  20.728  27.081  15.155  0  39
+G36  2HM2  .  H  0  20.164  25.733  14.014  0  40
+G36  3HM2  .  H  0  20.632  25.276  15.565  0  41
+G36  H2P   .  H  0  ?       ?       ?       1  42
+G36  H3P   .  H  0  ?       ?       ?       1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G36  P    O1P   DOUB  1 
+G36  P    O2P   SING  2 
+G36  P    O3P   SING  3 
+G36  P    O5*   SING  4 
+G36  O2P  H2P   SING  5 
+G36  O3P  H3P   SING  6 
+G36  O5*  C5*   SING  7 
+G36  C5*  C4*   SING  8 
+G36  C5*  1H5*  SING  9 
+G36  C5*  2H5*  SING  10
+G36  C4*  O4*   SING  11
+G36  C4*  C3*   SING  12
+G36  C4*  H4*   SING  13
+G36  O4*  C1*   SING  14
+G36  C3*  O3*   SING  15
+G36  C3*  C2*   SING  16
+G36  C3*  H3*   SING  17
+G36  O3*  HA    SING  18
+G36  C2*  C1*   SING  19
+G36  C2*  1H2*  SING  20
+G36  C2*  2H2*  SING  21
+G36  CM2  C1M   SING  22
+G36  CM2  1HM2  SING  23
+G36  CM2  2HM2  SING  24
+G36  CM2  3HM2  SING  25
+G36  C1*  N9    SING  26
+G36  C1*  H1*   SING  27
+G36  N9   C8    SING  28
+G36  N9   C4    SING  29
+G36  C8   N7    DOUB  30
+G36  C8   H8    SING  31
+G36  N7   C5    SING  32
+G36  C5   C6    AROM  33
+G36  C5   C4    AROM  34
+G36  C6   O6    SING  35
+G36  C6   N1    AROM  36
+G36  O6   C1M   SING  37
+G36  N1   C2    AROM  38
+G36  C2   N2    SING  39
+G36  C2   N3    AROM  40
+G36  N2   1H2N  SING  41
+G36  N2   2H2N  SING  42
+G36  C1M  1H1M  SING  43
+G36  C1M  2H1M  SING  44
+G36  N3   C4    AROM  45
+#

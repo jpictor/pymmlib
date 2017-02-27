@@ -1,0 +1,76 @@
+data_KBG
+#
+_chem_comp.id                   KBG
+_chem_comp.name                 2-KETO-BETA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O6'
+_chem_comp.pdbx_synonyms        BETA-D-ARABINO-HEXOPYRANOS-2-ULOSE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KBG  OAK   .  O  0  11.326  12.929  18.436  1  1 
+KBG  CAJ   .  C  0  10.216  13.372  19.227  1  2 
+KBG  CAI   .  C  0  10.547  14.763  19.694  1  3 
+KBG  OAL   .  O  0  11.496  14.612  20.646  1  4 
+KBG  CAH   .  C  0  9.359   15.470  20.312  1  5 
+KBG  OAG   .  O  0  9.556   16.228  21.262  1  6 
+KBG  CAB   .  C  0  7.990   15.200  19.739  1  7 
+KBG  OAA   .  O  0  6.913   15.696  20.569  1  8 
+KBG  OAC   .  O  0  7.899   13.778  19.373  1  9 
+KBG  CAD   .  C  0  8.922   13.343  18.444  1  10
+KBG  CAE   .  C  0  8.744   11.894  17.983  1  11
+KBG  OAF   .  O  0  8.513   11.082  19.125  1  12
+KBG  HOAF  .  H  0  8.461   10.171  18.861  0  13
+KBG  1HAE  .  H  0  7.887   11.824  17.297  0  14
+KBG  2HAE  .  H  0  9.647   11.553  17.456  0  15
+KBG  HAD   .  H  0  8.888   13.992  17.556  1  16
+KBG  HAB   .  H  0  7.857   15.783  18.816  1  17
+KBG  HOAA  .  H  0  7.224   15.805  21.460  0  18
+KBG  HAI   .  H  0  10.871  15.372  18.837  1  19
+KBG  HOAL  .  H  0  12.353  14.577  20.237  0  20
+KBG  HAJ   .  H  0  10.059  12.699  20.083  1  21
+KBG  HOAK  .  H  0  11.052  12.831  17.532  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KBG  OAK  CAJ   SING  1 
+KBG  OAK  HOAK  SING  2 
+KBG  CAJ  CAI   SING  3 
+KBG  CAJ  CAD   SING  4 
+KBG  CAJ  HAJ   SING  5 
+KBG  CAI  CAH   SING  6 
+KBG  CAI  OAL   SING  7 
+KBG  CAI  HAI   SING  8 
+KBG  OAL  HOAL  SING  9 
+KBG  CAH  CAB   SING  10
+KBG  CAH  OAG   DOUB  11
+KBG  CAB  OAC   SING  12
+KBG  CAB  OAA   SING  13
+KBG  CAB  HAB   SING  14
+KBG  OAA  HOAA  SING  15
+KBG  OAC  CAD   SING  16
+KBG  CAD  CAE   SING  17
+KBG  CAD  HAD   SING  18
+KBG  CAE  OAF   SING  19
+KBG  CAE  1HAE  SING  20
+KBG  CAE  2HAE  SING  21
+KBG  OAF  HOAF  SING  22
+#

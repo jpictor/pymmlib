@@ -1,0 +1,66 @@
+data_ABK
+#
+_chem_comp.id                   ABK
+_chem_comp.name                 '3-AMINO-5,5-DI-FLUORO-2-KETO-PENTAN-1-OIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N1 O3 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABK  N    .  N  0  ?  ?  ?  1  1 
+ABK  CA   .  C  0  ?  ?  ?  1  2 
+ABK  CB   .  C  0  ?  ?  ?  1  3 
+ABK  CG   .  C  0  ?  ?  ?  1  4 
+ABK  FG1  .  F  0  ?  ?  ?  1  5 
+ABK  FG2  .  F  0  ?  ?  ?  1  6 
+ABK  O12  .  O  0  ?  ?  ?  1  7 
+ABK  C2   .  C  0  ?  ?  ?  1  8 
+ABK  O21  .  O  0  ?  ?  ?  1  9 
+ABK  O22  .  O  0  ?  ?  ?  1  10
+ABK  C1   .  C  0  ?  ?  ?  1  11
+ABK  HN1  .  H  0  ?  ?  ?  1  12
+ABK  HN2  .  H  0  ?  ?  ?  1  13
+ABK  HA   .  H  0  ?  ?  ?  1  14
+ABK  1HB  .  H  0  ?  ?  ?  0  15
+ABK  2HB  .  H  0  ?  ?  ?  0  16
+ABK  HG   .  H  0  ?  ?  ?  1  17
+ABK  HO2  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABK  N    CA   SING  1 
+ABK  N    HN1  SING  2 
+ABK  N    HN2  SING  3 
+ABK  CA   CB   SING  4 
+ABK  CA   C1   SING  5 
+ABK  CA   HA   SING  6 
+ABK  CB   CG   SING  7 
+ABK  CB   1HB  SING  8 
+ABK  CB   2HB  SING  9 
+ABK  CG   FG1  SING  10
+ABK  CG   FG2  SING  11
+ABK  CG   HG   SING  12
+ABK  O12  C1   DOUB  13
+ABK  C2   O21  SING  14
+ABK  C2   O22  DOUB  15
+ABK  C2   C1   SING  16
+ABK  O21  HO2  SING  17
+#

@@ -1,0 +1,80 @@
+data_YOF
+#
+_chem_comp.id                       YOF
+_chem_comp.name                     3-FLUOROTYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C9 H10 N1 O3 F1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            199.181
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+YOF  N    .  N  0  ?  ?  ?  1  1 
+YOF  CA   .  C  0  ?  ?  ?  1  2 
+YOF  C    .  C  0  ?  ?  ?  1  3 
+YOF  O    .  O  0  ?  ?  ?  1  4 
+YOF  OXT  .  O  0  ?  ?  ?  1  5 
+YOF  CB   .  C  0  ?  ?  ?  1  6 
+YOF  CG   .  C  0  ?  ?  ?  1  7 
+YOF  CD1  .  C  0  ?  ?  ?  1  8 
+YOF  CD2  .  C  0  ?  ?  ?  1  9 
+YOF  CE1  .  C  0  ?  ?  ?  1  10
+YOF  CE2  .  C  0  ?  ?  ?  1  11
+YOF  CZ   .  C  0  ?  ?  ?  1  12
+YOF  OH   .  O  0  ?  ?  ?  1  13
+YOF  F    .  F  0  ?  ?  ?  1  14
+YOF  1HN  .  H  0  ?  ?  ?  0  15
+YOF  2HN  .  H  0  ?  ?  ?  0  16
+YOF  HA   .  H  0  ?  ?  ?  1  17
+YOF  1HB  .  H  0  ?  ?  ?  0  18
+YOF  2HB  .  H  0  ?  ?  ?  0  19
+YOF  HD1  .  H  0  ?  ?  ?  1  20
+YOF  HD2  .  H  0  ?  ?  ?  1  21
+YOF  HE2  .  H  0  ?  ?  ?  1  22
+YOF  HO   .  H  0  ?  ?  ?  1  23
+YOF  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+YOF  N    CA   SING  1 
+YOF  N    1HN  SING  2 
+YOF  N    2HN  SING  3 
+YOF  CA   CB   SING  4 
+YOF  CA   C    SING  5 
+YOF  CA   HA   SING  6 
+YOF  C    O    DOUB  7 
+YOF  C    OXT  SING  8 
+YOF  OXT  HXT  SING  9 
+YOF  CB   CG   SING  10
+YOF  CB   1HB  SING  11
+YOF  CB   2HB  SING  12
+YOF  CG   CD1  DOUB  13
+YOF  CG   CD2  SING  14
+YOF  CD1  CE1  SING  15
+YOF  CD1  HD1  SING  16
+YOF  CD2  CE2  DOUB  17
+YOF  CD2  HD2  SING  18
+YOF  CE1  CZ   DOUB  19
+YOF  CE1  F    SING  20
+YOF  CE2  CZ   SING  21
+YOF  CE2  HE2  SING  22
+YOF  CZ   OH   SING  23
+YOF  OH   HO   SING  24
+#

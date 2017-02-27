@@ -1,0 +1,95 @@
+data_CPM
+#
+_chem_comp.id                   CPM
+_chem_comp.name                 S-(2-CARBOXY-3-PHENYLPROPYL)THIODIIMINE-S-METHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N2 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        240.320
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPM  CA1   .  C  0  ?  ?  ?  1  1 
+CPM  CA    .  C  0  ?  ?  ?  1  2 
+CPM  C     .  C  0  ?  ?  ?  1  3 
+CPM  O     .  O  0  ?  ?  ?  1  4 
+CPM  CB    .  C  0  ?  ?  ?  1  5 
+CPM  CG    .  C  0  ?  ?  ?  1  6 
+CPM  CD1   .  C  0  ?  ?  ?  1  7 
+CPM  CD2   .  C  0  ?  ?  ?  1  8 
+CPM  CE1   .  C  0  ?  ?  ?  1  9 
+CPM  CE2   .  C  0  ?  ?  ?  1  10
+CPM  CZ    .  C  0  ?  ?  ?  1  11
+CPM  OXT   .  O  0  ?  ?  ?  1  12
+CPM  S     .  S  0  ?  ?  ?  1  13
+CPM  N1    .  N  0  ?  ?  ?  1  14
+CPM  N2    .  N  0  ?  ?  ?  1  15
+CPM  CM    .  C  0  ?  ?  ?  1  16
+CPM  1HA1  .  H  0  ?  ?  ?  0  17
+CPM  2HA1  .  H  0  ?  ?  ?  0  18
+CPM  HA    .  H  0  ?  ?  ?  1  19
+CPM  1HB   .  H  0  ?  ?  ?  0  20
+CPM  2HB   .  H  0  ?  ?  ?  0  21
+CPM  HD1   .  H  0  ?  ?  ?  1  22
+CPM  HD2   .  H  0  ?  ?  ?  1  23
+CPM  HE1   .  H  0  ?  ?  ?  1  24
+CPM  HE2   .  H  0  ?  ?  ?  1  25
+CPM  HZ    .  H  0  ?  ?  ?  1  26
+CPM  HXT   .  H  0  ?  ?  ?  1  27
+CPM  HN1   .  H  0  ?  ?  ?  1  28
+CPM  HN2   .  H  0  ?  ?  ?  1  29
+CPM  1HM   .  H  0  ?  ?  ?  0  30
+CPM  2HM   .  H  0  ?  ?  ?  0  31
+CPM  3HM   .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPM  CA1  CA    SING  1 
+CPM  CA1  S     SING  2 
+CPM  CA1  1HA1  SING  3 
+CPM  CA1  2HA1  SING  4 
+CPM  CA   C     SING  5 
+CPM  CA   CB    SING  6 
+CPM  CA   HA    SING  7 
+CPM  C    O     DOUB  8 
+CPM  C    OXT   SING  9 
+CPM  CB   CG    SING  10
+CPM  CB   1HB   SING  11
+CPM  CB   2HB   SING  12
+CPM  CG   CD1   DOUB  13
+CPM  CG   CD2   SING  14
+CPM  CD1  CE1   SING  15
+CPM  CD1  HD1   SING  16
+CPM  CD2  CE2   DOUB  17
+CPM  CD2  HD2   SING  18
+CPM  CE1  CZ    DOUB  19
+CPM  CE1  HE1   SING  20
+CPM  CE2  CZ    SING  21
+CPM  CE2  HE2   SING  22
+CPM  CZ   HZ    SING  23
+CPM  OXT  HXT   SING  24
+CPM  S    N1    DOUB  25
+CPM  S    N2    DOUB  26
+CPM  S    CM    SING  27
+CPM  N1   HN1   SING  28
+CPM  N2   HN2   SING  29
+CPM  CM   1HM   SING  30
+CPM  CM   2HM   SING  31
+CPM  CM   3HM   SING  32
+#

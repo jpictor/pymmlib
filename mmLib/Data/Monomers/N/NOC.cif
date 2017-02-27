@@ -1,0 +1,102 @@
+data_NOC
+#
+_chem_comp.id                   NOC
+_chem_comp.name                 3-(6-AMINO-PURIN-9-YL)-5-HYDROXYMETHYL-CYCLOPENTANE-1,2-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N5 O3'
+_chem_comp.pdbx_synonyms        NEPLANOCIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        265.271
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NOC  C6*   .  C  0  42.970  -18.880  104.403  1  1 
+NOC  O6*   .  O  0  42.773  -20.043  105.278  1  2 
+NOC  C5*   .  C  0  44.940  -19.713  103.169  1  3 
+NOC  C4*   .  C  0  44.337  -18.810  104.019  1  4 
+NOC  C3*   .  C  0  45.303  -17.847  104.579  1  5 
+NOC  O3*   .  O  0  45.087  -16.826  105.188  1  6 
+NOC  C2*   .  C  0  46.479  -17.987  103.665  1  7 
+NOC  O2*   .  O  0  47.654  -17.686  104.402  1  8 
+NOC  C1*   .  C  0  46.428  -19.482  103.152  1  9 
+NOC  N9    .  N  0  47.150  -19.896  101.959  1  10
+NOC  C8    .  C  0  47.033  -19.364  100.676  1  11
+NOC  N7    .  N  0  47.797  -19.954  99.824   1  12
+NOC  C5    .  C  0  48.481  -20.942  100.541  1  13
+NOC  C6    .  C  0  49.473  -21.939  100.216  1  14
+NOC  N6    .  N  0  49.987  -22.092  98.954   1  15
+NOC  N1    .  N  0  49.889  -22.751  101.283  1  16
+NOC  C2    .  C  0  49.406  -22.610  102.502  1  17
+NOC  N3    .  N  0  48.482  -21.717  102.928  1  18
+NOC  C4    .  C  0  48.043  -20.892  101.905  1  19
+NOC  1HN6  .  H  0  ?       ?        ?        0  20
+NOC  2HN6  .  H  0  ?       ?        ?        0  21
+NOC  HC2   .  H  0  ?       ?        ?        1  22
+NOC  HC8   .  H  0  ?       ?        ?        1  23
+NOC  1H5*  .  H  0  ?       ?        ?        0  24
+NOC  2H5*  .  H  0  ?       ?        ?        0  25
+NOC  HC1*  .  H  0  ?       ?        ?        0  26
+NOC  HO2*  .  H  0  ?       ?        ?        0  27
+NOC  HC2*  .  H  0  ?       ?        ?        0  28
+NOC  HC3*  .  H  0  ?       ?        ?        0  29
+NOC  HO3*  .  H  0  ?       ?        ?        0  30
+NOC  HC4*  .  H  0  ?       ?        ?        0  31
+NOC  1H6*  .  H  0  ?       ?        ?        0  32
+NOC  2H6*  .  H  0  ?       ?        ?        0  33
+NOC  HO6*  .  H  0  ?       ?        ?        0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NOC  C6*  O6*   SING  1 
+NOC  C6*  C4*   SING  2 
+NOC  C6*  1H6*  SING  3 
+NOC  C6*  2H6*  SING  4 
+NOC  O6*  HO6*  SING  5 
+NOC  C5*  C4*   SING  6 
+NOC  C5*  C1*   SING  7 
+NOC  C5*  1H5*  SING  8 
+NOC  C5*  2H5*  SING  9 
+NOC  C4*  C3*   SING  10
+NOC  C4*  HC4*  SING  11
+NOC  C3*  O3*   SING  12
+NOC  C3*  C2*   SING  13
+NOC  C3*  HC3*  SING  14
+NOC  O3*  HO3*  SING  15
+NOC  C2*  O2*   SING  16
+NOC  C2*  C1*   SING  17
+NOC  C2*  HC2*  SING  18
+NOC  O2*  HO2*  SING  19
+NOC  C1*  N9    SING  20
+NOC  C1*  HC1*  SING  21
+NOC  N9   C8    AROM  22
+NOC  N9   C4    AROM  23
+NOC  C8   N7    AROM  24
+NOC  C8   HC8   SING  25
+NOC  N7   C5    AROM  26
+NOC  C5   C6    AROM  27
+NOC  C5   C4    AROM  28
+NOC  C6   N6    SING  29
+NOC  C6   N1    AROM  30
+NOC  N6   1HN6  SING  31
+NOC  N6   2HN6  SING  32
+NOC  N1   C2    AROM  33
+NOC  C2   N3    AROM  34
+NOC  C2   HC2   SING  35
+NOC  N3   C4    AROM  36
+#

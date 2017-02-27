@@ -1,0 +1,113 @@
+data_AHE
+#
+_chem_comp.id                   AHE
+_chem_comp.name                 '2-AMINO-4-[1-CARBOXYMETHYL-CARBAMOYL)-2-HYDROXYMETHYLSULFANYL-ETHYLCARBAMOYL]-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N3 O7 S1'
+_chem_comp.pdbx_synonyms        'S-HYDROXYMETHYL GLUTATHIONE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        337.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHE  N1    .  N  0  48.738  22.825  0.230   1  1 
+AHE  CA1   .  C  0  49.010  22.374  1.603   1  2 
+AHE  CB1   .  C  0  50.382  22.910  2.023   1  3 
+AHE  CG1   .  C  0  51.488  22.067  1.371   1  4 
+AHE  CD1   .  C  0  52.844  22.570  1.809   1  5 
+AHE  OE1   .  O  0  53.089  22.679  2.998   1  6 
+AHE  N2    .  N  0  53.780  22.912  0.877   1  7 
+AHE  CA2   .  C  0  55.143  23.318  1.276   1  8 
+AHE  CB2   .  C  0  56.168  22.704  0.300   1  9 
+AHE  SG2   .  S  0  56.158  20.896  0.443   1  10
+AHE  CD2   .  C  0  57.576  20.482  -0.592  1  11
+AHE  OE2   .  O  0  57.182  19.493  -1.542  1  12
+AHE  C2    .  C  0  55.213  24.833  1.247   1  13
+AHE  O2    .  O  0  55.842  25.418  0.380   1  14
+AHE  N3    .  N  0  54.543  25.526  2.204   1  15
+AHE  CA3   .  C  0  54.339  26.982  2.113   1  16
+AHE  C3    .  C  0  52.988  27.278  1.506   1  17
+AHE  O31   .  O  0  52.253  26.369  1.165   1  18
+AHE  O32   .  O  0  52.605  28.552  1.343   1  19
+AHE  C1    .  C  0  47.943  22.908  2.537   1  20
+AHE  O11   .  O  0  47.318  23.904  2.236   1  21
+AHE  O12   .  O  0  47.686  22.285  3.697   1  22
+AHE  H11   .  H  0  ?       ?       ?       1  23
+AHE  HE2   .  H  0  ?       ?       ?       1  24
+AHE  HA1   .  H  0  ?       ?       ?       1  25
+AHE  HN2   .  H  0  ?       ?       ?       1  26
+AHE  HA2   .  H  0  ?       ?       ?       1  27
+AHE  HN3   .  H  0  ?       ?       ?       1  28
+AHE  H31   .  H  0  ?       ?       ?       1  29
+AHE  1HA3  .  H  0  ?       ?       ?       0  30
+AHE  2HA3  .  H  0  ?       ?       ?       0  31
+AHE  1HN1  .  H  0  ?       ?       ?       0  32
+AHE  2HN1  .  H  0  ?       ?       ?       0  33
+AHE  1HB1  .  H  0  ?       ?       ?       0  34
+AHE  2HB1  .  H  0  ?       ?       ?       0  35
+AHE  1HG1  .  H  0  ?       ?       ?       0  36
+AHE  2HG1  .  H  0  ?       ?       ?       0  37
+AHE  1HB2  .  H  0  ?       ?       ?       0  38
+AHE  2HB2  .  H  0  ?       ?       ?       0  39
+AHE  1HD2  .  H  0  ?       ?       ?       0  40
+AHE  2HD2  .  H  0  ?       ?       ?       0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHE  N1   CA1   SING  1 
+AHE  N1   1HN1  SING  2 
+AHE  N1   2HN1  SING  3 
+AHE  CA1  CB1   SING  4 
+AHE  CA1  C1    SING  5 
+AHE  CA1  HA1   SING  6 
+AHE  CB1  CG1   SING  7 
+AHE  CB1  1HB1  SING  8 
+AHE  CB1  2HB1  SING  9 
+AHE  CG1  CD1   SING  10
+AHE  CG1  1HG1  SING  11
+AHE  CG1  2HG1  SING  12
+AHE  CD1  OE1   DOUB  13
+AHE  CD1  N2    SING  14
+AHE  N2   CA2   SING  15
+AHE  N2   HN2   SING  16
+AHE  CA2  CB2   SING  17
+AHE  CA2  C2    SING  18
+AHE  CA2  HA2   SING  19
+AHE  CB2  SG2   SING  20
+AHE  CB2  1HB2  SING  21
+AHE  CB2  2HB2  SING  22
+AHE  SG2  CD2   SING  23
+AHE  CD2  OE2   SING  24
+AHE  CD2  1HD2  SING  25
+AHE  CD2  2HD2  SING  26
+AHE  OE2  HE2   SING  27
+AHE  C2   O2    DOUB  28
+AHE  C2   N3    SING  29
+AHE  N3   CA3   SING  30
+AHE  N3   HN3   SING  31
+AHE  CA3  C3    SING  32
+AHE  CA3  1HA3  SING  33
+AHE  CA3  2HA3  SING  34
+AHE  C3   O31   SING  35
+AHE  C3   O32   DOUB  36
+AHE  O31  H31   SING  37
+AHE  C1   O11   SING  38
+AHE  C1   O12   DOUB  39
+AHE  O11  H11   SING  40
+#

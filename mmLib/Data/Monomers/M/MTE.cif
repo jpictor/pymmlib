@@ -1,0 +1,109 @@
+data_MTE
+#
+_chem_comp.id                   MTE
+_chem_comp.name                 'PHOSPHONIC ACIDMONO-(2-AMINO-5,6-DIMERCAPTO-4-OXO-3,7,8A,9,10,10A-HEXAHYDRO-4H-8-OXA-1,3,9,10-TETRAAZA-ANTHRACEN-7-YLMETHYL)ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O6 P1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        395.344
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTE  N1    .  N  0  ?  ?  ?  1  1 
+MTE  C2    .  C  0  ?  ?  ?  1  2 
+MTE  N2    .  N  0  ?  ?  ?  1  3 
+MTE  N3    .  N  0  ?  ?  ?  1  4 
+MTE  C4    .  C  0  ?  ?  ?  1  5 
+MTE  O4    .  O  0  ?  ?  ?  1  6 
+MTE  N5    .  N  0  ?  ?  ?  1  7 
+MTE  C6    .  C  0  ?  ?  ?  1  8 
+MTE  C7    .  C  0  ?  ?  ?  1  9 
+MTE  N8    .  N  0  ?  ?  ?  1  10
+MTE  C9    .  C  0  ?  ?  ?  1  11
+MTE  C10   .  C  0  ?  ?  ?  1  12
+MTE  C1'   .  C  0  ?  ?  ?  1  13
+MTE  S1'   .  S  0  ?  ?  ?  1  14
+MTE  C2'   .  C  0  ?  ?  ?  1  15
+MTE  S2'   .  S  0  ?  ?  ?  1  16
+MTE  C3'   .  C  0  ?  ?  ?  1  17
+MTE  O3'   .  O  0  ?  ?  ?  1  18
+MTE  C4'   .  C  0  ?  ?  ?  1  19
+MTE  O4'   .  O  0  ?  ?  ?  1  20
+MTE  P     .  P  0  ?  ?  ?  1  21
+MTE  O1P   .  O  0  ?  ?  ?  1  22
+MTE  O2P   .  O  0  ?  ?  ?  1  23
+MTE  O3P   .  O  0  ?  ?  ?  1  24
+MTE  1HN2  .  H  0  ?  ?  ?  0  25
+MTE  2HN2  .  H  0  ?  ?  ?  0  26
+MTE  HN3   .  H  0  ?  ?  ?  1  27
+MTE  HN5   .  H  0  ?  ?  ?  1  28
+MTE  H6    .  H  0  ?  ?  ?  1  29
+MTE  H7    .  H  0  ?  ?  ?  1  30
+MTE  HN8   .  H  0  ?  ?  ?  1  31
+MTE  H1S   .  H  0  ?  ?  ?  1  32
+MTE  H2S   .  H  0  ?  ?  ?  1  33
+MTE  H3'   .  H  0  ?  ?  ?  1  34
+MTE  1H4'  .  H  0  ?  ?  ?  0  35
+MTE  2H4'  .  H  0  ?  ?  ?  0  36
+MTE  2HOP  .  H  0  ?  ?  ?  0  37
+MTE  3HOP  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTE  N1   C2    DOUB  1 
+MTE  N1   C10   SING  2 
+MTE  C2   N2    SING  3 
+MTE  C2   N3    SING  4 
+MTE  N2   1HN2  SING  5 
+MTE  N2   2HN2  SING  6 
+MTE  N3   C4    SING  7 
+MTE  N3   HN3   SING  8 
+MTE  C4   O4    DOUB  9 
+MTE  C4   C9    SING  10
+MTE  N5   C6    SING  11
+MTE  N5   C9    SING  12
+MTE  N5   HN5   SING  13
+MTE  C6   C7    SING  14
+MTE  C6   C1'   SING  15
+MTE  C6   H6    SING  16
+MTE  C7   N8    SING  17
+MTE  C7   O3'   SING  18
+MTE  C7   H7    SING  19
+MTE  N8   C10   SING  20
+MTE  N8   HN8   SING  21
+MTE  C9   C10   DOUB  22
+MTE  C1'  C2'   DOUB  23
+MTE  C1'  S1'   SING  24
+MTE  S1'  H1S   SING  25
+MTE  C2'  C3'   SING  26
+MTE  C2'  S2'   SING  27
+MTE  S2'  H2S   SING  28
+MTE  C3'  C4'   SING  29
+MTE  C3'  O3'   SING  30
+MTE  C3'  H3'   SING  31
+MTE  C4'  O4'   SING  32
+MTE  C4'  1H4'  SING  33
+MTE  C4'  2H4'  SING  34
+MTE  O4'  P     SING  35
+MTE  P    O1P   DOUB  36
+MTE  P    O2P   SING  37
+MTE  P    O3P   SING  38
+MTE  O2P  2HOP  SING  39
+MTE  O3P  3HOP  SING  40
+#

@@ -1,0 +1,56 @@
+data_NIS
+#
+_chem_comp.id                   NIS
+_chem_comp.name                 2-NITROPROPANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        89.094
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NIS  C1   .  C  0  27.020  127.928  -43.451  1  1 
+NIS  C2   .  C  0  28.179  127.748  -42.468  1  2 
+NIS  C4   .  C  0  28.102  126.376  -41.795  1  3 
+NIS  N3   .  N  0  28.129  128.798  -41.439  1  4 
+NIS  O6   .  O  0  28.152  130.119  -42.060  1  5 
+NIS  O5   .  O  0  29.280  128.669  -40.550  1  6 
+NIS  1H1  .  H  0  ?       ?        ?        0  7 
+NIS  2H1  .  H  0  ?       ?        ?        0  8 
+NIS  3H1  .  H  0  ?       ?        ?        0  9 
+NIS  H2   .  H  0  ?       ?        ?        1  10
+NIS  1H4  .  H  0  ?       ?        ?        0  11
+NIS  2H4  .  H  0  ?       ?        ?        0  12
+NIS  3H4  .  H  0  ?       ?        ?        0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NIS  C1  1H1  SING  1 
+NIS  C1  2H1  SING  2 
+NIS  C1  3H1  SING  3 
+NIS  C1  C2   SING  4 
+NIS  C2  H2   SING  5 
+NIS  C2  N3   SING  6 
+NIS  C2  C4   SING  7 
+NIS  C4  1H4  SING  8 
+NIS  C4  2H4  SING  9 
+NIS  C4  3H4  SING  10
+NIS  N3  O6   DOUB  11
+NIS  N3  O5   DOUB  12
+#

@@ -1,0 +1,80 @@
+data_MSR
+#
+_chem_comp.id                   MSR
+_chem_comp.name                 4-(1H-IMIDAZOL-1-YL)PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.175
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MSR
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(ccc1N2C=CN=C2)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MSR  C12   .  C  0  69.975  -8.777  50.639  1  Y  1 
+MSR  C13   .  C  0  70.758  -8.550  49.499  1  Y  2 
+MSR  C14   .  C  0  70.143  -8.248  48.277  1  Y  3 
+MSR  O17   .  O  0  70.906  -8.059  47.173  1  N  4 
+MSR  C15   .  C  0  68.740  -8.164  48.192  1  Y  5 
+MSR  C16   .  C  0  67.953  -8.391  49.332  1  Y  6 
+MSR  C11   .  C  0  68.565  -8.705  50.567  1  Y  7 
+MSR  N3    .  N  0  67.819  -9.001  51.653  1  N  8 
+MSR  C4    .  C  0  66.482  -8.999  51.736  1  N  9 
+MSR  C5    .  C  0  66.143  -9.373  52.964  1  N  10
+MSR  NFE   .  N  0  67.260  -9.606  53.651  1  N  11
+MSR  C2    .  C  0  68.285  -9.377  52.843  1  N  12
+MSR  H12   .  H  0  70.452  -9.009  51.580  1  N  13
+MSR  H13   .  H  0  71.835  -8.608  49.562  1  N  14
+MSR  HO17  .  H  0  70.348  -8.015  46.406  0  N  15
+MSR  H15   .  H  0  68.269  -7.925  47.250  1  N  16
+MSR  H16   .  H  0  66.877  -8.326  49.265  1  N  17
+MSR  H4    .  H  0  65.798  -8.738  50.942  1  N  18
+MSR  H5    .  H  0  65.136  -9.471  53.341  1  N  19
+MSR  H2    .  H  0  69.328  -9.479  53.106  1  N  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MSR  C12  C13   DOUB  Y  1 
+MSR  C12  C11   SING  Y  2 
+MSR  C12  H12   SING  N  3 
+MSR  C13  C14   SING  Y  4 
+MSR  C13  H13   SING  N  5 
+MSR  C14  O17   SING  N  6 
+MSR  C14  C15   DOUB  Y  7 
+MSR  O17  HO17  SING  N  8 
+MSR  C15  C16   SING  Y  9 
+MSR  C15  H15   SING  N  10
+MSR  C16  C11   DOUB  Y  11
+MSR  C16  H16   SING  N  12
+MSR  C11  N3    SING  N  13
+MSR  N3   C4    SING  N  14
+MSR  N3   C2    SING  N  15
+MSR  C4   C5    DOUB  N  16
+MSR  C4   H4    SING  N  17
+MSR  C5   NFE   SING  N  18
+MSR  C5   H5    SING  N  19
+MSR  NFE  C2    DOUB  N  20
+MSR  C2   H2    SING  N  21
+#

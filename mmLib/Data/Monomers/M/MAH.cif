@@ -1,0 +1,72 @@
+data_MAH
+#
+_chem_comp.id                   MAH
+_chem_comp.name                 '3-HYDROXY-3-METHYL-GLUTARIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAH  C1   .  C  0  ?  ?  ?  1  1 
+MAH  C2   .  C  0  ?  ?  ?  1  2 
+MAH  C3   .  C  0  ?  ?  ?  1  3 
+MAH  C4   .  C  0  ?  ?  ?  1  4 
+MAH  C5   .  C  0  ?  ?  ?  1  5 
+MAH  C6   .  C  0  ?  ?  ?  1  6 
+MAH  O1   .  O  0  ?  ?  ?  1  7 
+MAH  O2   .  O  0  ?  ?  ?  1  8 
+MAH  O3   .  O  0  ?  ?  ?  1  9 
+MAH  O4   .  O  0  ?  ?  ?  1  10
+MAH  O7   .  O  0  ?  ?  ?  1  11
+MAH  1H2  .  H  0  ?  ?  ?  0  12
+MAH  2H2  .  H  0  ?  ?  ?  0  13
+MAH  1H4  .  H  0  ?  ?  ?  0  14
+MAH  2H4  .  H  0  ?  ?  ?  0  15
+MAH  1H6  .  H  0  ?  ?  ?  0  16
+MAH  2H6  .  H  0  ?  ?  ?  0  17
+MAH  3H6  .  H  0  ?  ?  ?  0  18
+MAH  HO1  .  H  0  ?  ?  ?  1  19
+MAH  HO4  .  H  0  ?  ?  ?  1  20
+MAH  HO7  .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAH  C1  C2   SING  1 
+MAH  C1  O2   DOUB  2 
+MAH  C1  O1   SING  3 
+MAH  C2  C3   SING  4 
+MAH  C2  1H2  SING  5 
+MAH  C2  2H2  SING  6 
+MAH  C3  C6   SING  7 
+MAH  C3  O7   SING  8 
+MAH  C3  C4   SING  9 
+MAH  C4  C5   SING  10
+MAH  C4  1H4  SING  11
+MAH  C4  2H4  SING  12
+MAH  C5  O3   DOUB  13
+MAH  C5  O4   SING  14
+MAH  C6  1H6  SING  15
+MAH  C6  2H6  SING  16
+MAH  C6  3H6  SING  17
+MAH  O1  HO1  SING  18
+MAH  O4  HO4  SING  19
+MAH  O7  HO7  SING  20
+#

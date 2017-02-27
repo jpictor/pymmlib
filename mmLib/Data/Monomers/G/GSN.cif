@@ -1,0 +1,103 @@
+data_GSN
+#
+_chem_comp.id                   GSN
+_chem_comp.name                 2-AMINO-5-[1-(CARBOXYLATOMETHYLCARBAMOYL)-2-NITROSOSULFANYL-ETHYL]AMINO-5-OXO-PENTANOATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O7 S1'
+_chem_comp.pdbx_synonyms        'S-NITROSOGLUTATHIONE, S-NITROSO GAMMA-GLUTAMYLCYSTEINYLGLYCINE'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       334.303
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSN  OXT   .  O  -1  15.202  8.367   25.070  1  1 
+GSN  C     .  C  0   14.849  8.787   23.945  1  2 
+GSN  O     .  O  0   15.328  8.430   22.848  1  3 
+GSN  CA    .  C  0   13.741  9.842   23.907  1  4 
+GSN  N     .  N  0   13.846  10.613  22.660  1  5 
+GSN  CB    .  C  0   12.362  9.181   23.978  1  6 
+GSN  CAG   .  C  0   12.104  8.533   25.340  1  7 
+GSN  CAH   .  C  0   10.722  7.878   25.411  1  8 
+GSN  OAI   .  O  0   9.940   7.931   24.463  1  9 
+GSN  NAJ   .  N  0   10.462  7.280   26.571  1  10
+GSN  CAK   .  C  0   9.200   6.581   26.853  1  11
+GSN  CAL   .  C  0   9.480   5.080   26.957  1  12
+GSN  SAM   .  S  0   10.238  4.374   25.447  1  13
+GSN  NAN   .  N  0   8.988   4.516   24.410  1  14
+GSN  OAV   .  O  0   9.123   4.074   23.066  1  15
+GSN  CAO   .  C  0   8.630   7.081   28.184  1  16
+GSN  OAP   .  O  0   9.377   7.445   29.090  1  17
+GSN  NAQ   .  N  0   7.302   7.096   28.263  1  18
+GSN  CAR   .  C  0   6.596   7.533   29.477  1  19
+GSN  CAS   .  C  0   5.976   8.918   29.279  1  20
+GSN  OAU   .  O  -1  5.299   9.372   30.227  1  21
+GSN  OAT   .  O  0   6.194   9.494   28.192  1  22
+GSN  1HN   .  H  0   ?       ?       ?       0  23
+GSN  2HN   .  H  0   ?       ?       ?       0  24
+GSN  HA    .  H  0   ?       ?       ?       1  25
+GSN  1HB   .  H  0   ?       ?       ?       0  26
+GSN  2HB   .  H  0   ?       ?       ?       0  27
+GSN  1HAG  .  H  0   ?       ?       ?       0  28
+GSN  2HAG  .  H  0   ?       ?       ?       0  29
+GSN  HAJ   .  H  0   ?       ?       ?       1  30
+GSN  HAK   .  H  0   ?       ?       ?       1  31
+GSN  1HAL  .  H  0   ?       ?       ?       0  32
+GSN  2HAL  .  H  0   ?       ?       ?       0  33
+GSN  HAQ   .  H  0   ?       ?       ?       1  34
+GSN  1HAR  .  H  0   ?       ?       ?       0  35
+GSN  2HAR  .  H  0   ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSN  OXT  C     SING  1 
+GSN  C    CA    SING  2 
+GSN  C    O     DOUB  3 
+GSN  CA   N     SING  4 
+GSN  CA   CB    SING  5 
+GSN  CA   HA    SING  6 
+GSN  N    1HN   SING  7 
+GSN  N    2HN   SING  8 
+GSN  CB   CAG   SING  9 
+GSN  CB   1HB   SING  10
+GSN  CB   2HB   SING  11
+GSN  CAG  CAH   SING  12
+GSN  CAG  1HAG  SING  13
+GSN  CAG  2HAG  SING  14
+GSN  CAH  OAI   DOUB  15
+GSN  CAH  NAJ   SING  16
+GSN  NAJ  CAK   SING  17
+GSN  NAJ  HAJ   SING  18
+GSN  CAK  CAL   SING  19
+GSN  CAK  CAO   SING  20
+GSN  CAK  HAK   SING  21
+GSN  CAL  SAM   SING  22
+GSN  CAL  1HAL  SING  23
+GSN  CAL  2HAL  SING  24
+GSN  SAM  NAN   SING  25
+GSN  NAN  OAV   DOUB  26
+GSN  CAO  OAP   DOUB  27
+GSN  CAO  NAQ   SING  28
+GSN  NAQ  CAR   SING  29
+GSN  NAQ  HAQ   SING  30
+GSN  CAR  CAS   SING  31
+GSN  CAR  1HAR  SING  32
+GSN  CAR  2HAR  SING  33
+GSN  CAS  OAU   SING  34
+GSN  CAS  OAT   DOUB  35
+#

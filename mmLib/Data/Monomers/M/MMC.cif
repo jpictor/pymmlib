@@ -1,0 +1,40 @@
+data_MMC
+#
+_chem_comp.id                   MMC
+_chem_comp.name                 'METHYL MERCURY ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H3 HG1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       215.625
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MMC  HG  .  HG  1  ?  ?  ?  0  1
+MMC  C   .  C   0  ?  ?  ?  1  2
+MMC  1H  .  H   0  ?  ?  ?  0  3
+MMC  2H  .  H   0  ?  ?  ?  0  4
+MMC  3H  .  H   0  ?  ?  ?  0  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MMC  HG  C   SING  1
+MMC  C   1H  SING  2
+MMC  C   2H  SING  3
+MMC  C   3H  SING  4
+#

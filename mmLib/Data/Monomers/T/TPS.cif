@@ -1,0 +1,110 @@
+data_TPS
+#
+_chem_comp.id                   TPS
+_chem_comp.name                 'THIAMIN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N4 O4 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        344.324
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPS  CM2   .  C  0   ?  ?  ?  1  1 
+TPS  N3    .  N  1   ?  ?  ?  1  2 
+TPS  C2    .  C  0   ?  ?  ?  1  3 
+TPS  S1    .  S  0   ?  ?  ?  1  4 
+TPS  C5    .  C  0   ?  ?  ?  1  5 
+TPS  C4    .  C  0   ?  ?  ?  1  6 
+TPS  CM4   .  C  0   ?  ?  ?  1  7 
+TPS  C6    .  C  0   ?  ?  ?  1  8 
+TPS  C7    .  C  0   ?  ?  ?  1  9 
+TPS  O7    .  O  0   ?  ?  ?  1  10
+TPS  N1A   .  N  0   ?  ?  ?  1  11
+TPS  C2A   .  C  0   ?  ?  ?  1  12
+TPS  N3A   .  N  0   ?  ?  ?  1  13
+TPS  C4A   .  C  0   ?  ?  ?  1  14
+TPS  N4A   .  N  0   ?  ?  ?  1  15
+TPS  C5A   .  C  0   ?  ?  ?  1  16
+TPS  C6A   .  C  0   ?  ?  ?  1  17
+TPS  C7A   .  C  0   ?  ?  ?  1  18
+TPS  P1    .  P  0   ?  ?  ?  1  19
+TPS  O1    .  O  0   ?  ?  ?  1  20
+TPS  O2    .  O  0   ?  ?  ?  1  21
+TPS  O3    .  O  -1  ?  ?  ?  1  22
+TPS  1HM2  .  H  0   ?  ?  ?  0  23
+TPS  2HM2  .  H  0   ?  ?  ?  0  24
+TPS  3HM2  .  H  0   ?  ?  ?  0  25
+TPS  H6A   .  H  0   ?  ?  ?  1  26
+TPS  1NH4  .  H  0   ?  ?  ?  0  27
+TPS  2NH4  .  H  0   ?  ?  ?  0  28
+TPS  1H7A  .  H  0   ?  ?  ?  0  29
+TPS  2H7A  .  H  0   ?  ?  ?  0  30
+TPS  1HM4  .  H  0   ?  ?  ?  0  31
+TPS  2HM4  .  H  0   ?  ?  ?  0  32
+TPS  3HM4  .  H  0   ?  ?  ?  0  33
+TPS  H2    .  H  0   ?  ?  ?  1  34
+TPS  1H6   .  H  0   ?  ?  ?  0  35
+TPS  2H6   .  H  0   ?  ?  ?  0  36
+TPS  1H7   .  H  0   ?  ?  ?  0  37
+TPS  2H7   .  H  0   ?  ?  ?  0  38
+TPS  HO2   .  H  0   ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPS  CM2  C2A   SING  1 
+TPS  CM2  1HM2  SING  2 
+TPS  CM2  2HM2  SING  3 
+TPS  CM2  3HM2  SING  4 
+TPS  N3   C2    DOUB  5 
+TPS  N3   C4    SING  6 
+TPS  N3   C7A   SING  7 
+TPS  C2   S1    SING  8 
+TPS  C2   H2    SING  9 
+TPS  S1   C5    SING  10
+TPS  C5   C4    DOUB  11
+TPS  C5   C6    SING  12
+TPS  C4   CM4   SING  13
+TPS  CM4  1HM4  SING  14
+TPS  CM4  2HM4  SING  15
+TPS  CM4  3HM4  SING  16
+TPS  C6   C7    SING  17
+TPS  C6   1H6   SING  18
+TPS  C6   2H6   SING  19
+TPS  C7   O7    SING  20
+TPS  C7   1H7   SING  21
+TPS  C7   2H7   SING  22
+TPS  O7   P1    SING  23
+TPS  N1A  C2A   DOUB  24
+TPS  N1A  C6A   SING  25
+TPS  C2A  N3A   SING  26
+TPS  N3A  C4A   DOUB  27
+TPS  C4A  N4A   SING  28
+TPS  C4A  C5A   SING  29
+TPS  N4A  1NH4  SING  30
+TPS  N4A  2NH4  SING  31
+TPS  C5A  C6A   DOUB  32
+TPS  C5A  C7A   SING  33
+TPS  C6A  H6A   SING  34
+TPS  C7A  1H7A  SING  35
+TPS  C7A  2H7A  SING  36
+TPS  P1   O1    DOUB  37
+TPS  P1   O2    SING  38
+TPS  P1   O3    SING  39
+TPS  O2   HO2   SING  40
+#

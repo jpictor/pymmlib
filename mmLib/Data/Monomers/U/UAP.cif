@@ -1,0 +1,77 @@
+data_UAP
+#
+_chem_comp.id                   UAP
+_chem_comp.name                 '1,4-DIDEOXY-5-DEHYDRO-O2-SULFO-GLUCURONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H8 O8 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        240.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UAP  C1    .  C  0  ?  ?  ?  1  1 
+UAP  C2    .  C  0  ?  ?  ?  1  2 
+UAP  C3    .  C  0  ?  ?  ?  1  3 
+UAP  C4    .  C  0  ?  ?  ?  1  4 
+UAP  C5    .  C  0  ?  ?  ?  1  5 
+UAP  C6    .  C  0  ?  ?  ?  1  6 
+UAP  O2    .  O  0  ?  ?  ?  1  7 
+UAP  O3    .  O  0  ?  ?  ?  1  8 
+UAP  O5    .  O  0  ?  ?  ?  1  9 
+UAP  O61   .  O  0  ?  ?  ?  1  10
+UAP  O62   .  O  0  ?  ?  ?  1  11
+UAP  S     .  S  0  ?  ?  ?  1  12
+UAP  O1S   .  O  0  ?  ?  ?  1  13
+UAP  O2S   .  O  0  ?  ?  ?  1  14
+UAP  O3S   .  O  0  ?  ?  ?  1  15
+UAP  1H1   .  H  0  ?  ?  ?  0  16
+UAP  2H1   .  H  0  ?  ?  ?  0  17
+UAP  H2    .  H  0  ?  ?  ?  1  18
+UAP  H3    .  H  0  ?  ?  ?  1  19
+UAP  H4    .  H  0  ?  ?  ?  1  20
+UAP  HO3   .  H  0  ?  ?  ?  1  21
+UAP  HO6   .  H  0  ?  ?  ?  1  22
+UAP  3HOS  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UAP  C1   C2    SING  1 
+UAP  C1   O5    SING  2 
+UAP  C1   1H1   SING  3 
+UAP  C1   2H1   SING  4 
+UAP  C2   C3    SING  5 
+UAP  C2   O2    SING  6 
+UAP  C2   H2    SING  7 
+UAP  C3   C4    SING  8 
+UAP  C3   O3    SING  9 
+UAP  C3   H3    SING  10
+UAP  C4   C5    DOUB  11
+UAP  C4   H4    SING  12
+UAP  C5   C6    SING  13
+UAP  C5   O5    SING  14
+UAP  C6   O61   DOUB  15
+UAP  C6   O62   SING  16
+UAP  O2   S     SING  17
+UAP  O3   HO3   SING  18
+UAP  O62  HO6   SING  19
+UAP  S    O1S   DOUB  20
+UAP  S    O2S   DOUB  21
+UAP  S    O3S   SING  22
+UAP  O3S  3HOS  SING  23
+#

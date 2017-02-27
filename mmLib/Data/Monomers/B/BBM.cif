@@ -1,0 +1,112 @@
+data_BBM
+#
+_chem_comp.id                   BBM
+_chem_comp.name                 5-BROMO-N-(2,3-DIHYDROXYPROPOXY)-3,4-DIFLUORO-2-[(2-FLUORO-4-IODOPHENYL)AMINO]BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H13 N2 O4 BR1 F3 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        561.093
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BBM  O1    .  O   0  30.546  29.075  41.004  1  1 
+BBM  C7    .  C   0  30.596  28.636  39.868  1  2 
+BBM  N2    .  N   0  30.376  29.435  38.825  1  3 
+BBM  O4    .  O   0  29.822  30.743  39.053  1  4 
+BBM  C15   .  C   0  28.520  31.090  38.578  1  5 
+BBM  C16   .  C   0  27.538  31.267  39.737  1  6 
+BBM  C17   .  C   0  26.291  31.991  39.232  1  7 
+BBM  O3    .  O   0  26.531  33.402  39.162  1  8 
+BBM  O2    .  O   0  28.135  32.010  40.811  1  9 
+BBM  C8    .  C   0  30.864  27.167  39.686  1  10
+BBM  C9    .  C   0  30.247  26.484  38.644  1  11
+BBM  C10   .  C   0  30.448  25.123  38.442  1  12
+BBM  BR    .  BR  0  29.585  24.286  37.000  0  13
+BBM  C11   .  C   0  31.320  24.306  39.318  1  14
+BBM  F1    .  F   0  31.494  22.992  39.097  1  15
+BBM  C12   .  C   0  31.988  24.973  40.446  1  16
+BBM  F2    .  F   0  32.784  24.254  41.250  1  17
+BBM  C13   .  C   0  31.761  26.434  40.628  1  18
+BBM  N     .  N   0  32.351  27.112  41.637  1  19
+BBM  C3    .  C   0  33.685  27.106  41.893  1  20
+BBM  C26   .  C   0  34.147  27.909  43.045  1  21
+BBM  F3    .  F   0  33.252  28.604  43.769  1  22
+BBM  C4    .  C   0  34.636  26.393  41.155  1  23
+BBM  C5    .  C   0  35.977  26.439  41.503  1  24
+BBM  C6    .  C   0  36.397  27.197  42.588  1  25
+BBM  I     .  I   0  38.424  27.232  43.067  1  26
+BBM  C1    .  C   0  35.498  27.928  43.356  1  27
+BBM  HO3   .  H   0  ?       ?       ?       1  28
+BBM  1H17  .  H   0  ?       ?       ?       0  29
+BBM  2H17  .  H   0  ?       ?       ?       0  30
+BBM  H16   .  H   0  ?       ?       ?       1  31
+BBM  HO2   .  H   0  ?       ?       ?       1  32
+BBM  1H15  .  H   0  ?       ?       ?       0  33
+BBM  2H15  .  H   0  ?       ?       ?       0  34
+BBM  HN2   .  H   0  ?       ?       ?       1  35
+BBM  H9    .  H   0  ?       ?       ?       1  36
+BBM  HN    .  H   0  ?       ?       ?       1  37
+BBM  H4    .  H   0  ?       ?       ?       1  38
+BBM  H5    .  H   0  ?       ?       ?       1  39
+BBM  H1    .  H   0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BBM  O1   C7    DOUB  1 
+BBM  C7   N2    SING  2 
+BBM  C7   C8    SING  3 
+BBM  N2   O4    SING  4 
+BBM  N2   HN2   SING  5 
+BBM  O4   C15   SING  6 
+BBM  C15  C16   SING  7 
+BBM  C15  1H15  SING  8 
+BBM  C15  2H15  SING  9 
+BBM  C16  C17   SING  10
+BBM  C16  H16   SING  11
+BBM  C16  O2    SING  12
+BBM  C17  O3    SING  13
+BBM  C17  1H17  SING  14
+BBM  C17  2H17  SING  15
+BBM  O3   HO3   SING  16
+BBM  O2   HO2   SING  17
+BBM  C8   C9    AROM  18
+BBM  C8   C13   AROM  19
+BBM  C9   H9    SING  20
+BBM  C9   C10   AROM  21
+BBM  C10  BR    SING  22
+BBM  C10  C11   AROM  23
+BBM  C11  F1    SING  24
+BBM  C11  C12   AROM  25
+BBM  C12  F2    SING  26
+BBM  C12  C13   AROM  27
+BBM  C13  N     SING  28
+BBM  N    HN    SING  29
+BBM  N    C3    SING  30
+BBM  C3   C4    AROM  31
+BBM  C3   C26   AROM  32
+BBM  C26  C1    AROM  33
+BBM  C26  F3    SING  34
+BBM  C4   H4    SING  35
+BBM  C4   C5    AROM  36
+BBM  C5   H5    SING  37
+BBM  C5   C6    AROM  38
+BBM  C6   I     SING  39
+BBM  C6   C1    AROM  40
+BBM  C1   H1    SING  41
+#

@@ -1,0 +1,104 @@
+data_DFT
+#
+_chem_comp.id                   DFT
+_chem_comp.name                 1-[2-DEOXYRIBOFURANOSYL]-2,4-DIFLUORO-5-METHYL-BENZENE-5'MONOPHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 O6 F2 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.217
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFT  P     .  P  0  ?  ?  ?  1  1 
+DFT  O1P   .  O  0  ?  ?  ?  1  2 
+DFT  O2P   .  O  0  ?  ?  ?  1  3 
+DFT  O3P   .  O  0  ?  ?  ?  1  4 
+DFT  O5*   .  O  0  ?  ?  ?  1  5 
+DFT  C5*   .  C  0  ?  ?  ?  1  6 
+DFT  C4*   .  C  0  ?  ?  ?  1  7 
+DFT  O4*   .  O  0  ?  ?  ?  1  8 
+DFT  C3*   .  C  0  ?  ?  ?  1  9 
+DFT  O3*   .  O  0  ?  ?  ?  1  10
+DFT  C2*   .  C  0  ?  ?  ?  1  11
+DFT  C1*   .  C  0  ?  ?  ?  1  12
+DFT  C2    .  C  0  ?  ?  ?  1  13
+DFT  C4    .  C  0  ?  ?  ?  1  14
+DFT  C5    .  C  0  ?  ?  ?  1  15
+DFT  C5M   .  C  0  ?  ?  ?  1  16
+DFT  C6    .  C  0  ?  ?  ?  1  17
+DFT  F4    .  F  0  ?  ?  ?  1  18
+DFT  C3    .  C  0  ?  ?  ?  1  19
+DFT  F2    .  F  0  ?  ?  ?  1  20
+DFT  C1    .  C  0  ?  ?  ?  1  21
+DFT  2HOP  .  H  0  ?  ?  ?  0  22
+DFT  3HOP  .  H  0  ?  ?  ?  0  23
+DFT  1H5*  .  H  0  ?  ?  ?  0  24
+DFT  2H5*  .  H  0  ?  ?  ?  0  25
+DFT  H4*   .  H  0  ?  ?  ?  1  26
+DFT  H3*   .  H  0  ?  ?  ?  1  27
+DFT  *HO3  .  H  0  ?  ?  ?  0  28
+DFT  1H2*  .  H  0  ?  ?  ?  0  29
+DFT  2H2*  .  H  0  ?  ?  ?  0  30
+DFT  H1*   .  H  0  ?  ?  ?  1  31
+DFT  H3    .  H  0  ?  ?  ?  1  32
+DFT  1H5M  .  H  0  ?  ?  ?  0  33
+DFT  2H5M  .  H  0  ?  ?  ?  0  34
+DFT  3H5M  .  H  0  ?  ?  ?  0  35
+DFT  H6    .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFT  P    O1P   DOUB  1 
+DFT  P    O2P   SING  2 
+DFT  P    O3P   SING  3 
+DFT  P    O5*   SING  4 
+DFT  O2P  2HOP  SING  5 
+DFT  O3P  3HOP  SING  6 
+DFT  O5*  C5*   SING  7 
+DFT  C5*  C4*   SING  8 
+DFT  C5*  1H5*  SING  9 
+DFT  C5*  2H5*  SING  10
+DFT  C4*  O4*   SING  11
+DFT  C4*  C3*   SING  12
+DFT  C4*  H4*   SING  13
+DFT  O4*  C1*   SING  14
+DFT  C3*  O3*   SING  15
+DFT  C3*  C2*   SING  16
+DFT  C3*  H3*   SING  17
+DFT  O3*  *HO3  SING  18
+DFT  C2*  C1*   SING  19
+DFT  C2*  1H2*  SING  20
+DFT  C2*  2H2*  SING  21
+DFT  C1*  H1*   SING  22
+DFT  C1*  C1    SING  23
+DFT  C2   C3    DOUB  24
+DFT  C2   F2    SING  25
+DFT  C2   C1    SING  26
+DFT  C4   C5    DOUB  27
+DFT  C4   F4    SING  28
+DFT  C4   C3    SING  29
+DFT  C5   C5M   SING  30
+DFT  C5   C6    SING  31
+DFT  C5M  1H5M  SING  32
+DFT  C5M  2H5M  SING  33
+DFT  C5M  3H5M  SING  34
+DFT  C6   H6    SING  35
+DFT  C6   C1    DOUB  36
+DFT  C3   H3    SING  37
+#

@@ -1,0 +1,106 @@
+data_DP3
+#
+_chem_comp.id                   DP3
+_chem_comp.name                 N-{(4S)-4-AMINO-5-[(2-AMINOETHYL)AMINO]PENTYL}-N'-NITROGUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H21 N7 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        247.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DP3  N2'   .  N  0   4.585   2.220   27.520  1  1 
+DP3  C2'   .  C  0   5.271   2.260   26.178  1  2 
+DP3  C1'   .  C  0   5.620   0.851   25.612  1  3 
+DP3  N1'   .  N  0   7.027   0.413   25.875  1  4 
+DP3  C     .  C  0   7.578   -0.583  24.924  1  5 
+DP3  CA    .  C  0   9.132   -0.746  24.984  1  6 
+DP3  N     .  N  0   9.442   -2.059  25.625  1  7 
+DP3  CB    .  C  0   9.829   -0.789  23.579  1  8 
+DP3  CG    .  C  0   10.163  0.597   22.998  1  9 
+DP3  CD    .  C  0   11.208  1.382   23.813  1  10
+DP3  NE    .  N  0   12.474  0.580   23.970  1  11
+DP3  CZ    .  C  0   13.545  0.616   23.199  1  12
+DP3  NH2   .  N  0   14.572  -0.207  23.551  1  13
+DP3  NH1   .  N  0   13.563  1.452   22.120  1  14
+DP3  NO    .  N  1   14.573  1.413   21.174  1  15
+DP3  O2    .  O  0   14.499  2.218   20.185  1  16
+DP3  O3    .  O  -1  15.563  0.620   21.247  1  17
+DP3  1H2'  .  H  0   ?       ?       ?       0  18
+DP3  2H2'  .  H  0   ?       ?       ?       0  19
+DP3  1H1   .  H  0   ?       ?       ?       0  20
+DP3  2H1   .  H  0   ?       ?       ?       0  21
+DP3  1H1'  .  H  0   ?       ?       ?       0  22
+DP3  2H1'  .  H  0   ?       ?       ?       0  23
+DP3  H1'   .  H  0   ?       ?       ?       1  24
+DP3  1H    .  H  0   ?       ?       ?       0  25
+DP3  2H    .  H  0   ?       ?       ?       0  26
+DP3  HA    .  H  0   ?       ?       ?       1  27
+DP3  1HN   .  H  0   ?       ?       ?       0  28
+DP3  2HN   .  H  0   ?       ?       ?       0  29
+DP3  1HB   .  H  0   ?       ?       ?       0  30
+DP3  2HB   .  H  0   ?       ?       ?       0  31
+DP3  1HG   .  H  0   ?       ?       ?       0  32
+DP3  2HG   .  H  0   ?       ?       ?       0  33
+DP3  1HD   .  H  0   ?       ?       ?       0  34
+DP3  2HD   .  H  0   ?       ?       ?       0  35
+DP3  HNE   .  H  0   ?       ?       ?       1  36
+DP3  HH2   .  H  0   ?       ?       ?       1  37
+DP3  HH1   .  H  0   ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DP3  N2'  C2'   SING  1 
+DP3  N2'  1H2'  SING  2 
+DP3  N2'  2H2'  SING  3 
+DP3  C2'  C1'   SING  4 
+DP3  C2'  1H1   SING  5 
+DP3  C2'  2H1   SING  6 
+DP3  C1'  N1'   SING  7 
+DP3  C1'  1H1'  SING  8 
+DP3  C1'  2H1'  SING  9 
+DP3  N1'  C     SING  10
+DP3  N1'  H1'   SING  11
+DP3  C    CA    SING  12
+DP3  C    1H    SING  13
+DP3  C    2H    SING  14
+DP3  CA   N     SING  15
+DP3  CA   CB    SING  16
+DP3  CA   HA    SING  17
+DP3  N    1HN   SING  18
+DP3  N    2HN   SING  19
+DP3  CB   CG    SING  20
+DP3  CB   1HB   SING  21
+DP3  CB   2HB   SING  22
+DP3  CG   CD    SING  23
+DP3  CG   1HG   SING  24
+DP3  CG   2HG   SING  25
+DP3  CD   NE    SING  26
+DP3  CD   1HD   SING  27
+DP3  CD   2HD   SING  28
+DP3  NE   CZ    SING  29
+DP3  NE   HNE   SING  30
+DP3  CZ   NH2   DOUB  31
+DP3  CZ   NH1   SING  32
+DP3  NH2  HH2   SING  33
+DP3  NH1  NO    SING  34
+DP3  NH1  HH1   SING  35
+DP3  NO   O2    DOUB  36
+DP3  NO   O3    SING  37
+#

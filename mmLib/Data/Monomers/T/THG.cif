@@ -1,0 +1,143 @@
+data_THG
+#
+_chem_comp.id                   THG
+_chem_comp.name                 (6S)-5,6,7,8-TETRAHYDROFOLATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H23 N7 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        445.434
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THG  N3    .  N  0  102.170  2.683  3.643   1  1 
+THG  C2    .  C  0  102.659  1.881  2.596   1  2 
+THG  N1    .  N  0  103.145  2.399  1.470   1  3 
+THG  C8A   .  C  0  103.160  3.739  1.342   1  4 
+THG  C4A   .  C  0  102.722  4.583  2.356   1  5 
+THG  C4    .  C  0  102.140  4.076  3.535   1  6 
+THG  N8    .  N  0  103.638  4.262  0.135   1  7 
+THG  C7    .  C  0  103.595  5.726  -0.104  1  8 
+THG  C6    .  C  0  103.725  6.536  1.200   1  9 
+THG  N5    .  N  0  102.832  5.993  2.236   1  10
+THG  C9    .  C  0  105.110  6.430  1.794   1  11
+THG  N10   .  N  0  104.997  6.984  3.167   1  12
+THG  C4'   .  C  0  105.503  6.226  4.256   1  13
+THG  C3'   .  C  0  105.439  6.775  5.561   1  14
+THG  C2'   .  C  0  106.072  6.111  6.619   1  15
+THG  C1'   .  C  0  106.757  4.898  6.360   1  16
+THG  C6'   .  C  0  106.706  4.295  5.086   1  17
+THG  C5'   .  C  0  106.079  4.954  4.032   1  18
+THG  C11   .  C  0  107.551  4.228  7.396   1  19
+THG  N     .  N  0  107.561  4.813  8.643   1  20
+THG  CA    .  C  0  108.386  4.232  9.718   1  21
+THG  C     .  C  0  107.865  4.647  11.077  1  22
+THG  OX2   .  O  0  107.028  5.555  11.147  1  23
+THG  OX1   .  O  0  108.344  4.077  12.063  1  24
+THG  CB    .  C  0  109.864  4.644  9.534   1  25
+THG  CG    .  C  0  110.045  6.175  9.577   1  26
+THG  CD    .  C  0  111.506  6.558  9.439   1  27
+THG  OE1   .  O  0  112.056  6.426  8.335   1  28
+THG  OE2   .  O  0  112.071  6.990  10.457  1  29
+THG  O11   .  O  0  108.218  3.203  7.169   1  30
+THG  O4    .  O  0  101.633  4.748  4.452   1  31
+THG  N2    .  N  0  102.596  0.507  2.806   1  32
+THG  1HN2  .  H  0  ?        ?      ?       0  33
+THG  2HN2  .  H  0  ?        ?      ?       0  34
+THG  HN3   .  H  0  ?        ?      ?       1  35
+THG  HN5   .  H  0  ?        ?      ?       1  36
+THG  HN8   .  H  0  ?        ?      ?       1  37
+THG  HC6   .  H  0  ?        ?      ?       1  38
+THG  1HC7  .  H  0  ?        ?      ?       0  39
+THG  2HC7  .  H  0  ?        ?      ?       0  40
+THG  1HC9  .  H  0  ?        ?      ?       0  41
+THG  2HC9  .  H  0  ?        ?      ?       0  42
+THG  H10   .  H  0  ?        ?      ?       1  43
+THG  HC2   .  H  0  ?        ?      ?       1  44
+THG  HC3   .  H  0  ?        ?      ?       1  45
+THG  HC5   .  H  0  ?        ?      ?       1  46
+THG  1HC6  .  H  0  ?        ?      ?       0  47
+THG  HN    .  H  0  ?        ?      ?       1  48
+THG  HCA   .  H  0  ?        ?      ?       1  49
+THG  HX2   .  H  0  ?        ?      ?       1  50
+THG  1HCB  .  H  0  ?        ?      ?       0  51
+THG  2HCB  .  H  0  ?        ?      ?       0  52
+THG  1HCG  .  H  0  ?        ?      ?       0  53
+THG  2HCG  .  H  0  ?        ?      ?       0  54
+THG  HE2   .  H  0  ?        ?      ?       1  55
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THG  N3   C2    SING  1 
+THG  N3   C4    SING  2 
+THG  N3   HN3   SING  3 
+THG  C2   N1    DOUB  4 
+THG  C2   N2    SING  5 
+THG  N1   C8A   SING  6 
+THG  C8A  C4A   DOUB  7 
+THG  C8A  N8    SING  8 
+THG  C4A  C4    SING  9 
+THG  C4A  N5    SING  10
+THG  C4   O4    DOUB  11
+THG  N8   C7    SING  12
+THG  N8   HN8   SING  13
+THG  C7   C6    SING  14
+THG  C7   1HC7  SING  15
+THG  C7   2HC7  SING  16
+THG  C6   N5    SING  17
+THG  C6   C9    SING  18
+THG  C6   HC6   SING  19
+THG  N5   HN5   SING  20
+THG  C9   N10   SING  21
+THG  C9   1HC9  SING  22
+THG  C9   2HC9  SING  23
+THG  N10  C4'   SING  24
+THG  N10  H10   SING  25
+THG  C4'  C3'   AROM  26
+THG  C4'  C5'   AROM  27
+THG  C3'  C2'   AROM  28
+THG  C3'  HC3   SING  29
+THG  C2'  C1'   AROM  30
+THG  C2'  HC2   SING  31
+THG  C1'  C6'   AROM  32
+THG  C1'  C11   SING  33
+THG  C6'  C5'   AROM  34
+THG  C6'  1HC6  SING  35
+THG  C5'  HC5   SING  36
+THG  C11  N     SING  37
+THG  C11  O11   DOUB  38
+THG  N    CA    SING  39
+THG  N    HN    SING  40
+THG  CA   C     SING  41
+THG  CA   CB    SING  42
+THG  CA   HCA   SING  43
+THG  C    OX2   SING  44
+THG  C    OX1   DOUB  45
+THG  OX2  HX2   SING  46
+THG  CB   CG    SING  47
+THG  CB   1HCB  SING  48
+THG  CB   2HCB  SING  49
+THG  CG   CD    SING  50
+THG  CG   1HCG  SING  51
+THG  CG   2HCG  SING  52
+THG  CD   OE1   DOUB  53
+THG  CD   OE2   SING  54
+THG  OE2  HE2   SING  55
+THG  N2   1HN2  SING  56
+THG  N2   2HN2  SING  57
+#

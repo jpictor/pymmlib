@@ -1,0 +1,63 @@
+data_AIB
+#
+_chem_comp.id                       AIB
+_chem_comp.name                     'ALPHA-AMINOISOBUTYRIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            103.121
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AIB  N     .  N  0  ?  ?  ?  1  1 
+AIB  CA    .  C  0  ?  ?  ?  1  2 
+AIB  C     .  C  0  ?  ?  ?  1  3 
+AIB  O1    .  O  0  ?  ?  ?  1  4 
+AIB  O2    .  O  0  ?  ?  ?  1  5 
+AIB  CB1   .  C  0  ?  ?  ?  1  6 
+AIB  CB2   .  C  0  ?  ?  ?  1  7 
+AIB  1HN   .  H  0  ?  ?  ?  0  8 
+AIB  2HN   .  H  0  ?  ?  ?  0  9 
+AIB  HO2   .  H  0  ?  ?  ?  1  10
+AIB  1HB1  .  H  0  ?  ?  ?  0  11
+AIB  2HB1  .  H  0  ?  ?  ?  0  12
+AIB  3HB1  .  H  0  ?  ?  ?  0  13
+AIB  1HB2  .  H  0  ?  ?  ?  0  14
+AIB  2HB2  .  H  0  ?  ?  ?  0  15
+AIB  3HB2  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AIB  N    CA    SING  1 
+AIB  N    1HN   SING  2 
+AIB  N    2HN   SING  3 
+AIB  CA   C     SING  4 
+AIB  CA   CB1   SING  5 
+AIB  CA   CB2   SING  6 
+AIB  C    O1    DOUB  7 
+AIB  C    O2    SING  8 
+AIB  O2   HO2   SING  9 
+AIB  CB1  1HB1  SING  10
+AIB  CB1  2HB1  SING  11
+AIB  CB1  3HB1  SING  12
+AIB  CB2  1HB2  SING  13
+AIB  CB2  2HB2  SING  14
+AIB  CB2  3HB2  SING  15
+#

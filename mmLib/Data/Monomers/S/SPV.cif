@@ -1,0 +1,58 @@
+data_SPV
+#
+_chem_comp.id                   SPV
+_chem_comp.name                 SULFOPYRUVATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H4 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        168.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPV  C1    .  C  0  53.403  103.578  54.806  1  1 
+SPV  O1    .  O  0  52.511  104.328  55.353  1  2 
+SPV  O2'   .  O  0  53.928  102.647  55.384  1  3 
+SPV  C2    .  C  0  53.728  103.964  53.368  1  4 
+SPV  C3    .  C  0  54.227  105.126  52.850  1  5 
+SPV  O2    .  O  0  53.471  103.044  52.519  1  6 
+SPV  S     .  S  0  55.953  105.450  53.342  1  7 
+SPV  O1S   .  O  0  56.639  104.240  53.143  1  8 
+SPV  O2S   .  O  0  55.868  105.855  54.705  1  9 
+SPV  O3S   .  O  0  56.471  106.404  52.461  1  10
+SPV  1H3   .  H  0  ?       ?        ?       0  11
+SPV  2H3   .  H  0  ?       ?        ?       0  12
+SPV  OH2S  .  H  0  ?       ?        ?       0  13
+SPV  OH2'  .  H  0  ?       ?        ?       0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPV  C1   O1    DOUB  1 
+SPV  C1   O2'   SING  2 
+SPV  C1   C2    SING  3 
+SPV  O2'  OH2'  SING  4 
+SPV  C2   C3    SING  5 
+SPV  C2   O2    DOUB  6 
+SPV  C3   S     SING  7 
+SPV  C3   1H3   SING  8 
+SPV  C3   2H3   SING  9 
+SPV  S    O1S   DOUB  10
+SPV  S    O2S   SING  11
+SPV  S    O3S   DOUB  12
+SPV  O2S  OH2S  SING  13
+#

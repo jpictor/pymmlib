@@ -1,0 +1,97 @@
+data_NGS
+#
+_chem_comp.id                   NGS
+_chem_comp.name                 'N-ACETYL-D-GLUCOSAMINE-6-SULFATE GROUP'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C8 H14 N1 O9 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        300.260
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NGS  C1    .  C  0  ?  ?  ?  1  1 
+NGS  C2    .  C  0  ?  ?  ?  1  2 
+NGS  C3    .  C  0  ?  ?  ?  1  3 
+NGS  C4    .  C  0  ?  ?  ?  1  4 
+NGS  C5    .  C  0  ?  ?  ?  1  5 
+NGS  C6    .  C  0  ?  ?  ?  1  6 
+NGS  O1    .  O  0  ?  ?  ?  1  7 
+NGS  O3    .  O  0  ?  ?  ?  1  8 
+NGS  O4    .  O  0  ?  ?  ?  1  9 
+NGS  O5    .  O  0  ?  ?  ?  1  10
+NGS  O6    .  O  0  ?  ?  ?  1  11
+NGS  N     .  N  0  ?  ?  ?  1  12
+NGS  C     .  C  0  ?  ?  ?  1  13
+NGS  O     .  O  0  ?  ?  ?  1  14
+NGS  CH3   .  C  0  ?  ?  ?  1  15
+NGS  S     .  S  0  ?  ?  ?  1  16
+NGS  O7    .  O  0  ?  ?  ?  1  17
+NGS  O8    .  O  0  ?  ?  ?  1  18
+NGS  O9    .  O  0  ?  ?  ?  1  19
+NGS  H1    .  H  0  ?  ?  ?  1  20
+NGS  H2    .  H  0  ?  ?  ?  1  21
+NGS  H3    .  H  0  ?  ?  ?  1  22
+NGS  H4    .  H  0  ?  ?  ?  1  23
+NGS  H5    .  H  0  ?  ?  ?  1  24
+NGS  1H6   .  H  0  ?  ?  ?  0  25
+NGS  2H6   .  H  0  ?  ?  ?  0  26
+NGS  HO1   .  H  0  ?  ?  ?  1  27
+NGS  HO3   .  H  0  ?  ?  ?  1  28
+NGS  HO4   .  H  0  ?  ?  ?  1  29
+NGS  HN    .  H  0  ?  ?  ?  1  30
+NGS  1HH3  .  H  0  ?  ?  ?  0  31
+NGS  2HH3  .  H  0  ?  ?  ?  0  32
+NGS  3HH3  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NGS  C1   C2    SING  1 
+NGS  C1   O1    SING  2 
+NGS  C1   O5    SING  3 
+NGS  C1   H1    SING  4 
+NGS  C2   C3    SING  5 
+NGS  C2   N     SING  6 
+NGS  C2   H2    SING  7 
+NGS  C3   C4    SING  8 
+NGS  C3   O3    SING  9 
+NGS  C3   H3    SING  10
+NGS  C4   C5    SING  11
+NGS  C4   O4    SING  12
+NGS  C4   H4    SING  13
+NGS  C5   C6    SING  14
+NGS  C5   O5    SING  15
+NGS  C5   H5    SING  16
+NGS  C6   O6    SING  17
+NGS  C6   1H6   SING  18
+NGS  C6   2H6   SING  19
+NGS  O1   HO1   SING  20
+NGS  O3   HO3   SING  21
+NGS  O4   HO4   SING  22
+NGS  O6   S     SING  23
+NGS  N    C     SING  24
+NGS  N    HN    SING  25
+NGS  C    O     DOUB  26
+NGS  C    CH3   SING  27
+NGS  CH3  1HH3  SING  28
+NGS  CH3  2HH3  SING  29
+NGS  CH3  3HH3  SING  30
+NGS  S    O7    DOUB  31
+NGS  S    O8    DOUB  32
+NGS  S    O9    SING  33
+#

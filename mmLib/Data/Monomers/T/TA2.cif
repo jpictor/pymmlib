@@ -1,0 +1,89 @@
+data_TA2
+#
+_chem_comp.id                   TA2
+_chem_comp.name                 (2R,3S)-3-AMINO-3-PHENYLPROPANE-1,2-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.207
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          TA2
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc(cc1)[C@@H]([C@H](CO)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+TA2  OH1   .  O  0  77.295  43.319  16.840  1  N  1 
+TA2  COH   .  C  0  76.218  43.406  17.737  1  N  2 
+TA2  C     .  C  0  76.690  43.687  19.167  1  N  3 
+TA2  O     .  O  0  77.762  44.372  19.383  1  N  4 
+TA2  CA    .  C  0  75.222  44.474  17.331  1  N  5 
+TA2  N     .  N  0  75.700  45.842  17.648  1  N  6 
+TA2  CG    .  C  0  74.891  44.369  15.818  1  Y  7 
+TA2  CD2   .  C  0  74.983  45.589  15.111  1  Y  8 
+TA2  CE2   .  C  0  74.607  45.656  13.752  1  Y  9 
+TA2  CZ    .  C  0  74.139  44.482  13.104  1  Y  10
+TA2  CE1   .  C  0  74.053  43.264  13.822  1  Y  11
+TA2  CD1   .  C  0  74.429  43.197  15.184  1  Y  12
+TA2  HOH1  .  H  0  76.965  43.299  15.949  0  N  13
+TA2  HOH   .  H  0  75.722  42.425  17.705  1  N  14
+TA2  1H    .  H  0  75.874  44.244  19.650  0  N  15
+TA2  2H    .  H  0  76.947  42.688  19.550  0  N  16
+TA2  HO    .  H  0  78.202  44.540  18.558  1  N  17
+TA2  HA    .  H  0  74.309  44.295  17.918  1  N  18
+TA2  1HN   .  H  0  75.808  45.937  18.638  0  N  19
+TA2  2HN   .  H  0  76.580  45.999  17.201  0  N  20
+TA2  HD2   .  H  0  75.343  46.475  15.613  1  N  21
+TA2  HE2   .  H  0  74.674  46.589  13.212  1  N  22
+TA2  HZ    .  H  0  73.849  44.518  12.064  1  N  23
+TA2  HE1   .  H  0  73.696  42.375  13.323  1  N  24
+TA2  HD1   .  H  0  74.364  42.266  15.728  1  N  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+TA2  OH1  COH   SING  N  1 
+TA2  OH1  HOH1  SING  N  2 
+TA2  COH  C     SING  N  3 
+TA2  COH  CA    SING  N  4 
+TA2  COH  HOH   SING  N  5 
+TA2  C    O     SING  N  6 
+TA2  C    1H    SING  N  7 
+TA2  C    2H    SING  N  8 
+TA2  O    HO    SING  N  9 
+TA2  CA   N     SING  N  10
+TA2  CA   CG    SING  N  11
+TA2  CA   HA    SING  N  12
+TA2  N    1HN   SING  N  13
+TA2  N    2HN   SING  N  14
+TA2  CG   CD2   DOUB  Y  15
+TA2  CG   CD1   SING  Y  16
+TA2  CD2  CE2   SING  Y  17
+TA2  CD2  HD2   SING  N  18
+TA2  CE2  CZ    DOUB  Y  19
+TA2  CE2  HE2   SING  N  20
+TA2  CZ   CE1   SING  Y  21
+TA2  CZ   HZ    SING  N  22
+TA2  CE1  CD1   DOUB  Y  23
+TA2  CE1  HE1   SING  N  24
+TA2  CD1  HD1   SING  N  25
+#

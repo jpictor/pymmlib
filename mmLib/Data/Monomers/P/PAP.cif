@@ -1,0 +1,127 @@
+data_PAP
+#
+_chem_comp.id                   PAP
+_chem_comp.name                 3'-PHOSPHATE-ADENOSINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        507.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAP  PB    .  P  0  ?  ?  ?  1  1 
+PAP  O1B   .  O  0  ?  ?  ?  1  2 
+PAP  O2B   .  O  0  ?  ?  ?  1  3 
+PAP  O3B   .  O  0  ?  ?  ?  1  4 
+PAP  PA    .  P  0  ?  ?  ?  1  5 
+PAP  O1A   .  O  0  ?  ?  ?  1  6 
+PAP  O2A   .  O  0  ?  ?  ?  1  7 
+PAP  O3A   .  O  0  ?  ?  ?  1  8 
+PAP  O5*   .  O  0  ?  ?  ?  1  9 
+PAP  C5*   .  C  0  ?  ?  ?  1  10
+PAP  C4*   .  C  0  ?  ?  ?  1  11
+PAP  O4*   .  O  0  ?  ?  ?  1  12
+PAP  C3*   .  C  0  ?  ?  ?  1  13
+PAP  O3*   .  O  0  ?  ?  ?  1  14
+PAP  P     .  P  0  ?  ?  ?  1  15
+PAP  O1    .  O  0  ?  ?  ?  1  16
+PAP  O2    .  O  0  ?  ?  ?  1  17
+PAP  O3    .  O  0  ?  ?  ?  1  18
+PAP  C2*   .  C  0  ?  ?  ?  1  19
+PAP  O2*   .  O  0  ?  ?  ?  1  20
+PAP  C1*   .  C  0  ?  ?  ?  1  21
+PAP  N9    .  N  0  ?  ?  ?  1  22
+PAP  C8    .  C  0  ?  ?  ?  1  23
+PAP  N7    .  N  0  ?  ?  ?  1  24
+PAP  C5    .  C  0  ?  ?  ?  1  25
+PAP  C6    .  C  0  ?  ?  ?  1  26
+PAP  N6    .  N  0  ?  ?  ?  1  27
+PAP  N1    .  N  0  ?  ?  ?  1  28
+PAP  C2    .  C  0  ?  ?  ?  1  29
+PAP  N3    .  N  0  ?  ?  ?  1  30
+PAP  C4    .  C  0  ?  ?  ?  1  31
+PAP  2HOA  .  H  0  ?  ?  ?  0  32
+PAP  2HOB  .  H  0  ?  ?  ?  0  33
+PAP  3HOB  .  H  0  ?  ?  ?  0  34
+PAP  1H5*  .  H  0  ?  ?  ?  0  35
+PAP  2H5*  .  H  0  ?  ?  ?  0  36
+PAP  H4*   .  H  0  ?  ?  ?  1  37
+PAP  H3*   .  H  0  ?  ?  ?  1  38
+PAP  HO2   .  H  0  ?  ?  ?  1  39
+PAP  HO3   .  H  0  ?  ?  ?  1  40
+PAP  H2*   .  H  0  ?  ?  ?  1  41
+PAP  *HO2  .  H  0  ?  ?  ?  0  42
+PAP  H1*   .  H  0  ?  ?  ?  1  43
+PAP  H8    .  H  0  ?  ?  ?  1  44
+PAP  1HN6  .  H  0  ?  ?  ?  0  45
+PAP  2HN6  .  H  0  ?  ?  ?  0  46
+PAP  H2    .  H  0  ?  ?  ?  1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAP  PB   O1B   DOUB  1 
+PAP  PB   O2B   SING  2 
+PAP  PB   O3B   SING  3 
+PAP  PB   O3A   SING  4 
+PAP  O2B  2HOB  SING  5 
+PAP  O3B  3HOB  SING  6 
+PAP  PA   O1A   DOUB  7 
+PAP  PA   O2A   SING  8 
+PAP  PA   O3A   SING  9 
+PAP  PA   O5*   SING  10
+PAP  O2A  2HOA  SING  11
+PAP  O5*  C5*   SING  12
+PAP  C5*  C4*   SING  13
+PAP  C5*  1H5*  SING  14
+PAP  C5*  2H5*  SING  15
+PAP  C4*  O4*   SING  16
+PAP  C4*  C3*   SING  17
+PAP  C4*  H4*   SING  18
+PAP  O4*  C1*   SING  19
+PAP  C3*  O3*   SING  20
+PAP  C3*  C2*   SING  21
+PAP  C3*  H3*   SING  22
+PAP  O3*  P     SING  23
+PAP  P    O1    DOUB  24
+PAP  P    O2    SING  25
+PAP  P    O3    SING  26
+PAP  O2   HO2   SING  27
+PAP  O3   HO3   SING  28
+PAP  C2*  O2*   SING  29
+PAP  C2*  C1*   SING  30
+PAP  C2*  H2*   SING  31
+PAP  O2*  *HO2  SING  32
+PAP  C1*  N9    SING  33
+PAP  C1*  H1*   SING  34
+PAP  N9   C8    SING  35
+PAP  N9   C4    SING  36
+PAP  C8   N7    DOUB  37
+PAP  C8   H8    SING  38
+PAP  N7   C5    SING  39
+PAP  C5   C6    SING  40
+PAP  C5   C4    DOUB  41
+PAP  C6   N6    SING  42
+PAP  C6   N1    DOUB  43
+PAP  N6   1HN6  SING  44
+PAP  N6   2HN6  SING  45
+PAP  N1   C2    SING  46
+PAP  C2   N3    DOUB  47
+PAP  C2   H2    SING  48
+PAP  N3   C4    SING  49
+#

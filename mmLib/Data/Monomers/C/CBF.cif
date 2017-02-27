@@ -1,0 +1,87 @@
+data_CBF
+#
+_chem_comp.id                   CBF
+_chem_comp.name                 'C-(1-HYDROGYL-BETA-D-GLUCOPYRANOSYL) FORMAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAS
+_chem_comp.formula              'C7 H13 N1 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        223.182
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBF  O6    .  O  0  33.344  18.784  27.254  1  1 
+CBF  C6    .  C  0  32.245  19.490  27.796  1  2 
+CBF  C5    .  C  0  32.331  20.974  27.435  1  3 
+CBF  O5    .  O  0  33.427  21.578  28.144  1  4 
+CBF  C1    .  C  0  33.553  22.994  27.930  1  5 
+CBF  O1    .  O  0  32.350  23.655  28.269  1  6 
+CBF  C7    .  C  0  34.664  23.536  28.823  1  7 
+CBF  O7    .  O  0  34.348  24.146  29.849  1  8 
+CBF  N1    .  N  0  35.920  23.185  28.569  1  9 
+CBF  C2    .  C  0  33.868  23.241  26.449  1  10
+CBF  O2    .  O  0  33.992  24.626  26.198  1  11
+CBF  C3    .  C  0  32.750  22.638  25.585  1  12
+CBF  O3    .  O  0  33.069  22.762  24.215  1  13
+CBF  C4    .  C  0  32.537  21.159  25.926  1  14
+CBF  O4    .  O  0  31.418  20.667  25.220  1  15
+CBF  HO6   .  H  0  ?       ?       ?       1  16
+CBF  1H6   .  H  0  ?       ?       ?       0  17
+CBF  2H6   .  H  0  ?       ?       ?       0  18
+CBF  H5    .  H  0  ?       ?       ?       1  19
+CBF  HO1   .  H  0  ?       ?       ?       1  20
+CBF  1HN1  .  H  0  ?       ?       ?       0  21
+CBF  2HN1  .  H  0  ?       ?       ?       0  22
+CBF  H2    .  H  0  ?       ?       ?       1  23
+CBF  HO2   .  H  0  ?       ?       ?       1  24
+CBF  H3    .  H  0  ?       ?       ?       1  25
+CBF  HO3   .  H  0  ?       ?       ?       1  26
+CBF  H4    .  H  0  ?       ?       ?       1  27
+CBF  HO4   .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBF  O6  HO6   SING  1 
+CBF  O6  C6    SING  2 
+CBF  C6  1H6   SING  3 
+CBF  C6  2H6   SING  4 
+CBF  C6  C5    SING  5 
+CBF  C5  H5    SING  6 
+CBF  C5  O5    SING  7 
+CBF  C5  C4    SING  8 
+CBF  O5  C1    SING  9 
+CBF  C1  O1    SING  10
+CBF  C1  C7    SING  11
+CBF  C1  C2    SING  12
+CBF  O1  HO1   SING  13
+CBF  C7  O7    DOUB  14
+CBF  C7  N1    SING  15
+CBF  N1  1HN1  SING  16
+CBF  N1  2HN1  SING  17
+CBF  C2  H2    SING  18
+CBF  C2  O2    SING  19
+CBF  C2  C3    SING  20
+CBF  O2  HO2   SING  21
+CBF  C3  H3    SING  22
+CBF  C3  O3    SING  23
+CBF  C3  C4    SING  24
+CBF  O3  HO3   SING  25
+CBF  C4  H4    SING  26
+CBF  C4  O4    SING  27
+CBF  O4  HO4   SING  28
+#

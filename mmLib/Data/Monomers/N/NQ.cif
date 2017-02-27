@@ -1,0 +1,71 @@
+data_NQ
+#
+_chem_comp.id                   NQ
+_chem_comp.name                 2-HYDROXYNAPHTHOQUINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H6 O3'
+_chem_comp.pdbx_synonyms        2-HYDROXY-1,4-NAPHTHOQUINONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.156
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NQ  OAB  .  O  0  -20.356  -36.576  113.014  1  1 
+NQ  CAK  .  C  0  -21.361  -36.943  113.620  1  2 
+NQ  CAM  .  C  0  -22.559  -37.155  112.941  1  3 
+NQ  CAG  .  C  0  -22.625  -36.969  111.561  1  4 
+NQ  CAE  .  C  0  -23.816  -37.190  110.880  1  5 
+NQ  CAD  .  C  0  -24.951  -37.600  111.578  1  6 
+NQ  CAF  .  C  0  -24.886  -37.785  112.956  1  7 
+NQ  CAL  .  C  0  -23.694  -37.564  113.637  1  8 
+NQ  CAJ  .  C  0  -23.628  -37.760  115.018  1  9 
+NQ  OAA  .  O  0  -24.626  -38.121  115.641  1  10
+NQ  CAH  .  C  0  -22.431  -37.550  115.694  1  11
+NQ  CAI  .  C  0  -21.300  -37.144  114.997  1  12
+NQ  OAC  .  O  0  -20.123  -36.955  115.657  1  13
+NQ  HAC  .  H  0  ?        ?        ?        1  14
+NQ  HAH  .  H  0  ?        ?        ?        1  15
+NQ  HAG  .  H  0  ?        ?        ?        1  16
+NQ  HAE  .  H  0  ?        ?        ?        1  17
+NQ  HAD  .  H  0  ?        ?        ?        1  18
+NQ  HAF  .  H  0  ?        ?        ?        1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NQ  OAB  CAK  DOUB  1 
+NQ  CAK  CAM  SING  2 
+NQ  CAK  CAI  SING  3 
+NQ  CAM  CAL  DOUB  4 
+NQ  CAM  CAG  SING  5 
+NQ  CAG  HAG  SING  6 
+NQ  CAG  CAE  DOUB  7 
+NQ  CAE  HAE  SING  8 
+NQ  CAE  CAD  SING  9 
+NQ  CAD  HAD  SING  10
+NQ  CAD  CAF  DOUB  11
+NQ  CAF  CAL  SING  12
+NQ  CAF  HAF  SING  13
+NQ  CAL  CAJ  SING  14
+NQ  CAJ  CAH  SING  15
+NQ  CAJ  OAA  DOUB  16
+NQ  CAH  CAI  DOUB  17
+NQ  CAH  HAH  SING  18
+NQ  CAI  OAC  SING  19
+NQ  OAC  HAC  SING  20
+#

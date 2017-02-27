@@ -1,0 +1,102 @@
+data_DH2
+#
+_chem_comp.id                   DH2
+_chem_comp.name                 (2S,3S)-2-(3,4-DIHYDROXYPHENYL)-3,5,7-TRIHYDROXY-2,3-DIHYDRO-4H-CHROMEN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H12 O7'
+_chem_comp.pdbx_synonyms        (2S,3S)-TRANS-DIHYDROQUERCETIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        304.256
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DH2  C1   .  C  0  11.254  28.769  -.775   1  1 
+DH2  C2   .  C  0  11.468  27.413  -.484   1  2 
+DH2  C3   .  C  0  12.796  26.826  -.539   1  3 
+DH2  C4   .  C  0  13.893  27.708  -.947   1  4 
+DH2  C5   .  C  0  13.661  29.062  -1.239  1  5 
+DH2  C6   .  C  0  12.357  29.577  -1.144  1  6 
+DH2  C9   .  C  0  13.079  25.429  -.221   1  7 
+DH2  C10  .  C  0  14.531  24.959  -.284   1  8 
+DH2  C11  .  C  0  15.391  25.784  -1.235  1  9 
+DH2  C14  .  C  0  16.866  25.424  -1.293  1  10
+DH2  C15  .  C  0  17.326  24.372  -2.116  1  11
+DH2  C16  .  C  0  18.692  24.004  -2.173  1  12
+DH2  C17  .  C  0  19.618  24.711  -1.389  1  13
+DH2  C18  .  C  0  19.172  25.779  -.557   1  14
+DH2  C19  .  C  0  17.811  26.125  -.512   1  15
+DH2  O12  .  O  0  15.204  27.248  -1.064  1  16
+DH2  O13  .  O  0  12.177  24.616  .125    1  17
+DH2  O23  .  O  0  20.084  26.484  .219    1  18
+DH2  O24  .  O  0  20.963  24.408  -1.386  1  19
+DH2  O27  .  O  0  14.62   23.567  -.512   1  20
+DH2  O29  .  O  0  12.107  30.893  -1.409  1  21
+DH2  O30  .  O  0  10.397  26.667  -.132   1  22
+DH2  H1   .  H  0  10.24   29.2    -.717   1  23
+DH2  HA   .  H  0  10.542  25.749  .065    1  24
+DH2  HB   .  H  0  14.496  29.716  -1.541  1  25
+DH2  HC   .  H  0  12.847  31.435  -1.656  1  26
+DH2  HD   .  H  0  14.952  25.129  .734    1  27
+DH2  H11  .  H  0  14.997  25.558  -2.253  1  28
+DH2  H27  .  H  0  15.523  23.275  -.551   1  29
+DH2  H15  .  H  0  16.598  23.82   -2.734  1  30
+DH2  H19  .  H  0  17.478  26.951  .139    1  31
+DH2  H16  .  H  0  19.023  23.176  -2.822  1  32
+DH2  H24  .  H  0  21.589  24.886  -.856   1  33
+DH2  H23  .  H  0  21.004  26.25   .189    1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DH2  C1   C2   AROM  1 
+DH2  C1   C6   AROM  2 
+DH2  C1   H1   SING  3 
+DH2  C2   C3   AROM  4 
+DH2  C2   O30  SING  5 
+DH2  C3   C4   AROM  6 
+DH2  C3   C9   SING  7 
+DH2  C4   C5   AROM  8 
+DH2  C4   O12  SING  9 
+DH2  C5   C6   AROM  10
+DH2  C5   HB   SING  11
+DH2  C6   O29  SING  12
+DH2  C9   C10  SING  13
+DH2  C9   O13  DOUB  14
+DH2  C10  C11  SING  15
+DH2  C10  O27  SING  16
+DH2  C10  HD   SING  17
+DH2  C11  C14  SING  18
+DH2  C11  O12  SING  19
+DH2  C11  H11  SING  20
+DH2  C14  C15  AROM  21
+DH2  C14  C19  AROM  22
+DH2  C15  C16  AROM  23
+DH2  C15  H15  SING  24
+DH2  C16  C17  AROM  25
+DH2  C16  H16  SING  26
+DH2  C17  C18  AROM  27
+DH2  C17  O24  SING  28
+DH2  C18  C19  AROM  29
+DH2  C18  O23  SING  30
+DH2  C19  H19  SING  31
+DH2  O23  H23  SING  32
+DH2  O24  H24  SING  33
+DH2  O27  H27  SING  34
+DH2  O29  HC   SING  35
+DH2  O30  HA   SING  36
+#

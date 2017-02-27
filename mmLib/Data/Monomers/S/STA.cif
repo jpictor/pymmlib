@@ -1,0 +1,88 @@
+data_STA
+#
+_chem_comp.id                   STA
+_chem_comp.name                 STATINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H17 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        175.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+STA  N     .  N  0  ?  ?  ?  1  1 
+STA  CA    .  C  0  ?  ?  ?  1  2 
+STA  CB    .  C  0  ?  ?  ?  1  3 
+STA  CG    .  C  0  ?  ?  ?  1  4 
+STA  CD1   .  C  0  ?  ?  ?  1  5 
+STA  CD2   .  C  0  ?  ?  ?  1  6 
+STA  CH    .  C  0  ?  ?  ?  1  7 
+STA  OH    .  O  0  ?  ?  ?  1  8 
+STA  CM    .  C  0  ?  ?  ?  1  9 
+STA  C     .  C  0  ?  ?  ?  1  10
+STA  O     .  O  0  ?  ?  ?  1  11
+STA  OXT   .  O  0  ?  ?  ?  1  12
+STA  1HN   .  H  0  ?  ?  ?  0  13
+STA  2HN   .  H  0  ?  ?  ?  0  14
+STA  HA    .  H  0  ?  ?  ?  1  15
+STA  1HB   .  H  0  ?  ?  ?  0  16
+STA  2HB   .  H  0  ?  ?  ?  0  17
+STA  HG    .  H  0  ?  ?  ?  1  18
+STA  1HD1  .  H  0  ?  ?  ?  0  19
+STA  2HD1  .  H  0  ?  ?  ?  0  20
+STA  3HD1  .  H  0  ?  ?  ?  0  21
+STA  1HD2  .  H  0  ?  ?  ?  0  22
+STA  2HD2  .  H  0  ?  ?  ?  0  23
+STA  3HD2  .  H  0  ?  ?  ?  0  24
+STA  HC    .  H  0  ?  ?  ?  1  25
+STA  HH    .  H  0  ?  ?  ?  1  26
+STA  1HM   .  H  0  ?  ?  ?  0  27
+STA  2HM   .  H  0  ?  ?  ?  0  28
+STA  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+STA  N    CA    SING  1 
+STA  N    1HN   SING  2 
+STA  N    2HN   SING  3 
+STA  CA   CB    SING  4 
+STA  CA   CH    SING  5 
+STA  CA   HA    SING  6 
+STA  CB   CG    SING  7 
+STA  CB   1HB   SING  8 
+STA  CB   2HB   SING  9 
+STA  CG   CD1   SING  10
+STA  CG   CD2   SING  11
+STA  CG   HG    SING  12
+STA  CD1  1HD1  SING  13
+STA  CD1  2HD1  SING  14
+STA  CD1  3HD1  SING  15
+STA  CD2  1HD2  SING  16
+STA  CD2  2HD2  SING  17
+STA  CD2  3HD2  SING  18
+STA  CH   CM    SING  19
+STA  CH   OH    SING  20
+STA  CH   HC    SING  21
+STA  OH   HH    SING  22
+STA  CM   C     SING  23
+STA  CM   1HM   SING  24
+STA  CM   2HM   SING  25
+STA  C    O     DOUB  26
+STA  C    OXT   SING  27
+STA  OXT  HXT   SING  28
+#

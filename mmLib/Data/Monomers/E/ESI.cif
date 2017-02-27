@@ -1,0 +1,74 @@
+data_ESI
+#
+_chem_comp.id                   ESI
+_chem_comp.name                 4-IODOBENZO[B]THIOPHENE-2-CARBOXAMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 N2 I1 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       303.140
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ESI  C0    .  C  0  ?  ?  ?  1  1 
+ESI  C1    .  C  0  ?  ?  ?  1  2 
+ESI  N1    .  N  0  ?  ?  ?  1  3 
+ESI  N2    .  N  1  ?  ?  ?  1  4 
+ESI  S2    .  S  0  ?  ?  ?  1  5 
+ESI  C3    .  C  0  ?  ?  ?  1  6 
+ESI  C4    .  C  0  ?  ?  ?  1  7 
+ESI  C5    .  C  0  ?  ?  ?  1  8 
+ESI  C6    .  C  0  ?  ?  ?  1  9 
+ESI  C7    .  C  0  ?  ?  ?  1  10
+ESI  C8    .  C  0  ?  ?  ?  1  11
+ESI  C9    .  C  0  ?  ?  ?  1  12
+ESI  I9    .  I  0  ?  ?  ?  1  13
+ESI  1HH1  .  H  0  ?  ?  ?  0  14
+ESI  2HH1  .  H  0  ?  ?  ?  0  15
+ESI  1HH2  .  H  0  ?  ?  ?  0  16
+ESI  2HH2  .  H  0  ?  ?  ?  0  17
+ESI  H5    .  H  0  ?  ?  ?  1  18
+ESI  H6    .  H  0  ?  ?  ?  1  19
+ESI  H7    .  H  0  ?  ?  ?  1  20
+ESI  H8    .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ESI  C0  C1    SING  1 
+ESI  C0  N1    SING  2 
+ESI  C0  N2    DOUB  3 
+ESI  C1  S2    SING  4 
+ESI  C1  C5    DOUB  5 
+ESI  N1  1HH1  SING  6 
+ESI  N1  2HH1  SING  7 
+ESI  N2  1HH2  SING  8 
+ESI  N2  2HH2  SING  9 
+ESI  S2  C3    SING  10
+ESI  C3  C4    DOUB  11
+ESI  C3  C6    SING  12
+ESI  C4  C5    SING  13
+ESI  C4  C9    SING  14
+ESI  C5  H5    SING  15
+ESI  C6  H6    SING  16
+ESI  C6  C7    DOUB  17
+ESI  C7  H7    SING  18
+ESI  C7  C8    SING  19
+ESI  C8  H8    SING  20
+ESI  C8  C9    DOUB  21
+ESI  C9  I9    SING  22
+#

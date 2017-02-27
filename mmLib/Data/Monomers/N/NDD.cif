@@ -1,0 +1,80 @@
+data_NDD
+#
+_chem_comp.id                   NDD
+_chem_comp.name                 2,6-DICARBOXYNAPHTHALENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H8 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NDD  C1   .  C  0  ?  ?  ?  1  1 
+NDD  C2   .  C  0  ?  ?  ?  1  2 
+NDD  C3   .  C  0  ?  ?  ?  1  3 
+NDD  C4   .  C  0  ?  ?  ?  1  4 
+NDD  C4A  .  C  0  ?  ?  ?  1  5 
+NDD  C5   .  C  0  ?  ?  ?  1  6 
+NDD  C6   .  C  0  ?  ?  ?  1  7 
+NDD  C7   .  C  0  ?  ?  ?  1  8 
+NDD  C8   .  C  0  ?  ?  ?  1  9 
+NDD  C8A  .  C  0  ?  ?  ?  1  10
+NDD  C2'  .  C  0  ?  ?  ?  1  11
+NDD  O1'  .  O  0  ?  ?  ?  1  12
+NDD  O2'  .  O  0  ?  ?  ?  1  13
+NDD  C6'  .  C  0  ?  ?  ?  1  14
+NDD  O3'  .  O  0  ?  ?  ?  1  15
+NDD  O4'  .  O  0  ?  ?  ?  1  16
+NDD  H1   .  H  0  ?  ?  ?  1  17
+NDD  H3   .  H  0  ?  ?  ?  1  18
+NDD  H4   .  H  0  ?  ?  ?  1  19
+NDD  H5   .  H  0  ?  ?  ?  1  20
+NDD  H7   .  H  0  ?  ?  ?  1  21
+NDD  H8   .  H  0  ?  ?  ?  1  22
+NDD  HO2  .  H  0  ?  ?  ?  1  23
+NDD  HO4  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NDD  C1   C2   DOUB  1 
+NDD  C1   C8A  SING  2 
+NDD  C1   H1   SING  3 
+NDD  C2   C3   SING  4 
+NDD  C2   C2'  SING  5 
+NDD  C3   C4   DOUB  6 
+NDD  C3   H3   SING  7 
+NDD  C4   C4A  SING  8 
+NDD  C4   H4   SING  9 
+NDD  C4A  C5   DOUB  10
+NDD  C4A  C8A  SING  11
+NDD  C5   C6   SING  12
+NDD  C5   H5   SING  13
+NDD  C6   C7   DOUB  14
+NDD  C6   C6'  SING  15
+NDD  C7   C8   SING  16
+NDD  C7   H7   SING  17
+NDD  C8   C8A  DOUB  18
+NDD  C8   H8   SING  19
+NDD  C2'  O1'  DOUB  20
+NDD  C2'  O2'  SING  21
+NDD  O2'  HO2  SING  22
+NDD  C6'  O3'  DOUB  23
+NDD  C6'  O4'  SING  24
+NDD  O4'  HO4  SING  25
+#

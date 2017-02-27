@@ -1,0 +1,115 @@
+data_YOM
+#
+_chem_comp.id                   YOM
+_chem_comp.name                 2,2'-[1,2-PHENYLENEBIS(NITRILOMETHYLIDYNE)]BIS[PHENOLATO]](2-)-N,N',O,O']-IRON
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H14 N2 O2 FE1'
+_chem_comp.pdbx_synonyms        'SALOPHEN IRON CHELATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        370.190
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+YOM  CA4  .  C   0  -6.329  15.407  33.574  1  1 
+YOM  CA5  .  C   0  -6.900  15.768  34.817  1  2 
+YOM  CA6  .  C   0  -6.418  15.131  36.002  1  3 
+YOM  CA1  .  C   0  -5.389  14.162  35.924  1  4 
+YOM  CA   .  C   0  -4.954  13.551  37.150  1  5 
+YOM  NA   .  N   1  -3.903  12.806  37.324  1  6 
+YOM  CC1  .  C   0  -3.793  12.152  38.589  1  7 
+YOM  CC6  .  C   0  -4.351  12.495  39.847  1  8 
+YOM  CA3  .  C   0  -5.288  14.454  33.428  1  9 
+YOM  CA2  .  C   0  -4.816  13.828  34.625  1  10
+YOM  OA   .  O   0  -3.830  12.902  34.515  1  11
+YOM  FE   .  FE  0  -2.388  12.451  35.977  0  12
+YOM  NB   .  N   1  -2.444  10.684  37.301  1  13
+YOM  CC2  .  C   0  -2.983  10.977  38.516  1  14
+YOM  CC3  .  C   0  -2.729  10.121  39.657  1  15
+YOM  CC4  .  C   0  -3.291  10.468  40.907  1  16
+YOM  CC5  .  C   0  -4.104  11.652  40.974  1  17
+YOM  OB   .  O   0  -1.159  11.413  34.766  1  18
+YOM  CB2  .  C   0  -1.135  10.052  34.581  1  19
+YOM  CB1  .  C   0  -1.761  9.086   35.515  1  20
+YOM  CB   .  C   0  -2.419  9.515   36.714  1  21
+YOM  CB6  .  C   0  -1.658  7.713   35.166  1  22
+YOM  CB5  .  C   0  -1.002  7.277   34.006  1  23
+YOM  CB4  .  C   0  -0.407  8.193   33.095  1  24
+YOM  CB3  .  C   0  -0.480  9.579   33.395  1  25
+YOM  HB4  .  H   0  ?       ?       ?       1  26
+YOM  HB5  .  H   0  ?       ?       ?       1  27
+YOM  HB6  .  H   0  ?       ?       ?       1  28
+YOM  HB   .  H   0  ?       ?       ?       1  29
+YOM  HC3  .  H   0  ?       ?       ?       1  30
+YOM  HC4  .  H   0  ?       ?       ?       1  31
+YOM  HC5  .  H   0  ?       ?       ?       1  32
+YOM  HC6  .  H   0  ?       ?       ?       1  33
+YOM  HA   .  H   0  ?       ?       ?       1  34
+YOM  HB3  .  H   0  ?       ?       ?       1  35
+YOM  HA3  .  H   0  ?       ?       ?       1  36
+YOM  HA4  .  H   0  ?       ?       ?       1  37
+YOM  HA5  .  H   0  ?       ?       ?       1  38
+YOM  HA6  .  H   0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+YOM  CA4  CA3  DOUB  1 
+YOM  CA4  HA4  SING  2 
+YOM  CA4  CA5  SING  3 
+YOM  CA5  HA5  SING  4 
+YOM  CA5  CA6  DOUB  5 
+YOM  CA6  CA1  SING  6 
+YOM  CA6  HA6  SING  7 
+YOM  CA1  CA   SING  8 
+YOM  CA1  CA2  DOUB  9 
+YOM  CA   NA   DOUB  10
+YOM  CA   HA   SING  11
+YOM  NA   CC1  SING  12
+YOM  NA   FE   SING  13
+YOM  CC1  CC6  DOUB  14
+YOM  CC1  CC2  SING  15
+YOM  CC6  CC5  SING  16
+YOM  CC6  HC6  SING  17
+YOM  CA3  CA2  SING  18
+YOM  CA3  HA3  SING  19
+YOM  CA2  OA   SING  20
+YOM  OA   FE   SING  21
+YOM  FE   NB   SING  22
+YOM  FE   OB   SING  23
+YOM  NB   CB   DOUB  24
+YOM  NB   CC2  SING  25
+YOM  CC2  CC3  DOUB  26
+YOM  CC3  HC3  SING  27
+YOM  CC3  CC4  SING  28
+YOM  CC4  HC4  SING  29
+YOM  CC4  CC5  DOUB  30
+YOM  CC5  HC5  SING  31
+YOM  OB   CB2  SING  32
+YOM  CB2  CB1  SING  33
+YOM  CB2  CB3  DOUB  34
+YOM  CB1  CB6  DOUB  35
+YOM  CB1  CB   SING  36
+YOM  CB   HB   SING  37
+YOM  CB6  CB5  SING  38
+YOM  CB6  HB6  SING  39
+YOM  CB5  CB4  DOUB  40
+YOM  CB5  HB5  SING  41
+YOM  CB4  HB4  SING  42
+YOM  CB4  CB3  SING  43
+YOM  CB3  HB3  SING  44
+#

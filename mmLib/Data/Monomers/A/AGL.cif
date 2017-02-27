@@ -1,0 +1,79 @@
+data_AGL
+#
+_chem_comp.id                   AGL
+_chem_comp.name                 4,6-DIDEOXY-4-AMINO-ALPHA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AGL  C1    .  C  0  ?  ?  ?  1  1 
+AGL  C2    .  C  0  ?  ?  ?  1  2 
+AGL  C3    .  C  0  ?  ?  ?  1  3 
+AGL  C4    .  C  0  ?  ?  ?  1  4 
+AGL  C5    .  C  0  ?  ?  ?  1  5 
+AGL  C6    .  C  0  ?  ?  ?  1  6 
+AGL  O1    .  O  0  ?  ?  ?  1  7 
+AGL  O2    .  O  0  ?  ?  ?  1  8 
+AGL  O3    .  O  0  ?  ?  ?  1  9 
+AGL  N4    .  N  0  ?  ?  ?  1  10
+AGL  O5    .  O  0  ?  ?  ?  1  11
+AGL  H1    .  H  0  ?  ?  ?  1  12
+AGL  H2    .  H  0  ?  ?  ?  1  13
+AGL  H3    .  H  0  ?  ?  ?  1  14
+AGL  H4    .  H  0  ?  ?  ?  1  15
+AGL  H5    .  H  0  ?  ?  ?  1  16
+AGL  1H6   .  H  0  ?  ?  ?  0  17
+AGL  2H6   .  H  0  ?  ?  ?  0  18
+AGL  3H6   .  H  0  ?  ?  ?  0  19
+AGL  HO1   .  H  0  ?  ?  ?  1  20
+AGL  HO2   .  H  0  ?  ?  ?  1  21
+AGL  HO3   .  H  0  ?  ?  ?  1  22
+AGL  1HN4  .  H  0  ?  ?  ?  0  23
+AGL  2HN4  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AGL  C1  C2    SING  1 
+AGL  C1  O1    SING  2 
+AGL  C1  O5    SING  3 
+AGL  C1  H1    SING  4 
+AGL  C2  C3    SING  5 
+AGL  C2  O2    SING  6 
+AGL  C2  H2    SING  7 
+AGL  C3  C4    SING  8 
+AGL  C3  O3    SING  9 
+AGL  C3  H3    SING  10
+AGL  C4  C5    SING  11
+AGL  C4  N4    SING  12
+AGL  C4  H4    SING  13
+AGL  C5  C6    SING  14
+AGL  C5  O5    SING  15
+AGL  C5  H5    SING  16
+AGL  C6  1H6   SING  17
+AGL  C6  2H6   SING  18
+AGL  C6  3H6   SING  19
+AGL  O1  HO1   SING  20
+AGL  O2  HO2   SING  21
+AGL  O3  HO3   SING  22
+AGL  N4  1HN4  SING  23
+AGL  N4  2HN4  SING  24
+#

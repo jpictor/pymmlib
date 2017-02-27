@@ -1,0 +1,118 @@
+data_CPF
+#
+_chem_comp.id                   CPF
+_chem_comp.name                 '1-CYCLOPROPYL-6-FLUORO-4-OXO-7-PIPERAZIN-1-YL-1,4-DIHYDROQUINOLINE-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C17 H18 N3 O3 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        331.346
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPF  O2    .  O  0  -78.406  115.060  134.715  1  1 
+CPF  C3    .  C  0  -77.930  115.667  133.748  1  2 
+CPF  O1    .  O  0  -76.951  116.468  133.849  1  3 
+CPF  C2    .  C  0  -78.534  115.417  132.387  1  4 
+CPF  C1    .  C  0  -79.585  114.543  132.350  1  5 
+CPF  N1    .  N  0  -80.235  114.176  131.236  1  6 
+CPF  C10   .  C  0  -79.816  114.673  130.003  1  7 
+CPF  C9    .  C  0  -80.476  114.286  128.826  1  8 
+CPF  C8    .  C  0  -80.082  114.758  127.581  1  9 
+CPF  N2    .  N  0  -80.688  114.340  126.399  1  10
+CPF  C17   .  C  0  -81.678  113.263  126.506  1  11
+CPF  C16   .  C  0  -81.941  112.644  125.149  1  12
+CPF  N3    .  N  0  -82.360  113.697  124.184  1  13
+CPF  C15   .  C  0  -81.342  114.762  124.076  1  14
+CPF  C14   .  C  0  -81.104  115.370  125.436  1  15
+CPF  C7    .  C  0  -78.960  115.635  127.573  1  16
+CPF  F1    .  F  0  -78.477  116.069  126.385  1  17
+CPF  C6    .  C  0  -78.316  116.032  128.702  1  18
+CPF  C5    .  C  0  -78.731  115.561  129.963  1  19
+CPF  C4    .  C  0  -78.056  115.988  131.179  1  20
+CPF  O3    .  O  0  -77.097  116.816  131.076  1  21
+CPF  C11   .  C  0  -81.329  113.219  131.277  1  22
+CPF  C12   .  C  0  -82.726  113.735  131.156  1  23
+CPF  C13   .  C  0  -82.239  113.185  132.461  1  24
+CPF  HO2   .  H  0  ?        ?        ?        1  25
+CPF  H1    .  H  0  ?        ?        ?        1  26
+CPF  H9    .  H  0  ?        ?        ?        1  27
+CPF  1H17  .  H  0  ?        ?        ?        0  28
+CPF  2H17  .  H  0  ?        ?        ?        0  29
+CPF  1H16  .  H  0  ?        ?        ?        0  30
+CPF  2H16  .  H  0  ?        ?        ?        0  31
+CPF  HN3   .  H  0  ?        ?        ?        1  32
+CPF  1H15  .  H  0  ?        ?        ?        0  33
+CPF  2H15  .  H  0  ?        ?        ?        0  34
+CPF  1H14  .  H  0  ?        ?        ?        0  35
+CPF  2H14  .  H  0  ?        ?        ?        0  36
+CPF  H6    .  H  0  ?        ?        ?        1  37
+CPF  H11   .  H  0  ?        ?        ?        1  38
+CPF  1H12  .  H  0  ?        ?        ?        0  39
+CPF  2H12  .  H  0  ?        ?        ?        0  40
+CPF  1H13  .  H  0  ?        ?        ?        0  41
+CPF  2H13  .  H  0  ?        ?        ?        0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPF  O2   HO2   SING  1 
+CPF  O2   C3    SING  2 
+CPF  C3   O1    DOUB  3 
+CPF  C3   C2    SING  4 
+CPF  C2   C1    DOUB  5 
+CPF  C2   C4    SING  6 
+CPF  C1   H1    SING  7 
+CPF  C1   N1    SING  8 
+CPF  N1   C10   SING  9 
+CPF  N1   C11   SING  10
+CPF  C10  C9    AROM  11
+CPF  C10  C5    AROM  12
+CPF  C9   H9    SING  13
+CPF  C9   C8    AROM  14
+CPF  C8   N2    SING  15
+CPF  C8   C7    AROM  16
+CPF  N2   C17   SING  17
+CPF  N2   C14   SING  18
+CPF  C17  1H17  SING  19
+CPF  C17  2H17  SING  20
+CPF  C17  C16   SING  21
+CPF  C16  1H16  SING  22
+CPF  C16  2H16  SING  23
+CPF  C16  N3    SING  24
+CPF  N3   HN3   SING  25
+CPF  N3   C15   SING  26
+CPF  C15  1H15  SING  27
+CPF  C15  2H15  SING  28
+CPF  C15  C14   SING  29
+CPF  C14  1H14  SING  30
+CPF  C14  2H14  SING  31
+CPF  C7   F1    SING  32
+CPF  C7   C6    AROM  33
+CPF  C6   H6    SING  34
+CPF  C6   C5    AROM  35
+CPF  C5   C4    SING  36
+CPF  C4   O3    DOUB  37
+CPF  C11  H11   SING  38
+CPF  C11  C12   SING  39
+CPF  C11  C13   SING  40
+CPF  C12  1H12  SING  41
+CPF  C12  2H12  SING  42
+CPF  C12  C13   SING  43
+CPF  C13  1H13  SING  44
+CPF  C13  2H13  SING  45
+#

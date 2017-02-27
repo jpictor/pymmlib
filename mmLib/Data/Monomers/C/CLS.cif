@@ -1,0 +1,118 @@
+data_CLS
+#
+_chem_comp.id                   CLS
+_chem_comp.name                 CEPHALOTHIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H16 N2 O6 S2'
+_chem_comp.pdbx_synonyms        '3-ACETOXYMETHYL-8-OXO-7-(2-THIOPHEN-2-YL-ACETYLAMINO)-5-THIA-1-AZA-BICYCLO[4.2.0]OCT-2-ENE-2-CARBOXYLIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        396.432
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLS  S1    .  S  0  25.092  8.506   15.860  1  1 
+CLS  C2    .  C  0  25.593  9.456   17.310  1  2 
+CLS  C3    .  C  0  25.763  8.511   18.539  1  3 
+CLS  C3'   .  C  0  25.408  9.218   19.860  1  4 
+CLS  O20   .  O  0  25.534  10.672  19.691  1  5 
+CLS  C21   .  C  0  26.831  11.209  19.860  1  6 
+CLS  O22   .  O  0  27.386  11.072  20.890  1  7 
+CLS  C23   .  C  0  27.289  11.915  18.592  1  8 
+CLS  C4    .  C  0  26.191  7.226   18.474  1  9 
+CLS  C4'   .  C  0  26.408  6.289   19.684  1  10
+CLS  O4A   .  O  0  27.568  6.092   20.124  1  11
+CLS  O4B   .  O  0  25.417  5.711   20.155  1  12
+CLS  N5    .  N  0  26.552  6.570   17.258  1  13
+CLS  C6    .  C  0  26.505  7.373   15.936  1  14
+CLS  C7    .  C  0  26.186  5.972   15.240  1  15
+CLS  C8    .  C  0  26.252  5.393   16.654  1  16
+CLS  O9    .  O  0  26.053  4.281   17.069  1  17
+CLS  N10   .  N  0  24.942  5.850   14.718  1  18
+CLS  C11   .  C  0  24.662  6.219   13.467  1  19
+CLS  O12   .  O  0  25.551  6.685   12.727  1  20
+CLS  C13   .  C  0  23.267  6.091   13.144  1  21
+CLS  C14   .  C  0  22.990  6.002   11.615  1  22
+CLS  C15   .  C  0  23.645  6.760   10.564  1  23
+CLS  C16   .  C  0  22.928  6.401   9.344   1  24
+CLS  C17   .  C  0  22.000  5.524   9.466   1  25
+CLS  S19   .  S  0  21.777  4.963   11.072  1  26
+CLS  H17   .  H  0  ?       ?       ?       1  27
+CLS  H16   .  H  0  ?       ?       ?       1  28
+CLS  H15   .  H  0  ?       ?       ?       1  29
+CLS  1H13  .  H  0  ?       ?       ?       0  30
+CLS  2H13  .  H  0  ?       ?       ?       0  31
+CLS  H10   .  H  0  ?       ?       ?       1  32
+CLS  H6    .  H  0  ?       ?       ?       1  33
+CLS  1H2   .  H  0  ?       ?       ?       0  34
+CLS  2H2   .  H  0  ?       ?       ?       0  35
+CLS  H7    .  H  0  ?       ?       ?       1  36
+CLS  HO4   .  H  0  ?       ?       ?       1  37
+CLS  1H3'  .  H  0  ?       ?       ?       0  38
+CLS  2H3'  .  H  0  ?       ?       ?       0  39
+CLS  1H23  .  H  0  ?       ?       ?       0  40
+CLS  2H23  .  H  0  ?       ?       ?       0  41
+CLS  3H23  .  H  0  ?       ?       ?       0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLS  S1   C2    SING  1 
+CLS  S1   C6    SING  2 
+CLS  C2   C3    SING  3 
+CLS  C2   1H2   SING  4 
+CLS  C2   2H2   SING  5 
+CLS  C3   C3'   SING  6 
+CLS  C3   C4    DOUB  7 
+CLS  C3'  O20   SING  8 
+CLS  C3'  1H3'  SING  9 
+CLS  C3'  2H3'  SING  10
+CLS  O20  C21   SING  11
+CLS  C21  O22   DOUB  12
+CLS  C21  C23   SING  13
+CLS  C23  1H23  SING  14
+CLS  C23  2H23  SING  15
+CLS  C23  3H23  SING  16
+CLS  C4   C4'   SING  17
+CLS  C4   N5    SING  18
+CLS  C4'  O4A   SING  19
+CLS  C4'  O4B   DOUB  20
+CLS  O4A  HO4   SING  21
+CLS  N5   C6    SING  22
+CLS  N5   C8    SING  23
+CLS  C6   C7    SING  24
+CLS  C6   H6    SING  25
+CLS  C7   C8    SING  26
+CLS  C7   N10   SING  27
+CLS  C7   H7    SING  28
+CLS  C8   O9    DOUB  29
+CLS  N10  C11   SING  30
+CLS  N10  H10   SING  31
+CLS  C11  O12   DOUB  32
+CLS  C11  C13   SING  33
+CLS  C13  C14   SING  34
+CLS  C13  1H13  SING  35
+CLS  C13  2H13  SING  36
+CLS  C14  C15   DOUB  37
+CLS  C14  S19   SING  38
+CLS  C15  C16   SING  39
+CLS  C15  H15   SING  40
+CLS  C16  C17   DOUB  41
+CLS  C16  H16   SING  42
+CLS  C17  S19   SING  43
+CLS  C17  H17   SING  44
+#

@@ -1,0 +1,80 @@
+data_PTU
+#
+_chem_comp.id                   PTU
+_chem_comp.name                 2-ETHYL-1-PHENYL-ISOTHIOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 S1'
+_chem_comp.pdbx_synonyms        S-ETHYL-N-PHENYL-ISOTHIOUREA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.267
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTU  N1    .  N  0  ?  ?  ?  1  1 
+PTU  C     .  C  0  ?  ?  ?  1  2 
+PTU  S     .  S  0  ?  ?  ?  1  3 
+PTU  N2    .  N  0  ?  ?  ?  1  4 
+PTU  C1    .  C  0  ?  ?  ?  1  5 
+PTU  C2    .  C  0  ?  ?  ?  1  6 
+PTU  C3    .  C  0  ?  ?  ?  1  7 
+PTU  C4    .  C  0  ?  ?  ?  1  8 
+PTU  C5    .  C  0  ?  ?  ?  1  9 
+PTU  C6    .  C  0  ?  ?  ?  1  10
+PTU  C1'   .  C  0  ?  ?  ?  1  11
+PTU  C2'   .  C  0  ?  ?  ?  1  12
+PTU  1H2   .  H  0  ?  ?  ?  0  13
+PTU  1H3   .  H  0  ?  ?  ?  0  14
+PTU  1H4   .  H  0  ?  ?  ?  0  15
+PTU  1H5   .  H  0  ?  ?  ?  0  16
+PTU  1H6   .  H  0  ?  ?  ?  0  17
+PTU  1HN1  .  H  0  ?  ?  ?  0  18
+PTU  2HN1  .  H  0  ?  ?  ?  0  19
+PTU  1H1'  .  H  0  ?  ?  ?  0  20
+PTU  2H1'  .  H  0  ?  ?  ?  0  21
+PTU  1H2'  .  H  0  ?  ?  ?  0  22
+PTU  2H2'  .  H  0  ?  ?  ?  0  23
+PTU  3H2'  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTU  N1   C     SING  1 
+PTU  N1   1HN1  SING  2 
+PTU  N1   2HN1  SING  3 
+PTU  C    S     SING  4 
+PTU  C    N2    DOUB  5 
+PTU  S    C1'   SING  6 
+PTU  N2   C1    SING  7 
+PTU  C1   C2    DOUB  8 
+PTU  C1   C6    SING  9 
+PTU  C2   C3    SING  10
+PTU  C2   1H2   SING  11
+PTU  C3   C4    DOUB  12
+PTU  C3   1H3   SING  13
+PTU  C4   C5    SING  14
+PTU  C4   1H4   SING  15
+PTU  C5   C6    DOUB  16
+PTU  C5   1H5   SING  17
+PTU  C6   1H6   SING  18
+PTU  C1'  C2'   SING  19
+PTU  C1'  1H1'  SING  20
+PTU  C1'  2H1'  SING  21
+PTU  C2'  1H2'  SING  22
+PTU  C2'  2H2'  SING  23
+PTU  C2'  3H2'  SING  24
+#

@@ -1,0 +1,73 @@
+data_B3S
+#
+_chem_comp.id                       B3S
+_chem_comp.name                     '(3R)-3-AMINO-4-HYDROXYBUTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            119.120
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          B3S
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C([C@H](CO)N)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+B3S  N    .  N  0  -3.069  -6.277  9.448   1  N  1 
+B3S  OD   .  O  0  -1.472  -9.287  9.067   1  N  2 
+B3S  CG   .  C  0  -2.588  -8.528  9.473   1  N  3 
+B3S  CB   .  C  0  -2.263  -7.177  10.174  1  N  4 
+B3S  CA   .  C  0  -0.847  -6.609  10.238  1  N  5 
+B3S  C    .  C  0  -0.805  -5.615  11.444  1  N  6 
+B3S  O    .  O  0  -0.871  -5.982  12.623  1  N  7 
+B3S  OXT  .  O  0  -0.702  -4.341  11.134  1  N  8 
+B3S  1HN  .  H  0  -3.260  -5.472  10.010  0  N  9 
+B3S  2HN  .  H  0  -2.590  -5.997  8.616   0  N  10
+B3S  HOD  .  H  0  -1.527  -9.458  8.134   1  N  11
+B3S  1HG  .  H  0  -3.178  -8.300  8.573   0  N  12
+B3S  2HG  .  H  0  -3.117  -9.139  10.219  0  N  13
+B3S  HB   .  H  0  -2.434  -7.343  11.248  1  N  14
+B3S  1HA  .  H  0  -0.118  -7.419  10.386  0  N  15
+B3S  2HA  .  H  0  -0.589  -6.096  9.300   0  N  16
+B3S  HXT  .  H  0  ?       ?       ?       1  N  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+B3S  N    CB   SING  N  1 
+B3S  N    1HN  SING  N  2 
+B3S  N    2HN  SING  N  3 
+B3S  OD   CG   SING  N  4 
+B3S  OD   HOD  SING  N  5 
+B3S  CG   CB   SING  N  6 
+B3S  CG   1HG  SING  N  7 
+B3S  CG   2HG  SING  N  8 
+B3S  CB   CA   SING  N  9 
+B3S  CB   HB   SING  N  10
+B3S  CA   C    SING  N  11
+B3S  CA   1HA  SING  N  12
+B3S  CA   2HA  SING  N  13
+B3S  C    OXT  SING  N  14
+B3S  C    O    DOUB  N  15
+B3S  OXT  HXT  SING  N  16
+#

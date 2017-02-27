@@ -1,0 +1,102 @@
+data_DRM
+#
+_chem_comp.id                       DRM
+_chem_comp.name                     '{[(1R,2S)-2-(2,4-DIOXO-3,4-DIHYDROPYRIMIDIN-1(2H)-YL)CYCLOPENTYL]OXY}METHYLPHOSPHONIC ACID'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O6 P1'
+_chem_comp.pdbx_synonyms            '1-TRANS-(2-PHOSPHONOMETHOXYCYCLOPENTYL)URACIL, PMCP-U'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            290.212
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DRM  O2P   .  O  0  17.362  37.703  27.365  1  1 
+DRM  P     .  P  0  17.457  39.170  27.140  1  2 
+DRM  O1P   .  O  0  17.930  39.988  28.360  1  3 
+DRM  O3P   .  O  0  18.303  39.546  25.897  1  4 
+DRM  C6*   .  C  0  15.728  39.652  26.800  1  5 
+DRM  O5*   .  O  0  15.624  41.065  26.828  1  6 
+DRM  C5*   .  C  0  14.315  41.584  26.537  1  7 
+DRM  C4*   .  C  0  14.675  43.022  26.347  1  8 
+DRM  C3*   .  C  0  14.117  43.796  27.501  1  9 
+DRM  C2*   .  C  0  13.045  42.969  28.117  1  10
+DRM  C1*   .  C  0  13.316  41.521  27.726  1  11
+DRM  N1    .  N  0  12.125  40.691  27.466  1  12
+DRM  C6    .  C  0  11.312  40.994  26.417  1  13
+DRM  C5    .  C  0  10.236  40.179  26.139  1  14
+DRM  C4    .  C  0  9.967   39.045  26.927  1  15
+DRM  O4    .  O  0  9.004   38.314  26.676  1  16
+DRM  N3    .  N  0  10.770  38.744  27.988  1  17
+DRM  C2    .  C  0  11.833  39.561  28.252  1  18
+DRM  O2    .  O  0  12.583  39.358  29.234  1  19
+DRM  2HOP  .  H  0  ?       ?       ?       0  20
+DRM  3HOP  .  H  0  ?       ?       ?       0  21
+DRM  1H6*  .  H  0  ?       ?       ?       0  22
+DRM  2H6*  .  H  0  ?       ?       ?       0  23
+DRM  H5*   .  H  0  ?       ?       ?       1  24
+DRM  1H4*  .  H  0  ?       ?       ?       0  25
+DRM  2H4*  .  H  0  ?       ?       ?       0  26
+DRM  1H3*  .  H  0  ?       ?       ?       0  27
+DRM  2H3*  .  H  0  ?       ?       ?       0  28
+DRM  1H2*  .  H  0  ?       ?       ?       0  29
+DRM  2H2*  .  H  0  ?       ?       ?       0  30
+DRM  H1*   .  H  0  ?       ?       ?       1  31
+DRM  H6    .  H  0  ?       ?       ?       1  32
+DRM  H5    .  H  0  ?       ?       ?       1  33
+DRM  H3    .  H  0  ?       ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DRM  O2P  2HOP  SING  1 
+DRM  O2P  P     SING  2 
+DRM  P    O1P   DOUB  3 
+DRM  P    O3P   SING  4 
+DRM  P    C6*   SING  5 
+DRM  O3P  3HOP  SING  6 
+DRM  C6*  1H6*  SING  7 
+DRM  C6*  2H6*  SING  8 
+DRM  C6*  O5*   SING  9 
+DRM  O5*  C5*   SING  10
+DRM  C5*  H5*   SING  11
+DRM  C5*  C4*   SING  12
+DRM  C5*  C1*   SING  13
+DRM  C4*  1H4*  SING  14
+DRM  C4*  2H4*  SING  15
+DRM  C4*  C3*   SING  16
+DRM  C3*  1H3*  SING  17
+DRM  C3*  2H3*  SING  18
+DRM  C3*  C2*   SING  19
+DRM  C2*  1H2*  SING  20
+DRM  C2*  2H2*  SING  21
+DRM  C2*  C1*   SING  22
+DRM  C1*  H1*   SING  23
+DRM  C1*  N1    SING  24
+DRM  N1   C6    SING  25
+DRM  N1   C2    SING  26
+DRM  C6   H6    SING  27
+DRM  C6   C5    DOUB  28
+DRM  C5   H5    SING  29
+DRM  C5   C4    SING  30
+DRM  C4   O4    DOUB  31
+DRM  C4   N3    SING  32
+DRM  N3   H3    SING  33
+DRM  N3   C2    SING  34
+DRM  C2   O2    DOUB  35
+#

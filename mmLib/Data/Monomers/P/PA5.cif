@@ -1,0 +1,82 @@
+data_PA5
+#
+_chem_comp.id                   PA5
+_chem_comp.name                 '5-PHOSPHOARABINONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        246.110
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PA5  O1A   .  O  0  ?  ?  ?  1  1 
+PA5  C1    .  C  0  ?  ?  ?  1  2 
+PA5  O1    .  O  0  ?  ?  ?  1  3 
+PA5  C2    .  C  0  ?  ?  ?  1  4 
+PA5  O2    .  O  0  ?  ?  ?  1  5 
+PA5  C3    .  C  0  ?  ?  ?  1  6 
+PA5  O3    .  O  0  ?  ?  ?  1  7 
+PA5  C4    .  C  0  ?  ?  ?  1  8 
+PA5  O4    .  O  0  ?  ?  ?  1  9 
+PA5  C5    .  C  0  ?  ?  ?  1  10
+PA5  O5    .  O  0  ?  ?  ?  1  11
+PA5  P     .  P  0  ?  ?  ?  1  12
+PA5  O1P   .  O  0  ?  ?  ?  1  13
+PA5  O2P   .  O  0  ?  ?  ?  1  14
+PA5  O3P   .  O  0  ?  ?  ?  1  15
+PA5  2HOP  .  H  0  ?  ?  ?  0  16
+PA5  3HOP  .  H  0  ?  ?  ?  0  17
+PA5  H51   .  H  0  ?  ?  ?  1  18
+PA5  H52   .  H  0  ?  ?  ?  1  19
+PA5  HO4   .  H  0  ?  ?  ?  1  20
+PA5  HC4   .  H  0  ?  ?  ?  1  21
+PA5  HO3   .  H  0  ?  ?  ?  1  22
+PA5  HC3   .  H  0  ?  ?  ?  1  23
+PA5  HO2   .  H  0  ?  ?  ?  1  24
+PA5  HC2   .  H  0  ?  ?  ?  1  25
+PA5  HO1   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PA5  O1A  C1    DOUB  1 
+PA5  C1   O1    SING  2 
+PA5  C1   C2    SING  3 
+PA5  O1   HO1   SING  4 
+PA5  C2   O2    SING  5 
+PA5  C2   C3    SING  6 
+PA5  C2   HC2   SING  7 
+PA5  O2   HO2   SING  8 
+PA5  C3   O3    SING  9 
+PA5  C3   C4    SING  10
+PA5  C3   HC3   SING  11
+PA5  O3   HO3   SING  12
+PA5  C4   O4    SING  13
+PA5  C4   C5    SING  14
+PA5  C4   HC4   SING  15
+PA5  O4   HO4   SING  16
+PA5  C5   O5    SING  17
+PA5  C5   H51   SING  18
+PA5  C5   H52   SING  19
+PA5  O5   P     SING  20
+PA5  P    O1P   DOUB  21
+PA5  P    O2P   SING  22
+PA5  P    O3P   SING  23
+PA5  O2P  2HOP  SING  24
+PA5  O3P  3HOP  SING  25
+#

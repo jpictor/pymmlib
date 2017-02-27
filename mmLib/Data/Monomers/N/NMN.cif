@@ -1,0 +1,109 @@
+data_NMN
+#
+_chem_comp.id                   NMN
+_chem_comp.name                 'BETA-NICOTINAMIDE RIBOSE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N2 O8 P1'
+_chem_comp.pdbx_synonyms        'NICOTINAMIDE MONONUCLEOTIDE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       335.230
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NMN  O3P   .  O  0  ?  ?  ?  1  1 
+NMN  P     .  P  0  ?  ?  ?  1  2 
+NMN  O1P   .  O  0  ?  ?  ?  1  3 
+NMN  O2P   .  O  0  ?  ?  ?  1  4 
+NMN  O5R   .  O  0  ?  ?  ?  1  5 
+NMN  C5R   .  C  0  ?  ?  ?  1  6 
+NMN  C4R   .  C  0  ?  ?  ?  1  7 
+NMN  O4R   .  O  0  ?  ?  ?  1  8 
+NMN  C3R   .  C  0  ?  ?  ?  1  9 
+NMN  O3R   .  O  0  ?  ?  ?  1  10
+NMN  C2R   .  C  0  ?  ?  ?  1  11
+NMN  O2R   .  O  0  ?  ?  ?  1  12
+NMN  C1R   .  C  0  ?  ?  ?  1  13
+NMN  N1    .  N  1  ?  ?  ?  1  14
+NMN  C2    .  C  0  ?  ?  ?  1  15
+NMN  C3    .  C  0  ?  ?  ?  1  16
+NMN  C7    .  C  0  ?  ?  ?  1  17
+NMN  O7    .  O  0  ?  ?  ?  1  18
+NMN  N7    .  N  0  ?  ?  ?  1  19
+NMN  C4    .  C  0  ?  ?  ?  1  20
+NMN  C5    .  C  0  ?  ?  ?  1  21
+NMN  C6    .  C  0  ?  ?  ?  1  22
+NMN  1HN7  .  H  0  ?  ?  ?  0  23
+NMN  2HN7  .  H  0  ?  ?  ?  0  24
+NMN  HC4   .  H  0  ?  ?  ?  1  25
+NMN  HC5   .  H  0  ?  ?  ?  1  26
+NMN  HC6   .  H  0  ?  ?  ?  1  27
+NMN  HC2   .  H  0  ?  ?  ?  1  28
+NMN  CH1R  .  H  0  ?  ?  ?  0  29
+NMN  CH2R  .  H  0  ?  ?  ?  0  30
+NMN  OH2R  .  H  0  ?  ?  ?  0  31
+NMN  CH3R  .  H  0  ?  ?  ?  0  32
+NMN  OH3R  .  H  0  ?  ?  ?  0  33
+NMN  CH4R  .  H  0  ?  ?  ?  0  34
+NMN  1H5R  .  H  0  ?  ?  ?  0  35
+NMN  2H5R  .  H  0  ?  ?  ?  0  36
+NMN  OH1P  .  H  0  ?  ?  ?  0  37
+NMN  OH2P  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NMN  O3P  P     DOUB  1 
+NMN  P    O1P   SING  2 
+NMN  P    O2P   SING  3 
+NMN  P    O5R   SING  4 
+NMN  O1P  OH1P  SING  5 
+NMN  O2P  OH2P  SING  6 
+NMN  O5R  C5R   SING  7 
+NMN  C5R  C4R   SING  8 
+NMN  C5R  1H5R  SING  9 
+NMN  C5R  2H5R  SING  10
+NMN  C4R  O4R   SING  11
+NMN  C4R  C3R   SING  12
+NMN  C4R  CH4R  SING  13
+NMN  O4R  C1R   SING  14
+NMN  C3R  O3R   SING  15
+NMN  C3R  C2R   SING  16
+NMN  C3R  CH3R  SING  17
+NMN  O3R  OH3R  SING  18
+NMN  C2R  O2R   SING  19
+NMN  C2R  C1R   SING  20
+NMN  C2R  CH2R  SING  21
+NMN  O2R  OH2R  SING  22
+NMN  C1R  N1    SING  23
+NMN  C1R  CH1R  SING  24
+NMN  N1   C2    DOUB  25
+NMN  N1   C6    SING  26
+NMN  C2   C3    SING  27
+NMN  C2   HC2   SING  28
+NMN  C3   C7    SING  29
+NMN  C3   C4    DOUB  30
+NMN  C7   O7    DOUB  31
+NMN  C7   N7    SING  32
+NMN  N7   1HN7  SING  33
+NMN  N7   2HN7  SING  34
+NMN  C4   C5    SING  35
+NMN  C4   HC4   SING  36
+NMN  C5   C6    DOUB  37
+NMN  C5   HC5   SING  38
+NMN  C6   HC6   SING  39
+#

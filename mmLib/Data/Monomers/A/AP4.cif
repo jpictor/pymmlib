@@ -1,0 +1,84 @@
+data_AP4
+#
+_chem_comp.id                   AP4
+_chem_comp.name                 7-AMINO-3,3A,4,5-TETRAHYDRO-8H-2-OXA-5,6,8,9B-TETRAAZA-CYCLOPENTA[A]NAPHTHALENE-1,9-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N5 O3'
+_chem_comp.pdbx_synonyms        5,6-CYCLIC-TETRAHYDROPTERIDINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        223.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AP4  N1    .  N  0  ?  ?  ?  1  1 
+AP4  C2    .  C  0  ?  ?  ?  1  2 
+AP4  N2    .  N  0  ?  ?  ?  1  3 
+AP4  N3    .  N  0  ?  ?  ?  1  4 
+AP4  C4    .  C  0  ?  ?  ?  1  5 
+AP4  O4    .  O  0  ?  ?  ?  1  6 
+AP4  N5    .  N  0  ?  ?  ?  1  7 
+AP4  C6    .  C  0  ?  ?  ?  1  8 
+AP4  C7    .  C  0  ?  ?  ?  1  9 
+AP4  N8    .  N  0  ?  ?  ?  1  10
+AP4  C10   .  C  0  ?  ?  ?  1  11
+AP4  C9    .  C  0  ?  ?  ?  1  12
+AP4  C11   .  C  0  ?  ?  ?  1  13
+AP4  O12   .  O  0  ?  ?  ?  1  14
+AP4  C13   .  C  0  ?  ?  ?  1  15
+AP4  O14   .  O  0  ?  ?  ?  1  16
+AP4  1HN2  .  H  0  ?  ?  ?  0  17
+AP4  2HN2  .  H  0  ?  ?  ?  0  18
+AP4  HN3   .  H  0  ?  ?  ?  1  19
+AP4  HN8   .  H  0  ?  ?  ?  1  20
+AP4  1H7   .  H  0  ?  ?  ?  0  21
+AP4  2H7   .  H  0  ?  ?  ?  0  22
+AP4  H6    .  H  0  ?  ?  ?  1  23
+AP4  1H11  .  H  0  ?  ?  ?  0  24
+AP4  2H11  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AP4  N1   C2    DOUB  1 
+AP4  N1   C10   SING  2 
+AP4  C2   N2    SING  3 
+AP4  C2   N3    SING  4 
+AP4  N2   1HN2  SING  5 
+AP4  N2   2HN2  SING  6 
+AP4  N3   C4    SING  7 
+AP4  N3   HN3   SING  8 
+AP4  C4   O4    DOUB  9 
+AP4  C4   C9    SING  10
+AP4  N5   C6    SING  11
+AP4  N5   C9    SING  12
+AP4  N5   C13   SING  13
+AP4  C6   C7    SING  14
+AP4  C6   C11   SING  15
+AP4  C6   H6    SING  16
+AP4  C7   N8    SING  17
+AP4  C7   1H7   SING  18
+AP4  C7   2H7   SING  19
+AP4  N8   C10   SING  20
+AP4  N8   HN8   SING  21
+AP4  C10  C9    DOUB  22
+AP4  C11  O12   SING  23
+AP4  C11  1H11  SING  24
+AP4  C11  2H11  SING  25
+AP4  O12  C13   SING  26
+AP4  C13  O14   DOUB  27
+#

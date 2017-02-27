@@ -1,0 +1,68 @@
+data_AML
+#
+_chem_comp.id                   AML
+_chem_comp.name                 AMYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        87.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AML  C1    .  C  0  ?  ?  ?  1  1 
+AML  C2    .  C  0  ?  ?  ?  1  2 
+AML  C3    .  C  0  ?  ?  ?  1  3 
+AML  C4    .  C  0  ?  ?  ?  1  4 
+AML  C5    .  C  0  ?  ?  ?  1  5 
+AML  N1    .  N  0  ?  ?  ?  1  6 
+AML  1HN1  .  H  0  ?  ?  ?  0  7 
+AML  2HN1  .  H  0  ?  ?  ?  0  8 
+AML  1HC5  .  H  0  ?  ?  ?  0  9 
+AML  2HC5  .  H  0  ?  ?  ?  0  10
+AML  1HC4  .  H  0  ?  ?  ?  0  11
+AML  2HC4  .  H  0  ?  ?  ?  0  12
+AML  1HC3  .  H  0  ?  ?  ?  0  13
+AML  2HC3  .  H  0  ?  ?  ?  0  14
+AML  1HC2  .  H  0  ?  ?  ?  0  15
+AML  2HC2  .  H  0  ?  ?  ?  0  16
+AML  1HC1  .  H  0  ?  ?  ?  0  17
+AML  2HC1  .  H  0  ?  ?  ?  0  18
+AML  3HC1  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AML  C1  C2    SING  1 
+AML  C1  1HC1  SING  2 
+AML  C1  2HC1  SING  3 
+AML  C1  3HC1  SING  4 
+AML  C2  C3    SING  5 
+AML  C2  1HC2  SING  6 
+AML  C2  2HC2  SING  7 
+AML  C3  C4    SING  8 
+AML  C3  1HC3  SING  9 
+AML  C3  2HC3  SING  10
+AML  C4  C5    SING  11
+AML  C4  1HC4  SING  12
+AML  C4  2HC4  SING  13
+AML  C5  N1    SING  14
+AML  C5  1HC5  SING  15
+AML  C5  2HC5  SING  16
+AML  N1  1HN1  SING  17
+AML  N1  2HN1  SING  18
+#

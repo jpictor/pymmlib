@@ -1,0 +1,85 @@
+data_BZS
+#
+_chem_comp.id                   BZS
+_chem_comp.name                 'L-BENZYLSUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        208.213
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZS  C1   .  C  0  ?  ?  ?  1  1 
+BZS  C2   .  C  0  ?  ?  ?  1  2 
+BZS  CA   .  C  0  ?  ?  ?  1  3 
+BZS  C    .  C  0  ?  ?  ?  1  4 
+BZS  CB   .  C  0  ?  ?  ?  1  5 
+BZS  CG   .  C  0  ?  ?  ?  1  6 
+BZS  CD1  .  C  0  ?  ?  ?  1  7 
+BZS  CD2  .  C  0  ?  ?  ?  1  8 
+BZS  CE1  .  C  0  ?  ?  ?  1  9 
+BZS  CE2  .  C  0  ?  ?  ?  1  10
+BZS  CZ   .  C  0  ?  ?  ?  1  11
+BZS  O1   .  O  0  ?  ?  ?  1  12
+BZS  O2   .  O  0  ?  ?  ?  1  13
+BZS  O3   .  O  0  ?  ?  ?  1  14
+BZS  O4   .  O  0  ?  ?  ?  1  15
+BZS  1H2  .  H  0  ?  ?  ?  0  16
+BZS  2H2  .  H  0  ?  ?  ?  0  17
+BZS  HA   .  H  0  ?  ?  ?  1  18
+BZS  1HB  .  H  0  ?  ?  ?  0  19
+BZS  2HB  .  H  0  ?  ?  ?  0  20
+BZS  HD1  .  H  0  ?  ?  ?  1  21
+BZS  HD2  .  H  0  ?  ?  ?  1  22
+BZS  HE1  .  H  0  ?  ?  ?  1  23
+BZS  HE2  .  H  0  ?  ?  ?  1  24
+BZS  HZ   .  H  0  ?  ?  ?  1  25
+BZS  HO2  .  H  0  ?  ?  ?  1  26
+BZS  HO4  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZS  C1   C2   SING  1 
+BZS  C1   O1   DOUB  2 
+BZS  C1   O2   SING  3 
+BZS  C2   CA   SING  4 
+BZS  C2   1H2  SING  5 
+BZS  C2   2H2  SING  6 
+BZS  CA   C    SING  7 
+BZS  CA   CB   SING  8 
+BZS  CA   HA   SING  9 
+BZS  C    O3   DOUB  10
+BZS  C    O4   SING  11
+BZS  CB   CG   SING  12
+BZS  CB   1HB  SING  13
+BZS  CB   2HB  SING  14
+BZS  CG   CD1  DOUB  15
+BZS  CG   CD2  SING  16
+BZS  CD1  CE1  SING  17
+BZS  CD1  HD1  SING  18
+BZS  CD2  CE2  DOUB  19
+BZS  CD2  HD2  SING  20
+BZS  CE1  CZ   DOUB  21
+BZS  CE1  HE1  SING  22
+BZS  CE2  CZ   SING  23
+BZS  CE2  HE2  SING  24
+BZS  CZ   HZ   SING  25
+BZS  O2   HO2  SING  26
+BZS  O4   HO4  SING  27
+#

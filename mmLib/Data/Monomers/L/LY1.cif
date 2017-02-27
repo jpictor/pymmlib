@@ -1,0 +1,80 @@
+data_LY1
+#
+_chem_comp.id                   LY1
+_chem_comp.name                 8,9-DICHLORO-2,3,4,5-TETRAHYDRO-1H-BENZO[C]AZEPINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N1 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.110
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LY1  C1    .  C   0  28.741  42.988  18.605  1  1 
+LY1  N1    .  N   0  30.204  42.962  18.962  1  2 
+LY1  C2    .  C   0  30.599  44.097  19.842  1  3 
+LY1  C3    .  C   0  30.578  45.432  19.110  1  4 
+LY1  C4    .  C   0  29.182  45.833  18.663  1  5 
+LY1  C4A   .  C   0  28.728  45.174  17.390  1  6 
+LY1  C5    .  C   0  28.533  45.955  16.267  1  7 
+LY1  C6    .  C   0  28.115  45.369  15.085  1  8 
+LY1  C7    .  C   0  27.876  43.994  15.005  1  9 
+LY1  C8    .  C   0  28.067  43.160  16.152  1  10
+LY1  C8A   .  C   0  28.503  43.787  17.346  1  11
+LY1  CL1   .  CL  0  27.461  43.486  13.690  0  12
+LY1  CL2   .  CL  0  27.799  41.670  16.148  0  13
+LY1  1HC1  .  H   0  ?       ?       ?       0  14
+LY1  2HC1  .  H   0  ?       ?       ?       0  15
+LY1  1HN1  .  H   0  ?       ?       ?       0  16
+LY1  1HC2  .  H   0  ?       ?       ?       0  17
+LY1  2HC2  .  H   0  ?       ?       ?       0  18
+LY1  1HC3  .  H   0  ?       ?       ?       0  19
+LY1  2HC3  .  H   0  ?       ?       ?       0  20
+LY1  1HC4  .  H   0  ?       ?       ?       0  21
+LY1  2HC4  .  H   0  ?       ?       ?       0  22
+LY1  1HC5  .  H   0  ?       ?       ?       0  23
+LY1  1HC6  .  H   0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LY1  C1   N1    SING  1 
+LY1  C1   C8A   SING  2 
+LY1  C1   1HC1  SING  3 
+LY1  C1   2HC1  SING  4 
+LY1  N1   C2    SING  5 
+LY1  N1   1HN1  SING  6 
+LY1  C2   C3    SING  7 
+LY1  C2   1HC2  SING  8 
+LY1  C2   2HC2  SING  9 
+LY1  C3   C4    SING  10
+LY1  C3   1HC3  SING  11
+LY1  C3   2HC3  SING  12
+LY1  C4   C4A   SING  13
+LY1  C4   1HC4  SING  14
+LY1  C4   2HC4  SING  15
+LY1  C4A  C5    AROM  16
+LY1  C4A  C8A   AROM  17
+LY1  C5   C6    AROM  18
+LY1  C5   1HC5  SING  19
+LY1  C6   C7    AROM  20
+LY1  C6   1HC6  SING  21
+LY1  C7   C8    AROM  22
+LY1  C7   CL1   SING  23
+LY1  C8   C8A   AROM  24
+LY1  C8   CL2   SING  25
+#

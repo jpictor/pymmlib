@@ -1,0 +1,68 @@
+data_DTO
+#
+_chem_comp.id                   DTO
+_chem_comp.name                 1-HYDROXYSULFANYL-4-MERCAPTO-BUTANE-2,3-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 O3 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTO  S1    .  S  0  ?  ?  ?  1  1 
+DTO  O1    .  O  0  ?  ?  ?  1  2 
+DTO  C1    .  C  0  ?  ?  ?  1  3 
+DTO  C2    .  C  0  ?  ?  ?  1  4 
+DTO  O2    .  O  0  ?  ?  ?  1  5 
+DTO  C3    .  C  0  ?  ?  ?  1  6 
+DTO  O3    .  O  0  ?  ?  ?  1  7 
+DTO  C4    .  C  0  ?  ?  ?  1  8 
+DTO  S4    .  S  0  ?  ?  ?  1  9 
+DTO  H1    .  H  0  ?  ?  ?  1  10
+DTO  2H1   .  H  0  ?  ?  ?  0  11
+DTO  1H1   .  H  0  ?  ?  ?  0  12
+DTO  H2    .  H  0  ?  ?  ?  1  13
+DTO  1H2O  .  H  0  ?  ?  ?  0  14
+DTO  H3    .  H  0  ?  ?  ?  1  15
+DTO  1H3O  .  H  0  ?  ?  ?  0  16
+DTO  2H4   .  H  0  ?  ?  ?  0  17
+DTO  1H4   .  H  0  ?  ?  ?  0  18
+DTO  H4S   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTO  S1  O1    SING  1 
+DTO  S1  C1    SING  2 
+DTO  O1  H1    SING  3 
+DTO  C1  C2    SING  4 
+DTO  C1  2H1   SING  5 
+DTO  C1  1H1   SING  6 
+DTO  C2  O2    SING  7 
+DTO  C2  C3    SING  8 
+DTO  C2  H2    SING  9 
+DTO  O2  1H2O  SING  10
+DTO  C3  O3    SING  11
+DTO  C3  C4    SING  12
+DTO  C3  H3    SING  13
+DTO  O3  1H3O  SING  14
+DTO  C4  S4    SING  15
+DTO  C4  2H4   SING  16
+DTO  C4  1H4   SING  17
+DTO  S4  H4S   SING  18
+#

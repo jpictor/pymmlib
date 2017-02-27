@@ -1,0 +1,128 @@
+data_MOX
+#
+_chem_comp.id                   MOX
+_chem_comp.name                 '7-METHOXY-3-METHYL-7-(3-METHYL-2-PHENYL-BUT-3-ENOYLAMINO)-8-OXO-5-OXA-1-AZA-BICYCLO[4.2.0]OCT-2-ENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H18 N2 O9'
+_chem_comp.pdbx_synonyms        'MOXALACTAM DERIVATIVE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        406.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOX  C1    .  C  0  ?  ?  ?  1  1 
+MOX  O1    .  O  0  ?  ?  ?  1  2 
+MOX  C2    .  C  0  ?  ?  ?  1  3 
+MOX  O61   .  O  0  ?  ?  ?  1  4 
+MOX  C62   .  C  0  ?  ?  ?  1  5 
+MOX  C3    .  C  0  ?  ?  ?  1  6 
+MOX  N8    .  N  0  ?  ?  ?  1  7 
+MOX  O4    .  O  0  ?  ?  ?  1  8 
+MOX  C7    .  C  0  ?  ?  ?  1  9 
+MOX  C5    .  C  0  ?  ?  ?  1  10
+MOX  C6    .  C  0  ?  ?  ?  1  11
+MOX  C9    .  C  0  ?  ?  ?  1  12
+MOX  C8    .  C  0  ?  ?  ?  1  13
+MOX  O81   .  O  0  ?  ?  ?  1  14
+MOX  O82   .  O  0  ?  ?  ?  1  15
+MOX  N2    .  N  0  ?  ?  ?  1  16
+MOX  C21   .  C  0  ?  ?  ?  1  17
+MOX  O21   .  O  0  ?  ?  ?  1  18
+MOX  C22   .  C  0  ?  ?  ?  1  19
+MOX  C29   .  C  0  ?  ?  ?  1  20
+MOX  O30   .  O  0  ?  ?  ?  1  21
+MOX  O31   .  O  0  ?  ?  ?  1  22
+MOX  C23   .  C  0  ?  ?  ?  1  23
+MOX  C24   .  C  0  ?  ?  ?  1  24
+MOX  C26   .  C  0  ?  ?  ?  1  25
+MOX  C25   .  C  0  ?  ?  ?  1  26
+MOX  C27   .  C  0  ?  ?  ?  1  27
+MOX  C28   .  C  0  ?  ?  ?  1  28
+MOX  O26   .  O  0  ?  ?  ?  1  29
+MOX  H3    .  H  0  ?  ?  ?  1  30
+MOX  1H5   .  H  0  ?  ?  ?  0  31
+MOX  2H5   .  H  0  ?  ?  ?  0  32
+MOX  1H9   .  H  0  ?  ?  ?  0  33
+MOX  2H9   .  H  0  ?  ?  ?  0  34
+MOX  3H9   .  H  0  ?  ?  ?  0  35
+MOX  H82   .  H  0  ?  ?  ?  1  36
+MOX  1H62  .  H  0  ?  ?  ?  0  37
+MOX  2H62  .  H  0  ?  ?  ?  0  38
+MOX  3H62  .  H  0  ?  ?  ?  0  39
+MOX  HN2   .  H  0  ?  ?  ?  1  40
+MOX  H22   .  H  0  ?  ?  ?  1  41
+MOX  H24   .  H  0  ?  ?  ?  1  42
+MOX  H25   .  H  0  ?  ?  ?  1  43
+MOX  H27   .  H  0  ?  ?  ?  1  44
+MOX  H28   .  H  0  ?  ?  ?  1  45
+MOX  H26   .  H  0  ?  ?  ?  1  46
+MOX  H31   .  H  0  ?  ?  ?  1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOX  C1   O1    DOUB  1 
+MOX  C1   C2    SING  2 
+MOX  C1   N8    SING  3 
+MOX  C2   O61   SING  4 
+MOX  C2   C3    SING  5 
+MOX  C2   N2    SING  6 
+MOX  O61  C62   SING  7 
+MOX  C62  1H62  SING  8 
+MOX  C62  2H62  SING  9 
+MOX  C62  3H62  SING  10
+MOX  C3   N8    SING  11
+MOX  C3   O4    SING  12
+MOX  C3   H3    SING  13
+MOX  N8   C7    SING  14
+MOX  O4   C5    SING  15
+MOX  C7   C6    DOUB  16
+MOX  C7   C8    SING  17
+MOX  C5   C6    SING  18
+MOX  C5   1H5   SING  19
+MOX  C5   2H5   SING  20
+MOX  C6   C9    SING  21
+MOX  C9   1H9   SING  22
+MOX  C9   2H9   SING  23
+MOX  C9   3H9   SING  24
+MOX  C8   O81   DOUB  25
+MOX  C8   O82   SING  26
+MOX  O82  H82   SING  27
+MOX  N2   C21   SING  28
+MOX  N2   HN2   SING  29
+MOX  C21  O21   DOUB  30
+MOX  C21  C22   SING  31
+MOX  C22  C29   SING  32
+MOX  C22  C23   SING  33
+MOX  C22  H22   SING  34
+MOX  C29  O30   DOUB  35
+MOX  C29  O31   SING  36
+MOX  O31  H31   SING  37
+MOX  C23  C24   AROM  38
+MOX  C23  C28   AROM  39
+MOX  C24  C25   AROM  40
+MOX  C24  H24   SING  41
+MOX  C26  C25   AROM  42
+MOX  C26  C27   AROM  43
+MOX  C26  O26   SING  44
+MOX  C25  H25   SING  45
+MOX  C27  C28   AROM  46
+MOX  C27  H27   SING  47
+MOX  C28  H28   SING  48
+MOX  O26  H26   SING  49
+#

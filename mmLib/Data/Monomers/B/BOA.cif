@@ -1,0 +1,60 @@
+data_BOA
+#
+_chem_comp.id                   BOA
+_chem_comp.name                 2-BROMO-6-HYDROXY-PURINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H3 N4 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.009
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BOA  O6  .  O   0  33.213  56.854  31.424  1  1 
+BOA  C6  .  C   0  33.892  55.938  30.907  1  2 
+BOA  N1  .  N   0  35.201  55.836  31.134  1  3 
+BOA  C2  .  C   0  35.939  54.862  30.587  1  4 
+BOA  BR  .  BR  0  37.770  54.853  30.993  0  5 
+BOA  C5  .  C   0  33.279  54.924  30.023  1  6 
+BOA  C4  .  C   0  34.157  53.887  29.463  1  7 
+BOA  N3  .  N   0  35.453  53.912  29.775  1  8 
+BOA  N7  .  N   0  32.052  54.678  29.562  1  9 
+BOA  C8  .  C   0  32.110  53.576  28.769  1  10
+BOA  N9  .  N   0  33.380  53.099  28.708  1  11
+BOA  H6  .  H   0  ?       ?       ?       1  12
+BOA  H7  .  H   0  ?       ?       ?       1  13
+BOA  H8  .  H   0  ?       ?       ?       1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BOA  O6  C6  SING  1 
+BOA  O6  H6  SING  2 
+BOA  C6  N1  DOUB  3 
+BOA  C6  C5  SING  4 
+BOA  N1  C2  SING  5 
+BOA  C2  BR  SING  6 
+BOA  C2  N3  DOUB  7 
+BOA  C5  C4  DOUB  8 
+BOA  C5  N7  SING  9 
+BOA  C4  N3  SING  10
+BOA  C4  N9  SING  11
+BOA  N7  C8  SING  12
+BOA  N7  H7  SING  13
+BOA  C8  N9  DOUB  14
+BOA  C8  H8  SING  15
+#

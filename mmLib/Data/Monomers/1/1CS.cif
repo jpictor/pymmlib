@@ -1,0 +1,102 @@
+data_1CS
+#
+_chem_comp.id                   1CS
+_chem_comp.name                 1-(2-CHLOROPHENYLSULFONYL)-3-(4-METHOXY-6-METHYL-L,3,5-TRIAZIN-2-YL)UREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 N5 O4 CL1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        357.771
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1CS  C5'   .  C   0  25.879  30.166  137.779  1  1 
+1CS  O4'   .  O   0  25.314  28.875  137.634  1  2 
+1CS  C4'   .  C   0  25.206  28.267  136.327  1  3 
+1CS  N5'   .  N   0  25.677  28.994  135.199  1  4 
+1CS  C6'   .  C   0  25.566  28.369  133.906  1  5 
+1CS  C7'   .  C   0  26.037  29.102  132.774  1  6 
+1CS  N1'   .  N   0  25.004  27.073  133.746  1  7 
+1CS  C2'   .  C   0  24.542  26.382  134.924  1  8 
+1CS  N10   .  N   0  24.002  25.152  134.810  1  9 
+1CS  C9    .  C   0  23.531  24.413  135.838  1  10
+1CS  O9    .  O   0  23.492  24.694  137.051  1  11
+1CS  N8    .  N   0  23.056  23.254  135.324  1  12
+1CS  S7    .  S   0  22.354  22.045  136.227  1  13
+1CS  O7A   .  O   0  23.117  21.051  136.943  1  14
+1CS  O7B   .  O   0  21.696  21.679  134.986  1  15
+1CS  C2    .  C   0  20.938  22.728  137.008  1  16
+1CS  C3    .  C   0  20.765  22.135  138.312  1  17
+1CS  C4    .  C   0  19.640  22.547  139.171  1  18
+1CS  C5    .  C   0  18.696  23.572  138.686  1  19
+1CS  C6    .  C   0  18.882  24.142  137.403  1  20
+1CS  C1    .  C   0  19.979  23.743  136.553  1  21
+1CS  N3'   .  N   0  24.663  27.011  136.182  1  22
+1CS  CL11  .  CL  0  20.117  24.486  135.026  0  23
+1CS  1H5'  .  H   0  ?       ?       ?        0  24
+1CS  2H5'  .  H   0  ?       ?       ?        0  25
+1CS  3H5'  .  H   0  ?       ?       ?        0  26
+1CS  1H7'  .  H   0  ?       ?       ?        0  27
+1CS  2H7'  .  H   0  ?       ?       ?        0  28
+1CS  3H7'  .  H   0  ?       ?       ?        0  29
+1CS  H10   .  H   0  ?       ?       ?        1  30
+1CS  HN8   .  H   0  ?       ?       ?        1  31
+1CS  H3    .  H   0  ?       ?       ?        1  32
+1CS  H4    .  H   0  ?       ?       ?        1  33
+1CS  H5    .  H   0  ?       ?       ?        1  34
+1CS  H6    .  H   0  ?       ?       ?        1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1CS  C5'  O4'   SING  1 
+1CS  C5'  1H5'  SING  2 
+1CS  C5'  2H5'  SING  3 
+1CS  C5'  3H5'  SING  4 
+1CS  O4'  C4'   SING  5 
+1CS  C4'  N5'   AROM  6 
+1CS  C4'  N3'   AROM  7 
+1CS  N5'  C6'   AROM  8 
+1CS  C6'  C7'   SING  9 
+1CS  C6'  N1'   AROM  10
+1CS  C7'  1H7'  SING  11
+1CS  C7'  2H7'  SING  12
+1CS  C7'  3H7'  SING  13
+1CS  N1'  C2'   AROM  14
+1CS  C2'  N10   SING  15
+1CS  C2'  N3'   AROM  16
+1CS  N10  C9    SING  17
+1CS  N10  H10   SING  18
+1CS  C9   O9    DOUB  19
+1CS  C9   N8    SING  20
+1CS  N8   S7    SING  21
+1CS  N8   HN8   SING  22
+1CS  S7   O7A   DOUB  23
+1CS  S7   O7B   DOUB  24
+1CS  S7   C2    SING  25
+1CS  C2   C3    AROM  26
+1CS  C2   C1    AROM  27
+1CS  C3   C4    AROM  28
+1CS  C3   H3    SING  29
+1CS  C4   C5    AROM  30
+1CS  C4   H4    SING  31
+1CS  C5   C6    AROM  32
+1CS  C5   H5    SING  33
+1CS  C6   C1    AROM  34
+1CS  C6   H6    SING  35
+1CS  C1   CL11  SING  36
+#

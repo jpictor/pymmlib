@@ -1,0 +1,69 @@
+data_ALG
+#
+_chem_comp.id                       ALG
+_chem_comp.name                     'GUANIDINOBUTYRYL GROUP'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H10 N3 O1'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            128.154
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALG  C     .  C  0  ?  ?  ?  1  1 
+ALG  O     .  O  0  ?  ?  ?  1  2 
+ALG  CA    .  C  0  ?  ?  ?  1  3 
+ALG  CB    .  C  0  ?  ?  ?  1  4 
+ALG  CD    .  C  0  ?  ?  ?  1  5 
+ALG  NE    .  N  0  ?  ?  ?  1  6 
+ALG  CZ    .  C  0  ?  ?  ?  1  7 
+ALG  NH1   .  N  0  ?  ?  ?  1  8 
+ALG  NH2   .  N  0  ?  ?  ?  1  9 
+ALG  1HA   .  H  0  ?  ?  ?  0  10
+ALG  2HA   .  H  0  ?  ?  ?  0  11
+ALG  1HB   .  H  0  ?  ?  ?  0  12
+ALG  2HB   .  H  0  ?  ?  ?  0  13
+ALG  1HD   .  H  0  ?  ?  ?  0  14
+ALG  2HD   .  H  0  ?  ?  ?  0  15
+ALG  HNE   .  H  0  ?  ?  ?  1  16
+ALG  HH1   .  H  0  ?  ?  ?  1  17
+ALG  1HH2  .  H  0  ?  ?  ?  0  18
+ALG  2HH2  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALG  C    CA    SING  1 
+ALG  C    O     DOUB  2 
+ALG  CA   CB    SING  3 
+ALG  CA   1HA   SING  4 
+ALG  CA   2HA   SING  5 
+ALG  CB   CD    SING  6 
+ALG  CB   1HB   SING  7 
+ALG  CB   2HB   SING  8 
+ALG  CD   NE    SING  9 
+ALG  CD   1HD   SING  10
+ALG  CD   2HD   SING  11
+ALG  NE   CZ    SING  12
+ALG  NE   HNE   SING  13
+ALG  CZ   NH1   DOUB  14
+ALG  CZ   NH2   SING  15
+ALG  NH1  HH1   SING  16
+ALG  NH2  1HH2  SING  17
+ALG  NH2  2HH2  SING  18
+#

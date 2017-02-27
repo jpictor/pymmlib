@@ -1,0 +1,92 @@
+data_TYO
+#
+_chem_comp.id                   TYO
+_chem_comp.name                 (4Z,6E)-2-AMINO-7-HYDROPEROXY-4-[(E)-2-HYDROXYVINYL]HEPTA-4,6-DIENAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        199.206
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          TYO
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C(/C=C/OO)C(C[C@@H](C=O)N)C=CO
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+TYO  N     .  N  0  29.983  -6.178  22.560  1  N  1 
+TYO  CA    .  C  0  28.872  -6.228  21.615  1  N  2 
+TYO  CB    .  C  0  27.919  -5.064  21.873  1  N  3 
+TYO  CG    .  C  0  26.503  -5.270  21.346  1  N  4 
+TYO  CD1   .  C  0  25.658  -6.420  21.978  1  N  5 
+TYO  CE1   .  C  0  24.332  -6.339  22.064  1  N  6 
+TYO  OE1   .  O  0  23.736  -6.032  23.326  1  N  7 
+TYO  CD2   .  C  0  26.115  -4.552  20.211  1  N  8 
+TYO  CE2   .  C  0  25.049  -5.041  19.140  1  N  9 
+TYO  CZ    .  C  0  23.735  -4.955  19.403  1  N  10
+TYO  OH    .  O  0  22.813  -5.613  18.530  1  N  11
+TYO  OH1   .  O  0  21.579  -6.230  19.112  1  N  12
+TYO  C     .  C  0  29.443  -6.186  20.198  1  N  13
+TYO  O     .  O  0  30.245  -5.314  19.859  1  N  14
+TYO  1HN   .  H  0  30.848  -6.167  22.058  0  N  15
+TYO  2HN   .  H  0  29.910  -5.351  23.117  0  N  16
+TYO  HA    .  H  0  28.297  -7.157  21.740  1  N  17
+TYO  1HB   .  H  0  28.335  -4.174  21.378  0  N  18
+TYO  2HB   .  H  0  27.835  -4.964  22.965  0  N  19
+TYO  HD1   .  H  0  26.159  -7.300  22.353  1  N  20
+TYO  HE1   .  H  0  23.716  -6.503  21.193  1  N  21
+TYO  HOE1  .  H  0  24.413  -5.964  23.988  0  N  22
+TYO  1HD2  .  H  0  27.044  -4.421  19.636  0  N  23
+TYO  HE2   .  H  0  25.383  -5.445  18.195  1  N  24
+TYO  HZ    .  H  0  23.381  -4.399  20.258  1  N  25
+TYO  HOH1  .  H  0  21.700  -6.361  20.045  0  N  26
+TYO  H     .  H  0  29.138  -6.934  19.481  1  N  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+TYO  N    CA    SING  N  1 
+TYO  N    1HN   SING  N  2 
+TYO  N    2HN   SING  N  3 
+TYO  CA   C     SING  N  4 
+TYO  CA   CB    SING  N  5 
+TYO  CA   HA    SING  N  6 
+TYO  CB   CG    SING  N  7 
+TYO  CB   1HB   SING  N  8 
+TYO  CB   2HB   SING  N  9 
+TYO  CG   CD2   DOUB  N  10
+TYO  CG   CD1   SING  N  11
+TYO  CD1  CE1   DOUB  N  12
+TYO  CD1  HD1   SING  N  13
+TYO  CE1  OE1   SING  N  14
+TYO  CE1  HE1   SING  N  15
+TYO  OE1  HOE1  SING  N  16
+TYO  CD2  CE2   SING  N  17
+TYO  CD2  1HD2  SING  N  18
+TYO  CE2  CZ    DOUB  N  19
+TYO  CE2  HE2   SING  N  20
+TYO  CZ   OH    SING  N  21
+TYO  CZ   HZ    SING  N  22
+TYO  OH   OH1   SING  N  23
+TYO  OH1  HOH1  SING  N  24
+TYO  C    O     DOUB  N  25
+TYO  C    H     SING  N  26
+#

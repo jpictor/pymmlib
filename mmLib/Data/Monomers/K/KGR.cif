@@ -1,0 +1,70 @@
+data_KGR
+#
+_chem_comp.id                   KGR
+_chem_comp.name                 5-KETO-4-DEOXYGLUCARATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 O7'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       191.117
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KGR  O1B   .  O  0   ?  ?  ?  1  1 
+KGR  O1A   .  O  -1  ?  ?  ?  1  2 
+KGR  C1    .  C  0   ?  ?  ?  1  3 
+KGR  C2    .  C  0   ?  ?  ?  1  4 
+KGR  O2    .  O  0   ?  ?  ?  1  5 
+KGR  C3    .  C  0   ?  ?  ?  1  6 
+KGR  O3    .  O  0   ?  ?  ?  1  7 
+KGR  C4    .  C  0   ?  ?  ?  1  8 
+KGR  O5    .  O  0   ?  ?  ?  1  9 
+KGR  C5    .  C  0   ?  ?  ?  1  10
+KGR  C6    .  C  0   ?  ?  ?  1  11
+KGR  O6A   .  O  0   ?  ?  ?  1  12
+KGR  O6B   .  O  -1  ?  ?  ?  1  13
+KGR  1H4   .  H  0   ?  ?  ?  0  14
+KGR  2H4   .  H  0   ?  ?  ?  0  15
+KGR  1H3   .  H  0   ?  ?  ?  0  16
+KGR  1HO3  .  H  0   ?  ?  ?  0  17
+KGR  1HO2  .  H  0   ?  ?  ?  0  18
+KGR  1H2   .  H  0   ?  ?  ?  0  19
+KGR  1H5   .  H  0   ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KGR  O1B  C1    DOUB  1 
+KGR  O1A  C1    SING  2 
+KGR  C1   C2    SING  3 
+KGR  C2   O2    SING  4 
+KGR  C2   C3    SING  5 
+KGR  C2   1H2   SING  6 
+KGR  O2   1HO2  SING  7 
+KGR  C3   O3    SING  8 
+KGR  C3   C4    SING  9 
+KGR  C3   1H3   SING  10
+KGR  O3   1HO3  SING  11
+KGR  C4   C5    SING  12
+KGR  C4   1H4   SING  13
+KGR  C4   2H4   SING  14
+KGR  O5   C5    DOUB  15
+KGR  C5   C6    SING  16
+KGR  C5   1H5   SING  17
+KGR  C6   O6A   DOUB  18
+KGR  C6   O6B   SING  19
+#

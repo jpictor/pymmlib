@@ -1,0 +1,38 @@
+data_ZN3
+#
+_chem_comp.id                   ZN3
+_chem_comp.name                 'ZINC ION, 1 WATER COORDINATED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETIC
+_chem_comp.formula              'H2 O1 ZN1'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       83.395
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZN3  ZN    .  ZN  2  ?  ?  ?  0  1
+ZN3  O1    .  O   0  ?  ?  ?  1  2
+ZN3  1HO1  .  H   0  ?  ?  ?  0  3
+ZN3  2HO1  .  H   0  ?  ?  ?  0  4
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZN3  ZN  O1    SING  1
+ZN3  O1  1HO1  SING  2
+ZN3  O1  2HO1  SING  3
+#

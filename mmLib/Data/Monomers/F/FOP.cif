@@ -1,0 +1,61 @@
+data_FOP
+#
+_chem_comp.id                   FOP
+_chem_comp.name                 2-HYDROXY-PROPYL-AMMONIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H10 N1 O1'
+_chem_comp.pdbx_synonyms        'F-LOOP OF VITAMIN B12'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       76.118
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOP  N4   .  N  1  ?  ?  ?  1  1 
+FOP  C5   .  C  0  ?  ?  ?  1  2 
+FOP  C6   .  C  0  ?  ?  ?  1  3 
+FOP  C7   .  C  0  ?  ?  ?  1  4 
+FOP  O7   .  O  0  ?  ?  ?  1  5 
+FOP  H41  .  H  0  ?  ?  ?  1  6 
+FOP  H42  .  H  0  ?  ?  ?  1  7 
+FOP  H43  .  H  0  ?  ?  ?  1  8 
+FOP  H51  .  H  0  ?  ?  ?  1  9 
+FOP  H52  .  H  0  ?  ?  ?  1  10
+FOP  H6   .  H  0  ?  ?  ?  1  11
+FOP  H71  .  H  0  ?  ?  ?  1  12
+FOP  H72  .  H  0  ?  ?  ?  1  13
+FOP  H73  .  H  0  ?  ?  ?  1  14
+FOP  HO7  .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOP  N4  H41  SING  1 
+FOP  N4  H42  SING  2 
+FOP  N4  H43  SING  3 
+FOP  N4  C5   SING  4 
+FOP  C5  H51  SING  5 
+FOP  C5  H52  SING  6 
+FOP  C5  C6   SING  7 
+FOP  C6  H6   SING  8 
+FOP  C6  C7   SING  9 
+FOP  C6  O7   SING  10
+FOP  C7  H71  SING  11
+FOP  C7  H72  SING  12
+FOP  C7  H73  SING  13
+FOP  O7  HO7  SING  14
+#

@@ -1,0 +1,72 @@
+data_LXC
+#
+_chem_comp.id                   LXC
+_chem_comp.name                 BETA-L-XYLOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_synonyms        'L-XYLOSE (CYCLIC FORM)'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LXC  C5    .  C  0  57.791  23.126  72.589  1  1 
+LXC  O5    .  O  0  58.286  23.993  73.64   1  2 
+LXC  C1    .  C  0  57.304  25.132  73.906  1  3 
+LXC  O1    .  O  0  57.819  25.991  74.942  1  4 
+LXC  C2    .  C  0  55.97   24.503  74.377  1  5 
+LXC  O2    .  O  0  54.943  25.512  74.638  1  6 
+LXC  C3    .  C  0  55.463  23.525  73.311  1  7 
+LXC  O3    .  O  0  54.212  22.887  73.747  1  8 
+LXC  C4    .  C  0  56.568  22.465  73.005  1  9 
+LXC  O4    .  O  0  56.097  21.564  71.991  1  10
+LXC  1H5C  .  H  0  58.564  22.395  72.258  0  11
+LXC  2H5C  .  H  0  57.658  23.675  71.628  0  12
+LXC  H4    .  H  0  56.773  21.883  73.934  1  13
+LXC  H1    .  H  0  57.139  25.719  72.972  1  14
+LXC  HA    .  H  0  57.208  26.699  75.107  1  15
+LXC  H2    .  H  0  56.158  23.936  75.318  1  16
+LXC  HB    .  H  0  54.125  25.126  74.927  1  17
+LXC  H3    .  H  0  55.258  24.098  72.377  1  18
+LXC  HC    .  H  0  53.54   23.532  73.933  1  19
+LXC  HD    .  H  0  55.296  21.131  72.263  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LXC  C5  O5    SING  1 
+LXC  C5  C4    SING  2 
+LXC  C5  1H5C  SING  3 
+LXC  C5  2H5C  SING  4 
+LXC  O5  C1    SING  5 
+LXC  C1  O1    SING  6 
+LXC  C1  C2    SING  7 
+LXC  C1  H1    SING  8 
+LXC  O1  HA    SING  9 
+LXC  C2  O2    SING  10
+LXC  C2  C3    SING  11
+LXC  C2  H2    SING  12
+LXC  O2  HB    SING  13
+LXC  C3  O3    SING  14
+LXC  C3  C4    SING  15
+LXC  C3  H3    SING  16
+LXC  O3  HC    SING  17
+LXC  C4  O4    SING  18
+LXC  C4  H4    SING  19
+LXC  O4  HD    SING  20
+#

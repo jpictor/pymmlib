@@ -1,0 +1,50 @@
+data_FMS
+#
+_chem_comp.id                   FMS
+_chem_comp.name                 'TRIFLUOROMETHANE SULFONAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H2 N1 O2 F3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.088
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FMS  C    .  C  0  ?  ?  ?  1  1 
+FMS  F1   .  F  0  ?  ?  ?  1  2 
+FMS  F2   .  F  0  ?  ?  ?  1  3 
+FMS  F3   .  F  0  ?  ?  ?  1  4 
+FMS  S    .  S  0  ?  ?  ?  1  5 
+FMS  N    .  N  0  ?  ?  ?  1  6 
+FMS  O1   .  O  0  ?  ?  ?  1  7 
+FMS  O2   .  O  0  ?  ?  ?  1  8 
+FMS  1HN  .  H  0  ?  ?  ?  0  9 
+FMS  2HN  .  H  0  ?  ?  ?  0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FMS  C  S    SING  1
+FMS  C  F1   SING  2
+FMS  C  F2   SING  3
+FMS  C  F3   SING  4
+FMS  S  N    SING  5
+FMS  S  O1   DOUB  6
+FMS  S  O2   DOUB  7
+FMS  N  1HN  SING  8
+FMS  N  2HN  SING  9
+#

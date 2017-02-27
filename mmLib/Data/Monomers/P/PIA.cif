@@ -1,0 +1,104 @@
+data_PIA
+#
+_chem_comp.id                   PIA
+_chem_comp.name                 {2-(1-AMINOETHYL)-4-[(4-HYDROXYPHENYL)METHYL]-5-OXO-2,5-DIHYDRO-1H-IMIDAZOL-1-YL}ACETALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H15 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        289.290
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIA  N1    .  N  0  ?  ?  ?  1  1 
+PIA  CA1   .  C  0  ?  ?  ?  1  2 
+PIA  CB1   .  C  0  ?  ?  ?  1  3 
+PIA  C1    .  C  0  ?  ?  ?  1  4 
+PIA  N2    .  N  0  ?  ?  ?  1  5 
+PIA  N3    .  N  0  ?  ?  ?  1  6 
+PIA  C2    .  C  0  ?  ?  ?  1  7 
+PIA  O2    .  O  0  ?  ?  ?  1  8 
+PIA  CA2   .  C  0  ?  ?  ?  1  9 
+PIA  CA3   .  C  0  ?  ?  ?  1  10
+PIA  C3    .  C  0  ?  ?  ?  1  11
+PIA  O3    .  O  0  ?  ?  ?  1  12
+PIA  CB2   .  C  0  ?  ?  ?  1  13
+PIA  CG2   .  C  0  ?  ?  ?  1  14
+PIA  CD1   .  C  0  ?  ?  ?  1  15
+PIA  CD2   .  C  0  ?  ?  ?  1  16
+PIA  CE1   .  C  0  ?  ?  ?  1  17
+PIA  CE2   .  C  0  ?  ?  ?  1  18
+PIA  CZ    .  C  0  ?  ?  ?  1  19
+PIA  OH    .  O  0  ?  ?  ?  1  20
+PIA  O31   .  O  0  ?  ?  ?  1  21
+PIA  1HN1  .  H  0  ?  ?  ?  0  22
+PIA  2HN1  .  H  0  ?  ?  ?  0  23
+PIA  HA1   .  H  0  ?  ?  ?  1  24
+PIA  1HB1  .  H  0  ?  ?  ?  0  25
+PIA  2HB1  .  H  0  ?  ?  ?  0  26
+PIA  3HB1  .  H  0  ?  ?  ?  0  27
+PIA  1HA3  .  H  0  ?  ?  ?  0  28
+PIA  2HA3  .  H  0  ?  ?  ?  0  29
+PIA  HB2   .  H  0  ?  ?  ?  1  30
+PIA  HD1   .  H  0  ?  ?  ?  1  31
+PIA  HD2   .  H  0  ?  ?  ?  1  32
+PIA  HE1   .  H  0  ?  ?  ?  1  33
+PIA  HE2   .  H  0  ?  ?  ?  1  34
+PIA  HH    .  H  0  ?  ?  ?  1  35
+PIA  HO'   .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIA  N1   CA1   SING  1 
+PIA  N1   1HN1  SING  2 
+PIA  N1   2HN1  SING  3 
+PIA  CA1  CB1   SING  4 
+PIA  CA1  C1    SING  5 
+PIA  CA1  HA1   SING  6 
+PIA  CB1  1HB1  SING  7 
+PIA  CB1  2HB1  SING  8 
+PIA  CB1  3HB1  SING  9 
+PIA  C1   N2    DOUB  10
+PIA  C1   N3    SING  11
+PIA  N2   CA2   SING  12
+PIA  N3   C2    SING  13
+PIA  N3   CA3   SING  14
+PIA  C2   O2    DOUB  15
+PIA  C2   CA2   SING  16
+PIA  CA2  CB2   DOUB  17
+PIA  CA3  C3    SING  18
+PIA  CA3  1HA3  SING  19
+PIA  CA3  2HA3  SING  20
+PIA  C3   O3    DOUB  21
+PIA  C3   O31   SING  22
+PIA  CB2  CG2   SING  23
+PIA  CB2  HB2   SING  24
+PIA  CG2  CD1   AROM  25
+PIA  CG2  CD2   AROM  26
+PIA  CD1  CE1   AROM  27
+PIA  CD1  HD1   SING  28
+PIA  CD2  CE2   AROM  29
+PIA  CD2  HD2   SING  30
+PIA  CE1  CZ    AROM  31
+PIA  CE1  HE1   SING  32
+PIA  CE2  CZ    AROM  33
+PIA  CE2  HE2   SING  34
+PIA  CZ   OH    SING  35
+PIA  OH   HH    SING  36
+PIA  O31  HO'   SING  37
+#

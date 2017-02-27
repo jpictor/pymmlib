@@ -1,0 +1,67 @@
+data_CSU
+#
+_chem_comp.id                       CSU
+_chem_comp.name                     'CYSTEINE-S-SULFONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O5 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            201.212
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSU  N    .  N  0  ?  ?  ?  1  1 
+CSU  CA   .  C  0  ?  ?  ?  1  2 
+CSU  CB   .  C  0  ?  ?  ?  1  3 
+CSU  SG   .  S  0  ?  ?  ?  1  4 
+CSU  S    .  S  0  ?  ?  ?  1  5 
+CSU  C    .  C  0  ?  ?  ?  1  6 
+CSU  O    .  O  0  ?  ?  ?  1  7 
+CSU  OXT  .  O  0  ?  ?  ?  1  8 
+CSU  OD1  .  O  0  ?  ?  ?  1  9 
+CSU  OD2  .  O  0  ?  ?  ?  1  10
+CSU  OD3  .  O  0  ?  ?  ?  1  11
+CSU  1HN  .  H  0  ?  ?  ?  0  12
+CSU  2HN  .  H  0  ?  ?  ?  0  13
+CSU  HA   .  H  0  ?  ?  ?  1  14
+CSU  1HB  .  H  0  ?  ?  ?  0  15
+CSU  2HB  .  H  0  ?  ?  ?  0  16
+CSU  HD2  .  H  0  ?  ?  ?  1  17
+CSU  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSU  N    CA   SING  1 
+CSU  N    1HN  SING  2 
+CSU  N    2HN  SING  3 
+CSU  CA   CB   SING  4 
+CSU  CA   C    SING  5 
+CSU  CA   HA   SING  6 
+CSU  CB   SG   SING  7 
+CSU  CB   1HB  SING  8 
+CSU  CB   2HB  SING  9 
+CSU  SG   S    SING  10
+CSU  S    OD1  DOUB  11
+CSU  S    OD2  SING  12
+CSU  S    OD3  DOUB  13
+CSU  C    O    DOUB  14
+CSU  C    OXT  SING  15
+CSU  OXT  HXT  SING  16
+CSU  OD2  HD2  SING  17
+#

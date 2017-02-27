@@ -1,0 +1,91 @@
+data_BHC
+#
+_chem_comp.id                   BHC
+_chem_comp.name                 'BENZENE HEXACARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H6 O12'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BHC  C1   .  C  0  ?  ?  ?  1  1 
+BHC  CO1  .  C  0  ?  ?  ?  1  2 
+BHC  O11  .  O  0  ?  ?  ?  1  3 
+BHC  O12  .  O  0  ?  ?  ?  1  4 
+BHC  C2   .  C  0  ?  ?  ?  1  5 
+BHC  CO2  .  C  0  ?  ?  ?  1  6 
+BHC  O21  .  O  0  ?  ?  ?  1  7 
+BHC  O22  .  O  0  ?  ?  ?  1  8 
+BHC  C3   .  C  0  ?  ?  ?  1  9 
+BHC  CO3  .  C  0  ?  ?  ?  1  10
+BHC  O31  .  O  0  ?  ?  ?  1  11
+BHC  O32  .  O  0  ?  ?  ?  1  12
+BHC  C4   .  C  0  ?  ?  ?  1  13
+BHC  CO4  .  C  0  ?  ?  ?  1  14
+BHC  O41  .  O  0  ?  ?  ?  1  15
+BHC  O42  .  O  0  ?  ?  ?  1  16
+BHC  C5   .  C  0  ?  ?  ?  1  17
+BHC  CO5  .  C  0  ?  ?  ?  1  18
+BHC  O51  .  O  0  ?  ?  ?  1  19
+BHC  O52  .  O  0  ?  ?  ?  1  20
+BHC  C6   .  C  0  ?  ?  ?  1  21
+BHC  CO6  .  C  0  ?  ?  ?  1  22
+BHC  O61  .  O  0  ?  ?  ?  1  23
+BHC  O62  .  O  0  ?  ?  ?  1  24
+BHC  H12  .  H  0  ?  ?  ?  1  25
+BHC  H22  .  H  0  ?  ?  ?  1  26
+BHC  H32  .  H  0  ?  ?  ?  1  27
+BHC  H42  .  H  0  ?  ?  ?  1  28
+BHC  H52  .  H  0  ?  ?  ?  1  29
+BHC  H62  .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BHC  C1   CO1  SING  1 
+BHC  C1   C2   DOUB  2 
+BHC  C1   C6   SING  3 
+BHC  CO1  O11  DOUB  4 
+BHC  CO1  O12  SING  5 
+BHC  O12  H12  SING  6 
+BHC  C2   CO2  SING  7 
+BHC  C2   C3   SING  8 
+BHC  CO2  O21  DOUB  9 
+BHC  CO2  O22  SING  10
+BHC  O22  H22  SING  11
+BHC  C3   CO3  SING  12
+BHC  C3   C4   DOUB  13
+BHC  CO3  O31  DOUB  14
+BHC  CO3  O32  SING  15
+BHC  O32  H32  SING  16
+BHC  C4   CO4  SING  17
+BHC  C4   C5   SING  18
+BHC  CO4  O41  DOUB  19
+BHC  CO4  O42  SING  20
+BHC  O42  H42  SING  21
+BHC  C5   CO5  SING  22
+BHC  C5   C6   DOUB  23
+BHC  CO5  O51  DOUB  24
+BHC  CO5  O52  SING  25
+BHC  O52  H52  SING  26
+BHC  C6   CO6  SING  27
+BHC  CO6  O61  DOUB  28
+BHC  CO6  O62  SING  29
+BHC  O62  H62  SING  30
+#

@@ -1,0 +1,74 @@
+data_256
+#
+_chem_comp.id                   256
+_chem_comp.name                 'PHENYL(SULFO)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H7 O5 S1'
+_chem_comp.pdbx_synonyms        RU79256
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.200
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+256  C1   .  C  0  19.257  25.642  20.243  1  1 
+256  C2   .  C  0  18.210  24.779  19.980  1  2 
+256  C3   .  C  0  17.282  25.171  19.034  1  3 
+256  C4   .  C  0  17.423  26.442  18.445  1  4 
+256  C5   .  C  0  18.521  27.283  18.685  1  5 
+256  C6   .  C  0  19.448  26.893  19.628  1  6 
+256  C7   .  C  0  16.375  26.992  17.570  1  7 
+256  C8   .  C  0  16.868  27.189  16.086  1  8 
+256  O9   .  O  0  16.434  26.058  15.395  1  9 
+256  S10  .  S  0  15.494  28.445  18.042  1  10
+256  O12  .  O  0  14.406  28.519  16.850  1  11
+256  O13  .  O  0  17.413  28.145  15.581  1  12
+256  O14  .  O  0  16.373  29.610  17.999  1  13
+256  O15  .  O  0  14.932  28.249  19.357  1  14
+256  H3   .  H  0  ?       ?       ?       1  15
+256  H2   .  H  0  ?       ?       ?       1  16
+256  H1   .  H  0  ?       ?       ?       1  17
+256  H6   .  H  0  ?       ?       ?       1  18
+256  H5   .  H  0  ?       ?       ?       1  19
+256  H9   .  H  0  ?       ?       ?       1  20
+256  H12  .  H  0  ?       ?       ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+256  C1   C6   SING  1 
+256  C1   C2   DOUB  2 
+256  C1   H1   SING  3 
+256  C2   C3   SING  4 
+256  C2   H2   SING  5 
+256  C3   C4   DOUB  6 
+256  C3   H3   SING  7 
+256  C4   C7   SING  8 
+256  C4   C5   SING  9 
+256  C5   H5   SING  10
+256  C5   C6   DOUB  11
+256  C6   H6   SING  12
+256  C7   C8   SING  13
+256  C7   S10  SING  14
+256  C8   O9   SING  15
+256  C8   O13  DOUB  16
+256  O9   H9   SING  17
+256  S10  O12  SING  18
+256  S10  O14  DOUB  19
+256  S10  O15  DOUB  20
+256  O12  H12  SING  21
+#

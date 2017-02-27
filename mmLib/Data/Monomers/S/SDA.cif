@@ -1,0 +1,69 @@
+data_SDA
+#
+_chem_comp.id                   SDA
+_chem_comp.name                 4-AMINO-3,5-DICHLOROBENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N2 O2 CL2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        241.092
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SDA  S1    .  S   0  15.314  2.766  16.504  1  1 
+SDA  N13   .  N   0  15.786  1.524  15.839  1  2 
+SDA  O12   .  O   0  15.915  2.896  17.831  1  3 
+SDA  O11   .  O   0  13.862  2.883  16.437  1  4 
+SDA  C2    .  C   0  16.023  4.112  15.585  1  5 
+SDA  C7    .  C   0  17.389  4.237  15.328  1  6 
+SDA  C6    .  C   0  17.904  5.306  14.606  1  7 
+SDA  CL8   .  CL  0  19.598  5.560  14.236  0  8 
+SDA  C5    .  C   0  17.038  6.291  14.119  1  9 
+SDA  N10   .  N   0  17.558  7.375  13.380  1  10
+SDA  C4    .  C   0  15.685  6.179  14.363  1  11
+SDA  CL9   .  CL  0  14.658  7.413  13.736  0  12
+SDA  C3    .  C   0  15.155  5.110  15.086  1  13
+SDA  1H10  .  H   0  ?       ?      ?       0  14
+SDA  2H10  .  H   0  ?       ?      ?       0  15
+SDA  H3    .  H   0  ?       ?      ?       1  16
+SDA  H7    .  H   0  ?       ?      ?       1  17
+SDA  1H13  .  H   0  ?       ?      ?       0  18
+SDA  2H13  .  H   0  ?       ?      ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SDA  S1   C2    SING  1 
+SDA  S1   N13   SING  2 
+SDA  S1   O12   DOUB  3 
+SDA  S1   O11   DOUB  4 
+SDA  N13  1H13  SING  5 
+SDA  N13  2H13  SING  6 
+SDA  C2   C3    DOUB  7 
+SDA  C2   C7    SING  8 
+SDA  C7   C6    DOUB  9 
+SDA  C7   H7    SING  10
+SDA  C6   C5    SING  11
+SDA  C6   CL8   SING  12
+SDA  C5   N10   SING  13
+SDA  C5   C4    DOUB  14
+SDA  N10  1H10  SING  15
+SDA  N10  2H10  SING  16
+SDA  C4   CL9   SING  17
+SDA  C4   C3    SING  18
+SDA  C3   H3    SING  19
+#

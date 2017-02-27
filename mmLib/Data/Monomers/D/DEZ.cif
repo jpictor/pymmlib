@@ -1,0 +1,74 @@
+data_DEZ
+#
+_chem_comp.id                   DEZ
+_chem_comp.name                 4-PHOSPHO-D-ERYTHRONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.084
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DEZ  OH2   .  O  0  24.107  -8.305   13.531  1  1 
+DEZ  C1    .  C  0  25.034  -7.612   14.002  1  2 
+DEZ  OH1   .  O  0  24.849  -6.465   14.467  1  3 
+DEZ  C2    .  C  0  26.425  -8.184   14.011  1  4 
+DEZ  O2    .  O  0  26.717  -8.752   12.74   1  5 
+DEZ  C3    .  C  0  26.545  -9.25    15.101  1  6 
+DEZ  O3    .  O  0  26.388  -8.639   16.376  1  7 
+DEZ  C4    .  C  0  27.89   -9.974   15.032  1  8 
+DEZ  O4    .  O  0  28.086  -10.787  16.195  1  9 
+DEZ  P     .  P  0  29.065  -12.068  16.197  1  10
+DEZ  O1P   .  O  0  30.436  -11.536  16.515  1  11
+DEZ  O2P   .  O  0  28.97   -12.638  14.807  1  12
+DEZ  O3P   .  O  0  28.478  -12.954  17.264  1  13
+DEZ  HH1   .  H  0  ?       ?        ?       1  14
+DEZ  H2    .  H  0  27.153  -7.366   14.22   1  15
+DEZ  HA    .  H  0  27.596  -9.113   12.746  1  16
+DEZ  H3    .  H  0  25.73   -9.998   14.961  1  17
+DEZ  HB    .  H  0  26.462  -9.301   17.053  1  18
+DEZ  1H4C  .  H  0  28.735  -9.263   14.877  0  19
+DEZ  2H4C  .  H  0  27.994  -10.565  14.092  0  20
+DEZ  H2P   .  H  0  ?       ?        ?       1  21
+DEZ  H3P   .  H  0  ?       ?        ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DEZ  OH2  C1    DOUB  1 
+DEZ  C1   OH1   SING  2 
+DEZ  C1   C2    SING  3 
+DEZ  OH1  HH1   SING  4 
+DEZ  C2   O2    SING  5 
+DEZ  C2   C3    SING  6 
+DEZ  C2   H2    SING  7 
+DEZ  O2   HA    SING  8 
+DEZ  C3   O3    SING  9 
+DEZ  C3   C4    SING  10
+DEZ  C3   H3    SING  11
+DEZ  O3   HB    SING  12
+DEZ  C4   O4    SING  13
+DEZ  C4   1H4C  SING  14
+DEZ  C4   2H4C  SING  15
+DEZ  O4   P     SING  16
+DEZ  P    O1P   DOUB  17
+DEZ  P    O2P   SING  18
+DEZ  P    O3P   SING  19
+DEZ  O2P  H2P   SING  20
+DEZ  O3P  H3P   SING  21
+#

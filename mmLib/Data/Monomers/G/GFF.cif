@@ -1,0 +1,131 @@
+data_GFF
+#
+_chem_comp.id                   GFF
+_chem_comp.name                 2'-DEOXY-5'-O-[({[DIFLUORO(PHOSPHONO)METHYL](HYDROXY)PHOSPHORYL}OXY)(HYDROXY)PHOSPHORYL]GUANOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N5 O12 F2 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        541.192
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GFF  P1    .  P  0  5.027   5.027  14.619  1  1 
+GFF  O1A   .  O  0  3.910   4.958  15.586  1  2 
+GFF  O2A   .  O  0  6.416   5.181  15.131  1  3 
+GFF  O3A   .  O  0  4.936   3.798  13.738  1  4 
+GFF  O5'   .  O  0  4.733   6.281  13.675  1  5 
+GFF  P2    .  P  0  3.865   2.733  13.644  1  6 
+GFF  O1B   .  O  0  3.844   2.281  12.224  1  7 
+GFF  O2B   .  O  0  2.593   3.113  14.304  1  8 
+GFF  C3B   .  C  0  4.533   1.252  14.578  1  9 
+GFF  F1B   .  F  0  4.191   0.132  13.872  1  10
+GFF  F2B   .  F  0  5.896   1.358  14.597  1  11
+GFF  P3    .  P  0  3.922   1.114  16.351  1  12
+GFF  O1G   .  O  0  3.530   2.471  16.815  1  13
+GFF  O2G   .  O  0  4.955   0.351  17.115  1  14
+GFF  O3G   .  O  0  2.708   0.268  16.254  1  15
+GFF  C5'   .  C  0  3.472   6.419  13.025  1  16
+GFF  C4'   .  C  0  3.657   6.560  11.533  1  17
+GFF  O4'   .  O  0  4.501   7.691  11.255  1  18
+GFF  C1'   .  C  0  5.202   7.461  10.036  1  19
+GFF  N9    .  N  0  6.631   7.624  10.288  1  20
+GFF  C4    .  C  0  7.549   8.123  9.399   1  21
+GFF  N3    .  N  0  7.273   8.599  8.168   1  22
+GFF  C2    .  C  0  8.363   8.987  7.533   1  23
+GFF  N2    .  N  0  8.254   9.530  6.300   1  24
+GFF  N1    .  N  0  9.635   8.885  8.061   1  25
+GFF  C6    .  C  0  9.939   8.388  9.327   1  26
+GFF  O6    .  O  0  11.117  8.320  9.699   1  27
+GFF  C5    .  C  0  8.772   8.001  10.027  1  28
+GFF  N7    .  N  0  8.621   7.477  11.303  1  29
+GFF  C8    .  C  0  7.335   7.273  11.416  1  30
+GFF  C2'   .  C  0  4.845   6.046  9.573   1  31
+GFF  C3'   .  C  0  4.364   5.396  10.855  1  32
+GFF  O3'   .  O  0  3.445   4.330  10.597  1  33
+GFF  1HN2  .  H  0  ?       ?      ?       0  34
+GFF  2HN2  .  H  0  ?       ?      ?       0  35
+GFF  HN1   .  H  0  ?       ?      ?       1  36
+GFF  H8    .  H  0  ?       ?      ?       1  37
+GFF  H1'   .  H  0  ?       ?      ?       1  38
+GFF  1H2'  .  H  0  ?       ?      ?       0  39
+GFF  2H2'  .  H  0  ?       ?      ?       0  40
+GFF  H3'   .  H  0  ?       ?      ?       1  41
+GFF  H1    .  H  0  ?       ?      ?       1  42
+GFF  H4'   .  H  0  ?       ?      ?       1  43
+GFF  1H5'  .  H  0  ?       ?      ?       0  44
+GFF  2H5'  .  H  0  ?       ?      ?       0  45
+GFF  H1A   .  H  0  ?       ?      ?       1  46
+GFF  H1B   .  H  0  ?       ?      ?       1  47
+GFF  H1G   .  H  0  ?       ?      ?       1  48
+GFF  H3G   .  H  0  ?       ?      ?       1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GFF  P1   O5'   SING  1 
+GFF  P1   O1A   SING  2 
+GFF  P1   O2A   DOUB  3 
+GFF  P1   O3A   SING  4 
+GFF  O1A  H1A   SING  5 
+GFF  O3A  P2    SING  6 
+GFF  O5'  C5'   SING  7 
+GFF  P2   O1B   SING  8 
+GFF  P2   O2B   DOUB  9 
+GFF  P2   C3B   SING  10
+GFF  O1B  H1B   SING  11
+GFF  C3B  F1B   SING  12
+GFF  C3B  F2B   SING  13
+GFF  C3B  P3    SING  14
+GFF  P3   O1G   SING  15
+GFF  P3   O2G   DOUB  16
+GFF  P3   O3G   SING  17
+GFF  O1G  H1G   SING  18
+GFF  O3G  H3G   SING  19
+GFF  C5'  C4'   SING  20
+GFF  C5'  1H5'  SING  21
+GFF  C5'  2H5'  SING  22
+GFF  C4'  C3'   SING  23
+GFF  C4'  O4'   SING  24
+GFF  C4'  H4'   SING  25
+GFF  O4'  C1'   SING  26
+GFF  C1'  N9    SING  27
+GFF  C1'  C2'   SING  28
+GFF  C1'  H1'   SING  29
+GFF  N9   C8    SING  30
+GFF  N9   C4    SING  31
+GFF  C4   C5    DOUB  32
+GFF  C4   N3    SING  33
+GFF  N3   C2    DOUB  34
+GFF  C2   N2    SING  35
+GFF  C2   N1    SING  36
+GFF  N2   1HN2  SING  37
+GFF  N2   2HN2  SING  38
+GFF  N1   C6    SING  39
+GFF  N1   HN1   SING  40
+GFF  C6   O6    DOUB  41
+GFF  C6   C5    SING  42
+GFF  C5   N7    SING  43
+GFF  N7   C8    DOUB  44
+GFF  C8   H8    SING  45
+GFF  C2'  C3'   SING  46
+GFF  C2'  1H2'  SING  47
+GFF  C2'  2H2'  SING  48
+GFF  C3'  O3'   SING  49
+GFF  C3'  H3'   SING  50
+GFF  O3'  H1    SING  51
+#

@@ -1,0 +1,108 @@
+data_DPY
+#
+_chem_comp.id                   DPY
+_chem_comp.name                 '2-DEOXYRIBOFURANOSYL-PYRIDINE-2,6-DICARBOXYLIC ACID-5'-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N1 O10 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        363.217
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPY  P     .  P  0  ?  ?  ?  1  1 
+DPY  O1P   .  O  0  ?  ?  ?  1  2 
+DPY  O2P   .  O  0  ?  ?  ?  1  3 
+DPY  O5*   .  O  0  ?  ?  ?  1  4 
+DPY  C1    .  C  0  ?  ?  ?  1  5 
+DPY  C2    .  C  0  ?  ?  ?  1  6 
+DPY  C7    .  C  0  ?  ?  ?  1  7 
+DPY  O71   .  O  0  ?  ?  ?  1  8 
+DPY  O72   .  O  0  ?  ?  ?  1  9 
+DPY  N3    .  N  0  ?  ?  ?  1  10
+DPY  C4    .  C  0  ?  ?  ?  1  11
+DPY  C8    .  C  0  ?  ?  ?  1  12
+DPY  O81   .  O  0  ?  ?  ?  1  13
+DPY  O82   .  O  0  ?  ?  ?  1  14
+DPY  C5    .  C  0  ?  ?  ?  1  15
+DPY  C6    .  C  0  ?  ?  ?  1  16
+DPY  C2*   .  C  0  ?  ?  ?  1  17
+DPY  C5*   .  C  0  ?  ?  ?  1  18
+DPY  C4*   .  C  0  ?  ?  ?  1  19
+DPY  O4*   .  O  0  ?  ?  ?  1  20
+DPY  C1*   .  C  0  ?  ?  ?  1  21
+DPY  C3*   .  C  0  ?  ?  ?  1  22
+DPY  O3*   .  O  0  ?  ?  ?  1  23
+DPY  O3P   .  O  0  ?  ?  ?  1  24
+DPY  3HOP  .  H  0  ?  ?  ?  0  25
+DPY  2HOP  .  H  0  ?  ?  ?  0  26
+DPY  1H5*  .  H  0  ?  ?  ?  0  27
+DPY  2H5*  .  H  0  ?  ?  ?  0  28
+DPY  H4*   .  H  0  ?  ?  ?  1  29
+DPY  H3*   .  H  0  ?  ?  ?  1  30
+DPY  H3T   .  H  0  ?  ?  ?  1  31
+DPY  1H2*  .  H  0  ?  ?  ?  0  32
+DPY  2H2*  .  H  0  ?  ?  ?  0  33
+DPY  H1*   .  H  0  ?  ?  ?  1  34
+DPY  H5    .  H  0  ?  ?  ?  1  35
+DPY  H6    .  H  0  ?  ?  ?  1  36
+DPY  H72   .  H  0  ?  ?  ?  1  37
+DPY  H82   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPY  P    O1P   DOUB  1 
+DPY  P    O2P   SING  2 
+DPY  P    O5*   SING  3 
+DPY  P    O3P   SING  4 
+DPY  O2P  2HOP  SING  5 
+DPY  O5*  C5*   SING  6 
+DPY  C1   C2    DOUB  7 
+DPY  C1   C6    SING  8 
+DPY  C1   C1*   SING  9 
+DPY  C2   C7    SING  10
+DPY  C2   N3    SING  11
+DPY  C7   O71   DOUB  12
+DPY  C7   O72   SING  13
+DPY  O72  H72   SING  14
+DPY  N3   C4    DOUB  15
+DPY  C4   C8    SING  16
+DPY  C4   C5    SING  17
+DPY  C8   O81   DOUB  18
+DPY  C8   O82   SING  19
+DPY  O82  H82   SING  20
+DPY  C5   C6    DOUB  21
+DPY  C5   H5    SING  22
+DPY  C6   H6    SING  23
+DPY  C2*  C1*   SING  24
+DPY  C2*  C3*   SING  25
+DPY  C2*  1H2*  SING  26
+DPY  C2*  2H2*  SING  27
+DPY  C5*  C4*   SING  28
+DPY  C5*  1H5*  SING  29
+DPY  C5*  2H5*  SING  30
+DPY  C4*  O4*   SING  31
+DPY  C4*  C3*   SING  32
+DPY  C4*  H4*   SING  33
+DPY  O4*  C1*   SING  34
+DPY  C1*  H1*   SING  35
+DPY  C3*  O3*   SING  36
+DPY  C3*  H3*   SING  37
+DPY  O3*  H3T   SING  38
+DPY  O3P  3HOP  SING  39
+#

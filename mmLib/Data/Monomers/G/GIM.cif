@@ -1,0 +1,87 @@
+data_GIM
+#
+_chem_comp.id                   GIM
+_chem_comp.name                 GLUCOIMIDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N2 O4'
+_chem_comp.pdbx_synonyms        (5S,6S,7R,8R)-5-(HYDROXYMETHYL)-1,5,6,7,8,8A-HEXAHYDROIMIDAZO[1,2-A]PYRIDINE-6,7,8-TRIOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        201.202
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GIM  C1    .  C  0  118.913  38.78   63.385  1  1 
+GIM  C2    .  C  0  118.579  37.673  62.438  1  2 
+GIM  N10   .  N  0  119.926  39.662  63.238  1  3 
+GIM  C3    .  C  0  119.574  37.674  61.274  1  4 
+GIM  C4    .  C  0  119.965  39.096  60.896  1  5 
+GIM  C5    .  C  0  120.836  39.645  62.051  1  6 
+GIM  C6    .  C  0  121.424  41.021  61.734  1  7 
+GIM  C7    .  C  0  118.862  40.158  65.082  1  8 
+GIM  C8    .  C  0  119.895  40.535  64.256  1  9 
+GIM  N1    .  N  0  118.265  39.074  64.53   1  10
+GIM  O3    .  O  0  118.955  37.008  60.168  1  11
+GIM  O2    .  O  0  118.661  36.396  63.081  1  12
+GIM  O4    .  O  0  120.682  39.035  59.662  1  13
+GIM  O6    .  O  0  120.364  41.98   61.618  1  14
+GIM  H2    .  H  0  117.547  37.823  62.043  1  15
+GIM  H1    .  H  0  117.466  38.569  64.913  1  16
+GIM  H3    .  H  0  120.488  37.111  61.574  1  17
+GIM  HA    .  H  0  118.449  35.692  62.479  1  18
+GIM  H5    .  H  0  121.67   38.931  62.245  1  19
+GIM  H8    .  H  0  120.571  41.394  64.403  1  20
+GIM  H4    .  H  0  119.051  39.724  60.776  1  21
+GIM  HB    .  H  0  119.572  37.009  59.446  1  22
+GIM  HC    .  H  0  120.926  39.922  59.426  1  23
+GIM  1H6C  .  H  0  122.076  41.002  60.829  0  24
+GIM  2H6C  .  H  0  122.193  41.332  62.479  0  25
+GIM  H6    .  H  0  120.729  42.835  61.421  1  26
+GIM  H7    .  H  0  118.571  40.65   66.025  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GIM  C1   C2    SING  1 
+GIM  C1   N10   DOUB  2 
+GIM  C1   N1    SING  3 
+GIM  C2   C3    SING  4 
+GIM  C2   O2    SING  5 
+GIM  C2   H2    SING  6 
+GIM  N10  C5    SING  7 
+GIM  N10  C8    SING  8 
+GIM  C3   C4    SING  9 
+GIM  C3   O3    SING  10
+GIM  C3   H3    SING  11
+GIM  C4   C5    SING  12
+GIM  C4   O4    SING  13
+GIM  C4   H4    SING  14
+GIM  C5   C6    SING  15
+GIM  C5   H5    SING  16
+GIM  C6   O6    SING  17
+GIM  C6   1H6C  SING  18
+GIM  C6   2H6C  SING  19
+GIM  C7   C8    DOUB  20
+GIM  C7   N1    SING  21
+GIM  C7   H7    SING  22
+GIM  C8   H8    SING  23
+GIM  N1   H1    SING  24
+GIM  O3   HB    SING  25
+GIM  O2   HA    SING  26
+GIM  O4   HC    SING  27
+GIM  O6   H6    SING  28
+#

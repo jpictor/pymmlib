@@ -1,0 +1,60 @@
+data_DUC
+#
+_chem_comp.id                   DUC
+_chem_comp.name                 DIHYDROPYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 N2 O2'
+_chem_comp.pdbx_synonyms        DIHYDROURACIL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        114.104
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DUC  N3   .  N  0  -13.318  -2.720  9.828   1  1 
+DUC  C2   .  C  0  -12.168  -2.234  10.393  1  2 
+DUC  O2   .  O  0  -12.207  -1.526  11.374  1  3 
+DUC  N1   .  N  0  -10.981  -2.780  9.914   1  4 
+DUC  C6   .  C  0  -10.989  -3.699  8.887   1  5 
+DUC  C5   .  C  0  -12.130  -4.130  8.299   1  6 
+DUC  C4   .  C  0  -13.412  -3.694  8.807   1  7 
+DUC  O4   .  O  0  -14.134  -4.835  9.305   1  8 
+DUC  HN3  .  H  0  ?        ?       ?       1  9 
+DUC  HN1  .  H  0  ?        ?       ?       1  10
+DUC  1H6  .  H  0  ?        ?       ?       0  11
+DUC  2H6  .  H  0  ?        ?       ?       0  12
+DUC  1H5  .  H  0  ?        ?       ?       0  13
+DUC  2H5  .  H  0  ?        ?       ?       0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DUC  N3  HN3  SING  1 
+DUC  N3  C2   SING  2 
+DUC  N3  C4   SING  3 
+DUC  C2  O2   DOUB  4 
+DUC  C2  N1   SING  5 
+DUC  N1  HN1  SING  6 
+DUC  N1  C6   SING  7 
+DUC  C6  1H6  SING  8 
+DUC  C6  2H6  SING  9 
+DUC  C6  C5   SING  10
+DUC  C5  1H5  SING  11
+DUC  C5  2H5  SING  12
+DUC  C5  C4   SING  13
+DUC  C4  O4   DOUB  14
+#

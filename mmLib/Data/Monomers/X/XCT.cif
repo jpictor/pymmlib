@@ -1,0 +1,116 @@
+data_XCT
+#
+_chem_comp.id                       XCT
+_chem_comp.name                     4-AMINO-1-(2,3-DIDEOXY-6-O-PHOSPHONO-BETA-D-ERYTHRO-HEXOPYRANOSYL)PYRIMIDIN-2(1H)-ONE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H16 N3 O7 P1'
+_chem_comp.pdbx_synonyms            '2',3'-DI-DEOXY-BETA-D-GLUCOPYRANOSYL CYTOSINE'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            321.226
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          XCT
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1C[C@@H](O[C@@H]([C@H]1O)COP(=O)(O)O)N2C=CC(=NC2=O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XCT  O3P   .  O  0  3.151   7.855   17.218  1  N  1 
+XCT  P     .  P  0  4.516   7.310   17.808  1  N  2 
+XCT  O1P   .  O  0  4.700   5.943   17.290  1  N  3 
+XCT  O2P   .  O  0  4.498   7.567   19.267  1  N  4 
+XCT  O6'   .  O  0  5.650   8.219   17.165  1  N  5 
+XCT  C6'   .  C  0  6.924   8.281   17.689  1  N  6 
+XCT  C5'   .  C  0  7.570   9.579   17.266  1  N  7 
+XCT  O5'   .  O  0  6.855   10.659  17.892  1  N  8 
+XCT  C4'   .  C  0  9.023   9.679   17.685  1  N  9 
+XCT  O4'   .  O  0  9.708   8.606   17.067  1  N  10
+XCT  C3'   .  C  0  9.490   11.036  17.221  1  N  11
+XCT  C2'   .  C  0  8.683   12.173  17.860  1  N  12
+XCT  C1'   .  C  0  7.232   11.943  17.431  1  N  13
+XCT  N1    .  N  0  6.291   12.879  18.051  1  N  14
+XCT  C2    .  C  0  5.433   13.644  17.270  1  N  15
+XCT  O2    .  O  0  5.545   13.597  16.012  1  N  16
+XCT  C6    .  C  0  6.218   12.913  19.414  1  N  17
+XCT  C5    .  C  0  5.367   13.719  20.026  1  N  18
+XCT  C4    .  C  0  4.497   14.504  19.243  1  N  19
+XCT  N3    .  N  0  4.560   14.484  17.890  1  N  20
+XCT  N4    .  N  0  3.624   15.316  19.841  1  N  21
+XCT  2HOP  .  H  0  4.740   5.966   16.341  0  N  22
+XCT  3HOP  .  H  0  4.494   6.740   19.735  0  N  23
+XCT  1H6'  .  H  0  6.874   8.235   18.787  0  N  24
+XCT  2H6'  .  H  0  7.519   7.433   17.318  0  N  25
+XCT  H5'   .  H  0  7.532   9.626   16.168  1  N  26
+XCT  H4'   .  H  0  9.198   9.599   18.768  1  N  27
+XCT  H4T   .  H  0  9.862   8.812   16.153  1  N  28
+XCT  1H3'  .  H  0  10.548  11.157  17.498  0  N  29
+XCT  2H3'  .  H  0  9.350   11.090  16.131  0  N  30
+XCT  1H2'  .  H  0  8.774   12.147  18.956  0  N  31
+XCT  2H2'  .  H  0  9.048   13.159  17.537  0  N  32
+XCT  H1'   .  H  0  7.190   12.068  16.339  1  N  33
+XCT  H6    .  H  0  6.863   12.274  19.999  1  N  34
+XCT  H5    .  H  0  5.339   13.775  21.104  1  N  35
+XCT  1HN4  .  H  0  3.692   15.222  20.834  0  N  36
+XCT  2HN4  .  H  0  2.993   15.929  19.365  0  N  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XCT  O3P  P     SING  N  1 
+XCT  O3P  3HOP  SING  N  2 
+XCT  P    O6'   SING  N  3 
+XCT  P    O1P   DOUB  N  4 
+XCT  P    O2P   SING  N  5 
+XCT  O2P  2HOP  SING  N  6 
+XCT  O6'  C6'   SING  N  7 
+XCT  C6'  C5'   SING  N  8 
+XCT  C6'  1H6'  SING  N  9 
+XCT  C6'  2H6'  SING  N  10
+XCT  C5'  C4'   SING  N  11
+XCT  C5'  O5'   SING  N  12
+XCT  C5'  H5'   SING  N  13
+XCT  O5'  C1'   SING  N  14
+XCT  C4'  O4'   SING  N  15
+XCT  C4'  C3'   SING  N  16
+XCT  C4'  H4'   SING  N  17
+XCT  O4'  H4T   SING  N  18
+XCT  C3'  C2'   SING  N  19
+XCT  C3'  1H3'  SING  N  20
+XCT  C3'  2H3'  SING  N  21
+XCT  C2'  C1'   SING  N  22
+XCT  C2'  1H2'  SING  N  23
+XCT  C2'  2H2'  SING  N  24
+XCT  C1'  N1    SING  N  25
+XCT  C1'  H1'   SING  N  26
+XCT  N1   C2    SING  N  27
+XCT  N1   C6    SING  N  28
+XCT  C2   O2    DOUB  N  29
+XCT  C2   N3    SING  N  30
+XCT  C6   C5    DOUB  N  31
+XCT  C6   H6    SING  N  32
+XCT  C5   C4    SING  N  33
+XCT  C5   H5    SING  N  34
+XCT  C4   N3    DOUB  N  35
+XCT  C4   N4    SING  N  36
+XCT  N4   1HN4  SING  N  37
+XCT  N4   2HN4  SING  N  38
+#

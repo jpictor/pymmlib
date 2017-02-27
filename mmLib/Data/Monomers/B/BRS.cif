@@ -1,0 +1,99 @@
+data_BRS
+#
+_chem_comp.id                   BRS
+_chem_comp.name                 2-[1-(4-CHLORO-PHENYL)-ETHYL]-4,6-DINITRO-PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H11 N2 O5 CL1'
+_chem_comp.pdbx_synonyms        DNP-19
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        322.704
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRS  N1    .  N   1   36.731  -21.951  -50.716  1  1 
+BRS  O2    .  O   0   36.029  -21.059  -50.223  1  2 
+BRS  O3    .  O   -1  37.918  -21.944  -50.366  1  3 
+BRS  N4    .  N   1   37.695  -26.036  -53.622  1  4 
+BRS  O5    .  O   -1  37.333  -26.925  -54.413  1  5 
+BRS  O6    .  O   0   38.883  -26.025  -53.269  1  6 
+BRS  C7    .  C   0   37.105  -24.007  -52.212  1  7 
+BRS  C8    .  C   0   36.707  -25.003  -53.110  1  8 
+BRS  C9    .  C   0   35.389  -25.052  -53.542  1  9 
+BRS  C10   .  C   0   34.428  -24.123  -53.095  1  10
+BRS  C11   .  C   0   34.804  -23.089  -52.175  1  11
+BRS  C12   .  C   0   36.185  -23.038  -51.714  1  12
+BRS  O13   .  O   0   33.842  -22.162  -51.728  1  13
+BRS  C14   .  C   0   33.529  -22.978  -55.819  1  14
+BRS  C15   .  C   0   33.021  -24.151  -55.216  1  15
+BRS  C16   .  C   0   32.553  -25.201  -56.063  1  16
+BRS  C17   .  C   0   32.600  -25.065  -57.465  1  17
+BRS  C18   .  C   0   33.110  -23.888  -58.039  1  18
+BRS  C19   .  C   0   33.576  -22.842  -57.212  1  19
+BRS  CL20  .  CL  0   33.162  -23.732  -59.798  0  20
+BRS  C21   .  C   0   32.990  -24.251  -53.643  1  21
+BRS  C22   .  C   0   32.400  -25.581  -53.153  1  22
+BRS  HC19  .  H   0   ?       ?        ?        0  23
+BRS  HC14  .  H   0   ?       ?        ?        0  24
+BRS  HC16  .  H   0   ?       ?        ?        0  25
+BRS  HC17  .  H   0   ?       ?        ?        0  26
+BRS  HC21  .  H   0   ?       ?        ?        0  27
+BRS  1H22  .  H   0   ?       ?        ?        0  28
+BRS  2H22  .  H   0   ?       ?        ?        0  29
+BRS  3H22  .  H   0   ?       ?        ?        0  30
+BRS  HO13  .  H   0   ?       ?        ?        0  31
+BRS  HC7   .  H   0   ?       ?        ?        1  32
+BRS  HC9   .  H   0   ?       ?        ?        1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRS  N1   O2    DOUB  1 
+BRS  N1   O3    SING  2 
+BRS  N1   C12   SING  3 
+BRS  N4   O5    SING  4 
+BRS  N4   O6    DOUB  5 
+BRS  N4   C8    SING  6 
+BRS  C7   C8    AROM  7 
+BRS  C7   C12   AROM  8 
+BRS  C7   HC7   SING  9 
+BRS  C8   C9    AROM  10
+BRS  C9   C10   AROM  11
+BRS  C9   HC9   SING  12
+BRS  C10  C11   AROM  13
+BRS  C10  C21   SING  14
+BRS  C11  C12   AROM  15
+BRS  C11  O13   SING  16
+BRS  O13  HO13  SING  17
+BRS  C14  C15   AROM  18
+BRS  C14  C19   AROM  19
+BRS  C14  HC14  SING  20
+BRS  C15  C16   AROM  21
+BRS  C15  C21   SING  22
+BRS  C16  C17   AROM  23
+BRS  C16  HC16  SING  24
+BRS  C17  C18   AROM  25
+BRS  C17  HC17  SING  26
+BRS  C18  C19   AROM  27
+BRS  C18  CL20  SING  28
+BRS  C19  HC19  SING  29
+BRS  C21  C22   SING  30
+BRS  C21  HC21  SING  31
+BRS  C22  1H22  SING  32
+BRS  C22  2H22  SING  33
+BRS  C22  3H22  SING  34
+#

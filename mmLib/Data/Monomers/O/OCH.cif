@@ -1,0 +1,69 @@
+data_OCH
+#
+_chem_comp.id                   OCH
+_chem_comp.name                 QUINOLIN-2(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H7 N1 O1'
+_chem_comp.pdbx_synonyms        2-OXOQUINOLINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        145.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OCH  O1   .  O  0  -8.718  24.357  32.341  1  1 
+OCH  N2   .  N  0  -8.003  26.342  33.320  1  2 
+OCH  C3   .  C  0  -7.675  27.129  34.453  1  3 
+OCH  C4   .  C  0  -7.223  28.493  34.308  1  4 
+OCH  C5   .  C  0  -6.910  29.211  35.462  1  5 
+OCH  C6   .  C  0  -7.030  28.611  36.755  1  6 
+OCH  C7   .  C  0  -7.468  27.296  36.898  1  7 
+OCH  C8   .  C  0  -7.795  26.524  35.777  1  8 
+OCH  C9   .  C  0  -8.264  25.111  35.899  1  9 
+OCH  C10  .  C  0  -8.570  24.382  34.815  1  10
+OCH  C1   .  C  0  -8.460  24.962  33.382  1  11
+OCH  H10  .  H  0  ?       ?       ?       1  12
+OCH  H9   .  H  0  ?       ?       ?       1  13
+OCH  H7   .  H  0  ?       ?       ?       1  14
+OCH  H6   .  H  0  ?       ?       ?       1  15
+OCH  H5   .  H  0  ?       ?       ?       1  16
+OCH  H4   .  H  0  ?       ?       ?       1  17
+OCH  HN2  .  H  0  ?       ?       ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OCH  O1   C1   DOUB  1 
+OCH  N2   C3   SING  2 
+OCH  N2   C1   SING  3 
+OCH  N2   HN2  SING  4 
+OCH  C3   C4   SING  5 
+OCH  C3   C8   DOUB  6 
+OCH  C4   C5   DOUB  7 
+OCH  C4   H4   SING  8 
+OCH  C5   C6   SING  9 
+OCH  C5   H5   SING  10
+OCH  C6   C7   DOUB  11
+OCH  C6   H6   SING  12
+OCH  C7   C8   SING  13
+OCH  C7   H7   SING  14
+OCH  C8   C9   SING  15
+OCH  C9   C10  DOUB  16
+OCH  C9   H9   SING  17
+OCH  C10  C1   SING  18
+OCH  C10  H10  SING  19
+#

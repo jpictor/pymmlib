@@ -1,0 +1,128 @@
+data_ESO
+#
+_chem_comp.id                   ESO
+_chem_comp.name                 O3-PHOSPHONOESTRONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H23 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        350.350
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ESO  C1    .  C  0  ?  ?  ?  1  1 
+ESO  C2    .  C  0  ?  ?  ?  1  2 
+ESO  C3    .  C  0  ?  ?  ?  1  3 
+ESO  O3    .  O  0  ?  ?  ?  1  4 
+ESO  P     .  P  0  ?  ?  ?  1  5 
+ESO  O1P   .  O  0  ?  ?  ?  1  6 
+ESO  O2P   .  O  0  ?  ?  ?  1  7 
+ESO  O3P   .  O  0  ?  ?  ?  1  8 
+ESO  C4    .  C  0  ?  ?  ?  1  9 
+ESO  C5    .  C  0  ?  ?  ?  1  10
+ESO  C6    .  C  0  ?  ?  ?  1  11
+ESO  C7    .  C  0  ?  ?  ?  1  12
+ESO  C8    .  C  0  ?  ?  ?  1  13
+ESO  C9    .  C  0  ?  ?  ?  1  14
+ESO  C10   .  C  0  ?  ?  ?  1  15
+ESO  C11   .  C  0  ?  ?  ?  1  16
+ESO  C12   .  C  0  ?  ?  ?  1  17
+ESO  C13   .  C  0  ?  ?  ?  1  18
+ESO  C14   .  C  0  ?  ?  ?  1  19
+ESO  C15   .  C  0  ?  ?  ?  1  20
+ESO  C16   .  C  0  ?  ?  ?  1  21
+ESO  C17   .  C  0  ?  ?  ?  1  22
+ESO  O17   .  O  0  ?  ?  ?  1  23
+ESO  C18   .  C  0  ?  ?  ?  1  24
+ESO  H1    .  H  0  ?  ?  ?  1  25
+ESO  H2    .  H  0  ?  ?  ?  1  26
+ESO  2HOP  .  H  0  ?  ?  ?  0  27
+ESO  3HOP  .  H  0  ?  ?  ?  0  28
+ESO  H4    .  H  0  ?  ?  ?  1  29
+ESO  1H6   .  H  0  ?  ?  ?  0  30
+ESO  2H6   .  H  0  ?  ?  ?  0  31
+ESO  1H7   .  H  0  ?  ?  ?  0  32
+ESO  2H7   .  H  0  ?  ?  ?  0  33
+ESO  H8    .  H  0  ?  ?  ?  1  34
+ESO  H9    .  H  0  ?  ?  ?  1  35
+ESO  1H11  .  H  0  ?  ?  ?  0  36
+ESO  2H11  .  H  0  ?  ?  ?  0  37
+ESO  1H12  .  H  0  ?  ?  ?  0  38
+ESO  2H12  .  H  0  ?  ?  ?  0  39
+ESO  H14   .  H  0  ?  ?  ?  1  40
+ESO  1H15  .  H  0  ?  ?  ?  0  41
+ESO  2H15  .  H  0  ?  ?  ?  0  42
+ESO  1H16  .  H  0  ?  ?  ?  0  43
+ESO  2H16  .  H  0  ?  ?  ?  0  44
+ESO  1H18  .  H  0  ?  ?  ?  0  45
+ESO  2H18  .  H  0  ?  ?  ?  0  46
+ESO  3H18  .  H  0  ?  ?  ?  0  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ESO  C1   C2    DOUB  1 
+ESO  C1   C10   SING  2 
+ESO  C1   H1    SING  3 
+ESO  C2   C3    SING  4 
+ESO  C2   H2    SING  5 
+ESO  C3   C4    DOUB  6 
+ESO  C3   O3    SING  7 
+ESO  O3   P     SING  8 
+ESO  P    O1P   DOUB  9 
+ESO  P    O2P   SING  10
+ESO  P    O3P   SING  11
+ESO  O2P  2HOP  SING  12
+ESO  O3P  3HOP  SING  13
+ESO  C4   C5    SING  14
+ESO  C4   H4    SING  15
+ESO  C5   C6    SING  16
+ESO  C5   C10   DOUB  17
+ESO  C6   C7    SING  18
+ESO  C6   1H6   SING  19
+ESO  C6   2H6   SING  20
+ESO  C7   C8    SING  21
+ESO  C7   1H7   SING  22
+ESO  C7   2H7   SING  23
+ESO  C8   C9    SING  24
+ESO  C8   C14   SING  25
+ESO  C8   H8    SING  26
+ESO  C9   C10   SING  27
+ESO  C9   C11   SING  28
+ESO  C9   H9    SING  29
+ESO  C11  C12   SING  30
+ESO  C11  1H11  SING  31
+ESO  C11  2H11  SING  32
+ESO  C12  C13   SING  33
+ESO  C12  1H12  SING  34
+ESO  C12  2H12  SING  35
+ESO  C13  C14   SING  36
+ESO  C13  C17   SING  37
+ESO  C13  C18   SING  38
+ESO  C14  C15   SING  39
+ESO  C14  H14   SING  40
+ESO  C15  C16   SING  41
+ESO  C15  1H15  SING  42
+ESO  C15  2H15  SING  43
+ESO  C16  C17   SING  44
+ESO  C16  1H16  SING  45
+ESO  C16  2H16  SING  46
+ESO  C17  O17   DOUB  47
+ESO  C18  1H18  SING  48
+ESO  C18  2H18  SING  49
+ESO  C18  3H18  SING  50
+#

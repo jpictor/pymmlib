@@ -1,0 +1,97 @@
+data_LSP
+#
+_chem_comp.id                   LSP
+_chem_comp.name                 '(7S)-4,7-DIHYDROXY-10-OXO-3,5,9-TRIOXA-4-PHOSPHAUNDECAN-1-AMINIUM 4-OXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H17 N1 O7 P1'
+_chem_comp.pdbx_synonyms        1-ACETYL-2-LYSO-SN-GLYCERO-3-PHOSPHOETHANOLAMINE
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       258.188
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LSP  N     .  N  1  1.095   3.204  1.399   1  1 
+LSP  C12   .  C  0  1.695   3.924  2.584   1  2 
+LSP  C11   .  C  0  0.701   4.943  3.147   1  3 
+LSP  P     .  P  0  1.468   6.979  4.693   1  4 
+LSP  O12   .  O  0  0.670   6.275  5.722   1  5 
+LSP  O14   .  O  0  1.207   8.423  4.499   1  6 
+LSP  O11   .  O  0  3.021   6.775  5.012   1  7 
+LSP  O13   .  O  0  1.326   6.225  3.283   1  8 
+LSP  C1    .  C  0  3.506   5.580  5.632   1  9 
+LSP  C2    .  C  0  5.009   5.411  5.340   1  10
+LSP  O21   .  O  0  5.647   6.681  5.349   1  11
+LSP  C3    .  C  0  5.712   4.494  6.354   1  12
+LSP  O31   .  O  0  5.770   5.141  7.635   1  13
+LSP  C31   .  C  0  6.691   4.587  8.435   1  14
+LSP  O32   .  O  0  7.899   4.672  8.291   1  15
+LSP  C32   .  C  0  6.000   3.824  9.557   1  16
+LSP  H21   .  H  0  ?       ?      ?       1  17
+LSP  H2    .  H  0  5.127   4.974  4.323   1  18
+LSP  H31   .  H  0  5.153   3.539  6.445   1  19
+LSP  H32   .  H  0  6.738   4.278  5.979   1  20
+LSP  1H32  .  H  0  5.132   4.404  9.937   0  21
+LSP  2H32  .  H  0  6.716   3.653  10.390  0  22
+LSP  3H32  .  H  0  5.635   2.843  9.181   0  23
+LSP  H11   .  H  0  3.343   5.640  6.729   1  24
+LSP  H12   .  H  0  2.947   4.705  5.238   1  25
+LSP  H14   .  H  0  ?       ?      ?       1  26
+LSP  1H11  .  H  0  -0.169  5.035  2.462   0  27
+LSP  2H11  .  H  0  0.341   4.605  4.142   0  28
+LSP  1H12  .  H  0  2.626   4.424  2.245   0  29
+LSP  2H12  .  H  0  1.950   3.157  3.346   0  30
+LSP  1HN   .  H  0  0.743   3.902  0.713   0  31
+LSP  2HN   .  H  0  1.817   2.606  0.950   0  32
+LSP  3HN   .  H  0  0.307   2.606  1.721   0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LSP  N    C12   SING  1 
+LSP  N    1HN   SING  2 
+LSP  N    2HN   SING  3 
+LSP  N    3HN   SING  4 
+LSP  C12  C11   SING  5 
+LSP  C12  1H12  SING  6 
+LSP  C12  2H12  SING  7 
+LSP  C11  O13   SING  8 
+LSP  C11  1H11  SING  9 
+LSP  C11  2H11  SING  10
+LSP  P    O11   SING  11
+LSP  P    O12   DOUB  12
+LSP  P    O14   SING  13
+LSP  P    O13   SING  14
+LSP  O14  H14   SING  15
+LSP  O11  C1    SING  16
+LSP  C1   C2    SING  17
+LSP  C1   H11   SING  18
+LSP  C1   H12   SING  19
+LSP  C2   O21   SING  20
+LSP  C2   H2    SING  21
+LSP  C2   C3    SING  22
+LSP  O21  H21   SING  23
+LSP  C3   H31   SING  24
+LSP  C3   H32   SING  25
+LSP  C3   O31   SING  26
+LSP  O31  C31   SING  27
+LSP  C31  O32   DOUB  28
+LSP  C31  C32   SING  29
+LSP  C32  1H32  SING  30
+LSP  C32  2H32  SING  31
+LSP  C32  3H32  SING  32
+#

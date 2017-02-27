@@ -1,0 +1,68 @@
+data_G3P
+#
+_chem_comp.id                   G3P
+_chem_comp.name                 SN-GLYCEROL-3-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H9 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        172.074
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G3P  O1    .  O  0  ?  ?  ?  1  1 
+G3P  C1    .  C  0  ?  ?  ?  1  2 
+G3P  C2    .  C  0  ?  ?  ?  1  3 
+G3P  O2    .  O  0  ?  ?  ?  1  4 
+G3P  C3    .  C  0  ?  ?  ?  1  5 
+G3P  O1P   .  O  0  ?  ?  ?  1  6 
+G3P  O2P   .  O  0  ?  ?  ?  1  7 
+G3P  O3P   .  O  0  ?  ?  ?  1  8 
+G3P  O4P   .  O  0  ?  ?  ?  1  9 
+G3P  P     .  P  0  ?  ?  ?  1  10
+G3P  1H1   .  H  0  ?  ?  ?  0  11
+G3P  2H1   .  H  0  ?  ?  ?  0  12
+G3P  H2    .  H  0  ?  ?  ?  1  13
+G3P  1H3   .  H  0  ?  ?  ?  0  14
+G3P  2H3   .  H  0  ?  ?  ?  0  15
+G3P  HO1   .  H  0  ?  ?  ?  1  16
+G3P  HO2   .  H  0  ?  ?  ?  1  17
+G3P  3HOP  .  H  0  ?  ?  ?  0  18
+G3P  4HOP  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G3P  O1   C1    SING  1 
+G3P  O1   HO1   SING  2 
+G3P  C1   C2    SING  3 
+G3P  C1   1H1   SING  4 
+G3P  C1   2H1   SING  5 
+G3P  C2   C3    SING  6 
+G3P  C2   O2    SING  7 
+G3P  C2   H2    SING  8 
+G3P  O2   HO2   SING  9 
+G3P  C3   O1P   SING  10
+G3P  C3   1H3   SING  11
+G3P  C3   2H3   SING  12
+G3P  O1P  P     SING  13
+G3P  O2P  P     DOUB  14
+G3P  O3P  P     SING  15
+G3P  O3P  3HOP  SING  16
+G3P  O4P  P     SING  17
+G3P  O4P  4HOP  SING  18
+#

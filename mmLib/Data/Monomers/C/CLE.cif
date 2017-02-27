@@ -1,0 +1,77 @@
+data_CLE
+#
+_chem_comp.id                       CLE
+_chem_comp.name                     'LEUCINE AMIDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H14 N2 O1'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            130.189
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLE  N     .  N  0  ?  ?  ?  1  1 
+CLE  CA    .  C  0  ?  ?  ?  1  2 
+CLE  CB    .  C  0  ?  ?  ?  1  3 
+CLE  CG    .  C  0  ?  ?  ?  1  4 
+CLE  CD1   .  C  0  ?  ?  ?  1  5 
+CLE  CD2   .  C  0  ?  ?  ?  1  6 
+CLE  C     .  C  0  ?  ?  ?  1  7 
+CLE  O     .  O  0  ?  ?  ?  1  8 
+CLE  N2    .  N  0  ?  ?  ?  1  9 
+CLE  1HN2  .  H  0  ?  ?  ?  0  10
+CLE  2HN2  .  H  0  ?  ?  ?  0  11
+CLE  HN    .  H  0  ?  ?  ?  1  12
+CLE  H     .  H  0  ?  ?  ?  1  13
+CLE  HA    .  H  0  ?  ?  ?  1  14
+CLE  HB1   .  H  0  ?  ?  ?  1  15
+CLE  HB2   .  H  0  ?  ?  ?  1  16
+CLE  HG    .  H  0  ?  ?  ?  1  17
+CLE  1HD2  .  H  0  ?  ?  ?  0  18
+CLE  2HD2  .  H  0  ?  ?  ?  0  19
+CLE  3HD2  .  H  0  ?  ?  ?  0  20
+CLE  1HD1  .  H  0  ?  ?  ?  0  21
+CLE  2HD1  .  H  0  ?  ?  ?  0  22
+CLE  3HD1  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLE  N    CA    SING  1 
+CLE  N    HN    SING  2 
+CLE  N    H     SING  3 
+CLE  CA   CB    SING  4 
+CLE  CA   C     SING  5 
+CLE  CA   HA    SING  6 
+CLE  CB   CG    SING  7 
+CLE  CB   HB1   SING  8 
+CLE  CB   HB2   SING  9 
+CLE  CG   CD1   SING  10
+CLE  CG   CD2   SING  11
+CLE  CG   HG    SING  12
+CLE  CD1  1HD1  SING  13
+CLE  CD1  2HD1  SING  14
+CLE  CD1  3HD1  SING  15
+CLE  CD2  1HD2  SING  16
+CLE  CD2  2HD2  SING  17
+CLE  CD2  3HD2  SING  18
+CLE  C    O     DOUB  19
+CLE  C    N2    SING  20
+CLE  N2   1HN2  SING  21
+CLE  N2   2HN2  SING  22
+#

@@ -1,0 +1,63 @@
+data_NTN
+#
+_chem_comp.id                   NTN
+_chem_comp.name                 ISONICOTINAMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NTN  NZ   .  N  0  ?  ?  ?  1  1 
+NTN  CI1  .  C  0  ?  ?  ?  1  2 
+NTN  CI2  .  C  0  ?  ?  ?  1  3 
+NTN  NI1  .  N  0  ?  ?  ?  1  4 
+NTN  CI3  .  C  0  ?  ?  ?  1  5 
+NTN  CI4  .  C  0  ?  ?  ?  1  6 
+NTN  NI2  .  N  0  ?  ?  ?  1  7 
+NTN  CI5  .  C  0  ?  ?  ?  1  8 
+NTN  CI6  .  C  0  ?  ?  ?  1  9 
+NTN  1HZ  .  H  0  ?  ?  ?  0  10
+NTN  2HZ  .  H  0  ?  ?  ?  0  11
+NTN  H2   .  H  0  ?  ?  ?  1  12
+NTN  H3   .  H  0  ?  ?  ?  1  13
+NTN  H4   .  H  0  ?  ?  ?  1  14
+NTN  H5   .  H  0  ?  ?  ?  1  15
+NTN  H6   .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NTN  NZ   CI1  SING  1 
+NTN  NZ   1HZ  SING  2 
+NTN  NZ   2HZ  SING  3 
+NTN  CI1  CI2  SING  4 
+NTN  CI1  NI1  DOUB  5 
+NTN  CI2  CI3  DOUB  6 
+NTN  CI2  CI6  SING  7 
+NTN  NI1  H2   SING  8 
+NTN  CI3  CI4  SING  9 
+NTN  CI3  H3   SING  10
+NTN  CI4  NI2  DOUB  11
+NTN  CI4  H4   SING  12
+NTN  NI2  CI5  SING  13
+NTN  CI5  CI6  DOUB  14
+NTN  CI5  H5   SING  15
+NTN  CI6  H6   SING  16
+#

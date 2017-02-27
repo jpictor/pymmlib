@@ -1,0 +1,75 @@
+data_LME
+#
+_chem_comp.id                       LME
+_chem_comp.name                     '(3R)-3-METHYL-L-GLUTAMIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H11 N1 O4'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            161.157
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LME  N    .  N  0  -7.673   -17.247  -4.828  1  1 
+LME  CA   .  C  0  -7.596   -17.916  -3.525  1  2 
+LME  CB   .  C  0  -7.247   -19.438  -3.656  1  3 
+LME  C1   .  C  0  -5.791   -19.677  -4.123  1  4 
+LME  CG   .  C  0  -8.243   -20.189  -4.593  1  5 
+LME  CD   .  C  0  -9.677   -20.046  -4.143  1  6 
+LME  OE1  .  O  0  -10.064  -20.543  -2.936  1  7 
+LME  OE2  .  O  0  -10.510  -19.449  -4.880  1  8 
+LME  C    .  C  0  -6.794   -17.195  -2.449  1  9 
+LME  OXT  .  O  0  -6.528   -17.838  -1.395  1  10
+LME  O    .  O  0  ?        ?        ?       1  11
+LME  HE2  .  H  0  -11.406  -19.343  -4.614  1  12
+LME  1HG  .  H  0  -7.996   -21.254  -4.601  0  13
+LME  2HG  .  H  0  -8.146   -19.811  -5.613  0  14
+LME  HB   .  H  0  -7.342   -19.887  -2.661  1  15
+LME  1H1  .  H  0  -5.669   -19.399  -5.174  0  16
+LME  2H1  .  H  0  -5.085   -19.146  -3.514  0  17
+LME  3H1  .  H  0  -5.565   -20.764  -4.049  0  18
+LME  HA   .  H  0  -8.618   -17.889  -3.131  1  19
+LME  HN2  .  H  0  -8.573   -17.234  -5.260  1  20
+LME  HN   .  H  0  ?        ?        ?       1  21
+LME  HXT  .  H  0  ?        ?        ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LME  N    CA   SING  1 
+LME  N    HN2  SING  2 
+LME  N    HN   SING  3 
+LME  CA   CB   SING  4 
+LME  CA   HA   SING  5 
+LME  CA   C    SING  6 
+LME  CB   CG   SING  7 
+LME  CB   HB   SING  8 
+LME  CB   C1   SING  9 
+LME  C1   1H1  SING  10
+LME  C1   2H1  SING  11
+LME  C1   3H1  SING  12
+LME  CG   CD   SING  13
+LME  CG   1HG  SING  14
+LME  CG   2HG  SING  15
+LME  CD   OE2  SING  16
+LME  CD   OE1  DOUB  17
+LME  OE2  HE2  SING  18
+LME  C    O    DOUB  19
+LME  C    OXT  SING  20
+LME  OXT  HXT  SING  21
+#

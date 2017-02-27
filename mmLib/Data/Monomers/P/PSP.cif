@@ -1,0 +1,110 @@
+data_PSP
+#
+_chem_comp.id                   PSP
+_chem_comp.name                 1,3-PROPYLENE-BIS-N,N'-SYN-4-PYRIDINIUMALDOXIME
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N4 O2'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       286.333
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PSP  C1    .  C  0  ?  ?  ?  1  1 
+PSP  C5A   .  C  0  ?  ?  ?  1  2 
+PSP  O10   .  O  0  ?  ?  ?  1  3 
+PSP  N9    .  N  0  ?  ?  ?  1  4 
+PSP  C8    .  C  0  ?  ?  ?  1  5 
+PSP  C4    .  C  0  ?  ?  ?  1  6 
+PSP  C3    .  C  0  ?  ?  ?  1  7 
+PSP  N2    .  N  1  ?  ?  ?  1  8 
+PSP  C7    .  C  0  ?  ?  ?  1  9 
+PSP  C6    .  C  0  ?  ?  ?  1  10
+PSP  C2    .  C  0  ?  ?  ?  1  11
+PSP  C5    .  C  0  ?  ?  ?  1  12
+PSP  N8    .  N  1  ?  ?  ?  1  13
+PSP  C9    .  C  0  ?  ?  ?  1  14
+PSP  C10   .  C  0  ?  ?  ?  1  15
+PSP  C11   .  C  0  ?  ?  ?  1  16
+PSP  C12   .  C  0  ?  ?  ?  1  17
+PSP  C13   .  C  0  ?  ?  ?  1  18
+PSP  C14   .  C  0  ?  ?  ?  1  19
+PSP  N15   .  N  0  ?  ?  ?  1  20
+PSP  O16   .  O  0  ?  ?  ?  1  21
+PSP  AH10  .  H  0  ?  ?  ?  0  22
+PSP  H8    .  H  0  ?  ?  ?  1  23
+PSP  H4A   .  H  0  ?  ?  ?  1  24
+PSP  H3A   .  H  0  ?  ?  ?  1  25
+PSP  H7A   .  H  0  ?  ?  ?  1  26
+PSP  H6A   .  H  0  ?  ?  ?  1  27
+PSP  H1A   .  H  0  ?  ?  ?  1  28
+PSP  H2A   .  H  0  ?  ?  ?  1  29
+PSP  H3    .  H  0  ?  ?  ?  1  30
+PSP  H4    .  H  0  ?  ?  ?  1  31
+PSP  H6    .  H  0  ?  ?  ?  1  32
+PSP  H7    .  H  0  ?  ?  ?  1  33
+PSP  H9    .  H  0  ?  ?  ?  1  34
+PSP  H10   .  H  0  ?  ?  ?  1  35
+PSP  H12   .  H  0  ?  ?  ?  1  36
+PSP  H13   .  H  0  ?  ?  ?  1  37
+PSP  H14   .  H  0  ?  ?  ?  1  38
+PSP  H16   .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PSP  C1   N2    SING  1 
+PSP  C1   C2    SING  2 
+PSP  C1   H1A   SING  3 
+PSP  C1   H2A   SING  4 
+PSP  C5A  C8    SING  5 
+PSP  C5A  C4    SING  6 
+PSP  C5A  C6    DOUB  7 
+PSP  O10  N9    SING  8 
+PSP  O10  AH10  SING  9 
+PSP  N9   C8    DOUB  10
+PSP  C8   H8    SING  11
+PSP  C4   C3    DOUB  12
+PSP  C4   H4A   SING  13
+PSP  C3   N2    SING  14
+PSP  C3   H3A   SING  15
+PSP  N2   C7    DOUB  16
+PSP  C7   C6    SING  17
+PSP  C7   H7A   SING  18
+PSP  C6   H6A   SING  19
+PSP  C2   C5    SING  20
+PSP  C2   H3    SING  21
+PSP  C2   H4    SING  22
+PSP  C5   N8    SING  23
+PSP  C5   H6    SING  24
+PSP  C5   H7    SING  25
+PSP  N8   C9    DOUB  26
+PSP  N8   C13   SING  27
+PSP  C9   C10   SING  28
+PSP  C9   H9    SING  29
+PSP  C10  C11   DOUB  30
+PSP  C10  H10   SING  31
+PSP  C11  C12   SING  32
+PSP  C11  C14   SING  33
+PSP  C12  C13   DOUB  34
+PSP  C12  H12   SING  35
+PSP  C13  H13   SING  36
+PSP  C14  N15   DOUB  37
+PSP  C14  H14   SING  38
+PSP  N15  O16   SING  39
+PSP  O16  H16   SING  40
+#

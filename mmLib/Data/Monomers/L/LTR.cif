@@ -1,0 +1,87 @@
+data_LTR
+#
+_chem_comp.id                       LTR
+_chem_comp.name                     L-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H12 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            204.228
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LTR  N    .  N  0  ?  ?  ?  1  1 
+LTR  CA   .  C  0  ?  ?  ?  1  2 
+LTR  C    .  C  0  ?  ?  ?  1  3 
+LTR  O    .  O  0  ?  ?  ?  1  4 
+LTR  CB   .  C  0  ?  ?  ?  1  5 
+LTR  CG   .  C  0  ?  ?  ?  1  6 
+LTR  CD1  .  C  0  ?  ?  ?  1  7 
+LTR  CD2  .  C  0  ?  ?  ?  1  8 
+LTR  NE1  .  N  0  ?  ?  ?  1  9 
+LTR  CE2  .  C  0  ?  ?  ?  1  10
+LTR  CE3  .  C  0  ?  ?  ?  1  11
+LTR  CZ2  .  C  0  ?  ?  ?  1  12
+LTR  CZ3  .  C  0  ?  ?  ?  1  13
+LTR  CH2  .  C  0  ?  ?  ?  1  14
+LTR  OXT  .  O  0  ?  ?  ?  1  15
+LTR  H    .  H  0  ?  ?  ?  1  16
+LTR  HN2  .  H  0  ?  ?  ?  1  17
+LTR  HA   .  H  0  ?  ?  ?  1  18
+LTR  1HB  .  H  0  ?  ?  ?  0  19
+LTR  2HB  .  H  0  ?  ?  ?  0  20
+LTR  HD1  .  H  0  ?  ?  ?  1  21
+LTR  HE1  .  H  0  ?  ?  ?  1  22
+LTR  HE3  .  H  0  ?  ?  ?  1  23
+LTR  HZ2  .  H  0  ?  ?  ?  1  24
+LTR  HZ3  .  H  0  ?  ?  ?  1  25
+LTR  HH2  .  H  0  ?  ?  ?  1  26
+LTR  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LTR  N    CA   SING  1 
+LTR  N    H    SING  2 
+LTR  N    HN2  SING  3 
+LTR  CA   C    SING  4 
+LTR  CA   CB   SING  5 
+LTR  CA   HA   SING  6 
+LTR  C    O    DOUB  7 
+LTR  C    OXT  SING  8 
+LTR  CB   CG   SING  9 
+LTR  CB   1HB  SING  10
+LTR  CB   2HB  SING  11
+LTR  CG   CD1  DOUB  12
+LTR  CG   CD2  SING  13
+LTR  CD1  NE1  SING  14
+LTR  CD1  HD1  SING  15
+LTR  CD2  CE2  DOUB  16
+LTR  CD2  CE3  SING  17
+LTR  NE1  CE2  SING  18
+LTR  NE1  HE1  SING  19
+LTR  CE2  CZ2  SING  20
+LTR  CE3  CZ3  DOUB  21
+LTR  CE3  HE3  SING  22
+LTR  CZ2  CH2  DOUB  23
+LTR  CZ2  HZ2  SING  24
+LTR  CZ3  CH2  SING  25
+LTR  CZ3  HZ3  SING  26
+LTR  CH2  HH2  SING  27
+LTR  OXT  HXT  SING  28
+#

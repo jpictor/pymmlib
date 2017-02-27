@@ -1,0 +1,120 @@
+data_DBI
+#
+_chem_comp.id                   DBI
+_chem_comp.name                 'PHOSPHORIC ACID MONO-[5-(5,6-DIMETHYL-BENZOIMIDAZOL-1-YL)-4-HYDROXY-2-HYDROXYMETHYL-TETRAHYDRO-FURAN-3-YL] ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N2 O7 P1'
+_chem_comp.pdbx_synonyms        DIMETHYLBENZIMIDAZOLE-NUCLEOTIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        358.287
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DBI  P     .  P  0  ?  ?  ?  1  1 
+DBI  O1P   .  O  0  ?  ?  ?  1  2 
+DBI  O2P   .  O  0  ?  ?  ?  1  3 
+DBI  O3'   .  O  0  ?  ?  ?  1  4 
+DBI  O5'   .  O  0  ?  ?  ?  1  5 
+DBI  C5'   .  C  0  ?  ?  ?  1  6 
+DBI  C4'   .  C  0  ?  ?  ?  1  7 
+DBI  O4'   .  O  0  ?  ?  ?  1  8 
+DBI  C1'   .  C  0  ?  ?  ?  1  9 
+DBI  N1    .  N  0  ?  ?  ?  1  10
+DBI  C8    .  C  0  ?  ?  ?  1  11
+DBI  C7    .  C  0  ?  ?  ?  1  12
+DBI  C6    .  C  0  ?  ?  ?  1  13
+DBI  C11   .  C  0  ?  ?  ?  1  14
+DBI  C10   .  C  0  ?  ?  ?  1  15
+DBI  C5    .  C  0  ?  ?  ?  1  16
+DBI  C4    .  C  0  ?  ?  ?  1  17
+DBI  C9    .  C  0  ?  ?  ?  1  18
+DBI  N3    .  N  0  ?  ?  ?  1  19
+DBI  C2    .  C  0  ?  ?  ?  1  20
+DBI  C2'   .  C  0  ?  ?  ?  1  21
+DBI  O2'   .  O  0  ?  ?  ?  1  22
+DBI  C3'   .  C  0  ?  ?  ?  1  23
+DBI  O3P   .  O  0  ?  ?  ?  1  24
+DBI  1H5'  .  H  0  ?  ?  ?  0  25
+DBI  2H5'  .  H  0  ?  ?  ?  0  26
+DBI  H4'   .  H  0  ?  ?  ?  1  27
+DBI  H1'   .  H  0  ?  ?  ?  1  28
+DBI  H7    .  H  0  ?  ?  ?  1  29
+DBI  1H11  .  H  0  ?  ?  ?  0  30
+DBI  2H11  .  H  0  ?  ?  ?  0  31
+DBI  3H11  .  H  0  ?  ?  ?  0  32
+DBI  1H10  .  H  0  ?  ?  ?  0  33
+DBI  2H10  .  H  0  ?  ?  ?  0  34
+DBI  3H10  .  H  0  ?  ?  ?  0  35
+DBI  H4    .  H  0  ?  ?  ?  1  36
+DBI  H2    .  H  0  ?  ?  ?  1  37
+DBI  H2'   .  H  0  ?  ?  ?  1  38
+DBI  1HO2  .  H  0  ?  ?  ?  0  39
+DBI  H3'   .  H  0  ?  ?  ?  1  40
+DBI  HO3   .  H  0  ?  ?  ?  1  41
+DBI  HO2   .  H  0  ?  ?  ?  1  42
+DBI  HO5   .  H  0  ?  ?  ?  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DBI  P    O1P   DOUB  1 
+DBI  P    O2P   SING  2 
+DBI  P    O3'   SING  3 
+DBI  P    O3P   SING  4 
+DBI  O2P  HO2   SING  5 
+DBI  O3'  C3'   SING  6 
+DBI  O5'  C5'   SING  7 
+DBI  O5'  HO5   SING  8 
+DBI  C5'  1H5'  SING  9 
+DBI  C5'  2H5'  SING  10
+DBI  C5'  C4'   SING  11
+DBI  C4'  H4'   SING  12
+DBI  C4'  O4'   SING  13
+DBI  C4'  C3'   SING  14
+DBI  O4'  C1'   SING  15
+DBI  C1'  H1'   SING  16
+DBI  C1'  N1    SING  17
+DBI  C1'  C2'   SING  18
+DBI  N1   C8    SING  19
+DBI  N1   C2    SING  20
+DBI  C8   C7    AROM  21
+DBI  C8   C9    AROM  22
+DBI  C7   H7    SING  23
+DBI  C7   C6    AROM  24
+DBI  C6   C11   SING  25
+DBI  C6   C5    AROM  26
+DBI  C11  1H11  SING  27
+DBI  C11  2H11  SING  28
+DBI  C11  3H11  SING  29
+DBI  C10  1H10  SING  30
+DBI  C10  2H10  SING  31
+DBI  C10  3H10  SING  32
+DBI  C10  C5    SING  33
+DBI  C5   C4    AROM  34
+DBI  C4   H4    SING  35
+DBI  C4   C9    AROM  36
+DBI  C9   N3    SING  37
+DBI  N3   C2    DOUB  38
+DBI  C2   H2    SING  39
+DBI  C2'  H2'   SING  40
+DBI  C2'  O2'   SING  41
+DBI  C2'  C3'   SING  42
+DBI  O2'  1HO2  SING  43
+DBI  C3'  H3'   SING  44
+DBI  O3P  HO3   SING  45
+#

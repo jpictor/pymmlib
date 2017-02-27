@@ -1,0 +1,62 @@
+data_DXE
+#
+_chem_comp.id                   DXE
+_chem_comp.name                 1,2-DIMETHOXYETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        90.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DXE  C4   .  C  0  8.161  7.856  -1.592  1  1 
+DXE  O2   .  O  0  7.659  6.506  -1.777  1  2 
+DXE  C3   .  C  0  6.286  6.224  -2.042  1  3 
+DXE  C2   .  C  0  5.768  4.819  -1.661  1  4 
+DXE  O1   .  O  0  5.043  4.760  -0.387  1  5 
+DXE  C1   .  C  0  3.856  5.600  -0.599  1  6 
+DXE  1H4  .  H  0  ?      ?      ?       0  7 
+DXE  2H4  .  H  0  ?      ?      ?       0  8 
+DXE  3H4  .  H  0  ?      ?      ?       0  9 
+DXE  1H3  .  H  0  ?      ?      ?       0  10
+DXE  2H3  .  H  0  ?      ?      ?       0  11
+DXE  1H2  .  H  0  ?      ?      ?       0  12
+DXE  2H2  .  H  0  ?      ?      ?       0  13
+DXE  1H1  .  H  0  ?      ?      ?       0  14
+DXE  2H1  .  H  0  ?      ?      ?       0  15
+DXE  3H1  .  H  0  ?      ?      ?       0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DXE  C4  1H4  SING  1 
+DXE  C4  2H4  SING  2 
+DXE  C4  3H4  SING  3 
+DXE  C4  O2   SING  4 
+DXE  O2  C3   SING  5 
+DXE  C3  1H3  SING  6 
+DXE  C3  2H3  SING  7 
+DXE  C3  C2   SING  8 
+DXE  C2  1H2  SING  9 
+DXE  C2  2H2  SING  10
+DXE  C2  O1   SING  11
+DXE  O1  C1   SING  12
+DXE  C1  1H1  SING  13
+DXE  C1  2H1  SING  14
+DXE  C1  3H1  SING  15
+#

@@ -1,0 +1,112 @@
+data_SWF
+#
+_chem_comp.id                   SWF
+_chem_comp.name                 S-WARFARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H16 O4'
+_chem_comp.pdbx_synonyms        4-HYDROXY-3-[(1S)-3-OXO-1-PHENYLBUTYL]-2H-CHROMEN-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.333
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SWF  C1    .  C  0  -16.623  88.698  38.217  1  1 
+SWF  C2    .  C  0  -17.028  88.995  39.652  1  2 
+SWF  O3    .  O  0  -16.557  89.973  40.188  1  3 
+SWF  C4    .  C  0  -18.003  88.1    40.468  1  4 
+SWF  C5    .  C  0  -18.878  87.09   39.596  1  5 
+SWF  C6    .  C  0  -19.542  85.919  40.381  1  6 
+SWF  C7    .  C  0  -19.939  86.058  41.769  1  7 
+SWF  C8    .  C  0  -20.571  84.949  42.448  1  8 
+SWF  C9    .  C  0  -20.81   83.701  41.754  1  9 
+SWF  C10   .  C  0  -20.42   83.549  40.383  1  10
+SWF  C11   .  C  0  -19.792  84.637  39.692  1  11
+SWF  C12   .  C  0  -20.14   87.677  38.868  1  12
+SWF  C13   .  C  0  -20.39   87.236  37.552  1  13
+SWF  O14   .  O  0  -19.528  86.322  36.956  1  14
+SWF  C15   .  C  0  -21.588  87.738  36.824  1  15
+SWF  C16   .  C  0  -21.866  87.294  35.507  1  16
+SWF  C17   .  C  0  -23.017  87.784  34.865  1  17
+SWF  C18   .  C  0  -23.914  88.723  35.493  1  18
+SWF  C19   .  C  0  -23.654  89.188  36.809  1  19
+SWF  C20   .  C  0  -22.488  88.708  37.5    1  20
+SWF  O21   .  O  0  -22.183  89.126  38.792  1  21
+SWF  C22   .  C  0  -21.069  88.64   39.467  1  22
+SWF  O23   .  O  0  -20.882  89.029  40.575  1  23
+SWF  1H1C  .  H  0  -16.58   87.609  38.065  0  24
+SWF  2H1C  .  H  0  -17.362  89.135  37.53   0  25
+SWF  3H1C  .  H  0  -15.633  89.135  38.018  0  26
+SWF  1H4C  .  H  0  -17.409  87.509  41.181  0  27
+SWF  2H4C  .  H  0  -18.715  88.783  40.955  0  28
+SWF  H5    .  H  0  -18.076  86.79   38.905  1  29
+SWF  H7    .  H  0  -19.766  86.97   42.284  1  30
+SWF  H11   .  H  0  -19.504  84.52   38.677  1  31
+SWF  H8    .  H  0  -20.862  85.051  43.464  1  32
+SWF  H9    .  H  0  -21.276  82.895  42.263  1  33
+SWF  H10   .  H  0  -20.596  82.631  39.88   1  34
+SWF  H14   .  H  0  -18.769  85.995  37.439  1  35
+SWF  H16   .  H  0  -21.221  86.608  35.017  1  36
+SWF  H17   .  H  0  -23.234  87.45   33.881  1  37
+SWF  H18   .  H  0  -24.771  89.067  34.97   1  38
+SWF  H19   .  H  0  -24.31   89.88   37.276  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SWF  C1   C2    SING  1 
+SWF  C1   1H1C  SING  2 
+SWF  C1   2H1C  SING  3 
+SWF  C1   3H1C  SING  4 
+SWF  C2   O3    DOUB  5 
+SWF  C2   C4    SING  6 
+SWF  C4   C5    SING  7 
+SWF  C4   1H4C  SING  8 
+SWF  C4   2H4C  SING  9 
+SWF  C5   C6    SING  10
+SWF  C5   C12   SING  11
+SWF  C5   H5    SING  12
+SWF  C6   C7    AROM  13
+SWF  C6   C11   AROM  14
+SWF  C7   C8    AROM  15
+SWF  C7   H7    SING  16
+SWF  C8   C9    AROM  17
+SWF  C8   H8    SING  18
+SWF  C9   C10   AROM  19
+SWF  C9   H9    SING  20
+SWF  C10  C11   AROM  21
+SWF  C10  H10   SING  22
+SWF  C11  H11   SING  23
+SWF  C12  C13   DOUB  24
+SWF  C12  C22   SING  25
+SWF  C13  O14   SING  26
+SWF  C13  C15   SING  27
+SWF  O14  H14   SING  28
+SWF  C15  C16   AROM  29
+SWF  C15  C20   AROM  30
+SWF  C16  C17   AROM  31
+SWF  C16  H16   SING  32
+SWF  C17  C18   AROM  33
+SWF  C17  H17   SING  34
+SWF  C18  C19   AROM  35
+SWF  C18  H18   SING  36
+SWF  C19  C20   AROM  37
+SWF  C19  H19   SING  38
+SWF  C20  O21   SING  39
+SWF  O21  C22   SING  40
+SWF  C22  O23   DOUB  41
+#

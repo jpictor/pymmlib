@@ -1,0 +1,67 @@
+data_DFX
+#
+_chem_comp.id                   DFX
+_chem_comp.name                 1,2-DEOXY-2-FLUORO-XYLOPYRANOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 O3 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.123
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFX  C1   .  C  0  ?  ?  ?  1  1 
+DFX  C2   .  C  0  ?  ?  ?  1  2 
+DFX  C3   .  C  0  ?  ?  ?  1  3 
+DFX  C4   .  C  0  ?  ?  ?  1  4 
+DFX  C5   .  C  0  ?  ?  ?  1  5 
+DFX  O3   .  O  0  ?  ?  ?  1  6 
+DFX  O4   .  O  0  ?  ?  ?  1  7 
+DFX  O5   .  O  0  ?  ?  ?  1  8 
+DFX  F2   .  F  0  ?  ?  ?  1  9 
+DFX  1H1  .  H  0  ?  ?  ?  0  10
+DFX  2H1  .  H  0  ?  ?  ?  0  11
+DFX  H2   .  H  0  ?  ?  ?  1  12
+DFX  H3   .  H  0  ?  ?  ?  1  13
+DFX  H4   .  H  0  ?  ?  ?  1  14
+DFX  1H5  .  H  0  ?  ?  ?  0  15
+DFX  2H5  .  H  0  ?  ?  ?  0  16
+DFX  HO3  .  H  0  ?  ?  ?  1  17
+DFX  HO4  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFX  C1  C2   SING  1 
+DFX  C1  O5   SING  2 
+DFX  C1  1H1  SING  3 
+DFX  C1  2H1  SING  4 
+DFX  C2  C3   SING  5 
+DFX  C2  F2   SING  6 
+DFX  C2  H2   SING  7 
+DFX  C3  C4   SING  8 
+DFX  C3  O3   SING  9 
+DFX  C3  H3   SING  10
+DFX  C4  C5   SING  11
+DFX  C4  O4   SING  12
+DFX  C4  H4   SING  13
+DFX  C5  O5   SING  14
+DFX  C5  1H5  SING  15
+DFX  C5  2H5  SING  16
+DFX  O3  HO3  SING  17
+DFX  O4  HO4  SING  18
+#

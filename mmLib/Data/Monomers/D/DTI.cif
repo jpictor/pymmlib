@@ -1,0 +1,61 @@
+data_DTI
+#
+_chem_comp.id                   DTI
+_chem_comp.name                 '3,4-DIMETHYLTHIAZOLIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H8 N1 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       114.185
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTI  N10  .  N  1  ?  ?  ?  1  1 
+DTI  C9   .  C  0  ?  ?  ?  1  2 
+DTI  S13  .  S  0  ?  ?  ?  1  3 
+DTI  C11  .  C  0  ?  ?  ?  1  4 
+DTI  C14  .  C  0  ?  ?  ?  1  5 
+DTI  C1   .  C  0  ?  ?  ?  1  6 
+DTI  C5   .  C  0  ?  ?  ?  1  7 
+DTI  H11  .  H  0  ?  ?  ?  1  8 
+DTI  H14  .  H  0  ?  ?  ?  1  9 
+DTI  1H1  .  H  0  ?  ?  ?  0  10
+DTI  2H1  .  H  0  ?  ?  ?  0  11
+DTI  3H1  .  H  0  ?  ?  ?  0  12
+DTI  1H5  .  H  0  ?  ?  ?  0  13
+DTI  2H5  .  H  0  ?  ?  ?  0  14
+DTI  3H5  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTI  N10  C11  DOUB  1 
+DTI  N10  C5   SING  2 
+DTI  N10  C9   SING  3 
+DTI  C9   C14  DOUB  4 
+DTI  C9   C1   SING  5 
+DTI  S13  C11  SING  6 
+DTI  S13  C14  SING  7 
+DTI  C11  H11  SING  8 
+DTI  C14  H14  SING  9 
+DTI  C1   1H1  SING  10
+DTI  C1   2H1  SING  11
+DTI  C1   3H1  SING  12
+DTI  C5   1H5  SING  13
+DTI  C5   2H5  SING  14
+DTI  C5   3H5  SING  15
+#

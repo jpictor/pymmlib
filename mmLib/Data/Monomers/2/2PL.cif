@@ -1,0 +1,58 @@
+data_2PL
+#
+_chem_comp.id                   2PL
+_chem_comp.name                 'PHOSPHOGLYCOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C2 H5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.032
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2PL  C1    .  C  0  ?  ?  ?  1  1 
+2PL  C2    .  C  0  ?  ?  ?  1  2 
+2PL  P     .  P  0  ?  ?  ?  1  3 
+2PL  O11   .  O  0  ?  ?  ?  1  4 
+2PL  O12   .  O  0  ?  ?  ?  1  5 
+2PL  O1P   .  O  0  ?  ?  ?  1  6 
+2PL  O2P   .  O  0  ?  ?  ?  1  7 
+2PL  O3P   .  O  0  ?  ?  ?  1  8 
+2PL  O4P   .  O  0  ?  ?  ?  1  9 
+2PL  1H2   .  H  0  ?  ?  ?  0  10
+2PL  2H2   .  H  0  ?  ?  ?  0  11
+2PL  H12   .  H  0  ?  ?  ?  1  12
+2PL  3HOP  .  H  0  ?  ?  ?  0  13
+2PL  4HOP  .  H  0  ?  ?  ?  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2PL  C1   C2    SING  1 
+2PL  C1   O11   DOUB  2 
+2PL  C1   O12   SING  3 
+2PL  C2   O1P   SING  4 
+2PL  C2   1H2   SING  5 
+2PL  C2   2H2   SING  6 
+2PL  P    O1P   SING  7 
+2PL  P    O2P   DOUB  8 
+2PL  P    O3P   SING  9 
+2PL  P    O4P   SING  10
+2PL  O12  H12   SING  11
+2PL  O3P  3HOP  SING  12
+2PL  O4P  4HOP  SING  13
+#

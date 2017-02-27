@@ -1,0 +1,40 @@
+data_ALF
+#
+_chem_comp.id                   ALF
+_chem_comp.name                 'TETRAFLUOROALUMINATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'AL1 F4'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       102.975
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALF  AL  .  AL  0   ?  ?  ?  0  1
+ALF  F1  .  F   0   ?  ?  ?  1  2
+ALF  F2  .  F   0   ?  ?  ?  1  3
+ALF  F3  .  F   0   ?  ?  ?  1  4
+ALF  F4  .  F   -1  ?  ?  ?  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALF  AL  F1  SING  1
+ALF  AL  F2  SING  2
+ALF  AL  F3  SING  3
+ALF  AL  F4  SING  4
+#

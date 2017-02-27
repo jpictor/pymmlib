@@ -1,0 +1,86 @@
+data_PBB
+#
+_chem_comp.id                       PBB
+_chem_comp.name                     S-(4-BROMOBENZYL)CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H12 N1 O2 BR1 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            290.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBB  CA   .  C   0  ?  ?  ?  1  1 
+PBB  C    .  C   0  ?  ?  ?  1  2 
+PBB  O    .  O   0  ?  ?  ?  1  3 
+PBB  OXT  .  O   0  ?  ?  ?  1  4 
+PBB  N    .  N   0  ?  ?  ?  1  5 
+PBB  CB   .  C   0  ?  ?  ?  1  6 
+PBB  SG   .  S   0  ?  ?  ?  1  7 
+PBB  BR   .  BR  0  ?  ?  ?  0  8 
+PBB  C1   .  C   0  ?  ?  ?  1  9 
+PBB  C2   .  C   0  ?  ?  ?  1  10
+PBB  C3   .  C   0  ?  ?  ?  1  11
+PBB  C4   .  C   0  ?  ?  ?  1  12
+PBB  C5   .  C   0  ?  ?  ?  1  13
+PBB  C6   .  C   0  ?  ?  ?  1  14
+PBB  C7   .  C   0  ?  ?  ?  1  15
+PBB  HA   .  H   0  ?  ?  ?  1  16
+PBB  HXT  .  H   0  ?  ?  ?  1  17
+PBB  1HN  .  H   0  ?  ?  ?  0  18
+PBB  2HN  .  H   0  ?  ?  ?  0  19
+PBB  1HB  .  H   0  ?  ?  ?  0  20
+PBB  2HB  .  H   0  ?  ?  ?  0  21
+PBB  H2   .  H   0  ?  ?  ?  1  22
+PBB  H3   .  H   0  ?  ?  ?  1  23
+PBB  H5   .  H   0  ?  ?  ?  1  24
+PBB  H6   .  H   0  ?  ?  ?  1  25
+PBB  1H7  .  H   0  ?  ?  ?  0  26
+PBB  2H7  .  H   0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBB  CA   C    SING  1 
+PBB  CA   N    SING  2 
+PBB  CA   CB   SING  3 
+PBB  CA   HA   SING  4 
+PBB  C    O    DOUB  5 
+PBB  C    OXT  SING  6 
+PBB  OXT  HXT  SING  7 
+PBB  N    1HN  SING  8 
+PBB  N    2HN  SING  9 
+PBB  CB   SG   SING  10
+PBB  CB   1HB  SING  11
+PBB  CB   2HB  SING  12
+PBB  SG   C7   SING  13
+PBB  BR   C4   SING  14
+PBB  C1   C2   DOUB  15
+PBB  C1   C6   SING  16
+PBB  C1   C7   SING  17
+PBB  C2   C3   SING  18
+PBB  C2   H2   SING  19
+PBB  C3   C4   DOUB  20
+PBB  C3   H3   SING  21
+PBB  C4   C5   SING  22
+PBB  C5   C6   DOUB  23
+PBB  C5   H5   SING  24
+PBB  C6   H6   SING  25
+PBB  C7   1H7  SING  26
+PBB  C7   2H7  SING  27
+#

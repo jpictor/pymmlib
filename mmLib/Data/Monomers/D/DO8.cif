@@ -1,0 +1,101 @@
+data_DO8
+#
+_chem_comp.id                   DO8
+_chem_comp.name                 3-DEOXY-D-MANNO-2-OCTULOSONATE-8-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H15 O11 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        318.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DO8  C1    .  C  0  7.160  -12.399  279.146  1  1 
+DO8  O1A   .  O  0  6.208  -12.869  279.801  1  2 
+DO8  O1B   .  O  0  8.221  -12.041  279.772  1  3 
+DO8  C2    .  C  0  7.002  -12.248  277.639  1  4 
+DO8  C3    .  C  0  5.994  -13.360  277.148  1  5 
+DO8  C4    .  C  0  5.588  -13.045  275.710  1  6 
+DO8  O4    .  O  0  4.635  -14.097  275.365  1  7 
+DO8  C5    .  C  0  4.928  -11.669  275.625  1  8 
+DO8  O5    .  O  0  3.731  -11.621  276.449  1  9 
+DO8  C6    .  C  0  6.002  -10.565  276.056  1  10
+DO8  O6    .  O  0  6.550  -10.828  277.432  1  11
+DO8  C7    .  C  0  5.481  -9.004   276.169  1  12
+DO8  O7    .  O  0  5.010  -7.913   277.036  1  13
+DO8  C8    .  C  0  4.920  -8.860   274.688  1  14
+DO8  P1    .  P  0  5.023  -6.015   275.167  1  15
+DO8  O2P   .  O  0  3.699  -6.253   276.222  1  16
+DO8  O3P   .  O  0  6.451  -5.736   276.001  1  17
+DO8  O     .  O  0  5.248  -7.465   274.219  1  18
+DO8  O1P   .  O  0  4.613  -4.669   274.243  1  19
+DO8  O2    .  O  0  8.336  -12.481  276.955  1  20
+DO8  H1A   .  H  0  ?      ?        ?        1  21
+DO8  HO2   .  H  0  ?      ?        ?        1  22
+DO8  H6    .  H  0  ?      ?        ?        1  23
+DO8  H7    .  H  0  ?      ?        ?        1  24
+DO8  HO7   .  H  0  ?      ?        ?        1  25
+DO8  1H8   .  H  0  ?      ?        ?        0  26
+DO8  2H8   .  H  0  ?      ?        ?        0  27
+DO8  3HOP  .  H  0  ?      ?        ?        0  28
+DO8  2HOP  .  H  0  ?      ?        ?        0  29
+DO8  H5    .  H  0  ?      ?        ?        1  30
+DO8  HO5   .  H  0  ?      ?        ?        1  31
+DO8  H4    .  H  0  ?      ?        ?        1  32
+DO8  HO4   .  H  0  ?      ?        ?        1  33
+DO8  1H3   .  H  0  ?      ?        ?        0  34
+DO8  2H3   .  H  0  ?      ?        ?        0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DO8  C1   O1A   SING  1 
+DO8  C1   O1B   DOUB  2 
+DO8  C1   C2    SING  3 
+DO8  O1A  H1A   SING  4 
+DO8  C2   O2    SING  5 
+DO8  C2   O6    SING  6 
+DO8  C2   C3    SING  7 
+DO8  C3   C4    SING  8 
+DO8  C3   1H3   SING  9 
+DO8  C3   2H3   SING  10
+DO8  C4   C5    SING  11
+DO8  C4   H4    SING  12
+DO8  C4   O4    SING  13
+DO8  O4   HO4   SING  14
+DO8  C5   C6    SING  15
+DO8  C5   H5    SING  16
+DO8  C5   O5    SING  17
+DO8  O5   HO5   SING  18
+DO8  C6   O6    SING  19
+DO8  C6   H6    SING  20
+DO8  C6   C7    SING  21
+DO8  C7   H7    SING  22
+DO8  C7   O7    SING  23
+DO8  C7   C8    SING  24
+DO8  O7   HO7   SING  25
+DO8  C8   1H8   SING  26
+DO8  C8   2H8   SING  27
+DO8  C8   O     SING  28
+DO8  P1   O     SING  29
+DO8  P1   O2P   SING  30
+DO8  P1   O3P   SING  31
+DO8  P1   O1P   DOUB  32
+DO8  O2P  2HOP  SING  33
+DO8  O3P  3HOP  SING  34
+DO8  O2   HO2   SING  35
+#

@@ -1,0 +1,68 @@
+data_GLR
+#
+_chem_comp.id                   GLR
+_chem_comp.name                 2,3-DIHYDROXY-5-OXO-HEXANEDIOATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 O7'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       190.109
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLR  O1B   .  O  0   ?  ?  ?  1  1 
+GLR  O1A   .  O  -1  ?  ?  ?  1  2 
+GLR  C1    .  C  0   ?  ?  ?  1  3 
+GLR  C2    .  C  0   ?  ?  ?  1  4 
+GLR  O2    .  O  0   ?  ?  ?  1  5 
+GLR  C3    .  C  0   ?  ?  ?  1  6 
+GLR  O3    .  O  0   ?  ?  ?  1  7 
+GLR  C4    .  C  0   ?  ?  ?  1  8 
+GLR  O5    .  O  0   ?  ?  ?  1  9 
+GLR  C5    .  C  0   ?  ?  ?  1  10
+GLR  C6    .  C  0   ?  ?  ?  1  11
+GLR  O6A   .  O  0   ?  ?  ?  1  12
+GLR  O6B   .  O  -1  ?  ?  ?  1  13
+GLR  1H4   .  H  0   ?  ?  ?  0  14
+GLR  2H4   .  H  0   ?  ?  ?  0  15
+GLR  1H3   .  H  0   ?  ?  ?  0  16
+GLR  1HO3  .  H  0   ?  ?  ?  0  17
+GLR  1HO2  .  H  0   ?  ?  ?  0  18
+GLR  1H2   .  H  0   ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLR  O1B  C1    DOUB  1 
+GLR  O1A  C1    SING  2 
+GLR  C1   C2    SING  3 
+GLR  C2   O2    SING  4 
+GLR  C2   C3    SING  5 
+GLR  C2   1H2   SING  6 
+GLR  O2   1HO2  SING  7 
+GLR  C3   O3    SING  8 
+GLR  C3   C4    SING  9 
+GLR  C3   1H3   SING  10
+GLR  O3   1HO3  SING  11
+GLR  C4   C5    SING  12
+GLR  C4   1H4   SING  13
+GLR  C4   2H4   SING  14
+GLR  O5   C5    DOUB  15
+GLR  C5   C6    SING  16
+GLR  C6   O6A   DOUB  17
+GLR  C6   O6B   SING  18
+#

@@ -1,0 +1,68 @@
+data_3MO
+#
+_chem_comp.id                   3MO
+_chem_comp.name                 3-METHYL-1,3-OXAZOLIDIN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H7 N1 O2'
+_chem_comp.pdbx_synonyms        3-METHYL-2-OXAZOLIDINONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        101.105
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          3MO
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CN1CCOC1=O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+3MO  N2   .  N  0  -0.146  33.954  56.281  1  N  1 
+3MO  C4   .  C  0  0.144   32.928  54.217  1  N  2 
+3MO  O6   .  O  0  1.584   32.930  57.443  1  N  3 
+3MO  C1   .  C  0  0.893   33.146  56.449  1  N  4 
+3MO  O5   .  O  0  1.149   32.523  55.170  1  N  5 
+3MO  C3   .  C  0  -0.771  33.921  54.947  1  N  6 
+3MO  C7   .  C  0  -0.714  34.882  57.211  1  N  7 
+3MO  1H4  .  H  0  0.054   32.598  53.193  0  N  8 
+3MO  1H3  .  H  0  -1.638  34.452  54.582  0  N  9 
+3MO  1H7  .  H  0  -0.860  34.386  58.182  0  N  10
+3MO  2H7  .  H  0  -0.035  35.738  57.335  0  N  11
+3MO  3H7  .  H  0  -1.684  35.235  56.831  0  N  12
+3MO  2H3  .  H  0  ?       ?       ?       0  N  13
+3MO  2H4  .  H  0  ?       ?       ?       0  N  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+3MO  N2  C1   SING  N  1 
+3MO  N2  C3   SING  N  2 
+3MO  N2  C7   SING  N  3 
+3MO  C4  O5   SING  N  4 
+3MO  C4  C3   SING  N  5 
+3MO  C4  1H4  SING  N  6 
+3MO  C4  2H4  SING  N  7 
+3MO  O6  C1   DOUB  N  8 
+3MO  C1  O5   SING  N  9 
+3MO  C3  1H3  SING  N  10
+3MO  C3  2H3  SING  N  11
+3MO  C7  1H7  SING  N  12
+3MO  C7  2H7  SING  N  13
+3MO  C7  3H7  SING  N  14
+#

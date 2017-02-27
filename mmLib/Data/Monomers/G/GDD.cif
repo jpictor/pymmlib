@@ -1,0 +1,179 @@
+data_GDD
+#
+_chem_comp.id                   GDD
+_chem_comp.name                 GUANOSINE-5'-DIPHOSPHATE-ALPHA-D-MANNOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H25 N5 O16 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        605.345
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+GDD  SMILES             NC1=Nc2[n](cnc2C(=O)N1)[C@@H]3O[C@H](CO[P@@](O)(=O)O[P@@](O)(=O)O[C@H]4O[C@H](CO)[C@@H](O)[C@H](O)[C@@H]4O)[C@@H](O)[C@H]3O                                                                                     CACTVS   2.87 
+GDD  SMILES_CANNONICAL  NC1=Nc2[n](cnc2C(=O)N1)C3OC(COP(O)(=O)OP(O)(=O)OC4OC(CO)C(O)C(O)C4O)C(O)C3O                                                                                                                                     CACTVS   2.87 
+GDD  INCHI              InChI=1/C16H25N5O16P2/c17-16-19-12-6(13(28)20-16)18-3-21(12)14-10(26)8(24)5(34-14)2-33-38(29,30)37-39(31,32)36-15-11(27)9(25)7(23)4(1-22)35-15/h3-5,7-11,14-15,22-27H,1-2H2,(H,29,30)(H,31,32)(H3,17,19,20,28)  InChi    1    
+GDD  SMILES             C1=NC2=C(N1[C@H]3[C@@H]([C@@H]([C@H](O3)CO[P@](=O)(O)O[P@](=O)(O)O[C@@H]4[C@H]([C@H]([C@@H]([C@H](O4)CO)O)O)O)O)O)N=C(NC2=O)N                                                                                   OpenEye  1.3.4
+GDD  SMILES_CANNONICAL  C1=NC2=C(N1C3C(C(C(O3)COP(=O)(O)OP(=O)(O)OC4C(C(C(C(O4)CO)O)O)O)O)O)N=C(NC2=O)N                                                                                                                                 OpenEye  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+GDD  N2    .  N  0  42.380  9.080   11.769  1  N  N  N  1 
+GDD  C2    .  C  0  43.658  8.685   11.482  1  N  N  N  2 
+GDD  N1    .  N  0  44.069  8.708   10.209  1  N  N  N  3 
+GDD  N3    .  N  0  44.495  8.321   12.502  1  N  N  N  4 
+GDD  C4    .  C  0  45.777  7.929   12.259  1  N  N  N  5 
+GDD  C5    .  C  0  46.282  7.964   10.894  1  N  N  N  6 
+GDD  C6    .  C  0  45.342  8.372   9.854   1  N  N  N  7 
+GDD  O6    .  O  0  45.748  8.359   8.667   1  N  N  N  8 
+GDD  N7    .  N  0  47.567  7.572   10.919  1  N  N  N  9 
+GDD  C8    .  C  0  47.882  7.301   12.195  1  N  N  N  10
+GDD  N9    .  N  0  46.836  7.555   12.987  1  N  N  N  11
+GDD  C1*   .  C  0  46.879  7.368   14.434  1  N  R  N  12
+GDD  C2*   .  C  0  46.363  8.606   15.131  1  N  R  N  13
+GDD  O2*   .  O  0  47.274  9.683   15.058  1  N  N  N  14
+GDD  C3*   .  C  0  46.030  8.065   16.515  1  N  S  N  15
+GDD  O3*   .  O  0  47.193  7.901   17.327  1  N  N  N  16
+GDD  C4*   .  C  0  45.530  6.665   16.174  1  N  R  N  17
+GDD  O4*   .  O  0  46.014  6.300   14.860  1  N  N  N  18
+GDD  C5*   .  C  0  44.035  6.536   16.246  1  N  N  N  19
+GDD  O5*   .  O  0  43.517  7.694   15.600  1  N  N  N  20
+GDD  PA    .  P  0  41.946  7.955   15.425  1  N  S  N  21
+GDD  O1A   .  O  0  41.324  6.650   15.091  1  N  N  N  22
+GDD  O2A   .  O  0  41.676  9.078   14.439  1  N  N  N  23
+GDD  O3A   .  O  0  41.332  8.557   16.818  1  N  N  N  24
+GDD  PB    .  P  0  41.382  8.172   18.393  1  N  R  N  25
+GDD  O2B   .  O  0  41.169  6.700   18.640  1  N  N  N  26
+GDD  O3B   .  O  0  42.676  8.610   19.021  1  N  N  N  27
+GDD  O1B   .  O  0  40.193  9.091   19.027  1  N  N  N  28
+GDD  C11   .  C  0  38.959  8.826   18.351  1  N  R  N  29
+GDD  O51   .  O  0  38.157  7.957   19.184  1  N  N  N  30
+GDD  C51   .  C  0  37.627  8.547   20.387  1  N  R  N  31
+GDD  C61   .  C  0  36.807  7.509   21.163  1  N  N  N  32
+GDD  O6A   .  O  0  37.642  6.400   21.497  1  N  N  N  33
+GDD  C21   .  C  0  38.163  10.100  17.953  1  N  S  N  34
+GDD  O21   .  O  0  37.023  9.757   17.140  1  N  N  N  35
+GDD  C31   .  C  0  37.621  10.781  19.196  1  N  S  N  36
+GDD  O31   .  O  0  36.881  11.956  18.841  1  N  N  N  37
+GDD  C41   .  C  0  36.780  9.800   20.058  1  N  R  N  38
+GDD  O41   .  O  0  36.350  10.424  21.285  1  N  N  N  39
+GDD  HO2A  .  H  0  41.620  9.903   14.906  0  N  N  N  40
+GDD  HO2B  .  H  0  41.124  6.242   17.809  0  N  N  N  41
+GDD  1H2N  .  H  0  41.976  9.100   12.684  0  N  N  N  42
+GDD  2H2N  .  H  0  41.910  9.346   10.927  0  N  N  N  43
+GDD  H1    .  H  0  43.423  8.980   9.496   1  N  N  N  44
+GDD  H8    .  H  0  48.839  6.932   12.532  1  N  N  N  45
+GDD  H1*   .  H  0  47.927  7.147   14.686  1  N  N  N  46
+GDD  H2*   .  H  0  45.481  9.079   14.676  1  N  N  N  47
+GDD  HA    .  H  0  47.479  9.985   15.935  1  N  N  N  48
+GDD  H3*   .  H  0  45.343  8.725   17.064  1  N  N  N  49
+GDD  HB    .  H  0  47.964  7.865   16.773  1  N  N  N  50
+GDD  H4*   .  H  0  45.927  5.974   16.932  1  N  N  N  51
+GDD  1H5*  .  H  0  43.685  6.463   17.286  0  N  N  N  52
+GDD  2H5*  .  H  0  43.698  5.622   15.736  0  N  N  N  53
+GDD  H11   .  H  0  39.206  8.339   17.396  1  N  N  N  54
+GDD  H21   .  H  0  38.850  10.758  17.401  1  N  N  N  55
+GDD  H51   .  H  0  38.464  8.872   21.022  1  N  N  N  56
+GDD  1H61  .  H  0  35.968  7.164   20.541  0  N  N  N  57
+GDD  2H61  .  H  0  36.415  7.965   22.084  0  N  N  N  58
+GDD  H41   .  H  0  35.887  9.512   19.484  1  N  N  N  59
+GDD  H6A   .  H  0  37.827  5.895   20.714  1  N  N  N  60
+GDD  HC    .  H  0  36.252  9.682   17.690  1  N  N  N  61
+GDD  H31   .  H  0  38.472  11.097  19.818  1  N  N  N  62
+GDD  HD    .  H  0  36.717  12.475  19.620  1  N  N  N  63
+GDD  HE    .  H  0  36.255  9.763   21.961  1  N  N  N  64
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+GDD  N2   C2    SING  N  N  1 
+GDD  N2   2H2N  SING  N  N  2 
+GDD  N2   1H2N  SING  N  N  3 
+GDD  C2   N1    SING  N  N  4 
+GDD  C2   N3    DOUB  N  N  5 
+GDD  N1   C6    SING  N  N  6 
+GDD  N1   H1    SING  N  N  7 
+GDD  N3   C4    SING  N  N  8 
+GDD  C4   C5    DOUB  N  N  9 
+GDD  C4   N9    SING  N  N  10
+GDD  C5   C6    SING  N  N  11
+GDD  C5   N7    SING  N  N  12
+GDD  C6   O6    DOUB  N  N  13
+GDD  N7   C8    DOUB  N  N  14
+GDD  C8   N9    SING  N  N  15
+GDD  C8   H8    SING  N  N  16
+GDD  N9   C1*   SING  N  N  17
+GDD  C1*  C2*   SING  N  N  18
+GDD  C1*  O4*   SING  N  N  19
+GDD  C1*  H1*   SING  N  N  20
+GDD  C2*  O2*   SING  N  N  21
+GDD  C2*  C3*   SING  N  N  22
+GDD  C2*  H2*   SING  N  N  23
+GDD  O2*  HA    SING  N  N  24
+GDD  C3*  O3*   SING  N  N  25
+GDD  C3*  C4*   SING  N  N  26
+GDD  C3*  H3*   SING  N  N  27
+GDD  O3*  HB    SING  N  N  28
+GDD  C4*  O4*   SING  N  N  29
+GDD  C4*  C5*   SING  N  N  30
+GDD  C4*  H4*   SING  N  N  31
+GDD  C5*  O5*   SING  N  N  32
+GDD  C5*  2H5*  SING  N  N  33
+GDD  C5*  1H5*  SING  N  N  34
+GDD  O5*  PA    SING  N  N  35
+GDD  PA   O1A   DOUB  N  N  36
+GDD  PA   O2A   SING  N  N  37
+GDD  PA   O3A   SING  N  N  38
+GDD  O2A  HO2A  SING  N  N  39
+GDD  O3A  PB    SING  N  N  40
+GDD  PB   O2B   SING  N  N  41
+GDD  PB   O3B   DOUB  N  N  42
+GDD  PB   O1B   SING  N  N  43
+GDD  O2B  HO2B  SING  N  N  44
+GDD  O1B  C11   SING  N  N  45
+GDD  C11  O51   SING  N  N  46
+GDD  C11  C21   SING  N  N  47
+GDD  C11  H11   SING  N  N  48
+GDD  O51  C51   SING  N  N  49
+GDD  C51  C61   SING  N  N  50
+GDD  C51  C41   SING  N  N  51
+GDD  C51  H51   SING  N  N  52
+GDD  C61  O6A   SING  N  N  53
+GDD  C61  2H61  SING  N  N  54
+GDD  C61  1H61  SING  N  N  55
+GDD  O6A  H6A   SING  N  N  56
+GDD  C21  O21   SING  N  N  57
+GDD  C21  C31   SING  N  N  58
+GDD  C21  H21   SING  N  N  59
+GDD  O21  HC    SING  N  N  60
+GDD  C31  O31   SING  N  N  61
+GDD  C31  C41   SING  N  N  62
+GDD  C31  H31   SING  N  N  63
+GDD  O31  HD    SING  N  N  64
+GDD  C41  O41   SING  N  N  65
+GDD  C41  H41   SING  N  N  66
+GDD  O41  HE    SING  N  N  67
+#

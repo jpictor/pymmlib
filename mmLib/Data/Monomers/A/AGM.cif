@@ -1,0 +1,91 @@
+data_AGM
+#
+_chem_comp.id                       AGM
+_chem_comp.name                     4-METHYL-ARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H17 N4 O2'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           189.237
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AGM  N     .  N  0  ?  ?  ?  1  1 
+AGM  CA    .  C  0  ?  ?  ?  1  2 
+AGM  CB    .  C  0  ?  ?  ?  1  3 
+AGM  CG    .  C  0  ?  ?  ?  1  4 
+AGM  CD    .  C  0  ?  ?  ?  1  5 
+AGM  CE2   .  C  0  ?  ?  ?  1  6 
+AGM  NE1   .  N  0  ?  ?  ?  1  7 
+AGM  CZ    .  C  0  ?  ?  ?  1  8 
+AGM  NH1   .  N  0  ?  ?  ?  1  9 
+AGM  NH2   .  N  1  ?  ?  ?  1  10
+AGM  C     .  C  0  ?  ?  ?  1  11
+AGM  O     .  O  0  ?  ?  ?  1  12
+AGM  OXT   .  O  0  ?  ?  ?  1  13
+AGM  1HN   .  H  0  ?  ?  ?  0  14
+AGM  2HN   .  H  0  ?  ?  ?  0  15
+AGM  HA    .  H  0  ?  ?  ?  1  16
+AGM  1HB   .  H  0  ?  ?  ?  0  17
+AGM  2HB   .  H  0  ?  ?  ?  0  18
+AGM  1HG   .  H  0  ?  ?  ?  0  19
+AGM  2HG   .  H  0  ?  ?  ?  0  20
+AGM  HD    .  H  0  ?  ?  ?  1  21
+AGM  1HE2  .  H  0  ?  ?  ?  0  22
+AGM  2HE2  .  H  0  ?  ?  ?  0  23
+AGM  3HE2  .  H  0  ?  ?  ?  0  24
+AGM  HE1   .  H  0  ?  ?  ?  1  25
+AGM  1HH1  .  H  0  ?  ?  ?  0  26
+AGM  2HH1  .  H  0  ?  ?  ?  0  27
+AGM  1HH2  .  H  0  ?  ?  ?  0  28
+AGM  2HH2  .  H  0  ?  ?  ?  0  29
+AGM  HXT   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AGM  N    CA    SING  1 
+AGM  N    1HN   SING  2 
+AGM  N    2HN   SING  3 
+AGM  CA   CB    SING  4 
+AGM  CA   C     SING  5 
+AGM  CA   HA    SING  6 
+AGM  CB   CG    SING  7 
+AGM  CB   1HB   SING  8 
+AGM  CB   2HB   SING  9 
+AGM  CG   CD    SING  10
+AGM  CG   1HG   SING  11
+AGM  CG   2HG   SING  12
+AGM  CD   CE2   SING  13
+AGM  CD   NE1   SING  14
+AGM  CD   HD    SING  15
+AGM  CE2  1HE2  SING  16
+AGM  CE2  2HE2  SING  17
+AGM  CE2  3HE2  SING  18
+AGM  NE1  CZ    SING  19
+AGM  NE1  HE1   SING  20
+AGM  CZ   NH1   SING  21
+AGM  CZ   NH2   DOUB  22
+AGM  NH1  1HH1  SING  23
+AGM  NH1  2HH1  SING  24
+AGM  NH2  1HH2  SING  25
+AGM  NH2  2HH2  SING  26
+AGM  C    O     DOUB  27
+AGM  C    OXT   SING  28
+AGM  OXT  HXT   SING  29
+#

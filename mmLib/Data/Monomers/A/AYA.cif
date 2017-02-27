@@ -1,0 +1,67 @@
+data_AYA
+#
+_chem_comp.id                       AYA
+_chem_comp.name                     N-ACETYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.131
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AYA  N    .  N  0  ?  ?  ?  1  1 
+AYA  CA   .  C  0  ?  ?  ?  1  2 
+AYA  CB   .  C  0  ?  ?  ?  1  3 
+AYA  C    .  C  0  ?  ?  ?  1  4 
+AYA  O    .  O  0  ?  ?  ?  1  5 
+AYA  OXT  .  O  0  ?  ?  ?  1  6 
+AYA  CT   .  C  0  ?  ?  ?  1  7 
+AYA  OT   .  O  0  ?  ?  ?  1  8 
+AYA  CM   .  C  0  ?  ?  ?  1  9 
+AYA  HN   .  H  0  ?  ?  ?  1  10
+AYA  HA   .  H  0  ?  ?  ?  1  11
+AYA  1HB  .  H  0  ?  ?  ?  0  12
+AYA  2HB  .  H  0  ?  ?  ?  0  13
+AYA  3HB  .  H  0  ?  ?  ?  0  14
+AYA  HXT  .  H  0  ?  ?  ?  1  15
+AYA  1HM  .  H  0  ?  ?  ?  0  16
+AYA  2HM  .  H  0  ?  ?  ?  0  17
+AYA  3HM  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AYA  N    CA   SING  1 
+AYA  N    CT   SING  2 
+AYA  N    HN   SING  3 
+AYA  CA   CB   SING  4 
+AYA  CA   C    SING  5 
+AYA  CA   HA   SING  6 
+AYA  CB   1HB  SING  7 
+AYA  CB   2HB  SING  8 
+AYA  CB   3HB  SING  9 
+AYA  C    O    DOUB  10
+AYA  C    OXT  SING  11
+AYA  OXT  HXT  SING  12
+AYA  CT   OT   DOUB  13
+AYA  CT   CM   SING  14
+AYA  CM   1HM  SING  15
+AYA  CM   2HM  SING  16
+AYA  CM   3HM  SING  17
+#

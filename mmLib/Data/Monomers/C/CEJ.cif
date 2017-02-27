@@ -1,0 +1,57 @@
+data_CEJ
+#
+_chem_comp.id                   CEJ
+_chem_comp.name                 CYCLOPENTANE-1,3-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        98.101
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CEJ  C1    .  C  0  5.497  17.355  -7.265  1  1 
+CEJ  O3    .  O  0  5.185  18.822  -9.139  1  2 
+CEJ  C2    .  C  0  5.694  18.637  -8.045  1  3 
+CEJ  C7    .  C  0  7.027  18.893  -6.183  1  4 
+CEJ  C5    .  C  0  6.399  17.526  -6.008  1  5 
+CEJ  O8    .  O  0  7.844  19.347  -5.392  1  6 
+CEJ  C10   .  C  0  6.612  19.623  -7.414  1  7 
+CEJ  1H1C  .  H  0  5.702  16.429  -7.851  0  8 
+CEJ  2H1C  .  H  0  4.432  17.121  -7.034  0  9 
+CEJ  1H5C  .  H  0  7.134  16.701  -5.858  0  10
+CEJ  2H5C  .  H  0  5.863  17.39   -5.04   0  11
+CEJ  1H10  .  H  0  6.179  20.636  -7.244  0  12
+CEJ  2H10  .  H  0  7.447  19.979  -8.061  0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CEJ  C1   C2    SING  1 
+CEJ  C1   C5    SING  2 
+CEJ  C1   1H1C  SING  3 
+CEJ  C1   2H1C  SING  4 
+CEJ  O3   C2    DOUB  5 
+CEJ  C2   C10   SING  6 
+CEJ  C7   C5    SING  7 
+CEJ  C7   O8    DOUB  8 
+CEJ  C7   C10   SING  9 
+CEJ  C5   1H5C  SING  10
+CEJ  C5   2H5C  SING  11
+CEJ  C10  1H10  SING  12
+CEJ  C10  2H10  SING  13
+#

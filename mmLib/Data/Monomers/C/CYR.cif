@@ -1,0 +1,68 @@
+data_CYR
+#
+_chem_comp.id                       CYR
+_chem_comp.name                     N~5~-[{[(2R)-2-AMINO-2-CARBOXYETHYL]SULFANYL}(IMINIO)METHYL]-L-ORNITHINATE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 N4 O4 S1'
+_chem_comp.pdbx_synonyms            L-CYSTEIN-S-1-(IMINOMETHYL)-L-ORNITHINE
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           260.183
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYR  O1   .  O  -1  29.580  48.993  0.445   1  1 
+CYR  C1   .  C  0   28.740  49.857  0.713   1  2 
+CYR  O2   .  O  0   28.132  50.409  -0.196  1  3 
+CYR  C2   .  C  0   28.469  50.228  2.172   1  4 
+CYR  N2   .  N  1   28.160  51.663  2.246   1  5 
+CYR  C3   .  C  0   27.292  49.405  2.696   1  6 
+CYR  C4   .  C  0   27.705  47.942  2.879   1  7 
+CYR  C5   .  C  0   26.567  47.099  3.457   1  8 
+CYR  N6   .  N  0   27.077  45.749  3.736   1  9 
+CYR  C7   .  C  0   25.984  44.875  4.187   1  10
+CYR  N7   .  N  1   26.488  43.504  4.352   1  11
+CYR  SG   .  S  0   25.174  45.453  5.727   1  12
+CYR  CB   .  C  0   26.544  45.857  6.872   1  13
+CYR  CA   .  C  0   27.066  44.649  7.653   1  14
+CYR  C    .  C  0   28.329  45.065  8.359   1  15
+CYR  O    .  O  0   29.416  45.004  7.789   1  16
+CYR  N    .  N  0   26.059  44.144  8.582   1  17
+CYR  OXT  .  O  0   28.168  45.516  9.596   1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYR  O1  C1   SING  1 
+CYR  C1  C2   SING  2 
+CYR  C1  O2   DOUB  3 
+CYR  C2  N2   SING  4 
+CYR  C2  C3   SING  5 
+CYR  C3  C4   SING  6 
+CYR  C4  C5   SING  7 
+CYR  C5  N6   SING  8 
+CYR  N6  C7   SING  9 
+CYR  C7  N7   DOUB  10
+CYR  C7  SG   SING  11
+CYR  SG  CB   SING  12
+CYR  CB  CA   SING  13
+CYR  CA  N    SING  14
+CYR  CA  C    SING  15
+CYR  C   O    DOUB  16
+CYR  C   OXT  SING  17
+#

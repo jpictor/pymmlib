@@ -1,0 +1,116 @@
+data_CEP
+#
+_chem_comp.id                   CEP
+_chem_comp.name                 'CEPHALOTHIN GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H16 N2 O6 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        396.432
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CEP  S1    .  S  0  ?  ?  ?  1  1 
+CEP  C2    .  C  0  ?  ?  ?  1  2 
+CEP  C3    .  C  0  ?  ?  ?  1  3 
+CEP  C3'   .  C  0  ?  ?  ?  1  4 
+CEP  C2'   .  C  0  ?  ?  ?  1  5 
+CEP  O1'   .  O  0  ?  ?  ?  1  6 
+CEP  O2'   .  O  0  ?  ?  ?  1  7 
+CEP  C1'   .  C  0  ?  ?  ?  1  8 
+CEP  C4    .  C  0  ?  ?  ?  1  9 
+CEP  C4'   .  C  0  ?  ?  ?  1  10
+CEP  O4A   .  O  0  ?  ?  ?  1  11
+CEP  O4B   .  O  0  ?  ?  ?  1  12
+CEP  N5    .  N  0  ?  ?  ?  1  13
+CEP  C6    .  C  0  ?  ?  ?  1  14
+CEP  C7    .  C  0  ?  ?  ?  1  15
+CEP  C8    .  C  0  ?  ?  ?  1  16
+CEP  O9    .  O  0  ?  ?  ?  1  17
+CEP  N10   .  N  0  ?  ?  ?  1  18
+CEP  C11   .  C  0  ?  ?  ?  1  19
+CEP  O12   .  O  0  ?  ?  ?  1  20
+CEP  C13   .  C  0  ?  ?  ?  1  21
+CEP  C14   .  C  0  ?  ?  ?  1  22
+CEP  C15   .  C  0  ?  ?  ?  1  23
+CEP  C16   .  C  0  ?  ?  ?  1  24
+CEP  C17   .  C  0  ?  ?  ?  1  25
+CEP  S19   .  S  0  ?  ?  ?  1  26
+CEP  1H2   .  H  0  ?  ?  ?  0  27
+CEP  2H2   .  H  0  ?  ?  ?  0  28
+CEP  1H3'  .  H  0  ?  ?  ?  0  29
+CEP  2H3'  .  H  0  ?  ?  ?  0  30
+CEP  1H1'  .  H  0  ?  ?  ?  0  31
+CEP  2H1'  .  H  0  ?  ?  ?  0  32
+CEP  3H1'  .  H  0  ?  ?  ?  0  33
+CEP  HO4   .  H  0  ?  ?  ?  1  34
+CEP  H6    .  H  0  ?  ?  ?  1  35
+CEP  H7    .  H  0  ?  ?  ?  1  36
+CEP  HN1   .  H  0  ?  ?  ?  1  37
+CEP  1H13  .  H  0  ?  ?  ?  0  38
+CEP  2H13  .  H  0  ?  ?  ?  0  39
+CEP  H15   .  H  0  ?  ?  ?  1  40
+CEP  H16   .  H  0  ?  ?  ?  1  41
+CEP  H17   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CEP  S1   C2    SING  1 
+CEP  S1   C6    SING  2 
+CEP  C2   C3    SING  3 
+CEP  C2   1H2   SING  4 
+CEP  C2   2H2   SING  5 
+CEP  C3   C4    DOUB  6 
+CEP  C3   C3'   SING  7 
+CEP  C3'  C2'   SING  8 
+CEP  C3'  1H3'  SING  9 
+CEP  C3'  2H3'  SING  10
+CEP  C2'  O1'   DOUB  11
+CEP  C2'  O2'   SING  12
+CEP  O2'  C1'   SING  13
+CEP  C1'  1H1'  SING  14
+CEP  C1'  2H1'  SING  15
+CEP  C1'  3H1'  SING  16
+CEP  C4   N5    SING  17
+CEP  C4   C4'   SING  18
+CEP  C4'  O4A   DOUB  19
+CEP  C4'  O4B   SING  20
+CEP  O4B  HO4   SING  21
+CEP  N5   C6    SING  22
+CEP  C6   C7    SING  23
+CEP  C6   H6    SING  24
+CEP  C7   C8    SING  25
+CEP  C7   N10   SING  26
+CEP  C7   H7    SING  27
+CEP  C8   O9    DOUB  28
+CEP  N10  C11   SING  29
+CEP  N10  HN1   SING  30
+CEP  C11  C13   SING  31
+CEP  C11  O12   DOUB  32
+CEP  C13  C14   SING  33
+CEP  C13  1H13  SING  34
+CEP  C13  2H13  SING  35
+CEP  C14  C15   DOUB  36
+CEP  C14  S19   SING  37
+CEP  C15  C16   SING  38
+CEP  C15  H15   SING  39
+CEP  C16  C17   DOUB  40
+CEP  C16  H16   SING  41
+CEP  C17  S19   SING  42
+CEP  C17  H17   SING  43
+#

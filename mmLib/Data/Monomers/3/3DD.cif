@@ -1,0 +1,100 @@
+data_3DD
+#
+_chem_comp.id                   3DD
+_chem_comp.name                 '(2R,3R)-4-(4-AMINO-1H-IMIDAZO[4,5-C]PYRIDIN-1-YL)-2,3-DIHYDROXYBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N4 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        252.229
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          3DD
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cnc(c2c1N(C=N2)C[C@H]([C@H](C(=O)O)O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+3DD  N9    .  N  0  20.180  13.055  53.606  1  N  1 
+3DD  C8    .  C  0  19.557  11.882  53.316  1  N  2 
+3DD  N7    .  N  0  19.983  11.369  52.232  1  N  3 
+3DD  C5    .  C  0  20.918  12.150  51.715  1  Y  4 
+3DD  C6    .  C  0  21.747  12.088  50.532  1  Y  5 
+3DD  N6    .  N  0  21.645  11.029  49.649  1  N  6 
+3DD  N1    .  N  0  22.630  13.116  50.325  1  Y  7 
+3DD  C2    .  C  0  22.741  14.183  51.198  1  Y  8 
+3DD  C3    .  C  0  21.970  14.272  52.332  1  Y  9 
+3DD  C4    .  C  0  21.070  13.296  52.614  1  Y  10
+3DD  C1'   .  C  0  19.849  13.811  54.817  1  N  11
+3DD  C2'   .  C  0  19.007  15.044  54.589  1  N  12
+3DD  O2'   .  O  0  17.943  14.730  53.694  1  N  13
+3DD  C3'   .  C  0  18.415  15.574  55.938  1  N  14
+3DD  O3'   .  O  0  19.330  15.812  57.042  1  N  15
+3DD  C4'   .  C  0  17.667  16.809  55.665  1  N  16
+3DD  O4A   .  O  0  17.181  17.401  56.582  1  N  17
+3DD  O4B   .  O  0  17.529  17.267  54.392  1  N  18
+3DD  H8    .  H  0  18.790  11.438  53.933  1  N  19
+3DD  1HN6  .  H  0  21.620  11.377  48.712  0  N  20
+3DD  2HN6  .  H  0  22.435  10.426  49.760  0  N  21
+3DD  H2    .  H  0  23.452  14.967  50.983  1  N  22
+3DD  H3    .  H  0  22.080  15.116  52.997  1  N  23
+3DD  1H1'  .  H  0  19.287  13.142  55.485  0  N  24
+3DD  2H1'  .  H  0  20.804  14.160  55.236  0  N  25
+3DD  H2'   .  H  0  19.645  15.829  54.156  1  N  26
+3DD  HO2'  .  H  0  17.130  14.660  54.180  0  N  27
+3DD  H3'   .  H  0  17.792  14.742  56.298  1  N  28
+3DD  HO3'  .  H  0  20.219  15.864  56.711  0  N  29
+3DD  HO4A  .  H  0  16.730  18.172  56.258  0  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+3DD  N9   C4    SING  N  1 
+3DD  N9   C8    SING  N  2 
+3DD  N9   C1'   SING  N  3 
+3DD  C8   N7    DOUB  N  4 
+3DD  C8   H8    SING  N  5 
+3DD  N7   C5    SING  N  6 
+3DD  C5   C6    SING  Y  7 
+3DD  C5   C4    DOUB  Y  8 
+3DD  C6   N6    SING  N  9 
+3DD  C6   N1    DOUB  Y  10
+3DD  N6   1HN6  SING  N  11
+3DD  N6   2HN6  SING  N  12
+3DD  N1   C2    SING  Y  13
+3DD  C2   C3    DOUB  Y  14
+3DD  C2   H2    SING  N  15
+3DD  C3   C4    SING  Y  16
+3DD  C3   H3    SING  N  17
+3DD  C1'  C2'   SING  N  18
+3DD  C1'  1H1'  SING  N  19
+3DD  C1'  2H1'  SING  N  20
+3DD  C2'  O2'   SING  N  21
+3DD  C2'  C3'   SING  N  22
+3DD  C2'  H2'   SING  N  23
+3DD  O2'  HO2'  SING  N  24
+3DD  C3'  C4'   SING  N  25
+3DD  C3'  O3'   SING  N  26
+3DD  C3'  H3'   SING  N  27
+3DD  O3'  HO3'  SING  N  28
+3DD  C4'  O4B   DOUB  N  29
+3DD  C4'  O4A   SING  N  30
+3DD  O4A  HO4A  SING  N  31
+#

@@ -1,0 +1,106 @@
+data_MYF
+#
+_chem_comp.id                   MYF
+_chem_comp.name                 5,7-DIHYDROXY-2-(3,4,5-TRIHYDROXYPHENYL)-4H-CHROMEN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O7'
+_chem_comp.pdbx_synonyms        '2-(3,4,5-TRIHYDROXYPHENYL)-5,7-DIHYDROXY-4H-1-BENZOPYRAN-4-ONE; PENTAHYDROXYFLAVONE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.240
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MYF
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1c(cc(c(c1O)O)O)C2=CC(=O)c3c(cc(cc3O2)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MYF  O22   .  O  0  75.005  36.157  -2.571  1  N  1 
+MYF  C7    .  C  0  75.312  35.723  -1.482  1  N  2 
+MYF  C6    .  C  0  75.784  34.313  -1.284  1  Y  3 
+MYF  C1    .  C  0  75.925  33.287  -2.365  1  Y  4 
+MYF  O21   .  O  0  75.635  33.570  -3.634  1  N  5 
+MYF  C2    .  C  0  76.386  32.001  -2.043  1  Y  6 
+MYF  C3    .  C  0  76.708  31.664  -0.721  1  Y  7 
+MYF  O20   .  O  0  77.132  30.442  -0.421  1  N  8 
+MYF  C5    .  C  0  76.151  33.901  0.094   1  Y  9 
+MYF  C4    .  C  0  76.582  32.581  0.325   1  Y  10
+MYF  O10   .  O  0  76.052  34.812  1.130   1  N  11
+MYF  C9    .  C  0  75.607  36.169  0.881   1  N  12
+MYF  C8    .  C  0  75.228  36.618  -0.329  1  N  13
+MYF  C11   .  C  0  75.462  37.019  2.078   1  Y  14
+MYF  C12   .  C  0  75.292  38.397  1.926   1  Y  15
+MYF  C13   .  C  0  75.092  39.213  3.038   1  Y  16
+MYF  O19   .  O  0  74.969  40.525  2.832   1  N  17
+MYF  C14   .  C  0  75.026  38.597  4.406   1  Y  18
+MYF  O18   .  O  0  74.833  39.372  5.476   1  N  19
+MYF  C15   .  C  0  75.168  37.102  4.514   1  Y  20
+MYF  C16   .  C  0  75.374  36.374  3.327   1  Y  21
+MYF  O17   .  O  0  75.091  36.474  5.704   1  N  22
+MYF  HO21  .  H  0  74.693  33.637  -3.737  0  N  23
+MYF  H2    .  H  0  76.494  31.262  -2.823  1  N  24
+MYF  HO20  .  H  0  77.233  29.937  -1.219  0  N  25
+MYF  H4    .  H  0  76.820  32.271  1.332   1  N  26
+MYF  H8    .  H  0  74.866  37.628  -0.447  1  N  27
+MYF  H12   .  H  0  75.316  38.834  0.939   1  N  28
+MYF  HO19  .  H  0  74.940  40.976  3.668   0  N  29
+MYF  HO18  .  H  0  74.787  38.831  6.255   0  N  30
+MYF  H16   .  H  0  75.466  35.299  3.375   1  N  31
+MYF  HO17  .  H  0  75.073  35.534  5.566   0  N  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MYF  O22  C7    DOUB  N  1 
+MYF  C7   C6    SING  N  2 
+MYF  C7   C8    SING  N  3 
+MYF  C6   C1    SING  Y  4 
+MYF  C6   C5    DOUB  Y  5 
+MYF  C1   O21   SING  N  6 
+MYF  C1   C2    DOUB  Y  7 
+MYF  O21  HO21  SING  N  8 
+MYF  C2   C3    SING  Y  9 
+MYF  C2   H2    SING  N  10
+MYF  C3   O20   SING  N  11
+MYF  C3   C4    DOUB  Y  12
+MYF  O20  HO20  SING  N  13
+MYF  C5   C4    SING  Y  14
+MYF  C5   O10   SING  N  15
+MYF  C4   H4    SING  N  16
+MYF  O10  C9    SING  N  17
+MYF  C9   C8    DOUB  N  18
+MYF  C9   C11   SING  N  19
+MYF  C8   H8    SING  N  20
+MYF  C11  C12   DOUB  Y  21
+MYF  C11  C16   SING  Y  22
+MYF  C12  C13   SING  Y  23
+MYF  C12  H12   SING  N  24
+MYF  C13  O19   SING  N  25
+MYF  C13  C14   DOUB  Y  26
+MYF  O19  HO19  SING  N  27
+MYF  C14  C15   SING  Y  28
+MYF  C14  O18   SING  N  29
+MYF  O18  HO18  SING  N  30
+MYF  C15  C16   DOUB  Y  31
+MYF  C15  O17   SING  N  32
+MYF  C16  H16   SING  N  33
+MYF  O17  HO17  SING  N  34
+#

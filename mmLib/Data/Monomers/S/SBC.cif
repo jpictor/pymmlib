@@ -1,0 +1,109 @@
+data_SBC
+#
+_chem_comp.id                   SBC
+_chem_comp.name                 1-[4-(AMINOSULFONYL)PHENYL]-1,6-DIHYDROPYRAZOLO[3,4-E]INDAZOLE-3-CARBOXAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H12 N6 O3 S1'
+_chem_comp.pdbx_synonyms        '1-(4-SULFAMOYL-PHENYL)-1,4,5,6-TETRAHYDRO-BENZO-DIPYRAZOLE-3-CARBOXYLIC ACID AMIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        356.358
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBC  C1    .  C  0  -8.448   205.066  115.172  1  1 
+SBC  C2    .  C  0  -9.739   204.564  114.857  1  2 
+SBC  C3    .  C  0  -10.755  205.459  114.388  1  3 
+SBC  C4    .  C  0  -10.435  206.848  114.255  1  4 
+SBC  C5    .  C  0  -9.161   207.338  114.565  1  5 
+SBC  C6    .  C  0  -8.183   206.449  115.019  1  6 
+SBC  N7    .  N  0  -11.951  205.049  114.095  1  7 
+SBC  C8    .  C  0  -12.59   204.998  112.8    1  8 
+SBC  C9    .  C  0  -13.905  204.487  113.017  1  9 
+SBC  C10   .  C  0  -14.026  204.248  114.402  1  10
+SBC  N11   .  N  0  -12.826  204.597  115.024  1  11
+SBC  C12   .  C  0  -12.143  205.361  111.424  1  12
+SBC  C13   .  C  0  -14.857  204.118  111.824  1  13
+SBC  C14   .  C  0  -14.44   204.689  110.42   1  14
+SBC  C15   .  C  0  -12.98   205.225  110.312  1  15
+SBC  C16   .  C  0  -10.941  205.869  110.942  1  16
+SBC  N17   .  N  0  -12.288  205.645  109.206  1  17
+SBC  N18   .  N  0  -11.056  206.034  109.581  1  18
+SBC  C19   .  C  0  -15.265  203.697  115.144  1  19
+SBC  N20   .  N  0  -15.203  203.536  116.466  1  20
+SBC  O21   .  O  0  -16.308  203.405  114.552  1  21
+SBC  S22   .  S  0  -6.621   207.082  115.397  1  22
+SBC  O23   .  O  0  -6.696   208.066  116.754  1  23
+SBC  O24   .  O  0  -5.595   205.899  115.619  1  24
+SBC  N25   .  N  0  -6.067   208.042  114.076  1  25
+SBC  H1    .  H  0  -7.659   204.385  115.533  1  26
+SBC  H2    .  H  0  -9.958   203.489  114.973  1  27
+SBC  H4    .  H  0  -11.21   207.548  113.9    1  28
+SBC  H5    .  H  0  -8.932   208.411  114.452  1  29
+SBC  H13   .  H  0  -15.759  203.499  111.962  1  30
+SBC  H16   .  H  0  -10.048  206.1    111.547  1  31
+SBC  H14   .  H  0  -15.137  204.709  109.565  1  32
+SBC  H17   .  H  0  -12.649  205.66   108.252  1  33
+SBC  1H20  .  H  0  -16.021  203.172  116.956  0  34
+SBC  2H20  .  H  0  -14.341  203.777  116.955  0  35
+SBC  1H25  .  H  0  -5.145   208.416  114.299  0  36
+SBC  2H25  .  H  0  -6.021   207.444  113.251  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBC  C1   C2    AROM  1 
+SBC  C1   C6    AROM  2 
+SBC  C1   H1    SING  3 
+SBC  C2   C3    AROM  4 
+SBC  C2   H2    SING  5 
+SBC  C3   C4    AROM  6 
+SBC  C3   N7    SING  7 
+SBC  C4   C5    AROM  8 
+SBC  C4   H4    SING  9 
+SBC  C5   C6    AROM  10
+SBC  C5   H5    SING  11
+SBC  C6   S22   SING  12
+SBC  N7   C8    SING  13
+SBC  N7   N11   SING  14
+SBC  C8   C9    AROM  15
+SBC  C8   C12   AROM  16
+SBC  C9   C10   SING  17
+SBC  C9   C13   AROM  18
+SBC  C10  N11   DOUB  19
+SBC  C10  C19   SING  20
+SBC  C12  C15   AROM  21
+SBC  C12  C16   SING  22
+SBC  C13  C14   AROM  23
+SBC  C13  H13   SING  24
+SBC  C14  C15   AROM  25
+SBC  C14  H14   SING  26
+SBC  C15  N17   SING  27
+SBC  C16  N18   DOUB  28
+SBC  C16  H16   SING  29
+SBC  N17  N18   SING  30
+SBC  N17  H17   SING  31
+SBC  C19  N20   SING  32
+SBC  C19  O21   DOUB  33
+SBC  N20  1H20  SING  34
+SBC  N20  2H20  SING  35
+SBC  S22  O23   DOUB  36
+SBC  S22  O24   DOUB  37
+SBC  S22  N25   SING  38
+SBC  N25  1H25  SING  39
+SBC  N25  2H25  SING  40
+#

@@ -1,0 +1,85 @@
+data_GIR
+#
+_chem_comp.id                   GIR
+_chem_comp.name                 GIRODAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C6 H11 N4 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        190.632
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          GIR
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1=C(NC(=N1)N)[C@@H]([C@H](CN)Cl)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+GIR  N1    .  N   0  68.290  85.459  70.334  1  N  1 
+GIR  C2    .  C   0  68.266  83.998  70.164  1  N  2 
+GIR  C3    .  C   0  66.942  83.556  69.534  1  N  3 
+GIR  CL1   .  CL  0  65.560  84.038  70.562  0  N  4 
+GIR  C4    .  C   0  66.936  82.040  69.312  1  N  5 
+GIR  O5    .  O   0  66.975  81.369  70.575  1  N  6 
+GIR  C6    .  C   0  65.655  81.644  68.576  1  N  7 
+GIR  N7    .  N   0  65.218  82.231  67.465  1  N  8 
+GIR  C8    .  C   0  64.781  80.732  68.998  1  N  9 
+GIR  N9    .  N   0  63.759  80.747  68.143  1  N  10
+GIR  C10   .  C   0  64.039  81.665  67.219  1  N  11
+GIR  N11   .  N   0  63.228  82.026  66.227  1  N  12
+GIR  1HN1  .  H   0  68.295  85.682  71.309  0  N  13
+GIR  2HN1  .  H   0  69.112  85.831  69.903  0  N  14
+GIR  1H2   .  H   0  69.096  83.697  69.508  0  N  15
+GIR  2H2   .  H   0  68.369  83.522  71.150  0  N  16
+GIR  H3    .  H   0  66.840  84.056  68.559  1  N  17
+GIR  H4    .  H   0  67.815  81.755  68.716  1  N  18
+GIR  HO5   .  H   0  66.984  80.429  70.435  1  N  19
+GIR  HN7   .  H   0  65.676  82.942  66.931  1  N  20
+GIR  H8    .  H   0  64.881  80.100  69.868  1  N  21
+GIR  1H11  .  H   0  63.662  82.754  65.696  0  N  22
+GIR  2H11  .  H   0  62.328  81.632  66.042  0  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+GIR  N1   C2    SING  N  1 
+GIR  N1   1HN1  SING  N  2 
+GIR  N1   2HN1  SING  N  3 
+GIR  C2   C3    SING  N  4 
+GIR  C2   1H2   SING  N  5 
+GIR  C2   2H2   SING  N  6 
+GIR  C3   CL1   SING  N  7 
+GIR  C3   C4    SING  N  8 
+GIR  C3   H3    SING  N  9 
+GIR  C4   O5    SING  N  10
+GIR  C4   C6    SING  N  11
+GIR  C4   H4    SING  N  12
+GIR  O5   HO5   SING  N  13
+GIR  C6   N7    SING  N  14
+GIR  C6   C8    DOUB  N  15
+GIR  N7   C10   SING  N  16
+GIR  N7   HN7   SING  N  17
+GIR  C8   N9    SING  N  18
+GIR  C8   H8    SING  N  19
+GIR  N9   C10   DOUB  N  20
+GIR  C10  N11   SING  N  21
+GIR  N11  1H11  SING  N  22
+GIR  N11  2H11  SING  N  23
+#

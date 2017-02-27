@@ -1,0 +1,109 @@
+data_CED
+#
+_chem_comp.id                   CED
+_chem_comp.name                 '5-METHYL-2-[2-OXO-1-(2-THIOPHEN-2-YL-ACETYLAMINO)-ETHYL]-3,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O4 S2'
+_chem_comp.pdbx_synonyms        'DEGRADED CEPHALORIDINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.411
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CED  S1    .  S  0  ?  ?  ?  1  1 
+CED  C2    .  C  0  ?  ?  ?  1  2 
+CED  C3    .  C  0  ?  ?  ?  1  3 
+CED  C3'   .  C  0  ?  ?  ?  1  4 
+CED  C4    .  C  0  ?  ?  ?  1  5 
+CED  C4'   .  C  0  ?  ?  ?  1  6 
+CED  O4A   .  O  0  ?  ?  ?  1  7 
+CED  O4B   .  O  0  ?  ?  ?  1  8 
+CED  N5    .  N  0  ?  ?  ?  1  9 
+CED  C6    .  C  0  ?  ?  ?  1  10
+CED  C7    .  C  0  ?  ?  ?  1  11
+CED  C8    .  C  0  ?  ?  ?  1  12
+CED  O9    .  O  0  ?  ?  ?  1  13
+CED  N10   .  N  0  ?  ?  ?  1  14
+CED  C11   .  C  0  ?  ?  ?  1  15
+CED  O12   .  O  0  ?  ?  ?  1  16
+CED  C13   .  C  0  ?  ?  ?  1  17
+CED  C14   .  C  0  ?  ?  ?  1  18
+CED  C15   .  C  0  ?  ?  ?  1  19
+CED  C16   .  C  0  ?  ?  ?  1  20
+CED  C17   .  C  0  ?  ?  ?  1  21
+CED  S19   .  S  0  ?  ?  ?  1  22
+CED  1H2   .  H  0  ?  ?  ?  0  23
+CED  2H2   .  H  0  ?  ?  ?  0  24
+CED  1H3'  .  H  0  ?  ?  ?  0  25
+CED  2H3'  .  H  0  ?  ?  ?  0  26
+CED  3H3'  .  H  0  ?  ?  ?  0  27
+CED  HO4   .  H  0  ?  ?  ?  1  28
+CED  H6    .  H  0  ?  ?  ?  1  29
+CED  H7    .  H  0  ?  ?  ?  1  30
+CED  H8    .  H  0  ?  ?  ?  1  31
+CED  HN1   .  H  0  ?  ?  ?  1  32
+CED  HN5   .  H  0  ?  ?  ?  1  33
+CED  1H13  .  H  0  ?  ?  ?  0  34
+CED  2H13  .  H  0  ?  ?  ?  0  35
+CED  H15   .  H  0  ?  ?  ?  1  36
+CED  H16   .  H  0  ?  ?  ?  1  37
+CED  H17   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CED  S1   C2    SING  1 
+CED  S1   C6    SING  2 
+CED  C2   C3    SING  3 
+CED  C2   1H2   SING  4 
+CED  C2   2H2   SING  5 
+CED  C3   C4    DOUB  6 
+CED  C3   C3'   SING  7 
+CED  C3'  1H3'  SING  8 
+CED  C3'  2H3'  SING  9 
+CED  C3'  3H3'  SING  10
+CED  C4   N5    SING  11
+CED  C4   C4'   SING  12
+CED  C4'  O4A   DOUB  13
+CED  C4'  O4B   SING  14
+CED  O4B  HO4   SING  15
+CED  N5   HN5   SING  16
+CED  N5   C6    SING  17
+CED  C6   C7    SING  18
+CED  C6   H6    SING  19
+CED  C7   C8    SING  20
+CED  C7   N10   SING  21
+CED  C7   H7    SING  22
+CED  C8   H8    SING  23
+CED  C8   O9    DOUB  24
+CED  N10  C11   SING  25
+CED  N10  HN1   SING  26
+CED  C11  C13   SING  27
+CED  C11  O12   DOUB  28
+CED  C13  C14   SING  29
+CED  C13  1H13  SING  30
+CED  C13  2H13  SING  31
+CED  C14  C15   DOUB  32
+CED  C14  S19   SING  33
+CED  C15  C16   SING  34
+CED  C15  H15   SING  35
+CED  C16  C17   DOUB  36
+CED  C16  H16   SING  37
+CED  C17  S19   SING  38
+CED  C17  H17   SING  39
+#

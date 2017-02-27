@@ -1,0 +1,72 @@
+data_DXG
+#
+_chem_comp.id                   DXG
+_chem_comp.name                 4-DEOXYGLUCARATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H8 O7'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       192.125
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DXG  O1B   .  O  0   ?  ?  ?  1  1 
+DXG  O1A   .  O  -1  ?  ?  ?  1  2 
+DXG  C1    .  C  0   ?  ?  ?  1  3 
+DXG  C2    .  C  0   ?  ?  ?  1  4 
+DXG  O2    .  O  0   ?  ?  ?  1  5 
+DXG  C3    .  C  0   ?  ?  ?  1  6 
+DXG  O3    .  O  0   ?  ?  ?  1  7 
+DXG  C4    .  C  0   ?  ?  ?  1  8 
+DXG  O5    .  O  0   ?  ?  ?  1  9 
+DXG  C5    .  C  0   ?  ?  ?  1  10
+DXG  C6    .  C  0   ?  ?  ?  1  11
+DXG  O6A   .  O  0   ?  ?  ?  1  12
+DXG  O6B   .  O  -1  ?  ?  ?  1  13
+DXG  1H4   .  H  0   ?  ?  ?  0  14
+DXG  2H4   .  H  0   ?  ?  ?  0  15
+DXG  1H3   .  H  0   ?  ?  ?  0  16
+DXG  1HO3  .  H  0   ?  ?  ?  0  17
+DXG  1HO2  .  H  0   ?  ?  ?  0  18
+DXG  1H2   .  H  0   ?  ?  ?  0  19
+DXG  1HO5  .  H  0   ?  ?  ?  0  20
+DXG  1H5   .  H  0   ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DXG  O1B  C1    DOUB  1 
+DXG  O1A  C1    SING  2 
+DXG  C1   C2    SING  3 
+DXG  C2   O2    SING  4 
+DXG  C2   C3    SING  5 
+DXG  C2   1H2   SING  6 
+DXG  O2   1HO2  SING  7 
+DXG  C3   O3    SING  8 
+DXG  C3   C4    SING  9 
+DXG  C3   1H3   SING  10
+DXG  O3   1HO3  SING  11
+DXG  C4   C5    SING  12
+DXG  C4   1H4   SING  13
+DXG  C4   2H4   SING  14
+DXG  O5   C5    SING  15
+DXG  O5   1HO5  SING  16
+DXG  C5   C6    SING  17
+DXG  C5   1H5   SING  18
+DXG  C6   O6A   DOUB  19
+DXG  C6   O6B   SING  20
+#

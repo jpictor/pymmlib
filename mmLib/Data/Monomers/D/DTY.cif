@@ -1,0 +1,80 @@
+data_DTY
+#
+_chem_comp.id                       DTY
+_chem_comp.name                     D-TYROSINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H11 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            181.191
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTY  N    .  N  0  ?  ?  ?  1  1 
+DTY  CA   .  C  0  ?  ?  ?  1  2 
+DTY  C    .  C  0  ?  ?  ?  1  3 
+DTY  O    .  O  0  ?  ?  ?  1  4 
+DTY  CB   .  C  0  ?  ?  ?  1  5 
+DTY  CG   .  C  0  ?  ?  ?  1  6 
+DTY  CD1  .  C  0  ?  ?  ?  1  7 
+DTY  CD2  .  C  0  ?  ?  ?  1  8 
+DTY  CE1  .  C  0  ?  ?  ?  1  9 
+DTY  CE2  .  C  0  ?  ?  ?  1  10
+DTY  CZ   .  C  0  ?  ?  ?  1  11
+DTY  OH   .  O  0  ?  ?  ?  1  12
+DTY  OXT  .  O  0  ?  ?  ?  1  13
+DTY  H    .  H  0  ?  ?  ?  1  14
+DTY  HN2  .  H  0  ?  ?  ?  1  15
+DTY  HA   .  H  0  ?  ?  ?  1  16
+DTY  1HB  .  H  0  ?  ?  ?  0  17
+DTY  2HB  .  H  0  ?  ?  ?  0  18
+DTY  HD1  .  H  0  ?  ?  ?  1  19
+DTY  HD2  .  H  0  ?  ?  ?  1  20
+DTY  HE1  .  H  0  ?  ?  ?  1  21
+DTY  HE2  .  H  0  ?  ?  ?  1  22
+DTY  HH   .  H  0  ?  ?  ?  1  23
+DTY  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTY  N    CA   SING  1 
+DTY  N    H    SING  2 
+DTY  N    HN2  SING  3 
+DTY  CA   C    SING  4 
+DTY  CA   CB   SING  5 
+DTY  CA   HA   SING  6 
+DTY  C    O    DOUB  7 
+DTY  C    OXT  SING  8 
+DTY  CB   CG   SING  9 
+DTY  CB   1HB  SING  10
+DTY  CB   2HB  SING  11
+DTY  CG   CD1  DOUB  12
+DTY  CG   CD2  SING  13
+DTY  CD1  CE1  SING  14
+DTY  CD1  HD1  SING  15
+DTY  CD2  CE2  DOUB  16
+DTY  CD2  HD2  SING  17
+DTY  CE1  CZ   DOUB  18
+DTY  CE1  HE1  SING  19
+DTY  CE2  CZ   SING  20
+DTY  CE2  HE2  SING  21
+DTY  CZ   OH   SING  22
+DTY  OH   HH   SING  23
+DTY  OXT  HXT  SING  24
+#

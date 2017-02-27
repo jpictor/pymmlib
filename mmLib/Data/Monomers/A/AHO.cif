@@ -1,0 +1,86 @@
+data_AHO
+#
+_chem_comp.id                       AHO
+_chem_comp.name                     N-ACETYL-N-HYDROXY-L-ORNITHINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H14 N2 O4'
+_chem_comp.pdbx_synonyms            '5-(ACETYL-HYDROXY-AMINO)-2-AMINO-PENTANOIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            190.199
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHO  C1    .  C  0  ?  ?  ?  1  1 
+AHO  C2    .  C  0  ?  ?  ?  1  2 
+AHO  C3    .  C  0  ?  ?  ?  1  3 
+AHO  C4    .  C  0  ?  ?  ?  1  4 
+AHO  C5    .  C  0  ?  ?  ?  1  5 
+AHO  C6    .  C  0  ?  ?  ?  1  6 
+AHO  C7    .  C  0  ?  ?  ?  1  7 
+AHO  N1    .  N  0  ?  ?  ?  1  8 
+AHO  N2    .  N  0  ?  ?  ?  1  9 
+AHO  O1    .  O  0  ?  ?  ?  1  10
+AHO  O2    .  O  0  ?  ?  ?  1  11
+AHO  O3    .  O  0  ?  ?  ?  1  12
+AHO  O4    .  O  0  ?  ?  ?  1  13
+AHO  1HN1  .  H  0  ?  ?  ?  0  14
+AHO  2HN1  .  H  0  ?  ?  ?  0  15
+AHO  1HC2  .  H  0  ?  ?  ?  0  16
+AHO  1HC3  .  H  0  ?  ?  ?  0  17
+AHO  2HC3  .  H  0  ?  ?  ?  0  18
+AHO  1HC4  .  H  0  ?  ?  ?  0  19
+AHO  2HC4  .  H  0  ?  ?  ?  0  20
+AHO  1HC5  .  H  0  ?  ?  ?  0  21
+AHO  2HC5  .  H  0  ?  ?  ?  0  22
+AHO  1HO2  .  H  0  ?  ?  ?  0  23
+AHO  1HC7  .  H  0  ?  ?  ?  0  24
+AHO  2HC7  .  H  0  ?  ?  ?  0  25
+AHO  3HC7  .  H  0  ?  ?  ?  0  26
+AHO  HO4   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHO  C1  C2    SING  1 
+AHO  C1  O1    DOUB  2 
+AHO  C1  O4    SING  3 
+AHO  C2  C3    SING  4 
+AHO  C2  N1    SING  5 
+AHO  C2  1HC2  SING  6 
+AHO  C3  C4    SING  7 
+AHO  C3  1HC3  SING  8 
+AHO  C3  2HC3  SING  9 
+AHO  C4  C5    SING  10
+AHO  C4  1HC4  SING  11
+AHO  C4  2HC4  SING  12
+AHO  C5  N2    SING  13
+AHO  C5  1HC5  SING  14
+AHO  C5  2HC5  SING  15
+AHO  C6  C7    SING  16
+AHO  C6  N2    SING  17
+AHO  C6  O3    DOUB  18
+AHO  C7  1HC7  SING  19
+AHO  C7  2HC7  SING  20
+AHO  C7  3HC7  SING  21
+AHO  N1  1HN1  SING  22
+AHO  N1  2HN1  SING  23
+AHO  N2  O2    SING  24
+AHO  O2  1HO2  SING  25
+AHO  O4  HO4   SING  26
+#

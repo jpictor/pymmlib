@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.StructureBuilder.StructureBuilder</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        <a href="mmLib.StructureBuilder-module.html">Module&nbsp;StructureBuilder</a> ::
+        Class&nbsp;StructureBuilder
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.StructureBuilder.StructureBuilder-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class StructureBuilder</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder">source&nbsp;code</a></span></p>
+<pre class="base-tree">
+object --+
+         |
+        <strong class="uidshort">StructureBuilder</strong>
+</pre>
+
+<dl><dt>Known Subclasses:</dt>
+<dd>
+      <ul class="subclass-list">
+<li><a href="mmLib.CIFBuilder.CIFStructureBuilder-class.html">CIFBuilder.CIFStructureBuilder</a></li><li>, <a href="mmLib.mmCIFBuilder.mmCIFStructureBuilder-class.html">mmCIFBuilder.mmCIFStructureBuilder</a></li><li>, <a href="mmLib.PDBBuilder.PDBStructureBuilder-class.html">PDBBuilder.PDBStructureBuilder</a></li>  </ul>
+</dd></dl>
+
+<hr />
+<p>Builder class for the mmLib.Structure object hierarchy. 
+  StructureBuilder must be subclassed with a working parse_format() method 
+  to implement a working builder.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sequence_from_structure</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">library_bonds</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">distance_bonds</span>=<span class="summary-sig-default">False</span>,
+        <span class="summary-sig-arg">auto_sort</span>=<span class="summary-sig-default">True</span>,
+        <span class="summary-sig-arg">**args</span>)</span><br />
+      x.__init__(...) initializes x; see x.__class__.__doc__ for signature</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_start" class="summary-sig-name">read_start</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">fil</span>)</span><br />
+      This methods needs to be reimplemented in a functional subclass.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_start">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_start_finalize" class="summary-sig-name">read_start_finalize</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Called after the read_start method.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_start_finalize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_atoms" class="summary-sig-name">read_atoms</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      This method needs to be reimplemented in a functional subclass.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_atoms">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#load_atom" class="summary-sig-name">load_atom</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">atm_map</span>)</span><br />
+      Called repeatedly by the implementation of read_atoms to load all the
+      data for a single atom.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_atom">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#name_service" class="summary-sig-name">name_service</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Runs the name service on all atoms needing to be named.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.name_service">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="read_atoms_finalize"></a><span class="summary-sig-name">read_atoms_finalize</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      After loading all atom records, use the list of atom records to build
+      the structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_atoms_finalize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_metadata" class="summary-sig-name">read_metadata</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      This method needs to be reimplemented in a functional subclass.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_metadata">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="load_structure_id"></a><span class="summary-sig-name">load_structure_id</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">structure_id</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_structure_id">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="load_unit_cell"></a><span class="summary-sig-name">load_unit_cell</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">ucell_map</span>)</span><br />
+      Called by the implementation of load_metadata to load the unit cell 
+      parameters for the structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_unit_cell">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#load_bonds" class="summary-sig-name">load_bonds</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">bond_map</span>)</span><br />
+      Call by the implementation of load_metadata to load bond 
+information on the structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_bonds">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="load_sequence"></a><span class="summary-sig-name">load_sequence</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">sequence_map</span>)</span><br />
+      The sequence map contains the following keys: chain_id: the chain ID 
+      fo the sequence; num_res: the number of residues in the sequence; 
+      sequence_list: a list of 3-letter codes of the residues in the 
+      sequence.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_sequence">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#load_alpha_helicies" class="summary-sig-name">load_alpha_helicies</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">helix_list</span>)</span><br />
+      The argument helix_list is a list of Python dictionaries with
+information to build build AlphaHelix objects into the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_alpha_helicies">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#load_beta_sheets" class="summary-sig-name">load_beta_sheets</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">beta_sheet_list</span>)</span><br />
+      The argument beta_sheet_list is a list of Python dictionaries with
+information to build build BetaSheet objects into the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_beta_sheets">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="load_sites"></a><span class="summary-sig-name">load_sites</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">site_list</span>)</span><br />
+      The argument site_list is a list of Python dictionaries with 
+      information to build build Site objects into the Structure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_sites">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="read_metadata_finalize"></a><span class="summary-sig-name">read_metadata_finalize</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Called after the the metadata loading is complete.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_metadata_finalize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_end" class="summary-sig-name">read_end</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      This method needs to be reimplemented in a functional subclass.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_end">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.StructureBuilder.StructureBuilder-class.html#read_end_finalize" class="summary-sig-name">read_end_finalize</a>(<span class="summary-sig-arg">self</span>)</span><br />
+      Called for final cleanup after structure source reading is done.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_end_finalize">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">sequence_from_structure</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">library_bonds</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">distance_bonds</span>=<span class="sig-default">False</span>,
+        <span class="sig-arg">auto_sort</span>=<span class="sig-default">True</span>,
+        <span class="sig-arg">**args</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>x.__init__(...) initializes x; see x.__class__.__doc__ for 
+  signature</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__init__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_start"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_start</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">fil</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_start">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This methods needs to be reimplemented in a functional subclass. This 
+  function is called with the file object (or any other object passed in to
+  build a Structure from) to begin the reading process. This is usually 
+  used to open the source file.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_start_finalize"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_start_finalize</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_start_finalize">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Called after the read_start method. Does nothing currently, but may be
+  used in the future.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_atoms"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_atoms</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_atoms">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This method needs to be reimplemented in a functional subclass. The 
+  subclassed read_atoms method should call load_atom once for every atom in
+  the structure, and should not call any other load_* methods.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="load_atom"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">load_atom</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">atm_map</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_atom">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Called repeatedly by the implementation of read_atoms to load all the 
+  data for a single atom. The data is contained in the atm_map argument, 
+  and is not well documented at this point. Look at this function and 
+  you'll figure it out.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="name_service"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">name_service</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.name_service">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Runs the name service on all atoms needing to be named. This is a 
+  complicated function which corrects most commonly found errors and 
+  omissions from PDB files.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_metadata"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_metadata</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_metadata">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This method needs to be reimplemented in a functional subclass. The 
+  subclassed read_metadata method should call the various load_* methods to
+  set non-atom coordinate data for the Structure.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="load_bonds"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">load_bonds</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">bond_map</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_bonds">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Call by the implementation of load_metadata to load bond 
+information on the structure. The keys of the bond map are a 2-tuple
+of the bonded Atom instances, and the value is a dictionary
+containing information on the type of bond, which may also
+be a symmetry operator.
+
+[bond_map]
+keys: (atm1, atm2)
+values: bond_data_map(s)
+
+[bond_data_map]
+bond_type -&gt; text description of bond type: covalent, salt bridge,
+             hydrogen, cispeptide
+
+atm1_symop -&gt; symmetry operation (if any) to be applied to atm1
+atm2_symop -&gt; same as above, for atom 2
+
+The symmetry operations themselves are a 3x4 array of floating point
+values composed of the 3x3 rotation matrix and the 3x1 translation.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="load_alpha_helicies"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">load_alpha_helicies</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">helix_list</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_alpha_helicies">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+The argument helix_list is a list of Python dictionaries with
+information to build build AlphaHelix objects into the Structure.
+
+The dictionary has attributes:
+    helix_id:    The ID of the helix
+    chain_id:    The chain_id where the helix is located
+    frag_id1:    The start fragment_id of the helix
+    frag_id2:    The end fragment_id of the helix
+    helix_class: The PDB helix class number
+    detaisl:     Text commont about the helix
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="load_beta_sheets"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">load_beta_sheets</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">beta_sheet_list</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.load_beta_sheets">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+The argument beta_sheet_list is a list of Python dictionaries with
+information to build build BetaSheet objects into the Structure.
+
+The dictionary has attributes:
+    sheet_id:    ID of the sheet
+    num_strands: total number of strands in the beta sheet
+    strand_list: list of dictionaries describing the strand with
+                 the following attributes:
+
+        chain_id1/frag_id1: chain_id and fragment_id of inital residue
+                            in the strand
+        chain_id2/frag_id2: chain_id and fragment_id of end residue
+                            in the strand
+        sense:              the sense of the strand with respect to the
+                            previous strand, either the string
+                            parallel or anti_parallel
+
+        reg_chain_id, reg_frag_id, reg_atom:
+                            registration atom in current strand
+        reg_prev_chain_id, reg_prev_frag_id, reg_prev_atom:
+                            registration atom in previous strand
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_end"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_end</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_end">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>This method needs to be reimplemented in a functional subclass. The 
+  subclassed read_end method can be used for any clean up from the file 
+  loading process you need, or may be left unimplemented.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="read_end_finalize"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">read_end_finalize</span>(<span class="sig-arg">self</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.StructureBuilder-pysrc.html#StructureBuilder.read_end_finalize">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Called for final cleanup after structure source reading is done. 
+  Currently, this method does nothing but may be used in future 
+  versions.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:16 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

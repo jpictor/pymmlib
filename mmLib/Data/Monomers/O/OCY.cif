@@ -1,0 +1,73 @@
+data_OCY
+#
+_chem_comp.id                       OCY
+_chem_comp.name                     HYDROXYETHYLCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            165.207
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OCY  N    .  N  0  ?  ?  ?  1  1 
+OCY  CA   .  C  0  ?  ?  ?  1  2 
+OCY  CB   .  C  0  ?  ?  ?  1  3 
+OCY  SG   .  S  0  ?  ?  ?  1  4 
+OCY  CD   .  C  0  ?  ?  ?  1  5 
+OCY  CE   .  C  0  ?  ?  ?  1  6 
+OCY  OZ   .  O  0  ?  ?  ?  1  7 
+OCY  C    .  C  0  ?  ?  ?  1  8 
+OCY  O    .  O  0  ?  ?  ?  1  9 
+OCY  OXT  .  O  0  ?  ?  ?  1  10
+OCY  1HN  .  H  0  ?  ?  ?  0  11
+OCY  2HN  .  H  0  ?  ?  ?  0  12
+OCY  HA   .  H  0  ?  ?  ?  1  13
+OCY  1HB  .  H  0  ?  ?  ?  0  14
+OCY  2HB  .  H  0  ?  ?  ?  0  15
+OCY  1HD  .  H  0  ?  ?  ?  0  16
+OCY  2HD  .  H  0  ?  ?  ?  0  17
+OCY  1HE  .  H  0  ?  ?  ?  0  18
+OCY  2HE  .  H  0  ?  ?  ?  0  19
+OCY  HOZ  .  H  0  ?  ?  ?  1  20
+OCY  HXT  .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OCY  N    CA   SING  1 
+OCY  N    1HN  SING  2 
+OCY  N    2HN  SING  3 
+OCY  CA   CB   SING  4 
+OCY  CA   C    SING  5 
+OCY  CA   HA   SING  6 
+OCY  CB   SG   SING  7 
+OCY  CB   1HB  SING  8 
+OCY  CB   2HB  SING  9 
+OCY  SG   CD   SING  10
+OCY  CD   CE   SING  11
+OCY  CD   1HD  SING  12
+OCY  CD   2HD  SING  13
+OCY  CE   OZ   SING  14
+OCY  CE   1HE  SING  15
+OCY  CE   2HE  SING  16
+OCY  OZ   HOZ  SING  17
+OCY  C    O    DOUB  18
+OCY  C    OXT  SING  19
+OCY  OXT  HXT  SING  20
+#

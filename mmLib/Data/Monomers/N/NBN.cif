@@ -1,0 +1,60 @@
+data_NBN
+#
+_chem_comp.id                   NBN
+_chem_comp.name                 'N-BUTYL ISOCYANIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        83.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NBN  C    .  C  -1  ?  ?  ?  1  1 
+NBN  N    .  N  1   ?  ?  ?  1  2 
+NBN  C1   .  C  0   ?  ?  ?  1  3 
+NBN  C2   .  C  0   ?  ?  ?  1  4 
+NBN  C3   .  C  0   ?  ?  ?  1  5 
+NBN  C4   .  C  0   ?  ?  ?  1  6 
+NBN  1H1  .  H  0   ?  ?  ?  0  7 
+NBN  2H1  .  H  0   ?  ?  ?  0  8 
+NBN  1H2  .  H  0   ?  ?  ?  0  9 
+NBN  2H2  .  H  0   ?  ?  ?  0  10
+NBN  1H3  .  H  0   ?  ?  ?  0  11
+NBN  2H3  .  H  0   ?  ?  ?  0  12
+NBN  1H4  .  H  0   ?  ?  ?  0  13
+NBN  2H4  .  H  0   ?  ?  ?  0  14
+NBN  3H4  .  H  0   ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NBN  C   N    TRIP  1 
+NBN  N   C1   SING  2 
+NBN  C1  C2   SING  3 
+NBN  C1  1H1  SING  4 
+NBN  C1  2H1  SING  5 
+NBN  C2  C3   SING  6 
+NBN  C2  1H2  SING  7 
+NBN  C2  2H2  SING  8 
+NBN  C3  C4   SING  9 
+NBN  C3  1H3  SING  10
+NBN  C3  2H3  SING  11
+NBN  C4  1H4  SING  12
+NBN  C4  2H4  SING  13
+NBN  C4  3H4  SING  14
+#

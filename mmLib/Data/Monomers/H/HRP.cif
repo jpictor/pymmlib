@@ -1,0 +1,87 @@
+data_HRP
+#
+_chem_comp.id                       HRP
+_chem_comp.name                     5-HYDROXY-L-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H11 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            219.219
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HRP  N    .  N  0  73.357  -9.583  8.142   1  1 
+HRP  CA   .  C  0  72.058  -9.146  7.922   1  2 
+HRP  CB   .  C  0  71.236  -8.903  9.075   1  3 
+HRP  CG   .  C  0  71.996  -7.854  9.902   1  4 
+HRP  CD1  .  C  0  71.427  -6.899  10.680  1  5 
+HRP  NE1  .  N  0  72.384  -6.160  11.328  1  6 
+HRP  CE2  .  C  0  73.604  -6.595  10.968  1  7 
+HRP  CZ2  .  C  0  74.856  -6.175  11.436  1  8 
+HRP  CH2  .  C  0  75.971  -6.798  10.923  1  9 
+HRP  CZ3  .  C  0  75.871  -7.918  10.037  1  10
+HRP  CE3  .  C  0  74.613  -8.357  9.607   1  11
+HRP  CD2  .  C  0  73.426  -7.744  10.159  1  12
+HRP  C    .  C  0  71.713  -9.507  6.511   1  13
+HRP  O    .  O  0  72.549  -9.928  5.781   1  14
+HRP  OXT  .  O  0  70.578  -8.925  6.209   1  15
+HRP  OX   .  O  0  76.904  -8.472  9.615   1  16
+HRP  HA   .  H  0  ?       ?       ?       1  17
+HRP  1HN  .  H  0  ?       ?       ?       0  18
+HRP  2HN  .  H  0  ?       ?       ?       0  19
+HRP  1HB  .  H  0  ?       ?       ?       0  20
+HRP  2HB  .  H  0  ?       ?       ?       0  21
+HRP  HD1  .  H  0  ?       ?       ?       1  22
+HRP  HE1  .  H  0  ?       ?       ?       1  23
+HRP  HZ2  .  H  0  ?       ?       ?       1  24
+HRP  HH2  .  H  0  ?       ?       ?       1  25
+HRP  HOX  .  H  0  ?       ?       ?       1  26
+HRP  HE3  .  H  0  ?       ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HRP  N    CA   SING  1 
+HRP  N    1HN  SING  2 
+HRP  N    2HN  SING  3 
+HRP  CA   CB   SING  4 
+HRP  CA   C    SING  5 
+HRP  CA   HA   SING  6 
+HRP  CB   CG   SING  7 
+HRP  CB   1HB  SING  8 
+HRP  CB   2HB  SING  9 
+HRP  CG   CD1  DOUB  10
+HRP  CG   CD2  SING  11
+HRP  CD1  NE1  SING  12
+HRP  CD1  HD1  SING  13
+HRP  NE1  CE2  SING  14
+HRP  NE1  HE1  SING  15
+HRP  CE2  CZ2  SING  16
+HRP  CE2  CD2  DOUB  17
+HRP  CZ2  CH2  DOUB  18
+HRP  CZ2  HZ2  SING  19
+HRP  CH2  CZ3  SING  20
+HRP  CH2  HH2  SING  21
+HRP  CZ3  OX   SING  22
+HRP  CZ3  CE3  DOUB  23
+HRP  CE3  CD2  SING  24
+HRP  CE3  HE3  SING  25
+HRP  C    O    DOUB  26
+HRP  C    OXT  SING  27
+HRP  OX   HOX  SING  28
+#

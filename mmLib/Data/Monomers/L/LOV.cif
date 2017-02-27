@@ -1,0 +1,112 @@
+data_LOV
+#
+_chem_comp.id                   LOV
+_chem_comp.name                 '5-AMINO-4-HYDROXY-2-ISOPROPYL-7-METHYL-OCTANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H25 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        231.334
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LOV  CD1   .  C  0  ?  ?  ?  1  1 
+LOV  CD2   .  C  0  ?  ?  ?  1  2 
+LOV  C1G   .  C  0  ?  ?  ?  1  3 
+LOV  C1B   .  C  0  ?  ?  ?  1  4 
+LOV  C1A   .  C  0  ?  ?  ?  1  5 
+LOV  CS    .  C  0  ?  ?  ?  1  6 
+LOV  N     .  N  0  ?  ?  ?  1  7 
+LOV  OS    .  O  0  ?  ?  ?  1  8 
+LOV  CT    .  C  0  ?  ?  ?  1  9 
+LOV  CA    .  C  0  ?  ?  ?  1  10
+LOV  CB    .  C  0  ?  ?  ?  1  11
+LOV  CG1   .  C  0  ?  ?  ?  1  12
+LOV  CG2   .  C  0  ?  ?  ?  1  13
+LOV  C     .  C  0  ?  ?  ?  1  14
+LOV  O     .  O  0  ?  ?  ?  1  15
+LOV  OXT   .  O  0  ?  ?  ?  1  16
+LOV  1HD1  .  H  0  ?  ?  ?  0  17
+LOV  2HD1  .  H  0  ?  ?  ?  0  18
+LOV  3HD1  .  H  0  ?  ?  ?  0  19
+LOV  1HD2  .  H  0  ?  ?  ?  0  20
+LOV  2HD2  .  H  0  ?  ?  ?  0  21
+LOV  3HD2  .  H  0  ?  ?  ?  0  22
+LOV  H1G   .  H  0  ?  ?  ?  1  23
+LOV  1H1B  .  H  0  ?  ?  ?  0  24
+LOV  2H1B  .  H  0  ?  ?  ?  0  25
+LOV  H1A   .  H  0  ?  ?  ?  1  26
+LOV  1HS   .  H  0  ?  ?  ?  0  27
+LOV  1HN   .  H  0  ?  ?  ?  0  28
+LOV  2HN   .  H  0  ?  ?  ?  0  29
+LOV  HOS   .  H  0  ?  ?  ?  1  30
+LOV  1HT   .  H  0  ?  ?  ?  0  31
+LOV  2HT   .  H  0  ?  ?  ?  0  32
+LOV  HA    .  H  0  ?  ?  ?  1  33
+LOV  HB    .  H  0  ?  ?  ?  1  34
+LOV  1HG1  .  H  0  ?  ?  ?  0  35
+LOV  2HG1  .  H  0  ?  ?  ?  0  36
+LOV  3HG1  .  H  0  ?  ?  ?  0  37
+LOV  1HG2  .  H  0  ?  ?  ?  0  38
+LOV  2HG2  .  H  0  ?  ?  ?  0  39
+LOV  3HG2  .  H  0  ?  ?  ?  0  40
+LOV  HXT   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LOV  CD1  C1G   SING  1 
+LOV  CD1  1HD1  SING  2 
+LOV  CD1  2HD1  SING  3 
+LOV  CD1  3HD1  SING  4 
+LOV  CD2  C1G   SING  5 
+LOV  CD2  1HD2  SING  6 
+LOV  CD2  2HD2  SING  7 
+LOV  CD2  3HD2  SING  8 
+LOV  C1G  C1B   SING  9 
+LOV  C1G  H1G   SING  10
+LOV  C1B  C1A   SING  11
+LOV  C1B  1H1B  SING  12
+LOV  C1B  2H1B  SING  13
+LOV  C1A  CS    SING  14
+LOV  C1A  N     SING  15
+LOV  C1A  H1A   SING  16
+LOV  CS   CT    SING  17
+LOV  CS   OS    SING  18
+LOV  CS   1HS   SING  19
+LOV  N    1HN   SING  20
+LOV  N    2HN   SING  21
+LOV  OS   HOS   SING  22
+LOV  CT   CA    SING  23
+LOV  CT   1HT   SING  24
+LOV  CT   2HT   SING  25
+LOV  CA   CB    SING  26
+LOV  CA   C     SING  27
+LOV  CA   HA    SING  28
+LOV  CB   CG1   SING  29
+LOV  CB   CG2   SING  30
+LOV  CB   HB    SING  31
+LOV  CG1  1HG1  SING  32
+LOV  CG1  2HG1  SING  33
+LOV  CG1  3HG1  SING  34
+LOV  CG2  1HG2  SING  35
+LOV  CG2  2HG2  SING  36
+LOV  CG2  3HG2  SING  37
+LOV  C    O     DOUB  38
+LOV  C    OXT   SING  39
+LOV  OXT  HXT   SING  40
+#

@@ -1,0 +1,84 @@
+data_52A
+#
+_chem_comp.id                   52A
+_chem_comp.name                 '(2R,4R)-4-AMINOPYRROLIDINE-2,4-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N2 O4'
+_chem_comp.pdbx_synonyms        2R,4R-APDC
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.156
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          52A
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1[C@@H](NC[C@]1(C(=O)O)N)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+52A  N     .  N  0  16.106  20.778  11.483  1  N  1 
+52A  CA    .  C  0  17.482  20.334  11.665  1  N  2 
+52A  C     .  C  0  17.604  19.797  13.084  1  N  3 
+52A  O     .  O  0  18.310  18.788  13.308  1  N  4 
+52A  OXT   .  O  0  16.993  20.366  14.009  1  N  5 
+52A  CB1   .  C  0  18.458  21.484  11.435  1  N  6 
+52A  CB2   .  C  0  17.891  19.268  10.637  1  N  7 
+52A  CG1   .  C  0  19.698  20.745  10.948  1  N  8 
+52A  NG2   .  N  0  19.227  19.632  10.132  1  N  9 
+52A  CD    .  C  0  20.563  21.679  10.109  1  N  10
+52A  OE1   .  O  0  21.695  21.291  9.732   1  N  11
+52A  OE2   .  O  0  20.126  22.819  9.809   1  N  12
+52A  1HN   .  H  0  15.667  20.880  12.376  0  N  13
+52A  2HN   .  H  0  16.100  21.657  11.007  0  N  14
+52A  HOXT  .  H  0  17.164  19.914  14.827  0  N  15
+52A  1HB1  .  H  0  18.084  22.202  10.690  0  N  16
+52A  2HB1  .  H  0  18.633  22.102  12.328  0  N  17
+52A  1HB2  .  H  0  17.922  18.276  11.111  0  N  18
+52A  2HB2  .  H  0  17.164  19.226  9.813   0  N  19
+52A  HG1   .  H  0  20.306  20.388  11.792  1  N  20
+52A  HNG2  .  H  0  19.852  18.855  10.209  0  N  21
+52A  HOE2  .  H  0  20.773  23.279  9.287   0  N  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+52A  N    CA    SING  N  1 
+52A  N    1HN   SING  N  2 
+52A  N    2HN   SING  N  3 
+52A  CA   C     SING  N  4 
+52A  CA   CB1   SING  N  5 
+52A  CA   CB2   SING  N  6 
+52A  C    O     DOUB  N  7 
+52A  C    OXT   SING  N  8 
+52A  OXT  HOXT  SING  N  9 
+52A  CB1  CG1   SING  N  10
+52A  CB1  1HB1  SING  N  11
+52A  CB1  2HB1  SING  N  12
+52A  CB2  NG2   SING  N  13
+52A  CB2  1HB2  SING  N  14
+52A  CB2  2HB2  SING  N  15
+52A  CG1  NG2   SING  N  16
+52A  CG1  CD    SING  N  17
+52A  CG1  HG1   SING  N  18
+52A  NG2  HNG2  SING  N  19
+52A  CD   OE1   DOUB  N  20
+52A  CD   OE2   SING  N  21
+52A  OE2  HOE2  SING  N  22
+#

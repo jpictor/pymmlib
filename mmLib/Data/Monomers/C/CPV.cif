@@ -1,0 +1,127 @@
+data_CPV
+#
+_chem_comp.id                   CPV
+_chem_comp.name                 '5-AMINO-6-CYCLOHEXYL-4-HYDROXY-2-ISOPROPYL-HEXANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C15 H29 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        271.399
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPV  N     .  N  0  ?  ?  ?  1  1 
+CPV  CA    .  C  0  ?  ?  ?  1  2 
+CPV  CB    .  C  0  ?  ?  ?  1  3 
+CPV  CG    .  C  0  ?  ?  ?  1  4 
+CPV  CD1   .  C  0  ?  ?  ?  1  5 
+CPV  CD2   .  C  0  ?  ?  ?  1  6 
+CPV  CE1   .  C  0  ?  ?  ?  1  7 
+CPV  CE2   .  C  0  ?  ?  ?  1  8 
+CPV  CZ    .  C  0  ?  ?  ?  1  9 
+CPV  CH    .  C  0  ?  ?  ?  1  10
+CPV  OH    .  O  0  ?  ?  ?  1  11
+CPV  CB1   .  C  0  ?  ?  ?  1  12
+CPV  CA*   .  C  0  ?  ?  ?  1  13
+CPV  CB*   .  C  0  ?  ?  ?  1  14
+CPV  CG1   .  C  0  ?  ?  ?  1  15
+CPV  CG2   .  C  0  ?  ?  ?  1  16
+CPV  C     .  C  0  ?  ?  ?  1  17
+CPV  O     .  O  0  ?  ?  ?  1  18
+CPV  OXT   .  O  0  ?  ?  ?  1  19
+CPV  1HN   .  H  0  ?  ?  ?  0  20
+CPV  2HN   .  H  0  ?  ?  ?  0  21
+CPV  HA    .  H  0  ?  ?  ?  1  22
+CPV  1HB   .  H  0  ?  ?  ?  0  23
+CPV  2HB   .  H  0  ?  ?  ?  0  24
+CPV  HG    .  H  0  ?  ?  ?  1  25
+CPV  1HD1  .  H  0  ?  ?  ?  0  26
+CPV  2HD1  .  H  0  ?  ?  ?  0  27
+CPV  1HD2  .  H  0  ?  ?  ?  0  28
+CPV  2HD2  .  H  0  ?  ?  ?  0  29
+CPV  1HE1  .  H  0  ?  ?  ?  0  30
+CPV  2HE1  .  H  0  ?  ?  ?  0  31
+CPV  1HE2  .  H  0  ?  ?  ?  0  32
+CPV  2HE2  .  H  0  ?  ?  ?  0  33
+CPV  1HZ   .  H  0  ?  ?  ?  0  34
+CPV  2HZ   .  H  0  ?  ?  ?  0  35
+CPV  HH    .  H  0  ?  ?  ?  1  36
+CPV  HO    .  H  0  ?  ?  ?  1  37
+CPV  1HB1  .  H  0  ?  ?  ?  0  38
+CPV  2HB1  .  H  0  ?  ?  ?  0  39
+CPV  HA*   .  H  0  ?  ?  ?  1  40
+CPV  HB*   .  H  0  ?  ?  ?  1  41
+CPV  1HG1  .  H  0  ?  ?  ?  0  42
+CPV  2HG1  .  H  0  ?  ?  ?  0  43
+CPV  3HG1  .  H  0  ?  ?  ?  0  44
+CPV  1HG2  .  H  0  ?  ?  ?  0  45
+CPV  2HG2  .  H  0  ?  ?  ?  0  46
+CPV  3HG2  .  H  0  ?  ?  ?  0  47
+CPV  HXT   .  H  0  ?  ?  ?  1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPV  N    CA    SING  1 
+CPV  N    1HN   SING  2 
+CPV  N    2HN   SING  3 
+CPV  CA   CB    SING  4 
+CPV  CA   CH    SING  5 
+CPV  CA   HA    SING  6 
+CPV  CB   CG    SING  7 
+CPV  CB   1HB   SING  8 
+CPV  CB   2HB   SING  9 
+CPV  CG   CD1   SING  10
+CPV  CG   CD2   SING  11
+CPV  CG   HG    SING  12
+CPV  CD1  CE1   SING  13
+CPV  CD1  1HD1  SING  14
+CPV  CD1  2HD1  SING  15
+CPV  CD2  CE2   SING  16
+CPV  CD2  1HD2  SING  17
+CPV  CD2  2HD2  SING  18
+CPV  CE1  CZ    SING  19
+CPV  CE1  1HE1  SING  20
+CPV  CE1  2HE1  SING  21
+CPV  CE2  CZ    SING  22
+CPV  CE2  1HE2  SING  23
+CPV  CE2  2HE2  SING  24
+CPV  CZ   1HZ   SING  25
+CPV  CZ   2HZ   SING  26
+CPV  CH   CB1   SING  27
+CPV  CH   OH    SING  28
+CPV  CH   HH    SING  29
+CPV  OH   HO    SING  30
+CPV  CB1  CA*   SING  31
+CPV  CB1  1HB1  SING  32
+CPV  CB1  2HB1  SING  33
+CPV  CA*  C     SING  34
+CPV  CA*  CB*   SING  35
+CPV  CA*  HA*   SING  36
+CPV  CB*  CG1   SING  37
+CPV  CB*  CG2   SING  38
+CPV  CB*  HB*   SING  39
+CPV  CG1  1HG1  SING  40
+CPV  CG1  2HG1  SING  41
+CPV  CG1  3HG1  SING  42
+CPV  CG2  1HG2  SING  43
+CPV  CG2  2HG2  SING  44
+CPV  CG2  3HG2  SING  45
+CPV  C    O     DOUB  46
+CPV  C    OXT   SING  47
+CPV  OXT  HXT   SING  48
+#

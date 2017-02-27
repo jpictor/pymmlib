@@ -1,0 +1,131 @@
+data_DTM
+#
+_chem_comp.id                   DTM
+_chem_comp.name                 2,4-DIAMINO-6-[N-(3',4',5'-TRIMETHOXYBENZYL)-N-METHYLAMINO]PYRIDO[2,3-D]PYRIMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H22 N6 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        370.410
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTM  C2*   .  C  0  27.390  12.611  -4.512  1  1 
+DTM  C4*   .  C  0  26.851  12.663  -2.195  1  2 
+DTM  C4A   .  C  0  28.153  13.072  -1.921  1  3 
+DTM  C5*   .  C  0  28.701  13.333  -0.652  1  4 
+DTM  C6*   .  C  0  30.033  13.705  -0.421  1  5 
+DTM  C7*   .  C  0  30.853  13.813  -1.593  1  6 
+DTM  C8A   .  C  0  29.060  13.184  -3.001  1  7 
+DTM  C9*   .  C  0  32.047  13.839  1.096   1  8 
+DTM  C1'   .  C  0  32.641  15.174  0.636   1  9 
+DTM  C2'   .  C  0  31.855  16.315  0.443   1  10
+DTM  C3'   .  C  0  32.505  17.457  0.024   1  11
+DTM  C4'   .  C  0  33.877  17.521  -0.234  1  12
+DTM  C5'   .  C  0  34.666  16.404  -0.030  1  13
+DTM  C6'   .  C  0  34.035  15.178  0.426   1  14
+DTM  C31   .  C  0  31.275  19.199  0.951   1  15
+DTM  C41   .  C  0  35.429  18.771  -1.697  1  16
+DTM  C51   .  C  0  36.562  15.129  -0.145  1  17
+DTM  CN*   .  C  0  29.686  14.054  2.050   1  18
+DTM  N1*   .  N  0  28.641  12.965  -4.275  1  19
+DTM  N2*   .  N  0  26.978  12.368  -5.774  1  20
+DTM  N3*   .  N  0  26.500  12.470  -3.489  1  21
+DTM  N4*   .  N  0  25.753  12.445  -1.425  1  22
+DTM  N8*   .  N  0  30.357  13.537  -2.831  1  23
+DTM  N9*   .  N  0  30.515  13.954  0.843   1  24
+DTM  O3'   .  O  0  31.915  18.693  -0.235  1  25
+DTM  O4'   .  O  0  34.426  18.720  -0.663  1  26
+DTM  O5'   .  O  0  36.026  16.472  -0.324  1  27
+DTM  1H51  .  H  0  ?       ?       ?       0  28
+DTM  2H51  .  H  0  ?       ?       ?       0  29
+DTM  3H51  .  H  0  ?       ?       ?       0  30
+DTM  1H41  .  H  0  ?       ?       ?       0  31
+DTM  2H41  .  H  0  ?       ?       ?       0  32
+DTM  3H41  .  H  0  ?       ?       ?       0  33
+DTM  1H31  .  H  0  ?       ?       ?       0  34
+DTM  2H31  .  H  0  ?       ?       ?       0  35
+DTM  3H31  .  H  0  ?       ?       ?       0  36
+DTM  1HCN  .  H  0  ?       ?       ?       0  37
+DTM  2HCN  .  H  0  ?       ?       ?       0  38
+DTM  3HCN  .  H  0  ?       ?       ?       0  39
+DTM  1HC9  .  H  0  ?       ?       ?       0  40
+DTM  2HC9  .  H  0  ?       ?       ?       0  41
+DTM  1HN4  .  H  0  ?       ?       ?       0  42
+DTM  2HN4  .  H  0  ?       ?       ?       0  43
+DTM  1HN2  .  H  0  ?       ?       ?       0  44
+DTM  2HN2  .  H  0  ?       ?       ?       0  45
+DTM  H6'   .  H  0  ?       ?       ?       1  46
+DTM  H2'   .  H  0  ?       ?       ?       1  47
+DTM  H5*   .  H  0  ?       ?       ?       1  48
+DTM  H7*   .  H  0  ?       ?       ?       1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTM  C2*  N1*   AROM  1 
+DTM  C2*  N2*   SING  2 
+DTM  C2*  N3*   AROM  3 
+DTM  C4*  C4A   AROM  4 
+DTM  C4*  N3*   AROM  5 
+DTM  C4*  N4*   SING  6 
+DTM  C4A  C5*   AROM  7 
+DTM  C4A  C8A   AROM  8 
+DTM  C5*  C6*   AROM  9 
+DTM  C5*  H5*   SING  10
+DTM  C6*  C7*   AROM  11
+DTM  C6*  N9*   SING  12
+DTM  C7*  N8*   AROM  13
+DTM  C7*  H7*   SING  14
+DTM  C8A  N1*   AROM  15
+DTM  C8A  N8*   AROM  16
+DTM  C9*  C1'   SING  17
+DTM  C9*  N9*   SING  18
+DTM  C9*  1HC9  SING  19
+DTM  C9*  2HC9  SING  20
+DTM  C1'  C2'   AROM  21
+DTM  C1'  C6'   AROM  22
+DTM  C2'  C3'   AROM  23
+DTM  C2'  H2'   SING  24
+DTM  C3'  C4'   AROM  25
+DTM  C3'  O3'   SING  26
+DTM  C4'  C5'   AROM  27
+DTM  C4'  O4'   SING  28
+DTM  C5'  C6'   AROM  29
+DTM  C5'  O5'   SING  30
+DTM  C6'  H6'   SING  31
+DTM  C31  O3'   SING  32
+DTM  C31  1H31  SING  33
+DTM  C31  2H31  SING  34
+DTM  C31  3H31  SING  35
+DTM  C41  O4'   SING  36
+DTM  C41  1H41  SING  37
+DTM  C41  2H41  SING  38
+DTM  C41  3H41  SING  39
+DTM  C51  O5'   SING  40
+DTM  C51  1H51  SING  41
+DTM  C51  2H51  SING  42
+DTM  C51  3H51  SING  43
+DTM  CN*  N9*   SING  44
+DTM  CN*  1HCN  SING  45
+DTM  CN*  2HCN  SING  46
+DTM  CN*  3HCN  SING  47
+DTM  N2*  1HN2  SING  48
+DTM  N2*  2HN2  SING  49
+DTM  N4*  1HN4  SING  50
+DTM  N4*  2HN4  SING  51
+#

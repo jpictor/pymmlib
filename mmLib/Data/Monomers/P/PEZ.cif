@@ -1,0 +1,70 @@
+data_PEZ
+#
+_chem_comp.id                   PEZ
+_chem_comp.name                 '2-(PHOSPHONOOXY)BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        184.085
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEZ  O1   .  O  0  33.078  52.273  23.325  1  1 
+PEZ  C1   .  C  0  32.295  51.729  22.453  1  2 
+PEZ  O2'  .  O  0  31.110  51.847  22.509  1  3 
+PEZ  C2   .  C  0  33.058  50.924  21.368  1  4 
+PEZ  O2   .  O  0  32.081  50.392  20.490  1  5 
+PEZ  P    .  P  0  32.189  49.444  19.215  1  6 
+PEZ  O1P  .  O  0  32.673  48.157  19.695  1  7 
+PEZ  O2P  .  O  0  32.875  50.240  18.143  1  8 
+PEZ  O3P  .  O  0  30.696  49.288  18.787  1  9 
+PEZ  C3   .  C  0  34.390  50.700  21.255  1  10
+PEZ  C4   .  C  0  35.406  50.040  20.439  1  11
+PEZ  HO1  .  H  0  ?       ?       ?       1  12
+PEZ  H2   .  H  0  ?       ?       ?       1  13
+PEZ  H2P  .  H  0  ?       ?       ?       1  14
+PEZ  H3P  .  H  0  ?       ?       ?       1  15
+PEZ  1H3  .  H  0  ?       ?       ?       0  16
+PEZ  2H3  .  H  0  ?       ?       ?       0  17
+PEZ  1H4  .  H  0  ?       ?       ?       0  18
+PEZ  2H4  .  H  0  ?       ?       ?       0  19
+PEZ  3H4  .  H  0  ?       ?       ?       0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEZ  O1   HO1  SING  1 
+PEZ  O1   C1   SING  2 
+PEZ  C1   O2'  DOUB  3 
+PEZ  C1   C2   SING  4 
+PEZ  C2   H2   SING  5 
+PEZ  C2   O2   SING  6 
+PEZ  C2   C3   SING  7 
+PEZ  O2   P    SING  8 
+PEZ  P    O1P  DOUB  9 
+PEZ  P    O2P  SING  10
+PEZ  P    O3P  SING  11
+PEZ  O2P  H2P  SING  12
+PEZ  O3P  H3P  SING  13
+PEZ  C3   1H3  SING  14
+PEZ  C3   2H3  SING  15
+PEZ  C3   C4   SING  16
+PEZ  C4   1H4  SING  17
+PEZ  C4   2H4  SING  18
+PEZ  C4   3H4  SING  19
+#

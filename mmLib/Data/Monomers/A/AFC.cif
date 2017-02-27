@@ -1,0 +1,122 @@
+data_AFC
+#
+_chem_comp.id                   AFC
+_chem_comp.name                 (3R,12R)-3-AMINO-12-METHYLTETRADECANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H29 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        239.400
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AFC  N     .  N  0  1.352   0.635   -1.182  1  1 
+AFC  CA    .  C  0  0.427   1.191   -2.148  1  2 
+AFC  CB    .  C  0  0.288   2.719   -1.944  1  3 
+AFC  C     .  C  0  -1.126  -0.726  -2.628  1  4 
+AFC  O     .  O  0  -1.634  -0.907  -3.733  1  5 
+AFC  CD    .  C  0  -0.147  3.485   -3.210  1  6 
+AFC  CE    .  C  0  -1.003  4.732   -2.927  1  7 
+AFC  CF    .  C  0  -2.484  4.417   -2.652  1  8 
+AFC  CI    .  C  0  -3.383  4.507   -3.899  1  9 
+AFC  CJ    .  C  0  -3.934  5.921   -4.154  1  10
+AFC  CK    .  C  0  -5.232  5.943   -4.982  1  11
+AFC  CL    .  C  0  -5.013  5.942   -6.508  1  12
+AFC  CM    .  C  0  -5.240  7.318   -7.184  1  13
+AFC  CN2   .  C  0  -6.033  7.218   -8.503  1  14
+AFC  CN1   .  C  0  -3.880  8.043   -7.350  1  15
+AFC  CO1   .  C  0  -2.932  7.423   -8.386  1  16
+AFC  CG    .  C  0  -1.023  0.643   -2.036  1  17
+AFC  H     .  H  0  1.131   0.735   -0.209  1  18
+AFC  HA    .  H  0  0.797   0.968   -3.143  1  19
+AFC  1HG   .  H  0  -1.728  1.299   -2.592  0  20
+AFC  2HG   .  H  0  -1.337  0.632   -0.972  0  21
+AFC  2HB   .  H  0  -0.435  2.906   -1.118  0  22
+AFC  3HB   .  H  0  0.609   2.594   -0.911  0  23
+AFC  1HD   .  H  0  -0.702  2.807   -3.893  0  24
+AFC  2HD   .  H  0  0.772   3.810   -3.751  0  25
+AFC  1HE   .  H  0  -0.934  5.420   -3.800  0  26
+AFC  2HE   .  H  0  -0.580  5.269   -2.049  0  27
+AFC  1HF   .  H  0  -2.865  5.120   -1.879  0  28
+AFC  2HF   .  H  0  -2.574  3.392   -2.232  0  29
+AFC  1HI   .  H  0  -4.235  3.802   -3.773  0  30
+AFC  2HI   .  H  0  -2.807  4.177   -4.792  0  31
+AFC  1HJ   .  H  0  -3.155  6.522   -4.673  0  32
+AFC  2HJ   .  H  0  -4.138  6.413   -3.177  0  33
+AFC  1HK   .  H  0  -5.819  6.842   -4.690  0  34
+AFC  2HK   .  H  0  -5.847  5.056   -4.711  0  35
+AFC  1HL   .  H  0  -5.726  5.211   -6.952  0  36
+AFC  2HL   .  H  0  -3.990  5.570   -6.724  0  37
+AFC  HM    .  H  0  -5.853  7.943   -6.494  1  38
+AFC  1HN2  .  H  0  -5.910  8.144   -9.102  0  39
+AFC  2HN2  .  H  0  -7.115  7.079   -8.292  0  40
+AFC  3HN2  .  H  0  -5.684  6.355   -9.108  0  41
+AFC  1HN1  .  H  0  -4.078  9.100   -7.637  0  42
+AFC  2HN1  .  H  0  -3.368  8.070   -6.363  0  43
+AFC  1HO1  .  H  0  -2.525  8.210   -9.053  0  44
+AFC  2HO1  .  H  0  -3.446  6.667   -9.014  0  45
+AFC  3HO1  .  H  0  -2.079  6.925   -7.877  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AFC  N    H     SING  1 
+AFC  N    CA    SING  2 
+AFC  CA   HA    SING  3 
+AFC  CA   CG    SING  4 
+AFC  CA   CB    SING  5 
+AFC  CB   2HB   SING  6 
+AFC  CB   3HB   SING  7 
+AFC  CB   CD    SING  8 
+AFC  C    CG    SING  9 
+AFC  C    O     DOUB  10
+AFC  CD   1HD   SING  11
+AFC  CD   2HD   SING  12
+AFC  CD   CE    SING  13
+AFC  CE   1HE   SING  14
+AFC  CE   2HE   SING  15
+AFC  CE   CF    SING  16
+AFC  CF   1HF   SING  17
+AFC  CF   2HF   SING  18
+AFC  CF   CI    SING  19
+AFC  CI   1HI   SING  20
+AFC  CI   2HI   SING  21
+AFC  CI   CJ    SING  22
+AFC  CJ   1HJ   SING  23
+AFC  CJ   2HJ   SING  24
+AFC  CJ   CK    SING  25
+AFC  CK   1HK   SING  26
+AFC  CK   2HK   SING  27
+AFC  CK   CL    SING  28
+AFC  CL   1HL   SING  29
+AFC  CL   2HL   SING  30
+AFC  CL   CM    SING  31
+AFC  CM   HM    SING  32
+AFC  CM   CN2   SING  33
+AFC  CM   CN1   SING  34
+AFC  CN2  1HN2  SING  35
+AFC  CN2  2HN2  SING  36
+AFC  CN2  3HN2  SING  37
+AFC  CN1  1HN1  SING  38
+AFC  CN1  2HN1  SING  39
+AFC  CN1  CO1   SING  40
+AFC  CO1  1HO1  SING  41
+AFC  CO1  2HO1  SING  42
+AFC  CO1  3HO1  SING  43
+AFC  CG   1HG   SING  44
+AFC  CG   2HG   SING  45
+#

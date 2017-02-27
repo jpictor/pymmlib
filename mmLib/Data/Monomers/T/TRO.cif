@@ -1,0 +1,89 @@
+data_TRO
+#
+_chem_comp.id                       TRO
+_chem_comp.name                     2-HYDROXY-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            220.227
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRO  N    .  N  0  ?  ?  ?  1  1 
+TRO  CA   .  C  0  ?  ?  ?  1  2 
+TRO  CB   .  C  0  ?  ?  ?  1  3 
+TRO  CG   .  C  0  ?  ?  ?  1  4 
+TRO  CD1  .  C  0  ?  ?  ?  1  5 
+TRO  OD1  .  O  0  ?  ?  ?  1  6 
+TRO  NE1  .  N  0  ?  ?  ?  1  7 
+TRO  CE2  .  C  0  ?  ?  ?  1  8 
+TRO  CZ2  .  C  0  ?  ?  ?  1  9 
+TRO  CH2  .  C  0  ?  ?  ?  1  10
+TRO  CZ3  .  C  0  ?  ?  ?  1  11
+TRO  CE3  .  C  0  ?  ?  ?  1  12
+TRO  CD2  .  C  0  ?  ?  ?  1  13
+TRO  C    .  C  0  ?  ?  ?  1  14
+TRO  O    .  O  0  ?  ?  ?  1  15
+TRO  OXT  .  O  0  ?  ?  ?  1  16
+TRO  H    .  H  0  ?  ?  ?  1  17
+TRO  HN2  .  H  0  ?  ?  ?  1  18
+TRO  HA   .  H  0  ?  ?  ?  1  19
+TRO  1HB  .  H  0  ?  ?  ?  0  20
+TRO  2HB  .  H  0  ?  ?  ?  0  21
+TRO  HOD  .  H  0  ?  ?  ?  1  22
+TRO  HE1  .  H  0  ?  ?  ?  1  23
+TRO  HZ2  .  H  0  ?  ?  ?  1  24
+TRO  HH2  .  H  0  ?  ?  ?  1  25
+TRO  HZ3  .  H  0  ?  ?  ?  1  26
+TRO  HE3  .  H  0  ?  ?  ?  1  27
+TRO  HXT  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRO  N    CA   SING  1 
+TRO  N    H    SING  2 
+TRO  N    HN2  SING  3 
+TRO  CA   CB   SING  4 
+TRO  CA   C    SING  5 
+TRO  CA   HA   SING  6 
+TRO  CB   CG   SING  7 
+TRO  CB   1HB  SING  8 
+TRO  CB   2HB  SING  9 
+TRO  CG   CD1  DOUB  10
+TRO  CG   CD2  SING  11
+TRO  CD1  NE1  SING  12
+TRO  CD1  OD1  SING  13
+TRO  OD1  HOD  SING  14
+TRO  NE1  CE2  SING  15
+TRO  NE1  HE1  SING  16
+TRO  CE2  CZ2  DOUB  17
+TRO  CE2  CD2  SING  18
+TRO  CZ2  CH2  SING  19
+TRO  CZ2  HZ2  SING  20
+TRO  CH2  CZ3  DOUB  21
+TRO  CH2  HH2  SING  22
+TRO  CZ3  CE3  SING  23
+TRO  CZ3  HZ3  SING  24
+TRO  CE3  CD2  DOUB  25
+TRO  CE3  HE3  SING  26
+TRO  C    O    DOUB  27
+TRO  C    OXT  SING  28
+TRO  OXT  HXT  SING  29
+#

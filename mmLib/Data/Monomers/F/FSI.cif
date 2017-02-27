@@ -1,0 +1,110 @@
+data_FSI
+#
+_chem_comp.id                   FSI
+_chem_comp.name                 '5-(ACETYLAMINO)-2,6-ANHYDRO-3,5-DIDEOXY-3-FLUORONONONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H18 N1 O8 F1'
+_chem_comp.pdbx_synonyms        '3-FLUOROSIALIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        311.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FSI  O1B   .  O  0  -10.294  14.996  3.431   1  1 
+FSI  C1    .  C  0  -9.114   15.168  3.855   1  2 
+FSI  O1A   .  O  0  -8.139   15.157  3.084   1  3 
+FSI  C2    .  C  0  -8.877   15.343  5.350   1  4 
+FSI  C3    .  C  0  -10.079  15.926  6.074   1  5 
+FSI  F1    .  F  0  -10.599  16.943  5.387   1  6 
+FSI  C4    .  C  0  -9.732   16.439  7.463   1  7 
+FSI  O4    .  O  0  -10.857  17.008  8.080   1  8 
+FSI  O6    .  O  0  -7.807   16.243  5.458   1  9 
+FSI  C6    .  C  0  -7.459   16.758  6.738   1  10
+FSI  C5    .  C  0  -8.649   17.532  7.339   1  11
+FSI  N5    .  N  0  -8.357   18.129  8.528   1  12
+FSI  C10   .  C  0  -8.428   19.446  8.748   1  13
+FSI  C11   .  C  0  -8.313   19.930  10.168  1  14
+FSI  O10   .  O  0  -8.575   20.300  7.866   1  15
+FSI  C7    .  C  0  -6.158   17.545  6.604   1  16
+FSI  O7    .  O  0  -6.204   18.300  5.416   1  17
+FSI  C8    .  C  0  -4.955   16.595  6.497   1  18
+FSI  O8    .  O  0  -4.849   15.987  7.754   1  19
+FSI  C9    .  C  0  -3.695   17.357  6.116   1  20
+FSI  O9    .  O  0  -3.382   18.242  7.193   1  21
+FSI  H1B   .  H  0  ?        ?       ?       1  22
+FSI  H2    .  H  0  ?        ?       ?       1  23
+FSI  H6    .  H  0  ?        ?       ?       1  24
+FSI  H7    .  H  0  ?        ?       ?       1  25
+FSI  HO7   .  H  0  ?        ?       ?       1  26
+FSI  H8    .  H  0  ?        ?       ?       1  27
+FSI  HO8   .  H  0  ?        ?       ?       1  28
+FSI  1H9   .  H  0  ?        ?       ?       0  29
+FSI  2H9   .  H  0  ?        ?       ?       0  30
+FSI  HO9   .  H  0  ?        ?       ?       1  31
+FSI  H5    .  H  0  ?        ?       ?       1  32
+FSI  HN5   .  H  0  ?        ?       ?       1  33
+FSI  1H11  .  H  0  ?        ?       ?       0  34
+FSI  2H11  .  H  0  ?        ?       ?       0  35
+FSI  3H11  .  H  0  ?        ?       ?       0  36
+FSI  H4    .  H  0  ?        ?       ?       1  37
+FSI  HO4   .  H  0  ?        ?       ?       1  38
+FSI  H3    .  H  0  ?        ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FSI  O1B  H1B   SING  1 
+FSI  O1B  C1    SING  2 
+FSI  C1   O1A   DOUB  3 
+FSI  C1   C2    SING  4 
+FSI  C2   H2    SING  5 
+FSI  C2   O6    SING  6 
+FSI  C2   C3    SING  7 
+FSI  C3   C4    SING  8 
+FSI  C3   H3    SING  9 
+FSI  C3   F1    SING  10
+FSI  C4   C5    SING  11
+FSI  C4   H4    SING  12
+FSI  C4   O4    SING  13
+FSI  O4   HO4   SING  14
+FSI  O6   C6    SING  15
+FSI  C6   H6    SING  16
+FSI  C6   C7    SING  17
+FSI  C6   C5    SING  18
+FSI  C5   H5    SING  19
+FSI  C5   N5    SING  20
+FSI  N5   HN5   SING  21
+FSI  N5   C10   SING  22
+FSI  C10  O10   DOUB  23
+FSI  C10  C11   SING  24
+FSI  C11  1H11  SING  25
+FSI  C11  2H11  SING  26
+FSI  C11  3H11  SING  27
+FSI  C7   H7    SING  28
+FSI  C7   O7    SING  29
+FSI  C7   C8    SING  30
+FSI  O7   HO7   SING  31
+FSI  C8   H8    SING  32
+FSI  C8   O8    SING  33
+FSI  C8   C9    SING  34
+FSI  O8   HO8   SING  35
+FSI  C9   1H9   SING  36
+FSI  C9   2H9   SING  37
+FSI  C9   O9    SING  38
+FSI  O9   HO9   SING  39
+#

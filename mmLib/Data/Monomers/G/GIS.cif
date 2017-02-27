@@ -1,0 +1,99 @@
+data_GIS
+#
+_chem_comp.id                   GIS
+_chem_comp.name                 ETHYL-(2-CARBOXY-4-GUANIDINIUM-PHENYL)-CHLOROACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N3 O4 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        299.713
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GIS  C1    .  C   0  ?  ?  ?  1  1 
+GIS  O1    .  O   0  ?  ?  ?  1  2 
+GIS  OXT   .  O   0  ?  ?  ?  1  3 
+GIS  C2    .  C   0  ?  ?  ?  1  4 
+GIS  C3    .  C   0  ?  ?  ?  1  5 
+GIS  C4    .  C   0  ?  ?  ?  1  6 
+GIS  C6    .  C   0  ?  ?  ?  1  7 
+GIS  C7    .  C   0  ?  ?  ?  1  8 
+GIS  C8    .  C   0  ?  ?  ?  1  9 
+GIS  C9    .  C   0  ?  ?  ?  1  10
+GIS  C10   .  C   0  ?  ?  ?  1  11
+GIS  O2    .  O   0  ?  ?  ?  1  12
+GIS  O3    .  O   0  ?  ?  ?  1  13
+GIS  C11   .  C   0  ?  ?  ?  1  14
+GIS  C12   .  C   0  ?  ?  ?  1  15
+GIS  N1    .  N   0  ?  ?  ?  1  16
+GIS  C5    .  C   0  ?  ?  ?  1  17
+GIS  N2    .  N   0  ?  ?  ?  1  18
+GIS  N3    .  N   0  ?  ?  ?  1  19
+GIS  CL    .  CL  0  ?  ?  ?  0  20
+GIS  HXT   .  H   0  ?  ?  ?  1  21
+GIS  H3    .  H   0  ?  ?  ?  1  22
+GIS  H6    .  H   0  ?  ?  ?  1  23
+GIS  H7    .  H   0  ?  ?  ?  1  24
+GIS  H9    .  H   0  ?  ?  ?  1  25
+GIS  1H11  .  H   0  ?  ?  ?  0  26
+GIS  2H11  .  H   0  ?  ?  ?  0  27
+GIS  1H12  .  H   0  ?  ?  ?  0  28
+GIS  2H12  .  H   0  ?  ?  ?  0  29
+GIS  3H12  .  H   0  ?  ?  ?  0  30
+GIS  HN1   .  H   0  ?  ?  ?  1  31
+GIS  HN2   .  H   0  ?  ?  ?  1  32
+GIS  1HN3  .  H   0  ?  ?  ?  0  33
+GIS  2HN3  .  H   0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GIS  C1   O1    DOUB  1 
+GIS  C1   C2    SING  2 
+GIS  C1   OXT   SING  3 
+GIS  OXT  HXT   SING  4 
+GIS  C2   C3    DOUB  5 
+GIS  C2   C8    SING  6 
+GIS  C3   C4    SING  7 
+GIS  C3   H3    SING  8 
+GIS  C4   C6    DOUB  9 
+GIS  C4   N1    SING  10
+GIS  C6   C7    SING  11
+GIS  C6   H6    SING  12
+GIS  C7   C8    DOUB  13
+GIS  C7   H7    SING  14
+GIS  C8   C9    SING  15
+GIS  C9   C10   SING  16
+GIS  C9   CL    SING  17
+GIS  C9   H9    SING  18
+GIS  C10  O2    DOUB  19
+GIS  C10  O3    SING  20
+GIS  O3   C11   SING  21
+GIS  C11  C12   SING  22
+GIS  C11  1H11  SING  23
+GIS  C11  2H11  SING  24
+GIS  C12  1H12  SING  25
+GIS  C12  2H12  SING  26
+GIS  C12  3H12  SING  27
+GIS  N1   C5    SING  28
+GIS  N1   HN1   SING  29
+GIS  C5   N2    DOUB  30
+GIS  C5   N3    SING  31
+GIS  N2   HN2   SING  32
+GIS  N3   1HN3  SING  33
+GIS  N3   2HN3  SING  34
+#

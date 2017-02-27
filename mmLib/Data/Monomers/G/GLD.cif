@@ -1,0 +1,75 @@
+data_GLD
+#
+_chem_comp.id                   GLD
+_chem_comp.name                 4,6-DIDEOXYGLUCOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLD  C1   .  C  0  ?  ?  ?  1  1 
+GLD  C2   .  C  0  ?  ?  ?  1  2 
+GLD  C3   .  C  0  ?  ?  ?  1  3 
+GLD  C4   .  C  0  ?  ?  ?  1  4 
+GLD  C5   .  C  0  ?  ?  ?  1  5 
+GLD  C6   .  C  0  ?  ?  ?  1  6 
+GLD  O1   .  O  0  ?  ?  ?  1  7 
+GLD  O2   .  O  0  ?  ?  ?  1  8 
+GLD  O3   .  O  0  ?  ?  ?  1  9 
+GLD  O5   .  O  0  ?  ?  ?  1  10
+GLD  H1   .  H  0  ?  ?  ?  1  11
+GLD  H2   .  H  0  ?  ?  ?  1  12
+GLD  H3   .  H  0  ?  ?  ?  1  13
+GLD  1H4  .  H  0  ?  ?  ?  0  14
+GLD  2H4  .  H  0  ?  ?  ?  0  15
+GLD  H5   .  H  0  ?  ?  ?  1  16
+GLD  1H6  .  H  0  ?  ?  ?  0  17
+GLD  2H6  .  H  0  ?  ?  ?  0  18
+GLD  3H6  .  H  0  ?  ?  ?  0  19
+GLD  HO1  .  H  0  ?  ?  ?  1  20
+GLD  HO2  .  H  0  ?  ?  ?  1  21
+GLD  HO3  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLD  C1  C2   SING  1 
+GLD  C1  O1   SING  2 
+GLD  C1  O5   SING  3 
+GLD  C1  H1   SING  4 
+GLD  C2  C3   SING  5 
+GLD  C2  O2   SING  6 
+GLD  C2  H2   SING  7 
+GLD  C3  C4   SING  8 
+GLD  C3  O3   SING  9 
+GLD  C3  H3   SING  10
+GLD  C4  C5   SING  11
+GLD  C4  1H4  SING  12
+GLD  C4  2H4  SING  13
+GLD  C5  C6   SING  14
+GLD  C5  O5   SING  15
+GLD  C5  H5   SING  16
+GLD  C6  1H6  SING  17
+GLD  C6  2H6  SING  18
+GLD  C6  3H6  SING  19
+GLD  O1  HO1  SING  20
+GLD  O2  HO2  SING  21
+GLD  O3  HO3  SING  22
+#

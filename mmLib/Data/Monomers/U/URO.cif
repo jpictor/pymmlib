@@ -1,0 +1,63 @@
+data_URO
+#
+_chem_comp.id                   URO
+_chem_comp.name                 '(2E)-3-(1H-IMIDAZOL-4-YL)ACRYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        138.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+URO  OAA  .  O  0  8.738   11.468  -16.917  1  1 
+URO  CAI  .  C  0  8.697   10.535  -17.717  1  2 
+URO  OAB  .  O  0  7.549   10.136  -17.953  1  3 
+URO  CAC  .  C  0  9.885   10.062  -18.271  1  4 
+URO  CAD  .  C  0  10.138  9.143   -19.218  1  5 
+URO  CAJ  .  C  0  11.086  8.705   -20.111  1  6 
+URO  CAF  .  C  0  10.78   8.094   -21.251  1  7 
+URO  NAH  .  N  0  11.863  7.459   -21.697  1  8 
+URO  CAE  .  C  0  12.89   7.695   -20.868  1  9 
+URO  NAG  .  N  0  12.405  8.477   -19.923  1  10
+URO  HAB  .  H  0  ?       ?       ?        1  11
+URO  HAC  .  H  0  10.791  10.532  -17.852  1  12
+URO  HAD  .  H  0  9.25    8.496   -19.315  1  13
+URO  HAF  .  H  0  9.794   8.11    -21.745  1  14
+URO  HAH  .  H  0  11.904  6.883   -22.538  1  15
+URO  HAE  .  H  0  13.922  7.316   -20.957  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+URO  OAA  CAI  DOUB  1 
+URO  CAI  OAB  SING  2 
+URO  CAI  CAC  SING  3 
+URO  OAB  HAB  SING  4 
+URO  CAC  CAD  DOUB  5 
+URO  CAC  HAC  SING  6 
+URO  CAD  CAJ  SING  7 
+URO  CAD  HAD  SING  8 
+URO  CAJ  CAF  DOUB  9 
+URO  CAJ  NAG  SING  10
+URO  CAF  NAH  SING  11
+URO  CAF  HAF  SING  12
+URO  NAH  CAE  SING  13
+URO  NAH  HAH  SING  14
+URO  CAE  NAG  DOUB  15
+URO  CAE  HAE  SING  16
+#

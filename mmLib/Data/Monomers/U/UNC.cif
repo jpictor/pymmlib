@@ -1,0 +1,64 @@
+data_UNC
+#
+_chem_comp.id                   UNC
+_chem_comp.name                 5-AMINO-6-NITROPYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H4 N4 O4'
+_chem_comp.pdbx_synonyms        '5-AMINO 6-NITRO URACIL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        172.100
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UNC  OD2   .  O  0  31.638  25.627  41.062  1  1 
+UNC  N4    .  N  0  32.194  25.773  39.973  1  2 
+UNC  OD1   .  O  0  33.380  25.429  39.755  1  3 
+UNC  C4    .  C  0  31.484  26.443  38.971  1  4 
+UNC  N3    .  N  0  30.215  26.891  39.090  1  5 
+UNC  C2    .  C  0  29.661  27.556  37.998  1  6 
+UNC  O2    .  O  0  28.486  27.964  38.058  1  7 
+UNC  C5    .  C  0  32.245  26.670  37.760  1  8 
+UNC  N5    .  N  0  33.469  26.239  37.651  1  9 
+UNC  C6    .  C  0  31.602  27.379  36.655  1  10
+UNC  O6    .  O  0  32.270  27.593  35.635  1  11
+UNC  N1    .  N  0  30.339  27.790  36.843  1  12
+UNC  1HN5  .  H  0  ?       ?       ?       0  13
+UNC  2HN5  .  H  0  ?       ?       ?       0  14
+UNC  HN3   .  H  0  ?       ?       ?       1  15
+UNC  HN1   .  H  0  ?       ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UNC  OD2  N4    DOUB  1 
+UNC  N4   C4    SING  2 
+UNC  N4   OD1   DOUB  3 
+UNC  C4   C5    DOUB  4 
+UNC  C4   N3    SING  5 
+UNC  N3   HN3   SING  6 
+UNC  N3   C2    SING  7 
+UNC  C2   O2    DOUB  8 
+UNC  C2   N1    SING  9 
+UNC  C5   N5    SING  10
+UNC  C5   C6    SING  11
+UNC  N5   1HN5  SING  12
+UNC  N5   2HN5  SING  13
+UNC  C6   N1    SING  14
+UNC  C6   O6    DOUB  15
+UNC  N1   HN1   SING  16
+#

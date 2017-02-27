@@ -1,0 +1,79 @@
+data_ADH
+#
+_chem_comp.id                   ADH
+_chem_comp.name                 '1-AMINO-2,3-DIHYDROXY-5-HYDROXYMETHYL CYCLOHEX-5-ENE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADH  C1    .  C  0  45.977  85.657  44.397  1  1 
+ADH  C2    .  C  0  44.636  85.684  43.627  1  2 
+ADH  C3    .  C  0  43.718  86.642  44.351  1  3 
+ADH  C4    .  C  0  43.449  86.055  45.761  1  4 
+ADH  C5    .  C  0  44.589  85.596  46.506  1  5 
+ADH  C6    .  C  0  44.377  84.328  47.296  1  6 
+ADH  C7    .  C  0  45.824  85.374  45.807  1  7 
+ADH  N1    .  N  0  46.685  86.958  44.180  1  8 
+ADH  O2    .  O  0  44.915  86.064  42.282  1  9 
+ADH  O3    .  O  0  42.459  86.749  43.688  1  10
+ADH  O6    .  O  0  43.701  83.281  46.603  1  11
+ADH  1H4   .  H  0  ?       ?       ?       0  12
+ADH  2H4   .  H  0  ?       ?       ?       0  13
+ADH  H3    .  H  0  ?       ?       ?       1  14
+ADH  HO3   .  H  0  ?       ?       ?       1  15
+ADH  HO2   .  H  0  ?       ?       ?       1  16
+ADH  H2    .  H  0  ?       ?       ?       1  17
+ADH  H1    .  H  0  ?       ?       ?       1  18
+ADH  2HN1  .  H  0  ?       ?       ?       0  19
+ADH  2HN2  .  H  0  ?       ?       ?       0  20
+ADH  1H7   .  H  0  ?       ?       ?       0  21
+ADH  1H6   .  H  0  ?       ?       ?       0  22
+ADH  2H6   .  H  0  ?       ?       ?       0  23
+ADH  HO6   .  H  0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADH  C1  C2    SING  1 
+ADH  C1  C7    SING  2 
+ADH  C1  N1    SING  3 
+ADH  C1  H1    SING  4 
+ADH  C2  C3    SING  5 
+ADH  C2  O2    SING  6 
+ADH  C2  H2    SING  7 
+ADH  C3  C4    SING  8 
+ADH  C3  O3    SING  9 
+ADH  C3  H3    SING  10
+ADH  C4  C5    SING  11
+ADH  C4  1H4   SING  12
+ADH  C4  2H4   SING  13
+ADH  C5  C6    SING  14
+ADH  C5  C7    DOUB  15
+ADH  C6  O6    SING  16
+ADH  C6  1H6   SING  17
+ADH  C6  2H6   SING  18
+ADH  C7  1H7   SING  19
+ADH  N1  2HN1  SING  20
+ADH  N1  2HN2  SING  21
+ADH  O2  HO2   SING  22
+ADH  O3  HO3   SING  23
+ADH  O6  HO6   SING  24
+#

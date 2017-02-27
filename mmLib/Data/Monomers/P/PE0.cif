@@ -1,0 +1,66 @@
+data_PE0
+#
+_chem_comp.id                   PE0
+_chem_comp.name                 PTERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 N5 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PE0  C1    .  C  0  -63.025  58.883  137.426  1  1 
+PE0  C4    .  C  0  -63.497  58.002  138.567  1  2 
+PE0  O4    .  O  0  -62.881  56.821  138.964  1  3 
+PE0  N2    .  N  0  -64.645  58.576  139.136  1  4 
+PE0  C3    .  C  0  -64.920  60.113  139.174  1  5 
+PE0  N6    .  N  0  -65.493  60.789  140.193  1  6 
+PE0  N1    .  N  0  -64.364  60.965  138.151  1  7 
+PE0  C2    .  C  0  -63.458  60.226  137.222  1  8 
+PE0  N3    .  N  0  -63.070  60.828  136.083  1  9 
+PE0  C6    .  C  0  -62.327  60.156  135.171  1  10
+PE0  C5    .  C  0  -61.937  58.837  135.445  1  11
+PE0  N4    .  N  0  -62.278  58.252  136.567  1  12
+PE0  HN2   .  H  0  ?        ?       ?        1  13
+PE0  1HN6  .  H  0  ?        ?       ?        0  14
+PE0  2HN6  .  H  0  ?        ?       ?        0  15
+PE0  H5    .  H  0  ?        ?       ?        1  16
+PE0  H6    .  H  0  ?        ?       ?        1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PE0  C1  C4    SING  1 
+PE0  C1  C2    DOUB  2 
+PE0  C1  N4    SING  3 
+PE0  C4  O4    DOUB  4 
+PE0  C4  N2    SING  5 
+PE0  N2  C3    SING  6 
+PE0  N2  HN2   SING  7 
+PE0  C3  N6    SING  8 
+PE0  C3  N1    DOUB  9 
+PE0  N6  1HN6  SING  10
+PE0  N6  2HN6  SING  11
+PE0  N1  C2    SING  12
+PE0  C2  N3    SING  13
+PE0  N3  C6    DOUB  14
+PE0  C6  C5    SING  15
+PE0  C6  H6    SING  16
+PE0  C5  N4    DOUB  17
+PE0  C5  H5    SING  18
+#

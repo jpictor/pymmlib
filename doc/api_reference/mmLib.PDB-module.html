@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.PDB</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;PDB
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.PDB-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module PDB</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.PDB-pysrc.html">source&nbsp;code</a></span></p>
+<p>Brookhaven PDB v2.2 file parser. All records in the PDB v2.2 
+  specification have corresponding classes defined here. PDB files are 
+  loaded into a list of these cassed, and also can be constrcted/modified 
+  and written back out as PDB files.</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.PDBError-class.html" class="summary-name">PDBError</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.PDBValueError-class.html" class="summary-name">PDBValueError</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.PDBRecord-class.html" class="summary-name">PDBRecord</a><br />
+      Base class for all PDB file records.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HEADER-class.html" class="summary-name">HEADER</a><br />
+      This section contains records used to describe the experiment and 
+        the biological macromolecules present in the entry: HEADER, OBSLTE,
+        TITLE, CAVEAT, COMPND, SOURCE, KEYWDS, EXPDTA, AUTHOR, REVDAT, 
+        SPRSDE, JRNL, and REMARK records.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.OBSLTE-class.html" class="summary-name">OBSLTE</a><br />
+      OBSLTE appears in entries which have been withdrawn from 
+        distribution.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.TITLE-class.html" class="summary-name">TITLE</a><br />
+      The TITLE record contains a title for the experiment or analysis 
+        that is represented in the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CAVEAT-class.html" class="summary-name">CAVEAT</a><br />
+      CAVEAT warns of severe errors in an entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.COMPND-class.html" class="summary-name">COMPND</a><br />
+      The COMPND record describes the macromolecular contents of an 
+        entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SOURCE-class.html" class="summary-name">SOURCE</a><br />
+      The SOURCE record specifies the biological and/or chemical source 
+        of each biological molecule in the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.KEYWDS-class.html" class="summary-name">KEYWDS</a><br />
+      The KEYWDS record contains a set of terms relevant to the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.EXPDTA-class.html" class="summary-name">EXPDTA</a><br />
+      The EXPDTA record presents information about the experiment.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.AUTHOR-class.html" class="summary-name">AUTHOR</a><br />
+      The AUTHOR record contains the names of the people responsible for 
+        the contents of the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.REVDAT-class.html" class="summary-name">REVDAT</a><br />
+      REVDAT records contain a history of the modifications made to an 
+        entry since its release.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SPRSDE-class.html" class="summary-name">SPRSDE</a><br />
+      The SPRSDE records contain a list of the ID codes of entries that 
+        were made obsolete by the given coordinate entry and withdrawn from
+        the PDB release set.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.JRNL-class.html" class="summary-name">JRNL</a><br />
+      The JRNL record contains the primary literature citation that 
+        describes the experiment which resulted in the deposited coordinate
+        set.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.REMARK-class.html" class="summary-name">REMARK</a><br />
+      REMARK records present experimental details, annotations, comments,
+        and information not included in other records.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.DBREF-class.html" class="summary-name">DBREF</a><br />
+      The DBREF record provides cross-reference links between PDB 
+        sequences and the corresponding database entry or entries.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SEQADV-class.html" class="summary-name">SEQADV</a><br />
+      The SEQADV record identifies conflicts between sequence information
+        in the ATOM records of the PDB entry and the sequence database 
+        entry given on DBREF.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SEQRES-class.html" class="summary-name">SEQRES</a><br />
+      The SEQRES records contain the amino acid or nucleic acid sequence 
+        of residues in each chain of the macromolecule that was studied.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MODRES-class.html" class="summary-name">MODRES</a><br />
+      The MODRES record provides descriptions of modifications (e.g., 
+        chemical or post-translational) to protein and nucleic acid 
+        residues.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HET-class.html" class="summary-name">HET</a><br />
+      The HET records are used to describe non-standard residues, such as
+prosthetic groups, inhibitors, solvent molecules, and ions for
+which coordinates are supplied.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HETNAM-class.html" class="summary-name">HETNAM</a><br />
+      This record gives the chemical name of the compound with the given 
+        hetID.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HETSYN-class.html" class="summary-name">HETSYN</a><br />
+      This record provides synonyms, if any, for the compound in the 
+        corresponding (i.e., same hetID) HETNAM record.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.FORMUL-class.html" class="summary-name">FORMUL</a><br />
+      The FORMUL record presents the chemical formula and charge of a 
+        non-standard group.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HELIX-class.html" class="summary-name">HELIX</a><br />
+      HELIX records are used to identify the position of helices in the 
+        molecule.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SHEET-class.html" class="summary-name">SHEET</a><br />
+      SHEET records are used to identify the position of sheets in the 
+        molecule.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.TURN-class.html" class="summary-name">TURN</a><br />
+      The TURN records identify turns and other short loop turns which 
+        normally connect other secondary structure segments.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SSBOND-class.html" class="summary-name">SSBOND</a><br />
+      The SSBOND record identifies each disulfide bond in protein and 
+        polypeptide structures by identifying the two residues involved in 
+        the bond.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.LINK-class.html" class="summary-name">LINK</a><br />
+      The LINK records specify connectivity between residues that is not 
+        implied by the primary structure.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HYDBND-class.html" class="summary-name">HYDBND</a><br />
+      The HYDBND records specify hydrogen bonds in the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SLTBRG-class.html" class="summary-name">SLTBRG</a><br />
+      The SLTBRG records specify salt bridges in the entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CISPEP-class.html" class="summary-name">CISPEP</a><br />
+      CISPEP records specify the prolines and other peptides found to be 
+        in the cis conformation.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SITE-class.html" class="summary-name">SITE</a><br />
+      The SITE records supply the identification of groups comprising 
+        important sites in the macromolecule.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CRYSTn-class.html" class="summary-name">CRYSTn</a><br />
+      The CRYSTn (n=1,2,3) record presents the unit cell parameters, 
+        space group, and Z value.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CRYST1-class.html" class="summary-name">CRYST1</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CRYST2-class.html" class="summary-name">CRYST2</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CRYST3-class.html" class="summary-name">CRYST3</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ORIGXn-class.html" class="summary-name">ORIGXn</a><br />
+      The ORIGXn (n = 1, 2, or 3) records present the transformation from
+        the orthogonal coordinates contained in the entry to the submitted 
+        coordinates.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ORIGX1-class.html" class="summary-name">ORIGX1</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ORIGX2-class.html" class="summary-name">ORIGX2</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ORIGX3-class.html" class="summary-name">ORIGX3</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SCALEn-class.html" class="summary-name">SCALEn</a><br />
+      The SCALEn (n = 1, 2, or 3) records present the transformation from
+        the orthogonal coordinates as contained in the entry to fractional 
+        crystallographic coordinates.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SCALE1-class.html" class="summary-name">SCALE1</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SCALE2-class.html" class="summary-name">SCALE2</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SCALE3-class.html" class="summary-name">SCALE3</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MTRIXn-class.html" class="summary-name">MTRIXn</a><br />
+      The MTRIXn (n = 1, 2, or 3) records present transformations 
+        expressing non-crystallographic symmetry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MTRIX1-class.html" class="summary-name">MTRIX1</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MTRIX2-class.html" class="summary-name">MTRIX2</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MTRIX3-class.html" class="summary-name">MTRIX3</a>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.TVECT-class.html" class="summary-name">TVECT</a><br />
+      The TVECT records present the translation vector for infinite 
+        covalently connected structures.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MODEL-class.html" class="summary-name">MODEL</a><br />
+      The MODEL record specifies the model serial number when multiple 
+        structures are presented in a single coordinate entry, as is often 
+        the case with structures determined by NMR.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ATOM-class.html" class="summary-name">ATOM</a><br />
+      The ATOM records present the atomic coordinates for standard 
+        residues.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ANISOU-class.html" class="summary-name">ANISOU</a><br />
+      The ANISOU records present the anisotropic temperature factors.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.HETATM-class.html" class="summary-name">HETATM</a><br />
+      The HETATM records present the atomic coordinate records for atoms 
+        within &quot;non-standard&quot; groups.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SIGATM-class.html" class="summary-name">SIGATM</a><br />
+      The SIGATM records present the standard deviation of atomic 
+        parameters as they appear in ATOM and HETATM records.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.SIGUIJ-class.html" class="summary-name">SIGUIJ</a><br />
+      The SIGUIJ records present the standard deviations of anisotropic 
+        temperature factors scaled by a factor of 10**4 (Angstroms**2).
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.TER-class.html" class="summary-name">TER</a><br />
+      The TER record indicates the end of a list of ATOM/HETATM records 
+        for a chain.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.ENDMDL-class.html" class="summary-name">ENDMDL</a><br />
+      The ENDMDL records are paired with MODEL records to group 
+        individual structures found in a coordinate entry.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.CONECT-class.html" class="summary-name">CONECT</a><br />
+      The CONECT records specify connectivity between atoms for which 
+        coordinates are supplied.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.MASTER-class.html" class="summary-name">MASTER</a><br />
+      The MASTER record is a control record for bookkeeping.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.END-class.html" class="summary-name">END</a><br />
+      The END record marks the end of the PDB file.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.PDBFile-class.html" class="summary-name">PDBFile</a><br />
+      Class for managing a PDB file.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB.RecordProcessor-class.html" class="summary-name">RecordProcessor</a>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="ATOM_get_name"></a><span class="summary-sig-name">ATOM_get_name</span>(<span class="summary-sig-arg">rec</span>)</span><br />
+      This should help older applications which do not use the element 
+      field of the ATOM record, these applications used column alignment to
+      distinguish calcium (CA) from, say, an alpha-carbon (CA)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.PDB-pysrc.html#ATOM_get_name">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_pdb_records"></a><span class="summary-sig-name">iter_pdb_records</span>(<span class="summary-sig-arg">iterable</span>)</span><br />
+      Reads a sequence of PDB lines from iterable sequence and converts 
+      them to the correct PDB record objects, then yields them.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.PDB-pysrc.html#iter_pdb_records">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="test_module"></a><span class="summary-sig-name">test_module</span>()</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.PDB-pysrc.html#test_module">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB-module.html#PDBRecordMap" class="summary-name">PDBRecordMap</a> = <code title="{'ANISOU': &lt;class 'mmLib.PDB.ANISOU'&gt;,
+ 'ATOM  ': &lt;class 'mmLib.PDB.ATOM'&gt;,
+ 'AUTHOR': &lt;class 'mmLib.PDB.AUTHOR'&gt;,
+ 'CAVEAT': &lt;class 'mmLib.PDB.CAVEAT'&gt;,
+ 'CISPEP': &lt;class 'mmLib.PDB.CISPEP'&gt;,
+ 'COMPND': &lt;class 'mmLib.PDB.COMPND'&gt;,
+ 'CONECT': &lt;class 'mmLib.PDB.CONECT'&gt;,
+ 'CRYST1': &lt;class 'mmLib.PDB.CRYST1'&gt;,
+..."><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">ANISOU</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.ANISOU'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">ATOM  </code><code class="variable-quote">'</code><code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.PDB-module.html#PDBRecordOrder" class="summary-name">PDBRecordOrder</a> = <code title="[('HEADER', &lt;class 'mmLib.PDB.HEADER'&gt;, 'mandatory'),
+ ('OBSLTE', &lt;class 'mmLib.PDB.OBSLTE'&gt;, 'optional'),
+ ('TITLE ', &lt;class 'mmLib.PDB.TITLE'&gt;, 'mandatory'),
+ ('CAVEAT', &lt;class 'mmLib.PDB.CAVEAT'&gt;, 'optional'),
+ ('COMPND', &lt;class 'mmLib.PDB.COMPND'&gt;, 'mandatory'),
+ ('SOURCE', &lt;class 'mmLib.PDB.SOURCE'&gt;, 'mandatory'),
+ ('KEYWDS', &lt;class 'mmLib.PDB.KEYWDS'&gt;, 'mandatory'),
+ ('EXPDTA', &lt;class 'mmLib.PDB.EXPDTA'&gt;, 'mandatory'),
+..."><code class="variable-group">[</code><code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">HEADER</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.HEADER'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mand</code><code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'mmLib'"><code class="variable-quote">'</code><code class="variable-string">mmLib</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES DETAILS ==================== -->
+<a name="section-VariablesDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-VariablesDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="PDBRecordMap"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">PDBRecordMap</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">ANISOU</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.ANISOU'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">ATOM  </code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.ATOM'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">AUTHOR</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.AUTHOR'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">CAVEAT</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.CAVEAT'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">CISPEP</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.CISPEP'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">COMPND</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.COMPND'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">CONECT</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.CONECT'&gt;<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">CRYST1</code><code class="variable-quote">'</code><code class="variable-op">: </code>&lt;class 'mmLib.PDB.CRYST1'&gt;<code class="variable-op">,</code>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<a name="PDBRecordOrder"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">PDBRecordOrder</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">[</code><code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">HEADER</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.HEADER'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">OBSLTE</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.OBSLTE'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">optional</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">TITLE </code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.TITLE'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">CAVEAT</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.CAVEAT'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">optional</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">COMPND</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.COMPND'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">SOURCE</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.SOURCE'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">KEYWDS</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.KEYWDS'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+ <code class="variable-group">(</code><code class="variable-quote">'</code><code class="variable-string">EXPDTA</code><code class="variable-quote">'</code><code class="variable-op">, </code>&lt;class 'mmLib.PDB.EXPDTA'&gt;<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">mandatory</code><code class="variable-quote">'</code><code class="variable-group">)</code><code class="variable-op">,</code>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:14 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

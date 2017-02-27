@@ -1,0 +1,105 @@
+data_IMP
+#
+_chem_comp.id                   IMP
+_chem_comp.name                 'INOSINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N4 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        348.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IMP  P     .  P  0  ?  ?  ?  1  1 
+IMP  O1P   .  O  0  ?  ?  ?  1  2 
+IMP  O2P   .  O  0  ?  ?  ?  1  3 
+IMP  O3P   .  O  0  ?  ?  ?  1  4 
+IMP  O5*   .  O  0  ?  ?  ?  1  5 
+IMP  C5*   .  C  0  ?  ?  ?  1  6 
+IMP  C4*   .  C  0  ?  ?  ?  1  7 
+IMP  O4*   .  O  0  ?  ?  ?  1  8 
+IMP  C3*   .  C  0  ?  ?  ?  1  9 
+IMP  O3*   .  O  0  ?  ?  ?  1  10
+IMP  C2*   .  C  0  ?  ?  ?  1  11
+IMP  O2*   .  O  0  ?  ?  ?  1  12
+IMP  C1*   .  C  0  ?  ?  ?  1  13
+IMP  N9    .  N  0  ?  ?  ?  1  14
+IMP  C8    .  C  0  ?  ?  ?  1  15
+IMP  N7    .  N  0  ?  ?  ?  1  16
+IMP  C5    .  C  0  ?  ?  ?  1  17
+IMP  C6    .  C  0  ?  ?  ?  1  18
+IMP  O6    .  O  0  ?  ?  ?  1  19
+IMP  N1    .  N  0  ?  ?  ?  1  20
+IMP  C2    .  C  0  ?  ?  ?  1  21
+IMP  N3    .  N  0  ?  ?  ?  1  22
+IMP  C4    .  C  0  ?  ?  ?  1  23
+IMP  2HOP  .  H  0  ?  ?  ?  0  24
+IMP  3HOP  .  H  0  ?  ?  ?  0  25
+IMP  1H5*  .  H  0  ?  ?  ?  0  26
+IMP  2H5*  .  H  0  ?  ?  ?  0  27
+IMP  H4*   .  H  0  ?  ?  ?  1  28
+IMP  H3*   .  H  0  ?  ?  ?  1  29
+IMP  *HO3  .  H  0  ?  ?  ?  0  30
+IMP  H2*   .  H  0  ?  ?  ?  1  31
+IMP  *HO2  .  H  0  ?  ?  ?  0  32
+IMP  H1*   .  H  0  ?  ?  ?  1  33
+IMP  H8    .  H  0  ?  ?  ?  1  34
+IMP  HN1   .  H  0  ?  ?  ?  1  35
+IMP  H2    .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IMP  P    O1P   DOUB  1 
+IMP  P    O2P   SING  2 
+IMP  P    O3P   SING  3 
+IMP  P    O5*   SING  4 
+IMP  O2P  2HOP  SING  5 
+IMP  O3P  3HOP  SING  6 
+IMP  O5*  C5*   SING  7 
+IMP  C5*  C4*   SING  8 
+IMP  C5*  1H5*  SING  9 
+IMP  C5*  2H5*  SING  10
+IMP  C4*  O4*   SING  11
+IMP  C4*  C3*   SING  12
+IMP  C4*  H4*   SING  13
+IMP  O4*  C1*   SING  14
+IMP  C3*  O3*   SING  15
+IMP  C3*  C2*   SING  16
+IMP  C3*  H3*   SING  17
+IMP  O3*  *HO3  SING  18
+IMP  C2*  O2*   SING  19
+IMP  C2*  C1*   SING  20
+IMP  C2*  H2*   SING  21
+IMP  O2*  *HO2  SING  22
+IMP  C1*  N9    SING  23
+IMP  C1*  H1*   SING  24
+IMP  N9   C8    SING  25
+IMP  N9   C4    SING  26
+IMP  C8   N7    DOUB  27
+IMP  C8   H8    SING  28
+IMP  N7   C5    SING  29
+IMP  C5   C6    SING  30
+IMP  C5   C4    DOUB  31
+IMP  C6   O6    DOUB  32
+IMP  C6   N1    SING  33
+IMP  N1   C2    SING  34
+IMP  N1   HN1   SING  35
+IMP  C2   N3    DOUB  36
+IMP  C2   H2    SING  37
+IMP  N3   C4    SING  38
+#

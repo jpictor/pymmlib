@@ -1,0 +1,116 @@
+data_COR
+#
+_chem_comp.id                   COR
+_chem_comp.name                 2,4-DIAMINO-1,5-DIPHENYL-3-HYDROXYPENTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H22 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.374
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COR  C1    .  C  0  ?  ?  ?  1  1 
+COR  C2    .  C  0  ?  ?  ?  1  2 
+COR  N2    .  N  0  ?  ?  ?  1  3 
+COR  C3    .  C  0  ?  ?  ?  1  4 
+COR  O3    .  O  0  ?  ?  ?  1  5 
+COR  C4    .  C  0  ?  ?  ?  1  6 
+COR  N4    .  N  0  ?  ?  ?  1  7 
+COR  C5    .  C  0  ?  ?  ?  1  8 
+COR  C1A   .  C  0  ?  ?  ?  1  9 
+COR  C2A   .  C  0  ?  ?  ?  1  10
+COR  C3A   .  C  0  ?  ?  ?  1  11
+COR  C4A   .  C  0  ?  ?  ?  1  12
+COR  C5A   .  C  0  ?  ?  ?  1  13
+COR  C6A   .  C  0  ?  ?  ?  1  14
+COR  C1B   .  C  0  ?  ?  ?  1  15
+COR  C2B   .  C  0  ?  ?  ?  1  16
+COR  C3B   .  C  0  ?  ?  ?  1  17
+COR  C4B   .  C  0  ?  ?  ?  1  18
+COR  C5B   .  C  0  ?  ?  ?  1  19
+COR  C6B   .  C  0  ?  ?  ?  1  20
+COR  1H1   .  H  0  ?  ?  ?  0  21
+COR  2H1   .  H  0  ?  ?  ?  0  22
+COR  H2    .  H  0  ?  ?  ?  1  23
+COR  1HN2  .  H  0  ?  ?  ?  0  24
+COR  2HN2  .  H  0  ?  ?  ?  0  25
+COR  H3    .  H  0  ?  ?  ?  1  26
+COR  HO3   .  H  0  ?  ?  ?  1  27
+COR  H4    .  H  0  ?  ?  ?  1  28
+COR  1HN4  .  H  0  ?  ?  ?  0  29
+COR  2HN4  .  H  0  ?  ?  ?  0  30
+COR  1H5   .  H  0  ?  ?  ?  0  31
+COR  2H5   .  H  0  ?  ?  ?  0  32
+COR  H2A   .  H  0  ?  ?  ?  1  33
+COR  H3A   .  H  0  ?  ?  ?  1  34
+COR  H4A   .  H  0  ?  ?  ?  1  35
+COR  H5A   .  H  0  ?  ?  ?  1  36
+COR  H6A   .  H  0  ?  ?  ?  1  37
+COR  H2B   .  H  0  ?  ?  ?  1  38
+COR  H3B   .  H  0  ?  ?  ?  1  39
+COR  H4B   .  H  0  ?  ?  ?  1  40
+COR  H5B   .  H  0  ?  ?  ?  1  41
+COR  H6B   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COR  C1   C2    SING  1 
+COR  C1   C1A   SING  2 
+COR  C1   1H1   SING  3 
+COR  C1   2H1   SING  4 
+COR  C2   C3    SING  5 
+COR  C2   N2    SING  6 
+COR  C2   H2    SING  7 
+COR  N2   1HN2  SING  8 
+COR  N2   2HN2  SING  9 
+COR  C3   C4    SING  10
+COR  C3   O3    SING  11
+COR  C3   H3    SING  12
+COR  O3   HO3   SING  13
+COR  C4   C5    SING  14
+COR  C4   N4    SING  15
+COR  C4   H4    SING  16
+COR  N4   1HN4  SING  17
+COR  N4   2HN4  SING  18
+COR  C5   C1B   SING  19
+COR  C5   1H5   SING  20
+COR  C5   2H5   SING  21
+COR  C1A  C2A   DOUB  22
+COR  C1A  C6A   SING  23
+COR  C2A  C3A   SING  24
+COR  C2A  H2A   SING  25
+COR  C3A  C4A   DOUB  26
+COR  C3A  H3A   SING  27
+COR  C4A  C5A   SING  28
+COR  C4A  H4A   SING  29
+COR  C5A  C6A   DOUB  30
+COR  C5A  H5A   SING  31
+COR  C6A  H6A   SING  32
+COR  C1B  C2B   DOUB  33
+COR  C1B  C6B   SING  34
+COR  C2B  C3B   SING  35
+COR  C2B  H2B   SING  36
+COR  C3B  C4B   DOUB  37
+COR  C3B  H3B   SING  38
+COR  C4B  C5B   SING  39
+COR  C4B  H4B   SING  40
+COR  C5B  C6B   DOUB  41
+COR  C5B  H5B   SING  42
+COR  C6B  H6B   SING  43
+#

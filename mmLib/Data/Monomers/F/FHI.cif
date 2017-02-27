@@ -1,0 +1,85 @@
+data_FHI
+#
+_chem_comp.id                   FHI
+_chem_comp.name                 '2',4'-DIFLUORO-4-HYDROXY-5-IODO-1,1'-BIPHENYL-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H7 O3 F2 I1'
+_chem_comp.pdbx_synonyms        IODODIFLUNISAL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        376.098
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FHI  FAT  .  F  0  -0.215  2.412   23.670  1  1 
+FHI  CAN  .  C  0  -0.215  1.090   23.432  1  2 
+FHI  CAM  .  C  0  0.215   0.606   22.201  1  3 
+FHI  CAF  .  C  0  0.217   -0.762  21.951  1  4 
+FHI  FAE  .  F  0  0.635   -1.232  20.762  1  5 
+FHI  CAG  .  C  0  -0.211  -1.647  22.930  1  6 
+FHI  CAH  .  C  0  -0.642  -1.162  24.157  1  7 
+FHI  CAO  .  C  0  -0.648  0.207   24.407  1  8 
+FHI  CAP  .  C  0  -1.079  0.662   25.644  1  9 
+FHI  CAI  .  C  0  -0.438  0.178   26.771  1  10
+FHI  CAJ  .  C  0  -0.835  0.597   28.030  1  11
+FHI  CAC  .  C  0  -0.119  0.055   29.229  1  12
+FHI  OAD  .  O  0  -0.400  0.500   30.360  1  13
+FHI  OAB  .  O  0  0.745   -0.832  29.060  1  14
+FHI  CAQ  .  C  0  -2.131  1.570   25.779  1  15
+FHI  CAR  .  C  0  -2.530  1.993   27.049  1  16
+FHI  IAS  .  I  0  -4.101  3.361   27.307  1  17
+FHI  CAK  .  C  0  -1.877  1.501   28.167  1  18
+FHI  OAL  .  O  0  -2.255  1.900   29.375  1  19
+FHI  HAD  .  H  0  ?       ?       ?       1  20
+FHI  HAL  .  H  0  ?       ?       ?       1  21
+FHI  HAQ  .  H  0  ?       ?       ?       1  22
+FHI  HAI  .  H  0  ?       ?       ?       1  23
+FHI  HAM  .  H  0  ?       ?       ?       1  24
+FHI  HAG  .  H  0  ?       ?       ?       1  25
+FHI  HAH  .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FHI  FAT  CAN  SING  1 
+FHI  CAN  CAO  DOUB  2 
+FHI  CAN  CAM  SING  3 
+FHI  CAM  HAM  SING  4 
+FHI  CAM  CAF  DOUB  5 
+FHI  CAF  FAE  SING  6 
+FHI  CAF  CAG  SING  7 
+FHI  CAG  HAG  SING  8 
+FHI  CAG  CAH  DOUB  9 
+FHI  CAH  CAO  SING  10
+FHI  CAH  HAH  SING  11
+FHI  CAO  CAP  SING  12
+FHI  CAP  CAQ  SING  13
+FHI  CAP  CAI  DOUB  14
+FHI  CAI  CAJ  SING  15
+FHI  CAI  HAI  SING  16
+FHI  CAJ  CAC  SING  17
+FHI  CAJ  CAK  DOUB  18
+FHI  CAC  OAD  SING  19
+FHI  CAC  OAB  DOUB  20
+FHI  OAD  HAD  SING  21
+FHI  CAQ  CAR  DOUB  22
+FHI  CAQ  HAQ  SING  23
+FHI  CAR  CAK  SING  24
+FHI  CAR  IAS  SING  25
+FHI  CAK  OAL  SING  26
+FHI  OAL  HAL  SING  27
+#

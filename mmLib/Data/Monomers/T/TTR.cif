@@ -1,0 +1,93 @@
+data_TTR
+#
+_chem_comp.id                   TTR
+_chem_comp.name                 9-ACETYL-2,3,4,9-TETRAHYDRO-1H-CARBAZOL-1-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H13 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        227.262
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TTR  CM   .  C  0  -2.771  13.191  -1.375  1  1 
+TTR  CA   .  C  0  -1.887  14.023  -2.339  1  2 
+TTR  CB   .  C  0  -2.152  15.546  -2.176  1  3 
+TTR  CG   .  C  0  -3.628  15.825  -2.151  1  4 
+TTR  CD1  .  C  0  -4.544  14.922  -1.786  1  5 
+TTR  CD2  .  C  0  -4.356  17.041  -2.483  1  6 
+TTR  NE1  .  N  0  -5.805  15.480  -1.873  1  7 
+TTR  CJ1  .  C  0  -6.942  14.848  -1.585  1  8 
+TTR  OJ1  .  O  0  -7.407  14.027  -2.379  1  9 
+TTR  CN1  .  C  0  -7.566  15.000  -0.194  1  10
+TTR  CE2  .  C  0  -5.739  16.797  -2.296  1  11
+TTR  CE3  .  C  0  -3.960  18.317  -2.922  1  12
+TTR  CZ2  .  C  0  -6.694  17.789  -2.528  1  13
+TTR  CZ3  .  C  0  -4.920  19.313  -3.167  1  14
+TTR  CH2  .  C  0  -6.284  19.046  -2.977  1  15
+TTR  CL   .  C  0  -4.242  13.635  -1.402  1  16
+TTR  OL   .  O  0  -5.139  12.851  -1.082  1  17
+TTR  HH2  .  H  0  -7.016  19.813  -3.169  1  18
+TTR  HZ3  .  H  0  -4.607  20.290  -3.504  1  19
+TTR  HE3  .  H  0  -2.913  18.533  -3.072  1  20
+TTR  HZ2  .  H  0  -7.744  17.572  -2.408  1  21
+TTR  HN1  .  H  0  -7.957  14.047  0.130   1  22
+TTR  HN2  .  H  0  -8.366  15.724  -0.235  1  23
+TTR  HN3  .  H  0  -6.813  15.336  0.504   1  24
+TTR  HB1  .  H  0  -1.704  16.074  -3.004  1  25
+TTR  HB2  .  H  0  -1.709  15.887  -1.252  1  26
+TTR  HA1  .  H  0  -2.105  13.733  -3.357  1  27
+TTR  HA2  .  H  0  -0.847  13.820  -2.129  1  28
+TTR  HM1  .  H  0  -2.710  12.151  -1.659  1  29
+TTR  HM2  .  H  0  -2.387  13.300  -0.371  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TTR  CM   CA   SING  1 
+TTR  CM   HM1  SING  2 
+TTR  CM   HM2  SING  3 
+TTR  CM   CL   SING  4 
+TTR  CA   CB   SING  5 
+TTR  CA   HA1  SING  6 
+TTR  CA   HA2  SING  7 
+TTR  CB   CG   SING  8 
+TTR  CB   HB1  SING  9 
+TTR  CB   HB2  SING  10
+TTR  CG   CD1  DOUB  11
+TTR  CG   CD2  SING  12
+TTR  CD1  NE1  SING  13
+TTR  CD1  CL   SING  14
+TTR  CD2  CE3  AROM  15
+TTR  CD2  CE2  AROM  16
+TTR  NE1  CE2  SING  17
+TTR  NE1  CJ1  SING  18
+TTR  CJ1  OJ1  DOUB  19
+TTR  CJ1  CN1  SING  20
+TTR  CN1  HN1  SING  21
+TTR  CN1  HN2  SING  22
+TTR  CN1  HN3  SING  23
+TTR  CE2  CZ2  AROM  24
+TTR  CE3  CZ3  AROM  25
+TTR  CE3  HE3  SING  26
+TTR  CZ2  CH2  AROM  27
+TTR  CZ2  HZ2  SING  28
+TTR  CZ3  CH2  AROM  29
+TTR  CZ3  HZ3  SING  30
+TTR  CH2  HH2  SING  31
+TTR  CL   OL   DOUB  32
+#

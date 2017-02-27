@@ -1,0 +1,56 @@
+data_PAE
+#
+_chem_comp.id                   PAE
+_chem_comp.name                 'PHOSPHONOACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C2 H5 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        140.032
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAE  P     .  P  0  ?  ?  ?  1  1 
+PAE  O1P   .  O  0  ?  ?  ?  1  2 
+PAE  O2P   .  O  0  ?  ?  ?  1  3 
+PAE  O3P   .  O  0  ?  ?  ?  1  4 
+PAE  C1P   .  C  0  ?  ?  ?  1  5 
+PAE  C1    .  C  0  ?  ?  ?  1  6 
+PAE  O1    .  O  0  ?  ?  ?  1  7 
+PAE  O2    .  O  0  ?  ?  ?  1  8 
+PAE  HO1   .  H  0  ?  ?  ?  1  9 
+PAE  1HOP  .  H  0  ?  ?  ?  0  10
+PAE  2HOP  .  H  0  ?  ?  ?  0  11
+PAE  1H1   .  H  0  ?  ?  ?  0  12
+PAE  2H1   .  H  0  ?  ?  ?  0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAE  P    O1P   SING  1 
+PAE  P    O2P   SING  2 
+PAE  P    O3P   DOUB  3 
+PAE  P    C1P   SING  4 
+PAE  O1P  1HOP  SING  5 
+PAE  O2P  2HOP  SING  6 
+PAE  C1P  C1    SING  7 
+PAE  C1P  1H1   SING  8 
+PAE  C1P  2H1   SING  9 
+PAE  C1   O1    SING  10
+PAE  C1   O2    DOUB  11
+PAE  O1   HO1   SING  12
+#

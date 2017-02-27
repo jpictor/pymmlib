@@ -1,0 +1,59 @@
+data_CSZ
+#
+_chem_comp.id                       CSZ
+_chem_comp.name                     'S-SELANYL CYSTEINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H6 N1 O2 S1 SE1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            199.106
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSZ  N    .  N   0  ?  ?  ?  1  1 
+CSZ  CA   .  C   0  ?  ?  ?  1  2 
+CSZ  C    .  C   0  ?  ?  ?  1  3 
+CSZ  O    .  O   0  ?  ?  ?  1  4 
+CSZ  CB   .  C   0  ?  ?  ?  1  5 
+CSZ  SG   .  S   0  ?  ?  ?  1  6 
+CSZ  SE   .  SE  0  ?  ?  ?  0  7 
+CSZ  OXT  .  O   0  ?  ?  ?  1  8 
+CSZ  H    .  H   0  ?  ?  ?  1  9 
+CSZ  HN2  .  H   0  ?  ?  ?  1  10
+CSZ  HA   .  H   0  ?  ?  ?  1  11
+CSZ  1HB  .  H   0  ?  ?  ?  0  12
+CSZ  2HB  .  H   0  ?  ?  ?  0  13
+CSZ  HXT  .  H   0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSZ  N    CA   SING  1 
+CSZ  N    H    SING  2 
+CSZ  N    HN2  SING  3 
+CSZ  CA   C    SING  4 
+CSZ  CA   CB   SING  5 
+CSZ  CA   HA   SING  6 
+CSZ  C    O    DOUB  7 
+CSZ  C    OXT  SING  8 
+CSZ  CB   SG   SING  9 
+CSZ  CB   1HB  SING  10
+CSZ  CB   2HB  SING  11
+CSZ  SG   SE   SING  12
+CSZ  OXT  HXT  SING  13
+#

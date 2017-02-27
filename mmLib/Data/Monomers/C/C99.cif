@@ -1,0 +1,101 @@
+data_C99
+#
+_chem_comp.id                       C99
+_chem_comp.name                     '{(2R)-2-[(1S,2R)-1-AMINO-2-HYDROXYPROPYL]-2-HYDROXY-4,5-DIOXOIMIDAZOLIDIN-1-YL}ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H13 N3 O6'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (THR-PHE-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'THR, PHE, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            247.207
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          C99
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@H]([C@@H]([C@]1(NC(=O)C(=O)N1CC(=O)O)O)N)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+C99  N1    .  N  0  1.727   4.053  1.374   1  N  1 
+C99  CA1   .  C  0  0.762   5.140  1.756   1  N  2 
+C99  CB1   .  C  0  -0.102  5.399  0.563   1  N  3 
+C99  CG1   .  C  0  0.724   5.829  -0.636  1  N  4 
+C99  OG1   .  O  0  -0.977  4.384  0.115   1  N  5 
+C99  C1    .  C  0  -0.077  4.863  2.968   1  N  6 
+C99  O1    .  O  0  -0.699  6.248  3.118   1  N  7 
+C99  N2    .  N  0  -1.088  3.891  3.098   1  N  8 
+C99  N3    .  N  0  0.720   4.603  4.137   1  N  9 
+C99  C2    .  C  0  0.027   3.866  5.124   1  N  10
+C99  O2    .  O  0  0.289   3.640  6.244   1  N  11
+C99  CA2   .  C  0  -1.102  3.465  4.351   1  N  12
+C99  CA3   .  C  0  1.965   5.162  4.557   1  N  13
+C99  C3    .  C  0  2.119   6.586  5.131   1  N  14
+C99  O3    .  O  0  3.003   6.885  5.873   1  N  15
+C99  O4    .  O  0  -2.079  2.754  4.785   1  N  16
+C99  OXT   .  O  0  1.172   7.406  4.627   1  N  17
+C99  1HN1  .  H  0  1.941   4.124  0.400   0  N  18
+C99  2HN1  .  H  0  2.567   4.150  1.908   0  N  19
+C99  HA1   .  H  0  1.355   6.020  2.048   1  N  20
+C99  HB1   .  H  0  -0.754  6.189  0.964   1  N  21
+C99  1HG1  .  H  0  0.070   5.933  -1.514  0  N  22
+C99  2HG1  .  H  0  1.206   6.794  -0.422  0  N  23
+C99  3HG1  .  H  0  1.495   5.071  -0.841  0  N  24
+C99  HOG1  .  H  0  -1.173  4.518  -0.805  0  N  25
+C99  HO1   .  H  0  -0.828  6.439  4.039   1  N  26
+C99  HN2   .  H  0  -1.693  3.576  2.367   1  N  27
+C99  1HA3  .  H  0  2.320   4.495  5.356   0  N  28
+C99  2HA3  .  H  0  2.500   5.252  3.600   0  N  29
+C99  HO3   .  H  0  2.951   7.813  6.071   1  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+C99  N1   CA1   SING  N  1 
+C99  N1   1HN1  SING  N  2 
+C99  N1   2HN1  SING  N  3 
+C99  CA1  CB1   SING  N  4 
+C99  CA1  C1    SING  N  5 
+C99  CA1  HA1   SING  N  6 
+C99  CB1  CG1   SING  N  7 
+C99  CB1  OG1   SING  N  8 
+C99  CB1  HB1   SING  N  9 
+C99  CG1  1HG1  SING  N  10
+C99  CG1  2HG1  SING  N  11
+C99  CG1  3HG1  SING  N  12
+C99  OG1  HOG1  SING  N  13
+C99  C1   N2    SING  N  14
+C99  C1   O1    SING  N  15
+C99  C1   N3    SING  N  16
+C99  O1   HO1   SING  N  17
+C99  N2   CA2   SING  N  18
+C99  N2   HN2   SING  N  19
+C99  N3   CA3   SING  N  20
+C99  N3   C2    SING  N  21
+C99  C2   CA2   SING  N  22
+C99  C2   O2    DOUB  N  23
+C99  CA2  O4    DOUB  N  24
+C99  CA3  C3    SING  N  25
+C99  CA3  1HA3  SING  N  26
+C99  CA3  2HA3  SING  N  27
+C99  C3   OXT   DOUB  N  28
+C99  C3   O3    SING  N  29
+C99  O3   HO3   SING  N  30
+#

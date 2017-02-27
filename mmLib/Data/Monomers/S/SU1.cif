@@ -1,0 +1,110 @@
+data_SU1
+#
+_chem_comp.id                   SU1
+_chem_comp.name                 3-[(3-(2-CARBOXYETHYL)-4-METHYLPYRROL-2-YL)METHYLENE]-2-INDOLINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H16 N2 O3'
+_chem_comp.pdbx_synonyms        SU5402
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        296.325
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SU1  N1    .  N  0  ?  ?  ?  1  1 
+SU1  C2    .  C  0  ?  ?  ?  1  2 
+SU1  O2    .  O  0  ?  ?  ?  1  3 
+SU1  C3    .  C  0  ?  ?  ?  1  4 
+SU1  C4    .  C  0  ?  ?  ?  1  5 
+SU1  C5    .  C  0  ?  ?  ?  1  6 
+SU1  C6    .  C  0  ?  ?  ?  1  7 
+SU1  C7    .  C  0  ?  ?  ?  1  8 
+SU1  C8    .  C  0  ?  ?  ?  1  9 
+SU1  C9    .  C  0  ?  ?  ?  1  10
+SU1  C10   .  C  0  ?  ?  ?  1  11
+SU1  N1'   .  N  0  ?  ?  ?  1  12
+SU1  C2'   .  C  0  ?  ?  ?  1  13
+SU1  C3'   .  C  0  ?  ?  ?  1  14
+SU1  C4'   .  C  0  ?  ?  ?  1  15
+SU1  C5'   .  C  0  ?  ?  ?  1  16
+SU1  C11   .  C  0  ?  ?  ?  1  17
+SU1  C12   .  C  0  ?  ?  ?  1  18
+SU1  C13   .  C  0  ?  ?  ?  1  19
+SU1  C14   .  C  0  ?  ?  ?  1  20
+SU1  O3    .  O  0  ?  ?  ?  1  21
+SU1  O4    .  O  0  ?  ?  ?  1  22
+SU1  HN1   .  H  0  ?  ?  ?  1  23
+SU1  H4    .  H  0  ?  ?  ?  1  24
+SU1  H5    .  H  0  ?  ?  ?  1  25
+SU1  H6    .  H  0  ?  ?  ?  1  26
+SU1  H7    .  H  0  ?  ?  ?  1  27
+SU1  1H10  .  H  0  ?  ?  ?  0  28
+SU1  'HN1  .  H  0  ?  ?  ?  0  29
+SU1  1H5'  .  H  0  ?  ?  ?  0  30
+SU1  1H11  .  H  0  ?  ?  ?  0  31
+SU1  2H11  .  H  0  ?  ?  ?  0  32
+SU1  3H11  .  H  0  ?  ?  ?  0  33
+SU1  1H12  .  H  0  ?  ?  ?  0  34
+SU1  2H12  .  H  0  ?  ?  ?  0  35
+SU1  1H13  .  H  0  ?  ?  ?  0  36
+SU1  2H13  .  H  0  ?  ?  ?  0  37
+SU1  HO4   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SU1  N1   C2    SING  1 
+SU1  N1   C8    SING  2 
+SU1  N1   HN1   SING  3 
+SU1  C2   C3    SING  4 
+SU1  C2   O2    DOUB  5 
+SU1  C3   C9    SING  6 
+SU1  C3   C10   DOUB  7 
+SU1  C4   C9    DOUB  8 
+SU1  C4   C5    SING  9 
+SU1  C4   H4    SING  10
+SU1  C5   C6    DOUB  11
+SU1  C5   H5    SING  12
+SU1  C6   C7    SING  13
+SU1  C6   H6    SING  14
+SU1  C7   C8    DOUB  15
+SU1  C7   H7    SING  16
+SU1  C8   C9    SING  17
+SU1  C10  C2'   SING  18
+SU1  C10  1H10  SING  19
+SU1  N1'  C2'   SING  20
+SU1  N1'  C5'   SING  21
+SU1  N1'  'HN1  SING  22
+SU1  C2'  C3'   DOUB  23
+SU1  C3'  C4'   SING  24
+SU1  C3'  C12   SING  25
+SU1  C4'  C5'   DOUB  26
+SU1  C4'  C11   SING  27
+SU1  C5'  1H5'  SING  28
+SU1  C11  1H11  SING  29
+SU1  C11  2H11  SING  30
+SU1  C11  3H11  SING  31
+SU1  C12  C13   SING  32
+SU1  C12  1H12  SING  33
+SU1  C12  2H12  SING  34
+SU1  C13  C14   SING  35
+SU1  C13  1H13  SING  36
+SU1  C13  2H13  SING  37
+SU1  C14  O3    DOUB  38
+SU1  C14  O4    SING  39
+SU1  O4   HO4   SING  40
+#

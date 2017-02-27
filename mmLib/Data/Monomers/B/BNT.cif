@@ -1,0 +1,80 @@
+data_BNT
+#
+_chem_comp.id                   BNT
+_chem_comp.name                 2,5-DIBROMO-3-ISOPROPYL-6-METHYLBENZO-1,4-QUINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 O2 BR2'
+_chem_comp.pdbx_synonyms        '2,5-DIBROMO-3-METHYL-6-ISOPROPYLBENZOQUINONE, DBMIB'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.996
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNT  CAA   .  C   0  78.402  -18.355  75.347  1  1 
+BNT  CAD   .  C   0  78.414  -19.302  74.146  1  2 
+BNT  CAC   .  C   0  78.937  -18.573  72.908  1  3 
+BNT  CAE   .  C   0  77.192  -19.987  74.081  1  4 
+BNT  CAF   .  C   0  76.068  -19.337  73.579  1  5 
+BNT  OAB   .  O   0  76.178  -18.158  73.224  1  6 
+BNT  CAG   .  C   0  74.827  -19.964  73.441  1  7 
+BNT  BRAH  .  BR  0  73.360  -18.974  72.810  0  8 
+BNT  CAL   .  C   0  74.673  -21.303  73.796  1  9 
+BNT  CAM   .  C   0  73.444  -21.945  73.681  1  10
+BNT  CAK   .  C   0  75.752  -22.030  74.301  1  11
+BNT  OAN   .  O   0  75.615  -23.217  74.571  1  12
+BNT  CAJ   .  C   0  77.108  -21.321  74.473  1  13
+BNT  BRAI  .  BR  0  78.524  -22.239  75.304  0  14
+BNT  1HAM  .  H   0  ?       ?        ?       0  15
+BNT  2HAM  .  H   0  ?       ?        ?       0  16
+BNT  3HAM  .  H   0  ?       ?        ?       0  17
+BNT  HAD   .  H   0  ?       ?        ?       1  18
+BNT  1HAA  .  H   0  ?       ?        ?       0  19
+BNT  2HAA  .  H   0  ?       ?        ?       0  20
+BNT  3HAA  .  H   0  ?       ?        ?       0  21
+BNT  1HAC  .  H   0  ?       ?        ?       0  22
+BNT  2HAC  .  H   0  ?       ?        ?       0  23
+BNT  3HAC  .  H   0  ?       ?        ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNT  CAA  CAD   SING  1 
+BNT  CAA  1HAA  SING  2 
+BNT  CAA  2HAA  SING  3 
+BNT  CAA  3HAA  SING  4 
+BNT  CAD  CAE   SING  5 
+BNT  CAD  HAD   SING  6 
+BNT  CAD  CAC   SING  7 
+BNT  CAC  1HAC  SING  8 
+BNT  CAC  2HAC  SING  9 
+BNT  CAC  3HAC  SING  10
+BNT  CAE  CAF   SING  11
+BNT  CAE  CAJ   DOUB  12
+BNT  CAF  CAG   SING  13
+BNT  CAF  OAB   DOUB  14
+BNT  CAG  CAL   DOUB  15
+BNT  CAG  BRAH  SING  16
+BNT  CAL  CAM   SING  17
+BNT  CAL  CAK   SING  18
+BNT  CAM  1HAM  SING  19
+BNT  CAM  2HAM  SING  20
+BNT  CAM  3HAM  SING  21
+BNT  CAK  CAJ   SING  22
+BNT  CAK  OAN   DOUB  23
+BNT  CAJ  BRAI  SING  24
+#

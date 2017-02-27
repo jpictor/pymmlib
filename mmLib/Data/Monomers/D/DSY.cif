@@ -1,0 +1,92 @@
+data_DSY
+#
+_chem_comp.id                   DSY
+_chem_comp.name                 '5-(DIMETHYLAMINO)-2-NAPHTHALENESULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        251.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DSY  C1    .  C  0  ?  ?  ?  1  1 
+DSY  C2    .  C  0  ?  ?  ?  1  2 
+DSY  C3    .  C  0  ?  ?  ?  1  3 
+DSY  C4    .  C  0  ?  ?  ?  1  4 
+DSY  C4A   .  C  0  ?  ?  ?  1  5 
+DSY  C5    .  C  0  ?  ?  ?  1  6 
+DSY  C6    .  C  0  ?  ?  ?  1  7 
+DSY  C7    .  C  0  ?  ?  ?  1  8 
+DSY  C8    .  C  0  ?  ?  ?  1  9 
+DSY  C8A   .  C  0  ?  ?  ?  1  10
+DSY  N     .  N  0  ?  ?  ?  1  11
+DSY  CM1   .  C  0  ?  ?  ?  1  12
+DSY  CM2   .  C  0  ?  ?  ?  1  13
+DSY  S     .  S  0  ?  ?  ?  1  14
+DSY  O1S   .  O  0  ?  ?  ?  1  15
+DSY  O2S   .  O  0  ?  ?  ?  1  16
+DSY  O3S   .  O  0  ?  ?  ?  1  17
+DSY  H1    .  H  0  ?  ?  ?  1  18
+DSY  H3    .  H  0  ?  ?  ?  1  19
+DSY  H4    .  H  0  ?  ?  ?  1  20
+DSY  H6    .  H  0  ?  ?  ?  1  21
+DSY  H7    .  H  0  ?  ?  ?  1  22
+DSY  H8    .  H  0  ?  ?  ?  1  23
+DSY  1HM1  .  H  0  ?  ?  ?  0  24
+DSY  2HM1  .  H  0  ?  ?  ?  0  25
+DSY  3HM1  .  H  0  ?  ?  ?  0  26
+DSY  1HM2  .  H  0  ?  ?  ?  0  27
+DSY  2HM2  .  H  0  ?  ?  ?  0  28
+DSY  3HM2  .  H  0  ?  ?  ?  0  29
+DSY  2HOS  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DSY  C1   C2    DOUB  1 
+DSY  C1   C8A   SING  2 
+DSY  C1   H1    SING  3 
+DSY  C2   C3    SING  4 
+DSY  C2   S     SING  5 
+DSY  C3   C4    DOUB  6 
+DSY  C3   H3    SING  7 
+DSY  C4   C4A   SING  8 
+DSY  C4   H4    SING  9 
+DSY  C4A  C5    DOUB  10
+DSY  C4A  C8A   SING  11
+DSY  C5   C6    SING  12
+DSY  C5   N     SING  13
+DSY  C6   C7    DOUB  14
+DSY  C6   H6    SING  15
+DSY  C7   C8    SING  16
+DSY  C7   H7    SING  17
+DSY  C8   C8A   DOUB  18
+DSY  C8   H8    SING  19
+DSY  N    CM1   SING  20
+DSY  N    CM2   SING  21
+DSY  CM1  1HM1  SING  22
+DSY  CM1  2HM1  SING  23
+DSY  CM1  3HM1  SING  24
+DSY  CM2  1HM2  SING  25
+DSY  CM2  2HM2  SING  26
+DSY  CM2  3HM2  SING  27
+DSY  S    O1S   DOUB  28
+DSY  S    O2S   SING  29
+DSY  S    O3S   DOUB  30
+DSY  O2S  2HOS  SING  31
+#

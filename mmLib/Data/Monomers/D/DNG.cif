@@ -1,0 +1,79 @@
+data_DNG
+#
+_chem_comp.id                       DNG
+_chem_comp.name                     N-FORMYL-D-NORLEUCINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H13 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            159.185
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DNG  C1   .  C  0  34.969  21.062  2.425  1  1 
+DNG  O1   .  O  0  33.897  20.866  1.858  1  2 
+DNG  N    .  N  0  35.079  21.183  3.747  1  3 
+DNG  CA   .  C  0  33.961  21.123  4.677  1  4 
+DNG  C    .  C  0  33.441  19.686  4.844  1  5 
+DNG  O    .  O  0  33.387  19.154  5.954  1  6 
+DNG  CB   .  C  0  34.382  21.732  6.025  1  7 
+DNG  CG   .  C  0  34.940  23.160  5.923  1  8 
+DNG  CD   .  C  0  33.929  24.145  5.325  1  9 
+DNG  CE   .  C  0  34.469  25.574  5.401  1  10
+DNG  OXT  .  O  0  ?       ?       ?      1  11
+DNG  1HN  .  H  0  36.003  21.294  4.131  0  12
+DNG  H1   .  H  0  35.940  21.148  1.938  1  13
+DNG  HA   .  H  0  33.133  21.707  4.276  1  14
+DNG  1HB  .  H  0  33.517  21.741  6.690  0  15
+DNG  2HB  .  H  0  35.148  21.097  6.475  0  16
+DNG  1HG  .  H  0  35.194  23.490  6.932  0  17
+DNG  2HG  .  H  0  35.852  23.169  5.325  0  18
+DNG  1HD  .  H  0  33.744  23.900  4.279  0  19
+DNG  2HD  .  H  0  32.990  24.090  5.878  0  20
+DNG  1HE  .  H  0  34.639  25.855  6.441  0  21
+DNG  2HE  .  H  0  35.408  25.647  4.851  0  22
+DNG  3HE  .  H  0  33.745  26.261  4.962  0  23
+DNG  HXT  .  H  0  ?       ?       ?      1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DNG  C1   N    SING  1 
+DNG  C1   H1   SING  2 
+DNG  C1   O1   DOUB  3 
+DNG  N    1HN  SING  4 
+DNG  N    CA   SING  5 
+DNG  CA   HA   SING  6 
+DNG  CA   C    SING  7 
+DNG  CA   CB   SING  8 
+DNG  C    O    DOUB  9 
+DNG  C    OXT  SING  10
+DNG  CB   1HB  SING  11
+DNG  CB   2HB  SING  12
+DNG  CB   CG   SING  13
+DNG  CG   1HG  SING  14
+DNG  CG   2HG  SING  15
+DNG  CG   CD   SING  16
+DNG  CD   1HD  SING  17
+DNG  CD   2HD  SING  18
+DNG  CD   CE   SING  19
+DNG  CE   1HE  SING  20
+DNG  CE   2HE  SING  21
+DNG  CE   3HE  SING  22
+DNG  OXT  HXT  SING  23
+#

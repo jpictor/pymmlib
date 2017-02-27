@@ -1,0 +1,88 @@
+data_OTA
+#
+_chem_comp.id                   OTA
+_chem_comp.name                 '2-(OXALYL-AMINO)-4,5,6,7-TETRAHYDRO-THIENO[2,3-C]PYRIDINE-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 N2 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.259
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OTA  N1   .  N  0  ?  ?  ?  1  1 
+OTA  C2   .  C  0  ?  ?  ?  1  2 
+OTA  C3   .  C  0  ?  ?  ?  1  3 
+OTA  C4   .  C  0  ?  ?  ?  1  4 
+OTA  C5   .  C  0  ?  ?  ?  1  5 
+OTA  C6   .  C  0  ?  ?  ?  1  6 
+OTA  S13  .  S  0  ?  ?  ?  1  7 
+OTA  C14  .  C  0  ?  ?  ?  1  8 
+OTA  C15  .  C  0  ?  ?  ?  1  9 
+OTA  C16  .  C  0  ?  ?  ?  1  10
+OTA  O17  .  O  0  ?  ?  ?  1  11
+OTA  O18  .  O  0  ?  ?  ?  1  12
+OTA  N19  .  N  0  ?  ?  ?  1  13
+OTA  C20  .  C  0  ?  ?  ?  1  14
+OTA  C21  .  C  0  ?  ?  ?  1  15
+OTA  O22  .  O  0  ?  ?  ?  1  16
+OTA  O23  .  O  0  ?  ?  ?  1  17
+OTA  O24  .  O  0  ?  ?  ?  1  18
+OTA  H1   .  H  0  ?  ?  ?  1  19
+OTA  1H2  .  H  0  ?  ?  ?  0  20
+OTA  2H2  .  H  0  ?  ?  ?  0  21
+OTA  1H6  .  H  0  ?  ?  ?  0  22
+OTA  2H6  .  H  0  ?  ?  ?  0  23
+OTA  1H5  .  H  0  ?  ?  ?  0  24
+OTA  2H5  .  H  0  ?  ?  ?  0  25
+OTA  H17  .  H  0  ?  ?  ?  1  26
+OTA  H19  .  H  0  ?  ?  ?  1  27
+OTA  H22  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OTA  N1   C2   SING  1 
+OTA  N1   C6   SING  2 
+OTA  N1   H1   SING  3 
+OTA  C2   C3   SING  4 
+OTA  C2   1H2  SING  5 
+OTA  C2   2H2  SING  6 
+OTA  C3   C4   DOUB  7 
+OTA  C3   S13  SING  8 
+OTA  C4   C5   SING  9 
+OTA  C4   C15  SING  10
+OTA  C5   C6   SING  11
+OTA  C5   1H5  SING  12
+OTA  C5   2H5  SING  13
+OTA  C6   1H6  SING  14
+OTA  C6   2H6  SING  15
+OTA  S13  C14  SING  16
+OTA  C14  C15  DOUB  17
+OTA  C14  N19  SING  18
+OTA  C15  C16  SING  19
+OTA  C16  O17  SING  20
+OTA  C16  O18  DOUB  21
+OTA  O17  H17  SING  22
+OTA  N19  C20  SING  23
+OTA  N19  H19  SING  24
+OTA  C20  C21  SING  25
+OTA  C20  O24  DOUB  26
+OTA  C21  O22  SING  27
+OTA  C21  O23  DOUB  28
+OTA  O22  H22  SING  29
+#

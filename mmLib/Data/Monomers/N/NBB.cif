@@ -1,0 +1,89 @@
+data_NBB
+#
+_chem_comp.id                   NBB
+_chem_comp.name                 N-BUTYL-BENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        213.294
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NBB  O1S   .  O  0  13.217  13.914  -3.960  1  1 
+NBB  S     .  S  0  13.301  13.262  -2.684  1  2 
+NBB  O2S   .  O  0  12.167  12.370  -2.577  1  3 
+NBB  N10   .  N  0  13.237  14.282  -1.432  1  4 
+NBB  C11   .  C  0  14.322  14.352  -0.458  1  5 
+NBB  C12   .  C  0  13.946  15.039  0.849   1  6 
+NBB  C13   .  C  0  15.021  14.773  1.904   1  7 
+NBB  C14   .  C  0  15.133  15.873  2.943   1  8 
+NBB  C4    .  C  0  14.707  12.494  -2.689  1  9 
+NBB  C5    .  C  0  15.874  13.236  -2.873  1  10
+NBB  C6    .  C  0  17.118  12.612  -2.889  1  11
+NBB  C1    .  C  0  17.200  11.230  -2.728  1  12
+NBB  C2    .  C  0  16.035  10.482  -2.543  1  13
+NBB  C3    .  C  0  14.791  11.113  -2.520  1  14
+NBB  1H14  .  H  0  ?       ?       ?       0  15
+NBB  2H14  .  H  0  ?       ?       ?       0  16
+NBB  3H14  .  H  0  ?       ?       ?       0  17
+NBB  1H13  .  H  0  ?       ?       ?       0  18
+NBB  2H13  .  H  0  ?       ?       ?       0  19
+NBB  1H12  .  H  0  ?       ?       ?       0  20
+NBB  2H12  .  H  0  ?       ?       ?       0  21
+NBB  1H11  .  H  0  ?       ?       ?       0  22
+NBB  2H11  .  H  0  ?       ?       ?       0  23
+NBB  H10   .  H  0  ?       ?       ?       1  24
+NBB  H3    .  H  0  ?       ?       ?       1  25
+NBB  H2    .  H  0  ?       ?       ?       1  26
+NBB  H1    .  H  0  ?       ?       ?       1  27
+NBB  H6    .  H  0  ?       ?       ?       1  28
+NBB  H5    .  H  0  ?       ?       ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NBB  O1S  S     DOUB  1 
+NBB  S    N10   SING  2 
+NBB  S    O2S   DOUB  3 
+NBB  S    C4    SING  4 
+NBB  N10  C11   SING  5 
+NBB  N10  H10   SING  6 
+NBB  C11  C12   SING  7 
+NBB  C11  1H11  SING  8 
+NBB  C11  2H11  SING  9 
+NBB  C12  C13   SING  10
+NBB  C12  1H12  SING  11
+NBB  C12  2H12  SING  12
+NBB  C13  C14   SING  13
+NBB  C13  1H13  SING  14
+NBB  C13  2H13  SING  15
+NBB  C14  1H14  SING  16
+NBB  C14  2H14  SING  17
+NBB  C14  3H14  SING  18
+NBB  C4   C3    AROM  19
+NBB  C4   C5    AROM  20
+NBB  C5   C6    AROM  21
+NBB  C5   H5    SING  22
+NBB  C6   C1    AROM  23
+NBB  C6   H6    SING  24
+NBB  C1   C2    AROM  25
+NBB  C1   H1    SING  26
+NBB  C2   C3    AROM  27
+NBB  C2   H2    SING  28
+NBB  C3   H3    SING  29
+#

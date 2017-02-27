@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.GeometryDict</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;GeometryDict
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.GeometryDict-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="mmLib.GeometryDict-module.html">Module mmLib.GeometryDict</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">## Copyright 2002-2010 by PyMMLib Development Group (see AUTHORS file)</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment">## This code is part of the PyMMLib distribution and governed by</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-comment">## its license.  Please see the LICENSE file that should have been</tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-comment">## included as part of this package.</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-docstring">"""Geometry hasing/fast lookup classes.</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">__future__</tt> <tt class="py-keyword">import</tt> <tt class="py-name">generators</tt> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">random</tt> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">math</tt> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">itertools</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict"></a><div id="XYZDict-def"><a name="L14"></a><tt class="py-lineno"> 14</tt> <a class="py-toggle" href="#" id="XYZDict-toggle" onclick="return toggle('XYZDict');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html">XYZDict</a><tt class="py-op">(</tt><tt class="py-base-class">object</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="XYZDict-expanded"><a name="L15"></a><tt class="py-lineno"> 15</tt>  <tt class="py-line">    <tt class="py-docstring">"""Hash all objects according to their position, allowing spacial</tt> </tt>
+<a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line"><tt class="py-docstring">    location of objects quickly.  This is a brain-dead simple implementation,</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line"><tt class="py-docstring">    but it gets the job done.</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="XYZDict.__init__"></a><div id="XYZDict.__init__-def"><a name="L19"></a><tt class="py-lineno"> 19</tt> <a class="py-toggle" href="#" id="XYZDict.__init__-toggle" onclick="return toggle('XYZDict.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#__init__">__init__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">resolution</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.__init__-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.__init__-expanded"><a name="L20"></a><tt class="py-lineno"> 20</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">resolution</tt> <tt class="py-op">=</tt> <tt class="py-name">resolution</tt> </tt>
+<a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt>  <tt class="py-op">=</tt> <tt class="py-op">{</tt><tt class="py-op">}</tt> </tt>
+</div><a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict.calc_geom_key"></a><div id="XYZDict.calc_geom_key-def"><a name="L23"></a><tt class="py-lineno"> 23</tt> <a class="py-toggle" href="#" id="XYZDict.calc_geom_key-toggle" onclick="return toggle('XYZDict.calc_geom_key');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#calc_geom_key">calc_geom_key</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.calc_geom_key-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.calc_geom_key-expanded"><a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">        <tt class="py-docstring">"""Calculates the cube key for the given position.</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">        <tt class="py-name">res</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">resolution</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">         </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-op">(</tt> <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">                 <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">                 <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt> <tt class="py-op">)</tt> </tt>
+</div><a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line">         </tt>
+<a name="XYZDict.add"></a><div id="XYZDict.add-def"><a name="L32"></a><tt class="py-lineno"> 32</tt> <a class="py-toggle" href="#" id="XYZDict.add-toggle" onclick="return toggle('XYZDict.add');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#add">add</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">,</tt> <tt class="py-param">item</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.add-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.add-expanded"><a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">        <tt class="py-docstring">"""Add a item.</tt> </tt>
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">        <tt class="py-name">res</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">resolution</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">         </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">        <tt class="py-name">geom_key</tt> <tt class="py-op">=</tt> <tt class="py-op">(</tt> <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line">                     <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line">                     <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">/</tt> <tt class="py-name">res</tt><tt class="py-op">)</tt> <tt class="py-op">)</tt> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line"> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">        <tt class="py-name">geom_tuple</tt> <tt class="py-op">=</tt> <tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">,</tt> <tt class="py-name">item</tt><tt class="py-op">)</tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line"> </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">.</tt><tt id="link-0" class="py-name" targets="Method mmLib.mmCIF.mmCIFData.has_key()=mmLib.mmCIF.mmCIFData-class.html#has_key,Method mmLib.mmCIF.mmCIFFile.has_key()=mmLib.mmCIF.mmCIFFile-class.html#has_key,Method mmLib.mmCIF.mmCIFRow.has_key()=mmLib.mmCIF.mmCIFRow-class.html#has_key"><a title="mmLib.mmCIF.mmCIFData.has_key
+mmLib.mmCIF.mmCIFFile.has_key
+mmLib.mmCIF.mmCIFRow.has_key" class="py-name" href="#" onclick="return doclink('link-0', 'has_key', 'link-0');">has_key</a></tt><tt class="py-op">(</tt><tt class="py-name">geom_key</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">[</tt><tt class="py-name">geom_key</tt><tt class="py-op">]</tt><tt class="py-op">.</tt><tt id="link-1" class="py-name" targets="Method mmLib.PDB.PDBFile.append()=mmLib.PDB.PDBFile-class.html#append,Method mmLib.mmCIF.mmCIFData.append()=mmLib.mmCIF.mmCIFData-class.html#append,Method mmLib.mmCIF.mmCIFFile.append()=mmLib.mmCIF.mmCIFFile-class.html#append,Method mmLib.mmCIF.mmCIFTable.append()=mmLib.mmCIF.mmCIFTable-class.html#append"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-1', 'append', 'link-1');">append</a></tt><tt class="py-op">(</tt><tt class="py-name">geom_tuple</tt><tt class="py-op">)</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">[</tt><tt class="py-name">geom_key</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-name">geom_tuple</tt><tt class="py-op">]</tt> </tt>
+</div><a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict.remove"></a><div id="XYZDict.remove-def"><a name="L48"></a><tt class="py-lineno"> 48</tt> <a class="py-toggle" href="#" id="XYZDict.remove-toggle" onclick="return toggle('XYZDict.remove');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#remove">remove</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">,</tt> <tt class="py-param">item</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.remove-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.remove-expanded"><a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line">        <tt class="py-docstring">"""Remove an item.</tt> </tt>
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line">        <tt class="py-name">geom_key</tt>   <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-2" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.calc_geom_key()=mmLib.GeometryDict.XYZDict-class.html#calc_geom_key"><a title="mmLib.GeometryDict.XYZDict.calc_geom_key" class="py-name" href="#" onclick="return doclink('link-2', 'calc_geom_key', 'link-2');">calc_geom_key</a></tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">)</tt> </tt>
+<a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line"> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line">        <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line">            <tt class="py-name">geom_list</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">[</tt><tt class="py-name">geom_key</tt><tt class="py-op">]</tt> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">        <tt class="py-keyword">except</tt> <tt class="py-name">KeyError</tt><tt class="py-op">:</tt> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line">            <tt class="py-keyword">pass</tt> </tt>
+<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple</tt> <tt class="py-keyword">in</tt> <tt class="py-name">geom_list</tt><tt class="py-op">:</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">geom_tuple</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">==</tt><tt class="py-name">item</tt><tt class="py-op">:</tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">                    <tt class="py-name">geom_list</tt><tt class="py-op">.</tt><tt id="link-3" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.remove()=mmLib.GeometryDict.XYZDict-class.html#remove,Method mmLib.mmCIF.mmCIFData.remove()=mmLib.mmCIF.mmCIFData-class.html#remove,Method mmLib.mmCIF.mmCIFTable.remove()=mmLib.mmCIF.mmCIFTable-class.html#remove"><a title="mmLib.GeometryDict.XYZDict.remove
+mmLib.mmCIF.mmCIFData.remove
+mmLib.mmCIF.mmCIFTable.remove" class="py-name" href="#" onclick="return doclink('link-3', 'remove', 'link-3');">remove</a></tt><tt class="py-op">(</tt><tt class="py-name">geom_tuple</tt><tt class="py-op">)</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line">                    <tt class="py-keyword">return</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line"> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt class="py-keyword">raise</tt> <tt class="py-name">ValueError</tt><tt class="py-op">,</tt> <tt class="py-string">"GeometryDict.remove(x) x not in GeometryDict"</tt> </tt>
+</div><a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict.iter_all"></a><div id="XYZDict.iter_all-def"><a name="L65"></a><tt class="py-lineno"> 65</tt> <a class="py-toggle" href="#" id="XYZDict.iter_all-toggle" onclick="return toggle('XYZDict.iter_all');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#iter_all">iter_all</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.iter_all-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.iter_all-expanded"><a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">        <tt class="py-docstring">"""Iter all items</tt> </tt>
+<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">geom_list</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">.</tt><tt class="py-name">values</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple</tt> <tt class="py-keyword">in</tt> <tt class="py-name">geom_list</tt><tt class="py-op">:</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">                <tt class="py-keyword">yield</tt> <tt class="py-name">geom_tuple</tt> </tt>
+</div><a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict.iter_cube_intersection"></a><div id="XYZDict.iter_cube_intersection-def"><a name="L72"></a><tt class="py-lineno"> 72</tt> <a class="py-toggle" href="#" id="XYZDict.iter_cube_intersection-toggle" onclick="return toggle('XYZDict.iter_cube_intersection');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#iter_cube_intersection">iter_cube_intersection</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">,</tt> <tt class="py-param">radius</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.iter_cube_intersection-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.iter_cube_intersection-expanded"><a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line">        <tt class="py-docstring">"""Iterate all objects which intersect the cube in no particular</tt> </tt>
+<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line"><tt class="py-docstring">        order.</tt> </tt>
+<a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">        <tt class="py-name">center_geom_key</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-4" class="py-name"><a title="mmLib.GeometryDict.XYZDict.calc_geom_key" class="py-name" href="#" onclick="return doclink('link-4', 'calc_geom_key', 'link-2');">calc_geom_key</a></tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">)</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">        <tt class="py-name">bounding_cube_blocks</tt> <tt class="py-op">=</tt> <tt class="py-name">int</tt><tt class="py-op">(</tt><tt class="py-name">radius</tt> <tt class="py-op">/</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">resolution</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-number">1</tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line"> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt id="link-5" class="py-name" targets="Variable mmLib.OpenGLDriver.i=mmLib.OpenGLDriver-module.html#i"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-5', 'i', 'link-5');">i</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-op">-</tt><tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">,</tt> <tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">+</tt><tt class="py-number">1</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">j</tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-op">-</tt><tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">,</tt> <tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">+</tt><tt class="py-number">1</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">k</tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-op">-</tt><tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">,</tt> <tt class="py-name">bounding_cube_blocks</tt><tt class="py-op">+</tt><tt class="py-number">1</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line">                    <tt class="py-name">geom_key</tt> <tt class="py-op">=</tt> <tt class="py-op">(</tt> <tt class="py-name">center_geom_key</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt id="link-6" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-6', 'i', 'link-5');">i</a></tt><tt class="py-op">,</tt> </tt>
+<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">                                 <tt class="py-name">center_geom_key</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">j</tt><tt class="py-op">,</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line">                                 <tt class="py-name">center_geom_key</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">k</tt> <tt class="py-op">)</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line">                     </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line">                    <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line">                        <tt class="py-name">geom_list</tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">geom_dict</tt><tt class="py-op">[</tt><tt class="py-name">geom_key</tt><tt class="py-op">]</tt> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line">                    <tt class="py-keyword">except</tt> <tt class="py-name">KeyError</tt><tt class="py-op">:</tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line">                        <tt class="py-keyword">continue</tt> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line"> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">                    <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple</tt> <tt class="py-keyword">in</tt> <tt class="py-name">geom_list</tt><tt class="py-op">:</tt> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line">                        <tt class="py-keyword">yield</tt> <tt class="py-name">geom_tuple</tt> </tt>
+</div><a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"> </tt>
+<a name="XYZDict.iter_sphere_intersection"></a><div id="XYZDict.iter_sphere_intersection-def"><a name="L95"></a><tt class="py-lineno"> 95</tt> <a class="py-toggle" href="#" id="XYZDict.iter_sphere_intersection-toggle" onclick="return toggle('XYZDict.iter_sphere_intersection');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#iter_sphere_intersection">iter_sphere_intersection</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">,</tt> <tt class="py-param">radius</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.iter_sphere_intersection-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.iter_sphere_intersection-expanded"><a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line">        <tt class="py-docstring">"""Iterate all objects which intersect the cube in no particular</tt> </tt>
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line"><tt class="py-docstring">        order.</tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.iter_cube_intersection()=mmLib.GeometryDict.XYZDict-class.html#iter_cube_intersection"><a title="mmLib.GeometryDict.XYZDict.iter_cube_intersection" class="py-name" href="#" onclick="return doclink('link-7', 'iter_cube_intersection', 'link-7');">iter_cube_intersection</a></tt><tt class="py-op">(</tt><tt class="py-name">position</tt><tt class="py-op">,</tt> <tt class="py-name">radius</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line">            <tt class="py-name">ipos</tt> <tt class="py-op">=</tt> <tt class="py-name">geom_tuple</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line"> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line">            <tt class="py-name">x</tt> <tt class="py-op">=</tt> <tt class="py-name">ipos</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line">            <tt class="py-name">y</tt> <tt class="py-op">=</tt> <tt class="py-name">ipos</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line">            <tt class="py-name">z</tt> <tt class="py-op">=</tt> <tt class="py-name">ipos</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">position</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line">            <tt class="py-name">d</tt> <tt class="py-op">=</tt> <tt class="py-name">math</tt><tt class="py-op">.</tt><tt id="link-8" class="py-name" targets="Variable mmLib.NumericCompat.sqrt=mmLib.NumericCompat-module.html#sqrt"><a title="mmLib.NumericCompat.sqrt" class="py-name" href="#" onclick="return doclink('link-8', 'sqrt', 'link-8');">sqrt</a></tt><tt class="py-op">(</tt><tt class="py-name">x</tt><tt class="py-op">*</tt><tt class="py-name">x</tt> <tt class="py-op">+</tt> <tt class="py-name">y</tt><tt class="py-op">*</tt><tt class="py-name">y</tt> <tt class="py-op">+</tt> <tt class="py-name">z</tt><tt class="py-op">*</tt><tt class="py-name">z</tt><tt class="py-op">)</tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line"> </tt>
+<a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt class="py-name">d</tt> <tt class="py-op">&lt;=</tt> <tt class="py-name">radius</tt><tt class="py-op">:</tt> </tt>
+<a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line">                <tt class="py-keyword">yield</tt> <tt class="py-name">geom_tuple</tt> </tt>
+</div><a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line">         </tt>
+<a name="XYZDict.iter_contact_distance"></a><div id="XYZDict.iter_contact_distance-def"><a name="L110"></a><tt class="py-lineno">110</tt> <a class="py-toggle" href="#" id="XYZDict.iter_contact_distance-toggle" onclick="return toggle('XYZDict.iter_contact_distance');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict.XYZDict-class.html#iter_contact_distance">iter_contact_distance</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">distance</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="XYZDict.iter_contact_distance-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="XYZDict.iter_contact_distance-expanded"><a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line">        <tt class="py-docstring">"""Iterates all items within a given contact distance.</tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line">        <tt class="py-name">visited</tt> <tt class="py-op">=</tt> <tt class="py-op">{</tt><tt class="py-op">}</tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line"> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple1</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-9" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.iter_all()=mmLib.GeometryDict.XYZDict-class.html#iter_all"><a title="mmLib.GeometryDict.XYZDict.iter_all" class="py-name" href="#" onclick="return doclink('link-9', 'iter_all', 'link-9');">iter_all</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line">            <tt class="py-name">visited</tt><tt class="py-op">[</tt><tt class="py-name">geom_tuple1</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">True</tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line"> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">geom_tuple2</tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-10" class="py-name"><a title="mmLib.GeometryDict.XYZDict.iter_cube_intersection" class="py-name" href="#" onclick="return doclink('link-10', 'iter_cube_intersection', 'link-7');">iter_cube_intersection</a></tt><tt class="py-op">(</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line">                <tt class="py-name">geom_tuple1</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">,</tt> <tt class="py-name">distance</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line"> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">visited</tt><tt class="py-op">.</tt><tt id="link-11" class="py-name"><a title="mmLib.mmCIF.mmCIFData.has_key
+mmLib.mmCIF.mmCIFFile.has_key
+mmLib.mmCIF.mmCIFRow.has_key" class="py-name" href="#" onclick="return doclink('link-11', 'has_key', 'link-0');">has_key</a></tt><tt class="py-op">(</tt><tt class="py-name">geom_tuple2</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line">                    <tt class="py-keyword">continue</tt> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line"> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line">                <tt class="py-name">p1</tt> <tt class="py-op">=</tt> <tt class="py-name">geom_tuple1</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line">                <tt class="py-name">p2</tt> <tt class="py-op">=</tt> <tt class="py-name">geom_tuple2</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line"> </tt>
+<a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line">                <tt class="py-name">d</tt> <tt class="py-op">=</tt> <tt class="py-name">math</tt><tt class="py-op">.</tt><tt id="link-12" class="py-name"><a title="mmLib.NumericCompat.sqrt" class="py-name" href="#" onclick="return doclink('link-12', 'sqrt', 'link-8');">sqrt</a></tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">p1</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">-</tt><tt class="py-name">p2</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">**</tt><tt class="py-number">2</tt> <tt class="py-op">+</tt> \ </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line">                              <tt class="py-op">(</tt><tt class="py-name">p1</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">-</tt><tt class="py-name">p2</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">**</tt><tt class="py-number">2</tt> <tt class="py-op">+</tt> \ </tt>
+<a name="L129"></a><tt class="py-lineno">129</tt>  <tt class="py-line">                              <tt class="py-op">(</tt><tt class="py-name">p1</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt><tt class="py-op">-</tt><tt class="py-name">p2</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">**</tt><tt class="py-number">2</tt><tt class="py-op">)</tt> </tt>
+<a name="L130"></a><tt class="py-lineno">130</tt>  <tt class="py-line"> </tt>
+<a name="L131"></a><tt class="py-lineno">131</tt>  <tt class="py-line">                <tt class="py-keyword">if</tt> <tt class="py-name">d</tt><tt class="py-op">&gt;</tt><tt class="py-name">distance</tt><tt class="py-op">:</tt> </tt>
+<a name="L132"></a><tt class="py-lineno">132</tt>  <tt class="py-line">                    <tt class="py-keyword">continue</tt> </tt>
+<a name="L133"></a><tt class="py-lineno">133</tt>  <tt class="py-line"> </tt>
+<a name="L134"></a><tt class="py-lineno">134</tt>  <tt class="py-line">                <tt class="py-keyword">yield</tt> <tt class="py-name">geom_tuple1</tt><tt class="py-op">,</tt> <tt class="py-name">geom_tuple2</tt><tt class="py-op">,</tt> <tt class="py-name">d</tt> </tt>
+</div></div><a name="L135"></a><tt class="py-lineno">135</tt>  <tt class="py-line">                 </tt>
+<a name="L136"></a><tt class="py-lineno">136</tt>  <tt class="py-line"> </tt>
+<a name="L137"></a><tt class="py-lineno">137</tt>  <tt class="py-line"><tt class="py-comment">### &lt;testing&gt;</tt> </tt>
+<a name="test_module"></a><div id="test_module-def"><a name="L138"></a><tt class="py-lineno">138</tt> <a class="py-toggle" href="#" id="test_module-toggle" onclick="return toggle('test_module');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.GeometryDict-module.html#test_module">test_module</a><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="test_module-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="test_module-expanded"><a name="L139"></a><tt class="py-lineno">139</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt class="py-name">sys</tt> </tt>
+<a name="L140"></a><tt class="py-lineno">140</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt id="link-13" class="py-name" targets="Module mmLib.FileIO=mmLib.FileIO-module.html"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-13', 'FileIO', 'link-13');">FileIO</a></tt> </tt>
+<a name="L141"></a><tt class="py-lineno">141</tt>  <tt class="py-line">     </tt>
+<a name="L142"></a><tt class="py-lineno">142</tt>  <tt class="py-line">    <tt class="py-name">struct</tt> <tt class="py-op">=</tt> <tt id="link-14" class="py-name"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-14', 'FileIO', 'link-13');">FileIO</a></tt><tt class="py-op">.</tt><tt id="link-15" class="py-name" targets="Function mmLib.FileIO.LoadStructure()=mmLib.FileIO-module.html#LoadStructure"><a title="mmLib.FileIO.LoadStructure" class="py-name" href="#" onclick="return doclink('link-15', 'LoadStructure', 'link-15');">LoadStructure</a></tt><tt class="py-op">(</tt><tt class="py-name">fil</tt><tt class="py-op">=</tt><tt class="py-name">sys</tt><tt class="py-op">.</tt><tt class="py-name">argv</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L143"></a><tt class="py-lineno">143</tt>  <tt class="py-line"> </tt>
+<a name="L144"></a><tt class="py-lineno">144</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-string">"Structure Loaded"</tt> </tt>
+<a name="L145"></a><tt class="py-lineno">145</tt>  <tt class="py-line"> </tt>
+<a name="L146"></a><tt class="py-lineno">146</tt>  <tt class="py-line">    <tt class="py-name">gdict</tt> <tt class="py-op">=</tt> <tt id="link-16" class="py-name" targets="Class mmLib.GeometryDict.XYZDict=mmLib.GeometryDict.XYZDict-class.html"><a title="mmLib.GeometryDict.XYZDict" class="py-name" href="#" onclick="return doclink('link-16', 'XYZDict', 'link-16');">XYZDict</a></tt><tt class="py-op">(</tt><tt class="py-number">2.0</tt><tt class="py-op">)</tt> </tt>
+<a name="L147"></a><tt class="py-lineno">147</tt>  <tt class="py-line"> </tt>
+<a name="L148"></a><tt class="py-lineno">148</tt>  <tt class="py-line">    <tt class="py-name">cnt</tt> <tt class="py-op">=</tt> <tt class="py-number">0</tt> </tt>
+<a name="L149"></a><tt class="py-lineno">149</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">atm</tt> <tt class="py-keyword">in</tt> <tt class="py-name">struct</tt><tt class="py-op">.</tt><tt id="link-17" class="py-name" targets="Method mmLib.Structure.AlphaHelix.iter_atoms()=mmLib.Structure.AlphaHelix-class.html#iter_atoms,Method mmLib.Structure.BetaSheet.iter_atoms()=mmLib.Structure.BetaSheet-class.html#iter_atoms,Method mmLib.Structure.Fragment.iter_atoms()=mmLib.Structure.Fragment-class.html#iter_atoms,Method mmLib.Structure.Model.iter_atoms()=mmLib.Structure.Model-class.html#iter_atoms,Method mmLib.Structure.Segment.iter_atoms()=mmLib.Structure.Segment-class.html#iter_atoms,Method mmLib.Structure.Site.iter_atoms()=mmLib.Structure.Site-class.html#iter_atoms,Method mmLib.Structure.Strand.iter_atoms()=mmLib.Structure.Strand-class.html#iter_atoms,Method mmLib.Structure.Structure.iter_atoms()=mmLib.Structure.Structure-class.html#iter_atoms,Method mmLib.TLS.TLSGroupDesc.iter_atoms()=mmLib.TLS.TLSGroupDesc-class.html#iter_atoms"><a title="mmLib.Structure.AlphaHelix.iter_atoms
+mmLib.Structure.BetaSheet.iter_atoms
+mmLib.Structure.Fragment.iter_atoms
+mmLib.Structure.Model.iter_atoms
+mmLib.Structure.Segment.iter_atoms
+mmLib.Structure.Site.iter_atoms
+mmLib.Structure.Strand.iter_atoms
+mmLib.Structure.Structure.iter_atoms
+mmLib.TLS.TLSGroupDesc.iter_atoms" class="py-name" href="#" onclick="return doclink('link-17', 'iter_atoms', 'link-17');">iter_atoms</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L150"></a><tt class="py-lineno">150</tt>  <tt class="py-line">        <tt class="py-name">gdict</tt><tt class="py-op">.</tt><tt id="link-18" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.add()=mmLib.GeometryDict.XYZDict-class.html#add,Variable mmLib.NumericCompat.add=mmLib.NumericCompat-module.html#add"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-18', 'add', 'link-18');">add</a></tt><tt class="py-op">(</tt><tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt><tt class="py-op">,</tt> <tt class="py-name">atm</tt><tt class="py-op">)</tt> </tt>
+<a name="L151"></a><tt class="py-lineno">151</tt>  <tt class="py-line">        <tt class="py-name">cnt</tt> <tt class="py-op">+=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L152"></a><tt class="py-lineno">152</tt>  <tt class="py-line"> </tt>
+<a name="L153"></a><tt class="py-lineno">153</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-string">"Hashed %d Atoms"</tt> <tt class="py-op">%</tt> <tt class="py-op">(</tt><tt class="py-name">cnt</tt><tt class="py-op">)</tt> </tt>
+<a name="L154"></a><tt class="py-lineno">154</tt>  <tt class="py-line"> </tt>
+<a name="L155"></a><tt class="py-lineno">155</tt>  <tt class="py-line">    <tt class="py-name">cnt</tt> <tt class="py-op">=</tt> <tt class="py-number">0</tt> </tt>
+<a name="L156"></a><tt class="py-lineno">156</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-op">(</tt><tt class="py-name">p1</tt><tt class="py-op">,</tt> <tt class="py-name">atm1</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-op">(</tt><tt class="py-name">p2</tt><tt class="py-op">,</tt><tt class="py-name">atm2</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">dist</tt> <tt class="py-keyword">in</tt> <tt class="py-name">gdict</tt><tt class="py-op">.</tt><tt id="link-19" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.iter_contact_distance()=mmLib.GeometryDict.XYZDict-class.html#iter_contact_distance"><a title="mmLib.GeometryDict.XYZDict.iter_contact_distance" class="py-name" href="#" onclick="return doclink('link-19', 'iter_contact_distance', 'link-19');">iter_contact_distance</a></tt><tt class="py-op">(</tt><tt class="py-number">1.9</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L157"></a><tt class="py-lineno">157</tt>  <tt class="py-line">        <tt class="py-name">cnt</tt> <tt class="py-op">+=</tt> <tt class="py-number">1</tt> </tt>
+<a name="L158"></a><tt class="py-lineno">158</tt>  <tt class="py-line">        <tt class="py-comment">#d = math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2 + (p1[2]-p2[2])**2)</tt> </tt>
+<a name="L159"></a><tt class="py-lineno">159</tt>  <tt class="py-line">        <tt class="py-comment">#print atm1, atm2, "%6.2f" % (d)</tt> </tt>
+<a name="L160"></a><tt class="py-lineno">160</tt>  <tt class="py-line"> </tt>
+<a name="L161"></a><tt class="py-lineno">161</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-string">"%d Bonds"</tt> <tt class="py-op">%</tt> <tt class="py-op">(</tt><tt class="py-name">cnt</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L162"></a><tt class="py-lineno">162</tt>  <tt class="py-line">                 </tt>
+<a name="L163"></a><tt class="py-lineno">163</tt>  <tt class="py-line"><tt class="py-keyword">if</tt> <tt class="py-name">__name__</tt><tt class="py-op">==</tt><tt class="py-string">"__main__"</tt><tt class="py-op">:</tt> </tt>
+<a name="L164"></a><tt class="py-lineno">164</tt>  <tt class="py-line">    <tt id="link-20" class="py-name" targets="Function mmLib.AtomMath.test_module()=mmLib.AtomMath-module.html#test_module,Function mmLib.FileIO.test_module()=mmLib.FileIO-module.html#test_module,Function mmLib.GeometryDict.test_module()=mmLib.GeometryDict-module.html#test_module,Function mmLib.Library.test_module()=mmLib.Library-module.html#test_module,Function mmLib.PDB.test_module()=mmLib.PDB-module.html#test_module,Function mmLib.Structure.test_module()=mmLib.Structure-module.html#test_module,Function mmLib.Superposition.test_module()=mmLib.Superposition-module.html#test_module,Function mmLib.TLS.test_module()=mmLib.TLS-module.html#test_module,Function mmLib.UnitCell.test_module()=mmLib.UnitCell-module.html#test_module,Function mmLib.mmCIF.test_module()=mmLib.mmCIF-module.html#test_module"><a title="mmLib.AtomMath.test_module
+mmLib.FileIO.test_module
+mmLib.GeometryDict.test_module
+mmLib.Library.test_module
+mmLib.PDB.test_module
+mmLib.Structure.test_module
+mmLib.Superposition.test_module
+mmLib.TLS.test_module
+mmLib.UnitCell.test_module
+mmLib.mmCIF.test_module" class="py-name" href="#" onclick="return doclink('link-20', 'test_module', 'link-20');">test_module</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L165"></a><tt class="py-lineno">165</tt>  <tt class="py-line"><tt class="py-comment">### &lt;testing&gt;</tt> </tt>
+<a name="L166"></a><tt class="py-lineno">166</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:17 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

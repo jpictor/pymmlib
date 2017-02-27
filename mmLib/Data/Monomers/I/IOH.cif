@@ -1,0 +1,54 @@
+data_IOH
+#
+_chem_comp.id                   IOH
+_chem_comp.name                 '2-PROPANOL, ISOPROPANOL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAS
+_chem_comp.formula              'C3 H8 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        60.096
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IOH  CA    .  C  0  ?  ?  ?  1  1 
+IOH  CB1   .  C  0  ?  ?  ?  1  2 
+IOH  CB2   .  C  0  ?  ?  ?  1  3 
+IOH  O     .  O  0  ?  ?  ?  1  4 
+IOH  HA    .  H  0  ?  ?  ?  1  5 
+IOH  1HB1  .  H  0  ?  ?  ?  0  6 
+IOH  2HB1  .  H  0  ?  ?  ?  0  7 
+IOH  3HB1  .  H  0  ?  ?  ?  0  8 
+IOH  1HB2  .  H  0  ?  ?  ?  0  9 
+IOH  2HB2  .  H  0  ?  ?  ?  0  10
+IOH  3HB2  .  H  0  ?  ?  ?  0  11
+IOH  H     .  H  0  ?  ?  ?  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IOH  CA   CB1   SING  1 
+IOH  CA   CB2   SING  2 
+IOH  CA   O     SING  3 
+IOH  CA   HA    SING  4 
+IOH  CB1  1HB1  SING  5 
+IOH  CB1  2HB1  SING  6 
+IOH  CB1  3HB1  SING  7 
+IOH  CB2  1HB2  SING  8 
+IOH  CB2  2HB2  SING  9 
+IOH  CB2  3HB2  SING  10
+IOH  O    H     SING  11
+#

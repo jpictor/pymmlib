@@ -1,0 +1,112 @@
+data_MTB
+#
+_chem_comp.id                   MTB
+_chem_comp.name                 '2-((3'-TERTBUTYL-4'-HYDROXYPHENYL)AZO)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H18 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.341
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTB  C1    .  C  0  ?  ?  ?  1  1 
+MTB  C2    .  C  0  ?  ?  ?  1  2 
+MTB  C3    .  C  0  ?  ?  ?  1  3 
+MTB  C4    .  C  0  ?  ?  ?  1  4 
+MTB  C5    .  C  0  ?  ?  ?  1  5 
+MTB  C6    .  C  0  ?  ?  ?  1  6 
+MTB  C1'   .  C  0  ?  ?  ?  1  7 
+MTB  C2'   .  C  0  ?  ?  ?  1  8 
+MTB  C3'   .  C  0  ?  ?  ?  1  9 
+MTB  C4'   .  C  0  ?  ?  ?  1  10
+MTB  C5'   .  C  0  ?  ?  ?  1  11
+MTB  C6'   .  C  0  ?  ?  ?  1  12
+MTB  C     .  C  0  ?  ?  ?  1  13
+MTB  CT3   .  C  0  ?  ?  ?  1  14
+MTB  1CH3  .  C  0  ?  ?  ?  0  15
+MTB  2CH3  .  C  0  ?  ?  ?  0  16
+MTB  3CH3  .  C  0  ?  ?  ?  0  17
+MTB  N1    .  N  0  ?  ?  ?  1  18
+MTB  N1'   .  N  0  ?  ?  ?  1  19
+MTB  O     .  O  0  ?  ?  ?  1  20
+MTB  OXT   .  O  0  ?  ?  ?  1  21
+MTB  O4'   .  O  0  ?  ?  ?  1  22
+MTB  H3    .  H  0  ?  ?  ?  1  23
+MTB  H4    .  H  0  ?  ?  ?  1  24
+MTB  H5    .  H  0  ?  ?  ?  1  25
+MTB  H6    .  H  0  ?  ?  ?  1  26
+MTB  H2'   .  H  0  ?  ?  ?  1  27
+MTB  H5'   .  H  0  ?  ?  ?  1  28
+MTB  H6'   .  H  0  ?  ?  ?  1  29
+MTB  1H1   .  H  0  ?  ?  ?  0  30
+MTB  2H1   .  H  0  ?  ?  ?  0  31
+MTB  3H1   .  H  0  ?  ?  ?  0  32
+MTB  1H2   .  H  0  ?  ?  ?  0  33
+MTB  2H2   .  H  0  ?  ?  ?  0  34
+MTB  3H2   .  H  0  ?  ?  ?  0  35
+MTB  1H3   .  H  0  ?  ?  ?  0  36
+MTB  2H3   .  H  0  ?  ?  ?  0  37
+MTB  3H3   .  H  0  ?  ?  ?  0  38
+MTB  HXT   .  H  0  ?  ?  ?  1  39
+MTB  'HO4  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTB  C1    C2    SING  1 
+MTB  C1    C6    DOUB  2 
+MTB  C1    N1    SING  3 
+MTB  C2    C3    DOUB  4 
+MTB  C2    C     SING  5 
+MTB  C3    C4    SING  6 
+MTB  C3    H3    SING  7 
+MTB  C4    C5    DOUB  8 
+MTB  C4    H4    SING  9 
+MTB  C5    C6    SING  10
+MTB  C5    H5    SING  11
+MTB  C6    H6    SING  12
+MTB  C1'   C2'   SING  13
+MTB  C1'   C6'   DOUB  14
+MTB  C1'   N1'   SING  15
+MTB  C2'   C3'   DOUB  16
+MTB  C2'   H2'   SING  17
+MTB  C3'   C4'   SING  18
+MTB  C3'   CT3   SING  19
+MTB  C4'   C5'   DOUB  20
+MTB  C4'   O4'   SING  21
+MTB  C5'   C6'   SING  22
+MTB  C5'   H5'   SING  23
+MTB  C6'   H6'   SING  24
+MTB  C     O     DOUB  25
+MTB  C     OXT   SING  26
+MTB  CT3   1CH3  SING  27
+MTB  CT3   2CH3  SING  28
+MTB  CT3   3CH3  SING  29
+MTB  1CH3  1H1   SING  30
+MTB  1CH3  2H1   SING  31
+MTB  1CH3  3H1   SING  32
+MTB  2CH3  1H2   SING  33
+MTB  2CH3  2H2   SING  34
+MTB  2CH3  3H2   SING  35
+MTB  3CH3  1H3   SING  36
+MTB  3CH3  2H3   SING  37
+MTB  3CH3  3H3   SING  38
+MTB  N1    N1'   DOUB  39
+MTB  OXT   HXT   SING  40
+MTB  O4'   'HO4  SING  41
+#

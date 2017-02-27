@@ -1,0 +1,60 @@
+data_SBT
+#
+_chem_comp.id                   SBT
+_chem_comp.name                 2-BUTANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        74.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBT  C1   .  C  0  ?  ?  ?  1  1 
+SBT  C2   .  C  0  ?  ?  ?  1  2 
+SBT  C3   .  C  0  ?  ?  ?  1  3 
+SBT  C4   .  C  0  ?  ?  ?  1  4 
+SBT  OH   .  O  0  ?  ?  ?  1  5 
+SBT  1H1  .  H  0  ?  ?  ?  0  6 
+SBT  2H1  .  H  0  ?  ?  ?  0  7 
+SBT  3H1  .  H  0  ?  ?  ?  0  8 
+SBT  H2   .  H  0  ?  ?  ?  1  9 
+SBT  1H3  .  H  0  ?  ?  ?  0  10
+SBT  2H3  .  H  0  ?  ?  ?  0  11
+SBT  1H4  .  H  0  ?  ?  ?  0  12
+SBT  2H4  .  H  0  ?  ?  ?  0  13
+SBT  3H4  .  H  0  ?  ?  ?  0  14
+SBT  HO   .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBT  C1  C2   SING  1 
+SBT  C1  1H1  SING  2 
+SBT  C1  2H1  SING  3 
+SBT  C1  3H1  SING  4 
+SBT  C2  C3   SING  5 
+SBT  C2  OH   SING  6 
+SBT  C2  H2   SING  7 
+SBT  C3  C4   SING  8 
+SBT  C3  1H3  SING  9 
+SBT  C3  2H3  SING  10
+SBT  C4  1H4  SING  11
+SBT  C4  2H4  SING  12
+SBT  C4  3H4  SING  13
+SBT  OH  HO   SING  14
+#

@@ -1,0 +1,107 @@
+data_ADS
+#
+_chem_comp.id                   ADS
+_chem_comp.name                 ADENOSINE-5'-(DITHIO)PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O5 P1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        379.345
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADS  P     .  P  0  ?  ?  ?  1  1 
+ADS  O1P   .  O  0  ?  ?  ?  1  2 
+ADS  S2P   .  S  0  ?  ?  ?  1  3 
+ADS  S3P   .  S  0  ?  ?  ?  1  4 
+ADS  O5*   .  O  0  ?  ?  ?  1  5 
+ADS  C5*   .  C  0  ?  ?  ?  1  6 
+ADS  C4*   .  C  0  ?  ?  ?  1  7 
+ADS  O4*   .  O  0  ?  ?  ?  1  8 
+ADS  C3*   .  C  0  ?  ?  ?  1  9 
+ADS  O3*   .  O  0  ?  ?  ?  1  10
+ADS  C2*   .  C  0  ?  ?  ?  1  11
+ADS  O2*   .  O  0  ?  ?  ?  1  12
+ADS  C1*   .  C  0  ?  ?  ?  1  13
+ADS  N9    .  N  0  ?  ?  ?  1  14
+ADS  C8    .  C  0  ?  ?  ?  1  15
+ADS  N7    .  N  0  ?  ?  ?  1  16
+ADS  C5    .  C  0  ?  ?  ?  1  17
+ADS  C6    .  C  0  ?  ?  ?  1  18
+ADS  N6    .  N  0  ?  ?  ?  1  19
+ADS  N1    .  N  0  ?  ?  ?  1  20
+ADS  C2    .  C  0  ?  ?  ?  1  21
+ADS  N3    .  N  0  ?  ?  ?  1  22
+ADS  C4    .  C  0  ?  ?  ?  1  23
+ADS  2HSP  .  H  0  ?  ?  ?  0  24
+ADS  3HSP  .  H  0  ?  ?  ?  0  25
+ADS  1H5*  .  H  0  ?  ?  ?  0  26
+ADS  2H5*  .  H  0  ?  ?  ?  0  27
+ADS  H4*   .  H  0  ?  ?  ?  1  28
+ADS  H3*   .  H  0  ?  ?  ?  1  29
+ADS  *HO3  .  H  0  ?  ?  ?  0  30
+ADS  H2*   .  H  0  ?  ?  ?  1  31
+ADS  *HO2  .  H  0  ?  ?  ?  0  32
+ADS  H1*   .  H  0  ?  ?  ?  1  33
+ADS  H8    .  H  0  ?  ?  ?  1  34
+ADS  H2    .  H  0  ?  ?  ?  1  35
+ADS  1HN6  .  H  0  ?  ?  ?  0  36
+ADS  2HN6  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADS  P    O1P   DOUB  1 
+ADS  P    S2P   SING  2 
+ADS  P    S3P   SING  3 
+ADS  P    O5*   SING  4 
+ADS  S2P  2HSP  SING  5 
+ADS  S3P  3HSP  SING  6 
+ADS  O5*  C5*   SING  7 
+ADS  C5*  C4*   SING  8 
+ADS  C5*  1H5*  SING  9 
+ADS  C5*  2H5*  SING  10
+ADS  C4*  O4*   SING  11
+ADS  C4*  C3*   SING  12
+ADS  C4*  H4*   SING  13
+ADS  O4*  C1*   SING  14
+ADS  C3*  O3*   SING  15
+ADS  C3*  C2*   SING  16
+ADS  C3*  H3*   SING  17
+ADS  O3*  *HO3  SING  18
+ADS  C2*  O2*   SING  19
+ADS  C2*  C1*   SING  20
+ADS  C2*  H2*   SING  21
+ADS  O2*  *HO2  SING  22
+ADS  C1*  N9    SING  23
+ADS  C1*  H1*   SING  24
+ADS  N9   C8    SING  25
+ADS  N9   C4    SING  26
+ADS  C8   N7    DOUB  27
+ADS  C8   H8    SING  28
+ADS  N7   C5    SING  29
+ADS  C5   C6    SING  30
+ADS  C5   C4    DOUB  31
+ADS  C6   N6    SING  32
+ADS  C6   N1    DOUB  33
+ADS  N6   1HN6  SING  34
+ADS  N6   2HN6  SING  35
+ADS  N1   C2    SING  36
+ADS  C2   N3    DOUB  37
+ADS  C2   H2    SING  38
+ADS  N3   C4    SING  39
+#

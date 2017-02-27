@@ -1,0 +1,116 @@
+data_PXG
+#
+_chem_comp.id                   PXG
+_chem_comp.name                 '3-[O-PHOSPHONOPYRIDOXYL]--AMINO-BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H17 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        368.282
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PXG  N1    .  N  0  ?  ?  ?  1  1 
+PXG  C2    .  C  0  ?  ?  ?  1  2 
+PXG  C2A   .  C  0  ?  ?  ?  1  3 
+PXG  C3    .  C  0  ?  ?  ?  1  4 
+PXG  O3    .  O  0  ?  ?  ?  1  5 
+PXG  C5    .  C  0  ?  ?  ?  1  6 
+PXG  C6    .  C  0  ?  ?  ?  1  7 
+PXG  C5A   .  C  0  ?  ?  ?  1  8 
+PXG  OP4   .  O  0  ?  ?  ?  1  9 
+PXG  P     .  P  0  ?  ?  ?  1  10
+PXG  OP1   .  O  0  ?  ?  ?  1  11
+PXG  OP2   .  O  0  ?  ?  ?  1  12
+PXG  OP3   .  O  0  ?  ?  ?  1  13
+PXG  C4    .  C  0  ?  ?  ?  1  14
+PXG  C4A   .  C  0  ?  ?  ?  1  15
+PXG  C7    .  C  0  ?  ?  ?  1  16
+PXG  C8    .  C  0  ?  ?  ?  1  17
+PXG  O2    .  O  0  ?  ?  ?  1  18
+PXG  C9    .  C  0  ?  ?  ?  1  19
+PXG  C10   .  C  0  ?  ?  ?  1  20
+PXG  C11   .  C  0  ?  ?  ?  1  21
+PXG  C12   .  C  0  ?  ?  ?  1  22
+PXG  C13   .  C  0  ?  ?  ?  1  23
+PXG  O8    .  O  0  ?  ?  ?  1  24
+PXG  N9    .  N  0  ?  ?  ?  1  25
+PXG  1H2A  .  H  0  ?  ?  ?  0  26
+PXG  2H2A  .  H  0  ?  ?  ?  0  27
+PXG  3H2A  .  H  0  ?  ?  ?  0  28
+PXG  HO3   .  H  0  ?  ?  ?  1  29
+PXG  H6    .  H  0  ?  ?  ?  1  30
+PXG  1H5A  .  H  0  ?  ?  ?  0  31
+PXG  2H5A  .  H  0  ?  ?  ?  0  32
+PXG  1HOP  .  H  0  ?  ?  ?  0  33
+PXG  2HOP  .  H  0  ?  ?  ?  0  34
+PXG  1H4A  .  H  0  ?  ?  ?  0  35
+PXG  2H4A  .  H  0  ?  ?  ?  0  36
+PXG  HO2   .  H  0  ?  ?  ?  1  37
+PXG  H9    .  H  0  ?  ?  ?  1  38
+PXG  H11   .  H  0  ?  ?  ?  1  39
+PXG  H12   .  H  0  ?  ?  ?  1  40
+PXG  H13   .  H  0  ?  ?  ?  1  41
+PXG  HN9   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PXG  N1   C2    AROM  1 
+PXG  N1   C6    AROM  2 
+PXG  C2   C2A   SING  3 
+PXG  C2   C3    AROM  4 
+PXG  C2A  1H2A  SING  5 
+PXG  C2A  2H2A  SING  6 
+PXG  C2A  3H2A  SING  7 
+PXG  C3   O3    SING  8 
+PXG  C3   C4    AROM  9 
+PXG  O3   HO3   SING  10
+PXG  C5   C6    AROM  11
+PXG  C5   C5A   SING  12
+PXG  C5   C4    AROM  13
+PXG  C6   H6    SING  14
+PXG  C5A  OP4   SING  15
+PXG  C5A  1H5A  SING  16
+PXG  C5A  2H5A  SING  17
+PXG  OP4  P     SING  18
+PXG  P    OP1   SING  19
+PXG  P    OP2   SING  20
+PXG  P    OP3   DOUB  21
+PXG  OP1  1HOP  SING  22
+PXG  OP2  2HOP  SING  23
+PXG  C4   C4A   SING  24
+PXG  C4A  N9    SING  25
+PXG  C4A  1H4A  SING  26
+PXG  C4A  2H4A  SING  27
+PXG  C7   C8    SING  28
+PXG  C7   O2    SING  29
+PXG  C7   O8    DOUB  30
+PXG  C8   C9    AROM  31
+PXG  C8   C13   AROM  32
+PXG  O2   HO2   SING  33
+PXG  C9   C10   AROM  34
+PXG  C9   H9    SING  35
+PXG  C10  C11   AROM  36
+PXG  C10  N9    SING  37
+PXG  C11  C12   AROM  38
+PXG  C11  H11   SING  39
+PXG  C12  C13   AROM  40
+PXG  C12  H12   SING  41
+PXG  C13  H13   SING  42
+PXG  N9   HN9   SING  43
+#

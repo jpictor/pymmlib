@@ -1,0 +1,58 @@
+data_ALQ
+#
+_chem_comp.id                   ALQ
+_chem_comp.name                 '2-METHYL-PROPIONIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H8 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        88.106
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALQ  CM   .  C  0  ?  ?  ?  1  1 
+ALQ  CA   .  C  0  ?  ?  ?  1  2 
+ALQ  CB   .  C  0  ?  ?  ?  1  3 
+ALQ  C    .  C  0  ?  ?  ?  1  4 
+ALQ  O    .  O  0  ?  ?  ?  1  5 
+ALQ  OXT  .  O  0  ?  ?  ?  1  6 
+ALQ  1HM  .  H  0  ?  ?  ?  0  7 
+ALQ  2HM  .  H  0  ?  ?  ?  0  8 
+ALQ  3HM  .  H  0  ?  ?  ?  0  9 
+ALQ  HA   .  H  0  ?  ?  ?  1  10
+ALQ  1HB  .  H  0  ?  ?  ?  0  11
+ALQ  2HB  .  H  0  ?  ?  ?  0  12
+ALQ  3HB  .  H  0  ?  ?  ?  0  13
+ALQ  HXT  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALQ  CM   CA   SING  1 
+ALQ  CM   1HM  SING  2 
+ALQ  CM   2HM  SING  3 
+ALQ  CM   3HM  SING  4 
+ALQ  CA   CB   SING  5 
+ALQ  CA   C    SING  6 
+ALQ  CA   HA   SING  7 
+ALQ  CB   1HB  SING  8 
+ALQ  CB   2HB  SING  9 
+ALQ  CB   3HB  SING  10
+ALQ  C    O    DOUB  11
+ALQ  C    OXT  SING  12
+ALQ  OXT  HXT  SING  13
+#

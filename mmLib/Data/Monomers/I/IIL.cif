@@ -1,0 +1,76 @@
+data_IIL
+#
+_chem_comp.id                       IIL
+_chem_comp.name                     ISO-ISOLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O2'
+_chem_comp.pdbx_synonyms            ALLO-ISOLEUCINE
+_chem_comp.mon_nstd_parent_comp_id  ILE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IIL  N     .  N  0  ?  ?  ?  1  1 
+IIL  CA    .  C  0  ?  ?  ?  1  2 
+IIL  C     .  C  0  ?  ?  ?  1  3 
+IIL  O     .  O  0  ?  ?  ?  1  4 
+IIL  CB    .  C  0  ?  ?  ?  1  5 
+IIL  CG2   .  C  0  ?  ?  ?  1  6 
+IIL  CG1   .  C  0  ?  ?  ?  1  7 
+IIL  CD1   .  C  0  ?  ?  ?  1  8 
+IIL  OXT   .  O  0  ?  ?  ?  1  9 
+IIL  H     .  H  0  ?  ?  ?  1  10
+IIL  HN2   .  H  0  ?  ?  ?  1  11
+IIL  HA    .  H  0  ?  ?  ?  1  12
+IIL  HB    .  H  0  ?  ?  ?  1  13
+IIL  1HG2  .  H  0  ?  ?  ?  0  14
+IIL  2HG2  .  H  0  ?  ?  ?  0  15
+IIL  3HG2  .  H  0  ?  ?  ?  0  16
+IIL  1HG1  .  H  0  ?  ?  ?  0  17
+IIL  2HG1  .  H  0  ?  ?  ?  0  18
+IIL  1HD1  .  H  0  ?  ?  ?  0  19
+IIL  2HD1  .  H  0  ?  ?  ?  0  20
+IIL  3HD1  .  H  0  ?  ?  ?  0  21
+IIL  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IIL  N    CA    SING  1 
+IIL  N    H     SING  2 
+IIL  N    HN2   SING  3 
+IIL  CA   CB    SING  4 
+IIL  CA   C     SING  5 
+IIL  CA   HA    SING  6 
+IIL  C    O     DOUB  7 
+IIL  C    OXT   SING  8 
+IIL  CB   CG2   SING  9 
+IIL  CB   CG1   SING  10
+IIL  CB   HB    SING  11
+IIL  CG2  1HG2  SING  12
+IIL  CG2  2HG2  SING  13
+IIL  CG2  3HG2  SING  14
+IIL  CG1  CD1   SING  15
+IIL  CG1  1HG1  SING  16
+IIL  CG1  2HG1  SING  17
+IIL  CD1  1HD1  SING  18
+IIL  CD1  2HD1  SING  19
+IIL  CD1  3HD1  SING  20
+IIL  OXT  HXT   SING  21
+#

@@ -1,0 +1,117 @@
+data_ADW
+#
+_chem_comp.id                   ADW
+_chem_comp.name                 ADENOSINE-5'-DITUNGSTATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N5 O10 W2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        732.956
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADW  WB    .  W  0  ?  ?  ?  1  1 
+ADW  O1B   .  O  0  ?  ?  ?  1  2 
+ADW  O2B   .  O  0  ?  ?  ?  1  3 
+ADW  O3B   .  O  0  ?  ?  ?  1  4 
+ADW  WA    .  W  0  ?  ?  ?  1  5 
+ADW  O1A   .  O  0  ?  ?  ?  1  6 
+ADW  O2A   .  O  0  ?  ?  ?  1  7 
+ADW  O3A   .  O  0  ?  ?  ?  1  8 
+ADW  O5*   .  O  0  ?  ?  ?  1  9 
+ADW  C5*   .  C  0  ?  ?  ?  1  10
+ADW  C4*   .  C  0  ?  ?  ?  1  11
+ADW  O4*   .  O  0  ?  ?  ?  1  12
+ADW  C3*   .  C  0  ?  ?  ?  1  13
+ADW  O3*   .  O  0  ?  ?  ?  1  14
+ADW  C2*   .  C  0  ?  ?  ?  1  15
+ADW  O2*   .  O  0  ?  ?  ?  1  16
+ADW  C1*   .  C  0  ?  ?  ?  1  17
+ADW  N9    .  N  0  ?  ?  ?  1  18
+ADW  C8    .  C  0  ?  ?  ?  1  19
+ADW  N7    .  N  0  ?  ?  ?  1  20
+ADW  C5    .  C  0  ?  ?  ?  1  21
+ADW  C6    .  C  0  ?  ?  ?  1  22
+ADW  N6    .  N  0  ?  ?  ?  1  23
+ADW  N1    .  N  0  ?  ?  ?  1  24
+ADW  C2    .  C  0  ?  ?  ?  1  25
+ADW  N3    .  N  0  ?  ?  ?  1  26
+ADW  C4    .  C  0  ?  ?  ?  1  27
+ADW  2HOA  .  H  0  ?  ?  ?  0  28
+ADW  2HOB  .  H  0  ?  ?  ?  0  29
+ADW  3HOB  .  H  0  ?  ?  ?  0  30
+ADW  1H5*  .  H  0  ?  ?  ?  0  31
+ADW  2H5*  .  H  0  ?  ?  ?  0  32
+ADW  H4*   .  H  0  ?  ?  ?  1  33
+ADW  H3*   .  H  0  ?  ?  ?  1  34
+ADW  *HO3  .  H  0  ?  ?  ?  0  35
+ADW  H2*   .  H  0  ?  ?  ?  1  36
+ADW  *HO2  .  H  0  ?  ?  ?  0  37
+ADW  H1*   .  H  0  ?  ?  ?  1  38
+ADW  H8    .  H  0  ?  ?  ?  1  39
+ADW  1HN6  .  H  0  ?  ?  ?  0  40
+ADW  2HN6  .  H  0  ?  ?  ?  0  41
+ADW  H2    .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADW  WB   O1B   DOUB  1 
+ADW  WB   O2B   SING  2 
+ADW  WB   O3B   SING  3 
+ADW  WB   O3A   SING  4 
+ADW  O2B  2HOB  SING  5 
+ADW  O3B  3HOB  SING  6 
+ADW  WA   O1A   DOUB  7 
+ADW  WA   O2A   SING  8 
+ADW  WA   O3A   SING  9 
+ADW  WA   O5*   SING  10
+ADW  O2A  2HOA  SING  11
+ADW  O5*  C5*   SING  12
+ADW  C5*  C4*   SING  13
+ADW  C5*  1H5*  SING  14
+ADW  C5*  2H5*  SING  15
+ADW  C4*  O4*   SING  16
+ADW  C4*  C3*   SING  17
+ADW  C4*  H4*   SING  18
+ADW  O4*  C1*   SING  19
+ADW  C3*  O3*   SING  20
+ADW  C3*  C2*   SING  21
+ADW  C3*  H3*   SING  22
+ADW  O3*  *HO3  SING  23
+ADW  C2*  O2*   SING  24
+ADW  C2*  C1*   SING  25
+ADW  C2*  H2*   SING  26
+ADW  O2*  *HO2  SING  27
+ADW  C1*  N9    SING  28
+ADW  C1*  H1*   SING  29
+ADW  N9   C8    SING  30
+ADW  N9   C4    SING  31
+ADW  C8   N7    DOUB  32
+ADW  C8   H8    SING  33
+ADW  N7   C5    SING  34
+ADW  C5   C6    SING  35
+ADW  C5   C4    DOUB  36
+ADW  C6   N6    SING  37
+ADW  C6   N1    DOUB  38
+ADW  N6   1HN6  SING  39
+ADW  N6   2HN6  SING  40
+ADW  N1   C2    SING  41
+ADW  C2   N3    DOUB  42
+ADW  C2   H2    SING  43
+ADW  N3   C4    SING  44
+#

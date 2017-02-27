@@ -1,0 +1,114 @@
+data_CRU
+#
+_chem_comp.id                       CRU
+_chem_comp.name                     '4-[(4Z)-1-(CARBOXYMETHYL)-4-(4-HYDROXYBENZYLIDENE)-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-2-YL]-4-IMINOBUTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C16 H15 N3 O6'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (GLU-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            345.311
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRU  OE1   .  O  0  22.910  -16.194  39.318  1  1 
+CRU  CD3   .  C  0  23.221  -15.016  38.688  1  2 
+CRU  OE2   .  O  0  24.020  -14.973  37.739  1  3 
+CRU  CG1   .  C  0  22.566  -13.766  39.200  1  4 
+CRU  CB1   .  C  0  21.036  -13.651  39.052  1  5 
+CRU  CA1   .  C  0  20.171  -14.130  40.249  1  6 
+CRU  N     .  N  0  20.036  -15.373  40.457  1  7 
+CRU  C1    .  C  0  19.520  -13.163  41.120  1  8 
+CRU  N2    .  N  0  19.698  -11.867  40.842  1  9 
+CRU  CA2   .  C  0  19.014  -11.123  41.763  1  10
+CRU  C2    .  C  0  18.340  -12.022  42.715  1  11
+CRU  O2    .  O  0  17.623  -11.765  43.688  1  12
+CRU  N3    .  N  0  18.672  -13.323  42.272  1  13
+CRU  CA3   .  C  0  18.148  -14.586  43.044  1  14
+CRU  C     .  C  0  18.911  -15.187  43.722  1  15
+CRU  O     .  O  0  18.535  -16.357  44.217  1  16
+CRU  CB2   .  C  0  19.053  -9.739   41.686  1  17
+CRU  CG2   .  C  0  18.323  -8.701   42.475  1  18
+CRU  CD1   .  C  0  17.638  -7.593   41.874  1  19
+CRU  CE1   .  C  0  16.935  -6.613   42.653  1  20
+CRU  CZ    .  C  0  16.863  -6.679   44.086  1  21
+CRU  OH    .  O  0  16.192  -5.745   44.819  1  22
+CRU  CE2   .  C  0  17.543  -7.785   44.701  1  23
+CRU  CD2   .  C  0  18.241  -8.755   43.921  1  24
+CRU  OXT   .  O  0  ?       ?        ?       1  25
+CRU  HXT   .  H  0  ?       ?        ?       1  26
+CRU  1HA3  .  H  0  ?       ?        ?       0  27
+CRU  2HA3  .  H  0  ?       ?        ?       0  28
+CRU  HN1   .  H  0  ?       ?        ?       1  29
+CRU  1HB1  .  H  0  ?       ?        ?       0  30
+CRU  2HB1  .  H  0  ?       ?        ?       0  31
+CRU  1HG1  .  H  0  ?       ?        ?       0  32
+CRU  2HG1  .  H  0  ?       ?        ?       0  33
+CRU  1HE2  .  H  0  ?       ?        ?       0  34
+CRU  1HB   .  H  0  ?       ?        ?       0  35
+CRU  HD2   .  H  0  ?       ?        ?       1  36
+CRU  HE2   .  H  0  ?       ?        ?       1  37
+CRU  HH    .  H  0  ?       ?        ?       1  38
+CRU  HE1   .  H  0  ?       ?        ?       1  39
+CRU  HD1   .  H  0  ?       ?        ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRU  OE1  CD3   DOUB  1 
+CRU  CD3  CG1   SING  2 
+CRU  CD3  OE2   SING  3 
+CRU  OE2  1HE2  SING  4 
+CRU  CG1  CB1   SING  5 
+CRU  CG1  1HG1  SING  6 
+CRU  CG1  2HG1  SING  7 
+CRU  CB1  CA1   SING  8 
+CRU  CB1  1HB1  SING  9 
+CRU  CB1  2HB1  SING  10
+CRU  CA1  C1    SING  11
+CRU  CA1  N     DOUB  12
+CRU  N    HN1   SING  13
+CRU  C1   N2    DOUB  14
+CRU  C1   N3    SING  15
+CRU  N2   CA2   SING  16
+CRU  CA2  C2    SING  17
+CRU  CA2  CB2   DOUB  18
+CRU  C2   N3    SING  19
+CRU  C2   O2    DOUB  20
+CRU  N3   CA3   SING  21
+CRU  CA3  C     SING  22
+CRU  CA3  1HA3  SING  23
+CRU  CA3  2HA3  SING  24
+CRU  C    OXT   SING  25
+CRU  C    O     DOUB  26
+CRU  CB2  1HB   SING  27
+CRU  CB2  CG2   SING  28
+CRU  CG2  CD2   AROM  29
+CRU  CG2  CD1   AROM  30
+CRU  CD1  CE1   AROM  31
+CRU  CD1  HD1   SING  32
+CRU  CE1  CZ    AROM  33
+CRU  CE1  HE1   SING  34
+CRU  CZ   CE2   AROM  35
+CRU  CZ   OH    SING  36
+CRU  OH   HH    SING  37
+CRU  CE2  CD2   AROM  38
+CRU  CE2  HE2   SING  39
+CRU  CD2  HD2   SING  40
+CRU  OXT  HXT   SING  41
+#

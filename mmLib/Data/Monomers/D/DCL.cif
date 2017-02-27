@@ -1,0 +1,76 @@
+data_DCL
+#
+_chem_comp.id                   DCL
+_chem_comp.name                 2-AMINO-4-METHYL-PENTAN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCL  N     .  N  0  ?  ?  ?  1  1 
+DCL  CA    .  C  0  ?  ?  ?  1  2 
+DCL  C     .  C  0  ?  ?  ?  1  3 
+DCL  CB    .  C  0  ?  ?  ?  1  4 
+DCL  CG    .  C  0  ?  ?  ?  1  5 
+DCL  CD1   .  C  0  ?  ?  ?  1  6 
+DCL  CD2   .  C  0  ?  ?  ?  1  7 
+DCL  OXT   .  O  0  ?  ?  ?  1  8 
+DCL  HXT   .  H  0  ?  ?  ?  1  9 
+DCL  1HD1  .  H  0  ?  ?  ?  0  10
+DCL  2HD1  .  H  0  ?  ?  ?  0  11
+DCL  3HD1  .  H  0  ?  ?  ?  0  12
+DCL  1HD2  .  H  0  ?  ?  ?  0  13
+DCL  2HD2  .  H  0  ?  ?  ?  0  14
+DCL  3HD2  .  H  0  ?  ?  ?  0  15
+DCL  HG    .  H  0  ?  ?  ?  1  16
+DCL  HA    .  H  0  ?  ?  ?  1  17
+DCL  1HB   .  H  0  ?  ?  ?  0  18
+DCL  2HB   .  H  0  ?  ?  ?  0  19
+DCL  1HC   .  H  0  ?  ?  ?  0  20
+DCL  2HC   .  H  0  ?  ?  ?  0  21
+DCL  1HN   .  H  0  ?  ?  ?  0  22
+DCL  2HN   .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCL  N    CA    SING  1 
+DCL  N    1HN   SING  2 
+DCL  N    2HN   SING  3 
+DCL  CA   C     SING  4 
+DCL  CA   CB    SING  5 
+DCL  CA   HA    SING  6 
+DCL  C    OXT   SING  7 
+DCL  C    1HC   SING  8 
+DCL  C    2HC   SING  9 
+DCL  CB   CG    SING  10
+DCL  CB   1HB   SING  11
+DCL  CB   2HB   SING  12
+DCL  CG   CD1   SING  13
+DCL  CG   CD2   SING  14
+DCL  CG   HG    SING  15
+DCL  CD1  1HD1  SING  16
+DCL  CD1  2HD1  SING  17
+DCL  CD1  3HD1  SING  18
+DCL  CD2  1HD2  SING  19
+DCL  CD2  2HD2  SING  20
+DCL  CD2  3HD2  SING  21
+DCL  OXT  HXT   SING  22
+#

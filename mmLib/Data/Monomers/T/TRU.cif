@@ -1,0 +1,88 @@
+data_TRU
+#
+_chem_comp.id                   TRU
+_chem_comp.name                 '6-CHLORO-3-(DICHLOROMETHYL)-3,4-DIHYDRO-2H-1,2,4-BENZOTHIADIAZINE-7-SULFONAMIDE 1,1-DIOXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 N3 O4 CL3 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        380.648
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRU  S1    .  S   0  16.985  4.372  12.318  1  1 
+TRU  O17   .  O   0  15.852  4.047  11.466  1  2 
+TRU  O16   .  O   0  18.106  3.478  12.490  1  3 
+TRU  N10   .  N   0  17.524  5.729  11.944  1  4 
+TRU  C9    .  C   0  16.679  6.884  12.055  1  5 
+TRU  C18   .  C   0  17.135  8.081  11.208  1  6 
+TRU  CL20  .  CL  0  17.470  7.515  9.558   0  7 
+TRU  CL19  .  CL  0  15.802  9.257  11.122  0  8 
+TRU  N8    .  N   0  16.300  7.188  13.433  1  9 
+TRU  C3    .  C   0  15.997  6.091  14.265  1  10
+TRU  C4    .  C   0  15.426  6.357  15.494  1  11
+TRU  C5    .  C   0  15.128  5.267  16.314  1  12
+TRU  CL11  .  CL  0  14.414  5.657  17.844  0  13
+TRU  C6    .  C   0  15.381  3.952  15.942  1  14
+TRU  S12   .  S   0  14.973  2.627  17.040  1  15
+TRU  N15   .  N   0  15.545  1.391  16.450  1  16
+TRU  O14   .  O   0  15.686  2.855  18.294  1  17
+TRU  O13   .  O   0  13.536  2.581  17.012  1  18
+TRU  C7    .  C   0  15.955  3.691  14.706  1  19
+TRU  C2    .  C   0  16.256  4.769  13.881  1  20
+TRU  1H15  .  H   0  ?       ?      ?       0  21
+TRU  2H15  .  H   0  ?       ?      ?       0  22
+TRU  H4    .  H   0  ?       ?      ?       1  23
+TRU  HN8   .  H   0  ?       ?      ?       1  24
+TRU  H9    .  H   0  ?       ?      ?       1  25
+TRU  H10   .  H   0  ?       ?      ?       1  26
+TRU  H7    .  H   0  ?       ?      ?       1  27
+TRU  H18   .  H   0  ?       ?      ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRU  S1   N10   SING  1 
+TRU  S1   O17   DOUB  2 
+TRU  S1   O16   DOUB  3 
+TRU  S1   C2    SING  4 
+TRU  N10  C9    SING  5 
+TRU  N10  H10   SING  6 
+TRU  C9   N8    SING  7 
+TRU  C9   C18   SING  8 
+TRU  C9   H9    SING  9 
+TRU  C18  CL20  SING  10
+TRU  C18  CL19  SING  11
+TRU  C18  H18   SING  12
+TRU  N8   C3    SING  13
+TRU  N8   HN8   SING  14
+TRU  C3   C4    DOUB  15
+TRU  C3   C2    SING  16
+TRU  C4   C5    SING  17
+TRU  C4   H4    SING  18
+TRU  C5   C6    DOUB  19
+TRU  C5   CL11  SING  20
+TRU  C6   S12   SING  21
+TRU  C6   C7    SING  22
+TRU  S12  N15   SING  23
+TRU  S12  O14   DOUB  24
+TRU  S12  O13   DOUB  25
+TRU  N15  1H15  SING  26
+TRU  N15  2H15  SING  27
+TRU  C7   C2    DOUB  28
+TRU  C7   H7    SING  29
+#

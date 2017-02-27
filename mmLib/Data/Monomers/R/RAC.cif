@@ -1,0 +1,118 @@
+data_RAC
+#
+_chem_comp.id                   RAC
+_chem_comp.name                 '4-(2-DIMETHYLCARBAMOYL-PHENYLCARBAMOYLOXYMETHYL)-BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H18 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.351
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAC  C1    .  C  0  1.997   14.259  24.320  1  1 
+RAC  C2    .  C  0  1.922   13.985  25.666  1  2 
+RAC  C3    .  C  0  0.774   14.252  26.479  1  3 
+RAC  C4    .  C  0  -0.075  15.082  25.888  1  4 
+RAC  C5    .  C  0  0.082   15.476  24.549  1  5 
+RAC  C6    .  C  0  1.048   14.986  23.899  1  6 
+RAC  C7    .  C  0  0.747   13.883  27.968  1  7 
+RAC  N1    .  N  0  -0.294  13.174  28.265  1  8 
+RAC  C8    .  C  0  -1.287  12.521  27.570  1  9 
+RAC  C9    .  C  0  -0.356  12.895  29.898  1  10
+RAC  O1    .  O  0  1.512   14.458  28.733  1  11
+RAC  N2    .  N  0  -1.511  15.351  26.458  1  12
+RAC  C10   .  C  0  -1.745  15.978  27.636  1  13
+RAC  O2    .  O  0  -0.631  16.294  28.239  1  14
+RAC  O3    .  O  0  -2.849  16.204  28.009  1  15
+RAC  C11   .  C  0  -2.985  16.817  29.296  1  16
+RAC  C12   .  C  0  -2.961  15.791  30.559  1  17
+RAC  C13   .  C  0  -3.503  14.594  30.445  1  18
+RAC  C14   .  C  0  -3.567  13.891  31.576  1  19
+RAC  C15   .  C  0  -3.070  14.218  32.753  1  20
+RAC  C16   .  C  0  -2.592  15.433  32.824  1  21
+RAC  C17   .  C  0  -2.411  16.304  31.744  1  22
+RAC  C18   .  C  0  -3.318  13.147  33.878  1  23
+RAC  O4    .  O  0  -3.969  12.082  33.720  1  24
+RAC  O5    .  O  0  -2.780  13.562  34.960  1  25
+RAC  HC1   .  H  0  ?       ?       ?       1  26
+RAC  HC2   .  H  0  ?       ?       ?       1  27
+RAC  HC5   .  H  0  ?       ?       ?       1  28
+RAC  HC6   .  H  0  ?       ?       ?       1  29
+RAC  1HC8  .  H  0  ?       ?       ?       0  30
+RAC  2HC8  .  H  0  ?       ?       ?       0  31
+RAC  3HC8  .  H  0  ?       ?       ?       0  32
+RAC  1HC9  .  H  0  ?       ?       ?       0  33
+RAC  2HC9  .  H  0  ?       ?       ?       0  34
+RAC  3HC9  .  H  0  ?       ?       ?       0  35
+RAC  HN2   .  H  0  ?       ?       ?       1  36
+RAC  1H11  .  H  0  ?       ?       ?       0  37
+RAC  2H11  .  H  0  ?       ?       ?       0  38
+RAC  CH13  .  H  0  ?       ?       ?       0  39
+RAC  CH14  .  H  0  ?       ?       ?       0  40
+RAC  CH16  .  H  0  ?       ?       ?       0  41
+RAC  CH17  .  H  0  ?       ?       ?       0  42
+RAC  HO4   .  H  0  ?       ?       ?       1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAC  C1   C2    AROM  1 
+RAC  C1   C6    AROM  2 
+RAC  C1   HC1   SING  3 
+RAC  C2   C3    AROM  4 
+RAC  C2   HC2   SING  5 
+RAC  C3   C4    AROM  6 
+RAC  C3   C7    SING  7 
+RAC  C4   C5    AROM  8 
+RAC  C4   N2    SING  9 
+RAC  C5   C6    AROM  10
+RAC  C5   HC5   SING  11
+RAC  C6   HC6   SING  12
+RAC  C7   N1    SING  13
+RAC  C7   O1    DOUB  14
+RAC  N1   C8    SING  15
+RAC  N1   C9    SING  16
+RAC  C8   1HC8  SING  17
+RAC  C8   2HC8  SING  18
+RAC  C8   3HC8  SING  19
+RAC  C9   1HC9  SING  20
+RAC  C9   2HC9  SING  21
+RAC  C9   3HC9  SING  22
+RAC  N2   C10   SING  23
+RAC  N2   HN2   SING  24
+RAC  C10  O2    DOUB  25
+RAC  C10  O3    SING  26
+RAC  O3   C11   SING  27
+RAC  C11  C12   SING  28
+RAC  C11  1H11  SING  29
+RAC  C11  2H11  SING  30
+RAC  C12  C13   AROM  31
+RAC  C12  C17   AROM  32
+RAC  C13  C14   AROM  33
+RAC  C13  CH13  SING  34
+RAC  C14  C15   AROM  35
+RAC  C14  CH14  SING  36
+RAC  C15  C16   AROM  37
+RAC  C15  C18   SING  38
+RAC  C16  C17   AROM  39
+RAC  C16  CH16  SING  40
+RAC  C17  CH17  SING  41
+RAC  C18  O4    SING  42
+RAC  C18  O5    DOUB  43
+RAC  O4   HO4   SING  44
+#

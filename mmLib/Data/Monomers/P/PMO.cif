@@ -1,0 +1,116 @@
+data_PMO
+#
+_chem_comp.id                   PMO
+_chem_comp.name                 N1-(5'-PHOSPHO-ALPHA-RIBOSYL)-5-METHOXYBENZIMIDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H17 N2 O8 P1'
+_chem_comp.pdbx_synonyms        'PHOSPORIC ACID MONO-[3,4-DIHYDROXY-5-(5-METHOXY-BENZOIMIDAZOL-1-YL)-TETRAHYDRO-FURAN-2-YLMETHYL] ESTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        360.260
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PMO  N3    .  N  0  ?  ?  ?  1  1 
+PMO  N1    .  N  0  ?  ?  ?  1  2 
+PMO  C2    .  C  0  ?  ?  ?  1  3 
+PMO  C7A   .  C  0  ?  ?  ?  1  4 
+PMO  C3A   .  C  0  ?  ?  ?  1  5 
+PMO  C4    .  C  0  ?  ?  ?  1  6 
+PMO  C5    .  C  0  ?  ?  ?  1  7 
+PMO  C6    .  C  0  ?  ?  ?  1  8 
+PMO  C7    .  C  0  ?  ?  ?  1  9 
+PMO  O10   .  O  0  ?  ?  ?  1  10
+PMO  C11   .  C  0  ?  ?  ?  1  11
+PMO  P     .  P  0  ?  ?  ?  1  12
+PMO  O1P   .  O  0  ?  ?  ?  1  13
+PMO  O2P   .  O  0  ?  ?  ?  1  14
+PMO  O3P   .  O  0  ?  ?  ?  1  15
+PMO  O5*   .  O  0  ?  ?  ?  1  16
+PMO  C5*   .  C  0  ?  ?  ?  1  17
+PMO  C4*   .  C  0  ?  ?  ?  1  18
+PMO  O4*   .  O  0  ?  ?  ?  1  19
+PMO  C3*   .  C  0  ?  ?  ?  1  20
+PMO  O3*   .  O  0  ?  ?  ?  1  21
+PMO  C2*   .  C  0  ?  ?  ?  1  22
+PMO  O2*   .  O  0  ?  ?  ?  1  23
+PMO  C1*   .  C  0  ?  ?  ?  1  24
+PMO  2HOP  .  H  0  ?  ?  ?  0  25
+PMO  3HOP  .  H  0  ?  ?  ?  0  26
+PMO  1H5*  .  H  0  ?  ?  ?  0  27
+PMO  2H5*  .  H  0  ?  ?  ?  0  28
+PMO  H4*   .  H  0  ?  ?  ?  1  29
+PMO  H3*   .  H  0  ?  ?  ?  1  30
+PMO  *HO3  .  H  0  ?  ?  ?  0  31
+PMO  H2*   .  H  0  ?  ?  ?  1  32
+PMO  *HO2  .  H  0  ?  ?  ?  0  33
+PMO  H1*   .  H  0  ?  ?  ?  1  34
+PMO  1H2   .  H  0  ?  ?  ?  0  35
+PMO  1H4   .  H  0  ?  ?  ?  0  36
+PMO  1H6   .  H  0  ?  ?  ?  0  37
+PMO  1H7   .  H  0  ?  ?  ?  0  38
+PMO  1H11  .  H  0  ?  ?  ?  0  39
+PMO  2H11  .  H  0  ?  ?  ?  0  40
+PMO  3H11  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PMO  N3   C2    DOUB  1 
+PMO  N3   C3A   SING  2 
+PMO  N1   C2    SING  3 
+PMO  N1   C7A   SING  4 
+PMO  N1   C1*   SING  5 
+PMO  C2   1H2   SING  6 
+PMO  C7A  C3A   DOUB  7 
+PMO  C7A  C7    SING  8 
+PMO  C3A  C4    SING  9 
+PMO  C4   C5    DOUB  10
+PMO  C4   1H4   SING  11
+PMO  C5   C6    SING  12
+PMO  C5   O10   SING  13
+PMO  C6   C7    DOUB  14
+PMO  C6   1H6   SING  15
+PMO  C7   1H7   SING  16
+PMO  O10  C11   SING  17
+PMO  C11  1H11  SING  18
+PMO  C11  2H11  SING  19
+PMO  C11  3H11  SING  20
+PMO  P    O1P   DOUB  21
+PMO  P    O2P   SING  22
+PMO  P    O3P   SING  23
+PMO  P    O5*   SING  24
+PMO  O2P  2HOP  SING  25
+PMO  O3P  3HOP  SING  26
+PMO  O5*  C5*   SING  27
+PMO  C5*  C4*   SING  28
+PMO  C5*  1H5*  SING  29
+PMO  C5*  2H5*  SING  30
+PMO  C4*  O4*   SING  31
+PMO  C4*  C3*   SING  32
+PMO  C4*  H4*   SING  33
+PMO  O4*  C1*   SING  34
+PMO  C3*  O3*   SING  35
+PMO  C3*  C2*   SING  36
+PMO  C3*  H3*   SING  37
+PMO  O3*  *HO3  SING  38
+PMO  C2*  O2*   SING  39
+PMO  C2*  C1*   SING  40
+PMO  C2*  H2*   SING  41
+PMO  O2*  *HO2  SING  42
+PMO  C1*  H1*   SING  43
+#

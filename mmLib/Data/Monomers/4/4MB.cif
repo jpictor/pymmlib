@@ -1,0 +1,85 @@
+data_4MB
+#
+_chem_comp.id                   4MB
+_chem_comp.name                 '4-[(METHYLSULFONYL)AMINO]BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.223
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          4MB
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CS(=O)(=O)Nc1ccc(cc1)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+4MB  C3    .  C  0  27.390  9.142   20.184  1  Y  1 
+4MB  C5    .  C  0  29.265  10.348  21.053  1  Y  2 
+4MB  N1    .  N  0  25.657  10.209  18.964  1  N  3 
+4MB  C2    .  C  0  26.858  10.281  19.660  1  Y  4 
+4MB  C4    .  C  0  28.612  9.176   20.846  1  Y  5 
+4MB  C6    .  C  0  30.554  10.458  21.780  1  N  6 
+4MB  C9    .  C  0  28.715  11.538  20.523  1  Y  7 
+4MB  C12   .  C  0  24.178  12.127  20.094  1  N  8 
+4MB  C10   .  C  0  27.535  11.498  19.796  1  Y  9 
+4MB  O7    .  O  0  31.189  9.381   22.013  1  N  10
+4MB  O8    .  O  0  31.012  11.581  22.126  1  N  11
+4MB  S11   .  S  0  24.695  11.438  18.599  1  N  12
+4MB  O14   .  O  0  25.420  12.465  17.924  1  N  13
+4MB  O13   .  O  0  23.557  10.878  17.900  1  N  14
+4MB  H3    .  H  0  26.859  8.207   20.085  1  N  15
+4MB  HN1   .  H  0  25.086  9.608   19.523  1  N  16
+4MB  H4    .  H  0  29.049  8.255   21.202  1  N  17
+4MB  H9    .  H  0  29.216  12.481  20.685  1  N  18
+4MB  1H12  .  H  0  24.068  11.332  20.846  0  N  19
+4MB  2H12  .  H  0  24.925  12.857  20.439  0  N  20
+4MB  3H12  .  H  0  23.211  12.631  19.950  0  N  21
+4MB  H10   .  H  0  27.143  12.395  19.340  1  N  22
+4MB  HO8   .  H  0  31.851  11.463  22.556  1  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+4MB  C3   C2    SING  Y  1 
+4MB  C3   C4    DOUB  Y  2 
+4MB  C3   H3    SING  N  3 
+4MB  C5   C9    DOUB  Y  4 
+4MB  C5   C4    SING  Y  5 
+4MB  C5   C6    SING  N  6 
+4MB  N1   S11   SING  N  7 
+4MB  N1   C2    SING  N  8 
+4MB  N1   HN1   SING  N  9 
+4MB  C2   C10   DOUB  Y  10
+4MB  C4   H4    SING  N  11
+4MB  C6   O7    DOUB  N  12
+4MB  C6   O8    SING  N  13
+4MB  C9   C10   SING  Y  14
+4MB  C9   H9    SING  N  15
+4MB  C12  S11   SING  N  16
+4MB  C12  1H12  SING  N  17
+4MB  C12  2H12  SING  N  18
+4MB  C12  3H12  SING  N  19
+4MB  C10  H10   SING  N  20
+4MB  O8   HO8   SING  N  21
+4MB  S11  O13   DOUB  N  22
+4MB  S11  O14   DOUB  N  23
+#

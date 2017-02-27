@@ -1,0 +1,73 @@
+data_MPJ
+#
+_chem_comp.id                   MPJ
+_chem_comp.name                 '(1-AMINO-3-METHYLSULFANYL-PROPYL)-PHOSPHINIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H12 N1 O2 P1 S1'
+_chem_comp.pdbx_synonyms        'METHIONINE PHOSPHINATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        169.178
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MPJ  N    .  N  0  ?  ?  ?  1  1 
+MPJ  CA   .  C  0  ?  ?  ?  1  2 
+MPJ  CB   .  C  0  ?  ?  ?  1  3 
+MPJ  CG   .  C  0  ?  ?  ?  1  4 
+MPJ  SD   .  S  0  ?  ?  ?  1  5 
+MPJ  CE   .  C  0  ?  ?  ?  1  6 
+MPJ  O1   .  O  0  ?  ?  ?  1  7 
+MPJ  O2   .  O  0  ?  ?  ?  1  8 
+MPJ  P    .  P  0  ?  ?  ?  1  9 
+MPJ  H    .  H  0  ?  ?  ?  1  10
+MPJ  HN2  .  H  0  ?  ?  ?  1  11
+MPJ  HA   .  H  0  ?  ?  ?  1  12
+MPJ  1HB  .  H  0  ?  ?  ?  0  13
+MPJ  2HB  .  H  0  ?  ?  ?  0  14
+MPJ  1HG  .  H  0  ?  ?  ?  0  15
+MPJ  2HG  .  H  0  ?  ?  ?  0  16
+MPJ  1HE  .  H  0  ?  ?  ?  0  17
+MPJ  2HE  .  H  0  ?  ?  ?  0  18
+MPJ  3HE  .  H  0  ?  ?  ?  0  19
+MPJ  HO2  .  H  0  ?  ?  ?  1  20
+MPJ  HP   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MPJ  N   CA   SING  1 
+MPJ  N   H    SING  2 
+MPJ  N   HN2  SING  3 
+MPJ  CA  P    SING  4 
+MPJ  CA  CB   SING  5 
+MPJ  CA  HA   SING  6 
+MPJ  CB  CG   SING  7 
+MPJ  CB  1HB  SING  8 
+MPJ  CB  2HB  SING  9 
+MPJ  CG  SD   SING  10
+MPJ  CG  1HG  SING  11
+MPJ  CG  2HG  SING  12
+MPJ  SD  CE   SING  13
+MPJ  CE  1HE  SING  14
+MPJ  CE  2HE  SING  15
+MPJ  CE  3HE  SING  16
+MPJ  O1  P    DOUB  17
+MPJ  O2  P    SING  18
+MPJ  O2  HO2  SING  19
+MPJ  P   HP   SING  20
+#

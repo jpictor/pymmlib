@@ -1,0 +1,117 @@
+data_PIU
+#
+_chem_comp.id                   PIU
+_chem_comp.name                 1-{2-[4-(AMINOSULFONYL)PHENYL]ETHYL}-2,4,6-TRIMETHYLPYRIDINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H21 N2 O2 S1'
+_chem_comp.pdbx_synonyms        1-N-(4-SULFAMOYLPHENYL-ETHYL)-2,4,6-TRIMETHYLPYRIDINIUM
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       305.414
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIU  S1    .  S  0  -5.926  1.047   16.731  1  1 
+PIU  O1    .  O  0  -5.318  1.137   18.051  1  2 
+PIU  O2    .  O  0  -7.360  0.951   16.622  1  3 
+PIU  N1    .  N  0  -5.320  -0.251  16.054  1  4 
+PIU  C1    .  C  0  -5.873  4.828   15.017  1  5 
+PIU  C3    .  C  0  -3.623  3.839   14.628  1  6 
+PIU  C4    .  C  0  -4.053  2.626   15.288  1  7 
+PIU  C6    .  C  0  -6.293  3.632   15.668  1  8 
+PIU  C2    .  C  0  -4.547  4.936   14.497  1  9 
+PIU  C5    .  C  0  -5.392  2.525   15.804  1  10
+PIU  C15   .  C  0  -4.122  6.218   13.816  1  11
+PIU  C16   .  C  0  -4.614  6.390   12.381  1  12
+PIU  N2    .  N  1  -4.625  7.833   11.907  1  13
+PIU  C7    .  C  0  -3.439  9.846   11.077  1  14
+PIU  C9    .  C  0  -5.916  9.862   11.338  1  15
+PIU  C10   .  C  0  -5.885  8.523   11.805  1  16
+PIU  C11   .  C  0  -3.393  8.501   11.540  1  17
+PIU  C8    .  C  0  -4.699  10.511  10.983  1  18
+PIU  C12   .  C  0  -4.751  11.940  10.533  1  19
+PIU  C13   .  C  0  -1.993  7.911   11.597  1  20
+PIU  C14   .  C  0  -7.229  7.944   12.183  1  21
+PIU  1HN1  .  H  0  ?       ?       ?       0  22
+PIU  2HN1  .  H  0  ?       ?       ?       0  23
+PIU  H6    .  H  0  ?       ?       ?       1  24
+PIU  H1    .  H  0  ?       ?       ?       1  25
+PIU  H3    .  H  0  ?       ?       ?       1  26
+PIU  H4    .  H  0  ?       ?       ?       1  27
+PIU  1H15  .  H  0  ?       ?       ?       0  28
+PIU  2H15  .  H  0  ?       ?       ?       0  29
+PIU  1H16  .  H  0  ?       ?       ?       0  30
+PIU  2H16  .  H  0  ?       ?       ?       0  31
+PIU  H9    .  H  0  ?       ?       ?       1  32
+PIU  H7    .  H  0  ?       ?       ?       1  33
+PIU  1H13  .  H  0  ?       ?       ?       0  34
+PIU  2H13  .  H  0  ?       ?       ?       0  35
+PIU  3H13  .  H  0  ?       ?       ?       0  36
+PIU  1H12  .  H  0  ?       ?       ?       0  37
+PIU  2H12  .  H  0  ?       ?       ?       0  38
+PIU  3H12  .  H  0  ?       ?       ?       0  39
+PIU  1H14  .  H  0  ?       ?       ?       0  40
+PIU  2H14  .  H  0  ?       ?       ?       0  41
+PIU  3H14  .  H  0  ?       ?       ?       0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIU  S1   N1    SING  1 
+PIU  S1   O1    DOUB  2 
+PIU  S1   O2    DOUB  3 
+PIU  S1   C5    SING  4 
+PIU  N1   1HN1  SING  5 
+PIU  N1   2HN1  SING  6 
+PIU  C1   C6    AROM  7 
+PIU  C1   H1    SING  8 
+PIU  C1   C2    AROM  9 
+PIU  C3   C2    AROM  10
+PIU  C3   H3    SING  11
+PIU  C3   C4    AROM  12
+PIU  C4   C5    AROM  13
+PIU  C4   H4    SING  14
+PIU  C6   C5    AROM  15
+PIU  C6   H6    SING  16
+PIU  C2   C15   SING  17
+PIU  C15  1H15  SING  18
+PIU  C15  2H15  SING  19
+PIU  C15  C16   SING  20
+PIU  C16  1H16  SING  21
+PIU  C16  2H16  SING  22
+PIU  C16  N2    SING  23
+PIU  N2   C10   AROM  24
+PIU  N2   C11   AROM  25
+PIU  C7   C8    AROM  26
+PIU  C7   H7    SING  27
+PIU  C7   C11   AROM  28
+PIU  C9   C10   AROM  29
+PIU  C9   H9    SING  30
+PIU  C9   C8    AROM  31
+PIU  C10  C14   SING  32
+PIU  C11  C13   SING  33
+PIU  C8   C12   SING  34
+PIU  C12  1H12  SING  35
+PIU  C12  2H12  SING  36
+PIU  C12  3H12  SING  37
+PIU  C13  1H13  SING  38
+PIU  C13  2H13  SING  39
+PIU  C13  3H13  SING  40
+PIU  C14  1H14  SING  41
+PIU  C14  2H14  SING  42
+PIU  C14  3H14  SING  43
+#

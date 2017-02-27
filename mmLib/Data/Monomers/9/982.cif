@@ -1,0 +1,80 @@
+data_982
+#
+_chem_comp.id                   982
+_chem_comp.name                 '3-(CARBOXYMETHOXY)THIENO[2,3-B]PYRIDINE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H7 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.229
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+982  C1    .  C  0  46.243  12.161  2.803  1  1 
+982  C2    .  C  0  46.328  10.814  2.210  1  2 
+982  C3    .  C  0  45.664  10.607  0.917  1  3 
+982  N1    .  N  0  44.980  11.682  0.298  1  4 
+982  C5    .  C  0  44.932  12.979  0.884  1  5 
+982  C6    .  C  0  45.558  13.284  2.167  1  6 
+982  S10   .  S  0  44.249  14.368  0.168  1  7 
+982  C11   .  C  0  44.668  15.375  1.488  1  8 
+982  C12   .  C  0  45.408  14.717  2.483  1  9 
+982  C13   .  C  0  44.228  16.687  1.516  1  10
+982  O14   .  O  0  43.652  17.104  0.507  1  11
+982  O15   .  O  0  46.075  15.529  3.477  1  12
+982  C16   .  C  0  47.008  14.934  4.363  1  13
+982  C17   .  C  0  46.333  15.413  5.618  1  14
+982  O20   .  O  0  46.441  16.615  5.938  1  15
+982  O21   .  O  0  44.388  17.417  2.502  1  16
+982  O22   .  O  0  45.676  14.607  6.298  1  17
+982  H21   .  H  0  44.011  18.272  2.327  1  18
+982  1H16  .  H  0  47.087  13.840  4.277  0  19
+982  2H16  .  H  0  48.068  15.195  4.230  0  20
+982  H22   .  H  0  45.305  15.054  7.049  1  21
+982  HC1   .  H  0  46.714  12.328  3.761  1  22
+982  HC2   .  H  0  46.857  10.013  2.706  1  23
+982  HC3   .  H  0  45.695  9.638   0.441  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+982  C1   C6    DOUB  1 
+982  C1   HC1   SING  2 
+982  C1   C2    SING  3 
+982  C2   HC2   SING  4 
+982  C2   C3    DOUB  5 
+982  C3   HC3   SING  6 
+982  C3   N1    SING  7 
+982  N1   C5    DOUB  8 
+982  C5   C6    SING  9 
+982  C5   S10   SING  10
+982  C6   C12   SING  11
+982  S10  C11   SING  12
+982  C11  C13   SING  13
+982  C11  C12   DOUB  14
+982  C12  O15   SING  15
+982  C13  O21   SING  16
+982  C13  O14   DOUB  17
+982  O15  C16   SING  18
+982  C16  1H16  SING  19
+982  C16  2H16  SING  20
+982  C16  C17   SING  21
+982  C17  O20   DOUB  22
+982  C17  O22   SING  23
+982  O21  H21   SING  24
+982  O22  H22   SING  25
+#

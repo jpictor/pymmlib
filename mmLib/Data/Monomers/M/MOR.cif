@@ -1,0 +1,65 @@
+data_MOR
+#
+_chem_comp.id                   MOR
+_chem_comp.name                 N-CARBONYLMORPHOLINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        115.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOR  O1   .  O  0  ?  ?  ?  1  1 
+MOR  C2   .  C  0  ?  ?  ?  1  2 
+MOR  C3   .  C  0  ?  ?  ?  1  3 
+MOR  N4   .  N  0  ?  ?  ?  1  4 
+MOR  C5   .  C  0  ?  ?  ?  1  5 
+MOR  C6   .  C  0  ?  ?  ?  1  6 
+MOR  C    .  C  0  ?  ?  ?  1  7 
+MOR  O    .  O  0  ?  ?  ?  1  8 
+MOR  1H2  .  H  0  ?  ?  ?  0  9 
+MOR  2H2  .  H  0  ?  ?  ?  0  10
+MOR  1H3  .  H  0  ?  ?  ?  0  11
+MOR  2H3  .  H  0  ?  ?  ?  0  12
+MOR  1H5  .  H  0  ?  ?  ?  0  13
+MOR  2H5  .  H  0  ?  ?  ?  0  14
+MOR  1H6  .  H  0  ?  ?  ?  0  15
+MOR  2H6  .  H  0  ?  ?  ?  0  16
+MOR  H    .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOR  O1  C2   SING  1 
+MOR  O1  C6   SING  2 
+MOR  C2  C3   SING  3 
+MOR  C2  1H2  SING  4 
+MOR  C2  2H2  SING  5 
+MOR  C3  N4   SING  6 
+MOR  C3  1H3  SING  7 
+MOR  C3  2H3  SING  8 
+MOR  N4  C5   SING  9 
+MOR  N4  C    SING  10
+MOR  C5  C6   SING  11
+MOR  C5  1H5  SING  12
+MOR  C5  2H5  SING  13
+MOR  C6  1H6  SING  14
+MOR  C6  2H6  SING  15
+MOR  C   O    DOUB  16
+MOR  C   H    SING  17
+#

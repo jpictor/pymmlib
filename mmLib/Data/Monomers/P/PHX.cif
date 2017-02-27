@@ -1,0 +1,100 @@
+data_PHX
+#
+_chem_comp.id                   PHX
+_chem_comp.name                 '4-{[(Z)-(5-OXO-2-PHENYL-1,3-OXAZOL-4(5H)-YLIDENE)METHYL]AMINO}BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.276
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PHX  CAC   .  C  0  16.814  28.083  57.223  1  1 
+PHX  CAB   .  C  0  17.582  29.218  58.056  1  2 
+PHX  CAM   .  C  0  18.009  29.055  59.605  1  3 
+PHX  CAQ   .  C  0  17.645  27.658  60.055  1  4 
+PHX  CAR   .  C  0  16.883  26.508  59.238  1  5 
+PHX  CAN   .  C  0  16.417  26.756  57.794  1  6 
+PHX  CAO   .  C  0  15.719  25.923  57.433  1  7 
+PHX  NAD   .  N  0  15.351  24.55   57.631  1  8 
+PHX  OAS   .  O  0  15.439  26.299  56.06   1  9 
+PHX  CAT   .  C  0  14.772  25.093  55.39   1  10
+PHX  OAU   .  O  0  14.133  25.127  54.339  1  11
+PHX  CAE   .  C  0  14.741  23.844  56.346  1  12
+PHX  CAF   .  C  0  14.019  22.976  56.495  1  13
+PHX  NAG   .  N  0  14.437  21.575  56.356  1  14
+PHX  CAH   .  C  0  13.433  20.525  56.497  1  15
+PHX  CAI   .  C  0  13.9    19.362  55.595  1  16
+PHX  CAJ   .  C  0  14.848  19.061  54.662  1  17
+PHX  CAK   .  C  0  15.874  18.037  54.807  1  18
+PHX  OAL   .  O  0  15.733  17.154  53.859  1  19
+PHX  OAP   .  O  0  17.004  18.85   54.642  1  20
+PHX  HAC   .  H  0  16.564  28.291  56.169  1  21
+PHX  HAB   .  H  0  17.832  30.162  57.543  1  22
+PHX  HAM   .  H  0  18.485  29.83   60.228  1  23
+PHX  HAQ   .  H  0  17.944  27.395  61.084  1  24
+PHX  HAR   .  H  0  16.692  25.532  59.715  1  25
+PHX  1HAF  .  H  0  13.15   23.139  55.815  0  26
+PHX  HAG   .  H  0  15.199  21.392  57.008  1  27
+PHX  1HAH  .  H  0  12.396  20.87   56.276  0  28
+PHX  2HAH  .  H  0  13.253  20.222  57.555  0  29
+PHX  HAI   .  H  0  13.253  18.484  55.76   1  30
+PHX  HAJ   .  H  0  14.837  19.639  53.723  1  31
+PHX  HAP   .  H  0  ?       ?       ?       1  32
+PHX  1HAI  .  H  0  13.253  18.484  55.76   0  33
+PHX  1HAJ  .  H  0  14.837  19.639  53.723  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PHX  CAC  CAB   AROM  1 
+PHX  CAC  CAN   AROM  2 
+PHX  CAC  HAC   SING  3 
+PHX  CAB  CAM   AROM  4 
+PHX  CAB  HAB   SING  5 
+PHX  CAM  CAQ   AROM  6 
+PHX  CAM  HAM   SING  7 
+PHX  CAQ  CAR   AROM  8 
+PHX  CAQ  HAQ   SING  9 
+PHX  CAR  CAN   AROM  10
+PHX  CAR  HAR   SING  11
+PHX  CAN  CAO   SING  12
+PHX  CAO  NAD   DOUB  13
+PHX  CAO  OAS   SING  14
+PHX  NAD  CAE   SING  15
+PHX  OAS  CAT   SING  16
+PHX  CAT  OAU   DOUB  17
+PHX  CAT  CAE   SING  18
+PHX  CAE  CAF   DOUB  19
+PHX  CAF  NAG   SING  20
+PHX  CAF  1HAF  SING  21
+PHX  NAG  CAH   SING  22
+PHX  NAG  HAG   SING  23
+PHX  CAH  CAI   SING  24
+PHX  CAH  1HAH  SING  25
+PHX  CAH  2HAH  SING  26
+PHX  CAI  1HAI  SING  27
+PHX  CAI  CAJ   SING  28
+PHX  CAI  HAI   SING  29
+PHX  CAJ  1HAJ  SING  30
+PHX  CAJ  CAK   SING  31
+PHX  CAJ  HAJ   SING  32
+PHX  CAK  OAL   DOUB  33
+PHX  CAK  OAP   SING  34
+PHX  OAP  HAP   SING  35
+#

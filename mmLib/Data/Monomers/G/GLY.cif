@@ -1,0 +1,50 @@
+data_GLY
+#
+_chem_comp.id                   GLY
+_chem_comp.name                 GLYCINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C2 H5 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        75.067
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLY  N    .  N  0  ?  ?  ?  1  1 
+GLY  CA   .  C  0  ?  ?  ?  1  2 
+GLY  C    .  C  0  ?  ?  ?  1  3 
+GLY  O    .  O  0  ?  ?  ?  1  4 
+GLY  OXT  .  O  0  ?  ?  ?  1  5 
+GLY  H    .  H  0  ?  ?  ?  1  6 
+GLY  HN2  .  H  0  ?  ?  ?  1  7 
+GLY  1HA  .  H  0  ?  ?  ?  0  8 
+GLY  2HA  .  H  0  ?  ?  ?  0  9 
+GLY  HXT  .  H  0  ?  ?  ?  1  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLY  N    CA   SING  1
+GLY  N    H    SING  2
+GLY  N    HN2  SING  3
+GLY  CA   C    SING  4
+GLY  CA   1HA  SING  5
+GLY  CA   2HA  SING  6
+GLY  C    O    DOUB  7
+GLY  C    OXT  SING  8
+GLY  OXT  HXT  SING  9
+#

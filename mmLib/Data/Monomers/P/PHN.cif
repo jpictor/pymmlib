@@ -1,0 +1,77 @@
+data_PHN
+#
+_chem_comp.id                   PHN
+_chem_comp.name                 1,10-PHENANTHROLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H8 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.209
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PHN  N1   .  N  0  ?  ?  ?  1  1 
+PHN  C2   .  C  0  ?  ?  ?  1  2 
+PHN  C3   .  C  0  ?  ?  ?  1  3 
+PHN  C4   .  C  0  ?  ?  ?  1  4 
+PHN  C4A  .  C  0  ?  ?  ?  1  5 
+PHN  C5   .  C  0  ?  ?  ?  1  6 
+PHN  C6   .  C  0  ?  ?  ?  1  7 
+PHN  C6A  .  C  0  ?  ?  ?  1  8 
+PHN  C7   .  C  0  ?  ?  ?  1  9 
+PHN  C8   .  C  0  ?  ?  ?  1  10
+PHN  C9   .  C  0  ?  ?  ?  1  11
+PHN  N10  .  N  0  ?  ?  ?  1  12
+PHN  C10  .  C  0  ?  ?  ?  1  13
+PHN  C1A  .  C  0  ?  ?  ?  1  14
+PHN  H2   .  H  0  ?  ?  ?  1  15
+PHN  H3   .  H  0  ?  ?  ?  1  16
+PHN  H4   .  H  0  ?  ?  ?  1  17
+PHN  H5   .  H  0  ?  ?  ?  1  18
+PHN  H6   .  H  0  ?  ?  ?  1  19
+PHN  H7   .  H  0  ?  ?  ?  1  20
+PHN  H8   .  H  0  ?  ?  ?  1  21
+PHN  H9   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PHN  N1   C2   DOUB  1 
+PHN  N1   C1A  SING  2 
+PHN  C2   C3   SING  3 
+PHN  C2   H2   SING  4 
+PHN  C3   C4   DOUB  5 
+PHN  C3   H3   SING  6 
+PHN  C4   C4A  SING  7 
+PHN  C4   H4   SING  8 
+PHN  C4A  C5   DOUB  9 
+PHN  C4A  C1A  SING  10
+PHN  C5   C6   SING  11
+PHN  C5   H5   SING  12
+PHN  C6   C6A  DOUB  13
+PHN  C6   H6   SING  14
+PHN  C6A  C7   SING  15
+PHN  C6A  C10  SING  16
+PHN  C7   C8   DOUB  17
+PHN  C7   H7   SING  18
+PHN  C8   C9   SING  19
+PHN  C8   H8   SING  20
+PHN  C9   N10  DOUB  21
+PHN  C9   H9   SING  22
+PHN  N10  C10  SING  23
+PHN  C10  C1A  DOUB  24
+#

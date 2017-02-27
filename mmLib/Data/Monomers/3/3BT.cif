@@ -1,0 +1,104 @@
+data_3BT
+#
+_chem_comp.id                   3BT
+_chem_comp.name                 2-{2-[3-(2-CARBAMIMIDOYLSULFANYL-ETHYL)-PHENYL]-ETHYL}-ISOTHIOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N4 S2'
+_chem_comp.pdbx_synonyms        S,S'-(1,3-PHENYLENE-BIS(1,2-ETHANEDIYL))BIS-ISOTHIOUREA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        282.421
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3BT  CA    .  C  0  ?  ?  ?  1  1 
+3BT  CB    .  C  0  ?  ?  ?  1  2 
+3BT  N1    .  N  0  ?  ?  ?  1  3 
+3BT  N2    .  N  0  ?  ?  ?  1  4 
+3BT  C     .  C  0  ?  ?  ?  1  5 
+3BT  S     .  S  0  ?  ?  ?  1  6 
+3BT  C3    .  C  0  ?  ?  ?  1  7 
+3BT  C2    .  C  0  ?  ?  ?  1  8 
+3BT  C1    .  C  0  ?  ?  ?  1  9 
+3BT  C6    .  C  0  ?  ?  ?  1  10
+3BT  C5    .  C  0  ?  ?  ?  1  11
+3BT  C4    .  C  0  ?  ?  ?  1  12
+3BT  CC    .  C  0  ?  ?  ?  1  13
+3BT  CD    .  C  0  ?  ?  ?  1  14
+3BT  N1'   .  N  0  ?  ?  ?  1  15
+3BT  N2'   .  N  0  ?  ?  ?  1  16
+3BT  C'    .  C  0  ?  ?  ?  1  17
+3BT  S'    .  S  0  ?  ?  ?  1  18
+3BT  'HN2  .  H  0  ?  ?  ?  0  19
+3BT  1H1'  .  H  0  ?  ?  ?  0  20
+3BT  2H1'  .  H  0  ?  ?  ?  0  21
+3BT  1HCC  .  H  0  ?  ?  ?  0  22
+3BT  2HCC  .  H  0  ?  ?  ?  0  23
+3BT  1HCD  .  H  0  ?  ?  ?  0  24
+3BT  2HCD  .  H  0  ?  ?  ?  0  25
+3BT  1H2   .  H  0  ?  ?  ?  0  26
+3BT  1H4   .  H  0  ?  ?  ?  0  27
+3BT  1H6   .  H  0  ?  ?  ?  0  28
+3BT  1H5   .  H  0  ?  ?  ?  0  29
+3BT  1HCB  .  H  0  ?  ?  ?  0  30
+3BT  2HCB  .  H  0  ?  ?  ?  0  31
+3BT  1HCA  .  H  0  ?  ?  ?  0  32
+3BT  2HCA  .  H  0  ?  ?  ?  0  33
+3BT  1HN1  .  H  0  ?  ?  ?  0  34
+3BT  2HN1  .  H  0  ?  ?  ?  0  35
+3BT  1HN2  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3BT  CA   CB    SING  1 
+3BT  CA   S     SING  2 
+3BT  CA   1HCA  SING  3 
+3BT  CA   2HCA  SING  4 
+3BT  CB   C1    SING  5 
+3BT  CB   1HCB  SING  6 
+3BT  CB   2HCB  SING  7 
+3BT  N1   C     SING  8 
+3BT  N1   1HN1  SING  9 
+3BT  N1   2HN1  SING  10
+3BT  N2   C     DOUB  11
+3BT  N2   1HN2  SING  12
+3BT  C    S     SING  13
+3BT  C3   C2    DOUB  14
+3BT  C3   C4    SING  15
+3BT  C3   CD    SING  16
+3BT  C2   C1    SING  17
+3BT  C2   1H2   SING  18
+3BT  C1   C6    DOUB  19
+3BT  C6   C5    SING  20
+3BT  C6   1H6   SING  21
+3BT  C5   C4    DOUB  22
+3BT  C5   1H5   SING  23
+3BT  C4   1H4   SING  24
+3BT  CC   CD    SING  25
+3BT  CC   S'    SING  26
+3BT  CC   1HCC  SING  27
+3BT  CC   2HCC  SING  28
+3BT  CD   1HCD  SING  29
+3BT  CD   2HCD  SING  30
+3BT  N1'  C'    SING  31
+3BT  N1'  1H1'  SING  32
+3BT  N1'  2H1'  SING  33
+3BT  N2'  C'    DOUB  34
+3BT  N2'  'HN2  SING  35
+3BT  C'   S'    SING  36
+#

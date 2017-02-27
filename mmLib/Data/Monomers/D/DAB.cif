@@ -1,0 +1,67 @@
+data_DAB
+#
+_chem_comp.id                       DAB
+_chem_comp.name                     '2,4-DIAMINOBUTYRIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H10 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            118.135
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAB  N    .  N  0  ?  ?  ?  1  1 
+DAB  CA   .  C  0  ?  ?  ?  1  2 
+DAB  C    .  C  0  ?  ?  ?  1  3 
+DAB  O    .  O  0  ?  ?  ?  1  4 
+DAB  CB   .  C  0  ?  ?  ?  1  5 
+DAB  CG   .  C  0  ?  ?  ?  1  6 
+DAB  ND   .  N  0  ?  ?  ?  1  7 
+DAB  OXT  .  O  0  ?  ?  ?  1  8 
+DAB  1HN  .  H  0  ?  ?  ?  0  9 
+DAB  2HN  .  H  0  ?  ?  ?  0  10
+DAB  HA   .  H  0  ?  ?  ?  1  11
+DAB  1HB  .  H  0  ?  ?  ?  0  12
+DAB  2HB  .  H  0  ?  ?  ?  0  13
+DAB  1HG  .  H  0  ?  ?  ?  0  14
+DAB  2HG  .  H  0  ?  ?  ?  0  15
+DAB  1HD  .  H  0  ?  ?  ?  0  16
+DAB  2HD  .  H  0  ?  ?  ?  0  17
+DAB  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAB  N    CA   SING  1 
+DAB  N    1HN  SING  2 
+DAB  N    2HN  SING  3 
+DAB  CA   C    SING  4 
+DAB  CA   CB   SING  5 
+DAB  CA   HA   SING  6 
+DAB  C    O    DOUB  7 
+DAB  C    OXT  SING  8 
+DAB  CB   CG   SING  9 
+DAB  CB   1HB  SING  10
+DAB  CB   2HB  SING  11
+DAB  CG   ND   SING  12
+DAB  CG   1HG  SING  13
+DAB  CG   2HG  SING  14
+DAB  ND   1HD  SING  15
+DAB  ND   2HD  SING  16
+DAB  OXT  HXT  SING  17
+#

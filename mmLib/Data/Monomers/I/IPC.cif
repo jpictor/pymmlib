@@ -1,0 +1,129 @@
+data_IPC
+#
+_chem_comp.id                   IPC
+_chem_comp.name                 '3-[ISOPROPYL(4-METHYLBENZOYL)AMINO]-5-PHENYLTHIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H21 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        379.473
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IPC  N1    .  N  0  27.790  62.008  6.365   1  1 
+IPC  C2    .  C  0  28.294  63.588  6.337   1  2 
+IPC  C3    .  C  0  27.321  64.604  5.858   1  3 
+IPC  C4    .  C  0  29.677  63.896  5.594   1  4 
+IPC  C5    .  C  0  27.076  61.535  7.526   1  5 
+IPC  O6    .  O  0  26.803  62.284  8.580   1  6 
+IPC  C7    .  C  0  26.479  59.978  7.751   1  7 
+IPC  C8    .  C  0  26.824  59.318  9.043   1  8 
+IPC  C9    .  C  0  26.198  57.890  9.080   1  9 
+IPC  C10   .  C  0  25.368  57.330  7.912   1  10
+IPC  C11   .  C  0  25.172  58.130  6.786   1  11
+IPC  C12   .  C  0  25.713  59.414  6.717   1  12
+IPC  C13   .  C  0  24.754  55.954  7.925   1  13
+IPC  C14   .  C  0  28.068  61.251  5.311   1  14
+IPC  C15   .  C  0  29.149  60.177  5.306   1  15
+IPC  S16   .  S  0  29.302  59.350  3.867   1  16
+IPC  C17   .  C  0  28.042  60.247  3.110   1  17
+IPC  C18   .  C  0  27.504  61.205  4.014   1  18
+IPC  C19   .  C  0  30.069  59.789  6.432   1  19
+IPC  O20   .  O  0  30.997  58.837  6.355   1  20
+IPC  O21   .  O  0  29.974  60.391  7.526   1  21
+IPC  C22   .  C  0  27.643  59.998  1.736   1  22
+IPC  C23   .  C  0  28.315  58.955  0.932   1  23
+IPC  C24   .  C  0  27.913  58.710  -0.437  1  24
+IPC  C25   .  C  0  26.845  59.486  -1.037  1  25
+IPC  C26   .  C  0  26.167  60.515  -0.272  1  26
+IPC  C27   .  C  0  26.516  60.802  1.072   1  27
+IPC  1H3   .  H  0  ?       ?       ?       0  28
+IPC  2H3   .  H  0  ?       ?       ?       0  29
+IPC  3H3   .  H  0  ?       ?       ?       0  30
+IPC  H2    .  H  0  ?       ?       ?       1  31
+IPC  1H4   .  H  0  ?       ?       ?       0  32
+IPC  2H4   .  H  0  ?       ?       ?       0  33
+IPC  3H4   .  H  0  ?       ?       ?       0  34
+IPC  H12   .  H  0  ?       ?       ?       1  35
+IPC  H11   .  H  0  ?       ?       ?       1  36
+IPC  1H13  .  H  0  ?       ?       ?       0  37
+IPC  2H13  .  H  0  ?       ?       ?       0  38
+IPC  3H13  .  H  0  ?       ?       ?       0  39
+IPC  H9    .  H  0  ?       ?       ?       1  40
+IPC  H8    .  H  0  ?       ?       ?       1  41
+IPC  H18   .  H  0  ?       ?       ?       1  42
+IPC  H27   .  H  0  ?       ?       ?       1  43
+IPC  H26   .  H  0  ?       ?       ?       1  44
+IPC  H25   .  H  0  ?       ?       ?       1  45
+IPC  H24   .  H  0  ?       ?       ?       1  46
+IPC  H23   .  H  0  ?       ?       ?       1  47
+IPC  H20   .  H  0  ?       ?       ?       1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IPC  N1   C2    SING  1 
+IPC  N1   C5    SING  2 
+IPC  N1   C14   SING  3 
+IPC  C2   C3    SING  4 
+IPC  C2   C4    SING  5 
+IPC  C2   H2    SING  6 
+IPC  C3   1H3   SING  7 
+IPC  C3   2H3   SING  8 
+IPC  C3   3H3   SING  9 
+IPC  C4   1H4   SING  10
+IPC  C4   2H4   SING  11
+IPC  C4   3H4   SING  12
+IPC  C5   O6    DOUB  13
+IPC  C5   C7    SING  14
+IPC  C7   C12   AROM  15
+IPC  C7   C8    AROM  16
+IPC  C8   C9    AROM  17
+IPC  C8   H8    SING  18
+IPC  C9   C10   AROM  19
+IPC  C9   H9    SING  20
+IPC  C10  C11   AROM  21
+IPC  C10  C13   SING  22
+IPC  C11  C12   AROM  23
+IPC  C11  H11   SING  24
+IPC  C12  H12   SING  25
+IPC  C13  1H13  SING  26
+IPC  C13  2H13  SING  27
+IPC  C13  3H13  SING  28
+IPC  C14  C15   DOUB  29
+IPC  C14  C18   SING  30
+IPC  C15  S16   SING  31
+IPC  C15  C19   SING  32
+IPC  S16  C17   SING  33
+IPC  C17  C18   DOUB  34
+IPC  C17  C22   SING  35
+IPC  C18  H18   SING  36
+IPC  C19  O20   SING  37
+IPC  C19  O21   DOUB  38
+IPC  O20  H20   SING  39
+IPC  C22  C27   AROM  40
+IPC  C22  C23   AROM  41
+IPC  C23  C24   AROM  42
+IPC  C23  H23   SING  43
+IPC  C24  C25   AROM  44
+IPC  C24  H24   SING  45
+IPC  C25  C26   AROM  46
+IPC  C25  H25   SING  47
+IPC  C26  C27   AROM  48
+IPC  C26  H26   SING  49
+IPC  C27  H27   SING  50
+#

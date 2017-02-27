@@ -1,0 +1,104 @@
+data_T
+#
+_chem_comp.id                   T
+_chem_comp.name                 THYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C10 H15 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        322.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+T  O3P   .  O  0  ?  ?  ?  1  1 
+T  P     .  P  0  ?  ?  ?  1  2 
+T  O1P   .  O  0  ?  ?  ?  1  3 
+T  O2P   .  O  0  ?  ?  ?  1  4 
+T  O5*   .  O  0  ?  ?  ?  1  5 
+T  C5*   .  C  0  ?  ?  ?  1  6 
+T  C4*   .  C  0  ?  ?  ?  1  7 
+T  O4*   .  O  0  ?  ?  ?  1  8 
+T  C3*   .  C  0  ?  ?  ?  1  9 
+T  O3*   .  O  0  ?  ?  ?  1  10
+T  C2*   .  C  0  ?  ?  ?  1  11
+T  C1*   .  C  0  ?  ?  ?  1  12
+T  N1    .  N  0  ?  ?  ?  1  13
+T  C2    .  C  0  ?  ?  ?  1  14
+T  O2    .  O  0  ?  ?  ?  1  15
+T  N3    .  N  0  ?  ?  ?  1  16
+T  C4    .  C  0  ?  ?  ?  1  17
+T  O4    .  O  0  ?  ?  ?  1  18
+T  C5    .  C  0  ?  ?  ?  1  19
+T  C5M   .  C  0  ?  ?  ?  1  20
+T  C6    .  C  0  ?  ?  ?  1  21
+T  3HOP  .  H  0  ?  ?  ?  0  22
+T  2HOP  .  H  0  ?  ?  ?  0  23
+T  1H5*  .  H  0  ?  ?  ?  0  24
+T  2H5*  .  H  0  ?  ?  ?  0  25
+T  H4*   .  H  0  ?  ?  ?  1  26
+T  H3*   .  H  0  ?  ?  ?  1  27
+T  1H2*  .  H  0  ?  ?  ?  0  28
+T  2H2*  .  H  0  ?  ?  ?  0  29
+T  H1*   .  H  0  ?  ?  ?  1  30
+T  H3    .  H  0  ?  ?  ?  1  31
+T  1H5M  .  H  0  ?  ?  ?  0  32
+T  2H5M  .  H  0  ?  ?  ?  0  33
+T  3H5M  .  H  0  ?  ?  ?  0  34
+T  H6    .  H  0  ?  ?  ?  1  35
+T  H3T   .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+T  O3P  P     SING  1 
+T  O3P  3HOP  SING  2 
+T  P    O1P   DOUB  3 
+T  P    O2P   SING  4 
+T  P    O5*   SING  5 
+T  O2P  2HOP  SING  6 
+T  O5*  C5*   SING  7 
+T  C5*  C4*   SING  8 
+T  C5*  1H5*  SING  9 
+T  C5*  2H5*  SING  10
+T  C4*  O4*   SING  11
+T  C4*  C3*   SING  12
+T  C4*  H4*   SING  13
+T  O4*  C1*   SING  14
+T  C3*  O3*   SING  15
+T  C3*  C2*   SING  16
+T  C3*  H3*   SING  17
+T  O3*  H3T   SING  18
+T  C2*  C1*   SING  19
+T  C2*  1H2*  SING  20
+T  C2*  2H2*  SING  21
+T  C1*  N1    SING  22
+T  C1*  H1*   SING  23
+T  N1   C2    SING  24
+T  N1   C6    SING  25
+T  C2   O2    DOUB  26
+T  C2   N3    SING  27
+T  N3   C4    SING  28
+T  N3   H3    SING  29
+T  C4   O4    DOUB  30
+T  C4   C5    SING  31
+T  C5   C5M   SING  32
+T  C5   C6    DOUB  33
+T  C5M  1H5M  SING  34
+T  C5M  2H5M  SING  35
+T  C5M  3H5M  SING  36
+T  C6   H6    SING  37
+#

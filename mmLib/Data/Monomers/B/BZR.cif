@@ -1,0 +1,108 @@
+data_BZR
+#
+_chem_comp.id                   BZR
+_chem_comp.name                 1S,2R,3S,4R-TETRAHYDRO-BENZO[A]ANTHRACENE-2,3,4-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H16 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.323
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZR  C4C   .  C  0  ?  ?  ?  1  1 
+BZR  C9C   .  C  0  ?  ?  ?  1  2 
+BZR  O3    .  O  0  ?  ?  ?  1  3 
+BZR  C8B   .  C  0  ?  ?  ?  1  4 
+BZR  O2    .  O  0  ?  ?  ?  1  5 
+BZR  C3B   .  C  0  ?  ?  ?  1  6 
+BZR  O1    .  O  0  ?  ?  ?  1  7 
+BZR  C3A   .  C  0  ?  ?  ?  1  8 
+BZR  C2A   .  C  0  ?  ?  ?  1  9 
+BZR  C4A   .  C  0  ?  ?  ?  1  10
+BZR  C1A   .  C  0  ?  ?  ?  1  11
+BZR  C5A   .  C  0  ?  ?  ?  1  12
+BZR  C4B   .  C  0  ?  ?  ?  1  13
+BZR  C6A   .  C  0  ?  ?  ?  1  14
+BZR  C7A   .  C  0  ?  ?  ?  1  15
+BZR  C8A   .  C  0  ?  ?  ?  1  16
+BZR  C5B   .  C  0  ?  ?  ?  1  17
+BZR  C9B   .  C  0  ?  ?  ?  1  18
+BZR  C11   .  C  0  ?  ?  ?  1  19
+BZR  C9A   .  C  0  ?  ?  ?  1  20
+BZR  C10   .  C  0  ?  ?  ?  1  21
+BZR  1H4C  .  H  0  ?  ?  ?  0  22
+BZR  2H4C  .  H  0  ?  ?  ?  0  23
+BZR  H9C   .  H  0  ?  ?  ?  1  24
+BZR  H3    .  H  0  ?  ?  ?  1  25
+BZR  H8B   .  H  0  ?  ?  ?  1  26
+BZR  HO2   .  H  0  ?  ?  ?  1  27
+BZR  H3B   .  H  0  ?  ?  ?  1  28
+BZR  H1    .  H  0  ?  ?  ?  1  29
+BZR  H2A   .  H  0  ?  ?  ?  1  30
+BZR  H1A   .  H  0  ?  ?  ?  1  31
+BZR  H5A   .  H  0  ?  ?  ?  1  32
+BZR  H7A   .  H  0  ?  ?  ?  1  33
+BZR  H6A   .  H  0  ?  ?  ?  1  34
+BZR  H8A   .  H  0  ?  ?  ?  1  35
+BZR  H9A   .  H  0  ?  ?  ?  1  36
+BZR  H10   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZR  C4C  C9C   SING  1 
+BZR  C4C  C4A   SING  2 
+BZR  C4C  1H4C  SING  3 
+BZR  C4C  2H4C  SING  4 
+BZR  C9C  O3    SING  5 
+BZR  C9C  C8B   SING  6 
+BZR  C9C  H9C   SING  7 
+BZR  O3   H3    SING  8 
+BZR  C8B  O2    SING  9 
+BZR  C8B  C3B   SING  10
+BZR  C8B  H8B   SING  11
+BZR  O2   HO2   SING  12
+BZR  C3B  O1    SING  13
+BZR  C3B  C3A   SING  14
+BZR  C3B  H3B   SING  15
+BZR  O1   H1    SING  16
+BZR  C3A  C2A   AROM  17
+BZR  C3A  C4A   AROM  18
+BZR  C2A  C1A   AROM  19
+BZR  C2A  H2A   SING  20
+BZR  C4A  C4B   AROM  21
+BZR  C1A  C11   AROM  22
+BZR  C1A  H1A   SING  23
+BZR  C5A  C4B   AROM  24
+BZR  C5A  C5B   AROM  25
+BZR  C5A  H5A   SING  26
+BZR  C4B  C11   AROM  27
+BZR  C6A  C7A   AROM  28
+BZR  C6A  C5B   AROM  29
+BZR  C6A  H6A   SING  30
+BZR  C7A  C8A   AROM  31
+BZR  C7A  H7A   SING  32
+BZR  C8A  C9A   AROM  33
+BZR  C8A  H8A   SING  34
+BZR  C5B  C9B   AROM  35
+BZR  C9B  C9A   AROM  36
+BZR  C9B  C10   AROM  37
+BZR  C11  C10   AROM  38
+BZR  C9A  H9A   SING  39
+BZR  C10  H10   SING  40
+#

@@ -1,0 +1,70 @@
+data_MED
+#
+_chem_comp.id                   MED
+_chem_comp.name                 D-METHIONINE
+_chem_comp.type                 'D-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H11 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.207
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MED  N    .  N  0  ?  ?  ?  1  1 
+MED  CA   .  C  0  ?  ?  ?  1  2 
+MED  C    .  C  0  ?  ?  ?  1  3 
+MED  O    .  O  0  ?  ?  ?  1  4 
+MED  CB   .  C  0  ?  ?  ?  1  5 
+MED  CG   .  C  0  ?  ?  ?  1  6 
+MED  SD   .  S  0  ?  ?  ?  1  7 
+MED  CE   .  C  0  ?  ?  ?  1  8 
+MED  OXT  .  O  0  ?  ?  ?  1  9 
+MED  H    .  H  0  ?  ?  ?  1  10
+MED  HN2  .  H  0  ?  ?  ?  1  11
+MED  HA   .  H  0  ?  ?  ?  1  12
+MED  1HB  .  H  0  ?  ?  ?  0  13
+MED  2HB  .  H  0  ?  ?  ?  0  14
+MED  1HG  .  H  0  ?  ?  ?  0  15
+MED  2HG  .  H  0  ?  ?  ?  0  16
+MED  1HE  .  H  0  ?  ?  ?  0  17
+MED  2HE  .  H  0  ?  ?  ?  0  18
+MED  3HE  .  H  0  ?  ?  ?  0  19
+MED  HXT  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MED  N    CA   SING  1 
+MED  N    H    SING  2 
+MED  N    HN2  SING  3 
+MED  CA   C    SING  4 
+MED  CA   CB   SING  5 
+MED  CA   HA   SING  6 
+MED  C    O    DOUB  7 
+MED  C    OXT  SING  8 
+MED  CB   CG   SING  9 
+MED  CB   1HB  SING  10
+MED  CB   2HB  SING  11
+MED  CG   SD   SING  12
+MED  CG   1HG  SING  13
+MED  CG   2HG  SING  14
+MED  SD   CE   SING  15
+MED  CE   1HE  SING  16
+MED  CE   2HE  SING  17
+MED  CE   3HE  SING  18
+MED  OXT  HXT  SING  19
+#

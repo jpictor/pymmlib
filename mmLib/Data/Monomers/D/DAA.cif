@@ -1,0 +1,108 @@
+data_DAA
+#
+_chem_comp.id                   DAA
+_chem_comp.name                 '8-AMINO-7-CARBOXYAMINO-NONANOIC ACID WITH ALUMINUM FLUORIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H19 N2 O4 AL1 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        315.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAA  CA    .  C   0  ?  ?  ?  1  1 
+DAA  C     .  C   0  ?  ?  ?  1  2 
+DAA  OI1   .  O   0  ?  ?  ?  1  3 
+DAA  OI2   .  O   0  ?  ?  ?  1  4 
+DAA  CB    .  C   0  ?  ?  ?  1  5 
+DAA  CG    .  C   0  ?  ?  ?  1  6 
+DAA  CD    .  C   0  ?  ?  ?  1  7 
+DAA  CE    .  C   0  ?  ?  ?  1  8 
+DAA  CZ    .  C   0  ?  ?  ?  1  9 
+DAA  CH    .  C   0  ?  ?  ?  1  10
+DAA  CS    .  C   0  ?  ?  ?  1  11
+DAA  N1    .  N   0  ?  ?  ?  1  12
+DAA  CN1   .  C   0  ?  ?  ?  1  13
+DAA  O11   .  O   0  ?  ?  ?  1  14
+DAA  O12   .  O   0  ?  ?  ?  1  15
+DAA  N2    .  N   0  ?  ?  ?  1  16
+DAA  AL    .  AL  0  ?  ?  ?  0  17
+DAA  F1    .  F   0  ?  ?  ?  1  18
+DAA  F2    .  F   0  ?  ?  ?  1  19
+DAA  F3    .  F   0  ?  ?  ?  1  20
+DAA  1HCA  .  H   0  ?  ?  ?  0  21
+DAA  2HCA  .  H   0  ?  ?  ?  0  22
+DAA  HI2   .  H   0  ?  ?  ?  1  23
+DAA  1HCB  .  H   0  ?  ?  ?  0  24
+DAA  2HCB  .  H   0  ?  ?  ?  0  25
+DAA  1HCG  .  H   0  ?  ?  ?  0  26
+DAA  2HCG  .  H   0  ?  ?  ?  0  27
+DAA  1HCD  .  H   0  ?  ?  ?  0  28
+DAA  2HCD  .  H   0  ?  ?  ?  0  29
+DAA  1HCE  .  H   0  ?  ?  ?  0  30
+DAA  2HCE  .  H   0  ?  ?  ?  0  31
+DAA  HCZ   .  H   0  ?  ?  ?  1  32
+DAA  HCH   .  H   0  ?  ?  ?  1  33
+DAA  1HN2  .  H   0  ?  ?  ?  0  34
+DAA  2HN2  .  H   0  ?  ?  ?  0  35
+DAA  1HCS  .  H   0  ?  ?  ?  0  36
+DAA  2HCS  .  H   0  ?  ?  ?  0  37
+DAA  3HCS  .  H   0  ?  ?  ?  0  38
+DAA  HN1   .  H   0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAA  CA   C     SING  1 
+DAA  CA   CB    SING  2 
+DAA  CA   1HCA  SING  3 
+DAA  CA   2HCA  SING  4 
+DAA  C    OI1   DOUB  5 
+DAA  C    OI2   SING  6 
+DAA  OI2  HI2   SING  7 
+DAA  CB   CG    SING  8 
+DAA  CB   1HCB  SING  9 
+DAA  CB   2HCB  SING  10
+DAA  CG   CD    SING  11
+DAA  CG   1HCG  SING  12
+DAA  CG   2HCG  SING  13
+DAA  CD   CE    SING  14
+DAA  CD   1HCD  SING  15
+DAA  CD   2HCD  SING  16
+DAA  CE   CZ    SING  17
+DAA  CE   1HCE  SING  18
+DAA  CE   2HCE  SING  19
+DAA  CZ   CH    SING  20
+DAA  CZ   N1    SING  21
+DAA  CZ   HCZ   SING  22
+DAA  CH   CS    SING  23
+DAA  CH   N2    SING  24
+DAA  CH   HCH   SING  25
+DAA  CS   1HCS  SING  26
+DAA  CS   2HCS  SING  27
+DAA  CS   3HCS  SING  28
+DAA  N1   CN1   SING  29
+DAA  N1   HN1   SING  30
+DAA  CN1  O11   SING  31
+DAA  CN1  O12   DOUB  32
+DAA  O11  AL    SING  33
+DAA  N2   1HN2  SING  34
+DAA  N2   2HN2  SING  35
+DAA  AL   F1    SING  36
+DAA  AL   F2    SING  37
+DAA  AL   F3    SING  38
+#

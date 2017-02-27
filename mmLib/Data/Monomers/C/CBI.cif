@@ -1,0 +1,122 @@
+data_CBI
+#
+_chem_comp.id                   CBI
+_chem_comp.name                 CELLOBIOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C12 H22 O11'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.299
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBI  C1    .  C  0  ?  ?  ?  1  1 
+CBI  C2    .  C  0  ?  ?  ?  1  2 
+CBI  C3    .  C  0  ?  ?  ?  1  3 
+CBI  C4    .  C  0  ?  ?  ?  1  4 
+CBI  C5    .  C  0  ?  ?  ?  1  5 
+CBI  C6    .  C  0  ?  ?  ?  1  6 
+CBI  O2    .  O  0  ?  ?  ?  1  7 
+CBI  O3    .  O  0  ?  ?  ?  1  8 
+CBI  O4    .  O  0  ?  ?  ?  1  9 
+CBI  O5    .  O  0  ?  ?  ?  1  10
+CBI  O6    .  O  0  ?  ?  ?  1  11
+CBI  C1'   .  C  0  ?  ?  ?  1  12
+CBI  C2'   .  C  0  ?  ?  ?  1  13
+CBI  C3'   .  C  0  ?  ?  ?  1  14
+CBI  C4'   .  C  0  ?  ?  ?  1  15
+CBI  C5'   .  C  0  ?  ?  ?  1  16
+CBI  C6'   .  C  0  ?  ?  ?  1  17
+CBI  O1'   .  O  0  ?  ?  ?  1  18
+CBI  O2'   .  O  0  ?  ?  ?  1  19
+CBI  O3'   .  O  0  ?  ?  ?  1  20
+CBI  O4'   .  O  0  ?  ?  ?  1  21
+CBI  O5'   .  O  0  ?  ?  ?  1  22
+CBI  O6'   .  O  0  ?  ?  ?  1  23
+CBI  H1    .  H  0  ?  ?  ?  1  24
+CBI  H2    .  H  0  ?  ?  ?  1  25
+CBI  H3    .  H  0  ?  ?  ?  1  26
+CBI  H4    .  H  0  ?  ?  ?  1  27
+CBI  H5    .  H  0  ?  ?  ?  1  28
+CBI  1H6   .  H  0  ?  ?  ?  0  29
+CBI  2H6   .  H  0  ?  ?  ?  0  30
+CBI  HO2   .  H  0  ?  ?  ?  1  31
+CBI  HO3   .  H  0  ?  ?  ?  1  32
+CBI  HO4   .  H  0  ?  ?  ?  1  33
+CBI  HO6   .  H  0  ?  ?  ?  1  34
+CBI  H1'   .  H  0  ?  ?  ?  1  35
+CBI  H2'   .  H  0  ?  ?  ?  1  36
+CBI  H3'   .  H  0  ?  ?  ?  1  37
+CBI  H4'   .  H  0  ?  ?  ?  1  38
+CBI  H5'   .  H  0  ?  ?  ?  1  39
+CBI  1H6'  .  H  0  ?  ?  ?  0  40
+CBI  2H6'  .  H  0  ?  ?  ?  0  41
+CBI  'HO1  .  H  0  ?  ?  ?  0  42
+CBI  'HO2  .  H  0  ?  ?  ?  0  43
+CBI  'HO3  .  H  0  ?  ?  ?  0  44
+CBI  'HO6  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBI  C1   C2    SING  1 
+CBI  C1   O4'   SING  2 
+CBI  C1   O5    SING  3 
+CBI  C1   H1    SING  4 
+CBI  C2   C3    SING  5 
+CBI  C2   O2    SING  6 
+CBI  C2   H2    SING  7 
+CBI  C3   C4    SING  8 
+CBI  C3   O3    SING  9 
+CBI  C3   H3    SING  10
+CBI  C4   C5    SING  11
+CBI  C4   O4    SING  12
+CBI  C4   H4    SING  13
+CBI  C5   C6    SING  14
+CBI  C5   O5    SING  15
+CBI  C5   H5    SING  16
+CBI  C6   O6    SING  17
+CBI  C6   1H6   SING  18
+CBI  C6   2H6   SING  19
+CBI  O2   HO2   SING  20
+CBI  O3   HO3   SING  21
+CBI  O4   HO4   SING  22
+CBI  O6   HO6   SING  23
+CBI  C1'  C2'   SING  24
+CBI  C1'  O1'   SING  25
+CBI  C1'  O5'   SING  26
+CBI  C1'  H1'   SING  27
+CBI  C2'  C3'   SING  28
+CBI  C2'  O2'   SING  29
+CBI  C2'  H2'   SING  30
+CBI  C3'  C4'   SING  31
+CBI  C3'  O3'   SING  32
+CBI  C3'  H3'   SING  33
+CBI  C4'  C5'   SING  34
+CBI  C4'  O4'   SING  35
+CBI  C4'  H4'   SING  36
+CBI  C5'  C6'   SING  37
+CBI  C5'  O5'   SING  38
+CBI  C5'  H5'   SING  39
+CBI  C6'  O6'   SING  40
+CBI  C6'  1H6'  SING  41
+CBI  C6'  2H6'  SING  42
+CBI  O1'  'HO1  SING  43
+CBI  O2'  'HO2  SING  44
+CBI  O3'  'HO3  SING  45
+CBI  O6'  'HO6  SING  46
+#

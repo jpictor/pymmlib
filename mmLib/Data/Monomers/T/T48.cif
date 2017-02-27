@@ -1,0 +1,111 @@
+data_T48
+#
+_chem_comp.id                       T48
+_chem_comp.name                     '6'-ALPHA-HYDROXY CARBOCYCLIC THYMIDINE 5'-MONOPHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N2 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            336.238
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+T48  O3P   .  O  0  8.665   12.655  11.234  1  1 
+T48  P     .  P  0  8.057   13.772  12.008  1  2 
+T48  O1P   .  O  0  6.774   13.631  12.710  1  3 
+T48  O2P   .  O  0  9.148   14.343  12.954  1  4 
+T48  O5*   .  O  0  7.945   15.002  11.041  1  5 
+T48  C5*   .  C  0  7.203   16.158  11.389  1  6 
+T48  C4*   .  C  0  7.458   17.254  10.351  1  7 
+T48  C3*   .  C  0  7.120   16.769  8.925   1  8 
+T48  O3*   .  O  0  6.639   17.844  8.206   1  9 
+T48  C2*   .  C  0  8.436   16.513  8.270   1  10
+T48  C1*   .  C  0  9.248   17.608  8.836   1  11
+T48  N1    .  N  0  10.663  17.457  8.550   1  12
+T48  C2    .  C  0  11.309  18.642  8.166   1  13
+T48  O2    .  O  0  10.717  19.725  8.045   1  14
+T48  N3    .  N  0  12.660  18.526  7.892   1  15
+T48  C4    .  C  0  13.383  17.372  7.972   1  16
+T48  O4    .  O  0  14.584  17.425  7.720   1  17
+T48  C5    .  C  0  12.626  16.200  8.376   1  18
+T48  C5M   .  C  0  13.349  14.875  8.518   1  19
+T48  C     .  C  0  8.951   17.523  10.311  1  20
+T48  C6    .  C  0  11.321  16.264  8.649   1  21
+T48  O     .  O  0  9.371   18.644  11.136  1  22
+T48  1H5*  .  H  0  7.418   16.501  12.428  0  23
+T48  2H5*  .  H  0  6.117   15.941  11.516  0  24
+T48  H4*   .  H  0  6.892   18.181  10.602  1  25
+T48  H3*   .  H  0  6.439   15.886  8.908   1  26
+T48  H     .  H  0  9.463   16.613  10.701  1  27
+T48  HA    .  H  0  6.431   17.545  7.328   1  28
+T48  1H2*  .  H  0  8.415   16.458  7.157   0  29
+T48  2H2*  .  H  0  8.850   15.487  8.410   0  30
+T48  H1*   .  H  0  8.888   18.585  8.438   1  31
+T48  H6    .  H  0  10.775  15.355  8.954   1  32
+T48  H3    .  H  0  13.155  19.371  7.607   1  33
+T48  1H5M  .  H  0  14.439  14.821  8.290   0  34
+T48  2H5M  .  H  0  12.818  14.111  7.904   0  35
+T48  3H5M  .  H  0  13.180  14.484  9.549   0  36
+T48  HB    .  H  0  10.306  18.812  11.111  1  37
+T48  H2P   .  H  0  ?       ?       ?       1  38
+T48  H3P   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+T48  O3P  H3P   SING  1 
+T48  O3P  P     SING  2 
+T48  P    O1P   DOUB  3 
+T48  P    O2P   SING  4 
+T48  P    O5*   SING  5 
+T48  O2P  H2P   SING  6 
+T48  O5*  C5*   SING  7 
+T48  C5*  C4*   SING  8 
+T48  C5*  1H5*  SING  9 
+T48  C5*  2H5*  SING  10
+T48  C4*  C3*   SING  11
+T48  C4*  C     SING  12
+T48  C4*  H4*   SING  13
+T48  C3*  O3*   SING  14
+T48  C3*  C2*   SING  15
+T48  C3*  H3*   SING  16
+T48  O3*  HA    SING  17
+T48  C2*  C1*   SING  18
+T48  C2*  1H2*  SING  19
+T48  C2*  2H2*  SING  20
+T48  C1*  N1    SING  21
+T48  C1*  C     SING  22
+T48  C1*  H1*   SING  23
+T48  N1   C2    SING  24
+T48  N1   C6    SING  25
+T48  C2   O2    DOUB  26
+T48  C2   N3    SING  27
+T48  N3   C4    SING  28
+T48  N3   H3    SING  29
+T48  C4   O4    DOUB  30
+T48  C4   C5    SING  31
+T48  C5   C5M   SING  32
+T48  C5   C6    DOUB  33
+T48  C5M  1H5M  SING  34
+T48  C5M  2H5M  SING  35
+T48  C5M  3H5M  SING  36
+T48  C    O     SING  37
+T48  C    H     SING  38
+T48  C6   H6    SING  39
+T48  O    HB    SING  40
+#

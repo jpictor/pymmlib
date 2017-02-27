@@ -1,0 +1,79 @@
+data_BDF
+#
+_chem_comp.id                   BDF
+_chem_comp.name                 BETA-D-FRUCTOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BDF  C1   .  C  0  -2.883  -16.858  -16.449  1  1 
+BDF  C2   .  C  0  -1.962  -16.425  -17.579  1  2 
+BDF  C3   .  C  0  -1.942  -14.877  -17.738  1  3 
+BDF  C4   .  C  0  -1.212  -14.499  -19.032  1  4 
+BDF  C5   .  C  0  -1.765  -15.228  -20.254  1  5 
+BDF  C6   .  C  0  -1.760  -16.721  -19.976  1  6 
+BDF  O1   .  O  0  -4.221  -16.413  -16.631  1  7 
+BDF  O2   .  O  0  -0.634  -16.918  -17.382  1  8 
+BDF  O3   .  O  0  -1.250  -14.269  -16.633  1  9 
+BDF  O4   .  O  0  -1.279  -13.085  -19.244  1  10
+BDF  O5   .  O  0  -3.115  -14.805  -20.534  1  11
+BDF  O6   .  O  0  -2.518  -17.003  -18.769  1  12
+BDF  1H1  .  H  0  ?       ?        ?        0  13
+BDF  2H1  .  H  0  ?       ?        ?        0  14
+BDF  HO1  .  H  0  ?       ?        ?        1  15
+BDF  HO2  .  H  0  ?       ?        ?        1  16
+BDF  HO3  .  H  0  ?       ?        ?        1  17
+BDF  H3   .  H  0  ?       ?        ?        1  18
+BDF  H4   .  H  0  ?       ?        ?        1  19
+BDF  HO4  .  H  0  ?       ?        ?        1  20
+BDF  H5   .  H  0  ?       ?        ?        1  21
+BDF  HO5  .  H  0  ?       ?        ?        1  22
+BDF  1H6  .  H  0  ?       ?        ?        0  23
+BDF  2H6  .  H  0  ?       ?        ?        0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BDF  C1  C2   SING  1 
+BDF  C1  O1   SING  2 
+BDF  C1  1H1  SING  3 
+BDF  C1  2H1  SING  4 
+BDF  C2  C3   SING  5 
+BDF  C2  O2   SING  6 
+BDF  C2  O6   SING  7 
+BDF  C3  C4   SING  8 
+BDF  C3  O3   SING  9 
+BDF  C3  H3   SING  10
+BDF  C4  C5   SING  11
+BDF  C4  O4   SING  12
+BDF  C4  H4   SING  13
+BDF  C5  C6   SING  14
+BDF  C5  O5   SING  15
+BDF  C5  H5   SING  16
+BDF  C6  O6   SING  17
+BDF  C6  1H6  SING  18
+BDF  C6  2H6  SING  19
+BDF  O1  HO1  SING  20
+BDF  O2  HO2  SING  21
+BDF  O3  HO3  SING  22
+BDF  O4  HO4  SING  23
+BDF  O5  HO5  SING  24
+#

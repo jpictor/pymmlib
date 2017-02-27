@@ -1,0 +1,69 @@
+data_4FA
+#
+_chem_comp.id                   4FA
+_chem_comp.name                 '4-FLUOROPHENETHYL ALCOHOL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 O1 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        140.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4FA  C1    .  C  0  27.384  6.769  3.143  1  1 
+4FA  C2    .  C  0  27.473  7.518  4.309  1  2 
+4FA  C3    .  C  0  26.718  5.545  3.103  1  3 
+4FA  C4    .  C  0  28.027  7.320  1.942  1  4 
+4FA  C5    .  C  0  26.892  7.022  5.474  1  5 
+4FA  C6    .  C  0  26.132  5.061  4.277  1  6 
+4FA  C7    .  C  0  26.218  5.801  5.455  1  7 
+4FA  F8    .  F  0  25.656  5.308  6.571  1  8 
+4FA  C13   .  C  0  27.897  8.799  1.944  1  9 
+4FA  O14   .  O  0  28.196  9.131  0.603  1  10
+4FA  HC5   .  H  0  ?       ?      ?      1  11
+4FA  HC2   .  H  0  ?       ?      ?      1  12
+4FA  HC6   .  H  0  ?       ?      ?      1  13
+4FA  HC3   .  H  0  ?       ?      ?      1  14
+4FA  1HC4  .  H  0  ?       ?      ?      0  15
+4FA  2HC4  .  H  0  ?       ?      ?      0  16
+4FA  1H13  .  H  0  ?       ?      ?      0  17
+4FA  2H13  .  H  0  ?       ?      ?      0  18
+4FA  H14   .  H  0  ?       ?      ?      1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4FA  C1   C2    AROM  1 
+4FA  C1   C3    AROM  2 
+4FA  C1   C4    SING  3 
+4FA  C2   C5    AROM  4 
+4FA  C2   HC2   SING  5 
+4FA  C3   C6    AROM  6 
+4FA  C3   HC3   SING  7 
+4FA  C4   C13   SING  8 
+4FA  C4   1HC4  SING  9 
+4FA  C4   2HC4  SING  10
+4FA  C5   C7    AROM  11
+4FA  C5   HC5   SING  12
+4FA  C6   C7    AROM  13
+4FA  C6   HC6   SING  14
+4FA  C7   F8    SING  15
+4FA  C13  O14   SING  16
+4FA  C13  1H13  SING  17
+4FA  C13  2H13  SING  18
+4FA  O14  H14   SING  19
+#

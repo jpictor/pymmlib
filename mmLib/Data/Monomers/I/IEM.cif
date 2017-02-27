@@ -1,0 +1,108 @@
+data_IEM
+#
+_chem_comp.id                   IEM
+_chem_comp.name                 '5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-6-ISOBUTOXY-4H-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N1 O6'
+_chem_comp.pdbx_synonyms        'ISOBUTYL ETHER MIMETIC'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        273.285
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IEM  C1    .  C  0  34.226  30.383  24.433  1  1 
+IEM  C2    .  C  0  34.011  30.336  25.842  1  2 
+IEM  C3    .  C  0  33.192  31.448  26.593  1  3 
+IEM  C4    .  C  0  32.625  30.880  27.943  1  4 
+IEM  C5    .  C  0  33.586  29.909  28.668  1  5 
+IEM  C6    .  C  0  33.894  28.762  27.664  1  6 
+IEM  O7    .  O  0  34.821  27.658  28.198  1  7 
+IEM  C7    .  C  0  35.106  26.548  27.151  1  8 
+IEM  C8    .  C  0  36.050  25.480  27.711  1  9 
+IEM  C9    .  C  0  36.478  24.572  26.570  1  10
+IEM  C10   .  C  0  35.335  24.701  28.805  1  11
+IEM  C11   .  C  0  33.375  29.607  31.166  1  12
+IEM  C12   .  C  0  32.580  29.048  32.323  1  13
+IEM  N5    .  N  0  32.918  29.430  29.904  1  14
+IEM  O1A   .  O  0  34.541  29.268  23.709  1  15
+IEM  O1B   .  O  0  34.142  31.501  23.799  1  16
+IEM  O4    .  O  0  32.305  31.991  28.782  1  17
+IEM  O6    .  O  0  34.560  29.347  26.478  1  18
+IEM  O11   .  O  0  34.545  30.276  31.468  1  19
+IEM  H1A   .  H  0  ?       ?       ?       1  20
+IEM  H3    .  H  0  ?       ?       ?       1  21
+IEM  H4    .  H  0  ?       ?       ?       1  22
+IEM  HO4   .  H  0  ?       ?       ?       1  23
+IEM  H5    .  H  0  ?       ?       ?       1  24
+IEM  HN5   .  H  0  ?       ?       ?       1  25
+IEM  1H12  .  H  0  ?       ?       ?       0  26
+IEM  2H12  .  H  0  ?       ?       ?       0  27
+IEM  3H12  .  H  0  ?       ?       ?       0  28
+IEM  H6    .  H  0  ?       ?       ?       1  29
+IEM  1H7   .  H  0  ?       ?       ?       0  30
+IEM  2H7   .  H  0  ?       ?       ?       0  31
+IEM  H8    .  H  0  ?       ?       ?       1  32
+IEM  1H9   .  H  0  ?       ?       ?       0  33
+IEM  2H9   .  H  0  ?       ?       ?       0  34
+IEM  3H9   .  H  0  ?       ?       ?       0  35
+IEM  1H10  .  H  0  ?       ?       ?       0  36
+IEM  2H10  .  H  0  ?       ?       ?       0  37
+IEM  3H10  .  H  0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IEM  C1   O1A   SING  1 
+IEM  C1   O1B   DOUB  2 
+IEM  C1   C2    SING  3 
+IEM  C2   C3    DOUB  4 
+IEM  C2   O6    SING  5 
+IEM  C3   H3    SING  6 
+IEM  C3   C4    SING  7 
+IEM  C4   H4    SING  8 
+IEM  C4   O4    SING  9 
+IEM  C4   C5    SING  10
+IEM  C5   H5    SING  11
+IEM  C5   N5    SING  12
+IEM  C5   C6    SING  13
+IEM  C6   H6    SING  14
+IEM  C6   O6    SING  15
+IEM  C6   O7    SING  16
+IEM  O7   C7    SING  17
+IEM  C7   1H7   SING  18
+IEM  C7   2H7   SING  19
+IEM  C7   C8    SING  20
+IEM  C8   H8    SING  21
+IEM  C8   C9    SING  22
+IEM  C8   C10   SING  23
+IEM  C9   1H9   SING  24
+IEM  C9   2H9   SING  25
+IEM  C9   3H9   SING  26
+IEM  C10  1H10  SING  27
+IEM  C10  2H10  SING  28
+IEM  C10  3H10  SING  29
+IEM  C11  N5    SING  30
+IEM  C11  O11   DOUB  31
+IEM  C11  C12   SING  32
+IEM  C12  1H12  SING  33
+IEM  C12  2H12  SING  34
+IEM  C12  3H12  SING  35
+IEM  N5   HN5   SING  36
+IEM  O1A  H1A   SING  37
+IEM  O4   HO4   SING  38
+#

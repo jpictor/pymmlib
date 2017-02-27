@@ -1,0 +1,101 @@
+data_I06
+#
+_chem_comp.id                   I06
+_chem_comp.name                 2-PHENETHYL-2,3-DIHYDRO-PHTHALAZINE-1,4-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.299
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+I06  C7    .  C  0  ?  ?  ?  1  1 
+I06  C8    .  C  0  ?  ?  ?  1  2 
+I06  C9    .  C  0  ?  ?  ?  1  3 
+I06  C10   .  C  0  ?  ?  ?  1  4 
+I06  C11   .  C  0  ?  ?  ?  1  5 
+I06  C12   .  C  0  ?  ?  ?  1  6 
+I06  C13   .  C  0  ?  ?  ?  1  7 
+I06  O13   .  O  0  ?  ?  ?  1  8 
+I06  N14   .  N  0  ?  ?  ?  1  9 
+I06  N15   .  N  0  ?  ?  ?  1  10
+I06  C16   .  C  0  ?  ?  ?  1  11
+I06  O16   .  O  0  ?  ?  ?  1  12
+I06  CA    .  C  0  ?  ?  ?  1  13
+I06  CB    .  C  0  ?  ?  ?  1  14
+I06  CG    .  C  0  ?  ?  ?  1  15
+I06  CD1   .  C  0  ?  ?  ?  1  16
+I06  CD2   .  C  0  ?  ?  ?  1  17
+I06  CE1   .  C  0  ?  ?  ?  1  18
+I06  CE2   .  C  0  ?  ?  ?  1  19
+I06  CZ    .  C  0  ?  ?  ?  1  20
+I06  1H11  .  H  0  ?  ?  ?  0  21
+I06  1H12  .  H  0  ?  ?  ?  0  22
+I06  1H7   .  H  0  ?  ?  ?  0  23
+I06  1H8   .  H  0  ?  ?  ?  0  24
+I06  H15   .  H  0  ?  ?  ?  1  25
+I06  1HA   .  H  0  ?  ?  ?  0  26
+I06  2HA   .  H  0  ?  ?  ?  0  27
+I06  1HB   .  H  0  ?  ?  ?  0  28
+I06  2HB   .  H  0  ?  ?  ?  0  29
+I06  1HD1  .  H  0  ?  ?  ?  0  30
+I06  1HE1  .  H  0  ?  ?  ?  0  31
+I06  1HZ   .  H  0  ?  ?  ?  0  32
+I06  1HE2  .  H  0  ?  ?  ?  0  33
+I06  1HD2  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+I06  C7   C8    DOUB  1 
+I06  C7   C12   SING  2 
+I06  C7   1H7   SING  3 
+I06  C8   C9    SING  4 
+I06  C8   1H8   SING  5 
+I06  C9   C10   DOUB  6 
+I06  C9   C13   SING  7 
+I06  C10  C11   SING  8 
+I06  C10  C16   SING  9 
+I06  C11  C12   DOUB  10
+I06  C11  1H11  SING  11
+I06  C12  1H12  SING  12
+I06  C13  O13   DOUB  13
+I06  C13  N14   SING  14
+I06  N14  N15   SING  15
+I06  N14  CA    SING  16
+I06  N15  C16   SING  17
+I06  N15  H15   SING  18
+I06  C16  O16   DOUB  19
+I06  CA   CB    SING  20
+I06  CA   1HA   SING  21
+I06  CA   2HA   SING  22
+I06  CB   CG    SING  23
+I06  CB   1HB   SING  24
+I06  CB   2HB   SING  25
+I06  CG   CD1   DOUB  26
+I06  CG   CD2   SING  27
+I06  CD1  CE1   SING  28
+I06  CD1  1HD1  SING  29
+I06  CD2  CE2   DOUB  30
+I06  CD2  1HD2  SING  31
+I06  CE1  CZ    DOUB  32
+I06  CE1  1HE1  SING  33
+I06  CE2  CZ    SING  34
+I06  CE2  1HE2  SING  35
+I06  CZ   1HZ   SING  36
+#

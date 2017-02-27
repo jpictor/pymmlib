@@ -1,0 +1,120 @@
+data_GDP
+#
+_chem_comp.id                       GDP
+_chem_comp.name                     GUANOSINE-5'-DIPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C10 H15 N5 O11 P2'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            443.203
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GDP  PB    .  P  0  ?  ?  ?  1  1 
+GDP  O1B   .  O  0  ?  ?  ?  1  2 
+GDP  O2B   .  O  0  ?  ?  ?  1  3 
+GDP  O3B   .  O  0  ?  ?  ?  1  4 
+GDP  O3A   .  O  0  ?  ?  ?  1  5 
+GDP  PA    .  P  0  ?  ?  ?  1  6 
+GDP  O1A   .  O  0  ?  ?  ?  1  7 
+GDP  O2A   .  O  0  ?  ?  ?  1  8 
+GDP  O5*   .  O  0  ?  ?  ?  1  9 
+GDP  C5*   .  C  0  ?  ?  ?  1  10
+GDP  C4*   .  C  0  ?  ?  ?  1  11
+GDP  O4*   .  O  0  ?  ?  ?  1  12
+GDP  C3*   .  C  0  ?  ?  ?  1  13
+GDP  O3*   .  O  0  ?  ?  ?  1  14
+GDP  C2*   .  C  0  ?  ?  ?  1  15
+GDP  O2*   .  O  0  ?  ?  ?  1  16
+GDP  C1*   .  C  0  ?  ?  ?  1  17
+GDP  N9    .  N  0  ?  ?  ?  1  18
+GDP  C8    .  C  0  ?  ?  ?  1  19
+GDP  N7    .  N  0  ?  ?  ?  1  20
+GDP  C5    .  C  0  ?  ?  ?  1  21
+GDP  C6    .  C  0  ?  ?  ?  1  22
+GDP  O6    .  O  0  ?  ?  ?  1  23
+GDP  N1    .  N  0  ?  ?  ?  1  24
+GDP  C2    .  C  0  ?  ?  ?  1  25
+GDP  N2    .  N  0  ?  ?  ?  1  26
+GDP  N3    .  N  0  ?  ?  ?  1  27
+GDP  C4    .  C  0  ?  ?  ?  1  28
+GDP  2HOB  .  H  0  ?  ?  ?  0  29
+GDP  3HOB  .  H  0  ?  ?  ?  0  30
+GDP  2HOA  .  H  0  ?  ?  ?  0  31
+GDP  H1*   .  H  0  ?  ?  ?  1  32
+GDP  H2*   .  H  0  ?  ?  ?  1  33
+GDP  H3*   .  H  0  ?  ?  ?  1  34
+GDP  H4*   .  H  0  ?  ?  ?  1  35
+GDP  *HO2  .  H  0  ?  ?  ?  0  36
+GDP  *HO3  .  H  0  ?  ?  ?  0  37
+GDP  1H5*  .  H  0  ?  ?  ?  0  38
+GDP  2H5*  .  H  0  ?  ?  ?  0  39
+GDP  H8    .  H  0  ?  ?  ?  1  40
+GDP  HN1   .  H  0  ?  ?  ?  1  41
+GDP  1HN2  .  H  0  ?  ?  ?  0  42
+GDP  2HN2  .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GDP  PB   O1B   DOUB  1 
+GDP  PB   O2B   SING  2 
+GDP  PB   O3B   SING  3 
+GDP  PB   O3A   SING  4 
+GDP  O2B  2HOB  SING  5 
+GDP  O3B  3HOB  SING  6 
+GDP  O3A  PA    SING  7 
+GDP  PA   O1A   DOUB  8 
+GDP  PA   O2A   SING  9 
+GDP  PA   O5*   SING  10
+GDP  O2A  2HOA  SING  11
+GDP  O5*  C5*   SING  12
+GDP  C5*  C4*   SING  13
+GDP  C5*  1H5*  SING  14
+GDP  C5*  2H5*  SING  15
+GDP  C4*  O4*   SING  16
+GDP  C4*  C3*   SING  17
+GDP  C4*  H4*   SING  18
+GDP  O4*  C1*   SING  19
+GDP  C3*  O3*   SING  20
+GDP  C3*  C2*   SING  21
+GDP  C3*  H3*   SING  22
+GDP  O3*  *HO3  SING  23
+GDP  C2*  O2*   SING  24
+GDP  C2*  C1*   SING  25
+GDP  C2*  H2*   SING  26
+GDP  O2*  *HO2  SING  27
+GDP  C1*  N9    SING  28
+GDP  C1*  H1*   SING  29
+GDP  N9   C8    SING  30
+GDP  N9   C4    SING  31
+GDP  C8   N7    DOUB  32
+GDP  C8   H8    SING  33
+GDP  N7   C5    SING  34
+GDP  C5   C6    SING  35
+GDP  C5   C4    DOUB  36
+GDP  C6   O6    DOUB  37
+GDP  C6   N1    SING  38
+GDP  N1   C2    SING  39
+GDP  N1   HN1   SING  40
+GDP  C2   N2    SING  41
+GDP  C2   N3    DOUB  42
+GDP  N2   1HN2  SING  43
+GDP  N2   2HN2  SING  44
+GDP  N3   C4    SING  45
+#

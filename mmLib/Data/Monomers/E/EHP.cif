@@ -1,0 +1,80 @@
+data_EHP
+#
+_chem_comp.id                       EHP
+_chem_comp.name                     3-HYDROXYPHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C9 H11 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            181.191
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EHP  N    .  N  0  ?  ?  ?  1  1 
+EHP  CA   .  C  0  ?  ?  ?  1  2 
+EHP  C    .  C  0  ?  ?  ?  1  3 
+EHP  O    .  O  0  ?  ?  ?  1  4 
+EHP  OXT  .  O  0  ?  ?  ?  1  5 
+EHP  CB   .  C  0  ?  ?  ?  1  6 
+EHP  CG   .  C  0  ?  ?  ?  1  7 
+EHP  CD1  .  C  0  ?  ?  ?  1  8 
+EHP  CD2  .  C  0  ?  ?  ?  1  9 
+EHP  CE1  .  C  0  ?  ?  ?  1  10
+EHP  CE2  .  C  0  ?  ?  ?  1  11
+EHP  CZ   .  C  0  ?  ?  ?  1  12
+EHP  OH   .  O  0  ?  ?  ?  1  13
+EHP  1HN  .  H  0  ?  ?  ?  0  14
+EHP  2HN  .  H  0  ?  ?  ?  0  15
+EHP  HA   .  H  0  ?  ?  ?  1  16
+EHP  HXT  .  H  0  ?  ?  ?  1  17
+EHP  1HB  .  H  0  ?  ?  ?  0  18
+EHP  2HB  .  H  0  ?  ?  ?  0  19
+EHP  HD1  .  H  0  ?  ?  ?  1  20
+EHP  HD2  .  H  0  ?  ?  ?  1  21
+EHP  HE1  .  H  0  ?  ?  ?  1  22
+EHP  HZ   .  H  0  ?  ?  ?  1  23
+EHP  HOH  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EHP  N    CA   SING  1 
+EHP  N    1HN  SING  2 
+EHP  N    2HN  SING  3 
+EHP  CA   C    SING  4 
+EHP  CA   CB   SING  5 
+EHP  CA   HA   SING  6 
+EHP  C    O    DOUB  7 
+EHP  C    OXT  SING  8 
+EHP  OXT  HXT  SING  9 
+EHP  CB   CG   SING  10
+EHP  CB   1HB  SING  11
+EHP  CB   2HB  SING  12
+EHP  CG   CD1  DOUB  13
+EHP  CG   CD2  SING  14
+EHP  CD1  CE1  SING  15
+EHP  CD1  HD1  SING  16
+EHP  CD2  CE2  DOUB  17
+EHP  CD2  HD2  SING  18
+EHP  CE1  CZ   DOUB  19
+EHP  CE1  HE1  SING  20
+EHP  CE2  CZ   SING  21
+EHP  CE2  OH   SING  22
+EHP  CZ   HZ   SING  23
+EHP  OH   HOH  SING  24
+#

@@ -1,0 +1,98 @@
+data_CR2
+#
+_chem_comp.id                       CR2
+_chem_comp.name                     '[2-(METHYLENEAMINE)-4-(4-HYDROXY-BENZYLIDINE) -5-OXO-4,5-DIHYDRO-IMIDAZOL-1-YL]-ACETALDEHYDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H13 N3 O3'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (GLY-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'GLY, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            259.264
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CR2  N1    .  N  0  ?  ?  ?  1  1 
+CR2  CA1   .  C  0  ?  ?  ?  1  2 
+CR2  C1    .  C  0  ?  ?  ?  1  3 
+CR2  N2    .  N  0  ?  ?  ?  1  4 
+CR2  N3    .  N  0  ?  ?  ?  1  5 
+CR2  C2    .  C  0  ?  ?  ?  1  6 
+CR2  O2    .  O  0  ?  ?  ?  1  7 
+CR2  CA2   .  C  0  ?  ?  ?  1  8 
+CR2  CA3   .  C  0  ?  ?  ?  1  9 
+CR2  C3    .  C  0  ?  ?  ?  1  10
+CR2  O3    .  O  0  ?  ?  ?  1  11
+CR2  CB2   .  C  0  ?  ?  ?  1  12
+CR2  CG2   .  C  0  ?  ?  ?  1  13
+CR2  CD1   .  C  0  ?  ?  ?  1  14
+CR2  CD2   .  C  0  ?  ?  ?  1  15
+CR2  CE1   .  C  0  ?  ?  ?  1  16
+CR2  CE2   .  C  0  ?  ?  ?  1  17
+CR2  CZ    .  C  0  ?  ?  ?  1  18
+CR2  OH    .  O  0  ?  ?  ?  1  19
+CR2  1HN1  .  H  0  ?  ?  ?  0  20
+CR2  2HN1  .  H  0  ?  ?  ?  0  21
+CR2  HA1   .  H  0  ?  ?  ?  1  22
+CR2  HB1   .  H  0  ?  ?  ?  1  23
+CR2  1HA3  .  H  0  ?  ?  ?  0  24
+CR2  2HA3  .  H  0  ?  ?  ?  0  25
+CR2  HC3   .  H  0  ?  ?  ?  1  26
+CR2  HB2   .  H  0  ?  ?  ?  1  27
+CR2  HD1   .  H  0  ?  ?  ?  1  28
+CR2  HD2   .  H  0  ?  ?  ?  1  29
+CR2  HE1   .  H  0  ?  ?  ?  1  30
+CR2  HE2   .  H  0  ?  ?  ?  1  31
+CR2  HH    .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CR2  N1   CA1   SING  1 
+CR2  N1   1HN1  SING  2 
+CR2  N1   2HN1  SING  3 
+CR2  CA1  C1    SING  4 
+CR2  CA1  HA1   SING  5 
+CR2  CA1  HB1   SING  6 
+CR2  C1   N2    DOUB  7 
+CR2  C1   N3    SING  8 
+CR2  N2   CA2   SING  9 
+CR2  N3   C2    SING  10
+CR2  N3   CA3   SING  11
+CR2  C2   CA2   SING  12
+CR2  C2   O2    DOUB  13
+CR2  CA2  CB2   DOUB  14
+CR2  CA3  C3    SING  15
+CR2  CA3  1HA3  SING  16
+CR2  CA3  2HA3  SING  17
+CR2  C3   O3    DOUB  18
+CR2  C3   HC3   SING  19
+CR2  CB2  CG2   SING  20
+CR2  CB2  HB2   SING  21
+CR2  CG2  CD1   DOUB  22
+CR2  CG2  CD2   SING  23
+CR2  CD1  CE1   SING  24
+CR2  CD1  HD1   SING  25
+CR2  CD2  CE2   DOUB  26
+CR2  CD2  HD2   SING  27
+CR2  CE1  CZ    DOUB  28
+CR2  CE1  HE1   SING  29
+CR2  CE2  CZ    SING  30
+CR2  CE2  HE2   SING  31
+CR2  CZ   OH    SING  32
+CR2  OH   HH    SING  33
+#

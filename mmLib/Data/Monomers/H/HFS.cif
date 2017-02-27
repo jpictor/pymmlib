@@ -1,0 +1,110 @@
+data_HFS
+#
+_chem_comp.id                   HFS
+_chem_comp.name                 1-(1-HYDROXY-5-ISOQUINOLINESULFONYL)HOMOPIPERAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H17 N3 O3 S1'
+_chem_comp.pdbx_synonyms        HYDROXYFASUDIL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        307.367
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HFS  O1    .  O  0  3.214   10.101  5.001  1  1 
+HFS  C1    .  C  0  3.929   10.053  4.008  1  2 
+HFS  N1    .  N  0  3.418   9.896   2.691  1  3 
+HFS  C2    .  C  0  4.171   9.723   1.513  1  4 
+HFS  C3    .  C  0  5.628   9.686   1.610  1  5 
+HFS  C4    .  C  0  6.270   9.829   2.930  1  6 
+HFS  C5    .  C  0  7.784   9.751   3.120  1  7 
+HFS  C6    .  C  0  8.348   9.882   4.476  1  8 
+HFS  C7    .  C  0  7.488   10.090  5.635  1  9 
+HFS  C8    .  C  0  6.026   10.162  5.488  1  10
+HFS  C9    .  C  0  5.405   10.029  4.180  1  11
+HFS  S1    .  S  0  8.984   9.480   1.798  1  12
+HFS  O2    .  O  0  8.693   8.259   1.089  1  13
+HFS  O3    .  O  0  9.052   10.684  1.004  1  14
+HFS  N2    .  N  0  10.627  9.153   2.463  1  15
+HFS  C10   .  C  0  11.500  10.178  3.111  1  16
+HFS  C11   .  C  0  12.705  10.475  2.223  1  17
+HFS  C12   .  C  0  13.705  9.315   2.228  1  18
+HFS  N3    .  N  0  13.175  8.111   1.549  1  19
+HFS  C13   .  C  0  12.406  7.295   2.517  1  20
+HFS  C14   .  C  0  10.979  7.752   2.826  1  21
+HFS  HO1   .  H  0  ?       ?       ?      1  22
+HFS  H2    .  H  0  ?       ?       ?      1  23
+HFS  H3    .  H  0  ?       ?       ?      1  24
+HFS  H6    .  H  0  ?       ?       ?      1  25
+HFS  H7    .  H  0  ?       ?       ?      1  26
+HFS  H8    .  H  0  ?       ?       ?      1  27
+HFS  1H10  .  H  0  ?       ?       ?      0  28
+HFS  2H10  .  H  0  ?       ?       ?      0  29
+HFS  1H11  .  H  0  ?       ?       ?      0  30
+HFS  2H11  .  H  0  ?       ?       ?      0  31
+HFS  1H12  .  H  0  ?       ?       ?      0  32
+HFS  2H12  .  H  0  ?       ?       ?      0  33
+HFS  HN3   .  H  0  ?       ?       ?      1  34
+HFS  1H13  .  H  0  ?       ?       ?      0  35
+HFS  2H13  .  H  0  ?       ?       ?      0  36
+HFS  1H14  .  H  0  ?       ?       ?      0  37
+HFS  2H14  .  H  0  ?       ?       ?      0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HFS  O1   C1    SING  1 
+HFS  O1   HO1   SING  2 
+HFS  C1   N1    SING  3 
+HFS  C1   C9    DOUB  4 
+HFS  N1   C2    DOUB  5 
+HFS  C2   C3    SING  6 
+HFS  C2   H2    SING  7 
+HFS  C3   C4    DOUB  8 
+HFS  C3   H3    SING  9 
+HFS  C4   C5    SING  10
+HFS  C4   C9    SING  11
+HFS  C5   C6    DOUB  12
+HFS  C5   S1    SING  13
+HFS  C6   C7    SING  14
+HFS  C6   H6    SING  15
+HFS  C7   C8    DOUB  16
+HFS  C7   H7    SING  17
+HFS  C8   C9    SING  18
+HFS  C8   H8    SING  19
+HFS  S1   O2    DOUB  20
+HFS  S1   O3    DOUB  21
+HFS  S1   N2    SING  22
+HFS  N2   C10   SING  23
+HFS  N2   C14   SING  24
+HFS  C10  C11   SING  25
+HFS  C10  1H10  SING  26
+HFS  C10  2H10  SING  27
+HFS  C11  C12   SING  28
+HFS  C11  1H11  SING  29
+HFS  C11  2H11  SING  30
+HFS  C12  N3    SING  31
+HFS  C12  1H12  SING  32
+HFS  C12  2H12  SING  33
+HFS  N3   C13   SING  34
+HFS  N3   HN3   SING  35
+HFS  C13  C14   SING  36
+HFS  C13  1H13  SING  37
+HFS  C13  2H13  SING  38
+HFS  C14  1H14  SING  39
+HFS  C14  2H14  SING  40
+#

@@ -1,0 +1,77 @@
+data_AFL
+#
+_chem_comp.id                   AFL
+_chem_comp.name                 ALPHA-L-FUCOSE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AFL  C1   .  C  0  -2.535  15.37   61.435  1  1 
+AFL  C2   .  C  0  -3.427  16.571  61.797  1  2 
+AFL  C3   .  C  0  -4.72   16.56   60.965  1  3 
+AFL  C4   .  C  0  -4.374  16.317  59.493  1  4 
+AFL  C5   .  C  0  -3.676  14.949  59.335  1  5 
+AFL  C6   .  C  0  -4.57   13.885  58.717  1  6 
+AFL  O2   .  O  0  -2.718  17.782  61.565  1  7 
+AFL  O3   .  O  0  -5.578  15.527  61.439  1  8 
+AFL  O4   .  O  0  -5.551  16.371  58.697  1  9 
+AFL  O1L  .  O  0  -2.061  14.779  62.602  1  10
+AFL  O5   .  O  0  -3.244  14.436  60.622  1  11
+AFL  H1   .  H  0  -2.109  14.885  62.344  1  12
+AFL  HA   .  H  0  -3.693  16.51   62.878  1  13
+AFL  HB   .  H  0  -5.234  17.544  61.067  1  14
+AFL  H2   .  H  0  -3.269  18.523  61.788  1  15
+AFL  HC   .  H  0  -3.675  17.117  59.153  1  16
+AFL  H3   .  H  0  -6.377  15.52   60.925  1  17
+AFL  HD   .  H  0  -2.779  15.08   58.686  1  18
+AFL  H4   .  H  0  -5.336  16.22   57.784  1  19
+AFL  1HA  .  H  0  -4.902  14.279  57.728  0  20
+AFL  2HB  .  H  0  -5.417  13.584  59.377  0  21
+AFL  3HC  .  H  0  -4.082  12.885  58.65   0  22
+AFL  HE   .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AFL  C1   O5   SING  1 
+AFL  C1   O1L  SING  2 
+AFL  C1   H1   SING  3 
+AFL  C1   C2   SING  4 
+AFL  C2   C3   SING  5 
+AFL  C2   O2   SING  6 
+AFL  C2   HA   SING  7 
+AFL  C3   C4   SING  8 
+AFL  C3   O3   SING  9 
+AFL  C3   HB   SING  10
+AFL  C4   C5   SING  11
+AFL  C4   O4   SING  12
+AFL  C4   HC   SING  13
+AFL  C5   C6   SING  14
+AFL  C5   O5   SING  15
+AFL  C5   HD   SING  16
+AFL  C6   1HA  SING  17
+AFL  C6   2HB  SING  18
+AFL  C6   3HC  SING  19
+AFL  O2   H2   SING  20
+AFL  O3   H3   SING  21
+AFL  O4   H4   SING  22
+AFL  O1L  HE   SING  23
+#

@@ -1,0 +1,76 @@
+data_DDO
+#
+_chem_comp.id                   DDO
+_chem_comp.name                 6-HYDROXY-D-NORLEUCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        147.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DDO  N    .  N  0  ?  ?  ?  1  1 
+DDO  CA   .  C  0  ?  ?  ?  1  2 
+DDO  CB   .  C  0  ?  ?  ?  1  3 
+DDO  CG   .  C  0  ?  ?  ?  1  4 
+DDO  CD   .  C  0  ?  ?  ?  1  5 
+DDO  CE   .  C  0  ?  ?  ?  1  6 
+DDO  OZ   .  O  0  ?  ?  ?  1  7 
+DDO  C    .  C  0  ?  ?  ?  1  8 
+DDO  O    .  O  0  ?  ?  ?  1  9 
+DDO  OXT  .  O  0  ?  ?  ?  1  10
+DDO  HXT  .  H  0  ?  ?  ?  1  11
+DDO  1HN  .  H  0  ?  ?  ?  0  12
+DDO  2HN  .  H  0  ?  ?  ?  0  13
+DDO  1HA  .  H  0  ?  ?  ?  0  14
+DDO  1HB  .  H  0  ?  ?  ?  0  15
+DDO  2HB  .  H  0  ?  ?  ?  0  16
+DDO  1HG  .  H  0  ?  ?  ?  0  17
+DDO  2HG  .  H  0  ?  ?  ?  0  18
+DDO  1HD  .  H  0  ?  ?  ?  0  19
+DDO  2HD  .  H  0  ?  ?  ?  0  20
+DDO  1HE  .  H  0  ?  ?  ?  0  21
+DDO  2HE  .  H  0  ?  ?  ?  0  22
+DDO  HOZ  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DDO  N    CA   SING  1 
+DDO  N    1HN  SING  2 
+DDO  N    2HN  SING  3 
+DDO  CA   CB   SING  4 
+DDO  CA   C    SING  5 
+DDO  CA   1HA  SING  6 
+DDO  CB   CG   SING  7 
+DDO  CB   1HB  SING  8 
+DDO  CB   2HB  SING  9 
+DDO  CG   CD   SING  10
+DDO  CG   1HG  SING  11
+DDO  CG   2HG  SING  12
+DDO  CD   CE   SING  13
+DDO  CD   1HD  SING  14
+DDO  CD   2HD  SING  15
+DDO  CE   OZ   SING  16
+DDO  CE   1HE  SING  17
+DDO  CE   2HE  SING  18
+DDO  OZ   HOZ  SING  19
+DDO  C    O    DOUB  20
+DDO  C    OXT  SING  21
+DDO  OXT  HXT  SING  22
+#

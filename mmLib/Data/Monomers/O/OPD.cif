@@ -1,0 +1,130 @@
+data_OPD
+#
+_chem_comp.id                   OPD
+_chem_comp.name                 '9R,13R-12-OXOPHYTODIENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H28 O3'
+_chem_comp.pdbx_synonyms        9R,13R-OPDA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.417
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPD  C8    .  C  0  ?  ?  ?  1  1 
+OPD  C7    .  C  0  ?  ?  ?  1  2 
+OPD  C5    .  C  0  ?  ?  ?  1  3 
+OPD  C1    .  C  0  ?  ?  ?  1  4 
+OPD  O6    .  O  0  ?  ?  ?  1  5 
+OPD  C2    .  C  0  ?  ?  ?  1  6 
+OPD  C3    .  C  0  ?  ?  ?  1  7 
+OPD  C4    .  C  0  ?  ?  ?  1  8 
+OPD  C11   .  C  0  ?  ?  ?  1  9 
+OPD  C12   .  C  0  ?  ?  ?  1  10
+OPD  C13   .  C  0  ?  ?  ?  1  11
+OPD  C14   .  C  0  ?  ?  ?  1  12
+OPD  C15   .  C  0  ?  ?  ?  1  13
+OPD  C16   .  C  0  ?  ?  ?  1  14
+OPD  C17   .  C  0  ?  ?  ?  1  15
+OPD  C18   .  C  0  ?  ?  ?  1  16
+OPD  O20   .  O  0  ?  ?  ?  1  17
+OPD  O19   .  O  0  ?  ?  ?  1  18
+OPD  C6    .  C  0  ?  ?  ?  1  19
+OPD  C9    .  C  0  ?  ?  ?  1  20
+OPD  C10   .  C  0  ?  ?  ?  1  21
+OPD  1H11  .  H  0  ?  ?  ?  0  22
+OPD  2H11  .  H  0  ?  ?  ?  0  23
+OPD  1H12  .  H  0  ?  ?  ?  0  24
+OPD  2H12  .  H  0  ?  ?  ?  0  25
+OPD  1H13  .  H  0  ?  ?  ?  0  26
+OPD  2H13  .  H  0  ?  ?  ?  0  27
+OPD  1H14  .  H  0  ?  ?  ?  0  28
+OPD  2H14  .  H  0  ?  ?  ?  0  29
+OPD  1H15  .  H  0  ?  ?  ?  0  30
+OPD  2H15  .  H  0  ?  ?  ?  0  31
+OPD  1H16  .  H  0  ?  ?  ?  0  32
+OPD  2H16  .  H  0  ?  ?  ?  0  33
+OPD  1H17  .  H  0  ?  ?  ?  0  34
+OPD  2H17  .  H  0  ?  ?  ?  0  35
+OPD  1H3   .  H  0  ?  ?  ?  0  36
+OPD  1H2   .  H  0  ?  ?  ?  0  37
+OPD  1H6   .  H  0  ?  ?  ?  0  38
+OPD  2H6   .  H  0  ?  ?  ?  0  39
+OPD  1H9   .  H  0  ?  ?  ?  0  40
+OPD  2H9   .  H  0  ?  ?  ?  0  41
+OPD  1H7   .  H  0  ?  ?  ?  0  42
+OPD  1H8   .  H  0  ?  ?  ?  0  43
+OPD  1H4   .  H  0  ?  ?  ?  0  44
+OPD  1H5   .  H  0  ?  ?  ?  0  45
+OPD  1H10  .  H  0  ?  ?  ?  0  46
+OPD  2H10  .  H  0  ?  ?  ?  0  47
+OPD  3H10  .  H  0  ?  ?  ?  0  48
+OPD  1H20  .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPD  C8   1H8   SING  1 
+OPD  C8   C7    DOUB  2 
+OPD  C8   C9    SING  3 
+OPD  C7   C6    SING  4 
+OPD  C7   1H7   SING  5 
+OPD  C5   C6    SING  6 
+OPD  C5   C1    SING  7 
+OPD  C5   C4    SING  8 
+OPD  C5   1H5   SING  9 
+OPD  C1   O6    DOUB  10
+OPD  C1   C2    SING  11
+OPD  C2   C3    DOUB  12
+OPD  C2   1H2   SING  13
+OPD  C3   C4    SING  14
+OPD  C3   1H3   SING  15
+OPD  C4   C11   SING  16
+OPD  C4   1H4   SING  17
+OPD  C11  C12   SING  18
+OPD  C11  1H11  SING  19
+OPD  C11  2H11  SING  20
+OPD  C12  C13   SING  21
+OPD  C12  1H12  SING  22
+OPD  C12  2H12  SING  23
+OPD  C13  C14   SING  24
+OPD  C13  1H13  SING  25
+OPD  C13  2H13  SING  26
+OPD  C14  C15   SING  27
+OPD  C14  1H14  SING  28
+OPD  C14  2H14  SING  29
+OPD  C15  C16   SING  30
+OPD  C15  1H15  SING  31
+OPD  C15  2H15  SING  32
+OPD  C16  C17   SING  33
+OPD  C16  1H16  SING  34
+OPD  C16  2H16  SING  35
+OPD  C17  C18   SING  36
+OPD  C17  1H17  SING  37
+OPD  C17  2H17  SING  38
+OPD  C18  O20   SING  39
+OPD  C18  O19   DOUB  40
+OPD  O20  1H20  SING  41
+OPD  C6   1H6   SING  42
+OPD  C6   2H6   SING  43
+OPD  C9   1H9   SING  44
+OPD  C9   2H9   SING  45
+OPD  C9   C10   SING  46
+OPD  C10  1H10  SING  47
+OPD  C10  2H10  SING  48
+OPD  C10  3H10  SING  49
+#

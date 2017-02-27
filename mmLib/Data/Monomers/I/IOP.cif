@@ -1,0 +1,82 @@
+data_IOP
+#
+_chem_comp.id                   IOP
+_chem_comp.name                 'INDOLYLPROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        189.213
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IOP  C1'   .  C  0  ?  ?  ?  1  1 
+IOP  O1    .  O  0  ?  ?  ?  1  2 
+IOP  O2    .  O  0  ?  ?  ?  1  3 
+IOP  C2'   .  C  0  ?  ?  ?  1  4 
+IOP  C3'   .  C  0  ?  ?  ?  1  5 
+IOP  N1    .  N  0  ?  ?  ?  1  6 
+IOP  C2    .  C  0  ?  ?  ?  1  7 
+IOP  C3    .  C  0  ?  ?  ?  1  8 
+IOP  C3A   .  C  0  ?  ?  ?  1  9 
+IOP  C4    .  C  0  ?  ?  ?  1  10
+IOP  C5    .  C  0  ?  ?  ?  1  11
+IOP  C6    .  C  0  ?  ?  ?  1  12
+IOP  C7    .  C  0  ?  ?  ?  1  13
+IOP  C7A   .  C  0  ?  ?  ?  1  14
+IOP  HO2   .  H  0  ?  ?  ?  1  15
+IOP  1H2'  .  H  0  ?  ?  ?  0  16
+IOP  2H2'  .  H  0  ?  ?  ?  0  17
+IOP  1H3'  .  H  0  ?  ?  ?  0  18
+IOP  2H3'  .  H  0  ?  ?  ?  0  19
+IOP  HN1   .  H  0  ?  ?  ?  1  20
+IOP  H2    .  H  0  ?  ?  ?  1  21
+IOP  H4    .  H  0  ?  ?  ?  1  22
+IOP  H5    .  H  0  ?  ?  ?  1  23
+IOP  H6    .  H  0  ?  ?  ?  1  24
+IOP  H7    .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IOP  C1'  C2'   SING  1 
+IOP  C1'  O1    DOUB  2 
+IOP  C1'  O2    SING  3 
+IOP  O2   HO2   SING  4 
+IOP  C2'  C3'   SING  5 
+IOP  C2'  1H2'  SING  6 
+IOP  C2'  2H2'  SING  7 
+IOP  C3'  C3    SING  8 
+IOP  C3'  1H3'  SING  9 
+IOP  C3'  2H3'  SING  10
+IOP  N1   C2    SING  11
+IOP  N1   C7A   SING  12
+IOP  N1   HN1   SING  13
+IOP  C2   C3    DOUB  14
+IOP  C2   H2    SING  15
+IOP  C3   C3A   SING  16
+IOP  C3A  C4    DOUB  17
+IOP  C3A  C7A   SING  18
+IOP  C4   C5    SING  19
+IOP  C4   H4    SING  20
+IOP  C5   C6    DOUB  21
+IOP  C5   H5    SING  22
+IOP  C6   C7    SING  23
+IOP  C6   H6    SING  24
+IOP  C7   C7A   DOUB  25
+IOP  C7   H7    SING  26
+#

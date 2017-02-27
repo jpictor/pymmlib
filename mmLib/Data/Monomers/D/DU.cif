@@ -1,0 +1,99 @@
+data_DU
+#
+_chem_comp.id                       DU
+_chem_comp.name                     2'-DEOXYURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            308.184
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DU  O3P   .  O  0  ?  ?  ?  1  1 
+DU  P     .  P  0  ?  ?  ?  1  2 
+DU  O1P   .  O  0  ?  ?  ?  1  3 
+DU  O2P   .  O  0  ?  ?  ?  1  4 
+DU  O5*   .  O  0  ?  ?  ?  1  5 
+DU  C5*   .  C  0  ?  ?  ?  1  6 
+DU  C4*   .  C  0  ?  ?  ?  1  7 
+DU  O4*   .  O  0  ?  ?  ?  1  8 
+DU  C3*   .  C  0  ?  ?  ?  1  9 
+DU  O3*   .  O  0  ?  ?  ?  1  10
+DU  C2*   .  C  0  ?  ?  ?  1  11
+DU  C1*   .  C  0  ?  ?  ?  1  12
+DU  N1    .  N  0  ?  ?  ?  1  13
+DU  C2    .  C  0  ?  ?  ?  1  14
+DU  O2    .  O  0  ?  ?  ?  1  15
+DU  N3    .  N  0  ?  ?  ?  1  16
+DU  C4    .  C  0  ?  ?  ?  1  17
+DU  O4    .  O  0  ?  ?  ?  1  18
+DU  C5    .  C  0  ?  ?  ?  1  19
+DU  C6    .  C  0  ?  ?  ?  1  20
+DU  3HOP  .  H  0  ?  ?  ?  0  21
+DU  2HOP  .  H  0  ?  ?  ?  0  22
+DU  1H5*  .  H  0  ?  ?  ?  0  23
+DU  2H5*  .  H  0  ?  ?  ?  0  24
+DU  H4*   .  H  0  ?  ?  ?  1  25
+DU  H3*   .  H  0  ?  ?  ?  1  26
+DU  1H2*  .  H  0  ?  ?  ?  0  27
+DU  2H2*  .  H  0  ?  ?  ?  0  28
+DU  H1*   .  H  0  ?  ?  ?  1  29
+DU  H3    .  H  0  ?  ?  ?  1  30
+DU  H5    .  H  0  ?  ?  ?  1  31
+DU  H6    .  H  0  ?  ?  ?  1  32
+DU  H3T   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DU  O3P  P     SING  1 
+DU  O3P  3HOP  SING  2 
+DU  P    O1P   DOUB  3 
+DU  P    O2P   SING  4 
+DU  P    O5*   SING  5 
+DU  O2P  2HOP  SING  6 
+DU  O5*  C5*   SING  7 
+DU  C5*  C4*   SING  8 
+DU  C5*  1H5*  SING  9 
+DU  C5*  2H5*  SING  10
+DU  C4*  O4*   SING  11
+DU  C4*  C3*   SING  12
+DU  C4*  H4*   SING  13
+DU  O4*  C1*   SING  14
+DU  C3*  O3*   SING  15
+DU  C3*  C2*   SING  16
+DU  C3*  H3*   SING  17
+DU  O3*  H3T   SING  18
+DU  C2*  C1*   SING  19
+DU  C2*  1H2*  SING  20
+DU  C2*  2H2*  SING  21
+DU  C1*  N1    SING  22
+DU  C1*  H1*   SING  23
+DU  N1   C2    SING  24
+DU  N1   C6    SING  25
+DU  C2   O2    DOUB  26
+DU  C2   N3    SING  27
+DU  N3   C4    SING  28
+DU  N3   H3    SING  29
+DU  C4   O4    DOUB  30
+DU  C4   C5    SING  31
+DU  C5   C6    DOUB  32
+DU  C5   H5    SING  33
+DU  C6   H6    SING  34
+#

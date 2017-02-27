@@ -1,0 +1,98 @@
+data_HOC
+#
+_chem_comp.id                   HOC
+_chem_comp.name                 '(2S)-2-HYDROXYOCTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H16 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.213
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+HOC  SMILES             CCCCCC[C@@H](C(=O)O)O  OpenEye  1.3.4
+HOC  SMILES_CANNONICAL  CCCCCCC(C(=O)O)O       OpenEye  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+HOC  C8   .  C  0  69.284  90.757  21.630  1  N  N  N  1 
+HOC  C7   .  C  0  68.046  89.898  21.378  1  N  N  N  2 
+HOC  OH   .  O  0  70.499  84.865  23.640  1  N  N  N  3 
+HOC  C1   .  C  0  70.682  85.703  21.376  1  N  N  N  4 
+HOC  C2   .  C  0  69.763  84.973  22.441  1  N  S  N  5 
+HOC  C3   .  C  0  68.429  85.674  22.830  1  N  N  N  6 
+HOC  C4   .  C  0  67.387  85.950  21.717  1  N  N  N  7 
+HOC  C5   .  C  0  67.103  87.458  21.432  1  N  N  N  8 
+HOC  C6   .  C  0  68.304  88.424  21.657  1  N  N  N  9 
+HOC  O1A  .  O  0  71.758  86.360  21.929  1  N  N  N  10
+HOC  O1B  .  O  0  70.519  85.702  20.156  1  N  N  N  11
+HOC  1H8  .  H  0  69.972  90.220  22.299  0  N  N  N  12
+HOC  2H8  .  H  0  68.983  91.706  22.098  0  N  N  N  13
+HOC  3H8  .  H  0  69.788  90.963  20.674  0  N  N  N  14
+HOC  1H7  .  H  0  67.772  90.000  20.318  0  N  N  N  15
+HOC  2H7  .  H  0  67.238  90.244  22.040  0  N  N  N  16
+HOC  HOH  .  H  0  71.428  84.841  23.441  1  N  N  N  17
+HOC  H2   .  H  0  69.486  84.026  21.956  1  N  N  N  18
+HOC  1H3  .  H  0  68.734  86.673  23.175  0  N  N  N  19
+HOC  2H3  .  H  0  67.936  85.023  23.567  0  N  N  N  20
+HOC  1H4  .  H  0  66.438  85.518  22.068  0  N  N  N  21
+HOC  2H4  .  H  0  67.767  85.501  20.787  0  N  N  N  22
+HOC  1H5  .  H  0  66.329  87.763  22.151  0  N  N  N  23
+HOC  2H5  .  H  0  66.803  87.544  20.377  0  N  N  N  24
+HOC  1H6  .  H  0  68.539  88.361  22.730  0  N  N  N  25
+HOC  2H6  .  H  0  69.113  88.101  20.985  0  N  N  N  26
+HOC  H1A  .  H  0  72.275  86.759  21.239  1  N  N  N  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+HOC  C8   C7   SING  N  N  1 
+HOC  C8   3H8  SING  N  N  2 
+HOC  C8   2H8  SING  N  N  3 
+HOC  C8   1H8  SING  N  N  4 
+HOC  C7   C6   SING  N  N  5 
+HOC  C7   2H7  SING  N  N  6 
+HOC  C7   1H7  SING  N  N  7 
+HOC  OH   C2   SING  N  N  8 
+HOC  OH   HOH  SING  N  N  9 
+HOC  C1   C2   SING  N  N  10
+HOC  C1   O1A  SING  N  N  11
+HOC  C1   O1B  DOUB  N  N  12
+HOC  C2   C3   SING  N  N  13
+HOC  C2   H2   SING  N  N  14
+HOC  C3   C4   SING  N  N  15
+HOC  C3   2H3  SING  N  N  16
+HOC  C3   1H3  SING  N  N  17
+HOC  C4   C5   SING  N  N  18
+HOC  C4   2H4  SING  N  N  19
+HOC  C4   1H4  SING  N  N  20
+HOC  C5   C6   SING  N  N  21
+HOC  C5   2H5  SING  N  N  22
+HOC  C5   1H5  SING  N  N  23
+HOC  C6   2H6  SING  N  N  24
+HOC  C6   1H6  SING  N  N  25
+HOC  O1A  H1A  SING  N  N  26
+#

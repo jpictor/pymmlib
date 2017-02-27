@@ -1,0 +1,131 @@
+data_R01
+#
+_chem_comp.id                   R01
+_chem_comp.name                 (4'-{[ALLYL(METHYL)AMINO]METHYL}-1,1'-BIPHENYL-4-YL)(4-BROMOPHENYL)METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C24 H22 N1 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        420.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+R01  C1G   .  C   0  67.449  71.163  70.936  1  1 
+R01  C1    .  C   0  66.578  70.046  70.362  1  2 
+R01  O2    .  O   0  66.419  69.027  71.02   1  3 
+R01  C4A   .  C   0  65.896  70.144  69.003  1  4 
+R01  C3A   .  C   0  64.525  69.774  68.862  1  5 
+R01  C2A   .  C   0  63.877  69.865  67.598  1  6 
+R01  C1A   .  C   0  64.589  70.325  66.456  1  7 
+R01  C2B   .  C   0  63.542  71.712  64.651  1  8 
+R01  C3B   .  C   0  62.859  71.856  63.41   1  9 
+R01  C4B   .  C   0  62.505  70.714  62.629  1  10
+R01  C1C   .  C   0  61.735  70.868  61.271  1  11
+R01  C5B   .  C   0  62.855  69.416  63.128  1  12
+R01  C6B   .  C   0  63.543  69.272  64.379  1  13
+R01  N1D   .  N   0  62.543  71.138  60.02   1  14
+R01  C1F   .  C   0  63.287  72.438  60.048  1  15
+R01  C1E   .  C   0  63.481  70.003  59.73   1  16
+R01  C2E   .  C   0  62.988  69.131  58.593  1  17
+R01  C3E   .  C   0  63.647  68.045  58.164  1  18
+R01  C6A   .  C   0  65.964  70.696  66.59   1  19
+R01  C5A   .  C   0  66.608  70.603  67.856  1  20
+R01  C2G   .  C   0  68.704  70.85   71.549  1  21
+R01  C3G   .  C   0  69.522  71.89   72.085  1  22
+R01  C4G   .  C   0  69.086  73.247  72.009  1  23
+R01  C1B   .  C   0  63.887  70.428  65.143  1  24
+R01  BR27  .  BR  0  70.135  74.612  72.695  0  25
+R01  C5G   .  C   0  67.84   73.558  71.402  1  26
+R01  C6G   .  C   0  67.028  72.525  70.871  1  27
+R01  H13   .  H   0  69.04   69.801  71.607  1  28
+R01  H9    .  H   0  66.061  72.776  70.403  1  29
+R01  H6    .  H   0  63.963  69.414  69.74   1  30
+R01  H2    .  H   0  67.669  70.889  67.951  1  31
+R01  H5    .  H   0  62.816  69.577  67.504  1  32
+R01  H3    .  H   0  66.526  71.055  65.711  1  33
+R01  H15   .  H   0  63.806  72.609  65.236  1  34
+R01  H16   .  H   0  62.599  72.865  63.047  1  35
+R01  H19   .  H   0  63.806  68.267  64.751  1  36
+R01  H18   .  H   0  62.592  68.518  62.544  1  37
+R01  1H20  .  H   0  60.957  71.659  61.381  0  38
+R01  2H20  .  H   0  61.1    69.966  61.107  0  39
+R01  1H27  .  H   0  63.882  72.637  59.126  0  40
+R01  2H27  .  H   0  63.934  72.5    60.954  0  41
+R01  3H27  .  H   0  62.591  73.284  60.256  0  42
+R01  1H25  .  H   0  63.679  69.399  60.646  0  43
+R01  2H25  .  H   0  64.515  70.373  59.536  0  44
+R01  H26   .  H   0  62.042  69.402  58.095  1  45
+R01  1H29  .  H   0  63.288  67.41   57.336  0  46
+R01  2H29  .  H   0  64.593  67.773  58.662  0  47
+R01  H12   .  H   0  70.489  71.646  72.557  1  48
+R01  H10   .  H   0  67.503  74.607  71.344  1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+R01  C1G  C1    SING  1 
+R01  C1G  C2G   AROM  2 
+R01  C1G  C6G   AROM  3 
+R01  C1   O2    DOUB  4 
+R01  C1   C4A   SING  5 
+R01  C4A  C3A   AROM  6 
+R01  C4A  C5A   AROM  7 
+R01  C3A  C2A   AROM  8 
+R01  C3A  H6    SING  9 
+R01  C2A  C1A   AROM  10
+R01  C2A  H5    SING  11
+R01  C1A  C6A   AROM  12
+R01  C1A  C1B   SING  13
+R01  C2B  C1B   AROM  14
+R01  C2B  C3B   AROM  15
+R01  C2B  H15   SING  16
+R01  C3B  C4B   AROM  17
+R01  C3B  H16   SING  18
+R01  C4B  C5B   AROM  19
+R01  C4B  C1C   SING  20
+R01  C1C  N1D   SING  21
+R01  C1C  1H20  SING  22
+R01  C1C  2H20  SING  23
+R01  C5B  C6B   AROM  24
+R01  C5B  H18   SING  25
+R01  C6B  C1B   AROM  26
+R01  C6B  H19   SING  27
+R01  N1D  C1F   SING  28
+R01  N1D  C1E   SING  29
+R01  C1F  1H27  SING  30
+R01  C1F  2H27  SING  31
+R01  C1F  3H27  SING  32
+R01  C1E  C2E   SING  33
+R01  C1E  1H25  SING  34
+R01  C1E  2H25  SING  35
+R01  C2E  C3E   DOUB  36
+R01  C2E  H26   SING  37
+R01  C3E  1H29  SING  38
+R01  C3E  2H29  SING  39
+R01  C6A  C5A   AROM  40
+R01  C6A  H3    SING  41
+R01  C5A  H2    SING  42
+R01  C2G  C3G   AROM  43
+R01  C2G  H13   SING  44
+R01  C3G  C4G   AROM  45
+R01  C3G  H12   SING  46
+R01  C4G  BR27  SING  47
+R01  C4G  C5G   AROM  48
+R01  C5G  C6G   AROM  49
+R01  C5G  H10   SING  50
+R01  C6G  H9    SING  51
+#

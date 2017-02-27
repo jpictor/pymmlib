@@ -1,0 +1,70 @@
+data_HEX
+#
+_chem_comp.id                   HEX
+_chem_comp.name                 HEXANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        86.177
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEX  C1   .  C  0  ?  ?  ?  1  1 
+HEX  C2   .  C  0  ?  ?  ?  1  2 
+HEX  C3   .  C  0  ?  ?  ?  1  3 
+HEX  C4   .  C  0  ?  ?  ?  1  4 
+HEX  C5   .  C  0  ?  ?  ?  1  5 
+HEX  C6   .  C  0  ?  ?  ?  1  6 
+HEX  1H1  .  H  0  ?  ?  ?  0  7 
+HEX  2H1  .  H  0  ?  ?  ?  0  8 
+HEX  3H1  .  H  0  ?  ?  ?  0  9 
+HEX  1H2  .  H  0  ?  ?  ?  0  10
+HEX  2H2  .  H  0  ?  ?  ?  0  11
+HEX  1H3  .  H  0  ?  ?  ?  0  12
+HEX  2H3  .  H  0  ?  ?  ?  0  13
+HEX  1H4  .  H  0  ?  ?  ?  0  14
+HEX  2H4  .  H  0  ?  ?  ?  0  15
+HEX  1H5  .  H  0  ?  ?  ?  0  16
+HEX  2H5  .  H  0  ?  ?  ?  0  17
+HEX  1H6  .  H  0  ?  ?  ?  0  18
+HEX  2H6  .  H  0  ?  ?  ?  0  19
+HEX  3H6  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEX  C1  C2   SING  1 
+HEX  C1  1H1  SING  2 
+HEX  C1  2H1  SING  3 
+HEX  C1  3H1  SING  4 
+HEX  C2  C3   SING  5 
+HEX  C2  1H2  SING  6 
+HEX  C2  2H2  SING  7 
+HEX  C3  C4   SING  8 
+HEX  C3  1H3  SING  9 
+HEX  C3  2H3  SING  10
+HEX  C4  C5   SING  11
+HEX  C4  1H4  SING  12
+HEX  C4  2H4  SING  13
+HEX  C5  C6   SING  14
+HEX  C5  1H5  SING  15
+HEX  C5  2H5  SING  16
+HEX  C6  1H6  SING  17
+HEX  C6  2H6  SING  18
+HEX  C6  3H6  SING  19
+#

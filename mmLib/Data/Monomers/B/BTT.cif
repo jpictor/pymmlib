@@ -1,0 +1,63 @@
+data_BTT
+#
+_chem_comp.id                   BTT
+_chem_comp.name                 BENZENE-1,2,4,5-TETROL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        142.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BTT  C1   .  C  0  20.683  -82.504  -37.455  1  1 
+BTT  C2   .  C  0  20.680  -82.748  -39.020  1  2 
+BTT  C3   .  C  0  21.735  -81.930  -39.917  1  3 
+BTT  C4   .  C  0  22.619  -81.038  -39.327  1  4 
+BTT  C5   .  C  0  22.608  -80.818  -37.797  1  5 
+BTT  C6   .  C  0  21.569  -81.617  -36.902  1  6 
+BTT  O1   .  O  0  19.866  -83.107  -36.574  1  7 
+BTT  O2   .  O  0  19.902  -83.520  -39.452  1  8 
+BTT  O4   .  O  0  23.529  -80.316  -39.990  1  9 
+BTT  O5   .  O  0  22.388  -79.572  -37.507  1  10
+BTT  HO1  .  H  0  ?       ?        ?        1  11
+BTT  H6   .  H  0  ?       ?        ?        1  12
+BTT  HO5  .  H  0  ?       ?        ?        1  13
+BTT  HO4  .  H  0  ?       ?        ?        1  14
+BTT  H3   .  H  0  ?       ?        ?        1  15
+BTT  HO2  .  H  0  ?       ?        ?        1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BTT  C1  O1   SING  1 
+BTT  C1  C6   AROM  2 
+BTT  C1  C2   AROM  3 
+BTT  C2  C3   AROM  4 
+BTT  C2  O2   SING  5 
+BTT  C3  C4   AROM  6 
+BTT  C3  H3   SING  7 
+BTT  C4  C5   AROM  8 
+BTT  C4  O4   SING  9 
+BTT  C5  C6   AROM  10
+BTT  C5  O5   SING  11
+BTT  C6  H6   SING  12
+BTT  O1  HO1  SING  13
+BTT  O2  HO2  SING  14
+BTT  O4  HO4  SING  15
+BTT  O5  HO5  SING  16
+#

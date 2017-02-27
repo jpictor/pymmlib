@@ -1,0 +1,79 @@
+data_CY1
+#
+_chem_comp.id                       CY1
+_chem_comp.name                     ACETAMIDOMETHYLCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H12 N2 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            192.232
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CY1  N    .  N  0  ?  ?  ?  1  1 
+CY1  CA   .  C  0  ?  ?  ?  1  2 
+CY1  CB   .  C  0  ?  ?  ?  1  3 
+CY1  SG   .  S  0  ?  ?  ?  1  4 
+CY1  CD   .  C  0  ?  ?  ?  1  5 
+CY1  NE   .  N  0  ?  ?  ?  1  6 
+CY1  CZ   .  C  0  ?  ?  ?  1  7 
+CY1  OAC  .  O  0  ?  ?  ?  1  8 
+CY1  CM   .  C  0  ?  ?  ?  1  9 
+CY1  C    .  C  0  ?  ?  ?  1  10
+CY1  O    .  O  0  ?  ?  ?  1  11
+CY1  OXT  .  O  0  ?  ?  ?  1  12
+CY1  HXT  .  H  0  ?  ?  ?  1  13
+CY1  H    .  H  0  ?  ?  ?  1  14
+CY1  HN1  .  H  0  ?  ?  ?  1  15
+CY1  HA   .  H  0  ?  ?  ?  1  16
+CY1  HB1  .  H  0  ?  ?  ?  1  17
+CY1  HB2  .  H  0  ?  ?  ?  1  18
+CY1  HD1  .  H  0  ?  ?  ?  1  19
+CY1  HD2  .  H  0  ?  ?  ?  1  20
+CY1  HE1  .  H  0  ?  ?  ?  1  21
+CY1  1HM  .  H  0  ?  ?  ?  0  22
+CY1  2HM  .  H  0  ?  ?  ?  0  23
+CY1  3HM  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CY1  N    CA   SING  1 
+CY1  N    H    SING  2 
+CY1  N    HN1  SING  3 
+CY1  CA   CB   SING  4 
+CY1  CA   C    SING  5 
+CY1  CA   HA   SING  6 
+CY1  CB   SG   SING  7 
+CY1  CB   HB1  SING  8 
+CY1  CB   HB2  SING  9 
+CY1  SG   CD   SING  10
+CY1  CD   NE   SING  11
+CY1  CD   HD1  SING  12
+CY1  CD   HD2  SING  13
+CY1  NE   CZ   SING  14
+CY1  NE   HE1  SING  15
+CY1  CZ   OAC  DOUB  16
+CY1  CZ   CM   SING  17
+CY1  CM   1HM  SING  18
+CY1  CM   2HM  SING  19
+CY1  CM   3HM  SING  20
+CY1  C    O    DOUB  21
+CY1  C    OXT  SING  22
+CY1  OXT  HXT  SING  23
+#

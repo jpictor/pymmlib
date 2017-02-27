@@ -1,0 +1,110 @@
+data_1AP
+#
+_chem_comp.id                       1AP
+_chem_comp.name                     '2,6-DIAMINOPURINE NUCLEOTIDE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N6 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            346.239
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1AP  N1    .  N  0  ?  ?  ?  1  1 
+1AP  C2    .  C  0  ?  ?  ?  1  2 
+1AP  C4    .  C  0  ?  ?  ?  1  3 
+1AP  C5    .  C  0  ?  ?  ?  1  4 
+1AP  C6    .  C  0  ?  ?  ?  1  5 
+1AP  C8    .  C  0  ?  ?  ?  1  6 
+1AP  N2    .  N  0  ?  ?  ?  1  7 
+1AP  N3    .  N  0  ?  ?  ?  1  8 
+1AP  N9    .  N  0  ?  ?  ?  1  9 
+1AP  N7    .  N  0  ?  ?  ?  1  10
+1AP  N6    .  N  0  ?  ?  ?  1  11
+1AP  P     .  P  0  ?  ?  ?  1  12
+1AP  O1P   .  O  0  ?  ?  ?  1  13
+1AP  O2P   .  O  0  ?  ?  ?  1  14
+1AP  O5'   .  O  0  ?  ?  ?  1  15
+1AP  C5'   .  C  0  ?  ?  ?  1  16
+1AP  C4'   .  C  0  ?  ?  ?  1  17
+1AP  O4'   .  O  0  ?  ?  ?  1  18
+1AP  C1'   .  C  0  ?  ?  ?  1  19
+1AP  C2'   .  C  0  ?  ?  ?  1  20
+1AP  C3'   .  C  0  ?  ?  ?  1  21
+1AP  O3'   .  O  0  ?  ?  ?  1  22
+1AP  O3P   .  O  0  ?  ?  ?  1  23
+1AP  H1P   .  H  0  ?  ?  ?  1  24
+1AP  H3P   .  H  0  ?  ?  ?  1  25
+1AP  2H5   .  H  0  ?  ?  ?  0  26
+1AP  1H5   .  H  0  ?  ?  ?  0  27
+1AP  H4    .  H  0  ?  ?  ?  1  28
+1AP  1HO3  .  H  0  ?  ?  ?  0  29
+1AP  1H3   .  H  0  ?  ?  ?  0  30
+1AP  1H2   .  H  0  ?  ?  ?  0  31
+1AP  2H2   .  H  0  ?  ?  ?  0  32
+1AP  1H1   .  H  0  ?  ?  ?  0  33
+1AP  1H8   .  H  0  ?  ?  ?  0  34
+1AP  1HN6  .  H  0  ?  ?  ?  0  35
+1AP  2HN6  .  H  0  ?  ?  ?  0  36
+1AP  1HN2  .  H  0  ?  ?  ?  0  37
+1AP  2HN2  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1AP  N1   C2    SING  1 
+1AP  N1   C6    DOUB  2 
+1AP  C2   N2    SING  3 
+1AP  C2   N3    DOUB  4 
+1AP  C4   C5    DOUB  5 
+1AP  C4   N3    SING  6 
+1AP  C4   N9    SING  7 
+1AP  C5   C6    SING  8 
+1AP  C5   N7    SING  9 
+1AP  C6   N6    SING  10
+1AP  C8   N9    SING  11
+1AP  C8   N7    DOUB  12
+1AP  C8   1H8   SING  13
+1AP  N2   1HN2  SING  14
+1AP  N2   2HN2  SING  15
+1AP  N9   C1'   SING  16
+1AP  N6   1HN6  SING  17
+1AP  N6   2HN6  SING  18
+1AP  P    O1P   SING  19
+1AP  P    O2P   DOUB  20
+1AP  P    O5'   SING  21
+1AP  P    O3P   SING  22
+1AP  O1P  H1P   SING  23
+1AP  O5'  C5'   SING  24
+1AP  C5'  C4'   SING  25
+1AP  C5'  1H5   SING  26
+1AP  C5'  2H5   SING  27
+1AP  C4'  O4'   SING  28
+1AP  C4'  C3'   SING  29
+1AP  C4'  H4    SING  30
+1AP  O4'  C1'   SING  31
+1AP  C1'  C2'   SING  32
+1AP  C1'  1H1   SING  33
+1AP  C2'  C3'   SING  34
+1AP  C2'  1H2   SING  35
+1AP  C2'  2H2   SING  36
+1AP  C3'  O3'   SING  37
+1AP  C3'  1H3   SING  38
+1AP  O3'  1HO3  SING  39
+1AP  O3P  H3P   SING  40
+#

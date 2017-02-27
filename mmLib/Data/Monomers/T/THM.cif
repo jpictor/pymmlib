@@ -1,0 +1,95 @@
+data_THM
+#
+_chem_comp.id                   THM
+_chem_comp.name                 THYMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N2 O5'
+_chem_comp.pdbx_synonyms        'DEOXYTHYMIDINE; 2'-DEOXYTHYMIDINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        242.231
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THM  O5*   .  O  0  ?  ?  ?  1  1 
+THM  C5*   .  C  0  ?  ?  ?  1  2 
+THM  C4*   .  C  0  ?  ?  ?  1  3 
+THM  O4*   .  O  0  ?  ?  ?  1  4 
+THM  C3*   .  C  0  ?  ?  ?  1  5 
+THM  O3*   .  O  0  ?  ?  ?  1  6 
+THM  C2*   .  C  0  ?  ?  ?  1  7 
+THM  C1*   .  C  0  ?  ?  ?  1  8 
+THM  N1    .  N  0  ?  ?  ?  1  9 
+THM  C2    .  C  0  ?  ?  ?  1  10
+THM  O2    .  O  0  ?  ?  ?  1  11
+THM  N3    .  N  0  ?  ?  ?  1  12
+THM  C4    .  C  0  ?  ?  ?  1  13
+THM  O4    .  O  0  ?  ?  ?  1  14
+THM  C5    .  C  0  ?  ?  ?  1  15
+THM  C5M   .  C  0  ?  ?  ?  1  16
+THM  C6    .  C  0  ?  ?  ?  1  17
+THM  *HO5  .  H  0  ?  ?  ?  0  18
+THM  1H5*  .  H  0  ?  ?  ?  0  19
+THM  2H5*  .  H  0  ?  ?  ?  0  20
+THM  H4*   .  H  0  ?  ?  ?  1  21
+THM  H3*   .  H  0  ?  ?  ?  1  22
+THM  *HO3  .  H  0  ?  ?  ?  0  23
+THM  1H2*  .  H  0  ?  ?  ?  0  24
+THM  2H2*  .  H  0  ?  ?  ?  0  25
+THM  H1*   .  H  0  ?  ?  ?  1  26
+THM  HN3   .  H  0  ?  ?  ?  1  27
+THM  1HM5  .  H  0  ?  ?  ?  0  28
+THM  2HM5  .  H  0  ?  ?  ?  0  29
+THM  3HM5  .  H  0  ?  ?  ?  0  30
+THM  H6    .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THM  O5*  C5*   SING  1 
+THM  O5*  *HO5  SING  2 
+THM  C5*  C4*   SING  3 
+THM  C5*  1H5*  SING  4 
+THM  C5*  2H5*  SING  5 
+THM  C4*  C3*   SING  6 
+THM  C4*  O4*   SING  7 
+THM  C4*  H4*   SING  8 
+THM  O4*  C1*   SING  9 
+THM  C3*  C2*   SING  10
+THM  C3*  O3*   SING  11
+THM  C3*  H3*   SING  12
+THM  O3*  *HO3  SING  13
+THM  C2*  C1*   SING  14
+THM  C2*  1H2*  SING  15
+THM  C2*  2H2*  SING  16
+THM  C1*  N1    SING  17
+THM  C1*  H1*   SING  18
+THM  N1   C2    SING  19
+THM  N1   C6    SING  20
+THM  C2   O2    DOUB  21
+THM  C2   N3    SING  22
+THM  N3   C4    SING  23
+THM  N3   HN3   SING  24
+THM  C4   O4    DOUB  25
+THM  C4   C5    SING  26
+THM  C5   C6    DOUB  27
+THM  C5   C5M   SING  28
+THM  C5M  1HM5  SING  29
+THM  C5M  2HM5  SING  30
+THM  C5M  3HM5  SING  31
+THM  C6   H6    SING  32
+#

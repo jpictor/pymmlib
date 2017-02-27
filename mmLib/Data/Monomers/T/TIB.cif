@@ -1,0 +1,115 @@
+data_TIB
+#
+_chem_comp.id                   TIB
+_chem_comp.name                 4-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)-6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA-BENZO[CD]AZULENE-1-THIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H20 N3 CL1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.867
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TIB  N1    .  N   0  ?  ?  ?  1  1 
+TIB  C2    .  C   0  ?  ?  ?  1  2 
+TIB  C3    .  C   0  ?  ?  ?  1  3 
+TIB  N4    .  N   0  ?  ?  ?  1  4 
+TIB  C5    .  C   0  ?  ?  ?  1  5 
+TIB  C6    .  C   0  ?  ?  ?  1  6 
+TIB  C7    .  C   0  ?  ?  ?  1  7 
+TIB  CL7   .  CL  0  ?  ?  ?  0  8 
+TIB  C8    .  C   0  ?  ?  ?  1  9 
+TIB  C9    .  C   0  ?  ?  ?  1  10
+TIB  N10   .  N   0  ?  ?  ?  1  11
+TIB  C11   .  C   0  ?  ?  ?  1  12
+TIB  S11   .  S   0  ?  ?  ?  1  13
+TIB  C12   .  C   0  ?  ?  ?  1  14
+TIB  C13   .  C   0  ?  ?  ?  1  15
+TIB  C14   .  C   0  ?  ?  ?  1  16
+TIB  C15   .  C   0  ?  ?  ?  1  17
+TIB  C16   .  C   0  ?  ?  ?  1  18
+TIB  C17   .  C   0  ?  ?  ?  1  19
+TIB  C18   .  C   0  ?  ?  ?  1  20
+TIB  C19   .  C   0  ?  ?  ?  1  21
+TIB  1H2   .  H   0  ?  ?  ?  0  22
+TIB  2H2   .  H   0  ?  ?  ?  0  23
+TIB  H3    .  H   0  ?  ?  ?  1  24
+TIB  1H5   .  H   0  ?  ?  ?  0  25
+TIB  2H5   .  H   0  ?  ?  ?  0  26
+TIB  H6    .  H   0  ?  ?  ?  1  27
+TIB  H8    .  H   0  ?  ?  ?  1  28
+TIB  H10   .  H   0  ?  ?  ?  1  29
+TIB  1H14  .  H   0  ?  ?  ?  0  30
+TIB  2H14  .  H   0  ?  ?  ?  0  31
+TIB  3H14  .  H   0  ?  ?  ?  0  32
+TIB  1H15  .  H   0  ?  ?  ?  0  33
+TIB  2H15  .  H   0  ?  ?  ?  0  34
+TIB  H16   .  H   0  ?  ?  ?  1  35
+TIB  1H18  .  H   0  ?  ?  ?  0  36
+TIB  2H18  .  H   0  ?  ?  ?  0  37
+TIB  3H18  .  H   0  ?  ?  ?  0  38
+TIB  1H19  .  H   0  ?  ?  ?  0  39
+TIB  2H19  .  H   0  ?  ?  ?  0  40
+TIB  3H19  .  H   0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TIB  N1   C2    SING  1 
+TIB  N1   C11   SING  2 
+TIB  N1   C12   SING  3 
+TIB  C2   C3    SING  4 
+TIB  C2   1H2   SING  5 
+TIB  C2   2H2   SING  6 
+TIB  C3   N4    SING  7 
+TIB  C3   C14   SING  8 
+TIB  C3   H3    SING  9 
+TIB  N4   C5    SING  10
+TIB  N4   C15   SING  11
+TIB  C5   C13   SING  12
+TIB  C5   1H5   SING  13
+TIB  C5   2H5   SING  14
+TIB  C6   C7    DOUB  15
+TIB  C6   C13   SING  16
+TIB  C6   H6    SING  17
+TIB  C7   C8    SING  18
+TIB  C7   CL7   SING  19
+TIB  C8   C9    DOUB  20
+TIB  C8   H8    SING  21
+TIB  C9   N10   SING  22
+TIB  C9   C12   SING  23
+TIB  N10  C11   SING  24
+TIB  N10  H10   SING  25
+TIB  C11  S11   DOUB  26
+TIB  C12  C13   DOUB  27
+TIB  C14  1H14  SING  28
+TIB  C14  2H14  SING  29
+TIB  C14  3H14  SING  30
+TIB  C15  C16   SING  31
+TIB  C15  1H15  SING  32
+TIB  C15  2H15  SING  33
+TIB  C16  C17   DOUB  34
+TIB  C16  H16   SING  35
+TIB  C17  C18   SING  36
+TIB  C17  C19   SING  37
+TIB  C18  1H18  SING  38
+TIB  C18  2H18  SING  39
+TIB  C18  3H18  SING  40
+TIB  C19  1H19  SING  41
+TIB  C19  2H19  SING  42
+TIB  C19  3H19  SING  43
+#

@@ -1,0 +1,96 @@
+data_DRP
+#
+_chem_comp.id                   DRP
+_chem_comp.name                 2-DEOXYRIBOFURANOSYL-PYRIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        275.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DRP  P     .  P  0  ?  ?  ?  1  1 
+DRP  O1P   .  O  0  ?  ?  ?  1  2 
+DRP  O2P   .  O  0  ?  ?  ?  1  3 
+DRP  O5*   .  O  0  ?  ?  ?  1  4 
+DRP  C1    .  C  0  ?  ?  ?  1  5 
+DRP  C2    .  C  0  ?  ?  ?  1  6 
+DRP  N3    .  N  0  ?  ?  ?  1  7 
+DRP  C4    .  C  0  ?  ?  ?  1  8 
+DRP  C5    .  C  0  ?  ?  ?  1  9 
+DRP  C6    .  C  0  ?  ?  ?  1  10
+DRP  C2*   .  C  0  ?  ?  ?  1  11
+DRP  C5*   .  C  0  ?  ?  ?  1  12
+DRP  C4*   .  C  0  ?  ?  ?  1  13
+DRP  O4*   .  O  0  ?  ?  ?  1  14
+DRP  C1*   .  C  0  ?  ?  ?  1  15
+DRP  C3*   .  C  0  ?  ?  ?  1  16
+DRP  O3*   .  O  0  ?  ?  ?  1  17
+DRP  O3P   .  O  0  ?  ?  ?  1  18
+DRP  3HOP  .  H  0  ?  ?  ?  0  19
+DRP  2HOP  .  H  0  ?  ?  ?  0  20
+DRP  1H5*  .  H  0  ?  ?  ?  0  21
+DRP  2H5*  .  H  0  ?  ?  ?  0  22
+DRP  H4*   .  H  0  ?  ?  ?  1  23
+DRP  H3*   .  H  0  ?  ?  ?  1  24
+DRP  H3T   .  H  0  ?  ?  ?  1  25
+DRP  1H2*  .  H  0  ?  ?  ?  0  26
+DRP  2H2*  .  H  0  ?  ?  ?  0  27
+DRP  H1*   .  H  0  ?  ?  ?  1  28
+DRP  H2    .  H  0  ?  ?  ?  1  29
+DRP  H4    .  H  0  ?  ?  ?  1  30
+DRP  H5    .  H  0  ?  ?  ?  1  31
+DRP  H6    .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DRP  P    O1P   DOUB  1 
+DRP  P    O2P   SING  2 
+DRP  P    O5*   SING  3 
+DRP  P    O3P   SING  4 
+DRP  O2P  2HOP  SING  5 
+DRP  O5*  C5*   SING  6 
+DRP  C1   C2    DOUB  7 
+DRP  C1   C6    SING  8 
+DRP  C1   C1*   SING  9 
+DRP  C2   N3    SING  10
+DRP  C2   H2    SING  11
+DRP  N3   C4    DOUB  12
+DRP  C4   C5    SING  13
+DRP  C4   H4    SING  14
+DRP  C5   C6    DOUB  15
+DRP  C5   H5    SING  16
+DRP  C6   H6    SING  17
+DRP  C2*  C1*   SING  18
+DRP  C2*  C3*   SING  19
+DRP  C2*  1H2*  SING  20
+DRP  C2*  2H2*  SING  21
+DRP  C5*  C4*   SING  22
+DRP  C5*  1H5*  SING  23
+DRP  C5*  2H5*  SING  24
+DRP  C4*  O4*   SING  25
+DRP  C4*  C3*   SING  26
+DRP  C4*  H4*   SING  27
+DRP  O4*  C1*   SING  28
+DRP  C1*  H1*   SING  29
+DRP  C3*  O3*   SING  30
+DRP  C3*  H3*   SING  31
+DRP  O3*  H3T   SING  32
+DRP  O3P  3HOP  SING  33
+#

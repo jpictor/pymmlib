@@ -1,0 +1,32 @@
+data_GTE
+#
+_chem_comp.id                   GTE
+_chem_comp.name                 'GLUCOSE 4-O4 GROUP'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'H1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        17.007
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GTE  O4   .  O  0  ?  ?  ?  1  1
+GTE  HO4  .  H  0  ?  ?  ?  1  2
+#
+_chem_comp_bond.comp_id       GTE
+_chem_comp_bond.atom_id_1     O4
+_chem_comp_bond.atom_id_2     HO4
+_chem_comp_bond.value_order   SING
+_chem_comp_bond.pdbx_ordinal  1
+#

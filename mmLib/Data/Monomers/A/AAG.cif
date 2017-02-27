@@ -1,0 +1,92 @@
+data_AAG
+#
+_chem_comp.id                   AAG
+_chem_comp.name                 N-ALPHA-L-ACETYL-ARGININE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C8 H16 N4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.239
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAG  N1    .  N  0  ?  ?  ?  1  1 
+AAG  C1    .  C  0  ?  ?  ?  1  2 
+AAG  C2    .  C  0  ?  ?  ?  1  3 
+AAG  C4    .  C  0  ?  ?  ?  1  4 
+AAG  C5    .  C  0  ?  ?  ?  1  5 
+AAG  N2    .  N  0  ?  ?  ?  1  6 
+AAG  C6    .  C  0  ?  ?  ?  1  7 
+AAG  N3    .  N  0  ?  ?  ?  1  8 
+AAG  N4    .  N  0  ?  ?  ?  1  9 
+AAG  C3    .  C  0  ?  ?  ?  1  10
+AAG  O1    .  O  0  ?  ?  ?  1  11
+AAG  O2    .  O  0  ?  ?  ?  1  12
+AAG  C8    .  C  0  ?  ?  ?  1  13
+AAG  C9    .  C  0  ?  ?  ?  1  14
+AAG  O4    .  O  0  ?  ?  ?  1  15
+AAG  1HC9  .  H  0  ?  ?  ?  0  16
+AAG  2HC9  .  H  0  ?  ?  ?  0  17
+AAG  3HC9  .  H  0  ?  ?  ?  0  18
+AAG  HN1   .  H  0  ?  ?  ?  1  19
+AAG  HC1   .  H  0  ?  ?  ?  1  20
+AAG  1HC2  .  H  0  ?  ?  ?  0  21
+AAG  2HC2  .  H  0  ?  ?  ?  0  22
+AAG  1HC4  .  H  0  ?  ?  ?  0  23
+AAG  2HC4  .  H  0  ?  ?  ?  0  24
+AAG  1HC5  .  H  0  ?  ?  ?  0  25
+AAG  2HC5  .  H  0  ?  ?  ?  0  26
+AAG  1HN3  .  H  0  ?  ?  ?  0  27
+AAG  2HN3  .  H  0  ?  ?  ?  0  28
+AAG  HN4   .  H  0  ?  ?  ?  1  29
+AAG  HN2   .  H  0  ?  ?  ?  1  30
+AAG  HO2   .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAG  N1  C1    SING  1 
+AAG  N1  C8    SING  2 
+AAG  N1  HN1   SING  3 
+AAG  C1  C2    SING  4 
+AAG  C1  C3    SING  5 
+AAG  C1  HC1   SING  6 
+AAG  C2  C4    SING  7 
+AAG  C2  1HC2  SING  8 
+AAG  C2  2HC2  SING  9 
+AAG  C4  C5    SING  10
+AAG  C4  1HC4  SING  11
+AAG  C4  2HC4  SING  12
+AAG  C5  N2    SING  13
+AAG  C5  1HC5  SING  14
+AAG  C5  2HC5  SING  15
+AAG  N2  C6    SING  16
+AAG  N2  HN2   SING  17
+AAG  C6  N3    SING  18
+AAG  C6  N4    DOUB  19
+AAG  N3  1HN3  SING  20
+AAG  N3  2HN3  SING  21
+AAG  N4  HN4   SING  22
+AAG  C3  O1    DOUB  23
+AAG  C3  O2    SING  24
+AAG  O2  HO2   SING  25
+AAG  C8  C9    SING  26
+AAG  C8  O4    DOUB  27
+AAG  C9  1HC9  SING  28
+AAG  C9  2HC9  SING  29
+AAG  C9  3HC9  SING  30
+#

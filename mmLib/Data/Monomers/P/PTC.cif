@@ -1,0 +1,102 @@
+data_PTC
+#
+_chem_comp.id                   PTC
+_chem_comp.name                 '2-METHYLCARBAMOYL-3-(4-PHOSPHONOOXY-PHENYL)-CYCLOPROPANECARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        315.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTC  C1   .  C  0  ?  ?  ?  1  1 
+PTC  O1   .  O  0  ?  ?  ?  1  2 
+PTC  N1   .  N  0  ?  ?  ?  1  3 
+PTC  C2   .  C  0  ?  ?  ?  1  4 
+PTC  CA   .  C  0  ?  ?  ?  1  5 
+PTC  C    .  C  0  ?  ?  ?  1  6 
+PTC  O    .  O  0  ?  ?  ?  1  7 
+PTC  CB   .  C  0  ?  ?  ?  1  8 
+PTC  CG   .  C  0  ?  ?  ?  1  9 
+PTC  CD1  .  C  0  ?  ?  ?  1  10
+PTC  CD2  .  C  0  ?  ?  ?  1  11
+PTC  CE1  .  C  0  ?  ?  ?  1  12
+PTC  CE2  .  C  0  ?  ?  ?  1  13
+PTC  CZ   .  C  0  ?  ?  ?  1  14
+PTC  OH   .  O  0  ?  ?  ?  1  15
+PTC  C7   .  C  0  ?  ?  ?  1  16
+PTC  P    .  P  0  ?  ?  ?  1  17
+PTC  O1P  .  O  0  ?  ?  ?  1  18
+PTC  O2P  .  O  0  ?  ?  ?  1  19
+PTC  O3P  .  O  0  ?  ?  ?  1  20
+PTC  OXT  .  O  0  ?  ?  ?  1  21
+PTC  1H2  .  H  0  ?  ?  ?  0  22
+PTC  2H2  .  H  0  ?  ?  ?  0  23
+PTC  3H2  .  H  0  ?  ?  ?  0  24
+PTC  HN   .  H  0  ?  ?  ?  1  25
+PTC  H7   .  H  0  ?  ?  ?  1  26
+PTC  HA   .  H  0  ?  ?  ?  1  27
+PTC  HB   .  H  0  ?  ?  ?  1  28
+PTC  HXT  .  H  0  ?  ?  ?  1  29
+PTC  HD1  .  H  0  ?  ?  ?  1  30
+PTC  HD2  .  H  0  ?  ?  ?  1  31
+PTC  HE1  .  H  0  ?  ?  ?  1  32
+PTC  HE2  .  H  0  ?  ?  ?  1  33
+PTC  HO2  .  H  0  ?  ?  ?  1  34
+PTC  HO3  .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTC  C1   O1   DOUB  1 
+PTC  C1   N1   SING  2 
+PTC  C1   C7   SING  3 
+PTC  N1   C2   SING  4 
+PTC  N1   HN   SING  5 
+PTC  C2   1H2  SING  6 
+PTC  C2   2H2  SING  7 
+PTC  C2   3H2  SING  8 
+PTC  CA   C    SING  9 
+PTC  CA   CB   SING  10
+PTC  CA   C7   SING  11
+PTC  CA   HA   SING  12
+PTC  C    O    DOUB  13
+PTC  C    OXT  SING  14
+PTC  CB   CG   SING  15
+PTC  CB   C7   SING  16
+PTC  CB   HB   SING  17
+PTC  CG   CD1  AROM  18
+PTC  CG   CD2  AROM  19
+PTC  CD1  CE1  AROM  20
+PTC  CD1  HD1  SING  21
+PTC  CD2  CE2  AROM  22
+PTC  CD2  HD2  SING  23
+PTC  CE1  CZ   AROM  24
+PTC  CE1  HE1  SING  25
+PTC  CE2  CZ   AROM  26
+PTC  CE2  HE2  SING  27
+PTC  CZ   OH   SING  28
+PTC  OH   P    SING  29
+PTC  C7   H7   SING  30
+PTC  P    O1P  DOUB  31
+PTC  P    O2P  SING  32
+PTC  P    O3P  SING  33
+PTC  O2P  HO2  SING  34
+PTC  O3P  HO3  SING  35
+PTC  OXT  HXT  SING  36
+#

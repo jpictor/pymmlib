@@ -1,0 +1,114 @@
+data_PPD
+#
+_chem_comp.id                   PPD
+_chem_comp.name                 '2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYLENE)-AMINO]-SUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N2 O9 P1'
+_chem_comp.pdbx_synonyms        'PYRIDOXYL-ASPARTIC ACID-5-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        364.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPD  N1    .  N  0  ?  ?  ?  1  1 
+PPD  C2    .  C  0  ?  ?  ?  1  2 
+PPD  C2A   .  C  0  ?  ?  ?  1  3 
+PPD  C3    .  C  0  ?  ?  ?  1  4 
+PPD  O3    .  O  0  ?  ?  ?  1  5 
+PPD  C4    .  C  0  ?  ?  ?  1  6 
+PPD  C4A   .  C  0  ?  ?  ?  1  7 
+PPD  C5    .  C  0  ?  ?  ?  1  8 
+PPD  C6    .  C  0  ?  ?  ?  1  9 
+PPD  C5A   .  C  0  ?  ?  ?  1  10
+PPD  O4P   .  O  0  ?  ?  ?  1  11
+PPD  P     .  P  0  ?  ?  ?  1  12
+PPD  O1P   .  O  0  ?  ?  ?  1  13
+PPD  O2P   .  O  0  ?  ?  ?  1  14
+PPD  O3P   .  O  0  ?  ?  ?  1  15
+PPD  N     .  N  0  ?  ?  ?  1  16
+PPD  CA    .  C  0  ?  ?  ?  1  17
+PPD  CB    .  C  0  ?  ?  ?  1  18
+PPD  CG    .  C  0  ?  ?  ?  1  19
+PPD  OD1   .  O  0  ?  ?  ?  1  20
+PPD  OD2   .  O  0  ?  ?  ?  1  21
+PPD  C     .  C  0  ?  ?  ?  1  22
+PPD  O     .  O  0  ?  ?  ?  1  23
+PPD  OXT   .  O  0  ?  ?  ?  1  24
+PPD  1H2A  .  H  0  ?  ?  ?  0  25
+PPD  2H2A  .  H  0  ?  ?  ?  0  26
+PPD  3H2A  .  H  0  ?  ?  ?  0  27
+PPD  HO3   .  H  0  ?  ?  ?  1  28
+PPD  1H4A  .  H  0  ?  ?  ?  0  29
+PPD  2H4A  .  H  0  ?  ?  ?  0  30
+PPD  1H5A  .  H  0  ?  ?  ?  0  31
+PPD  2H5A  .  H  0  ?  ?  ?  0  32
+PPD  H6    .  H  0  ?  ?  ?  1  33
+PPD  2HOP  .  H  0  ?  ?  ?  0  34
+PPD  3HOP  .  H  0  ?  ?  ?  0  35
+PPD  HN    .  H  0  ?  ?  ?  1  36
+PPD  HA    .  H  0  ?  ?  ?  1  37
+PPD  1HB   .  H  0  ?  ?  ?  0  38
+PPD  2HB   .  H  0  ?  ?  ?  0  39
+PPD  HOD   .  H  0  ?  ?  ?  1  40
+PPD  HXT   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPD  N1   C2    DOUB  1 
+PPD  N1   C6    SING  2 
+PPD  C2   C2A   SING  3 
+PPD  C2   C3    SING  4 
+PPD  C2A  1H2A  SING  5 
+PPD  C2A  2H2A  SING  6 
+PPD  C2A  3H2A  SING  7 
+PPD  C3   O3    SING  8 
+PPD  C3   C4    DOUB  9 
+PPD  O3   HO3   SING  10
+PPD  C4   C4A   SING  11
+PPD  C4   C5    SING  12
+PPD  C4A  N     SING  13
+PPD  C4A  1H4A  SING  14
+PPD  C4A  2H4A  SING  15
+PPD  C5   C6    DOUB  16
+PPD  C5   C5A   SING  17
+PPD  C6   H6    SING  18
+PPD  C5A  O4P   SING  19
+PPD  C5A  1H5A  SING  20
+PPD  C5A  2H5A  SING  21
+PPD  O4P  P     SING  22
+PPD  P    O1P   DOUB  23
+PPD  P    O2P   SING  24
+PPD  P    O3P   SING  25
+PPD  O2P  2HOP  SING  26
+PPD  O3P  3HOP  SING  27
+PPD  N    CA    SING  28
+PPD  N    HN    SING  29
+PPD  CA   CB    SING  30
+PPD  CA   C     SING  31
+PPD  CA   HA    SING  32
+PPD  CB   CG    SING  33
+PPD  CB   1HB   SING  34
+PPD  CB   2HB   SING  35
+PPD  CG   OD1   DOUB  36
+PPD  CG   OD2   SING  37
+PPD  OD2  HOD   SING  38
+PPD  C    O     DOUB  39
+PPD  C    OXT   SING  40
+PPD  OXT  HXT   SING  41
+#

@@ -1,0 +1,78 @@
+data_PHI
+#
+_chem_comp.id                       PHI
+_chem_comp.name                     IODO-PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H10 N1 O2 I1'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            291.088
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PHI  N    .  N  0  ?  ?  ?  1  1 
+PHI  CA   .  C  0  ?  ?  ?  1  2 
+PHI  CB   .  C  0  ?  ?  ?  1  3 
+PHI  CG   .  C  0  ?  ?  ?  1  4 
+PHI  CD1  .  C  0  ?  ?  ?  1  5 
+PHI  CD2  .  C  0  ?  ?  ?  1  6 
+PHI  CE1  .  C  0  ?  ?  ?  1  7 
+PHI  CE2  .  C  0  ?  ?  ?  1  8 
+PHI  CZ   .  C  0  ?  ?  ?  1  9 
+PHI  I    .  I  0  ?  ?  ?  1  10
+PHI  C    .  C  0  ?  ?  ?  1  11
+PHI  O    .  O  0  ?  ?  ?  1  12
+PHI  OXT  .  O  0  ?  ?  ?  1  13
+PHI  1HN  .  H  0  ?  ?  ?  0  14
+PHI  2HN  .  H  0  ?  ?  ?  0  15
+PHI  HA   .  H  0  ?  ?  ?  1  16
+PHI  1HB  .  H  0  ?  ?  ?  0  17
+PHI  2HB  .  H  0  ?  ?  ?  0  18
+PHI  HD1  .  H  0  ?  ?  ?  1  19
+PHI  HD2  .  H  0  ?  ?  ?  1  20
+PHI  HE1  .  H  0  ?  ?  ?  1  21
+PHI  HE2  .  H  0  ?  ?  ?  1  22
+PHI  HXT  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PHI  N    CA   SING  1 
+PHI  N    1HN  SING  2 
+PHI  N    2HN  SING  3 
+PHI  CA   CB   SING  4 
+PHI  CA   C    SING  5 
+PHI  CA   HA   SING  6 
+PHI  CB   CG   SING  7 
+PHI  CB   1HB  SING  8 
+PHI  CB   2HB  SING  9 
+PHI  CG   CD1  DOUB  10
+PHI  CG   CD2  SING  11
+PHI  CD1  CE1  SING  12
+PHI  CD1  HD1  SING  13
+PHI  CD2  CE2  DOUB  14
+PHI  CD2  HD2  SING  15
+PHI  CE1  CZ   DOUB  16
+PHI  CE1  HE1  SING  17
+PHI  CE2  CZ   SING  18
+PHI  CE2  HE2  SING  19
+PHI  CZ   I    SING  20
+PHI  C    O    DOUB  21
+PHI  C    OXT  SING  22
+PHI  OXT  HXT  SING  23
+#

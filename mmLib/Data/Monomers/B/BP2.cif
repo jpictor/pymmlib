@@ -1,0 +1,104 @@
+data_BP2
+#
+_chem_comp.id                   BP2
+_chem_comp.name                 '(+)-BORNYL DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 O7 P2'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       311.188
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BP2  C2    .  C  0   43.356  47.072  48.708  1  1 
+BP2  C3    .  C  0   44.401  48.157  48.333  1  2 
+BP2  C4    .  C  0   45.124  47.542  47.134  1  3 
+BP2  C5    .  C  0   44.370  46.198  47.022  1  4 
+BP2  C6    .  C  0   44.933  45.311  48.181  1  5 
+BP2  C7    .  C  0   44.187  45.940  49.420  1  6 
+BP2  C8    .  C  0   42.886  46.436  47.374  1  7 
+BP2  C9    .  C  0   42.087  47.328  46.412  1  8 
+BP2  C10   .  C  0   42.014  45.159  47.477  1  9 
+BP2  C11   .  C  0   42.260  47.575  49.619  1  10
+BP2  P1    .  P  0   45.189  49.764  50.221  1  11
+BP2  O1    .  O  -1  46.192  50.867  49.718  1  12
+BP2  O2    .  O  0   45.503  49.472  51.750  1  13
+BP2  O3    .  O  0   45.309  48.472  49.414  1  14
+BP2  O     .  O  0   43.735  50.409  50.146  1  15
+BP2  P2    .  P  0   43.138  51.710  50.833  1  16
+BP2  O4    .  O  -1  43.591  51.629  52.369  1  17
+BP2  O5    .  O  -1  43.799  52.969  50.162  1  18
+BP2  O6    .  O  0   41.640  51.693  50.713  1  19
+BP2  HC3   .  H  0   ?       ?       ?       1  20
+BP2  1HC4  .  H  0   ?       ?       ?       0  21
+BP2  2HC4  .  H  0   ?       ?       ?       0  22
+BP2  HC5   .  H  0   ?       ?       ?       1  23
+BP2  1HC6  .  H  0   ?       ?       ?       0  24
+BP2  2HC6  .  H  0   ?       ?       ?       0  25
+BP2  1HC7  .  H  0   ?       ?       ?       0  26
+BP2  2HC7  .  H  0   ?       ?       ?       0  27
+BP2  1HC9  .  H  0   ?       ?       ?       0  28
+BP2  2HC9  .  H  0   ?       ?       ?       0  29
+BP2  3HC9  .  H  0   ?       ?       ?       0  30
+BP2  1H10  .  H  0   ?       ?       ?       0  31
+BP2  2H10  .  H  0   ?       ?       ?       0  32
+BP2  3H10  .  H  0   ?       ?       ?       0  33
+BP2  1H11  .  H  0   ?       ?       ?       0  34
+BP2  2H11  .  H  0   ?       ?       ?       0  35
+BP2  3H11  .  H  0   ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BP2  C2   C3    SING  1 
+BP2  C2   C7    SING  2 
+BP2  C2   C8    SING  3 
+BP2  C2   C11   SING  4 
+BP2  C3   C4    SING  5 
+BP2  C3   O3    SING  6 
+BP2  C3   HC3   SING  7 
+BP2  C4   C5    SING  8 
+BP2  C4   1HC4  SING  9 
+BP2  C4   2HC4  SING  10
+BP2  C5   C6    SING  11
+BP2  C5   C8    SING  12
+BP2  C5   HC5   SING  13
+BP2  C6   C7    SING  14
+BP2  C6   1HC6  SING  15
+BP2  C6   2HC6  SING  16
+BP2  C7   1HC7  SING  17
+BP2  C7   2HC7  SING  18
+BP2  C8   C9    SING  19
+BP2  C8   C10   SING  20
+BP2  C9   1HC9  SING  21
+BP2  C9   2HC9  SING  22
+BP2  C9   3HC9  SING  23
+BP2  C10  1H10  SING  24
+BP2  C10  2H10  SING  25
+BP2  C10  3H10  SING  26
+BP2  C11  1H11  SING  27
+BP2  C11  2H11  SING  28
+BP2  C11  3H11  SING  29
+BP2  P1   O1    DOUB  30
+BP2  P1   O2    SING  31
+BP2  P1   O3    SING  32
+BP2  P1   O     SING  33
+BP2  O    P2    SING  34
+BP2  P2   O4    DOUB  35
+BP2  P2   O5    SING  36
+BP2  P2   O6    SING  37
+#

@@ -1,0 +1,79 @@
+data_ORP
+#
+_chem_comp.id                   ORP
+_chem_comp.name                 2-DEOXY-5-PHOSPHONO-RIBOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H11 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ORP  C1    .  C  0  ?  ?  ?  1  1 
+ORP  O1    .  O  0  ?  ?  ?  1  2 
+ORP  C2    .  C  0  ?  ?  ?  1  3 
+ORP  C3    .  C  0  ?  ?  ?  1  4 
+ORP  O3    .  O  0  ?  ?  ?  1  5 
+ORP  C4    .  C  0  ?  ?  ?  1  6 
+ORP  O4    .  O  0  ?  ?  ?  1  7 
+ORP  C5    .  C  0  ?  ?  ?  1  8 
+ORP  O5    .  O  0  ?  ?  ?  1  9 
+ORP  P     .  P  0  ?  ?  ?  1  10
+ORP  O1P   .  O  0  ?  ?  ?  1  11
+ORP  O2P   .  O  0  ?  ?  ?  1  12
+ORP  O3P   .  O  0  ?  ?  ?  1  13
+ORP  H1    .  H  0  ?  ?  ?  1  14
+ORP  HO1   .  H  0  ?  ?  ?  1  15
+ORP  1H2   .  H  0  ?  ?  ?  0  16
+ORP  2H2   .  H  0  ?  ?  ?  0  17
+ORP  H3    .  H  0  ?  ?  ?  1  18
+ORP  HO3   .  H  0  ?  ?  ?  1  19
+ORP  H4    .  H  0  ?  ?  ?  1  20
+ORP  1H5   .  H  0  ?  ?  ?  0  21
+ORP  2H5   .  H  0  ?  ?  ?  0  22
+ORP  2HOP  .  H  0  ?  ?  ?  0  23
+ORP  3HOP  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ORP  C1   C2    SING  1 
+ORP  C1   O4    SING  2 
+ORP  C1   O1    SING  3 
+ORP  C1   H1    SING  4 
+ORP  O1   HO1   SING  5 
+ORP  C2   C3    SING  6 
+ORP  C2   1H2   SING  7 
+ORP  C2   2H2   SING  8 
+ORP  C3   C4    SING  9 
+ORP  C3   O3    SING  10
+ORP  C3   H3    SING  11
+ORP  O3   HO3   SING  12
+ORP  C4   C5    SING  13
+ORP  C4   O4    SING  14
+ORP  C4   H4    SING  15
+ORP  C5   O5    SING  16
+ORP  C5   1H5   SING  17
+ORP  C5   2H5   SING  18
+ORP  O5   P     SING  19
+ORP  P    O1P   DOUB  20
+ORP  P    O2P   SING  21
+ORP  P    O3P   SING  22
+ORP  O2P  2HOP  SING  23
+ORP  O3P  3HOP  SING  24
+#

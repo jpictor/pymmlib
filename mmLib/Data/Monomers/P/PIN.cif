@@ -1,0 +1,104 @@
+data_PIN
+#
+_chem_comp.id                   PIN
+_chem_comp.name                 'PIPERAZINE-N,N'-BIS(2-ETHANESULFONIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N2 O6 S2'
+_chem_comp.pdbx_synonyms        'PIPES; 1,4-PIPERAZINEDIETHANESULFONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.360
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIN  C1    .  C  0  ?  ?  ?  1  1 
+PIN  C2    .  C  0  ?  ?  ?  1  2 
+PIN  N1    .  N  0  ?  ?  ?  1  3 
+PIN  C3    .  C  0  ?  ?  ?  1  4 
+PIN  C4    .  C  0  ?  ?  ?  1  5 
+PIN  C1'   .  C  0  ?  ?  ?  1  6 
+PIN  C2'   .  C  0  ?  ?  ?  1  7 
+PIN  N1'   .  N  0  ?  ?  ?  1  8 
+PIN  C3'   .  C  0  ?  ?  ?  1  9 
+PIN  C4'   .  C  0  ?  ?  ?  1  10
+PIN  S1    .  S  0  ?  ?  ?  1  11
+PIN  S1'   .  S  0  ?  ?  ?  1  12
+PIN  O1    .  O  0  ?  ?  ?  1  13
+PIN  O2    .  O  0  ?  ?  ?  1  14
+PIN  O3    .  O  0  ?  ?  ?  1  15
+PIN  O1'   .  O  0  ?  ?  ?  1  16
+PIN  O2'   .  O  0  ?  ?  ?  1  17
+PIN  O3'   .  O  0  ?  ?  ?  1  18
+PIN  1H1   .  H  0  ?  ?  ?  0  19
+PIN  2H1   .  H  0  ?  ?  ?  0  20
+PIN  1H2   .  H  0  ?  ?  ?  0  21
+PIN  2H2   .  H  0  ?  ?  ?  0  22
+PIN  1H3   .  H  0  ?  ?  ?  0  23
+PIN  2H3   .  H  0  ?  ?  ?  0  24
+PIN  1H4   .  H  0  ?  ?  ?  0  25
+PIN  2H4   .  H  0  ?  ?  ?  0  26
+PIN  1H1'  .  H  0  ?  ?  ?  0  27
+PIN  2H1'  .  H  0  ?  ?  ?  0  28
+PIN  1H2'  .  H  0  ?  ?  ?  0  29
+PIN  2H2'  .  H  0  ?  ?  ?  0  30
+PIN  1H3'  .  H  0  ?  ?  ?  0  31
+PIN  2H3'  .  H  0  ?  ?  ?  0  32
+PIN  1H4'  .  H  0  ?  ?  ?  0  33
+PIN  2H4'  .  H  0  ?  ?  ?  0  34
+PIN  HO3   .  H  0  ?  ?  ?  1  35
+PIN  'HO3  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIN  C1   C2    SING  1 
+PIN  C1   S1    SING  2 
+PIN  C1   1H1   SING  3 
+PIN  C1   2H1   SING  4 
+PIN  C2   N1    SING  5 
+PIN  C2   1H2   SING  6 
+PIN  C2   2H2   SING  7 
+PIN  N1   C3    SING  8 
+PIN  N1   C4    SING  9 
+PIN  C3   C4'   SING  10
+PIN  C3   1H3   SING  11
+PIN  C3   2H3   SING  12
+PIN  C4   C3'   SING  13
+PIN  C4   1H4   SING  14
+PIN  C4   2H4   SING  15
+PIN  C1'  C2'   SING  16
+PIN  C1'  S1'   SING  17
+PIN  C1'  1H1'  SING  18
+PIN  C1'  2H1'  SING  19
+PIN  C2'  N1'   SING  20
+PIN  C2'  1H2'  SING  21
+PIN  C2'  2H2'  SING  22
+PIN  N1'  C3'   SING  23
+PIN  N1'  C4'   SING  24
+PIN  C3'  1H3'  SING  25
+PIN  C3'  2H3'  SING  26
+PIN  C4'  1H4'  SING  27
+PIN  C4'  2H4'  SING  28
+PIN  S1   O1    DOUB  29
+PIN  S1   O2    DOUB  30
+PIN  S1   O3    SING  31
+PIN  S1'  O1'   DOUB  32
+PIN  S1'  O2'   DOUB  33
+PIN  S1'  O3'   SING  34
+PIN  O3   HO3   SING  35
+PIN  O3'  'HO3  SING  36
+#

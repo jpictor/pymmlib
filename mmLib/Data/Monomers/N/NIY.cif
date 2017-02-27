@@ -1,0 +1,84 @@
+data_NIY
+#
+_chem_comp.id                       NIY
+_chem_comp.name                     META-NITRO-TYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H10 N2 O5'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            226.188
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NIY  N    .  N  0  ?  ?  ?  1  1 
+NIY  CA   .  C  0  ?  ?  ?  1  2 
+NIY  C    .  C  0  ?  ?  ?  1  3 
+NIY  O    .  O  0  ?  ?  ?  1  4 
+NIY  CB   .  C  0  ?  ?  ?  1  5 
+NIY  CG   .  C  0  ?  ?  ?  1  6 
+NIY  CD1  .  C  0  ?  ?  ?  1  7 
+NIY  CD2  .  C  0  ?  ?  ?  1  8 
+NIY  CE1  .  C  0  ?  ?  ?  1  9 
+NIY  CE2  .  C  0  ?  ?  ?  1  10
+NIY  CZ   .  C  0  ?  ?  ?  1  11
+NIY  OH   .  O  0  ?  ?  ?  1  12
+NIY  NN   .  N  0  ?  ?  ?  1  13
+NIY  O1   .  O  0  ?  ?  ?  1  14
+NIY  O2   .  O  0  ?  ?  ?  1  15
+NIY  OXT  .  O  0  ?  ?  ?  1  16
+NIY  H    .  H  0  ?  ?  ?  1  17
+NIY  HN2  .  H  0  ?  ?  ?  1  18
+NIY  HA   .  H  0  ?  ?  ?  1  19
+NIY  1HB  .  H  0  ?  ?  ?  0  20
+NIY  2HB  .  H  0  ?  ?  ?  0  21
+NIY  HD1  .  H  0  ?  ?  ?  1  22
+NIY  HD2  .  H  0  ?  ?  ?  1  23
+NIY  HE2  .  H  0  ?  ?  ?  1  24
+NIY  HH   .  H  0  ?  ?  ?  1  25
+NIY  HXT  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NIY  N    CA   SING  1 
+NIY  N    H    SING  2 
+NIY  N    HN2  SING  3 
+NIY  CA   C    SING  4 
+NIY  CA   CB   SING  5 
+NIY  CA   HA   SING  6 
+NIY  C    O    DOUB  7 
+NIY  C    OXT  SING  8 
+NIY  CB   CG   SING  9 
+NIY  CB   1HB  SING  10
+NIY  CB   2HB  SING  11
+NIY  CG   CD1  DOUB  12
+NIY  CG   CD2  SING  13
+NIY  CD1  CE1  SING  14
+NIY  CD1  HD1  SING  15
+NIY  CD2  CE2  DOUB  16
+NIY  CD2  HD2  SING  17
+NIY  CE1  CZ   DOUB  18
+NIY  CE1  NN   SING  19
+NIY  CE2  CZ   SING  20
+NIY  CE2  HE2  SING  21
+NIY  CZ   OH   SING  22
+NIY  OH   HH   SING  23
+NIY  NN   O1   DOUB  24
+NIY  NN   O2   DOUB  25
+NIY  OXT  HXT  SING  26
+#

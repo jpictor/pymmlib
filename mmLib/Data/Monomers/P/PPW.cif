@@ -1,0 +1,108 @@
+data_PPW
+#
+_chem_comp.id                       PPW
+_chem_comp.name                     7-DEAZA-8-AZA-2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            347.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPW  P     .  P  0  26.312  24.004  36.907  1  1 
+PPW  O1P   .  O  0  27.422  24.635  36.159  1  2 
+PPW  O2P   .  O  0  26.245  22.526  37.010  1  3 
+PPW  O5*   .  O  0  24.945  24.531  36.290  1  4 
+PPW  N9    .  N  0  20.938  24.093  34.050  1  5 
+PPW  C4    .  C  0  20.756  24.269  32.702  1  6 
+PPW  N3    .  N  0  20.685  25.457  32.067  1  7 
+PPW  C2    .  C  0  20.518  25.310  30.767  1  8 
+PPW  N2    .  N  0  20.427  26.391  29.987  1  9 
+PPW  N1    .  N  0  20.427  24.087  30.135  1  10
+PPW  C6    .  C  0  20.498  22.850  30.769  1  11
+PPW  O6    .  O  0  20.403  21.810  30.105  1  12
+PPW  C5    .  C  0  20.679  22.997  32.170  1  13
+PPW  N8    .  N  0  20.954  22.732  34.276  1  14
+PPW  C7    .  C  0  20.809  22.026  33.186  1  15
+PPW  C2*   .  C  0  20.583  24.833  36.415  1  16
+PPW  C5*   .  C  0  23.747  24.526  37.055  1  17
+PPW  C4*   .  C  0  22.820  25.612  36.565  1  18
+PPW  O4*   .  O  0  22.495  25.383  35.175  1  19
+PPW  C1*   .  C  0  21.102  25.158  35.029  1  20
+PPW  C3*   .  C  0  21.483  25.684  37.290  1  21
+PPW  O3*   .  O  0  21.039  27.042  37.288  1  22
+PPW  O3P   .  O  0  ?       ?       ?       1  23
+PPW  H3T   .  H  0  ?       ?       ?       1  24
+PPW  H3*   .  H  0  ?       ?       ?       1  25
+PPW  1H2*  .  H  0  ?       ?       ?       0  26
+PPW  2H2*  .  H  0  ?       ?       ?       0  27
+PPW  H1*   .  H  0  ?       ?       ?       1  28
+PPW  H4*   .  H  0  ?       ?       ?       1  29
+PPW  1H5*  .  H  0  ?       ?       ?       0  30
+PPW  2H5*  .  H  0  ?       ?       ?       0  31
+PPW  3HOP  .  H  0  ?       ?       ?       0  32
+PPW  2HOP  .  H  0  ?       ?       ?       0  33
+PPW  H7    .  H  0  ?       ?       ?       1  34
+PPW  1HN2  .  H  0  ?       ?       ?       0  35
+PPW  2HN2  .  H  0  ?       ?       ?       0  36
+PPW  HN1   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPW  P    O5*   SING  1 
+PPW  P    O1P   DOUB  2 
+PPW  P    O3P   SING  3 
+PPW  P    O2P   SING  4 
+PPW  O2P  2HOP  SING  5 
+PPW  O5*  C5*   SING  6 
+PPW  N9   C1*   SING  7 
+PPW  N9   N8    SING  8 
+PPW  N9   C4    SING  9 
+PPW  C4   C5    DOUB  10
+PPW  C4   N3    SING  11
+PPW  N3   C2    DOUB  12
+PPW  C2   N2    SING  13
+PPW  C2   N1    SING  14
+PPW  N2   1HN2  SING  15
+PPW  N2   2HN2  SING  16
+PPW  N1   HN1   SING  17
+PPW  N1   C6    SING  18
+PPW  C6   C5    SING  19
+PPW  C6   O6    DOUB  20
+PPW  C5   C7    SING  21
+PPW  N8   C7    DOUB  22
+PPW  C7   H7    SING  23
+PPW  C2*  C3*   SING  24
+PPW  C2*  1H2*  SING  25
+PPW  C2*  2H2*  SING  26
+PPW  C2*  C1*   SING  27
+PPW  C5*  C4*   SING  28
+PPW  C5*  1H5*  SING  29
+PPW  C5*  2H5*  SING  30
+PPW  C4*  O4*   SING  31
+PPW  C4*  C3*   SING  32
+PPW  C4*  H4*   SING  33
+PPW  O4*  C1*   SING  34
+PPW  C1*  H1*   SING  35
+PPW  C3*  O3*   SING  36
+PPW  C3*  H3*   SING  37
+PPW  O3*  H3T   SING  38
+PPW  O3P  3HOP  SING  39
+#

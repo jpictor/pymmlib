@@ -1,0 +1,129 @@
+data_LPF
+#
+_chem_comp.id                   LPF
+_chem_comp.name                 '1,1,1-TRIFLUORO-3-((N-ACETYL)-L-LEUCYLAMIDO)-4-PHENYL-BUTAN-2-ONE(N-ACETYL-L-LEUCYL-L-PHENYLALANYL TRIFLUOROMETHYL KETONE)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H23 N2 O3 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        372.387
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LPF  C1    .  C  0  ?  ?  ?  1  1 
+LPF  F11   .  F  0  ?  ?  ?  1  2 
+LPF  F12   .  F  0  ?  ?  ?  1  3 
+LPF  F13   .  F  0  ?  ?  ?  1  4 
+LPF  C2    .  C  0  ?  ?  ?  1  5 
+LPF  O2    .  O  0  ?  ?  ?  1  6 
+LPF  C3    .  C  0  ?  ?  ?  1  7 
+LPF  C4    .  C  0  ?  ?  ?  1  8 
+LPF  CP1   .  C  0  ?  ?  ?  1  9 
+LPF  CP2   .  C  0  ?  ?  ?  1  10
+LPF  CP3   .  C  0  ?  ?  ?  1  11
+LPF  CP4   .  C  0  ?  ?  ?  1  12
+LPF  CP5   .  C  0  ?  ?  ?  1  13
+LPF  CP6   .  C  0  ?  ?  ?  1  14
+LPF  N3    .  N  0  ?  ?  ?  1  15
+LPF  CN1   .  C  0  ?  ?  ?  1  16
+LPF  ON1   .  O  0  ?  ?  ?  1  17
+LPF  CN2   .  C  0  ?  ?  ?  1  18
+LPF  NL1   .  N  0  ?  ?  ?  1  19
+LPF  CL1   .  C  0  ?  ?  ?  1  20
+LPF  OL1   .  O  0  ?  ?  ?  1  21
+LPF  CL2   .  C  0  ?  ?  ?  1  22
+LPF  CA1   .  C  0  ?  ?  ?  1  23
+LPF  CA2   .  C  0  ?  ?  ?  1  24
+LPF  CA3   .  C  0  ?  ?  ?  1  25
+LPF  CA4   .  C  0  ?  ?  ?  1  26
+LPF  H3    .  H  0  ?  ?  ?  1  27
+LPF  1H4   .  H  0  ?  ?  ?  0  28
+LPF  2H4   .  H  0  ?  ?  ?  0  29
+LPF  HP2   .  H  0  ?  ?  ?  1  30
+LPF  HP3   .  H  0  ?  ?  ?  1  31
+LPF  HP4   .  H  0  ?  ?  ?  1  32
+LPF  HP5   .  H  0  ?  ?  ?  1  33
+LPF  HP6   .  H  0  ?  ?  ?  1  34
+LPF  HN3   .  H  0  ?  ?  ?  1  35
+LPF  HN2   .  H  0  ?  ?  ?  1  36
+LPF  HL1   .  H  0  ?  ?  ?  1  37
+LPF  1HL2  .  H  0  ?  ?  ?  0  38
+LPF  2HL2  .  H  0  ?  ?  ?  0  39
+LPF  3HL2  .  H  0  ?  ?  ?  0  40
+LPF  1HA1  .  H  0  ?  ?  ?  0  41
+LPF  2HA1  .  H  0  ?  ?  ?  0  42
+LPF  HA2   .  H  0  ?  ?  ?  1  43
+LPF  1HA3  .  H  0  ?  ?  ?  0  44
+LPF  2HA3  .  H  0  ?  ?  ?  0  45
+LPF  3HA3  .  H  0  ?  ?  ?  0  46
+LPF  1HA4  .  H  0  ?  ?  ?  0  47
+LPF  2HA4  .  H  0  ?  ?  ?  0  48
+LPF  3HA4  .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LPF  C1   F11   SING  1 
+LPF  C1   F12   SING  2 
+LPF  C1   F13   SING  3 
+LPF  C1   C2    SING  4 
+LPF  C2   O2    DOUB  5 
+LPF  C2   C3    SING  6 
+LPF  C3   C4    SING  7 
+LPF  C3   N3    SING  8 
+LPF  C3   H3    SING  9 
+LPF  C4   CP1   SING  10
+LPF  C4   1H4   SING  11
+LPF  C4   2H4   SING  12
+LPF  CP1  CP2   DOUB  13
+LPF  CP1  CP6   SING  14
+LPF  CP2  CP3   SING  15
+LPF  CP2  HP2   SING  16
+LPF  CP3  CP4   DOUB  17
+LPF  CP3  HP3   SING  18
+LPF  CP4  CP5   SING  19
+LPF  CP4  HP4   SING  20
+LPF  CP5  CP6   DOUB  21
+LPF  CP5  HP5   SING  22
+LPF  CP6  HP6   SING  23
+LPF  N3   CN1   SING  24
+LPF  N3   HN3   SING  25
+LPF  CN1  ON1   DOUB  26
+LPF  CN1  CN2   SING  27
+LPF  CN2  NL1   SING  28
+LPF  CN2  CA1   SING  29
+LPF  CN2  HN2   SING  30
+LPF  NL1  CL1   SING  31
+LPF  NL1  HL1   SING  32
+LPF  CL1  OL1   DOUB  33
+LPF  CL1  CL2   SING  34
+LPF  CL2  1HL2  SING  35
+LPF  CL2  2HL2  SING  36
+LPF  CL2  3HL2  SING  37
+LPF  CA1  CA2   SING  38
+LPF  CA1  1HA1  SING  39
+LPF  CA1  2HA1  SING  40
+LPF  CA2  CA3   SING  41
+LPF  CA2  CA4   SING  42
+LPF  CA2  HA2   SING  43
+LPF  CA3  1HA3  SING  44
+LPF  CA3  2HA3  SING  45
+LPF  CA3  3HA3  SING  46
+LPF  CA4  1HA4  SING  47
+LPF  CA4  2HA4  SING  48
+LPF  CA4  3HA4  SING  49
+#

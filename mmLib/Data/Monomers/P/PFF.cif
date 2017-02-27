@@ -1,0 +1,78 @@
+data_PFF
+#
+_chem_comp.id                       PFF
+_chem_comp.name                     4-FLUORO-L-PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H10 N1 O2 F1'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            183.182
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PFF  N     .  N  0  46.465  27.89   1.389   1  1 
+PFF  CA    .  C  0  47.091  29.119  .91     1  2 
+PFF  C     .  C  0  48.578  29.095  1.054   1  3 
+PFF  O     .  O  0  49.223  30.13   1.065   1  4 
+PFF  OXT   .  O  0  ?       ?       ?       1  5 
+PFF  CB    .  C  0  46.628  30.322  1.695   1  6 
+PFF  CG    .  C  0  45.398  31.033  1.284   1  7 
+PFF  CD1   .  C  0  44.257  30.753  2.015   1  8 
+PFF  CD2   .  C  0  45.27   31.304  -.071   1  9 
+PFF  CE1   .  C  0  43.027  30.643  1.38    1  10
+PFF  CE2   .  C  0  44.037  31.227  -.706   1  11
+PFF  CZ    .  C  0  42.906  30.905  .023    1  12
+PFF  F     .  F  0  41.702  30.837  -.574   1  13
+PFF  1HN   .  H  0  45.44   27.989  1.351   0  14
+PFF  2HN   .  H  0  46.757  27.102  .794    0  15
+PFF  HA    .  H  0  46.8    29.187  -.149   1  16
+PFF  1HBC  .  H  0  46.472  29.987  2.731   0  17
+PFF  2HBC  .  H  0  47.423  31.063  1.523   0  18
+PFF  HD1   .  H  0  44.322  30.622  3.066   1  19
+PFF  HD2   .  H  0  46.129  31.575  -.632   1  20
+PFF  HE1   .  H  0  42.171  30.356  1.938   1  21
+PFF  HE2   .  H  0  43.963  31.415  -1.748  1  22
+PFF  HXT   .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PFF  N    CA    SING  1 
+PFF  N    1HN   SING  2 
+PFF  N    2HN   SING  3 
+PFF  CA   C     SING  4 
+PFF  CA   CB    SING  5 
+PFF  CA   HA    SING  6 
+PFF  C    O     DOUB  7 
+PFF  C    OXT   SING  8 
+PFF  OXT  HXT   SING  9 
+PFF  CB   CG    SING  10
+PFF  CB   1HBC  SING  11
+PFF  CB   2HBC  SING  12
+PFF  CG   CD1   AROM  13
+PFF  CG   CD2   AROM  14
+PFF  CD1  CE1   AROM  15
+PFF  CD1  HD1   SING  16
+PFF  CD2  CE2   AROM  17
+PFF  CD2  HD2   SING  18
+PFF  CE1  CZ    AROM  19
+PFF  CE1  HE1   SING  20
+PFF  CE2  CZ    AROM  21
+PFF  CE2  HE2   SING  22
+PFF  CZ   F     SING  23
+#

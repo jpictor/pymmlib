@@ -1,0 +1,113 @@
+data_MFC
+#
+_chem_comp.id                       MFC
+_chem_comp.name                     5-[1-(3-FLUORO-4-HYDROXY-PHENYL)-METH-(Z)-YLIDENE]-3,5-DIHYDRO-IMIDAZOL-4-ONE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H16 N3 O5 F1'
+_chem_comp.mon_nstd_parent_comp_id  'GLY, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            337.307
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MFC  N     .  N  0  23.668  27.325  36.707  1  1 
+MFC  CA1   .  C  0  24.535  26.214  37.186  1  2 
+MFC  CB1   .  C  0  25.535  25.826  36.010  1  3 
+MFC  CG1   .  C  0  24.832  25.226  34.817  1  4 
+MFC  OG1   .  O  0  26.213  27.016  35.583  1  5 
+MFC  C1    .  C  0  25.115  26.739  38.297  1  6 
+MFC  N2    .  N  0  26.382  27.344  38.319  1  7 
+MFC  N3    .  N  0  24.610  26.817  39.559  1  8 
+MFC  C2    .  C  0  25.508  27.430  40.442  1  9 
+MFC  O2    .  O  0  25.373  27.629  41.562  1  10
+MFC  CA2   .  C  0  26.631  27.786  39.616  1  11
+MFC  CA3   .  C  0  23.248  26.322  39.887  1  12
+MFC  C     .  C  0  23.018  25.106  40.508  1  13
+MFC  O     .  O  0  21.950  24.677  41.214  1  14
+MFC  CB2   .  C  0  27.782  28.511  40.052  1  15
+MFC  CG2   .  C  0  28.920  28.942  39.250  1  16
+MFC  CD1   .  C  0  29.068  28.634  37.848  1  17
+MFC  CD2   .  C  0  29.985  29.789  39.922  1  18
+MFC  CE1   .  C  0  30.243  29.139  37.115  1  19
+MFC  CE2   .  C  0  31.135  30.293  39.201  1  20
+MFC  F     .  F  0  32.077  31.064  39.864  1  21
+MFC  CZ    .  C  0  31.277  29.984  37.829  1  22
+MFC  OH    .  O  0  32.295  30.423  37.185  1  23
+MFC  OXT   .  O  0  ?       ?       ?       1  24
+MFC  HXT   .  H  0  ?       ?       ?       1  25
+MFC  1HA3  .  H  0  ?       ?       ?       0  26
+MFC  2HA3  .  H  0  ?       ?       ?       0  27
+MFC  H     .  H  0  ?       ?       ?       1  28
+MFC  HN2   .  H  0  ?       ?       ?       1  29
+MFC  HA1   .  H  0  ?       ?       ?       1  30
+MFC  HB1   .  H  0  ?       ?       ?       1  31
+MFC  HG1   .  H  0  ?       ?       ?       1  32
+MFC  1HG1  .  H  0  ?       ?       ?       0  33
+MFC  2HG1  .  H  0  ?       ?       ?       0  34
+MFC  3HG1  .  H  0  ?       ?       ?       0  35
+MFC  HB2   .  H  0  ?       ?       ?       1  36
+MFC  HD1   .  H  0  ?       ?       ?       1  37
+MFC  HD2   .  H  0  ?       ?       ?       1  38
+MFC  HE1   .  H  0  ?       ?       ?       1  39
+MFC  HOH   .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MFC  N    CA1   SING  1 
+MFC  N    H     SING  2 
+MFC  N    HN2   SING  3 
+MFC  CA1  CB1   SING  4 
+MFC  CA1  C1    SING  5 
+MFC  CA1  HA1   SING  6 
+MFC  CB1  CG1   SING  7 
+MFC  CB1  OG1   SING  8 
+MFC  CB1  HB1   SING  9 
+MFC  CG1  1HG1  SING  10
+MFC  CG1  2HG1  SING  11
+MFC  CG1  3HG1  SING  12
+MFC  OG1  HG1   SING  13
+MFC  C1   N2    DOUB  14
+MFC  C1   N3    SING  15
+MFC  N2   CA2   SING  16
+MFC  N3   C2    SING  17
+MFC  N3   CA3   SING  18
+MFC  C2   O2    DOUB  19
+MFC  C2   CA2   SING  20
+MFC  CA2  CB2   DOUB  21
+MFC  CA3  C     SING  22
+MFC  CA3  1HA3  SING  23
+MFC  CA3  2HA3  SING  24
+MFC  C    O     DOUB  25
+MFC  C    OXT   SING  26
+MFC  CB2  CG2   SING  27
+MFC  CB2  HB2   SING  28
+MFC  CG2  CD1   DOUB  29
+MFC  CG2  CD2   SING  30
+MFC  CD1  CE1   SING  31
+MFC  CD1  HD1   SING  32
+MFC  CD2  CE2   DOUB  33
+MFC  CD2  HD2   SING  34
+MFC  CE1  CZ    DOUB  35
+MFC  CE1  HE1   SING  36
+MFC  CE2  F     SING  37
+MFC  CE2  CZ    SING  38
+MFC  CZ   OH    SING  39
+MFC  OH   HOH   SING  40
+MFC  OXT  HXT   SING  41
+#

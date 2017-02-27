@@ -1,0 +1,100 @@
+data_PCB
+#
+_chem_comp.id                   PCB
+_chem_comp.name                 4,4'-BIS([H]METHYLSULFONYL)-2,2',5,5'-TETRACHLOROBIPHENYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10 O4 CL4 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        448.163
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCB  C1    .  C   0  ?  ?  ?  1  1 
+PCB  C2    .  C   0  ?  ?  ?  1  2 
+PCB  CL2   .  CL  0  ?  ?  ?  0  3 
+PCB  C3    .  C   0  ?  ?  ?  1  4 
+PCB  C4    .  C   0  ?  ?  ?  1  5 
+PCB  C5    .  C   0  ?  ?  ?  1  6 
+PCB  CL5   .  CL  0  ?  ?  ?  0  7 
+PCB  C6    .  C   0  ?  ?  ?  1  8 
+PCB  S     .  S   0  ?  ?  ?  1  9 
+PCB  O1    .  O   0  ?  ?  ?  1  10
+PCB  O2    .  O   0  ?  ?  ?  1  11
+PCB  CM    .  C   0  ?  ?  ?  1  12
+PCB  C1'   .  C   0  ?  ?  ?  1  13
+PCB  C2'   .  C   0  ?  ?  ?  1  14
+PCB  CL2'  .  CL  0  ?  ?  ?  0  15
+PCB  C3'   .  C   0  ?  ?  ?  1  16
+PCB  C4'   .  C   0  ?  ?  ?  1  17
+PCB  C5'   .  C   0  ?  ?  ?  1  18
+PCB  CL5'  .  CL  0  ?  ?  ?  0  19
+PCB  C6'   .  C   0  ?  ?  ?  1  20
+PCB  S'    .  S   0  ?  ?  ?  1  21
+PCB  O1'   .  O   0  ?  ?  ?  1  22
+PCB  O2'   .  O   0  ?  ?  ?  1  23
+PCB  CM'   .  C   0  ?  ?  ?  1  24
+PCB  H3    .  H   0  ?  ?  ?  1  25
+PCB  H6    .  H   0  ?  ?  ?  1  26
+PCB  1HM   .  H   0  ?  ?  ?  0  27
+PCB  2HM   .  H   0  ?  ?  ?  0  28
+PCB  3HM   .  H   0  ?  ?  ?  0  29
+PCB  H3'   .  H   0  ?  ?  ?  1  30
+PCB  H6'   .  H   0  ?  ?  ?  1  31
+PCB  1HM'  .  H   0  ?  ?  ?  0  32
+PCB  2HM'  .  H   0  ?  ?  ?  0  33
+PCB  3HM'  .  H   0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCB  C1   C2    DOUB  1 
+PCB  C1   C6    SING  2 
+PCB  C1   C1'   SING  3 
+PCB  C2   C3    SING  4 
+PCB  C2   CL2   SING  5 
+PCB  C3   C4    DOUB  6 
+PCB  C3   H3    SING  7 
+PCB  C4   C5    SING  8 
+PCB  C4   S     SING  9 
+PCB  C5   C6    DOUB  10
+PCB  C5   CL5   SING  11
+PCB  C6   H6    SING  12
+PCB  S    CM    SING  13
+PCB  S    O1    DOUB  14
+PCB  S    O2    DOUB  15
+PCB  CM   1HM   SING  16
+PCB  CM   2HM   SING  17
+PCB  CM   3HM   SING  18
+PCB  C1'  C2'   DOUB  19
+PCB  C1'  C6'   SING  20
+PCB  C2'  C3'   SING  21
+PCB  C2'  CL2'  SING  22
+PCB  C3'  C4'   DOUB  23
+PCB  C3'  H3'   SING  24
+PCB  C4'  C5'   SING  25
+PCB  C4'  S'    SING  26
+PCB  C5'  C6'   DOUB  27
+PCB  C5'  CL5'  SING  28
+PCB  C6'  H6'   SING  29
+PCB  S'   CM'   SING  30
+PCB  S'   O1'   DOUB  31
+PCB  S'   O2'   DOUB  32
+PCB  CM'  1HM'  SING  33
+PCB  CM'  2HM'  SING  34
+PCB  CM'  3HM'  SING  35
+#

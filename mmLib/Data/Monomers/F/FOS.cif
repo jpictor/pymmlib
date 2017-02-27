@@ -1,0 +1,87 @@
+data_FOS
+#
+_chem_comp.id                   FOS
+_chem_comp.name                 [[N-(BENZYLOXYCARBONYL)AMINO]METHYL]PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N1 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        245.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOS  C1    .  C  0  ?  ?  ?  1  1 
+FOS  C2    .  C  0  ?  ?  ?  1  2 
+FOS  C3    .  C  0  ?  ?  ?  1  3 
+FOS  C4    .  C  0  ?  ?  ?  1  4 
+FOS  C5    .  C  0  ?  ?  ?  1  5 
+FOS  C6    .  C  0  ?  ?  ?  1  6 
+FOS  C     .  C  0  ?  ?  ?  1  7 
+FOS  O     .  O  0  ?  ?  ?  1  8 
+FOS  C'    .  C  0  ?  ?  ?  1  9 
+FOS  O'    .  O  0  ?  ?  ?  1  10
+FOS  N     .  N  0  ?  ?  ?  1  11
+FOS  CM    .  C  0  ?  ?  ?  1  12
+FOS  P     .  P  0  ?  ?  ?  1  13
+FOS  O1P   .  O  0  ?  ?  ?  1  14
+FOS  O2P   .  O  0  ?  ?  ?  1  15
+FOS  O3P   .  O  0  ?  ?  ?  1  16
+FOS  H2    .  H  0  ?  ?  ?  1  17
+FOS  H3    .  H  0  ?  ?  ?  1  18
+FOS  H4    .  H  0  ?  ?  ?  1  19
+FOS  H5    .  H  0  ?  ?  ?  1  20
+FOS  H6    .  H  0  ?  ?  ?  1  21
+FOS  1H    .  H  0  ?  ?  ?  0  22
+FOS  2H    .  H  0  ?  ?  ?  0  23
+FOS  HN    .  H  0  ?  ?  ?  1  24
+FOS  1HM   .  H  0  ?  ?  ?  0  25
+FOS  2HM   .  H  0  ?  ?  ?  0  26
+FOS  2HOP  .  H  0  ?  ?  ?  0  27
+FOS  3HOP  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOS  C1   C2    DOUB  1 
+FOS  C1   C6    SING  2 
+FOS  C1   C     SING  3 
+FOS  C2   C3    SING  4 
+FOS  C2   H2    SING  5 
+FOS  C3   C4    DOUB  6 
+FOS  C3   H3    SING  7 
+FOS  C4   C5    SING  8 
+FOS  C4   H4    SING  9 
+FOS  C5   C6    DOUB  10
+FOS  C5   H5    SING  11
+FOS  C6   H6    SING  12
+FOS  C    O     SING  13
+FOS  C    1H    SING  14
+FOS  C    2H    SING  15
+FOS  O    C'    SING  16
+FOS  C'   O'    DOUB  17
+FOS  C'   N     SING  18
+FOS  N    CM    SING  19
+FOS  N    HN    SING  20
+FOS  CM   P     SING  21
+FOS  CM   1HM   SING  22
+FOS  CM   2HM   SING  23
+FOS  P    O1P   DOUB  24
+FOS  P    O2P   SING  25
+FOS  P    O3P   SING  26
+FOS  O2P  2HOP  SING  27
+FOS  O3P  3HOP  SING  28
+#

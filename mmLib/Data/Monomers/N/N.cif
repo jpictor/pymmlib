@@ -1,0 +1,79 @@
+data_N
+#
+_chem_comp.id                   N
+_chem_comp.name                 'ANY 5'-MONOPHOSPHATE NUCLEOTIDE'
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C5 H11 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+N  O3P   .  O  0  ?  ?  ?  1  1 
+N  P     .  P  0  ?  ?  ?  1  2 
+N  O1P   .  O  0  ?  ?  ?  1  3 
+N  O2P   .  O  0  ?  ?  ?  1  4 
+N  O5*   .  O  0  ?  ?  ?  1  5 
+N  C5*   .  C  0  ?  ?  ?  1  6 
+N  C4*   .  C  0  ?  ?  ?  1  7 
+N  O4*   .  O  0  ?  ?  ?  1  8 
+N  C3*   .  C  0  ?  ?  ?  1  9 
+N  O3*   .  O  0  ?  ?  ?  1  10
+N  C2*   .  C  0  ?  ?  ?  1  11
+N  O2*   .  O  0  ?  ?  ?  1  12
+N  C1*   .  C  0  ?  ?  ?  1  13
+N  3HOP  .  H  0  ?  ?  ?  0  14
+N  2HOP  .  H  0  ?  ?  ?  0  15
+N  1H5*  .  H  0  ?  ?  ?  0  16
+N  2H5*  .  H  0  ?  ?  ?  0  17
+N  H4*   .  H  0  ?  ?  ?  1  18
+N  H3*   .  H  0  ?  ?  ?  1  19
+N  H2*   .  H  0  ?  ?  ?  1  20
+N  2HO*  .  H  0  ?  ?  ?  0  21
+N  H1*   .  H  0  ?  ?  ?  1  22
+N  2H1*  .  H  0  ?  ?  ?  0  23
+N  H3T   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+N  O3P  P     SING  1 
+N  O3P  3HOP  SING  2 
+N  P    O1P   DOUB  3 
+N  P    O2P   SING  4 
+N  P    O5*   SING  5 
+N  O2P  2HOP  SING  6 
+N  O5*  C5*   SING  7 
+N  C5*  C4*   SING  8 
+N  C5*  1H5*  SING  9 
+N  C5*  2H5*  SING  10
+N  C4*  O4*   SING  11
+N  C4*  C3*   SING  12
+N  C4*  H4*   SING  13
+N  O4*  C1*   SING  14
+N  C3*  O3*   SING  15
+N  C3*  C2*   SING  16
+N  C3*  H3*   SING  17
+N  O3*  H3T   SING  18
+N  C2*  O2*   SING  19
+N  C2*  C1*   SING  20
+N  C2*  H2*   SING  21
+N  O2*  2HO*  SING  22
+N  C1*  H1*   SING  23
+N  C1*  2H1*  SING  24
+#

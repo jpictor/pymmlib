@@ -1,0 +1,67 @@
+data_COU
+#
+_chem_comp.id                   COU
+_chem_comp.name                 COUMARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H6 O2'
+_chem_comp.pdbx_synonyms        2H-1-BENZOPYRAN-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        146.145
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COU  C1  .  C  0  65.304  77.585  99.518   1  1 
+COU  C2  .  C  0  65.173  76.145  99.401   1  2 
+COU  C3  .  C  0  66.144  75.301  99.828   1  3 
+COU  C4  .  C  0  67.387  75.799  100.432  1  4 
+COU  C5  .  C  0  68.452  74.974  100.908  1  5 
+COU  C6  .  C  0  69.606  75.534  101.475  1  6 
+COU  C7  .  C  0  69.726  76.959  101.582  1  7 
+COU  C8  .  C  0  68.683  77.799  101.114  1  8 
+COU  C9  .  C  0  67.519  77.211  100.544  1  9 
+COU  O1  .  O  0  64.473  78.402  99.162   1  10
+COU  O2  .  O  0  66.486  78.077  100.090  1  11
+COU  H7  .  H  0  ?       ?       ?        1  12
+COU  H8  .  H  0  ?       ?       ?        1  13
+COU  H5  .  H  0  ?       ?       ?        1  14
+COU  H6  .  H  0  ?       ?       ?        1  15
+COU  H3  .  H  0  ?       ?       ?        1  16
+COU  H2  .  H  0  ?       ?       ?        1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COU  C1  C2  SING  1 
+COU  C1  O1  DOUB  2 
+COU  C1  O2  SING  3 
+COU  C2  C3  DOUB  4 
+COU  C2  H2  SING  5 
+COU  C3  C4  SING  6 
+COU  C3  H3  SING  7 
+COU  C4  C9  AROM  8 
+COU  C4  C5  AROM  9 
+COU  C5  H5  SING  10
+COU  C5  C6  AROM  11
+COU  C6  C7  AROM  12
+COU  C6  H6  SING  13
+COU  C7  H7  SING  14
+COU  C7  C8  AROM  15
+COU  C8  H8  SING  16
+COU  C8  C9  AROM  17
+COU  C9  O2  SING  18
+#

@@ -1,0 +1,95 @@
+data_CLC
+#
+_chem_comp.id                   CLC
+_chem_comp.name                 N-ACETYL-P-NITROPHENYLSERINOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.242
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLC  O1    .  O  0  12.085  52.545  31.266  1  1 
+CLC  O2    .  O  0  12.54   49.452  33.656  1  2 
+CLC  N2    .  N  0  12.487  52.174  33.53   1  3 
+CLC  O4    .  O  0  16.165  51.722  33.759  1  4 
+CLC  C11   .  C  0  11.792  52.6    32.446  1  5 
+CLC  C12   .  C  0  10.404  53.262  32.871  1  6 
+CLC  C21   .  C  0  13.679  50.185  34.23   1  7 
+CLC  C50   .  C  0  14.968  52.456  33.987  1  8 
+CLC  C22   .  C  0  13.796  51.522  33.474  1  9 
+CLC  C1    .  C  0  14.911  52.715  35.512  1  10
+CLC  C2    .  C  0  13.873  53.668  36.003  1  11
+CLC  C3    .  C  0  13.764  53.961  37.374  1  12
+CLC  C4    .  C  0  14.632  53.348  38.25   1  13
+CLC  C5    .  C  0  15.674  52.409  37.833  1  14
+CLC  C6    .  C  0  15.789  52.111  36.459  1  15
+CLC  N4    .  N  0  14.617  53.578  39.726  1  16
+CLC  O5    .  O  0  14.971  52.638  40.449  1  17
+CLC  O6    .  O  0  14.27   54.646  40.136  1  18
+CLC  1H12  .  H  0  10.136  53.312  33.952  0  19
+CLC  2H12  .  H  0  9.58    52.751  32.321  0  20
+CLC  3H12  .  H  0  10.35   54.289  32.44   0  21
+CLC  H2    .  H  0  12.068  52.318  34.449  1  22
+CLC  H22   .  H  0  14.004  51.283  32.405  1  23
+CLC  1H21  .  H  0  13.6    50.315  35.335  0  24
+CLC  2H21  .  H  0  14.625  49.595  34.22   0  25
+CLC  H50   .  H  0  14.981  53.418  33.424  1  26
+CLC  HA    .  H  0  12.468  48.627  34.122  1  27
+CLC  H4    .  H  0  16.868  52.282  34.067  1  28
+CLC  HB    .  H  0  13.186  54.146  35.285  1  29
+CLC  H6    .  H  0  16.564  51.405  36.115  1  30
+CLC  H3    .  H  0  13      54.667  37.74   1  31
+CLC  H5    .  H  0  16.35   51.947  38.572  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLC  O1   C11   DOUB  1 
+CLC  O2   HA    SING  2 
+CLC  O2   C21   SING  3 
+CLC  N2   C22   SING  4 
+CLC  N2   H2    SING  5 
+CLC  N2   C11   SING  6 
+CLC  O4   H4    SING  7 
+CLC  O4   C50   SING  8 
+CLC  C11  C12   SING  9 
+CLC  C12  1H12  SING  10
+CLC  C12  2H12  SING  11
+CLC  C12  3H12  SING  12
+CLC  C21  1H21  SING  13
+CLC  C21  2H21  SING  14
+CLC  C21  C22   SING  15
+CLC  C50  C1    SING  16
+CLC  C50  H50   SING  17
+CLC  C50  C22   SING  18
+CLC  C22  H22   SING  19
+CLC  C1   C2    AROM  20
+CLC  C1   C6    AROM  21
+CLC  C2   C3    AROM  22
+CLC  C2   HB    SING  23
+CLC  C3   C4    AROM  24
+CLC  C3   H3    SING  25
+CLC  C4   N4    SING  26
+CLC  C4   C5    AROM  27
+CLC  C5   C6    AROM  28
+CLC  C5   H5    SING  29
+CLC  C6   H6    SING  30
+CLC  N4   O6    DOUB  31
+CLC  N4   O5    DOUB  32
+#

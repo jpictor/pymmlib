@@ -1,0 +1,94 @@
+data_MHB
+#
+_chem_comp.id                   MHB
+_chem_comp.name                 '2-((3'-METHYL-4'-HYDROXYPHENYL)AZO)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        256.260
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MHB  C1    .  C  0  ?  ?  ?  1  1 
+MHB  C2    .  C  0  ?  ?  ?  1  2 
+MHB  C3    .  C  0  ?  ?  ?  1  3 
+MHB  C4    .  C  0  ?  ?  ?  1  4 
+MHB  C5    .  C  0  ?  ?  ?  1  5 
+MHB  C6    .  C  0  ?  ?  ?  1  6 
+MHB  C1'   .  C  0  ?  ?  ?  1  7 
+MHB  C2'   .  C  0  ?  ?  ?  1  8 
+MHB  C3'   .  C  0  ?  ?  ?  1  9 
+MHB  C4'   .  C  0  ?  ?  ?  1  10
+MHB  C5'   .  C  0  ?  ?  ?  1  11
+MHB  C6'   .  C  0  ?  ?  ?  1  12
+MHB  C     .  C  0  ?  ?  ?  1  13
+MHB  CM3   .  C  0  ?  ?  ?  1  14
+MHB  N1    .  N  0  ?  ?  ?  1  15
+MHB  N1'   .  N  0  ?  ?  ?  1  16
+MHB  O     .  O  0  ?  ?  ?  1  17
+MHB  OXT   .  O  0  ?  ?  ?  1  18
+MHB  O4'   .  O  0  ?  ?  ?  1  19
+MHB  H3    .  H  0  ?  ?  ?  1  20
+MHB  H4    .  H  0  ?  ?  ?  1  21
+MHB  H5    .  H  0  ?  ?  ?  1  22
+MHB  H6    .  H  0  ?  ?  ?  1  23
+MHB  H2'   .  H  0  ?  ?  ?  1  24
+MHB  H5'   .  H  0  ?  ?  ?  1  25
+MHB  H6'   .  H  0  ?  ?  ?  1  26
+MHB  1HM3  .  H  0  ?  ?  ?  0  27
+MHB  2HM3  .  H  0  ?  ?  ?  0  28
+MHB  3HM3  .  H  0  ?  ?  ?  0  29
+MHB  HXT   .  H  0  ?  ?  ?  1  30
+MHB  'HO4  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MHB  C1   C2    SING  1 
+MHB  C1   C6    DOUB  2 
+MHB  C1   N1    SING  3 
+MHB  C2   C3    DOUB  4 
+MHB  C2   C     SING  5 
+MHB  C3   C4    SING  6 
+MHB  C3   H3    SING  7 
+MHB  C4   C5    DOUB  8 
+MHB  C4   H4    SING  9 
+MHB  C5   C6    SING  10
+MHB  C5   H5    SING  11
+MHB  C6   H6    SING  12
+MHB  C1'  C2'   SING  13
+MHB  C1'  C6'   DOUB  14
+MHB  C1'  N1'   SING  15
+MHB  C2'  C3'   DOUB  16
+MHB  C2'  H2'   SING  17
+MHB  C3'  C4'   SING  18
+MHB  C3'  CM3   SING  19
+MHB  C4'  C5'   DOUB  20
+MHB  C4'  O4'   SING  21
+MHB  C5'  C6'   SING  22
+MHB  C5'  H5'   SING  23
+MHB  C6'  H6'   SING  24
+MHB  C    O     DOUB  25
+MHB  C    OXT   SING  26
+MHB  CM3  1HM3  SING  27
+MHB  CM3  2HM3  SING  28
+MHB  CM3  3HM3  SING  29
+MHB  N1   N1'   DOUB  30
+MHB  OXT  HXT   SING  31
+MHB  O4'  'HO4  SING  32
+#

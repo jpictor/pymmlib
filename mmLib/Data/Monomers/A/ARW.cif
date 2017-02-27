@@ -1,0 +1,77 @@
+data_ARW
+#
+_chem_comp.id                   ARW
+_chem_comp.name                 'METHYL BETA-D-ARABINOPYRANOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARW  C1    .  C  0  22.452  22.43   30.097  1  1 
+ARW  C2    .  C  0  21.708  23.171  28.983  1  2 
+ARW  C3    .  C  0  20.78   22.186  28.266  1  3 
+ARW  C4    .  C  0  19.81   21.55   29.253  1  4 
+ARW  C5    .  C  0  20.51   20.963  30.476  1  5 
+ARW  O1    .  O  0  23.291  21.452  29.469  1  6 
+ARW  O2    .  O  0  22.618  23.793  28.05   1  7 
+ARW  O3    .  O  0  20.01   22.931  27.299  1  8 
+ARW  O4    .  O  0  18.912  22.567  29.717  1  9 
+ARW  O5    .  O  0  21.468  21.892  31.014  1  10
+ARW  CM    .  C  0  24.19   20.799  30.38   1  11
+ARW  H2    .  H  0  22.156  24.253  27.359  1  12
+ARW  HA    .  H  0  21.082  23.968  29.448  1  13
+ARW  H1    .  H  0  23.095  23.157  30.645  1  14
+ARW  H3    .  H  0  21.379  21.397  27.754  1  15
+ARW  1HMC  .  H  0  24.843  20.038  29.892  0  16
+ARW  2HMC  .  H  0  23.63   20.35   31.233  0  17
+ARW  3HMC  .  H  0  24.803  21.548  30.934  0  18
+ARW  HB    .  H  0  19.434  22.32   26.854  1  19
+ARW  H4    .  H  0  19.229  20.749  28.738  1  20
+ARW  HC    .  H  0  18.307  22.17   30.333  1  21
+ARW  1H5C  .  H  0  19.779  20.631  31.25   0  22
+ARW  2H5C  .  H  0  20.976  19.976  30.25   0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARW  C1  C2    SING  1 
+ARW  C1  O1    SING  2 
+ARW  C1  O5    SING  3 
+ARW  C1  H1    SING  4 
+ARW  C2  O2    SING  5 
+ARW  C2  C3    SING  6 
+ARW  C2  HA    SING  7 
+ARW  C3  O3    SING  8 
+ARW  C3  C4    SING  9 
+ARW  C3  H3    SING  10
+ARW  C4  O4    SING  11
+ARW  C4  C5    SING  12
+ARW  C4  H4    SING  13
+ARW  C5  O5    SING  14
+ARW  C5  1H5C  SING  15
+ARW  C5  2H5C  SING  16
+ARW  O1  CM    SING  17
+ARW  O2  H2    SING  18
+ARW  O3  HB    SING  19
+ARW  O4  HC    SING  20
+ARW  CM  1HMC  SING  21
+ARW  CM  2HMC  SING  22
+ARW  CM  3HMC  SING  23
+#

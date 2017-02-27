@@ -1,0 +1,114 @@
+data_G33
+#
+_chem_comp.id                       G33
+_chem_comp.name                     '8-METHYL-2'-DEOXYGUANOSINE 3'-MONOPHOSPHATE'
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            361.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G33  O3P   .  O  0  13.446  9.073   24.734  1  1 
+G33  P     .  P  0  13.108  9.649   26.055  1  2 
+G33  O1P   .  O  0  11.689  9.822   26.446  1  3 
+G33  O2P   .  O  0  13.847  11.069  26.195  1  4 
+G33  O5*   .  O  0  13.841  8.792   27.190  1  5 
+G33  C5*   .  C  0  13.560  9.059   28.564  1  6 
+G33  C4*   .  C  0  14.526  8.304   29.457  1  7 
+G33  O4*   .  O  0  15.887  8.672   29.193  1  8 
+G33  C3*   .  C  0  14.255  8.589   30.929  1  9 
+G33  O3*   .  O  0  13.305  7.649   31.462  1  10
+G33  C2*   .  C  0  15.631  8.370   31.532  1  11
+G33  C1*   .  C  0  16.632  8.698   30.419  1  12
+G33  N9    .  N  0  17.374  9.970   30.517  1  13
+G33  C8    .  C  0  18.724  10.167  30.670  1  14
+G33  N7    .  N  0  19.102  11.407  30.615  1  15
+G33  C5    .  C  0  17.908  12.099  30.439  1  16
+G33  C6    .  C  0  17.687  13.492  30.306  1  17
+G33  O6    .  O  0  18.522  14.395  30.305  1  18
+G33  N1    .  N  0  16.342  13.780  30.165  1  19
+G33  C2    .  C  0  15.325  12.848  30.165  1  20
+G33  N2    .  N  0  14.092  13.325  30.007  1  21
+G33  N3    .  N  0  15.525  11.535  30.303  1  22
+G33  C4    .  C  0  16.841  11.234  30.426  1  23
+G33  C8M   .  C  0  19.733  9.038   30.890  1  24
+G33  1H5*  .  H  0  12.536  8.746   28.764  0  25
+G33  2H5*  .  H  0  13.628  10.124  28.779  0  26
+G33  H4*   .  H  0  14.401  7.258   29.218  1  27
+G33  H3*   .  H  0  13.972  9.635   31.033  1  28
+G33  1H2*  .  H  0  15.771  8.957   32.443  0  29
+G33  2H2*  .  H  0  15.687  7.308   31.791  0  30
+G33  H1*   .  H  0  17.373  7.901   30.373  1  31
+G33  H1    .  H  0  16.109  14.754  30.050  1  32
+G33  1H2   .  H  0  13.313  12.686  29.920  0  33
+G33  2H2   .  H  0  13.953  14.328  29.989  0  34
+G33  1H8M  .  H  0  19.709  8.344   30.050  0  35
+G33  2H8M  .  H  0  19.503  8.503   31.811  0  36
+G33  3H8M  .  H  0  20.736  9.462   30.963  0  37
+G33  HA    .  H  0  13.136  7.827   32.380  1  38
+G33  H2P   .  H  0  ?       ?       ?       1  39
+G33  H1P   .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G33  O3P  P     DOUB  1 
+G33  P    O1P   SING  2 
+G33  P    O2P   SING  3 
+G33  P    O5*   SING  4 
+G33  O1P  H1P   SING  5 
+G33  O2P  H2P   SING  6 
+G33  O5*  C5*   SING  7 
+G33  C5*  C4*   SING  8 
+G33  C5*  1H5*  SING  9 
+G33  C5*  2H5*  SING  10
+G33  C4*  O4*   SING  11
+G33  C4*  C3*   SING  12
+G33  C4*  H4*   SING  13
+G33  O4*  C1*   SING  14
+G33  C3*  O3*   SING  15
+G33  C3*  C2*   SING  16
+G33  C3*  H3*   SING  17
+G33  O3*  HA    SING  18
+G33  C2*  C1*   SING  19
+G33  C2*  1H2*  SING  20
+G33  C2*  2H2*  SING  21
+G33  C1*  N9    SING  22
+G33  C1*  H1*   SING  23
+G33  N9   C8    SING  24
+G33  N9   C4    SING  25
+G33  C8   N7    DOUB  26
+G33  C8   C8M   SING  27
+G33  N7   C5    SING  28
+G33  C5   C6    SING  29
+G33  C5   C4    DOUB  30
+G33  C6   O6    DOUB  31
+G33  C6   N1    SING  32
+G33  N1   C2    SING  33
+G33  N1   H1    SING  34
+G33  C2   N2    SING  35
+G33  C2   N3    DOUB  36
+G33  N2   1H2   SING  37
+G33  N2   2H2   SING  38
+G33  N3   C4    SING  39
+G33  C8M  1H8M  SING  40
+G33  C8M  2H8M  SING  41
+G33  C8M  3H8M  SING  42
+#

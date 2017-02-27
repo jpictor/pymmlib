@@ -1,0 +1,113 @@
+data_ILC
+#
+_chem_comp.id                   ILC
+_chem_comp.name                 '3-{[(3-FLUORO-3'-METHOXYBIPHENYL-4-YL)AMINO]CARBONYL}THIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H14 N1 O4 F1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        371.382
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ILC  C1    .  C  0  31.474  6.077   61.853  1  1 
+ILC  C2    .  C  0  31.255  6.452   63.279  1  2 
+ILC  C8    .  C  0  31.578  7.865   63.672  1  3 
+ILC  C9    .  C  0  32.090  8.839   62.693  1  4 
+ILC  C10   .  C  0  32.449  10.218  62.996  1  5 
+ILC  C11   .  C  0  32.282  8.383   61.292  1  6 
+ILC  C12   .  C  0  31.975  7.025   60.891  1  7 
+ILC  C13   .  C  0  33.244  10.561  64.218  1  8 
+ILC  C14   .  C  0  33.628  11.915  64.496  1  9 
+ILC  C16   .  C  0  33.244  13.006  63.569  1  10
+ILC  C20   .  C  0  32.064  11.328  62.082  1  11
+ILC  C21   .  C  0  34.482  15.147  62.992  1  12
+ILC  C22   .  C  0  34.885  16.491  63.293  1  13
+ILC  C24   .  C  0  35.380  17.341  62.240  1  14
+ILC  C27   .  C  0  34.864  17.149  64.567  1  15
+ILC  O3    .  O  0  30.777  5.625   64.297  1  16
+ILC  C4    .  C  0  31.454  4.335   64.395  1  17
+ILC  N17   .  N  0  33.642  14.328  63.839  1  18
+ILC  C18   .  C  0  32.457  12.697  62.369  1  19
+ILC  F19   .  F  0  32.095  13.640  61.517  1  20
+ILC  O23   .  O  0  34.894  14.630  61.895  1  21
+ILC  C25   .  C  0  35.741  18.618  62.633  1  22
+ILC  S26   .  S  0  35.444  18.695  64.297  1  23
+ILC  C28   .  C  0  34.472  16.742  65.878  1  24
+ILC  O29   .  O  0  34.291  15.560  66.216  1  25
+ILC  O30   .  O  0  34.285  17.689  66.823  1  26
+ILC  HO30  .  H  0  34.031  17.276  67.640  0  27
+ILC  H24   .  H  0  35.463  17.005  61.217  1  28
+ILC  H25   .  H  0  36.132  19.405  62.005  1  29
+ILC  HN17  .  H  0  33.316  14.738  64.691  0  30
+ILC  H14   .  H  0  34.199  12.140  65.384  1  31
+ILC  H13   .  H  0  33.533  9.776   64.901  1  32
+ILC  H20   .  H  0  31.486  11.113  61.195  1  33
+ILC  H8    .  H  0  31.431  8.174   64.696  1  34
+ILC  1H4   .  H  0  31.624  3.932   63.386  0  35
+ILC  2H4   .  H  0  32.420  4.466   64.905  0  36
+ILC  3H4   .  H  0  30.828  3.635   64.968  0  37
+ILC  H1    .  H  0  31.252  5.070   61.533  1  38
+ILC  H12   .  H  0  32.123  6.722   59.865  1  39
+ILC  H11   .  H  0  32.658  9.079   60.557  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ILC  C1   C2    DOUB  1 
+ILC  C1   H1    SING  2 
+ILC  C1   C12   SING  3 
+ILC  C2   C8    SING  4 
+ILC  C2   O3    SING  5 
+ILC  C8   C9    DOUB  6 
+ILC  C8   H8    SING  7 
+ILC  C9   C10   SING  8 
+ILC  C9   C11   SING  9 
+ILC  C10  C13   DOUB  10
+ILC  C10  C20   SING  11
+ILC  C11  C12   DOUB  12
+ILC  C11  H11   SING  13
+ILC  C12  H12   SING  14
+ILC  C13  C14   SING  15
+ILC  C13  H13   SING  16
+ILC  C14  C16   DOUB  17
+ILC  C14  H14   SING  18
+ILC  C16  N17   SING  19
+ILC  C16  C18   SING  20
+ILC  C20  H20   SING  21
+ILC  C20  C18   DOUB  22
+ILC  C21  C22   SING  23
+ILC  C21  O23   DOUB  24
+ILC  C21  N17   SING  25
+ILC  C22  C27   DOUB  26
+ILC  C22  C24   SING  27
+ILC  C24  H24   SING  28
+ILC  C24  C25   DOUB  29
+ILC  C27  C28   SING  30
+ILC  C27  S26   SING  31
+ILC  O3   C4    SING  32
+ILC  C4   1H4   SING  33
+ILC  C4   2H4   SING  34
+ILC  C4   3H4   SING  35
+ILC  N17  HN17  SING  36
+ILC  C18  F19   SING  37
+ILC  C25  H25   SING  38
+ILC  C25  S26   SING  39
+ILC  C28  O30   SING  40
+ILC  C28  O29   DOUB  41
+ILC  O30  HO30  SING  42
+#

@@ -1,0 +1,85 @@
+data_HIB
+#
+_chem_comp.id                   HIB
+_chem_comp.name                 '4-HYDROXY-5-IODO-2,3-DIMETHOXY-6-METHYLBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 O5 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.098
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HIB  C1   .  C  0  ?  ?  ?  1  1 
+HIB  C2   .  C  0  ?  ?  ?  1  2 
+HIB  C3   .  C  0  ?  ?  ?  1  3 
+HIB  C4   .  C  0  ?  ?  ?  1  4 
+HIB  C5   .  C  0  ?  ?  ?  1  5 
+HIB  C6   .  C  0  ?  ?  ?  1  6 
+HIB  C7   .  C  0  ?  ?  ?  1  7 
+HIB  C8   .  C  0  ?  ?  ?  1  8 
+HIB  C9   .  C  0  ?  ?  ?  1  9 
+HIB  CX   .  C  0  ?  ?  ?  1  10
+HIB  O2   .  O  0  ?  ?  ?  1  11
+HIB  O3   .  O  0  ?  ?  ?  1  12
+HIB  O4   .  O  0  ?  ?  ?  1  13
+HIB  O7   .  O  0  ?  ?  ?  1  14
+HIB  O8   .  O  0  ?  ?  ?  1  15
+HIB  I1   .  I  0  ?  ?  ?  1  16
+HIB  1H8  .  H  0  ?  ?  ?  0  17
+HIB  2H8  .  H  0  ?  ?  ?  0  18
+HIB  3H8  .  H  0  ?  ?  ?  0  19
+HIB  1H9  .  H  0  ?  ?  ?  0  20
+HIB  2H9  .  H  0  ?  ?  ?  0  21
+HIB  3H9  .  H  0  ?  ?  ?  0  22
+HIB  1HX  .  H  0  ?  ?  ?  0  23
+HIB  2HX  .  H  0  ?  ?  ?  0  24
+HIB  3HX  .  H  0  ?  ?  ?  0  25
+HIB  HO2  .  H  0  ?  ?  ?  1  26
+HIB  HO8  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HIB  C1  C2   DOUB  1 
+HIB  C1  C6   SING  2 
+HIB  C1  I1   SING  3 
+HIB  C2  C3   SING  4 
+HIB  C2  O2   SING  5 
+HIB  C3  C4   DOUB  6 
+HIB  C3  O3   SING  7 
+HIB  C4  C5   SING  8 
+HIB  C4  O4   SING  9 
+HIB  C5  C6   DOUB  10
+HIB  C5  C7   SING  11
+HIB  C6  C8   SING  12
+HIB  C7  O7   DOUB  13
+HIB  C7  O8   SING  14
+HIB  C8  1H8  SING  15
+HIB  C8  2H8  SING  16
+HIB  C8  3H8  SING  17
+HIB  C9  O3   SING  18
+HIB  C9  1H9  SING  19
+HIB  C9  2H9  SING  20
+HIB  C9  3H9  SING  21
+HIB  CX  O4   SING  22
+HIB  CX  1HX  SING  23
+HIB  CX  2HX  SING  24
+HIB  CX  3HX  SING  25
+HIB  O2  HO2  SING  26
+HIB  O8  HO8  SING  27
+#

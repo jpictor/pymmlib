@@ -1,0 +1,108 @@
+data_RNP
+#
+_chem_comp.id                   RNP
+_chem_comp.name                 (1E,2R)-1-(ISOPROPYLIMINO)-3-(1-NAPHTHYLOXY)PROPAN-2-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H19 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        257.332
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RNP  C1    .  C  0  3.931  9.075   25.832  1  1 
+RNP  C2    .  C  0  4.012  9.77    24.636  1  2 
+RNP  C3    .  C  0  3.494  11.071  24.541  1  3 
+RNP  C4    .  C  0  2.894  11.718  25.63   1  4 
+RNP  C5    .  C  0  2.216  11.672  27.992  1  5 
+RNP  C6    .  C  0  2.161  10.956  29.189  1  6 
+RNP  C7    .  C  0  2.658  9.66    29.312  1  7 
+RNP  C8    .  C  0  3.246  9.032   28.219  1  8 
+RNP  C9    .  C  0  3.322  9.717   27.017  1  9 
+RNP  C10   .  C  0  2.787  11.087  26.867  1  10
+RNP  O1    .  O  0  4.414  7.806   25.998  1  11
+RNP  C11   .  C  0  5.105  7.165   24.898  1  12
+RNP  C12   .  C  0  5.78   5.875   25.309  1  13
+RNP  O2    .  O  0  6.377  6.029   26.6    1  14
+RNP  C13   .  C  0  6.866  5.538   24.322  1  15
+RNP  N1    .  N  0  7.246  4.258   24.26   1  16
+RNP  C14   .  C  0  7.192  3.347   25.401  1  17
+RNP  C15   .  C  0  6.838  1.949   24.898  1  18
+RNP  C16   .  C  0  8.55   3.294   26.096  1  19
+RNP  H2    .  H  0  4.484  9.3     23.757  1  20
+RNP  H3    .  H  0  3.561  11.602  23.577  1  21
+RNP  H4    .  H  0  2.501  12.741  25.506  1  22
+RNP  H5    .  H  0  1.809  12.696  27.939  1  23
+RNP  H6    .  H  0  1.706  11.435  30.072  1  24
+RNP  H7    .  H  0  2.585  9.131   30.277  1  25
+RNP  H8    .  H  0  3.645  8.007   28.308  1  26
+RNP  1H11  .  H  0  5.831  7.863   24.42   0  27
+RNP  2H11  .  H  0  4.419  7.001   24.035  0  28
+RNP  H12   .  H  0  5.03   5.051   25.338  1  29
+RNP  HA    .  H  0  6.801  5.219   26.858  1  30
+RNP  H13   .  H  0  7.326  6.31    23.681  1  31
+RNP  H14   .  H  0  6.415  3.694   26.122  1  32
+RNP  1H15  .  H  0  6.797  1.254   25.769  0  33
+RNP  2H15  .  H  0  7.533  1.594   24.102  0  34
+RNP  3H15  .  H  0  5.898  1.937   24.299  0  35
+RNP  1H16  .  H  0  8.509  2.599   26.967  0  36
+RNP  2H16  .  H  0  8.908  4.308   26.389  0  37
+RNP  3H16  .  H  0  9.37   3.029   25.389  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RNP  C1   C2    AROM  1 
+RNP  C1   C9    AROM  2 
+RNP  C1   O1    SING  3 
+RNP  C2   C3    AROM  4 
+RNP  C2   H2    SING  5 
+RNP  C3   C4    AROM  6 
+RNP  C3   H3    SING  7 
+RNP  C4   C10   AROM  8 
+RNP  C4   H4    SING  9 
+RNP  C5   C6    AROM  10
+RNP  C5   C10   AROM  11
+RNP  C5   H5    SING  12
+RNP  C6   C7    AROM  13
+RNP  C6   H6    SING  14
+RNP  C7   C8    AROM  15
+RNP  C7   H7    SING  16
+RNP  C8   C9    AROM  17
+RNP  C8   H8    SING  18
+RNP  C9   C10   AROM  19
+RNP  O1   C11   SING  20
+RNP  C11  C12   SING  21
+RNP  C11  1H11  SING  22
+RNP  C11  2H11  SING  23
+RNP  C12  O2    SING  24
+RNP  C12  C13   SING  25
+RNP  C12  H12   SING  26
+RNP  O2   HA    SING  27
+RNP  C13  N1    DOUB  28
+RNP  C13  H13   SING  29
+RNP  N1   C14   SING  30
+RNP  C14  C15   SING  31
+RNP  C14  C16   SING  32
+RNP  C14  H14   SING  33
+RNP  C15  1H15  SING  34
+RNP  C15  2H15  SING  35
+RNP  C15  3H15  SING  36
+RNP  C16  1H16  SING  37
+RNP  C16  2H16  SING  38
+RNP  C16  3H16  SING  39
+#

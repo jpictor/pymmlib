@@ -1,0 +1,93 @@
+data_GPM
+#
+_chem_comp.id                   GPM
+_chem_comp.name                 'GLUCOPYRANOSYL-1-METHYL-PHOSPHONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H15 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        258.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GPM  C1    .  C  0  ?  ?  ?  1  1 
+GPM  C2    .  C  0  ?  ?  ?  1  2 
+GPM  C3    .  C  0  ?  ?  ?  1  3 
+GPM  C4    .  C  0  ?  ?  ?  1  4 
+GPM  C5    .  C  0  ?  ?  ?  1  5 
+GPM  C6    .  C  0  ?  ?  ?  1  6 
+GPM  C7    .  C  0  ?  ?  ?  1  7 
+GPM  O2    .  O  0  ?  ?  ?  1  8 
+GPM  O3    .  O  0  ?  ?  ?  1  9 
+GPM  O4    .  O  0  ?  ?  ?  1  10
+GPM  O5    .  O  0  ?  ?  ?  1  11
+GPM  O6    .  O  0  ?  ?  ?  1  12
+GPM  P     .  P  0  ?  ?  ?  1  13
+GPM  O1P   .  O  0  ?  ?  ?  1  14
+GPM  O2P   .  O  0  ?  ?  ?  1  15
+GPM  O3P   .  O  0  ?  ?  ?  1  16
+GPM  H1    .  H  0  ?  ?  ?  1  17
+GPM  H2    .  H  0  ?  ?  ?  1  18
+GPM  H3    .  H  0  ?  ?  ?  1  19
+GPM  H4    .  H  0  ?  ?  ?  1  20
+GPM  H5    .  H  0  ?  ?  ?  1  21
+GPM  1H6   .  H  0  ?  ?  ?  0  22
+GPM  2H6   .  H  0  ?  ?  ?  0  23
+GPM  1H7   .  H  0  ?  ?  ?  0  24
+GPM  2H7   .  H  0  ?  ?  ?  0  25
+GPM  HO2   .  H  0  ?  ?  ?  1  26
+GPM  HO3   .  H  0  ?  ?  ?  1  27
+GPM  HO4   .  H  0  ?  ?  ?  1  28
+GPM  HO6   .  H  0  ?  ?  ?  1  29
+GPM  2HOP  .  H  0  ?  ?  ?  0  30
+GPM  3HOP  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GPM  C1   C2    SING  1 
+GPM  C1   C7    SING  2 
+GPM  C1   O5    SING  3 
+GPM  C1   H1    SING  4 
+GPM  C2   C3    SING  5 
+GPM  C2   O2    SING  6 
+GPM  C2   H2    SING  7 
+GPM  C3   C4    SING  8 
+GPM  C3   O3    SING  9 
+GPM  C3   H3    SING  10
+GPM  C4   C5    SING  11
+GPM  C4   O4    SING  12
+GPM  C4   H4    SING  13
+GPM  C5   C6    SING  14
+GPM  C5   O5    SING  15
+GPM  C5   H5    SING  16
+GPM  C6   O6    SING  17
+GPM  C6   1H6   SING  18
+GPM  C6   2H6   SING  19
+GPM  C7   P     SING  20
+GPM  C7   1H7   SING  21
+GPM  C7   2H7   SING  22
+GPM  O2   HO2   SING  23
+GPM  O3   HO3   SING  24
+GPM  O4   HO4   SING  25
+GPM  O6   HO6   SING  26
+GPM  P    O1P   DOUB  27
+GPM  P    O2P   SING  28
+GPM  P    O3P   SING  29
+GPM  O2P  2HOP  SING  30
+GPM  O3P  3HOP  SING  31
+#

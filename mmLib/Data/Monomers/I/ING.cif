@@ -1,0 +1,85 @@
+data_ING
+#
+_chem_comp.id                   ING
+_chem_comp.name                 D-[(AMINO)CARBONYL]PHENYLALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        208.216
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ING  N     .  N  0  ?  ?  ?  1  1 
+ING  CA    .  C  0  ?  ?  ?  1  2 
+ING  C     .  C  0  ?  ?  ?  1  3 
+ING  O     .  O  0  ?  ?  ?  1  4 
+ING  CG    .  C  0  ?  ?  ?  1  5 
+ING  CB    .  C  0  ?  ?  ?  1  6 
+ING  CD1   .  C  0  ?  ?  ?  1  7 
+ING  CD2   .  C  0  ?  ?  ?  1  8 
+ING  CE1   .  C  0  ?  ?  ?  1  9 
+ING  CE2   .  C  0  ?  ?  ?  1  10
+ING  CZ    .  C  0  ?  ?  ?  1  11
+ING  OXT   .  O  0  ?  ?  ?  1  12
+ING  C1    .  C  0  ?  ?  ?  1  13
+ING  N1    .  N  0  ?  ?  ?  1  14
+ING  O1    .  O  0  ?  ?  ?  1  15
+ING  H     .  H  0  ?  ?  ?  1  16
+ING  HA    .  H  0  ?  ?  ?  1  17
+ING  1HB   .  H  0  ?  ?  ?  0  18
+ING  2HB   .  H  0  ?  ?  ?  0  19
+ING  HD1   .  H  0  ?  ?  ?  1  20
+ING  HD2   .  H  0  ?  ?  ?  1  21
+ING  HE1   .  H  0  ?  ?  ?  1  22
+ING  HE2   .  H  0  ?  ?  ?  1  23
+ING  HZ    .  H  0  ?  ?  ?  1  24
+ING  HXT   .  H  0  ?  ?  ?  1  25
+ING  1HN1  .  H  0  ?  ?  ?  0  26
+ING  2HN1  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ING  N    CA    SING  1 
+ING  N    C1    SING  2 
+ING  N    H     SING  3 
+ING  CA   CB    SING  4 
+ING  CA   C     SING  5 
+ING  CA   HA    SING  6 
+ING  C    O     DOUB  7 
+ING  C    OXT   SING  8 
+ING  CG   CD1   AROM  9 
+ING  CG   CD2   AROM  10
+ING  CG   CB    SING  11
+ING  CB   1HB   SING  12
+ING  CB   2HB   SING  13
+ING  CD1  CE1   AROM  14
+ING  CD1  HD1   SING  15
+ING  CD2  CE2   AROM  16
+ING  CD2  HD2   SING  17
+ING  CE1  CZ    AROM  18
+ING  CE1  HE1   SING  19
+ING  CE2  CZ    AROM  20
+ING  CE2  HE2   SING  21
+ING  CZ   HZ    SING  22
+ING  OXT  HXT   SING  23
+ING  C1   N1    SING  24
+ING  C1   O1    DOUB  25
+ING  N1   1HN1  SING  26
+ING  N1   2HN1  SING  27
+#

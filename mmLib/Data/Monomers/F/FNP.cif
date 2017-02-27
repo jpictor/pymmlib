@@ -1,0 +1,100 @@
+data_FNP
+#
+_chem_comp.id                   FNP
+_chem_comp.name                 '{[7-(DIFLUORO-PHOSPHONO-METHYL)-NAPHTHALEN-2-YL]-DIFLUORO-METHYL}-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 O6 F4 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        388.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FNP  C1   .  C  0  ?  ?  ?  1  1 
+FNP  C2   .  C  0  ?  ?  ?  1  2 
+FNP  C3   .  C  0  ?  ?  ?  1  3 
+FNP  C4   .  C  0  ?  ?  ?  1  4 
+FNP  C5   .  C  0  ?  ?  ?  1  5 
+FNP  C6   .  C  0  ?  ?  ?  1  6 
+FNP  C7   .  C  0  ?  ?  ?  1  7 
+FNP  C8   .  C  0  ?  ?  ?  1  8 
+FNP  C9   .  C  0  ?  ?  ?  1  9 
+FNP  C10  .  C  0  ?  ?  ?  1  10
+FNP  C11  .  C  0  ?  ?  ?  1  11
+FNP  C12  .  C  0  ?  ?  ?  1  12
+FNP  F1   .  F  0  ?  ?  ?  1  13
+FNP  F2   .  F  0  ?  ?  ?  1  14
+FNP  P1   .  P  0  ?  ?  ?  1  15
+FNP  OP1  .  O  0  ?  ?  ?  1  16
+FNP  OP2  .  O  0  ?  ?  ?  1  17
+FNP  OP3  .  O  0  ?  ?  ?  1  18
+FNP  F3   .  F  0  ?  ?  ?  1  19
+FNP  F4   .  F  0  ?  ?  ?  1  20
+FNP  P2   .  P  0  ?  ?  ?  1  21
+FNP  OP4  .  O  0  ?  ?  ?  1  22
+FNP  OP5  .  O  0  ?  ?  ?  1  23
+FNP  OP6  .  O  0  ?  ?  ?  1  24
+FNP  HO2  .  H  0  ?  ?  ?  1  25
+FNP  HO3  .  H  0  ?  ?  ?  1  26
+FNP  HO5  .  H  0  ?  ?  ?  1  27
+FNP  HO6  .  H  0  ?  ?  ?  1  28
+FNP  HC3  .  H  0  ?  ?  ?  1  29
+FNP  HC4  .  H  0  ?  ?  ?  1  30
+FNP  HC6  .  H  0  ?  ?  ?  1  31
+FNP  HC7  .  H  0  ?  ?  ?  1  32
+FNP  HC9  .  H  0  ?  ?  ?  1  33
+FNP  H11  .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FNP  C1   C8   SING  1 
+FNP  C1   F1   SING  2 
+FNP  C1   F2   SING  3 
+FNP  C1   P1   SING  4 
+FNP  C2   C3   AROM  5 
+FNP  C2   C11  AROM  6 
+FNP  C2   C12  SING  7 
+FNP  C3   C4   AROM  8 
+FNP  C3   HC3  SING  9 
+FNP  C4   C5   AROM  10
+FNP  C4   HC4  SING  11
+FNP  C5   C6   AROM  12
+FNP  C5   C10  AROM  13
+FNP  C6   C7   AROM  14
+FNP  C6   HC6  SING  15
+FNP  C7   C8   AROM  16
+FNP  C7   HC7  SING  17
+FNP  C8   C9   AROM  18
+FNP  C9   C10  AROM  19
+FNP  C9   HC9  SING  20
+FNP  C10  C11  AROM  21
+FNP  C11  H11  SING  22
+FNP  C12  F3   SING  23
+FNP  C12  F4   SING  24
+FNP  C12  P2   SING  25
+FNP  P1   OP1  DOUB  26
+FNP  P1   OP2  SING  27
+FNP  P1   OP3  SING  28
+FNP  OP2  HO2  SING  29
+FNP  OP3  HO3  SING  30
+FNP  P2   OP4  DOUB  31
+FNP  P2   OP5  SING  32
+FNP  P2   OP6  SING  33
+FNP  OP5  HO5  SING  34
+FNP  OP6  HO6  SING  35
+#

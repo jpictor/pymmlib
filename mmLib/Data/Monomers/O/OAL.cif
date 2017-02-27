@@ -1,0 +1,98 @@
+data_OAL
+#
+_chem_comp.id                   OAL
+_chem_comp.name                 '(1,8-DIHYDROXY-9,10-DIOXO-9,10-DIHYDRO-ANTHRACEN-2-YL)-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H10 O6'
+_chem_comp.pdbx_synonyms        'OXIDIZED ACETYL DITHRANOL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.251
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OAL  C1    .  C  0  34.897  26.118  -6.353  1  1 
+OAL  C2    .  C  0  33.753  25.510  -5.933  1  2 
+OAL  C3    .  C  0  32.695  26.299  -5.362  1  3 
+OAL  C4    .  C  0  32.867  27.699  -5.233  1  4 
+OAL  C5    .  C  0  34.078  28.298  -5.687  1  5 
+OAL  C6    .  C  0  35.066  27.521  -6.210  1  6 
+OAL  C7    .  C  0  31.852  28.506  -4.713  1  7 
+OAL  C8    .  C  0  30.659  27.918  -4.267  1  8 
+OAL  C9    .  C  0  30.479  26.502  -4.350  1  9 
+OAL  C10   .  C  0  31.492  25.728  -4.920  1  10
+OAL  C11   .  C  0  29.724  28.719  -3.545  1  11
+OAL  C12   .  C  0  28.664  28.115  -2.906  1  12
+OAL  C13   .  C  0  28.486  26.695  -2.966  1  13
+OAL  C14   .  C  0  29.371  25.912  -3.662  1  14
+OAL  C15   .  C  0  27.643  28.942  -2.116  1  15
+OAL  C16   .  C  0  27.203  30.202  -2.789  1  16
+OAL  O1    .  O  0  34.191  29.697  -5.581  1  17
+OAL  O2    .  O  0  32.053  29.702  -4.645  1  18
+OAL  O3    .  O  0  29.945  30.142  -3.572  1  19
+OAL  O5    .  O  0  27.127  30.679  -3.920  1  20
+OAL  O4    .  O  0  26.656  31.379  -2.360  1  21
+OAL  O6    .  O  0  31.345  24.513  -5.043  1  22
+OAL  HO1   .  H  0  ?       ?       ?       1  23
+OAL  HC6   .  H  0  ?       ?       ?       1  24
+OAL  HC1   .  H  0  ?       ?       ?       1  25
+OAL  HC2   .  H  0  ?       ?       ?       1  26
+OAL  HO3   .  H  0  ?       ?       ?       1  27
+OAL  HO4   .  H  0  ?       ?       ?       1  28
+OAL  HC13  .  H  0  ?       ?       ?       0  29
+OAL  HC14  .  H  0  ?       ?       ?       0  30
+OAL  1H15  .  H  0  ?       ?       ?       0  31
+OAL  2H15  .  H  0  ?       ?       ?       0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OAL  C1   C2    AROM  1 
+OAL  C1   C6    AROM  2 
+OAL  C1   HC1   SING  3 
+OAL  C2   C3    AROM  4 
+OAL  C2   HC2   SING  5 
+OAL  C3   C4    AROM  6 
+OAL  C3   C10   SING  7 
+OAL  C4   C5    AROM  8 
+OAL  C4   C7    SING  9 
+OAL  C5   C6    AROM  10
+OAL  C5   O1    SING  11
+OAL  C6   HC6   SING  12
+OAL  C7   C8    SING  13
+OAL  C7   O2    DOUB  14
+OAL  C8   C9    AROM  15
+OAL  C8   C11   AROM  16
+OAL  C9   C10   SING  17
+OAL  C9   C14   AROM  18
+OAL  C10  O6    DOUB  19
+OAL  C11  C12   AROM  20
+OAL  C11  O3    SING  21
+OAL  C12  C13   AROM  22
+OAL  C12  C15   SING  23
+OAL  C13  C14   AROM  24
+OAL  C13  HC13  SING  25
+OAL  C14  HC14  SING  26
+OAL  C15  C16   SING  27
+OAL  C15  1H15  SING  28
+OAL  C15  2H15  SING  29
+OAL  C16  O5    DOUB  30
+OAL  C16  O4    SING  31
+OAL  O1   HO1   SING  32
+OAL  O3   HO3   SING  33
+OAL  O4   HO4   SING  34
+#

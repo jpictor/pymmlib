@@ -1,0 +1,45 @@
+data_CUZ
+#
+_chem_comp.id                   CUZ
+_chem_comp.name                 '(MU-4-SULFIDO)-TETRA-NUCLEAR COPPER ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'CU4 S1'
+_chem_comp.pdbx_formal_charge   5+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       286.244
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CUZ  CU1  .  CU  0  ?  ?  ?  0  1
+CUZ  CU2  .  CU  0  ?  ?  ?  0  2
+CUZ  CU3  .  CU  0  ?  ?  ?  0  3
+CUZ  CU4  .  CU  0  ?  ?  ?  0  4
+CUZ  S1   .  S   0  ?  ?  ?  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CUZ  CU1  CU4  SING  1
+CUZ  CU1  CU3  SING  2
+CUZ  CU1  S1   SING  3
+CUZ  CU2  CU4  SING  4
+CUZ  CU2  CU3  SING  5
+CUZ  CU2  S1   SING  6
+CUZ  CU3  CU4  SING  7
+CUZ  CU3  S1   SING  8
+CUZ  CU4  S1   SING  9
+#

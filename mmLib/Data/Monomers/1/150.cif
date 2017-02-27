@@ -1,0 +1,75 @@
+data_150
+#
+_chem_comp.id                   150
+_chem_comp.name                 4,5-DIMETHYL-1,2-PHENYLENEDIAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+150  N1    .  N  0  56.331  41.391  14.103  1  1 
+150  N2    .  N  0  57.384  40.949  11.529  1  2 
+150  C1    .  C  0  57.494  42.121  13.680  1  3 
+150  C2    .  C  0  58.017  41.893  12.409  1  4 
+150  C3    .  C  0  59.102  42.542  12.001  1  5 
+150  C4    .  C  0  59.699  43.442  12.822  1  6 
+150  C5    .  C  0  59.180  43.678  14.085  1  7 
+150  C6    .  C  0  58.070  43.003  14.501  1  8 
+150  C7    .  C  0  60.917  44.198  12.364  1  9 
+150  C8    .  C  0  59.858  44.676  14.975  1  10
+150  H3    .  H  0  ?       ?       ?       1  11
+150  H6    .  H  0  ?       ?       ?       1  12
+150  1H7   .  H  0  ?       ?       ?       0  13
+150  2H7   .  H  0  ?       ?       ?       0  14
+150  3H7   .  H  0  ?       ?       ?       0  15
+150  1H8   .  H  0  ?       ?       ?       0  16
+150  2H8   .  H  0  ?       ?       ?       0  17
+150  3H8   .  H  0  ?       ?       ?       0  18
+150  1HN1  .  H  0  ?       ?       ?       0  19
+150  2HN1  .  H  0  ?       ?       ?       0  20
+150  1HN2  .  H  0  ?       ?       ?       0  21
+150  2HN2  .  H  0  ?       ?       ?       0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+150  N1  C1    SING  1 
+150  N1  1HN1  SING  2 
+150  N1  2HN1  SING  3 
+150  N2  C2    SING  4 
+150  N2  1HN2  SING  5 
+150  N2  2HN2  SING  6 
+150  C1  C2    AROM  7 
+150  C1  C6    AROM  8 
+150  C2  C3    AROM  9 
+150  C3  C4    AROM  10
+150  C3  H3    SING  11
+150  C4  C5    AROM  12
+150  C4  C7    SING  13
+150  C5  C6    AROM  14
+150  C5  C8    SING  15
+150  C6  H6    SING  16
+150  C7  1H7   SING  17
+150  C7  2H7   SING  18
+150  C7  3H7   SING  19
+150  C8  1H8   SING  20
+150  C8  2H8   SING  21
+150  C8  3H8   SING  22
+#

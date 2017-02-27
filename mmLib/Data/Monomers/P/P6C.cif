@@ -1,0 +1,88 @@
+data_P6C
+#
+_chem_comp.id                   P6C
+_chem_comp.name                 '2-AMINO-4-ISOPROPYL-PTERIDINE-6-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        233.229
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P6C  N17   .  N  0  49.492  42.199  22.055  1  1 
+P6C  C16   .  C  0  49.879  43.533  21.770  1  2 
+P6C  N15   .  N  0  48.792  44.453  21.751  1  3 
+P6C  C14   .  C  0  49.037  45.763  21.406  1  4 
+P6C  C9    .  C  0  50.479  46.144  21.114  1  5 
+P6C  N10   .  N  0  50.774  47.467  20.772  1  6 
+P6C  C8    .  C  0  51.557  45.186  21.262  1  7 
+P6C  N7    .  N  0  51.267  43.830  21.433  1  8 
+P6C  C5    .  C  0  53.032  45.591  20.731  1  9 
+P6C  C6    .  C  0  54.393  45.824  21.484  1  10
+P6C  C4    .  C  0  53.132  45.313  19.144  1  11
+P6C  N13   .  N  0  48.030  46.785  21.298  1  12
+P6C  C12   .  C  0  48.345  48.162  20.972  1  13
+P6C  C11   .  C  0  49.739  48.428  20.738  1  14
+P6C  C1    .  C  0  50.154  49.793  20.414  1  15
+P6C  O2    .  O  0  49.197  50.684  20.384  1  16
+P6C  O3    .  O  0  51.458  50.077  20.106  1  17
+P6C  H2    .  H  0  ?       ?       ?       1  18
+P6C  1H4   .  H  0  ?       ?       ?       0  19
+P6C  2H4   .  H  0  ?       ?       ?       0  20
+P6C  3H4   .  H  0  ?       ?       ?       0  21
+P6C  H5    .  H  0  ?       ?       ?       1  22
+P6C  1H6   .  H  0  ?       ?       ?       0  23
+P6C  2H6   .  H  0  ?       ?       ?       0  24
+P6C  3H6   .  H  0  ?       ?       ?       0  25
+P6C  H12   .  H  0  ?       ?       ?       1  26
+P6C  1H17  .  H  0  ?       ?       ?       0  27
+P6C  2H17  .  H  0  ?       ?       ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P6C  N17  C16   SING  1 
+P6C  N17  1H17  SING  2 
+P6C  N17  2H17  SING  3 
+P6C  C16  N15   AROM  4 
+P6C  C16  N7    AROM  5 
+P6C  N15  C14   AROM  6 
+P6C  C14  C9    AROM  7 
+P6C  C14  N13   AROM  8 
+P6C  C9   N10   AROM  9 
+P6C  C9   C8    AROM  10
+P6C  N10  C11   AROM  11
+P6C  C8   N7    AROM  12
+P6C  C8   C5    SING  13
+P6C  C5   C6    SING  14
+P6C  C5   C4    SING  15
+P6C  C5   H5    SING  16
+P6C  C6   1H6   SING  17
+P6C  C6   2H6   SING  18
+P6C  C6   3H6   SING  19
+P6C  C4   1H4   SING  20
+P6C  C4   2H4   SING  21
+P6C  C4   3H4   SING  22
+P6C  N13  C12   AROM  23
+P6C  C12  C11   AROM  24
+P6C  C12  H12   SING  25
+P6C  C11  C1    SING  26
+P6C  C1   O2    SING  27
+P6C  C1   O3    DOUB  28
+P6C  O2   H2    SING  29
+#

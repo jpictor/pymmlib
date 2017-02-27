@@ -1,0 +1,111 @@
+data_DUN
+#
+_chem_comp.id                   DUN
+_chem_comp.name                 '2'-DEOXYURIDINE 5'-ALPHA,BETA-IMIDO-DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N3 O10 P2'
+_chem_comp.pdbx_synonyms        '2,4(1H,3H)-PYRIMIDINEDIONE, 1-[2-DEOXY-5-O-[HYDROXY(PHOSPHONOAMINO)PHOSPHINYL]-BETA-D-ERYTHRO-PENTOFURANOSYL]-'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        387.179
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DUN  N1    .  N  0  60.018  56.627  17.009  1  1 
+DUN  C2    .  C  0  60.19   55.256  17.026  1  2 
+DUN  N3    .  N  0  59.766  54.57   18.098  1  3 
+DUN  C4    .  C  0  59.166  55.137  19.179  1  4 
+DUN  C5    .  C  0  58.983  56.528  19.159  1  5 
+DUN  C6    .  C  0  59.435  57.215  18.077  1  6 
+DUN  O2    .  O  0  60.727  54.722  16.025  1  7 
+DUN  O4    .  O  0  58.799  54.461  20.15   1  8 
+DUN  C1*   .  C  0  60.506  57.403  15.868  1  9 
+DUN  C2*   .  C  0  59.881  57.057  14.533  1  10
+DUN  C3*   .  C  0  59.961  58.353  13.762  1  11
+DUN  C4*   .  C  0  60.321  59.436  14.798  1  12
+DUN  O4*   .  O  0  60.317  58.8    16.08   1  13
+DUN  O3*   .  O  0  61.018  58.241  12.781  1  14
+DUN  C5*   .  C  0  59.406  60.642  14.845  1  15
+DUN  O5*   .  O  0  59.882  61.534  15.896  1  16
+DUN  PA    .  P  0  59.191  62.959  16.078  1  17
+DUN  O1A   .  O  0  57.729  62.872  15.691  1  18
+DUN  O2A   .  O  0  59.537  63.307  17.502  1  19
+DUN  PB    .  P  0  60.005  64.025  13.45   1  20
+DUN  O1B   .  O  0  61.041  62.923  13.142  1  21
+DUN  O2B   .  O  0  60.464  65.36   12.986  1  22
+DUN  O3B   .  O  0  58.602  63.647  12.949  1  23
+DUN  N3A   .  N  0  60.02   64.057  15.102  1  24
+DUN  H1A   .  H  0  ?       ?       ?       1  25
+DUN  H1B   .  H  0  ?       ?       ?       1  26
+DUN  H3B   .  H  0  ?       ?       ?       1  27
+DUN  H6    .  H  0  59.32   58.312  18.07   1  28
+DUN  H1*   .  H  0  61.603  57.222  15.783  1  29
+DUN  H3    .  H  0  59.902  53.559  18.103  1  30
+DUN  H5    .  H  0  58.487  57.048  19.996  1  31
+DUN  1H2*  .  H  0  58.857  56.622  14.601  0  32
+DUN  2H2*  .  H  0  60.344  56.183  14.018  0  33
+DUN  H3*   .  H  0  58.987  58.583  13.271  1  34
+DUN  H4*   .  H  0  61.357  59.791  14.587  1  35
+DUN  HA    .  H  0  61.068  59.056  12.296  1  36
+DUN  1H5*  .  H  0  58.334  60.363  14.97   0  37
+DUN  2H5*  .  H  0  59.315  61.151  13.857  0  38
+DUN  H3A   .  H  0  60.565  64.787  15.561  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DUN  N1   C6    SING  1 
+DUN  N1   C1*   SING  2 
+DUN  N1   C2    SING  3 
+DUN  C2   N3    SING  4 
+DUN  C2   O2    DOUB  5 
+DUN  N3   C4    SING  6 
+DUN  N3   H3    SING  7 
+DUN  C4   C5    SING  8 
+DUN  C4   O4    DOUB  9 
+DUN  C5   C6    DOUB  10
+DUN  C5   H5    SING  11
+DUN  C6   H6    SING  12
+DUN  C1*  C2*   SING  13
+DUN  C1*  O4*   SING  14
+DUN  C1*  H1*   SING  15
+DUN  C2*  C3*   SING  16
+DUN  C2*  1H2*  SING  17
+DUN  C2*  2H2*  SING  18
+DUN  C3*  C4*   SING  19
+DUN  C3*  O3*   SING  20
+DUN  C3*  H3*   SING  21
+DUN  C4*  O4*   SING  22
+DUN  C4*  C5*   SING  23
+DUN  C4*  H4*   SING  24
+DUN  O3*  HA    SING  25
+DUN  C5*  O5*   SING  26
+DUN  C5*  1H5*  SING  27
+DUN  C5*  2H5*  SING  28
+DUN  O5*  PA    SING  29
+DUN  PA   O1A   SING  30
+DUN  PA   O2A   DOUB  31
+DUN  PA   N3A   SING  32
+DUN  O1A  H1A   SING  33
+DUN  PB   O1B   SING  34
+DUN  PB   O2B   DOUB  35
+DUN  PB   O3B   SING  36
+DUN  PB   N3A   SING  37
+DUN  O1B  H1B   SING  38
+DUN  O3B  H3B   SING  39
+DUN  N3A  H3A   SING  40
+#

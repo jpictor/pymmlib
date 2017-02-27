@@ -1,0 +1,96 @@
+data_LFN
+#
+_chem_comp.id                   LFN
+_chem_comp.name                 LUMIFLAVIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H12 N4 O2'
+_chem_comp.pdbx_synonyms        7,8,10-TRIMETHYLBENZO[G]PTERIDINE-2,4(3H,10H)-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        256.263
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LFN  N1    .  N  0  .249    22.404  -2.679  1  1 
+LFN  C2    .  C  0  -.462   22.087  -3.78   1  2 
+LFN  C10   .  C  0  .763    21.399  -1.881  1  3 
+LFN  O2    .  O  0  -.927   23.019  -4.484  1  4 
+LFN  N3    .  N  0  -.675   20.796  -4.156  1  5 
+LFN  C4    .  C  0  -.25    19.74   -3.468  1  6 
+LFN  O4    .  O  0  -.481   18.565  -3.851  1  7 
+LFN  C4A   .  C  0  .546    19.981  -2.249  1  8 
+LFN  N5    .  N  0  1.034   18.965  -1.48   1  9 
+LFN  C5A   .  C  0  1.761   19.272  -.381   1  10
+LFN  C6    .  C  0  2.294   18.281  .431    1  11
+LFN  C9A   .  C  0  1.983   20.708  -.029   1  12
+LFN  C7    .  C  0  3.032   18.62   1.566   1  13
+LFN  C7M   .  C  0  3.618   17.516  2.443   1  14
+LFN  C8    .  C  0  3.265   20.034  1.91    1  15
+LFN  C8M   .  C  0  4.058   20.388  3.16    1  16
+LFN  C9    .  C  0  2.723   21.053  1.125   1  17
+LFN  N10   .  N  0  1.473   21.675  -.804   1  18
+LFN  C1*   .  C  0  1.699   23.098  -.451   1  19
+LFN  H3    .  H  0  -1.193  20.628  -5.019  1  20
+LFN  H6    .  H  0  2.134   17.219  .178    1  21
+LFN  H9    .  H  0  2.87    22.111  1.401   1  22
+LFN  1H7M  .  H  0  4.208   17.787  3.35    0  23
+LFN  2H7M  .  H  0  4.239   16.846  1.803   0  24
+LFN  3H7M  .  H  0  2.794   16.83   2.747   0  25
+LFN  1H8M  .  H  0  4.234   21.458  3.42    0  26
+LFN  2H8M  .  H  0  5.043   19.868  3.113   0  27
+LFN  3H8M  .  H  0  3.583   19.885  4.034   0  28
+LFN  1H1*  .  H  0  2.299   23.331  .459    0  29
+LFN  2H1*  .  H  0  .713    23.614  -.377   0  30
+LFN  3H1*  .  H  0  2.15    23.621  -1.326  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LFN  N1   C2    SING  1 
+LFN  N1   C10   DOUB  2 
+LFN  C2   O2    DOUB  3 
+LFN  C2   N3    SING  4 
+LFN  C10  C4A   SING  5 
+LFN  C10  N10   SING  6 
+LFN  N3   C4    SING  7 
+LFN  N3   H3    SING  8 
+LFN  C4   O4    DOUB  9 
+LFN  C4   C4A   SING  10
+LFN  C4A  N5    DOUB  11
+LFN  N5   C5A   SING  12
+LFN  C5A  C6    AROM  13
+LFN  C5A  C9A   AROM  14
+LFN  C6   C7    AROM  15
+LFN  C6   H6    SING  16
+LFN  C9A  C9    AROM  17
+LFN  C9A  N10   SING  18
+LFN  C7   C7M   SING  19
+LFN  C7   C8    AROM  20
+LFN  C7M  1H7M  SING  21
+LFN  C7M  2H7M  SING  22
+LFN  C7M  3H7M  SING  23
+LFN  C8   C8M   SING  24
+LFN  C8   C9    AROM  25
+LFN  C8M  1H8M  SING  26
+LFN  C8M  2H8M  SING  27
+LFN  C8M  3H8M  SING  28
+LFN  C9   H9    SING  29
+LFN  N10  C1*   SING  30
+LFN  C1*  1H1*  SING  31
+LFN  C1*  2H1*  SING  32
+LFN  C1*  3H1*  SING  33
+#

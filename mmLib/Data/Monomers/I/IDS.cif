@@ -1,0 +1,85 @@
+data_IDS
+#
+_chem_comp.id                   IDS
+_chem_comp.name                 'O2-SULFO-GLUCURONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O10 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IDS  C1    .  C  0  ?  ?  ?  1  1 
+IDS  C2    .  C  0  ?  ?  ?  1  2 
+IDS  C3    .  C  0  ?  ?  ?  1  3 
+IDS  C4    .  C  0  ?  ?  ?  1  4 
+IDS  C5    .  C  0  ?  ?  ?  1  5 
+IDS  C6    .  C  0  ?  ?  ?  1  6 
+IDS  O1    .  O  0  ?  ?  ?  1  7 
+IDS  O2    .  O  0  ?  ?  ?  1  8 
+IDS  O3    .  O  0  ?  ?  ?  1  9 
+IDS  O4    .  O  0  ?  ?  ?  1  10
+IDS  O5    .  O  0  ?  ?  ?  1  11
+IDS  O61   .  O  0  ?  ?  ?  1  12
+IDS  O62   .  O  0  ?  ?  ?  1  13
+IDS  S     .  S  0  ?  ?  ?  1  14
+IDS  O1S   .  O  0  ?  ?  ?  1  15
+IDS  O2S   .  O  0  ?  ?  ?  1  16
+IDS  O3S   .  O  0  ?  ?  ?  1  17
+IDS  H1    .  H  0  ?  ?  ?  1  18
+IDS  H2    .  H  0  ?  ?  ?  1  19
+IDS  H3    .  H  0  ?  ?  ?  1  20
+IDS  H4    .  H  0  ?  ?  ?  1  21
+IDS  H5    .  H  0  ?  ?  ?  1  22
+IDS  HO1   .  H  0  ?  ?  ?  1  23
+IDS  HO3   .  H  0  ?  ?  ?  1  24
+IDS  HO4   .  H  0  ?  ?  ?  1  25
+IDS  HO6   .  H  0  ?  ?  ?  1  26
+IDS  3HOS  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IDS  C1   C2    SING  1 
+IDS  C1   O1    SING  2 
+IDS  C1   O5    SING  3 
+IDS  C1   H1    SING  4 
+IDS  C2   C3    SING  5 
+IDS  C2   O2    SING  6 
+IDS  C2   H2    SING  7 
+IDS  C3   C4    SING  8 
+IDS  C3   O3    SING  9 
+IDS  C3   H3    SING  10
+IDS  C4   C5    SING  11
+IDS  C4   O4    SING  12
+IDS  C4   H4    SING  13
+IDS  C5   C6    SING  14
+IDS  C5   O5    SING  15
+IDS  C5   H5    SING  16
+IDS  C6   O61   DOUB  17
+IDS  C6   O62   SING  18
+IDS  O1   HO1   SING  19
+IDS  O2   S     SING  20
+IDS  O3   HO3   SING  21
+IDS  O4   HO4   SING  22
+IDS  O62  HO6   SING  23
+IDS  S    O1S   DOUB  24
+IDS  S    O2S   DOUB  25
+IDS  S    O3S   SING  26
+IDS  O3S  3HOS  SING  27
+#

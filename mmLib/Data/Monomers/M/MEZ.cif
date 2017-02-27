@@ -1,0 +1,61 @@
+data_MEZ
+#
+_chem_comp.id                   MEZ
+_chem_comp.name                 '(2E)-2-METHYLBUT-2-ENEDIOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 O4'
+_chem_comp.pdbx_synonyms        'MESACONIC ACID, MESACONATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        130.100
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MEZ  O4   .  O  0  28.622  28.787  73.165  1  1 
+MEZ  C5   .  C  0  28.259  29.927  73.450  1  2 
+MEZ  O3   .  O  0  27.160  30.400  72.949  1  3 
+MEZ  C3   .  C  0  29.134  30.694  74.491  1  4 
+MEZ  C4   .  C  0  30.310  29.929  75.119  1  5 
+MEZ  C2   .  C  0  28.766  32.039  74.783  1  6 
+MEZ  C1   .  C  0  29.430  32.678  75.849  1  7 
+MEZ  O1   .  O  0  28.753  32.681  76.842  1  8 
+MEZ  O2   .  O  0  30.609  32.961  75.716  1  9 
+MEZ  HO1  .  H  0  ?       ?       ?       1  10
+MEZ  H2   .  H  0  ?       ?       ?       1  11
+MEZ  HO3  .  H  0  ?       ?       ?       1  12
+MEZ  1H4  .  H  0  ?       ?       ?       0  13
+MEZ  2H4  .  H  0  ?       ?       ?       0  14
+MEZ  3H4  .  H  0  ?       ?       ?       0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MEZ  O4  C5   DOUB  1 
+MEZ  C5  C3   SING  2 
+MEZ  C5  O3   SING  3 
+MEZ  O3  HO3  SING  4 
+MEZ  C3  C2   DOUB  5 
+MEZ  C3  C4   SING  6 
+MEZ  C4  1H4  SING  7 
+MEZ  C4  2H4  SING  8 
+MEZ  C4  3H4  SING  9 
+MEZ  C2  C1   SING  10
+MEZ  C2  H2   SING  11
+MEZ  C1  O1   SING  12
+MEZ  C1  O2   DOUB  13
+MEZ  O1  HO1  SING  14
+#

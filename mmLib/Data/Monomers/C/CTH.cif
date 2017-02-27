@@ -1,0 +1,65 @@
+data_CTH
+#
+_chem_comp.id                       CTH
+_chem_comp.name                     4-CHLOROTHREONINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H8 N1 O3 CL1'
+_chem_comp.mon_nstd_parent_comp_id  THR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            153.565
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CTH  N     .  N   0  ?  ?  ?  1  1 
+CTH  CA    .  C   0  ?  ?  ?  1  2 
+CTH  C     .  C   0  ?  ?  ?  1  3 
+CTH  O     .  O   0  ?  ?  ?  1  4 
+CTH  OXT   .  O   0  ?  ?  ?  1  5 
+CTH  CB    .  C   0  ?  ?  ?  1  6 
+CTH  CG2   .  C   0  ?  ?  ?  1  7 
+CTH  CL2   .  CL  0  ?  ?  ?  0  8 
+CTH  OG1   .  O   0  ?  ?  ?  1  9 
+CTH  1HN   .  H   0  ?  ?  ?  0  10
+CTH  2HN   .  H   0  ?  ?  ?  0  11
+CTH  HA    .  H   0  ?  ?  ?  1  12
+CTH  HB    .  H   0  ?  ?  ?  1  13
+CTH  1HG2  .  H   0  ?  ?  ?  0  14
+CTH  2HG2  .  H   0  ?  ?  ?  0  15
+CTH  HO1   .  H   0  ?  ?  ?  1  16
+CTH  HXT   .  H   0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CTH  N    CA    SING  1 
+CTH  N    1HN   SING  2 
+CTH  N    2HN   SING  3 
+CTH  CA   C     SING  4 
+CTH  CA   CB    SING  5 
+CTH  CA   HA    SING  6 
+CTH  C    O     DOUB  7 
+CTH  C    OXT   SING  8 
+CTH  OXT  HXT   SING  9 
+CTH  CB   CG2   SING  10
+CTH  CB   OG1   SING  11
+CTH  CB   HB    SING  12
+CTH  CG2  CL2   SING  13
+CTH  CG2  1HG2  SING  14
+CTH  CG2  2HG2  SING  15
+CTH  OG1  HO1   SING  16
+#

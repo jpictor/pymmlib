@@ -1,0 +1,103 @@
+data_BRQ
+#
+_chem_comp.id                   BRQ
+_chem_comp.name                 {[4-AMINO-2-(3-CHLOROANILINO)-1,3-THIAZOL-5-YL](4-FLUOROPHENYL)METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 N3 O1 CL1 F1 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       348.802
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRQ  CAL  .  C   0  33.912  -18.952  28.472  1  1 
+BRQ  CAS  .  C   0  33.652  -20.222  27.999  1  2 
+BRQ  CL   .  CL  0  32.127  -20.981  28.356  0  3 
+BRQ  CAF  .  C   0  34.608  -20.86   27.232  1  4 
+BRQ  CAE  .  C   0  35.833  -20.274  26.937  1  5 
+BRQ  CAI  .  C   0  36.097  -19.005  27.427  1  6 
+BRQ  CAT  .  C   0  35.124  -18.353  28.177  1  7 
+BRQ  NAN  .  N   0  35.321  -17.159  28.664  1  8 
+BRQ  CAV  .  C   0  35.866  -16.163  27.999  1  9 
+BRQ  SAO  .  S   0  36.464  -16.176  26.338  1  10
+BRQ  NAM  .  N   1  36.047  -14.984  28.612  1  11
+BRQ  CAR  .  C   0  36.609  -14.093  27.796  1  12
+BRQ  NAA  .  N   0  36.833  -12.885  28.241  1  13
+BRQ  CAW  .  C   0  36.903  -14.561  26.486  1  14
+BRQ  CAP  .  C   0  37.623  -13.768  25.389  1  15
+BRQ  OAB  .  O   0  38.02   -12.622  25.585  1  16
+BRQ  CAU  .  C   0  37.937  -14.468  24.083  1  17
+BRQ  CAJ  .  C   0  36.922  -15.136  23.378  1  18
+BRQ  CAG  .  C   0  37.23   -15.781  22.19   1  19
+BRQ  CAQ  .  C   0  38.536  -15.723  21.699  1  20
+BRQ  F    .  F   0  38.815  -16.335  20.536  1  21
+BRQ  CAH  .  C   0  39.539  -15.042  22.389  1  22
+BRQ  CAK  .  C   0  39.248  -14.422  23.591  1  23
+BRQ  HAL  .  H   0  33.161  -18.42   29.079  1  24
+BRQ  HAF  .  H   0  34.391  -21.868  26.841  1  25
+BRQ  HAE  .  H   0  36.58   -20.808  26.326  1  26
+BRQ  HAI  .  H   0  37.066  -18.518  27.225  1  27
+BRQ  HAM  .  H   0  35.787  -14.793  29.58   1  28
+BRQ  1H   .  H   0  37.263  -12.203  27.616  0  29
+BRQ  2H   .  H   0  36.622  -12.549  29.181  0  30
+BRQ  HAJ  .  H   0  35.89   -15.147  23.766  1  31
+BRQ  HAK  .  H   0  40.038  -13.898  24.155  1  32
+BRQ  HAG  .  H   0  36.451  -16.334  21.638  1  33
+BRQ  HAH  .  H   0  40.561  -14.998  21.977  1  34
+BRQ  HAN  .  H   0  ?       ?        ?       1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRQ  CAL  CAS  AROM  1 
+BRQ  CAL  CAT  AROM  2 
+BRQ  CAL  HAL  SING  3 
+BRQ  CAS  CL   SING  4 
+BRQ  CAS  CAF  AROM  5 
+BRQ  CAF  CAE  AROM  6 
+BRQ  CAF  HAF  SING  7 
+BRQ  CAE  CAI  AROM  8 
+BRQ  CAE  HAE  SING  9 
+BRQ  CAI  CAT  AROM  10
+BRQ  CAI  HAI  SING  11
+BRQ  CAT  NAN  SING  12
+BRQ  NAN  CAV  SING  13
+BRQ  NAN  HAN  SING  14
+BRQ  CAV  SAO  SING  15
+BRQ  CAV  NAM  DOUB  16
+BRQ  SAO  CAW  SING  17
+BRQ  NAM  CAR  SING  18
+BRQ  NAM  HAM  SING  19
+BRQ  CAR  NAA  SING  20
+BRQ  CAR  CAW  DOUB  21
+BRQ  NAA  1H   SING  22
+BRQ  NAA  2H   SING  23
+BRQ  CAW  CAP  SING  24
+BRQ  CAP  OAB  DOUB  25
+BRQ  CAP  CAU  SING  26
+BRQ  CAU  CAJ  AROM  27
+BRQ  CAU  CAK  AROM  28
+BRQ  CAJ  CAG  AROM  29
+BRQ  CAJ  HAJ  SING  30
+BRQ  CAG  CAQ  AROM  31
+BRQ  CAG  HAG  SING  32
+BRQ  CAQ  F    SING  33
+BRQ  CAQ  CAH  AROM  34
+BRQ  CAH  CAK  AROM  35
+BRQ  CAH  HAH  SING  36
+BRQ  CAK  HAK  SING  37
+#

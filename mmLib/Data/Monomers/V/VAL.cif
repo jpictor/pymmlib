@@ -1,0 +1,68 @@
+data_VAL
+#
+_chem_comp.id                   VAL
+_chem_comp.name                 VALINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        117.147
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VAL  N     .  N  0  ?  ?  ?  1  1 
+VAL  CA    .  C  0  ?  ?  ?  1  2 
+VAL  C     .  C  0  ?  ?  ?  1  3 
+VAL  O     .  O  0  ?  ?  ?  1  4 
+VAL  CB    .  C  0  ?  ?  ?  1  5 
+VAL  CG1   .  C  0  ?  ?  ?  1  6 
+VAL  CG2   .  C  0  ?  ?  ?  1  7 
+VAL  OXT   .  O  0  ?  ?  ?  1  8 
+VAL  H     .  H  0  ?  ?  ?  1  9 
+VAL  HN2   .  H  0  ?  ?  ?  1  10
+VAL  HA    .  H  0  ?  ?  ?  1  11
+VAL  HB    .  H  0  ?  ?  ?  1  12
+VAL  1HG1  .  H  0  ?  ?  ?  0  13
+VAL  2HG1  .  H  0  ?  ?  ?  0  14
+VAL  3HG1  .  H  0  ?  ?  ?  0  15
+VAL  1HG2  .  H  0  ?  ?  ?  0  16
+VAL  2HG2  .  H  0  ?  ?  ?  0  17
+VAL  3HG2  .  H  0  ?  ?  ?  0  18
+VAL  HXT   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VAL  N    CA    SING  1 
+VAL  N    H     SING  2 
+VAL  N    HN2   SING  3 
+VAL  CA   C     SING  4 
+VAL  CA   CB    SING  5 
+VAL  CA   HA    SING  6 
+VAL  C    O     DOUB  7 
+VAL  C    OXT   SING  8 
+VAL  CB   CG1   SING  9 
+VAL  CB   CG2   SING  10
+VAL  CB   HB    SING  11
+VAL  CG1  1HG1  SING  12
+VAL  CG1  2HG1  SING  13
+VAL  CG1  3HG1  SING  14
+VAL  CG2  1HG2  SING  15
+VAL  CG2  2HG2  SING  16
+VAL  CG2  3HG2  SING  17
+VAL  OXT  HXT   SING  18
+#

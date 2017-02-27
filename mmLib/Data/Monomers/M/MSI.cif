@@ -1,0 +1,130 @@
+data_MSI
+#
+_chem_comp.id                   MSI
+_chem_comp.name                 1-METHYL-5-(2-PHENOXYMETHYL-PYRROLIDINE-1-SULFONYL)-1H-INDOLE-2,3-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H20 N2 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        400.448
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSI  S1    .  S  0  ?  ?  ?  1  1 
+MSI  N1    .  N  0  ?  ?  ?  1  2 
+MSI  N2    .  N  0  ?  ?  ?  1  3 
+MSI  O1    .  O  0  ?  ?  ?  1  4 
+MSI  O2    .  O  0  ?  ?  ?  1  5 
+MSI  O3    .  O  0  ?  ?  ?  1  6 
+MSI  O4    .  O  0  ?  ?  ?  1  7 
+MSI  O5    .  O  0  ?  ?  ?  1  8 
+MSI  C2    .  C  0  ?  ?  ?  1  9 
+MSI  C3    .  C  0  ?  ?  ?  1  10
+MSI  C4    .  C  0  ?  ?  ?  1  11
+MSI  C5    .  C  0  ?  ?  ?  1  12
+MSI  C6    .  C  0  ?  ?  ?  1  13
+MSI  C7    .  C  0  ?  ?  ?  1  14
+MSI  C8    .  C  0  ?  ?  ?  1  15
+MSI  C9    .  C  0  ?  ?  ?  1  16
+MSI  C20   .  C  0  ?  ?  ?  1  17
+MSI  C10   .  C  0  ?  ?  ?  1  18
+MSI  C11   .  C  0  ?  ?  ?  1  19
+MSI  C12   .  C  0  ?  ?  ?  1  20
+MSI  C13   .  C  0  ?  ?  ?  1  21
+MSI  C14   .  C  0  ?  ?  ?  1  22
+MSI  C15   .  C  0  ?  ?  ?  1  23
+MSI  C16   .  C  0  ?  ?  ?  1  24
+MSI  C17   .  C  0  ?  ?  ?  1  25
+MSI  C18   .  C  0  ?  ?  ?  1  26
+MSI  C19   .  C  0  ?  ?  ?  1  27
+MSI  C1    .  C  0  ?  ?  ?  1  28
+MSI  1HC1  .  H  0  ?  ?  ?  0  29
+MSI  2HC1  .  H  0  ?  ?  ?  0  30
+MSI  3HC1  .  H  0  ?  ?  ?  0  31
+MSI  HC7   .  H  0  ?  ?  ?  1  32
+MSI  HC6   .  H  0  ?  ?  ?  1  33
+MSI  HC4   .  H  0  ?  ?  ?  1  34
+MSI  1H12  .  H  0  ?  ?  ?  0  35
+MSI  2H12  .  H  0  ?  ?  ?  0  36
+MSI  1H11  .  H  0  ?  ?  ?  0  37
+MSI  2H11  .  H  0  ?  ?  ?  0  38
+MSI  1H10  .  H  0  ?  ?  ?  0  39
+MSI  2H10  .  H  0  ?  ?  ?  0  40
+MSI  H20   .  H  0  ?  ?  ?  1  41
+MSI  1H13  .  H  0  ?  ?  ?  0  42
+MSI  2H13  .  H  0  ?  ?  ?  0  43
+MSI  HC15  .  H  0  ?  ?  ?  0  44
+MSI  HC16  .  H  0  ?  ?  ?  0  45
+MSI  HC17  .  H  0  ?  ?  ?  0  46
+MSI  HC18  .  H  0  ?  ?  ?  0  47
+MSI  HC19  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSI  S1   N2    SING  1 
+MSI  S1   O4    DOUB  2 
+MSI  S1   O5    DOUB  3 
+MSI  S1   C5    SING  4 
+MSI  N1   C2    SING  5 
+MSI  N1   C8    SING  6 
+MSI  N1   C1    SING  7 
+MSI  N2   C20   SING  8 
+MSI  N2   C12   SING  9 
+MSI  O1   C13   SING  10
+MSI  O1   C14   SING  11
+MSI  O2   C2    DOUB  12
+MSI  O3   C3    DOUB  13
+MSI  C2   C3    SING  14
+MSI  C3   C9    SING  15
+MSI  C4   C5    DOUB  16
+MSI  C4   C9    SING  17
+MSI  C4   HC4   SING  18
+MSI  C5   C6    SING  19
+MSI  C6   C7    DOUB  20
+MSI  C6   HC6   SING  21
+MSI  C7   C8    SING  22
+MSI  C7   HC7   SING  23
+MSI  C8   C9    DOUB  24
+MSI  C20  C10   SING  25
+MSI  C20  C13   SING  26
+MSI  C20  H20   SING  27
+MSI  C10  C11   SING  28
+MSI  C10  1H10  SING  29
+MSI  C10  2H10  SING  30
+MSI  C11  C12   SING  31
+MSI  C11  1H11  SING  32
+MSI  C11  2H11  SING  33
+MSI  C12  1H12  SING  34
+MSI  C12  2H12  SING  35
+MSI  C13  1H13  SING  36
+MSI  C13  2H13  SING  37
+MSI  C14  C15   DOUB  38
+MSI  C14  C19   SING  39
+MSI  C15  C16   SING  40
+MSI  C15  HC15  SING  41
+MSI  C16  C17   DOUB  42
+MSI  C16  HC16  SING  43
+MSI  C17  C18   SING  44
+MSI  C17  HC17  SING  45
+MSI  C18  C19   DOUB  46
+MSI  C18  HC18  SING  47
+MSI  C19  HC19  SING  48
+MSI  C1   1HC1  SING  49
+MSI  C1   2HC1  SING  50
+MSI  C1   3HC1  SING  51
+#

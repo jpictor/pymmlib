@@ -1,0 +1,105 @@
+data_LTA
+#
+_chem_comp.id                   LTA
+_chem_comp.name                 '4,8-DIAMINO-3-HYDROXY-OCTANOIC ACID ETHYL ESTER'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C10 H22 N2 O3'
+_chem_comp.pdbx_synonyms        'STATINE ANALOGUE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        218.295
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LTA  N     .  N  0  ?  ?  ?  1  1 
+LTA  CA    .  C  0  ?  ?  ?  1  2 
+LTA  CB    .  C  0  ?  ?  ?  1  3 
+LTA  CG    .  C  0  ?  ?  ?  1  4 
+LTA  CD    .  C  0  ?  ?  ?  1  5 
+LTA  CE    .  C  0  ?  ?  ?  1  6 
+LTA  NZ    .  N  0  ?  ?  ?  1  7 
+LTA  C     .  C  0  ?  ?  ?  1  8 
+LTA  O     .  O  0  ?  ?  ?  1  9 
+LTA  C2    .  C  0  ?  ?  ?  1  10
+LTA  C1    .  C  0  ?  ?  ?  1  11
+LTA  O1    .  O  0  ?  ?  ?  1  12
+LTA  O2    .  O  0  ?  ?  ?  1  13
+LTA  C9    .  C  0  ?  ?  ?  1  14
+LTA  C10   .  C  0  ?  ?  ?  1  15
+LTA  HO    .  H  0  ?  ?  ?  1  16
+LTA  H     .  H  0  ?  ?  ?  1  17
+LTA  HA    .  H  0  ?  ?  ?  1  18
+LTA  1HN   .  H  0  ?  ?  ?  0  19
+LTA  2HN   .  H  0  ?  ?  ?  0  20
+LTA  1HB   .  H  0  ?  ?  ?  0  21
+LTA  2HB   .  H  0  ?  ?  ?  0  22
+LTA  1HG   .  H  0  ?  ?  ?  0  23
+LTA  2HG   .  H  0  ?  ?  ?  0  24
+LTA  1HD   .  H  0  ?  ?  ?  0  25
+LTA  2HD   .  H  0  ?  ?  ?  0  26
+LTA  1HE   .  H  0  ?  ?  ?  0  27
+LTA  2HE   .  H  0  ?  ?  ?  0  28
+LTA  1HZ   .  H  0  ?  ?  ?  0  29
+LTA  2HZ   .  H  0  ?  ?  ?  0  30
+LTA  1H2   .  H  0  ?  ?  ?  0  31
+LTA  2H2   .  H  0  ?  ?  ?  0  32
+LTA  1H9   .  H  0  ?  ?  ?  0  33
+LTA  2H9   .  H  0  ?  ?  ?  0  34
+LTA  1H10  .  H  0  ?  ?  ?  0  35
+LTA  2H10  .  H  0  ?  ?  ?  0  36
+LTA  3H10  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LTA  N    CA    SING  1 
+LTA  N    1HN   SING  2 
+LTA  N    2HN   SING  3 
+LTA  CA   C     SING  4 
+LTA  CA   CB    SING  5 
+LTA  CA   HA    SING  6 
+LTA  CB   CG    SING  7 
+LTA  CB   1HB   SING  8 
+LTA  CB   2HB   SING  9 
+LTA  CG   CD    SING  10
+LTA  CG   1HG   SING  11
+LTA  CG   2HG   SING  12
+LTA  CD   CE    SING  13
+LTA  CD   1HD   SING  14
+LTA  CD   2HD   SING  15
+LTA  CE   NZ    SING  16
+LTA  CE   1HE   SING  17
+LTA  CE   2HE   SING  18
+LTA  NZ   1HZ   SING  19
+LTA  NZ   2HZ   SING  20
+LTA  C    C2    SING  21
+LTA  C    O     SING  22
+LTA  C    H     SING  23
+LTA  O    HO    SING  24
+LTA  C2   C1    SING  25
+LTA  C2   1H2   SING  26
+LTA  C2   2H2   SING  27
+LTA  C1   O1    DOUB  28
+LTA  C1   O2    SING  29
+LTA  O2   C9    SING  30
+LTA  C9   C10   SING  31
+LTA  C9   1H9   SING  32
+LTA  C9   2H9   SING  33
+LTA  C10  1H10  SING  34
+LTA  C10  2H10  SING  35
+LTA  C10  3H10  SING  36
+#

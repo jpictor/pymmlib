@@ -1,0 +1,94 @@
+data_HTC
+#
+_chem_comp.id                   HTC
+_chem_comp.name                 '3-{[(4-CARBOXY-2-HYDROXYANILINE]SULFONYL}THIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N1 O7 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        343.326
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTC  N1   .  N  0  -2.041  4.063  74.769  1  1 
+HTC  S13  .  S  0  -3.197  5.327  74.368  1  2 
+HTC  O17  .  O  0  -3.179  6.304  75.398  1  3 
+HTC  O16  .  O  0  -4.494  4.710  74.277  1  4 
+HTC  C15  .  C  0  -2.857  6.154  72.770  1  5 
+HTC  C19  .  C  0  -2.638  7.524  72.613  1  6 
+HTC  C22  .  C  0  -2.416  7.794  71.255  1  7 
+HTC  S20  .  S  0  -2.493  6.591  70.543  1  8 
+HTC  C18  .  C  0  -2.773  5.545  71.504  1  9 
+HTC  C21  .  C  0  -2.943  4.059  71.197  1  10
+HTC  O24  .  O  0  -2.836  3.658  70.014  1  11
+HTC  O23  .  O  0  -3.206  3.170  72.178  1  12
+HTC  C2   .  C  0  -0.751  4.399  75.251  1  13
+HTC  C4   .  C  0  -0.484  4.306  76.658  1  14
+HTC  C6   .  C  0  0.788   4.635  77.179  1  15
+HTC  C7   .  C  0  1.834   5.066  76.288  1  16
+HTC  C5   .  C  0  1.585   5.160  74.862  1  17
+HTC  C3   .  C  0  0.286   4.826  74.337  1  18
+HTC  O1   .  O  0  -1.471  3.895  77.503  1  19
+HTC  C    .  C  0  3.199   5.422  76.862  1  20
+HTC  O    .  O  0  4.180   5.817  76.055  1  21
+HTC  O25  .  O  0  3.403   5.348  78.084  1  22
+HTC  H24  .  H  0  ?       ?      ?       1  23
+HTC  H19  .  H  0  ?       ?      ?       1  24
+HTC  H22  .  H  0  ?       ?      ?       1  25
+HTC  HN1  .  H  0  ?       ?      ?       1  26
+HTC  H3   .  H  0  ?       ?      ?       1  27
+HTC  H5   .  H  0  ?       ?      ?       1  28
+HTC  H6   .  H  0  ?       ?      ?       1  29
+HTC  HO1  .  H  0  ?       ?      ?       1  30
+HTC  HO   .  H  0  ?       ?      ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTC  N1   S13  SING  1 
+HTC  N1   C2   SING  2 
+HTC  N1   HN1  SING  3 
+HTC  S13  C15  SING  4 
+HTC  S13  O17  DOUB  5 
+HTC  S13  O16  DOUB  6 
+HTC  C15  C18  DOUB  7 
+HTC  C15  C19  SING  8 
+HTC  C19  C22  DOUB  9 
+HTC  C19  H19  SING  10
+HTC  C22  S20  SING  11
+HTC  C22  H22  SING  12
+HTC  S20  C18  SING  13
+HTC  C18  C21  SING  14
+HTC  C21  O24  SING  15
+HTC  C21  O23  DOUB  16
+HTC  O24  H24  SING  17
+HTC  C2   C3   AROM  18
+HTC  C2   C4   AROM  19
+HTC  C4   C6   AROM  20
+HTC  C4   O1   SING  21
+HTC  C6   C7   AROM  22
+HTC  C6   H6   SING  23
+HTC  C7   C5   AROM  24
+HTC  C7   C    SING  25
+HTC  C5   C3   AROM  26
+HTC  C5   H5   SING  27
+HTC  C3   H3   SING  28
+HTC  O1   HO1  SING  29
+HTC  C    O    SING  30
+HTC  C    O25  DOUB  31
+HTC  O    HO   SING  32
+#

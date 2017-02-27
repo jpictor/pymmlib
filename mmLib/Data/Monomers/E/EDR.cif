@@ -1,0 +1,87 @@
+data_EDR
+#
+_chem_comp.id                   EDR
+_chem_comp.name                 'EDROPHONIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C10 H16 N1 O1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       166.243
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EDR  C1    .  C  0  ?  ?  ?  1  1 
+EDR  C2    .  C  0  ?  ?  ?  1  2 
+EDR  C3    .  C  0  ?  ?  ?  1  3 
+EDR  C4    .  C  0  ?  ?  ?  1  4 
+EDR  C5    .  C  0  ?  ?  ?  1  5 
+EDR  C6    .  C  0  ?  ?  ?  1  6 
+EDR  O4    .  O  0  ?  ?  ?  1  7 
+EDR  N2    .  N  1  ?  ?  ?  1  8 
+EDR  C7    .  C  0  ?  ?  ?  1  9 
+EDR  C8    .  C  0  ?  ?  ?  1  10
+EDR  C9    .  C  0  ?  ?  ?  1  11
+EDR  C10   .  C  0  ?  ?  ?  1  12
+EDR  H1    .  H  0  ?  ?  ?  1  13
+EDR  H3    .  H  0  ?  ?  ?  1  14
+EDR  H5    .  H  0  ?  ?  ?  1  15
+EDR  H6    .  H  0  ?  ?  ?  1  16
+EDR  1H7   .  H  0  ?  ?  ?  0  17
+EDR  2H7   .  H  0  ?  ?  ?  0  18
+EDR  3H7   .  H  0  ?  ?  ?  0  19
+EDR  1H8   .  H  0  ?  ?  ?  0  20
+EDR  2H8   .  H  0  ?  ?  ?  0  21
+EDR  3H8   .  H  0  ?  ?  ?  0  22
+EDR  1H9   .  H  0  ?  ?  ?  0  23
+EDR  2H9   .  H  0  ?  ?  ?  0  24
+EDR  1H10  .  H  0  ?  ?  ?  0  25
+EDR  2H10  .  H  0  ?  ?  ?  0  26
+EDR  3H10  .  H  0  ?  ?  ?  0  27
+EDR  HO4   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EDR  C1   C2    DOUB  1 
+EDR  C1   C6    SING  2 
+EDR  C1   H1    SING  3 
+EDR  C2   C3    SING  4 
+EDR  C2   N2    SING  5 
+EDR  C3   C4    DOUB  6 
+EDR  C3   H3    SING  7 
+EDR  C4   C5    SING  8 
+EDR  C4   O4    SING  9 
+EDR  C5   C6    DOUB  10
+EDR  C5   H5    SING  11
+EDR  C6   H6    SING  12
+EDR  O4   HO4   SING  13
+EDR  N2   C7    SING  14
+EDR  N2   C8    SING  15
+EDR  N2   C9    SING  16
+EDR  C7   1H7   SING  17
+EDR  C7   2H7   SING  18
+EDR  C7   3H7   SING  19
+EDR  C8   1H8   SING  20
+EDR  C8   2H8   SING  21
+EDR  C8   3H8   SING  22
+EDR  C9   C10   SING  23
+EDR  C9   1H9   SING  24
+EDR  C9   2H9   SING  25
+EDR  C10  1H10  SING  26
+EDR  C10  2H10  SING  27
+EDR  C10  3H10  SING  28
+#

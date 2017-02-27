@@ -1,0 +1,88 @@
+data_LPM
+#
+_chem_comp.id                   LPM
+_chem_comp.name                 '6,8-DIMERCAPTO-OCTANOIC ACID AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H17 N1 O1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        207.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LPM  C1   .  C  0  ?  ?  ?  1  1 
+LPM  O    .  O  0  ?  ?  ?  1  2 
+LPM  N    .  N  0  ?  ?  ?  1  3 
+LPM  C2   .  C  0  ?  ?  ?  1  4 
+LPM  C3   .  C  0  ?  ?  ?  1  5 
+LPM  C4   .  C  0  ?  ?  ?  1  6 
+LPM  C5   .  C  0  ?  ?  ?  1  7 
+LPM  C6   .  C  0  ?  ?  ?  1  8 
+LPM  S6   .  S  0  ?  ?  ?  1  9 
+LPM  C7   .  C  0  ?  ?  ?  1  10
+LPM  C8   .  C  0  ?  ?  ?  1  11
+LPM  S8   .  S  0  ?  ?  ?  1  12
+LPM  1HN  .  H  0  ?  ?  ?  0  13
+LPM  2HN  .  H  0  ?  ?  ?  0  14
+LPM  1H2  .  H  0  ?  ?  ?  0  15
+LPM  2H2  .  H  0  ?  ?  ?  0  16
+LPM  1H3  .  H  0  ?  ?  ?  0  17
+LPM  2H3  .  H  0  ?  ?  ?  0  18
+LPM  1H4  .  H  0  ?  ?  ?  0  19
+LPM  2H4  .  H  0  ?  ?  ?  0  20
+LPM  1H5  .  H  0  ?  ?  ?  0  21
+LPM  2H5  .  H  0  ?  ?  ?  0  22
+LPM  H6   .  H  0  ?  ?  ?  1  23
+LPM  HS6  .  H  0  ?  ?  ?  1  24
+LPM  1H7  .  H  0  ?  ?  ?  0  25
+LPM  2H7  .  H  0  ?  ?  ?  0  26
+LPM  1H8  .  H  0  ?  ?  ?  0  27
+LPM  2H8  .  H  0  ?  ?  ?  0  28
+LPM  HS8  .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LPM  C1  C2   SING  1 
+LPM  C1  N    SING  2 
+LPM  C1  O    DOUB  3 
+LPM  N   1HN  SING  4 
+LPM  N   2HN  SING  5 
+LPM  C2  C3   SING  6 
+LPM  C2  1H2  SING  7 
+LPM  C2  2H2  SING  8 
+LPM  C3  C4   SING  9 
+LPM  C3  1H3  SING  10
+LPM  C3  2H3  SING  11
+LPM  C4  C5   SING  12
+LPM  C4  1H4  SING  13
+LPM  C4  2H4  SING  14
+LPM  C5  C6   SING  15
+LPM  C5  1H5  SING  16
+LPM  C5  2H5  SING  17
+LPM  C6  C7   SING  18
+LPM  C6  S6   SING  19
+LPM  C6  H6   SING  20
+LPM  S6  HS6  SING  21
+LPM  C7  C8   SING  22
+LPM  C7  1H7  SING  23
+LPM  C7  2H7  SING  24
+LPM  C8  S8   SING  25
+LPM  C8  1H8  SING  26
+LPM  C8  2H8  SING  27
+LPM  S8  HS8  SING  28
+#

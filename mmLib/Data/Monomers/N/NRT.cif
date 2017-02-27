@@ -1,0 +1,93 @@
+data_NRT
+#
+_chem_comp.id                   NRT
+_chem_comp.name                 6-(TETRAHYDRO-2-FURANYLMETHOXY)-9H-PURIN-2-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NRT  C2    .  C  0  2.03    29.045  6.271   1  1 
+NRT  C4    .  C  0  .437    30.492  7.201   1  2 
+NRT  C5    .  C  0  .031    29.421  8.095   1  3 
+NRT  C4*   .  C  0  .841    25.226  10.254  1  4 
+NRT  O4*   .  O  0  -.52    24.863  9.978   1  5 
+NRT  C3*   .  C  0  .72     22.806  10.273  1  6 
+NRT  C2*   .  C  0  1.69    23.956  10.158  1  7 
+NRT  N9    .  N  0  -.363   31.494  7.555   1  8 
+NRT  N3    .  N  0  1.421   30.249  6.32    1  9 
+NRT  N2    .  N  0  3.038   28.831  5.392   1  10
+NRT  N1    .  N  0  1.696   28.003  7.094   1  11
+NRT  C6    .  C  0  .703    28.123  8.004   1  12
+NRT  O6    .  O  0  .322    27.126  8.831   1  13
+NRT  C60   .  C  0  1.364   26.245  9.251   1  14
+NRT  C14   .  C  0  -.659   23.432  10.01   1  15
+NRT  N7    .  N  0  -.965   29.809  8.886   1  16
+NRT  C8    .  C  0  -1.209  31.078  8.543   1  17
+NRT  1H2N  .  H  0  3.287   29.607  4.779   0  18
+NRT  2H2N  .  H  0  3.498   27.921  5.355   0  19
+NRT  H8    .  H  0  -1.992  31.707  8.999   1  20
+NRT  H9    .  H  0  -.347   32.43   7.15    1  21
+NRT  1H60  .  H  0  2.241   26.805  9.652   0  22
+NRT  2H60  .  H  0  1.861   25.752  8.384   0  23
+NRT  H4*   .  H  0  .913    25.646  11.284  1  24
+NRT  1H2*  .  H  0  2.52    23.916  10.901  0  25
+NRT  2H2*  .  H  0  2.328   23.913  9.244   0  26
+NRT  1H3*  .  H  0  .789    22.249  11.236  0  27
+NRT  2H3*  .  H  0  .96     21.942  9.611   0  28
+NRT  1H14  .  H  0  -1.14   23.03   9.088   0  29
+NRT  2H14  .  H  0  -1.427  23.095  10.745  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NRT  C2   N1    AROM  1 
+NRT  C2   N3    AROM  2 
+NRT  C2   N2    SING  3 
+NRT  C4   N9    SING  4 
+NRT  C4   N3    AROM  5 
+NRT  C4   C5    AROM  6 
+NRT  C5   N7    SING  7 
+NRT  C5   C6    AROM  8 
+NRT  C4*  C2*   SING  9 
+NRT  C4*  O4*   SING  10
+NRT  C4*  H4*   SING  11
+NRT  C4*  C60   SING  12
+NRT  O4*  C14   SING  13
+NRT  C3*  C14   SING  14
+NRT  C3*  1H3*  SING  15
+NRT  C3*  2H3*  SING  16
+NRT  C3*  C2*   SING  17
+NRT  C2*  1H2*  SING  18
+NRT  C2*  2H2*  SING  19
+NRT  N9   H9    SING  20
+NRT  N9   C8    SING  21
+NRT  N2   1H2N  SING  22
+NRT  N2   2H2N  SING  23
+NRT  N1   C6    AROM  24
+NRT  C6   O6    SING  25
+NRT  O6   C60   SING  26
+NRT  C60  1H60  SING  27
+NRT  C60  2H60  SING  28
+NRT  C14  1H14  SING  29
+NRT  C14  2H14  SING  30
+NRT  N7   C8    DOUB  31
+NRT  C8   H8    SING  32
+#

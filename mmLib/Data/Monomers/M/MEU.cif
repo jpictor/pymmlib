@@ -1,0 +1,57 @@
+data_MEU
+#
+_chem_comp.id                       MEU
+_chem_comp.name                     O-METHYL-GLYCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            89.094
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MEU  CB   .  C  0  13.056  20.251  68.824  1  1 
+MEU  OXT  .  O  0  14.474  20.198  69.027  1  2 
+MEU  N    .  N  0  17.156  20.776  67.899  1  3 
+MEU  CA   .  C  0  16.753  21.055  69.264  1  4 
+MEU  C    .  C  0  15.254  21.257  69.376  1  5 
+MEU  O    .  O  0  14.786  22.340  69.727  1  6 
+MEU  1HN  .  H  0  ?       ?       ?       0  7 
+MEU  2HN  .  H  0  ?       ?       ?       0  8 
+MEU  1HA  .  H  0  ?       ?       ?       0  9 
+MEU  2HA  .  H  0  ?       ?       ?       0  10
+MEU  1HB  .  H  0  ?       ?       ?       0  11
+MEU  2HB  .  H  0  ?       ?       ?       0  12
+MEU  3HB  .  H  0  ?       ?       ?       0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MEU  CB   OXT  SING  1 
+MEU  CB   1HB  SING  2 
+MEU  CB   2HB  SING  3 
+MEU  CB   3HB  SING  4 
+MEU  OXT  C    SING  5 
+MEU  N    1HN  SING  6 
+MEU  N    2HN  SING  7 
+MEU  N    CA   SING  8 
+MEU  CA   1HA  SING  9 
+MEU  CA   2HA  SING  10
+MEU  CA   C    SING  11
+MEU  C    O    DOUB  12
+#

@@ -1,0 +1,101 @@
+data_PRP
+#
+_chem_comp.id                   PRP
+_chem_comp.name                 'ALPHA-PHOSPHORIBOSYLPYROPHOSPHORIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 O14 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        390.071
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PRP  C1    .  C  0  ?  ?  ?  1  1 
+PRP  C2    .  C  0  ?  ?  ?  1  2 
+PRP  C3    .  C  0  ?  ?  ?  1  3 
+PRP  C4    .  C  0  ?  ?  ?  1  4 
+PRP  C5    .  C  0  ?  ?  ?  1  5 
+PRP  O1    .  O  0  ?  ?  ?  1  6 
+PRP  O2    .  O  0  ?  ?  ?  1  7 
+PRP  O3    .  O  0  ?  ?  ?  1  8 
+PRP  O4    .  O  0  ?  ?  ?  1  9 
+PRP  O5    .  O  0  ?  ?  ?  1  10
+PRP  P     .  P  0  ?  ?  ?  1  11
+PRP  O1P   .  O  0  ?  ?  ?  1  12
+PRP  O2P   .  O  0  ?  ?  ?  1  13
+PRP  O3P   .  O  0  ?  ?  ?  1  14
+PRP  PA    .  P  0  ?  ?  ?  1  15
+PRP  O1A   .  O  0  ?  ?  ?  1  16
+PRP  O2A   .  O  0  ?  ?  ?  1  17
+PRP  O3A   .  O  0  ?  ?  ?  1  18
+PRP  PB    .  P  0  ?  ?  ?  1  19
+PRP  O1B   .  O  0  ?  ?  ?  1  20
+PRP  O2B   .  O  0  ?  ?  ?  1  21
+PRP  O3B   .  O  0  ?  ?  ?  1  22
+PRP  H1    .  H  0  ?  ?  ?  1  23
+PRP  H2    .  H  0  ?  ?  ?  1  24
+PRP  H3    .  H  0  ?  ?  ?  1  25
+PRP  H4    .  H  0  ?  ?  ?  1  26
+PRP  1H5   .  H  0  ?  ?  ?  0  27
+PRP  2H5   .  H  0  ?  ?  ?  0  28
+PRP  HO2   .  H  0  ?  ?  ?  1  29
+PRP  HO3   .  H  0  ?  ?  ?  1  30
+PRP  2HOP  .  H  0  ?  ?  ?  0  31
+PRP  3HOP  .  H  0  ?  ?  ?  0  32
+PRP  2HOA  .  H  0  ?  ?  ?  0  33
+PRP  2HOB  .  H  0  ?  ?  ?  0  34
+PRP  3HOB  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PRP  C1   C2    SING  1 
+PRP  C1   O1    SING  2 
+PRP  C1   O4    SING  3 
+PRP  C1   H1    SING  4 
+PRP  C2   C3    SING  5 
+PRP  C2   O2    SING  6 
+PRP  C2   H2    SING  7 
+PRP  C3   C4    SING  8 
+PRP  C3   O3    SING  9 
+PRP  C3   H3    SING  10
+PRP  C4   C5    SING  11
+PRP  C4   O4    SING  12
+PRP  C4   H4    SING  13
+PRP  C5   O5    SING  14
+PRP  C5   1H5   SING  15
+PRP  C5   2H5   SING  16
+PRP  O1   PA    SING  17
+PRP  O2   HO2   SING  18
+PRP  O3   HO3   SING  19
+PRP  O5   P     SING  20
+PRP  P    O1P   DOUB  21
+PRP  P    O2P   SING  22
+PRP  P    O3P   SING  23
+PRP  O2P  2HOP  SING  24
+PRP  O3P  3HOP  SING  25
+PRP  PA   O1A   DOUB  26
+PRP  PA   O2A   SING  27
+PRP  PA   O3A   SING  28
+PRP  O2A  2HOA  SING  29
+PRP  O3A  PB    SING  30
+PRP  PB   O1B   DOUB  31
+PRP  PB   O2B   SING  32
+PRP  PB   O3B   SING  33
+PRP  O2B  2HOB  SING  34
+PRP  O3B  3HOB  SING  35
+#

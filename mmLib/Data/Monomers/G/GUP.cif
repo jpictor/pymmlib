@@ -1,0 +1,79 @@
+data_GUP
+#
+_chem_comp.id                   GUP
+_chem_comp.name                 BETA-L-GULOPYRANOSIDE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GUP  O5   .  O  0  ?  ?  ?  1  1 
+GUP  C1   .  C  0  ?  ?  ?  1  2 
+GUP  O1   .  O  0  ?  ?  ?  1  3 
+GUP  C2   .  C  0  ?  ?  ?  1  4 
+GUP  O2   .  O  0  ?  ?  ?  1  5 
+GUP  C3   .  C  0  ?  ?  ?  1  6 
+GUP  O3   .  O  0  ?  ?  ?  1  7 
+GUP  C4   .  C  0  ?  ?  ?  1  8 
+GUP  O4   .  O  0  ?  ?  ?  1  9 
+GUP  C5   .  C  0  ?  ?  ?  1  10
+GUP  C6   .  C  0  ?  ?  ?  1  11
+GUP  O6   .  O  0  ?  ?  ?  1  12
+GUP  H1   .  H  0  ?  ?  ?  1  13
+GUP  HO1  .  H  0  ?  ?  ?  1  14
+GUP  H2   .  H  0  ?  ?  ?  1  15
+GUP  H3   .  H  0  ?  ?  ?  1  16
+GUP  HO3  .  H  0  ?  ?  ?  1  17
+GUP  H4   .  H  0  ?  ?  ?  1  18
+GUP  HO4  .  H  0  ?  ?  ?  1  19
+GUP  H5   .  H  0  ?  ?  ?  1  20
+GUP  1H6  .  H  0  ?  ?  ?  0  21
+GUP  2H6  .  H  0  ?  ?  ?  0  22
+GUP  HO6  .  H  0  ?  ?  ?  1  23
+GUP  HO2  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GUP  O5  C1   SING  1 
+GUP  O5  C5   SING  2 
+GUP  C1  H1   SING  3 
+GUP  C1  C2   SING  4 
+GUP  C1  O1   SING  5 
+GUP  O1  HO1  SING  6 
+GUP  C2  H2   SING  7 
+GUP  C2  O2   SING  8 
+GUP  C2  C3   SING  9 
+GUP  O2  HO2  SING  10
+GUP  C3  H3   SING  11
+GUP  C3  O3   SING  12
+GUP  C3  C4   SING  13
+GUP  O3  HO3  SING  14
+GUP  C4  H4   SING  15
+GUP  C4  O4   SING  16
+GUP  C4  C5   SING  17
+GUP  O4  HO4  SING  18
+GUP  C5  H5   SING  19
+GUP  C5  C6   SING  20
+GUP  C6  1H6  SING  21
+GUP  C6  2H6  SING  22
+GUP  C6  O6   SING  23
+GUP  O6  HO6  SING  24
+#

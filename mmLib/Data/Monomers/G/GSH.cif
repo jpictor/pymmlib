@@ -1,0 +1,104 @@
+data_GSH
+#
+_chem_comp.id                   GSH
+_chem_comp.name                 GLUTATHIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        307.321
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSH  N1    .  N  0  ?  ?  ?  1  1 
+GSH  CA1   .  C  0  ?  ?  ?  1  2 
+GSH  C1    .  C  0  ?  ?  ?  1  3 
+GSH  O11   .  O  0  ?  ?  ?  1  4 
+GSH  O12   .  O  0  ?  ?  ?  1  5 
+GSH  CB1   .  C  0  ?  ?  ?  1  6 
+GSH  CG1   .  C  0  ?  ?  ?  1  7 
+GSH  CD1   .  C  0  ?  ?  ?  1  8 
+GSH  OE1   .  O  0  ?  ?  ?  1  9 
+GSH  N2    .  N  0  ?  ?  ?  1  10
+GSH  CA2   .  C  0  ?  ?  ?  1  11
+GSH  C2    .  C  0  ?  ?  ?  1  12
+GSH  O2    .  O  0  ?  ?  ?  1  13
+GSH  CB2   .  C  0  ?  ?  ?  1  14
+GSH  SG2   .  S  0  ?  ?  ?  1  15
+GSH  N3    .  N  0  ?  ?  ?  1  16
+GSH  CA3   .  C  0  ?  ?  ?  1  17
+GSH  C3    .  C  0  ?  ?  ?  1  18
+GSH  O31   .  O  0  ?  ?  ?  1  19
+GSH  O32   .  O  0  ?  ?  ?  1  20
+GSH  2HB2  .  H  0  ?  ?  ?  0  21
+GSH  3HB2  .  H  0  ?  ?  ?  0  22
+GSH  HSG   .  H  0  ?  ?  ?  1  23
+GSH  HA2   .  H  0  ?  ?  ?  1  24
+GSH  HN2   .  H  0  ?  ?  ?  1  25
+GSH  2HG1  .  H  0  ?  ?  ?  0  26
+GSH  3HG1  .  H  0  ?  ?  ?  0  27
+GSH  2HB1  .  H  0  ?  ?  ?  0  28
+GSH  3HB1  .  H  0  ?  ?  ?  0  29
+GSH  HA1   .  H  0  ?  ?  ?  1  30
+GSH  1HN1  .  H  0  ?  ?  ?  0  31
+GSH  2HN1  .  H  0  ?  ?  ?  0  32
+GSH  H12   .  H  0  ?  ?  ?  1  33
+GSH  HN3   .  H  0  ?  ?  ?  1  34
+GSH  1HA3  .  H  0  ?  ?  ?  0  35
+GSH  2HA3  .  H  0  ?  ?  ?  0  36
+GSH  H32   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSH  N1   CA1   SING  1 
+GSH  N1   1HN1  SING  2 
+GSH  N1   2HN1  SING  3 
+GSH  CA1  C1    SING  4 
+GSH  CA1  CB1   SING  5 
+GSH  CA1  HA1   SING  6 
+GSH  C1   O11   DOUB  7 
+GSH  C1   O12   SING  8 
+GSH  O12  H12   SING  9 
+GSH  CB1  CG1   SING  10
+GSH  CB1  2HB1  SING  11
+GSH  CB1  3HB1  SING  12
+GSH  CG1  CD1   SING  13
+GSH  CG1  2HG1  SING  14
+GSH  CG1  3HG1  SING  15
+GSH  CD1  OE1   DOUB  16
+GSH  CD1  N2    SING  17
+GSH  N2   CA2   SING  18
+GSH  N2   HN2   SING  19
+GSH  CA2  C2    SING  20
+GSH  CA2  CB2   SING  21
+GSH  CA2  HA2   SING  22
+GSH  C2   O2    DOUB  23
+GSH  C2   N3    SING  24
+GSH  CB2  SG2   SING  25
+GSH  CB2  2HB2  SING  26
+GSH  CB2  3HB2  SING  27
+GSH  SG2  HSG   SING  28
+GSH  N3   CA3   SING  29
+GSH  N3   HN3   SING  30
+GSH  CA3  C3    SING  31
+GSH  CA3  1HA3  SING  32
+GSH  CA3  2HA3  SING  33
+GSH  C3   O31   DOUB  34
+GSH  C3   O32   SING  35
+GSH  O32  H32   SING  36
+#

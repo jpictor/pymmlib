@@ -1,0 +1,123 @@
+data_CNP
+#
+_chem_comp.id                   CNP
+_chem_comp.name                 '2-PROPENYL-N-ACETYL-NEURAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H23 N1 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        333.338
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CNP  C1    .  C  0  ?  ?  ?  1  1 
+CNP  O1A   .  O  0  ?  ?  ?  1  2 
+CNP  O1B   .  O  0  ?  ?  ?  1  3 
+CNP  C2    .  C  0  ?  ?  ?  1  4 
+CNP  C12   .  C  0  ?  ?  ?  1  5 
+CNP  C13   .  C  0  ?  ?  ?  1  6 
+CNP  C14   .  C  0  ?  ?  ?  1  7 
+CNP  C3    .  C  0  ?  ?  ?  1  8 
+CNP  C4    .  C  0  ?  ?  ?  1  9 
+CNP  O4    .  O  0  ?  ?  ?  1  10
+CNP  C5    .  C  0  ?  ?  ?  1  11
+CNP  N5    .  N  0  ?  ?  ?  1  12
+CNP  C10   .  C  0  ?  ?  ?  1  13
+CNP  O10   .  O  0  ?  ?  ?  1  14
+CNP  C11   .  C  0  ?  ?  ?  1  15
+CNP  C6    .  C  0  ?  ?  ?  1  16
+CNP  O6    .  O  0  ?  ?  ?  1  17
+CNP  C7    .  C  0  ?  ?  ?  1  18
+CNP  O7    .  O  0  ?  ?  ?  1  19
+CNP  C8    .  C  0  ?  ?  ?  1  20
+CNP  O8    .  O  0  ?  ?  ?  1  21
+CNP  C9    .  C  0  ?  ?  ?  1  22
+CNP  O9    .  O  0  ?  ?  ?  1  23
+CNP  BHO1  .  H  0  ?  ?  ?  0  24
+CNP  1H12  .  H  0  ?  ?  ?  0  25
+CNP  2H12  .  H  0  ?  ?  ?  0  26
+CNP  H13   .  H  0  ?  ?  ?  1  27
+CNP  1H14  .  H  0  ?  ?  ?  0  28
+CNP  2H14  .  H  0  ?  ?  ?  0  29
+CNP  1H3   .  H  0  ?  ?  ?  0  30
+CNP  2H3   .  H  0  ?  ?  ?  0  31
+CNP  H4    .  H  0  ?  ?  ?  1  32
+CNP  HO4   .  H  0  ?  ?  ?  1  33
+CNP  H5    .  H  0  ?  ?  ?  1  34
+CNP  HN5   .  H  0  ?  ?  ?  1  35
+CNP  1H11  .  H  0  ?  ?  ?  0  36
+CNP  2H11  .  H  0  ?  ?  ?  0  37
+CNP  3H11  .  H  0  ?  ?  ?  0  38
+CNP  H6    .  H  0  ?  ?  ?  1  39
+CNP  H7    .  H  0  ?  ?  ?  1  40
+CNP  HO7   .  H  0  ?  ?  ?  1  41
+CNP  H8    .  H  0  ?  ?  ?  1  42
+CNP  HO8   .  H  0  ?  ?  ?  1  43
+CNP  1H9   .  H  0  ?  ?  ?  0  44
+CNP  2H9   .  H  0  ?  ?  ?  0  45
+CNP  HO9   .  H  0  ?  ?  ?  1  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CNP  C1   O1A   DOUB  1 
+CNP  C1   O1B   SING  2 
+CNP  C1   C2    SING  3 
+CNP  O1B  BHO1  SING  4 
+CNP  C2   C12   SING  5 
+CNP  C2   C3    SING  6 
+CNP  C2   O6    SING  7 
+CNP  C12  C13   SING  8 
+CNP  C12  1H12  SING  9 
+CNP  C12  2H12  SING  10
+CNP  C13  C14   DOUB  11
+CNP  C13  H13   SING  12
+CNP  C14  1H14  SING  13
+CNP  C14  2H14  SING  14
+CNP  C3   C4    SING  15
+CNP  C3   1H3   SING  16
+CNP  C3   2H3   SING  17
+CNP  C4   O4    SING  18
+CNP  C4   C5    SING  19
+CNP  C4   H4    SING  20
+CNP  O4   HO4   SING  21
+CNP  C5   N5    SING  22
+CNP  C5   C6    SING  23
+CNP  C5   H5    SING  24
+CNP  N5   C10   SING  25
+CNP  N5   HN5   SING  26
+CNP  C10  O10   DOUB  27
+CNP  C10  C11   SING  28
+CNP  C11  1H11  SING  29
+CNP  C11  2H11  SING  30
+CNP  C11  3H11  SING  31
+CNP  C6   O6    SING  32
+CNP  C6   C7    SING  33
+CNP  C6   H6    SING  34
+CNP  C7   O7    SING  35
+CNP  C7   C8    SING  36
+CNP  C7   H7    SING  37
+CNP  O7   HO7   SING  38
+CNP  C8   O8    SING  39
+CNP  C8   C9    SING  40
+CNP  C8   H8    SING  41
+CNP  O8   HO8   SING  42
+CNP  C9   O9    SING  43
+CNP  C9   1H9   SING  44
+CNP  C9   2H9   SING  45
+CNP  O9   HO9   SING  46
+#

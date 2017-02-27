@@ -1,0 +1,103 @@
+data_GSW
+#
+_chem_comp.id                   GSW
+_chem_comp.name                 D-GAMMA-GLUTAMYL-L-CYSTEINYLGLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N3 O6 S1'
+_chem_comp.pdbx_synonyms        GLUTATHIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        306.313
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSW  O12   .  O  0  1.222   12.417  42.679  1  1 
+GSW  C1    .  C  0  2.319   12.782  43.088  1  2 
+GSW  O11   .  O  0  2.889   13.837  42.694  1  3 
+GSW  CA1   .  C  0  2.828   11.739  44.055  1  4 
+GSW  N1    .  N  0  2.097   11.782  45.327  1  5 
+GSW  CB1   .  C  0  4.334   11.619  44.219  1  6 
+GSW  CG1   .  C  0  5.103   11.663  42.919  1  7 
+GSW  CD1   .  C  0  6.175   10.59   42.782  1  8 
+GSW  OE1   .  O  0  6.086   9.387   43.339  1  9 
+GSW  N2    .  N  0  7.158   10.891  42.061  1  10
+GSW  CA2   .  C  0  8.207   9.945   41.77   1  11
+GSW  CB2   .  C  0  7.708   9.481   40.394  1  12
+GSW  SG2   .  S  0  8.918   8.42    39.564  1  13
+GSW  C2    .  C  0  9.562   10.591  41.696  1  14
+GSW  O2    .  O  0  9.713   11.788  41.139  1  15
+GSW  N3    .  N  0  10.483  9.893   42.232  1  16
+GSW  CA3   .  C  0  11.925  9.858   42.522  1  17
+GSW  C3    .  C  0  12.823  10.994  42.172  1  18
+GSW  O31   .  O  0  12.343  12.131  41.908  1  19
+GSW  O32   .  O  0  14.05   10.753  42.178  1  20
+GSW  H11   .  H  0  ?       ?       ?       1  21
+GSW  HA1   .  H  0  2.524   10.769  43.597  1  22
+GSW  1H1N  .  H  0  1.742   12.283  46.142  0  23
+GSW  2H1N  .  H  0  2.006   11.558  46.318  0  24
+GSW  1HB1  .  H  0  4.592   10.699  44.794  0  25
+GSW  2HB1  .  H  0  4.713   12.396  44.923  0  26
+GSW  1HG1  .  H  0  5.545   12.675  42.764  0  27
+GSW  2HG1  .  H  0  4.403   11.625  42.052  0  28
+GSW  H2    .  H  0  7.216   11.831  41.67   1  29
+GSW  HA2   .  H  0  8.203   9.104   42.502  1  30
+GSW  1HB2  .  H  0  7.42    10.347  39.753  0  31
+GSW  2HB2  .  H  0  6.714   8.981   40.47   0  32
+GSW  H3    .  H  0  10.064  9.038   42.597  1  33
+GSW  1HA3  .  H  0  12.344  8.936   42.057  0  34
+GSW  2HA3  .  H  0  12.049  9.647   43.61   0  35
+GSW  H31   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSW  O12  C1    DOUB  1 
+GSW  C1   O11   SING  2 
+GSW  C1   CA1   SING  3 
+GSW  O11  H11   SING  4 
+GSW  CA1  N1    SING  5 
+GSW  CA1  CB1   SING  6 
+GSW  CA1  HA1   SING  7 
+GSW  N1   1H1N  SING  8 
+GSW  N1   2H1N  SING  9 
+GSW  CB1  CG1   SING  10
+GSW  CB1  1HB1  SING  11
+GSW  CB1  2HB1  SING  12
+GSW  CG1  CD1   SING  13
+GSW  CG1  1HG1  SING  14
+GSW  CG1  2HG1  SING  15
+GSW  CD1  OE1   DOUB  16
+GSW  CD1  N2    SING  17
+GSW  N2   CA2   SING  18
+GSW  N2   H2    SING  19
+GSW  CA2  CB2   SING  20
+GSW  CA2  C2    SING  21
+GSW  CA2  HA2   SING  22
+GSW  CB2  SG2   SING  23
+GSW  CB2  1HB2  SING  24
+GSW  CB2  2HB2  SING  25
+GSW  C2   O2    DOUB  26
+GSW  C2   N3    SING  27
+GSW  N3   CA3   SING  28
+GSW  N3   H3    SING  29
+GSW  CA3  C3    SING  30
+GSW  CA3  1HA3  SING  31
+GSW  CA3  2HA3  SING  32
+GSW  C3   O31   SING  33
+GSW  C3   O32   DOUB  34
+GSW  O31  H31   SING  35
+#

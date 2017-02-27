@@ -1,0 +1,139 @@
+data_DHF
+#
+_chem_comp.id                   DHF
+_chem_comp.name                 'DIHYDROFOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H21 N7 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        443.418
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHF  N1    .  N  0  ?  ?  ?  1  1 
+DHF  C2    .  C  0  ?  ?  ?  1  2 
+DHF  NA2   .  N  0  ?  ?  ?  1  3 
+DHF  N3    .  N  0  ?  ?  ?  1  4 
+DHF  C4    .  C  0  ?  ?  ?  1  5 
+DHF  O4    .  O  0  ?  ?  ?  1  6 
+DHF  C4A   .  C  0  ?  ?  ?  1  7 
+DHF  N5    .  N  0  ?  ?  ?  1  8 
+DHF  C6    .  C  0  ?  ?  ?  1  9 
+DHF  C7    .  C  0  ?  ?  ?  1  10
+DHF  N8    .  N  0  ?  ?  ?  1  11
+DHF  C8A   .  C  0  ?  ?  ?  1  12
+DHF  C9    .  C  0  ?  ?  ?  1  13
+DHF  N10   .  N  0  ?  ?  ?  1  14
+DHF  C11   .  C  0  ?  ?  ?  1  15
+DHF  C12   .  C  0  ?  ?  ?  1  16
+DHF  C13   .  C  0  ?  ?  ?  1  17
+DHF  C14   .  C  0  ?  ?  ?  1  18
+DHF  C15   .  C  0  ?  ?  ?  1  19
+DHF  C16   .  C  0  ?  ?  ?  1  20
+DHF  C     .  C  0  ?  ?  ?  1  21
+DHF  O     .  O  0  ?  ?  ?  1  22
+DHF  N     .  N  0  ?  ?  ?  1  23
+DHF  CA    .  C  0  ?  ?  ?  1  24
+DHF  CB    .  C  0  ?  ?  ?  1  25
+DHF  CG    .  C  0  ?  ?  ?  1  26
+DHF  CD    .  C  0  ?  ?  ?  1  27
+DHF  OE1   .  O  0  ?  ?  ?  1  28
+DHF  OE2   .  O  0  ?  ?  ?  1  29
+DHF  CT    .  C  0  ?  ?  ?  1  30
+DHF  O1    .  O  0  ?  ?  ?  1  31
+DHF  O2    .  O  0  ?  ?  ?  1  32
+DHF  HN1   .  H  0  ?  ?  ?  1  33
+DHF  1HN2  .  H  0  ?  ?  ?  0  34
+DHF  2HN2  .  H  0  ?  ?  ?  0  35
+DHF  1H7   .  H  0  ?  ?  ?  0  36
+DHF  2H7   .  H  0  ?  ?  ?  0  37
+DHF  HN8   .  H  0  ?  ?  ?  1  38
+DHF  1H9   .  H  0  ?  ?  ?  0  39
+DHF  2H9   .  H  0  ?  ?  ?  0  40
+DHF  HN0   .  H  0  ?  ?  ?  1  41
+DHF  H12   .  H  0  ?  ?  ?  1  42
+DHF  H13   .  H  0  ?  ?  ?  1  43
+DHF  H15   .  H  0  ?  ?  ?  1  44
+DHF  H16   .  H  0  ?  ?  ?  1  45
+DHF  HN    .  H  0  ?  ?  ?  1  46
+DHF  HA    .  H  0  ?  ?  ?  1  47
+DHF  1HB   .  H  0  ?  ?  ?  0  48
+DHF  2HB   .  H  0  ?  ?  ?  0  49
+DHF  1HG   .  H  0  ?  ?  ?  0  50
+DHF  2HG   .  H  0  ?  ?  ?  0  51
+DHF  2HOE  .  H  0  ?  ?  ?  0  52
+DHF  HO2   .  H  0  ?  ?  ?  1  53
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHF  N1   C2    SING  1 
+DHF  N1   C8A   SING  2 
+DHF  N1   HN1   SING  3 
+DHF  C2   NA2   SING  4 
+DHF  C2   N3    DOUB  5 
+DHF  NA2  1HN2  SING  6 
+DHF  NA2  2HN2  SING  7 
+DHF  N3   C4    SING  8 
+DHF  C4   O4    DOUB  9 
+DHF  C4   C4A   SING  10
+DHF  C4A  N5    SING  11
+DHF  C4A  C8A   DOUB  12
+DHF  N5   C6    DOUB  13
+DHF  C6   C7    SING  14
+DHF  C6   C9    SING  15
+DHF  C7   N8    SING  16
+DHF  C7   1H7   SING  17
+DHF  C7   2H7   SING  18
+DHF  N8   C8A   SING  19
+DHF  N8   HN8   SING  20
+DHF  C9   N10   SING  21
+DHF  C9   1H9   SING  22
+DHF  C9   2H9   SING  23
+DHF  N10  C14   SING  24
+DHF  N10  HN0   SING  25
+DHF  C11  C12   DOUB  26
+DHF  C11  C16   SING  27
+DHF  C11  C     SING  28
+DHF  C12  C13   SING  29
+DHF  C12  H12   SING  30
+DHF  C13  C14   DOUB  31
+DHF  C13  H13   SING  32
+DHF  C14  C15   SING  33
+DHF  C15  C16   DOUB  34
+DHF  C15  H15   SING  35
+DHF  C16  H16   SING  36
+DHF  C    O     DOUB  37
+DHF  C    N     SING  38
+DHF  N    CA    SING  39
+DHF  N    HN    SING  40
+DHF  CA   CB    SING  41
+DHF  CA   CT    SING  42
+DHF  CA   HA    SING  43
+DHF  CB   CG    SING  44
+DHF  CB   1HB   SING  45
+DHF  CB   2HB   SING  46
+DHF  CG   CD    SING  47
+DHF  CG   1HG   SING  48
+DHF  CG   2HG   SING  49
+DHF  CD   OE1   DOUB  50
+DHF  CD   OE2   SING  51
+DHF  OE2  2HOE  SING  52
+DHF  CT   O1    DOUB  53
+DHF  CT   O2    SING  54
+DHF  O2   HO2   SING  55
+#

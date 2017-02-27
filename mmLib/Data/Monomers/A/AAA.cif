@@ -1,0 +1,110 @@
+data_AAA
+#
+_chem_comp.id                   AAA
+_chem_comp.name                 (2-ACETYL-5-METHYLANILINO)(2,6-DIBROMOPHENYL)ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H16 N2 O2 BR2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        440.134
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAA  C1    .  C   0  ?  ?  ?  1  1 
+AAA  C1A   .  C   0  ?  ?  ?  1  2 
+AAA  C1B   .  C   0  ?  ?  ?  1  3 
+AAA  O1B   .  O   0  ?  ?  ?  1  4 
+AAA  C2    .  C   0  ?  ?  ?  1  5 
+AAA  C3    .  C   0  ?  ?  ?  1  6 
+AAA  C4    .  C   0  ?  ?  ?  1  7 
+AAA  C4A   .  C   0  ?  ?  ?  1  8 
+AAA  C5    .  C   0  ?  ?  ?  1  9 
+AAA  C6    .  C   0  ?  ?  ?  1  10
+AAA  N7    .  N   0  ?  ?  ?  1  11
+AAA  C8    .  C   0  ?  ?  ?  1  12
+AAA  C8A   .  C   0  ?  ?  ?  1  13
+AAA  N8B   .  N   0  ?  ?  ?  1  14
+AAA  O8B   .  O   0  ?  ?  ?  1  15
+AAA  C9    .  C   0  ?  ?  ?  1  16
+AAA  C10   .  C   0  ?  ?  ?  1  17
+AAA  BR1   .  BR  0  ?  ?  ?  0  18
+AAA  C11   .  C   0  ?  ?  ?  1  19
+AAA  C12   .  C   0  ?  ?  ?  1  20
+AAA  C13   .  C   0  ?  ?  ?  1  21
+AAA  C14   .  C   0  ?  ?  ?  1  22
+AAA  BR2   .  BR  0  ?  ?  ?  0  23
+AAA  1H1B  .  H   0  ?  ?  ?  0  24
+AAA  2H1B  .  H   0  ?  ?  ?  0  25
+AAA  3H1B  .  H   0  ?  ?  ?  0  26
+AAA  H2    .  H   0  ?  ?  ?  1  27
+AAA  H3    .  H   0  ?  ?  ?  1  28
+AAA  1H4A  .  H   0  ?  ?  ?  0  29
+AAA  2H4A  .  H   0  ?  ?  ?  0  30
+AAA  3H4A  .  H   0  ?  ?  ?  0  31
+AAA  H5    .  H   0  ?  ?  ?  1  32
+AAA  HN7   .  H   0  ?  ?  ?  1  33
+AAA  H8    .  H   0  ?  ?  ?  1  34
+AAA  1HN8  .  H   0  ?  ?  ?  0  35
+AAA  2HN8  .  H   0  ?  ?  ?  0  36
+AAA  H11   .  H   0  ?  ?  ?  1  37
+AAA  H12   .  H   0  ?  ?  ?  1  38
+AAA  H13   .  H   0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAA  C1   C2    DOUB  1 
+AAA  C1   C6    SING  2 
+AAA  C1   C1A   SING  3 
+AAA  C1A  C1B   SING  4 
+AAA  C1A  O1B   DOUB  5 
+AAA  C1B  1H1B  SING  6 
+AAA  C1B  2H1B  SING  7 
+AAA  C1B  3H1B  SING  8 
+AAA  C2   C3    SING  9 
+AAA  C2   H2    SING  10
+AAA  C3   C4    DOUB  11
+AAA  C3   H3    SING  12
+AAA  C4   C5    SING  13
+AAA  C4   C4A   SING  14
+AAA  C4A  1H4A  SING  15
+AAA  C4A  2H4A  SING  16
+AAA  C4A  3H4A  SING  17
+AAA  C5   C6    DOUB  18
+AAA  C5   H5    SING  19
+AAA  C6   N7    SING  20
+AAA  N7   C8    SING  21
+AAA  N7   HN7   SING  22
+AAA  C8   C9    SING  23
+AAA  C8   C8A   SING  24
+AAA  C8   H8    SING  25
+AAA  C8A  N8B   SING  26
+AAA  C8A  O8B   DOUB  27
+AAA  N8B  1HN8  SING  28
+AAA  N8B  2HN8  SING  29
+AAA  C9   C10   DOUB  30
+AAA  C9   C14   SING  31
+AAA  C10  C11   SING  32
+AAA  C10  BR1   SING  33
+AAA  C11  C12   DOUB  34
+AAA  C11  H11   SING  35
+AAA  C12  C13   SING  36
+AAA  C12  H12   SING  37
+AAA  C13  C14   DOUB  38
+AAA  C13  H13   SING  39
+AAA  C14  BR2   SING  40
+#

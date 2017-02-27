@@ -1,0 +1,78 @@
+data_DXP
+#
+_chem_comp.id                   DXP
+_chem_comp.name                 1-DEOXY-D-XYLULOSE-5-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H11 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DXP  C1    .  C  0  -1.045  -16.570  -4.109  1  1 
+DXP  C2    .  C  0  -0.368  -15.762  -5.140  1  2 
+DXP  C3    .  C  0  0.047   -14.351  -4.834  1  3 
+DXP  C4    .  C  0  -0.994  -13.245  -5.080  1  4 
+DXP  C5    .  C  0  -0.504  -11.974  -4.397  1  5 
+DXP  O2    .  O  0  -0.143  -16.276  -6.235  1  6 
+DXP  O3    .  O  0  1.187   -14.059  -5.619  1  7 
+DXP  O4    .  O  0  -1.071  -12.986  -6.485  1  8 
+DXP  O5    .  O  0  -1.383  -10.853  -4.617  1  9 
+DXP  P     .  P  0  -0.860  -9.597   -3.985  1  10
+DXP  O2P   .  O  0  -0.587  -9.758   -2.516  1  11
+DXP  O1P   .  O  0  -1.829  -8.475   -4.180  1  12
+DXP  O3P   .  O  0  0.328   -9.261   -4.529  1  13
+DXP  1HC1  .  H  0  ?       ?        ?       0  14
+DXP  2HC1  .  H  0  ?       ?        ?       0  15
+DXP  3HC1  .  H  0  ?       ?        ?       0  16
+DXP  HC3   .  H  0  ?       ?        ?       1  17
+DXP  HO3   .  H  0  ?       ?        ?       1  18
+DXP  HC4   .  H  0  ?       ?        ?       1  19
+DXP  HO4   .  H  0  ?       ?        ?       1  20
+DXP  H51   .  H  0  ?       ?        ?       1  21
+DXP  H52   .  H  0  ?       ?        ?       1  22
+DXP  1HOP  .  H  0  ?       ?        ?       0  23
+DXP  2HOP  .  H  0  ?       ?        ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DXP  C1   C2    SING  1 
+DXP  C1   1HC1  SING  2 
+DXP  C1   2HC1  SING  3 
+DXP  C1   3HC1  SING  4 
+DXP  C2   C3    SING  5 
+DXP  C2   O2    DOUB  6 
+DXP  C3   C4    SING  7 
+DXP  C3   O3    SING  8 
+DXP  C3   HC3   SING  9 
+DXP  C4   C5    SING  10
+DXP  C4   O4    SING  11
+DXP  C4   HC4   SING  12
+DXP  C5   O5    SING  13
+DXP  C5   H51   SING  14
+DXP  C5   H52   SING  15
+DXP  O3   HO3   SING  16
+DXP  O4   HO4   SING  17
+DXP  O5   P     SING  18
+DXP  P    O2P   SING  19
+DXP  P    O1P   SING  20
+DXP  P    O3P   DOUB  21
+DXP  O2P  2HOP  SING  22
+DXP  O1P  1HOP  SING  23
+#

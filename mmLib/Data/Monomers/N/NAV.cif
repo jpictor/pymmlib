@@ -1,0 +1,108 @@
+data_NAV
+#
+_chem_comp.id                   NAV
+_chem_comp.name                 '6,7,8,9-TETRAHYDROXY-5-METHYLCARBOXAMIDO-4-OXONONANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N1 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.273
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAV  C1    .  C  0  ?  ?  ?  1  1 
+NAV  O1A   .  O  0  ?  ?  ?  1  2 
+NAV  O1B   .  O  0  ?  ?  ?  1  3 
+NAV  C2    .  C  0  ?  ?  ?  1  4 
+NAV  C3    .  C  0  ?  ?  ?  1  5 
+NAV  C4    .  C  0  ?  ?  ?  1  6 
+NAV  C5    .  C  0  ?  ?  ?  1  7 
+NAV  N2    .  N  0  ?  ?  ?  1  8 
+NAV  C10   .  C  0  ?  ?  ?  1  9 
+NAV  C11   .  C  0  ?  ?  ?  1  10
+NAV  O10   .  O  0  ?  ?  ?  1  11
+NAV  O6    .  O  0  ?  ?  ?  1  12
+NAV  C6    .  C  0  ?  ?  ?  1  13
+NAV  C7    .  C  0  ?  ?  ?  1  14
+NAV  O7    .  O  0  ?  ?  ?  1  15
+NAV  C8    .  C  0  ?  ?  ?  1  16
+NAV  O8    .  O  0  ?  ?  ?  1  17
+NAV  C9    .  C  0  ?  ?  ?  1  18
+NAV  O9    .  O  0  ?  ?  ?  1  19
+NAV  O4    .  O  0  ?  ?  ?  1  20
+NAV  HO9   .  H  0  ?  ?  ?  1  21
+NAV  1HC9  .  H  0  ?  ?  ?  0  22
+NAV  2HC9  .  H  0  ?  ?  ?  0  23
+NAV  HC8   .  H  0  ?  ?  ?  1  24
+NAV  HO8   .  H  0  ?  ?  ?  1  25
+NAV  HO7   .  H  0  ?  ?  ?  1  26
+NAV  HC7   .  H  0  ?  ?  ?  1  27
+NAV  HC6   .  H  0  ?  ?  ?  1  28
+NAV  HO6   .  H  0  ?  ?  ?  1  29
+NAV  HC5   .  H  0  ?  ?  ?  1  30
+NAV  HN2   .  H  0  ?  ?  ?  1  31
+NAV  1H11  .  H  0  ?  ?  ?  0  32
+NAV  2H11  .  H  0  ?  ?  ?  0  33
+NAV  3H11  .  H  0  ?  ?  ?  0  34
+NAV  1HC3  .  H  0  ?  ?  ?  0  35
+NAV  2HC3  .  H  0  ?  ?  ?  0  36
+NAV  1HC2  .  H  0  ?  ?  ?  0  37
+NAV  2HC2  .  H  0  ?  ?  ?  0  38
+NAV  HO1A  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAV  C1   O1A   SING  1 
+NAV  C1   O1B   DOUB  2 
+NAV  C1   C2    SING  3 
+NAV  O1A  HO1A  SING  4 
+NAV  C2   C3    SING  5 
+NAV  C2   1HC2  SING  6 
+NAV  C2   2HC2  SING  7 
+NAV  C3   C4    SING  8 
+NAV  C3   1HC3  SING  9 
+NAV  C3   2HC3  SING  10
+NAV  C4   C5    SING  11
+NAV  C4   O4    DOUB  12
+NAV  C5   N2    SING  13
+NAV  C5   C6    SING  14
+NAV  C5   HC5   SING  15
+NAV  N2   C10   SING  16
+NAV  N2   HN2   SING  17
+NAV  C10  C11   SING  18
+NAV  C10  O10   DOUB  19
+NAV  C11  1H11  SING  20
+NAV  C11  2H11  SING  21
+NAV  C11  3H11  SING  22
+NAV  O6   C6    SING  23
+NAV  O6   HO6   SING  24
+NAV  C6   C7    SING  25
+NAV  C6   HC6   SING  26
+NAV  C7   O7    SING  27
+NAV  C7   C8    SING  28
+NAV  C7   HC7   SING  29
+NAV  O7   HO7   SING  30
+NAV  C8   O8    SING  31
+NAV  C8   C9    SING  32
+NAV  C8   HC8   SING  33
+NAV  O8   HO8   SING  34
+NAV  C9   O9    SING  35
+NAV  C9   1HC9  SING  36
+NAV  C9   2HC9  SING  37
+NAV  O9   HO9   SING  38
+#

@@ -1,0 +1,114 @@
+data_AYG
+#
+_chem_comp.id                       AYG
+_chem_comp.name                     '[(4E)-2-[(1S)-1-AMINOETHYL]-4-(4-HYDROXYBENZYLIDENE)-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H15 N3 O4'
+_chem_comp.pdbx_synonyms            'PEPTIDE DERIVED CHROMOPHORE'
+_chem_comp.mon_nstd_parent_comp_id  ALA,TYR,GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            289.290
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          AYG
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@@H](C1=N/C(=C\c2ccc(cc2)O)/C(=O)N1CC(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+AYG  CA1   .  C  0  19.666  15.237  44.704  1  N  1 
+AYG  CA2   .  C  0  17.648  17.697  46.459  1  N  2 
+AYG  CA3   .  C  0  18.674  17.543  42.959  1  N  3 
+AYG  CB1   .  C  0  19.894  14.134  45.712  1  N  4 
+AYG  CB2   .  C  0  17.132  18.367  47.526  1  N  5 
+AYG  CG2   .  C  0  17.230  18.127  48.894  1  Y  6 
+AYG  CD1   .  C  0  17.645  16.884  49.461  1  Y  7 
+AYG  CD2   .  C  0  16.875  19.158  49.801  1  Y  8 
+AYG  CE1   .  C  0  17.718  16.662  50.800  1  Y  9 
+AYG  CE2   .  C  0  17.036  18.978  51.157  1  Y  10
+AYG  CZ    .  C  0  17.393  17.730  51.724  1  Y  11
+AYG  OH    .  O  0  17.566  17.516  52.994  1  N  12
+AYG  C1    .  C  0  18.819  16.333  45.186  1  N  13
+AYG  N1    .  N  0  20.988  15.833  44.386  1  N  14
+AYG  C2    .  C  0  17.547  18.213  45.111  1  N  15
+AYG  N2    .  N  0  18.411  16.510  46.437  1  N  16
+AYG  O2    .  O  0  17.074  19.234  44.629  1  N  17
+AYG  C3    .  C  0  17.551  17.552  41.964  1  N  18
+AYG  N3    .  N  0  18.312  17.334  44.334  1  N  19
+AYG  O3    .  O  0  17.614  18.233  40.956  1  N  20
+AYG  O1    .  O  0  16.507  16.778  42.287  1  N  21
+AYG  HA1   .  H  0  19.156  14.776  43.845  1  N  22
+AYG  1HA3  .  H  0  19.354  16.726  42.674  0  N  23
+AYG  2HA3  .  H  0  19.111  18.552  42.919  0  N  24
+AYG  1HB1  .  H  0  19.949  13.167  45.191  0  N  25
+AYG  2HB1  .  H  0  20.837  14.316  46.248  0  N  26
+AYG  3HB1  .  H  0  19.061  14.116  46.430  0  N  27
+AYG  HB2   .  H  0  16.545  19.235  47.266  1  N  28
+AYG  HD1   .  H  0  17.914  16.080  48.792  1  N  29
+AYG  HD2   .  H  0  16.476  20.089  49.426  1  N  30
+AYG  HE1   .  H  0  18.017  15.694  51.174  1  N  31
+AYG  HE2   .  H  0  16.884  19.822  51.814  1  N  32
+AYG  HOH   .  H  0  17.608  16.581  53.155  1  N  33
+AYG  1HN1  .  H  0  21.065  15.967  43.398  0  N  34
+AYG  2HN1  .  H  0  21.076  16.715  44.850  0  N  35
+AYG  HO1   .  H  0  15.840  16.848  41.614  1  N  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+AYG  CA1  N1    SING  N  1 
+AYG  CA1  C1    SING  N  2 
+AYG  CA1  CB1   SING  N  3 
+AYG  CA1  HA1   SING  N  4 
+AYG  CA2  C2    SING  N  5 
+AYG  CA2  N2    SING  N  6 
+AYG  CA2  CB2   DOUB  N  7 
+AYG  CA3  C3    SING  N  8 
+AYG  CA3  N3    SING  N  9 
+AYG  CA3  1HA3  SING  N  10
+AYG  CA3  2HA3  SING  N  11
+AYG  CB1  1HB1  SING  N  12
+AYG  CB1  2HB1  SING  N  13
+AYG  CB1  3HB1  SING  N  14
+AYG  CB2  CG2   SING  N  15
+AYG  CB2  HB2   SING  N  16
+AYG  CG2  CD1   DOUB  Y  17
+AYG  CG2  CD2   SING  Y  18
+AYG  CD1  CE1   SING  Y  19
+AYG  CD1  HD1   SING  N  20
+AYG  CD2  CE2   DOUB  Y  21
+AYG  CD2  HD2   SING  N  22
+AYG  CE1  CZ    DOUB  Y  23
+AYG  CE1  HE1   SING  N  24
+AYG  CE2  CZ    SING  Y  25
+AYG  CE2  HE2   SING  N  26
+AYG  CZ   OH    SING  N  27
+AYG  OH   HOH   SING  N  28
+AYG  C1   N3    SING  N  29
+AYG  C1   N2    DOUB  N  30
+AYG  N1   1HN1  SING  N  31
+AYG  N1   2HN1  SING  N  32
+AYG  C2   N3    SING  N  33
+AYG  C2   O2    DOUB  N  34
+AYG  C3   O3    DOUB  N  35
+AYG  C3   O1    SING  N  36
+AYG  O1   HO1   SING  N  37
+#

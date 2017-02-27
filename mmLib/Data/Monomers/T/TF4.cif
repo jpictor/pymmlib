@@ -1,0 +1,46 @@
+data_TF4
+#
+_chem_comp.id                   TF4
+_chem_comp.name                 'DICHLORO-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H2 O2 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        128.943
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TF4  C1   .  C   0  57.141  44.602  80.955  1  1
+TF4  C    .  C   0  55.617  44.506  80.799  1  2
+TF4  O    .  O   0  55.078  43.846  79.824  1  3
+TF4  CL1  .  CL  0  57.642  45.451  82.42   0  4
+TF4  CL2  .  CL  0  57.851  45.269  79.496  0  5
+TF4  O2   .  O   0  54.853  45.121  81.837  1  6
+TF4  H1   .  H   0  57.52   43.557  81.046  1  7
+TF4  H2   .  H   0  ?       ?       ?       1  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TF4  C1  C    SING  1
+TF4  C1  CL2  SING  2
+TF4  C1  CL1  SING  3
+TF4  C1  H1   SING  4
+TF4  C   O    DOUB  5
+TF4  C   O2   SING  6
+TF4  O2  H2   SING  7
+#

@@ -1,0 +1,76 @@
+data_L03
+#
+_chem_comp.id                   L03
+_chem_comp.name                 3-(4-CHLOROPHENYL)-5-(METHYLTHIO)-4H-1,2,4-TRIAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 N3 CL1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        225.695
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+L03  C1    .  C   0  7.519   20.221  53.021  1  1 
+L03  S2    .  S   0  8.577   18.86   52.457  1  2 
+L03  C3    .  C   0  9.384   19.563  51.062  1  3 
+L03  N4    .  N   0  10.179  18.949  50.219  1  4 
+L03  N5    .  N   0  10.576  19.778  49.313  1  5 
+L03  C6    .  C   0  10.087  20.981  49.562  1  6 
+L03  N7    .  N   0  9.279   20.861  50.664  1  7 
+L03  C8    .  C   0  10.217  22.184  48.722  1  8 
+L03  C9    .  C   0  11.147  22.249  47.672  1  9 
+L03  C10   .  C   0  11.169  23.375  46.846  1  10
+L03  C11   .  C   0  10.267  24.417  47.044  1  11
+L03  CL12  .  CL  0  10.292  25.845  46.024  0  12
+L03  C13   .  C   0  9.337   24.323  48.076  1  13
+L03  C14   .  C   0  9.298   23.22   48.904  1  14
+L03  1H1C  .  H   0  7.007   19.775  53.906  0  15
+L03  2H1C  .  H   0  6.836   20.638  52.244  0  16
+L03  3H1C  .  H   0  8.053   21.179  53.221  0  17
+L03  H7    .  H   0  8.716   21.593  51.096  1  18
+L03  H9    .  H   0  11.853  21.419  47.501  1  19
+L03  H14   .  H   0  8.544   23.157  49.707  1  20
+L03  H10   .  H   0  11.908  23.439  46.029  1  21
+L03  H13   .  H   0  8.619   25.145  48.234  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+L03  C1   S2    SING  1 
+L03  C1   1H1C  SING  2 
+L03  C1   2H1C  SING  3 
+L03  C1   3H1C  SING  4 
+L03  S2   C3    SING  5 
+L03  C3   N4    DOUB  6 
+L03  C3   N7    SING  7 
+L03  N4   N5    SING  8 
+L03  N5   C6    DOUB  9 
+L03  C6   N7    SING  10
+L03  C6   C8    SING  11
+L03  N7   H7    SING  12
+L03  C8   C9    AROM  13
+L03  C8   C14   AROM  14
+L03  C9   C10   AROM  15
+L03  C9   H9    SING  16
+L03  C10  C11   AROM  17
+L03  C10  H10   SING  18
+L03  C11  CL12  SING  19
+L03  C11  C13   AROM  20
+L03  C13  C14   AROM  21
+L03  C13  H13   SING  22
+L03  C14  H14   SING  23
+#

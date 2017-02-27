@@ -1,0 +1,88 @@
+data_BZM
+#
+_chem_comp.id                   BZM
+_chem_comp.name                 'BENZOIC ACID PHENYLMETHYLESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZM  C8   .  C  0  ?  ?  ?  1  1 
+BZM  O8   .  O  0  ?  ?  ?  1  2 
+BZM  C7   .  C  0  ?  ?  ?  1  3 
+BZM  O7   .  O  0  ?  ?  ?  1  4 
+BZM  C6   .  C  0  ?  ?  ?  1  5 
+BZM  C1   .  C  0  ?  ?  ?  1  6 
+BZM  C5   .  C  0  ?  ?  ?  1  7 
+BZM  C2   .  C  0  ?  ?  ?  1  8 
+BZM  C4   .  C  0  ?  ?  ?  1  9 
+BZM  C3   .  C  0  ?  ?  ?  1  10
+BZM  C9   .  C  0  ?  ?  ?  1  11
+BZM  C14  .  C  0  ?  ?  ?  1  12
+BZM  C10  .  C  0  ?  ?  ?  1  13
+BZM  C13  .  C  0  ?  ?  ?  1  14
+BZM  C11  .  C  0  ?  ?  ?  1  15
+BZM  C12  .  C  0  ?  ?  ?  1  16
+BZM  2H8  .  H  0  ?  ?  ?  0  17
+BZM  1H8  .  H  0  ?  ?  ?  0  18
+BZM  H1   .  H  0  ?  ?  ?  1  19
+BZM  H5   .  H  0  ?  ?  ?  1  20
+BZM  H2   .  H  0  ?  ?  ?  1  21
+BZM  H4   .  H  0  ?  ?  ?  1  22
+BZM  H3   .  H  0  ?  ?  ?  1  23
+BZM  H14  .  H  0  ?  ?  ?  1  24
+BZM  H10  .  H  0  ?  ?  ?  1  25
+BZM  H13  .  H  0  ?  ?  ?  1  26
+BZM  H11  .  H  0  ?  ?  ?  1  27
+BZM  H12  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZM  C8   O8   SING  1 
+BZM  C8   C9   SING  2 
+BZM  C8   2H8  SING  3 
+BZM  C8   1H8  SING  4 
+BZM  O8   C7   SING  5 
+BZM  C7   O7   DOUB  6 
+BZM  C7   C6   SING  7 
+BZM  C6   C1   AROM  8 
+BZM  C6   C5   AROM  9 
+BZM  C1   C2   AROM  10
+BZM  C1   H1   SING  11
+BZM  C5   C4   AROM  12
+BZM  C5   H5   SING  13
+BZM  C2   C3   AROM  14
+BZM  C2   H2   SING  15
+BZM  C4   C3   AROM  16
+BZM  C4   H4   SING  17
+BZM  C3   H3   SING  18
+BZM  C9   C14  AROM  19
+BZM  C9   C10  AROM  20
+BZM  C14  C13  AROM  21
+BZM  C14  H14  SING  22
+BZM  C10  C11  AROM  23
+BZM  C10  H10  SING  24
+BZM  C13  C12  AROM  25
+BZM  C13  H13  SING  26
+BZM  C11  C12  AROM  27
+BZM  C11  H11  SING  28
+BZM  C12  H12  SING  29
+#

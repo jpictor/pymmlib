@@ -1,0 +1,103 @@
+data_GU4
+#
+_chem_comp.id                   GU4
+_chem_comp.name                 2,3,4,6-TETRA-O-SULFONATO-ALPHA-D-GLUCOPYRANOSE
+_chem_comp.type                 'd-saccharide 1,4 and 1,4 linking'
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H8 O18 S4'
+_chem_comp.pdbx_formal_charge   4-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       496.358
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GU4  O1   .  O  0   46.284  -4.714  39.804  1  1 
+GU4  C1   .  C  0   45.619  -3.868  40.754  1  2 
+GU4  O5   .  O  0   44.611  -3.062  40.121  1  3 
+GU4  C5   .  C  0   43.557  -3.812  39.494  1  4 
+GU4  C6   .  C  0   42.551  -2.780  38.978  1  5 
+GU4  O6   .  O  0   42.094  -1.943  40.045  1  6 
+GU4  S6   .  S  0   41.211  -0.840  39.816  1  7 
+GU4  O22  .  O  0   40.416  -0.580  41.062  1  8 
+GU4  O23  .  O  0   40.273  -1.154  38.687  1  9 
+GU4  O21  .  O  -1  42.016  0.379   39.474  1  10
+GU4  C4   .  C  0   42.849  -4.762  40.469  1  11
+GU4  O4   .  O  0   42.001  -5.636  39.716  1  12
+GU4  S4   .  S  0   40.616  -5.540  40.071  1  13
+GU4  O25  .  O  0   40.425  -5.947  41.502  1  14
+GU4  O26  .  O  0   39.825  -6.454  39.183  1  15
+GU4  O24  .  O  -1  40.125  -4.134  39.889  1  16
+GU4  C3   .  C  0   43.872  -5.619  41.220  1  17
+GU4  O3   .  O  0   43.217  -6.361  42.255  1  18
+GU4  S3   .  S  0   43.315  -7.783  42.098  1  19
+GU4  O28  .  O  0   42.536  -8.447  43.193  1  20
+GU4  O29  .  O  -1  44.749  -8.216  42.180  1  21
+GU4  O27  .  O  0   42.749  -8.205  40.775  1  22
+GU4  C2   .  C  0   44.959  -4.731  41.834  1  23
+GU4  O2   .  O  0   45.933  -5.552  42.486  1  24
+GU4  S2   .  S  0   46.433  -4.952  43.685  1  25
+GU4  O11  .  O  0   45.296  -4.511  44.560  1  26
+GU4  O12  .  O  0   47.288  -3.769  43.339  1  27
+GU4  O10  .  O  -1  47.268  -5.954  44.426  1  28
+GU4  HO1  .  H  0   ?       ?       ?       1  29
+GU4  H1   .  H  0   ?       ?       ?       1  30
+GU4  H5   .  H  0   ?       ?       ?       1  31
+GU4  1H6  .  H  0   ?       ?       ?       0  32
+GU4  2H6  .  H  0   ?       ?       ?       0  33
+GU4  H4   .  H  0   ?       ?       ?       1  34
+GU4  H3   .  H  0   ?       ?       ?       1  35
+GU4  H2   .  H  0   ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GU4  O1  C1   SING  1 
+GU4  O1  HO1  SING  2 
+GU4  C1  O5   SING  3 
+GU4  C1  C2   SING  4 
+GU4  C1  H1   SING  5 
+GU4  O5  C5   SING  6 
+GU4  C5  C6   SING  7 
+GU4  C5  C4   SING  8 
+GU4  C5  H5   SING  9 
+GU4  C6  O6   SING  10
+GU4  C6  1H6  SING  11
+GU4  C6  2H6  SING  12
+GU4  O6  S6   SING  13
+GU4  S6  O22  DOUB  14
+GU4  S6  O23  DOUB  15
+GU4  S6  O21  SING  16
+GU4  C4  O4   SING  17
+GU4  C4  C3   SING  18
+GU4  C4  H4   SING  19
+GU4  O4  S4   SING  20
+GU4  S4  O25  DOUB  21
+GU4  S4  O26  DOUB  22
+GU4  S4  O24  SING  23
+GU4  C3  O3   SING  24
+GU4  C3  C2   SING  25
+GU4  C3  H3   SING  26
+GU4  O3  S3   SING  27
+GU4  S3  O28  DOUB  28
+GU4  S3  O29  SING  29
+GU4  S3  O27  DOUB  30
+GU4  C2  O2   SING  31
+GU4  C2  H2   SING  32
+GU4  O2  S2   SING  33
+GU4  S2  O11  DOUB  34
+GU4  S2  O12  DOUB  35
+GU4  S2  O10  SING  36
+#

@@ -1,0 +1,70 @@
+data_DAV
+#
+_chem_comp.id                   DAV
+_chem_comp.name                 'DELTA-AMINO VALERIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       118.155
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAV  OT1   .  O  0  ?  ?  ?  1  1 
+DAV  OT2   .  O  0  ?  ?  ?  1  2 
+DAV  CB    .  C  0  ?  ?  ?  1  3 
+DAV  CG    .  C  0  ?  ?  ?  1  4 
+DAV  CD    .  C  0  ?  ?  ?  1  5 
+DAV  NE    .  N  1  ?  ?  ?  1  6 
+DAV  C     .  C  0  ?  ?  ?  1  7 
+DAV  CA    .  C  0  ?  ?  ?  1  8 
+DAV  HT1   .  H  0  ?  ?  ?  1  9 
+DAV  HT2   .  H  0  ?  ?  ?  1  10
+DAV  HT3   .  H  0  ?  ?  ?  1  11
+DAV  HOT1  .  H  0  ?  ?  ?  0  12
+DAV  1HCA  .  H  0  ?  ?  ?  0  13
+DAV  2HCA  .  H  0  ?  ?  ?  0  14
+DAV  1HCB  .  H  0  ?  ?  ?  0  15
+DAV  2HCB  .  H  0  ?  ?  ?  0  16
+DAV  1HCG  .  H  0  ?  ?  ?  0  17
+DAV  2HCG  .  H  0  ?  ?  ?  0  18
+DAV  1HCD  .  H  0  ?  ?  ?  0  19
+DAV  2HCD  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAV  OT1  C     SING  1 
+DAV  OT1  HOT1  SING  2 
+DAV  OT2  C     DOUB  3 
+DAV  CB   CG    SING  4 
+DAV  CB   CA    SING  5 
+DAV  CB   1HCB  SING  6 
+DAV  CB   2HCB  SING  7 
+DAV  CG   CD    SING  8 
+DAV  CG   1HCG  SING  9 
+DAV  CG   2HCG  SING  10
+DAV  CD   NE    SING  11
+DAV  CD   1HCD  SING  12
+DAV  CD   2HCD  SING  13
+DAV  NE   HT1   SING  14
+DAV  NE   HT2   SING  15
+DAV  NE   HT3   SING  16
+DAV  C    CA    SING  17
+DAV  CA   1HCA  SING  18
+DAV  CA   2HCA  SING  19
+#

@@ -1,0 +1,107 @@
+data_EPC
+#
+_chem_comp.id                   EPC
+_chem_comp.name                 '(1S)-1-[((1E)-{3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYLENE)AMINO]ETHYLPHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N2 O8 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        354.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EPC  C     .  C  0  15.865  51.049  19.831  1  1 
+EPC  N2    .  N  0  16.009  51.247  18.428  1  2 
+EPC  N1    .  N  0  17.162  52.567  13.629  1  3 
+EPC  C2    .  C  0  16.037  52.877  14.457  1  4 
+EPC  C2A   .  C  0  14.941  53.831  13.943  1  5 
+EPC  C3    .  C  0  15.966  52.342  15.751  1  6 
+EPC  O1    .  O  0  14.876  52.663  16.559  1  7 
+EPC  C4    .  C  0  17.093  51.447  16.278  1  8 
+EPC  C4A   .  C  0  17.010  50.930  17.703  1  9 
+EPC  C5    .  C  0  18.203  51.180  15.423  1  10
+EPC  C6    .  C  0  18.188  51.782  14.029  1  11
+EPC  C5A   .  C  0  19.404  50.341  15.868  1  12
+EPC  O2    .  O  0  18.932  49.027  16.037  1  13
+EPC  P1    .  P  0  20.016  48.093  16.640  1  14
+EPC  O3    .  O  0  19.391  46.717  16.853  1  15
+EPC  O4    .  O  0  21.257  47.976  15.824  1  16
+EPC  O5    .  O  0  20.474  48.793  17.926  1  17
+EPC  P2    .  P  0  14.254  51.087  20.292  1  18
+EPC  O7    .  O  0  13.550  52.343  19.651  1  19
+EPC  O8    .  O  0  13.640  49.754  19.851  1  20
+EPC  O6    .  O  0  14.140  51.074  21.894  1  21
+EPC  CA    .  C  0  16.614  49.734  20.346  1  22
+EPC  HO4   .  H  0  ?       ?       ?       1  23
+EPC  HO5   .  H  0  ?       ?       ?       1  24
+EPC  HO8   .  H  0  ?       ?       ?       1  25
+EPC  HO6   .  H  0  ?       ?       ?       1  26
+EPC  HO1   .  H  0  ?       ?       ?       1  27
+EPC  1HCA  .  H  0  ?       ?       ?       0  28
+EPC  2HCA  .  H  0  ?       ?       ?       0  29
+EPC  3HCA  .  H  0  ?       ?       ?       0  30
+EPC  1H2A  .  H  0  ?       ?       ?       0  31
+EPC  2H2A  .  H  0  ?       ?       ?       0  32
+EPC  3H2A  .  H  0  ?       ?       ?       0  33
+EPC  1H5A  .  H  0  ?       ?       ?       0  34
+EPC  2H5A  .  H  0  ?       ?       ?       0  35
+EPC  1HC6  .  H  0  ?       ?       ?       0  36
+EPC  1H4A  .  H  0  ?       ?       ?       0  37
+EPC  1H1C  .  H  0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EPC  C    N2    SING  1 
+EPC  C    P2    SING  2 
+EPC  C    CA    SING  3 
+EPC  C    1H1C  SING  4 
+EPC  N2   C4A   DOUB  5 
+EPC  N1   C2    AROM  6 
+EPC  N1   C6    AROM  7 
+EPC  C2   C2A   SING  8 
+EPC  C2   C3    AROM  9 
+EPC  C2A  1H2A  SING  10
+EPC  C2A  2H2A  SING  11
+EPC  C2A  3H2A  SING  12
+EPC  C3   O1    SING  13
+EPC  C3   C4    AROM  14
+EPC  O1   HO1   SING  15
+EPC  C4   C4A   SING  16
+EPC  C4   C5    AROM  17
+EPC  C4A  1H4A  SING  18
+EPC  C5   C6    AROM  19
+EPC  C5   C5A   SING  20
+EPC  C6   1HC6  SING  21
+EPC  C5A  O2    SING  22
+EPC  C5A  1H5A  SING  23
+EPC  C5A  2H5A  SING  24
+EPC  O2   P1    SING  25
+EPC  P1   O3    DOUB  26
+EPC  P1   O4    SING  27
+EPC  P1   O5    SING  28
+EPC  O4   HO4   SING  29
+EPC  O5   HO5   SING  30
+EPC  P2   O7    DOUB  31
+EPC  P2   O8    SING  32
+EPC  P2   O6    SING  33
+EPC  O8   HO8   SING  34
+EPC  O6   HO6   SING  35
+EPC  CA   1HCA  SING  36
+EPC  CA   2HCA  SING  37
+EPC  CA   3HCA  SING  38
+#

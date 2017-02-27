@@ -1,0 +1,77 @@
+data_ISO
+#
+_chem_comp.id                   ISO
+_chem_comp.name                 PARA-ISOPROPYLANILINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISO  C1    .  C  0  ?  ?  ?  1  1 
+ISO  N1    .  N  0  ?  ?  ?  1  2 
+ISO  C2    .  C  0  ?  ?  ?  1  3 
+ISO  C3    .  C  0  ?  ?  ?  1  4 
+ISO  C4    .  C  0  ?  ?  ?  1  5 
+ISO  C5    .  C  0  ?  ?  ?  1  6 
+ISO  C6    .  C  0  ?  ?  ?  1  7 
+ISO  C1'   .  C  0  ?  ?  ?  1  8 
+ISO  C2'   .  C  0  ?  ?  ?  1  9 
+ISO  C3'   .  C  0  ?  ?  ?  1  10
+ISO  1HN1  .  H  0  ?  ?  ?  0  11
+ISO  2HN1  .  H  0  ?  ?  ?  0  12
+ISO  H2    .  H  0  ?  ?  ?  1  13
+ISO  H3    .  H  0  ?  ?  ?  1  14
+ISO  H5    .  H  0  ?  ?  ?  1  15
+ISO  H6    .  H  0  ?  ?  ?  1  16
+ISO  H1'   .  H  0  ?  ?  ?  1  17
+ISO  1H2'  .  H  0  ?  ?  ?  0  18
+ISO  2H2'  .  H  0  ?  ?  ?  0  19
+ISO  3H2'  .  H  0  ?  ?  ?  0  20
+ISO  1H3'  .  H  0  ?  ?  ?  0  21
+ISO  2H3'  .  H  0  ?  ?  ?  0  22
+ISO  3H3'  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISO  C1   N1    SING  1 
+ISO  C1   C2    DOUB  2 
+ISO  C1   C6    SING  3 
+ISO  N1   1HN1  SING  4 
+ISO  N1   2HN1  SING  5 
+ISO  C2   C3    SING  6 
+ISO  C2   H2    SING  7 
+ISO  C3   C4    DOUB  8 
+ISO  C3   H3    SING  9 
+ISO  C4   C5    SING  10
+ISO  C4   C1'   SING  11
+ISO  C5   C6    DOUB  12
+ISO  C5   H5    SING  13
+ISO  C6   H6    SING  14
+ISO  C1'  C2'   SING  15
+ISO  C1'  C3'   SING  16
+ISO  C1'  H1'   SING  17
+ISO  C2'  1H2'  SING  18
+ISO  C2'  2H2'  SING  19
+ISO  C2'  3H2'  SING  20
+ISO  C3'  1H3'  SING  21
+ISO  C3'  2H3'  SING  22
+ISO  C3'  3H3'  SING  23
+#

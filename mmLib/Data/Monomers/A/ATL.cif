@@ -1,0 +1,110 @@
+data_ATL
+#
+_chem_comp.id                       ATL
+_chem_comp.name                     '[(1S,3R,4S,7R)-7-HYDROXY-3-(THYMIN-1-YL)-2,5-DIOXABICYCLO[2.2.1]HEPT-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H15 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            350.221
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATL  O1P   .  O  0  6.896   -11.308  -15.933  1  1 
+ATL  P     .  P  0  5.436   -11.135  -15.771  1  2 
+ATL  O2P   .  O  0  4.587   -12.315  -15.49   1  3 
+ATL  O5*   .  O  0  5.179   -10.046  -14.608  1  4 
+ATL  C5*   .  C  0  6.05    -8.948   -14.391  1  5 
+ATL  C4*   .  C  0  5.274   -7.834   -13.682  1  6 
+ATL  O4*   .  O  0  4.358   -7.216   -14.579  1  7 
+ATL  C3*   .  C  0  6.074   -6.647   -13.163  1  8 
+ATL  O3*   .  O  0  6.993   -6.935   -12.122  1  9 
+ATL  C2*   .  C  0  4.772   -6.031   -12.66   1  10
+ATL  O2*   .  O  0  4.2     -7.017   -11.806  1  11
+ATL  C1*   .  C  0  3.988   -5.982   -13.979  1  12
+ATL  C6*   .  C  0  4.521   -8.262   -12.411  1  13
+ATL  N1    .  N  0  2.514   -5.831   -13.803  1  14
+ATL  C2    .  C  0  1.995   -4.545   -13.623  1  15
+ATL  O2    .  O  0  2.697   -3.541   -13.519  1  16
+ATL  N3    .  N  0  .611    -4.443   -13.573  1  17
+ATL  C4    .  C  0  -.296   -5.489   -13.689  1  18
+ATL  O4    .  O  0  -1.503  -5.258   -13.617  1  19
+ATL  C5    .  C  0  .324    -6.794   -13.891  1  20
+ATL  C5M   .  C  0  -.52    -8.039   -14.098  1  21
+ATL  C6    .  C  0  1.674   -6.918   -13.919  1  22
+ATL  OXT   .  O  0  4.87    -10.407  -17.107  1  23
+ATL  1H5*  .  H  0  6.893   -9.269   -13.776  0  24
+ATL  2H5*  .  H  0  6.423   -8.567   -15.343  0  25
+ATL  H1*   .  H  0  4.366   -5.172   -14.603  1  26
+ATL  H6    .  H  0  2.095   -7.899   -14.059  1  27
+ATL  1H5M  .  H  0  -1.369  -7.81    -14.74   0  28
+ATL  2H5M  .  H  0  .071    -8.82    -14.583  0  29
+ATL  3H5M  .  H  0  -.872   -8.408   -13.136  0  30
+ATL  H3    .  H  0  .225    -3.521   -13.427  1  31
+ATL  H3*   .  H  0  6.533   -6.082   -13.978  1  32
+ATL  1H2*  .  H  0  4.884   -5.057   -12.186  0  33
+ATL  1H9*  .  H  0  3.625   -8.832   -12.655  0  34
+ATL  2H9*  .  H  0  5.175   -8.838   -11.755  0  35
+ATL  HA    .  H  0  7.492   -6.194   -11.798  1  36
+ATL  HXT   .  H  0  ?       ?        ?        1  37
+ATL  HO2P  .  H  0  ?       ?        ?        0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATL  O1P  P     DOUB  1 
+ATL  P    O2P   SING  2 
+ATL  P    O5*   SING  3 
+ATL  P    OXT   SING  4 
+ATL  O2P  HO2P  SING  5 
+ATL  O5*  C5*   SING  6 
+ATL  C5*  C4*   SING  7 
+ATL  C5*  2H5*  SING  8 
+ATL  C5*  1H5*  SING  9 
+ATL  C4*  O4*   SING  10
+ATL  C4*  C3*   SING  11
+ATL  C4*  C6*   SING  12
+ATL  O4*  C1*   SING  13
+ATL  C3*  O3*   SING  14
+ATL  C3*  C2*   SING  15
+ATL  C3*  H3*   SING  16
+ATL  O3*  HA    SING  17
+ATL  C2*  O2*   SING  18
+ATL  C2*  C1*   SING  19
+ATL  C2*  1H2*  SING  20
+ATL  O2*  C6*   SING  21
+ATL  C1*  N1    SING  22
+ATL  C1*  H1*   SING  23
+ATL  C6*  1H9*  SING  24
+ATL  C6*  2H9*  SING  25
+ATL  N1   C2    SING  26
+ATL  N1   C6    SING  27
+ATL  C2   O2    DOUB  28
+ATL  C2   N3    SING  29
+ATL  N3   C4    SING  30
+ATL  N3   H3    SING  31
+ATL  C4   O4    DOUB  32
+ATL  C4   C5    SING  33
+ATL  C5   C5M   SING  34
+ATL  C5   C6    DOUB  35
+ATL  C5M  1H5M  SING  36
+ATL  C5M  2H5M  SING  37
+ATL  C5M  3H5M  SING  38
+ATL  C6   H6    SING  39
+ATL  OXT  HXT   SING  40
+#

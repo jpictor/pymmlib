@@ -1,0 +1,98 @@
+data_DTB
+#
+_chem_comp.id                   DTB
+_chem_comp.name                 '6-(5-METHYL-2-OXO-IMIDAZOLIDIN-4-YL)-HEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H18 N2 O3'
+_chem_comp.pdbx_synonyms        D-DETHIOBIOTIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTB  CN    .  C  0  ?  ?  ?  1  1 
+DTB  O     .  O  0  ?  ?  ?  1  2 
+DTB  N2    .  N  0  ?  ?  ?  1  3 
+DTB  CR    .  C  0  ?  ?  ?  1  4 
+DTB  CS    .  C  0  ?  ?  ?  1  5 
+DTB  N1    .  N  0  ?  ?  ?  1  6 
+DTB  CT    .  C  0  ?  ?  ?  1  7 
+DTB  CE    .  C  0  ?  ?  ?  1  8 
+DTB  CD    .  C  0  ?  ?  ?  1  9 
+DTB  CG    .  C  0  ?  ?  ?  1  10
+DTB  CB    .  C  0  ?  ?  ?  1  11
+DTB  CA    .  C  0  ?  ?  ?  1  12
+DTB  C     .  C  0  ?  ?  ?  1  13
+DTB  OI1   .  O  0  ?  ?  ?  1  14
+DTB  OI2   .  O  0  ?  ?  ?  1  15
+DTB  HOI2  .  H  0  ?  ?  ?  0  16
+DTB  1HCA  .  H  0  ?  ?  ?  0  17
+DTB  2HCA  .  H  0  ?  ?  ?  0  18
+DTB  1HCB  .  H  0  ?  ?  ?  0  19
+DTB  2HCB  .  H  0  ?  ?  ?  0  20
+DTB  1HCG  .  H  0  ?  ?  ?  0  21
+DTB  2HCG  .  H  0  ?  ?  ?  0  22
+DTB  1HCD  .  H  0  ?  ?  ?  0  23
+DTB  2HCD  .  H  0  ?  ?  ?  0  24
+DTB  1HCE  .  H  0  ?  ?  ?  0  25
+DTB  2HCE  .  H  0  ?  ?  ?  0  26
+DTB  HCR   .  H  0  ?  ?  ?  1  27
+DTB  HN2   .  H  0  ?  ?  ?  1  28
+DTB  HN1   .  H  0  ?  ?  ?  1  29
+DTB  HCS   .  H  0  ?  ?  ?  1  30
+DTB  1HCT  .  H  0  ?  ?  ?  0  31
+DTB  2HCT  .  H  0  ?  ?  ?  0  32
+DTB  3HCT  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTB  CN   O     DOUB  1 
+DTB  CN   N2    SING  2 
+DTB  CN   N1    SING  3 
+DTB  N2   CR    SING  4 
+DTB  N2   HN2   SING  5 
+DTB  CR   CS    SING  6 
+DTB  CR   CE    SING  7 
+DTB  CR   HCR   SING  8 
+DTB  CS   N1    SING  9 
+DTB  CS   CT    SING  10
+DTB  CS   HCS   SING  11
+DTB  N1   HN1   SING  12
+DTB  CT   1HCT  SING  13
+DTB  CT   2HCT  SING  14
+DTB  CT   3HCT  SING  15
+DTB  CE   CD    SING  16
+DTB  CE   1HCE  SING  17
+DTB  CE   2HCE  SING  18
+DTB  CD   CG    SING  19
+DTB  CD   1HCD  SING  20
+DTB  CD   2HCD  SING  21
+DTB  CG   CB    SING  22
+DTB  CG   1HCG  SING  23
+DTB  CG   2HCG  SING  24
+DTB  CB   CA    SING  25
+DTB  CB   1HCB  SING  26
+DTB  CB   2HCB  SING  27
+DTB  CA   C     SING  28
+DTB  CA   1HCA  SING  29
+DTB  CA   2HCA  SING  30
+DTB  C    OI1   DOUB  31
+DTB  C    OI2   SING  32
+DTB  OI2  HOI2  SING  33
+#

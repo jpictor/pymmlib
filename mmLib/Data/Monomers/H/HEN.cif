@@ -1,0 +1,121 @@
+data_HEN
+#
+_chem_comp.id                   HEN
+_chem_comp.name                 '2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL)-IMINO]-5-PHOSPHONO-PENT-3-ENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H18 N2 O10 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        424.240
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEN  N1    .  N  0  ?  ?  ?  1  1 
+HEN  C2    .  C  0  ?  ?  ?  1  2 
+HEN  C2A   .  C  0  ?  ?  ?  1  3 
+HEN  C3    .  C  0  ?  ?  ?  1  4 
+HEN  O3    .  O  0  ?  ?  ?  1  5 
+HEN  C4    .  C  0  ?  ?  ?  1  6 
+HEN  C4A   .  C  0  ?  ?  ?  1  7 
+HEN  C5    .  C  0  ?  ?  ?  1  8 
+HEN  C6    .  C  0  ?  ?  ?  1  9 
+HEN  C5A   .  C  0  ?  ?  ?  1  10
+HEN  OP4   .  O  0  ?  ?  ?  1  11
+HEN  P     .  P  0  ?  ?  ?  1  12
+HEN  OP1   .  O  0  ?  ?  ?  1  13
+HEN  OP2   .  O  0  ?  ?  ?  1  14
+HEN  OP3   .  O  0  ?  ?  ?  1  15
+HEN  N4A   .  N  0  ?  ?  ?  1  16
+HEN  CAI   .  C  0  ?  ?  ?  1  17
+HEN  CBC   .  C  0  ?  ?  ?  1  18
+HEN  O2B   .  O  0  ?  ?  ?  1  19
+HEN  O3B   .  O  0  ?  ?  ?  1  20
+HEN  CBI   .  C  0  ?  ?  ?  1  21
+HEN  CGI   .  C  0  ?  ?  ?  1  22
+HEN  CEI   .  C  0  ?  ?  ?  1  23
+HEN  PG    .  P  0  ?  ?  ?  1  24
+HEN  OG1   .  O  0  ?  ?  ?  1  25
+HEN  OG2   .  O  0  ?  ?  ?  1  26
+HEN  OG3   .  O  0  ?  ?  ?  1  27
+HEN  OHP1  .  H  0  ?  ?  ?  0  28
+HEN  OHP3  .  H  0  ?  ?  ?  0  29
+HEN  1H5A  .  H  0  ?  ?  ?  0  30
+HEN  2H5A  .  H  0  ?  ?  ?  0  31
+HEN  HC6   .  H  0  ?  ?  ?  1  32
+HEN  1H2A  .  H  0  ?  ?  ?  0  33
+HEN  2H2A  .  H  0  ?  ?  ?  0  34
+HEN  3H2A  .  H  0  ?  ?  ?  0  35
+HEN  HO3   .  H  0  ?  ?  ?  1  36
+HEN  1H4A  .  H  0  ?  ?  ?  0  37
+HEN  2H4A  .  H  0  ?  ?  ?  0  38
+HEN  OH2B  .  H  0  ?  ?  ?  0  39
+HEN  CHBI  .  H  0  ?  ?  ?  0  40
+HEN  CHGI  .  H  0  ?  ?  ?  0  41
+HEN  1HCE  .  H  0  ?  ?  ?  0  42
+HEN  CHCE  .  H  0  ?  ?  ?  0  43
+HEN  OHG1  .  H  0  ?  ?  ?  0  44
+HEN  OHG2  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEN  N1   C2    DOUB  1 
+HEN  N1   C6    SING  2 
+HEN  C2   C2A   SING  3 
+HEN  C2   C3    SING  4 
+HEN  C2A  1H2A  SING  5 
+HEN  C2A  2H2A  SING  6 
+HEN  C2A  3H2A  SING  7 
+HEN  C3   O3    SING  8 
+HEN  C3   C4    DOUB  9 
+HEN  O3   HO3   SING  10
+HEN  C4   C4A   SING  11
+HEN  C4   C5    SING  12
+HEN  C4A  N4A   SING  13
+HEN  C4A  1H4A  SING  14
+HEN  C4A  2H4A  SING  15
+HEN  C5   C6    DOUB  16
+HEN  C5   C5A   SING  17
+HEN  C6   HC6   SING  18
+HEN  C5A  OP4   SING  19
+HEN  C5A  1H5A  SING  20
+HEN  C5A  2H5A  SING  21
+HEN  OP4  P     SING  22
+HEN  P    OP1   SING  23
+HEN  P    OP2   DOUB  24
+HEN  P    OP3   SING  25
+HEN  OP1  OHP1  SING  26
+HEN  OP3  OHP3  SING  27
+HEN  N4A  CAI   DOUB  28
+HEN  CAI  CBC   SING  29
+HEN  CAI  CBI   SING  30
+HEN  CBC  O2B   SING  31
+HEN  CBC  O3B   DOUB  32
+HEN  O2B  OH2B  SING  33
+HEN  CBI  CGI   DOUB  34
+HEN  CBI  CHBI  SING  35
+HEN  CGI  CEI   SING  36
+HEN  CGI  CHGI  SING  37
+HEN  CEI  PG    SING  38
+HEN  CEI  1HCE  SING  39
+HEN  CEI  CHCE  SING  40
+HEN  PG   OG1   SING  41
+HEN  PG   OG2   SING  42
+HEN  PG   OG3   DOUB  43
+HEN  OG1  OHG1  SING  44
+HEN  OG2  OHG2  SING  45
+#

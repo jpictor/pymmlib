@@ -1,0 +1,119 @@
+data_RBZ
+#
+_chem_comp.id                   RBZ
+_chem_comp.name                 ALPHA-RIBAZOLE-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        358.287
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RBZ  N3    .  N  0  56.354  41.750  14.085  1  1 
+RBZ  N1    .  N  0  56.802  40.986  11.976  1  2 
+RBZ  C2    .  C  0  55.976  40.970  13.065  1  3 
+RBZ  C7A   .  C  0  57.825  41.896  12.389  1  4 
+RBZ  C3A   .  C  0  57.527  42.364  13.693  1  5 
+RBZ  C4    .  C  0  58.377  43.299  14.355  1  6 
+RBZ  C5    .  C  0  59.546  43.773  13.703  1  7 
+RBZ  C6    .  C  0  59.873  43.293  12.357  1  8 
+RBZ  C7    .  C  0  59.012  42.368  11.719  1  9 
+RBZ  C8    .  C  0  60.446  44.783  14.425  1  10
+RBZ  C9    .  C  0  61.115  43.771  11.627  1  11
+RBZ  P     .  P  0  59.742  39.317  6.169   1  12
+RBZ  O1P   .  O  0  59.515  38.062  5.365   1  13
+RBZ  O2P   .  O  0  59.889  40.482  5.249   1  14
+RBZ  O3P   .  O  0  60.974  39.186  6.976   1  15
+RBZ  O5*   .  O  0  58.487  39.572  7.112   1  16
+RBZ  C5*   .  C  0  58.103  38.577  8.086   1  17
+RBZ  C4*   .  C  0  58.411  38.995  9.527   1  18
+RBZ  O4*   .  O  0  57.884  40.325  9.884   1  19
+RBZ  C3*   .  C  0  57.834  38.124  10.612  1  20
+RBZ  O3*   .  O  0  58.618  38.161  11.823  1  21
+RBZ  C2*   .  C  0  56.442  38.736  10.750  1  22
+RBZ  O2*   .  O  0  55.872  38.296  11.988  1  23
+RBZ  C1*   .  C  0  56.686  40.248  10.663  1  24
+RBZ  2HOP  .  H  0  ?       ?       ?       0  25
+RBZ  3HOP  .  H  0  ?       ?       ?       0  26
+RBZ  1H5*  .  H  0  ?       ?       ?       0  27
+RBZ  2H5*  .  H  0  ?       ?       ?       0  28
+RBZ  H4*   .  H  0  ?       ?       ?       1  29
+RBZ  H3*   .  H  0  ?       ?       ?       1  30
+RBZ  H2*   .  H  0  ?       ?       ?       1  31
+RBZ  H1*   .  H  0  ?       ?       ?       1  32
+RBZ  2HO*  .  H  0  ?       ?       ?       0  33
+RBZ  3HO*  .  H  0  ?       ?       ?       0  34
+RBZ  H2    .  H  0  ?       ?       ?       1  35
+RBZ  H4    .  H  0  ?       ?       ?       1  36
+RBZ  H7    .  H  0  ?       ?       ?       1  37
+RBZ  1H8   .  H  0  ?       ?       ?       0  38
+RBZ  2H8   .  H  0  ?       ?       ?       0  39
+RBZ  3H8   .  H  0  ?       ?       ?       0  40
+RBZ  1H9   .  H  0  ?       ?       ?       0  41
+RBZ  2H9   .  H  0  ?       ?       ?       0  42
+RBZ  3H9   .  H  0  ?       ?       ?       0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RBZ  N3   C2    AROM  1 
+RBZ  N3   C3A   AROM  2 
+RBZ  N1   C2    AROM  3 
+RBZ  N1   C7A   AROM  4 
+RBZ  N1   C1*   SING  5 
+RBZ  C2   H2    SING  6 
+RBZ  C7A  C3A   AROM  7 
+RBZ  C7A  C7    AROM  8 
+RBZ  C3A  C4    AROM  9 
+RBZ  C4   C5    AROM  10
+RBZ  C4   H4    SING  11
+RBZ  C5   C6    AROM  12
+RBZ  C5   C8    SING  13
+RBZ  C6   C7    AROM  14
+RBZ  C6   C9    SING  15
+RBZ  C7   H7    SING  16
+RBZ  C8   1H8   SING  17
+RBZ  C8   2H8   SING  18
+RBZ  C8   3H8   SING  19
+RBZ  C9   1H9   SING  20
+RBZ  C9   2H9   SING  21
+RBZ  C9   3H9   SING  22
+RBZ  P    O1P   DOUB  23
+RBZ  P    O2P   SING  24
+RBZ  P    O3P   SING  25
+RBZ  P    O5*   SING  26
+RBZ  O2P  2HOP  SING  27
+RBZ  O3P  3HOP  SING  28
+RBZ  O5*  C5*   SING  29
+RBZ  C5*  C4*   SING  30
+RBZ  C5*  1H5*  SING  31
+RBZ  C5*  2H5*  SING  32
+RBZ  C4*  O4*   SING  33
+RBZ  C4*  C3*   SING  34
+RBZ  C4*  H4*   SING  35
+RBZ  O4*  C1*   SING  36
+RBZ  C3*  O3*   SING  37
+RBZ  C3*  C2*   SING  38
+RBZ  C3*  H3*   SING  39
+RBZ  O3*  3HO*  SING  40
+RBZ  C2*  O2*   SING  41
+RBZ  C2*  C1*   SING  42
+RBZ  C2*  H2*   SING  43
+RBZ  O2*  2HO*  SING  44
+RBZ  C1*  H1*   SING  45
+#

@@ -1,0 +1,133 @@
+data_SFG
+#
+_chem_comp.id                   SFG
+_chem_comp.name                 ADENOSYL-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H23 N7 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        381.391
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SFG  N     .  N  0  ?  ?  ?  1  1 
+SFG  CA    .  C  0  ?  ?  ?  1  2 
+SFG  C     .  C  0  ?  ?  ?  1  3 
+SFG  O     .  O  0  ?  ?  ?  1  4 
+SFG  OXT   .  O  0  ?  ?  ?  1  5 
+SFG  CB    .  C  0  ?  ?  ?  1  6 
+SFG  CG    .  C  0  ?  ?  ?  1  7 
+SFG  CD    .  C  0  ?  ?  ?  1  8 
+SFG  NE    .  N  0  ?  ?  ?  1  9 
+SFG  C5*   .  C  0  ?  ?  ?  1  10
+SFG  C4*   .  C  0  ?  ?  ?  1  11
+SFG  O4*   .  O  0  ?  ?  ?  1  12
+SFG  C3*   .  C  0  ?  ?  ?  1  13
+SFG  O3*   .  O  0  ?  ?  ?  1  14
+SFG  C2*   .  C  0  ?  ?  ?  1  15
+SFG  O2*   .  O  0  ?  ?  ?  1  16
+SFG  C1*   .  C  0  ?  ?  ?  1  17
+SFG  N9    .  N  0  ?  ?  ?  1  18
+SFG  C8    .  C  0  ?  ?  ?  1  19
+SFG  N7    .  N  0  ?  ?  ?  1  20
+SFG  C5    .  C  0  ?  ?  ?  1  21
+SFG  C6    .  C  0  ?  ?  ?  1  22
+SFG  N6    .  N  0  ?  ?  ?  1  23
+SFG  N1    .  N  0  ?  ?  ?  1  24
+SFG  C2    .  C  0  ?  ?  ?  1  25
+SFG  N3    .  N  0  ?  ?  ?  1  26
+SFG  C4    .  C  0  ?  ?  ?  1  27
+SFG  1HN   .  H  0  ?  ?  ?  0  28
+SFG  2HN   .  H  0  ?  ?  ?  0  29
+SFG  HA    .  H  0  ?  ?  ?  1  30
+SFG  HXT   .  H  0  ?  ?  ?  1  31
+SFG  1HB   .  H  0  ?  ?  ?  0  32
+SFG  2HB   .  H  0  ?  ?  ?  0  33
+SFG  1HG   .  H  0  ?  ?  ?  0  34
+SFG  2HG   .  H  0  ?  ?  ?  0  35
+SFG  HD    .  H  0  ?  ?  ?  1  36
+SFG  1HNE  .  H  0  ?  ?  ?  0  37
+SFG  2HNE  .  H  0  ?  ?  ?  0  38
+SFG  1H5*  .  H  0  ?  ?  ?  0  39
+SFG  2H5*  .  H  0  ?  ?  ?  0  40
+SFG  H4*   .  H  0  ?  ?  ?  1  41
+SFG  H3*   .  H  0  ?  ?  ?  1  42
+SFG  *HO3  .  H  0  ?  ?  ?  0  43
+SFG  H2*   .  H  0  ?  ?  ?  1  44
+SFG  *HO2  .  H  0  ?  ?  ?  0  45
+SFG  H1*   .  H  0  ?  ?  ?  1  46
+SFG  H8    .  H  0  ?  ?  ?  1  47
+SFG  1HN6  .  H  0  ?  ?  ?  0  48
+SFG  2HN6  .  H  0  ?  ?  ?  0  49
+SFG  H2    .  H  0  ?  ?  ?  1  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SFG  N    CA    SING  1 
+SFG  N    1HN   SING  2 
+SFG  N    2HN   SING  3 
+SFG  CA   C     SING  4 
+SFG  CA   CB    SING  5 
+SFG  CA   HA    SING  6 
+SFG  C    O     DOUB  7 
+SFG  C    OXT   SING  8 
+SFG  OXT  HXT   SING  9 
+SFG  CB   CG    SING  10
+SFG  CB   1HB   SING  11
+SFG  CB   2HB   SING  12
+SFG  CG   CD    SING  13
+SFG  CG   1HG   SING  14
+SFG  CG   2HG   SING  15
+SFG  CD   NE    SING  16
+SFG  CD   C5*   SING  17
+SFG  CD   HD    SING  18
+SFG  NE   1HNE  SING  19
+SFG  NE   2HNE  SING  20
+SFG  C5*  C4*   SING  21
+SFG  C5*  1H5*  SING  22
+SFG  C5*  2H5*  SING  23
+SFG  C4*  O4*   SING  24
+SFG  C4*  C3*   SING  25
+SFG  C4*  H4*   SING  26
+SFG  O4*  C1*   SING  27
+SFG  C3*  O3*   SING  28
+SFG  C3*  C2*   SING  29
+SFG  C3*  H3*   SING  30
+SFG  O3*  *HO3  SING  31
+SFG  C2*  O2*   SING  32
+SFG  C2*  C1*   SING  33
+SFG  C2*  H2*   SING  34
+SFG  O2*  *HO2  SING  35
+SFG  C1*  N9    SING  36
+SFG  C1*  H1*   SING  37
+SFG  N9   C8    SING  38
+SFG  N9   C4    SING  39
+SFG  C8   N7    DOUB  40
+SFG  C8   H8    SING  41
+SFG  N7   C5    SING  42
+SFG  C5   C6    SING  43
+SFG  C5   C4    DOUB  44
+SFG  C6   N6    SING  45
+SFG  C6   N1    DOUB  46
+SFG  N6   1HN6  SING  47
+SFG  N6   2HN6  SING  48
+SFG  N1   C2    SING  49
+SFG  C2   N3    DOUB  50
+SFG  C2   H2    SING  51
+SFG  N3   C4    SING  52
+#

@@ -1,0 +1,96 @@
+data_XDP
+#
+_chem_comp.id                   XDP
+_chem_comp.name                 D-XYLULOSE-2,2-DIOL-1,5-BISPHOSPHATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H14 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        328.106
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XDP  C1    .  C  0  ?  ?  ?  1  1 
+XDP  C2    .  C  0  ?  ?  ?  1  2 
+XDP  C3    .  C  0  ?  ?  ?  1  3 
+XDP  C4    .  C  0  ?  ?  ?  1  4 
+XDP  C5    .  C  0  ?  ?  ?  1  5 
+XDP  O1    .  O  0  ?  ?  ?  1  6 
+XDP  O21   .  O  0  ?  ?  ?  1  7 
+XDP  O22   .  O  0  ?  ?  ?  1  8 
+XDP  O3    .  O  0  ?  ?  ?  1  9 
+XDP  O4    .  O  0  ?  ?  ?  1  10
+XDP  O5    .  O  0  ?  ?  ?  1  11
+XDP  P1    .  P  0  ?  ?  ?  1  12
+XDP  P2    .  P  0  ?  ?  ?  1  13
+XDP  O1P   .  O  0  ?  ?  ?  1  14
+XDP  O2P   .  O  0  ?  ?  ?  1  15
+XDP  O3P   .  O  0  ?  ?  ?  1  16
+XDP  O4P   .  O  0  ?  ?  ?  1  17
+XDP  O5P   .  O  0  ?  ?  ?  1  18
+XDP  O6P   .  O  0  ?  ?  ?  1  19
+XDP  1H1   .  H  0  ?  ?  ?  0  20
+XDP  2H1   .  H  0  ?  ?  ?  0  21
+XDP  H3    .  H  0  ?  ?  ?  1  22
+XDP  H4    .  H  0  ?  ?  ?  1  23
+XDP  1H5   .  H  0  ?  ?  ?  0  24
+XDP  2H5   .  H  0  ?  ?  ?  0  25
+XDP  1HO2  .  H  0  ?  ?  ?  0  26
+XDP  2HO2  .  H  0  ?  ?  ?  0  27
+XDP  HO3   .  H  0  ?  ?  ?  1  28
+XDP  HO4   .  H  0  ?  ?  ?  1  29
+XDP  2HOP  .  H  0  ?  ?  ?  0  30
+XDP  3HOP  .  H  0  ?  ?  ?  0  31
+XDP  5HOP  .  H  0  ?  ?  ?  0  32
+XDP  6HOP  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XDP  C1   C2    SING  1 
+XDP  C1   O1    SING  2 
+XDP  C1   1H1   SING  3 
+XDP  C1   2H1   SING  4 
+XDP  C2   C3    SING  5 
+XDP  C2   O21   SING  6 
+XDP  C2   O22   SING  7 
+XDP  C3   C4    SING  8 
+XDP  C3   O3    SING  9 
+XDP  C3   H3    SING  10
+XDP  C4   C5    SING  11
+XDP  C4   O4    SING  12
+XDP  C4   H4    SING  13
+XDP  C5   O5    SING  14
+XDP  C5   1H5   SING  15
+XDP  C5   2H5   SING  16
+XDP  O1   P1    SING  17
+XDP  O21  1HO2  SING  18
+XDP  O22  2HO2  SING  19
+XDP  O3   HO3   SING  20
+XDP  O4   HO4   SING  21
+XDP  O5   P2    SING  22
+XDP  P1   O1P   DOUB  23
+XDP  P1   O2P   SING  24
+XDP  P1   O3P   SING  25
+XDP  P2   O4P   DOUB  26
+XDP  P2   O5P   SING  27
+XDP  P2   O6P   SING  28
+XDP  O2P  2HOP  SING  29
+XDP  O3P  3HOP  SING  30
+XDP  O5P  5HOP  SING  31
+XDP  O6P  6HOP  SING  32
+#

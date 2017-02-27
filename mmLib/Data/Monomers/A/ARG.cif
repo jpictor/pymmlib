@@ -1,0 +1,84 @@
+data_ARG
+#
+_chem_comp.id                   ARG
+_chem_comp.name                 ARGININE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H15 N4 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        y
+_chem_comp.formula_weight       175.210
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARG  N     .  N  0  ?  ?  ?  1  1 
+ARG  CA    .  C  0  ?  ?  ?  1  2 
+ARG  C     .  C  0  ?  ?  ?  1  3 
+ARG  O     .  O  0  ?  ?  ?  1  4 
+ARG  CB    .  C  0  ?  ?  ?  1  5 
+ARG  CG    .  C  0  ?  ?  ?  1  6 
+ARG  CD    .  C  0  ?  ?  ?  1  7 
+ARG  NE    .  N  0  ?  ?  ?  1  8 
+ARG  CZ    .  C  0  ?  ?  ?  1  9 
+ARG  NH1   .  N  0  ?  ?  ?  1  10
+ARG  NH2   .  N  1  ?  ?  ?  1  11
+ARG  OXT   .  O  0  ?  ?  ?  1  12
+ARG  H     .  H  0  ?  ?  ?  1  13
+ARG  HN2   .  H  0  ?  ?  ?  1  14
+ARG  HA    .  H  0  ?  ?  ?  1  15
+ARG  1HB   .  H  0  ?  ?  ?  0  16
+ARG  2HB   .  H  0  ?  ?  ?  0  17
+ARG  1HG   .  H  0  ?  ?  ?  0  18
+ARG  2HG   .  H  0  ?  ?  ?  0  19
+ARG  1HD   .  H  0  ?  ?  ?  0  20
+ARG  2HD   .  H  0  ?  ?  ?  0  21
+ARG  HE    .  H  0  ?  ?  ?  1  22
+ARG  1HH1  .  H  0  ?  ?  ?  0  23
+ARG  2HH1  .  H  0  ?  ?  ?  0  24
+ARG  1HH2  .  H  0  ?  ?  ?  0  25
+ARG  2HH2  .  H  0  ?  ?  ?  0  26
+ARG  HXT   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARG  N    CA    SING  1 
+ARG  N    H     SING  2 
+ARG  N    HN2   SING  3 
+ARG  CA   C     SING  4 
+ARG  CA   CB    SING  5 
+ARG  CA   HA    SING  6 
+ARG  C    O     DOUB  7 
+ARG  C    OXT   SING  8 
+ARG  CB   CG    SING  9 
+ARG  CB   1HB   SING  10
+ARG  CB   2HB   SING  11
+ARG  CG   CD    SING  12
+ARG  CG   1HG   SING  13
+ARG  CG   2HG   SING  14
+ARG  CD   NE    SING  15
+ARG  CD   1HD   SING  16
+ARG  CD   2HD   SING  17
+ARG  NE   CZ    SING  18
+ARG  NE   HE    SING  19
+ARG  CZ   NH1   SING  20
+ARG  CZ   NH2   DOUB  21
+ARG  NH1  1HH1  SING  22
+ARG  NH1  2HH1  SING  23
+ARG  NH2  1HH2  SING  24
+ARG  NH2  2HH2  SING  25
+ARG  OXT  HXT   SING  26
+#

@@ -1,0 +1,52 @@
+data_MTD
+#
+_chem_comp.id                   MTD
+_chem_comp.name                 [METHYLTELLURO]ACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 O2 TE1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       200.671
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTD  O5   .  O   0   ?  ?  ?  1  1 
+MTD  O6   .  O   -1  ?  ?  ?  1  2 
+MTD  C1   .  C   0   ?  ?  ?  1  3 
+MTD  C2   .  C   0   ?  ?  ?  1  4 
+MTD  TE3  .  TE  0   ?  ?  ?  0  5 
+MTD  C4   .  C   0   ?  ?  ?  1  6 
+MTD  1H2  .  H   0   ?  ?  ?  0  7 
+MTD  2H2  .  H   0   ?  ?  ?  0  8 
+MTD  1H4  .  H   0   ?  ?  ?  0  9 
+MTD  2H4  .  H   0   ?  ?  ?  0  10
+MTD  3H4  .  H   0   ?  ?  ?  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTD  O5   C1   DOUB  1 
+MTD  O6   C1   SING  2 
+MTD  C1   C2   SING  3 
+MTD  C2   TE3  SING  4 
+MTD  C2   1H2  SING  5 
+MTD  C2   2H2  SING  6 
+MTD  TE3  C4   SING  7 
+MTD  C4   1H4  SING  8 
+MTD  C4   2H4  SING  9 
+MTD  C4   3H4  SING  10
+#

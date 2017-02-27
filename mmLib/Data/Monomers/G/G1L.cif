@@ -1,0 +1,101 @@
+data_G1L
+#
+_chem_comp.id                   G1L
+_chem_comp.name                 3-CHLORO-2,2-DIMETHYL-N-[4-(TRIFLUOROMETHYL)PHENYL]PROPANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O1 CL1 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        279.689
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          G1L
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC(C)(CCl)C(=O)Nc1ccc(cc1)C(F)(F)F
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+G1L  F23   .  F   0  15.312  2.092   -0.165  1  N  1 
+G1L  C20   .  C   0  16.404  1.350   -0.026  1  N  2 
+G1L  F21   .  F   0  17.279  1.766   -0.937  1  N  3 
+G1L  F22   .  F   0  16.938  1.397   1.196   1  N  4 
+G1L  C3    .  C   0  16.144  -0.100  -0.261  1  Y  5 
+G1L  C2    .  C   0  17.261  -0.899  -0.147  1  Y  6 
+G1L  C1    .  C   0  17.168  -2.253  -0.328  1  Y  7 
+G1L  C4    .  C   0  14.911  -0.683  -0.560  1  Y  8 
+G1L  C5    .  C   0  14.827  -2.068  -0.756  1  Y  9 
+G1L  C6    .  C   0  15.966  -2.873  -0.637  1  Y  10
+G1L  N11   .  N   0  15.916  -4.223  -0.858  1  N  11
+G1L  C12   .  C   0  16.959  -5.079  -0.795  1  N  12
+G1L  O18   .  O   0  18.114  -4.757  -0.548  1  N  13
+G1L  C13   .  C   0  16.687  -6.547  -1.026  1  N  14
+G1L  C14   .  C   0  15.249  -6.800  -1.442  1  N  15
+G1L  C15   .  C   0  17.589  -7.122  -2.111  1  N  16
+G1L  C16   .  C   0  17.016  -7.276  0.263   1  N  17
+G1L  CL17  .  CL  0  18.410  -6.779  1.234   0  N  18
+G1L  H2    .  H   0  18.217  -0.454  0.087   1  N  19
+G1L  H1    .  H   0  18.058  -2.857  -0.227  1  N  20
+G1L  H4    .  H   0  14.026  -0.069  -0.640  1  N  21
+G1L  H5    .  H   0  13.876  -2.518  -1.001  1  N  22
+G1L  HN11  .  H   0  15.024  -4.612  -1.088  0  N  23
+G1L  1H14  .  H   0  14.613  -6.861  -0.547  0  N  24
+G1L  2H14  .  H   0  14.902  -5.975  -2.082  0  N  25
+G1L  3H14  .  H   0  15.190  -7.747  -1.999  0  N  26
+G1L  1H15  .  H   0  17.009  -7.261  -3.035  0  N  27
+G1L  2H15  .  H   0  18.421  -6.429  -2.301  0  N  28
+G1L  3H15  .  H   0  17.988  -8.092  -1.780  0  N  29
+G1L  1H16  .  H   0  16.136  -7.159  0.912   0  N  30
+G1L  2H16  .  H   0  17.284  -8.288  -0.074  0  N  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+G1L  F23  C20   SING  N  1 
+G1L  C20  F21   SING  N  2 
+G1L  C20  C3    SING  N  3 
+G1L  C20  F22   SING  N  4 
+G1L  C3   C4    DOUB  Y  5 
+G1L  C3   C2    SING  Y  6 
+G1L  C2   C1    DOUB  Y  7 
+G1L  C2   H2    SING  N  8 
+G1L  C1   C6    SING  Y  9 
+G1L  C1   H1    SING  N  10
+G1L  C4   C5    SING  Y  11
+G1L  C4   H4    SING  N  12
+G1L  C5   C6    DOUB  Y  13
+G1L  C5   H5    SING  N  14
+G1L  C6   N11   SING  N  15
+G1L  N11  C12   SING  N  16
+G1L  N11  HN11  SING  N  17
+G1L  C12  C13   SING  N  18
+G1L  C12  O18   DOUB  N  19
+G1L  C13  C15   SING  N  20
+G1L  C13  C14   SING  N  21
+G1L  C13  C16   SING  N  22
+G1L  C14  1H14  SING  N  23
+G1L  C14  2H14  SING  N  24
+G1L  C14  3H14  SING  N  25
+G1L  C15  1H15  SING  N  26
+G1L  C15  2H15  SING  N  27
+G1L  C15  3H15  SING  N  28
+G1L  C16  CL17  SING  N  29
+G1L  C16  1H16  SING  N  30
+G1L  C16  2H16  SING  N  31
+#

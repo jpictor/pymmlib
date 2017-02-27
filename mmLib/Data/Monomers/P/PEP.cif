@@ -1,0 +1,60 @@
+data_PEP
+#
+_chem_comp.id                   PEP
+_chem_comp.name                 PHOSPHOENOLPYRUVATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        168.043
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEP  C1    .  C  0  ?  ?  ?  1  1 
+PEP  O1    .  O  0  ?  ?  ?  1  2 
+PEP  O2'   .  O  0  ?  ?  ?  1  3 
+PEP  C2    .  C  0  ?  ?  ?  1  4 
+PEP  C3    .  C  0  ?  ?  ?  1  5 
+PEP  O2    .  O  0  ?  ?  ?  1  6 
+PEP  P     .  P  0  ?  ?  ?  1  7 
+PEP  O1P   .  O  0  ?  ?  ?  1  8 
+PEP  O2P   .  O  0  ?  ?  ?  1  9 
+PEP  O3P   .  O  0  ?  ?  ?  1  10
+PEP  HO2   .  H  0  ?  ?  ?  1  11
+PEP  1H3   .  H  0  ?  ?  ?  0  12
+PEP  2H3   .  H  0  ?  ?  ?  0  13
+PEP  2HOP  .  H  0  ?  ?  ?  0  14
+PEP  3HOP  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEP  C1   C2    SING  1 
+PEP  C1   O1    DOUB  2 
+PEP  C1   O2'   SING  3 
+PEP  O2'  HO2   SING  4 
+PEP  C2   C3    DOUB  5 
+PEP  C2   O2    SING  6 
+PEP  C3   1H3   SING  7 
+PEP  C3   2H3   SING  8 
+PEP  O2   P     SING  9 
+PEP  P    O1P   DOUB  10
+PEP  P    O2P   SING  11
+PEP  P    O3P   SING  12
+PEP  O2P  2HOP  SING  13
+PEP  O3P  3HOP  SING  14
+#

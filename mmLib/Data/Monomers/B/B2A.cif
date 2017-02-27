@@ -1,0 +1,59 @@
+data_B2A
+#
+_chem_comp.id                       B2A
+_chem_comp.name                     'ALANINE BORONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C2 H8 N1 O2 B1'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            88.901
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+B2A  N    .  N  0  ?  ?  ?  1  1 
+B2A  CA   .  C  0  ?  ?  ?  1  2 
+B2A  CB   .  C  0  ?  ?  ?  1  3 
+B2A  B    .  B  0  ?  ?  ?  1  4 
+B2A  O1   .  O  0  ?  ?  ?  1  5 
+B2A  O2   .  O  0  ?  ?  ?  1  6 
+B2A  1HN  .  H  0  ?  ?  ?  0  7 
+B2A  2HN  .  H  0  ?  ?  ?  0  8 
+B2A  HA   .  H  0  ?  ?  ?  1  9 
+B2A  1HB  .  H  0  ?  ?  ?  0  10
+B2A  2HB  .  H  0  ?  ?  ?  0  11
+B2A  3HB  .  H  0  ?  ?  ?  0  12
+B2A  HO1  .  H  0  ?  ?  ?  1  13
+B2A  HO2  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+B2A  N   CA   SING  1 
+B2A  N   1HN  SING  2 
+B2A  N   2HN  SING  3 
+B2A  CA  CB   SING  4 
+B2A  CA  B    SING  5 
+B2A  CA  HA   SING  6 
+B2A  CB  1HB  SING  7 
+B2A  CB  2HB  SING  8 
+B2A  CB  3HB  SING  9 
+B2A  B   O1   SING  10
+B2A  B   O2   SING  11
+B2A  O1  HO1  SING  12
+B2A  O2  HO2  SING  13
+#

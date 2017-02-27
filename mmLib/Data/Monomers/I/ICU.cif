@@ -1,0 +1,95 @@
+data_ICU
+#
+_chem_comp.id                   ICU
+_chem_comp.name                 METHYL(2-ACETOXY-2-(2-CARBOXY-4-AMINO-PHENYL))ACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ICU  C1    .  C  0  ?  ?  ?  1  1 
+ICU  O1    .  O  0  ?  ?  ?  1  2 
+ICU  OXT   .  O  0  ?  ?  ?  1  3 
+ICU  C2    .  C  0  ?  ?  ?  1  4 
+ICU  C3    .  C  0  ?  ?  ?  1  5 
+ICU  C4    .  C  0  ?  ?  ?  1  6 
+ICU  N1    .  N  0  ?  ?  ?  1  7 
+ICU  C5    .  C  0  ?  ?  ?  1  8 
+ICU  C6    .  C  0  ?  ?  ?  1  9 
+ICU  C7    .  C  0  ?  ?  ?  1  10
+ICU  C8    .  C  0  ?  ?  ?  1  11
+ICU  O2    .  O  0  ?  ?  ?  1  12
+ICU  C9    .  C  0  ?  ?  ?  1  13
+ICU  O3    .  O  0  ?  ?  ?  1  14
+ICU  C10   .  C  0  ?  ?  ?  1  15
+ICU  C11   .  C  0  ?  ?  ?  1  16
+ICU  O4    .  O  0  ?  ?  ?  1  17
+ICU  O5    .  O  0  ?  ?  ?  1  18
+ICU  C12   .  C  0  ?  ?  ?  1  19
+ICU  HXT   .  H  0  ?  ?  ?  1  20
+ICU  H3    .  H  0  ?  ?  ?  1  21
+ICU  1HN1  .  H  0  ?  ?  ?  0  22
+ICU  2HN1  .  H  0  ?  ?  ?  0  23
+ICU  H5    .  H  0  ?  ?  ?  1  24
+ICU  H6    .  H  0  ?  ?  ?  1  25
+ICU  H8    .  H  0  ?  ?  ?  1  26
+ICU  1H10  .  H  0  ?  ?  ?  0  27
+ICU  2H10  .  H  0  ?  ?  ?  0  28
+ICU  3H10  .  H  0  ?  ?  ?  0  29
+ICU  1H12  .  H  0  ?  ?  ?  0  30
+ICU  2H12  .  H  0  ?  ?  ?  0  31
+ICU  3H12  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ICU  C1   C2    SING  1 
+ICU  C1   O1    DOUB  2 
+ICU  C1   OXT   SING  3 
+ICU  OXT  HXT   SING  4 
+ICU  C2   C3    DOUB  5 
+ICU  C2   C7    SING  6 
+ICU  C3   C4    SING  7 
+ICU  C3   H3    SING  8 
+ICU  C4   C5    DOUB  9 
+ICU  C4   N1    SING  10
+ICU  N1   1HN1  SING  11
+ICU  N1   2HN1  SING  12
+ICU  C5   C6    SING  13
+ICU  C5   H5    SING  14
+ICU  C6   C7    DOUB  15
+ICU  C6   H6    SING  16
+ICU  C7   C8    SING  17
+ICU  C8   O2    SING  18
+ICU  C8   C11   SING  19
+ICU  C8   H8    SING  20
+ICU  O2   C9    SING  21
+ICU  C9   O3    DOUB  22
+ICU  C9   C10   SING  23
+ICU  C10  1H10  SING  24
+ICU  C10  2H10  SING  25
+ICU  C10  3H10  SING  26
+ICU  C11  O4    DOUB  27
+ICU  C11  O5    SING  28
+ICU  O5   C12   SING  29
+ICU  C12  1H12  SING  30
+ICU  C12  2H12  SING  31
+ICU  C12  3H12  SING  32
+#

@@ -1,0 +1,65 @@
+data_DBH
+#
+_chem_comp.id                   DBH
+_chem_comp.name                 '2,3-DIHYDROXY-BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DBH  O17   .  O  0  52.991  107.635  34.099  1  1 
+DBH  C21   .  C  0  52.280  106.499  33.931  1  2 
+DBH  O9    .  O  0  51.039  106.499  33.873  1  3 
+DBH  C18   .  C  0  53.109  105.261  33.795  1  4 
+DBH  C15   .  C  0  52.665  104.192  32.948  1  5 
+DBH  C12   .  C  0  53.386  103.060  32.784  1  6 
+DBH  C3    .  C  0  54.318  105.091  34.436  1  7 
+DBH  O3    .  O  0  54.887  105.966  35.250  1  8 
+DBH  C6    .  C  0  55.063  103.913  34.262  1  9 
+DBH  C9    .  C  0  54.599  102.894  33.431  1  10
+DBH  O6    .  O  0  56.220  103.889  34.947  1  11
+DBH  HC15  .  H  0  ?       ?        ?       0  12
+DBH  HC12  .  H  0  ?       ?        ?       0  13
+DBH  HC9   .  H  0  ?       ?        ?       1  14
+DBH  HO6   .  H  0  ?       ?        ?       1  15
+DBH  HO3   .  H  0  ?       ?        ?       1  16
+DBH  HO17  .  H  0  ?       ?        ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DBH  O17  C21   SING  1 
+DBH  O17  HO17  SING  2 
+DBH  C21  O9    DOUB  3 
+DBH  C21  C18   SING  4 
+DBH  C18  C15   AROM  5 
+DBH  C18  C3    AROM  6 
+DBH  C15  C12   AROM  7 
+DBH  C15  HC15  SING  8 
+DBH  C12  C9    AROM  9 
+DBH  C12  HC12  SING  10
+DBH  C3   O3    SING  11
+DBH  C3   C6    AROM  12
+DBH  O3   HO3   SING  13
+DBH  C6   C9    AROM  14
+DBH  C6   O6    SING  15
+DBH  C9   HC9   SING  16
+DBH  O6   HO6   SING  17
+#

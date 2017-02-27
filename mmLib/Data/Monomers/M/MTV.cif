@@ -1,0 +1,118 @@
+data_MTV
+#
+_chem_comp.id                   MTV
+_chem_comp.name                 (MOLYBDOPTERIN-S,S)-DIOXO-THIO-MOLYBDENUM(IV)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O8 MO1 P1 S3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        555.343
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTV  N1    .  N   0  53.238  -.263   106.584  1  1 
+MTV  C2    .  C   0  53.16   -.32    105.244  1  2 
+MTV  N2    .  N   0  54.153  -.945   104.595  1  3 
+MTV  N3    .  N   0  52.121  .213    104.555  1  4 
+MTV  C4    .  C   0  51.086  .83     105.145  1  5 
+MTV  O4    .  O   0  50.113  1.318   104.312  1  6 
+MTV  N5    .  N   0  50.168  1.582   107.297  1  7 
+MTV  C6    .  C   0  50.272  1.679   108.613  1  8 
+MTV  C7    .  C   0  51.291  1.03    109.379  1  9 
+MTV  N8    .  N   0  52.345  .424    108.585  1  10
+MTV  C9    .  C   0  51.104  .965    106.552  1  11
+MTV  C10   .  C   0  52.256  .353    107.258  1  12
+MTV  C1'   .  C   0  49.285  2.369   109.5    1  13
+MTV  S1'   .  S   0  48.854  3.95    109.157  1  14
+MTV  C2'   .  C   0  48.786  1.751   110.526  1  15
+MTV  S2'   .  S   0  47.633  2.494   111.504  1  16
+MTV  C3'   .  C   0  49.218  .36     110.548  1  17
+MTV  O3'   .  O   0  50.513  -.052   109.98   1  18
+MTV  C4'   .  C   0  48.323  -.508   110.997  1  19
+MTV  O4'   .  O   0  48.69   -1.873  111.019  1  20
+MTV  P     .  P   0  47.589  -2.978  111.102  1  21
+MTV  O1P   .  O   0  46.707  -2.713  112.3    1  22
+MTV  O2P   .  O   0  48.439  -4.229  111.215  1  23
+MTV  O3P   .  O   0  46.959  -2.825  109.717  1  24
+MTV  MOM1  .  MO  0  47.482  4.77    110.879  0  25
+MTV  SM1   .  S   0  ?       ?       ?        1  26
+MTV  OM1   .  O   0  ?       ?       ?        1  27
+MTV  OM2   .  O   0  ?       ?       ?        1  28
+MTV  1H2N  .  H   0  54.094  -.988   103.578  0  29
+MTV  2H2N  .  H   0  54.935  -1.346  105.113  0  30
+MTV  H7    .  H   0  51.709  1.71    110.157  1  31
+MTV  H8    .  H   0  53.169  .046    109.052  1  32
+MTV  1H4'  .  H   0  47.375  -.391   110.422  0  33
+MTV  2H4'  .  H   0  47.989  -.2     112.015  0  34
+MTV  1H2P  .  H   0  ?       ?       ?        0  35
+MTV  1H3P  .  H   0  ?       ?       ?        0  36
+MTV  1HM2  .  H   0  ?       ?       ?        0  37
+MTV  HSM1  .  H   0  ?       ?       ?        0  38
+MTV  1H3N  .  H   0  ?       ?       ?        0  39
+MTV  1H5N  .  H   0  ?       ?       ?        0  40
+MTV  1H6C  .  H   0  ?       ?       ?        0  41
+MTV  1H3'  .  H   0  ?       ?       ?        0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTV  N1    C2    DOUB  1 
+MTV  N1    C10   SING  2 
+MTV  C2    N2    SING  3 
+MTV  C2    N3    SING  4 
+MTV  N2    1H2N  SING  5 
+MTV  N2    2H2N  SING  6 
+MTV  N3    1H3N  SING  7 
+MTV  N3    C4    SING  8 
+MTV  C4    O4    DOUB  9 
+MTV  C4    C9    SING  10
+MTV  N5    1H5N  SING  11
+MTV  N5    C6    SING  12
+MTV  N5    C9    SING  13
+MTV  C6    1H6C  SING  14
+MTV  C6    C7    SING  15
+MTV  C6    C1'   SING  16
+MTV  C7    N8    SING  17
+MTV  C7    O3'   SING  18
+MTV  C7    H7    SING  19
+MTV  N8    C10   SING  20
+MTV  N8    H8    SING  21
+MTV  C9    C10   DOUB  22
+MTV  C1'   S1'   SING  23
+MTV  C1'   C2'   DOUB  24
+MTV  S1'   MOM1  SING  25
+MTV  C2'   S2'   SING  26
+MTV  C2'   C3'   SING  27
+MTV  S2'   MOM1  SING  28
+MTV  C3'   1H3'  SING  29
+MTV  C3'   O3'   SING  30
+MTV  C3'   C4'   SING  31
+MTV  C4'   O4'   SING  32
+MTV  C4'   1H4'  SING  33
+MTV  C4'   2H4'  SING  34
+MTV  O4'   P     SING  35
+MTV  P     O1P   DOUB  36
+MTV  P     O2P   SING  37
+MTV  P     O3P   SING  38
+MTV  O2P   1H2P  SING  39
+MTV  O3P   1H3P  SING  40
+MTV  MOM1  OM1   DOUB  41
+MTV  MOM1  OM2   SING  42
+MTV  MOM1  SM1   SING  43
+MTV  SM1   HSM1  SING  44
+MTV  OM2   1HM2  SING  45
+#

@@ -1,0 +1,42 @@
+data_MEE
+#
+_chem_comp.id                   MEE
+_chem_comp.name                 METHANETHIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        48.103
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MEE  C   .  C  0  ?  ?  ?  1  1
+MEE  S   .  S  0  ?  ?  ?  1  2
+MEE  1H  .  H  0  ?  ?  ?  0  3
+MEE  2H  .  H  0  ?  ?  ?  0  4
+MEE  3H  .  H  0  ?  ?  ?  0  5
+MEE  HS  .  H  0  ?  ?  ?  1  6
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MEE  C  S   SING  1
+MEE  C  1H  SING  2
+MEE  C  2H  SING  3
+MEE  C  3H  SING  4
+MEE  S  HS  SING  5
+#

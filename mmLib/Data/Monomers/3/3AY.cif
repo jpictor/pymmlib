@@ -1,0 +1,71 @@
+data_3AY
+#
+_chem_comp.id                   3AY
+_chem_comp.name                 PYRIMIDINE-2,4,6-TRIAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H7 N5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        125.133
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          3AY
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1c(nc(nc1N)N)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+3AY  NAA   .  N  0  10.906  13.120  6.211   1  N  1 
+3AY  C6    .  C  0  11.208  12.450  7.317   1  Y  2 
+3AY  C5    .  C  0  11.628  11.128  7.236   1  Y  3 
+3AY  N1    .  N  0  11.153  13.062  8.511   1  Y  4 
+3AY  C2    .  C  0  11.504  12.428  9.640   1  Y  5 
+3AY  NAH   .  N  0  11.515  13.087  10.798  1  N  6 
+3AY  N3    .  N  0  11.910  11.150  9.594   1  Y  7 
+3AY  C4    .  C  0  11.980  10.495  8.424   1  Y  8 
+3AY  NAI   .  N  0  12.394  9.232   8.400   1  N  9 
+3AY  1HAA  .  H  0  10.830  14.095  6.421   0  N  10
+3AY  2HAA  .  H  0  11.625  12.981  5.530   0  N  11
+3AY  H5    .  H  0  11.679  10.612  6.288   1  N  12
+3AY  1HAH  .  H  0  11.518  12.433  11.554  0  N  13
+3AY  2HAH  .  H  0  12.334  13.658  10.849  0  N  14
+3AY  1HAI  .  H  0  12.498  8.933   7.452   0  N  15
+3AY  2HAI  .  H  0  13.274  9.161   8.870   0  N  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+3AY  NAA  C6    SING  N  1 
+3AY  NAA  1HAA  SING  N  2 
+3AY  NAA  2HAA  SING  N  3 
+3AY  C6   C5    DOUB  Y  4 
+3AY  C6   N1    SING  Y  5 
+3AY  C5   C4    SING  Y  6 
+3AY  C5   H5    SING  N  7 
+3AY  N1   C2    DOUB  Y  8 
+3AY  C2   NAH   SING  N  9 
+3AY  C2   N3    SING  Y  10
+3AY  NAH  1HAH  SING  N  11
+3AY  NAH  2HAH  SING  N  12
+3AY  N3   C4    DOUB  Y  13
+3AY  C4   NAI   SING  N  14
+3AY  NAI  1HAI  SING  N  15
+3AY  NAI  2HAI  SING  N  16
+#

@@ -1,0 +1,101 @@
+data_5HT
+#
+_chem_comp.id                       5HT
+_chem_comp.name                     5-HYDROXY-THYMIDINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H16 N2 O6'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            260.246
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5HT  O5*   .  O  0  ?  ?  ?  1  1 
+5HT  C5*   .  C  0  ?  ?  ?  1  2 
+5HT  C4*   .  C  0  ?  ?  ?  1  3 
+5HT  O4*   .  O  0  ?  ?  ?  1  4 
+5HT  C3*   .  C  0  ?  ?  ?  1  5 
+5HT  O3*   .  O  0  ?  ?  ?  1  6 
+5HT  C2*   .  C  0  ?  ?  ?  1  7 
+5HT  C1*   .  C  0  ?  ?  ?  1  8 
+5HT  N1    .  N  0  ?  ?  ?  1  9 
+5HT  C2    .  C  0  ?  ?  ?  1  10
+5HT  O2    .  O  0  ?  ?  ?  1  11
+5HT  N3    .  N  0  ?  ?  ?  1  12
+5HT  C4    .  C  0  ?  ?  ?  1  13
+5HT  O4    .  O  0  ?  ?  ?  1  14
+5HT  C5    .  C  0  ?  ?  ?  1  15
+5HT  C5M   .  C  0  ?  ?  ?  1  16
+5HT  O5    .  O  0  ?  ?  ?  1  17
+5HT  C6    .  C  0  ?  ?  ?  1  18
+5HT  1H5M  .  H  0  ?  ?  ?  0  19
+5HT  2H5M  .  H  0  ?  ?  ?  0  20
+5HT  3H5M  .  H  0  ?  ?  ?  0  21
+5HT  HO5   .  H  0  ?  ?  ?  1  22
+5HT  1H6   .  H  0  ?  ?  ?  0  23
+5HT  2H6   .  H  0  ?  ?  ?  0  24
+5HT  H3    .  H  0  ?  ?  ?  1  25
+5HT  H1*   .  H  0  ?  ?  ?  1  26
+5HT  1H2*  .  H  0  ?  ?  ?  0  27
+5HT  2H2*  .  H  0  ?  ?  ?  0  28
+5HT  H3*   .  H  0  ?  ?  ?  1  29
+5HT  H3T   .  H  0  ?  ?  ?  1  30
+5HT  H4*   .  H  0  ?  ?  ?  1  31
+5HT  1H5*  .  H  0  ?  ?  ?  0  32
+5HT  2H5*  .  H  0  ?  ?  ?  0  33
+5HT  H5T   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5HT  O5*  C5*   SING  1 
+5HT  O5*  H5T   SING  2 
+5HT  C5*  C4*   SING  3 
+5HT  C5*  1H5*  SING  4 
+5HT  C5*  2H5*  SING  5 
+5HT  C4*  O4*   SING  6 
+5HT  C4*  C3*   SING  7 
+5HT  C4*  H4*   SING  8 
+5HT  O4*  C1*   SING  9 
+5HT  C3*  O3*   SING  10
+5HT  C3*  C2*   SING  11
+5HT  C3*  H3*   SING  12
+5HT  O3*  H3T   SING  13
+5HT  C2*  C1*   SING  14
+5HT  C2*  1H2*  SING  15
+5HT  C2*  2H2*  SING  16
+5HT  C1*  N1    SING  17
+5HT  C1*  H1*   SING  18
+5HT  N1   C2    SING  19
+5HT  N1   C6    SING  20
+5HT  C2   O2    DOUB  21
+5HT  C2   N3    SING  22
+5HT  N3   C4    SING  23
+5HT  N3   H3    SING  24
+5HT  C4   O4    DOUB  25
+5HT  C4   C5    SING  26
+5HT  C5   C5M   SING  27
+5HT  C5   O5    SING  28
+5HT  C5   C6    SING  29
+5HT  C5M  1H5M  SING  30
+5HT  C5M  2H5M  SING  31
+5HT  C5M  3H5M  SING  32
+5HT  O5   HO5   SING  33
+5HT  C6   1H6   SING  34
+5HT  C6   2H6   SING  35
+#

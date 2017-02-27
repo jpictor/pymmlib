@@ -1,0 +1,90 @@
+data_DCZ
+#
+_chem_comp.id                   DCZ
+_chem_comp.name                 2'-DEOXYCYTIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        227.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCZ  N1    .  N  0  ?  ?  ?  1  1 
+DCZ  C2    .  C  0  ?  ?  ?  1  2 
+DCZ  N3    .  N  0  ?  ?  ?  1  3 
+DCZ  C4    .  C  0  ?  ?  ?  1  4 
+DCZ  C5    .  C  0  ?  ?  ?  1  5 
+DCZ  C6    .  C  0  ?  ?  ?  1  6 
+DCZ  O2    .  O  0  ?  ?  ?  1  7 
+DCZ  N4    .  N  0  ?  ?  ?  1  8 
+DCZ  C1*   .  C  0  ?  ?  ?  1  9 
+DCZ  C2*   .  C  0  ?  ?  ?  1  10
+DCZ  C3*   .  C  0  ?  ?  ?  1  11
+DCZ  C4*   .  C  0  ?  ?  ?  1  12
+DCZ  O4*   .  O  0  ?  ?  ?  1  13
+DCZ  O3*   .  O  0  ?  ?  ?  1  14
+DCZ  C5*   .  C  0  ?  ?  ?  1  15
+DCZ  O5*   .  O  0  ?  ?  ?  1  16
+DCZ  1HN4  .  H  0  ?  ?  ?  0  17
+DCZ  2HN4  .  H  0  ?  ?  ?  0  18
+DCZ  H5    .  H  0  ?  ?  ?  1  19
+DCZ  H6    .  H  0  ?  ?  ?  1  20
+DCZ  H1*   .  H  0  ?  ?  ?  1  21
+DCZ  1H2*  .  H  0  ?  ?  ?  0  22
+DCZ  2H2*  .  H  0  ?  ?  ?  0  23
+DCZ  H3*   .  H  0  ?  ?  ?  1  24
+DCZ  *HO3  .  H  0  ?  ?  ?  0  25
+DCZ  H4*   .  H  0  ?  ?  ?  1  26
+DCZ  1H5*  .  H  0  ?  ?  ?  0  27
+DCZ  2H5*  .  H  0  ?  ?  ?  0  28
+DCZ  1HO5  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCZ  N1   C2    SING  1 
+DCZ  N1   C6    SING  2 
+DCZ  N1   C1*   SING  3 
+DCZ  C2   N3    SING  4 
+DCZ  C2   O2    DOUB  5 
+DCZ  N3   C4    DOUB  6 
+DCZ  C4   C5    SING  7 
+DCZ  C4   N4    SING  8 
+DCZ  C5   C6    DOUB  9 
+DCZ  C5   H5    SING  10
+DCZ  C6   H6    SING  11
+DCZ  N4   1HN4  SING  12
+DCZ  N4   2HN4  SING  13
+DCZ  C1*  C2*   SING  14
+DCZ  C1*  O4*   SING  15
+DCZ  C1*  H1*   SING  16
+DCZ  C2*  C3*   SING  17
+DCZ  C2*  1H2*  SING  18
+DCZ  C2*  2H2*  SING  19
+DCZ  C3*  C4*   SING  20
+DCZ  C3*  O3*   SING  21
+DCZ  C3*  H3*   SING  22
+DCZ  C4*  O4*   SING  23
+DCZ  C4*  C5*   SING  24
+DCZ  C4*  H4*   SING  25
+DCZ  O3*  *HO3  SING  26
+DCZ  C5*  O5*   SING  27
+DCZ  C5*  1H5*  SING  28
+DCZ  C5*  2H5*  SING  29
+DCZ  O5*  1HO5  SING  30
+#

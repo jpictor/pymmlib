@@ -1,0 +1,81 @@
+data_CHN
+#
+_chem_comp.id                   CHN
+_chem_comp.name                 4-AMINOMETHYL-CYCLOHEXYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        128.217
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CHN  N1    .  N  0  ?  ?  ?  1  1 
+CHN  C1    .  C  0  ?  ?  ?  1  2 
+CHN  C2    .  C  0  ?  ?  ?  1  3 
+CHN  C7    .  C  0  ?  ?  ?  1  4 
+CHN  C6    .  C  0  ?  ?  ?  1  5 
+CHN  C5    .  C  0  ?  ?  ?  1  6 
+CHN  C4    .  C  0  ?  ?  ?  1  7 
+CHN  C3    .  C  0  ?  ?  ?  1  8 
+CHN  N2    .  N  0  ?  ?  ?  1  9 
+CHN  1HN1  .  H  0  ?  ?  ?  0  10
+CHN  2HN1  .  H  0  ?  ?  ?  0  11
+CHN  1H1   .  H  0  ?  ?  ?  0  12
+CHN  2H1   .  H  0  ?  ?  ?  0  13
+CHN  1H2   .  H  0  ?  ?  ?  0  14
+CHN  1H3   .  H  0  ?  ?  ?  0  15
+CHN  2H3   .  H  0  ?  ?  ?  0  16
+CHN  1H4   .  H  0  ?  ?  ?  0  17
+CHN  2H4   .  H  0  ?  ?  ?  0  18
+CHN  1H5   .  H  0  ?  ?  ?  0  19
+CHN  1H6   .  H  0  ?  ?  ?  0  20
+CHN  2H6   .  H  0  ?  ?  ?  0  21
+CHN  1H7   .  H  0  ?  ?  ?  0  22
+CHN  2H7   .  H  0  ?  ?  ?  0  23
+CHN  1HN2  .  H  0  ?  ?  ?  0  24
+CHN  2HN2  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CHN  N1  C1    SING  1 
+CHN  N1  1HN1  SING  2 
+CHN  N1  2HN1  SING  3 
+CHN  C1  C2    SING  4 
+CHN  C1  1H1   SING  5 
+CHN  C1  2H1   SING  6 
+CHN  C2  C7    SING  7 
+CHN  C2  C3    SING  8 
+CHN  C2  1H2   SING  9 
+CHN  C7  C6    SING  10
+CHN  C7  1H7   SING  11
+CHN  C7  2H7   SING  12
+CHN  C6  C5    SING  13
+CHN  C6  1H6   SING  14
+CHN  C6  2H6   SING  15
+CHN  C5  C4    SING  16
+CHN  C5  N2    SING  17
+CHN  C5  1H5   SING  18
+CHN  C4  C3    SING  19
+CHN  C4  1H4   SING  20
+CHN  C4  2H4   SING  21
+CHN  C3  1H3   SING  22
+CHN  C3  2H3   SING  23
+CHN  N2  1HN2  SING  24
+CHN  N2  2HN2  SING  25
+#

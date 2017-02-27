@@ -1,0 +1,133 @@
+data_AMO
+#
+_chem_comp.id                   AMO
+_chem_comp.name                 ASPARTYL-ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N6 O10 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        462.312
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMO  P     .  P  0  ?  ?  ?  1  1 
+AMO  O1P   .  O  0  ?  ?  ?  1  2 
+AMO  O2P   .  O  0  ?  ?  ?  1  3 
+AMO  O3P   .  O  0  ?  ?  ?  1  4 
+AMO  O5*   .  O  0  ?  ?  ?  1  5 
+AMO  C5*   .  C  0  ?  ?  ?  1  6 
+AMO  C4*   .  C  0  ?  ?  ?  1  7 
+AMO  O4*   .  O  0  ?  ?  ?  1  8 
+AMO  C1*   .  C  0  ?  ?  ?  1  9 
+AMO  N9    .  N  0  ?  ?  ?  1  10
+AMO  C4    .  C  0  ?  ?  ?  1  11
+AMO  N3    .  N  0  ?  ?  ?  1  12
+AMO  C2    .  C  0  ?  ?  ?  1  13
+AMO  N1    .  N  0  ?  ?  ?  1  14
+AMO  C6    .  C  0  ?  ?  ?  1  15
+AMO  N6    .  N  0  ?  ?  ?  1  16
+AMO  C5    .  C  0  ?  ?  ?  1  17
+AMO  N7    .  N  0  ?  ?  ?  1  18
+AMO  C8    .  C  0  ?  ?  ?  1  19
+AMO  C2*   .  C  0  ?  ?  ?  1  20
+AMO  C3*   .  C  0  ?  ?  ?  1  21
+AMO  O3*   .  O  0  ?  ?  ?  1  22
+AMO  N     .  N  0  ?  ?  ?  1  23
+AMO  CA    .  C  0  ?  ?  ?  1  24
+AMO  CB    .  C  0  ?  ?  ?  1  25
+AMO  CG    .  C  0  ?  ?  ?  1  26
+AMO  OD1   .  O  0  ?  ?  ?  1  27
+AMO  OD2   .  O  0  ?  ?  ?  1  28
+AMO  C     .  C  0  ?  ?  ?  1  29
+AMO  O     .  O  0  ?  ?  ?  1  30
+AMO  2HOP  .  H  0  ?  ?  ?  0  31
+AMO  1H5*  .  H  0  ?  ?  ?  0  32
+AMO  2H5*  .  H  0  ?  ?  ?  0  33
+AMO  H4*   .  H  0  ?  ?  ?  1  34
+AMO  H3*   .  H  0  ?  ?  ?  1  35
+AMO  O2*   .  O  0  ?  ?  ?  1  36
+AMO  1H2*  .  H  0  ?  ?  ?  0  37
+AMO  2H2*  .  H  0  ?  ?  ?  0  38
+AMO  H1*   .  H  0  ?  ?  ?  1  39
+AMO  3HO*  .  H  0  ?  ?  ?  0  40
+AMO  H2    .  H  0  ?  ?  ?  1  41
+AMO  1H6   .  H  0  ?  ?  ?  0  42
+AMO  2H6   .  H  0  ?  ?  ?  0  43
+AMO  H8    .  H  0  ?  ?  ?  1  44
+AMO  HA    .  H  0  ?  ?  ?  1  45
+AMO  H     .  H  0  ?  ?  ?  1  46
+AMO  HN2   .  H  0  ?  ?  ?  1  47
+AMO  1HB   .  H  0  ?  ?  ?  0  48
+AMO  2HB   .  H  0  ?  ?  ?  0  49
+AMO  HD2   .  H  0  ?  ?  ?  1  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMO  P    O1P   DOUB  1 
+AMO  P    O2P   SING  2 
+AMO  P    O3P   SING  3 
+AMO  P    O5*   SING  4 
+AMO  O2P  2HOP  SING  5 
+AMO  O3P  C     SING  6 
+AMO  O5*  C5*   SING  7 
+AMO  C5*  C4*   SING  8 
+AMO  C5*  1H5*  SING  9 
+AMO  C5*  2H5*  SING  10
+AMO  C4*  O4*   SING  11
+AMO  C4*  C3*   SING  12
+AMO  C4*  H4*   SING  13
+AMO  O4*  C1*   SING  14
+AMO  C1*  N9    SING  15
+AMO  C1*  C2*   SING  16
+AMO  C1*  H1*   SING  17
+AMO  N9   C4    SING  18
+AMO  N9   C8    SING  19
+AMO  C4   N3    SING  20
+AMO  C4   C5    DOUB  21
+AMO  N3   C2    DOUB  22
+AMO  C2   N1    SING  23
+AMO  C2   H2    SING  24
+AMO  N1   C6    DOUB  25
+AMO  C6   N6    SING  26
+AMO  C6   C5    SING  27
+AMO  N6   1H6   SING  28
+AMO  N6   2H6   SING  29
+AMO  C5   N7    SING  30
+AMO  N7   C8    DOUB  31
+AMO  C8   H8    SING  32
+AMO  C2*  C3*   SING  33
+AMO  C2*  O2*   SING  34
+AMO  C2*  2H2*  SING  35
+AMO  C3*  O3*   SING  36
+AMO  C3*  H3*   SING  37
+AMO  O3*  3HO*  SING  38
+AMO  N    CA    SING  39
+AMO  N    H     SING  40
+AMO  N    HN2   SING  41
+AMO  CA   CB    SING  42
+AMO  CA   C     SING  43
+AMO  CA   HA    SING  44
+AMO  CB   CG    SING  45
+AMO  CB   1HB   SING  46
+AMO  CB   2HB   SING  47
+AMO  CG   OD1   DOUB  48
+AMO  CG   OD2   SING  49
+AMO  OD2  HD2   SING  50
+AMO  C    O     DOUB  51
+AMO  O2*  1H2*  SING  52
+#

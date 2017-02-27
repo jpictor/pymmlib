@@ -1,0 +1,88 @@
+data_LTN
+#
+_chem_comp.id                   LTN
+_chem_comp.name                 L-TRYPTOPHANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H13 N3 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        203.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LTN  NH3   .  N  0  52.867  22.928  43.161  1  1 
+LTN  CA    .  C  0  53.735  23.141  41.976  1  2 
+LTN  CB    .  C  0  54.502  21.849  41.648  1  3 
+LTN  CG    .  C  0  55.335  21.439  42.836  1  4 
+LTN  CD2   .  C  0  56.518  21.997  43.200  1  5 
+LTN  CE2   .  C  0  56.844  21.269  44.348  1  6 
+LTN  CE3   .  C  0  57.345  22.998  42.729  1  7 
+LTN  CD1   .  C  0  54.944  20.450  43.689  1  8 
+LTN  NE1   .  N  0  55.892  20.376  44.591  1  9 
+LTN  CZ2   .  C  0  58.031  21.541  45.038  1  10
+LTN  CZ3   .  C  0  58.523  23.273  43.409  1  11
+LTN  CH2   .  C  0  58.868  22.550  44.551  1  12
+LTN  C     .  C  0  52.927  23.584  40.776  1  13
+LTN  O     .  O  0  51.550  23.487  40.831  1  14
+LTN  N     .  N  0  53.432  24.105  39.787  1  15
+LTN  HD1   .  H  0  ?       ?       ?       1  16
+LTN  HE1   .  H  0  ?       ?       ?       1  17
+LTN  HZ2   .  H  0  ?       ?       ?       1  18
+LTN  HH2   .  H  0  ?       ?       ?       1  19
+LTN  HZ3   .  H  0  ?       ?       ?       1  20
+LTN  HE3   .  H  0  ?       ?       ?       1  21
+LTN  1HB   .  H  0  ?       ?       ?       0  22
+LTN  2HB   .  H  0  ?       ?       ?       0  23
+LTN  HA    .  H  0  ?       ?       ?       1  24
+LTN  1HH3  .  H  0  ?       ?       ?       0  25
+LTN  2HH3  .  H  0  ?       ?       ?       0  26
+LTN  1HN   .  H  0  ?       ?       ?       0  27
+LTN  2HN   .  H  0  ?       ?       ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LTN  NH3  CA    SING  1 
+LTN  NH3  1HH3  SING  2 
+LTN  NH3  2HH3  SING  3 
+LTN  CA   CB    SING  4 
+LTN  CA   C     SING  5 
+LTN  CA   HA    SING  6 
+LTN  CB   CG    SING  7 
+LTN  CB   1HB   SING  8 
+LTN  CB   2HB   SING  9 
+LTN  CG   CD2   SING  10
+LTN  CG   CD1   DOUB  11
+LTN  CD2  CE2   AROM  12
+LTN  CD2  CE3   AROM  13
+LTN  CE2  NE1   SING  14
+LTN  CE2  CZ2   AROM  15
+LTN  CE3  CZ3   AROM  16
+LTN  CE3  HE3   SING  17
+LTN  CD1  NE1   SING  18
+LTN  CD1  HD1   SING  19
+LTN  NE1  HE1   SING  20
+LTN  CZ2  CH2   AROM  21
+LTN  CZ2  HZ2   SING  22
+LTN  CZ3  CH2   AROM  23
+LTN  CZ3  HZ3   SING  24
+LTN  CH2  HH2   SING  25
+LTN  C    O     DOUB  26
+LTN  C    N     SING  27
+LTN  N    1HN   SING  28
+LTN  N    2HN   SING  29
+#

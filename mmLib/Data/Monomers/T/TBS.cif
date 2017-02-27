@@ -1,0 +1,61 @@
+data_TBS
+#
+_chem_comp.id                   TBS
+_chem_comp.name                 4,5,6,7-TETRABROMOBENZOTRIAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H1 N3 BR4'
+_chem_comp.pdbx_synonyms        TETRABROMO-2-BENZOTRIAZOLE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        434.710
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBS  C1    .  C   0  ?  ?  ?  1  1 
+TBS  C2    .  C   0  ?  ?  ?  1  2 
+TBS  C3    .  C   0  ?  ?  ?  1  3 
+TBS  C4    .  C   0  ?  ?  ?  1  4 
+TBS  N5    .  N   0  ?  ?  ?  1  5 
+TBS  C6    .  C   0  ?  ?  ?  1  6 
+TBS  C7    .  C   0  ?  ?  ?  1  7 
+TBS  N8    .  N   0  ?  ?  ?  1  8 
+TBS  N9    .  N   0  ?  ?  ?  1  9 
+TBS  BR10  .  BR  0  ?  ?  ?  0  10
+TBS  BR11  .  BR  0  ?  ?  ?  0  11
+TBS  BR12  .  BR  0  ?  ?  ?  0  12
+TBS  BR13  .  BR  0  ?  ?  ?  0  13
+TBS  1H5   .  H   0  ?  ?  ?  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBS  C1  C2    DOUB  1 
+TBS  C1  C4    SING  2 
+TBS  C1  BR11  SING  3 
+TBS  C2  C3    SING  4 
+TBS  C2  BR12  SING  5 
+TBS  C3  C7    DOUB  6 
+TBS  C3  BR13  SING  7 
+TBS  C4  C6    DOUB  8 
+TBS  C4  BR10  SING  9 
+TBS  N5  C6    SING  10
+TBS  N5  N9    SING  11
+TBS  N5  1H5   SING  12
+TBS  C6  C7    SING  13
+TBS  C7  N8    SING  14
+TBS  N8  N9    DOUB  15
+#

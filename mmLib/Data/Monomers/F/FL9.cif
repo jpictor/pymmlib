@@ -1,0 +1,95 @@
+data_FL9
+#
+_chem_comp.id                   FL9
+_chem_comp.name                 '3',5'-DIBROMO-2',4,4',6'-TETRAHYDROXY AURONE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H8 O6 BR2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        444.033
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FL9  C2    .  C   0  ?  ?  ?  1  1 
+FL9  C3    .  C   0  ?  ?  ?  1  2 
+FL9  C3A   .  C   0  ?  ?  ?  1  3 
+FL9  C4    .  C   0  ?  ?  ?  1  4 
+FL9  C5    .  C   0  ?  ?  ?  1  5 
+FL9  C6    .  C   0  ?  ?  ?  1  6 
+FL9  C7    .  C   0  ?  ?  ?  1  7 
+FL9  C7A   .  C   0  ?  ?  ?  1  8 
+FL9  C21   .  C   0  ?  ?  ?  1  9 
+FL9  C1*   .  C   0  ?  ?  ?  1  10
+FL9  C2*   .  C   0  ?  ?  ?  1  11
+FL9  C3*   .  C   0  ?  ?  ?  1  12
+FL9  C4*   .  C   0  ?  ?  ?  1  13
+FL9  C5*   .  C   0  ?  ?  ?  1  14
+FL9  C6*   .  C   0  ?  ?  ?  1  15
+FL9  BR1   .  BR  0  ?  ?  ?  0  16
+FL9  BR2   .  BR  0  ?  ?  ?  0  17
+FL9  O1    .  O   0  ?  ?  ?  1  18
+FL9  O3    .  O   0  ?  ?  ?  1  19
+FL9  O4    .  O   0  ?  ?  ?  1  20
+FL9  O6    .  O   0  ?  ?  ?  1  21
+FL9  O2*   .  O   0  ?  ?  ?  1  22
+FL9  O4*   .  O   0  ?  ?  ?  1  23
+FL9  H5    .  H   0  ?  ?  ?  1  24
+FL9  H7    .  H   0  ?  ?  ?  1  25
+FL9  H21   .  H   0  ?  ?  ?  1  26
+FL9  H6*   .  H   0  ?  ?  ?  1  27
+FL9  HO4   .  H   0  ?  ?  ?  1  28
+FL9  HO6   .  H   0  ?  ?  ?  1  29
+FL9  *HO2  .  H   0  ?  ?  ?  0  30
+FL9  *HO4  .  H   0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FL9  C2   C3    SING  1 
+FL9  C2   C21   DOUB  2 
+FL9  C2   O1    SING  3 
+FL9  C3   C3A   SING  4 
+FL9  C3   O3    DOUB  5 
+FL9  C3A  C4    DOUB  6 
+FL9  C3A  C7A   SING  7 
+FL9  C4   C5    SING  8 
+FL9  C4   O4    SING  9 
+FL9  C5   C6    DOUB  10
+FL9  C5   H5    SING  11
+FL9  C6   C7    SING  12
+FL9  C6   O6    SING  13
+FL9  C7   C7A   DOUB  14
+FL9  C7   H7    SING  15
+FL9  C7A  O1    SING  16
+FL9  C21  C1*   SING  17
+FL9  C21  H21   SING  18
+FL9  C1*  C2*   DOUB  19
+FL9  C1*  C6*   SING  20
+FL9  C2*  C3*   SING  21
+FL9  C2*  O2*   SING  22
+FL9  C3*  C4*   DOUB  23
+FL9  C3*  BR1   SING  24
+FL9  C4*  C5*   SING  25
+FL9  C4*  O4*   SING  26
+FL9  C5*  C6*   DOUB  27
+FL9  C5*  BR2   SING  28
+FL9  C6*  H6*   SING  29
+FL9  O4   HO4   SING  30
+FL9  O6   HO6   SING  31
+FL9  O2*  *HO2  SING  32
+FL9  O4*  *HO4  SING  33
+#

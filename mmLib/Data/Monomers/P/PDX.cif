@@ -1,0 +1,95 @@
+data_PDX
+#
+_chem_comp.id                   PDX
+_chem_comp.name                 2,3-DI-O-SULFO-ALPHA-D-GLUCOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O12 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDX  C1    .  C  0  115.053  59.032  28.188  1  1 
+PDX  C2    .  C  0  114.546  57.721  28.767  1  2 
+PDX  C3    .  C  0  113.222  57.332  28.12   1  3 
+PDX  C4    .  C  0  112.179  58.45   28.199  1  4 
+PDX  C5    .  C  0  112.764  59.715  27.604  1  5 
+PDX  C6    .  C  0  111.862  60.899  27.691  1  6 
+PDX  O1    .  O  0  115.399  58.809  26.855  1  7 
+PDX  O2    .  O  0  115.561  56.724  28.525  1  8 
+PDX  O3    .  O  0  112.704  56.187  28.812  1  9 
+PDX  O4    .  O  0  110.933  58.066  27.562  1  10
+PDX  O5    .  O  0  114.035  60.074  28.278  1  11
+PDX  O6    .  O  0  112.55   61.996  28.336  1  12
+PDX  O1S   .  O  0  111.9    54.073  29.204  1  13
+PDX  O2S   .  O  0  113.389  54.522  27.395  1  14
+PDX  O3S   .  O  0  117.387  57.291  30.018  1  15
+PDX  O1S*  .  O  0  116.881  55.001  29.334  0  16
+PDX  O2S*  .  O  0  115.445  56.08   30.903  0  17
+PDX  O3S*  .  O  0  111.105  55.235  27.251  0  18
+PDX  S     .  S  0  116.287  56.155  29.673  1  19
+PDX  S*    .  S  0  112.295  54.938  28.087  1  20
+PDX  H1    .  H  0  115.927  59.376  28.76   1  21
+PDX  H2    .  H  0  114.359  57.814  29.847  1  22
+PDX  HA    .  H  0  115.443  57.835  26.684  1  23
+PDX  H3    .  H  0  113.414  57.124  27.057  1  24
+PDX  H4    .  H  0  111.93   58.641  29.253  1  25
+PDX  H5    .  H  0  112.921  59.479  26.541  1  26
+PDX  HB    .  H  0  110.869  57.079  27.529  1  27
+PDX  1H6C  .  H  0  111.56   61.203  26.678  0  28
+PDX  2H6C  .  H  0  110.972  60.633  28.28   0  29
+PDX  H6    .  H  0  111.886  62.629  28.708  1  30
+PDX  H3S   .  H  0  ?        ?       ?       1  31
+PDX  HO'   .  H  0  ?        ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDX  C1    C2    SING  1 
+PDX  C1    O1    SING  2 
+PDX  C1    O5    SING  3 
+PDX  C1    H1    SING  4 
+PDX  C2    C3    SING  5 
+PDX  C2    O2    SING  6 
+PDX  C2    H2    SING  7 
+PDX  C3    C4    SING  8 
+PDX  C3    O3    SING  9 
+PDX  C3    H3    SING  10
+PDX  C4    C5    SING  11
+PDX  C4    O4    SING  12
+PDX  C4    H4    SING  13
+PDX  C5    C6    SING  14
+PDX  C5    O5    SING  15
+PDX  C5    H5    SING  16
+PDX  C6    O6    SING  17
+PDX  C6    1H6C  SING  18
+PDX  C6    2H6C  SING  19
+PDX  O1    HA    SING  20
+PDX  O2    S     SING  21
+PDX  O3    S*    SING  22
+PDX  O4    HB    SING  23
+PDX  O6    H6    SING  24
+PDX  O1S   S     DOUB  25
+PDX  O2S   S     DOUB  26
+PDX  O3S   S     SING  27
+PDX  O3S   H3S   SING  28
+PDX  O1S*  S*    DOUB  29
+PDX  O2S*  S*    DOUB  30
+PDX  O3S*  S*    SING  31
+PDX  O3S*  HO'   SING  32
+#

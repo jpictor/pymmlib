@@ -1,0 +1,77 @@
+data_HPH
+#
+_chem_comp.id                   HPH
+_chem_comp.name                 'PHENYLALANINOL GROUP'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.200
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPH  C    .  C  0  ?  ?  ?  1  1 
+HPH  O    .  O  0  ?  ?  ?  1  2 
+HPH  CA   .  C  0  ?  ?  ?  1  3 
+HPH  N    .  N  0  ?  ?  ?  1  4 
+HPH  CB   .  C  0  ?  ?  ?  1  5 
+HPH  CG   .  C  0  ?  ?  ?  1  6 
+HPH  CD1  .  C  0  ?  ?  ?  1  7 
+HPH  CD2  .  C  0  ?  ?  ?  1  8 
+HPH  CE1  .  C  0  ?  ?  ?  1  9 
+HPH  CE2  .  C  0  ?  ?  ?  1  10
+HPH  CZ   .  C  0  ?  ?  ?  1  11
+HPH  H    .  H  0  ?  ?  ?  1  12
+HPH  HA   .  H  0  ?  ?  ?  1  13
+HPH  HO   .  H  0  ?  ?  ?  1  14
+HPH  1HN  .  H  0  ?  ?  ?  0  15
+HPH  2HN  .  H  0  ?  ?  ?  0  16
+HPH  1HB  .  H  0  ?  ?  ?  0  17
+HPH  2HB  .  H  0  ?  ?  ?  0  18
+HPH  HD1  .  H  0  ?  ?  ?  1  19
+HPH  HD2  .  H  0  ?  ?  ?  1  20
+HPH  HE1  .  H  0  ?  ?  ?  1  21
+HPH  HE2  .  H  0  ?  ?  ?  1  22
+HPH  HZ   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPH  C    CA   SING  1 
+HPH  C    O    SING  2 
+HPH  C    H    SING  3 
+HPH  O    HO   SING  4 
+HPH  CA   N    SING  5 
+HPH  CA   CB   SING  6 
+HPH  CA   HA   SING  7 
+HPH  N    1HN  SING  8 
+HPH  N    2HN  SING  9 
+HPH  CB   CG   SING  10
+HPH  CB   1HB  SING  11
+HPH  CB   2HB  SING  12
+HPH  CG   CD1  DOUB  13
+HPH  CG   CD2  SING  14
+HPH  CD1  CE1  SING  15
+HPH  CD1  HD1  SING  16
+HPH  CD2  CE2  DOUB  17
+HPH  CD2  HD2  SING  18
+HPH  CE1  CZ   DOUB  19
+HPH  CE1  HE1  SING  20
+HPH  CE2  CZ   SING  21
+HPH  CE2  HE2  SING  22
+HPH  CZ   HZ   SING  23
+#

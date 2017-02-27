@@ -1,0 +1,113 @@
+data_EMA
+#
+_chem_comp.id                   EMA
+_chem_comp.name                 (ADENIN-9-YL-ETHOXYMETHYL)-HYDROXYPHOSPHINYL-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 N5 O10 P3'
+_chem_comp.pdbx_synonyms        '9-(2-PHOSPHONYLMETHOXYETHYL)ADENINE DIPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        433.147
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EMA  PG    .  P  0  2.590   54.884  61.160  1  1 
+EMA  O1G   .  O  0  3.064   55.024  59.783  1  2 
+EMA  O2G   .  O  0  1.525   53.922  61.346  1  3 
+EMA  O3G   .  O  0  2.375   56.180  61.854  1  4 
+EMA  PB    .  P  0  5.351   54.455  62.210  1  5 
+EMA  O1B   .  O  0  5.997   54.886  60.928  1  6 
+EMA  O2B   .  O  0  5.417   55.362  63.360  1  7 
+EMA  O3B   .  O  0  3.780   54.097  61.908  1  8 
+EMA  PA    .  P  0  5.877   51.591  61.788  1  9 
+EMA  O1A   .  O  0  4.460   51.193  61.729  1  10
+EMA  O2A   .  O  0  6.667   51.632  60.530  1  11
+EMA  O3A   .  O  0  5.865   53.002  62.539  1  12
+EMA  C5*   .  C  0  6.545   50.562  62.822  1  13
+EMA  O5*   .  O  0  7.930   50.406  63.356  1  14
+EMA  C4*   .  C  0  8.987   49.928  62.356  1  15
+EMA  C1*   .  C  0  10.332  49.331  63.000  1  16
+EMA  N9    .  N  0  10.678  49.132  64.518  1  17
+EMA  C8    .  C  0  10.451  49.795  65.773  1  18
+EMA  N7    .  N  0  11.009  49.082  66.804  1  19
+EMA  C5    .  C  0  11.618  48.027  66.195  1  20
+EMA  C6    .  C  0  12.330  46.880  66.694  1  21
+EMA  N6    .  N  0  12.541  46.734  67.988  1  22
+EMA  N1    .  N  0  12.838  45.979  65.819  1  23
+EMA  C2    .  C  0  12.614  46.137  64.508  1  24
+EMA  N3    .  N  0  11.921  47.137  63.914  1  25
+EMA  C4    .  C  0  11.443  48.081  64.856  1  26
+EMA  H1G   .  H  0  ?       ?       ?       1  27
+EMA  H3G   .  H  0  ?       ?       ?       1  28
+EMA  H2B   .  H  0  ?       ?       ?       1  29
+EMA  H2A   .  H  0  ?       ?       ?       1  30
+EMA  1H5*  .  H  0  ?       ?       ?       0  31
+EMA  2H5*  .  H  0  ?       ?       ?       0  32
+EMA  1H4*  .  H  0  ?       ?       ?       0  33
+EMA  2H4*  .  H  0  ?       ?       ?       0  34
+EMA  1H1*  .  H  0  ?       ?       ?       0  35
+EMA  2H1*  .  H  0  ?       ?       ?       0  36
+EMA  H8    .  H  0  ?       ?       ?       1  37
+EMA  H2    .  H  0  ?       ?       ?       1  38
+EMA  1HN6  .  H  0  ?       ?       ?       0  39
+EMA  2HN6  .  H  0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EMA  PG   O1G   SING  1 
+EMA  PG   O2G   DOUB  2 
+EMA  PG   O3G   SING  3 
+EMA  PG   O3B   SING  4 
+EMA  O1G  H1G   SING  5 
+EMA  O3G  H3G   SING  6 
+EMA  PB   O3B   SING  7 
+EMA  PB   O1B   DOUB  8 
+EMA  PB   O2B   SING  9 
+EMA  PB   O3A   SING  10
+EMA  O2B  H2B   SING  11
+EMA  PA   O3A   SING  12
+EMA  PA   O1A   DOUB  13
+EMA  PA   O2A   SING  14
+EMA  PA   C5*   SING  15
+EMA  O2A  H2A   SING  16
+EMA  C5*  1H5*  SING  17
+EMA  C5*  2H5*  SING  18
+EMA  C5*  O5*   SING  19
+EMA  O5*  C4*   SING  20
+EMA  C4*  1H4*  SING  21
+EMA  C4*  2H4*  SING  22
+EMA  C4*  C1*   SING  23
+EMA  C1*  1H1*  SING  24
+EMA  C1*  2H1*  SING  25
+EMA  C1*  N9    SING  26
+EMA  N9   C8    SING  27
+EMA  N9   C4    SING  28
+EMA  C8   H8    SING  29
+EMA  C8   N7    DOUB  30
+EMA  N7   C5    SING  31
+EMA  C5   C4    DOUB  32
+EMA  C5   C6    SING  33
+EMA  C6   N1    DOUB  34
+EMA  C6   N6    SING  35
+EMA  N6   1HN6  SING  36
+EMA  N6   2HN6  SING  37
+EMA  N1   C2    SING  38
+EMA  C2   N3    DOUB  39
+EMA  C2   H2    SING  40
+EMA  N3   C4    SING  41
+#

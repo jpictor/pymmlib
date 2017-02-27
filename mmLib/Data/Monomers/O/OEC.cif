@@ -1,0 +1,53 @@
+data_OEC
+#
+_chem_comp.id                   OEC
+_chem_comp.name                 'OXYGEN EVOLVING SYSTEM'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O4 CA1 MN4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        323.830
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OEC  MN1  .  MN  0  27.701  40.232  70.582  0  1
+OEC  MN2  .  MN  0  27.070  39.549  68.103  0  2
+OEC  MN3  .  MN  0  29.290  38.522  69.287  0  3
+OEC  MN4  .  MN  0  29.368  38.555  66.033  0  4
+OEC  O1   .  O   0  27.339  41.079  68.952  1  5
+OEC  O2   .  O   0  27.529  38.681  69.637  1  6
+OEC  O3   .  O   0  29.514  40.076  70.185  1  7
+OEC  O4   .  O   0  28.946  39.418  67.633  1  8
+OEC  CA1  .  CA  0  29.649  41.748  68.335  0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OEC  MN1  O1   SING  1 
+OEC  MN1  O2   SING  2 
+OEC  MN1  O3   SING  3 
+OEC  MN2  O1   SING  4 
+OEC  MN2  O2   SING  5 
+OEC  MN2  O4   SING  6 
+OEC  MN3  O2   SING  7 
+OEC  MN3  O3   SING  8 
+OEC  MN3  O4   SING  9 
+OEC  MN4  O4   SING  10
+OEC  O1   CA1  SING  11
+OEC  O3   CA1  SING  12
+OEC  O4   CA1  SING  13
+#

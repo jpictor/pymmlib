@@ -1,0 +1,117 @@
+data_TTM
+#
+_chem_comp.id                       TTM
+_chem_comp.name                     N3-ETHYL-THYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H19 N2 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            350.264
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TTM  P     .  P  0  1.133   7.673   8.322   1  1 
+TTM  O1P   .  O  0  -0.233  8.141   8.649   1  2 
+TTM  O2P   .  O  0  1.846   8.260   7.165   1  3 
+TTM  O5*   .  O  0  2.074   7.856   9.614   1  4 
+TTM  C5*   .  C  0  1.524   8.067   10.914  1  5 
+TTM  C4*   .  C  0  0.382   7.142   11.214  1  6 
+TTM  O4*   .  O  0  0.841   5.797   11.130  1  7 
+TTM  C1*   .  C  0  0.480   5.223   12.384  1  8 
+TTM  N1    .  N  0  1.180   3.950   12.640  1  9 
+TTM  C6    .  C  0  2.446   3.758   12.186  1  10
+TTM  C2    .  C  0  0.505   2.966   13.340  1  11
+TTM  O2    .  O  0  -0.632  3.154   13.761  1  12
+TTM  N3    .  N  0  1.176   1.766   13.557  1  13
+TTM  C1Q   .  C  0  0.523   0.771   14.247  1  14
+TTM  C2Q   .  C  0  1.041   0.517   15.553  1  15
+TTM  C4    .  C  0  2.468   1.514   13.113  1  16
+TTM  O4    .  O  0  3.007   0.430   13.329  1  17
+TTM  C5    .  C  0  3.089   2.603   12.397  1  18
+TTM  C5M   .  C  0  4.506   2.433   11.876  1  19
+TTM  C2*   .  C  0  0.739   6.358   13.345  1  20
+TTM  C3*   .  C  0  -0.225  7.263   12.605  1  21
+TTM  O3*   .  O  0  -1.516  6.671   12.735  1  22
+TTM  O3P   .  O  0  ?       ?       ?       1  23
+TTM  H3T   .  H  0  ?       ?       ?       1  24
+TTM  H3*   .  H  0  -0.255  8.290   12.967  1  25
+TTM  1H2*  .  H  0  1.774   6.695   13.326  0  26
+TTM  2H2*  .  H  0  0.397   6.122   14.351  0  27
+TTM  H1*   .  H  0  -0.598  5.114   12.343  1  28
+TTM  H4*   .  H  0  -0.426  7.291   10.498  1  29
+TTM  1H5*  .  H  0  2.317   7.941   11.649  0  30
+TTM  2H5*  .  H  0  1.088   9.054   10.998  0  31
+TTM  3HOP  .  H  0  ?       ?       ?       0  32
+TTM  2HOP  .  H  0  ?       ?       ?       0  33
+TTM  H6    .  H  0  2.939   4.565   11.648  1  34
+TTM  H1Q   .  H  0  0.625   -0.140  13.659  1  35
+TTM  H2Q   .  H  0  -0.540  0.984   14.358  1  36
+TTM  H2    .  H  0  ?       ?       ?       1  37
+TTM  H3Q   .  H  0  1.346   1.525   15.840  1  38
+TTM  H4Q   .  H  0  0.089   0.314   16.050  1  39
+TTM  1H5M  .  H  0  5.158   3.149   12.373  0  40
+TTM  2H5M  .  H  0  4.525   2.614   10.803  0  41
+TTM  3H5M  .  H  0  4.843   1.419   12.089  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TTM  P    O5*   SING  1 
+TTM  P    O1P   DOUB  2 
+TTM  P    O3P   SING  3 
+TTM  P    O2P   SING  4 
+TTM  O2P  2HOP  SING  5 
+TTM  O5*  C5*   SING  6 
+TTM  C5*  C4*   SING  7 
+TTM  C5*  1H5*  SING  8 
+TTM  C5*  2H5*  SING  9 
+TTM  C4*  O4*   SING  10
+TTM  C4*  C3*   SING  11
+TTM  C4*  H4*   SING  12
+TTM  O4*  C1*   SING  13
+TTM  C1*  C2*   SING  14
+TTM  C1*  H1*   SING  15
+TTM  C1*  N1    SING  16
+TTM  N1   C6    SING  17
+TTM  N1   C2    SING  18
+TTM  C6   H6    SING  19
+TTM  C6   C5    DOUB  20
+TTM  C2   N3    SING  21
+TTM  C2   O2    DOUB  22
+TTM  N3   C4    SING  23
+TTM  N3   C1Q   SING  24
+TTM  C1Q  H1Q   SING  25
+TTM  C1Q  H2Q   SING  26
+TTM  C1Q  C2Q   SING  27
+TTM  C2Q  H2    SING  28
+TTM  C2Q  H3Q   SING  29
+TTM  C2Q  H4Q   SING  30
+TTM  C4   C5    SING  31
+TTM  C4   O4    DOUB  32
+TTM  C5   C5M   SING  33
+TTM  C5M  1H5M  SING  34
+TTM  C5M  2H5M  SING  35
+TTM  C5M  3H5M  SING  36
+TTM  C2*  C3*   SING  37
+TTM  C2*  1H2*  SING  38
+TTM  C2*  2H2*  SING  39
+TTM  C3*  O3*   SING  40
+TTM  C3*  H3*   SING  41
+TTM  O3*  H3T   SING  42
+TTM  O3P  3HOP  SING  43
+#

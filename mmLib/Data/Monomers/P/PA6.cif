@@ -1,0 +1,107 @@
+data_PA6
+#
+_chem_comp.id                   PA6
+_chem_comp.name                 '(R)-2-(FORMYLOXY)-3-(PHOSPHONOOXY)PROPYL PENTANOATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 O8 P1'
+_chem_comp.pdbx_synonyms        'PHOSPHATIDIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        284.202
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PA6
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCCCC(=O)OC[C@H](COP(=O)(O)O)OC=O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PA6  O32   .  O  0  -33.432  0.486   17.950  1  1 
+PA6  C31   .  C  0  -33.221  -0.235  18.912  1  2 
+PA6  C32   .  C  0  -32.456  0.288   20.106  1  3 
+PA6  C33   .  C  0  -31.141  -0.469  20.250  1  4 
+PA6  C34   .  C  0  -30.206  0.238   21.223  1  5 
+PA6  C35   .  C  0  -30.514  -0.152  22.652  1  6 
+PA6  O31   .  O  0  -33.717  -1.606  18.891  1  7 
+PA6  C3    .  C  0  -34.628  -2.070  19.889  1  8 
+PA6  C2    .  C  0  -36.049  -1.620  19.557  1  9 
+PA6  O21   .  O  0  -36.750  -2.672  18.894  1  10
+PA6  C21   .  C  0  -37.635  -3.543  19.652  1  11
+PA6  O22   .  O  0  -38.842  -3.362  19.626  1  12
+PA6  C1    .  C  0  -36.781  -1.270  20.845  1  13
+PA6  O11   .  O  0  -35.877  -1.352  21.943  1  14
+PA6  P     .  P  0  -35.568  -0.046  22.827  1  15
+PA6  O13   .  O  0  -34.616  -0.538  23.892  1  16
+PA6  O14   .  O  0  -34.959  0.920   21.837  1  17
+PA6  O12   .  O  0  -36.924  0.369   23.346  1  18
+PA6  1H32  .  H  0  -32.247  1.359   19.964  0  19
+PA6  2H32  .  H  0  -33.059  0.144   21.015  0  20
+PA6  1H33  .  H  0  -31.351  -1.481  20.628  0  21
+PA6  2H33  .  H  0  -30.653  -0.515  19.265  0  22
+PA6  1H34  .  H  0  -29.169  -0.045  20.991  0  23
+PA6  2H34  .  H  0  -30.346  1.324   21.118  0  24
+PA6  1H35  .  H  0  -30.589  -1.247  22.726  0  25
+PA6  2H35  .  H  0  -29.709  0.206   23.311  0  26
+PA6  3H35  .  H  0  -31.468  0.302   22.958  0  27
+PA6  1H3   .  H  0  -34.596  -3.169  19.926  0  28
+PA6  2H3   .  H  0  -34.337  -1.651  20.863  0  29
+PA6  H2    .  H  0  -36.004  -0.740  18.899  1  30
+PA6  H21   .  H  0  -37.224  -4.351  20.239  1  31
+PA6  1H1   .  H  0  -37.179  -0.247  20.774  0  32
+PA6  2H1   .  H  0  -37.610  -1.977  20.999  0  33
+PA6  HO12  .  H  0  -36.889  0.456   24.291  0  34
+PA6  HO13  .  H  0  -33.749  -0.641  23.519  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PA6  O32  C31   DOUB  1 
+PA6  C31  O31   SING  2 
+PA6  C31  C32   SING  3 
+PA6  C32  C33   SING  4 
+PA6  C32  1H32  SING  5 
+PA6  C32  2H32  SING  6 
+PA6  C33  C34   SING  7 
+PA6  C33  1H33  SING  8 
+PA6  C33  2H33  SING  9 
+PA6  C34  C35   SING  10
+PA6  C34  1H34  SING  11
+PA6  C34  2H34  SING  12
+PA6  C35  1H35  SING  13
+PA6  C35  2H35  SING  14
+PA6  C35  3H35  SING  15
+PA6  O31  C3    SING  16
+PA6  C3   C2    SING  17
+PA6  C3   1H3   SING  18
+PA6  C3   2H3   SING  19
+PA6  C2   O21   SING  20
+PA6  C2   C1    SING  21
+PA6  C2   H2    SING  22
+PA6  O21  C21   SING  23
+PA6  C21  O22   DOUB  24
+PA6  C21  H21   SING  25
+PA6  C1   O11   SING  26
+PA6  C1   1H1   SING  27
+PA6  C1   2H1   SING  28
+PA6  O11  P     SING  29
+PA6  P    O14   DOUB  30
+PA6  P    O13   SING  31
+PA6  P    O12   SING  32
+PA6  O13  HO13  SING  33
+PA6  O12  HO12  SING  34
+#

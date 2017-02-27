@@ -1,0 +1,100 @@
+data_EPS
+#
+_chem_comp.id                   EPS
+_chem_comp.name                 '5-[(1-CARBOXYVINYL)OXY]-4-HYDROXY-3-(PHOSPHONOOXY)CYCLOHEX-1-ENE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 O10 P1'
+_chem_comp.pdbx_synonyms        5-ENOLPYRUVYLSHIKIMATE-3-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.180
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EPS  C1   .  C  0  -17.877  9.543   16.790  1  1 
+EPS  C2   .  C  0  -19.046  9.777   17.578  1  2 
+EPS  C3   .  C  0  -19.900  8.766   18.070  1  3 
+EPS  C4   .  C  0  -19.142  7.558   17.943  1  4 
+EPS  C5   .  C  0  -18.773  7.334   16.577  1  5 
+EPS  C6   .  C  0  -17.693  8.214   16.271  1  6 
+EPS  O3   .  O  0  -20.867  8.683   17.234  1  7 
+EPS  P    .  P  0  -22.082  9.147   18.169  1  8 
+EPS  O1P  .  O  0  -21.756  10.407  19.009  1  9 
+EPS  O2P  .  O  0  -23.461  8.869   17.414  1  10
+EPS  O3P  .  O  0  -22.176  7.887   19.262  1  11
+EPS  O4   .  O  0  -19.855  6.649   18.537  1  12
+EPS  O5   .  O  0  -18.363  6.025   16.421  1  13
+EPS  C7   .  C  0  -19.088  5.112   15.710  1  14
+EPS  C8   .  C  0  -20.502  5.299   15.493  1  15
+EPS  C9   .  C  0  -18.569  3.955   15.147  1  16
+EPS  O91  .  O  0  -17.330  3.652   15.305  1  17
+EPS  O92  .  O  0  -19.261  3.135   14.393  1  18
+EPS  C10  .  C  0  -16.938  10.423  16.211  1  19
+EPS  O11  .  O  0  -15.855  10.093  15.518  1  20
+EPS  O12  .  O  0  -16.888  11.733  16.196  1  21
+EPS  H91  .  H  0  ?        ?       ?       1  22
+EPS  H5   .  H  0  ?        ?       ?       1  23
+EPS  1H6  .  H  0  ?        ?       ?       0  24
+EPS  2H6  .  H  0  ?        ?       ?       0  25
+EPS  H2   .  H  0  ?        ?       ?       1  26
+EPS  H3   .  H  0  ?        ?       ?       1  27
+EPS  H2P  .  H  0  ?        ?       ?       1  28
+EPS  H3P  .  H  0  ?        ?       ?       1  29
+EPS  H4   .  H  0  ?        ?       ?       1  30
+EPS  HO4  .  H  0  ?        ?       ?       1  31
+EPS  H12  .  H  0  ?        ?       ?       1  32
+EPS  1H8  .  H  0  ?        ?       ?       0  33
+EPS  2H8  .  H  0  ?        ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EPS  C1   C6   SING  1 
+EPS  C1   C2   DOUB  2 
+EPS  C1   C10  SING  3 
+EPS  C2   H2   SING  4 
+EPS  C2   C3   SING  5 
+EPS  C3   H3   SING  6 
+EPS  C3   O3   SING  7 
+EPS  C3   C4   SING  8 
+EPS  C4   C5   SING  9 
+EPS  C4   H4   SING  10
+EPS  C4   O4   SING  11
+EPS  C5   O5   SING  12
+EPS  C5   H5   SING  13
+EPS  C5   C6   SING  14
+EPS  C6   1H6  SING  15
+EPS  C6   2H6  SING  16
+EPS  O3   P    SING  17
+EPS  P    O1P  DOUB  18
+EPS  P    O2P  SING  19
+EPS  P    O3P  SING  20
+EPS  O2P  H2P  SING  21
+EPS  O3P  H3P  SING  22
+EPS  O4   HO4  SING  23
+EPS  O5   C7   SING  24
+EPS  C7   C9   SING  25
+EPS  C7   C8   DOUB  26
+EPS  C8   1H8  SING  27
+EPS  C8   2H8  SING  28
+EPS  C9   O91  SING  29
+EPS  C9   O92  DOUB  30
+EPS  O91  H91  SING  31
+EPS  C10  O11  DOUB  32
+EPS  C10  O12  SING  33
+EPS  O12  H12  SING  34
+#

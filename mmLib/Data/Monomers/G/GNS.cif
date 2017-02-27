@@ -1,0 +1,89 @@
+data_GNS
+#
+_chem_comp.id                   GNS
+_chem_comp.name                 N-SULFO-ALPHA-D-GLUCOSAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O8 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.231
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNS  C1   .  C  0  12.598  10.941  9.531   1  1 
+GNS  C2   .  C  0  13.090  11.551  8.210   1  2 
+GNS  N    .  N  0  12.063  11.555  7.139   1  3 
+GNS  S1   .  S  0  11.250  12.992  7.030   1  4 
+GNS  O1S  .  O  0  10.464  12.761  5.847   1  5 
+GNS  O2S  .  O  0  10.452  13.027  8.227   1  6 
+GNS  O3S  .  O  0  12.264  13.995  6.907   1  7 
+GNS  C3   .  C  0  14.321  10.778  7.728   1  8 
+GNS  O3   .  O  0  14.728  11.357  6.500   1  9 
+GNS  C4   .  C  0  15.424  10.852  8.805   1  10
+GNS  C5   .  C  0  14.867  10.651  10.226  1  11
+GNS  O5   .  O  0  13.606  11.252  10.484  1  12
+GNS  C6   .  C  0  15.892  11.131  11.256  1  13
+GNS  O6   .  O  0  16.046  12.532  11.173  1  14
+GNS  O4   .  O  0  16.391  9.782   8.706   1  15
+GNS  O1   .  O  0  12.406  9.539   9.396   1  16
+GNS  H6O  .  H  0  15.167  12.919  11.191  1  17
+GNS  1H6  .  H  0  15.554  10.859  12.250  0  18
+GNS  2H6  .  H  0  16.857  10.654  11.079  0  19
+GNS  H5   .  H  0  14.750  9.584   10.384  1  20
+GNS  H1   .  H  0  11.674  11.429  9.839   1  21
+GNS  H2   .  H  0  13.432  12.565  8.426   1  22
+GNS  HN   .  H  0  12.579  11.553  6.276   1  23
+GNS  H3   .  H  0  14.051  9.736   7.553   1  24
+GNS  HO3  .  H  0  15.315  10.740  6.049   1  25
+GNS  H4   .  H  0  15.914  11.823  8.734   1  26
+GNS  HO1  .  H  0  ?       ?       ?       1  27
+GNS  H1S  .  H  0  ?       ?       ?       1  28
+GNS  HO4  .  H  0  ?       ?       ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNS  C1   O5   SING  1 
+GNS  C1   H1   SING  2 
+GNS  C1   O1   SING  3 
+GNS  C1   C2   SING  4 
+GNS  C2   H2   SING  5 
+GNS  C2   N    SING  6 
+GNS  C2   C3   SING  7 
+GNS  N    HN   SING  8 
+GNS  N    S1   SING  9 
+GNS  S1   O1S  SING  10
+GNS  S1   O2S  DOUB  11
+GNS  S1   O3S  DOUB  12
+GNS  O1S  H1S  SING  13
+GNS  C3   H3   SING  14
+GNS  C3   O3   SING  15
+GNS  C3   C4   SING  16
+GNS  O3   HO3  SING  17
+GNS  C4   C5   SING  18
+GNS  C4   H4   SING  19
+GNS  C4   O4   SING  20
+GNS  C5   C6   SING  21
+GNS  C5   H5   SING  22
+GNS  C5   O5   SING  23
+GNS  C6   O6   SING  24
+GNS  C6   1H6  SING  25
+GNS  C6   2H6  SING  26
+GNS  O6   H6O  SING  27
+GNS  O4   HO4  SING  28
+GNS  O1   HO1  SING  29
+#

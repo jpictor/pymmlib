@@ -1,0 +1,113 @@
+data_ADI
+#
+_chem_comp.id                   ADI
+_chem_comp.name                 2',3'-DIDEOXYADENOSINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N5 O8 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        395.205
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADI  PB    .  P  0  ?  ?  ?  1  1 
+ADI  O1B   .  O  0  ?  ?  ?  1  2 
+ADI  O2B   .  O  0  ?  ?  ?  1  3 
+ADI  O3B   .  O  0  ?  ?  ?  1  4 
+ADI  PA    .  P  0  ?  ?  ?  1  5 
+ADI  O1A   .  O  0  ?  ?  ?  1  6 
+ADI  O2A   .  O  0  ?  ?  ?  1  7 
+ADI  O3A   .  O  0  ?  ?  ?  1  8 
+ADI  O5*   .  O  0  ?  ?  ?  1  9 
+ADI  C5*   .  C  0  ?  ?  ?  1  10
+ADI  C4*   .  C  0  ?  ?  ?  1  11
+ADI  O4*   .  O  0  ?  ?  ?  1  12
+ADI  C3*   .  C  0  ?  ?  ?  1  13
+ADI  C2*   .  C  0  ?  ?  ?  1  14
+ADI  C1*   .  C  0  ?  ?  ?  1  15
+ADI  N9    .  N  0  ?  ?  ?  1  16
+ADI  C8    .  C  0  ?  ?  ?  1  17
+ADI  N7    .  N  0  ?  ?  ?  1  18
+ADI  C5    .  C  0  ?  ?  ?  1  19
+ADI  C6    .  C  0  ?  ?  ?  1  20
+ADI  N6    .  N  0  ?  ?  ?  1  21
+ADI  N1    .  N  0  ?  ?  ?  1  22
+ADI  C2    .  C  0  ?  ?  ?  1  23
+ADI  N3    .  N  0  ?  ?  ?  1  24
+ADI  C4    .  C  0  ?  ?  ?  1  25
+ADI  2HOA  .  H  0  ?  ?  ?  0  26
+ADI  2HOB  .  H  0  ?  ?  ?  0  27
+ADI  3HOB  .  H  0  ?  ?  ?  0  28
+ADI  1H5*  .  H  0  ?  ?  ?  0  29
+ADI  2H5*  .  H  0  ?  ?  ?  0  30
+ADI  H4*   .  H  0  ?  ?  ?  1  31
+ADI  1H3*  .  H  0  ?  ?  ?  0  32
+ADI  2H3*  .  H  0  ?  ?  ?  0  33
+ADI  1H2*  .  H  0  ?  ?  ?  0  34
+ADI  2H2*  .  H  0  ?  ?  ?  0  35
+ADI  H1*   .  H  0  ?  ?  ?  1  36
+ADI  H8    .  H  0  ?  ?  ?  1  37
+ADI  1HN6  .  H  0  ?  ?  ?  0  38
+ADI  2HN6  .  H  0  ?  ?  ?  0  39
+ADI  H2    .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADI  PB   O1B   DOUB  1 
+ADI  PB   O2B   SING  2 
+ADI  PB   O3B   SING  3 
+ADI  PB   O3A   SING  4 
+ADI  O2B  2HOB  SING  5 
+ADI  O3B  3HOB  SING  6 
+ADI  PA   O1A   DOUB  7 
+ADI  PA   O2A   SING  8 
+ADI  PA   O3A   SING  9 
+ADI  PA   O5*   SING  10
+ADI  O2A  2HOA  SING  11
+ADI  O5*  C5*   SING  12
+ADI  C5*  C4*   SING  13
+ADI  C5*  1H5*  SING  14
+ADI  C5*  2H5*  SING  15
+ADI  C4*  O4*   SING  16
+ADI  C4*  C3*   SING  17
+ADI  C4*  H4*   SING  18
+ADI  O4*  C1*   SING  19
+ADI  C3*  C2*   SING  20
+ADI  C3*  1H3*  SING  21
+ADI  C3*  2H3*  SING  22
+ADI  C2*  C1*   SING  23
+ADI  C2*  1H2*  SING  24
+ADI  C2*  2H2*  SING  25
+ADI  C1*  N9    SING  26
+ADI  C1*  H1*   SING  27
+ADI  N9   C8    SING  28
+ADI  N9   C4    SING  29
+ADI  C8   N7    DOUB  30
+ADI  C8   H8    SING  31
+ADI  N7   C5    SING  32
+ADI  C5   C6    SING  33
+ADI  C5   C4    DOUB  34
+ADI  C6   N6    SING  35
+ADI  C6   N1    DOUB  36
+ADI  N6   1HN6  SING  37
+ADI  N6   2HN6  SING  38
+ADI  N1   C2    SING  39
+ADI  C2   N3    DOUB  40
+ADI  C2   H2    SING  41
+ADI  N3   C4    SING  42
+#

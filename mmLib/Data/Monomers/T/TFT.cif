@@ -1,0 +1,99 @@
+data_TFT
+#
+_chem_comp.id                       TFT
+_chem_comp.name                     (L)-ALPHA-THREOFURANOSYL-THYMINE-3'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            308.184
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TFT  P     .  P  0  14.501  29.399  6.280   1  1 
+TFT  O1P   .  O  0  13.435  30.338  5.822   1  2 
+TFT  O2P   .  O  0  15.845  29.830  6.772   1  3 
+TFT  O3T   .  O  0  13.970  28.442  7.527   1  4 
+TFT  N1    .  N  0  13.540  25.153  8.991   1  5 
+TFT  C6    .  C  0  14.829  25.631  8.861   1  6 
+TFT  C2    .  C  0  13.316  23.867  9.430   1  7 
+TFT  O2    .  O  0  12.208  23.368  9.523   1  8 
+TFT  N3    .  N  0  14.423  23.135  9.778   1  9 
+TFT  C4    .  C  0  15.722  23.583  9.643   1  10
+TFT  O4    .  O  0  16.618  22.838  10.016  1  11
+TFT  C5    .  C  0  15.943  24.948  9.192   1  12
+TFT  C5M   .  C  0  17.333  25.498  9.064   1  13
+TFT  C2T   .  C  0  12.229  27.445  8.881   1  14
+TFT  C4T   .  C  0  12.157  27.149  6.531   1  15
+TFT  O4T   .  O  0  12.677  25.929  7.110   1  16
+TFT  C1T   .  C  0  12.416  25.972  8.535   1  17
+TFT  C3T   .  C  0  12.577  28.151  7.566   1  18
+TFT  O2T   .  O  0  10.829  27.622  9.064   1  19
+TFT  O3P   .  O  0  ?       ?       ?       1  20
+TFT  2HOP  .  H  0  ?       ?       ?       0  21
+TFT  3HOP  .  H  0  ?       ?       ?       0  22
+TFT  CH3T  .  H  0  ?       ?       ?       0  23
+TFT  CH2T  .  H  0  ?       ?       ?       0  24
+TFT  H2T   .  H  0  ?       ?       ?       1  25
+TFT  1H4T  .  H  0  ?       ?       ?       0  26
+TFT  2H4T  .  H  0  ?       ?       ?       0  27
+TFT  CH1T  .  H  0  ?       ?       ?       0  28
+TFT  H6    .  H  0  ?       ?       ?       1  29
+TFT  1H5M  .  H  0  ?       ?       ?       0  30
+TFT  2H5M  .  H  0  ?       ?       ?       0  31
+TFT  3H5M  .  H  0  ?       ?       ?       0  32
+TFT  H3    .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TFT  P    O1P   DOUB  1 
+TFT  P    O2P   SING  2 
+TFT  P    O3T   SING  3 
+TFT  P    O3P   SING  4 
+TFT  O2P  2HOP  SING  5 
+TFT  O3T  C3T   SING  6 
+TFT  N1   C6    SING  7 
+TFT  N1   C2    SING  8 
+TFT  N1   C1T   SING  9 
+TFT  C6   C5    DOUB  10
+TFT  C6   H6    SING  11
+TFT  C2   O2    DOUB  12
+TFT  C2   N3    SING  13
+TFT  N3   C4    SING  14
+TFT  N3   H3    SING  15
+TFT  C4   O4    DOUB  16
+TFT  C4   C5    SING  17
+TFT  C5   C5M   SING  18
+TFT  C5M  1H5M  SING  19
+TFT  C5M  2H5M  SING  20
+TFT  C5M  3H5M  SING  21
+TFT  C2T  C1T   SING  22
+TFT  C2T  C3T   SING  23
+TFT  C2T  O2T   SING  24
+TFT  C2T  CH2T  SING  25
+TFT  C4T  O4T   SING  26
+TFT  C4T  C3T   SING  27
+TFT  C4T  1H4T  SING  28
+TFT  C4T  2H4T  SING  29
+TFT  O4T  C1T   SING  30
+TFT  C1T  CH1T  SING  31
+TFT  C3T  CH3T  SING  32
+TFT  O2T  H2T   SING  33
+TFT  O3P  3HOP  SING  34
+#

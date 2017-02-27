@@ -1,0 +1,107 @@
+data_FHL
+#
+_chem_comp.id                   FHL
+_chem_comp.name                 (E)-N~6~-[3-CARBOXY-1-(HYDROXYMETHYL)PROPYLIDENE]-L-LYSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H20 N2 O5'
+_chem_comp.pdbx_synonyms        '2-AMINO-6-(3-CARBOXY-1-HYDROXYMETHYL-PROPYLIDENEAMINO)-HEXANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.289
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FHL  O1    .  O  0  113.9    31.232  9.647   1  1 
+FHL  C1    .  C  0  114.413  32.307  9.317   1  2 
+FHL  O2    .  O  0  113.743  33.392  9.279   1  3 
+FHL  C2    .  C  0  115.868  32.179  8.946   1  4 
+FHL  C3    .  C  0  116.503  33.52   8.622   1  5 
+FHL  C4    .  C  0  116.73   34.393  9.841   1  6 
+FHL  C5    .  C  0  116.609  33.829  11.243  1  7 
+FHL  O3    .  O  0  117.108  34.754  12.197  1  8 
+FHL  NZ    .  N  0  117.055  35.62   9.674   1  9 
+FHL  CE    .  C  0  117.21   36.302  8.403   1  10
+FHL  CD    .  C  0  117.363  37.809  8.62    1  11
+FHL  CG    .  C  0  117.166  38.495  7.278   1  12
+FHL  CB    .  C  0  117.782  39.9    7.32    1  13
+FHL  CA    .  C  0  117.241  40.665  6.112   1  14
+FHL  N     .  N  0  117.657  42.044  6.099   1  15
+FHL  C     .  C  0  115.706  40.653  5.999   1  16
+FHL  O     .  O  0  114.888  41.276  6.675   1  17
+FHL  OXT   .  O  0  ?        ?       ?       1  18
+FHL  H2    .  H  0  ?        ?       ?       1  19
+FHL  1H2C  .  H  0  116.007  31.456  8.109   0  20
+FHL  2H2C  .  H  0  116.44   31.645  9.74    0  21
+FHL  1H3C  .  H  0  115.906  34.064  7.853   0  22
+FHL  2H3C  .  H  0  117.453  33.38   8.055   0  23
+FHL  1H5C  .  H  0  117.103  32.834  11.333  0  24
+FHL  2H5C  .  H  0  115.564  33.518  11.475  0  25
+FHL  H3    .  H  0  117.032  34.401  13.075  1  26
+FHL  1HEC  .  H  0  116.376  36.066  7.701   0  27
+FHL  2HEC  .  H  0  118.053  35.881  7.806   0  28
+FHL  1HDC  .  H  0  118.329  38.08   9.106   0  29
+FHL  2HDC  .  H  0  116.683  38.203  9.411   0  30
+FHL  1HGC  .  H  0  116.095  38.515  6.97    0  31
+FHL  2HGC  .  H  0  117.565  37.887  6.433   0  32
+FHL  1HBC  .  H  0  118.896  39.888  7.367   0  33
+FHL  2HBC  .  H  0  117.604  40.427  8.286   0  34
+FHL  HA    .  H  0  117.65   40.181  5.195   1  35
+FHL  1HN   .  H  0  118.283  42.652  5.571   0  36
+FHL  2HN   .  H  0  118.215  42.682  6.666   0  37
+FHL  HXT   .  H  0  ?        ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FHL  O1   C1    DOUB  1 
+FHL  C1   O2    SING  2 
+FHL  C1   C2    SING  3 
+FHL  O2   H2    SING  4 
+FHL  C2   C3    SING  5 
+FHL  C2   1H2C  SING  6 
+FHL  C2   2H2C  SING  7 
+FHL  C3   C4    SING  8 
+FHL  C3   1H3C  SING  9 
+FHL  C3   2H3C  SING  10
+FHL  C4   C5    SING  11
+FHL  C4   NZ    DOUB  12
+FHL  C5   O3    SING  13
+FHL  C5   1H5C  SING  14
+FHL  C5   2H5C  SING  15
+FHL  O3   H3    SING  16
+FHL  NZ   CE    SING  17
+FHL  CE   CD    SING  18
+FHL  CE   1HEC  SING  19
+FHL  CE   2HEC  SING  20
+FHL  CD   CG    SING  21
+FHL  CD   1HDC  SING  22
+FHL  CD   2HDC  SING  23
+FHL  CG   CB    SING  24
+FHL  CG   1HGC  SING  25
+FHL  CG   2HGC  SING  26
+FHL  CB   CA    SING  27
+FHL  CB   1HBC  SING  28
+FHL  CB   2HBC  SING  29
+FHL  CA   N     SING  30
+FHL  CA   C     SING  31
+FHL  CA   HA    SING  32
+FHL  N    1HN   SING  33
+FHL  N    2HN   SING  34
+FHL  C    O     DOUB  35
+FHL  C    OXT   SING  36
+FHL  OXT  HXT   SING  37
+#

@@ -1,0 +1,73 @@
+data_MHO
+#
+_chem_comp.id                       MHO
+_chem_comp.name                     S-OXYMETHIONINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            165.207
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MHO  N    .  N  0  ?  ?  ?  1  1 
+MHO  CA   .  C  0  ?  ?  ?  1  2 
+MHO  CB   .  C  0  ?  ?  ?  1  3 
+MHO  CG   .  C  0  ?  ?  ?  1  4 
+MHO  SD   .  S  0  ?  ?  ?  1  5 
+MHO  CE   .  C  0  ?  ?  ?  1  6 
+MHO  C    .  C  0  ?  ?  ?  1  7 
+MHO  O    .  O  0  ?  ?  ?  1  8 
+MHO  OXT  .  O  0  ?  ?  ?  1  9 
+MHO  OD1  .  O  0  ?  ?  ?  1  10
+MHO  1HN  .  H  0  ?  ?  ?  0  11
+MHO  2HN  .  H  0  ?  ?  ?  0  12
+MHO  HA   .  H  0  ?  ?  ?  1  13
+MHO  1HB  .  H  0  ?  ?  ?  0  14
+MHO  2HB  .  H  0  ?  ?  ?  0  15
+MHO  1HG  .  H  0  ?  ?  ?  0  16
+MHO  2HG  .  H  0  ?  ?  ?  0  17
+MHO  1HE  .  H  0  ?  ?  ?  0  18
+MHO  2HE  .  H  0  ?  ?  ?  0  19
+MHO  3HE  .  H  0  ?  ?  ?  0  20
+MHO  HXT  .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MHO  N    CA   SING  1 
+MHO  N    1HN  SING  2 
+MHO  N    2HN  SING  3 
+MHO  CA   CB   SING  4 
+MHO  CA   C    SING  5 
+MHO  CA   HA   SING  6 
+MHO  CB   CG   SING  7 
+MHO  CB   1HB  SING  8 
+MHO  CB   2HB  SING  9 
+MHO  CG   SD   SING  10
+MHO  CG   1HG  SING  11
+MHO  CG   2HG  SING  12
+MHO  SD   CE   SING  13
+MHO  SD   OD1  DOUB  14
+MHO  CE   1HE  SING  15
+MHO  CE   2HE  SING  16
+MHO  CE   3HE  SING  17
+MHO  C    O    DOUB  18
+MHO  C    OXT  SING  19
+MHO  OXT  HXT  SING  20
+#

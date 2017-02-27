@@ -1,0 +1,95 @@
+data_HPF
+#
+_chem_comp.id                   HPF
+_chem_comp.name                 1-[(2-HYDROXYLPHENYL)AMINO]3-GLYCEROLPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        279.186
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPF  C1    .  C  0  52.225  25.477  14.792  1  1 
+HPF  C2    .  C  0  51.632  24.149  14.788  1  2 
+HPF  C3    .  C  0  50.220  24.130  15.082  1  3 
+HPF  C4    .  C  0  49.430  25.279  15.340  1  4 
+HPF  C5    .  C  0  50.082  26.524  15.317  1  5 
+HPF  C6    .  C  0  51.438  26.630  15.060  1  6 
+HPF  O7    .  O  0  52.034  27.857  15.060  1  7 
+HPF  N8    .  N  0  49.305  27.745  15.581  1  8 
+HPF  C9    .  C  0  48.196  28.058  14.647  1  9 
+HPF  C10   .  C  0  48.599  28.051  13.164  1  10
+HPF  C11   .  C  0  47.448  28.347  12.237  1  11
+HPF  O12   .  O  0  47.916  28.060  10.877  1  12
+HPF  P13   .  P  0  48.244  29.342  9.952   1  13
+HPF  O14   .  O  0  46.886  30.214  9.877   1  14
+HPF  O15   .  O  0  49.472  30.197  10.613  1  15
+HPF  O16   .  O  0  48.594  28.701  8.656   1  16
+HPF  O17   .  O  0  47.110  27.164  14.871  1  17
+HPF  O18   .  O  0  49.538  29.163  13.086  1  18
+HPF  HO7   .  H  0  ?       ?       ?       1  19
+HPF  H1    .  H  0  ?       ?       ?       1  20
+HPF  H2    .  H  0  ?       ?       ?       1  21
+HPF  H3    .  H  0  ?       ?       ?       1  22
+HPF  H4    .  H  0  ?       ?       ?       1  23
+HPF  HN8   .  H  0  ?       ?       ?       1  24
+HPF  H9    .  H  0  ?       ?       ?       1  25
+HPF  H17   .  H  0  ?       ?       ?       1  26
+HPF  H10   .  H  0  ?       ?       ?       1  27
+HPF  H18   .  H  0  ?       ?       ?       1  28
+HPF  1H11  .  H  0  ?       ?       ?       0  29
+HPF  2H11  .  H  0  ?       ?       ?       0  30
+HPF  H14   .  H  0  ?       ?       ?       1  31
+HPF  H15   .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPF  C1   C6    AROM  1 
+HPF  C1   C2    AROM  2 
+HPF  C1   H1    SING  3 
+HPF  C2   C3    AROM  4 
+HPF  C2   H2    SING  5 
+HPF  C3   C4    AROM  6 
+HPF  C3   H3    SING  7 
+HPF  C4   C5    AROM  8 
+HPF  C4   H4    SING  9 
+HPF  C5   C6    AROM  10
+HPF  C5   N8    SING  11
+HPF  C6   O7    SING  12
+HPF  O7   HO7   SING  13
+HPF  N8   C9    SING  14
+HPF  N8   HN8   SING  15
+HPF  C9   O17   SING  16
+HPF  C9   C10   SING  17
+HPF  C9   H9    SING  18
+HPF  C10  O18   SING  19
+HPF  C10  C11   SING  20
+HPF  C10  H10   SING  21
+HPF  C11  O12   SING  22
+HPF  C11  1H11  SING  23
+HPF  C11  2H11  SING  24
+HPF  O12  P13   SING  25
+HPF  P13  O14   SING  26
+HPF  P13  O15   SING  27
+HPF  P13  O16   DOUB  28
+HPF  O14  H14   SING  29
+HPF  O15  H15   SING  30
+HPF  O17  H17   SING  31
+HPF  O18  H18   SING  32
+#

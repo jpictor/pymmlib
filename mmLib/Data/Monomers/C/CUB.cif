@@ -1,0 +1,72 @@
+data_CUB
+#
+_chem_comp.id                   CUB
+_chem_comp.name                 'CU(I)-S-MO(IV)(=O)O-NBIC CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1 O2 S1 CU1 MO1'
+_chem_comp.pdbx_formal_charge   4+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       306.678
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CUB  C3Z  .  C   0  100.749  141.723  145.670  1  1 
+CUB  C2Z  .  C   0  99.686   141.301  146.410  1  2 
+CUB  C1Z  .  C   0  99.010   140.139  146.033  1  3 
+CUB  NZ   .  N   0  98.595   140.228  144.647  1  4 
+CUB  CU   .  CU  1  98.816   138.831  143.505  0  5 
+CUB  MO   .  MO  4  95.822   142.902  144.015  0  6 
+CUB  S    .  S   0  97.095   141.349  142.783  1  7 
+CUB  CZ   .  C   0  97.615   141.071  144.390  1  8 
+CUB  OM2  .  O   0  97.006   141.839  145.204  1  9 
+CUB  C4Z  .  C   0  101.736  142.828  146.288  1  10
+CUB  OM1  .  O   0  96.455   144.436  143.980  1  11
+CUB  1H1  .  H   0  ?        ?        ?        0  12
+CUB  2H1  .  H   0  ?        ?        ?        0  13
+CUB  1H2  .  H   0  ?        ?        ?        0  14
+CUB  2H2  .  H   0  ?        ?        ?        0  15
+CUB  1H3  .  H   0  ?        ?        ?        0  16
+CUB  2H3  .  H   0  ?        ?        ?        0  17
+CUB  1H4  .  H   0  ?        ?        ?        0  18
+CUB  2H4  .  H   0  ?        ?        ?        0  19
+CUB  3H4  .  H   0  ?        ?        ?        0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CUB  C3Z  C2Z  SING  1 
+CUB  C3Z  C4Z  SING  2 
+CUB  C3Z  1H3  SING  3 
+CUB  C3Z  2H3  SING  4 
+CUB  C2Z  C1Z  SING  5 
+CUB  C2Z  1H2  SING  6 
+CUB  C2Z  2H2  SING  7 
+CUB  C1Z  NZ   SING  8 
+CUB  C1Z  1H1  SING  9 
+CUB  C1Z  2H1  SING  10
+CUB  NZ   CU   SING  11
+CUB  NZ   CZ   SING  12
+CUB  MO   OM2  SING  13
+CUB  MO   OM1  DOUB  14
+CUB  MO   S    SING  15
+CUB  MO   CZ   SING  16
+CUB  S    CZ   SING  17
+CUB  CZ   OM2  SING  18
+CUB  C4Z  1H4  SING  19
+CUB  C4Z  2H4  SING  20
+CUB  C4Z  3H4  SING  21
+#

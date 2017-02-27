@@ -1,0 +1,50 @@
+data_ZO3
+#
+_chem_comp.id                   ZO3
+_chem_comp.name                 'ZINC ION, 3 WATERS COORDINATED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETIC
+_chem_comp.formula              'H6 O3 ZN1'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       119.426
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZO3  ZN    .  ZN  2  ?  ?  ?  0  1 
+ZO3  O1    .  O   0  ?  ?  ?  1  2 
+ZO3  O2    .  O   0  ?  ?  ?  1  3 
+ZO3  O3    .  O   0  ?  ?  ?  1  4 
+ZO3  1HO1  .  H   0  ?  ?  ?  0  5 
+ZO3  2HO1  .  H   0  ?  ?  ?  0  6 
+ZO3  1HO2  .  H   0  ?  ?  ?  0  7 
+ZO3  2HO2  .  H   0  ?  ?  ?  0  8 
+ZO3  1HO3  .  H   0  ?  ?  ?  0  9 
+ZO3  2HO3  .  H   0  ?  ?  ?  0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZO3  ZN  O1    SING  1
+ZO3  ZN  O2    SING  2
+ZO3  ZN  O3    SING  3
+ZO3  O1  1HO1  SING  4
+ZO3  O1  2HO1  SING  5
+ZO3  O2  1HO2  SING  6
+ZO3  O2  2HO2  SING  7
+ZO3  O3  1HO3  SING  8
+ZO3  O3  2HO3  SING  9
+#

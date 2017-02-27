@@ -1,0 +1,101 @@
+data_SAB
+#
+_chem_comp.id                   SAB
+_chem_comp.name                 4-SULFONAMIDE-[1-(4-AMINOBUTANE)]BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N3 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        271.334
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SAB  C1    .  C  0  ?  ?  ?  1  1 
+SAB  C2    .  C  0  ?  ?  ?  1  2 
+SAB  C3    .  C  0  ?  ?  ?  1  3 
+SAB  C4    .  C  0  ?  ?  ?  1  4 
+SAB  C5    .  C  0  ?  ?  ?  1  5 
+SAB  C6    .  C  0  ?  ?  ?  1  6 
+SAB  C7    .  C  0  ?  ?  ?  1  7 
+SAB  O7    .  O  0  ?  ?  ?  1  8 
+SAB  N     .  N  0  ?  ?  ?  1  9 
+SAB  C1'   .  C  0  ?  ?  ?  1  10
+SAB  C2'   .  C  0  ?  ?  ?  1  11
+SAB  C3'   .  C  0  ?  ?  ?  1  12
+SAB  C4'   .  C  0  ?  ?  ?  1  13
+SAB  N4'   .  N  0  ?  ?  ?  1  14
+SAB  S     .  S  0  ?  ?  ?  1  15
+SAB  O1S   .  O  0  ?  ?  ?  1  16
+SAB  O2S   .  O  0  ?  ?  ?  1  17
+SAB  N3S   .  N  0  ?  ?  ?  1  18
+SAB  H2    .  H  0  ?  ?  ?  1  19
+SAB  H3    .  H  0  ?  ?  ?  1  20
+SAB  H5    .  H  0  ?  ?  ?  1  21
+SAB  H6    .  H  0  ?  ?  ?  1  22
+SAB  HN    .  H  0  ?  ?  ?  1  23
+SAB  1H1'  .  H  0  ?  ?  ?  0  24
+SAB  2H1'  .  H  0  ?  ?  ?  0  25
+SAB  1H2'  .  H  0  ?  ?  ?  0  26
+SAB  2H2'  .  H  0  ?  ?  ?  0  27
+SAB  1H3'  .  H  0  ?  ?  ?  0  28
+SAB  2H3'  .  H  0  ?  ?  ?  0  29
+SAB  1H4'  .  H  0  ?  ?  ?  0  30
+SAB  2H4'  .  H  0  ?  ?  ?  0  31
+SAB  1HN4  .  H  0  ?  ?  ?  0  32
+SAB  2HN4  .  H  0  ?  ?  ?  0  33
+SAB  1HN3  .  H  0  ?  ?  ?  0  34
+SAB  2HN3  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SAB  C1   C2    DOUB  1 
+SAB  C1   C6    SING  2 
+SAB  C1   C7    SING  3 
+SAB  C2   C3    SING  4 
+SAB  C2   H2    SING  5 
+SAB  C3   C4    DOUB  6 
+SAB  C3   H3    SING  7 
+SAB  C4   C5    SING  8 
+SAB  C4   S     SING  9 
+SAB  C5   C6    DOUB  10
+SAB  C5   H5    SING  11
+SAB  C6   H6    SING  12
+SAB  C7   N     SING  13
+SAB  C7   O7    DOUB  14
+SAB  N    C1'   SING  15
+SAB  N    HN    SING  16
+SAB  C1'  C2'   SING  17
+SAB  C1'  1H1'  SING  18
+SAB  C1'  2H1'  SING  19
+SAB  C2'  C3'   SING  20
+SAB  C2'  1H2'  SING  21
+SAB  C2'  2H2'  SING  22
+SAB  C3'  C4'   SING  23
+SAB  C3'  1H3'  SING  24
+SAB  C3'  2H3'  SING  25
+SAB  C4'  N4'   SING  26
+SAB  C4'  1H4'  SING  27
+SAB  C4'  2H4'  SING  28
+SAB  N4'  1HN4  SING  29
+SAB  N4'  2HN4  SING  30
+SAB  S    O1S   DOUB  31
+SAB  S    O2S   DOUB  32
+SAB  S    N3S   SING  33
+SAB  N3S  1HN3  SING  34
+SAB  N3S  2HN3  SING  35
+#

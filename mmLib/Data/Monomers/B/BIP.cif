@@ -1,0 +1,79 @@
+data_BIP
+#
+_chem_comp.id                   BIP
+_chem_comp.name                 '2-BENZYL-3-IODOPROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 O2 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        290.100
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIP  C1   .  C  0  ?  ?  ?  1  1 
+BIP  O1   .  O  0  ?  ?  ?  1  2 
+BIP  O2   .  O  0  ?  ?  ?  1  3 
+BIP  C2   .  C  0  ?  ?  ?  1  4 
+BIP  C3   .  C  0  ?  ?  ?  1  5 
+BIP  I    .  I  0  ?  ?  ?  1  6 
+BIP  C    .  C  0  ?  ?  ?  1  7 
+BIP  C1'  .  C  0  ?  ?  ?  1  8 
+BIP  C2'  .  C  0  ?  ?  ?  1  9 
+BIP  C3'  .  C  0  ?  ?  ?  1  10
+BIP  C4'  .  C  0  ?  ?  ?  1  11
+BIP  C5'  .  C  0  ?  ?  ?  1  12
+BIP  C6'  .  C  0  ?  ?  ?  1  13
+BIP  HO2  .  H  0  ?  ?  ?  1  14
+BIP  H2   .  H  0  ?  ?  ?  1  15
+BIP  1H3  .  H  0  ?  ?  ?  0  16
+BIP  2H3  .  H  0  ?  ?  ?  0  17
+BIP  1H   .  H  0  ?  ?  ?  0  18
+BIP  2H   .  H  0  ?  ?  ?  0  19
+BIP  H2'  .  H  0  ?  ?  ?  1  20
+BIP  H3'  .  H  0  ?  ?  ?  1  21
+BIP  H4'  .  H  0  ?  ?  ?  1  22
+BIP  H5'  .  H  0  ?  ?  ?  1  23
+BIP  H6'  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIP  C1   C2   SING  1 
+BIP  C1   O1   DOUB  2 
+BIP  C1   O2   SING  3 
+BIP  O2   HO2  SING  4 
+BIP  C2   C3   SING  5 
+BIP  C2   C    SING  6 
+BIP  C2   H2   SING  7 
+BIP  C3   I    SING  8 
+BIP  C3   1H3  SING  9 
+BIP  C3   2H3  SING  10
+BIP  C    C1'  SING  11
+BIP  C    1H   SING  12
+BIP  C    2H   SING  13
+BIP  C1'  C2'  DOUB  14
+BIP  C1'  C6'  SING  15
+BIP  C2'  C3'  SING  16
+BIP  C2'  H2'  SING  17
+BIP  C3'  C4'  DOUB  18
+BIP  C3'  H3'  SING  19
+BIP  C4'  C5'  SING  20
+BIP  C4'  H4'  SING  21
+BIP  C5'  C6'  DOUB  22
+BIP  C5'  H5'  SING  23
+BIP  C6'  H6'  SING  24
+#

@@ -1,0 +1,106 @@
+data_CDF
+#
+_chem_comp.id                   CDF
+_chem_comp.name                 CYTIDINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N3 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        400.155
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CDF  O3B   .  O  0  .185    16.288  82.535  1  1 
+CDF  PB    .  P  0  .42     15.321  81.281  1  2 
+CDF  O1B   .  O  0  -.116   14.08   81.799  1  3 
+CDF  O2B   .  O  0  -.288   16.007  80.031  1  4 
+CDF  O3A   .  O  0  2.024   15.123  81.262  1  5 
+CDF  PA    .  P  0  3.024   13.896  81.329  1  6 
+CDF  O1A   .  O  0  3.391   13.448  79.96   1  7 
+CDF  O2A   .  O  0  2.722   12.756  82.304  1  8 
+CDF  O5*   .  O  0  4.269   14.707  81.891  1  9 
+CDF  C5*   .  C  0  4.129   15.349  83.154  1  10
+CDF  C4*   .  C  0  5.34    16.231  83.478  1  11
+CDF  O4*   .  O  0  6.503   15.443  83.614  1  12
+CDF  C3*   .  C  0  5.735   17.223  82.374  1  13
+CDF  O3*   .  O  0  4.947   18.426  82.364  1  14
+CDF  C2*   .  C  0  7.206   17.489  82.632  1  15
+CDF  O2*   .  O  0  7.26    18.457  83.672  1  16
+CDF  C1*   .  C  0  7.677   16.13   83.156  1  17
+CDF  N1    .  N  0  8.374   15.275  82.163  1  18
+CDF  C2    .  C  0  9.725   15.035  82.419  1  19
+CDF  O2    .  O  0  10.32   15.69   83.28   1  20
+CDF  N3    .  N  0  10.412  14.046  81.777  1  21
+CDF  C4    .  C  0  9.825   13.34   80.762  1  22
+CDF  N4    .  N  0  10.573  12.448  80.117  1  23
+CDF  C5    .  C  0  8.443   13.572  80.496  1  24
+CDF  C6    .  C  0  7.721   14.515  81.24   1  25
+CDF  1H5*  .  H  0  3.935   14.611  83.966  0  26
+CDF  2H5*  .  H  0  3.177   15.927  83.213  0  27
+CDF  H4*   .  H  0  5.153   16.785  84.427  1  28
+CDF  H3*   .  H  0  5.63    16.718  81.385  1  29
+CDF  H1*   .  H  0  8.356   16.297  84.024  1  30
+CDF  HA    .  H  0  5.191   19.04   81.681  1  31
+CDF  H2*   .  H  0  7.753   17.81   81.715  1  32
+CDF  HB    .  H  0  8.181   18.624  83.834  1  33
+CDF  H6    .  H  0  6.637   14.64   81.08   1  34
+CDF  1H4N  .  H  0  10.135  11.922  79.361  0  35
+CDF  2H4N  .  H  0  11.561  12.282  80.307  0  36
+CDF  H5    .  H  0  7.938   13.004  79.697  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CDF  O3B  PB    SING  1 
+CDF  PB   O1B   DOUB  2 
+CDF  PB   O2B   SING  3 
+CDF  PB   O3A   SING  4 
+CDF  O3A  PA    SING  5 
+CDF  PA   O1A   DOUB  6 
+CDF  PA   O2A   SING  7 
+CDF  PA   O5*   SING  8 
+CDF  O5*  C5*   SING  9 
+CDF  C5*  C4*   SING  10
+CDF  C5*  1H5*  SING  11
+CDF  C5*  2H5*  SING  12
+CDF  C4*  O4*   SING  13
+CDF  C4*  C3*   SING  14
+CDF  C4*  H4*   SING  15
+CDF  O4*  C1*   SING  16
+CDF  C3*  O3*   SING  17
+CDF  C3*  C2*   SING  18
+CDF  C3*  H3*   SING  19
+CDF  O3*  HA    SING  20
+CDF  C2*  O2*   SING  21
+CDF  C2*  C1*   SING  22
+CDF  C2*  H2*   SING  23
+CDF  O2*  HB    SING  24
+CDF  C1*  N1    SING  25
+CDF  C1*  H1*   SING  26
+CDF  N1   C2    SING  27
+CDF  N1   C6    SING  28
+CDF  C2   O2    DOUB  29
+CDF  C2   N3    SING  30
+CDF  N3   C4    DOUB  31
+CDF  C4   N4    SING  32
+CDF  C4   C5    SING  33
+CDF  N4   1H4N  SING  34
+CDF  N4   2H4N  SING  35
+CDF  C5   C6    DOUB  36
+CDF  C5   H5    SING  37
+CDF  C6   H6    SING  38
+#

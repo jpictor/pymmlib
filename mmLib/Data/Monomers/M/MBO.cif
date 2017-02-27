@@ -1,0 +1,61 @@
+data_MBO
+#
+_chem_comp.id                   MBO
+_chem_comp.name                 'MERCURIBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 O2 HG1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.705
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MBO  HG   .  HG  0  ?  ?  ?  0  1 
+MBO  CE1  .  C   0  ?  ?  ?  1  2 
+MBO  CE2  .  C   0  ?  ?  ?  1  3 
+MBO  CE3  .  C   0  ?  ?  ?  1  4 
+MBO  CE4  .  C   0  ?  ?  ?  1  5 
+MBO  CE5  .  C   0  ?  ?  ?  1  6 
+MBO  CE6  .  C   0  ?  ?  ?  1  7 
+MBO  CZ   .  C   0  ?  ?  ?  1  8 
+MBO  OZ1  .  O   0  ?  ?  ?  1  9 
+MBO  OZ2  .  O   0  ?  ?  ?  1  10
+MBO  HE2  .  H   0  ?  ?  ?  1  11
+MBO  HE3  .  H   0  ?  ?  ?  1  12
+MBO  HE5  .  H   0  ?  ?  ?  1  13
+MBO  HE6  .  H   0  ?  ?  ?  1  14
+MBO  HZ2  .  H   0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MBO  HG   CE1  SING  1 
+MBO  CE1  CE2  SING  2 
+MBO  CE1  CE6  DOUB  3 
+MBO  CE2  CE3  DOUB  4 
+MBO  CE2  HE2  SING  5 
+MBO  CE3  CE4  SING  6 
+MBO  CE3  HE3  SING  7 
+MBO  CE4  CE5  DOUB  8 
+MBO  CE4  CZ   SING  9 
+MBO  CE5  CE6  SING  10
+MBO  CE5  HE5  SING  11
+MBO  CE6  HE6  SING  12
+MBO  CZ   OZ1  DOUB  13
+MBO  CZ   OZ2  SING  14
+MBO  OZ2  HZ2  SING  15
+#

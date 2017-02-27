@@ -1,0 +1,127 @@
+data_OCV
+#
+_chem_comp.id                   OCV
+_chem_comp.name                 N6-[(1R)-2-{[(1R)-1-CARBOXY-2-METHYLPROPYL]OXY}-1-(MERCAPTOMETHYL)-2-OXOETHYL]-6-OXO-D-LYSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H24 N2 O7 S1'
+_chem_comp.pdbx_synonyms        'L-D-(A-AMINOADIPOYL)-L-CYSTEINE D-A-HYDROXYISOVALERYL ESTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        364.413
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OCV  C1    .  C  0  17.242  36.109  5.59   1  1 
+OCV  C2    .  C  0  15.811  36.31   6.095  1  2 
+OCV  C3    .  C  0  15.217  37.554  5.419  1  3 
+OCV  C4    .  C  0  13.752  37.794  5.94   1  4 
+OCV  C7    .  C  0  13.337  39.102  5.194  1  5 
+OCV  C10   .  C  0  11.911  39.387  5.58   1  6 
+OCV  N11   .  N  0  10.951  39.221  4.668  1  7 
+OCV  C12   .  C  0  9.527   39.499  4.856  1  8 
+OCV  C13   .  C  0  8.787   38.18   4.688  1  9 
+OCV  N14   .  N  0  15.806  36.473  7.632  1  10
+OCV  O15   .  O  0  11.531  39.693  6.72   1  11
+OCV  C16   .  C  0  9.073   40.497  3.77   1  12
+OCV  S17   .  S  0  9.469   39.823  2.1    1  13
+OCV  O18   .  O  0  9.248   37.084  4.632  1  14
+OCV  O19   .  O  0  18.179  36.23   6.452  1  15
+OCV  O20   .  O  0  17.403  35.876  4.382  1  16
+OCV  C30   .  C  0  6.58    37.193  4.254  1  17
+OCV  C31   .  C  0  5.403   37.25   5.221  1  18
+OCV  C32   .  C  0  6.133   37.118  2.759  1  19
+OCV  C33   .  C  0  7.33    36.74   1.832  1  20
+OCV  C37   .  C  0  5.75    38.592  2.455  1  21
+OCV  O42   .  O  0  5.343   38.086  6.154  1  22
+OCV  O43   .  O  0  4.477   36.399  5.064  1  23
+OCV  O29   .  O  0  7.463   38.347  4.536  1  24
+OCV  2HC   .  H  0  15.199  35.419  5.821  0  25
+OCV  1HO9  .  H  0  ?       ?       ?      0  26
+OCV  1HC3  .  H  0  15.261  37.488  4.307  0  27
+OCV  2HC3  .  H  0  15.863  38.453  5.553  0  28
+OCV  1H14  .  H  0  14.852  36.607  7.969  0  29
+OCV  2H14  .  H  0  16.427  37.222  7.938  0  30
+OCV  1HC4  .  H  0  13.65   37.835  7.05   0  31
+OCV  2HC4  .  H  0  13.057  36.933  5.798  0  32
+OCV  1HC7  .  H  0  13.492  39.047  4.091  0  33
+OCV  2HC7  .  H  0  14.025  39.957  5.39   0  34
+OCV  1HN1  .  H  0  11.237  38.867  3.755  0  35
+OCV  1HC2  .  H  0  9.344   39.921  5.872  0  36
+OCV  1H16  .  H  0  9.506   41.513  3.926  0  37
+OCV  2H16  .  H  0  7.995   40.764  3.87   0  38
+OCV  17HS  .  H  0  ?       ?       ?      0  39
+OCV  3HC0  .  H  0  7.156   36.265  4.48   0  40
+OCV  3HC2  .  H  0  5.268   36.429  2.62   0  41
+OCV  4HO3  .  H  0  ?       ?       ?      0  42
+OCV  1H33  .  H  0  7.011   36.687  .765   0  43
+OCV  2H33  .  H  0  7.821   35.795  2.161  0  44
+OCV  3H33  .  H  0  8.19    37.436  1.969  0  45
+OCV  1H37  .  H  0  5.431   38.539  1.388  0  46
+OCV  2H37  .  H  0  6.549   39.34   2.67   0  47
+OCV  3H37  .  H  0  4.998   39.035  3.149  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OCV  C1   C2    SING  1 
+OCV  C1   O19   SING  2 
+OCV  C1   O20   DOUB  3 
+OCV  C2   C3    SING  4 
+OCV  C2   N14   SING  5 
+OCV  C2   2HC   SING  6 
+OCV  C3   C4    SING  7 
+OCV  C3   1HC3  SING  8 
+OCV  C3   2HC3  SING  9 
+OCV  C4   C7    SING  10
+OCV  C4   1HC4  SING  11
+OCV  C4   2HC4  SING  12
+OCV  C7   C10   SING  13
+OCV  C7   1HC7  SING  14
+OCV  C7   2HC7  SING  15
+OCV  C10  N11   SING  16
+OCV  C10  O15   DOUB  17
+OCV  N11  C12   SING  18
+OCV  N11  1HN1  SING  19
+OCV  C12  C13   SING  20
+OCV  C12  C16   SING  21
+OCV  C12  1HC2  SING  22
+OCV  C13  O18   DOUB  23
+OCV  C13  O29   SING  24
+OCV  N14  1H14  SING  25
+OCV  N14  2H14  SING  26
+OCV  C16  S17   SING  27
+OCV  C16  1H16  SING  28
+OCV  C16  2H16  SING  29
+OCV  S17  17HS  SING  30
+OCV  O19  1HO9  SING  31
+OCV  C30  C31   SING  32
+OCV  C30  C32   SING  33
+OCV  C30  O29   SING  34
+OCV  C30  3HC0  SING  35
+OCV  C31  O42   DOUB  36
+OCV  C31  O43   SING  37
+OCV  C32  C33   SING  38
+OCV  C32  C37   SING  39
+OCV  C32  3HC2  SING  40
+OCV  C33  1H33  SING  41
+OCV  C33  2H33  SING  42
+OCV  C33  3H33  SING  43
+OCV  C37  1H37  SING  44
+OCV  C37  2H37  SING  45
+OCV  C37  3H37  SING  46
+OCV  O43  4HO3  SING  47
+#

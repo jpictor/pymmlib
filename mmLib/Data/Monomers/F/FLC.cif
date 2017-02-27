@@ -1,0 +1,66 @@
+data_FLC
+#
+_chem_comp.id                   FLC
+_chem_comp.name                 'CITRATE ANION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C6 H5 O7'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       189.101
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FLC  CAC  .  C  0   ?  ?  ?  1  1 
+FLC  CA   .  C  0   ?  ?  ?  1  2 
+FLC  CB   .  C  0   ?  ?  ?  1  3 
+FLC  CBC  .  C  0   ?  ?  ?  1  4 
+FLC  CG   .  C  0   ?  ?  ?  1  5 
+FLC  CGC  .  C  0   ?  ?  ?  1  6 
+FLC  OA1  .  O  0   ?  ?  ?  1  7 
+FLC  OA2  .  O  -1  ?  ?  ?  1  8 
+FLC  OB1  .  O  0   ?  ?  ?  1  9 
+FLC  OB2  .  O  -1  ?  ?  ?  1  10
+FLC  OG1  .  O  0   ?  ?  ?  1  11
+FLC  OG2  .  O  -1  ?  ?  ?  1  12
+FLC  OHB  .  O  0   ?  ?  ?  1  13
+FLC  1HA  .  H  0   ?  ?  ?  0  14
+FLC  2HA  .  H  0   ?  ?  ?  0  15
+FLC  HOB  .  H  0   ?  ?  ?  1  16
+FLC  1HG  .  H  0   ?  ?  ?  0  17
+FLC  2HG  .  H  0   ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FLC  CAC  CA   SING  1 
+FLC  CAC  OA1  DOUB  2 
+FLC  CAC  OA2  SING  3 
+FLC  CA   CB   SING  4 
+FLC  CA   1HA  SING  5 
+FLC  CA   2HA  SING  6 
+FLC  CB   CBC  SING  7 
+FLC  CB   CG   SING  8 
+FLC  CB   OHB  SING  9 
+FLC  CBC  OB1  DOUB  10
+FLC  CBC  OB2  SING  11
+FLC  CG   CGC  SING  12
+FLC  CG   1HG  SING  13
+FLC  CG   2HG  SING  14
+FLC  CGC  OG1  DOUB  15
+FLC  CGC  OG2  SING  16
+FLC  OHB  HOB  SING  17
+#

@@ -1,0 +1,97 @@
+data_HAQ
+#
+_chem_comp.id                   HAQ
+_chem_comp.name                 '5-AMINO-4-OXO-1,2,4,5,6,7-HEXAHYDRO-AZEPINO[3,2,1-HI]INDOLE-2-CARBOXYLIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C13 H14 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        246.265
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HAQ  N     .  N  0  ?  ?  ?  1  1 
+HAQ  CA    .  C  0  ?  ?  ?  1  2 
+HAQ  CB    .  C  0  ?  ?  ?  1  3 
+HAQ  CG    .  C  0  ?  ?  ?  1  4 
+HAQ  C     .  C  0  ?  ?  ?  1  5 
+HAQ  O     .  O  0  ?  ?  ?  1  6 
+HAQ  N2    .  N  0  ?  ?  ?  1  7 
+HAQ  CA2   .  C  0  ?  ?  ?  1  8 
+HAQ  CB2   .  C  0  ?  ?  ?  1  9 
+HAQ  CG2   .  C  0  ?  ?  ?  1  10
+HAQ  CD1   .  C  0  ?  ?  ?  1  11
+HAQ  CD2   .  C  0  ?  ?  ?  1  12
+HAQ  CE1   .  C  0  ?  ?  ?  1  13
+HAQ  CE2   .  C  0  ?  ?  ?  1  14
+HAQ  CZ    .  C  0  ?  ?  ?  1  15
+HAQ  C2    .  C  0  ?  ?  ?  1  16
+HAQ  O2    .  O  0  ?  ?  ?  1  17
+HAQ  OXT   .  O  0  ?  ?  ?  1  18
+HAQ  HXT   .  H  0  ?  ?  ?  1  19
+HAQ  1HA2  .  H  0  ?  ?  ?  0  20
+HAQ  1HB2  .  H  0  ?  ?  ?  0  21
+HAQ  2HB2  .  H  0  ?  ?  ?  0  22
+HAQ  1HD2  .  H  0  ?  ?  ?  0  23
+HAQ  1HE2  .  H  0  ?  ?  ?  0  24
+HAQ  1HZ   .  H  0  ?  ?  ?  0  25
+HAQ  1HG   .  H  0  ?  ?  ?  0  26
+HAQ  2HG   .  H  0  ?  ?  ?  0  27
+HAQ  1HB   .  H  0  ?  ?  ?  0  28
+HAQ  2HB   .  H  0  ?  ?  ?  0  29
+HAQ  1HA   .  H  0  ?  ?  ?  0  30
+HAQ  1HN   .  H  0  ?  ?  ?  0  31
+HAQ  2HN   .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HAQ  N    CA    SING  1 
+HAQ  N    1HN   SING  2 
+HAQ  N    2HN   SING  3 
+HAQ  CA   CB    SING  4 
+HAQ  CA   C     SING  5 
+HAQ  CA   1HA   SING  6 
+HAQ  CB   CG    SING  7 
+HAQ  CB   1HB   SING  8 
+HAQ  CB   2HB   SING  9 
+HAQ  CG   CE1   SING  10
+HAQ  CG   1HG   SING  11
+HAQ  CG   2HG   SING  12
+HAQ  C    O     DOUB  13
+HAQ  C    N2    SING  14
+HAQ  N2   CA2   SING  15
+HAQ  N2   CD1   SING  16
+HAQ  CA2  CB2   SING  17
+HAQ  CA2  C2    SING  18
+HAQ  CA2  1HA2  SING  19
+HAQ  CB2  CG2   SING  20
+HAQ  CB2  1HB2  SING  21
+HAQ  CB2  2HB2  SING  22
+HAQ  CG2  CD1   DOUB  23
+HAQ  CG2  CD2   SING  24
+HAQ  CD1  CE1   SING  25
+HAQ  CD2  CE2   DOUB  26
+HAQ  CD2  1HD2  SING  27
+HAQ  CE1  CZ    DOUB  28
+HAQ  CE2  CZ    SING  29
+HAQ  CE2  1HE2  SING  30
+HAQ  CZ   1HZ   SING  31
+HAQ  C2   O2    DOUB  32
+HAQ  C2   OXT   SING  33
+HAQ  OXT  HXT   SING  34
+#

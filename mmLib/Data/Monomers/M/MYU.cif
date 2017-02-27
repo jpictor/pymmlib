@@ -1,0 +1,108 @@
+data_MYU
+#
+_chem_comp.id                   MYU
+_chem_comp.name                 3,5,6,7-TETRAHYDROXY-2-(3,4-DIHYDROXYPHENYL)-4H-CHROMEN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O8'
+_chem_comp.pdbx_synonyms        '2-(3,4-DIHYDROXYPHENYL)-3,5,6,7-TETRAHYDROXY-4H-1-BENZOPYRAN-4-ONE; QUERCETAGETIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        318.239
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MYU
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(c(cc1C2=C(C(=O)c3c(cc(c(c3O)O)O)O2)O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MYU  O20   .  O  0  74.029  38.919  -1.584  1  N  1 
+MYU  C11   .  C  0  74.342  37.860  -1.044  1  N  2 
+MYU  C12   .  C  0  74.604  36.666  -1.829  1  N  3 
+MYU  O19   .  O  0  74.522  36.796  -3.163  1  N  4 
+MYU  C10   .  C  0  74.412  37.775  0.428   1  Y  5 
+MYU  C13   .  C  0  74.145  38.943  1.288   1  Y  6 
+MYU  O21   .  O  0  73.854  40.135  0.786   1  N  7 
+MYU  C9    .  C  0  74.751  36.493  1.051   1  Y  8 
+MYU  C16   .  C  0  74.811  36.347  2.431   1  Y  9 
+MYU  C15   .  C  0  74.568  37.419  3.287   1  Y  10
+MYU  O22   .  O  0  74.623  37.207  4.604   1  N  11
+MYU  C14   .  C  0  74.232  38.767  2.739   1  Y  12
+MYU  O23   .  O  0  73.991  39.821  3.509   1  N  13
+MYU  O8    .  O  0  74.989  35.431  0.254   1  N  14
+MYU  C7    .  C  0  74.894  35.520  -1.191  1  N  15
+MYU  C6    .  C  0  75.211  34.205  -1.828  1  Y  16
+MYU  C5    .  C  0  75.717  33.228  -0.957  1  Y  17
+MYU  C4    .  C  0  76.052  31.973  -1.439  1  Y  18
+MYU  O17   .  O  0  76.539  31.008  -0.675  1  N  19
+MYU  C3    .  C  0  75.856  31.712  -2.851  1  Y  20
+MYU  O18   .  O  0  76.186  30.523  -3.275  1  N  21
+MYU  C2    .  C  0  75.338  32.685  -3.697  1  Y  22
+MYU  C1    .  C  0  75.014  33.939  -3.176  1  Y  23
+MYU  HO19  .  H  0  74.503  37.718  -3.391  0  N  24
+MYU  HO21  .  H  0  73.784  40.768  1.491   0  N  25
+MYU  H16   .  H  0  75.051  35.381  2.850   1  N  26
+MYU  HO22  .  H  0  74.636  36.273  4.775   0  N  27
+MYU  HO23  .  H  0  73.933  39.545  4.416   0  N  28
+MYU  H5    .  H  0  75.846  33.455  0.091   1  N  29
+MYU  HO17  .  H  0  76.656  30.221  -1.194  0  N  30
+MYU  HO18  .  H  0  76.266  30.535  -4.222  0  N  31
+MYU  H2    .  H  0  75.188  32.474  -4.745  1  N  32
+MYU  H1    .  H  0  74.609  34.703  -3.823  1  N  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MYU  O20  C11   DOUB  N  1 
+MYU  C11  C12   SING  N  2 
+MYU  C11  C10   SING  N  3 
+MYU  C12  O19   SING  N  4 
+MYU  C12  C7    DOUB  N  5 
+MYU  O19  HO19  SING  N  6 
+MYU  C10  C9    DOUB  Y  7 
+MYU  C10  C13   SING  Y  8 
+MYU  C13  O21   SING  N  9 
+MYU  C13  C14   DOUB  Y  10
+MYU  O21  HO21  SING  N  11
+MYU  C9   O8    SING  N  12
+MYU  C9   C16   SING  Y  13
+MYU  C16  C15   DOUB  Y  14
+MYU  C16  H16   SING  N  15
+MYU  C15  C14   SING  Y  16
+MYU  C15  O22   SING  N  17
+MYU  O22  HO22  SING  N  18
+MYU  C14  O23   SING  N  19
+MYU  O23  HO23  SING  N  20
+MYU  O8   C7    SING  N  21
+MYU  C7   C6    SING  N  22
+MYU  C6   C1    SING  Y  23
+MYU  C6   C5    DOUB  Y  24
+MYU  C5   C4    SING  Y  25
+MYU  C5   H5    SING  N  26
+MYU  C4   C3    DOUB  Y  27
+MYU  C4   O17   SING  N  28
+MYU  O17  HO17  SING  N  29
+MYU  C3   C2    SING  Y  30
+MYU  C3   O18   SING  N  31
+MYU  O18  HO18  SING  N  32
+MYU  C2   C1    DOUB  Y  33
+MYU  C2   H2    SING  N  34
+MYU  C1   H1    SING  N  35
+#

@@ -1,0 +1,60 @@
+data_BMD
+#
+_chem_comp.id                   BMD
+_chem_comp.name                 BUTYRAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        87.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BMD  C3   .  C  0  ?  ?  ?  1  1 
+BMD  C2   .  C  0  ?  ?  ?  1  2 
+BMD  C1   .  C  0  ?  ?  ?  1  3 
+BMD  CA   .  C  0  ?  ?  ?  1  4 
+BMD  OA   .  O  0  ?  ?  ?  1  5 
+BMD  NA   .  N  0  ?  ?  ?  1  6 
+BMD  1HN  .  H  0  ?  ?  ?  0  7 
+BMD  2HN  .  H  0  ?  ?  ?  0  8 
+BMD  3H3  .  H  0  ?  ?  ?  0  9 
+BMD  2H3  .  H  0  ?  ?  ?  0  10
+BMD  1H3  .  H  0  ?  ?  ?  0  11
+BMD  2H2  .  H  0  ?  ?  ?  0  12
+BMD  1H2  .  H  0  ?  ?  ?  0  13
+BMD  2H1  .  H  0  ?  ?  ?  0  14
+BMD  1H1  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BMD  C3  C2   SING  1 
+BMD  C3  3H3  SING  2 
+BMD  C3  2H3  SING  3 
+BMD  C3  1H3  SING  4 
+BMD  C2  C1   SING  5 
+BMD  C2  2H2  SING  6 
+BMD  C2  1H2  SING  7 
+BMD  C1  CA   SING  8 
+BMD  C1  2H1  SING  9 
+BMD  C1  1H1  SING  10
+BMD  CA  OA   DOUB  11
+BMD  CA  NA   SING  12
+BMD  NA  1HN  SING  13
+BMD  NA  2HN  SING  14
+#

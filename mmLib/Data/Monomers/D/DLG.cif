@@ -1,0 +1,114 @@
+data_DLG
+#
+_chem_comp.id                   DLG
+_chem_comp.name                 'HEXYL 3-DEOXY-ALPHA-L-RIBO-HEXOPYRANOSIDE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C12 H24 O5'
+_chem_comp.pdbx_synonyms        2-HEXYLOXY-6-HYDROXYMETHYL-TETRAHYDRO-PYRAN-3,5-DIOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.319
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DLG  C1    .  C  0  17.878  64.029  46.144  1  1 
+DLG  C2    .  C  0  16.944  62.872  45.760  1  2 
+DLG  C3    .  C  0  17.362  61.606  46.513  1  3 
+DLG  C4    .  C  0  18.836  61.309  46.233  1  4 
+DLG  C5    .  C  0  19.693  62.528  46.594  1  5 
+DLG  C6    .  C  0  21.157  62.329  46.254  1  6 
+DLG  O1    .  O  0  17.551  65.202  45.396  1  7 
+DLG  O2    .  O  0  15.581  63.211  46.094  1  8 
+DLG  O4    .  O  0  19.000  61.006  44.856  1  9 
+DLG  O5    .  O  0  19.242  63.684  45.853  1  10
+DLG  O6    .  O  0  21.978  63.264  46.943  1  11
+DLG  C11   .  C  0  17.869  66.427  46.132  1  12
+DLG  C12   .  C  0  17.652  67.468  45.010  1  13
+DLG  C13   .  C  0  18.202  68.936  45.295  1  14
+DLG  C14   .  C  0  19.752  69.005  45.771  1  15
+DLG  C15   .  C  0  20.563  70.357  45.697  1  16
+DLG  C16   .  C  0  21.514  70.485  44.515  1  17
+DLG  HO6   .  H  0  ?       ?       ?       1  18
+DLG  1H6   .  H  0  ?       ?       ?       0  19
+DLG  2H6   .  H  0  ?       ?       ?       0  20
+DLG  H5    .  H  0  ?       ?       ?       1  21
+DLG  H1    .  H  0  ?       ?       ?       1  22
+DLG  1H11  .  H  0  ?       ?       ?       0  23
+DLG  2H11  .  H  0  ?       ?       ?       0  24
+DLG  1H12  .  H  0  ?       ?       ?       0  25
+DLG  2H12  .  H  0  ?       ?       ?       0  26
+DLG  1H13  .  H  0  ?       ?       ?       0  27
+DLG  2H13  .  H  0  ?       ?       ?       0  28
+DLG  1H14  .  H  0  ?       ?       ?       0  29
+DLG  2H14  .  H  0  ?       ?       ?       0  30
+DLG  1H15  .  H  0  ?       ?       ?       0  31
+DLG  2H15  .  H  0  ?       ?       ?       0  32
+DLG  1H16  .  H  0  ?       ?       ?       0  33
+DLG  2H16  .  H  0  ?       ?       ?       0  34
+DLG  3H16  .  H  0  ?       ?       ?       0  35
+DLG  H2    .  H  0  ?       ?       ?       1  36
+DLG  HO2   .  H  0  ?       ?       ?       1  37
+DLG  1H3   .  H  0  ?       ?       ?       0  38
+DLG  2H3   .  H  0  ?       ?       ?       0  39
+DLG  H4    .  H  0  ?       ?       ?       1  40
+DLG  HO4   .  H  0  ?       ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DLG  C1   O5    SING  1 
+DLG  C1   H1    SING  2 
+DLG  C1   O1    SING  3 
+DLG  C1   C2    SING  4 
+DLG  C2   H2    SING  5 
+DLG  C2   O2    SING  6 
+DLG  C2   C3    SING  7 
+DLG  C3   1H3   SING  8 
+DLG  C3   2H3   SING  9 
+DLG  C3   C4    SING  10
+DLG  C4   C5    SING  11
+DLG  C4   H4    SING  12
+DLG  C4   O4    SING  13
+DLG  C5   C6    SING  14
+DLG  C5   H5    SING  15
+DLG  C5   O5    SING  16
+DLG  C6   O6    SING  17
+DLG  C6   1H6   SING  18
+DLG  C6   2H6   SING  19
+DLG  O1   C11   SING  20
+DLG  O2   HO2   SING  21
+DLG  O4   HO4   SING  22
+DLG  O6   HO6   SING  23
+DLG  C11  1H11  SING  24
+DLG  C11  2H11  SING  25
+DLG  C11  C12   SING  26
+DLG  C12  1H12  SING  27
+DLG  C12  2H12  SING  28
+DLG  C12  C13   SING  29
+DLG  C13  1H13  SING  30
+DLG  C13  2H13  SING  31
+DLG  C13  C14   SING  32
+DLG  C14  1H14  SING  33
+DLG  C14  2H14  SING  34
+DLG  C14  C15   SING  35
+DLG  C15  1H15  SING  36
+DLG  C15  2H15  SING  37
+DLG  C15  C16   SING  38
+DLG  C16  1H16  SING  39
+DLG  C16  2H16  SING  40
+DLG  C16  3H16  SING  41
+#

@@ -1,0 +1,105 @@
+data_H2U
+#
+_chem_comp.id                       H2U
+_chem_comp.name                     5,6-DIHYDROURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H15 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            326.199
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+H2U  P     .  P  0  ?  ?  ?  1  1 
+H2U  O1P   .  O  0  ?  ?  ?  1  2 
+H2U  O2P   .  O  0  ?  ?  ?  1  3 
+H2U  O3P   .  O  0  ?  ?  ?  1  4 
+H2U  O5*   .  O  0  ?  ?  ?  1  5 
+H2U  C5*   .  C  0  ?  ?  ?  1  6 
+H2U  C4*   .  C  0  ?  ?  ?  1  7 
+H2U  O4*   .  O  0  ?  ?  ?  1  8 
+H2U  C3*   .  C  0  ?  ?  ?  1  9 
+H2U  O3*   .  O  0  ?  ?  ?  1  10
+H2U  C1*   .  C  0  ?  ?  ?  1  11
+H2U  C2*   .  C  0  ?  ?  ?  1  12
+H2U  O2*   .  O  0  ?  ?  ?  1  13
+H2U  N1    .  N  0  ?  ?  ?  1  14
+H2U  C2    .  C  0  ?  ?  ?  1  15
+H2U  O2    .  O  0  ?  ?  ?  1  16
+H2U  N3    .  N  0  ?  ?  ?  1  17
+H2U  C4    .  C  0  ?  ?  ?  1  18
+H2U  O4    .  O  0  ?  ?  ?  1  19
+H2U  C5    .  C  0  ?  ?  ?  1  20
+H2U  C6    .  C  0  ?  ?  ?  1  21
+H2U  HN3   .  H  0  ?  ?  ?  1  22
+H2U  1H5   .  H  0  ?  ?  ?  0  23
+H2U  2H5   .  H  0  ?  ?  ?  0  24
+H2U  1H6   .  H  0  ?  ?  ?  0  25
+H2U  2H6   .  H  0  ?  ?  ?  0  26
+H2U  H1*   .  H  0  ?  ?  ?  1  27
+H2U  H2*   .  H  0  ?  ?  ?  1  28
+H2U  *HO2  .  H  0  ?  ?  ?  0  29
+H2U  H3*   .  H  0  ?  ?  ?  1  30
+H2U  *HO3  .  H  0  ?  ?  ?  0  31
+H2U  H4*   .  H  0  ?  ?  ?  1  32
+H2U  1H5*  .  H  0  ?  ?  ?  0  33
+H2U  2H5*  .  H  0  ?  ?  ?  0  34
+H2U  2HOP  .  H  0  ?  ?  ?  0  35
+H2U  3HOP  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+H2U  P    O5*   SING  1 
+H2U  P    O1P   DOUB  2 
+H2U  P    O2P   SING  3 
+H2U  P    O3P   SING  4 
+H2U  O2P  2HOP  SING  5 
+H2U  O3P  3HOP  SING  6 
+H2U  O5*  C5*   SING  7 
+H2U  C5*  C4*   SING  8 
+H2U  C5*  1H5*  SING  9 
+H2U  C5*  2H5*  SING  10
+H2U  C4*  C3*   SING  11
+H2U  C4*  O4*   SING  12
+H2U  C4*  H4*   SING  13
+H2U  O4*  C1*   SING  14
+H2U  C3*  C2*   SING  15
+H2U  C3*  O3*   SING  16
+H2U  C3*  H3*   SING  17
+H2U  O3*  *HO3  SING  18
+H2U  C1*  C2*   SING  19
+H2U  C1*  N1    SING  20
+H2U  C1*  H1*   SING  21
+H2U  C2*  O2*   SING  22
+H2U  C2*  H2*   SING  23
+H2U  O2*  *HO2  SING  24
+H2U  N1   C2    SING  25
+H2U  N1   C6    SING  26
+H2U  C2   N3    SING  27
+H2U  C2   O2    DOUB  28
+H2U  N3   C4    SING  29
+H2U  N3   HN3   SING  30
+H2U  C4   C5    SING  31
+H2U  C4   O4    DOUB  32
+H2U  C5   C6    SING  33
+H2U  C5   1H5   SING  34
+H2U  C5   2H5   SING  35
+H2U  C6   1H6   SING  36
+H2U  C6   2H6   SING  37
+#

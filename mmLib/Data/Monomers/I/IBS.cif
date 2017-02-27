@@ -1,0 +1,125 @@
+data_IBS
+#
+_chem_comp.id                   IBS
+_chem_comp.name                 L-ALPHA-GLYCEROPHOSPHO-D-MYO-INOSITOL-4,5-BIS-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H18 O17 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        491.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBS  C1    .  C  0  ?  ?  ?  1  1 
+IBS  C2    .  C  0  ?  ?  ?  1  2 
+IBS  C3    .  C  0  ?  ?  ?  1  3 
+IBS  C4    .  C  0  ?  ?  ?  1  4 
+IBS  C5    .  C  0  ?  ?  ?  1  5 
+IBS  C6    .  C  0  ?  ?  ?  1  6 
+IBS  O1    .  O  0  ?  ?  ?  1  7 
+IBS  O2    .  O  0  ?  ?  ?  1  8 
+IBS  O3    .  O  0  ?  ?  ?  1  9 
+IBS  O4    .  O  0  ?  ?  ?  1  10
+IBS  O5    .  O  0  ?  ?  ?  1  11
+IBS  O6    .  O  0  ?  ?  ?  1  12
+IBS  P1    .  P  0  ?  ?  ?  1  13
+IBS  O11   .  O  0  ?  ?  ?  1  14
+IBS  O12   .  O  0  ?  ?  ?  1  15
+IBS  C21   .  C  0  ?  ?  ?  1  16
+IBS  C24   .  C  0  ?  ?  ?  1  17
+IBS  O29   .  O  0  ?  ?  ?  1  18
+IBS  C25   .  C  0  ?  ?  ?  1  19
+IBS  O26   .  O  0  ?  ?  ?  1  20
+IBS  O13   .  O  0  ?  ?  ?  1  21
+IBS  P4    .  P  0  ?  ?  ?  1  22
+IBS  O41   .  O  0  ?  ?  ?  1  23
+IBS  O42   .  O  0  ?  ?  ?  1  24
+IBS  O43   .  O  0  ?  ?  ?  1  25
+IBS  P5    .  P  0  ?  ?  ?  1  26
+IBS  O51   .  O  0  ?  ?  ?  1  27
+IBS  O52   .  O  0  ?  ?  ?  1  28
+IBS  O53   .  O  0  ?  ?  ?  1  29
+IBS  H1    .  H  0  ?  ?  ?  1  30
+IBS  H2    .  H  0  ?  ?  ?  1  31
+IBS  H3    .  H  0  ?  ?  ?  1  32
+IBS  H4    .  H  0  ?  ?  ?  1  33
+IBS  H5    .  H  0  ?  ?  ?  1  34
+IBS  H6    .  H  0  ?  ?  ?  1  35
+IBS  HO2   .  H  0  ?  ?  ?  1  36
+IBS  HO3   .  H  0  ?  ?  ?  1  37
+IBS  HO6   .  H  0  ?  ?  ?  1  38
+IBS  1H21  .  H  0  ?  ?  ?  0  39
+IBS  2H21  .  H  0  ?  ?  ?  0  40
+IBS  H25   .  H  0  ?  ?  ?  1  41
+IBS  H26   .  H  0  ?  ?  ?  1  42
+IBS  3HO1  .  H  0  ?  ?  ?  0  43
+IBS  2HO4  .  H  0  ?  ?  ?  0  44
+IBS  3HO4  .  H  0  ?  ?  ?  0  45
+IBS  2HO5  .  H  0  ?  ?  ?  0  46
+IBS  3HO5  .  H  0  ?  ?  ?  0  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBS  C1   C2    SING  1 
+IBS  C1   C6    SING  2 
+IBS  C1   O1    SING  3 
+IBS  C1   H1    SING  4 
+IBS  C2   C3    SING  5 
+IBS  C2   O2    SING  6 
+IBS  C2   H2    SING  7 
+IBS  C3   C4    SING  8 
+IBS  C3   O3    SING  9 
+IBS  C3   H3    SING  10
+IBS  C4   C5    SING  11
+IBS  C4   O4    SING  12
+IBS  C4   H4    SING  13
+IBS  C5   C6    SING  14
+IBS  C5   O5    SING  15
+IBS  C5   H5    SING  16
+IBS  C6   O6    SING  17
+IBS  C6   H6    SING  18
+IBS  O1   P1    SING  19
+IBS  O2   HO2   SING  20
+IBS  O3   HO3   SING  21
+IBS  O4   P4    SING  22
+IBS  O5   P5    SING  23
+IBS  O6   HO6   SING  24
+IBS  P1   O11   DOUB  25
+IBS  P1   O12   SING  26
+IBS  P1   O13   SING  27
+IBS  O12  C21   SING  28
+IBS  C21  1H21  SING  29
+IBS  C21  2H21  SING  30
+IBS  C21  C24   SING  31
+IBS  C24  O29   DOUB  32
+IBS  C24  C25   SING  33
+IBS  C25  H25   SING  34
+IBS  C25  O26   SING  35
+IBS  O26  H26   SING  36
+IBS  O13  3HO1  SING  37
+IBS  P4   O41   DOUB  38
+IBS  P4   O42   SING  39
+IBS  P4   O43   SING  40
+IBS  O42  2HO4  SING  41
+IBS  O43  3HO4  SING  42
+IBS  P5   O51   DOUB  43
+IBS  P5   O52   SING  44
+IBS  P5   O53   SING  45
+IBS  O52  2HO5  SING  46
+IBS  O53  3HO5  SING  47
+#

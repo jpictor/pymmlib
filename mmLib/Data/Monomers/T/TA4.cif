@@ -1,0 +1,93 @@
+data_TA4
+#
+_chem_comp.id                   TA4
+_chem_comp.name                 '(S)-2-[4-(AMINOMETHYL)-1H-1,2,3-TRIAZOL-1-YL]-4-METHYLPENTANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H16 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.251
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TA4  O     .  O  0  8.460  -1.366  17.577  1  1 
+TA4  C     .  C  0  8.183  -0.201  17.826  1  2 
+TA4  CA    .  C  0  7.098  0.121   18.834  1  3 
+TA4  CB    .  C  0  6.056  1.003   18.107  1  4 
+TA4  CG    .  C  0  4.854  0.351   17.427  1  5 
+TA4  CD2   .  C  0  4.353  1.250   16.292  1  6 
+TA4  CD1   .  C  0  5.009  -1.093  16.954  1  7 
+TA4  NT1   .  N  0  7.690  0.867   19.914  1  8 
+TA4  CT5   .  C  0  7.193  1.914   20.589  1  9 
+TA4  CT4   .  C  0  8.123  2.239   21.523  1  10
+TA4  NT3   .  N  0  9.177  1.385   21.390  1  11
+TA4  NT2   .  N  0  8.907  0.554   20.411  1  12
+TA4  CT6   .  C  0  8.065  3.398   22.476  1  13
+TA4  N     .  N  0  7.573  4.519   21.620  1  14
+TA4  OXT   .  O  0  ?      ?       ?       1  15
+TA4  1HD2  .  H  0  ?      ?       ?       0  16
+TA4  2HD2  .  H  0  ?      ?       ?       0  17
+TA4  3HD2  .  H  0  ?      ?       ?       0  18
+TA4  HG    .  H  0  ?      ?       ?       1  19
+TA4  1HD1  .  H  0  ?      ?       ?       0  20
+TA4  2HD1  .  H  0  ?      ?       ?       0  21
+TA4  3HD1  .  H  0  ?      ?       ?       0  22
+TA4  1HB   .  H  0  ?      ?       ?       0  23
+TA4  2HB   .  H  0  ?      ?       ?       0  24
+TA4  HA    .  H  0  ?      ?       ?       1  25
+TA4  HT5   .  H  0  ?      ?       ?       1  26
+TA4  1HT6  .  H  0  ?      ?       ?       0  27
+TA4  2HT6  .  H  0  ?      ?       ?       0  28
+TA4  H     .  H  0  ?      ?       ?       1  29
+TA4  HN2   .  H  0  ?      ?       ?       1  30
+TA4  HXT   .  H  0  ?      ?       ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TA4  O    C     DOUB  1 
+TA4  C    CA    SING  2 
+TA4  C    OXT   SING  3 
+TA4  CA   CB    SING  4 
+TA4  CA   NT1   SING  5 
+TA4  CA   HA    SING  6 
+TA4  CB   CG    SING  7 
+TA4  CB   1HB   SING  8 
+TA4  CB   2HB   SING  9 
+TA4  CG   CD2   SING  10
+TA4  CG   CD1   SING  11
+TA4  CG   HG    SING  12
+TA4  CD2  1HD2  SING  13
+TA4  CD2  2HD2  SING  14
+TA4  CD2  3HD2  SING  15
+TA4  CD1  1HD1  SING  16
+TA4  CD1  2HD1  SING  17
+TA4  CD1  3HD1  SING  18
+TA4  NT1  CT5   SING  19
+TA4  NT1  NT2   SING  20
+TA4  CT5  CT4   DOUB  21
+TA4  CT5  HT5   SING  22
+TA4  CT4  CT6   SING  23
+TA4  CT4  NT3   SING  24
+TA4  NT3  NT2   DOUB  25
+TA4  CT6  N     SING  26
+TA4  CT6  1HT6  SING  27
+TA4  CT6  2HT6  SING  28
+TA4  N    H     SING  29
+TA4  N    HN2   SING  30
+TA4  OXT  HXT   SING  31
+#

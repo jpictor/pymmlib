@@ -1,0 +1,108 @@
+data_GYC
+#
+_chem_comp.id                       GYC
+_chem_comp.name                     '[(4Z)-2-[(1R)-1-AMINO-2-MERCAPTOETHYL]-4-(4-HYDROXYBENZYLIDENE)-5-OXO-4,5-DIHYDRO-1H-IMIDAZOL-1-YL]ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H15 N3 O4 S1'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (CYS-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'CYS, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            321.350
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GYC  N     .  N  0  -26.833  0.117   5.334   1  1 
+GYC  SG1   .  S  0  -24.387  1.844   5.963   1  2 
+GYC  CB1   .  C  0  -24.877  0.591   6.716   1  3 
+GYC  CA1   .  C  0  -25.573  -0.415  5.815   1  4 
+GYC  C1    .  C  0  -25.869  -1.752  6.493   1  5 
+GYC  N2    .  N  0  -25.728  -2.074  7.749   1  6 
+GYC  N3    .  N  0  -26.487  -2.836  5.824   1  7 
+GYC  C2    .  C  0  -26.737  -3.878  6.719   1  8 
+GYC  O2    .  O  0  -27.280  -4.959  6.365   1  9 
+GYC  CA2   .  C  0  -26.234  -3.352  7.953   1  10
+GYC  CA3   .  C  0  -26.963  -2.900  4.416   1  11
+GYC  CB2   .  C  0  -26.319  -4.098  9.127   1  12
+GYC  CG2   .  C  0  -25.947  -3.823  10.454  1  13
+GYC  CD1   .  C  0  -25.339  -2.566  10.855  1  14
+GYC  CD2   .  C  0  -26.207  -4.823  11.490  1  15
+GYC  CE1   .  C  0  -25.008  -2.313  12.215  1  16
+GYC  CE2   .  C  0  -25.872  -4.556  12.856  1  17
+GYC  CZ    .  C  0  -25.275  -3.298  13.222  1  18
+GYC  OH    .  O  0  -24.966  -3.064  14.505  1  19
+GYC  C     .  C  0  -26.587  -3.990  3.489   1  20
+GYC  O     .  O  0  -27.313  -4.297  2.568   1  21
+GYC  OXT   .  O  0  ?        ?       ?       1  22
+GYC  1HN   .  H  0  ?        ?       ?       0  23
+GYC  2HN   .  H  0  ?        ?       ?       0  24
+GYC  HA1   .  H  0  ?        ?       ?       1  25
+GYC  1HB1  .  H  0  ?        ?       ?       0  26
+GYC  2HB1  .  H  0  ?        ?       ?       0  27
+GYC  HG1   .  H  0  ?        ?       ?       1  28
+GYC  HB2   .  H  0  ?        ?       ?       1  29
+GYC  HD2   .  H  0  ?        ?       ?       1  30
+GYC  HE2   .  H  0  ?        ?       ?       1  31
+GYC  HOH   .  H  0  ?        ?       ?       1  32
+GYC  HE1   .  H  0  ?        ?       ?       1  33
+GYC  HD1   .  H  0  ?        ?       ?       1  34
+GYC  1HA3  .  H  0  ?        ?       ?       0  35
+GYC  2HA3  .  H  0  ?        ?       ?       0  36
+GYC  HXT   .  H  0  ?        ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GYC  N    CA1   SING  1 
+GYC  N    1HN   SING  2 
+GYC  N    2HN   SING  3 
+GYC  SG1  CB1   SING  4 
+GYC  SG1  HG1   SING  5 
+GYC  CB1  CA1   SING  6 
+GYC  CB1  1HB1  SING  7 
+GYC  CB1  2HB1  SING  8 
+GYC  CA1  C1    SING  9 
+GYC  CA1  HA1   SING  10
+GYC  C1   N2    DOUB  11
+GYC  C1   N3    SING  12
+GYC  N2   CA2   SING  13
+GYC  N3   C2    SING  14
+GYC  N3   CA3   SING  15
+GYC  C2   CA2   SING  16
+GYC  C2   O2    DOUB  17
+GYC  CA2  CB2   DOUB  18
+GYC  CA3  C     SING  19
+GYC  CA3  1HA3  SING  20
+GYC  CA3  2HA3  SING  21
+GYC  CB2  CG2   SING  22
+GYC  CB2  HB2   SING  23
+GYC  CG2  CD2   SING  24
+GYC  CG2  CD1   DOUB  25
+GYC  CD1  CE1   SING  26
+GYC  CD1  HD1   SING  27
+GYC  CD2  CE2   DOUB  28
+GYC  CD2  HD2   SING  29
+GYC  CE1  CZ    DOUB  30
+GYC  CE1  HE1   SING  31
+GYC  CE2  CZ    SING  32
+GYC  CE2  HE2   SING  33
+GYC  CZ   OH    SING  34
+GYC  OH   HOH   SING  35
+GYC  C    O     DOUB  36
+GYC  C    OXT   SING  37
+GYC  OXT  HXT   SING  38
+#

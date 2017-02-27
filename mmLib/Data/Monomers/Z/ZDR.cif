@@ -1,0 +1,98 @@
+data_ZDR
+#
+_chem_comp.id                   ZDR
+_chem_comp.name                 '(2R,6S)-2,6-DIAMINO-2-METHYLHEPTANEDIOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H16 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        204.225
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          ZDR
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@@](CCC[C@@H](C(=O)O)N)(C(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+ZDR  CAN   .  C  0  ?  ?  ?  1  N  1 
+ZDR  CAT   .  C  0  ?  ?  ?  1  N  2 
+ZDR  NAC   .  N  0  ?  ?  ?  1  N  3 
+ZDR  CAQ   .  C  0  ?  ?  ?  1  N  4 
+ZDR  OAF   .  O  0  ?  ?  ?  1  N  5 
+ZDR  OAH   .  O  0  ?  ?  ?  1  N  6 
+ZDR  CAM   .  C  0  ?  ?  ?  1  N  7 
+ZDR  CAJ   .  C  0  ?  ?  ?  1  N  8 
+ZDR  CAK   .  C  0  ?  ?  ?  1  N  9 
+ZDR  CAS   .  C  0  ?  ?  ?  1  N  10
+ZDR  NAB   .  N  0  ?  ?  ?  1  N  11
+ZDR  CAP   .  C  0  ?  ?  ?  1  N  12
+ZDR  OAE   .  O  0  ?  ?  ?  1  N  13
+ZDR  OAG   .  O  0  ?  ?  ?  1  N  14
+ZDR  1HAN  .  H  0  ?  ?  ?  0  N  15
+ZDR  2HAN  .  H  0  ?  ?  ?  0  N  16
+ZDR  3HAN  .  H  0  ?  ?  ?  0  N  17
+ZDR  1HAC  .  H  0  ?  ?  ?  0  N  18
+ZDR  2HAC  .  H  0  ?  ?  ?  0  N  19
+ZDR  HOAF  .  H  0  ?  ?  ?  0  N  20
+ZDR  1HAM  .  H  0  ?  ?  ?  0  N  21
+ZDR  2HAM  .  H  0  ?  ?  ?  0  N  22
+ZDR  1HAJ  .  H  0  ?  ?  ?  0  N  23
+ZDR  2HAJ  .  H  0  ?  ?  ?  0  N  24
+ZDR  1HAK  .  H  0  ?  ?  ?  0  N  25
+ZDR  2HAK  .  H  0  ?  ?  ?  0  N  26
+ZDR  HAS   .  H  0  ?  ?  ?  1  N  27
+ZDR  1HAB  .  H  0  ?  ?  ?  0  N  28
+ZDR  2HAB  .  H  0  ?  ?  ?  0  N  29
+ZDR  HOAE  .  H  0  ?  ?  ?  0  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+ZDR  CAN  CAT   SING  N  1 
+ZDR  CAN  1HAN  SING  N  2 
+ZDR  CAN  2HAN  SING  N  3 
+ZDR  CAN  3HAN  SING  N  4 
+ZDR  CAT  NAC   SING  N  5 
+ZDR  CAT  CAM   SING  N  6 
+ZDR  CAT  CAQ   SING  N  7 
+ZDR  NAC  1HAC  SING  N  8 
+ZDR  NAC  2HAC  SING  N  9 
+ZDR  CAQ  OAH   DOUB  N  10
+ZDR  CAQ  OAF   SING  N  11
+ZDR  OAF  HOAF  SING  N  12
+ZDR  CAM  CAJ   SING  N  13
+ZDR  CAM  1HAM  SING  N  14
+ZDR  CAM  2HAM  SING  N  15
+ZDR  CAJ  CAK   SING  N  16
+ZDR  CAJ  1HAJ  SING  N  17
+ZDR  CAJ  2HAJ  SING  N  18
+ZDR  CAK  CAS   SING  N  19
+ZDR  CAK  1HAK  SING  N  20
+ZDR  CAK  2HAK  SING  N  21
+ZDR  CAS  NAB   SING  N  22
+ZDR  CAS  CAP   SING  N  23
+ZDR  CAS  HAS   SING  N  24
+ZDR  NAB  1HAB  SING  N  25
+ZDR  NAB  2HAB  SING  N  26
+ZDR  CAP  OAG   DOUB  N  27
+ZDR  CAP  OAE   SING  N  28
+ZDR  OAE  HOAE  SING  N  29
+#

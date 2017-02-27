@@ -1,0 +1,93 @@
+data_SUJ
+#
+_chem_comp.id                   SUJ
+_chem_comp.name                 '(2R,3R)-2-[(3S,6R)-3-AMINO-6-HYDROXY-2-OXOPIPERIDINYL]-3-HYDROXYBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        231.228
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SUJ  N     .  N  0  96.621  -20.267  22.455  1  1 
+SUJ  CA    .  C  0  95.937  -20.281  23.754  1  2 
+SUJ  C1    .  C  0  95.296  -18.907  24.007  1  3 
+SUJ  O1    .  O  0  94.729  -18.338  23.076  1  4 
+SUJ  CB    .  C  0  96.894  -20.659  24.884  1  5 
+SUJ  CG    .  C  0  96.233  -20.392  26.241  1  6 
+SUJ  CD    .  C  0  96.077  -18.881  26.43   1  7 
+SUJ  OD    .  O  0  97.372  -18.275  26.567  1  8 
+SUJ  N2    .  N  0  95.36   -18.265  25.269  1  9 
+SUJ  C2    .  C  0  94.689  -16.955  25.417  1  10
+SUJ  C3    .  C  0  93.285  -17.15   25.998  1  11
+SUJ  C4    .  C  0  92.374  -17.851  24.995  1  12
+SUJ  O3    .  O  0  93.362  -17.897  27.208  1  13
+SUJ  C     .  C  0  95.534  -16.028  26.305  1  14
+SUJ  O     .  O  0  95.287  -15.911  27.505  1  15
+SUJ  OXT   .  O  0  ?       ?        ?       1  16
+SUJ  1HN   .  H  0  96.785  -21.235  22.143  0  17
+SUJ  2HN   .  H  0  96.035  -19.778  21.764  0  18
+SUJ  HA    .  H  0  95.148  -21.048  23.732  1  19
+SUJ  1HBC  .  H  0  97.147  -21.727  24.806  0  20
+SUJ  2HBC  .  H  0  97.808  -20.052  24.802  0  21
+SUJ  1HGC  .  H  0  95.243  -20.872  26.27   0  22
+SUJ  2HGC  .  H  0  96.858  -20.805  27.047  0  23
+SUJ  H2    .  H  0  94.589  -16.483  24.429  1  24
+SUJ  H3    .  H  0  92.854  -16.161  26.214  1  25
+SUJ  1H4C  .  H  0  92.475  -18.941  25.106  0  26
+SUJ  2H4C  .  H  0  91.33   -17.559  25.181  0  27
+SUJ  3H4C  .  H  0  92.66   -17.559  23.974  0  28
+SUJ  HB    .  H  0  92.448  -18.097  27.532  1  29
+SUJ  HXT   .  H  0  ?       ?        ?       1  30
+SUJ  HD    .  H  0  ?       ?        ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SUJ  N    CA    SING  1 
+SUJ  N    1HN   SING  2 
+SUJ  N    2HN   SING  3 
+SUJ  CA   C1    SING  4 
+SUJ  CA   CB    SING  5 
+SUJ  CA   HA    SING  6 
+SUJ  C1   O1    DOUB  7 
+SUJ  C1   N2    SING  8 
+SUJ  CB   CG    SING  9 
+SUJ  CB   1HBC  SING  10
+SUJ  CB   2HBC  SING  11
+SUJ  CG   CD    SING  12
+SUJ  CG   1HGC  SING  13
+SUJ  CG   2HGC  SING  14
+SUJ  CD   OD    SING  15
+SUJ  CD   N2    SING  16
+SUJ  OD   HD    SING  17
+SUJ  N2   C2    SING  18
+SUJ  C2   C3    SING  19
+SUJ  C2   C     SING  20
+SUJ  C2   H2    SING  21
+SUJ  C3   C4    SING  22
+SUJ  C3   O3    SING  23
+SUJ  C3   H3    SING  24
+SUJ  C4   1H4C  SING  25
+SUJ  C4   2H4C  SING  26
+SUJ  C4   3H4C  SING  27
+SUJ  O3   HB    SING  28
+SUJ  C    O     DOUB  29
+SUJ  C    OXT   SING  30
+SUJ  OXT  HXT   SING  31
+#

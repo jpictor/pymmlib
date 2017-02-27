@@ -1,0 +1,77 @@
+data_SGX
+#
+_chem_comp.id                   SGX
+_chem_comp.name                 O-[(S)-AMINO(METHOXY)PHOSPHORYL]-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N2 O5 P1'
+_chem_comp.pdbx_synonyms        'O-(S)-METHYL PHOSPHOROAMIDATE-L-SERINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SGX  N     .  N  0  25.859  12.606  14.297  1  1 
+SGX  CA    .  C  0  26.986  12.798  13.323  1  2 
+SGX  C     .  C  0  28.268  11.929  13.578  1  3 
+SGX  O     .  O  0  28.233  10.712  13.403  1  4 
+SGX  CB    .  C  0  27.287  14.287  13.098  1  5 
+SGX  OG    .  O  0  28.2    14.521  12.014  1  6 
+SGX  O1    .  O  0  29.763  15.274  13.545  1  7 
+SGX  P2    .  P  0  28.983  15.882  12.311  1  8 
+SGX  N3    .  N  0  29.248  17.584  12.237  1  9 
+SGX  O2    .  O  0  29.742  15.234  11.1    1  10
+SGX  C1    .  C  0  29.473  15.909  9.9     1  11
+SGX  OXT   .  O  0  25.859  12.606  14.297  1  12
+SGX  H     .  H  0  25.094  12.476  14.958  1  13
+SGX  1HA   .  H  0  27.654  14.764  14.036  0  14
+SGX  2HB   .  H  0  26.344  14.865  12.955  0  15
+SGX  1H3N  .  H  0  28.345  17.871  12.614  0  16
+SGX  2H3N  .  H  0  29.748  18.453  12.427  0  17
+SGX  1H1C  .  H  0  29.698  16.998  9.986   0  18
+SGX  2H1C  .  H  0  28.377  15.973  9.706   0  19
+SGX  3H1C  .  H  0  30.012  15.449  9.039   0  20
+SGX  HA    .  H  0  25.307  11.834  14.322  1  21
+SGX  H1    .  H  0  26.611  12.387  12.374  1  22
+SGX  H2    .  H  0  25.504  11.857  13.738  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SGX  N    H2    SING  1 
+SGX  N    CA    SING  2 
+SGX  N    H     SING  3 
+SGX  CA   H1    SING  4 
+SGX  CA   C     SING  5 
+SGX  CA   CB    SING  6 
+SGX  C    O     DOUB  7 
+SGX  C    OXT   SING  8 
+SGX  CB   OG    SING  9 
+SGX  CB   1HA   SING  10
+SGX  CB   2HB   SING  11
+SGX  OG   P2    SING  12
+SGX  O1   P2    DOUB  13
+SGX  P2   N3    SING  14
+SGX  P2   O2    SING  15
+SGX  N3   1H3N  SING  16
+SGX  N3   2H3N  SING  17
+SGX  O2   C1    SING  18
+SGX  C1   1H1C  SING  19
+SGX  C1   2H1C  SING  20
+SGX  C1   3H1C  SING  21
+SGX  OXT  HA    SING  22
+#

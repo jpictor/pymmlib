@@ -1,0 +1,89 @@
+data_PF
+#
+_chem_comp.id                   PF
+_chem_comp.name                 PROFLAVINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C13 H12 N3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       210.258
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PF  C1    .  C  0  ?  ?  ?  1  1 
+PF  C2    .  C  0  ?  ?  ?  1  2 
+PF  C3    .  C  0  ?  ?  ?  1  3 
+PF  C4    .  C  0  ?  ?  ?  1  4 
+PF  C5    .  C  0  ?  ?  ?  1  5 
+PF  C6    .  C  0  ?  ?  ?  1  6 
+PF  C7    .  C  0  ?  ?  ?  1  7 
+PF  C8    .  C  0  ?  ?  ?  1  8 
+PF  C9    .  C  0  ?  ?  ?  1  9 
+PF  N10   .  N  1  ?  ?  ?  1  10
+PF  C11   .  C  0  ?  ?  ?  1  11
+PF  C12   .  C  0  ?  ?  ?  1  12
+PF  C13   .  C  0  ?  ?  ?  1  13
+PF  C14   .  C  0  ?  ?  ?  1  14
+PF  N15   .  N  0  ?  ?  ?  1  15
+PF  N16   .  N  0  ?  ?  ?  1  16
+PF  H1    .  H  0  ?  ?  ?  1  17
+PF  H2    .  H  0  ?  ?  ?  1  18
+PF  H4    .  H  0  ?  ?  ?  1  19
+PF  H5    .  H  0  ?  ?  ?  1  20
+PF  H7    .  H  0  ?  ?  ?  1  21
+PF  H8    .  H  0  ?  ?  ?  1  22
+PF  H9    .  H  0  ?  ?  ?  1  23
+PF  H10   .  H  0  ?  ?  ?  1  24
+PF  1H15  .  H  0  ?  ?  ?  0  25
+PF  2H15  .  H  0  ?  ?  ?  0  26
+PF  1H16  .  H  0  ?  ?  ?  0  27
+PF  2H16  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PF  C1   C2    DOUB  1 
+PF  C1   C13   SING  2 
+PF  C1   H1    SING  3 
+PF  C2   C3    SING  4 
+PF  C2   H2    SING  5 
+PF  C3   C4    DOUB  6 
+PF  C3   N15   SING  7 
+PF  C4   C11   SING  8 
+PF  C4   H4    SING  9 
+PF  C5   C6    DOUB  10
+PF  C5   C14   SING  11
+PF  C5   H5    SING  12
+PF  C6   C7    SING  13
+PF  C6   N16   SING  14
+PF  C7   C8    DOUB  15
+PF  C7   H7    SING  16
+PF  C8   C12   SING  17
+PF  C8   H8    SING  18
+PF  C9   C12   DOUB  19
+PF  C9   C13   SING  20
+PF  C9   H9    SING  21
+PF  N10  C11   SING  22
+PF  N10  C14   DOUB  23
+PF  N10  H10   SING  24
+PF  C11  C13   DOUB  25
+PF  C12  C14   SING  26
+PF  N15  1H15  SING  27
+PF  N15  2H15  SING  28
+PF  N16  1H16  SING  29
+PF  N16  2H16  SING  30
+#

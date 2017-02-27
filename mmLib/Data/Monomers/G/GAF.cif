@@ -1,0 +1,78 @@
+data_GAF
+#
+_chem_comp.id                   GAF
+_chem_comp.name                 2-DEOXY-2-FLUORO-ALPHA-D-LYXO-HEXOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 O5 F1'
+_chem_comp.pdbx_synonyms        2-DEOXY-2-FLUORO-GALACTOSE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        182.148
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GAF  C1    .  C  0  119.774  38.094  65.006  1  1 
+GAF  C2    .  C  0  118.893  37.421  63.941  1  2 
+GAF  F2    .  F  0  118.442  36.172  64.36   1  3 
+GAF  C3    .  C  0  119.712  37.262  62.681  1  4 
+GAF  O3    .  O  0  118.875  36.675  61.705  1  5 
+GAF  C4    .  C  0  120.258  38.615  62.202  1  6 
+GAF  O4    .  O  0  119.131  39.413  61.888  1  7 
+GAF  C5    .  C  0  121.085  39.248  63.341  1  8 
+GAF  O5    .  O  0  120.272  39.336  64.523  1  9 
+GAF  C6    .  C  0  121.643  40.654  63.045  1  10
+GAF  O6    .  O  0  120.636  41.605  63.365  1  11
+GAF  O1    .  O  0  120.891  37.228  65.258  1  12
+GAF  1H1C  .  H  0  119.237  38.21   65.976  0  13
+GAF  H2    .  H  0  118.015  38.074  63.727  1  14
+GAF  H3    .  H  0  120.567  36.577  62.887  1  15
+GAF  HA    .  H  0  119.39   36.575  60.913  1  16
+GAF  H4    .  H  0  120.894  38.474  61.297  1  17
+GAF  HB    .  H  0  119.469  40.25   61.592  1  18
+GAF  H5    .  H  0  121.945  38.573  63.561  1  19
+GAF  1H6C  .  H  0  122.017  40.758  62      0  20
+GAF  2H6C  .  H  0  122.606  40.854  63.569  0  21
+GAF  H6    .  H  0  120.98   42.472  63.183  1  22
+GAF  H1    .  H  0  ?        ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GAF  C1  C2    SING  1 
+GAF  C1  O5    SING  2 
+GAF  C1  O1    SING  3 
+GAF  C1  1H1C  SING  4 
+GAF  C2  F2    SING  5 
+GAF  C2  C3    SING  6 
+GAF  C2  H2    SING  7 
+GAF  C3  O3    SING  8 
+GAF  C3  C4    SING  9 
+GAF  C3  H3    SING  10
+GAF  O3  HA    SING  11
+GAF  C4  O4    SING  12
+GAF  C4  C5    SING  13
+GAF  C4  H4    SING  14
+GAF  O4  HB    SING  15
+GAF  C5  O5    SING  16
+GAF  C5  C6    SING  17
+GAF  C5  H5    SING  18
+GAF  C6  O6    SING  19
+GAF  C6  1H6C  SING  20
+GAF  C6  2H6C  SING  21
+GAF  O6  H6    SING  22
+GAF  O1  H1    SING  23
+#

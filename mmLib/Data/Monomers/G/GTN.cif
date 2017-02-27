@@ -1,0 +1,131 @@
+data_GTN
+#
+_chem_comp.id                   GTN
+_chem_comp.name                 'PHOSPHOAMINOPHOSPHONIC ACID GUANYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N6 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        522.198
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GTN  PG    .  P  0  ?  ?  ?  1  1 
+GTN  N3B   .  N  0  ?  ?  ?  1  2 
+GTN  O1G   .  O  0  ?  ?  ?  1  3 
+GTN  O2G   .  O  0  ?  ?  ?  1  4 
+GTN  O3G   .  O  0  ?  ?  ?  1  5 
+GTN  PB    .  P  0  ?  ?  ?  1  6 
+GTN  O1B   .  O  0  ?  ?  ?  1  7 
+GTN  O2B   .  O  0  ?  ?  ?  1  8 
+GTN  PA    .  P  0  ?  ?  ?  1  9 
+GTN  O1A   .  O  0  ?  ?  ?  1  10
+GTN  O2A   .  O  0  ?  ?  ?  1  11
+GTN  O3A   .  O  0  ?  ?  ?  1  12
+GTN  O5*   .  O  0  ?  ?  ?  1  13
+GTN  C5*   .  C  0  ?  ?  ?  1  14
+GTN  C4*   .  C  0  ?  ?  ?  1  15
+GTN  O4*   .  O  0  ?  ?  ?  1  16
+GTN  C3*   .  C  0  ?  ?  ?  1  17
+GTN  O3*   .  O  0  ?  ?  ?  1  18
+GTN  C2*   .  C  0  ?  ?  ?  1  19
+GTN  O2*   .  O  0  ?  ?  ?  1  20
+GTN  C1*   .  C  0  ?  ?  ?  1  21
+GTN  N9    .  N  0  ?  ?  ?  1  22
+GTN  C8    .  C  0  ?  ?  ?  1  23
+GTN  N7    .  N  0  ?  ?  ?  1  24
+GTN  C5    .  C  0  ?  ?  ?  1  25
+GTN  C6    .  C  0  ?  ?  ?  1  26
+GTN  O6    .  O  0  ?  ?  ?  1  27
+GTN  N1    .  N  0  ?  ?  ?  1  28
+GTN  C2    .  C  0  ?  ?  ?  1  29
+GTN  N2    .  N  0  ?  ?  ?  1  30
+GTN  N3    .  N  0  ?  ?  ?  1  31
+GTN  C4    .  C  0  ?  ?  ?  1  32
+GTN  2HOG  .  H  0  ?  ?  ?  0  33
+GTN  3HOG  .  H  0  ?  ?  ?  0  34
+GTN  2HOB  .  H  0  ?  ?  ?  0  35
+GTN  2HOA  .  H  0  ?  ?  ?  0  36
+GTN  H3B   .  H  0  ?  ?  ?  1  37
+GTN  1H5*  .  H  0  ?  ?  ?  0  38
+GTN  2H5*  .  H  0  ?  ?  ?  0  39
+GTN  H4*   .  H  0  ?  ?  ?  1  40
+GTN  1H3*  .  H  0  ?  ?  ?  0  41
+GTN  2H3*  .  H  0  ?  ?  ?  0  42
+GTN  1H2*  .  H  0  ?  ?  ?  0  43
+GTN  2H2*  .  H  0  ?  ?  ?  0  44
+GTN  H1*   .  H  0  ?  ?  ?  1  45
+GTN  H8    .  H  0  ?  ?  ?  1  46
+GTN  H1    .  H  0  ?  ?  ?  1  47
+GTN  1H2   .  H  0  ?  ?  ?  0  48
+GTN  2H2   .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GTN  PG   O1G   DOUB  1 
+GTN  PG   O2G   SING  2 
+GTN  PG   O3G   SING  3 
+GTN  PG   N3B   SING  4 
+GTN  N3B  PB    SING  5 
+GTN  N3B  H3B   SING  6 
+GTN  O2G  2HOG  SING  7 
+GTN  O3G  3HOG  SING  8 
+GTN  PB   O1B   DOUB  9 
+GTN  PB   O2B   SING  10
+GTN  PB   O3A   SING  11
+GTN  O2B  2HOB  SING  12
+GTN  PA   O1A   DOUB  13
+GTN  PA   O2A   SING  14
+GTN  PA   O3A   SING  15
+GTN  PA   O5*   SING  16
+GTN  O2A  2HOA  SING  17
+GTN  O5*  C5*   SING  18
+GTN  C5*  C4*   SING  19
+GTN  C5*  1H5*  SING  20
+GTN  C5*  2H5*  SING  21
+GTN  C4*  O4*   SING  22
+GTN  C4*  C3*   SING  23
+GTN  C4*  H4*   SING  24
+GTN  O4*  C1*   SING  25
+GTN  C3*  O3*   SING  26
+GTN  C3*  C2*   SING  27
+GTN  C3*  1H3*  SING  28
+GTN  O3*  2H3*  SING  29
+GTN  C2*  O2*   SING  30
+GTN  C2*  C1*   SING  31
+GTN  C2*  1H2*  SING  32
+GTN  O2*  2H2*  SING  33
+GTN  C1*  N9    SING  34
+GTN  C1*  H1*   SING  35
+GTN  N9   C8    SING  36
+GTN  N9   C4    SING  37
+GTN  C8   N7    DOUB  38
+GTN  C8   H8    SING  39
+GTN  N7   C5    SING  40
+GTN  C5   C6    SING  41
+GTN  C5   C4    DOUB  42
+GTN  C6   O6    DOUB  43
+GTN  C6   N1    SING  44
+GTN  N1   C2    SING  45
+GTN  N1   H1    SING  46
+GTN  C2   N2    SING  47
+GTN  C2   N3    DOUB  48
+GTN  N2   1H2   SING  49
+GTN  N2   2H2   SING  50
+GTN  N3   C4    SING  51
+#

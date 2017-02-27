@@ -1,0 +1,75 @@
+data_AHI
+#
+_chem_comp.id                   AHI
+_chem_comp.name                 3-{[(E)-AMINO(HYDROXYIMINO)METHYL]AMINO}PROPAN-1-AMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H13 N4 O1'
+_chem_comp.pdbx_synonyms        DESCARBOXY-NOR-N(OMEGA)-HYDROXY-L-ARGININE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        133.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHI  N10   .  N  0  -3.186  42.514  11.244  1  1 
+AHI  C09   .  C  0  -2.981  43.707  10.614  1  2 
+AHI  NP1   .  N  0  -2.100  43.806  9.662   1  3 
+AHI  N08   .  N  0  -3.697  44.781  11.111  1  4 
+AHI  C07   .  C  0  -3.510  46.140  10.537  1  5 
+AHI  C06   .  C  0  -4.535  47.024  11.227  1  6 
+AHI  C03   .  C  0  -4.634  48.401  10.376  1  7 
+AHI  N02   .  N  1  -4.348  49.429  11.424  1  8 
+AHI  O16   .  O  0  -1.455  42.742  9.247   1  9 
+AHI  H16   .  H  0  ?       ?       ?       1  10
+AHI  1H10  .  H  0  ?       ?       ?       0  11
+AHI  2H10  .  H  0  ?       ?       ?       0  12
+AHI  H08   .  H  0  ?       ?       ?       1  13
+AHI  1H07  .  H  0  ?       ?       ?       0  14
+AHI  2H07  .  H  0  ?       ?       ?       0  15
+AHI  1H06  .  H  0  ?       ?       ?       0  16
+AHI  2H06  .  H  0  ?       ?       ?       0  17
+AHI  1H03  .  H  0  ?       ?       ?       0  18
+AHI  2H03  .  H  0  ?       ?       ?       0  19
+AHI  1H02  .  H  0  ?       ?       ?       0  20
+AHI  2H02  .  H  0  ?       ?       ?       0  21
+AHI  3H02  .  H  0  ?       ?       ?       0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHI  N10  C09   SING  1 
+AHI  N10  1H10  SING  2 
+AHI  N10  2H10  SING  3 
+AHI  C09  NP1   DOUB  4 
+AHI  C09  N08   SING  5 
+AHI  NP1  O16   SING  6 
+AHI  N08  H08   SING  7 
+AHI  N08  C07   SING  8 
+AHI  C07  1H07  SING  9 
+AHI  C07  2H07  SING  10
+AHI  C07  C06   SING  11
+AHI  C06  1H06  SING  12
+AHI  C06  2H06  SING  13
+AHI  C06  C03   SING  14
+AHI  C03  1H03  SING  15
+AHI  C03  2H03  SING  16
+AHI  C03  N02   SING  17
+AHI  N02  1H02  SING  18
+AHI  N02  2H02  SING  19
+AHI  N02  3H02  SING  20
+AHI  O16  H16   SING  21
+#

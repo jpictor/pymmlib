@@ -1,0 +1,87 @@
+data_PF5
+#
+_chem_comp.id                       PF5
+_chem_comp.name                     2,3,4,5,6-PENTAFLUORO-L-PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H6 N1 O2 F5'
+_chem_comp.pdbx_synonyms            'FLUORINATED PHENYLALANINE'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            255.144
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PF5
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C(c1c(c(c(c(c1F)F)F)F)F)[C@@H](C(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PF5  N     .  N  0  3.338   -4.144  -2.024  1  N  1 
+PF5  CA    .  C  0  3.460   -3.105  -3.087  1  N  2 
+PF5  CB    .  C  0  2.790   -1.824  -2.595  1  N  3 
+PF5  CG    .  C  0  1.400   -2.185  -2.139  1  Y  4 
+PF5  CD1   .  C  0  1.172   -2.555  -0.810  1  Y  5 
+PF5  FD1   .  F  0  2.180   -2.509  0.085   1  N  6 
+PF5  CD2   .  C  0  0.354   -2.225  -3.068  1  Y  7 
+PF5  FD2   .  F  0  0.580   -1.883  -4.353  1  N  8 
+PF5  CE1   .  C  0  -0.100  -2.980  -0.411  1  Y  9 
+PF5  FE1   .  F  0  -0.317  -3.353  0.866   1  N  10
+PF5  CE2   .  C  0  -0.926  -2.617  -2.663  1  Y  11
+PF5  FE2   .  F  0  -1.941  -2.619  -3.549  1  N  12
+PF5  CZ    .  C  0  -1.150  -3.011  -1.337  1  Y  13
+PF5  FZ    .  F  0  -2.374  -3.425  -0.955  1  N  14
+PF5  C     .  C  0  4.928   -2.848  -3.422  1  N  15
+PF5  O     .  O  0  5.249   -2.300  -4.458  1  N  16
+PF5  OXT   .  O  0  5.878   -3.327  -2.576  1  N  17
+PF5  1HN   .  H  0  3.311   -5.051  -2.445  0  N  18
+PF5  2HN   .  H  0  4.125   -4.086  -1.409  0  N  19
+PF5  HA    .  H  0  2.964   -3.454  -4.005  1  N  20
+PF5  1HB   .  H  0  3.363   -1.394  -1.760  0  N  21
+PF5  2HB   .  H  0  2.750   -1.075  -3.400  0  N  22
+PF5  HOXT  .  H  0  6.740   -3.155  -2.937  0  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PF5  N    CA    SING  N  1 
+PF5  N    1HN   SING  N  2 
+PF5  N    2HN   SING  N  3 
+PF5  CA   C     SING  N  4 
+PF5  CA   CB    SING  N  5 
+PF5  CA   HA    SING  N  6 
+PF5  CB   CG    SING  N  7 
+PF5  CB   1HB   SING  N  8 
+PF5  CB   2HB   SING  N  9 
+PF5  CG   CD2   SING  Y  10
+PF5  CG   CD1   DOUB  Y  11
+PF5  CD1  CE1   SING  Y  12
+PF5  CD1  FD1   SING  N  13
+PF5  CD2  FD2   SING  N  14
+PF5  CD2  CE2   DOUB  Y  15
+PF5  CE1  CZ    DOUB  Y  16
+PF5  CE1  FE1   SING  N  17
+PF5  CE2  FE2   SING  N  18
+PF5  CE2  CZ    SING  Y  19
+PF5  CZ   FZ    SING  N  20
+PF5  C    O     DOUB  N  21
+PF5  C    OXT   SING  N  22
+PF5  OXT  HOXT  SING  N  23
+#

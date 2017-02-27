@@ -1,0 +1,132 @@
+data_2BT
+#
+_chem_comp.id                       2BT
+_chem_comp.name                     2'-O-BUTYL-THYMIDINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C14 H23 N2 O9 P1'
+_chem_comp.pdbx_synonyms            2'-O-BUTYL-5-METHYLURIDINE
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            394.317
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2BT  P     .  P  0  -4.736  31.251  0.586   1  1 
+2BT  O3P   .  O  0  -5.868  30.549  0.016   1  2 
+2BT  O2P   .  O  0  -3.411  30.594  0.625   1  3 
+2BT  O5*   .  O  0  -4.531  32.593  -0.257  1  4 
+2BT  C5*   .  C  0  -5.546  33.600  -0.327  1  5 
+2BT  C4*   .  C  0  -5.014  34.963  -0.718  1  6 
+2BT  O4*   .  O  0  -4.260  35.459  0.380   1  7 
+2BT  C1*   .  C  0  -3.268  36.323  -0.111  1  8 
+2BT  N1    .  N  0  -1.948  35.753  0.243   1  9 
+2BT  C2    .  C  0  -0.858  36.585  0.261   1  10
+2BT  O2    .  O  0  -0.914  37.763  -0.025  1  11
+2BT  N3    .  N  0  0.313   35.996  0.642   1  12
+2BT  C4    .  C  0  0.495   34.674  0.942   1  13
+2BT  O4    .  O  0  1.587   34.252  1.284   1  14
+2BT  C5    .  C  0  -0.675  33.881  0.929   1  15
+2BT  C5M   .  C  0  -0.620  32.620  1.697   1  16
+2BT  C6    .  C  0  -1.835  34.434  0.585   1  17
+2BT  C2*   .  C  0  -3.525  36.491  -1.603  1  18
+2BT  O2*   .  O  0  -4.479  37.524  -1.886  1  19
+2BT  CA*   .  C  0  -4.022  38.855  -1.725  1  20
+2BT  CB*   .  C  0  -5.024  39.764  -2.386  1  21
+2BT  CC*   .  C  0  -4.354  41.065  -2.829  1  22
+2BT  C3*   .  C  0  -4.029  35.074  -1.858  1  23
+2BT  O3*   .  O  0  -4.671  34.899  -3.113  1  24
+2BT  CD*   .  C  0  ?       ?       ?       1  25
+2BT  O1P   .  O  0  ?       ?       ?       1  26
+2BT  H3T   .  H  0  ?       ?       ?       1  27
+2BT  H3*   .  H  0  ?       ?       ?       1  28
+2BT  H4*   .  H  0  ?       ?       ?       1  29
+2BT  H1*   .  H  0  ?       ?       ?       1  30
+2BT  H6    .  H  0  ?       ?       ?       1  31
+2BT  HN3   .  H  0  ?       ?       ?       1  32
+2BT  1H5M  .  H  0  ?       ?       ?       0  33
+2BT  2H5M  .  H  0  ?       ?       ?       0  34
+2BT  3H5M  .  H  0  ?       ?       ?       0  35
+2BT  H2*   .  H  0  ?       ?       ?       1  36
+2BT  1HA*  .  H  0  ?       ?       ?       0  37
+2BT  2HA*  .  H  0  ?       ?       ?       0  38
+2BT  1HB*  .  H  0  ?       ?       ?       0  39
+2BT  2HB*  .  H  0  ?       ?       ?       0  40
+2BT  1HC*  .  H  0  ?       ?       ?       0  41
+2BT  2HC*  .  H  0  ?       ?       ?       0  42
+2BT  1HD*  .  H  0  ?       ?       ?       0  43
+2BT  2HD*  .  H  0  ?       ?       ?       0  44
+2BT  3HD*  .  H  0  ?       ?       ?       0  45
+2BT  1H5*  .  H  0  ?       ?       ?       0  46
+2BT  2H5*  .  H  0  ?       ?       ?       0  47
+2BT  3HOP  .  H  0  ?       ?       ?       0  48
+2BT  2HOP  .  H  0  ?       ?       ?       0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2BT  P    O5*   SING  1 
+2BT  P    O1P   DOUB  2 
+2BT  P    O3P   SING  3 
+2BT  P    O2P   SING  4 
+2BT  O3P  3HOP  SING  5 
+2BT  O2P  2HOP  SING  6 
+2BT  O5*  C5*   SING  7 
+2BT  C5*  C4*   SING  8 
+2BT  C5*  1H5*  SING  9 
+2BT  C5*  2H5*  SING  10
+2BT  C4*  C3*   SING  11
+2BT  C4*  H4*   SING  12
+2BT  C4*  O4*   SING  13
+2BT  O4*  C1*   SING  14
+2BT  C1*  H1*   SING  15
+2BT  C1*  N1    SING  16
+2BT  C1*  C2*   SING  17
+2BT  N1   C6    SING  18
+2BT  N1   C2    SING  19
+2BT  C2   N3    SING  20
+2BT  C2   O2    DOUB  21
+2BT  N3   C4    SING  22
+2BT  N3   HN3   SING  23
+2BT  C4   C5    SING  24
+2BT  C4   O4    DOUB  25
+2BT  C5   C6    DOUB  26
+2BT  C5   C5M   SING  27
+2BT  C5M  1H5M  SING  28
+2BT  C5M  2H5M  SING  29
+2BT  C5M  3H5M  SING  30
+2BT  C6   H6    SING  31
+2BT  C2*  C3*   SING  32
+2BT  C2*  H2*   SING  33
+2BT  C2*  O2*   SING  34
+2BT  O2*  CA*   SING  35
+2BT  CA*  1HA*  SING  36
+2BT  CA*  2HA*  SING  37
+2BT  CA*  CB*   SING  38
+2BT  CB*  1HB*  SING  39
+2BT  CB*  2HB*  SING  40
+2BT  CB*  CC*   SING  41
+2BT  CC*  1HC*  SING  42
+2BT  CC*  2HC*  SING  43
+2BT  CC*  CD*   SING  44
+2BT  C3*  O3*   SING  45
+2BT  C3*  H3*   SING  46
+2BT  O3*  H3T   SING  47
+2BT  CD*  1HD*  SING  48
+2BT  CD*  2HD*  SING  49
+2BT  CD*  3HD*  SING  50
+#

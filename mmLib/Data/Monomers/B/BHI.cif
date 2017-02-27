@@ -1,0 +1,88 @@
+data_BHI
+#
+_chem_comp.id                   BHI
+_chem_comp.name                 '4-BROMO-3-HYDROXY-3-METHYL BUTYL DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 O8 P2 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        343.004
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BHI  O1    .  O   0  9.357   10.209  13.029  1  1 
+BHI  O2    .  O   0  11.856  2.865   10.967  1  2 
+BHI  O3    .  O   0  9.854   1.641   10.865  1  3 
+BHI  O4    .  O   0  10.959  2.029   12.938  1  4 
+BHI  P5    .  P   0  10.689  2.652   11.600  1  5 
+BHI  O6    .  O   0  9.944   3.980   11.778  1  6 
+BHI  O7    .  O   0  11.034  6.122   11.538  1  7 
+BHI  O8    .  O   0  11.717  4.594   13.260  1  8 
+BHI  P9    .  P   0  10.627  5.216   12.424  1  9 
+BHI  C10   .  C   0  10.335  9.430   15.361  1  10
+BHI  C11   .  C   0  11.089  8.268   13.338  1  11
+BHI  C12   .  C   0  8.875   6.856   13.041  1  12
+BHI  C13   .  C   0  8.760   7.897   14.170  1  13
+BHI  C14   .  C   0  9.854   8.986   13.951  1  14
+BHI  O15   .  O   0  9.620   5.708   13.455  1  15
+BHI  BR    .  BR  0  8.729   9.374   16.274  0  16
+BHI  HO1   .  H   0  ?       ?       ?       1  17
+BHI  HO2   .  H   0  ?       ?       ?       1  18
+BHI  HO4   .  H   0  ?       ?       ?       1  19
+BHI  HO7   .  H   0  ?       ?       ?       1  20
+BHI  1H10  .  H   0  ?       ?       ?       0  21
+BHI  2H10  .  H   0  ?       ?       ?       0  22
+BHI  1H13  .  H   0  ?       ?       ?       0  23
+BHI  2H13  .  H   0  ?       ?       ?       0  24
+BHI  1H12  .  H   0  ?       ?       ?       0  25
+BHI  2H12  .  H   0  ?       ?       ?       0  26
+BHI  1H11  .  H   0  ?       ?       ?       0  27
+BHI  2H11  .  H   0  ?       ?       ?       0  28
+BHI  3H11  .  H   0  ?       ?       ?       0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BHI  O1   C14   SING  1 
+BHI  O1   HO1   SING  2 
+BHI  O2   P5    SING  3 
+BHI  O2   HO2   SING  4 
+BHI  O3   P5    DOUB  5 
+BHI  O4   P5    SING  6 
+BHI  O4   HO4   SING  7 
+BHI  P5   O6    SING  8 
+BHI  O6   P9    SING  9 
+BHI  O7   P9    SING  10
+BHI  O7   HO7   SING  11
+BHI  O8   P9    DOUB  12
+BHI  P9   O15   SING  13
+BHI  C10  C14   SING  14
+BHI  C10  BR    SING  15
+BHI  C10  1H10  SING  16
+BHI  C10  2H10  SING  17
+BHI  C11  C14   SING  18
+BHI  C11  1H11  SING  19
+BHI  C11  2H11  SING  20
+BHI  C11  3H11  SING  21
+BHI  C12  C13   SING  22
+BHI  C12  O15   SING  23
+BHI  C12  1H12  SING  24
+BHI  C12  2H12  SING  25
+BHI  C13  C14   SING  26
+BHI  C13  1H13  SING  27
+BHI  C13  2H13  SING  28
+#

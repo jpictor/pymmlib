@@ -1,0 +1,80 @@
+data_TCL
+#
+_chem_comp.id                   TCL
+_chem_comp.name                 TRICLOSAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H7 O2 CL3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        289.545
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCL  C1    .  C   0  ?  ?  ?  1  1 
+TCL  C2    .  C   0  ?  ?  ?  1  2 
+TCL  C6    .  C   0  ?  ?  ?  1  3 
+TCL  C5    .  C   0  ?  ?  ?  1  4 
+TCL  C4    .  C   0  ?  ?  ?  1  5 
+TCL  C3    .  C   0  ?  ?  ?  1  6 
+TCL  C11   .  C   0  ?  ?  ?  1  7 
+TCL  C10   .  C   0  ?  ?  ?  1  8 
+TCL  C9    .  C   0  ?  ?  ?  1  9 
+TCL  C8    .  C   0  ?  ?  ?  1  10
+TCL  C12   .  C   0  ?  ?  ?  1  11
+TCL  C13   .  C   0  ?  ?  ?  1  12
+TCL  O7    .  O   0  ?  ?  ?  1  13
+TCL  CL14  .  CL  0  ?  ?  ?  0  14
+TCL  CL15  .  CL  0  ?  ?  ?  0  15
+TCL  CL16  .  CL  0  ?  ?  ?  0  16
+TCL  O17   .  O   0  ?  ?  ?  1  17
+TCL  1H1   .  H   0  ?  ?  ?  0  18
+TCL  1H3   .  H   0  ?  ?  ?  0  19
+TCL  1H4   .  H   0  ?  ?  ?  0  20
+TCL  1H10  .  H   0  ?  ?  ?  0  21
+TCL  1H12  .  H   0  ?  ?  ?  0  22
+TCL  1H13  .  H   0  ?  ?  ?  0  23
+TCL  1H17  .  H   0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCL  C1   C2    DOUB  1 
+TCL  C1   C6    SING  2 
+TCL  C1   1H1   SING  3 
+TCL  C2   C3    SING  4 
+TCL  C2   CL14  SING  5 
+TCL  C6   C5    DOUB  6 
+TCL  C6   O17   SING  7 
+TCL  C5   C4    SING  8 
+TCL  C5   O7    SING  9 
+TCL  C4   C3    DOUB  10
+TCL  C4   1H4   SING  11
+TCL  C3   1H3   SING  12
+TCL  C11  C10   DOUB  13
+TCL  C11  C12   SING  14
+TCL  C11  CL15  SING  15
+TCL  C10  C9    SING  16
+TCL  C10  1H10  SING  17
+TCL  C9   C8    DOUB  18
+TCL  C9   CL16  SING  19
+TCL  C8   C13   SING  20
+TCL  C8   O7    SING  21
+TCL  C12  C13   DOUB  22
+TCL  C12  1H12  SING  23
+TCL  C13  1H13  SING  24
+TCL  O17  1H17  SING  25
+#

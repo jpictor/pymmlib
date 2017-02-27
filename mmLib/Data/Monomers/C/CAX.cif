@@ -1,0 +1,94 @@
+data_CAX
+#
+_chem_comp.id                   CAX
+_chem_comp.name                 (2S,4S)-4-(2,2-DIHYDROXYETHYL)-2,3,3-TRIMETHYLCYCLOPENTANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H18 O3'
+_chem_comp.pdbx_synonyms        '(2S,4S)-ALPHA-CAMPHOLINIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.250
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CAX  O3   .  O  0  17.384  -18.187  42.993  1  1 
+CAX  C10  .  C  0  18.067  -17.722  42.052  1  2 
+CAX  O2   .  O  0  18.767  -16.705  42.153  1  3 
+CAX  C9   .  C  0  18.101  -18.415  40.699  1  4 
+CAX  C1   .  C  0  19.007  -19.664  40.643  1  5 
+CAX  C2   .  C  0  20.465  -19.562  41.159  1  6 
+CAX  C8   .  C  0  21.203  -18.276  40.760  1  7 
+CAX  C7   .  C  0  21.248  -20.729  40.530  1  8 
+CAX  C3   .  C  0  20.337  -19.756  42.684  1  9 
+CAX  C6   .  C  0  21.522  -20.264  43.486  1  10
+CAX  C4   .  C  0  19.000  -20.485  42.889  1  11
+CAX  O1   .  O  0  18.878  -21.551  43.796  1  12
+CAX  C5   .  C  0  18.385  -20.748  41.518  1  13
+CAX  HO3  .  H  0  ?       ?        ?       1  14
+CAX  H10  .  H  0  ?       ?        ?       1  15
+CAX  HO2  .  H  0  ?       ?        ?       1  16
+CAX  1H9  .  H  0  ?       ?        ?       0  17
+CAX  2H9  .  H  0  ?       ?        ?       0  18
+CAX  H1   .  H  0  ?       ?        ?       1  19
+CAX  1H5  .  H  0  ?       ?        ?       0  20
+CAX  2H5  .  H  0  ?       ?        ?       0  21
+CAX  H3   .  H  0  ?       ?        ?       1  22
+CAX  1H6  .  H  0  ?       ?        ?       0  23
+CAX  2H6  .  H  0  ?       ?        ?       0  24
+CAX  3H6  .  H  0  ?       ?        ?       0  25
+CAX  1H8  .  H  0  ?       ?        ?       0  26
+CAX  2H8  .  H  0  ?       ?        ?       0  27
+CAX  3H8  .  H  0  ?       ?        ?       0  28
+CAX  1H7  .  H  0  ?       ?        ?       0  29
+CAX  2H7  .  H  0  ?       ?        ?       0  30
+CAX  3H7  .  H  0  ?       ?        ?       0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CAX  O3   HO3  SING  1 
+CAX  O3   C10  SING  2 
+CAX  C10  H10  SING  3 
+CAX  C10  O2   SING  4 
+CAX  C10  C9   SING  5 
+CAX  O2   HO2  SING  6 
+CAX  C9   1H9  SING  7 
+CAX  C9   2H9  SING  8 
+CAX  C9   C1   SING  9 
+CAX  C1   H1   SING  10
+CAX  C1   C5   SING  11
+CAX  C1   C2   SING  12
+CAX  C2   C3   SING  13
+CAX  C2   C8   SING  14
+CAX  C2   C7   SING  15
+CAX  C8   1H8  SING  16
+CAX  C8   2H8  SING  17
+CAX  C8   3H8  SING  18
+CAX  C7   1H7  SING  19
+CAX  C7   2H7  SING  20
+CAX  C7   3H7  SING  21
+CAX  C3   C4   SING  22
+CAX  C3   H3   SING  23
+CAX  C3   C6   SING  24
+CAX  C6   1H6  SING  25
+CAX  C6   2H6  SING  26
+CAX  C6   3H6  SING  27
+CAX  C4   C5   SING  28
+CAX  C4   O1   DOUB  29
+CAX  C5   1H5  SING  30
+CAX  C5   2H5  SING  31
+#

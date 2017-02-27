@@ -1,0 +1,91 @@
+data_NBG
+#
+_chem_comp.id                   NBG
+_chem_comp.name                 1-N-ACETYL-BETA-D-GLUCOSAMINE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C8 H15 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        221.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NBG  C1   .  C  0  ?  ?  ?  1  1 
+NBG  C2   .  C  0  ?  ?  ?  1  2 
+NBG  C3   .  C  0  ?  ?  ?  1  3 
+NBG  C4   .  C  0  ?  ?  ?  1  4 
+NBG  C5   .  C  0  ?  ?  ?  1  5 
+NBG  C6   .  C  0  ?  ?  ?  1  6 
+NBG  C7   .  C  0  ?  ?  ?  1  7 
+NBG  C8   .  C  0  ?  ?  ?  1  8 
+NBG  N1   .  N  0  ?  ?  ?  1  9 
+NBG  O3   .  O  0  ?  ?  ?  1  10
+NBG  O2   .  O  0  ?  ?  ?  1  11
+NBG  O4   .  O  0  ?  ?  ?  1  12
+NBG  O5   .  O  0  ?  ?  ?  1  13
+NBG  O6   .  O  0  ?  ?  ?  1  14
+NBG  O7   .  O  0  ?  ?  ?  1  15
+NBG  H1   .  H  0  ?  ?  ?  1  16
+NBG  H2   .  H  0  ?  ?  ?  1  17
+NBG  H3   .  H  0  ?  ?  ?  1  18
+NBG  H4   .  H  0  ?  ?  ?  1  19
+NBG  H5   .  H  0  ?  ?  ?  1  20
+NBG  1H6  .  H  0  ?  ?  ?  0  21
+NBG  2H6  .  H  0  ?  ?  ?  0  22
+NBG  1H8  .  H  0  ?  ?  ?  0  23
+NBG  2H8  .  H  0  ?  ?  ?  0  24
+NBG  3H8  .  H  0  ?  ?  ?  0  25
+NBG  HN1  .  H  0  ?  ?  ?  1  26
+NBG  HO2  .  H  0  ?  ?  ?  1  27
+NBG  HO4  .  H  0  ?  ?  ?  1  28
+NBG  HO3  .  H  0  ?  ?  ?  1  29
+NBG  HO6  .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NBG  C1  C2   SING  1 
+NBG  C1  O5   SING  2 
+NBG  C1  N1   SING  3 
+NBG  C1  H1   SING  4 
+NBG  C2  C3   SING  5 
+NBG  C2  O2   SING  6 
+NBG  C2  H2   SING  7 
+NBG  C3  C4   SING  8 
+NBG  C3  O3   SING  9 
+NBG  C3  H3   SING  10
+NBG  C4  C5   SING  11
+NBG  C4  O4   SING  12
+NBG  C4  H4   SING  13
+NBG  C5  C6   SING  14
+NBG  C5  O5   SING  15
+NBG  C5  H5   SING  16
+NBG  C6  O6   SING  17
+NBG  C6  1H6  SING  18
+NBG  C6  2H6  SING  19
+NBG  C7  C8   SING  20
+NBG  C7  N1   SING  21
+NBG  C7  O7   DOUB  22
+NBG  C8  1H8  SING  23
+NBG  C8  2H8  SING  24
+NBG  C8  3H8  SING  25
+NBG  N1  HN1  SING  26
+NBG  O3  HO3  SING  27
+NBG  O2  HO2  SING  28
+NBG  O4  HO4  SING  29
+NBG  O6  HO6  SING  30
+#

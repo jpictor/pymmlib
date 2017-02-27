@@ -1,0 +1,93 @@
+data_P2C
+#
+_chem_comp.id                   P2C
+_chem_comp.name                 '2-[(3,5-DICHLORO-4-TRIOXIDANYLPHENYL)AMINO]BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H9 N1 O5 CL2'
+_chem_comp.pdbx_synonyms        '2-[3,5-DICHLORO-4-(2-{2-[2(2-MERCAPTOETHOXY)ETHOXY]ETHOXY}ETHOXY)PHENYLAMINO]BENZOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.124
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P2C  CL8  .  CL  0  19.657  45.502  59.844  0  1 
+P2C  C1   .  C   0  20.766  44.198  59.291  1  2 
+P2C  C2   .  C   0  21.267  43.232  60.293  1  3 
+P2C  O9   .  O   0  20.894  43.332  61.617  1  4 
+P2C  O10  .  O   0  21.826  43.735  62.690  1  5 
+P2C  O11  .  O   0  21.505  44.632  63.555  1  6 
+P2C  C3   .  C   0  22.169  42.172  59.782  1  7 
+P2C  CL7  .  CL  0  22.869  40.935  60.868  0  8 
+P2C  C4   .  C   0  22.495  42.123  58.434  1  9 
+P2C  C6   .  C   0  21.149  44.064  57.945  1  10
+P2C  C5   .  C   0  22.028  43.049  57.509  1  11
+P2C  N18  .  N   0  22.509  42.863  56.227  1  12
+P2C  C14  .  C   0  22.178  43.661  55.179  1  13
+P2C  C15  .  C   0  21.863  44.994  55.442  1  14
+P2C  C16  .  C   0  21.368  45.856  54.464  1  15
+P2C  C17  .  C   0  21.177  45.407  53.177  1  16
+P2C  C12  .  C   0  21.466  44.083  52.848  1  17
+P2C  C13  .  C   0  21.959  43.165  53.782  1  18
+P2C  C19  .  C   0  22.210  41.760  53.263  1  19
+P2C  O21  .  O   0  22.425  40.786  54.021  1  20
+P2C  O20  .  O   0  22.135  41.572  52.024  1  21
+P2C  H11  .  H   0  ?       ?       ?       1  22
+P2C  H4   .  H   0  ?       ?       ?       1  23
+P2C  H18  .  H   0  ?       ?       ?       1  24
+P2C  H12  .  H   0  ?       ?       ?       1  25
+P2C  H17  .  H   0  ?       ?       ?       1  26
+P2C  H16  .  H   0  ?       ?       ?       1  27
+P2C  H15  .  H   0  ?       ?       ?       1  28
+P2C  H20  .  H   0  ?       ?       ?       1  29
+P2C  H6   .  H   0  ?       ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P2C  CL8  C1   SING  1 
+P2C  C1   C6   AROM  2 
+P2C  C1   C2   AROM  3 
+P2C  C2   O9   SING  4 
+P2C  C2   C3   AROM  5 
+P2C  O9   O10  SING  6 
+P2C  O10  O11  SING  7 
+P2C  O11  H11  SING  8 
+P2C  C3   CL7  SING  9 
+P2C  C3   C4   AROM  10
+P2C  C4   H4   SING  11
+P2C  C4   C5   AROM  12
+P2C  C6   C5   AROM  13
+P2C  C6   H6   SING  14
+P2C  C5   N18  SING  15
+P2C  N18  H18  SING  16
+P2C  N18  C14  SING  17
+P2C  C14  C13  AROM  18
+P2C  C14  C15  AROM  19
+P2C  C15  C16  AROM  20
+P2C  C15  H15  SING  21
+P2C  C16  C17  AROM  22
+P2C  C16  H16  SING  23
+P2C  C17  C12  AROM  24
+P2C  C17  H17  SING  25
+P2C  C12  C13  AROM  26
+P2C  C12  H12  SING  27
+P2C  C13  C19  SING  28
+P2C  C19  O21  DOUB  29
+P2C  C19  O20  SING  30
+P2C  O20  H20  SING  31
+#

@@ -1,0 +1,113 @@
+data_BPA
+#
+_chem_comp.id                   BPA
+_chem_comp.name                 '7S,8R,9R-TRIHYDROXY-7,8,9,10-TETRAHYDRO BENZO[A]PYRENE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H16 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        304.345
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPA  C10   .  C  0  ?  ?  ?  1  1 
+BPA  C9    .  C  0  ?  ?  ?  1  2 
+BPA  C8    .  C  0  ?  ?  ?  1  3 
+BPA  C7    .  C  0  ?  ?  ?  1  4 
+BPA  C6A   .  C  0  ?  ?  ?  1  5 
+BPA  C6    .  C  0  ?  ?  ?  1  6 
+BPA  C5A   .  C  0  ?  ?  ?  1  7 
+BPA  C5    .  C  0  ?  ?  ?  1  8 
+BPA  C4    .  C  0  ?  ?  ?  1  9 
+BPA  C3A   .  C  0  ?  ?  ?  1  10
+BPA  C3    .  C  0  ?  ?  ?  1  11
+BPA  C2    .  C  0  ?  ?  ?  1  12
+BPA  C1    .  C  0  ?  ?  ?  1  13
+BPA  C2A   .  C  0  ?  ?  ?  1  14
+BPA  C2B   .  C  0  ?  ?  ?  1  15
+BPA  C2C   .  C  0  ?  ?  ?  1  16
+BPA  C12   .  C  0  ?  ?  ?  1  17
+BPA  C11   .  C  0  ?  ?  ?  1  18
+BPA  C1B   .  C  0  ?  ?  ?  1  19
+BPA  C1A   .  C  0  ?  ?  ?  1  20
+BPA  O9    .  O  0  ?  ?  ?  1  21
+BPA  O8    .  O  0  ?  ?  ?  1  22
+BPA  O7    .  O  0  ?  ?  ?  1  23
+BPA  1H10  .  H  0  ?  ?  ?  0  24
+BPA  2H10  .  H  0  ?  ?  ?  0  25
+BPA  H9    .  H  0  ?  ?  ?  1  26
+BPA  H8    .  H  0  ?  ?  ?  1  27
+BPA  H7    .  H  0  ?  ?  ?  1  28
+BPA  H6    .  H  0  ?  ?  ?  1  29
+BPA  H5    .  H  0  ?  ?  ?  1  30
+BPA  H4    .  H  0  ?  ?  ?  1  31
+BPA  H3    .  H  0  ?  ?  ?  1  32
+BPA  H2    .  H  0  ?  ?  ?  1  33
+BPA  H1    .  H  0  ?  ?  ?  1  34
+BPA  H12   .  H  0  ?  ?  ?  1  35
+BPA  H11   .  H  0  ?  ?  ?  1  36
+BPA  HO9   .  H  0  ?  ?  ?  1  37
+BPA  HO8   .  H  0  ?  ?  ?  1  38
+BPA  HO7   .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPA  C10  C9    SING  1 
+BPA  C10  C1A   SING  2 
+BPA  C10  1H10  SING  3 
+BPA  C10  2H10  SING  4 
+BPA  C9   C8    SING  5 
+BPA  C9   H9    SING  6 
+BPA  C9   O9    SING  7 
+BPA  C8   C7    SING  8 
+BPA  C8   H8    SING  9 
+BPA  C8   O8    SING  10
+BPA  C7   C6A   SING  11
+BPA  C7   H7    SING  12
+BPA  C7   O7    SING  13
+BPA  C6A  C6    DOUB  14
+BPA  C6A  C1A   SING  15
+BPA  C6   C5A   SING  16
+BPA  C6   H6    SING  17
+BPA  C5A  C5    DOUB  18
+BPA  C5A  C2C   SING  19
+BPA  C5   C4    SING  20
+BPA  C5   H5    SING  21
+BPA  C4   C3A   DOUB  22
+BPA  C4   H4    SING  23
+BPA  C3A  C3    SING  24
+BPA  C3A  C2B   SING  25
+BPA  C3   C2    DOUB  26
+BPA  C3   H3    SING  27
+BPA  C2   C1    SING  28
+BPA  C2   H2    SING  29
+BPA  C1   C2A   DOUB  30
+BPA  C1   H1    SING  31
+BPA  C2A  C2B   SING  32
+BPA  C2A  C12   SING  33
+BPA  C2B  C2C   DOUB  34
+BPA  C2C  C1B   SING  35
+BPA  C12  C11   DOUB  36
+BPA  C12  H12   SING  37
+BPA  C11  C1B   SING  38
+BPA  C11  H11   SING  39
+BPA  C1B  C1A   DOUB  40
+BPA  O9   HO9   SING  41
+BPA  O8   HO8   SING  42
+BPA  O7   HO7   SING  43
+#

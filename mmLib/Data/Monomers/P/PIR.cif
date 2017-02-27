@@ -1,0 +1,96 @@
+data_PIR
+#
+_chem_comp.id                   PIR
+_chem_comp.name                 2-(4-AMINO-PHENYL)-5-HYDROXYMETHYL-PYRROLIDINE-3,4-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.259
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIR  C1    .  C  0  ?  ?  ?  1  1 
+PIR  C2    .  C  0  ?  ?  ?  1  2 
+PIR  C3    .  C  0  ?  ?  ?  1  3 
+PIR  C4    .  C  0  ?  ?  ?  1  4 
+PIR  C5    .  C  0  ?  ?  ?  1  5 
+PIR  N5    .  N  0  ?  ?  ?  1  6 
+PIR  C6    .  C  0  ?  ?  ?  1  7 
+PIR  C1'   .  C  0  ?  ?  ?  1  8 
+PIR  C2'   .  C  0  ?  ?  ?  1  9 
+PIR  O2'   .  O  0  ?  ?  ?  1  10
+PIR  C3'   .  C  0  ?  ?  ?  1  11
+PIR  O3'   .  O  0  ?  ?  ?  1  12
+PIR  C4'   .  C  0  ?  ?  ?  1  13
+PIR  N4'   .  N  0  ?  ?  ?  1  14
+PIR  C5'   .  C  0  ?  ?  ?  1  15
+PIR  O5'   .  O  0  ?  ?  ?  1  16
+PIR  H1    .  H  0  ?  ?  ?  1  17
+PIR  H3    .  H  0  ?  ?  ?  1  18
+PIR  H4    .  H  0  ?  ?  ?  1  19
+PIR  1HN5  .  H  0  ?  ?  ?  0  20
+PIR  2HN5  .  H  0  ?  ?  ?  0  21
+PIR  H6    .  H  0  ?  ?  ?  1  22
+PIR  H1'   .  H  0  ?  ?  ?  1  23
+PIR  H2'   .  H  0  ?  ?  ?  1  24
+PIR  'HO2  .  H  0  ?  ?  ?  0  25
+PIR  H3'   .  H  0  ?  ?  ?  1  26
+PIR  'HO3  .  H  0  ?  ?  ?  0  27
+PIR  H4'   .  H  0  ?  ?  ?  1  28
+PIR  'HN4  .  H  0  ?  ?  ?  0  29
+PIR  1H5'  .  H  0  ?  ?  ?  0  30
+PIR  2H5'  .  H  0  ?  ?  ?  0  31
+PIR  'HO5  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIR  C1   C2    DOUB  1 
+PIR  C1   C6    SING  2 
+PIR  C1   H1    SING  3 
+PIR  C2   C3    SING  4 
+PIR  C2   C1'   SING  5 
+PIR  C3   C4    DOUB  6 
+PIR  C3   H3    SING  7 
+PIR  C4   C5    SING  8 
+PIR  C4   H4    SING  9 
+PIR  C5   C6    DOUB  10
+PIR  C5   N5    SING  11
+PIR  N5   1HN5  SING  12
+PIR  N5   2HN5  SING  13
+PIR  C6   H6    SING  14
+PIR  C1'  C2'   SING  15
+PIR  C1'  N4'   SING  16
+PIR  C1'  H1'   SING  17
+PIR  C2'  C3'   SING  18
+PIR  C2'  O2'   SING  19
+PIR  C2'  H2'   SING  20
+PIR  O2'  'HO2  SING  21
+PIR  C3'  C4'   SING  22
+PIR  C3'  O3'   SING  23
+PIR  C3'  H3'   SING  24
+PIR  O3'  'HO3  SING  25
+PIR  C4'  C5'   SING  26
+PIR  C4'  N4'   SING  27
+PIR  C4'  H4'   SING  28
+PIR  N4'  'HN4  SING  29
+PIR  C5'  O5'   SING  30
+PIR  C5'  1H5'  SING  31
+PIR  C5'  2H5'  SING  32
+PIR  O5'  'HO5  SING  33
+#

@@ -1,0 +1,48 @@
+data_BRJ
+#
+_chem_comp.id                   BRJ
+_chem_comp.name                 2-BROMOETHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        124.965
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRJ  OB1   .  O   0  77.056  64.060  39.509  1  1
+BRJ  CB1   .  C   0  76.226  64.070  38.359  1  2
+BRJ  CB    .  C   0  76.799  65.017  37.310  1  3
+BRJ  BR1   .  BR  0  76.627  66.838  37.863  0  4
+BRJ  HB1   .  H   0  ?       ?       ?       1  5
+BRJ  1HB1  .  H   0  ?       ?       ?       0  6
+BRJ  2HB1  .  H   0  ?       ?       ?       0  7
+BRJ  1HB   .  H   0  ?       ?       ?       0  8
+BRJ  2HB   .  H   0  ?       ?       ?       0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRJ  OB1  CB1   SING  1
+BRJ  OB1  HB1   SING  2
+BRJ  CB1  CB    SING  3
+BRJ  CB1  1HB1  SING  4
+BRJ  CB1  2HB1  SING  5
+BRJ  CB   BR1   SING  6
+BRJ  CB   1HB   SING  7
+BRJ  CB   2HB   SING  8
+#

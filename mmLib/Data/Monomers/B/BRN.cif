@@ -1,0 +1,105 @@
+data_BRN
+#
+_chem_comp.id                   BRN
+_chem_comp.name                 BERENIL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C14 H15 N7'
+_chem_comp.pdbx_synonyms        'DIMINAZINE ACETURATE; 1,3-TRIS-(4'AMIDINOPHENYL)TRIAZINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        281.319
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRN  C1    .  C  0  ?  ?  ?  1  1 
+BRN  C2    .  C  0  ?  ?  ?  1  2 
+BRN  C3    .  C  0  ?  ?  ?  1  3 
+BRN  C4    .  C  0  ?  ?  ?  1  4 
+BRN  C5    .  C  0  ?  ?  ?  1  5 
+BRN  C6    .  C  0  ?  ?  ?  1  6 
+BRN  C7    .  C  0  ?  ?  ?  1  7 
+BRN  NA    .  N  0  ?  ?  ?  1  8 
+BRN  NB    .  N  0  ?  ?  ?  1  9 
+BRN  N1    .  N  0  ?  ?  ?  1  10
+BRN  N     .  N  0  ?  ?  ?  1  11
+BRN  N1'   .  N  0  ?  ?  ?  1  12
+BRN  C1'   .  C  0  ?  ?  ?  1  13
+BRN  C2'   .  C  0  ?  ?  ?  1  14
+BRN  C3'   .  C  0  ?  ?  ?  1  15
+BRN  C4'   .  C  0  ?  ?  ?  1  16
+BRN  C5'   .  C  0  ?  ?  ?  1  17
+BRN  C6'   .  C  0  ?  ?  ?  1  18
+BRN  C7'   .  C  0  ?  ?  ?  1  19
+BRN  NA'   .  N  0  ?  ?  ?  1  20
+BRN  NB'   .  N  0  ?  ?  ?  1  21
+BRN  H2    .  H  0  ?  ?  ?  1  22
+BRN  H3    .  H  0  ?  ?  ?  1  23
+BRN  H5    .  H  0  ?  ?  ?  1  24
+BRN  H6    .  H  0  ?  ?  ?  1  25
+BRN  HA    .  H  0  ?  ?  ?  1  26
+BRN  1HB   .  H  0  ?  ?  ?  0  27
+BRN  2HB   .  H  0  ?  ?  ?  0  28
+BRN  HN1   .  H  0  ?  ?  ?  1  29
+BRN  H2'   .  H  0  ?  ?  ?  1  30
+BRN  H3'   .  H  0  ?  ?  ?  1  31
+BRN  H5'   .  H  0  ?  ?  ?  1  32
+BRN  H6'   .  H  0  ?  ?  ?  1  33
+BRN  HA'   .  H  0  ?  ?  ?  1  34
+BRN  1HB'  .  H  0  ?  ?  ?  0  35
+BRN  2HB'  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRN  C1   C2    DOUB  1 
+BRN  C1   C6    SING  2 
+BRN  C1   N1    SING  3 
+BRN  C2   C3    SING  4 
+BRN  C2   H2    SING  5 
+BRN  C3   C4    DOUB  6 
+BRN  C3   H3    SING  7 
+BRN  C4   C5    SING  8 
+BRN  C4   C7    SING  9 
+BRN  C5   C6    DOUB  10
+BRN  C5   H5    SING  11
+BRN  C6   H6    SING  12
+BRN  C7   NA    DOUB  13
+BRN  C7   NB    SING  14
+BRN  NA   HA    SING  15
+BRN  NB   1HB   SING  16
+BRN  NB   2HB   SING  17
+BRN  N1   N     SING  18
+BRN  N1   HN1   SING  19
+BRN  N    N1'   DOUB  20
+BRN  N1'  C1'   SING  21
+BRN  C1'  C2'   DOUB  22
+BRN  C1'  C6'   SING  23
+BRN  C2'  C3'   SING  24
+BRN  C2'  H2'   SING  25
+BRN  C3'  C4'   DOUB  26
+BRN  C3'  H3'   SING  27
+BRN  C4'  C5'   SING  28
+BRN  C4'  C7'   SING  29
+BRN  C5'  C6'   DOUB  30
+BRN  C5'  H5'   SING  31
+BRN  C6'  H6'   SING  32
+BRN  C7'  NA'   DOUB  33
+BRN  C7'  NB'   SING  34
+BRN  NA'  HA'   SING  35
+BRN  NB'  1HB'  SING  36
+BRN  NB'  2HB'  SING  37
+#

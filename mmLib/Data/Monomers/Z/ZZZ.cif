@@ -1,0 +1,79 @@
+data_ZZZ
+#
+_chem_comp.id                   ZZZ
+_chem_comp.name                 6-FORMYLTETRAHYDROPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N5 O2'
+_chem_comp.pdbx_synonyms        (6S)-2-AMINO-4-OXO-3,4,5,6,7,8-HEXAHYDROPTERIDINE-6-CARBALDEHYDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        195.180
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZZZ  C7    .  C  0  31.788  11.383  17.466  1  1 
+ZZZ  N8    .  N  0  32.121  12.674  18.064  1  2 
+ZZZ  C9    .  C  0  33.406  13.014  18.259  1  3 
+ZZZ  N1    .  N  0  33.771  14.289  18.464  1  4 
+ZZZ  C2    .  C  0  35.088  14.595  18.619  1  5 
+ZZZ  N2    .  N  0  35.445  15.89   18.856  1  6 
+ZZZ  C10   .  C  0  34.441  11.964  18.143  1  7 
+ZZZ  C4    .  C  0  35.838  12.387  18.306  1  8 
+ZZZ  N3    .  N  0  36.066  13.683  18.536  1  9 
+ZZZ  O4    .  O  0  36.795  11.577  18.228  1  10
+ZZZ  N5    .  N  0  34.055  10.628  17.897  1  11
+ZZZ  C6    .  C  0  32.641  10.25   18.03   1  12
+ZZZ  C6A   .  C  0  32.214  10.102  19.479  1  13
+ZZZ  O6A   .  O  0  31.055  9.69    19.713  1  14
+ZZZ  1H7C  .  H  0  31.856  11.424  16.354  0  15
+ZZZ  2H7C  .  H  0  30.701  11.159  17.569  0  16
+ZZZ  H8    .  H  0  31.377  13.318  18.334  1  17
+ZZZ  H6    .  H  0  32.442  9.305   17.472  1  18
+ZZZ  1H2N  .  H  0  36.432  16.119  18.972  0  19
+ZZZ  2H2N  .  H  0  34.701  16.584  18.919  0  20
+ZZZ  H3    .  H  0  37.03   13.993  18.654  1  21
+ZZZ  H5    .  H  0  34.751  9.932   17.629  1  22
+ZZZ  H6A   .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZZZ  C7   N8    SING  1 
+ZZZ  C7   C6    SING  2 
+ZZZ  C7   1H7C  SING  3 
+ZZZ  C7   2H7C  SING  4 
+ZZZ  N8   C9    SING  5 
+ZZZ  N8   H8    SING  6 
+ZZZ  C9   N1    SING  7 
+ZZZ  C9   C10   DOUB  8 
+ZZZ  N1   C2    DOUB  9 
+ZZZ  C2   N2    SING  10
+ZZZ  C2   N3    SING  11
+ZZZ  N2   1H2N  SING  12
+ZZZ  N2   2H2N  SING  13
+ZZZ  C10  C4    SING  14
+ZZZ  C10  N5    SING  15
+ZZZ  C4   N3    SING  16
+ZZZ  C4   O4    DOUB  17
+ZZZ  N3   H3    SING  18
+ZZZ  N5   C6    SING  19
+ZZZ  N5   H5    SING  20
+ZZZ  C6   C6A   SING  21
+ZZZ  C6   H6    SING  22
+ZZZ  C6A  O6A   DOUB  23
+ZZZ  C6A  H6A   SING  24
+#

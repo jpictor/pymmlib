@@ -1,0 +1,78 @@
+data_BCN
+#
+_chem_comp.id                   BCN
+_chem_comp.name                 BICINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BCN  N1   .  N  0  ?  ?  ?  1  1 
+BCN  C1   .  C  0  ?  ?  ?  1  2 
+BCN  C2   .  C  0  ?  ?  ?  1  3 
+BCN  O21  .  O  0  ?  ?  ?  1  4 
+BCN  O22  .  O  0  ?  ?  ?  1  5 
+BCN  C3   .  C  0  ?  ?  ?  1  6 
+BCN  C4   .  C  0  ?  ?  ?  1  7 
+BCN  O4   .  O  0  ?  ?  ?  1  8 
+BCN  C5   .  C  0  ?  ?  ?  1  9 
+BCN  C6   .  C  0  ?  ?  ?  1  10
+BCN  O6   .  O  0  ?  ?  ?  1  11
+BCN  1H1  .  H  0  ?  ?  ?  0  12
+BCN  2H1  .  H  0  ?  ?  ?  0  13
+BCN  HO2  .  H  0  ?  ?  ?  1  14
+BCN  1H3  .  H  0  ?  ?  ?  0  15
+BCN  2H3  .  H  0  ?  ?  ?  0  16
+BCN  1H4  .  H  0  ?  ?  ?  0  17
+BCN  2H4  .  H  0  ?  ?  ?  0  18
+BCN  HO4  .  H  0  ?  ?  ?  1  19
+BCN  1H5  .  H  0  ?  ?  ?  0  20
+BCN  2H5  .  H  0  ?  ?  ?  0  21
+BCN  1H6  .  H  0  ?  ?  ?  0  22
+BCN  2H6  .  H  0  ?  ?  ?  0  23
+BCN  HO6  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BCN  N1   C1   SING  1 
+BCN  N1   C3   SING  2 
+BCN  N1   C5   SING  3 
+BCN  C1   C2   SING  4 
+BCN  C1   1H1  SING  5 
+BCN  C1   2H1  SING  6 
+BCN  C2   O21  DOUB  7 
+BCN  C2   O22  SING  8 
+BCN  O22  HO2  SING  9 
+BCN  C3   C4   SING  10
+BCN  C3   1H3  SING  11
+BCN  C3   2H3  SING  12
+BCN  C4   O4   SING  13
+BCN  C4   1H4  SING  14
+BCN  C4   2H4  SING  15
+BCN  O4   HO4  SING  16
+BCN  C5   C6   SING  17
+BCN  C5   1H5  SING  18
+BCN  C5   2H5  SING  19
+BCN  C6   O6   SING  20
+BCN  C6   1H6  SING  21
+BCN  C6   2H6  SING  22
+BCN  O6   HO6  SING  23
+#

@@ -1,0 +1,50 @@
+data_ENC
+#
+_chem_comp.id                   ENC
+_chem_comp.name                 'ETHYL ISOCYANIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        56.087
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ENC  C    .  C  0  ?  ?  ?  1  1 
+ENC  N    .  N  0  ?  ?  ?  1  2 
+ENC  C1   .  C  0  ?  ?  ?  1  3 
+ENC  C2   .  C  0  ?  ?  ?  1  4 
+ENC  H    .  H  0  ?  ?  ?  1  5 
+ENC  1H1  .  H  0  ?  ?  ?  0  6 
+ENC  2H1  .  H  0  ?  ?  ?  0  7 
+ENC  1H2  .  H  0  ?  ?  ?  0  8 
+ENC  2H2  .  H  0  ?  ?  ?  0  9 
+ENC  3H2  .  H  0  ?  ?  ?  0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ENC  C   N    TRIP  1
+ENC  C   H    SING  2
+ENC  N   C1   SING  3
+ENC  C1  C2   SING  4
+ENC  C1  1H1  SING  5
+ENC  C1  2H1  SING  6
+ENC  C2  1H2  SING  7
+ENC  C2  2H2  SING  8
+ENC  C2  3H2  SING  9
+#

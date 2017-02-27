@@ -1,0 +1,81 @@
+data_MLE
+#
+_chem_comp.id                       MLE
+_chem_comp.name                     N-METHYLLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            145.201
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MLE  N     .  N  0  ?  ?  ?  1  1 
+MLE  CN    .  C  0  ?  ?  ?  1  2 
+MLE  CA    .  C  0  ?  ?  ?  1  3 
+MLE  CB    .  C  0  ?  ?  ?  1  4 
+MLE  CG    .  C  0  ?  ?  ?  1  5 
+MLE  CD1   .  C  0  ?  ?  ?  1  6 
+MLE  CD2   .  C  0  ?  ?  ?  1  7 
+MLE  C     .  C  0  ?  ?  ?  1  8 
+MLE  O     .  O  0  ?  ?  ?  1  9 
+MLE  OXT   .  O  0  ?  ?  ?  1  10
+MLE  HN    .  H  0  ?  ?  ?  1  11
+MLE  1HN   .  H  0  ?  ?  ?  0  12
+MLE  2HN   .  H  0  ?  ?  ?  0  13
+MLE  3HN   .  H  0  ?  ?  ?  0  14
+MLE  HA    .  H  0  ?  ?  ?  1  15
+MLE  1HB   .  H  0  ?  ?  ?  0  16
+MLE  2HB   .  H  0  ?  ?  ?  0  17
+MLE  HG    .  H  0  ?  ?  ?  1  18
+MLE  1HD1  .  H  0  ?  ?  ?  0  19
+MLE  2HD1  .  H  0  ?  ?  ?  0  20
+MLE  3HD1  .  H  0  ?  ?  ?  0  21
+MLE  1HD2  .  H  0  ?  ?  ?  0  22
+MLE  2HD2  .  H  0  ?  ?  ?  0  23
+MLE  3HD2  .  H  0  ?  ?  ?  0  24
+MLE  HXT   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MLE  N    CA    SING  1 
+MLE  N    CN    SING  2 
+MLE  N    HN    SING  3 
+MLE  CN   1HN   SING  4 
+MLE  CN   2HN   SING  5 
+MLE  CN   3HN   SING  6 
+MLE  CA   CB    SING  7 
+MLE  CA   C     SING  8 
+MLE  CA   HA    SING  9 
+MLE  CB   CG    SING  10
+MLE  CB   1HB   SING  11
+MLE  CB   2HB   SING  12
+MLE  CG   CD1   SING  13
+MLE  CG   CD2   SING  14
+MLE  CG   HG    SING  15
+MLE  CD1  1HD1  SING  16
+MLE  CD1  2HD1  SING  17
+MLE  CD1  3HD1  SING  18
+MLE  CD2  1HD2  SING  19
+MLE  CD2  2HD2  SING  20
+MLE  CD2  3HD2  SING  21
+MLE  C    O     DOUB  22
+MLE  C    OXT   SING  23
+MLE  OXT  HXT   SING  24
+#

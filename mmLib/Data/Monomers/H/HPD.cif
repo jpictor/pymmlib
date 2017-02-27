@@ -1,0 +1,83 @@
+data_HPD
+#
+_chem_comp.id                   HPD
+_chem_comp.name                 1-HYDROXY-PENTANE-3,4-DIOL-5-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 O7 P1'
+_chem_comp.pdbx_synonyms        'OPEN FORM OF 2'-DEOXY-RIBOFURANOSE-5'-PHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.127
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPD  P     .  P  0  ?  ?  ?  1  1 
+HPD  O5*   .  O  0  ?  ?  ?  1  2 
+HPD  O1P   .  O  0  ?  ?  ?  1  3 
+HPD  O2P   .  O  0  ?  ?  ?  1  4 
+HPD  O3P   .  O  0  ?  ?  ?  1  5 
+HPD  C5*   .  C  0  ?  ?  ?  1  6 
+HPD  O4*   .  O  0  ?  ?  ?  1  7 
+HPD  O3*   .  O  0  ?  ?  ?  1  8 
+HPD  C1*   .  C  0  ?  ?  ?  1  9 
+HPD  O1*   .  O  0  ?  ?  ?  1  10
+HPD  C3*   .  C  0  ?  ?  ?  1  11
+HPD  C4*   .  C  0  ?  ?  ?  1  12
+HPD  C2*   .  C  0  ?  ?  ?  1  13
+HPD  1H1*  .  H  0  ?  ?  ?  0  14
+HPD  2H1*  .  H  0  ?  ?  ?  0  15
+HPD  1H2*  .  H  0  ?  ?  ?  0  16
+HPD  2H2*  .  H  0  ?  ?  ?  0  17
+HPD  1H5*  .  H  0  ?  ?  ?  0  18
+HPD  2H5*  .  H  0  ?  ?  ?  0  19
+HPD  1HO*  .  H  0  ?  ?  ?  0  20
+HPD  3HO*  .  H  0  ?  ?  ?  0  21
+HPD  4HO*  .  H  0  ?  ?  ?  0  22
+HPD  2HOP  .  H  0  ?  ?  ?  0  23
+HPD  3HOP  .  H  0  ?  ?  ?  0  24
+HPD  H3*   .  H  0  ?  ?  ?  1  25
+HPD  H4*   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPD  P    O5*   SING  1 
+HPD  P    O1P   DOUB  2 
+HPD  P    O2P   SING  3 
+HPD  P    O3P   SING  4 
+HPD  O5*  C5*   SING  5 
+HPD  O2P  2HOP  SING  6 
+HPD  O3P  3HOP  SING  7 
+HPD  C5*  C4*   SING  8 
+HPD  C5*  1H5*  SING  9 
+HPD  C5*  2H5*  SING  10
+HPD  O4*  C4*   SING  11
+HPD  O4*  4HO*  SING  12
+HPD  O3*  C3*   SING  13
+HPD  O3*  3HO*  SING  14
+HPD  C1*  O1*   SING  15
+HPD  C1*  C2*   SING  16
+HPD  C1*  1H1*  SING  17
+HPD  C1*  2H1*  SING  18
+HPD  O1*  1HO*  SING  19
+HPD  C3*  C4*   SING  20
+HPD  C3*  C2*   SING  21
+HPD  C3*  H3*   SING  22
+HPD  C4*  H4*   SING  23
+HPD  C2*  1H2*  SING  24
+HPD  C2*  2H2*  SING  25
+#

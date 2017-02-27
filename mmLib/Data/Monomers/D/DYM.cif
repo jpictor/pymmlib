@@ -1,0 +1,106 @@
+data_DYM
+#
+_chem_comp.id                   DYM
+_chem_comp.name                 '6-(2,3-DIHYDROXYPROPOXY)-5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-4H-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N1 O8'
+_chem_comp.pdbx_synonyms        '2,3-DIHYDROXYPROPYL ETHER MIMETIC'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        291.257
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DYM  C1    .  C  0  77.991  30.365  24.640  1  1 
+DYM  C2    .  C  0  77.516  30.208  25.973  1  2 
+DYM  C3    .  C  0  76.680  31.309  26.690  1  3 
+DYM  C4    .  C  0  76.274  30.879  28.168  1  4 
+DYM  C5    .  C  0  77.318  29.943  28.807  1  5 
+DYM  C6    .  C  0  77.429  28.672  27.911  1  6 
+DYM  C7    .  C  0  78.638  26.398  27.603  1  7 
+DYM  C8    .  C  0  79.711  25.471  28.185  1  8 
+DYM  C9    .  C  0  81.047  25.908  28.038  1  9 
+DYM  C10   .  C  0  77.454  29.804  31.356  1  10
+DYM  C11   .  C  0  76.732  29.336  32.597  1  11
+DYM  N5    .  N  0  76.859  29.598  30.177  1  12
+DYM  O1A   .  O  0  78.715  29.382  24.031  1  13
+DYM  O1B   .  O  0  77.749  31.429  23.968  1  14
+DYM  O4    .  O  0  76.137  32.092  28.952  1  15
+DYM  O6    .  O  0  77.843  29.040  26.543  1  16
+DYM  O7    .  O  0  78.471  27.683  28.439  1  17
+DYM  O8    .  O  0  79.655  25.321  29.539  1  18
+DYM  O9    .  O  0  82.115  25.186  28.504  1  19
+DYM  O10   .  O  0  78.687  30.419  31.510  1  20
+DYM  H1A   .  H  0  ?       ?       ?       1  21
+DYM  H3    .  H  0  ?       ?       ?       1  22
+DYM  H4    .  H  0  ?       ?       ?       1  23
+DYM  HO4   .  H  0  ?       ?       ?       1  24
+DYM  H5    .  H  0  ?       ?       ?       1  25
+DYM  HN5   .  H  0  ?       ?       ?       1  26
+DYM  1H11  .  H  0  ?       ?       ?       0  27
+DYM  2H11  .  H  0  ?       ?       ?       0  28
+DYM  3H11  .  H  0  ?       ?       ?       0  29
+DYM  H6    .  H  0  ?       ?       ?       1  30
+DYM  1H7   .  H  0  ?       ?       ?       0  31
+DYM  2H7   .  H  0  ?       ?       ?       0  32
+DYM  H8    .  H  0  ?       ?       ?       1  33
+DYM  HO8   .  H  0  ?       ?       ?       1  34
+DYM  1H9   .  H  0  ?       ?       ?       0  35
+DYM  2H9   .  H  0  ?       ?       ?       0  36
+DYM  HO9   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DYM  C1   O1A   SING  1 
+DYM  C1   O1B   DOUB  2 
+DYM  C1   C2    SING  3 
+DYM  C2   C3    DOUB  4 
+DYM  C2   O6    SING  5 
+DYM  C3   H3    SING  6 
+DYM  C3   C4    SING  7 
+DYM  C4   H4    SING  8 
+DYM  C4   O4    SING  9 
+DYM  C4   C5    SING  10
+DYM  C5   H5    SING  11
+DYM  C5   N5    SING  12
+DYM  C5   C6    SING  13
+DYM  C6   H6    SING  14
+DYM  C6   O6    SING  15
+DYM  C6   O7    SING  16
+DYM  C7   O7    SING  17
+DYM  C7   1H7   SING  18
+DYM  C7   2H7   SING  19
+DYM  C7   C8    SING  20
+DYM  C8   H8    SING  21
+DYM  C8   O8    SING  22
+DYM  C8   C9    SING  23
+DYM  C9   1H9   SING  24
+DYM  C9   2H9   SING  25
+DYM  C9   O9    SING  26
+DYM  C10  N5    SING  27
+DYM  C10  O10   DOUB  28
+DYM  C10  C11   SING  29
+DYM  C11  1H11  SING  30
+DYM  C11  2H11  SING  31
+DYM  C11  3H11  SING  32
+DYM  N5   HN5   SING  33
+DYM  O1A  H1A   SING  34
+DYM  O4   HO4   SING  35
+DYM  O8   HO8   SING  36
+DYM  O9   HO9   SING  37
+#

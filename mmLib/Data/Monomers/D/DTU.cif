@@ -1,0 +1,66 @@
+data_DTU
+#
+_chem_comp.id                   DTU
+_chem_comp.name                 (2R,3S)-1,4-DIMERCAPTOBUTANE-2,3-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 O2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.242
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTU  S1    .  S  0  -27.606  -32.782  15.902  1  1 
+DTU  C1    .  C  0  -25.966  -32.926  16.388  1  2 
+DTU  C2    .  C  0  -26.02   -31.882  17.346  1  3 
+DTU  O2    .  O  0  -26.096  -32.53   18.544  1  4 
+DTU  C3    .  C  0  -24.883  -30.994  17.343  1  5 
+DTU  O3    .  O  0  -24.929  -30.13   16.671  1  6 
+DTU  C4    .  C  0  -24.55   -30.441  18.632  1  7 
+DTU  S4    .  S  0  -23.459  -31.768  18.992  1  8 
+DTU  1H1C  .  H  0  -25.183  -32.864  15.597  0  9 
+DTU  2H1C  .  H  0  -25.612  -33.926  16.73   0  10
+DTU  H2    .  H  0  -26.951  -31.288  17.19   1  11
+DTU  HA    .  H  0  -26.132  -31.83   19.186  1  12
+DTU  H3    .  H  0  -24.005  -31.602  17.021  1  13
+DTU  HB    .  H  0  -24.18   -29.545  16.669  1  14
+DTU  1H4C  .  H  0  -25.371  -30.204  19.349  0  15
+DTU  2H4C  .  H  0  -24.169  -29.395  18.691  0  16
+DTU  H1    .  H  0  ?        ?        ?       1  17
+DTU  H4    .  H  0  ?        ?        ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTU  S1  C1    SING  1 
+DTU  S1  H1    SING  2 
+DTU  C1  C2    SING  3 
+DTU  C1  1H1C  SING  4 
+DTU  C1  2H1C  SING  5 
+DTU  C2  O2    SING  6 
+DTU  C2  C3    SING  7 
+DTU  C2  H2    SING  8 
+DTU  O2  HA    SING  9 
+DTU  C3  O3    SING  10
+DTU  C3  C4    SING  11
+DTU  C3  H3    SING  12
+DTU  O3  HB    SING  13
+DTU  C4  S4    SING  14
+DTU  C4  1H4C  SING  15
+DTU  C4  2H4C  SING  16
+DTU  S4  H4    SING  17
+#

@@ -1,0 +1,102 @@
+data_MGG
+#
+_chem_comp.id                       MGG
+_chem_comp.name                     '2-(2-CARBOXY-ACETYLAMINO)-5-GUANIDINO-PENTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H17 N4 O5'
+_chem_comp.pdbx_synonyms            'D-ARGININE WITH 3-OXO-PROPIONIC ACID MODIFICATION'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           261.257
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGG  N     .  N  0  ?  ?  ?  1  1 
+MGG  CA    .  C  0  ?  ?  ?  1  2 
+MGG  CB    .  C  0  ?  ?  ?  1  3 
+MGG  CG    .  C  0  ?  ?  ?  1  4 
+MGG  CD    .  C  0  ?  ?  ?  1  5 
+MGG  NE    .  N  0  ?  ?  ?  1  6 
+MGG  CZ    .  C  0  ?  ?  ?  1  7 
+MGG  NH1   .  N  0  ?  ?  ?  1  8 
+MGG  NH2   .  N  1  ?  ?  ?  1  9 
+MGG  C3    .  C  0  ?  ?  ?  1  10
+MGG  O3    .  O  0  ?  ?  ?  1  11
+MGG  C2    .  C  0  ?  ?  ?  1  12
+MGG  C1    .  C  0  ?  ?  ?  1  13
+MGG  O12   .  O  0  ?  ?  ?  1  14
+MGG  O1    .  O  0  ?  ?  ?  1  15
+MGG  C     .  C  0  ?  ?  ?  1  16
+MGG  O     .  O  0  ?  ?  ?  1  17
+MGG  OXT   .  O  0  ?  ?  ?  1  18
+MGG  H     .  H  0  ?  ?  ?  1  19
+MGG  HA    .  H  0  ?  ?  ?  1  20
+MGG  1HB   .  H  0  ?  ?  ?  0  21
+MGG  2HB   .  H  0  ?  ?  ?  0  22
+MGG  1HG   .  H  0  ?  ?  ?  0  23
+MGG  2HG   .  H  0  ?  ?  ?  0  24
+MGG  1HD   .  H  0  ?  ?  ?  0  25
+MGG  2HD   .  H  0  ?  ?  ?  0  26
+MGG  HNE   .  H  0  ?  ?  ?  1  27
+MGG  1HH1  .  H  0  ?  ?  ?  0  28
+MGG  2HH1  .  H  0  ?  ?  ?  0  29
+MGG  1HH2  .  H  0  ?  ?  ?  0  30
+MGG  2HH2  .  H  0  ?  ?  ?  0  31
+MGG  1H2   .  H  0  ?  ?  ?  0  32
+MGG  2H2   .  H  0  ?  ?  ?  0  33
+MGG  1H    .  H  0  ?  ?  ?  0  34
+MGG  HXT   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGG  N    CA    SING  1 
+MGG  N    H     SING  2 
+MGG  N    C3    SING  3 
+MGG  CA   C     SING  4 
+MGG  CA   CB    SING  5 
+MGG  CA   HA    SING  6 
+MGG  CB   CG    SING  7 
+MGG  CB   1HB   SING  8 
+MGG  CB   2HB   SING  9 
+MGG  CG   CD    SING  10
+MGG  CG   1HG   SING  11
+MGG  CG   2HG   SING  12
+MGG  CD   NE    SING  13
+MGG  CD   1HD   SING  14
+MGG  CD   2HD   SING  15
+MGG  NE   CZ    SING  16
+MGG  NE   HNE   SING  17
+MGG  CZ   NH1   SING  18
+MGG  CZ   NH2   DOUB  19
+MGG  NH1  1HH1  SING  20
+MGG  NH1  2HH1  SING  21
+MGG  NH2  1HH2  SING  22
+MGG  NH2  2HH2  SING  23
+MGG  C3   O3    DOUB  24
+MGG  C3   C2    SING  25
+MGG  C2   1H2   SING  26
+MGG  C2   2H2   SING  27
+MGG  C2   C1    SING  28
+MGG  C1   O12   DOUB  29
+MGG  C1   O1    SING  30
+MGG  O1   1H    SING  31
+MGG  C    O     DOUB  32
+MGG  C    OXT   SING  33
+MGG  OXT  HXT   SING  34
+#

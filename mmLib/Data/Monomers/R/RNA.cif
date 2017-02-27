@@ -1,0 +1,110 @@
+data_RNA
+#
+_chem_comp.id                   RNA
+_chem_comp.name                 4-METHYL-N-{(5E)-5-[(5-METHYL-2-FURYL)METHYLENE]-4-OXO-4,5-DIHYDRO-1,3-THIAZOL-2-YL}BENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 N2 O4 S2'
+_chem_comp.pdbx_synonyms        (Z)-4-METHYL-N-(5-((5-METHYLFURAN-2-YL)METHYLENE)-4-OXO-4,5-DIHYDROTHIAZOL-2-YL)BENZENESULFONAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        362.418
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RNA  C     .  C  0  10.266  29.162  73.488  1  1 
+RNA  C1    .  C  0  9.054   29.650  73.031  1  2 
+RNA  C2    .  C  0  9.317   30.633  72.076  1  3 
+RNA  O     .  O  0  10.692  30.738  71.950  1  4 
+RNA  C3    .  C  0  11.280  29.838  72.819  1  5 
+RNA  C4    .  C  0  12.771  29.650  72.996  1  6 
+RNA  C5    .  C  0  7.342   32.273  72.190  1  7 
+RNA  S     .  S  0  7.892   33.102  73.624  1  8 
+RNA  C6    .  C  0  6.273   33.641  73.859  1  9 
+RNA  N     .  N  0  5.920   34.461  74.950  1  10
+RNA  S1    .  S  0  7.017   35.544  75.695  1  11
+RNA  C7    .  C  0  7.724   36.604  74.517  1  12
+RNA  C8    .  C  0  9.083   36.452  74.165  1  13
+RNA  C9    .  C  0  9.646   37.333  73.198  1  14
+RNA  C10   .  C  0  8.847   38.355  72.594  1  15
+RNA  C11   .  C  0  7.473   38.487  72.967  1  16
+RNA  C12   .  C  0  6.909   37.609  73.934  1  17
+RNA  C13   .  C  0  9.449   39.310  71.556  1  18
+RNA  O14   .  O  0  8.128   34.637  76.379  1  19
+RNA  O1    .  O  0  6.255   36.367  76.821  1  20
+RNA  C15   .  C  0  5.991   32.452  71.992  1  21
+RNA  N1    .  N  0  5.372   33.228  72.931  1  22
+RNA  O2    .  O  0  5.298   31.902  70.930  1  23
+RNA  C16   .  C  0  8.309   31.459  71.300  1  24
+RNA  1H13  .  H  0  ?       ?       ?       0  25
+RNA  2H13  .  H  0  ?       ?       ?       0  26
+RNA  3H13  .  H  0  ?       ?       ?       0  27
+RNA  H11   .  H  0  ?       ?       ?       1  28
+RNA  H12   .  H  0  ?       ?       ?       1  29
+RNA  H8    .  H  0  ?       ?       ?       1  30
+RNA  H9    .  H  0  ?       ?       ?       1  31
+RNA  HN    .  H  0  ?       ?       ?       1  32
+RNA  H16   .  H  0  ?       ?       ?       1  33
+RNA  H1    .  H  0  ?       ?       ?       1  34
+RNA  H     .  H  0  ?       ?       ?       1  35
+RNA  1H4   .  H  0  ?       ?       ?       0  36
+RNA  2H4   .  H  0  ?       ?       ?       0  37
+RNA  3H4   .  H  0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RNA  C    C1    SING  1 
+RNA  C    C3    DOUB  2 
+RNA  C    H     SING  3 
+RNA  C1   C2    DOUB  4 
+RNA  C1   H1    SING  5 
+RNA  C2   C16   SING  6 
+RNA  C2   O     SING  7 
+RNA  O    C3    SING  8 
+RNA  C3   C4    SING  9 
+RNA  C4   1H4   SING  10
+RNA  C4   2H4   SING  11
+RNA  C4   3H4   SING  12
+RNA  C5   C15   SING  13
+RNA  C5   C16   DOUB  14
+RNA  C5   S     SING  15
+RNA  S    C6    SING  16
+RNA  C6   N     SING  17
+RNA  C6   N1    DOUB  18
+RNA  N    S1    SING  19
+RNA  N    HN    SING  20
+RNA  S1   C7    SING  21
+RNA  S1   O14   DOUB  22
+RNA  S1   O1    DOUB  23
+RNA  C7   C12   DOUB  24
+RNA  C7   C8    SING  25
+RNA  C8   C9    DOUB  26
+RNA  C8   H8    SING  27
+RNA  C9   C10   SING  28
+RNA  C9   H9    SING  29
+RNA  C10  C13   SING  30
+RNA  C10  C11   DOUB  31
+RNA  C11  C12   SING  32
+RNA  C11  H11   SING  33
+RNA  C12  H12   SING  34
+RNA  C13  1H13  SING  35
+RNA  C13  2H13  SING  36
+RNA  C13  3H13  SING  37
+RNA  C15  N1    SING  38
+RNA  C15  O2    DOUB  39
+RNA  C16  H16   SING  40
+#

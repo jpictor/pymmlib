@@ -1,0 +1,73 @@
+data_VAF
+#
+_chem_comp.id                       VAF
+_chem_comp.name                     METHYLVALINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O1'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            115.175
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VAF  N     .  N  0  ?  ?  ?  1  1 
+VAF  CA    .  C  0  ?  ?  ?  1  2 
+VAF  CB    .  C  0  ?  ?  ?  1  3 
+VAF  CG1   .  C  0  ?  ?  ?  1  4 
+VAF  CG2   .  C  0  ?  ?  ?  1  5 
+VAF  CF    .  C  0  ?  ?  ?  1  6 
+VAF  CJ    .  C  0  ?  ?  ?  1  7 
+VAF  O     .  O  0  ?  ?  ?  1  8 
+VAF  1HN   .  H  0  ?  ?  ?  0  9 
+VAF  2HN   .  H  0  ?  ?  ?  0  10
+VAF  HA    .  H  0  ?  ?  ?  1  11
+VAF  HB    .  H  0  ?  ?  ?  1  12
+VAF  1HG1  .  H  0  ?  ?  ?  0  13
+VAF  2HG1  .  H  0  ?  ?  ?  0  14
+VAF  3HG1  .  H  0  ?  ?  ?  0  15
+VAF  1HG2  .  H  0  ?  ?  ?  0  16
+VAF  2HG2  .  H  0  ?  ?  ?  0  17
+VAF  3HG2  .  H  0  ?  ?  ?  0  18
+VAF  1HJ   .  H  0  ?  ?  ?  0  19
+VAF  2HJ   .  H  0  ?  ?  ?  0  20
+VAF  3HJ   .  H  0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VAF  N    CA    SING  1 
+VAF  N    1HN   SING  2 
+VAF  N    2HN   SING  3 
+VAF  CA   CB    SING  4 
+VAF  CA   CF    SING  5 
+VAF  CA   HA    SING  6 
+VAF  CB   CG1   SING  7 
+VAF  CB   CG2   SING  8 
+VAF  CB   HB    SING  9 
+VAF  CG1  1HG1  SING  10
+VAF  CG1  2HG1  SING  11
+VAF  CG1  3HG1  SING  12
+VAF  CG2  1HG2  SING  13
+VAF  CG2  2HG2  SING  14
+VAF  CG2  3HG2  SING  15
+VAF  CF   O     DOUB  16
+VAF  CF   CJ    SING  17
+VAF  CJ   1HJ   SING  18
+VAF  CJ   2HJ   SING  19
+VAF  CJ   3HJ   SING  20
+#

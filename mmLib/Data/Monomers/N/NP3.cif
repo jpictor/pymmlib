@@ -1,0 +1,98 @@
+data_NP3
+#
+_chem_comp.id                   NP3
+_chem_comp.name                 1-[2-DEOXY-RIBOFURANOSYL]-1H-[3-NITRO-PYRROL]-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NP3  P     .  P  0  ?  ?  ?  1  1 
+NP3  O1P   .  O  0  ?  ?  ?  1  2 
+NP3  O2P   .  O  0  ?  ?  ?  1  3 
+NP3  O3P   .  O  0  ?  ?  ?  1  4 
+NP3  O5*   .  O  0  ?  ?  ?  1  5 
+NP3  C5*   .  C  0  ?  ?  ?  1  6 
+NP3  C4*   .  C  0  ?  ?  ?  1  7 
+NP3  O4*   .  O  0  ?  ?  ?  1  8 
+NP3  C1*   .  C  0  ?  ?  ?  1  9 
+NP3  N1    .  N  0  ?  ?  ?  1  10
+NP3  C5    .  C  0  ?  ?  ?  1  11
+NP3  C2    .  C  0  ?  ?  ?  1  12
+NP3  C3    .  C  0  ?  ?  ?  1  13
+NP3  C4    .  C  0  ?  ?  ?  1  14
+NP3  N3    .  N  0  ?  ?  ?  1  15
+NP3  ON1   .  O  0  ?  ?  ?  1  16
+NP3  ON2   .  O  0  ?  ?  ?  1  17
+NP3  C2*   .  C  0  ?  ?  ?  1  18
+NP3  C3*   .  C  0  ?  ?  ?  1  19
+NP3  O3*   .  O  0  ?  ?  ?  1  20
+NP3  2HOP  .  H  0  ?  ?  ?  0  21
+NP3  3HOP  .  H  0  ?  ?  ?  0  22
+NP3  1H5*  .  H  0  ?  ?  ?  0  23
+NP3  2H5*  .  H  0  ?  ?  ?  0  24
+NP3  H4*   .  H  0  ?  ?  ?  1  25
+NP3  H1*   .  H  0  ?  ?  ?  1  26
+NP3  H5    .  H  0  ?  ?  ?  1  27
+NP3  H2    .  H  0  ?  ?  ?  1  28
+NP3  H4    .  H  0  ?  ?  ?  1  29
+NP3  1H2*  .  H  0  ?  ?  ?  0  30
+NP3  2H2*  .  H  0  ?  ?  ?  0  31
+NP3  H3*   .  H  0  ?  ?  ?  1  32
+NP3  H3T   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NP3  P    O1P   DOUB  1 
+NP3  P    O2P   SING  2 
+NP3  P    O3P   SING  3 
+NP3  P    O5*   SING  4 
+NP3  O2P  2HOP  SING  5 
+NP3  O3P  3HOP  SING  6 
+NP3  O5*  C5*   SING  7 
+NP3  C5*  1H5*  SING  8 
+NP3  C5*  2H5*  SING  9 
+NP3  C5*  C4*   SING  10
+NP3  C4*  H4*   SING  11
+NP3  C4*  O4*   SING  12
+NP3  C4*  C3*   SING  13
+NP3  O4*  C1*   SING  14
+NP3  C1*  H1*   SING  15
+NP3  C1*  N1    SING  16
+NP3  C1*  C2*   SING  17
+NP3  N1   C5    SING  18
+NP3  N1   C2    SING  19
+NP3  C5   H5    SING  20
+NP3  C5   C4    DOUB  21
+NP3  C2   H2    SING  22
+NP3  C2   C3    DOUB  23
+NP3  C3   C4    SING  24
+NP3  C3   N3    SING  25
+NP3  C4   H4    SING  26
+NP3  N3   ON1   DOUB  27
+NP3  N3   ON2   DOUB  28
+NP3  C2*  1H2*  SING  29
+NP3  C2*  2H2*  SING  30
+NP3  C2*  C3*   SING  31
+NP3  C3*  H3*   SING  32
+NP3  C3*  O3*   SING  33
+NP3  O3*  H3T   SING  34
+#

@@ -1,0 +1,87 @@
+data_IBR
+#
+_chem_comp.id                   IBR
+_chem_comp.name                 '(2-BROMOETHYL)(2-'FORMYL-4'-AMINOPHENYL) ACETATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 N1 O3 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.125
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBR  C'    .  C   0  ?  ?  ?  1  1 
+IBR  O'    .  O   0  ?  ?  ?  1  2 
+IBR  C1'   .  C   0  ?  ?  ?  1  3 
+IBR  C2'   .  C   0  ?  ?  ?  1  4 
+IBR  C3'   .  C   0  ?  ?  ?  1  5 
+IBR  C4'   .  C   0  ?  ?  ?  1  6 
+IBR  C5'   .  C   0  ?  ?  ?  1  7 
+IBR  C6'   .  C   0  ?  ?  ?  1  8 
+IBR  N     .  N   0  ?  ?  ?  1  9 
+IBR  C1    .  C   0  ?  ?  ?  1  10
+IBR  C2    .  C   0  ?  ?  ?  1  11
+IBR  O11   .  O   0  ?  ?  ?  1  12
+IBR  O12   .  O   0  ?  ?  ?  1  13
+IBR  C1E   .  C   0  ?  ?  ?  1  14
+IBR  C2E   .  C   0  ?  ?  ?  1  15
+IBR  BR    .  BR  0  ?  ?  ?  0  16
+IBR  H'    .  H   0  ?  ?  ?  1  17
+IBR  H3'   .  H   0  ?  ?  ?  1  18
+IBR  H5'   .  H   0  ?  ?  ?  1  19
+IBR  H6'   .  H   0  ?  ?  ?  1  20
+IBR  1HN   .  H   0  ?  ?  ?  0  21
+IBR  2HN   .  H   0  ?  ?  ?  0  22
+IBR  1H2   .  H   0  ?  ?  ?  0  23
+IBR  2H2   .  H   0  ?  ?  ?  0  24
+IBR  1HE1  .  H   0  ?  ?  ?  0  25
+IBR  2HE1  .  H   0  ?  ?  ?  0  26
+IBR  1HE2  .  H   0  ?  ?  ?  0  27
+IBR  2HE2  .  H   0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBR  C'   O'    DOUB  1 
+IBR  C'   C2'   SING  2 
+IBR  C'   H'    SING  3 
+IBR  C1'  C2'   DOUB  4 
+IBR  C1'  C6'   SING  5 
+IBR  C1'  C2    SING  6 
+IBR  C2'  C3'   SING  7 
+IBR  C3'  C4'   DOUB  8 
+IBR  C3'  H3'   SING  9 
+IBR  C4'  C5'   SING  10
+IBR  C4'  N     SING  11
+IBR  C5'  C6'   DOUB  12
+IBR  C5'  H5'   SING  13
+IBR  C6'  H6'   SING  14
+IBR  N    1HN   SING  15
+IBR  N    2HN   SING  16
+IBR  C1   C2    SING  17
+IBR  C1   O11   SING  18
+IBR  C1   O12   DOUB  19
+IBR  C2   1H2   SING  20
+IBR  C2   2H2   SING  21
+IBR  O11  C2E   SING  22
+IBR  C1E  C2E   SING  23
+IBR  C1E  BR    SING  24
+IBR  C1E  1HE1  SING  25
+IBR  C1E  2HE1  SING  26
+IBR  C2E  1HE2  SING  27
+IBR  C2E  2HE2  SING  28
+#

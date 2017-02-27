@@ -1,0 +1,109 @@
+data_GST
+#
+_chem_comp.id                   GST
+_chem_comp.name                 'GERANYL S-THIOLODIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H20 O6 P2 S1'
+_chem_comp.pdbx_synonyms        'S-[(2E)-3,7-DIMETHYLOCTA-2,6-DIENYL] TRIHYDROGEN THIODIPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.272
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GST  PA    .  P  0  19.534  27.534  3.619   1  1 
+GST  O1A   .  O  0  19.609  28.204  2.288   1  2 
+GST  O2A   .  O  0  20.362  26.298  3.674   1  3 
+GST  O3A   .  O  0  18.121  27.257  4.002   1  4 
+GST  O1B   .  O  0  20.124  28.585  4.679   1  5 
+GST  PB    .  P  0  20.529  28.366  6.198   1  6 
+GST  O2B   .  O  0  20.225  29.576  7.030   1  7 
+GST  O3B   .  O  0  19.816  27.203  6.821   1  8 
+GST  S1    .  S  0  22.118  28.106  6.368   1  9 
+GST  C1    .  C  0  22.785  28.278  7.611   1  10
+GST  C2    .  C  0  23.948  27.320  7.744   1  11
+GST  C3    .  C  0  25.237  27.674  7.899   1  12
+GST  C10   .  C  0  25.862  28.840  7.172   1  13
+GST  C4    .  C  0  26.165  26.878  8.794   1  14
+GST  C5    .  C  0  27.559  27.525  8.868   1  15
+GST  C6    .  C  0  28.644  26.503  9.103   1  16
+GST  C7    .  C  0  29.414  26.374  10.200  1  17
+GST  C9    .  C  0  30.505  27.374  10.507  1  18
+GST  C8    .  C  0  29.296  25.257  11.211  1  19
+GST  H1A   .  H  0  ?       ?       ?       1  20
+GST  H3A   .  H  0  ?       ?       ?       1  21
+GST  H3B   .  H  0  ?       ?       ?       1  22
+GST  1H1   .  H  0  ?       ?       ?       0  23
+GST  2H1   .  H  0  ?       ?       ?       0  24
+GST  H2    .  H  0  ?       ?       ?       1  25
+GST  1H10  .  H  0  ?       ?       ?       0  26
+GST  2H10  .  H  0  ?       ?       ?       0  27
+GST  3H10  .  H  0  ?       ?       ?       0  28
+GST  1H4   .  H  0  ?       ?       ?       0  29
+GST  2H4   .  H  0  ?       ?       ?       0  30
+GST  1H5   .  H  0  ?       ?       ?       0  31
+GST  2H5   .  H  0  ?       ?       ?       0  32
+GST  H6    .  H  0  ?       ?       ?       1  33
+GST  1H9   .  H  0  ?       ?       ?       0  34
+GST  2H9   .  H  0  ?       ?       ?       0  35
+GST  3H9   .  H  0  ?       ?       ?       0  36
+GST  1H8   .  H  0  ?       ?       ?       0  37
+GST  2H8   .  H  0  ?       ?       ?       0  38
+GST  3H8   .  H  0  ?       ?       ?       0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GST  PA   O1A   SING  1 
+GST  PA   O2A   DOUB  2 
+GST  PA   O3A   SING  3 
+GST  PA   O1B   SING  4 
+GST  O1A  H1A   SING  5 
+GST  O3A  H3A   SING  6 
+GST  O1B  PB    SING  7 
+GST  PB   O2B   DOUB  8 
+GST  PB   O3B   SING  9 
+GST  PB   S1    SING  10
+GST  O3B  H3B   SING  11
+GST  S1   C1    SING  12
+GST  C1   1H1   SING  13
+GST  C1   2H1   SING  14
+GST  C1   C2    SING  15
+GST  C2   H2    SING  16
+GST  C2   C3    DOUB  17
+GST  C3   C10   SING  18
+GST  C3   C4    SING  19
+GST  C10  1H10  SING  20
+GST  C10  2H10  SING  21
+GST  C10  3H10  SING  22
+GST  C4   1H4   SING  23
+GST  C4   2H4   SING  24
+GST  C4   C5    SING  25
+GST  C5   1H5   SING  26
+GST  C5   2H5   SING  27
+GST  C5   C6    SING  28
+GST  C6   H6    SING  29
+GST  C6   C7    DOUB  30
+GST  C7   C9    SING  31
+GST  C7   C8    SING  32
+GST  C9   1H9   SING  33
+GST  C9   2H9   SING  34
+GST  C9   3H9   SING  35
+GST  C8   1H8   SING  36
+GST  C8   2H8   SING  37
+GST  C8   3H8   SING  38
+#

@@ -1,0 +1,91 @@
+data_PIQ
+#
+_chem_comp.id                   PIQ
+_chem_comp.name                 2-AMINO-1-METHYL-6-PHENYLIMIDAZO[4,5-B]PYRIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H12 N4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.265
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIQ  N    .  N  0  ?  ?  ?  1  1 
+PIQ  C2   .  C  0  ?  ?  ?  1  2 
+PIQ  N1   .  N  0  ?  ?  ?  1  3 
+PIQ  C7A  .  C  0  ?  ?  ?  1  4 
+PIQ  C7   .  C  0  ?  ?  ?  1  5 
+PIQ  C6   .  C  0  ?  ?  ?  1  6 
+PIQ  C1'  .  C  0  ?  ?  ?  1  7 
+PIQ  C2'  .  C  0  ?  ?  ?  1  8 
+PIQ  C3'  .  C  0  ?  ?  ?  1  9 
+PIQ  C4'  .  C  0  ?  ?  ?  1  10
+PIQ  C5'  .  C  0  ?  ?  ?  1  11
+PIQ  C6'  .  C  0  ?  ?  ?  1  12
+PIQ  N3   .  N  0  ?  ?  ?  1  13
+PIQ  CM   .  C  0  ?  ?  ?  1  14
+PIQ  C3A  .  C  0  ?  ?  ?  1  15
+PIQ  N4   .  N  0  ?  ?  ?  1  16
+PIQ  C5   .  C  0  ?  ?  ?  1  17
+PIQ  HN1  .  H  0  ?  ?  ?  1  18
+PIQ  HN2  .  H  0  ?  ?  ?  1  19
+PIQ  H7   .  H  0  ?  ?  ?  1  20
+PIQ  H2'  .  H  0  ?  ?  ?  1  21
+PIQ  H3'  .  H  0  ?  ?  ?  1  22
+PIQ  H4'  .  H  0  ?  ?  ?  1  23
+PIQ  H5'  .  H  0  ?  ?  ?  1  24
+PIQ  H6'  .  H  0  ?  ?  ?  1  25
+PIQ  1HM  .  H  0  ?  ?  ?  0  26
+PIQ  2HM  .  H  0  ?  ?  ?  0  27
+PIQ  3HM  .  H  0  ?  ?  ?  0  28
+PIQ  H5   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIQ  N    C2   SING  1 
+PIQ  N    HN1  SING  2 
+PIQ  N    HN2  SING  3 
+PIQ  C2   N1   SING  4 
+PIQ  C2   N3   DOUB  5 
+PIQ  N1   C7A  SING  6 
+PIQ  N1   CM   SING  7 
+PIQ  C7A  C7   DOUB  8 
+PIQ  C7A  C3A  SING  9 
+PIQ  C7   C6   SING  10
+PIQ  C7   H7   SING  11
+PIQ  C6   C1'  SING  12
+PIQ  C6   C5   DOUB  13
+PIQ  C1'  C2'  SING  14
+PIQ  C1'  C6'  DOUB  15
+PIQ  C2'  C3'  DOUB  16
+PIQ  C2'  H2'  SING  17
+PIQ  C3'  C4'  SING  18
+PIQ  C3'  H3'  SING  19
+PIQ  C4'  C5'  DOUB  20
+PIQ  C4'  H4'  SING  21
+PIQ  C5'  C6'  SING  22
+PIQ  C5'  H5'  SING  23
+PIQ  C6'  H6'  SING  24
+PIQ  N3   C3A  SING  25
+PIQ  CM   1HM  SING  26
+PIQ  CM   2HM  SING  27
+PIQ  CM   3HM  SING  28
+PIQ  C3A  N4   DOUB  29
+PIQ  N4   C5   SING  30
+PIQ  C5   H5   SING  31
+#

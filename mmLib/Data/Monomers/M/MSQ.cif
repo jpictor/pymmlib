@@ -1,0 +1,113 @@
+data_MSQ
+#
+_chem_comp.id                   MSQ
+_chem_comp.name                 4-[3-METHYLSULFANYLANILINO]-6,7-DIMETHOXYQUINAZOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H17 N3 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        327.400
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSQ  N1    .  N  0  ?  ?  ?  1  1 
+MSQ  C2    .  C  0  ?  ?  ?  1  2 
+MSQ  N3    .  N  0  ?  ?  ?  1  3 
+MSQ  C4    .  C  0  ?  ?  ?  1  4 
+MSQ  C5    .  C  0  ?  ?  ?  1  5 
+MSQ  C6    .  C  0  ?  ?  ?  1  6 
+MSQ  C7    .  C  0  ?  ?  ?  1  7 
+MSQ  C8    .  C  0  ?  ?  ?  1  8 
+MSQ  C9    .  C  0  ?  ?  ?  1  9 
+MSQ  C10   .  C  0  ?  ?  ?  1  10
+MSQ  N12   .  N  0  ?  ?  ?  1  11
+MSQ  C14   .  C  0  ?  ?  ?  1  12
+MSQ  C15   .  C  0  ?  ?  ?  1  13
+MSQ  C16   .  C  0  ?  ?  ?  1  14
+MSQ  C17   .  C  0  ?  ?  ?  1  15
+MSQ  C18   .  C  0  ?  ?  ?  1  16
+MSQ  C19   .  C  0  ?  ?  ?  1  17
+MSQ  S21   .  S  0  ?  ?  ?  1  18
+MSQ  C22   .  C  0  ?  ?  ?  1  19
+MSQ  O26   .  O  0  ?  ?  ?  1  20
+MSQ  C27   .  C  0  ?  ?  ?  1  21
+MSQ  O31   .  O  0  ?  ?  ?  1  22
+MSQ  C32   .  C  0  ?  ?  ?  1  23
+MSQ  1H27  .  H  0  ?  ?  ?  0  24
+MSQ  2H27  .  H  0  ?  ?  ?  0  25
+MSQ  3H27  .  H  0  ?  ?  ?  0  26
+MSQ  1H32  .  H  0  ?  ?  ?  0  27
+MSQ  2H32  .  H  0  ?  ?  ?  0  28
+MSQ  3H32  .  H  0  ?  ?  ?  0  29
+MSQ  1H7   .  H  0  ?  ?  ?  0  30
+MSQ  1H10  .  H  0  ?  ?  ?  0  31
+MSQ  1H2   .  H  0  ?  ?  ?  0  32
+MSQ  1H12  .  H  0  ?  ?  ?  0  33
+MSQ  1H19  .  H  0  ?  ?  ?  0  34
+MSQ  1H18  .  H  0  ?  ?  ?  0  35
+MSQ  1H17  .  H  0  ?  ?  ?  0  36
+MSQ  1H15  .  H  0  ?  ?  ?  0  37
+MSQ  1H22  .  H  0  ?  ?  ?  0  38
+MSQ  2H22  .  H  0  ?  ?  ?  0  39
+MSQ  3H22  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSQ  N1   C2    DOUB  1 
+MSQ  N1   C6    SING  2 
+MSQ  C2   N3    SING  3 
+MSQ  C2   1H2   SING  4 
+MSQ  N3   C4    DOUB  5 
+MSQ  C4   C5    SING  6 
+MSQ  C4   C7    SING  7 
+MSQ  C5   C6    DOUB  8 
+MSQ  C5   C10   SING  9 
+MSQ  C6   N12   SING  10
+MSQ  C7   C8    DOUB  11
+MSQ  C7   1H7   SING  12
+MSQ  C8   C9    SING  13
+MSQ  C8   O26   SING  14
+MSQ  C9   C10   DOUB  15
+MSQ  C9   O31   SING  16
+MSQ  C10  1H10  SING  17
+MSQ  N12  C14   SING  18
+MSQ  N12  1H12  SING  19
+MSQ  C14  C15   DOUB  20
+MSQ  C14  C19   SING  21
+MSQ  C15  C16   SING  22
+MSQ  C15  1H15  SING  23
+MSQ  C16  C17   DOUB  24
+MSQ  C16  S21   SING  25
+MSQ  C17  C18   SING  26
+MSQ  C17  1H17  SING  27
+MSQ  C18  C19   DOUB  28
+MSQ  C18  1H18  SING  29
+MSQ  C19  1H19  SING  30
+MSQ  S21  C22   SING  31
+MSQ  C22  1H22  SING  32
+MSQ  C22  2H22  SING  33
+MSQ  C22  3H22  SING  34
+MSQ  O26  C27   SING  35
+MSQ  C27  1H27  SING  36
+MSQ  C27  2H27  SING  37
+MSQ  C27  3H27  SING  38
+MSQ  O31  C32   SING  39
+MSQ  C32  1H32  SING  40
+MSQ  C32  2H32  SING  41
+MSQ  C32  3H32  SING  42
+#

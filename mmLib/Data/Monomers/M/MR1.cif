@@ -1,0 +1,80 @@
+data_MR1
+#
+_chem_comp.id                   MR1
+_chem_comp.name                 1-(1,3-BENZODIOXOL-5-YL)METHANAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.165
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MR1
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc2c(cc1CN)OCO2
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MR1  C36   .  C  0  70.806  -4.800  51.098  1  Y  1 
+MR1  C35   .  C  0  69.532  -4.669  51.682  1  Y  2 
+MR1  O39   .  O  0  68.571  -5.593  51.948  1  N  3 
+MR1  C38   .  C  0  67.622  -4.939  52.805  1  N  4 
+MR1  O37   .  O  0  67.828  -3.531  52.617  1  N  5 
+MR1  C34   .  C  0  69.066  -3.400  52.068  1  Y  6 
+MR1  C33   .  C  0  69.875  -2.265  51.863  1  Y  7 
+MR1  C32   .  C  0  71.148  -2.398  51.279  1  Y  8 
+MR1  C31   .  C  0  71.613  -3.668  50.898  1  Y  9 
+MR1  C30   .  C  0  73.006  -3.822  50.283  1  N  10
+MR1  N     .  N  0  72.884  -4.039  48.833  1  N  11
+MR1  H36   .  H  0  71.164  -5.775  50.802  1  N  12
+MR1  1H38  .  H  0  66.594  -5.221  52.533  0  N  13
+MR1  2H38  .  H  0  67.762  -5.229  53.857  0  N  14
+MR1  H33   .  H  0  69.517  -1.289  52.155  1  N  15
+MR1  H32   .  H  0  71.766  -1.526  51.124  1  N  16
+MR1  1H30  .  H  0  73.591  -2.909  50.468  0  N  17
+MR1  2H30  .  H  0  73.514  -4.684  50.740  0  N  18
+MR1  1HN   .  H  0  72.856  -3.156  48.364  0  N  19
+MR1  2HN   .  H  0  73.670  -4.564  48.507  0  N  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MR1  C36  C35   DOUB  Y  1 
+MR1  C36  C31   SING  Y  2 
+MR1  C36  H36   SING  N  3 
+MR1  C35  O39   SING  N  4 
+MR1  C35  C34   SING  Y  5 
+MR1  O39  C38   SING  N  6 
+MR1  C38  O37   SING  N  7 
+MR1  C38  1H38  SING  N  8 
+MR1  C38  2H38  SING  N  9 
+MR1  O37  C34   SING  N  10
+MR1  C34  C33   DOUB  Y  11
+MR1  C33  C32   SING  Y  12
+MR1  C33  H33   SING  N  13
+MR1  C32  C31   DOUB  Y  14
+MR1  C32  H32   SING  N  15
+MR1  C31  C30   SING  N  16
+MR1  C30  N     SING  N  17
+MR1  C30  1H30  SING  N  18
+MR1  C30  2H30  SING  N  19
+MR1  N    1HN   SING  N  20
+MR1  N    2HN   SING  N  21
+#

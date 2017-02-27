@@ -1,0 +1,48 @@
+data_MDD
+#
+_chem_comp.id                   MDD
+_chem_comp.name                 MALONALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        72.063
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MDD  OA4   .  O  0  9.536  36.517  3.630  1  1
+MDD  CA5   .  C  0  9.044  35.431  3.792  1  2
+MDD  CA6   .  C  0  9.857  34.312  4.382  1  3
+MDD  CA7   .  C  0  9.200  33.840  5.660  1  4
+MDD  OA8   .  O  0  9.395  34.427  6.679  1  5
+MDD  HA5   .  H  0  ?      ?       ?      1  6
+MDD  1HA6  .  H  0  ?      ?       ?      0  7
+MDD  2HA6  .  H  0  ?      ?       ?      0  8
+MDD  HA7   .  H  0  ?      ?       ?      1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MDD  OA4  CA5   DOUB  1
+MDD  CA5  CA6   SING  2
+MDD  CA5  HA5   SING  3
+MDD  CA6  CA7   SING  4
+MDD  CA6  1HA6  SING  5
+MDD  CA6  2HA6  SING  6
+MDD  CA7  OA8   DOUB  7
+MDD  CA7  HA7   SING  8
+#

@@ -1,0 +1,94 @@
+data_TN3
+#
+_chem_comp.id                   TN3
+_chem_comp.name                 3-CHLORO-4-(4-CHLORO-2-HYDROXYPHENOXY)-N-METHYLBENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H11 N1 O3 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        312.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TN3  CL21  .  CL  0  10.331  101.231  28.490  0  1 
+TN3  C14   .  C   0  9.762   101.115  26.796  1  2 
+TN3  C13   .  C   0  8.768   101.959  26.336  1  3 
+TN3  C10   .  C   0  8.319   101.849  25.019  1  4 
+TN3  C11   .  C   0  7.244   102.790  24.568  1  5 
+TN3  O13   .  O   0  6.805   103.608  25.351  1  6 
+TN3  N20   .  N   0  6.747   102.762  23.366  1  7 
+TN3  C12   .  C   0  5.697   103.651  22.903  1  8 
+TN3  C9    .  C   0  8.879   100.889  24.175  1  9 
+TN3  C8    .  C   0  9.886   100.050  24.651  1  10
+TN3  C7    .  C   0  10.321  100.159  25.969  1  11
+TN3  O9    .  O   0  11.310  99.383   26.524  1  12
+TN3  C5    .  C   0  11.826  98.234   26.008  1  13
+TN3  C6    .  C   0  13.119  98.243   25.515  1  14
+TN3  O8    .  O   0  13.839  99.405   25.549  1  15
+TN3  C1    .  C   0  13.662  97.071   24.985  1  16
+TN3  C4    .  C   0  11.057  97.079   26.014  1  17
+TN3  C3    .  C   0  11.589  95.914   25.482  1  18
+TN3  C2    .  C   0  12.888  95.908   24.973  1  19
+TN3  CL12  .  CL  0  13.424  94.452   24.072  0  20
+TN3  1H12  .  H   0  ?       ?        ?       0  21
+TN3  2H12  .  H   0  ?       ?        ?       0  22
+TN3  3H12  .  H   0  ?       ?        ?       0  23
+TN3  H20   .  H   0  ?       ?        ?       1  24
+TN3  H9    .  H   0  ?       ?        ?       1  25
+TN3  H8    .  H   0  ?       ?        ?       1  26
+TN3  H4    .  H   0  ?       ?        ?       1  27
+TN3  H3    .  H   0  ?       ?        ?       1  28
+TN3  H1    .  H   0  ?       ?        ?       1  29
+TN3  HO8   .  H   0  ?       ?        ?       1  30
+TN3  H13   .  H   0  ?       ?        ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TN3  CL21  C14   SING  1 
+TN3  C14   C7    AROM  2 
+TN3  C14   C13   AROM  3 
+TN3  C13   C10   AROM  4 
+TN3  C13   H13   SING  5 
+TN3  C10   C11   SING  6 
+TN3  C10   C9    AROM  7 
+TN3  C11   N20   SING  8 
+TN3  C11   O13   DOUB  9 
+TN3  N20   C12   SING  10
+TN3  N20   H20   SING  11
+TN3  C12   1H12  SING  12
+TN3  C12   2H12  SING  13
+TN3  C12   3H12  SING  14
+TN3  C9    C8    AROM  15
+TN3  C9    H9    SING  16
+TN3  C8    C7    AROM  17
+TN3  C8    H8    SING  18
+TN3  C7    O9    SING  19
+TN3  O9    C5    SING  20
+TN3  C5    C4    AROM  21
+TN3  C5    C6    AROM  22
+TN3  C6    C1    AROM  23
+TN3  C6    O8    SING  24
+TN3  O8    HO8   SING  25
+TN3  C1    C2    AROM  26
+TN3  C1    H1    SING  27
+TN3  C4    C3    AROM  28
+TN3  C4    H4    SING  29
+TN3  C3    C2    AROM  30
+TN3  C3    H3    SING  31
+TN3  C2    CL12  SING  32
+#

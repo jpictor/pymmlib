@@ -1,0 +1,93 @@
+data_EAA
+#
+_chem_comp.id                   EAA
+_chem_comp.name                 'ETHACRYNIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H12 O4 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        303.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EAA  C1    .  C   0  ?  ?  ?  1  1 
+EAA  O2    .  O   0  ?  ?  ?  1  2 
+EAA  C2    .  C   0  ?  ?  ?  1  3 
+EAA  CL1   .  CL  0  ?  ?  ?  0  4 
+EAA  C3    .  C   0  ?  ?  ?  1  5 
+EAA  CL2   .  CL  0  ?  ?  ?  0  6 
+EAA  C4    .  C   0  ?  ?  ?  1  7 
+EAA  C5    .  C   0  ?  ?  ?  1  8 
+EAA  C6    .  C   0  ?  ?  ?  1  9 
+EAA  C7    .  C   0  ?  ?  ?  1  10
+EAA  O1    .  O   0  ?  ?  ?  1  11
+EAA  C8    .  C   0  ?  ?  ?  1  12
+EAA  C9    .  C   0  ?  ?  ?  1  13
+EAA  C10   .  C   0  ?  ?  ?  1  14
+EAA  C11   .  C   0  ?  ?  ?  1  15
+EAA  C12   .  C   0  ?  ?  ?  1  16
+EAA  C13   .  C   0  ?  ?  ?  1  17
+EAA  O     .  O   0  ?  ?  ?  1  18
+EAA  OXT   .  O   0  ?  ?  ?  1  19
+EAA  H5    .  H   0  ?  ?  ?  1  20
+EAA  H6    .  H   0  ?  ?  ?  1  21
+EAA  1H9   .  H   0  ?  ?  ?  0  22
+EAA  2H9   .  H   0  ?  ?  ?  0  23
+EAA  1H10  .  H   0  ?  ?  ?  0  24
+EAA  2H10  .  H   0  ?  ?  ?  0  25
+EAA  3H10  .  H   0  ?  ?  ?  0  26
+EAA  1H11  .  H   0  ?  ?  ?  0  27
+EAA  2H11  .  H   0  ?  ?  ?  0  28
+EAA  1H12  .  H   0  ?  ?  ?  0  29
+EAA  2H12  .  H   0  ?  ?  ?  0  30
+EAA  HXT   .  H   0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EAA  C1   C2    DOUB  1 
+EAA  C1   C6    SING  2 
+EAA  C1   O2    SING  3 
+EAA  O2   C12   SING  4 
+EAA  C2   C3    SING  5 
+EAA  C2   CL1   SING  6 
+EAA  C3   C4    DOUB  7 
+EAA  C3   CL2   SING  8 
+EAA  C4   C5    SING  9 
+EAA  C4   C7    SING  10
+EAA  C5   C6    DOUB  11
+EAA  C5   H5    SING  12
+EAA  C6   H6    SING  13
+EAA  C7   C8    SING  14
+EAA  C7   O1    DOUB  15
+EAA  C8   C9    SING  16
+EAA  C8   C11   DOUB  17
+EAA  C9   C10   SING  18
+EAA  C9   1H9   SING  19
+EAA  C9   2H9   SING  20
+EAA  C10  1H10  SING  21
+EAA  C10  2H10  SING  22
+EAA  C10  3H10  SING  23
+EAA  C11  1H11  SING  24
+EAA  C11  2H11  SING  25
+EAA  C12  C13   SING  26
+EAA  C12  1H12  SING  27
+EAA  C12  2H12  SING  28
+EAA  C13  O     DOUB  29
+EAA  C13  OXT   SING  30
+EAA  OXT  HXT   SING  31
+#

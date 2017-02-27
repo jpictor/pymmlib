@@ -1,0 +1,108 @@
+data_GMS
+#
+_chem_comp.id                       GMS
+_chem_comp.name                     2'-DEOXYGUANOSINE-5'-MONOSELENOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O6 P1 SE1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            410.184
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GMS  P     .  P   0  2.383   9.457   37.225  1  1 
+GMS  O1P   .  O   0  1.424   8.908   38.227  1  2 
+GMS  SE    .  SE  0  4.406   8.874   37.554  0  3 
+GMS  O5*   .  O   0  1.828   8.959   35.812  1  4 
+GMS  N9    .  N   0  -0.838  11.147  32.374  1  5 
+GMS  C4    .  C   0  -0.105  12.281  32.525  1  6 
+GMS  N3    .  N   0  1.235   12.392  32.577  1  7 
+GMS  C2    .  C   0  1.640   13.615  32.730  1  8 
+GMS  N2    .  N   0  2.924   13.886  32.805  1  9 
+GMS  N1    .  N   0  0.773   14.693  32.805  1  10
+GMS  C6    .  C   0  -0.601  14.614  32.750  1  11
+GMS  O6    .  O   0  -1.298  15.646  32.839  1  12
+GMS  C5    .  C   0  -1.042  13.275  32.599  1  13
+GMS  N7    .  N   0  -2.344  12.783  32.497  1  14
+GMS  C8    .  C   0  -2.143  11.520  32.372  1  15
+GMS  C2*   .  C   0  0.712   9.504   31.273  1  16
+GMS  C5*   .  C   0  2.417   9.373   34.549  1  17
+GMS  C4*   .  C   0  1.511   8.887   33.413  1  18
+GMS  O4*   .  O   0  0.236   9.453   33.570  1  19
+GMS  C1*   .  C   0  -0.362  9.783   32.251  1  20
+GMS  C3*   .  C   0  1.986   9.315   32.071  1  21
+GMS  O3*   .  O   0  2.856   8.306   31.483  1  22
+GMS  O2P   .  O   0  ?       ?       ?       1  23
+GMS  1H2   .  H   0  ?       ?       ?       0  24
+GMS  2H2   .  H   0  ?       ?       ?       0  25
+GMS  H1    .  H   0  ?       ?       ?       1  26
+GMS  H8    .  H   0  ?       ?       ?       1  27
+GMS  H1*   .  H   0  ?       ?       ?       1  28
+GMS  1H2*  .  H   0  ?       ?       ?       0  29
+GMS  2H2*  .  H   0  ?       ?       ?       0  30
+GMS  H3*   .  H   0  ?       ?       ?       1  31
+GMS  H3T   .  H   0  ?       ?       ?       1  32
+GMS  H4*   .  H   0  ?       ?       ?       1  33
+GMS  1H5*  .  H   0  ?       ?       ?       0  34
+GMS  2H5*  .  H   0  ?       ?       ?       0  35
+GMS  2HOP  .  H   0  ?       ?       ?       0  36
+GMS  HS    .  H   0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GMS  P    O1P   DOUB  1 
+GMS  P    O5*   SING  2 
+GMS  P    O2P   SING  3 
+GMS  P    SE    SING  4 
+GMS  SE   HS    SING  5 
+GMS  O5*  C5*   SING  6 
+GMS  N9   C4    SING  7 
+GMS  N9   C8    SING  8 
+GMS  N9   C1*   SING  9 
+GMS  C4   N3    SING  10
+GMS  C4   C5    DOUB  11
+GMS  N3   C2    DOUB  12
+GMS  C2   N2    SING  13
+GMS  C2   N1    SING  14
+GMS  N2   1H2   SING  15
+GMS  N2   2H2   SING  16
+GMS  N1   C6    SING  17
+GMS  N1   H1    SING  18
+GMS  C6   O6    DOUB  19
+GMS  C6   C5    SING  20
+GMS  C5   N7    SING  21
+GMS  N7   C8    DOUB  22
+GMS  C8   H8    SING  23
+GMS  C2*  C1*   SING  24
+GMS  C2*  C3*   SING  25
+GMS  C2*  1H2*  SING  26
+GMS  C2*  2H2*  SING  27
+GMS  C5*  C4*   SING  28
+GMS  C5*  1H5*  SING  29
+GMS  C5*  2H5*  SING  30
+GMS  C4*  O4*   SING  31
+GMS  C4*  C3*   SING  32
+GMS  C4*  H4*   SING  33
+GMS  O4*  C1*   SING  34
+GMS  C1*  H1*   SING  35
+GMS  C3*  O3*   SING  36
+GMS  C3*  H3*   SING  37
+GMS  O3*  H3T   SING  38
+GMS  O2P  2HOP  SING  39
+#

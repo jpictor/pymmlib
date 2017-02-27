@@ -1,0 +1,106 @@
+data_DAO
+#
+_chem_comp.id                   DAO
+_chem_comp.name                 'LAURIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H24 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        200.320
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAO  O1    .  O  0  ?  ?  ?  1  1 
+DAO  O2    .  O  0  ?  ?  ?  1  2 
+DAO  C1    .  C  0  ?  ?  ?  1  3 
+DAO  C2    .  C  0  ?  ?  ?  1  4 
+DAO  C3    .  C  0  ?  ?  ?  1  5 
+DAO  C4    .  C  0  ?  ?  ?  1  6 
+DAO  C5    .  C  0  ?  ?  ?  1  7 
+DAO  C6    .  C  0  ?  ?  ?  1  8 
+DAO  C7    .  C  0  ?  ?  ?  1  9 
+DAO  C8    .  C  0  ?  ?  ?  1  10
+DAO  C9    .  C  0  ?  ?  ?  1  11
+DAO  C10   .  C  0  ?  ?  ?  1  12
+DAO  C11   .  C  0  ?  ?  ?  1  13
+DAO  C12   .  C  0  ?  ?  ?  1  14
+DAO  HO2   .  H  0  ?  ?  ?  1  15
+DAO  1H2   .  H  0  ?  ?  ?  0  16
+DAO  2H2   .  H  0  ?  ?  ?  0  17
+DAO  1H3   .  H  0  ?  ?  ?  0  18
+DAO  2H3   .  H  0  ?  ?  ?  0  19
+DAO  1H4   .  H  0  ?  ?  ?  0  20
+DAO  2H4   .  H  0  ?  ?  ?  0  21
+DAO  1H5   .  H  0  ?  ?  ?  0  22
+DAO  2H5   .  H  0  ?  ?  ?  0  23
+DAO  1H6   .  H  0  ?  ?  ?  0  24
+DAO  2H6   .  H  0  ?  ?  ?  0  25
+DAO  1H7   .  H  0  ?  ?  ?  0  26
+DAO  2H7   .  H  0  ?  ?  ?  0  27
+DAO  1H8   .  H  0  ?  ?  ?  0  28
+DAO  2H8   .  H  0  ?  ?  ?  0  29
+DAO  1H9   .  H  0  ?  ?  ?  0  30
+DAO  2H9   .  H  0  ?  ?  ?  0  31
+DAO  1H10  .  H  0  ?  ?  ?  0  32
+DAO  2H10  .  H  0  ?  ?  ?  0  33
+DAO  1H11  .  H  0  ?  ?  ?  0  34
+DAO  2H11  .  H  0  ?  ?  ?  0  35
+DAO  1H12  .  H  0  ?  ?  ?  0  36
+DAO  2H12  .  H  0  ?  ?  ?  0  37
+DAO  3H12  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAO  O1   C1    DOUB  1 
+DAO  O2   C1    SING  2 
+DAO  O2   HO2   SING  3 
+DAO  C1   C2    SING  4 
+DAO  C2   C3    SING  5 
+DAO  C2   1H2   SING  6 
+DAO  C2   2H2   SING  7 
+DAO  C3   C4    SING  8 
+DAO  C3   1H3   SING  9 
+DAO  C3   2H3   SING  10
+DAO  C4   C5    SING  11
+DAO  C4   1H4   SING  12
+DAO  C4   2H4   SING  13
+DAO  C5   C6    SING  14
+DAO  C5   1H5   SING  15
+DAO  C5   2H5   SING  16
+DAO  C6   C7    SING  17
+DAO  C6   1H6   SING  18
+DAO  C6   2H6   SING  19
+DAO  C7   C8    SING  20
+DAO  C7   1H7   SING  21
+DAO  C7   2H7   SING  22
+DAO  C8   C9    SING  23
+DAO  C8   1H8   SING  24
+DAO  C8   2H8   SING  25
+DAO  C9   C10   SING  26
+DAO  C9   1H9   SING  27
+DAO  C9   2H9   SING  28
+DAO  C10  C11   SING  29
+DAO  C10  1H10  SING  30
+DAO  C10  2H10  SING  31
+DAO  C11  C12   SING  32
+DAO  C11  1H11  SING  33
+DAO  C11  2H11  SING  34
+DAO  C12  1H12  SING  35
+DAO  C12  2H12  SING  36
+DAO  C12  3H12  SING  37
+#

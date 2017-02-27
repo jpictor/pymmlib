@@ -1,0 +1,75 @@
+data_12Q
+#
+_chem_comp.id                   12Q
+_chem_comp.name                 1-METHYLQUINOLIN-2(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N1 O1'
+_chem_comp.pdbx_synonyms        1-METHYL-2-QUINOLONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.187
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+12Q  CAH   .  C  0  -28.837  -19.673  -17.375  1  1 
+12Q  NAC   .  N  0  -27.482  -19.645  -17.958  1  2 
+12Q  CAA   .  C  0  -26.840  -20.846  -18.308  1  3 
+12Q  CAD   .  C  0  -27.468  -22.076  -18.111  1  4 
+12Q  CAI   .  C  0  -26.826  -23.258  -18.459  1  5 
+12Q  CAK   .  C  0  -25.548  -23.214  -19.008  1  6 
+12Q  CAF   .  C  0  -24.918  -21.989  -19.207  1  7 
+12Q  CAB   .  C  0  -25.559  -20.806  -18.859  1  8 
+12Q  CAE   .  C  0  -24.920  -19.586  -19.062  1  9 
+12Q  CAJ   .  C  0  -25.555  -18.399  -18.714  1  10
+12Q  CAG   .  C  0  -26.833  -18.415  -18.165  1  11
+12Q  OAL   .  O  0  -27.380  -17.353  -17.867  1  12
+12Q  1HAH  .  H  0  ?        ?        ?        0  13
+12Q  2HAH  .  H  0  ?        ?        ?        0  14
+12Q  3HAH  .  H  0  ?        ?        ?        0  15
+12Q  HAD   .  H  0  ?        ?        ?        1  16
+12Q  HAI   .  H  0  ?        ?        ?        1  17
+12Q  HAK   .  H  0  ?        ?        ?        1  18
+12Q  HAF   .  H  0  ?        ?        ?        1  19
+12Q  HAE   .  H  0  ?        ?        ?        1  20
+12Q  HAJ   .  H  0  ?        ?        ?        1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+12Q  CAH  NAC   SING  1 
+12Q  CAH  1HAH  SING  2 
+12Q  CAH  2HAH  SING  3 
+12Q  CAH  3HAH  SING  4 
+12Q  NAC  CAA   SING  5 
+12Q  NAC  CAG   SING  6 
+12Q  CAA  CAD   SING  7 
+12Q  CAA  CAB   DOUB  8 
+12Q  CAD  CAI   DOUB  9 
+12Q  CAD  HAD   SING  10
+12Q  CAI  CAK   SING  11
+12Q  CAI  HAI   SING  12
+12Q  CAK  CAF   DOUB  13
+12Q  CAK  HAK   SING  14
+12Q  CAF  CAB   SING  15
+12Q  CAF  HAF   SING  16
+12Q  CAB  CAE   SING  17
+12Q  CAE  CAJ   DOUB  18
+12Q  CAE  HAE   SING  19
+12Q  CAJ  CAG   SING  20
+12Q  CAJ  HAJ   SING  21
+12Q  CAG  OAL   DOUB  22
+#

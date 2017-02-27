@@ -1,0 +1,97 @@
+data_G16
+#
+_chem_comp.id                   G16
+_chem_comp.name                 'ALPHA-D-GLUCOSE 1,6-BISPHOSPHATE'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 O12 P2'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       339.109
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G16  C1    .  C  0   ?  ?  ?  1  1 
+G16  C2    .  C  0   ?  ?  ?  1  2 
+G16  C3    .  C  0   ?  ?  ?  1  3 
+G16  C4    .  C  0   ?  ?  ?  1  4 
+G16  C5    .  C  0   ?  ?  ?  1  5 
+G16  C6    .  C  0   ?  ?  ?  1  6 
+G16  O1    .  O  0   ?  ?  ?  1  7 
+G16  O2    .  O  0   ?  ?  ?  1  8 
+G16  O3    .  O  0   ?  ?  ?  1  9 
+G16  O4    .  O  0   ?  ?  ?  1  10
+G16  O5    .  O  0   ?  ?  ?  1  11
+G16  O6    .  O  0   ?  ?  ?  1  12
+G16  P     .  P  0   ?  ?  ?  1  13
+G16  O1P   .  O  0   ?  ?  ?  1  14
+G16  O2P   .  O  0   ?  ?  ?  1  15
+G16  O3P   .  O  0   ?  ?  ?  1  16
+G16  P*    .  P  0   ?  ?  ?  1  17
+G16  O1P*  .  O  0   ?  ?  ?  0  18
+G16  O2P*  .  O  0   ?  ?  ?  0  19
+G16  O3P*  .  O  -1  ?  ?  ?  0  20
+G16  H1    .  H  0   ?  ?  ?  1  21
+G16  H2    .  H  0   ?  ?  ?  1  22
+G16  H3    .  H  0   ?  ?  ?  1  23
+G16  H4    .  H  0   ?  ?  ?  1  24
+G16  H5    .  H  0   ?  ?  ?  1  25
+G16  1H6   .  H  0   ?  ?  ?  0  26
+G16  2H6   .  H  0   ?  ?  ?  0  27
+G16  HO1*  .  H  0   ?  ?  ?  0  28
+G16  HO2   .  H  0   ?  ?  ?  1  29
+G16  HO3   .  H  0   ?  ?  ?  1  30
+G16  HO4   .  H  0   ?  ?  ?  1  31
+G16  2HOP  .  H  0   ?  ?  ?  0  32
+G16  3HOP  .  H  0   ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G16  C1    C2    SING  1 
+G16  C1    O1    SING  2 
+G16  C1    O5    SING  3 
+G16  C1    H1    SING  4 
+G16  C2    C3    SING  5 
+G16  C2    O2    SING  6 
+G16  C2    H2    SING  7 
+G16  C3    C4    SING  8 
+G16  C3    O3    SING  9 
+G16  C3    H3    SING  10
+G16  C4    C5    SING  11
+G16  C4    O4    SING  12
+G16  C4    H4    SING  13
+G16  C5    C6    SING  14
+G16  C5    O5    SING  15
+G16  C5    H5    SING  16
+G16  C6    O6    SING  17
+G16  C6    1H6   SING  18
+G16  C6    2H6   SING  19
+G16  O1    P*    SING  20
+G16  O2    HO2   SING  21
+G16  O3    HO3   SING  22
+G16  O4    HO4   SING  23
+G16  O6    P     SING  24
+G16  P     O1P   DOUB  25
+G16  P     O2P   SING  26
+G16  P     O3P   SING  27
+G16  O2P   2HOP  SING  28
+G16  O3P   3HOP  SING  29
+G16  P*    O1P*  SING  30
+G16  P*    O2P*  DOUB  31
+G16  P*    O3P*  SING  32
+G16  O1P*  HO1*  SING  33
+#

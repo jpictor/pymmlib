@@ -1,0 +1,122 @@
+data_PPE
+#
+_chem_comp.id                   PPE
+_chem_comp.name                 4-[(1,3-DICARBOXY-PROPYLAMINO)-METHYL]-3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H20 N2 O9 P1'
+_chem_comp.pdbx_synonyms        'PYRIDOXYL-GLUTAMIC ACID-5'-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       379.283
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPE  N1    .  N  1  ?  ?  ?  1  1 
+PPE  C2    .  C  0  ?  ?  ?  1  2 
+PPE  C2A   .  C  0  ?  ?  ?  1  3 
+PPE  C3    .  C  0  ?  ?  ?  1  4 
+PPE  O3    .  O  0  ?  ?  ?  1  5 
+PPE  C4    .  C  0  ?  ?  ?  1  6 
+PPE  C4A   .  C  0  ?  ?  ?  1  7 
+PPE  C5    .  C  0  ?  ?  ?  1  8 
+PPE  C6    .  C  0  ?  ?  ?  1  9 
+PPE  C5A   .  C  0  ?  ?  ?  1  10
+PPE  OP4   .  O  0  ?  ?  ?  1  11
+PPE  P     .  P  0  ?  ?  ?  1  12
+PPE  OP1   .  O  0  ?  ?  ?  1  13
+PPE  OP2   .  O  0  ?  ?  ?  1  14
+PPE  OP3   .  O  0  ?  ?  ?  1  15
+PPE  NA    .  N  0  ?  ?  ?  1  16
+PPE  CAA   .  C  0  ?  ?  ?  1  17
+PPE  CBA   .  C  0  ?  ?  ?  1  18
+PPE  CGA   .  C  0  ?  ?  ?  1  19
+PPE  CDA   .  C  0  ?  ?  ?  1  20
+PPE  OE1   .  O  0  ?  ?  ?  1  21
+PPE  OE2   .  O  0  ?  ?  ?  1  22
+PPE  CA    .  C  0  ?  ?  ?  1  23
+PPE  OA    .  O  0  ?  ?  ?  1  24
+PPE  OXT   .  O  0  ?  ?  ?  1  25
+PPE  HN1   .  H  0  ?  ?  ?  1  26
+PPE  1H2A  .  H  0  ?  ?  ?  0  27
+PPE  2H2A  .  H  0  ?  ?  ?  0  28
+PPE  3H2A  .  H  0  ?  ?  ?  0  29
+PPE  HO3   .  H  0  ?  ?  ?  1  30
+PPE  1H4A  .  H  0  ?  ?  ?  0  31
+PPE  2H4A  .  H  0  ?  ?  ?  0  32
+PPE  H6    .  H  0  ?  ?  ?  1  33
+PPE  1H5A  .  H  0  ?  ?  ?  0  34
+PPE  2H5A  .  H  0  ?  ?  ?  0  35
+PPE  2HOP  .  H  0  ?  ?  ?  0  36
+PPE  3HOP  .  H  0  ?  ?  ?  0  37
+PPE  HNA   .  H  0  ?  ?  ?  1  38
+PPE  HAA   .  H  0  ?  ?  ?  1  39
+PPE  1HBA  .  H  0  ?  ?  ?  0  40
+PPE  2HBA  .  H  0  ?  ?  ?  0  41
+PPE  1HGA  .  H  0  ?  ?  ?  0  42
+PPE  2HGA  .  H  0  ?  ?  ?  0  43
+PPE  2HOE  .  H  0  ?  ?  ?  0  44
+PPE  HXT   .  H  0  ?  ?  ?  1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPE  N1   C2    SING  1 
+PPE  N1   C6    DOUB  2 
+PPE  N1   HN1   SING  3 
+PPE  C2   C2A   SING  4 
+PPE  C2   C3    DOUB  5 
+PPE  C2A  1H2A  SING  6 
+PPE  C2A  2H2A  SING  7 
+PPE  C2A  3H2A  SING  8 
+PPE  C3   O3    SING  9 
+PPE  C3   C4    SING  10
+PPE  O3   HO3   SING  11
+PPE  C4   C4A   SING  12
+PPE  C4   C5    DOUB  13
+PPE  C4A  NA    SING  14
+PPE  C4A  1H4A  SING  15
+PPE  C4A  2H4A  SING  16
+PPE  C5   C6    SING  17
+PPE  C5   C5A   SING  18
+PPE  C6   H6    SING  19
+PPE  C5A  OP4   SING  20
+PPE  C5A  1H5A  SING  21
+PPE  C5A  2H5A  SING  22
+PPE  OP4  P     SING  23
+PPE  P    OP1   DOUB  24
+PPE  P    OP2   SING  25
+PPE  P    OP3   SING  26
+PPE  OP2  2HOP  SING  27
+PPE  OP3  3HOP  SING  28
+PPE  NA   CAA   SING  29
+PPE  NA   HNA   SING  30
+PPE  CAA  CA    SING  31
+PPE  CAA  CBA   SING  32
+PPE  CAA  HAA   SING  33
+PPE  CBA  CGA   SING  34
+PPE  CBA  1HBA  SING  35
+PPE  CBA  2HBA  SING  36
+PPE  CGA  CDA   SING  37
+PPE  CGA  1HGA  SING  38
+PPE  CGA  2HGA  SING  39
+PPE  CDA  OE1   DOUB  40
+PPE  CDA  OE2   SING  41
+PPE  OE2  2HOE  SING  42
+PPE  CA   OA    DOUB  43
+PPE  CA   OXT   SING  44
+PPE  OXT  HXT   SING  45
+#

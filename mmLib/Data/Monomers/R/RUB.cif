@@ -1,0 +1,90 @@
+data_RUB
+#
+_chem_comp.id                   RUB
+_chem_comp.name                 RIBULOSE-1,5-DIPHOSPHATE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H12 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        310.091
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RUB  C1    .  C  0  ?  ?  ?  1  1 
+RUB  C2    .  C  0  ?  ?  ?  1  2 
+RUB  C3    .  C  0  ?  ?  ?  1  3 
+RUB  C4    .  C  0  ?  ?  ?  1  4 
+RUB  C5    .  C  0  ?  ?  ?  1  5 
+RUB  O1    .  O  0  ?  ?  ?  1  6 
+RUB  O2    .  O  0  ?  ?  ?  1  7 
+RUB  O3    .  O  0  ?  ?  ?  1  8 
+RUB  O4    .  O  0  ?  ?  ?  1  9 
+RUB  O5    .  O  0  ?  ?  ?  1  10
+RUB  P1    .  P  0  ?  ?  ?  1  11
+RUB  P2    .  P  0  ?  ?  ?  1  12
+RUB  O1P   .  O  0  ?  ?  ?  1  13
+RUB  O2P   .  O  0  ?  ?  ?  1  14
+RUB  O3P   .  O  0  ?  ?  ?  1  15
+RUB  O4P   .  O  0  ?  ?  ?  1  16
+RUB  O5P   .  O  0  ?  ?  ?  1  17
+RUB  O6P   .  O  0  ?  ?  ?  1  18
+RUB  1H1   .  H  0  ?  ?  ?  0  19
+RUB  2H1   .  H  0  ?  ?  ?  0  20
+RUB  H3    .  H  0  ?  ?  ?  1  21
+RUB  H4    .  H  0  ?  ?  ?  1  22
+RUB  1H5   .  H  0  ?  ?  ?  0  23
+RUB  2H5   .  H  0  ?  ?  ?  0  24
+RUB  HO3   .  H  0  ?  ?  ?  1  25
+RUB  HO4   .  H  0  ?  ?  ?  1  26
+RUB  2HOP  .  H  0  ?  ?  ?  0  27
+RUB  3HOP  .  H  0  ?  ?  ?  0  28
+RUB  5HOP  .  H  0  ?  ?  ?  0  29
+RUB  6HOP  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RUB  C1   C2    SING  1 
+RUB  C1   O1    SING  2 
+RUB  C1   1H1   SING  3 
+RUB  C1   2H1   SING  4 
+RUB  C2   C3    SING  5 
+RUB  C2   O2    DOUB  6 
+RUB  C3   C4    SING  7 
+RUB  C3   O3    SING  8 
+RUB  C3   H3    SING  9 
+RUB  C4   C5    SING  10
+RUB  C4   O4    SING  11
+RUB  C4   H4    SING  12
+RUB  C5   O5    SING  13
+RUB  C5   1H5   SING  14
+RUB  C5   2H5   SING  15
+RUB  O1   P1    SING  16
+RUB  O3   HO3   SING  17
+RUB  O4   HO4   SING  18
+RUB  O5   P2    SING  19
+RUB  P1   O1P   DOUB  20
+RUB  P1   O2P   SING  21
+RUB  P1   O3P   SING  22
+RUB  P2   O4P   DOUB  23
+RUB  P2   O5P   SING  24
+RUB  P2   O6P   SING  25
+RUB  O2P  2HOP  SING  26
+RUB  O3P  3HOP  SING  27
+RUB  O5P  5HOP  SING  28
+RUB  O6P  6HOP  SING  29
+#

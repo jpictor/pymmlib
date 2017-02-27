@@ -1,0 +1,86 @@
+data_CTE
+#
+_chem_comp.id                   CTE
+_chem_comp.name                 7-CHLOROTRYPTOPHAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H11 N2 O2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.673
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CTE  O     .  O   0  2.787  5.682  14.012  1  1 
+CTE  C     .  C   0  3.966  5.521  14.392  1  2 
+CTE  OXT   .  O   0  4.266  4.612  15.175  1  3 
+CTE  CA    .  C   0  5.092  6.437  13.874  1  4 
+CTE  N     .  N   0  5.158  6.370  12.386  1  5 
+CTE  CB    .  C   0  4.899  7.867  14.404  1  6 
+CTE  CG    .  C   0  5.038  7.959  15.957  1  7 
+CTE  CD1   .  C   0  6.173  7.897  16.698  1  8 
+CTE  NE1   .  N   0  5.882  8.023  18.023  1  9 
+CTE  CE2   .  C   0  4.555  8.179  18.149  1  10
+CTE  CD2   .  C   0  3.982  8.125  16.858  1  11
+CTE  CE3   .  C   0  2.595  8.258  16.697  1  12
+CTE  CZ3   .  C   0  1.779  8.441  17.824  1  13
+CTE  CH2   .  C   0  2.329  8.477  19.114  1  14
+CTE  CZ2   .  C   0  3.720  8.348  19.269  1  15
+CTE  CLAD  .  CL  0  4.434  8.360  20.847  0  16
+CTE  1HN   .  H   0  ?      ?      ?       0  17
+CTE  2HN   .  H   0  ?      ?      ?       0  18
+CTE  HA    .  H   0  ?      ?      ?       1  19
+CTE  1HB   .  H   0  ?      ?      ?       0  20
+CTE  2HB   .  H   0  ?      ?      ?       0  21
+CTE  HD1   .  H   0  ?      ?      ?       1  22
+CTE  HE1   .  H   0  ?      ?      ?       1  23
+CTE  HH2   .  H   0  ?      ?      ?       1  24
+CTE  HZ3   .  H   0  ?      ?      ?       1  25
+CTE  HE3   .  H   0  ?      ?      ?       1  26
+CTE  HO    .  H   0  ?      ?      ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CTE  O    C     SING  1 
+CTE  O    HO    SING  2 
+CTE  C    CA    SING  3 
+CTE  C    OXT   DOUB  4 
+CTE  CA   N     SING  5 
+CTE  CA   CB    SING  6 
+CTE  CA   HA    SING  7 
+CTE  N    1HN   SING  8 
+CTE  N    2HN   SING  9 
+CTE  CB   CG    SING  10
+CTE  CB   1HB   SING  11
+CTE  CB   2HB   SING  12
+CTE  CG   CD1   DOUB  13
+CTE  CG   CD2   SING  14
+CTE  CD1  NE1   SING  15
+CTE  CD1  HD1   SING  16
+CTE  NE1  CE2   SING  17
+CTE  NE1  HE1   SING  18
+CTE  CE2  CZ2   AROM  19
+CTE  CE2  CD2   AROM  20
+CTE  CD2  CE3   AROM  21
+CTE  CE3  CZ3   AROM  22
+CTE  CE3  HE3   SING  23
+CTE  CZ3  CH2   AROM  24
+CTE  CZ3  HZ3   SING  25
+CTE  CH2  CZ2   AROM  26
+CTE  CH2  HH2   SING  27
+CTE  CZ2  CLAD  SING  28
+#

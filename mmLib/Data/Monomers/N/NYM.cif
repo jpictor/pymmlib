@@ -1,0 +1,107 @@
+data_NYM
+#
+_chem_comp.id                   NYM
+_chem_comp.name                 '3'-DEOXY-3'-AMINOTHYMIDINE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N3 O7 P1'
+_chem_comp.pdbx_synonyms        'PHOSPHORIC ACID MONO-[3-AMINO-5-(5-METHYL-2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-TETRAHYDRO-FURAN-2-YLMETHYL] ESTER'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.226
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NYM  N1    .  N  0  13.411  77.709  24.069  1  1 
+NYM  C6    .  C  0  12.696  76.830  23.319  1  2 
+NYM  C2    .  C  0  13.808  79.004  23.630  1  3 
+NYM  O2    .  O  0  14.484  79.727  24.367  1  4 
+NYM  N3    .  N  0  13.336  79.377  22.417  1  5 
+NYM  C4    .  C  0  12.575  78.536  21.592  1  6 
+NYM  O4    .  O  0  12.240  79.043  20.399  1  7 
+NYM  C5    .  C  0  12.241  77.175  22.107  1  8 
+NYM  C7    .  C  0  11.395  76.340  21.134  1  9 
+NYM  O4*   .  O  0  14.642  76.069  25.048  1  10
+NYM  N3*   .  N  0  14.220  76.133  28.361  1  11
+NYM  C1*   .  C  0  13.969  77.201  25.374  1  12
+NYM  C2*   .  C  0  12.916  76.698  26.381  1  13
+NYM  C3*   .  C  0  13.594  75.540  27.101  1  14
+NYM  C4*   .  C  0  14.787  75.246  26.192  1  15
+NYM  O5*   .  O  0  13.498  73.264  25.851  1  16
+NYM  C5*   .  C  0  14.888  73.703  25.935  1  17
+NYM  P1    .  P  0  13.018  71.741  26.106  1  18
+NYM  OP2   .  O  0  13.627  71.047  27.280  1  19
+NYM  OP1   .  O  0  11.587  71.814  25.809  1  20
+NYM  OP3   .  O  0  14.039  71.077  24.986  1  21
+NYM  1HP3  .  H  0  ?       ?       ?       0  22
+NYM  1HP2  .  H  0  ?       ?       ?       0  23
+NYM  1H5*  .  H  0  ?       ?       ?       0  24
+NYM  2H5*  .  H  0  ?       ?       ?       0  25
+NYM  1H4*  .  H  0  ?       ?       ?       0  26
+NYM  1H2*  .  H  0  ?       ?       ?       0  27
+NYM  2H2*  .  H  0  ?       ?       ?       0  28
+NYM  1H1*  .  H  0  ?       ?       ?       0  29
+NYM  1HN3  .  H  0  ?       ?       ?       0  30
+NYM  1HC7  .  H  0  ?       ?       ?       0  31
+NYM  2HC7  .  H  0  ?       ?       ?       0  32
+NYM  3HC7  .  H  0  ?       ?       ?       0  33
+NYM  1HC6  .  H  0  ?       ?       ?       0  34
+NYM  1HC3  .  H  0  ?       ?       ?       0  35
+NYM  1H3*  .  H  0  ?       ?       ?       0  36
+NYM  2H3*  .  H  0  ?       ?       ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NYM  N1   C6    SING  1 
+NYM  N1   C2    SING  2 
+NYM  N1   C1*   SING  3 
+NYM  C6   C5    DOUB  4 
+NYM  C6   1HC6  SING  5 
+NYM  C2   O2    DOUB  6 
+NYM  C2   N3    SING  7 
+NYM  N3   C4    SING  8 
+NYM  N3   1HN3  SING  9 
+NYM  C4   O4    DOUB  10
+NYM  C4   C5    SING  11
+NYM  C5   C7    SING  12
+NYM  C7   1HC7  SING  13
+NYM  C7   2HC7  SING  14
+NYM  C7   3HC7  SING  15
+NYM  O4*  C1*   SING  16
+NYM  O4*  C4*   SING  17
+NYM  N3*  C3*   SING  18
+NYM  N3*  1H3*  SING  19
+NYM  N3*  2H3*  SING  20
+NYM  C1*  C2*   SING  21
+NYM  C1*  1H1*  SING  22
+NYM  C2*  C3*   SING  23
+NYM  C2*  1H2*  SING  24
+NYM  C2*  2H2*  SING  25
+NYM  C3*  C4*   SING  26
+NYM  C3*  1HC3  SING  27
+NYM  C4*  C5*   SING  28
+NYM  C4*  1H4*  SING  29
+NYM  O5*  C5*   SING  30
+NYM  O5*  P1    SING  31
+NYM  C5*  1H5*  SING  32
+NYM  C5*  2H5*  SING  33
+NYM  P1   OP2   SING  34
+NYM  P1   OP1   DOUB  35
+NYM  P1   OP3   SING  36
+NYM  OP2  1HP3  SING  37
+NYM  OP3  1HP2  SING  38
+#

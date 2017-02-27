@@ -1,0 +1,54 @@
+data_MAS
+#
+_chem_comp.id                   MAS
+_chem_comp.name                 'DIMETHYLAMINOSULFONYL GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H6 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        108.135
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAS  S    .  S  0  ?  ?  ?  1  1 
+MAS  O1   .  O  0  ?  ?  ?  1  2 
+MAS  O2   .  O  0  ?  ?  ?  1  3 
+MAS  N    .  N  0  ?  ?  ?  1  4 
+MAS  C1   .  C  0  ?  ?  ?  1  5 
+MAS  C2   .  C  0  ?  ?  ?  1  6 
+MAS  1H1  .  H  0  ?  ?  ?  0  7 
+MAS  2H1  .  H  0  ?  ?  ?  0  8 
+MAS  3H1  .  H  0  ?  ?  ?  0  9 
+MAS  1H2  .  H  0  ?  ?  ?  0  10
+MAS  2H2  .  H  0  ?  ?  ?  0  11
+MAS  3H2  .  H  0  ?  ?  ?  0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAS  S   N    SING  1 
+MAS  S   O1   DOUB  2 
+MAS  S   O2   DOUB  3 
+MAS  N   C1   SING  4 
+MAS  N   C2   SING  5 
+MAS  C1  1H1  SING  6 
+MAS  C1  2H1  SING  7 
+MAS  C1  3H1  SING  8 
+MAS  C2  1H2  SING  9 
+MAS  C2  2H2  SING  10
+MAS  C2  3H2  SING  11
+#

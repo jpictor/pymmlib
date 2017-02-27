@@ -1,0 +1,115 @@
+data_ORE
+#
+_chem_comp.id                   ORE
+_chem_comp.name                 '4-(2,7-DIFLUORO-6-HYDROXY-3-OXO-3H-XANTHEN-9-YL)ISOPHTHALIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H10 O7 F2'
+_chem_comp.pdbx_synonyms        'OREGON GREEN 488 CARBOXYLATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        412.303
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ORE  O7   .  O  0  21.132  28.921  43.241  1  1 
+ORE  C21  .  C  0  22.159  28.224  43.309  1  2 
+ORE  O6   .  O  0  22.952  28.319  44.261  1  3 
+ORE  C17  .  C  0  22.442  27.238  42.217  1  4 
+ORE  C18  .  C  0  21.520  27.115  41.190  1  5 
+ORE  C19  .  C  0  21.733  26.218  40.164  1  6 
+ORE  C20  .  C  0  20.684  26.159  39.117  1  7 
+ORE  O5   .  O  0  20.553  27.141  38.361  1  8 
+ORE  O4   .  O  0  19.957  25.148  39.074  1  9 
+ORE  C16  .  C  0  23.601  26.450  42.227  1  10
+ORE  C15  .  C  0  23.853  25.539  41.208  1  11
+ORE  C14  .  C  0  22.957  25.371  40.160  1  12
+ORE  C10  .  C  0  23.271  24.384  39.059  1  13
+ORE  C9   .  C  0  23.129  23.054  39.205  1  14
+ORE  C8   .  C  0  22.641  22.440  40.456  1  15
+ORE  C7   .  C  0  22.512  21.107  40.574  1  16
+ORE  F2   .  F  0  22.065  20.604  41.688  1  17
+ORE  C6   .  C  0  22.812  20.146  39.469  1  18
+ORE  O3   .  O  0  23.640  19.071  39.910  1  19
+ORE  C4   .  C  0  23.454  22.152  38.111  1  20
+ORE  C5   .  C  0  23.331  20.828  38.221  1  21
+ORE  C11  .  C  0  23.780  24.943  37.757  1  22
+ORE  C12  .  C  0  23.960  26.319  37.529  1  23
+ORE  C13  .  C  0  24.429  26.778  36.295  1  24
+ORE  F1   .  F  0  24.635  28.065  36.021  1  25
+ORE  C3   .  C  0  24.102  23.998  36.665  1  26
+ORE  O2   .  O  0  23.937  22.663  36.858  1  27
+ORE  C2   .  C  0  24.572  24.462  35.436  1  28
+ORE  C1   .  C  0  24.738  25.823  35.226  1  29
+ORE  O1   .  O  0  25.163  26.295  34.076  1  30
+ORE  HO7  .  H  0  ?       ?       ?       1  31
+ORE  H16  .  H  0  ?       ?       ?       1  32
+ORE  H15  .  H  0  ?       ?       ?       1  33
+ORE  H18  .  H  0  ?       ?       ?       1  34
+ORE  HO4  .  H  0  ?       ?       ?       1  35
+ORE  H12  .  H  0  ?       ?       ?       1  36
+ORE  HO1  .  H  0  ?       ?       ?       1  37
+ORE  H2   .  H  0  ?       ?       ?       1  38
+ORE  H5   .  H  0  ?       ?       ?       1  39
+ORE  H8   .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ORE  O7   C21  SING  1 
+ORE  O7   HO7  SING  2 
+ORE  C21  O6   DOUB  3 
+ORE  C21  C17  SING  4 
+ORE  C17  C16  AROM  5 
+ORE  C17  C18  AROM  6 
+ORE  C18  C19  AROM  7 
+ORE  C18  H18  SING  8 
+ORE  C19  C14  AROM  9 
+ORE  C19  C20  SING  10
+ORE  C20  O5   DOUB  11
+ORE  C20  O4   SING  12
+ORE  O4   HO4  SING  13
+ORE  C16  C15  AROM  14
+ORE  C16  H16  SING  15
+ORE  C15  C14  AROM  16
+ORE  C15  H15  SING  17
+ORE  C14  C10  SING  18
+ORE  C10  C11  SING  19
+ORE  C10  C9   DOUB  20
+ORE  C9   C8   SING  21
+ORE  C9   C4   SING  22
+ORE  C8   C7   DOUB  23
+ORE  C8   H8   SING  24
+ORE  C7   C6   SING  25
+ORE  C7   F2   SING  26
+ORE  C6   C5   SING  27
+ORE  C6   O3   DOUB  28
+ORE  C4   O2   SING  29
+ORE  C4   C5   DOUB  30
+ORE  C5   H5   SING  31
+ORE  C11  C12  AROM  32
+ORE  C11  C3   AROM  33
+ORE  C12  C13  AROM  34
+ORE  C12  H12  SING  35
+ORE  C13  F1   SING  36
+ORE  C13  C1   AROM  37
+ORE  C3   C2   AROM  38
+ORE  C3   O2   SING  39
+ORE  C2   C1   AROM  40
+ORE  C2   H2   SING  41
+ORE  C1   O1   SING  42
+ORE  O1   HO1  SING  43
+#

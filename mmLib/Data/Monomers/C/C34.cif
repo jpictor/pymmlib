@@ -1,0 +1,130 @@
+data_C34
+#
+_chem_comp.id                       C34
+_chem_comp.name                     N4-METHYL-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H16 N3 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            321.226
+_chem_comp.formula_weight           ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+C34  SMILES            CNC1=NC(=O)N(C=C1)[C@H]2C[C@H](O)[C@@H](COP(O)(O)=O)O2                                                                                             CACTVS              2.87 
+C34  SMILES_CANONICAL  CNC1=NC(=O)N(C=C1)C2CC(O)C(COP(O)(O)=O)O2                                                                                                          CACTVS              2.87 
+C34  INCHI             InChI=1/C10H16N3O7P/c1-11-8-2-3-13(10(15)12-8)9-4-6(14)7(20-9)5-19-21(16,17)18/h2-3,6-7,9,14H,4-5H2,1H3,(H,11,12,15)(H2,16,17,18)/t6-,7+,9+/m0/s1  InChi               1    
+C34  SMILES_CANONICAL  CNc1ccn(c(=O)n1)[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)O                                                                                               OpenEye/OEToolkits  1.4.2
+C34  SMILES            CNc1ccn(c(=O)n1)C2CC(C(O2)COP(=O)(O)O)O                                                                                                            OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          C34
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '[(2R,3S,5R)-3-hydroxy-5-(4-methylamino-2-oxo-pyrimidin-1-yl)oxolan-2-yl]methoxyphosphonic acid'
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+C34  P     .  P  0  12.525  7.431   32.191  1  N  N  N  1 
+C34  O1P   .  O  0  12.295  6.219   33.060  1  N  N  N  2 
+C34  O2P   .  O  0  11.549  7.474   31.037  1  N  N  N  3 
+C34  O3P   .  O  0  14.030  7.228   31.762  1  N  N  Y  4 
+C34  O5*   .  O  0  12.465  8.822   32.975  1  N  N  N  5 
+C34  C5*   .  C  0  11.518  8.969   34.067  1  N  N  N  6 
+C34  C4*   .  C  0  11.396  10.474  34.282  1  N  R  N  7 
+C34  O4*   .  O  0  12.617  10.926  34.823  1  N  N  N  8 
+C34  C1*   .  C  0  12.946  12.231  34.255  1  N  R  N  9 
+C34  N1    .  N  0  14.429  12.268  34.139  1  Y  N  N  10
+C34  C6    .  C  0  15.179  11.136  34.165  1  Y  N  N  11
+C34  C2    .  C  0  15.013  13.530  33.982  1  Y  N  N  12
+C34  O2    .  O  0  14.314  14.539  33.959  1  N  N  N  13
+C34  N3    .  N  0  16.360  13.597  33.856  1  Y  N  N  14
+C34  C4    .  C  0  17.137  12.471  33.897  1  Y  N  N  15
+C34  N4    .  N  0  18.464  12.588  33.771  1  N  N  N  16
+C34  C7    .  C  0  19.365  11.434  33.942  1  N  N  N  17
+C34  C5    .  C  0  16.520  11.191  34.053  1  Y  N  N  18
+C34  C2*   .  C  0  12.455  11.985  32.764  1  N  N  N  19
+C34  C3*   .  C  0  11.121  11.302  33.069  1  N  S  N  20
+C34  O3*   .  O  0  10.180  12.385  33.288  1  N  N  N  21
+C34  2HOP  .  H  0  11.693  8.237   30.489  0  N  N  N  22
+C34  3HOP  .  H  0  14.174  7.991   31.214  0  N  N  N  23
+C34  1H5*  .  H  0  11.796  8.402   34.986  0  N  N  N  24
+C34  2H5*  .  H  0  10.543  8.457   33.892  0  N  N  N  25
+C34  H4*   .  H  0  10.588  10.660  35.028  1  N  N  N  26
+C34  H1*   .  H  0  12.486  13.106  34.771  1  N  N  N  27
+C34  H6    .  H  0  14.683  10.158  34.279  1  N  N  N  28
+C34  H4    .  H  0  18.863  13.500  33.551  1  N  N  N  29
+C34  1H7C  .  H  0  20.471  11.531  33.837  0  N  N  N  30
+C34  2H7C  .  H  0  19.026  10.630  33.247  0  N  N  N  31
+C34  3H7C  .  H  0  19.156  10.983  34.940  0  N  N  N  32
+C34  H5    .  H  0  17.127  10.271  34.081  1  N  N  N  33
+C34  1H2*  .  H  0  12.412  12.882  32.103  0  N  N  N  34
+C34  2H2*  .  H  0  13.155  11.429  32.098  0  N  N  N  35
+C34  H3*   .  H  0  10.798  10.661  32.215  1  N  N  N  36
+C34  H3T   .  H  0  10.005  12.911  32.517  1  N  N  N  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+C34  P    O1P   DOUB  N  N  1 
+C34  P    O2P   SING  N  N  2 
+C34  P    O3P   SING  N  N  3 
+C34  P    O5*   SING  N  N  4 
+C34  O2P  2HOP  SING  N  N  5 
+C34  O3P  3HOP  SING  N  N  6 
+C34  O5*  C5*   SING  N  N  7 
+C34  C5*  C4*   SING  N  N  8 
+C34  C5*  1H5*  SING  N  N  9 
+C34  C5*  2H5*  SING  N  N  10
+C34  C4*  O4*   SING  N  N  11
+C34  C4*  C3*   SING  N  N  12
+C34  C4*  H4*   SING  N  N  13
+C34  O4*  C1*   SING  N  N  14
+C34  C1*  N1    SING  N  N  15
+C34  C1*  C2*   SING  N  N  16
+C34  C1*  H1*   SING  N  N  17
+C34  N1   C6    SING  Y  N  18
+C34  N1   C2    SING  Y  N  19
+C34  C6   C5    DOUB  Y  N  20
+C34  C6   H6    SING  N  N  21
+C34  C2   O2    DOUB  N  N  22
+C34  C2   N3    SING  Y  N  23
+C34  N3   C4    DOUB  Y  N  24
+C34  C4   N4    SING  N  N  25
+C34  C4   C5    SING  Y  N  26
+C34  N4   C7    SING  N  N  27
+C34  N4   H4    SING  N  N  28
+C34  C7   1H7C  SING  N  N  29
+C34  C7   2H7C  SING  N  N  30
+C34  C7   3H7C  SING  N  N  31
+C34  C5   H5    SING  N  N  32
+C34  C2*  C3*   SING  N  N  33
+C34  C2*  1H2*  SING  N  N  34
+C34  C2*  2H2*  SING  N  N  35
+C34  C3*  O3*   SING  N  N  36
+C34  C3*  H3*   SING  N  N  37
+C34  O3*  H3T   SING  N  N  38
+#

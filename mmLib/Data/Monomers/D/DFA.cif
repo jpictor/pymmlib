@@ -1,0 +1,88 @@
+data_DFA
+#
+_chem_comp.id                   DFA
+_chem_comp.name                 'DIPHENYLACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFA  C8   .  C  0  ?  ?  ?  1  1 
+DFA  O11  .  O  0  ?  ?  ?  1  2 
+DFA  C5   .  C  0  ?  ?  ?  1  3 
+DFA  C4   .  C  0  ?  ?  ?  1  4 
+DFA  C3   .  C  0  ?  ?  ?  1  5 
+DFA  C2   .  C  0  ?  ?  ?  1  6 
+DFA  C1   .  C  0  ?  ?  ?  1  7 
+DFA  C6   .  C  0  ?  ?  ?  1  8 
+DFA  C10  .  C  0  ?  ?  ?  1  9 
+DFA  C16  .  C  0  ?  ?  ?  1  10
+DFA  C15  .  C  0  ?  ?  ?  1  11
+DFA  C14  .  C  0  ?  ?  ?  1  12
+DFA  C13  .  C  0  ?  ?  ?  1  13
+DFA  C12  .  C  0  ?  ?  ?  1  14
+DFA  C11  .  C  0  ?  ?  ?  1  15
+DFA  O1'  .  O  0  ?  ?  ?  1  16
+DFA  H11  .  H  0  ?  ?  ?  1  17
+DFA  H16  .  H  0  ?  ?  ?  1  18
+DFA  H12  .  H  0  ?  ?  ?  1  19
+DFA  H15  .  H  0  ?  ?  ?  1  20
+DFA  H14  .  H  0  ?  ?  ?  1  21
+DFA  H13  .  H  0  ?  ?  ?  1  22
+DFA  H2   .  H  0  ?  ?  ?  1  23
+DFA  H4   .  H  0  ?  ?  ?  1  24
+DFA  H1   .  H  0  ?  ?  ?  1  25
+DFA  H6   .  H  0  ?  ?  ?  1  26
+DFA  H5   .  H  0  ?  ?  ?  1  27
+DFA  H1'  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFA  C8   O11  DOUB  1 
+DFA  C8   C11  SING  2 
+DFA  C8   O1'  SING  3 
+DFA  C5   C4   AROM  4 
+DFA  C5   H5   SING  5 
+DFA  C5   C6   AROM  6 
+DFA  C4   H4   SING  7 
+DFA  C4   C3   AROM  8 
+DFA  C3   C2   AROM  9 
+DFA  C3   C11  SING  10
+DFA  C2   C1   AROM  11
+DFA  C2   H2   SING  12
+DFA  C1   C6   AROM  13
+DFA  C1   H1   SING  14
+DFA  C6   H6   SING  15
+DFA  C10  C16  AROM  16
+DFA  C10  C12  AROM  17
+DFA  C10  C11  SING  18
+DFA  C16  C15  AROM  19
+DFA  C16  H16  SING  20
+DFA  C15  C14  AROM  21
+DFA  C15  H15  SING  22
+DFA  C14  C13  AROM  23
+DFA  C14  H14  SING  24
+DFA  C13  C12  AROM  25
+DFA  C13  H13  SING  26
+DFA  C12  H12  SING  27
+DFA  C11  H11  SING  28
+DFA  O1'  H1'  SING  29
+#

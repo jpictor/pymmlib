@@ -1,0 +1,93 @@
+data_6PR
+#
+_chem_comp.id                   6PR
+_chem_comp.name                 '(S)-4-AMINO-4-OXO-3-(2-PHOSPHONOACETAMIDO)BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 N2 O7 P1'
+_chem_comp.pdbx_synonyms        (PHOSPHONOACETYL)-L-ALPHA-ASPARAGINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.136
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          6PR
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C([C@@H](C(=O)N)NC(=O)CP(=O)(O)O)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+6PR  OAH   .  O  0  68.517  48.016  63.280  1  N  1 
+6PR  PAP   .  P  0  67.370  49.145  63.255  1  N  2 
+6PR  OAG   .  O  0  66.811  49.174  61.747  1  N  3 
+6PR  OAE   .  O  0  66.313  48.894  64.261  1  N  4 
+6PR  CAJ   .  C  0  68.234  50.714  63.508  1  N  5 
+6PR  CAN   .  C  0  67.370  51.935  63.179  1  N  6 
+6PR  OAD   .  O  0  66.369  52.201  63.840  1  N  7 
+6PR  N     .  N  0  67.793  52.647  62.135  1  N  8 
+6PR  CA    .  C  0  67.123  53.872  61.673  1  N  9 
+6PR  CB    .  C  0  67.984  54.567  60.614  1  N  10
+6PR  CG    .  C  0  68.227  53.711  59.368  1  N  11
+6PR  OD2   .  O  0  67.455  52.750  59.160  1  N  12
+6PR  OD1   .  O  0  69.186  54.047  58.640  1  N  13
+6PR  C     .  C  0  65.719  53.605  61.126  1  N  14
+6PR  O     .  O  0  65.244  52.472  61.090  1  N  15
+6PR  NAA   .  N  0  65.073  54.689  60.705  1  N  16
+6PR  HOAH  .  H  0  68.762  47.794  62.390  0  N  17
+6PR  HOAE  .  H  0  66.704  48.840  65.125  0  N  18
+6PR  1HAJ  .  H  0  69.118  50.730  62.854  0  N  19
+6PR  2HAJ  .  H  0  68.501  50.776  64.573  0  N  20
+6PR  HN    .  H  0  68.605  52.333  61.642  1  N  21
+6PR  HA    .  H  0  67.004  54.530  62.546  1  N  22
+6PR  1HB   .  H  0  68.960  54.801  61.065  0  N  23
+6PR  2HB   .  H  0  67.440  55.467  60.291  0  N  24
+6PR  HOD2  .  H  0  67.708  52.308  58.358  0  N  25
+6PR  1HAA  .  H  0  64.158  54.487  60.355  0  N  26
+6PR  2HAA  .  H  0  65.462  55.610  60.735  0  N  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+6PR  OAH  PAP   SING  N  1 
+6PR  OAH  HOAH  SING  N  2 
+6PR  PAP  OAG   DOUB  N  3 
+6PR  PAP  CAJ   SING  N  4 
+6PR  PAP  OAE   SING  N  5 
+6PR  OAE  HOAE  SING  N  6 
+6PR  CAJ  CAN   SING  N  7 
+6PR  CAJ  1HAJ  SING  N  8 
+6PR  CAJ  2HAJ  SING  N  9 
+6PR  CAN  N     SING  N  10
+6PR  CAN  OAD   DOUB  N  11
+6PR  N    CA    SING  N  12
+6PR  N    HN    SING  N  13
+6PR  CA   CB    SING  N  14
+6PR  CA   C     SING  N  15
+6PR  CA   HA    SING  N  16
+6PR  CB   CG    SING  N  17
+6PR  CB   1HB   SING  N  18
+6PR  CB   2HB   SING  N  19
+6PR  CG   OD1   DOUB  N  20
+6PR  CG   OD2   SING  N  21
+6PR  OD2  HOD2  SING  N  22
+6PR  C    NAA   SING  N  23
+6PR  C    O     DOUB  N  24
+6PR  NAA  1HAA  SING  N  25
+6PR  NAA  2HAA  SING  N  26
+#

@@ -1,0 +1,90 @@
+data_GSE
+#
+_chem_comp.id                   GSE
+_chem_comp.name                 L-ALPHA-GLYCEROPHOSPHORYLSERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSE  C1    .  C  0  ?  ?  ?  1  1 
+GSE  O11   .  O  0  ?  ?  ?  1  2 
+GSE  O12   .  O  0  ?  ?  ?  1  3 
+GSE  C2    .  C  0  ?  ?  ?  1  4 
+GSE  C3    .  C  0  ?  ?  ?  1  5 
+GSE  O31   .  O  0  ?  ?  ?  1  6 
+GSE  P     .  P  0  ?  ?  ?  1  7 
+GSE  O14   .  O  0  ?  ?  ?  1  8 
+GSE  O13   .  O  0  ?  ?  ?  1  9 
+GSE  O21   .  O  0  ?  ?  ?  1  10
+GSE  C11   .  C  0  ?  ?  ?  1  11
+GSE  C12   .  C  0  ?  ?  ?  1  12
+GSE  N     .  N  0  ?  ?  ?  1  13
+GSE  C13   .  C  0  ?  ?  ?  1  14
+GSE  O16   .  O  0  ?  ?  ?  1  15
+GSE  O15   .  O  0  ?  ?  ?  1  16
+GSE  1H1   .  H  0  ?  ?  ?  0  17
+GSE  2H1   .  H  0  ?  ?  ?  0  18
+GSE  H2    .  H  0  ?  ?  ?  1  19
+GSE  1H3   .  H  0  ?  ?  ?  0  20
+GSE  2H3   .  H  0  ?  ?  ?  0  21
+GSE  HO1   .  H  0  ?  ?  ?  1  22
+GSE  HO4   .  H  0  ?  ?  ?  1  23
+GSE  HO2   .  H  0  ?  ?  ?  1  24
+GSE  1H11  .  H  0  ?  ?  ?  0  25
+GSE  2H11  .  H  0  ?  ?  ?  0  26
+GSE  H12   .  H  0  ?  ?  ?  1  27
+GSE  1HN   .  H  0  ?  ?  ?  0  28
+GSE  2HN   .  H  0  ?  ?  ?  0  29
+GSE  HO6   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSE  C1   O11   SING  1 
+GSE  C1   C2    SING  2 
+GSE  C1   1H1   SING  3 
+GSE  C1   2H1   SING  4 
+GSE  O11  P     SING  5 
+GSE  O12  P     SING  6 
+GSE  O12  C11   SING  7 
+GSE  C2   C3    SING  8 
+GSE  C2   O21   SING  9 
+GSE  C2   H2    SING  10
+GSE  C3   O31   SING  11
+GSE  C3   1H3   SING  12
+GSE  C3   2H3   SING  13
+GSE  O31  HO1   SING  14
+GSE  P    O14   SING  15
+GSE  P    O13   DOUB  16
+GSE  O14  HO4   SING  17
+GSE  O21  HO2   SING  18
+GSE  C11  C12   SING  19
+GSE  C11  1H11  SING  20
+GSE  C11  2H11  SING  21
+GSE  C12  N     SING  22
+GSE  C12  C13   SING  23
+GSE  C12  H12   SING  24
+GSE  N    1HN   SING  25
+GSE  N    2HN   SING  26
+GSE  C13  O16   SING  27
+GSE  C13  O15   DOUB  28
+GSE  O16  HO6   SING  29
+#

@@ -1,0 +1,77 @@
+data_512
+#
+_chem_comp.id                   512
+_chem_comp.name                 '4-BROMO-3-(CARBOXYMETHOXY)THIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 O5 BR1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        281.077
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          512
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1=C(C(=C(S1)C(=O)O)OCC(=O)O)Br
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+512  C1    .  C   0  45.205  12.958  1.108  1  N  1 
+512  C2    .  C   0  45.769  13.387  2.330  1  N  2 
+512  S3    .  S   0  44.411  14.272  0.382  1  N  3 
+512  C4    .  C   0  44.768  15.396  1.613  1  N  4 
+512  C5    .  C   0  45.532  14.758  2.629  1  N  5 
+512  C6    .  C   0  44.333  16.724  1.548  1  N  6 
+512  O7    .  O   0  43.632  17.032  0.440  1  N  7 
+512  O8    .  O   0  46.046  15.350  3.845  1  N  8 
+512  C9    .  C   0  47.270  16.093  3.660  1  N  9 
+512  C10   .  C   0  47.573  16.974  4.874  1  N  10
+512  O13   .  O   0  48.726  17.656  4.794  1  N  11
+512  O14   .  O   0  44.559  17.541  2.409  1  N  12
+512  O15   .  O   0  46.856  17.050  5.822  1  N  13
+512  BR19  .  BR  0  46.746  12.229  3.444  0  N  14
+512  H1    .  H   0  45.268  11.959  0.702  1  N  15
+512  1H9   .  H   0  48.099  15.384  3.519  0  N  16
+512  2H9   .  H   0  47.155  16.741  2.779  0  N  17
+512  HO14  .  H   0  44.173  18.374  2.165  0  N  18
+512  HO15  .  H   0  47.235  17.644  6.459  0  N  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+512  C1   S3    SING  N  1 
+512  C1   C2    DOUB  N  2 
+512  C1   H1    SING  N  3 
+512  C2   C5    SING  N  4 
+512  C2   BR19  SING  N  5 
+512  S3   C4    SING  N  6 
+512  C4   C6    SING  N  7 
+512  C4   C5    DOUB  N  8 
+512  C5   O8    SING  N  9 
+512  C6   O7    DOUB  N  10
+512  C6   O14   SING  N  11
+512  O8   C9    SING  N  12
+512  C9   C10   SING  N  13
+512  C9   1H9   SING  N  14
+512  C9   2H9   SING  N  15
+512  C10  O13   DOUB  N  16
+512  C10  O15   SING  N  17
+512  O14  HO14  SING  N  18
+512  O15  HO15  SING  N  19
+#

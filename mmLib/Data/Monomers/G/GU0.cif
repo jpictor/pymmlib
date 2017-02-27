@@ -1,0 +1,97 @@
+data_GU0
+#
+_chem_comp.id                   GU0
+_chem_comp.name                 2,3,6-TRI-O-SULFONATO-ALPHA-L-GALACTOPYRANOSE
+_chem_comp.type                 'd-saccharide 1,4 and 1,4 linking'
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H9 O15 S3'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       417.308
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GU0  O1   .  O  0   52.073  -6.294  31.800  1  1 
+GU0  C1   .  C  0   52.020  -6.290  33.235  1  2 
+GU0  C2   .  C  0   52.089  -4.840  33.726  1  3 
+GU0  O2   .  O  0   53.393  -4.327  33.434  1  4 
+GU0  S2   .  S  0   53.386  -3.207  32.543  1  5 
+GU0  O23  .  O  0   52.222  -2.304  32.827  1  6 
+GU0  O24  .  O  0   53.313  -3.687  31.124  1  7 
+GU0  O22  .  O  -1  54.661  -2.444  32.745  1  8 
+GU0  C3   .  C  0   51.846  -4.757  35.238  1  9 
+GU0  O3   .  O  0   51.725  -3.383  35.630  1  10
+GU0  S3   .  S  0   52.770  -2.888  36.479  1  11
+GU0  O26  .  O  0   53.999  -2.620  35.662  1  12
+GU0  O27  .  O  0   53.101  -3.870  37.564  1  13
+GU0  O25  .  O  -1  52.326  -1.605  37.115  1  14
+GU0  O5   .  O  0   50.792  -6.916  33.639  1  15
+GU0  C5   .  C  0   50.605  -6.917  35.064  1  16
+GU0  C6   .  C  0   49.306  -7.676  35.346  1  17
+GU0  O6   .  O  0   48.203  -7.077  34.660  1  18
+GU0  S6   .  S  0   47.056  -7.836  34.264  1  19
+GU0  O29  .  O  0   45.935  -6.899  33.927  1  20
+GU0  O30  .  O  0   46.620  -8.736  35.381  1  21
+GU0  O28  .  O  -1  47.398  -8.659  33.058  1  22
+GU0  C4   .  C  0   50.552  -5.491  35.602  1  23
+GU0  O4   .  O  0   ?       ?       ?       1  24
+GU0  HO1  .  H  0   ?       ?       ?       1  25
+GU0  H1   .  H  0   ?       ?       ?       1  26
+GU0  H5   .  H  0   ?       ?       ?       1  27
+GU0  1H6  .  H  0   ?       ?       ?       0  28
+GU0  2H6  .  H  0   ?       ?       ?       0  29
+GU0  H4   .  H  0   ?       ?       ?       1  30
+GU0  HO4  .  H  0   ?       ?       ?       1  31
+GU0  H3   .  H  0   ?       ?       ?       1  32
+GU0  H2   .  H  0   ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GU0  O1  C1   SING  1 
+GU0  O1  HO1  SING  2 
+GU0  C1  O5   SING  3 
+GU0  C1  C2   SING  4 
+GU0  C1  H1   SING  5 
+GU0  C2  C3   SING  6 
+GU0  C2  O2   SING  7 
+GU0  C2  H2   SING  8 
+GU0  O2  S2   SING  9 
+GU0  S2  O23  DOUB  10
+GU0  S2  O24  DOUB  11
+GU0  S2  O22  SING  12
+GU0  C3  C4   SING  13
+GU0  C3  O3   SING  14
+GU0  C3  H3   SING  15
+GU0  O3  S3   SING  16
+GU0  S3  O26  DOUB  17
+GU0  S3  O27  DOUB  18
+GU0  S3  O25  SING  19
+GU0  O5  C5   SING  20
+GU0  C5  C6   SING  21
+GU0  C5  C4   SING  22
+GU0  C5  H5   SING  23
+GU0  C6  O6   SING  24
+GU0  C6  1H6  SING  25
+GU0  C6  2H6  SING  26
+GU0  O6  S6   SING  27
+GU0  S6  O29  DOUB  28
+GU0  S6  O30  DOUB  29
+GU0  S6  O28  SING  30
+GU0  C4  O4   SING  31
+GU0  C4  H4   SING  32
+GU0  O4  HO4  SING  33
+#

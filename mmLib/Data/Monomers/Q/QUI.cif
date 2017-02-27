@@ -1,0 +1,70 @@
+data_QUI
+#
+_chem_comp.id                   QUI
+_chem_comp.name                 2-CARBOXYQUINOXALINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.159
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+QUI  N1   .  N  0  ?  ?  ?  1  1 
+QUI  C2   .  C  0  ?  ?  ?  1  2 
+QUI  C3   .  C  0  ?  ?  ?  1  3 
+QUI  N4   .  N  0  ?  ?  ?  1  4 
+QUI  C5   .  C  0  ?  ?  ?  1  5 
+QUI  C6   .  C  0  ?  ?  ?  1  6 
+QUI  C7   .  C  0  ?  ?  ?  1  7 
+QUI  C8   .  C  0  ?  ?  ?  1  8 
+QUI  C9   .  C  0  ?  ?  ?  1  9 
+QUI  C10  .  C  0  ?  ?  ?  1  10
+QUI  C    .  C  0  ?  ?  ?  1  11
+QUI  O1   .  O  0  ?  ?  ?  1  12
+QUI  O2   .  O  0  ?  ?  ?  1  13
+QUI  H3   .  H  0  ?  ?  ?  1  14
+QUI  H5   .  H  0  ?  ?  ?  1  15
+QUI  H6   .  H  0  ?  ?  ?  1  16
+QUI  H7   .  H  0  ?  ?  ?  1  17
+QUI  H8   .  H  0  ?  ?  ?  1  18
+QUI  HO2  .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+QUI  N1  C2   DOUB  1 
+QUI  N1  C9   SING  2 
+QUI  C2  C3   SING  3 
+QUI  C2  C    SING  4 
+QUI  C3  N4   DOUB  5 
+QUI  C3  H3   SING  6 
+QUI  N4  C10  SING  7 
+QUI  C5  C6   DOUB  8 
+QUI  C5  C10  SING  9 
+QUI  C5  H5   SING  10
+QUI  C6  C7   SING  11
+QUI  C6  H6   SING  12
+QUI  C7  C8   DOUB  13
+QUI  C7  H7   SING  14
+QUI  C8  C9   SING  15
+QUI  C8  H8   SING  16
+QUI  C9  C10  DOUB  17
+QUI  C   O1   DOUB  18
+QUI  C   O2   SING  19
+QUI  O2  HO2  SING  20
+#

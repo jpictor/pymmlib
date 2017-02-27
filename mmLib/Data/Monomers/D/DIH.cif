@@ -1,0 +1,110 @@
+data_DIH
+#
+_chem_comp.id                   DIH
+_chem_comp.name                 3-HYDROXY-4-HYDROXYMETHYL-1-(4-OXO-4,4A,5,7A-TETRAHYDRO-3H-PYRROLO[3,2-D]PYRIMIDIN-7-YLMETHYL)-PYRROLIDINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N4 O3'
+_chem_comp.pdbx_synonyms        '4'-DEAZA-1'-AZA-2'-DEOXY-1'-(9-METHYLENE)-IMMUCILLIN-H, (3R,4R)-N-[9-DEAZAHYPOXANTHIN-9-YL)METHYL]-4-HYDROXYMETHYL-PYRROLIDIN-3-OL'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       267.307
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIH  O5*   .  O  0  54.786  13.576  44.032  1  1 
+DIH  C5*   .  C  0  54.963  14.914  44.471  1  2 
+DIH  C4*   .  C  0  56.246  15.618  44.734  1  3 
+DIH  C6*   .  C  0  57.046  15.634  43.503  1  4 
+DIH  C3*   .  C  0  56.071  17.032  45.172  1  5 
+DIH  O3*   .  O  0  56.905  17.466  46.228  1  6 
+DIH  C2*   .  C  0  56.212  17.632  43.827  1  7 
+DIH  N1*   .  N  1  57.355  17.020  43.210  1  8 
+DIH  C10   .  C  0  57.511  17.229  41.789  1  9 
+DIH  C9    .  C  0  56.642  16.797  40.666  1  10
+DIH  C8    .  C  0  56.744  15.687  39.837  1  11
+DIH  N7    .  N  0  55.807  15.580  38.925  1  12
+DIH  C5    .  C  0  54.998  16.689  39.129  1  13
+DIH  C6    .  C  0  53.786  17.131  38.430  1  14
+DIH  O6    .  O  0  53.238  16.570  37.484  1  15
+DIH  N1    .  N  0  53.217  18.351  38.936  1  16
+DIH  C2    .  C  0  53.753  19.104  40.030  1  17
+DIH  N3    .  N  0  54.902  18.686  40.695  1  18
+DIH  C4    .  C  0  55.490  17.466  40.207  1  19
+DIH  H1    .  H  0  ?       ?       ?       1  20
+DIH  H2    .  H  0  ?       ?       ?       1  21
+DIH  H4    .  H  0  ?       ?       ?       1  22
+DIH  H5    .  H  0  ?       ?       ?       1  23
+DIH  H7    .  H  0  ?       ?       ?       1  24
+DIH  H8    .  H  0  ?       ?       ?       1  25
+DIH  1H10  .  H  0  ?       ?       ?       0  26
+DIH  2H10  .  H  0  ?       ?       ?       0  27
+DIH  H1*   .  H  0  ?       ?       ?       1  28
+DIH  1H2*  .  H  0  ?       ?       ?       0  29
+DIH  2H2*  .  H  0  ?       ?       ?       0  30
+DIH  H3*   .  H  0  ?       ?       ?       1  31
+DIH  H4*   .  H  0  ?       ?       ?       1  32
+DIH  1H6*  .  H  0  ?       ?       ?       0  33
+DIH  2H6*  .  H  0  ?       ?       ?       0  34
+DIH  *HO3  .  H  0  ?       ?       ?       0  35
+DIH  1H5*  .  H  0  ?       ?       ?       0  36
+DIH  2H5*  .  H  0  ?       ?       ?       0  37
+DIH  *HO5  .  H  0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIH  O5*  C5*   SING  1 
+DIH  O5*  *HO5  SING  2 
+DIH  C5*  C4*   SING  3 
+DIH  C5*  1H5*  SING  4 
+DIH  C5*  2H5*  SING  5 
+DIH  C4*  C6*   SING  6 
+DIH  C4*  C3*   SING  7 
+DIH  C4*  H4*   SING  8 
+DIH  C6*  N1*   SING  9 
+DIH  C6*  1H6*  SING  10
+DIH  C6*  2H6*  SING  11
+DIH  C3*  O3*   SING  12
+DIH  C3*  C2*   SING  13
+DIH  C3*  H3*   SING  14
+DIH  O3*  *HO3  SING  15
+DIH  C2*  N1*   SING  16
+DIH  C2*  1H2*  SING  17
+DIH  C2*  2H2*  SING  18
+DIH  N1*  C10   SING  19
+DIH  N1*  H1*   SING  20
+DIH  C10  C9    SING  21
+DIH  C10  1H10  SING  22
+DIH  C10  2H10  SING  23
+DIH  C9   C8    DOUB  24
+DIH  C9   C4    SING  25
+DIH  C8   N7    SING  26
+DIH  C8   H8    SING  27
+DIH  N7   C5    SING  28
+DIH  N7   H7    SING  29
+DIH  C5   C6    SING  30
+DIH  C5   C4    SING  31
+DIH  C5   H5    SING  32
+DIH  C6   O6    DOUB  33
+DIH  C6   N1    SING  34
+DIH  N1   C2    SING  35
+DIH  N1   H1    SING  36
+DIH  C2   N3    DOUB  37
+DIH  C2   H2    SING  38
+DIH  N3   C4    SING  39
+DIH  C4   H4    SING  40
+#

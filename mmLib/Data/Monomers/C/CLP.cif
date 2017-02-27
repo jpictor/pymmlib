@@ -1,0 +1,72 @@
+data_CLP
+#
+_chem_comp.id                   CLP
+_chem_comp.name                 'FE-S CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE8 S8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        703.256
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLP  FE1  .  FE  0  ?  ?  ?  0  1 
+CLP  FE2  .  FE  0  ?  ?  ?  0  2 
+CLP  FE3  .  FE  0  ?  ?  ?  0  3 
+CLP  FE4  .  FE  0  ?  ?  ?  0  4 
+CLP  S1A  .  S   0  ?  ?  ?  1  5 
+CLP  S2A  .  S   0  ?  ?  ?  1  6 
+CLP  S4A  .  S   0  ?  ?  ?  1  7 
+CLP  S3A  .  S   0  ?  ?  ?  1  8 
+CLP  FE5  .  FE  0  ?  ?  ?  0  9 
+CLP  FE6  .  FE  0  ?  ?  ?  0  10
+CLP  FE7  .  FE  0  ?  ?  ?  0  11
+CLP  FE8  .  FE  0  ?  ?  ?  0  12
+CLP  S1B  .  S   0  ?  ?  ?  1  13
+CLP  S2B  .  S   0  ?  ?  ?  1  14
+CLP  S3B  .  S   0  ?  ?  ?  1  15
+CLP  S4B  .  S   0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLP  FE1  S1A  SING  1 
+CLP  FE1  S2A  SING  2 
+CLP  FE1  S3A  SING  3 
+CLP  FE2  S1A  SING  4 
+CLP  FE2  S2A  SING  5 
+CLP  FE2  S4A  SING  6 
+CLP  FE3  S2A  SING  7 
+CLP  FE3  S4A  SING  8 
+CLP  FE3  S3A  SING  9 
+CLP  FE4  S1A  SING  10
+CLP  FE4  S4A  SING  11
+CLP  FE4  S3A  SING  12
+CLP  S1A  S1B  SING  13
+CLP  FE5  S1B  SING  14
+CLP  FE5  S2B  SING  15
+CLP  FE5  S4B  SING  16
+CLP  FE6  S1B  SING  17
+CLP  FE6  S2B  SING  18
+CLP  FE6  S3B  SING  19
+CLP  FE7  S2B  SING  20
+CLP  FE7  S3B  SING  21
+CLP  FE7  S4B  SING  22
+CLP  FE8  S1B  SING  23
+CLP  FE8  S3B  SING  24
+CLP  FE8  S4B  SING  25
+#

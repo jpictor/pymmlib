@@ -1,0 +1,115 @@
+data_SPQ
+#
+_chem_comp.id                   SPQ
+_chem_comp.name                 '(3R,4S,5R)-5-{[(1R)-1-CARBOXY-2-FLUORO-1-(PHOSPHONOOXY)ETHYL]OXY}-4-HYDROXY-3-(PHOSPHONOOXY)CYCLOHEX-1-ENE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 O14 F1 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        440.166
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPQ  O6P   .  O  0  55.989  123.235  1.675  1  1 
+SPQ  P2    .  P  0  55.150  122.914  3.001  1  2 
+SPQ  O4P   .  O  0  56.105  122.865  4.139  1  3 
+SPQ  O5P   .  O  0  54.018  123.858  3.077  1  4 
+SPQ  O10   .  O  0  54.608  121.394  2.683  1  5 
+SPQ  C9    .  C  0  53.903  120.525  3.631  1  6 
+SPQ  C8    .  C  0  52.419  120.377  3.182  1  7 
+SPQ  O2'   .  O  0  52.167  120.453  1.958  1  8 
+SPQ  O9    .  O  0  51.556  120.125  4.056  1  9 
+SPQ  C10   .  C  0  54.000  121.035  5.119  1  10
+SPQ  F     .  F  0  53.191  122.118  5.377  1  11
+SPQ  O3    .  O  0  54.461  119.187  3.516  1  12
+SPQ  C5    .  C  0  55.869  119.031  3.877  1  13
+SPQ  C4    .  C  0  55.977  117.935  4.965  1  14
+SPQ  O2    .  O  0  55.219  118.323  6.111  1  15
+SPQ  C6    .  C  0  56.615  118.587  2.590  1  16
+SPQ  C1    .  C  0  58.013  117.981  2.865  1  17
+SPQ  C7    .  C  0  59.078  118.014  1.757  1  18
+SPQ  O5    .  O  0  60.272  117.847  2.082  1  19
+SPQ  O4    .  O  0  58.696  118.205  0.580  1  20
+SPQ  C2    .  C  0  58.297  117.197  4.170  1  21
+SPQ  C3    .  C  0  57.445  117.645  5.383  1  22
+SPQ  O1    .  O  0  58.054  118.785  6.032  1  23
+SPQ  P1    .  P  0  59.086  118.539  7.306  1  24
+SPQ  O3P   .  O  0  59.044  119.924  8.103  1  25
+SPQ  O2P   .  O  0  58.521  117.467  8.155  1  26
+SPQ  O1P   .  O  0  60.462  118.374  6.780  1  27
+SPQ  HO2   .  H  0  ?       ?        ?      1  28
+SPQ  H4    .  H  0  ?       ?        ?      1  29
+SPQ  H5    .  H  0  ?       ?        ?      1  30
+SPQ  1H6   .  H  0  ?       ?        ?      0  31
+SPQ  2H6   .  H  0  ?       ?        ?      0  32
+SPQ  H2    .  H  0  ?       ?        ?      1  33
+SPQ  H3    .  H  0  ?       ?        ?      1  34
+SPQ  H3P   .  H  0  ?       ?        ?      1  35
+SPQ  H2P   .  H  0  ?       ?        ?      1  36
+SPQ  HO5   .  H  0  ?       ?        ?      1  37
+SPQ  1H10  .  H  0  ?       ?        ?      0  38
+SPQ  2H10  .  H  0  ?       ?        ?      0  39
+SPQ  H6P   .  H  0  ?       ?        ?      1  40
+SPQ  H4P   .  H  0  ?       ?        ?      1  41
+SPQ  H2'   .  H  0  ?       ?        ?      1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPQ  O6P  P2    SING  1 
+SPQ  O6P  H6P   SING  2 
+SPQ  P2   O10   SING  3 
+SPQ  P2   O4P   SING  4 
+SPQ  P2   O5P   DOUB  5 
+SPQ  O4P  H4P   SING  6 
+SPQ  O10  C9    SING  7 
+SPQ  C9   O3    SING  8 
+SPQ  C9   C10   SING  9 
+SPQ  C9   C8    SING  10
+SPQ  C8   O2'   SING  11
+SPQ  C8   O9    DOUB  12
+SPQ  O2'  H2'   SING  13
+SPQ  C10  F     SING  14
+SPQ  C10  1H10  SING  15
+SPQ  C10  2H10  SING  16
+SPQ  O3   C5    SING  17
+SPQ  C5   C4    SING  18
+SPQ  C5   C6    SING  19
+SPQ  C5   H5    SING  20
+SPQ  C4   O2    SING  21
+SPQ  C4   C3    SING  22
+SPQ  C4   H4    SING  23
+SPQ  O2   HO2   SING  24
+SPQ  C6   C1    SING  25
+SPQ  C6   1H6   SING  26
+SPQ  C6   2H6   SING  27
+SPQ  C1   C2    DOUB  28
+SPQ  C1   C7    SING  29
+SPQ  C7   O5    SING  30
+SPQ  C7   O4    DOUB  31
+SPQ  O5   HO5   SING  32
+SPQ  C2   C3    SING  33
+SPQ  C2   H2    SING  34
+SPQ  C3   O1    SING  35
+SPQ  C3   H3    SING  36
+SPQ  O1   P1    SING  37
+SPQ  P1   O3P   SING  38
+SPQ  P1   O2P   SING  39
+SPQ  P1   O1P   DOUB  40
+SPQ  O3P  H3P   SING  41
+SPQ  O2P  H2P   SING  42
+#

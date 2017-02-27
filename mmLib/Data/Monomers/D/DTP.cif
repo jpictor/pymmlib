@@ -1,0 +1,125 @@
+data_DTP
+#
+_chem_comp.id                   DTP
+_chem_comp.name                 '2'-DEOXYADENOSINE 5'-TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O12 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        491.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DTP  PG    .  P  0  ?  ?  ?  1  1 
+DTP  O1G   .  O  0  ?  ?  ?  1  2 
+DTP  O2G   .  O  0  ?  ?  ?  1  3 
+DTP  O3G   .  O  0  ?  ?  ?  1  4 
+DTP  PB    .  P  0  ?  ?  ?  1  5 
+DTP  O1B   .  O  0  ?  ?  ?  1  6 
+DTP  O2B   .  O  0  ?  ?  ?  1  7 
+DTP  O3B   .  O  0  ?  ?  ?  1  8 
+DTP  PA    .  P  0  ?  ?  ?  1  9 
+DTP  O1A   .  O  0  ?  ?  ?  1  10
+DTP  O2A   .  O  0  ?  ?  ?  1  11
+DTP  O3A   .  O  0  ?  ?  ?  1  12
+DTP  O5*   .  O  0  ?  ?  ?  1  13
+DTP  C5*   .  C  0  ?  ?  ?  1  14
+DTP  C4*   .  C  0  ?  ?  ?  1  15
+DTP  O4*   .  O  0  ?  ?  ?  1  16
+DTP  C3*   .  C  0  ?  ?  ?  1  17
+DTP  O3*   .  O  0  ?  ?  ?  1  18
+DTP  C2*   .  C  0  ?  ?  ?  1  19
+DTP  C1*   .  C  0  ?  ?  ?  1  20
+DTP  N9    .  N  0  ?  ?  ?  1  21
+DTP  C8    .  C  0  ?  ?  ?  1  22
+DTP  N7    .  N  0  ?  ?  ?  1  23
+DTP  C5    .  C  0  ?  ?  ?  1  24
+DTP  C6    .  C  0  ?  ?  ?  1  25
+DTP  N6    .  N  0  ?  ?  ?  1  26
+DTP  N1    .  N  0  ?  ?  ?  1  27
+DTP  C2    .  C  0  ?  ?  ?  1  28
+DTP  N3    .  N  0  ?  ?  ?  1  29
+DTP  C4    .  C  0  ?  ?  ?  1  30
+DTP  H8    .  H  0  ?  ?  ?  1  31
+DTP  H2    .  H  0  ?  ?  ?  1  32
+DTP  1HN6  .  H  0  ?  ?  ?  0  33
+DTP  2HN6  .  H  0  ?  ?  ?  0  34
+DTP  H1*   .  H  0  ?  ?  ?  1  35
+DTP  1H2*  .  H  0  ?  ?  ?  0  36
+DTP  2H2*  .  H  0  ?  ?  ?  0  37
+DTP  H3*   .  H  0  ?  ?  ?  1  38
+DTP  *HO3  .  H  0  ?  ?  ?  0  39
+DTP  H4*   .  H  0  ?  ?  ?  1  40
+DTP  1H5*  .  H  0  ?  ?  ?  0  41
+DTP  2H5*  .  H  0  ?  ?  ?  0  42
+DTP  2HOA  .  H  0  ?  ?  ?  0  43
+DTP  2HOB  .  H  0  ?  ?  ?  0  44
+DTP  2HOG  .  H  0  ?  ?  ?  0  45
+DTP  3HOG  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DTP  PG   O3B   SING  1 
+DTP  PG   O1G   DOUB  2 
+DTP  PG   O2G   SING  3 
+DTP  PG   O3G   SING  4 
+DTP  O2G  2HOG  SING  5 
+DTP  O3G  3HOG  SING  6 
+DTP  PB   O1B   DOUB  7 
+DTP  PB   O2B   SING  8 
+DTP  PB   O3B   SING  9 
+DTP  PB   O3A   SING  10
+DTP  O2B  2HOB  SING  11
+DTP  PA   O1A   DOUB  12
+DTP  PA   O2A   SING  13
+DTP  PA   O3A   SING  14
+DTP  PA   O5*   SING  15
+DTP  O2A  2HOA  SING  16
+DTP  O5*  C5*   SING  17
+DTP  C5*  C4*   SING  18
+DTP  C5*  1H5*  SING  19
+DTP  C5*  2H5*  SING  20
+DTP  C4*  O4*   SING  21
+DTP  C4*  C3*   SING  22
+DTP  C4*  H4*   SING  23
+DTP  O4*  C1*   SING  24
+DTP  C3*  O3*   SING  25
+DTP  C3*  C2*   SING  26
+DTP  C3*  H3*   SING  27
+DTP  O3*  *HO3  SING  28
+DTP  C2*  C1*   SING  29
+DTP  C2*  1H2*  SING  30
+DTP  C2*  2H2*  SING  31
+DTP  C1*  N9    SING  32
+DTP  C1*  H1*   SING  33
+DTP  N9   C8    SING  34
+DTP  N9   C4    SING  35
+DTP  C8   N7    DOUB  36
+DTP  C8   H8    SING  37
+DTP  N7   C5    SING  38
+DTP  C5   C6    SING  39
+DTP  C5   C4    DOUB  40
+DTP  C6   N6    SING  41
+DTP  C6   N1    DOUB  42
+DTP  N6   1HN6  SING  43
+DTP  N6   2HN6  SING  44
+DTP  N1   C2    SING  45
+DTP  C2   N3    DOUB  46
+DTP  C2   H2    SING  47
+DTP  N3   C4    SING  48
+#

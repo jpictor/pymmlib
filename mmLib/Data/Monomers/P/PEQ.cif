@@ -1,0 +1,64 @@
+data_PEQ
+#
+_chem_comp.id                   PEQ
+_chem_comp.name                 L-PHOSPHOLACTATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.058
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEQ  C1    .  C  0  ?  ?  ?  1  1 
+PEQ  O1    .  O  0  ?  ?  ?  1  2 
+PEQ  O2'   .  O  0  ?  ?  ?  1  3 
+PEQ  C2    .  C  0  ?  ?  ?  1  4 
+PEQ  C3    .  C  0  ?  ?  ?  1  5 
+PEQ  O2    .  O  0  ?  ?  ?  1  6 
+PEQ  P     .  P  0  ?  ?  ?  1  7 
+PEQ  O1P   .  O  0  ?  ?  ?  1  8 
+PEQ  O2P   .  O  0  ?  ?  ?  1  9 
+PEQ  O3P   .  O  0  ?  ?  ?  1  10
+PEQ  HO2   .  H  0  ?  ?  ?  1  11
+PEQ  1H2   .  H  0  ?  ?  ?  0  12
+PEQ  1H3   .  H  0  ?  ?  ?  0  13
+PEQ  2H3   .  H  0  ?  ?  ?  0  14
+PEQ  3H3   .  H  0  ?  ?  ?  0  15
+PEQ  2HOP  .  H  0  ?  ?  ?  0  16
+PEQ  3HOP  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEQ  C1   C2    SING  1 
+PEQ  C1   O1    DOUB  2 
+PEQ  C1   O2'   SING  3 
+PEQ  O2'  HO2   SING  4 
+PEQ  C2   C3    SING  5 
+PEQ  C2   O2    SING  6 
+PEQ  C2   1H2   SING  7 
+PEQ  C3   1H3   SING  8 
+PEQ  C3   2H3   SING  9 
+PEQ  C3   3H3   SING  10
+PEQ  O2   P     SING  11
+PEQ  P    O1P   DOUB  12
+PEQ  P    O2P   SING  13
+PEQ  P    O3P   SING  14
+PEQ  O2P  2HOP  SING  15
+PEQ  O3P  3HOP  SING  16
+#

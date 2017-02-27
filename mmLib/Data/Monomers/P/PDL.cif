@@ -1,0 +1,107 @@
+data_PDL
+#
+_chem_comp.id                   PDL
+_chem_comp.name                 N-(5'-PHOSPHOPYRIDOXYL)-L-ALANINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H17 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        320.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDL  N     .  N  0  24.055  16.136  68.451  1  1 
+PDL  N1    .  N  0  24.031  10.791  69.250  1  2 
+PDL  C2    .  C  0  25.209  11.452  69.308  1  3 
+PDL  C2A   .  C  0  26.427  10.656  69.656  1  4 
+PDL  C3    .  C  0  25.302  12.832  69.064  1  5 
+PDL  O3A   .  O  0  26.500  13.490  69.295  1  6 
+PDL  C4    .  C  0  24.181  13.539  68.566  1  7 
+PDL  C4A   .  C  0  24.581  14.888  67.956  1  8 
+PDL  C5    .  C  0  22.870  12.866  68.577  1  9 
+PDL  C5A   .  C  0  21.534  13.498  68.229  1  10
+PDL  OP4   .  O  0  21.564  14.090  66.947  1  11
+PDL  P     .  P  0  20.296  14.780  66.386  1  12
+PDL  OP1   .  O  0  19.181  13.811  66.283  1  13
+PDL  OP2   .  O  0  20.631  15.330  65.029  1  14
+PDL  OP3   .  O  0  19.881  15.883  67.310  1  15
+PDL  C6    .  C  0  22.885  11.486  68.917  1  16
+PDL  CA    .  C  0  24.556  17.397  67.847  1  17
+PDL  CB    .  C  0  23.808  18.597  68.514  1  18
+PDL  C     .  C  0  26.082  17.688  68.121  1  19
+PDL  O     .  O  0  26.520  18.811  67.523  1  20
+PDL  OXT   .  O  0  26.816  17.033  68.803  1  21
+PDL  1H2A  .  H  0  ?       ?       ?       0  22
+PDL  2H2A  .  H  0  ?       ?       ?       0  23
+PDL  3H2A  .  H  0  ?       ?       ?       0  24
+PDL  HO3   .  H  0  ?       ?       ?       1  25
+PDL  H6    .  H  0  ?       ?       ?       1  26
+PDL  1H5A  .  H  0  ?       ?       ?       0  27
+PDL  2H5A  .  H  0  ?       ?       ?       0  28
+PDL  2HOP  .  H  0  ?       ?       ?       0  29
+PDL  3HOP  .  H  0  ?       ?       ?       0  30
+PDL  1H4A  .  H  0  ?       ?       ?       0  31
+PDL  2H4A  .  H  0  ?       ?       ?       0  32
+PDL  HN    .  H  0  ?       ?       ?       1  33
+PDL  HA    .  H  0  ?       ?       ?       1  34
+PDL  1HB   .  H  0  ?       ?       ?       0  35
+PDL  2HB   .  H  0  ?       ?       ?       0  36
+PDL  3HB   .  H  0  ?       ?       ?       0  37
+PDL  HXT   .  H  0  ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDL  N    C4A   SING  1 
+PDL  N    CA    SING  2 
+PDL  N    HN    SING  3 
+PDL  N1   C2    AROM  4 
+PDL  N1   C6    AROM  5 
+PDL  C2   C2A   SING  6 
+PDL  C2   C3    AROM  7 
+PDL  C2A  1H2A  SING  8 
+PDL  C2A  2H2A  SING  9 
+PDL  C2A  3H2A  SING  10
+PDL  C3   O3A   SING  11
+PDL  C3   C4    AROM  12
+PDL  O3A  HO3   SING  13
+PDL  C4   C4A   SING  14
+PDL  C4   C5    AROM  15
+PDL  C4A  1H4A  SING  16
+PDL  C4A  2H4A  SING  17
+PDL  C5   C5A   SING  18
+PDL  C5   C6    AROM  19
+PDL  C5A  OP4   SING  20
+PDL  C5A  1H5A  SING  21
+PDL  C5A  2H5A  SING  22
+PDL  OP4  P     SING  23
+PDL  P    OP1   DOUB  24
+PDL  P    OP2   SING  25
+PDL  P    OP3   SING  26
+PDL  OP2  2HOP  SING  27
+PDL  OP3  3HOP  SING  28
+PDL  C6   H6    SING  29
+PDL  CA   CB    SING  30
+PDL  CA   C     SING  31
+PDL  CA   HA    SING  32
+PDL  CB   1HB   SING  33
+PDL  CB   2HB   SING  34
+PDL  CB   3HB   SING  35
+PDL  C    O     DOUB  36
+PDL  C    OXT   SING  37
+PDL  OXT  HXT   SING  38
+#

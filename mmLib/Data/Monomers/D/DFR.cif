@@ -1,0 +1,83 @@
+data_DFR
+#
+_chem_comp.id                   DFR
+_chem_comp.name                 3-DEOXY-3-METHYL-D-FRUCTOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFR  C1   .  C  0  ?  ?  ?  1  1 
+DFR  C2   .  C  0  ?  ?  ?  1  2 
+DFR  C3   .  C  0  ?  ?  ?  1  3 
+DFR  C4   .  C  0  ?  ?  ?  1  4 
+DFR  C5   .  C  0  ?  ?  ?  1  5 
+DFR  C6   .  C  0  ?  ?  ?  1  6 
+DFR  C7   .  C  0  ?  ?  ?  1  7 
+DFR  O1   .  O  0  ?  ?  ?  1  8 
+DFR  O2   .  O  0  ?  ?  ?  1  9 
+DFR  O4   .  O  0  ?  ?  ?  1  10
+DFR  O5   .  O  0  ?  ?  ?  1  11
+DFR  O6   .  O  0  ?  ?  ?  1  12
+DFR  H1   .  H  0  ?  ?  ?  1  13
+DFR  H2   .  H  0  ?  ?  ?  1  14
+DFR  H3   .  H  0  ?  ?  ?  1  15
+DFR  1H5  .  H  0  ?  ?  ?  0  16
+DFR  2H5  .  H  0  ?  ?  ?  0  17
+DFR  1H6  .  H  0  ?  ?  ?  0  18
+DFR  2H6  .  H  0  ?  ?  ?  0  19
+DFR  1H7  .  H  0  ?  ?  ?  0  20
+DFR  2H7  .  H  0  ?  ?  ?  0  21
+DFR  3H7  .  H  0  ?  ?  ?  0  22
+DFR  HO2  .  H  0  ?  ?  ?  1  23
+DFR  HO4  .  H  0  ?  ?  ?  1  24
+DFR  HO5  .  H  0  ?  ?  ?  1  25
+DFR  HO6  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFR  C1  C2   SING  1 
+DFR  C1  C6   SING  2 
+DFR  C1  O1   SING  3 
+DFR  C1  H1   SING  4 
+DFR  C2  C3   SING  5 
+DFR  C2  O2   SING  6 
+DFR  C2  H2   SING  7 
+DFR  C3  C4   SING  8 
+DFR  C3  C7   SING  9 
+DFR  C3  H3   SING  10
+DFR  C4  C5   SING  11
+DFR  C4  O4   SING  12
+DFR  C4  O1   SING  13
+DFR  C5  O5   SING  14
+DFR  C5  1H5  SING  15
+DFR  C5  2H5  SING  16
+DFR  C6  O6   SING  17
+DFR  C6  1H6  SING  18
+DFR  C6  2H6  SING  19
+DFR  C7  1H7  SING  20
+DFR  C7  2H7  SING  21
+DFR  C7  3H7  SING  22
+DFR  O2  HO2  SING  23
+DFR  O4  HO4  SING  24
+DFR  O5  HO5  SING  25
+DFR  O6  HO6  SING  26
+#

@@ -1,0 +1,80 @@
+data_LYS
+#
+_chem_comp.id                   LYS
+_chem_comp.name                 LYSINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H15 N2 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        y
+_chem_comp.formula_weight       147.197
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LYS  N    .  N  0  ?  ?  ?  1  1 
+LYS  CA   .  C  0  ?  ?  ?  1  2 
+LYS  C    .  C  0  ?  ?  ?  1  3 
+LYS  O    .  O  0  ?  ?  ?  1  4 
+LYS  CB   .  C  0  ?  ?  ?  1  5 
+LYS  CG   .  C  0  ?  ?  ?  1  6 
+LYS  CD   .  C  0  ?  ?  ?  1  7 
+LYS  CE   .  C  0  ?  ?  ?  1  8 
+LYS  NZ   .  N  1  ?  ?  ?  1  9 
+LYS  OXT  .  O  0  ?  ?  ?  1  10
+LYS  H    .  H  0  ?  ?  ?  1  11
+LYS  HN2  .  H  0  ?  ?  ?  1  12
+LYS  HA   .  H  0  ?  ?  ?  1  13
+LYS  1HB  .  H  0  ?  ?  ?  0  14
+LYS  2HB  .  H  0  ?  ?  ?  0  15
+LYS  1HG  .  H  0  ?  ?  ?  0  16
+LYS  2HG  .  H  0  ?  ?  ?  0  17
+LYS  1HD  .  H  0  ?  ?  ?  0  18
+LYS  2HD  .  H  0  ?  ?  ?  0  19
+LYS  1HE  .  H  0  ?  ?  ?  0  20
+LYS  2HE  .  H  0  ?  ?  ?  0  21
+LYS  1HZ  .  H  0  ?  ?  ?  0  22
+LYS  2HZ  .  H  0  ?  ?  ?  0  23
+LYS  3HZ  .  H  0  ?  ?  ?  0  24
+LYS  HXT  .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LYS  N    CA   SING  1 
+LYS  N    H    SING  2 
+LYS  N    HN2  SING  3 
+LYS  CA   C    SING  4 
+LYS  CA   CB   SING  5 
+LYS  CA   HA   SING  6 
+LYS  C    O    DOUB  7 
+LYS  C    OXT  SING  8 
+LYS  CB   CG   SING  9 
+LYS  CB   1HB  SING  10
+LYS  CB   2HB  SING  11
+LYS  CG   CD   SING  12
+LYS  CG   1HG  SING  13
+LYS  CG   2HG  SING  14
+LYS  CD   CE   SING  15
+LYS  CD   1HD  SING  16
+LYS  CD   2HD  SING  17
+LYS  CE   NZ   SING  18
+LYS  CE   1HE  SING  19
+LYS  CE   2HE  SING  20
+LYS  NZ   1HZ  SING  21
+LYS  NZ   2HZ  SING  22
+LYS  NZ   3HZ  SING  23
+LYS  OXT  HXT  SING  24
+#

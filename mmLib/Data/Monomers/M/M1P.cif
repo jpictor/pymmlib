@@ -1,0 +1,89 @@
+data_M1P
+#
+_chem_comp.id                   M1P
+_chem_comp.name                 'ALPHA-D-MANNOSE 1-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.137
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+M1P  O6   .  O  0  -50.487  -14.557  12.998  1  1 
+M1P  C6   .  C  0  -49.401  -13.642  13.011  1  2 
+M1P  C5   .  C  0  -48.411  -14.061  14.092  1  3 
+M1P  O5   .  O  0  -48.990  -13.775  15.423  1  4 
+M1P  C1   .  C  0  -48.071  -14.114  16.513  1  5 
+M1P  O1   .  O  0  -46.889  -13.350  16.393  1  6 
+M1P  P    .  P  0  -46.258  -12.727  17.734  1  7 
+M1P  O1P  .  O  0  -45.871  -13.824  18.692  1  8 
+M1P  O2P  .  O  0  -47.259  -11.808  18.392  1  9 
+M1P  O3P  .  O  0  -45.033  -11.978  17.303  1  10
+M1P  C2   .  C  0  -47.674  -15.581  16.452  1  11
+M1P  O2   .  O  0  -48.866  -16.374  16.720  1  12
+M1P  C3   .  C  0  -47.102  -15.952  15.053  1  13
+M1P  O3   .  O  0  -46.900  -17.356  14.980  1  14
+M1P  C4   .  C  0  -48.064  -15.534  13.938  1  15
+M1P  O4   .  O  0  -47.449  -15.732  12.657  1  16
+M1P  HO6  .  H  0  ?        ?        ?       1  17
+M1P  1H6  .  H  0  ?        ?        ?       0  18
+M1P  2H6  .  H  0  ?        ?        ?       0  19
+M1P  H5   .  H  0  ?        ?        ?       1  20
+M1P  H1   .  H  0  ?        ?        ?       1  21
+M1P  H2P  .  H  0  ?        ?        ?       1  22
+M1P  H3P  .  H  0  ?        ?        ?       1  23
+M1P  H2   .  H  0  ?        ?        ?       1  24
+M1P  HO2  .  H  0  ?        ?        ?       1  25
+M1P  H3   .  H  0  ?        ?        ?       1  26
+M1P  HO3  .  H  0  ?        ?        ?       1  27
+M1P  H4   .  H  0  ?        ?        ?       1  28
+M1P  HO4  .  H  0  ?        ?        ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+M1P  O6   C6   SING  1 
+M1P  O6   HO6  SING  2 
+M1P  C6   C5   SING  3 
+M1P  C6   1H6  SING  4 
+M1P  C6   2H6  SING  5 
+M1P  C5   O5   SING  6 
+M1P  C5   C4   SING  7 
+M1P  C5   H5   SING  8 
+M1P  O5   C1   SING  9 
+M1P  C1   O1   SING  10
+M1P  C1   C2   SING  11
+M1P  C1   H1   SING  12
+M1P  O1   P    SING  13
+M1P  P    O1P  DOUB  14
+M1P  P    O2P  SING  15
+M1P  P    O3P  SING  16
+M1P  O2P  H2P  SING  17
+M1P  O3P  H3P  SING  18
+M1P  C2   O2   SING  19
+M1P  C2   C3   SING  20
+M1P  C2   H2   SING  21
+M1P  O2   HO2  SING  22
+M1P  C3   O3   SING  23
+M1P  C3   C4   SING  24
+M1P  C3   H3   SING  25
+M1P  O3   HO3  SING  26
+M1P  C4   O4   SING  27
+M1P  C4   H4   SING  28
+M1P  O4   HO4  SING  29
+#

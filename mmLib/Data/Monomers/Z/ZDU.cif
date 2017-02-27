@@ -1,0 +1,121 @@
+data_ZDU
+#
+_chem_comp.id                       ZDU
+_chem_comp.name                     5-(3-AMINOPROPYL)-2'-DEOXYURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H20 N3 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            365.279
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZDU  P     .  P  0  3.248   -12.692  45.584  1  1 
+ZDU  O1P   .  O  0  2.650   -11.716  44.693  1  2 
+ZDU  O2P   .  O  0  4.484   -12.387  46.320  1  3 
+ZDU  O5*   .  O  0  3.476   -14.042  44.773  1  4 
+ZDU  N1    .  N  0  0.941   -17.102  42.324  1  5 
+ZDU  C6    .  C  0  0.285   -15.887  42.306  1  6 
+ZDU  C2    .  C  0  0.306   -18.265  41.929  1  7 
+ZDU  O2    .  O  0  0.878   -19.347  41.885  1  8 
+ZDU  N3    .  N  0  -1.029  -18.102  41.581  1  9 
+ZDU  C4    .  C  0  -1.766  -16.897  41.579  1  10
+ZDU  O4    .  O  0  -2.976  -16.899  41.258  1  11
+ZDU  C5    .  C  0  -1.003  -15.717  41.973  1  12
+ZDU  C5A   .  C  0  -1.650  -14.354  41.988  1  13
+ZDU  C5B   .  C  0  -1.910  -13.795  40.570  1  14
+ZDU  C5G   .  C  0  -2.747  -12.545  40.656  1  15
+ZDU  N5D   .  N  0  -2.852  -11.826  39.340  1  16
+ZDU  C2*   .  C  0  3.446   -16.434  42.118  1  17
+ZDU  C5*   .  C  0  3.788   -15.226  45.465  1  18
+ZDU  C4*   .  C  0  3.680   -16.407  44.535  1  19
+ZDU  O4*   .  O  0  2.320   -16.611  44.133  1  20
+ZDU  C1*   .  C  0  2.329   -17.182  42.841  1  21
+ZDU  C3*   .  C  0  4.464   -16.232  43.245  1  22
+ZDU  O3*   .  O  0  5.469   -17.239  43.239  1  23
+ZDU  O3P   .  O  0  ?       ?        ?       1  24
+ZDU  H3T   .  H  0  ?       ?        ?       1  25
+ZDU  H3*   .  H  0  ?       ?        ?       1  26
+ZDU  1H2*  .  H  0  ?       ?        ?       0  27
+ZDU  2H2*  .  H  0  ?       ?        ?       0  28
+ZDU  H1*   .  H  0  ?       ?        ?       1  29
+ZDU  H4*   .  H  0  ?       ?        ?       1  30
+ZDU  1H5*  .  H  0  ?       ?        ?       0  31
+ZDU  2H5*  .  H  0  ?       ?        ?       0  32
+ZDU  3HOP  .  H  0  ?       ?        ?       0  33
+ZDU  2HOP  .  H  0  ?       ?        ?       0  34
+ZDU  H6    .  H  0  ?       ?        ?       1  35
+ZDU  HN3   .  H  0  ?       ?        ?       1  36
+ZDU  1H5A  .  H  0  ?       ?        ?       0  37
+ZDU  2H5A  .  H  0  ?       ?        ?       0  38
+ZDU  1H5B  .  H  0  ?       ?        ?       0  39
+ZDU  2H5B  .  H  0  ?       ?        ?       0  40
+ZDU  1H5G  .  H  0  ?       ?        ?       0  41
+ZDU  2H5G  .  H  0  ?       ?        ?       0  42
+ZDU  1H5D  .  H  0  ?       ?        ?       0  43
+ZDU  2H5D  .  H  0  ?       ?        ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZDU  P    O5*   SING  1 
+ZDU  P    O1P   DOUB  2 
+ZDU  P    O3P   SING  3 
+ZDU  P    O2P   SING  4 
+ZDU  O2P  2HOP  SING  5 
+ZDU  O5*  C5*   SING  6 
+ZDU  N1   C1*   SING  7 
+ZDU  N1   C6    SING  8 
+ZDU  N1   C2    SING  9 
+ZDU  C6   H6    SING  10
+ZDU  C6   C5    DOUB  11
+ZDU  C2   N3    SING  12
+ZDU  C2   O2    DOUB  13
+ZDU  N3   C4    SING  14
+ZDU  N3   HN3   SING  15
+ZDU  C4   C5    SING  16
+ZDU  C4   O4    DOUB  17
+ZDU  C5   C5A   SING  18
+ZDU  C5A  1H5A  SING  19
+ZDU  C5A  2H5A  SING  20
+ZDU  C5A  C5B   SING  21
+ZDU  C5B  1H5B  SING  22
+ZDU  C5B  2H5B  SING  23
+ZDU  C5B  C5G   SING  24
+ZDU  C5G  1H5G  SING  25
+ZDU  C5G  2H5G  SING  26
+ZDU  C5G  N5D   SING  27
+ZDU  N5D  1H5D  SING  28
+ZDU  N5D  2H5D  SING  29
+ZDU  C2*  C3*   SING  30
+ZDU  C2*  1H2*  SING  31
+ZDU  C2*  2H2*  SING  32
+ZDU  C2*  C1*   SING  33
+ZDU  C5*  C4*   SING  34
+ZDU  C5*  1H5*  SING  35
+ZDU  C5*  2H5*  SING  36
+ZDU  C4*  O4*   SING  37
+ZDU  C4*  C3*   SING  38
+ZDU  C4*  H4*   SING  39
+ZDU  O4*  C1*   SING  40
+ZDU  C1*  H1*   SING  41
+ZDU  C3*  O3*   SING  42
+ZDU  C3*  H3*   SING  43
+ZDU  O3*  H3T   SING  44
+ZDU  O3P  3HOP  SING  45
+#

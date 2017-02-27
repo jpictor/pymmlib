@@ -1,0 +1,63 @@
+data_NEQ
+#
+_chem_comp.id                   NEQ
+_chem_comp.name                 N-ETHYLMALEIMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        125.127
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEQ  N1   .  N  0  ?  ?  ?  1  1 
+NEQ  O1   .  O  0  ?  ?  ?  1  2 
+NEQ  O2   .  O  0  ?  ?  ?  1  3 
+NEQ  C1   .  C  0  ?  ?  ?  1  4 
+NEQ  C2   .  C  0  ?  ?  ?  1  5 
+NEQ  C3   .  C  0  ?  ?  ?  1  6 
+NEQ  C4   .  C  0  ?  ?  ?  1  7 
+NEQ  C5   .  C  0  ?  ?  ?  1  8 
+NEQ  C6   .  C  0  ?  ?  ?  1  9 
+NEQ  1H2  .  H  0  ?  ?  ?  0  10
+NEQ  1H3  .  H  0  ?  ?  ?  0  11
+NEQ  1H5  .  H  0  ?  ?  ?  0  12
+NEQ  2H5  .  H  0  ?  ?  ?  0  13
+NEQ  1H6  .  H  0  ?  ?  ?  0  14
+NEQ  2H6  .  H  0  ?  ?  ?  0  15
+NEQ  3H6  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEQ  N1  C1   SING  1 
+NEQ  N1  C4   SING  2 
+NEQ  N1  C5   SING  3 
+NEQ  O1  C1   DOUB  4 
+NEQ  O2  C4   DOUB  5 
+NEQ  C1  C2   SING  6 
+NEQ  C2  C3   DOUB  7 
+NEQ  C2  1H2  SING  8 
+NEQ  C3  C4   SING  9 
+NEQ  C3  1H3  SING  10
+NEQ  C5  C6   SING  11
+NEQ  C5  1H5  SING  12
+NEQ  C5  2H5  SING  13
+NEQ  C6  1H6  SING  14
+NEQ  C6  2H6  SING  15
+NEQ  C6  3H6  SING  16
+#

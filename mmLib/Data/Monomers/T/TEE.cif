@@ -1,0 +1,49 @@
+data_TEE
+#
+_chem_comp.id                   TEE
+_chem_comp.name                 2-AMINO-ETHENETHIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 N1 S1'
+_chem_comp.pdbx_synonyms        2-THIOETHENAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        75.128
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TEE  N    .  N  0  -3.049  3.370  -2.907  1  1
+TEE  CB   .  C  0  -2.922  1.439  -4.349  1  2
+TEE  CA   .  C  0  -3.161  2.816  -4.161  1  3
+TEE  SG   .  S  0  ?       ?      ?       1  4
+TEE  1HN  .  H  0  -2.689  2.890  -2.132  0  5
+TEE  HB2  .  H  0  -3.270  0.725  -3.616  1  6
+TEE  HA   .  H  0  -4.194  2.503  -4.293  1  7
+TEE  HS   .  H  0  ?       ?      ?       1  8
+TEE  2HN  .  H  0  ?       ?      ?       0  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TEE  N   1HN  SING  1
+TEE  N   CA   SING  2
+TEE  N   2HN  SING  3
+TEE  CB  HB2  SING  4
+TEE  CB  CA   DOUB  5
+TEE  CB  SG   SING  6
+TEE  CA  HA   SING  7
+TEE  SG  HS   SING  8
+#

@@ -1,0 +1,71 @@
+data_PAV
+#
+_chem_comp.id                   PAV
+_chem_comp.name                 (2R,4S)-2-METHYL-2,3,3,4-TETRAHYDROXYTETRAHYDROFURAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAV  O3    .  O  0  29.466  30.525  26.121  1  1 
+PAV  C4    .  C  0  30.382  30.111  27.133  1  2 
+PAV  C11   .  C  0  31.024  31.410  27.628  1  3 
+PAV  O5    .  O  0  31.477  29.341  26.676  1  4 
+PAV  C6    .  C  0  31.845  28.319  27.625  1  5 
+PAV  C7    .  C  0  30.842  28.388  28.775  1  6 
+PAV  O12   .  O  0  30.341  27.139  29.214  1  7 
+PAV  C8    .  C  0  29.802  29.389  28.320  1  8 
+PAV  O1    .  O  0  28.793  28.562  27.731  1  9 
+PAV  O13   .  O  0  29.204  30.189  29.327  1  10
+PAV  1H11  .  H  0  ?       ?       ?       0  11
+PAV  2H11  .  H  0  ?       ?       ?       0  12
+PAV  3H11  .  H  0  ?       ?       ?       0  13
+PAV  HO3   .  H  0  ?       ?       ?       1  14
+PAV  1H6   .  H  0  ?       ?       ?       0  15
+PAV  2H6   .  H  0  ?       ?       ?       0  16
+PAV  H7    .  H  0  ?       ?       ?       1  17
+PAV  H12   .  H  0  ?       ?       ?       1  18
+PAV  HO1   .  H  0  ?       ?       ?       1  19
+PAV  H13   .  H  0  ?       ?       ?       1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAV  O3   C4    SING  1 
+PAV  O3   HO3   SING  2 
+PAV  C4   C11   SING  3 
+PAV  C4   O5    SING  4 
+PAV  C4   C8    SING  5 
+PAV  C11  1H11  SING  6 
+PAV  C11  2H11  SING  7 
+PAV  C11  3H11  SING  8 
+PAV  O5   C6    SING  9 
+PAV  C6   C7    SING  10
+PAV  C6   1H6   SING  11
+PAV  C6   2H6   SING  12
+PAV  C7   O12   SING  13
+PAV  C7   C8    SING  14
+PAV  C7   H7    SING  15
+PAV  O12  H12   SING  16
+PAV  C8   O1    SING  17
+PAV  C8   O13   SING  18
+PAV  O1   HO1   SING  19
+PAV  O13  H13   SING  20
+#

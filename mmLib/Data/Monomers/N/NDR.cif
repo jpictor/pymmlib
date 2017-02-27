@@ -1,0 +1,122 @@
+data_NDR
+#
+_chem_comp.id                   NDR
+_chem_comp.name                 NORETHINDRONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H22 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        294.393
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NDR  O22   .  O  0  13.634  27.316  2.827   1  1 
+NDR  C21   .  C  0  13.095  26.690  3.674   1  2 
+NDR  C20   .  C  0  11.584  26.516  3.725   1  3 
+NDR  C19   .  C  0  13.984  26.000  4.646   1  4 
+NDR  C17   .  C  0  13.303  25.314  5.708   1  5 
+NDR  C15   .  C  0  14.242  24.520  6.648   1  6 
+NDR  C14   .  C  0  11.931  25.317  6.027   1  7 
+NDR  C18   .  C  0  11.114  26.365  5.211   1  8 
+NDR  C8    .  C  0  11.569  25.210  7.419   1  9 
+NDR  C3    .  C  0  12.305  24.437  8.356   1  10
+NDR  C9    .  C  0  13.846  24.528  8.151   1  11
+NDR  C13   .  C  0  10.055  25.352  7.730   1  12
+NDR  C6    .  C  0  9.731   25.367  9.248   1  13
+NDR  C2    .  C  0  10.413  24.266  10.083  1  14
+NDR  C1    .  C  0  11.890  24.328  9.723   1  15
+NDR  C7    .  C  0  9.845   22.863  9.654   1  16
+NDR  C5    .  C  0  10.424  24.341  11.606  1  17
+NDR  O12   .  O  0  9.254   23.875  12.286  1  18
+NDR  C10   .  C  0  11.668  23.536  12.017  1  19
+NDR  C4    .  C  0  12.638  23.584  10.815  1  20
+NDR  C11   .  C  0  10.667  25.746  12.048  1  21
+NDR  C16   .  C  0  10.980  26.894  12.510  1  22
+NDR  1H4   .  H  0  ?       ?       ?       0  23
+NDR  2H4   .  H  0  ?       ?       ?       0  24
+NDR  1H6   .  H  0  ?       ?       ?       0  25
+NDR  2H6   .  H  0  ?       ?       ?       0  26
+NDR  1H7   .  H  0  ?       ?       ?       0  27
+NDR  2H7   .  H  0  ?       ?       ?       0  28
+NDR  3H7   .  H  0  ?       ?       ?       0  29
+NDR  1H9   .  H  0  ?       ?       ?       0  30
+NDR  2H9   .  H  0  ?       ?       ?       0  31
+NDR  1H10  .  H  0  ?       ?       ?       0  32
+NDR  2H10  .  H  0  ?       ?       ?       0  33
+NDR  H12   .  H  0  ?       ?       ?       1  34
+NDR  1H13  .  H  0  ?       ?       ?       0  35
+NDR  2H13  .  H  0  ?       ?       ?       0  36
+NDR  1H15  .  H  0  ?       ?       ?       0  37
+NDR  2H15  .  H  0  ?       ?       ?       0  38
+NDR  H16   .  H  0  ?       ?       ?       1  39
+NDR  1H18  .  H  0  ?       ?       ?       0  40
+NDR  2H18  .  H  0  ?       ?       ?       0  41
+NDR  H19   .  H  0  ?       ?       ?       1  42
+NDR  1H20  .  H  0  ?       ?       ?       0  43
+NDR  2H20  .  H  0  ?       ?       ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NDR  O22  C21   DOUB  1 
+NDR  C21  C20   SING  2 
+NDR  C21  C19   SING  3 
+NDR  C20  C18   SING  4 
+NDR  C20  1H20  SING  5 
+NDR  C20  2H20  SING  6 
+NDR  C19  C17   DOUB  7 
+NDR  C19  H19   SING  8 
+NDR  C17  C15   SING  9 
+NDR  C17  C14   SING  10
+NDR  C15  C9    SING  11
+NDR  C15  1H15  SING  12
+NDR  C15  2H15  SING  13
+NDR  C14  C18   SING  14
+NDR  C14  C8    DOUB  15
+NDR  C18  1H18  SING  16
+NDR  C18  2H18  SING  17
+NDR  C8   C3    SING  18
+NDR  C8   C13   SING  19
+NDR  C3   C9    SING  20
+NDR  C3   C1    DOUB  21
+NDR  C9   1H9   SING  22
+NDR  C9   2H9   SING  23
+NDR  C13  C6    SING  24
+NDR  C13  1H13  SING  25
+NDR  C13  2H13  SING  26
+NDR  C6   C2    SING  27
+NDR  C6   1H6   SING  28
+NDR  C6   2H6   SING  29
+NDR  C2   C1    SING  30
+NDR  C2   C7    SING  31
+NDR  C2   C5    SING  32
+NDR  C1   C4    SING  33
+NDR  C7   1H7   SING  34
+NDR  C7   2H7   SING  35
+NDR  C7   3H7   SING  36
+NDR  C5   O12   SING  37
+NDR  C5   C10   SING  38
+NDR  C5   C11   SING  39
+NDR  O12  H12   SING  40
+NDR  C10  C4    SING  41
+NDR  C10  1H10  SING  42
+NDR  C10  2H10  SING  43
+NDR  C4   1H4   SING  44
+NDR  C4   2H4   SING  45
+NDR  C11  C16   TRIP  46
+NDR  C16  H16   SING  47
+#

@@ -1,0 +1,103 @@
+data_EBG
+#
+_chem_comp.id                   EBG
+_chem_comp.name                 2-HYDROXYMETHYL-6-(2-OXIRANYL-ETHOXY)-TETRAHYDRO-PYRAN-3,4,5-TRIOL
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C10 H18 O7'
+_chem_comp.pdbx_synonyms        3,4-EPOXYBUTYL-ALPHA-D-GLUCOPYRANOSIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        250.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EBG  C1    .  C  0  23.176  59.759  38.278  1  1 
+EBG  O1    .  O  0  24.256  60.060  39.123  1  2 
+EBG  C2    .  C  0  22.737  60.962  37.460  1  3 
+EBG  O2    .  O  0  23.865  61.585  36.863  1  4 
+EBG  C3    .  C  0  22.014  61.946  38.387  1  5 
+EBG  O3    .  O  0  21.549  63.068  37.650  1  6 
+EBG  C4    .  C  0  20.840  61.257  39.073  1  7 
+EBG  O4    .  O  0  20.279  62.150  40.018  1  8 
+EBG  C5    .  C  0  21.264  59.966  39.793  1  9 
+EBG  O5    .  O  0  22.063  59.122  38.921  1  10
+EBG  C6    .  C  0  20.085  59.128  40.242  1  11
+EBG  O6    .  O  0  19.384  58.593  39.124  1  12
+EBG  C7    .  C  0  25.330  59.157  39.147  1  13
+EBG  C8    .  C  0  25.329  58.358  40.458  1  14
+EBG  C9    .  C  0  25.400  59.272  41.719  1  15
+EBG  C10   .  C  0  26.294  60.497  41.476  1  16
+EBG  O9    .  O  0  24.077  59.687  42.101  1  17
+EBG  H1    .  H  0  ?       ?       ?       1  18
+EBG  H2    .  H  0  ?       ?       ?       1  19
+EBG  HO2   .  H  0  ?       ?       ?       1  20
+EBG  H3    .  H  0  ?       ?       ?       1  21
+EBG  HO3   .  H  0  ?       ?       ?       1  22
+EBG  H4    .  H  0  ?       ?       ?       1  23
+EBG  HO4   .  H  0  ?       ?       ?       1  24
+EBG  H5    .  H  0  ?       ?       ?       1  25
+EBG  1H6   .  H  0  ?       ?       ?       0  26
+EBG  2H6   .  H  0  ?       ?       ?       0  27
+EBG  HO6   .  H  0  ?       ?       ?       1  28
+EBG  1H7   .  H  0  ?       ?       ?       0  29
+EBG  2H7   .  H  0  ?       ?       ?       0  30
+EBG  1H8   .  H  0  ?       ?       ?       0  31
+EBG  1H10  .  H  0  ?       ?       ?       0  32
+EBG  2H10  .  H  0  ?       ?       ?       0  33
+EBG  2H8   .  H  0  ?       ?       ?       0  34
+EBG  H9    .  H  0  ?       ?       ?       1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EBG  C1   O1    SING  1 
+EBG  C1   C2    SING  2 
+EBG  C1   O5    SING  3 
+EBG  C1   H1    SING  4 
+EBG  O1   C7    SING  5 
+EBG  C2   O2    SING  6 
+EBG  C2   C3    SING  7 
+EBG  C2   H2    SING  8 
+EBG  O2   HO2   SING  9 
+EBG  C3   O3    SING  10
+EBG  C3   C4    SING  11
+EBG  C3   H3    SING  12
+EBG  O3   HO3   SING  13
+EBG  C4   O4    SING  14
+EBG  C4   C5    SING  15
+EBG  C4   H4    SING  16
+EBG  O4   HO4   SING  17
+EBG  C5   O5    SING  18
+EBG  C5   C6    SING  19
+EBG  C5   H5    SING  20
+EBG  C6   O6    SING  21
+EBG  C6   1H6   SING  22
+EBG  C6   2H6   SING  23
+EBG  O6   HO6   SING  24
+EBG  C7   C8    SING  25
+EBG  C7   1H7   SING  26
+EBG  C7   2H7   SING  27
+EBG  C8   C9    SING  28
+EBG  C8   1H8   SING  29
+EBG  C8   2H8   SING  30
+EBG  C9   C10   SING  31
+EBG  C9   O9    SING  32
+EBG  C9   H9    SING  33
+EBG  C10  O9    SING  34
+EBG  C10  1H10  SING  35
+EBG  C10  2H10  SING  36
+#

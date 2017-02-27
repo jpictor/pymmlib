@@ -1,0 +1,100 @@
+data_DC
+#
+_chem_comp.id                   DC
+_chem_comp.name                 2'-DEOXYCYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C9 H14 N3 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        307.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DC  O3P   .  O  0  ?  ?  ?  1  1 
+DC  P     .  P  0  ?  ?  ?  1  2 
+DC  O1P   .  O  0  ?  ?  ?  1  3 
+DC  O2P   .  O  0  ?  ?  ?  1  4 
+DC  O5*   .  O  0  ?  ?  ?  1  5 
+DC  C5*   .  C  0  ?  ?  ?  1  6 
+DC  C4*   .  C  0  ?  ?  ?  1  7 
+DC  O4*   .  O  0  ?  ?  ?  1  8 
+DC  C3*   .  C  0  ?  ?  ?  1  9 
+DC  O3*   .  O  0  ?  ?  ?  1  10
+DC  C2*   .  C  0  ?  ?  ?  1  11
+DC  C1*   .  C  0  ?  ?  ?  1  12
+DC  N1    .  N  0  ?  ?  ?  1  13
+DC  C2    .  C  0  ?  ?  ?  1  14
+DC  O2    .  O  0  ?  ?  ?  1  15
+DC  N3    .  N  0  ?  ?  ?  1  16
+DC  C4    .  C  0  ?  ?  ?  1  17
+DC  N4    .  N  0  ?  ?  ?  1  18
+DC  C5    .  C  0  ?  ?  ?  1  19
+DC  C6    .  C  0  ?  ?  ?  1  20
+DC  3HOP  .  H  0  ?  ?  ?  0  21
+DC  2HOP  .  H  0  ?  ?  ?  0  22
+DC  1H5*  .  H  0  ?  ?  ?  0  23
+DC  2H5*  .  H  0  ?  ?  ?  0  24
+DC  H4*   .  H  0  ?  ?  ?  1  25
+DC  H3*   .  H  0  ?  ?  ?  1  26
+DC  1H2*  .  H  0  ?  ?  ?  0  27
+DC  2H2*  .  H  0  ?  ?  ?  0  28
+DC  H1*   .  H  0  ?  ?  ?  1  29
+DC  1H4   .  H  0  ?  ?  ?  0  30
+DC  2H4   .  H  0  ?  ?  ?  0  31
+DC  H5    .  H  0  ?  ?  ?  1  32
+DC  H6    .  H  0  ?  ?  ?  1  33
+DC  H3T   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DC  O3P  P     SING  1 
+DC  O3P  3HOP  SING  2 
+DC  P    O1P   DOUB  3 
+DC  P    O2P   SING  4 
+DC  P    O5*   SING  5 
+DC  O2P  2HOP  SING  6 
+DC  O5*  C5*   SING  7 
+DC  C5*  C4*   SING  8 
+DC  C5*  1H5*  SING  9 
+DC  C5*  2H5*  SING  10
+DC  C4*  O4*   SING  11
+DC  C4*  C3*   SING  12
+DC  C4*  H4*   SING  13
+DC  O4*  C1*   SING  14
+DC  C3*  O3*   SING  15
+DC  C3*  C2*   SING  16
+DC  C3*  H3*   SING  17
+DC  O3*  H3T   SING  18
+DC  C2*  C1*   SING  19
+DC  C2*  1H2*  SING  20
+DC  C2*  2H2*  SING  21
+DC  C1*  N1    SING  22
+DC  C1*  H1*   SING  23
+DC  N1   C2    SING  24
+DC  N1   C6    SING  25
+DC  C2   O2    DOUB  26
+DC  C2   N3    SING  27
+DC  N3   C4    DOUB  28
+DC  C4   N4    SING  29
+DC  C4   C5    SING  30
+DC  N4   1H4   SING  31
+DC  N4   2H4   SING  32
+DC  C5   C6    DOUB  33
+DC  C5   H5    SING  34
+DC  C6   H6    SING  35
+#

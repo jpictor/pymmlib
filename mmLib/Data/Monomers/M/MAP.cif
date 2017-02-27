@@ -1,0 +1,129 @@
+data_MAP
+#
+_chem_comp.id                   MAP
+_chem_comp.name                 MAGNESIUM-5'-ADENYLY-IMIDO-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N6 O12 MG1 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        529.496
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAP  PG    .  P   0  ?  ?  ?  1  1 
+MAP  O1G   .  O   0  ?  ?  ?  1  2 
+MAP  O2G   .  O   0  ?  ?  ?  1  3 
+MAP  O3G   .  O   0  ?  ?  ?  1  4 
+MAP  PB    .  P   0  ?  ?  ?  1  5 
+MAP  O1B   .  O   0  ?  ?  ?  1  6 
+MAP  O2B   .  O   0  ?  ?  ?  1  7 
+MAP  N3B   .  N   0  ?  ?  ?  1  8 
+MAP  PA    .  P   0  ?  ?  ?  1  9 
+MAP  O1A   .  O   0  ?  ?  ?  1  10
+MAP  O2A   .  O   0  ?  ?  ?  1  11
+MAP  O3A   .  O   0  ?  ?  ?  1  12
+MAP  O5*   .  O   0  ?  ?  ?  1  13
+MAP  C5*   .  C   0  ?  ?  ?  1  14
+MAP  C4*   .  C   0  ?  ?  ?  1  15
+MAP  O4*   .  O   0  ?  ?  ?  1  16
+MAP  C3*   .  C   0  ?  ?  ?  1  17
+MAP  O3*   .  O   0  ?  ?  ?  1  18
+MAP  C2*   .  C   0  ?  ?  ?  1  19
+MAP  O2*   .  O   0  ?  ?  ?  1  20
+MAP  C1*   .  C   0  ?  ?  ?  1  21
+MAP  N9    .  N   0  ?  ?  ?  1  22
+MAP  C8    .  C   0  ?  ?  ?  1  23
+MAP  N7    .  N   0  ?  ?  ?  1  24
+MAP  C5    .  C   0  ?  ?  ?  1  25
+MAP  C6    .  C   0  ?  ?  ?  1  26
+MAP  N6    .  N   0  ?  ?  ?  1  27
+MAP  N1    .  N   0  ?  ?  ?  1  28
+MAP  C2    .  C   0  ?  ?  ?  1  29
+MAP  N3    .  N   0  ?  ?  ?  1  30
+MAP  C4    .  C   0  ?  ?  ?  1  31
+MAP  MG    .  MG  0  ?  ?  ?  0  32
+MAP  2HOG  .  H   0  ?  ?  ?  0  33
+MAP  3HOG  .  H   0  ?  ?  ?  0  34
+MAP  2HOB  .  H   0  ?  ?  ?  0  35
+MAP  1HNB  .  H   0  ?  ?  ?  0  36
+MAP  1H5*  .  H   0  ?  ?  ?  0  37
+MAP  2H5*  .  H   0  ?  ?  ?  0  38
+MAP  H4*   .  H   0  ?  ?  ?  1  39
+MAP  H3*   .  H   0  ?  ?  ?  1  40
+MAP  *HO3  .  H   0  ?  ?  ?  0  41
+MAP  H2*   .  H   0  ?  ?  ?  1  42
+MAP  *HO2  .  H   0  ?  ?  ?  0  43
+MAP  H1*   .  H   0  ?  ?  ?  1  44
+MAP  H8    .  H   0  ?  ?  ?  1  45
+MAP  H2    .  H   0  ?  ?  ?  1  46
+MAP  1HN6  .  H   0  ?  ?  ?  0  47
+MAP  2HN6  .  H   0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAP  PG   N3B   SING  1 
+MAP  PG   O1G   DOUB  2 
+MAP  PG   O2G   SING  3 
+MAP  PG   O3G   SING  4 
+MAP  O2G  2HOG  SING  5 
+MAP  O3G  3HOG  SING  6 
+MAP  PB   O1B   DOUB  7 
+MAP  PB   O2B   SING  8 
+MAP  PB   N3B   SING  9 
+MAP  PB   O3A   SING  10
+MAP  O2B  2HOB  SING  11
+MAP  N3B  1HNB  SING  12
+MAP  PA   O1A   DOUB  13
+MAP  PA   O2A   SING  14
+MAP  PA   O3A   SING  15
+MAP  PA   O5*   SING  16
+MAP  O2A  MG    SING  17
+MAP  O5*  C5*   SING  18
+MAP  C5*  C4*   SING  19
+MAP  C5*  1H5*  SING  20
+MAP  C5*  2H5*  SING  21
+MAP  C4*  O4*   SING  22
+MAP  C4*  C3*   SING  23
+MAP  C4*  H4*   SING  24
+MAP  O4*  C1*   SING  25
+MAP  C3*  O3*   SING  26
+MAP  C3*  C2*   SING  27
+MAP  C3*  H3*   SING  28
+MAP  O3*  *HO3  SING  29
+MAP  C2*  O2*   SING  30
+MAP  C2*  C1*   SING  31
+MAP  C2*  H2*   SING  32
+MAP  O2*  *HO2  SING  33
+MAP  C1*  N9    SING  34
+MAP  C1*  H1*   SING  35
+MAP  N9   C8    SING  36
+MAP  N9   C4    SING  37
+MAP  C8   N7    DOUB  38
+MAP  C8   H8    SING  39
+MAP  N7   C5    SING  40
+MAP  C5   C6    SING  41
+MAP  C5   C4    DOUB  42
+MAP  C6   N6    SING  43
+MAP  C6   N1    DOUB  44
+MAP  N6   1HN6  SING  45
+MAP  N6   2HN6  SING  46
+MAP  N1   C2    SING  47
+MAP  C2   N3    DOUB  48
+MAP  C2   H2    SING  49
+MAP  N3   C4    SING  50
+#

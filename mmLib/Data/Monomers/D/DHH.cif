@@ -1,0 +1,84 @@
+data_DHH
+#
+_chem_comp.id                   DHH
+_chem_comp.name                 '(S)-2-AMINO-7,7-DIHYDROXYHEPTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        177.200
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHH  NP1   .  N  0  88.570  43.842  -6.292  1  1 
+DHH  C02   .  C  0  88.375  43.924  -7.806  1  2 
+DHH  C03   .  C  0  88.826  45.229  -8.385  1  3 
+DHH  O04   .  O  0  88.968  45.482  -9.561  1  4 
+DHH  O05   .  O  0  88.960  46.131  -7.417  1  5 
+DHH  C06   .  C  0  86.873  43.520  -8.144  1  6 
+DHH  C07   .  C  0  85.927  44.767  -8.239  1  7 
+DHH  C08   .  C  0  84.526  44.226  -8.556  1  8 
+DHH  C09   .  C  0  83.555  44.991  -7.706  1  9 
+DHH  C10   .  C  0  82.114  44.839  -8.150  1  10
+DHH  O1    .  O  0  81.664  45.975  -8.849  1  11
+DHH  O2    .  O  0  81.836  43.837  -9.122  1  12
+DHH  H04   .  H  0  ?       ?       ?       1  13
+DHH  H02   .  H  0  ?       ?       ?       1  14
+DHH  1HP1  .  H  0  ?       ?       ?       0  15
+DHH  2HP1  .  H  0  ?       ?       ?       0  16
+DHH  1H06  .  H  0  ?       ?       ?       0  17
+DHH  2H06  .  H  0  ?       ?       ?       0  18
+DHH  1H07  .  H  0  ?       ?       ?       0  19
+DHH  2H07  .  H  0  ?       ?       ?       0  20
+DHH  1H08  .  H  0  ?       ?       ?       0  21
+DHH  2H08  .  H  0  ?       ?       ?       0  22
+DHH  1H09  .  H  0  ?       ?       ?       0  23
+DHH  2H09  .  H  0  ?       ?       ?       0  24
+DHH  H10   .  H  0  ?       ?       ?       1  25
+DHH  HO1   .  H  0  ?       ?       ?       1  26
+DHH  HO2   .  H  0  ?       ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHH  NP1  C02   SING  1 
+DHH  NP1  1HP1  SING  2 
+DHH  NP1  2HP1  SING  3 
+DHH  C02  C03   SING  4 
+DHH  C02  H02   SING  5 
+DHH  C02  C06   SING  6 
+DHH  C03  O04   SING  7 
+DHH  C03  O05   DOUB  8 
+DHH  O04  H04   SING  9 
+DHH  C06  1H06  SING  10
+DHH  C06  2H06  SING  11
+DHH  C06  C07   SING  12
+DHH  C07  1H07  SING  13
+DHH  C07  2H07  SING  14
+DHH  C07  C08   SING  15
+DHH  C08  1H08  SING  16
+DHH  C08  2H08  SING  17
+DHH  C08  C09   SING  18
+DHH  C09  1H09  SING  19
+DHH  C09  2H09  SING  20
+DHH  C09  C10   SING  21
+DHH  C10  H10   SING  22
+DHH  C10  O1    SING  23
+DHH  C10  O2    SING  24
+DHH  O1   HO1   SING  25
+DHH  O2   HO2   SING  26
+#

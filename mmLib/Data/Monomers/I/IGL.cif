@@ -1,0 +1,87 @@
+data_IGL
+#
+_chem_comp.id                       IGL
+_chem_comp.name                     'ALPHA-AMINO-2-INDANACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            191.229
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IGL  N     .  N  0  ?  ?  ?  1  1 
+IGL  CA    .  C  0  ?  ?  ?  1  2 
+IGL  C     .  C  0  ?  ?  ?  1  3 
+IGL  O     .  O  0  ?  ?  ?  1  4 
+IGL  OXT   .  O  0  ?  ?  ?  1  5 
+IGL  CB    .  C  0  ?  ?  ?  1  6 
+IGL  CG1   .  C  0  ?  ?  ?  1  7 
+IGL  CG2   .  C  0  ?  ?  ?  1  8 
+IGL  CD1   .  C  0  ?  ?  ?  1  9 
+IGL  CE1   .  C  0  ?  ?  ?  1  10
+IGL  CH1   .  C  0  ?  ?  ?  1  11
+IGL  CH2   .  C  0  ?  ?  ?  1  12
+IGL  CE2   .  C  0  ?  ?  ?  1  13
+IGL  CD2   .  C  0  ?  ?  ?  1  14
+IGL  1HN   .  H  0  ?  ?  ?  0  15
+IGL  2HN   .  H  0  ?  ?  ?  0  16
+IGL  HA    .  H  0  ?  ?  ?  1  17
+IGL  HXT   .  H  0  ?  ?  ?  1  18
+IGL  HB    .  H  0  ?  ?  ?  1  19
+IGL  1HG1  .  H  0  ?  ?  ?  0  20
+IGL  2HG1  .  H  0  ?  ?  ?  0  21
+IGL  1HG2  .  H  0  ?  ?  ?  0  22
+IGL  2HG2  .  H  0  ?  ?  ?  0  23
+IGL  HE1   .  H  0  ?  ?  ?  1  24
+IGL  HH1   .  H  0  ?  ?  ?  1  25
+IGL  HH2   .  H  0  ?  ?  ?  1  26
+IGL  HE2   .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IGL  N    CA    SING  1 
+IGL  N    1HN   SING  2 
+IGL  N    2HN   SING  3 
+IGL  CA   CB    SING  4 
+IGL  CA   C     SING  5 
+IGL  CA   HA    SING  6 
+IGL  C    O     DOUB  7 
+IGL  C    OXT   SING  8 
+IGL  OXT  HXT   SING  9 
+IGL  CB   CG1   SING  10
+IGL  CB   CG2   SING  11
+IGL  CB   HB    SING  12
+IGL  CG1  CD1   SING  13
+IGL  CG1  1HG1  SING  14
+IGL  CG1  2HG1  SING  15
+IGL  CG2  CD2   SING  16
+IGL  CG2  1HG2  SING  17
+IGL  CG2  2HG2  SING  18
+IGL  CD1  CE1   DOUB  19
+IGL  CD1  CD2   SING  20
+IGL  CE1  CH1   SING  21
+IGL  CE1  HE1   SING  22
+IGL  CH1  CH2   DOUB  23
+IGL  CH1  HH1   SING  24
+IGL  CH2  CE2   SING  25
+IGL  CH2  HH2   SING  26
+IGL  CE2  CD2   DOUB  27
+IGL  CE2  HE2   SING  28
+#

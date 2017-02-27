@@ -1,0 +1,98 @@
+data_2PH
+#
+_chem_comp.id                   2PH
+_chem_comp.name                 '[7,8-DIHYDRO-PTERIN-6-YL METHANYL]-PHOSPHONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N5 O8 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        355.140
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2PH  N1    .  N  0  ?  ?  ?  1  1 
+2PH  C2    .  C  0  ?  ?  ?  1  2 
+2PH  C3    .  C  0  ?  ?  ?  1  3 
+2PH  N4    .  N  0  ?  ?  ?  1  4 
+2PH  N5    .  N  0  ?  ?  ?  1  5 
+2PH  C6    .  C  0  ?  ?  ?  1  6 
+2PH  N6    .  N  0  ?  ?  ?  1  7 
+2PH  N7    .  N  0  ?  ?  ?  1  8 
+2PH  C8    .  C  0  ?  ?  ?  1  9 
+2PH  O8    .  O  0  ?  ?  ?  1  10
+2PH  C9    .  C  0  ?  ?  ?  1  11
+2PH  C10   .  C  0  ?  ?  ?  1  12
+2PH  C11   .  C  0  ?  ?  ?  1  13
+2PH  O4    .  O  0  ?  ?  ?  1  14
+2PH  P1    .  P  0  ?  ?  ?  1  15
+2PH  O1P   .  O  0  ?  ?  ?  1  16
+2PH  O2P   .  O  0  ?  ?  ?  1  17
+2PH  O3P   .  O  0  ?  ?  ?  1  18
+2PH  P2    .  P  0  ?  ?  ?  1  19
+2PH  O4P   .  O  0  ?  ?  ?  1  20
+2PH  O5P   .  O  0  ?  ?  ?  1  21
+2PH  O6P   .  O  0  ?  ?  ?  1  22
+2PH  1H3   .  H  0  ?  ?  ?  0  23
+2PH  2H3   .  H  0  ?  ?  ?  0  24
+2PH  HN4   .  H  0  ?  ?  ?  1  25
+2PH  1HN6  .  H  0  ?  ?  ?  0  26
+2PH  2HN6  .  H  0  ?  ?  ?  0  27
+2PH  HN7   .  H  0  ?  ?  ?  1  28
+2PH  1H11  .  H  0  ?  ?  ?  0  29
+2PH  2H11  .  H  0  ?  ?  ?  0  30
+2PH  2HOP  .  H  0  ?  ?  ?  0  31
+2PH  5HOP  .  H  0  ?  ?  ?  0  32
+2PH  6HOP  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2PH  N1   C2    DOUB  1 
+2PH  N1   C9    SING  2 
+2PH  C2   C3    SING  3 
+2PH  C2   C11   SING  4 
+2PH  C3   N4    SING  5 
+2PH  C3   1H3   SING  6 
+2PH  C3   2H3   SING  7 
+2PH  N4   C10   SING  8 
+2PH  N4   HN4   SING  9 
+2PH  N5   C6    DOUB  10
+2PH  N5   C10   SING  11
+2PH  C6   N7    SING  12
+2PH  C6   N6    SING  13
+2PH  N6   1HN6  SING  14
+2PH  N6   2HN6  SING  15
+2PH  N7   C8    SING  16
+2PH  N7   HN7   SING  17
+2PH  C8   C9    SING  18
+2PH  C8   O8    DOUB  19
+2PH  C9   C10   DOUB  20
+2PH  C11  O4    SING  21
+2PH  C11  1H11  SING  22
+2PH  C11  2H11  SING  23
+2PH  O4   P1    SING  24
+2PH  P1   O1P   DOUB  25
+2PH  P1   O2P   SING  26
+2PH  P1   O3P   SING  27
+2PH  O2P  2HOP  SING  28
+2PH  O3P  P2    SING  29
+2PH  P2   O4P   DOUB  30
+2PH  P2   O5P   SING  31
+2PH  P2   O6P   SING  32
+2PH  O5P  5HOP  SING  33
+2PH  O6P  6HOP  SING  34
+#

@@ -1,0 +1,113 @@
+data_BEL
+#
+_chem_comp.id                   BEL
+_chem_comp.name                 2,4-DINITRO,5-[BIS(2-BROMOETHYL)AMINO]-N-(2',3'-DIOXOPROPYL)BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N4 O7 BR2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        510.095
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BEL  O1    .  O   0  ?  ?  ?  1  1 
+BEL  N1    .  N   0  ?  ?  ?  1  2 
+BEL  O2    .  O   0  ?  ?  ?  1  3 
+BEL  C1    .  C   0  ?  ?  ?  1  4 
+BEL  C2    .  C   0  ?  ?  ?  1  5 
+BEL  C3    .  C   0  ?  ?  ?  1  6 
+BEL  C4    .  C   0  ?  ?  ?  1  7 
+BEL  C5    .  C   0  ?  ?  ?  1  8 
+BEL  C6    .  C   0  ?  ?  ?  1  9 
+BEL  N2    .  N   0  ?  ?  ?  1  10
+BEL  C7    .  C   0  ?  ?  ?  1  11
+BEL  C8    .  C   0  ?  ?  ?  1  12
+BEL  BR1   .  BR  0  ?  ?  ?  0  13
+BEL  C9    .  C   0  ?  ?  ?  1  14
+BEL  C10   .  C   0  ?  ?  ?  1  15
+BEL  BR2   .  BR  0  ?  ?  ?  0  16
+BEL  C11   .  C   0  ?  ?  ?  1  17
+BEL  O3    .  O   0  ?  ?  ?  1  18
+BEL  N3    .  N   0  ?  ?  ?  1  19
+BEL  C12   .  C   0  ?  ?  ?  1  20
+BEL  C13   .  C   0  ?  ?  ?  1  21
+BEL  O4    .  O   0  ?  ?  ?  1  22
+BEL  C14   .  C   0  ?  ?  ?  1  23
+BEL  O5    .  O   0  ?  ?  ?  1  24
+BEL  N4    .  N   0  ?  ?  ?  1  25
+BEL  O6    .  O   0  ?  ?  ?  1  26
+BEL  O7    .  O   0  ?  ?  ?  1  27
+BEL  H2    .  H   0  ?  ?  ?  1  28
+BEL  H5    .  H   0  ?  ?  ?  1  29
+BEL  1H7   .  H   0  ?  ?  ?  0  30
+BEL  2H7   .  H   0  ?  ?  ?  0  31
+BEL  1H8   .  H   0  ?  ?  ?  0  32
+BEL  2H8   .  H   0  ?  ?  ?  0  33
+BEL  1H9   .  H   0  ?  ?  ?  0  34
+BEL  2H9   .  H   0  ?  ?  ?  0  35
+BEL  1H10  .  H   0  ?  ?  ?  0  36
+BEL  2H10  .  H   0  ?  ?  ?  0  37
+BEL  HN3   .  H   0  ?  ?  ?  1  38
+BEL  1H12  .  H   0  ?  ?  ?  0  39
+BEL  2H12  .  H   0  ?  ?  ?  0  40
+BEL  H14   .  H   0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BEL  O1   N1    DOUB  1 
+BEL  N1   O2    DOUB  2 
+BEL  N1   C1    SING  3 
+BEL  C1   C2    DOUB  4 
+BEL  C1   C6    SING  5 
+BEL  C2   C3    SING  6 
+BEL  C2   H2    SING  7 
+BEL  C3   C4    DOUB  8 
+BEL  C3   N4    SING  9 
+BEL  C4   C5    SING  10
+BEL  C4   C11   SING  11
+BEL  C5   C6    DOUB  12
+BEL  C5   H5    SING  13
+BEL  C6   N2    SING  14
+BEL  N2   C7    SING  15
+BEL  N2   C9    SING  16
+BEL  C7   C8    SING  17
+BEL  C7   1H7   SING  18
+BEL  C7   2H7   SING  19
+BEL  C8   BR1   SING  20
+BEL  C8   1H8   SING  21
+BEL  C8   2H8   SING  22
+BEL  C9   C10   SING  23
+BEL  C9   1H9   SING  24
+BEL  C9   2H9   SING  25
+BEL  C10  BR2   SING  26
+BEL  C10  1H10  SING  27
+BEL  C10  2H10  SING  28
+BEL  C11  O3    DOUB  29
+BEL  C11  N3    SING  30
+BEL  N3   C12   SING  31
+BEL  N3   HN3   SING  32
+BEL  C12  C13   SING  33
+BEL  C12  1H12  SING  34
+BEL  C12  2H12  SING  35
+BEL  C13  O4    DOUB  36
+BEL  C13  C14   SING  37
+BEL  C14  O5    DOUB  38
+BEL  C14  H14   SING  39
+BEL  N4   O6    DOUB  40
+BEL  N4   O7    DOUB  41
+#

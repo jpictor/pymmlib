@@ -1,0 +1,124 @@
+data_TTP
+#
+_chem_comp.id                   TTP
+_chem_comp.name                 THYMIDINE-5'-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N2 O14 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        482.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TTP  PA    .  P  0  ?  ?  ?  1  1 
+TTP  O1A   .  O  0  ?  ?  ?  1  2 
+TTP  O2A   .  O  0  ?  ?  ?  1  3 
+TTP  O3A   .  O  0  ?  ?  ?  1  4 
+TTP  PB    .  P  0  ?  ?  ?  1  5 
+TTP  O1B   .  O  0  ?  ?  ?  1  6 
+TTP  O2B   .  O  0  ?  ?  ?  1  7 
+TTP  O3B   .  O  0  ?  ?  ?  1  8 
+TTP  PG    .  P  0  ?  ?  ?  1  9 
+TTP  O1G   .  O  0  ?  ?  ?  1  10
+TTP  O2G   .  O  0  ?  ?  ?  1  11
+TTP  O3G   .  O  0  ?  ?  ?  1  12
+TTP  O5*   .  O  0  ?  ?  ?  1  13
+TTP  C5*   .  C  0  ?  ?  ?  1  14
+TTP  C4*   .  C  0  ?  ?  ?  1  15
+TTP  O4*   .  O  0  ?  ?  ?  1  16
+TTP  C3*   .  C  0  ?  ?  ?  1  17
+TTP  O3*   .  O  0  ?  ?  ?  1  18
+TTP  C2*   .  C  0  ?  ?  ?  1  19
+TTP  C1*   .  C  0  ?  ?  ?  1  20
+TTP  N1    .  N  0  ?  ?  ?  1  21
+TTP  C2    .  C  0  ?  ?  ?  1  22
+TTP  O2    .  O  0  ?  ?  ?  1  23
+TTP  N3    .  N  0  ?  ?  ?  1  24
+TTP  C4    .  C  0  ?  ?  ?  1  25
+TTP  O4    .  O  0  ?  ?  ?  1  26
+TTP  C5    .  C  0  ?  ?  ?  1  27
+TTP  C5M   .  C  0  ?  ?  ?  1  28
+TTP  C6    .  C  0  ?  ?  ?  1  29
+TTP  2HOA  .  H  0  ?  ?  ?  0  30
+TTP  2HOB  .  H  0  ?  ?  ?  0  31
+TTP  2HOG  .  H  0  ?  ?  ?  0  32
+TTP  3HOG  .  H  0  ?  ?  ?  0  33
+TTP  1H5*  .  H  0  ?  ?  ?  0  34
+TTP  2H5*  .  H  0  ?  ?  ?  0  35
+TTP  H4*   .  H  0  ?  ?  ?  1  36
+TTP  H3*   .  H  0  ?  ?  ?  1  37
+TTP  *HO3  .  H  0  ?  ?  ?  0  38
+TTP  1H2*  .  H  0  ?  ?  ?  0  39
+TTP  2H2*  .  H  0  ?  ?  ?  0  40
+TTP  H1*   .  H  0  ?  ?  ?  1  41
+TTP  HN3   .  H  0  ?  ?  ?  1  42
+TTP  1HM5  .  H  0  ?  ?  ?  0  43
+TTP  2HM5  .  H  0  ?  ?  ?  0  44
+TTP  3HM5  .  H  0  ?  ?  ?  0  45
+TTP  H6    .  H  0  ?  ?  ?  1  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TTP  PA   O5*   SING  1 
+TTP  PA   O1A   DOUB  2 
+TTP  PA   O2A   SING  3 
+TTP  PA   O3A   SING  4 
+TTP  O2A  2HOA  SING  5 
+TTP  O3A  PB    SING  6 
+TTP  PB   O1B   DOUB  7 
+TTP  PB   O2B   SING  8 
+TTP  PB   O3B   SING  9 
+TTP  O2B  2HOB  SING  10
+TTP  O3B  PG    SING  11
+TTP  PG   O1G   DOUB  12
+TTP  PG   O2G   SING  13
+TTP  PG   O3G   SING  14
+TTP  O2G  2HOG  SING  15
+TTP  O3G  3HOG  SING  16
+TTP  O5*  C5*   SING  17
+TTP  C5*  C4*   SING  18
+TTP  C5*  1H5*  SING  19
+TTP  C5*  2H5*  SING  20
+TTP  C4*  C3*   SING  21
+TTP  C4*  O4*   SING  22
+TTP  C4*  H4*   SING  23
+TTP  O4*  C1*   SING  24
+TTP  C3*  C2*   SING  25
+TTP  C3*  O3*   SING  26
+TTP  C3*  H3*   SING  27
+TTP  O3*  *HO3  SING  28
+TTP  C2*  C1*   SING  29
+TTP  C2*  1H2*  SING  30
+TTP  C2*  2H2*  SING  31
+TTP  C1*  N1    SING  32
+TTP  C1*  H1*   SING  33
+TTP  N1   C2    SING  34
+TTP  N1   C6    SING  35
+TTP  C2   O2    DOUB  36
+TTP  C2   N3    SING  37
+TTP  N3   C4    SING  38
+TTP  N3   HN3   SING  39
+TTP  C4   O4    DOUB  40
+TTP  C4   C5    SING  41
+TTP  C5   C6    DOUB  42
+TTP  C5   C5M   SING  43
+TTP  C5M  1HM5  SING  44
+TTP  C5M  2HM5  SING  45
+TTP  C5M  3HM5  SING  46
+TTP  C6   H6    SING  47
+#

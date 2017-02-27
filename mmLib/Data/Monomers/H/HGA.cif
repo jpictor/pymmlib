@@ -1,0 +1,72 @@
+data_HGA
+#
+_chem_comp.id                   HGA
+_chem_comp.name                 'GLUTAMINE HYDROXAMATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.145
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HGA  N    .  N  0  ?  ?  ?  1  1 
+HGA  CA   .  C  0  ?  ?  ?  1  2 
+HGA  CB   .  C  0  ?  ?  ?  1  3 
+HGA  CG   .  C  0  ?  ?  ?  1  4 
+HGA  CD   .  C  0  ?  ?  ?  1  5 
+HGA  OE1  .  O  0  ?  ?  ?  1  6 
+HGA  NE2  .  N  0  ?  ?  ?  1  7 
+HGA  OZ2  .  O  0  ?  ?  ?  1  8 
+HGA  C    .  C  0  ?  ?  ?  1  9 
+HGA  O    .  O  0  ?  ?  ?  1  10
+HGA  OXT  .  O  0  ?  ?  ?  1  11
+HGA  1HN  .  H  0  ?  ?  ?  0  12
+HGA  2HN  .  H  0  ?  ?  ?  0  13
+HGA  HA   .  H  0  ?  ?  ?  1  14
+HGA  1HB  .  H  0  ?  ?  ?  0  15
+HGA  2HB  .  H  0  ?  ?  ?  0  16
+HGA  1HG  .  H  0  ?  ?  ?  0  17
+HGA  2HG  .  H  0  ?  ?  ?  0  18
+HGA  HNE  .  H  0  ?  ?  ?  1  19
+HGA  HOZ  .  H  0  ?  ?  ?  1  20
+HGA  HXT  .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HGA  N    CA   SING  1 
+HGA  N    1HN  SING  2 
+HGA  N    2HN  SING  3 
+HGA  CA   CB   SING  4 
+HGA  CA   C    SING  5 
+HGA  CA   HA   SING  6 
+HGA  CB   CG   SING  7 
+HGA  CB   1HB  SING  8 
+HGA  CB   2HB  SING  9 
+HGA  CG   CD   SING  10
+HGA  CG   1HG  SING  11
+HGA  CG   2HG  SING  12
+HGA  CD   OE1  DOUB  13
+HGA  CD   NE2  SING  14
+HGA  NE2  OZ2  SING  15
+HGA  NE2  HNE  SING  16
+HGA  OZ2  HOZ  SING  17
+HGA  C    O    DOUB  18
+HGA  C    OXT  SING  19
+HGA  OXT  HXT  SING  20
+#

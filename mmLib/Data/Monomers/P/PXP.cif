@@ -1,0 +1,87 @@
+data_PXP
+#
+_chem_comp.id                   PXP
+_chem_comp.name                 PYRIDOXINE-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PXP  N1    .  N  0  ?  ?  ?  1  1 
+PXP  C2    .  C  0  ?  ?  ?  1  2 
+PXP  C2A   .  C  0  ?  ?  ?  1  3 
+PXP  C3    .  C  0  ?  ?  ?  1  4 
+PXP  O3    .  O  0  ?  ?  ?  1  5 
+PXP  C4    .  C  0  ?  ?  ?  1  6 
+PXP  C4A   .  C  0  ?  ?  ?  1  7 
+PXP  O4A   .  O  0  ?  ?  ?  1  8 
+PXP  C5    .  C  0  ?  ?  ?  1  9 
+PXP  C6    .  C  0  ?  ?  ?  1  10
+PXP  C5A   .  C  0  ?  ?  ?  1  11
+PXP  O4P   .  O  0  ?  ?  ?  1  12
+PXP  P     .  P  0  ?  ?  ?  1  13
+PXP  O1P   .  O  0  ?  ?  ?  1  14
+PXP  O2P   .  O  0  ?  ?  ?  1  15
+PXP  O3P   .  O  0  ?  ?  ?  1  16
+PXP  1H2A  .  H  0  ?  ?  ?  0  17
+PXP  2H2A  .  H  0  ?  ?  ?  0  18
+PXP  3H2A  .  H  0  ?  ?  ?  0  19
+PXP  HO3   .  H  0  ?  ?  ?  1  20
+PXP  1H4A  .  H  0  ?  ?  ?  0  21
+PXP  2H4A  .  H  0  ?  ?  ?  0  22
+PXP  1H5A  .  H  0  ?  ?  ?  0  23
+PXP  2H5A  .  H  0  ?  ?  ?  0  24
+PXP  H6    .  H  0  ?  ?  ?  1  25
+PXP  2HOP  .  H  0  ?  ?  ?  0  26
+PXP  3HOP  .  H  0  ?  ?  ?  0  27
+PXP  4HOA  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PXP  N1   C2    DOUB  1 
+PXP  N1   C6    SING  2 
+PXP  C2   C2A   SING  3 
+PXP  C2   C3    SING  4 
+PXP  C2A  1H2A  SING  5 
+PXP  C2A  2H2A  SING  6 
+PXP  C2A  3H2A  SING  7 
+PXP  C3   O3    SING  8 
+PXP  C3   C4    DOUB  9 
+PXP  O3   HO3   SING  10
+PXP  C4   C4A   SING  11
+PXP  C4   C5    SING  12
+PXP  C4A  O4A   SING  13
+PXP  C4A  1H4A  SING  14
+PXP  C4A  2H4A  SING  15
+PXP  O4A  4HOA  SING  16
+PXP  C5   C6    DOUB  17
+PXP  C5   C5A   SING  18
+PXP  C6   H6    SING  19
+PXP  C5A  O4P   SING  20
+PXP  C5A  1H5A  SING  21
+PXP  C5A  2H5A  SING  22
+PXP  O4P  P     SING  23
+PXP  P    O1P   DOUB  24
+PXP  P    O2P   SING  25
+PXP  P    O3P   SING  26
+PXP  O2P  2HOP  SING  27
+PXP  O3P  3HOP  SING  28
+#

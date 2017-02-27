@@ -1,0 +1,74 @@
+data_HEZ
+#
+_chem_comp.id                   HEZ
+_chem_comp.name                 HEXANE-1,6-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEZ  O1   .  O  0  ?  ?  ?  1  1 
+HEZ  C1   .  C  0  ?  ?  ?  1  2 
+HEZ  C2   .  C  0  ?  ?  ?  1  3 
+HEZ  C3   .  C  0  ?  ?  ?  1  4 
+HEZ  C4   .  C  0  ?  ?  ?  1  5 
+HEZ  C5   .  C  0  ?  ?  ?  1  6 
+HEZ  C6   .  C  0  ?  ?  ?  1  7 
+HEZ  O6   .  O  0  ?  ?  ?  1  8 
+HEZ  HO1  .  H  0  ?  ?  ?  1  9 
+HEZ  1H1  .  H  0  ?  ?  ?  0  10
+HEZ  2H1  .  H  0  ?  ?  ?  0  11
+HEZ  1H2  .  H  0  ?  ?  ?  0  12
+HEZ  2H2  .  H  0  ?  ?  ?  0  13
+HEZ  1H3  .  H  0  ?  ?  ?  0  14
+HEZ  2H3  .  H  0  ?  ?  ?  0  15
+HEZ  1H4  .  H  0  ?  ?  ?  0  16
+HEZ  2H4  .  H  0  ?  ?  ?  0  17
+HEZ  1H5  .  H  0  ?  ?  ?  0  18
+HEZ  2H5  .  H  0  ?  ?  ?  0  19
+HEZ  1H6  .  H  0  ?  ?  ?  0  20
+HEZ  2H6  .  H  0  ?  ?  ?  0  21
+HEZ  HO6  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEZ  O1  C1   SING  1 
+HEZ  O1  HO1  SING  2 
+HEZ  C1  C2   SING  3 
+HEZ  C1  1H1  SING  4 
+HEZ  C1  2H1  SING  5 
+HEZ  C2  C3   SING  6 
+HEZ  C2  1H2  SING  7 
+HEZ  C2  2H2  SING  8 
+HEZ  C3  C4   SING  9 
+HEZ  C3  1H3  SING  10
+HEZ  C3  2H3  SING  11
+HEZ  C4  C5   SING  12
+HEZ  C4  1H4  SING  13
+HEZ  C4  2H4  SING  14
+HEZ  C5  C6   SING  15
+HEZ  C5  1H5  SING  16
+HEZ  C5  2H5  SING  17
+HEZ  C6  O6   SING  18
+HEZ  C6  1H6  SING  19
+HEZ  C6  2H6  SING  20
+HEZ  O6  HO6  SING  21
+#

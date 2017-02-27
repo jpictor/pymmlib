@@ -1,0 +1,108 @@
+data_TOL
+#
+_chem_comp.id                   TOL
+_chem_comp.name                 TOLRESTAT
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 N1 O3 F3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        357.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TOL  C1    .  C  0  ?  ?  ?  1  1 
+TOL  F1    .  F  0  ?  ?  ?  1  2 
+TOL  F2    .  F  0  ?  ?  ?  1  3 
+TOL  F3    .  F  0  ?  ?  ?  1  4 
+TOL  C2    .  C  0  ?  ?  ?  1  5 
+TOL  C3    .  C  0  ?  ?  ?  1  6 
+TOL  O1    .  O  0  ?  ?  ?  1  7 
+TOL  C4    .  C  0  ?  ?  ?  1  8 
+TOL  C5    .  C  0  ?  ?  ?  1  9 
+TOL  C6    .  C  0  ?  ?  ?  1  10
+TOL  C7    .  C  0  ?  ?  ?  1  11
+TOL  C8    .  C  0  ?  ?  ?  1  12
+TOL  C9    .  C  0  ?  ?  ?  1  13
+TOL  C10   .  C  0  ?  ?  ?  1  14
+TOL  C11   .  C  0  ?  ?  ?  1  15
+TOL  C12   .  C  0  ?  ?  ?  1  16
+TOL  C13   .  C  0  ?  ?  ?  1  17
+TOL  S1    .  S  0  ?  ?  ?  1  18
+TOL  N1    .  N  0  ?  ?  ?  1  19
+TOL  C14   .  C  0  ?  ?  ?  1  20
+TOL  C15   .  C  0  ?  ?  ?  1  21
+TOL  C16   .  C  0  ?  ?  ?  1  22
+TOL  O2    .  O  0  ?  ?  ?  1  23
+TOL  O3    .  O  0  ?  ?  ?  1  24
+TOL  1H4   .  H  0  ?  ?  ?  0  25
+TOL  2H4   .  H  0  ?  ?  ?  0  26
+TOL  3H4   .  H  0  ?  ?  ?  0  27
+TOL  H5    .  H  0  ?  ?  ?  1  28
+TOL  H6    .  H  0  ?  ?  ?  1  29
+TOL  H9    .  H  0  ?  ?  ?  1  30
+TOL  H10   .  H  0  ?  ?  ?  1  31
+TOL  H11   .  H  0  ?  ?  ?  1  32
+TOL  1H14  .  H  0  ?  ?  ?  0  33
+TOL  2H14  .  H  0  ?  ?  ?  0  34
+TOL  3H14  .  H  0  ?  ?  ?  0  35
+TOL  1H15  .  H  0  ?  ?  ?  0  36
+TOL  2H15  .  H  0  ?  ?  ?  0  37
+TOL  HO3   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TOL  C1   C2    SING  1 
+TOL  C1   F1    SING  2 
+TOL  C1   F2    SING  3 
+TOL  C1   F3    SING  4 
+TOL  C2   C3    DOUB  5 
+TOL  C2   C12   SING  6 
+TOL  C3   C5    SING  7 
+TOL  C3   O1    SING  8 
+TOL  O1   C4    SING  9 
+TOL  C4   1H4   SING  10
+TOL  C4   2H4   SING  11
+TOL  C4   3H4   SING  12
+TOL  C5   C6    DOUB  13
+TOL  C5   H5    SING  14
+TOL  C6   C7    SING  15
+TOL  C6   H6    SING  16
+TOL  C7   C8    DOUB  17
+TOL  C7   C12   SING  18
+TOL  C8   C9    SING  19
+TOL  C8   C13   SING  20
+TOL  C9   C10   DOUB  21
+TOL  C9   H9    SING  22
+TOL  C10  C11   SING  23
+TOL  C10  H10   SING  24
+TOL  C11  C12   DOUB  25
+TOL  C11  H11   SING  26
+TOL  C13  N1    SING  27
+TOL  C13  S1    DOUB  28
+TOL  N1   C14   SING  29
+TOL  N1   C15   SING  30
+TOL  C14  1H14  SING  31
+TOL  C14  2H14  SING  32
+TOL  C14  3H14  SING  33
+TOL  C15  C16   SING  34
+TOL  C15  1H15  SING  35
+TOL  C15  2H15  SING  36
+TOL  C16  O2    DOUB  37
+TOL  C16  O3    SING  38
+TOL  O3   HO3   SING  39
+#

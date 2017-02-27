@@ -1,0 +1,69 @@
+data_X2F
+#
+_chem_comp.id                   X2F
+_chem_comp.name                 '2-DEOXY-2-FLUORO XYLOPYRANOSE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H9 O4 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+X2F  C1   .  C  0  ?  ?  ?  1  1 
+X2F  C2   .  C  0  ?  ?  ?  1  2 
+X2F  C3   .  C  0  ?  ?  ?  1  3 
+X2F  C4   .  C  0  ?  ?  ?  1  4 
+X2F  C5   .  C  0  ?  ?  ?  1  5 
+X2F  O1   .  O  0  ?  ?  ?  1  6 
+X2F  O3   .  O  0  ?  ?  ?  1  7 
+X2F  O4   .  O  0  ?  ?  ?  1  8 
+X2F  O5   .  O  0  ?  ?  ?  1  9 
+X2F  F2   .  F  0  ?  ?  ?  1  10
+X2F  H1   .  H  0  ?  ?  ?  1  11
+X2F  H2   .  H  0  ?  ?  ?  1  12
+X2F  H3   .  H  0  ?  ?  ?  1  13
+X2F  H4   .  H  0  ?  ?  ?  1  14
+X2F  1H5  .  H  0  ?  ?  ?  0  15
+X2F  2H5  .  H  0  ?  ?  ?  0  16
+X2F  HO1  .  H  0  ?  ?  ?  1  17
+X2F  HO3  .  H  0  ?  ?  ?  1  18
+X2F  HO4  .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+X2F  C1  C2   SING  1 
+X2F  C1  O1   SING  2 
+X2F  C1  O5   SING  3 
+X2F  C1  H1   SING  4 
+X2F  C2  C3   SING  5 
+X2F  C2  F2   SING  6 
+X2F  C2  H2   SING  7 
+X2F  C3  C4   SING  8 
+X2F  C3  O3   SING  9 
+X2F  C3  H3   SING  10
+X2F  C4  C5   SING  11
+X2F  C4  O4   SING  12
+X2F  C4  H4   SING  13
+X2F  C5  O5   SING  14
+X2F  C5  1H5  SING  15
+X2F  C5  2H5  SING  16
+X2F  O1  HO1  SING  17
+X2F  O3  HO3  SING  18
+X2F  O4  HO4  SING  19
+#

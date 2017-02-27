@@ -1,0 +1,95 @@
+data_IBC
+#
+_chem_comp.id                   IBC
+_chem_comp.name                 3-(3-HYDROXY-7,8-DIHYDRO-6H-CYCLOHEPTA[D]ISOXAZOL-4-YL)-L-ALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N2 O4'
+_chem_comp.pdbx_synonyms        '2-AMINO-3-(3-HYDROXY-7,8-DIHYDRO-6H-CYCLOHEPTA[D]-4-ISOXAZOLYL)PROPIONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IBC  O4    .  O  0  14.528  6.105   25.695  1  1 
+IBC  C11   .  C  0  13.386  6.515   25.334  1  2 
+IBC  O3    .  O  0  12.364  6.642   26.107  1  3 
+IBC  C10   .  C  0  13.152  6.872   23.824  1  4 
+IBC  N2    .  N  0  11.685  7.174   23.542  1  5 
+IBC  C9    .  C  0  14.090  8.069   23.463  1  6 
+IBC  C4    .  C  0  13.886  8.634   22.052  1  7 
+IBC  C1    .  C  0  14.152  7.771   20.888  1  8 
+IBC  C5    .  C  0  13.398  9.906   21.965  1  9 
+IBC  C6    .  C  0  13.058  10.731  20.727  1  10
+IBC  C7    .  C  0  12.143  10.028  19.713  1  11
+IBC  C8    .  C  0  12.792  8.890   18.883  1  12
+IBC  C3    .  C  0  13.683  7.916   19.590  1  13
+IBC  O1    .  O  0  14.126  6.932   18.788  1  14
+IBC  N1    .  N  0  14.969  6.053   19.575  1  15
+IBC  C2    .  C  0  14.991  6.539   20.835  1  16
+IBC  O2    .  O  0  15.635  6.008   21.788  1  17
+IBC  HO4   .  H  0  ?       ?       ?       1  18
+IBC  H10   .  H  0  ?       ?       ?       1  19
+IBC  1HN2  .  H  0  ?       ?       ?       0  20
+IBC  2HN2  .  H  0  ?       ?       ?       0  21
+IBC  1H9   .  H  0  ?       ?       ?       0  22
+IBC  2H9   .  H  0  ?       ?       ?       0  23
+IBC  H5    .  H  0  ?       ?       ?       1  24
+IBC  1H6   .  H  0  ?       ?       ?       0  25
+IBC  2H6   .  H  0  ?       ?       ?       0  26
+IBC  1H7   .  H  0  ?       ?       ?       0  27
+IBC  2H7   .  H  0  ?       ?       ?       0  28
+IBC  1H8   .  H  0  ?       ?       ?       0  29
+IBC  2H8   .  H  0  ?       ?       ?       0  30
+IBC  HO2   .  H  0  ?       ?       ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IBC  O4   HO4   SING  1 
+IBC  O4   C11   SING  2 
+IBC  C11  O3    DOUB  3 
+IBC  C11  C10   SING  4 
+IBC  C10  H10   SING  5 
+IBC  C10  N2    SING  6 
+IBC  C10  C9    SING  7 
+IBC  N2   1HN2  SING  8 
+IBC  N2   2HN2  SING  9 
+IBC  C9   1H9   SING  10
+IBC  C9   2H9   SING  11
+IBC  C9   C4    SING  12
+IBC  C4   C5    DOUB  13
+IBC  C4   C1    SING  14
+IBC  C1   C3    DOUB  15
+IBC  C1   C2    SING  16
+IBC  C5   H5    SING  17
+IBC  C5   C6    SING  18
+IBC  C6   1H6   SING  19
+IBC  C6   2H6   SING  20
+IBC  C6   C7    SING  21
+IBC  C7   1H7   SING  22
+IBC  C7   2H7   SING  23
+IBC  C7   C8    SING  24
+IBC  C8   1H8   SING  25
+IBC  C8   2H8   SING  26
+IBC  C8   C3    SING  27
+IBC  C3   O1    SING  28
+IBC  O1   N1    SING  29
+IBC  N1   C2    DOUB  30
+IBC  C2   O2    SING  31
+IBC  O2   HO2   SING  32
+#

@@ -1,0 +1,84 @@
+data_SDC
+#
+_chem_comp.id                   SDC
+_chem_comp.name                 S-{2-[AMINO(DIHYDROXY)-LAMBDA~4~-SULFANYL]ETHYL}-D-CYSTEINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H14 N2 O4 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.297
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SDC  O01   .  O  0  2.804  50.700  -3.234  1  1 
+SDC  NP2   .  N  0  6.178  50.176  -2.089  1  2 
+SDC  C03   .  C  0  5.047  49.678  -2.935  1  3 
+SDC  C04   .  C  0  4.004  50.790  -3.237  1  4 
+SDC  O05   .  O  0  4.662  51.934  -3.532  1  5 
+SDC  C06   .  C  0  4.466  48.503  -2.153  1  6 
+SDC  S07   .  S  0  3.737  47.365  -3.353  1  7 
+SDC  C08   .  C  0  2.543  46.517  -2.244  1  8 
+SDC  C09   .  C  0  2.683  45.023  -2.566  1  9 
+SDC  S10   .  S  0  1.244  44.091  -2.031  1  10
+SDC  O11   .  O  0  0.756  43.213  -3.006  1  11
+SDC  N12   .  N  0  1.799  43.163  -0.804  1  12
+SDC  O13   .  O  0  0.289  44.849  -1.264  1  13
+SDC  H01   .  H  0  ?      ?       ?       1  14
+SDC  H03   .  H  0  ?      ?       ?       1  15
+SDC  1HP2  .  H  0  ?      ?       ?       0  16
+SDC  2HP2  .  H  0  ?      ?       ?       0  17
+SDC  1H06  .  H  0  ?      ?       ?       0  18
+SDC  2H06  .  H  0  ?      ?       ?       0  19
+SDC  1H08  .  H  0  ?      ?       ?       0  20
+SDC  2H08  .  H  0  ?      ?       ?       0  21
+SDC  1H09  .  H  0  ?      ?       ?       0  22
+SDC  2H09  .  H  0  ?      ?       ?       0  23
+SDC  H11   .  H  0  ?      ?       ?       1  24
+SDC  H13   .  H  0  ?      ?       ?       1  25
+SDC  1H12  .  H  0  ?      ?       ?       0  26
+SDC  2H12  .  H  0  ?      ?       ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SDC  O01  H01   SING  1 
+SDC  O01  C04   SING  2 
+SDC  NP2  C03   SING  3 
+SDC  NP2  1HP2  SING  4 
+SDC  NP2  2HP2  SING  5 
+SDC  C03  C04   SING  6 
+SDC  C03  H03   SING  7 
+SDC  C03  C06   SING  8 
+SDC  C04  O05   DOUB  9 
+SDC  C06  1H06  SING  10
+SDC  C06  2H06  SING  11
+SDC  C06  S07   SING  12
+SDC  S07  C08   SING  13
+SDC  C08  1H08  SING  14
+SDC  C08  2H08  SING  15
+SDC  C08  C09   SING  16
+SDC  C09  1H09  SING  17
+SDC  C09  2H09  SING  18
+SDC  C09  S10   SING  19
+SDC  S10  O11   SING  20
+SDC  S10  O13   SING  21
+SDC  S10  N12   SING  22
+SDC  O11  H11   SING  23
+SDC  N12  1H12  SING  24
+SDC  N12  2H12  SING  25
+SDC  O13  H13   SING  26
+#

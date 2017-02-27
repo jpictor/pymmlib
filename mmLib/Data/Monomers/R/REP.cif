@@ -1,0 +1,92 @@
+data_REP
+#
+_chem_comp.id                   REP
+_chem_comp.name                 '(1,10 PHENANTHROLINE)-(TRI-CARBON MONOXIDE) RHENIUM (I)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H8 N2 O3 RE1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       450.447
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+REP  RE    .  RE  1  ?  ?  ?  0  1 
+REP  N1    .  N   0  ?  ?  ?  1  2 
+REP  N2    .  N   0  ?  ?  ?  1  3 
+REP  O1    .  O   0  ?  ?  ?  1  4 
+REP  O2    .  O   0  ?  ?  ?  1  5 
+REP  O3    .  O   0  ?  ?  ?  1  6 
+REP  C1    .  C   0  ?  ?  ?  1  7 
+REP  C2    .  C   0  ?  ?  ?  1  8 
+REP  C3    .  C   0  ?  ?  ?  1  9 
+REP  C7    .  C   0  ?  ?  ?  1  10
+REP  C8    .  C   0  ?  ?  ?  1  11
+REP  C9    .  C   0  ?  ?  ?  1  12
+REP  C10   .  C   0  ?  ?  ?  1  13
+REP  C11   .  C   0  ?  ?  ?  1  14
+REP  C12   .  C   0  ?  ?  ?  1  15
+REP  C13   .  C   0  ?  ?  ?  1  16
+REP  C14   .  C   0  ?  ?  ?  1  17
+REP  C15   .  C   0  ?  ?  ?  1  18
+REP  C16   .  C   0  ?  ?  ?  1  19
+REP  C17   .  C   0  ?  ?  ?  1  20
+REP  C18   .  C   0  ?  ?  ?  1  21
+REP  1H16  .  H   0  ?  ?  ?  0  22
+REP  1H15  .  H   0  ?  ?  ?  0  23
+REP  1H14  .  H   0  ?  ?  ?  0  24
+REP  1H18  .  H   0  ?  ?  ?  0  25
+REP  1H17  .  H   0  ?  ?  ?  0  26
+REP  1H9   .  H   0  ?  ?  ?  0  27
+REP  1H8   .  H   0  ?  ?  ?  0  28
+REP  1H7   .  H   0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+REP  RE   N2    SING  1 
+REP  RE   N1    SING  2 
+REP  RE   C1    SING  3 
+REP  RE   C2    SING  4 
+REP  RE   C3    SING  5 
+REP  N1   C7    AROM  6 
+REP  N1   C11   AROM  7 
+REP  N2   C12   AROM  8 
+REP  N2   C16   AROM  9 
+REP  O1   C1    TRIP  10
+REP  O2   C2    TRIP  11
+REP  O3   C3    TRIP  12
+REP  C7   C8    AROM  13
+REP  C7   1H7   SING  14
+REP  C8   C9    AROM  15
+REP  C8   1H8   SING  16
+REP  C9   C10   AROM  17
+REP  C9   1H9   SING  18
+REP  C10  C11   AROM  19
+REP  C10  C17   AROM  20
+REP  C11  C12   AROM  21
+REP  C12  C13   AROM  22
+REP  C13  C14   AROM  23
+REP  C13  C18   AROM  24
+REP  C14  C15   AROM  25
+REP  C14  1H14  SING  26
+REP  C15  C16   AROM  27
+REP  C15  1H15  SING  28
+REP  C16  1H16  SING  29
+REP  C17  C18   AROM  30
+REP  C17  1H17  SING  31
+REP  C18  1H18  SING  32
+#

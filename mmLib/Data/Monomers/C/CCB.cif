@@ -1,0 +1,91 @@
+data_CCB
+#
+_chem_comp.id                   CCB
+_chem_comp.name                 CYCLOBUTYL(CYCLOPENTYL)FORMAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N1 O1'
+_chem_comp.pdbx_synonyms        N-CYCLOPENTYL-N-CYCLOBUTYLFORMAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.250
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CCB  N1    .  N  0  10.613  -0.522  0.819   1  1 
+CCB  C2    .  C  0  11.651  -0.607  -0.017  1  2 
+CCB  O3    .  O  0  12.306  -1.634  -0.168  1  3 
+CCB  C5    .  C  0  10.181  -1.654  1.603   1  4 
+CCB  C6    .  C  0  9.946   0.721   0.894   1  5 
+CCB  C7    .  C  0  8.957   -2.364  1.135   1  6 
+CCB  C8    .  C  0  8.549   -3.181  2.347   1  7 
+CCB  C9    .  C  0  9.174   -2.513  3.559   1  8 
+CCB  C10   .  C  0  9.913   -1.312  3.030   1  9 
+CCB  C20   .  C  0  9.614   1.694   1.966   1  10
+CCB  C21   .  C  0  8.793   2.424   0.961   1  11
+CCB  C22   .  C  0  8.642   1.121   0.261   1  12
+CCB  H2    .  H  0  ?       ?       ?       1  13
+CCB  H5    .  H  0  ?       ?       ?       1  14
+CCB  1H10  .  H  0  ?       ?       ?       0  15
+CCB  2H10  .  H  0  ?       ?       ?       0  16
+CCB  1H9   .  H  0  ?       ?       ?       0  17
+CCB  2H9   .  H  0  ?       ?       ?       0  18
+CCB  1H8   .  H  0  ?       ?       ?       0  19
+CCB  2H8   .  H  0  ?       ?       ?       0  20
+CCB  1H7   .  H  0  ?       ?       ?       0  21
+CCB  2H7   .  H  0  ?       ?       ?       0  22
+CCB  H6    .  H  0  ?       ?       ?       1  23
+CCB  1H22  .  H  0  ?       ?       ?       0  24
+CCB  2H22  .  H  0  ?       ?       ?       0  25
+CCB  1H21  .  H  0  ?       ?       ?       0  26
+CCB  2H21  .  H  0  ?       ?       ?       0  27
+CCB  1H20  .  H  0  ?       ?       ?       0  28
+CCB  2H20  .  H  0  ?       ?       ?       0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CCB  N1   C2    SING  1 
+CCB  N1   C5    SING  2 
+CCB  N1   C6    SING  3 
+CCB  C2   O3    DOUB  4 
+CCB  C2   H2    SING  5 
+CCB  C5   C10   SING  6 
+CCB  C5   C7    SING  7 
+CCB  C5   H5    SING  8 
+CCB  C6   C22   SING  9 
+CCB  C6   C20   SING  10
+CCB  C6   H6    SING  11
+CCB  C7   C8    SING  12
+CCB  C7   1H7   SING  13
+CCB  C7   2H7   SING  14
+CCB  C8   C9    SING  15
+CCB  C8   1H8   SING  16
+CCB  C8   2H8   SING  17
+CCB  C9   C10   SING  18
+CCB  C9   1H9   SING  19
+CCB  C9   2H9   SING  20
+CCB  C10  1H10  SING  21
+CCB  C10  2H10  SING  22
+CCB  C20  C21   SING  23
+CCB  C20  1H20  SING  24
+CCB  C20  2H20  SING  25
+CCB  C21  C22   SING  26
+CCB  C21  1H21  SING  27
+CCB  C21  2H21  SING  28
+CCB  C22  1H22  SING  29
+CCB  C22  2H22  SING  30
+#

@@ -1,0 +1,91 @@
+data_PTR
+#
+_chem_comp.id                       PTR
+_chem_comp.name                     O-PHOSPHOTYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H12 N1 O6 P1'
+_chem_comp.pdbx_synonyms            PHOSPHONOTYROSINE
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            261.171
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTR  N     .  N  0  ?  ?  ?  1  1 
+PTR  CA    .  C  0  ?  ?  ?  1  2 
+PTR  C     .  C  0  ?  ?  ?  1  3 
+PTR  O     .  O  0  ?  ?  ?  1  4 
+PTR  OXT   .  O  0  ?  ?  ?  1  5 
+PTR  CB    .  C  0  ?  ?  ?  1  6 
+PTR  CG    .  C  0  ?  ?  ?  1  7 
+PTR  CD1   .  C  0  ?  ?  ?  1  8 
+PTR  CD2   .  C  0  ?  ?  ?  1  9 
+PTR  CE1   .  C  0  ?  ?  ?  1  10
+PTR  CE2   .  C  0  ?  ?  ?  1  11
+PTR  CZ    .  C  0  ?  ?  ?  1  12
+PTR  OH    .  O  0  ?  ?  ?  1  13
+PTR  P     .  P  0  ?  ?  ?  1  14
+PTR  O1P   .  O  0  ?  ?  ?  1  15
+PTR  O2P   .  O  0  ?  ?  ?  1  16
+PTR  O3P   .  O  0  ?  ?  ?  1  17
+PTR  1HN   .  H  0  ?  ?  ?  0  18
+PTR  2HN   .  H  0  ?  ?  ?  0  19
+PTR  HA    .  H  0  ?  ?  ?  1  20
+PTR  1HB   .  H  0  ?  ?  ?  0  21
+PTR  2HB   .  H  0  ?  ?  ?  0  22
+PTR  HD1   .  H  0  ?  ?  ?  1  23
+PTR  HD2   .  H  0  ?  ?  ?  1  24
+PTR  HE1   .  H  0  ?  ?  ?  1  25
+PTR  HE2   .  H  0  ?  ?  ?  1  26
+PTR  HXT   .  H  0  ?  ?  ?  1  27
+PTR  PHO2  .  H  0  ?  ?  ?  0  28
+PTR  PHO3  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTR  N    CA    SING  1 
+PTR  N    1HN   SING  2 
+PTR  N    2HN   SING  3 
+PTR  CA   CB    SING  4 
+PTR  CA   C     SING  5 
+PTR  CA   HA    SING  6 
+PTR  C    O     DOUB  7 
+PTR  C    OXT   SING  8 
+PTR  OXT  HXT   SING  9 
+PTR  CB   CG    SING  10
+PTR  CB   1HB   SING  11
+PTR  CB   2HB   SING  12
+PTR  CG   CD1   DOUB  13
+PTR  CG   CD2   SING  14
+PTR  CD1  CE1   SING  15
+PTR  CD1  HD1   SING  16
+PTR  CD2  CE2   DOUB  17
+PTR  CD2  HD2   SING  18
+PTR  CE1  CZ    DOUB  19
+PTR  CE1  HE1   SING  20
+PTR  CE2  CZ    SING  21
+PTR  CE2  HE2   SING  22
+PTR  CZ   OH    SING  23
+PTR  OH   P     SING  24
+PTR  P    O1P   DOUB  25
+PTR  P    O2P   SING  26
+PTR  P    O3P   SING  27
+PTR  O2P  PHO2  SING  28
+PTR  O3P  PHO3  SING  29
+#

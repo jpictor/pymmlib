@@ -1,0 +1,89 @@
+data_ALY
+#
+_chem_comp.id                       ALY
+_chem_comp.name                     N(6)-ACETYLLYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H16 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            188.226
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALY  OH    .  O  0  ?  ?  ?  1  1 
+ALY  CH    .  C  0  ?  ?  ?  1  2 
+ALY  CH3   .  C  0  ?  ?  ?  1  3 
+ALY  NZ    .  N  0  ?  ?  ?  1  4 
+ALY  CE    .  C  0  ?  ?  ?  1  5 
+ALY  CD    .  C  0  ?  ?  ?  1  6 
+ALY  CG    .  C  0  ?  ?  ?  1  7 
+ALY  CB    .  C  0  ?  ?  ?  1  8 
+ALY  CA    .  C  0  ?  ?  ?  1  9 
+ALY  N     .  N  0  ?  ?  ?  1  10
+ALY  C     .  C  0  ?  ?  ?  1  11
+ALY  O     .  O  0  ?  ?  ?  1  12
+ALY  OXT   .  O  0  ?  ?  ?  1  13
+ALY  1HH3  .  H  0  ?  ?  ?  0  14
+ALY  2HH3  .  H  0  ?  ?  ?  0  15
+ALY  3HH3  .  H  0  ?  ?  ?  0  16
+ALY  HNZ   .  H  0  ?  ?  ?  1  17
+ALY  1HCE  .  H  0  ?  ?  ?  0  18
+ALY  2HCE  .  H  0  ?  ?  ?  0  19
+ALY  1HCD  .  H  0  ?  ?  ?  0  20
+ALY  2HCD  .  H  0  ?  ?  ?  0  21
+ALY  1HCG  .  H  0  ?  ?  ?  0  22
+ALY  2HCG  .  H  0  ?  ?  ?  0  23
+ALY  1HCB  .  H  0  ?  ?  ?  0  24
+ALY  2HCB  .  H  0  ?  ?  ?  0  25
+ALY  HCA   .  H  0  ?  ?  ?  1  26
+ALY  1HN   .  H  0  ?  ?  ?  0  27
+ALY  2HN   .  H  0  ?  ?  ?  0  28
+ALY  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALY  OH   CH    DOUB  1 
+ALY  CH   CH3   SING  2 
+ALY  CH   NZ    SING  3 
+ALY  CH3  1HH3  SING  4 
+ALY  CH3  2HH3  SING  5 
+ALY  CH3  3HH3  SING  6 
+ALY  NZ   CE    SING  7 
+ALY  NZ   HNZ   SING  8 
+ALY  CE   CD    SING  9 
+ALY  CE   1HCE  SING  10
+ALY  CE   2HCE  SING  11
+ALY  CD   CG    SING  12
+ALY  CD   1HCD  SING  13
+ALY  CD   2HCD  SING  14
+ALY  CG   CB    SING  15
+ALY  CG   1HCG  SING  16
+ALY  CG   2HCG  SING  17
+ALY  CB   CA    SING  18
+ALY  CB   1HCB  SING  19
+ALY  CB   2HCB  SING  20
+ALY  CA   N     SING  21
+ALY  CA   C     SING  22
+ALY  CA   HCA   SING  23
+ALY  N    1HN   SING  24
+ALY  N    2HN   SING  25
+ALY  C    O     DOUB  26
+ALY  C    OXT   SING  27
+ALY  OXT  HXT   SING  28
+#

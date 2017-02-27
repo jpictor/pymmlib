@@ -1,0 +1,116 @@
+data_CLD
+#
+_chem_comp.id                       CLD
+_chem_comp.name                     'D-PARA-CHLOROPHENYL-1-ACTEAMIDOBORONIC ACID ALANINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H19 N2 O6 B1 CL1'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       1-
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           345.566
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLD  N     .  N   0   ?  ?  ?  1  1 
+CLD  CA    .  C   0   ?  ?  ?  1  2 
+CLD  CB    .  C   0   ?  ?  ?  1  3 
+CLD  OB3   .  O   0   ?  ?  ?  1  4 
+CLD  C     .  C   0   ?  ?  ?  1  5 
+CLD  O     .  O   0   ?  ?  ?  1  6 
+CLD  OXT   .  O   0   ?  ?  ?  1  7 
+CLD  N9    .  N   0   ?  ?  ?  1  8 
+CLD  C8    .  C   0   ?  ?  ?  1  9 
+CLD  C7    .  C   0   ?  ?  ?  1  10
+CLD  C1    .  C   0   ?  ?  ?  1  11
+CLD  C2    .  C   0   ?  ?  ?  1  12
+CLD  C3    .  C   0   ?  ?  ?  1  13
+CLD  C6    .  C   0   ?  ?  ?  1  14
+CLD  C5    .  C   0   ?  ?  ?  1  15
+CLD  C4    .  C   0   ?  ?  ?  1  16
+CLD  CL4   .  CL  0   ?  ?  ?  0  17
+CLD  OB1   .  O   0   ?  ?  ?  1  18
+CLD  OB2   .  O   0   ?  ?  ?  1  19
+CLD  B     .  B   -1  ?  ?  ?  1  20
+CLD  C10   .  C   0   ?  ?  ?  1  21
+CLD  O10   .  O   0   ?  ?  ?  1  22
+CLD  C11   .  C   0   ?  ?  ?  1  23
+CLD  1HN   .  H   0   ?  ?  ?  0  24
+CLD  2HN   .  H   0   ?  ?  ?  0  25
+CLD  HA    .  H   0   ?  ?  ?  1  26
+CLD  1HB   .  H   0   ?  ?  ?  0  27
+CLD  2HB   .  H   0   ?  ?  ?  0  28
+CLD  HXT   .  H   0   ?  ?  ?  1  29
+CLD  HN9   .  H   0   ?  ?  ?  1  30
+CLD  H8    .  H   0   ?  ?  ?  1  31
+CLD  1H7   .  H   0   ?  ?  ?  0  32
+CLD  2H7   .  H   0   ?  ?  ?  0  33
+CLD  H2    .  H   0   ?  ?  ?  1  34
+CLD  H3    .  H   0   ?  ?  ?  1  35
+CLD  H6    .  H   0   ?  ?  ?  1  36
+CLD  H5    .  H   0   ?  ?  ?  1  37
+CLD  1HOB  .  H   0   ?  ?  ?  0  38
+CLD  2HOB  .  H   0   ?  ?  ?  0  39
+CLD  1H11  .  H   0   ?  ?  ?  0  40
+CLD  2H11  .  H   0   ?  ?  ?  0  41
+CLD  3H11  .  H   0   ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLD  N    CA    SING  1 
+CLD  N    1HN   SING  2 
+CLD  N    2HN   SING  3 
+CLD  CA   CB    SING  4 
+CLD  CA   C     SING  5 
+CLD  CA   HA    SING  6 
+CLD  CB   OB3   SING  7 
+CLD  CB   1HB   SING  8 
+CLD  CB   2HB   SING  9 
+CLD  OB3  B     SING  10
+CLD  C    O     DOUB  11
+CLD  C    OXT   SING  12
+CLD  OXT  HXT   SING  13
+CLD  N9   C8    SING  14
+CLD  N9   C10   SING  15
+CLD  N9   HN9   SING  16
+CLD  C8   C7    SING  17
+CLD  C8   B     SING  18
+CLD  C8   H8    SING  19
+CLD  C7   C1    SING  20
+CLD  C7   1H7   SING  21
+CLD  C7   2H7   SING  22
+CLD  C1   C2    DOUB  23
+CLD  C1   C6    SING  24
+CLD  C2   C3    SING  25
+CLD  C2   H2    SING  26
+CLD  C3   C4    DOUB  27
+CLD  C3   H3    SING  28
+CLD  C6   C5    DOUB  29
+CLD  C6   H6    SING  30
+CLD  C5   C4    SING  31
+CLD  C5   H5    SING  32
+CLD  C4   CL4   SING  33
+CLD  OB1  B     SING  34
+CLD  OB1  1HOB  SING  35
+CLD  OB2  B     SING  36
+CLD  OB2  2HOB  SING  37
+CLD  C10  O10   DOUB  38
+CLD  C10  C11   SING  39
+CLD  C11  1H11  SING  40
+CLD  C11  2H11  SING  41
+CLD  C11  3H11  SING  42
+#

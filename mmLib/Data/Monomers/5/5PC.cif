@@ -1,0 +1,111 @@
+data_5PC
+#
+_chem_comp.id                       5PC
+_chem_comp.name                     5(1-PROPYNYL)-2'-DEOXYCYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H16 N3 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            345.248
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5PC  O3P   .  O  0  ?       ?       ?        1  1 
+5PC  P     .  P  0  0.797   -6.110  -10.274  1  2 
+5PC  O1P   .  O  0  0.039   -5.056  -10.977  1  3 
+5PC  O2P   .  O  0  1.333   -7.259  -11.041  1  4 
+5PC  C5*   .  C  0  0.304   -7.807  -8.252   1  5 
+5PC  O5*   .  O  0  -0.104  -6.688  -9.047   1  6 
+5PC  C4*   .  C  0  -0.593  -8.011  -7.019   1  7 
+5PC  O4*   .  O  0  -0.533  -6.960  -6.073   1  8 
+5PC  C3*   .  C  0  -2.072  -8.287  -7.302   1  9 
+5PC  O3*   .  O  0  -2.291  -9.671  -7.464   1  10
+5PC  C2*   .  C  0  -2.766  -7.662  -6.090   1  11
+5PC  C1*   .  C  0  -1.627  -7.172  -5.221   1  12
+5PC  N1    .  N  0  -1.948  -5.897  -4.640   1  13
+5PC  C2    .  C  0  -2.468  -5.808  -3.441   1  14
+5PC  O2    .  O  0  -2.746  -6.809  -2.805   1  15
+5PC  N3    .  N  0  -2.750  -4.654  -2.918   1  16
+5PC  C4    .  C  0  -2.444  -3.607  -3.571   1  17
+5PC  N4    .  N  0  -2.686  -2.461  -3.079   1  18
+5PC  C5    .  C  0  -1.981  -3.581  -4.846   1  19
+5PC  C6    .  C  0  -1.812  -4.806  -5.327   1  20
+5PC  C7    .  C  0  -1.826  -2.360  -5.633   1  21
+5PC  C8    .  C  0  -1.848  -1.381  -6.331   1  22
+5PC  C9    .  C  0  -1.929  -0.231  -7.219   1  23
+5PC  3HOP  .  H  0  ?       ?       ?        0  24
+5PC  2HOP  .  H  0  ?       ?       ?        0  25
+5PC  1H5*  .  H  0  0.274   -8.702  -8.873   0  26
+5PC  2H5*  .  H  0  1.328   -7.647  -7.916   0  27
+5PC  H4*   .  H  0  -0.206  -8.895  -6.511   1  28
+5PC  H3*   .  H  0  -2.346  -7.743  -8.206   1  29
+5PC  1H2*  .  H  0  -3.351  -8.390  -5.527   0  30
+5PC  2H2*  .  H  0  -3.402  -6.848  -6.436   0  31
+5PC  H1*   .  H  0  -1.373  -7.920  -4.469   1  32
+5PC  H41   .  H  0  -3.093  -2.462  -2.154   1  33
+5PC  H42   .  H  0  -2.461  -1.680  -3.678   1  34
+5PC  H6    .  H  0  -1.553  -4.883  -6.373   1  35
+5PC  H91   .  H  0  -0.916  0.054   -7.501   1  36
+5PC  H92   .  H  0  -2.460  -0.518  -8.127   1  37
+5PC  H93   .  H  0  -2.424  0.596   -6.709   1  38
+5PC  H3T   .  H  0  ?       ?       ?        1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5PC  O3P  P     SING  1 
+5PC  O3P  3HOP  SING  2 
+5PC  P    O5*   SING  3 
+5PC  P    O1P   DOUB  4 
+5PC  P    O2P   SING  5 
+5PC  O2P  2HOP  SING  6 
+5PC  C5*  C4*   SING  7 
+5PC  C5*  O5*   SING  8 
+5PC  C5*  1H5*  SING  9 
+5PC  C5*  2H5*  SING  10
+5PC  C4*  O4*   SING  11
+5PC  C4*  C3*   SING  12
+5PC  C4*  H4*   SING  13
+5PC  O4*  C1*   SING  14
+5PC  C3*  O3*   SING  15
+5PC  C3*  C2*   SING  16
+5PC  C3*  H3*   SING  17
+5PC  O3*  H3T   SING  18
+5PC  C2*  C1*   SING  19
+5PC  C2*  1H2*  SING  20
+5PC  C2*  2H2*  SING  21
+5PC  C1*  N1    SING  22
+5PC  C1*  H1*   SING  23
+5PC  N1   C2    SING  24
+5PC  N1   C6    SING  25
+5PC  C2   N3    SING  26
+5PC  C2   O2    DOUB  27
+5PC  N3   C4    DOUB  28
+5PC  C4   N4    SING  29
+5PC  C4   C5    SING  30
+5PC  N4   H41   SING  31
+5PC  N4   H42   SING  32
+5PC  C5   C6    DOUB  33
+5PC  C5   C7    SING  34
+5PC  C6   H6    SING  35
+5PC  C7   C8    TRIP  36
+5PC  C8   C9    SING  37
+5PC  C9   H91   SING  38
+5PC  C9   H92   SING  39
+5PC  C9   H93   SING  40
+#

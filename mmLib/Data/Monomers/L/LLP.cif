@@ -1,0 +1,131 @@
+data_LLP
+#
+_chem_comp.id                       LLP
+_chem_comp.name                     2-LYSINE(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHANE)
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H24 N3 O7 P1'
+_chem_comp.pdbx_synonyms            N'-PYRIDOXYL-LYSINE-5'-MONOPHOSPHATE
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            377.333
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LLP  N1    .  N  0  ?  ?  ?  1  1 
+LLP  C2    .  C  0  ?  ?  ?  1  2 
+LLP  C2A   .  C  0  ?  ?  ?  1  3 
+LLP  C3    .  C  0  ?  ?  ?  1  4 
+LLP  O3    .  O  0  ?  ?  ?  1  5 
+LLP  C4    .  C  0  ?  ?  ?  1  6 
+LLP  C4A   .  C  0  ?  ?  ?  1  7 
+LLP  C5    .  C  0  ?  ?  ?  1  8 
+LLP  C6    .  C  0  ?  ?  ?  1  9 
+LLP  C5A   .  C  0  ?  ?  ?  1  10
+LLP  O4P   .  O  0  ?  ?  ?  1  11
+LLP  P     .  P  0  ?  ?  ?  1  12
+LLP  O1P   .  O  0  ?  ?  ?  1  13
+LLP  O2P   .  O  0  ?  ?  ?  1  14
+LLP  O3P   .  O  0  ?  ?  ?  1  15
+LLP  N     .  N  0  ?  ?  ?  1  16
+LLP  CA    .  C  0  ?  ?  ?  1  17
+LLP  CB    .  C  0  ?  ?  ?  1  18
+LLP  CG    .  C  0  ?  ?  ?  1  19
+LLP  CD    .  C  0  ?  ?  ?  1  20
+LLP  CE    .  C  0  ?  ?  ?  1  21
+LLP  NZ    .  N  0  ?  ?  ?  1  22
+LLP  C     .  C  0  ?  ?  ?  1  23
+LLP  O     .  O  0  ?  ?  ?  1  24
+LLP  OXT   .  O  0  ?  ?  ?  1  25
+LLP  1H2A  .  H  0  ?  ?  ?  0  26
+LLP  2H2A  .  H  0  ?  ?  ?  0  27
+LLP  3H2A  .  H  0  ?  ?  ?  0  28
+LLP  HO3   .  H  0  ?  ?  ?  1  29
+LLP  1H4A  .  H  0  ?  ?  ?  0  30
+LLP  2H4A  .  H  0  ?  ?  ?  0  31
+LLP  1H5A  .  H  0  ?  ?  ?  0  32
+LLP  2H5A  .  H  0  ?  ?  ?  0  33
+LLP  H6    .  H  0  ?  ?  ?  1  34
+LLP  2HOP  .  H  0  ?  ?  ?  0  35
+LLP  3HOP  .  H  0  ?  ?  ?  0  36
+LLP  1HN   .  H  0  ?  ?  ?  0  37
+LLP  2HN   .  H  0  ?  ?  ?  0  38
+LLP  HA    .  H  0  ?  ?  ?  1  39
+LLP  1HB   .  H  0  ?  ?  ?  0  40
+LLP  2HB   .  H  0  ?  ?  ?  0  41
+LLP  1HG   .  H  0  ?  ?  ?  0  42
+LLP  2HG   .  H  0  ?  ?  ?  0  43
+LLP  1HD   .  H  0  ?  ?  ?  0  44
+LLP  2HD   .  H  0  ?  ?  ?  0  45
+LLP  1HE   .  H  0  ?  ?  ?  0  46
+LLP  2HE   .  H  0  ?  ?  ?  0  47
+LLP  HNZ   .  H  0  ?  ?  ?  1  48
+LLP  HXT   .  H  0  ?  ?  ?  1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LLP  N1   C2    DOUB  1 
+LLP  N1   C6    SING  2 
+LLP  C2   C2A   SING  3 
+LLP  C2   C3    SING  4 
+LLP  C2A  1H2A  SING  5 
+LLP  C2A  2H2A  SING  6 
+LLP  C2A  3H2A  SING  7 
+LLP  C3   O3    SING  8 
+LLP  C3   C4    DOUB  9 
+LLP  O3   HO3   SING  10
+LLP  C4   C4A   SING  11
+LLP  C4   C5    SING  12
+LLP  C4A  NZ    SING  13
+LLP  C4A  1H4A  SING  14
+LLP  C4A  2H4A  SING  15
+LLP  C5   C6    DOUB  16
+LLP  C5   C5A   SING  17
+LLP  C6   H6    SING  18
+LLP  C5A  O4P   SING  19
+LLP  C5A  1H5A  SING  20
+LLP  C5A  2H5A  SING  21
+LLP  O4P  P     SING  22
+LLP  P    O1P   DOUB  23
+LLP  P    O2P   SING  24
+LLP  P    O3P   SING  25
+LLP  O2P  2HOP  SING  26
+LLP  O3P  3HOP  SING  27
+LLP  N    CA    SING  28
+LLP  N    1HN   SING  29
+LLP  N    2HN   SING  30
+LLP  CA   CB    SING  31
+LLP  CA   C     SING  32
+LLP  CA   HA    SING  33
+LLP  CB   CG    SING  34
+LLP  CB   1HB   SING  35
+LLP  CB   2HB   SING  36
+LLP  CG   CD    SING  37
+LLP  CG   1HG   SING  38
+LLP  CG   2HG   SING  39
+LLP  CD   CE    SING  40
+LLP  CD   1HD   SING  41
+LLP  CD   2HD   SING  42
+LLP  CE   NZ    SING  43
+LLP  CE   1HE   SING  44
+LLP  CE   2HE   SING  45
+LLP  NZ   HNZ   SING  46
+LLP  C    O     DOUB  47
+LLP  C    OXT   SING  48
+LLP  OXT  HXT   SING  49
+#

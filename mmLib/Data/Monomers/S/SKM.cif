@@ -1,0 +1,76 @@
+data_SKM
+#
+_chem_comp.id                   SKM
+_chem_comp.name                 '(3R,4S,5R)-3,4,5-TRIHYDROXYCYCLOHEX-1-ENE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H10 O5'
+_chem_comp.pdbx_synonyms        SHIKIMATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.153
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SKM  O12  .  O  0  36.950  -35.355  28.767  1  1 
+SKM  C8   .  C  0  36.229  -36.020  29.806  1  2 
+SKM  C6   .  C  0  37.213  -36.403  30.930  1  3 
+SKM  O7   .  O  0  36.505  -37.012  32.013  1  4 
+SKM  C5   .  C  0  37.952  -35.140  31.413  1  5 
+SKM  C4   .  C  0  37.002  -33.949  31.648  1  6 
+SKM  C1   .  C  0  37.533  -32.702  32.377  1  7 
+SKM  O2   .  O  0  38.804  -32.552  32.558  1  8 
+SKM  O3   .  O  0  36.721  -31.785  32.781  1  9 
+SKM  C10  .  C  0  35.742  -33.933  31.177  1  10
+SKM  C9   .  C  0  35.134  -35.091  30.362  1  11
+SKM  O11  .  O  0  34.349  -34.565  29.288  1  12
+SKM  HO2  .  H  0  ?       ?        ?       1  13
+SKM  H10  .  H  0  ?       ?        ?       1  14
+SKM  H9   .  H  0  ?       ?        ?       1  15
+SKM  H11  .  H  0  ?       ?        ?       1  16
+SKM  H8   .  H  0  ?       ?        ?       1  17
+SKM  H12  .  H  0  ?       ?        ?       1  18
+SKM  H6   .  H  0  ?       ?        ?       1  19
+SKM  HO7  .  H  0  ?       ?        ?       1  20
+SKM  1H5  .  H  0  ?       ?        ?       0  21
+SKM  2H5  .  H  0  ?       ?        ?       0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SKM  O12  C8   SING  1 
+SKM  O12  H12  SING  2 
+SKM  C8   C9   SING  3 
+SKM  C8   H8   SING  4 
+SKM  C8   C6   SING  5 
+SKM  C6   H6   SING  6 
+SKM  C6   O7   SING  7 
+SKM  C6   C5   SING  8 
+SKM  O7   HO7  SING  9 
+SKM  C5   C4   SING  10
+SKM  C5   1H5  SING  11
+SKM  C5   2H5  SING  12
+SKM  C4   C1   SING  13
+SKM  C4   C10  DOUB  14
+SKM  C1   O2   SING  15
+SKM  C1   O3   DOUB  16
+SKM  O2   HO2  SING  17
+SKM  C10  H10  SING  18
+SKM  C10  C9   SING  19
+SKM  C9   H9   SING  20
+SKM  C9   O11  SING  21
+SKM  O11  H11  SING  22
+#

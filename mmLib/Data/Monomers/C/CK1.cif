@@ -1,0 +1,71 @@
+data_CK1
+#
+_chem_comp.id                   CK1
+_chem_comp.name                 4-(2,5-DICHLOROTHIEN-3-YL)PYRIMIDIN-2-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H5 N3 CL2 S1'
+_chem_comp.pdbx_synonyms        4-(2,5-DICHLORO-THIOPHEN-3-YL)-PYRIMIDIN-2-YLAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        246.114
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CK1  CL7A  .  CL  0  14.171  44.275  29.729  0  1 
+CK1  C3A   .  C   0  13.921  43.833  28.152  1  2 
+CK1  C4A   .  C   0  13.561  44.864  27.193  1  3 
+CK1  S2A   .  S   0  14.041  42.285  27.535  1  4 
+CK1  C1A   .  C   0  13.636  42.920  26.036  1  5 
+CK1  CL6A  .  CL  0  13.557  41.890  24.844  0  6 
+CK1  C5A   .  C   0  13.388  44.250  25.907  1  7 
+CK1  C4    .  C   0  13.044  45.063  24.737  1  8 
+CK1  N3    .  N   0  13.621  44.916  23.501  1  9 
+CK1  C5    .  C   0  12.036  46.084  24.851  1  10
+CK1  C6    .  C   0  11.718  46.885  23.725  1  11
+CK1  N1    .  N   0  12.389  46.595  22.535  1  12
+CK1  C2    .  C   0  13.300  45.693  22.506  1  13
+CK1  N7    .  N   0  13.856  45.457  21.310  1  14
+CK1  1HN7  .  H   0  ?       ?       ?       0  15
+CK1  2HN7  .  H   0  ?       ?       ?       0  16
+CK1  H6    .  H   0  ?       ?       ?       1  17
+CK1  H5    .  H   0  ?       ?       ?       1  18
+CK1  H4A   .  H   0  ?       ?       ?       1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CK1  CL7A  C3A   SING  1 
+CK1  C3A   S2A   SING  2 
+CK1  C3A   C4A   DOUB  3 
+CK1  C4A   C5A   SING  4 
+CK1  C4A   H4A   SING  5 
+CK1  S2A   C1A   SING  6 
+CK1  C1A   C5A   DOUB  7 
+CK1  C1A   CL6A  SING  8 
+CK1  C5A   C4    SING  9 
+CK1  C4    C5    SING  10
+CK1  C4    N3    DOUB  11
+CK1  N3    C2    SING  12
+CK1  C5    C6    DOUB  13
+CK1  C5    H5    SING  14
+CK1  C6    N1    SING  15
+CK1  C6    H6    SING  16
+CK1  N1    C2    DOUB  17
+CK1  C2    N7    SING  18
+CK1  N7    1HN7  SING  19
+CK1  N7    2HN7  SING  20
+#

@@ -1,0 +1,87 @@
+data_E1P
+#
+_chem_comp.id                   E1P
+_chem_comp.name                 'ETHYL OXO(PIPERIDIN-1-YL)ACETATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        185.222
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+E1P  C3    .  C  0  5.9    58.891  51.307  1  1 
+E1P  C2    .  C  0  6.618  58.153  50.167  1  2 
+E1P  C1    .  C  0  5.808  56.957  49.662  1  3 
+E1P  C5    .  C  0  5.416  55.992  50.778  1  4 
+E1P  C4    .  C  0  4.737  56.719  51.924  1  5 
+E1P  N1    .  N  0  5.571  57.875  52.333  1  6 
+E1P  C6    .  C  0  6.007  57.971  53.58   1  7 
+E1P  O2    .  O  0  6.721  58.883  54.007  1  8 
+E1P  C7    .  C  0  5.606  56.839  54.5    1  9 
+E1P  O3    .  O  0  6.306  55.841  54.547  1  10
+E1P  O4    .  O  0  4.484  57.039  55.24   1  11
+E1P  C8    .  C  0  4.171  56.054  56.245  1  12
+E1P  C9    .  C  0  2.771  56.286  56.814  1  13
+E1P  1H3C  .  H  0  5.013  59.473  50.964  0  14
+E1P  2H3C  .  H  0  6.484  59.751  51.711  0  15
+E1P  1H2C  .  H  0  7.648  57.848  50.467  0  16
+E1P  2H2C  .  H  0  6.877  58.848  49.334  0  17
+E1P  1H1C  .  H  0  6.35   56.424  48.846  0  18
+E1P  2H1C  .  H  0  4.91   57.295  49.093  0  19
+E1P  1H5C  .  H  0  6.291  55.399  51.132  0  20
+E1P  2H5C  .  H  0  4.786  55.156  50.393  0  21
+E1P  1H4C  .  H  0  3.692  57.019  51.675  0  22
+E1P  2H4C  .  H  0  4.507  56.04   52.778  0  23
+E1P  1H8C  .  H  0  4.943  56.024  57.049  0  24
+E1P  2H8C  .  H  0  4.292  55.016  55.857  0  25
+E1P  1H9C  .  H  0  2.529  55.524  57.591  0  26
+E1P  2H9C  .  H  0  1.999  56.316  56.011  0  27
+E1P  3H9C  .  H  0  2.65   57.324  57.202  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+E1P  C3  C2    SING  1 
+E1P  C3  N1    SING  2 
+E1P  C3  1H3C  SING  3 
+E1P  C3  2H3C  SING  4 
+E1P  C2  C1    SING  5 
+E1P  C2  1H2C  SING  6 
+E1P  C2  2H2C  SING  7 
+E1P  C1  C5    SING  8 
+E1P  C1  1H1C  SING  9 
+E1P  C1  2H1C  SING  10
+E1P  C5  C4    SING  11
+E1P  C5  1H5C  SING  12
+E1P  C5  2H5C  SING  13
+E1P  C4  N1    SING  14
+E1P  C4  1H4C  SING  15
+E1P  C4  2H4C  SING  16
+E1P  N1  C6    SING  17
+E1P  C6  O2    DOUB  18
+E1P  C6  C7    SING  19
+E1P  C7  O3    DOUB  20
+E1P  C7  O4    SING  21
+E1P  O4  C8    SING  22
+E1P  C8  C9    SING  23
+E1P  C8  1H8C  SING  24
+E1P  C8  2H8C  SING  25
+E1P  C9  1H9C  SING  26
+E1P  C9  2H9C  SING  27
+E1P  C9  3H9C  SING  28
+#

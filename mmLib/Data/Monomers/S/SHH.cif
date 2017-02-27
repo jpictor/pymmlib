@@ -1,0 +1,110 @@
+data_SHH
+#
+_chem_comp.id                   SHH
+_chem_comp.name                 'OCTANEDIOIC ACID HYDROXYAMIDE PHENYLAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H20 N2 O3'
+_chem_comp.pdbx_synonyms        SAHA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        264.324
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SHH  O1    .  O  0  ?  ?  ?  1  1 
+SHH  O2    .  O  0  ?  ?  ?  1  2 
+SHH  N1    .  N  0  ?  ?  ?  1  3 
+SHH  C1    .  C  0  ?  ?  ?  1  4 
+SHH  C2    .  C  0  ?  ?  ?  1  5 
+SHH  C3    .  C  0  ?  ?  ?  1  6 
+SHH  C4    .  C  0  ?  ?  ?  1  7 
+SHH  C5    .  C  0  ?  ?  ?  1  8 
+SHH  C6    .  C  0  ?  ?  ?  1  9 
+SHH  C7    .  C  0  ?  ?  ?  1  10
+SHH  C8    .  C  0  ?  ?  ?  1  11
+SHH  O3    .  O  0  ?  ?  ?  1  12
+SHH  N2    .  N  0  ?  ?  ?  1  13
+SHH  C9    .  C  0  ?  ?  ?  1  14
+SHH  C10   .  C  0  ?  ?  ?  1  15
+SHH  C11   .  C  0  ?  ?  ?  1  16
+SHH  C12   .  C  0  ?  ?  ?  1  17
+SHH  C13   .  C  0  ?  ?  ?  1  18
+SHH  C14   .  C  0  ?  ?  ?  1  19
+SHH  1H14  .  H  0  ?  ?  ?  0  20
+SHH  1H13  .  H  0  ?  ?  ?  0  21
+SHH  1H12  .  H  0  ?  ?  ?  0  22
+SHH  1H11  .  H  0  ?  ?  ?  0  23
+SHH  1H10  .  H  0  ?  ?  ?  0  24
+SHH  HN2   .  H  0  ?  ?  ?  1  25
+SHH  1H7   .  H  0  ?  ?  ?  0  26
+SHH  2H7   .  H  0  ?  ?  ?  0  27
+SHH  1H6   .  H  0  ?  ?  ?  0  28
+SHH  2H6   .  H  0  ?  ?  ?  0  29
+SHH  1H5   .  H  0  ?  ?  ?  0  30
+SHH  2H5   .  H  0  ?  ?  ?  0  31
+SHH  1H4   .  H  0  ?  ?  ?  0  32
+SHH  2H4   .  H  0  ?  ?  ?  0  33
+SHH  1H3   .  H  0  ?  ?  ?  0  34
+SHH  2H3   .  H  0  ?  ?  ?  0  35
+SHH  1H2   .  H  0  ?  ?  ?  0  36
+SHH  2H2   .  H  0  ?  ?  ?  0  37
+SHH  HN1   .  H  0  ?  ?  ?  1  38
+SHH  HO1   .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SHH  O1   N1    SING  1 
+SHH  O1   HO1   SING  2 
+SHH  O2   C1    DOUB  3 
+SHH  N1   C1    SING  4 
+SHH  N1   HN1   SING  5 
+SHH  C1   C2    SING  6 
+SHH  C2   C3    SING  7 
+SHH  C2   1H2   SING  8 
+SHH  C2   2H2   SING  9 
+SHH  C3   C4    SING  10
+SHH  C3   1H3   SING  11
+SHH  C3   2H3   SING  12
+SHH  C4   C5    SING  13
+SHH  C4   1H4   SING  14
+SHH  C4   2H4   SING  15
+SHH  C5   C6    SING  16
+SHH  C5   1H5   SING  17
+SHH  C5   2H5   SING  18
+SHH  C6   C7    SING  19
+SHH  C6   1H6   SING  20
+SHH  C6   2H6   SING  21
+SHH  C7   C8    SING  22
+SHH  C7   1H7   SING  23
+SHH  C7   2H7   SING  24
+SHH  C8   O3    DOUB  25
+SHH  C8   N2    SING  26
+SHH  N2   C9    SING  27
+SHH  N2   HN2   SING  28
+SHH  C9   C10   DOUB  29
+SHH  C9   C14   SING  30
+SHH  C10  C11   SING  31
+SHH  C10  1H10  SING  32
+SHH  C11  C12   DOUB  33
+SHH  C11  1H11  SING  34
+SHH  C12  C13   SING  35
+SHH  C12  1H12  SING  36
+SHH  C13  C14   DOUB  37
+SHH  C13  1H13  SING  38
+SHH  C14  1H14  SING  39
+#

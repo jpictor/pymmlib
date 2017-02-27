@@ -1,0 +1,75 @@
+data_LEF
+#
+_chem_comp.id                       LEF
+_chem_comp.name                     (4S)-5-FLUORO-L-LEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H12 N1 O2 F1'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            149.165
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LEF  CD1   .  C  0  25.823  26.163  17.29   1  1 
+LEF  CD2   .  C  0  24.397  25.35   19.179  1  2 
+LEF  CG    .  C  0  25.729  25.984  18.798  1  3 
+LEF  CB    .  C  0  26.918  25.171  19.356  1  4 
+LEF  N     .  N  0  26.276  25.871  21.596  1  5 
+LEF  CA    .  C  0  26.662  24.715  20.803  1  6 
+LEF  C     .  C  0  27.867  23.979  21.375  1  7 
+LEF  O     .  O  0  28.885  24.576  21.717  1  8 
+LEF  F1    .  F  0  26.977  26.57   16.901  1  9 
+LEF  OXT   .  O  0  27.738  22.665  21.463  1  10
+LEF  1HBC  .  H  0  27.821  25.798  19.334  0  11
+LEF  2HBC  .  H  0  27.047  24.275  18.73   0  12
+LEF  HA    .  H  0  25.836  23.989  20.826  1  13
+LEF  HG    .  H  0  25.781  26.982  19.258  1  14
+LEF  1HN   .  H  0  25.249  25.932  21.638  0  15
+LEF  2HN   .  H  0  26.653  25.774  22.55   0  16
+LEF  1HD1  .  H  0  25.613  25.196  16.809  0  17
+LEF  2HD1  .  H  0  25.091  26.933  17.005  0  18
+LEF  1HD2  .  H  0  24.491  24.254  19.152  0  19
+LEF  2HD2  .  H  0  24.116  25.669  20.194  0  20
+LEF  3HD2  .  H  0  23.622  25.669  18.466  0  21
+LEF  HXT   .  H  0  ?       ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LEF  CD1  CG    SING  1 
+LEF  CD1  F1    SING  2 
+LEF  CD1  1HD1  SING  3 
+LEF  CD1  2HD1  SING  4 
+LEF  CD2  CG    SING  5 
+LEF  CD2  1HD2  SING  6 
+LEF  CD2  2HD2  SING  7 
+LEF  CD2  3HD2  SING  8 
+LEF  CG   HG    SING  9 
+LEF  CG   CB    SING  10
+LEF  CB   CA    SING  11
+LEF  CB   1HBC  SING  12
+LEF  CB   2HBC  SING  13
+LEF  N    CA    SING  14
+LEF  N    1HN   SING  15
+LEF  N    2HN   SING  16
+LEF  CA   C     SING  17
+LEF  CA   HA    SING  18
+LEF  C    O     DOUB  19
+LEF  C    OXT   SING  20
+LEF  OXT  HXT   SING  21
+#

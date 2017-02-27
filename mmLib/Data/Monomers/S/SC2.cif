@@ -1,0 +1,68 @@
+data_SC2
+#
+_chem_comp.id                   SC2
+_chem_comp.name                 N-ACETYL-L-CYSTEINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SC2  C     .  C  0  48.021  67.877  22.153  1  1 
+SC2  CB    .  C  0  47.732  69.937  20.806  1  2 
+SC2  CT    .  C  0  51.077  68.841  20.821  1  3 
+SC2  CA    .  C  0  48.742  69.024  21.502  1  4 
+SC2  N     .  N  0  49.787  68.608  20.581  1  5 
+SC2  O     .  O  0  46.886  68.109  22.642  1  6 
+SC2  OXT   .  O  0  48.579  66.751  22.196  1  7 
+SC2  OT    .  O  0  51.814  68.247  21.442  1  8 
+SC2  CM    .  C  0  51.53   70.277  20.937  1  9 
+SC2  SG    .  S  0  47.137  69.216  19.246  1  10
+SC2  H     .  H  0  49.524  68.122  19.723  1  11
+SC2  HA    .  H  0  49.227  69.617  22.312  1  12
+SC2  1HBC  .  H  0  48.149  70.959  20.649  0  13
+SC2  2HBC  .  H  0  46.885  70.197  21.483  0  14
+SC2  HB    .  H  0  ?       ?       ?       1  15
+SC2  1HMC  .  H  0  52.609  70.472  21.138  0  16
+SC2  2HMC  .  H  0  50.916  70.792  21.712  0  17
+SC2  3HMC  .  H  0  51.223  70.832  20.02   0  18
+SC2  HSG   .  H  0  ?       ?       ?       1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SC2  C   O     SING  1 
+SC2  C   OXT   DOUB  2 
+SC2  C   CA    SING  3 
+SC2  CB  CA    SING  4 
+SC2  CB  SG    SING  5 
+SC2  CB  1HBC  SING  6 
+SC2  CB  2HBC  SING  7 
+SC2  CT  N     SING  8 
+SC2  CT  OT    DOUB  9 
+SC2  CT  CM    SING  10
+SC2  CA  N     SING  11
+SC2  CA  HA    SING  12
+SC2  N   H     SING  13
+SC2  O   HB    SING  14
+SC2  CM  1HMC  SING  15
+SC2  CM  2HMC  SING  16
+SC2  CM  3HMC  SING  17
+SC2  SG  HSG   SING  18
+#

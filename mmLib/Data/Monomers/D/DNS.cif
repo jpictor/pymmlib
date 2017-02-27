@@ -1,0 +1,136 @@
+data_DNS
+#
+_chem_comp.id                       DNS
+_chem_comp.name                     N~6~-{[5-(DIMETHYLAMINO)-1-NAPHTHYL]SULFONYL}-L-LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C18 H25 N3 O4 S1'
+_chem_comp.pdbx_synonyms            'DANSYLLYSINE; DNS-LYSINE; N(EPSILON)-DANSYL-L-LYSINE'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            379.473
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DNS  C1   .  C  0  69.313  20.925  -39.152  1  1 
+DNS  N1   .  N  0  68.848  19.893  -40.093  1  2 
+DNS  C2   .  C  0  68.691  19.912  -41.571  1  3 
+DNS  C3   .  C  0  69.308  18.580  -39.675  1  4 
+DNS  C4   .  C  0  70.524  18.415  -38.943  1  5 
+DNS  C5   .  C  0  70.979  17.143  -38.522  1  6 
+DNS  C6   .  C  0  70.253  16.000  -38.793  1  7 
+DNS  C7   .  C  0  69.017  16.071  -39.519  1  8 
+DNS  C8   .  C  0  68.232  14.894  -39.806  1  9 
+DNS  S    .  S  0  68.749  13.299  -39.260  1  10
+DNS  OA   .  O  0  69.029  13.426  -37.887  1  11
+DNS  OB   .  O  0  67.709  12.445  -39.743  1  12
+DNS  NZ   .  N  0  70.180  12.950  -40.032  1  13
+DNS  CE   .  C  0  70.289  11.916  -41.070  1  14
+DNS  CD   .  C  0  71.362  12.281  -42.133  1  15
+DNS  CG   .  C  0  72.041  13.633  -41.844  1  16
+DNS  CB   .  C  0  73.496  13.621  -42.364  1  17
+DNS  CA   .  C  0  73.981  15.070  -42.610  1  18
+DNS  C    .  C  0  74.682  15.626  -41.388  1  19
+DNS  O    .  O  0  75.622  16.375  -41.511  1  20
+DNS  OXT  .  O  0  74.265  15.297  -40.160  1  21
+DNS  N    .  N  0  74.919  15.095  -43.753  1  22
+DNS  C9   .  C  0  67.039  15.019  -40.519  1  23
+DNS  C10  .  C  0  66.573  16.271  -40.968  1  24
+DNS  C11  .  C  0  67.286  17.427  -40.708  1  25
+DNS  C12  .  C  0  68.528  17.377  -39.980  1  26
+DNS  HO   .  H  0  ?       ?       ?        1  27
+DNS  HA   .  H  0  ?       ?       ?        1  28
+DNS  1HN  .  H  0  ?       ?       ?        0  29
+DNS  2HN  .  H  0  ?       ?       ?        0  30
+DNS  1HB  .  H  0  ?       ?       ?        0  31
+DNS  2HB  .  H  0  ?       ?       ?        0  32
+DNS  1HG  .  H  0  ?       ?       ?        0  33
+DNS  2HG  .  H  0  ?       ?       ?        0  34
+DNS  1HD  .  H  0  ?       ?       ?        0  35
+DNS  2HD  .  H  0  ?       ?       ?        0  36
+DNS  1HE  .  H  0  ?       ?       ?        0  37
+DNS  2HE  .  H  0  ?       ?       ?        0  38
+DNS  HNZ  .  H  0  ?       ?       ?        1  39
+DNS  H9   .  H  0  ?       ?       ?        1  40
+DNS  H10  .  H  0  ?       ?       ?        1  41
+DNS  H11  .  H  0  ?       ?       ?        1  42
+DNS  H4   .  H  0  ?       ?       ?        1  43
+DNS  H5   .  H  0  ?       ?       ?        1  44
+DNS  H6   .  H  0  ?       ?       ?        1  45
+DNS  1H1  .  H  0  ?       ?       ?        0  46
+DNS  2H1  .  H  0  ?       ?       ?        0  47
+DNS  3H1  .  H  0  ?       ?       ?        0  48
+DNS  1H2  .  H  0  ?       ?       ?        0  49
+DNS  2H2  .  H  0  ?       ?       ?        0  50
+DNS  3H2  .  H  0  ?       ?       ?        0  51
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DNS  C1   N1   SING  1 
+DNS  C1   1H1  SING  2 
+DNS  C1   2H1  SING  3 
+DNS  C1   3H1  SING  4 
+DNS  N1   C3   SING  5 
+DNS  N1   C2   SING  6 
+DNS  C2   1H2  SING  7 
+DNS  C2   2H2  SING  8 
+DNS  C2   3H2  SING  9 
+DNS  C3   C12  AROM  10
+DNS  C3   C4   AROM  11
+DNS  C4   H4   SING  12
+DNS  C4   C5   AROM  13
+DNS  C5   H5   SING  14
+DNS  C5   C6   AROM  15
+DNS  C6   H6   SING  16
+DNS  C6   C7   AROM  17
+DNS  C7   C8   AROM  18
+DNS  C7   C12  AROM  19
+DNS  C8   S    SING  20
+DNS  C8   C9   AROM  21
+DNS  S    NZ   SING  22
+DNS  S    OA   DOUB  23
+DNS  S    OB   DOUB  24
+DNS  NZ   CE   SING  25
+DNS  NZ   HNZ  SING  26
+DNS  CE   CD   SING  27
+DNS  CE   1HE  SING  28
+DNS  CE   2HE  SING  29
+DNS  CD   CG   SING  30
+DNS  CD   1HD  SING  31
+DNS  CD   2HD  SING  32
+DNS  CG   CB   SING  33
+DNS  CG   1HG  SING  34
+DNS  CG   2HG  SING  35
+DNS  CB   CA   SING  36
+DNS  CB   1HB  SING  37
+DNS  CB   2HB  SING  38
+DNS  CA   C    SING  39
+DNS  CA   HA   SING  40
+DNS  CA   N    SING  41
+DNS  C    O    SING  42
+DNS  C    OXT  DOUB  43
+DNS  O    HO   SING  44
+DNS  N    1HN  SING  45
+DNS  N    2HN  SING  46
+DNS  C9   H9   SING  47
+DNS  C9   C10  AROM  48
+DNS  C10  H10  SING  49
+DNS  C10  C11  AROM  50
+DNS  C11  H11  SING  51
+DNS  C11  C12  AROM  52
+#

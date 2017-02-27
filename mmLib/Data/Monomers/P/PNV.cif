@@ -1,0 +1,118 @@
+data_PNV
+#
+_chem_comp.id                   PNV
+_chem_comp.name                 '(2S,5R,6R)-3,3-DIMETHYL-7-OXO-6-(2-PHENOXYACETAMIDO)-4-THIA-1- AZABICYCLO(3.2.0)HEPTANE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H18 N2 O5 S1'
+_chem_comp.pdbx_synonyms        'PENICILLIN V'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        350.389
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PNV  C24   .  C  0  90.215  -7.184  44.922  1  1 
+PNV  C23   .  C  0  90.920  -8.372  45.142  1  2 
+PNV  C22   .  C  0  91.978  -8.407  46.058  1  3 
+PNV  C21   .  C  0  92.316  -7.253  46.772  1  4 
+PNV  C20   .  C  0  91.604  -6.066  46.561  1  5 
+PNV  C19   .  C  0  90.559  -6.026  45.643  1  6 
+PNV  O1    .  O  0  89.828  -4.881  45.437  1  7 
+PNV  C2    .  C  0  90.033  -3.803  46.321  1  8 
+PNV  C3    .  C  0  88.885  -2.802  46.084  1  9 
+PNV  O18   .  O  0  89.113  -1.623  46.364  1  10
+PNV  N4    .  N  0  87.690  -3.207  45.617  1  11
+PNV  C5    .  C  0  86.636  -2.214  45.384  1  12
+PNV  C6    .  C  0  85.257  -2.769  45.722  1  13
+PNV  O17   .  O  0  85.102  -3.942  46.033  1  14
+PNV  C8    .  C  0  86.655  -1.854  43.885  1  15
+PNV  N7    .  N  0  86.252  -2.961  43.020  1  16
+PNV  S11   .  S  0  88.325  -1.379  43.313  1  17
+PNV  C10   .  C  0  88.553  -2.539  42.013  1  18
+PNV  C12   .  C  0  88.332  -1.792  40.689  1  19
+PNV  C15   .  C  0  90.012  -3.098  42.072  1  20
+PNV  C9    .  C  0  87.482  -3.566  42.400  1  21
+PNV  C13   .  C  0  87.163  -4.392  41.184  1  22
+PNV  O14   .  O  0  86.148  -4.050  40.534  1  23
+PNV  O16   .  O  0  87.990  -5.310  40.918  1  24
+PNV  H14   .  H  0  ?       ?       ?       1  25
+PNV  H9    .  H  0  ?       ?       ?       1  26
+PNV  H5    .  H  0  ?       ?       ?       1  27
+PNV  HN4   .  H  0  ?       ?       ?       1  28
+PNV  1H2   .  H  0  ?       ?       ?       0  29
+PNV  2H2   .  H  0  ?       ?       ?       0  30
+PNV  H20   .  H  0  ?       ?       ?       1  31
+PNV  H21   .  H  0  ?       ?       ?       1  32
+PNV  H22   .  H  0  ?       ?       ?       1  33
+PNV  H23   .  H  0  ?       ?       ?       1  34
+PNV  H24   .  H  0  ?       ?       ?       1  35
+PNV  H8    .  H  0  ?       ?       ?       1  36
+PNV  1H12  .  H  0  ?       ?       ?       0  37
+PNV  2H12  .  H  0  ?       ?       ?       0  38
+PNV  3H12  .  H  0  ?       ?       ?       0  39
+PNV  1H15  .  H  0  ?       ?       ?       0  40
+PNV  2H15  .  H  0  ?       ?       ?       0  41
+PNV  3H15  .  H  0  ?       ?       ?       0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PNV  C24  C23   AROM  1 
+PNV  C24  C19   AROM  2 
+PNV  C24  H24   SING  3 
+PNV  C23  C22   AROM  4 
+PNV  C23  H23   SING  5 
+PNV  C22  C21   AROM  6 
+PNV  C22  H22   SING  7 
+PNV  C21  C20   AROM  8 
+PNV  C21  H21   SING  9 
+PNV  C20  C19   AROM  10
+PNV  C20  H20   SING  11
+PNV  C19  O1    SING  12
+PNV  O1   C2    SING  13
+PNV  C2   C3    SING  14
+PNV  C2   1H2   SING  15
+PNV  C2   2H2   SING  16
+PNV  C3   N4    SING  17
+PNV  C3   O18   DOUB  18
+PNV  N4   C5    SING  19
+PNV  N4   HN4   SING  20
+PNV  C5   C6    SING  21
+PNV  C5   H5    SING  22
+PNV  C5   C8    SING  23
+PNV  C6   N7    SING  24
+PNV  C6   O17   DOUB  25
+PNV  C8   N7    SING  26
+PNV  C8   H8    SING  27
+PNV  C8   S11   SING  28
+PNV  N7   C9    SING  29
+PNV  S11  C10   SING  30
+PNV  C10  C9    SING  31
+PNV  C10  C12   SING  32
+PNV  C10  C15   SING  33
+PNV  C12  1H12  SING  34
+PNV  C12  2H12  SING  35
+PNV  C12  3H12  SING  36
+PNV  C15  1H15  SING  37
+PNV  C15  2H15  SING  38
+PNV  C15  3H15  SING  39
+PNV  C9   C13   SING  40
+PNV  C9   H9    SING  41
+PNV  C13  O14   SING  42
+PNV  C13  O16   DOUB  43
+PNV  O14  H14   SING  44
+#

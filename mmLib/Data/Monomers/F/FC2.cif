@@ -1,0 +1,76 @@
+data_FC2
+#
+_chem_comp.id                   FC2
+_chem_comp.name                 '5-(2,5-DICHLOROPHENYL)-2-FUROIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H6 O3 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        257.073
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FC2  OA   .  O   0  -1.707  -0.813  8.370   1  1 
+FC2  CA   .  C   0  -0.613  -0.569  9.109   1  2 
+FC2  C    .  C   0  0.729   -0.471  8.528   1  3 
+FC2  OB   .  O   0  0.852   -0.623  7.288   1  4 
+FC2  CB   .  C   0  -1.000  -0.443  10.430  1  5 
+FC2  CG   .  C   0  -2.419  -0.630  10.458  1  6 
+FC2  CD   .  C   0  -2.807  -0.855  9.155   1  7 
+FC2  OXT  .  O   0  1.729   -0.246  9.236   1  8 
+FC2  C1   .  C   0  -4.145  -1.117  8.593   1  9 
+FC2  C2   .  C   0  -5.368  -0.578  9.126   1  10
+FC2  C3   .  C   0  -6.599  -0.901  8.489   1  11
+FC2  C4   .  C   0  -6.617  -1.744  7.337   1  12
+FC2  C5   .  C   0  -5.407  -2.265  6.818   1  13
+FC2  C6   .  C   0  -4.182  -1.955  7.442   1  14
+FC2  CL1  .  CL  0  -5.381  0.441   10.497  0  15
+FC2  CL2  .  CL  0  -5.401  -3.271  5.433   0  16
+FC2  HOB  .  H   0  ?       ?       ?       1  17
+FC2  HB   .  H   0  ?       ?       ?       1  18
+FC2  HG   .  H   0  ?       ?       ?       1  19
+FC2  H6   .  H   0  ?       ?       ?       1  20
+FC2  H4   .  H   0  ?       ?       ?       1  21
+FC2  H3   .  H   0  ?       ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FC2  OA  CD   SING  1 
+FC2  OA  CA   SING  2 
+FC2  CA  C    SING  3 
+FC2  CA  CB   DOUB  4 
+FC2  C   OB   SING  5 
+FC2  C   OXT  DOUB  6 
+FC2  OB  HOB  SING  7 
+FC2  CB  HB   SING  8 
+FC2  CB  CG   SING  9 
+FC2  CG  HG   SING  10
+FC2  CG  CD   DOUB  11
+FC2  CD  C1   SING  12
+FC2  C1  C6   DOUB  13
+FC2  C1  C2   SING  14
+FC2  C2  C3   DOUB  15
+FC2  C2  CL1  SING  16
+FC2  C3  C4   SING  17
+FC2  C3  H3   SING  18
+FC2  C4  C5   DOUB  19
+FC2  C4  H4   SING  20
+FC2  C5  C6   SING  21
+FC2  C5  CL2  SING  22
+FC2  C6  H6   SING  23
+#

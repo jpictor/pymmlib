@@ -1,0 +1,61 @@
+data_DPP
+#
+_chem_comp.id                       DPP
+_chem_comp.name                     'DIAMMINOPROPANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H8 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            104.108
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPP  N    .  N  0  ?  ?  ?  1  1 
+DPP  CA   .  C  0  ?  ?  ?  1  2 
+DPP  C    .  C  0  ?  ?  ?  1  3 
+DPP  O    .  O  0  ?  ?  ?  1  4 
+DPP  CB   .  C  0  ?  ?  ?  1  5 
+DPP  NG   .  N  0  ?  ?  ?  1  6 
+DPP  OXT  .  O  0  ?  ?  ?  1  7 
+DPP  1HN  .  H  0  ?  ?  ?  0  8 
+DPP  2HN  .  H  0  ?  ?  ?  0  9 
+DPP  HA   .  H  0  ?  ?  ?  1  10
+DPP  1HB  .  H  0  ?  ?  ?  0  11
+DPP  2HB  .  H  0  ?  ?  ?  0  12
+DPP  1HG  .  H  0  ?  ?  ?  0  13
+DPP  2HG  .  H  0  ?  ?  ?  0  14
+DPP  HXT  .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPP  N    CA   SING  1 
+DPP  N    1HN  SING  2 
+DPP  N    2HN  SING  3 
+DPP  CA   C    SING  4 
+DPP  CA   CB   SING  5 
+DPP  CA   HA   SING  6 
+DPP  C    O    DOUB  7 
+DPP  C    OXT  SING  8 
+DPP  CB   NG   SING  9 
+DPP  CB   1HB  SING  10
+DPP  CB   2HB  SING  11
+DPP  NG   1HG  SING  12
+DPP  NG   2HG  SING  13
+DPP  OXT  HXT  SING  14
+#

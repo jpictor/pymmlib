@@ -1,0 +1,64 @@
+data_IVA
+#
+_chem_comp.id                   IVA
+_chem_comp.name                 'ISOVALERIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        102.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IVA  CA    .  C  0  ?  ?  ?  1  1 
+IVA  CB    .  C  0  ?  ?  ?  1  2 
+IVA  CG1   .  C  0  ?  ?  ?  1  3 
+IVA  CG2   .  C  0  ?  ?  ?  1  4 
+IVA  C     .  C  0  ?  ?  ?  1  5 
+IVA  O     .  O  0  ?  ?  ?  1  6 
+IVA  OXT   .  O  0  ?  ?  ?  1  7 
+IVA  1HA   .  H  0  ?  ?  ?  0  8 
+IVA  2HA   .  H  0  ?  ?  ?  0  9 
+IVA  HB    .  H  0  ?  ?  ?  1  10
+IVA  1HG1  .  H  0  ?  ?  ?  0  11
+IVA  2HG1  .  H  0  ?  ?  ?  0  12
+IVA  3HG1  .  H  0  ?  ?  ?  0  13
+IVA  1HG2  .  H  0  ?  ?  ?  0  14
+IVA  2HG2  .  H  0  ?  ?  ?  0  15
+IVA  3HG2  .  H  0  ?  ?  ?  0  16
+IVA  HXT   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IVA  CA   CB    SING  1 
+IVA  CA   C     SING  2 
+IVA  CA   1HA   SING  3 
+IVA  CA   2HA   SING  4 
+IVA  CB   CG1   SING  5 
+IVA  CB   CG2   SING  6 
+IVA  CB   HB    SING  7 
+IVA  CG1  1HG1  SING  8 
+IVA  CG1  2HG1  SING  9 
+IVA  CG1  3HG1  SING  10
+IVA  CG2  1HG2  SING  11
+IVA  CG2  2HG2  SING  12
+IVA  CG2  3HG2  SING  13
+IVA  C    O     DOUB  14
+IVA  C    OXT   SING  15
+IVA  OXT  HXT   SING  16
+#

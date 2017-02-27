@@ -1,0 +1,112 @@
+data_SLB
+#
+_chem_comp.id                   SLB
+_chem_comp.name                 '5-N-ACETYL-BETA-D-NEURAMINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C11 H19 N1 O9'
+_chem_comp.pdbx_synonyms        'BETA-SIALIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        309.272
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SLB  C1    .  C  0  ?  ?  ?  1  1 
+SLB  C2    .  C  0  ?  ?  ?  1  2 
+SLB  C3    .  C  0  ?  ?  ?  1  3 
+SLB  C4    .  C  0  ?  ?  ?  1  4 
+SLB  C5    .  C  0  ?  ?  ?  1  5 
+SLB  C6    .  C  0  ?  ?  ?  1  6 
+SLB  C7    .  C  0  ?  ?  ?  1  7 
+SLB  C8    .  C  0  ?  ?  ?  1  8 
+SLB  C9    .  C  0  ?  ?  ?  1  9 
+SLB  C10   .  C  0  ?  ?  ?  1  10
+SLB  C11   .  C  0  ?  ?  ?  1  11
+SLB  N5    .  N  0  ?  ?  ?  1  12
+SLB  O1A   .  O  0  ?  ?  ?  1  13
+SLB  O1B   .  O  0  ?  ?  ?  1  14
+SLB  O2    .  O  0  ?  ?  ?  1  15
+SLB  O4    .  O  0  ?  ?  ?  1  16
+SLB  O6    .  O  0  ?  ?  ?  1  17
+SLB  O7    .  O  0  ?  ?  ?  1  18
+SLB  O8    .  O  0  ?  ?  ?  1  19
+SLB  O9    .  O  0  ?  ?  ?  1  20
+SLB  O10   .  O  0  ?  ?  ?  1  21
+SLB  1H3   .  H  0  ?  ?  ?  0  22
+SLB  2H3   .  H  0  ?  ?  ?  0  23
+SLB  H4    .  H  0  ?  ?  ?  1  24
+SLB  H5    .  H  0  ?  ?  ?  1  25
+SLB  H6    .  H  0  ?  ?  ?  1  26
+SLB  H7    .  H  0  ?  ?  ?  1  27
+SLB  H8    .  H  0  ?  ?  ?  1  28
+SLB  1H9   .  H  0  ?  ?  ?  0  29
+SLB  2H9   .  H  0  ?  ?  ?  0  30
+SLB  1H11  .  H  0  ?  ?  ?  0  31
+SLB  2H11  .  H  0  ?  ?  ?  0  32
+SLB  3H11  .  H  0  ?  ?  ?  0  33
+SLB  HN5   .  H  0  ?  ?  ?  1  34
+SLB  1HOB  .  H  0  ?  ?  ?  0  35
+SLB  HO2   .  H  0  ?  ?  ?  1  36
+SLB  HO4   .  H  0  ?  ?  ?  1  37
+SLB  HO7   .  H  0  ?  ?  ?  1  38
+SLB  HO8   .  H  0  ?  ?  ?  1  39
+SLB  HO9   .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SLB  C1   C2    SING  1 
+SLB  C1   O1A   DOUB  2 
+SLB  C1   O1B   SING  3 
+SLB  C2   C3    SING  4 
+SLB  C2   O6    SING  5 
+SLB  C2   O2    SING  6 
+SLB  C3   C4    SING  7 
+SLB  C3   1H3   SING  8 
+SLB  C3   2H3   SING  9 
+SLB  C4   C5    SING  10
+SLB  C4   O4    SING  11
+SLB  C4   H4    SING  12
+SLB  C5   C6    SING  13
+SLB  C5   N5    SING  14
+SLB  C5   H5    SING  15
+SLB  C6   C7    SING  16
+SLB  C6   O6    SING  17
+SLB  C6   H6    SING  18
+SLB  C7   C8    SING  19
+SLB  C7   O7    SING  20
+SLB  C7   H7    SING  21
+SLB  C8   C9    SING  22
+SLB  C8   O8    SING  23
+SLB  C8   H8    SING  24
+SLB  C9   O9    SING  25
+SLB  C9   1H9   SING  26
+SLB  C9   2H9   SING  27
+SLB  C10  C11   SING  28
+SLB  C10  N5    SING  29
+SLB  C10  O10   DOUB  30
+SLB  C11  1H11  SING  31
+SLB  C11  2H11  SING  32
+SLB  C11  3H11  SING  33
+SLB  N5   HN5   SING  34
+SLB  O1B  1HOB  SING  35
+SLB  O2   HO2   SING  36
+SLB  O4   HO4   SING  37
+SLB  O7   HO7   SING  38
+SLB  O8   HO8   SING  39
+SLB  O9   HO9   SING  40
+#

@@ -1,0 +1,89 @@
+data_4HT
+#
+_chem_comp.id                       4HT
+_chem_comp.name                     4-HYDROXYTRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            220.227
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4HT  N    .  N  0  71.601  36.272  6.457  1  1 
+4HT  CA   .  C  0  71.556  34.847  6.282  1  2 
+4HT  C    .  C  0  70.253  34.301  6.775  1  3 
+4HT  O    .  O  0  69.429  35.019  7.308  1  4 
+4HT  CB   .  C  0  72.819  34.242  7.002  1  5 
+4HT  CG   .  C  0  74.192  34.811  6.574  1  6 
+4HT  CD1  .  C  0  75.161  34.178  5.755  1  7 
+4HT  NE1  .  N  0  76.310  34.998  5.561  1  8 
+4HT  CE2  .  C  0  76.022  36.156  6.265  1  9 
+4HT  CD2  .  C  0  74.743  36.034  6.921  1  10
+4HT  CE3  .  C  0  74.228  37.130  7.711  1  11
+4HT  OE3  .  O  0  72.967  37.040  8.363  1  12
+4HT  CZ3  .  C  0  75.030  38.291  7.877  1  13
+4HT  CH2  .  C  0  76.299  38.410  7.243  1  14
+4HT  CZ2  .  C  0  76.828  37.346  6.456  1  15
+4HT  OXT  .  O  0  ?       ?       ?      1  16
+4HT  HXT  .  H  0  ?       ?       ?      1  17
+4HT  HA   .  H  0  ?       ?       ?      1  18
+4HT  1HN  .  H  0  ?       ?       ?      0  19
+4HT  2HN  .  H  0  ?       ?       ?      0  20
+4HT  1HB  .  H  0  ?       ?       ?      0  21
+4HT  2HB  .  H  0  ?       ?       ?      0  22
+4HT  HD1  .  H  0  ?       ?       ?      1  23
+4HT  HE1  .  H  0  ?       ?       ?      1  24
+4HT  HE3  .  H  0  ?       ?       ?      1  25
+4HT  HZ3  .  H  0  ?       ?       ?      1  26
+4HT  HH2  .  H  0  ?       ?       ?      1  27
+4HT  HZ2  .  H  0  ?       ?       ?      1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4HT  N    CA   SING  1 
+4HT  N    1HN  SING  2 
+4HT  N    2HN  SING  3 
+4HT  CA   C    SING  4 
+4HT  CA   HA   SING  5 
+4HT  CA   CB   SING  6 
+4HT  C    O    DOUB  7 
+4HT  C    OXT  SING  8 
+4HT  CB   1HB  SING  9 
+4HT  CB   2HB  SING  10
+4HT  CB   CG   SING  11
+4HT  CG   CD1  DOUB  12
+4HT  CG   CD2  SING  13
+4HT  CD1  HD1  SING  14
+4HT  CD1  NE1  SING  15
+4HT  NE1  HE1  SING  16
+4HT  NE1  CE2  SING  17
+4HT  CE2  CD2  DOUB  18
+4HT  CE2  CZ2  SING  19
+4HT  CD2  CE3  SING  20
+4HT  CE3  OE3  SING  21
+4HT  CE3  CZ3  DOUB  22
+4HT  OE3  HE3  SING  23
+4HT  CZ3  HZ3  SING  24
+4HT  CZ3  CH2  SING  25
+4HT  CH2  HH2  SING  26
+4HT  CH2  CZ2  DOUB  27
+4HT  CZ2  HZ2  SING  28
+4HT  OXT  HXT  SING  29
+#

@@ -1,0 +1,65 @@
+data_TBF
+#
+_chem_comp.id                   TBF
+_chem_comp.name                 'TERT-BUTYL FORMATE'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H10 O2'
+_chem_comp.pdbx_synonyms        'TERTIARY BUTOXY CARBONYL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        102.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBF  C    .  C  0  -0.161  -3.754  54.681  1  1 
+TBF  O1   .  O  0  1.086   -3.484  55.055  1  2 
+TBF  O    .  O  0  -1.032  -3.919  55.664  1  3 
+TBF  C'   .  C  0  -0.708  -4.476  56.971  1  4 
+TBF  C1   .  C  0  0.127   -5.757  56.930  1  5 
+TBF  C2   .  C  0  0.049   -3.399  57.659  1  6 
+TBF  C3   .  C  0  -2.047  -4.722  57.602  1  7 
+TBF  H    .  H  0  ?       ?       ?       1  8 
+TBF  1H1  .  H  0  ?       ?       ?       0  9 
+TBF  2H1  .  H  0  ?       ?       ?       0  10
+TBF  3H1  .  H  0  ?       ?       ?       0  11
+TBF  1H2  .  H  0  ?       ?       ?       0  12
+TBF  2H2  .  H  0  ?       ?       ?       0  13
+TBF  3H2  .  H  0  ?       ?       ?       0  14
+TBF  1H3  .  H  0  ?       ?       ?       0  15
+TBF  2H3  .  H  0  ?       ?       ?       0  16
+TBF  3H3  .  H  0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBF  C   H    SING  1 
+TBF  C   O1   DOUB  2 
+TBF  C   O    SING  3 
+TBF  O   C'   SING  4 
+TBF  C'  C1   SING  5 
+TBF  C'  C2   SING  6 
+TBF  C'  C3   SING  7 
+TBF  C1  1H1  SING  8 
+TBF  C1  2H1  SING  9 
+TBF  C1  3H1  SING  10
+TBF  C2  1H2  SING  11
+TBF  C2  2H2  SING  12
+TBF  C2  3H2  SING  13
+TBF  C3  1H3  SING  14
+TBF  C3  2H3  SING  15
+TBF  C3  3H3  SING  16
+#

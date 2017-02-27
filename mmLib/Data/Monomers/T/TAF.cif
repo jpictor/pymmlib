@@ -1,0 +1,105 @@
+data_TAF
+#
+_chem_comp.id                       TAF
+_chem_comp.name                     '2'-DEOXY-2'-FLUORO-ARABINO-FURANOSYL THYMINE-5'-PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N2 O8 F1 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            340.201
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TAF  P     .  P  0  ?  ?  ?  1  1 
+TAF  O1P   .  O  0  ?  ?  ?  1  2 
+TAF  O2P   .  O  0  ?  ?  ?  1  3 
+TAF  O3P   .  O  0  ?  ?  ?  1  4 
+TAF  O5*   .  O  0  ?  ?  ?  1  5 
+TAF  N1    .  N  0  ?  ?  ?  1  6 
+TAF  C6    .  C  0  ?  ?  ?  1  7 
+TAF  C2    .  C  0  ?  ?  ?  1  8 
+TAF  O2    .  O  0  ?  ?  ?  1  9 
+TAF  N3    .  N  0  ?  ?  ?  1  10
+TAF  C4    .  C  0  ?  ?  ?  1  11
+TAF  O4    .  O  0  ?  ?  ?  1  12
+TAF  C5    .  C  0  ?  ?  ?  1  13
+TAF  C5M   .  C  0  ?  ?  ?  1  14
+TAF  F2*   .  F  0  ?  ?  ?  1  15
+TAF  C2*   .  C  0  ?  ?  ?  1  16
+TAF  C5*   .  C  0  ?  ?  ?  1  17
+TAF  C4*   .  C  0  ?  ?  ?  1  18
+TAF  O4*   .  O  0  ?  ?  ?  1  19
+TAF  C1*   .  C  0  ?  ?  ?  1  20
+TAF  C3*   .  C  0  ?  ?  ?  1  21
+TAF  O3*   .  O  0  ?  ?  ?  1  22
+TAF  H6    .  H  0  ?  ?  ?  1  23
+TAF  H3    .  H  0  ?  ?  ?  1  24
+TAF  1HOP  .  H  0  ?  ?  ?  0  25
+TAF  2HOP  .  H  0  ?  ?  ?  0  26
+TAF  1H5M  .  H  0  ?  ?  ?  0  27
+TAF  2H5M  .  H  0  ?  ?  ?  0  28
+TAF  3H5M  .  H  0  ?  ?  ?  0  29
+TAF  H2*   .  H  0  ?  ?  ?  1  30
+TAF  1H5*  .  H  0  ?  ?  ?  0  31
+TAF  2H5*  .  H  0  ?  ?  ?  0  32
+TAF  H4*   .  H  0  ?  ?  ?  1  33
+TAF  H1*   .  H  0  ?  ?  ?  1  34
+TAF  H3*   .  H  0  ?  ?  ?  1  35
+TAF  3HO*  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TAF  P    O1P   SING  1 
+TAF  P    O2P   SING  2 
+TAF  P    O3P   DOUB  3 
+TAF  P    O5*   SING  4 
+TAF  O1P  1HOP  SING  5 
+TAF  O2P  2HOP  SING  6 
+TAF  O5*  C5*   SING  7 
+TAF  N1   C6    SING  8 
+TAF  N1   C2    SING  9 
+TAF  N1   C1*   SING  10
+TAF  C6   H6    SING  11
+TAF  C6   C5    DOUB  12
+TAF  C2   O2    DOUB  13
+TAF  C2   N3    SING  14
+TAF  N3   H3    SING  15
+TAF  N3   C4    SING  16
+TAF  C4   O4    DOUB  17
+TAF  C4   C5    SING  18
+TAF  C5   C5M   SING  19
+TAF  C5M  1H5M  SING  20
+TAF  C5M  2H5M  SING  21
+TAF  C5M  3H5M  SING  22
+TAF  F2*  C2*   SING  23
+TAF  C2*  C1*   SING  24
+TAF  C2*  C3*   SING  25
+TAF  C2*  H2*   SING  26
+TAF  C5*  1H5*  SING  27
+TAF  C5*  2H5*  SING  28
+TAF  C5*  C4*   SING  29
+TAF  C4*  H4*   SING  30
+TAF  C4*  O4*   SING  31
+TAF  C4*  C3*   SING  32
+TAF  O4*  C1*   SING  33
+TAF  C1*  H1*   SING  34
+TAF  C3*  H3*   SING  35
+TAF  C3*  O3*   SING  36
+TAF  O3*  3HO*  SING  37
+#

@@ -1,0 +1,59 @@
+data_DIO
+#
+_chem_comp.id                   DIO
+_chem_comp.name                 '1,4-DIETHYLENE DIOXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H8 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        88.106
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIO  C1    .  C  0  ?  ?  ?  1  1 
+DIO  C2    .  C  0  ?  ?  ?  1  2 
+DIO  C1'   .  C  0  ?  ?  ?  1  3 
+DIO  C2'   .  C  0  ?  ?  ?  1  4 
+DIO  O1    .  O  0  ?  ?  ?  1  5 
+DIO  O1'   .  O  0  ?  ?  ?  1  6 
+DIO  1H1   .  H  0  ?  ?  ?  0  7 
+DIO  2H1   .  H  0  ?  ?  ?  0  8 
+DIO  1H2   .  H  0  ?  ?  ?  0  9 
+DIO  2H2   .  H  0  ?  ?  ?  0  10
+DIO  1H2'  .  H  0  ?  ?  ?  0  11
+DIO  2H2'  .  H  0  ?  ?  ?  0  12
+DIO  1H1'  .  H  0  ?  ?  ?  0  13
+DIO  2H1'  .  H  0  ?  ?  ?  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIO  C1   O1    SING  1 
+DIO  C1   C1'   SING  2 
+DIO  C1   1H1   SING  3 
+DIO  C1   2H1   SING  4 
+DIO  C2   O1    SING  5 
+DIO  C2   C2'   SING  6 
+DIO  C2   1H2   SING  7 
+DIO  C2   2H2   SING  8 
+DIO  C1'  O1'   SING  9 
+DIO  C1'  1H1'  SING  10
+DIO  C1'  2H1'  SING  11
+DIO  C2'  O1'   SING  12
+DIO  C2'  1H2'  SING  13
+DIO  C2'  2H2'  SING  14
+#

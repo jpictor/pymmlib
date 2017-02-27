@@ -1,0 +1,109 @@
+data_CPG
+#
+_chem_comp.id                   CPG
+_chem_comp.name                 GUANOSINE-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        363.223
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPG  PA    .  P  0  ?  ?  ?  1  1 
+CPG  O1A   .  O  0  ?  ?  ?  1  2 
+CPG  O2A   .  O  0  ?  ?  ?  1  3 
+CPG  O3A   .  O  0  ?  ?  ?  1  4 
+CPG  O5*   .  O  0  ?  ?  ?  1  5 
+CPG  C5*   .  C  0  ?  ?  ?  1  6 
+CPG  C4*   .  C  0  ?  ?  ?  1  7 
+CPG  O4*   .  O  0  ?  ?  ?  1  8 
+CPG  C3*   .  C  0  ?  ?  ?  1  9 
+CPG  O3*   .  O  0  ?  ?  ?  1  10
+CPG  C2*   .  C  0  ?  ?  ?  1  11
+CPG  O2*   .  O  0  ?  ?  ?  1  12
+CPG  C1*   .  C  0  ?  ?  ?  1  13
+CPG  N9    .  N  0  ?  ?  ?  1  14
+CPG  C8    .  C  0  ?  ?  ?  1  15
+CPG  N7    .  N  0  ?  ?  ?  1  16
+CPG  C5    .  C  0  ?  ?  ?  1  17
+CPG  C6    .  C  0  ?  ?  ?  1  18
+CPG  O6    .  O  0  ?  ?  ?  1  19
+CPG  N1    .  N  0  ?  ?  ?  1  20
+CPG  C2    .  C  0  ?  ?  ?  1  21
+CPG  N2    .  N  0  ?  ?  ?  1  22
+CPG  N3    .  N  0  ?  ?  ?  1  23
+CPG  C4    .  C  0  ?  ?  ?  1  24
+CPG  2HOP  .  H  0  ?  ?  ?  0  25
+CPG  3HOP  .  H  0  ?  ?  ?  0  26
+CPG  1H5*  .  H  0  ?  ?  ?  0  27
+CPG  2H5*  .  H  0  ?  ?  ?  0  28
+CPG  H4*   .  H  0  ?  ?  ?  1  29
+CPG  H3*   .  H  0  ?  ?  ?  1  30
+CPG  *HO3  .  H  0  ?  ?  ?  0  31
+CPG  H2*   .  H  0  ?  ?  ?  1  32
+CPG  *HO2  .  H  0  ?  ?  ?  0  33
+CPG  H1*   .  H  0  ?  ?  ?  1  34
+CPG  H8    .  H  0  ?  ?  ?  1  35
+CPG  HN1   .  H  0  ?  ?  ?  1  36
+CPG  1HN2  .  H  0  ?  ?  ?  0  37
+CPG  2HN2  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPG  PA   O1A   DOUB  1 
+CPG  PA   O2A   SING  2 
+CPG  PA   O3A   SING  3 
+CPG  PA   O5*   SING  4 
+CPG  O2A  2HOP  SING  5 
+CPG  O3A  3HOP  SING  6 
+CPG  O5*  C5*   SING  7 
+CPG  C5*  C4*   SING  8 
+CPG  C5*  1H5*  SING  9 
+CPG  C5*  2H5*  SING  10
+CPG  C4*  O4*   SING  11
+CPG  C4*  C3*   SING  12
+CPG  C4*  H4*   SING  13
+CPG  O4*  C1*   SING  14
+CPG  C3*  O3*   SING  15
+CPG  C3*  C2*   SING  16
+CPG  C3*  H3*   SING  17
+CPG  O3*  *HO3  SING  18
+CPG  C2*  C1*   SING  19
+CPG  C2*  O2*   SING  20
+CPG  C2*  H2*   SING  21
+CPG  O2*  *HO2  SING  22
+CPG  C1*  N9    SING  23
+CPG  C1*  H1*   SING  24
+CPG  N9   C8    SING  25
+CPG  N9   C4    SING  26
+CPG  C8   N7    DOUB  27
+CPG  C8   H8    SING  28
+CPG  N7   C5    SING  29
+CPG  C5   C6    SING  30
+CPG  C5   C4    DOUB  31
+CPG  C6   O6    DOUB  32
+CPG  C6   N1    SING  33
+CPG  N1   C2    SING  34
+CPG  N1   HN1   SING  35
+CPG  C2   N2    SING  36
+CPG  C2   N3    DOUB  37
+CPG  N2   1HN2  SING  38
+CPG  N2   2HN2  SING  39
+CPG  N3   C4    SING  40
+#

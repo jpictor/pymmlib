@@ -1,0 +1,123 @@
+data_ORX
+#
+_chem_comp.id                   ORX
+_chem_comp.name                 N~2~-({3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYL)-D-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H22 N3 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        363.306
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ORX  OA    .  O  0  51.169  78.242  107.905  1  1 
+ORX  CA    .  C  0  52.111  79.006  107.293  1  2 
+ORX  OXT   .  O  0  52.990  78.419  106.425  1  3 
+ORX  CAA   .  C  0  52.176  80.533  107.587  1  4 
+ORX  NA    .  N  0  52.254  81.385  106.274  1  5 
+ORX  C4A   .  C  0  53.533  81.155  105.465  1  6 
+ORX  C4    .  C  0  53.430  81.659  103.972  1  7 
+ORX  C5    .  C  0  54.538  82.236  103.240  1  8 
+ORX  C6    .  C  0  54.551  82.711  101.937  1  9 
+ORX  N1    .  N  0  53.412  82.640  101.181  1  10
+ORX  C2    .  C  0  52.239  82.099  101.716  1  11
+ORX  C3    .  C  0  52.263  81.615  103.128  1  12
+ORX  O3    .  O  0  51.057  81.107  103.513  1  13
+ORX  C2A   .  C  0  51.165  82.161  100.644  1  14
+ORX  C5A   .  C  0  55.875  82.395  103.870  1  15
+ORX  OP4   .  O  0  56.367  81.292  104.503  1  16
+ORX  P     .  P  0  57.825  81.291  105.089  1  17
+ORX  OP1   .  O  0  58.122  80.053  105.754  1  18
+ORX  OP2   .  O  0  57.910  82.613  105.846  1  19
+ORX  OP3   .  O  0  58.700  81.302  103.857  1  20
+ORX  CBA   .  C  0  53.322  80.774  108.609  1  21
+ORX  CGA   .  C  0  52.951  80.590  110.076  1  22
+ORX  CDA   .  C  0  53.222  81.858  110.887  1  23
+ORX  NE    .  N  0  52.887  81.615  112.306  1  24
+ORX  HOA   .  H  0  ?       ?       ?        1  25
+ORX  HAA   .  H  0  ?       ?       ?        1  26
+ORX  HNA   .  H  0  ?       ?       ?        1  27
+ORX  1H4A  .  H  0  ?       ?       ?        0  28
+ORX  2H4A  .  H  0  ?       ?       ?        0  29
+ORX  H6    .  H  0  ?       ?       ?        1  30
+ORX  HO3   .  H  0  ?       ?       ?        1  31
+ORX  1H2A  .  H  0  ?       ?       ?        0  32
+ORX  2H2A  .  H  0  ?       ?       ?        0  33
+ORX  3H2A  .  H  0  ?       ?       ?        0  34
+ORX  1H5A  .  H  0  ?       ?       ?        0  35
+ORX  2H5A  .  H  0  ?       ?       ?        0  36
+ORX  HP2   .  H  0  ?       ?       ?        1  37
+ORX  HP3   .  H  0  ?       ?       ?        1  38
+ORX  1HBA  .  H  0  ?       ?       ?        0  39
+ORX  2HBA  .  H  0  ?       ?       ?        0  40
+ORX  1HGA  .  H  0  ?       ?       ?        0  41
+ORX  2HGA  .  H  0  ?       ?       ?        0  42
+ORX  1HDA  .  H  0  ?       ?       ?        0  43
+ORX  2HDA  .  H  0  ?       ?       ?        0  44
+ORX  1HNE  .  H  0  ?       ?       ?        0  45
+ORX  2HNE  .  H  0  ?       ?       ?        0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ORX  OA   HOA   SING  1 
+ORX  OA   CA    SING  2 
+ORX  CA   OXT   DOUB  3 
+ORX  CA   CAA   SING  4 
+ORX  CAA  HAA   SING  5 
+ORX  CAA  NA    SING  6 
+ORX  CAA  CBA   SING  7 
+ORX  NA   HNA   SING  8 
+ORX  NA   C4A   SING  9 
+ORX  C4A  1H4A  SING  10
+ORX  C4A  2H4A  SING  11
+ORX  C4A  C4    SING  12
+ORX  C4   C5    DOUB  13
+ORX  C4   C3    SING  14
+ORX  C5   C6    SING  15
+ORX  C5   C5A   SING  16
+ORX  C6   H6    SING  17
+ORX  C6   N1    DOUB  18
+ORX  N1   C2    SING  19
+ORX  C2   C3    DOUB  20
+ORX  C2   C2A   SING  21
+ORX  C3   O3    SING  22
+ORX  O3   HO3   SING  23
+ORX  C2A  1H2A  SING  24
+ORX  C2A  2H2A  SING  25
+ORX  C2A  3H2A  SING  26
+ORX  C5A  1H5A  SING  27
+ORX  C5A  2H5A  SING  28
+ORX  C5A  OP4   SING  29
+ORX  OP4  P     SING  30
+ORX  P    OP1   DOUB  31
+ORX  P    OP2   SING  32
+ORX  P    OP3   SING  33
+ORX  OP2  HP2   SING  34
+ORX  OP3  HP3   SING  35
+ORX  CBA  1HBA  SING  36
+ORX  CBA  2HBA  SING  37
+ORX  CBA  CGA   SING  38
+ORX  CGA  1HGA  SING  39
+ORX  CGA  2HGA  SING  40
+ORX  CGA  CDA   SING  41
+ORX  CDA  1HDA  SING  42
+ORX  CDA  2HDA  SING  43
+ORX  CDA  NE    SING  44
+ORX  NE   1HNE  SING  45
+ORX  NE   2HNE  SING  46
+#

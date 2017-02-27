@@ -1,0 +1,109 @@
+data_TLB
+#
+_chem_comp.id                   TLB
+_chem_comp.name                 2'-O,3'-C-METHYLENE-ARABINOFURANOSYL-THYMINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N2 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        350.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TLB  O2P   .  O  0  4.968  10.203  -3.343  1  1 
+TLB  P     .  P  0  5.197  8.811   -2.896  1  2 
+TLB  O1P   .  O  0  6.467  8.458   -2.222  1  3 
+TLB  O3P   .  O  0  ?      ?       ?       1  4 
+TLB  O5*   .  O  0  3.98   8.382   -1.926  1  5 
+TLB  C5*   .  C  0  2.652  8.799   -2.176  1  6 
+TLB  C4*   .  C  0  1.631  8.06    -1.303  1  7 
+TLB  O4*   .  O  0  1.686  6.662   -1.52   1  8 
+TLB  C3*   .  C  0  1.688  8.29    .221    1  9 
+TLB  O3*   .  O  0  .959   9.461   .603    1  10
+TLB  C2*   .  C  0  1.172  6.946   .739    1  11
+TLB  O2*   .  O  0  2.371  6.722   1.458   1  12
+TLB  C1*   .  C  0  .92    6.071   -.489   1  13
+TLB  N1    .  N  0  1.286  4.651   -.263   1  14
+TLB  C2    .  C  0  .27    3.709   -.081   1  15
+TLB  O2    .  O  0  -.925  3.994   -.057   1  16
+TLB  N3    .  N  0  .681   2.392   .073    1  17
+TLB  C4    .  C  0  1.993  1.938   .079    1  18
+TLB  O4    .  O  0  2.218  .736    .203    1  19
+TLB  C5    .  C  0  2.992  2.989   -.075   1  20
+TLB  C5M   .  C  0  4.469  2.645   -.059   1  21
+TLB  C6    .  C  0  2.609  4.283   -.233   1  22
+TLB  C9*   .  C  0  2.965  7.918   .996    1  23
+TLB  H3    .  H  0  -.053  1.707   .183    1  24
+TLB  H6    .  H  0  3.335  5.074   -.334   1  25
+TLB  H1P   .  H  0  6.554  7.473   -2.176  1  26
+TLB  1H5*  .  H  0  2.411  8.602   -3.222  0  27
+TLB  2H5*  .  H  0  2.57   9.871   -1.995  0  28
+TLB  H1*   .  H  0  -.137  6.146   -.757   1  29
+TLB  H2*   .  H  0  .307   6.998   1.378   1  30
+TLB  HA    .  H  0  3.335  5.074   -.334   1  31
+TLB  1H5M  .  H  0  5.041  3.411   -.584   0  32
+TLB  2H5M  .  H  0  4.814  2.581   .973    0  33
+TLB  HB    .  H  0  -.053  1.707   .183    1  34
+TLB  H3*   .  H  0  -.012  9.28    .544    1  35
+TLB  1H9*  .  H  0  3.211  8.59    1.811   0  36
+TLB  2H9*  .  H  0  3.82   7.72    .363    0  37
+TLB  H3P   .  H  0  ?      ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TLB  O2P  P     DOUB  1 
+TLB  P    O1P   SING  2 
+TLB  P    O3P   SING  3 
+TLB  P    O5*   SING  4 
+TLB  O1P  H1P   SING  5 
+TLB  O3P  H3P   SING  6 
+TLB  O5*  C5*   SING  7 
+TLB  C5*  C4*   SING  8 
+TLB  C5*  1H5*  SING  9 
+TLB  C5*  2H5*  SING  10
+TLB  C4*  O4*   SING  11
+TLB  C4*  C3*   SING  12
+TLB  C4*  H3    SING  13
+TLB  O4*  C1*   SING  14
+TLB  C3*  C2*   SING  15
+TLB  C3*  O3*   SING  16
+TLB  C3*  C9*   SING  17
+TLB  O3*  H3*   SING  18
+TLB  C2*  O2*   SING  19
+TLB  C2*  H2*   SING  20
+TLB  C2*  C1*   SING  21
+TLB  O2*  C9*   SING  22
+TLB  C1*  N1    SING  23
+TLB  C1*  H1*   SING  24
+TLB  N1   C6    SING  25
+TLB  N1   C2    SING  26
+TLB  C2   O2    DOUB  27
+TLB  C2   N3    SING  28
+TLB  N3   HB    SING  29
+TLB  N3   C4    SING  30
+TLB  C4   O4    DOUB  31
+TLB  C4   C5    SING  32
+TLB  C5   C5M   SING  33
+TLB  C5   C6    DOUB  34
+TLB  C5M  H6    SING  35
+TLB  C5M  1H5M  SING  36
+TLB  C5M  2H5M  SING  37
+TLB  C6   HA    SING  38
+TLB  C9*  1H9*  SING  39
+TLB  C9*  2H9*  SING  40
+#

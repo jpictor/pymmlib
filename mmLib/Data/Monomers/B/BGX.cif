@@ -1,0 +1,67 @@
+data_BGX
+#
+_chem_comp.id                   BGX
+_chem_comp.name                 '4-METHYL-PYRROLINE-5-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        127.143
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BGX  C1    .  C  0  24.374  89.887  84.989  1  1 
+BGX  C2    .  C  0  25.739  89.254  85.119  1  2 
+BGX  C3    .  C  0  26.762  90.192  85.764  1  3 
+BGX  C4    .  C  0  27.317  89.452  86.984  1  4 
+BGX  C5    .  C  0  26.916  88.000  86.813  1  5 
+BGX  C6    .  C  0  27.762  90.406  84.788  1  6 
+BGX  O1    .  O  0  24.111  90.664  84.066  1  7 
+BGX  N1    .  N  0  25.711  87.994  85.976  1  8 
+BGX  O2    .  O  0  ?       ?       ?       1  9 
+BGX  HO2   .  H  0  ?       ?       ?       1  10
+BGX  HC2   .  H  0  ?       ?       ?       1  11
+BGX  HN1   .  H  0  ?       ?       ?       1  12
+BGX  HC5   .  H  0  ?       ?       ?       1  13
+BGX  HC4   .  H  0  ?       ?       ?       1  14
+BGX  HC3   .  H  0  ?       ?       ?       1  15
+BGX  1HC6  .  H  0  ?       ?       ?       0  16
+BGX  2HC6  .  H  0  ?       ?       ?       0  17
+BGX  3HC6  .  H  0  ?       ?       ?       0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BGX  C1  C2    SING  1 
+BGX  C1  O1    DOUB  2 
+BGX  C1  O2    SING  3 
+BGX  C2  C3    SING  4 
+BGX  C2  N1    SING  5 
+BGX  C2  HC2   SING  6 
+BGX  C3  C4    SING  7 
+BGX  C3  C6    SING  8 
+BGX  C3  HC3   SING  9 
+BGX  C4  C5    DOUB  10
+BGX  C4  HC4   SING  11
+BGX  C5  N1    SING  12
+BGX  C5  HC5   SING  13
+BGX  C6  1HC6  SING  14
+BGX  C6  2HC6  SING  15
+BGX  C6  3HC6  SING  16
+BGX  N1  HN1   SING  17
+BGX  O2  HO2   SING  18
+#

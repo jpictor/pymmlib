@@ -1,0 +1,119 @@
+data_CES
+#
+_chem_comp.id                   CES
+_chem_comp.name                 '2-[CARBOXY-(2-FURAN-2-YL-2-METHOXYIMINO-ACETYLAMINO)-METHYL]-5-METHYL-3,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H17 N3 O7 S1'
+_chem_comp.pdbx_synonyms        'CEFUROXIME (INHIBITION FORM)'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        383.375
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CES  C14   .  C  0  ?  ?  ?  1  1 
+CES  O15   .  O  0  ?  ?  ?  1  2 
+CES  C16   .  C  0  ?  ?  ?  1  3 
+CES  C17   .  C  0  ?  ?  ?  1  4 
+CES  C19   .  C  0  ?  ?  ?  1  5 
+CES  C18   .  C  0  ?  ?  ?  1  6 
+CES  O17   .  O  0  ?  ?  ?  1  7 
+CES  N16   .  N  0  ?  ?  ?  1  8 
+CES  C13   .  C  0  ?  ?  ?  1  9 
+CES  C4'   .  C  0  ?  ?  ?  1  10
+CES  O4A   .  O  0  ?  ?  ?  1  11
+CES  O4B   .  O  0  ?  ?  ?  1  12
+CES  O9    .  O  0  ?  ?  ?  1  13
+CES  C8    .  C  0  ?  ?  ?  1  14
+CES  C3'   .  C  0  ?  ?  ?  1  15
+CES  C3    .  C  0  ?  ?  ?  1  16
+CES  C2    .  C  0  ?  ?  ?  1  17
+CES  S1    .  S  0  ?  ?  ?  1  18
+CES  C6    .  C  0  ?  ?  ?  1  19
+CES  N5    .  N  0  ?  ?  ?  1  20
+CES  C4    .  C  0  ?  ?  ?  1  21
+CES  C7    .  C  0  ?  ?  ?  1  22
+CES  N10   .  N  0  ?  ?  ?  1  23
+CES  C11   .  C  0  ?  ?  ?  1  24
+CES  O12   .  O  0  ?  ?  ?  1  25
+CES  O9A   .  O  0  ?  ?  ?  1  26
+CES  H16   .  H  0  ?  ?  ?  1  27
+CES  H17   .  H  0  ?  ?  ?  1  28
+CES  H19   .  H  0  ?  ?  ?  1  29
+CES  3H18  .  H  0  ?  ?  ?  0  30
+CES  2H18  .  H  0  ?  ?  ?  0  31
+CES  1H18  .  H  0  ?  ?  ?  0  32
+CES  1H2   .  H  0  ?  ?  ?  0  33
+CES  2H2   .  H  0  ?  ?  ?  0  34
+CES  H6    .  H  0  ?  ?  ?  1  35
+CES  H7    .  H  0  ?  ?  ?  1  36
+CES  H10   .  H  0  ?  ?  ?  1  37
+CES  HN5   .  H  0  ?  ?  ?  1  38
+CES  3H3'  .  H  0  ?  ?  ?  0  39
+CES  2H3'  .  H  0  ?  ?  ?  0  40
+CES  1H3'  .  H  0  ?  ?  ?  0  41
+CES  HO9   .  H  0  ?  ?  ?  1  42
+CES  H4O   .  H  0  ?  ?  ?  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CES  C14  O15   SING  1 
+CES  C14  C19   DOUB  2 
+CES  C14  C13   SING  3 
+CES  O15  C16   SING  4 
+CES  C16  C17   DOUB  5 
+CES  C16  H16   SING  6 
+CES  C17  C19   SING  7 
+CES  C17  H17   SING  8 
+CES  C19  H19   SING  9 
+CES  C18  O17   SING  10
+CES  C18  3H18  SING  11
+CES  C18  2H18  SING  12
+CES  C18  1H18  SING  13
+CES  O17  N16   SING  14
+CES  N16  C13   DOUB  15
+CES  C13  C11   SING  16
+CES  C4'  C4    SING  17
+CES  C4'  O4A   SING  18
+CES  C4'  O4B   DOUB  19
+CES  O4A  H4O   SING  20
+CES  O9   C8    DOUB  21
+CES  C8   C7    SING  22
+CES  C8   O9A   SING  23
+CES  C3'  C3    SING  24
+CES  C3'  3H3'  SING  25
+CES  C3'  2H3'  SING  26
+CES  C3'  1H3'  SING  27
+CES  C3   C4    DOUB  28
+CES  C3   C2    SING  29
+CES  C2   S1    SING  30
+CES  C2   1H2   SING  31
+CES  C2   2H2   SING  32
+CES  S1   C6    SING  33
+CES  C6   C7    SING  34
+CES  C6   N5    SING  35
+CES  C6   H6    SING  36
+CES  N5   C4    SING  37
+CES  N5   HN5   SING  38
+CES  C7   N10   SING  39
+CES  C7   H7    SING  40
+CES  N10  C11   SING  41
+CES  N10  H10   SING  42
+CES  C11  O12   DOUB  43
+CES  O9A  HO9   SING  44
+#

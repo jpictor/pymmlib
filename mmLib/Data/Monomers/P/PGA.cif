@@ -1,0 +1,58 @@
+data_PGA
+#
+_chem_comp.id                   PGA
+_chem_comp.name                 '2-PHOSPHOGLYCOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C2 H5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.032
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PGA  P     .  P  0  ?  ?  ?  1  1 
+PGA  O1P   .  O  0  ?  ?  ?  1  2 
+PGA  O2P   .  O  0  ?  ?  ?  1  3 
+PGA  O3P   .  O  0  ?  ?  ?  1  4 
+PGA  O4P   .  O  0  ?  ?  ?  1  5 
+PGA  C2    .  C  0  ?  ?  ?  1  6 
+PGA  C1    .  C  0  ?  ?  ?  1  7 
+PGA  O1    .  O  0  ?  ?  ?  1  8 
+PGA  O2    .  O  0  ?  ?  ?  1  9 
+PGA  1H2   .  H  0  ?  ?  ?  0  10
+PGA  2H2   .  H  0  ?  ?  ?  0  11
+PGA  HO2   .  H  0  ?  ?  ?  1  12
+PGA  3HOP  .  H  0  ?  ?  ?  0  13
+PGA  4HOP  .  H  0  ?  ?  ?  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PGA  P    O1P   SING  1 
+PGA  P    O2P   DOUB  2 
+PGA  P    O3P   SING  3 
+PGA  P    O4P   SING  4 
+PGA  O1P  C2    SING  5 
+PGA  O3P  3HOP  SING  6 
+PGA  O4P  4HOP  SING  7 
+PGA  C2   C1    SING  8 
+PGA  C2   1H2   SING  9 
+PGA  C2   2H2   SING  10
+PGA  C1   O1    DOUB  11
+PGA  C1   O2    SING  12
+PGA  O2   HO2   SING  13
+#

@@ -1,0 +1,82 @@
+data_ACH
+#
+_chem_comp.id                   ACH
+_chem_comp.name                 ACETYLCHOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N1 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       146.209
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACH  N1    .  N  1  ?  ?  ?  1  1 
+ACH  C2    .  C  0  ?  ?  ?  1  2 
+ACH  C3    .  C  0  ?  ?  ?  1  3 
+ACH  O4    .  O  0  ?  ?  ?  1  4 
+ACH  C5    .  C  0  ?  ?  ?  1  5 
+ACH  O7    .  O  0  ?  ?  ?  1  6 
+ACH  C6    .  C  0  ?  ?  ?  1  7 
+ACH  C8    .  C  0  ?  ?  ?  1  8 
+ACH  C9    .  C  0  ?  ?  ?  1  9 
+ACH  C10   .  C  0  ?  ?  ?  1  10
+ACH  1H2   .  H  0  ?  ?  ?  0  11
+ACH  2H2   .  H  0  ?  ?  ?  0  12
+ACH  1H3   .  H  0  ?  ?  ?  0  13
+ACH  2H3   .  H  0  ?  ?  ?  0  14
+ACH  1H6   .  H  0  ?  ?  ?  0  15
+ACH  2H6   .  H  0  ?  ?  ?  0  16
+ACH  3H6   .  H  0  ?  ?  ?  0  17
+ACH  1H8   .  H  0  ?  ?  ?  0  18
+ACH  2H8   .  H  0  ?  ?  ?  0  19
+ACH  3H8   .  H  0  ?  ?  ?  0  20
+ACH  1H9   .  H  0  ?  ?  ?  0  21
+ACH  2H9   .  H  0  ?  ?  ?  0  22
+ACH  3H9   .  H  0  ?  ?  ?  0  23
+ACH  1H10  .  H  0  ?  ?  ?  0  24
+ACH  2H10  .  H  0  ?  ?  ?  0  25
+ACH  3H10  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACH  N1   C2    SING  1 
+ACH  N1   C8    SING  2 
+ACH  N1   C9    SING  3 
+ACH  N1   C10   SING  4 
+ACH  C2   C3    SING  5 
+ACH  C2   1H2   SING  6 
+ACH  C2   2H2   SING  7 
+ACH  C3   O4    SING  8 
+ACH  C3   1H3   SING  9 
+ACH  C3   2H3   SING  10
+ACH  O4   C5    SING  11
+ACH  C5   C6    SING  12
+ACH  C5   O7    DOUB  13
+ACH  C6   1H6   SING  14
+ACH  C6   2H6   SING  15
+ACH  C6   3H6   SING  16
+ACH  C8   1H8   SING  17
+ACH  C8   2H8   SING  18
+ACH  C8   3H8   SING  19
+ACH  C9   1H9   SING  20
+ACH  C9   2H9   SING  21
+ACH  C9   3H9   SING  22
+ACH  C10  1H10  SING  23
+ACH  C10  2H10  SING  24
+ACH  C10  3H10  SING  25
+#

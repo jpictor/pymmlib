@@ -1,0 +1,87 @@
+data_RHP
+#
+_chem_comp.id                   RHP
+_chem_comp.name                 (3R)-3-(PROP-2-YNYLAMINO)INDAN-5-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O1'
+_chem_comp.pdbx_synonyms        5-HYDROXY-N-PROPARGYL-1(R)-AMINOINDAN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        187.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RHP  C13   .  C  0  54.491  152.119  22.060  1  1 
+RHP  C12   .  C  0  54.583  152.796  23.166  1  2 
+RHP  C11   .  C  0  53.531  153.774  23.710  1  3 
+RHP  N10   .  N  0  53.759  154.449  24.783  1  4 
+RHP  C9    .  C  0  52.734  155.364  25.276  1  5 
+RHP  C1    .  C  0  53.274  156.782  25.505  1  6 
+RHP  C2    .  C  0  52.674  157.310  26.825  1  7 
+RHP  C3    .  C  0  52.224  156.056  27.498  1  8 
+RHP  C8    .  C  0  52.274  154.987  26.651  1  9 
+RHP  C7    .  C  0  51.905  153.729  27.075  1  10
+RHP  C4    .  C  0  51.815  155.927  28.812  1  11
+RHP  C5    .  C  0  51.443  154.662  29.256  1  12
+RHP  C6    .  C  0  51.490  153.575  28.391  1  13
+RHP  O6    .  O  0  51.119  152.321  28.832  1  14
+RHP  HO6   .  H  0  ?       ?        ?       1  15
+RHP  H5    .  H  0  ?       ?        ?       1  16
+RHP  H4    .  H  0  ?       ?        ?       1  17
+RHP  H7    .  H  0  ?       ?        ?       1  18
+RHP  H9    .  H  0  ?       ?        ?       1  19
+RHP  H10   .  H  0  ?       ?        ?       1  20
+RHP  1H11  .  H  0  ?       ?        ?       0  21
+RHP  2H11  .  H  0  ?       ?        ?       0  22
+RHP  H13   .  H  0  ?       ?        ?       1  23
+RHP  1H1   .  H  0  ?       ?        ?       0  24
+RHP  2H1   .  H  0  ?       ?        ?       0  25
+RHP  1H2   .  H  0  ?       ?        ?       0  26
+RHP  2H2   .  H  0  ?       ?        ?       0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RHP  C13  C12   TRIP  1 
+RHP  C13  H13   SING  2 
+RHP  C12  C11   SING  3 
+RHP  C11  N10   SING  4 
+RHP  C11  1H11  SING  5 
+RHP  C11  2H11  SING  6 
+RHP  N10  C9    SING  7 
+RHP  N10  H10   SING  8 
+RHP  C9   C8    SING  9 
+RHP  C9   H9    SING  10
+RHP  C9   C1    SING  11
+RHP  C1   1H1   SING  12
+RHP  C1   2H1   SING  13
+RHP  C1   C2    SING  14
+RHP  C2   C3    SING  15
+RHP  C2   1H2   SING  16
+RHP  C2   2H2   SING  17
+RHP  C3   C4    AROM  18
+RHP  C3   C8    AROM  19
+RHP  C8   C7    AROM  20
+RHP  C7   C6    AROM  21
+RHP  C7   H7    SING  22
+RHP  C4   C5    AROM  23
+RHP  C4   H4    SING  24
+RHP  C5   C6    AROM  25
+RHP  C5   H5    SING  26
+RHP  C6   O6    SING  27
+RHP  O6   HO6   SING  28
+#

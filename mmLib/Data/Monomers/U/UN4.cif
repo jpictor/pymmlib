@@ -1,0 +1,93 @@
+data_UN4
+#
+_chem_comp.id                   UN4
+_chem_comp.name                 5-{[(2-AMINO-9H-PURIN-6-YL)OXY]METHYL}-2-PYRROLIDINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N6 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UN4  C2    .  C  0  2.418   29.287  6.729   1  1 
+UN4  C4    .  C  0  .858    30.795  7.484   1  2 
+UN4  C5    .  C  0  .286    29.804  8.31    1  3 
+UN4  C4*   .  C  0  1.077   25.833  10.59   1  4 
+UN4  C3*   .  C  0  -.125   23.728  10.647  1  5 
+UN4  C2*   .  C  0  -.311   25.196  10.361  1  6 
+UN4  N9    .  N  0  .136    31.859  7.752   1  7 
+UN4  N3    .  N  0  1.899   30.502  6.732   1  8 
+UN4  N2    .  N  0  3.485   29.115  5.936   1  9 
+UN4  N1    .  N  0  1.893   28.276  7.478   1  10
+UN4  C6    .  C  0  .823    28.474  8.242   1  11
+UN4  O6    .  O  0  .302    27.52   9.02    1  12
+UN4  C60   .  C  0  1.44    26.719  9.415   1  13
+UN4  C14   .  C  0  1.372   23.53   10.66   1  14
+UN4  N7    .  N  0  -.742   30.267  9.011   1  15
+UN4  C8    .  C  0  -.822   31.518  8.635   1  16
+UN4  O14   .  O  0  1.838   22.399  10.691  1  17
+UN4  N15   .  N  0  2.041   24.73   10.639  1  18
+UN4  1H2N  .  H  0  3.886   28.177  5.934   0  19
+UN4  2H2N  .  H  0  3.878   29.871  5.376   0  20
+UN4  H9    .  H  0  .277    32.789  7.357   1  21
+UN4  H4*   .  H  0  1.093   26.414  11.542  1  22
+UN4  1H2*  .  H  0  -.743   25.407  9.355   0  23
+UN4  2H2*  .  H  0  -1.127  25.67   10.954  0  24
+UN4  1H60  .  H  0  1.851   26.131  8.562   0  25
+UN4  2H60  .  H  0  2.336   27.347  9.629   0  26
+UN4  H15   .  H  0  3.055   24.837  10.655  1  27
+UN4  1H3*  .  H  0  -.666   23.055  9.941   0  28
+UN4  2H3*  .  H  0  -.638   23.377  11.573  0  29
+UN4  H8    .  H  0  -1.592  32.218  9.002   1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UN4  C2   N3    AROM  1 
+UN4  C2   N2    SING  2 
+UN4  C2   N1    AROM  3 
+UN4  C4   C5    AROM  4 
+UN4  C4   N9    SING  5 
+UN4  C4   N3    AROM  6 
+UN4  C5   C6    AROM  7 
+UN4  C5   N7    SING  8 
+UN4  C4*  C2*   SING  9 
+UN4  C4*  C60   SING  10
+UN4  C4*  N15   SING  11
+UN4  C4*  H4*   SING  12
+UN4  C3*  C2*   SING  13
+UN4  C3*  C14   SING  14
+UN4  C3*  1H3*  SING  15
+UN4  C3*  2H3*  SING  16
+UN4  C2*  1H2*  SING  17
+UN4  C2*  2H2*  SING  18
+UN4  N9   C8    SING  19
+UN4  N9   H9    SING  20
+UN4  N2   1H2N  SING  21
+UN4  N2   2H2N  SING  22
+UN4  N1   C6    AROM  23
+UN4  C6   O6    SING  24
+UN4  O6   C60   SING  25
+UN4  C60  1H60  SING  26
+UN4  C60  2H60  SING  27
+UN4  C14  O14   DOUB  28
+UN4  C14  N15   SING  29
+UN4  N7   C8    DOUB  30
+UN4  C8   H8    SING  31
+UN4  N15  H15   SING  32
+#

@@ -1,0 +1,80 @@
+data_CLZ
+#
+_chem_comp.id                   CLZ
+_chem_comp.name                 5-CHLORYL-2,4,6-QUINAZOLINETRIAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 N5 O2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        241.636
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLZ  C1    .  C   0  8.649   34.429  18.171  1  1 
+CLZ  N2    .  N   0  7.366   34.063  18.295  1  2 
+CLZ  C3    .  C   0  6.415   34.933  18.810  1  3 
+CLZ  N4    .  N   0  6.755   36.205  19.264  1  4 
+CLZ  N5    .  N   0  9.497   33.454  17.656  1  5 
+CLZ  N6    .  N   0  5.140   34.546  18.900  1  6 
+CLZ  C7    .  C   0  10.809  37.455  19.213  1  7 
+CLZ  C8    .  C   0  10.464  36.192  18.692  1  8 
+CLZ  C9    .  C   0  9.113   35.731  18.684  1  9 
+CLZ  C10   .  C   0  8.110   36.594  19.212  1  10
+CLZ  C11   .  C   0  8.446   37.888  19.752  1  11
+CLZ  C12   .  C   0  9.763   38.271  19.732  1  12
+CLZ  N13   .  N   0  12.128  37.887  19.220  1  13
+CLZ  CL    .  CL  0  11.780  35.240  18.125  0  14
+CLZ  O1    .  O   0  ?       ?       ?       1  15
+CLZ  O2    .  O   0  ?       ?       ?       1  16
+CLZ  1H6   .  H   0  ?       ?       ?       0  17
+CLZ  2H6   .  H   0  ?       ?       ?       0  18
+CLZ  1H5   .  H   0  ?       ?       ?       0  19
+CLZ  2H5   .  H   0  ?       ?       ?       0  20
+CLZ  H11   .  H   0  ?       ?       ?       1  21
+CLZ  H12   .  H   0  ?       ?       ?       1  22
+CLZ  1H13  .  H   0  ?       ?       ?       0  23
+CLZ  2H13  .  H   0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLZ  C1   N2    SING  1 
+CLZ  C1   N5    SING  2 
+CLZ  C1   C9    DOUB  3 
+CLZ  N2   C3    DOUB  4 
+CLZ  C3   N4    SING  5 
+CLZ  C3   N6    SING  6 
+CLZ  N4   C10   DOUB  7 
+CLZ  N5   1H5   SING  8 
+CLZ  N5   2H5   SING  9 
+CLZ  N6   1H6   SING  10
+CLZ  N6   2H6   SING  11
+CLZ  C7   C8    DOUB  12
+CLZ  C7   C12   SING  13
+CLZ  C7   N13   SING  14
+CLZ  C8   C9    SING  15
+CLZ  C8   CL    SING  16
+CLZ  C9   C10   SING  17
+CLZ  C10  C11   SING  18
+CLZ  C11  C12   DOUB  19
+CLZ  C11  H11   SING  20
+CLZ  C12  H12   SING  21
+CLZ  N13  1H13  SING  22
+CLZ  N13  2H13  SING  23
+CLZ  CL   O1    DOUB  24
+CLZ  CL   O2    DOUB  25
+#

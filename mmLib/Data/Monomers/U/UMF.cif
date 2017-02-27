@@ -1,0 +1,99 @@
+data_UMF
+#
+_chem_comp.id                   UMF
+_chem_comp.name                 '2'-FLUORO-2'-DEOXYURIDINE 3'-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O8 F1 P1'
+_chem_comp.pdbx_synonyms        1-(2-DEOXY-2-FLUORO-3-O-PHOSPHONO-BETA-L-RIBOFURANOSYL)PYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UMF  N1    .  N  0  36.225  -2.366  12.158  1  1 
+UMF  C2    .  C  0  35.029  -2.555  11.421  1  2 
+UMF  O2    .  O  0  34.7    -1.798  10.587  1  3 
+UMF  N3    .  N  0  34.327  -3.712  11.794  1  4 
+UMF  C4    .  C  0  34.675  -4.667  12.796  1  5 
+UMF  O4    .  O  0  33.925  -5.605  12.958  1  6 
+UMF  C5    .  C  0  35.924  -4.39   13.518  1  7 
+UMF  C6    .  C  0  36.645  -3.283  13.194  1  8 
+UMF  O5*   .  O  0  39.253  -.499   15.546  1  9 
+UMF  C5*   .  C  0  40.002  -.165   14.21   1  10
+UMF  C4*   .  C  0  38.775  .12     13.308  1  11
+UMF  O4*   .  O  0  38.402  -1.142  12.96   1  12
+UMF  C3*   .  C  0  37.641  1.061   13.201  1  13
+UMF  O3*   .  O  0  37.542  2.532   12.911  1  14
+UMF  C2*   .  C  0  36.503  .312    12.301  1  15
+UMF  F2*   .  F  0  36.246  1.313   11.543  1  16
+UMF  C1*   .  C  0  37.174  -1.115  11.87   1  17
+UMF  O3P   .  O  0  35.468  3.125   13.52   1  18
+UMF  P     .  P  0  37.016  3.503   13.63   1  19
+UMF  O1P   .  O  0  37.341  3.681   15.091  1  20
+UMF  O2P   .  O  0  37.471  4.666   12.834  1  21
+UMF  H6    .  H  0  37.581  -3.078  13.74   1  22
+UMF  H1*   .  H  0  37.546  -1.104  10.819  1  23
+UMF  H3    .  H  0  33.461  -3.892  11.286  1  24
+UMF  H5    .  H  0  36.273  -5.071  14.313  1  25
+UMF  H5*   .  H  0  40.005  -.674   16.099  1  26
+UMF  1H5*  .  H  0  40.717  -.936   13.84   0  27
+UMF  2H5*  .  H  0  40.771  .64     14.264  0  28
+UMF  H4*   .  H  0  39.315  .4      12.373  1  29
+UMF  H3*   .  H  0  37.199  1.001   14.223  1  30
+UMF  H2*   .  H  0  35.614  .111    12.943  1  31
+UMF  H1P   .  H  0  ?       ?       ?       1  32
+UMF  H3P   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UMF  N1   C2    SING  1 
+UMF  N1   C6    SING  2 
+UMF  N1   C1*   SING  3 
+UMF  C2   O2    DOUB  4 
+UMF  C2   N3    SING  5 
+UMF  N3   C4    SING  6 
+UMF  N3   H3    SING  7 
+UMF  C4   O4    DOUB  8 
+UMF  C4   C5    SING  9 
+UMF  C5   C6    DOUB  10
+UMF  C5   H5    SING  11
+UMF  C6   H6    SING  12
+UMF  O5*  C5*   SING  13
+UMF  O5*  H5*   SING  14
+UMF  C5*  C4*   SING  15
+UMF  C5*  1H5*  SING  16
+UMF  C5*  2H5*  SING  17
+UMF  C4*  O4*   SING  18
+UMF  C4*  C3*   SING  19
+UMF  C4*  H4*   SING  20
+UMF  O4*  C1*   SING  21
+UMF  C3*  O3*   SING  22
+UMF  C3*  C2*   SING  23
+UMF  C3*  H3*   SING  24
+UMF  O3*  P     SING  25
+UMF  C2*  F2*   SING  26
+UMF  C2*  C1*   SING  27
+UMF  C2*  H2*   SING  28
+UMF  C1*  H1*   SING  29
+UMF  O3P  P     SING  30
+UMF  O3P  H3P   SING  31
+UMF  P    O1P   SING  32
+UMF  P    O2P   DOUB  33
+UMF  O1P  H1P   SING  34
+#

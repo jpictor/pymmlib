@@ -1,0 +1,136 @@
+data_4AD
+#
+_chem_comp.id                   4AD
+_chem_comp.name                 '4-AMINO-1,4-DIOXOBUTAN-2-AMINIUM ADENOSINE-5'-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H20 N7 O9 P1'
+_chem_comp.pdbx_synonyms        ASNAMP
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        461.327
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4AD  O2P   .  O  0  -1.420  8.770   41.940  1  1 
+4AD  P     .  P  0  -2.791  9.305   41.680  1  2 
+4AD  O1P   .  O  0  -3.003  10.783  41.502  1  3 
+4AD  O3P   .  O  0  -3.661  8.789   42.943  1  4 
+4AD  C     .  C  0  -5.061  9.002   43.156  1  5 
+4AD  O     .  O  0  -5.754  9.720   42.428  1  6 
+4AD  CA    .  C  0  -5.585  8.278   44.348  1  7 
+4AD  N     .  N  0  -6.722  8.992   44.897  1  8 
+4AD  CB    .  C  0  -5.958  6.890   43.825  1  9 
+4AD  CG    .  C  0  -6.517  6.044   44.941  1  10
+4AD  OD1   .  O  0  -5.828  5.777   45.918  1  11
+4AD  ND2   .  N  0  -7.772  5.612   44.784  1  12
+4AD  O5*   .  O  0  -3.488  8.579   40.425  1  13
+4AD  C5*   .  C  0  -3.606  7.151   40.388  1  14
+4AD  C4*   .  C  0  -3.098  6.698   39.026  1  15
+4AD  C3*   .  C  0  -1.633  7.033   38.740  1  16
+4AD  O3*   .  O  0  -0.769  6.026   39.284  1  17
+4AD  C2*   .  C  0  -1.594  7.035   37.229  1  18
+4AD  O2*   .  O  0  -1.515  5.674   36.770  1  19
+4AD  C1*   .  C  0  -2.961  7.572   36.856  1  20
+4AD  O4*   .  O  0  -3.814  7.367   37.981  1  21
+4AD  N9    .  N  0  -2.937  9.004   36.454  1  22
+4AD  C4    .  C  0  -2.983  9.504   35.230  1  23
+4AD  N3    .  N  0  -3.056  8.900   34.027  1  24
+4AD  C2    .  C  0  -3.103  9.668   32.928  1  25
+4AD  N1    .  N  0  -3.066  11.010  33.029  1  26
+4AD  C6    .  C  0  -2.974  11.667  34.216  1  27
+4AD  N6    .  N  0  -2.950  13.024  34.240  1  28
+4AD  C5    .  C  0  -2.929  10.906  35.387  1  29
+4AD  N7    .  N  0  -2.846  11.241  36.715  1  30
+4AD  C8    .  C  0  -2.844  10.003  37.502  1  31
+4AD  1HD2  .  H  0  ?       ?       ?       0  32
+4AD  2HD2  .  H  0  ?       ?       ?       0  33
+4AD  1HB   .  H  0  ?       ?       ?       0  34
+4AD  2HB   .  H  0  ?       ?       ?       0  35
+4AD  HA    .  H  0  ?       ?       ?       1  36
+4AD  1HN   .  H  0  ?       ?       ?       0  37
+4AD  2HN   .  H  0  ?       ?       ?       0  38
+4AD  1H5*  .  H  0  ?       ?       ?       0  39
+4AD  2H5*  .  H  0  ?       ?       ?       0  40
+4AD  H4*   .  H  0  ?       ?       ?       1  41
+4AD  H1*   .  H  0  ?       ?       ?       1  42
+4AD  H2*   .  H  0  ?       ?       ?       1  43
+4AD  H1    .  H  0  ?       ?       ?       1  44
+4AD  H3*   .  H  0  ?       ?       ?       1  45
+4AD  H2    .  H  0  ?       ?       ?       1  46
+4AD  H8    .  H  0  ?       ?       ?       1  47
+4AD  1HN6  .  H  0  ?       ?       ?       0  48
+4AD  2HN6  .  H  0  ?       ?       ?       0  49
+4AD  H3    .  H  0  ?       ?       ?       1  50
+4AD  3HN   .  H  0  ?       ?       ?       0  51
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4AD  O2P  P     DOUB  1 
+4AD  P    O3P   SING  2 
+4AD  P    O5*   SING  3 
+4AD  P    O1P   SING  4 
+4AD  O3P  C     SING  5 
+4AD  C    CA    SING  6 
+4AD  C    O     DOUB  7 
+4AD  CA   CB    SING  8 
+4AD  CA   N     SING  9 
+4AD  CA   HA    SING  10
+4AD  N    1HN   SING  11
+4AD  N    2HN   SING  12
+4AD  N    3HN   SING  13
+4AD  CB   CG    SING  14
+4AD  CB   1HB   SING  15
+4AD  CB   2HB   SING  16
+4AD  CG   ND2   SING  17
+4AD  CG   OD1   DOUB  18
+4AD  ND2  1HD2  SING  19
+4AD  ND2  2HD2  SING  20
+4AD  O5*  C5*   SING  21
+4AD  C5*  C4*   SING  22
+4AD  C5*  1H5*  SING  23
+4AD  C5*  2H5*  SING  24
+4AD  C4*  O4*   SING  25
+4AD  C4*  C3*   SING  26
+4AD  C4*  H4*   SING  27
+4AD  C3*  C2*   SING  28
+4AD  C3*  O3*   SING  29
+4AD  C3*  H3*   SING  30
+4AD  O3*  H2    SING  31
+4AD  C2*  C1*   SING  32
+4AD  C2*  O2*   SING  33
+4AD  C2*  H2*   SING  34
+4AD  O2*  H1    SING  35
+4AD  C1*  O4*   SING  36
+4AD  C1*  N9    SING  37
+4AD  C1*  H1*   SING  38
+4AD  N9   C8    SING  39
+4AD  N9   C4    SING  40
+4AD  C4   N3    SING  41
+4AD  C4   C5    DOUB  42
+4AD  N3   C2    DOUB  43
+4AD  C2   N1    SING  44
+4AD  C2   H3    SING  45
+4AD  N1   C6    DOUB  46
+4AD  C6   C5    SING  47
+4AD  C6   N6    SING  48
+4AD  N6   1HN6  SING  49
+4AD  N6   2HN6  SING  50
+4AD  C5   N7    SING  51
+4AD  N7   C8    DOUB  52
+4AD  C8   H8    SING  53
+#

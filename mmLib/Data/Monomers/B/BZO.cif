@@ -1,0 +1,65 @@
+data_BZO
+#
+_chem_comp.id                   BZO
+_chem_comp.name                 'CARBOBENZOXY GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H7 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZO  C1   .  C  0  ?  ?  ?  1  1 
+BZO  O1   .  O  0  ?  ?  ?  1  2 
+BZO  O2   .  O  0  ?  ?  ?  1  3 
+BZO  C2   .  C  0  ?  ?  ?  1  4 
+BZO  C3   .  C  0  ?  ?  ?  1  5 
+BZO  C4   .  C  0  ?  ?  ?  1  6 
+BZO  C5   .  C  0  ?  ?  ?  1  7 
+BZO  C6   .  C  0  ?  ?  ?  1  8 
+BZO  C7   .  C  0  ?  ?  ?  1  9 
+BZO  C8   .  C  0  ?  ?  ?  1  10
+BZO  1H2  .  H  0  ?  ?  ?  0  11
+BZO  2H2  .  H  0  ?  ?  ?  0  12
+BZO  H4   .  H  0  ?  ?  ?  1  13
+BZO  H5   .  H  0  ?  ?  ?  1  14
+BZO  H6   .  H  0  ?  ?  ?  1  15
+BZO  H7   .  H  0  ?  ?  ?  1  16
+BZO  H8   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZO  C1  O1   DOUB  1 
+BZO  C1  O2   SING  2 
+BZO  O2  C2   SING  3 
+BZO  C2  C3   SING  4 
+BZO  C2  1H2  SING  5 
+BZO  C2  2H2  SING  6 
+BZO  C3  C4   DOUB  7 
+BZO  C3  C8   SING  8 
+BZO  C4  C5   SING  9 
+BZO  C4  H4   SING  10
+BZO  C5  C6   DOUB  11
+BZO  C5  H5   SING  12
+BZO  C6  C7   SING  13
+BZO  C6  H6   SING  14
+BZO  C7  C8   DOUB  15
+BZO  C7  H7   SING  16
+BZO  C8  H8   SING  17
+#

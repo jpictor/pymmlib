@@ -1,0 +1,94 @@
+data_HFT
+#
+_chem_comp.id                   HFT
+_chem_comp.name                 HYDROXYFLUTAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C11 H11 N2 O4 F3'
+_chem_comp.pdbx_synonyms        '2-HYDROXY-2-METHYL-N-(4-NITRO-3-(TRIFLUOROMETHYL)PHENYL)PROPANAMIDE; HYDROXYNIPHTHOLIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.214
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HFT  F1    .  F  0   23.705  2.410   4.294  1  1 
+HFT  C7    .  C  0   23.863  3.724   4.420  1  2 
+HFT  F2    .  F  0   23.493  4.035   5.659  1  3 
+HFT  F3    .  F  0   23.017  4.271   3.552  1  4 
+HFT  C3    .  C  0   25.321  4.152   4.166  1  5 
+HFT  C2    .  C  0   26.320  3.175   4.156  1  6 
+HFT  C4    .  C  0   25.693  5.471   3.892  1  7 
+HFT  N1    .  N  1   24.875  6.516   4.020  1  8 
+HFT  O2    .  O  -1  25.325  7.805   3.628  1  9 
+HFT  O1    .  O  0   23.539  6.405   4.487  1  10
+HFT  C5    .  C  0   27.021  5.770   3.599  1  11
+HFT  C6    .  C  0   27.999  4.782   3.589  1  12
+HFT  C1    .  C  0   27.652  3.467   3.875  1  13
+HFT  N9    .  N  0   28.629  2.559   3.892  1  14
+HFT  C10   .  C  0   28.507  1.264   4.176  1  15
+HFT  O10   .  O  0   27.453  0.705   4.478  1  16
+HFT  C11   .  C  0   29.820  0.479   4.113  1  17
+HFT  C12   .  C  0   30.184  0.002   5.520  1  18
+HFT  C13   .  C  0   29.639  -0.721  3.181  1  19
+HFT  O11   .  O  0   30.847  1.338   3.612  1  20
+HFT  1H12  .  H  0   ?       ?       ?      0  21
+HFT  2H12  .  H  0   ?       ?       ?      0  22
+HFT  3H12  .  H  0   ?       ?       ?      0  23
+HFT  1H13  .  H  0   ?       ?       ?      0  24
+HFT  2H13  .  H  0   ?       ?       ?      0  25
+HFT  3H13  .  H  0   ?       ?       ?      0  26
+HFT  H11   .  H  0   ?       ?       ?      1  27
+HFT  HN9   .  H  0   ?       ?       ?      1  28
+HFT  H6    .  H  0   ?       ?       ?      1  29
+HFT  H5    .  H  0   ?       ?       ?      1  30
+HFT  H2    .  H  0   ?       ?       ?      1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HFT  F1   C7    SING  1 
+HFT  C7   C3    SING  2 
+HFT  C7   F2    SING  3 
+HFT  C7   F3    SING  4 
+HFT  C3   C4    AROM  5 
+HFT  C3   C2    AROM  6 
+HFT  C2   C1    AROM  7 
+HFT  C2   H2    SING  8 
+HFT  C4   C5    AROM  9 
+HFT  C4   N1    SING  10
+HFT  N1   O2    SING  11
+HFT  N1   O1    DOUB  12
+HFT  C5   C6    AROM  13
+HFT  C5   H5    SING  14
+HFT  C6   C1    AROM  15
+HFT  C6   H6    SING  16
+HFT  C1   N9    SING  17
+HFT  N9   C10   SING  18
+HFT  N9   HN9   SING  19
+HFT  C10  C11   SING  20
+HFT  C10  O10   DOUB  21
+HFT  C11  C12   SING  22
+HFT  C11  C13   SING  23
+HFT  C11  O11   SING  24
+HFT  C12  1H12  SING  25
+HFT  C12  2H12  SING  26
+HFT  C12  3H12  SING  27
+HFT  C13  1H13  SING  28
+HFT  C13  2H13  SING  29
+HFT  C13  3H13  SING  30
+HFT  O11  H11   SING  31
+#

@@ -1,0 +1,97 @@
+data_OPR
+#
+_chem_comp.id                       OPR
+_chem_comp.name                     C-(3-OXOPROPYL)ARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H18 N4 O2'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            214.267
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPR  N     .  N  0  ?  ?  ?  1  1 
+OPR  CA    .  C  0  ?  ?  ?  1  2 
+OPR  CB    .  C  0  ?  ?  ?  1  3 
+OPR  CG    .  C  0  ?  ?  ?  1  4 
+OPR  CD    .  C  0  ?  ?  ?  1  5 
+OPR  NE    .  N  0  ?  ?  ?  1  6 
+OPR  CZ    .  C  0  ?  ?  ?  1  7 
+OPR  NH1   .  N  0  ?  ?  ?  1  8 
+OPR  NH2   .  N  0  ?  ?  ?  1  9 
+OPR  C     .  C  0  ?  ?  ?  1  10
+OPR  O     .  O  0  ?  ?  ?  1  11
+OPR  C1    .  C  0  ?  ?  ?  1  12
+OPR  C2    .  C  0  ?  ?  ?  1  13
+OPR  C3    .  C  0  ?  ?  ?  1  14
+OPR  O3    .  O  0  ?  ?  ?  1  15
+OPR  1HN   .  H  0  ?  ?  ?  0  16
+OPR  2HN   .  H  0  ?  ?  ?  0  17
+OPR  HA    .  H  0  ?  ?  ?  1  18
+OPR  1HB   .  H  0  ?  ?  ?  0  19
+OPR  2HB   .  H  0  ?  ?  ?  0  20
+OPR  1HG   .  H  0  ?  ?  ?  0  21
+OPR  2HG   .  H  0  ?  ?  ?  0  22
+OPR  1HD   .  H  0  ?  ?  ?  0  23
+OPR  2HD   .  H  0  ?  ?  ?  0  24
+OPR  HE    .  H  0  ?  ?  ?  1  25
+OPR  HH1   .  H  0  ?  ?  ?  1  26
+OPR  1HH2  .  H  0  ?  ?  ?  0  27
+OPR  2HH2  .  H  0  ?  ?  ?  0  28
+OPR  1H1   .  H  0  ?  ?  ?  0  29
+OPR  2H1   .  H  0  ?  ?  ?  0  30
+OPR  1H2   .  H  0  ?  ?  ?  0  31
+OPR  2H2   .  H  0  ?  ?  ?  0  32
+OPR  H3    .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPR  N    CA    SING  1 
+OPR  N    1HN   SING  2 
+OPR  N    2HN   SING  3 
+OPR  CA   CB    SING  4 
+OPR  CA   C     SING  5 
+OPR  CA   HA    SING  6 
+OPR  CB   CG    SING  7 
+OPR  CB   1HB   SING  8 
+OPR  CB   2HB   SING  9 
+OPR  CG   CD    SING  10
+OPR  CG   1HG   SING  11
+OPR  CG   2HG   SING  12
+OPR  CD   NE    SING  13
+OPR  CD   1HD   SING  14
+OPR  CD   2HD   SING  15
+OPR  NE   CZ    SING  16
+OPR  NE   HE    SING  17
+OPR  CZ   NH1   DOUB  18
+OPR  CZ   NH2   SING  19
+OPR  NH1  HH1   SING  20
+OPR  NH2  1HH2  SING  21
+OPR  NH2  2HH2  SING  22
+OPR  C    O     DOUB  23
+OPR  C    C1    SING  24
+OPR  C1   C2    SING  25
+OPR  C1   1H1   SING  26
+OPR  C1   2H1   SING  27
+OPR  C2   C3    SING  28
+OPR  C2   1H2   SING  29
+OPR  C2   2H2   SING  30
+OPR  C3   O3    DOUB  31
+OPR  C3   H3    SING  32
+#

@@ -1,0 +1,101 @@
+data_EBP
+#
+_chem_comp.id                   EBP
+_chem_comp.name                 'DIETHYL 4-METHYLBENZYLPHOSPHONATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        242.254
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EBP  C1    .  C  0  ?  ?  ?  1  1 
+EBP  C2    .  C  0  ?  ?  ?  1  2 
+EBP  C3    .  C  0  ?  ?  ?  1  3 
+EBP  C4    .  C  0  ?  ?  ?  1  4 
+EBP  C5    .  C  0  ?  ?  ?  1  5 
+EBP  C6    .  C  0  ?  ?  ?  1  6 
+EBP  C7    .  C  0  ?  ?  ?  1  7 
+EBP  C8    .  C  0  ?  ?  ?  1  8 
+EBP  C9    .  C  0  ?  ?  ?  1  9 
+EBP  C10   .  C  0  ?  ?  ?  1  10
+EBP  C11   .  C  0  ?  ?  ?  1  11
+EBP  C12   .  C  0  ?  ?  ?  1  12
+EBP  P     .  P  0  ?  ?  ?  1  13
+EBP  O1    .  O  0  ?  ?  ?  1  14
+EBP  O2    .  O  0  ?  ?  ?  1  15
+EBP  O3    .  O  0  ?  ?  ?  1  16
+EBP  H2    .  H  0  ?  ?  ?  1  17
+EBP  H3    .  H  0  ?  ?  ?  1  18
+EBP  H5    .  H  0  ?  ?  ?  1  19
+EBP  H6    .  H  0  ?  ?  ?  1  20
+EBP  1H7   .  H  0  ?  ?  ?  0  21
+EBP  2H7   .  H  0  ?  ?  ?  0  22
+EBP  1H8   .  H  0  ?  ?  ?  0  23
+EBP  2H8   .  H  0  ?  ?  ?  0  24
+EBP  3H8   .  H  0  ?  ?  ?  0  25
+EBP  1H9   .  H  0  ?  ?  ?  0  26
+EBP  2H9   .  H  0  ?  ?  ?  0  27
+EBP  1H10  .  H  0  ?  ?  ?  0  28
+EBP  2H10  .  H  0  ?  ?  ?  0  29
+EBP  3H10  .  H  0  ?  ?  ?  0  30
+EBP  1H11  .  H  0  ?  ?  ?  0  31
+EBP  2H11  .  H  0  ?  ?  ?  0  32
+EBP  1H12  .  H  0  ?  ?  ?  0  33
+EBP  2H12  .  H  0  ?  ?  ?  0  34
+EBP  3H12  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EBP  C1   C2    DOUB  1 
+EBP  C1   C6    SING  2 
+EBP  C1   C7    SING  3 
+EBP  C2   C3    SING  4 
+EBP  C2   H2    SING  5 
+EBP  C3   C4    DOUB  6 
+EBP  C3   H3    SING  7 
+EBP  C4   C5    SING  8 
+EBP  C4   C8    SING  9 
+EBP  C5   C6    DOUB  10
+EBP  C5   H5    SING  11
+EBP  C6   H6    SING  12
+EBP  C7   P     SING  13
+EBP  C7   1H7   SING  14
+EBP  C7   2H7   SING  15
+EBP  C8   1H8   SING  16
+EBP  C8   2H8   SING  17
+EBP  C8   3H8   SING  18
+EBP  C9   O1    SING  19
+EBP  C9   C10   SING  20
+EBP  C9   1H9   SING  21
+EBP  C9   2H9   SING  22
+EBP  C10  1H10  SING  23
+EBP  C10  2H10  SING  24
+EBP  C10  3H10  SING  25
+EBP  C11  O2    SING  26
+EBP  C11  C12   SING  27
+EBP  C11  1H11  SING  28
+EBP  C11  2H11  SING  29
+EBP  C12  1H12  SING  30
+EBP  C12  2H12  SING  31
+EBP  C12  3H12  SING  32
+EBP  P    O1    SING  33
+EBP  P    O2    SING  34
+EBP  P    O3    DOUB  35
+#

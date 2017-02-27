@@ -1,0 +1,71 @@
+data_DGC
+#
+_chem_comp.id                   DGC
+_chem_comp.name                 'D-GLUCURONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H8 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DGC  C1   .  C  0  5.166  41.469  29.961  1  1 
+DGC  C2   .  C  0  3.899  41.512  30.743  1  2 
+DGC  O2   .  O  0  4.008  40.587  31.88   1  3 
+DGC  C3   .  C  0  2.763  40.988  29.78   1  4 
+DGC  O3   .  O  0  1.564  41.161  30.531  1  5 
+DGC  C4   .  C  0  2.791  41.395  28.292  1  6 
+DGC  C5   .  C  0  3.853  42.12   27.839  1  7 
+DGC  O5   .  O  0  4.976  42.455  28.807  1  8 
+DGC  C6   .  C  0  4.023  42.597  26.421  1  9 
+DGC  O6A  .  O  0  3.2    42.143  25.543  1  10
+DGC  O6B  .  O  0  5.004  43.412  26.313  1  11
+DGC  O1   .  O  0  6.246  41.952  30.721  1  12
+DGC  H1   .  H  0  5.376  40.437  29.645  1  13
+DGC  H2   .  H  0  3.689  42.526  31.113  1  14
+DGC  HA   .  H  0  6.762  41.189  31.084  1  15
+DGC  H3   .  H  0  2.916  39.929  29.525  1  16
+DGC  HB   .  H  0  3.102  40.335  32.189  1  17
+DGC  H4   .  H  0  2.003  41.117  27.637  1  18
+DGC  HC   .  H  0  1.19   40.275  30.765  1  19
+DGC  H6A  .  H  0  ?      ?       ?       1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DGC  C1   C2   SING  1 
+DGC  C1   O5   SING  2 
+DGC  C1   O1   SING  3 
+DGC  C1   H1   SING  4 
+DGC  C2   C3   SING  5 
+DGC  C2   O2   SING  6 
+DGC  C2   H2   SING  7 
+DGC  O2   HB   SING  8 
+DGC  C3   C4   SING  9 
+DGC  C3   O3   SING  10
+DGC  C3   H3   SING  11
+DGC  O3   HC   SING  12
+DGC  C4   C5   DOUB  13
+DGC  C4   H4   SING  14
+DGC  C5   O5   SING  15
+DGC  C5   C6   SING  16
+DGC  C6   O6A  SING  17
+DGC  C6   O6B  DOUB  18
+DGC  O6A  H6A  SING  19
+DGC  O1   HA   SING  20
+#

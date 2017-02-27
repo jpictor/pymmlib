@@ -1,0 +1,109 @@
+data_MUB
+#
+_chem_comp.id                   MUB
+_chem_comp.name                 'N-ACETYLMURAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N1 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.273
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MUB  C1    .  C  0  -.744    9.346   -2.817   1  1 
+MUB  C2    .  C  0  -.305    10.579  -3.591   1  2 
+MUB  C3    .  C  0  -.257    10.29   -5.081   1  3 
+MUB  C4    .  C  0  .439     8.944   -5.283   1  4 
+MUB  C5    .  C  0  -.371    7.833   -4.636   1  5 
+MUB  C6    .  C  0  .516     6.858   -3.884   1  6 
+MUB  C7    .  C  0  -2.258   11.901  -4.031   1  7 
+MUB  C8    .  C  0  -3.084   13.12   -3.691   1  8 
+MUB  C9    .  C  0  1.631    11.693  -4.967   1  9 
+MUB  C10   .  C  0  2.932    10.928  -5.153   1  10
+MUB  C11   .  C  0  1.694    13.023  -4.221   1  11
+MUB  O1    .  O  0  -1.711   9.69    -1.887   1  12
+MUB  O3    .  O  0  .469     11.347  -5.743   1  13
+MUB  O4    .  O  0  .651     8.619   -6.67    1  14
+MUB  O5    .  O  0  -1.322   8.373   -3.693   1  15
+MUB  O6    .  O  0  -.222    6.098   -2.935   1  16
+MUB  O7    .  O  0  -2.763   10.998  -4.697   1  17
+MUB  O11   .  O  0  3.086    9.857   -4.396   1  18
+MUB  O10   .  O  0  3.844    11.436  -5.804   1  19
+MUB  N2    .  N  0  -1.164   11.712  -3.327   1  20
+MUB  1H    .  H  0  .134     8.959   -2.289   0  21
+MUB  2H    .  H  0  .683     10.86   -3.196   0  22
+MUB  2HN   .  H  0  -.796    12.463  -2.812   0  23
+MUB  1H8   .  H  0  -3.92    13.186  -4.361   0  24
+MUB  2H8   .  H  0  -2.454   13.993  -3.787   0  25
+MUB  3H8   .  H  0  -3.431   13.035  -2.675   0  26
+MUB  3H    .  H  0  -1.271   10.215  -5.557   0  27
+MUB  9H    .  H  0  1.14     10.966  -4.25    0  28
+MUB  1H11  .  H  0  1.329    13.821  -4.87    0  29
+MUB  2H11  .  H  0  2.698    13.222  -3.966   0  30
+MUB  3H11  .  H  0  1.104    12.949  -3.31    0  31
+MUB  4H    .  H  0  1.417    9.225   -4.828   0  32
+MUB  5H    .  H  0  -.901    7.247   -5.403   0  33
+MUB  1H6   .  H  0  1.39     7.316   -3.397   0  34
+MUB  2H6   .  H  0  .937     6.23    -4.71    0  35
+MUB  6HO   .  H  0  -.679    6.623   -2.264   0  36
+MUB  H4    .  H  0  1.084    7.782   -6.795   1  37
+MUB  H1'   .  H  0  3.8988   9.3791  -4.5122  1  38
+MUB  HO1   .  H  0  -1.9853  8.9197  -1.4034  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MUB  C1   C2    SING  1 
+MUB  C1   O1    SING  2 
+MUB  C1   O5    SING  3 
+MUB  C1   1H    SING  4 
+MUB  C2   C3    SING  5 
+MUB  C2   N2    SING  6 
+MUB  C2   2H    SING  7 
+MUB  C3   C4    SING  8 
+MUB  C3   O3    SING  9 
+MUB  C3   3H    SING  10
+MUB  C4   C5    SING  11
+MUB  C4   O4    SING  12
+MUB  C4   4H    SING  13
+MUB  C5   C6    SING  14
+MUB  C5   O5    SING  15
+MUB  C5   5H    SING  16
+MUB  C6   O6    SING  17
+MUB  C6   1H6   SING  18
+MUB  C6   2H6   SING  19
+MUB  C7   C8    SING  20
+MUB  C7   O7    DOUB  21
+MUB  C7   N2    SING  22
+MUB  C8   1H8   SING  23
+MUB  C8   2H8   SING  24
+MUB  C8   3H8   SING  25
+MUB  C9   C10   SING  26
+MUB  C9   C11   SING  27
+MUB  C9   O3    SING  28
+MUB  C9   9H    SING  29
+MUB  C10  O11   SING  30
+MUB  C10  O10   DOUB  31
+MUB  C11  1H11  SING  32
+MUB  C11  2H11  SING  33
+MUB  C11  3H11  SING  34
+MUB  O1   HO1   SING  35
+MUB  O4   H4    SING  36
+MUB  O6   6HO   SING  37
+MUB  O11  H1'   SING  38
+MUB  N2   2HN   SING  39
+#

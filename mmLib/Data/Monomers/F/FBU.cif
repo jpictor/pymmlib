@@ -1,0 +1,65 @@
+data_FBU
+#
+_chem_comp.id                   FBU
+_chem_comp.name                 3,5-DIFLUOROBENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 N1 O2 F2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        193.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FBU  C01   .  C  0  ?  ?  ?  1  1 
+FBU  C02   .  C  0  ?  ?  ?  1  2 
+FBU  C03   .  C  0  ?  ?  ?  1  3 
+FBU  C04   .  C  0  ?  ?  ?  1  4 
+FBU  C05   .  C  0  ?  ?  ?  1  5 
+FBU  C06   .  C  0  ?  ?  ?  1  6 
+FBU  S07   .  S  0  ?  ?  ?  1  7 
+FBU  O08   .  O  0  ?  ?  ?  1  8 
+FBU  O09   .  O  0  ?  ?  ?  1  9 
+FBU  NP0   .  N  0  ?  ?  ?  1  10
+FBU  F11   .  F  0  ?  ?  ?  1  11
+FBU  F12   .  F  0  ?  ?  ?  1  12
+FBU  1HN0  .  H  0  ?  ?  ?  0  13
+FBU  2HN0  .  H  0  ?  ?  ?  0  14
+FBU  HC1   .  H  0  ?  ?  ?  1  15
+FBU  HC3   .  H  0  ?  ?  ?  1  16
+FBU  HC5   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FBU  C01  C02   AROM  1 
+FBU  C01  C06   AROM  2 
+FBU  C01  HC1   SING  3 
+FBU  C02  C03   AROM  4 
+FBU  C02  F12   SING  5 
+FBU  C03  C04   AROM  6 
+FBU  C03  HC3   SING  7 
+FBU  C04  C05   AROM  8 
+FBU  C04  S07   SING  9 
+FBU  C05  C06   AROM  10
+FBU  C05  HC5   SING  11
+FBU  C06  F11   SING  12
+FBU  S07  O08   DOUB  13
+FBU  S07  O09   DOUB  14
+FBU  S07  NP0   SING  15
+FBU  NP0  1HN0  SING  16
+FBU  NP0  2HN0  SING  17
+#

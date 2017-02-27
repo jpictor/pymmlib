@@ -1,0 +1,96 @@
+data_CRB
+#
+_chem_comp.id                   CRB
+_chem_comp.name                 '[1R-(1ALPHA,3BETA,4ALPHA,5BETA)]-5-(PHOSPHONOMETHYL)-1,3,4-TRIHYDROXYCYCLOHEXANE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H15 O8 P1'
+_chem_comp.pdbx_synonyms        CARBAPHOSPHONATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRB  C1    .  C  0  ?  ?  ?  1  1 
+CRB  O11   .  O  0  ?  ?  ?  1  2 
+CRB  O12   .  O  0  ?  ?  ?  1  3 
+CRB  C2    .  C  0  ?  ?  ?  1  4 
+CRB  O2    .  O  0  ?  ?  ?  1  5 
+CRB  C3    .  C  0  ?  ?  ?  1  6 
+CRB  C4    .  C  0  ?  ?  ?  1  7 
+CRB  O4    .  O  0  ?  ?  ?  1  8 
+CRB  C5    .  C  0  ?  ?  ?  1  9 
+CRB  O5    .  O  0  ?  ?  ?  1  10
+CRB  C6    .  C  0  ?  ?  ?  1  11
+CRB  C7    .  C  0  ?  ?  ?  1  12
+CRB  C8    .  C  0  ?  ?  ?  1  13
+CRB  P1    .  P  0  ?  ?  ?  1  14
+CRB  O91   .  O  0  ?  ?  ?  1  15
+CRB  O92   .  O  0  ?  ?  ?  1  16
+CRB  O93   .  O  0  ?  ?  ?  1  17
+CRB  HOB   .  H  0  ?  ?  ?  1  18
+CRB  HO2   .  H  0  ?  ?  ?  1  19
+CRB  1H3   .  H  0  ?  ?  ?  0  20
+CRB  2H3   .  H  0  ?  ?  ?  0  21
+CRB  H4    .  H  0  ?  ?  ?  1  22
+CRB  HO4   .  H  0  ?  ?  ?  1  23
+CRB  H5    .  H  0  ?  ?  ?  1  24
+CRB  HO5   .  H  0  ?  ?  ?  1  25
+CRB  H6    .  H  0  ?  ?  ?  1  26
+CRB  1H7   .  H  0  ?  ?  ?  0  27
+CRB  2H7   .  H  0  ?  ?  ?  0  28
+CRB  1H8   .  H  0  ?  ?  ?  0  29
+CRB  2H8   .  H  0  ?  ?  ?  0  30
+CRB  2HOP  .  H  0  ?  ?  ?  0  31
+CRB  3HOP  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRB  C1   O11   SING  1 
+CRB  C1   O12   DOUB  2 
+CRB  C1   C2    SING  3 
+CRB  O11  HOB   SING  4 
+CRB  C2   O2    SING  5 
+CRB  C2   C3    SING  6 
+CRB  C2   C8    SING  7 
+CRB  O2   HO2   SING  8 
+CRB  C3   C4    SING  9 
+CRB  C3   1H3   SING  10
+CRB  C3   2H3   SING  11
+CRB  C4   O4    SING  12
+CRB  C4   C5    SING  13
+CRB  C4   H4    SING  14
+CRB  O4   HO4   SING  15
+CRB  C5   O5    SING  16
+CRB  C5   C6    SING  17
+CRB  C5   H5    SING  18
+CRB  O5   HO5   SING  19
+CRB  C6   C7    SING  20
+CRB  C6   C8    SING  21
+CRB  C6   H6    SING  22
+CRB  C7   P1    SING  23
+CRB  C7   1H7   SING  24
+CRB  C7   2H7   SING  25
+CRB  C8   1H8   SING  26
+CRB  C8   2H8   SING  27
+CRB  P1   O91   DOUB  28
+CRB  P1   O92   SING  29
+CRB  P1   O93   SING  30
+CRB  O92  2HOP  SING  31
+CRB  O93  3HOP  SING  32
+#

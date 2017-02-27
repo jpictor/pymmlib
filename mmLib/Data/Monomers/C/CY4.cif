@@ -1,0 +1,81 @@
+data_CY4
+#
+_chem_comp.id                       CY4
+_chem_comp.name                     S-BUTYRYL-CYSTEIN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H13 N1 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            191.245
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CY4  O     .  O  0  25.720  -11.986  6.669   1  1 
+CY4  C     .  C  0  24.584  -11.740  7.131   1  2 
+CY4  CA    .  C  0  24.290  -11.990  8.601   1  3 
+CY4  N     .  N  0  23.054  -11.366  9.038   1  4 
+CY4  CB    .  C  0  24.141  -13.507  8.883   1  5 
+CY4  SG    .  S  0  24.244  -13.776  10.690  1  6 
+CY4  CA1   .  C  0  22.495  -13.955  10.961  1  7 
+CY4  CA2   .  C  0  22.121  -14.508  12.346  1  8 
+CY4  OA1   .  O  0  21.656  -13.578  10.199  1  9 
+CY4  CA3   .  C  0  23.078  -15.616  12.764  1  10
+CY4  CA4   .  C  0  22.651  -16.994  12.254  1  11
+CY4  OXT   .  O  0  ?       ?        ?       1  12
+CY4  HXT   .  H  0  ?       ?        ?       1  13
+CY4  HA    .  H  0  ?       ?        ?       1  14
+CY4  H     .  H  0  ?       ?        ?       1  15
+CY4  HN2   .  H  0  ?       ?        ?       1  16
+CY4  1HB   .  H  0  ?       ?        ?       0  17
+CY4  2HB   .  H  0  ?       ?        ?       0  18
+CY4  1HA2  .  H  0  ?       ?        ?       0  19
+CY4  2HA2  .  H  0  ?       ?        ?       0  20
+CY4  1HA3  .  H  0  ?       ?        ?       0  21
+CY4  2HA3  .  H  0  ?       ?        ?       0  22
+CY4  1HA4  .  H  0  ?       ?        ?       0  23
+CY4  2HA4  .  H  0  ?       ?        ?       0  24
+CY4  3HA4  .  H  0  ?       ?        ?       0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CY4  O    C     DOUB  1 
+CY4  C    OXT   SING  2 
+CY4  C    CA    SING  3 
+CY4  CA   N     SING  4 
+CY4  CA   CB    SING  5 
+CY4  CA   HA    SING  6 
+CY4  N    H     SING  7 
+CY4  N    HN2   SING  8 
+CY4  CB   SG    SING  9 
+CY4  CB   1HB   SING  10
+CY4  CB   2HB   SING  11
+CY4  SG   CA1   SING  12
+CY4  CA1  CA2   SING  13
+CY4  CA1  OA1   DOUB  14
+CY4  CA2  CA3   SING  15
+CY4  CA2  1HA2  SING  16
+CY4  CA2  2HA2  SING  17
+CY4  CA3  CA4   SING  18
+CY4  CA3  1HA3  SING  19
+CY4  CA3  2HA3  SING  20
+CY4  CA4  1HA4  SING  21
+CY4  CA4  2HA4  SING  22
+CY4  CA4  3HA4  SING  23
+CY4  OXT  HXT   SING  24
+#

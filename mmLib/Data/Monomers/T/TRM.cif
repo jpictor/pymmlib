@@ -1,0 +1,68 @@
+data_TRM
+#
+_chem_comp.id                   TRM
+_chem_comp.name                 '1H-BENOXIMIDAZOLE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.148
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRM  NG    .  N  0  ?  ?  ?  1  1 
+TRM  CD1   .  C  0  ?  ?  ?  1  2 
+TRM  NE1   .  N  0  ?  ?  ?  1  3 
+TRM  CE2   .  C  0  ?  ?  ?  1  4 
+TRM  CZ2   .  C  0  ?  ?  ?  1  5 
+TRM  CH2   .  C  0  ?  ?  ?  1  6 
+TRM  CZ3   .  C  0  ?  ?  ?  1  7 
+TRM  CE3   .  C  0  ?  ?  ?  1  8 
+TRM  CD2   .  C  0  ?  ?  ?  1  9 
+TRM  C     .  C  0  ?  ?  ?  1  10
+TRM  O     .  O  0  ?  ?  ?  1  11
+TRM  OXT   .  O  0  ?  ?  ?  1  12
+TRM  1HH2  .  H  0  ?  ?  ?  0  13
+TRM  1HZ2  .  H  0  ?  ?  ?  0  14
+TRM  1HZ3  .  H  0  ?  ?  ?  0  15
+TRM  1HE3  .  H  0  ?  ?  ?  0  16
+TRM  1HE1  .  H  0  ?  ?  ?  0  17
+TRM  HXT   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRM  NG   CD1   DOUB  1 
+TRM  NG   CD2   SING  2 
+TRM  CD1  NE1   SING  3 
+TRM  CD1  C     SING  4 
+TRM  NE1  CE2   SING  5 
+TRM  NE1  1HE1  SING  6 
+TRM  CE2  CZ2   AROM  7 
+TRM  CE2  CD2   AROM  8 
+TRM  CZ2  CH2   AROM  9 
+TRM  CZ2  1HZ2  SING  10
+TRM  CH2  CZ3   AROM  11
+TRM  CH2  1HH2  SING  12
+TRM  CZ3  CE3   AROM  13
+TRM  CZ3  1HZ3  SING  14
+TRM  CE3  CD2   AROM  15
+TRM  CE3  1HE3  SING  16
+TRM  C    O     DOUB  17
+TRM  C    OXT   SING  18
+TRM  OXT  HXT   SING  19
+#

@@ -1,0 +1,64 @@
+data_5HP
+#
+_chem_comp.id                       5HP
+_chem_comp.name                     'PYROGLUTAMIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H7 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            129.115
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5HP  N    .  N  0  ?  ?  ?  1  1 
+5HP  CA   .  C  0  ?  ?  ?  1  2 
+5HP  C    .  C  0  ?  ?  ?  1  3 
+5HP  O    .  O  0  ?  ?  ?  1  4 
+5HP  CB   .  C  0  ?  ?  ?  1  5 
+5HP  CG   .  C  0  ?  ?  ?  1  6 
+5HP  CD   .  C  0  ?  ?  ?  1  7 
+5HP  OD   .  O  0  ?  ?  ?  1  8 
+5HP  OXT  .  O  0  ?  ?  ?  1  9 
+5HP  H    .  H  0  ?  ?  ?  1  10
+5HP  HA   .  H  0  ?  ?  ?  1  11
+5HP  1HB  .  H  0  ?  ?  ?  0  12
+5HP  2HB  .  H  0  ?  ?  ?  0  13
+5HP  1HG  .  H  0  ?  ?  ?  0  14
+5HP  2HG  .  H  0  ?  ?  ?  0  15
+5HP  HXT  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5HP  N    CA   SING  1 
+5HP  N    CD   SING  2 
+5HP  N    H    SING  3 
+5HP  CA   C    SING  4 
+5HP  CA   CB   SING  5 
+5HP  CA   HA   SING  6 
+5HP  C    O    DOUB  7 
+5HP  C    OXT  SING  8 
+5HP  CB   CG   SING  9 
+5HP  CB   1HB  SING  10
+5HP  CB   2HB  SING  11
+5HP  CG   CD   SING  12
+5HP  CG   1HG  SING  13
+5HP  CG   2HG  SING  14
+5HP  CD   OD   DOUB  15
+5HP  OXT  HXT  SING  16
+#

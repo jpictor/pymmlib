@@ -1,0 +1,46 @@
+data_TOU
+#
+_chem_comp.id                   TOU
+_chem_comp.name                 THIOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H4 N2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        76.116
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TOU  C     .  C  0  2.105  -0.267  6.669  1  1
+TOU  S     .  S  0  1.707  -1.673  7.610  1  2
+TOU  N1    .  N  0  2.917  -0.347  5.670  1  3
+TOU  N2    .  N  0  1.585  0.888   6.948  1  4
+TOU  1HN1  .  H  0  ?      ?       ?      0  5
+TOU  2HN1  .  H  0  ?      ?       ?      0  6
+TOU  1HN2  .  H  0  ?      ?       ?      0  7
+TOU  2HN2  .  H  0  ?      ?       ?      0  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TOU  C   N1    SING  1
+TOU  C   S     DOUB  2
+TOU  C   N2    SING  3
+TOU  N1  1HN1  SING  4
+TOU  N1  2HN1  SING  5
+TOU  N2  1HN2  SING  6
+TOU  N2  2HN2  SING  7
+#

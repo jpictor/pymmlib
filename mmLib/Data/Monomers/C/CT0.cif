@@ -1,0 +1,90 @@
+data_CT0
+#
+_chem_comp.id                   CT0
+_chem_comp.name                 N1-CYCLOPENTYL-N2-(THIAZOL-2-YL)OXALAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N3 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        239.292
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CT0  O     .  O  0  8.148   -0.244  73.821  1  1 
+CT0  C1    .  C  0  8.305   -0.457  72.599  1  2 
+CT0  N2    .  N  0  9.215   0.270   71.847  1  3 
+CT0  C3    .  C  0  9.989   1.254   72.370  1  4 
+CT0  N     .  N  0  10.882  1.986   71.698  1  5 
+CT0  S     .  S  0  10.010  1.781   73.960  1  6 
+CT0  C5    .  C  0  11.168  2.965   73.820  1  7 
+CT0  C4    .  C  0  11.557  2.952   72.488  1  8 
+CT0  O2    .  O  0  7.644   -1.726  70.717  1  9 
+CT0  C6    .  C  0  7.494   -1.510  71.934  1  10
+CT0  N7    .  N  0  6.589   -2.228  72.677  1  11
+CT0  C8    .  C  0  5.752   -3.280  72.074  1  12
+CT0  C9    .  C  0  6.067   -4.738  72.458  1  13
+CT0  C10   .  C  0  4.249   -3.210  72.385  1  14
+CT0  C11   .  C  0  4.090   -3.981  73.704  1  15
+CT0  C12   .  C  0  5.270   -4.971  73.757  1  16
+CT0  HN2   .  H  0  ?       ?       ?       1  17
+CT0  H4    .  H  0  ?       ?       ?       1  18
+CT0  H5    .  H  0  ?       ?       ?       1  19
+CT0  HN7   .  H  0  ?       ?       ?       1  20
+CT0  H8    .  H  0  ?       ?       ?       1  21
+CT0  1H10  .  H  0  ?       ?       ?       0  22
+CT0  2H10  .  H  0  ?       ?       ?       0  23
+CT0  1H11  .  H  0  ?       ?       ?       0  24
+CT0  2H11  .  H  0  ?       ?       ?       0  25
+CT0  1H12  .  H  0  ?       ?       ?       0  26
+CT0  2H12  .  H  0  ?       ?       ?       0  27
+CT0  1H9   .  H  0  ?       ?       ?       0  28
+CT0  2H9   .  H  0  ?       ?       ?       0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CT0  O    C1    DOUB  1 
+CT0  C1   N2    SING  2 
+CT0  C1   C6    SING  3 
+CT0  N2   HN2   SING  4 
+CT0  N2   C3    SING  5 
+CT0  C3   N     DOUB  6 
+CT0  C3   S     SING  7 
+CT0  N    C4    SING  8 
+CT0  S    C5    SING  9 
+CT0  C5   C4    DOUB  10
+CT0  C5   H5    SING  11
+CT0  C4   H4    SING  12
+CT0  O2   C6    DOUB  13
+CT0  C6   N7    SING  14
+CT0  N7   HN7   SING  15
+CT0  N7   C8    SING  16
+CT0  C8   H8    SING  17
+CT0  C8   C10   SING  18
+CT0  C8   C9    SING  19
+CT0  C9   C12   SING  20
+CT0  C9   1H9   SING  21
+CT0  C9   2H9   SING  22
+CT0  C10  1H10  SING  23
+CT0  C10  2H10  SING  24
+CT0  C10  C11   SING  25
+CT0  C11  1H11  SING  26
+CT0  C11  2H11  SING  27
+CT0  C11  C12   SING  28
+CT0  C12  1H12  SING  29
+CT0  C12  2H12  SING  30
+#

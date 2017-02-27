@@ -1,0 +1,101 @@
+data_U25
+#
+_chem_comp.id                       U25
+_chem_comp.name                     URIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            324.183
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+U25  O3P   .  O  0  ?  ?  ?  1  1 
+U25  P     .  P  0  ?  ?  ?  1  2 
+U25  O1P   .  O  0  ?  ?  ?  1  3 
+U25  O2P   .  O  0  ?  ?  ?  1  4 
+U25  O5*   .  O  0  ?  ?  ?  1  5 
+U25  C5*   .  C  0  ?  ?  ?  1  6 
+U25  C4*   .  C  0  ?  ?  ?  1  7 
+U25  O4*   .  O  0  ?  ?  ?  1  8 
+U25  C3*   .  C  0  ?  ?  ?  1  9 
+U25  O3*   .  O  0  ?  ?  ?  1  10
+U25  C2*   .  C  0  ?  ?  ?  1  11
+U25  O2*   .  O  0  ?  ?  ?  1  12
+U25  C1*   .  C  0  ?  ?  ?  1  13
+U25  N1    .  N  0  ?  ?  ?  1  14
+U25  C2    .  C  0  ?  ?  ?  1  15
+U25  O2    .  O  0  ?  ?  ?  1  16
+U25  N3    .  N  0  ?  ?  ?  1  17
+U25  C4    .  C  0  ?  ?  ?  1  18
+U25  O4    .  O  0  ?  ?  ?  1  19
+U25  C5    .  C  0  ?  ?  ?  1  20
+U25  C6    .  C  0  ?  ?  ?  1  21
+U25  3HOP  .  H  0  ?  ?  ?  0  22
+U25  2HOP  .  H  0  ?  ?  ?  0  23
+U25  1H5*  .  H  0  ?  ?  ?  0  24
+U25  2H5*  .  H  0  ?  ?  ?  0  25
+U25  H4*   .  H  0  ?  ?  ?  1  26
+U25  H3*   .  H  0  ?  ?  ?  1  27
+U25  H2*   .  H  0  ?  ?  ?  1  28
+U25  2HO*  .  H  0  ?  ?  ?  0  29
+U25  H1*   .  H  0  ?  ?  ?  1  30
+U25  H3    .  H  0  ?  ?  ?  1  31
+U25  H5    .  H  0  ?  ?  ?  1  32
+U25  H6    .  H  0  ?  ?  ?  1  33
+U25  3HO*  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+U25  O3P  P     SING  1 
+U25  O3P  3HOP  SING  2 
+U25  P    O1P   DOUB  3 
+U25  P    O2P   SING  4 
+U25  P    O5*   SING  5 
+U25  O2P  2HOP  SING  6 
+U25  O5*  C5*   SING  7 
+U25  C5*  C4*   SING  8 
+U25  C5*  1H5*  SING  9 
+U25  C5*  2H5*  SING  10
+U25  C4*  O4*   SING  11
+U25  C4*  C3*   SING  12
+U25  C4*  H4*   SING  13
+U25  O4*  C1*   SING  14
+U25  C3*  O3*   SING  15
+U25  C3*  C2*   SING  16
+U25  C3*  H3*   SING  17
+U25  O3*  3HO*  SING  18
+U25  C2*  O2*   SING  19
+U25  C2*  C1*   SING  20
+U25  C2*  H2*   SING  21
+U25  O2*  2HO*  SING  22
+U25  C1*  N1    SING  23
+U25  C1*  H1*   SING  24
+U25  N1   C2    SING  25
+U25  N1   C6    SING  26
+U25  C2   O2    DOUB  27
+U25  C2   N3    SING  28
+U25  N3   C4    SING  29
+U25  N3   H3    SING  30
+U25  C4   O4    DOUB  31
+U25  C4   C5    SING  32
+U25  C5   C6    DOUB  33
+U25  C5   H5    SING  34
+U25  C6   H6    SING  35
+#

@@ -1,0 +1,123 @@
+data_K05
+#
+_chem_comp.id                   K05
+_chem_comp.name                 (E)-3,4-DIHYDROXY-N'-[(2-METHOXYNAPHTHALEN-1-YL)METHYLENE]BENZOHYDRAZIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H16 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        336.346
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          K05
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       COc1ccc2ccccc2c1CNNC(=O)c3ccc(c(c3)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+K05  N1    .  N  0  46.400  -25.472  18.136  1  N  1 
+K05  N2    .  N  0  46.978  -24.794  19.068  1  N  2 
+K05  C3    .  C  0  46.411  -24.761  20.447  1  N  3 
+K05  O3    .  O  0  45.157  -25.528  20.772  1  N  4 
+K05  C1*   .  C  0  47.086  -23.969  21.475  1  Y  5 
+K05  C2*   .  C  0  48.138  -22.960  21.187  1  Y  6 
+K05  C3*   .  C  0  48.747  -22.216  22.327  1  Y  7 
+K05  C4*   .  C  0  48.341  -22.458  23.690  1  Y  8 
+K05  C5*   .  C  0  47.301  -23.451  23.986  1  Y  9 
+K05  C6*   .  C  0  46.704  -24.178  22.893  1  Y  10
+K05  OH3   .  O  0  48.955  -21.731  24.673  1  N  11
+K05  OH4   .  O  0  49.712  -21.279  22.155  1  N  12
+K05  C11   .  C  0  46.673  -25.038  16.866  1  N  13
+K05  C12   .  C  0  46.119  -25.624  15.651  1  Y  14
+K05  C13   .  C  0  45.232  -24.694  14.847  1  Y  15
+K05  O13   .  O  0  45.050  -23.424  15.373  1  N  16
+K05  C14   .  C  0  44.588  -25.198  13.568  1  Y  17
+K05  C15   .  C  0  44.819  -26.527  13.079  1  Y  18
+K05  C25   .  C  0  45.658  -27.440  13.826  1  Y  19
+K05  C16   .  C  0  45.881  -28.803  13.301  1  Y  20
+K05  C17   .  C  0  46.731  -29.734  14.041  1  Y  21
+K05  C18   .  C  0  47.371  -29.283  15.284  1  Y  22
+K05  C19   .  C  0  47.196  -27.952  15.858  1  Y  23
+K05  C29   .  C  0  46.366  -26.991  15.159  1  Y  24
+K05  C10   .  C  0  44.254  -22.420  14.770  1  N  25
+K05  HN2   .  H  0  47.815  -24.285  18.864  1  N  26
+K05  H2*   .  H  0  48.455  -22.769  20.172  1  N  27
+K05  H5*   .  H  0  46.989  -23.634  25.004  1  N  28
+K05  H6*   .  H  0  45.942  -24.910  23.118  1  N  29
+K05  HOH3  .  H  0  49.097  -22.282  25.433  0  N  30
+K05  HOH4  .  H  0  49.781  -21.060  21.233  0  N  31
+K05  2H11  .  H  0  46.183  -24.053  16.869  0  N  32
+K05  H14   .  H  0  43.939  -24.539  13.011  1  N  33
+K05  H15   .  H  0  44.366  -26.847  12.152  1  N  34
+K05  H16   .  H  0  45.418  -29.110  12.375  1  N  35
+K05  H17   .  H  0  46.886  -30.740  13.679  1  N  36
+K05  H18   .  H  0  48.011  -29.979  15.806  1  N  37
+K05  H19   .  H  0  47.677  -27.688  16.788  1  N  38
+K05  1H10  .  H  0  44.048  -21.626  15.503  0  N  39
+K05  2H10  .  H  0  44.791  -21.994  13.909  0  N  40
+K05  3H10  .  H  0  43.305  -22.860  14.430  0  N  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+K05  N1   C11   DOUB  N  1 
+K05  N1   N2    SING  N  2 
+K05  N2   C3    SING  N  3 
+K05  N2   HN2   SING  N  4 
+K05  C3   O3    DOUB  N  5 
+K05  C3   C1*   SING  N  6 
+K05  C1*  C2*   DOUB  Y  7 
+K05  C1*  C6*   SING  Y  8 
+K05  C2*  C3*   SING  Y  9 
+K05  C2*  H2*   SING  N  10
+K05  C3*  OH4   SING  N  11
+K05  C3*  C4*   DOUB  Y  12
+K05  C4*  C5*   SING  Y  13
+K05  C4*  OH3   SING  N  14
+K05  C5*  C6*   DOUB  Y  15
+K05  C5*  H5*   SING  N  16
+K05  C6*  H6*   SING  N  17
+K05  OH3  HOH3  SING  N  18
+K05  OH4  HOH4  SING  N  19
+K05  C11  C12   SING  N  20
+K05  C11  2H11  SING  N  21
+K05  C12  C13   DOUB  Y  22
+K05  C12  C29   SING  Y  23
+K05  C13  C14   SING  Y  24
+K05  C13  O13   SING  N  25
+K05  O13  C10   SING  N  26
+K05  C14  C15   DOUB  Y  27
+K05  C14  H14   SING  N  28
+K05  C15  C25   SING  Y  29
+K05  C15  H15   SING  N  30
+K05  C25  C16   DOUB  Y  31
+K05  C25  C29   SING  Y  32
+K05  C16  C17   SING  Y  33
+K05  C16  H16   SING  N  34
+K05  C17  C18   DOUB  Y  35
+K05  C17  H17   SING  N  36
+K05  C18  C19   SING  Y  37
+K05  C18  H18   SING  N  38
+K05  C19  C29   DOUB  Y  39
+K05  C19  H19   SING  N  40
+K05  C10  1H10  SING  N  41
+K05  C10  2H10  SING  N  42
+K05  C10  3H10  SING  N  43
+#

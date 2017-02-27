@@ -1,0 +1,80 @@
+data_MTY
+#
+_chem_comp.id                       MTY
+_chem_comp.name                     META-TYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C9 H11 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            181.191
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTY  N    .  N  0  ?  ?  ?  1  1 
+MTY  CA   .  C  0  ?  ?  ?  1  2 
+MTY  CB   .  C  0  ?  ?  ?  1  3 
+MTY  CG   .  C  0  ?  ?  ?  1  4 
+MTY  CD1  .  C  0  ?  ?  ?  1  5 
+MTY  CE1  .  C  0  ?  ?  ?  1  6 
+MTY  CD2  .  C  0  ?  ?  ?  1  7 
+MTY  CE2  .  C  0  ?  ?  ?  1  8 
+MTY  CZ   .  C  0  ?  ?  ?  1  9 
+MTY  OH   .  O  0  ?  ?  ?  1  10
+MTY  C    .  C  0  ?  ?  ?  1  11
+MTY  O    .  O  0  ?  ?  ?  1  12
+MTY  OXT  .  O  0  ?  ?  ?  1  13
+MTY  1HN  .  H  0  ?  ?  ?  0  14
+MTY  2HN  .  H  0  ?  ?  ?  0  15
+MTY  HA   .  H  0  ?  ?  ?  1  16
+MTY  1HB  .  H  0  ?  ?  ?  0  17
+MTY  2HB  .  H  0  ?  ?  ?  0  18
+MTY  HD1  .  H  0  ?  ?  ?  1  19
+MTY  HE1  .  H  0  ?  ?  ?  1  20
+MTY  HD2  .  H  0  ?  ?  ?  1  21
+MTY  HZ   .  H  0  ?  ?  ?  1  22
+MTY  HOH  .  H  0  ?  ?  ?  1  23
+MTY  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTY  N    CA   SING  1 
+MTY  N    1HN  SING  2 
+MTY  N    2HN  SING  3 
+MTY  CA   CB   SING  4 
+MTY  CA   C    SING  5 
+MTY  CA   HA   SING  6 
+MTY  CB   CG   SING  7 
+MTY  CB   1HB  SING  8 
+MTY  CB   2HB  SING  9 
+MTY  CG   CD1  DOUB  10
+MTY  CG   CD2  SING  11
+MTY  CD1  CE1  SING  12
+MTY  CD1  HD1  SING  13
+MTY  CE1  CZ   DOUB  14
+MTY  CE1  HE1  SING  15
+MTY  CD2  CE2  DOUB  16
+MTY  CD2  HD2  SING  17
+MTY  CE2  CZ   SING  18
+MTY  CE2  OH   SING  19
+MTY  CZ   HZ   SING  20
+MTY  OH   HOH  SING  21
+MTY  C    O    DOUB  22
+MTY  C    OXT  SING  23
+MTY  OXT  HXT  SING  24
+#

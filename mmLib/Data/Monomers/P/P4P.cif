@@ -1,0 +1,124 @@
+data_P4P
+#
+_chem_comp.id                   P4P
+_chem_comp.name                 TETRAPHENYLPHOSPHONIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C24 H20 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       339.396
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P4P  P    .  P  1  ?  ?  ?  1  1 
+P4P  C1A  .  C  0  ?  ?  ?  1  2 
+P4P  C2A  .  C  0  ?  ?  ?  1  3 
+P4P  C3A  .  C  0  ?  ?  ?  1  4 
+P4P  C4A  .  C  0  ?  ?  ?  1  5 
+P4P  C5A  .  C  0  ?  ?  ?  1  6 
+P4P  C6A  .  C  0  ?  ?  ?  1  7 
+P4P  C1C  .  C  0  ?  ?  ?  1  8 
+P4P  C6C  .  C  0  ?  ?  ?  1  9 
+P4P  C5C  .  C  0  ?  ?  ?  1  10
+P4P  C4C  .  C  0  ?  ?  ?  1  11
+P4P  C3C  .  C  0  ?  ?  ?  1  12
+P4P  C2C  .  C  0  ?  ?  ?  1  13
+P4P  C1D  .  C  0  ?  ?  ?  1  14
+P4P  C6D  .  C  0  ?  ?  ?  1  15
+P4P  C5D  .  C  0  ?  ?  ?  1  16
+P4P  C4D  .  C  0  ?  ?  ?  1  17
+P4P  C3D  .  C  0  ?  ?  ?  1  18
+P4P  C2D  .  C  0  ?  ?  ?  1  19
+P4P  C6B  .  C  0  ?  ?  ?  1  20
+P4P  C5B  .  C  0  ?  ?  ?  1  21
+P4P  C4B  .  C  0  ?  ?  ?  1  22
+P4P  C3B  .  C  0  ?  ?  ?  1  23
+P4P  C2B  .  C  0  ?  ?  ?  1  24
+P4P  C1B  .  C  0  ?  ?  ?  1  25
+P4P  H2A  .  H  0  ?  ?  ?  1  26
+P4P  H3A  .  H  0  ?  ?  ?  1  27
+P4P  H4A  .  H  0  ?  ?  ?  1  28
+P4P  H5A  .  H  0  ?  ?  ?  1  29
+P4P  H6A  .  H  0  ?  ?  ?  1  30
+P4P  H6C  .  H  0  ?  ?  ?  1  31
+P4P  H5C  .  H  0  ?  ?  ?  1  32
+P4P  H4C  .  H  0  ?  ?  ?  1  33
+P4P  H3C  .  H  0  ?  ?  ?  1  34
+P4P  H2C  .  H  0  ?  ?  ?  1  35
+P4P  H6D  .  H  0  ?  ?  ?  1  36
+P4P  H5D  .  H  0  ?  ?  ?  1  37
+P4P  H4D  .  H  0  ?  ?  ?  1  38
+P4P  H3D  .  H  0  ?  ?  ?  1  39
+P4P  H2D  .  H  0  ?  ?  ?  1  40
+P4P  H6B  .  H  0  ?  ?  ?  1  41
+P4P  H5B  .  H  0  ?  ?  ?  1  42
+P4P  H4B  .  H  0  ?  ?  ?  1  43
+P4P  H3B  .  H  0  ?  ?  ?  1  44
+P4P  H2B  .  H  0  ?  ?  ?  1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P4P  P    C1A  SING  1 
+P4P  P    C1C  SING  2 
+P4P  P    C1D  SING  3 
+P4P  P    C1B  SING  4 
+P4P  C1A  C2A  SING  5 
+P4P  C1A  C6A  DOUB  6 
+P4P  C2A  C3A  DOUB  7 
+P4P  C2A  H2A  SING  8 
+P4P  C3A  C4A  SING  9 
+P4P  C3A  H3A  SING  10
+P4P  C4A  C5A  DOUB  11
+P4P  C4A  H4A  SING  12
+P4P  C5A  C6A  SING  13
+P4P  C5A  H5A  SING  14
+P4P  C6A  H6A  SING  15
+P4P  C1C  C6C  DOUB  16
+P4P  C1C  C2C  SING  17
+P4P  C6C  C5C  SING  18
+P4P  C6C  H6C  SING  19
+P4P  C5C  C4C  DOUB  20
+P4P  C5C  H5C  SING  21
+P4P  C4C  C3C  SING  22
+P4P  C4C  H4C  SING  23
+P4P  C3C  C2C  DOUB  24
+P4P  C3C  H3C  SING  25
+P4P  C2C  H2C  SING  26
+P4P  C1D  C6D  DOUB  27
+P4P  C1D  C2D  SING  28
+P4P  C6D  C5D  SING  29
+P4P  C6D  H6D  SING  30
+P4P  C5D  C4D  DOUB  31
+P4P  C5D  H5D  SING  32
+P4P  C4D  C3D  SING  33
+P4P  C4D  H4D  SING  34
+P4P  C3D  C2D  DOUB  35
+P4P  C3D  H3D  SING  36
+P4P  C2D  H2D  SING  37
+P4P  C6B  C5B  DOUB  38
+P4P  C6B  C1B  SING  39
+P4P  C6B  H6B  SING  40
+P4P  C5B  C4B  SING  41
+P4P  C5B  H5B  SING  42
+P4P  C4B  C3B  DOUB  43
+P4P  C4B  H4B  SING  44
+P4P  C3B  C2B  SING  45
+P4P  C3B  H3B  SING  46
+P4P  C2B  C1B  DOUB  47
+P4P  C2B  H2B  SING  48
+#

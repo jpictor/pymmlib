@@ -1,0 +1,108 @@
+data_BVP
+#
+_chem_comp.id                       BVP
+_chem_comp.name                     (E)-5-(2-BROMOVINYL)-2'-DEOXYURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H14 N2 O8 BR1 P1'
+_chem_comp.pdbx_synonyms            BVDU-MP
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            413.118
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BVP  O3*   .  O   0  84.775  22.905  52.971  1  1 
+BVP  C3*   .  C   0  84.840  22.493  54.336  1  2 
+BVP  C2*   .  C   0  84.298  23.528  55.308  1  3 
+BVP  C1*   .  C   0  82.802  23.279  55.231  1  4 
+BVP  O4*   .  O   0  82.642  21.899  54.864  1  5 
+BVP  C4*   .  C   0  83.919  21.324  54.502  1  6 
+BVP  C5*   .  C   0  84.304  20.323  55.603  1  7 
+BVP  O5*   .  O   0  85.635  19.808  55.408  1  8 
+BVP  P     .  P   0  86.816  19.964  56.535  1  9 
+BVP  O1P   .  O   0  86.394  20.980  57.539  1  10
+BVP  O2P   .  O   0  88.081  20.412  55.861  1  11
+BVP  O3P   .  O   0  87.057  18.680  57.202  1  12
+BVP  N1    .  N   0  81.985  23.534  56.504  1  13
+BVP  C6    .  C   0  82.142  22.736  57.644  1  14
+BVP  C5    .  C   0  81.364  22.995  58.842  1  15
+BVP  C5A   .  C   0  81.349  22.479  59.863  1  16
+BVP  C5B   .  C   0  80.719  21.296  60.218  1  17
+BVP  BR    .  BR  0  80.435  20.721  62.090  0  18
+BVP  C4    .  C   0  80.417  24.120  58.791  1  19
+BVP  O4    .  O   0  79.675  24.474  59.745  1  20
+BVP  N3    .  N   0  80.337  24.847  57.617  1  21
+BVP  C2    .  C   0  81.078  24.592  56.498  1  22
+BVP  O2    .  O   0  80.921  25.311  55.522  1  23
+BVP  H3*   .  H   0  ?       ?       ?       1  24
+BVP  H1    .  H   0  ?       ?       ?       1  25
+BVP  1H2*  .  H   0  ?       ?       ?       0  26
+BVP  2H2*  .  H   0  ?       ?       ?       0  27
+BVP  H1*   .  H   0  ?       ?       ?       1  28
+BVP  H4*   .  H   0  ?       ?       ?       1  29
+BVP  1H5*  .  H   0  ?       ?       ?       0  30
+BVP  2H5*  .  H   0  ?       ?       ?       0  31
+BVP  H2P   .  H   0  ?       ?       ?       1  32
+BVP  H3P   .  H   0  ?       ?       ?       1  33
+BVP  H6    .  H   0  ?       ?       ?       1  34
+BVP  H5A   .  H   0  ?       ?       ?       1  35
+BVP  H5B   .  H   0  ?       ?       ?       1  36
+BVP  HN3   .  H   0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BVP  O3*  H3*   SING  1 
+BVP  O3*  C3*   SING  2 
+BVP  C3*  H1    SING  3 
+BVP  C3*  C2*   SING  4 
+BVP  C3*  C4*   SING  5 
+BVP  C2*  1H2*  SING  6 
+BVP  C2*  2H2*  SING  7 
+BVP  C2*  C1*   SING  8 
+BVP  C1*  H1*   SING  9 
+BVP  C1*  O4*   SING  10
+BVP  C1*  N1    SING  11
+BVP  O4*  C4*   SING  12
+BVP  C4*  H4*   SING  13
+BVP  C4*  C5*   SING  14
+BVP  C5*  1H5*  SING  15
+BVP  C5*  2H5*  SING  16
+BVP  C5*  O5*   SING  17
+BVP  O5*  P     SING  18
+BVP  P    O1P   DOUB  19
+BVP  P    O2P   SING  20
+BVP  P    O3P   SING  21
+BVP  O2P  H2P   SING  22
+BVP  O3P  H3P   SING  23
+BVP  N1   C6    AROM  24
+BVP  N1   C2    AROM  25
+BVP  C6   H6    SING  26
+BVP  C6   C5    AROM  27
+BVP  C5   C5A   SING  28
+BVP  C5   C4    AROM  29
+BVP  C5A  H5A   SING  30
+BVP  C5A  C5B   DOUB  31
+BVP  C5B  H5B   SING  32
+BVP  C5B  BR    SING  33
+BVP  C4   O4    DOUB  34
+BVP  C4   N3    AROM  35
+BVP  N3   HN3   SING  36
+BVP  N3   C2    AROM  37
+BVP  C2   O2    DOUB  38
+#

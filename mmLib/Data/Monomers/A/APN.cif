@@ -1,0 +1,107 @@
+data_APN
+#
+_chem_comp.id                       APN
+_chem_comp.name                     2-AMINOETHYLGLYCINE-CARBONYLMETHYLENE-ADENINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N7 O3'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           294.293
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APN  C8'   .  C  0  ?  ?  ?  1  1 
+APN  C7'   .  C  0  ?  ?  ?  1  2 
+APN  O7'   .  O  0  ?  ?  ?  1  3 
+APN  C5'   .  C  0  ?  ?  ?  1  4 
+APN  C'    .  C  0  ?  ?  ?  1  5 
+APN  O1'   .  O  0  ?  ?  ?  1  6 
+APN  OXT   .  O  0  ?  ?  ?  1  7 
+APN  N4'   .  N  0  ?  ?  ?  1  8 
+APN  C3'   .  C  0  ?  ?  ?  1  9 
+APN  C2'   .  C  0  ?  ?  ?  1  10
+APN  N1'   .  N  1  ?  ?  ?  1  11
+APN  N9    .  N  0  ?  ?  ?  1  12
+APN  C8    .  C  0  ?  ?  ?  1  13
+APN  N7    .  N  0  ?  ?  ?  1  14
+APN  C5    .  C  0  ?  ?  ?  1  15
+APN  C6    .  C  0  ?  ?  ?  1  16
+APN  N6    .  N  0  ?  ?  ?  1  17
+APN  N1    .  N  0  ?  ?  ?  1  18
+APN  C2    .  C  0  ?  ?  ?  1  19
+APN  N3    .  N  0  ?  ?  ?  1  20
+APN  C4    .  C  0  ?  ?  ?  1  21
+APN  1H1'  .  H  0  ?  ?  ?  0  22
+APN  2H1'  .  H  0  ?  ?  ?  0  23
+APN  3H1'  .  H  0  ?  ?  ?  0  24
+APN  1H2'  .  H  0  ?  ?  ?  0  25
+APN  2H2'  .  H  0  ?  ?  ?  0  26
+APN  HXT   .  H  0  ?  ?  ?  1  27
+APN  1H3'  .  H  0  ?  ?  ?  0  28
+APN  2H3'  .  H  0  ?  ?  ?  0  29
+APN  1H5'  .  H  0  ?  ?  ?  0  30
+APN  2H5'  .  H  0  ?  ?  ?  0  31
+APN  1H8'  .  H  0  ?  ?  ?  0  32
+APN  2H8'  .  H  0  ?  ?  ?  0  33
+APN  H8    .  H  0  ?  ?  ?  1  34
+APN  1HN6  .  H  0  ?  ?  ?  0  35
+APN  2HN6  .  H  0  ?  ?  ?  0  36
+APN  H2    .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APN  C8'  C7'   SING  1 
+APN  C8'  N9    SING  2 
+APN  C8'  1H8'  SING  3 
+APN  C8'  2H8'  SING  4 
+APN  C7'  N4'   SING  5 
+APN  C7'  O7'   DOUB  6 
+APN  C5'  N4'   SING  7 
+APN  C5'  C'    SING  8 
+APN  C5'  1H5'  SING  9 
+APN  C5'  2H5'  SING  10
+APN  C'   O1'   DOUB  11
+APN  C'   OXT   SING  12
+APN  OXT  HXT   SING  13
+APN  N4'  C3'   SING  14
+APN  C3'  C2'   SING  15
+APN  C3'  1H3'  SING  16
+APN  C3'  2H3'  SING  17
+APN  C2'  N1'   SING  18
+APN  C2'  1H2'  SING  19
+APN  C2'  2H2'  SING  20
+APN  N1'  1H1'  SING  21
+APN  N1'  2H1'  SING  22
+APN  N1'  3H1'  SING  23
+APN  N9   C8    SING  24
+APN  N9   C4    SING  25
+APN  C8   N7    DOUB  26
+APN  C8   H8    SING  27
+APN  N7   C5    SING  28
+APN  C5   C6    SING  29
+APN  C5   C4    DOUB  30
+APN  C6   N6    SING  31
+APN  C6   N1    DOUB  32
+APN  N6   1HN6  SING  33
+APN  N6   2HN6  SING  34
+APN  N1   C2    SING  35
+APN  C2   N3    DOUB  36
+APN  C2   H2    SING  37
+APN  N3   C4    SING  38
+#

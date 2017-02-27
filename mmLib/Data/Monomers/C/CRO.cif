@@ -1,0 +1,112 @@
+data_CRO
+#
+_chem_comp.id                       CRO
+_chem_comp.name                     [2-(1-AMINO-2-HYDROXY-PROPYL)-4-(4-HYDROXY-BENZYLIDINE)-5-OXO-4,5-DIHYDRO-IMIDAZOL-1-YL]-ACETALDEHYDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H17 N3 O4'
+_chem_comp.pdbx_synonyms            'PEPTIDE DERIVED CHROMOPHORE'
+_chem_comp.mon_nstd_parent_comp_id  'GLY, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            303.317
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRO  N1    .  N  0  24.076  27.513  36.610  1  1 
+CRO  CA1   .  C  0  25.010  26.478  37.077  1  2 
+CRO  CB1   .  C  0  25.930  26.034  35.930  1  3 
+CRO  CG1   .  C  0  25.155  25.422  34.796  1  4 
+CRO  OG1   .  O  0  26.679  27.128  35.460  1  5 
+CRO  C1    .  C  0  25.729  27.106  38.244  1  6 
+CRO  N2    .  N  0  26.975  27.732  38.215  1  7 
+CRO  N3    .  N  0  25.274  27.124  39.508  1  8 
+CRO  C2    .  C  0  26.042  27.875  40.369  1  9 
+CRO  O2    .  O  0  26.021  27.961  41.566  1  10
+CRO  CA2   .  C  0  27.197  28.245  39.512  1  11
+CRO  CA3   .  C  0  23.919  26.721  39.841  1  12
+CRO  C3    .  C  0  23.745  25.326  40.360  1  13
+CRO  O3    .  O  0  22.885  25.115  41.193  1  14
+CRO  CB2   .  C  0  28.329  28.822  39.959  1  15
+CRO  CG2   .  C  0  29.437  29.370  39.124  1  16
+CRO  CD1   .  C  0  29.541  29.103  37.742  1  17
+CRO  CD2   .  C  0  30.486  30.110  39.805  1  18
+CRO  CE1   .  C  0  30.707  29.545  37.033  1  19
+CRO  CE2   .  C  0  31.614  30.562  39.084  1  20
+CRO  CZ    .  C  0  31.718  30.299  37.721  1  21
+CRO  OH    .  O  0  32.894  30.804  36.971  1  22
+CRO  1HN1  .  H  0  23.864  28.136  37.362  0  23
+CRO  2HN1  .  H  0  24.496  28.025  35.860  0  24
+CRO  HA1   .  H  0  24.519  25.549  37.403  1  25
+CRO  HB1   .  H  0  26.610  25.266  36.326  1  26
+CRO  1HG1  .  H  0  24.109  25.272  35.104  0  27
+CRO  2HG1  .  H  0  25.187  26.092  33.924  0  28
+CRO  3HG1  .  H  0  25.600  24.452  34.529  0  29
+CRO  HOG   .  H  0  26.847  27.728  36.178  1  30
+CRO  1HA3  .  H  0  23.559  27.405  40.624  0  31
+CRO  2HA3  .  H  0  23.359  26.756  38.895  0  32
+CRO  HC3   .  H  0  24.371  24.522  40.000  1  33
+CRO  HB2   .  H  0  28.446  28.895  41.031  1  34
+CRO  HD2   .  H  0  30.404  30.313  40.862  1  35
+CRO  HD1   .  H  0  28.754  28.572  37.225  1  36
+CRO  HE2   .  H  0  32.394  31.112  39.590  1  37
+CRO  HE1   .  H  0  30.824  29.313  35.984  1  38
+CRO  HH    .  H  0  32.663  30.911  36.055  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRO  N1   CA1   SING  1 
+CRO  N1   1HN1  SING  2 
+CRO  N1   2HN1  SING  3 
+CRO  CA1  CB1   SING  4 
+CRO  CA1  C1    SING  5 
+CRO  CA1  HA1   SING  6 
+CRO  CB1  CG1   SING  7 
+CRO  CB1  OG1   SING  8 
+CRO  CB1  HB1   SING  9 
+CRO  CG1  1HG1  SING  10
+CRO  CG1  2HG1  SING  11
+CRO  CG1  3HG1  SING  12
+CRO  OG1  HOG   SING  13
+CRO  C1   N2    DOUB  14
+CRO  C1   N3    SING  15
+CRO  N2   CA2   SING  16
+CRO  N3   C2    SING  17
+CRO  N3   CA3   SING  18
+CRO  C2   CA2   SING  19
+CRO  C2   O2    DOUB  20
+CRO  CA2  CB2   DOUB  21
+CRO  CA3  C3    SING  22
+CRO  CA3  1HA3  SING  23
+CRO  CA3  2HA3  SING  24
+CRO  C3   O3    DOUB  25
+CRO  C3   HC3   SING  26
+CRO  CB2  CG2   SING  27
+CRO  CB2  HB2   SING  28
+CRO  CG2  CD2   DOUB  29
+CRO  CG2  CD1   SING  30
+CRO  CD1  CE1   DOUB  31
+CRO  CD1  HD1   SING  32
+CRO  CD2  CE2   SING  33
+CRO  CD2  HD2   SING  34
+CRO  CE1  CZ    SING  35
+CRO  CE1  HE1   SING  36
+CRO  CE2  CZ    DOUB  37
+CRO  CE2  HE2   SING  38
+CRO  CZ   OH    SING  39
+CRO  OH   HH    SING  40
+#

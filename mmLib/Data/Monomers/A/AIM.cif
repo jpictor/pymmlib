@@ -1,0 +1,86 @@
+data_AIM
+#
+_chem_comp.id                   AIM
+_chem_comp.name                 4-(4-AMINO-CYCLOHEXYLIDENE)-4H-IMIDAZOL-2-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AIM  C01   .  C  0  ?  ?  ?  1  1 
+AIM  C02   .  C  0  ?  ?  ?  1  2 
+AIM  C03   .  C  0  ?  ?  ?  1  3 
+AIM  C04   .  C  0  ?  ?  ?  1  4 
+AIM  C05   .  C  0  ?  ?  ?  1  5 
+AIM  C06   .  C  0  ?  ?  ?  1  6 
+AIM  N20   .  N  0  ?  ?  ?  1  7 
+AIM  C22   .  C  0  ?  ?  ?  1  8 
+AIM  N23   .  N  0  ?  ?  ?  1  9 
+AIM  C24   .  C  0  ?  ?  ?  1  10
+AIM  N25   .  N  0  ?  ?  ?  1  11
+AIM  C26   .  C  0  ?  ?  ?  1  12
+AIM  N27   .  N  0  ?  ?  ?  1  13
+AIM  1H26  .  H  0  ?  ?  ?  0  14
+AIM  1HN2  .  H  0  ?  ?  ?  0  15
+AIM  2HN2  .  H  0  ?  ?  ?  0  16
+AIM  1HC4  .  H  0  ?  ?  ?  0  17
+AIM  2HC4  .  H  0  ?  ?  ?  0  18
+AIM  1HC3  .  H  0  ?  ?  ?  0  19
+AIM  2HC3  .  H  0  ?  ?  ?  0  20
+AIM  1HC2  .  H  0  ?  ?  ?  0  21
+AIM  1HC1  .  H  0  ?  ?  ?  0  22
+AIM  2HC1  .  H  0  ?  ?  ?  0  23
+AIM  1HC6  .  H  0  ?  ?  ?  0  24
+AIM  2HC6  .  H  0  ?  ?  ?  0  25
+AIM  1HN1  .  H  0  ?  ?  ?  0  26
+AIM  2HN1  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AIM  C01  C02   SING  1 
+AIM  C01  C06   SING  2 
+AIM  C01  1HC1  SING  3 
+AIM  C01  2HC1  SING  4 
+AIM  C02  C03   SING  5 
+AIM  C02  N20   SING  6 
+AIM  C02  1HC2  SING  7 
+AIM  C03  C04   SING  8 
+AIM  C03  1HC3  SING  9 
+AIM  C03  2HC3  SING  10
+AIM  C04  C05   SING  11
+AIM  C04  1HC4  SING  12
+AIM  C04  2HC4  SING  13
+AIM  C05  C06   SING  14
+AIM  C05  C22   DOUB  15
+AIM  C06  1HC6  SING  16
+AIM  C06  2HC6  SING  17
+AIM  N20  1HN1  SING  18
+AIM  N20  2HN1  SING  19
+AIM  C22  N23   SING  20
+AIM  C22  C26   SING  21
+AIM  N23  C24   DOUB  22
+AIM  C24  N25   SING  23
+AIM  C24  N27   SING  24
+AIM  N25  C26   DOUB  25
+AIM  C26  1H26  SING  26
+AIM  N27  1HN2  SING  27
+AIM  N27  2HN2  SING  28
+#

@@ -1,0 +1,62 @@
+data_IZC
+#
+_chem_comp.id                   IZC
+_chem_comp.name                 '2H-IMIDAZOL-4-YLACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H6 N2 O2'
+_chem_comp.pdbx_synonyms        'IMIDAZOLE-4-ACETIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        126.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IZC  O1   .  O  0  26.346  22.651  -25.045  1  1 
+IZC  O2   .  O  0  27.221  24.663  -25.743  1  2 
+IZC  N1   .  N  0  28.174  26.781  -21.707  1  3 
+IZC  N3   .  N  0  29.245  25.957  -23.346  1  4 
+IZC  C2   .  C  0  29.171  27.004  -22.536  1  5 
+IZC  C4   .  C  0  28.237  25.001  -23.023  1  6 
+IZC  C5   .  C  0  27.581  25.534  -21.997  1  7 
+IZC  C6   .  C  0  28.019  23.678  -23.738  1  8 
+IZC  C7   .  C  0  27.132  23.690  -24.950  1  9 
+IZC  HO1  .  H  0  ?       ?       ?        1  10
+IZC  1H6  .  H  0  ?       ?       ?        0  11
+IZC  2H6  .  H  0  ?       ?       ?        0  12
+IZC  1H2  .  H  0  ?       ?       ?        0  13
+IZC  2H2  .  H  0  ?       ?       ?        0  14
+IZC  H5   .  H  0  ?       ?       ?        1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IZC  O1  HO1  SING  1 
+IZC  O1  C7   SING  2 
+IZC  O2  C7   DOUB  3 
+IZC  N1  C2   SING  4 
+IZC  N1  C5   DOUB  5 
+IZC  N3  C4   DOUB  6 
+IZC  N3  C2   SING  7 
+IZC  C2  1H2  SING  8 
+IZC  C2  2H2  SING  9 
+IZC  C4  C6   SING  10
+IZC  C4  C5   SING  11
+IZC  C5  H5   SING  12
+IZC  C6  C7   SING  13
+IZC  C6  1H6  SING  14
+IZC  C6  2H6  SING  15
+#

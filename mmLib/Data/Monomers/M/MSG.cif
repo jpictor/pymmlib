@@ -1,0 +1,105 @@
+data_MSG
+#
+_chem_comp.id                   MSG
+_chem_comp.name                 7-METHYL-6-THIO-GUANOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N5 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        313.331
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSG  O5*   .  O  0   50.949  49.239  29.776  1  1 
+MSG  C5*   .  C  0   50.393  48.757  31.036  1  2 
+MSG  C4*   .  C  0   50.612  47.255  31.272  1  3 
+MSG  O4*   .  O  0   50.382  46.771  29.897  1  4 
+MSG  C1*   .  C  0   51.614  46.207  29.244  1  5 
+MSG  N9    .  N  0   51.939  46.995  28.052  1  6 
+MSG  C8    .  C  0   51.083  47.847  27.417  1  7 
+MSG  N7    .  N  1   51.763  48.443  26.281  1  8 
+MSG  C1    .  C  0   51.071  48.113  25.034  1  9 
+MSG  C5    .  C  0   53.043  47.882  26.310  1  10
+MSG  C6    .  C  0   54.125  48.171  25.360  1  11
+MSG  S6    .  S  -1  54.069  49.301  23.954  1  12
+MSG  N1    .  N  0   55.280  47.425  25.699  1  13
+MSG  C2    .  C  0   55.386  46.535  26.774  1  14
+MSG  N2    .  N  0   56.640  45.825  27.005  1  15
+MSG  N3    .  N  0   54.332  46.330  27.598  1  16
+MSG  C4    .  C  0   53.194  47.018  27.334  1  17
+MSG  C2*   .  C  0   52.719  46.191  30.295  1  18
+MSG  O2*   .  O  0   53.168  44.804  30.438  1  19
+MSG  C3*   .  C  0   52.083  46.789  31.633  1  20
+MSG  O3*   .  O  0   52.112  45.750  32.699  1  21
+MSG  1H1   .  H  0   ?       ?       ?       0  22
+MSG  2H1   .  H  0   ?       ?       ?       0  23
+MSG  3H1   .  H  0   ?       ?       ?       0  24
+MSG  H8    .  H  0   ?       ?       ?       1  25
+MSG  1HN2  .  H  0   ?       ?       ?       0  26
+MSG  2HN2  .  H  0   ?       ?       ?       0  27
+MSG  H1*   .  H  0   ?       ?       ?       1  28
+MSG  H4*   .  H  0   ?       ?       ?       1  29
+MSG  1H5*  .  H  0   ?       ?       ?       0  30
+MSG  2H5*  .  H  0   ?       ?       ?       0  31
+MSG  H5*   .  H  0   ?       ?       ?       1  32
+MSG  H3*   .  H  0   ?       ?       ?       1  33
+MSG  H1    .  H  0   ?       ?       ?       1  34
+MSG  H2*   .  H  0   ?       ?       ?       1  35
+MSG  H2    .  H  0   ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSG  O5*  C5*   SING  1 
+MSG  O5*  H5*   SING  2 
+MSG  C5*  C4*   SING  3 
+MSG  C5*  1H5*  SING  4 
+MSG  C5*  2H5*  SING  5 
+MSG  C4*  O4*   SING  6 
+MSG  C4*  C3*   SING  7 
+MSG  C4*  H4*   SING  8 
+MSG  O4*  C1*   SING  9 
+MSG  C1*  N9    SING  10
+MSG  C1*  C2*   SING  11
+MSG  C1*  H1*   SING  12
+MSG  N9   C8    SING  13
+MSG  N9   C4    SING  14
+MSG  C8   N7    DOUB  15
+MSG  C8   H8    SING  16
+MSG  N7   C1    SING  17
+MSG  N7   C5    SING  18
+MSG  C1   1H1   SING  19
+MSG  C1   2H1   SING  20
+MSG  C1   3H1   SING  21
+MSG  C5   C6    SING  22
+MSG  C5   C4    DOUB  23
+MSG  C6   N1    DOUB  24
+MSG  C6   S6    SING  25
+MSG  N1   C2    SING  26
+MSG  C2   N3    DOUB  27
+MSG  C2   N2    SING  28
+MSG  N2   1HN2  SING  29
+MSG  N2   2HN2  SING  30
+MSG  N3   C4    SING  31
+MSG  C2*  C3*   SING  32
+MSG  C2*  O2*   SING  33
+MSG  C2*  H2*   SING  34
+MSG  O2*  H2    SING  35
+MSG  C3*  O3*   SING  36
+MSG  C3*  H3*   SING  37
+MSG  O3*  H1    SING  38
+#

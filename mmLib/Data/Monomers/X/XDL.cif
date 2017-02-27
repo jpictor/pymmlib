@@ -1,0 +1,66 @@
+data_XDL
+#
+_chem_comp.id                   XDL
+_chem_comp.name                 'XYLOSE-DERIVED ISOFAGOMINE LACTAM'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1 O2'
+_chem_comp.pdbx_synonyms        (3S)-3-HYDROXYPIPERIDIN-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        115.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XDL  N1    .  N  0  8.932   26.122  .731   1  1 
+XDL  C2    .  C  0  9.8     26.51   1.668  1  2 
+XDL  C3    .  C  0  9.995   25.613  2.92   1  3 
+XDL  O3    .  O  0  10.126  26.427  4.079  1  4 
+XDL  C4    .  C  0  8.909   24.535  3.08   1  5 
+XDL  C5    .  C  0  8.714   23.869  1.727  1  6 
+XDL  C6    .  C  0  8.212   24.861  .694   1  7 
+XDL  O2    .  O  0  10.502  27.629  1.572  1  8 
+XDL  H1    .  H  0  8.762   26.758  -.015  1  9 
+XDL  1H6C  .  H  0  7.147   25.058  .884   0  10
+XDL  2H6C  .  H  0  8.372   24.416  -.299  0  11
+XDL  H3    .  H  0  10.927  25.046  2.778  1  12
+XDL  HA    .  H  0  9.227   26.666  4.419  1  13
+XDL  1H4C  .  H  0  9.229   23.789  3.822  0  14
+XDL  2H4C  .  H  0  7.967   24.986  3.426  0  15
+XDL  1H5C  .  H  0  7.98    23.056  1.83   0  16
+XDL  2H5C  .  H  0  9.684   23.476  1.389  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XDL  N1  C2    SING  1 
+XDL  N1  C6    SING  2 
+XDL  N1  H1    SING  3 
+XDL  C2  C3    SING  4 
+XDL  C2  O2    DOUB  5 
+XDL  C3  O3    SING  6 
+XDL  C3  C4    SING  7 
+XDL  C3  H3    SING  8 
+XDL  O3  HA    SING  9 
+XDL  C4  C5    SING  10
+XDL  C4  1H4C  SING  11
+XDL  C4  2H4C  SING  12
+XDL  C5  C6    SING  13
+XDL  C5  1H5C  SING  14
+XDL  C5  2H5C  SING  15
+XDL  C6  1H6C  SING  16
+XDL  C6  2H6C  SING  17
+#

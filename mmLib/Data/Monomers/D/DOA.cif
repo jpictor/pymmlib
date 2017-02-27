@@ -1,0 +1,110 @@
+data_DOA
+#
+_chem_comp.id                   DOA
+_chem_comp.name                 '12-AMINO-DODECANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H25 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.335
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DOA  N     .  N  0  ?  ?  ?  1  1 
+DOA  CA    .  C  0  ?  ?  ?  1  2 
+DOA  C2    .  C  0  ?  ?  ?  1  3 
+DOA  C3    .  C  0  ?  ?  ?  1  4 
+DOA  C4    .  C  0  ?  ?  ?  1  5 
+DOA  C5    .  C  0  ?  ?  ?  1  6 
+DOA  C6    .  C  0  ?  ?  ?  1  7 
+DOA  C7    .  C  0  ?  ?  ?  1  8 
+DOA  C8    .  C  0  ?  ?  ?  1  9 
+DOA  C9    .  C  0  ?  ?  ?  1  10
+DOA  C10   .  C  0  ?  ?  ?  1  11
+DOA  CA2   .  C  0  ?  ?  ?  1  12
+DOA  C     .  C  0  ?  ?  ?  1  13
+DOA  O     .  O  0  ?  ?  ?  1  14
+DOA  OXT   .  O  0  ?  ?  ?  1  15
+DOA  H     .  H  0  ?  ?  ?  1  16
+DOA  1HA   .  H  0  ?  ?  ?  0  17
+DOA  2HA   .  H  0  ?  ?  ?  0  18
+DOA  HN2   .  H  0  ?  ?  ?  1  19
+DOA  1H2   .  H  0  ?  ?  ?  0  20
+DOA  2H2   .  H  0  ?  ?  ?  0  21
+DOA  1H3   .  H  0  ?  ?  ?  0  22
+DOA  2H3   .  H  0  ?  ?  ?  0  23
+DOA  1H4   .  H  0  ?  ?  ?  0  24
+DOA  2H4   .  H  0  ?  ?  ?  0  25
+DOA  1H5   .  H  0  ?  ?  ?  0  26
+DOA  2H5   .  H  0  ?  ?  ?  0  27
+DOA  1H6   .  H  0  ?  ?  ?  0  28
+DOA  2H6   .  H  0  ?  ?  ?  0  29
+DOA  1H7   .  H  0  ?  ?  ?  0  30
+DOA  2H7   .  H  0  ?  ?  ?  0  31
+DOA  1H8   .  H  0  ?  ?  ?  0  32
+DOA  2H8   .  H  0  ?  ?  ?  0  33
+DOA  1H9   .  H  0  ?  ?  ?  0  34
+DOA  2H9   .  H  0  ?  ?  ?  0  35
+DOA  1H10  .  H  0  ?  ?  ?  0  36
+DOA  2H10  .  H  0  ?  ?  ?  0  37
+DOA  1HA2  .  H  0  ?  ?  ?  0  38
+DOA  2HA2  .  H  0  ?  ?  ?  0  39
+DOA  HXT   .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DOA  N    H     SING  1 
+DOA  N    CA    SING  2 
+DOA  N    HN2   SING  3 
+DOA  CA   C2    SING  4 
+DOA  CA   1HA   SING  5 
+DOA  CA   2HA   SING  6 
+DOA  C2   C3    SING  7 
+DOA  C2   1H2   SING  8 
+DOA  C2   2H2   SING  9 
+DOA  C3   C4    SING  10
+DOA  C3   1H3   SING  11
+DOA  C3   2H3   SING  12
+DOA  C4   C5    SING  13
+DOA  C4   1H4   SING  14
+DOA  C4   2H4   SING  15
+DOA  C5   C6    SING  16
+DOA  C5   1H5   SING  17
+DOA  C5   2H5   SING  18
+DOA  C6   C7    SING  19
+DOA  C6   1H6   SING  20
+DOA  C6   2H6   SING  21
+DOA  C7   C8    SING  22
+DOA  C7   1H7   SING  23
+DOA  C7   2H7   SING  24
+DOA  C8   C9    SING  25
+DOA  C8   1H8   SING  26
+DOA  C8   2H8   SING  27
+DOA  C9   C10   SING  28
+DOA  C9   1H9   SING  29
+DOA  C9   2H9   SING  30
+DOA  C10  CA2   SING  31
+DOA  C10  1H10  SING  32
+DOA  C10  2H10  SING  33
+DOA  CA2  C     SING  34
+DOA  CA2  1HA2  SING  35
+DOA  CA2  2HA2  SING  36
+DOA  C    O     DOUB  37
+DOA  C    OXT   SING  38
+DOA  OXT  HXT   SING  39
+#

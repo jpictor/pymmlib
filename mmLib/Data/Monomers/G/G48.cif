@@ -1,0 +1,130 @@
+data_G48
+#
+_chem_comp.id                       G48
+_chem_comp.name                     2'-O-METHYOXYETHYL-GUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H20 N5 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            421.303
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G48  P     .  P  0  16.744  8.116  18.003  1  1 
+G48  O1P   .  O  0  18.083  8.085  18.638  1  2 
+G48  O2P   .  O  0  16.519  7.351  16.758  1  3 
+G48  O3P   .  O  0  16.370  9.683  17.839  1  4 
+G48  O5*   .  O  0  15.711  7.574  19.076  1  5 
+G48  C5*   .  C  0  15.658  8.165  20.375  1  6 
+G48  C4*   .  C  0  14.627  7.470  21.216  1  7 
+G48  O4*   .  O  0  13.298  7.835  20.782  1  8 
+G48  C3*   .  C  0  14.633  5.951  21.153  1  9 
+G48  O3*   .  O  0  15.631  5.390  21.980  1  10
+G48  C2*   .  C  0  13.216  5.599  21.598  1  11
+G48  O2*   .  O  0  13.087  5.631  23.012  1  12
+G48  C1*   .  C  0  12.423  6.735  20.958  1  13
+G48  N9    .  N  0  11.910  6.359  19.645  1  14
+G48  C8    .  C  0  12.406  6.724  18.416  1  15
+G48  N7    .  N  0  11.700  6.257  17.421  1  16
+G48  C5    .  C  0  10.675  5.541  18.038  1  17
+G48  C6    .  C  0  9.571   4.826  17.482  1  18
+G48  O6    .  O  0  9.250   4.700  16.299  1  19
+G48  N1    .  N  0  8.792   4.230  18.472  1  20
+G48  C2    .  C  0  9.020   4.316  19.821  1  21
+G48  N2    .  N  0  8.156   3.651  20.614  1  22
+G48  N3    .  N  0  10.024  4.998  20.354  1  23
+G48  C4    .  C  0  10.807  5.580  19.409  1  24
+G48  CA*   .  C  0  11.778  5.533  23.572  1  25
+G48  CB*   .  C  0  11.876  5.617  25.062  1  26
+G48  OC*   .  O  0  13.068  6.348  25.448  1  27
+G48  CD*   .  C  0  12.807  7.079  26.664  1  28
+G48  1H5*  .  H  0  15.484  9.265  20.326  0  29
+G48  2H5*  .  H  0  16.658  8.179  20.868  0  30
+G48  H4*   .  H  0  14.757  7.786  22.277  1  31
+G48  H3*   .  H  0  14.789  5.620  20.100  1  32
+G48  H1*   .  H  0  11.578  7.028  21.624  1  33
+G48  HA    .  H  0  15.635  4.441  21.941  1  34
+G48  H2*   .  H  0  12.901  4.611  21.189  1  35
+G48  1HA*  .  H  0  11.239  4.617  23.233  0  36
+G48  2HA*  .  H  0  11.078  6.291  23.150  0  37
+G48  H8    .  H  0  13.307  7.347  18.284  1  38
+G48  H1    .  H  0  7.985   3.685  18.168  1  39
+G48  1H2N  .  H  0  8.326   3.715  21.618  0  40
+G48  2H2N  .  H  0  7.384   3.126  20.204  0  41
+G48  1HB*  .  H  0  11.833  4.610  25.539  0  42
+G48  2HB*  .  H  0  10.956  6.054  25.515  0  43
+G48  1HD*  .  H  0  13.723  7.641  26.961  0  44
+G48  2HD*  .  H  0  12.433  6.419  27.481  0  45
+G48  3HD*  .  H  0  11.915  7.742  26.575  0  46
+G48  H1P   .  H  0  ?       ?      ?       1  47
+G48  H3P   .  H  0  ?       ?      ?       1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G48  P    O1P   SING  1 
+G48  P    O2P   DOUB  2 
+G48  P    O3P   SING  3 
+G48  P    O5*   SING  4 
+G48  O1P  H1P   SING  5 
+G48  O3P  H3P   SING  6 
+G48  O5*  C5*   SING  7 
+G48  C5*  C4*   SING  8 
+G48  C5*  1H5*  SING  9 
+G48  C5*  2H5*  SING  10
+G48  C4*  O4*   SING  11
+G48  C4*  C3*   SING  12
+G48  C4*  H4*   SING  13
+G48  O4*  C1*   SING  14
+G48  C3*  O3*   SING  15
+G48  C3*  C2*   SING  16
+G48  C3*  H3*   SING  17
+G48  O3*  HA    SING  18
+G48  C2*  O2*   SING  19
+G48  C2*  C1*   SING  20
+G48  C2*  H2*   SING  21
+G48  O2*  CA*   SING  22
+G48  C1*  N9    SING  23
+G48  C1*  H1*   SING  24
+G48  N9   C8    SING  25
+G48  N9   C4    SING  26
+G48  C8   N7    DOUB  27
+G48  C8   H8    SING  28
+G48  N7   C5    SING  29
+G48  C5   C6    SING  30
+G48  C5   C4    DOUB  31
+G48  C6   O6    DOUB  32
+G48  C6   N1    SING  33
+G48  N1   C2    SING  34
+G48  N1   H1    SING  35
+G48  C2   N2    SING  36
+G48  C2   N3    DOUB  37
+G48  N2   1H2N  SING  38
+G48  N2   2H2N  SING  39
+G48  N3   C4    SING  40
+G48  CA*  CB*   SING  41
+G48  CA*  1HA*  SING  42
+G48  CA*  2HA*  SING  43
+G48  CB*  OC*   SING  44
+G48  CB*  1HB*  SING  45
+G48  CB*  2HB*  SING  46
+G48  OC*  CD*   SING  47
+G48  CD*  1HD*  SING  48
+G48  CD*  2HD*  SING  49
+G48  CD*  3HD*  SING  50
+#

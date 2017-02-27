@@ -1,0 +1,98 @@
+data_EPQ
+#
+_chem_comp.id                   EPQ
+_chem_comp.name                 (4S,5R)-4-AMINO-5-HYDROXY-N,N-DIMETHYLHEXANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.242
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          EPQ
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@H]([C@H](CCC(=O)N(C)C)N)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+EPQ  NQ    .  N  0  -5.335  -3.591  35.339  1  N  1 
+EPQ  CQA   .  C  0  -5.898  -2.281  35.612  1  N  2 
+EPQ  CQB   .  C  0  -5.538  -1.840  37.025  1  N  3 
+EPQ  CC    .  C  0  -5.302  -1.312  34.624  1  N  4 
+EPQ  CMK   .  C  0  -4.813  -1.623  33.175  1  N  5 
+EPQ  OE1   .  O  0  -5.389  -1.460  39.641  1  N  6 
+EPQ  CD    .  C  0  -6.447  -1.965  39.273  1  N  7 
+EPQ  CG    .  C  0  -6.786  -2.052  37.815  1  N  8 
+EPQ  NE2   .  N  0  -7.362  -2.468  40.113  1  N  9 
+EPQ  CH1   .  C  0  -8.620  -3.070  39.673  1  N  10
+EPQ  CH2   .  C  0  -7.199  -2.471  41.559  1  N  11
+EPQ  OQ    .  O  0  -5.717  0.090   34.618  1  N  12
+EPQ  1HNQ  .  H  0  -5.206  -3.700  34.353  0  N  13
+EPQ  2HNQ  .  H  0  -4.453  -3.678  35.802  0  N  14
+EPQ  HQA   .  H  0  -6.994  -2.313  35.522  1  N  15
+EPQ  1HQB  .  H  0  -4.708  -2.438  37.428  0  N  16
+EPQ  2HQB  .  H  0  -5.198  -0.795  37.059  0  N  17
+EPQ  HC    .  H  0  -4.452  -1.583  35.267  1  N  18
+EPQ  1HMK  .  H  0  -5.680  -1.696  32.503  0  N  19
+EPQ  2HMK  .  H  0  -4.150  -0.816  32.831  0  N  20
+EPQ  3HMK  .  H  0  -4.264  -2.576  33.170  0  N  21
+EPQ  1HG   .  H  0  -7.525  -1.279  37.558  0  N  22
+EPQ  2HG   .  H  0  -7.213  -3.040  37.586  0  N  23
+EPQ  1HH1  .  H  0  -9.278  -3.221  40.541  0  N  24
+EPQ  2HH1  .  H  0  -9.113  -2.402  38.951  0  N  25
+EPQ  3HH1  .  H  0  -8.415  -4.040  39.196  0  N  26
+EPQ  1HH2  .  H  0  -6.127  -2.472  41.808  0  N  27
+EPQ  2HH2  .  H  0  -7.673  -1.574  41.983  0  N  28
+EPQ  3HH2  .  H  0  -7.673  -3.370  41.979  0  N  29
+EPQ  HOQ   .  H  0  -5.807  0.398   35.512  1  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+EPQ  NQ   CQA   SING  N  1 
+EPQ  NQ   1HNQ  SING  N  2 
+EPQ  NQ   2HNQ  SING  N  3 
+EPQ  CQA  CQB   SING  N  4 
+EPQ  CQA  CC    SING  N  5 
+EPQ  CQA  HQA   SING  N  6 
+EPQ  CQB  CG    SING  N  7 
+EPQ  CQB  1HQB  SING  N  8 
+EPQ  CQB  2HQB  SING  N  9 
+EPQ  CC   CMK   SING  N  10
+EPQ  CC   OQ    SING  N  11
+EPQ  CC   HC    SING  N  12
+EPQ  CMK  1HMK  SING  N  13
+EPQ  CMK  2HMK  SING  N  14
+EPQ  CMK  3HMK  SING  N  15
+EPQ  OE1  CD    DOUB  N  16
+EPQ  CD   CG    SING  N  17
+EPQ  CD   NE2   SING  N  18
+EPQ  CG   1HG   SING  N  19
+EPQ  CG   2HG   SING  N  20
+EPQ  NE2  CH1   SING  N  21
+EPQ  NE2  CH2   SING  N  22
+EPQ  CH1  1HH1  SING  N  23
+EPQ  CH1  2HH1  SING  N  24
+EPQ  CH1  3HH1  SING  N  25
+EPQ  CH2  1HH2  SING  N  26
+EPQ  CH2  2HH2  SING  N  27
+EPQ  CH2  3HH2  SING  N  28
+EPQ  OQ   HOQ   SING  N  29
+#

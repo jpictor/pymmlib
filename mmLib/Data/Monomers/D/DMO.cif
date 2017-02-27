@@ -1,0 +1,78 @@
+data_DMO
+#
+_chem_comp.id                   DMO
+_chem_comp.name                 ALPHA-DIFLUOROMETHYLORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 N2 O2 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        182.170
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMO  CAO   .  C  0  ?  ?  ?  1  1 
+DMO  CO    .  C  0  ?  ?  ?  1  2 
+DMO  NO    .  N  0  ?  ?  ?  1  3 
+DMO  CBO   .  C  0  ?  ?  ?  1  4 
+DMO  CGO   .  C  0  ?  ?  ?  1  5 
+DMO  CDO   .  C  0  ?  ?  ?  1  6 
+DMO  NEO   .  N  0  ?  ?  ?  1  7 
+DMO  C     .  C  0  ?  ?  ?  1  8 
+DMO  O     .  O  0  ?  ?  ?  1  9 
+DMO  OH    .  O  0  ?  ?  ?  1  10
+DMO  F1    .  F  0  ?  ?  ?  1  11
+DMO  F2    .  F  0  ?  ?  ?  1  12
+DMO  1HEO  .  H  0  ?  ?  ?  0  13
+DMO  2HEO  .  H  0  ?  ?  ?  0  14
+DMO  1HDO  .  H  0  ?  ?  ?  0  15
+DMO  2HDO  .  H  0  ?  ?  ?  0  16
+DMO  1HGO  .  H  0  ?  ?  ?  0  17
+DMO  2HGO  .  H  0  ?  ?  ?  0  18
+DMO  1HBO  .  H  0  ?  ?  ?  0  19
+DMO  2HBO  .  H  0  ?  ?  ?  0  20
+DMO  1HCO  .  H  0  ?  ?  ?  0  21
+DMO  1HNO  .  H  0  ?  ?  ?  0  22
+DMO  2HNO  .  H  0  ?  ?  ?  0  23
+DMO  HXT   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMO  CAO  CO    SING  1 
+DMO  CAO  NO    SING  2 
+DMO  CAO  CBO   SING  3 
+DMO  CAO  C     SING  4 
+DMO  CO   1HCO  SING  5 
+DMO  CO   F1    SING  6 
+DMO  CO   F2    SING  7 
+DMO  NO   1HNO  SING  8 
+DMO  NO   2HNO  SING  9 
+DMO  CBO  CGO   SING  10
+DMO  CBO  1HBO  SING  11
+DMO  CBO  2HBO  SING  12
+DMO  CGO  CDO   SING  13
+DMO  CGO  1HGO  SING  14
+DMO  CGO  2HGO  SING  15
+DMO  CDO  NEO   SING  16
+DMO  CDO  1HDO  SING  17
+DMO  CDO  2HDO  SING  18
+DMO  NEO  1HEO  SING  19
+DMO  NEO  2HEO  SING  20
+DMO  C    O     DOUB  21
+DMO  C    OH    SING  22
+DMO  OH   HXT   SING  23
+#

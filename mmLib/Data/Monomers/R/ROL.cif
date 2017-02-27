@@ -1,0 +1,116 @@
+data_ROL
+#
+_chem_comp.id                   ROL
+_chem_comp.name                 ROLIPRAM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H21 N1 O3'
+_chem_comp.pdbx_synonyms        (4R)-4-[3-(CYCLOPENTYLOXY)-4-METHOXYPHENYL]-2-PYRROLIDINONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        275.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ROL  C5    .  C  0  ?  ?  ?  1  1 
+ROL  C6    .  C  0  ?  ?  ?  1  2 
+ROL  C7    .  C  0  ?  ?  ?  1  3 
+ROL  C8    .  C  0  ?  ?  ?  1  4 
+ROL  C9    .  C  0  ?  ?  ?  1  5 
+ROL  C10   .  C  0  ?  ?  ?  1  6 
+ROL  C3    .  C  0  ?  ?  ?  1  7 
+ROL  C2    .  C  0  ?  ?  ?  1  8 
+ROL  C1    .  C  0  ?  ?  ?  1  9 
+ROL  O1    .  O  0  ?  ?  ?  1  10
+ROL  N1    .  N  0  ?  ?  ?  1  11
+ROL  C4    .  C  0  ?  ?  ?  1  12
+ROL  O3    .  O  0  ?  ?  ?  1  13
+ROL  C11   .  C  0  ?  ?  ?  1  14
+ROL  C15   .  C  0  ?  ?  ?  1  15
+ROL  C14   .  C  0  ?  ?  ?  1  16
+ROL  C13   .  C  0  ?  ?  ?  1  17
+ROL  C12   .  C  0  ?  ?  ?  1  18
+ROL  O2    .  O  0  ?  ?  ?  1  19
+ROL  C16   .  C  0  ?  ?  ?  1  20
+ROL  H1    .  H  0  ?  ?  ?  1  21
+ROL  1H2   .  H  0  ?  ?  ?  0  22
+ROL  2H2   .  H  0  ?  ?  ?  0  23
+ROL  1H4   .  H  0  ?  ?  ?  0  24
+ROL  2H4   .  H  0  ?  ?  ?  0  25
+ROL  1H3   .  H  0  ?  ?  ?  0  26
+ROL  1H10  .  H  0  ?  ?  ?  0  27
+ROL  1H9   .  H  0  ?  ?  ?  0  28
+ROL  1H6   .  H  0  ?  ?  ?  0  29
+ROL  1H16  .  H  0  ?  ?  ?  0  30
+ROL  2H16  .  H  0  ?  ?  ?  0  31
+ROL  3H16  .  H  0  ?  ?  ?  0  32
+ROL  1H12  .  H  0  ?  ?  ?  0  33
+ROL  2H12  .  H  0  ?  ?  ?  0  34
+ROL  1H13  .  H  0  ?  ?  ?  0  35
+ROL  2H13  .  H  0  ?  ?  ?  0  36
+ROL  1H14  .  H  0  ?  ?  ?  0  37
+ROL  2H14  .  H  0  ?  ?  ?  0  38
+ROL  1H15  .  H  0  ?  ?  ?  0  39
+ROL  2H15  .  H  0  ?  ?  ?  0  40
+ROL  1H11  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ROL  C5   C6    DOUB  1 
+ROL  C5   C10   SING  2 
+ROL  C5   C3    SING  3 
+ROL  C6   C7    SING  4 
+ROL  C6   1H6   SING  5 
+ROL  C7   C8    DOUB  6 
+ROL  C7   O3    SING  7 
+ROL  C8   C9    SING  8 
+ROL  C8   O2    SING  9 
+ROL  C9   C10   DOUB  10
+ROL  C9   1H9   SING  11
+ROL  C10  1H10  SING  12
+ROL  C3   C2    SING  13
+ROL  C3   C4    SING  14
+ROL  C3   1H3   SING  15
+ROL  C2   C1    SING  16
+ROL  C2   1H2   SING  17
+ROL  C2   2H2   SING  18
+ROL  C1   O1    DOUB  19
+ROL  C1   N1    SING  20
+ROL  N1   H1    SING  21
+ROL  N1   C4    SING  22
+ROL  C4   1H4   SING  23
+ROL  C4   2H4   SING  24
+ROL  O3   C11   SING  25
+ROL  C11  C15   SING  26
+ROL  C11  C12   SING  27
+ROL  C11  1H11  SING  28
+ROL  C15  C14   SING  29
+ROL  C15  1H15  SING  30
+ROL  C15  2H15  SING  31
+ROL  C14  C13   SING  32
+ROL  C14  1H14  SING  33
+ROL  C14  2H14  SING  34
+ROL  C13  C12   SING  35
+ROL  C13  1H13  SING  36
+ROL  C13  2H13  SING  37
+ROL  C12  1H12  SING  38
+ROL  C12  2H12  SING  39
+ROL  O2   C16   SING  40
+ROL  C16  1H16  SING  41
+ROL  C16  2H16  SING  42
+ROL  C16  3H16  SING  43
+#

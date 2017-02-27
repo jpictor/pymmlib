@@ -1,0 +1,50 @@
+data_NI3
+#
+_chem_comp.id                   NI3
+_chem_comp.name                 'NICKEL (II) ION, 3 WATERS COORDINATED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H6 O3 NI1'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       112.746
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NI3  NI    .  NI  2  75.834  6.609  54.966  0  1 
+NI3  O1    .  O   0  75.765  4.407  54.408  1  2 
+NI3  O2    .  O   0  77.938  6.641  53.371  1  3 
+NI3  O3    .  O   0  76.066  8.601  57.701  1  4 
+NI3  1HO1  .  H   0  ?       ?      ?       0  5 
+NI3  2HO1  .  H   0  ?       ?      ?       0  6 
+NI3  1HO2  .  H   0  ?       ?      ?       0  7 
+NI3  2HO2  .  H   0  ?       ?      ?       0  8 
+NI3  1HO3  .  H   0  ?       ?      ?       0  9 
+NI3  2HO3  .  H   0  ?       ?      ?       0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NI3  NI  O1    SING  1
+NI3  NI  O2    SING  2
+NI3  NI  O3    SING  3
+NI3  O1  1HO1  SING  4
+NI3  O1  2HO1  SING  5
+NI3  O2  1HO2  SING  6
+NI3  O2  2HO2  SING  7
+NI3  O3  1HO3  SING  8
+NI3  O3  2HO3  SING  9
+#

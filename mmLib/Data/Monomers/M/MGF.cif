@@ -1,0 +1,38 @@
+data_MGF
+#
+_chem_comp.id                   MGF
+_chem_comp.name                 TRIFLUOROMAGNESATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'F3 MG1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       81.300
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGF  F1  .  F   -1  23.488  0.965   5.415  1  1
+MGF  MG  .  MG  2   24.189  0.258   6.812  0  2
+MGF  F2  .  F   -1  25.202  -0.854  6.726  1  3
+MGF  F3  .  F   -1  23.790  1.013   8.099  1  4
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGF  F1  MG  SING  1
+MGF  MG  F2  SING  2
+MGF  MG  F3  SING  3
+#

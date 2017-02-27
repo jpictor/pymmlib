@@ -1,0 +1,104 @@
+data_BAU
+#
+_chem_comp.id                   BAU
+_chem_comp.name                 1-((2-HYDROXYETHOXY)METHYL)-5-BENZYLPYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        276.291
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BAU  OAC   .  O  0  7.106   140.382  93.610  1  1 
+BAU  CAJ   .  C  0  6.073   139.979  92.793  1  2 
+BAU  CAK   .  C  0  5.658   140.698  91.571  1  3 
+BAU  OAO   .  O  0  5.924   141.993  91.369  1  4 
+BAU  CAM   .  C  0  6.444   142.059  90.137  1  5 
+BAU  NAT   .  N  0  7.730   141.837  89.763  1  6 
+BAU  CAS   .  C  0  8.109   140.851  88.761  1  7 
+BAU  OAB   .  O  0  7.301   140.081  88.212  1  8 
+BAU  NAN   .  N  0  9.496   140.730  88.472  1  9 
+BAU  CAR   .  C  0  10.482  141.520  89.128  1  10
+BAU  OAA   .  O  0  11.669  141.364  88.794  1  11
+BAU  CAI   .  C  0  8.742   142.627  90.419  1  12
+BAU  CAQ   .  C  0  10.114  142.485  90.137  1  13
+BAU  CAL   .  C  0  11.186  143.260  90.993  1  14
+BAU  CG    .  C  0  11.799  142.400  92.103  1  15
+BAU  CD2   .  C  0  11.017  142.005  93.262  1  16
+BAU  CE2   .  C  0  11.601  141.167  94.285  1  17
+BAU  CZ    .  C  0  12.969  140.731  94.142  1  18
+BAU  CE1   .  C  0  13.739  141.130  92.989  1  19
+BAU  CD1   .  C  0  13.166  141.957  91.975  1  20
+BAU  HAC   .  H  0  ?       ?        ?       1  21
+BAU  1HAJ  .  H  0  ?       ?        ?       0  22
+BAU  2HAJ  .  H  0  ?       ?        ?       0  23
+BAU  1HAK  .  H  0  ?       ?        ?       0  24
+BAU  2HAK  .  H  0  ?       ?        ?       0  25
+BAU  1HAM  .  H  0  ?       ?        ?       0  26
+BAU  2HAM  .  H  0  ?       ?        ?       0  27
+BAU  HAN   .  H  0  ?       ?        ?       1  28
+BAU  HAI   .  H  0  ?       ?        ?       1  29
+BAU  1HAL  .  H  0  ?       ?        ?       0  30
+BAU  2HAL  .  H  0  ?       ?        ?       0  31
+BAU  HD1   .  H  0  ?       ?        ?       1  32
+BAU  HD2   .  H  0  ?       ?        ?       1  33
+BAU  HE1   .  H  0  ?       ?        ?       1  34
+BAU  HE2   .  H  0  ?       ?        ?       1  35
+BAU  HZ    .  H  0  ?       ?        ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BAU  OAC  CAJ   SING  1 
+BAU  OAC  HAC   SING  2 
+BAU  CAJ  CAK   SING  3 
+BAU  CAJ  1HAJ  SING  4 
+BAU  CAJ  2HAJ  SING  5 
+BAU  CAK  OAO   SING  6 
+BAU  CAK  1HAK  SING  7 
+BAU  CAK  2HAK  SING  8 
+BAU  OAO  CAM   SING  9 
+BAU  CAM  NAT   SING  10
+BAU  CAM  1HAM  SING  11
+BAU  CAM  2HAM  SING  12
+BAU  NAT  CAS   SING  13
+BAU  NAT  CAI   SING  14
+BAU  CAS  OAB   DOUB  15
+BAU  CAS  NAN   SING  16
+BAU  NAN  CAR   SING  17
+BAU  NAN  HAN   SING  18
+BAU  CAR  OAA   DOUB  19
+BAU  CAR  CAQ   SING  20
+BAU  CAI  CAQ   DOUB  21
+BAU  CAI  HAI   SING  22
+BAU  CAQ  CAL   SING  23
+BAU  CAL  CG    SING  24
+BAU  CAL  1HAL  SING  25
+BAU  CAL  2HAL  SING  26
+BAU  CG   CD2   AROM  27
+BAU  CG   CD1   AROM  28
+BAU  CD2  CE2   AROM  29
+BAU  CD2  HD2   SING  30
+BAU  CE2  CZ    AROM  31
+BAU  CE2  HE2   SING  32
+BAU  CZ   CE1   AROM  33
+BAU  CZ   HZ    SING  34
+BAU  CE1  CD1   AROM  35
+BAU  CE1  HE1   SING  36
+BAU  CD1  HD1   SING  37
+#

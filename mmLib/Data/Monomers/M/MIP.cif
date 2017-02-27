@@ -1,0 +1,60 @@
+data_MIP
+#
+_chem_comp.id                   MIP
+_chem_comp.name                 'MONOISOPROPYL ESTER PHOSPHONIC ACID GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H8 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        123.068
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MIP  P     .  P  0  ?  ?  ?  1  1 
+MIP  OA1   .  O  0  ?  ?  ?  1  2 
+MIP  O3    .  O  0  ?  ?  ?  1  3 
+MIP  O2B   .  O  0  ?  ?  ?  1  4 
+MIP  C2B   .  C  0  ?  ?  ?  1  5 
+MIP  C1B   .  C  0  ?  ?  ?  1  6 
+MIP  C3B   .  C  0  ?  ?  ?  1  7 
+MIP  HOA   .  H  0  ?  ?  ?  1  8 
+MIP  H2B   .  H  0  ?  ?  ?  1  9 
+MIP  1H1B  .  H  0  ?  ?  ?  0  10
+MIP  2H1B  .  H  0  ?  ?  ?  0  11
+MIP  3H1B  .  H  0  ?  ?  ?  0  12
+MIP  1H3B  .  H  0  ?  ?  ?  0  13
+MIP  2H3B  .  H  0  ?  ?  ?  0  14
+MIP  3H3B  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MIP  P    OA1   SING  1 
+MIP  P    O3    DOUB  2 
+MIP  P    O2B   SING  3 
+MIP  OA1  HOA   SING  4 
+MIP  O2B  C2B   SING  5 
+MIP  C2B  H2B   SING  6 
+MIP  C2B  C1B   SING  7 
+MIP  C2B  C3B   SING  8 
+MIP  C1B  1H1B  SING  9 
+MIP  C1B  2H1B  SING  10
+MIP  C1B  3H1B  SING  11
+MIP  C3B  1H3B  SING  12
+MIP  C3B  2H3B  SING  13
+MIP  C3B  3H3B  SING  14
+#

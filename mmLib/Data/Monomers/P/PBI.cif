@@ -1,0 +1,100 @@
+data_PBI
+#
+_chem_comp.id                   PBI
+_chem_comp.name                 '[2-AMINOMETHYL-5-OXO-4-(4-OXO-CYCLOHEXA-2,5-DIENYLMETHYL)-4,5-DIHYDRO-IMIDAZOL-1-YL] -ACETALDEHYDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H15 N3 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        261.280
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBI  N1    .  N  0  ?  ?  ?  1  1 
+PBI  CA1   .  C  0  ?  ?  ?  1  2 
+PBI  C1    .  C  0  ?  ?  ?  1  3 
+PBI  N2    .  N  0  ?  ?  ?  1  4 
+PBI  N3    .  N  0  ?  ?  ?  1  5 
+PBI  C2    .  C  0  ?  ?  ?  1  6 
+PBI  O2    .  O  0  ?  ?  ?  1  7 
+PBI  CA2   .  C  0  ?  ?  ?  1  8 
+PBI  CA3   .  C  0  ?  ?  ?  1  9 
+PBI  C3    .  C  0  ?  ?  ?  1  10
+PBI  O3    .  O  0  ?  ?  ?  1  11
+PBI  CB2   .  C  0  ?  ?  ?  1  12
+PBI  CG2   .  C  0  ?  ?  ?  1  13
+PBI  CD1   .  C  0  ?  ?  ?  1  14
+PBI  CD2   .  C  0  ?  ?  ?  1  15
+PBI  CE1   .  C  0  ?  ?  ?  1  16
+PBI  CE2   .  C  0  ?  ?  ?  1  17
+PBI  CZ    .  C  0  ?  ?  ?  1  18
+PBI  OH    .  O  0  ?  ?  ?  1  19
+PBI  1HN1  .  H  0  ?  ?  ?  0  20
+PBI  2HN1  .  H  0  ?  ?  ?  0  21
+PBI  1HA1  .  H  0  ?  ?  ?  0  22
+PBI  2HA1  .  H  0  ?  ?  ?  0  23
+PBI  HA2   .  H  0  ?  ?  ?  1  24
+PBI  1HA3  .  H  0  ?  ?  ?  0  25
+PBI  2HA3  .  H  0  ?  ?  ?  0  26
+PBI  HC3   .  H  0  ?  ?  ?  1  27
+PBI  1HB2  .  H  0  ?  ?  ?  0  28
+PBI  2HB2  .  H  0  ?  ?  ?  0  29
+PBI  HG2   .  H  0  ?  ?  ?  1  30
+PBI  HD1   .  H  0  ?  ?  ?  1  31
+PBI  HD2   .  H  0  ?  ?  ?  1  32
+PBI  HE1   .  H  0  ?  ?  ?  1  33
+PBI  HE2   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBI  N1   CA1   SING  1 
+PBI  N1   1HN1  SING  2 
+PBI  N1   2HN1  SING  3 
+PBI  CA1  C1    SING  4 
+PBI  CA1  1HA1  SING  5 
+PBI  CA1  2HA1  SING  6 
+PBI  C1   N2    DOUB  7 
+PBI  C1   N3    SING  8 
+PBI  N2   CA2   SING  9 
+PBI  N3   C2    SING  10
+PBI  N3   CA3   SING  11
+PBI  C2   CA2   SING  12
+PBI  C2   O2    DOUB  13
+PBI  CA2  CB2   SING  14
+PBI  CA2  HA2   SING  15
+PBI  CA3  C3    SING  16
+PBI  CA3  1HA3  SING  17
+PBI  CA3  2HA3  SING  18
+PBI  C3   O3    DOUB  19
+PBI  C3   HC3   SING  20
+PBI  CB2  CG2   SING  21
+PBI  CB2  1HB2  SING  22
+PBI  CB2  2HB2  SING  23
+PBI  CG2  CD1   SING  24
+PBI  CG2  CD2   SING  25
+PBI  CG2  HG2   SING  26
+PBI  CD1  CE1   DOUB  27
+PBI  CD1  HD1   SING  28
+PBI  CD2  CE2   DOUB  29
+PBI  CD2  HD2   SING  30
+PBI  CE1  CZ    SING  31
+PBI  CE1  HE1   SING  32
+PBI  CE2  CZ    SING  33
+PBI  CE2  HE2   SING  34
+PBI  CZ   OH    DOUB  35
+#

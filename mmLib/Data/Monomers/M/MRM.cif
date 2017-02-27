@@ -1,0 +1,75 @@
+data_MRM
+#
+_chem_comp.id                   MRM
+_chem_comp.name                 '4-AMINOPIPERIDINE-1-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MRM  NB    .  N  0  ?  ?  ?  1  1 
+MRM  CM1   .  C  0  ?  ?  ?  1  2 
+MRM  CM2   .  C  0  ?  ?  ?  1  3 
+MRM  CM5   .  C  0  ?  ?  ?  1  4 
+MRM  CM3   .  C  0  ?  ?  ?  1  5 
+MRM  NM    .  N  0  ?  ?  ?  1  6 
+MRM  CM4   .  C  0  ?  ?  ?  1  7 
+MRM  C     .  C  0  ?  ?  ?  1  8 
+MRM  O     .  O  0  ?  ?  ?  1  9 
+MRM  OXT   .  O  0  ?  ?  ?  1  10
+MRM  1HNB  .  H  0  ?  ?  ?  0  11
+MRM  2HNB  .  H  0  ?  ?  ?  0  12
+MRM  HM1   .  H  0  ?  ?  ?  1  13
+MRM  1HM2  .  H  0  ?  ?  ?  0  14
+MRM  2HM2  .  H  0  ?  ?  ?  0  15
+MRM  1HM5  .  H  0  ?  ?  ?  0  16
+MRM  2HM5  .  H  0  ?  ?  ?  0  17
+MRM  1HM3  .  H  0  ?  ?  ?  0  18
+MRM  2HM3  .  H  0  ?  ?  ?  0  19
+MRM  1HM4  .  H  0  ?  ?  ?  0  20
+MRM  2HM4  .  H  0  ?  ?  ?  0  21
+MRM  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MRM  NB   CM1   SING  1 
+MRM  NB   1HNB  SING  2 
+MRM  NB   2HNB  SING  3 
+MRM  CM1  CM2   SING  4 
+MRM  CM1  CM5   SING  5 
+MRM  CM1  HM1   SING  6 
+MRM  CM2  CM3   SING  7 
+MRM  CM2  1HM2  SING  8 
+MRM  CM2  2HM2  SING  9 
+MRM  CM5  CM4   SING  10
+MRM  CM5  1HM5  SING  11
+MRM  CM5  2HM5  SING  12
+MRM  CM3  NM    SING  13
+MRM  CM3  1HM3  SING  14
+MRM  CM3  2HM3  SING  15
+MRM  NM   CM4   SING  16
+MRM  NM   C     SING  17
+MRM  CM4  1HM4  SING  18
+MRM  CM4  2HM4  SING  19
+MRM  C    O     DOUB  20
+MRM  C    OXT   SING  21
+MRM  OXT  HXT   SING  22
+#

@@ -1,0 +1,53 @@
+data_NAK
+#
+_chem_comp.id                   NAK
+_chem_comp.name                 AMINO-ACRYLATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 N1 O2'
+_chem_comp.pdbx_synonyms        2-IMINIOPROPANOATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        87.078
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAK  OAC   .  O  -1  11.453  30.981  110.636  1  1 
+NAK  CAF   .  C  0   11.172  32.055  110.106  1  2 
+NAK  OAD   .  O  0   11.726  33.076  110.509  1  3 
+NAK  CAG   .  C  0   10.138  32.101  108.978  1  4 
+NAK  CAE   .  C  0   9.784   33.315  108.399  1  5 
+NAK  NAB   .  N  1   9.555   30.962  108.610  1  6 
+NAK  1HAB  .  H  0   ?       ?       ?        0  7 
+NAK  2HAB  .  H  0   ?       ?       ?        0  8 
+NAK  1HAE  .  H  0   ?       ?       ?        0  9 
+NAK  2HAE  .  H  0   ?       ?       ?        0  10
+NAK  3HAE  .  H  0   ?       ?       ?        0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAK  OAC  CAF   SING  1 
+NAK  CAF  CAG   SING  2 
+NAK  CAF  OAD   DOUB  3 
+NAK  CAG  NAB   DOUB  4 
+NAK  CAG  CAE   SING  5 
+NAK  CAE  1HAE  SING  6 
+NAK  CAE  2HAE  SING  7 
+NAK  CAE  3HAE  SING  8 
+NAK  NAB  1HAB  SING  9 
+NAK  NAB  2HAB  SING  10
+#

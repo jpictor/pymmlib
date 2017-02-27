@@ -1,0 +1,61 @@
+data_B3I
+#
+_chem_comp.id                   B3I
+_chem_comp.name                 '2,3,5-TRIIODOBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H3 O2 I3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        499.813
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+B3I  C2   .  C  0  ?  ?  ?  1  1 
+B3I  C3   .  C  0  ?  ?  ?  1  2 
+B3I  C5   .  C  0  ?  ?  ?  1  3 
+B3I  C6   .  C  0  ?  ?  ?  1  4 
+B3I  C    .  C  0  ?  ?  ?  1  5 
+B3I  O1   .  O  0  ?  ?  ?  1  6 
+B3I  O2   .  O  0  ?  ?  ?  1  7 
+B3I  C1   .  C  0  ?  ?  ?  1  8 
+B3I  C4   .  C  0  ?  ?  ?  1  9 
+B3I  I1   .  I  0  ?  ?  ?  1  10
+B3I  I2   .  I  0  ?  ?  ?  1  11
+B3I  I3   .  I  0  ?  ?  ?  1  12
+B3I  H6   .  H  0  ?  ?  ?  1  13
+B3I  H4   .  H  0  ?  ?  ?  1  14
+B3I  HO2  .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+B3I  C2  C3   DOUB  1 
+B3I  C2  C1   SING  2 
+B3I  C2  I1   SING  3 
+B3I  C3  C4   SING  4 
+B3I  C3  I2   SING  5 
+B3I  C5  C6   SING  6 
+B3I  C5  C4   DOUB  7 
+B3I  C5  I3   SING  8 
+B3I  C6  C1   DOUB  9 
+B3I  C6  H6   SING  10
+B3I  C   O1   DOUB  11
+B3I  C   O2   SING  12
+B3I  C   C1   SING  13
+B3I  O2  HO2  SING  14
+B3I  C4  H4   SING  15
+#

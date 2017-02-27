@@ -1,0 +1,123 @@
+data_IH5
+#
+_chem_comp.id                   IH5
+_chem_comp.name                 '[4-(4-HYDROXY-3-ISOPROPYLPHENOXY)-3,5-DIMETHYLPHENYL]ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H22 O4'
+_chem_comp.pdbx_synonyms        '3,5-DICHLORO-4-[(4-HYDROXY-3-ISOPROPYLPHENOXY)PHENYLACETIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        314.380
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IH5  O3    .  O  0  44.621  13.455  17.607  1  1 
+IH5  C15   .  C  0  43.874  14.454  18.141  1  2 
+IH5  O4    .  O  0  42.764  14.830  17.739  1  3 
+IH5  C13   .  C  0  44.490  15.076  19.301  1  4 
+IH5  C01   .  C  0  45.796  15.793  19.206  1  5 
+IH5  C11   .  C  0  46.755  15.427  20.198  1  6 
+IH5  C09   .  C  0  48.033  16.049  20.224  1  7 
+IH5  C07   .  C  0  48.387  17.069  19.256  1  8 
+IH5  O2    .  O  0  49.569  17.733  19.205  1  9 
+IH5  C2    .  C  0  49.742  18.974  19.974  1  10
+IH5  C12   .  C  0  49.035  19.261  21.237  1  11
+IH5  C10   .  C  0  49.275  20.496  21.927  1  12
+IH5  C8    .  C  0  50.203  21.466  21.415  1  13
+IH5  O1    .  O  0  50.406  22.644  22.119  1  14
+IH5  C6    .  C  0  50.920  21.222  20.164  1  15
+IH5  C4    .  C  0  50.676  19.966  19.461  1  16
+IH5  C14   .  C  0  51.935  22.296  19.609  1  17
+IH5  C16   .  C  0  51.184  23.126  18.545  1  18
+IH5  C18   .  C  0  53.219  21.647  18.947  1  19
+IH5  C05   .  C  0  47.430  17.428  18.278  1  20
+IH5  C03   .  C  0  46.140  16.812  18.220  1  21
+IH5  CL5   .  C  0  47.779  18.625  17.120  1  22
+IH5  CL6   .  C  0  49.138  15.569  21.386  1  23
+IH5  HO3   .  H  0  ?       ?       ?       1  24
+IH5  1H13  .  H  0  ?       ?       ?       0  25
+IH5  2H13  .  H  0  ?       ?       ?       0  26
+IH5  H11   .  H  0  ?       ?       ?       1  27
+IH5  H12   .  H  0  ?       ?       ?       1  28
+IH5  H10   .  H  0  ?       ?       ?       1  29
+IH5  HO1   .  H  0  ?       ?       ?       1  30
+IH5  H4    .  H  0  ?       ?       ?       1  31
+IH5  H14   .  H  0  ?       ?       ?       1  32
+IH5  1H16  .  H  0  ?       ?       ?       0  33
+IH5  2H16  .  H  0  ?       ?       ?       0  34
+IH5  3H16  .  H  0  ?       ?       ?       0  35
+IH5  1H18  .  H  0  ?       ?       ?       0  36
+IH5  2H18  .  H  0  ?       ?       ?       0  37
+IH5  3H18  .  H  0  ?       ?       ?       0  38
+IH5  H03   .  H  0  ?       ?       ?       1  39
+IH5  1HL5  .  H  0  ?       ?       ?       0  40
+IH5  2HL5  .  H  0  ?       ?       ?       0  41
+IH5  3HL5  .  H  0  ?       ?       ?       0  42
+IH5  1HL6  .  H  0  ?       ?       ?       0  43
+IH5  2HL6  .  H  0  ?       ?       ?       0  44
+IH5  3HL6  .  H  0  ?       ?       ?       0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IH5  O3   HO3   SING  1 
+IH5  O3   C15   SING  2 
+IH5  C15  O4    DOUB  3 
+IH5  C15  C13   SING  4 
+IH5  C13  1H13  SING  5 
+IH5  C13  2H13  SING  6 
+IH5  C13  C01   SING  7 
+IH5  C01  C11   AROM  8 
+IH5  C01  C03   AROM  9 
+IH5  C11  H11   SING  10
+IH5  C11  C09   AROM  11
+IH5  C09  C07   AROM  12
+IH5  C09  CL6   SING  13
+IH5  C07  O2    SING  14
+IH5  C07  C05   AROM  15
+IH5  O2   C2    SING  16
+IH5  C2   C12   AROM  17
+IH5  C2   C4    AROM  18
+IH5  C12  H12   SING  19
+IH5  C12  C10   AROM  20
+IH5  C10  H10   SING  21
+IH5  C10  C8    AROM  22
+IH5  C8   O1    SING  23
+IH5  C8   C6    AROM  24
+IH5  O1   HO1   SING  25
+IH5  C6   C4    AROM  26
+IH5  C6   C14   SING  27
+IH5  C4   H4    SING  28
+IH5  C14  H14   SING  29
+IH5  C14  C16   SING  30
+IH5  C14  C18   SING  31
+IH5  C16  1H16  SING  32
+IH5  C16  2H16  SING  33
+IH5  C16  3H16  SING  34
+IH5  C18  1H18  SING  35
+IH5  C18  2H18  SING  36
+IH5  C18  3H18  SING  37
+IH5  C05  C03   AROM  38
+IH5  C05  CL5   SING  39
+IH5  C03  H03   SING  40
+IH5  CL5  1HL5  SING  41
+IH5  CL5  2HL5  SING  42
+IH5  CL5  3HL5  SING  43
+IH5  CL6  1HL6  SING  44
+IH5  CL6  2HL6  SING  45
+IH5  CL6  3HL6  SING  46
+#

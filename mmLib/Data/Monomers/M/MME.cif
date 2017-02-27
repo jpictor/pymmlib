@@ -1,0 +1,77 @@
+data_MME
+#
+_chem_comp.id                       MME
+_chem_comp.name                     'N-METHYL METHIONINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            163.234
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MME  N    .  N  0  ?  ?  ?  1  1 
+MME  CA   .  C  0  ?  ?  ?  1  2 
+MME  C    .  C  0  ?  ?  ?  1  3 
+MME  O    .  O  0  ?  ?  ?  1  4 
+MME  CB   .  C  0  ?  ?  ?  1  5 
+MME  CG   .  C  0  ?  ?  ?  1  6 
+MME  SD   .  S  0  ?  ?  ?  1  7 
+MME  CE   .  C  0  ?  ?  ?  1  8 
+MME  OXT  .  O  0  ?  ?  ?  1  9 
+MME  CM   .  C  0  ?  ?  ?  1  10
+MME  H    .  H  0  ?  ?  ?  1  11
+MME  HA   .  H  0  ?  ?  ?  1  12
+MME  1HB  .  H  0  ?  ?  ?  0  13
+MME  2HB  .  H  0  ?  ?  ?  0  14
+MME  1HG  .  H  0  ?  ?  ?  0  15
+MME  2HG  .  H  0  ?  ?  ?  0  16
+MME  1HE  .  H  0  ?  ?  ?  0  17
+MME  2HE  .  H  0  ?  ?  ?  0  18
+MME  3HE  .  H  0  ?  ?  ?  0  19
+MME  HXT  .  H  0  ?  ?  ?  1  20
+MME  1HM  .  H  0  ?  ?  ?  0  21
+MME  2HM  .  H  0  ?  ?  ?  0  22
+MME  3HM  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MME  N    CA   SING  1 
+MME  N    H    SING  2 
+MME  N    CM   SING  3 
+MME  CA   C    SING  4 
+MME  CA   CB   SING  5 
+MME  CA   HA   SING  6 
+MME  C    O    DOUB  7 
+MME  C    OXT  SING  8 
+MME  CB   CG   SING  9 
+MME  CB   1HB  SING  10
+MME  CB   2HB  SING  11
+MME  CG   SD   SING  12
+MME  CG   1HG  SING  13
+MME  CG   2HG  SING  14
+MME  SD   CE   SING  15
+MME  CE   1HE  SING  16
+MME  CE   2HE  SING  17
+MME  CE   3HE  SING  18
+MME  OXT  HXT  SING  19
+MME  CM   1HM  SING  20
+MME  CM   2HM  SING  21
+MME  CM   3HM  SING  22
+#

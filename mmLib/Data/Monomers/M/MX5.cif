@@ -1,0 +1,115 @@
+data_MX5
+#
+_chem_comp.id                   MX5
+_chem_comp.name                 '{1-[4-(3,4-DIHYDROQUINOLIN-1(2H)-YL)-4-OXOBUTANOYL]HYDRAZINO}ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H19 N3 O4'
+_chem_comp.pdbx_synonyms        '{N-[(E)-4-(3,4-DIHYDRO-2H-QUINOLIN-1-YL)-4-OXO-BUT-2-ENOYL]-HYDRAZINO}-ACETIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        305.333
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MX5  C1    .  C  0  -14.229  42.442  38.565  1  1 
+MX5  C2    .  C  0  -14.831  42.531  37.153  1  2 
+MX5  N20   .  N  0  -9.619   34.891  38.739  1  3 
+MX5  C4    .  C  0  -13.1    42.267  41.173  1  4 
+MX5  C5    .  C  0  -13.995  43.326  40.859  1  5 
+MX5  C6    .  C  0  -14.559  43.413  39.556  1  6 
+MX5  C7    .  C  0  -13.323  41.355  38.86   1  7 
+MX5  C9    .  C  0  -12.255  38.031  36.957  1  8 
+MX5  C10   .  C  0  -11.633  36.703  37.507  1  9 
+MX5  C11   .  C  0  -10.345  36.285  36.803  1  10
+MX5  C15   .  C  0  -12.58   39.052  38.061  1  11
+MX5  C12   .  C  0  -8.235   35.05   36.667  1  12
+MX5  C13   .  C  0  -7.008   34.992  37.527  1  13
+MX5  C14   .  C  0  -13.158  40.798  36.367  1  14
+MX5  N2    .  N  0  -9.45    35.444  37.408  1  15
+MX5  N3    .  N  0  -13.005  40.369  37.794  1  16
+MX5  O4    .  O  0  -12.439  38.618  39.203  1  17
+MX5  O6    .  O  0  -10.146  36.722  35.669  1  18
+MX5  O7    .  O  0  -6.748   35.838  38.366  1  19
+MX5  C19   .  C  0  -13.667  42.255  36.155  1  20
+MX5  O8    .  O  0  -6.203   33.957  37.305  1  21
+MX5  C24   .  C  0  -12.765  41.293  40.187  1  22
+MX5  H6    .  H  0  -15.254  44.234  39.311  1  23
+MX5  1H2C  .  H  0  -15.359  43.494  36.959  0  24
+MX5  2H2C  .  H  0  -15.708  41.859  37.004  0  25
+MX5  H5    .  H  0  -14.251  44.078  41.624  1  26
+MX5  1H20  .  H  0  -8.952   34.264  39.19   0  27
+MX5  2H20  .  H  0  -10.458  35.163  39.251  0  28
+MX5  H4    .  H  0  -12.663  42.199  42.183  1  29
+MX5  H24   .  H  0  -12.067  40.479  40.444  1  30
+MX5  1H19  .  H  0  -12.849  43.008  36.236  0  31
+MX5  2H19  .  H  0  -13.957  42.455  35.097  0  32
+MX5  1H9C  .  H  0  -13.156  37.819  36.335  0  33
+MX5  2H9C  .  H  0  -11.597  38.484  36.179  0  34
+MX5  1H10  .  H  0  -12.382  35.877  37.477  0  35
+MX5  2H10  .  H  0  -11.473  36.772  38.608  0  36
+MX5  1H12  .  H  0  -8.072   35.718  35.79   0  37
+MX5  2H12  .  H  0  -8.392   34.083  36.135  0  38
+MX5  H8    .  H  0  ?        ?       ?       1  39
+MX5  1H14  .  H  0  -12.2    40.645  35.818  0  40
+MX5  2H14  .  H  0  -13.815  40.081  35.821  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MX5  C1   C2    SING  1 
+MX5  C1   C6    AROM  2 
+MX5  C1   C7    AROM  3 
+MX5  C2   C19   SING  4 
+MX5  C2   1H2C  SING  5 
+MX5  C2   2H2C  SING  6 
+MX5  N20  N2    SING  7 
+MX5  N20  1H20  SING  8 
+MX5  N20  2H20  SING  9 
+MX5  C4   C5    AROM  10
+MX5  C4   C24   AROM  11
+MX5  C4   H4    SING  12
+MX5  C5   C6    AROM  13
+MX5  C5   H5    SING  14
+MX5  C6   H6    SING  15
+MX5  C7   N3    SING  16
+MX5  C7   C24   AROM  17
+MX5  C9   C10   SING  18
+MX5  C9   C15   SING  19
+MX5  C9   1H9C  SING  20
+MX5  C9   2H9C  SING  21
+MX5  C10  C11   SING  22
+MX5  C10  1H10  SING  23
+MX5  C10  2H10  SING  24
+MX5  C11  N2    SING  25
+MX5  C11  O6    DOUB  26
+MX5  C15  N3    SING  27
+MX5  C15  O4    DOUB  28
+MX5  C12  C13   SING  29
+MX5  C12  N2    SING  30
+MX5  C12  1H12  SING  31
+MX5  C12  2H12  SING  32
+MX5  C13  O7    DOUB  33
+MX5  C13  O8    SING  34
+MX5  C14  N3    SING  35
+MX5  C14  C19   SING  36
+MX5  C14  1H14  SING  37
+MX5  C14  2H14  SING  38
+MX5  C19  1H19  SING  39
+MX5  C19  2H19  SING  40
+MX5  O8   H8    SING  41
+MX5  C24  H24   SING  42
+#

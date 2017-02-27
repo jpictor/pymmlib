@@ -1,0 +1,97 @@
+data_NPE
+#
+_chem_comp.id                   NPE
+_chem_comp.name                 '5-(PARA-NITROPHENYL PHOSPHONATE)-PENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H13 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       302.200
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPE  C1    .  C  0   ?  ?  ?  1  1 
+NPE  N1    .  N  0   ?  ?  ?  1  2 
+NPE  O1N   .  O  0   ?  ?  ?  1  3 
+NPE  O2N   .  O  0   ?  ?  ?  1  4 
+NPE  C2    .  C  0   ?  ?  ?  1  5 
+NPE  C3    .  C  0   ?  ?  ?  1  6 
+NPE  C4    .  C  0   ?  ?  ?  1  7 
+NPE  C5    .  C  0   ?  ?  ?  1  8 
+NPE  C6    .  C  0   ?  ?  ?  1  9 
+NPE  O3P   .  O  0   ?  ?  ?  1  10
+NPE  P     .  P  0   ?  ?  ?  1  11
+NPE  O1P   .  O  0   ?  ?  ?  1  12
+NPE  O2P   .  O  -1  ?  ?  ?  1  13
+NPE  C7    .  C  0   ?  ?  ?  1  14
+NPE  C8    .  C  0   ?  ?  ?  1  15
+NPE  C9    .  C  0   ?  ?  ?  1  16
+NPE  C10   .  C  0   ?  ?  ?  1  17
+NPE  C11   .  C  0   ?  ?  ?  1  18
+NPE  O1    .  O  0   ?  ?  ?  1  19
+NPE  O2    .  O  0   ?  ?  ?  1  20
+NPE  H2    .  H  0   ?  ?  ?  1  21
+NPE  H3    .  H  0   ?  ?  ?  1  22
+NPE  H5    .  H  0   ?  ?  ?  1  23
+NPE  H6    .  H  0   ?  ?  ?  1  24
+NPE  1H7   .  H  0   ?  ?  ?  0  25
+NPE  2H7   .  H  0   ?  ?  ?  0  26
+NPE  1H8   .  H  0   ?  ?  ?  0  27
+NPE  2H8   .  H  0   ?  ?  ?  0  28
+NPE  1H9   .  H  0   ?  ?  ?  0  29
+NPE  2H9   .  H  0   ?  ?  ?  0  30
+NPE  1H10  .  H  0   ?  ?  ?  0  31
+NPE  2H10  .  H  0   ?  ?  ?  0  32
+NPE  HO2   .  H  0   ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPE  C1   C2    DOUB  1 
+NPE  C1   C6    SING  2 
+NPE  C1   N1    SING  3 
+NPE  N1   O1N   DOUB  4 
+NPE  N1   O2N   DOUB  5 
+NPE  C2   C3    SING  6 
+NPE  C2   H2    SING  7 
+NPE  C3   C4    DOUB  8 
+NPE  C3   H3    SING  9 
+NPE  C4   C5    SING  10
+NPE  C4   O3P   SING  11
+NPE  C5   C6    DOUB  12
+NPE  C5   H5    SING  13
+NPE  C6   H6    SING  14
+NPE  O3P  P     SING  15
+NPE  P    O1P   DOUB  16
+NPE  P    O2P   SING  17
+NPE  P    C7    SING  18
+NPE  C7   C8    SING  19
+NPE  C7   1H7   SING  20
+NPE  C7   2H7   SING  21
+NPE  C8   C9    SING  22
+NPE  C8   1H8   SING  23
+NPE  C8   2H8   SING  24
+NPE  C9   C10   SING  25
+NPE  C9   1H9   SING  26
+NPE  C9   2H9   SING  27
+NPE  C10  C11   SING  28
+NPE  C10  1H10  SING  29
+NPE  C10  2H10  SING  30
+NPE  C11  O1    DOUB  31
+NPE  C11  O2    SING  32
+NPE  O2   HO2   SING  33
+#

@@ -1,0 +1,40 @@
+data_OFO
+#
+_chem_comp.id                   OFO
+_chem_comp.name                 'HYDROXY DIIRON-OXO MOIETY'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H1 O2 FE2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.701
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OFO  FE1  .  FE  0  ?  ?  ?  0  1
+OFO  O    .  O   0  ?  ?  ?  1  2
+OFO  FE2  .  FE  0  ?  ?  ?  0  3
+OFO  OH   .  O   0  ?  ?  ?  1  4
+OFO  HO   .  H   0  ?  ?  ?  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OFO  FE1  O    SING  1
+OFO  O    FE2  SING  2
+OFO  FE2  OH   SING  3
+OFO  OH   HO   SING  4
+#

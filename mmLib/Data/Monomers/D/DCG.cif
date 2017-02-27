@@ -1,0 +1,108 @@
+data_DCG
+#
+_chem_comp.id                       DCG
+_chem_comp.name                     2'-DEOXY-GUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            347.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCG  P     .  P  0  ?  ?  ?  1  1 
+DCG  O1P   .  O  0  ?  ?  ?  1  2 
+DCG  O2P   .  O  0  ?  ?  ?  1  3 
+DCG  O3P   .  O  0  ?  ?  ?  1  4 
+DCG  O5*   .  O  0  ?  ?  ?  1  5 
+DCG  C5*   .  C  0  ?  ?  ?  1  6 
+DCG  C4*   .  C  0  ?  ?  ?  1  7 
+DCG  O4*   .  O  0  ?  ?  ?  1  8 
+DCG  C3*   .  C  0  ?  ?  ?  1  9 
+DCG  O3*   .  O  0  ?  ?  ?  1  10
+DCG  C2*   .  C  0  ?  ?  ?  1  11
+DCG  C1*   .  C  0  ?  ?  ?  1  12
+DCG  N9    .  N  0  ?  ?  ?  1  13
+DCG  C8    .  C  0  ?  ?  ?  1  14
+DCG  N7    .  N  0  ?  ?  ?  1  15
+DCG  C5    .  C  0  ?  ?  ?  1  16
+DCG  C6    .  C  0  ?  ?  ?  1  17
+DCG  O6    .  O  0  ?  ?  ?  1  18
+DCG  N1    .  N  0  ?  ?  ?  1  19
+DCG  C2    .  C  0  ?  ?  ?  1  20
+DCG  N2    .  N  0  ?  ?  ?  1  21
+DCG  N3    .  N  0  ?  ?  ?  1  22
+DCG  C4    .  C  0  ?  ?  ?  1  23
+DCG  2HOP  .  H  0  ?  ?  ?  0  24
+DCG  3HOP  .  H  0  ?  ?  ?  0  25
+DCG  H1*   .  H  0  ?  ?  ?  1  26
+DCG  1H2*  .  H  0  ?  ?  ?  0  27
+DCG  2H2*  .  H  0  ?  ?  ?  0  28
+DCG  H3*   .  H  0  ?  ?  ?  1  29
+DCG  H4*   .  H  0  ?  ?  ?  1  30
+DCG  *HO3  .  H  0  ?  ?  ?  0  31
+DCG  1H5*  .  H  0  ?  ?  ?  0  32
+DCG  2H5*  .  H  0  ?  ?  ?  0  33
+DCG  H8    .  H  0  ?  ?  ?  1  34
+DCG  HN1   .  H  0  ?  ?  ?  1  35
+DCG  1HN2  .  H  0  ?  ?  ?  0  36
+DCG  2HN2  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCG  P    O1P   DOUB  1 
+DCG  P    O2P   SING  2 
+DCG  P    O3P   SING  3 
+DCG  P    O5*   SING  4 
+DCG  O2P  2HOP  SING  5 
+DCG  O3P  3HOP  SING  6 
+DCG  O5*  C5*   SING  7 
+DCG  C5*  C4*   SING  8 
+DCG  C5*  1H5*  SING  9 
+DCG  C5*  2H5*  SING  10
+DCG  C4*  O4*   SING  11
+DCG  C4*  C3*   SING  12
+DCG  C4*  H4*   SING  13
+DCG  O4*  C1*   SING  14
+DCG  C3*  O3*   SING  15
+DCG  C3*  C2*   SING  16
+DCG  C3*  H3*   SING  17
+DCG  O3*  *HO3  SING  18
+DCG  C2*  C1*   SING  19
+DCG  C2*  1H2*  SING  20
+DCG  C2*  2H2*  SING  21
+DCG  C1*  N9    SING  22
+DCG  C1*  H1*   SING  23
+DCG  N9   C8    SING  24
+DCG  N9   C4    SING  25
+DCG  C8   N7    DOUB  26
+DCG  C8   H8    SING  27
+DCG  N7   C5    SING  28
+DCG  C5   C6    SING  29
+DCG  C5   C4    DOUB  30
+DCG  C6   O6    DOUB  31
+DCG  C6   N1    SING  32
+DCG  N1   C2    SING  33
+DCG  N1   HN1   SING  34
+DCG  C2   N2    SING  35
+DCG  C2   N3    DOUB  36
+DCG  N2   1HN2  SING  37
+DCG  N2   2HN2  SING  38
+DCG  N3   C4    SING  39
+#

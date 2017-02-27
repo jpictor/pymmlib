@@ -1,0 +1,78 @@
+data_OGG
+#
+_chem_comp.id                   OGG
+_chem_comp.name                 2-(2-CARBAMOYLMETHOXY-ETHOXY)-ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OGG  NB    .  N  0  65.540  42.687  -3.365  1  1 
+OGG  CC    .  C  0  66.443  41.789  -3.903  1  2 
+OGG  OL    .  O  0  66.026  40.760  -4.137  1  3 
+OGG  CD    .  C  0  67.970  41.952  -4.408  1  4 
+OGG  OE    .  O  0  68.467  40.307  -4.943  1  5 
+OGG  CF    .  C  0  69.225  39.353  -3.877  1  6 
+OGG  CG    .  C  0  68.465  37.896  -3.609  1  7 
+OGG  OH    .  O  0  69.214  36.497  -4.077  1  8 
+OGG  CI    .  C  0  69.928  35.578  -2.831  1  9 
+OGG  CJ    .  C  0  70.242  34.125  -3.218  1  10
+OGG  OM    .  O  0  69.264  33.443  -3.688  1  11
+OGG  NK    .  N  0  71.528  33.611  -2.865  1  12
+OGG  1HNB  .  H  0  ?       ?       ?       0  13
+OGG  2HNB  .  H  0  ?       ?       ?       0  14
+OGG  1HD   .  H  0  ?       ?       ?       0  15
+OGG  2HD   .  H  0  ?       ?       ?       0  16
+OGG  1HF   .  H  0  ?       ?       ?       0  17
+OGG  2HF   .  H  0  ?       ?       ?       0  18
+OGG  1HG   .  H  0  ?       ?       ?       0  19
+OGG  2HG   .  H  0  ?       ?       ?       0  20
+OGG  1HI   .  H  0  ?       ?       ?       0  21
+OGG  2HI   .  H  0  ?       ?       ?       0  22
+OGG  1HNK  .  H  0  ?       ?       ?       0  23
+OGG  2HNK  .  H  0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OGG  NB  1HNB  SING  1 
+OGG  NB  2HNB  SING  2 
+OGG  NB  CC    SING  3 
+OGG  CC  OL    DOUB  4 
+OGG  CC  CD    SING  5 
+OGG  CD  1HD   SING  6 
+OGG  CD  2HD   SING  7 
+OGG  CD  OE    SING  8 
+OGG  OE  CF    SING  9 
+OGG  CF  1HF   SING  10
+OGG  CF  2HF   SING  11
+OGG  CF  CG    SING  12
+OGG  CG  1HG   SING  13
+OGG  CG  2HG   SING  14
+OGG  CG  OH    SING  15
+OGG  OH  CI    SING  16
+OGG  CI  1HI   SING  17
+OGG  CI  2HI   SING  18
+OGG  CI  CJ    SING  19
+OGG  CJ  OM    DOUB  20
+OGG  CJ  NK    SING  21
+OGG  NK  1HNK  SING  22
+OGG  NK  2HNK  SING  23
+#

@@ -1,0 +1,61 @@
+data_CMH
+#
+_chem_comp.id                       CMH
+_chem_comp.name                     S-(METHYLMERCURY)-L-CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H6 N1 O2 HG1 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            332.747
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CMH  N     .  N   0  10.104  -31.294  -31.754  1  1 
+CMH  CA    .  C   0  10.138  -30.05   -31.002  1  2 
+CMH  C     .  C   0  11.219  -29.068  -31.456  1  3 
+CMH  O     .  O   0  12.35   -29.442  -31.755  1  4 
+CMH  OXT   .  O   0  ?       ?        ?        1  5 
+CMH  CB    .  C   0  10.325  -30.39   -29.535  1  6 
+CMH  SG    .  S   0  9.507   -31.958  -29.114  1  7 
+CMH  CM    .  C   0  5.563   -31.606  -31.111  1  8 
+CMH  HG    .  HG  0  7.43    -31.649  -30.14   0  9 
+CMH  1HN   .  H   0  10.374  -32.161  -32.218  0  10
+CMH  2HN   .  H   0  10.033  -31.976  -32.509  0  11
+CMH  HA    .  H   0  9.148   -29.55   -31.117  1  12
+CMH  1HBC  .  H   0  9.983   -29.559  -28.875  0  13
+CMH  2HBC  .  H   0  11.403  -30.401  -29.251  0  14
+CMH  HXT   .  H   0  ?       ?        ?        1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CMH  N    CA    SING  1 
+CMH  N    1HN   SING  2 
+CMH  N    2HN   SING  3 
+CMH  CA   C     SING  4 
+CMH  CA   CB    SING  5 
+CMH  CA   HA    SING  6 
+CMH  C    O     DOUB  7 
+CMH  C    OXT   SING  8 
+CMH  OXT  HXT   SING  9 
+CMH  CB   SG    SING  10
+CMH  CB   1HBC  SING  11
+CMH  CB   2HBC  SING  12
+CMH  SG   HG    SING  13
+CMH  CM   HG    SING  14
+#

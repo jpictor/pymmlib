@@ -1,0 +1,66 @@
+data_RSO
+#
+_chem_comp.id                   RSO
+_chem_comp.name                 'R-STYRENE OXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        120.151
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RSO  C1    .  C  0  67.206  31.485  14.392  1  1 
+RSO  C2    .  C  0  67.613  32.322  15.450  1  2 
+RSO  C3    .  C  0  68.996  32.597  15.675  1  3 
+RSO  C4    .  C  0  69.983  32.030  14.836  1  4 
+RSO  C5    .  C  0  69.550  31.189  13.774  1  5 
+RSO  C6    .  C  0  68.177  30.916  13.552  1  6 
+RSO  C12   .  C  0  71.465  32.311  15.061  1  7 
+RSO  C13   .  C  0  72.607  31.685  14.322  1  8 
+RSO  O14   .  O  0  71.998  31.020  15.435  1  9 
+RSO  HC3   .  H  0  ?       ?       ?       1  10
+RSO  HC2   .  H  0  ?       ?       ?       1  11
+RSO  HC1   .  H  0  ?       ?       ?       1  12
+RSO  HC6   .  H  0  ?       ?       ?       1  13
+RSO  HC5   .  H  0  ?       ?       ?       1  14
+RSO  H12   .  H  0  ?       ?       ?       1  15
+RSO  1H13  .  H  0  ?       ?       ?       0  16
+RSO  2H13  .  H  0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RSO  C1   C2    AROM  1 
+RSO  C1   C6    AROM  2 
+RSO  C1   HC1   SING  3 
+RSO  C2   C3    AROM  4 
+RSO  C2   HC2   SING  5 
+RSO  C3   C4    AROM  6 
+RSO  C3   HC3   SING  7 
+RSO  C4   C5    AROM  8 
+RSO  C4   C12   SING  9 
+RSO  C5   C6    AROM  10
+RSO  C5   HC5   SING  11
+RSO  C6   HC6   SING  12
+RSO  C12  C13   SING  13
+RSO  C12  O14   SING  14
+RSO  C12  H12   SING  15
+RSO  C13  O14   SING  16
+RSO  C13  1H13  SING  17
+RSO  C13  2H13  SING  18
+#

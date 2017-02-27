@@ -1,0 +1,87 @@
+data_CDI
+#
+_chem_comp.id                   CDI
+_chem_comp.name                 '2C-METHYL-D-ERYTHRITOL 2,4-CYCLODIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 O9 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        278.092
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CDI  C4    .  C  0  ?  ?  ?  1  1 
+CDI  C3    .  C  0  ?  ?  ?  1  2 
+CDI  OB4   .  O  0  ?  ?  ?  1  3 
+CDI  PB    .  P  0  ?  ?  ?  1  4 
+CDI  OB2   .  O  0  ?  ?  ?  1  5 
+CDI  OB3   .  O  0  ?  ?  ?  1  6 
+CDI  PA    .  P  0  ?  ?  ?  1  7 
+CDI  OA3   .  O  0  ?  ?  ?  1  8 
+CDI  OA1   .  O  0  ?  ?  ?  1  9 
+CDI  OA2   .  O  0  ?  ?  ?  1  10
+CDI  C1    .  C  0  ?  ?  ?  1  11
+CDI  C2    .  C  0  ?  ?  ?  1  12
+CDI  O1    .  O  0  ?  ?  ?  1  13
+CDI  C5    .  C  0  ?  ?  ?  1  14
+CDI  O2    .  O  0  ?  ?  ?  1  15
+CDI  OB1   .  O  0  ?  ?  ?  1  16
+CDI  1HC1  .  H  0  ?  ?  ?  0  17
+CDI  2HC1  .  H  0  ?  ?  ?  0  18
+CDI  HC2   .  H  0  ?  ?  ?  1  19
+CDI  HO1   .  H  0  ?  ?  ?  1  20
+CDI  1HC4  .  H  0  ?  ?  ?  0  21
+CDI  2HC4  .  H  0  ?  ?  ?  0  22
+CDI  HO2   .  H  0  ?  ?  ?  1  23
+CDI  1HC5  .  H  0  ?  ?  ?  0  24
+CDI  2HC5  .  H  0  ?  ?  ?  0  25
+CDI  3HC5  .  H  0  ?  ?  ?  0  26
+CDI  OHB2  .  H  0  ?  ?  ?  0  27
+CDI  OHA1  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CDI  C4   C3    SING  1 
+CDI  C4   O2    SING  2 
+CDI  C4   1HC4  SING  3 
+CDI  C4   2HC4  SING  4 
+CDI  C3   OB4   SING  5 
+CDI  C3   C2    SING  6 
+CDI  C3   C5    SING  7 
+CDI  OB4  PB    SING  8 
+CDI  PB   OB2   SING  9 
+CDI  PB   OB3   DOUB  10
+CDI  PB   OB1   SING  11
+CDI  OB2  OHB2  SING  12
+CDI  PA   OA3   SING  13
+CDI  PA   OA1   SING  14
+CDI  PA   OA2   DOUB  15
+CDI  PA   OB1   SING  16
+CDI  OA3  C1    SING  17
+CDI  OA1  OHA1  SING  18
+CDI  C1   C2    SING  19
+CDI  C1   1HC1  SING  20
+CDI  C1   2HC1  SING  21
+CDI  C2   O1    SING  22
+CDI  C2   HC2   SING  23
+CDI  O1   HO1   SING  24
+CDI  C5   1HC5  SING  25
+CDI  C5   2HC5  SING  26
+CDI  C5   3HC5  SING  27
+CDI  O2   HO2   SING  28
+#

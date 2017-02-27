@@ -1,0 +1,91 @@
+data_NGA
+#
+_chem_comp.id                   NGA
+_chem_comp.name                 N-ACETYL-D-GALACTOSAMINE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C8 H15 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        221.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NGA  C1   .  C  0  ?  ?  ?  1  1 
+NGA  C2   .  C  0  ?  ?  ?  1  2 
+NGA  C3   .  C  0  ?  ?  ?  1  3 
+NGA  C4   .  C  0  ?  ?  ?  1  4 
+NGA  C5   .  C  0  ?  ?  ?  1  5 
+NGA  C6   .  C  0  ?  ?  ?  1  6 
+NGA  C7   .  C  0  ?  ?  ?  1  7 
+NGA  C8   .  C  0  ?  ?  ?  1  8 
+NGA  N2   .  N  0  ?  ?  ?  1  9 
+NGA  O1   .  O  0  ?  ?  ?  1  10
+NGA  O3   .  O  0  ?  ?  ?  1  11
+NGA  O4   .  O  0  ?  ?  ?  1  12
+NGA  O5   .  O  0  ?  ?  ?  1  13
+NGA  O6   .  O  0  ?  ?  ?  1  14
+NGA  O7   .  O  0  ?  ?  ?  1  15
+NGA  H1   .  H  0  ?  ?  ?  1  16
+NGA  H2   .  H  0  ?  ?  ?  1  17
+NGA  H3   .  H  0  ?  ?  ?  1  18
+NGA  H4   .  H  0  ?  ?  ?  1  19
+NGA  H5   .  H  0  ?  ?  ?  1  20
+NGA  1H6  .  H  0  ?  ?  ?  0  21
+NGA  2H6  .  H  0  ?  ?  ?  0  22
+NGA  1H8  .  H  0  ?  ?  ?  0  23
+NGA  2H8  .  H  0  ?  ?  ?  0  24
+NGA  3H8  .  H  0  ?  ?  ?  0  25
+NGA  HN2  .  H  0  ?  ?  ?  1  26
+NGA  HO1  .  H  0  ?  ?  ?  1  27
+NGA  HO4  .  H  0  ?  ?  ?  1  28
+NGA  HO3  .  H  0  ?  ?  ?  1  29
+NGA  HO6  .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NGA  C1  C2   SING  1 
+NGA  C1  O5   SING  2 
+NGA  C1  H1   SING  3 
+NGA  C1  O1   SING  4 
+NGA  C2  C3   SING  5 
+NGA  C2  N2   SING  6 
+NGA  C2  H2   SING  7 
+NGA  C3  C4   SING  8 
+NGA  C3  O3   SING  9 
+NGA  C3  H3   SING  10
+NGA  C4  C5   SING  11
+NGA  C4  O4   SING  12
+NGA  C4  H4   SING  13
+NGA  C5  C6   SING  14
+NGA  C5  O5   SING  15
+NGA  C5  H5   SING  16
+NGA  C6  O6   SING  17
+NGA  C6  1H6  SING  18
+NGA  C6  2H6  SING  19
+NGA  C7  C8   SING  20
+NGA  C7  N2   SING  21
+NGA  C7  O7   DOUB  22
+NGA  C8  1H8  SING  23
+NGA  C8  2H8  SING  24
+NGA  C8  3H8  SING  25
+NGA  N2  HN2  SING  26
+NGA  O1  HO1  SING  27
+NGA  O3  HO3  SING  28
+NGA  O4  HO4  SING  29
+NGA  O6  HO6  SING  30
+#

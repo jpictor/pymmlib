@@ -1,0 +1,62 @@
+data_FOU
+#
+_chem_comp.id                   FOU
+_chem_comp.name                 (5S,6R)-5-FLUORO-6-HYDROXYDIHYDROPYRIMIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H5 N2 O3 F1'
+_chem_comp.pdbx_synonyms        (5S,6R)-5-FLUORO-6-HYDROXY-PSEUDOURIDINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.093
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOU  O1   .  O  0  ?  ?  ?  1  1 
+FOU  C1   .  C  0  ?  ?  ?  1  2 
+FOU  N1   .  N  0  ?  ?  ?  1  3 
+FOU  C2   .  C  0  ?  ?  ?  1  4 
+FOU  O2   .  O  0  ?  ?  ?  1  5 
+FOU  N2   .  N  0  ?  ?  ?  1  6 
+FOU  C3   .  C  0  ?  ?  ?  1  7 
+FOU  O3   .  O  0  ?  ?  ?  1  8 
+FOU  C4   .  C  0  ?  ?  ?  1  9 
+FOU  F1   .  F  0  ?  ?  ?  1  10
+FOU  HO1  .  H  0  ?  ?  ?  1  11
+FOU  H1   .  H  0  ?  ?  ?  1  12
+FOU  HN1  .  H  0  ?  ?  ?  1  13
+FOU  HN2  .  H  0  ?  ?  ?  1  14
+FOU  H4   .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOU  O1  HO1  SING  1 
+FOU  O1  C1   SING  2 
+FOU  C1  H1   SING  3 
+FOU  C1  N1   SING  4 
+FOU  C1  C4   SING  5 
+FOU  N1  HN1  SING  6 
+FOU  N1  C2   SING  7 
+FOU  C2  O2   DOUB  8 
+FOU  C2  N2   SING  9 
+FOU  N2  HN2  SING  10
+FOU  N2  C3   SING  11
+FOU  C3  O3   DOUB  12
+FOU  C3  C4   SING  13
+FOU  C4  H4   SING  14
+FOU  C4  F1   SING  15
+#

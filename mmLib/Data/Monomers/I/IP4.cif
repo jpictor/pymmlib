@@ -1,0 +1,75 @@
+data_IP4
+#
+_chem_comp.id                   IP4
+_chem_comp.name                 '1-METHYL-2-OXY-5,5-DIMETHYL PYRROLIDINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        127.186
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IP4  N1    .  N  0  ?  ?  ?  1  1 
+IP4  C2    .  C  0  ?  ?  ?  1  2 
+IP4  O2    .  O  0  ?  ?  ?  1  3 
+IP4  C3    .  C  0  ?  ?  ?  1  4 
+IP4  C4    .  C  0  ?  ?  ?  1  5 
+IP4  C5    .  C  0  ?  ?  ?  1  6 
+IP4  CM1   .  C  0  ?  ?  ?  1  7 
+IP4  CM2   .  C  0  ?  ?  ?  1  8 
+IP4  CM3   .  C  0  ?  ?  ?  1  9 
+IP4  1H3   .  H  0  ?  ?  ?  0  10
+IP4  2H3   .  H  0  ?  ?  ?  0  11
+IP4  1H4   .  H  0  ?  ?  ?  0  12
+IP4  2H4   .  H  0  ?  ?  ?  0  13
+IP4  1HM1  .  H  0  ?  ?  ?  0  14
+IP4  2HM1  .  H  0  ?  ?  ?  0  15
+IP4  3HM1  .  H  0  ?  ?  ?  0  16
+IP4  1HM2  .  H  0  ?  ?  ?  0  17
+IP4  2HM2  .  H  0  ?  ?  ?  0  18
+IP4  3HM2  .  H  0  ?  ?  ?  0  19
+IP4  1HM3  .  H  0  ?  ?  ?  0  20
+IP4  2HM3  .  H  0  ?  ?  ?  0  21
+IP4  3HM3  .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IP4  N1   C2    SING  1 
+IP4  N1   C5    SING  2 
+IP4  N1   CM1   SING  3 
+IP4  C2   C3    SING  4 
+IP4  C2   O2    DOUB  5 
+IP4  C3   C4    SING  6 
+IP4  C3   1H3   SING  7 
+IP4  C3   2H3   SING  8 
+IP4  C4   C5    SING  9 
+IP4  C4   1H4   SING  10
+IP4  C4   2H4   SING  11
+IP4  C5   CM2   SING  12
+IP4  C5   CM3   SING  13
+IP4  CM1  1HM1  SING  14
+IP4  CM1  2HM1  SING  15
+IP4  CM1  3HM1  SING  16
+IP4  CM2  1HM2  SING  17
+IP4  CM2  2HM2  SING  18
+IP4  CM2  3HM2  SING  19
+IP4  CM3  1HM3  SING  20
+IP4  CM3  2HM3  SING  21
+IP4  CM3  3HM3  SING  22
+#

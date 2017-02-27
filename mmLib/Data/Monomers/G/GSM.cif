@@ -1,0 +1,111 @@
+data_GSM
+#
+_chem_comp.id                   GSM
+_chem_comp.name                 L-GAMMA-GLUTAMYL-S-METHYLCYSTEINYLGLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N3 O6 S1'
+_chem_comp.pdbx_synonyms        S-METHYL-GLUTATHIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSM  O32   .  O  0  33.262  9.933   23.671  1  1 
+GSM  C3    .  C  0  33.556  11.134  23.491  1  2 
+GSM  O31   .  O  0  32.758  12.078  23.668  1  3 
+GSM  CA3   .  C  0  34.944  11.474  23.029  1  4 
+GSM  N3    .  N  0  35.796  10.290  22.920  1  5 
+GSM  C2    .  C  0  36.510  9.718   23.883  1  6 
+GSM  O2    .  O  0  36.483  10.166  25.012  1  7 
+GSM  CA2   .  C  0  37.358  8.519   23.508  1  8 
+GSM  CB2   .  C  0  38.681  8.614   24.293  1  9 
+GSM  SG2   .  S  0  39.927  7.435   23.839  1  10
+GSM  C4    .  C  0  39.769  6.228   25.123  1  11
+GSM  N2    .  N  0  37.735  8.623   22.094  1  12
+GSM  CD1   .  C  0  37.645  7.656   21.173  1  13
+GSM  OE1   .  O  0  37.253  6.519   21.379  1  14
+GSM  CG1   .  C  0  38.103  8.042   19.790  1  15
+GSM  CB1   .  C  0  38.498  6.792   19.009  1  16
+GSM  CA1   .  C  0  38.675  7.119   17.522  1  17
+GSM  N1    .  N  0  38.533  5.909   16.726  1  18
+GSM  C1    .  C  0  39.999  7.789   17.220  1  19
+GSM  O11   .  O  0  40.179  9.025   17.370  1  20
+GSM  O12   .  O  0  40.918  7.063   16.810  1  21
+GSM  1H4   .  H  0  ?       ?       ?       0  22
+GSM  2H4   .  H  0  ?       ?       ?       0  23
+GSM  3H4   .  H  0  ?       ?       ?       0  24
+GSM  1HB2  .  H  0  ?       ?       ?       0  25
+GSM  2HB2  .  H  0  ?       ?       ?       0  26
+GSM  HA2   .  H  0  ?       ?       ?       1  27
+GSM  HN2   .  H  0  ?       ?       ?       1  28
+GSM  1HG1  .  H  0  ?       ?       ?       0  29
+GSM  2HG1  .  H  0  ?       ?       ?       0  30
+GSM  1HB1  .  H  0  ?       ?       ?       0  31
+GSM  2HB1  .  H  0  ?       ?       ?       0  32
+GSM  HA1   .  H  0  ?       ?       ?       1  33
+GSM  1HN1  .  H  0  ?       ?       ?       0  34
+GSM  2HN1  .  H  0  ?       ?       ?       0  35
+GSM  H11   .  H  0  ?       ?       ?       1  36
+GSM  HN3   .  H  0  ?       ?       ?       1  37
+GSM  1HA3  .  H  0  ?       ?       ?       0  38
+GSM  2HA3  .  H  0  ?       ?       ?       0  39
+GSM  H32   .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSM  O32  C3    SING  1 
+GSM  O32  H32   SING  2 
+GSM  C3   CA3   SING  3 
+GSM  C3   O31   DOUB  4 
+GSM  CA3  N3    SING  5 
+GSM  CA3  1HA3  SING  6 
+GSM  CA3  2HA3  SING  7 
+GSM  N3   C2    SING  8 
+GSM  N3   HN3   SING  9 
+GSM  C2   CA2   SING  10
+GSM  C2   O2    DOUB  11
+GSM  CA2  CB2   SING  12
+GSM  CA2  N2    SING  13
+GSM  CA2  HA2   SING  14
+GSM  CB2  SG2   SING  15
+GSM  CB2  1HB2  SING  16
+GSM  CB2  2HB2  SING  17
+GSM  SG2  C4    SING  18
+GSM  C4   1H4   SING  19
+GSM  C4   2H4   SING  20
+GSM  C4   3H4   SING  21
+GSM  N2   CD1   SING  22
+GSM  N2   HN2   SING  23
+GSM  CD1  OE1   DOUB  24
+GSM  CD1  CG1   SING  25
+GSM  CG1  CB1   SING  26
+GSM  CG1  1HG1  SING  27
+GSM  CG1  2HG1  SING  28
+GSM  CB1  CA1   SING  29
+GSM  CB1  1HB1  SING  30
+GSM  CB1  2HB1  SING  31
+GSM  CA1  N1    SING  32
+GSM  CA1  C1    SING  33
+GSM  CA1  HA1   SING  34
+GSM  N1   1HN1  SING  35
+GSM  N1   2HN1  SING  36
+GSM  C1   O11   SING  37
+GSM  C1   O12   DOUB  38
+GSM  O11  H11   SING  39
+#

@@ -1,0 +1,71 @@
+data_680
+#
+_chem_comp.id                   680
+_chem_comp.name                 6-METHYLAMINO-5-NITROISOCYTOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N5 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        185.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+680  O3    .  O  -1  -78.468  87.164  94.649  1  1 
+680  N3    .  N  1   -79.147  86.951  93.642  1  2 
+680  O2    .  O  0   -80.024  87.739  93.519  1  3 
+680  C2    .  C  0   -78.918  85.947  92.714  1  4 
+680  C1    .  C  0   -77.891  84.992  92.939  1  5 
+680  N2    .  N  0   -77.086  85.037  93.997  1  6 
+680  C5    .  C  0   -76.075  83.999  94.215  1  7 
+680  N1    .  N  0   -77.678  83.998  92.034  1  8 
+680  C4    .  C  0   -78.428  83.902  90.933  1  9 
+680  N5    .  N  0   -78.160  82.909  90.084  1  10
+680  N4    .  N  0   -79.455  84.803  90.666  1  11
+680  C3    .  C  0   -79.701  85.796  91.561  1  12
+680  O1    .  O  0   -80.709  86.620  91.251  1  13
+680  1H5   .  H  0   ?        ?       ?       0  14
+680  2H5   .  H  0   ?        ?       ?       0  15
+680  3H5   .  H  0   ?        ?       ?       0  16
+680  HN2   .  H  0   ?        ?       ?       1  17
+680  HN4   .  H  0   ?        ?       ?       1  18
+680  1HN5  .  H  0   ?        ?       ?       0  19
+680  2HN5  .  H  0   ?        ?       ?       0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+680  O3  N3    SING  1 
+680  N3  C2    SING  2 
+680  N3  O2    DOUB  3 
+680  C2  C1    DOUB  4 
+680  C2  C3    SING  5 
+680  C1  N2    SING  6 
+680  C1  N1    SING  7 
+680  N2  C5    SING  8 
+680  N2  HN2   SING  9 
+680  C5  1H5   SING  10
+680  C5  2H5   SING  11
+680  C5  3H5   SING  12
+680  N1  C4    DOUB  13
+680  C4  N4    SING  14
+680  C4  N5    SING  15
+680  N5  1HN5  SING  16
+680  N5  2HN5  SING  17
+680  N4  C3    SING  18
+680  N4  HN4   SING  19
+680  C3  O1    DOUB  20
+#

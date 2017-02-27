@@ -1,0 +1,105 @@
+data_I
+#
+_chem_comp.id                   I
+_chem_comp.name                 'INOSINIC ACID'
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C10 H13 N4 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        348.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+I  O3P   .  O  0  ?  ?  ?  1  1 
+I  P     .  P  0  ?  ?  ?  1  2 
+I  O1P   .  O  0  ?  ?  ?  1  3 
+I  O2P   .  O  0  ?  ?  ?  1  4 
+I  O5*   .  O  0  ?  ?  ?  1  5 
+I  C5*   .  C  0  ?  ?  ?  1  6 
+I  C4*   .  C  0  ?  ?  ?  1  7 
+I  O4*   .  O  0  ?  ?  ?  1  8 
+I  C3*   .  C  0  ?  ?  ?  1  9 
+I  O3*   .  O  0  ?  ?  ?  1  10
+I  C2*   .  C  0  ?  ?  ?  1  11
+I  O2*   .  O  0  ?  ?  ?  1  12
+I  C1*   .  C  0  ?  ?  ?  1  13
+I  N9    .  N  0  ?  ?  ?  1  14
+I  C8    .  C  0  ?  ?  ?  1  15
+I  N7    .  N  0  ?  ?  ?  1  16
+I  C5    .  C  0  ?  ?  ?  1  17
+I  C6    .  C  0  ?  ?  ?  1  18
+I  O6    .  O  0  ?  ?  ?  1  19
+I  N1    .  N  0  ?  ?  ?  1  20
+I  C2    .  C  0  ?  ?  ?  1  21
+I  N3    .  N  0  ?  ?  ?  1  22
+I  C4    .  C  0  ?  ?  ?  1  23
+I  3HOP  .  H  0  ?  ?  ?  0  24
+I  2HOP  .  H  0  ?  ?  ?  0  25
+I  1H5*  .  H  0  ?  ?  ?  0  26
+I  2H5*  .  H  0  ?  ?  ?  0  27
+I  H4*   .  H  0  ?  ?  ?  1  28
+I  H3*   .  H  0  ?  ?  ?  1  29
+I  H2*   .  H  0  ?  ?  ?  1  30
+I  2HO*  .  H  0  ?  ?  ?  0  31
+I  H1*   .  H  0  ?  ?  ?  1  32
+I  H8    .  H  0  ?  ?  ?  1  33
+I  H1    .  H  0  ?  ?  ?  1  34
+I  H2    .  H  0  ?  ?  ?  1  35
+I  H3T   .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+I  O3P  P     SING  1 
+I  O3P  3HOP  SING  2 
+I  P    O1P   DOUB  3 
+I  P    O2P   SING  4 
+I  P    O5*   SING  5 
+I  O2P  2HOP  SING  6 
+I  O5*  C5*   SING  7 
+I  C5*  C4*   SING  8 
+I  C5*  1H5*  SING  9 
+I  C5*  2H5*  SING  10
+I  C4*  O4*   SING  11
+I  C4*  C3*   SING  12
+I  C4*  H4*   SING  13
+I  O4*  C1*   SING  14
+I  C3*  O3*   SING  15
+I  C3*  C2*   SING  16
+I  C3*  H3*   SING  17
+I  O3*  H3T   SING  18
+I  C2*  O2*   SING  19
+I  C2*  C1*   SING  20
+I  C2*  H2*   SING  21
+I  O2*  2HO*  SING  22
+I  C1*  N9    SING  23
+I  C1*  H1*   SING  24
+I  N9   C8    SING  25
+I  N9   C4    SING  26
+I  C8   N7    DOUB  27
+I  C8   H8    SING  28
+I  N7   C5    SING  29
+I  C5   C6    SING  30
+I  C5   C4    DOUB  31
+I  C6   O6    DOUB  32
+I  C6   N1    SING  33
+I  N1   C2    SING  34
+I  N1   H1    SING  35
+I  C2   N3    DOUB  36
+I  C2   H2    SING  37
+I  N3   C4    SING  38
+#

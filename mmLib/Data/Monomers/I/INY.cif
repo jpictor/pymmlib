@@ -1,0 +1,108 @@
+data_INY
+#
+_chem_comp.id                   INY
+_chem_comp.name                 CARPROPAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N1 O1 CL3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        334.672
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+INY  CL1   .  CL  0  ?  ?  ?  0  1 
+INY  C1    .  C   0  ?  ?  ?  1  2 
+INY  C2A   .  C   0  ?  ?  ?  1  3 
+INY  C3A   .  C   0  ?  ?  ?  1  4 
+INY  C4    .  C   0  ?  ?  ?  1  5 
+INY  C3B   .  C   0  ?  ?  ?  1  6 
+INY  C2B   .  C   0  ?  ?  ?  1  7 
+INY  C5    .  C   0  ?  ?  ?  1  8 
+INY  C6    .  C   0  ?  ?  ?  1  9 
+INY  N1    .  N   0  ?  ?  ?  1  10
+INY  C7    .  C   0  ?  ?  ?  1  11
+INY  O1    .  O   0  ?  ?  ?  1  12
+INY  C8    .  C   0  ?  ?  ?  1  13
+INY  C9A   .  C   0  ?  ?  ?  1  14
+INY  CL15  .  CL  0  ?  ?  ?  0  15
+INY  CL16  .  CL  0  ?  ?  ?  0  16
+INY  C9B   .  C   0  ?  ?  ?  1  17
+INY  C     .  C   0  ?  ?  ?  1  18
+INY  C17   .  C   0  ?  ?  ?  1  19
+INY  C12   .  C   0  ?  ?  ?  1  20
+INY  H2B   .  H   0  ?  ?  ?  1  21
+INY  H3B   .  H   0  ?  ?  ?  1  22
+INY  H3A   .  H   0  ?  ?  ?  1  23
+INY  H2A   .  H   0  ?  ?  ?  1  24
+INY  H5    .  H   0  ?  ?  ?  1  25
+INY  1H6   .  H   0  ?  ?  ?  0  26
+INY  2H6   .  H   0  ?  ?  ?  0  27
+INY  3H6   .  H   0  ?  ?  ?  0  28
+INY  H99   .  H   0  ?  ?  ?  1  29
+INY  H1    .  H   0  ?  ?  ?  1  30
+INY  H2    .  H   0  ?  ?  ?  1  31
+INY  H3    .  H   0  ?  ?  ?  1  32
+INY  1H17  .  H   0  ?  ?  ?  0  33
+INY  2H17  .  H   0  ?  ?  ?  0  34
+INY  H9B   .  H   0  ?  ?  ?  1  35
+INY  1H12  .  H   0  ?  ?  ?  0  36
+INY  2H12  .  H   0  ?  ?  ?  0  37
+INY  3H12  .  H   0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+INY  CL1  C1    SING  1 
+INY  C1   C2A   DOUB  2 
+INY  C1   C2B   SING  3 
+INY  C2A  C3A   SING  4 
+INY  C2A  H2A   SING  5 
+INY  C3A  C4    DOUB  6 
+INY  C3A  H3A   SING  7 
+INY  C4   C3B   SING  8 
+INY  C4   C5    SING  9 
+INY  C3B  C2B   DOUB  10
+INY  C3B  H3B   SING  11
+INY  C2B  H2B   SING  12
+INY  C5   C6    SING  13
+INY  C5   N1    SING  14
+INY  C5   H5    SING  15
+INY  C6   1H6   SING  16
+INY  C6   2H6   SING  17
+INY  C6   3H6   SING  18
+INY  N1   C7    SING  19
+INY  N1   H99   SING  20
+INY  C7   O1    DOUB  21
+INY  C7   C8    SING  22
+INY  C8   C9A   SING  23
+INY  C8   C9B   SING  24
+INY  C8   C17   SING  25
+INY  C9A  CL15  SING  26
+INY  C9A  CL16  SING  27
+INY  C9A  C9B   SING  28
+INY  C9B  C12   SING  29
+INY  C9B  H9B   SING  30
+INY  C    C17   SING  31
+INY  C    H1    SING  32
+INY  C    H2    SING  33
+INY  C    H3    SING  34
+INY  C17  1H17  SING  35
+INY  C17  2H17  SING  36
+INY  C12  1H12  SING  37
+INY  C12  2H12  SING  38
+INY  C12  3H12  SING  39
+#

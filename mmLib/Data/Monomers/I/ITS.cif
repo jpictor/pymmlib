@@ -1,0 +1,119 @@
+data_ITS
+#
+_chem_comp.id                   ITS
+_chem_comp.name                 'INOSITOL 1,3,4,5-TETRAKISPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H16 O18 P4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        500.077
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ITS  C1   .  C  0  ?  ?  ?  1  1 
+ITS  O1   .  O  0  ?  ?  ?  1  2 
+ITS  C2   .  C  0  ?  ?  ?  1  3 
+ITS  O2   .  O  0  ?  ?  ?  1  4 
+ITS  C3   .  C  0  ?  ?  ?  1  5 
+ITS  O3   .  O  0  ?  ?  ?  1  6 
+ITS  C4   .  C  0  ?  ?  ?  1  7 
+ITS  O4   .  O  0  ?  ?  ?  1  8 
+ITS  C5   .  C  0  ?  ?  ?  1  9 
+ITS  O5   .  O  0  ?  ?  ?  1  10
+ITS  C6   .  C  0  ?  ?  ?  1  11
+ITS  O6   .  O  0  ?  ?  ?  1  12
+ITS  P1   .  P  0  ?  ?  ?  1  13
+ITS  OP1  .  O  0  ?  ?  ?  1  14
+ITS  OP2  .  O  0  ?  ?  ?  1  15
+ITS  OP3  .  O  0  ?  ?  ?  1  16
+ITS  P3   .  P  0  ?  ?  ?  1  17
+ITS  O10  .  O  0  ?  ?  ?  1  18
+ITS  O11  .  O  0  ?  ?  ?  1  19
+ITS  O12  .  O  0  ?  ?  ?  1  20
+ITS  P4   .  P  0  ?  ?  ?  1  21
+ITS  OP4  .  O  0  ?  ?  ?  1  22
+ITS  OP5  .  O  0  ?  ?  ?  1  23
+ITS  OP6  .  O  0  ?  ?  ?  1  24
+ITS  P5   .  P  0  ?  ?  ?  1  25
+ITS  OP7  .  O  0  ?  ?  ?  1  26
+ITS  OP8  .  O  0  ?  ?  ?  1  27
+ITS  OP9  .  O  0  ?  ?  ?  1  28
+ITS  H1   .  H  0  ?  ?  ?  1  29
+ITS  H2   .  H  0  ?  ?  ?  1  30
+ITS  HO   .  H  0  ?  ?  ?  1  31
+ITS  H3   .  H  0  ?  ?  ?  1  32
+ITS  H4   .  H  0  ?  ?  ?  1  33
+ITS  H5   .  H  0  ?  ?  ?  1  34
+ITS  H6   .  H  0  ?  ?  ?  1  35
+ITS  HO6  .  H  0  ?  ?  ?  1  36
+ITS  HO2  .  H  0  ?  ?  ?  1  37
+ITS  HO3  .  H  0  ?  ?  ?  1  38
+ITS  HOB  .  H  0  ?  ?  ?  1  39
+ITS  HOC  .  H  0  ?  ?  ?  1  40
+ITS  HO4  .  H  0  ?  ?  ?  1  41
+ITS  HO5  .  H  0  ?  ?  ?  1  42
+ITS  HO7  .  H  0  ?  ?  ?  1  43
+ITS  HO8  .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ITS  C1   O1   SING  1 
+ITS  C1   C2   SING  2 
+ITS  C1   C6   SING  3 
+ITS  C1   H1   SING  4 
+ITS  O1   P1   SING  5 
+ITS  C2   O2   SING  6 
+ITS  C2   C3   SING  7 
+ITS  C2   H2   SING  8 
+ITS  O2   HO   SING  9 
+ITS  C3   O3   SING  10
+ITS  C3   C4   SING  11
+ITS  C3   H3   SING  12
+ITS  O3   P3   SING  13
+ITS  C4   O4   SING  14
+ITS  C4   C5   SING  15
+ITS  C4   H4   SING  16
+ITS  O4   P4   SING  17
+ITS  C5   O5   SING  18
+ITS  C5   C6   SING  19
+ITS  C5   H5   SING  20
+ITS  O5   P5   SING  21
+ITS  C6   O6   SING  22
+ITS  C6   H6   SING  23
+ITS  O6   HO6  SING  24
+ITS  P1   OP1  DOUB  25
+ITS  P1   OP2  SING  26
+ITS  P1   OP3  SING  27
+ITS  OP2  HO2  SING  28
+ITS  OP3  HO3  SING  29
+ITS  P3   O10  DOUB  30
+ITS  P3   O11  SING  31
+ITS  P3   O12  SING  32
+ITS  O11  HOB  SING  33
+ITS  O12  HOC  SING  34
+ITS  P4   OP4  SING  35
+ITS  P4   OP5  SING  36
+ITS  P4   OP6  DOUB  37
+ITS  OP4  HO4  SING  38
+ITS  OP5  HO5  SING  39
+ITS  P5   OP7  SING  40
+ITS  P5   OP8  SING  41
+ITS  P5   OP9  DOUB  42
+ITS  OP7  HO7  SING  43
+ITS  OP8  HO8  SING  44
+#

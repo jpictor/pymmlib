@@ -1,0 +1,109 @@
+data_I3S
+#
+_chem_comp.id                   I3S
+_chem_comp.name                 (1S,3S,4S)-1,3,4-TRIPHOSPHO-MYO-INOSITOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 O15 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        420.097
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+I3S  O11  .  O  0  25.702  -9.243   13.720  1  1 
+I3S  P3   .  P  0  25.071  -10.165  12.545  1  2 
+I3S  O12  .  O  0  23.717  -10.797  13.172  1  3 
+I3S  O10  .  O  0  26.029  -11.200  12.090  1  4 
+I3S  O3   .  O  0  24.662  -9.176   11.343  1  5 
+I3S  C3   .  C  0  23.636  -8.204   11.525  1  6 
+I3S  C2   .  C  0  24.263  -6.814   11.759  1  7 
+I3S  O2   .  O  0  25.201  -6.513   10.715  1  8 
+I3S  C1   .  C  0  23.181  -5.716   11.848  1  9 
+I3S  O1   .  O  0  23.783  -4.422   11.800  1  10
+I3S  P1   .  P  0  23.389  -3.260   12.868  1  11
+I3S  OP2  .  O  0  22.970  -4.009   14.239  1  12
+I3S  OP3  .  O  0  22.035  -2.559   12.329  1  13
+I3S  OP1  .  O  0  24.513  -2.316   13.069  1  14
+I3S  C6   .  C  0  22.154  -5.798   10.710  1  15
+I3S  O6   .  O  0  21.096  -4.898   11.002  1  16
+I3S  C5   .  C  0  21.576  -7.201   10.547  1  17
+I3S  O5   .  O  0  20.659  -7.230   9.454   1  18
+I3S  C4   .  C  0  22.706  -8.195   10.303  1  19
+I3S  O4   .  O  0  22.152  -9.488   10.070  1  20
+I3S  P4   .  P  0  22.307  -10.186  8.614   1  21
+I3S  OP5  .  O  0  21.787  -11.678  8.890   1  22
+I3S  OP6  .  O  0  21.220  -9.525   7.622   1  23
+I3S  OP4  .  O  0  23.687  -10.130  8.069   1  24
+I3S  HO6  .  H  0  ?       ?        ?       1  25
+I3S  H6   .  H  0  ?       ?        ?       1  26
+I3S  H5   .  H  0  ?       ?        ?       1  27
+I3S  HO5  .  H  0  ?       ?        ?       1  28
+I3S  H4   .  H  0  ?       ?        ?       1  29
+I3S  HP5  .  H  0  ?       ?        ?       1  30
+I3S  HP6  .  H  0  ?       ?        ?       1  31
+I3S  H3   .  H  0  ?       ?        ?       1  32
+I3S  H11  .  H  0  ?       ?        ?       1  33
+I3S  H12  .  H  0  ?       ?        ?       1  34
+I3S  H2   .  H  0  ?       ?        ?       1  35
+I3S  HO2  .  H  0  ?       ?        ?       1  36
+I3S  H1   .  H  0  ?       ?        ?       1  37
+I3S  HP3  .  H  0  ?       ?        ?       1  38
+I3S  HP1  .  H  0  ?       ?        ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+I3S  O11  P3   SING  1 
+I3S  O11  H11  SING  2 
+I3S  P3   O3   SING  3 
+I3S  P3   O12  SING  4 
+I3S  P3   O10  DOUB  5 
+I3S  O12  H12  SING  6 
+I3S  O3   C3   SING  7 
+I3S  C3   C4   SING  8 
+I3S  C3   C2   SING  9 
+I3S  C3   H3   SING  10
+I3S  C2   O2   SING  11
+I3S  C2   C1   SING  12
+I3S  C2   H2   SING  13
+I3S  O2   HO2  SING  14
+I3S  C1   C6   SING  15
+I3S  C1   O1   SING  16
+I3S  C1   H1   SING  17
+I3S  O1   P1   SING  18
+I3S  P1   OP2  DOUB  19
+I3S  P1   OP3  SING  20
+I3S  P1   OP1  SING  21
+I3S  OP3  HP3  SING  22
+I3S  OP1  HP1  SING  23
+I3S  C6   O6   SING  24
+I3S  C6   C5   SING  25
+I3S  C6   H6   SING  26
+I3S  O6   HO6  SING  27
+I3S  C5   O5   SING  28
+I3S  C5   C4   SING  29
+I3S  C5   H5   SING  30
+I3S  O5   HO5  SING  31
+I3S  C4   O4   SING  32
+I3S  C4   H4   SING  33
+I3S  O4   P4   SING  34
+I3S  P4   OP5  SING  35
+I3S  P4   OP6  SING  36
+I3S  P4   OP4  DOUB  37
+I3S  OP5  HP5  SING  38
+I3S  OP6  HP6  SING  39
+#

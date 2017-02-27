@@ -1,0 +1,94 @@
+data_175
+#
+_chem_comp.id                       175
+_chem_comp.name                     3,5-DIHYDRO-5-METHYLIDENE-4H-IMIDAZOL-4-ON
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H16 N4 O3'
+_chem_comp.mon_nstd_parent_comp_id  'ALA, SER, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            216.239
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+175  N     .  N  0  99.942   43.781  81.690  1  1 
+175  C0    .  C  0  101.121  43.579  82.499  1  2 
+175  C2    .  C  0  101.775  44.821  83.113  1  3 
+175  CB    .  C  0  102.139  42.756  81.699  1  4 
+175  N2    .  N  0  102.861  45.359  82.824  1  5 
+175  C3    .  C  0  103.048  46.626  83.576  1  6 
+175  C5    .  C  0  101.777  46.636  84.329  1  7 
+175  O6    .  O  0  101.377  47.660  84.958  1  8 
+175  C4    .  C  0  104.141  47.584  83.544  1  9 
+175  N0    .  N  0  101.031  45.544  84.095  1  10
+175  CA    .  C  0  99.666   45.986  83.658  1  11
+175  N5    .  N  0  104.192  48.337  84.840  1  12
+175  C     .  C  0  98.802   46.671  82.613  1  13
+175  O     .  O  0  99.233   46.711  81.468  1  14
+175  OXT   .  O  0  ?        ?       ?       1  15
+175  HXT   .  H  0  ?        ?       ?       1  16
+175  1HA   .  H  0  ?        ?       ?       0  17
+175  2HA   .  H  0  ?        ?       ?       0  18
+175  2HN   .  H  0  ?        ?       ?       0  19
+175  H3    .  H  0  ?        ?       ?       1  20
+175  1H4   .  H  0  ?        ?       ?       0  21
+175  2H4   .  H  0  ?        ?       ?       0  22
+175  1HN5  .  H  0  ?        ?       ?       0  23
+175  2HN5  .  H  0  ?        ?       ?       0  24
+175  H2    .  H  0  ?        ?       ?       1  25
+175  HC0   .  H  0  ?        ?       ?       1  26
+175  1HB   .  H  0  ?        ?       ?       0  27
+175  2HB   .  H  0  ?        ?       ?       0  28
+175  3HB   .  H  0  ?        ?       ?       0  29
+175  H     .  H  0  ?        ?       ?       1  30
+175  HN2   .  H  0  ?        ?       ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+175  N    C0    SING  1 
+175  N    H     SING  2 
+175  N    HN2   SING  3 
+175  C0   C2    SING  4 
+175  C0   CB    SING  5 
+175  C0   HC0   SING  6 
+175  C2   N2    SING  7 
+175  C2   N0    SING  8 
+175  C2   H2    SING  9 
+175  CB   1HB   SING  10
+175  CB   2HB   SING  11
+175  CB   3HB   SING  12
+175  N2   C3    SING  13
+175  N2   2HN   SING  14
+175  C3   C5    SING  15
+175  C3   C4    SING  16
+175  C3   H3    SING  17
+175  C5   O6    DOUB  18
+175  C5   N0    SING  19
+175  C4   N5    SING  20
+175  C4   1H4   SING  21
+175  C4   2H4   SING  22
+175  N0   CA    SING  23
+175  CA   C     SING  24
+175  CA   1HA   SING  25
+175  CA   2HA   SING  26
+175  N5   1HN5  SING  27
+175  N5   2HN5  SING  28
+175  C    O     DOUB  29
+175  C    OXT   SING  30
+175  OXT  HXT   SING  31
+#

@@ -1,0 +1,108 @@
+data_1RB
+#
+_chem_comp.id                   1RB
+_chem_comp.name                 1-ALPHA-D-RIBOFURANOSYL-BENZIMIAZOLE-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N2 O7 P1'
+_chem_comp.pdbx_synonyms        'ALPHA-RIBAZOLE-5'-PHOSPHATE DERIVATIVE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.233
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1RB  N3    .  N  0  56.347  41.611  14.094  1  1 
+1RB  N1    .  N  0  56.621  40.906  11.923  1  2 
+1RB  C2    .  C  0  55.848  40.934  13.053  1  3 
+1RB  C7A   .  C  0  57.762  41.669  12.327  1  4 
+1RB  C3A   .  C  0  57.564  42.105  13.693  1  5 
+1RB  C4    .  C  0  58.538  42.896  14.369  1  6 
+1RB  C5    .  C  0  59.714  43.259  13.687  1  7 
+1RB  C6    .  C  0  59.933  42.839  12.324  1  8 
+1RB  C7    .  C  0  58.968  42.052  11.643  1  9 
+1RB  P     .  P  0  59.270  39.315  6.026   1  10
+1RB  O1P   .  O  0  59.049  38.066  5.233   1  11
+1RB  O2P   .  O  0  59.548  40.466  5.115   1  12
+1RB  O3P   .  O  0  60.434  39.125  6.952   1  13
+1RB  O5*   .  O  0  57.956  39.641  6.898   1  14
+1RB  C5*   .  C  0  57.469  38.691  7.845   1  15
+1RB  C4*   .  C  0  57.951  39.095  9.241   1  16
+1RB  O4*   .  O  0  57.405  40.397  9.653   1  17
+1RB  C3*   .  C  0  57.525  38.167  10.365  1  18
+1RB  O3*   .  O  0  58.402  38.248  11.510  1  19
+1RB  C2*   .  C  0  56.152  38.717  10.655  1  20
+1RB  O2*   .  O  0  55.702  38.225  11.919  1  21
+1RB  C1*   .  C  0  56.334  40.224  10.584  1  22
+1RB  2HOP  .  H  0  ?       ?       ?       0  23
+1RB  3HOP  .  H  0  ?       ?       ?       0  24
+1RB  1H5*  .  H  0  ?       ?       ?       0  25
+1RB  2H5*  .  H  0  ?       ?       ?       0  26
+1RB  H4*   .  H  0  ?       ?       ?       1  27
+1RB  H3*   .  H  0  ?       ?       ?       1  28
+1RB  H2*   .  H  0  ?       ?       ?       1  29
+1RB  H1*   .  H  0  ?       ?       ?       1  30
+1RB  2HO2  .  H  0  ?       ?       ?       0  31
+1RB  3HO2  .  H  0  ?       ?       ?       0  32
+1RB  H2    .  H  0  ?       ?       ?       1  33
+1RB  H4    .  H  0  ?       ?       ?       1  34
+1RB  H5    .  H  0  ?       ?       ?       1  35
+1RB  H6    .  H  0  ?       ?       ?       1  36
+1RB  H7    .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1RB  N3   C2    AROM  1 
+1RB  N3   C3A   AROM  2 
+1RB  N1   C2    AROM  3 
+1RB  N1   C7A   AROM  4 
+1RB  N1   C1*   SING  5 
+1RB  C2   H2    SING  6 
+1RB  C7A  C3A   AROM  7 
+1RB  C7A  C7    AROM  8 
+1RB  C3A  C4    AROM  9 
+1RB  C4   C5    AROM  10
+1RB  C4   H4    SING  11
+1RB  C5   C6    AROM  12
+1RB  C5   H5    SING  13
+1RB  C6   C7    AROM  14
+1RB  C6   H6    SING  15
+1RB  C7   H7    SING  16
+1RB  P    O1P   DOUB  17
+1RB  P    O2P   SING  18
+1RB  P    O3P   SING  19
+1RB  P    O5*   SING  20
+1RB  O2P  2HOP  SING  21
+1RB  O3P  3HOP  SING  22
+1RB  O5*  C5*   SING  23
+1RB  C5*  C4*   SING  24
+1RB  C5*  1H5*  SING  25
+1RB  C5*  2H5*  SING  26
+1RB  C4*  O4*   SING  27
+1RB  C4*  C3*   SING  28
+1RB  C4*  H4*   SING  29
+1RB  O4*  C1*   SING  30
+1RB  C3*  O3*   SING  31
+1RB  C3*  C2*   SING  32
+1RB  C3*  H3*   SING  33
+1RB  O3*  3HO2  SING  34
+1RB  C2*  O2*   SING  35
+1RB  C2*  C1*   SING  36
+1RB  C2*  H2*   SING  37
+1RB  O2*  2HO2  SING  38
+1RB  C1*  H1*   SING  39
+#

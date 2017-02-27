@@ -1,0 +1,132 @@
+data_AND
+#
+_chem_comp.id                   AND
+_chem_comp.name                 3-BETA-HYDROXY-5-ANDROSTEN-17-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H28 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        288.429
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AND  C1    .  C  0  ?  ?  ?  1  1 
+AND  C2    .  C  0  ?  ?  ?  1  2 
+AND  C3    .  C  0  ?  ?  ?  1  3 
+AND  O3    .  O  0  ?  ?  ?  1  4 
+AND  C4    .  C  0  ?  ?  ?  1  5 
+AND  C5    .  C  0  ?  ?  ?  1  6 
+AND  C6    .  C  0  ?  ?  ?  1  7 
+AND  C7    .  C  0  ?  ?  ?  1  8 
+AND  C8    .  C  0  ?  ?  ?  1  9 
+AND  C9    .  C  0  ?  ?  ?  1  10
+AND  C10   .  C  0  ?  ?  ?  1  11
+AND  C11   .  C  0  ?  ?  ?  1  12
+AND  C12   .  C  0  ?  ?  ?  1  13
+AND  C13   .  C  0  ?  ?  ?  1  14
+AND  C14   .  C  0  ?  ?  ?  1  15
+AND  C15   .  C  0  ?  ?  ?  1  16
+AND  C16   .  C  0  ?  ?  ?  1  17
+AND  C17   .  C  0  ?  ?  ?  1  18
+AND  O17   .  O  0  ?  ?  ?  1  19
+AND  C18   .  C  0  ?  ?  ?  1  20
+AND  C19   .  C  0  ?  ?  ?  1  21
+AND  HO3   .  H  0  ?  ?  ?  1  22
+AND  1H1   .  H  0  ?  ?  ?  0  23
+AND  2H1   .  H  0  ?  ?  ?  0  24
+AND  1H2   .  H  0  ?  ?  ?  0  25
+AND  2H2   .  H  0  ?  ?  ?  0  26
+AND  H3    .  H  0  ?  ?  ?  1  27
+AND  1H4   .  H  0  ?  ?  ?  0  28
+AND  2H4   .  H  0  ?  ?  ?  0  29
+AND  H6    .  H  0  ?  ?  ?  1  30
+AND  1H7   .  H  0  ?  ?  ?  0  31
+AND  2H7   .  H  0  ?  ?  ?  0  32
+AND  H8    .  H  0  ?  ?  ?  1  33
+AND  H9    .  H  0  ?  ?  ?  1  34
+AND  1H11  .  H  0  ?  ?  ?  0  35
+AND  2H11  .  H  0  ?  ?  ?  0  36
+AND  1H12  .  H  0  ?  ?  ?  0  37
+AND  2H12  .  H  0  ?  ?  ?  0  38
+AND  H14   .  H  0  ?  ?  ?  1  39
+AND  1H15  .  H  0  ?  ?  ?  0  40
+AND  2H15  .  H  0  ?  ?  ?  0  41
+AND  1H16  .  H  0  ?  ?  ?  0  42
+AND  2H16  .  H  0  ?  ?  ?  0  43
+AND  1H18  .  H  0  ?  ?  ?  0  44
+AND  2H18  .  H  0  ?  ?  ?  0  45
+AND  3H18  .  H  0  ?  ?  ?  0  46
+AND  1H19  .  H  0  ?  ?  ?  0  47
+AND  2H19  .  H  0  ?  ?  ?  0  48
+AND  3H19  .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AND  C1   C2    SING  1 
+AND  C1   C10   SING  2 
+AND  C1   1H1   SING  3 
+AND  C1   2H1   SING  4 
+AND  C2   C3    SING  5 
+AND  C2   1H2   SING  6 
+AND  C2   2H2   SING  7 
+AND  C3   C4    SING  8 
+AND  C3   O3    SING  9 
+AND  C3   H3    SING  10
+AND  O3   HO3   SING  11
+AND  C4   C5    SING  12
+AND  C4   1H4   SING  13
+AND  C4   2H4   SING  14
+AND  C5   C6    DOUB  15
+AND  C5   C10   SING  16
+AND  C6   C7    SING  17
+AND  C6   H6    SING  18
+AND  C7   C8    SING  19
+AND  C7   1H7   SING  20
+AND  C7   2H7   SING  21
+AND  C8   C9    SING  22
+AND  C8   C14   SING  23
+AND  C8   H8    SING  24
+AND  C9   C10   SING  25
+AND  C9   C11   SING  26
+AND  C9   H9    SING  27
+AND  C10  C19   SING  28
+AND  C11  C12   SING  29
+AND  C11  1H11  SING  30
+AND  C11  2H11  SING  31
+AND  C12  C13   SING  32
+AND  C12  1H12  SING  33
+AND  C12  2H12  SING  34
+AND  C13  C14   SING  35
+AND  C13  C17   SING  36
+AND  C13  C18   SING  37
+AND  C14  C15   SING  38
+AND  C14  H14   SING  39
+AND  C15  C16   SING  40
+AND  C15  1H15  SING  41
+AND  C15  2H15  SING  42
+AND  C16  C17   SING  43
+AND  C16  1H16  SING  44
+AND  C16  2H16  SING  45
+AND  C17  O17   DOUB  46
+AND  C18  1H18  SING  47
+AND  C18  2H18  SING  48
+AND  C18  3H18  SING  49
+AND  C19  1H19  SING  50
+AND  C19  2H19  SING  51
+AND  C19  3H19  SING  52
+#

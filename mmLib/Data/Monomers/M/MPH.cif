@@ -1,0 +1,75 @@
+data_MPH
+#
+_chem_comp.id                   MPH
+_chem_comp.name                 '(1-AMINO-3-METHYLSULFANYL-PROPYL)-PHOSPHONIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H12 N1 O3 P1 S1'
+_chem_comp.pdbx_synonyms        'METHIONINE PHOSPHONATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        185.177
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MPH  N    .  N  0  ?  ?  ?  1  1 
+MPH  CA   .  C  0  ?  ?  ?  1  2 
+MPH  CB   .  C  0  ?  ?  ?  1  3 
+MPH  CG   .  C  0  ?  ?  ?  1  4 
+MPH  SD   .  S  0  ?  ?  ?  1  5 
+MPH  CE   .  C  0  ?  ?  ?  1  6 
+MPH  O1   .  O  0  ?  ?  ?  1  7 
+MPH  O2   .  O  0  ?  ?  ?  1  8 
+MPH  O3   .  O  0  ?  ?  ?  1  9 
+MPH  P    .  P  0  ?  ?  ?  1  10
+MPH  H    .  H  0  ?  ?  ?  1  11
+MPH  HN2  .  H  0  ?  ?  ?  1  12
+MPH  HA   .  H  0  ?  ?  ?  1  13
+MPH  1HB  .  H  0  ?  ?  ?  0  14
+MPH  2HB  .  H  0  ?  ?  ?  0  15
+MPH  1HG  .  H  0  ?  ?  ?  0  16
+MPH  2HG  .  H  0  ?  ?  ?  0  17
+MPH  1HE  .  H  0  ?  ?  ?  0  18
+MPH  2HE  .  H  0  ?  ?  ?  0  19
+MPH  3HE  .  H  0  ?  ?  ?  0  20
+MPH  HO2  .  H  0  ?  ?  ?  1  21
+MPH  HO3  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MPH  N   CA   SING  1 
+MPH  N   H    SING  2 
+MPH  N   HN2  SING  3 
+MPH  CA  P    SING  4 
+MPH  CA  CB   SING  5 
+MPH  CA  HA   SING  6 
+MPH  CB  CG   SING  7 
+MPH  CB  1HB  SING  8 
+MPH  CB  2HB  SING  9 
+MPH  CG  SD   SING  10
+MPH  CG  1HG  SING  11
+MPH  CG  2HG  SING  12
+MPH  SD  CE   SING  13
+MPH  CE  1HE  SING  14
+MPH  CE  2HE  SING  15
+MPH  CE  3HE  SING  16
+MPH  O1  P    DOUB  17
+MPH  O2  P    SING  18
+MPH  O2  HO2  SING  19
+MPH  O3  P    SING  20
+MPH  O3  HO3  SING  21
+#

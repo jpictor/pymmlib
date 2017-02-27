@@ -1,0 +1,74 @@
+data_TEM
+#
+_chem_comp.id                   TEM
+_chem_comp.name                 N-(2-HYDROXY-4-OXO-BUTYL)-N-(3-OXO-TRANSPROPENYL)AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        157.169
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TEM  O1   .  O  0  ?  ?  ?  1  1 
+TEM  C2   .  C  0  ?  ?  ?  1  2 
+TEM  C3   .  C  0  ?  ?  ?  1  3 
+TEM  N4   .  N  0  ?  ?  ?  1  4 
+TEM  C5   .  C  0  ?  ?  ?  1  5 
+TEM  C6   .  C  0  ?  ?  ?  1  6 
+TEM  C7   .  C  0  ?  ?  ?  1  7 
+TEM  O8   .  O  0  ?  ?  ?  1  8 
+TEM  C9   .  C  0  ?  ?  ?  1  9 
+TEM  C10  .  C  0  ?  ?  ?  1  10
+TEM  O11  .  O  0  ?  ?  ?  1  11
+TEM  HO1  .  H  0  ?  ?  ?  1  12
+TEM  H2   .  H  0  ?  ?  ?  1  13
+TEM  1H3  .  H  0  ?  ?  ?  0  14
+TEM  2H3  .  H  0  ?  ?  ?  0  15
+TEM  HN4  .  H  0  ?  ?  ?  1  16
+TEM  H5   .  H  0  ?  ?  ?  1  17
+TEM  H6   .  H  0  ?  ?  ?  1  18
+TEM  H7   .  H  0  ?  ?  ?  1  19
+TEM  1H9  .  H  0  ?  ?  ?  0  20
+TEM  2H9  .  H  0  ?  ?  ?  0  21
+TEM  H10  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TEM  O1   C2   SING  1 
+TEM  O1   HO1  SING  2 
+TEM  C2   C3   SING  3 
+TEM  C2   C9   SING  4 
+TEM  C2   H2   SING  5 
+TEM  C3   N4   SING  6 
+TEM  C3   1H3  SING  7 
+TEM  C3   2H3  SING  8 
+TEM  N4   C5   SING  9 
+TEM  N4   HN4  SING  10
+TEM  C5   C6   DOUB  11
+TEM  C5   H5   SING  12
+TEM  C6   C7   SING  13
+TEM  C6   H6   SING  14
+TEM  C7   O8   DOUB  15
+TEM  C7   H7   SING  16
+TEM  C9   C10  SING  17
+TEM  C9   1H9  SING  18
+TEM  C9   2H9  SING  19
+TEM  C10  O11  DOUB  20
+TEM  C10  H10  SING  21
+#

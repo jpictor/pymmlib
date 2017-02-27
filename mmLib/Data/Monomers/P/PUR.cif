@@ -1,0 +1,95 @@
+data_PUR
+#
+_chem_comp.id                   PUR
+_chem_comp.name                 'PURINE RIBOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N4 O4'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       253.237
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PUR  N1    .  N  0  ?  ?  ?  1  1 
+PUR  C2    .  C  0  ?  ?  ?  1  2 
+PUR  N3    .  N  0  ?  ?  ?  1  3 
+PUR  C4    .  C  0  ?  ?  ?  1  4 
+PUR  C5    .  C  0  ?  ?  ?  1  5 
+PUR  C6    .  C  0  ?  ?  ?  1  6 
+PUR  N7    .  N  1  ?  ?  ?  1  7 
+PUR  C8    .  C  0  ?  ?  ?  1  8 
+PUR  N9    .  N  0  ?  ?  ?  1  9 
+PUR  C1*   .  C  0  ?  ?  ?  1  10
+PUR  C2*   .  C  0  ?  ?  ?  1  11
+PUR  O2*   .  O  0  ?  ?  ?  1  12
+PUR  C3*   .  C  0  ?  ?  ?  1  13
+PUR  O3*   .  O  0  ?  ?  ?  1  14
+PUR  C4*   .  C  0  ?  ?  ?  1  15
+PUR  O4*   .  O  0  ?  ?  ?  1  16
+PUR  C5*   .  C  0  ?  ?  ?  1  17
+PUR  O5*   .  O  0  ?  ?  ?  1  18
+PUR  H2    .  H  0  ?  ?  ?  1  19
+PUR  H6    .  H  0  ?  ?  ?  1  20
+PUR  HN7   .  H  0  ?  ?  ?  1  21
+PUR  H8    .  H  0  ?  ?  ?  1  22
+PUR  H1*   .  H  0  ?  ?  ?  1  23
+PUR  H2*   .  H  0  ?  ?  ?  1  24
+PUR  *HO2  .  H  0  ?  ?  ?  0  25
+PUR  H3*   .  H  0  ?  ?  ?  1  26
+PUR  *HO3  .  H  0  ?  ?  ?  0  27
+PUR  H4*   .  H  0  ?  ?  ?  1  28
+PUR  1H5*  .  H  0  ?  ?  ?  0  29
+PUR  2H5*  .  H  0  ?  ?  ?  0  30
+PUR  *HO5  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PUR  N1   C2    SING  1 
+PUR  N1   C6    DOUB  2 
+PUR  C2   N3    DOUB  3 
+PUR  C2   H2    SING  4 
+PUR  N3   C4    SING  5 
+PUR  C4   C5    DOUB  6 
+PUR  C4   N9    SING  7 
+PUR  C5   C6    SING  8 
+PUR  C5   N7    SING  9 
+PUR  C6   H6    SING  10
+PUR  N7   C8    DOUB  11
+PUR  N7   HN7   SING  12
+PUR  C8   N9    SING  13
+PUR  C8   H8    SING  14
+PUR  N9   C1*   SING  15
+PUR  C1*  C2*   SING  16
+PUR  C1*  O4*   SING  17
+PUR  C1*  H1*   SING  18
+PUR  C2*  C3*   SING  19
+PUR  C2*  O2*   SING  20
+PUR  C2*  H2*   SING  21
+PUR  O2*  *HO2  SING  22
+PUR  C3*  C4*   SING  23
+PUR  C3*  O3*   SING  24
+PUR  C3*  H3*   SING  25
+PUR  O3*  *HO3  SING  26
+PUR  C4*  C5*   SING  27
+PUR  C4*  O4*   SING  28
+PUR  C4*  H4*   SING  29
+PUR  C5*  O5*   SING  30
+PUR  C5*  1H5*  SING  31
+PUR  C5*  2H5*  SING  32
+PUR  O5*  *HO5  SING  33
+#

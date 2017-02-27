@@ -1,0 +1,82 @@
+data_OPP
+#
+_chem_comp.id                   OPP
+_chem_comp.name                 1-[PYRROL-1-YL-2,5-DIONE-METHOXYMETHYL]-PYRROLE-2,5-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H8 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        236.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPP  N     .  N  0  ?  ?  ?  1  1 
+OPP  C1    .  C  0  ?  ?  ?  1  2 
+OPP  O1    .  O  0  ?  ?  ?  1  3 
+OPP  C2    .  C  0  ?  ?  ?  1  4 
+OPP  C3    .  C  0  ?  ?  ?  1  5 
+OPP  C4    .  C  0  ?  ?  ?  1  6 
+OPP  O4    .  O  0  ?  ?  ?  1  7 
+OPP  C5    .  C  0  ?  ?  ?  1  8 
+OPP  O     .  O  0  ?  ?  ?  1  9 
+OPP  C5'   .  C  0  ?  ?  ?  1  10
+OPP  N'    .  N  0  ?  ?  ?  1  11
+OPP  C1'   .  C  0  ?  ?  ?  1  12
+OPP  O1'   .  O  0  ?  ?  ?  1  13
+OPP  C2'   .  C  0  ?  ?  ?  1  14
+OPP  C3'   .  C  0  ?  ?  ?  1  15
+OPP  C4'   .  C  0  ?  ?  ?  1  16
+OPP  O4'   .  O  0  ?  ?  ?  1  17
+OPP  H2    .  H  0  ?  ?  ?  1  18
+OPP  H3    .  H  0  ?  ?  ?  1  19
+OPP  1H5   .  H  0  ?  ?  ?  0  20
+OPP  2H5   .  H  0  ?  ?  ?  0  21
+OPP  H2'   .  H  0  ?  ?  ?  1  22
+OPP  H3'   .  H  0  ?  ?  ?  1  23
+OPP  1H5'  .  H  0  ?  ?  ?  0  24
+OPP  2H5'  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPP  N    C1    SING  1 
+OPP  N    C4    SING  2 
+OPP  N    C5    SING  3 
+OPP  C1   O1    DOUB  4 
+OPP  C1   C2    SING  5 
+OPP  C2   C3    DOUB  6 
+OPP  C2   H2    SING  7 
+OPP  C3   C4    SING  8 
+OPP  C3   H3    SING  9 
+OPP  C4   O4    DOUB  10
+OPP  C5   O     SING  11
+OPP  C5   1H5   SING  12
+OPP  C5   2H5   SING  13
+OPP  O    C5'   SING  14
+OPP  C5'  N'    SING  15
+OPP  C5'  1H5'  SING  16
+OPP  C5'  2H5'  SING  17
+OPP  N'   C1'   SING  18
+OPP  N'   C4'   SING  19
+OPP  C1'  O1'   DOUB  20
+OPP  C1'  C2'   SING  21
+OPP  C2'  C3'   DOUB  22
+OPP  C2'  H2'   SING  23
+OPP  C3'  C4'   SING  24
+OPP  C3'  H3'   SING  25
+OPP  C4'  O4'   DOUB  26
+#

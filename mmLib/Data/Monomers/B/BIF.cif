@@ -1,0 +1,100 @@
+data_BIF
+#
+_chem_comp.id                       BIF
+_chem_comp.name                     '(R)-2-AMINO-3-(4-PHENYLCYCLOHEXYL)PROPANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H15 N1 O2'
+_chem_comp.pdbx_synonyms            BIPHENYLALANINE
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            241.289
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIF  N    .  N  0  42.429  5.150   39.879  1  1 
+BIF  CA   .  C  0  41.374  6.064   40.336  1  2 
+BIF  C    .  C  0  41.938  7.474   40.482  1  3 
+BIF  OXT  .  O  0  43.142  7.688   40.402  1  4 
+BIF  CB   .  C  0  40.859  5.580   41.687  1  5 
+BIF  CG   .  C  0  39.957  4.346   41.752  1  6 
+BIF  CD2  .  C  0  40.243  3.356   42.709  1  7 
+BIF  CE2  .  C  0  39.428  2.220   42.836  1  8 
+BIF  CZ   .  C  0  38.276  2.020   41.999  1  9 
+BIF  CE1  .  C  0  38.012  3.058   41.012  1  10
+BIF  CD1  .  C  0  38.842  4.199   40.893  1  11
+BIF  C8   .  C  0  36.301  -0.738  43.673  1  12
+BIF  C9   .  C  0  35.707  -1.361  42.559  1  13
+BIF  C10  .  C  0  35.956  -0.885  41.253  1  14
+BIF  C11  .  C  0  36.805  0.226   41.055  1  15
+BIF  C12  .  C  0  37.438  0.895   42.159  1  16
+BIF  C13  .  C  0  37.150  0.369   43.480  1  17
+BIF  O    .  O  0  ?       ?       ?       1  18
+BIF  HXT  .  H  0  ?       ?       ?       1  19
+BIF  HA   .  H  0  ?       ?       ?       1  20
+BIF  1HN  .  H  0  ?       ?       ?       0  21
+BIF  2HN  .  H  0  ?       ?       ?       0  22
+BIF  1HB  .  H  0  ?       ?       ?       0  23
+BIF  2HB  .  H  0  ?       ?       ?       0  24
+BIF  HD2  .  H  0  ?       ?       ?       1  25
+BIF  HE2  .  H  0  ?       ?       ?       1  26
+BIF  HE1  .  H  0  ?       ?       ?       1  27
+BIF  HD1  .  H  0  ?       ?       ?       1  28
+BIF  H13  .  H  0  ?       ?       ?       1  29
+BIF  H8   .  H  0  ?       ?       ?       1  30
+BIF  H9   .  H  0  ?       ?       ?       1  31
+BIF  H10  .  H  0  ?       ?       ?       1  32
+BIF  H11  .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIF  N    CA   SING  1 
+BIF  N    1HN  SING  2 
+BIF  N    2HN  SING  3 
+BIF  CA   C    SING  4 
+BIF  CA   HA   SING  5 
+BIF  CA   CB   SING  6 
+BIF  C    OXT  SING  7 
+BIF  C    O    DOUB  8 
+BIF  OXT  HXT  SING  9 
+BIF  CB   1HB  SING  10
+BIF  CB   2HB  SING  11
+BIF  CB   CG   SING  12
+BIF  CG   CD2  AROM  13
+BIF  CG   CD1  AROM  14
+BIF  CD2  HD2  SING  15
+BIF  CD2  CE2  AROM  16
+BIF  CE2  HE2  SING  17
+BIF  CE2  CZ   AROM  18
+BIF  CZ   CE1  AROM  19
+BIF  CZ   C12  SING  20
+BIF  CE1  HE1  SING  21
+BIF  CE1  CD1  AROM  22
+BIF  CD1  HD1  SING  23
+BIF  C8   C13  AROM  24
+BIF  C8   H8   SING  25
+BIF  C8   C9   AROM  26
+BIF  C9   H9   SING  27
+BIF  C9   C10  AROM  28
+BIF  C10  H10  SING  29
+BIF  C10  C11  AROM  30
+BIF  C11  C12  AROM  31
+BIF  C11  H11  SING  32
+BIF  C12  C13  AROM  33
+BIF  C13  H13  SING  34
+#

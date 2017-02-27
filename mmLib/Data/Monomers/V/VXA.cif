@@ -1,0 +1,44 @@
+data_VXA
+#
+_chem_comp.id                   VXA
+_chem_comp.name                 'METHYLPHOSPHONIC ACID ESTER GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H3 O2 P1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       78.007
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VXA  P1   .  P  0   ?  ?  ?  1  1
+VXA  O1   .  O  0   ?  ?  ?  1  2
+VXA  O2   .  O  -1  ?  ?  ?  1  3
+VXA  C1   .  C  0   ?  ?  ?  1  4
+VXA  1H1  .  H  0   ?  ?  ?  0  5
+VXA  2H1  .  H  0   ?  ?  ?  0  6
+VXA  3H1  .  H  0   ?  ?  ?  0  7
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VXA  P1  O1   DOUB  1
+VXA  P1  O2   SING  2
+VXA  P1  C1   SING  3
+VXA  C1  1H1  SING  4
+VXA  C1  2H1  SING  5
+VXA  C1  3H1  SING  6
+#

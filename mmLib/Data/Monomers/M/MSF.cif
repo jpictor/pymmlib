@@ -1,0 +1,52 @@
+data_MSF
+#
+_chem_comp.id                   MSF
+_chem_comp.name                 [METHYLSELENO]ACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 O2 SE1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       152.031
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSF  O5   .  O   0   ?  ?  ?  1  1 
+MSF  O6   .  O   -1  ?  ?  ?  1  2 
+MSF  C1   .  C   0   ?  ?  ?  1  3 
+MSF  C2   .  C   0   ?  ?  ?  1  4 
+MSF  SE3  .  SE  0   ?  ?  ?  0  5 
+MSF  C4   .  C   0   ?  ?  ?  1  6 
+MSF  1H2  .  H   0   ?  ?  ?  0  7 
+MSF  2H2  .  H   0   ?  ?  ?  0  8 
+MSF  1H4  .  H   0   ?  ?  ?  0  9 
+MSF  2H4  .  H   0   ?  ?  ?  0  10
+MSF  3H4  .  H   0   ?  ?  ?  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSF  O5   C1   DOUB  1 
+MSF  O6   C1   SING  2 
+MSF  C1   C2   SING  3 
+MSF  C2   SE3  SING  4 
+MSF  C2   1H2  SING  5 
+MSF  C2   2H2  SING  6 
+MSF  SE3  C4   SING  7 
+MSF  C4   1H4  SING  8 
+MSF  C4   2H4  SING  9 
+MSF  C4   3H4  SING  10
+#

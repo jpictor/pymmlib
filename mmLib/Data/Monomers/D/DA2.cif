@@ -1,0 +1,95 @@
+data_DA2
+#
+_chem_comp.id                   DA2
+_chem_comp.name                 NG,NG-DIMETHYL-L-ARGININE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H18 N4 O2'
+_chem_comp.pdbx_synonyms        ADMA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        202.256
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DA2  C1    .  C  0  ?  ?  ?  1  1 
+DA2  C2    .  C  0  ?  ?  ?  1  2 
+DA2  N     .  N  0  ?  ?  ?  1  3 
+DA2  CA    .  C  0  ?  ?  ?  1  4 
+DA2  CB    .  C  0  ?  ?  ?  1  5 
+DA2  CG    .  C  0  ?  ?  ?  1  6 
+DA2  CD    .  C  0  ?  ?  ?  1  7 
+DA2  NE    .  N  0  ?  ?  ?  1  8 
+DA2  CZ    .  C  0  ?  ?  ?  1  9 
+DA2  NH2   .  N  0  ?  ?  ?  1  10
+DA2  NH1   .  N  0  ?  ?  ?  1  11
+DA2  C     .  C  0  ?  ?  ?  1  12
+DA2  OA1   .  O  0  ?  ?  ?  1  13
+DA2  OA2   .  O  0  ?  ?  ?  1  14
+DA2  HOA2  .  H  0  ?  ?  ?  0  15
+DA2  HCA   .  H  0  ?  ?  ?  1  16
+DA2  1HN   .  H  0  ?  ?  ?  0  17
+DA2  2HN   .  H  0  ?  ?  ?  0  18
+DA2  1HCB  .  H  0  ?  ?  ?  0  19
+DA2  2HCB  .  H  0  ?  ?  ?  0  20
+DA2  1HCG  .  H  0  ?  ?  ?  0  21
+DA2  2HCG  .  H  0  ?  ?  ?  0  22
+DA2  1HCD  .  H  0  ?  ?  ?  0  23
+DA2  2HCD  .  H  0  ?  ?  ?  0  24
+DA2  HNE   .  H  0  ?  ?  ?  1  25
+DA2  HNH2  .  H  0  ?  ?  ?  0  26
+DA2  1HC2  .  H  0  ?  ?  ?  0  27
+DA2  2HC2  .  H  0  ?  ?  ?  0  28
+DA2  3HC2  .  H  0  ?  ?  ?  0  29
+DA2  1HC1  .  H  0  ?  ?  ?  0  30
+DA2  2HC1  .  H  0  ?  ?  ?  0  31
+DA2  3HC1  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DA2  C1   NH1   SING  1 
+DA2  C1   1HC1  SING  2 
+DA2  C1   2HC1  SING  3 
+DA2  C1   3HC1  SING  4 
+DA2  C2   NH1   SING  5 
+DA2  C2   1HC2  SING  6 
+DA2  C2   2HC2  SING  7 
+DA2  C2   3HC2  SING  8 
+DA2  N    CA    SING  9 
+DA2  N    1HN   SING  10
+DA2  N    2HN   SING  11
+DA2  CA   CB    SING  12
+DA2  CA   C     SING  13
+DA2  CA   HCA   SING  14
+DA2  CB   CG    SING  15
+DA2  CB   1HCB  SING  16
+DA2  CB   2HCB  SING  17
+DA2  CG   CD    SING  18
+DA2  CG   1HCG  SING  19
+DA2  CG   2HCG  SING  20
+DA2  CD   NE    SING  21
+DA2  CD   1HCD  SING  22
+DA2  CD   2HCD  SING  23
+DA2  NE   CZ    SING  24
+DA2  NE   HNE   SING  25
+DA2  CZ   NH2   DOUB  26
+DA2  CZ   NH1   SING  27
+DA2  NH2  HNH2  SING  28
+DA2  C    OA1   DOUB  29
+DA2  C    OA2   SING  30
+DA2  OA2  HOA2  SING  31
+#

@@ -1,0 +1,91 @@
+data_MPL
+#
+_chem_comp.id                   MPL
+_chem_comp.name                 N-METHYL-PYRIDOXAL-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       262.179
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MPL  P     .  P  0  ?  ?  ?  1  1 
+MPL  O1P   .  O  0  ?  ?  ?  1  2 
+MPL  O2P   .  O  0  ?  ?  ?  1  3 
+MPL  O3P   .  O  0  ?  ?  ?  1  4 
+MPL  O4P   .  O  0  ?  ?  ?  1  5 
+MPL  C5A   .  C  0  ?  ?  ?  1  6 
+MPL  C5    .  C  0  ?  ?  ?  1  7 
+MPL  N1    .  N  1  ?  ?  ?  1  8 
+MPL  C1    .  C  0  ?  ?  ?  1  9 
+MPL  C6    .  C  0  ?  ?  ?  1  10
+MPL  C2    .  C  0  ?  ?  ?  1  11
+MPL  C2A   .  C  0  ?  ?  ?  1  12
+MPL  C3    .  C  0  ?  ?  ?  1  13
+MPL  O3    .  O  0  ?  ?  ?  1  14
+MPL  C4    .  C  0  ?  ?  ?  1  15
+MPL  C4A   .  C  0  ?  ?  ?  1  16
+MPL  O     .  O  0  ?  ?  ?  1  17
+MPL  2HOP  .  H  0  ?  ?  ?  0  18
+MPL  3HOP  .  H  0  ?  ?  ?  0  19
+MPL  1H5   .  H  0  ?  ?  ?  0  20
+MPL  2H5   .  H  0  ?  ?  ?  0  21
+MPL  1H1   .  H  0  ?  ?  ?  0  22
+MPL  2H1   .  H  0  ?  ?  ?  0  23
+MPL  3H1   .  H  0  ?  ?  ?  0  24
+MPL  H6    .  H  0  ?  ?  ?  1  25
+MPL  1H2   .  H  0  ?  ?  ?  0  26
+MPL  2H2   .  H  0  ?  ?  ?  0  27
+MPL  3H2   .  H  0  ?  ?  ?  0  28
+MPL  HO3   .  H  0  ?  ?  ?  1  29
+MPL  H     .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MPL  P    O1P   DOUB  1 
+MPL  P    O2P   SING  2 
+MPL  P    O3P   SING  3 
+MPL  P    O4P   SING  4 
+MPL  O2P  2HOP  SING  5 
+MPL  O3P  3HOP  SING  6 
+MPL  O4P  C5A   SING  7 
+MPL  C5A  C5    SING  8 
+MPL  C5A  1H5   SING  9 
+MPL  C5A  2H5   SING  10
+MPL  C5   C4    DOUB  11
+MPL  C5   C6    SING  12
+MPL  N1   C1    SING  13
+MPL  N1   C2    SING  14
+MPL  N1   C6    DOUB  15
+MPL  C1   1H1   SING  16
+MPL  C1   2H1   SING  17
+MPL  C1   3H1   SING  18
+MPL  C6   H6    SING  19
+MPL  C2   C2A   SING  20
+MPL  C2   C3    DOUB  21
+MPL  C2A  1H2   SING  22
+MPL  C2A  2H2   SING  23
+MPL  C2A  3H2   SING  24
+MPL  C3   C4    SING  25
+MPL  C3   O3    SING  26
+MPL  O3   HO3   SING  27
+MPL  C4   C4A   SING  28
+MPL  C4A  O     DOUB  29
+MPL  C4A  H     SING  30
+#

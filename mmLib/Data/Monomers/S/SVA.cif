@@ -1,0 +1,69 @@
+data_SVA
+#
+_chem_comp.id                       SVA
+_chem_comp.name                     'SERINE VANADATE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O7 V1'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       3-
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           220.032
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SVA  N    .  N  0   ?  ?  ?  1  1 
+SVA  CA   .  C  0   ?  ?  ?  1  2 
+SVA  CB   .  C  0   ?  ?  ?  1  3 
+SVA  OG   .  O  0   ?  ?  ?  1  4 
+SVA  C    .  C  0   ?  ?  ?  1  5 
+SVA  O    .  O  0   ?  ?  ?  1  6 
+SVA  V    .  V  0   ?  ?  ?  1  7 
+SVA  O1   .  O  -1  ?  ?  ?  1  8 
+SVA  O2   .  O  -1  ?  ?  ?  1  9 
+SVA  O3   .  O  -1  ?  ?  ?  1  10
+SVA  O4   .  O  0   ?  ?  ?  1  11
+SVA  OXT  .  O  0   ?  ?  ?  1  12
+SVA  H    .  H  0   ?  ?  ?  1  13
+SVA  HN2  .  H  0   ?  ?  ?  1  14
+SVA  HA   .  H  0   ?  ?  ?  1  15
+SVA  1HB  .  H  0   ?  ?  ?  0  16
+SVA  2HB  .  H  0   ?  ?  ?  0  17
+SVA  HO4  .  H  0   ?  ?  ?  1  18
+SVA  HXT  .  H  0   ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SVA  N    CA   SING  1 
+SVA  N    H    SING  2 
+SVA  N    HN2  SING  3 
+SVA  CA   CB   SING  4 
+SVA  CA   C    SING  5 
+SVA  CA   HA   SING  6 
+SVA  CB   OG   SING  7 
+SVA  CB   1HB  SING  8 
+SVA  CB   2HB  SING  9 
+SVA  OG   V    SING  10
+SVA  C    O    DOUB  11
+SVA  C    OXT  SING  12
+SVA  V    O1   SING  13
+SVA  V    O2   SING  14
+SVA  V    O3   SING  15
+SVA  V    O4   SING  16
+SVA  O4   HO4  SING  17
+SVA  OXT  HXT  SING  18
+#

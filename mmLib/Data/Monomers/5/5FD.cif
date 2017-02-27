@@ -1,0 +1,89 @@
+data_5FD
+#
+_chem_comp.id                   5FD
+_chem_comp.name                 5'-FLUORO-5'-DEOXYADENOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N5 O3 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5FD  O2*   .  O  0  16.916  28.183  63.306  1  1 
+5FD  C2*   .  C  0  17.104  29.609  63.373  1  2 
+5FD  C3*   .  C  0  17.208  30.069  64.832  1  3 
+5FD  O3*   .  O  0  17.396  28.938  65.704  1  4 
+5FD  C4*   .  C  0  15.826  30.690  65.063  1  5 
+5FD  C5*   .  C  0  15.812  31.813  66.044  1  6 
+5FD  F19   .  F  0  15.919  31.338  67.310  1  7 
+5FD  O4*   .  O  0  15.555  31.316  63.825  1  8 
+5FD  C1*   .  C  0  15.840  30.342  62.869  1  9 
+5FD  N9    .  N  0  16.116  31.051  61.656  1  10
+5FD  C8    .  C  0  17.149  31.877  61.425  1  11
+5FD  N7    .  N  0  17.099  32.351  60.184  1  12
+5FD  C5    .  C  0  16.026  31.797  59.632  1  13
+5FD  C4    .  C  0  15.388  30.977  60.565  1  14
+5FD  N3    .  N  0  14.266  30.284  60.284  1  15
+5FD  C2    .  C  0  13.706  30.368  59.092  1  16
+5FD  N1    .  N  0  14.294  31.181  58.119  1  17
+5FD  C6    .  C  0  15.480  31.910  58.379  1  18
+5FD  N6    .  N  0  16.068  32.685  57.469  1  19
+5FD  HC2   .  H  0  ?       ?       ?       1  20
+5FD  HC8   .  H  0  ?       ?       ?       1  21
+5FD  H2*   .  H  0  ?       ?       ?       1  22
+5FD  HO2   .  H  0  ?       ?       ?       1  23
+5FD  HO3   .  H  0  ?       ?       ?       1  24
+5FD  H4*   .  H  0  ?       ?       ?       1  25
+5FD  1H5*  .  H  0  ?       ?       ?       0  26
+5FD  2H5*  .  H  0  ?       ?       ?       0  27
+5FD  H1*   .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5FD  O2*  C2*   SING  1 
+5FD  O2*  HO2   SING  2 
+5FD  C2*  C3*   SING  3 
+5FD  C2*  C1*   SING  4 
+5FD  C2*  H2*   SING  5 
+5FD  C3*  O3*   SING  6 
+5FD  C3*  C4*   SING  7 
+5FD  O3*  HO3   SING  8 
+5FD  C4*  C5*   SING  9 
+5FD  C4*  O4*   SING  10
+5FD  C4*  H4*   SING  11
+5FD  C5*  F19   SING  12
+5FD  C5*  1H5*  SING  13
+5FD  C5*  2H5*  SING  14
+5FD  O4*  C1*   SING  15
+5FD  C1*  N9    SING  16
+5FD  C1*  H1*   SING  17
+5FD  N9   C8    SING  18
+5FD  N9   C4    SING  19
+5FD  C8   N7    DOUB  20
+5FD  C8   HC8   SING  21
+5FD  N7   C5    SING  22
+5FD  C5   C4    AROM  23
+5FD  C5   C6    AROM  24
+5FD  C4   N3    AROM  25
+5FD  N3   C2    AROM  26
+5FD  C2   N1    AROM  27
+5FD  C2   HC2   SING  28
+5FD  N1   C6    AROM  29
+5FD  C6   N6    DOUB  30
+#

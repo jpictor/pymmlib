@@ -1,0 +1,69 @@
+data_1AL
+#
+_chem_comp.id                   1AL
+_chem_comp.name                 'ALLANTOATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H7 N4 O4'
+_chem_comp.pdbx_synonyms        DIUREIDO-ACETATE
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       175.124
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1AL  C1    .  C  0   61.360  33.287  21.577  1  1 
+1AL  O2    .  O  0   62.431  33.576  21.033  1  2 
+1AL  N3    .  N  0   60.187  33.713  21.135  1  3 
+1AL  N4    .  N  0   61.468  32.453  22.665  1  4 
+1AL  C5    .  C  0   59.368  31.635  23.434  1  5 
+1AL  O6    .  O  -1  58.955  31.050  24.465  1  6 
+1AL  O7    .  O  0   58.628  32.514  22.931  1  7 
+1AL  C8    .  C  0   60.738  31.307  22.723  1  8 
+1AL  C9    .  C  0   61.533  29.503  24.526  1  9 
+1AL  O10   .  O  0   62.374  28.594  24.602  1  10
+1AL  N11   .  N  0   60.699  29.802  25.548  1  11
+1AL  N12   .  N  0   61.613  30.179  23.302  1  12
+1AL  1HN3  .  H  0   ?       ?       ?       0  13
+1AL  2HN3  .  H  0   ?       ?       ?       0  14
+1AL  HN4   .  H  0   ?       ?       ?       1  15
+1AL  H8    .  H  0   ?       ?       ?       1  16
+1AL  H12   .  H  0   ?       ?       ?       1  17
+1AL  1H11  .  H  0   ?       ?       ?       0  18
+1AL  2H11  .  H  0   ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1AL  C1   N3    SING  1 
+1AL  C1   O2    DOUB  2 
+1AL  C1   N4    SING  3 
+1AL  N3   1HN3  SING  4 
+1AL  N3   2HN3  SING  5 
+1AL  N4   HN4   SING  6 
+1AL  N4   C8    SING  7 
+1AL  C5   C8    SING  8 
+1AL  C5   O6    SING  9 
+1AL  C5   O7    DOUB  10
+1AL  C8   H8    SING  11
+1AL  C8   N12   SING  12
+1AL  C9   N12   SING  13
+1AL  C9   O10   DOUB  14
+1AL  C9   N11   SING  15
+1AL  N11  1H11  SING  16
+1AL  N11  2H11  SING  17
+1AL  N12  H12   SING  18
+#

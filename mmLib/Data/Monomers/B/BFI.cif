@@ -1,0 +1,113 @@
+data_BFI
+#
+_chem_comp.id                   BFI
+_chem_comp.name                 2[4-BROMO-2-FLUOROPHENYL)METHYL]-6-FLUOROSPIRO[ISOQUINOLINE-4-(1H),3'-PYRROLIDINE]-1,2',3,5'(2H)-TETRONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H11 N2 O4 BR1 F2'
+_chem_comp.pdbx_synonyms        MINALRESTAT
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        449.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BFI  C2    .  C   0  19.185  13.321  -10.510  1  1 
+BFI  C3    .  C   0  20.166  10.712  -10.538  1  2 
+BFI  C4    .  C   0  18.712  12.429  -11.471  1  3 
+BFI  C5    .  C   0  20.096  12.871  -9.597   1  4 
+BFI  C6    .  C   0  20.608  11.593  -9.553   1  5 
+BFI  C7    .  C   0  19.188  11.115  -11.495  1  6 
+BFI  C8    .  C   0  17.659  12.878  -12.454  1  7 
+BFI  F9    .  F   0  20.542  13.753  -8.672   1  8 
+BFI  C11   .  C   0  18.689  10.128  -12.440  1  9 
+BFI  O13   .  O   0  16.540  12.149  -14.401  1  10
+BFI  N14   .  N   0  16.116  14.476  -11.533  1  11
+BFI  O15   .  O   0  17.123  16.395  -12.271  1  12
+BFI  O16   .  O   0  19.050  8.965   -12.433  1  13
+BFI  N17   .  N   0  17.733  10.529  -13.344  1  14
+BFI  C18   .  C   0  17.924  14.246  -13.064  1  15
+BFI  C21   .  C   0  17.043  15.176  -12.244  1  16
+BFI  C22   .  C   0  17.257  11.850  -13.476  1  17
+BFI  C23   .  C   0  17.159  9.537   -14.295  1  18
+BFI  C25   .  C   0  15.950  8.846   -13.710  1  19
+BFI  C27   .  C   0  13.677  7.472   -12.801  1  20
+BFI  C28   .  C   0  15.632  8.773   -12.350  1  21
+BFI  C29   .  C   0  15.065  8.205   -14.546  1  22
+BFI  C30   .  C   0  13.914  7.523   -14.150  1  23
+BFI  C31   .  C   0  14.515  8.104   -11.877  1  24
+BFI  F33   .  F   0  15.293  8.312   -15.887  1  25
+BFI  BR36  .  BR  0  12.139  6.594   -12.175  0  26
+BFI  O37   .  O   0  15.706  12.261  -11.136  1  27
+BFI  C39   .  C   0  16.333  13.154  -11.642  1  28
+BFI  H14   .  H   0  ?       ?       ?        1  29
+BFI  1H18  .  H   0  ?       ?       ?        0  30
+BFI  2H18  .  H   0  ?       ?       ?        0  31
+BFI  H3    .  H   0  ?       ?       ?        1  32
+BFI  H6    .  H   0  ?       ?       ?        1  33
+BFI  H2    .  H   0  ?       ?       ?        1  34
+BFI  1H23  .  H   0  ?       ?       ?        0  35
+BFI  2H23  .  H   0  ?       ?       ?        0  36
+BFI  H28   .  H   0  ?       ?       ?        1  37
+BFI  H31   .  H   0  ?       ?       ?        1  38
+BFI  H30   .  H   0  ?       ?       ?        1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BFI  C2   C5    AROM  1 
+BFI  C2   H2    SING  2 
+BFI  C2   C4    AROM  3 
+BFI  C3   C7    AROM  4 
+BFI  C3   H3    SING  5 
+BFI  C3   C6    AROM  6 
+BFI  C4   C8    SING  7 
+BFI  C4   C7    AROM  8 
+BFI  C5   C6    AROM  9 
+BFI  C5   F9    SING  10
+BFI  C6   H6    SING  11
+BFI  C7   C11   SING  12
+BFI  C8   C18   SING  13
+BFI  C8   C39   SING  14
+BFI  C8   C22   SING  15
+BFI  C11  N17   SING  16
+BFI  C11  O16   DOUB  17
+BFI  O13  C22   DOUB  18
+BFI  N14  H14   SING  19
+BFI  N14  C21   SING  20
+BFI  N14  C39   SING  21
+BFI  O15  C21   DOUB  22
+BFI  N17  C22   SING  23
+BFI  N17  C23   SING  24
+BFI  C18  C21   SING  25
+BFI  C18  1H18  SING  26
+BFI  C18  2H18  SING  27
+BFI  C23  1H23  SING  28
+BFI  C23  2H23  SING  29
+BFI  C23  C25   SING  30
+BFI  C25  C28   AROM  31
+BFI  C25  C29   AROM  32
+BFI  C27  C31   AROM  33
+BFI  C27  BR36  SING  34
+BFI  C27  C30   AROM  35
+BFI  C28  H28   SING  36
+BFI  C28  C31   AROM  37
+BFI  C29  C30   AROM  38
+BFI  C29  F33   SING  39
+BFI  C30  H30   SING  40
+BFI  C31  H31   SING  41
+BFI  O37  C39   DOUB  42
+#

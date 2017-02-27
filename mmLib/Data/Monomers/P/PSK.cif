@@ -1,0 +1,94 @@
+data_PSK
+#
+_chem_comp.id                   PSK
+_chem_comp.name                 '[(3R,4S)-4-HYDROXY-3-METHYL-2-OXOHEXYL]PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H15 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        210.166
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PSK
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC[C@@H]([C@@H](C)C(=O)CP(=O)(O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PSK  CAA   .  C  0  45.446  51.438  15.478  1  N  1 
+PSK  CAJ   .  C  0  44.920  51.346  14.048  1  N  2 
+PSK  CAQ   .  C  0  43.389  51.518  13.938  1  N  3 
+PSK  OAG   .  O  0  42.710  51.027  15.145  1  N  4 
+PSK  CAP   .  C  0  42.804  50.770  12.721  1  N  5 
+PSK  CAB   .  C  0  41.352  51.271  12.356  1  N  6 
+PSK  CAN   .  C  0  43.723  50.752  11.471  1  N  7 
+PSK  OAE   .  O  0  44.595  51.577  11.245  1  N  8 
+PSK  CAL   .  C  0  43.491  49.649  10.508  1  N  9 
+PSK  P1    .  P  0  44.859  48.481  10.433  1  N  10
+PSK  OAH   .  O  0  45.323  47.996  11.859  1  N  11
+PSK  OAF   .  O  0  44.417  47.348  9.568   1  N  12
+PSK  OAI   .  O  0  46.043  49.219  9.763   1  N  13
+PSK  1HAA  .  H  0  46.546  51.460  15.464  0  N  14
+PSK  2HAA  .  H  0  45.067  52.357  15.950  0  N  15
+PSK  3HAA  .  H  0  45.104  50.563  16.051  0  N  16
+PSK  1HAJ  .  H  0  45.182  50.354  13.651  0  N  17
+PSK  2HAJ  .  H  0  45.380  52.168  13.480  0  N  18
+PSK  HAQ   .  H  0  43.215  52.597  13.817  1  N  19
+PSK  HOAG  .  H  0  43.344  50.921  15.845  0  N  20
+PSK  HAP   .  H  0  42.736  49.723  13.050  1  N  21
+PSK  1HAB  .  H  0  40.762  51.388  13.277  0  N  22
+PSK  2HAB  .  H  0  41.418  52.239  11.838  0  N  23
+PSK  3HAB  .  H  0  40.865  50.535  11.699  0  N  24
+PSK  1HAL  .  H  0  43.355  50.086  9.508   0  N  25
+PSK  2HAL  .  H  0  42.602  49.096  10.846  0  N  26
+PSK  HOAH  .  H  0  45.416  47.051  11.858  0  N  27
+PSK  HOAI  .  H  0  45.845  49.370  8.846   0  N  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PSK  CAA  CAJ   SING  N  1 
+PSK  CAA  1HAA  SING  N  2 
+PSK  CAA  2HAA  SING  N  3 
+PSK  CAA  3HAA  SING  N  4 
+PSK  CAJ  CAQ   SING  N  5 
+PSK  CAJ  1HAJ  SING  N  6 
+PSK  CAJ  2HAJ  SING  N  7 
+PSK  CAQ  CAP   SING  N  8 
+PSK  CAQ  OAG   SING  N  9 
+PSK  CAQ  HAQ   SING  N  10
+PSK  OAG  HOAG  SING  N  11
+PSK  CAP  CAN   SING  N  12
+PSK  CAP  CAB   SING  N  13
+PSK  CAP  HAP   SING  N  14
+PSK  CAB  1HAB  SING  N  15
+PSK  CAB  2HAB  SING  N  16
+PSK  CAB  3HAB  SING  N  17
+PSK  CAN  CAL   SING  N  18
+PSK  CAN  OAE   DOUB  N  19
+PSK  CAL  P1    SING  N  20
+PSK  CAL  1HAL  SING  N  21
+PSK  CAL  2HAL  SING  N  22
+PSK  P1   OAF   DOUB  N  23
+PSK  P1   OAI   SING  N  24
+PSK  P1   OAH   SING  N  25
+PSK  OAH  HOAH  SING  N  26
+PSK  OAI  HOAI  SING  N  27
+#

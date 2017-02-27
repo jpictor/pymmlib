@@ -1,0 +1,102 @@
+data_ACK
+#
+_chem_comp.id                   ACK
+_chem_comp.name                 '(3AR,4R,6R,6AR)-4-(6-AMINO-9H-PURIN-9-YL)-6-(HYDROXYMETHYL)TETRAHYDROFURO[3,4-D][1,3,2]DIOXAPHOSPHOL-2-OL 2-OXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        329.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACK  O3P   .  O  0  8.12    8.326   -1.931  1  1 
+ACK  P     .  P  0  7.439   7.283   -2.739  1  2 
+ACK  O1P   .  O  0  5.929   7.357   -2.895  1  3 
+ACK  O2P   .  O  0  7.696   5.765   -2.205  1  4 
+ACK  O5*   .  O  0  8.142   7.069   -4.16   1  5 
+ACK  C5*   .  C  0  8.862   5.828   -4.242  1  6 
+ACK  C4*   .  C  0  8.579   5.052   -5.528  1  7 
+ACK  O4*   .  O  0  7.771   3.91    -5.169  1  8 
+ACK  C3*   .  C  0  9.884   4.586   -6.196  1  9 
+ACK  O3*   .  O  0  10.592  3.707   -5.329  1  10
+ACK  C1*   .  C  0  7.324   4.067   -3.83   1  11
+ACK  N9    .  N  0  7.091   2.739   -3.219  1  12
+ACK  C8    .  C  0  7.904   1.662   -3.279  1  13
+ACK  N7    .  N  0  7.34    .609    -2.645  1  14
+ACK  C5    .  C  0  6.161   1.041   -2.17   1  15
+ACK  C6    .  C  0  5.105   .427    -1.384  1  16
+ACK  N6    .  N  0  5.267   -.865   -.985   1  17
+ACK  N1    .  N  0  4.056   1.207   -1.056  1  18
+ACK  C2    .  C  0  3.942   2.506   -1.433  1  19
+ACK  N3    .  N  0  4.865   3.145   -2.171  1  20
+ACK  C4    .  C  0  5.991   2.448   -2.549  1  21
+ACK  C2*   .  C  0  8.364   4.925   -3.12   1  22
+ACK  H2*   .  H  0  9.177   4.325   -2.649  1  23
+ACK  H5*   .  H  0  9.957   6.009   -4.134  1  24
+ACK  H4*   .  H  0  8.011   5.701   -6.235  1  25
+ACK  1H3*  .  H  0  10.514  5.445   -6.524  0  26
+ACK  2H3*  .  H  0  9.7     4.127   -7.195  0  27
+ACK  H1*   .  H  0  6.358   4.623   -3.844  1  28
+ACK  H3*   .  H  0  11.398  3.419   -5.741  1  29
+ACK  H8    .  H  0  8.889   1.644   -3.775  1  30
+ACK  1H6N  .  H  0  4.525   -1.296  -.433   0  31
+ACK  2H6N  .  H  0  6.061   -1.455  -1.233  0  32
+ACK  H2    .  H  0  3.046   3.066   -1.117  1  33
+ACK  HO1   .  H  0  ?       ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACK  O3P  P     DOUB  1 
+ACK  P    O1P   SING  2 
+ACK  P    O2P   SING  3 
+ACK  P    O5*   SING  4 
+ACK  O1P  HO1   SING  5 
+ACK  O2P  C2*   SING  6 
+ACK  O5*  C5*   SING  7 
+ACK  C5*  C4*   SING  8 
+ACK  C5*  C2*   SING  9 
+ACK  C5*  H5*   SING  10
+ACK  C4*  O4*   SING  11
+ACK  C4*  C3*   SING  12
+ACK  C4*  H4*   SING  13
+ACK  O4*  C1*   SING  14
+ACK  C3*  O3*   SING  15
+ACK  C3*  1H3*  SING  16
+ACK  C3*  2H3*  SING  17
+ACK  O3*  H3*   SING  18
+ACK  C1*  N9    SING  19
+ACK  C1*  C2*   SING  20
+ACK  C1*  H1*   SING  21
+ACK  N9   C8    SING  22
+ACK  N9   C4    SING  23
+ACK  C8   N7    DOUB  24
+ACK  C8   H8    SING  25
+ACK  N7   C5    SING  26
+ACK  C5   C6    AROM  27
+ACK  C5   C4    AROM  28
+ACK  C6   N6    SING  29
+ACK  C6   N1    AROM  30
+ACK  N6   1H6N  SING  31
+ACK  N6   2H6N  SING  32
+ACK  N1   C2    AROM  33
+ACK  C2   N3    AROM  34
+ACK  C2   H2    SING  35
+ACK  N3   C4    AROM  36
+ACK  C2*  H2*   SING  37
+#

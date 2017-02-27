@@ -1,0 +1,104 @@
+data_CRG
+#
+_chem_comp.id                   CRG
+_chem_comp.name                 '[2-(1-AMINO-2-HYDROXY-PROPYL)-4-(3H-IMIDAZOL-4-YLMETHYLENE)-5-OXO-4,5-DIHYDRO-IMIDAZOL-1-YL]-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N5 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.282
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRG  N1    .  N  0  23.870  27.203  1.251   1  1 
+CRG  CA1   .  C  0  24.859  26.216  1.680   1  2 
+CRG  CB1   .  C  0  25.825  25.768  0.563   1  3 
+CRG  CG1   .  C  0  25.065  25.250  -0.586  1  4 
+CRG  OG1   .  O  0  26.599  26.857  0.085   1  5 
+CRG  C1    .  C  0  25.582  26.711  2.855   1  6 
+CRG  N2    .  N  0  26.778  27.264  2.873   1  7 
+CRG  N3    .  N  0  25.021  26.668  4.138   1  8 
+CRG  C2    .  C  0  25.909  27.196  5.053   1  9 
+CRG  O2    .  O  0  25.699  27.422  6.249   1  10
+CRG  CA2   .  C  0  27.015  27.610  4.191   1  11
+CRG  CA3   .  C  0  23.680  26.243  4.518   1  12
+CRG  C3    .  C  0  23.565  24.835  4.998   1  13
+CRG  O3    .  O  0  22.669  24.525  5.778   1  14
+CRG  CB2   .  C  0  28.152  28.300  4.605   1  15
+CRG  CG2   .  C  0  29.140  28.906  3.798   1  16
+CRG  CD2   .  C  0  30.100  29.783  4.174   1  17
+CRG  CE1   .  C  0  30.364  29.475  2.074   1  18
+CRG  ND1   .  N  0  29.342  28.723  2.432   1  19
+CRG  NE2   .  N  0  30.887  30.166  3.094   1  20
+CRG  O4    .  O  0  ?       ?       ?       1  21
+CRG  HE1   .  H  0  ?       ?       ?       1  22
+CRG  HE2   .  H  0  ?       ?       ?       1  23
+CRG  HD2   .  H  0  ?       ?       ?       1  24
+CRG  HB2   .  H  0  ?       ?       ?       1  25
+CRG  HA1   .  H  0  ?       ?       ?       1  26
+CRG  1HN1  .  H  0  ?       ?       ?       0  27
+CRG  2HN1  .  H  0  ?       ?       ?       0  28
+CRG  HB1   .  H  0  ?       ?       ?       1  29
+CRG  1HG1  .  H  0  ?       ?       ?       0  30
+CRG  2HG1  .  H  0  ?       ?       ?       0  31
+CRG  3HG1  .  H  0  ?       ?       ?       0  32
+CRG  OHG1  .  H  0  ?       ?       ?       0  33
+CRG  1HA3  .  H  0  ?       ?       ?       0  34
+CRG  2HA3  .  H  0  ?       ?       ?       0  35
+CRG  HO4   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRG  N1   CA1   SING  1 
+CRG  N1   1HN1  SING  2 
+CRG  N1   2HN1  SING  3 
+CRG  CA1  CB1   SING  4 
+CRG  CA1  C1    SING  5 
+CRG  CA1  HA1   SING  6 
+CRG  CB1  CG1   SING  7 
+CRG  CB1  OG1   SING  8 
+CRG  CB1  HB1   SING  9 
+CRG  CG1  1HG1  SING  10
+CRG  CG1  2HG1  SING  11
+CRG  CG1  3HG1  SING  12
+CRG  OG1  OHG1  SING  13
+CRG  C1   N2    DOUB  14
+CRG  C1   N3    SING  15
+CRG  N2   CA2   SING  16
+CRG  N3   C2    SING  17
+CRG  N3   CA3   SING  18
+CRG  C2   O2    DOUB  19
+CRG  C2   CA2   SING  20
+CRG  CA2  CB2   DOUB  21
+CRG  CA3  C3    SING  22
+CRG  CA3  1HA3  SING  23
+CRG  CA3  2HA3  SING  24
+CRG  C3   O3    DOUB  25
+CRG  C3   O4    SING  26
+CRG  CB2  CG2   SING  27
+CRG  CB2  HB2   SING  28
+CRG  CG2  CD2   DOUB  29
+CRG  CG2  ND1   SING  30
+CRG  CD2  NE2   SING  31
+CRG  CD2  HD2   SING  32
+CRG  CE1  ND1   DOUB  33
+CRG  CE1  NE2   SING  34
+CRG  CE1  HE1   SING  35
+CRG  NE2  HE2   SING  36
+CRG  O4   HO4   SING  37
+#

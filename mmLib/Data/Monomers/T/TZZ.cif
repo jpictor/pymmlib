@@ -1,0 +1,64 @@
+data_TZZ
+#
+_chem_comp.id                   TZZ
+_chem_comp.name                 'TRIMETHYL PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H9 O4 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        140.075
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TZZ  C    .  C  0  27.565  20.997  1.461   1  1 
+TZZ  O1   .  O  0  28.476  20.742  0.389   1  2 
+TZZ  P    .  P  0  29.672  21.754  0.039   1  3 
+TZZ  O    .  O  0  30.218  21.596  -1.447  1  4 
+TZZ  O2   .  O  0  29.054  23.211  0.292   1  5 
+TZZ  C1   .  C  0  28.403  23.823  -0.819  1  6 
+TZZ  O3   .  O  0  30.804  21.518  1.154   1  7 
+TZZ  C2   .  C  0  32.122  21.156  0.750   1  8 
+TZZ  1H   .  H  0  ?       ?       ?       0  9 
+TZZ  2H   .  H  0  ?       ?       ?       0  10
+TZZ  3H   .  H  0  ?       ?       ?       0  11
+TZZ  1H1  .  H  0  ?       ?       ?       0  12
+TZZ  2H1  .  H  0  ?       ?       ?       0  13
+TZZ  3H1  .  H  0  ?       ?       ?       0  14
+TZZ  1H2  .  H  0  ?       ?       ?       0  15
+TZZ  2H2  .  H  0  ?       ?       ?       0  16
+TZZ  3H2  .  H  0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TZZ  C   1H   SING  1 
+TZZ  C   2H   SING  2 
+TZZ  C   3H   SING  3 
+TZZ  C   O1   SING  4 
+TZZ  O1  P    SING  5 
+TZZ  P   O    DOUB  6 
+TZZ  P   O2   SING  7 
+TZZ  P   O3   SING  8 
+TZZ  O2  C1   SING  9 
+TZZ  C1  1H1  SING  10
+TZZ  C1  2H1  SING  11
+TZZ  C1  3H1  SING  12
+TZZ  O3  C2   SING  13
+TZZ  C2  1H2  SING  14
+TZZ  C2  2H2  SING  15
+TZZ  C2  3H2  SING  16
+#

@@ -1,0 +1,75 @@
+data_ASB
+#
+_chem_comp.id                       ASB
+_chem_comp.name                     'ASPARTIC ACID-4-CARBOXYMETHYL ESTER'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H9 N1 O6'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            191.140
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASB  N     .  N  0  ?  ?  ?  1  1 
+ASB  CA    .  C  0  ?  ?  ?  1  2 
+ASB  C     .  C  0  ?  ?  ?  1  3 
+ASB  O     .  O  0  ?  ?  ?  1  4 
+ASB  CB    .  C  0  ?  ?  ?  1  5 
+ASB  CG    .  C  0  ?  ?  ?  1  6 
+ASB  OD1   .  O  0  ?  ?  ?  1  7 
+ASB  OD2   .  O  0  ?  ?  ?  1  8 
+ASB  C2    .  C  0  ?  ?  ?  1  9 
+ASB  C1    .  C  0  ?  ?  ?  1  10
+ASB  O1    .  O  0  ?  ?  ?  1  11
+ASB  O2    .  O  0  ?  ?  ?  1  12
+ASB  OXT   .  O  0  ?  ?  ?  1  13
+ASB  HXT   .  H  0  ?  ?  ?  1  14
+ASB  HCA   .  H  0  ?  ?  ?  1  15
+ASB  H     .  H  0  ?  ?  ?  1  16
+ASB  HN2   .  H  0  ?  ?  ?  1  17
+ASB  1HB   .  H  0  ?  ?  ?  0  18
+ASB  2HB   .  H  0  ?  ?  ?  0  19
+ASB  1HC2  .  H  0  ?  ?  ?  0  20
+ASB  2HC2  .  H  0  ?  ?  ?  0  21
+ASB  HO1   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASB  N    CA    SING  1 
+ASB  N    H     SING  2 
+ASB  N    HN2   SING  3 
+ASB  CA   C     SING  4 
+ASB  CA   CB    SING  5 
+ASB  CA   HCA   SING  6 
+ASB  C    O     DOUB  7 
+ASB  C    OXT   SING  8 
+ASB  CB   CG    SING  9 
+ASB  CB   1HB   SING  10
+ASB  CB   2HB   SING  11
+ASB  CG   OD1   SING  12
+ASB  CG   OD2   DOUB  13
+ASB  OD1  C2    SING  14
+ASB  C2   C1    SING  15
+ASB  C2   1HC2  SING  16
+ASB  C2   2HC2  SING  17
+ASB  C1   O1    SING  18
+ASB  C1   O2    DOUB  19
+ASB  O1   HO1   SING  20
+ASB  OXT  HXT   SING  21
+#

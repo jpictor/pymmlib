@@ -1,0 +1,108 @@
+data_IAV
+#
+_chem_comp.id                   IAV
+_chem_comp.name                 'N-[1H-INDOL-3-YL-ACETYL]VALINE ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.319
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAV  O1    .  O  0  ?  ?  ?  1  1 
+IAV  C10   .  C  0  ?  ?  ?  1  2 
+IAV  N2    .  N  0  ?  ?  ?  1  3 
+IAV  C11   .  C  0  ?  ?  ?  1  4 
+IAV  C12   .  C  0  ?  ?  ?  1  5 
+IAV  O2    .  O  0  ?  ?  ?  1  6 
+IAV  O3    .  O  0  ?  ?  ?  1  7 
+IAV  C13   .  C  0  ?  ?  ?  1  8 
+IAV  C14   .  C  0  ?  ?  ?  1  9 
+IAV  C15   .  C  0  ?  ?  ?  1  10
+IAV  C9    .  C  0  ?  ?  ?  1  11
+IAV  C2    .  C  0  ?  ?  ?  1  12
+IAV  C1    .  C  0  ?  ?  ?  1  13
+IAV  N1    .  N  0  ?  ?  ?  1  14
+IAV  C8    .  C  0  ?  ?  ?  1  15
+IAV  C6    .  C  0  ?  ?  ?  1  16
+IAV  C7    .  C  0  ?  ?  ?  1  17
+IAV  C3    .  C  0  ?  ?  ?  1  18
+IAV  C4    .  C  0  ?  ?  ?  1  19
+IAV  C5    .  C  0  ?  ?  ?  1  20
+IAV  HC1   .  H  0  ?  ?  ?  1  21
+IAV  HC3   .  H  0  ?  ?  ?  1  22
+IAV  HC4   .  H  0  ?  ?  ?  1  23
+IAV  HC5   .  H  0  ?  ?  ?  1  24
+IAV  HC6   .  H  0  ?  ?  ?  1  25
+IAV  HN1   .  H  0  ?  ?  ?  1  26
+IAV  HN2   .  H  0  ?  ?  ?  1  27
+IAV  1HC9  .  H  0  ?  ?  ?  0  28
+IAV  2HC9  .  H  0  ?  ?  ?  0  29
+IAV  H11   .  H  0  ?  ?  ?  1  30
+IAV  H13   .  H  0  ?  ?  ?  1  31
+IAV  1H14  .  H  0  ?  ?  ?  0  32
+IAV  2H14  .  H  0  ?  ?  ?  0  33
+IAV  3H14  .  H  0  ?  ?  ?  0  34
+IAV  1H15  .  H  0  ?  ?  ?  0  35
+IAV  2H15  .  H  0  ?  ?  ?  0  36
+IAV  3H15  .  H  0  ?  ?  ?  0  37
+IAV  HO3   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAV  O1   C10   DOUB  1 
+IAV  C10  N2    SING  2 
+IAV  C10  C9    SING  3 
+IAV  N2   C11   SING  4 
+IAV  N2   HN2   SING  5 
+IAV  C11  C12   SING  6 
+IAV  C11  C13   SING  7 
+IAV  C11  H11   SING  8 
+IAV  C12  O2    DOUB  9 
+IAV  C12  O3    SING  10
+IAV  O3   HO3   SING  11
+IAV  C13  C14   SING  12
+IAV  C13  C15   SING  13
+IAV  C13  H13   SING  14
+IAV  C14  1H14  SING  15
+IAV  C14  2H14  SING  16
+IAV  C14  3H14  SING  17
+IAV  C15  1H15  SING  18
+IAV  C15  2H15  SING  19
+IAV  C15  3H15  SING  20
+IAV  C9   C2    SING  21
+IAV  C9   1HC9  SING  22
+IAV  C9   2HC9  SING  23
+IAV  C2   C1    DOUB  24
+IAV  C2   C7    SING  25
+IAV  C1   N1    SING  26
+IAV  C1   HC1   SING  27
+IAV  N1   C8    SING  28
+IAV  N1   HN1   SING  29
+IAV  C8   C6    AROM  30
+IAV  C8   C7    AROM  31
+IAV  C6   C5    AROM  32
+IAV  C6   HC6   SING  33
+IAV  C7   C3    AROM  34
+IAV  C3   C4    AROM  35
+IAV  C3   HC3   SING  36
+IAV  C4   C5    AROM  37
+IAV  C4   HC4   SING  38
+IAV  C5   HC5   SING  39
+#

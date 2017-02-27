@@ -1,0 +1,130 @@
+data_HV8
+#
+_chem_comp.id                   HV8
+_chem_comp.name                 BENZYL-2-AMINO-PARAMETHOXY-BENZYLSTATINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C19 H24 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        344.410
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HV8  N     .  N  0  ?  ?  ?  1  1 
+HV8  CA1   .  C  0  ?  ?  ?  1  2 
+HV8  CB1   .  C  0  ?  ?  ?  1  3 
+HV8  CG1   .  C  0  ?  ?  ?  1  4 
+HV8  CD1   .  C  0  ?  ?  ?  1  5 
+HV8  CD2   .  C  0  ?  ?  ?  1  6 
+HV8  CE1   .  C  0  ?  ?  ?  1  7 
+HV8  CE2   .  C  0  ?  ?  ?  1  8 
+HV8  CZ1   .  C  0  ?  ?  ?  1  9 
+HV8  CM    .  C  0  ?  ?  ?  1  10
+HV8  OH    .  O  0  ?  ?  ?  1  11
+HV8  N2    .  N  0  ?  ?  ?  1  12
+HV8  CA2   .  C  0  ?  ?  ?  1  13
+HV8  CB2   .  C  0  ?  ?  ?  1  14
+HV8  CG2   .  C  0  ?  ?  ?  1  15
+HV8  CD4   .  C  0  ?  ?  ?  1  16
+HV8  CE3   .  C  0  ?  ?  ?  1  17
+HV8  CD3   .  C  0  ?  ?  ?  1  18
+HV8  CE4   .  C  0  ?  ?  ?  1  19
+HV8  CZ2   .  C  0  ?  ?  ?  1  20
+HV8  OE2   .  O  0  ?  ?  ?  1  21
+HV8  CM2   .  C  0  ?  ?  ?  1  22
+HV8  C     .  C  0  ?  ?  ?  1  23
+HV8  O     .  O  0  ?  ?  ?  1  24
+HV8  OXT   .  O  0  ?  ?  ?  1  25
+HV8  1HN   .  H  0  ?  ?  ?  0  26
+HV8  2HN   .  H  0  ?  ?  ?  0  27
+HV8  HA1   .  H  0  ?  ?  ?  1  28
+HV8  1HB1  .  H  0  ?  ?  ?  0  29
+HV8  2HB1  .  H  0  ?  ?  ?  0  30
+HV8  HD1   .  H  0  ?  ?  ?  1  31
+HV8  HD2   .  H  0  ?  ?  ?  1  32
+HV8  HE1   .  H  0  ?  ?  ?  1  33
+HV8  HE2   .  H  0  ?  ?  ?  1  34
+HV8  HZ1   .  H  0  ?  ?  ?  1  35
+HV8  HM    .  H  0  ?  ?  ?  1  36
+HV8  HOH   .  H  0  ?  ?  ?  1  37
+HV8  HN2   .  H  0  ?  ?  ?  1  38
+HV8  HA2   .  H  0  ?  ?  ?  1  39
+HV8  1HB2  .  H  0  ?  ?  ?  0  40
+HV8  2HB2  .  H  0  ?  ?  ?  0  41
+HV8  HD4   .  H  0  ?  ?  ?  1  42
+HV8  HE3   .  H  0  ?  ?  ?  1  43
+HV8  HD3   .  H  0  ?  ?  ?  1  44
+HV8  HE4   .  H  0  ?  ?  ?  1  45
+HV8  1HM2  .  H  0  ?  ?  ?  0  46
+HV8  2HM2  .  H  0  ?  ?  ?  0  47
+HV8  3HM2  .  H  0  ?  ?  ?  0  48
+HV8  HXT   .  H  0  ?  ?  ?  1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HV8  N    CA1   SING  1 
+HV8  N    1HN   SING  2 
+HV8  N    2HN   SING  3 
+HV8  CA1  CB1   SING  4 
+HV8  CA1  CM    SING  5 
+HV8  CA1  HA1   SING  6 
+HV8  CB1  CG1   SING  7 
+HV8  CB1  1HB1  SING  8 
+HV8  CB1  2HB1  SING  9 
+HV8  CG1  CD1   DOUB  10
+HV8  CG1  CD2   SING  11
+HV8  CD1  CE1   SING  12
+HV8  CD1  HD1   SING  13
+HV8  CD2  CE2   DOUB  14
+HV8  CD2  HD2   SING  15
+HV8  CE1  CZ1   DOUB  16
+HV8  CE1  HE1   SING  17
+HV8  CE2  CZ1   SING  18
+HV8  CE2  HE2   SING  19
+HV8  CZ1  HZ1   SING  20
+HV8  CM   OH    SING  21
+HV8  CM   CA2   SING  22
+HV8  CM   HM    SING  23
+HV8  OH   HOH   SING  24
+HV8  N2   CA2   SING  25
+HV8  N2   CB2   SING  26
+HV8  N2   HN2   SING  27
+HV8  CA2  C     SING  28
+HV8  CA2  HA2   SING  29
+HV8  CB2  CG2   SING  30
+HV8  CB2  1HB2  SING  31
+HV8  CB2  2HB2  SING  32
+HV8  CG2  CD4   DOUB  33
+HV8  CG2  CD3   SING  34
+HV8  CD4  CE3   SING  35
+HV8  CD4  HD4   SING  36
+HV8  CE3  CZ2   DOUB  37
+HV8  CE3  HE3   SING  38
+HV8  CD3  CE4   DOUB  39
+HV8  CD3  HD3   SING  40
+HV8  CE4  CZ2   SING  41
+HV8  CE4  HE4   SING  42
+HV8  CZ2  OE2   SING  43
+HV8  OE2  CM2   SING  44
+HV8  CM2  1HM2  SING  45
+HV8  CM2  2HM2  SING  46
+HV8  CM2  3HM2  SING  47
+HV8  C    O     DOUB  48
+HV8  C    OXT   SING  49
+HV8  OXT  HXT   SING  50
+#

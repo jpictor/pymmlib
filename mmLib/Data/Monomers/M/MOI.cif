@@ -1,0 +1,116 @@
+data_MOI
+#
+_chem_comp.id                   MOI
+_chem_comp.name                 (7R,7AS,12BS)-3-METHYL-2,3,4,4A,7,7A-HEXAHYDRO-1H-4,12-METHANO[1]BENZOFURO[3,2-E]ISOQUINOLINE-7,9-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C17 H19 N1 O3'
+_chem_comp.pdbx_synonyms        'MORPHINE, (5A,6A)-7,8-DIDEHYDRO-4,5-EPOXY-17-METHYLMORPHINIAN-3,6-DIOL, MORPHIUM, MORPHIA, DOLCONTIN, DUROMORPH, MORPHINA, NEPENTHE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        285.342
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOI  C1   .  C  0  52.889  56.876  6.111   1  1 
+MOI  C2   .  C  0  52.593  58.125  8.458   1  2 
+MOI  C3   .  C  0  53.292  57.147  7.454   1  3 
+MOI  C4   .  C  0  54.490  56.543  7.888   1  4 
+MOI  C5   .  C  0  55.140  56.671  9.260   1  5 
+MOI  C6   .  C  0  54.939  58.162  9.737   1  6 
+MOI  C7   .  C  0  54.484  55.671  10.281  1  7 
+MOI  C8   .  C  0  53.040  56.011  10.627  1  8 
+MOI  C9   .  C  0  51.423  57.620  11.253  1  9 
+MOI  C10  .  C  0  53.702  56.051  5.280   1  10
+MOI  C11  .  C  0  54.940  55.471  5.745   1  11
+MOI  C12  .  C  0  55.291  55.759  7.082   1  12
+MOI  C13  .  C  0  56.598  56.227  8.951   1  13
+MOI  C14  .  C  0  57.583  57.425  8.728   1  14
+MOI  C15  .  C  0  56.904  58.746  8.285   1  15
+MOI  C16  .  C  0  55.671  59.094  8.739   1  16
+MOI  C17  .  C  0  53.354  58.377  9.880   1  17
+MOI  N1   .  N  0  52.862  57.438  10.978  1  18
+MOI  O1   .  O  0  55.707  54.704  4.926   1  19
+MOI  O2   .  O  0  58.577  57.099  7.773   1  20
+MOI  O3   .  O  0  56.453  55.336  7.749   1  21
+MOI  HO1  .  H  0  ?       ?       ?       1  22
+MOI  H13  .  H  0  ?       ?       ?       1  23
+MOI  H14  .  H  0  ?       ?       ?       1  24
+MOI  HO2  .  H  0  ?       ?       ?       1  25
+MOI  H15  .  H  0  ?       ?       ?       1  26
+MOI  H16  .  H  0  ?       ?       ?       1  27
+MOI  H6   .  H  0  ?       ?       ?       1  28
+MOI  H17  .  H  0  ?       ?       ?       1  29
+MOI  1H9  .  H  0  ?       ?       ?       0  30
+MOI  2H9  .  H  0  ?       ?       ?       0  31
+MOI  3H9  .  H  0  ?       ?       ?       0  32
+MOI  1H8  .  H  0  ?       ?       ?       0  33
+MOI  2H8  .  H  0  ?       ?       ?       0  34
+MOI  1H7  .  H  0  ?       ?       ?       0  35
+MOI  2H7  .  H  0  ?       ?       ?       0  36
+MOI  H1   .  H  0  ?       ?       ?       1  37
+MOI  H10  .  H  0  ?       ?       ?       1  38
+MOI  1H2  .  H  0  ?       ?       ?       0  39
+MOI  2H2  .  H  0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOI  C1   C3   SING  1 
+MOI  C1   H1   SING  2 
+MOI  C1   C10  DOUB  3 
+MOI  C2   C3   SING  4 
+MOI  C2   C17  SING  5 
+MOI  C2   1H2  SING  6 
+MOI  C2   2H2  SING  7 
+MOI  C3   C4   DOUB  8 
+MOI  C4   C5   SING  9 
+MOI  C4   C12  SING  10
+MOI  C5   C6   SING  11
+MOI  C5   C7   SING  12
+MOI  C5   C13  SING  13
+MOI  C6   C16  SING  14
+MOI  C6   H6   SING  15
+MOI  C6   C17  SING  16
+MOI  C7   1H7  SING  17
+MOI  C7   2H7  SING  18
+MOI  C7   C8   SING  19
+MOI  C8   1H8  SING  20
+MOI  C8   2H8  SING  21
+MOI  C8   N1   SING  22
+MOI  C9   1H9  SING  23
+MOI  C9   2H9  SING  24
+MOI  C9   3H9  SING  25
+MOI  C9   N1   SING  26
+MOI  C10  C11  SING  27
+MOI  C10  H10  SING  28
+MOI  C11  O1   SING  29
+MOI  C11  C12  DOUB  30
+MOI  C12  O3   SING  31
+MOI  C13  O3   SING  32
+MOI  C13  H13  SING  33
+MOI  C13  C14  SING  34
+MOI  C14  H14  SING  35
+MOI  C14  O2   SING  36
+MOI  C14  C15  SING  37
+MOI  C15  H15  SING  38
+MOI  C15  C16  DOUB  39
+MOI  C16  H16  SING  40
+MOI  C17  H17  SING  41
+MOI  C17  N1   SING  42
+MOI  O1   HO1  SING  43
+MOI  O2   HO2  SING  44
+#

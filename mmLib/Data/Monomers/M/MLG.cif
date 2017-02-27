@@ -1,0 +1,96 @@
+data_MLG
+#
+_chem_comp.id                   MLG
+_chem_comp.name                 N-[3-(2,4-DICHLOROPHENOXY)PROPYL]-N-METHYL-N-PROP-2-YNYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H15 N1 O1 CL2'
+_chem_comp.pdbx_synonyms        N-METHYL-N-PROPARGYL-3-(2,4-DICHLOROPHENOXY)PROPYLAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        272.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MLG  C06   .  C   0  56.341  12.165  146.255  1  1 
+MLG  C05   .  C   0  57.685  11.849  145.924  1  2 
+MLG  C04   .  C   0  58.659  12.901  145.851  1  3 
+MLG  CL08  .  CL  0  60.310  12.512  145.447  0  4 
+MLG  C03   .  C   0  58.294  14.248  146.104  1  5 
+MLG  C02   .  C   0  56.925  14.577  146.442  1  6 
+MLG  CL07  .  CL  0  56.531  16.271  146.735  0  7 
+MLG  C01   .  C   0  55.951  13.529  146.517  1  8 
+MLG  O09   .  O   0  54.626  13.809  146.832  1  9 
+MLG  C11   .  C   0  52.530  13.497  147.823  1  10
+MLG  C10   .  C   0  53.950  12.912  147.677  1  11
+MLG  C12   .  C   0  51.548  12.577  148.780  1  12
+MLG  N13   .  N   0  50.299  12.498  148.227  1  13
+MLG  C17   .  C   0  49.556  11.636  149.178  1  14
+MLG  C14   .  C   0  49.675  13.841  148.175  1  15
+MLG  C15   .  C   0  48.479  13.819  147.493  1  16
+MLG  C16   .  C   0  47.674  14.975  147.294  1  17
+MLG  H16   .  H   0  ?       ?       ?        1  18
+MLG  1H14  .  H   0  ?       ?       ?        0  19
+MLG  2H14  .  H   0  ?       ?       ?        0  20
+MLG  1H17  .  H   0  ?       ?       ?        0  21
+MLG  2H17  .  H   0  ?       ?       ?        0  22
+MLG  3H17  .  H   0  ?       ?       ?        0  23
+MLG  1H12  .  H   0  ?       ?       ?        0  24
+MLG  2H12  .  H   0  ?       ?       ?        0  25
+MLG  1H11  .  H   0  ?       ?       ?        0  26
+MLG  2H11  .  H   0  ?       ?       ?        0  27
+MLG  1H10  .  H   0  ?       ?       ?        0  28
+MLG  2H10  .  H   0  ?       ?       ?        0  29
+MLG  H06   .  H   0  ?       ?       ?        1  30
+MLG  H05   .  H   0  ?       ?       ?        1  31
+MLG  H03   .  H   0  ?       ?       ?        1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MLG  C06  C01   DOUB  1 
+MLG  C06  H06   SING  2 
+MLG  C06  C05   SING  3 
+MLG  C05  H05   SING  4 
+MLG  C05  C04   DOUB  5 
+MLG  C04  CL08  SING  6 
+MLG  C04  C03   SING  7 
+MLG  C03  H03   SING  8 
+MLG  C03  C02   DOUB  9 
+MLG  C02  C01   SING  10
+MLG  C02  CL07  SING  11
+MLG  C01  O09   SING  12
+MLG  O09  C10   SING  13
+MLG  C11  C12   SING  14
+MLG  C11  1H11  SING  15
+MLG  C11  2H11  SING  16
+MLG  C11  C10   SING  17
+MLG  C10  1H10  SING  18
+MLG  C10  2H10  SING  19
+MLG  C12  N13   SING  20
+MLG  C12  1H12  SING  21
+MLG  C12  2H12  SING  22
+MLG  N13  C14   SING  23
+MLG  N13  C17   SING  24
+MLG  C17  1H17  SING  25
+MLG  C17  2H17  SING  26
+MLG  C17  3H17  SING  27
+MLG  C14  C15   SING  28
+MLG  C14  1H14  SING  29
+MLG  C14  2H14  SING  30
+MLG  C15  C16   TRIP  31
+MLG  C16  H16   SING  32
+#

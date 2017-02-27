@@ -1,0 +1,83 @@
+data_PO0
+#
+_chem_comp.id                   PO0
+_chem_comp.name                 1-BENZYL-(R)-PROPYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.235
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PO0  N    .  N  0  ?  ?  ?  1  1 
+PO0  CA   .  C  0  ?  ?  ?  1  2 
+PO0  C    .  C  0  ?  ?  ?  1  3 
+PO0  CB   .  C  0  ?  ?  ?  1  4 
+PO0  CG   .  C  0  ?  ?  ?  1  5 
+PO0  CD1  .  C  0  ?  ?  ?  1  6 
+PO0  CD2  .  C  0  ?  ?  ?  1  7 
+PO0  CE1  .  C  0  ?  ?  ?  1  8 
+PO0  CE2  .  C  0  ?  ?  ?  1  9 
+PO0  CZ   .  C  0  ?  ?  ?  1  10
+PO0  CM   .  C  0  ?  ?  ?  1  11
+PO0  H    .  H  0  ?  ?  ?  1  12
+PO0  HN2  .  H  0  ?  ?  ?  1  13
+PO0  HA   .  H  0  ?  ?  ?  1  14
+PO0  1HB  .  H  0  ?  ?  ?  0  15
+PO0  2HB  .  H  0  ?  ?  ?  0  16
+PO0  1HC  .  H  0  ?  ?  ?  0  17
+PO0  2HC  .  H  0  ?  ?  ?  0  18
+PO0  HD1  .  H  0  ?  ?  ?  1  19
+PO0  HD2  .  H  0  ?  ?  ?  1  20
+PO0  HE1  .  H  0  ?  ?  ?  1  21
+PO0  HE2  .  H  0  ?  ?  ?  1  22
+PO0  HZ   .  H  0  ?  ?  ?  1  23
+PO0  HM1  .  H  0  ?  ?  ?  1  24
+PO0  HM2  .  H  0  ?  ?  ?  1  25
+PO0  HM3  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PO0  N    CA   SING  1 
+PO0  N    H    SING  2 
+PO0  N    HN2  SING  3 
+PO0  CA   C    SING  4 
+PO0  CA   CB   SING  5 
+PO0  CA   HA   SING  6 
+PO0  C    CM   SING  7 
+PO0  C    1HC  SING  8 
+PO0  C    2HC  SING  9 
+PO0  CB   CG   SING  10
+PO0  CB   1HB  SING  11
+PO0  CB   2HB  SING  12
+PO0  CG   CD1  DOUB  13
+PO0  CG   CD2  SING  14
+PO0  CD1  CE1  SING  15
+PO0  CD1  HD1  SING  16
+PO0  CD2  CE2  DOUB  17
+PO0  CD2  HD2  SING  18
+PO0  CE1  CZ   DOUB  19
+PO0  CE1  HE1  SING  20
+PO0  CE2  CZ   SING  21
+PO0  CE2  HE2  SING  22
+PO0  CZ   HZ   SING  23
+PO0  CM   HM1  SING  24
+PO0  CM   HM2  SING  25
+PO0  CM   HM3  SING  26
+#

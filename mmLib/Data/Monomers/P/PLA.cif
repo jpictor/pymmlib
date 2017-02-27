@@ -1,0 +1,120 @@
+data_PLA
+#
+_chem_comp.id                   PLA
+_chem_comp.name                 '2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL)-AMINO]-2-METHYL-SUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N2 O9 P1'
+_chem_comp.pdbx_synonyms        'N-PYRIDOXYL-2-METHYLASPARTIC ACID-5-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        378.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLA  N1    .  N  0  ?  ?  ?  1  1 
+PLA  C2    .  C  0  ?  ?  ?  1  2 
+PLA  C2A   .  C  0  ?  ?  ?  1  3 
+PLA  C3    .  C  0  ?  ?  ?  1  4 
+PLA  O3    .  O  0  ?  ?  ?  1  5 
+PLA  C4    .  C  0  ?  ?  ?  1  6 
+PLA  C4A   .  C  0  ?  ?  ?  1  7 
+PLA  C5    .  C  0  ?  ?  ?  1  8 
+PLA  C6    .  C  0  ?  ?  ?  1  9 
+PLA  C5A   .  C  0  ?  ?  ?  1  10
+PLA  O4P   .  O  0  ?  ?  ?  1  11
+PLA  P     .  P  0  ?  ?  ?  1  12
+PLA  O1P   .  O  0  ?  ?  ?  1  13
+PLA  O2P   .  O  0  ?  ?  ?  1  14
+PLA  O3P   .  O  0  ?  ?  ?  1  15
+PLA  N     .  N  0  ?  ?  ?  1  16
+PLA  CA    .  C  0  ?  ?  ?  1  17
+PLA  CB1   .  C  0  ?  ?  ?  1  18
+PLA  CB2   .  C  0  ?  ?  ?  1  19
+PLA  CG    .  C  0  ?  ?  ?  1  20
+PLA  OD1   .  O  0  ?  ?  ?  1  21
+PLA  OD2   .  O  0  ?  ?  ?  1  22
+PLA  C     .  C  0  ?  ?  ?  1  23
+PLA  O     .  O  0  ?  ?  ?  1  24
+PLA  OXT   .  O  0  ?  ?  ?  1  25
+PLA  1H2A  .  H  0  ?  ?  ?  0  26
+PLA  2H2A  .  H  0  ?  ?  ?  0  27
+PLA  3H2A  .  H  0  ?  ?  ?  0  28
+PLA  HO3   .  H  0  ?  ?  ?  1  29
+PLA  1H4A  .  H  0  ?  ?  ?  0  30
+PLA  2H4A  .  H  0  ?  ?  ?  0  31
+PLA  1H5A  .  H  0  ?  ?  ?  0  32
+PLA  2H5A  .  H  0  ?  ?  ?  0  33
+PLA  H6    .  H  0  ?  ?  ?  1  34
+PLA  2HOP  .  H  0  ?  ?  ?  0  35
+PLA  3HOP  .  H  0  ?  ?  ?  0  36
+PLA  HN    .  H  0  ?  ?  ?  1  37
+PLA  1HB1  .  H  0  ?  ?  ?  0  38
+PLA  2HB1  .  H  0  ?  ?  ?  0  39
+PLA  1HB2  .  H  0  ?  ?  ?  0  40
+PLA  2HB2  .  H  0  ?  ?  ?  0  41
+PLA  3HB2  .  H  0  ?  ?  ?  0  42
+PLA  HOD   .  H  0  ?  ?  ?  1  43
+PLA  HXT   .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLA  N1   C2    DOUB  1 
+PLA  N1   C6    SING  2 
+PLA  C2   C2A   SING  3 
+PLA  C2   C3    SING  4 
+PLA  C2A  1H2A  SING  5 
+PLA  C2A  2H2A  SING  6 
+PLA  C2A  3H2A  SING  7 
+PLA  C3   O3    SING  8 
+PLA  C3   C4    DOUB  9 
+PLA  O3   HO3   SING  10
+PLA  C4   C4A   SING  11
+PLA  C4   C5    SING  12
+PLA  C4A  N     SING  13
+PLA  C4A  1H4A  SING  14
+PLA  C4A  2H4A  SING  15
+PLA  C5   C6    DOUB  16
+PLA  C5   C5A   SING  17
+PLA  C6   H6    SING  18
+PLA  C5A  O4P   SING  19
+PLA  C5A  1H5A  SING  20
+PLA  C5A  2H5A  SING  21
+PLA  O4P  P     SING  22
+PLA  P    O1P   DOUB  23
+PLA  P    O2P   SING  24
+PLA  P    O3P   SING  25
+PLA  O2P  2HOP  SING  26
+PLA  O3P  3HOP  SING  27
+PLA  N    CA    SING  28
+PLA  N    HN    SING  29
+PLA  CA   CB1   SING  30
+PLA  CA   C     SING  31
+PLA  CA   CB2   SING  32
+PLA  CB1  CG    SING  33
+PLA  CB1  1HB1  SING  34
+PLA  CB1  2HB1  SING  35
+PLA  CB2  1HB2  SING  36
+PLA  CB2  2HB2  SING  37
+PLA  CB2  3HB2  SING  38
+PLA  CG   OD1   DOUB  39
+PLA  CG   OD2   SING  40
+PLA  OD2  HOD   SING  41
+PLA  C    O     DOUB  42
+PLA  C    OXT   SING  43
+PLA  OXT  HXT   SING  44
+#

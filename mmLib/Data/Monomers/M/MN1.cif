@@ -1,0 +1,71 @@
+data_MN1
+#
+_chem_comp.id                   MN1
+_chem_comp.name                 4-CARBOXYPIPERIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MN1  N1   .  N  0  ?  ?  ?  1  1 
+MN1  C2   .  C  0  ?  ?  ?  1  2 
+MN1  C3   .  C  0  ?  ?  ?  1  3 
+MN1  C4   .  C  0  ?  ?  ?  1  4 
+MN1  C    .  C  0  ?  ?  ?  1  5 
+MN1  O1   .  O  0  ?  ?  ?  1  6 
+MN1  O2   .  O  0  ?  ?  ?  1  7 
+MN1  C5   .  C  0  ?  ?  ?  1  8 
+MN1  C6   .  C  0  ?  ?  ?  1  9 
+MN1  HN1  .  H  0  ?  ?  ?  1  10
+MN1  1H2  .  H  0  ?  ?  ?  0  11
+MN1  2H2  .  H  0  ?  ?  ?  0  12
+MN1  1H3  .  H  0  ?  ?  ?  0  13
+MN1  2H3  .  H  0  ?  ?  ?  0  14
+MN1  H4   .  H  0  ?  ?  ?  1  15
+MN1  HO2  .  H  0  ?  ?  ?  1  16
+MN1  1H5  .  H  0  ?  ?  ?  0  17
+MN1  2H5  .  H  0  ?  ?  ?  0  18
+MN1  1H6  .  H  0  ?  ?  ?  0  19
+MN1  2H6  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MN1  N1  C2   SING  1 
+MN1  N1  C6   SING  2 
+MN1  N1  HN1  SING  3 
+MN1  C2  C3   SING  4 
+MN1  C2  1H2  SING  5 
+MN1  C2  2H2  SING  6 
+MN1  C3  C4   SING  7 
+MN1  C3  1H3  SING  8 
+MN1  C3  2H3  SING  9 
+MN1  C4  C5   SING  10
+MN1  C4  C    SING  11
+MN1  C4  H4   SING  12
+MN1  C   O1   DOUB  13
+MN1  C   O2   SING  14
+MN1  O2  HO2  SING  15
+MN1  C5  C6   SING  16
+MN1  C5  1H5  SING  17
+MN1  C5  2H5  SING  18
+MN1  C6  1H6  SING  19
+MN1  C6  2H6  SING  20
+#

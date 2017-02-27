@@ -1,0 +1,82 @@
+data_TYY
+#
+_chem_comp.id                       TYY
+_chem_comp.name                     3-(4-HYDROXY-3-IMINO-6-OXO-CYCLOHEXA-1,4-DIENYL)-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H10 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            210.189
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYY  N    .  N  0  ?  ?  ?  1  1 
+TYY  CA   .  C  0  ?  ?  ?  1  2 
+TYY  C    .  C  0  ?  ?  ?  1  3 
+TYY  O    .  O  0  ?  ?  ?  1  4 
+TYY  CB   .  C  0  ?  ?  ?  1  5 
+TYY  CG   .  C  0  ?  ?  ?  1  6 
+TYY  CD1  .  C  0  ?  ?  ?  1  7 
+TYY  CD2  .  C  0  ?  ?  ?  1  8 
+TYY  CE1  .  C  0  ?  ?  ?  1  9 
+TYY  CE2  .  C  0  ?  ?  ?  1  10
+TYY  CZ   .  C  0  ?  ?  ?  1  11
+TYY  OZ   .  O  0  ?  ?  ?  1  12
+TYY  N5   .  N  0  ?  ?  ?  1  13
+TYY  OH   .  O  0  ?  ?  ?  1  14
+TYY  OXT  .  O  0  ?  ?  ?  1  15
+TYY  HN5  .  H  0  ?  ?  ?  1  16
+TYY  H    .  H  0  ?  ?  ?  1  17
+TYY  HN2  .  H  0  ?  ?  ?  1  18
+TYY  HA   .  H  0  ?  ?  ?  1  19
+TYY  1HB  .  H  0  ?  ?  ?  0  20
+TYY  2HB  .  H  0  ?  ?  ?  0  21
+TYY  HD2  .  H  0  ?  ?  ?  1  22
+TYY  HE1  .  H  0  ?  ?  ?  1  23
+TYY  HH   .  H  0  ?  ?  ?  1  24
+TYY  HXT  .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYY  N    CA   SING  1 
+TYY  N    H    SING  2 
+TYY  N    HN2  SING  3 
+TYY  CA   C    SING  4 
+TYY  CA   CB   SING  5 
+TYY  CA   HA   SING  6 
+TYY  C    O    DOUB  7 
+TYY  C    OXT  SING  8 
+TYY  CB   CG   SING  9 
+TYY  CB   1HB  SING  10
+TYY  CB   2HB  SING  11
+TYY  CG   CD1  SING  12
+TYY  CG   CD2  DOUB  13
+TYY  CD1  CE1  SING  14
+TYY  CD1  OZ   DOUB  15
+TYY  CD2  CE2  SING  16
+TYY  CD2  HD2  SING  17
+TYY  CE1  CZ   DOUB  18
+TYY  CE1  HE1  SING  19
+TYY  CE2  CZ   SING  20
+TYY  CE2  N5   DOUB  21
+TYY  CZ   OH   SING  22
+TYY  N5   HN5  SING  23
+TYY  OH   HH   SING  24
+TYY  OXT  HXT  SING  25
+#

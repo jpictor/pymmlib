@@ -1,0 +1,82 @@
+data_NZH
+#
+_chem_comp.id                       NZH
+_chem_comp.name                     (2S)-2-AMINO-3-[1-(1H-TETRAAZOL-5-YL)-1H-IMIDAZOL-4-YL]PROPANAL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H9 N7 O1'
+_chem_comp.pdbx_synonyms            'TETRAZOLYL HISTIDINE'
+_chem_comp.mon_nstd_parent_comp_id  HIS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            207.194
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NZH  N    .  N  0  47.460  8.209  18.670  1  1 
+NZH  CA   .  C  0  47.751  7.998  17.255  1  2 
+NZH  CB   .  C  0  47.292  6.608  16.812  1  3 
+NZH  CG   .  C  0  47.842  6.282  15.476  1  4 
+NZH  ND1  .  N  0  49.205  6.139  15.292  1  5 
+NZH  CE1  .  C  0  49.455  6.002  14.002  1  6 
+NZH  NE2  .  N  0  48.298  6.009  13.351  1  7 
+NZH  CD2  .  C  0  47.275  6.222  14.245  1  8 
+NZH  C    .  C  0  47.103  9.057  16.359  1  9 
+NZH  O    .  O  0  47.676  9.437  15.316  1  10
+NZH  N1   .  N  0  47.049  6.327  11.291  1  11
+NZH  N2   .  N  0  47.401  6.235  9.954   1  12
+NZH  N3   .  N  0  48.735  5.963  9.932   1  13
+NZH  N4   .  N  0  49.181  5.890  11.238  1  14
+NZH  C1   .  C  0  48.144  6.141  12.039  1  15
+NZH  1HN  .  H  0  ?       ?      ?       0  16
+NZH  2HN  .  H  0  ?       ?      ?       0  17
+NZH  HA   .  H  0  ?       ?      ?       1  18
+NZH  H    .  H  0  ?       ?      ?       1  19
+NZH  1HB  .  H  0  ?       ?      ?       0  20
+NZH  2HB  .  H  0  ?       ?      ?       0  21
+NZH  HD2  .  H  0  ?       ?      ?       1  22
+NZH  HE1  .  H  0  ?       ?      ?       1  23
+NZH  HN1  .  H  0  ?       ?      ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NZH  N    1HN  SING  1 
+NZH  N    2HN  SING  2 
+NZH  N    CA   SING  3 
+NZH  CA   HA   SING  4 
+NZH  CA   C    SING  5 
+NZH  CA   CB   SING  6 
+NZH  CB   1HB  SING  7 
+NZH  CB   2HB  SING  8 
+NZH  CB   CG   SING  9 
+NZH  CG   CD2  DOUB  10
+NZH  CG   ND1  SING  11
+NZH  ND1  CE1  DOUB  12
+NZH  CE1  NE2  SING  13
+NZH  CE1  HE1  SING  14
+NZH  NE2  CD2  SING  15
+NZH  NE2  C1   SING  16
+NZH  CD2  HD2  SING  17
+NZH  C    H    SING  18
+NZH  C    O    DOUB  19
+NZH  N1   N2   SING  20
+NZH  N1   C1   SING  21
+NZH  N1   HN1  SING  22
+NZH  N2   N3   DOUB  23
+NZH  N3   N4   SING  24
+NZH  N4   C1   DOUB  25
+#

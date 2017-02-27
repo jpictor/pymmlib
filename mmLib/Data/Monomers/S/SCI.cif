@@ -1,0 +1,80 @@
+data_SCI
+#
+_chem_comp.id                   SCI
+_chem_comp.name                 L-THIOCITRULLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N3 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        191.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SCI  N     .  N  0  ?  ?  ?  1  1 
+SCI  CA    .  C  0  ?  ?  ?  1  2 
+SCI  CB    .  C  0  ?  ?  ?  1  3 
+SCI  CG    .  C  0  ?  ?  ?  1  4 
+SCI  CD    .  C  0  ?  ?  ?  1  5 
+SCI  NE    .  N  0  ?  ?  ?  1  6 
+SCI  CZ    .  C  0  ?  ?  ?  1  7 
+SCI  NH1   .  N  0  ?  ?  ?  1  8 
+SCI  S     .  S  0  ?  ?  ?  1  9 
+SCI  C     .  C  0  ?  ?  ?  1  10
+SCI  OT1   .  O  0  ?  ?  ?  1  11
+SCI  OT2   .  O  0  ?  ?  ?  1  12
+SCI  1HN   .  H  0  ?  ?  ?  0  13
+SCI  2HN   .  H  0  ?  ?  ?  0  14
+SCI  HA    .  H  0  ?  ?  ?  1  15
+SCI  1HB   .  H  0  ?  ?  ?  0  16
+SCI  2HB   .  H  0  ?  ?  ?  0  17
+SCI  1HG   .  H  0  ?  ?  ?  0  18
+SCI  2HG   .  H  0  ?  ?  ?  0  19
+SCI  1HD   .  H  0  ?  ?  ?  0  20
+SCI  2HD   .  H  0  ?  ?  ?  0  21
+SCI  1HN1  .  H  0  ?  ?  ?  0  22
+SCI  2HN1  .  H  0  ?  ?  ?  0  23
+SCI  HS    .  H  0  ?  ?  ?  1  24
+SCI  HO2   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SCI  N    CA    SING  1 
+SCI  N    1HN   SING  2 
+SCI  N    2HN   SING  3 
+SCI  CA   CB    SING  4 
+SCI  CA   C     SING  5 
+SCI  CA   HA    SING  6 
+SCI  CB   CG    SING  7 
+SCI  CB   1HB   SING  8 
+SCI  CB   2HB   SING  9 
+SCI  CG   CD    SING  10
+SCI  CG   1HG   SING  11
+SCI  CG   2HG   SING  12
+SCI  CD   NE    SING  13
+SCI  CD   1HD   SING  14
+SCI  CD   2HD   SING  15
+SCI  NE   CZ    DOUB  16
+SCI  CZ   NH1   SING  17
+SCI  CZ   S     SING  18
+SCI  NH1  1HN1  SING  19
+SCI  NH1  2HN1  SING  20
+SCI  S    HS    SING  21
+SCI  C    OT1   DOUB  22
+SCI  C    OT2   SING  23
+SCI  OT2  HO2   SING  24
+#

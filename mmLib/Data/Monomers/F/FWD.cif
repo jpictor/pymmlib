@@ -1,0 +1,78 @@
+data_FWD
+#
+_chem_comp.id                   FWD
+_chem_comp.name                 '2-AMINO-3-(5-FLUORO-2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H8 N3 O4 F1'
+_chem_comp.pdbx_synonyms        FLUORO-WILLARDIINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        217.156
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FWD  N1    .  N  0  16.346  1.769   15.442  1  1 
+FWD  C2    .  C  0  16.452  0.472   14.880  1  2 
+FWD  O2    .  O  0  16.486  -0.554  15.522  1  3 
+FWD  N3    .  N  0  16.511  0.466   13.473  1  4 
+FWD  C4    .  C  0  16.480  1.544   12.626  1  5 
+FWD  O4    .  O  0  16.555  1.443   11.421  1  6 
+FWD  C5    .  C  0  16.372  2.864   13.328  1  7 
+FWD  F5    .  F  0  16.316  3.972   12.575  1  8 
+FWD  C6    .  C  0  16.289  2.889   14.678  1  9 
+FWD  C7    .  C  0  16.207  1.899   16.897  1  10
+FWD  C8    .  C  0  14.886  1.381   17.449  1  11
+FWD  N8    .  N  0  13.780  2.363   17.184  1  12
+FWD  C9    .  C  0  14.939  1.012   18.929  1  13
+FWD  O91   .  O  0  14.130  1.503   19.678  1  14
+FWD  O92   .  O  0  15.907  0.224   19.243  1  15
+FWD  H3    .  H  0  ?       ?       ?       1  16
+FWD  H6    .  H  0  ?       ?       ?       1  17
+FWD  1H7   .  H  0  ?       ?       ?       0  18
+FWD  2H7   .  H  0  ?       ?       ?       0  19
+FWD  H8    .  H  0  ?       ?       ?       1  20
+FWD  1H8   .  H  0  ?       ?       ?       0  21
+FWD  2H8   .  H  0  ?       ?       ?       0  22
+FWD  OH92  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FWD  N1   C2    SING  1 
+FWD  N1   C6    SING  2 
+FWD  N1   C7    SING  3 
+FWD  C2   O2    DOUB  4 
+FWD  C2   N3    SING  5 
+FWD  N3   C4    SING  6 
+FWD  N3   H3    SING  7 
+FWD  C4   O4    DOUB  8 
+FWD  C4   C5    SING  9 
+FWD  C5   F5    SING  10
+FWD  C5   C6    DOUB  11
+FWD  C6   H6    SING  12
+FWD  C7   C8    SING  13
+FWD  C7   1H7   SING  14
+FWD  C7   2H7   SING  15
+FWD  C8   N8    SING  16
+FWD  C8   C9    SING  17
+FWD  C8   H8    SING  18
+FWD  N8   1H8   SING  19
+FWD  N8   2H8   SING  20
+FWD  C9   O91   DOUB  21
+FWD  C9   O92   SING  22
+FWD  O92  OH92  SING  23
+#

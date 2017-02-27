@@ -1,0 +1,109 @@
+data_PAQ
+#
+_chem_comp.id                       PAQ
+_chem_comp.name                     2-OXY-4-HYDROXY-5-(2-HYDRAZINOPYRIDINE)PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H16 N4 O4'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            304.305
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAQ  N    .  N  0  ?  ?  ?  1  1 
+PAQ  CA   .  C  0  ?  ?  ?  1  2 
+PAQ  CB   .  C  0  ?  ?  ?  1  3 
+PAQ  CG   .  C  0  ?  ?  ?  1  4 
+PAQ  CD1  .  C  0  ?  ?  ?  1  5 
+PAQ  O2   .  O  0  ?  ?  ?  1  6 
+PAQ  CD2  .  C  0  ?  ?  ?  1  7 
+PAQ  CE1  .  C  0  ?  ?  ?  1  8 
+PAQ  CE2  .  C  0  ?  ?  ?  1  9 
+PAQ  CZ   .  C  0  ?  ?  ?  1  10
+PAQ  OH   .  O  0  ?  ?  ?  1  11
+PAQ  N1   .  N  0  ?  ?  ?  1  12
+PAQ  N2   .  N  0  ?  ?  ?  1  13
+PAQ  C1   .  C  0  ?  ?  ?  1  14
+PAQ  C2   .  C  0  ?  ?  ?  1  15
+PAQ  C3   .  C  0  ?  ?  ?  1  16
+PAQ  C4   .  C  0  ?  ?  ?  1  17
+PAQ  C5   .  C  0  ?  ?  ?  1  18
+PAQ  N3   .  N  0  ?  ?  ?  1  19
+PAQ  C    .  C  0  ?  ?  ?  1  20
+PAQ  O    .  O  0  ?  ?  ?  1  21
+PAQ  OXT  .  O  0  ?  ?  ?  1  22
+PAQ  1HN  .  H  0  ?  ?  ?  0  23
+PAQ  2HN  .  H  0  ?  ?  ?  0  24
+PAQ  HA   .  H  0  ?  ?  ?  1  25
+PAQ  1HB  .  H  0  ?  ?  ?  0  26
+PAQ  2HB  .  H  0  ?  ?  ?  0  27
+PAQ  HG   .  H  0  ?  ?  ?  1  28
+PAQ  HD2  .  H  0  ?  ?  ?  1  29
+PAQ  HE1  .  H  0  ?  ?  ?  1  30
+PAQ  HOH  .  H  0  ?  ?  ?  1  31
+PAQ  HN1  .  H  0  ?  ?  ?  1  32
+PAQ  HN2  .  H  0  ?  ?  ?  1  33
+PAQ  H2   .  H  0  ?  ?  ?  1  34
+PAQ  H3   .  H  0  ?  ?  ?  1  35
+PAQ  H4   .  H  0  ?  ?  ?  1  36
+PAQ  H5   .  H  0  ?  ?  ?  1  37
+PAQ  HXT  .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAQ  N    CA   SING  1 
+PAQ  N    1HN  SING  2 
+PAQ  N    2HN  SING  3 
+PAQ  CA   CB   SING  4 
+PAQ  CA   C    SING  5 
+PAQ  CA   HA   SING  6 
+PAQ  CB   CG   SING  7 
+PAQ  CB   1HB  SING  8 
+PAQ  CB   2HB  SING  9 
+PAQ  CG   CD1  SING  10
+PAQ  CG   CD2  SING  11
+PAQ  CG   HG   SING  12
+PAQ  CD1  CE1  SING  13
+PAQ  CD1  O2   DOUB  14
+PAQ  CD2  CE2  DOUB  15
+PAQ  CD2  HD2  SING  16
+PAQ  CE1  CZ   DOUB  17
+PAQ  CE1  HE1  SING  18
+PAQ  CE2  CZ   SING  19
+PAQ  CE2  N1   SING  20
+PAQ  CZ   OH   SING  21
+PAQ  OH   HOH  SING  22
+PAQ  N1   N2   SING  23
+PAQ  N1   HN1  SING  24
+PAQ  N2   C1   SING  25
+PAQ  N2   HN2  SING  26
+PAQ  C1   C2   SING  27
+PAQ  C1   N3   DOUB  28
+PAQ  C2   C3   DOUB  29
+PAQ  C2   H2   SING  30
+PAQ  C3   C4   SING  31
+PAQ  C3   H3   SING  32
+PAQ  C4   C5   DOUB  33
+PAQ  C4   H4   SING  34
+PAQ  C5   N3   SING  35
+PAQ  C5   H5   SING  36
+PAQ  C    O    DOUB  37
+PAQ  C    OXT  SING  38
+PAQ  OXT  HXT  SING  39
+#

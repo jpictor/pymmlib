@@ -1,0 +1,72 @@
+data_OLE
+#
+_chem_comp.id                   OLE
+_chem_comp.name                 '2-HYDROXY-4-METHYL-PENTANOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H12 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        132.159
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OLE  ON    .  O  0  ?  ?  ?  1  1 
+OLE  CA    .  C  0  ?  ?  ?  1  2 
+OLE  C     .  C  0  ?  ?  ?  1  3 
+OLE  O     .  O  0  ?  ?  ?  1  4 
+OLE  CB    .  C  0  ?  ?  ?  1  5 
+OLE  CG    .  C  0  ?  ?  ?  1  6 
+OLE  CD1   .  C  0  ?  ?  ?  1  7 
+OLE  CD2   .  C  0  ?  ?  ?  1  8 
+OLE  OXT   .  O  0  ?  ?  ?  1  9 
+OLE  HO    .  H  0  ?  ?  ?  1  10
+OLE  HA    .  H  0  ?  ?  ?  1  11
+OLE  1HB   .  H  0  ?  ?  ?  0  12
+OLE  2HB   .  H  0  ?  ?  ?  0  13
+OLE  HG    .  H  0  ?  ?  ?  1  14
+OLE  1HD1  .  H  0  ?  ?  ?  0  15
+OLE  2HD1  .  H  0  ?  ?  ?  0  16
+OLE  3HD1  .  H  0  ?  ?  ?  0  17
+OLE  1HD2  .  H  0  ?  ?  ?  0  18
+OLE  2HD2  .  H  0  ?  ?  ?  0  19
+OLE  3HD2  .  H  0  ?  ?  ?  0  20
+OLE  HXT   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OLE  ON   CA    SING  1 
+OLE  ON   HO    SING  2 
+OLE  CA   C     SING  3 
+OLE  CA   CB    SING  4 
+OLE  CA   HA    SING  5 
+OLE  C    O     DOUB  6 
+OLE  C    OXT   SING  7 
+OLE  CB   CG    SING  8 
+OLE  CB   1HB   SING  9 
+OLE  CB   2HB   SING  10
+OLE  CG   CD1   SING  11
+OLE  CG   CD2   SING  12
+OLE  CG   HG    SING  13
+OLE  CD1  1HD1  SING  14
+OLE  CD1  2HD1  SING  15
+OLE  CD1  3HD1  SING  16
+OLE  CD2  1HD2  SING  17
+OLE  CD2  2HD2  SING  18
+OLE  CD2  3HD2  SING  19
+OLE  OXT  HXT   SING  20
+#

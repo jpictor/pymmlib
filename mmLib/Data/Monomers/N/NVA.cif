@@ -1,0 +1,69 @@
+data_NVA
+#
+_chem_comp.id                       NVA
+_chem_comp.name                     NORVALINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            117.147
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NVA  N    .  N  0  ?  ?  ?  1  1 
+NVA  CA   .  C  0  ?  ?  ?  1  2 
+NVA  CB   .  C  0  ?  ?  ?  1  3 
+NVA  CG   .  C  0  ?  ?  ?  1  4 
+NVA  CD   .  C  0  ?  ?  ?  1  5 
+NVA  C    .  C  0  ?  ?  ?  1  6 
+NVA  O    .  O  0  ?  ?  ?  1  7 
+NVA  OXT  .  O  0  ?  ?  ?  1  8 
+NVA  1HN  .  H  0  ?  ?  ?  0  9 
+NVA  2HN  .  H  0  ?  ?  ?  0  10
+NVA  HA   .  H  0  ?  ?  ?  1  11
+NVA  1HB  .  H  0  ?  ?  ?  0  12
+NVA  2HB  .  H  0  ?  ?  ?  0  13
+NVA  1HG  .  H  0  ?  ?  ?  0  14
+NVA  2HG  .  H  0  ?  ?  ?  0  15
+NVA  1HD  .  H  0  ?  ?  ?  0  16
+NVA  2HD  .  H  0  ?  ?  ?  0  17
+NVA  3HD  .  H  0  ?  ?  ?  0  18
+NVA  HXT  .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NVA  N    CA   SING  1 
+NVA  N    1HN  SING  2 
+NVA  N    2HN  SING  3 
+NVA  CA   CB   SING  4 
+NVA  CA   C    SING  5 
+NVA  CA   HA   SING  6 
+NVA  CB   CG   SING  7 
+NVA  CB   1HB  SING  8 
+NVA  CB   2HB  SING  9 
+NVA  CG   CD   SING  10
+NVA  CG   1HG  SING  11
+NVA  CG   2HG  SING  12
+NVA  CD   1HD  SING  13
+NVA  CD   2HD  SING  14
+NVA  CD   3HD  SING  15
+NVA  C    O    DOUB  16
+NVA  C    OXT  SING  17
+NVA  OXT  HXT  SING  18
+#

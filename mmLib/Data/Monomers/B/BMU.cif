@@ -1,0 +1,112 @@
+data_BMU
+#
+_chem_comp.id                   BMU
+_chem_comp.name                 1-(5-TERT-BUTYL-2-METHYL-2H-PYRAZOL-3-YL)-3-(4-CHLORO-PHENYL)-UREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H19 N4 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        306.794
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BMU  C1    .  C   0  33.335  33.731  14.743  1  1 
+BMU  O1    .  O   0  32.601  34.546  15.333  1  2 
+BMU  N2    .  N   0  34.571  33.506  15.183  1  3 
+BMU  C3    .  C   0  35.148  34.129  16.209  1  4 
+BMU  C4    .  C   0  36.448  34.479  16.074  1  5 
+BMU  C5    .  C   0  37.114  35.104  17.108  1  6 
+BMU  C6    .  C   0  36.476  35.363  18.245  1  7 
+BMU  CL6   .  CL  0  37.357  36.133  19.534  0  8 
+BMU  C7    .  C   0  35.170  35.023  18.404  1  9 
+BMU  C8    .  C   0  34.490  34.392  17.361  1  10
+BMU  N9    .  N   0  32.913  33.039  13.681  1  11
+BMU  C10   .  C   0  31.714  33.164  13.111  1  12
+BMU  C14   .  C   0  31.035  34.317  12.860  1  13
+BMU  C13   .  C   0  29.877  33.953  12.198  1  14
+BMU  N12   .  N   0  29.845  32.630  12.043  1  15
+BMU  N11   .  N   0  31.016  32.148  12.635  1  16
+BMU  C15   .  C   0  31.402  30.733  12.723  1  17
+BMU  C17   .  C   0  28.336  35.629  12.967  1  18
+BMU  C18   .  C   0  27.711  33.985  11.174  1  19
+BMU  C19   .  C   0  29.405  35.760  10.690  1  20
+BMU  C16   .  C   0  28.878  34.807  11.778  1  21
+BMU  H4    .  H   0  ?       ?       ?       1  22
+BMU  H5    .  H   0  ?       ?       ?       1  23
+BMU  H7    .  H   0  ?       ?       ?       1  24
+BMU  H8    .  H   0  ?       ?       ?       1  25
+BMU  H2    .  H   0  ?       ?       ?       1  26
+BMU  H9    .  H   0  ?       ?       ?       1  27
+BMU  H14   .  H   0  ?       ?       ?       1  28
+BMU  1H15  .  H   0  ?       ?       ?       0  29
+BMU  2H15  .  H   0  ?       ?       ?       0  30
+BMU  3H15  .  H   0  ?       ?       ?       0  31
+BMU  1H19  .  H   0  ?       ?       ?       0  32
+BMU  2H19  .  H   0  ?       ?       ?       0  33
+BMU  3H19  .  H   0  ?       ?       ?       0  34
+BMU  1H17  .  H   0  ?       ?       ?       0  35
+BMU  2H17  .  H   0  ?       ?       ?       0  36
+BMU  3H17  .  H   0  ?       ?       ?       0  37
+BMU  1H18  .  H   0  ?       ?       ?       0  38
+BMU  2H18  .  H   0  ?       ?       ?       0  39
+BMU  3H18  .  H   0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BMU  C1   O1    DOUB  1 
+BMU  C1   N2    SING  2 
+BMU  C1   N9    SING  3 
+BMU  N2   C3    SING  4 
+BMU  N2   H2    SING  5 
+BMU  C3   C4    DOUB  6 
+BMU  C3   C8    SING  7 
+BMU  C4   C5    SING  8 
+BMU  C4   H4    SING  9 
+BMU  C5   C6    DOUB  10
+BMU  C5   H5    SING  11
+BMU  C6   CL6   SING  12
+BMU  C6   C7    SING  13
+BMU  C7   C8    DOUB  14
+BMU  C7   H7    SING  15
+BMU  C8   H8    SING  16
+BMU  N9   C10   SING  17
+BMU  N9   H9    SING  18
+BMU  C10  C14   DOUB  19
+BMU  C10  N11   SING  20
+BMU  C14  C13   SING  21
+BMU  C14  H14   SING  22
+BMU  C13  N12   DOUB  23
+BMU  C13  C16   SING  24
+BMU  N12  N11   SING  25
+BMU  N11  C15   SING  26
+BMU  C15  1H15  SING  27
+BMU  C15  2H15  SING  28
+BMU  C15  3H15  SING  29
+BMU  C17  C16   SING  30
+BMU  C17  1H17  SING  31
+BMU  C17  2H17  SING  32
+BMU  C17  3H17  SING  33
+BMU  C18  C16   SING  34
+BMU  C18  1H18  SING  35
+BMU  C18  2H18  SING  36
+BMU  C18  3H18  SING  37
+BMU  C19  C16   SING  38
+BMU  C19  1H19  SING  39
+BMU  C19  2H19  SING  40
+BMU  C19  3H19  SING  41
+#

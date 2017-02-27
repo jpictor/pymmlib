@@ -1,0 +1,95 @@
+data_PNU
+#
+_chem_comp.id                   PNU
+_chem_comp.name                 6-CHLORO-2-(1-FURO[2,3-C]PYRIDIN-5-YL-ETHYLSULFANYL)-PYRIMIDIN-4-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H11 N4 O1 CL1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        306.769
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PNU  C1    .  C   0  ?  ?  ?  1  1 
+PNU  N2    .  N   0  ?  ?  ?  1  2 
+PNU  C3    .  C   0  ?  ?  ?  1  3 
+PNU  C4    .  C   0  ?  ?  ?  1  4 
+PNU  C5    .  C   0  ?  ?  ?  1  5 
+PNU  N6    .  N   0  ?  ?  ?  1  6 
+PNU  C7    .  C   0  ?  ?  ?  1  7 
+PNU  C8    .  C   0  ?  ?  ?  1  8 
+PNU  N9    .  N   0  ?  ?  ?  1  9 
+PNU  C10   .  C   0  ?  ?  ?  1  10
+PNU  C11   .  C   0  ?  ?  ?  1  11
+PNU  C12   .  C   0  ?  ?  ?  1  12
+PNU  C13   .  C   0  ?  ?  ?  1  13
+PNU  O14   .  O   0  ?  ?  ?  1  14
+PNU  C15   .  C   0  ?  ?  ?  1  15
+PNU  C16   .  C   0  ?  ?  ?  1  16
+PNU  S17   .  S   0  ?  ?  ?  1  17
+PNU  N18   .  N   0  ?  ?  ?  1  18
+PNU  CL19  .  CL  0  ?  ?  ?  0  19
+PNU  C21   .  C   0  ?  ?  ?  1  20
+PNU  HC4   .  H   0  ?  ?  ?  1  21
+PNU  1H18  .  H   0  ?  ?  ?  0  22
+PNU  2H18  .  H   0  ?  ?  ?  0  23
+PNU  1H21  .  H   0  ?  ?  ?  0  24
+PNU  2H21  .  H   0  ?  ?  ?  0  25
+PNU  3H21  .  H   0  ?  ?  ?  0  26
+PNU  CH16  .  H   0  ?  ?  ?  0  27
+PNU  CH11  .  H   0  ?  ?  ?  0  28
+PNU  HC8   .  H   0  ?  ?  ?  1  29
+PNU  CH13  .  H   0  ?  ?  ?  0  30
+PNU  CH15  .  H   0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PNU  C1   N2    DOUB  1 
+PNU  C1   N6    SING  2 
+PNU  C1   S17   SING  3 
+PNU  N2   C3    SING  4 
+PNU  C3   C4    DOUB  5 
+PNU  C3   N18   SING  6 
+PNU  C4   C5    SING  7 
+PNU  C4   HC4   SING  8 
+PNU  C5   N6    DOUB  9 
+PNU  C5   CL19  SING  10
+PNU  C7   C8    DOUB  11
+PNU  C7   C12   SING  12
+PNU  C7   O14   SING  13
+PNU  C8   N9    SING  14
+PNU  C8   HC8   SING  15
+PNU  N9   C10   DOUB  16
+PNU  C10  C11   SING  17
+PNU  C10  C16   SING  18
+PNU  C11  C12   DOUB  19
+PNU  C11  CH11  SING  20
+PNU  C12  C13   SING  21
+PNU  C13  C15   DOUB  22
+PNU  C13  CH13  SING  23
+PNU  O14  C15   SING  24
+PNU  C15  CH15  SING  25
+PNU  C16  S17   SING  26
+PNU  C16  C21   SING  27
+PNU  C16  CH16  SING  28
+PNU  N18  1H18  SING  29
+PNU  N18  2H18  SING  30
+PNU  C21  1H21  SING  31
+PNU  C21  2H21  SING  32
+PNU  C21  3H21  SING  33
+#

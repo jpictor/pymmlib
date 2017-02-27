@@ -1,0 +1,122 @@
+data_RLP
+#
+_chem_comp.id                   RLP
+_chem_comp.name                 '3-(7-HYDROXY-8-RIBITYLLUMAZINE-6-YL) PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H18 N4 O9'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        386.318
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RLP  O19   .  O  0  140.700  10.124  149.007  1  1 
+RLP  C18   .  C  0  141.043  11.305  149.182  1  2 
+RLP  O18   .  O  0  140.269  12.229  148.992  1  3 
+RLP  C17   .  C  0  142.442  11.688  149.618  1  4 
+RLP  C16   .  C  0  143.428  11.336  148.510  1  5 
+RLP  C7    .  C  0  143.383  12.271  147.298  1  6 
+RLP  C8    .  C  0  142.222  12.235  146.369  1  7 
+RLP  O8    .  O  0  141.257  11.453  146.572  1  8 
+RLP  N9    .  N  0  142.195  13.046  145.289  1  9 
+RLP  C10   .  C  0  143.192  13.916  145.041  1  10
+RLP  C5    .  C  0  144.341  13.927  145.958  1  11
+RLP  N6    .  N  0  144.402  13.110  147.022  1  12
+RLP  C4    .  C  0  145.431  14.866  145.654  1  13
+RLP  O4    .  O  0  146.429  14.974  146.429  1  14
+RLP  N3    .  N  0  145.310  15.629  144.549  1  15
+RLP  C2    .  C  0  144.240  15.558  143.721  1  16
+RLP  O2    .  O  0  144.258  16.298  142.734  1  17
+RLP  N1    .  N  0  143.207  14.711  143.921  1  18
+RLP  C11   .  C  0  140.993  13.109  144.463  1  19
+RLP  C12   .  C  0  140.854  12.257  143.250  1  20
+RLP  O12   .  O  0  141.732  12.893  142.334  1  21
+RLP  C13   .  C  0  139.402  12.204  142.779  1  22
+RLP  O13   .  O  0  138.908  13.539  142.585  1  23
+RLP  C14   .  C  0  138.470  11.432  143.715  1  24
+RLP  O14   .  O  0  139.031  10.157  144.026  1  25
+RLP  C15   .  C  0  137.079  11.231  143.089  1  26
+RLP  O15   .  O  0  137.188  10.646  141.782  1  27
+RLP  HN3   .  H  0  ?        ?       ?        1  28
+RLP  1H16  .  H  0  ?        ?       ?        0  29
+RLP  2H16  .  H  0  ?        ?       ?        0  30
+RLP  1H17  .  H  0  ?        ?       ?        0  31
+RLP  2H17  .  H  0  ?        ?       ?        0  32
+RLP  OH19  .  H  0  ?        ?       ?        0  33
+RLP  HO8   .  H  0  ?        ?       ?        1  34
+RLP  1H11  .  H  0  ?        ?       ?        0  35
+RLP  2H11  .  H  0  ?        ?       ?        0  36
+RLP  1H12  .  H  0  ?        ?       ?        0  37
+RLP  OH12  .  H  0  ?        ?       ?        0  38
+RLP  1H13  .  H  0  ?        ?       ?        0  39
+RLP  OH13  .  H  0  ?        ?       ?        0  40
+RLP  1H14  .  H  0  ?        ?       ?        0  41
+RLP  OH14  .  H  0  ?        ?       ?        0  42
+RLP  1H15  .  H  0  ?        ?       ?        0  43
+RLP  2H15  .  H  0  ?        ?       ?        0  44
+RLP  OH15  .  H  0  ?        ?       ?        0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RLP  O19  C18   SING  1 
+RLP  O19  OH19  SING  2 
+RLP  C18  O18   DOUB  3 
+RLP  C18  C17   SING  4 
+RLP  C17  C16   SING  5 
+RLP  C17  1H17  SING  6 
+RLP  C17  2H17  SING  7 
+RLP  C16  C7    SING  8 
+RLP  C16  1H16  SING  9 
+RLP  C16  2H16  SING  10
+RLP  C7   C8    DOUB  11
+RLP  C7   N6    SING  12
+RLP  C8   O8    SING  13
+RLP  C8   N9    SING  14
+RLP  O8   HO8   SING  15
+RLP  N9   C10   SING  16
+RLP  N9   C11   SING  17
+RLP  C10  C5    SING  18
+RLP  C10  N1    DOUB  19
+RLP  C5   N6    DOUB  20
+RLP  C5   C4    SING  21
+RLP  C4   O4    DOUB  22
+RLP  C4   N3    SING  23
+RLP  N3   C2    SING  24
+RLP  N3   HN3   SING  25
+RLP  C2   O2    DOUB  26
+RLP  C2   N1    SING  27
+RLP  C11  C12   SING  28
+RLP  C11  1H11  SING  29
+RLP  C11  2H11  SING  30
+RLP  C12  O12   SING  31
+RLP  C12  C13   SING  32
+RLP  C12  1H12  SING  33
+RLP  O12  OH12  SING  34
+RLP  C13  O13   SING  35
+RLP  C13  C14   SING  36
+RLP  C13  1H13  SING  37
+RLP  O13  OH13  SING  38
+RLP  C14  O14   SING  39
+RLP  C14  C15   SING  40
+RLP  C14  1H14  SING  41
+RLP  O14  OH14  SING  42
+RLP  C15  O15   SING  43
+RLP  C15  1H15  SING  44
+RLP  C15  2H15  SING  45
+RLP  O15  OH15  SING  46
+#

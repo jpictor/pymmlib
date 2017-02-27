@@ -1,0 +1,92 @@
+data_TNB
+#
+_chem_comp.id                       TNB
+_chem_comp.name                     S-(2,3,6-TRINITROPHENYL)CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H8 N4 O8 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            332.244
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TNB  CA   .  C  0  ?  ?  ?  1  1 
+TNB  C    .  C  0  ?  ?  ?  1  2 
+TNB  O    .  O  0  ?  ?  ?  1  3 
+TNB  OXT  .  O  0  ?  ?  ?  1  4 
+TNB  N    .  N  0  ?  ?  ?  1  5 
+TNB  CB   .  C  0  ?  ?  ?  1  6 
+TNB  SG   .  S  0  ?  ?  ?  1  7 
+TNB  C1   .  C  0  ?  ?  ?  1  8 
+TNB  C2   .  C  0  ?  ?  ?  1  9 
+TNB  C3   .  C  0  ?  ?  ?  1  10
+TNB  C4   .  C  0  ?  ?  ?  1  11
+TNB  C5   .  C  0  ?  ?  ?  1  12
+TNB  C6   .  C  0  ?  ?  ?  1  13
+TNB  N2   .  N  0  ?  ?  ?  1  14
+TNB  N4   .  N  0  ?  ?  ?  1  15
+TNB  N6   .  N  0  ?  ?  ?  1  16
+TNB  O21  .  O  0  ?  ?  ?  1  17
+TNB  O22  .  O  0  ?  ?  ?  1  18
+TNB  O41  .  O  0  ?  ?  ?  1  19
+TNB  O42  .  O  0  ?  ?  ?  1  20
+TNB  O61  .  O  0  ?  ?  ?  1  21
+TNB  O62  .  O  0  ?  ?  ?  1  22
+TNB  HA   .  H  0  ?  ?  ?  1  23
+TNB  HXT  .  H  0  ?  ?  ?  1  24
+TNB  1HN  .  H  0  ?  ?  ?  0  25
+TNB  2HN  .  H  0  ?  ?  ?  0  26
+TNB  1HB  .  H  0  ?  ?  ?  0  27
+TNB  2HB  .  H  0  ?  ?  ?  0  28
+TNB  H3   .  H  0  ?  ?  ?  1  29
+TNB  H5   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TNB  CA   C    SING  1 
+TNB  CA   N    SING  2 
+TNB  CA   CB   SING  3 
+TNB  CA   HA   SING  4 
+TNB  C    O    DOUB  5 
+TNB  C    OXT  SING  6 
+TNB  OXT  HXT  SING  7 
+TNB  N    1HN  SING  8 
+TNB  N    2HN  SING  9 
+TNB  CB   SG   SING  10
+TNB  CB   1HB  SING  11
+TNB  CB   2HB  SING  12
+TNB  SG   C1   SING  13
+TNB  C1   C2   DOUB  14
+TNB  C1   C6   SING  15
+TNB  C2   C3   SING  16
+TNB  C2   N2   SING  17
+TNB  C3   C4   DOUB  18
+TNB  C3   H3   SING  19
+TNB  C4   C5   SING  20
+TNB  C4   N4   SING  21
+TNB  C5   C6   DOUB  22
+TNB  C5   H5   SING  23
+TNB  C6   N6   SING  24
+TNB  N2   O21  DOUB  25
+TNB  N2   O22  DOUB  26
+TNB  N4   O41  DOUB  27
+TNB  N4   O42  DOUB  28
+TNB  N6   O61  DOUB  29
+TNB  N6   O62  DOUB  30
+#

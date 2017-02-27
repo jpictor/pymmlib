@@ -1,0 +1,81 @@
+data_APE
+#
+_chem_comp.id                   APE
+_chem_comp.name                 '(1-AMINO-2-PHENYL-ETHYL)-CARBAMIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H12 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.206
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APE  N    .  N  0  ?  ?  ?  1  1 
+APE  CA   .  C  0  ?  ?  ?  1  2 
+APE  CB   .  C  0  ?  ?  ?  1  3 
+APE  CG   .  C  0  ?  ?  ?  1  4 
+APE  CD1  .  C  0  ?  ?  ?  1  5 
+APE  CD2  .  C  0  ?  ?  ?  1  6 
+APE  CE1  .  C  0  ?  ?  ?  1  7 
+APE  CE2  .  C  0  ?  ?  ?  1  8 
+APE  CZ   .  C  0  ?  ?  ?  1  9 
+APE  NHO  .  N  0  ?  ?  ?  1  10
+APE  C    .  C  0  ?  ?  ?  1  11
+APE  O    .  O  0  ?  ?  ?  1  12
+APE  OXT  .  O  0  ?  ?  ?  1  13
+APE  1HN  .  H  0  ?  ?  ?  0  14
+APE  2HN  .  H  0  ?  ?  ?  0  15
+APE  HA   .  H  0  ?  ?  ?  1  16
+APE  1HB  .  H  0  ?  ?  ?  0  17
+APE  2HB  .  H  0  ?  ?  ?  0  18
+APE  HD1  .  H  0  ?  ?  ?  1  19
+APE  HD2  .  H  0  ?  ?  ?  1  20
+APE  HE1  .  H  0  ?  ?  ?  1  21
+APE  HE2  .  H  0  ?  ?  ?  1  22
+APE  HZ   .  H  0  ?  ?  ?  1  23
+APE  HN   .  H  0  ?  ?  ?  1  24
+APE  HXT  .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APE  N    CA   SING  1 
+APE  N    1HN  SING  2 
+APE  N    2HN  SING  3 
+APE  CA   CB   SING  4 
+APE  CA   NHO  SING  5 
+APE  CA   HA   SING  6 
+APE  CB   CG   SING  7 
+APE  CB   1HB  SING  8 
+APE  CB   2HB  SING  9 
+APE  CG   CD1  DOUB  10
+APE  CG   CD2  SING  11
+APE  CD1  CE1  SING  12
+APE  CD1  HD1  SING  13
+APE  CD2  CE2  DOUB  14
+APE  CD2  HD2  SING  15
+APE  CE1  CZ   DOUB  16
+APE  CE1  HE1  SING  17
+APE  CE2  CZ   SING  18
+APE  CE2  HE2  SING  19
+APE  CZ   HZ   SING  20
+APE  NHO  C    SING  21
+APE  NHO  HN   SING  22
+APE  C    O    DOUB  23
+APE  C    OXT  SING  24
+APE  OXT  HXT  SING  25
+#

@@ -1,0 +1,80 @@
+data_PHL
+#
+_chem_comp.id                       PHL
+_chem_comp.name                     L-PHENYLALANINOL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H13 N1 O1'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            151.208
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PHL  N    .  N  0  ?  ?  ?  1  1 
+PHL  CA   .  C  0  ?  ?  ?  1  2 
+PHL  C    .  C  0  ?  ?  ?  1  3 
+PHL  O    .  O  0  ?  ?  ?  1  4 
+PHL  CB   .  C  0  ?  ?  ?  1  5 
+PHL  CG   .  C  0  ?  ?  ?  1  6 
+PHL  CD1  .  C  0  ?  ?  ?  1  7 
+PHL  CD2  .  C  0  ?  ?  ?  1  8 
+PHL  CE1  .  C  0  ?  ?  ?  1  9 
+PHL  CE2  .  C  0  ?  ?  ?  1  10
+PHL  CZ   .  C  0  ?  ?  ?  1  11
+PHL  H1   .  H  0  ?  ?  ?  1  12
+PHL  H2   .  H  0  ?  ?  ?  1  13
+PHL  HO   .  H  0  ?  ?  ?  1  14
+PHL  HA   .  H  0  ?  ?  ?  1  15
+PHL  1HN  .  H  0  ?  ?  ?  0  16
+PHL  2HN  .  H  0  ?  ?  ?  0  17
+PHL  1HB  .  H  0  ?  ?  ?  0  18
+PHL  2HB  .  H  0  ?  ?  ?  0  19
+PHL  HD1  .  H  0  ?  ?  ?  1  20
+PHL  HD2  .  H  0  ?  ?  ?  1  21
+PHL  HE1  .  H  0  ?  ?  ?  1  22
+PHL  HE2  .  H  0  ?  ?  ?  1  23
+PHL  HZ   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PHL  N    CA   SING  1 
+PHL  N    1HN  SING  2 
+PHL  N    2HN  SING  3 
+PHL  CA   C    SING  4 
+PHL  CA   CB   SING  5 
+PHL  CA   HA   SING  6 
+PHL  C    O    SING  7 
+PHL  C    H1   SING  8 
+PHL  C    H2   SING  9 
+PHL  O    HO   SING  10
+PHL  CB   CG   SING  11
+PHL  CB   1HB  SING  12
+PHL  CB   2HB  SING  13
+PHL  CG   CD1  DOUB  14
+PHL  CG   CD2  SING  15
+PHL  CD1  CE1  SING  16
+PHL  CD1  HD1  SING  17
+PHL  CD2  CE2  DOUB  18
+PHL  CD2  HD2  SING  19
+PHL  CE1  CZ   DOUB  20
+PHL  CE1  HE1  SING  21
+PHL  CE2  CZ   SING  22
+PHL  CE2  HE2  SING  23
+PHL  CZ   HZ   SING  24
+#

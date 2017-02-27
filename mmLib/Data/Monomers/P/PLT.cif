@@ -1,0 +1,133 @@
+data_PLT
+#
+_chem_comp.id                   PLT
+_chem_comp.name                 [3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL]-L-TRYPTOPHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H20 N3 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        433.357
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLT  N1    .  N  0  ?  ?  ?  1  1 
+PLT  C2    .  C  0  ?  ?  ?  1  2 
+PLT  C2A   .  C  0  ?  ?  ?  1  3 
+PLT  C3    .  C  0  ?  ?  ?  1  4 
+PLT  O3    .  O  0  ?  ?  ?  1  5 
+PLT  C4    .  C  0  ?  ?  ?  1  6 
+PLT  C4A   .  C  0  ?  ?  ?  1  7 
+PLT  C5    .  C  0  ?  ?  ?  1  8 
+PLT  C6    .  C  0  ?  ?  ?  1  9 
+PLT  C5A   .  C  0  ?  ?  ?  1  10
+PLT  O4P   .  O  0  ?  ?  ?  1  11
+PLT  P     .  P  0  ?  ?  ?  1  12
+PLT  O1P   .  O  0  ?  ?  ?  1  13
+PLT  O2P   .  O  0  ?  ?  ?  1  14
+PLT  O3P   .  O  0  ?  ?  ?  1  15
+PLT  N     .  N  0  ?  ?  ?  1  16
+PLT  CA    .  C  0  ?  ?  ?  1  17
+PLT  C     .  C  0  ?  ?  ?  1  18
+PLT  O     .  O  0  ?  ?  ?  1  19
+PLT  OXT   .  O  0  ?  ?  ?  1  20
+PLT  CB    .  C  0  ?  ?  ?  1  21
+PLT  CG    .  C  0  ?  ?  ?  1  22
+PLT  CD1   .  C  0  ?  ?  ?  1  23
+PLT  NE1   .  N  0  ?  ?  ?  1  24
+PLT  CE2   .  C  0  ?  ?  ?  1  25
+PLT  CZ2   .  C  0  ?  ?  ?  1  26
+PLT  CH2   .  C  0  ?  ?  ?  1  27
+PLT  CZ3   .  C  0  ?  ?  ?  1  28
+PLT  CE3   .  C  0  ?  ?  ?  1  29
+PLT  CD2   .  C  0  ?  ?  ?  1  30
+PLT  1H2A  .  H  0  ?  ?  ?  0  31
+PLT  2H2A  .  H  0  ?  ?  ?  0  32
+PLT  3H2A  .  H  0  ?  ?  ?  0  33
+PLT  HO3   .  H  0  ?  ?  ?  1  34
+PLT  H4A   .  H  0  ?  ?  ?  1  35
+PLT  1H5A  .  H  0  ?  ?  ?  0  36
+PLT  2H5A  .  H  0  ?  ?  ?  0  37
+PLT  H6    .  H  0  ?  ?  ?  1  38
+PLT  2HOP  .  H  0  ?  ?  ?  0  39
+PLT  3HOP  .  H  0  ?  ?  ?  0  40
+PLT  HXT   .  H  0  ?  ?  ?  1  41
+PLT  HA    .  H  0  ?  ?  ?  1  42
+PLT  1HB   .  H  0  ?  ?  ?  0  43
+PLT  2HB   .  H  0  ?  ?  ?  0  44
+PLT  HD1   .  H  0  ?  ?  ?  1  45
+PLT  HNE   .  H  0  ?  ?  ?  1  46
+PLT  HZ2   .  H  0  ?  ?  ?  1  47
+PLT  HH2   .  H  0  ?  ?  ?  1  48
+PLT  HZ3   .  H  0  ?  ?  ?  1  49
+PLT  HE3   .  H  0  ?  ?  ?  1  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLT  N1   C2    DOUB  1 
+PLT  N1   C6    SING  2 
+PLT  C2   C2A   SING  3 
+PLT  C2   C3    SING  4 
+PLT  C2A  1H2A  SING  5 
+PLT  C2A  2H2A  SING  6 
+PLT  C2A  3H2A  SING  7 
+PLT  C3   O3    SING  8 
+PLT  C3   C4    DOUB  9 
+PLT  O3   HO3   SING  10
+PLT  C4   C4A   SING  11
+PLT  C4   C5    SING  12
+PLT  C4A  N     DOUB  13
+PLT  C4A  H4A   SING  14
+PLT  C5   C6    DOUB  15
+PLT  C5   C5A   SING  16
+PLT  C6   H6    SING  17
+PLT  C5A  O4P   SING  18
+PLT  C5A  1H5A  SING  19
+PLT  C5A  2H5A  SING  20
+PLT  O4P  P     SING  21
+PLT  P    O1P   DOUB  22
+PLT  P    O2P   SING  23
+PLT  P    O3P   SING  24
+PLT  O2P  2HOP  SING  25
+PLT  O3P  3HOP  SING  26
+PLT  N    CA    SING  27
+PLT  CA   C     SING  28
+PLT  CA   CB    SING  29
+PLT  CA   HA    SING  30
+PLT  C    O     DOUB  31
+PLT  C    OXT   SING  32
+PLT  OXT  HXT   SING  33
+PLT  CB   CG    SING  34
+PLT  CB   1HB   SING  35
+PLT  CB   2HB   SING  36
+PLT  CG   CD1   DOUB  37
+PLT  CG   CD2   SING  38
+PLT  CD1  NE1   SING  39
+PLT  CD1  HD1   SING  40
+PLT  NE1  CE2   SING  41
+PLT  NE1  HNE   SING  42
+PLT  CE2  CZ2   DOUB  43
+PLT  CE2  CD2   SING  44
+PLT  CZ2  CH2   SING  45
+PLT  CZ2  HZ2   SING  46
+PLT  CH2  CZ3   DOUB  47
+PLT  CH2  HH2   SING  48
+PLT  CZ3  CE3   SING  49
+PLT  CZ3  HZ3   SING  50
+PLT  CE3  CD2   DOUB  51
+PLT  CE3  HE3   SING  52
+#

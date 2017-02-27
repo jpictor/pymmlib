@@ -1,0 +1,71 @@
+data_RIP
+#
+_chem_comp.id                   RIP
+_chem_comp.name                 'RIBOSE(PYRANOSE FORM)'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RIP  C1   .  C  0  ?  ?  ?  1  1 
+RIP  C2   .  C  0  ?  ?  ?  1  2 
+RIP  C3   .  C  0  ?  ?  ?  1  3 
+RIP  C4   .  C  0  ?  ?  ?  1  4 
+RIP  C5   .  C  0  ?  ?  ?  1  5 
+RIP  O1   .  O  0  ?  ?  ?  1  6 
+RIP  O2   .  O  0  ?  ?  ?  1  7 
+RIP  O3   .  O  0  ?  ?  ?  1  8 
+RIP  O4   .  O  0  ?  ?  ?  1  9 
+RIP  O5   .  O  0  ?  ?  ?  1  10
+RIP  H1   .  H  0  ?  ?  ?  1  11
+RIP  H2   .  H  0  ?  ?  ?  1  12
+RIP  H3   .  H  0  ?  ?  ?  1  13
+RIP  H4   .  H  0  ?  ?  ?  1  14
+RIP  1H5  .  H  0  ?  ?  ?  0  15
+RIP  2H5  .  H  0  ?  ?  ?  0  16
+RIP  HO1  .  H  0  ?  ?  ?  1  17
+RIP  HO2  .  H  0  ?  ?  ?  1  18
+RIP  HO3  .  H  0  ?  ?  ?  1  19
+RIP  HO4  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RIP  C1  C2   SING  1 
+RIP  C1  O1   SING  2 
+RIP  C1  O5   SING  3 
+RIP  C1  H1   SING  4 
+RIP  C2  C3   SING  5 
+RIP  C2  O2   SING  6 
+RIP  C2  H2   SING  7 
+RIP  C3  C4   SING  8 
+RIP  C3  O3   SING  9 
+RIP  C3  H3   SING  10
+RIP  C4  C5   SING  11
+RIP  C4  O4   SING  12
+RIP  C4  H4   SING  13
+RIP  C5  O5   SING  14
+RIP  C5  1H5  SING  15
+RIP  C5  2H5  SING  16
+RIP  O1  HO1  SING  17
+RIP  O2  HO2  SING  18
+RIP  O3  HO3  SING  19
+RIP  O4  HO4  SING  20
+#

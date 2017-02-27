@@ -1,0 +1,104 @@
+data_2DT
+#
+_chem_comp.id                       2DT
+_chem_comp.name                     3'-DEOXYTHYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O7 P1'
+_chem_comp.pdbx_synonyms            2',3'-DIDEOXYTHYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            306.211
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2DT  P     .  P  0  ?  ?  ?  1  1 
+2DT  O1P   .  O  0  ?  ?  ?  1  2 
+2DT  O2P   .  O  0  ?  ?  ?  1  3 
+2DT  O3P   .  O  0  ?  ?  ?  1  4 
+2DT  O5*   .  O  0  ?  ?  ?  1  5 
+2DT  N1    .  N  0  ?  ?  ?  1  6 
+2DT  C6    .  C  0  ?  ?  ?  1  7 
+2DT  C2    .  C  0  ?  ?  ?  1  8 
+2DT  O2    .  O  0  ?  ?  ?  1  9 
+2DT  N3    .  N  0  ?  ?  ?  1  10
+2DT  C4    .  C  0  ?  ?  ?  1  11
+2DT  O4    .  O  0  ?  ?  ?  1  12
+2DT  C5    .  C  0  ?  ?  ?  1  13
+2DT  C5M   .  C  0  ?  ?  ?  1  14
+2DT  C2*   .  C  0  ?  ?  ?  1  15
+2DT  C5*   .  C  0  ?  ?  ?  1  16
+2DT  C4*   .  C  0  ?  ?  ?  1  17
+2DT  O4*   .  O  0  ?  ?  ?  1  18
+2DT  C1*   .  C  0  ?  ?  ?  1  19
+2DT  C3*   .  C  0  ?  ?  ?  1  20
+2DT  2HOP  .  H  0  ?  ?  ?  0  21
+2DT  3HOP  .  H  0  ?  ?  ?  0  22
+2DT  H6    .  H  0  ?  ?  ?  1  23
+2DT  HN3   .  H  0  ?  ?  ?  1  24
+2DT  1H5M  .  H  0  ?  ?  ?  0  25
+2DT  2H5M  .  H  0  ?  ?  ?  0  26
+2DT  3H5M  .  H  0  ?  ?  ?  0  27
+2DT  1H2*  .  H  0  ?  ?  ?  0  28
+2DT  2H2*  .  H  0  ?  ?  ?  0  29
+2DT  1H5*  .  H  0  ?  ?  ?  0  30
+2DT  2H5*  .  H  0  ?  ?  ?  0  31
+2DT  H4*   .  H  0  ?  ?  ?  1  32
+2DT  H1*   .  H  0  ?  ?  ?  1  33
+2DT  1H3*  .  H  0  ?  ?  ?  0  34
+2DT  2H3*  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2DT  P    O1P   DOUB  1 
+2DT  P    O2P   SING  2 
+2DT  P    O3P   SING  3 
+2DT  P    O5*   SING  4 
+2DT  O2P  2HOP  SING  5 
+2DT  O3P  3HOP  SING  6 
+2DT  O5*  C5*   SING  7 
+2DT  N1   C6    SING  8 
+2DT  N1   C2    SING  9 
+2DT  N1   C1*   SING  10
+2DT  C6   C5    DOUB  11
+2DT  C6   H6    SING  12
+2DT  C2   O2    DOUB  13
+2DT  C2   N3    SING  14
+2DT  N3   C4    SING  15
+2DT  N3   HN3   SING  16
+2DT  C4   O4    DOUB  17
+2DT  C4   C5    SING  18
+2DT  C5   C5M   SING  19
+2DT  C5M  1H5M  SING  20
+2DT  C5M  2H5M  SING  21
+2DT  C5M  3H5M  SING  22
+2DT  C2*  C1*   SING  23
+2DT  C2*  C3*   SING  24
+2DT  C2*  1H2*  SING  25
+2DT  C2*  2H2*  SING  26
+2DT  C5*  C4*   SING  27
+2DT  C5*  1H5*  SING  28
+2DT  C5*  2H5*  SING  29
+2DT  C4*  O4*   SING  30
+2DT  C4*  C3*   SING  31
+2DT  C4*  H4*   SING  32
+2DT  O4*  C1*   SING  33
+2DT  C1*  H1*   SING  34
+2DT  C3*  1H3*  SING  35
+2DT  C3*  2H3*  SING  36
+#

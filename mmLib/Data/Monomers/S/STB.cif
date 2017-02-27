@@ -1,0 +1,109 @@
+data_STB
+#
+_chem_comp.id                   STB
+_chem_comp.name                 4-SULFONAMIDE-[4-(THIOMETHYLAMINOBUTANE)]BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N3 O3 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        317.420
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+STB  C1    .  C  0  ?  ?  ?  1  1 
+STB  C2    .  C  0  ?  ?  ?  1  2 
+STB  C3    .  C  0  ?  ?  ?  1  3 
+STB  C4    .  C  0  ?  ?  ?  1  4 
+STB  C5    .  C  0  ?  ?  ?  1  5 
+STB  C6    .  C  0  ?  ?  ?  1  6 
+STB  C7    .  C  0  ?  ?  ?  1  7 
+STB  O7    .  O  0  ?  ?  ?  1  8 
+STB  N     .  N  0  ?  ?  ?  1  9 
+STB  C1'   .  C  0  ?  ?  ?  1  10
+STB  C2'   .  C  0  ?  ?  ?  1  11
+STB  C3'   .  C  0  ?  ?  ?  1  12
+STB  C4'   .  C  0  ?  ?  ?  1  13
+STB  N5'   .  N  0  ?  ?  ?  1  14
+STB  C6'   .  C  0  ?  ?  ?  1  15
+STB  S7'   .  S  0  ?  ?  ?  1  16
+STB  S     .  S  0  ?  ?  ?  1  17
+STB  O1S   .  O  0  ?  ?  ?  1  18
+STB  O2S   .  O  0  ?  ?  ?  1  19
+STB  N3S   .  N  0  ?  ?  ?  1  20
+STB  H2    .  H  0  ?  ?  ?  1  21
+STB  H3    .  H  0  ?  ?  ?  1  22
+STB  H5    .  H  0  ?  ?  ?  1  23
+STB  H6    .  H  0  ?  ?  ?  1  24
+STB  HN    .  H  0  ?  ?  ?  1  25
+STB  1H1'  .  H  0  ?  ?  ?  0  26
+STB  2H1'  .  H  0  ?  ?  ?  0  27
+STB  1H2'  .  H  0  ?  ?  ?  0  28
+STB  2H2'  .  H  0  ?  ?  ?  0  29
+STB  1H3'  .  H  0  ?  ?  ?  0  30
+STB  2H3'  .  H  0  ?  ?  ?  0  31
+STB  1H4'  .  H  0  ?  ?  ?  0  32
+STB  2H4'  .  H  0  ?  ?  ?  0  33
+STB  HN5   .  H  0  ?  ?  ?  1  34
+STB  1H6'  .  H  0  ?  ?  ?  0  35
+STB  2H6'  .  H  0  ?  ?  ?  0  36
+STB  HS7   .  H  0  ?  ?  ?  1  37
+STB  1HN3  .  H  0  ?  ?  ?  0  38
+STB  2HN3  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+STB  C1   C2    DOUB  1 
+STB  C1   C6    SING  2 
+STB  C1   C7    SING  3 
+STB  C2   C3    SING  4 
+STB  C2   H2    SING  5 
+STB  C3   C4    DOUB  6 
+STB  C3   H3    SING  7 
+STB  C4   C5    SING  8 
+STB  C4   S     SING  9 
+STB  C5   C6    DOUB  10
+STB  C5   H5    SING  11
+STB  C6   H6    SING  12
+STB  C7   N     SING  13
+STB  C7   O7    DOUB  14
+STB  N    C1'   SING  15
+STB  N    HN    SING  16
+STB  C1'  C2'   SING  17
+STB  C1'  1H1'  SING  18
+STB  C1'  2H1'  SING  19
+STB  C2'  C3'   SING  20
+STB  C2'  1H2'  SING  21
+STB  C2'  2H2'  SING  22
+STB  C3'  C4'   SING  23
+STB  C3'  1H3'  SING  24
+STB  C3'  2H3'  SING  25
+STB  C4'  N5'   SING  26
+STB  C4'  1H4'  SING  27
+STB  C4'  2H4'  SING  28
+STB  N5'  C6'   SING  29
+STB  N5'  HN5   SING  30
+STB  C6'  S7'   SING  31
+STB  C6'  1H6'  SING  32
+STB  C6'  2H6'  SING  33
+STB  S7'  HS7   SING  34
+STB  S    O1S   DOUB  35
+STB  S    O2S   DOUB  36
+STB  S    N3S   SING  37
+STB  N3S  1HN3  SING  38
+STB  N3S  2HN3  SING  39
+#

@@ -1,0 +1,99 @@
+data_UI2
+#
+_chem_comp.id                   UI2
+_chem_comp.name                 8-(PYRIMIDIN-2-YLAMINO)NAPHTHALENE-2-CARBOXIMIDAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H13 N5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        263.301
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UI2  C1    .  C  0  22.848  15.604  33.486  1  1 
+UI2  C2    .  C  0  21.563  15.615  32.925  1  2 
+UI2  C3    .  C  0  20.683  16.743  33.131  1  3 
+UI2  C4    .  C  0  21.183  17.831  33.920  1  4 
+UI2  C5    .  C  0  22.484  17.860  34.472  1  5 
+UI2  C6    .  C  0  23.314  16.720  34.258  1  6 
+UI2  C10   .  C  0  19.395  16.702  32.592  1  7 
+UI2  C11   .  C  0  18.519  17.766  32.944  1  8 
+UI2  C12   .  C  0  18.939  18.849  33.778  1  9 
+UI2  C13   .  C  0  20.251  18.926  34.232  1  10
+UI2  N17   .  N  0  23.023  18.979  35.199  1  11
+UI2  C18   .  C  0  23.573  18.935  36.477  1  12
+UI2  N19   .  N  0  23.542  17.827  37.284  1  13
+UI2  C20   .  C  0  24.018  17.762  38.555  1  14
+UI2  C21   .  C  0  24.623  18.926  39.179  1  15
+UI2  C22   .  C  0  24.565  20.060  38.270  1  16
+UI2  N23   .  N  0  24.123  20.087  37.040  1  17
+UI2  C28   .  C  0  18.109  19.891  34.190  1  18
+UI2  N29   .  N  0  16.803  19.779  34.160  1  19
+UI2  N30   .  N  0  18.543  21.090  34.651  1  20
+UI2  H29   .  H  0  ?       ?       ?       1  21
+UI2  1H30  .  H  0  ?       ?       ?       0  22
+UI2  2H30  .  H  0  ?       ?       ?       0  23
+UI2  H13   .  H  0  ?       ?       ?       1  24
+UI2  H2    .  H  0  ?       ?       ?       1  25
+UI2  H1    .  H  0  ?       ?       ?       1  26
+UI2  H6    .  H  0  ?       ?       ?       1  27
+UI2  H17   .  H  0  ?       ?       ?       1  28
+UI2  H22   .  H  0  ?       ?       ?       1  29
+UI2  H21   .  H  0  ?       ?       ?       1  30
+UI2  H20   .  H  0  ?       ?       ?       1  31
+UI2  H10   .  H  0  ?       ?       ?       1  32
+UI2  H11   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UI2  C1   C2    DOUB  1 
+UI2  C1   H1    SING  2 
+UI2  C1   C6    SING  3 
+UI2  C2   C3    SING  4 
+UI2  C2   H2    SING  5 
+UI2  C3   C4    DOUB  6 
+UI2  C3   C10   SING  7 
+UI2  C4   C13   SING  8 
+UI2  C4   C5    SING  9 
+UI2  C5   C6    DOUB  10
+UI2  C5   N17   SING  11
+UI2  C6   H6    SING  12
+UI2  C10  H10   SING  13
+UI2  C10  C11   DOUB  14
+UI2  C11  C12   SING  15
+UI2  C11  H11   SING  16
+UI2  C12  C28   SING  17
+UI2  C12  C13   DOUB  18
+UI2  C13  H13   SING  19
+UI2  N17  H17   SING  20
+UI2  N17  C18   SING  21
+UI2  C18  N23   DOUB  22
+UI2  C18  N19   SING  23
+UI2  N19  C20   DOUB  24
+UI2  C20  C21   SING  25
+UI2  C20  H20   SING  26
+UI2  C21  C22   DOUB  27
+UI2  C21  H21   SING  28
+UI2  C22  N23   SING  29
+UI2  C22  H22   SING  30
+UI2  C28  N29   DOUB  31
+UI2  C28  N30   SING  32
+UI2  N29  H29   SING  33
+UI2  N30  1H30  SING  34
+UI2  N30  2H30  SING  35
+#

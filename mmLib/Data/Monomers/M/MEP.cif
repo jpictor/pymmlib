@@ -1,0 +1,117 @@
+data_MEP
+#
+_chem_comp.id                       MEP
+_chem_comp.name                     'PHOSPHORIC ACID MONO-[4-METHOXY-3-METHYL-5-(5-METHYL-2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-TETRAHYDRO-FURAN-2-YLMETHYL] ESTER'
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H19 N2 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            350.264
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MEP  P     .  P  0  ?  ?  ?  1  1 
+MEP  O1P   .  O  0  ?  ?  ?  1  2 
+MEP  O2P   .  O  0  ?  ?  ?  1  3 
+MEP  O3P   .  O  0  ?  ?  ?  1  4 
+MEP  O5*   .  O  0  ?  ?  ?  1  5 
+MEP  C5*   .  C  0  ?  ?  ?  1  6 
+MEP  C4*   .  C  0  ?  ?  ?  1  7 
+MEP  O4*   .  O  0  ?  ?  ?  1  8 
+MEP  C3*   .  C  0  ?  ?  ?  1  9 
+MEP  C3M   .  C  0  ?  ?  ?  1  10
+MEP  C2*   .  C  0  ?  ?  ?  1  11
+MEP  O2*   .  O  0  ?  ?  ?  1  12
+MEP  C1*   .  C  0  ?  ?  ?  1  13
+MEP  N1    .  N  0  ?  ?  ?  1  14
+MEP  C2    .  C  0  ?  ?  ?  1  15
+MEP  O2    .  O  0  ?  ?  ?  1  16
+MEP  N3    .  N  0  ?  ?  ?  1  17
+MEP  C4    .  C  0  ?  ?  ?  1  18
+MEP  O4    .  O  0  ?  ?  ?  1  19
+MEP  C5    .  C  0  ?  ?  ?  1  20
+MEP  C5M   .  C  0  ?  ?  ?  1  21
+MEP  C6    .  C  0  ?  ?  ?  1  22
+MEP  CA*   .  C  0  ?  ?  ?  1  23
+MEP  2HOP  .  H  0  ?  ?  ?  0  24
+MEP  3HOP  .  H  0  ?  ?  ?  0  25
+MEP  1H5*  .  H  0  ?  ?  ?  0  26
+MEP  2H5*  .  H  0  ?  ?  ?  0  27
+MEP  H4*   .  H  0  ?  ?  ?  1  28
+MEP  H3*   .  H  0  ?  ?  ?  1  29
+MEP  H3T   .  H  0  ?  ?  ?  1  30
+MEP  2H3T  .  H  0  ?  ?  ?  0  31
+MEP  3H3T  .  H  0  ?  ?  ?  0  32
+MEP  H2*   .  H  0  ?  ?  ?  1  33
+MEP  H1*   .  H  0  ?  ?  ?  1  34
+MEP  H3    .  H  0  ?  ?  ?  1  35
+MEP  1H5M  .  H  0  ?  ?  ?  0  36
+MEP  2H5M  .  H  0  ?  ?  ?  0  37
+MEP  3H5M  .  H  0  ?  ?  ?  0  38
+MEP  H6    .  H  0  ?  ?  ?  1  39
+MEP  1HA*  .  H  0  ?  ?  ?  0  40
+MEP  2HA*  .  H  0  ?  ?  ?  0  41
+MEP  3HA*  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MEP  P    O1P   DOUB  1 
+MEP  P    O2P   SING  2 
+MEP  P    O5*   SING  3 
+MEP  P    O3P   SING  4 
+MEP  O2P  2HOP  SING  5 
+MEP  O3P  3HOP  SING  6 
+MEP  O5*  C5*   SING  7 
+MEP  C5*  C4*   SING  8 
+MEP  C5*  1H5*  SING  9 
+MEP  C5*  2H5*  SING  10
+MEP  C4*  O4*   SING  11
+MEP  C4*  C3*   SING  12
+MEP  C4*  H4*   SING  13
+MEP  O4*  C1*   SING  14
+MEP  C3*  C2*   SING  15
+MEP  C3*  C3M   SING  16
+MEP  C3*  H3*   SING  17
+MEP  C3M  H3T   SING  18
+MEP  C3M  2H3T  SING  19
+MEP  C3M  3H3T  SING  20
+MEP  C2*  C1*   SING  21
+MEP  C2*  O2*   SING  22
+MEP  C2*  H2*   SING  23
+MEP  O2*  CA*   SING  24
+MEP  C1*  N1    SING  25
+MEP  C1*  H1*   SING  26
+MEP  N1   C6    SING  27
+MEP  N1   C2    SING  28
+MEP  C2   O2    DOUB  29
+MEP  C2   N3    SING  30
+MEP  N3   C4    SING  31
+MEP  N3   H3    SING  32
+MEP  C4   O4    DOUB  33
+MEP  C4   C5    SING  34
+MEP  C5   C6    DOUB  35
+MEP  C5   C5M   SING  36
+MEP  C5M  1H5M  SING  37
+MEP  C5M  2H5M  SING  38
+MEP  C5M  3H5M  SING  39
+MEP  C6   H6    SING  40
+MEP  CA*  1HA*  SING  41
+MEP  CA*  2HA*  SING  42
+MEP  CA*  3HA*  SING  43
+#

@@ -1,0 +1,69 @@
+data_PTF
+#
+_chem_comp.id                   PTF
+_chem_comp.name                 [(METHYLSULFANYL)METHYL]BENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H10 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        138.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTF  C1   .  C  0  48.548  25.253  90.375  1  1 
+PTF  S2   .  S  0  47.227  24.150  89.879  1  2 
+PTF  C3   .  C  0  47.860  23.520  88.346  1  3 
+PTF  C4   .  C  0  46.768  23.142  87.386  1  4 
+PTF  C5   .  C  0  47.081  22.575  86.154  1  5 
+PTF  C6   .  C  0  46.076  22.182  85.264  1  6 
+PTF  C7   .  C  0  44.741  22.364  85.614  1  7 
+PTF  C8   .  C  0  44.422  22.932  86.837  1  8 
+PTF  C9   .  C  0  45.425  23.320  87.716  1  9 
+PTF  1H1  .  H  0  ?       ?       ?       0  10
+PTF  2H1  .  H  0  ?       ?       ?       0  11
+PTF  3H1  .  H  0  ?       ?       ?       0  12
+PTF  1H3  .  H  0  ?       ?       ?       0  13
+PTF  2H3  .  H  0  ?       ?       ?       0  14
+PTF  H9   .  H  0  ?       ?       ?       1  15
+PTF  H8   .  H  0  ?       ?       ?       1  16
+PTF  H7   .  H  0  ?       ?       ?       1  17
+PTF  H6   .  H  0  ?       ?       ?       1  18
+PTF  H5   .  H  0  ?       ?       ?       1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTF  C1  S2   SING  1 
+PTF  C1  1H1  SING  2 
+PTF  C1  2H1  SING  3 
+PTF  C1  3H1  SING  4 
+PTF  S2  C3   SING  5 
+PTF  C3  C4   SING  6 
+PTF  C3  1H3  SING  7 
+PTF  C3  2H3  SING  8 
+PTF  C4  C9   AROM  9 
+PTF  C4  C5   AROM  10
+PTF  C5  C6   AROM  11
+PTF  C5  H5   SING  12
+PTF  C6  C7   AROM  13
+PTF  C6  H6   SING  14
+PTF  C7  C8   AROM  15
+PTF  C7  H7   SING  16
+PTF  C8  C9   AROM  17
+PTF  C8  H8   SING  18
+PTF  C9  H9   SING  19
+#

@@ -1,0 +1,68 @@
+data_ICN
+#
+_chem_comp.id                   ICN
+_chem_comp.name                 (S)-2-HYDROXY-2,3-DIMETHYLBUTANENITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H11 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        113.159
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ICN  C1   .  C  0  14.258  54.003  17.727  1  1 
+ICN  C2   .  C  0  13.932  52.491  17.763  1  2 
+ICN  C3   .  C  0  12.694  52.280  18.659  1  3 
+ICN  C4   .  C  0  13.704  51.896  16.326  1  4 
+ICN  C5   .  C  0  12.654  52.659  15.493  1  5 
+ICN  O6   .  O  0  13.222  50.559  16.432  1  6 
+ICN  C7   .  C  0  14.970  51.852  15.554  1  7 
+ICN  N8   .  N  0  15.959  51.821  14.948  1  8 
+ICN  1H1  .  H  0  ?       ?       ?       0  9 
+ICN  2H1  .  H  0  ?       ?       ?       0  10
+ICN  3H1  .  H  0  ?       ?       ?       0  11
+ICN  H2   .  H  0  ?       ?       ?       1  12
+ICN  1H3  .  H  0  ?       ?       ?       0  13
+ICN  2H3  .  H  0  ?       ?       ?       0  14
+ICN  3H3  .  H  0  ?       ?       ?       0  15
+ICN  1H5  .  H  0  ?       ?       ?       0  16
+ICN  2H5  .  H  0  ?       ?       ?       0  17
+ICN  3H5  .  H  0  ?       ?       ?       0  18
+ICN  H6   .  H  0  ?       ?       ?       1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ICN  C1  C2   SING  1 
+ICN  C1  1H1  SING  2 
+ICN  C1  2H1  SING  3 
+ICN  C1  3H1  SING  4 
+ICN  C2  C3   SING  5 
+ICN  C2  C4   SING  6 
+ICN  C2  H2   SING  7 
+ICN  C3  1H3  SING  8 
+ICN  C3  2H3  SING  9 
+ICN  C3  3H3  SING  10
+ICN  C4  C5   SING  11
+ICN  C4  O6   SING  12
+ICN  C4  C7   SING  13
+ICN  C5  1H5  SING  14
+ICN  C5  2H5  SING  15
+ICN  C5  3H5  SING  16
+ICN  O6  H6   SING  17
+ICN  C7  N8   TRIP  18
+#

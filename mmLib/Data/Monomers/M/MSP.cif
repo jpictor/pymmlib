@@ -1,0 +1,141 @@
+data_MSP
+#
+_chem_comp.id                   MSP
+_chem_comp.name                 5'-O-[(L-METHIONYL)-SULPHAMOYL]ADENOSINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C15 H23 N7 O7 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        477.509
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSP  N2    .  N  0  14.591  9.013   19.440  1  1 
+MSP  CA    .  C  0  14.210  10.380  19.828  1  2 
+MSP  CB    .  C  0  12.712  10.550  20.173  1  3 
+MSP  CG    .  C  0  11.725  9.997   19.131  1  4 
+MSP  SD    .  S  0  10.047  10.303  19.702  1  5 
+MSP  CE    .  C  0  9.110   9.746   18.262  1  6 
+MSP  C9    .  C  0  15.049  10.798  21.049  1  7 
+MSP  N8    .  N  0  15.620  9.738   21.686  1  8 
+MSP  S1    .  S  0  16.499  10.052  23.004  1  9 
+MSP  O1S   .  O  0  16.781  8.715   23.464  1  10
+MSP  O2S   .  O  0  17.615  10.883  22.673  1  11
+MSP  O5*   .  O  0  15.598  10.781  24.071  1  12
+MSP  C5*   .  C  0  14.422  10.150  24.590  1  13
+MSP  C4*   .  C  0  13.755  11.101  25.589  1  14
+MSP  O4*   .  O  0  14.654  11.218  26.680  1  15
+MSP  C3*   .  C  0  13.576  12.524  25.016  1  16
+MSP  O3*   .  O  0  12.207  12.891  25.175  1  17
+MSP  C2*   .  C  0  14.512  13.374  25.862  1  18
+MSP  O2*   .  O  0  14.020  14.694  25.994  1  19
+MSP  C1*   .  C  0  14.664  12.558  27.147  1  20
+MSP  N9    .  N  0  15.949  12.846  27.808  1  21
+MSP  C8    .  C  0  17.218  12.598  27.390  1  22
+MSP  N7    .  N  0  18.164  13.008  28.259  1  23
+MSP  C5    .  C  0  17.470  13.572  29.312  1  24
+MSP  C6    .  C  0  17.808  14.168  30.508  1  25
+MSP  N6    .  N  0  19.092  14.322  30.867  1  26
+MSP  N1    .  N  0  16.855  14.633  31.359  1  27
+MSP  C2    .  C  0  15.541  14.504  31.037  1  28
+MSP  N3    .  N  0  15.113  13.928  29.885  1  29
+MSP  C4    .  C  0  16.078  13.471  29.034  1  30
+MSP  O1    .  O  0  15.068  11.984  21.356  1  31
+MSP  1HE   .  H  0  ?       ?       ?       0  32
+MSP  2HE   .  H  0  ?       ?       ?       0  33
+MSP  3HE   .  H  0  ?       ?       ?       0  34
+MSP  1HG   .  H  0  ?       ?       ?       0  35
+MSP  2HG   .  H  0  ?       ?       ?       0  36
+MSP  1HB   .  H  0  ?       ?       ?       0  37
+MSP  2HB   .  H  0  ?       ?       ?       0  38
+MSP  HA    .  H  0  ?       ?       ?       1  39
+MSP  1HN2  .  H  0  ?       ?       ?       0  40
+MSP  2HN2  .  H  0  ?       ?       ?       0  41
+MSP  HN8   .  H  0  ?       ?       ?       1  42
+MSP  1H5*  .  H  0  ?       ?       ?       0  43
+MSP  2H5*  .  H  0  ?       ?       ?       0  44
+MSP  H4*   .  H  0  ?       ?       ?       1  45
+MSP  H1*   .  H  0  ?       ?       ?       1  46
+MSP  H2*   .  H  0  ?       ?       ?       1  47
+MSP  H1    .  H  0  ?       ?       ?       1  48
+MSP  H3*   .  H  0  ?       ?       ?       1  49
+MSP  H2    .  H  0  ?       ?       ?       1  50
+MSP  H8    .  H  0  ?       ?       ?       1  51
+MSP  H3    .  H  0  ?       ?       ?       1  52
+MSP  1HN6  .  H  0  ?       ?       ?       0  53
+MSP  2HN6  .  H  0  ?       ?       ?       0  54
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSP  N2   CA    SING  1 
+MSP  N2   1HN2  SING  2 
+MSP  N2   2HN2  SING  3 
+MSP  CA   CB    SING  4 
+MSP  CA   C9    SING  5 
+MSP  CA   HA    SING  6 
+MSP  CB   CG    SING  7 
+MSP  CB   1HB   SING  8 
+MSP  CB   2HB   SING  9 
+MSP  CG   SD    SING  10
+MSP  CG   1HG   SING  11
+MSP  CG   2HG   SING  12
+MSP  SD   CE    SING  13
+MSP  CE   1HE   SING  14
+MSP  CE   2HE   SING  15
+MSP  CE   3HE   SING  16
+MSP  C9   O1    DOUB  17
+MSP  C9   N8    SING  18
+MSP  N8   S1    SING  19
+MSP  N8   HN8   SING  20
+MSP  S1   O1S   DOUB  21
+MSP  S1   O2S   DOUB  22
+MSP  S1   O5*   SING  23
+MSP  O5*  C5*   SING  24
+MSP  C5*  C4*   SING  25
+MSP  C5*  1H5*  SING  26
+MSP  C5*  2H5*  SING  27
+MSP  C4*  O4*   SING  28
+MSP  C4*  C3*   SING  29
+MSP  C4*  H4*   SING  30
+MSP  O4*  C1*   SING  31
+MSP  C3*  C2*   SING  32
+MSP  C3*  O3*   SING  33
+MSP  C3*  H3*   SING  34
+MSP  O3*  H2    SING  35
+MSP  C2*  C1*   SING  36
+MSP  C2*  O2*   SING  37
+MSP  C2*  H2*   SING  38
+MSP  O2*  H1    SING  39
+MSP  C1*  N9    SING  40
+MSP  C1*  H1*   SING  41
+MSP  N9   C8    SING  42
+MSP  N9   C4    SING  43
+MSP  C8   N7    DOUB  44
+MSP  C8   H8    SING  45
+MSP  N7   C5    SING  46
+MSP  C5   C4    DOUB  47
+MSP  C5   C6    SING  48
+MSP  C6   N1    DOUB  49
+MSP  C6   N6    SING  50
+MSP  N6   1HN6  SING  51
+MSP  N6   2HN6  SING  52
+MSP  N1   C2    SING  53
+MSP  C2   N3    DOUB  54
+MSP  C2   H3    SING  55
+MSP  N3   C4    SING  56
+#

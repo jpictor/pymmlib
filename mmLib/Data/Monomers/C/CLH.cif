@@ -1,0 +1,101 @@
+data_CLH
+#
+_chem_comp.id                       CLH
+_chem_comp.name                     '2-AMINO-6-[2-(2-OXO-ACETYLAMINO)-ACETYLAMINO]-HEXANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H17 N3 O5'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            259.261
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLH  N    .  N  0  ?  ?  ?  1  1 
+CLH  CA   .  C  0  ?  ?  ?  1  2 
+CLH  CB   .  C  0  ?  ?  ?  1  3 
+CLH  CG   .  C  0  ?  ?  ?  1  4 
+CLH  CD   .  C  0  ?  ?  ?  1  5 
+CLH  CE   .  C  0  ?  ?  ?  1  6 
+CLH  NZ   .  N  0  ?  ?  ?  1  7 
+CLH  CH   .  C  0  ?  ?  ?  1  8 
+CLH  OI   .  O  0  ?  ?  ?  1  9 
+CLH  CI   .  C  0  ?  ?  ?  1  10
+CLH  NJ   .  N  0  ?  ?  ?  1  11
+CLH  CK   .  C  0  ?  ?  ?  1  12
+CLH  OL   .  O  0  ?  ?  ?  1  13
+CLH  C    .  C  0  ?  ?  ?  1  14
+CLH  O    .  O  0  ?  ?  ?  1  15
+CLH  CL   .  C  0  ?  ?  ?  1  16
+CLH  OM   .  O  0  ?  ?  ?  1  17
+CLH  OXT  .  O  0  ?  ?  ?  1  18
+CLH  H    .  H  0  ?  ?  ?  1  19
+CLH  HA   .  H  0  ?  ?  ?  1  20
+CLH  1HB  .  H  0  ?  ?  ?  0  21
+CLH  2HB  .  H  0  ?  ?  ?  0  22
+CLH  1HG  .  H  0  ?  ?  ?  0  23
+CLH  2HG  .  H  0  ?  ?  ?  0  24
+CLH  1HD  .  H  0  ?  ?  ?  0  25
+CLH  2HD  .  H  0  ?  ?  ?  0  26
+CLH  1HE  .  H  0  ?  ?  ?  0  27
+CLH  2HE  .  H  0  ?  ?  ?  0  28
+CLH  HNZ  .  H  0  ?  ?  ?  1  29
+CLH  1HI  .  H  0  ?  ?  ?  0  30
+CLH  2HI  .  H  0  ?  ?  ?  0  31
+CLH  HNJ  .  H  0  ?  ?  ?  1  32
+CLH  HL   .  H  0  ?  ?  ?  1  33
+CLH  HXT  .  H  0  ?  ?  ?  1  34
+CLH  HN   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLH  N    CA   SING  1 
+CLH  N    H    SING  2 
+CLH  N    HN   SING  3 
+CLH  CA   CB   SING  4 
+CLH  CA   C    SING  5 
+CLH  CA   HA   SING  6 
+CLH  CB   CG   SING  7 
+CLH  CB   1HB  SING  8 
+CLH  CB   2HB  SING  9 
+CLH  CG   CD   SING  10
+CLH  CG   1HG  SING  11
+CLH  CG   2HG  SING  12
+CLH  CD   CE   SING  13
+CLH  CD   1HD  SING  14
+CLH  CD   2HD  SING  15
+CLH  CE   NZ   SING  16
+CLH  CE   1HE  SING  17
+CLH  CE   2HE  SING  18
+CLH  NZ   CH   SING  19
+CLH  NZ   HNZ  SING  20
+CLH  CH   OI   DOUB  21
+CLH  CH   CI   SING  22
+CLH  CI   NJ   SING  23
+CLH  CI   1HI  SING  24
+CLH  CI   2HI  SING  25
+CLH  NJ   CK   SING  26
+CLH  NJ   HNJ  SING  27
+CLH  CK   OL   DOUB  28
+CLH  CK   CL   SING  29
+CLH  C    O    DOUB  30
+CLH  C    OXT  SING  31
+CLH  CL   HL   SING  32
+CLH  CL   OM   DOUB  33
+CLH  OXT  HXT  SING  34
+#

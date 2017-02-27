@@ -1,0 +1,125 @@
+data_NMT
+#
+_chem_comp.id                       NMT
+_chem_comp.name                     1-(O2-(METHYLCARBAMOYL)-O5-HYDROXYPHOSPHINYL-BETA-D-RIBOFURANOSYL)THYMINE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H20 N3 O10 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            397.278
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NMT  P     .  P  0  16.777  16.674  7.656   1  1 
+NMT  O3P   .  O  0  17.984  15.953  7.255   1  2 
+NMT  O2P   .  O  0  16.842  18.013  8.292   1  3 
+NMT  O5*   .  O  0  15.767  16.902  6.424   1  4 
+NMT  N1    .  N  0  12.293  18.488  5.568   1  5 
+NMT  C6    .  C  0  13.107  18.762  6.629   1  6 
+NMT  C2    .  C  0  11.195  19.263  5.312   1  7 
+NMT  O2    .  O  0  10.432  19.056  4.366   1  8 
+NMT  N3    .  N  0  11.004  20.296  6.211   1  9 
+NMT  C4    .  C  0  11.797  20.620  7.311   1  10
+NMT  O4    .  O  0  11.476  21.575  7.987   1  11
+NMT  C5    .  C  0  12.939  19.749  7.500   1  12
+NMT  C5M   .  C  0  13.833  20.047  8.675   1  13
+NMT  C2*   .  C  0  13.218  17.774  3.392   1  14
+NMT  C5*   .  C  0  15.566  15.836  5.507   1  15
+NMT  C4*   .  C  0  14.503  16.172  4.557   1  16
+NMT  O4*   .  O  0  13.236  16.317  5.281   1  17
+NMT  C1*   .  C  0  12.500  17.339  4.577   1  18
+NMT  C3*   .  C  0  14.630  17.513  3.861   1  19
+NMT  O3*   .  O  0  15.594  17.409  2.830   1  20
+NMT  O6'   .  O  0  13.015  16.912  2.326   1  21
+NMT  C7'   .  C  0  11.845  16.829  1.692   1  22
+NMT  N8'   .  N  0  11.743  15.985  0.607   1  23
+NMT  C9'   .  C  0  10.417  15.832  -0.001  1  24
+NMT  O7'   .  O  0  10.868  17.409  2.086   1  25
+NMT  O1P   .  O  0  ?       ?       ?       1  26
+NMT  1H9'  .  H  0  ?       ?       ?       0  27
+NMT  2H9'  .  H  0  ?       ?       ?       0  28
+NMT  3H9'  .  H  0  ?       ?       ?       0  29
+NMT  H8'   .  H  0  ?       ?       ?       1  30
+NMT  H7'   .  H  0  ?       ?       ?       1  31
+NMT  H1    .  H  0  ?       ?       ?       1  32
+NMT  H2*   .  H  0  ?       ?       ?       1  33
+NMT  H3*   .  H  0  ?       ?       ?       1  34
+NMT  H3T   .  H  0  ?       ?       ?       1  35
+NMT  H4*   .  H  0  ?       ?       ?       1  36
+NMT  1H5*  .  H  0  ?       ?       ?       0  37
+NMT  2H5*  .  H  0  ?       ?       ?       0  38
+NMT  3HOP  .  H  0  ?       ?       ?       0  39
+NMT  H1*   .  H  0  ?       ?       ?       1  40
+NMT  H6    .  H  0  ?       ?       ?       1  41
+NMT  1H5M  .  H  0  ?       ?       ?       0  42
+NMT  2H5M  .  H  0  ?       ?       ?       0  43
+NMT  3H5M  .  H  0  ?       ?       ?       0  44
+NMT  HN3   .  H  0  ?       ?       ?       1  45
+NMT  2HOP  .  H  0  ?       ?       ?       0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NMT  P    O5*   SING  1 
+NMT  P    O3P   SING  2 
+NMT  P    O1P   DOUB  3 
+NMT  P    O2P   SING  4 
+NMT  O3P  3HOP  SING  5 
+NMT  O2P  2HOP  SING  6 
+NMT  O5*  C5*   SING  7 
+NMT  N1   C1*   SING  8 
+NMT  N1   C6    SING  9 
+NMT  N1   C2    SING  10
+NMT  C6   C5    DOUB  11
+NMT  C6   H6    SING  12
+NMT  C2   N3    SING  13
+NMT  C2   O2    DOUB  14
+NMT  N3   C4    SING  15
+NMT  N3   HN3   SING  16
+NMT  C4   C5    SING  17
+NMT  C4   O4    DOUB  18
+NMT  C5   C5M   SING  19
+NMT  C5M  1H5M  SING  20
+NMT  C5M  2H5M  SING  21
+NMT  C5M  3H5M  SING  22
+NMT  C2*  O6'   SING  23
+NMT  C2*  C3*   SING  24
+NMT  C2*  C1*   SING  25
+NMT  C2*  H2*   SING  26
+NMT  C5*  C4*   SING  27
+NMT  C5*  1H5*  SING  28
+NMT  C5*  2H5*  SING  29
+NMT  C4*  C3*   SING  30
+NMT  C4*  O4*   SING  31
+NMT  C4*  H4*   SING  32
+NMT  O4*  C1*   SING  33
+NMT  C1*  H1*   SING  34
+NMT  C3*  O3*   SING  35
+NMT  C3*  H3*   SING  36
+NMT  O3*  H3T   SING  37
+NMT  O6'  C7'   SING  38
+NMT  C7'  N8'   SING  39
+NMT  C7'  O7'   SING  40
+NMT  C7'  H7'   SING  41
+NMT  N8'  C9'   SING  42
+NMT  N8'  H8'   SING  43
+NMT  C9'  1H9'  SING  44
+NMT  C9'  2H9'  SING  45
+NMT  C9'  3H9'  SING  46
+NMT  O7'  H1    SING  47
+#

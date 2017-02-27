@@ -1,0 +1,87 @@
+data_ZTW
+#
+_chem_comp.id                   ZTW
+_chem_comp.name                 'RALOXIFENE CORE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        242.292
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZTW  C1   .  C  0  4.692   3.176  28.063  1  1 
+ZTW  C2   .  C  0  3.496   3.088  27.336  1  2 
+ZTW  C3   .  C  0  2.605   4.171  27.305  1  3 
+ZTW  O3   .  O  0  1.406   4.122  26.588  1  4 
+ZTW  C4   .  C  0  2.917   5.343  27.997  1  5 
+ZTW  C5   .  C  0  4.093   5.426  28.71   1  6 
+ZTW  S6   .  S  0  4.68    6.712  29.639  1  7 
+ZTW  C7   .  C  0  6.103   5.96   30.131  1  8 
+ZTW  C8   .  C  0  7.158   6.614  30.956  1  9 
+ZTW  C9   .  C  0  6.919   7.704  31.766  1  10
+ZTW  C10  .  C  0  8.014   8.238  32.455  1  11
+ZTW  C11  .  C  0  9.3     7.754  32.328  1  12
+ZTW  O11  .  O  0  10.363  8.309  33.022  1  13
+ZTW  C12  .  C  0  9.518   6.674  31.494  1  14
+ZTW  C13  .  C  0  8.458   6.122  30.808  1  15
+ZTW  C14  .  C  0  5.005   4.329  28.743  1  16
+ZTW  C15  .  C  0  6.159   4.679  29.562  1  17
+ZTW  H1   .  H  0  5.384   2.317  28.089  1  18
+ZTW  H2   .  H  0  3.255   2.163  26.786  1  19
+ZTW  H3   .  H  0  .803    4.855  26.567  1  20
+ZTW  H4   .  H  0  2.224   6.2    27.973  1  21
+ZTW  H15  .  H  0  7.007   3.992  29.721  1  22
+ZTW  H9   .  H  0  5.909   8.136  31.867  1  23
+ZTW  H13  .  H  0  8.639   5.273  30.127  1  24
+ZTW  H10  .  H  0  7.84    9.089  33.134  1  25
+ZTW  H11  .  H  0  11.248  7.976  32.935  1  26
+ZTW  H12  .  H  0  10.533  6.257  31.378  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZTW  C1   C2   AROM  1 
+ZTW  C1   C14  AROM  2 
+ZTW  C1   H1   SING  3 
+ZTW  C2   C3   AROM  4 
+ZTW  C2   H2   SING  5 
+ZTW  C3   O3   SING  6 
+ZTW  C3   C4   AROM  7 
+ZTW  O3   H3   SING  8 
+ZTW  C4   C5   AROM  9 
+ZTW  C4   H4   SING  10
+ZTW  C5   S6   SING  11
+ZTW  C5   C14  AROM  12
+ZTW  S6   C7   SING  13
+ZTW  C7   C8   SING  14
+ZTW  C7   C15  DOUB  15
+ZTW  C8   C9   AROM  16
+ZTW  C8   C13  AROM  17
+ZTW  C9   C10  AROM  18
+ZTW  C9   H9   SING  19
+ZTW  C10  C11  AROM  20
+ZTW  C10  H10  SING  21
+ZTW  C11  O11  SING  22
+ZTW  C11  C12  AROM  23
+ZTW  O11  H11  SING  24
+ZTW  C12  C13  AROM  25
+ZTW  C12  H12  SING  26
+ZTW  C13  H13  SING  27
+ZTW  C14  C15  SING  28
+ZTW  C15  H15  SING  29
+#

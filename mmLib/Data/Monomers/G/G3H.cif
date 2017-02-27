@@ -1,0 +1,64 @@
+data_G3H
+#
+_chem_comp.id                   G3H
+_chem_comp.name                 GLYCERALDEHYDE-3-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.058
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G3H  O1    .  O  0  ?  ?  ?  1  1 
+G3H  C1    .  C  0  ?  ?  ?  1  2 
+G3H  C2    .  C  0  ?  ?  ?  1  3 
+G3H  O2    .  O  0  ?  ?  ?  1  4 
+G3H  C3    .  C  0  ?  ?  ?  1  5 
+G3H  O1P   .  O  0  ?  ?  ?  1  6 
+G3H  O2P   .  O  0  ?  ?  ?  1  7 
+G3H  O3P   .  O  0  ?  ?  ?  1  8 
+G3H  O4P   .  O  0  ?  ?  ?  1  9 
+G3H  P     .  P  0  ?  ?  ?  1  10
+G3H  1H1   .  H  0  ?  ?  ?  0  11
+G3H  H2    .  H  0  ?  ?  ?  1  12
+G3H  1H3   .  H  0  ?  ?  ?  0  13
+G3H  2H3   .  H  0  ?  ?  ?  0  14
+G3H  HO2   .  H  0  ?  ?  ?  1  15
+G3H  3HOP  .  H  0  ?  ?  ?  0  16
+G3H  4HOP  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G3H  O1   C1    DOUB  1 
+G3H  C1   C2    SING  2 
+G3H  C1   1H1   SING  3 
+G3H  C2   C3    SING  4 
+G3H  C2   O2    SING  5 
+G3H  C2   H2    SING  6 
+G3H  O2   HO2   SING  7 
+G3H  C3   O1P   SING  8 
+G3H  C3   1H3   SING  9 
+G3H  C3   2H3   SING  10
+G3H  O1P  P     SING  11
+G3H  O2P  P     DOUB  12
+G3H  O3P  P     SING  13
+G3H  O3P  3HOP  SING  14
+G3H  O4P  P     SING  15
+G3H  O4P  4HOP  SING  16
+#

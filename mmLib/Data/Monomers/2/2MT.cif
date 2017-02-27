@@ -1,0 +1,75 @@
+data_2MT
+#
+_chem_comp.id                       2MT
+_chem_comp.name                     '(4R)-2,2-DIMETHYL-1,3-THIAZOLIDINE-4-CARBOXYLIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H11 N1 O2 S1'
+_chem_comp.pdbx_synonyms            '2,2-DIMETHYLTHIAZOLIDINE-4-CARBOXYLIC ACID;(DMT)THIAZOLIDINE'
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            161.218
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2MT  N     .  N  0  7.014  1.138  -0.125  1  1 
+2MT  CA    .  C  0  6.218  1.753  0.996   1  2 
+2MT  C     .  C  0  4.665  1.478  0.795   1  3 
+2MT  O     .  O  0  4.242  1.418  -0.367  1  4 
+2MT  CB    .  C  0  6.446  3.299  0.909   1  5 
+2MT  SG    .  S  0  6.594  3.649  -0.837  1  6 
+2MT  CD1   .  C  0  7.400  2.088  -1.227  1  7 
+2MT  CD2   .  C  0  8.917  2.382  -1.274  1  8 
+2MT  CD3   .  C  0  6.850  1.709  -2.622  1  9 
+2MT  OXT   .  O  0  ?      ?      ?       1  10
+2MT  HXT   .  H  0  ?      ?      ?       1  11
+2MT  HA    .  H  0  6.676  1.318  1.930   1  12
+2MT  HN    .  H  0  ?      ?      ?       1  13
+2MT  2HB   .  H  0  5.624  3.916  1.331   0  14
+2MT  1HB   .  H  0  7.376  3.688  1.380   0  15
+2MT  1HD2  .  H  0  9.509  1.495  -1.565  0  16
+2MT  2HD2  .  H  0  9.298  2.721  -0.292  0  17
+2MT  3HD2  .  H  0  9.153  3.182  -2.000  0  18
+2MT  1HD3  .  H  0  5.758  1.538  -2.599  0  19
+2MT  2HD3  .  H  0  7.314  0.791  -3.028  0  20
+2MT  3HD3  .  H  0  7.030  2.512  -3.360  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2MT  N    CA    SING  1 
+2MT  N    HN    SING  2 
+2MT  N    CD1   SING  3 
+2MT  CA   C     SING  4 
+2MT  CA   HA    SING  5 
+2MT  CA   CB    SING  6 
+2MT  C    OXT   SING  7 
+2MT  C    O     DOUB  8 
+2MT  CB   SG    SING  9 
+2MT  CB   2HB   SING  10
+2MT  CB   1HB   SING  11
+2MT  SG   CD1   SING  12
+2MT  CD1  CD2   SING  13
+2MT  CD1  CD3   SING  14
+2MT  CD2  1HD2  SING  15
+2MT  CD2  2HD2  SING  16
+2MT  CD2  3HD2  SING  17
+2MT  CD3  1HD3  SING  18
+2MT  CD3  2HD3  SING  19
+2MT  CD3  3HD3  SING  20
+2MT  OXT  HXT   SING  21
+#

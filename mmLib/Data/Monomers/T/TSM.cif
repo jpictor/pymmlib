@@ -1,0 +1,62 @@
+data_TSM
+#
+_chem_comp.id                   TSM
+_chem_comp.name                 'TERT-BUTYLSULFONYL GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSM  S    .  S  0  ?  ?  ?  1  1 
+TSM  O1S  .  O  0  ?  ?  ?  1  2 
+TSM  O2S  .  O  0  ?  ?  ?  1  3 
+TSM  C    .  C  0  ?  ?  ?  1  4 
+TSM  C1   .  C  0  ?  ?  ?  1  5 
+TSM  C2   .  C  0  ?  ?  ?  1  6 
+TSM  C3   .  C  0  ?  ?  ?  1  7 
+TSM  1H1  .  H  0  ?  ?  ?  0  8 
+TSM  2H1  .  H  0  ?  ?  ?  0  9 
+TSM  3H1  .  H  0  ?  ?  ?  0  10
+TSM  1H2  .  H  0  ?  ?  ?  0  11
+TSM  2H2  .  H  0  ?  ?  ?  0  12
+TSM  3H2  .  H  0  ?  ?  ?  0  13
+TSM  1H3  .  H  0  ?  ?  ?  0  14
+TSM  2H3  .  H  0  ?  ?  ?  0  15
+TSM  3H3  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSM  S   C    SING  1 
+TSM  S   O1S  DOUB  2 
+TSM  S   O2S  DOUB  3 
+TSM  C   C1   SING  4 
+TSM  C   C2   SING  5 
+TSM  C   C3   SING  6 
+TSM  C1  1H1  SING  7 
+TSM  C1  2H1  SING  8 
+TSM  C1  3H1  SING  9 
+TSM  C2  1H2  SING  10
+TSM  C2  2H2  SING  11
+TSM  C2  3H2  SING  12
+TSM  C3  1H3  SING  13
+TSM  C3  2H3  SING  14
+TSM  C3  3H3  SING  15
+#

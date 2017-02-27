@@ -1,0 +1,69 @@
+data_PQ0
+#
+_chem_comp.id                   PQ0
+_chem_comp.name                 2-AMINO-4-OXO-4,7-DIHYDRO-3H-PYRROLO[2,3-D]PYRIMIDINE-5-CARBONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C7 H5 N5 O1'
+_chem_comp.pdbx_synonyms        7-DEAZA-7-CYANO-GUANINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        175.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PQ0  N1    .  N  0  34.509  36.982  79.328  1  1 
+PQ0  C2    .  C  0  35.594  37.844  79.555  1  2 
+PQ0  N3    .  N  0  36.006  38.645  78.603  1  3 
+PQ0  C4    .  C  0  35.345  38.659  77.278  1  4 
+PQ0  C5    .  C  0  34.303  37.845  77.020  1  5 
+PQ0  C6    .  C  0  33.838  36.938  78.105  1  6 
+PQ0  O6    .  O  0  32.905  36.208  77.877  1  7 
+PQ0  C7    .  C  0  33.955  38.164  75.623  1  8 
+PQ0  C10   .  C  0  32.921  37.581  74.839  1  9 
+PQ0  N11   .  N  0  32.151  37.026  74.153  1  10
+PQ0  C8    .  C  0  34.807  39.097  75.252  1  11
+PQ0  N9    .  N  0  35.609  39.371  76.230  1  12
+PQ0  N2    .  N  0  36.160  37.820  80.711  1  13
+PQ0  HN1   .  H  0  ?       ?       ?       1  14
+PQ0  1HN2  .  H  0  ?       ?       ?       0  15
+PQ0  2HN2  .  H  0  ?       ?       ?       0  16
+PQ0  HN9   .  H  0  ?       ?       ?       1  17
+PQ0  H8    .  H  0  ?       ?       ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PQ0  N1   C2    AROM  1 
+PQ0  N1   C6    AROM  2 
+PQ0  N1   HN1   SING  3 
+PQ0  C2   N3    AROM  4 
+PQ0  C2   N2    SING  5 
+PQ0  N3   C4    AROM  6 
+PQ0  C4   C5    AROM  7 
+PQ0  C4   N9    AROM  8 
+PQ0  C5   C6    AROM  9 
+PQ0  C5   C7    AROM  10
+PQ0  C6   O6    DOUB  11
+PQ0  C7   C10   SING  12
+PQ0  C7   C8    AROM  13
+PQ0  C10  N11   TRIP  14
+PQ0  C8   N9    AROM  15
+PQ0  C8   H8    SING  16
+PQ0  N9   HN9   SING  17
+PQ0  N2   1HN2  SING  18
+PQ0  N2   2HN2  SING  19
+#

@@ -1,0 +1,63 @@
+data_DMI
+#
+_chem_comp.id                   DMI
+_chem_comp.name                 '2,3-DIMETHYLIMIDAZOLIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C5 H9 N2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       97.139
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMI  N1    .  N  1  ?  ?  ?  1  1 
+DMI  C2    .  C  0  ?  ?  ?  1  2 
+DMI  CM2   .  C  0  ?  ?  ?  1  3 
+DMI  N3    .  N  0  ?  ?  ?  1  4 
+DMI  CM3   .  C  0  ?  ?  ?  1  5 
+DMI  C4    .  C  0  ?  ?  ?  1  6 
+DMI  C5    .  C  0  ?  ?  ?  1  7 
+DMI  HN1   .  H  0  ?  ?  ?  1  8 
+DMI  1HM2  .  H  0  ?  ?  ?  0  9 
+DMI  2HM2  .  H  0  ?  ?  ?  0  10
+DMI  3HM2  .  H  0  ?  ?  ?  0  11
+DMI  1HM3  .  H  0  ?  ?  ?  0  12
+DMI  2HM3  .  H  0  ?  ?  ?  0  13
+DMI  3HM3  .  H  0  ?  ?  ?  0  14
+DMI  H4    .  H  0  ?  ?  ?  1  15
+DMI  H5    .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMI  N1   C2    DOUB  1 
+DMI  N1   C5    SING  2 
+DMI  N1   HN1   SING  3 
+DMI  C2   N3    SING  4 
+DMI  C2   CM2   SING  5 
+DMI  CM2  1HM2  SING  6 
+DMI  CM2  2HM2  SING  7 
+DMI  CM2  3HM2  SING  8 
+DMI  N3   C4    SING  9 
+DMI  N3   CM3   SING  10
+DMI  CM3  1HM3  SING  11
+DMI  CM3  2HM3  SING  12
+DMI  CM3  3HM3  SING  13
+DMI  C4   C5    DOUB  14
+DMI  C4   H4    SING  15
+DMI  C5   H5    SING  16
+#

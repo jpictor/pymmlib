@@ -1,0 +1,102 @@
+data_PUG
+#
+_chem_comp.id                   PUG
+_chem_comp.name                 3-(1,3,7-TRIHYDRO-9-D-RIBITYL-2,6,8-PURINETRIONE-7-YL)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PUG  O1    .  O  0  -19.536  -2.411  4.914  1  1 
+PUG  C2    .  C  0  -19.709  -1.759  3.863  1  2 
+PUG  N3    .  N  0  -19.933  -2.429  2.712  1  3 
+PUG  C4    .  C  0  -20.121  -1.767  1.552  1  4 
+PUG  O2    .  O  0  -20.329  -2.407  .498   1  5 
+PUG  N1    .  N  0  -19.672  -.402   3.899  1  6 
+PUG  C8    .  C  0  -19.85   .363    2.79   1  7 
+PUG  C9    .  C  0  -20.081  -.277   1.566  1  8 
+PUG  N5    .  N  0  -20.227  .664    .605   1  9 
+PUG  N7    .  N  0  -19.846  1.695   2.58   1  10
+PUG  C6    .  C  0  -20.081  1.821   1.273  1  11
+PUG  O4    .  O  0  -20.159  2.966   .683   1  12
+PUG  C10   .  C  0  -19.661  2.798   3.536  1  13
+PUG  C11   .  C  0  -18.568  2.567   4.584  1  14
+PUG  O19   .  O  0  -17.411  1.973   3.982  1  15
+PUG  C12   .  C  0  -18.155  3.829   5.356  1  16
+PUG  O21   .  O  0  -18.903  3.866   6.581  1  17
+PUG  C13   .  C  0  -18.33   5.153   4.596  1  18
+PUG  O23   .  O  0  -17.449  5.217   3.469  1  19
+PUG  C14   .  C  0  -18.079  6.372   5.484  1  20
+PUG  O26   .  O  0  -16.702  6.46    5.878  1  21
+PUG  H3    .  H  0  -19.96   -3.449  2.72   1  22
+PUG  H1    .  H  0  -19.504  .061    4.792  1  23
+PUG  H5    .  H  0  -20.406  .528    -.39   1  24
+PUG  1H10  .  H  0  -20.628  3.042   4.035  0  25
+PUG  2H10  .  H  0  -19.477  3.753   2.991  0  26
+PUG  H11   .  H  0  -18.968  1.838   5.327  1  27
+PUG  H19   .  H  0  -16.733  1.83    4.632  1  28
+PUG  H12   .  H  0  -17.076  3.728   5.619  1  29
+PUG  H21   .  H  0  -18.648  4.647   7.058  1  30
+PUG  H13   .  H  0  -19.379  5.204   4.222  1  31
+PUG  H23   .  H  0  -17.557  6.036   2.999  1  32
+PUG  1H14  .  H  0  -18.758  6.379   6.369  0  33
+PUG  2H14  .  H  0  -18.424  7.312   4.994  0  34
+PUG  H26   .  H  0  -16.546  7.217   6.43   1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PUG  O1   C2    DOUB  1 
+PUG  C2   N3    SING  2 
+PUG  C2   N1    SING  3 
+PUG  N3   C4    SING  4 
+PUG  N3   H3    SING  5 
+PUG  C4   O2    DOUB  6 
+PUG  C4   C9    SING  7 
+PUG  N1   C8    SING  8 
+PUG  N1   H1    SING  9 
+PUG  C8   C9    DOUB  10
+PUG  C8   N7    SING  11
+PUG  C9   N5    SING  12
+PUG  N5   C6    SING  13
+PUG  N5   H5    SING  14
+PUG  N7   C6    SING  15
+PUG  N7   C10   SING  16
+PUG  C6   O4    DOUB  17
+PUG  C10  C11   SING  18
+PUG  C10  1H10  SING  19
+PUG  C10  2H10  SING  20
+PUG  C11  O19   SING  21
+PUG  C11  C12   SING  22
+PUG  C11  H11   SING  23
+PUG  O19  H19   SING  24
+PUG  C12  O21   SING  25
+PUG  C12  C13   SING  26
+PUG  C12  H12   SING  27
+PUG  O21  H21   SING  28
+PUG  C13  O23   SING  29
+PUG  C13  C14   SING  30
+PUG  C13  H13   SING  31
+PUG  O23  H23   SING  32
+PUG  C14  O26   SING  33
+PUG  C14  1H14  SING  34
+PUG  C14  2H14  SING  35
+PUG  O26  H26   SING  36
+#

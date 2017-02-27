@@ -1,0 +1,106 @@
+data_NFG
+#
+_chem_comp.id                   NFG
+_chem_comp.name                 '2,4-DINITROPHENYL 2-DEOXY-2-FLUORO-BETA-D-GLUCOPYRANOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N2 O9 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        348.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NFG  C1    .  C  0  ?  ?  ?  1  1 
+NFG  O1    .  O  0  ?  ?  ?  1  2 
+NFG  C2    .  C  0  ?  ?  ?  1  3 
+NFG  F     .  F  0  ?  ?  ?  1  4 
+NFG  C3    .  C  0  ?  ?  ?  1  5 
+NFG  O3    .  O  0  ?  ?  ?  1  6 
+NFG  C4    .  C  0  ?  ?  ?  1  7 
+NFG  O4    .  O  0  ?  ?  ?  1  8 
+NFG  C5    .  C  0  ?  ?  ?  1  9 
+NFG  C6    .  C  0  ?  ?  ?  1  10
+NFG  O6    .  O  0  ?  ?  ?  1  11
+NFG  O5    .  O  0  ?  ?  ?  1  12
+NFG  C11   .  C  0  ?  ?  ?  1  13
+NFG  C12   .  C  0  ?  ?  ?  1  14
+NFG  N1    .  N  0  ?  ?  ?  1  15
+NFG  O11   .  O  0  ?  ?  ?  1  16
+NFG  O12   .  O  0  ?  ?  ?  1  17
+NFG  C13   .  C  0  ?  ?  ?  1  18
+NFG  C14   .  C  0  ?  ?  ?  1  19
+NFG  N2    .  N  0  ?  ?  ?  1  20
+NFG  O21   .  O  0  ?  ?  ?  1  21
+NFG  O22   .  O  0  ?  ?  ?  1  22
+NFG  C15   .  C  0  ?  ?  ?  1  23
+NFG  C16   .  C  0  ?  ?  ?  1  24
+NFG  H1    .  H  0  ?  ?  ?  1  25
+NFG  H2    .  H  0  ?  ?  ?  1  26
+NFG  H3    .  H  0  ?  ?  ?  1  27
+NFG  1H3O  .  H  0  ?  ?  ?  0  28
+NFG  H4    .  H  0  ?  ?  ?  1  29
+NFG  1H4O  .  H  0  ?  ?  ?  0  30
+NFG  H5    .  H  0  ?  ?  ?  1  31
+NFG  2H6   .  H  0  ?  ?  ?  0  32
+NFG  1H6   .  H  0  ?  ?  ?  0  33
+NFG  H6    .  H  0  ?  ?  ?  1  34
+NFG  H13   .  H  0  ?  ?  ?  1  35
+NFG  H15   .  H  0  ?  ?  ?  1  36
+NFG  H16   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NFG  C1   O1    SING  1 
+NFG  C1   C2    SING  2 
+NFG  C1   O5    SING  3 
+NFG  C1   H1    SING  4 
+NFG  O1   C11   SING  5 
+NFG  C2   F     SING  6 
+NFG  C2   C3    SING  7 
+NFG  C2   H2    SING  8 
+NFG  C3   O3    SING  9 
+NFG  C3   C4    SING  10
+NFG  C3   H3    SING  11
+NFG  O3   1H3O  SING  12
+NFG  C4   O4    SING  13
+NFG  C4   C5    SING  14
+NFG  C4   H4    SING  15
+NFG  O4   1H4O  SING  16
+NFG  C5   C6    SING  17
+NFG  C5   O5    SING  18
+NFG  C5   H5    SING  19
+NFG  C6   O6    SING  20
+NFG  C6   2H6   SING  21
+NFG  C6   1H6   SING  22
+NFG  O6   H6    SING  23
+NFG  C11  C12   AROM  24
+NFG  C11  C16   AROM  25
+NFG  C12  N1    SING  26
+NFG  C12  C13   AROM  27
+NFG  N1   O11   SING  28
+NFG  N1   O12   DOUB  29
+NFG  C13  C14   AROM  30
+NFG  C13  H13   SING  31
+NFG  C14  N2    SING  32
+NFG  C14  C15   AROM  33
+NFG  N2   O21   SING  34
+NFG  N2   O22   DOUB  35
+NFG  C15  C16   AROM  36
+NFG  C15  H15   SING  37
+NFG  C16  H16   SING  38
+#

@@ -1,0 +1,129 @@
+data_SBL
+#
+_chem_comp.id                       SBL
+_chem_comp.name                     'L-NAPHTHYL-1-ACETAMIDO BORONIC ACID ALANINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C17 H22 N2 O6 B1'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       1-
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           361.181
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBL  N     .  N  0   ?  ?  ?  1  1 
+SBL  CA    .  C  0   ?  ?  ?  1  2 
+SBL  CB    .  C  0   ?  ?  ?  1  3 
+SBL  O3    .  O  0   ?  ?  ?  1  4 
+SBL  C     .  C  0   ?  ?  ?  1  5 
+SBL  O     .  O  0   ?  ?  ?  1  6 
+SBL  OXT   .  O  0   ?  ?  ?  1  7 
+SBL  N13   .  N  0   ?  ?  ?  1  8 
+SBL  C12   .  C  0   ?  ?  ?  1  9 
+SBL  C11   .  C  0   ?  ?  ?  1  10
+SBL  C1    .  C  0   ?  ?  ?  1  11
+SBL  C10   .  C  0   ?  ?  ?  1  12
+SBL  C5    .  C  0   ?  ?  ?  1  13
+SBL  C2    .  C  0   ?  ?  ?  1  14
+SBL  C3    .  C  0   ?  ?  ?  1  15
+SBL  C4    .  C  0   ?  ?  ?  1  16
+SBL  O1    .  O  0   ?  ?  ?  1  17
+SBL  O2    .  O  0   ?  ?  ?  1  18
+SBL  B     .  B  -1  ?  ?  ?  1  19
+SBL  C14   .  C  0   ?  ?  ?  1  20
+SBL  O15   .  O  0   ?  ?  ?  1  21
+SBL  C16   .  C  0   ?  ?  ?  1  22
+SBL  C9    .  C  0   ?  ?  ?  1  23
+SBL  C8    .  C  0   ?  ?  ?  1  24
+SBL  C7    .  C  0   ?  ?  ?  1  25
+SBL  C6    .  C  0   ?  ?  ?  1  26
+SBL  1HN   .  H  0   ?  ?  ?  0  27
+SBL  2HN   .  H  0   ?  ?  ?  0  28
+SBL  HA    .  H  0   ?  ?  ?  1  29
+SBL  1HB   .  H  0   ?  ?  ?  0  30
+SBL  2HB   .  H  0   ?  ?  ?  0  31
+SBL  HXT   .  H  0   ?  ?  ?  1  32
+SBL  HN3   .  H  0   ?  ?  ?  1  33
+SBL  H12   .  H  0   ?  ?  ?  1  34
+SBL  1H11  .  H  0   ?  ?  ?  0  35
+SBL  2H11  .  H  0   ?  ?  ?  0  36
+SBL  H2    .  H  0   ?  ?  ?  1  37
+SBL  H3    .  H  0   ?  ?  ?  1  38
+SBL  H4    .  H  0   ?  ?  ?  1  39
+SBL  HO1   .  H  0   ?  ?  ?  1  40
+SBL  HO2   .  H  0   ?  ?  ?  1  41
+SBL  1H16  .  H  0   ?  ?  ?  0  42
+SBL  2H16  .  H  0   ?  ?  ?  0  43
+SBL  3H16  .  H  0   ?  ?  ?  0  44
+SBL  H9    .  H  0   ?  ?  ?  1  45
+SBL  H8    .  H  0   ?  ?  ?  1  46
+SBL  H7    .  H  0   ?  ?  ?  1  47
+SBL  H6    .  H  0   ?  ?  ?  1  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBL  N    CA    SING  1 
+SBL  N    1HN   SING  2 
+SBL  N    2HN   SING  3 
+SBL  CA   CB    SING  4 
+SBL  CA   C     SING  5 
+SBL  CA   HA    SING  6 
+SBL  CB   O3    SING  7 
+SBL  CB   1HB   SING  8 
+SBL  CB   2HB   SING  9 
+SBL  O3   B     SING  10
+SBL  C    O     DOUB  11
+SBL  C    OXT   SING  12
+SBL  OXT  HXT   SING  13
+SBL  N13  C12   SING  14
+SBL  N13  C14   SING  15
+SBL  N13  HN3   SING  16
+SBL  C12  C11   SING  17
+SBL  C12  B     SING  18
+SBL  C12  H12   SING  19
+SBL  C11  C1    SING  20
+SBL  C11  1H11  SING  21
+SBL  C11  2H11  SING  22
+SBL  C1   C10   DOUB  23
+SBL  C1   C2    SING  24
+SBL  C10  C5    SING  25
+SBL  C10  C9    SING  26
+SBL  C5   C4    DOUB  27
+SBL  C5   C6    SING  28
+SBL  C2   C3    DOUB  29
+SBL  C2   H2    SING  30
+SBL  C3   C4    SING  31
+SBL  C3   H3    SING  32
+SBL  C4   H4    SING  33
+SBL  O1   B     SING  34
+SBL  O1   HO1   SING  35
+SBL  O2   B     SING  36
+SBL  O2   HO2   SING  37
+SBL  C14  O15   DOUB  38
+SBL  C14  C16   SING  39
+SBL  C16  1H16  SING  40
+SBL  C16  2H16  SING  41
+SBL  C16  3H16  SING  42
+SBL  C9   C8    DOUB  43
+SBL  C9   H9    SING  44
+SBL  C8   C7    SING  45
+SBL  C8   H8    SING  46
+SBL  C7   C6    DOUB  47
+SBL  C7   H7    SING  48
+SBL  C6   H6    SING  49
+#

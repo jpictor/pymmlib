@@ -1,0 +1,97 @@
+data_CYD
+#
+_chem_comp.id                       CYD
+_chem_comp.name                     '2-AMINO-6-(CYSTEIN-S-YL)-5-OXO-HEXANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H16 N2 O5 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            264.296
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYD  N     .  N  0  68.197  90.001  4.781   1  1 
+CYD  CA    .  C  0  67.845  89.060  3.708   1  2 
+CYD  CB    .  C  0  67.272  87.826  4.409   1  3 
+CYD  SG    .  S  0  67.324  86.076  3.978   1  4 
+CYD  C     .  C  0  66.792  89.682  2.812   1  5 
+CYD  O     .  O  0  67.135  90.425  1.901   1  6 
+CYD  OXT   .  O  0  ?       ?       ?       1  7 
+CYD  C1    .  C  0  66.661  85.962  2.295   1  8 
+CYD  N1    .  N  0  63.482  83.227  -0.605  1  9 
+CYD  C5    .  C  0  64.492  84.096  -1.265  1  10
+CYD  C4    .  C  0  65.134  85.078  -0.285  1  11
+CYD  C3    .  C  0  64.506  85.181  1.074   1  12
+CYD  C2    .  C  0  65.498  84.972  2.186   1  13
+CYD  O1    .  O  0  65.301  84.019  3.020   1  14
+CYD  C6    .  C  0  65.589  83.260  -1.861  1  15
+CYD  OT3   .  O  0  66.492  83.879  -2.478  1  16
+CYD  OT4   .  O  0  65.518  82.009  -1.732  1  17
+CYD  H     .  H  0  ?       ?       ?       1  18
+CYD  HN2   .  H  0  ?       ?       ?       1  19
+CYD  HA    .  H  0  ?       ?       ?       1  20
+CYD  HXT   .  H  0  ?       ?       ?       1  21
+CYD  1HB   .  H  0  ?       ?       ?       0  22
+CYD  2HB   .  H  0  ?       ?       ?       0  23
+CYD  1H1   .  H  0  ?       ?       ?       0  24
+CYD  2H1   .  H  0  ?       ?       ?       0  25
+CYD  1H3   .  H  0  ?       ?       ?       0  26
+CYD  2H3   .  H  0  ?       ?       ?       0  27
+CYD  1H4   .  H  0  ?       ?       ?       0  28
+CYD  2H4   .  H  0  ?       ?       ?       0  29
+CYD  H5    .  H  0  ?       ?       ?       1  30
+CYD  1HN1  .  H  0  ?       ?       ?       0  31
+CYD  2HN1  .  H  0  ?       ?       ?       0  32
+CYD  HT3   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYD  N    CA    SING  1 
+CYD  N    H     SING  2 
+CYD  N    HN2   SING  3 
+CYD  CA   CB    SING  4 
+CYD  CA   C     SING  5 
+CYD  CA   HA    SING  6 
+CYD  CB   SG    SING  7 
+CYD  CB   1HB   SING  8 
+CYD  CB   2HB   SING  9 
+CYD  SG   C1    SING  10
+CYD  C    O     DOUB  11
+CYD  C    OXT   SING  12
+CYD  OXT  HXT   SING  13
+CYD  C1   C2    SING  14
+CYD  C1   1H1   SING  15
+CYD  C1   2H1   SING  16
+CYD  N1   C5    SING  17
+CYD  N1   1HN1  SING  18
+CYD  N1   2HN1  SING  19
+CYD  C5   C4    SING  20
+CYD  C5   C6    SING  21
+CYD  C5   H5    SING  22
+CYD  C4   C3    SING  23
+CYD  C4   1H4   SING  24
+CYD  C4   2H4   SING  25
+CYD  C3   C2    SING  26
+CYD  C3   1H3   SING  27
+CYD  C3   2H3   SING  28
+CYD  C2   O1    DOUB  29
+CYD  C6   OT3   SING  30
+CYD  C6   OT4   DOUB  31
+CYD  OT3  HT3   SING  32
+#

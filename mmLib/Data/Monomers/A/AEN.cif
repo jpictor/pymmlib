@@ -1,0 +1,106 @@
+data_AEN
+#
+_chem_comp.id                   AEN
+_chem_comp.name                 5-(1-SULFONAPHTHYL)-ACETYLAMINO-ETHYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.351
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AEN  C1    .  C  0  ?  ?  ?  1  1 
+AEN  C2    .  C  0  ?  ?  ?  1  2 
+AEN  C3    .  C  0  ?  ?  ?  1  3 
+AEN  C4    .  C  0  ?  ?  ?  1  4 
+AEN  C5    .  C  0  ?  ?  ?  1  5 
+AEN  C6    .  C  0  ?  ?  ?  1  6 
+AEN  C7    .  C  0  ?  ?  ?  1  7 
+AEN  C8    .  C  0  ?  ?  ?  1  8 
+AEN  C9    .  C  0  ?  ?  ?  1  9 
+AEN  C10   .  C  0  ?  ?  ?  1  10
+AEN  C1'   .  C  0  ?  ?  ?  1  11
+AEN  C2'   .  C  0  ?  ?  ?  1  12
+AEN  O2'   .  O  0  ?  ?  ?  1  13
+AEN  N3'   .  N  0  ?  ?  ?  1  14
+AEN  C4'   .  C  0  ?  ?  ?  1  15
+AEN  C5'   .  C  0  ?  ?  ?  1  16
+AEN  N6'   .  N  0  ?  ?  ?  1  17
+AEN  S     .  S  0  ?  ?  ?  1  18
+AEN  O1S   .  O  0  ?  ?  ?  1  19
+AEN  O2S   .  O  0  ?  ?  ?  1  20
+AEN  O3S   .  O  0  ?  ?  ?  1  21
+AEN  H2    .  H  0  ?  ?  ?  1  22
+AEN  H3    .  H  0  ?  ?  ?  1  23
+AEN  H4    .  H  0  ?  ?  ?  1  24
+AEN  H6    .  H  0  ?  ?  ?  1  25
+AEN  H7    .  H  0  ?  ?  ?  1  26
+AEN  H8    .  H  0  ?  ?  ?  1  27
+AEN  1H1'  .  H  0  ?  ?  ?  0  28
+AEN  2H1'  .  H  0  ?  ?  ?  0  29
+AEN  3H1'  .  H  0  ?  ?  ?  0  30
+AEN  3HN'  .  H  0  ?  ?  ?  0  31
+AEN  1H4'  .  H  0  ?  ?  ?  0  32
+AEN  2H4'  .  H  0  ?  ?  ?  0  33
+AEN  1H5'  .  H  0  ?  ?  ?  0  34
+AEN  2H5'  .  H  0  ?  ?  ?  0  35
+AEN  6HN'  .  H  0  ?  ?  ?  0  36
+AEN  3HOS  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AEN  C1   C2    DOUB  1 
+AEN  C1   C9    SING  2 
+AEN  C1   S     SING  3 
+AEN  C2   C3    SING  4 
+AEN  C2   H2    SING  5 
+AEN  C3   C4    DOUB  6 
+AEN  C3   H3    SING  7 
+AEN  C4   C10   SING  8 
+AEN  C4   H4    SING  9 
+AEN  C5   C6    DOUB  10
+AEN  C5   C10   SING  11
+AEN  C5   N6'   SING  12
+AEN  C6   C7    SING  13
+AEN  C6   H6    SING  14
+AEN  C7   C8    DOUB  15
+AEN  C7   H7    SING  16
+AEN  C8   C9    SING  17
+AEN  C8   H8    SING  18
+AEN  C9   C10   DOUB  19
+AEN  C1'  C2'   SING  20
+AEN  C1'  1H1'  SING  21
+AEN  C1'  2H1'  SING  22
+AEN  C1'  3H1'  SING  23
+AEN  C2'  N3'   SING  24
+AEN  C2'  O2'   DOUB  25
+AEN  N3'  C4'   SING  26
+AEN  N3'  3HN'  SING  27
+AEN  C4'  C5'   SING  28
+AEN  C4'  1H4'  SING  29
+AEN  C4'  2H4'  SING  30
+AEN  C5'  N6'   SING  31
+AEN  C5'  1H5'  SING  32
+AEN  C5'  2H5'  SING  33
+AEN  N6'  6HN'  SING  34
+AEN  S    O1S   DOUB  35
+AEN  S    O2S   DOUB  36
+AEN  S    O3S   SING  37
+AEN  O3S  3HOS  SING  38
+#

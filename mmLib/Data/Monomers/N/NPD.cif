@@ -1,0 +1,90 @@
+data_NPD
+#
+_chem_comp.id                   NPD
+_chem_comp.name                 2-METHYL-3-NAPHTHALEN-1-YL-PROPIONALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPD  CN    .  C  0  ?  ?  ?  1  1 
+NPD  CA    .  C  0  ?  ?  ?  1  2 
+NPD  CB    .  C  0  ?  ?  ?  1  3 
+NPD  CG    .  C  0  ?  ?  ?  1  4 
+NPD  CD1   .  C  0  ?  ?  ?  1  5 
+NPD  CE1   .  C  0  ?  ?  ?  1  6 
+NPD  CZ1   .  C  0  ?  ?  ?  1  7 
+NPD  CE2   .  C  0  ?  ?  ?  1  8 
+NPD  CZ2   .  C  0  ?  ?  ?  1  9 
+NPD  CH2   .  C  0  ?  ?  ?  1  10
+NPD  CZ3   .  C  0  ?  ?  ?  1  11
+NPD  CE3   .  C  0  ?  ?  ?  1  12
+NPD  CD2   .  C  0  ?  ?  ?  1  13
+NPD  C     .  C  0  ?  ?  ?  1  14
+NPD  O     .  O  0  ?  ?  ?  1  15
+NPD  HC    .  H  0  ?  ?  ?  1  16
+NPD  1HH2  .  H  0  ?  ?  ?  0  17
+NPD  1HE3  .  H  0  ?  ?  ?  0  18
+NPD  1HZ3  .  H  0  ?  ?  ?  0  19
+NPD  1HZ2  .  H  0  ?  ?  ?  0  20
+NPD  1HZ1  .  H  0  ?  ?  ?  0  21
+NPD  1HE1  .  H  0  ?  ?  ?  0  22
+NPD  1HD1  .  H  0  ?  ?  ?  0  23
+NPD  1HB   .  H  0  ?  ?  ?  0  24
+NPD  2HB   .  H  0  ?  ?  ?  0  25
+NPD  HA    .  H  0  ?  ?  ?  1  26
+NPD  1HCN  .  H  0  ?  ?  ?  0  27
+NPD  2HCN  .  H  0  ?  ?  ?  0  28
+NPD  3HCN  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPD  CN   CA    SING  1 
+NPD  CN   1HCN  SING  2 
+NPD  CN   2HCN  SING  3 
+NPD  CN   3HCN  SING  4 
+NPD  CA   CB    SING  5 
+NPD  CA   C     SING  6 
+NPD  CA   HA    SING  7 
+NPD  CB   CG    SING  8 
+NPD  CB   1HB   SING  9 
+NPD  CB   2HB   SING  10
+NPD  CG   CD1   AROM  11
+NPD  CG   CD2   AROM  12
+NPD  CD1  CE1   AROM  13
+NPD  CD1  1HD1  SING  14
+NPD  CE1  CZ1   AROM  15
+NPD  CE1  1HE1  SING  16
+NPD  CZ1  CE2   AROM  17
+NPD  CZ1  1HZ1  SING  18
+NPD  CE2  CZ2   AROM  19
+NPD  CE2  CD2   AROM  20
+NPD  CZ2  CH2   AROM  21
+NPD  CZ2  1HZ2  SING  22
+NPD  CH2  CZ3   AROM  23
+NPD  CH2  1HH2  SING  24
+NPD  CZ3  CE3   AROM  25
+NPD  CZ3  1HZ3  SING  26
+NPD  CE3  CD2   AROM  27
+NPD  CE3  1HE3  SING  28
+NPD  C    O     DOUB  29
+NPD  C    HC    SING  30
+#

@@ -1,0 +1,76 @@
+data_PEA
+#
+_chem_comp.id                   PEA
+_chem_comp.name                 2-PHENYLETHYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.182
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+PEA  C1'  .  C  0  14.964  16.424  29.498  1  Y  N  N  1 
+PEA  C6'  .  C  0  15.453  17.564  28.883  1  Y  N  N  2 
+PEA  C5'  .  C  0  14.620  18.658  28.685  1  Y  N  N  3 
+PEA  C4'  .  C  0  13.296  18.607  29.102  1  Y  N  N  4 
+PEA  C3'  .  C  0  12.804  17.458  29.717  1  Y  N  N  5 
+PEA  C2'  .  C  0  13.637  16.367  29.912  1  Y  N  N  6 
+PEA  C2   .  C  0  15.890  15.257  29.739  1  N  N  N  7 
+PEA  C1   .  C  0  15.433  13.971  29.095  1  N  N  N  8 
+PEA  N    .  N  0  14.912  12.955  29.990  1  N  N  N  9 
+PEA  H6'  .  H  0  16.504  17.600  28.551  1  N  N  N  10
+PEA  H5'  .  H  0  15.009  19.567  28.196  1  N  N  N  11
+PEA  H4'  .  H  0  12.636  19.477  28.945  1  N  N  N  12
+PEA  H3'  .  H  0  11.753  17.412  30.050  1  N  N  N  13
+PEA  H2'  .  H  0  13.245  15.456  30.395  1  N  N  N  14
+PEA  1H2  .  H  0  16.928  15.508  29.419  0  N  N  N  15
+PEA  2H2  .  H  0  16.059  15.110  30.831  0  N  N  N  16
+PEA  1H1  .  H  0  14.683  14.193  28.300  0  N  N  N  17
+PEA  2H1  .  H  0  16.258  13.543  28.479  0  N  N  N  18
+PEA  1HN  .  H  0  15.579  12.934  30.784  0  N  N  N  19
+PEA  2HN  .  H  0  14.904  12.000  29.597  0  N  N  N  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+PEA  C1'  C6'  DOUB  Y  N  1 
+PEA  C1'  C2'  SING  Y  N  2 
+PEA  C1'  C2   SING  N  N  3 
+PEA  C6'  C5'  SING  Y  N  4 
+PEA  C6'  H6'  SING  N  N  5 
+PEA  C5'  C4'  DOUB  Y  N  6 
+PEA  C5'  H5'  SING  N  N  7 
+PEA  C4'  C3'  SING  Y  N  8 
+PEA  C4'  H4'  SING  N  N  9 
+PEA  C3'  C2'  DOUB  Y  N  10
+PEA  C3'  H3'  SING  N  N  11
+PEA  C2'  H2'  SING  N  N  12
+PEA  C2   C1   SING  N  N  13
+PEA  C2   1H2  SING  N  N  14
+PEA  C2   2H2  SING  N  N  15
+PEA  C1   N    SING  N  N  16
+PEA  C1   1H1  SING  N  N  17
+PEA  C1   2H1  SING  N  N  18
+PEA  N    1HN  SING  N  N  19
+PEA  N    2HN  SING  N  N  20
+#

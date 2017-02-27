@@ -1,0 +1,99 @@
+data_IPN
+#
+_chem_comp.id                   IPN
+_chem_comp.name                 2-AMINOETHYLGLYCINE-CARBONYLMETHYLENE-5-IODOURACIL
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C10 H14 N4 O5 I1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       397.149
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IPN  C8'   .  C  0  ?  ?  ?  1  1 
+IPN  C7'   .  C  0  ?  ?  ?  1  2 
+IPN  O7'   .  O  0  ?  ?  ?  1  3 
+IPN  C5'   .  C  0  ?  ?  ?  1  4 
+IPN  C'    .  C  0  ?  ?  ?  1  5 
+IPN  O1'   .  O  0  ?  ?  ?  1  6 
+IPN  O2'   .  O  0  ?  ?  ?  1  7 
+IPN  N4'   .  N  0  ?  ?  ?  1  8 
+IPN  C3'   .  C  0  ?  ?  ?  1  9 
+IPN  C2'   .  C  0  ?  ?  ?  1  10
+IPN  N1'   .  N  1  ?  ?  ?  1  11
+IPN  N1    .  N  0  ?  ?  ?  1  12
+IPN  C6    .  C  0  ?  ?  ?  1  13
+IPN  C2    .  C  0  ?  ?  ?  1  14
+IPN  O2    .  O  0  ?  ?  ?  1  15
+IPN  N3    .  N  0  ?  ?  ?  1  16
+IPN  C4    .  C  0  ?  ?  ?  1  17
+IPN  O4    .  O  0  ?  ?  ?  1  18
+IPN  C5    .  C  0  ?  ?  ?  1  19
+IPN  I5    .  I  0  ?  ?  ?  1  20
+IPN  1H1'  .  H  0  ?  ?  ?  0  21
+IPN  2H1'  .  H  0  ?  ?  ?  0  22
+IPN  3H1'  .  H  0  ?  ?  ?  0  23
+IPN  1H2'  .  H  0  ?  ?  ?  0  24
+IPN  2H2'  .  H  0  ?  ?  ?  0  25
+IPN  'HO2  .  H  0  ?  ?  ?  0  26
+IPN  1H3'  .  H  0  ?  ?  ?  0  27
+IPN  2H3'  .  H  0  ?  ?  ?  0  28
+IPN  1H5'  .  H  0  ?  ?  ?  0  29
+IPN  2H5'  .  H  0  ?  ?  ?  0  30
+IPN  1H8'  .  H  0  ?  ?  ?  0  31
+IPN  2H8'  .  H  0  ?  ?  ?  0  32
+IPN  H6    .  H  0  ?  ?  ?  1  33
+IPN  HN3   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IPN  C8'  C7'   SING  1 
+IPN  C8'  N1    SING  2 
+IPN  C8'  1H8'  SING  3 
+IPN  C8'  2H8'  SING  4 
+IPN  C7'  N4'   SING  5 
+IPN  C7'  O7'   DOUB  6 
+IPN  C5'  N4'   SING  7 
+IPN  C5'  C'    SING  8 
+IPN  C5'  1H5'  SING  9 
+IPN  C5'  2H5'  SING  10
+IPN  C'   O1'   DOUB  11
+IPN  C'   O2'   SING  12
+IPN  O2'  'HO2  SING  13
+IPN  N4'  C3'   SING  14
+IPN  C3'  C2'   SING  15
+IPN  C3'  1H3'  SING  16
+IPN  C3'  2H3'  SING  17
+IPN  C2'  N1'   SING  18
+IPN  C2'  1H2'  SING  19
+IPN  C2'  2H2'  SING  20
+IPN  N1'  1H1'  SING  21
+IPN  N1'  2H1'  SING  22
+IPN  N1'  3H1'  SING  23
+IPN  N1   C2    SING  24
+IPN  N1   C6    SING  25
+IPN  C6   C5    DOUB  26
+IPN  C6   H6    SING  27
+IPN  C2   N3    SING  28
+IPN  C2   O2    DOUB  29
+IPN  N3   C4    SING  30
+IPN  N3   HN3   SING  31
+IPN  C4   C5    SING  32
+IPN  C4   O4    DOUB  33
+IPN  C5   I5    SING  34
+#

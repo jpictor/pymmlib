@@ -1,0 +1,110 @@
+data_PME
+#
+_chem_comp.id                   PME
+_chem_comp.name                 'N-L-ALPHA-ASPARTYL L-PHENYLALANINE 1-METHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H18 N2 O5'
+_chem_comp.pdbx_synonyms        ASPARTAME
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        294.307
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PME  N1    .  N  0  ?  ?  ?  1  1 
+PME  C2    .  C  0  ?  ?  ?  1  2 
+PME  C3    .  C  0  ?  ?  ?  1  3 
+PME  C4    .  C  0  ?  ?  ?  1  4 
+PME  O5    .  O  0  ?  ?  ?  1  5 
+PME  O6    .  O  0  ?  ?  ?  1  6 
+PME  C7    .  C  0  ?  ?  ?  1  7 
+PME  O8    .  O  0  ?  ?  ?  1  8 
+PME  N9    .  N  0  ?  ?  ?  1  9 
+PME  C10   .  C  0  ?  ?  ?  1  10
+PME  C11   .  C  0  ?  ?  ?  1  11
+PME  C12   .  C  0  ?  ?  ?  1  12
+PME  C13   .  C  0  ?  ?  ?  1  13
+PME  C14   .  C  0  ?  ?  ?  1  14
+PME  C15   .  C  0  ?  ?  ?  1  15
+PME  C16   .  C  0  ?  ?  ?  1  16
+PME  C17   .  C  0  ?  ?  ?  1  17
+PME  C18   .  C  0  ?  ?  ?  1  18
+PME  O19   .  O  0  ?  ?  ?  1  19
+PME  O20   .  O  0  ?  ?  ?  1  20
+PME  C21   .  C  0  ?  ?  ?  1  21
+PME  1HN1  .  H  0  ?  ?  ?  0  22
+PME  2HN1  .  H  0  ?  ?  ?  0  23
+PME  H2    .  H  0  ?  ?  ?  1  24
+PME  1H3   .  H  0  ?  ?  ?  0  25
+PME  2H3   .  H  0  ?  ?  ?  0  26
+PME  HO6   .  H  0  ?  ?  ?  1  27
+PME  HN9   .  H  0  ?  ?  ?  1  28
+PME  H10   .  H  0  ?  ?  ?  1  29
+PME  1H11  .  H  0  ?  ?  ?  0  30
+PME  2H11  .  H  0  ?  ?  ?  0  31
+PME  H13   .  H  0  ?  ?  ?  1  32
+PME  H14   .  H  0  ?  ?  ?  1  33
+PME  H15   .  H  0  ?  ?  ?  1  34
+PME  H16   .  H  0  ?  ?  ?  1  35
+PME  H17   .  H  0  ?  ?  ?  1  36
+PME  1H21  .  H  0  ?  ?  ?  0  37
+PME  2H21  .  H  0  ?  ?  ?  0  38
+PME  3H21  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PME  N1   C2    SING  1 
+PME  N1   1HN1  SING  2 
+PME  N1   2HN1  SING  3 
+PME  C2   C3    SING  4 
+PME  C2   C7    SING  5 
+PME  C2   H2    SING  6 
+PME  C3   C4    SING  7 
+PME  C3   1H3   SING  8 
+PME  C3   2H3   SING  9 
+PME  C4   O5    DOUB  10
+PME  C4   O6    SING  11
+PME  O6   HO6   SING  12
+PME  C7   O8    DOUB  13
+PME  C7   N9    SING  14
+PME  N9   C10   SING  15
+PME  N9   HN9   SING  16
+PME  C10  C11   SING  17
+PME  C10  C18   SING  18
+PME  C10  H10   SING  19
+PME  C11  C12   SING  20
+PME  C11  1H11  SING  21
+PME  C11  2H11  SING  22
+PME  C12  C13   DOUB  23
+PME  C12  C17   SING  24
+PME  C13  C14   SING  25
+PME  C13  H13   SING  26
+PME  C14  C15   DOUB  27
+PME  C14  H14   SING  28
+PME  C15  C16   SING  29
+PME  C15  H15   SING  30
+PME  C16  C17   DOUB  31
+PME  C16  H16   SING  32
+PME  C17  H17   SING  33
+PME  C18  O19   DOUB  34
+PME  C18  O20   SING  35
+PME  O20  C21   SING  36
+PME  C21  1H21  SING  37
+PME  C21  2H21  SING  38
+PME  C21  3H21  SING  39
+#

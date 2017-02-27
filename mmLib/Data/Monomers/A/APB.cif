@@ -1,0 +1,67 @@
+data_APB
+#
+_chem_comp.id                   APB
+_chem_comp.name                 'M-AMINOPHENYLBORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 N1 O2 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.945
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APB  B     .  B  0  ?  ?  ?  1  1 
+APB  O1    .  O  0  ?  ?  ?  1  2 
+APB  O2    .  O  0  ?  ?  ?  1  3 
+APB  C1    .  C  0  ?  ?  ?  1  4 
+APB  C2    .  C  0  ?  ?  ?  1  5 
+APB  C3    .  C  0  ?  ?  ?  1  6 
+APB  C4    .  C  0  ?  ?  ?  1  7 
+APB  C5    .  C  0  ?  ?  ?  1  8 
+APB  C6    .  C  0  ?  ?  ?  1  9 
+APB  N1    .  N  0  ?  ?  ?  1  10
+APB  HO1   .  H  0  ?  ?  ?  1  11
+APB  HO2   .  H  0  ?  ?  ?  1  12
+APB  H2    .  H  0  ?  ?  ?  1  13
+APB  H4    .  H  0  ?  ?  ?  1  14
+APB  H5    .  H  0  ?  ?  ?  1  15
+APB  H6    .  H  0  ?  ?  ?  1  16
+APB  1HN1  .  H  0  ?  ?  ?  0  17
+APB  2HN1  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APB  B   O1    SING  1 
+APB  B   O2    SING  2 
+APB  B   C1    SING  3 
+APB  O1  HO1   SING  4 
+APB  O2  HO2   SING  5 
+APB  C1  C2    SING  6 
+APB  C1  C6    DOUB  7 
+APB  C2  C3    DOUB  8 
+APB  C2  H2    SING  9 
+APB  C3  C4    SING  10
+APB  C3  N1    SING  11
+APB  C4  C5    DOUB  12
+APB  C4  H4    SING  13
+APB  C5  C6    SING  14
+APB  C5  H5    SING  15
+APB  C6  H6    SING  16
+APB  N1  1HN1  SING  17
+APB  N1  2HN1  SING  18
+#

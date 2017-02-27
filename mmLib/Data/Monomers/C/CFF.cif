@@ -1,0 +1,81 @@
+data_CFF
+#
+_chem_comp.id                   CFF
+_chem_comp.name                 CAFFEINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H10 N4 O2'
+_chem_comp.pdbx_synonyms        3,7-DIHYDRO-1,3,7-TRIMETHYL-1H-PURINE-2,6-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CFF  N1    .  N  0  ?  ?  ?  1  1 
+CFF  C2    .  C  0  ?  ?  ?  1  2 
+CFF  C10   .  C  0  ?  ?  ?  1  3 
+CFF  C6    .  C  0  ?  ?  ?  1  4 
+CFF  N3    .  N  0  ?  ?  ?  1  5 
+CFF  O11   .  O  0  ?  ?  ?  1  6 
+CFF  C12   .  C  0  ?  ?  ?  1  7 
+CFF  C4    .  C  0  ?  ?  ?  1  8 
+CFF  C5    .  C  0  ?  ?  ?  1  9 
+CFF  N9    .  N  0  ?  ?  ?  1  10
+CFF  O13   .  O  0  ?  ?  ?  1  11
+CFF  N7    .  N  0  ?  ?  ?  1  12
+CFF  C8    .  C  0  ?  ?  ?  1  13
+CFF  C14   .  C  0  ?  ?  ?  1  14
+CFF  1H10  .  H  0  ?  ?  ?  0  15
+CFF  2H10  .  H  0  ?  ?  ?  0  16
+CFF  3H10  .  H  0  ?  ?  ?  0  17
+CFF  1H12  .  H  0  ?  ?  ?  0  18
+CFF  2H12  .  H  0  ?  ?  ?  0  19
+CFF  3H12  .  H  0  ?  ?  ?  0  20
+CFF  1H8   .  H  0  ?  ?  ?  0  21
+CFF  1H14  .  H  0  ?  ?  ?  0  22
+CFF  2H14  .  H  0  ?  ?  ?  0  23
+CFF  3H14  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CFF  N1   C2    SING  1 
+CFF  N1   C10   SING  2 
+CFF  N1   C6    SING  3 
+CFF  C2   N3    SING  4 
+CFF  C2   O11   DOUB  5 
+CFF  C10  1H10  SING  6 
+CFF  C10  2H10  SING  7 
+CFF  C10  3H10  SING  8 
+CFF  C6   C5    SING  9 
+CFF  C6   O13   DOUB  10
+CFF  N3   C12   SING  11
+CFF  N3   C4    SING  12
+CFF  C12  1H12  SING  13
+CFF  C12  2H12  SING  14
+CFF  C12  3H12  SING  15
+CFF  C4   C5    DOUB  16
+CFF  C4   N9    SING  17
+CFF  C5   N7    SING  18
+CFF  N9   C8    DOUB  19
+CFF  N7   C8    SING  20
+CFF  N7   C14   SING  21
+CFF  C8   1H8   SING  22
+CFF  C14  1H14  SING  23
+CFF  C14  2H14  SING  24
+CFF  C14  3H14  SING  25
+#

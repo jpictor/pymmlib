@@ -1,0 +1,94 @@
+data_FTY
+#
+_chem_comp.id                       FTY
+_chem_comp.name                     DEOXY-DIFLUOROMETHELENE-PHOSPHOTYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H12 N1 O5 F2 P1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            295.179
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FTY  N     .  N  0  ?  ?  ?  1  1 
+FTY  CA    .  C  0  ?  ?  ?  1  2 
+FTY  C     .  C  0  ?  ?  ?  1  3 
+FTY  O     .  O  0  ?  ?  ?  1  4 
+FTY  OXT   .  O  0  ?  ?  ?  1  5 
+FTY  CB    .  C  0  ?  ?  ?  1  6 
+FTY  CG    .  C  0  ?  ?  ?  1  7 
+FTY  CD1   .  C  0  ?  ?  ?  1  8 
+FTY  CD2   .  C  0  ?  ?  ?  1  9 
+FTY  CE1   .  C  0  ?  ?  ?  1  10
+FTY  CE2   .  C  0  ?  ?  ?  1  11
+FTY  CZ    .  C  0  ?  ?  ?  1  12
+FTY  C1    .  C  0  ?  ?  ?  1  13
+FTY  F1    .  F  0  ?  ?  ?  1  14
+FTY  F2    .  F  0  ?  ?  ?  1  15
+FTY  P     .  P  0  ?  ?  ?  1  16
+FTY  O1P   .  O  0  ?  ?  ?  1  17
+FTY  O2P   .  O  0  ?  ?  ?  1  18
+FTY  O3P   .  O  0  ?  ?  ?  1  19
+FTY  1HN   .  H  0  ?  ?  ?  0  20
+FTY  2HN   .  H  0  ?  ?  ?  0  21
+FTY  HA    .  H  0  ?  ?  ?  1  22
+FTY  1HB   .  H  0  ?  ?  ?  0  23
+FTY  2HB   .  H  0  ?  ?  ?  0  24
+FTY  HD1   .  H  0  ?  ?  ?  1  25
+FTY  HD2   .  H  0  ?  ?  ?  1  26
+FTY  HE1   .  H  0  ?  ?  ?  1  27
+FTY  HE2   .  H  0  ?  ?  ?  1  28
+FTY  HXT   .  H  0  ?  ?  ?  1  29
+FTY  PHO2  .  H  0  ?  ?  ?  0  30
+FTY  PHO3  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FTY  N    CA    SING  1 
+FTY  N    1HN   SING  2 
+FTY  N    2HN   SING  3 
+FTY  CA   CB    SING  4 
+FTY  CA   C     SING  5 
+FTY  CA   HA    SING  6 
+FTY  C    O     DOUB  7 
+FTY  C    OXT   SING  8 
+FTY  OXT  HXT   SING  9 
+FTY  CB   CG    SING  10
+FTY  CB   1HB   SING  11
+FTY  CB   2HB   SING  12
+FTY  CG   CD1   DOUB  13
+FTY  CG   CD2   SING  14
+FTY  CD1  CE1   SING  15
+FTY  CD1  HD1   SING  16
+FTY  CD2  CE2   DOUB  17
+FTY  CD2  HD2   SING  18
+FTY  CE1  CZ    DOUB  19
+FTY  CE1  HE1   SING  20
+FTY  CE2  CZ    SING  21
+FTY  CE2  HE2   SING  22
+FTY  CZ   C1    SING  23
+FTY  C1   P     SING  24
+FTY  C1   F1    SING  25
+FTY  C1   F2    SING  26
+FTY  P    O1P   DOUB  27
+FTY  P    O2P   SING  28
+FTY  P    O3P   SING  29
+FTY  O2P  PHO2  SING  30
+FTY  O3P  PHO3  SING  31
+#

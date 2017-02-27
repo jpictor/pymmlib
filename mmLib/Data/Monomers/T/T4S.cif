@@ -1,0 +1,113 @@
+data_T4S
+#
+_chem_comp.id                       T4S
+_chem_comp.name                     1-(2-DEOXY-5-O-PHOSPHONO-BETA-D-ERYTHRO-PENTOFURANOSYL)-4-HYDROSELENO-5-METHYLPYRIMIDIN-2(1H)-ONE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N2 O7 P1 SE1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            385.171
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          T4S
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC1=CN(C(=O)N=C1[SeH])[C@H]2C[C@@H]([C@H](O2)COP(=O)(O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+T4S  O3P   .  O   0  2.849  13.226  5.199   1  N  1 
+T4S  P     .  P   0  4.155  12.556  4.527   1  N  2 
+T4S  O1P   .  O   0  4.040  12.849  3.058   1  N  3 
+T4S  O2P   .  O   0  4.353  11.191  4.967   1  N  4 
+T4S  O5*   .  O   0  5.361  13.407  5.139   1  N  5 
+T4S  N1    .  N   0  7.627  13.865  8.359   1  N  6 
+T4S  C6    .  C   0  6.641  12.986  7.988   1  N  7 
+T4S  C2    .  C   0  8.486  13.591  9.413   1  N  8 
+T4S  O2    .  O   0  9.392  14.343  9.740   1  N  9 
+T4S  N3    .  N   0  8.263  12.381  10.058  1  N  10
+T4S  C4    .  C   0  7.305  11.426  9.735   1  N  11
+T4S  SE    .  SE  0  7.086  9.919   10.541  0  N  12
+T4S  C5    .  C   0  6.436  11.774  8.602   1  N  13
+T4S  C5A   .  C   0  5.380  10.806  8.173   1  N  14
+T4S  C2*   .  C   0  8.789  14.856  6.477   1  N  15
+T4S  C5*   .  C   0  5.363  14.821  5.029   1  N  16
+T4S  C4*   .  C   0  6.625  15.411  5.614   1  N  17
+T4S  O4*   .  O   0  6.543  15.365  7.062   1  N  18
+T4S  C1*   .  C   0  7.849  15.152  7.620   1  N  19
+T4S  C3*   .  C   0  7.887  14.635  5.274   1  N  20
+T4S  O3*   .  O   0  8.530  15.121  4.123   1  N  21
+T4S  3HOP  .  H   0  3.002  13.358  6.127   0  N  22
+T4S  2HOP  .  H   0  4.396  10.617  4.211   0  N  23
+T4S  H6    .  H   0  5.992  13.261  7.170   1  N  24
+T4S  HSE   .  H   0  7.022  8.814   9.528   1  N  25
+T4S  1H5A  .  H   0  4.730  10.568  9.028   0  N  26
+T4S  2H5A  .  H   0  4.778  11.253  7.369   0  N  27
+T4S  3H5A  .  H   0  5.855  9.884   7.806   0  N  28
+T4S  1H2*  .  H   0  9.394  13.961  6.686   0  N  29
+T4S  2H2*  .  H   0  9.504  15.675  6.310   0  N  30
+T4S  1H5*  .  H   0  5.300  15.096  3.966   0  N  31
+T4S  2H5*  .  H   0  4.501  15.217  5.586   0  N  32
+T4S  H4*   .  H   0  6.692  16.425  5.193   1  N  33
+T4S  H1*   .  H   0  8.248  15.983  8.220   1  N  34
+T4S  H3*   .  H   0  7.654  13.580  5.067   1  N  35
+T4S  H3T   .  H   0  7.893  15.231  3.426   1  N  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+T4S  O3P  P     SING  N  1 
+T4S  O3P  3HOP  SING  N  2 
+T4S  P    O1P   DOUB  N  3 
+T4S  P    O2P   SING  N  4 
+T4S  P    O5*   SING  N  5 
+T4S  O2P  2HOP  SING  N  6 
+T4S  O5*  C5*   SING  N  7 
+T4S  N1   C1*   SING  N  8 
+T4S  N1   C6    SING  N  9 
+T4S  N1   C2    SING  N  10
+T4S  C6   C5    DOUB  N  11
+T4S  C6   H6    SING  N  12
+T4S  C2   O2    DOUB  N  13
+T4S  C2   N3    SING  N  14
+T4S  N3   C4    DOUB  N  15
+T4S  C4   C5    SING  N  16
+T4S  C4   SE    SING  N  17
+T4S  SE   HSE   SING  N  18
+T4S  C5   C5A   SING  N  19
+T4S  C5A  1H5A  SING  N  20
+T4S  C5A  2H5A  SING  N  21
+T4S  C5A  3H5A  SING  N  22
+T4S  C2*  C3*   SING  N  23
+T4S  C2*  C1*   SING  N  24
+T4S  C2*  1H2*  SING  N  25
+T4S  C2*  2H2*  SING  N  26
+T4S  C5*  C4*   SING  N  27
+T4S  C5*  1H5*  SING  N  28
+T4S  C5*  2H5*  SING  N  29
+T4S  C4*  C3*   SING  N  30
+T4S  C4*  O4*   SING  N  31
+T4S  C4*  H4*   SING  N  32
+T4S  O4*  C1*   SING  N  33
+T4S  C1*  H1*   SING  N  34
+T4S  C3*  O3*   SING  N  35
+T4S  C3*  H3*   SING  N  36
+T4S  O3*  H3T   SING  N  37
+#

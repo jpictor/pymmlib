@@ -1,0 +1,110 @@
+data_UBA
+#
+_chem_comp.id                   UBA
+_chem_comp.name                 (S)-1-(2-AMINO-2-CARBOXYETHYL)-3(2-CARBOXYTHIOPHENE-3-YL-METHYL)-5-METHYLPYRIMIDINE-2,4-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H15 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        353.349
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UBA  OXT   .  O  0  -53.029  -10.469  18.577  1  1 
+UBA  C     .  C  0  -53.659  -9.663   17.825  1  2 
+UBA  O     .  O  0  -54.584  -10.078  17.081  1  3 
+UBA  CA    .  C  0  -53.281  -8.222   17.865  1  4 
+UBA  N     .  N  0  -52.204  -8.053   18.830  1  5 
+UBA  CB    .  C  0  -52.889  -7.793   16.427  1  6 
+UBA  N4    .  N  0  -52.318  -6.463   16.547  1  7 
+UBA  C5    .  C  0  -53.246  -5.412   16.697  1  8 
+UBA  O8    .  O  0  -54.450  -5.681   16.690  1  9 
+UBA  N6    .  N  0  -52.779  -4.118   16.855  1  10
+UBA  C1    .  C  0  -51.423  -3.843   16.836  1  11
+UBA  O7    .  O  0  -51.049  -2.687   16.990  1  12
+UBA  C2    .  C  0  -50.458  -4.947   16.675  1  13
+UBA  C6    .  C  0  -48.969  -4.636   16.653  1  14
+UBA  C3    .  C  0  -50.993  -6.224   16.521  1  15
+UBA  C17   .  C  0  -53.662  -2.996   17.084  1  16
+UBA  C18   .  C  0  -54.387  -2.642   15.850  1  17
+UBA  C23   .  C  0  -54.080  -2.938   14.514  1  18
+UBA  C22   .  C  0  -54.972  -2.430   13.561  1  19
+UBA  S20   .  S  0  -56.224  -1.552   14.406  1  20
+UBA  C19   .  C  0  -55.602  -1.836   15.982  1  21
+UBA  C10   .  C  0  -56.245  -1.329   17.214  1  22
+UBA  O2    .  O  0  -55.585  -1.149   18.271  1  23
+UBA  O1    .  O  0  -57.454  -1.059   17.088  1  24
+UBA  1H6   .  H  0  ?        ?        ?       0  25
+UBA  2H6   .  H  0  ?        ?        ?       0  26
+UBA  3H6   .  H  0  ?        ?        ?       0  27
+UBA  H3    .  H  0  ?        ?        ?       1  28
+UBA  1HB   .  H  0  ?        ?        ?       0  29
+UBA  2HB   .  H  0  ?        ?        ?       0  30
+UBA  HA    .  H  0  ?        ?        ?       1  31
+UBA  1HN   .  H  0  ?        ?        ?       0  32
+UBA  2HN   .  H  0  ?        ?        ?       0  33
+UBA  HO    .  H  0  ?        ?        ?       1  34
+UBA  1H17  .  H  0  ?        ?        ?       0  35
+UBA  2H17  .  H  0  ?        ?        ?       0  36
+UBA  H23   .  H  0  ?        ?        ?       1  37
+UBA  H22   .  H  0  ?        ?        ?       1  38
+UBA  HO2   .  H  0  ?        ?        ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UBA  OXT  C     DOUB  1 
+UBA  C    CA    SING  2 
+UBA  C    O     SING  3 
+UBA  O    HO    SING  4 
+UBA  CA   CB    SING  5 
+UBA  CA   N     SING  6 
+UBA  CA   HA    SING  7 
+UBA  N    1HN   SING  8 
+UBA  N    2HN   SING  9 
+UBA  CB   N4    SING  10
+UBA  CB   1HB   SING  11
+UBA  CB   2HB   SING  12
+UBA  N4   C3    SING  13
+UBA  N4   C5    SING  14
+UBA  C5   O8    DOUB  15
+UBA  C5   N6    SING  16
+UBA  N6   C17   SING  17
+UBA  N6   C1    SING  18
+UBA  C1   C2    SING  19
+UBA  C1   O7    DOUB  20
+UBA  C2   C6    SING  21
+UBA  C2   C3    DOUB  22
+UBA  C6   1H6   SING  23
+UBA  C6   2H6   SING  24
+UBA  C6   3H6   SING  25
+UBA  C3   H3    SING  26
+UBA  C17  C18   SING  27
+UBA  C17  1H17  SING  28
+UBA  C17  2H17  SING  29
+UBA  C18  C23   SING  30
+UBA  C18  C19   DOUB  31
+UBA  C23  C22   DOUB  32
+UBA  C23  H23   SING  33
+UBA  C22  S20   SING  34
+UBA  C22  H22   SING  35
+UBA  S20  C19   SING  36
+UBA  C19  C10   SING  37
+UBA  C10  O2    SING  38
+UBA  C10  O1    DOUB  39
+UBA  O2   HO2   SING  40
+#

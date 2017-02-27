@@ -1,0 +1,94 @@
+data_FLP
+#
+_chem_comp.id                   FLP
+_chem_comp.name                 FLURBIPROFEN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H13 O2 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        244.265
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FLP  C     .  C  0  ?  ?  ?  1  1 
+FLP  C1    .  C  0  ?  ?  ?  1  2 
+FLP  C2    .  C  0  ?  ?  ?  1  3 
+FLP  C3    .  C  0  ?  ?  ?  1  4 
+FLP  C4    .  C  0  ?  ?  ?  1  5 
+FLP  C5    .  C  0  ?  ?  ?  1  6 
+FLP  C6    .  C  0  ?  ?  ?  1  7 
+FLP  C7    .  C  0  ?  ?  ?  1  8 
+FLP  C8    .  C  0  ?  ?  ?  1  9 
+FLP  C9    .  C  0  ?  ?  ?  1  10
+FLP  C10   .  C  0  ?  ?  ?  1  11
+FLP  C11   .  C  0  ?  ?  ?  1  12
+FLP  C12   .  C  0  ?  ?  ?  1  13
+FLP  C13   .  C  0  ?  ?  ?  1  14
+FLP  C14   .  C  0  ?  ?  ?  1  15
+FLP  O     .  O  0  ?  ?  ?  1  16
+FLP  O1    .  O  0  ?  ?  ?  1  17
+FLP  F     .  F  0  ?  ?  ?  1  18
+FLP  H     .  H  0  ?  ?  ?  1  19
+FLP  H1    .  H  0  ?  ?  ?  1  20
+FLP  H3    .  H  0  ?  ?  ?  1  21
+FLP  H4    .  H  0  ?  ?  ?  1  22
+FLP  H5    .  H  0  ?  ?  ?  1  23
+FLP  H7    .  H  0  ?  ?  ?  1  24
+FLP  H8    .  H  0  ?  ?  ?  1  25
+FLP  H10   .  H  0  ?  ?  ?  1  26
+FLP  H12   .  H  0  ?  ?  ?  1  27
+FLP  1H13  .  H  0  ?  ?  ?  0  28
+FLP  2H13  .  H  0  ?  ?  ?  0  29
+FLP  3H13  .  H  0  ?  ?  ?  0  30
+FLP  HO1   .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FLP  C    C1    DOUB  1 
+FLP  C    C5    SING  2 
+FLP  C    H     SING  3 
+FLP  C1   C2    SING  4 
+FLP  C1   H1    SING  5 
+FLP  C2   C3    DOUB  6 
+FLP  C2   C6    SING  7 
+FLP  C3   C4    SING  8 
+FLP  C3   H3    SING  9 
+FLP  C4   C5    DOUB  10
+FLP  C4   H4    SING  11
+FLP  C5   H5    SING  12
+FLP  C6   C7    DOUB  13
+FLP  C6   C11   SING  14
+FLP  C7   C8    SING  15
+FLP  C7   H7    SING  16
+FLP  C8   C9    DOUB  17
+FLP  C8   H8    SING  18
+FLP  C9   C10   SING  19
+FLP  C9   C12   SING  20
+FLP  C10  C11   DOUB  21
+FLP  C10  H10   SING  22
+FLP  C11  F     SING  23
+FLP  C12  C13   SING  24
+FLP  C12  C14   SING  25
+FLP  C12  H12   SING  26
+FLP  C13  1H13  SING  27
+FLP  C13  2H13  SING  28
+FLP  C13  3H13  SING  29
+FLP  C14  O     DOUB  30
+FLP  C14  O1    SING  31
+FLP  O1   HO1   SING  32
+#

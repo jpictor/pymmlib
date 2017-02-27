@@ -1,0 +1,98 @@
+data_UD5
+#
+_chem_comp.id                   UD5
+_chem_comp.name                 5-FLUOROURIDINE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O8 F1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UD5  P     .  P  0  6.727   22.146  50.323  1  1 
+UD5  O1P   .  O  0  6.170   23.448  49.860  1  2 
+UD5  O2P   .  O  0  6.653   21.792  51.761  1  3 
+UD5  O5*   .  O  0  8.248   21.993  49.839  1  4 
+UD5  C5*   .  C  0  9.005   20.797  50.061  1  5 
+UD5  C4*   .  C  0  10.128  20.702  49.045  1  6 
+UD5  O4*   .  O  0  11.249  21.542  49.445  1  7 
+UD5  C3*   .  C  0  10.690  19.271  49.002  1  8 
+UD5  O3*   .  O  0  10.986  18.931  47.648  1  9 
+UD5  C2*   .  C  0  11.935  19.283  49.886  1  10
+UD5  O2*   .  O  0  13.030  18.516  49.437  1  11
+UD5  C1*   .  C  0  12.360  20.722  49.695  1  12
+UD5  N1    .  N  0  13.352  21.345  50.565  1  13
+UD5  C2    .  C  0  14.658  20.930  50.382  1  14
+UD5  O2    .  O  0  14.968  20.067  49.583  1  15
+UD5  N3    .  N  0  15.582  21.564  51.161  1  16
+UD5  C4    .  C  0  15.333  22.539  52.085  1  17
+UD5  O4    .  O  0  16.274  23.031  52.701  1  18
+UD5  C5    .  C  0  13.949  22.892  52.227  1  19
+UD5  C6    .  C  0  13.032  22.293  51.481  1  20
+UD5  F     .  F  0  13.568  23.831  53.137  1  21
+UD5  H1P   .  H  0  ?       ?       ?       1  22
+UD5  H2P   .  H  0  ?       ?       ?       1  23
+UD5  1H5*  .  H  0  ?       ?       ?       0  24
+UD5  2H5*  .  H  0  ?       ?       ?       0  25
+UD5  H4*   .  H  0  ?       ?       ?       1  26
+UD5  H1*   .  H  0  ?       ?       ?       1  27
+UD5  H6    .  H  0  ?       ?       ?       1  28
+UD5  HN3   .  H  0  ?       ?       ?       1  29
+UD5  H2*   .  H  0  ?       ?       ?       1  30
+UD5  H1    .  H  0  ?       ?       ?       1  31
+UD5  H3*   .  H  0  ?       ?       ?       1  32
+UD5  H2    .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UD5  P    O1P   SING  1 
+UD5  P    O2P   SING  2 
+UD5  P    O5*   SING  3 
+UD5  O1P  H1P   SING  4 
+UD5  O2P  H2P   SING  5 
+UD5  O5*  C5*   SING  6 
+UD5  C5*  1H5*  SING  7 
+UD5  C5*  2H5*  SING  8 
+UD5  C5*  C4*   SING  9 
+UD5  C4*  H4*   SING  10
+UD5  C4*  O4*   SING  11
+UD5  C4*  C3*   SING  12
+UD5  O4*  C1*   SING  13
+UD5  C3*  C2*   SING  14
+UD5  C3*  H3*   SING  15
+UD5  C3*  O3*   SING  16
+UD5  O3*  H2    SING  17
+UD5  C2*  C1*   SING  18
+UD5  C2*  H2*   SING  19
+UD5  C2*  O2*   SING  20
+UD5  O2*  H1    SING  21
+UD5  C1*  H1*   SING  22
+UD5  C1*  N1    SING  23
+UD5  N1   C6    SING  24
+UD5  N1   C2    SING  25
+UD5  C2   N3    SING  26
+UD5  C2   O2    DOUB  27
+UD5  N3   C4    SING  28
+UD5  N3   HN3   SING  29
+UD5  C4   C5    SING  30
+UD5  C4   O4    DOUB  31
+UD5  C5   C6    DOUB  32
+UD5  C5   F     SING  33
+UD5  C6   H6    SING  34
+#

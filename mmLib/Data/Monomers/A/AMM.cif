@@ -1,0 +1,94 @@
+data_AMM
+#
+_chem_comp.id                   AMM
+_chem_comp.name                 (2S)-2-{[(AMINOMETHYL)(DIHYDROXY)SILYL]METHYL}-4-METHYLPENTANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H19 N1 O3 SI1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        205.328
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMM  N     .  N   0  33.856  39.440  -6.562  1  1 
+AMM  CA    .  C   0  34.960  40.293  -7.015  1  2 
+AMM  SI    .  SI  0  35.117  41.794  -6.031  0  3 
+AMM  O1    .  O   0  36.570  42.432  -6.486  1  4 
+AMM  O2    .  O   0  33.830  42.805  -6.339  1  5 
+AMM  CH2   .  C   0  35.128  41.465  -4.202  1  6 
+AMM  CE    .  C   0  36.407  42.019  -3.549  1  7 
+AMM  C     .  C   0  37.707  41.252  -3.833  1  8 
+AMM  O     .  O   0  38.874  41.775  -3.845  1  9 
+AMM  CB    .  C   0  36.208  41.886  -2.060  1  10
+AMM  CG    .  C   0  37.379  42.479  -1.218  1  11
+AMM  CD1   .  C   0  37.560  44.015  -1.375  1  12
+AMM  CD2   .  C   0  37.111  42.087  0.246   1  13
+AMM  HO1   .  H   0  ?       ?       ?       1  14
+AMM  HO2   .  H   0  ?       ?       ?       1  15
+AMM  1HA   .  H   0  ?       ?       ?       0  16
+AMM  2HA   .  H   0  ?       ?       ?       0  17
+AMM  1HN   .  H   0  ?       ?       ?       0  18
+AMM  2HN   .  H   0  ?       ?       ?       0  19
+AMM  1HH2  .  H   0  ?       ?       ?       0  20
+AMM  2HH2  .  H   0  ?       ?       ?       0  21
+AMM  HE    .  H   0  ?       ?       ?       1  22
+AMM  H     .  H   0  ?       ?       ?       1  23
+AMM  1HB   .  H   0  ?       ?       ?       0  24
+AMM  2HB   .  H   0  ?       ?       ?       0  25
+AMM  HG    .  H   0  ?       ?       ?       1  26
+AMM  1HD1  .  H   0  ?       ?       ?       0  27
+AMM  2HD1  .  H   0  ?       ?       ?       0  28
+AMM  3HD1  .  H   0  ?       ?       ?       0  29
+AMM  1HD2  .  H   0  ?       ?       ?       0  30
+AMM  2HD2  .  H   0  ?       ?       ?       0  31
+AMM  3HD2  .  H   0  ?       ?       ?       0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMM  N    CA    SING  1 
+AMM  N    1HN   SING  2 
+AMM  N    2HN   SING  3 
+AMM  CA   SI    SING  4 
+AMM  CA   1HA   SING  5 
+AMM  CA   2HA   SING  6 
+AMM  SI   O1    SING  7 
+AMM  SI   O2    SING  8 
+AMM  SI   CH2   SING  9 
+AMM  O1   HO1   SING  10
+AMM  O2   HO2   SING  11
+AMM  CH2  1HH2  SING  12
+AMM  CH2  2HH2  SING  13
+AMM  CH2  CE    SING  14
+AMM  CE   HE    SING  15
+AMM  CE   C     SING  16
+AMM  CE   CB    SING  17
+AMM  C    H     SING  18
+AMM  C    O     DOUB  19
+AMM  CB   1HB   SING  20
+AMM  CB   2HB   SING  21
+AMM  CB   CG    SING  22
+AMM  CG   HG    SING  23
+AMM  CG   CD1   SING  24
+AMM  CG   CD2   SING  25
+AMM  CD1  1HD1  SING  26
+AMM  CD1  2HD1  SING  27
+AMM  CD1  3HD1  SING  28
+AMM  CD2  1HD2  SING  29
+AMM  CD2  2HD2  SING  30
+AMM  CD2  3HD2  SING  31
+#

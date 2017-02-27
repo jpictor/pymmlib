@@ -1,0 +1,90 @@
+data_DG6
+#
+_chem_comp.id                   DG6
+_chem_comp.name                 2-DEOXY-GLUCITOL-6-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        246.153
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DG6  C1    .  C  0  ?  ?  ?  1  1 
+DG6  O1    .  O  0  ?  ?  ?  1  2 
+DG6  C2    .  C  0  ?  ?  ?  1  3 
+DG6  C3    .  C  0  ?  ?  ?  1  4 
+DG6  O3    .  O  0  ?  ?  ?  1  5 
+DG6  C4    .  C  0  ?  ?  ?  1  6 
+DG6  O4    .  O  0  ?  ?  ?  1  7 
+DG6  C5    .  C  0  ?  ?  ?  1  8 
+DG6  O5    .  O  0  ?  ?  ?  1  9 
+DG6  C6    .  C  0  ?  ?  ?  1  10
+DG6  O6    .  O  0  ?  ?  ?  1  11
+DG6  P     .  P  0  ?  ?  ?  1  12
+DG6  O1P   .  O  0  ?  ?  ?  1  13
+DG6  O2P   .  O  0  ?  ?  ?  1  14
+DG6  O3P   .  O  0  ?  ?  ?  1  15
+DG6  1HC1  .  H  0  ?  ?  ?  0  16
+DG6  2HC1  .  H  0  ?  ?  ?  0  17
+DG6  1HC2  .  H  0  ?  ?  ?  0  18
+DG6  2HC2  .  H  0  ?  ?  ?  0  19
+DG6  HC3   .  H  0  ?  ?  ?  1  20
+DG6  HC4   .  H  0  ?  ?  ?  1  21
+DG6  HC5   .  H  0  ?  ?  ?  1  22
+DG6  1HC6  .  H  0  ?  ?  ?  0  23
+DG6  2HC6  .  H  0  ?  ?  ?  0  24
+DG6  HO1   .  H  0  ?  ?  ?  1  25
+DG6  HO3   .  H  0  ?  ?  ?  1  26
+DG6  HO4   .  H  0  ?  ?  ?  1  27
+DG6  HO5   .  H  0  ?  ?  ?  1  28
+DG6  H1P   .  H  0  ?  ?  ?  1  29
+DG6  H2P   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DG6  C1   O1    SING  1 
+DG6  C1   C2    SING  2 
+DG6  C1   1HC1  SING  3 
+DG6  C1   2HC1  SING  4 
+DG6  O1   HO1   SING  5 
+DG6  C2   C3    SING  6 
+DG6  C2   1HC2  SING  7 
+DG6  C2   2HC2  SING  8 
+DG6  C3   O3    SING  9 
+DG6  C3   C4    SING  10
+DG6  C3   HC3   SING  11
+DG6  O3   HO3   SING  12
+DG6  C4   O4    SING  13
+DG6  C4   C5    SING  14
+DG6  C4   HC4   SING  15
+DG6  O4   HO4   SING  16
+DG6  C5   O5    SING  17
+DG6  C5   C6    SING  18
+DG6  C5   HC5   SING  19
+DG6  O5   HO5   SING  20
+DG6  C6   O6    SING  21
+DG6  C6   1HC6  SING  22
+DG6  C6   2HC6  SING  23
+DG6  O6   P     SING  24
+DG6  P    O1P   SING  25
+DG6  P    O2P   SING  26
+DG6  P    O3P   DOUB  27
+DG6  O1P  H1P   SING  28
+DG6  O2P  H2P   SING  29
+#

@@ -1,0 +1,74 @@
+data_GHP
+#
+_chem_comp.id                       GHP
+_chem_comp.name                     4-HYDROXYPHENYLGLYCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            167.164
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GHP  N    .  N  0  ?  ?  ?  1  1 
+GHP  CA   .  C  0  ?  ?  ?  1  2 
+GHP  C    .  C  0  ?  ?  ?  1  3 
+GHP  O    .  O  0  ?  ?  ?  1  4 
+GHP  OXT  .  O  0  ?  ?  ?  1  5 
+GHP  C1   .  C  0  ?  ?  ?  1  6 
+GHP  C2   .  C  0  ?  ?  ?  1  7 
+GHP  C3   .  C  0  ?  ?  ?  1  8 
+GHP  C4   .  C  0  ?  ?  ?  1  9 
+GHP  O4   .  O  0  ?  ?  ?  1  10
+GHP  C5   .  C  0  ?  ?  ?  1  11
+GHP  C6   .  C  0  ?  ?  ?  1  12
+GHP  1HN  .  H  0  ?  ?  ?  0  13
+GHP  2HN  .  H  0  ?  ?  ?  0  14
+GHP  HA   .  H  0  ?  ?  ?  1  15
+GHP  HXT  .  H  0  ?  ?  ?  1  16
+GHP  H2   .  H  0  ?  ?  ?  1  17
+GHP  H3   .  H  0  ?  ?  ?  1  18
+GHP  HO4  .  H  0  ?  ?  ?  1  19
+GHP  H5   .  H  0  ?  ?  ?  1  20
+GHP  H6   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GHP  N    CA   SING  1 
+GHP  N    1HN  SING  2 
+GHP  N    2HN  SING  3 
+GHP  CA   C    SING  4 
+GHP  CA   C1   SING  5 
+GHP  CA   HA   SING  6 
+GHP  C    O    DOUB  7 
+GHP  C    OXT  SING  8 
+GHP  OXT  HXT  SING  9 
+GHP  C1   C2   DOUB  10
+GHP  C1   C6   SING  11
+GHP  C2   C3   SING  12
+GHP  C2   H2   SING  13
+GHP  C3   C4   DOUB  14
+GHP  C3   H3   SING  15
+GHP  C4   C5   SING  16
+GHP  C4   O4   SING  17
+GHP  O4   HO4  SING  18
+GHP  C5   C6   DOUB  19
+GHP  C5   H5   SING  20
+GHP  C6   H6   SING  21
+#

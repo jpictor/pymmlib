@@ -1,0 +1,78 @@
+data_PLU
+#
+_chem_comp.id                   PLU
+_chem_comp.name                 'LEUCINE PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H14 N1 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.144
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLU  CA    .  C  0  ?  ?  ?  1  1 
+PLU  CB    .  C  0  ?  ?  ?  1  2 
+PLU  CG    .  C  0  ?  ?  ?  1  3 
+PLU  CD1   .  C  0  ?  ?  ?  1  4 
+PLU  CD2   .  C  0  ?  ?  ?  1  5 
+PLU  N     .  N  0  ?  ?  ?  1  6 
+PLU  P     .  P  0  ?  ?  ?  1  7 
+PLU  O1    .  O  0  ?  ?  ?  1  8 
+PLU  O2    .  O  0  ?  ?  ?  1  9 
+PLU  O3    .  O  0  ?  ?  ?  1  10
+PLU  HA    .  H  0  ?  ?  ?  1  11
+PLU  1HB   .  H  0  ?  ?  ?  0  12
+PLU  2HB   .  H  0  ?  ?  ?  0  13
+PLU  HG    .  H  0  ?  ?  ?  1  14
+PLU  1HD1  .  H  0  ?  ?  ?  0  15
+PLU  2HD1  .  H  0  ?  ?  ?  0  16
+PLU  3HD1  .  H  0  ?  ?  ?  0  17
+PLU  1HD2  .  H  0  ?  ?  ?  0  18
+PLU  2HD2  .  H  0  ?  ?  ?  0  19
+PLU  3HD2  .  H  0  ?  ?  ?  0  20
+PLU  1HN   .  H  0  ?  ?  ?  0  21
+PLU  2HN   .  H  0  ?  ?  ?  0  22
+PLU  HO2   .  H  0  ?  ?  ?  1  23
+PLU  HO3   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLU  CA   CB    SING  1 
+PLU  CA   N     SING  2 
+PLU  CA   P     SING  3 
+PLU  CA   HA    SING  4 
+PLU  CB   CG    SING  5 
+PLU  CB   1HB   SING  6 
+PLU  CB   2HB   SING  7 
+PLU  CG   CD1   SING  8 
+PLU  CG   CD2   SING  9 
+PLU  CG   HG    SING  10
+PLU  CD1  1HD1  SING  11
+PLU  CD1  2HD1  SING  12
+PLU  CD1  3HD1  SING  13
+PLU  CD2  1HD2  SING  14
+PLU  CD2  2HD2  SING  15
+PLU  CD2  3HD2  SING  16
+PLU  N    1HN   SING  17
+PLU  N    2HN   SING  18
+PLU  P    O1    DOUB  19
+PLU  P    O2    SING  20
+PLU  P    O3    SING  21
+PLU  O2   HO2   SING  22
+PLU  O3   HO3   SING  23
+#

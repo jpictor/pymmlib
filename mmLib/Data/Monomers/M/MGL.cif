@@ -1,0 +1,85 @@
+data_MGL
+#
+_chem_comp.id                   MGL
+_chem_comp.name                 O1-METHYL-GLUCOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGL  C1   .  C  0  ?  ?  ?  1  1 
+MGL  C2   .  C  0  ?  ?  ?  1  2 
+MGL  C3   .  C  0  ?  ?  ?  1  3 
+MGL  C4   .  C  0  ?  ?  ?  1  4 
+MGL  C5   .  C  0  ?  ?  ?  1  5 
+MGL  C6   .  C  0  ?  ?  ?  1  6 
+MGL  C7   .  C  0  ?  ?  ?  1  7 
+MGL  O1   .  O  0  ?  ?  ?  1  8 
+MGL  O2   .  O  0  ?  ?  ?  1  9 
+MGL  O3   .  O  0  ?  ?  ?  1  10
+MGL  O4   .  O  0  ?  ?  ?  1  11
+MGL  O5   .  O  0  ?  ?  ?  1  12
+MGL  O6   .  O  0  ?  ?  ?  1  13
+MGL  H1   .  H  0  ?  ?  ?  1  14
+MGL  H2   .  H  0  ?  ?  ?  1  15
+MGL  H3   .  H  0  ?  ?  ?  1  16
+MGL  H4   .  H  0  ?  ?  ?  1  17
+MGL  H5   .  H  0  ?  ?  ?  1  18
+MGL  1H6  .  H  0  ?  ?  ?  0  19
+MGL  2H6  .  H  0  ?  ?  ?  0  20
+MGL  1H7  .  H  0  ?  ?  ?  0  21
+MGL  2H7  .  H  0  ?  ?  ?  0  22
+MGL  3H7  .  H  0  ?  ?  ?  0  23
+MGL  HO2  .  H  0  ?  ?  ?  1  24
+MGL  HO3  .  H  0  ?  ?  ?  1  25
+MGL  HO4  .  H  0  ?  ?  ?  1  26
+MGL  HO6  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGL  C1  C2   SING  1 
+MGL  C1  O1   SING  2 
+MGL  C1  O5   SING  3 
+MGL  C1  H1   SING  4 
+MGL  C2  C3   SING  5 
+MGL  C2  O2   SING  6 
+MGL  C2  H2   SING  7 
+MGL  C3  C4   SING  8 
+MGL  C3  O3   SING  9 
+MGL  C3  H3   SING  10
+MGL  C4  C5   SING  11
+MGL  C4  O4   SING  12
+MGL  C4  H4   SING  13
+MGL  C5  C6   SING  14
+MGL  C5  O5   SING  15
+MGL  C5  H5   SING  16
+MGL  C6  O6   SING  17
+MGL  C6  1H6  SING  18
+MGL  C6  2H6  SING  19
+MGL  C7  O1   SING  20
+MGL  C7  1H7  SING  21
+MGL  C7  2H7  SING  22
+MGL  C7  3H7  SING  23
+MGL  O2  HO2  SING  24
+MGL  O3  HO3  SING  25
+MGL  O4  HO4  SING  26
+MGL  O6  HO6  SING  27
+#

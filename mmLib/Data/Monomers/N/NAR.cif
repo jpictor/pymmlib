@@ -1,0 +1,97 @@
+data_NAR
+#
+_chem_comp.id                   NAR
+_chem_comp.name                 NARINGENIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        272.257
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAR  C1    .  C  0  ?  ?  ?  1  1 
+NAR  C2    .  C  0  ?  ?  ?  1  2 
+NAR  C3    .  C  0  ?  ?  ?  1  3 
+NAR  C4    .  C  0  ?  ?  ?  1  4 
+NAR  C5    .  C  0  ?  ?  ?  1  5 
+NAR  C6    .  C  0  ?  ?  ?  1  6 
+NAR  C7    .  C  0  ?  ?  ?  1  7 
+NAR  C8    .  C  0  ?  ?  ?  1  8 
+NAR  C9    .  C  0  ?  ?  ?  1  9 
+NAR  O1    .  O  0  ?  ?  ?  1  10
+NAR  O2    .  O  0  ?  ?  ?  1  11
+NAR  C10   .  C  0  ?  ?  ?  1  12
+NAR  C11   .  C  0  ?  ?  ?  1  13
+NAR  C12   .  C  0  ?  ?  ?  1  14
+NAR  C13   .  C  0  ?  ?  ?  1  15
+NAR  C14   .  C  0  ?  ?  ?  1  16
+NAR  C15   .  C  0  ?  ?  ?  1  17
+NAR  O3    .  O  0  ?  ?  ?  1  18
+NAR  O4    .  O  0  ?  ?  ?  1  19
+NAR  O5    .  O  0  ?  ?  ?  1  20
+NAR  HO3   .  H  0  ?  ?  ?  1  21
+NAR  1H14  .  H  0  ?  ?  ?  0  22
+NAR  1H15  .  H  0  ?  ?  ?  0  23
+NAR  1H12  .  H  0  ?  ?  ?  0  24
+NAR  1H11  .  H  0  ?  ?  ?  0  25
+NAR  H9    .  H  0  ?  ?  ?  1  26
+NAR  1H8   .  H  0  ?  ?  ?  0  27
+NAR  2H8   .  H  0  ?  ?  ?  0  28
+NAR  1H1   .  H  0  ?  ?  ?  0  29
+NAR  1H3   .  H  0  ?  ?  ?  0  30
+NAR  1H5   .  H  0  ?  ?  ?  0  31
+NAR  1H4   .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAR  C1   C2    DOUB  1 
+NAR  C1   C6    SING  2 
+NAR  C1   1H1   SING  3 
+NAR  C2   C3    SING  4 
+NAR  C2   O4    SING  5 
+NAR  C3   C4    DOUB  6 
+NAR  C3   1H3   SING  7 
+NAR  C4   C5    SING  8 
+NAR  C4   O5    SING  9 
+NAR  C5   C6    DOUB  10
+NAR  C5   C7    SING  11
+NAR  C6   O1    SING  12
+NAR  C7   C8    SING  13
+NAR  C7   O2    DOUB  14
+NAR  C8   C9    SING  15
+NAR  C8   1H8   SING  16
+NAR  C8   2H8   SING  17
+NAR  C9   O1    SING  18
+NAR  C9   C10   SING  19
+NAR  C9   H9    SING  20
+NAR  C10  C11   SING  21
+NAR  C10  C15   DOUB  22
+NAR  C11  C12   DOUB  23
+NAR  C11  1H11  SING  24
+NAR  C12  C13   SING  25
+NAR  C12  1H12  SING  26
+NAR  C13  C14   DOUB  27
+NAR  C13  O3    SING  28
+NAR  C14  C15   SING  29
+NAR  C14  1H14  SING  30
+NAR  C15  1H15  SING  31
+NAR  O3   HO3   SING  32
+NAR  O4   1H4   SING  33
+NAR  O5   1H5   SING  34
+#

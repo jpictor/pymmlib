@@ -1,0 +1,64 @@
+data_LNK
+#
+_chem_comp.id                   LNK
+_chem_comp.name                 PENTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        72.150
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LNK  C1   .  C  0  ?  ?  ?  1  1 
+LNK  C2   .  C  0  ?  ?  ?  1  2 
+LNK  C3   .  C  0  ?  ?  ?  1  3 
+LNK  C4   .  C  0  ?  ?  ?  1  4 
+LNK  C5   .  C  0  ?  ?  ?  1  5 
+LNK  H11  .  H  0  ?  ?  ?  1  6 
+LNK  H12  .  H  0  ?  ?  ?  1  7 
+LNK  H21  .  H  0  ?  ?  ?  1  8 
+LNK  H22  .  H  0  ?  ?  ?  1  9 
+LNK  H31  .  H  0  ?  ?  ?  1  10
+LNK  H32  .  H  0  ?  ?  ?  1  11
+LNK  H41  .  H  0  ?  ?  ?  1  12
+LNK  H42  .  H  0  ?  ?  ?  1  13
+LNK  H51  .  H  0  ?  ?  ?  1  14
+LNK  H52  .  H  0  ?  ?  ?  1  15
+LNK  H13  .  H  0  ?  ?  ?  1  16
+LNK  H23  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LNK  C1  C2   SING  1 
+LNK  C1  H11  SING  2 
+LNK  C1  H12  SING  3 
+LNK  C1  H13  SING  4 
+LNK  C2  C3   SING  5 
+LNK  C2  H21  SING  6 
+LNK  C2  H22  SING  7 
+LNK  C3  C4   SING  8 
+LNK  C3  H31  SING  9 
+LNK  C3  H32  SING  10
+LNK  C4  C5   SING  11
+LNK  C4  H41  SING  12
+LNK  C4  H42  SING  13
+LNK  C5  H51  SING  14
+LNK  C5  H52  SING  15
+LNK  C5  H23  SING  16
+#

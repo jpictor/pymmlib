@@ -1,0 +1,153 @@
+data_RIA
+#
+_chem_comp.id                       RIA
+_chem_comp.name                     2'-O-[(5'-PHOSPHO)RIBOSYL]ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C15 H23 N5 O14 P2'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            559.319
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RIA  P     .  P  0  ?  ?  ?  1  1 
+RIA  O1P   .  O  0  ?  ?  ?  1  2 
+RIA  O2P   .  O  0  ?  ?  ?  1  3 
+RIA  O3P   .  O  0  ?  ?  ?  1  4 
+RIA  O5*   .  O  0  ?  ?  ?  1  5 
+RIA  C5*   .  C  0  ?  ?  ?  1  6 
+RIA  C4*   .  C  0  ?  ?  ?  1  7 
+RIA  O4*   .  O  0  ?  ?  ?  1  8 
+RIA  C3*   .  C  0  ?  ?  ?  1  9 
+RIA  O3*   .  O  0  ?  ?  ?  1  10
+RIA  C2*   .  C  0  ?  ?  ?  1  11
+RIA  O2*   .  O  0  ?  ?  ?  1  12
+RIA  C1*   .  C  0  ?  ?  ?  1  13
+RIA  N9    .  N  0  ?  ?  ?  1  14
+RIA  C8    .  C  0  ?  ?  ?  1  15
+RIA  N7    .  N  0  ?  ?  ?  1  16
+RIA  C5    .  C  0  ?  ?  ?  1  17
+RIA  C6    .  C  0  ?  ?  ?  1  18
+RIA  N6    .  N  0  ?  ?  ?  1  19
+RIA  N1    .  N  0  ?  ?  ?  1  20
+RIA  C2    .  C  0  ?  ?  ?  1  21
+RIA  N3    .  N  0  ?  ?  ?  1  22
+RIA  C4    .  C  0  ?  ?  ?  1  23
+RIA  C1'   .  C  0  ?  ?  ?  1  24
+RIA  O1'   .  O  0  ?  ?  ?  1  25
+RIA  C2'   .  C  0  ?  ?  ?  1  26
+RIA  O2'   .  O  0  ?  ?  ?  1  27
+RIA  C3'   .  C  0  ?  ?  ?  1  28
+RIA  O3'   .  O  0  ?  ?  ?  1  29
+RIA  C4'   .  C  0  ?  ?  ?  1  30
+RIA  C5'   .  C  0  ?  ?  ?  1  31
+RIA  O5'   .  O  0  ?  ?  ?  1  32
+RIA  P'    .  P  0  ?  ?  ?  1  33
+RIA  O1P'  .  O  0  ?  ?  ?  0  34
+RIA  O2P'  .  O  0  ?  ?  ?  0  35
+RIA  O3P'  .  O  0  ?  ?  ?  0  36
+RIA  2HOP  .  H  0  ?  ?  ?  0  37
+RIA  3HOP  .  H  0  ?  ?  ?  0  38
+RIA  1H5*  .  H  0  ?  ?  ?  0  39
+RIA  2H5*  .  H  0  ?  ?  ?  0  40
+RIA  H4*   .  H  0  ?  ?  ?  1  41
+RIA  H3*   .  H  0  ?  ?  ?  1  42
+RIA  *HO3  .  H  0  ?  ?  ?  0  43
+RIA  H2*   .  H  0  ?  ?  ?  1  44
+RIA  H1*   .  H  0  ?  ?  ?  1  45
+RIA  H8    .  H  0  ?  ?  ?  1  46
+RIA  H2    .  H  0  ?  ?  ?  1  47
+RIA  1HN6  .  H  0  ?  ?  ?  0  48
+RIA  2HN6  .  H  0  ?  ?  ?  0  49
+RIA  H1'   .  H  0  ?  ?  ?  1  50
+RIA  H2'   .  H  0  ?  ?  ?  1  51
+RIA  'HO2  .  H  0  ?  ?  ?  0  52
+RIA  H3'   .  H  0  ?  ?  ?  1  53
+RIA  'HO3  .  H  0  ?  ?  ?  0  54
+RIA  H4'   .  H  0  ?  ?  ?  1  55
+RIA  1H5'  .  H  0  ?  ?  ?  0  56
+RIA  2H5'  .  H  0  ?  ?  ?  0  57
+RIA  2HO'  .  H  0  ?  ?  ?  0  58
+RIA  3HO'  .  H  0  ?  ?  ?  0  59
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RIA  P     O1P   DOUB  1 
+RIA  P     O2P   SING  2 
+RIA  P     O3P   SING  3 
+RIA  P     O5*   SING  4 
+RIA  O2P   2HOP  SING  5 
+RIA  O3P   3HOP  SING  6 
+RIA  O5*   C5*   SING  7 
+RIA  C5*   C4*   SING  8 
+RIA  C5*   1H5*  SING  9 
+RIA  C5*   2H5*  SING  10
+RIA  C4*   O4*   SING  11
+RIA  C4*   C3*   SING  12
+RIA  C4*   H4*   SING  13
+RIA  O4*   C1*   SING  14
+RIA  C3*   O3*   SING  15
+RIA  C3*   C2*   SING  16
+RIA  C3*   H3*   SING  17
+RIA  O3*   *HO3  SING  18
+RIA  C2*   O2*   SING  19
+RIA  C2*   C1*   SING  20
+RIA  C2*   H2*   SING  21
+RIA  O2*   C1'   SING  22
+RIA  C1*   N9    SING  23
+RIA  C1*   H1*   SING  24
+RIA  N9    C8    SING  25
+RIA  N9    C4    SING  26
+RIA  C8    N7    DOUB  27
+RIA  C8    H8    SING  28
+RIA  N7    C5    SING  29
+RIA  C5    C6    SING  30
+RIA  C5    C4    DOUB  31
+RIA  C6    N6    SING  32
+RIA  C6    N1    DOUB  33
+RIA  N6    1HN6  SING  34
+RIA  N6    2HN6  SING  35
+RIA  N1    C2    SING  36
+RIA  C2    N3    DOUB  37
+RIA  C2    H2    SING  38
+RIA  N3    C4    SING  39
+RIA  C1'   C2'   SING  40
+RIA  C1'   O1'   SING  41
+RIA  C1'   H1'   SING  42
+RIA  O1'   C4'   SING  43
+RIA  C2'   C3'   SING  44
+RIA  C2'   O2'   SING  45
+RIA  C2'   H2'   SING  46
+RIA  O2'   'HO2  SING  47
+RIA  C3'   C4'   SING  48
+RIA  C3'   O3'   SING  49
+RIA  C3'   H3'   SING  50
+RIA  O3'   'HO3  SING  51
+RIA  C4'   C5'   SING  52
+RIA  C4'   H4'   SING  53
+RIA  C5'   O5'   SING  54
+RIA  C5'   1H5'  SING  55
+RIA  C5'   2H5'  SING  56
+RIA  O5'   P'    SING  57
+RIA  P'    O1P'  DOUB  58
+RIA  P'    O2P'  SING  59
+RIA  P'    O3P'  SING  60
+RIA  O2P'  2HO'  SING  61
+RIA  O3P'  3HO'  SING  62
+#

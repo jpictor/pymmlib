@@ -1,0 +1,125 @@
+data_G2P
+#
+_chem_comp.id                   G2P
+_chem_comp.name                 'PHOSPHOMETHYLPHOSPHONIC ACID GUANYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N5 O13 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        517.179
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G2P  PG    .  P  0  4.755   36.871  1.293    1  1 
+G2P  O1G   .  O  0  4.715   37.452  2.633    1  2 
+G2P  O2G   .  O  0  3.922   37.646  .382     1  3 
+G2P  O3G   .  O  0  4.077   35.479  1.293    1  4 
+G2P  O3B   .  O  0  6.326   36.708  .845     1  5 
+G2P  PB    .  P  0  6.923   36.15   -.599    1  6 
+G2P  O1B   .  O  0  8.123   35.342  -.364    1  7 
+G2P  O2B   .  O  0  6.021   35.475  -1.495   1  8 
+G2P  C3A   .  C  0  7.527   37.631  -1.37    1  9 
+G2P  PA    .  P  0  7.431   37.652  -3.159   1  10
+G2P  O1A   .  O  0  7.741   36.355  -3.793   1  11
+G2P  O2A   .  O  0  6.256   38.366  -3.671   1  12
+G2P  O5*   .  O  0  8.765   38.486  -3.322   1  13
+G2P  C5*   .  C  0  8.993   39.776  -2.831   1  14
+G2P  C4*   .  C  0  10.373  40.252  -3.352   1  15
+G2P  O4*   .  O  0  10.816  39.438  -4.501   1  16
+G2P  C3*   .  C  0  10.266  41.711  -3.808   1  17
+G2P  O3*   .  O  0  10.868  42.521  -2.79    1  18
+G2P  C2*   .  C  0  10.965  41.727  -5.174   1  19
+G2P  O2*   .  O  0  12.29   42.2    -5.087   1  20
+G2P  C1*   .  C  0  10.976  40.282  -5.676   1  21
+G2P  N9    .  N  0  9.855   40.015  -6.637   1  22
+G2P  C8    .  C  0  8.483   40.172  -6.463   1  23
+G2P  N7    .  N  0  7.748   39.85   -7.475   1  24
+G2P  C5    .  C  0  8.671   39.434  -8.445   1  25
+G2P  C6    .  C  0  8.478   38.945  -9.808   1  26
+G2P  O6    .  O  0  7.417   38.784  -10.437  1  27
+G2P  N1    .  N  0  9.699   38.635  -10.437  1  28
+G2P  C2    .  C  0  10.96   38.762  -9.86    1  29
+G2P  N2    .  N  0  12.03   38.42   -10.602  1  30
+G2P  N3    .  N  0  11.135  39.212  -8.595   1  31
+G2P  C4    .  C  0  9.974   39.531  -7.941   1  32
+G2P  1H3A  .  H  0  8.572   37.837  -1.039   0  33
+G2P  2H3A  .  H  0  7.008   38.523  -.947    0  34
+G2P  1H5*  .  H  0  8.908   39.836  -1.721   0  35
+G2P  2H5*  .  H  0  8.17    40.485  -3.083   0  36
+G2P  H4*   .  H  0  11.125  40.175  -2.532   1  37
+G2P  H3*   .  H  0  9.194   41.991  -3.929   1  38
+G2P  H1*   .  H  0  11.953  40.062  -6.167   1  39
+G2P  HA    .  H  0  10.802  43.425  -3.073   1  40
+G2P  H2*   .  H  0  10.386  42.364  -5.883   1  41
+G2P  HB    .  H  0  12.723  42.21   -5.933   1  42
+G2P  H8    .  H  0  8.051   40.548  -5.52    1  43
+G2P  H1    .  H  0  9.656   38.289  -11.395  1  44
+G2P  1H2N  .  H  0  12.954  38.513  -10.179  0  45
+G2P  2H2N  .  H  0  11.898  38.081  -11.555  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G2P  PG   O1G   SING  1 
+G2P  PG   O2G   DOUB  2 
+G2P  PG   O3G   SING  3 
+G2P  PG   O3B   SING  4 
+G2P  O3B  PB    SING  5 
+G2P  PB   O1B   SING  6 
+G2P  PB   O2B   DOUB  7 
+G2P  PB   C3A   SING  8 
+G2P  C3A  PA    SING  9 
+G2P  C3A  1H3A  SING  10
+G2P  C3A  2H3A  SING  11
+G2P  PA   O1A   SING  12
+G2P  PA   O2A   DOUB  13
+G2P  PA   O5*   SING  14
+G2P  O5*  C5*   SING  15
+G2P  C5*  C4*   SING  16
+G2P  C5*  1H5*  SING  17
+G2P  C5*  2H5*  SING  18
+G2P  C4*  O4*   SING  19
+G2P  C4*  C3*   SING  20
+G2P  C4*  H4*   SING  21
+G2P  O4*  C1*   SING  22
+G2P  C3*  O3*   SING  23
+G2P  C3*  C2*   SING  24
+G2P  C3*  H3*   SING  25
+G2P  O3*  HA    SING  26
+G2P  C2*  O2*   SING  27
+G2P  C2*  C1*   SING  28
+G2P  C2*  H2*   SING  29
+G2P  O2*  HB    SING  30
+G2P  C1*  N9    SING  31
+G2P  C1*  H1*   SING  32
+G2P  N9   C8    SING  33
+G2P  N9   C4    SING  34
+G2P  C8   N7    DOUB  35
+G2P  C8   H8    SING  36
+G2P  N7   C5    SING  37
+G2P  C5   C6    SING  38
+G2P  C5   C4    DOUB  39
+G2P  C6   O6    DOUB  40
+G2P  C6   N1    SING  41
+G2P  N1   C2    SING  42
+G2P  N1   H1    SING  43
+G2P  C2   N2    SING  44
+G2P  C2   N3    DOUB  45
+G2P  N2   1H2N  SING  46
+G2P  N2   2H2N  SING  47
+G2P  N3   C4    SING  48
+#

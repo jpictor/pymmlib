@@ -1,0 +1,73 @@
+data_NYL
+#
+_chem_comp.id                   NYL
+_chem_comp.name                 N-ALLYL-ANILINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        133.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NYL  C1    .  C  0  27.406  7.085  3.796   1  1 
+NYL  C2    .  C  0  26.796  5.972  3.208   1  2 
+NYL  C3    .  C  0  27.241  7.300  5.157   1  3 
+NYL  N4    .  N  0  28.188  7.998  3.053   1  4 
+NYL  C5    .  C  0  26.026  5.092  3.972   1  5 
+NYL  C6    .  C  0  26.477  6.416  5.914   1  6 
+NYL  C7    .  C  0  25.864  5.307  5.337   1  7 
+NYL  C13   .  C  0  28.419  7.734  1.630   1  8 
+NYL  C15   .  C  0  27.906  8.868  0.751   1  9 
+NYL  C16   .  C  0  27.205  8.625  -0.344  1  10
+NYL  HC5   .  H  0  ?       ?      ?       1  11
+NYL  HC2   .  H  0  ?       ?      ?       1  12
+NYL  HC7   .  H  0  ?       ?      ?       1  13
+NYL  HC6   .  H  0  ?       ?      ?       1  14
+NYL  HC3   .  H  0  ?       ?      ?       1  15
+NYL  HN4   .  H  0  ?       ?      ?       1  16
+NYL  1H13  .  H  0  ?       ?      ?       0  17
+NYL  2H13  .  H  0  ?       ?      ?       0  18
+NYL  H15   .  H  0  ?       ?      ?       1  19
+NYL  1H16  .  H  0  ?       ?      ?       0  20
+NYL  2H16  .  H  0  ?       ?      ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NYL  C1   C2    AROM  1 
+NYL  C1   C3    AROM  2 
+NYL  C1   N4    SING  3 
+NYL  C2   C5    AROM  4 
+NYL  C2   HC2   SING  5 
+NYL  C3   C6    AROM  6 
+NYL  C3   HC3   SING  7 
+NYL  N4   C13   SING  8 
+NYL  N4   HN4   SING  9 
+NYL  C5   C7    AROM  10
+NYL  C5   HC5   SING  11
+NYL  C6   C7    AROM  12
+NYL  C6   HC6   SING  13
+NYL  C7   HC7   SING  14
+NYL  C13  C15   SING  15
+NYL  C13  1H13  SING  16
+NYL  C13  2H13  SING  17
+NYL  C15  C16   DOUB  18
+NYL  C15  H15   SING  19
+NYL  C16  1H16  SING  20
+NYL  C16  2H16  SING  21
+#

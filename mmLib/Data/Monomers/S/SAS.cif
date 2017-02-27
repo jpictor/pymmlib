@@ -1,0 +1,118 @@
+data_SAS
+#
+_chem_comp.id                   SAS
+_chem_comp.name                 '2-HYDROXY-(5-([4-(2-PYRIDINYLAMINO)SULFONYL]PHENYL)AZO)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H14 N4 O5 S1'
+_chem_comp.pdbx_synonyms        SULFASALAZINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        398.392
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SAS  C1   .  C  0  ?  ?  ?  1  1 
+SAS  C2   .  C  0  ?  ?  ?  1  2 
+SAS  C3   .  C  0  ?  ?  ?  1  3 
+SAS  C4   .  C  0  ?  ?  ?  1  4 
+SAS  C5   .  C  0  ?  ?  ?  1  5 
+SAS  N1   .  N  0  ?  ?  ?  1  6 
+SAS  N2   .  N  0  ?  ?  ?  1  7 
+SAS  S1   .  S  0  ?  ?  ?  1  8 
+SAS  O1   .  O  0  ?  ?  ?  1  9 
+SAS  O2   .  O  0  ?  ?  ?  1  10
+SAS  C6   .  C  0  ?  ?  ?  1  11
+SAS  C7   .  C  0  ?  ?  ?  1  12
+SAS  C8   .  C  0  ?  ?  ?  1  13
+SAS  C9   .  C  0  ?  ?  ?  1  14
+SAS  C10  .  C  0  ?  ?  ?  1  15
+SAS  C11  .  C  0  ?  ?  ?  1  16
+SAS  N3   .  N  0  ?  ?  ?  1  17
+SAS  N4   .  N  0  ?  ?  ?  1  18
+SAS  C12  .  C  0  ?  ?  ?  1  19
+SAS  C13  .  C  0  ?  ?  ?  1  20
+SAS  C14  .  C  0  ?  ?  ?  1  21
+SAS  C15  .  C  0  ?  ?  ?  1  22
+SAS  C16  .  C  0  ?  ?  ?  1  23
+SAS  C17  .  C  0  ?  ?  ?  1  24
+SAS  C18  .  C  0  ?  ?  ?  1  25
+SAS  O3   .  O  0  ?  ?  ?  1  26
+SAS  O4   .  O  0  ?  ?  ?  1  27
+SAS  O5   .  O  0  ?  ?  ?  1  28
+SAS  H2   .  H  0  ?  ?  ?  1  29
+SAS  H3   .  H  0  ?  ?  ?  1  30
+SAS  H4   .  H  0  ?  ?  ?  1  31
+SAS  H5   .  H  0  ?  ?  ?  1  32
+SAS  HN2  .  H  0  ?  ?  ?  1  33
+SAS  H7   .  H  0  ?  ?  ?  1  34
+SAS  H8   .  H  0  ?  ?  ?  1  35
+SAS  H10  .  H  0  ?  ?  ?  1  36
+SAS  H11  .  H  0  ?  ?  ?  1  37
+SAS  H13  .  H  0  ?  ?  ?  1  38
+SAS  H16  .  H  0  ?  ?  ?  1  39
+SAS  H17  .  H  0  ?  ?  ?  1  40
+SAS  HO3  .  H  0  ?  ?  ?  1  41
+SAS  HO5  .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SAS  C1   C2   SING  1 
+SAS  C1   N1   DOUB  2 
+SAS  C1   N2   SING  3 
+SAS  C2   C3   DOUB  4 
+SAS  C2   H2   SING  5 
+SAS  C3   C4   SING  6 
+SAS  C3   H3   SING  7 
+SAS  C4   C5   DOUB  8 
+SAS  C4   H4   SING  9 
+SAS  C5   N1   SING  10
+SAS  C5   H5   SING  11
+SAS  N2   S1   SING  12
+SAS  N2   HN2  SING  13
+SAS  S1   O1   DOUB  14
+SAS  S1   O2   DOUB  15
+SAS  S1   C6   SING  16
+SAS  C6   C7   DOUB  17
+SAS  C6   C11  SING  18
+SAS  C7   C8   SING  19
+SAS  C7   H7   SING  20
+SAS  C8   C9   DOUB  21
+SAS  C8   H8   SING  22
+SAS  C9   C10  SING  23
+SAS  C9   N3   SING  24
+SAS  C10  C11  DOUB  25
+SAS  C10  H10  SING  26
+SAS  C11  H11  SING  27
+SAS  N3   N4   DOUB  28
+SAS  N4   C12  SING  29
+SAS  C12  C13  SING  30
+SAS  C12  C17  DOUB  31
+SAS  C13  C14  DOUB  32
+SAS  C13  H13  SING  33
+SAS  C14  C15  SING  34
+SAS  C14  C18  SING  35
+SAS  C15  C16  DOUB  36
+SAS  C15  O3   SING  37
+SAS  C16  C17  SING  38
+SAS  C16  H16  SING  39
+SAS  C17  H17  SING  40
+SAS  C18  O4   DOUB  41
+SAS  C18  O5   SING  42
+SAS  O3   HO3  SING  43
+SAS  O5   HO5  SING  44
+#

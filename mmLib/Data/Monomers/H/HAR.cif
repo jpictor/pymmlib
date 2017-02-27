@@ -1,0 +1,85 @@
+data_HAR
+#
+_chem_comp.id                       HAR
+_chem_comp.name                     N-OMEGA-HYDROXY-L-ARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H14 N4 O3'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            190.202
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HAR  N    .  N  0  ?  ?  ?  1  1 
+HAR  CA   .  C  0  ?  ?  ?  1  2 
+HAR  C    .  C  0  ?  ?  ?  1  3 
+HAR  O    .  O  0  ?  ?  ?  1  4 
+HAR  CB   .  C  0  ?  ?  ?  1  5 
+HAR  CG   .  C  0  ?  ?  ?  1  6 
+HAR  CD   .  C  0  ?  ?  ?  1  7 
+HAR  NE   .  N  0  ?  ?  ?  1  8 
+HAR  CZ   .  C  0  ?  ?  ?  1  9 
+HAR  NH1  .  N  0  ?  ?  ?  1  10
+HAR  NH2  .  N  0  ?  ?  ?  1  11
+HAR  OH1  .  O  0  ?  ?  ?  1  12
+HAR  OXT  .  O  0  ?  ?  ?  1  13
+HAR  H    .  H  0  ?  ?  ?  1  14
+HAR  HN2  .  H  0  ?  ?  ?  1  15
+HAR  HA   .  H  0  ?  ?  ?  1  16
+HAR  1HB  .  H  0  ?  ?  ?  0  17
+HAR  2HB  .  H  0  ?  ?  ?  0  18
+HAR  1HG  .  H  0  ?  ?  ?  0  19
+HAR  2HG  .  H  0  ?  ?  ?  0  20
+HAR  1HD  .  H  0  ?  ?  ?  0  21
+HAR  2HD  .  H  0  ?  ?  ?  0  22
+HAR  HE   .  H  0  ?  ?  ?  1  23
+HAR  HH1  .  H  0  ?  ?  ?  1  24
+HAR  HH2  .  H  0  ?  ?  ?  1  25
+HAR  HO1  .  H  0  ?  ?  ?  1  26
+HAR  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HAR  N    CA   SING  1 
+HAR  N    H    SING  2 
+HAR  N    HN2  SING  3 
+HAR  CA   C    SING  4 
+HAR  CA   CB   SING  5 
+HAR  CA   HA   SING  6 
+HAR  C    O    DOUB  7 
+HAR  C    OXT  SING  8 
+HAR  CB   CG   SING  9 
+HAR  CB   1HB  SING  10
+HAR  CB   2HB  SING  11
+HAR  CG   CD   SING  12
+HAR  CG   1HG  SING  13
+HAR  CG   2HG  SING  14
+HAR  CD   NE   SING  15
+HAR  CD   1HD  SING  16
+HAR  CD   2HD  SING  17
+HAR  NE   CZ   SING  18
+HAR  NE   HE   SING  19
+HAR  CZ   NH1  SING  20
+HAR  CZ   NH2  DOUB  21
+HAR  NH1  OH1  SING  22
+HAR  NH1  HH1  SING  23
+HAR  NH2  HH2  SING  24
+HAR  OH1  HO1  SING  25
+HAR  OXT  HXT  SING  26
+#

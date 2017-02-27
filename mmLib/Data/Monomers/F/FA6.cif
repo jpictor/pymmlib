@@ -1,0 +1,81 @@
+data_FA6
+#
+_chem_comp.id                   FA6
+_chem_comp.name                 '3-HYDROXYIMINO QUINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        205.167
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FA6  O2    .  O  0  29.415  68.071  20.351  1  1 
+FA6  C7    .  C  0  29.991  69.178  20.165  1  2 
+FA6  O1    .  O  0  31.243  69.312  20.267  1  3 
+FA6  C1    .  C  0  29.16   70.39   19.858  1  4 
+FA6  O3    .  O  0  27.841  70.317  20.418  1  5 
+FA6  C2    .  C  0  28.932  70.424  18.355  1  6 
+FA6  C3    .  C  0  28.272  71.734  17.952  1  7 
+FA6  N1    .  N  0  27.385  71.689  16.955  1  8 
+FA6  O6    .  O  0  27.063  70.43   16.372  1  9 
+FA6  C4    .  C  0  28.597  72.981  18.52   1  10
+FA6  O4    .  O  0  27.906  74.117  18.116  1  11
+FA6  C5    .  C  0  29.194  72.996  19.76   1  12
+FA6  O5    .  O  0  29.577  74.168  20.378  1  13
+FA6  C6    .  C  0  29.83   71.704  20.215  1  14
+FA6  H1    .  H  0  ?       ?       ?       1  15
+FA6  H3    .  H  0  27.315  71.084  20.224  1  16
+FA6  1H2C  .  H  0  28.352  69.54   18.002  0  17
+FA6  2H2C  .  H  0  29.874  70.24   17.787  0  18
+FA6  1H6C  .  H  0  30.886  71.678  19.858  0  19
+FA6  2H6C  .  H  0  29.976  71.745  21.32   0  20
+FA6  H6    .  H  0  26.432  70.398  15.663  1  21
+FA6  H4    .  H  0  28.125  74.958  18.499  1  22
+FA6  H5    .  H  0  29.177  74.981  20.092  1  23
+FA6  H4C   .  H  0  ?       ?       ?       1  24
+FA6  H5C   .  H  0  ?       ?       ?       1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FA6  O2  C7    DOUB  1 
+FA6  C7  O1    SING  2 
+FA6  C7  C1    SING  3 
+FA6  O1  H1    SING  4 
+FA6  C1  O3    SING  5 
+FA6  C1  C2    SING  6 
+FA6  C1  C6    SING  7 
+FA6  O3  H3    SING  8 
+FA6  C2  C3    SING  9 
+FA6  C2  1H2C  SING  10
+FA6  C2  2H2C  SING  11
+FA6  C3  N1    DOUB  12
+FA6  C3  C4    SING  13
+FA6  N1  O6    SING  14
+FA6  O6  H6    SING  15
+FA6  C4  O4    SING  16
+FA6  C4  C5    SING  17
+FA6  C4  H4C   SING  18
+FA6  O4  H4    SING  19
+FA6  C5  O5    SING  20
+FA6  C5  C6    SING  21
+FA6  C5  H5C   SING  22
+FA6  O5  H5    SING  23
+FA6  C6  1H6C  SING  24
+FA6  C6  2H6C  SING  25
+#

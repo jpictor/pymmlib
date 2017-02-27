@@ -1,0 +1,77 @@
+data_PRY
+#
+_chem_comp.id                   PRY
+_chem_comp.name                 2-PROPYL-ANILINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PRY  C1    .  C  0  27.117  6.782  3.353  1  1 
+PRY  C2    .  C  0  27.512  7.288  4.585  1  2 
+PRY  C3    .  C  0  26.192  5.751  3.273  1  3 
+PRY  C4    .  C  0  27.721  7.365  2.088  1  4 
+PRY  C5    .  C  0  26.938  6.744  5.748  1  5 
+PRY  N6    .  N  0  28.463  8.373  4.567  1  6 
+PRY  C7    .  C  0  25.658  5.176  4.433  1  7 
+PRY  C8    .  C  0  26.023  5.701  5.682  1  8 
+PRY  C9    .  C  0  26.993  8.664  1.677  1  9 
+PRY  C10   .  C  0  27.566  9.162  0.347  1  10
+PRY  HC5   .  H  0  ?       ?      ?      1  11
+PRY  HC8   .  H  0  ?       ?      ?      1  12
+PRY  HC7   .  H  0  ?       ?      ?      1  13
+PRY  HC3   .  H  0  ?       ?      ?      1  14
+PRY  1HC4  .  H  0  ?       ?      ?      0  15
+PRY  2HC4  .  H  0  ?       ?      ?      0  16
+PRY  1HC9  .  H  0  ?       ?      ?      0  17
+PRY  2HC9  .  H  0  ?       ?      ?      0  18
+PRY  1H10  .  H  0  ?       ?      ?      0  19
+PRY  2H10  .  H  0  ?       ?      ?      0  20
+PRY  3H10  .  H  0  ?       ?      ?      0  21
+PRY  1HN6  .  H  0  ?       ?      ?      0  22
+PRY  2HN6  .  H  0  ?       ?      ?      0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PRY  C1   C2    AROM  1 
+PRY  C1   C3    AROM  2 
+PRY  C1   C4    SING  3 
+PRY  C2   C5    AROM  4 
+PRY  C2   N6    SING  5 
+PRY  C3   C7    AROM  6 
+PRY  C3   HC3   SING  7 
+PRY  C4   C9    SING  8 
+PRY  C4   1HC4  SING  9 
+PRY  C4   2HC4  SING  10
+PRY  C5   C8    AROM  11
+PRY  C5   HC5   SING  12
+PRY  N6   1HN6  SING  13
+PRY  N6   2HN6  SING  14
+PRY  C7   C8    AROM  15
+PRY  C7   HC7   SING  16
+PRY  C8   HC8   SING  17
+PRY  C9   C10   SING  18
+PRY  C9   1HC9  SING  19
+PRY  C9   2HC9  SING  20
+PRY  C10  1H10  SING  21
+PRY  C10  2H10  SING  22
+PRY  C10  3H10  SING  23
+#

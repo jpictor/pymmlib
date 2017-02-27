@@ -1,0 +1,90 @@
+data_DSB
+#
+_chem_comp.id                   DSB
+_chem_comp.name                 '4,7-DIOXOSEBACIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.217
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DSB  C1    .  C  0  ?  ?  ?  1  1 
+DSB  O2    .  O  0  ?  ?  ?  1  2 
+DSB  C2    .  C  0  ?  ?  ?  1  3 
+DSB  C3    .  C  0  ?  ?  ?  1  4 
+DSB  C5    .  C  0  ?  ?  ?  1  5 
+DSB  O1    .  O  0  ?  ?  ?  1  6 
+DSB  C6    .  C  0  ?  ?  ?  1  7 
+DSB  C8    .  C  0  ?  ?  ?  1  8 
+DSB  C9    .  C  0  ?  ?  ?  1  9 
+DSB  C10   .  C  0  ?  ?  ?  1  10
+DSB  O11   .  O  0  ?  ?  ?  1  11
+DSB  O12   .  O  0  ?  ?  ?  1  12
+DSB  C7    .  C  0  ?  ?  ?  1  13
+DSB  C4    .  C  0  ?  ?  ?  1  14
+DSB  O4    .  O  0  ?  ?  ?  1  15
+DSB  O7    .  O  0  ?  ?  ?  1  16
+DSB  1H2   .  H  0  ?  ?  ?  0  17
+DSB  2H2   .  H  0  ?  ?  ?  0  18
+DSB  1H3   .  H  0  ?  ?  ?  0  19
+DSB  2H3   .  H  0  ?  ?  ?  0  20
+DSB  1H5   .  H  0  ?  ?  ?  0  21
+DSB  2H5   .  H  0  ?  ?  ?  0  22
+DSB  1H6   .  H  0  ?  ?  ?  0  23
+DSB  2H6   .  H  0  ?  ?  ?  0  24
+DSB  1H8   .  H  0  ?  ?  ?  0  25
+DSB  2H8   .  H  0  ?  ?  ?  0  26
+DSB  1H9   .  H  0  ?  ?  ?  0  27
+DSB  2H9   .  H  0  ?  ?  ?  0  28
+DSB  1H11  .  H  0  ?  ?  ?  0  29
+DSB  1H1   .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DSB  C1   O2    DOUB  1 
+DSB  C1   C2    SING  2 
+DSB  C1   O1    SING  3 
+DSB  C2   C3    SING  4 
+DSB  C2   1H2   SING  5 
+DSB  C2   2H2   SING  6 
+DSB  C3   C4    SING  7 
+DSB  C3   1H3   SING  8 
+DSB  C3   2H3   SING  9 
+DSB  C5   C6    SING  10
+DSB  C5   C4    SING  11
+DSB  C5   1H5   SING  12
+DSB  C5   2H5   SING  13
+DSB  O1   1H1   SING  14
+DSB  C6   C7    SING  15
+DSB  C6   1H6   SING  16
+DSB  C6   2H6   SING  17
+DSB  C8   C9    SING  18
+DSB  C8   C7    SING  19
+DSB  C8   1H8   SING  20
+DSB  C8   2H8   SING  21
+DSB  C9   C10   SING  22
+DSB  C9   1H9   SING  23
+DSB  C9   2H9   SING  24
+DSB  C10  O11   SING  25
+DSB  C10  O12   DOUB  26
+DSB  O11  1H11  SING  27
+DSB  C7   O7    DOUB  28
+DSB  C4   O4    DOUB  29
+#

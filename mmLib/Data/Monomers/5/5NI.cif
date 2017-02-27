@@ -1,0 +1,66 @@
+data_5NI
+#
+_chem_comp.id                   5NI
+_chem_comp.name                 5-NITROINDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.135
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5NI  C6    .  C  0   125.842  114.750  30.133  1  1 
+5NI  C7    .  C  0   125.100  115.913  29.859  1  2 
+5NI  C8    .  C  0   124.076  116.275  30.694  1  3 
+5NI  C9    .  C  0   123.741  115.476  31.855  1  4 
+5NI  C4    .  C  0   124.464  114.329  32.123  1  5 
+5NI  C5    .  C  0   125.512  113.976  31.261  1  6 
+5NI  N1    .  N  0   123.171  117.308  30.745  1  7 
+5NI  N2    .  N  0   122.350  117.204  31.798  1  8 
+5NI  C3    .  C  0   122.621  116.122  32.533  1  9 
+5NI  N10   .  N  1   126.309  112.776  31.538  1  10
+5NI  O11   .  O  -1  125.710  111.787  31.919  1  11
+5NI  O12   .  O  0   127.510  112.863  31.366  1  12
+5NI  1H3   .  H  0   ?        ?        ?       0  13
+5NI  1HN1  .  H  0   ?        ?        ?       0  14
+5NI  1H4   .  H  0   ?        ?        ?       0  15
+5NI  1H7   .  H  0   ?        ?        ?       0  16
+5NI  1H6   .  H  0   ?        ?        ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5NI  C6   C7    AROM  1 
+5NI  C6   C5    AROM  2 
+5NI  C6   1H6   SING  3 
+5NI  C7   C8    AROM  4 
+5NI  C7   1H7   SING  5 
+5NI  C8   C9    AROM  6 
+5NI  C8   N1    SING  7 
+5NI  C9   C4    AROM  8 
+5NI  C9   C3    SING  9 
+5NI  C4   C5    AROM  10
+5NI  C4   1H4   SING  11
+5NI  C5   N10   SING  12
+5NI  N1   N2    SING  13
+5NI  N1   1HN1  SING  14
+5NI  N2   C3    DOUB  15
+5NI  C3   1H3   SING  16
+5NI  N10  O11   SING  17
+5NI  N10  O12   DOUB  18
+#

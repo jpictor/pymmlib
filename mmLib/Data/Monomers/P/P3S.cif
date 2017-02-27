@@ -1,0 +1,86 @@
+data_P3S
+#
+_chem_comp.id                   P3S
+_chem_comp.name                 'L-METHIONINE-S-SULFOXIMINE PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 N2 O6 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P3S  O3A   .  O  0  -22.538  84.162  22.062  1  1 
+P3S  PA    .  P  0  -23.45   82.967  21.982  1  2 
+P3S  O1A   .  O  0  -22.931  81.826  21.149  1  3 
+P3S  O2A   .  O  0  -24.881  83.348  21.658  1  4 
+P3S  NE    .  N  0  -23.507  82.262  23.51   1  5 
+P3S  SD    .  S  0  -23.251  83.015  24.828  1  6 
+P3S  OE    .  O  0  -23.989  84.239  25.121  1  7 
+P3S  CE    .  C  0  -21.522  83.358  24.896  1  8 
+P3S  CG    .  C  0  -23.529  81.889  26.196  1  9 
+P3S  CB    .  C  0  -24.977  81.416  26.309  1  10
+P3S  CA    .  C  0  -25.206  80.541  27.54   1  11
+P3S  N     .  N  0  -24.328  79.383  27.484  1  12
+P3S  C     .  C  0  -26.631  80.052  27.598  1  13
+P3S  OT    .  O  0  -27.479  80.481  26.784  1  14
+P3S  O     .  O  0  -26.92   79.211  28.472  1  15
+P3S  1HEC  .  H  0  -21.337  83.903  25.851  0  16
+P3S  2HEC  .  H  0  -21.148  83.904  23.999  0  17
+P3S  3HEC  .  H  0  -20.889  82.447  24.781  0  18
+P3S  1HGC  .  H  0  -23.185  82.34   27.156  0  19
+P3S  2HGC  .  H  0  -22.833  81.02   26.14   0  20
+P3S  1HBC  .  H  0  -25.305  80.896  25.379  0  21
+P3S  2HBC  .  H  0  -25.685  82.277  26.29   0  22
+P3S  HA    .  H  0  -24.981  81.131  28.459  1  23
+P3S  1HN   .  H  0  -24.299  79.19   28.485  0  24
+P3S  2HN   .  H  0  -23.473  79.878  27.232  0  25
+P3S  HT    .  H  0  ?        ?       ?       1  26
+P3S  2HO   .  H  0  ?        ?       ?       0  27
+P3S  3HO   .  H  0  ?        ?       ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P3S  O3A  PA    SING  1 
+P3S  O3A  3HO   SING  2 
+P3S  PA   O1A   DOUB  3 
+P3S  PA   O2A   SING  4 
+P3S  PA   NE    SING  5 
+P3S  O2A  2HO   SING  6 
+P3S  NE   SD    DOUB  7 
+P3S  SD   OE    DOUB  8 
+P3S  SD   CE    SING  9 
+P3S  SD   CG    SING  10
+P3S  CE   1HEC  SING  11
+P3S  CE   2HEC  SING  12
+P3S  CE   3HEC  SING  13
+P3S  CG   CB    SING  14
+P3S  CG   1HGC  SING  15
+P3S  CG   2HGC  SING  16
+P3S  CB   CA    SING  17
+P3S  CB   1HBC  SING  18
+P3S  CB   2HBC  SING  19
+P3S  CA   N     SING  20
+P3S  CA   C     SING  21
+P3S  CA   HA    SING  22
+P3S  N    1HN   SING  23
+P3S  N    2HN   SING  24
+P3S  C    OT    SING  25
+P3S  C    O     DOUB  26
+P3S  OT   HT    SING  27
+#

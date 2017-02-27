@@ -1,0 +1,100 @@
+data_HDB
+#
+_chem_comp.id                   HDB
+_chem_comp.name                 (R)-1-(4-(4-(HYDROXYMETHYL)-1,3,2-DIOXABOROLAN-2-YL)BENZYL)GUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N3 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.076
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HDB  C01   .  C  0  9.701   71.977  81.750  1  1 
+HDB  C02   .  C  0  8.619   72.909  82.349  1  2 
+HDB  C03   .  C  0  8.399   72.886  83.753  1  3 
+HDB  C04   .  C  0  9.158   72.019  84.603  1  4 
+HDB  C05   .  C  0  10.151  71.165  84.025  1  5 
+HDB  C06   .  C  0  10.411  71.148  82.641  1  6 
+HDB  C07   .  C  0  10.002  71.954  80.269  1  7 
+HDB  B     .  B  0  8.956   71.985  86.102  1  8 
+HDB  N09   .  N  0  11.447  72.121  80.117  1  9 
+HDB  C10   .  C  0  12.131  71.852  78.900  1  10
+HDB  N11   .  N  0  13.407  72.003  78.814  1  11
+HDB  N12   .  N  0  11.430  71.411  77.770  1  12
+HDB  O13   .  O  0  7.905   72.812  86.613  1  13
+HDB  O14   .  O  0  8.720   70.648  86.570  1  14
+HDB  C15   .  C  0  7.059   71.975  87.366  1  15
+HDB  C16   .  C  0  7.936   70.789  87.737  1  16
+HDB  C17   .  C  0  6.499   72.698  88.615  1  17
+HDB  O18   .  O  0  6.358   74.082  88.395  1  18
+HDB  1H11  .  H  0  ?       ?       ?       0  19
+HDB  2H11  .  H  0  ?       ?       ?       0  20
+HDB  H12   .  H  0  ?       ?       ?       1  21
+HDB  H09   .  H  0  ?       ?       ?       1  22
+HDB  1H07  .  H  0  ?       ?       ?       0  23
+HDB  2H07  .  H  0  ?       ?       ?       0  24
+HDB  H06   .  H  0  ?       ?       ?       1  25
+HDB  H05   .  H  0  ?       ?       ?       1  26
+HDB  H03   .  H  0  ?       ?       ?       1  27
+HDB  H02   .  H  0  ?       ?       ?       1  28
+HDB  1H16  .  H  0  ?       ?       ?       0  29
+HDB  2H16  .  H  0  ?       ?       ?       0  30
+HDB  H15   .  H  0  ?       ?       ?       1  31
+HDB  1H17  .  H  0  ?       ?       ?       0  32
+HDB  2H17  .  H  0  ?       ?       ?       0  33
+HDB  H18   .  H  0  ?       ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HDB  C01  C07   SING  1 
+HDB  C01  C06   AROM  2 
+HDB  C01  C02   AROM  3 
+HDB  C02  C03   AROM  4 
+HDB  C02  H02   SING  5 
+HDB  C03  C04   AROM  6 
+HDB  C03  H03   SING  7 
+HDB  C04  C05   AROM  8 
+HDB  C04  B     SING  9 
+HDB  C05  C06   AROM  10
+HDB  C05  H05   SING  11
+HDB  C06  H06   SING  12
+HDB  C07  N09   SING  13
+HDB  C07  1H07  SING  14
+HDB  C07  2H07  SING  15
+HDB  B    O14   SING  16
+HDB  B    O13   SING  17
+HDB  N09  C10   SING  18
+HDB  N09  H09   SING  19
+HDB  C10  N11   SING  20
+HDB  C10  N12   DOUB  21
+HDB  N11  1H11  SING  22
+HDB  N11  2H11  SING  23
+HDB  N12  H12   SING  24
+HDB  O13  C15   SING  25
+HDB  O14  C16   SING  26
+HDB  C15  C16   SING  27
+HDB  C15  C17   SING  28
+HDB  C15  H15   SING  29
+HDB  C16  1H16  SING  30
+HDB  C16  2H16  SING  31
+HDB  C17  O18   SING  32
+HDB  C17  1H17  SING  33
+HDB  C17  2H17  SING  34
+HDB  O18  H18   SING  35
+#

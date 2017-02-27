@@ -1,0 +1,109 @@
+data_PPJ
+#
+_chem_comp.id                   PPJ
+_chem_comp.name                 N-(HYDROXY{3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYL)NORVALINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H15 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        358.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPJ  N1    .  N  0  ?  ?  ?  1  1 
+PPJ  C2    .  C  0  ?  ?  ?  1  2 
+PPJ  C6    .  C  0  ?  ?  ?  1  3 
+PPJ  C2A   .  C  0  ?  ?  ?  1  4 
+PPJ  C3    .  C  0  ?  ?  ?  1  5 
+PPJ  O3    .  O  0  ?  ?  ?  1  6 
+PPJ  C4    .  C  0  ?  ?  ?  1  7 
+PPJ  C4A   .  C  0  ?  ?  ?  1  8 
+PPJ  C5    .  C  0  ?  ?  ?  1  9 
+PPJ  N     .  N  0  ?  ?  ?  1  10
+PPJ  C5A   .  C  0  ?  ?  ?  1  11
+PPJ  OP4   .  O  0  ?  ?  ?  1  12
+PPJ  P     .  P  0  ?  ?  ?  1  13
+PPJ  OP1   .  O  0  ?  ?  ?  1  14
+PPJ  OP2   .  O  0  ?  ?  ?  1  15
+PPJ  OP3   .  O  0  ?  ?  ?  1  16
+PPJ  CA    .  C  0  ?  ?  ?  1  17
+PPJ  CB    .  C  0  ?  ?  ?  1  18
+PPJ  C     .  C  0  ?  ?  ?  1  19
+PPJ  CG    .  C  0  ?  ?  ?  1  20
+PPJ  CD    .  C  0  ?  ?  ?  1  21
+PPJ  O     .  O  0  ?  ?  ?  1  22
+PPJ  OXT   .  O  0  ?  ?  ?  1  23
+PPJ  OGL   .  O  0  ?  ?  ?  1  24
+PPJ  HC6   .  H  0  ?  ?  ?  1  25
+PPJ  1H2A  .  H  0  ?  ?  ?  0  26
+PPJ  2H2A  .  H  0  ?  ?  ?  0  27
+PPJ  3H2A  .  H  0  ?  ?  ?  0  28
+PPJ  HO3   .  H  0  ?  ?  ?  1  29
+PPJ  H4A   .  H  0  ?  ?  ?  1  30
+PPJ  1H5A  .  H  0  ?  ?  ?  0  31
+PPJ  2H5A  .  H  0  ?  ?  ?  0  32
+PPJ  HCB   .  H  0  ?  ?  ?  1  33
+PPJ  HCG   .  H  0  ?  ?  ?  1  34
+PPJ  1HC   .  H  0  ?  ?  ?  0  35
+PPJ  2HC   .  H  0  ?  ?  ?  0  36
+PPJ  3HC   .  H  0  ?  ?  ?  0  37
+PPJ  HXT   .  H  0  ?  ?  ?  1  38
+PPJ  HGL   .  H  0  ?  ?  ?  1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPJ  N1   C2    AROM  1 
+PPJ  N1   C6    AROM  2 
+PPJ  C2   C2A   SING  3 
+PPJ  C2   C3    AROM  4 
+PPJ  C6   C5    AROM  5 
+PPJ  C6   HC6   SING  6 
+PPJ  C2A  1H2A  SING  7 
+PPJ  C2A  2H2A  SING  8 
+PPJ  C2A  3H2A  SING  9 
+PPJ  C3   O3    SING  10
+PPJ  C3   C4    AROM  11
+PPJ  O3   HO3   SING  12
+PPJ  C4   C4A   SING  13
+PPJ  C4   C5    AROM  14
+PPJ  C4A  N     DOUB  15
+PPJ  C4A  H4A   SING  16
+PPJ  C5   C5A   SING  17
+PPJ  N    CA    SING  18
+PPJ  C5A  OP4   SING  19
+PPJ  C5A  1H5A  SING  20
+PPJ  C5A  2H5A  SING  21
+PPJ  OP4  P     SING  22
+PPJ  P    OP1   SING  23
+PPJ  P    OP2   DOUB  24
+PPJ  P    OP3   SING  25
+PPJ  CA   CB    SING  26
+PPJ  CA   C     SING  27
+PPJ  CB   CG    SING  28
+PPJ  CB   HCB   SING  29
+PPJ  C    O     DOUB  30
+PPJ  C    OXT   SING  31
+PPJ  CG   CD    SING  32
+PPJ  CG   OGL   SING  33
+PPJ  CG   HCG   SING  34
+PPJ  CD   1HC   SING  35
+PPJ  CD   2HC   SING  36
+PPJ  CD   3HC   SING  37
+PPJ  OXT  HXT   SING  38
+PPJ  OGL  HGL   SING  39
+#

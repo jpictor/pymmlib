@@ -1,0 +1,59 @@
+data_4AP
+#
+_chem_comp.id                   4AP
+_chem_comp.name                 4-AMINOPYRIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       95.124
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4AP  N1    .  N  1  ?  ?  ?  1  1 
+4AP  C2    .  C  0  ?  ?  ?  1  2 
+4AP  C3    .  C  0  ?  ?  ?  1  3 
+4AP  C4    .  C  0  ?  ?  ?  1  4 
+4AP  C5    .  C  0  ?  ?  ?  1  5 
+4AP  C6    .  C  0  ?  ?  ?  1  6 
+4AP  N4    .  N  0  ?  ?  ?  1  7 
+4AP  HN1   .  H  0  ?  ?  ?  1  8 
+4AP  H2    .  H  0  ?  ?  ?  1  9 
+4AP  H3    .  H  0  ?  ?  ?  1  10
+4AP  H5    .  H  0  ?  ?  ?  1  11
+4AP  H6    .  H  0  ?  ?  ?  1  12
+4AP  1HN4  .  H  0  ?  ?  ?  0  13
+4AP  2HN4  .  H  0  ?  ?  ?  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4AP  N1  C2    SING  1 
+4AP  N1  C6    DOUB  2 
+4AP  N1  HN1   SING  3 
+4AP  C2  C3    DOUB  4 
+4AP  C2  H2    SING  5 
+4AP  C3  C4    SING  6 
+4AP  C3  H3    SING  7 
+4AP  C4  C5    DOUB  8 
+4AP  C4  N4    SING  9 
+4AP  C5  C6    SING  10
+4AP  C5  H5    SING  11
+4AP  C6  H6    SING  12
+4AP  N4  1HN4  SING  13
+4AP  N4  2HN4  SING  14
+#

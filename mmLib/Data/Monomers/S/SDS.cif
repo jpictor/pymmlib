@@ -1,0 +1,116 @@
+data_SDS
+#
+_chem_comp.id                   SDS
+_chem_comp.name                 'DODECYL SULFATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H26 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.395
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SDS  S     .  S  0  22.198  28.493  33.93   1  1 
+SDS  O1S   .  O  0  20.781  28.371  34.32   1  2 
+SDS  O2S   .  O  0  22.344  29.604  32.964  1  3 
+SDS  O3S   .  O  0  23.015  28.755  35.134  1  4 
+SDS  O4    .  O  0  22.64   27.239  33.306  1  5 
+SDS  C1    .  C  0  22.157  30.823  33.013  1  6 
+SDS  C2    .  C  0  27.995  37.24   27.789  1  7 
+SDS  C3    .  C  0  27.728  37.602  29.222  1  8 
+SDS  C4    .  C  0  28.843  37.091  30.122  1  9 
+SDS  C5    .  C  0  28.296  37.325  31.538  1  10
+SDS  C6    .  C  0  28.593  35.991  32.241  1  11
+SDS  C7    .  C  0  27.22   35.604  32.834  1  12
+SDS  C8    .  C  0  27.043  34.103  32.611  1  13
+SDS  C9    .  C  0  25.791  33.822  31.789  1  14
+SDS  C10   .  C  0  25.258  32.423  32.069  1  15
+SDS  C11   .  C  0  23.729  32.501  32.042  1  16
+SDS  C12   .  C  0  23.16   31.93   33.335  1  17
+SDS  H3S   .  H  0  ?       ?       ?       1  18
+SDS  1H1C  .  H  0  21.314  30.967  33.729  0  19
+SDS  2H1C  .  H  0  21.717  31.097  32.026  0  20
+SDS  1H12  .  H  0  23.961  31.582  34.028  0  21
+SDS  2H12  .  H  0  22.718  32.721  33.984  0  22
+SDS  1H11  .  H  0  23.365  33.537  31.845  0  23
+SDS  2H11  .  H  0  23.3    32.005  31.14   0  24
+SDS  1H10  .  H  0  25.667  31.654  31.373  0  25
+SDS  2H10  .  H  0  25.655  31.987  33.016  0  26
+SDS  1H9C  .  H  0  25.009  34.6    31.951  0  27
+SDS  2H9C  .  H  0  25.969  33.985  30.7    0  28
+SDS  1H8C  .  H  0  27.95   33.644  32.152  0  29
+SDS  2H8C  .  H  0  27.039  33.541  33.574  0  30
+SDS  1H7C  .  H  0  27.104  35.905  33.901  0  31
+SDS  2H7C  .  H  0  26.379  36.21   32.423  0  32
+SDS  1H6C  .  H  0  29.056  35.213  31.59   0  33
+SDS  2H6C  .  H  0  29.427  36.028  32.98   0  34
+SDS  1H5C  .  H  0  28.704  38.226  32.053  0  35
+SDS  2H5C  .  H  0  27.229  37.647  31.579  0  36
+SDS  1H4C  .  H  0  29.159  36.042  29.916  0  37
+SDS  2H4C  .  H  0  29.84   37.552  29.93   0  38
+SDS  1H3C  .  H  0  27.565  38.698  29.348  0  39
+SDS  2H3C  .  H  0  26.728  37.244  29.559  0  40
+SDS  1H2C  .  H  0  27.178  37.614  27.129  0  41
+SDS  2H2C  .  H  0  28.159  36.144  27.663  0  42
+SDS  3H2C  .  H  0  28.996  37.598  27.452  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SDS  S    O1S   DOUB  1 
+SDS  S    O2S   SING  2 
+SDS  S    O3S   SING  3 
+SDS  S    O4    DOUB  4 
+SDS  O2S  C1    SING  5 
+SDS  O3S  H3S   SING  6 
+SDS  C1   C12   SING  7 
+SDS  C1   1H1C  SING  8 
+SDS  C1   2H1C  SING  9 
+SDS  C2   1H2C  SING  10
+SDS  C2   2H2C  SING  11
+SDS  C2   3H2C  SING  12
+SDS  C2   C3    SING  13
+SDS  C3   1H3C  SING  14
+SDS  C3   2H3C  SING  15
+SDS  C3   C4    SING  16
+SDS  C4   1H4C  SING  17
+SDS  C4   2H4C  SING  18
+SDS  C4   C5    SING  19
+SDS  C5   1H5C  SING  20
+SDS  C5   2H5C  SING  21
+SDS  C5   C6    SING  22
+SDS  C6   1H6C  SING  23
+SDS  C6   2H6C  SING  24
+SDS  C6   C7    SING  25
+SDS  C7   1H7C  SING  26
+SDS  C7   2H7C  SING  27
+SDS  C7   C8    SING  28
+SDS  C8   1H8C  SING  29
+SDS  C8   2H8C  SING  30
+SDS  C8   C9    SING  31
+SDS  C9   1H9C  SING  32
+SDS  C9   2H9C  SING  33
+SDS  C9   C10   SING  34
+SDS  C10  1H10  SING  35
+SDS  C10  2H10  SING  36
+SDS  C10  C11   SING  37
+SDS  C11  1H11  SING  38
+SDS  C11  2H11  SING  39
+SDS  C11  C12   SING  40
+SDS  C12  1H12  SING  41
+SDS  C12  2H12  SING  42
+#

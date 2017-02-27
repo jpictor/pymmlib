@@ -1,0 +1,88 @@
+data_BIO
+#
+_chem_comp.id                   BIO
+_chem_comp.name                 BIOPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N5 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        237.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIO  N1    .  N  0  ?  ?  ?  1  1 
+BIO  N2    .  N  0  ?  ?  ?  1  2 
+BIO  C2    .  C  0  ?  ?  ?  1  3 
+BIO  N3    .  N  0  ?  ?  ?  1  4 
+BIO  C4    .  C  0  ?  ?  ?  1  5 
+BIO  O4    .  O  0  ?  ?  ?  1  6 
+BIO  C4A   .  C  0  ?  ?  ?  1  7 
+BIO  C8A   .  C  0  ?  ?  ?  1  8 
+BIO  N8    .  N  0  ?  ?  ?  1  9 
+BIO  C7    .  C  0  ?  ?  ?  1  10
+BIO  C6    .  C  0  ?  ?  ?  1  11
+BIO  N5    .  N  0  ?  ?  ?  1  12
+BIO  C9    .  C  0  ?  ?  ?  1  13
+BIO  O9    .  O  0  ?  ?  ?  1  14
+BIO  C10   .  C  0  ?  ?  ?  1  15
+BIO  O10   .  O  0  ?  ?  ?  1  16
+BIO  C11   .  C  0  ?  ?  ?  1  17
+BIO  1HN2  .  H  0  ?  ?  ?  0  18
+BIO  2HN2  .  H  0  ?  ?  ?  0  19
+BIO  H3    .  H  0  ?  ?  ?  1  20
+BIO  H7    .  H  0  ?  ?  ?  1  21
+BIO  H9    .  H  0  ?  ?  ?  1  22
+BIO  HO9   .  H  0  ?  ?  ?  1  23
+BIO  H10   .  H  0  ?  ?  ?  1  24
+BIO  HO1   .  H  0  ?  ?  ?  1  25
+BIO  1H11  .  H  0  ?  ?  ?  0  26
+BIO  2H11  .  H  0  ?  ?  ?  0  27
+BIO  3H11  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIO  N1   C2    DOUB  1 
+BIO  N1   C8A   SING  2 
+BIO  N2   C2    SING  3 
+BIO  N2   1HN2  SING  4 
+BIO  N2   2HN2  SING  5 
+BIO  C2   N3    SING  6 
+BIO  N3   C4    SING  7 
+BIO  N3   H3    SING  8 
+BIO  C4   O4    DOUB  9 
+BIO  C4   C4A   SING  10
+BIO  C4A  C8A   SING  11
+BIO  C4A  N5    DOUB  12
+BIO  C8A  N8    DOUB  13
+BIO  N8   C7    SING  14
+BIO  C7   C6    DOUB  15
+BIO  C7   H7    SING  16
+BIO  C6   C9    SING  17
+BIO  C6   N5    SING  18
+BIO  C9   C10   SING  19
+BIO  C9   O9    SING  20
+BIO  C9   H9    SING  21
+BIO  O9   HO9   SING  22
+BIO  C10  C11   SING  23
+BIO  C10  O10   SING  24
+BIO  C10  H10   SING  25
+BIO  O10  HO1   SING  26
+BIO  C11  1H11  SING  27
+BIO  C11  2H11  SING  28
+BIO  C11  3H11  SING  29
+#

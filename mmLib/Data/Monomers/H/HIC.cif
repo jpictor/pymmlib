@@ -1,0 +1,78 @@
+data_HIC
+#
+_chem_comp.id                       HIC
+_chem_comp.name                     4-METHYL-HISTIDINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H11 N3 O2'
+_chem_comp.mon_nstd_parent_comp_id  HIS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            169.183
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HIC  N    .  N  0  ?  ?  ?  1  1 
+HIC  CA   .  C  0  ?  ?  ?  1  2 
+HIC  C    .  C  0  ?  ?  ?  1  3 
+HIC  O    .  O  0  ?  ?  ?  1  4 
+HIC  CB   .  C  0  ?  ?  ?  1  5 
+HIC  CG   .  C  0  ?  ?  ?  1  6 
+HIC  ND1  .  N  0  ?  ?  ?  1  7 
+HIC  CD2  .  C  0  ?  ?  ?  1  8 
+HIC  CE1  .  C  0  ?  ?  ?  1  9 
+HIC  NE2  .  N  0  ?  ?  ?  1  10
+HIC  CZ   .  C  0  ?  ?  ?  1  11
+HIC  OXT  .  O  0  ?  ?  ?  1  12
+HIC  H    .  H  0  ?  ?  ?  1  13
+HIC  HN2  .  H  0  ?  ?  ?  1  14
+HIC  HA   .  H  0  ?  ?  ?  1  15
+HIC  1HB  .  H  0  ?  ?  ?  0  16
+HIC  2HB  .  H  0  ?  ?  ?  0  17
+HIC  HD2  .  H  0  ?  ?  ?  1  18
+HIC  HE1  .  H  0  ?  ?  ?  1  19
+HIC  1HZ  .  H  0  ?  ?  ?  0  20
+HIC  2HZ  .  H  0  ?  ?  ?  0  21
+HIC  3HZ  .  H  0  ?  ?  ?  0  22
+HIC  HXT  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HIC  N    CA   SING  1 
+HIC  N    H    SING  2 
+HIC  N    HN2  SING  3 
+HIC  CA   C    SING  4 
+HIC  CA   CB   SING  5 
+HIC  CA   HA   SING  6 
+HIC  C    O    DOUB  7 
+HIC  C    OXT  SING  8 
+HIC  CB   CG   SING  9 
+HIC  CB   1HB  SING  10
+HIC  CB   2HB  SING  11
+HIC  CG   ND1  SING  12
+HIC  CG   CD2  DOUB  13
+HIC  ND1  CE1  DOUB  14
+HIC  CD2  NE2  SING  15
+HIC  CD2  HD2  SING  16
+HIC  CE1  NE2  SING  17
+HIC  CE1  HE1  SING  18
+HIC  NE2  CZ   SING  19
+HIC  CZ   1HZ  SING  20
+HIC  CZ   2HZ  SING  21
+HIC  CZ   3HZ  SING  22
+HIC  OXT  HXT  SING  23
+#

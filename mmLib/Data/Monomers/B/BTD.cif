@@ -1,0 +1,103 @@
+data_BTD
+#
+_chem_comp.id                   BTD
+_chem_comp.name                 5-BROMOTHIENYLDEOXYURIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H13 N2 O5 BR1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        389.220
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BTD  O5*   .  O   0  ?  ?  ?  1  1 
+BTD  C5*   .  C   0  ?  ?  ?  1  2 
+BTD  C4*   .  C   0  ?  ?  ?  1  3 
+BTD  O4*   .  O   0  ?  ?  ?  1  4 
+BTD  C1*   .  C   0  ?  ?  ?  1  5 
+BTD  N1    .  N   0  ?  ?  ?  1  6 
+BTD  C6    .  C   0  ?  ?  ?  1  7 
+BTD  C2    .  C   0  ?  ?  ?  1  8 
+BTD  O2    .  O   0  ?  ?  ?  1  9 
+BTD  N3    .  N   0  ?  ?  ?  1  10
+BTD  C4    .  C   0  ?  ?  ?  1  11
+BTD  O4    .  O   0  ?  ?  ?  1  12
+BTD  C5    .  C   0  ?  ?  ?  1  13
+BTD  C55   .  C   0  ?  ?  ?  1  14
+BTD  C44   .  C   0  ?  ?  ?  1  15
+BTD  C33   .  C   0  ?  ?  ?  1  16
+BTD  C22   .  C   0  ?  ?  ?  1  17
+BTD  S11   .  S   0  ?  ?  ?  1  18
+BTD  BR    .  BR  0  ?  ?  ?  0  19
+BTD  C2*   .  C   0  ?  ?  ?  1  20
+BTD  C3*   .  C   0  ?  ?  ?  1  21
+BTD  O3*   .  O   0  ?  ?  ?  1  22
+BTD  *HO5  .  H   0  ?  ?  ?  0  23
+BTD  1H5*  .  H   0  ?  ?  ?  0  24
+BTD  2H5*  .  H   0  ?  ?  ?  0  25
+BTD  H4*   .  H   0  ?  ?  ?  1  26
+BTD  H1*   .  H   0  ?  ?  ?  1  27
+BTD  H6    .  H   0  ?  ?  ?  1  28
+BTD  HN3   .  H   0  ?  ?  ?  1  29
+BTD  H44   .  H   0  ?  ?  ?  1  30
+BTD  H33   .  H   0  ?  ?  ?  1  31
+BTD  1H2*  .  H   0  ?  ?  ?  0  32
+BTD  2H2*  .  H   0  ?  ?  ?  0  33
+BTD  H3*   .  H   0  ?  ?  ?  1  34
+BTD  *HO3  .  H   0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BTD  O5*  C5*   SING  1 
+BTD  O5*  *HO5  SING  2 
+BTD  C5*  C4*   SING  3 
+BTD  C5*  1H5*  SING  4 
+BTD  C5*  2H5*  SING  5 
+BTD  C4*  O4*   SING  6 
+BTD  C4*  C3*   SING  7 
+BTD  C4*  H4*   SING  8 
+BTD  O4*  C1*   SING  9 
+BTD  C1*  N1    SING  10
+BTD  C1*  C2*   SING  11
+BTD  C1*  H1*   SING  12
+BTD  N1   C6    SING  13
+BTD  N1   C2    SING  14
+BTD  C6   C5    DOUB  15
+BTD  C6   H6    SING  16
+BTD  C2   O2    DOUB  17
+BTD  C2   N3    SING  18
+BTD  N3   C4    SING  19
+BTD  N3   HN3   SING  20
+BTD  C4   O4    DOUB  21
+BTD  C4   C5    SING  22
+BTD  C5   C55   SING  23
+BTD  C55  C44   DOUB  24
+BTD  C55  S11   SING  25
+BTD  C44  C33   SING  26
+BTD  C44  H44   SING  27
+BTD  C33  C22   DOUB  28
+BTD  C33  H33   SING  29
+BTD  C22  S11   SING  30
+BTD  C22  BR    SING  31
+BTD  C2*  C3*   SING  32
+BTD  C2*  1H2*  SING  33
+BTD  C2*  2H2*  SING  34
+BTD  C3*  O3*   SING  35
+BTD  C3*  H3*   SING  36
+BTD  O3*  *HO3  SING  37
+#

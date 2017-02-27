@@ -1,0 +1,97 @@
+data_APL
+#
+_chem_comp.id                   APL
+_chem_comp.name                 N-(1-BENZYL-3,3,3-TRIFLUORO-2,2-DIHYDROXY-PROPYL)-ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N1 O3 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        277.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APL  CN2   .  C  0  ?  ?  ?  1  1 
+APL  CN1   .  C  0  ?  ?  ?  1  2 
+APL  ON1   .  O  0  ?  ?  ?  1  3 
+APL  N3    .  N  0  ?  ?  ?  1  4 
+APL  C3    .  C  0  ?  ?  ?  1  5 
+APL  C2    .  C  0  ?  ?  ?  1  6 
+APL  C1    .  C  0  ?  ?  ?  1  7 
+APL  C4    .  C  0  ?  ?  ?  1  8 
+APL  OY    .  O  0  ?  ?  ?  1  9 
+APL  OX    .  O  0  ?  ?  ?  1  10
+APL  HY    .  H  0  ?  ?  ?  1  11
+APL  HX    .  H  0  ?  ?  ?  1  12
+APL  F11   .  F  0  ?  ?  ?  1  13
+APL  F12   .  F  0  ?  ?  ?  1  14
+APL  F13   .  F  0  ?  ?  ?  1  15
+APL  CP1   .  C  0  ?  ?  ?  1  16
+APL  CP2   .  C  0  ?  ?  ?  1  17
+APL  CP3   .  C  0  ?  ?  ?  1  18
+APL  CP4   .  C  0  ?  ?  ?  1  19
+APL  CP5   .  C  0  ?  ?  ?  1  20
+APL  CP6   .  C  0  ?  ?  ?  1  21
+APL  1HC2  .  H  0  ?  ?  ?  0  22
+APL  2HC2  .  H  0  ?  ?  ?  0  23
+APL  3HC2  .  H  0  ?  ?  ?  0  24
+APL  HN3   .  H  0  ?  ?  ?  1  25
+APL  H3    .  H  0  ?  ?  ?  1  26
+APL  1H4   .  H  0  ?  ?  ?  0  27
+APL  2H4   .  H  0  ?  ?  ?  0  28
+APL  HP2   .  H  0  ?  ?  ?  1  29
+APL  HP3   .  H  0  ?  ?  ?  1  30
+APL  HP4   .  H  0  ?  ?  ?  1  31
+APL  HP5   .  H  0  ?  ?  ?  1  32
+APL  HP6   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APL  CN2  CN1   SING  1 
+APL  CN2  1HC2  SING  2 
+APL  CN2  2HC2  SING  3 
+APL  CN2  3HC2  SING  4 
+APL  CN1  ON1   DOUB  5 
+APL  CN1  N3    SING  6 
+APL  N3   C3    SING  7 
+APL  N3   HN3   SING  8 
+APL  C3   C2    SING  9 
+APL  C3   C4    SING  10
+APL  C3   H3    SING  11
+APL  C2   C1    SING  12
+APL  C2   OY    SING  13
+APL  C2   OX    SING  14
+APL  C1   F11   SING  15
+APL  C1   F12   SING  16
+APL  C1   F13   SING  17
+APL  C4   CP1   SING  18
+APL  C4   1H4   SING  19
+APL  C4   2H4   SING  20
+APL  OY   HY    SING  21
+APL  OX   HX    SING  22
+APL  CP1  CP2   DOUB  23
+APL  CP1  CP6   SING  24
+APL  CP2  CP3   SING  25
+APL  CP2  HP2   SING  26
+APL  CP3  CP4   DOUB  27
+APL  CP3  HP3   SING  28
+APL  CP4  CP5   SING  29
+APL  CP4  HP4   SING  30
+APL  CP5  CP6   DOUB  31
+APL  CP5  HP5   SING  32
+APL  CP6  HP6   SING  33
+#

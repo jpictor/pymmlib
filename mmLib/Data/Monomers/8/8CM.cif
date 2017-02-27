@@ -1,0 +1,77 @@
+data_8CM
+#
+_chem_comp.id                   8CM
+_chem_comp.name                 8-HYDROXYCOUMARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H6 O3'
+_chem_comp.pdbx_synonyms        8-HYDROXY-2H-CHROMENE-2-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.145
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          8CM
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc2c(c(c1)O)OC(=O)C=C2
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+8CM  C5   .  C  0  14.451  26.407  58.312  1  Y  1 
+8CM  C6   .  C  0  14.681  25.822  57.061  1  Y  2 
+8CM  C7   .  C  0  15.237  24.516  56.963  1  Y  3 
+8CM  C8   .  C  0  15.567  23.795  58.130  1  Y  4 
+8CM  C1A  .  C  0  15.329  24.394  59.407  1  Y  5 
+8CM  C4A  .  C  0  14.773  25.702  59.504  1  Y  6 
+8CM  C4   .  C  0  14.563  26.247  60.877  1  N  7 
+8CM  C3   .  C  0  14.892  25.529  61.954  1  N  8 
+8CM  C2   .  C  0  15.486  24.137  61.831  1  N  9 
+8CM  O1   .  O  0  15.689  23.610  60.516  1  N  10
+8CM  O2   .  O  0  15.811  23.427  62.767  1  N  11
+8CM  O8   .  O  0  16.117  22.530  58.039  1  N  12
+8CM  H5   .  H  0  14.027  27.398  58.372  1  N  13
+8CM  H6   .  H  0  14.434  26.367  56.162  1  N  14
+8CM  H7   .  H  0  15.407  24.075  55.992  1  N  15
+8CM  H4   .  H  0  14.140  27.233  61.001  1  N  16
+8CM  H3   .  H  0  14.732  25.949  62.936  1  N  17
+8CM  HO8  .  H  0  16.243  22.304  57.125  1  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+8CM  C5   C6   DOUB  Y  1 
+8CM  C5   C4A  SING  Y  2 
+8CM  C5   H5   SING  N  3 
+8CM  C6   C7   SING  Y  4 
+8CM  C6   H6   SING  N  5 
+8CM  C7   C8   DOUB  Y  6 
+8CM  C7   H7   SING  N  7 
+8CM  C8   C1A  SING  Y  8 
+8CM  C8   O8   SING  N  9 
+8CM  C1A  C4A  DOUB  Y  10
+8CM  C1A  O1   SING  N  11
+8CM  C4A  C4   SING  N  12
+8CM  C4   C3   DOUB  N  13
+8CM  C4   H4   SING  N  14
+8CM  C3   C2   SING  N  15
+8CM  C3   H3   SING  N  16
+8CM  C2   O1   SING  N  17
+8CM  C2   O2   DOUB  N  18
+8CM  O8   HO8  SING  N  19
+#

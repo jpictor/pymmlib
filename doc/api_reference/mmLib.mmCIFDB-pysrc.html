@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.mmCIFDB</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;mmCIFDB
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.mmCIFDB-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="mmLib.mmCIFDB-module.html">Module mmLib.mmCIFDB</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">## Copyright 2002-2010 by PyMMLib Development Group (see AUTHORS file)</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment">## This code is part of the PyMMLib distribution and governed by</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-comment">## its license.  Please see the LICENSE file that should have been</tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-comment">## included as part of this package.</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-docstring">"""Structural database based on mmCIF.</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"><tt class="py-comment">## Python</tt> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"><tt class="py-keyword">from</tt> <tt class="py-name">__future__</tt> <tt class="py-keyword">import</tt> <tt class="py-name">generators</tt> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">copy</tt> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line"><tt class="py-comment">## pymmlib</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-0" class="py-name" targets="Module mmLib.mmCIF=mmLib.mmCIF-module.html"><a title="mmLib.mmCIF" class="py-name" href="#" onclick="return doclink('link-0', 'mmCIF', 'link-0');">mmCIF</a></tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line"> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB"></a><div id="mmCIFDB-def"><a name="L15"></a><tt class="py-lineno"> 15</tt> <a class="py-toggle" href="#" id="mmCIFDB-toggle" onclick="return toggle('mmCIFDB');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html">mmCIFDB</a><tt class="py-op">(</tt><tt class="py-base-class">mmCIF</tt><tt class="py-op">.</tt><tt class="py-base-class">mmCIFData</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="mmCIFDB-expanded"><a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line">    <tt class="py-docstring">"""Database class for the storage and access of structural data. This</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line"><tt class="py-docstring">    database is organized according to mmCIF data tags. Methods to lookup</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line"><tt class="py-docstring">    common structure items are included.</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="mmCIFDB.__str__"></a><div id="mmCIFDB.__str__-def"><a name="L20"></a><tt class="py-lineno"> 20</tt> <a class="py-toggle" href="#" id="mmCIFDB.__str__-toggle" onclick="return toggle('mmCIFDB.__str__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#__str__">__str__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.__str__-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.__str__-expanded"><a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line">        <tt class="py-name">col_len</tt> <tt class="py-op">=</tt> <tt class="py-number">12</tt> </tt>
+<a name="L22"></a><tt class="py-lineno"> 22</tt>  <tt class="py-line">        <tt class="py-name">dump</tt> <tt class="py-op">=</tt> <tt class="py-string">""</tt> </tt>
+<a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line"> </tt>
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt id="link-1" class="py-name" targets="Variable mmLib.mmCIF.mmCIFRow.table=mmLib.mmCIF.mmCIFRow-class.html#table"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-1', 'table', 'link-1');">table</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">self</tt><tt class="py-op">:</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line">            <tt id="link-2" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-2', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-3" class="py-name" targets="Method mmLib.mmCIF.mmCIFTable.autoset_columns()=mmLib.mmCIF.mmCIFTable-class.html#autoset_columns"><a title="mmLib.mmCIF.mmCIFTable.autoset_columns" class="py-name" href="#" onclick="return doclink('link-3', 'autoset_columns', 'link-3');">autoset_columns</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">            <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">"Table: %s\n"</tt> <tt class="py-op">%</tt> <tt class="py-op">(</tt><tt id="link-4" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-4', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-5" class="py-name" targets="Variable mmLib.Colors.name=mmLib.Colors-module.html#name,Variable mmLib.mmCIF.mmCIFData.name=mmLib.mmCIF.mmCIFData-class.html#name,Variable mmLib.mmCIF.mmCIFTable.name=mmLib.mmCIF.mmCIFTable-class.html#name"><a title="mmLib.Colors.name
+mmLib.mmCIF.mmCIFData.name
+mmLib.mmCIF.mmCIFTable.name" class="py-name" href="#" onclick="return doclink('link-5', 'name', 'link-5');">name</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">col_name</tt> <tt class="py-keyword">in</tt> <tt id="link-6" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-6', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-7" class="py-name" targets="Variable mmLib.mmCIF.mmCIFTable.columns=mmLib.mmCIF.mmCIFTable-class.html#columns"><a title="mmLib.mmCIF.mmCIFTable.columns" class="py-name" href="#" onclick="return doclink('link-7', 'columns', 'link-7');">columns</a></tt><tt class="py-op">:</tt> </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">                <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-name">col_name</tt><tt class="py-op">[</tt><tt class="py-op">:</tt><tt class="py-name">col_len</tt><tt class="py-op">-</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">.</tt><tt class="py-name">ljust</tt><tt class="py-op">(</tt><tt class="py-name">col_len</tt><tt class="py-op">)</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line">            <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">"\n"</tt> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">            <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">"-"</tt><tt class="py-op">*</tt><tt class="py-name">col_len</tt><tt class="py-op">*</tt><tt class="py-name">len</tt><tt class="py-op">(</tt><tt id="link-8" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-8', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-9" class="py-name"><a title="mmLib.mmCIF.mmCIFTable.columns" class="py-name" href="#" onclick="return doclink('link-9', 'columns', 'link-7');">columns</a></tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-string">"\n"</tt> </tt>
+<a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line">            <tt class="py-keyword">for</tt> <tt class="py-name">row</tt> <tt class="py-keyword">in</tt> <tt id="link-10" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-10', 'table', 'link-1');">table</a></tt><tt class="py-op">:</tt> </tt>
+<a name="L32"></a><tt class="py-lineno"> 32</tt>  <tt class="py-line">                <tt class="py-keyword">for</tt> <tt class="py-name">col_name</tt> <tt class="py-keyword">in</tt> <tt id="link-11" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-11', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-12" class="py-name"><a title="mmLib.mmCIF.mmCIFTable.columns" class="py-name" href="#" onclick="return doclink('link-12', 'columns', 'link-7');">columns</a></tt><tt class="py-op">:</tt> </tt>
+<a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">                    <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line">                        <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-name">str</tt><tt class="py-op">(</tt><tt class="py-name">row</tt><tt class="py-op">[</tt><tt class="py-name">col_name</tt><tt class="py-op">]</tt><tt class="py-op">)</tt><tt class="py-op">[</tt><tt class="py-op">:</tt><tt class="py-name">col_len</tt><tt class="py-op">-</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">.</tt><tt class="py-name">ljust</tt><tt class="py-op">(</tt><tt class="py-name">col_len</tt><tt class="py-op">)</tt> </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">                    <tt class="py-keyword">except</tt> <tt class="py-name">KeyError</tt><tt class="py-op">:</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">                        <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">" "</tt><tt class="py-op">*</tt><tt class="py-name">col_len</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">                <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">"\n"</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line">            <tt class="py-name">dump</tt> <tt class="py-op">+=</tt> <tt class="py-string">"\n"</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line"> </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">dump</tt> </tt>
+</div><a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.add_table"></a><div id="mmCIFDB.add_table-def"><a name="L42"></a><tt class="py-lineno"> 42</tt> <a class="py-toggle" href="#" id="mmCIFDB.add_table-toggle" onclick="return toggle('mmCIFDB.add_table');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#add_table">add_table</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">table</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.add_table-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.add_table-expanded"><a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-13" class="py-name" targets="Method mmLib.PDB.PDBFile.append()=mmLib.PDB.PDBFile-class.html#append,Method mmLib.mmCIF.mmCIFData.append()=mmLib.mmCIF.mmCIFData-class.html#append,Method mmLib.mmCIF.mmCIFFile.append()=mmLib.mmCIF.mmCIFFile-class.html#append,Method mmLib.mmCIF.mmCIFTable.append()=mmLib.mmCIF.mmCIFTable-class.html#append"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-13', 'append', 'link-13');">append</a></tt><tt class="py-op">(</tt><tt class="py-name">copy</tt><tt class="py-op">.</tt><tt class="py-name">deepcopy</tt><tt class="py-op">(</tt><tt id="link-14" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-14', 'table', 'link-1');">table</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.add_tables"></a><div id="mmCIFDB.add_tables-def"><a name="L45"></a><tt class="py-lineno"> 45</tt> <a class="py-toggle" href="#" id="mmCIFDB.add_tables-toggle" onclick="return toggle('mmCIFDB.add_tables');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#add_tables">add_tables</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">tables</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.add_tables-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.add_tables-expanded"><a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt id="link-15" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-15', 'table', 'link-1');">table</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">tables</tt><tt class="py-op">:</tt> </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-16" class="py-name"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-16', 'append', 'link-13');">append</a></tt><tt class="py-op">(</tt><tt class="py-name">copy</tt><tt class="py-op">.</tt><tt class="py-name">deepcopy</tt><tt class="py-op">(</tt><tt id="link-17" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-17', 'table', 'link-1');">table</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.confirm_table"></a><div id="mmCIFDB.confirm_table-def"><a name="L49"></a><tt class="py-lineno"> 49</tt> <a class="py-toggle" href="#" id="mmCIFDB.confirm_table-toggle" onclick="return toggle('mmCIFDB.confirm_table');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#confirm_table">confirm_table</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">table_name</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.confirm_table-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.confirm_table-expanded"><a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line">        <tt class="py-docstring">"""Return table table_name, create the table if necessary.</tt> </tt>
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-keyword">not</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-18" class="py-name" targets="Method mmLib.mmCIF.mmCIFData.has_key()=mmLib.mmCIF.mmCIFData-class.html#has_key,Method mmLib.mmCIF.mmCIFFile.has_key()=mmLib.mmCIF.mmCIFFile-class.html#has_key,Method mmLib.mmCIF.mmCIFRow.has_key()=mmLib.mmCIF.mmCIFRow-class.html#has_key"><a title="mmLib.mmCIF.mmCIFData.has_key
+mmLib.mmCIF.mmCIFFile.has_key
+mmLib.mmCIF.mmCIFRow.has_key" class="py-name" href="#" onclick="return doclink('link-18', 'has_key', 'link-18');">has_key</a></tt><tt class="py-op">(</tt><tt class="py-name">table_name</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line">            <tt id="link-19" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-19', 'table', 'link-1');">table</a></tt> <tt class="py-op">=</tt> <tt id="link-20" class="py-name"><a title="mmLib.mmCIF" class="py-name" href="#" onclick="return doclink('link-20', 'mmCIF', 'link-0');">mmCIF</a></tt><tt class="py-op">.</tt><tt id="link-21" class="py-name" targets="Class mmLib.mmCIF.mmCIFTable=mmLib.mmCIF.mmCIFTable-class.html"><a title="mmLib.mmCIF.mmCIFTable" class="py-name" href="#" onclick="return doclink('link-21', 'mmCIFTable', 'link-21');">mmCIFTable</a></tt><tt class="py-op">(</tt><tt class="py-name">table_name</tt><tt class="py-op">)</tt> </tt>
+<a name="L54"></a><tt class="py-lineno"> 54</tt>  <tt class="py-line">            <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-22" class="py-name"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-22', 'append', 'link-13');">append</a></tt><tt class="py-op">(</tt><tt id="link-23" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-23', 'table', 'link-1');">table</a></tt><tt class="py-op">)</tt> </tt>
+<a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line">            <tt id="link-24" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-24', 'table', 'link-1');">table</a></tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">[</tt><tt class="py-name">table_name</tt><tt class="py-op">]</tt> </tt>
+<a name="L57"></a><tt class="py-lineno"> 57</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt id="link-25" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-25', 'table', 'link-1');">table</a></tt> </tt>
+</div><a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.get_single"></a><div id="mmCIFDB.get_single-def"><a name="L59"></a><tt class="py-lineno"> 59</tt> <a class="py-toggle" href="#" id="mmCIFDB.get_single-toggle" onclick="return toggle('mmCIFDB.get_single');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#get_single">get_single</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">table_name</tt><tt class="py-op">,</tt> <tt class="py-param">col_name</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.get_single-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.get_single-expanded"><a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">        <tt class="py-docstring">"""Utility function for getting a table where there should only be a</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line"><tt class="py-docstring">        single row of data.</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">[</tt><tt class="py-name">table_name</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-name">col_name</tt><tt class="py-op">]</tt> </tt>
+<a name="L65"></a><tt class="py-lineno"> 65</tt>  <tt class="py-line">        <tt class="py-keyword">except</tt> <tt class="py-name">KeyError</tt><tt class="py-op">:</tt> </tt>
+<a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">None</tt> </tt>
+</div><a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.set_single"></a><div id="mmCIFDB.set_single-def"><a name="L68"></a><tt class="py-lineno"> 68</tt> <a class="py-toggle" href="#" id="mmCIFDB.set_single-toggle" onclick="return toggle('mmCIFDB.set_single');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#set_single">set_single</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">table_name</tt><tt class="py-op">,</tt> <tt class="py-param">col_name</tt><tt class="py-op">,</tt> <tt class="py-param">val</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.set_single-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.set_single-expanded"><a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">        <tt class="py-docstring">"""Utility function for setting a table where there should only be a</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line"><tt class="py-docstring">        single row of data.</tt> </tt>
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">val</tt> <tt class="py-op">==</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> </tt>
+<a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> </tt>
+<a name="L74"></a><tt class="py-lineno"> 74</tt>  <tt class="py-line"> </tt>
+<a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">        <tt id="link-26" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-26', 'table', 'link-1');">table</a></tt> <tt class="py-op">=</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-27" class="py-name" targets="Method mmLib.mmCIFDB.mmCIFDB.confirm_table()=mmLib.mmCIFDB.mmCIFDB-class.html#confirm_table"><a title="mmLib.mmCIFDB.mmCIFDB.confirm_table" class="py-name" href="#" onclick="return doclink('link-27', 'confirm_table', 'link-27');">confirm_table</a></tt><tt class="py-op">(</tt><tt class="py-name">table_name</tt><tt class="py-op">)</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">len</tt><tt class="py-op">(</tt><tt id="link-28" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-28', 'table', 'link-1');">table</a></tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line">            <tt id="link-29" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-29', 'table', 'link-1');">table</a></tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">[</tt><tt class="py-name">col_name</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">val</tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line">        <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line">            <tt class="py-name">row</tt> <tt class="py-op">=</tt> <tt id="link-30" class="py-name"><a title="mmLib.mmCIF" class="py-name" href="#" onclick="return doclink('link-30', 'mmCIF', 'link-0');">mmCIF</a></tt><tt class="py-op">.</tt><tt id="link-31" class="py-name" targets="Class mmLib.mmCIF.mmCIFRow=mmLib.mmCIF.mmCIFRow-class.html"><a title="mmLib.mmCIF.mmCIFRow" class="py-name" href="#" onclick="return doclink('link-31', 'mmCIFRow', 'link-31');">mmCIFRow</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">            <tt id="link-32" class="py-name"><a title="mmLib.mmCIF.mmCIFRow.table" class="py-name" href="#" onclick="return doclink('link-32', 'table', 'link-1');">table</a></tt><tt class="py-op">.</tt><tt id="link-33" class="py-name"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-33', 'append', 'link-13');">append</a></tt><tt class="py-op">(</tt><tt class="py-name">row</tt><tt class="py-op">)</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">            <tt class="py-name">row</tt><tt class="py-op">[</tt><tt class="py-name">col_name</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">val</tt> </tt>
+</div><a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.get_entry_id"></a><div id="mmCIFDB.get_entry_id-def"><a name="L83"></a><tt class="py-lineno"> 83</tt> <a class="py-toggle" href="#" id="mmCIFDB.get_entry_id-toggle" onclick="return toggle('mmCIFDB.get_entry_id');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#get_entry_id">get_entry_id</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.get_entry_id-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.get_entry_id-expanded"><a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">        <tt class="py-docstring">"""Methods to get/set the structure ID.</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-34" class="py-name" targets="Method mmLib.mmCIFDB.mmCIFDB.get_single()=mmLib.mmCIFDB.mmCIFDB-class.html#get_single"><a title="mmLib.mmCIFDB.mmCIFDB.get_single" class="py-name" href="#" onclick="return doclink('link-34', 'get_single', 'link-34');">get_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"entry"</tt><tt class="py-op">,</tt> <tt class="py-string">"id"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.set_entry_id"></a><div id="mmCIFDB.set_entry_id-def"><a name="L88"></a><tt class="py-lineno"> 88</tt> <a class="py-toggle" href="#" id="mmCIFDB.set_entry_id-toggle" onclick="return toggle('mmCIFDB.set_entry_id');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#set_entry_id">set_entry_id</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">idcode</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.set_entry_id-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.set_entry_id-expanded"><a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-35" class="py-name" targets="Method mmLib.mmCIFDB.mmCIFDB.set_single()=mmLib.mmCIFDB.mmCIFDB-class.html#set_single"><a title="mmLib.mmCIFDB.mmCIFDB.set_single" class="py-name" href="#" onclick="return doclink('link-35', 'set_single', 'link-35');">set_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"entry"</tt><tt class="py-op">,</tt> <tt class="py-string">"id"</tt><tt class="py-op">,</tt> <tt class="py-name">idcode</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.get_deposition_date"></a><div id="mmCIFDB.get_deposition_date-def"><a name="L91"></a><tt class="py-lineno"> 91</tt> <a class="py-toggle" href="#" id="mmCIFDB.get_deposition_date-toggle" onclick="return toggle('mmCIFDB.get_deposition_date');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#get_deposition_date">get_deposition_date</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.get_deposition_date-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.get_deposition_date-expanded"><a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">        <tt class="py-docstring">"""Return the original deposition date as stored in</tt> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line"><tt class="py-docstring">        _database_pdb_ref.date_original.</tt> </tt>
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-36" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.get_single" class="py-name" href="#" onclick="return doclink('link-36', 'get_single', 'link-34');">get_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"database_pdb_rev"</tt><tt class="py-op">,</tt> <tt class="py-string">"date_original"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.set_deposition_date"></a><div id="mmCIFDB.set_deposition_date-def"><a name="L97"></a><tt class="py-lineno"> 97</tt> <a class="py-toggle" href="#" id="mmCIFDB.set_deposition_date-toggle" onclick="return toggle('mmCIFDB.set_deposition_date');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#set_deposition_date">set_deposition_date</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">date</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.set_deposition_date-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.set_deposition_date-expanded"><a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-37" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.set_single" class="py-name" href="#" onclick="return doclink('link-37', 'set_single', 'link-35');">set_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"database_pdb_rev"</tt><tt class="py-op">,</tt> <tt class="py-string">"date_original"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.get_struct_keywords"></a><div id="mmCIFDB.get_struct_keywords-def"><a name="L100"></a><tt class="py-lineno">100</tt> <a class="py-toggle" href="#" id="mmCIFDB.get_struct_keywords-toggle" onclick="return toggle('mmCIFDB.get_struct_keywords');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#get_struct_keywords">get_struct_keywords</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.get_struct_keywords-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.get_struct_keywords-expanded"><a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line">        <tt class="py-docstring">"""Return structure keywords as stored in</tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line"><tt class="py-docstring">        _struct_keywords.text.</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-38" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.get_single" class="py-name" href="#" onclick="return doclink('link-38', 'get_single', 'link-34');">get_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"struct_keywords"</tt><tt class="py-op">,</tt> <tt class="py-string">"text"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="mmCIFDB.set_struct_keywords"></a><div id="mmCIFDB.set_struct_keywords-def"><a name="L105"></a><tt class="py-lineno">105</tt> <a class="py-toggle" href="#" id="mmCIFDB.set_struct_keywords-toggle" onclick="return toggle('mmCIFDB.set_struct_keywords');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#set_struct_keywords">set_struct_keywords</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.set_struct_keywords-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.set_struct_keywords-expanded"><a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-39" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.set_single" class="py-name" href="#" onclick="return doclink('link-39', 'set_single', 'link-35');">set_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"struct_keywords"</tt><tt class="py-op">,</tt> <tt class="py-string">"text"</tt><tt class="py-op">,</tt> <tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line"> </tt>
+<a name="mmCIFDB.get_struct_keywords"></a><div id="mmCIFDB.get_struct_keywords-def"><a name="L108"></a><tt class="py-lineno">108</tt> <a class="py-toggle" href="#" id="mmCIFDB.get_struct_keywords-toggle" onclick="return toggle('mmCIFDB.get_struct_keywords');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#get_struct_keywords">get_struct_keywords</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.get_struct_keywords-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.get_struct_keywords-expanded"><a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line">        <tt class="py-docstring">"""Return structure keywords as stored in</tt> </tt>
+<a name="L110"></a><tt class="py-lineno">110</tt>  <tt class="py-line"><tt class="py-docstring">        _struct_keywords.text.</tt> </tt>
+<a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-40" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.get_single" class="py-name" href="#" onclick="return doclink('link-40', 'get_single', 'link-34');">get_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"struct_keywords"</tt><tt class="py-op">,</tt> <tt class="py-string">"text"</tt><tt class="py-op">)</tt> </tt>
+</div><a name="mmCIFDB.set_struct_keywords"></a><div id="mmCIFDB.set_struct_keywords-def"><a name="L113"></a><tt class="py-lineno">113</tt> <a class="py-toggle" href="#" id="mmCIFDB.set_struct_keywords-toggle" onclick="return toggle('mmCIFDB.set_struct_keywords');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.mmCIFDB.mmCIFDB-class.html#set_struct_keywords">set_struct_keywords</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">text</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="mmCIFDB.set_struct_keywords-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="mmCIFDB.set_struct_keywords-expanded"><a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt id="link-41" class="py-name"><a title="mmLib.mmCIFDB.mmCIFDB.set_single" class="py-name" href="#" onclick="return doclink('link-41', 'set_single', 'link-35');">set_single</a></tt><tt class="py-op">(</tt><tt class="py-string">"struct_keywords"</tt><tt class="py-op">,</tt> <tt class="py-string">"text"</tt><tt class="py-op">,</tt> <tt class="py-name">text</tt><tt class="py-op">)</tt> </tt>
+</div></div><a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line"> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line"> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line"><tt class="py-comment">## ## generic data</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line"><tt class="py-comment">## set_ims("database_pdb_rev", "date_original", info_map, "date")</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line"><tt class="py-comment">## set_ims("struct_keywords", "text", info_map, "keywords")</tt> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line"><tt class="py-comment">## set_ims("struct_keywords", "pdbx_keywords", info_map, "pdbx_keywords")</tt> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line"><tt class="py-comment">## set_ims("struct", "title", info_map, "title")</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line"> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line"><tt class="py-comment">## ## X-ray experimental data</tt> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line"><tt class="py-comment">## set_imf("refine", "ls_R_factor_R_work", info_map, "R_fact")</tt> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line"><tt class="py-comment">## set_imf("refine", "ls_R_factor_R_free", info_map, "free_R_fact")</tt> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line"><tt class="py-comment">## set_imf("refine", "ls_d_res_high", info_map, "res_high")</tt> </tt>
+<a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line"><tt class="py-comment">## set_imf("refine", "ls_d_res_low", info_map, "res_low")</tt> </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:17 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

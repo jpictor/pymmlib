@@ -1,0 +1,105 @@
+data_CEO
+#
+_chem_comp.id                   CEO
+_chem_comp.name                 '5-METHYLENE-2-[2-OXO-1-(2-THIOPHEN-2-YL-ACETYLAMINO)-ETHYL]-5,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N2 O4 S2'
+_chem_comp.pdbx_synonyms        'HYDROLYZED CEPHALOTHIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.396
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CEO  S1    .  S  0  79.323  8.092  28.955  1  1 
+CEO  C2    .  C  0  80.560  9.000  27.898  1  2 
+CEO  C3    .  C  0  81.792  8.147  27.569  1  3 
+CEO  C3'   .  C  0  83.012  8.788  27.390  1  4 
+CEO  C4    .  C  0  81.656  6.578  27.455  1  5 
+CEO  C4'   .  C  0  82.860  5.683  27.004  1  6 
+CEO  O4A   .  O  0  82.667  4.825  26.093  1  7 
+CEO  O4B   .  O  0  83.994  5.861  27.522  1  8 
+CEO  N5    .  N  0  80.405  5.890  27.692  1  9 
+CEO  C6    .  C  0  79.086  6.492  28.108  1  10
+CEO  C7    .  C  0  78.162  5.559  28.997  1  11
+CEO  C8    .  C  0  77.355  4.482  28.281  1  12
+CEO  O9    .  O  0  77.854  4.014  27.223  1  13
+CEO  N10   .  N  0  78.797  4.937  30.132  1  14
+CEO  C11   .  C  0  78.721  5.468  31.333  1  15
+CEO  O12   .  O  0  78.148  6.549  31.554  1  16
+CEO  C13   .  C  0  79.272  4.611  32.447  1  17
+CEO  C14   .  C  0  80.088  5.224  33.533  1  18
+CEO  C15   .  C  0  79.891  6.502  34.073  1  19
+CEO  C16   .  C  0  80.921  6.626  35.097  1  20
+CEO  C17   .  C  0  81.710  5.618  35.264  1  21
+CEO  S19   .  S  0  81.308  4.377  34.196  1  22
+CEO  1H3'  .  H  0  ?       ?      ?       0  23
+CEO  2H3'  .  H  0  ?       ?      ?       0  24
+CEO  1HC2  .  H  0  ?       ?      ?       0  25
+CEO  2HC2  .  H  0  ?       ?      ?       0  26
+CEO  HC8   .  H  0  ?       ?      ?       1  27
+CEO  HC6   .  H  0  ?       ?      ?       1  28
+CEO  HC7   .  H  0  ?       ?      ?       1  29
+CEO  1H13  .  H  0  ?       ?      ?       0  30
+CEO  2H13  .  H  0  ?       ?      ?       0  31
+CEO  H15   .  H  0  ?       ?      ?       1  32
+CEO  H16   .  H  0  ?       ?      ?       1  33
+CEO  H17   .  H  0  ?       ?      ?       1  34
+CEO  H10   .  H  0  ?       ?      ?       1  35
+CEO  H4A   .  H  0  ?       ?      ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CEO  S1   C2    SING  1 
+CEO  S1   C6    SING  2 
+CEO  C2   C3    SING  3 
+CEO  C2   1HC2  SING  4 
+CEO  C2   2HC2  SING  5 
+CEO  C3   C3'   DOUB  6 
+CEO  C3   C4    SING  7 
+CEO  C3'  1H3'  SING  8 
+CEO  C3'  2H3'  SING  9 
+CEO  C4   C4'   SING  10
+CEO  C4   N5    DOUB  11
+CEO  C4'  O4A   SING  12
+CEO  C4'  O4B   DOUB  13
+CEO  O4A  H4A   SING  14
+CEO  N5   C6    SING  15
+CEO  C6   C7    SING  16
+CEO  C6   HC6   SING  17
+CEO  C7   C8    SING  18
+CEO  C7   N10   SING  19
+CEO  C7   HC7   SING  20
+CEO  C8   O9    DOUB  21
+CEO  C8   HC8   SING  22
+CEO  N10  C11   SING  23
+CEO  N10  H10   SING  24
+CEO  C11  O12   DOUB  25
+CEO  C11  C13   SING  26
+CEO  C13  C14   SING  27
+CEO  C13  1H13  SING  28
+CEO  C13  2H13  SING  29
+CEO  C14  C15   DOUB  30
+CEO  C14  S19   SING  31
+CEO  C15  C16   SING  32
+CEO  C15  H15   SING  33
+CEO  C16  C17   DOUB  34
+CEO  C16  H16   SING  35
+CEO  C17  S19   SING  36
+CEO  C17  H17   SING  37
+#

@@ -1,0 +1,97 @@
+data_AHM
+#
+_chem_comp.id                   AHM
+_chem_comp.name                 2,5-ANHYDROMANNITOL-1,6-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHM  P1    .  P  0  ?  ?  ?  1  1 
+AHM  O1P   .  O  0  ?  ?  ?  1  2 
+AHM  O2P   .  O  0  ?  ?  ?  1  3 
+AHM  O3P   .  O  0  ?  ?  ?  1  4 
+AHM  O1    .  O  0  ?  ?  ?  1  5 
+AHM  C1    .  C  0  ?  ?  ?  1  6 
+AHM  C2    .  C  0  ?  ?  ?  1  7 
+AHM  C3    .  C  0  ?  ?  ?  1  8 
+AHM  O3    .  O  0  ?  ?  ?  1  9 
+AHM  C4    .  C  0  ?  ?  ?  1  10
+AHM  O4    .  O  0  ?  ?  ?  1  11
+AHM  C5    .  C  0  ?  ?  ?  1  12
+AHM  O5    .  O  0  ?  ?  ?  1  13
+AHM  C6    .  C  0  ?  ?  ?  1  14
+AHM  O6    .  O  0  ?  ?  ?  1  15
+AHM  P2    .  P  0  ?  ?  ?  1  16
+AHM  O4P   .  O  0  ?  ?  ?  1  17
+AHM  O5P   .  O  0  ?  ?  ?  1  18
+AHM  O6P   .  O  0  ?  ?  ?  1  19
+AHM  1H1   .  H  0  ?  ?  ?  0  20
+AHM  2H1   .  H  0  ?  ?  ?  0  21
+AHM  H2    .  H  0  ?  ?  ?  1  22
+AHM  H3    .  H  0  ?  ?  ?  1  23
+AHM  H4    .  H  0  ?  ?  ?  1  24
+AHM  H5    .  H  0  ?  ?  ?  1  25
+AHM  1H6   .  H  0  ?  ?  ?  0  26
+AHM  2H6   .  H  0  ?  ?  ?  0  27
+AHM  HO3   .  H  0  ?  ?  ?  1  28
+AHM  HO4   .  H  0  ?  ?  ?  1  29
+AHM  2HOP  .  H  0  ?  ?  ?  0  30
+AHM  3HOP  .  H  0  ?  ?  ?  0  31
+AHM  5HOP  .  H  0  ?  ?  ?  0  32
+AHM  6HOP  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHM  P1   O1P   DOUB  1 
+AHM  P1   O2P   SING  2 
+AHM  P1   O3P   SING  3 
+AHM  P1   O1    SING  4 
+AHM  O2P  2HOP  SING  5 
+AHM  O3P  3HOP  SING  6 
+AHM  O1   C1    SING  7 
+AHM  C1   C2    SING  8 
+AHM  C1   1H1   SING  9 
+AHM  C1   2H1   SING  10
+AHM  C2   C3    SING  11
+AHM  C2   O5    SING  12
+AHM  C2   H2    SING  13
+AHM  C3   C4    SING  14
+AHM  C3   O3    SING  15
+AHM  C3   H3    SING  16
+AHM  O3   HO3   SING  17
+AHM  C4   C5    SING  18
+AHM  C4   O4    SING  19
+AHM  C4   H4    SING  20
+AHM  O4   HO4   SING  21
+AHM  C5   C6    SING  22
+AHM  C5   O5    SING  23
+AHM  C5   H5    SING  24
+AHM  C6   O6    SING  25
+AHM  C6   1H6   SING  26
+AHM  C6   2H6   SING  27
+AHM  O6   P2    SING  28
+AHM  P2   O4P   DOUB  29
+AHM  P2   O5P   SING  30
+AHM  P2   O6P   SING  31
+AHM  O5P  5HOP  SING  32
+AHM  O6P  6HOP  SING  33
+#

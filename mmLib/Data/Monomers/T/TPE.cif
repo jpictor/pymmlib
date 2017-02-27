@@ -1,0 +1,147 @@
+data_TPE
+#
+_chem_comp.id                   TPE
+_chem_comp.name                 
+;3'-O-ACETYLTHYMIDINE-(5' DIPHOSPHATE PHENYL ESTER)
+;
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H22 N2 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        520.326
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPE  C1B   .  C  0  ?  ?  ?  1  1 
+TPE  C2B   .  C  0  ?  ?  ?  1  2 
+TPE  C3B   .  C  0  ?  ?  ?  1  3 
+TPE  C4B   .  C  0  ?  ?  ?  1  4 
+TPE  C5B   .  C  0  ?  ?  ?  1  5 
+TPE  C6B   .  C  0  ?  ?  ?  1  6 
+TPE  PA    .  P  0  ?  ?  ?  1  7 
+TPE  O1A   .  O  0  ?  ?  ?  1  8 
+TPE  O2A   .  O  0  ?  ?  ?  1  9 
+TPE  O3A   .  O  0  ?  ?  ?  1  10
+TPE  PB    .  P  0  ?  ?  ?  1  11
+TPE  O1B   .  O  0  ?  ?  ?  1  12
+TPE  O2B   .  O  0  ?  ?  ?  1  13
+TPE  O3B   .  O  0  ?  ?  ?  1  14
+TPE  O5*   .  O  0  ?  ?  ?  1  15
+TPE  C5*   .  C  0  ?  ?  ?  1  16
+TPE  C4*   .  C  0  ?  ?  ?  1  17
+TPE  O4*   .  O  0  ?  ?  ?  1  18
+TPE  C3*   .  C  0  ?  ?  ?  1  19
+TPE  O3*   .  O  0  ?  ?  ?  1  20
+TPE  CR    .  C  0  ?  ?  ?  1  21
+TPE  OR    .  O  0  ?  ?  ?  1  22
+TPE  CHR   .  C  0  ?  ?  ?  1  23
+TPE  C2*   .  C  0  ?  ?  ?  1  24
+TPE  C1*   .  C  0  ?  ?  ?  1  25
+TPE  N1    .  N  0  ?  ?  ?  1  26
+TPE  C2    .  C  0  ?  ?  ?  1  27
+TPE  O2    .  O  0  ?  ?  ?  1  28
+TPE  N3    .  N  0  ?  ?  ?  1  29
+TPE  C4    .  C  0  ?  ?  ?  1  30
+TPE  O4    .  O  0  ?  ?  ?  1  31
+TPE  C5    .  C  0  ?  ?  ?  1  32
+TPE  C5M   .  C  0  ?  ?  ?  1  33
+TPE  C6    .  C  0  ?  ?  ?  1  34
+TPE  H2B   .  H  0  ?  ?  ?  1  35
+TPE  H3B   .  H  0  ?  ?  ?  1  36
+TPE  H4B   .  H  0  ?  ?  ?  1  37
+TPE  H5B   .  H  0  ?  ?  ?  1  38
+TPE  H6B   .  H  0  ?  ?  ?  1  39
+TPE  2H5*  .  H  0  ?  ?  ?  0  40
+TPE  1H5*  .  H  0  ?  ?  ?  0  41
+TPE  H4*   .  H  0  ?  ?  ?  1  42
+TPE  H3*   .  H  0  ?  ?  ?  1  43
+TPE  3HHR  .  H  0  ?  ?  ?  0  44
+TPE  2HHR  .  H  0  ?  ?  ?  0  45
+TPE  1HHR  .  H  0  ?  ?  ?  0  46
+TPE  2H2*  .  H  0  ?  ?  ?  0  47
+TPE  1H2*  .  H  0  ?  ?  ?  0  48
+TPE  H1*   .  H  0  ?  ?  ?  1  49
+TPE  H3    .  H  0  ?  ?  ?  1  50
+TPE  3H5M  .  H  0  ?  ?  ?  0  51
+TPE  2H5M  .  H  0  ?  ?  ?  0  52
+TPE  1H5M  .  H  0  ?  ?  ?  0  53
+TPE  H6    .  H  0  ?  ?  ?  1  54
+TPE  2HPA  .  H  0  ?  ?  ?  0  55
+TPE  2HPB  .  H  0  ?  ?  ?  0  56
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPE  C1B  C2B   AROM  1 
+TPE  C1B  C6B   AROM  2 
+TPE  C1B  O3B   SING  3 
+TPE  C2B  C3B   AROM  4 
+TPE  C2B  H2B   SING  5 
+TPE  C3B  C4B   AROM  6 
+TPE  C3B  H3B   SING  7 
+TPE  C4B  C5B   AROM  8 
+TPE  C4B  H4B   SING  9 
+TPE  C5B  C6B   AROM  10
+TPE  C5B  H5B   SING  11
+TPE  C6B  H6B   SING  12
+TPE  PA   O1A   DOUB  13
+TPE  PA   O2A   SING  14
+TPE  PA   O3A   SING  15
+TPE  PA   O5*   SING  16
+TPE  O2A  2HPA  SING  17
+TPE  O3A  PB    SING  18
+TPE  PB   O1B   DOUB  19
+TPE  PB   O2B   SING  20
+TPE  PB   O3B   SING  21
+TPE  O2B  2HPB  SING  22
+TPE  O5*  C5*   SING  23
+TPE  C5*  C4*   SING  24
+TPE  C5*  2H5*  SING  25
+TPE  C5*  1H5*  SING  26
+TPE  C4*  O4*   SING  27
+TPE  C4*  C3*   SING  28
+TPE  C4*  H4*   SING  29
+TPE  O4*  C1*   SING  30
+TPE  C3*  O3*   SING  31
+TPE  C3*  C2*   SING  32
+TPE  C3*  H3*   SING  33
+TPE  O3*  CR    SING  34
+TPE  CR   OR    DOUB  35
+TPE  CR   CHR   SING  36
+TPE  CHR  3HHR  SING  37
+TPE  CHR  2HHR  SING  38
+TPE  CHR  1HHR  SING  39
+TPE  C2*  C1*   SING  40
+TPE  C2*  2H2*  SING  41
+TPE  C2*  1H2*  SING  42
+TPE  C1*  N1    SING  43
+TPE  C1*  H1*   SING  44
+TPE  N1   C2    SING  45
+TPE  N1   C6    SING  46
+TPE  C2   O2    DOUB  47
+TPE  C2   N3    SING  48
+TPE  N3   C4    SING  49
+TPE  N3   H3    SING  50
+TPE  C4   O4    DOUB  51
+TPE  C4   C5    SING  52
+TPE  C5   C5M   SING  53
+TPE  C5   C6    DOUB  54
+TPE  C5M  3H5M  SING  55
+TPE  C5M  2H5M  SING  56
+TPE  C5M  1H5M  SING  57
+TPE  C6   H6    SING  58
+#

@@ -1,0 +1,57 @@
+data_3CH
+#
+_chem_comp.id                   3CH
+_chem_comp.name                 3-CHLOROPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        128.558
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3CH  C4   .  C   0  26.724  5.142  3.313  1  1 
+3CH  C5   .  C   0  27.521  5.841  2.405  1  2 
+3CH  C3   .  C   0  26.467  5.780  4.516  1  3 
+3CH  C6   .  C   0  28.072  7.099  2.651  1  4 
+3CH  C2   .  C   0  27.003  7.032  4.810  1  5 
+3CH  C1   .  C   0  27.803  7.693  3.874  1  6 
+3CH  OH   .  O   0  28.373  8.912  4.123  1  7 
+3CH  CL   .  CL  0  25.677  5.144  5.436  0  8 
+3CH  HC2  .  H   0  ?       ?      ?      1  9 
+3CH  HC4  .  H   0  ?       ?      ?      1  10
+3CH  HC5  .  H   0  ?       ?      ?      1  11
+3CH  HC6  .  H   0  ?       ?      ?      1  12
+3CH  HO   .  H   0  ?       ?      ?      1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3CH  C4  C5   AROM  1 
+3CH  C4  C3   AROM  2 
+3CH  C4  HC4  SING  3 
+3CH  C5  C6   AROM  4 
+3CH  C5  HC5  SING  5 
+3CH  C3  C2   AROM  6 
+3CH  C3  CL   SING  7 
+3CH  C6  C1   AROM  8 
+3CH  C6  HC6  SING  9 
+3CH  C2  C1   AROM  10
+3CH  C2  HC2  SING  11
+3CH  C1  OH   SING  12
+3CH  OH  HO   SING  13
+#

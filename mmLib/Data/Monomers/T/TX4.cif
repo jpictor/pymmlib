@@ -1,0 +1,82 @@
+data_TX4
+#
+_chem_comp.id                   TX4
+_chem_comp.name                 'L-THREONOHYDROXAMATE 4-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H12 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        233.114
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TX4  O7   .  O  0  63.953  23.527  24.915  1  1 
+TX4  P    .  P  0  65.228  23.280  24.121  1  2 
+TX4  O5   .  O  0  65.355  24.282  23.008  1  3 
+TX4  O6   .  O  0  66.445  23.051  25.010  1  4 
+TX4  O4   .  O  0  64.927  21.919  23.279  1  5 
+TX4  C4   .  C  0  64.824  20.685  23.964  1  6 
+TX4  C3   .  C  0  63.345  20.318  24.024  1  7 
+TX4  O3   .  O  0  63.244  19.033  24.692  1  8 
+TX4  C2   .  C  0  62.707  20.345  22.618  1  9 
+TX4  O2   .  O  0  63.311  19.427  21.692  1  10
+TX4  C1   .  C  0  61.268  19.964  22.717  1  11
+TX4  O1   .  O  0  60.945  18.693  22.529  1  12
+TX4  N    .  N  0  60.398  20.832  22.918  1  13
+TX4  ON   .  O  0  59.086  20.307  22.985  1  14
+TX4  HON  .  H  0  ?       ?       ?       1  15
+TX4  HN   .  H  0  ?       ?       ?       1  16
+TX4  HO1  .  H  0  ?       ?       ?       1  17
+TX4  H1   .  H  0  ?       ?       ?       1  18
+TX4  HO2  .  H  0  ?       ?       ?       1  19
+TX4  H2   .  H  0  ?       ?       ?       1  20
+TX4  HO3  .  H  0  ?       ?       ?       1  21
+TX4  H3   .  H  0  ?       ?       ?       1  22
+TX4  1H4  .  H  0  ?       ?       ?       0  23
+TX4  2H4  .  H  0  ?       ?       ?       0  24
+TX4  HO5  .  H  0  ?       ?       ?       1  25
+TX4  HO6  .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TX4  O7  P    DOUB  1 
+TX4  P   O5   SING  2 
+TX4  P   O6   SING  3 
+TX4  P   O4   SING  4 
+TX4  O5  HO5  SING  5 
+TX4  O6  HO6  SING  6 
+TX4  O4  C4   SING  7 
+TX4  C4  C3   SING  8 
+TX4  C4  1H4  SING  9 
+TX4  C4  2H4  SING  10
+TX4  C3  O3   SING  11
+TX4  C3  C2   SING  12
+TX4  C3  H3   SING  13
+TX4  O3  HO3  SING  14
+TX4  C2  O2   SING  15
+TX4  C2  C1   SING  16
+TX4  C2  H2   SING  17
+TX4  O2  HO2  SING  18
+TX4  C1  O1   SING  19
+TX4  C1  N    SING  20
+TX4  C1  H1   SING  21
+TX4  O1  HO1  SING  22
+TX4  N   ON   SING  23
+TX4  N   HN   SING  24
+TX4  ON  HON  SING  25
+#

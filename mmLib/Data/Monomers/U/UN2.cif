@@ -1,0 +1,66 @@
+data_UN2
+#
+_chem_comp.id                   UN2
+_chem_comp.name                 '2-AMINO-4,4-DIHYDROXYBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        135.119
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UN2  N     .  N  0  48.685  75.111  53.242  1  1 
+UN2  CA    .  C  0  47.959  74.835  51.978  1  2 
+UN2  C     .  C  0  46.52   75.274  52.115  1  3 
+UN2  O     .  O  0  46.168  76.451  52.155  1  4 
+UN2  CB    .  C  0  47.819  73.318  51.707  1  5 
+UN2  CG    .  C  0  46.397  72.951  52.203  1  6 
+UN2  OD1   .  O  0  46.485  72.41   53.524  1  7 
+UN2  OD2   .  O  0  ?       ?       ?       1  8 
+UN2  OXT   .  O  0  45.688  74.258  52.222  1  9 
+UN2  1HN   .  H  0  48.794  75.659  54.095  0  10
+UN2  2HN   .  H  0  49.515  75.453  53.726  0  11
+UN2  HA    .  H  0  48.45   75.348  51.118  1  12
+UN2  1HBC  .  H  0  48.629  72.701  52.162  0  13
+UN2  2HBC  .  H  0  48.017  73.028  50.649  0  14
+UN2  1HGC  .  H  0  ?       ?       ?       0  15
+UN2  HD1   .  H  0  45.613  72.185  53.828  1  16
+UN2  HXT   .  H  0  ?       ?       ?       1  17
+UN2  HDT   .  H  0  ?       ?       ?       1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UN2  N    CA    SING  1 
+UN2  N    1HN   SING  2 
+UN2  N    2HN   SING  3 
+UN2  CA   C     SING  4 
+UN2  CA   CB    SING  5 
+UN2  CA   HA    SING  6 
+UN2  C    O     DOUB  7 
+UN2  C    OXT   SING  8 
+UN2  CB   CG    SING  9 
+UN2  CB   1HBC  SING  10
+UN2  CB   2HBC  SING  11
+UN2  CG   OD1   SING  12
+UN2  CG   1HGC  SING  13
+UN2  CG   OD2   SING  14
+UN2  OD1  HD1   SING  15
+UN2  OD2  HDT   SING  16
+UN2  OXT  HXT   SING  17
+#

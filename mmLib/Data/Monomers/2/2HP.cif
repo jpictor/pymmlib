@@ -1,0 +1,44 @@
+data_2HP
+#
+_chem_comp.id                   2HP
+_chem_comp.name                 'DIHYDROGENPHOSPHATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H2 O4 P1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       96.987
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2HP  P    .  P  0   ?  ?  ?  1  1
+2HP  O1   .  O  0   ?  ?  ?  1  2
+2HP  O2   .  O  -1  ?  ?  ?  1  3
+2HP  O3   .  O  0   ?  ?  ?  1  4
+2HP  O4   .  O  0   ?  ?  ?  1  5
+2HP  HO3  .  H  0   ?  ?  ?  1  6
+2HP  HO4  .  H  0   ?  ?  ?  1  7
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2HP  P   O1   DOUB  1
+2HP  P   O2   SING  2
+2HP  P   O3   SING  3
+2HP  P   O4   SING  4
+2HP  O3  HO3  SING  5
+2HP  O4  HO4  SING  6
+#

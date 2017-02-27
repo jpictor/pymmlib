@@ -1,0 +1,76 @@
+data_4TP
+#
+_chem_comp.id                   4TP
+_chem_comp.name                 4-HYDROXY-L-THREONINE-5-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.099
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4TP  N     .  N  0  8.410   -1.225  -3.822  1  1 
+4TP  CA    .  C  0  9.381   -2.104  -4.490  1  2 
+4TP  CB    .  C  0  8.663   -3.074  -5.448  1  3 
+4TP  OG1   .  O  0  7.265   -3.132  -5.151  1  4 
+4TP  CG2   .  C  0  9.281   -4.499  -5.368  1  5 
+4TP  C     .  C  0  10.406  -1.309  -5.302  1  6 
+4TP  O     .  O  0  10.932  -1.786  -6.326  1  7 
+4TP  OXT   .  O  0  10.706  -0.170  -4.925  1  8 
+4TP  OP4   .  O  0  8.587   -5.487  -6.314  1  9 
+4TP  P     .  P  0  9.053   -6.978  -6.423  1  10
+4TP  OP1   .  O  0  8.430   -7.501  -7.680  1  11
+4TP  OP2   .  O  0  10.595  -7.087  -6.592  1  12
+4TP  OP3   .  O  0  8.515   -7.844  -5.256  1  13
+4TP  2HOP  .  H  0  ?       ?       ?       0  14
+4TP  3HOP  .  H  0  ?       ?       ?       0  15
+4TP  1HG2  .  H  0  ?       ?       ?       0  16
+4TP  2HG2  .  H  0  ?       ?       ?       0  17
+4TP  HB    .  H  0  ?       ?       ?       1  18
+4TP  HG1   .  H  0  ?       ?       ?       1  19
+4TP  HA    .  H  0  ?       ?       ?       1  20
+4TP  H     .  H  0  ?       ?       ?       1  21
+4TP  2HN   .  H  0  ?       ?       ?       0  22
+4TP  HXT   .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4TP  N    CA    SING  1 
+4TP  N    H     SING  2 
+4TP  N    2HN   SING  3 
+4TP  CA   CB    SING  4 
+4TP  CA   C     SING  5 
+4TP  CA   HA    SING  6 
+4TP  CB   OG1   SING  7 
+4TP  CB   CG2   SING  8 
+4TP  CB   HB    SING  9 
+4TP  OG1  HG1   SING  10
+4TP  CG2  OP4   SING  11
+4TP  CG2  1HG2  SING  12
+4TP  CG2  2HG2  SING  13
+4TP  C    O     DOUB  14
+4TP  C    OXT   SING  15
+4TP  OXT  HXT   SING  16
+4TP  OP4  P     SING  17
+4TP  P    OP1   DOUB  18
+4TP  P    OP2   SING  19
+4TP  P    OP3   SING  20
+4TP  OP2  2HOP  SING  21
+4TP  OP3  3HOP  SING  22
+#

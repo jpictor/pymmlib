@@ -1,0 +1,81 @@
+data_5DS
+#
+_chem_comp.id                   5DS
+_chem_comp.name                 (R)-1-AMINO-1-[5-(DIMETHYLAMINO)-1,3,4-THIADIAZOL-2-YL]METHANESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 N5 O2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        237.294
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5DS  C1    .  C  0  -3.534  6.719   12.375  1  1 
+5DS  N1    .  N  0  -3.355  5.984   13.604  1  2 
+5DS  C2    .  C  0  -2.449  6.353   14.646  1  3 
+5DS  C3    .  C  0  -4.117  4.823   13.792  1  4 
+5DS  S1    .  S  0  -3.389  3.599   14.805  1  5 
+5DS  N2    .  N  0  -4.519  4.034   12.651  1  6 
+5DS  N3    .  N  0  -4.844  2.692   12.935  1  7 
+5DS  C4    .  C  0  -4.585  2.383   14.288  1  8 
+5DS  C5    .  C  0  -4.277  1.024   14.775  1  9 
+5DS  N4    .  N  0  -4.147  0.085   13.710  1  10
+5DS  S2    .  S  0  -5.171  0.608   16.185  1  11
+5DS  O2    .  O  0  -6.494  1.117   16.275  1  12
+5DS  O3    .  O  0  -4.549  1.130   17.317  1  13
+5DS  N5    .  N  0  -5.040  -0.739  16.548  1  14
+5DS  1H1   .  H  0  ?       ?       ?       0  15
+5DS  2H1   .  H  0  ?       ?       ?       0  16
+5DS  3H1   .  H  0  ?       ?       ?       0  17
+5DS  1H2   .  H  0  ?       ?       ?       0  18
+5DS  2H2   .  H  0  ?       ?       ?       0  19
+5DS  3H2   .  H  0  ?       ?       ?       0  20
+5DS  H5    .  H  0  ?       ?       ?       1  21
+5DS  1HN4  .  H  0  ?       ?       ?       0  22
+5DS  2HN4  .  H  0  ?       ?       ?       0  23
+5DS  1HN5  .  H  0  ?       ?       ?       0  24
+5DS  2HN5  .  H  0  ?       ?       ?       0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5DS  C1  N1    SING  1 
+5DS  C1  1H1   SING  2 
+5DS  C1  2H1   SING  3 
+5DS  C1  3H1   SING  4 
+5DS  N1  C2    SING  5 
+5DS  N1  C3    SING  6 
+5DS  C2  1H2   SING  7 
+5DS  C2  2H2   SING  8 
+5DS  C2  3H2   SING  9 
+5DS  C3  N2    DOUB  10
+5DS  C3  S1    SING  11
+5DS  S1  C4    SING  12
+5DS  N2  N3    SING  13
+5DS  N3  C4    DOUB  14
+5DS  C4  C5    SING  15
+5DS  C5  N4    SING  16
+5DS  C5  S2    SING  17
+5DS  C5  H5    SING  18
+5DS  N4  1HN4  SING  19
+5DS  N4  2HN4  SING  20
+5DS  S2  N5    SING  21
+5DS  S2  O2    DOUB  22
+5DS  S2  O3    DOUB  23
+5DS  N5  1HN5  SING  24
+5DS  N5  2HN5  SING  25
+#

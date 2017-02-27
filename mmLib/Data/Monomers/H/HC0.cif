@@ -1,0 +1,71 @@
+data_HC0
+#
+_chem_comp.id                   HC0
+_chem_comp.name                 '2 IRON/2 SULFUR/6 CARBONYL/1 WATER INORGANIC CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H2 O7 FE2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        361.892
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HC0  FE1   .  FE  0  ?  ?  ?  0  1 
+HC0  FE2   .  FE  0  ?  ?  ?  0  2 
+HC0  S1    .  S   0  ?  ?  ?  1  3 
+HC0  S2    .  S   0  ?  ?  ?  1  4 
+HC0  O1    .  O   0  ?  ?  ?  1  5 
+HC0  O8    .  O   0  ?  ?  ?  1  6 
+HC0  O3    .  O   0  ?  ?  ?  1  7 
+HC0  O4    .  O   0  ?  ?  ?  1  8 
+HC0  O5    .  O   0  ?  ?  ?  1  9 
+HC0  O6    .  O   0  ?  ?  ?  1  10
+HC0  O7    .  O   0  ?  ?  ?  1  11
+HC0  C3    .  C   0  ?  ?  ?  1  12
+HC0  C4    .  C   0  ?  ?  ?  1  13
+HC0  C5    .  C   0  ?  ?  ?  1  14
+HC0  C6    .  C   0  ?  ?  ?  1  15
+HC0  C7    .  C   0  ?  ?  ?  1  16
+HC0  C8    .  C   0  ?  ?  ?  1  17
+HC0  1HO1  .  H   0  ?  ?  ?  0  18
+HC0  2HO1  .  H   0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HC0  FE1  C3    SING  1 
+HC0  FE1  C4    SING  2 
+HC0  FE1  C5    SING  3 
+HC0  FE1  S1    SING  4 
+HC0  FE1  S2    SING  5 
+HC0  FE1  O1    SING  6 
+HC0  FE1  FE2   SING  7 
+HC0  FE2  C6    SING  8 
+HC0  FE2  C7    SING  9 
+HC0  FE2  C5    SING  10
+HC0  FE2  S1    SING  11
+HC0  FE2  S2    SING  12
+HC0  FE2  C8    SING  13
+HC0  O1   1HO1  SING  14
+HC0  O1   2HO1  SING  15
+HC0  O8   C8    DOUB  16
+HC0  O3   C3    DOUB  17
+HC0  O4   C4    DOUB  18
+HC0  O5   C5    DOUB  19
+HC0  O6   C6    DOUB  20
+HC0  O7   C7    DOUB  21
+#

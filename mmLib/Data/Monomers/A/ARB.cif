@@ -1,0 +1,71 @@
+data_ARB
+#
+_chem_comp.id                   ARB
+_chem_comp.name                 BETA-L-ARABINOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARB  C1   .  C  0  ?  ?  ?  1  1 
+ARB  C2   .  C  0  ?  ?  ?  1  2 
+ARB  C3   .  C  0  ?  ?  ?  1  3 
+ARB  C4   .  C  0  ?  ?  ?  1  4 
+ARB  C5   .  C  0  ?  ?  ?  1  5 
+ARB  O1   .  O  0  ?  ?  ?  1  6 
+ARB  O2   .  O  0  ?  ?  ?  1  7 
+ARB  O3   .  O  0  ?  ?  ?  1  8 
+ARB  O4   .  O  0  ?  ?  ?  1  9 
+ARB  O5   .  O  0  ?  ?  ?  1  10
+ARB  H1   .  H  0  ?  ?  ?  1  11
+ARB  H2   .  H  0  ?  ?  ?  1  12
+ARB  H3   .  H  0  ?  ?  ?  1  13
+ARB  H4   .  H  0  ?  ?  ?  1  14
+ARB  1H5  .  H  0  ?  ?  ?  0  15
+ARB  2H5  .  H  0  ?  ?  ?  0  16
+ARB  HO1  .  H  0  ?  ?  ?  1  17
+ARB  HO2  .  H  0  ?  ?  ?  1  18
+ARB  HO3  .  H  0  ?  ?  ?  1  19
+ARB  HO4  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARB  C1  C2   SING  1 
+ARB  C1  O1   SING  2 
+ARB  C1  O5   SING  3 
+ARB  C1  H1   SING  4 
+ARB  C2  C3   SING  5 
+ARB  C2  O2   SING  6 
+ARB  C2  H2   SING  7 
+ARB  C3  C4   SING  8 
+ARB  C3  O3   SING  9 
+ARB  C3  H3   SING  10
+ARB  C4  C5   SING  11
+ARB  C4  O4   SING  12
+ARB  C4  H4   SING  13
+ARB  C5  O5   SING  14
+ARB  C5  1H5  SING  15
+ARB  C5  2H5  SING  16
+ARB  O1  HO1  SING  17
+ARB  O2  HO2  SING  18
+ARB  O3  HO3  SING  19
+ARB  O4  HO4  SING  20
+#

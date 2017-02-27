@@ -1,0 +1,76 @@
+data_I3A
+#
+_chem_comp.id                   I3A
+_chem_comp.name                 1H-INDOLE-3-CARBALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H7 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        145.160
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          I3A
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2c(c1)C(=CN2)C=O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+I3A  O    .  O  0  19.837  28.124  24.489  1  N  1 
+I3A  C3*  .  C  0  19.967  28.697  23.393  1  N  2 
+I3A  C3   .  C  0  19.644  27.953  22.156  1  N  3 
+I3A  C2   .  C  0  19.717  28.491  20.909  1  N  4 
+I3A  N    .  N  0  19.323  27.534  20.017  1  N  5 
+I3A  C8   .  C  0  18.949  26.385  20.601  1  Y  6 
+I3A  C9   .  C  0  19.141  26.559  22.044  1  Y  7 
+I3A  C4   .  C  0  18.835  25.536  22.932  1  Y  8 
+I3A  C5   .  C  0  18.398  24.314  22.431  1  Y  9 
+I3A  C6   .  C  0  18.227  24.117  21.052  1  Y  10
+I3A  C7   .  C  0  18.514  25.127  20.132  1  Y  11
+I3A  H3*  .  H  0  20.310  29.720  23.345  1  N  12
+I3A  H2   .  H  0  20.031  29.496  20.667  1  N  13
+I3A  HN   .  H  0  19.314  27.676  19.027  1  N  14
+I3A  H4   .  H  0  18.935  25.687  23.997  1  N  15
+I3A  H5   .  H  0  18.187  23.504  23.114  1  N  16
+I3A  H6   .  H  0  17.866  23.164  20.695  1  N  17
+I3A  H7   .  H  0  18.404  24.948  19.073  1  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+I3A  O    C3*  DOUB  N  1 
+I3A  C3*  C3   SING  N  2 
+I3A  C3*  H3*  SING  N  3 
+I3A  C3   C2   DOUB  N  4 
+I3A  C3   C9   SING  N  5 
+I3A  C2   N    SING  N  6 
+I3A  C2   H2   SING  N  7 
+I3A  N    C8   SING  N  8 
+I3A  N    HN   SING  N  9 
+I3A  C8   C9   DOUB  Y  10
+I3A  C8   C7   SING  Y  11
+I3A  C9   C4   SING  Y  12
+I3A  C4   C5   DOUB  Y  13
+I3A  C4   H4   SING  N  14
+I3A  C5   C6   SING  Y  15
+I3A  C5   H5   SING  N  16
+I3A  C6   C7   DOUB  Y  17
+I3A  C6   H6   SING  N  18
+I3A  C7   H7   SING  N  19
+#

@@ -1,0 +1,79 @@
+data_AGC
+#
+_chem_comp.id                   AGC
+_chem_comp.name                 ALPHA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AGC  C1   .  C  0  55.153  29.098  44.116  1  1 
+AGC  O1   .  O  0  54.488  29.115  45.359  1  2 
+AGC  C2   .  C  0  56.479  28.328  44.231  1  3 
+AGC  O2   .  O  0  56.283  27.054  44.807  1  4 
+AGC  C3   .  C  0  57.496  29.125  45.050  1  5 
+AGC  O3   .  O  0  58.747  28.478  45.043  1  6 
+AGC  C4   .  C  0  57.626  30.543  44.500  1  7 
+AGC  O4   .  O  0  58.499  31.304  45.300  1  8 
+AGC  C5   .  C  0  56.255  31.213  44.446  1  9 
+AGC  C6   .  C  0  56.376  32.613  43.860  1  10
+AGC  O6   .  O  0  55.091  33.157  43.677  1  11
+AGC  O5   .  O  0  55.366  30.431  43.664  1  12
+AGC  HO6  .  H  0  ?       ?       ?       1  13
+AGC  1H6  .  H  0  ?       ?       ?       0  14
+AGC  2H6  .  H  0  ?       ?       ?       0  15
+AGC  H5   .  H  0  ?       ?       ?       1  16
+AGC  H1   .  H  0  ?       ?       ?       1  17
+AGC  HO1  .  H  0  ?       ?       ?       1  18
+AGC  H2   .  H  0  ?       ?       ?       1  19
+AGC  HO2  .  H  0  ?       ?       ?       1  20
+AGC  H3   .  H  0  ?       ?       ?       1  21
+AGC  HO3  .  H  0  ?       ?       ?       1  22
+AGC  H4   .  H  0  ?       ?       ?       1  23
+AGC  HO4  .  H  0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AGC  C1  O5   SING  1 
+AGC  C1  H1   SING  2 
+AGC  C1  O1   SING  3 
+AGC  C1  C2   SING  4 
+AGC  O1  HO1  SING  5 
+AGC  C2  H2   SING  6 
+AGC  C2  O2   SING  7 
+AGC  C2  C3   SING  8 
+AGC  O2  HO2  SING  9 
+AGC  C3  H3   SING  10
+AGC  C3  O3   SING  11
+AGC  C3  C4   SING  12
+AGC  O3  HO3  SING  13
+AGC  C4  C5   SING  14
+AGC  C4  H4   SING  15
+AGC  C4  O4   SING  16
+AGC  O4  HO4  SING  17
+AGC  C5  C6   SING  18
+AGC  C5  H5   SING  19
+AGC  C5  O5   SING  20
+AGC  C6  O6   SING  21
+AGC  C6  1H6  SING  22
+AGC  C6  2H6  SING  23
+AGC  O6  HO6  SING  24
+#

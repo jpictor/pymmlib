@@ -1,0 +1,121 @@
+data_HEP
+#
+_chem_comp.id                   HEP
+_chem_comp.name                 PHENYL[1-(N-SUCCINYLAMINO)PENTYL]PHOSPHONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H22 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        343.316
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEP  C1    .  C  0  ?  ?  ?  1  1 
+HEP  C2    .  C  0  ?  ?  ?  1  2 
+HEP  C3    .  C  0  ?  ?  ?  1  3 
+HEP  C4    .  C  0  ?  ?  ?  1  4 
+HEP  C5    .  C  0  ?  ?  ?  1  5 
+HEP  C6    .  C  0  ?  ?  ?  1  6 
+HEP  C7    .  C  0  ?  ?  ?  1  7 
+HEP  C8    .  C  0  ?  ?  ?  1  8 
+HEP  C9    .  C  0  ?  ?  ?  1  9 
+HEP  C10   .  C  0  ?  ?  ?  1  10
+HEP  C11   .  C  0  ?  ?  ?  1  11
+HEP  C12   .  C  0  ?  ?  ?  1  12
+HEP  C13   .  C  0  ?  ?  ?  1  13
+HEP  C14   .  C  0  ?  ?  ?  1  14
+HEP  C15   .  C  0  ?  ?  ?  1  15
+HEP  O1P   .  O  0  ?  ?  ?  1  16
+HEP  O2P   .  O  0  ?  ?  ?  1  17
+HEP  O3P   .  O  0  ?  ?  ?  1  18
+HEP  O4    .  O  0  ?  ?  ?  1  19
+HEP  O5    .  O  0  ?  ?  ?  1  20
+HEP  O6    .  O  0  ?  ?  ?  1  21
+HEP  N1    .  N  0  ?  ?  ?  1  22
+HEP  P     .  P  0  ?  ?  ?  1  23
+HEP  H1    .  H  0  ?  ?  ?  1  24
+HEP  1H2   .  H  0  ?  ?  ?  0  25
+HEP  2H2   .  H  0  ?  ?  ?  0  26
+HEP  1H3   .  H  0  ?  ?  ?  0  27
+HEP  2H3   .  H  0  ?  ?  ?  0  28
+HEP  1H4   .  H  0  ?  ?  ?  0  29
+HEP  2H4   .  H  0  ?  ?  ?  0  30
+HEP  1H5   .  H  0  ?  ?  ?  0  31
+HEP  2H5   .  H  0  ?  ?  ?  0  32
+HEP  3H5   .  H  0  ?  ?  ?  0  33
+HEP  H6    .  H  0  ?  ?  ?  1  34
+HEP  H7    .  H  0  ?  ?  ?  1  35
+HEP  H8    .  H  0  ?  ?  ?  1  36
+HEP  H9    .  H  0  ?  ?  ?  1  37
+HEP  H10   .  H  0  ?  ?  ?  1  38
+HEP  1H13  .  H  0  ?  ?  ?  0  39
+HEP  2H13  .  H  0  ?  ?  ?  0  40
+HEP  1H14  .  H  0  ?  ?  ?  0  41
+HEP  2H14  .  H  0  ?  ?  ?  0  42
+HEP  2HOP  .  H  0  ?  ?  ?  0  43
+HEP  HO6   .  H  0  ?  ?  ?  1  44
+HEP  HN1   .  H  0  ?  ?  ?  1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEP  C1   C2    SING  1 
+HEP  C1   N1    SING  2 
+HEP  C1   P     SING  3 
+HEP  C1   H1    SING  4 
+HEP  C2   C3    SING  5 
+HEP  C2   1H2   SING  6 
+HEP  C2   2H2   SING  7 
+HEP  C3   C4    SING  8 
+HEP  C3   1H3   SING  9 
+HEP  C3   2H3   SING  10
+HEP  C4   C5    SING  11
+HEP  C4   1H4   SING  12
+HEP  C4   2H4   SING  13
+HEP  C5   1H5   SING  14
+HEP  C5   2H5   SING  15
+HEP  C5   3H5   SING  16
+HEP  C6   C7    DOUB  17
+HEP  C6   C11   SING  18
+HEP  C6   H6    SING  19
+HEP  C7   C8    SING  20
+HEP  C7   H7    SING  21
+HEP  C8   C9    DOUB  22
+HEP  C8   H8    SING  23
+HEP  C9   C10   SING  24
+HEP  C9   H9    SING  25
+HEP  C10  C11   DOUB  26
+HEP  C10  H10   SING  27
+HEP  C11  O3P   SING  28
+HEP  C12  C14   SING  29
+HEP  C12  N1    SING  30
+HEP  C12  O4    DOUB  31
+HEP  C13  C14   SING  32
+HEP  C13  C15   SING  33
+HEP  C13  1H13  SING  34
+HEP  C13  2H13  SING  35
+HEP  C14  1H14  SING  36
+HEP  C14  2H14  SING  37
+HEP  C15  O5    DOUB  38
+HEP  C15  O6    SING  39
+HEP  O1P  P     DOUB  40
+HEP  O2P  P     SING  41
+HEP  O2P  2HOP  SING  42
+HEP  O3P  P     SING  43
+HEP  O6   HO6   SING  44
+HEP  N1   HN1   SING  45
+#

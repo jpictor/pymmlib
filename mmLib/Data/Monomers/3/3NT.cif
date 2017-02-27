@@ -1,0 +1,65 @@
+data_3NT
+#
+_chem_comp.id                   3NT
+_chem_comp.name                 3-NITROTOLUENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        137.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3NT  C1    .  C  0  53.554  66.644  2.811   1  1 
+3NT  C2    .  C  0  53.317  66.61   1.437   1  2 
+3NT  C3    .  C  0  53.103  65.391  .792    1  3 
+3NT  C4    .  C  0  53.127  64.204  1.533   1  4 
+3NT  C5    .  C  0  53.364  64.237  2.909   1  5 
+3NT  C6    .  C  0  53.58   65.46   3.549   1  6 
+3NT  C7    .  C  0  53.791  67.965  3.495   1  7 
+3NT  N3    .  N  0  52.869  65.402  -.548   1  8 
+3NT  O1N   .  O  0  52.507  66.47   -1.082  1  9 
+3NT  O2N   .  O  0  53.014  64.386  -1.257  1  10
+3NT  H2    .  H  0  53.299  67.549  .859    1  11
+3NT  H4    .  H  0  52.958  63.238  1.028   1  12
+3NT  1H7C  .  H  0  53.98   67.992  4.593   0  13
+3NT  2H7C  .  H  0  52.935  68.641  3.266   0  14
+3NT  3H7C  .  H  0  54.63   68.487  2.978   0  15
+3NT  H6    .  H  0  53.771  65.49   4.635   1  16
+3NT  H5    .  H  0  53.381  63.299  3.489   1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3NT  C1  C2    AROM  1 
+3NT  C1  C7    SING  2 
+3NT  C1  C6    AROM  3 
+3NT  C2  C3    AROM  4 
+3NT  C2  H2    SING  5 
+3NT  C3  N3    SING  6 
+3NT  C3  C4    AROM  7 
+3NT  C4  C5    AROM  8 
+3NT  C4  H4    SING  9 
+3NT  C5  C6    AROM  10
+3NT  C5  H5    SING  11
+3NT  C6  H6    SING  12
+3NT  C7  1H7C  SING  13
+3NT  C7  2H7C  SING  14
+3NT  C7  3H7C  SING  15
+3NT  N3  O2N   DOUB  16
+3NT  N3  O1N   DOUB  17
+#

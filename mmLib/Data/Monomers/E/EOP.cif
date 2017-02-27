@@ -1,0 +1,95 @@
+data_EOP
+#
+_chem_comp.id                   EOP
+_chem_comp.name                 '{ETHANE-1,2-DIYLBIS[IMINO(2-OXOETHANE-2,1-DIYL)]}BIS(PHOSPHONIC ACID)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N2 O8 P2'
+_chem_comp.pdbx_synonyms        '2,2'-(ETHANE-1,2-DIYLBIS(AZANEDIYL))BIS(2-OXOETHANE-2,1DIYL)DIPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        304.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EOP  OAD   .  O  0  43.900  28.845  19.886  1  1 
+EOP  PAR   .  P  0  45.064  29.736  19.219  1  2 
+EOP  OAH   .  O  0  44.999  31.181  19.928  1  3 
+EOP  OAG   .  O  0  46.399  29.113  19.364  1  4 
+EOP  CAL   .  C  0  44.613  29.973  17.483  1  5 
+EOP  CAP   .  C  0  43.110  29.949  17.157  1  6 
+EOP  OAB   .  O  0  42.507  30.991  16.930  1  7 
+EOP  NAN   .  N  0  42.566  28.738  17.104  1  8 
+EOP  CAJ   .  C  0  41.156  28.478  16.757  1  9 
+EOP  CAI   .  C  0  40.237  28.438  17.979  1  10
+EOP  NAM   .  N  0  39.555  29.736  18.074  1  11
+EOP  CAO   .  C  0  39.329  30.401  19.206  1  12
+EOP  OAA   .  O  0  38.859  31.539  19.229  1  13
+EOP  CAK   .  C  0  39.808  29.737  20.498  1  14
+EOP  PAQ   .  P  0  41.448  30.372  20.916  1  15
+EOP  OAF   .  O  0  41.192  31.560  21.973  1  16
+EOP  OAE   .  O  0  42.012  31.059  19.572  1  17
+EOP  OAC   .  O  0  42.353  29.325  21.440  1  18
+EOP  HAD   .  H  0  ?       ?       ?       1  19
+EOP  HAH   .  H  0  ?       ?       ?       1  20
+EOP  1HAL  .  H  0  ?       ?       ?       0  21
+EOP  2HAL  .  H  0  ?       ?       ?       0  22
+EOP  HAN   .  H  0  ?       ?       ?       1  23
+EOP  1HAJ  .  H  0  ?       ?       ?       0  24
+EOP  2HAJ  .  H  0  ?       ?       ?       0  25
+EOP  1HAI  .  H  0  ?       ?       ?       0  26
+EOP  2HAI  .  H  0  ?       ?       ?       0  27
+EOP  HAM   .  H  0  ?       ?       ?       1  28
+EOP  1HAK  .  H  0  ?       ?       ?       0  29
+EOP  2HAK  .  H  0  ?       ?       ?       0  30
+EOP  HAF   .  H  0  ?       ?       ?       1  31
+EOP  HAE   .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EOP  OAD  PAR   SING  1 
+EOP  OAD  HAD   SING  2 
+EOP  PAR  OAH   SING  3 
+EOP  PAR  OAG   DOUB  4 
+EOP  PAR  CAL   SING  5 
+EOP  OAH  HAH   SING  6 
+EOP  CAL  CAP   SING  7 
+EOP  CAL  1HAL  SING  8 
+EOP  CAL  2HAL  SING  9 
+EOP  CAP  OAB   DOUB  10
+EOP  CAP  NAN   SING  11
+EOP  NAN  CAJ   SING  12
+EOP  NAN  HAN   SING  13
+EOP  CAJ  CAI   SING  14
+EOP  CAJ  1HAJ  SING  15
+EOP  CAJ  2HAJ  SING  16
+EOP  CAI  NAM   SING  17
+EOP  CAI  1HAI  SING  18
+EOP  CAI  2HAI  SING  19
+EOP  NAM  CAO   SING  20
+EOP  NAM  HAM   SING  21
+EOP  CAO  OAA   DOUB  22
+EOP  CAO  CAK   SING  23
+EOP  CAK  PAQ   SING  24
+EOP  CAK  1HAK  SING  25
+EOP  CAK  2HAK  SING  26
+EOP  PAQ  OAF   SING  27
+EOP  PAQ  OAE   SING  28
+EOP  PAQ  OAC   DOUB  29
+EOP  OAF  HAF   SING  30
+EOP  OAE  HAE   SING  31
+#

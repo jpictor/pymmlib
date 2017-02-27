@@ -1,0 +1,84 @@
+data_HTP
+#
+_chem_comp.id                   HTP
+_chem_comp.name                 4,5,6-TRIHYDROXY-7-HYDROXYMETHYL-4,5,6,7-TETRAHYDRO-1H-[1,2,3]TRIAZOLO[1,5-A]PYRIDIN-8-YLIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H12 N3 O4'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       202.190
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTP  C1   .  C  0  ?  ?  ?  1  1 
+HTP  C2   .  C  0  ?  ?  ?  1  2 
+HTP  C3   .  C  0  ?  ?  ?  1  3 
+HTP  C4   .  C  0  ?  ?  ?  1  4 
+HTP  C5   .  C  0  ?  ?  ?  1  5 
+HTP  C6   .  C  0  ?  ?  ?  1  6 
+HTP  C7   .  C  0  ?  ?  ?  1  7 
+HTP  N17  .  N  0  ?  ?  ?  1  8 
+HTP  N18  .  N  0  ?  ?  ?  1  9 
+HTP  N1   .  N  1  ?  ?  ?  1  10
+HTP  O2   .  O  0  ?  ?  ?  1  11
+HTP  O3   .  O  0  ?  ?  ?  1  12
+HTP  O4   .  O  0  ?  ?  ?  1  13
+HTP  O6   .  O  0  ?  ?  ?  1  14
+HTP  H2   .  H  0  ?  ?  ?  1  15
+HTP  H3   .  H  0  ?  ?  ?  1  16
+HTP  H4   .  H  0  ?  ?  ?  1  17
+HTP  H5   .  H  0  ?  ?  ?  1  18
+HTP  1H6  .  H  0  ?  ?  ?  0  19
+HTP  2H6  .  H  0  ?  ?  ?  0  20
+HTP  H7   .  H  0  ?  ?  ?  1  21
+HTP  HN7  .  H  0  ?  ?  ?  1  22
+HTP  HO2  .  H  0  ?  ?  ?  1  23
+HTP  HO3  .  H  0  ?  ?  ?  1  24
+HTP  HO4  .  H  0  ?  ?  ?  1  25
+HTP  HO6  .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTP  C1   C2   SING  1 
+HTP  C1   C7   SING  2 
+HTP  C1   N1   DOUB  3 
+HTP  C2   C3   SING  4 
+HTP  C2   O2   SING  5 
+HTP  C2   H2   SING  6 
+HTP  C3   C4   SING  7 
+HTP  C3   O3   SING  8 
+HTP  C3   H3   SING  9 
+HTP  C4   C5   SING  10
+HTP  C4   O4   SING  11
+HTP  C4   H4   SING  12
+HTP  C5   C6   SING  13
+HTP  C5   N1   SING  14
+HTP  C5   H5   SING  15
+HTP  C6   O6   SING  16
+HTP  C6   1H6  SING  17
+HTP  C6   2H6  SING  18
+HTP  C7   N18  DOUB  19
+HTP  C7   H7   SING  20
+HTP  N17  N18  SING  21
+HTP  N17  N1   SING  22
+HTP  N17  HN7  SING  23
+HTP  O2   HO2  SING  24
+HTP  O3   HO3  SING  25
+HTP  O4   HO4  SING  26
+HTP  O6   HO6  SING  27
+#

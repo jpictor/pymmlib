@@ -1,0 +1,109 @@
+data_FTP
+#
+_chem_comp.id                   FTP
+_chem_comp.name                 3-(4-AMINO-2-TRIFLUOROMETHYL-PYRIMIDIN-5-YLMETHYL)-4-METHYL-5-(2-PHOSPHONATOOXY-ETHYL)-THIAZOL-3-IUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N4 O4 F3 P1 S1'
+_chem_comp.pdbx_synonyms        'TRIFLUORO-THIAMIN PHOSPHATE'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       397.288
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FTP  N1A   .  N  0   ?  ?  ?  1  1 
+FTP  C2A   .  C  0   ?  ?  ?  1  2 
+FTP  CM2   .  C  0   ?  ?  ?  1  3 
+FTP  N3A   .  N  0   ?  ?  ?  1  4 
+FTP  C4A   .  C  0   ?  ?  ?  1  5 
+FTP  N4A   .  N  0   ?  ?  ?  1  6 
+FTP  C5A   .  C  0   ?  ?  ?  1  7 
+FTP  C6A   .  C  0   ?  ?  ?  1  8 
+FTP  C7A   .  C  0   ?  ?  ?  1  9 
+FTP  N3    .  N  1   ?  ?  ?  1  10
+FTP  C2    .  C  0   ?  ?  ?  1  11
+FTP  S1    .  S  0   ?  ?  ?  1  12
+FTP  C5    .  C  0   ?  ?  ?  1  13
+FTP  C4    .  C  0   ?  ?  ?  1  14
+FTP  CM4   .  C  0   ?  ?  ?  1  15
+FTP  C6    .  C  0   ?  ?  ?  1  16
+FTP  C7    .  C  0   ?  ?  ?  1  17
+FTP  O7    .  O  0   ?  ?  ?  1  18
+FTP  P1    .  P  0   ?  ?  ?  1  19
+FTP  O1    .  O  -1  ?  ?  ?  1  20
+FTP  O2    .  O  0   ?  ?  ?  1  21
+FTP  O3    .  O  -1  ?  ?  ?  1  22
+FTP  F1    .  F  0   ?  ?  ?  1  23
+FTP  F2    .  F  0   ?  ?  ?  1  24
+FTP  F3    .  F  0   ?  ?  ?  1  25
+FTP  1H4A  .  H  0   ?  ?  ?  0  26
+FTP  2H4A  .  H  0   ?  ?  ?  0  27
+FTP  1H6A  .  H  0   ?  ?  ?  0  28
+FTP  1H7A  .  H  0   ?  ?  ?  0  29
+FTP  2H7A  .  H  0   ?  ?  ?  0  30
+FTP  1HM4  .  H  0   ?  ?  ?  0  31
+FTP  2HM4  .  H  0   ?  ?  ?  0  32
+FTP  3HM4  .  H  0   ?  ?  ?  0  33
+FTP  1H2   .  H  0   ?  ?  ?  0  34
+FTP  1H6   .  H  0   ?  ?  ?  0  35
+FTP  2H6   .  H  0   ?  ?  ?  0  36
+FTP  1H7   .  H  0   ?  ?  ?  0  37
+FTP  2H7   .  H  0   ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FTP  N1A  C2A   DOUB  1 
+FTP  N1A  C6A   SING  2 
+FTP  C2A  CM2   SING  3 
+FTP  C2A  N3A   SING  4 
+FTP  CM2  F1    SING  5 
+FTP  CM2  F2    SING  6 
+FTP  CM2  F3    SING  7 
+FTP  N3A  C4A   DOUB  8 
+FTP  C4A  N4A   SING  9 
+FTP  C4A  C5A   SING  10
+FTP  N4A  1H4A  SING  11
+FTP  N4A  2H4A  SING  12
+FTP  C5A  C6A   DOUB  13
+FTP  C5A  C7A   SING  14
+FTP  C6A  1H6A  SING  15
+FTP  C7A  N3    SING  16
+FTP  C7A  1H7A  SING  17
+FTP  C7A  2H7A  SING  18
+FTP  N3   C2    DOUB  19
+FTP  N3   C4    SING  20
+FTP  C2   S1    SING  21
+FTP  C2   1H2   SING  22
+FTP  S1   C5    SING  23
+FTP  C5   C4    DOUB  24
+FTP  C5   C6    SING  25
+FTP  C4   CM4   SING  26
+FTP  CM4  1HM4  SING  27
+FTP  CM4  2HM4  SING  28
+FTP  CM4  3HM4  SING  29
+FTP  C6   C7    SING  30
+FTP  C6   1H6   SING  31
+FTP  C6   2H6   SING  32
+FTP  C7   O7    SING  33
+FTP  C7   1H7   SING  34
+FTP  C7   2H7   SING  35
+FTP  O7   P1    SING  36
+FTP  P1   O1    SING  37
+FTP  P1   O2    DOUB  38
+FTP  P1   O3    SING  39
+#

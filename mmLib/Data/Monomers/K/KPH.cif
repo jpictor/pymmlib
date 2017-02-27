@@ -1,0 +1,78 @@
+data_KPH
+#
+_chem_comp.id                   KPH
+_chem_comp.name                 'LYSINE PHOSPHINIC ACID GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H14 N2 O2 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        165.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KPH  N     .  N  0  ?  ?  ?  1  1 
+KPH  CA    .  C  0  ?  ?  ?  1  2 
+KPH  P     .  P  0  ?  ?  ?  1  3 
+KPH  O1P   .  O  0  ?  ?  ?  1  4 
+KPH  O2P   .  O  0  ?  ?  ?  1  5 
+KPH  CB    .  C  0  ?  ?  ?  1  6 
+KPH  CG    .  C  0  ?  ?  ?  1  7 
+KPH  CD    .  C  0  ?  ?  ?  1  8 
+KPH  CE    .  C  0  ?  ?  ?  1  9 
+KPH  NZ    .  N  0  ?  ?  ?  1  10
+KPH  1HN   .  H  0  ?  ?  ?  0  11
+KPH  2HN   .  H  0  ?  ?  ?  0  12
+KPH  HA    .  H  0  ?  ?  ?  1  13
+KPH  1HB   .  H  0  ?  ?  ?  0  14
+KPH  2HB   .  H  0  ?  ?  ?  0  15
+KPH  1HG   .  H  0  ?  ?  ?  0  16
+KPH  2HG   .  H  0  ?  ?  ?  0  17
+KPH  1HD   .  H  0  ?  ?  ?  0  18
+KPH  2HD   .  H  0  ?  ?  ?  0  19
+KPH  1HE   .  H  0  ?  ?  ?  0  20
+KPH  2HE   .  H  0  ?  ?  ?  0  21
+KPH  1HNZ  .  H  0  ?  ?  ?  0  22
+KPH  2HNZ  .  H  0  ?  ?  ?  0  23
+KPH  2HOP  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KPH  N    CA    SING  1 
+KPH  N    1HN   SING  2 
+KPH  N    2HN   SING  3 
+KPH  CA   CB    SING  4 
+KPH  CA   P     SING  5 
+KPH  CA   HA    SING  6 
+KPH  P    O1P   DOUB  7 
+KPH  P    O2P   SING  8 
+KPH  O2P  2HOP  SING  9 
+KPH  CB   CG    SING  10
+KPH  CB   1HB   SING  11
+KPH  CB   2HB   SING  12
+KPH  CG   CD    SING  13
+KPH  CG   1HG   SING  14
+KPH  CG   2HG   SING  15
+KPH  CD   CE    SING  16
+KPH  CD   1HD   SING  17
+KPH  CD   2HD   SING  18
+KPH  CE   NZ    SING  19
+KPH  CE   1HE   SING  20
+KPH  CE   2HE   SING  21
+KPH  NZ   1HNZ  SING  22
+KPH  NZ   2HNZ  SING  23
+#

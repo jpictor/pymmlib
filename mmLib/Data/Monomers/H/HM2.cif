@@ -1,0 +1,113 @@
+data_HM2
+#
+_chem_comp.id                   HM2
+_chem_comp.name                 5-CHLORO-6-METHYL-N-(2-PHENYLETHYL)-2-PYRIDIN-2-YLPYRIMIDIN-4-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H17 N4 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        324.812
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HM2  N1    .  N   0  22.029  19.534  11.417  1  1 
+HM2  N2    .  N   0  21.476  19.231  15.080  1  2 
+HM2  N3    .  N   0  20.852  20.811  13.448  1  3 
+HM2  N4    .  N   0  21.322  19.452  17.233  1  4 
+HM2  C1    .  C   0  22.709  18.817  10.305  1  5 
+HM2  C2    .  C   0  23.295  17.611  10.489  1  6 
+HM2  C3    .  C   0  23.262  16.990  11.851  1  7 
+HM2  C4    .  C   0  22.662  17.651  12.913  1  8 
+HM2  C5    .  C   0  22.056  18.878  12.734  1  9 
+HM2  C6    .  C   0  21.423  19.666  13.826  1  10
+HM2  C7    .  C   0  20.915  20.085  16.053  1  11
+HM2  C8    .  C   0  20.284  21.618  14.346  1  12
+HM2  C9    .  C   0  20.309  21.271  15.757  1  13
+HM2  C10   .  C   0  21.491  18.030  17.620  1  14
+HM2  C11   .  C   0  20.257  17.269  18.042  1  15
+HM2  C12   .  C   0  19.275  17.223  16.923  1  16
+HM2  C13   .  C   0  19.428  16.282  15.882  1  17
+HM2  C14   .  C   0  18.501  16.259  14.848  1  18
+HM2  C15   .  C   0  17.427  17.113  14.774  1  19
+HM2  C16   .  C   0  17.289  18.017  15.783  1  20
+HM2  C17   .  C   0  18.185  18.109  16.876  1  21
+HM2  C18   .  C   0  19.642  22.880  13.886  1  22
+HM2  CL1   .  CL  0  19.622  22.362  16.886  0  23
+HM2  HN4   .  H   0  22.245  19.816  17.360  1  24
+HM2  1H18  .  H   0  19.484  23.546  14.747  0  25
+HM2  2H18  .  H   0  20.294  23.377  13.153  0  26
+HM2  3H18  .  H   0  18.673  22.649  13.418  0  27
+HM2  H1    .  H   0  22.736  19.271  9.325   1  28
+HM2  H2    .  H   0  23.779  17.105  9.667   1  29
+HM2  H3    .  H   0  23.709  16.019  12.008  1  30
+HM2  H4    .  H   0  22.669  17.199  13.894  1  31
+HM2  1H10  .  H   0  21.904  17.508  16.744  0  32
+HM2  2H10  .  H   0  22.131  18.053  18.515  0  33
+HM2  1H11  .  H   0  19.799  17.772  18.906  0  34
+HM2  2H11  .  H   0  20.543  16.242  18.313  0  35
+HM2  H17   .  H   0  18.034  18.842  17.654  1  36
+HM2  H16   .  H   0  16.453  18.699  15.748  1  37
+HM2  H15   .  H   0  16.725  17.069  13.954  1  38
+HM2  H14   .  H   0  18.631  15.531  14.060  1  39
+HM2  H13   .  H   0  20.256  15.588  15.889  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HM2  N1   C5    DOUB  1 
+HM2  N1   C1    SING  2 
+HM2  N2   C7    DOUB  3 
+HM2  N2   C6    SING  4 
+HM2  N3   C6    DOUB  5 
+HM2  N3   C8    SING  6 
+HM2  N4   HN4   SING  7 
+HM2  N4   C7    SING  8 
+HM2  N4   C10   SING  9 
+HM2  C1   H1    SING  10
+HM2  C1   C2    DOUB  11
+HM2  C2   H2    SING  12
+HM2  C2   C3    SING  13
+HM2  C3   H3    SING  14
+HM2  C3   C4    DOUB  15
+HM2  C4   C5    SING  16
+HM2  C4   H4    SING  17
+HM2  C5   C6    SING  18
+HM2  C7   C9    SING  19
+HM2  C8   C9    DOUB  20
+HM2  C8   C18   SING  21
+HM2  C9   CL1   SING  22
+HM2  C10  1H10  SING  23
+HM2  C10  2H10  SING  24
+HM2  C10  C11   SING  25
+HM2  C11  1H11  SING  26
+HM2  C11  2H11  SING  27
+HM2  C11  C12   SING  28
+HM2  C12  C17   DOUB  29
+HM2  C12  C13   SING  30
+HM2  C13  C14   DOUB  31
+HM2  C13  H13   SING  32
+HM2  C14  C15   SING  33
+HM2  C14  H14   SING  34
+HM2  C15  C16   DOUB  35
+HM2  C15  H15   SING  36
+HM2  C16  C17   SING  37
+HM2  C16  H16   SING  38
+HM2  C17  H17   SING  39
+HM2  C18  1H18  SING  40
+HM2  C18  2H18  SING  41
+HM2  C18  3H18  SING  42
+#

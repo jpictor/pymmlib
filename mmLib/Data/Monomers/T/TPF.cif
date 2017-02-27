@@ -1,0 +1,102 @@
+data_TPF
+#
+_chem_comp.id                   TPF
+_chem_comp.name                 2-(2,4-DIFLUOROPHENYL)-1,3-DI(1H-1,2,4-TRIAZOL-1-YL)PROPAN-2-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H12 N6 O1 F2'
+_chem_comp.pdbx_synonyms        'FLUCONAZOLE; ALPHA-(2,4-DIFLUOROPHENYL)-ALPHA-(1H-1,2,4-TRIAZOLE-1-YLMETHYL)-1H-1,2,4-TRIAZOLE-1-ETHANOL; ELAZOR; TRIFLUCAN; BIOZOLENE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        306.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPF  O     .  O  0  ?  ?  ?  1  1 
+TPF  C1    .  C  0  ?  ?  ?  1  2 
+TPF  C2    .  C  0  ?  ?  ?  1  3 
+TPF  C5    .  C  0  ?  ?  ?  1  4 
+TPF  C8    .  C  0  ?  ?  ?  1  5 
+TPF  N1    .  N  0  ?  ?  ?  1  6 
+TPF  C3    .  C  0  ?  ?  ?  1  7 
+TPF  N3    .  N  0  ?  ?  ?  1  8 
+TPF  N2    .  N  0  ?  ?  ?  1  9 
+TPF  C4    .  C  0  ?  ?  ?  1  10
+TPF  N4    .  N  0  ?  ?  ?  1  11
+TPF  C6    .  C  0  ?  ?  ?  1  12
+TPF  N6    .  N  0  ?  ?  ?  1  13
+TPF  N5    .  N  0  ?  ?  ?  1  14
+TPF  C7    .  C  0  ?  ?  ?  1  15
+TPF  C9    .  C  0  ?  ?  ?  1  16
+TPF  C13   .  C  0  ?  ?  ?  1  17
+TPF  C10   .  C  0  ?  ?  ?  1  18
+TPF  C11   .  C  0  ?  ?  ?  1  19
+TPF  F1    .  F  0  ?  ?  ?  1  20
+TPF  C12   .  C  0  ?  ?  ?  1  21
+TPF  F2    .  F  0  ?  ?  ?  1  22
+TPF  HO    .  H  0  ?  ?  ?  1  23
+TPF  1HC2  .  H  0  ?  ?  ?  0  24
+TPF  2HC2  .  H  0  ?  ?  ?  0  25
+TPF  1HC5  .  H  0  ?  ?  ?  0  26
+TPF  2HC5  .  H  0  ?  ?  ?  0  27
+TPF  HC3   .  H  0  ?  ?  ?  1  28
+TPF  HC4   .  H  0  ?  ?  ?  1  29
+TPF  HC6   .  H  0  ?  ?  ?  1  30
+TPF  HC7   .  H  0  ?  ?  ?  1  31
+TPF  HC9   .  H  0  ?  ?  ?  1  32
+TPF  H10   .  H  0  ?  ?  ?  1  33
+TPF  H12   .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPF  O    C1    SING  1 
+TPF  O    HO    SING  2 
+TPF  C1   C2    SING  3 
+TPF  C1   C5    SING  4 
+TPF  C1   C8    SING  5 
+TPF  C2   N1    SING  6 
+TPF  C2   1HC2  SING  7 
+TPF  C2   2HC2  SING  8 
+TPF  C5   N4    SING  9 
+TPF  C5   1HC5  SING  10
+TPF  C5   2HC5  SING  11
+TPF  C8   C9    AROM  12
+TPF  C8   C13   AROM  13
+TPF  N1   C3    SING  14
+TPF  N1   N3    SING  15
+TPF  C3   N2    DOUB  16
+TPF  C3   HC3   SING  17
+TPF  N3   C4    DOUB  18
+TPF  N2   C4    SING  19
+TPF  C4   HC4   SING  20
+TPF  N4   C6    SING  21
+TPF  N4   N6    SING  22
+TPF  C6   N5    DOUB  23
+TPF  C6   HC6   SING  24
+TPF  N6   C7    DOUB  25
+TPF  N5   C7    SING  26
+TPF  C7   HC7   SING  27
+TPF  C9   C10   AROM  28
+TPF  C9   HC9   SING  29
+TPF  C13  C12   AROM  30
+TPF  C13  F2    SING  31
+TPF  C10  C11   AROM  32
+TPF  C10  H10   SING  33
+TPF  C11  F1    SING  34
+TPF  C11  C12   AROM  35
+TPF  C12  H12   SING  36
+#

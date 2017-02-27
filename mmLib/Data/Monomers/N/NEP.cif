@@ -1,0 +1,82 @@
+data_NEP
+#
+_chem_comp.id                       NEP
+_chem_comp.name                     N1-PHOSPHONOHISTIDINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H10 N3 O5 P1'
+_chem_comp.mon_nstd_parent_comp_id  HIS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            235.136
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEP  N     .  N  0  ?  ?  ?  1  1 
+NEP  CA    .  C  0  ?  ?  ?  1  2 
+NEP  C     .  C  0  ?  ?  ?  1  3 
+NEP  O     .  O  0  ?  ?  ?  1  4 
+NEP  CB    .  C  0  ?  ?  ?  1  5 
+NEP  CG    .  C  0  ?  ?  ?  1  6 
+NEP  ND1   .  N  0  ?  ?  ?  1  7 
+NEP  CD2   .  C  0  ?  ?  ?  1  8 
+NEP  CE1   .  C  0  ?  ?  ?  1  9 
+NEP  NE2   .  N  0  ?  ?  ?  1  10
+NEP  P     .  P  0  ?  ?  ?  1  11
+NEP  O1P   .  O  0  ?  ?  ?  1  12
+NEP  O2P   .  O  0  ?  ?  ?  1  13
+NEP  O3P   .  O  0  ?  ?  ?  1  14
+NEP  OXT   .  O  0  ?  ?  ?  1  15
+NEP  H     .  H  0  ?  ?  ?  1  16
+NEP  HN2   .  H  0  ?  ?  ?  1  17
+NEP  HA    .  H  0  ?  ?  ?  1  18
+NEP  1HB   .  H  0  ?  ?  ?  0  19
+NEP  2HB   .  H  0  ?  ?  ?  0  20
+NEP  HD2   .  H  0  ?  ?  ?  1  21
+NEP  HE1   .  H  0  ?  ?  ?  1  22
+NEP  1HOP  .  H  0  ?  ?  ?  0  23
+NEP  2HOP  .  H  0  ?  ?  ?  0  24
+NEP  HXT   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEP  N    CA    SING  1 
+NEP  N    H     SING  2 
+NEP  N    HN2   SING  3 
+NEP  CA   C     SING  4 
+NEP  CA   CB    SING  5 
+NEP  CA   HA    SING  6 
+NEP  C    O     DOUB  7 
+NEP  C    OXT   SING  8 
+NEP  CB   CG    SING  9 
+NEP  CB   1HB   SING  10
+NEP  CB   2HB   SING  11
+NEP  CG   ND1   SING  12
+NEP  CG   CD2   DOUB  13
+NEP  ND1  CE1   DOUB  14
+NEP  CD2  NE2   SING  15
+NEP  CD2  HD2   SING  16
+NEP  CE1  NE2   SING  17
+NEP  CE1  HE1   SING  18
+NEP  NE2  P     SING  19
+NEP  P    O1P   SING  20
+NEP  P    O2P   SING  21
+NEP  P    O3P   DOUB  22
+NEP  O1P  1HOP  SING  23
+NEP  O2P  2HOP  SING  24
+NEP  OXT  HXT   SING  25
+#

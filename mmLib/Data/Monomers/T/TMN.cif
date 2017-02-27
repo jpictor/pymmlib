@@ -1,0 +1,68 @@
+data_TMN
+#
+_chem_comp.id                   TMN
+_chem_comp.name                 TRIS(HYDROXYMETHYL)AMINOMETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.136
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMN  C    .  C  0  ?  ?  ?  1  1 
+TMN  C1   .  C  0  ?  ?  ?  1  2 
+TMN  C2   .  C  0  ?  ?  ?  1  3 
+TMN  C3   .  C  0  ?  ?  ?  1  4 
+TMN  N    .  N  1  ?  ?  ?  1  5 
+TMN  O1   .  O  0  ?  ?  ?  1  6 
+TMN  O2   .  O  0  ?  ?  ?  1  7 
+TMN  O3   .  O  0  ?  ?  ?  1  8 
+TMN  1H1  .  H  0  ?  ?  ?  0  9 
+TMN  2H1  .  H  0  ?  ?  ?  0  10
+TMN  1H2  .  H  0  ?  ?  ?  0  11
+TMN  2H2  .  H  0  ?  ?  ?  0  12
+TMN  1H3  .  H  0  ?  ?  ?  0  13
+TMN  2H3  .  H  0  ?  ?  ?  0  14
+TMN  1HN  .  H  0  ?  ?  ?  0  15
+TMN  2HN  .  H  0  ?  ?  ?  0  16
+TMN  HO1  .  H  0  ?  ?  ?  1  17
+TMN  HO2  .  H  0  ?  ?  ?  1  18
+TMN  HO3  .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMN  C   C1   SING  1 
+TMN  C   C2   SING  2 
+TMN  C   C3   SING  3 
+TMN  C   N    SING  4 
+TMN  C1  O1   SING  5 
+TMN  C1  1H1  SING  6 
+TMN  C1  2H1  SING  7 
+TMN  C2  O2   SING  8 
+TMN  C2  1H2  SING  9 
+TMN  C2  2H2  SING  10
+TMN  C3  O3   SING  11
+TMN  C3  1H3  SING  12
+TMN  C3  2H3  SING  13
+TMN  N   1HN  SING  14
+TMN  N   2HN  SING  15
+TMN  O1  HO1  SING  16
+TMN  O2  HO2  SING  17
+TMN  O3  HO3  SING  18
+#

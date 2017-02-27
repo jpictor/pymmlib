@@ -1,0 +1,101 @@
+data_MIK
+#
+_chem_comp.id                   MIK
+_chem_comp.name                 'METHYL ISONICOTINIMIDATE LYSINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.292
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MIK  N     .  N  0  -10.277  22.015  -2.581   1  1 
+MIK  CA    .  C  0  -10.64   20.747  -3.291   1  2 
+MIK  C     .  C  0  -9.62    19.63   -2.879   1  3 
+MIK  O     .  O  0  -8.414   19.734  -3.151   1  4 
+MIK  CB    .  C  0  -10.484  21.028  -4.784   1  5 
+MIK  CG    .  C  0  -9.751   22.344  -5.065   1  6 
+MIK  CD    .  C  0  -8.254   22.162  -5.338   1  7 
+MIK  CE    .  C  0  -7.835   22.694  -6.71    1  8 
+MIK  NZ    .  N  0  -8.597   22.081  -7.803   1  9 
+MIK  CI1   .  C  0  -8.281   22.533  -8.978   1  10
+MIK  CI2   .  C  0  -8.986   21.98   -10.178  1  11
+MIK  NI1   .  N  0  -7.368   23.451  -9.098   1  12
+MIK  CI3   .  C  0  -8.667   22.442  -11.46   1  13
+MIK  CI4   .  C  0  -9.332   21.915  -12.575  1  14
+MIK  NI2   .  N  0  -10.315  20.932  -12.407  1  15
+MIK  CI5   .  C  0  -10.632  20.473  -11.124  1  16
+MIK  CI6   .  C  0  -9.968   20.998  -10.01   1  17
+MIK  OXT   .  O  0  -10.136  18.585  -2.229   1  18
+MIK  H1    .  H  0  -10.715  22.739  -2.012   1  19
+MIK  H2    .  H  0  ?        ?       ?        1  20
+MIK  HA    .  H  0  -11.685  20.441  -3.05    1  21
+MIK  1HBC  .  H  0  -11.472  21.002  -5.301   0  22
+MIK  2HBC  .  H  0  -9.987   20.175  -5.302   0  23
+MIK  1HGC  .  H  0  -9.916   23.073  -4.237   0  24
+MIK  2HGC  .  H  0  -10.24   22.898  -5.9     0  25
+MIK  1HDC  .  H  0  -7.951   21.096  -5.213   0  26
+MIK  2HDC  .  H  0  -7.641   22.62   -4.527   0  27
+MIK  1HEC  .  H  0  -6.738   22.576  -6.869   0  28
+MIK  2HEC  .  H  0  -7.902   23.806  -6.748   0  29
+MIK  HI1   .  H  0  ?        ?       ?        1  30
+MIK  HI3   .  H  0  -7.895   23.218  -11.592  1  31
+MIK  HI6   .  H  0  -10.219  20.637  -8.998   1  32
+MIK  HI4   .  H  0  -9.081   22.275  -13.587  1  33
+MIK  HI5   .  H  0  -11.405  19.698  -10.991  1  34
+MIK  HXT   .  H  0  ?        ?       ?        1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MIK  N    CA    SING  1 
+MIK  N    H1    SING  2 
+MIK  N    H2    SING  3 
+MIK  CA   C     SING  4 
+MIK  CA   CB    SING  5 
+MIK  CA   HA    SING  6 
+MIK  C    O     DOUB  7 
+MIK  C    OXT   SING  8 
+MIK  CB   CG    SING  9 
+MIK  CB   1HBC  SING  10
+MIK  CB   2HBC  SING  11
+MIK  CG   CD    SING  12
+MIK  CG   1HGC  SING  13
+MIK  CG   2HGC  SING  14
+MIK  CD   CE    SING  15
+MIK  CD   1HDC  SING  16
+MIK  CD   2HDC  SING  17
+MIK  CE   NZ    SING  18
+MIK  CE   1HEC  SING  19
+MIK  CE   2HEC  SING  20
+MIK  NZ   CI1   DOUB  21
+MIK  CI1  CI2   SING  22
+MIK  CI1  NI1   SING  23
+MIK  CI2  CI3   AROM  24
+MIK  CI2  CI6   AROM  25
+MIK  NI1  HI1   SING  26
+MIK  CI3  CI4   AROM  27
+MIK  CI3  HI3   SING  28
+MIK  CI4  NI2   AROM  29
+MIK  CI4  HI4   SING  30
+MIK  NI2  CI5   AROM  31
+MIK  CI5  CI6   AROM  32
+MIK  CI5  HI5   SING  33
+MIK  CI6  HI6   SING  34
+MIK  OXT  HXT   SING  35
+#

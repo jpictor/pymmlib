@@ -1,0 +1,107 @@
+data_EDC
+#
+_chem_comp.id                   EDC
+_chem_comp.name                 N3,N4-ETHENO-2'-DEOXYCYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N3 O7 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       332.229
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EDC  P     .  P  0  ?  ?  ?  1  1 
+EDC  O1P   .  O  0  ?  ?  ?  1  2 
+EDC  O2P   .  O  0  ?  ?  ?  1  3 
+EDC  O3P   .  O  0  ?  ?  ?  1  4 
+EDC  O5*   .  O  0  ?  ?  ?  1  5 
+EDC  C5*   .  C  0  ?  ?  ?  1  6 
+EDC  C4*   .  C  0  ?  ?  ?  1  7 
+EDC  O4*   .  O  0  ?  ?  ?  1  8 
+EDC  C1*   .  C  0  ?  ?  ?  1  9 
+EDC  N1    .  N  0  ?  ?  ?  1  10
+EDC  C6    .  C  0  ?  ?  ?  1  11
+EDC  C2    .  C  0  ?  ?  ?  1  12
+EDC  O2    .  O  0  ?  ?  ?  1  13
+EDC  N3    .  N  0  ?  ?  ?  1  14
+EDC  C4    .  C  0  ?  ?  ?  1  15
+EDC  N4    .  N  1  ?  ?  ?  1  16
+EDC  C7    .  C  0  ?  ?  ?  1  17
+EDC  C8    .  C  0  ?  ?  ?  1  18
+EDC  C5    .  C  0  ?  ?  ?  1  19
+EDC  C2*   .  C  0  ?  ?  ?  1  20
+EDC  C3*   .  C  0  ?  ?  ?  1  21
+EDC  O3*   .  O  0  ?  ?  ?  1  22
+EDC  2HOP  .  H  0  ?  ?  ?  0  23
+EDC  3HOP  .  H  0  ?  ?  ?  0  24
+EDC  1H5*  .  H  0  ?  ?  ?  0  25
+EDC  2H5*  .  H  0  ?  ?  ?  0  26
+EDC  H4*   .  H  0  ?  ?  ?  1  27
+EDC  H1*   .  H  0  ?  ?  ?  1  28
+EDC  H6    .  H  0  ?  ?  ?  1  29
+EDC  HN4   .  H  0  ?  ?  ?  1  30
+EDC  H7    .  H  0  ?  ?  ?  1  31
+EDC  H8    .  H  0  ?  ?  ?  1  32
+EDC  H5    .  H  0  ?  ?  ?  1  33
+EDC  1H2*  .  H  0  ?  ?  ?  0  34
+EDC  2H2*  .  H  0  ?  ?  ?  0  35
+EDC  H3*   .  H  0  ?  ?  ?  1  36
+EDC  *HO3  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EDC  P    O1P   DOUB  1 
+EDC  P    O2P   SING  2 
+EDC  P    O3P   SING  3 
+EDC  P    O5*   SING  4 
+EDC  O2P  2HOP  SING  5 
+EDC  O3P  3HOP  SING  6 
+EDC  O5*  C5*   SING  7 
+EDC  C5*  C4*   SING  8 
+EDC  C5*  1H5*  SING  9 
+EDC  C5*  2H5*  SING  10
+EDC  C4*  O4*   SING  11
+EDC  C4*  C3*   SING  12
+EDC  C4*  H4*   SING  13
+EDC  O4*  C1*   SING  14
+EDC  C1*  N1    SING  15
+EDC  C1*  C2*   SING  16
+EDC  C1*  H1*   SING  17
+EDC  N1   C6    SING  18
+EDC  N1   C2    SING  19
+EDC  C6   C5    DOUB  20
+EDC  C6   H6    SING  21
+EDC  C2   O2    DOUB  22
+EDC  C2   N3    SING  23
+EDC  N3   C4    SING  24
+EDC  N3   C8    SING  25
+EDC  C4   N4    DOUB  26
+EDC  C4   C5    SING  27
+EDC  N4   C7    SING  28
+EDC  N4   HN4   SING  29
+EDC  C7   C8    DOUB  30
+EDC  C7   H7    SING  31
+EDC  C8   H8    SING  32
+EDC  C5   H5    SING  33
+EDC  C2*  C3*   SING  34
+EDC  C2*  1H2*  SING  35
+EDC  C2*  2H2*  SING  36
+EDC  C3*  O3*   SING  37
+EDC  C3*  H3*   SING  38
+EDC  O3*  *HO3  SING  39
+#

@@ -1,0 +1,79 @@
+data_DMJ
+#
+_chem_comp.id                   DMJ
+_chem_comp.name                 1-DEOXYMANNOJIRIMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMJ  C4   .  C  0  ?  ?  ?  1  1 
+DMJ  O4   .  O  0  ?  ?  ?  1  2 
+DMJ  C3   .  C  0  ?  ?  ?  1  3 
+DMJ  O3   .  O  0  ?  ?  ?  1  4 
+DMJ  C2   .  C  0  ?  ?  ?  1  5 
+DMJ  O2   .  O  0  ?  ?  ?  1  6 
+DMJ  C1   .  C  0  ?  ?  ?  1  7 
+DMJ  N5   .  N  0  ?  ?  ?  1  8 
+DMJ  C5   .  C  0  ?  ?  ?  1  9 
+DMJ  C6   .  C  0  ?  ?  ?  1  10
+DMJ  O6   .  O  0  ?  ?  ?  1  11
+DMJ  1H1  .  H  0  ?  ?  ?  0  12
+DMJ  2H1  .  H  0  ?  ?  ?  0  13
+DMJ  H2   .  H  0  ?  ?  ?  1  14
+DMJ  HO2  .  H  0  ?  ?  ?  1  15
+DMJ  H3   .  H  0  ?  ?  ?  1  16
+DMJ  HO3  .  H  0  ?  ?  ?  1  17
+DMJ  H4   .  H  0  ?  ?  ?  1  18
+DMJ  HO4  .  H  0  ?  ?  ?  1  19
+DMJ  H5   .  H  0  ?  ?  ?  1  20
+DMJ  1H6  .  H  0  ?  ?  ?  0  21
+DMJ  2H6  .  H  0  ?  ?  ?  0  22
+DMJ  HO6  .  H  0  ?  ?  ?  1  23
+DMJ  HN5  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMJ  C4  O4   SING  1 
+DMJ  C4  C3   SING  2 
+DMJ  C4  C5   SING  3 
+DMJ  C4  H4   SING  4 
+DMJ  O4  HO4  SING  5 
+DMJ  C3  O3   SING  6 
+DMJ  C3  C2   SING  7 
+DMJ  C3  H3   SING  8 
+DMJ  O3  HO3  SING  9 
+DMJ  C2  O2   SING  10
+DMJ  C2  C1   SING  11
+DMJ  C2  H2   SING  12
+DMJ  O2  HO2  SING  13
+DMJ  C1  N5   SING  14
+DMJ  C1  1H1  SING  15
+DMJ  C1  2H1  SING  16
+DMJ  N5  C5   SING  17
+DMJ  N5  HN5  SING  18
+DMJ  C5  C6   SING  19
+DMJ  C5  H5   SING  20
+DMJ  C6  O6   SING  21
+DMJ  C6  1H6  SING  22
+DMJ  C6  2H6  SING  23
+DMJ  O6  HO6  SING  24
+#

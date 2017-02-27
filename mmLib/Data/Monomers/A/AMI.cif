@@ -1,0 +1,94 @@
+data_AMI
+#
+_chem_comp.id                   AMI
+_chem_comp.name                 ALLOSAMIZOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H16 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMI  C1   .  C  0  ?  ?  ?  1  1 
+AMI  C2   .  C  0  ?  ?  ?  1  2 
+AMI  C3   .  C  0  ?  ?  ?  1  3 
+AMI  C4   .  C  0  ?  ?  ?  1  4 
+AMI  C5   .  C  0  ?  ?  ?  1  5 
+AMI  C6   .  C  0  ?  ?  ?  1  6 
+AMI  C7   .  C  0  ?  ?  ?  1  7 
+AMI  C8   .  C  0  ?  ?  ?  1  8 
+AMI  C9   .  C  0  ?  ?  ?  1  9 
+AMI  N2   .  N  0  ?  ?  ?  1  10
+AMI  N7   .  N  0  ?  ?  ?  1  11
+AMI  O3   .  O  0  ?  ?  ?  1  12
+AMI  O4   .  O  0  ?  ?  ?  1  13
+AMI  O6   .  O  0  ?  ?  ?  1  14
+AMI  O7   .  O  0  ?  ?  ?  1  15
+AMI  H1   .  H  0  ?  ?  ?  1  16
+AMI  H2   .  H  0  ?  ?  ?  1  17
+AMI  H3   .  H  0  ?  ?  ?  1  18
+AMI  H4   .  H  0  ?  ?  ?  1  19
+AMI  H5   .  H  0  ?  ?  ?  1  20
+AMI  1H6  .  H  0  ?  ?  ?  0  21
+AMI  2H6  .  H  0  ?  ?  ?  0  22
+AMI  1H8  .  H  0  ?  ?  ?  0  23
+AMI  2H8  .  H  0  ?  ?  ?  0  24
+AMI  3H8  .  H  0  ?  ?  ?  0  25
+AMI  1H9  .  H  0  ?  ?  ?  0  26
+AMI  2H9  .  H  0  ?  ?  ?  0  27
+AMI  3H9  .  H  0  ?  ?  ?  0  28
+AMI  HO3  .  H  0  ?  ?  ?  1  29
+AMI  HO4  .  H  0  ?  ?  ?  1  30
+AMI  HO6  .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMI  C1  C2   SING  1 
+AMI  C1  C5   SING  2 
+AMI  C1  O7   SING  3 
+AMI  C1  H1   SING  4 
+AMI  C2  C3   SING  5 
+AMI  C2  N2   SING  6 
+AMI  C2  H2   SING  7 
+AMI  C3  C4   SING  8 
+AMI  C3  O3   SING  9 
+AMI  C3  H3   SING  10
+AMI  C4  C5   SING  11
+AMI  C4  O4   SING  12
+AMI  C4  H4   SING  13
+AMI  C5  C6   SING  14
+AMI  C5  H5   SING  15
+AMI  C6  O6   SING  16
+AMI  C6  1H6  SING  17
+AMI  C6  2H6  SING  18
+AMI  C7  N2   DOUB  19
+AMI  C7  N7   SING  20
+AMI  C7  O7   SING  21
+AMI  C8  N7   SING  22
+AMI  C8  1H8  SING  23
+AMI  C8  2H8  SING  24
+AMI  C8  3H8  SING  25
+AMI  C9  N7   SING  26
+AMI  C9  1H9  SING  27
+AMI  C9  2H9  SING  28
+AMI  C9  3H9  SING  29
+AMI  O3  HO3  SING  30
+AMI  O4  HO4  SING  31
+AMI  O6  HO6  SING  32
+#

@@ -1,0 +1,93 @@
+data_PCX
+#
+_chem_comp.id                   PCX
+_chem_comp.name                 'DEOXYGUANIDINOPROCLAVAMINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        227.242
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCX  N1    .  N  0  2.755  6.403  4.847   1  1 
+PCX  C1    .  C  0  2.035  7.446  4.157   1  2 
+PCX  C2    .  C  0  .8     7.036  3.349   1  3 
+PCX  C4    .  C  0  1.155  6.14   2.117   1  4 
+PCX  C5    .  C  0  1.927  6.949  1.017   1  5 
+PCX  N2    .  N  0  1.756  6.277  -.294   1  6 
+PCX  C6    .  C  0  2.58   5.31   -.774   1  7 
+PCX  N3    .  N  0  3.643  4.889  -.072   1  8 
+PCX  N4    .  N  0  2.305  4.8    -1.942  1  9 
+PCX  C3    .  C  0  1.587  8.334  5.303   1  10
+PCX  O1    .  O  0  1.278  7.886  6.412   1  11
+PCX  O2    .  O  0  1.537  9.629  5.026   1  12
+PCX  C8    .  C  0  3.955  6.214  5.467   1  13
+PCX  C9    .  C  0  3.591  4.805  5.799   1  14
+PCX  O4    .  O  0  4.889  6.946  5.645   1  15
+PCX  C7    .  C  0  2.297  5.071  5.1     1  16
+PCX  H1    .  H  0  2.737  8.011  3.501   1  17
+PCX  1H2C  .  H  0  .211   7.93   3.037   0  18
+PCX  2H2C  .  H  0  .043   6.54   4       0  19
+PCX  1H4C  .  H  0  .247   5.647  1.698   0  20
+PCX  2H4C  .  H  0  1.721  5.23   2.425   0  21
+PCX  1H5C  .  H  0  3      7.1    1.278   0  22
+PCX  2H5C  .  H  0  1.62   8.021  .986    0  23
+PCX  H2    .  H  0  .966   6.56   -.874   1  24
+PCX  1H3N  .  H  0  4.262  4.163  -.433   0  25
+PCX  2H3N  .  H  0  3.858  5.288  .842    0  26
+PCX  HA    .  H  0  ?      ?      ?       1  27
+PCX  1H7C  .  H  0  1.957  4.417  4.263   0  28
+PCX  2H7C  .  H  0  1.324  4.891  5.615   0  29
+PCX  1H9C  .  H  0  3.62   4.427  6.847   0  30
+PCX  2H9C  .  H  0  4.245  3.95   5.509   0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCX  N1  C8    SING  1 
+PCX  N1  C7    SING  2 
+PCX  N1  C1    SING  3 
+PCX  C1  C2    SING  4 
+PCX  C1  C3    SING  5 
+PCX  C1  H1    SING  6 
+PCX  C2  C4    SING  7 
+PCX  C2  1H2C  SING  8 
+PCX  C2  2H2C  SING  9 
+PCX  C4  C5    SING  10
+PCX  C4  1H4C  SING  11
+PCX  C4  2H4C  SING  12
+PCX  C5  N2    SING  13
+PCX  C5  1H5C  SING  14
+PCX  C5  2H5C  SING  15
+PCX  N2  C6    SING  16
+PCX  N2  H2    SING  17
+PCX  C6  N3    SING  18
+PCX  C6  N4    DOUB  19
+PCX  N3  1H3N  SING  20
+PCX  N3  2H3N  SING  21
+PCX  C3  O1    DOUB  22
+PCX  C3  O2    SING  23
+PCX  O2  HA    SING  24
+PCX  C8  O4    DOUB  25
+PCX  C8  C9    SING  26
+PCX  C9  C7    SING  27
+PCX  C9  1H9C  SING  28
+PCX  C9  2H9C  SING  29
+PCX  C7  1H7C  SING  30
+PCX  C7  2H7C  SING  31
+#

@@ -1,0 +1,87 @@
+data_BBS
+#
+_chem_comp.id                   BBS
+_chem_comp.name                 '4-TERT-BUTYLBENZENESULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        214.279
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BBS  C1   .  C  0  ?  ?  ?  1  1 
+BBS  C2   .  C  0  ?  ?  ?  1  2 
+BBS  C3   .  C  0  ?  ?  ?  1  3 
+BBS  C4   .  C  0  ?  ?  ?  1  4 
+BBS  CD2  .  C  0  ?  ?  ?  1  5 
+BBS  CE2  .  C  0  ?  ?  ?  1  6 
+BBS  CZ   .  C  0  ?  ?  ?  1  7 
+BBS  CE1  .  C  0  ?  ?  ?  1  8 
+BBS  CD1  .  C  0  ?  ?  ?  1  9 
+BBS  CG   .  C  0  ?  ?  ?  1  10
+BBS  S    .  S  0  ?  ?  ?  1  11
+BBS  O1   .  O  0  ?  ?  ?  1  12
+BBS  O2   .  O  0  ?  ?  ?  1  13
+BBS  O3   .  O  0  ?  ?  ?  1  14
+BBS  1H1  .  H  0  ?  ?  ?  0  15
+BBS  2H1  .  H  0  ?  ?  ?  0  16
+BBS  3H1  .  H  0  ?  ?  ?  0  17
+BBS  1H4  .  H  0  ?  ?  ?  0  18
+BBS  2H4  .  H  0  ?  ?  ?  0  19
+BBS  3H4  .  H  0  ?  ?  ?  0  20
+BBS  1H3  .  H  0  ?  ?  ?  0  21
+BBS  2H3  .  H  0  ?  ?  ?  0  22
+BBS  3H3  .  H  0  ?  ?  ?  0  23
+BBS  HD1  .  H  0  ?  ?  ?  1  24
+BBS  HD2  .  H  0  ?  ?  ?  1  25
+BBS  HE1  .  H  0  ?  ?  ?  1  26
+BBS  HE2  .  H  0  ?  ?  ?  1  27
+BBS  HO3  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BBS  C1   C2   SING  1 
+BBS  C1   1H1  SING  2 
+BBS  C1   2H1  SING  3 
+BBS  C1   3H1  SING  4 
+BBS  C2   C3   SING  5 
+BBS  C2   C4   SING  6 
+BBS  C2   CG   SING  7 
+BBS  C3   1H3  SING  8 
+BBS  C3   2H3  SING  9 
+BBS  C3   3H3  SING  10
+BBS  C4   1H4  SING  11
+BBS  C4   2H4  SING  12
+BBS  C4   3H4  SING  13
+BBS  CD2  CE2  DOUB  14
+BBS  CD2  CG   SING  15
+BBS  CD2  HD2  SING  16
+BBS  CE2  CZ   SING  17
+BBS  CE2  HE2  SING  18
+BBS  CZ   CE1  DOUB  19
+BBS  CZ   S    SING  20
+BBS  CE1  CD1  SING  21
+BBS  CE1  HE1  SING  22
+BBS  CD1  CG   DOUB  23
+BBS  CD1  HD1  SING  24
+BBS  S    O1   DOUB  25
+BBS  S    O2   DOUB  26
+BBS  S    O3   SING  27
+BBS  O3   HO3  SING  28
+#

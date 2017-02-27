@@ -1,0 +1,88 @@
+data_HRG
+#
+_chem_comp.id                   HRG
+_chem_comp.name                 L-HOMOARGININE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N4 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       188.229
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HRG  N     .  N  0  ?  ?  ?  1  1 
+HRG  CA    .  C  0  ?  ?  ?  1  2 
+HRG  CB    .  C  0  ?  ?  ?  1  3 
+HRG  CG    .  C  0  ?  ?  ?  1  4 
+HRG  CG'   .  C  0  ?  ?  ?  1  5 
+HRG  CD    .  C  0  ?  ?  ?  1  6 
+HRG  NE    .  N  0  ?  ?  ?  1  7 
+HRG  CZ    .  C  0  ?  ?  ?  1  8 
+HRG  NH1   .  N  0  ?  ?  ?  1  9 
+HRG  NH2   .  N  1  ?  ?  ?  1  10
+HRG  C     .  C  0  ?  ?  ?  1  11
+HRG  O     .  O  0  ?  ?  ?  1  12
+HRG  OXT   .  O  0  ?  ?  ?  1  13
+HRG  HN1   .  H  0  ?  ?  ?  1  14
+HRG  1HN2  .  H  0  ?  ?  ?  0  15
+HRG  2HN2  .  H  0  ?  ?  ?  0  16
+HRG  HNE   .  H  0  ?  ?  ?  1  17
+HRG  1HD   .  H  0  ?  ?  ?  0  18
+HRG  2HD   .  H  0  ?  ?  ?  0  19
+HRG  1HG   .  H  0  ?  ?  ?  0  20
+HRG  2HG   .  H  0  ?  ?  ?  0  21
+HRG  1HG'  .  H  0  ?  ?  ?  0  22
+HRG  2HG'  .  H  0  ?  ?  ?  0  23
+HRG  1HB   .  H  0  ?  ?  ?  0  24
+HRG  2HB   .  H  0  ?  ?  ?  0  25
+HRG  HA    .  H  0  ?  ?  ?  1  26
+HRG  1HN   .  H  0  ?  ?  ?  0  27
+HRG  2HN   .  H  0  ?  ?  ?  0  28
+HRG  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HRG  N    CA    SING  1 
+HRG  N    1HN   SING  2 
+HRG  N    2HN   SING  3 
+HRG  CA   CB    SING  4 
+HRG  CA   C     SING  5 
+HRG  CA   HA    SING  6 
+HRG  CB   CG'   SING  7 
+HRG  CB   1HB   SING  8 
+HRG  CB   2HB   SING  9 
+HRG  CG   CG'   SING  10
+HRG  CG   CD    SING  11
+HRG  CG   1HG   SING  12
+HRG  CG   2HG   SING  13
+HRG  CG'  1HG'  SING  14
+HRG  CG'  2HG'  SING  15
+HRG  CD   NE    SING  16
+HRG  CD   1HD   SING  17
+HRG  CD   2HD   SING  18
+HRG  NE   CZ    SING  19
+HRG  NE   HNE   SING  20
+HRG  CZ   NH1   DOUB  21
+HRG  CZ   NH2   SING  22
+HRG  NH1  HN1   SING  23
+HRG  NH2  1HN2  SING  24
+HRG  NH2  2HN2  SING  25
+HRG  C    O     DOUB  26
+HRG  C    OXT   SING  27
+HRG  OXT  HXT   SING  28
+#

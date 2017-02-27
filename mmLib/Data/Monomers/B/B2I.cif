@@ -1,0 +1,77 @@
+data_B2I
+#
+_chem_comp.id                       B2I
+_chem_comp.name                     'ISOLEUCINE BORONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H14 N1 O2 B1'
+_chem_comp.mon_nstd_parent_comp_id  ILE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            130.981
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+B2I  N     .  N  0  ?  ?  ?  1  1 
+B2I  CA    .  C  0  ?  ?  ?  1  2 
+B2I  CB    .  C  0  ?  ?  ?  1  3 
+B2I  CG1   .  C  0  ?  ?  ?  1  4 
+B2I  CG2   .  C  0  ?  ?  ?  1  5 
+B2I  CD1   .  C  0  ?  ?  ?  1  6 
+B2I  B     .  B  0  ?  ?  ?  1  7 
+B2I  O1    .  O  0  ?  ?  ?  1  8 
+B2I  O2    .  O  0  ?  ?  ?  1  9 
+B2I  1HN   .  H  0  ?  ?  ?  0  10
+B2I  2HN   .  H  0  ?  ?  ?  0  11
+B2I  HA    .  H  0  ?  ?  ?  1  12
+B2I  HB    .  H  0  ?  ?  ?  1  13
+B2I  1HG1  .  H  0  ?  ?  ?  0  14
+B2I  2HG1  .  H  0  ?  ?  ?  0  15
+B2I  1HG2  .  H  0  ?  ?  ?  0  16
+B2I  2HG2  .  H  0  ?  ?  ?  0  17
+B2I  3HG2  .  H  0  ?  ?  ?  0  18
+B2I  1HD1  .  H  0  ?  ?  ?  0  19
+B2I  2HD1  .  H  0  ?  ?  ?  0  20
+B2I  3HD1  .  H  0  ?  ?  ?  0  21
+B2I  HO1   .  H  0  ?  ?  ?  1  22
+B2I  HO2   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+B2I  N    CA    SING  1 
+B2I  N    1HN   SING  2 
+B2I  N    2HN   SING  3 
+B2I  CA   CB    SING  4 
+B2I  CA   B     SING  5 
+B2I  CA   HA    SING  6 
+B2I  CB   CG1   SING  7 
+B2I  CB   CG2   SING  8 
+B2I  CB   HB    SING  9 
+B2I  CG1  CD1   SING  10
+B2I  CG1  1HG1  SING  11
+B2I  CG1  2HG1  SING  12
+B2I  CG2  1HG2  SING  13
+B2I  CG2  2HG2  SING  14
+B2I  CG2  3HG2  SING  15
+B2I  CD1  1HD1  SING  16
+B2I  CD1  2HD1  SING  17
+B2I  CD1  3HD1  SING  18
+B2I  B    O1    SING  19
+B2I  B    O2    SING  20
+B2I  O1   HO1   SING  21
+B2I  O2   HO2   SING  22
+#

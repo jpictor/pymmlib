@@ -1,0 +1,66 @@
+data_DPR
+#
+_chem_comp.id                       DPR
+_chem_comp.name                     D-PROLINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            115.132
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPR  N    .  N  0  ?  ?  ?  1  1 
+DPR  CA   .  C  0  ?  ?  ?  1  2 
+DPR  CB   .  C  0  ?  ?  ?  1  3 
+DPR  CG   .  C  0  ?  ?  ?  1  4 
+DPR  CD   .  C  0  ?  ?  ?  1  5 
+DPR  C    .  C  0  ?  ?  ?  1  6 
+DPR  O    .  O  0  ?  ?  ?  1  7 
+DPR  OXT  .  O  0  ?  ?  ?  1  8 
+DPR  HT1  .  H  0  ?  ?  ?  1  9 
+DPR  HA   .  H  0  ?  ?  ?  1  10
+DPR  1HB  .  H  0  ?  ?  ?  0  11
+DPR  2HB  .  H  0  ?  ?  ?  0  12
+DPR  1HG  .  H  0  ?  ?  ?  0  13
+DPR  2HG  .  H  0  ?  ?  ?  0  14
+DPR  1HD  .  H  0  ?  ?  ?  0  15
+DPR  2HD  .  H  0  ?  ?  ?  0  16
+DPR  HXT  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPR  N    CA   SING  1 
+DPR  N    CD   SING  2 
+DPR  N    HT1  SING  3 
+DPR  CA   CB   SING  4 
+DPR  CA   C    SING  5 
+DPR  CA   HA   SING  6 
+DPR  CB   CG   SING  7 
+DPR  CB   1HB  SING  8 
+DPR  CB   2HB  SING  9 
+DPR  CG   CD   SING  10
+DPR  CG   1HG  SING  11
+DPR  CG   2HG  SING  12
+DPR  CD   1HD  SING  13
+DPR  CD   2HD  SING  14
+DPR  C    O    DOUB  15
+DPR  C    OXT  SING  16
+DPR  OXT  HXT  SING  17
+#

@@ -1,0 +1,66 @@
+data_ISQ
+#
+_chem_comp.id                   ISQ
+_chem_comp.name                 ISOQUINOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H7 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.161
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISQ  C1   .  C  0  ?  ?  ?  1  1 
+ISQ  N2   .  N  0  ?  ?  ?  1  2 
+ISQ  C3   .  C  0  ?  ?  ?  1  3 
+ISQ  C4   .  C  0  ?  ?  ?  1  4 
+ISQ  C4A  .  C  0  ?  ?  ?  1  5 
+ISQ  C5   .  C  0  ?  ?  ?  1  6 
+ISQ  C6   .  C  0  ?  ?  ?  1  7 
+ISQ  C7   .  C  0  ?  ?  ?  1  8 
+ISQ  C8   .  C  0  ?  ?  ?  1  9 
+ISQ  C8A  .  C  0  ?  ?  ?  1  10
+ISQ  H1   .  H  0  ?  ?  ?  1  11
+ISQ  H3   .  H  0  ?  ?  ?  1  12
+ISQ  H4   .  H  0  ?  ?  ?  1  13
+ISQ  H5   .  H  0  ?  ?  ?  1  14
+ISQ  H6   .  H  0  ?  ?  ?  1  15
+ISQ  H7   .  H  0  ?  ?  ?  1  16
+ISQ  H8   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISQ  C1   N2   DOUB  1 
+ISQ  C1   C8A  SING  2 
+ISQ  C1   H1   SING  3 
+ISQ  N2   C3   SING  4 
+ISQ  C3   C4   DOUB  5 
+ISQ  C3   H3   SING  6 
+ISQ  C4   C4A  SING  7 
+ISQ  C4   H4   SING  8 
+ISQ  C4A  C5   DOUB  9 
+ISQ  C4A  C8A  SING  10
+ISQ  C5   C6   SING  11
+ISQ  C5   H5   SING  12
+ISQ  C6   C7   DOUB  13
+ISQ  C6   H6   SING  14
+ISQ  C7   C8   SING  15
+ISQ  C7   H7   SING  16
+ISQ  C8   C8A  DOUB  17
+ISQ  C8   H8   SING  18
+#

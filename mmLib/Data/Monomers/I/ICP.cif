@@ -1,0 +1,64 @@
+data_ICP
+#
+_chem_comp.id                   ICP
+_chem_comp.name                 2-METHYL-5-METHYLENE-5H-PYRIMIDIN-4-YLIDENEAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 N3'
+_chem_comp.pdbx_synonyms        4-IMINO-5-METHIDYL-2-METHYLPYRIMIDINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        121.141
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ICP  N1A   .  N  0  ?  ?  ?  1  1 
+ICP  C2A   .  C  0  ?  ?  ?  1  2 
+ICP  CM2   .  C  0  ?  ?  ?  1  3 
+ICP  N3A   .  N  0  ?  ?  ?  1  4 
+ICP  C4A   .  C  0  ?  ?  ?  1  5 
+ICP  N4A   .  N  0  ?  ?  ?  1  6 
+ICP  C5A   .  C  0  ?  ?  ?  1  7 
+ICP  C6A   .  C  0  ?  ?  ?  1  8 
+ICP  C7A   .  C  0  ?  ?  ?  1  9 
+ICP  HN4   .  H  0  ?  ?  ?  1  10
+ICP  1H7A  .  H  0  ?  ?  ?  0  11
+ICP  2H7A  .  H  0  ?  ?  ?  0  12
+ICP  1H6A  .  H  0  ?  ?  ?  0  13
+ICP  1HM2  .  H  0  ?  ?  ?  0  14
+ICP  2HM2  .  H  0  ?  ?  ?  0  15
+ICP  3HM2  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ICP  N1A  C2A   SING  1 
+ICP  N1A  C6A   DOUB  2 
+ICP  C2A  CM2   SING  3 
+ICP  C2A  N3A   DOUB  4 
+ICP  CM2  1HM2  SING  5 
+ICP  CM2  2HM2  SING  6 
+ICP  CM2  3HM2  SING  7 
+ICP  N3A  C4A   SING  8 
+ICP  C4A  N4A   DOUB  9 
+ICP  C4A  C5A   SING  10
+ICP  N4A  HN4   SING  11
+ICP  C5A  C6A   SING  12
+ICP  C5A  C7A   DOUB  13
+ICP  C6A  1H6A  SING  14
+ICP  C7A  1H7A  SING  15
+ICP  C7A  2H7A  SING  16
+#

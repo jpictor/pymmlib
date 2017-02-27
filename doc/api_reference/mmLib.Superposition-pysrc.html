@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.Superposition</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;Superposition
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.Superposition-pysrc.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<h1 class="epydoc">Source Code for <a href="mmLib.Superposition-module.html">Module mmLib.Superposition</a></h1>
+<pre class="py-src">
+<a name="L1"></a><tt class="py-lineno">  1</tt>  <tt class="py-line"><tt class="py-comment">## Copyright 2002-2010 by PyMMLib Development Group (see AUTHORS file)</tt> </tt>
+<a name="L2"></a><tt class="py-lineno">  2</tt>  <tt class="py-line"><tt class="py-comment">## This code is part of the PyMMLib distribution and governed by</tt> </tt>
+<a name="L3"></a><tt class="py-lineno">  3</tt>  <tt class="py-line"><tt class="py-comment">## its license.  Please see the LICENSE file that should have been</tt> </tt>
+<a name="L4"></a><tt class="py-lineno">  4</tt>  <tt class="py-line"><tt class="py-comment">## included as part of this package.</tt> </tt>
+<a name="L5"></a><tt class="py-lineno">  5</tt>  <tt class="py-line"><tt class="py-docstring">"""Class for least-squares structural superposition.  Uses a quaternion</tt> </tt>
+<a name="L6"></a><tt class="py-lineno">  6</tt>  <tt class="py-line"><tt class="py-docstring">method which avoids improper rotations.</tt> </tt>
+<a name="L7"></a><tt class="py-lineno">  7</tt>  <tt class="py-line"><tt class="py-docstring">"""</tt> </tt>
+<a name="L8"></a><tt class="py-lineno">  8</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt class="py-name">math</tt> </tt>
+<a name="L9"></a><tt class="py-lineno">  9</tt>  <tt class="py-line"> </tt>
+<a name="L10"></a><tt class="py-lineno"> 10</tt>  <tt class="py-line"><tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L11"></a><tt class="py-lineno"> 11</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt class="py-name">numpy</tt> </tt>
+<a name="L12"></a><tt class="py-lineno"> 12</tt>  <tt class="py-line">    <tt class="py-keyword">try</tt><tt class="py-op">:</tt> </tt>
+<a name="L13"></a><tt class="py-lineno"> 13</tt>  <tt class="py-line">        <tt class="py-keyword">from</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">oldnumeric</tt> <tt class="py-keyword">import</tt> <tt class="py-name">linear_algebra</tt> <tt class="py-keyword">as</tt> <tt class="py-name">linalg</tt> </tt>
+<a name="L14"></a><tt class="py-lineno"> 14</tt>  <tt class="py-line">    <tt class="py-keyword">except</tt> <tt class="py-name">ImportError</tt><tt class="py-op">:</tt> </tt>
+<a name="L15"></a><tt class="py-lineno"> 15</tt>  <tt class="py-line">        <tt class="py-keyword">from</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">linalg</tt> <tt class="py-keyword">import</tt> <tt class="py-name">old</tt> <tt class="py-keyword">as</tt> <tt class="py-name">linalg</tt> </tt>
+<a name="L16"></a><tt class="py-lineno"> 16</tt>  <tt class="py-line"><tt class="py-keyword">except</tt> <tt class="py-name">ImportError</tt><tt class="py-op">:</tt> </tt>
+<a name="L17"></a><tt class="py-lineno"> 17</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt id="link-0" class="py-name" targets="Module mmLib.NumericCompat=mmLib.NumericCompat-module.html"><a title="mmLib.NumericCompat" class="py-name" href="#" onclick="return doclink('link-0', 'NumericCompat', 'link-0');">NumericCompat</a></tt> <tt class="py-keyword">as</tt> <tt class="py-name">numpy</tt> </tt>
+<a name="L18"></a><tt class="py-lineno"> 18</tt>  <tt class="py-line">    <tt class="py-keyword">from</tt> <tt id="link-1" class="py-name"><a title="mmLib.NumericCompat" class="py-name" href="#" onclick="return doclink('link-1', 'NumericCompat', 'link-0');">NumericCompat</a></tt> <tt class="py-keyword">import</tt> <tt class="py-name">linalg</tt> </tt>
+<a name="L19"></a><tt class="py-lineno"> 19</tt>  <tt class="py-line">     </tt>
+<a name="L20"></a><tt class="py-lineno"> 20</tt>  <tt class="py-line"><tt class="py-keyword">import</tt> <tt id="link-2" class="py-name" targets="Module mmLib.AtomMath=mmLib.AtomMath-module.html"><a title="mmLib.AtomMath" class="py-name" href="#" onclick="return doclink('link-2', 'AtomMath', 'link-2');">AtomMath</a></tt> </tt>
+<a name="L21"></a><tt class="py-lineno"> 21</tt>  <tt class="py-line"> </tt>
+<a name="QuaternionToRotationMatrix"></a><div id="QuaternionToRotationMatrix-def"><a name="L22"></a><tt class="py-lineno"> 22</tt> <a class="py-toggle" href="#" id="QuaternionToRotationMatrix-toggle" onclick="return toggle('QuaternionToRotationMatrix');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#QuaternionToRotationMatrix">QuaternionToRotationMatrix</a><tt class="py-op">(</tt><tt class="py-param">q</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="QuaternionToRotationMatrix-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="QuaternionToRotationMatrix-expanded"><a name="L23"></a><tt class="py-lineno"> 23</tt>  <tt class="py-line">    <tt class="py-docstring">"""Create a rotation matrix from q quaternion rotation.</tt> </tt>
+<a name="L24"></a><tt class="py-lineno"> 24</tt>  <tt class="py-line"><tt class="py-docstring">    Quaternions are typed as Numeric Python arrays of length 4.</tt> </tt>
+<a name="L25"></a><tt class="py-lineno"> 25</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L26"></a><tt class="py-lineno"> 26</tt>  <tt class="py-line">    <tt class="py-keyword">assert</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">allclose</tt><tt class="py-op">(</tt><tt class="py-name">math</tt><tt class="py-op">.</tt><tt id="link-3" class="py-name" targets="Variable mmLib.NumericCompat.sqrt=mmLib.NumericCompat-module.html#sqrt"><a title="mmLib.NumericCompat.sqrt" class="py-name" href="#" onclick="return doclink('link-3', 'sqrt', 'link-3');">sqrt</a></tt><tt class="py-op">(</tt><tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">dot</tt><tt class="py-op">(</tt><tt class="py-name">q</tt><tt class="py-op">,</tt><tt class="py-name">q</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-number">1.0</tt><tt class="py-op">)</tt> </tt>
+<a name="L27"></a><tt class="py-lineno"> 27</tt>  <tt class="py-line">     </tt>
+<a name="L28"></a><tt class="py-lineno"> 28</tt>  <tt class="py-line">    <tt class="py-name">q0</tt><tt class="py-op">,</tt> <tt class="py-name">q1</tt><tt class="py-op">,</tt> <tt class="py-name">q2</tt><tt class="py-op">,</tt> <tt class="py-name">q3</tt> <tt class="py-op">=</tt> <tt class="py-name">q</tt> </tt>
+<a name="L29"></a><tt class="py-lineno"> 29</tt>  <tt class="py-line"> </tt>
+<a name="L30"></a><tt class="py-lineno"> 30</tt>  <tt class="py-line">    <tt class="py-name">b0</tt> <tt class="py-op">=</tt> <tt class="py-number">2.0</tt><tt class="py-op">*</tt><tt class="py-name">q0</tt> </tt>
+<a name="L31"></a><tt class="py-lineno"> 31</tt>  <tt class="py-line">    <tt class="py-name">b1</tt> <tt class="py-op">=</tt> <tt class="py-number">2.0</tt><tt class="py-op">*</tt><tt class="py-name">q1</tt> </tt>
+<a name="L32"></a><tt class="py-lineno"> 32</tt>  <tt class="py-line">    <tt class="py-name">b2</tt> <tt class="py-op">=</tt> <tt class="py-number">2.0</tt><tt class="py-op">*</tt><tt class="py-name">q2</tt> </tt>
+<a name="L33"></a><tt class="py-lineno"> 33</tt>  <tt class="py-line">    <tt class="py-name">b3</tt> <tt class="py-op">=</tt> <tt class="py-number">2.0</tt><tt class="py-op">*</tt><tt class="py-name">q3</tt> </tt>
+<a name="L34"></a><tt class="py-lineno"> 34</tt>  <tt class="py-line">     </tt>
+<a name="L35"></a><tt class="py-lineno"> 35</tt>  <tt class="py-line">    <tt class="py-name">q00</tt> <tt class="py-op">=</tt> <tt class="py-name">b0</tt><tt class="py-op">*</tt><tt class="py-name">q0</tt><tt class="py-op">-</tt><tt class="py-number">1.0</tt> </tt>
+<a name="L36"></a><tt class="py-lineno"> 36</tt>  <tt class="py-line">    <tt class="py-name">q01</tt> <tt class="py-op">=</tt> <tt class="py-name">b0</tt><tt class="py-op">*</tt><tt class="py-name">q1</tt> </tt>
+<a name="L37"></a><tt class="py-lineno"> 37</tt>  <tt class="py-line">    <tt class="py-name">q02</tt> <tt class="py-op">=</tt> <tt class="py-name">b0</tt><tt class="py-op">*</tt><tt class="py-name">q2</tt> </tt>
+<a name="L38"></a><tt class="py-lineno"> 38</tt>  <tt class="py-line">    <tt class="py-name">q03</tt> <tt class="py-op">=</tt> <tt class="py-name">b0</tt><tt class="py-op">*</tt><tt class="py-name">q3</tt> </tt>
+<a name="L39"></a><tt class="py-lineno"> 39</tt>  <tt class="py-line">     </tt>
+<a name="L40"></a><tt class="py-lineno"> 40</tt>  <tt class="py-line">    <tt class="py-name">q11</tt> <tt class="py-op">=</tt> <tt class="py-name">b1</tt><tt class="py-op">*</tt><tt class="py-name">q1</tt> </tt>
+<a name="L41"></a><tt class="py-lineno"> 41</tt>  <tt class="py-line">    <tt class="py-name">q12</tt> <tt class="py-op">=</tt> <tt class="py-name">b1</tt><tt class="py-op">*</tt><tt class="py-name">q2</tt> </tt>
+<a name="L42"></a><tt class="py-lineno"> 42</tt>  <tt class="py-line">    <tt class="py-name">q13</tt> <tt class="py-op">=</tt> <tt class="py-name">b1</tt><tt class="py-op">*</tt><tt class="py-name">q3</tt>   </tt>
+<a name="L43"></a><tt class="py-lineno"> 43</tt>  <tt class="py-line">     </tt>
+<a name="L44"></a><tt class="py-lineno"> 44</tt>  <tt class="py-line">    <tt class="py-name">q22</tt> <tt class="py-op">=</tt> <tt class="py-name">b2</tt><tt class="py-op">*</tt><tt class="py-name">q2</tt> </tt>
+<a name="L45"></a><tt class="py-lineno"> 45</tt>  <tt class="py-line">    <tt class="py-name">q23</tt> <tt class="py-op">=</tt> <tt class="py-name">b2</tt><tt class="py-op">*</tt><tt class="py-name">q3</tt> </tt>
+<a name="L46"></a><tt class="py-lineno"> 46</tt>  <tt class="py-line">     </tt>
+<a name="L47"></a><tt class="py-lineno"> 47</tt>  <tt class="py-line">    <tt class="py-name">q33</tt> <tt class="py-op">=</tt> <tt class="py-name">b3</tt><tt class="py-op">*</tt><tt class="py-name">q3</tt>  </tt>
+<a name="L48"></a><tt class="py-lineno"> 48</tt>  <tt class="py-line"> </tt>
+<a name="L49"></a><tt class="py-lineno"> 49</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-4" class="py-name" targets="Function mmLib.NumericCompat.array()=mmLib.NumericCompat-module.html#array"><a title="mmLib.NumericCompat.array" class="py-name" href="#" onclick="return doclink('link-4', 'array', 'link-4');">array</a></tt><tt class="py-op">(</tt><tt class="py-op">[</tt> <tt class="py-op">[</tt><tt class="py-name">q00</tt><tt class="py-op">+</tt><tt class="py-name">q11</tt><tt class="py-op">,</tt> <tt class="py-name">q12</tt><tt class="py-op">-</tt><tt class="py-name">q03</tt><tt class="py-op">,</tt> <tt class="py-name">q13</tt><tt class="py-op">+</tt><tt class="py-name">q02</tt><tt class="py-op">]</tt><tt class="py-op">,</tt> </tt>
+<a name="L50"></a><tt class="py-lineno"> 50</tt>  <tt class="py-line">                         <tt class="py-op">[</tt><tt class="py-name">q12</tt><tt class="py-op">+</tt><tt class="py-name">q03</tt><tt class="py-op">,</tt> <tt class="py-name">q00</tt><tt class="py-op">+</tt><tt class="py-name">q22</tt><tt class="py-op">,</tt> <tt class="py-name">q23</tt><tt class="py-op">-</tt><tt class="py-name">q01</tt><tt class="py-op">]</tt><tt class="py-op">,</tt> </tt>
+<a name="L51"></a><tt class="py-lineno"> 51</tt>  <tt class="py-line">                         <tt class="py-op">[</tt><tt class="py-name">q13</tt><tt class="py-op">-</tt><tt class="py-name">q02</tt><tt class="py-op">,</tt> <tt class="py-name">q23</tt><tt class="py-op">+</tt><tt class="py-name">q01</tt><tt class="py-op">,</tt> <tt class="py-name">q00</tt><tt class="py-op">+</tt><tt class="py-name">q33</tt><tt class="py-op">]</tt> <tt class="py-op">]</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L52"></a><tt class="py-lineno"> 52</tt>  <tt class="py-line"> </tt>
+<a name="L53"></a><tt class="py-lineno"> 53</tt>  <tt class="py-line"> </tt>
+<a name="SuperpositionResults"></a><div id="SuperpositionResults-def"><a name="L54"></a><tt class="py-lineno"> 54</tt> <a class="py-toggle" href="#" id="SuperpositionResults-toggle" onclick="return toggle('SuperpositionResults');">-</a><tt class="py-line"><tt class="py-keyword">class</tt> <a class="py-def-name" href="mmLib.Superposition.SuperpositionResults-class.html">SuperpositionResults</a><tt class="py-op">(</tt><tt class="py-base-class">object</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperpositionResults-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="SuperpositionResults-expanded"><a name="L55"></a><tt class="py-lineno"> 55</tt>  <tt class="py-line">    <tt class="py-docstring">"""Returns the results of a superposition.</tt> </tt>
+<a name="L56"></a><tt class="py-lineno"> 56</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="SuperpositionResults.__init__"></a><div id="SuperpositionResults.__init__-def"><a name="L57"></a><tt class="py-lineno"> 57</tt> <a class="py-toggle" href="#" id="SuperpositionResults.__init__-toggle" onclick="return toggle('SuperpositionResults.__init__');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition.SuperpositionResults-class.html#__init__">__init__</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">quaternion</tt><tt class="py-op">,</tt> <tt class="py-param">source_origin</tt><tt class="py-op">,</tt> <tt class="py-param">destination_origin</tt><tt class="py-op">,</tt> <tt class="py-param">rmsd</tt><tt class="py-op">,</tt> <tt class="py-param">num_atoms</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperpositionResults.__init__-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="SuperpositionResults.__init__-expanded"><a name="L58"></a><tt class="py-lineno"> 58</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">Q</tt> <tt class="py-op">=</tt> <tt class="py-name">quaternion</tt> </tt>
+<a name="L59"></a><tt class="py-lineno"> 59</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">R</tt> <tt class="py-op">=</tt> <tt id="link-5" class="py-name" targets="Function mmLib.Superposition.QuaternionToRotationMatrix()=mmLib.Superposition-module.html#QuaternionToRotationMatrix"><a title="mmLib.Superposition.QuaternionToRotationMatrix" class="py-name" href="#" onclick="return doclink('link-5', 'QuaternionToRotationMatrix', 'link-5');">QuaternionToRotationMatrix</a></tt><tt class="py-op">(</tt><tt class="py-name">quaternion</tt><tt class="py-op">)</tt> </tt>
+<a name="L60"></a><tt class="py-lineno"> 60</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">src_origin</tt> <tt class="py-op">=</tt> <tt class="py-name">source_origin</tt> </tt>
+<a name="L61"></a><tt class="py-lineno"> 61</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">dst_origin</tt> <tt class="py-op">=</tt> <tt class="py-name">destination_origin</tt> </tt>
+<a name="L62"></a><tt class="py-lineno"> 62</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">rmsd</tt> <tt class="py-op">=</tt> <tt class="py-name">rmsd</tt> </tt>
+<a name="L63"></a><tt class="py-lineno"> 63</tt>  <tt class="py-line">        <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">num_atoms</tt> <tt class="py-op">=</tt> <tt class="py-name">num_atoms</tt> </tt>
+</div><a name="L64"></a><tt class="py-lineno"> 64</tt>  <tt class="py-line"> </tt>
+<a name="SuperpositionResults.transform"></a><div id="SuperpositionResults.transform-def"><a name="L65"></a><tt class="py-lineno"> 65</tt> <a class="py-toggle" href="#" id="SuperpositionResults.transform-toggle" onclick="return toggle('SuperpositionResults.transform');">-</a><tt class="py-line">    <tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition.SuperpositionResults-class.html#transform">transform</a><tt class="py-op">(</tt><tt class="py-param">self</tt><tt class="py-op">,</tt> <tt class="py-param">position</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperpositionResults.transform-collapsed" style="display:none;" pad="+++" indent="++++++++"></div><div id="SuperpositionResults.transform-expanded"><a name="L66"></a><tt class="py-lineno"> 66</tt>  <tt class="py-line">        <tt class="py-docstring">"""Transforms a source position to its aligned position.</tt> </tt>
+<a name="L67"></a><tt class="py-lineno"> 67</tt>  <tt class="py-line"><tt class="py-docstring">        """</tt> </tt>
+<a name="L68"></a><tt class="py-lineno"> 68</tt>  <tt class="py-line">        <tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">position</tt> <tt class="py-op">-</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">src_origin</tt> </tt>
+<a name="L69"></a><tt class="py-lineno"> 69</tt>  <tt class="py-line">        <tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">dot</tt><tt class="py-op">(</tt><tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">R</tt><tt class="py-op">,</tt> <tt class="py-name">position</tt><tt class="py-op">)</tt> </tt>
+<a name="L70"></a><tt class="py-lineno"> 70</tt>  <tt class="py-line">        <tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">position</tt> <tt class="py-op">+</tt> <tt class="py-name">self</tt><tt class="py-op">.</tt><tt class="py-name">dst_origin</tt> </tt>
+<a name="L71"></a><tt class="py-lineno"> 71</tt>  <tt class="py-line">        <tt class="py-keyword">return</tt> <tt class="py-name">position</tt> </tt>
+</div></div><a name="L72"></a><tt class="py-lineno"> 72</tt>  <tt class="py-line"> </tt>
+<a name="L73"></a><tt class="py-lineno"> 73</tt>  <tt class="py-line"> </tt>
+<a name="SuperimposePoints"></a><div id="SuperimposePoints-def"><a name="L74"></a><tt class="py-lineno"> 74</tt> <a class="py-toggle" href="#" id="SuperimposePoints-toggle" onclick="return toggle('SuperimposePoints');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#SuperimposePoints">SuperimposePoints</a><tt class="py-op">(</tt><tt class="py-param">src_points</tt><tt class="py-op">,</tt> <tt class="py-param">dst_points</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperimposePoints-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="SuperimposePoints-expanded"><a name="L75"></a><tt class="py-lineno"> 75</tt>  <tt class="py-line">    <tt class="py-docstring">"""Takes two 1:1 set of points and returns a 3x3 rotation matrix and</tt> </tt>
+<a name="L76"></a><tt class="py-lineno"> 76</tt>  <tt class="py-line"><tt class="py-docstring">    translation vector.</tt> </tt>
+<a name="L77"></a><tt class="py-lineno"> 77</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L78"></a><tt class="py-lineno"> 78</tt>  <tt class="py-line">    <tt class="py-name">num_points</tt> <tt class="py-op">=</tt> <tt class="py-name">src_points</tt><tt class="py-op">.</tt><tt class="py-name">shape</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L79"></a><tt class="py-lineno"> 79</tt>  <tt class="py-line"> </tt>
+<a name="L80"></a><tt class="py-lineno"> 80</tt>  <tt class="py-line">    <tt class="py-comment">## shift both sets of coordinates to their centroids</tt> </tt>
+<a name="L81"></a><tt class="py-lineno"> 81</tt>  <tt class="py-line">    <tt class="py-name">src_org</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-6" class="py-name" targets="Method mmLib.GeometryDict.XYZDict.add()=mmLib.GeometryDict.XYZDict-class.html#add,Variable mmLib.NumericCompat.add=mmLib.NumericCompat-module.html#add"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-6', 'add', 'link-6');">add</a></tt><tt class="py-op">.</tt><tt class="py-name">reduce</tt><tt class="py-op">(</tt><tt class="py-name">src_points</tt><tt class="py-op">)</tt> <tt class="py-op">/</tt> <tt class="py-name">float</tt><tt class="py-op">(</tt><tt class="py-name">src_points</tt><tt class="py-op">.</tt><tt class="py-name">shape</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L82"></a><tt class="py-lineno"> 82</tt>  <tt class="py-line">    <tt class="py-name">dst_org</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-7" class="py-name"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-7', 'add', 'link-6');">add</a></tt><tt class="py-op">.</tt><tt class="py-name">reduce</tt><tt class="py-op">(</tt><tt class="py-name">dst_points</tt><tt class="py-op">)</tt> <tt class="py-op">/</tt> <tt class="py-name">float</tt><tt class="py-op">(</tt><tt class="py-name">dst_points</tt><tt class="py-op">.</tt><tt class="py-name">shape</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> </tt>
+<a name="L83"></a><tt class="py-lineno"> 83</tt>  <tt class="py-line"> </tt>
+<a name="L84"></a><tt class="py-lineno"> 84</tt>  <tt class="py-line">    <tt class="py-name">X</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-8" class="py-name"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-8', 'add', 'link-6');">add</a></tt><tt class="py-op">(</tt><tt class="py-name">src_points</tt><tt class="py-op">,</tt> <tt class="py-op">-</tt><tt class="py-name">src_org</tt><tt class="py-op">)</tt> </tt>
+<a name="L85"></a><tt class="py-lineno"> 85</tt>  <tt class="py-line">    <tt class="py-name">Y</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-9" class="py-name"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-9', 'add', 'link-6');">add</a></tt><tt class="py-op">(</tt><tt class="py-name">dst_points</tt><tt class="py-op">,</tt> <tt class="py-op">-</tt><tt class="py-name">dst_org</tt><tt class="py-op">)</tt> </tt>
+<a name="L86"></a><tt class="py-lineno"> 86</tt>  <tt class="py-line"> </tt>
+<a name="L87"></a><tt class="py-lineno"> 87</tt>  <tt class="py-line">    <tt class="py-name">xy2n</tt> <tt class="py-op">=</tt> <tt class="py-number">0.0</tt> </tt>
+<a name="L88"></a><tt class="py-lineno"> 88</tt>  <tt class="py-line"> </tt>
+<a name="L89"></a><tt class="py-lineno"> 89</tt>  <tt class="py-line">    <tt class="py-name">R</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L90"></a><tt class="py-lineno"> 90</tt>  <tt class="py-line"> </tt>
+<a name="L91"></a><tt class="py-lineno"> 91</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">k</tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-name">num_points</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L92"></a><tt class="py-lineno"> 92</tt>  <tt class="py-line">        <tt class="py-name">x</tt> <tt class="py-op">=</tt> <tt class="py-name">X</tt><tt class="py-op">[</tt><tt class="py-name">k</tt><tt class="py-op">]</tt> </tt>
+<a name="L93"></a><tt class="py-lineno"> 93</tt>  <tt class="py-line">        <tt class="py-name">y</tt> <tt class="py-op">=</tt> <tt class="py-name">Y</tt><tt class="py-op">[</tt><tt class="py-name">k</tt><tt class="py-op">]</tt> </tt>
+<a name="L94"></a><tt class="py-lineno"> 94</tt>  <tt class="py-line"> </tt>
+<a name="L95"></a><tt class="py-lineno"> 95</tt>  <tt class="py-line">        <tt class="py-name">xy2n</tt> <tt class="py-op">+=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-10" class="py-name"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-10', 'add', 'link-6');">add</a></tt><tt class="py-op">.</tt><tt class="py-name">reduce</tt><tt class="py-op">(</tt><tt class="py-name">x</tt><tt class="py-op">*</tt><tt class="py-name">x</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-11" class="py-name"><a title="mmLib.GeometryDict.XYZDict.add
+mmLib.NumericCompat.add" class="py-name" href="#" onclick="return doclink('link-11', 'add', 'link-6');">add</a></tt><tt class="py-op">.</tt><tt class="py-name">reduce</tt><tt class="py-op">(</tt><tt class="py-name">y</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">)</tt> </tt>
+<a name="L96"></a><tt class="py-lineno"> 96</tt>  <tt class="py-line"> </tt>
+<a name="L97"></a><tt class="py-lineno"> 97</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L98"></a><tt class="py-lineno"> 98</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L99"></a><tt class="py-lineno"> 99</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L100"></a><tt class="py-lineno">100</tt>  <tt class="py-line">         </tt>
+<a name="L101"></a><tt class="py-lineno">101</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L102"></a><tt class="py-lineno">102</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L103"></a><tt class="py-lineno">103</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L104"></a><tt class="py-lineno">104</tt>  <tt class="py-line">         </tt>
+<a name="L105"></a><tt class="py-lineno">105</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L106"></a><tt class="py-lineno">106</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L107"></a><tt class="py-lineno">107</tt>  <tt class="py-line">        <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+=</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt><tt class="py-op">*</tt><tt class="py-name">y</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L108"></a><tt class="py-lineno">108</tt>  <tt class="py-line"> </tt>
+<a name="L109"></a><tt class="py-lineno">109</tt>  <tt class="py-line">    <tt class="py-name">F</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-number">4</tt><tt class="py-op">,</tt><tt class="py-number">4</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L110"></a><tt class="py-lineno">110</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L111"></a><tt class="py-lineno">111</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L112"></a><tt class="py-lineno">112</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L113"></a><tt class="py-lineno">113</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L114"></a><tt class="py-lineno">114</tt>  <tt class="py-line"> </tt>
+<a name="L115"></a><tt class="py-lineno">115</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L116"></a><tt class="py-lineno">116</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L117"></a><tt class="py-lineno">117</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L118"></a><tt class="py-lineno">118</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> </tt>
+<a name="L119"></a><tt class="py-lineno">119</tt>  <tt class="py-line"> </tt>
+<a name="L120"></a><tt class="py-lineno">120</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L121"></a><tt class="py-lineno">121</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L122"></a><tt class="py-lineno">122</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt><tt class="py-op">-</tt><tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L123"></a><tt class="py-lineno">123</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> </tt>
+<a name="L124"></a><tt class="py-lineno">124</tt>  <tt class="py-line"> </tt>
+<a name="L125"></a><tt class="py-lineno">125</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> </tt>
+<a name="L126"></a><tt class="py-lineno">126</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> </tt>
+<a name="L127"></a><tt class="py-lineno">127</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> </tt>
+<a name="L128"></a><tt class="py-lineno">128</tt>  <tt class="py-line">    <tt class="py-name">F</tt><tt class="py-op">[</tt><tt class="py-number">3</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">]</tt> <tt class="py-op">=</tt><tt class="py-op">-</tt><tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">,</tt><tt class="py-number">0</tt><tt class="py-op">]</tt> <tt class="py-op">-</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">,</tt><tt class="py-number">1</tt><tt class="py-op">]</tt> <tt class="py-op">+</tt> <tt class="py-name">R</tt><tt class="py-op">[</tt><tt class="py-number">2</tt><tt class="py-op">,</tt><tt class="py-number">2</tt><tt class="py-op">]</tt> </tt>
+<a name="L129"></a><tt class="py-lineno">129</tt>  <tt class="py-line"> </tt>
+<a name="L130"></a><tt class="py-lineno">130</tt>  <tt class="py-line">    <tt class="py-name">evals</tt><tt class="py-op">,</tt> <tt class="py-name">evecs</tt> <tt class="py-op">=</tt> <tt class="py-name">linalg</tt><tt class="py-op">.</tt><tt class="py-name">eigenvectors</tt><tt class="py-op">(</tt><tt class="py-name">F</tt><tt class="py-op">)</tt> </tt>
+<a name="L131"></a><tt class="py-lineno">131</tt>  <tt class="py-line"> </tt>
+<a name="L132"></a><tt class="py-lineno">132</tt>  <tt class="py-line">    <tt id="link-12" class="py-name" targets="Variable mmLib.OpenGLDriver.i=mmLib.OpenGLDriver-module.html#i"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-12', 'i', 'link-12');">i</a></tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">argmax</tt><tt class="py-op">(</tt><tt class="py-name">evals</tt><tt class="py-op">)</tt> </tt>
+<a name="L133"></a><tt class="py-lineno">133</tt>  <tt class="py-line">    <tt class="py-name">eval</tt> <tt class="py-op">=</tt> <tt class="py-name">evals</tt><tt class="py-op">[</tt><tt id="link-13" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-13', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> </tt>
+<a name="L134"></a><tt class="py-lineno">134</tt>  <tt class="py-line">    <tt class="py-name">evec</tt> <tt class="py-op">=</tt> <tt class="py-name">evecs</tt><tt class="py-op">[</tt><tt id="link-14" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-14', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> </tt>
+<a name="L135"></a><tt class="py-lineno">135</tt>  <tt class="py-line">     </tt>
+<a name="L136"></a><tt class="py-lineno">136</tt>  <tt class="py-line">    <tt class="py-name">msd</tt> <tt class="py-op">=</tt> <tt class="py-op">(</tt><tt class="py-name">xy2n</tt> <tt class="py-op">-</tt> <tt class="py-number">2.0</tt><tt class="py-op">*</tt><tt class="py-name">eval</tt><tt class="py-op">)</tt> <tt class="py-op">/</tt> <tt class="py-name">num_points</tt> </tt>
+<a name="L137"></a><tt class="py-lineno">137</tt>  <tt class="py-line">    <tt class="py-keyword">if</tt> <tt class="py-name">msd</tt> <tt class="py-op">&lt;</tt> <tt class="py-number">0.0</tt><tt class="py-op">:</tt> </tt>
+<a name="L138"></a><tt class="py-lineno">138</tt>  <tt class="py-line">        <tt class="py-name">rmsd</tt> <tt class="py-op">=</tt> <tt class="py-number">0.0</tt> </tt>
+<a name="L139"></a><tt class="py-lineno">139</tt>  <tt class="py-line">    <tt class="py-keyword">else</tt><tt class="py-op">:</tt> </tt>
+<a name="L140"></a><tt class="py-lineno">140</tt>  <tt class="py-line">        <tt class="py-name">rmsd</tt> <tt class="py-op">=</tt> <tt class="py-name">math</tt><tt class="py-op">.</tt><tt id="link-15" class="py-name"><a title="mmLib.NumericCompat.sqrt" class="py-name" href="#" onclick="return doclink('link-15', 'sqrt', 'link-3');">sqrt</a></tt><tt class="py-op">(</tt><tt class="py-name">msd</tt><tt class="py-op">)</tt> </tt>
+<a name="L141"></a><tt class="py-lineno">141</tt>  <tt class="py-line"> </tt>
+<a name="L142"></a><tt class="py-lineno">142</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt id="link-16" class="py-name" targets="Class mmLib.Superposition.SuperpositionResults=mmLib.Superposition.SuperpositionResults-class.html"><a title="mmLib.Superposition.SuperpositionResults" class="py-name" href="#" onclick="return doclink('link-16', 'SuperpositionResults', 'link-16');">SuperpositionResults</a></tt><tt class="py-op">(</tt><tt class="py-name">evec</tt><tt class="py-op">,</tt> <tt class="py-name">src_org</tt><tt class="py-op">,</tt> <tt class="py-name">dst_org</tt><tt class="py-op">,</tt> <tt class="py-name">rmsd</tt><tt class="py-op">,</tt> <tt class="py-name">num_points</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L143"></a><tt class="py-lineno">143</tt>  <tt class="py-line"> </tt>
+<a name="L144"></a><tt class="py-lineno">144</tt>  <tt class="py-line"> </tt>
+<a name="SuperimposePositions"></a><div id="SuperimposePositions-def"><a name="L145"></a><tt class="py-lineno">145</tt> <a class="py-toggle" href="#" id="SuperimposePositions-toggle" onclick="return toggle('SuperimposePositions');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#SuperimposePositions">SuperimposePositions</a><tt class="py-op">(</tt><tt class="py-param">position_tuple_list</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperimposePositions-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="SuperimposePositions-expanded"><a name="L146"></a><tt class="py-lineno">146</tt>  <tt class="py-line">    <tt class="py-docstring">"""Superimposes a list of 2-tuple atom pairs.</tt> </tt>
+<a name="L147"></a><tt class="py-lineno">147</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L148"></a><tt class="py-lineno">148</tt>  <tt class="py-line">    <tt class="py-name">n</tt> <tt class="py-op">=</tt> <tt class="py-name">len</tt><tt class="py-op">(</tt><tt class="py-name">position_tuple_list</tt><tt class="py-op">)</tt> </tt>
+<a name="L149"></a><tt class="py-lineno">149</tt>  <tt class="py-line">    <tt class="py-name">a1</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L150"></a><tt class="py-lineno">150</tt>  <tt class="py-line">    <tt class="py-name">a2</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L151"></a><tt class="py-lineno">151</tt>  <tt class="py-line">     </tt>
+<a name="L152"></a><tt class="py-lineno">152</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt id="link-17" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-17', 'i', 'link-12');">i</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L153"></a><tt class="py-lineno">153</tt>  <tt class="py-line">        <tt class="py-name">pos1</tt><tt class="py-op">,</tt> <tt class="py-name">pos2</tt> <tt class="py-op">=</tt> <tt class="py-name">position_tuple_list</tt><tt class="py-op">[</tt><tt id="link-18" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-18', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> </tt>
+<a name="L154"></a><tt class="py-lineno">154</tt>  <tt class="py-line"> </tt>
+<a name="L155"></a><tt class="py-lineno">155</tt>  <tt class="py-line">        <tt class="py-name">a1</tt><tt class="py-op">[</tt><tt id="link-19" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-19', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">pos1</tt> </tt>
+<a name="L156"></a><tt class="py-lineno">156</tt>  <tt class="py-line">        <tt class="py-name">a2</tt><tt class="py-op">[</tt><tt id="link-20" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-20', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">pos2</tt> </tt>
+<a name="L157"></a><tt class="py-lineno">157</tt>  <tt class="py-line">     </tt>
+<a name="L158"></a><tt class="py-lineno">158</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt id="link-21" class="py-name" targets="Function mmLib.Superposition.SuperimposePoints()=mmLib.Superposition-module.html#SuperimposePoints"><a title="mmLib.Superposition.SuperimposePoints" class="py-name" href="#" onclick="return doclink('link-21', 'SuperimposePoints', 'link-21');">SuperimposePoints</a></tt><tt class="py-op">(</tt><tt class="py-name">a1</tt><tt class="py-op">,</tt> <tt class="py-name">a2</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L159"></a><tt class="py-lineno">159</tt>  <tt class="py-line"> </tt>
+<a name="L160"></a><tt class="py-lineno">160</tt>  <tt class="py-line"> </tt>
+<a name="SuperimposeAtoms"></a><div id="SuperimposeAtoms-def"><a name="L161"></a><tt class="py-lineno">161</tt> <a class="py-toggle" href="#" id="SuperimposeAtoms-toggle" onclick="return toggle('SuperimposeAtoms');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#SuperimposeAtoms">SuperimposeAtoms</a><tt class="py-op">(</tt><tt class="py-param">atom_pair_list</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperimposeAtoms-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="SuperimposeAtoms-expanded"><a name="L162"></a><tt class="py-lineno">162</tt>  <tt class="py-line">    <tt class="py-docstring">"""Superimposes a list of 2-tuple atom pairs.</tt> </tt>
+<a name="L163"></a><tt class="py-lineno">163</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L164"></a><tt class="py-lineno">164</tt>  <tt class="py-line">    <tt class="py-name">n</tt> <tt class="py-op">=</tt> <tt class="py-name">len</tt><tt class="py-op">(</tt><tt class="py-name">atom_pair_list</tt><tt class="py-op">)</tt> </tt>
+<a name="L165"></a><tt class="py-lineno">165</tt>  <tt class="py-line">    <tt class="py-name">a1</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L166"></a><tt class="py-lineno">166</tt>  <tt class="py-line">    <tt class="py-name">a2</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">zeros</tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">,</tt><tt class="py-number">3</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L167"></a><tt class="py-lineno">167</tt>  <tt class="py-line">     </tt>
+<a name="L168"></a><tt class="py-lineno">168</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt id="link-22" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-22', 'i', 'link-12');">i</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-name">n</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L169"></a><tt class="py-lineno">169</tt>  <tt class="py-line">        <tt class="py-name">atm1</tt><tt class="py-op">,</tt> <tt class="py-name">atm2</tt> <tt class="py-op">=</tt> <tt class="py-name">atom_pair_list</tt><tt class="py-op">[</tt><tt id="link-23" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-23', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> </tt>
+<a name="L170"></a><tt class="py-lineno">170</tt>  <tt class="py-line"> </tt>
+<a name="L171"></a><tt class="py-lineno">171</tt>  <tt class="py-line">        <tt class="py-name">a1</tt><tt class="py-op">[</tt><tt id="link-24" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-24', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">atm1</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> </tt>
+<a name="L172"></a><tt class="py-lineno">172</tt>  <tt class="py-line">        <tt class="py-name">a2</tt><tt class="py-op">[</tt><tt id="link-25" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-25', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> <tt class="py-op">=</tt> <tt class="py-name">atm2</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> </tt>
+<a name="L173"></a><tt class="py-lineno">173</tt>  <tt class="py-line">     </tt>
+<a name="L174"></a><tt class="py-lineno">174</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt id="link-26" class="py-name"><a title="mmLib.Superposition.SuperimposePoints" class="py-name" href="#" onclick="return doclink('link-26', 'SuperimposePoints', 'link-21');">SuperimposePoints</a></tt><tt class="py-op">(</tt><tt class="py-name">a1</tt><tt class="py-op">,</tt> <tt class="py-name">a2</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L175"></a><tt class="py-lineno">175</tt>  <tt class="py-line"> </tt>
+<a name="L176"></a><tt class="py-lineno">176</tt>  <tt class="py-line"> </tt>
+<a name="SuperimposeAtomsOutlierRejection"></a><div id="SuperimposeAtomsOutlierRejection-def"><a name="L177"></a><tt class="py-lineno">177</tt> <a class="py-toggle" href="#" id="SuperimposeAtomsOutlierRejection-toggle" onclick="return toggle('SuperimposeAtomsOutlierRejection');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#SuperimposeAtomsOutlierRejection">SuperimposeAtomsOutlierRejection</a><tt class="py-op">(</tt><tt class="py-param">alist</tt><tt class="py-op">,</tt> <tt class="py-param">rmsd_cutoff</tt> <tt class="py-op">=</tt> <tt class="py-number">1.0</tt><tt class="py-op">,</tt> <tt class="py-param">max_cycles</tt> <tt class="py-op">=</tt> <tt class="py-number">100</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="SuperimposeAtomsOutlierRejection-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="SuperimposeAtomsOutlierRejection-expanded"><a name="L178"></a><tt class="py-lineno">178</tt>  <tt class="py-line">    <tt class="py-docstring">"""Superimpose two homologous protein chains. The argument alist is a list of</tt> </tt>
+<a name="L179"></a><tt class="py-lineno">179</tt>  <tt class="py-line"><tt class="py-docstring">    2-tuples. The 2-tuples are the 1:1 atoms to superimpose. The alignment</tt> </tt>
+<a name="L180"></a><tt class="py-lineno">180</tt>  <tt class="py-line"><tt class="py-docstring">    procedure incrementally omits atoms with large deviations until the rmsd of</tt> </tt>
+<a name="L181"></a><tt class="py-lineno">181</tt>  <tt class="py-line"><tt class="py-docstring">    the least squares superposition is less than or equal to rmsd_cutoff, or the</tt> </tt>
+<a name="L182"></a><tt class="py-lineno">182</tt>  <tt class="py-line"><tt class="py-docstring">    number of cycles exceeds max_cycles.</tt> </tt>
+<a name="L183"></a><tt class="py-lineno">183</tt>  <tt class="py-line"><tt class="py-docstring">    """</tt> </tt>
+<a name="L184"></a><tt class="py-lineno">184</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">cycle</tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-name">max_cycles</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L185"></a><tt class="py-lineno">185</tt>  <tt class="py-line">        <tt class="py-name">sresult</tt> <tt class="py-op">=</tt> <tt id="link-27" class="py-name" targets="Function mmLib.Superposition.SuperimposeAtoms()=mmLib.Superposition-module.html#SuperimposeAtoms"><a title="mmLib.Superposition.SuperimposeAtoms" class="py-name" href="#" onclick="return doclink('link-27', 'SuperimposeAtoms', 'link-27');">SuperimposeAtoms</a></tt><tt class="py-op">(</tt><tt class="py-name">alist</tt><tt class="py-op">)</tt> </tt>
+<a name="L186"></a><tt class="py-lineno">186</tt>  <tt class="py-line">        <tt class="py-keyword">print</tt> <tt class="py-string">"Cycle %d NA: %5d RMSD %6.2f"</tt> <tt class="py-op">%</tt> <tt class="py-op">(</tt><tt class="py-name">cycle</tt><tt class="py-op">,</tt> <tt class="py-name">sresult</tt><tt class="py-op">.</tt><tt class="py-name">num_atoms</tt><tt class="py-op">,</tt> <tt class="py-name">sresult</tt><tt class="py-op">.</tt><tt class="py-name">rmsd</tt><tt class="py-op">)</tt> </tt>
+<a name="L187"></a><tt class="py-lineno">187</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">sresult</tt><tt class="py-op">.</tt><tt class="py-name">rmsd</tt> <tt class="py-op">&lt;=</tt> <tt class="py-name">rmsd_cutoff</tt><tt class="py-op">:</tt> </tt>
+<a name="L188"></a><tt class="py-lineno">188</tt>  <tt class="py-line">            <tt class="py-keyword">return</tt> <tt class="py-name">sresult</tt> </tt>
+<a name="L189"></a><tt class="py-lineno">189</tt>  <tt class="py-line"> </tt>
+<a name="L190"></a><tt class="py-lineno">190</tt>  <tt class="py-line">        <tt class="py-name">deviation</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-op">]</tt> </tt>
+<a name="L191"></a><tt class="py-lineno">191</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt id="link-28" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-28', 'i', 'link-12');">i</a></tt> <tt class="py-keyword">in</tt> <tt class="py-name">xrange</tt><tt class="py-op">(</tt><tt class="py-name">len</tt><tt class="py-op">(</tt><tt class="py-name">alist</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L192"></a><tt class="py-lineno">192</tt>  <tt class="py-line">            <tt class="py-name">satm</tt><tt class="py-op">,</tt> <tt class="py-name">datm</tt> <tt class="py-op">=</tt> <tt class="py-name">alist</tt><tt class="py-op">[</tt><tt id="link-29" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-29', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt>             </tt>
+<a name="L193"></a><tt class="py-lineno">193</tt>  <tt class="py-line">            <tt class="py-name">spos</tt> <tt class="py-op">=</tt> <tt class="py-name">sresult</tt><tt class="py-op">.</tt><tt id="link-30" class="py-name" targets="Method mmLib.Superposition.SuperpositionResults.transform()=mmLib.Superposition.SuperpositionResults-class.html#transform"><a title="mmLib.Superposition.SuperpositionResults.transform" class="py-name" href="#" onclick="return doclink('link-30', 'transform', 'link-30');">transform</a></tt><tt class="py-op">(</tt><tt class="py-name">satm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt><tt class="py-op">)</tt> </tt>
+<a name="L194"></a><tt class="py-lineno">194</tt>  <tt class="py-line">            <tt class="py-name">deviation</tt><tt class="py-op">.</tt><tt id="link-31" class="py-name" targets="Method mmLib.PDB.PDBFile.append()=mmLib.PDB.PDBFile-class.html#append,Method mmLib.mmCIF.mmCIFData.append()=mmLib.mmCIF.mmCIFData-class.html#append,Method mmLib.mmCIF.mmCIFFile.append()=mmLib.mmCIF.mmCIFFile-class.html#append,Method mmLib.mmCIF.mmCIFTable.append()=mmLib.mmCIF.mmCIFTable-class.html#append"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-31', 'append', 'link-31');">append</a></tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt id="link-32" class="py-name"><a title="mmLib.AtomMath" class="py-name" href="#" onclick="return doclink('link-32', 'AtomMath', 'link-2');">AtomMath</a></tt><tt class="py-op">.</tt><tt id="link-33" class="py-name" targets="Function mmLib.AtomMath.length()=mmLib.AtomMath-module.html#length"><a title="mmLib.AtomMath.length" class="py-name" href="#" onclick="return doclink('link-33', 'length', 'link-33');">length</a></tt><tt class="py-op">(</tt><tt class="py-name">spos</tt> <tt class="py-op">-</tt> <tt class="py-name">datm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt id="link-34" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-34', 'i', 'link-12');">i</a></tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L195"></a><tt class="py-lineno">195</tt>  <tt class="py-line">        <tt class="py-name">deviation</tt><tt class="py-op">.</tt><tt id="link-35" class="py-name" targets="Method mmLib.Structure.Model.sort()=mmLib.Structure.Model-class.html#sort,Method mmLib.Structure.Segment.sort()=mmLib.Structure.Segment-class.html#sort,Method mmLib.Structure.Structure.sort()=mmLib.Structure.Structure-class.html#sort"><a title="mmLib.Structure.Model.sort
+mmLib.Structure.Segment.sort
+mmLib.Structure.Structure.sort" class="py-name" href="#" onclick="return doclink('link-35', 'sort', 'link-35');">sort</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L196"></a><tt class="py-lineno">196</tt>  <tt class="py-line"> </tt>
+<a name="L197"></a><tt class="py-lineno">197</tt>  <tt class="py-line">        <tt class="py-name">outliers</tt> <tt class="py-op">=</tt> <tt class="py-name">deviation</tt><tt class="py-op">[</tt><tt class="py-op">-</tt><tt class="py-number">10</tt><tt class="py-op">:</tt><tt class="py-op">]</tt> </tt>
+<a name="L198"></a><tt class="py-lineno">198</tt>  <tt class="py-line">        <tt class="py-name">outliersr</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-op">(</tt><tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">1</tt><tt class="py-op">]</tt><tt class="py-op">,</tt> <tt class="py-name">x</tt><tt class="py-op">[</tt><tt class="py-number">0</tt><tt class="py-op">]</tt><tt class="py-op">)</tt> <tt class="py-keyword">for</tt> <tt class="py-name">x</tt> <tt class="py-keyword">in</tt> <tt class="py-name">outliers</tt><tt class="py-op">]</tt> </tt>
+<a name="L199"></a><tt class="py-lineno">199</tt>  <tt class="py-line">        <tt class="py-name">outliersr</tt><tt class="py-op">.</tt><tt id="link-36" class="py-name"><a title="mmLib.Structure.Model.sort
+mmLib.Structure.Segment.sort
+mmLib.Structure.Structure.sort" class="py-name" href="#" onclick="return doclink('link-36', 'sort', 'link-35');">sort</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L200"></a><tt class="py-lineno">200</tt>  <tt class="py-line">        <tt class="py-name">outliersr</tt><tt class="py-op">.</tt><tt class="py-name">reverse</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L201"></a><tt class="py-lineno">201</tt>  <tt class="py-line">         </tt>
+<a name="L202"></a><tt class="py-lineno">202</tt>  <tt class="py-line">        <tt class="py-keyword">for</tt> <tt id="link-37" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-37', 'i', 'link-12');">i</a></tt><tt class="py-op">,</tt> <tt class="py-name">d</tt> <tt class="py-keyword">in</tt> <tt class="py-name">outliersr</tt><tt class="py-op">:</tt> </tt>
+<a name="L203"></a><tt class="py-lineno">203</tt>  <tt class="py-line">            <tt class="py-keyword">if</tt> <tt class="py-name">d</tt> <tt class="py-op">&lt;</tt> <tt class="py-name">rmsd_cutoff</tt><tt class="py-op">:</tt> <tt class="py-keyword">continue</tt> </tt>
+<a name="L204"></a><tt class="py-lineno">204</tt>  <tt class="py-line">            <tt class="py-keyword">del</tt> <tt class="py-name">alist</tt><tt class="py-op">[</tt><tt id="link-38" class="py-name"><a title="mmLib.OpenGLDriver.i" class="py-name" href="#" onclick="return doclink('link-38', 'i', 'link-12');">i</a></tt><tt class="py-op">]</tt> </tt>
+<a name="L205"></a><tt class="py-lineno">205</tt>  <tt class="py-line"> </tt>
+<a name="L206"></a><tt class="py-lineno">206</tt>  <tt class="py-line">    <tt class="py-keyword">return</tt> <tt class="py-name">None</tt> </tt>
+</div><a name="L207"></a><tt class="py-lineno">207</tt>  <tt class="py-line">         </tt>
+<a name="L208"></a><tt class="py-lineno">208</tt>  <tt class="py-line"><tt class="py-comment">## &lt;testing&gt;</tt> </tt>
+<a name="test_module"></a><div id="test_module-def"><a name="L209"></a><tt class="py-lineno">209</tt> <a class="py-toggle" href="#" id="test_module-toggle" onclick="return toggle('test_module');">-</a><tt class="py-line"><tt class="py-keyword">def</tt> <a class="py-def-name" href="mmLib.Superposition-module.html#test_module">test_module</a><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+</div><div id="test_module-collapsed" style="display:none;" pad="+++" indent="++++"></div><div id="test_module-expanded"><a name="L210"></a><tt class="py-lineno">210</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt class="py-name">random</tt> </tt>
+<a name="L211"></a><tt class="py-lineno">211</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt id="link-39" class="py-name"><a title="mmLib.AtomMath" class="py-name" href="#" onclick="return doclink('link-39', 'AtomMath', 'link-2');">AtomMath</a></tt> </tt>
+<a name="L212"></a><tt class="py-lineno">212</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt id="link-40" class="py-name" targets="Module mmLib.FileIO=mmLib.FileIO-module.html"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-40', 'FileIO', 'link-40');">FileIO</a></tt> </tt>
+<a name="L213"></a><tt class="py-lineno">213</tt>  <tt class="py-line">    <tt class="py-keyword">import</tt> <tt id="link-41" class="py-name" targets="Module mmLib.Structure=mmLib.Structure-module.html,Class mmLib.Structure.Structure=mmLib.Structure.Structure-class.html"><a title="mmLib.Structure
+mmLib.Structure.Structure" class="py-name" href="#" onclick="return doclink('link-41', 'Structure', 'link-41');">Structure</a></tt> </tt>
+<a name="L214"></a><tt class="py-lineno">214</tt>  <tt class="py-line">     </tt>
+<a name="L215"></a><tt class="py-lineno">215</tt>  <tt class="py-line">    <tt class="py-name">R</tt> <tt class="py-op">=</tt> <tt id="link-42" class="py-name"><a title="mmLib.AtomMath" class="py-name" href="#" onclick="return doclink('link-42', 'AtomMath', 'link-2');">AtomMath</a></tt><tt class="py-op">.</tt><tt id="link-43" class="py-name" targets="Function mmLib.AtomMath.rmatrixu()=mmLib.AtomMath-module.html#rmatrixu"><a title="mmLib.AtomMath.rmatrixu" class="py-name" href="#" onclick="return doclink('link-43', 'rmatrixu', 'link-43');">rmatrixu</a></tt><tt class="py-op">(</tt><tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-44" class="py-name"><a title="mmLib.NumericCompat.array" class="py-name" href="#" onclick="return doclink('link-44', 'array', 'link-4');">array</a></tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-number">0.0</tt><tt class="py-op">,</tt> <tt class="py-number">0.0</tt><tt class="py-op">,</tt> <tt class="py-number">1.0</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">float</tt><tt class="py-op">)</tt><tt class="py-op">,</tt> <tt class="py-name">math</tt><tt class="py-op">.</tt><tt id="link-45" class="py-name" targets="Variable mmLib.NumericCompat.pi=mmLib.NumericCompat-module.html#pi"><a title="mmLib.NumericCompat.pi" class="py-name" href="#" onclick="return doclink('link-45', 'pi', 'link-45');">pi</a></tt><tt class="py-op">/</tt><tt class="py-number">2.0</tt><tt class="py-op">)</tt> </tt>
+<a name="L216"></a><tt class="py-lineno">216</tt>  <tt class="py-line"> </tt>
+<a name="L217"></a><tt class="py-lineno">217</tt>  <tt class="py-line">    <tt class="py-name">struct1</tt> <tt class="py-op">=</tt> <tt id="link-46" class="py-name"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-46', 'FileIO', 'link-40');">FileIO</a></tt><tt class="py-op">.</tt><tt id="link-47" class="py-name" targets="Function mmLib.FileIO.LoadStructure()=mmLib.FileIO-module.html#LoadStructure"><a title="mmLib.FileIO.LoadStructure" class="py-name" href="#" onclick="return doclink('link-47', 'LoadStructure', 'link-47');">LoadStructure</a></tt><tt class="py-op">(</tt><tt class="py-name">fil</tt><tt class="py-op">=</tt><tt class="py-string">"8rxn.pdb"</tt><tt class="py-op">)</tt> </tt>
+<a name="L218"></a><tt class="py-lineno">218</tt>  <tt class="py-line">    <tt class="py-name">struct2</tt> <tt class="py-op">=</tt> <tt id="link-48" class="py-name"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-48', 'FileIO', 'link-40');">FileIO</a></tt><tt class="py-op">.</tt><tt id="link-49" class="py-name"><a title="mmLib.FileIO.LoadStructure" class="py-name" href="#" onclick="return doclink('link-49', 'LoadStructure', 'link-47');">LoadStructure</a></tt><tt class="py-op">(</tt><tt class="py-name">fil</tt><tt class="py-op">=</tt><tt class="py-string">"8rxn.pdb"</tt><tt class="py-op">)</tt> </tt>
+<a name="L219"></a><tt class="py-lineno">219</tt>  <tt class="py-line"> </tt>
+<a name="L220"></a><tt class="py-lineno">220</tt>  <tt class="py-line">    <tt class="py-name">chn1</tt> <tt class="py-op">=</tt> <tt class="py-name">struct1</tt><tt class="py-op">.</tt><tt id="link-50" class="py-name" targets="Method mmLib.Structure.AlphaHelix.get_chain()=mmLib.Structure.AlphaHelix-class.html#get_chain,Method mmLib.Structure.Atom.get_chain()=mmLib.Structure.Atom-class.html#get_chain,Method mmLib.Structure.Fragment.get_chain()=mmLib.Structure.Fragment-class.html#get_chain,Method mmLib.Structure.Model.get_chain()=mmLib.Structure.Model-class.html#get_chain,Method mmLib.Structure.Segment.get_chain()=mmLib.Structure.Segment-class.html#get_chain,Method mmLib.Structure.Strand.get_chain()=mmLib.Structure.Strand-class.html#get_chain,Method mmLib.Structure.Structure.get_chain()=mmLib.Structure.Structure-class.html#get_chain"><a title="mmLib.Structure.AlphaHelix.get_chain
+mmLib.Structure.Atom.get_chain
+mmLib.Structure.Fragment.get_chain
+mmLib.Structure.Model.get_chain
+mmLib.Structure.Segment.get_chain
+mmLib.Structure.Strand.get_chain
+mmLib.Structure.Structure.get_chain" class="py-name" href="#" onclick="return doclink('link-50', 'get_chain', 'link-50');">get_chain</a></tt><tt class="py-op">(</tt><tt class="py-string">"A"</tt><tt class="py-op">)</tt> </tt>
+<a name="L221"></a><tt class="py-lineno">221</tt>  <tt class="py-line">    <tt class="py-name">chn2</tt> <tt class="py-op">=</tt> <tt class="py-name">struct2</tt><tt class="py-op">.</tt><tt id="link-51" class="py-name"><a title="mmLib.Structure.AlphaHelix.get_chain
+mmLib.Structure.Atom.get_chain
+mmLib.Structure.Fragment.get_chain
+mmLib.Structure.Model.get_chain
+mmLib.Structure.Segment.get_chain
+mmLib.Structure.Strand.get_chain
+mmLib.Structure.Structure.get_chain" class="py-name" href="#" onclick="return doclink('link-51', 'get_chain', 'link-50');">get_chain</a></tt><tt class="py-op">(</tt><tt class="py-string">"A"</tt><tt class="py-op">)</tt> </tt>
+<a name="L222"></a><tt class="py-lineno">222</tt>  <tt class="py-line"> </tt>
+<a name="L223"></a><tt class="py-lineno">223</tt>  <tt class="py-line">    <tt class="py-name">rc</tt> <tt class="py-op">=</tt> <tt class="py-keyword">lambda</tt><tt class="py-op">:</tt> <tt class="py-number">0.1</tt> <tt class="py-op">*</tt> <tt class="py-op">(</tt><tt class="py-name">random</tt><tt class="py-op">.</tt><tt class="py-name">random</tt><tt class="py-op">(</tt><tt class="py-op">)</tt> <tt class="py-op">-</tt> <tt class="py-number">1.0</tt><tt class="py-op">)</tt> </tt>
+<a name="L224"></a><tt class="py-lineno">224</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">atm</tt> <tt class="py-keyword">in</tt> <tt class="py-name">chn2</tt><tt class="py-op">.</tt><tt id="link-52" class="py-name" targets="Method mmLib.Structure.AlphaHelix.iter_atoms()=mmLib.Structure.AlphaHelix-class.html#iter_atoms,Method mmLib.Structure.BetaSheet.iter_atoms()=mmLib.Structure.BetaSheet-class.html#iter_atoms,Method mmLib.Structure.Fragment.iter_atoms()=mmLib.Structure.Fragment-class.html#iter_atoms,Method mmLib.Structure.Model.iter_atoms()=mmLib.Structure.Model-class.html#iter_atoms,Method mmLib.Structure.Segment.iter_atoms()=mmLib.Structure.Segment-class.html#iter_atoms,Method mmLib.Structure.Site.iter_atoms()=mmLib.Structure.Site-class.html#iter_atoms,Method mmLib.Structure.Strand.iter_atoms()=mmLib.Structure.Strand-class.html#iter_atoms,Method mmLib.Structure.Structure.iter_atoms()=mmLib.Structure.Structure-class.html#iter_atoms,Method mmLib.TLS.TLSGroupDesc.iter_atoms()=mmLib.TLS.TLSGroupDesc-class.html#iter_atoms"><a title="mmLib.Structure.AlphaHelix.iter_atoms
+mmLib.Structure.BetaSheet.iter_atoms
+mmLib.Structure.Fragment.iter_atoms
+mmLib.Structure.Model.iter_atoms
+mmLib.Structure.Segment.iter_atoms
+mmLib.Structure.Site.iter_atoms
+mmLib.Structure.Strand.iter_atoms
+mmLib.Structure.Structure.iter_atoms
+mmLib.TLS.TLSGroupDesc.iter_atoms" class="py-name" href="#" onclick="return doclink('link-52', 'iter_atoms', 'link-52');">iter_atoms</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L225"></a><tt class="py-lineno">225</tt>  <tt class="py-line">        <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">dot</tt><tt class="py-op">(</tt><tt class="py-name">R</tt><tt class="py-op">,</tt> <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt><tt class="py-op">)</tt> <tt class="py-op">+</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt id="link-53" class="py-name"><a title="mmLib.NumericCompat.array" class="py-name" href="#" onclick="return doclink('link-53', 'array', 'link-4');">array</a></tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">rc</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-name">rc</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-name">rc</tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">)</tt><tt class="py-op">,</tt><tt class="py-name">float</tt><tt class="py-op">)</tt> </tt>
+<a name="L226"></a><tt class="py-lineno">226</tt>  <tt class="py-line">         </tt>
+<a name="L227"></a><tt class="py-lineno">227</tt>  <tt class="py-line">    <tt class="py-name">alist</tt> <tt class="py-op">=</tt> <tt class="py-op">[</tt><tt class="py-op">]</tt> </tt>
+<a name="L228"></a><tt class="py-lineno">228</tt>  <tt class="py-line">  </tt>
+<a name="L229"></a><tt class="py-lineno">229</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">atm1</tt> <tt class="py-keyword">in</tt> <tt class="py-name">chn1</tt><tt class="py-op">.</tt><tt id="link-54" class="py-name"><a title="mmLib.Structure.AlphaHelix.iter_atoms
+mmLib.Structure.BetaSheet.iter_atoms
+mmLib.Structure.Fragment.iter_atoms
+mmLib.Structure.Model.iter_atoms
+mmLib.Structure.Segment.iter_atoms
+mmLib.Structure.Site.iter_atoms
+mmLib.Structure.Strand.iter_atoms
+mmLib.Structure.Structure.iter_atoms
+mmLib.TLS.TLSGroupDesc.iter_atoms" class="py-name" href="#" onclick="return doclink('link-54', 'iter_atoms', 'link-52');">iter_atoms</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L230"></a><tt class="py-lineno">230</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">atm1</tt><tt class="py-op">.</tt><tt id="link-55" class="py-name" targets="Variable mmLib.Colors.name=mmLib.Colors-module.html#name,Variable mmLib.mmCIF.mmCIFData.name=mmLib.mmCIF.mmCIFData-class.html#name,Variable mmLib.mmCIF.mmCIFTable.name=mmLib.mmCIF.mmCIFTable-class.html#name"><a title="mmLib.Colors.name
+mmLib.mmCIF.mmCIFData.name
+mmLib.mmCIF.mmCIFTable.name" class="py-name" href="#" onclick="return doclink('link-55', 'name', 'link-55');">name</a></tt> <tt class="py-op">!=</tt> <tt class="py-string">"CA"</tt><tt class="py-op">:</tt> </tt>
+<a name="L231"></a><tt class="py-lineno">231</tt>  <tt class="py-line">            <tt class="py-keyword">continue</tt> </tt>
+<a name="L232"></a><tt class="py-lineno">232</tt>  <tt class="py-line"> </tt>
+<a name="L233"></a><tt class="py-lineno">233</tt>  <tt class="py-line">        <tt class="py-name">atm2</tt> <tt class="py-op">=</tt> <tt class="py-name">chn2</tt><tt class="py-op">.</tt><tt id="link-56" class="py-name" targets="Method mmLib.Structure.Fragment.get_equivalent_atom()=mmLib.Structure.Fragment-class.html#get_equivalent_atom,Method mmLib.Structure.Model.get_equivalent_atom()=mmLib.Structure.Model-class.html#get_equivalent_atom,Method mmLib.Structure.Segment.get_equivalent_atom()=mmLib.Structure.Segment-class.html#get_equivalent_atom,Method mmLib.Structure.Structure.get_equivalent_atom()=mmLib.Structure.Structure-class.html#get_equivalent_atom"><a title="mmLib.Structure.Fragment.get_equivalent_atom
+mmLib.Structure.Model.get_equivalent_atom
+mmLib.Structure.Segment.get_equivalent_atom
+mmLib.Structure.Structure.get_equivalent_atom" class="py-name" href="#" onclick="return doclink('link-56', 'get_equivalent_atom', 'link-56');">get_equivalent_atom</a></tt><tt class="py-op">(</tt><tt class="py-name">atm1</tt><tt class="py-op">)</tt> </tt>
+<a name="L234"></a><tt class="py-lineno">234</tt>  <tt class="py-line">        <tt class="py-keyword">if</tt> <tt class="py-name">atm2</tt> <tt class="py-op">==</tt> <tt class="py-name">None</tt><tt class="py-op">:</tt> <tt class="py-keyword">continue</tt> </tt>
+<a name="L235"></a><tt class="py-lineno">235</tt>  <tt class="py-line"> </tt>
+<a name="L236"></a><tt class="py-lineno">236</tt>  <tt class="py-line">        <tt class="py-name">alist</tt><tt class="py-op">.</tt><tt id="link-57" class="py-name"><a title="mmLib.PDB.PDBFile.append
+mmLib.mmCIF.mmCIFData.append
+mmLib.mmCIF.mmCIFFile.append
+mmLib.mmCIF.mmCIFTable.append" class="py-name" href="#" onclick="return doclink('link-57', 'append', 'link-31');">append</a></tt><tt class="py-op">(</tt><tt class="py-op">(</tt><tt class="py-name">atm1</tt><tt class="py-op">,</tt> <tt class="py-name">atm2</tt><tt class="py-op">)</tt><tt class="py-op">)</tt> </tt>
+<a name="L237"></a><tt class="py-lineno">237</tt>  <tt class="py-line"> </tt>
+<a name="L238"></a><tt class="py-lineno">238</tt>  <tt class="py-line">    <tt class="py-name">sup</tt> <tt class="py-op">=</tt> <tt id="link-58" class="py-name"><a title="mmLib.Superposition.SuperimposeAtoms" class="py-name" href="#" onclick="return doclink('link-58', 'SuperimposeAtoms', 'link-27');">SuperimposeAtoms</a></tt><tt class="py-op">(</tt><tt class="py-name">alist</tt><tt class="py-op">)</tt> </tt>
+<a name="L239"></a><tt class="py-lineno">239</tt>  <tt class="py-line"> </tt>
+<a name="L240"></a><tt class="py-lineno">240</tt>  <tt class="py-line">    <tt class="py-name">R</tt> <tt class="py-op">=</tt> <tt class="py-name">sup</tt><tt class="py-op">.</tt><tt class="py-name">R</tt> </tt>
+<a name="L241"></a><tt class="py-lineno">241</tt>  <tt class="py-line">    <tt class="py-name">Q</tt> <tt class="py-op">=</tt> <tt class="py-name">sup</tt><tt class="py-op">.</tt><tt class="py-name">Q</tt> </tt>
+<a name="L242"></a><tt class="py-lineno">242</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-name">Q</tt> </tt>
+<a name="L243"></a><tt class="py-lineno">243</tt>  <tt class="py-line">    <tt class="py-keyword">print</tt> <tt class="py-name">R</tt> </tt>
+<a name="L244"></a><tt class="py-lineno">244</tt>  <tt class="py-line">     </tt>
+<a name="L245"></a><tt class="py-lineno">245</tt>  <tt class="py-line">    <tt class="py-name">so</tt> <tt class="py-op">=</tt> <tt class="py-name">sup</tt><tt class="py-op">.</tt><tt class="py-name">src_origin</tt> </tt>
+<a name="L246"></a><tt class="py-lineno">246</tt>  <tt class="py-line">    <tt class="py-name">do</tt> <tt class="py-op">=</tt> <tt class="py-name">sup</tt><tt class="py-op">.</tt><tt class="py-name">dst_origin</tt> </tt>
+<a name="L247"></a><tt class="py-lineno">247</tt>  <tt class="py-line">     </tt>
+<a name="L248"></a><tt class="py-lineno">248</tt>  <tt class="py-line">    <tt class="py-name">sup1</tt> <tt class="py-op">=</tt> <tt id="link-59" class="py-name"><a title="mmLib.Structure
+mmLib.Structure.Structure" class="py-name" href="#" onclick="return doclink('link-59', 'Structure', 'link-41');">Structure</a></tt><tt class="py-op">.</tt><tt id="link-60" class="py-name"><a title="mmLib.Structure
+mmLib.Structure.Structure" class="py-name" href="#" onclick="return doclink('link-60', 'Structure', 'link-41');">Structure</a></tt><tt class="py-op">(</tt><tt class="py-name">structure_id</tt> <tt class="py-op">=</tt> <tt class="py-string">"JMP1"</tt><tt class="py-op">)</tt> </tt>
+<a name="L249"></a><tt class="py-lineno">249</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">atm</tt> <tt class="py-keyword">in</tt> <tt class="py-name">chn1</tt><tt class="py-op">.</tt><tt id="link-61" class="py-name"><a title="mmLib.Structure.AlphaHelix.iter_atoms
+mmLib.Structure.BetaSheet.iter_atoms
+mmLib.Structure.Fragment.iter_atoms
+mmLib.Structure.Model.iter_atoms
+mmLib.Structure.Segment.iter_atoms
+mmLib.Structure.Site.iter_atoms
+mmLib.Structure.Strand.iter_atoms
+mmLib.Structure.Structure.iter_atoms
+mmLib.TLS.TLSGroupDesc.iter_atoms" class="py-name" href="#" onclick="return doclink('link-61', 'iter_atoms', 'link-52');">iter_atoms</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L250"></a><tt class="py-lineno">250</tt>  <tt class="py-line">        <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">numpy</tt><tt class="py-op">.</tt><tt class="py-name">dot</tt><tt class="py-op">(</tt><tt class="py-name">R</tt><tt class="py-op">,</tt> <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> <tt class="py-op">-</tt> <tt class="py-name">so</tt><tt class="py-op">)</tt> </tt>
+<a name="L251"></a><tt class="py-lineno">251</tt>  <tt class="py-line">        <tt class="py-name">sup1</tt><tt class="py-op">.</tt><tt id="link-62" class="py-name" targets="Method mmLib.Structure.Altloc.add_atom()=mmLib.Structure.Altloc-class.html#add_atom,Method mmLib.Structure.Fragment.add_atom()=mmLib.Structure.Fragment-class.html#add_atom,Method mmLib.Structure.Model.add_atom()=mmLib.Structure.Model-class.html#add_atom,Method mmLib.Structure.Segment.add_atom()=mmLib.Structure.Segment-class.html#add_atom,Method mmLib.Structure.Structure.add_atom()=mmLib.Structure.Structure-class.html#add_atom"><a title="mmLib.Structure.Altloc.add_atom
+mmLib.Structure.Fragment.add_atom
+mmLib.Structure.Model.add_atom
+mmLib.Structure.Segment.add_atom
+mmLib.Structure.Structure.add_atom" class="py-name" href="#" onclick="return doclink('link-62', 'add_atom', 'link-62');">add_atom</a></tt><tt class="py-op">(</tt><tt class="py-name">atm</tt><tt class="py-op">)</tt> </tt>
+<a name="L252"></a><tt class="py-lineno">252</tt>  <tt class="py-line">    <tt id="link-63" class="py-name"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-63', 'FileIO', 'link-40');">FileIO</a></tt><tt class="py-op">.</tt><tt id="link-64" class="py-name" targets="Function mmLib.FileIO.SaveStructure()=mmLib.FileIO-module.html#SaveStructure"><a title="mmLib.FileIO.SaveStructure" class="py-name" href="#" onclick="return doclink('link-64', 'SaveStructure', 'link-64');">SaveStructure</a></tt><tt class="py-op">(</tt><tt class="py-name">fil</tt><tt class="py-op">=</tt><tt class="py-string">"super1.pdb"</tt><tt class="py-op">,</tt> <tt class="py-name">struct</tt><tt class="py-op">=</tt><tt class="py-name">sup1</tt><tt class="py-op">)</tt> </tt>
+<a name="L253"></a><tt class="py-lineno">253</tt>  <tt class="py-line"> </tt>
+<a name="L254"></a><tt class="py-lineno">254</tt>  <tt class="py-line">    <tt class="py-name">sup2</tt> <tt class="py-op">=</tt> <tt id="link-65" class="py-name"><a title="mmLib.Structure
+mmLib.Structure.Structure" class="py-name" href="#" onclick="return doclink('link-65', 'Structure', 'link-41');">Structure</a></tt><tt class="py-op">.</tt><tt id="link-66" class="py-name"><a title="mmLib.Structure
+mmLib.Structure.Structure" class="py-name" href="#" onclick="return doclink('link-66', 'Structure', 'link-41');">Structure</a></tt><tt class="py-op">(</tt><tt class="py-name">structure_id</tt> <tt class="py-op">=</tt> <tt class="py-string">"JMP2"</tt><tt class="py-op">)</tt> </tt>
+<a name="L255"></a><tt class="py-lineno">255</tt>  <tt class="py-line">    <tt class="py-keyword">for</tt> <tt class="py-name">atm</tt> <tt class="py-keyword">in</tt> <tt class="py-name">chn2</tt><tt class="py-op">.</tt><tt id="link-67" class="py-name"><a title="mmLib.Structure.AlphaHelix.iter_atoms
+mmLib.Structure.BetaSheet.iter_atoms
+mmLib.Structure.Fragment.iter_atoms
+mmLib.Structure.Model.iter_atoms
+mmLib.Structure.Segment.iter_atoms
+mmLib.Structure.Site.iter_atoms
+mmLib.Structure.Strand.iter_atoms
+mmLib.Structure.Structure.iter_atoms
+mmLib.TLS.TLSGroupDesc.iter_atoms" class="py-name" href="#" onclick="return doclink('link-67', 'iter_atoms', 'link-52');">iter_atoms</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt><tt class="py-op">:</tt> </tt>
+<a name="L256"></a><tt class="py-lineno">256</tt>  <tt class="py-line">        <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> <tt class="py-op">=</tt> <tt class="py-name">atm</tt><tt class="py-op">.</tt><tt class="py-name">position</tt> <tt class="py-op">-</tt> <tt class="py-name">do</tt> </tt>
+<a name="L257"></a><tt class="py-lineno">257</tt>  <tt class="py-line">        <tt class="py-name">sup2</tt><tt class="py-op">.</tt><tt id="link-68" class="py-name"><a title="mmLib.Structure.Altloc.add_atom
+mmLib.Structure.Fragment.add_atom
+mmLib.Structure.Model.add_atom
+mmLib.Structure.Segment.add_atom
+mmLib.Structure.Structure.add_atom" class="py-name" href="#" onclick="return doclink('link-68', 'add_atom', 'link-62');">add_atom</a></tt><tt class="py-op">(</tt><tt class="py-name">atm</tt><tt class="py-op">)</tt> </tt>
+<a name="L258"></a><tt class="py-lineno">258</tt>  <tt class="py-line">    <tt id="link-69" class="py-name"><a title="mmLib.FileIO" class="py-name" href="#" onclick="return doclink('link-69', 'FileIO', 'link-40');">FileIO</a></tt><tt class="py-op">.</tt><tt id="link-70" class="py-name"><a title="mmLib.FileIO.SaveStructure" class="py-name" href="#" onclick="return doclink('link-70', 'SaveStructure', 'link-64');">SaveStructure</a></tt><tt class="py-op">(</tt><tt class="py-name">fil</tt><tt class="py-op">=</tt><tt class="py-string">"super2.pdb"</tt><tt class="py-op">,</tt> <tt class="py-name">struct</tt><tt class="py-op">=</tt><tt class="py-name">sup2</tt><tt class="py-op">)</tt> </tt>
+</div><a name="L259"></a><tt class="py-lineno">259</tt>  <tt class="py-line"> </tt>
+<a name="L260"></a><tt class="py-lineno">260</tt>  <tt class="py-line"><tt class="py-keyword">if</tt> <tt class="py-name">__name__</tt> <tt class="py-op">==</tt> <tt class="py-string">"__main__"</tt><tt class="py-op">:</tt> </tt>
+<a name="L261"></a><tt class="py-lineno">261</tt>  <tt class="py-line">    <tt id="link-71" class="py-name" targets="Function mmLib.AtomMath.test_module()=mmLib.AtomMath-module.html#test_module,Function mmLib.FileIO.test_module()=mmLib.FileIO-module.html#test_module,Function mmLib.GeometryDict.test_module()=mmLib.GeometryDict-module.html#test_module,Function mmLib.Library.test_module()=mmLib.Library-module.html#test_module,Function mmLib.PDB.test_module()=mmLib.PDB-module.html#test_module,Function mmLib.Structure.test_module()=mmLib.Structure-module.html#test_module,Function mmLib.Superposition.test_module()=mmLib.Superposition-module.html#test_module,Function mmLib.TLS.test_module()=mmLib.TLS-module.html#test_module,Function mmLib.UnitCell.test_module()=mmLib.UnitCell-module.html#test_module,Function mmLib.mmCIF.test_module()=mmLib.mmCIF-module.html#test_module"><a title="mmLib.AtomMath.test_module
+mmLib.FileIO.test_module
+mmLib.GeometryDict.test_module
+mmLib.Library.test_module
+mmLib.PDB.test_module
+mmLib.Structure.test_module
+mmLib.Superposition.test_module
+mmLib.TLS.test_module
+mmLib.UnitCell.test_module
+mmLib.mmCIF.test_module" class="py-name" href="#" onclick="return doclink('link-71', 'test_module', 'link-71');">test_module</a></tt><tt class="py-op">(</tt><tt class="py-op">)</tt> </tt>
+<a name="L262"></a><tt class="py-lineno">262</tt>  <tt class="py-line"><tt class="py-comment">## &lt;/testing&gt;</tt> </tt>
+<a name="L263"></a><tt class="py-lineno">263</tt>  <tt class="py-line"> </tt><script type="text/javascript">
+<!--
+expandto(location.href);
+// -->
+</script>
+</pre>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:16 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

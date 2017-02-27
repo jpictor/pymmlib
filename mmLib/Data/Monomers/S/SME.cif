@@ -1,0 +1,73 @@
+data_SME
+#
+_chem_comp.id                       SME
+_chem_comp.name                     'METHIONINE SULFOXIDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  MET
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            165.207
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SME  N    .  N  0  ?  ?  ?  1  1 
+SME  CA   .  C  0  ?  ?  ?  1  2 
+SME  CB   .  C  0  ?  ?  ?  1  3 
+SME  CG   .  C  0  ?  ?  ?  1  4 
+SME  S    .  S  0  ?  ?  ?  1  5 
+SME  OE   .  O  0  ?  ?  ?  1  6 
+SME  CE   .  C  0  ?  ?  ?  1  7 
+SME  C    .  C  0  ?  ?  ?  1  8 
+SME  O    .  O  0  ?  ?  ?  1  9 
+SME  OXT  .  O  0  ?  ?  ?  1  10
+SME  1HN  .  H  0  ?  ?  ?  0  11
+SME  2HN  .  H  0  ?  ?  ?  0  12
+SME  HA   .  H  0  ?  ?  ?  1  13
+SME  1HB  .  H  0  ?  ?  ?  0  14
+SME  2HB  .  H  0  ?  ?  ?  0  15
+SME  1HG  .  H  0  ?  ?  ?  0  16
+SME  2HG  .  H  0  ?  ?  ?  0  17
+SME  1HE  .  H  0  ?  ?  ?  0  18
+SME  2HE  .  H  0  ?  ?  ?  0  19
+SME  3HE  .  H  0  ?  ?  ?  0  20
+SME  HXT  .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SME  N    CA   SING  1 
+SME  N    1HN  SING  2 
+SME  N    2HN  SING  3 
+SME  CA   CB   SING  4 
+SME  CA   C    SING  5 
+SME  CA   HA   SING  6 
+SME  CB   CG   SING  7 
+SME  CB   1HB  SING  8 
+SME  CB   2HB  SING  9 
+SME  CG   S    SING  10
+SME  CG   1HG  SING  11
+SME  CG   2HG  SING  12
+SME  S    OE   DOUB  13
+SME  S    CE   SING  14
+SME  CE   1HE  SING  15
+SME  CE   2HE  SING  16
+SME  CE   3HE  SING  17
+SME  C    O    DOUB  18
+SME  C    OXT  SING  19
+SME  OXT  HXT  SING  20
+#

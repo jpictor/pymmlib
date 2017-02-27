@@ -1,0 +1,70 @@
+data_144
+#
+_chem_comp.id                   144
+_chem_comp.name                 TRIS-HYDROXYMETHYL-METHYL-AMMONIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H12 N1 O3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       122.144
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+144  C1   .  C  0  ?  ?  ?  1  1 
+144  N    .  N  1  ?  ?  ?  1  2 
+144  C2   .  C  0  ?  ?  ?  1  3 
+144  O2   .  O  0  ?  ?  ?  1  4 
+144  C3   .  C  0  ?  ?  ?  1  5 
+144  O3   .  O  0  ?  ?  ?  1  6 
+144  C4   .  C  0  ?  ?  ?  1  7 
+144  O4   .  O  0  ?  ?  ?  1  8 
+144  1H1  .  H  0  ?  ?  ?  0  9 
+144  2H1  .  H  0  ?  ?  ?  0  10
+144  3H1  .  H  0  ?  ?  ?  0  11
+144  1H2  .  H  0  ?  ?  ?  0  12
+144  2H2  .  H  0  ?  ?  ?  0  13
+144  1H3  .  H  0  ?  ?  ?  0  14
+144  2H3  .  H  0  ?  ?  ?  0  15
+144  1H4  .  H  0  ?  ?  ?  0  16
+144  2H4  .  H  0  ?  ?  ?  0  17
+144  HO2  .  H  0  ?  ?  ?  1  18
+144  HO3  .  H  0  ?  ?  ?  1  19
+144  HO4  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+144  C1  N    SING  1 
+144  C1  1H1  SING  2 
+144  C1  2H1  SING  3 
+144  C1  3H1  SING  4 
+144  N   C2   SING  5 
+144  N   C3   SING  6 
+144  N   C4   SING  7 
+144  C2  O2   SING  8 
+144  C2  1H2  SING  9 
+144  C2  2H2  SING  10
+144  O2  HO2  SING  11
+144  C3  O3   SING  12
+144  C3  1H3  SING  13
+144  C3  2H3  SING  14
+144  O3  HO3  SING  15
+144  C4  O4   SING  16
+144  C4  1H4  SING  17
+144  C4  2H4  SING  18
+144  O4  HO4  SING  19
+#

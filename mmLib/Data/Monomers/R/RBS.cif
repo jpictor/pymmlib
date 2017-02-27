@@ -1,0 +1,115 @@
+data_RBS
+#
+_chem_comp.id                   RBS
+_chem_comp.name                 N-(4-PHENYLAMINO-QUINAZOLIN-6-YL)-ACRYLAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H15 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        291.332
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          RBS
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C=CC(=O)Nc1ccc2c(c1)c(ncn2)Nc3ccccc3
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+RBS  O61   .  O  0  7.809  -39.373  27.236  1  N  1 
+RBS  C10   .  C  0  7.155  -40.027  26.435  1  N  2 
+RBS  C11   .  C  0  7.824  -40.644  25.194  1  N  3 
+RBS  C51   .  C  0  7.805  -39.806  23.891  1  N  4 
+RBS  N11   .  N  0  5.826  -40.197  26.544  1  N  5 
+RBS  C9    .  C  0  4.945  -39.695  27.484  1  Y  6 
+RBS  C8    .  C  0  5.334  -38.907  28.574  1  Y  7 
+RBS  C13   .  C  0  3.582  -40.013  27.346  1  Y  8 
+RBS  C17   .  C  0  2.624  -39.546  28.257  1  Y  9 
+RBS  C18   .  C  0  3.034  -38.745  29.325  1  Y  10
+RBS  C7    .  C  0  4.381  -38.444  29.483  1  Y  11
+RBS  C6    .  C  0  4.765  -37.663  30.557  1  Y  12
+RBS  N3    .  N  0  3.816  -37.205  31.425  1  Y  13
+RBS  C19   .  C  0  2.521  -37.514  31.258  1  Y  14
+RBS  N2    .  N  0  2.133  -38.269  30.215  1  Y  15
+RBS  N1    .  N  0  6.098  -37.394  30.669  1  N  16
+RBS  C5    .  C  0  6.734  -36.654  31.614  1  Y  17
+RBS  C4    .  C  0  6.065  -36.036  32.665  1  Y  18
+RBS  C20   .  C  0  8.117  -36.513  31.499  1  Y  19
+RBS  C21   .  C  0  8.825  -35.764  32.439  1  Y  20
+RBS  C22   .  C  0  8.155  -35.156  33.497  1  Y  21
+RBS  C3    .  C  0  6.776  -35.296  33.601  1  Y  22
+RBS  1H11  .  H  0  7.297  -41.585  24.979  0  N  23
+RBS  2H11  .  H  0  8.887  -40.743  25.458  0  N  24
+RBS  1H51  .  H  0  7.800  -38.735  24.143  0  N  25
+RBS  2H51  .  H  0  8.699  -40.038  23.293  0  N  26
+RBS  HN11  .  H  0  5.412  -40.773  25.839  0  N  27
+RBS  H8    .  H  0  6.375  -38.656  28.712  1  N  28
+RBS  H13   .  H  0  3.266  -40.631  26.519  1  N  29
+RBS  H17   .  H  0  1.582  -39.802  28.134  1  N  30
+RBS  H19   .  H  0  1.787  -37.155  31.964  1  N  31
+RBS  HN1   .  H  0  6.683  -37.794  29.963  1  N  32
+RBS  H4    .  H  0  4.993  -36.131  32.753  1  N  33
+RBS  H20   .  H  0  8.641  -36.985  30.681  1  N  34
+RBS  H21   .  H  0  9.895  -35.656  32.346  1  N  35
+RBS  H22   .  H  0  8.701  -34.581  34.230  1  N  36
+RBS  H3    .  H  0  6.252  -34.824  34.419  1  N  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+RBS  O61  C10   DOUB  N  1 
+RBS  C10  C11   SING  N  2 
+RBS  C10  N11   SING  N  3 
+RBS  C11  C51   DOUB  N  4 
+RBS  C11  1H11  SING  N  5 
+RBS  C11  2H11  SING  N  6 
+RBS  C51  1H51  SING  N  7 
+RBS  C51  2H51  SING  N  8 
+RBS  N11  C9    SING  N  9 
+RBS  N11  HN11  SING  N  10
+RBS  C9   C13   DOUB  Y  11
+RBS  C9   C8    SING  Y  12
+RBS  C8   C7    DOUB  Y  13
+RBS  C8   H8    SING  N  14
+RBS  C13  C17   SING  Y  15
+RBS  C13  H13   SING  N  16
+RBS  C17  C18   DOUB  Y  17
+RBS  C17  H17   SING  N  18
+RBS  C18  C7    SING  Y  19
+RBS  C18  N2    SING  Y  20
+RBS  C7   C6    SING  Y  21
+RBS  C6   N1    SING  N  22
+RBS  C6   N3    DOUB  Y  23
+RBS  N3   C19   SING  Y  24
+RBS  C19  N2    DOUB  Y  25
+RBS  C19  H19   SING  N  26
+RBS  N1   C5    SING  N  27
+RBS  N1   HN1   SING  N  28
+RBS  C5   C20   DOUB  Y  29
+RBS  C5   C4    SING  Y  30
+RBS  C4   C3    DOUB  Y  31
+RBS  C4   H4    SING  N  32
+RBS  C20  C21   SING  Y  33
+RBS  C20  H20   SING  N  34
+RBS  C21  C22   DOUB  Y  35
+RBS  C21  H21   SING  N  36
+RBS  C22  C3    SING  Y  37
+RBS  C22  H22   SING  N  38
+RBS  C3   H3    SING  N  39
+#

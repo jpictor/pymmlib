@@ -1,0 +1,78 @@
+data_LAZ
+#
+_chem_comp.id                   LAZ
+_chem_comp.name                 N-(2-AMINOETHYL)-P-CHLOROBENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 N1 O2 CL1'
+_chem_comp.pdbx_synonyms        4-CHLORO-N-(2-HYDROXYETHYL)BENZAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        199.637
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LAZ  O7    .  O   0  52.168  151.305  25.723  1  1 
+LAZ  C7    .  C   0  52.633  152.39   25.386  1  2 
+LAZ  N8    .  N   0  53.35   152.505  24.129  1  3 
+LAZ  C9    .  C   0  53.947  151.341  23.496  1  4 
+LAZ  C10   .  C   0  54.451  151.723  22.112  1  5 
+LAZ  O10   .  O   0  55.185  152.93   22.249  1  6 
+LAZ  C6    .  C   0  52.498  153.598  26.276  1  7 
+LAZ  C5    .  C   0  52.092  153.454  27.597  1  8 
+LAZ  C4    .  C   0  51.983  154.567  28.429  1  9 
+LAZ  C3    .  C   0  52.274  155.837  27.949  1  10
+LAZ  CL3   .  CL  0  52.13   157.251  29.032  0  11
+LAZ  C2    .  C   0  52.678  155.986  26.623  1  12
+LAZ  C1    .  C   0  52.79   154.872  25.793  1  13
+LAZ  H8    .  H   0  53.434  153.396  23.694  1  14
+LAZ  1H9C  .  H   0  54.788  150.982  24.107  0  15
+LAZ  2H9C  .  H   0  53.194  150.544  23.406  0  16
+LAZ  1H10  .  H   0  55.102  150.93   21.716  0  17
+LAZ  2H10  .  H   0  53.611  151.855  21.414  0  18
+LAZ  H10   .  H   0  54.557  153.691  22.335  1  19
+LAZ  H5    .  H   0  51.863  152.489  27.976  1  20
+LAZ  H1    .  H   0  53.1    154.995  24.785  1  21
+LAZ  H4    .  H   0  51.675  154.443  29.437  1  22
+LAZ  H2    .  H   0  52.901  156.952  26.244  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LAZ  O7   C7    DOUB  1 
+LAZ  C7   N8    SING  2 
+LAZ  C7   C6    SING  3 
+LAZ  N8   C9    SING  4 
+LAZ  N8   H8    SING  5 
+LAZ  C9   C10   SING  6 
+LAZ  C9   1H9C  SING  7 
+LAZ  C9   2H9C  SING  8 
+LAZ  C10  O10   SING  9 
+LAZ  C10  1H10  SING  10
+LAZ  C10  2H10  SING  11
+LAZ  O10  H10   SING  12
+LAZ  C6   C5    AROM  13
+LAZ  C6   C1    AROM  14
+LAZ  C5   C4    AROM  15
+LAZ  C5   H5    SING  16
+LAZ  C4   C3    AROM  17
+LAZ  C4   H4    SING  18
+LAZ  C3   CL3   SING  19
+LAZ  C3   C2    AROM  20
+LAZ  C2   C1    AROM  21
+LAZ  C2   H2    SING  22
+LAZ  C1   H1    SING  23
+#

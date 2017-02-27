@@ -1,0 +1,87 @@
+data_P3P
+#
+_chem_comp.id                   P3P
+_chem_comp.name                 '(2S)-2-AMINO-4-[METHYL(PHOSPHONOOXY)PHOSPHORYL]BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 N1 O7 P2'
+_chem_comp.pdbx_synonyms        'PHOSPHINOTHRICIN PHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        261.108
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P3P  OTP   .  O  0  37.808  17.272  61.955  1  1 
+P3P  CP    .  C  0  36.650  17.773  61.989  1  2 
+P3P  OP    .  O  0  35.879  17.760  62.993  1  3 
+P3P  CAP   .  C  0  36.134  18.485  60.762  1  4 
+P3P  NP    .  N  0  36.374  17.797  59.462  1  5 
+P3P  CBP   .  C  0  34.652  18.813  61.015  1  6 
+P3P  CGP   .  C  0  34.279  19.860  60.003  1  7 
+P3P  PDP   .  P  0  33.343  21.157  60.542  1  8 
+P3P  OEA   .  O  0  34.241  21.755  61.740  1  9 
+P3P  CEP   .  C  0  33.066  22.230  59.215  1  10
+P3P  OEB   .  O  0  32.038  20.457  61.127  1  11
+P3P  P12   .  P  0  30.660  20.885  60.469  1  12
+P3P  O15   .  O  0  30.066  19.528  60.224  1  13
+P3P  O13   .  O  0  31.001  21.619  59.205  1  14
+P3P  O14   .  O  0  29.968  21.642  61.578  1  15
+P3P  HTP   .  H  0  ?       ?       ?       1  16
+P3P  HAP   .  H  0  ?       ?       ?       1  17
+P3P  1HNP  .  H  0  ?       ?       ?       0  18
+P3P  2HNP  .  H  0  ?       ?       ?       0  19
+P3P  1HBP  .  H  0  ?       ?       ?       0  20
+P3P  2HBP  .  H  0  ?       ?       ?       0  21
+P3P  1HGP  .  H  0  ?       ?       ?       0  22
+P3P  2HGP  .  H  0  ?       ?       ?       0  23
+P3P  H13   .  H  0  ?       ?       ?       1  24
+P3P  H14   .  H  0  ?       ?       ?       1  25
+P3P  1HEP  .  H  0  ?       ?       ?       0  26
+P3P  2HEP  .  H  0  ?       ?       ?       0  27
+P3P  3HEP  .  H  0  ?       ?       ?       0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P3P  OTP  HTP   SING  1 
+P3P  OTP  CP    SING  2 
+P3P  CP   OP    DOUB  3 
+P3P  CP   CAP   SING  4 
+P3P  CAP  HAP   SING  5 
+P3P  CAP  NP    SING  6 
+P3P  CAP  CBP   SING  7 
+P3P  NP   1HNP  SING  8 
+P3P  NP   2HNP  SING  9 
+P3P  CBP  1HBP  SING  10
+P3P  CBP  2HBP  SING  11
+P3P  CBP  CGP   SING  12
+P3P  CGP  1HGP  SING  13
+P3P  CGP  2HGP  SING  14
+P3P  CGP  PDP   SING  15
+P3P  PDP  OEA   DOUB  16
+P3P  PDP  OEB   SING  17
+P3P  PDP  CEP   SING  18
+P3P  CEP  1HEP  SING  19
+P3P  CEP  2HEP  SING  20
+P3P  CEP  3HEP  SING  21
+P3P  OEB  P12   SING  22
+P3P  P12  O15   DOUB  23
+P3P  P12  O13   SING  24
+P3P  P12  O14   SING  25
+P3P  O13  H13   SING  26
+P3P  O14  H14   SING  27
+#

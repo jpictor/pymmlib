@@ -1,0 +1,101 @@
+data_SXE
+#
+_chem_comp.id                   SXE
+_chem_comp.name                 O-{(S)-ETHOXY[(1-METHYLETHYL)AMINO]PHOSPHORYL}-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H19 N2 O5 P1'
+_chem_comp.pdbx_synonyms        'O-ETHYL N-ISOPROPYL PHOSPHOROAMIDATE-L-SERINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.222
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SXE  N     .  N  0  25.69   12.535  14.28   1  1 
+SXE  CA    .  C  0  26.759  12.828  13.321  1  2 
+SXE  C     .  C  0  28.004  11.971  13.583  1  3 
+SXE  O     .  O  0  27.943  10.759  13.379  1  4 
+SXE  CB    .  C  0  27.059  14.319  13.257  1  5 
+SXE  OG    .  O  0  27.847  14.686  12.115  1  6 
+SXE  O1    .  O  0  29.661  15.31   13.516  1  7 
+SXE  P1    .  P  0  28.573  16.055  12.61   1  8 
+SXE  N1    .  N  0  27.353  16.902  13.637  1  9 
+SXE  C1    .  C  0  27.434  18.196  14.35   1  10
+SXE  C3    .  C  0  26.314  19.159  13.955  1  11
+SXE  C2    .  C  0  27.382  18.037  15.864  1  12
+SXE  O2    .  O  0  29.384  17.105  11.672  1  13
+SXE  C4    .  C  0  29.165  18.527  11.708  1  14
+SXE  C5    .  C  0  30.395  19.306  12.124  1  15
+SXE  OXT   .  O  0  29.117  12.57   14.01   1  16
+SXE  1HN   .  H  0  26.015  12.634  15.242  0  17
+SXE  2HN   .  H  0  24.862  13.105  14.106  0  18
+SXE  HA    .  H  0  26.397  12.542  12.306  1  19
+SXE  1HBC  .  H  0  27.54   14.669  14.2    0  20
+SXE  2HBC  .  H  0  26.118  14.916  13.299  0  21
+SXE  HOT   .  H  0  29.888  12.039  14.172  1  22
+SXE  H1    .  H  0  27.094  16.223  14.353  1  23
+SXE  HB    .  H  0  28.421  18.615  14.045  1  24
+SXE  1H3C  .  H  0  25.313  18.687  14.095  0  25
+SXE  2H3C  .  H  0  26.289  19.312  12.851  0  26
+SXE  3H3C  .  H  0  26.375  20.134  14.492  0  27
+SXE  1H2C  .  H  0  28.171  17.334  16.22   0  28
+SXE  2H2C  .  H  0  26.477  17.465  16.175  0  29
+SXE  3H2C  .  H  0  27.443  19.012  16.401  0  30
+SXE  1H4C  .  H  0  28.296  18.779  12.359  0  31
+SXE  2H4C  .  H  0  28.774  18.894  10.731  0  32
+SXE  1H5C  .  H  0  31.264  19.054  11.473  0  33
+SXE  2H5C  .  H  0  30.786  18.939  13.101  0  34
+SXE  3H5C  .  H  0  30.225  20.408  12.152  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SXE  N    CA    SING  1 
+SXE  N    1HN   SING  2 
+SXE  N    2HN   SING  3 
+SXE  CA   C     SING  4 
+SXE  CA   CB    SING  5 
+SXE  CA   HA    SING  6 
+SXE  C    O     DOUB  7 
+SXE  C    OXT   SING  8 
+SXE  CB   OG    SING  9 
+SXE  CB   1HBC  SING  10
+SXE  CB   2HBC  SING  11
+SXE  OG   P1    SING  12
+SXE  O1   P1    DOUB  13
+SXE  P1   N1    SING  14
+SXE  P1   O2    SING  15
+SXE  N1   C1    SING  16
+SXE  N1   H1    SING  17
+SXE  C1   C3    SING  18
+SXE  C1   C2    SING  19
+SXE  C1   HB    SING  20
+SXE  C3   1H3C  SING  21
+SXE  C3   2H3C  SING  22
+SXE  C3   3H3C  SING  23
+SXE  C2   1H2C  SING  24
+SXE  C2   2H2C  SING  25
+SXE  C2   3H2C  SING  26
+SXE  O2   C4    SING  27
+SXE  C4   C5    SING  28
+SXE  C4   1H4C  SING  29
+SXE  C4   2H4C  SING  30
+SXE  C5   1H5C  SING  31
+SXE  C5   2H5C  SING  32
+SXE  C5   3H5C  SING  33
+SXE  OXT  HOT   SING  34
+#

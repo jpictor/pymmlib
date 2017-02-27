@@ -1,0 +1,52 @@
+data_WCC
+#
+_chem_comp.id                   WCC
+_chem_comp.name                 'FE(3)-NI(1)-S(4) CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE3 NI1 S4'
+_chem_comp.pdbx_synonyms        'C CLUSTER CUBANE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       354.481
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+WCC  NI   .  NI  0  ?  ?  ?  0  1
+WCC  FE1  .  FE  0  ?  ?  ?  0  2
+WCC  FE3  .  FE  0  ?  ?  ?  0  3
+WCC  FE4  .  FE  0  ?  ?  ?  0  4
+WCC  S1   .  S   0  ?  ?  ?  1  5
+WCC  S2   .  S   0  ?  ?  ?  1  6
+WCC  S3   .  S   0  ?  ?  ?  1  7
+WCC  S4   .  S   0  ?  ?  ?  1  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+WCC  NI   S1  SING  1 
+WCC  NI   S3  SING  2 
+WCC  NI   S4  SING  3 
+WCC  FE1  S2  SING  4 
+WCC  FE1  S3  SING  5 
+WCC  FE1  S4  SING  6 
+WCC  FE3  S1  SING  7 
+WCC  FE3  S2  SING  8 
+WCC  FE3  S4  SING  9 
+WCC  FE4  S1  SING  10
+WCC  FE4  S2  SING  11
+WCC  FE4  S3  SING  12
+#

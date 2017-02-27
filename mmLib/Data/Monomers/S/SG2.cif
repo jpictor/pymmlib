@@ -1,0 +1,78 @@
+data_SG2
+#
+_chem_comp.id                   SG2
+_chem_comp.name                 '1-METHYL-3-OXO-1,3-DIHYDRO-BENZO[C]ISOTHIAZOLE-5-SULFONIC ACID AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 N2 O3 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        244.283
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SG2  S1    .  S  0  -5.702  1.007   16.681  1  1 
+SG2  C2    .  C  0  -5.063  2.306   15.679  1  2 
+SG2  C3    .  C  0  -3.707  2.260   15.412  1  3 
+SG2  C4    .  C  0  -3.166  3.251   14.630  1  4 
+SG2  C5    .  C  0  -3.979  4.269   14.082  1  5 
+SG2  N     .  N  0  -3.494  5.313   13.251  1  6 
+SG2  C6    .  C  0  -2.094  5.440   12.850  1  7 
+SG2  S7    .  S  0  -4.810  6.284   12.842  1  8 
+SG2  C8    .  C  0  -6.065  5.437   13.700  1  9 
+SG2  O9    .  O  0  -7.238  5.759   13.735  1  10
+SG2  C10   .  C  0  -5.353  4.305   14.355  1  11
+SG2  C11   .  C  0  -5.908  3.308   15.156  1  12
+SG2  N12   .  N  0  -5.296  -0.504  15.924  1  13
+SG2  O13   .  O  0  -7.141  1.164   16.717  1  14
+SG2  O14   .  O  0  -5.148  1.064   18.013  1  15
+SG2  1H12  .  H  0  ?       ?       ?       0  16
+SG2  2H12  .  H  0  ?       ?       ?       0  17
+SG2  1H3   .  H  0  ?       ?       ?       0  18
+SG2  1H11  .  H  0  ?       ?       ?       0  19
+SG2  1H4   .  H  0  ?       ?       ?       0  20
+SG2  1H6   .  H  0  ?       ?       ?       0  21
+SG2  2H6   .  H  0  ?       ?       ?       0  22
+SG2  3H6   .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SG2  S1   C2    SING  1 
+SG2  S1   N12   SING  2 
+SG2  S1   O13   DOUB  3 
+SG2  S1   O14   DOUB  4 
+SG2  C2   C3    AROM  5 
+SG2  C2   C11   AROM  6 
+SG2  C3   C4    AROM  7 
+SG2  C3   1H3   SING  8 
+SG2  C4   C5    AROM  9 
+SG2  C4   1H4   SING  10
+SG2  C5   N     SING  11
+SG2  C5   C10   AROM  12
+SG2  N    C6    SING  13
+SG2  N    S7    SING  14
+SG2  C6   1H6   SING  15
+SG2  C6   2H6   SING  16
+SG2  C6   3H6   SING  17
+SG2  S7   C8    SING  18
+SG2  C8   O9    DOUB  19
+SG2  C8   C10   SING  20
+SG2  C10  C11   AROM  21
+SG2  C11  1H11  SING  22
+SG2  N12  1H12  SING  23
+SG2  N12  2H12  SING  24
+#

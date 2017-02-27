@@ -1,0 +1,65 @@
+data_MSA
+#
+_chem_comp.id                       MSA
+_chem_comp.name                     '(2-S-METHYL) SARCOSINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C4 H9 N1 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            135.181
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSA  N    .  N  0  ?  ?  ?  1  1 
+MSA  CA   .  C  0  ?  ?  ?  1  2 
+MSA  C    .  C  0  ?  ?  ?  1  3 
+MSA  O    .  O  0  ?  ?  ?  1  4 
+MSA  OXT  .  O  0  ?  ?  ?  1  5 
+MSA  CN   .  C  0  ?  ?  ?  1  6 
+MSA  SB   .  S  0  ?  ?  ?  1  7 
+MSA  CG   .  C  0  ?  ?  ?  1  8 
+MSA  HN   .  H  0  ?  ?  ?  1  9 
+MSA  HA   .  H  0  ?  ?  ?  1  10
+MSA  HXT  .  H  0  ?  ?  ?  1  11
+MSA  1HN  .  H  0  ?  ?  ?  0  12
+MSA  2HN  .  H  0  ?  ?  ?  0  13
+MSA  3HN  .  H  0  ?  ?  ?  0  14
+MSA  1HG  .  H  0  ?  ?  ?  0  15
+MSA  2HG  .  H  0  ?  ?  ?  0  16
+MSA  3HG  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSA  N    CA   SING  1 
+MSA  N    CN   SING  2 
+MSA  N    HN   SING  3 
+MSA  CA   C    SING  4 
+MSA  CA   SB   SING  5 
+MSA  CA   HA   SING  6 
+MSA  C    O    DOUB  7 
+MSA  C    OXT  SING  8 
+MSA  OXT  HXT  SING  9 
+MSA  CN   1HN  SING  10
+MSA  CN   2HN  SING  11
+MSA  CN   3HN  SING  12
+MSA  SB   CG   SING  13
+MSA  CG   1HG  SING  14
+MSA  CG   2HG  SING  15
+MSA  CG   3HG  SING  16
+#

@@ -1,0 +1,123 @@
+data_FAF
+#
+_chem_comp.id                   FAF
+_chem_comp.name                 '2-ACETYLAMINO-4-METHYL-PENTANOIC ACID (1-FORMYL-2-PHENYL-ETHYL)-AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H24 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        304.388
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FAF  CX    .  C  0  ?  ?  ?  1  1 
+FAF  OX    .  O  0  ?  ?  ?  1  2 
+FAF  CAX   .  C  0  ?  ?  ?  1  3 
+FAF  NL    .  N  0  ?  ?  ?  1  4 
+FAF  CAL   .  C  0  ?  ?  ?  1  5 
+FAF  CBL   .  C  0  ?  ?  ?  1  6 
+FAF  CGL   .  C  0  ?  ?  ?  1  7 
+FAF  CDL   .  C  0  ?  ?  ?  1  8 
+FAF  CDM   .  C  0  ?  ?  ?  1  9 
+FAF  C     .  C  0  ?  ?  ?  1  10
+FAF  O     .  O  0  ?  ?  ?  1  11
+FAF  N     .  N  0  ?  ?  ?  1  12
+FAF  CA    .  C  0  ?  ?  ?  1  13
+FAF  CB    .  C  0  ?  ?  ?  1  14
+FAF  CG    .  C  0  ?  ?  ?  1  15
+FAF  CD1   .  C  0  ?  ?  ?  1  16
+FAF  CD2   .  C  0  ?  ?  ?  1  17
+FAF  CE1   .  C  0  ?  ?  ?  1  18
+FAF  CE2   .  C  0  ?  ?  ?  1  19
+FAF  CZ    .  C  0  ?  ?  ?  1  20
+FAF  CW    .  C  0  ?  ?  ?  1  21
+FAF  OW    .  O  0  ?  ?  ?  1  22
+FAF  HZ    .  H  0  ?  ?  ?  1  23
+FAF  HE1   .  H  0  ?  ?  ?  1  24
+FAF  HE2   .  H  0  ?  ?  ?  1  25
+FAF  HD1   .  H  0  ?  ?  ?  1  26
+FAF  HD2   .  H  0  ?  ?  ?  1  27
+FAF  HB1   .  H  0  ?  ?  ?  1  28
+FAF  HB2   .  H  0  ?  ?  ?  1  29
+FAF  HA    .  H  0  ?  ?  ?  1  30
+FAF  HW    .  H  0  ?  ?  ?  1  31
+FAF  HN    .  H  0  ?  ?  ?  1  32
+FAF  HAL   .  H  0  ?  ?  ?  1  33
+FAF  HL    .  H  0  ?  ?  ?  1  34
+FAF  1HAX  .  H  0  ?  ?  ?  0  35
+FAF  2HAX  .  H  0  ?  ?  ?  0  36
+FAF  3HAX  .  H  0  ?  ?  ?  0  37
+FAF  1HBL  .  H  0  ?  ?  ?  0  38
+FAF  2HBL  .  H  0  ?  ?  ?  0  39
+FAF  HGL   .  H  0  ?  ?  ?  1  40
+FAF  1HDL  .  H  0  ?  ?  ?  0  41
+FAF  2HDL  .  H  0  ?  ?  ?  0  42
+FAF  3HDL  .  H  0  ?  ?  ?  0  43
+FAF  1HDM  .  H  0  ?  ?  ?  0  44
+FAF  2HDM  .  H  0  ?  ?  ?  0  45
+FAF  3HDM  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FAF  CX   OX    DOUB  1 
+FAF  CX   CAX   SING  2 
+FAF  CX   NL    SING  3 
+FAF  CAX  1HAX  SING  4 
+FAF  CAX  2HAX  SING  5 
+FAF  CAX  3HAX  SING  6 
+FAF  NL   CAL   SING  7 
+FAF  NL   HL    SING  8 
+FAF  CAL  CBL   SING  9 
+FAF  CAL  C     SING  10
+FAF  CAL  HAL   SING  11
+FAF  CBL  CGL   SING  12
+FAF  CBL  1HBL  SING  13
+FAF  CBL  2HBL  SING  14
+FAF  CGL  CDL   SING  15
+FAF  CGL  CDM   SING  16
+FAF  CGL  HGL   SING  17
+FAF  CDL  1HDL  SING  18
+FAF  CDL  2HDL  SING  19
+FAF  CDL  3HDL  SING  20
+FAF  CDM  1HDM  SING  21
+FAF  CDM  2HDM  SING  22
+FAF  CDM  3HDM  SING  23
+FAF  C    O     DOUB  24
+FAF  C    N     SING  25
+FAF  N    CA    SING  26
+FAF  N    HN    SING  27
+FAF  CA   CB    SING  28
+FAF  CA   CW    SING  29
+FAF  CA   HA    SING  30
+FAF  CB   CG    SING  31
+FAF  CB   HB1   SING  32
+FAF  CB   HB2   SING  33
+FAF  CG   CD1   AROM  34
+FAF  CG   CD2   AROM  35
+FAF  CD1  CE1   AROM  36
+FAF  CD1  HD1   SING  37
+FAF  CD2  CE2   AROM  38
+FAF  CD2  HD2   SING  39
+FAF  CE1  CZ    AROM  40
+FAF  CE1  HE1   SING  41
+FAF  CE2  CZ    AROM  42
+FAF  CE2  HE2   SING  43
+FAF  CZ   HZ    SING  44
+FAF  CW   OW    DOUB  45
+FAF  CW   HW    SING  46
+#

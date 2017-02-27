@@ -1,0 +1,55 @@
+data_PIH
+#
+_chem_comp.id                   PIH
+_chem_comp.name                 IODOPHENYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        204.010
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIH  C1  .  C  0  ?  ?  ?  1  1 
+PIH  C2  .  C  0  ?  ?  ?  1  2 
+PIH  C3  .  C  0  ?  ?  ?  1  3 
+PIH  C4  .  C  0  ?  ?  ?  1  4 
+PIH  C5  .  C  0  ?  ?  ?  1  5 
+PIH  C6  .  C  0  ?  ?  ?  1  6 
+PIH  H1  .  H  0  ?  ?  ?  1  7 
+PIH  H2  .  H  0  ?  ?  ?  1  8 
+PIH  H3  .  H  0  ?  ?  ?  1  9 
+PIH  H4  .  H  0  ?  ?  ?  1  10
+PIH  H5  .  H  0  ?  ?  ?  1  11
+PIH  I6  .  I  0  ?  ?  ?  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIH  C1  C2  AROM  1 
+PIH  C1  C6  AROM  2 
+PIH  C1  H1  SING  3 
+PIH  C2  C3  AROM  4 
+PIH  C2  H2  SING  5 
+PIH  C3  C4  AROM  6 
+PIH  C3  H3  SING  7 
+PIH  C4  C5  AROM  8 
+PIH  C4  H4  SING  9 
+PIH  C5  C6  AROM  10
+PIH  C5  H5  SING  11
+PIH  C6  I6  SING  12
+#

@@ -1,0 +1,46 @@
+data_E1H
+#
+_chem_comp.id                   E1H
+_chem_comp.name                 ETHANIMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H5 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        43.068
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+E1H  N1    .  N  0  1.439   26.936  34.173  1  1
+E1H  CA1   .  C  0  0.650   25.921  33.926  1  2
+E1H  CB1   .  C  0  -0.721  25.977  34.557  1  3
+E1H  1HN1  .  H  0  1.640   26.972  35.152  0  4
+E1H  2HA1  .  H  0  1.146   25.042  34.364  0  5
+E1H  1HB1  .  H  0  -0.621  25.991  35.652  0  6
+E1H  2HB1  .  H  0  -1.240  26.888  34.225  0  7
+E1H  3HB1  .  H  0  -1.301  25.093  34.253  0  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+E1H  N1   1HN1  SING  1
+E1H  N1   CA1   DOUB  2
+E1H  CA1  2HA1  SING  3
+E1H  CA1  CB1   SING  4
+E1H  CB1  1HB1  SING  5
+E1H  CB1  2HB1  SING  6
+E1H  CB1  3HB1  SING  7
+#

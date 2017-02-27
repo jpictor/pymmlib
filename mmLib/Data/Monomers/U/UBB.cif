@@ -1,0 +1,97 @@
+data_UBB
+#
+_chem_comp.id                       UBB
+_chem_comp.name                     2',3'-DIDEOXY-URIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C9 H13 N2 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            292.185
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UBB  O1P   .  O  0  122.486  -66.842  -8.186   1  1 
+UBB  P     .  P  0  121.262  -66.590  -8.991   1  2 
+UBB  O2P   .  O  0  120.863  -67.561  -10.038  1  3 
+UBB  O3P   .  O  0  ?        ?        ?        1  4 
+UBB  O5*   .  O  0  120.074  -66.390  -7.949   1  5 
+UBB  C5*   .  C  0  120.267  -65.569  -6.792   1  6 
+UBB  C4*   .  C  0  119.173  -65.814  -5.781   1  7 
+UBB  O4*   .  O  0  117.955  -65.156  -6.202   1  8 
+UBB  C1*   .  C  0  116.900  -66.099  -6.260   1  9 
+UBB  N1    .  N  0  115.977  -65.667  -7.322   1  10
+UBB  C6    .  C  0  116.231  -65.885  -8.657   1  11
+UBB  C5    .  C  0  115.440  -65.422  -9.633   1  12
+UBB  C4    .  C  0  114.283  -64.672  -9.302   1  13
+UBB  O4    .  O  0  113.596  -64.029  -10.089  1  14
+UBB  N3    .  N  0  114.061  -64.533  -7.953   1  15
+UBB  C2    .  C  0  114.845  -65.000  -6.928   1  16
+UBB  O2    .  O  0  114.550  -64.833  -5.756   1  17
+UBB  C2*   .  C  0  117.566  -67.455  -6.424   1  18
+UBB  C3*   .  C  0  118.818  -67.289  -5.581   1  19
+UBB  H1P   .  H  0  ?        ?        ?        1  20
+UBB  H3P   .  H  0  ?        ?        ?        1  21
+UBB  1H5*  .  H  0  ?        ?        ?        0  22
+UBB  2H5*  .  H  0  ?        ?        ?        0  23
+UBB  H4*   .  H  0  ?        ?        ?        1  24
+UBB  H1*   .  H  0  ?        ?        ?        1  25
+UBB  H6    .  H  0  ?        ?        ?        1  26
+UBB  H5    .  H  0  ?        ?        ?        1  27
+UBB  HN3   .  H  0  ?        ?        ?        1  28
+UBB  1H2*  .  H  0  ?        ?        ?        0  29
+UBB  2H2*  .  H  0  ?        ?        ?        0  30
+UBB  1H3*  .  H  0  ?        ?        ?        0  31
+UBB  2H3*  .  H  0  ?        ?        ?        0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UBB  O1P  H1P   SING  1 
+UBB  O1P  P     SING  2 
+UBB  P    O2P   DOUB  3 
+UBB  P    O3P   SING  4 
+UBB  P    O5*   SING  5 
+UBB  O3P  H3P   SING  6 
+UBB  O5*  C5*   SING  7 
+UBB  C5*  1H5*  SING  8 
+UBB  C5*  2H5*  SING  9 
+UBB  C5*  C4*   SING  10
+UBB  C4*  H4*   SING  11
+UBB  C4*  O4*   SING  12
+UBB  C4*  C3*   SING  13
+UBB  O4*  C1*   SING  14
+UBB  C1*  H1*   SING  15
+UBB  C1*  N1    SING  16
+UBB  C1*  C2*   SING  17
+UBB  N1   C6    SING  18
+UBB  N1   C2    SING  19
+UBB  C6   H6    SING  20
+UBB  C6   C5    DOUB  21
+UBB  C5   H5    SING  22
+UBB  C5   C4    SING  23
+UBB  C4   O4    DOUB  24
+UBB  C4   N3    SING  25
+UBB  N3   HN3   SING  26
+UBB  N3   C2    SING  27
+UBB  C2   O2    DOUB  28
+UBB  C2*  1H2*  SING  29
+UBB  C2*  2H2*  SING  30
+UBB  C2*  C3*   SING  31
+UBB  C3*  1H3*  SING  32
+UBB  C3*  2H3*  SING  33
+#

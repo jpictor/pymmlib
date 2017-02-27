@@ -1,0 +1,97 @@
+data_SGN
+#
+_chem_comp.id                   SGN
+_chem_comp.name                 N,O6-DISULFO-GLUCOSAMINE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O11 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        339.289
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SGN  C1    .  C  0  ?  ?  ?  1  1 
+SGN  C2    .  C  0  ?  ?  ?  1  2 
+SGN  C3    .  C  0  ?  ?  ?  1  3 
+SGN  C4    .  C  0  ?  ?  ?  1  4 
+SGN  C5    .  C  0  ?  ?  ?  1  5 
+SGN  C6    .  C  0  ?  ?  ?  1  6 
+SGN  N     .  N  0  ?  ?  ?  1  7 
+SGN  O1    .  O  0  ?  ?  ?  1  8 
+SGN  O3    .  O  0  ?  ?  ?  1  9 
+SGN  O4    .  O  0  ?  ?  ?  1  10
+SGN  O5    .  O  0  ?  ?  ?  1  11
+SGN  O6    .  O  0  ?  ?  ?  1  12
+SGN  S1    .  S  0  ?  ?  ?  1  13
+SGN  O1S   .  O  0  ?  ?  ?  1  14
+SGN  O2S   .  O  0  ?  ?  ?  1  15
+SGN  O3S   .  O  0  ?  ?  ?  1  16
+SGN  S2    .  S  0  ?  ?  ?  1  17
+SGN  O4S   .  O  0  ?  ?  ?  1  18
+SGN  O5S   .  O  0  ?  ?  ?  1  19
+SGN  O6S   .  O  0  ?  ?  ?  1  20
+SGN  H1    .  H  0  ?  ?  ?  1  21
+SGN  H2    .  H  0  ?  ?  ?  1  22
+SGN  H3    .  H  0  ?  ?  ?  1  23
+SGN  H4    .  H  0  ?  ?  ?  1  24
+SGN  H5    .  H  0  ?  ?  ?  1  25
+SGN  1H6   .  H  0  ?  ?  ?  0  26
+SGN  2H6   .  H  0  ?  ?  ?  0  27
+SGN  HN    .  H  0  ?  ?  ?  1  28
+SGN  HO1   .  H  0  ?  ?  ?  1  29
+SGN  HO4   .  H  0  ?  ?  ?  1  30
+SGN  HO3   .  H  0  ?  ?  ?  1  31
+SGN  3HOS  .  H  0  ?  ?  ?  0  32
+SGN  6HOS  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SGN  C1   C2    SING  1 
+SGN  C1   O5    SING  2 
+SGN  C1   O1    SING  3 
+SGN  C1   H1    SING  4 
+SGN  C2   C3    SING  5 
+SGN  C2   N     SING  6 
+SGN  C2   H2    SING  7 
+SGN  C3   C4    SING  8 
+SGN  C3   O3    SING  9 
+SGN  C3   H3    SING  10
+SGN  C4   C5    SING  11
+SGN  C4   O4    SING  12
+SGN  C4   H4    SING  13
+SGN  C5   C6    SING  14
+SGN  C5   O5    SING  15
+SGN  C5   H5    SING  16
+SGN  C6   O6    SING  17
+SGN  C6   1H6   SING  18
+SGN  C6   2H6   SING  19
+SGN  N    S1    SING  20
+SGN  N    HN    SING  21
+SGN  O1   HO1   SING  22
+SGN  O3   HO3   SING  23
+SGN  O4   HO4   SING  24
+SGN  O6   S2    SING  25
+SGN  S1   O1S   DOUB  26
+SGN  S1   O2S   DOUB  27
+SGN  S1   O3S   SING  28
+SGN  O3S  3HOS  SING  29
+SGN  S2   O4S   DOUB  30
+SGN  S2   O5S   DOUB  31
+SGN  S2   O6S   SING  32
+SGN  O6S  6HOS  SING  33
+#

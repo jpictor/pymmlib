@@ -1,0 +1,112 @@
+data_FOE
+#
+_chem_comp.id                       FOE
+_chem_comp.name                     2-(2-AMINO-3-OXO-PROPYLSULFANYL)-N-(4-FLUORO-PHENYL)-N-ISOPROPYL-ACETAMIDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C14 H19 N2 O3 F1 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            314.374
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOE  N    .  N  0  ?  ?  ?  1  1 
+FOE  CA   .  C  0  ?  ?  ?  1  2 
+FOE  C    .  C  0  ?  ?  ?  1  3 
+FOE  O    .  O  0  ?  ?  ?  1  4 
+FOE  CB   .  C  0  ?  ?  ?  1  5 
+FOE  SG   .  S  0  ?  ?  ?  1  6 
+FOE  C1   .  C  0  ?  ?  ?  1  7 
+FOE  C2   .  C  0  ?  ?  ?  1  8 
+FOE  O3   .  O  0  ?  ?  ?  1  9 
+FOE  N4   .  N  0  ?  ?  ?  1  10
+FOE  C5   .  C  0  ?  ?  ?  1  11
+FOE  C6   .  C  0  ?  ?  ?  1  12
+FOE  C7   .  C  0  ?  ?  ?  1  13
+FOE  C8   .  C  0  ?  ?  ?  1  14
+FOE  C9   .  C  0  ?  ?  ?  1  15
+FOE  C10  .  C  0  ?  ?  ?  1  16
+FOE  C11  .  C  0  ?  ?  ?  1  17
+FOE  C12  .  C  0  ?  ?  ?  1  18
+FOE  C13  .  C  0  ?  ?  ?  1  19
+FOE  F14  .  F  0  ?  ?  ?  1  20
+FOE  OXT  .  O  0  ?  ?  ?  1  21
+FOE  1HN  .  H  0  ?  ?  ?  0  22
+FOE  2HN  .  H  0  ?  ?  ?  0  23
+FOE  HA   .  H  0  ?  ?  ?  1  24
+FOE  1HB  .  H  0  ?  ?  ?  0  25
+FOE  2HB  .  H  0  ?  ?  ?  0  26
+FOE  1H1  .  H  0  ?  ?  ?  0  27
+FOE  2H1  .  H  0  ?  ?  ?  0  28
+FOE  H6   .  H  0  ?  ?  ?  1  29
+FOE  1H5  .  H  0  ?  ?  ?  0  30
+FOE  2H5  .  H  0  ?  ?  ?  0  31
+FOE  3H5  .  H  0  ?  ?  ?  0  32
+FOE  1H7  .  H  0  ?  ?  ?  0  33
+FOE  2H7  .  H  0  ?  ?  ?  0  34
+FOE  3H7  .  H  0  ?  ?  ?  0  35
+FOE  H8   .  H  0  ?  ?  ?  1  36
+FOE  H9   .  H  0  ?  ?  ?  1  37
+FOE  H11  .  H  0  ?  ?  ?  1  38
+FOE  H12  .  H  0  ?  ?  ?  1  39
+FOE  HXT  .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOE  N    CA   SING  1 
+FOE  N    1HN  SING  2 
+FOE  N    2HN  SING  3 
+FOE  CA   C    SING  4 
+FOE  CA   CB   SING  5 
+FOE  CA   HA   SING  6 
+FOE  C    O    DOUB  7 
+FOE  C    OXT  SING  8 
+FOE  CB   SG   SING  9 
+FOE  CB   1HB  SING  10
+FOE  CB   2HB  SING  11
+FOE  SG   C1   SING  12
+FOE  C1   C2   SING  13
+FOE  C1   1H1  SING  14
+FOE  C1   2H1  SING  15
+FOE  C2   O3   DOUB  16
+FOE  C2   N4   SING  17
+FOE  N4   C6   SING  18
+FOE  N4   C10  SING  19
+FOE  C5   C6   SING  20
+FOE  C5   1H5  SING  21
+FOE  C5   2H5  SING  22
+FOE  C5   3H5  SING  23
+FOE  C6   C7   SING  24
+FOE  C6   H6   SING  25
+FOE  C7   1H7  SING  26
+FOE  C7   2H7  SING  27
+FOE  C7   3H7  SING  28
+FOE  C8   C9   DOUB  29
+FOE  C8   C13  SING  30
+FOE  C8   H8   SING  31
+FOE  C9   C10  SING  32
+FOE  C9   H9   SING  33
+FOE  C10  C11  DOUB  34
+FOE  C11  C12  SING  35
+FOE  C11  H11  SING  36
+FOE  C12  C13  DOUB  37
+FOE  C12  H12  SING  38
+FOE  C13  F14  SING  39
+FOE  OXT  HXT  SING  40
+#

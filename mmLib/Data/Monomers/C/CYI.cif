@@ -1,0 +1,69 @@
+data_CYI
+#
+_chem_comp.id                   CYI
+_chem_comp.name                 'CYCLOHEXYL ISOCYANIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        109.171
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CYI  C1   .  C  0   107.065  24.528  20.161  1  1 
+CYI  C2   .  C  0   108.285  24.458  19.235  1  2 
+CYI  C3   .  C  0   108.899  23.060  19.178  1  3 
+CYI  C4   .  C  0   107.877  21.930  18.934  1  4 
+CYI  C5   .  C  0   106.641  22.063  19.838  1  5 
+CYI  C6   .  C  0   106.029  23.459  19.817  1  6 
+CYI  N    .  N  1   108.603  20.701  19.755  1  7 
+CYI  C    .  C  -1  109.075  19.745  20.306  1  8 
+CYI  H4   .  H  0   ?        ?       ?       1  9 
+CYI  1H5  .  H  0   ?        ?       ?       0  10
+CYI  2H5  .  H  0   ?        ?       ?       0  11
+CYI  1H6  .  H  0   ?        ?       ?       0  12
+CYI  2H6  .  H  0   ?        ?       ?       0  13
+CYI  1H1  .  H  0   ?        ?       ?       0  14
+CYI  2H1  .  H  0   ?        ?       ?       0  15
+CYI  1H2  .  H  0   ?        ?       ?       0  16
+CYI  2H2  .  H  0   ?        ?       ?       0  17
+CYI  1H3  .  H  0   ?        ?       ?       0  18
+CYI  2H3  .  H  0   ?        ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CYI  C1  C6   SING  1 
+CYI  C1  C2   SING  2 
+CYI  C1  1H1  SING  3 
+CYI  C1  2H1  SING  4 
+CYI  C2  C3   SING  5 
+CYI  C2  1H2  SING  6 
+CYI  C2  2H2  SING  7 
+CYI  C3  C4   SING  8 
+CYI  C3  1H3  SING  9 
+CYI  C3  2H3  SING  10
+CYI  C4  N    SING  11
+CYI  C4  C5   SING  12
+CYI  C4  H4   SING  13
+CYI  C5  C6   SING  14
+CYI  C5  1H5  SING  15
+CYI  C5  2H5  SING  16
+CYI  C6  1H6  SING  17
+CYI  C6  2H6  SING  18
+CYI  N   C    TRIP  19
+#

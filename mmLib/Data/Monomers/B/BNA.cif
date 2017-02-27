@@ -1,0 +1,126 @@
+data_BNA
+#
+_chem_comp.id                   BNA
+_chem_comp.name                 'BIS-(NAPHTHYL-1-METHYL) ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C24 H20 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.421
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNA  OXT   .  O  0  ?  ?  ?  1  1 
+BNA  C     .  C  0  ?  ?  ?  1  2 
+BNA  O     .  O  0  ?  ?  ?  1  3 
+BNA  CA    .  C  0  ?  ?  ?  1  4 
+BNA  CB1   .  C  0  ?  ?  ?  1  5 
+BNA  C1A   .  C  0  ?  ?  ?  1  6 
+BNA  C2A   .  C  0  ?  ?  ?  1  7 
+BNA  C3A   .  C  0  ?  ?  ?  1  8 
+BNA  C4A   .  C  0  ?  ?  ?  1  9 
+BNA  AC4A  .  C  0  ?  ?  ?  0  10
+BNA  C5A   .  C  0  ?  ?  ?  1  11
+BNA  C6A   .  C  0  ?  ?  ?  1  12
+BNA  C7A   .  C  0  ?  ?  ?  1  13
+BNA  C8A   .  C  0  ?  ?  ?  1  14
+BNA  AC8A  .  C  0  ?  ?  ?  0  15
+BNA  CB2   .  C  0  ?  ?  ?  1  16
+BNA  C1B   .  C  0  ?  ?  ?  1  17
+BNA  C2B   .  C  0  ?  ?  ?  1  18
+BNA  C3B   .  C  0  ?  ?  ?  1  19
+BNA  C4B   .  C  0  ?  ?  ?  1  20
+BNA  AC4B  .  C  0  ?  ?  ?  0  21
+BNA  C5B   .  C  0  ?  ?  ?  1  22
+BNA  C6B   .  C  0  ?  ?  ?  1  23
+BNA  C7B   .  C  0  ?  ?  ?  1  24
+BNA  C8B   .  C  0  ?  ?  ?  1  25
+BNA  AC8B  .  C  0  ?  ?  ?  0  26
+BNA  HXT   .  H  0  ?  ?  ?  1  27
+BNA  HA    .  H  0  ?  ?  ?  1  28
+BNA  1HB1  .  H  0  ?  ?  ?  0  29
+BNA  2HB1  .  H  0  ?  ?  ?  0  30
+BNA  H2A   .  H  0  ?  ?  ?  1  31
+BNA  H3A   .  H  0  ?  ?  ?  1  32
+BNA  H4A   .  H  0  ?  ?  ?  1  33
+BNA  H5A   .  H  0  ?  ?  ?  1  34
+BNA  H6A   .  H  0  ?  ?  ?  1  35
+BNA  H7A   .  H  0  ?  ?  ?  1  36
+BNA  H8A   .  H  0  ?  ?  ?  1  37
+BNA  1HB2  .  H  0  ?  ?  ?  0  38
+BNA  2HB2  .  H  0  ?  ?  ?  0  39
+BNA  H2B   .  H  0  ?  ?  ?  1  40
+BNA  H3B   .  H  0  ?  ?  ?  1  41
+BNA  H4B   .  H  0  ?  ?  ?  1  42
+BNA  H5B   .  H  0  ?  ?  ?  1  43
+BNA  H6B   .  H  0  ?  ?  ?  1  44
+BNA  H7B   .  H  0  ?  ?  ?  1  45
+BNA  H8B   .  H  0  ?  ?  ?  1  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNA  OXT   C     SING  1 
+BNA  OXT   HXT   SING  2 
+BNA  C     O     DOUB  3 
+BNA  C     CA    SING  4 
+BNA  CA    CB1   SING  5 
+BNA  CA    CB2   SING  6 
+BNA  CA    HA    SING  7 
+BNA  CB1   C1A   SING  8 
+BNA  CB1   1HB1  SING  9 
+BNA  CB1   2HB1  SING  10
+BNA  C1A   C2A   DOUB  11
+BNA  C1A   AC8A  SING  12
+BNA  C2A   C3A   SING  13
+BNA  C2A   H2A   SING  14
+BNA  C3A   C4A   DOUB  15
+BNA  C3A   H3A   SING  16
+BNA  C4A   AC4A  SING  17
+BNA  C4A   H4A   SING  18
+BNA  AC4A  C5A   DOUB  19
+BNA  AC4A  AC8A  SING  20
+BNA  C5A   C6A   SING  21
+BNA  C5A   H5A   SING  22
+BNA  C6A   C7A   DOUB  23
+BNA  C6A   H6A   SING  24
+BNA  C7A   C8A   SING  25
+BNA  C7A   H7A   SING  26
+BNA  C8A   AC8A  DOUB  27
+BNA  C8A   H8A   SING  28
+BNA  CB2   C1B   SING  29
+BNA  CB2   1HB2  SING  30
+BNA  CB2   2HB2  SING  31
+BNA  C1B   C2B   DOUB  32
+BNA  C1B   AC8B  SING  33
+BNA  C2B   C3B   SING  34
+BNA  C2B   H2B   SING  35
+BNA  C3B   C4B   DOUB  36
+BNA  C3B   H3B   SING  37
+BNA  C4B   AC4B  SING  38
+BNA  C4B   H4B   SING  39
+BNA  AC4B  C5B   DOUB  40
+BNA  AC4B  AC8B  SING  41
+BNA  C5B   C6B   SING  42
+BNA  C5B   H5B   SING  43
+BNA  C6B   C7B   DOUB  44
+BNA  C6B   H6B   SING  45
+BNA  C7B   C8B   SING  46
+BNA  C7B   H7B   SING  47
+BNA  C8B   AC8B  DOUB  48
+BNA  C8B   H8B   SING  49
+#

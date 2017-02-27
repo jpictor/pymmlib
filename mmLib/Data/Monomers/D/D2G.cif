@@ -1,0 +1,84 @@
+data_D2G
+#
+_chem_comp.id                   D2G
+_chem_comp.name                 N-METHYL(5-(PYRIDIN-3-YL)FURAN-2-YL)METHANAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        188.229
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D2G  C_1   .  C  0  64.896  76.964  100.514  1  1 
+D2G  C_2   .  C  0  63.686  76.176  100.358  1  2 
+D2G  C_3   .  C  0  62.524  76.822  99.859   1  3 
+D2G  C_4   .  C  0  62.626  78.203  99.538   1  4 
+D2G  N_1   .  N  0  63.743  78.956  99.683   1  5 
+D2G  C_5   .  C  0  64.882  78.361  100.167  1  6 
+D2G  C_6   .  C  0  66.078  76.323  100.991  1  7 
+D2G  C_7   .  C  0  66.347  75.049  101.358  1  8 
+D2G  C_8   .  C  0  67.727  75.008  101.720  1  9 
+D2G  C_9   .  C  0  68.217  76.287  101.536  1  10
+D2G  O_1   .  O  0  67.199  77.128  101.095  1  11
+D2G  C10   .  C  0  69.547  76.937  101.680  1  12
+D2G  N_2   .  N  0  69.937  77.528  102.957  1  13
+D2G  C11   .  C  0  69.031  77.370  104.088  1  14
+D2G  H_2   .  H  0  ?       ?       ?        1  15
+D2G  H_3   .  H  0  ?       ?       ?        1  16
+D2G  H_4   .  H  0  ?       ?       ?        1  17
+D2G  H_5   .  H  0  ?       ?       ?        1  18
+D2G  H_7   .  H  0  ?       ?       ?        1  19
+D2G  H_8   .  H  0  ?       ?       ?        1  20
+D2G  1H10  .  H  0  ?       ?       ?        0  21
+D2G  2H10  .  H  0  ?       ?       ?        0  22
+D2G  H1    .  H  0  ?       ?       ?        1  23
+D2G  1H11  .  H  0  ?       ?       ?        0  24
+D2G  2H11  .  H  0  ?       ?       ?        0  25
+D2G  3H11  .  H  0  ?       ?       ?        0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D2G  C_1  C_2   DOUB  1 
+D2G  C_1  C_5   SING  2 
+D2G  C_1  C_6   SING  3 
+D2G  C_2  C_3   SING  4 
+D2G  C_2  H_2   SING  5 
+D2G  C_3  C_4   DOUB  6 
+D2G  C_3  H_3   SING  7 
+D2G  C_4  N_1   SING  8 
+D2G  C_4  H_4   SING  9 
+D2G  N_1  C_5   DOUB  10
+D2G  C_5  H_5   SING  11
+D2G  C_6  C_7   DOUB  12
+D2G  C_6  O_1   SING  13
+D2G  C_7  C_8   SING  14
+D2G  C_7  H_7   SING  15
+D2G  C_8  C_9   DOUB  16
+D2G  C_8  H_8   SING  17
+D2G  C_9  O_1   SING  18
+D2G  C_9  C10   SING  19
+D2G  C10  N_2   SING  20
+D2G  C10  1H10  SING  21
+D2G  C10  2H10  SING  22
+D2G  N_2  C11   SING  23
+D2G  N_2  H1    SING  24
+D2G  C11  1H11  SING  25
+D2G  C11  2H11  SING  26
+D2G  C11  3H11  SING  27
+#

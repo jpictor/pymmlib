@@ -1,0 +1,116 @@
+data_TBO
+#
+_chem_comp.id                   TBO
+_chem_comp.name                 5-CHLORO-8-METHYL-7-(3-METHYL-BUT-2-ENYL)-6,7,8,9-TETRAHYDRO-2H-2,7,9A-TRIAZA-BENZO[CD]AZULENE-1-THIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H20 N3 CL1 S1'
+_chem_comp.pdbx_synonyms        'TBO 8; TIBO R86183'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        321.867
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBO  N1    .  N   0  ?  ?  ?  1  1 
+TBO  C1A   .  C   0  ?  ?  ?  1  2 
+TBO  C2    .  C   0  ?  ?  ?  1  3 
+TBO  S2    .  S   0  ?  ?  ?  1  4 
+TBO  N3    .  N   0  ?  ?  ?  1  5 
+TBO  C3A   .  C   0  ?  ?  ?  1  6 
+TBO  C4    .  C   0  ?  ?  ?  1  7 
+TBO  C5    .  C   0  ?  ?  ?  1  8 
+TBO  N6    .  N   0  ?  ?  ?  1  9 
+TBO  C7    .  C   0  ?  ?  ?  1  10
+TBO  C7A   .  C   0  ?  ?  ?  1  11
+TBO  C8    .  C   0  ?  ?  ?  1  12
+TBO  CL8   .  CL  0  ?  ?  ?  0  13
+TBO  C9    .  C   0  ?  ?  ?  1  14
+TBO  C10   .  C   0  ?  ?  ?  1  15
+TBO  C11   .  C   0  ?  ?  ?  1  16
+TBO  C12   .  C   0  ?  ?  ?  1  17
+TBO  C13   .  C   0  ?  ?  ?  1  18
+TBO  C14   .  C   0  ?  ?  ?  1  19
+TBO  C15   .  C   0  ?  ?  ?  1  20
+TBO  C16   .  C   0  ?  ?  ?  1  21
+TBO  HN1   .  H   0  ?  ?  ?  1  22
+TBO  1H4   .  H   0  ?  ?  ?  0  23
+TBO  2H4   .  H   0  ?  ?  ?  0  24
+TBO  H5    .  H   0  ?  ?  ?  1  25
+TBO  1H7   .  H   0  ?  ?  ?  0  26
+TBO  2H7   .  H   0  ?  ?  ?  0  27
+TBO  H9    .  H   0  ?  ?  ?  1  28
+TBO  H10   .  H   0  ?  ?  ?  1  29
+TBO  1H11  .  H   0  ?  ?  ?  0  30
+TBO  2H11  .  H   0  ?  ?  ?  0  31
+TBO  3H11  .  H   0  ?  ?  ?  0  32
+TBO  1H12  .  H   0  ?  ?  ?  0  33
+TBO  2H12  .  H   0  ?  ?  ?  0  34
+TBO  H13   .  H   0  ?  ?  ?  1  35
+TBO  1H15  .  H   0  ?  ?  ?  0  36
+TBO  2H15  .  H   0  ?  ?  ?  0  37
+TBO  3H15  .  H   0  ?  ?  ?  0  38
+TBO  1H16  .  H   0  ?  ?  ?  0  39
+TBO  2H16  .  H   0  ?  ?  ?  0  40
+TBO  3H16  .  H   0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBO  N1   C2    SING  1 
+TBO  N1   C1A   SING  2 
+TBO  N1   HN1   SING  3 
+TBO  C1A  C3A   DOUB  4 
+TBO  C1A  C10   SING  5 
+TBO  C2   N3    SING  6 
+TBO  C2   S2    DOUB  7 
+TBO  N3   C4    SING  8 
+TBO  N3   C3A   SING  9 
+TBO  C3A  C7A   SING  10
+TBO  C4   C5    SING  11
+TBO  C4   1H4   SING  12
+TBO  C4   2H4   SING  13
+TBO  C5   N6    SING  14
+TBO  C5   C11   SING  15
+TBO  C5   H5    SING  16
+TBO  N6   C7    SING  17
+TBO  N6   C12   SING  18
+TBO  C7   C7A   SING  19
+TBO  C7   1H7   SING  20
+TBO  C7   2H7   SING  21
+TBO  C7A  C8    DOUB  22
+TBO  C8   C9    SING  23
+TBO  C8   CL8   SING  24
+TBO  C9   C10   DOUB  25
+TBO  C9   H9    SING  26
+TBO  C10  H10   SING  27
+TBO  C11  1H11  SING  28
+TBO  C11  2H11  SING  29
+TBO  C11  3H11  SING  30
+TBO  C12  C13   SING  31
+TBO  C12  1H12  SING  32
+TBO  C12  2H12  SING  33
+TBO  C13  C14   DOUB  34
+TBO  C13  H13   SING  35
+TBO  C14  C15   SING  36
+TBO  C14  C16   SING  37
+TBO  C15  1H15  SING  38
+TBO  C15  2H15  SING  39
+TBO  C15  3H15  SING  40
+TBO  C16  1H16  SING  41
+TBO  C16  2H16  SING  42
+TBO  C16  3H16  SING  43
+#

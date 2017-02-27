@@ -1,0 +1,77 @@
+data_GUL
+#
+_chem_comp.id                   GUL
+_chem_comp.name                 '5-FLUORO-BETA-L-GULOSYL FLUORIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 O5 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        200.139
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GUL  C5   .  C  0  30.367  66.165  6.813  1  1 
+GUL  C2   .  C  0  32.416  65.787  8.728  1  2 
+GUL  F1   .  F  0  29.687  65.745  5.728  1  3 
+GUL  O2   .  O  0  33.530  65.320  9.443  1  4 
+GUL  C3   .  C  0  32.860  66.662  7.471  1  5 
+GUL  O3   .  O  0  34.086  66.066  6.990  1  6 
+GUL  C4   .  C  0  31.818  66.485  6.327  1  7 
+GUL  O4   .  O  0  31.755  67.697  5.575  1  8 
+GUL  C6   .  C  0  29.622  67.307  7.471  1  9 
+GUL  O6   .  O  0  28.329  66.870  7.882  1  10
+GUL  O    .  O  0  30.392  65.004  7.672  1  11
+GUL  C1   .  C  0  31.584  64.579  8.365  1  12
+GUL  F2   .  F  0  ?       ?       ?      1  13
+GUL  HO6  .  H  0  ?       ?       ?      1  14
+GUL  1H6  .  H  0  ?       ?       ?      0  15
+GUL  2H6  .  H  0  ?       ?       ?      0  16
+GUL  H1   .  H  0  ?       ?       ?      1  17
+GUL  H2   .  H  0  ?       ?       ?      1  18
+GUL  HO2  .  H  0  ?       ?       ?      1  19
+GUL  H3   .  H  0  ?       ?       ?      1  20
+GUL  HO3  .  H  0  ?       ?       ?      1  21
+GUL  H4   .  H  0  ?       ?       ?      1  22
+GUL  HO4  .  H  0  ?       ?       ?      1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GUL  C5  C6   SING  1 
+GUL  C5  F1   SING  2 
+GUL  C5  O    SING  3 
+GUL  C5  C4   SING  4 
+GUL  C2  C1   SING  5 
+GUL  C2  H2   SING  6 
+GUL  C2  O2   SING  7 
+GUL  C2  C3   SING  8 
+GUL  O2  HO2  SING  9 
+GUL  C3  H3   SING  10
+GUL  C3  O3   SING  11
+GUL  C3  C4   SING  12
+GUL  O3  HO3  SING  13
+GUL  C4  H4   SING  14
+GUL  C4  O4   SING  15
+GUL  O4  HO4  SING  16
+GUL  C6  O6   SING  17
+GUL  C6  1H6  SING  18
+GUL  C6  2H6  SING  19
+GUL  O6  HO6  SING  20
+GUL  O   C1   SING  21
+GUL  C1  H1   SING  22
+GUL  C1  F2   SING  23
+#

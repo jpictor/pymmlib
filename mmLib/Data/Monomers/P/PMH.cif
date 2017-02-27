@@ -1,0 +1,105 @@
+data_PMH
+#
+_chem_comp.id                   PMH
+_chem_comp.name                 '(5-HYDROXY-4-{[(3-HYDROXYISOXAZOL-4-YL)AMINO]METHYL}-6-METHYLPYRIDIN-3-YL)METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H14 N3 O7 P1'
+_chem_comp.pdbx_synonyms        'PMP-HYDROXYISOXAZOLE, PYRIDOXAMINE-5-PHOSPHATE-HYDROXYISOXAZOLE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        331.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PMH  N1    .  N  0  102.466  -29.822  49.003  1  1 
+PMH  C2    .  C  0  101.798  -29.240  47.970  1  2 
+PMH  C2A   .  C  0  101.885  -29.843  46.587  1  3 
+PMH  C3    .  C  0  101.013  -28.053  48.213  1  4 
+PMH  O3    .  O  0  100.350  -27.477  47.192  1  5 
+PMH  C4    .  C  0  100.941  -27.505  49.520  1  6 
+PMH  C4A   .  C  0  100.154  -26.276  49.884  1  7 
+PMH  C5    .  C  0  101.681  -28.174  50.603  1  8 
+PMH  C6    .  C  0  102.436  -29.341  50.289  1  9 
+PMH  C5A   .  C  0  101.659  -27.691  52.034  1  10
+PMH  O4P   .  O  0  100.332  -27.907  52.525  1  11
+PMH  P     .  P  0  100.094  -27.411  54.018  1  12
+PMH  O1P   .  O  0  100.262  -25.643  54.095  1  13
+PMH  O2P   .  O  0  98.480   -27.893  54.522  1  14
+PMH  O3P   .  O  0  101.269  -28.141  55.107  1  15
+PMH  N     .  N  0  98.726   -26.625  50.090  1  16
+PMH  CA    .  C  0  97.759   -25.660  49.843  1  17
+PMH  C     .  C  0  97.334   -25.186  48.591  1  18
+PMH  O     .  O  0  97.889   -25.524  47.426  1  19
+PMH  ND    .  N  0  96.256   -24.475  48.748  1  20
+PMH  OG    .  O  0  96.000   -24.381  50.101  1  21
+PMH  CB    .  C  0  96.912   -25.122  50.774  1  22
+PMH  HO    .  H  0  ?        ?        ?       1  23
+PMH  HB    .  H  0  ?        ?        ?       1  24
+PMH  HN    .  H  0  ?        ?        ?       1  25
+PMH  1H4A  .  H  0  ?        ?        ?       0  26
+PMH  2H4A  .  H  0  ?        ?        ?       0  27
+PMH  H6    .  H  0  ?        ?        ?       1  28
+PMH  HO3   .  H  0  ?        ?        ?       1  29
+PMH  1H2A  .  H  0  ?        ?        ?       0  30
+PMH  2H2A  .  H  0  ?        ?        ?       0  31
+PMH  3H2A  .  H  0  ?        ?        ?       0  32
+PMH  1H5A  .  H  0  ?        ?        ?       0  33
+PMH  2H5A  .  H  0  ?        ?        ?       0  34
+PMH  H2P   .  H  0  ?        ?        ?       1  35
+PMH  H3P   .  H  0  ?        ?        ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PMH  N1   C6    AROM  1 
+PMH  N1   C2    AROM  2 
+PMH  C2   C3    AROM  3 
+PMH  C2   C2A   SING  4 
+PMH  C2A  1H2A  SING  5 
+PMH  C2A  2H2A  SING  6 
+PMH  C2A  3H2A  SING  7 
+PMH  C3   C4    AROM  8 
+PMH  C3   O3    SING  9 
+PMH  O3   HO3   SING  10
+PMH  C4   C4A   SING  11
+PMH  C4   C5    AROM  12
+PMH  C4A  N     SING  13
+PMH  C4A  1H4A  SING  14
+PMH  C4A  2H4A  SING  15
+PMH  C5   C6    AROM  16
+PMH  C5   C5A   SING  17
+PMH  C6   H6    SING  18
+PMH  C5A  1H5A  SING  19
+PMH  C5A  2H5A  SING  20
+PMH  C5A  O4P   SING  21
+PMH  O4P  P     SING  22
+PMH  P    O1P   DOUB  23
+PMH  P    O2P   SING  24
+PMH  P    O3P   SING  25
+PMH  O2P  H2P   SING  26
+PMH  O3P  H3P   SING  27
+PMH  N    CA    SING  28
+PMH  N    HN    SING  29
+PMH  CA   CB    DOUB  30
+PMH  CA   C     SING  31
+PMH  C    O     SING  32
+PMH  C    ND    DOUB  33
+PMH  O    HO    SING  34
+PMH  ND   OG    SING  35
+PMH  OG   CB    SING  36
+PMH  CB   HB    SING  37
+#

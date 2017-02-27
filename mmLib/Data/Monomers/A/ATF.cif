@@ -1,0 +1,131 @@
+data_ATF
+#
+_chem_comp.id                   ATF
+_chem_comp.name                 'PHOSPHODIFLUOROMETHYLPHOSPHONIC ACID-ADENYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N5 O12 F2 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        541.192
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATF  PG    .  P  0  ?  ?  ?  1  1 
+ATF  O1G   .  O  0  ?  ?  ?  1  2 
+ATF  O2G   .  O  0  ?  ?  ?  1  3 
+ATF  O3G   .  O  0  ?  ?  ?  1  4 
+ATF  PB    .  P  0  ?  ?  ?  1  5 
+ATF  O1B   .  O  0  ?  ?  ?  1  6 
+ATF  O2B   .  O  0  ?  ?  ?  1  7 
+ATF  C3B   .  C  0  ?  ?  ?  1  8 
+ATF  F1B   .  F  0  ?  ?  ?  1  9 
+ATF  F2B   .  F  0  ?  ?  ?  1  10
+ATF  PA    .  P  0  ?  ?  ?  1  11
+ATF  O1A   .  O  0  ?  ?  ?  1  12
+ATF  O2A   .  O  0  ?  ?  ?  1  13
+ATF  O3A   .  O  0  ?  ?  ?  1  14
+ATF  O5*   .  O  0  ?  ?  ?  1  15
+ATF  C5*   .  C  0  ?  ?  ?  1  16
+ATF  C4*   .  C  0  ?  ?  ?  1  17
+ATF  O4*   .  O  0  ?  ?  ?  1  18
+ATF  C3*   .  C  0  ?  ?  ?  1  19
+ATF  O3*   .  O  0  ?  ?  ?  1  20
+ATF  C2*   .  C  0  ?  ?  ?  1  21
+ATF  O2*   .  O  0  ?  ?  ?  1  22
+ATF  C1*   .  C  0  ?  ?  ?  1  23
+ATF  N9    .  N  0  ?  ?  ?  1  24
+ATF  C8    .  C  0  ?  ?  ?  1  25
+ATF  N7    .  N  0  ?  ?  ?  1  26
+ATF  C5    .  C  0  ?  ?  ?  1  27
+ATF  C6    .  C  0  ?  ?  ?  1  28
+ATF  N6    .  N  0  ?  ?  ?  1  29
+ATF  N1    .  N  0  ?  ?  ?  1  30
+ATF  C2    .  C  0  ?  ?  ?  1  31
+ATF  N3    .  N  0  ?  ?  ?  1  32
+ATF  C4    .  C  0  ?  ?  ?  1  33
+ATF  2HOG  .  H  0  ?  ?  ?  0  34
+ATF  3HOG  .  H  0  ?  ?  ?  0  35
+ATF  2HOB  .  H  0  ?  ?  ?  0  36
+ATF  2HOA  .  H  0  ?  ?  ?  0  37
+ATF  1H5*  .  H  0  ?  ?  ?  0  38
+ATF  2H5*  .  H  0  ?  ?  ?  0  39
+ATF  H4*   .  H  0  ?  ?  ?  1  40
+ATF  H3*   .  H  0  ?  ?  ?  1  41
+ATF  *HO3  .  H  0  ?  ?  ?  0  42
+ATF  H2*   .  H  0  ?  ?  ?  1  43
+ATF  *HO2  .  H  0  ?  ?  ?  0  44
+ATF  H1*   .  H  0  ?  ?  ?  1  45
+ATF  H8    .  H  0  ?  ?  ?  1  46
+ATF  H2    .  H  0  ?  ?  ?  1  47
+ATF  1HN6  .  H  0  ?  ?  ?  0  48
+ATF  2HN6  .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATF  PG   C3B   SING  1 
+ATF  PG   O1G   DOUB  2 
+ATF  PG   O2G   SING  3 
+ATF  PG   O3G   SING  4 
+ATF  O2G  2HOG  SING  5 
+ATF  O3G  3HOG  SING  6 
+ATF  PB   O1B   DOUB  7 
+ATF  PB   O2B   SING  8 
+ATF  PB   C3B   SING  9 
+ATF  PB   O3A   SING  10
+ATF  O2B  2HOB  SING  11
+ATF  C3B  F1B   SING  12
+ATF  C3B  F2B   SING  13
+ATF  PA   O1A   DOUB  14
+ATF  PA   O2A   SING  15
+ATF  PA   O3A   SING  16
+ATF  PA   O5*   SING  17
+ATF  O2A  2HOA  SING  18
+ATF  O5*  C5*   SING  19
+ATF  C5*  C4*   SING  20
+ATF  C5*  1H5*  SING  21
+ATF  C5*  2H5*  SING  22
+ATF  C4*  O4*   SING  23
+ATF  C4*  C3*   SING  24
+ATF  C4*  H4*   SING  25
+ATF  O4*  C1*   SING  26
+ATF  C3*  O3*   SING  27
+ATF  C3*  C2*   SING  28
+ATF  C3*  H3*   SING  29
+ATF  O3*  *HO3  SING  30
+ATF  C2*  O2*   SING  31
+ATF  C2*  C1*   SING  32
+ATF  C2*  H2*   SING  33
+ATF  O2*  *HO2  SING  34
+ATF  C1*  N9    SING  35
+ATF  C1*  H1*   SING  36
+ATF  N9   C8    SING  37
+ATF  N9   C4    SING  38
+ATF  C8   N7    DOUB  39
+ATF  C8   H8    SING  40
+ATF  N7   C5    SING  41
+ATF  C5   C6    SING  42
+ATF  C5   C4    DOUB  43
+ATF  C6   N6    SING  44
+ATF  C6   N1    DOUB  45
+ATF  N6   1HN6  SING  46
+ATF  N6   2HN6  SING  47
+ATF  N1   C2    SING  48
+ATF  C2   N3    DOUB  49
+ATF  C2   H2    SING  50
+ATF  N3   C4    SING  51
+#

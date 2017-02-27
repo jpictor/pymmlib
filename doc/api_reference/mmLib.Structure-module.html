@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.Structure</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;Structure
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.Structure-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module Structure</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.Structure-pysrc.html">source&nbsp;code</a></span></p>
+<p>Classes for representing biological macromolecules.</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.StructureError-class.html" class="summary-name">StructureError</a><br />
+      Base class of errors raised by Structure objects.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.ModelOverwrite-class.html" class="summary-name">ModelOverwrite</a><br />
+      Raised by Structure.add_model() when a Model added to a Structure 
+        has the same model_id of a Model already in the Structure.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.ChainOverwrite-class.html" class="summary-name">ChainOverwrite</a><br />
+      Raised by Structure.add_chain() or by Model.add_chain() when a 
+        Chain added to a Structure has the same chain_id of a Chain already
+        in the Structure.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.FragmentOverwrite-class.html" class="summary-name">FragmentOverwrite</a><br />
+      Raised by Chain.add_fragment() when a Fragment added to a Chain has
+        the same fragment_id as a Fragment already in the Chain.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.AtomOverwrite-class.html" class="summary-name">AtomOverwrite</a><br />
+      Raised by Structure.add_atom() or Fragment.add_atom() when an Atom 
+        added to a Structure or Fragment has the same chain_id, 
+        fragment_id, name, and alt_loc as an Atom already in the Structure 
+        or Fragment.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Structure-class.html" class="summary-name">Structure</a><br />
+      The Structure object is the parent container object for the entire 
+        macromolecular data structure.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Model-class.html" class="summary-name">Model</a><br />
+      Multiple models support.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Segment-class.html" class="summary-name">Segment</a><br />
+      Segment objects are a container for Fragment objects, but are 
+        disassociated with the Structure object hierarch.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Chain-class.html" class="summary-name">Chain</a><br />
+      Chain objects contain an ordered list of Fragment objects.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Fragment-class.html" class="summary-name">Fragment</a><br />
+      Fragment objects are a basic unit for organizing small groups of 
+        Atoms.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Residue-class.html" class="summary-name">Residue</a><br />
+      A subclass of Fragment representing one residue in a polymer chain.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.AminoAcidResidue-class.html" class="summary-name">AminoAcidResidue</a><br />
+      A subclass of Residue representing one amino acid residue in a 
+        polypeptide chain.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.NucleicAcidResidue-class.html" class="summary-name">NucleicAcidResidue</a><br />
+      A subclass of Residue representing one nuclic acid in a strand of 
+        DNA or RNA.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Altloc-class.html" class="summary-name">Altloc</a><br />
+      Container holding the same atom, but for different conformations 
+        and occupancies.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Atom-class.html" class="summary-name">Atom</a><br />
+      Class representing a single atom.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Bond-class.html" class="summary-name">Bond</a><br />
+      Indicates two atoms are bonded together.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.AlphaHelix-class.html" class="summary-name">AlphaHelix</a><br />
+      Class containing information on a protein alpha helix.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Strand-class.html" class="summary-name">Strand</a><br />
+      One strand of a BetaSheet.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.BetaSheet-class.html" class="summary-name">BetaSheet</a><br />
+      Class containing information on a protein beta sheet.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.Site-class.html" class="summary-name">Site</a><br />
+      List of Fragments within a structure involved in a SITE 
+        description.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.FragmentID-class.html" class="summary-name">FragmentID</a><br />
+      Stores a fragment_id as integer residue sequence number and a 
+        single-character insertion code.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.Structure.AtomList-class.html" class="summary-name">AtomList</a><br />
+      Provides the functionality of a Python list class for containing 
+        Atom instances.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_split"></a><span class="summary-sig-name">fragment_id_split</span>(<span class="summary-sig-arg">frag_id</span>)</span><br />
+      Split a string fragment_id into a 2-tuple of: (sequence_num, 
+      insertion_code)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_split">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_eq"></a><span class="summary-sig-name">fragment_id_eq</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Performs a proper equivalency of fragment_id strings according to 
+      their sequence number, then insertion code.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_eq">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_lt"></a><span class="summary-sig-name">fragment_id_lt</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Performs a proper less than comparison of fragment_id strings 
+      according to their sequence number, then insertion code.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_lt">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_le"></a><span class="summary-sig-name">fragment_id_le</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Performs a proper less than or equal to comparison of fragment_id 
+      strings according to their sequence number, then insertion code.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_le">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_gt"></a><span class="summary-sig-name">fragment_id_gt</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Performs a proper greater than comparison of fragment_id strings 
+      according to their sequence number, then insertion code.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_gt">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_ge"></a><span class="summary-sig-name">fragment_id_ge</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Performs a proper greater than or equal to comparison of fragment_id 
+      strings according to their sequence number, then insertion code.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_ge">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="fragment_id_cmp"></a><span class="summary-sig-name">fragment_id_cmp</span>(<span class="summary-sig-arg">frag_id1</span>,
+        <span class="summary-sig-arg">frag_id2</span>)</span><br />
+      Compare two fragment ids.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#fragment_id_cmp">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_fragments"></a><span class="summary-sig-name">iter_fragments</span>(<span class="summary-sig-arg">fragiter</span>,
+        <span class="summary-sig-arg">start_frag_id</span>=<span class="summary-sig-default">None</span>,
+        <span class="summary-sig-arg">stop_frag_id</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Given a fragment iterator and a start and end fragment id, return an 
+      iterator which yields only fragments within the range.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#iter_fragments">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="test_module"></a><span class="summary-sig-name">test_module</span>()</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Structure-pysrc.html#test_module">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'mmLib'"><code class="variable-quote">'</code><code class="variable-string">mmLib</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:14 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

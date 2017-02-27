@@ -1,0 +1,99 @@
+data_FDP
+#
+_chem_comp.id                   FDP
+_chem_comp.name                 FRUCTOSE-2,6-DIPHOSPHATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 O12 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        340.117
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FDP  P1    .  P  0  ?  ?  ?  1  1 
+FDP  O1P   .  O  0  ?  ?  ?  1  2 
+FDP  O2P   .  O  0  ?  ?  ?  1  3 
+FDP  O3P   .  O  0  ?  ?  ?  1  4 
+FDP  O1    .  O  0  ?  ?  ?  1  5 
+FDP  C1    .  C  0  ?  ?  ?  1  6 
+FDP  C2    .  C  0  ?  ?  ?  1  7 
+FDP  O2    .  O  0  ?  ?  ?  1  8 
+FDP  C3    .  C  0  ?  ?  ?  1  9 
+FDP  O3    .  O  0  ?  ?  ?  1  10
+FDP  C4    .  C  0  ?  ?  ?  1  11
+FDP  O4    .  O  0  ?  ?  ?  1  12
+FDP  C5    .  C  0  ?  ?  ?  1  13
+FDP  O5    .  O  0  ?  ?  ?  1  14
+FDP  C6    .  C  0  ?  ?  ?  1  15
+FDP  O6    .  O  0  ?  ?  ?  1  16
+FDP  P2    .  P  0  ?  ?  ?  1  17
+FDP  O4P   .  O  0  ?  ?  ?  1  18
+FDP  O5P   .  O  0  ?  ?  ?  1  19
+FDP  O6P   .  O  0  ?  ?  ?  1  20
+FDP  1H1   .  H  0  ?  ?  ?  0  21
+FDP  2H1   .  H  0  ?  ?  ?  0  22
+FDP  H3    .  H  0  ?  ?  ?  1  23
+FDP  H4    .  H  0  ?  ?  ?  1  24
+FDP  H5    .  H  0  ?  ?  ?  1  25
+FDP  1H6   .  H  0  ?  ?  ?  0  26
+FDP  2H6   .  H  0  ?  ?  ?  0  27
+FDP  HO1   .  H  0  ?  ?  ?  1  28
+FDP  HO3   .  H  0  ?  ?  ?  1  29
+FDP  HO4   .  H  0  ?  ?  ?  1  30
+FDP  2HOP  .  H  0  ?  ?  ?  0  31
+FDP  3HOP  .  H  0  ?  ?  ?  0  32
+FDP  5HOP  .  H  0  ?  ?  ?  0  33
+FDP  6HOP  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FDP  P1   O2    SING  1 
+FDP  P1   O1P   DOUB  2 
+FDP  P1   O2P   SING  3 
+FDP  P1   O3P   SING  4 
+FDP  O2P  2HOP  SING  5 
+FDP  O3P  3HOP  SING  6 
+FDP  O1   C1    SING  7 
+FDP  O1   HO1   SING  8 
+FDP  C1   C2    SING  9 
+FDP  C1   1H1   SING  10
+FDP  C1   2H1   SING  11
+FDP  C2   O2    SING  12
+FDP  C2   C3    SING  13
+FDP  C2   O5    SING  14
+FDP  C3   O3    SING  15
+FDP  C3   C4    SING  16
+FDP  C3   H3    SING  17
+FDP  O3   HO3   SING  18
+FDP  C4   O4    SING  19
+FDP  C4   C5    SING  20
+FDP  C4   H4    SING  21
+FDP  O4   HO4   SING  22
+FDP  C5   O5    SING  23
+FDP  C5   C6    SING  24
+FDP  C5   H5    SING  25
+FDP  C6   O6    SING  26
+FDP  C6   1H6   SING  27
+FDP  C6   2H6   SING  28
+FDP  O6   P2    SING  29
+FDP  P2   O4P   DOUB  30
+FDP  P2   O5P   SING  31
+FDP  P2   O6P   SING  32
+FDP  O5P  5HOP  SING  33
+FDP  O6P  6HOP  SING  34
+#

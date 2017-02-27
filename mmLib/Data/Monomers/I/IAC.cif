@@ -1,0 +1,85 @@
+data_IAC
+#
+_chem_comp.id                   IAC
+_chem_comp.name                 '1H-INDOL-3-YLACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N1 O2'
+_chem_comp.pdbx_synonyms        'INDOLE ACETIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        175.187
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          IAC
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2c(c1)C(=CN2)CC(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+IAC  C     .  C  0  -19.871  4.033  -8.448   1  Y  1 
+IAC  C1    .  C  0  -21.117  4.846  -8.491   1  Y  2 
+IAC  C2    .  C  0  -21.794  5.116  -7.299   1  Y  3 
+IAC  C3    .  C  0  -21.275  4.617  -6.097   1  Y  4 
+IAC  C4    .  C  0  -20.099  3.857  -6.064   1  Y  5 
+IAC  C5    .  C  0  -19.400  3.564  -7.231   1  Y  6 
+IAC  C7    .  C  0  -21.309  5.191  -9.938   1  N  7 
+IAC  C8    .  C  0  -20.155  4.527  -10.587  1  N  8 
+IAC  C17   .  C  0  -22.490  5.840  -10.619  1  N  9 
+IAC  C18   .  C  0  -22.395  7.285  -11.034  1  N  10
+IAC  N     .  N  0  -19.385  3.898  -9.688   1  N  11
+IAC  O2    .  O  0  -23.390  8.023  -10.850  1  N  12
+IAC  O3    .  O  0  -21.348  7.675  -11.596  1  N  13
+IAC  H2    .  H  0  -22.703  5.700  -7.304   1  N  14
+IAC  H3    .  H  0  -21.795  4.824  -5.173   1  N  15
+IAC  H4    .  H  0  -19.729  3.492  -5.117   1  N  16
+IAC  H5    .  H  0  -18.496  2.975  -7.189   1  N  17
+IAC  H8    .  H  0  -19.959  4.547  -11.649  1  N  18
+IAC  1H17  .  H  0  -23.330  5.775  -9.911   0  N  19
+IAC  2H17  .  H  0  -22.585  5.294  -11.569  0  N  20
+IAC  HN    .  H  0  -18.553  3.392  -9.915   1  N  21
+IAC  HO2   .  H  0  -23.211  8.889  -11.198  1  N  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+IAC  C    N     SING  N  1 
+IAC  C    C1    DOUB  Y  2 
+IAC  C    C5    SING  Y  3 
+IAC  C1   C7    SING  N  4 
+IAC  C1   C2    SING  Y  5 
+IAC  C2   C3    DOUB  Y  6 
+IAC  C2   H2    SING  N  7 
+IAC  C3   C4    SING  Y  8 
+IAC  C3   H3    SING  N  9 
+IAC  C4   C5    DOUB  Y  10
+IAC  C4   H4    SING  N  11
+IAC  C5   H5    SING  N  12
+IAC  C7   C17   SING  N  13
+IAC  C7   C8    DOUB  N  14
+IAC  C8   N     SING  N  15
+IAC  C8   H8    SING  N  16
+IAC  C17  C18   SING  N  17
+IAC  C17  1H17  SING  N  18
+IAC  C17  2H17  SING  N  19
+IAC  C18  O3    DOUB  N  20
+IAC  C18  O2    SING  N  21
+IAC  N    HN    SING  N  22
+IAC  O2   HO2   SING  N  23
+#

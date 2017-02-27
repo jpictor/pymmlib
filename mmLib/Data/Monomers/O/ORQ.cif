@@ -1,0 +1,83 @@
+data_ORQ
+#
+_chem_comp.id                       ORQ
+_chem_comp.name                     N~5~-ACETYL-L-ORNITHINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H14 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.199
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ORQ  N     .  N  0  22.380  23.421  41.056  1  1 
+ORQ  CA    .  C  0  23.646  23.522  41.768  1  2 
+ORQ  CB    .  C  0  24.790  23.753  40.782  1  3 
+ORQ  CG    .  C  0  26.149  23.896  41.444  1  4 
+ORQ  CD    .  C  0  27.123  24.732  40.618  1  5 
+ORQ  NE    .  N  0  27.446  24.147  39.323  1  6 
+ORQ  O1    .  O  0  27.054  23.752  37.192  1  7 
+ORQ  C     .  C  0  23.564  24.711  42.732  1  8 
+ORQ  O     .  O  0  23.869  24.592  43.923  1  9 
+ORQ  C1    .  C  0  26.747  24.366  38.208  1  10
+ORQ  C2    .  C  0  27.038  25.795  37.785  1  11
+ORQ  OXT   .  O  0  23.134  25.857  42.208  1  12
+ORQ  HOXT  .  H  0  23.108  26.525  42.883  0  13
+ORQ  HA    .  H  0  23.836  22.589  42.318  1  14
+ORQ  1HN   .  H  0  21.628  23.398  41.714  0  15
+ORQ  2HN   .  H  0  22.272  24.212  40.454  0  16
+ORQ  1HB   .  H  0  24.832  22.891  40.100  0  17
+ORQ  2HB   .  H  0  24.582  24.700  40.262  0  18
+ORQ  1HG   .  H  0  26.010  24.387  42.419  0  19
+ORQ  2HG   .  H  0  26.578  22.888  41.546  0  20
+ORQ  1HD   .  H  0  26.664  25.716  40.443  0  21
+ORQ  2HD   .  H  0  28.061  24.793  41.189  0  22
+ORQ  1HNE  .  H  0  28.241  23.544  39.267  0  23
+ORQ  1H2   .  H  0  27.108  26.435  38.677  0  24
+ORQ  2H2   .  H  0  27.990  25.828  37.235  0  25
+ORQ  3H2   .  H  0  26.227  26.158  37.137  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ORQ  N    CA    SING  1 
+ORQ  N    1HN   SING  2 
+ORQ  N    2HN   SING  3 
+ORQ  CA   C     SING  4 
+ORQ  CA   HA    SING  5 
+ORQ  CA   CB    SING  6 
+ORQ  CB   1HB   SING  7 
+ORQ  CB   2HB   SING  8 
+ORQ  CB   CG    SING  9 
+ORQ  CG   1HG   SING  10
+ORQ  CG   2HG   SING  11
+ORQ  CG   CD    SING  12
+ORQ  CD   1HD   SING  13
+ORQ  CD   2HD   SING  14
+ORQ  CD   NE    SING  15
+ORQ  NE   1HNE  SING  16
+ORQ  NE   C1    SING  17
+ORQ  O1   C1    DOUB  18
+ORQ  C    OXT   SING  19
+ORQ  C    O     DOUB  20
+ORQ  C1   C2    SING  21
+ORQ  C2   1H2   SING  22
+ORQ  C2   2H2   SING  23
+ORQ  C2   3H2   SING  24
+ORQ  OXT  HOXT  SING  25
+#

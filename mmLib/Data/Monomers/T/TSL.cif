@@ -1,0 +1,86 @@
+data_TSL
+#
+_chem_comp.id                   TSL
+_chem_comp.name                 'TRANS-ENAMINE INTERMEDIATE OF SULBACTAM'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.254
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSL  C14   .  C  0  29.620  66.581  2.281  1  1 
+TSL  C2    .  C  0  31.055  66.483  2.808  1  2 
+TSL  S1    .  S  0  32.187  66.364  1.375  1  3 
+TSL  O12   .  O  0  31.972  64.935  0.972  1  4 
+TSL  O13   .  O  0  33.525  66.469  2.043  1  5 
+TSL  C20   .  C  0  31.404  67.747  3.598  1  6 
+TSL  C3    .  C  0  31.222  65.230  3.675  1  7 
+TSL  C9    .  C  0  30.270  65.278  4.874  1  8 
+TSL  O11   .  O  0  29.215  64.646  4.855  1  9 
+TSL  O10   .  O  0  30.544  65.962  5.859  1  10
+TSL  N4    .  N  0  32.614  65.129  4.143  1  11
+TSL  C5    .  C  0  33.062  64.047  4.780  1  12
+TSL  C6    .  C  0  32.371  62.861  5.005  1  13
+TSL  C7    .  C  0  32.902  61.865  5.818  1  14
+TSL  O8    .  O  0  33.950  62.031  6.441  1  15
+TSL  1H14  .  H  0  ?       ?       ?      0  16
+TSL  2H14  .  H  0  ?       ?       ?      0  17
+TSL  3H14  .  H  0  ?       ?       ?      0  18
+TSL  1H20  .  H  0  ?       ?       ?      0  19
+TSL  2H20  .  H  0  ?       ?       ?      0  20
+TSL  3H20  .  H  0  ?       ?       ?      0  21
+TSL  H3    .  H  0  ?       ?       ?      1  22
+TSL  HN4   .  H  0  ?       ?       ?      1  23
+TSL  H5    .  H  0  ?       ?       ?      1  24
+TSL  H6    .  H  0  ?       ?       ?      1  25
+TSL  H7    .  H  0  ?       ?       ?      1  26
+TSL  H11   .  H  0  ?       ?       ?      1  27
+TSL  H12   .  H  0  ?       ?       ?      1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSL  C14  C2    SING  1 
+TSL  C14  1H14  SING  2 
+TSL  C14  2H14  SING  3 
+TSL  C14  3H14  SING  4 
+TSL  C2   C20   SING  5 
+TSL  C2   C3    SING  6 
+TSL  C2   S1    SING  7 
+TSL  S1   O12   SING  8 
+TSL  S1   O13   DOUB  9 
+TSL  O12  H12   SING  10
+TSL  C20  1H20  SING  11
+TSL  C20  2H20  SING  12
+TSL  C20  3H20  SING  13
+TSL  C3   N4    SING  14
+TSL  C3   C9    SING  15
+TSL  C3   H3    SING  16
+TSL  C9   O11   SING  17
+TSL  C9   O10   DOUB  18
+TSL  O11  H11   SING  19
+TSL  N4   C5    SING  20
+TSL  N4   HN4   SING  21
+TSL  C5   C6    DOUB  22
+TSL  C5   H5    SING  23
+TSL  C6   C7    SING  24
+TSL  C6   H6    SING  25
+TSL  C7   O8    DOUB  26
+TSL  C7   H7    SING  27
+#

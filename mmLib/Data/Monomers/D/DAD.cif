@@ -1,0 +1,123 @@
+data_DAD
+#
+_chem_comp.id                   DAD
+_chem_comp.name                 2',3'-DIDEOXYADENOSINE-5'-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O11 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        475.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAD  PG    .  P  0  ?  ?  ?  1  1 
+DAD  O1G   .  O  0  ?  ?  ?  1  2 
+DAD  O2G   .  O  0  ?  ?  ?  1  3 
+DAD  O3G   .  O  0  ?  ?  ?  1  4 
+DAD  PB    .  P  0  ?  ?  ?  1  5 
+DAD  O1B   .  O  0  ?  ?  ?  1  6 
+DAD  O2B   .  O  0  ?  ?  ?  1  7 
+DAD  O3B   .  O  0  ?  ?  ?  1  8 
+DAD  PA    .  P  0  ?  ?  ?  1  9 
+DAD  O1A   .  O  0  ?  ?  ?  1  10
+DAD  O2A   .  O  0  ?  ?  ?  1  11
+DAD  O3A   .  O  0  ?  ?  ?  1  12
+DAD  O5*   .  O  0  ?  ?  ?  1  13
+DAD  C5*   .  C  0  ?  ?  ?  1  14
+DAD  C4*   .  C  0  ?  ?  ?  1  15
+DAD  O4*   .  O  0  ?  ?  ?  1  16
+DAD  C3*   .  C  0  ?  ?  ?  1  17
+DAD  C2*   .  C  0  ?  ?  ?  1  18
+DAD  C1*   .  C  0  ?  ?  ?  1  19
+DAD  N9    .  N  0  ?  ?  ?  1  20
+DAD  C8    .  C  0  ?  ?  ?  1  21
+DAD  N7    .  N  0  ?  ?  ?  1  22
+DAD  C5    .  C  0  ?  ?  ?  1  23
+DAD  C6    .  C  0  ?  ?  ?  1  24
+DAD  N6    .  N  0  ?  ?  ?  1  25
+DAD  N1    .  N  0  ?  ?  ?  1  26
+DAD  C2    .  C  0  ?  ?  ?  1  27
+DAD  N3    .  N  0  ?  ?  ?  1  28
+DAD  C4    .  C  0  ?  ?  ?  1  29
+DAD  2HOG  .  H  0  ?  ?  ?  0  30
+DAD  3HOG  .  H  0  ?  ?  ?  0  31
+DAD  2HOB  .  H  0  ?  ?  ?  0  32
+DAD  2HOA  .  H  0  ?  ?  ?  0  33
+DAD  1H5*  .  H  0  ?  ?  ?  0  34
+DAD  2H5*  .  H  0  ?  ?  ?  0  35
+DAD  H4*   .  H  0  ?  ?  ?  1  36
+DAD  1H3*  .  H  0  ?  ?  ?  0  37
+DAD  2H3*  .  H  0  ?  ?  ?  0  38
+DAD  1H2*  .  H  0  ?  ?  ?  0  39
+DAD  2H2*  .  H  0  ?  ?  ?  0  40
+DAD  H1*   .  H  0  ?  ?  ?  1  41
+DAD  H8    .  H  0  ?  ?  ?  1  42
+DAD  H2    .  H  0  ?  ?  ?  1  43
+DAD  1HN6  .  H  0  ?  ?  ?  0  44
+DAD  2HN6  .  H  0  ?  ?  ?  0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAD  PG   O3B   SING  1 
+DAD  PG   O1G   DOUB  2 
+DAD  PG   O2G   SING  3 
+DAD  PG   O3G   SING  4 
+DAD  O2G  2HOG  SING  5 
+DAD  O3G  3HOG  SING  6 
+DAD  PB   O1B   DOUB  7 
+DAD  PB   O2B   SING  8 
+DAD  PB   O3B   SING  9 
+DAD  PB   O3A   SING  10
+DAD  O2B  2HOB  SING  11
+DAD  PA   O1A   DOUB  12
+DAD  PA   O2A   SING  13
+DAD  PA   O3A   SING  14
+DAD  PA   O5*   SING  15
+DAD  O2A  2HOA  SING  16
+DAD  O5*  C5*   SING  17
+DAD  C5*  C4*   SING  18
+DAD  C5*  1H5*  SING  19
+DAD  C5*  2H5*  SING  20
+DAD  C4*  O4*   SING  21
+DAD  C4*  C3*   SING  22
+DAD  C4*  H4*   SING  23
+DAD  O4*  C1*   SING  24
+DAD  C3*  C2*   SING  25
+DAD  C3*  1H3*  SING  26
+DAD  C3*  2H3*  SING  27
+DAD  C2*  C1*   SING  28
+DAD  C2*  1H2*  SING  29
+DAD  C2*  2H2*  SING  30
+DAD  C1*  N9    SING  31
+DAD  C1*  H1*   SING  32
+DAD  N9   C8    SING  33
+DAD  N9   C4    SING  34
+DAD  C8   N7    DOUB  35
+DAD  C8   H8    SING  36
+DAD  N7   C5    SING  37
+DAD  C5   C6    SING  38
+DAD  C5   C4    DOUB  39
+DAD  C6   N6    SING  40
+DAD  C6   N1    DOUB  41
+DAD  N6   1HN6  SING  42
+DAD  N6   2HN6  SING  43
+DAD  N1   C2    SING  44
+DAD  C2   N3    DOUB  45
+DAD  C2   H2    SING  46
+DAD  N3   C4    SING  47
+#

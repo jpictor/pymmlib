@@ -1,0 +1,89 @@
+data_PEY
+#
+_chem_comp.id                   PEY
+_chem_comp.name                 PHENANTHRENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.233
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PEY
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2c(c1)ccc3c2cccc3
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PEY  C1   .  C  0  13.630  52.489  79.795  1  Y  1 
+PEY  C2   .  C  0  13.287  53.616  80.508  1  Y  2 
+PEY  C3   .  C  0  13.139  53.530  81.875  1  Y  3 
+PEY  C4   .  C  0  13.333  52.348  82.536  1  Y  4 
+PEY  C5   .  C  0  13.676  51.229  81.816  1  Y  5 
+PEY  C6   .  C  0  13.832  51.301  80.463  1  Y  6 
+PEY  C7   .  C  0  14.172  50.181  79.748  1  Y  7 
+PEY  C8   .  C  0  14.396  48.988  80.386  1  Y  8 
+PEY  C9   .  C  0  14.217  48.926  81.728  1  Y  9 
+PEY  C10  .  C  0  13.876  50.036  82.450  1  Y  10
+PEY  C11  .  C  0  14.311  50.262  78.389  1  Y  11
+PEY  C12  .  C  0  14.662  49.145  77.662  1  Y  12
+PEY  C13  .  C  0  14.855  47.938  78.303  1  Y  13
+PEY  C14  .  C  0  14.736  47.846  79.670  1  Y  14
+PEY  H1   .  H  0  13.740  52.536  78.722  1  N  15
+PEY  H2   .  H  0  13.136  54.557  80.001  1  N  16
+PEY  H3   .  H  0  12.865  54.412  82.435  1  N  17
+PEY  H4   .  H  0  13.218  52.295  83.609  1  N  18
+PEY  H9   .  H  0  14.346  47.982  82.237  1  N  19
+PEY  H10  .  H  0  13.765  49.969  83.522  1  N  20
+PEY  H11  .  H  0  14.145  51.203  77.885  1  N  21
+PEY  H12  .  H  0  14.786  49.214  76.591  1  N  22
+PEY  H13  .  H  0  15.101  47.059  77.726  1  N  23
+PEY  H14  .  H  0  14.903  46.907  80.176  1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PEY  C1   C6   DOUB  Y  1 
+PEY  C1   C2   SING  Y  2 
+PEY  C1   H1   SING  N  3 
+PEY  C2   C3   DOUB  Y  4 
+PEY  C2   H2   SING  N  5 
+PEY  C3   C4   SING  Y  6 
+PEY  C3   H3   SING  N  7 
+PEY  C4   C5   DOUB  Y  8 
+PEY  C4   H4   SING  N  9 
+PEY  C5   C6   SING  Y  10
+PEY  C5   C10  SING  Y  11
+PEY  C6   C7   SING  Y  12
+PEY  C7   C11  DOUB  Y  13
+PEY  C7   C8   SING  Y  14
+PEY  C8   C14  DOUB  Y  15
+PEY  C8   C9   SING  Y  16
+PEY  C9   C10  DOUB  Y  17
+PEY  C9   H9   SING  N  18
+PEY  C10  H10  SING  N  19
+PEY  C11  C12  SING  Y  20
+PEY  C11  H11  SING  N  21
+PEY  C12  C13  DOUB  Y  22
+PEY  C12  H12  SING  N  23
+PEY  C13  C14  SING  Y  24
+PEY  C13  H13  SING  N  25
+PEY  C14  H14  SING  N  26
+#

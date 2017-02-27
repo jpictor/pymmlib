@@ -1,0 +1,79 @@
+data_SGC
+#
+_chem_comp.id                   SGC
+_chem_comp.name                 4-DEOXY-4-THIO-BETA-D-GLUCOPYRANOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SGC  C1   .  C  0  ?  ?  ?  1  1 
+SGC  O1   .  O  0  ?  ?  ?  1  2 
+SGC  C2   .  C  0  ?  ?  ?  1  3 
+SGC  O2   .  O  0  ?  ?  ?  1  4 
+SGC  C3   .  C  0  ?  ?  ?  1  5 
+SGC  O3   .  O  0  ?  ?  ?  1  6 
+SGC  C4   .  C  0  ?  ?  ?  1  7 
+SGC  C5   .  C  0  ?  ?  ?  1  8 
+SGC  O5   .  O  0  ?  ?  ?  1  9 
+SGC  C6   .  C  0  ?  ?  ?  1  10
+SGC  O6   .  O  0  ?  ?  ?  1  11
+SGC  S4   .  S  0  ?  ?  ?  1  12
+SGC  H1   .  H  0  ?  ?  ?  1  13
+SGC  H1O  .  H  0  ?  ?  ?  1  14
+SGC  H2   .  H  0  ?  ?  ?  1  15
+SGC  H2O  .  H  0  ?  ?  ?  1  16
+SGC  H3   .  H  0  ?  ?  ?  1  17
+SGC  H3O  .  H  0  ?  ?  ?  1  18
+SGC  H4   .  H  0  ?  ?  ?  1  19
+SGC  H5   .  H  0  ?  ?  ?  1  20
+SGC  2H6  .  H  0  ?  ?  ?  0  21
+SGC  1H6  .  H  0  ?  ?  ?  0  22
+SGC  H6   .  H  0  ?  ?  ?  1  23
+SGC  H4S  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SGC  C1  C2   SING  1 
+SGC  C1  O1   SING  2 
+SGC  C1  O5   SING  3 
+SGC  C1  H1   SING  4 
+SGC  O1  H1O  SING  5 
+SGC  C2  O2   SING  6 
+SGC  C2  C3   SING  7 
+SGC  C2  H2   SING  8 
+SGC  O2  H2O  SING  9 
+SGC  C3  O3   SING  10
+SGC  C3  C4   SING  11
+SGC  C3  H3   SING  12
+SGC  O3  H3O  SING  13
+SGC  C4  C5   SING  14
+SGC  C4  S4   SING  15
+SGC  C4  H4   SING  16
+SGC  C5  O5   SING  17
+SGC  C5  C6   SING  18
+SGC  C5  H5   SING  19
+SGC  C6  O6   SING  20
+SGC  C6  2H6  SING  21
+SGC  C6  1H6  SING  22
+SGC  O6  H6   SING  23
+SGC  S4  H4S  SING  24
+#

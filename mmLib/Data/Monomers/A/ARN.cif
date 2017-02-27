@@ -1,0 +1,62 @@
+data_ARN
+#
+_chem_comp.id                   ARN
+_chem_comp.name                 1-IMINO-5-PENTANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        99.132
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARN  N     .  N  0  ?  ?  ?  1  1 
+ARN  C1    .  C  0  ?  ?  ?  1  2 
+ARN  C2    .  C  0  ?  ?  ?  1  3 
+ARN  C3    .  C  0  ?  ?  ?  1  4 
+ARN  CA    .  C  0  ?  ?  ?  1  5 
+ARN  C     .  C  0  ?  ?  ?  1  6 
+ARN  O     .  O  0  ?  ?  ?  1  7 
+ARN  1HN   .  H  0  ?  ?  ?  0  8 
+ARN  1H1   .  H  0  ?  ?  ?  0  9 
+ARN  1H2   .  H  0  ?  ?  ?  0  10
+ARN  2H2   .  H  0  ?  ?  ?  0  11
+ARN  1H3   .  H  0  ?  ?  ?  0  12
+ARN  2H3   .  H  0  ?  ?  ?  0  13
+ARN  1HCA  .  H  0  ?  ?  ?  0  14
+ARN  2HCA  .  H  0  ?  ?  ?  0  15
+ARN  1HC   .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARN  N   C1    DOUB  1 
+ARN  N   1HN   SING  2 
+ARN  C1  C2    SING  3 
+ARN  C1  1H1   SING  4 
+ARN  C2  C3    SING  5 
+ARN  C2  1H2   SING  6 
+ARN  C2  2H2   SING  7 
+ARN  C3  CA    SING  8 
+ARN  C3  1H3   SING  9 
+ARN  C3  2H3   SING  10
+ARN  CA  C     SING  11
+ARN  CA  1HCA  SING  12
+ARN  CA  2HCA  SING  13
+ARN  C   O     DOUB  14
+ARN  C   1HC   SING  15
+#

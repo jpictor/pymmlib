@@ -1,0 +1,60 @@
+data_PPO
+#
+_chem_comp.id                   PPO
+_chem_comp.name                 3H-PYRAZOLO[4,3-D]PYRIMIDIN-7-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.113
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPO  O6    .  O  0  ?  ?  ?  1  1 
+PPO  C6    .  C  0  ?  ?  ?  1  2 
+PPO  C5    .  C  0  ?  ?  ?  1  3 
+PPO  N7    .  N  0  ?  ?  ?  1  4 
+PPO  N8    .  N  0  ?  ?  ?  1  5 
+PPO  C9    .  C  0  ?  ?  ?  1  6 
+PPO  C4    .  C  0  ?  ?  ?  1  7 
+PPO  N3    .  N  0  ?  ?  ?  1  8 
+PPO  C2    .  C  0  ?  ?  ?  1  9 
+PPO  N1    .  N  0  ?  ?  ?  1  10
+PPO  1HC9  .  H  0  ?  ?  ?  0  11
+PPO  2HC9  .  H  0  ?  ?  ?  0  12
+PPO  HC2   .  H  0  ?  ?  ?  1  13
+PPO  HO6   .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPO  O6  C6    SING  1 
+PPO  O6  HO6   SING  2 
+PPO  C6  C5    SING  3 
+PPO  C6  N1    DOUB  4 
+PPO  C5  N7    SING  5 
+PPO  C5  C4    DOUB  6 
+PPO  N7  N8    DOUB  7 
+PPO  N8  C9    SING  8 
+PPO  C9  C4    SING  9 
+PPO  C9  1HC9  SING  10
+PPO  C9  2HC9  SING  11
+PPO  C4  N3    SING  12
+PPO  N3  C2    DOUB  13
+PPO  C2  N1    SING  14
+PPO  C2  HC2   SING  15
+#

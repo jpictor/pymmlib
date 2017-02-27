@@ -1,0 +1,74 @@
+data_TEP
+#
+_chem_comp.id                   TEP
+_chem_comp.name                 THEOPHYLLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H8 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.166
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TEP  C1   .  C  0  ?  ?  ?  1  1 
+TEP  N1   .  N  0  ?  ?  ?  1  2 
+TEP  C2   .  C  0  ?  ?  ?  1  3 
+TEP  O2   .  O  0  ?  ?  ?  1  4 
+TEP  N3   .  N  0  ?  ?  ?  1  5 
+TEP  C3   .  C  0  ?  ?  ?  1  6 
+TEP  C4   .  C  0  ?  ?  ?  1  7 
+TEP  C5   .  C  0  ?  ?  ?  1  8 
+TEP  C6   .  C  0  ?  ?  ?  1  9 
+TEP  O6   .  O  0  ?  ?  ?  1  10
+TEP  N7   .  N  0  ?  ?  ?  1  11
+TEP  C8   .  C  0  ?  ?  ?  1  12
+TEP  N9   .  N  0  ?  ?  ?  1  13
+TEP  1H1  .  H  0  ?  ?  ?  0  14
+TEP  2H1  .  H  0  ?  ?  ?  0  15
+TEP  3H1  .  H  0  ?  ?  ?  0  16
+TEP  1H3  .  H  0  ?  ?  ?  0  17
+TEP  2H3  .  H  0  ?  ?  ?  0  18
+TEP  3H3  .  H  0  ?  ?  ?  0  19
+TEP  HN7  .  H  0  ?  ?  ?  1  20
+TEP  H8   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TEP  C1  N1   SING  1 
+TEP  C1  1H1  SING  2 
+TEP  C1  2H1  SING  3 
+TEP  C1  3H1  SING  4 
+TEP  N1  C2   SING  5 
+TEP  N1  C6   SING  6 
+TEP  C2  N3   SING  7 
+TEP  C2  O2   DOUB  8 
+TEP  N3  C4   SING  9 
+TEP  N3  C3   SING  10
+TEP  C3  1H3  SING  11
+TEP  C3  2H3  SING  12
+TEP  C3  3H3  SING  13
+TEP  C4  C5   DOUB  14
+TEP  C4  N9   SING  15
+TEP  C5  C6   SING  16
+TEP  C5  N7   SING  17
+TEP  C6  O6   DOUB  18
+TEP  N7  C8   SING  19
+TEP  N7  HN7  SING  20
+TEP  C8  N9   DOUB  21
+TEP  C8  H8   SING  22
+#

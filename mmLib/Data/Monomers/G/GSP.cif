@@ -1,0 +1,129 @@
+data_GSP
+#
+_chem_comp.id                   GSP
+_chem_comp.name                 5'-GUANOSINE-DIPHOSPHATE-MONOTHIOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O13 P3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        539.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSP  PG    .  P  0  ?  ?  ?  1  1 
+GSP  O3B   .  O  0  ?  ?  ?  1  2 
+GSP  S1G   .  S  0  ?  ?  ?  1  3 
+GSP  O2G   .  O  0  ?  ?  ?  1  4 
+GSP  O3G   .  O  0  ?  ?  ?  1  5 
+GSP  PB    .  P  0  ?  ?  ?  1  6 
+GSP  O1B   .  O  0  ?  ?  ?  1  7 
+GSP  O2B   .  O  0  ?  ?  ?  1  8 
+GSP  PA    .  P  0  ?  ?  ?  1  9 
+GSP  O1A   .  O  0  ?  ?  ?  1  10
+GSP  O2A   .  O  0  ?  ?  ?  1  11
+GSP  O3A   .  O  0  ?  ?  ?  1  12
+GSP  O5*   .  O  0  ?  ?  ?  1  13
+GSP  C5*   .  C  0  ?  ?  ?  1  14
+GSP  C4*   .  C  0  ?  ?  ?  1  15
+GSP  O4*   .  O  0  ?  ?  ?  1  16
+GSP  C3*   .  C  0  ?  ?  ?  1  17
+GSP  O3*   .  O  0  ?  ?  ?  1  18
+GSP  C2*   .  C  0  ?  ?  ?  1  19
+GSP  O2*   .  O  0  ?  ?  ?  1  20
+GSP  C1*   .  C  0  ?  ?  ?  1  21
+GSP  N9    .  N  0  ?  ?  ?  1  22
+GSP  C8    .  C  0  ?  ?  ?  1  23
+GSP  N7    .  N  0  ?  ?  ?  1  24
+GSP  C5    .  C  0  ?  ?  ?  1  25
+GSP  C6    .  C  0  ?  ?  ?  1  26
+GSP  O6    .  O  0  ?  ?  ?  1  27
+GSP  N1    .  N  0  ?  ?  ?  1  28
+GSP  C2    .  C  0  ?  ?  ?  1  29
+GSP  N2    .  N  0  ?  ?  ?  1  30
+GSP  N3    .  N  0  ?  ?  ?  1  31
+GSP  C4    .  C  0  ?  ?  ?  1  32
+GSP  H8    .  H  0  ?  ?  ?  1  33
+GSP  HN1   .  H  0  ?  ?  ?  1  34
+GSP  1HN2  .  H  0  ?  ?  ?  0  35
+GSP  2HN2  .  H  0  ?  ?  ?  0  36
+GSP  H1*   .  H  0  ?  ?  ?  1  37
+GSP  H2*   .  H  0  ?  ?  ?  1  38
+GSP  *HO2  .  H  0  ?  ?  ?  0  39
+GSP  H3*   .  H  0  ?  ?  ?  1  40
+GSP  *HO3  .  H  0  ?  ?  ?  0  41
+GSP  H4*   .  H  0  ?  ?  ?  1  42
+GSP  1H5*  .  H  0  ?  ?  ?  0  43
+GSP  2H5*  .  H  0  ?  ?  ?  0  44
+GSP  2HOA  .  H  0  ?  ?  ?  0  45
+GSP  2HOB  .  H  0  ?  ?  ?  0  46
+GSP  2HOG  .  H  0  ?  ?  ?  0  47
+GSP  3HOG  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSP  PG   S1G   DOUB  1 
+GSP  PG   O2G   SING  2 
+GSP  PG   O3G   SING  3 
+GSP  PG   O3B   SING  4 
+GSP  O3B  PB    SING  5 
+GSP  O2G  2HOG  SING  6 
+GSP  O3G  3HOG  SING  7 
+GSP  PB   O1B   DOUB  8 
+GSP  PB   O2B   SING  9 
+GSP  PB   O3A   SING  10
+GSP  O2B  2HOB  SING  11
+GSP  PA   O1A   DOUB  12
+GSP  PA   O2A   SING  13
+GSP  PA   O3A   SING  14
+GSP  PA   O5*   SING  15
+GSP  O2A  2HOA  SING  16
+GSP  O5*  C5*   SING  17
+GSP  C5*  C4*   SING  18
+GSP  C5*  1H5*  SING  19
+GSP  C5*  2H5*  SING  20
+GSP  C4*  O4*   SING  21
+GSP  C4*  C3*   SING  22
+GSP  C4*  H4*   SING  23
+GSP  O4*  C1*   SING  24
+GSP  C3*  O3*   SING  25
+GSP  C3*  C2*   SING  26
+GSP  C3*  H3*   SING  27
+GSP  O3*  *HO3  SING  28
+GSP  C2*  O2*   SING  29
+GSP  C2*  C1*   SING  30
+GSP  C2*  H2*   SING  31
+GSP  O2*  *HO2  SING  32
+GSP  C1*  N9    SING  33
+GSP  C1*  H1*   SING  34
+GSP  N9   C8    SING  35
+GSP  N9   C4    SING  36
+GSP  C8   N7    DOUB  37
+GSP  C8   H8    SING  38
+GSP  N7   C5    SING  39
+GSP  C5   C6    SING  40
+GSP  C5   C4    DOUB  41
+GSP  C6   O6    DOUB  42
+GSP  C6   N1    SING  43
+GSP  N1   C2    SING  44
+GSP  N1   HN1   SING  45
+GSP  C2   N2    SING  46
+GSP  C2   N3    DOUB  47
+GSP  N2   1HN2  SING  48
+GSP  N2   2HN2  SING  49
+GSP  N3   C4    SING  50
+#

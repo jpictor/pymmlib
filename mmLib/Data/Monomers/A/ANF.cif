@@ -1,0 +1,83 @@
+data_ANF
+#
+_chem_comp.id                   ANF
+_chem_comp.name                 ANTHRONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.232
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ANF  C1   .  C  0  37.999  76.616  31.738  1  1 
+ANF  C2   .  C  0  38.395  77.947  31.696  1  2 
+ANF  C3   .  C  0  39.624  78.303  32.24   1  3 
+ANF  C4   .  C  0  40.469  77.373  32.828  1  4 
+ANF  C5   .  C  0  41.366  72.826  34.085  1  5 
+ANF  C6   .  C  0  40.99   71.486  34.135  1  6 
+ANF  C7   .  C  0  39.768  71.088  33.597  1  7 
+ANF  C8   .  C  0  38.925  72.033  33.013  1  8 
+ANF  C9   .  C  0  38.464  74.331  32.378  1  9 
+ANF  O9   .  O  0  37.39   74.002  31.901  1  10
+ANF  C10  .  C  0  40.904  75.102  33.452  1  11
+ANF  C11  .  C  0  40.522  73.767  33.5    1  12
+ANF  C12  .  C  0  39.297  73.376  32.962  1  13
+ANF  C13  .  C  0  38.84   75.668  32.325  1  14
+ANF  C14  .  C  0  40.069  76.046  32.868  1  15
+ANF  H1   .  H  0  37.029  76.311  31.311  1  16
+ANF  H2   .  H  0  37.744  78.71   31.238  1  17
+ANF  H3   .  H  0  39.938  79.36   32.203  1  18
+ANF  H4   .  H  0  41.438  77.683  33.254  1  19
+ANF  H5   .  H  0  42.334  73.143  34.509  1  20
+ANF  H6   .  H  0  41.658  70.741  34.599  1  21
+ANF  H7   .  H  0  39.468  70.027  33.633  1  22
+ANF  H8   .  H  0  37.958  71.716  32.589  1  23
+ANF  H9   .  H  0  37.133  73.088  31.937  1  24
+ANF  H10  .  H  0  41.873  75.413  33.879  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ANF  C1   C2   AROM  1 
+ANF  C1   C13  AROM  2 
+ANF  C1   H1   SING  3 
+ANF  C2   C3   AROM  4 
+ANF  C2   H2   SING  5 
+ANF  C3   C4   AROM  6 
+ANF  C3   H3   SING  7 
+ANF  C4   C14  AROM  8 
+ANF  C4   H4   SING  9 
+ANF  C5   C6   DOUB  10
+ANF  C5   C11  SING  11
+ANF  C5   H5   SING  12
+ANF  C6   C7   SING  13
+ANF  C6   H6   SING  14
+ANF  C7   C8   DOUB  15
+ANF  C7   H7   SING  16
+ANF  C8   C12  SING  17
+ANF  C8   H8   SING  18
+ANF  C9   O9   SING  19
+ANF  C9   C12  AROM  20
+ANF  C9   C13  AROM  21
+ANF  O9   H9   SING  22
+ANF  C10  C11  AROM  23
+ANF  C10  C14  AROM  24
+ANF  C10  H10  SING  25
+ANF  C11  C12  AROM  26
+ANF  C13  C14  AROM  27
+#

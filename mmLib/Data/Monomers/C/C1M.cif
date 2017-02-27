@@ -1,0 +1,71 @@
+data_C1M
+#
+_chem_comp.id                   C1M
+_chem_comp.name                 1-(4-CHLOROPHENYL)-2,3-DIHYDRO-1H-TETRAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H7 N4 CL1'
+_chem_comp.pdbx_synonyms        'INHIBITOR OF THROMBIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        182.612
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+C1M  CL1  .  CL  0  9.976   25.561  46.475  0  1 
+C1M  C2   .  C   0  9.965   24.157  47.511  1  2 
+C1M  C3   .  C   0  10.872  23.134  47.298  1  3 
+C1M  C4   .  C   0  10.886  22.018  48.134  1  4 
+C1M  C5   .  C   0  9.998   21.922  49.203  1  5 
+C1M  C6   .  C   0  9.089   22.96   49.41   1  6 
+C1M  C7   .  C   0  9.074   24.061  48.572  1  7 
+C1M  N8   .  N   0  9.998   20.776  50.047  1  8 
+C1M  C9   .  C   0  9.539   19.53   49.764  1  9 
+C1M  N10  .  N   0  9.715   18.774  50.817  1  10
+C1M  N11  .  N   0  10.277  19.444  51.745  1  11
+C1M  N12  .  N   0  10.472  20.661  51.367  1  12
+C1M  H13  .  H   0  11.571  23.199  46.48   1  13
+C1M  H14  .  H   0  11.593  21.223  47.955  1  14
+C1M  H15  .  H   0  8.385   22.9    50.226  1  15
+C1M  H16  .  H   0  8.373   24.862  48.754  1  16
+C1M  H17  .  H   0  9.087   19.221  48.835  1  17
+C1M  H12  .  H   0  10.893  21.405  51.923  1  18
+C1M  H11  .  H   0  10.536  19.07   52.658  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+C1M  CL1  C2   SING  1 
+C1M  C2   C3   AROM  2 
+C1M  C2   C7   AROM  3 
+C1M  C3   C4   AROM  4 
+C1M  C3   H13  SING  5 
+C1M  C4   C5   AROM  6 
+C1M  C4   H14  SING  7 
+C1M  C5   C6   AROM  8 
+C1M  C5   N8   SING  9 
+C1M  C6   C7   AROM  10
+C1M  C6   H15  SING  11
+C1M  C7   H16  SING  12
+C1M  N8   C9   SING  13
+C1M  N8   N12  SING  14
+C1M  C9   N10  DOUB  15
+C1M  C9   H17  SING  16
+C1M  N10  N11  SING  17
+C1M  N11  N12  SING  18
+C1M  N11  H11  SING  19
+C1M  N12  H12  SING  20
+#

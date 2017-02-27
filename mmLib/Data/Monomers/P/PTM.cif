@@ -1,0 +1,96 @@
+data_PTM
+#
+_chem_comp.id                       PTM
+_chem_comp.name                     ALPHA-METHYL-O-PHOSPHOTYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H14 N1 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            275.197
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTM  N     .  N  0  ?  ?  ?  1  1 
+PTM  CA    .  C  0  ?  ?  ?  1  2 
+PTM  CH3   .  C  0  ?  ?  ?  1  3 
+PTM  C     .  C  0  ?  ?  ?  1  4 
+PTM  O     .  O  0  ?  ?  ?  1  5 
+PTM  CB    .  C  0  ?  ?  ?  1  6 
+PTM  CG    .  C  0  ?  ?  ?  1  7 
+PTM  CD1   .  C  0  ?  ?  ?  1  8 
+PTM  CD2   .  C  0  ?  ?  ?  1  9 
+PTM  CE1   .  C  0  ?  ?  ?  1  10
+PTM  CE2   .  C  0  ?  ?  ?  1  11
+PTM  CZ    .  C  0  ?  ?  ?  1  12
+PTM  OH    .  O  0  ?  ?  ?  1  13
+PTM  P     .  P  0  ?  ?  ?  1  14
+PTM  O1P   .  O  0  ?  ?  ?  1  15
+PTM  O2P   .  O  0  ?  ?  ?  1  16
+PTM  O3P   .  O  0  ?  ?  ?  1  17
+PTM  OXT   .  O  0  ?  ?  ?  1  18
+PTM  H2P   .  H  0  ?  ?  ?  1  19
+PTM  H3P   .  H  0  ?  ?  ?  1  20
+PTM  HD1   .  H  0  ?  ?  ?  1  21
+PTM  HD2   .  H  0  ?  ?  ?  1  22
+PTM  HE1   .  H  0  ?  ?  ?  1  23
+PTM  HE2   .  H  0  ?  ?  ?  1  24
+PTM  1HB   .  H  0  ?  ?  ?  0  25
+PTM  2HB   .  H  0  ?  ?  ?  0  26
+PTM  H     .  H  0  ?  ?  ?  1  27
+PTM  HN2   .  H  0  ?  ?  ?  1  28
+PTM  1HC3  .  H  0  ?  ?  ?  0  29
+PTM  2HC3  .  H  0  ?  ?  ?  0  30
+PTM  3HC3  .  H  0  ?  ?  ?  0  31
+PTM  HXT   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTM  N    CA    SING  1 
+PTM  N    H     SING  2 
+PTM  N    HN2   SING  3 
+PTM  CA   CH3   SING  4 
+PTM  CA   C     SING  5 
+PTM  CA   CB    SING  6 
+PTM  CH3  1HC3  SING  7 
+PTM  CH3  2HC3  SING  8 
+PTM  CH3  3HC3  SING  9 
+PTM  C    O     DOUB  10
+PTM  C    OXT   SING  11
+PTM  CB   CG    SING  12
+PTM  CB   1HB   SING  13
+PTM  CB   2HB   SING  14
+PTM  CG   CD1   AROM  15
+PTM  CG   CD2   AROM  16
+PTM  CD1  CE1   AROM  17
+PTM  CD1  HD1   SING  18
+PTM  CD2  CE2   AROM  19
+PTM  CD2  HD2   SING  20
+PTM  CE1  CZ    AROM  21
+PTM  CE1  HE1   SING  22
+PTM  CE2  CZ    AROM  23
+PTM  CE2  HE2   SING  24
+PTM  CZ   OH    SING  25
+PTM  OH   P     SING  26
+PTM  P    O1P   DOUB  27
+PTM  P    O2P   SING  28
+PTM  P    O3P   SING  29
+PTM  O2P  H2P   SING  30
+PTM  O3P  H3P   SING  31
+PTM  OXT  HXT   SING  32
+#

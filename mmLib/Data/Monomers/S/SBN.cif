@@ -1,0 +1,100 @@
+data_SBN
+#
+_chem_comp.id                   SBN
+_chem_comp.name                 2-AMINO-6-(3,5-DIMETHYLPHENYL)SULFONYLBENZONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H14 N2 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.348
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBN  C1    .  C  0  ?  ?  ?  1  1 
+SBN  C2    .  C  0  ?  ?  ?  1  2 
+SBN  C3    .  C  0  ?  ?  ?  1  3 
+SBN  C4    .  C  0  ?  ?  ?  1  4 
+SBN  C5    .  C  0  ?  ?  ?  1  5 
+SBN  C6    .  C  0  ?  ?  ?  1  6 
+SBN  S     .  S  0  ?  ?  ?  1  7 
+SBN  O1    .  O  0  ?  ?  ?  1  8 
+SBN  O2    .  O  0  ?  ?  ?  1  9 
+SBN  C7    .  C  0  ?  ?  ?  1  10
+SBN  C8    .  C  0  ?  ?  ?  1  11
+SBN  C9    .  C  0  ?  ?  ?  1  12
+SBN  C10   .  C  0  ?  ?  ?  1  13
+SBN  C11   .  C  0  ?  ?  ?  1  14
+SBN  C12   .  C  0  ?  ?  ?  1  15
+SBN  N2    .  N  0  ?  ?  ?  1  16
+SBN  C13   .  C  0  ?  ?  ?  1  17
+SBN  N1    .  N  0  ?  ?  ?  1  18
+SBN  C14   .  C  0  ?  ?  ?  1  19
+SBN  C15   .  C  0  ?  ?  ?  1  20
+SBN  1HN1  .  H  0  ?  ?  ?  0  21
+SBN  2HN1  .  H  0  ?  ?  ?  0  22
+SBN  1H15  .  H  0  ?  ?  ?  0  23
+SBN  2H15  .  H  0  ?  ?  ?  0  24
+SBN  3H15  .  H  0  ?  ?  ?  0  25
+SBN  1H14  .  H  0  ?  ?  ?  0  26
+SBN  2H14  .  H  0  ?  ?  ?  0  27
+SBN  3H14  .  H  0  ?  ?  ?  0  28
+SBN  H10   .  H  0  ?  ?  ?  1  29
+SBN  H12   .  H  0  ?  ?  ?  1  30
+SBN  H8    .  H  0  ?  ?  ?  1  31
+SBN  H5    .  H  0  ?  ?  ?  1  32
+SBN  H6    .  H  0  ?  ?  ?  1  33
+SBN  H1    .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBN  C1   C2    DOUB  1 
+SBN  C1   C6    SING  2 
+SBN  C1   H1    SING  3 
+SBN  C2   C3    SING  4 
+SBN  C2   N1    SING  5 
+SBN  C3   C4    DOUB  6 
+SBN  C3   C13   SING  7 
+SBN  C4   C5    SING  8 
+SBN  C4   S     SING  9 
+SBN  C5   C6    DOUB  10
+SBN  C5   H5    SING  11
+SBN  C6   H6    SING  12
+SBN  S    O1    DOUB  13
+SBN  S    O2    DOUB  14
+SBN  S    C7    SING  15
+SBN  C7   C8    DOUB  16
+SBN  C7   C12   SING  17
+SBN  C8   C9    SING  18
+SBN  C8   H8    SING  19
+SBN  C9   C10   DOUB  20
+SBN  C9   C14   SING  21
+SBN  C10  C11   SING  22
+SBN  C10  H10   SING  23
+SBN  C11  C12   DOUB  24
+SBN  C11  C15   SING  25
+SBN  C12  H12   SING  26
+SBN  N2   C13   TRIP  27
+SBN  N1   1HN1  SING  28
+SBN  N1   2HN1  SING  29
+SBN  C14  1H14  SING  30
+SBN  C14  2H14  SING  31
+SBN  C14  3H14  SING  32
+SBN  C15  1H15  SING  33
+SBN  C15  2H15  SING  34
+SBN  C15  3H15  SING  35
+#

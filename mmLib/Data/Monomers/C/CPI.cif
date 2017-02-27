@@ -1,0 +1,71 @@
+data_CPI
+#
+_chem_comp.id                   CPI
+_chem_comp.name                 6-CARBOXYPIPERIDINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPI  N1   .  N  0  ?  ?  ?  1  1 
+CPI  C2   .  C  0  ?  ?  ?  1  2 
+CPI  C3   .  C  0  ?  ?  ?  1  3 
+CPI  C4   .  C  0  ?  ?  ?  1  4 
+CPI  C5   .  C  0  ?  ?  ?  1  5 
+CPI  C6   .  C  0  ?  ?  ?  1  6 
+CPI  C    .  C  0  ?  ?  ?  1  7 
+CPI  O1   .  O  0  ?  ?  ?  1  8 
+CPI  O2   .  O  0  ?  ?  ?  1  9 
+CPI  HN1  .  H  0  ?  ?  ?  1  10
+CPI  1H2  .  H  0  ?  ?  ?  0  11
+CPI  2H2  .  H  0  ?  ?  ?  0  12
+CPI  1H3  .  H  0  ?  ?  ?  0  13
+CPI  2H3  .  H  0  ?  ?  ?  0  14
+CPI  1H4  .  H  0  ?  ?  ?  0  15
+CPI  2H4  .  H  0  ?  ?  ?  0  16
+CPI  1H5  .  H  0  ?  ?  ?  0  17
+CPI  2H5  .  H  0  ?  ?  ?  0  18
+CPI  H6   .  H  0  ?  ?  ?  1  19
+CPI  HO2  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPI  N1  C2   SING  1 
+CPI  N1  C6   SING  2 
+CPI  N1  HN1  SING  3 
+CPI  C2  C3   SING  4 
+CPI  C2  1H2  SING  5 
+CPI  C2  2H2  SING  6 
+CPI  C3  C4   SING  7 
+CPI  C3  1H3  SING  8 
+CPI  C3  2H3  SING  9 
+CPI  C4  C5   SING  10
+CPI  C4  1H4  SING  11
+CPI  C4  2H4  SING  12
+CPI  C5  C6   SING  13
+CPI  C5  1H5  SING  14
+CPI  C5  2H5  SING  15
+CPI  C6  C    SING  16
+CPI  C6  H6   SING  17
+CPI  C   O1   DOUB  18
+CPI  C   O2   SING  19
+CPI  O2  HO2  SING  20
+#

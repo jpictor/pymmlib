@@ -1,0 +1,126 @@
+data_PAI
+#
+_chem_comp.id                   PAI
+_chem_comp.name                 '{[(2,2-DIHYDROXY-ETHYL)-(2,3,4,5-TETRAHYDROXY-6-PHOSPHONOOXY-HEXYL)-AMINO]-METHYL}-PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H23 N1 O13 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        415.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAI  P1    .  P  0  ?  ?  ?  1  1 
+PAI  O1P   .  O  0  ?  ?  ?  1  2 
+PAI  O2P   .  O  0  ?  ?  ?  1  3 
+PAI  O3P   .  O  0  ?  ?  ?  1  4 
+PAI  O4P   .  O  0  ?  ?  ?  1  5 
+PAI  C6    .  C  0  ?  ?  ?  1  6 
+PAI  C5    .  C  0  ?  ?  ?  1  7 
+PAI  O1    .  O  0  ?  ?  ?  1  8 
+PAI  C4    .  C  0  ?  ?  ?  1  9 
+PAI  O4    .  O  0  ?  ?  ?  1  10
+PAI  C3    .  C  0  ?  ?  ?  1  11
+PAI  O3    .  O  0  ?  ?  ?  1  12
+PAI  C2    .  C  0  ?  ?  ?  1  13
+PAI  O2    .  O  0  ?  ?  ?  1  14
+PAI  C1    .  C  0  ?  ?  ?  1  15
+PAI  N1    .  N  0  ?  ?  ?  1  16
+PAI  C7    .  C  0  ?  ?  ?  1  17
+PAI  C8    .  C  0  ?  ?  ?  1  18
+PAI  O5    .  O  0  ?  ?  ?  1  19
+PAI  O6    .  O  0  ?  ?  ?  1  20
+PAI  C9    .  C  0  ?  ?  ?  1  21
+PAI  P2    .  P  0  ?  ?  ?  1  22
+PAI  O5P   .  O  0  ?  ?  ?  1  23
+PAI  O6P   .  O  0  ?  ?  ?  1  24
+PAI  O7P   .  O  0  ?  ?  ?  1  25
+PAI  HO2P  .  H  0  ?  ?  ?  0  26
+PAI  HO3P  .  H  0  ?  ?  ?  0  27
+PAI  1HC6  .  H  0  ?  ?  ?  0  28
+PAI  2HC6  .  H  0  ?  ?  ?  0  29
+PAI  HC5   .  H  0  ?  ?  ?  1  30
+PAI  HO1   .  H  0  ?  ?  ?  1  31
+PAI  HC4   .  H  0  ?  ?  ?  1  32
+PAI  HO4   .  H  0  ?  ?  ?  1  33
+PAI  HC3   .  H  0  ?  ?  ?  1  34
+PAI  HO3   .  H  0  ?  ?  ?  1  35
+PAI  HC2   .  H  0  ?  ?  ?  1  36
+PAI  HO2   .  H  0  ?  ?  ?  1  37
+PAI  1HC1  .  H  0  ?  ?  ?  0  38
+PAI  2HC1  .  H  0  ?  ?  ?  0  39
+PAI  1HC7  .  H  0  ?  ?  ?  0  40
+PAI  2HC7  .  H  0  ?  ?  ?  0  41
+PAI  HC8   .  H  0  ?  ?  ?  1  42
+PAI  HO5   .  H  0  ?  ?  ?  1  43
+PAI  HO6   .  H  0  ?  ?  ?  1  44
+PAI  1HC9  .  H  0  ?  ?  ?  0  45
+PAI  2HC9  .  H  0  ?  ?  ?  0  46
+PAI  HO6P  .  H  0  ?  ?  ?  0  47
+PAI  HO7P  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAI  P1   O1P   DOUB  1 
+PAI  P1   O2P   SING  2 
+PAI  P1   O3P   SING  3 
+PAI  P1   O4P   SING  4 
+PAI  O2P  HO2P  SING  5 
+PAI  O3P  C6    SING  6 
+PAI  O3P  HO3P  SING  7 
+PAI  C6   C5    SING  8 
+PAI  C6   1HC6  SING  9 
+PAI  C6   2HC6  SING  10
+PAI  C5   O1    SING  11
+PAI  C5   C4    SING  12
+PAI  C5   HC5   SING  13
+PAI  O1   HO1   SING  14
+PAI  C4   O4    SING  15
+PAI  C4   C3    SING  16
+PAI  C4   HC4   SING  17
+PAI  O4   HO4   SING  18
+PAI  C3   O3    SING  19
+PAI  C3   C2    SING  20
+PAI  C3   HC3   SING  21
+PAI  O3   HO3   SING  22
+PAI  C2   O2    SING  23
+PAI  C2   C1    SING  24
+PAI  C2   HC2   SING  25
+PAI  O2   HO2   SING  26
+PAI  C1   N1    SING  27
+PAI  C1   1HC1  SING  28
+PAI  C1   2HC1  SING  29
+PAI  N1   C7    SING  30
+PAI  N1   C9    SING  31
+PAI  C7   C8    SING  32
+PAI  C7   1HC7  SING  33
+PAI  C7   2HC7  SING  34
+PAI  C8   O5    SING  35
+PAI  C8   O6    SING  36
+PAI  C8   HC8   SING  37
+PAI  O5   HO5   SING  38
+PAI  O6   HO6   SING  39
+PAI  C9   P2    SING  40
+PAI  C9   1HC9  SING  41
+PAI  C9   2HC9  SING  42
+PAI  P2   O5P   DOUB  43
+PAI  P2   O6P   SING  44
+PAI  P2   O7P   SING  45
+PAI  O6P  HO6P  SING  46
+PAI  O7P  HO7P  SING  47
+#

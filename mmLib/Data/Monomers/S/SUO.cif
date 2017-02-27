@@ -1,0 +1,95 @@
+data_SUO
+#
+_chem_comp.id                   SUO
+_chem_comp.name                 N~2~-(3-CARBOXYPROPANOYL)-L-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H16 N2 O5'
+_chem_comp.pdbx_synonyms        N~2~-SUCCINYLORNITHINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SUO  N     .  N  0  11.116  54.374  72.816  1  1 
+SUO  CA    .  C  0  9.700   54.700  72.885  1  2 
+SUO  CB    .  C  0  9.515   56.214  73.057  1  3 
+SUO  CG    .  C  0  8.071   56.630  73.305  1  4 
+SUO  CD    .  C  0  7.898   58.148  73.300  1  5 
+SUO  NE    .  N  0  6.462   58.522  73.527  1  6 
+SUO  C     .  C  0  8.969   54.213  71.633  1  7 
+SUO  O     .  O  0  9.626   54.034  70.573  1  8 
+SUO  OXT   .  O  0  10.763  52.202  73.223  1  9 
+SUO  O2    .  O  0  7.745   54.009  71.731  1  10
+SUO  CW    .  C  0  13.032  52.884  72.845  1  11
+SUO  CX    .  C  0  13.528  51.698  73.679  1  12
+SUO  CY    .  C  0  14.943  51.272  73.309  1  13
+SUO  OD1   .  O  0  15.272  51.293  72.107  1  14
+SUO  OD2   .  O  0  15.728  50.919  74.211  1  15
+SUO  CV    .  C  0  11.535  53.126  72.978  1  16
+SUO  1HNE  .  H  0  ?       ?       ?       0  17
+SUO  2HNE  .  H  0  ?       ?       ?       0  18
+SUO  1HD   .  H  0  ?       ?       ?       0  19
+SUO  2HD   .  H  0  ?       ?       ?       0  20
+SUO  1HG   .  H  0  ?       ?       ?       0  21
+SUO  2HG   .  H  0  ?       ?       ?       0  22
+SUO  1HB   .  H  0  ?       ?       ?       0  23
+SUO  2HB   .  H  0  ?       ?       ?       0  24
+SUO  HA    .  H  0  ?       ?       ?       1  25
+SUO  HN    .  H  0  ?       ?       ?       1  26
+SUO  1HW   .  H  0  ?       ?       ?       0  27
+SUO  2HW   .  H  0  ?       ?       ?       0  28
+SUO  1HX   .  H  0  ?       ?       ?       0  29
+SUO  2HX   .  H  0  ?       ?       ?       0  30
+SUO  HD1   .  H  0  ?       ?       ?       1  31
+SUO  HO    .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SUO  N    CA    SING  1 
+SUO  N    CV    SING  2 
+SUO  N    HN    SING  3 
+SUO  CA   CB    SING  4 
+SUO  CA   C     SING  5 
+SUO  CA   HA    SING  6 
+SUO  CB   CG    SING  7 
+SUO  CB   1HB   SING  8 
+SUO  CB   2HB   SING  9 
+SUO  CG   CD    SING  10
+SUO  CG   1HG   SING  11
+SUO  CG   2HG   SING  12
+SUO  CD   NE    SING  13
+SUO  CD   1HD   SING  14
+SUO  CD   2HD   SING  15
+SUO  NE   1HNE  SING  16
+SUO  NE   2HNE  SING  17
+SUO  C    O     SING  18
+SUO  C    O2    DOUB  19
+SUO  O    HO    SING  20
+SUO  OXT  CV    DOUB  21
+SUO  CW   CV    SING  22
+SUO  CW   CX    SING  23
+SUO  CW   1HW   SING  24
+SUO  CW   2HW   SING  25
+SUO  CX   CY    SING  26
+SUO  CX   1HX   SING  27
+SUO  CX   2HX   SING  28
+SUO  CY   OD1   SING  29
+SUO  CY   OD2   DOUB  30
+SUO  OD1  HD1   SING  31
+#

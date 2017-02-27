@@ -1,0 +1,83 @@
+data_TTL
+#
+_chem_comp.id                   TTL
+_chem_comp.name                 TRANS-(1S,2S)-2-AMINO-1,2,3,4-TETRAHYDRONAPHTHALEN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N1 O1'
+_chem_comp.pdbx_synonyms        'TRANS-(1S,2S)-1-HYDROXY-2-AMINO-1,2,3,4 TETRAHYDRONAPHTHALENE, TRANS-(1S,2S)-2-AMINO-1-TETRALOL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TTL  OAB   .  O  0  29.499  46.379  17.689  1  1 
+TTL  CAL   .  C  0  28.672  45.328  18.197  1  2 
+TTL  CAJ   .  C  0  28.185  44.447  17.044  1  3 
+TTL  CAF   .  C  0  27.758  45.051  15.865  1  4 
+TTL  CAD   .  C  0  27.259  44.282  14.820  1  5 
+TTL  CAC   .  C  0  27.188  42.897  14.958  1  6 
+TTL  CAE   .  C  0  27.616  42.297  16.135  1  7 
+TTL  CAI   .  C  0  28.119  43.061  17.185  1  8 
+TTL  CAG   .  C  0  28.616  42.315  18.427  1  9 
+TTL  CAH   .  C  0  28.705  43.246  19.636  1  10
+TTL  CAK   .  C  0  29.442  44.537  19.262  1  11
+TTL  NAA   .  N  0  29.617  45.372  20.456  1  12
+TTL  HAB   .  H  0  ?       ?       ?       1  13
+TTL  HAL   .  H  0  ?       ?       ?       1  14
+TTL  HAF   .  H  0  ?       ?       ?       1  15
+TTL  HAD   .  H  0  ?       ?       ?       1  16
+TTL  HAC   .  H  0  ?       ?       ?       1  17
+TTL  HAE   .  H  0  ?       ?       ?       1  18
+TTL  1HAG  .  H  0  ?       ?       ?       0  19
+TTL  2HAG  .  H  0  ?       ?       ?       0  20
+TTL  1HAH  .  H  0  ?       ?       ?       0  21
+TTL  2HAH  .  H  0  ?       ?       ?       0  22
+TTL  HAK   .  H  0  ?       ?       ?       1  23
+TTL  1HAA  .  H  0  ?       ?       ?       0  24
+TTL  2HAA  .  H  0  ?       ?       ?       0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TTL  OAB  HAB   SING  1 
+TTL  OAB  CAL   SING  2 
+TTL  CAL  HAL   SING  3 
+TTL  CAL  CAJ   SING  4 
+TTL  CAL  CAK   SING  5 
+TTL  CAJ  CAF   AROM  6 
+TTL  CAJ  CAI   AROM  7 
+TTL  CAF  HAF   SING  8 
+TTL  CAF  CAD   AROM  9 
+TTL  CAD  HAD   SING  10
+TTL  CAD  CAC   AROM  11
+TTL  CAC  HAC   SING  12
+TTL  CAC  CAE   AROM  13
+TTL  CAE  HAE   SING  14
+TTL  CAE  CAI   AROM  15
+TTL  CAI  CAG   SING  16
+TTL  CAG  1HAG  SING  17
+TTL  CAG  2HAG  SING  18
+TTL  CAG  CAH   SING  19
+TTL  CAH  1HAH  SING  20
+TTL  CAH  2HAH  SING  21
+TTL  CAH  CAK   SING  22
+TTL  CAK  HAK   SING  23
+TTL  CAK  NAA   SING  24
+TTL  NAA  1HAA  SING  25
+TTL  NAA  2HAA  SING  26
+#

@@ -1,0 +1,77 @@
+data_RAM
+#
+_chem_comp.id                   RAM
+_chem_comp.name                 RHAMNOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAM  C1   .  C  0  ?  ?  ?  1  1 
+RAM  C2   .  C  0  ?  ?  ?  1  2 
+RAM  C3   .  C  0  ?  ?  ?  1  3 
+RAM  C4   .  C  0  ?  ?  ?  1  4 
+RAM  C5   .  C  0  ?  ?  ?  1  5 
+RAM  C6   .  C  0  ?  ?  ?  1  6 
+RAM  O1   .  O  0  ?  ?  ?  1  7 
+RAM  O2   .  O  0  ?  ?  ?  1  8 
+RAM  O3   .  O  0  ?  ?  ?  1  9 
+RAM  O4   .  O  0  ?  ?  ?  1  10
+RAM  O5   .  O  0  ?  ?  ?  1  11
+RAM  H1   .  H  0  ?  ?  ?  1  12
+RAM  H2   .  H  0  ?  ?  ?  1  13
+RAM  H3   .  H  0  ?  ?  ?  1  14
+RAM  H4   .  H  0  ?  ?  ?  1  15
+RAM  H5   .  H  0  ?  ?  ?  1  16
+RAM  1H6  .  H  0  ?  ?  ?  0  17
+RAM  2H6  .  H  0  ?  ?  ?  0  18
+RAM  3H6  .  H  0  ?  ?  ?  0  19
+RAM  HO1  .  H  0  ?  ?  ?  1  20
+RAM  HO2  .  H  0  ?  ?  ?  1  21
+RAM  HO3  .  H  0  ?  ?  ?  1  22
+RAM  HO4  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAM  C1  C2   SING  1 
+RAM  C1  O1   SING  2 
+RAM  C1  O5   SING  3 
+RAM  C1  H1   SING  4 
+RAM  C2  C3   SING  5 
+RAM  C2  O2   SING  6 
+RAM  C2  H2   SING  7 
+RAM  C3  C4   SING  8 
+RAM  C3  O3   SING  9 
+RAM  C3  H3   SING  10
+RAM  C4  C5   SING  11
+RAM  C4  O4   SING  12
+RAM  C4  H4   SING  13
+RAM  C5  C6   SING  14
+RAM  C5  O5   SING  15
+RAM  C5  H5   SING  16
+RAM  C6  1H6  SING  17
+RAM  C6  2H6  SING  18
+RAM  C6  3H6  SING  19
+RAM  O1  HO1  SING  20
+RAM  O2  HO2  SING  21
+RAM  O3  HO3  SING  22
+RAM  O4  HO4  SING  23
+#

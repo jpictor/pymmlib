@@ -1,0 +1,78 @@
+data_IPZ
+#
+_chem_comp.id                   IPZ
+_chem_comp.name                 2-ISOPROPYL-3-METHOXYPYRAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2 O1'
+_chem_comp.pdbx_synonyms        2-METHOXY-3-ISOPROPYLPYRAZINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IPZ  C9    .  C  0  48.475  25.649  42.140  1  1 
+IPZ  C8    .  C  0  48.959  24.854  40.924  1  2 
+IPZ  C10   .  C  0  47.769  24.215  40.210  1  3 
+IPZ  C2    .  C  0  49.966  23.768  41.325  1  4 
+IPZ  N1    .  N  0  49.851  23.068  42.460  1  5 
+IPZ  C6    .  C  0  50.704  22.112  42.795  1  6 
+IPZ  C5    .  C  0  51.757  21.808  41.937  1  7 
+IPZ  N4    .  N  0  51.889  22.485  40.806  1  8 
+IPZ  C3    .  C  0  51.028  23.459  40.478  1  9 
+IPZ  O7    .  O  0  51.146  24.192  39.337  1  10
+IPZ  C11   .  C  0  52.410  24.112  38.667  1  11
+IPZ  H5    .  H  0  ?       ?       ?       1  12
+IPZ  H6    .  H  0  ?       ?       ?       1  13
+IPZ  1H11  .  H  0  ?       ?       ?       0  14
+IPZ  2H11  .  H  0  ?       ?       ?       0  15
+IPZ  3H11  .  H  0  ?       ?       ?       0  16
+IPZ  H8    .  H  0  ?       ?       ?       1  17
+IPZ  1H9   .  H  0  ?       ?       ?       0  18
+IPZ  2H9   .  H  0  ?       ?       ?       0  19
+IPZ  3H9   .  H  0  ?       ?       ?       0  20
+IPZ  1H10  .  H  0  ?       ?       ?       0  21
+IPZ  2H10  .  H  0  ?       ?       ?       0  22
+IPZ  3H10  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IPZ  C9   C8    SING  1 
+IPZ  C9   1H9   SING  2 
+IPZ  C9   2H9   SING  3 
+IPZ  C9   3H9   SING  4 
+IPZ  C8   C2    SING  5 
+IPZ  C8   H8    SING  6 
+IPZ  C8   C10   SING  7 
+IPZ  C10  1H10  SING  8 
+IPZ  C10  2H10  SING  9 
+IPZ  C10  3H10  SING  10
+IPZ  C2   N1    DOUB  11
+IPZ  C2   C3    SING  12
+IPZ  N1   C6    SING  13
+IPZ  C6   C5    DOUB  14
+IPZ  C6   H6    SING  15
+IPZ  C5   H5    SING  16
+IPZ  C5   N4    SING  17
+IPZ  N4   C3    DOUB  18
+IPZ  C3   O7    SING  19
+IPZ  O7   C11   SING  20
+IPZ  C11  1H11  SING  21
+IPZ  C11  2H11  SING  22
+IPZ  C11  3H11  SING  23
+#

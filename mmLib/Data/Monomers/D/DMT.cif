@@ -1,0 +1,102 @@
+data_DMT
+#
+_chem_comp.id                   DMT
+_chem_comp.name                 '3-HYDROXY-4,4-DIMETHYL-2-(METHYLAMINO)-6-OCTENOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H21 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.292
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMT  N     .  N  0  ?  ?  ?  1  1 
+DMT  CN    .  C  0  ?  ?  ?  1  2 
+DMT  CA    .  C  0  ?  ?  ?  1  3 
+DMT  C     .  C  0  ?  ?  ?  1  4 
+DMT  CB    .  C  0  ?  ?  ?  1  5 
+DMT  CG2   .  C  0  ?  ?  ?  1  6 
+DMT  CD1   .  C  0  ?  ?  ?  1  7 
+DMT  CD2   .  C  0  ?  ?  ?  1  8 
+DMT  CD3   .  C  0  ?  ?  ?  1  9 
+DMT  CE    .  C  0  ?  ?  ?  1  10
+DMT  CZ    .  C  0  ?  ?  ?  1  11
+DMT  CH    .  C  0  ?  ?  ?  1  12
+DMT  O     .  O  0  ?  ?  ?  1  13
+DMT  OXT   .  O  0  ?  ?  ?  1  14
+DMT  OG1   .  O  0  ?  ?  ?  1  15
+DMT  HN    .  H  0  ?  ?  ?  1  16
+DMT  1HCN  .  H  0  ?  ?  ?  0  17
+DMT  2HCN  .  H  0  ?  ?  ?  0  18
+DMT  3HCN  .  H  0  ?  ?  ?  0  19
+DMT  HA    .  H  0  ?  ?  ?  1  20
+DMT  HB    .  H  0  ?  ?  ?  1  21
+DMT  1HD1  .  H  0  ?  ?  ?  0  22
+DMT  2HD1  .  H  0  ?  ?  ?  0  23
+DMT  1HD2  .  H  0  ?  ?  ?  0  24
+DMT  2HD2  .  H  0  ?  ?  ?  0  25
+DMT  3HD2  .  H  0  ?  ?  ?  0  26
+DMT  1HD3  .  H  0  ?  ?  ?  0  27
+DMT  2HD3  .  H  0  ?  ?  ?  0  28
+DMT  3HD3  .  H  0  ?  ?  ?  0  29
+DMT  HE    .  H  0  ?  ?  ?  1  30
+DMT  HZ    .  H  0  ?  ?  ?  1  31
+DMT  1HH   .  H  0  ?  ?  ?  0  32
+DMT  2HH   .  H  0  ?  ?  ?  0  33
+DMT  3HH   .  H  0  ?  ?  ?  0  34
+DMT  HG1   .  H  0  ?  ?  ?  1  35
+DMT  HXT   .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMT  N    CA    SING  1 
+DMT  N    CN    SING  2 
+DMT  N    HN    SING  3 
+DMT  CN   1HCN  SING  4 
+DMT  CN   2HCN  SING  5 
+DMT  CN   3HCN  SING  6 
+DMT  CA   C     SING  7 
+DMT  CA   CB    SING  8 
+DMT  CA   HA    SING  9 
+DMT  C    O     DOUB  10
+DMT  C    OXT   SING  11
+DMT  CB   CG2   SING  12
+DMT  CB   OG1   SING  13
+DMT  CB   HB    SING  14
+DMT  CG2  CD1   SING  15
+DMT  CG2  CD2   SING  16
+DMT  CG2  CD3   SING  17
+DMT  CD1  CE    SING  18
+DMT  CD1  1HD1  SING  19
+DMT  CD1  2HD1  SING  20
+DMT  CD2  1HD2  SING  21
+DMT  CD2  2HD2  SING  22
+DMT  CD2  3HD2  SING  23
+DMT  CD3  1HD3  SING  24
+DMT  CD3  2HD3  SING  25
+DMT  CD3  3HD3  SING  26
+DMT  CE   CZ    DOUB  27
+DMT  CE   HE    SING  28
+DMT  CZ   CH    SING  29
+DMT  CZ   HZ    SING  30
+DMT  CH   1HH   SING  31
+DMT  CH   2HH   SING  32
+DMT  CH   3HH   SING  33
+DMT  OXT  HXT   SING  34
+DMT  OG1  HG1   SING  35
+#

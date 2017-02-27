@@ -1,0 +1,57 @@
+data_4AX
+#
+_chem_comp.id                   4AX
+_chem_comp.name                 (R)-4-AMINO-ISOXAZOLIDIN-3-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        102.093
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4AX  OG   .  O  0  23.473  41.043  39.028  1  1 
+4AX  O    .  O  0  21.992  38.296  40.514  1  2 
+4AX  N    .  N  0  21.388  41.859  40.791  1  3 
+4AX  NXT  .  N  0  23.085  38.931  39.779  1  4 
+4AX  CA   .  C  0  21.404  40.489  40.230  1  5 
+4AX  CB   .  C  0  21.300  39.364  41.204  1  6 
+4AX  C3   .  C  0  22.762  40.177  39.619  1  7 
+4AX  HA   .  H  0  ?       ?       ?       1  8 
+4AX  H    .  H  0  ?       ?       ?       1  9 
+4AX  HN2  .  H  0  ?       ?       ?       1  10
+4AX  1HB  .  H  0  ?       ?       ?       0  11
+4AX  2HB  .  H  0  ?       ?       ?       0  12
+4AX  HXT  .  H  0  ?       ?       ?       1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4AX  OG   C3   DOUB  1 
+4AX  O    NXT  SING  2 
+4AX  O    CB   SING  3 
+4AX  N    CA   SING  4 
+4AX  N    H    SING  5 
+4AX  N    HN2  SING  6 
+4AX  NXT  C3   SING  7 
+4AX  NXT  HXT  SING  8 
+4AX  CA   CB   SING  9 
+4AX  CA   C3   SING  10
+4AX  CA   HA   SING  11
+4AX  CB   1HB  SING  12
+4AX  CB   2HB  SING  13
+#

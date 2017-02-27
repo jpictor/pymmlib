@@ -1,0 +1,94 @@
+data_TOX
+#
+_chem_comp.id                       TOX
+_chem_comp.name                     2-AMINO-3-(1-HYDROPEROXY-1H-INDOL-3-YL)PROPAN-1-OL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H14 N2 O3'
+_chem_comp.pdbx_synonyms            1-HYDROPEROXY-L-TRYPTOPHAN
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            222.243
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TOX  N    .  N  0  -18.373  -58.476  -34.952  1  1 
+TOX  CA   .  C  0  -18.212  -59.876  -34.455  1  2 
+TOX  CB   .  C  0  -17.518  -60.790  -35.553  1  3 
+TOX  CG   .  C  0  -16.601  -61.849  -35.019  1  4 
+TOX  CD1  .  C  0  -15.284  -61.980  -35.278  1  5 
+TOX  NE1  .  N  0  -14.754  -63.030  -34.566  1  6 
+TOX  CE2  .  C  0  -15.748  -63.581  -33.809  1  7 
+TOX  CD2  .  C  0  -16.934  -62.883  -34.094  1  8 
+TOX  CE3  .  C  0  -18.121  -63.276  -33.467  1  9 
+TOX  CZ3  .  C  0  -18.087  -64.363  -32.587  1  10
+TOX  CH2  .  C  0  -16.874  -65.048  -32.308  1  11
+TOX  CZ2  .  C  0  -15.706  -64.681  -32.943  1  12
+TOX  C    .  C  0  -17.501  -59.901  -33.057  1  13
+TOX  O    .  O  0  -17.971  -60.531  -32.123  1  14
+TOX  O2   .  O  0  -11.825  -62.395  -34.818  1  15
+TOX  O1   .  O  0  -13.222  -62.957  -34.855  1  16
+TOX  1HN  .  H  0  ?        ?        ?        0  17
+TOX  2HN  .  H  0  ?        ?        ?        0  18
+TOX  HA   .  H  0  ?        ?        ?        1  19
+TOX  1H   .  H  0  ?        ?        ?        0  20
+TOX  2H   .  H  0  ?        ?        ?        0  21
+TOX  HO   .  H  0  ?        ?        ?        1  22
+TOX  1HB  .  H  0  ?        ?        ?        0  23
+TOX  2HB  .  H  0  ?        ?        ?        0  24
+TOX  HD1  .  H  0  ?        ?        ?        1  25
+TOX  HO2  .  H  0  ?        ?        ?        1  26
+TOX  HZ2  .  H  0  ?        ?        ?        1  27
+TOX  HH2  .  H  0  ?        ?        ?        1  28
+TOX  HZ3  .  H  0  ?        ?        ?        1  29
+TOX  HE3  .  H  0  ?        ?        ?        1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TOX  N    CA   SING  1 
+TOX  N    1HN  SING  2 
+TOX  N    2HN  SING  3 
+TOX  CA   C    SING  4 
+TOX  CA   CB   SING  5 
+TOX  CA   HA   SING  6 
+TOX  CB   CG   SING  7 
+TOX  CB   1HB  SING  8 
+TOX  CB   2HB  SING  9 
+TOX  CG   CD1  DOUB  10
+TOX  CG   CD2  SING  11
+TOX  CD1  NE1  SING  12
+TOX  CD1  HD1  SING  13
+TOX  NE1  O1   SING  14
+TOX  NE1  CE2  SING  15
+TOX  CE2  CZ2  SING  16
+TOX  CE2  CD2  DOUB  17
+TOX  CD2  CE3  SING  18
+TOX  CE3  CZ3  DOUB  19
+TOX  CE3  HE3  SING  20
+TOX  CZ3  CH2  SING  21
+TOX  CZ3  HZ3  SING  22
+TOX  CH2  CZ2  DOUB  23
+TOX  CH2  HH2  SING  24
+TOX  CZ2  HZ2  SING  25
+TOX  C    O    SING  26
+TOX  C    1H   SING  27
+TOX  C    2H   SING  28
+TOX  O    HO   SING  29
+TOX  O2   O1   SING  30
+TOX  O2   HO2  SING  31
+#

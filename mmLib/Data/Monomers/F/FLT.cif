@@ -1,0 +1,98 @@
+data_FLT
+#
+_chem_comp.id                       FLT
+_chem_comp.name                     'FLUOROMALONYL TYROSINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C12 H12 N1 O7 F1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            301.228
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FLT  N     .  N  0  ?  ?  ?  1  1 
+FLT  CA    .  C  0  ?  ?  ?  1  2 
+FLT  CB    .  C  0  ?  ?  ?  1  3 
+FLT  CG    .  C  0  ?  ?  ?  1  4 
+FLT  CD1   .  C  0  ?  ?  ?  1  5 
+FLT  CE1   .  C  0  ?  ?  ?  1  6 
+FLT  CD2   .  C  0  ?  ?  ?  1  7 
+FLT  CE2   .  C  0  ?  ?  ?  1  8 
+FLT  CZ    .  C  0  ?  ?  ?  1  9 
+FLT  OH    .  O  0  ?  ?  ?  1  10
+FLT  C1    .  C  0  ?  ?  ?  1  11
+FLT  C2    .  C  0  ?  ?  ?  1  12
+FLT  F1    .  F  0  ?  ?  ?  1  13
+FLT  O1    .  O  0  ?  ?  ?  1  14
+FLT  O2    .  O  0  ?  ?  ?  1  15
+FLT  O3    .  O  0  ?  ?  ?  1  16
+FLT  O4    .  O  0  ?  ?  ?  1  17
+FLT  C3    .  C  0  ?  ?  ?  1  18
+FLT  O     .  O  0  ?  ?  ?  1  19
+FLT  C     .  C  0  ?  ?  ?  1  20
+FLT  OXT   .  O  0  ?  ?  ?  1  21
+FLT  1HN   .  H  0  ?  ?  ?  0  22
+FLT  2HN   .  H  0  ?  ?  ?  0  23
+FLT  1HA   .  H  0  ?  ?  ?  0  24
+FLT  1HOX  .  H  0  ?  ?  ?  0  25
+FLT  1HB   .  H  0  ?  ?  ?  0  26
+FLT  2HB   .  H  0  ?  ?  ?  0  27
+FLT  1HD1  .  H  0  ?  ?  ?  0  28
+FLT  1HD2  .  H  0  ?  ?  ?  0  29
+FLT  1HE1  .  H  0  ?  ?  ?  0  30
+FLT  1HE2  .  H  0  ?  ?  ?  0  31
+FLT  1HO3  .  H  0  ?  ?  ?  0  32
+FLT  1HO1  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FLT  N    CA    SING  1 
+FLT  N    1HN   SING  2 
+FLT  N    2HN   SING  3 
+FLT  CA   CB    SING  4 
+FLT  CA   C     SING  5 
+FLT  CA   1HA   SING  6 
+FLT  CB   CG    SING  7 
+FLT  CB   1HB   SING  8 
+FLT  CB   2HB   SING  9 
+FLT  CG   CD1   DOUB  10
+FLT  CG   CD2   SING  11
+FLT  CD1  CE1   SING  12
+FLT  CD1  1HD1  SING  13
+FLT  CE1  CZ    DOUB  14
+FLT  CE1  1HE1  SING  15
+FLT  CD2  CE2   DOUB  16
+FLT  CD2  1HD2  SING  17
+FLT  CE2  CZ    SING  18
+FLT  CE2  1HE2  SING  19
+FLT  CZ   OH    SING  20
+FLT  OH   C1    SING  21
+FLT  C1   C2    SING  22
+FLT  C1   F1    SING  23
+FLT  C1   C3    SING  24
+FLT  C2   O3    SING  25
+FLT  C2   O4    DOUB  26
+FLT  O1   C3    SING  27
+FLT  O1   1HO1  SING  28
+FLT  O2   C3    DOUB  29
+FLT  O3   1HO3  SING  30
+FLT  O    C     DOUB  31
+FLT  C    OXT   SING  32
+FLT  OXT  1HOX  SING  33
+#

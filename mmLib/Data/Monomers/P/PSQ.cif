@@ -1,0 +1,94 @@
+data_PSQ
+#
+_chem_comp.id                   PSQ
+_chem_comp.name                 NDELTA-(N'-SULPHODIAMINOPHOSPHINYL)-L-ORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H15 N4 O6 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        290.230
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PSQ  S     .  S  0  ?  ?  ?  1  1 
+PSQ  O     .  O  0  ?  ?  ?  1  2 
+PSQ  O1    .  O  0  ?  ?  ?  1  3 
+PSQ  O2    .  O  0  ?  ?  ?  1  4 
+PSQ  P     .  P  0  ?  ?  ?  1  5 
+PSQ  N     .  N  0  ?  ?  ?  1  6 
+PSQ  O3    .  O  0  ?  ?  ?  1  7 
+PSQ  N1    .  N  0  ?  ?  ?  1  8 
+PSQ  C     .  C  0  ?  ?  ?  1  9 
+PSQ  O4    .  O  0  ?  ?  ?  1  10
+PSQ  O5    .  O  0  ?  ?  ?  1  11
+PSQ  C1    .  C  0  ?  ?  ?  1  12
+PSQ  C2    .  C  0  ?  ?  ?  1  13
+PSQ  C3    .  C  0  ?  ?  ?  1  14
+PSQ  C4    .  C  0  ?  ?  ?  1  15
+PSQ  N2    .  N  0  ?  ?  ?  1  16
+PSQ  N3    .  N  0  ?  ?  ?  1  17
+PSQ  HO4   .  H  0  ?  ?  ?  1  18
+PSQ  1HN3  .  H  0  ?  ?  ?  0  19
+PSQ  2HN3  .  H  0  ?  ?  ?  0  20
+PSQ  1H2   .  H  0  ?  ?  ?  0  21
+PSQ  2H2   .  H  0  ?  ?  ?  0  22
+PSQ  1H3   .  H  0  ?  ?  ?  0  23
+PSQ  2H3   .  H  0  ?  ?  ?  0  24
+PSQ  1H4   .  H  0  ?  ?  ?  0  25
+PSQ  2H4   .  H  0  ?  ?  ?  0  26
+PSQ  1HN1  .  H  0  ?  ?  ?  0  27
+PSQ  1HN   .  H  0  ?  ?  ?  0  28
+PSQ  2HN   .  H  0  ?  ?  ?  0  29
+PSQ  1HN2  .  H  0  ?  ?  ?  0  30
+PSQ  1HO   .  H  0  ?  ?  ?  0  31
+PSQ  1H1   .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PSQ  S   O     SING  1 
+PSQ  S   O1    DOUB  2 
+PSQ  S   O2    DOUB  3 
+PSQ  S   N2    SING  4 
+PSQ  O   1HO   SING  5 
+PSQ  P   N     SING  6 
+PSQ  P   O3    DOUB  7 
+PSQ  P   N1    SING  8 
+PSQ  P   N2    SING  9 
+PSQ  N   1HN   SING  10
+PSQ  N   2HN   SING  11
+PSQ  N1  C4    SING  12
+PSQ  N1  1HN1  SING  13
+PSQ  C   O4    SING  14
+PSQ  C   O5    DOUB  15
+PSQ  C   C1    SING  16
+PSQ  O4  HO4   SING  17
+PSQ  C1  C2    SING  18
+PSQ  C1  N3    SING  19
+PSQ  C1  1H1   SING  20
+PSQ  C2  C3    SING  21
+PSQ  C2  1H2   SING  22
+PSQ  C2  2H2   SING  23
+PSQ  C3  C4    SING  24
+PSQ  C3  1H3   SING  25
+PSQ  C3  2H3   SING  26
+PSQ  C4  1H4   SING  27
+PSQ  C4  2H4   SING  28
+PSQ  N2  1HN2  SING  29
+PSQ  N3  1HN3  SING  30
+PSQ  N3  2HN3  SING  31
+#

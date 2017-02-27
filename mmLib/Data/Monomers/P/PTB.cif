@@ -1,0 +1,99 @@
+data_PTB
+#
+_chem_comp.id                   PTB
+_chem_comp.name                 (5-TERT-BUTYL-1,3,4-OXADIAZOL-2-YL)[(2R)-PYRROLIDIN-2-YL]METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N3 O2'
+_chem_comp.pdbx_synonyms        2-PROLYL-5-TERT-BUTYL-[1,3,4]OXADIAZOLE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        223.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PTB  N    .  N  0  18.660  -0.474  -9.297  1  1 
+PTB  CA   .  C  0  19.250  0.236   -8.111  1  2 
+PTB  C    .  C  0  20.739  -0.033  -7.969  1  3 
+PTB  O    .  O  0  21.174  -1.128  -7.666  1  4 
+PTB  CB   .  C  0  18.432  -0.163  -6.882  1  5 
+PTB  CG   .  C  0  17.100  -0.642  -7.409  1  6 
+PTB  CD   .  C  0  17.336  -1.044  -8.859  1  7 
+PTB  C2   .  C  0  21.596  1.118   -8.191  1  8 
+PTB  N3   .  N  0  21.296  2.355   -8.629  1  9 
+PTB  N4   .  N  0  22.394  3.079   -8.665  1  10
+PTB  C5   .  C  0  23.451  2.336   -8.250  1  11
+PTB  O1   .  O  0  22.987  1.041   -7.928  1  12
+PTB  C6   .  C  0  24.908  2.667   -8.099  1  13
+PTB  C7   .  C  0  25.038  3.983   -7.334  1  14
+PTB  C8   .  C  0  25.529  2.820   -9.482  1  15
+PTB  C9   .  C  0  25.615  1.547   -7.338  1  16
+PTB  HN   .  H  0  ?       ?       ?       1  17
+PTB  1HD  .  H  0  ?       ?       ?       0  18
+PTB  2HD  .  H  0  ?       ?       ?       0  19
+PTB  1HG  .  H  0  ?       ?       ?       0  20
+PTB  2HG  .  H  0  ?       ?       ?       0  21
+PTB  1HB  .  H  0  ?       ?       ?       0  22
+PTB  2HB  .  H  0  ?       ?       ?       0  23
+PTB  HA   .  H  0  ?       ?       ?       1  24
+PTB  1H7  .  H  0  ?       ?       ?       0  25
+PTB  2H7  .  H  0  ?       ?       ?       0  26
+PTB  3H7  .  H  0  ?       ?       ?       0  27
+PTB  1H8  .  H  0  ?       ?       ?       0  28
+PTB  2H8  .  H  0  ?       ?       ?       0  29
+PTB  3H8  .  H  0  ?       ?       ?       0  30
+PTB  1H9  .  H  0  ?       ?       ?       0  31
+PTB  2H9  .  H  0  ?       ?       ?       0  32
+PTB  3H9  .  H  0  ?       ?       ?       0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PTB  N   HN   SING  1 
+PTB  N   CD   SING  2 
+PTB  N   CA   SING  3 
+PTB  CA  CB   SING  4 
+PTB  CA  HA   SING  5 
+PTB  CA  C    SING  6 
+PTB  C   O    DOUB  7 
+PTB  C   C2   SING  8 
+PTB  CB  CG   SING  9 
+PTB  CB  1HB  SING  10
+PTB  CB  2HB  SING  11
+PTB  CG  CD   SING  12
+PTB  CG  1HG  SING  13
+PTB  CG  2HG  SING  14
+PTB  CD  1HD  SING  15
+PTB  CD  2HD  SING  16
+PTB  C2  N3   DOUB  17
+PTB  C2  O1   SING  18
+PTB  N3  N4   SING  19
+PTB  N4  C5   DOUB  20
+PTB  C5  O1   SING  21
+PTB  C5  C6   SING  22
+PTB  C6  C7   SING  23
+PTB  C6  C8   SING  24
+PTB  C6  C9   SING  25
+PTB  C7  1H7  SING  26
+PTB  C7  2H7  SING  27
+PTB  C7  3H7  SING  28
+PTB  C8  1H8  SING  29
+PTB  C8  2H8  SING  30
+PTB  C8  3H8  SING  31
+PTB  C9  1H9  SING  32
+PTB  C9  2H9  SING  33
+PTB  C9  3H9  SING  34
+#

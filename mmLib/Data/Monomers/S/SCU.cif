@@ -1,0 +1,93 @@
+data_SCU
+#
+_chem_comp.id                   SCU
+_chem_comp.name                 N,N,N-TRIMETHYL-2-[(4-OXOBUTANOYL)OXY]ETHANAMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H18 N1 O3'
+_chem_comp.pdbx_synonyms        SUCCINYLMONOCHOLINE
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       188.246
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SCU  O13   .  O  0  30.776  19.243  11.305  1  1 
+SCU  C12   .  C  0  29.937  18.850  12.101  1  2 
+SCU  C11   .  C  0  29.112  17.603  11.868  1  3 
+SCU  C6    .  C  0  29.895  16.347  11.510  1  4 
+SCU  C5    .  C  0  29.375  15.298  12.461  1  5 
+SCU  O4    .  O  0  30.028  15.077  13.477  1  6 
+SCU  O14   .  O  0  29.692  19.642  13.305  1  7 
+SCU  C15   .  C  0  28.735  20.700  13.224  1  8 
+SCU  C16   .  C  0  27.649  20.782  14.308  1  9 
+SCU  N17   .  N  1  26.930  19.520  14.564  1  10
+SCU  C20   .  C  0  27.620  18.825  15.661  1  11
+SCU  C19   .  C  0  25.541  19.772  14.955  1  12
+SCU  C18   .  C  0  26.822  18.710  13.351  1  13
+SCU  H5    .  H  0  ?       ?       ?       1  14
+SCU  1H6   .  H  0  ?       ?       ?       0  15
+SCU  2H6   .  H  0  ?       ?       ?       0  16
+SCU  1H11  .  H  0  ?       ?       ?       0  17
+SCU  2H11  .  H  0  ?       ?       ?       0  18
+SCU  1H15  .  H  0  ?       ?       ?       0  19
+SCU  2H15  .  H  0  ?       ?       ?       0  20
+SCU  1H16  .  H  0  ?       ?       ?       0  21
+SCU  2H16  .  H  0  ?       ?       ?       0  22
+SCU  1H20  .  H  0  ?       ?       ?       0  23
+SCU  2H20  .  H  0  ?       ?       ?       0  24
+SCU  3H20  .  H  0  ?       ?       ?       0  25
+SCU  1H19  .  H  0  ?       ?       ?       0  26
+SCU  2H19  .  H  0  ?       ?       ?       0  27
+SCU  3H19  .  H  0  ?       ?       ?       0  28
+SCU  1H18  .  H  0  ?       ?       ?       0  29
+SCU  2H18  .  H  0  ?       ?       ?       0  30
+SCU  3H18  .  H  0  ?       ?       ?       0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SCU  O13  C12   DOUB  1 
+SCU  C12  C11   SING  2 
+SCU  C12  O14   SING  3 
+SCU  C11  C6    SING  4 
+SCU  C11  1H11  SING  5 
+SCU  C11  2H11  SING  6 
+SCU  C6   C5    SING  7 
+SCU  C6   1H6   SING  8 
+SCU  C6   2H6   SING  9 
+SCU  C5   H5    SING  10
+SCU  C5   O4    DOUB  11
+SCU  O14  C15   SING  12
+SCU  C15  1H15  SING  13
+SCU  C15  2H15  SING  14
+SCU  C15  C16   SING  15
+SCU  C16  1H16  SING  16
+SCU  C16  2H16  SING  17
+SCU  C16  N17   SING  18
+SCU  N17  C20   SING  19
+SCU  N17  C19   SING  20
+SCU  N17  C18   SING  21
+SCU  C20  1H20  SING  22
+SCU  C20  2H20  SING  23
+SCU  C20  3H20  SING  24
+SCU  C19  1H19  SING  25
+SCU  C19  2H19  SING  26
+SCU  C19  3H19  SING  27
+SCU  C18  1H18  SING  28
+SCU  C18  2H18  SING  29
+SCU  C18  3H18  SING  30
+#

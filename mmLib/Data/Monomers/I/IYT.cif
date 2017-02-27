@@ -1,0 +1,119 @@
+data_IYT
+#
+_chem_comp.id                       IYT
+_chem_comp.name                     N-ALPHA-ACETYL-3,5-DIIODOTYROSYL-D-THREONINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H18 N2 O6 I2'
+_chem_comp.pdbx_synonyms            'THREONINE DERIVATIVE'
+_chem_comp.mon_nstd_parent_comp_id  THR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            576.126
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IYT  CAN   .  C  0  48.785  23.335  41.353  1  1 
+IYT  CN    .  C  0  47.270  23.489  41.330  1  2 
+IYT  ON    .  O  0  46.600  22.787  40.558  1  3 
+IYT  N     .  N  0  46.718  24.363  42.182  1  4 
+IYT  CA    .  C  0  45.282  24.575  42.154  1  5 
+IYT  CB    .  C  0  44.566  23.629  43.129  1  6 
+IYT  CG    .  C  0  44.713  23.893  44.605  1  7 
+IYT  CD1   .  C  0  43.627  24.362  45.343  1  8 
+IYT  CE1   .  C  0  43.685  24.497  46.717  1  9 
+IYT  CD2   .  C  0  45.888  23.574  45.286  1  10
+IYT  CE2   .  C  0  45.972  23.707  46.673  1  11
+IYT  CZ    .  C  0  44.854  24.164  47.393  1  12
+IYT  OH    .  O  0  44.868  24.241  48.767  1  13
+IYT  I1    .  I  0  42.044  25.215  47.741  1  14
+IYT  I2    .  I  0  47.744  23.264  47.639  1  15
+IYT  C     .  C  0  44.878  26.038  42.341  1  16
+IYT  O     .  O  0  45.677  26.872  42.789  1  17
+IYT  NT    .  N  0  43.637  26.336  41.947  1  18
+IYT  CAT   .  C  0  43.058  27.681  41.964  1  19
+IYT  CBT   .  C  0  43.211  28.390  43.327  1  20
+IYT  OGT   .  O  0  42.393  27.741  44.307  1  21
+IYT  CGT   .  C  0  42.776  29.850  43.206  1  22
+IYT  CT    .  C  0  41.570  27.591  41.592  1  23
+IYT  OX1   .  O  0  41.004  28.606  41.134  1  24
+IYT  OX2   .  O  0  40.997  26.484  41.749  1  25
+IYT  HX1   .  H  0  ?       ?       ?       1  26
+IYT  HAT   .  H  0  ?       ?       ?       1  27
+IYT  HNT   .  H  0  ?       ?       ?       1  28
+IYT  HA    .  H  0  ?       ?       ?       1  29
+IYT  HN    .  H  0  ?       ?       ?       1  30
+IYT  1HAN  .  H  0  ?       ?       ?       0  31
+IYT  2HAN  .  H  0  ?       ?       ?       0  32
+IYT  3HAN  .  H  0  ?       ?       ?       0  33
+IYT  1HB   .  H  0  ?       ?       ?       0  34
+IYT  2HB   .  H  0  ?       ?       ?       0  35
+IYT  HD2   .  H  0  ?       ?       ?       1  36
+IYT  HOH   .  H  0  ?       ?       ?       1  37
+IYT  HD1   .  H  0  ?       ?       ?       1  38
+IYT  HBT   .  H  0  ?       ?       ?       1  39
+IYT  HGT   .  H  0  ?       ?       ?       1  40
+IYT  1HGT  .  H  0  ?       ?       ?       0  41
+IYT  2HGT  .  H  0  ?       ?       ?       0  42
+IYT  3HGT  .  H  0  ?       ?       ?       0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IYT  CAN  CN    SING  1 
+IYT  CAN  1HAN  SING  2 
+IYT  CAN  2HAN  SING  3 
+IYT  CAN  3HAN  SING  4 
+IYT  CN   N     SING  5 
+IYT  CN   ON    DOUB  6 
+IYT  N    CA    SING  7 
+IYT  N    HN    SING  8 
+IYT  CA   C     SING  9 
+IYT  CA   HA    SING  10
+IYT  CA   CB    SING  11
+IYT  CB   1HB   SING  12
+IYT  CB   2HB   SING  13
+IYT  CB   CG    SING  14
+IYT  CG   CD2   AROM  15
+IYT  CG   CD1   AROM  16
+IYT  CD1  CE1   AROM  17
+IYT  CD1  HD1   SING  18
+IYT  CE1  CZ    AROM  19
+IYT  CE1  I1    SING  20
+IYT  CD2  HD2   SING  21
+IYT  CD2  CE2   AROM  22
+IYT  CE2  I2    SING  23
+IYT  CE2  CZ    AROM  24
+IYT  CZ   OH    SING  25
+IYT  OH   HOH   SING  26
+IYT  C    NT    SING  27
+IYT  C    O     DOUB  28
+IYT  NT   CAT   SING  29
+IYT  NT   HNT   SING  30
+IYT  CAT  CT    SING  31
+IYT  CAT  HAT   SING  32
+IYT  CAT  CBT   SING  33
+IYT  CBT  HBT   SING  34
+IYT  CBT  OGT   SING  35
+IYT  CBT  CGT   SING  36
+IYT  OGT  HGT   SING  37
+IYT  CGT  1HGT  SING  38
+IYT  CGT  2HGT  SING  39
+IYT  CGT  3HGT  SING  40
+IYT  CT   OX1   SING  41
+IYT  CT   OX2   DOUB  42
+IYT  OX1  HX1   SING  43
+#

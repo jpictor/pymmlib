@@ -1,0 +1,110 @@
+data_IG
+#
+_chem_comp.id                       IG
+_chem_comp.name                     ISOGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            363.223
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IG  P     .  P  0  ?  ?  ?  1  1 
+IG  O1P   .  O  0  ?  ?  ?  1  2 
+IG  O2P   .  O  0  ?  ?  ?  1  3 
+IG  O3P   .  O  0  ?  ?  ?  1  4 
+IG  O5*   .  O  0  ?  ?  ?  1  5 
+IG  O3*   .  O  0  ?  ?  ?  1  6 
+IG  C1*   .  C  0  ?  ?  ?  1  7 
+IG  C2*   .  C  0  ?  ?  ?  1  8 
+IG  C3*   .  C  0  ?  ?  ?  1  9 
+IG  C4*   .  C  0  ?  ?  ?  1  10
+IG  C5*   .  C  0  ?  ?  ?  1  11
+IG  O4*   .  O  0  ?  ?  ?  1  12
+IG  O2*   .  O  0  ?  ?  ?  1  13
+IG  N6    .  N  0  ?  ?  ?  1  14
+IG  O2    .  O  0  ?  ?  ?  1  15
+IG  C6    .  C  0  ?  ?  ?  1  16
+IG  C5    .  C  0  ?  ?  ?  1  17
+IG  N7    .  N  0  ?  ?  ?  1  18
+IG  C8    .  C  0  ?  ?  ?  1  19
+IG  N9    .  N  0  ?  ?  ?  1  20
+IG  C4    .  C  0  ?  ?  ?  1  21
+IG  N3    .  N  0  ?  ?  ?  1  22
+IG  C2    .  C  0  ?  ?  ?  1  23
+IG  N1    .  N  0  ?  ?  ?  1  24
+IG  H1*   .  H  0  ?  ?  ?  1  25
+IG  H2*   .  H  0  ?  ?  ?  1  26
+IG  H3*   .  H  0  ?  ?  ?  1  27
+IG  H4*   .  H  0  ?  ?  ?  1  28
+IG  1H5*  .  H  0  ?  ?  ?  0  29
+IG  2H5*  .  H  0  ?  ?  ?  0  30
+IG  2HO*  .  H  0  ?  ?  ?  0  31
+IG  1H6   .  H  0  ?  ?  ?  0  32
+IG  2H6   .  H  0  ?  ?  ?  0  33
+IG  H8    .  H  0  ?  ?  ?  1  34
+IG  H1    .  H  0  ?  ?  ?  1  35
+IG  3HOP  .  H  0  ?  ?  ?  0  36
+IG  2HOP  .  H  0  ?  ?  ?  0  37
+IG  H3T   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IG  P    O1P   DOUB  1 
+IG  P    O2P   SING  2 
+IG  P    O5*   SING  3 
+IG  P    O3P   SING  4 
+IG  O2P  2HOP  SING  5 
+IG  O3P  3HOP  SING  6 
+IG  O5*  C5*   SING  7 
+IG  O3*  C3*   SING  8 
+IG  O3*  H3T   SING  9 
+IG  C1*  C2*   SING  10
+IG  C1*  O4*   SING  11
+IG  C1*  N9    SING  12
+IG  C1*  H1*   SING  13
+IG  C2*  C3*   SING  14
+IG  C2*  O2*   SING  15
+IG  C2*  H2*   SING  16
+IG  C3*  C4*   SING  17
+IG  C3*  H3*   SING  18
+IG  C4*  C5*   SING  19
+IG  C4*  O4*   SING  20
+IG  C4*  H4*   SING  21
+IG  C5*  1H5*  SING  22
+IG  C5*  2H5*  SING  23
+IG  O2*  2HO*  SING  24
+IG  N6   C6    SING  25
+IG  N6   1H6   SING  26
+IG  N6   2H6   SING  27
+IG  O2   C2    DOUB  28
+IG  C6   C5    DOUB  29
+IG  C6   N1    SING  30
+IG  C5   N7    SING  31
+IG  C5   C4    SING  32
+IG  N7   C8    DOUB  33
+IG  C8   N9    SING  34
+IG  C8   H8    SING  35
+IG  N9   C4    SING  36
+IG  C4   N3    DOUB  37
+IG  N3   C2    SING  38
+IG  C2   N1    SING  39
+IG  N1   H1    SING  40
+#

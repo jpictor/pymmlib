@@ -1,0 +1,110 @@
+data_UBC
+#
+_chem_comp.id                   UBC
+_chem_comp.name                 (S)-1-(2-AMINO-2-CARBOXYETHYL)-3-(2-CARBOXYBENZYL)PYRIMIDINE-2,4-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H15 N3 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        333.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UBC  O1    .  O  0  -1.269   -6.656  14.342  1  1 
+UBC  C10   .  C  0  -1.611   -7.318  15.352  1  2 
+UBC  O2    .  O  0  -1.741   -8.566  15.340  1  3 
+UBC  C22   .  C  0  -1.885   -6.591  16.635  1  4 
+UBC  C23   .  C  0  -1.468   -7.112  17.860  1  5 
+UBC  C24   .  C  0  -1.750   -6.409  19.039  1  6 
+UBC  C25   .  C  0  -2.436   -5.197  19.022  1  7 
+UBC  C26   .  C  0  -2.864   -4.642  17.826  1  8 
+UBC  C21   .  C  0  -2.619   -5.303  16.637  1  9 
+UBC  C17   .  C  0  -3.081   -4.713  15.331  1  10
+UBC  N6    .  N  0  -4.301   -3.902  15.466  1  11
+UBC  C5    .  C  0  -5.589   -4.439  15.596  1  12
+UBC  O8    .  O  0  -5.767   -5.679  15.644  1  13
+UBC  C1    .  C  0  -4.141   -2.515  15.414  1  14
+UBC  O7    .  O  0  -2.990   -2.090  15.280  1  15
+UBC  C2    .  C  0  -5.230   -1.663  15.506  1  16
+UBC  C3    .  C  0  -6.503   -2.214  15.641  1  17
+UBC  N4    .  N  0  -6.687   -3.543  15.698  1  18
+UBC  CB    .  C  0  -8.050   -4.079  15.810  1  19
+UBC  CA    .  C  0  -8.482   -4.488  14.386  1  20
+UBC  N     .  N  0  -8.256   -3.423  13.408  1  21
+UBC  C     .  C  0  -9.937   -4.863  14.407  1  22
+UBC  O     .  O  0  -10.721  -4.207  13.691  1  23
+UBC  OXT   .  O  0  -10.328  -5.808  15.136  1  24
+UBC  1HN   .  H  0  ?        ?       ?       0  25
+UBC  2HN   .  H  0  ?        ?       ?       0  26
+UBC  HA    .  H  0  ?        ?       ?       1  27
+UBC  1HB   .  H  0  ?        ?       ?       0  28
+UBC  2HB   .  H  0  ?        ?       ?       0  29
+UBC  H3    .  H  0  ?        ?       ?       1  30
+UBC  H2    .  H  0  ?        ?       ?       1  31
+UBC  1H17  .  H  0  ?        ?       ?       0  32
+UBC  2H17  .  H  0  ?        ?       ?       0  33
+UBC  H26   .  H  0  ?        ?       ?       1  34
+UBC  H25   .  H  0  ?        ?       ?       1  35
+UBC  H24   .  H  0  ?        ?       ?       1  36
+UBC  H23   .  H  0  ?        ?       ?       1  37
+UBC  HO1   .  H  0  ?        ?       ?       1  38
+UBC  HO    .  H  0  ?        ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UBC  O1   C10   SING  1 
+UBC  O1   HO1   SING  2 
+UBC  C10  C22   SING  3 
+UBC  C10  O2    DOUB  4 
+UBC  C22  C23   DOUB  5 
+UBC  C22  C21   SING  6 
+UBC  C23  C24   SING  7 
+UBC  C23  H23   SING  8 
+UBC  C24  C25   DOUB  9 
+UBC  C24  H24   SING  10
+UBC  C25  C26   SING  11
+UBC  C25  H25   SING  12
+UBC  C26  C21   DOUB  13
+UBC  C26  H26   SING  14
+UBC  C21  C17   SING  15
+UBC  C17  N6    SING  16
+UBC  C17  1H17  SING  17
+UBC  C17  2H17  SING  18
+UBC  N6   C1    SING  19
+UBC  N6   C5    SING  20
+UBC  C5   N4    SING  21
+UBC  C5   O8    DOUB  22
+UBC  C1   C2    SING  23
+UBC  C1   O7    DOUB  24
+UBC  C2   C3    DOUB  25
+UBC  C2   H2    SING  26
+UBC  C3   N4    SING  27
+UBC  C3   H3    SING  28
+UBC  N4   CB    SING  29
+UBC  CB   CA    SING  30
+UBC  CB   1HB   SING  31
+UBC  CB   2HB   SING  32
+UBC  CA   N     SING  33
+UBC  CA   C     SING  34
+UBC  CA   HA    SING  35
+UBC  N    1HN   SING  36
+UBC  N    2HN   SING  37
+UBC  C    O     SING  38
+UBC  C    OXT   DOUB  39
+UBC  O    HO    SING  40
+#

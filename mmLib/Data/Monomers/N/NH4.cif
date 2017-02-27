@@ -1,0 +1,40 @@
+data_NH4
+#
+_chem_comp.id                   NH4
+_chem_comp.name                 'AMMONIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'H4 N1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       18.038
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NH4  N    .  N  1  ?  ?  ?  1  1
+NH4  1HN  .  H  0  ?  ?  ?  0  2
+NH4  2HN  .  H  0  ?  ?  ?  0  3
+NH4  3HN  .  H  0  ?  ?  ?  0  4
+NH4  4HN  .  H  0  ?  ?  ?  0  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NH4  N  1HN  SING  1
+NH4  N  2HN  SING  2
+NH4  N  3HN  SING  3
+NH4  N  4HN  SING  4
+#

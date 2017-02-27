@@ -1,0 +1,127 @@
+data_S2M
+#
+_chem_comp.id                       S2M
+_chem_comp.name                     2'-O-[2-(METHOXY)ETHYL]-2-THIOTHYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H21 N2 O9 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            412.351
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+S2M  O4    .  O  0  6.546   21.027  7.726  1  1 
+S2M  C4    .  C  0  6.134   20.649  6.649  1  2 
+S2M  C5    .  C  0  5.105   21.234  5.990  1  3 
+S2M  C6    .  C  0  4.712   20.787  4.866  1  4 
+S2M  C5M   .  C  0  4.432   22.417  6.607  1  5 
+S2M  N3    .  N  0  6.726   19.602  6.086  1  6 
+S2M  S2    .  S  0  7.138   17.755  4.270  1  7 
+S2M  C2    .  C  0  6.384   19.087  4.924  1  8 
+S2M  C5*   .  C  0  2.000   21.272  2.305  1  9 
+S2M  O5*   .  O  0  2.127   21.864  3.590  1  10
+S2M  P     .  P  0  1.266   23.195  3.894  1  11
+S2M  O2P   .  O  0  1.608   23.735  5.251  1  12
+S2M  O1P   .  O  0  -0.183  22.863  3.662  1  13
+S2M  C4*   .  C  0  2.760   19.949  2.258  1  14
+S2M  O4*   .  O  0  4.168   20.239  2.266  1  15
+S2M  C1*   .  C  0  4.844   19.244  3.051  1  16
+S2M  N1    .  N  0  5.333   19.783  4.319  1  17
+S2M  C2*   .  C  0  3.792   18.239  3.520  1  18
+S2M  C3*   .  C  0  2.483   19.004  3.435  1  19
+S2M  O3*   .  O  0  1.376   18.157  3.164  1  20
+S2M  O2*   .  O  0  3.714   17.133  2.639  1  21
+S2M  CA*   .  C  0  4.812   16.207  2.491  1  22
+S2M  CB*   .  C  0  5.420   16.081  1.312  1  23
+S2M  OC*   .  O  0  6.599   16.867  1.000  1  24
+S2M  CD*   .  C  0  7.723   16.952  1.881  1  25
+S2M  O3P   .  O  0  ?       ?       ?      1  26
+S2M  1HD*  .  H  0  ?       ?       ?      0  27
+S2M  2HD*  .  H  0  ?       ?       ?      0  28
+S2M  3HD*  .  H  0  ?       ?       ?      0  29
+S2M  1HB*  .  H  0  ?       ?       ?      0  30
+S2M  2HB*  .  H  0  ?       ?       ?      0  31
+S2M  1HA*  .  H  0  ?       ?       ?      0  32
+S2M  2HA*  .  H  0  ?       ?       ?      0  33
+S2M  H2*   .  H  0  ?       ?       ?      1  34
+S2M  H3*   .  H  0  ?       ?       ?      1  35
+S2M  H3T   .  H  0  ?       ?       ?      1  36
+S2M  H4*   .  H  0  ?       ?       ?      1  37
+S2M  1H5*  .  H  0  ?       ?       ?      0  38
+S2M  2H5*  .  H  0  ?       ?       ?      0  39
+S2M  3HOP  .  H  0  ?       ?       ?      0  40
+S2M  2HOP  .  H  0  ?       ?       ?      0  41
+S2M  H1*   .  H  0  ?       ?       ?      1  42
+S2M  H6    .  H  0  ?       ?       ?      1  43
+S2M  1H5M  .  H  0  ?       ?       ?      0  44
+S2M  2H5M  .  H  0  ?       ?       ?      0  45
+S2M  3H5M  .  H  0  ?       ?       ?      0  46
+S2M  H3    .  H  0  ?       ?       ?      1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+S2M  O4   C4    DOUB  1 
+S2M  C4   C5    SING  2 
+S2M  C4   N3    SING  3 
+S2M  C5   C6    DOUB  4 
+S2M  C5   C5M   SING  5 
+S2M  C6   N1    SING  6 
+S2M  C6   H6    SING  7 
+S2M  C5M  1H5M  SING  8 
+S2M  C5M  2H5M  SING  9 
+S2M  C5M  3H5M  SING  10
+S2M  N3   C2    SING  11
+S2M  N3   H3    SING  12
+S2M  S2   C2    DOUB  13
+S2M  C2   N1    SING  14
+S2M  C5*  C4*   SING  15
+S2M  C5*  O5*   SING  16
+S2M  C5*  1H5*  SING  17
+S2M  C5*  2H5*  SING  18
+S2M  O5*  P     SING  19
+S2M  P    O3P   SING  20
+S2M  P    O2P   SING  21
+S2M  P    O1P   DOUB  22
+S2M  O2P  2HOP  SING  23
+S2M  C4*  C3*   SING  24
+S2M  C4*  O4*   SING  25
+S2M  C4*  H4*   SING  26
+S2M  O4*  C1*   SING  27
+S2M  C1*  C2*   SING  28
+S2M  C1*  N1    SING  29
+S2M  C1*  H1*   SING  30
+S2M  C2*  O2*   SING  31
+S2M  C2*  C3*   SING  32
+S2M  C2*  H2*   SING  33
+S2M  C3*  O3*   SING  34
+S2M  C3*  H3*   SING  35
+S2M  O3*  H3T   SING  36
+S2M  O2*  CA*   SING  37
+S2M  CA*  CB*   SING  38
+S2M  CA*  1HA*  SING  39
+S2M  CA*  2HA*  SING  40
+S2M  CB*  OC*   SING  41
+S2M  CB*  1HB*  SING  42
+S2M  CB*  2HB*  SING  43
+S2M  OC*  CD*   SING  44
+S2M  CD*  1HD*  SING  45
+S2M  CD*  2HD*  SING  46
+S2M  CD*  3HD*  SING  47
+S2M  O3P  3HOP  SING  48
+#

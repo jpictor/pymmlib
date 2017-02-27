@@ -1,0 +1,116 @@
+data_SPC
+#
+_chem_comp.id                   SPC
+_chem_comp.name                 'N-HYDROXY 1N(4-METHOXYPHENYL)SULFONYL-4-(Z,E-N-METHOXYIMINO)PYRROLIDINE-2R-CARBOXAMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        345.370
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SPC  C1    .  C  0  ?  ?  ?  1  1 
+SPC  C2    .  C  0  ?  ?  ?  1  2 
+SPC  C3    .  C  0  ?  ?  ?  1  3 
+SPC  C4    .  C  0  ?  ?  ?  1  4 
+SPC  C5    .  C  0  ?  ?  ?  1  5 
+SPC  C6    .  C  0  ?  ?  ?  1  6 
+SPC  S11   .  S  0  ?  ?  ?  1  7 
+SPC  O12   .  O  0  ?  ?  ?  1  8 
+SPC  O13   .  O  0  ?  ?  ?  1  9 
+SPC  O35   .  O  0  ?  ?  ?  1  10
+SPC  C8    .  C  0  ?  ?  ?  1  11
+SPC  N14   .  N  0  ?  ?  ?  1  12
+SPC  C15   .  C  0  ?  ?  ?  1  13
+SPC  C16   .  C  0  ?  ?  ?  1  14
+SPC  C17   .  C  0  ?  ?  ?  1  15
+SPC  C29   .  C  0  ?  ?  ?  1  16
+SPC  O31   .  O  0  ?  ?  ?  1  17
+SPC  N32   .  N  0  ?  ?  ?  1  18
+SPC  O33   .  O  0  ?  ?  ?  1  19
+SPC  C18   .  C  0  ?  ?  ?  1  20
+SPC  N23   .  N  0  ?  ?  ?  1  21
+SPC  O24   .  O  0  ?  ?  ?  1  22
+SPC  C25   .  C  0  ?  ?  ?  1  23
+SPC  1H25  .  H  0  ?  ?  ?  0  24
+SPC  2H25  .  H  0  ?  ?  ?  0  25
+SPC  3H25  .  H  0  ?  ?  ?  0  26
+SPC  1H23  .  H  0  ?  ?  ?  0  27
+SPC  1H17  .  H  0  ?  ?  ?  0  28
+SPC  1H16  .  H  0  ?  ?  ?  0  29
+SPC  2H16  .  H  0  ?  ?  ?  0  30
+SPC  1H15  .  H  0  ?  ?  ?  0  31
+SPC  1H18  .  H  0  ?  ?  ?  0  32
+SPC  2H18  .  H  0  ?  ?  ?  0  33
+SPC  1HC6  .  H  0  ?  ?  ?  0  34
+SPC  1HC5  .  H  0  ?  ?  ?  0  35
+SPC  1HC2  .  H  0  ?  ?  ?  0  36
+SPC  1HC3  .  H  0  ?  ?  ?  0  37
+SPC  1HC8  .  H  0  ?  ?  ?  0  38
+SPC  2HC8  .  H  0  ?  ?  ?  0  39
+SPC  3HC8  .  H  0  ?  ?  ?  0  40
+SPC  H32   .  H  0  ?  ?  ?  1  41
+SPC  H33   .  H  0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SPC  C1   C2    DOUB  1 
+SPC  C1   C6    SING  2 
+SPC  C1   S11   SING  3 
+SPC  C2   C3    SING  4 
+SPC  C2   1HC2  SING  5 
+SPC  C3   C4    DOUB  6 
+SPC  C3   1HC3  SING  7 
+SPC  C4   C5    SING  8 
+SPC  C4   O35   SING  9 
+SPC  C5   C6    DOUB  10
+SPC  C5   1HC5  SING  11
+SPC  C6   1HC6  SING  12
+SPC  S11  O12   DOUB  13
+SPC  S11  O13   DOUB  14
+SPC  S11  N14   SING  15
+SPC  O35  C8    SING  16
+SPC  C8   1HC8  SING  17
+SPC  C8   2HC8  SING  18
+SPC  C8   3HC8  SING  19
+SPC  N14  C15   SING  20
+SPC  N14  C18   SING  21
+SPC  C15  C16   SING  22
+SPC  C15  C29   SING  23
+SPC  C15  1H15  SING  24
+SPC  C16  C17   SING  25
+SPC  C16  1H16  SING  26
+SPC  C16  2H16  SING  27
+SPC  C17  C18   SING  28
+SPC  C17  N23   SING  29
+SPC  C17  1H17  SING  30
+SPC  C29  O31   DOUB  31
+SPC  C29  N32   SING  32
+SPC  N32  O33   SING  33
+SPC  N32  H32   SING  34
+SPC  O33  H33   SING  35
+SPC  C18  1H18  SING  36
+SPC  C18  2H18  SING  37
+SPC  N23  O24   SING  38
+SPC  N23  1H23  SING  39
+SPC  O24  C25   SING  40
+SPC  C25  1H25  SING  41
+SPC  C25  2H25  SING  42
+SPC  C25  3H25  SING  43
+#

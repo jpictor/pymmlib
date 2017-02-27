@@ -1,0 +1,82 @@
+data_TSC
+#
+_chem_comp.id                   TSC
+_chem_comp.name                 (1S)-1-AMINO-2-(1H-INDOL-3-YL)ETHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSC  O1   .  O  0  3.234  -4.247  39.828  1  1 
+TSC  CA   .  C  0  3.626  -2.925  40.205  1  2 
+TSC  N    .  N  0  2.663  -2.428  41.210  1  3 
+TSC  CB   .  C  0  3.675  -2.066  38.930  1  4 
+TSC  CG   .  C  0  5.061  -2.224  38.345  1  5 
+TSC  CD1  .  C  0  6.221  -1.630  38.830  1  6 
+TSC  NE1  .  N  0  7.272  -2.023  38.065  1  7 
+TSC  CE2  .  C  0  6.835  -2.871  37.107  1  8 
+TSC  CD2  .  C  0  5.455  -3.007  37.268  1  9 
+TSC  CZ2  .  C  0  7.485  -3.546  36.077  1  10
+TSC  CH2  .  C  0  6.756  -4.371  35.216  1  11
+TSC  CZ3  .  C  0  5.364  -4.497  35.386  1  12
+TSC  CE3  .  C  0  4.709  -3.813  36.422  1  13
+TSC  HO1  .  H  0  ?      ?       ?       1  14
+TSC  HA   .  H  0  ?      ?       ?       1  15
+TSC  1HN  .  H  0  ?      ?       ?       0  16
+TSC  2HN  .  H  0  ?      ?       ?       0  17
+TSC  1HB  .  H  0  ?      ?       ?       0  18
+TSC  2HB  .  H  0  ?      ?       ?       0  19
+TSC  HD1  .  H  0  ?      ?       ?       1  20
+TSC  HE1  .  H  0  ?      ?       ?       1  21
+TSC  HZ2  .  H  0  ?      ?       ?       1  22
+TSC  HH2  .  H  0  ?      ?       ?       1  23
+TSC  HZ3  .  H  0  ?      ?       ?       1  24
+TSC  HE3  .  H  0  ?      ?       ?       1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSC  O1   HO1  SING  1 
+TSC  O1   CA   SING  2 
+TSC  CA   HA   SING  3 
+TSC  CA   N    SING  4 
+TSC  CA   CB   SING  5 
+TSC  N    1HN  SING  6 
+TSC  N    2HN  SING  7 
+TSC  CB   1HB  SING  8 
+TSC  CB   2HB  SING  9 
+TSC  CB   CG   SING  10
+TSC  CG   CD1  AROM  11
+TSC  CG   CD2  AROM  12
+TSC  CD1  HD1  SING  13
+TSC  CD1  NE1  AROM  14
+TSC  NE1  HE1  SING  15
+TSC  NE1  CE2  AROM  16
+TSC  CE2  CZ2  AROM  17
+TSC  CE2  CD2  AROM  18
+TSC  CD2  CE3  AROM  19
+TSC  CZ2  HZ2  SING  20
+TSC  CZ2  CH2  AROM  21
+TSC  CH2  HH2  SING  22
+TSC  CH2  CZ3  AROM  23
+TSC  CZ3  HZ3  SING  24
+TSC  CZ3  CE3  AROM  25
+TSC  CE3  HE3  SING  26
+#

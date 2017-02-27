@@ -1,0 +1,102 @@
+data_NEV
+#
+_chem_comp.id                   NEV
+_chem_comp.name                 NEVIRAPINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H14 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.302
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEV  N1    .  N  0  ?  ?  ?  1  1 
+NEV  C2    .  C  0  ?  ?  ?  1  2 
+NEV  C3    .  C  0  ?  ?  ?  1  3 
+NEV  C4    .  C  0  ?  ?  ?  1  4 
+NEV  C4A   .  C  0  ?  ?  ?  1  5 
+NEV  N5    .  N  0  ?  ?  ?  1  6 
+NEV  C6    .  C  0  ?  ?  ?  1  7 
+NEV  C6A   .  C  0  ?  ?  ?  1  8 
+NEV  C7    .  C  0  ?  ?  ?  1  9 
+NEV  C8    .  C  0  ?  ?  ?  1  10
+NEV  C9    .  C  0  ?  ?  ?  1  11
+NEV  N10   .  N  0  ?  ?  ?  1  12
+NEV  C10   .  C  0  ?  ?  ?  1  13
+NEV  N11   .  N  0  ?  ?  ?  1  14
+NEV  C11   .  C  0  ?  ?  ?  1  15
+NEV  C12   .  C  0  ?  ?  ?  1  16
+NEV  O13   .  O  0  ?  ?  ?  1  17
+NEV  C14   .  C  0  ?  ?  ?  1  18
+NEV  C15   .  C  0  ?  ?  ?  1  19
+NEV  C16   .  C  0  ?  ?  ?  1  20
+NEV  H2    .  H  0  ?  ?  ?  1  21
+NEV  H3    .  H  0  ?  ?  ?  1  22
+NEV  HN5   .  H  0  ?  ?  ?  1  23
+NEV  H7    .  H  0  ?  ?  ?  1  24
+NEV  H8    .  H  0  ?  ?  ?  1  25
+NEV  H9    .  H  0  ?  ?  ?  1  26
+NEV  1H12  .  H  0  ?  ?  ?  0  27
+NEV  2H12  .  H  0  ?  ?  ?  0  28
+NEV  3H12  .  H  0  ?  ?  ?  0  29
+NEV  H14   .  H  0  ?  ?  ?  1  30
+NEV  1H15  .  H  0  ?  ?  ?  0  31
+NEV  2H15  .  H  0  ?  ?  ?  0  32
+NEV  1H16  .  H  0  ?  ?  ?  0  33
+NEV  2H16  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEV  N1   C2    DOUB  1 
+NEV  N1   C11   SING  2 
+NEV  C2   C3    SING  3 
+NEV  C2   H2    SING  4 
+NEV  C3   C4    DOUB  5 
+NEV  C3   H3    SING  6 
+NEV  C4   C4A   SING  7 
+NEV  C4   C12   SING  8 
+NEV  C4A  N5    SING  9 
+NEV  C4A  C11   DOUB  10
+NEV  N5   C6    SING  11
+NEV  N5   HN5   SING  12
+NEV  C6   C6A   SING  13
+NEV  C6   O13   DOUB  14
+NEV  C6A  C7    DOUB  15
+NEV  C6A  C10   SING  16
+NEV  C7   C8    SING  17
+NEV  C7   H7    SING  18
+NEV  C8   C9    DOUB  19
+NEV  C8   H8    SING  20
+NEV  C9   N10   SING  21
+NEV  C9   H9    SING  22
+NEV  N10  C10   DOUB  23
+NEV  C10  N11   SING  24
+NEV  N11  C11   SING  25
+NEV  N11  C14   SING  26
+NEV  C12  1H12  SING  27
+NEV  C12  2H12  SING  28
+NEV  C12  3H12  SING  29
+NEV  C14  C15   SING  30
+NEV  C14  C16   SING  31
+NEV  C14  H14   SING  32
+NEV  C15  C16   SING  33
+NEV  C15  1H15  SING  34
+NEV  C15  2H15  SING  35
+NEV  C16  1H16  SING  36
+NEV  C16  2H16  SING  37
+#

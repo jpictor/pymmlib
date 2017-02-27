@@ -1,0 +1,137 @@
+data_MGP
+#
+_chem_comp.id                   MGP
+_chem_comp.name                 7-METHYL-GUANOSINE-5'-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N5 O14 P3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       538.217
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGP  PA    .  P  0  ?  ?  ?  1  1 
+MGP  O1A   .  O  0  ?  ?  ?  1  2 
+MGP  O2A   .  O  0  ?  ?  ?  1  3 
+MGP  O3A   .  O  0  ?  ?  ?  1  4 
+MGP  O5*   .  O  0  ?  ?  ?  1  5 
+MGP  PB    .  P  0  ?  ?  ?  1  6 
+MGP  O1B   .  O  0  ?  ?  ?  1  7 
+MGP  O2B   .  O  0  ?  ?  ?  1  8 
+MGP  O3B   .  O  0  ?  ?  ?  1  9 
+MGP  PC    .  P  0  ?  ?  ?  1  10
+MGP  O1C   .  O  0  ?  ?  ?  1  11
+MGP  O2C   .  O  0  ?  ?  ?  1  12
+MGP  O3C   .  O  0  ?  ?  ?  1  13
+MGP  C5*   .  C  0  ?  ?  ?  1  14
+MGP  C4*   .  C  0  ?  ?  ?  1  15
+MGP  O4*   .  O  0  ?  ?  ?  1  16
+MGP  C3*   .  C  0  ?  ?  ?  1  17
+MGP  O3*   .  O  0  ?  ?  ?  1  18
+MGP  C2*   .  C  0  ?  ?  ?  1  19
+MGP  O2*   .  O  0  ?  ?  ?  1  20
+MGP  C1*   .  C  0  ?  ?  ?  1  21
+MGP  N9    .  N  0  ?  ?  ?  1  22
+MGP  C8    .  C  0  ?  ?  ?  1  23
+MGP  N7    .  N  1  ?  ?  ?  1  24
+MGP  CM7   .  C  0  ?  ?  ?  1  25
+MGP  C5    .  C  0  ?  ?  ?  1  26
+MGP  C6    .  C  0  ?  ?  ?  1  27
+MGP  O6    .  O  0  ?  ?  ?  1  28
+MGP  N1    .  N  0  ?  ?  ?  1  29
+MGP  C2    .  C  0  ?  ?  ?  1  30
+MGP  N2    .  N  0  ?  ?  ?  1  31
+MGP  N3    .  N  0  ?  ?  ?  1  32
+MGP  C4    .  C  0  ?  ?  ?  1  33
+MGP  2HOC  .  H  0  ?  ?  ?  0  34
+MGP  3HOC  .  H  0  ?  ?  ?  0  35
+MGP  2HOB  .  H  0  ?  ?  ?  0  36
+MGP  2HOA  .  H  0  ?  ?  ?  0  37
+MGP  1H5*  .  H  0  ?  ?  ?  0  38
+MGP  2H5*  .  H  0  ?  ?  ?  0  39
+MGP  H4*   .  H  0  ?  ?  ?  1  40
+MGP  H3*   .  H  0  ?  ?  ?  1  41
+MGP  *HO3  .  H  0  ?  ?  ?  0  42
+MGP  H2*   .  H  0  ?  ?  ?  1  43
+MGP  *HO2  .  H  0  ?  ?  ?  0  44
+MGP  H1*   .  H  0  ?  ?  ?  1  45
+MGP  H8    .  H  0  ?  ?  ?  1  46
+MGP  HN1   .  H  0  ?  ?  ?  1  47
+MGP  1HN2  .  H  0  ?  ?  ?  0  48
+MGP  2HN2  .  H  0  ?  ?  ?  0  49
+MGP  1HC7  .  H  0  ?  ?  ?  0  50
+MGP  2HC7  .  H  0  ?  ?  ?  0  51
+MGP  3HC7  .  H  0  ?  ?  ?  0  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGP  PA   O1A   DOUB  1 
+MGP  PA   O2A   SING  2 
+MGP  PA   O3A   SING  3 
+MGP  PA   O5*   SING  4 
+MGP  O2A  2HOA  SING  5 
+MGP  O3A  PB    SING  6 
+MGP  O5*  C5*   SING  7 
+MGP  PB   O1B   DOUB  8 
+MGP  PB   O2B   SING  9 
+MGP  PB   O3B   SING  10
+MGP  O2B  2HOB  SING  11
+MGP  O3B  PC    SING  12
+MGP  PC   O1C   DOUB  13
+MGP  PC   O2C   SING  14
+MGP  PC   O3C   SING  15
+MGP  O2C  2HOC  SING  16
+MGP  O3C  3HOC  SING  17
+MGP  C5*  C4*   SING  18
+MGP  C5*  1H5*  SING  19
+MGP  C5*  2H5*  SING  20
+MGP  C4*  O4*   SING  21
+MGP  C4*  C3*   SING  22
+MGP  C4*  H4*   SING  23
+MGP  O4*  C1*   SING  24
+MGP  C3*  O3*   SING  25
+MGP  C3*  C2*   SING  26
+MGP  C3*  H3*   SING  27
+MGP  O3*  *HO3  SING  28
+MGP  C2*  O2*   SING  29
+MGP  C2*  C1*   SING  30
+MGP  C2*  H2*   SING  31
+MGP  O2*  *HO2  SING  32
+MGP  C1*  N9    SING  33
+MGP  C1*  H1*   SING  34
+MGP  N9   C8    SING  35
+MGP  N9   C4    SING  36
+MGP  C8   N7    DOUB  37
+MGP  C8   H8    SING  38
+MGP  N7   CM7   SING  39
+MGP  N7   C5    SING  40
+MGP  CM7  1HC7  SING  41
+MGP  CM7  2HC7  SING  42
+MGP  CM7  3HC7  SING  43
+MGP  C5   C6    SING  44
+MGP  C5   C4    DOUB  45
+MGP  C6   O6    DOUB  46
+MGP  C6   N1    SING  47
+MGP  N1   C2    SING  48
+MGP  N1   HN1   SING  49
+MGP  C2   N2    SING  50
+MGP  C2   N3    DOUB  51
+MGP  N2   1HN2  SING  52
+MGP  N2   2HN2  SING  53
+MGP  N3   C4    SING  54
+#

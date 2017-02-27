@@ -1,0 +1,68 @@
+data_IHG
+#
+_chem_comp.id                   IHG
+_chem_comp.name                 N-ISOPROPYL-N'-HYDROXYGUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N3 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.150
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IHG  C1    .  C  0  11.777  1.714   61.630  1  1 
+IHG  C2    .  C  0  12.111  1.476   60.146  1  2 
+IHG  C3    .  C  0  11.699  2.677   59.269  1  3 
+IHG  NE    .  N  0  11.391  0.242   59.679  1  4 
+IHG  CZ    .  C  0  12.110  -0.450  58.752  1  5 
+IHG  NH1   .  N  0  11.629  -1.583  58.247  1  6 
+IHG  NH2   .  N  0  13.315  -0.009  58.325  1  7 
+IHG  OH    .  O  0  10.375  -1.962  58.333  1  8 
+IHG  1H3   .  H  0  ?       ?       ?       0  9 
+IHG  2H3   .  H  0  ?       ?       ?       0  10
+IHG  3H3   .  H  0  ?       ?       ?       0  11
+IHG  1H1   .  H  0  ?       ?       ?       0  12
+IHG  2H1   .  H  0  ?       ?       ?       0  13
+IHG  3H1   .  H  0  ?       ?       ?       0  14
+IHG  1H2   .  H  0  ?       ?       ?       0  15
+IHG  1HE   .  H  0  ?       ?       ?       0  16
+IHG  1HH1  .  H  0  ?       ?       ?       0  17
+IHG  1HH2  .  H  0  ?       ?       ?       0  18
+IHG  1HH   .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IHG  C1   C2    SING  1 
+IHG  C1   1H1   SING  2 
+IHG  C1   2H1   SING  3 
+IHG  C1   3H1   SING  4 
+IHG  C2   C3    SING  5 
+IHG  C2   NE    SING  6 
+IHG  C2   1H2   SING  7 
+IHG  C3   1H3   SING  8 
+IHG  C3   2H3   SING  9 
+IHG  C3   3H3   SING  10
+IHG  NE   CZ    SING  11
+IHG  NE   1HE   SING  12
+IHG  CZ   NH1   SING  13
+IHG  CZ   NH2   DOUB  14
+IHG  NH1  OH    SING  15
+IHG  NH1  1HH1  SING  16
+IHG  NH2  1HH2  SING  17
+IHG  OH   1HH   SING  18
+#

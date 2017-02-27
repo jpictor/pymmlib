@@ -1,0 +1,120 @@
+data_2EG
+#
+_chem_comp.id                       2EG
+_chem_comp.name                     '2'-DEOXY-N-ETHYLGUANOSINE 5'-PHOSPHATE'
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            371.246
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          2EG
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCNC1=NC2=C(C(=O)N1)N=CN2[C@H]3C[C@@H]([C@H](O3)COP(=O)(O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+2EG  O3P   .  O  0  -5.478  7.732   16.349  1  N  1 
+2EG  O1P   .  O  0  -4.974  8.687   18.604  1  N  2 
+2EG  P     .  P  0  -6.052  8.076   17.804  1  N  3 
+2EG  O2P   .  O  0  -7.343  8.767   17.626  1  N  4 
+2EG  O5*   .  O  0  -6.355  6.629   18.409  1  N  5 
+2EG  C5*   .  C  0  -7.379  5.831   17.847  1  N  6 
+2EG  C4*   .  C  0  -7.392  4.427   18.446  1  N  7 
+2EG  O4*   .  O  0  -6.226  3.705   18.066  1  N  8 
+2EG  C3*   .  C  0  -7.491  4.416   19.977  1  N  9 
+2EG  O3*   .  O  0  -8.497  3.462   20.270  1  N  10
+2EG  C2*   .  C  0  -6.073  4.002   20.373  1  N  11
+2EG  C1*   .  C  0  -5.710  3.071   19.220  1  N  12
+2EG  N9    .  N  0  -4.260  2.799   19.056  1  N  13
+2EG  C4    .  C  0  -3.738  1.590   18.671  1  N  14
+2EG  N3    .  N  0  -4.452  0.471   18.374  1  N  15
+2EG  C8    .  C  0  -3.170  3.609   19.267  1  N  16
+2EG  N7    .  N  0  -2.016  3.031   19.047  1  N  17
+2EG  C5    .  C  0  -2.367  1.726   18.665  1  N  18
+2EG  C6    .  C  0  -1.574  0.579   18.307  1  N  19
+2EG  O6    .  O  0  -0.347  0.474   18.224  1  N  20
+2EG  N1    .  N  0  -2.327  -0.554  18.047  1  N  21
+2EG  C2    .  C  0  -3.702  -0.600  18.073  1  N  22
+2EG  N2    .  N  0  -4.273  -1.768  17.757  1  N  23
+2EG  C21   .  C  0  -5.713  -1.963  17.550  1  N  24
+2EG  C22   .  C  0  -6.172  -3.209  18.309  1  N  25
+2EG  1H5*  .  H  0  -7.230  5.750   16.769  0  N  26
+2EG  2H5*  .  H  0  -8.342  6.308   18.034  0  N  27
+2EG  H4*   .  H  0  -8.259  3.902   18.044  1  N  28
+2EG  H3*   .  H  0  -7.749  5.396   20.381  1  N  29
+2EG  1H2*  .  H  0  -5.432  4.883   20.366  0  N  30
+2EG  2H2*  .  H  0  -6.031  3.506   21.342  0  N  31
+2EG  H1*   .  H  0  -6.235  2.123   19.371  1  N  32
+2EG  H8    .  H  0  -3.268  4.639   19.578  1  N  33
+2EG  H1    .  H  0  -1.801  -1.397  17.853  1  N  34
+2EG  1H2   .  H  0  -3.678  -2.574  17.589  0  N  35
+2EG  1H21  .  H  0  -6.273  -1.118  17.946  0  N  36
+2EG  1H22  .  H  0  -5.844  -3.146  19.346  0  N  37
+2EG  2H22  .  H  0  -5.742  -4.105  17.860  0  N  38
+2EG  3H22  .  H  0  -7.259  -3.274  18.294  0  N  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+2EG  O3P  P     DOUB  N  1 
+2EG  O1P  P     SING  N  2 
+2EG  P    O2P   SING  N  3 
+2EG  P    O5*   SING  N  4 
+2EG  O5*  C5*   SING  N  5 
+2EG  C5*  1H5*  SING  N  6 
+2EG  C5*  2H5*  SING  N  7 
+2EG  C5*  C4*   SING  N  8 
+2EG  C4*  H4*   SING  N  9 
+2EG  C4*  O4*   SING  N  10
+2EG  C4*  C3*   SING  N  11
+2EG  O4*  C1*   SING  N  12
+2EG  C3*  O3*   SING  N  13
+2EG  C3*  C2*   SING  N  14
+2EG  C3*  H3*   SING  N  15
+2EG  C2*  C1*   SING  N  16
+2EG  C2*  1H2*  SING  N  17
+2EG  C2*  2H2*  SING  N  18
+2EG  C1*  N9    SING  N  19
+2EG  C1*  H1*   SING  N  20
+2EG  N9   C4    SING  N  21
+2EG  N9   C8    SING  N  22
+2EG  C4   N3    SING  N  23
+2EG  C4   C5    DOUB  N  24
+2EG  N3   C2    DOUB  N  25
+2EG  C8   N7    DOUB  N  26
+2EG  C8   H8    SING  N  27
+2EG  N7   C5    SING  N  28
+2EG  C5   C6    SING  N  29
+2EG  C6   N1    SING  N  30
+2EG  C6   O6    DOUB  N  31
+2EG  N1   H1    SING  N  32
+2EG  N1   C2    SING  N  33
+2EG  C2   N2    SING  N  34
+2EG  N2   C21   SING  N  35
+2EG  N2   1H2   SING  N  36
+2EG  C21  1H21  SING  N  37
+2EG  C21  C22   SING  N  38
+2EG  C22  2H22  SING  N  39
+2EG  C22  3H22  SING  N  40
+2EG  C22  1H22  SING  N  41
+#

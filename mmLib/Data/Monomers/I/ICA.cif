@@ -1,0 +1,72 @@
+data_ICA
+#
+_chem_comp.id                   ICA
+_chem_comp.name                 'ISOCITRATE CALCIUM COMPLEX'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H7 O7 CA1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        231.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ICA  C1   .  C   0  ?  ?  ?  1  1 
+ICA  C2   .  C   0  ?  ?  ?  1  2 
+ICA  C3   .  C   0  ?  ?  ?  1  3 
+ICA  C4   .  C   0  ?  ?  ?  1  4 
+ICA  C5   .  C   0  ?  ?  ?  1  5 
+ICA  C6   .  C   0  ?  ?  ?  1  6 
+ICA  O1   .  O   0  ?  ?  ?  1  7 
+ICA  O2   .  O   0  ?  ?  ?  1  8 
+ICA  O3   .  O   0  ?  ?  ?  1  9 
+ICA  O4   .  O   0  ?  ?  ?  1  10
+ICA  O5   .  O   0  ?  ?  ?  1  11
+ICA  O6   .  O   0  ?  ?  ?  1  12
+ICA  O7   .  O   0  ?  ?  ?  1  13
+ICA  CA   .  CA  0  ?  ?  ?  0  14
+ICA  H2   .  H   0  ?  ?  ?  1  15
+ICA  H3   .  H   0  ?  ?  ?  1  16
+ICA  HO2  .  H   0  ?  ?  ?  1  17
+ICA  HO4  .  H   0  ?  ?  ?  1  18
+ICA  HO6  .  H   0  ?  ?  ?  1  19
+ICA  1H4  .  H   0  ?  ?  ?  0  20
+ICA  2H4  .  H   0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ICA  C1  O1   DOUB  1 
+ICA  C1  O2   SING  2 
+ICA  C1  C2   SING  3 
+ICA  C2  C3   SING  4 
+ICA  C2  O7   SING  5 
+ICA  C2  H2   SING  6 
+ICA  C3  C6   SING  7 
+ICA  C3  C4   SING  8 
+ICA  C3  H3   SING  9 
+ICA  C4  C5   SING  10
+ICA  C4  1H4  SING  11
+ICA  C4  2H4  SING  12
+ICA  C5  O3   DOUB  13
+ICA  C5  O4   SING  14
+ICA  C6  O5   DOUB  15
+ICA  C6  O6   SING  16
+ICA  O2  HO2  SING  17
+ICA  O4  HO4  SING  18
+ICA  O6  HO6  SING  19
+ICA  O7  CA   SING  20
+#

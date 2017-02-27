@@ -1,0 +1,115 @@
+data_TCK
+#
+_chem_comp.id                   TCK
+_chem_comp.name                 'N-TOSYL-L-LYSINYL METHYL KETONE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H22 N2 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.399
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCK  C1    .  C  0  ?  ?  ?  1  1 
+TCK  C2    .  C  0  ?  ?  ?  1  2 
+TCK  C3    .  C  0  ?  ?  ?  1  3 
+TCK  C4    .  C  0  ?  ?  ?  1  4 
+TCK  C5    .  C  0  ?  ?  ?  1  5 
+TCK  C6    .  C  0  ?  ?  ?  1  6 
+TCK  C7    .  C  0  ?  ?  ?  1  7 
+TCK  S     .  S  0  ?  ?  ?  1  8 
+TCK  OS1   .  O  0  ?  ?  ?  1  9 
+TCK  OS2   .  O  0  ?  ?  ?  1  10
+TCK  N     .  N  0  ?  ?  ?  1  11
+TCK  CA    .  C  0  ?  ?  ?  1  12
+TCK  C     .  C  0  ?  ?  ?  1  13
+TCK  O     .  O  0  ?  ?  ?  1  14
+TCK  C8    .  C  0  ?  ?  ?  1  15
+TCK  CB    .  C  0  ?  ?  ?  1  16
+TCK  CG    .  C  0  ?  ?  ?  1  17
+TCK  CD    .  C  0  ?  ?  ?  1  18
+TCK  CE    .  C  0  ?  ?  ?  1  19
+TCK  NZ    .  N  0  ?  ?  ?  1  20
+TCK  1H1   .  H  0  ?  ?  ?  0  21
+TCK  2H1   .  H  0  ?  ?  ?  0  22
+TCK  3H1   .  H  0  ?  ?  ?  0  23
+TCK  H3    .  H  0  ?  ?  ?  1  24
+TCK  H4    .  H  0  ?  ?  ?  1  25
+TCK  H5    .  H  0  ?  ?  ?  1  26
+TCK  H6    .  H  0  ?  ?  ?  1  27
+TCK  HN    .  H  0  ?  ?  ?  1  28
+TCK  HA    .  H  0  ?  ?  ?  1  29
+TCK  1H8   .  H  0  ?  ?  ?  0  30
+TCK  2H8   .  H  0  ?  ?  ?  0  31
+TCK  3H8   .  H  0  ?  ?  ?  0  32
+TCK  1HB   .  H  0  ?  ?  ?  0  33
+TCK  2HB   .  H  0  ?  ?  ?  0  34
+TCK  1HG   .  H  0  ?  ?  ?  0  35
+TCK  2HG   .  H  0  ?  ?  ?  0  36
+TCK  1HD   .  H  0  ?  ?  ?  0  37
+TCK  2HD   .  H  0  ?  ?  ?  0  38
+TCK  1HE   .  H  0  ?  ?  ?  0  39
+TCK  2HE   .  H  0  ?  ?  ?  0  40
+TCK  1HNZ  .  H  0  ?  ?  ?  0  41
+TCK  2HNZ  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCK  C1  C2    SING  1 
+TCK  C1  1H1   SING  2 
+TCK  C1  2H1   SING  3 
+TCK  C1  3H1   SING  4 
+TCK  C2  C3    DOUB  5 
+TCK  C2  C4    SING  6 
+TCK  C3  C5    SING  7 
+TCK  C3  H3    SING  8 
+TCK  C4  C6    DOUB  9 
+TCK  C4  H4    SING  10
+TCK  C5  C7    DOUB  11
+TCK  C5  H5    SING  12
+TCK  C6  C7    SING  13
+TCK  C6  H6    SING  14
+TCK  C7  S     SING  15
+TCK  S   N     SING  16
+TCK  S   OS1   DOUB  17
+TCK  S   OS2   DOUB  18
+TCK  N   CA    SING  19
+TCK  N   HN    SING  20
+TCK  CA  C     SING  21
+TCK  CA  CB    SING  22
+TCK  CA  HA    SING  23
+TCK  C   O     DOUB  24
+TCK  C   C8    SING  25
+TCK  C8  1H8   SING  26
+TCK  C8  2H8   SING  27
+TCK  C8  3H8   SING  28
+TCK  CB  CG    SING  29
+TCK  CB  1HB   SING  30
+TCK  CB  2HB   SING  31
+TCK  CG  CD    SING  32
+TCK  CG  1HG   SING  33
+TCK  CG  2HG   SING  34
+TCK  CD  CE    SING  35
+TCK  CD  1HD   SING  36
+TCK  CD  2HD   SING  37
+TCK  CE  NZ    SING  38
+TCK  CE  1HE   SING  39
+TCK  CE  2HE   SING  40
+TCK  NZ  1HNZ  SING  41
+TCK  NZ  2HNZ  SING  42
+#

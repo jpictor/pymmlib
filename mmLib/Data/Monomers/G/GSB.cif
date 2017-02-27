@@ -1,0 +1,131 @@
+data_GSB
+#
+_chem_comp.id                   GSB
+_chem_comp.name                 S-BENZYL-GLUTATHIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H23 N3 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        397.445
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSB  N1    .  N  0  ?  ?  ?  1  1 
+GSB  CA1   .  C  0  ?  ?  ?  1  2 
+GSB  C1    .  C  0  ?  ?  ?  1  3 
+GSB  O11   .  O  0  ?  ?  ?  1  4 
+GSB  O12   .  O  0  ?  ?  ?  1  5 
+GSB  CB1   .  C  0  ?  ?  ?  1  6 
+GSB  CG1   .  C  0  ?  ?  ?  1  7 
+GSB  CD1   .  C  0  ?  ?  ?  1  8 
+GSB  OE1   .  O  0  ?  ?  ?  1  9 
+GSB  N2    .  N  0  ?  ?  ?  1  10
+GSB  CA2   .  C  0  ?  ?  ?  1  11
+GSB  C2    .  C  0  ?  ?  ?  1  12
+GSB  O2    .  O  0  ?  ?  ?  1  13
+GSB  N3    .  N  0  ?  ?  ?  1  14
+GSB  CA3   .  C  0  ?  ?  ?  1  15
+GSB  C3    .  C  0  ?  ?  ?  1  16
+GSB  O31   .  O  0  ?  ?  ?  1  17
+GSB  O32   .  O  0  ?  ?  ?  1  18
+GSB  CB2   .  C  0  ?  ?  ?  1  19
+GSB  SG2   .  S  0  ?  ?  ?  1  20
+GSB  C'    .  C  0  ?  ?  ?  1  21
+GSB  C1'   .  C  0  ?  ?  ?  1  22
+GSB  C2'   .  C  0  ?  ?  ?  1  23
+GSB  C3'   .  C  0  ?  ?  ?  1  24
+GSB  C4'   .  C  0  ?  ?  ?  1  25
+GSB  C5'   .  C  0  ?  ?  ?  1  26
+GSB  C6'   .  C  0  ?  ?  ?  1  27
+GSB  1HN1  .  H  0  ?  ?  ?  0  28
+GSB  2HN1  .  H  0  ?  ?  ?  0  29
+GSB  HA1   .  H  0  ?  ?  ?  1  30
+GSB  HO1   .  H  0  ?  ?  ?  1  31
+GSB  1HB1  .  H  0  ?  ?  ?  0  32
+GSB  2HB1  .  H  0  ?  ?  ?  0  33
+GSB  1HG1  .  H  0  ?  ?  ?  0  34
+GSB  2HG1  .  H  0  ?  ?  ?  0  35
+GSB  HN2   .  H  0  ?  ?  ?  1  36
+GSB  HA2   .  H  0  ?  ?  ?  1  37
+GSB  HN3   .  H  0  ?  ?  ?  1  38
+GSB  1HA3  .  H  0  ?  ?  ?  0  39
+GSB  2HA3  .  H  0  ?  ?  ?  0  40
+GSB  HO3   .  H  0  ?  ?  ?  1  41
+GSB  1HB2  .  H  0  ?  ?  ?  0  42
+GSB  2HB2  .  H  0  ?  ?  ?  0  43
+GSB  1H'   .  H  0  ?  ?  ?  0  44
+GSB  2H'   .  H  0  ?  ?  ?  0  45
+GSB  H2'   .  H  0  ?  ?  ?  1  46
+GSB  H3'   .  H  0  ?  ?  ?  1  47
+GSB  H4'   .  H  0  ?  ?  ?  1  48
+GSB  H5'   .  H  0  ?  ?  ?  1  49
+GSB  H6'   .  H  0  ?  ?  ?  1  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSB  N1   CA1   SING  1 
+GSB  N1   1HN1  SING  2 
+GSB  N1   2HN1  SING  3 
+GSB  CA1  C1    SING  4 
+GSB  CA1  CB1   SING  5 
+GSB  CA1  HA1   SING  6 
+GSB  C1   O11   DOUB  7 
+GSB  C1   O12   SING  8 
+GSB  O12  HO1   SING  9 
+GSB  CB1  CG1   SING  10
+GSB  CB1  1HB1  SING  11
+GSB  CB1  2HB1  SING  12
+GSB  CG1  CD1   SING  13
+GSB  CG1  1HG1  SING  14
+GSB  CG1  2HG1  SING  15
+GSB  CD1  OE1   DOUB  16
+GSB  CD1  N2    SING  17
+GSB  N2   CA2   SING  18
+GSB  N2   HN2   SING  19
+GSB  CA2  C2    SING  20
+GSB  CA2  CB2   SING  21
+GSB  CA2  HA2   SING  22
+GSB  C2   O2    DOUB  23
+GSB  C2   N3    SING  24
+GSB  N3   CA3   SING  25
+GSB  N3   HN3   SING  26
+GSB  CA3  C3    SING  27
+GSB  CA3  1HA3  SING  28
+GSB  CA3  2HA3  SING  29
+GSB  C3   O31   DOUB  30
+GSB  C3   O32   SING  31
+GSB  O32  HO3   SING  32
+GSB  CB2  SG2   SING  33
+GSB  CB2  1HB2  SING  34
+GSB  CB2  2HB2  SING  35
+GSB  SG2  C'    SING  36
+GSB  C'   C1'   SING  37
+GSB  C'   1H'   SING  38
+GSB  C'   2H'   SING  39
+GSB  C1'  C2'   DOUB  40
+GSB  C1'  C6'   SING  41
+GSB  C2'  C3'   SING  42
+GSB  C2'  H2'   SING  43
+GSB  C3'  C4'   DOUB  44
+GSB  C3'  H3'   SING  45
+GSB  C4'  C5'   SING  46
+GSB  C4'  H4'   SING  47
+GSB  C5'  C6'   DOUB  48
+GSB  C5'  H5'   SING  49
+GSB  C6'  H6'   SING  50
+#

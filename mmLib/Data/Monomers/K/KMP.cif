@@ -1,0 +1,96 @@
+data_KMP
+#
+_chem_comp.id                   KMP
+_chem_comp.name                 3,5,7-TRIHYDROXY-2-(4-HYDROXYPHENYL)-4H-CHROMEN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O6'
+_chem_comp.pdbx_synonyms        KAEMPHEROL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.240
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KMP  C1   .  C  0  69.013  8.475   79.787  1  1 
+KMP  C2   .  C  0  67.633  8.488   79.449  1  2 
+KMP  C3   .  C  0  67.256  8.653   78.027  1  3 
+KMP  C4   .  C  0  68.299  8.871   77.016  1  4 
+KMP  C5   .  C  0  69.612  8.872   77.43   1  5 
+KMP  C6   .  C  0  69.97   8.683   78.77   1  6 
+KMP  C9   .  C  0  65.846  8.677   77.557  1  7 
+KMP  C10  .  C  0  65.568  8.882   76.124  1  8 
+KMP  C11  .  C  0  66.598  9.071   75.236  1  9 
+KMP  C14  .  C  0  66.496  9.672   73.84   1  10
+KMP  C15  .  C  0  67.674  10.137  73.25   1  11
+KMP  C16  .  C  0  67.72   10.693  71.982  1  12
+KMP  C17  .  C  0  66.492  10.786  71.303  1  13
+KMP  C18  .  C  0  65.307  10.31   71.867  1  14
+KMP  C19  .  C  0  65.289  9.767   73.147  1  15
+KMP  O12  .  O  0  67.957  9.033   75.712  1  16
+KMP  O13  .  O  0  64.991  8.537   78.418  1  17
+KMP  O24  .  O  0  66.462  11.296  70.092  1  18
+KMP  O27  .  O  0  64.293  8.85    75.723  1  19
+KMP  O29  .  O  0  71.275  8.693   79.011  1  20
+KMP  O30  .  O  0  66.667  8.308   80.365  1  21
+KMP  H30  .  H  0  66.909  8.202   81.278  1  22
+KMP  H1   .  H  0  69.332  8.305   80.829  1  23
+KMP  H5   .  H  0  70.408  9.027   76.682  1  24
+KMP  H29  .  H  0  71.919  8.833   78.327  1  25
+KMP  H27  .  H  0  64.114  8.982   74.799  1  26
+KMP  H15  .  H  0  68.614  10.057  73.822  1  27
+KMP  H19  .  H  0  64.346  9.421   73.602  1  28
+KMP  H16  .  H  0  68.664  11.042  71.531  1  29
+KMP  H24  .  H  0  65.632  11.359  69.633  1  30
+KMP  H18  .  H  0  64.37   10.366  71.288  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KMP  C1   H1   SING  1 
+KMP  C1   C2   AROM  2 
+KMP  C1   C6   AROM  3 
+KMP  C2   O30  SING  4 
+KMP  C2   C3   AROM  5 
+KMP  C3   C4   AROM  6 
+KMP  C3   C9   SING  7 
+KMP  C4   C5   AROM  8 
+KMP  C4   O12  SING  9 
+KMP  C5   C6   AROM  10
+KMP  C5   H5   SING  11
+KMP  C6   O29  SING  12
+KMP  C9   C10  SING  13
+KMP  C9   O13  DOUB  14
+KMP  C10  O27  SING  15
+KMP  C10  C11  DOUB  16
+KMP  C11  C14  SING  17
+KMP  C11  O12  SING  18
+KMP  C14  C15  AROM  19
+KMP  C14  C19  AROM  20
+KMP  C15  C16  AROM  21
+KMP  C15  H15  SING  22
+KMP  C16  C17  AROM  23
+KMP  C16  H16  SING  24
+KMP  C17  O24  SING  25
+KMP  C17  C18  AROM  26
+KMP  C18  C19  AROM  27
+KMP  C18  H18  SING  28
+KMP  C19  H19  SING  29
+KMP  O24  H24  SING  30
+KMP  O27  H27  SING  31
+KMP  O29  H29  SING  32
+KMP  O30  H30  SING  33
+#

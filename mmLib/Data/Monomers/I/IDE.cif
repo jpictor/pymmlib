@@ -1,0 +1,116 @@
+data_IDE
+#
+_chem_comp.id                   IDE
+_chem_comp.name                 (5R,6R,7S,8S)-3-(ANILINOMETHYL)-5,6,7,8-TETRAHYDRO-5-(HYDROXYMETHYL)-IMIDAZO[1,2-A]PYRIDINE-6,7,8-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H19 N3 O4'
+_chem_comp.pdbx_synonyms        'ANILINOMETHYL GLUCO-PHENYLIMIDAZOLE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        305.333
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IDE  O6B   .  O  0  22.647  26.518  33.108  1  1 
+IDE  C6B   .  C  0  23.471  25.382  32.881  1  2 
+IDE  C5B   .  C  0  23.913  24.809  34.233  1  3 
+IDE  C4B   .  C  0  22.755  24.162  35.028  1  4 
+IDE  O4B   .  O  0  22.153  23.094  34.289  1  5 
+IDE  C3B   .  C  0  23.222  23.627  36.400  1  6 
+IDE  O3B   .  O  0  22.122  23.002  37.088  1  7 
+IDE  C2B   .  C  0  23.764  24.735  37.304  1  8 
+IDE  O2B   .  O  0  24.646  24.235  38.314  1  9 
+IDE  N1B   .  N  0  24.521  25.797  35.168  1  10
+IDE  C8B   .  C  0  25.230  26.916  34.728  1  11
+IDE  C7B   .  C  0  25.587  27.508  35.895  1  12
+IDE  N2B   .  N  0  25.121  26.808  36.979  1  13
+IDE  C1B   .  C  0  24.469  25.762  36.503  1  14
+IDE  C7    .  C  0  26.404  28.764  35.854  1  15
+IDE  N1    .  N  0  27.472  28.657  36.841  1  16
+IDE  C1    .  C  0  28.592  29.586  36.784  1  17
+IDE  C6    .  C  0  28.359  30.938  36.519  1  18
+IDE  C5    .  C  0  29.431  31.832  36.466  1  19
+IDE  C4    .  C  0  30.730  31.360  36.669  1  20
+IDE  C3    .  C  0  30.968  30.007  36.923  1  21
+IDE  C2    .  C  0  29.896  29.120  36.986  1  22
+IDE  H6B   .  H  0  ?       ?       ?       1  23
+IDE  1H6B  .  H  0  ?       ?       ?       0  24
+IDE  2H6B  .  H  0  ?       ?       ?       0  25
+IDE  H5B   .  H  0  ?       ?       ?       1  26
+IDE  H8B   .  H  0  ?       ?       ?       1  27
+IDE  H2B   .  H  0  ?       ?       ?       1  28
+IDE  H1    .  H  0  ?       ?       ?       1  29
+IDE  H3B   .  H  0  ?       ?       ?       1  30
+IDE  H2    .  H  0  ?       ?       ?       1  31
+IDE  H4B   .  H  0  ?       ?       ?       1  32
+IDE  H3    .  H  0  ?       ?       ?       1  33
+IDE  1H7   .  H  0  ?       ?       ?       0  34
+IDE  2H7   .  H  0  ?       ?       ?       0  35
+IDE  HN1   .  H  0  ?       ?       ?       1  36
+IDE  H4    .  H  0  ?       ?       ?       1  37
+IDE  H5    .  H  0  ?       ?       ?       1  38
+IDE  H6    .  H  0  ?       ?       ?       1  39
+IDE  H7    .  H  0  ?       ?       ?       1  40
+IDE  H8    .  H  0  ?       ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IDE  O6B  H6B   SING  1 
+IDE  O6B  C6B   SING  2 
+IDE  C6B  1H6B  SING  3 
+IDE  C6B  2H6B  SING  4 
+IDE  C6B  C5B   SING  5 
+IDE  C5B  H5B   SING  6 
+IDE  C5B  N1B   SING  7 
+IDE  C5B  C4B   SING  8 
+IDE  C4B  C3B   SING  9 
+IDE  C4B  H4B   SING  10
+IDE  C4B  O4B   SING  11
+IDE  O4B  H3    SING  12
+IDE  C3B  C2B   SING  13
+IDE  C3B  H3B   SING  14
+IDE  C3B  O3B   SING  15
+IDE  O3B  H2    SING  16
+IDE  C2B  C1B   SING  17
+IDE  C2B  H2B   SING  18
+IDE  C2B  O2B   SING  19
+IDE  O2B  H1    SING  20
+IDE  N1B  C8B   SING  21
+IDE  N1B  C1B   SING  22
+IDE  C8B  H8B   SING  23
+IDE  C8B  C7B   DOUB  24
+IDE  C7B  N2B   SING  25
+IDE  C7B  C7    SING  26
+IDE  N2B  C1B   DOUB  27
+IDE  C7   1H7   SING  28
+IDE  C7   2H7   SING  29
+IDE  C7   N1    SING  30
+IDE  N1   HN1   SING  31
+IDE  N1   C1    SING  32
+IDE  C1   C2    AROM  33
+IDE  C1   C6    AROM  34
+IDE  C6   C5    AROM  35
+IDE  C6   H8    SING  36
+IDE  C5   C4    AROM  37
+IDE  C5   H7    SING  38
+IDE  C4   C3    AROM  39
+IDE  C4   H6    SING  40
+IDE  C3   C2    AROM  41
+IDE  C3   H5    SING  42
+IDE  C2   H4    SING  43
+#

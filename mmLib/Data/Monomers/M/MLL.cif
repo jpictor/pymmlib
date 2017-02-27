@@ -1,0 +1,89 @@
+data_MLL
+#
+_chem_comp.id                       MLL
+_chem_comp.name                     'METHYL L-LEUCINATE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            145.201
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          MLL
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC(C)C[C@@H](C(=O)OC)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+MLL  N     .  N  0  143.972  237.596  103.188  1  N  1 
+MLL  CA    .  C  0  144.601  236.522  103.940  1  N  2 
+MLL  CB    .  C  0  143.786  236.279  105.206  1  N  3 
+MLL  CG    .  C  0  144.262  237.176  106.339  1  N  4 
+MLL  CD2   .  C  0  144.215  236.460  107.677  1  N  5 
+MLL  CD1   .  C  0  143.444  238.450  106.445  1  N  6 
+MLL  C     .  C  0  144.717  235.270  103.070  1  N  7 
+MLL  O     .  O  0  144.077  234.149  103.697  1  N  8 
+MLL  O9    .  O  0  146.102  235.005  102.835  1  N  9 
+MLL  C10   .  C  0  146.467  233.628  102.947  1  N  10
+MLL  1HN   .  H  0  143.828  238.383  103.788  0  N  11
+MLL  2HN   .  H  0  144.564  237.861  102.427  0  N  12
+MLL  HA    .  H  0  145.625  236.797  104.234  1  N  13
+MLL  1HB   .  H  0  142.728  236.496  104.998  0  N  14
+MLL  2HB   .  H  0  143.913  235.230  105.511  0  N  15
+MLL  HG    .  H  0  145.302  237.437  106.096  1  N  16
+MLL  1HD2  .  H  0  144.204  235.373  107.511  0  N  17
+MLL  2HD2  .  H  0  145.101  236.731  108.269  0  N  18
+MLL  3HD2  .  H  0  143.306  236.757  108.220  0  N  19
+MLL  1HD1  .  H  0  143.246  238.672  107.504  0  N  20
+MLL  2HD1  .  H  0  144.003  239.283  105.994  0  N  21
+MLL  3HD1  .  H  0  142.490  238.318  105.914  0  N  22
+MLL  1H10  .  H  0  146.561  233.190  101.942  0  N  23
+MLL  2H10  .  H  0  147.429  233.546  103.474  0  N  24
+MLL  3H10  .  H  0  145.692  233.088  103.511  0  N  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+MLL  N    CA    SING  N  1 
+MLL  N    1HN   SING  N  2 
+MLL  N    2HN   SING  N  3 
+MLL  CA   CB    SING  N  4 
+MLL  CA   C     SING  N  5 
+MLL  CA   HA    SING  N  6 
+MLL  CB   CG    SING  N  7 
+MLL  CB   1HB   SING  N  8 
+MLL  CB   2HB   SING  N  9 
+MLL  CG   CD2   SING  N  10
+MLL  CG   CD1   SING  N  11
+MLL  CG   HG    SING  N  12
+MLL  CD2  1HD2  SING  N  13
+MLL  CD2  2HD2  SING  N  14
+MLL  CD2  3HD2  SING  N  15
+MLL  CD1  1HD1  SING  N  16
+MLL  CD1  2HD1  SING  N  17
+MLL  CD1  3HD1  SING  N  18
+MLL  C    O     DOUB  N  19
+MLL  C    O9    SING  N  20
+MLL  O9   C10   SING  N  21
+MLL  C10  1H10  SING  N  22
+MLL  C10  2H10  SING  N  23
+MLL  C10  3H10  SING  N  24
+#

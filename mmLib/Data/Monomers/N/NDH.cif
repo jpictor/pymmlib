@@ -1,0 +1,77 @@
+data_NDH
+#
+_chem_comp.id                   NDH
+_chem_comp.name                 '(1R, 2S)-CIS 1,2 DIHYDROXY-1,2-DIHYDRONAPHTHALENE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 O2'
+_chem_comp.pdbx_synonyms        (1R,2S)-1,2-DIHYDRONAPHTHALENE-1,2-DIOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.188
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NDH  OH2  .  O  0  11.701  53.01   78.858  1  1 
+NDH  C1   .  C  0  12.946  52.639  79.542  1  2 
+NDH  C2   .  C  0  12.97   53.589  80.785  1  3 
+NDH  OH1  .  O  0  11.748  54.371  80.692  1  4 
+NDH  C3   .  C  0  13.104  52.827  82.105  1  5 
+NDH  C4   .  C  0  13.438  51.503  82.141  1  6 
+NDH  C4A  .  C  0  13.908  50.746  80.879  1  7 
+NDH  C8A  .  C  0  13.696  51.298  79.588  1  8 
+NDH  C8   .  C  0  14.096  50.638  78.441  1  9 
+NDH  C5   .  C  0  14.578  49.521  80.978  1  10
+NDH  C6   .  C  0  15.003  48.875  79.821  1  11
+NDH  C7   .  C  0  14.759  49.422  78.56   1  12
+NDH  HH2  .  H  0  11.214  52.191  78.59   1  13
+NDH  H1   .  H  0  13.708  52.667  78.749  1  14
+NDH  H2   .  H  0  13.855  54.242  80.78   1  15
+NDH  HH1  .  H  0  10.97   53.762  80.633  1  16
+NDH  H3   .  H  0  12.933  53.341  83.018  1  17
+NDH  H4   .  H  0  13.373  50.979  83.062  1  18
+NDH  H5   .  H  0  14.761  49.088  81.93   1  19
+NDH  H8   .  H  0  13.9    51.053  77.484  1  20
+NDH  H7   .  H  0  15.081  48.908  77.689  1  21
+NDH  H6   .  H  0  15.521  47.952  79.898  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NDH  OH2  C1   SING  1 
+NDH  OH2  HH2  SING  2 
+NDH  C1   C2   SING  3 
+NDH  C1   C8A  SING  4 
+NDH  C1   H1   SING  5 
+NDH  C2   OH1  SING  6 
+NDH  C2   C3   SING  7 
+NDH  C2   H2   SING  8 
+NDH  OH1  HH1  SING  9 
+NDH  C3   C4   DOUB  10
+NDH  C3   H3   SING  11
+NDH  C4   C4A  SING  12
+NDH  C4   H4   SING  13
+NDH  C4A  C8A  AROM  14
+NDH  C4A  C5   AROM  15
+NDH  C8A  C8   AROM  16
+NDH  C8   C7   AROM  17
+NDH  C8   H8   SING  18
+NDH  C5   C6   AROM  19
+NDH  C5   H5   SING  20
+NDH  C6   C7   AROM  21
+NDH  C6   H6   SING  22
+NDH  C7   H7   SING  23
+#

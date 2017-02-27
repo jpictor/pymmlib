@@ -1,0 +1,77 @@
+data_PR3
+#
+_chem_comp.id                       PR3
+_chem_comp.name                     S,S-PROPYLTHIOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O1 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            179.295
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PR3  N    .  N  0  ?  ?  ?  1  1 
+PR3  CA   .  C  0  ?  ?  ?  1  2 
+PR3  C    .  C  0  ?  ?  ?  1  3 
+PR3  O    .  O  0  ?  ?  ?  1  4 
+PR3  CB   .  C  0  ?  ?  ?  1  5 
+PR3  SG   .  S  0  ?  ?  ?  1  6 
+PR3  SD   .  S  0  ?  ?  ?  1  7 
+PR3  CE   .  C  0  ?  ?  ?  1  8 
+PR3  CZ   .  C  0  ?  ?  ?  1  9 
+PR3  CH   .  C  0  ?  ?  ?  1  10
+PR3  1HN  .  H  0  ?  ?  ?  0  11
+PR3  2HN  .  H  0  ?  ?  ?  0  12
+PR3  HA   .  H  0  ?  ?  ?  1  13
+PR3  H    .  H  0  ?  ?  ?  1  14
+PR3  1HB  .  H  0  ?  ?  ?  0  15
+PR3  2HB  .  H  0  ?  ?  ?  0  16
+PR3  1HE  .  H  0  ?  ?  ?  0  17
+PR3  2HE  .  H  0  ?  ?  ?  0  18
+PR3  1HZ  .  H  0  ?  ?  ?  0  19
+PR3  2HZ  .  H  0  ?  ?  ?  0  20
+PR3  1HH  .  H  0  ?  ?  ?  0  21
+PR3  2HH  .  H  0  ?  ?  ?  0  22
+PR3  3HH  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PR3  N   CA   SING  1 
+PR3  N   1HN  SING  2 
+PR3  N   2HN  SING  3 
+PR3  CA  C    SING  4 
+PR3  CA  CB   SING  5 
+PR3  CA  HA   SING  6 
+PR3  C   O    DOUB  7 
+PR3  C   H    SING  8 
+PR3  CB  SG   SING  9 
+PR3  CB  1HB  SING  10
+PR3  CB  2HB  SING  11
+PR3  SG  SD   SING  12
+PR3  SD  CE   SING  13
+PR3  CE  CZ   SING  14
+PR3  CE  1HE  SING  15
+PR3  CE  2HE  SING  16
+PR3  CZ  CH   SING  17
+PR3  CZ  1HZ  SING  18
+PR3  CZ  2HZ  SING  19
+PR3  CH  1HH  SING  20
+PR3  CH  2HH  SING  21
+PR3  CH  3HH  SING  22
+#

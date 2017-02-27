@@ -1,0 +1,94 @@
+data_URD
+#
+_chem_comp.id                       URD
+_chem_comp.name                     1-((2R,3R,4S,5R)-TETRAHYDRO-3,4-DIHYDROXY-5-(HYDROXYMETHYL)FURAN-2-YL)PYRIDINE-2,4(1H,3H)-DIONE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H13 N1 O6'
+_chem_comp.pdbx_synonyms            3-DEAZAURIDINE
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            243.216
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+URD  O5*   .  O  0  14.592  1.028   63.327  1  1 
+URD  C5*   .  C  0  13.418  0.500   63.932  1  2 
+URD  C4*   .  C  0  13.506  0.624   65.434  1  3 
+URD  O4*   .  O  0  14.431  -0.377  65.943  1  4 
+URD  C1*   .  C  0  15.462  0.252   66.679  1  5 
+URD  N1    .  N  0  16.705  -0.507  66.474  1  6 
+URD  C6    .  C  0  17.032  -1.029  65.244  1  7 
+URD  C2    .  C  0  17.538  -0.693  67.568  1  8 
+URD  O2    .  O  0  17.297  -0.230  68.670  1  9 
+URD  C3    .  C  0  18.664  -1.441  67.320  1  10
+URD  C4    .  C  0  19.044  -2.006  66.118  1  11
+URD  O4    .  O  0  19.929  -2.869  66.122  1  12
+URD  C5    .  C  0  18.140  -1.749  65.034  1  13
+URD  C2*   .  C  0  15.512  1.676   66.141  1  14
+URD  O2*   .  O  0  16.190  2.544   67.028  1  15
+URD  C3*   .  C  0  14.024  1.960   65.946  1  16
+URD  O3*   .  O  0  13.379  2.273   67.173  1  17
+URD  *HO5  .  H  0  ?       ?       ?       0  18
+URD  1H5*  .  H  0  ?       ?       ?       0  19
+URD  2H5*  .  H  0  ?       ?       ?       0  20
+URD  H4*   .  H  0  ?       ?       ?       1  21
+URD  *HO2  .  H  0  ?       ?       ?       0  22
+URD  H6    .  H  0  ?       ?       ?       1  23
+URD  H5    .  H  0  ?       ?       ?       1  24
+URD  1H3   .  H  0  ?       ?       ?       0  25
+URD  2H3   .  H  0  ?       ?       ?       0  26
+URD  H2*   .  H  0  ?       ?       ?       1  27
+URD  H1*   .  H  0  ?       ?       ?       1  28
+URD  H3*   .  H  0  ?       ?       ?       1  29
+URD  *HO3  .  H  0  ?       ?       ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+URD  O5*  *HO5  SING  1 
+URD  O5*  C5*   SING  2 
+URD  C5*  1H5*  SING  3 
+URD  C5*  2H5*  SING  4 
+URD  C5*  C4*   SING  5 
+URD  C4*  H4*   SING  6 
+URD  C4*  O4*   SING  7 
+URD  C4*  C3*   SING  8 
+URD  O4*  C1*   SING  9 
+URD  C1*  H1*   SING  10
+URD  C1*  N1    SING  11
+URD  C1*  C2*   SING  12
+URD  N1   C6    SING  13
+URD  N1   C2    SING  14
+URD  C6   H6    SING  15
+URD  C6   C5    DOUB  16
+URD  C2   C3    SING  17
+URD  C2   O2    DOUB  18
+URD  C3   C4    SING  19
+URD  C3   1H3   SING  20
+URD  C3   2H3   SING  21
+URD  C4   C5    SING  22
+URD  C4   O4    DOUB  23
+URD  C5   H5    SING  24
+URD  C2*  H2*   SING  25
+URD  C2*  O2*   SING  26
+URD  C2*  C3*   SING  27
+URD  O2*  *HO2  SING  28
+URD  C3*  H3*   SING  29
+URD  C3*  O3*   SING  30
+URD  O3*  *HO3  SING  31
+#

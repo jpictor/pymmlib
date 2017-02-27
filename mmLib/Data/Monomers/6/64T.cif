@@ -1,0 +1,111 @@
+data_64T
+#
+_chem_comp.id                       64T
+_chem_comp.name                     5-HYDROXY-THYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H17 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            340.226
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+64T  P     .  P  0  7.827   28.456  65.494  1  1 
+64T  O1P   .  O  0  6.708   29.337  65.906  1  2 
+64T  O2P   .  O  0  7.608   27.443  64.432  1  3 
+64T  O5*   .  O  0  9.045   29.388  65.075  1  4 
+64T  C5*   .  C  0  9.723   30.160  66.061  1  5 
+64T  C4*   .  C  0  10.625  31.175  65.404  1  6 
+64T  O4*   .  O  0  11.790  30.447  64.940  1  7 
+64T  C3*   .  C  0  9.997   31.815  64.168  1  8 
+64T  O3*   .  O  0  9.612   33.179  64.274  1  9 
+64T  C2*   .  C  0  11.048  31.700  63.087  1  10
+64T  C1*   .  C  0  12.189  30.885  63.657  1  11
+64T  N1    .  N  0  12.487  29.702  62.749  1  12
+64T  C2    .  C  0  13.700  29.421  62.401  1  13
+64T  O2    .  O  0  14.688  30.075  62.776  1  14
+64T  N3    .  N  0  13.912  28.342  61.552  1  15
+64T  C4    .  C  0  12.893  27.529  61.033  1  16
+64T  O4    .  O  0  13.129  26.785  60.124  1  17
+64T  C5    .  C  0  11.531  27.642  61.660  1  18
+64T  C5M   .  C  0  11.444  26.653  62.819  1  19
+64T  O5    .  O  0  10.537  27.338  60.685  1  20
+64T  C6    .  C  0  11.256  29.081  62.185  1  21
+64T  O3P   .  O  0  ?       ?       ?       1  22
+64T  1H5M  .  H  0  ?       ?       ?       0  23
+64T  2H5M  .  H  0  ?       ?       ?       0  24
+64T  3H5M  .  H  0  ?       ?       ?       0  25
+64T  HO5   .  H  0  ?       ?       ?       1  26
+64T  1H6   .  H  0  ?       ?       ?       0  27
+64T  2H6   .  H  0  ?       ?       ?       0  28
+64T  H3    .  H  0  ?       ?       ?       1  29
+64T  1H2*  .  H  0  ?       ?       ?       0  30
+64T  2H2*  .  H  0  ?       ?       ?       0  31
+64T  H3T   .  H  0  ?       ?       ?       1  32
+64T  H3*   .  H  0  ?       ?       ?       1  33
+64T  H4*   .  H  0  ?       ?       ?       1  34
+64T  1H5*  .  H  0  ?       ?       ?       0  35
+64T  2H5*  .  H  0  ?       ?       ?       0  36
+64T  2HOP  .  H  0  ?       ?       ?       0  37
+64T  3HOP  .  H  0  ?       ?       ?       0  38
+64T  H1*   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+64T  P    O1P   DOUB  1 
+64T  P    O2P   SING  2 
+64T  P    O5*   SING  3 
+64T  P    O3P   SING  4 
+64T  O2P  2HOP  SING  5 
+64T  O5*  C5*   SING  6 
+64T  C5*  C4*   SING  7 
+64T  C5*  1H5*  SING  8 
+64T  C5*  2H5*  SING  9 
+64T  C4*  O4*   SING  10
+64T  C4*  C3*   SING  11
+64T  C4*  H4*   SING  12
+64T  O4*  C1*   SING  13
+64T  C3*  O3*   SING  14
+64T  C3*  C2*   SING  15
+64T  C3*  H3*   SING  16
+64T  O3*  H3T   SING  17
+64T  C2*  C1*   SING  18
+64T  C2*  1H2*  SING  19
+64T  C2*  2H2*  SING  20
+64T  C1*  N1    SING  21
+64T  C1*  H1*   SING  22
+64T  N1   C2    SING  23
+64T  N1   C6    SING  24
+64T  C2   O2    DOUB  25
+64T  C2   N3    SING  26
+64T  N3   C4    SING  27
+64T  N3   H3    SING  28
+64T  C4   O4    DOUB  29
+64T  C4   C5    SING  30
+64T  C5   C5M   SING  31
+64T  C5   O5    SING  32
+64T  C5   C6    SING  33
+64T  C5M  1H5M  SING  34
+64T  C5M  2H5M  SING  35
+64T  C5M  3H5M  SING  36
+64T  O5   HO5   SING  37
+64T  C6   1H6   SING  38
+64T  C6   2H6   SING  39
+64T  O3P  3HOP  SING  40
+#

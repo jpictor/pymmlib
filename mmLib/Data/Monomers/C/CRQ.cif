@@ -1,0 +1,116 @@
+data_CRQ
+#
+_chem_comp.id                       CRQ
+_chem_comp.name                     '[2-(3-CARBAMOYL-1-IMINO-PROPYL)-4-(4-HYDROXY-BENZYLIDENE)-5-OXO-4,5-DIHYDRO-IMIDAZOL-1-YL]-ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C16 H16 N4 O5'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (GLN-TYR-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'GLN, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            344.326
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRQ  N     .  N  0  ?  ?  ?  1  1 
+CRQ  CA1   .  C  0  ?  ?  ?  1  2 
+CRQ  CB1   .  C  0  ?  ?  ?  1  3 
+CRQ  CG1   .  C  0  ?  ?  ?  1  4 
+CRQ  C1    .  C  0  ?  ?  ?  1  5 
+CRQ  N2    .  N  0  ?  ?  ?  1  6 
+CRQ  N3    .  N  0  ?  ?  ?  1  7 
+CRQ  C2    .  C  0  ?  ?  ?  1  8 
+CRQ  O2    .  O  0  ?  ?  ?  1  9 
+CRQ  CA2   .  C  0  ?  ?  ?  1  10
+CRQ  CA3   .  C  0  ?  ?  ?  1  11
+CRQ  CB2   .  C  0  ?  ?  ?  1  12
+CRQ  CG2   .  C  0  ?  ?  ?  1  13
+CRQ  CD1   .  C  0  ?  ?  ?  1  14
+CRQ  CD2   .  C  0  ?  ?  ?  1  15
+CRQ  CE1   .  C  0  ?  ?  ?  1  16
+CRQ  CE2   .  C  0  ?  ?  ?  1  17
+CRQ  CZ    .  C  0  ?  ?  ?  1  18
+CRQ  OH    .  O  0  ?  ?  ?  1  19
+CRQ  OE1   .  O  0  ?  ?  ?  1  20
+CRQ  C     .  C  0  ?  ?  ?  1  21
+CRQ  O     .  O  0  ?  ?  ?  1  22
+CRQ  CD3   .  C  0  ?  ?  ?  1  23
+CRQ  NE1   .  N  0  ?  ?  ?  1  24
+CRQ  OXT   .  O  0  ?  ?  ?  1  25
+CRQ  HH    .  H  0  ?  ?  ?  1  26
+CRQ  HE1   .  H  0  ?  ?  ?  1  27
+CRQ  HE2   .  H  0  ?  ?  ?  1  28
+CRQ  HD1   .  H  0  ?  ?  ?  1  29
+CRQ  HD2   .  H  0  ?  ?  ?  1  30
+CRQ  1HB   .  H  0  ?  ?  ?  0  31
+CRQ  1HA3  .  H  0  ?  ?  ?  0  32
+CRQ  2HA3  .  H  0  ?  ?  ?  0  33
+CRQ  HXT   .  H  0  ?  ?  ?  1  34
+CRQ  1HB1  .  H  0  ?  ?  ?  0  35
+CRQ  2HB1  .  H  0  ?  ?  ?  0  36
+CRQ  1HG1  .  H  0  ?  ?  ?  0  37
+CRQ  2HG1  .  H  0  ?  ?  ?  0  38
+CRQ  1HE1  .  H  0  ?  ?  ?  0  39
+CRQ  2HE1  .  H  0  ?  ?  ?  0  40
+CRQ  HN1   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRQ  N    CA1   DOUB  1 
+CRQ  N    HN1   SING  2 
+CRQ  CA1  CB1   SING  3 
+CRQ  CA1  C1    SING  4 
+CRQ  CB1  CG1   SING  5 
+CRQ  CB1  1HB1  SING  6 
+CRQ  CB1  2HB1  SING  7 
+CRQ  CG1  CD3   SING  8 
+CRQ  CG1  1HG1  SING  9 
+CRQ  CG1  2HG1  SING  10
+CRQ  C1   N2    DOUB  11
+CRQ  C1   N3    SING  12
+CRQ  N2   CA2   SING  13
+CRQ  N3   C2    SING  14
+CRQ  N3   CA3   SING  15
+CRQ  C2   O2    DOUB  16
+CRQ  C2   CA2   SING  17
+CRQ  CA2  CB2   DOUB  18
+CRQ  CA3  C     SING  19
+CRQ  CA3  1HA3  SING  20
+CRQ  CA3  2HA3  SING  21
+CRQ  CB2  CG2   SING  22
+CRQ  CB2  1HB   SING  23
+CRQ  CG2  CD1   DOUB  24
+CRQ  CG2  CD2   SING  25
+CRQ  CD1  CE1   SING  26
+CRQ  CD1  HD1   SING  27
+CRQ  CD2  CE2   DOUB  28
+CRQ  CD2  HD2   SING  29
+CRQ  CE1  CZ    DOUB  30
+CRQ  CE1  HE1   SING  31
+CRQ  CE2  CZ    SING  32
+CRQ  CE2  HE2   SING  33
+CRQ  CZ   OH    SING  34
+CRQ  OH   HH    SING  35
+CRQ  OE1  CD3   DOUB  36
+CRQ  C    O     DOUB  37
+CRQ  C    OXT   SING  38
+CRQ  CD3  NE1   SING  39
+CRQ  NE1  1HE1  SING  40
+CRQ  NE1  2HE1  SING  41
+CRQ  OXT  HXT   SING  42
+#

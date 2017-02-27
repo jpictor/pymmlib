@@ -1,0 +1,83 @@
+data_RAO
+#
+_chem_comp.id                   RAO
+_chem_comp.name                 1-O-METHYL-ALPHA-RHAMNOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAO  C1    .  C  0  -6.261   13.755  34.446  1  1 
+RAO  O1    .  O  0  -5.752   12.674  33.641  1  2 
+RAO  C7    .  C  0  -5.121   11.637  34.391  1  3 
+RAO  O2    .  O  0  -7.511   15.900  34.266  1  4 
+RAO  C2    .  C  0  -7.190   14.656  33.605  1  5 
+RAO  C3    .  C  0  -8.480   13.911  33.255  1  6 
+RAO  O3    .  O  0  -9.391   14.810  32.636  1  7 
+RAO  C4    .  C  0  -9.135   13.300  34.509  1  8 
+RAO  O4    .  O  0  -10.239  12.486  34.133  1  9 
+RAO  C5    .  C  0  -8.116   12.475  35.326  1  10
+RAO  O5    .  O  0  -6.952   13.282  35.620  1  11
+RAO  C6    .  C  0  -8.708   11.921  36.620  1  12
+RAO  HC1   .  H  0  ?        ?       ?       1  13
+RAO  1HC7  .  H  0  ?        ?       ?       0  14
+RAO  2HC7  .  H  0  ?        ?       ?       0  15
+RAO  3HC7  .  H  0  ?        ?       ?       0  16
+RAO  HO2   .  H  0  ?        ?       ?       1  17
+RAO  HC2   .  H  0  ?        ?       ?       1  18
+RAO  HC3   .  H  0  ?        ?       ?       1  19
+RAO  HO3   .  H  0  ?        ?       ?       1  20
+RAO  HC4   .  H  0  ?        ?       ?       1  21
+RAO  HO4   .  H  0  ?        ?       ?       1  22
+RAO  HC5   .  H  0  ?        ?       ?       1  23
+RAO  1HC6  .  H  0  ?        ?       ?       0  24
+RAO  2HC6  .  H  0  ?        ?       ?       0  25
+RAO  3HC6  .  H  0  ?        ?       ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAO  C1  O1    SING  1 
+RAO  C1  C2    SING  2 
+RAO  C1  O5    SING  3 
+RAO  C1  HC1   SING  4 
+RAO  O1  C7    SING  5 
+RAO  C7  1HC7  SING  6 
+RAO  C7  2HC7  SING  7 
+RAO  C7  3HC7  SING  8 
+RAO  O2  C2    SING  9 
+RAO  O2  HO2   SING  10
+RAO  C2  C3    SING  11
+RAO  C2  HC2   SING  12
+RAO  C3  O3    SING  13
+RAO  C3  C4    SING  14
+RAO  C3  HC3   SING  15
+RAO  O3  HO3   SING  16
+RAO  C4  O4    SING  17
+RAO  C4  C5    SING  18
+RAO  C4  HC4   SING  19
+RAO  O4  HO4   SING  20
+RAO  C5  O5    SING  21
+RAO  C5  C6    SING  22
+RAO  C5  HC5   SING  23
+RAO  C6  1HC6  SING  24
+RAO  C6  2HC6  SING  25
+RAO  C6  3HC6  SING  26
+#

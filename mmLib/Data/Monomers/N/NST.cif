@@ -1,0 +1,90 @@
+data_NST
+#
+_chem_comp.id                   NST
+_chem_comp.name                 '3-{[(3-NITROANILINE]SULFONYL}THIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H8 N2 O6 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        328.314
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NST  N1   .  N  0   79.386  4.262  31.113  1  1 
+NST  C2   .  C  0   80.640  4.590  31.662  1  2 
+NST  C3   .  C  0   80.856  4.543  33.092  1  3 
+NST  C4   .  C  0   81.700  4.956  30.772  1  4 
+NST  C5   .  C  0   82.157  4.873  33.622  1  5 
+NST  C6   .  C  0   83.001  5.282  31.292  1  6 
+NST  C7   .  C  0   83.226  5.238  32.723  1  7 
+NST  N2   .  N  1   84.018  5.623  30.434  1  8 
+NST  S13  .  S  0   78.255  5.497  30.671  1  9 
+NST  C15  .  C  0   78.657  6.353  29.076  1  10
+NST  O16  .  O  0   76.968  4.851  30.513  1  11
+NST  O17  .  O  0   78.173  6.457  31.723  1  12
+NST  C18  .  C  0   78.841  5.761  27.811  1  13
+NST  C19  .  C  0   78.835  7.746  28.926  1  14
+NST  S20  .  S  0   79.137  6.823  26.868  1  15
+NST  C21  .  C  0   78.746  4.295  27.483  1  16
+NST  C22  .  C  0   79.130  8.034  27.585  1  17
+NST  O23  .  O  0   78.475  3.387  28.425  1  18
+NST  O24  .  O  0   78.928  3.928  26.335  1  19
+NST  O1   .  O  -1  83.826  5.660  29.224  1  20
+NST  O2   .  O  0   85.126  5.889  30.869  1  21
+NST  H23  .  H  0   ?       ?      ?       1  22
+NST  H19  .  H  0   ?       ?      ?       1  23
+NST  H22  .  H  0   ?       ?      ?       1  24
+NST  HN1  .  H  0   ?       ?      ?       1  25
+NST  H3   .  H  0   ?       ?      ?       1  26
+NST  H5   .  H  0   ?       ?      ?       1  27
+NST  H7   .  H  0   ?       ?      ?       1  28
+NST  H4   .  H  0   ?       ?      ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NST  N1   S13  SING  1 
+NST  N1   C2   SING  2 
+NST  N1   HN1  SING  3 
+NST  C2   C3   AROM  4 
+NST  C2   C4   AROM  5 
+NST  C3   C5   AROM  6 
+NST  C3   H3   SING  7 
+NST  C4   C6   AROM  8 
+NST  C4   H4   SING  9 
+NST  C5   C7   AROM  10
+NST  C5   H5   SING  11
+NST  C6   C7   AROM  12
+NST  C6   N2   SING  13
+NST  C7   H7   SING  14
+NST  N2   O1   SING  15
+NST  N2   O2   DOUB  16
+NST  S13  C15  SING  17
+NST  S13  O16  DOUB  18
+NST  S13  O17  DOUB  19
+NST  C15  C18  DOUB  20
+NST  C15  C19  SING  21
+NST  C18  C21  SING  22
+NST  C18  S20  SING  23
+NST  C19  C22  DOUB  24
+NST  C19  H19  SING  25
+NST  S20  C22  SING  26
+NST  C21  O23  SING  27
+NST  C21  O24  DOUB  28
+NST  C22  H22  SING  29
+NST  O23  H23  SING  30
+#

@@ -1,0 +1,88 @@
+data_MMO
+#
+_chem_comp.id                   MMO
+_chem_comp.name                 N~5~-(DIAMINOMETHYLENE)-N~2~-METHYLORNITHINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H16 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        188.229
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MMO  N     .  N  0  ?  ?  ?  1  1 
+MMO  CA    .  C  0  ?  ?  ?  1  2 
+MMO  C     .  C  0  ?  ?  ?  1  3 
+MMO  O     .  O  0  ?  ?  ?  1  4 
+MMO  CB    .  C  0  ?  ?  ?  1  5 
+MMO  CG    .  C  0  ?  ?  ?  1  6 
+MMO  CD    .  C  0  ?  ?  ?  1  7 
+MMO  NE    .  N  0  ?  ?  ?  1  8 
+MMO  CZ    .  C  0  ?  ?  ?  1  9 
+MMO  NH2   .  N  0  ?  ?  ?  1  10
+MMO  NH1   .  N  0  ?  ?  ?  1  11
+MMO  CN    .  C  0  ?  ?  ?  1  12
+MMO  OXT   .  O  0  ?  ?  ?  1  13
+MMO  H     .  H  0  ?  ?  ?  1  14
+MMO  HA    .  H  0  ?  ?  ?  1  15
+MMO  1HC   .  H  0  ?  ?  ?  0  16
+MMO  2HC   .  H  0  ?  ?  ?  0  17
+MMO  3HC   .  H  0  ?  ?  ?  0  18
+MMO  1HCB  .  H  0  ?  ?  ?  0  19
+MMO  2HCB  .  H  0  ?  ?  ?  0  20
+MMO  1HCG  .  H  0  ?  ?  ?  0  21
+MMO  2HCG  .  H  0  ?  ?  ?  0  22
+MMO  1HCD  .  H  0  ?  ?  ?  0  23
+MMO  2HCD  .  H  0  ?  ?  ?  0  24
+MMO  1HH2  .  H  0  ?  ?  ?  0  25
+MMO  2HH2  .  H  0  ?  ?  ?  0  26
+MMO  1HH1  .  H  0  ?  ?  ?  0  27
+MMO  2HH1  .  H  0  ?  ?  ?  0  28
+MMO  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MMO  N    CA    SING  1 
+MMO  N    CN    SING  2 
+MMO  N    H     SING  3 
+MMO  CA   C     SING  4 
+MMO  CA   CB    SING  5 
+MMO  CA   HA    SING  6 
+MMO  C    O     DOUB  7 
+MMO  C    OXT   SING  8 
+MMO  CB   CG    SING  9 
+MMO  CB   1HCB  SING  10
+MMO  CB   2HCB  SING  11
+MMO  CG   CD    SING  12
+MMO  CG   1HCG  SING  13
+MMO  CG   2HCG  SING  14
+MMO  CD   NE    SING  15
+MMO  CD   1HCD  SING  16
+MMO  CD   2HCD  SING  17
+MMO  NE   CZ    DOUB  18
+MMO  CZ   NH2   SING  19
+MMO  CZ   NH1   SING  20
+MMO  NH2  1HH2  SING  21
+MMO  NH2  2HH2  SING  22
+MMO  NH1  1HH1  SING  23
+MMO  NH1  2HH1  SING  24
+MMO  CN   1HC   SING  25
+MMO  CN   2HC   SING  26
+MMO  CN   3HC   SING  27
+MMO  OXT  HXT   SING  28
+#

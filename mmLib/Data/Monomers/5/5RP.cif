@@ -1,0 +1,80 @@
+data_5RP
+#
+_chem_comp.id                   5RP
+_chem_comp.name                 RIBULOSE-5-PHOSPHATE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H11 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.111
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5RP  C2   .  C  0  -10.611  -0.539  -6.150   1  1 
+5RP  C3   .  C  0  -9.553   -0.968  -7.138   1  2 
+5RP  C5   .  C  0  -8.326   -1.719  -6.626   1  3 
+5RP  O13  .  O  0  -7.083   -1.368  -7.274   1  4 
+5RP  C6   .  C  0  -8.547   -3.282  -6.680   1  5 
+5RP  O14  .  O  0  -7.346   -3.973  -6.278   1  6 
+5RP  C7   .  C  0  -8.957   -3.824  -8.087   1  7 
+5RP  O8   .  O  0  -10.369  -3.643  -8.263   1  8 
+5RP  P9   .  P  0  -11.362  -4.816  -8.735   1  9 
+5RP  O12  .  O  0  -11.606  -5.894  -7.570   1  10
+5RP  O11  .  O  0  -10.786  -5.567  -10.034  1  11
+5RP  O10  .  O  0  -12.728  -4.088  -9.149   1  12
+5RP  O4   .  O  0  -9.656   -0.728  -8.332   1  13
+5RP  O1   .  O  0  -11.926  -0.543  -6.743   1  14
+5RP  HO1  .  H  0  ?        ?       ?        1  15
+5RP  1H2  .  H  0  ?        ?       ?        0  16
+5RP  2H2  .  H  0  ?        ?       ?        0  17
+5RP  H5   .  H  0  ?        ?       ?        1  18
+5RP  H13  .  H  0  ?        ?       ?        1  19
+5RP  H6   .  H  0  ?        ?       ?        1  20
+5RP  H14  .  H  0  ?        ?       ?        1  21
+5RP  1H7  .  H  0  ?        ?       ?        0  22
+5RP  2H7  .  H  0  ?        ?       ?        0  23
+5RP  H11  .  H  0  ?        ?       ?        1  24
+5RP  H10  .  H  0  ?        ?       ?        1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5RP  C2   O1   SING  1 
+5RP  C2   1H2  SING  2 
+5RP  C2   2H2  SING  3 
+5RP  C2   C3   SING  4 
+5RP  C3   O4   DOUB  5 
+5RP  C3   C5   SING  6 
+5RP  C5   H5   SING  7 
+5RP  C5   O13  SING  8 
+5RP  C5   C6   SING  9 
+5RP  O13  H13  SING  10
+5RP  C6   H6   SING  11
+5RP  C6   O14  SING  12
+5RP  C6   C7   SING  13
+5RP  O14  H14  SING  14
+5RP  C7   1H7  SING  15
+5RP  C7   2H7  SING  16
+5RP  C7   O8   SING  17
+5RP  O8   P9   SING  18
+5RP  P9   O12  DOUB  19
+5RP  P9   O11  SING  20
+5RP  P9   O10  SING  21
+5RP  O11  H11  SING  22
+5RP  O10  H10  SING  23
+5RP  O1   HO1  SING  24
+#

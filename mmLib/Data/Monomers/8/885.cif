@@ -1,0 +1,103 @@
+data_885
+#
+_chem_comp.id                   885
+_chem_comp.name                 1-[(2-AMINO-4-CHLORO-5-METHYLPHENYL)SULFONYL]-L-PROLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N2 O4 CL1 S1'
+_chem_comp.pdbx_synonyms        '1-(2-AMINO-4-CHLORO-5-METHYLPHENYLSULFONYL)PYRROLIDINE-2-CARBOXYLIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        318.775
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+885  C1    .  C   0  -6.674   42.876  111.924  1  1 
+885  C2    .  C   0  -7.342   43.365  113.183  1  2 
+885  C3    .  C   0  -8.489   44.183  113.052  1  3 
+885  C4    .  C   0  -9.176   44.687  114.193  1  4 
+885  C5    .  C   0  -8.724   44.386  115.525  1  5 
+885  C6    .  C   0  -7.555   43.569  115.656  1  6 
+885  C7    .  C   0  -6.865   43.067  114.509  1  7 
+885  CL    .  CL  0  -5.457   42.105  114.790  0  8 
+885  N1    .  N   0  -9.354   44.846  116.678  1  9 
+885  S1    .  S   0  -10.583  45.740  113.873  1  10
+885  O1    .  O   0  -10.141  47.092  114.185  1  11
+885  O2    .  O   0  -11.088  45.444  112.540  1  12
+885  N2    .  N   0  -11.763  45.261  115.037  1  13
+885  C8    .  C   0  -12.391  43.903  114.894  1  14
+885  C9    .  C   0  -13.790  44.196  114.384  1  15
+885  C10   .  C   0  -14.172  45.436  115.175  1  16
+885  C11   .  C   0  -12.879  46.253  115.255  1  17
+885  C12   .  C   0  -12.576  46.956  116.599  1  18
+885  O3    .  O   0  -11.778  46.377  117.395  1  19
+885  O4    .  O   0  -13.168  48.062  116.742  1  20
+885  HO3   .  H   0  -11.665  46.909  118.174  1  21
+885  H11   .  H   0  -12.979  47.062  114.516  1  22
+885  1H8   .  H   0  -12.419  43.372  115.857  0  23
+885  2H8   .  H   0  -11.825  43.247  114.216  0  24
+885  1H9   .  H   0  -13.801  44.381  113.300  0  25
+885  2H9   .  H   0  -14.489  43.358  114.521  0  26
+885  1H10  .  H   0  -14.968  46.001  114.668  0  27
+885  2H10  .  H   0  -14.570  45.189  116.170  0  28
+885  1HN1  .  H   0  -8.678   44.956  117.406  0  29
+885  2HN1  .  H   0  -9.789   45.727  116.491  0  30
+885  H6    .  H   0  -7.187   43.327  116.642  1  31
+885  H3    .  H   0  -8.851   44.431  112.065  1  32
+885  1H1   .  H   0  -7.427   42.757  111.131  0  33
+885  2H1   .  H   0  -5.917   43.607  111.603  0  34
+885  3H1   .  H   0  -6.190   41.907  112.118  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+885  C1   C2    SING  1 
+885  C1   1H1   SING  2 
+885  C1   2H1   SING  3 
+885  C1   3H1   SING  4 
+885  C2   C7    SING  5 
+885  C2   C3    DOUB  6 
+885  C3   C4    SING  7 
+885  C3   H3    SING  8 
+885  C4   S1    SING  9 
+885  C4   C5    DOUB  10
+885  C5   N1    SING  11
+885  C5   C6    SING  12
+885  C6   H6    SING  13
+885  C6   C7    DOUB  14
+885  C7   CL    SING  15
+885  N1   1HN1  SING  16
+885  N1   2HN1  SING  17
+885  S1   N2    SING  18
+885  S1   O2    DOUB  19
+885  S1   O1    DOUB  20
+885  N2   C11   SING  21
+885  N2   C8    SING  22
+885  C8   1H8   SING  23
+885  C8   2H8   SING  24
+885  C8   C9    SING  25
+885  C9   1H9   SING  26
+885  C9   2H9   SING  27
+885  C9   C10   SING  28
+885  C10  C11   SING  29
+885  C10  1H10  SING  30
+885  C10  2H10  SING  31
+885  C11  C12   SING  32
+885  C11  H11   SING  33
+885  C12  O3    SING  34
+885  C12  O4    DOUB  35
+885  O3   HO3   SING  36
+#

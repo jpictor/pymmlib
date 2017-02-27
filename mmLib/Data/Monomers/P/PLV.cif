@@ -1,0 +1,116 @@
+data_PLV
+#
+_chem_comp.id                   PLV
+_chem_comp.name                 N-({3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYL)-O-METHYL-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N2 O8 P1'
+_chem_comp.pdbx_synonyms        PYRIDOXYL-(O-METHYL-SERINE)-5-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        350.264
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PLV  N     .  N  0  7.654   -76.977  7.374   1  1 
+PLV  CA    .  C  0  6.534   -77.926  7.123   1  2 
+PLV  CB    .  C  0  5.315   -77.712  7.955   1  3 
+PLV  OG    .  O  0  4.568   -76.512  7.790   1  4 
+PLV  C     .  C  0  6.139   -77.885  5.568   1  5 
+PLV  O     .  O  0  6.736   -77.152  4.800   1  6 
+PLV  OXT   .  O  0  5.228   -78.583  5.095   1  7 
+PLV  N1    .  N  0  11.828  -73.985  8.805   1  8 
+PLV  C2    .  C  0  11.238  -73.997  7.523   1  9 
+PLV  C2A   .  C  0  11.727  -73.067  6.467   1  10
+PLV  C3    .  C  0  10.128  -74.966  7.283   1  11
+PLV  O3    .  O  0  9.441   -75.130  6.132   1  12
+PLV  C4    .  C  0  9.718   -75.866  8.451   1  13
+PLV  C4A   .  C  0  8.593   -76.884  8.299   1  14
+PLV  C5    .  C  0  10.398  -75.766  9.739   1  15
+PLV  C6    .  C  0  11.474  -74.798  9.891   1  16
+PLV  C5A   .  C  0  10.012  -76.650  10.929  1  17
+PLV  O4P   .  O  0  10.283  -78.045  10.742  1  18
+PLV  P     .  P  0  9.811   -79.161  11.448  1  19
+PLV  O1P   .  O  0  9.951   -78.765  12.904  1  20
+PLV  O2P   .  O  0  8.429   -79.244  11.083  1  21
+PLV  O3P   .  O  0  10.336  -80.443  11.414  1  22
+PLV  C7    .  C  0  3.399   -76.338  8.574   1  23
+PLV  1H7   .  H  0  ?       ?        ?       0  24
+PLV  2H7   .  H  0  ?       ?        ?       0  25
+PLV  3H7   .  H  0  ?       ?        ?       0  26
+PLV  1HB   .  H  0  ?       ?        ?       0  27
+PLV  2HB   .  H  0  ?       ?        ?       0  28
+PLV  HA    .  H  0  ?       ?        ?       1  29
+PLV  HN    .  H  0  ?       ?        ?       1  30
+PLV  1H4A  .  H  0  ?       ?        ?       0  31
+PLV  2H4A  .  H  0  ?       ?        ?       0  32
+PLV  HO3   .  H  0  ?       ?        ?       1  33
+PLV  1H2A  .  H  0  ?       ?        ?       0  34
+PLV  2H2A  .  H  0  ?       ?        ?       0  35
+PLV  3H2A  .  H  0  ?       ?        ?       0  36
+PLV  H6    .  H  0  ?       ?        ?       1  37
+PLV  1H5A  .  H  0  ?       ?        ?       0  38
+PLV  2H5A  .  H  0  ?       ?        ?       0  39
+PLV  H1P   .  H  0  ?       ?        ?       1  40
+PLV  H2P   .  H  0  ?       ?        ?       1  41
+PLV  HO    .  H  0  ?       ?        ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PLV  N    CA    SING  1 
+PLV  N    C4A   SING  2 
+PLV  N    HN    SING  3 
+PLV  CA   CB    SING  4 
+PLV  CA   C     SING  5 
+PLV  CA   HA    SING  6 
+PLV  CB   OG    SING  7 
+PLV  CB   1HB   SING  8 
+PLV  CB   2HB   SING  9 
+PLV  OG   C7    SING  10
+PLV  C    O     SING  11
+PLV  C    OXT   DOUB  12
+PLV  O    HO    SING  13
+PLV  N1   C2    AROM  14
+PLV  N1   C6    AROM  15
+PLV  C2   C3    AROM  16
+PLV  C2   C2A   SING  17
+PLV  C2A  1H2A  SING  18
+PLV  C2A  2H2A  SING  19
+PLV  C2A  3H2A  SING  20
+PLV  C3   C4    AROM  21
+PLV  C3   O3    SING  22
+PLV  O3   HO3   SING  23
+PLV  C4   C4A   SING  24
+PLV  C4   C5    AROM  25
+PLV  C4A  1H4A  SING  26
+PLV  C4A  2H4A  SING  27
+PLV  C5   C6    AROM  28
+PLV  C5   C5A   SING  29
+PLV  C6   H6    SING  30
+PLV  C5A  O4P   SING  31
+PLV  C5A  1H5A  SING  32
+PLV  C5A  2H5A  SING  33
+PLV  O4P  P     SING  34
+PLV  P    O1P   SING  35
+PLV  P    O2P   SING  36
+PLV  P    O3P   DOUB  37
+PLV  O1P  H1P   SING  38
+PLV  O2P  H2P   SING  39
+PLV  C7   1H7   SING  40
+PLV  C7   2H7   SING  41
+PLV  C7   3H7   SING  42
+#

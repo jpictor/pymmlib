@@ -1,0 +1,95 @@
+data_TCT
+#
+_chem_comp.id                   TCT
+_chem_comp.name                 6-(4-CHLORO-2-HYDROXY-PHENOXY)-NAPHTHALEN-2-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H11 O3 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.714
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCT  C16   .  C   0  9.496   103.081  27.489  1  1 
+TCT  C15   .  C   0  10.375  102.008  27.712  1  2 
+TCT  C14   .  C   0  10.783  101.148  26.657  1  3 
+TCT  C13   .  C   0  10.304  101.369  25.327  1  4 
+TCT  C12   .  C   0  9.418   102.449  25.074  1  5 
+TCT  C11   .  C   0  9.001   103.327  26.197  1  6 
+TCT  C10   .  C   0  8.114   104.398  25.955  1  7 
+TCT  C9    .  C   0  7.629   104.633  24.653  1  8 
+TCT  O3    .  O   0  6.774   105.673  24.440  1  9 
+TCT  C8    .  C   0  8.022   103.802  23.570  1  10
+TCT  C7    .  C   0  8.911   102.713  23.775  1  11
+TCT  O2    .  O   0  11.646  100.101  27.017  1  12
+TCT  C3    .  C   0  12.179  99.090   26.189  1  13
+TCT  C4    .  C   0  11.391  97.924   25.914  1  14
+TCT  C5    .  C   0  11.908  96.867   25.119  1  15
+TCT  C6    .  C   0  13.215  96.954   24.592  1  16
+TCT  CL1   .  CL  0  13.849  95.626   23.637  0  17
+TCT  C1    .  C   0  14.010  98.115   24.849  1  18
+TCT  C2    .  C   0  13.495  99.185   25.645  1  19
+TCT  O1    .  O   0  14.273  100.287  25.895  1  20
+TCT  CH16  .  H   0  ?       ?        ?       0  21
+TCT  CH15  .  H   0  ?       ?        ?       0  22
+TCT  CH13  .  H   0  ?       ?        ?       0  23
+TCT  CH10  .  H   0  ?       ?        ?       0  24
+TCT  HO3   .  H   0  ?       ?        ?       1  25
+TCT  HC8   .  H   0  ?       ?        ?       1  26
+TCT  HC7   .  H   0  ?       ?        ?       1  27
+TCT  HC4   .  H   0  ?       ?        ?       1  28
+TCT  HC5   .  H   0  ?       ?        ?       1  29
+TCT  HC1   .  H   0  ?       ?        ?       1  30
+TCT  HO1   .  H   0  ?       ?        ?       1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCT  C16  C15   DOUB  1 
+TCT  C16  C11   SING  2 
+TCT  C16  CH16  SING  3 
+TCT  C15  C14   SING  4 
+TCT  C15  CH15  SING  5 
+TCT  C14  C13   DOUB  6 
+TCT  C14  O2    SING  7 
+TCT  C13  C12   SING  8 
+TCT  C13  CH13  SING  9 
+TCT  C12  C11   AROM  10
+TCT  C12  C7    AROM  11
+TCT  C11  C10   AROM  12
+TCT  C10  C9    AROM  13
+TCT  C10  CH10  SING  14
+TCT  C9   O3    SING  15
+TCT  C9   C8    AROM  16
+TCT  O3   HO3   SING  17
+TCT  C8   C7    AROM  18
+TCT  C8   HC8   SING  19
+TCT  C7   HC7   SING  20
+TCT  O2   C3    SING  21
+TCT  C3   C4    AROM  22
+TCT  C3   C2    AROM  23
+TCT  C4   C5    AROM  24
+TCT  C4   HC4   SING  25
+TCT  C5   C6    AROM  26
+TCT  C5   HC5   SING  27
+TCT  C6   CL1   SING  28
+TCT  C6   C1    AROM  29
+TCT  C1   C2    AROM  30
+TCT  C1   HC1   SING  31
+TCT  C2   O1    SING  32
+TCT  O1   HO1   SING  33
+#

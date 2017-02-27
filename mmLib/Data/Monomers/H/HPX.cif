@@ -1,0 +1,83 @@
+data_HPX
+#
+_chem_comp.id                   HPX
+_chem_comp.name                 '(2Z,4E)-2-HYDROXY-6-OXO-6-PHENYLHEXA-2,4-DIENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        218.209
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPX  CB3  .  C  0  37.954  14.325  -16.415  1  1 
+HPX  CB4  .  C  0  36.823  14.116  -17.200  1  2 
+HPX  CB5  .  C  0  35.715  13.454  -16.665  1  3 
+HPX  CB6  .  C  0  35.746  13.013  -15.345  1  4 
+HPX  CB1  .  C  0  36.873  13.223  -14.562  1  5 
+HPX  CB2  .  C  0  37.978  13.878  -15.098  1  6 
+HPX  CA6  .  C  0  36.916  12.738  -13.145  1  7 
+HPX  OA4  .  O  0  38.001  12.547  -12.615  1  8 
+HPX  CA5  .  C  0  35.684  12.478  -12.379  1  9 
+HPX  CA4  .  C  0  35.663  11.398  -11.608  1  10
+HPX  CA3  .  C  0  34.491  11.056  -10.788  1  11
+HPX  CA2  .  C  0  34.575  10.167  -9.790   1  12
+HPX  OA3  .  O  0  35.692  9.521   -9.476   1  13
+HPX  CA1  .  C  0  33.395  9.889   -9.009   1  14
+HPX  OA2  .  O  0  32.305  10.324  -9.425   1  15
+HPX  OA1  .  O  0  33.516  9.238   -7.949   1  16
+HPX  HA2  .  H  0  ?       ?       ?        1  17
+HPX  HA3  .  H  0  ?       ?       ?        1  18
+HPX  H1   .  H  0  ?       ?       ?        1  19
+HPX  HA4  .  H  0  ?       ?       ?        1  20
+HPX  HA5  .  H  0  ?       ?       ?        1  21
+HPX  HB2  .  H  0  ?       ?       ?        1  22
+HPX  HB3  .  H  0  ?       ?       ?        1  23
+HPX  HB4  .  H  0  ?       ?       ?        1  24
+HPX  HB5  .  H  0  ?       ?       ?        1  25
+HPX  HB6  .  H  0  ?       ?       ?        1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPX  CB3  CB2  AROM  1 
+HPX  CB3  HB3  SING  2 
+HPX  CB3  CB4  AROM  3 
+HPX  CB4  HB4  SING  4 
+HPX  CB4  CB5  AROM  5 
+HPX  CB5  HB5  SING  6 
+HPX  CB5  CB6  AROM  7 
+HPX  CB6  CB1  AROM  8 
+HPX  CB6  HB6  SING  9 
+HPX  CB1  CA6  SING  10
+HPX  CB1  CB2  AROM  11
+HPX  CB2  HB2  SING  12
+HPX  CA6  CA5  SING  13
+HPX  CA6  OA4  DOUB  14
+HPX  CA5  CA4  DOUB  15
+HPX  CA5  HA5  SING  16
+HPX  CA4  CA3  SING  17
+HPX  CA4  HA4  SING  18
+HPX  CA3  CA2  DOUB  19
+HPX  CA3  H1   SING  20
+HPX  CA2  CA1  SING  21
+HPX  CA2  OA3  SING  22
+HPX  OA3  HA3  SING  23
+HPX  CA1  OA2  SING  24
+HPX  CA1  OA1  DOUB  25
+HPX  OA2  HA2  SING  26
+#

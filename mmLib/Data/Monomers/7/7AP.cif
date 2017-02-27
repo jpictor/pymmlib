@@ -1,0 +1,67 @@
+data_7AP
+#
+_chem_comp.id                   7AP
+_chem_comp.name                 (1S,2S)-1-(2,4-DIAMINOPTERIDIN-6-YL)PROPANE-1,2-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 N6 O2'
+_chem_comp.pdbx_synonyms        4-AMINOBIOPTERIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+7AP  N1   .  N  0  14.559  3.206  48.383  1  1 
+7AP  C2   .  C  0  14.536  2.662  49.673  1  2 
+7AP  N2   .  N  0  13.474  2.007  50.161  1  3 
+7AP  N3   .  N  0  15.685  2.828  50.451  1  4 
+7AP  C4   .  C  0  16.832  3.498  50.000  1  5 
+7AP  N4   .  N  0  17.900  3.621  50.798  1  6 
+7AP  C4A  .  C  0  16.818  4.036  48.676  1  7 
+7AP  C8A  .  C  0  15.670  3.886  47.863  1  8 
+7AP  N5   .  N  0  17.950  4.701  48.184  1  9 
+7AP  C6   .  C  0  17.926  5.222  46.869  1  10
+7AP  C7   .  C  0  16.757  5.077  46.039  1  11
+7AP  N8   .  N  0  15.649  4.404  46.574  1  12
+7AP  C1'  .  C  0  19.184  5.944  46.315  1  13
+7AP  O1'  .  O  0  20.321  5.719  47.141  1  14
+7AP  C2'  .  C  0  19.058  7.496  46.143  1  15
+7AP  O2'  .  O  0  18.186  7.780  45.058  1  16
+7AP  C3'  .  C  0  18.530  8.198  47.418  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+7AP  N1   C8A  DOUB  1 
+7AP  N1   C2   SING  2 
+7AP  C2   N2   SING  3 
+7AP  C2   N3   DOUB  4 
+7AP  N3   C4   SING  5 
+7AP  C4   N4   SING  6 
+7AP  C4   C4A  DOUB  7 
+7AP  C4A  C8A  SING  8 
+7AP  C4A  N5   SING  9 
+7AP  C8A  N8   SING  10
+7AP  N5   C6   DOUB  11
+7AP  C6   C1'  SING  12
+7AP  C6   C7   SING  13
+7AP  C7   N8   DOUB  14
+7AP  C1'  C2'  SING  15
+7AP  C1'  O1'  SING  16
+7AP  C2'  C3'  SING  17
+7AP  C2'  O2'  SING  18
+#

@@ -1,0 +1,73 @@
+data_FPR
+#
+_chem_comp.id                   FPR
+_chem_comp.name                 PROPYLBENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        120.194
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FPR  C1   .  C  0  36.374  91.590  17.379  1  1 
+FPR  C2   .  C  0  36.152  90.464  16.410  1  2 
+FPR  C3   .  C  0  36.600  89.134  16.994  1  3 
+FPR  C4   .  C  0  36.603  87.989  16.012  1  4 
+FPR  C5   .  C  0  37.455  86.909  16.196  1  5 
+FPR  C6   .  C  0  37.485  85.863  15.285  1  6 
+FPR  C7   .  C  0  36.653  85.890  14.174  1  7 
+FPR  C8   .  C  0  35.793  86.964  13.983  1  8 
+FPR  C9   .  C  0  35.772  88.002  14.898  1  9 
+FPR  H7   .  H  0  ?       ?       ?       1  10
+FPR  H8   .  H  0  ?       ?       ?       1  11
+FPR  H9   .  H  0  ?       ?       ?       1  12
+FPR  H5   .  H  0  ?       ?       ?       1  13
+FPR  H6   .  H  0  ?       ?       ?       1  14
+FPR  1H3  .  H  0  ?       ?       ?       0  15
+FPR  2H3  .  H  0  ?       ?       ?       0  16
+FPR  1H2  .  H  0  ?       ?       ?       0  17
+FPR  2H2  .  H  0  ?       ?       ?       0  18
+FPR  1H1  .  H  0  ?       ?       ?       0  19
+FPR  2H1  .  H  0  ?       ?       ?       0  20
+FPR  3H1  .  H  0  ?       ?       ?       0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FPR  C1  C2   SING  1 
+FPR  C1  1H1  SING  2 
+FPR  C1  2H1  SING  3 
+FPR  C1  3H1  SING  4 
+FPR  C2  C3   SING  5 
+FPR  C2  1H2  SING  6 
+FPR  C2  2H2  SING  7 
+FPR  C3  C4   SING  8 
+FPR  C3  1H3  SING  9 
+FPR  C3  2H3  SING  10
+FPR  C4  C9   AROM  11
+FPR  C4  C5   AROM  12
+FPR  C5  H5   SING  13
+FPR  C5  C6   AROM  14
+FPR  C6  C7   AROM  15
+FPR  C6  H6   SING  16
+FPR  C7  H7   SING  17
+FPR  C7  C8   AROM  18
+FPR  C8  H8   SING  19
+FPR  C8  C9   AROM  20
+FPR  C9  H9   SING  21
+#

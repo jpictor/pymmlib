@@ -1,0 +1,91 @@
+data_HYM
+#
+_chem_comp.id                   HYM
+_chem_comp.name                 (4Z)-4-(2-AMINO-5-OXO-3,5-DIHYDRO-4H-IMIDAZOL-4-YLIDENE)-2,3-DICHLORO-4,5,6,7-TETRAHYDROPYRROLO[2,3-C]AZEPIN-8(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H9 N5 O2 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        314.130
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HYM  CAI   .  C   0  12.987  -0.986  10.298  1  1 
+HYM  CAH   .  C   0  13.277  0.509   10.411  1  2 
+HYM  NAG   .  N   0  14.402  0.933   9.560   1  3 
+HYM  CAF   .  C   0  15.595  0.367   9.375   1  4 
+HYM  OAK   .  O   0  16.434  0.888   8.642   1  5 
+HYM  CAD   .  C   0  15.998  -0.930  10.085  1  6 
+HYM  NAC   .  N   0  17.249  -1.391  10.022  1  7 
+HYM  CAA   .  C   0  17.440  -2.545  10.656  1  8 
+HYM  CLA   .  CL  0  18.982  -3.401  10.883  0  9 
+HYM  CAB   .  C   0  16.191  -2.878  11.164  1  10
+HYM  CLB   .  CL  0  15.850  -4.461  11.901  0  11
+HYM  CAE   .  C   0  15.295  -1.868  10.840  1  12
+HYM  CAJ   .  C   0  13.951  -1.761  11.197  1  13
+HYM  CAL   .  C   0  13.463  -2.302  12.390  1  14
+HYM  NAP   .  N   0  14.281  -2.836  13.293  1  15
+HYM  CAM   .  C   0  12.168  -2.345  12.904  1  16
+HYM  OAR   .  O   0  11.137  -1.911  12.392  1  17
+HYM  NAN   .  N   0  12.255  -2.915  14.102  1  18
+HYM  CAO   .  C   0  13.532  -3.207  14.329  1  19
+HYM  NAQ   .  N   0  13.982  -3.783  15.439  1  20
+HYM  1HAQ  .  H   0  14.974  -3.897  15.373  0  21
+HYM  2HAQ  .  H   0  13.419  -4.060  16.218  0  22
+HYM  HAP   .  H   0  ?       ?       ?       1  23
+HYM  HAC   .  H   0  ?       ?       ?       1  24
+HYM  HAG   .  H   0  14.247  1.773   9.041   1  25
+HYM  1HAH  .  H   0  13.528  0.738   11.457  0  26
+HYM  2HAH  .  H   0  12.381  1.051   10.075  0  27
+HYM  1HAI  .  H   0  11.952  -1.184  10.615  0  28
+HYM  2HAI  .  H   0  13.119  -1.309  9.255   0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HYM  CAI  CAH   SING  1 
+HYM  CAI  CAJ   SING  2 
+HYM  CAI  1HAI  SING  3 
+HYM  CAI  2HAI  SING  4 
+HYM  CAH  NAG   SING  5 
+HYM  CAH  1HAH  SING  6 
+HYM  CAH  2HAH  SING  7 
+HYM  NAG  CAF   SING  8 
+HYM  NAG  HAG   SING  9 
+HYM  CAF  CAD   SING  10
+HYM  CAF  OAK   DOUB  11
+HYM  CAD  CAE   DOUB  12
+HYM  CAD  NAC   SING  13
+HYM  NAC  HAC   SING  14
+HYM  NAC  CAA   SING  15
+HYM  CAA  CLA   SING  16
+HYM  CAA  CAB   DOUB  17
+HYM  CAB  CAE   SING  18
+HYM  CAB  CLB   SING  19
+HYM  CAE  CAJ   SING  20
+HYM  CAJ  CAL   DOUB  21
+HYM  CAL  CAM   SING  22
+HYM  CAL  NAP   SING  23
+HYM  NAP  CAO   SING  24
+HYM  NAP  HAP   SING  25
+HYM  CAM  NAN   SING  26
+HYM  CAM  OAR   DOUB  27
+HYM  NAN  CAO   DOUB  28
+HYM  CAO  NAQ   SING  29
+HYM  NAQ  1HAQ  SING  30
+HYM  NAQ  2HAQ  SING  31
+#

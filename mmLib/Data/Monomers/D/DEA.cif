@@ -1,0 +1,90 @@
+data_DEA
+#
+_chem_comp.id                   DEA
+_chem_comp.name                 D-ERITADENINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N5 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.217
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DEA  N9    .  N  0  ?  ?  ?  1  1 
+DEA  C8    .  C  0  ?  ?  ?  1  2 
+DEA  N7    .  N  0  ?  ?  ?  1  3 
+DEA  C5    .  C  0  ?  ?  ?  1  4 
+DEA  C6    .  C  0  ?  ?  ?  1  5 
+DEA  N6    .  N  0  ?  ?  ?  1  6 
+DEA  N1    .  N  0  ?  ?  ?  1  7 
+DEA  C2    .  C  0  ?  ?  ?  1  8 
+DEA  N3    .  N  0  ?  ?  ?  1  9 
+DEA  C4    .  C  0  ?  ?  ?  1  10
+DEA  C1*   .  C  0  ?  ?  ?  1  11
+DEA  C2*   .  C  0  ?  ?  ?  1  12
+DEA  O2*   .  O  0  ?  ?  ?  1  13
+DEA  C3*   .  C  0  ?  ?  ?  1  14
+DEA  O3*   .  O  0  ?  ?  ?  1  15
+DEA  C4*   .  C  0  ?  ?  ?  1  16
+DEA  O     .  O  0  ?  ?  ?  1  17
+DEA  OXT   .  O  0  ?  ?  ?  1  18
+DEA  H8    .  H  0  ?  ?  ?  1  19
+DEA  1HN6  .  H  0  ?  ?  ?  0  20
+DEA  2HN6  .  H  0  ?  ?  ?  0  21
+DEA  H2    .  H  0  ?  ?  ?  1  22
+DEA  1H1*  .  H  0  ?  ?  ?  0  23
+DEA  2H1*  .  H  0  ?  ?  ?  0  24
+DEA  H2*   .  H  0  ?  ?  ?  1  25
+DEA  2HO*  .  H  0  ?  ?  ?  0  26
+DEA  H3*   .  H  0  ?  ?  ?  1  27
+DEA  3HO*  .  H  0  ?  ?  ?  0  28
+DEA  HXT   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DEA  N9   C8    SING  1 
+DEA  N9   C4    SING  2 
+DEA  N9   C1*   SING  3 
+DEA  C8   N7    DOUB  4 
+DEA  C8   H8    SING  5 
+DEA  N7   C5    SING  6 
+DEA  C5   C6    SING  7 
+DEA  C5   C4    DOUB  8 
+DEA  C6   N1    DOUB  9 
+DEA  C6   N6    SING  10
+DEA  N6   1HN6  SING  11
+DEA  N6   2HN6  SING  12
+DEA  N1   C2    SING  13
+DEA  C2   N3    DOUB  14
+DEA  C2   H2    SING  15
+DEA  N3   C4    SING  16
+DEA  C1*  1H1*  SING  17
+DEA  C1*  2H1*  SING  18
+DEA  C1*  C2*   SING  19
+DEA  C2*  H2*   SING  20
+DEA  C2*  O2*   SING  21
+DEA  C2*  C3*   SING  22
+DEA  O2*  2HO*  SING  23
+DEA  C3*  H3*   SING  24
+DEA  C3*  O3*   SING  25
+DEA  C3*  C4*   SING  26
+DEA  O3*  3HO*  SING  27
+DEA  C4*  O     DOUB  28
+DEA  C4*  OXT   SING  29
+DEA  OXT  HXT   SING  30
+#

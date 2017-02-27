@@ -1,0 +1,124 @@
+data_DIM
+#
+_chem_comp.id                   DIM
+_chem_comp.name                 'DIIMIDAZOLE LEXITROPSIN'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C14 H20 N9 O3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       362.371
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DIM  O1    .  O  0  ?  ?  ?  1  1 
+DIM  C1    .  C  0  ?  ?  ?  1  2 
+DIM  N1    .  N  0  ?  ?  ?  1  3 
+DIM  C2    .  C  0  ?  ?  ?  1  4 
+DIM  N2    .  N  0  ?  ?  ?  1  5 
+DIM  C3    .  C  0  ?  ?  ?  1  6 
+DIM  N3    .  N  0  ?  ?  ?  1  7 
+DIM  C4    .  C  0  ?  ?  ?  1  8 
+DIM  C5    .  C  0  ?  ?  ?  1  9 
+DIM  C6    .  C  0  ?  ?  ?  1  10
+DIM  O2    .  O  0  ?  ?  ?  1  11
+DIM  N4    .  N  0  ?  ?  ?  1  12
+DIM  C7    .  C  0  ?  ?  ?  1  13
+DIM  N5    .  N  0  ?  ?  ?  1  14
+DIM  C8    .  C  0  ?  ?  ?  1  15
+DIM  N6    .  N  0  ?  ?  ?  1  16
+DIM  C9    .  C  0  ?  ?  ?  1  17
+DIM  C10   .  C  0  ?  ?  ?  1  18
+DIM  C11   .  C  0  ?  ?  ?  1  19
+DIM  O3    .  O  0  ?  ?  ?  1  20
+DIM  N7    .  N  0  ?  ?  ?  1  21
+DIM  C12   .  C  0  ?  ?  ?  1  22
+DIM  C13   .  C  0  ?  ?  ?  1  23
+DIM  C14   .  C  0  ?  ?  ?  1  24
+DIM  N9    .  N  1  ?  ?  ?  1  25
+DIM  N8    .  N  0  ?  ?  ?  1  26
+DIM  H1    .  H  0  ?  ?  ?  1  27
+DIM  H4    .  H  0  ?  ?  ?  1  28
+DIM  HN1   .  H  0  ?  ?  ?  1  29
+DIM  1H5   .  H  0  ?  ?  ?  0  30
+DIM  2H5   .  H  0  ?  ?  ?  0  31
+DIM  3H5   .  H  0  ?  ?  ?  0  32
+DIM  HN4   .  H  0  ?  ?  ?  1  33
+DIM  H9    .  H  0  ?  ?  ?  1  34
+DIM  1H10  .  H  0  ?  ?  ?  0  35
+DIM  2H10  .  H  0  ?  ?  ?  0  36
+DIM  3H10  .  H  0  ?  ?  ?  0  37
+DIM  HN7   .  H  0  ?  ?  ?  1  38
+DIM  1H12  .  H  0  ?  ?  ?  0  39
+DIM  2H12  .  H  0  ?  ?  ?  0  40
+DIM  1H13  .  H  0  ?  ?  ?  0  41
+DIM  2H13  .  H  0  ?  ?  ?  0  42
+DIM  1HN9  .  H  0  ?  ?  ?  0  43
+DIM  2HN9  .  H  0  ?  ?  ?  0  44
+DIM  1HN8  .  H  0  ?  ?  ?  0  45
+DIM  2HN8  .  H  0  ?  ?  ?  0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DIM  O1   C1    DOUB  1 
+DIM  C1   N1    SING  2 
+DIM  C1   H1    SING  3 
+DIM  N1   C2    SING  4 
+DIM  N1   HN1   SING  5 
+DIM  C2   C4    DOUB  6 
+DIM  C2   N2    SING  7 
+DIM  N2   C3    DOUB  8 
+DIM  C3   N3    SING  9 
+DIM  C3   C6    SING  10
+DIM  N3   C4    SING  11
+DIM  N3   C5    SING  12
+DIM  C4   H4    SING  13
+DIM  C5   1H5   SING  14
+DIM  C5   2H5   SING  15
+DIM  C5   3H5   SING  16
+DIM  C6   O2    DOUB  17
+DIM  C6   N4    SING  18
+DIM  N4   C7    SING  19
+DIM  N4   HN4   SING  20
+DIM  C7   C9    DOUB  21
+DIM  C7   N5    SING  22
+DIM  N5   C8    DOUB  23
+DIM  C8   N6    SING  24
+DIM  C8   C11   SING  25
+DIM  N6   C9    SING  26
+DIM  N6   C10   SING  27
+DIM  C9   H9    SING  28
+DIM  C10  1H10  SING  29
+DIM  C10  2H10  SING  30
+DIM  C10  3H10  SING  31
+DIM  C11  O3    DOUB  32
+DIM  C11  N7    SING  33
+DIM  N7   C12   SING  34
+DIM  N7   HN7   SING  35
+DIM  C12  C13   SING  36
+DIM  C12  1H12  SING  37
+DIM  C12  2H12  SING  38
+DIM  C13  C14   SING  39
+DIM  C13  1H13  SING  40
+DIM  C13  2H13  SING  41
+DIM  C14  N8    SING  42
+DIM  C14  N9    DOUB  43
+DIM  N9   1HN9  SING  44
+DIM  N9   2HN9  SING  45
+DIM  N8   1HN8  SING  46
+DIM  N8   2HN8  SING  47
+#

@@ -1,0 +1,88 @@
+data_CAE
+#
+_chem_comp.id                   CAE
+_chem_comp.name                 CAMPHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H18'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        138.252
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CAE  C1    .  C  0  ?  ?  ?  1  1 
+CAE  C2    .  C  0  ?  ?  ?  1  2 
+CAE  C3    .  C  0  ?  ?  ?  1  3 
+CAE  C4    .  C  0  ?  ?  ?  1  4 
+CAE  C5    .  C  0  ?  ?  ?  1  5 
+CAE  C6    .  C  0  ?  ?  ?  1  6 
+CAE  C7    .  C  0  ?  ?  ?  1  7 
+CAE  C8    .  C  0  ?  ?  ?  1  8 
+CAE  C9    .  C  0  ?  ?  ?  1  9 
+CAE  C10   .  C  0  ?  ?  ?  1  10
+CAE  1H2   .  H  0  ?  ?  ?  0  11
+CAE  2H2   .  H  0  ?  ?  ?  0  12
+CAE  1H3   .  H  0  ?  ?  ?  0  13
+CAE  2H3   .  H  0  ?  ?  ?  0  14
+CAE  H4    .  H  0  ?  ?  ?  1  15
+CAE  1H5   .  H  0  ?  ?  ?  0  16
+CAE  2H5   .  H  0  ?  ?  ?  0  17
+CAE  1H6   .  H  0  ?  ?  ?  0  18
+CAE  2H6   .  H  0  ?  ?  ?  0  19
+CAE  1H8   .  H  0  ?  ?  ?  0  20
+CAE  2H8   .  H  0  ?  ?  ?  0  21
+CAE  3H8   .  H  0  ?  ?  ?  0  22
+CAE  1H9   .  H  0  ?  ?  ?  0  23
+CAE  2H9   .  H  0  ?  ?  ?  0  24
+CAE  3H9   .  H  0  ?  ?  ?  0  25
+CAE  1H10  .  H  0  ?  ?  ?  0  26
+CAE  2H10  .  H  0  ?  ?  ?  0  27
+CAE  3H10  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CAE  C1   C2    SING  1 
+CAE  C1   C6    SING  2 
+CAE  C1   C7    SING  3 
+CAE  C1   C10   SING  4 
+CAE  C2   C3    SING  5 
+CAE  C2   1H2   SING  6 
+CAE  C2   2H2   SING  7 
+CAE  C3   C4    SING  8 
+CAE  C3   1H3   SING  9 
+CAE  C3   2H3   SING  10
+CAE  C4   C5    SING  11
+CAE  C4   C7    SING  12
+CAE  C4   H4    SING  13
+CAE  C5   C6    SING  14
+CAE  C5   1H5   SING  15
+CAE  C5   2H5   SING  16
+CAE  C6   1H6   SING  17
+CAE  C6   2H6   SING  18
+CAE  C7   C8    SING  19
+CAE  C7   C9    SING  20
+CAE  C8   1H8   SING  21
+CAE  C8   2H8   SING  22
+CAE  C8   3H8   SING  23
+CAE  C9   1H9   SING  24
+CAE  C9   2H9   SING  25
+CAE  C9   3H9   SING  26
+CAE  C10  1H10  SING  27
+CAE  C10  2H10  SING  28
+CAE  C10  3H10  SING  29
+#

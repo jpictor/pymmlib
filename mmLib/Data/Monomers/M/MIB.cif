@@ -1,0 +1,88 @@
+data_MIB
+#
+_chem_comp.id                   MIB
+_chem_comp.name                 (3E)-4-(1-METHYL-1H-INDOL-3-YL)BUT-3-EN-2-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H13 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        199.252
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MIB  O1   .  O  0  8.414   -3.399  2.651   1  1 
+MIB  CO   .  C  0  9.008   -2.424  2.233   1  2 
+MIB  CM   .  C  0  8.262   -1.106  2.021   1  3 
+MIB  CA   .  C  0  10.355  -2.535  1.954   1  4 
+MIB  CB   .  C  0  11.139  -1.504  1.476   1  5 
+MIB  CG   .  C  0  12.569  -1.730  1.209   1  6 
+MIB  CD1  .  C  0  13.184  -2.934  1.239   1  7 
+MIB  CD2  .  C  0  13.597  -0.754  0.874   1  8 
+MIB  NE1  .  N  0  14.525  -2.762  0.939   1  9 
+MIB  CN1  .  C  0  15.517  -3.847  0.873   1  10
+MIB  CE2  .  C  0  14.827  -1.434  0.708   1  11
+MIB  CE3  .  C  0  13.583  0.642   0.700   1  12
+MIB  CZ2  .  C  0  16.000  -0.754  0.379   1  13
+MIB  CZ3  .  C  0  14.762  1.329   0.369   1  14
+MIB  CH2  .  C  0  15.968  0.633   0.209   1  15
+MIB  HH2  .  H  0  16.872  1.167   -0.045  1  16
+MIB  HZ3  .  H  0  14.740  2.401   0.237   1  17
+MIB  HE3  .  H  0  12.659  1.188   0.820   1  18
+MIB  HB   .  H  0  10.703  -0.533  1.298   1  19
+MIB  HA   .  H  0  10.827  -3.493  2.118   1  20
+MIB  HM1  .  H  0  8.827   -0.297  2.460   1  21
+MIB  HM2  .  H  0  7.291   -1.162  2.490   1  22
+MIB  HM3  .  H  0  8.142   -0.927  0.963   1  23
+MIB  HD1  .  H  0  12.706  -3.878  1.456   1  24
+MIB  HZ2  .  H  0  16.927  -1.295  0.257   1  25
+MIB  HN1  .  H  0  15.241  -4.540  0.092   1  26
+MIB  HN2  .  H  0  15.549  -4.365  1.819   1  27
+MIB  HN3  .  H  0  16.490  -3.431  0.657   1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MIB  O1   CO   DOUB  1 
+MIB  CO   CA   SING  2 
+MIB  CO   CM   SING  3 
+MIB  CM   HM1  SING  4 
+MIB  CM   HM2  SING  5 
+MIB  CM   HM3  SING  6 
+MIB  CA   CB   DOUB  7 
+MIB  CA   HA   SING  8 
+MIB  CB   CG   SING  9 
+MIB  CB   HB   SING  10
+MIB  CG   CD2  SING  11
+MIB  CG   CD1  DOUB  12
+MIB  CD1  HD1  SING  13
+MIB  CD1  NE1  SING  14
+MIB  CD2  CE3  AROM  15
+MIB  CD2  CE2  AROM  16
+MIB  NE1  CE2  SING  17
+MIB  NE1  CN1  SING  18
+MIB  CN1  HN1  SING  19
+MIB  CN1  HN2  SING  20
+MIB  CN1  HN3  SING  21
+MIB  CE2  CZ2  AROM  22
+MIB  CE3  CZ3  AROM  23
+MIB  CE3  HE3  SING  24
+MIB  CZ2  CH2  AROM  25
+MIB  CZ2  HZ2  SING  26
+MIB  CZ3  CH2  AROM  27
+MIB  CZ3  HZ3  SING  28
+MIB  CH2  HH2  SING  29
+#

@@ -1,0 +1,80 @@
+data_3IO
+#
+_chem_comp.id                   3IO
+_chem_comp.name                 '3-(1H-INDOL-3-YL)-2-OXOPROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H9 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        203.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3IO  CAO   .  C  0  30.463  49.746  100.006  1  1 
+3IO  CAG   .  C  0  29.173  49.672  99.485   1  2 
+3IO  CAE   .  C  0  28.351  48.600  99.819   1  3 
+3IO  CAD   .  C  0  28.821  47.603  100.670  1  4 
+3IO  CAF   .  C  0  30.110  47.676  101.190  1  5 
+3IO  CAN   .  C  0  30.930  48.751  100.857  1  6 
+3IO  NAJ   .  N  0  32.173  49.076  101.205  1  7 
+3IO  CAH   .  C  0  32.508  50.222  100.616  1  8 
+3IO  CAM   .  C  0  31.497  50.664  99.871   1  9 
+3IO  CAI   .  C  0  31.538  51.880  98.942   1  10
+3IO  CAL   .  C  0  30.550  52.978  99.348   1  11
+3IO  OAB   .  O  0  29.484  52.715  99.903   1  12
+3IO  CAK   .  C  0  30.919  54.440  99.083   1  13
+3IO  OAC   .  O  0  32.132  54.742  99.041   1  14
+3IO  OAA   .  O  0  29.986  55.263  98.958   1  15
+3IO  HOAC  .  H  0  32.221  55.677  98.902   0  16
+3IO  1HAI  .  H  0  31.285  51.546  97.925   0  17
+3IO  2HAI  .  H  0  32.550  52.307  99.001   0  18
+3IO  HAH   .  H  0  33.460  50.720  100.726  1  19
+3IO  HNAJ  .  H  0  32.762  48.544  101.813  0  20
+3IO  HAG   .  H  0  28.812  50.445  98.823   1  21
+3IO  HAE   .  H  0  27.350  48.541  99.419   1  22
+3IO  HAD   .  H  0  28.183  46.770  100.927  1  23
+3IO  HAF   .  H  0  30.473  46.902  101.849  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3IO  CAO  CAN   DOUB  1 
+3IO  CAO  CAM   SING  2 
+3IO  CAO  CAG   SING  3 
+3IO  CAG  HAG   SING  4 
+3IO  CAG  CAE   DOUB  5 
+3IO  CAE  HAE   SING  6 
+3IO  CAE  CAD   SING  7 
+3IO  CAD  HAD   SING  8 
+3IO  CAD  CAF   DOUB  9 
+3IO  CAF  CAN   SING  10
+3IO  CAF  HAF   SING  11
+3IO  CAN  NAJ   SING  12
+3IO  NAJ  CAH   SING  13
+3IO  NAJ  HNAJ  SING  14
+3IO  CAH  CAM   DOUB  15
+3IO  CAH  HAH   SING  16
+3IO  CAM  CAI   SING  17
+3IO  CAI  CAL   SING  18
+3IO  CAI  1HAI  SING  19
+3IO  CAI  2HAI  SING  20
+3IO  CAL  CAK   SING  21
+3IO  CAL  OAB   DOUB  22
+3IO  CAK  OAC   SING  23
+3IO  CAK  OAA   DOUB  24
+3IO  OAC  HOAC  SING  25
+#

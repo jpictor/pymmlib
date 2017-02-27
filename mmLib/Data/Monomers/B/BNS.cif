@@ -1,0 +1,59 @@
+data_BNS
+#
+_chem_comp.id                   BNS
+_chem_comp.name                 BENZENESULFONYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        141.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNS  C1  .  C  0  ?  ?  ?  1  1 
+BNS  C2  .  C  0  ?  ?  ?  1  2 
+BNS  C3  .  C  0  ?  ?  ?  1  3 
+BNS  C4  .  C  0  ?  ?  ?  1  4 
+BNS  S1  .  S  0  ?  ?  ?  1  5 
+BNS  O1  .  O  0  ?  ?  ?  1  6 
+BNS  O2  .  O  0  ?  ?  ?  1  7 
+BNS  C5  .  C  0  ?  ?  ?  1  8 
+BNS  C6  .  C  0  ?  ?  ?  1  9 
+BNS  H1  .  H  0  ?  ?  ?  1  10
+BNS  H2  .  H  0  ?  ?  ?  1  11
+BNS  H3  .  H  0  ?  ?  ?  1  12
+BNS  H5  .  H  0  ?  ?  ?  1  13
+BNS  H6  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNS  C1  C2  DOUB  1 
+BNS  C1  C6  SING  2 
+BNS  C1  H1  SING  3 
+BNS  C2  C3  SING  4 
+BNS  C2  H2  SING  5 
+BNS  C3  C4  DOUB  6 
+BNS  C3  H3  SING  7 
+BNS  C4  C5  SING  8 
+BNS  C4  S1  SING  9 
+BNS  S1  O1  DOUB  10
+BNS  S1  O2  DOUB  11
+BNS  C5  C6  DOUB  12
+BNS  C5  H5  SING  13
+BNS  C6  H6  SING  14
+#

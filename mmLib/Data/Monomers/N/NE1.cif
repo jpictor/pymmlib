@@ -1,0 +1,78 @@
+data_NE1
+#
+_chem_comp.id                   NE1
+_chem_comp.name                 2',3,3',4',5-PENTACHLOROBIPHENYL-4-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H5 O1 CL5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.436
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NE1  CL18  .  CL  0  0.158   42.849  1.513   0  1 
+NE1  C10   .  C   0  0.074   42.820  3.276   1  2 
+NE1  C9    .  C   0  -0.763  41.923  3.969   1  3 
+NE1  CL17  .  CL  0  -1.767  40.823  3.076   0  4 
+NE1  C8    .  C   0  -0.828  41.908  5.364   1  5 
+NE1  CL16  .  CL  0  -2.034  40.841  6.160   0  6 
+NE1  C11   .  C   0  0.845   43.709  3.961   1  7 
+NE1  C12   .  C   0  0.790   43.704  5.348   1  8 
+NE1  C7    .  C   0  -0.034  42.797  6.094   1  9 
+NE1  C4    .  C   0  -0.031  42.791  7.488   1  10
+NE1  C3    .  C   0  0.059   43.991  8.189   1  11
+NE1  C2    .  C   0  0.082   43.983  9.578   1  12
+NE1  CL14  .  CL  0  0.183   45.510  10.405  0  13
+NE1  C5    .  C   0  -0.075  41.581  8.256   1  14
+NE1  C6    .  C   0  -0.052  41.573  9.646   1  15
+NE1  CL13  .  CL  0  -0.108  40.034  10.558  0  16
+NE1  C1    .  C   0  0.025   42.773  10.305  1  17
+NE1  O15   .  O   0  0.049   42.764  11.675  1  18
+NE1  HO15  .  H   0  0.950   42.762  11.976  0  19
+NE1  H5    .  H   0  -0.128  40.637  7.733   1  20
+NE1  H3    .  H   0  0.111   44.927  7.653   1  21
+NE1  H12   .  H   0  1.395   44.415  5.890   1  22
+NE1  H11   .  H   0  1.485   44.403  3.437   1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NE1  CL18  C10   SING  1 
+NE1  C10   C11   DOUB  2 
+NE1  C10   C9    SING  3 
+NE1  C9    CL17  SING  4 
+NE1  C9    C8    DOUB  5 
+NE1  C8    C7    SING  6 
+NE1  C8    CL16  SING  7 
+NE1  C11   C12   SING  8 
+NE1  C11   H11   SING  9 
+NE1  C12   C7    DOUB  10
+NE1  C12   H12   SING  11
+NE1  C7    C4    SING  12
+NE1  C4    C5    DOUB  13
+NE1  C4    C3    SING  14
+NE1  C3    H3    SING  15
+NE1  C3    C2    DOUB  16
+NE1  C2    C1    SING  17
+NE1  C2    CL14  SING  18
+NE1  C5    C6    SING  19
+NE1  C5    H5    SING  20
+NE1  C6    C1    DOUB  21
+NE1  C6    CL13  SING  22
+NE1  C1    O15   SING  23
+NE1  O15   HO15  SING  24
+#

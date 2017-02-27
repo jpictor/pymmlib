@@ -1,0 +1,73 @@
+data_GRE
+#
+_chem_comp.id                   GRE
+_chem_comp.name                 '2,6-DIHYDROXYBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.122
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          GRE
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(c(c(c1)O)C(=O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+GRE  C1A   .  C  0  61.058  35.937  27.576  1  N  1 
+GRE  O1A   .  O  0  62.201  36.206  27.912  1  N  2 
+GRE  O2A   .  O  0  60.837  34.737  27.453  1  N  3 
+GRE  C1    .  C  0  60.053  36.933  27.346  1  Y  4 
+GRE  C2    .  C  0  60.293  38.330  27.485  1  Y  5 
+GRE  C3    .  C  0  59.295  39.330  27.260  1  Y  6 
+GRE  C4    .  C  0  58.008  38.909  26.881  1  Y  7 
+GRE  C5    .  C  0  57.693  37.541  26.721  1  Y  8 
+GRE  C6    .  C  0  58.720  36.563  26.955  1  Y  9 
+GRE  O2    .  O  0  61.509  38.815  27.845  1  N  10
+GRE  O6    .  O  0  58.363  35.287  26.786  1  N  11
+GRE  HO2A  .  H  0  61.627  34.247  27.651  0  N  12
+GRE  H3    .  H  0  59.524  40.379  27.378  1  N  13
+GRE  H4    .  H  0  57.241  39.650  26.708  1  N  14
+GRE  H5    .  H  0  56.699  37.236  26.428  1  N  15
+GRE  HO2   .  H  0  62.047  38.928  27.070  1  N  16
+GRE  HO6   .  H  0  58.278  35.102  25.858  1  N  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+GRE  C1A  O1A   DOUB  N  1 
+GRE  C1A  O2A   SING  N  2 
+GRE  C1A  C1    SING  N  3 
+GRE  O2A  HO2A  SING  N  4 
+GRE  C1   C2    DOUB  Y  5 
+GRE  C1   C6    SING  Y  6 
+GRE  C2   C3    SING  Y  7 
+GRE  C2   O2    SING  N  8 
+GRE  C3   C4    DOUB  Y  9 
+GRE  C3   H3    SING  N  10
+GRE  C4   C5    SING  Y  11
+GRE  C4   H4    SING  N  12
+GRE  C5   C6    DOUB  Y  13
+GRE  C5   H5    SING  N  14
+GRE  C6   O6    SING  N  15
+GRE  O2   HO2   SING  N  16
+GRE  O6   HO6   SING  N  17
+#

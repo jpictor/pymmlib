@@ -1,0 +1,40 @@
+data_ART
+#
+_chem_comp.id                   ART
+_chem_comp.name                 ARSENATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O4 AS1'
+_chem_comp.pdbx_formal_charge   3-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       138.919
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ART  AS  .  AS  0   -37.938  29.228  -13.418  0  1
+ART  O1  .  O   -1  -39.390  28.791  -12.694  1  2
+ART  O2  .  O   -1  -37.289  30.673  -12.841  1  3
+ART  O3  .  O   -1  -38.226  29.291  -15.086  1  4
+ART  O4  .  O   0   -36.838  27.972  -13.126  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ART  AS  O1  SING  1
+ART  AS  O2  SING  2
+ART  AS  O3  SING  3
+ART  AS  O4  DOUB  4
+#

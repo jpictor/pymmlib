@@ -1,0 +1,69 @@
+data_BTL
+#
+_chem_comp.id                   BTL
+_chem_comp.name                 'BETAINE ALDEHYDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O1'
+_chem_comp.pdbx_synonyms        '[FORMYLMETHYL]TRIMETHYL-AMMONIUM, N,N,N-TRIMETHYL AMMONIUM ACETALDEHYDE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       102.156
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BTL  O1   .  O  0  47.269  41.464  65.335  1  1 
+BTL  C    .  C  0  46.668  42.398  65.910  1  2 
+BTL  CA   .  C  0  45.225  42.256  66.452  1  3 
+BTL  N    .  N  0  44.691  43.429  67.207  1  4 
+BTL  C3   .  C  0  44.070  44.457  66.353  1  5 
+BTL  C2   .  C  0  43.499  43.126  68.022  1  6 
+BTL  C1   .  C  0  45.841  43.989  67.921  1  7 
+BTL  H    .  H  0  ?       ?       ?       1  8 
+BTL  1HA  .  H  0  ?       ?       ?       0  9 
+BTL  2HA  .  H  0  ?       ?       ?       0  10
+BTL  1H3  .  H  0  ?       ?       ?       0  11
+BTL  2H3  .  H  0  ?       ?       ?       0  12
+BTL  3H3  .  H  0  ?       ?       ?       0  13
+BTL  1H2  .  H  0  ?       ?       ?       0  14
+BTL  2H2  .  H  0  ?       ?       ?       0  15
+BTL  3H2  .  H  0  ?       ?       ?       0  16
+BTL  1H1  .  H  0  ?       ?       ?       0  17
+BTL  2H1  .  H  0  ?       ?       ?       0  18
+BTL  3H1  .  H  0  ?       ?       ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BTL  O1  C    DOUB  1 
+BTL  C   CA   SING  2 
+BTL  C   H    SING  3 
+BTL  CA  N    SING  4 
+BTL  CA  1HA  SING  5 
+BTL  CA  2HA  SING  6 
+BTL  N   C3   SING  7 
+BTL  N   C2   SING  8 
+BTL  N   C1   SING  9 
+BTL  C3  1H3  SING  10
+BTL  C3  2H3  SING  11
+BTL  C3  3H3  SING  12
+BTL  C2  1H2  SING  13
+BTL  C2  2H2  SING  14
+BTL  C2  3H2  SING  15
+BTL  C1  1H1  SING  16
+BTL  C1  2H1  SING  17
+BTL  C1  3H1  SING  18
+#

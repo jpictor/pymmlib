@@ -1,0 +1,37 @@
+data_HGI
+#
+_chem_comp.id                   HGI
+_chem_comp.name                 'MERCURY (II) IODIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'HG1 I2'
+_chem_comp.pdbx_synonyms        'MERCURY DIIODIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        454.399
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HGI  HG  .  HG  0  ?  ?  ?  0  1
+HGI  I1  .  I   0  ?  ?  ?  1  2
+HGI  I2  .  I   0  ?  ?  ?  1  3
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HGI  HG  I1  SING  1
+HGI  HG  I2  SING  2
+#

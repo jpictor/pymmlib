@@ -1,0 +1,80 @@
+data_GCO
+#
+_chem_comp.id                   GCO
+_chem_comp.name                 'GLUCONIC ACID'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GCO  C1   .  C  0  ?  ?  ?  1  1 
+GCO  C2   .  C  0  ?  ?  ?  1  2 
+GCO  C3   .  C  0  ?  ?  ?  1  3 
+GCO  C4   .  C  0  ?  ?  ?  1  4 
+GCO  C5   .  C  0  ?  ?  ?  1  5 
+GCO  C6   .  C  0  ?  ?  ?  1  6 
+GCO  O11  .  O  0  ?  ?  ?  1  7 
+GCO  O12  .  O  0  ?  ?  ?  1  8 
+GCO  O2   .  O  0  ?  ?  ?  1  9 
+GCO  O3   .  O  0  ?  ?  ?  1  10
+GCO  O4   .  O  0  ?  ?  ?  1  11
+GCO  O5   .  O  0  ?  ?  ?  1  12
+GCO  O6   .  O  0  ?  ?  ?  1  13
+GCO  H2   .  H  0  ?  ?  ?  1  14
+GCO  H3   .  H  0  ?  ?  ?  1  15
+GCO  H4   .  H  0  ?  ?  ?  1  16
+GCO  H5   .  H  0  ?  ?  ?  1  17
+GCO  1H6  .  H  0  ?  ?  ?  0  18
+GCO  2H6  .  H  0  ?  ?  ?  0  19
+GCO  HO1  .  H  0  ?  ?  ?  1  20
+GCO  HO2  .  H  0  ?  ?  ?  1  21
+GCO  HO3  .  H  0  ?  ?  ?  1  22
+GCO  HO4  .  H  0  ?  ?  ?  1  23
+GCO  HO5  .  H  0  ?  ?  ?  1  24
+GCO  HO6  .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GCO  C1   C2   SING  1 
+GCO  C1   O11  DOUB  2 
+GCO  C1   O12  SING  3 
+GCO  C2   C3   SING  4 
+GCO  C2   O2   SING  5 
+GCO  C2   H2   SING  6 
+GCO  C3   C4   SING  7 
+GCO  C3   O3   SING  8 
+GCO  C3   H3   SING  9 
+GCO  C4   C5   SING  10
+GCO  C4   O4   SING  11
+GCO  C4   H4   SING  12
+GCO  C5   C6   SING  13
+GCO  C5   O5   SING  14
+GCO  C5   H5   SING  15
+GCO  C6   O6   SING  16
+GCO  C6   1H6  SING  17
+GCO  C6   2H6  SING  18
+GCO  O12  HO1  SING  19
+GCO  O2   HO2  SING  20
+GCO  O3   HO3  SING  21
+GCO  O4   HO4  SING  22
+GCO  O5   HO5  SING  23
+GCO  O6   HO6  SING  24
+#

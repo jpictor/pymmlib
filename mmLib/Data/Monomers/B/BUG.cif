@@ -1,0 +1,77 @@
+data_BUG
+#
+_chem_comp.id                       BUG
+_chem_comp.name                     'TERT-LEUCYL AMINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H14 N2 O1'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            130.189
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BUG  N     .  N  0  ?  ?  ?  1  1 
+BUG  CA    .  C  0  ?  ?  ?  1  2 
+BUG  CB    .  C  0  ?  ?  ?  1  3 
+BUG  CG1   .  C  0  ?  ?  ?  1  4 
+BUG  CG2   .  C  0  ?  ?  ?  1  5 
+BUG  CG3   .  C  0  ?  ?  ?  1  6 
+BUG  C     .  C  0  ?  ?  ?  1  7 
+BUG  O     .  O  0  ?  ?  ?  1  8 
+BUG  N2    .  N  0  ?  ?  ?  1  9 
+BUG  1HN2  .  H  0  ?  ?  ?  0  10
+BUG  2HN2  .  H  0  ?  ?  ?  0  11
+BUG  1H1   .  H  0  ?  ?  ?  0  12
+BUG  2H1   .  H  0  ?  ?  ?  0  13
+BUG  1HG3  .  H  0  ?  ?  ?  0  14
+BUG  2HG3  .  H  0  ?  ?  ?  0  15
+BUG  3HG3  .  H  0  ?  ?  ?  0  16
+BUG  1HG1  .  H  0  ?  ?  ?  0  17
+BUG  2HG1  .  H  0  ?  ?  ?  0  18
+BUG  3HG1  .  H  0  ?  ?  ?  0  19
+BUG  1HG2  .  H  0  ?  ?  ?  0  20
+BUG  2HG2  .  H  0  ?  ?  ?  0  21
+BUG  3HG2  .  H  0  ?  ?  ?  0  22
+BUG  1HA   .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BUG  N    CA    SING  1 
+BUG  N    1H1   SING  2 
+BUG  N    2H1   SING  3 
+BUG  CA   CB    SING  4 
+BUG  CA   C     SING  5 
+BUG  CA   1HA   SING  6 
+BUG  CB   CG1   SING  7 
+BUG  CB   CG2   SING  8 
+BUG  CB   CG3   SING  9 
+BUG  CG1  1HG1  SING  10
+BUG  CG1  2HG1  SING  11
+BUG  CG1  3HG1  SING  12
+BUG  CG2  1HG2  SING  13
+BUG  CG2  2HG2  SING  14
+BUG  CG2  3HG2  SING  15
+BUG  CG3  1HG3  SING  16
+BUG  CG3  2HG3  SING  17
+BUG  CG3  3HG3  SING  18
+BUG  C    O     DOUB  19
+BUG  C    N2    SING  20
+BUG  N2   1HN2  SING  21
+BUG  N2   2HN2  SING  22
+#

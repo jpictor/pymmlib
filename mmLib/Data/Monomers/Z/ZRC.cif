@@ -1,0 +1,77 @@
+data_ZRC
+#
+_chem_comp.id                   ZRC
+_chem_comp.name                 'OXO ZIRCONIUM(IV) CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O17 P1 ZR3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        576.624
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZRC  ZR1  .  ZR  0   13.937  50.981  -14.052  0  1 
+ZRC  OP1  .  O   0   13.104  52.745  -15.093  1  2 
+ZRC  O1A  .  O   -1  15.930  51.266  -14.859  1  3 
+ZRC  O1B  .  O   -1  14.775  52.553  -12.900  1  4 
+ZRC  ZR2  .  ZR  0   11.869  49.473  -16.501  0  5 
+ZRC  OP2  .  O   0   11.763  51.718  -16.845  1  6 
+ZRC  O2A  .  O   -1  9.957   49.610  -17.682  1  7 
+ZRC  O2B  .  O   -1  13.446  49.530  -18.139  1  8 
+ZRC  OB2  .  O   -1  12.080  47.377  -16.455  1  9 
+ZRC  ZR3  .  ZR  0   10.528  50.772  -13.558  0  10
+ZRC  OP3  .  O   0   10.676  52.565  -14.838  1  11
+ZRC  O3A  .  O   -1  10.254  52.328  -11.869  1  12
+ZRC  O3B  .  O   -1  8.403   50.337  -13.570  1  13
+ZRC  O12  .  O   0   14.116  49.710  -16.073  1  14
+ZRC  O23  .  O   0   9.897   49.357  -15.358  1  15
+ZRC  O31  .  O   0   12.408  51.542  -12.396  1  16
+ZRC  O00  .  O   1   12.261  49.790  -14.389  1  17
+ZRC  P    .  P   0   11.792  52.788  -15.807  1  18
+ZRC  OP4  .  O   0   11.620  54.111  -16.445  1  19
+ZRC  OB1  .  O   -1  ?       ?       ?        1  20
+ZRC  OB3  .  O   -1  ?       ?       ?        1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZRC  ZR1  O00  SING  1 
+ZRC  ZR1  O1A  SING  2 
+ZRC  ZR1  O12  SING  3 
+ZRC  ZR1  OP1  SING  4 
+ZRC  ZR1  O31  SING  5 
+ZRC  ZR1  O1B  SING  6 
+ZRC  ZR1  OB1  SING  7 
+ZRC  OP1  P    SING  8 
+ZRC  ZR2  O00  SING  9 
+ZRC  ZR2  O2A  SING  10
+ZRC  ZR2  O2B  SING  11
+ZRC  ZR2  OB2  SING  12
+ZRC  ZR2  O12  SING  13
+ZRC  ZR2  OP2  SING  14
+ZRC  ZR2  O23  SING  15
+ZRC  OP2  P    SING  16
+ZRC  ZR3  O00  SING  17
+ZRC  ZR3  O23  SING  18
+ZRC  ZR3  OP3  SING  19
+ZRC  ZR3  O3B  SING  20
+ZRC  ZR3  O3A  SING  21
+ZRC  ZR3  O31  SING  22
+ZRC  ZR3  OB3  SING  23
+ZRC  OP3  P    SING  24
+ZRC  P    OP4  DOUB  25
+#

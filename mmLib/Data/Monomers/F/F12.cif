@@ -1,0 +1,77 @@
+data_F12
+#
+_chem_comp.id                   F12
+_chem_comp.name                 '2-(ACETYLAMINO)THIOPHENE-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H7 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        185.197
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          F12
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC(=O)NC1=C(C=CS1)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+F12  O9    .  O  0  79.496  15.024  27.437  1  N  1 
+F12  C7    .  C  0  80.444  14.271  27.066  1  N  2 
+F12  O8    .  O  0  81.211  13.660  27.859  1  N  3 
+F12  C3    .  C  0  80.745  14.070  25.616  1  N  4 
+F12  C4    .  C  0  81.790  13.243  25.120  1  N  5 
+F12  C5    .  C  0  81.895  13.193  23.724  1  N  6 
+F12  S6    .  S  0  80.681  14.200  22.992  1  N  7 
+F12  C2    .  C  0  80.001  14.709  24.496  1  N  8 
+F12  N1    .  N  0  78.944  15.551  24.717  1  N  9 
+F12  C13   .  C  0  78.223  16.159  23.769  1  N  10
+F12  O14   .  O  0  78.481  16.037  22.615  1  N  11
+F12  C12   .  C  0  77.092  17.041  24.201  1  N  12
+F12  HO8   .  H  0  80.963  13.856  28.755  1  N  13
+F12  H4    .  H  0  82.454  12.694  25.771  1  N  14
+F12  H5    .  H  0  82.625  12.612  23.180  1  N  15
+F12  HN1   .  H  0  78.690  15.726  25.668  1  N  16
+F12  1H12  .  H  0  77.185  17.257  25.276  0  N  17
+F12  2H12  .  H  0  77.124  17.983  23.634  0  N  18
+F12  3H12  .  H  0  76.136  16.531  24.011  0  N  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+F12  O9   C7    DOUB  N  1 
+F12  C7   O8    SING  N  2 
+F12  C7   C3    SING  N  3 
+F12  O8   HO8   SING  N  4 
+F12  C3   C4    SING  N  5 
+F12  C3   C2    DOUB  N  6 
+F12  C4   C5    DOUB  N  7 
+F12  C4   H4    SING  N  8 
+F12  C5   S6    SING  N  9 
+F12  C5   H5    SING  N  10
+F12  S6   C2    SING  N  11
+F12  C2   N1    SING  N  12
+F12  N1   C13   SING  N  13
+F12  N1   HN1   SING  N  14
+F12  C13  O14   DOUB  N  15
+F12  C13  C12   SING  N  16
+F12  C12  1H12  SING  N  17
+F12  C12  2H12  SING  N  18
+F12  C12  3H12  SING  N  19
+#

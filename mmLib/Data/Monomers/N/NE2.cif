@@ -1,0 +1,78 @@
+data_NE2
+#
+_chem_comp.id                   NE2
+_chem_comp.name                 3,3',4',5-TETRACHLOROBIPHENYL-4-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H6 O1 CL4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        307.991
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NE2  CL17  .  CL  0  1.873   41.272  29.965  0  1 
+NE2  C9    .  C   0  0.782   42.298  29.113  1  2 
+NE2  C8    .  C   0  0.801   42.308  27.713  1  3 
+NE2  C10   .  C   0  -0.099  43.088  29.827  1  4 
+NE2  CL16  .  CL  0  -0.136  43.087  31.601  0  5 
+NE2  C11   .  C   0  -0.961  43.886  29.150  1  6 
+NE2  C12   .  C   0  -0.944  43.898  27.751  1  7 
+NE2  C7    .  C   0  -0.062  43.110  26.980  1  8 
+NE2  C3    .  C   0  -0.043  43.120  25.564  1  9 
+NE2  C2    .  C   0  -0.252  44.289  24.789  1  10
+NE2  C4    .  C   0  0.187   41.962  24.835  1  11
+NE2  C5    .  C   0  0.207   41.973  23.438  1  12
+NE2  CL14  .  CL  0  0.510   40.501  22.590  0  13
+NE2  C6    .  C   0  -0.004  43.141  22.718  1  14
+NE2  O15   .  O   0  0.015   43.152  21.338  1  15
+NE2  C1    .  C   0  -0.234  44.298  23.391  1  16
+NE2  CL13  .  CL  0  -0.512  45.784  22.485  0  17
+NE2  HO15  .  H   0  -0.876  43.155  21.009  0  18
+NE2  H4    .  H   0  0.354   41.032  25.359  1  19
+NE2  H2    .  H   0  -0.434  45.220  25.305  1  20
+NE2  H8    .  H   0  1.504   41.676  27.191  1  21
+NE2  H11   .  H   0  -1.658  44.510  29.689  1  22
+NE2  H12   .  H   0  -1.640  44.542  27.235  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NE2  CL17  C9    SING  1 
+NE2  C9    C8    SING  2 
+NE2  C9    C10   DOUB  3 
+NE2  C8    C7    DOUB  4 
+NE2  C8    H8    SING  5 
+NE2  C10   CL16  SING  6 
+NE2  C10   C11   SING  7 
+NE2  C11   H11   SING  8 
+NE2  C11   C12   DOUB  9 
+NE2  C12   C7    SING  10
+NE2  C12   H12   SING  11
+NE2  C7    C3    SING  12
+NE2  C3    C4    DOUB  13
+NE2  C3    C2    SING  14
+NE2  C2    H2    SING  15
+NE2  C2    C1    DOUB  16
+NE2  C4    C5    SING  17
+NE2  C4    H4    SING  18
+NE2  C5    C6    DOUB  19
+NE2  C5    CL14  SING  20
+NE2  C6    O15   SING  21
+NE2  C6    C1    SING  22
+NE2  O15   HO15  SING  23
+NE2  C1    CL13  SING  24
+#

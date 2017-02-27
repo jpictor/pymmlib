@@ -1,0 +1,76 @@
+data_DDA
+#
+_chem_comp.id                   DDA
+_chem_comp.name                 2,6-DIDEOXY-BETA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O4'
+_chem_comp.pdbx_synonyms        2,6-DIDEOXY-BETA-D-MANNOSE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        148.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DDA  C1   .  C  0  ?  ?  ?  1  1 
+DDA  C2   .  C  0  ?  ?  ?  1  2 
+DDA  C3   .  C  0  ?  ?  ?  1  3 
+DDA  C4   .  C  0  ?  ?  ?  1  4 
+DDA  C5   .  C  0  ?  ?  ?  1  5 
+DDA  C6   .  C  0  ?  ?  ?  1  6 
+DDA  O1   .  O  0  ?  ?  ?  1  7 
+DDA  O5   .  O  0  ?  ?  ?  1  8 
+DDA  O3   .  O  0  ?  ?  ?  1  9 
+DDA  O4   .  O  0  ?  ?  ?  1  10
+DDA  H1   .  H  0  ?  ?  ?  1  11
+DDA  1H2  .  H  0  ?  ?  ?  0  12
+DDA  2H2  .  H  0  ?  ?  ?  0  13
+DDA  H3   .  H  0  ?  ?  ?  1  14
+DDA  H4   .  H  0  ?  ?  ?  1  15
+DDA  H5   .  H  0  ?  ?  ?  1  16
+DDA  1H6  .  H  0  ?  ?  ?  0  17
+DDA  2H6  .  H  0  ?  ?  ?  0  18
+DDA  3H6  .  H  0  ?  ?  ?  0  19
+DDA  HO1  .  H  0  ?  ?  ?  1  20
+DDA  HO3  .  H  0  ?  ?  ?  1  21
+DDA  HO4  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DDA  C1  C2   SING  1 
+DDA  C1  O5   SING  2 
+DDA  C1  O1   SING  3 
+DDA  C1  H1   SING  4 
+DDA  C2  C3   SING  5 
+DDA  C2  1H2  SING  6 
+DDA  C2  2H2  SING  7 
+DDA  C3  C4   SING  8 
+DDA  C3  O3   SING  9 
+DDA  C3  H3   SING  10
+DDA  C4  C5   SING  11
+DDA  C4  O4   SING  12
+DDA  C4  H4   SING  13
+DDA  C5  C6   SING  14
+DDA  C5  O5   SING  15
+DDA  C5  H5   SING  16
+DDA  C6  1H6  SING  17
+DDA  C6  2H6  SING  18
+DDA  C6  3H6  SING  19
+DDA  O1  HO1  SING  20
+DDA  O3  HO3  SING  21
+DDA  O4  HO4  SING  22
+#

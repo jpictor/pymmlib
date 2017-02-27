@@ -1,0 +1,98 @@
+data_UFP
+#
+_chem_comp.id                   UFP
+_chem_comp.name                 5-FLUORO-2'-DEOXYURIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 N2 O8 F1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+UFP  N1    .  N  0  ?  ?  ?  1  1 
+UFP  C2    .  C  0  ?  ?  ?  1  2 
+UFP  N3    .  N  0  ?  ?  ?  1  3 
+UFP  C4    .  C  0  ?  ?  ?  1  4 
+UFP  C5    .  C  0  ?  ?  ?  1  5 
+UFP  C6    .  C  0  ?  ?  ?  1  6 
+UFP  O2    .  O  0  ?  ?  ?  1  7 
+UFP  O4    .  O  0  ?  ?  ?  1  8 
+UFP  F5    .  F  0  ?  ?  ?  1  9 
+UFP  C1*   .  C  0  ?  ?  ?  1  10
+UFP  C2*   .  C  0  ?  ?  ?  1  11
+UFP  C3*   .  C  0  ?  ?  ?  1  12
+UFP  C4*   .  C  0  ?  ?  ?  1  13
+UFP  O3*   .  O  0  ?  ?  ?  1  14
+UFP  O4*   .  O  0  ?  ?  ?  1  15
+UFP  C5*   .  C  0  ?  ?  ?  1  16
+UFP  O5*   .  O  0  ?  ?  ?  1  17
+UFP  P     .  P  0  ?  ?  ?  1  18
+UFP  O1P   .  O  0  ?  ?  ?  1  19
+UFP  O2P   .  O  0  ?  ?  ?  1  20
+UFP  O3P   .  O  0  ?  ?  ?  1  21
+UFP  HN3   .  H  0  ?  ?  ?  1  22
+UFP  H6    .  H  0  ?  ?  ?  1  23
+UFP  H1*   .  H  0  ?  ?  ?  1  24
+UFP  1H2*  .  H  0  ?  ?  ?  0  25
+UFP  2H2*  .  H  0  ?  ?  ?  0  26
+UFP  H3*   .  H  0  ?  ?  ?  1  27
+UFP  *HO3  .  H  0  ?  ?  ?  0  28
+UFP  H4*   .  H  0  ?  ?  ?  1  29
+UFP  1H5*  .  H  0  ?  ?  ?  0  30
+UFP  2H5*  .  H  0  ?  ?  ?  0  31
+UFP  2HOP  .  H  0  ?  ?  ?  0  32
+UFP  3HOP  .  H  0  ?  ?  ?  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+UFP  N1   C2    SING  1 
+UFP  N1   C6    SING  2 
+UFP  N1   C1*   SING  3 
+UFP  C2   N3    SING  4 
+UFP  C2   O2    DOUB  5 
+UFP  N3   C4    SING  6 
+UFP  N3   HN3   SING  7 
+UFP  C4   C5    SING  8 
+UFP  C4   O4    DOUB  9 
+UFP  C5   C6    DOUB  10
+UFP  C5   F5    SING  11
+UFP  C6   H6    SING  12
+UFP  C1*  C2*   SING  13
+UFP  C1*  O4*   SING  14
+UFP  C1*  H1*   SING  15
+UFP  C2*  C3*   SING  16
+UFP  C2*  1H2*  SING  17
+UFP  C2*  2H2*  SING  18
+UFP  C3*  C4*   SING  19
+UFP  C3*  O3*   SING  20
+UFP  C3*  H3*   SING  21
+UFP  C4*  O4*   SING  22
+UFP  C4*  C5*   SING  23
+UFP  C4*  H4*   SING  24
+UFP  O3*  *HO3  SING  25
+UFP  C5*  O5*   SING  26
+UFP  C5*  1H5*  SING  27
+UFP  C5*  2H5*  SING  28
+UFP  O5*  P     SING  29
+UFP  P    O1P   DOUB  30
+UFP  P    O2P   SING  31
+UFP  P    O3P   SING  32
+UFP  O2P  2HOP  SING  33
+UFP  O3P  3HOP  SING  34
+#

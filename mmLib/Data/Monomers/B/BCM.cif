@@ -1,0 +1,110 @@
+data_BCM
+#
+_chem_comp.id                   BCM
+_chem_comp.name                 BICYCLOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N2 O7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.283
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BCM  C5A   .  C  0  -4.826   -8.243  33.344  1  1 
+BCM  C5    .  C  0  -5.951   -7.689  33.250  1  2 
+BCM  C6    .  C  0  -5.930   -6.201  32.996  1  3 
+BCM  O6    .  O  0  -4.675   -5.618  33.376  1  4 
+BCM  N10   .  N  0  -7.046   -5.734  33.797  1  5 
+BCM  C9    .  C  0  -8.267   -5.559  33.322  1  6 
+BCM  O9    .  O  0  -9.188   -5.308  34.077  1  7 
+BCM  C4    .  C  0  -7.295   -8.429  33.314  1  8 
+BCM  C3    .  C  0  -8.110   -8.260  32.005  1  9 
+BCM  O2    .  O  0  -9.071   -7.166  31.937  1  10
+BCM  C1    .  C  0  -8.497   -5.846  31.847  1  11
+BCM  N8    .  N  0  -7.324   -6.099  31.031  1  12
+BCM  C7    .  C  0  -6.102   -6.256  31.499  1  13
+BCM  O7    .  O  0  -5.171   -6.592  30.781  1  14
+BCM  C1A   .  C  0  -9.368   -4.849  31.059  1  15
+BCM  O1A   .  O  0  -9.372   -5.258  29.692  1  16
+BCM  C2A   .  C  0  -10.807  -4.604  31.539  1  17
+BCM  C2B   .  C  0  -11.798  -4.833  30.413  1  18
+BCM  O2A   .  O  0  -11.193  -5.508  32.575  1  19
+BCM  C3A   .  C  0  -10.946  -3.175  32.050  1  20
+BCM  O3A   .  O  0  -11.040  -2.266  30.958  1  21
+BCM  1H3   .  H  0  ?        ?       ?       0  22
+BCM  2H3   .  H  0  ?        ?       ?       0  23
+BCM  1H4   .  H  0  ?        ?       ?       0  24
+BCM  2H4   .  H  0  ?        ?       ?       0  25
+BCM  HN8   .  H  0  ?        ?       ?       1  26
+BCM  H10   .  H  0  ?        ?       ?       1  27
+BCM  H1A   .  H  0  ?        ?       ?       1  28
+BCM  H1O   .  H  0  ?        ?       ?       1  29
+BCM  H2O   .  H  0  ?        ?       ?       1  30
+BCM  1H5A  .  H  0  ?        ?       ?       0  31
+BCM  2H5A  .  H  0  ?        ?       ?       0  32
+BCM  1HB   .  H  0  ?        ?       ?       0  33
+BCM  2HB   .  H  0  ?        ?       ?       0  34
+BCM  3HB   .  H  0  ?        ?       ?       0  35
+BCM  1HA   .  H  0  ?        ?       ?       0  36
+BCM  2HA   .  H  0  ?        ?       ?       0  37
+BCM  H3O   .  H  0  ?        ?       ?       1  38
+BCM  HO6   .  H  0  ?        ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BCM  C5A  1H5A  SING  1 
+BCM  C5A  2H5A  SING  2 
+BCM  C5A  C5    DOUB  3 
+BCM  C5   C6    SING  4 
+BCM  C5   C4    SING  5 
+BCM  C6   O6    SING  6 
+BCM  C6   N10   SING  7 
+BCM  C6   C7    SING  8 
+BCM  O6   HO6   SING  9 
+BCM  N10  C9    SING  10
+BCM  N10  H10   SING  11
+BCM  C9   O9    DOUB  12
+BCM  C9   C1    SING  13
+BCM  C4   C3    SING  14
+BCM  C4   1H4   SING  15
+BCM  C4   2H4   SING  16
+BCM  C3   O2    SING  17
+BCM  C3   1H3   SING  18
+BCM  C3   2H3   SING  19
+BCM  O2   C1    SING  20
+BCM  C1   N8    SING  21
+BCM  C1   C1A   SING  22
+BCM  N8   C7    SING  23
+BCM  N8   HN8   SING  24
+BCM  C7   O7    DOUB  25
+BCM  C1A  O1A   SING  26
+BCM  C1A  C2A   SING  27
+BCM  C1A  H1A   SING  28
+BCM  O1A  H1O   SING  29
+BCM  C2A  C2B   SING  30
+BCM  C2A  O2A   SING  31
+BCM  C2A  C3A   SING  32
+BCM  C2B  1HB   SING  33
+BCM  C2B  2HB   SING  34
+BCM  C2B  3HB   SING  35
+BCM  O2A  H2O   SING  36
+BCM  C3A  O3A   SING  37
+BCM  C3A  1HA   SING  38
+BCM  C3A  2HA   SING  39
+BCM  O3A  H3O   SING  40
+#

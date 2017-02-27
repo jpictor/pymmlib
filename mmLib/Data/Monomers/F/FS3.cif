@@ -1,0 +1,50 @@
+data_FS3
+#
+_chem_comp.id                   FS3
+_chem_comp.name                 'FE3-S4 CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE3 S4'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       295.781
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FS3  FE1  .  FE  0  ?  ?  ?  0  1
+FS3  FE2  .  FE  0  ?  ?  ?  0  2
+FS3  FE3  .  FE  0  ?  ?  ?  0  3
+FS3  S1   .  S   0  ?  ?  ?  1  4
+FS3  S2   .  S   0  ?  ?  ?  1  5
+FS3  S3   .  S   0  ?  ?  ?  1  6
+FS3  S4   .  S   0  ?  ?  ?  1  7
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FS3  FE1  FE3  SING  1 
+FS3  FE1  FE2  SING  2 
+FS3  FE1  S1   SING  3 
+FS3  FE1  S2   SING  4 
+FS3  FE1  S3   SING  5 
+FS3  FE2  FE3  SING  6 
+FS3  FE2  S1   SING  7 
+FS3  FE2  S2   SING  8 
+FS3  FE2  S4   SING  9 
+FS3  FE3  S2   SING  10
+FS3  FE3  S3   SING  11
+FS3  FE3  S4   SING  12
+#

@@ -1,0 +1,54 @@
+data_CP
+#
+_chem_comp.id                   CP
+_chem_comp.name                 'PHOSPHORIC ACID MONO(FORMAMIDE)ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H4 N1 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        141.020
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CP  N     .  N  0  ?  ?  ?  1  1 
+CP  C     .  C  0  ?  ?  ?  1  2 
+CP  O     .  O  0  ?  ?  ?  1  3 
+CP  O4P   .  O  0  ?  ?  ?  1  4 
+CP  P     .  P  0  ?  ?  ?  1  5 
+CP  O1P   .  O  0  ?  ?  ?  1  6 
+CP  O2P   .  O  0  ?  ?  ?  1  7 
+CP  O3P   .  O  0  ?  ?  ?  1  8 
+CP  2HOP  .  H  0  ?  ?  ?  0  9 
+CP  3HOP  .  H  0  ?  ?  ?  0  10
+CP  1HN   .  H  0  ?  ?  ?  0  11
+CP  2HN   .  H  0  ?  ?  ?  0  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CP  N    C     SING  1 
+CP  N    1HN   SING  2 
+CP  N    2HN   SING  3 
+CP  C    O     DOUB  4 
+CP  C    O4P   SING  5 
+CP  O4P  P     SING  6 
+CP  P    O1P   DOUB  7 
+CP  P    O2P   SING  8 
+CP  P    O3P   SING  9 
+CP  O2P  2HOP  SING  10
+CP  O3P  3HOP  SING  11
+#

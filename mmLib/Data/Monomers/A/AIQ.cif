@@ -1,0 +1,97 @@
+data_AIQ
+#
+_chem_comp.id                   AIQ
+_chem_comp.name                 2,6-DIAMINO-8-(1H-IMIDAZOL-2-YLSULFANYLMETHYL)-3H-QUINAZOLINE-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 N6 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        288.326
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AIQ  C1    .  C  0  ?  ?  ?  1  1 
+AIQ  C2    .  C  0  ?  ?  ?  1  2 
+AIQ  C9    .  C  0  ?  ?  ?  1  3 
+AIQ  C3    .  C  0  ?  ?  ?  1  4 
+AIQ  N3    .  N  0  ?  ?  ?  1  5 
+AIQ  C8    .  C  0  ?  ?  ?  1  6 
+AIQ  N2    .  N  0  ?  ?  ?  1  7 
+AIQ  N1    .  N  0  ?  ?  ?  1  8 
+AIQ  C7    .  C  0  ?  ?  ?  1  9 
+AIQ  O1    .  O  0  ?  ?  ?  1  10
+AIQ  C4    .  C  0  ?  ?  ?  1  11
+AIQ  C5    .  C  0  ?  ?  ?  1  12
+AIQ  C6    .  C  0  ?  ?  ?  1  13
+AIQ  N4    .  N  0  ?  ?  ?  1  14
+AIQ  S1    .  S  0  ?  ?  ?  1  15
+AIQ  C10   .  C  0  ?  ?  ?  1  16
+AIQ  N5    .  N  0  ?  ?  ?  1  17
+AIQ  N6    .  N  0  ?  ?  ?  1  18
+AIQ  C11   .  C  0  ?  ?  ?  1  19
+AIQ  C12   .  C  0  ?  ?  ?  1  20
+AIQ  1H11  .  H  0  ?  ?  ?  0  21
+AIQ  1H12  .  H  0  ?  ?  ?  0  22
+AIQ  1HN6  .  H  0  ?  ?  ?  0  23
+AIQ  1H9   .  H  0  ?  ?  ?  0  24
+AIQ  2H9   .  H  0  ?  ?  ?  0  25
+AIQ  1H1   .  H  0  ?  ?  ?  0  26
+AIQ  1HN4  .  H  0  ?  ?  ?  0  27
+AIQ  2HN4  .  H  0  ?  ?  ?  0  28
+AIQ  1H5   .  H  0  ?  ?  ?  0  29
+AIQ  1HN1  .  H  0  ?  ?  ?  0  30
+AIQ  1HN2  .  H  0  ?  ?  ?  0  31
+AIQ  2HN2  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AIQ  C1   C2    DOUB  1 
+AIQ  C1   C6    SING  2 
+AIQ  C1   1H1   SING  3 
+AIQ  C2   C9    SING  4 
+AIQ  C2   C3    SING  5 
+AIQ  C9   S1    SING  6 
+AIQ  C9   1H9   SING  7 
+AIQ  C9   2H9   SING  8 
+AIQ  C3   N3    SING  9 
+AIQ  C3   C4    DOUB  10
+AIQ  N3   C8    DOUB  11
+AIQ  C8   N2    SING  12
+AIQ  C8   N1    SING  13
+AIQ  N2   1HN2  SING  14
+AIQ  N2   2HN2  SING  15
+AIQ  N1   C7    SING  16
+AIQ  N1   1HN1  SING  17
+AIQ  C7   O1    DOUB  18
+AIQ  C7   C4    SING  19
+AIQ  C4   C5    SING  20
+AIQ  C5   C6    DOUB  21
+AIQ  C5   1H5   SING  22
+AIQ  C6   N4    SING  23
+AIQ  N4   1HN4  SING  24
+AIQ  N4   2HN4  SING  25
+AIQ  S1   C10   SING  26
+AIQ  C10  N5    DOUB  27
+AIQ  C10  N6    SING  28
+AIQ  N5   C11   SING  29
+AIQ  N6   C12   SING  30
+AIQ  N6   1HN6  SING  31
+AIQ  C11  C12   DOUB  32
+AIQ  C11  1H11  SING  33
+AIQ  C12  1H12  SING  34
+#

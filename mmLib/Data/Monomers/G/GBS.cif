@@ -1,0 +1,75 @@
+data_GBS
+#
+_chem_comp.id                   GBS
+_chem_comp.name                 '4-GUANIDINOBENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        179.178
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GBS  CD    .  C  0  ?  ?  ?  1  1 
+GBS  OD    .  O  0  ?  ?  ?  1  2 
+GBS  C1    .  C  0  ?  ?  ?  1  3 
+GBS  C21   .  C  0  ?  ?  ?  1  4 
+GBS  C22   .  C  0  ?  ?  ?  1  5 
+GBS  C31   .  C  0  ?  ?  ?  1  6 
+GBS  C32   .  C  0  ?  ?  ?  1  7 
+GBS  C4    .  C  0  ?  ?  ?  1  8 
+GBS  NE    .  N  0  ?  ?  ?  1  9 
+GBS  CZ    .  C  0  ?  ?  ?  1  10
+GBS  NH1   .  N  0  ?  ?  ?  1  11
+GBS  NH2   .  N  0  ?  ?  ?  1  12
+GBS  OXT   .  O  0  ?  ?  ?  1  13
+GBS  H21   .  H  0  ?  ?  ?  1  14
+GBS  H22   .  H  0  ?  ?  ?  1  15
+GBS  H31   .  H  0  ?  ?  ?  1  16
+GBS  H32   .  H  0  ?  ?  ?  1  17
+GBS  HE    .  H  0  ?  ?  ?  1  18
+GBS  1HH1  .  H  0  ?  ?  ?  0  19
+GBS  2HH1  .  H  0  ?  ?  ?  0  20
+GBS  HH2   .  H  0  ?  ?  ?  1  21
+GBS  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GBS  CD   OD    DOUB  1 
+GBS  CD   C1    SING  2 
+GBS  CD   OXT   SING  3 
+GBS  C1   C21   DOUB  4 
+GBS  C1   C22   SING  5 
+GBS  C21  C31   SING  6 
+GBS  C21  H21   SING  7 
+GBS  C22  C32   DOUB  8 
+GBS  C22  H22   SING  9 
+GBS  C31  C4    DOUB  10
+GBS  C31  H31   SING  11
+GBS  C32  C4    SING  12
+GBS  C32  H32   SING  13
+GBS  C4   NE    SING  14
+GBS  NE   CZ    SING  15
+GBS  NE   HE    SING  16
+GBS  CZ   NH1   SING  17
+GBS  CZ   NH2   DOUB  18
+GBS  NH1  1HH1  SING  19
+GBS  NH1  2HH1  SING  20
+GBS  NH2  HH2   SING  21
+GBS  OXT  HXT   SING  22
+#

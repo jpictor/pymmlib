@@ -1,0 +1,45 @@
+data_DML
+#
+_chem_comp.id                   DML
+_chem_comp.name                 'TERMINAL DIMETHYL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        30.069
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DML  CM1   .  C  0  ?  ?  ?  1  1
+DML  CM2   .  C  0  ?  ?  ?  1  2
+DML  1HM1  .  H  0  ?  ?  ?  0  3
+DML  2HM1  .  H  0  ?  ?  ?  0  4
+DML  3HM1  .  H  0  ?  ?  ?  0  5
+DML  1HM2  .  H  0  ?  ?  ?  0  6
+DML  2HM2  .  H  0  ?  ?  ?  0  7
+DML  3HM2  .  H  0  ?  ?  ?  0  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DML  CM1  1HM1  SING  1
+DML  CM1  2HM1  SING  2
+DML  CM1  3HM1  SING  3
+DML  CM2  1HM2  SING  4
+DML  CM2  2HM2  SING  5
+DML  CM2  3HM2  SING  6
+#

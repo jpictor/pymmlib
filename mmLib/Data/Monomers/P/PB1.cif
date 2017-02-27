@@ -1,0 +1,102 @@
+data_PB1
+#
+_chem_comp.id                   PB1
+_chem_comp.name                 '3-(2-AMINOETHYL)-4-(AMINOMETHYL)HEPTANEDIOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H20 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.279
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PB1  O3    .  O  0  26.605  53.295  13.205  1  1 
+PB1  C8    .  C  0  27.678  52.658  13.295  1  2 
+PB1  O4    .  O  0  27.898  51.595  12.687  1  3 
+PB1  C7    .  C  0  28.819  53.205  14.167  1  4 
+PB1  C6    .  C  0  28.322  54.165  15.268  1  5 
+PB1  C3    .  C  0  29.415  55.164  15.715  1  6 
+PB1  C2    .  C  0  30.691  54.382  16.089  1  7 
+PB1  N1    .  N  0  30.731  53.879  17.484  1  8 
+PB1  C4    .  C  0  28.847  55.930  16.948  1  9 
+PB1  C9    .  C  0  28.244  54.941  17.970  1  10
+PB1  C10   .  C  0  26.934  55.133  18.738  1  11
+PB1  O1    .  O  0  26.513  56.244  18.966  1  12
+PB1  O2    .  O  0  26.303  54.159  19.071  1  13
+PB1  C5    .  C  0  29.926  56.828  17.608  1  14
+PB1  C11   .  C  0  30.659  56.049  18.706  1  15
+PB1  N12   .  N  0  29.874  55.916  19.934  1  16
+PB1  HO3   .  H  0  ?       ?       ?       1  17
+PB1  1H7   .  H  0  ?       ?       ?       0  18
+PB1  2H7   .  H  0  ?       ?       ?       0  19
+PB1  1H6   .  H  0  ?       ?       ?       0  20
+PB1  2H6   .  H  0  ?       ?       ?       0  21
+PB1  H3    .  H  0  ?       ?       ?       1  22
+PB1  1H2   .  H  0  ?       ?       ?       0  23
+PB1  2H2   .  H  0  ?       ?       ?       0  24
+PB1  1HN1  .  H  0  ?       ?       ?       0  25
+PB1  2HN1  .  H  0  ?       ?       ?       0  26
+PB1  H4    .  H  0  ?       ?       ?       1  27
+PB1  1H9   .  H  0  ?       ?       ?       0  28
+PB1  2H9   .  H  0  ?       ?       ?       0  29
+PB1  HO2   .  H  0  ?       ?       ?       1  30
+PB1  1H5   .  H  0  ?       ?       ?       0  31
+PB1  2H5   .  H  0  ?       ?       ?       0  32
+PB1  1H11  .  H  0  ?       ?       ?       0  33
+PB1  2H11  .  H  0  ?       ?       ?       0  34
+PB1  1H12  .  H  0  ?       ?       ?       0  35
+PB1  2H12  .  H  0  ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PB1  O3   HO3   SING  1 
+PB1  O3   C8    SING  2 
+PB1  C8   O4    DOUB  3 
+PB1  C8   C7    SING  4 
+PB1  C7   1H7   SING  5 
+PB1  C7   2H7   SING  6 
+PB1  C7   C6    SING  7 
+PB1  C6   1H6   SING  8 
+PB1  C6   2H6   SING  9 
+PB1  C6   C3    SING  10
+PB1  C3   H3    SING  11
+PB1  C3   C2    SING  12
+PB1  C3   C4    SING  13
+PB1  C2   1H2   SING  14
+PB1  C2   2H2   SING  15
+PB1  C2   N1    SING  16
+PB1  N1   1HN1  SING  17
+PB1  N1   2HN1  SING  18
+PB1  C4   H4    SING  19
+PB1  C4   C9    SING  20
+PB1  C4   C5    SING  21
+PB1  C9   1H9   SING  22
+PB1  C9   2H9   SING  23
+PB1  C9   C10   SING  24
+PB1  C10  O1    DOUB  25
+PB1  C10  O2    SING  26
+PB1  O2   HO2   SING  27
+PB1  C5   1H5   SING  28
+PB1  C5   2H5   SING  29
+PB1  C5   C11   SING  30
+PB1  C11  1H11  SING  31
+PB1  C11  2H11  SING  32
+PB1  C11  N12   SING  33
+PB1  N12  1H12  SING  34
+PB1  N12  2H12  SING  35
+#

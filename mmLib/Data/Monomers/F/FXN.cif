@@ -1,0 +1,87 @@
+data_FXN
+#
+_chem_comp.id                   FXN
+_chem_comp.name                 '5-FLUORO-1H-INDOLE-2-CARBOXYLIC ACID-(2-MERCAPTO-ETHYL)-AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H11 N2 O1 F1 S1'
+_chem_comp.pdbx_synonyms        FICA
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.279
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FXN  F18   .  F  0  53.352  9.566   11.725  1  1 
+FXN  C10   .  C  0  53.271  10.326  10.619  1  2 
+FXN  C6    .  C  0  52.083  11.023  10.342  1  3 
+FXN  C11   .  C  0  54.389  10.399  9.769   1  4 
+FXN  C8    .  C  0  54.365  11.165  8.601   1  5 
+FXN  C12   .  C  0  53.178  11.845  8.330   1  6 
+FXN  N1    .  N  0  52.889  12.656  7.229   1  7 
+FXN  C16   .  C  0  52.073  11.778  9.172   1  8 
+FXN  C5    .  C  0  51.083  12.566  8.589   1  9 
+FXN  C13   .  C  0  51.576  13.103  7.404   1  10
+FXN  C7    .  C  0  50.923  13.987  6.435   1  11
+FXN  O17   .  O  0  51.547  14.323  5.432   1  12
+FXN  N3    .  N  0  49.677  14.425  6.647   1  13
+FXN  C14   .  C  0  49.300  15.725  6.134   1  14
+FXN  C9    .  C  0  50.508  16.653  6.229   1  15
+FXN  S19   .  S  0  49.862  18.321  6.140   1  16
+FXN  HN3   .  H  0  ?       ?       ?       1  17
+FXN  1H14  .  H  0  ?       ?       ?       0  18
+FXN  2H14  .  H  0  ?       ?       ?       0  19
+FXN  1H9   .  H  0  ?       ?       ?       0  20
+FXN  2H9   .  H  0  ?       ?       ?       0  21
+FXN  H19   .  H  0  ?       ?       ?       1  22
+FXN  H5    .  H  0  ?       ?       ?       1  23
+FXN  H6    .  H  0  ?       ?       ?       1  24
+FXN  H11   .  H  0  ?       ?       ?       1  25
+FXN  H8    .  H  0  ?       ?       ?       1  26
+FXN  HN1   .  H  0  ?       ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FXN  F18  C10   SING  1 
+FXN  C10  C6    AROM  2 
+FXN  C10  C11   AROM  3 
+FXN  C6   C16   AROM  4 
+FXN  C6   H6    SING  5 
+FXN  C11  C8    AROM  6 
+FXN  C11  H11   SING  7 
+FXN  C8   C12   AROM  8 
+FXN  C8   H8    SING  9 
+FXN  C12  C16   AROM  10
+FXN  C12  N1    SING  11
+FXN  N1   C13   SING  12
+FXN  N1   HN1   SING  13
+FXN  C16  C5    SING  14
+FXN  C5   C13   DOUB  15
+FXN  C5   H5    SING  16
+FXN  C13  C7    SING  17
+FXN  C7   O17   DOUB  18
+FXN  C7   N3    SING  19
+FXN  N3   C14   SING  20
+FXN  N3   HN3   SING  21
+FXN  C14  C9    SING  22
+FXN  C14  1H14  SING  23
+FXN  C14  2H14  SING  24
+FXN  C9   S19   SING  25
+FXN  C9   1H9   SING  26
+FXN  C9   2H9   SING  27
+FXN  S19  H19   SING  28
+#

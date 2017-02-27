@@ -1,0 +1,120 @@
+data_FRF
+#
+_chem_comp.id                   FRF
+_chem_comp.name                 PHE-REDUCED-PHE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H22 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.384
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FRF  N     .  N  0  4.494   31.928  15.297  1  1 
+FRF  C1A   .  C  0  5.292   33.089  14.908  1  2 
+FRF  CT    .  C  0  5.207   33.407  13.387  1  3 
+FRF  CB    .  C  0  6.814   32.908  15.268  1  4 
+FRF  CG    .  C  0  7.19    32.647  16.728  1  5 
+FRF  CD1   .  C  0  8.282   31.794  17.011  1  6 
+FRF  CD2   .  C  0  6.551   33.215  17.803  1  7 
+FRF  CE1   .  C  0  8.698   31.502  18.331  1  8 
+FRF  CE2   .  C  0  6.959   32.951  19.123  1  9 
+FRF  CZ    .  C  0  8.049   32.152  19.387  1  10
+FRF  N1    .  N  0  3.779   33.469  12.87   1  11
+FRF  C2A   .  C  0  3.477   34.639  11.99   1  12
+FRF  CT1   .  C  0  3.377   35.905  12.844  1  13
+FRF  O     .  O  0  2.961   35.881  14.017  1  14
+FRF  CB1   .  C  0  2.167   34.416  11.176  1  15
+FRF  CG1   .  C  0  .883    34.095  12.007  1  16
+FRF  CD3   .  C  0  .6      32.778  12.366  1  17
+FRF  CD4   .  C  0  .003    35.061  12.477  1  18
+FRF  CE3   .  C  0  -.531   32.46   13.13   1  19
+FRF  CE4   .  C  0  -1.17   34.754  13.177  1  20
+FRF  CZ1   .  C  0  -1.378  33.44   13.541  1  21
+FRF  OXT   .  O  0  3.786   37.069  12.219  1  22
+FRF  1HN   .  H  0  3.548   32.294  15.408  0  23
+FRF  2HN   .  H  0  4.798   31.716  16.247  0  24
+FRF  H1A   .  H  0  4.908   33.974  15.467  1  25
+FRF  1HTC  .  H  0  5.813   32.682  12.795  0  26
+FRF  2HTC  .  H  0  5.758   34.346  13.146  0  27
+FRF  1HBC  .  H  0  7.382   33.794  14.9    0  28
+FRF  2HBC  .  H  0  7.244   32.099  14.632  0  29
+FRF  H1    .  H  0  3.121   33.434  13.648  1  30
+FRF  HD1   .  H  0  8.831   31.339  16.17   1  31
+FRF  HD2   .  H  0  5.699   33.893  17.627  1  32
+FRF  HE1   .  H  0  9.511   30.782  18.523  1  33
+FRF  HE2   .  H  0  6.395   33.392  19.962  1  34
+FRF  HZ    .  H  0  8.408   32.025  20.422  1  35
+FRF  H2A   .  H  0  4.32    34.765  11.271  1  36
+FRF  1HB1  .  H  0  2.329   33.621  10.411  0  37
+FRF  2HB1  .  H  0  1.979   35.295  10.517  0  38
+FRF  HD3   .  H  0  1.279   31.971  12.043  1  39
+FRF  HD4   .  H  0  .24     36.122  12.29   1  40
+FRF  HE3   .  H  0  -.735   31.41   13.399  1  41
+FRF  HE4   .  H  0  -1.904  35.538  13.429  1  42
+FRF  HZ1   .  H  0  -2.243  33.181  14.174  1  43
+FRF  HXT   .  H  0  ?       ?       ?       1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FRF  N    C1A   SING  1 
+FRF  N    1HN   SING  2 
+FRF  N    2HN   SING  3 
+FRF  C1A  CT    SING  4 
+FRF  C1A  CB    SING  5 
+FRF  C1A  H1A   SING  6 
+FRF  CT   N1    SING  7 
+FRF  CT   1HTC  SING  8 
+FRF  CT   2HTC  SING  9 
+FRF  CB   CG    SING  10
+FRF  CB   1HBC  SING  11
+FRF  CB   2HBC  SING  12
+FRF  CG   CD1   AROM  13
+FRF  CG   CD2   AROM  14
+FRF  CD1  CE1   AROM  15
+FRF  CD1  HD1   SING  16
+FRF  CD2  CE2   AROM  17
+FRF  CD2  HD2   SING  18
+FRF  CE1  CZ    AROM  19
+FRF  CE1  HE1   SING  20
+FRF  CE2  CZ    AROM  21
+FRF  CE2  HE2   SING  22
+FRF  CZ   HZ    SING  23
+FRF  N1   C2A   SING  24
+FRF  N1   H1    SING  25
+FRF  C2A  CT1   SING  26
+FRF  C2A  CB1   SING  27
+FRF  C2A  H2A   SING  28
+FRF  CT1  O     DOUB  29
+FRF  CT1  OXT   SING  30
+FRF  CB1  CG1   SING  31
+FRF  CB1  1HB1  SING  32
+FRF  CB1  2HB1  SING  33
+FRF  CG1  CD3   AROM  34
+FRF  CG1  CD4   AROM  35
+FRF  CD3  CE3   AROM  36
+FRF  CD3  HD3   SING  37
+FRF  CD4  CE4   AROM  38
+FRF  CD4  HD4   SING  39
+FRF  CE3  CZ1   AROM  40
+FRF  CE3  HE3   SING  41
+FRF  CE4  CZ1   AROM  42
+FRF  CE4  HE4   SING  43
+FRF  CZ1  HZ1   SING  44
+FRF  OXT  HXT   SING  45
+#

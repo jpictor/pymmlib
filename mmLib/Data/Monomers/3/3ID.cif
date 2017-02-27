@@ -1,0 +1,68 @@
+data_3ID
+#
+_chem_comp.id                   3ID
+_chem_comp.name                 3H-INDOLE-5,6-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H7 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3ID  N1   .  N  0  ?  ?  ?  1  1 
+3ID  C2   .  C  0  ?  ?  ?  1  2 
+3ID  C3   .  C  0  ?  ?  ?  1  3 
+3ID  C4   .  C  0  ?  ?  ?  1  4 
+3ID  C5   .  C  0  ?  ?  ?  1  5 
+3ID  C6   .  C  0  ?  ?  ?  1  6 
+3ID  C7   .  C  0  ?  ?  ?  1  7 
+3ID  C8   .  C  0  ?  ?  ?  1  8 
+3ID  C9   .  C  0  ?  ?  ?  1  9 
+3ID  O1   .  O  0  ?  ?  ?  1  10
+3ID  O2   .  O  0  ?  ?  ?  1  11
+3ID  H2   .  H  0  ?  ?  ?  1  12
+3ID  H3   .  H  0  ?  ?  ?  1  13
+3ID  H4   .  H  0  ?  ?  ?  1  14
+3ID  H7   .  H  0  ?  ?  ?  1  15
+3ID  1HN  .  H  0  ?  ?  ?  0  16
+3ID  1OH  .  H  0  ?  ?  ?  1  17
+3ID  2OH  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3ID  N1  C2   SING  1 
+3ID  N1  C8   SING  2 
+3ID  N1  1HN  SING  3 
+3ID  C2  C3   DOUB  4 
+3ID  C2  H2   SING  5 
+3ID  C3  C9   SING  6 
+3ID  C3  H3   SING  7 
+3ID  C4  C5   DOUB  8 
+3ID  C4  C9   SING  9 
+3ID  C4  H4   SING  10
+3ID  C5  C6   SING  11
+3ID  C5  O1   SING  12
+3ID  C6  C7   DOUB  13
+3ID  C6  O2   SING  14
+3ID  C7  C8   SING  15
+3ID  C7  H7   SING  16
+3ID  C8  C9   DOUB  17
+3ID  O1  1OH  SING  18
+3ID  O2  2OH  SING  19
+#

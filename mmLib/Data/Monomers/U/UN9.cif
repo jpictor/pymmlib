@@ -1,0 +1,96 @@
+data_UN9
+#
+_chem_comp.id                   UN9
+_chem_comp.name                 N-[(1-CHLORO-4-HYDROXYISOQUINOLIN-3-YL)CARBONYL]GLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N2 O4 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.667
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          UN9
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2c(c1)c(c(nc2Cl)C(=O)NCC(=O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+UN9  O18   .  O   0  -36.919  -17.038  3.287  1  N  1 
+UN9  C16   .  C   0  -36.300  -17.696  4.145  1  N  2 
+UN9  O17   .  O   0  -35.126  -17.543  4.502  1  N  3 
+UN9  C15   .  C   0  -37.039  -18.790  4.881  1  N  4 
+UN9  N14   .  N   0  -38.406  -18.803  4.522  1  N  5 
+UN9  C12   .  C   0  -39.244  -19.824  4.917  1  N  6 
+UN9  O13   .  O   0  -38.928  -20.614  5.797  1  N  7 
+UN9  C9    .  C   0  -40.611  -19.951  4.354  1  Y  8 
+UN9  N8    .  N   0  -41.244  -21.138  4.540  1  Y  9 
+UN9  C7    .  C   0  -42.476  -21.369  4.116  1  Y  10
+UN9  CL1   .  CL  0  -43.052  -22.902  4.460  0  N  11
+UN9  C2    .  C   0  -43.163  -20.385  3.420  1  Y  12
+UN9  C10   .  C   0  -41.249  -18.903  3.676  1  Y  13
+UN9  O19   .  O   0  -40.632  -17.728  3.421  1  N  14
+UN9  C3    .  C   0  -42.539  -19.149  3.174  1  Y  15
+UN9  C4    .  C   0  -43.256  -18.128  2.536  1  Y  16
+UN9  C5    .  C   0  -44.541  -18.298  2.059  1  Y  17
+UN9  C6    .  C   0  -45.174  -19.541  2.249  1  Y  18
+UN9  C1    .  C   0  -44.518  -20.557  2.958  1  Y  19
+UN9  HO17  .  H   0  -34.738  -16.825  4.015  0  N  20
+UN9  1H15  .  H   0  -36.591  -19.761  4.623  0  N  21
+UN9  2H15  .  H   0  -36.960  -18.604  5.962  0  N  22
+UN9  HN14  .  H   0  -38.773  -18.055  3.969  0  N  23
+UN9  HO19  .  H   0  -40.487  -17.262  4.236  0  N  24
+UN9  H4    .  H   0  -42.783  -17.165  2.412  1  N  25
+UN9  H5    .  H   0  -45.050  -17.493  1.550  1  N  26
+UN9  H6    .  H   0  -46.163  -19.711  1.849  1  N  27
+UN9  H1    .  H   0  -45.036  -21.483  3.161  1  N  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+UN9  O18  C16   DOUB  N  1 
+UN9  C16  O17   SING  N  2 
+UN9  C16  C15   SING  N  3 
+UN9  O17  HO17  SING  N  4 
+UN9  C15  N14   SING  N  5 
+UN9  C15  1H15  SING  N  6 
+UN9  C15  2H15  SING  N  7 
+UN9  N14  C12   SING  N  8 
+UN9  N14  HN14  SING  N  9 
+UN9  C12  C9    SING  N  10
+UN9  C12  O13   DOUB  N  11
+UN9  C9   C10   DOUB  Y  12
+UN9  C9   N8    SING  Y  13
+UN9  N8   C7    DOUB  Y  14
+UN9  C7   C2    SING  Y  15
+UN9  C7   CL1   SING  N  16
+UN9  C2   C1    DOUB  Y  17
+UN9  C2   C3    SING  Y  18
+UN9  C10  C3    SING  Y  19
+UN9  C10  O19   SING  N  20
+UN9  O19  HO19  SING  N  21
+UN9  C3   C4    DOUB  Y  22
+UN9  C4   C5    SING  Y  23
+UN9  C4   H4    SING  N  24
+UN9  C5   C6    DOUB  Y  25
+UN9  C5   H5    SING  N  26
+UN9  C6   C1    SING  Y  27
+UN9  C6   H6    SING  N  28
+UN9  C1   H1    SING  N  29
+#

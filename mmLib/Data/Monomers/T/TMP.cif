@@ -1,0 +1,104 @@
+data_TMP
+#
+_chem_comp.id                   TMP
+_chem_comp.name                 THYMIDINE-5'-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        322.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMP  P     .  P  0  ?  ?  ?  1  1 
+TMP  O1P   .  O  0  ?  ?  ?  1  2 
+TMP  O2P   .  O  0  ?  ?  ?  1  3 
+TMP  O3P   .  O  0  ?  ?  ?  1  4 
+TMP  O5*   .  O  0  ?  ?  ?  1  5 
+TMP  C5*   .  C  0  ?  ?  ?  1  6 
+TMP  C4*   .  C  0  ?  ?  ?  1  7 
+TMP  O4*   .  O  0  ?  ?  ?  1  8 
+TMP  C3*   .  C  0  ?  ?  ?  1  9 
+TMP  O3*   .  O  0  ?  ?  ?  1  10
+TMP  C2*   .  C  0  ?  ?  ?  1  11
+TMP  C1*   .  C  0  ?  ?  ?  1  12
+TMP  N1    .  N  0  ?  ?  ?  1  13
+TMP  C2    .  C  0  ?  ?  ?  1  14
+TMP  O2    .  O  0  ?  ?  ?  1  15
+TMP  N3    .  N  0  ?  ?  ?  1  16
+TMP  C4    .  C  0  ?  ?  ?  1  17
+TMP  O4    .  O  0  ?  ?  ?  1  18
+TMP  C5    .  C  0  ?  ?  ?  1  19
+TMP  C5M   .  C  0  ?  ?  ?  1  20
+TMP  C6    .  C  0  ?  ?  ?  1  21
+TMP  2HOP  .  H  0  ?  ?  ?  0  22
+TMP  3HOP  .  H  0  ?  ?  ?  0  23
+TMP  1H5*  .  H  0  ?  ?  ?  0  24
+TMP  2H5*  .  H  0  ?  ?  ?  0  25
+TMP  H4*   .  H  0  ?  ?  ?  1  26
+TMP  H3*   .  H  0  ?  ?  ?  1  27
+TMP  *HO3  .  H  0  ?  ?  ?  0  28
+TMP  1H2*  .  H  0  ?  ?  ?  0  29
+TMP  2H2*  .  H  0  ?  ?  ?  0  30
+TMP  H1*   .  H  0  ?  ?  ?  1  31
+TMP  HN3   .  H  0  ?  ?  ?  1  32
+TMP  1H5   .  H  0  ?  ?  ?  0  33
+TMP  2H5   .  H  0  ?  ?  ?  0  34
+TMP  3H5   .  H  0  ?  ?  ?  0  35
+TMP  H6    .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMP  P    O1P   DOUB  1 
+TMP  P    O2P   SING  2 
+TMP  P    O3P   SING  3 
+TMP  P    O5*   SING  4 
+TMP  O2P  2HOP  SING  5 
+TMP  O3P  3HOP  SING  6 
+TMP  O5*  C5*   SING  7 
+TMP  C5*  C4*   SING  8 
+TMP  C5*  1H5*  SING  9 
+TMP  C5*  2H5*  SING  10
+TMP  C4*  C3*   SING  11
+TMP  C4*  O4*   SING  12
+TMP  C4*  H4*   SING  13
+TMP  O4*  C1*   SING  14
+TMP  C3*  C2*   SING  15
+TMP  C3*  O3*   SING  16
+TMP  C3*  H3*   SING  17
+TMP  O3*  *HO3  SING  18
+TMP  C2*  C1*   SING  19
+TMP  C2*  1H2*  SING  20
+TMP  C2*  2H2*  SING  21
+TMP  C1*  N1    SING  22
+TMP  C1*  H1*   SING  23
+TMP  N1   C2    SING  24
+TMP  N1   C6    SING  25
+TMP  C2   O2    DOUB  26
+TMP  C2   N3    SING  27
+TMP  N3   C4    SING  28
+TMP  N3   HN3   SING  29
+TMP  C4   O4    DOUB  30
+TMP  C4   C5    SING  31
+TMP  C5   C6    DOUB  32
+TMP  C5   C5M   SING  33
+TMP  C5M  1H5   SING  34
+TMP  C5M  2H5   SING  35
+TMP  C5M  3H5   SING  36
+TMP  C6   H6    SING  37
+#

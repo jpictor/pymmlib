@@ -1,0 +1,63 @@
+data_DNP
+#
+_chem_comp.id                       DNP
+_chem_comp.name                     3-AMINO-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H9 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           105.116
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DNP  N    .  N  0  ?  ?  ?  1  1 
+DNP  CA   .  C  0  ?  ?  ?  1  2 
+DNP  CB   .  C  0  ?  ?  ?  1  3 
+DNP  NG   .  N  1  ?  ?  ?  1  4 
+DNP  C    .  C  0  ?  ?  ?  1  5 
+DNP  O    .  O  0  ?  ?  ?  1  6 
+DNP  OXT  .  O  0  ?  ?  ?  1  7 
+DNP  1HN  .  H  0  ?  ?  ?  0  8 
+DNP  2HN  .  H  0  ?  ?  ?  0  9 
+DNP  HA   .  H  0  ?  ?  ?  1  10
+DNP  1HB  .  H  0  ?  ?  ?  0  11
+DNP  2HB  .  H  0  ?  ?  ?  0  12
+DNP  1HG  .  H  0  ?  ?  ?  0  13
+DNP  2HG  .  H  0  ?  ?  ?  0  14
+DNP  3HG  .  H  0  ?  ?  ?  0  15
+DNP  HXT  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DNP  N    CA   SING  1 
+DNP  N    1HN  SING  2 
+DNP  N    2HN  SING  3 
+DNP  CA   CB   SING  4 
+DNP  CA   C    SING  5 
+DNP  CA   HA   SING  6 
+DNP  CB   NG   SING  7 
+DNP  CB   1HB  SING  8 
+DNP  CB   2HB  SING  9 
+DNP  NG   1HG  SING  10
+DNP  NG   2HG  SING  11
+DNP  NG   3HG  SING  12
+DNP  C    O    DOUB  13
+DNP  C    OXT  SING  14
+DNP  OXT  HXT  SING  15
+#

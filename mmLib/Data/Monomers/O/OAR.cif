@@ -1,0 +1,84 @@
+data_OAR
+#
+_chem_comp.id                   OAR
+_chem_comp.name                 N-(4-AMINO-5-HYDROXY-PENTYL)-GUANIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H16 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OAR  OH1   .  O  0  ?  ?  ?  1  1 
+OAR  N1    .  N  0  ?  ?  ?  1  2 
+OAR  N2    .  N  0  ?  ?  ?  1  3 
+OAR  N3    .  N  0  ?  ?  ?  1  4 
+OAR  N4    .  N  0  ?  ?  ?  1  5 
+OAR  C1    .  C  0  ?  ?  ?  1  6 
+OAR  C2    .  C  0  ?  ?  ?  1  7 
+OAR  C3    .  C  0  ?  ?  ?  1  8 
+OAR  C4    .  C  0  ?  ?  ?  1  9 
+OAR  C5    .  C  0  ?  ?  ?  1  10
+OAR  C6    .  C  0  ?  ?  ?  1  11
+OAR  HO1   .  H  0  ?  ?  ?  1  12
+OAR  1HN1  .  H  0  ?  ?  ?  0  13
+OAR  2HN1  .  H  0  ?  ?  ?  0  14
+OAR  HN2   .  H  0  ?  ?  ?  1  15
+OAR  HN3   .  H  0  ?  ?  ?  1  16
+OAR  1HN4  .  H  0  ?  ?  ?  0  17
+OAR  2HN4  .  H  0  ?  ?  ?  0  18
+OAR  H1    .  H  0  ?  ?  ?  1  19
+OAR  1H2   .  H  0  ?  ?  ?  0  20
+OAR  2H2   .  H  0  ?  ?  ?  0  21
+OAR  1H3   .  H  0  ?  ?  ?  0  22
+OAR  2H3   .  H  0  ?  ?  ?  0  23
+OAR  1H4   .  H  0  ?  ?  ?  0  24
+OAR  2H4   .  H  0  ?  ?  ?  0  25
+OAR  1H6   .  H  0  ?  ?  ?  0  26
+OAR  2H6   .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OAR  OH1  C6    SING  1 
+OAR  OH1  HO1   SING  2 
+OAR  N1   C1    SING  3 
+OAR  N1   1HN1  SING  4 
+OAR  N1   2HN1  SING  5 
+OAR  N2   C4    SING  6 
+OAR  N2   C5    SING  7 
+OAR  N2   HN2   SING  8 
+OAR  N3   C5    DOUB  9 
+OAR  N3   HN3   SING  10
+OAR  N4   C5    SING  11
+OAR  N4   1HN4  SING  12
+OAR  N4   2HN4  SING  13
+OAR  C1   C2    SING  14
+OAR  C1   C6    SING  15
+OAR  C1   H1    SING  16
+OAR  C2   C3    SING  17
+OAR  C2   1H2   SING  18
+OAR  C2   2H2   SING  19
+OAR  C3   C4    SING  20
+OAR  C3   1H3   SING  21
+OAR  C3   2H3   SING  22
+OAR  C4   1H4   SING  23
+OAR  C4   2H4   SING  24
+OAR  C6   1H6   SING  25
+OAR  C6   2H6   SING  26
+#

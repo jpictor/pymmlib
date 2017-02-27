@@ -1,0 +1,102 @@
+data_EDT
+#
+_chem_comp.id                   EDT
+_chem_comp.name                 '{[-(BIS-CARBOXYMETHYL-AMINO)-ETHYL]-CARBOXYMETHYL-AMINO}-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N2 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EDT  O20   .  O  0  22.579  26.625  14.577  1  1 
+EDT  C5    .  C  0  23.291  25.637  14.504  1  2 
+EDT  O19   .  O  0  23.944  25.361  13.254  1  3 
+EDT  C4    .  C  0  23.351  24.716  15.699  1  4 
+EDT  N3    .  N  0  24.228  23.617  15.308  1  5 
+EDT  C2    .  C  0  25.608  23.639  15.779  1  6 
+EDT  C1    .  C  0  25.530  22.983  17.141  1  7 
+EDT  O18   .  O  0  26.595  22.488  17.754  1  8 
+EDT  O17   .  O  0  24.459  22.890  17.717  1  9 
+EDT  C6    .  C  0  23.620  22.579  14.482  1  10
+EDT  C7    .  C  0  24.584  21.818  13.579  1  11
+EDT  N8    .  N  0  24.726  22.386  12.242  1  12
+EDT  C9    .  C  0  23.625  23.004  11.513  1  13
+EDT  C10   .  C  0  22.890  21.781  10.991  1  14
+EDT  O16   .  O  0  21.644  21.943  10.592  1  15
+EDT  O15   .  O  0  23.377  20.665  10.904  1  16
+EDT  C11   .  C  0  25.895  21.969  11.472  1  17
+EDT  C12   .  C  0  27.230  22.294  12.063  1  18
+EDT  O13   .  O  0  28.217  21.708  11.709  1  19
+EDT  O14   .  O  0  27.353  23.356  12.999  1  20
+EDT  H14   .  H  0  ?       ?       ?       1  21
+EDT  H16   .  H  0  ?       ?       ?       1  22
+EDT  H17   .  H  0  ?       ?       ?       1  23
+EDT  H20   .  H  0  ?       ?       ?       1  24
+EDT  1H11  .  H  0  ?       ?       ?       0  25
+EDT  2H11  .  H  0  ?       ?       ?       0  26
+EDT  1H09  .  H  0  ?       ?       ?       0  27
+EDT  2H09  .  H  0  ?       ?       ?       0  28
+EDT  1H07  .  H  0  ?       ?       ?       0  29
+EDT  2H07  .  H  0  ?       ?       ?       0  30
+EDT  1H06  .  H  0  ?       ?       ?       0  31
+EDT  2H06  .  H  0  ?       ?       ?       0  32
+EDT  1H02  .  H  0  ?       ?       ?       0  33
+EDT  2H02  .  H  0  ?       ?       ?       0  34
+EDT  1H04  .  H  0  ?       ?       ?       0  35
+EDT  2H04  .  H  0  ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EDT  O20  C5    SING  1 
+EDT  O20  H20   SING  2 
+EDT  C5   O19   DOUB  3 
+EDT  C5   C4    SING  4 
+EDT  C4   N3    SING  5 
+EDT  C4   1H04  SING  6 
+EDT  C4   2H04  SING  7 
+EDT  N3   C2    SING  8 
+EDT  N3   C6    SING  9 
+EDT  C2   C1    SING  10
+EDT  C2   1H02  SING  11
+EDT  C2   2H02  SING  12
+EDT  C1   O18   DOUB  13
+EDT  C1   O17   SING  14
+EDT  O17  H17   SING  15
+EDT  C6   C7    SING  16
+EDT  C6   1H06  SING  17
+EDT  C6   2H06  SING  18
+EDT  C7   N8    SING  19
+EDT  C7   1H07  SING  20
+EDT  C7   2H07  SING  21
+EDT  N8   C9    SING  22
+EDT  N8   C11   SING  23
+EDT  C9   C10   SING  24
+EDT  C9   1H09  SING  25
+EDT  C9   2H09  SING  26
+EDT  C10  O16   SING  27
+EDT  C10  O15   DOUB  28
+EDT  O16  H16   SING  29
+EDT  C11  C12   SING  30
+EDT  C11  1H11  SING  31
+EDT  C11  2H11  SING  32
+EDT  C12  O13   DOUB  33
+EDT  C12  O14   SING  34
+EDT  O14  H14   SING  35
+#

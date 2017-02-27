@@ -1,0 +1,80 @@
+data_CNF
+#
+_chem_comp.id                   CNF
+_chem_comp.name                 'OXO-IRON CLUSTER 3'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H9 O12 FE3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        368.605
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CNF  FE1  .  FE  0  -22.596  27.779  13.359  0  1 
+CNF  FE2  .  FE  0  -24.938  29.408  14.794  0  2 
+CNF  FE3  .  FE  0  -25.259  26.185  14.513  0  3 
+CNF  OU   .  O   0  -24.840  27.924  13.277  1  4 
+CNF  O3A  .  O   0  -25.999  25.398  16.152  1  5 
+CNF  O3B  .  O   0  -25.239  24.406  13.573  1  6 
+CNF  O3U  .  O   0  -27.079  26.406  13.905  1  7 
+CNF  O23  .  O   0  -25.377  27.723  15.820  1  8 
+CNF  O13  .  O   0  -23.328  26.054  14.466  1  9 
+CNF  O12  .  O   0  -22.936  29.017  14.824  1  10
+CNF  O1A  .  O   0  -20.933  26.692  13.490  1  11
+CNF  O1B  .  O   0  -21.536  29.158  12.407  1  12
+CNF  O1U  .  O   0  -22.923  27.381  11.504  1  13
+CNF  O2A  .  O   0  -24.292  30.657  16.105  1  14
+CNF  O2B  .  O   0  -26.759  30.048  15.121  1  15
+CNF  H3A  .  H   0  ?        ?       ?       1  16
+CNF  H3U  .  H   0  ?        ?       ?       1  17
+CNF  H3B  .  H   0  ?        ?       ?       1  18
+CNF  H13  .  H   0  ?        ?       ?       1  19
+CNF  H2A  .  H   0  ?        ?       ?       1  20
+CNF  H2B  .  H   0  ?        ?       ?       1  21
+CNF  H1B  .  H   0  ?        ?       ?       1  22
+CNF  H1A  .  H   0  ?        ?       ?       1  23
+CNF  H1U  .  H   0  ?        ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CNF  FE1  O12  SING  1 
+CNF  FE1  O1A  SING  2 
+CNF  FE1  O1B  SING  3 
+CNF  FE1  O1U  SING  4 
+CNF  FE1  OU   SING  5 
+CNF  FE2  O23  SING  6 
+CNF  FE2  O12  SING  7 
+CNF  FE2  O2A  SING  8 
+CNF  FE2  O2B  SING  9 
+CNF  FE2  OU   SING  10
+CNF  FE3  O3A  SING  11
+CNF  FE3  O3B  SING  12
+CNF  FE3  O3U  SING  13
+CNF  FE3  O23  SING  14
+CNF  FE3  O13  SING  15
+CNF  FE3  OU   SING  16
+CNF  O3A  H3A  SING  17
+CNF  O3B  H3B  SING  18
+CNF  O3U  H3U  SING  19
+CNF  O13  H13  SING  20
+CNF  O1A  H1A  SING  21
+CNF  O1B  H1B  SING  22
+CNF  O1U  H1U  SING  23
+CNF  O2A  H2A  SING  24
+CNF  O2B  H2B  SING  25
+#

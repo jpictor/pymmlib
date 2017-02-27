@@ -1,0 +1,87 @@
+data_MDO
+#
+_chem_comp.id                       MDO
+_chem_comp.name                     '{2-[(1S)-1-AMINOETHYL]-5-HYDROXY-4-METHYL-1H-IMIDAZOL-1-YL}ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H13 N3 O3'
+_chem_comp.pdbx_synonyms            '4-METHYLIDENE-5-ONE; PEPTIDE DERIVED CHROMOPHORE'
+_chem_comp.mon_nstd_parent_comp_id  'ALA, SER, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            199.209
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MDO  N     .  N  0  9.572   -16.772  11.295  1  1 
+MDO  CA    .  C  0  8.875   -17.955  11.764  1  2 
+MDO  C1    .  C  0  9.734   -19.12   12.142  1  3 
+MDO  CB    .  C  0  7.629   -18.311  10.979  1  4 
+MDO  N2    .  N  0  9.457   -20.352  11.804  1  5 
+MDO  CA2   .  C  0  10.456  -21.099  12.313  1  6 
+MDO  C2    .  C  0  11.353  -20.178  13.006  1  7 
+MDO  O2    .  O  0  12.379  -20.498  13.613  1  8 
+MDO  CB2   .  C  0  10.517  -22.45   12.2    1  9 
+MDO  N3    .  N  0  10.818  -18.994  12.871  1  10
+MDO  CA3   .  C  0  11.49   -17.821  13.363  1  11
+MDO  C     .  C  0  12.608  -17.314  12.388  1  12
+MDO  O     .  O  0  12.424  -17.522  11.169  1  13
+MDO  OXT   .  O  0  13.784  -16.953  12.812  1  14
+MDO  1HN   .  H  0  ?       ?        ?       0  15
+MDO  2HN   .  H  0  ?       ?        ?       0  16
+MDO  HCA   .  H  0  ?       ?        ?       1  17
+MDO  1HC   .  H  0  7.093   -19.22   11.339  0  18
+MDO  2HC   .  H  0  7.87    -18.409  9.895   0  19
+MDO  3HC   .  H  0  6.933   -17.441  10.944  0  20
+MDO  1HB2  .  H  0  11.335  -23.062  12.617  0  21
+MDO  2HB2  .  H  0  9.84    -23.146  11.677  0  22
+MDO  3HB2  .  H  0  ?       ?        ?       0  23
+MDO  1HA3  .  H  0  11.898  -17.993  14.386  0  24
+MDO  2HA3  .  H  0  10.762  -17.009  13.594  0  25
+MDO  HXT   .  H  0  ?       ?        ?       1  26
+MDO  HO2   .  H  0  ?       ?        ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MDO  N    CA    SING  1 
+MDO  N    1HN   SING  2 
+MDO  N    2HN   SING  3 
+MDO  CA   C1    SING  4 
+MDO  CA   CB    SING  5 
+MDO  CA   HCA   SING  6 
+MDO  C1   N2    DOUB  7 
+MDO  C1   N3    SING  8 
+MDO  CB   1HC   SING  9 
+MDO  CB   2HC   SING  10
+MDO  CB   3HC   SING  11
+MDO  N2   CA2   SING  12
+MDO  CA2  C2    DOUB  13
+MDO  CA2  CB2   SING  14
+MDO  C2   O2    SING  15
+MDO  C2   N3    SING  16
+MDO  O2   HO2   SING  17
+MDO  CB2  1HB2  SING  18
+MDO  CB2  2HB2  SING  19
+MDO  CB2  3HB2  SING  20
+MDO  N3   CA3   SING  21
+MDO  CA3  C     SING  22
+MDO  CA3  1HA3  SING  23
+MDO  CA3  2HA3  SING  24
+MDO  C    O     DOUB  25
+MDO  C    OXT   SING  26
+MDO  OXT  HXT   SING  27
+#

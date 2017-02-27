@@ -1,0 +1,119 @@
+data_TFE
+#
+_chem_comp.id                       TFE
+_chem_comp.name                     '2'-O-[2-(TRIFLUORO)ETHYL] THYMIDINE-5'-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H16 N2 O9 F3 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            420.235
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TFE  P     .  P  0  -4.643  6.001  7.252   1  1 
+TFE  O1P   .  O  0  -5.860  6.727  6.783   1  2 
+TFE  O2P   .  O  0  -4.804  4.743  8.007   1  3 
+TFE  O5*   .  O  0  -3.698  5.763  6.003   1  4 
+TFE  C5*   .  C  0  -3.406  6.846  5.122   1  5 
+TFE  C4*   .  C  0  -2.360  6.432  4.141   1  6 
+TFE  O4*   .  O  0  -1.083  6.257  4.812   1  7 
+TFE  C1*   .  C  0  -0.360  5.221  4.168   1  8 
+TFE  N1    .  N  0  -0.135  4.119  5.124   1  9 
+TFE  C6    .  C  0  -0.959  3.879  6.205   1  10
+TFE  C2    .  C  0  0.953   3.328  4.860   1  11
+TFE  O2    .  O  0  1.642   3.481  3.866   1  12
+TFE  N3    .  N  0  1.179   2.334  5.773   1  13
+TFE  C4    .  C  0  0.401   2.028  6.871   1  14
+TFE  O4    .  O  0  0.704   1.086  7.583   1  15
+TFE  C5    .  C  0  -0.761  2.885  7.071   1  16
+TFE  C5M   .  C  0  -1.677  2.619  8.225   1  17
+TFE  C2*   .  C  0  -1.200  4.721  2.995   1  18
+TFE  O2*   .  O  0  -0.950  5.530  1.850   1  19
+TFE  CB'   .  C  0  0.370   5.493  1.338   1  20
+TFE  CC'   .  C  0  0.386   6.251  0.083   1  21
+TFE  FD'   .  F  0  1.565   6.125  -0.494  1  22
+TFE  FE'   .  F  0  -0.532  5.806  -0.757  1  23
+TFE  FF'   .  F  0  0.123   7.537  0.259   0  24
+TFE  C3*   .  C  0  -2.596  5.092  3.466   1  25
+TFE  O3*   .  O  0  -3.552  5.156  2.418   1  26
+TFE  O3P   .  O  0  ?       ?      ?       1  27
+TFE  1H5M  .  H  0  ?       ?      ?       0  28
+TFE  2H5M  .  H  0  ?       ?      ?       0  29
+TFE  3H5M  .  H  0  ?       ?      ?       0  30
+TFE  H6    .  H  0  ?       ?      ?       1  31
+TFE  HN3   .  H  0  ?       ?      ?       1  32
+TFE  H1*   .  H  0  ?       ?      ?       1  33
+TFE  H4*   .  H  0  ?       ?      ?       1  34
+TFE  1H5*  .  H  0  ?       ?      ?       0  35
+TFE  2H5*  .  H  0  ?       ?      ?       0  36
+TFE  3HOP  .  H  0  ?       ?      ?       0  37
+TFE  H3*   .  H  0  ?       ?      ?       1  38
+TFE  H3T   .  H  0  ?       ?      ?       1  39
+TFE  H2*   .  H  0  ?       ?      ?       1  40
+TFE  1HB'  .  H  0  ?       ?      ?       0  41
+TFE  2HB'  .  H  0  ?       ?      ?       0  42
+TFE  2HOP  .  H  0  ?       ?      ?       0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TFE  P    O5*   SING  1 
+TFE  P    O3P   SING  2 
+TFE  P    O1P   DOUB  3 
+TFE  P    O2P   SING  4 
+TFE  O2P  2HOP  SING  5 
+TFE  O5*  C5*   SING  6 
+TFE  C5*  C4*   SING  7 
+TFE  C5*  1H5*  SING  8 
+TFE  C5*  2H5*  SING  9 
+TFE  C4*  O4*   SING  10
+TFE  C4*  C3*   SING  11
+TFE  C4*  H4*   SING  12
+TFE  O4*  C1*   SING  13
+TFE  C1*  N1    SING  14
+TFE  C1*  C2*   SING  15
+TFE  C1*  H1*   SING  16
+TFE  N1   C6    SING  17
+TFE  N1   C2    SING  18
+TFE  C6   C5    DOUB  19
+TFE  C6   H6    SING  20
+TFE  C2   O2    DOUB  21
+TFE  C2   N3    SING  22
+TFE  N3   C4    SING  23
+TFE  N3   HN3   SING  24
+TFE  C4   C5    SING  25
+TFE  C4   O4    DOUB  26
+TFE  C5   C5M   SING  27
+TFE  C5M  1H5M  SING  28
+TFE  C5M  2H5M  SING  29
+TFE  C5M  3H5M  SING  30
+TFE  C2*  C3*   SING  31
+TFE  C2*  O2*   SING  32
+TFE  C2*  H2*   SING  33
+TFE  O2*  CB'   SING  34
+TFE  CB'  CC'   SING  35
+TFE  CB'  1HB'  SING  36
+TFE  CB'  2HB'  SING  37
+TFE  CC'  FD'   SING  38
+TFE  CC'  FE'   SING  39
+TFE  CC'  FF'   SING  40
+TFE  C3*  O3*   SING  41
+TFE  C3*  H3*   SING  42
+TFE  O3*  H3T   SING  43
+TFE  O3P  3HOP  SING  44
+#

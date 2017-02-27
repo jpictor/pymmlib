@@ -1,0 +1,89 @@
+data_SEM
+#
+_chem_comp.id                   SEM
+_chem_comp.name                 3-AMINO-4-OXYBENZYL-2-BUTANONE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        193.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SEM  C1    .  C  0  ?  ?  ?  1  1 
+SEM  C2    .  C  0  ?  ?  ?  1  2 
+SEM  O2    .  O  0  ?  ?  ?  1  3 
+SEM  C3    .  C  0  ?  ?  ?  1  4 
+SEM  N3    .  N  0  ?  ?  ?  1  5 
+SEM  C4    .  C  0  ?  ?  ?  1  6 
+SEM  O'    .  O  0  ?  ?  ?  1  7 
+SEM  C'    .  C  0  ?  ?  ?  1  8 
+SEM  C1'   .  C  0  ?  ?  ?  1  9 
+SEM  C2'   .  C  0  ?  ?  ?  1  10
+SEM  C3'   .  C  0  ?  ?  ?  1  11
+SEM  C4'   .  C  0  ?  ?  ?  1  12
+SEM  C5'   .  C  0  ?  ?  ?  1  13
+SEM  C6'   .  C  0  ?  ?  ?  1  14
+SEM  1H1   .  H  0  ?  ?  ?  0  15
+SEM  2H1   .  H  0  ?  ?  ?  0  16
+SEM  3H1   .  H  0  ?  ?  ?  0  17
+SEM  H3    .  H  0  ?  ?  ?  1  18
+SEM  1HN3  .  H  0  ?  ?  ?  0  19
+SEM  2HN3  .  H  0  ?  ?  ?  0  20
+SEM  1H4   .  H  0  ?  ?  ?  0  21
+SEM  2H4   .  H  0  ?  ?  ?  0  22
+SEM  1H'   .  H  0  ?  ?  ?  0  23
+SEM  2H'   .  H  0  ?  ?  ?  0  24
+SEM  H2'   .  H  0  ?  ?  ?  1  25
+SEM  H3'   .  H  0  ?  ?  ?  1  26
+SEM  H4'   .  H  0  ?  ?  ?  1  27
+SEM  H5'   .  H  0  ?  ?  ?  1  28
+SEM  H6'   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SEM  C1   C2    SING  1 
+SEM  C1   1H1   SING  2 
+SEM  C1   2H1   SING  3 
+SEM  C1   3H1   SING  4 
+SEM  C2   C3    SING  5 
+SEM  C2   O2    DOUB  6 
+SEM  C3   C4    SING  7 
+SEM  C3   N3    SING  8 
+SEM  C3   H3    SING  9 
+SEM  N3   1HN3  SING  10
+SEM  N3   2HN3  SING  11
+SEM  C4   O'    SING  12
+SEM  C4   1H4   SING  13
+SEM  C4   2H4   SING  14
+SEM  O'   C'    SING  15
+SEM  C'   C1'   SING  16
+SEM  C'   1H'   SING  17
+SEM  C'   2H'   SING  18
+SEM  C1'  C2'   DOUB  19
+SEM  C1'  C6'   SING  20
+SEM  C2'  C3'   SING  21
+SEM  C2'  H2'   SING  22
+SEM  C3'  C4'   DOUB  23
+SEM  C3'  H3'   SING  24
+SEM  C4'  C5'   SING  25
+SEM  C4'  H4'   SING  26
+SEM  C5'  C6'   DOUB  27
+SEM  C5'  H5'   SING  28
+SEM  C6'  H6'   SING  29
+#

@@ -1,0 +1,74 @@
+data_ESX
+#
+_chem_comp.id                   ESX
+_chem_comp.name                 BENZO[B]THIOPHENE-2-CARBOXAMIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H9 N2 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       177.243
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ESX  C0    .  C  0  ?  ?  ?  1  1 
+ESX  C1    .  C  0  ?  ?  ?  1  2 
+ESX  N1    .  N  0  ?  ?  ?  1  3 
+ESX  N2    .  N  1  ?  ?  ?  1  4 
+ESX  S2    .  S  0  ?  ?  ?  1  5 
+ESX  C3    .  C  0  ?  ?  ?  1  6 
+ESX  C4    .  C  0  ?  ?  ?  1  7 
+ESX  C5    .  C  0  ?  ?  ?  1  8 
+ESX  C6    .  C  0  ?  ?  ?  1  9 
+ESX  C7    .  C  0  ?  ?  ?  1  10
+ESX  C8    .  C  0  ?  ?  ?  1  11
+ESX  C9    .  C  0  ?  ?  ?  1  12
+ESX  1HH1  .  H  0  ?  ?  ?  0  13
+ESX  2HH1  .  H  0  ?  ?  ?  0  14
+ESX  1HH2  .  H  0  ?  ?  ?  0  15
+ESX  2HH2  .  H  0  ?  ?  ?  0  16
+ESX  H5    .  H  0  ?  ?  ?  1  17
+ESX  H6    .  H  0  ?  ?  ?  1  18
+ESX  H7    .  H  0  ?  ?  ?  1  19
+ESX  H8    .  H  0  ?  ?  ?  1  20
+ESX  H9    .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ESX  C0  C1    SING  1 
+ESX  C0  N1    SING  2 
+ESX  C0  N2    DOUB  3 
+ESX  C1  S2    SING  4 
+ESX  C1  C5    DOUB  5 
+ESX  N1  1HH1  SING  6 
+ESX  N1  2HH1  SING  7 
+ESX  N2  1HH2  SING  8 
+ESX  N2  2HH2  SING  9 
+ESX  S2  C3    SING  10
+ESX  C3  C4    DOUB  11
+ESX  C3  C6    SING  12
+ESX  C4  C5    SING  13
+ESX  C4  C9    SING  14
+ESX  C5  H5    SING  15
+ESX  C6  H6    SING  16
+ESX  C6  C7    DOUB  17
+ESX  C7  H7    SING  18
+ESX  C7  C8    SING  19
+ESX  C8  H8    SING  20
+ESX  C8  C9    DOUB  21
+ESX  C9  H9    SING  22
+#

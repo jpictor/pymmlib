@@ -1,0 +1,92 @@
+data_LIG
+#
+_chem_comp.id                   LIG
+_chem_comp.name                 3-PYRIDIN-4-YL-2,4-DIHYDRO-INDENO[1,2-.C.]PYRAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H11 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        233.272
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LIG  N1    .  N  0  ?  ?  ?  1  1 
+LIG  N3    .  N  0  ?  ?  ?  1  2 
+LIG  C4    .  C  0  ?  ?  ?  1  3 
+LIG  C5    .  C  0  ?  ?  ?  1  4 
+LIG  C6    .  C  0  ?  ?  ?  1  5 
+LIG  C7    .  C  0  ?  ?  ?  1  6 
+LIG  C8    .  C  0  ?  ?  ?  1  7 
+LIG  C10   .  C  0  ?  ?  ?  1  8 
+LIG  N12   .  N  0  ?  ?  ?  1  9 
+LIG  C13   .  C  0  ?  ?  ?  1  10
+LIG  C15   .  C  0  ?  ?  ?  1  11
+LIG  C17   .  C  0  ?  ?  ?  1  12
+LIG  C20   .  C  0  ?  ?  ?  1  13
+LIG  C21   .  C  0  ?  ?  ?  1  14
+LIG  C22   .  C  0  ?  ?  ?  1  15
+LIG  C24   .  C  0  ?  ?  ?  1  16
+LIG  C26   .  C  0  ?  ?  ?  1  17
+LIG  C28   .  C  0  ?  ?  ?  1  18
+LIG  HC22  .  H  0  ?  ?  ?  0  19
+LIG  HC24  .  H  0  ?  ?  ?  0  20
+LIG  HC26  .  H  0  ?  ?  ?  0  21
+LIG  HC28  .  H  0  ?  ?  ?  0  22
+LIG  1H17  .  H  0  ?  ?  ?  0  23
+LIG  2H17  .  H  0  ?  ?  ?  0  24
+LIG  HC8   .  H  0  ?  ?  ?  1  25
+LIG  HC10  .  H  0  ?  ?  ?  0  26
+LIG  HC13  .  H  0  ?  ?  ?  0  27
+LIG  HC15  .  H  0  ?  ?  ?  0  28
+LIG  HN1   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LIG  N1   N3    AROM  1 
+LIG  N1   C6    AROM  2 
+LIG  N1   HN1   SING  3 
+LIG  N3   C4    AROM  4 
+LIG  C4   C5    AROM  5 
+LIG  C4   C21   SING  6 
+LIG  C5   C6    AROM  7 
+LIG  C5   C17   SING  8 
+LIG  C6   C7    SING  9 
+LIG  C7   C8    AROM  10
+LIG  C7   C15   AROM  11
+LIG  C8   C10   AROM  12
+LIG  C8   HC8   SING  13
+LIG  C10  N12   AROM  14
+LIG  C10  HC10  SING  15
+LIG  N12  C13   AROM  16
+LIG  C13  C15   AROM  17
+LIG  C13  HC13  SING  18
+LIG  C15  HC15  SING  19
+LIG  C17  C20   SING  20
+LIG  C17  1H17  SING  21
+LIG  C17  2H17  SING  22
+LIG  C20  C21   AROM  23
+LIG  C20  C28   AROM  24
+LIG  C21  C22   AROM  25
+LIG  C22  C24   AROM  26
+LIG  C22  HC22  SING  27
+LIG  C24  C26   AROM  28
+LIG  C24  HC24  SING  29
+LIG  C26  C28   AROM  30
+LIG  C26  HC26  SING  31
+LIG  C28  HC28  SING  32
+#

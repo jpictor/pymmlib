@@ -1,0 +1,77 @@
+data_N7P
+#
+_chem_comp.id                       N7P
+_chem_comp.name                     1-ACETYL-D-PROLINE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H11 N1 O3'
+_chem_comp.pdbx_synonyms            N-ACETYLPROLINE
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            157.169
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+N7P  O10  .  O  0  19.728  75.939  64.270  1  1 
+N7P  C1   .  C  0  20.409  76.297  63.289  1  2 
+N7P  O11  .  O  0  21.662  76.331  63.302  1  3 
+N7P  C2   .  C  0  19.683  76.722  62.029  1  4 
+N7P  N6   .  N  0  19.424  78.126  62.021  1  5 
+N7P  C7   .  C  0  18.336  78.655  62.595  1  6 
+N7P  O9   .  O  0  17.728  78.024  63.454  1  7 
+N7P  C8   .  C  0  17.941  79.975  62.221  1  8 
+N7P  C5   .  C  0  20.492  78.892  61.382  1  9 
+N7P  C4   .  C  0  21.026  77.935  60.381  1  10
+N7P  C3   .  C  0  20.597  76.538  60.824  1  11
+N7P  H10  .  H  0  ?       ?       ?       1  12
+N7P  H2   .  H  0  ?       ?       ?       1  13
+N7P  1H8  .  H  0  ?       ?       ?       0  14
+N7P  2H8  .  H  0  ?       ?       ?       0  15
+N7P  3H8  .  H  0  ?       ?       ?       0  16
+N7P  1H5  .  H  0  ?       ?       ?       0  17
+N7P  2H5  .  H  0  ?       ?       ?       0  18
+N7P  1H4  .  H  0  ?       ?       ?       0  19
+N7P  2H4  .  H  0  ?       ?       ?       0  20
+N7P  1H3  .  H  0  ?       ?       ?       0  21
+N7P  2H3  .  H  0  ?       ?       ?       0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+N7P  O10  H10  SING  1 
+N7P  O10  C1   SING  2 
+N7P  C1   O11  DOUB  3 
+N7P  C1   C2   SING  4 
+N7P  C2   H2   SING  5 
+N7P  C2   N6   SING  6 
+N7P  C2   C3   SING  7 
+N7P  N6   C7   SING  8 
+N7P  N6   C5   SING  9 
+N7P  C7   O9   DOUB  10
+N7P  C7   C8   SING  11
+N7P  C8   1H8  SING  12
+N7P  C8   2H8  SING  13
+N7P  C8   3H8  SING  14
+N7P  C5   1H5  SING  15
+N7P  C5   2H5  SING  16
+N7P  C5   C4   SING  17
+N7P  C4   1H4  SING  18
+N7P  C4   2H4  SING  19
+N7P  C4   C3   SING  20
+N7P  C3   1H3  SING  21
+N7P  C3   2H3  SING  22
+#

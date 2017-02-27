@@ -1,0 +1,70 @@
+data_GLN
+#
+_chem_comp.id                   GLN
+_chem_comp.name                 GLUTAMINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H10 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        146.146
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLN  N     .  N  0  ?  ?  ?  1  1 
+GLN  CA    .  C  0  ?  ?  ?  1  2 
+GLN  C     .  C  0  ?  ?  ?  1  3 
+GLN  O     .  O  0  ?  ?  ?  1  4 
+GLN  CB    .  C  0  ?  ?  ?  1  5 
+GLN  CG    .  C  0  ?  ?  ?  1  6 
+GLN  CD    .  C  0  ?  ?  ?  1  7 
+GLN  OE1   .  O  0  ?  ?  ?  1  8 
+GLN  NE2   .  N  0  ?  ?  ?  1  9 
+GLN  OXT   .  O  0  ?  ?  ?  1  10
+GLN  H     .  H  0  ?  ?  ?  1  11
+GLN  HN2   .  H  0  ?  ?  ?  1  12
+GLN  HA    .  H  0  ?  ?  ?  1  13
+GLN  1HB   .  H  0  ?  ?  ?  0  14
+GLN  2HB   .  H  0  ?  ?  ?  0  15
+GLN  1HG   .  H  0  ?  ?  ?  0  16
+GLN  2HG   .  H  0  ?  ?  ?  0  17
+GLN  1HE2  .  H  0  ?  ?  ?  0  18
+GLN  2HE2  .  H  0  ?  ?  ?  0  19
+GLN  HXT   .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLN  N    CA    SING  1 
+GLN  N    H     SING  2 
+GLN  N    HN2   SING  3 
+GLN  CA   C     SING  4 
+GLN  CA   CB    SING  5 
+GLN  CA   HA    SING  6 
+GLN  C    O     DOUB  7 
+GLN  C    OXT   SING  8 
+GLN  CB   CG    SING  9 
+GLN  CB   1HB   SING  10
+GLN  CB   2HB   SING  11
+GLN  CG   CD    SING  12
+GLN  CG   1HG   SING  13
+GLN  CG   2HG   SING  14
+GLN  CD   OE1   DOUB  15
+GLN  CD   NE2   SING  16
+GLN  NE2  1HE2  SING  17
+GLN  NE2  2HE2  SING  18
+GLN  OXT  HXT   SING  19
+#

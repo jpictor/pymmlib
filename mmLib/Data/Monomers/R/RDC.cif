@@ -1,0 +1,118 @@
+data_RDC
+#
+_chem_comp.id                   RDC
+_chem_comp.name                 RADICICOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H17 O6 CL1'
+_chem_comp.pdbx_synonyms        MONORDEN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        364.782
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RDC  C1    .  C   0  ?  ?  ?  1  1 
+RDC  C2    .  C   0  ?  ?  ?  1  2 
+RDC  C3    .  C   0  ?  ?  ?  1  3 
+RDC  C4    .  C   0  ?  ?  ?  1  4 
+RDC  C5    .  C   0  ?  ?  ?  1  5 
+RDC  C6    .  C   0  ?  ?  ?  1  6 
+RDC  C7    .  C   0  ?  ?  ?  1  7 
+RDC  C8    .  C   0  ?  ?  ?  1  8 
+RDC  C9    .  C   0  ?  ?  ?  1  9 
+RDC  C10   .  C   0  ?  ?  ?  1  10
+RDC  C11   .  C   0  ?  ?  ?  1  11
+RDC  C12   .  C   0  ?  ?  ?  1  12
+RDC  C13   .  C   0  ?  ?  ?  1  13
+RDC  C14   .  C   0  ?  ?  ?  1  14
+RDC  C15   .  C   0  ?  ?  ?  1  15
+RDC  C16   .  C   0  ?  ?  ?  1  16
+RDC  C17   .  C   0  ?  ?  ?  1  17
+RDC  C18   .  C   0  ?  ?  ?  1  18
+RDC  O1    .  O   0  ?  ?  ?  1  19
+RDC  O2    .  O   0  ?  ?  ?  1  20
+RDC  O3    .  O   0  ?  ?  ?  1  21
+RDC  O4    .  O   0  ?  ?  ?  1  22
+RDC  CL1   .  CL  0  ?  ?  ?  0  23
+RDC  O5    .  O   0  ?  ?  ?  1  24
+RDC  O6    .  O   0  ?  ?  ?  1  25
+RDC  H4    .  H   0  ?  ?  ?  1  26
+RDC  1H8   .  H   0  ?  ?  ?  0  27
+RDC  2H8   .  H   0  ?  ?  ?  0  28
+RDC  H10   .  H   0  ?  ?  ?  1  29
+RDC  H11   .  H   0  ?  ?  ?  1  30
+RDC  H12   .  H   0  ?  ?  ?  1  31
+RDC  H13   .  H   0  ?  ?  ?  1  32
+RDC  H14   .  H   0  ?  ?  ?  1  33
+RDC  H15   .  H   0  ?  ?  ?  1  34
+RDC  1H16  .  H   0  ?  ?  ?  0  35
+RDC  2H16  .  H   0  ?  ?  ?  0  36
+RDC  H17   .  H   0  ?  ?  ?  1  37
+RDC  1H18  .  H   0  ?  ?  ?  0  38
+RDC  2H18  .  H   0  ?  ?  ?  0  39
+RDC  3H18  .  H   0  ?  ?  ?  0  40
+RDC  HO3   .  H   0  ?  ?  ?  1  41
+RDC  HO4   .  H   0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RDC  C1   C2    SING  1 
+RDC  C1   O1    SING  2 
+RDC  C1   O2    DOUB  3 
+RDC  C2   C3    DOUB  4 
+RDC  C2   C7    SING  5 
+RDC  C3   C4    SING  6 
+RDC  C3   O3    SING  7 
+RDC  C4   C5    DOUB  8 
+RDC  C4   H4    SING  9 
+RDC  C5   C6    SING  10
+RDC  C5   O4    SING  11
+RDC  C6   C7    DOUB  12
+RDC  C6   CL1   SING  13
+RDC  C7   C8    SING  14
+RDC  C8   C9    SING  15
+RDC  C8   1H8   SING  16
+RDC  C8   2H8   SING  17
+RDC  C9   C10   SING  18
+RDC  C9   O5    DOUB  19
+RDC  C10  C11   DOUB  20
+RDC  C10  H10   SING  21
+RDC  C11  C12   SING  22
+RDC  C11  H11   SING  23
+RDC  C12  C13   DOUB  24
+RDC  C12  H12   SING  25
+RDC  C13  C14   SING  26
+RDC  C13  H13   SING  27
+RDC  C14  C15   SING  28
+RDC  C14  O6    SING  29
+RDC  C14  H14   SING  30
+RDC  C15  C16   SING  31
+RDC  C15  O6    SING  32
+RDC  C15  H15   SING  33
+RDC  C16  C17   SING  34
+RDC  C16  1H16  SING  35
+RDC  C16  2H16  SING  36
+RDC  C17  C18   SING  37
+RDC  C17  O1    SING  38
+RDC  C17  H17   SING  39
+RDC  C18  1H18  SING  40
+RDC  C18  2H18  SING  41
+RDC  C18  3H18  SING  42
+RDC  O3   HO3   SING  43
+RDC  O4   HO4   SING  44
+#

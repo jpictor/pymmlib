@@ -1,0 +1,110 @@
+data_BHB
+#
+_chem_comp.id                   BHB
+_chem_comp.name                 2,6-DIAMINO-8-(2-DIMETHYLAMINOETHYLSULFANYLMETHYL)-3H-QUINAZOLIN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N5 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        293.386
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BHB  N4    .  N  0  19.261  17.906  18.100  1  1 
+BHB  C6    .  C  0  18.225  17.602  19.176  1  2 
+BHB  C1    .  C  0  16.912  17.202  18.791  1  3 
+BHB  C2    .  C  0  15.923  16.912  19.776  1  4 
+BHB  C3    .  C  0  16.258  17.029  21.163  1  5 
+BHB  N3    .  N  0  15.345  16.767  22.152  1  6 
+BHB  C8    .  C  0  15.607  16.861  23.416  1  7 
+BHB  N2    .  N  0  14.707  16.606  24.319  1  8 
+BHB  N1    .  N  0  16.811  17.223  23.867  1  9 
+BHB  C7    .  C  0  17.830  17.518  23.053  1  10
+BHB  O1    .  O  0  18.931  17.849  23.476  1  11
+BHB  C41   .  C  0  17.588  17.431  21.543  1  12
+BHB  C5    .  C  0  18.571  17.718  20.553  1  13
+BHB  C9    .  C  0  14.524  16.478  19.328  1  14
+BHB  S1    .  S  0  13.412  17.912  19.425  1  15
+BHB  C16   .  C  0  12.682  17.694  17.776  1  16
+BHB  C17   .  C  0  13.685  18.038  16.664  1  17
+BHB  N18   .  N  0  13.125  17.738  15.325  1  18
+BHB  C20   .  C  0  14.211  17.656  14.327  1  19
+BHB  C19   .  C  0  12.132  18.753  14.906  1  20
+BHB  1HN2  .  H  0  ?       ?       ?       0  21
+BHB  2HN2  .  H  0  ?       ?       ?       0  22
+BHB  H5    .  H  0  ?       ?       ?       1  23
+BHB  1HN4  .  H  0  ?       ?       ?       0  24
+BHB  2HN4  .  H  0  ?       ?       ?       0  25
+BHB  H1    .  H  0  ?       ?       ?       1  26
+BHB  1H9   .  H  0  ?       ?       ?       0  27
+BHB  2H9   .  H  0  ?       ?       ?       0  28
+BHB  1H16  .  H  0  ?       ?       ?       0  29
+BHB  2H16  .  H  0  ?       ?       ?       0  30
+BHB  1H17  .  H  0  ?       ?       ?       0  31
+BHB  2H17  .  H  0  ?       ?       ?       0  32
+BHB  1H20  .  H  0  ?       ?       ?       0  33
+BHB  2H20  .  H  0  ?       ?       ?       0  34
+BHB  3H20  .  H  0  ?       ?       ?       0  35
+BHB  1H19  .  H  0  ?       ?       ?       0  36
+BHB  2H19  .  H  0  ?       ?       ?       0  37
+BHB  3H19  .  H  0  ?       ?       ?       0  38
+BHB  HN1   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BHB  N4   C6    SING  1 
+BHB  N4   1HN4  SING  2 
+BHB  N4   2HN4  SING  3 
+BHB  C6   C5    AROM  4 
+BHB  C6   C1    AROM  5 
+BHB  C1   H1    SING  6 
+BHB  C1   C2    AROM  7 
+BHB  C2   C3    AROM  8 
+BHB  C2   C9    SING  9 
+BHB  C3   N3    SING  10
+BHB  C3   C41   AROM  11
+BHB  N3   C8    DOUB  12
+BHB  C8   N2    SING  13
+BHB  C8   N1    SING  14
+BHB  N2   1HN2  SING  15
+BHB  N2   2HN2  SING  16
+BHB  N1   C7    SING  17
+BHB  N1   HN1   SING  18
+BHB  C7   C41   SING  19
+BHB  C7   O1    DOUB  20
+BHB  C41  C5    AROM  21
+BHB  C5   H5    SING  22
+BHB  C9   1H9   SING  23
+BHB  C9   2H9   SING  24
+BHB  C9   S1    SING  25
+BHB  S1   C16   SING  26
+BHB  C16  1H16  SING  27
+BHB  C16  2H16  SING  28
+BHB  C16  C17   SING  29
+BHB  C17  1H17  SING  30
+BHB  C17  2H17  SING  31
+BHB  C17  N18   SING  32
+BHB  N18  C20   SING  33
+BHB  N18  C19   SING  34
+BHB  C20  1H20  SING  35
+BHB  C20  2H20  SING  36
+BHB  C20  3H20  SING  37
+BHB  C19  1H19  SING  38
+BHB  C19  2H19  SING  39
+BHB  C19  3H19  SING  40
+#

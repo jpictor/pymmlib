@@ -1,0 +1,117 @@
+data_ABP
+#
+_chem_comp.id                   ABP
+_chem_comp.name                 8-BROMOADENOSINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O10 BR1 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        506.100
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABP  PB    .  P   0  ?  ?  ?  1  1 
+ABP  O1B   .  O   0  ?  ?  ?  1  2 
+ABP  O2B   .  O   0  ?  ?  ?  1  3 
+ABP  O3B   .  O   0  ?  ?  ?  1  4 
+ABP  PA    .  P   0  ?  ?  ?  1  5 
+ABP  O1A   .  O   0  ?  ?  ?  1  6 
+ABP  O2A   .  O   0  ?  ?  ?  1  7 
+ABP  O3A   .  O   0  ?  ?  ?  1  8 
+ABP  O5*   .  O   0  ?  ?  ?  1  9 
+ABP  C5*   .  C   0  ?  ?  ?  1  10
+ABP  C4*   .  C   0  ?  ?  ?  1  11
+ABP  O4*   .  O   0  ?  ?  ?  1  12
+ABP  C3*   .  C   0  ?  ?  ?  1  13
+ABP  O3*   .  O   0  ?  ?  ?  1  14
+ABP  C2*   .  C   0  ?  ?  ?  1  15
+ABP  O2*   .  O   0  ?  ?  ?  1  16
+ABP  C1*   .  C   0  ?  ?  ?  1  17
+ABP  N9    .  N   0  ?  ?  ?  1  18
+ABP  C8    .  C   0  ?  ?  ?  1  19
+ABP  BR8   .  BR  0  ?  ?  ?  0  20
+ABP  N7    .  N   0  ?  ?  ?  1  21
+ABP  C5    .  C   0  ?  ?  ?  1  22
+ABP  C6    .  C   0  ?  ?  ?  1  23
+ABP  N6    .  N   0  ?  ?  ?  1  24
+ABP  N1    .  N   0  ?  ?  ?  1  25
+ABP  C2    .  C   0  ?  ?  ?  1  26
+ABP  N3    .  N   0  ?  ?  ?  1  27
+ABP  C4    .  C   0  ?  ?  ?  1  28
+ABP  2HOA  .  H   0  ?  ?  ?  0  29
+ABP  2HOB  .  H   0  ?  ?  ?  0  30
+ABP  3HOB  .  H   0  ?  ?  ?  0  31
+ABP  1H5*  .  H   0  ?  ?  ?  0  32
+ABP  2H5*  .  H   0  ?  ?  ?  0  33
+ABP  H4*   .  H   0  ?  ?  ?  1  34
+ABP  H3*   .  H   0  ?  ?  ?  1  35
+ABP  *HO3  .  H   0  ?  ?  ?  0  36
+ABP  H2*   .  H   0  ?  ?  ?  1  37
+ABP  *HO2  .  H   0  ?  ?  ?  0  38
+ABP  H1*   .  H   0  ?  ?  ?  1  39
+ABP  1HN6  .  H   0  ?  ?  ?  0  40
+ABP  2HN6  .  H   0  ?  ?  ?  0  41
+ABP  H2    .  H   0  ?  ?  ?  1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABP  PB   O1B   DOUB  1 
+ABP  PB   O2B   SING  2 
+ABP  PB   O3B   SING  3 
+ABP  PB   O3A   SING  4 
+ABP  O2B  2HOB  SING  5 
+ABP  O3B  3HOB  SING  6 
+ABP  PA   O1A   DOUB  7 
+ABP  PA   O2A   SING  8 
+ABP  PA   O3A   SING  9 
+ABP  PA   O5*   SING  10
+ABP  O2A  2HOA  SING  11
+ABP  O5*  C5*   SING  12
+ABP  C5*  C4*   SING  13
+ABP  C5*  1H5*  SING  14
+ABP  C5*  2H5*  SING  15
+ABP  C4*  O4*   SING  16
+ABP  C4*  C3*   SING  17
+ABP  C4*  H4*   SING  18
+ABP  O4*  C1*   SING  19
+ABP  C3*  O3*   SING  20
+ABP  C3*  C2*   SING  21
+ABP  C3*  H3*   SING  22
+ABP  O3*  *HO3  SING  23
+ABP  C2*  O2*   SING  24
+ABP  C2*  C1*   SING  25
+ABP  C2*  H2*   SING  26
+ABP  O2*  *HO2  SING  27
+ABP  C1*  N9    SING  28
+ABP  C1*  H1*   SING  29
+ABP  N9   C8    SING  30
+ABP  N9   C4    SING  31
+ABP  C8   N7    DOUB  32
+ABP  C8   BR8   SING  33
+ABP  N7   C5    SING  34
+ABP  C5   C6    SING  35
+ABP  C5   C4    DOUB  36
+ABP  C6   N6    SING  37
+ABP  C6   N1    DOUB  38
+ABP  N6   1HN6  SING  39
+ABP  N6   2HN6  SING  40
+ABP  N1   C2    SING  41
+ABP  C2   N3    DOUB  42
+ABP  C2   H2    SING  43
+ABP  N3   C4    SING  44
+#

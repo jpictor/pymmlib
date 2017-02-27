@@ -1,0 +1,64 @@
+data_5BR
+#
+_chem_comp.id                   5BR
+_chem_comp.name                 1-BROMOPENTANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.046
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5BR  BR1  .  BR  0  79.475  80.188  86.161  0  1 
+5BR  C1   .  C   0  81.271  80.478  86.742  1  2 
+5BR  C2   .  C   0  81.801  81.742  86.044  1  3 
+5BR  C3   .  C   0  83.256  82.090  86.427  1  4 
+5BR  C4   .  C   0  84.036  82.803  85.304  1  5 
+5BR  C5   .  C   0  85.215  83.694  85.724  1  6 
+5BR  1H5  .  H   0  ?       ?       ?       0  7 
+5BR  2H5  .  H   0  ?       ?       ?       0  8 
+5BR  3H5  .  H   0  ?       ?       ?       0  9 
+5BR  1H4  .  H   0  ?       ?       ?       0  10
+5BR  2H4  .  H   0  ?       ?       ?       0  11
+5BR  1H3  .  H   0  ?       ?       ?       0  12
+5BR  2H3  .  H   0  ?       ?       ?       0  13
+5BR  1H2  .  H   0  ?       ?       ?       0  14
+5BR  2H2  .  H   0  ?       ?       ?       0  15
+5BR  1H1  .  H   0  ?       ?       ?       0  16
+5BR  2H1  .  H   0  ?       ?       ?       0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5BR  BR1  C1   SING  1 
+5BR  C1   C2   SING  2 
+5BR  C1   1H1  SING  3 
+5BR  C1   2H1  SING  4 
+5BR  C2   C3   SING  5 
+5BR  C2   1H2  SING  6 
+5BR  C2   2H2  SING  7 
+5BR  C3   C4   SING  8 
+5BR  C3   1H3  SING  9 
+5BR  C3   2H3  SING  10
+5BR  C4   C5   SING  11
+5BR  C4   1H4  SING  12
+5BR  C4   2H4  SING  13
+5BR  C5   1H5  SING  14
+5BR  C5   2H5  SING  15
+5BR  C5   3H5  SING  16
+#

@@ -1,0 +1,112 @@
+data_4PC
+#
+_chem_comp.id                       4PC
+_chem_comp.name                     3-(2'-DEOXY-5'-O-PHOSPHONO-BETA-D-ERYTHRO-PENTOFURANOSYL)-6-METHYL-3,7-DIHYDRO-2H-PYRROLO[2,3-D]PYRIMIDIN-2-ONE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H16 N3 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            345.248
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4PC  P     .  P  0  2.084   -9.185   2.528   1  1 
+4PC  O1P   .  O  0  3.477   -8.659   2.783   1  2 
+4PC  O2P   .  O  0  1.850   -10.616  2.111   1  3 
+4PC  O5*   .  O  0  1.395   -8.205   1.425   1  4 
+4PC  C5*   .  C  0  0.080   -8.502   0.979   1  5 
+4PC  C4*   .  C  0  -0.431  -7.488   -0.069  1  6 
+4PC  O4*   .  O  0  -0.256  -6.145   0.461   1  7 
+4PC  C3*   .  C  0  0.270   -7.545   -1.434  1  8 
+4PC  O3*   .  O  0  -0.646  -7.216   -2.490  1  9 
+4PC  C2*   .  C  0  1.267   -6.416   -1.354  1  10
+4PC  C1*   .  C  0  0.526   -5.397   -0.488  1  11
+4PC  N1    .  N  0  1.405   -4.461   0.219   1  12
+4PC  C2    .  C  0  1.230   -3.075   0.024   1  13
+4PC  O2    .  O  0  0.322   -2.614   -0.664  1  14
+4PC  N3    .  N  0  2.119   -2.185   0.613   1  15
+4PC  C4    .  C  0  3.044   -2.684   1.350   1  16
+4PC  C5    .  C  0  3.238   -4.121   1.642   1  17
+4PC  C6    .  C  0  2.391   -4.955   1.060   1  18
+4PC  C14   .  C  0  4.385   -4.225   2.512   1  19
+4PC  C15   .  C  0  4.848   -2.968   2.706   1  20
+4PC  C16   .  C  0  6.030   -2.538   3.492   1  21
+4PC  N17   .  N  0  4.056   -2.050   2.027   1  22
+4PC  O3P   .  O  0  ?       ?        ?       1  23
+4PC  H1*   .  H  0  -0.189  -4.848   -1.112  1  24
+4PC  1H2*  .  H  0  2.183   -6.780   -0.879  0  25
+4PC  2H2*  .  H  0  1.539   -5.988   -2.324  0  26
+4PC  H3*   .  H  0  0.733   -8.518   -1.625  1  27
+4PC  H4*   .  H  0  -1.509  -7.645   -0.199  1  28
+4PC  1H5*  .  H  0  0.045   -9.514   0.564   0  29
+4PC  2H5*  .  H  0  -0.580  -8.460   1.852   0  30
+4PC  H6    .  H  0  2.457   -6.027   1.209   1  31
+4PC  1H16  .  H  0  5.734   -1.846   4.286   0  32
+4PC  2H16  .  H  0  6.752   -2.028   2.846   0  33
+4PC  3H16  .  H  0  6.537   -3.392   3.951   0  34
+4PC  H14   .  H  0  4.782   -5.151   2.899   1  35
+4PC  H17   .  H  0  4.217   -1.044   2.028   1  36
+4PC  3HOP  .  H  0  ?       ?        ?       0  37
+4PC  H3T   .  H  0  ?       ?        ?       1  38
+4PC  2HOP  .  H  0  ?       ?        ?       0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4PC  P    O5*   SING  1 
+4PC  P    O1P   DOUB  2 
+4PC  P    O3P   SING  3 
+4PC  P    O2P   SING  4 
+4PC  O2P  2HOP  SING  5 
+4PC  O5*  C5*   SING  6 
+4PC  C5*  C4*   SING  7 
+4PC  C5*  1H5*  SING  8 
+4PC  C5*  2H5*  SING  9 
+4PC  C4*  C3*   SING  10
+4PC  C4*  H4*   SING  11
+4PC  C4*  O4*   SING  12
+4PC  O4*  C1*   SING  13
+4PC  C3*  O3*   SING  14
+4PC  C3*  H3*   SING  15
+4PC  C3*  C2*   SING  16
+4PC  O3*  H3T   SING  17
+4PC  C2*  2H2*  SING  18
+4PC  C2*  1H2*  SING  19
+4PC  C2*  C1*   SING  20
+4PC  C1*  H1*   SING  21
+4PC  C1*  N1    SING  22
+4PC  N1   C2    SING  23
+4PC  N1   C6    SING  24
+4PC  C2   O2    DOUB  25
+4PC  C2   N3    SING  26
+4PC  N3   C4    DOUB  27
+4PC  C4   C5    SING  28
+4PC  C4   N17   SING  29
+4PC  C5   C6    DOUB  30
+4PC  C5   C14   SING  31
+4PC  C6   H6    SING  32
+4PC  C14  C15   DOUB  33
+4PC  C14  H14   SING  34
+4PC  C15  N17   SING  35
+4PC  C15  C16   SING  36
+4PC  C16  2H16  SING  37
+4PC  C16  3H16  SING  38
+4PC  C16  1H16  SING  39
+4PC  N17  H17   SING  40
+4PC  O3P  3HOP  SING  41
+#

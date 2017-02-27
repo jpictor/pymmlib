@@ -1,0 +1,129 @@
+data_ANP
+#
+_chem_comp.id                   ANP
+_chem_comp.name                 'PHOSPHOAMINOPHOSPHONIC ACID-ADENYLATE ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N6 O12 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        506.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ANP  PG    .  P  0  ?  ?  ?  1  1 
+ANP  O1G   .  O  0  ?  ?  ?  1  2 
+ANP  O2G   .  O  0  ?  ?  ?  1  3 
+ANP  O3G   .  O  0  ?  ?  ?  1  4 
+ANP  PB    .  P  0  ?  ?  ?  1  5 
+ANP  O1B   .  O  0  ?  ?  ?  1  6 
+ANP  O2B   .  O  0  ?  ?  ?  1  7 
+ANP  N3B   .  N  0  ?  ?  ?  1  8 
+ANP  PA    .  P  0  ?  ?  ?  1  9 
+ANP  O1A   .  O  0  ?  ?  ?  1  10
+ANP  O2A   .  O  0  ?  ?  ?  1  11
+ANP  O3A   .  O  0  ?  ?  ?  1  12
+ANP  O5*   .  O  0  ?  ?  ?  1  13
+ANP  C5*   .  C  0  ?  ?  ?  1  14
+ANP  C4*   .  C  0  ?  ?  ?  1  15
+ANP  O4*   .  O  0  ?  ?  ?  1  16
+ANP  C3*   .  C  0  ?  ?  ?  1  17
+ANP  O3*   .  O  0  ?  ?  ?  1  18
+ANP  C2*   .  C  0  ?  ?  ?  1  19
+ANP  O2*   .  O  0  ?  ?  ?  1  20
+ANP  C1*   .  C  0  ?  ?  ?  1  21
+ANP  N9    .  N  0  ?  ?  ?  1  22
+ANP  C8    .  C  0  ?  ?  ?  1  23
+ANP  N7    .  N  0  ?  ?  ?  1  24
+ANP  C5    .  C  0  ?  ?  ?  1  25
+ANP  C6    .  C  0  ?  ?  ?  1  26
+ANP  N6    .  N  0  ?  ?  ?  1  27
+ANP  N1    .  N  0  ?  ?  ?  1  28
+ANP  C2    .  C  0  ?  ?  ?  1  29
+ANP  N3    .  N  0  ?  ?  ?  1  30
+ANP  C4    .  C  0  ?  ?  ?  1  31
+ANP  2HOG  .  H  0  ?  ?  ?  0  32
+ANP  3HOG  .  H  0  ?  ?  ?  0  33
+ANP  2HOB  .  H  0  ?  ?  ?  0  34
+ANP  2HOA  .  H  0  ?  ?  ?  0  35
+ANP  1HNB  .  H  0  ?  ?  ?  0  36
+ANP  1H5*  .  H  0  ?  ?  ?  0  37
+ANP  2H5*  .  H  0  ?  ?  ?  0  38
+ANP  H4*   .  H  0  ?  ?  ?  1  39
+ANP  H3*   .  H  0  ?  ?  ?  1  40
+ANP  *HO3  .  H  0  ?  ?  ?  0  41
+ANP  H2*   .  H  0  ?  ?  ?  1  42
+ANP  *HO2  .  H  0  ?  ?  ?  0  43
+ANP  H1*   .  H  0  ?  ?  ?  1  44
+ANP  H8    .  H  0  ?  ?  ?  1  45
+ANP  H2    .  H  0  ?  ?  ?  1  46
+ANP  1HN6  .  H  0  ?  ?  ?  0  47
+ANP  2HN6  .  H  0  ?  ?  ?  0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ANP  PG   N3B   SING  1 
+ANP  PG   O1G   DOUB  2 
+ANP  PG   O2G   SING  3 
+ANP  PG   O3G   SING  4 
+ANP  O2G  2HOG  SING  5 
+ANP  O3G  3HOG  SING  6 
+ANP  PB   O1B   DOUB  7 
+ANP  PB   O2B   SING  8 
+ANP  PB   N3B   SING  9 
+ANP  PB   O3A   SING  10
+ANP  O2B  2HOB  SING  11
+ANP  N3B  1HNB  SING  12
+ANP  PA   O1A   DOUB  13
+ANP  PA   O2A   SING  14
+ANP  PA   O3A   SING  15
+ANP  PA   O5*   SING  16
+ANP  O2A  2HOA  SING  17
+ANP  O5*  C5*   SING  18
+ANP  C5*  C4*   SING  19
+ANP  C5*  1H5*  SING  20
+ANP  C5*  2H5*  SING  21
+ANP  C4*  O4*   SING  22
+ANP  C4*  C3*   SING  23
+ANP  C4*  H4*   SING  24
+ANP  O4*  C1*   SING  25
+ANP  C3*  O3*   SING  26
+ANP  C3*  C2*   SING  27
+ANP  C3*  H3*   SING  28
+ANP  O3*  *HO3  SING  29
+ANP  C2*  O2*   SING  30
+ANP  C2*  C1*   SING  31
+ANP  C2*  H2*   SING  32
+ANP  O2*  *HO2  SING  33
+ANP  C1*  N9    SING  34
+ANP  C1*  H1*   SING  35
+ANP  N9   C8    SING  36
+ANP  N9   C4    SING  37
+ANP  C8   N7    DOUB  38
+ANP  C8   H8    SING  39
+ANP  N7   C5    SING  40
+ANP  C5   C6    SING  41
+ANP  C5   C4    DOUB  42
+ANP  C6   N6    SING  43
+ANP  C6   N1    DOUB  44
+ANP  N6   1HN6  SING  45
+ANP  N6   2HN6  SING  46
+ANP  N1   C2    SING  47
+ANP  C2   N3    DOUB  48
+ANP  C2   H2    SING  49
+ANP  N3   C4    SING  50
+#

@@ -1,0 +1,97 @@
+data_SNG
+#
+_chem_comp.id                   SNG
+_chem_comp.name                 'METHYL 2-ACETAMIDO-1,2-DIDEOXY-1-SELENO-BETA-D-GLUCOPYRANOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N1 O5 SE1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SNG  C1    .  C   0  37.456  46.945  13.792  1  1 
+SNG  C2    .  C   0  36.108  46.422  14.307  1  2 
+SNG  C3    .  C   0  36.116  44.876  14.32   1  3 
+SNG  C4    .  C   0  36.524  44.301  12.956  1  4 
+SNG  C5    .  C   0  37.862  44.927  12.525  1  5 
+SNG  C6    .  C   0  38.295  44.428  11.125  1  6 
+SNG  C7    .  C   0  34.88   47.684  16.055  1  7 
+SNG  C8    .  C   0  33.976  48.128  14.938  1  8 
+SNG  CM    .  C   0  36.06   49.049  12.562  1  9 
+SNG  N2    .  N   0  35.874  46.891  15.693  1  10
+SNG  O3    .  O   0  34.795  44.396  14.677  1  11
+SNG  O4    .  O   0  36.678  42.891  13.086  1  12
+SNG  O5    .  O   0  37.676  46.35   12.47   1  13
+SNG  O6    .  O   0  37.34   44.833  10.18   1  14
+SNG  O7    .  O   0  34.629  47.991  17.26   1  15
+SNG  SE    .  SE  0  37.467  48.801  13.667  0  16
+SNG  H1    .  H   0  38.256  46.667  14.494  1  17
+SNG  H2    .  H   0  35.315  46.796  13.642  1  18
+SNG  H3    .  H   0  36.857  44.541  15.061  1  19
+SNG  HA    .  H   0  36.507  46.589  16.398  1  20
+SNG  H4    .  H   0  35.756  44.526  12.201  1  21
+SNG  HB    .  H   0  34.792  43.406  14.678  1  22
+SNG  H5    .  H   0  38.644  44.643  13.245  1  23
+SNG  HC    .  H   0  35.786  42.463  13.125  1  24
+SNG  1H6C  .  H   0  39.274  44.857  10.867  0  25
+SNG  2H6C  .  H   0  38.372  43.331  11.129  0  26
+SNG  H6    .  H   0  36.924  44.035  9.768   1  27
+SNG  1H8C  .  H   0  33.563  47.246  14.427  0  28
+SNG  2H8C  .  H   0  33.154  48.732  15.35   0  29
+SNG  3H8C  .  H   0  34.55   48.731  14.22   0  30
+SNG  1HMC  .  H   0  35.662  48.072  12.249  0  31
+SNG  2HMC  .  H   0  35.276  49.613  13.088  0  32
+SNG  3HMC  .  H   0  36.386  49.613  11.675  0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SNG  C1  C2    SING  1 
+SNG  C1  O5    SING  2 
+SNG  C1  SE    SING  3 
+SNG  C1  H1    SING  4 
+SNG  C2  C3    SING  5 
+SNG  C2  N2    SING  6 
+SNG  C2  H2    SING  7 
+SNG  C3  C4    SING  8 
+SNG  C3  O3    SING  9 
+SNG  C3  H3    SING  10
+SNG  C4  C5    SING  11
+SNG  C4  O4    SING  12
+SNG  C4  H4    SING  13
+SNG  C5  C6    SING  14
+SNG  C5  O5    SING  15
+SNG  C5  H5    SING  16
+SNG  C6  O6    SING  17
+SNG  C6  1H6C  SING  18
+SNG  C6  2H6C  SING  19
+SNG  C7  C8    SING  20
+SNG  C7  N2    SING  21
+SNG  C7  O7    DOUB  22
+SNG  C8  1H8C  SING  23
+SNG  C8  2H8C  SING  24
+SNG  C8  3H8C  SING  25
+SNG  CM  SE    SING  26
+SNG  CM  1HMC  SING  27
+SNG  CM  2HMC  SING  28
+SNG  CM  3HMC  SING  29
+SNG  N2  HA    SING  30
+SNG  O3  HB    SING  31
+SNG  O4  HC    SING  32
+SNG  O6  H6    SING  33
+#

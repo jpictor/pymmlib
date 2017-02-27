@@ -1,0 +1,121 @@
+data_ABO
+#
+_chem_comp.id                   ABO
+_chem_comp.name                 4-[3-(1H-BENZIMIDAZOL-2-YL)-1H-INDAZOL-6-YL]-2-METHOXYPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H16 N4 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        356.383
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABO  C18   .  C  0  11.231  -.125   15.182  1  1 
+ABO  O17   .  O  0  11.893  -1.476  15.052  1  2 
+ABO  C12   .  C  0  11.187  -2.61   15.46   1  3 
+ABO  C11   .  C  0  9.957   -2.538  16.146  1  4 
+ABO  C13   .  C  0  11.724  -3.868  15.177  1  5 
+ABO  O16   .  O  0  12.917  -3.953  14.524  1  6 
+ABO  C14   .  C  0  11.067  -5.041  15.566  1  7 
+ABO  C15   .  C  0  9.832   -4.962  16.247  1  8 
+ABO  C10   .  C  0  9.267   -3.709  16.536  1  9 
+ABO  C8    .  C  0  8.042   -3.607  17.198  1  10
+ABO  C9    .  C  0  7.834   -2.515  18.084  1  11
+ABO  C7    .  C  0  7.032   -4.555  16.974  1  12
+ABO  C6    .  C  0  5.809   -4.426  17.651  1  13
+ABO  C5    .  C  0  5.594   -3.358  18.535  1  14
+ABO  C4    .  C  0  6.609   -2.411  18.752  1  15
+ABO  N3    .  N  0  6.123   -1.509  19.646  1  16
+ABO  N1    .  N  0  4.944   -1.758  19.997  1  17
+ABO  C2    .  C  0  4.547   -2.917  19.395  1  18
+ABO  C19   .  C  0  3.27    -3.468  19.511  1  19
+ABO  N21   .  N  0  2.807   -4.648  19.008  1  20
+ABO  C22   .  C  0  1.483   -4.711  19.333  1  21
+ABO  C27   .  C  0  .521    -5.675  19.101  1  22
+ABO  C26   .  C  0  -.823   -5.519  19.517  1  23
+ABO  C25   .  C  0  -1.188  -4.338  20.221  1  24
+ABO  C24   .  C  0  -.184   -3.342  20.474  1  25
+ABO  C23   .  C  0  1.125   -3.539  20.015  1  26
+ABO  N20   .  N  0  2.235   -2.787  20.117  1  27
+ABO  1H18  .  H  0  11.795  .78     14.856  0  28
+ABO  2H18  .  H  0  10.901  .015    16.238  0  29
+ABO  3H18  .  H  0  10.251  -.15    14.651  0  30
+ABO  H11   .  H  0  9.526   -1.551  16.382  1  31
+ABO  H16   .  H  0  13.282  -4.809  14.332  1  32
+ABO  H14   .  H  0  11.512  -6.025  15.341  1  33
+ABO  H15   .  H  0  9.311   -5.885  16.552  1  34
+ABO  H9    .  H  0  8.625   -1.763  18.242  1  35
+ABO  H7    .  H  0  7.197   -5.392  16.274  1  36
+ABO  H6    .  H  0  5.011   -5.17   17.487  1  37
+ABO  H3    .  H  0  6.66    -.715   19.994  1  38
+ABO  H21   .  H  0  3.344   -5.345  18.492  1  39
+ABO  H27   .  H  0  .811    -6.599  18.573  1  40
+ABO  H26   .  H  0  -1.573  -6.298  19.299  1  41
+ABO  H25   .  H  0  -2.225  -4.189  20.567  1  42
+ABO  H24   .  H  0  -.443   -2.424  21.028  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABO  C18  O17   SING  1 
+ABO  C18  1H18  SING  2 
+ABO  C18  2H18  SING  3 
+ABO  C18  3H18  SING  4 
+ABO  O17  C12   SING  5 
+ABO  C12  C11   AROM  6 
+ABO  C12  C13   AROM  7 
+ABO  C11  C10   AROM  8 
+ABO  C11  H11   SING  9 
+ABO  C13  O16   SING  10
+ABO  C13  C14   AROM  11
+ABO  O16  H16   SING  12
+ABO  C14  H14   SING  13
+ABO  C14  C15   AROM  14
+ABO  C15  H15   SING  15
+ABO  C15  C10   AROM  16
+ABO  C10  C8    SING  17
+ABO  C8   C9    AROM  18
+ABO  C8   C7    AROM  19
+ABO  C9   H9    SING  20
+ABO  C9   C4    AROM  21
+ABO  C7   H7    SING  22
+ABO  C7   C6    AROM  23
+ABO  C6   H6    SING  24
+ABO  C6   C5    AROM  25
+ABO  C5   C4    AROM  26
+ABO  C5   C2    SING  27
+ABO  C4   N3    SING  28
+ABO  N3   H3    SING  29
+ABO  N3   N1    SING  30
+ABO  N1   C2    DOUB  31
+ABO  C2   C19   SING  32
+ABO  C19  N21   SING  33
+ABO  C19  N20   DOUB  34
+ABO  N21  H21   SING  35
+ABO  N21  C22   SING  36
+ABO  C22  C27   AROM  37
+ABO  C22  C23   AROM  38
+ABO  C27  H27   SING  39
+ABO  C27  C26   AROM  40
+ABO  C26  H26   SING  41
+ABO  C26  C25   AROM  42
+ABO  C25  H25   SING  43
+ABO  C25  C24   AROM  44
+ABO  C24  H24   SING  45
+ABO  C24  C23   AROM  46
+ABO  C23  N20   SING  47
+#

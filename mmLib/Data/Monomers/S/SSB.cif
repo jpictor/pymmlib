@@ -1,0 +1,83 @@
+data_SSB
+#
+_chem_comp.id                   SSB
+_chem_comp.name                 '3-BUTYLTHIOLANE 1-OXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H16 O1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SSB  S1    .  S  0  ?  ?  ?  1  1 
+SSB  C2    .  C  0  ?  ?  ?  1  2 
+SSB  C3    .  C  0  ?  ?  ?  1  3 
+SSB  C4    .  C  0  ?  ?  ?  1  4 
+SSB  C5    .  C  0  ?  ?  ?  1  5 
+SSB  O6    .  O  0  ?  ?  ?  1  6 
+SSB  C7    .  C  0  ?  ?  ?  1  7 
+SSB  C8    .  C  0  ?  ?  ?  1  8 
+SSB  C9    .  C  0  ?  ?  ?  1  9 
+SSB  C10   .  C  0  ?  ?  ?  1  10
+SSB  1H2   .  H  0  ?  ?  ?  0  11
+SSB  2H2   .  H  0  ?  ?  ?  0  12
+SSB  H3    .  H  0  ?  ?  ?  1  13
+SSB  1H4   .  H  0  ?  ?  ?  0  14
+SSB  2H4   .  H  0  ?  ?  ?  0  15
+SSB  1H5   .  H  0  ?  ?  ?  0  16
+SSB  2H5   .  H  0  ?  ?  ?  0  17
+SSB  1H7   .  H  0  ?  ?  ?  0  18
+SSB  2H7   .  H  0  ?  ?  ?  0  19
+SSB  1H8   .  H  0  ?  ?  ?  0  20
+SSB  2H8   .  H  0  ?  ?  ?  0  21
+SSB  1H9   .  H  0  ?  ?  ?  0  22
+SSB  2H9   .  H  0  ?  ?  ?  0  23
+SSB  1H10  .  H  0  ?  ?  ?  0  24
+SSB  2H10  .  H  0  ?  ?  ?  0  25
+SSB  3H10  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SSB  S1   C2    SING  1 
+SSB  S1   C5    SING  2 
+SSB  S1   O6    DOUB  3 
+SSB  C2   C3    SING  4 
+SSB  C2   1H2   SING  5 
+SSB  C2   2H2   SING  6 
+SSB  C3   C4    SING  7 
+SSB  C3   C7    SING  8 
+SSB  C3   H3    SING  9 
+SSB  C4   C5    SING  10
+SSB  C4   1H4   SING  11
+SSB  C4   2H4   SING  12
+SSB  C5   1H5   SING  13
+SSB  C5   2H5   SING  14
+SSB  C7   C8    SING  15
+SSB  C7   1H7   SING  16
+SSB  C7   2H7   SING  17
+SSB  C8   C9    SING  18
+SSB  C8   1H8   SING  19
+SSB  C8   2H8   SING  20
+SSB  C9   C10   SING  21
+SSB  C9   1H9   SING  22
+SSB  C9   2H9   SING  23
+SSB  C10  1H10  SING  24
+SSB  C10  2H10  SING  25
+SSB  C10  3H10  SING  26
+#

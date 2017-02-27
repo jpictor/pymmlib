@@ -1,0 +1,99 @@
+data_FA2
+#
+_chem_comp.id                   FA2
+_chem_comp.name                 '5-(6-AMINO-9H-PURIN-9-YL)-4-HYDROXYTETRAHYDROFURAN-3-YL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C9 H12 N5 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        317.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FA2  P     .  P  0  10.157  31.459  8.180   1  1 
+FA2  O1P   .  O  0  10.671  32.783  7.760   1  2 
+FA2  O2P   .  O  0  11.038  30.289  8.180   1  3 
+FA2  O3*   .  O  0  9.485   31.553  9.567   1  4 
+FA2  N9    .  N  0  6.920   30.647  11.823  1  5 
+FA2  C4    .  C  0  5.970   30.147  12.687  1  6 
+FA2  N3    .  N  0  4.973   30.842  13.324  1  7 
+FA2  C2    .  C  0  4.266   30.048  14.075  1  8 
+FA2  N1    .  N  0  4.370   28.727  14.288  1  9 
+FA2  C6    .  C  0  5.362   28.083  13.646  1  10
+FA2  N6    .  N  0  5.463   26.772  13.855  1  11
+FA2  C5    .  C  0  6.209   28.799  12.804  1  12
+FA2  N7    .  N  0  7.294   28.443  12.015  1  13
+FA2  C8    .  C  0  7.680   29.587  11.451  1  14
+FA2  C2*   .  C  0  8.583   32.466  11.559  1  15
+FA2  C4*   .  C  0  7.651   33.185  9.510   1  16
+FA2  O4*   .  O  0  6.687   32.326  10.126  1  17
+FA2  C1*   .  C  0  7.096   32.025  11.377  1  18
+FA2  C3*   .  C  0  8.963   32.786  10.117  1  19
+FA2  O2*   .  O  0  8.665   33.629  12.360  1  20
+FA2  O3P   .  O  0  ?       ?       ?       1  21
+FA2  2HO*  .  H  0  ?       ?       ?       0  22
+FA2  H2*   .  H  0  9.132   31.740  11.923  1  23
+FA2  H1*   .  H  0  6.565   32.583  11.984  1  24
+FA2  1H4*  .  H  0  7.453   34.116  9.699   0  25
+FA2  2H4*  .  H  0  7.663   33.056  8.549   0  26
+FA2  H3*   .  H  0  9.620   33.512  10.068  1  27
+FA2  3HOP  .  H  0  ?       ?       ?       0  28
+FA2  2HOP  .  H  0  ?       ?       ?       0  29
+FA2  H8    .  H  0  8.397   29.652  10.863  1  30
+FA2  H2    .  H  0  3.577   30.464  14.540  1  31
+FA2  H6A   .  H  0  4.909   26.376  14.380  1  32
+FA2  H6B   .  H  0  6.083   26.321  13.465  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FA2  P    O3*   SING  1 
+FA2  P    O1P   DOUB  2 
+FA2  P    O3P   SING  3 
+FA2  P    O2P   SING  4 
+FA2  O2P  2HOP  SING  5 
+FA2  O3*  C3*   SING  6 
+FA2  N9   C1*   SING  7 
+FA2  N9   C8    SING  8 
+FA2  N9   C4    SING  9 
+FA2  C4   C5    DOUB  10
+FA2  C4   N3    SING  11
+FA2  N3   C2    DOUB  12
+FA2  C2   H2    SING  13
+FA2  C2   N1    SING  14
+FA2  N1   C6    DOUB  15
+FA2  C6   C5    SING  16
+FA2  C6   N6    SING  17
+FA2  N6   H6A   SING  18
+FA2  N6   H6B   SING  19
+FA2  C5   N7    SING  20
+FA2  N7   C8    DOUB  21
+FA2  C8   H8    SING  22
+FA2  C2*  O2*   SING  23
+FA2  C2*  H2*   SING  24
+FA2  C2*  C1*   SING  25
+FA2  C2*  C3*   SING  26
+FA2  C4*  O4*   SING  27
+FA2  C4*  1H4*  SING  28
+FA2  C4*  2H4*  SING  29
+FA2  C4*  C3*   SING  30
+FA2  O4*  C1*   SING  31
+FA2  C1*  H1*   SING  32
+FA2  C3*  H3*   SING  33
+FA2  O2*  2HO*  SING  34
+FA2  O3P  3HOP  SING  35
+#

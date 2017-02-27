@@ -1,0 +1,96 @@
+data_K1R
+#
+_chem_comp.id                       K1R
+_chem_comp.name                     '(2S)-2-AMINO-4-[({[(2R)-2-AMINO-2-CARBOXYETHYL]THIO}AMINO)SULFINYL]BUTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N3 O5 S2'
+_chem_comp.pdbx_synonyms            N-THIOSULFOXIMIDE
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            285.333
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+K1R  N1    .  N  0  2.988  11.212  7.147  1  1 
+K1R  CA1   .  C  0  3.714  10.104  7.833  1  2 
+K1R  C1    .  C  0  5.085  10.615  8.277  1  3 
+K1R  O11   .  O  0  5.589  10.032  9.241  1  4 
+K1R  O12   .  O  0  5.585  11.54   7.647  1  5 
+K1R  CB1   .  C  0  3.896  8.927   6.861  1  6 
+K1R  CG1   .  C  0  4.105  7.75    7.884  1  7 
+K1R  OE1   .  O  0  5.663  6.194   6.37   1  8 
+K1R  N2    .  N  0  1.836  1.086   7.921  1  9 
+K1R  CA2   .  C  0  1.887  2.181   8.864  1  10
+K1R  C2    .  C  0  .684   2.344   9.747  1  11
+K1R  SAG   .  S  0  4.349  6.138   7.09   1  12
+K1R  NAF   .  N  0  4.432  5.068   8.317  1  13
+K1R  O2    .  O  0  .78    3       10.79  1  14
+K1R  O21   .  O  0  ?      ?       ?      1  15
+K1R  CB2   .  C  0  2.264  3.483   8.144  1  16
+K1R  SG2   .  S  0  4.065  3.53    7.966  1  17
+K1R  H11   .  H  0  ?      ?       ?      1  18
+K1R  HA1   .  H  0  3.132  9.769   8.723  1  19
+K1R  1H1N  .  H  0  3.387  12.081  6.791  0  20
+K1R  2H1N  .  H  0  2.329  11.868  7.566  0  21
+K1R  1HB1  .  H  0  4.696  9.051   6.095  0  22
+K1R  2HB1  .  H  0  3.079  8.783   6.116  0  23
+K1R  1HG1  .  H  0  3.263  7.707   8.614  0  24
+K1R  2HG1  .  H  0  4.944  7.978   8.582  0  25
+K1R  HA2   .  H  0  2.738  1.954   9.548  1  26
+K1R  1H2N  .  H  0  1.22   .419    8.386  0  27
+K1R  2H2N  .  H  0  2.773  .689    7.989  0  28
+K1R  HA    .  H  0  4.701  5.353   9.259  1  29
+K1R  1HB2  .  H  0  1.859  4.389   8.653  0  30
+K1R  2HB2  .  H  0  1.733  3.606   7.172  0  31
+K1R  HO'   .  H  0  ?      ?       ?      1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+K1R  N1   CA1   SING  1 
+K1R  N1   1H1N  SING  2 
+K1R  N1   2H1N  SING  3 
+K1R  CA1  C1    SING  4 
+K1R  CA1  CB1   SING  5 
+K1R  CA1  HA1   SING  6 
+K1R  C1   O11   SING  7 
+K1R  C1   O12   DOUB  8 
+K1R  O11  H11   SING  9 
+K1R  CB1  CG1   SING  10
+K1R  CB1  1HB1  SING  11
+K1R  CB1  2HB1  SING  12
+K1R  CG1  SAG   SING  13
+K1R  CG1  1HG1  SING  14
+K1R  CG1  2HG1  SING  15
+K1R  OE1  SAG   DOUB  16
+K1R  N2   CA2   SING  17
+K1R  N2   1H2N  SING  18
+K1R  N2   2H2N  SING  19
+K1R  CA2  C2    SING  20
+K1R  CA2  CB2   SING  21
+K1R  CA2  HA2   SING  22
+K1R  C2   O2    DOUB  23
+K1R  C2   O21   SING  24
+K1R  SAG  NAF   SING  25
+K1R  NAF  SG2   SING  26
+K1R  NAF  HA    SING  27
+K1R  O21  HO'   SING  28
+K1R  CB2  SG2   SING  29
+K1R  CB2  1HB2  SING  30
+K1R  CB2  2HB2  SING  31
+#

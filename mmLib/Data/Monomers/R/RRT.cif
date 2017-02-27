@@ -1,0 +1,96 @@
+data_RRT
+#
+_chem_comp.id                   RRT
+_chem_comp.name                 (R)-RETRO-THIORPHAN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N1 O3 S1'
+_chem_comp.pdbx_synonyms        '3-{[(1R)-1-BENZYL-2-SULFANYLETHYL]AMINO}-3-OXOPROPANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.315
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RRT  SG    .  S  0  35.965  42.687  -6.751  1  1 
+RRT  CB2   .  C  0  35.154  42.344  -5.199  1  2 
+RRT  CA1   .  C  0  36.233  42.366  -4.128  1  3 
+RRT  CB1   .  C  0  35.551  42.663  -2.807  1  4 
+RRT  CG    .  C  0  36.511  42.877  -1.682  1  5 
+RRT  CD1   .  C  0  37.278  44.046  -1.700  1  6 
+RRT  CD2   .  C  0  36.602  41.987  -0.612  1  7 
+RRT  CE1   .  C  0  38.167  44.367  -0.683  1  8 
+RRT  CE2   .  C  0  37.524  42.267  0.396   1  9 
+RRT  CZ    .  C  0  38.279  43.444  0.357   1  10
+RRT  C1    .  C  0  38.227  40.969  -3.658  1  11
+RRT  O1    .  O  0  39.017  41.941  -3.671  1  12
+RRT  N     .  N  0  36.928  41.107  -3.911  1  13
+RRT  CA2   .  C  0  38.718  39.492  -3.420  1  14
+RRT  C2    .  C  0  38.684  38.603  -4.689  1  15
+RRT  O2    .  O  0  37.645  38.536  -5.473  1  16
+RRT  O3    .  O  0  39.728  37.951  -4.920  1  17
+RRT  HO2   .  H  0  ?       ?       ?       1  18
+RRT  1HA2  .  H  0  ?       ?       ?       0  19
+RRT  2HA2  .  H  0  ?       ?       ?       0  20
+RRT  H     .  H  0  ?       ?       ?       1  21
+RRT  HA1   .  H  0  ?       ?       ?       1  22
+RRT  1HB2  .  H  0  ?       ?       ?       0  23
+RRT  2HB2  .  H  0  ?       ?       ?       0  24
+RRT  1HB1  .  H  0  ?       ?       ?       0  25
+RRT  2HB1  .  H  0  ?       ?       ?       0  26
+RRT  HD1   .  H  0  ?       ?       ?       1  27
+RRT  HD2   .  H  0  ?       ?       ?       1  28
+RRT  HE1   .  H  0  ?       ?       ?       1  29
+RRT  HE2   .  H  0  ?       ?       ?       1  30
+RRT  HZ    .  H  0  ?       ?       ?       1  31
+RRT  HSG   .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RRT  SG   CB2   SING  1 
+RRT  SG   HSG   SING  2 
+RRT  CB2  CA1   SING  3 
+RRT  CB2  1HB2  SING  4 
+RRT  CB2  2HB2  SING  5 
+RRT  CA1  CB1   SING  6 
+RRT  CA1  N     SING  7 
+RRT  CA1  HA1   SING  8 
+RRT  CB1  CG    SING  9 
+RRT  CB1  1HB1  SING  10
+RRT  CB1  2HB1  SING  11
+RRT  CG   CD1   AROM  12
+RRT  CG   CD2   AROM  13
+RRT  CD1  CE1   AROM  14
+RRT  CD1  HD1   SING  15
+RRT  CD2  CE2   AROM  16
+RRT  CD2  HD2   SING  17
+RRT  CE1  CZ    AROM  18
+RRT  CE1  HE1   SING  19
+RRT  CE2  CZ    AROM  20
+RRT  CE2  HE2   SING  21
+RRT  CZ   HZ    SING  22
+RRT  C1   O1    DOUB  23
+RRT  C1   N     SING  24
+RRT  C1   CA2   SING  25
+RRT  N    H     SING  26
+RRT  CA2  C2    SING  27
+RRT  CA2  1HA2  SING  28
+RRT  CA2  2HA2  SING  29
+RRT  C2   O2    SING  30
+RRT  C2   O3    DOUB  31
+RRT  O2   HO2   SING  32
+#

@@ -1,0 +1,136 @@
+data_G2S
+#
+_chem_comp.id                       G2S
+_chem_comp.name                     GUANOSINE-5'-DITHIOPHOSPHORATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O5 P1 S2'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      N
+_chem_comp.pdbx_ambiguous_flag      n
+_chem_comp.mon_nstd_flag            379.345
+_chem_comp.formula_weight           ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+G2S  INCHI             InChI=1/C10H14N5O6PS2/c11-10-13-7-4(8(18)14-10)12-2-15(7)9-6(17)5(16)3(21-9)1-20-22(19,23)24/h2-3,5-6,9,16-17H,1H2,(H2,19,23,24)(H3,11,13,14,18)/t3-,5-,6-,9-/m1/s1  'InChi'               1    
+G2S  SMILES_CANONICAL  C1[C@@H]([C@@H](CO[P@@](=S)(O)S)O[C@H]1N/2\C=N/C/3=C2/N=C(/N)\NC3=O)O                                                                                                'OpenEye OEToolkits'  1.4.2
+G2S  SMILES            C1C(C(COP(=S)(O)S)OC1N2C=NC3=C2N=C(N)NC3=O)O                                                                                                                         'OpenEye OEToolkits'  1.4.2
+G2S  SMILES_CANONICAL  NC1=Nc2n(cnc2C(=O)N1)[C@H]3C[C@H](O)[C@@H](CO[P@@](O)(S)=S)O3                                                                                                        'CACTVS'              3.341
+G2S  SMILES            NC1=Nc2n(cnc2C(=O)N1)[CH]3C[CH](O)[CH](CO[P](O)(S)=S)O3                                                                                                              'CACTVS'              3.341
+G2S  InChI             1/C10H14N5O5PS2/c11-10-13-8-7(9(17)14-10)12-3-15(8)6-1-4(16)5(20-6)2-19-21(18,22)23/h3-6,16H,1-2H2,(H2,18,22,23)(H3,11,13,14,17)/t4-,5+,6+/m0/s1                     'InChI'               1.01 
+#
+_pdbx_chem_comp_identifier.comp_id          G2S
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       2-amino-9-[(2R,4S,5R)-4-hydroxy-5-[(hydroxy-sulfanyl-phosphinothioyl)oxymethyl]oxolan-2-yl]-1H-purin-6-one
+_pdbx_chem_comp_identifier.program          'OpenEye OEToolkits'
+_pdbx_chem_comp_identifier.program_version  1.4.2
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_ordinal
+G2S  O3P   OP3   O  0  ?       ?       ?       1  N  N  Y  3.014  -0.880  -5.784  1 
+G2S  P     P     P  0  13.130  -3.849  9.941   1  N  S  N  1.629  -1.234  -4.994  2 
+G2S  S1P   S1P   S  0  13.157  -3.618  11.906  1  N  N  N  0.283  0.150   -5.308  3 
+G2S  S2P   S2P   S  0  12.076  -5.467  9.518   1  N  N  N  1.183  -3.239  -5.514  4 
+G2S  O5*   O5'   O  0  12.503  -2.550  9.227   1  N  N  N  2.211  -1.232  -3.468  5 
+G2S  C5*   C5'   C  0  12.956  -1.253  9.578   1  N  N  N  1.348  -1.500  -2.377  6 
+G2S  C4*   C4'   C  0  12.459  -0.179  8.607   1  N  R  N  2.156  -1.432  -1.088  7 
+G2S  O4*   O4'   O  0  13.025  -0.376  7.320   1  N  N  N  2.678  -0.093  -0.958  8 
+G2S  C3*   C3'   C  0  10.933  -0.112  8.437   1  N  R  N  1.309  -1.697  0.152   9 
+G2S  O3*   O3'   O  0  10.530  1.215   8.746   1  N  N  N  2.127  -2.250  1.180   10
+G2S  C2*   C2'   C  0  10.756  -0.457  6.957   1  N  R  N  0.878  -0.312  0.578   11
+G2S  C1*   C1'   C  0  12.065  0.072   6.387   1  N  R  N  2.101  0.516   0.211   12
+G2S  N9    N9    N  0  12.363  -0.427  5.029   1  Y  N  N  1.818  1.923   -0.049  13
+G2S  C8    C8    C  0  12.493  -1.720  4.589   1  Y  N  N  1.431  2.463   -1.253  14
+G2S  N7    N7    N  0  12.796  -1.828  3.324   1  Y  N  N  1.247  3.767   -1.185  15
+G2S  C5    C5    C  0  12.840  -0.501  2.880   1  Y  N  N  1.528  4.070   0.114   16
+G2S  C6    C6    C  0  13.116  0.068   1.588   1  Y  N  N  1.494  5.351   0.765   17
+G2S  O6    O6    O  0  13.415  -0.486  0.532   1  N  N  N  1.191  6.394   0.200   18
+G2S  N1    N1    N  0  13.028  1.448   1.571   1  Y  N  N  1.853  5.233   2.115   19
+G2S  C2    C2    C  0  12.753  2.211   2.664   1  Y  N  N  2.203  4.026   2.765   20
+G2S  N2    N2    N  0  12.702  3.509   2.497   1  N  N  N  2.519  4.145   4.093   21
+G2S  N3    N3    N  0  12.528  1.725   3.883   1  Y  N  N  2.225  2.866   2.144   22
+G2S  C4    C4    C  0  12.575  0.360   3.924   1  Y  N  N  1.882  2.959   0.840   23
+G2S  3HOP  HOP3  H  0  -0.013  -0.111  -0.943  0  N  N  N  3.697  -1.579  -5.863  24
+G2S  2HOP  HOP2  H  0  12.871  -6.491  9.425   0  N  N  N  0.932  -3.037  -6.816  25
+G2S  1H5*  H5'   H  0  14.055  -1.258  9.541   0  N  N  N  0.551  -0.756  -2.359  26
+G2S  2H5*  H5''  H  0  12.583  -1.013  10.585  0  N  N  N  0.917  -2.495  -2.497  27
+G2S  H4*   H4'   H  0  12.780  0.769   9.063   1  N  N  N  3.008  -2.117  -1.157  28
+G2S  H3*   H3'   H  0  10.338  -0.779  9.078   1  N  N  N  0.475  -2.383  -0.018  29
+G2S  H3T   HO3'  H  0  9.583   1.251   8.815   1  N  N  Y  2.928  -1.706  1.218   30
+G2S  1H2*  1H2*  H  0  10.516  -1.527  6.869   0  N  N  N  0.008  0.008   -0.009  31
+G2S  H1*   H1'   H  0  12.041  1.164   6.261   1  N  N  N  2.853  0.503   1.007   32
+G2S  H8    H8    H  0  12.356  -2.575  5.234   1  N  N  N  1.302  1.855   -2.139  33
+G2S  H1    H1    H  0  13.176  1.915   0.699   1  N  N  N  1.862  6.083   2.672   34
+G2S  1H2   H21   H  0  12.850  3.981   1.628   0  N  N  N  1.954  4.733   4.661   35
+G2S  2H2   H22   H  0  12.494  3.959   3.366   0  N  N  N  3.302  3.639   4.438   36
+G2S  2H2*  2H2*  H  0  9.921   -0.017  6.392   0  N  N  N  0.635  -0.225  1.641   37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+G2S  O3P  P     SING  N  N  1 
+G2S  O3P  3HOP  SING  N  N  2 
+G2S  P    S1P   DOUB  N  N  3 
+G2S  P    S2P   SING  N  N  4 
+G2S  P    O5*   SING  N  N  5 
+G2S  S2P  2HOP  SING  N  N  6 
+G2S  O5*  C5*   SING  N  N  7 
+G2S  C5*  C4*   SING  N  N  8 
+G2S  C5*  1H5*  SING  N  N  9 
+G2S  C5*  2H5*  SING  N  N  10
+G2S  C4*  O4*   SING  N  N  11
+G2S  C4*  C3*   SING  N  N  12
+G2S  C4*  H4*   SING  N  N  13
+G2S  O4*  C1*   SING  N  N  14
+G2S  C3*  O3*   SING  N  N  15
+G2S  C3*  C2*   SING  N  N  16
+G2S  C3*  H3*   SING  N  N  17
+G2S  O3*  H3T   SING  N  N  18
+G2S  C2*  C1*   SING  N  N  19
+G2S  C2*  1H2*  SING  N  N  20
+G2S  C2*  2H2*  SING  N  N  21
+G2S  C1*  N9    SING  N  N  22
+G2S  C1*  H1*   SING  N  N  23
+G2S  N9   C8    SING  Y  N  24
+G2S  N9   C4    SING  Y  N  25
+G2S  C8   N7    DOUB  Y  N  26
+G2S  C8   H8    SING  N  N  27
+G2S  N7   C5    SING  Y  N  28
+G2S  C5   C6    SING  Y  N  29
+G2S  C5   C4    DOUB  Y  N  30
+G2S  C6   O6    DOUB  N  N  31
+G2S  C6   N1    SING  Y  N  32
+G2S  N1   C2    SING  Y  N  33
+G2S  N1   H1    SING  N  N  34
+G2S  C2   N2    SING  N  N  35
+G2S  C2   N3    DOUB  Y  N  36
+G2S  N2   1H2   SING  N  N  37
+G2S  N2   2H2   SING  N  N  38
+G2S  N3   C4    SING  Y  N  39
+#

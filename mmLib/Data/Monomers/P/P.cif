@@ -1,0 +1,122 @@
+data_P
+#
+_chem_comp.id                   P
+_chem_comp.name                 '2'-DEOXY-N1,N2-PROPANO GUANOSINE MONOPHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H18 N5 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        387.288
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P  P     .  P  0  ?  ?  ?  1  1 
+P  O1P   .  O  0  ?  ?  ?  1  2 
+P  O2P   .  O  0  ?  ?  ?  1  3 
+P  O3P   .  O  0  ?  ?  ?  1  4 
+P  O5*   .  O  0  ?  ?  ?  1  5 
+P  C5*   .  C  0  ?  ?  ?  1  6 
+P  C4*   .  C  0  ?  ?  ?  1  7 
+P  O4*   .  O  0  ?  ?  ?  1  8 
+P  C3*   .  C  0  ?  ?  ?  1  9 
+P  O3*   .  O  0  ?  ?  ?  1  10
+P  C2*   .  C  0  ?  ?  ?  1  11
+P  C1*   .  C  0  ?  ?  ?  1  12
+P  N9    .  N  0  ?  ?  ?  1  13
+P  C8    .  C  0  ?  ?  ?  1  14
+P  N7    .  N  0  ?  ?  ?  1  15
+P  C5    .  C  0  ?  ?  ?  1  16
+P  C6    .  C  0  ?  ?  ?  1  17
+P  O6    .  O  0  ?  ?  ?  1  18
+P  N1    .  N  0  ?  ?  ?  1  19
+P  C2    .  C  0  ?  ?  ?  1  20
+P  N2    .  N  0  ?  ?  ?  1  21
+P  N3    .  N  0  ?  ?  ?  1  22
+P  C4    .  C  0  ?  ?  ?  1  23
+P  C6A   .  C  0  ?  ?  ?  1  24
+P  C7A   .  C  0  ?  ?  ?  1  25
+P  C8A   .  C  0  ?  ?  ?  1  26
+P  3HOP  .  H  0  ?  ?  ?  0  27
+P  2HOP  .  H  0  ?  ?  ?  0  28
+P  H1*   .  H  0  ?  ?  ?  1  29
+P  1H2*  .  H  0  ?  ?  ?  0  30
+P  2H2*  .  H  0  ?  ?  ?  0  31
+P  H3*   .  H  0  ?  ?  ?  1  32
+P  H4*   .  H  0  ?  ?  ?  1  33
+P  *HO3  .  H  0  ?  ?  ?  0  34
+P  1H5*  .  H  0  ?  ?  ?  0  35
+P  2H5*  .  H  0  ?  ?  ?  0  36
+P  H8    .  H  0  ?  ?  ?  1  37
+P  H2    .  H  0  ?  ?  ?  1  38
+P  1H6A  .  H  0  ?  ?  ?  0  39
+P  2H6A  .  H  0  ?  ?  ?  0  40
+P  1H7A  .  H  0  ?  ?  ?  0  41
+P  2H7A  .  H  0  ?  ?  ?  0  42
+P  1H8A  .  H  0  ?  ?  ?  0  43
+P  2H8A  .  H  0  ?  ?  ?  0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P  P    O1P   DOUB  1 
+P  P    O2P   SING  2 
+P  P    O3P   SING  3 
+P  P    O5*   SING  4 
+P  O2P  2HOP  SING  5 
+P  O3P  3HOP  SING  6 
+P  O5*  C5*   SING  7 
+P  C5*  C4*   SING  8 
+P  C5*  1H5*  SING  9 
+P  C5*  2H5*  SING  10
+P  C4*  O4*   SING  11
+P  C4*  C3*   SING  12
+P  C4*  H4*   SING  13
+P  O4*  C1*   SING  14
+P  C3*  O3*   SING  15
+P  C3*  C2*   SING  16
+P  C3*  H3*   SING  17
+P  O3*  *HO3  SING  18
+P  C2*  C1*   SING  19
+P  C2*  1H2*  SING  20
+P  C2*  2H2*  SING  21
+P  C1*  N9    SING  22
+P  C1*  H1*   SING  23
+P  N9   C8    SING  24
+P  N9   C4    SING  25
+P  C8   N7    DOUB  26
+P  C8   H8    SING  27
+P  N7   C5    SING  28
+P  C5   C6    SING  29
+P  C5   C4    DOUB  30
+P  C6   O6    DOUB  31
+P  C6   N1    SING  32
+P  N1   C2    SING  33
+P  N1   C8A   SING  34
+P  C2   N2    SING  35
+P  C2   N3    DOUB  36
+P  N2   C6A   SING  37
+P  N2   H2    SING  38
+P  N3   C4    SING  39
+P  C6A  C7A   SING  40
+P  C6A  1H6A  SING  41
+P  C6A  2H6A  SING  42
+P  C7A  C8A   SING  43
+P  C7A  1H7A  SING  44
+P  C7A  2H7A  SING  45
+P  C8A  1H8A  SING  46
+P  C8A  2H8A  SING  47
+#

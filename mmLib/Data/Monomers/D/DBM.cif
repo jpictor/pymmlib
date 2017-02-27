@@ -1,0 +1,105 @@
+data_DBM
+#
+_chem_comp.id                   DBM
+_chem_comp.name                 9-(6-DEOXY-BETA-D-ALLOFURANOSYL)-6-METHYLPURINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C12 H16 N4 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.283
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DBM  O5'   .  O  0  92.614  69.863  19.282  1  1 
+DBM  C5'   .  C  0  91.699  68.974  18.680  1  2 
+DBM  C6'   .  C  0  90.568  69.769  18.022  1  3 
+DBM  C4'   .  C  0  91.252  67.883  19.683  1  4 
+DBM  O4'   .  O  0  89.808  67.919  19.962  1  5 
+DBM  C1'   .  C  0  89.266  66.608  19.919  1  6 
+DBM  N9    .  N  0  88.310  66.484  18.781  1  7 
+DBM  C8    .  C  0  87.932  67.470  17.890  1  8 
+DBM  N7    .  N  0  87.069  67.069  16.992  1  9 
+DBM  C5    .  C  0  86.864  65.732  17.281  1  10
+DBM  C4    .  C  0  87.612  65.346  18.392  1  11
+DBM  N3    .  N  0  87.677  64.107  18.984  1  12
+DBM  C2    .  C  0  86.903  63.178  18.375  1  13
+DBM  N1    .  N  0  86.121  63.457  17.256  1  14
+DBM  C6    .  C  0  86.034  64.721  16.629  1  15
+DBM  C7    .  C  0  85.166  64.981  15.401  1  16
+DBM  C2'   .  C  0  90.460  65.650  19.932  1  17
+DBM  O2'   .  O  0  90.791  65.251  21.270  1  18
+DBM  C3'   .  C  0  91.551  66.444  19.251  1  19
+DBM  O3'   .  O  0  92.832  66.029  19.761  1  20
+DBM  H5'   .  H  0  ?       ?       ?       1  21
+DBM  H1    .  H  0  ?       ?       ?       1  22
+DBM  1H6'  .  H  0  ?       ?       ?       0  23
+DBM  2H6'  .  H  0  ?       ?       ?       0  24
+DBM  3H6'  .  H  0  ?       ?       ?       0  25
+DBM  H4'   .  H  0  ?       ?       ?       1  26
+DBM  H1'   .  H  0  ?       ?       ?       1  27
+DBM  H8    .  H  0  ?       ?       ?       1  28
+DBM  H2    .  H  0  ?       ?       ?       1  29
+DBM  1H7   .  H  0  ?       ?       ?       0  30
+DBM  2H7   .  H  0  ?       ?       ?       0  31
+DBM  3H7   .  H  0  ?       ?       ?       0  32
+DBM  H2'   .  H  0  ?       ?       ?       1  33
+DBM  H3    .  H  0  ?       ?       ?       1  34
+DBM  H3'   .  H  0  ?       ?       ?       1  35
+DBM  H4    .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DBM  O5'  H5'   SING  1 
+DBM  O5'  C5'   SING  2 
+DBM  C5'  H1    SING  3 
+DBM  C5'  C6'   SING  4 
+DBM  C5'  C4'   SING  5 
+DBM  C6'  1H6'  SING  6 
+DBM  C6'  2H6'  SING  7 
+DBM  C6'  3H6'  SING  8 
+DBM  C4'  H4'   SING  9 
+DBM  C4'  O4'   SING  10
+DBM  C4'  C3'   SING  11
+DBM  O4'  C1'   SING  12
+DBM  C1'  H1'   SING  13
+DBM  C1'  N9    SING  14
+DBM  C1'  C2'   SING  15
+DBM  N9   C8    SING  16
+DBM  N9   C4    SING  17
+DBM  C8   H8    SING  18
+DBM  C8   N7    DOUB  19
+DBM  N7   C5    SING  20
+DBM  C5   C4    DOUB  21
+DBM  C5   C6    SING  22
+DBM  C4   N3    SING  23
+DBM  N3   C2    DOUB  24
+DBM  C2   H2    SING  25
+DBM  C2   N1    SING  26
+DBM  N1   C6    DOUB  27
+DBM  C6   C7    SING  28
+DBM  C7   1H7   SING  29
+DBM  C7   2H7   SING  30
+DBM  C7   3H7   SING  31
+DBM  C2'  H2'   SING  32
+DBM  C2'  O2'   SING  33
+DBM  C2'  C3'   SING  34
+DBM  O2'  H3    SING  35
+DBM  C3'  H3'   SING  36
+DBM  C3'  O3'   SING  37
+DBM  O3'  H4    SING  38
+#

@@ -1,0 +1,119 @@
+data_PCE
+#
+_chem_comp.id                   PCE
+_chem_comp.name                 '2-(3-AMINO-4-CYCLOHEXYL-2-HYDROXY-BUTYL)-PENT-4-YNOIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C15 H25 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.367
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCE  N     .  N  0  ?  ?  ?  1  1 
+PCE  CA    .  C  0  ?  ?  ?  1  2 
+PCE  CB    .  C  0  ?  ?  ?  1  3 
+PCE  CG    .  C  0  ?  ?  ?  1  4 
+PCE  CD1   .  C  0  ?  ?  ?  1  5 
+PCE  CD2   .  C  0  ?  ?  ?  1  6 
+PCE  CE1   .  C  0  ?  ?  ?  1  7 
+PCE  CE2   .  C  0  ?  ?  ?  1  8 
+PCE  CZ    .  C  0  ?  ?  ?  1  9 
+PCE  CH    .  C  0  ?  ?  ?  1  10
+PCE  OH    .  O  0  ?  ?  ?  1  11
+PCE  CM    .  C  0  ?  ?  ?  1  12
+PCE  CA2   .  C  0  ?  ?  ?  1  13
+PCE  CB2   .  C  0  ?  ?  ?  1  14
+PCE  CG2   .  C  0  ?  ?  ?  1  15
+PCE  CD3   .  C  0  ?  ?  ?  1  16
+PCE  C     .  C  0  ?  ?  ?  1  17
+PCE  O     .  O  0  ?  ?  ?  1  18
+PCE  OXT   .  O  0  ?  ?  ?  1  19
+PCE  1HN   .  H  0  ?  ?  ?  0  20
+PCE  2HN   .  H  0  ?  ?  ?  0  21
+PCE  HA    .  H  0  ?  ?  ?  1  22
+PCE  1HB   .  H  0  ?  ?  ?  0  23
+PCE  2HB   .  H  0  ?  ?  ?  0  24
+PCE  HG    .  H  0  ?  ?  ?  1  25
+PCE  1HD1  .  H  0  ?  ?  ?  0  26
+PCE  2HD1  .  H  0  ?  ?  ?  0  27
+PCE  1HD2  .  H  0  ?  ?  ?  0  28
+PCE  2HD2  .  H  0  ?  ?  ?  0  29
+PCE  1HE1  .  H  0  ?  ?  ?  0  30
+PCE  2HE1  .  H  0  ?  ?  ?  0  31
+PCE  1HE2  .  H  0  ?  ?  ?  0  32
+PCE  2HE2  .  H  0  ?  ?  ?  0  33
+PCE  1HZ   .  H  0  ?  ?  ?  0  34
+PCE  2HZ   .  H  0  ?  ?  ?  0  35
+PCE  HH    .  H  0  ?  ?  ?  1  36
+PCE  HO    .  H  0  ?  ?  ?  1  37
+PCE  1HM   .  H  0  ?  ?  ?  0  38
+PCE  2HM   .  H  0  ?  ?  ?  0  39
+PCE  HA2   .  H  0  ?  ?  ?  1  40
+PCE  1HB2  .  H  0  ?  ?  ?  0  41
+PCE  2HB2  .  H  0  ?  ?  ?  0  42
+PCE  1HD3  .  H  0  ?  ?  ?  0  43
+PCE  HXT   .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCE  N    CA    SING  1 
+PCE  N    1HN   SING  2 
+PCE  N    2HN   SING  3 
+PCE  CA   CB    SING  4 
+PCE  CA   CH    SING  5 
+PCE  CA   HA    SING  6 
+PCE  CB   CG    SING  7 
+PCE  CB   1HB   SING  8 
+PCE  CB   2HB   SING  9 
+PCE  CG   CD1   SING  10
+PCE  CG   CD2   SING  11
+PCE  CG   HG    SING  12
+PCE  CD1  CE1   SING  13
+PCE  CD1  1HD1  SING  14
+PCE  CD1  2HD1  SING  15
+PCE  CD2  CE2   SING  16
+PCE  CD2  1HD2  SING  17
+PCE  CD2  2HD2  SING  18
+PCE  CE1  CZ    SING  19
+PCE  CE1  1HE1  SING  20
+PCE  CE1  2HE1  SING  21
+PCE  CE2  CZ    SING  22
+PCE  CE2  1HE2  SING  23
+PCE  CE2  2HE2  SING  24
+PCE  CZ   1HZ   SING  25
+PCE  CZ   2HZ   SING  26
+PCE  CH   CM    SING  27
+PCE  CH   OH    SING  28
+PCE  CH   HH    SING  29
+PCE  OH   HO    SING  30
+PCE  CM   CA2   SING  31
+PCE  CM   1HM   SING  32
+PCE  CM   2HM   SING  33
+PCE  CA2  C     SING  34
+PCE  CA2  CB2   SING  35
+PCE  CA2  HA2   SING  36
+PCE  CB2  CG2   SING  37
+PCE  CB2  1HB2  SING  38
+PCE  CB2  2HB2  SING  39
+PCE  CG2  CD3   TRIP  40
+PCE  CD3  1HD3  SING  41
+PCE  C    O     DOUB  42
+PCE  C    OXT   SING  43
+PCE  OXT  HXT   SING  44
+#

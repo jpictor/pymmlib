@@ -1,0 +1,96 @@
+data_ODA
+#
+_chem_comp.id                   ODA
+_chem_comp.name                 '9-AMINO-6,10-DIOXO-OCTAHYDRO-PYRIDAZINO[1,2-A][1,2]DIAZEPINE-1-CARBOXYLIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C10 H15 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        241.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ODA  N     .  N  0  ?  ?  ?  1  1 
+ODA  CA    .  C  0  ?  ?  ?  1  2 
+ODA  CB    .  C  0  ?  ?  ?  1  3 
+ODA  CG    .  C  0  ?  ?  ?  1  4 
+ODA  CD    .  C  0  ?  ?  ?  1  5 
+ODA  OE1   .  O  0  ?  ?  ?  1  6 
+ODA  NE2   .  N  0  ?  ?  ?  1  7 
+ODA  C     .  C  0  ?  ?  ?  1  8 
+ODA  O     .  O  0  ?  ?  ?  1  9 
+ODA  N2    .  N  0  ?  ?  ?  1  10
+ODA  CA2   .  C  0  ?  ?  ?  1  11
+ODA  CB2   .  C  0  ?  ?  ?  1  12
+ODA  CG2   .  C  0  ?  ?  ?  1  13
+ODA  CD2   .  C  0  ?  ?  ?  1  14
+ODA  C2    .  C  0  ?  ?  ?  1  15
+ODA  O2    .  O  0  ?  ?  ?  1  16
+ODA  OXT   .  O  0  ?  ?  ?  1  17
+ODA  HXT   .  H  0  ?  ?  ?  1  18
+ODA  1HB2  .  H  0  ?  ?  ?  0  19
+ODA  2HB2  .  H  0  ?  ?  ?  0  20
+ODA  1HG2  .  H  0  ?  ?  ?  0  21
+ODA  2HG2  .  H  0  ?  ?  ?  0  22
+ODA  1HD2  .  H  0  ?  ?  ?  0  23
+ODA  2HD2  .  H  0  ?  ?  ?  0  24
+ODA  1HB   .  H  0  ?  ?  ?  0  25
+ODA  2HB   .  H  0  ?  ?  ?  0  26
+ODA  1HG   .  H  0  ?  ?  ?  0  27
+ODA  2HG   .  H  0  ?  ?  ?  0  28
+ODA  1HN   .  H  0  ?  ?  ?  0  29
+ODA  2HN   .  H  0  ?  ?  ?  0  30
+ODA  1HA   .  H  0  ?  ?  ?  0  31
+ODA  1HA2  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ODA  N    CA    SING  1 
+ODA  N    1HN   SING  2 
+ODA  N    2HN   SING  3 
+ODA  CA   CB    SING  4 
+ODA  CA   C     SING  5 
+ODA  CA   1HA   SING  6 
+ODA  CB   CG    SING  7 
+ODA  CB   1HB   SING  8 
+ODA  CB   2HB   SING  9 
+ODA  CG   CD    SING  10
+ODA  CG   1HG   SING  11
+ODA  CG   2HG   SING  12
+ODA  CD   OE1   DOUB  13
+ODA  CD   NE2   SING  14
+ODA  NE2  N2    SING  15
+ODA  NE2  CD2   SING  16
+ODA  C    O     DOUB  17
+ODA  C    N2    SING  18
+ODA  N2   CA2   SING  19
+ODA  CA2  CB2   SING  20
+ODA  CA2  C2    SING  21
+ODA  CA2  1HA2  SING  22
+ODA  CB2  CG2   SING  23
+ODA  CB2  1HB2  SING  24
+ODA  CB2  2HB2  SING  25
+ODA  CG2  CD2   SING  26
+ODA  CG2  1HG2  SING  27
+ODA  CG2  2HG2  SING  28
+ODA  CD2  1HD2  SING  29
+ODA  CD2  2HD2  SING  30
+ODA  C2   O2    DOUB  31
+ODA  C2   OXT   SING  32
+ODA  OXT  HXT   SING  33
+#

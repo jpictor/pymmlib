@@ -1,0 +1,116 @@
+data_AD2
+#
+_chem_comp.id                       AD2
+_chem_comp.name                     2'-DEOXY-ADENOSINE-3'-5'-DIPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H15 N5 O9 P2'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            411.204
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AD2  P1    .  P  0  -14.899  53.873  36.894  1  1 
+AD2  O1P   .  O  0  -15.219  52.425  36.995  1  2 
+AD2  O2P   .  O  0  -13.535  54.351  37.244  1  3 
+AD2  O5'   .  O  0  -15.241  54.360  35.417  1  4 
+AD2  P2    .  P  0  -13.893  51.893  31.198  1  5 
+AD2  O5P   .  O  0  -13.487  51.313  32.504  1  6 
+AD2  O4P   .  O  0  -12.860  52.452  30.294  1  7 
+AD2  O6P   .  O  0  -14.689  50.852  30.429  1  8 
+AD2  N9    .  N  0  -15.037  57.371  32.985  1  9 
+AD2  C4    .  C  0  -15.839  58.486  32.924  1  10
+AD2  N3    .  N  0  -17.033  58.604  32.320  1  11
+AD2  C2    .  C  0  -17.506  59.839  32.456  1  12
+AD2  N1    .  N  0  -16.963  60.891  33.078  1  13
+AD2  C6    .  C  0  -15.761  60.736  33.676  1  14
+AD2  N6    .  N  0  -15.213  61.782  34.296  1  15
+AD2  C5    .  C  0  -15.157  59.476  33.607  1  16
+AD2  N7    .  N  0  -13.957  58.993  34.105  1  17
+AD2  C8    .  C  0  -13.935  57.743  33.715  1  18
+AD2  C2'   .  C  0  -14.174  55.065  32.636  1  19
+AD2  C5'   .  C  0  -16.420  53.904  34.755  1  20
+AD2  C4'   .  C  0  -16.286  54.120  33.268  1  21
+AD2  O4'   .  O  0  -16.459  55.527  32.980  1  22
+AD2  C1'   .  C  0  -15.291  56.063  32.379  1  23
+AD2  C3'   .  C  0  -14.899  53.739  32.756  1  24
+AD2  O3'   .  O  0  -14.958  53.056  31.505  1  25
+AD2  O3P   .  O  0  ?        ?       ?       1  26
+AD2  2HOP  .  H  0  ?        ?       ?       0  27
+AD2  3HOP  .  H  0  ?        ?       ?       0  28
+AD2  1H5'  .  H  0  ?        ?       ?       0  29
+AD2  2H5'  .  H  0  ?        ?       ?       0  30
+AD2  H4'   .  H  0  ?        ?       ?       1  31
+AD2  H3'   .  H  0  ?        ?       ?       1  32
+AD2  5HOP  .  H  0  ?        ?       ?       0  33
+AD2  6HOP  .  H  0  ?        ?       ?       0  34
+AD2  1H2'  .  H  0  ?        ?       ?       0  35
+AD2  2H2'  .  H  0  ?        ?       ?       0  36
+AD2  H1'   .  H  0  ?        ?       ?       1  37
+AD2  H8    .  H  0  ?        ?       ?       1  38
+AD2  H2    .  H  0  ?        ?       ?       1  39
+AD2  1H6   .  H  0  ?        ?       ?       0  40
+AD2  2H6   .  H  0  ?        ?       ?       0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AD2  P1   O1P   DOUB  1 
+AD2  P1   O2P   SING  2 
+AD2  P1   O5'   SING  3 
+AD2  P1   O3P   SING  4 
+AD2  O2P  2HOP  SING  5 
+AD2  O5'  C5'   SING  6 
+AD2  P2   O5P   SING  7 
+AD2  P2   O4P   DOUB  8 
+AD2  P2   O6P   SING  9 
+AD2  P2   O3'   SING  10
+AD2  O5P  5HOP  SING  11
+AD2  O6P  6HOP  SING  12
+AD2  N9   C4    SING  13
+AD2  N9   C8    SING  14
+AD2  N9   C1'   SING  15
+AD2  C4   N3    DOUB  16
+AD2  C4   C5    SING  17
+AD2  N3   C2    SING  18
+AD2  C2   N1    DOUB  19
+AD2  C2   H2    SING  20
+AD2  N1   C6    SING  21
+AD2  C6   N6    SING  22
+AD2  C6   C5    DOUB  23
+AD2  N6   1H6   SING  24
+AD2  N6   2H6   SING  25
+AD2  C5   N7    SING  26
+AD2  N7   C8    DOUB  27
+AD2  C8   H8    SING  28
+AD2  C2'  C1'   SING  29
+AD2  C2'  C3'   SING  30
+AD2  C2'  1H2'  SING  31
+AD2  C2'  2H2'  SING  32
+AD2  C5'  C4'   SING  33
+AD2  C5'  1H5'  SING  34
+AD2  C5'  2H5'  SING  35
+AD2  C4'  O4'   SING  36
+AD2  C4'  C3'   SING  37
+AD2  C4'  H4'   SING  38
+AD2  O4'  C1'   SING  39
+AD2  C1'  H1'   SING  40
+AD2  C3'  O3'   SING  41
+AD2  C3'  H3'   SING  42
+AD2  O3P  3HOP  SING  43
+#

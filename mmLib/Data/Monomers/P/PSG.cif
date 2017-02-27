@@ -1,0 +1,104 @@
+data_PSG
+#
+_chem_comp.id                   PSG
+_chem_comp.name                 'PARA-NITROPHENYL 1-THIO-BETA-D-GLUCOPYRANOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N1 O7 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        317.313
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PSG  C7    .  C  0  ?  ?  ?  1  1 
+PSG  C8    .  C  0  ?  ?  ?  1  2 
+PSG  C9    .  C  0  ?  ?  ?  1  3 
+PSG  C10   .  C  0  ?  ?  ?  1  4 
+PSG  C11   .  C  0  ?  ?  ?  1  5 
+PSG  C12   .  C  0  ?  ?  ?  1  6 
+PSG  N1    .  N  0  ?  ?  ?  1  7 
+PSG  O11   .  O  0  ?  ?  ?  1  8 
+PSG  O12   .  O  0  ?  ?  ?  1  9 
+PSG  S1    .  S  0  ?  ?  ?  1  10
+PSG  C1    .  C  0  ?  ?  ?  1  11
+PSG  C2    .  C  0  ?  ?  ?  1  12
+PSG  C3    .  C  0  ?  ?  ?  1  13
+PSG  C4    .  C  0  ?  ?  ?  1  14
+PSG  C5    .  C  0  ?  ?  ?  1  15
+PSG  C6    .  C  0  ?  ?  ?  1  16
+PSG  O2    .  O  0  ?  ?  ?  1  17
+PSG  O3    .  O  0  ?  ?  ?  1  18
+PSG  O4    .  O  0  ?  ?  ?  1  19
+PSG  O5    .  O  0  ?  ?  ?  1  20
+PSG  O6    .  O  0  ?  ?  ?  1  21
+PSG  H7    .  H  0  ?  ?  ?  1  22
+PSG  H8    .  H  0  ?  ?  ?  1  23
+PSG  H10   .  H  0  ?  ?  ?  1  24
+PSG  H11   .  H  0  ?  ?  ?  1  25
+PSG  H1    .  H  0  ?  ?  ?  1  26
+PSG  H2    .  H  0  ?  ?  ?  1  27
+PSG  H3    .  H  0  ?  ?  ?  1  28
+PSG  H4    .  H  0  ?  ?  ?  1  29
+PSG  H5    .  H  0  ?  ?  ?  1  30
+PSG  2H6   .  H  0  ?  ?  ?  0  31
+PSG  1H6   .  H  0  ?  ?  ?  0  32
+PSG  1H2O  .  H  0  ?  ?  ?  0  33
+PSG  1H3O  .  H  0  ?  ?  ?  0  34
+PSG  1H4O  .  H  0  ?  ?  ?  0  35
+PSG  1H6O  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PSG  C7   C8    AROM  1 
+PSG  C7   C12   AROM  2 
+PSG  C7   H7    SING  3 
+PSG  C8   C9    AROM  4 
+PSG  C8   H8    SING  5 
+PSG  C9   C10   AROM  6 
+PSG  C9   N1    SING  7 
+PSG  C10  C11   AROM  8 
+PSG  C10  H10   SING  9 
+PSG  C11  C12   AROM  10
+PSG  C11  H11   SING  11
+PSG  C12  S1    SING  12
+PSG  N1   O11   SING  13
+PSG  N1   O12   SING  14
+PSG  S1   C1    SING  15
+PSG  C1   C2    SING  16
+PSG  C1   O5    SING  17
+PSG  C1   H1    SING  18
+PSG  C2   C3    SING  19
+PSG  C2   O2    SING  20
+PSG  C2   H2    SING  21
+PSG  C3   C4    SING  22
+PSG  C3   O3    SING  23
+PSG  C3   H3    SING  24
+PSG  C4   C5    SING  25
+PSG  C4   O4    SING  26
+PSG  C4   H4    SING  27
+PSG  C5   C6    SING  28
+PSG  C5   O5    SING  29
+PSG  C5   H5    SING  30
+PSG  C6   O6    SING  31
+PSG  C6   2H6   SING  32
+PSG  C6   1H6   SING  33
+PSG  O2   1H2O  SING  34
+PSG  O3   1H3O  SING  35
+PSG  O4   1H4O  SING  36
+PSG  O6   1H6O  SING  37
+#

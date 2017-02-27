@@ -1,0 +1,88 @@
+data_BIE
+#
+_chem_comp.id                   BIE
+_chem_comp.name                 (3,4-DIHYDROXY-2-NITROPHENYL)(PHENYL)METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H9 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.218
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIE  O5   .  O  0  5.797  -.368  56.158  1  1 
+BIE  C7   .  C  0  5.639  .767   56.585  1  2 
+BIE  C4   .  C  0  6.112  1.036  57.977  1  3 
+BIE  C5   .  C  0  5.171  1.54   58.917  1  4 
+BIE  C6   .  C  0  5.516  1.691  60.272  1  5 
+BIE  C3   .  C  0  7.376  .62    58.41   1  6 
+BIE  N1   .  N  0  8.375  .204   57.422  1  7 
+BIE  O4   .  O  0  8.23   .806   56.353  1  8 
+BIE  O3   .  O  0  9.316  -.428  57.677  1  9 
+BIE  C2   .  C  0  7.753  .737   59.773  1  10
+BIE  O2   .  O  0  8.941  .415   60.233  1  11
+BIE  C1   .  C  0  6.876  1.295  60.723  1  12
+BIE  O1   .  O  0  7.169  1.446  62.017  1  13
+BIE  C8   .  C  0  4.778  1.69   55.861  1  14
+BIE  C9   .  C  0  3.785  1.193  55.03   1  15
+BIE  C13  .  C  0  4.947  3.084  56.061  1  16
+BIE  C12  .  C  0  4.087  3.943  55.397  1  17
+BIE  C11  .  C  0  3.105  3.443  54.534  1  18
+BIE  C10  .  C  0  2.96   2.061  54.375  1  19
+BIE  H5   .  H  0  4.158  1.816  58.579  1  20
+BIE  H6   .  H  0  4.786  2.099  60.992  1  21
+BIE  H2   .  H  0  9.193  .493   61.146  1  22
+BIE  H1   .  H  0  8.038  1.193  62.305  1  23
+BIE  H9   .  H  0  3.663  .105   54.899  1  24
+BIE  H13  .  H  0  5.738  3.472  56.724  1  25
+BIE  H10  .  H  0  2.17   1.668  53.713  1  26
+BIE  H12  .  H  0  4.177  5.032  55.55   1  27
+BIE  H11  .  H  0  2.448  4.136  53.982  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIE  O5   C7   DOUB  1 
+BIE  C7   C4   SING  2 
+BIE  C7   C8   SING  3 
+BIE  C4   C5   AROM  4 
+BIE  C4   C3   AROM  5 
+BIE  C5   C6   AROM  6 
+BIE  C5   H5   SING  7 
+BIE  C6   C1   AROM  8 
+BIE  C6   H6   SING  9 
+BIE  C3   N1   SING  10
+BIE  C3   C2   AROM  11
+BIE  N1   O4   DOUB  12
+BIE  N1   O3   DOUB  13
+BIE  C2   O2   SING  14
+BIE  C2   C1   AROM  15
+BIE  O2   H2   SING  16
+BIE  C1   O1   SING  17
+BIE  O1   H1   SING  18
+BIE  C8   C9   AROM  19
+BIE  C8   C13  AROM  20
+BIE  C9   C10  AROM  21
+BIE  C9   H9   SING  22
+BIE  C13  C12  AROM  23
+BIE  C13  H13  SING  24
+BIE  C12  C11  AROM  25
+BIE  C12  H12  SING  26
+BIE  C11  C10  AROM  27
+BIE  C11  H11  SING  28
+BIE  C10  H10  SING  29
+#

@@ -1,0 +1,92 @@
+data_PBG
+#
+_chem_comp.id                   PBG
+_chem_comp.name                 '3-[5-(AMINOMETHYL)-4-(CARBOXYMETHYL)-1H-PYRROL-3-YL]PROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N2 O4'
+_chem_comp.pdbx_synonyms        '2-AMINOMETHYLPYRROL-3-ACETIC ACID 4-PROPIONIC ACID; PORPHOBILINOGEN; 5-(AMINOMETHYL)-4-(CARBOXYMETHYL)-1H-PYRROLE-3-PROPANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        226.232
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBG  CHA   .  C  0  ?  ?  ?  1  1 
+PBG  C1A   .  C  0  ?  ?  ?  1  2 
+PBG  C2A   .  C  0  ?  ?  ?  1  3 
+PBG  C3A   .  C  0  ?  ?  ?  1  4 
+PBG  C4A   .  C  0  ?  ?  ?  1  5 
+PBG  NA    .  N  0  ?  ?  ?  1  6 
+PBG  C5A   .  C  0  ?  ?  ?  1  7 
+PBG  C6A   .  C  0  ?  ?  ?  1  8 
+PBG  O1A   .  O  0  ?  ?  ?  1  9 
+PBG  O2A   .  O  0  ?  ?  ?  1  10
+PBG  C7A   .  C  0  ?  ?  ?  1  11
+PBG  C8A   .  C  0  ?  ?  ?  1  12
+PBG  C9A   .  C  0  ?  ?  ?  1  13
+PBG  O3A   .  O  0  ?  ?  ?  1  14
+PBG  O4A   .  O  0  ?  ?  ?  1  15
+PBG  N1    .  N  0  ?  ?  ?  1  16
+PBG  2HHA  .  H  0  ?  ?  ?  0  17
+PBG  1HHA  .  H  0  ?  ?  ?  0  18
+PBG  1H4A  .  H  0  ?  ?  ?  0  19
+PBG  HA    .  H  0  ?  ?  ?  1  20
+PBG  2H5A  .  H  0  ?  ?  ?  0  21
+PBG  1H5A  .  H  0  ?  ?  ?  0  22
+PBG  2H7A  .  H  0  ?  ?  ?  0  23
+PBG  1H7A  .  H  0  ?  ?  ?  0  24
+PBG  2H8A  .  H  0  ?  ?  ?  0  25
+PBG  1H8A  .  H  0  ?  ?  ?  0  26
+PBG  2H1   .  H  0  ?  ?  ?  0  27
+PBG  1H1   .  H  0  ?  ?  ?  0  28
+PBG  OH2A  .  H  0  ?  ?  ?  0  29
+PBG  OH4A  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBG  CHA  C1A   SING  1 
+PBG  CHA  N1    SING  2 
+PBG  CHA  2HHA  SING  3 
+PBG  CHA  1HHA  SING  4 
+PBG  C1A  C2A   DOUB  5 
+PBG  C1A  NA    SING  6 
+PBG  C2A  C3A   SING  7 
+PBG  C2A  C5A   SING  8 
+PBG  C3A  C4A   DOUB  9 
+PBG  C3A  C7A   SING  10
+PBG  C4A  NA    SING  11
+PBG  C4A  1H4A  SING  12
+PBG  NA   HA    SING  13
+PBG  C5A  C6A   SING  14
+PBG  C5A  2H5A  SING  15
+PBG  C5A  1H5A  SING  16
+PBG  C6A  O1A   DOUB  17
+PBG  C6A  O2A   SING  18
+PBG  O2A  OH2A  SING  19
+PBG  C7A  C8A   SING  20
+PBG  C7A  2H7A  SING  21
+PBG  C7A  1H7A  SING  22
+PBG  C8A  C9A   SING  23
+PBG  C8A  2H8A  SING  24
+PBG  C8A  1H8A  SING  25
+PBG  C9A  O3A   DOUB  26
+PBG  C9A  O4A   SING  27
+PBG  O4A  OH4A  SING  28
+PBG  N1   2H1   SING  29
+PBG  N1   1H1   SING  30
+#

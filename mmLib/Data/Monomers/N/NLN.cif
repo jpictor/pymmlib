@@ -1,0 +1,78 @@
+data_NLN
+#
+_chem_comp.id                       NLN
+_chem_comp.name                     'NORLEUCINE AMIDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H14 N2 O1'
+_chem_comp.pdbx_synonyms            '2-AMINO-HEXANOIC ACID AMIDE'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            130.189
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NLN  N     .  N  0  ?  ?  ?  1  1 
+NLN  CA    .  C  0  ?  ?  ?  1  2 
+NLN  C     .  C  0  ?  ?  ?  1  3 
+NLN  O     .  O  0  ?  ?  ?  1  4 
+NLN  CB    .  C  0  ?  ?  ?  1  5 
+NLN  CG    .  C  0  ?  ?  ?  1  6 
+NLN  CD    .  C  0  ?  ?  ?  1  7 
+NLN  CE    .  C  0  ?  ?  ?  1  8 
+NLN  NH2   .  N  0  ?  ?  ?  1  9 
+NLN  1HN   .  H  0  ?  ?  ?  0  10
+NLN  2HN   .  H  0  ?  ?  ?  0  11
+NLN  HA    .  H  0  ?  ?  ?  1  12
+NLN  1HB   .  H  0  ?  ?  ?  0  13
+NLN  2HB   .  H  0  ?  ?  ?  0  14
+NLN  1HG   .  H  0  ?  ?  ?  0  15
+NLN  2HG   .  H  0  ?  ?  ?  0  16
+NLN  1HD   .  H  0  ?  ?  ?  0  17
+NLN  2HD   .  H  0  ?  ?  ?  0  18
+NLN  1HE   .  H  0  ?  ?  ?  0  19
+NLN  2HE   .  H  0  ?  ?  ?  0  20
+NLN  3HE   .  H  0  ?  ?  ?  0  21
+NLN  1HH2  .  H  0  ?  ?  ?  0  22
+NLN  2HH2  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NLN  N    CA    SING  1 
+NLN  N    1HN   SING  2 
+NLN  N    2HN   SING  3 
+NLN  CA   C     SING  4 
+NLN  CA   CB    SING  5 
+NLN  CA   HA    SING  6 
+NLN  C    O     DOUB  7 
+NLN  C    NH2   SING  8 
+NLN  CB   CG    SING  9 
+NLN  CB   1HB   SING  10
+NLN  CB   2HB   SING  11
+NLN  CG   CD    SING  12
+NLN  CG   1HG   SING  13
+NLN  CG   2HG   SING  14
+NLN  CD   CE    SING  15
+NLN  CD   1HD   SING  16
+NLN  CD   2HD   SING  17
+NLN  CE   1HE   SING  18
+NLN  CE   2HE   SING  19
+NLN  CE   3HE   SING  20
+NLN  NH2  1HH2  SING  21
+NLN  NH2  2HH2  SING  22
+#

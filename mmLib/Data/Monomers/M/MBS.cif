@@ -1,0 +1,130 @@
+data_MBS
+#
+_chem_comp.id                   MBS
+_chem_comp.name                 'R-2-{[4'-METHOXY-(1,1'-BIPHENYL)-4-YL]-SULFONYL}-AMINO-6-METHOXY-HEX-4-YNOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H21 N1 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        403.449
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MBS  C5    .  C  0  ?  ?  ?  1  1 
+MBS  O6    .  O  0  ?  ?  ?  1  2 
+MBS  C16   .  C  0  ?  ?  ?  1  3 
+MBS  C12   .  C  0  ?  ?  ?  1  4 
+MBS  C4    .  C  0  ?  ?  ?  1  5 
+MBS  C3    .  C  0  ?  ?  ?  1  6 
+MBS  C2    .  C  0  ?  ?  ?  1  7 
+MBS  C1    .  C  0  ?  ?  ?  1  8 
+MBS  O2    .  O  0  ?  ?  ?  1  9 
+MBS  O1    .  O  0  ?  ?  ?  1  10
+MBS  N1    .  N  0  ?  ?  ?  1  11
+MBS  S11   .  S  0  ?  ?  ?  1  12
+MBS  O3    .  O  0  ?  ?  ?  1  13
+MBS  O4    .  O  0  ?  ?  ?  1  14
+MBS  C21   .  C  0  ?  ?  ?  1  15
+MBS  C22   .  C  0  ?  ?  ?  1  16
+MBS  C23   .  C  0  ?  ?  ?  1  17
+MBS  C24   .  C  0  ?  ?  ?  1  18
+MBS  C25   .  C  0  ?  ?  ?  1  19
+MBS  C26   .  C  0  ?  ?  ?  1  20
+MBS  C6    .  C  0  ?  ?  ?  1  21
+MBS  C32   .  C  0  ?  ?  ?  1  22
+MBS  C33   .  C  0  ?  ?  ?  1  23
+MBS  C34   .  C  0  ?  ?  ?  1  24
+MBS  C35   .  C  0  ?  ?  ?  1  25
+MBS  C36   .  C  0  ?  ?  ?  1  26
+MBS  O5    .  O  0  ?  ?  ?  1  27
+MBS  C7    .  C  0  ?  ?  ?  1  28
+MBS  1H7   .  H  0  ?  ?  ?  0  29
+MBS  2H7   .  H  0  ?  ?  ?  0  30
+MBS  3H7   .  H  0  ?  ?  ?  0  31
+MBS  HN1   .  H  0  ?  ?  ?  1  32
+MBS  1H35  .  H  0  ?  ?  ?  0  33
+MBS  1H33  .  H  0  ?  ?  ?  0  34
+MBS  1H32  .  H  0  ?  ?  ?  0  35
+MBS  1H36  .  H  0  ?  ?  ?  0  36
+MBS  1H25  .  H  0  ?  ?  ?  0  37
+MBS  1H23  .  H  0  ?  ?  ?  0  38
+MBS  1H22  .  H  0  ?  ?  ?  0  39
+MBS  1H26  .  H  0  ?  ?  ?  0  40
+MBS  1H2   .  H  0  ?  ?  ?  0  41
+MBS  1H3   .  H  0  ?  ?  ?  0  42
+MBS  2H3   .  H  0  ?  ?  ?  0  43
+MBS  1HO1  .  H  0  ?  ?  ?  0  44
+MBS  1H16  .  H  0  ?  ?  ?  0  45
+MBS  2H16  .  H  0  ?  ?  ?  0  46
+MBS  1H5   .  H  0  ?  ?  ?  0  47
+MBS  2H5   .  H  0  ?  ?  ?  0  48
+MBS  3H5   .  H  0  ?  ?  ?  0  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MBS  C5   O6    SING  1 
+MBS  C5   1H5   SING  2 
+MBS  C5   2H5   SING  3 
+MBS  C5   3H5   SING  4 
+MBS  O6   C16   SING  5 
+MBS  C16  C12   SING  6 
+MBS  C16  1H16  SING  7 
+MBS  C16  2H16  SING  8 
+MBS  C12  C4    TRIP  9 
+MBS  C4   C3    SING  10
+MBS  C3   C2    SING  11
+MBS  C3   1H3   SING  12
+MBS  C3   2H3   SING  13
+MBS  C2   C1    SING  14
+MBS  C2   N1    SING  15
+MBS  C2   1H2   SING  16
+MBS  C1   O2    DOUB  17
+MBS  C1   O1    SING  18
+MBS  O1   1HO1  SING  19
+MBS  N1   S11   SING  20
+MBS  N1   HN1   SING  21
+MBS  S11  O3    DOUB  22
+MBS  S11  O4    DOUB  23
+MBS  S11  C21   SING  24
+MBS  C21  C22   DOUB  25
+MBS  C21  C26   SING  26
+MBS  C22  C23   SING  27
+MBS  C22  1H22  SING  28
+MBS  C23  C24   DOUB  29
+MBS  C23  1H23  SING  30
+MBS  C24  C25   SING  31
+MBS  C24  C6    SING  32
+MBS  C25  C26   DOUB  33
+MBS  C25  1H25  SING  34
+MBS  C26  1H26  SING  35
+MBS  C6   C32   DOUB  36
+MBS  C6   C36   SING  37
+MBS  C32  C33   SING  38
+MBS  C32  1H32  SING  39
+MBS  C33  C34   DOUB  40
+MBS  C33  1H33  SING  41
+MBS  C34  C35   SING  42
+MBS  C34  O5    SING  43
+MBS  C35  C36   DOUB  44
+MBS  C35  1H35  SING  45
+MBS  C36  1H36  SING  46
+MBS  O5   C7    SING  47
+MBS  C7   1H7   SING  48
+MBS  C7   2H7   SING  49
+MBS  C7   3H7   SING  50
+#

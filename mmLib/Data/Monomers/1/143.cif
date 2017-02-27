@@ -1,0 +1,93 @@
+data_143
+#
+_chem_comp.id                       143
+_chem_comp.name                     S-2,3-DIHYDRO-5-GLYCIN-2-YL-ISOXAZOL-3-YL-CYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C8 H13 N3 O5 S1'
+_chem_comp.pdbx_synonyms            '2-AMINO-3-[5-(AMINO-CARBOXY-METHYL)-2,3-DIHYDRO-ISOXAZOL-3-YLSULFANYL]-PROPIONIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            263.268
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+143  N    .  N  0  ?  ?  ?  1  1 
+143  CA   .  C  0  ?  ?  ?  1  2 
+143  CB   .  C  0  ?  ?  ?  1  3 
+143  SG   .  S  0  ?  ?  ?  1  4 
+143  C    .  C  0  ?  ?  ?  1  5 
+143  O    .  O  0  ?  ?  ?  1  6 
+143  CI   .  C  0  ?  ?  ?  1  7 
+143  NI   .  N  0  ?  ?  ?  1  8 
+143  CJ   .  C  0  ?  ?  ?  1  9 
+143  OJ1  .  O  0  ?  ?  ?  1  10
+143  OJ2  .  O  0  ?  ?  ?  1  11
+143  CF   .  C  0  ?  ?  ?  1  12
+143  OF   .  O  0  ?  ?  ?  1  13
+143  NX   .  N  0  ?  ?  ?  1  14
+143  CD   .  C  0  ?  ?  ?  1  15
+143  CE   .  C  0  ?  ?  ?  1  16
+143  OXT  .  O  0  ?  ?  ?  1  17
+143  H    .  H  0  ?  ?  ?  1  18
+143  HN2  .  H  0  ?  ?  ?  1  19
+143  HA   .  H  0  ?  ?  ?  1  20
+143  HXT  .  H  0  ?  ?  ?  1  21
+143  1HB  .  H  0  ?  ?  ?  0  22
+143  2HB  .  H  0  ?  ?  ?  0  23
+143  HD   .  H  0  ?  ?  ?  1  24
+143  HE   .  H  0  ?  ?  ?  1  25
+143  HX   .  H  0  ?  ?  ?  1  26
+143  HI   .  H  0  ?  ?  ?  1  27
+143  1HI  .  H  0  ?  ?  ?  0  28
+143  2HI  .  H  0  ?  ?  ?  0  29
+143  HJ1  .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+143  N    CA   SING  1 
+143  N    H    SING  2 
+143  N    HN2  SING  3 
+143  CA   CB   SING  4 
+143  CA   C    SING  5 
+143  CA   HA   SING  6 
+143  CB   SG   SING  7 
+143  CB   1HB  SING  8 
+143  CB   2HB  SING  9 
+143  SG   CD   SING  10
+143  C    O    DOUB  11
+143  C    OXT  SING  12
+143  CI   NI   SING  13
+143  CI   CJ   SING  14
+143  CI   CF   SING  15
+143  CI   HI   SING  16
+143  NI   1HI  SING  17
+143  NI   2HI  SING  18
+143  CJ   OJ1  SING  19
+143  CJ   OJ2  DOUB  20
+143  OJ1  HJ1  SING  21
+143  CF   OF   SING  22
+143  CF   CE   DOUB  23
+143  OF   NX   SING  24
+143  NX   CD   SING  25
+143  NX   HX   SING  26
+143  CD   CE   SING  27
+143  CD   HD   SING  28
+143  CE   HE   SING  29
+143  OXT  HXT  SING  30
+#

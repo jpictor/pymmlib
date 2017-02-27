@@ -1,0 +1,73 @@
+data_CWR
+#
+_chem_comp.id                       CWR
+_chem_comp.name                     3-(2-HYDROXYETHYL)-5-METHYL-2,3-DIHYDRO-4H-IMIDAZOL-4-ONE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H10 N2 O2'
+_chem_comp.pdbx_synonyms            '(ALA-SER-GLY) CHROMOPHORE'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            142.157
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CWR  C1    .  C  0  -0.019  26.879  32.111  1  1 
+CWR  N2    .  N  0  -1.198  27.415  31.988  1  2 
+CWR  N3    .  N  0  0.632   26.810  30.894  1  3 
+CWR  C2    .  C  0  -0.262  27.366  29.932  1  4 
+CWR  O2    .  O  0  -0.062  27.490  28.720  1  5 
+CWR  CA2   .  C  0  -1.407  27.731  30.706  1  6 
+CWR  CA3   .  C  0  1.734   26.388  30.541  1  7 
+CWR  C3    .  C  0  1.999   25.046  30.144  1  8 
+CWR  O3    .  O  0  2.905   24.762  29.273  1  9 
+CWR  CB2   .  C  0  -2.457  28.276  30.231  1  10
+CWR  HO3   .  H  0  2.507   24.692  28.413  1  11
+CWR  1H3   .  H  0  2.298   24.520  31.063  0  12
+CWR  2H3   .  H  0  1.071   24.759  29.629  0  13
+CWR  1HA3  .  H  0  1.997   26.996  29.663  0  14
+CWR  2HA3  .  H  0  2.295   26.444  31.486  0  15
+CWR  1H1   .  H  0  0.580   27.492  32.800  0  16
+CWR  2H1   .  H  0  -0.141  25.857  32.499  0  17
+CWR  1HB2  .  H  0  -3.187  28.433  31.039  0  18
+CWR  2HB2  .  H  0  -2.195  29.245  29.780  0  19
+CWR  3HB2  .  H  0  -2.895  27.621  29.464  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CWR  C1   N2    SING  1 
+CWR  C1   N3    SING  2 
+CWR  C1   1H1   SING  3 
+CWR  C1   2H1   SING  4 
+CWR  N2   CA2   DOUB  5 
+CWR  N3   CA3   SING  6 
+CWR  N3   C2    SING  7 
+CWR  C2   O2    DOUB  8 
+CWR  C2   CA2   SING  9 
+CWR  CA2  CB2   SING  10
+CWR  CA3  C3    SING  11
+CWR  CA3  1HA3  SING  12
+CWR  CA3  2HA3  SING  13
+CWR  C3   O3    SING  14
+CWR  C3   1H3   SING  15
+CWR  C3   2H3   SING  16
+CWR  O3   HO3   SING  17
+CWR  CB2  1HB2  SING  18
+CWR  CB2  2HB2  SING  19
+CWR  CB2  3HB2  SING  20
+#

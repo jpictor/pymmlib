@@ -1,0 +1,86 @@
+data_2CG
+#
+_chem_comp.id                   2CG
+_chem_comp.name                 '(1R,2R)-3-[(S)-AMINO(CARBOXY)METHYL]CYCLOPROPANE-1,2-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N1 O6'
+_chem_comp.pdbx_synonyms        '(2S,2'R,3'R)-2-(2',3'-DICARBOXYCYCLOPROPYL)GLYCINE, DCG IV'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        203.151
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          2CG
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C1([C@H]([C@@H]1C(=O)O)C(=O)O)[C@@H](C(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+2CG  N     .  N  0  20.012  5.722  9.169   1  N  1 
+2CG  CA    .  C  0  20.842  4.475  9.290   1  N  2 
+2CG  C     .  C  0  20.609  3.963  10.718  1  N  3 
+2CG  O     .  O  0  21.108  2.873  11.054  1  N  4 
+2CG  OXT   .  O  0  19.931  4.666  11.499  1  N  5 
+2CG  CB    .  C  0  22.309  4.838  9.115   1  N  6 
+2CG  CG1   .  C  0  22.634  4.939  7.654   1  N  7 
+2CG  CD1   .  C  0  23.774  5.896  7.438   1  N  8 
+2CG  O11   .  O  0  23.623  6.877  6.676   1  N  9 
+2CG  O12   .  O  0  24.866  5.699  8.012   1  N  10
+2CG  CG2   .  C  0  23.114  3.750  8.438   1  N  11
+2CG  CD2   .  C  0  22.304  2.534  8.017   1  N  12
+2CG  O21   .  O  0  21.439  2.042  8.770   1  N  13
+2CG  O22   .  O  0  22.537  2.005  6.911   1  N  14
+2CG  1HN   .  H  0  19.828  6.090  10.080  0  N  15
+2CG  2HN   .  H  0  20.509  6.402  8.629   0  N  16
+2CG  HA    .  H  0  20.575  3.721  8.535   1  N  17
+2CG  HOXT  .  H  0  19.874  4.236  12.344  0  N  18
+2CG  HB    .  H  0  22.458  5.452  10.016  1  N  19
+2CG  HG1   .  H  0  22.049  5.090  6.735   1  N  20
+2CG  HO12  .  H  0  25.480  6.381  7.767   0  N  21
+2CG  HG2   .  H  0  24.069  3.260  8.680   1  N  22
+2CG  HO21  .  H  0  21.056  1.277  8.356   0  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+2CG  N    CA    SING  N  1 
+2CG  N    1HN   SING  N  2 
+2CG  N    2HN   SING  N  3 
+2CG  CA   CB    SING  N  4 
+2CG  CA   C     SING  N  5 
+2CG  CA   HA    SING  N  6 
+2CG  C    O     DOUB  N  7 
+2CG  C    OXT   SING  N  8 
+2CG  OXT  HOXT  SING  N  9 
+2CG  CB   CG1   SING  N  10
+2CG  CB   CG2   SING  N  11
+2CG  CB   HB    SING  N  12
+2CG  CG1  CD1   SING  N  13
+2CG  CG1  CG2   SING  N  14
+2CG  CG1  HG1   SING  N  15
+2CG  CD1  O11   DOUB  N  16
+2CG  CD1  O12   SING  N  17
+2CG  O12  HO12  SING  N  18
+2CG  CG2  CD2   SING  N  19
+2CG  CG2  HG2   SING  N  20
+2CG  CD2  O22   DOUB  N  21
+2CG  CD2  O21   SING  N  22
+2CG  O21  HO21  SING  N  23
+#

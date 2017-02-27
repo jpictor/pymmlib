@@ -1,0 +1,96 @@
+data_Z
+#
+_chem_comp.id                   Z
+_chem_comp.name                 ZEBULARINE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C9 H13 N2 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+Z  P     .  P  0  -18.687  43.594  84.855  1  1 
+Z  O1P   .  O  0  -17.220  43.475  85.067  1  2 
+Z  O2P   .  O  0  -19.212  44.047  83.533  1  3 
+Z  O5*   .  O  0  -19.307  42.178  85.220  1  4 
+Z  C5*   .  C  0  -18.592  41.289  86.108  1  5 
+Z  C4*   .  C  0  -19.123  39.881  85.986  1  6 
+Z  O4*   .  O  0  -18.724  39.267  84.747  1  7 
+Z  C3*   .  C  0  -18.581  38.952  87.059  1  8 
+Z  O3*   .  O  0  -19.449  39.080  88.181  1  9 
+Z  C2*   .  C  0  -18.727  37.580  86.427  1  10
+Z  C1*   .  C  0  -18.724  37.856  84.924  1  11
+Z  N1    .  N  0  -17.632  37.273  84.118  1  12
+Z  C2    .  C  0  -17.651  37.469  82.744  1  13
+Z  O2    .  O  0  -18.555  38.171  82.253  1  14
+Z  N3    .  N  0  -16.691  36.899  81.982  1  15
+Z  C4    .  C  0  -15.726  36.172  82.550  1  16
+Z  C5    .  C  0  -15.618  36.054  83.962  1  17
+Z  C6    .  C  0  -16.430  36.867  84.705  1  18
+Z  O3P   .  O  0  ?        ?       ?       1  19
+Z  H4    .  H  0  ?        ?       ?       1  20
+Z  H5    .  H  0  ?        ?       ?       1  21
+Z  H6    .  H  0  ?        ?       ?       1  22
+Z  H1*   .  H  0  ?        ?       ?       1  23
+Z  1H2*  .  H  0  ?        ?       ?       0  24
+Z  2H2*  .  H  0  ?        ?       ?       0  25
+Z  H3*   .  H  0  ?        ?       ?       1  26
+Z  H3T   .  H  0  ?        ?       ?       1  27
+Z  H4*   .  H  0  ?        ?       ?       1  28
+Z  1H5*  .  H  0  ?        ?       ?       0  29
+Z  2H5*  .  H  0  ?        ?       ?       0  30
+Z  3HOP  .  H  0  ?        ?       ?       0  31
+Z  2HOP  .  H  0  ?        ?       ?       0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+Z  P    O1P   DOUB  1 
+Z  P    O2P   SING  2 
+Z  P    O5*   SING  3 
+Z  P    O3P   SING  4 
+Z  O2P  2HOP  SING  5 
+Z  O5*  C5*   SING  6 
+Z  C5*  C4*   SING  7 
+Z  C5*  1H5*  SING  8 
+Z  C5*  2H5*  SING  9 
+Z  C4*  O4*   SING  10
+Z  C4*  C3*   SING  11
+Z  C4*  H4*   SING  12
+Z  O4*  C1*   SING  13
+Z  C3*  O3*   SING  14
+Z  C3*  C2*   SING  15
+Z  C3*  H3*   SING  16
+Z  O3*  H3T   SING  17
+Z  C2*  C1*   SING  18
+Z  C2*  1H2*  SING  19
+Z  C2*  2H2*  SING  20
+Z  C1*  N1    SING  21
+Z  C1*  H1*   SING  22
+Z  N1   C2    SING  23
+Z  N1   C6    SING  24
+Z  C2   O2    DOUB  25
+Z  C2   N3    SING  26
+Z  N3   C4    DOUB  27
+Z  C4   C5    SING  28
+Z  C4   H4    SING  29
+Z  C5   C6    DOUB  30
+Z  C5   H5    SING  31
+Z  C6   H6    SING  32
+Z  O3P  3HOP  SING  33
+#

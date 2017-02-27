@@ -1,0 +1,83 @@
+data_MXY
+#
+_chem_comp.id                   MXY
+_chem_comp.name                 '2-O-METHYL FUCOSE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MXY  C1    .  C  0  ?  ?  ?  1  1 
+MXY  C2    .  C  0  ?  ?  ?  1  2 
+MXY  C3    .  C  0  ?  ?  ?  1  3 
+MXY  C4    .  C  0  ?  ?  ?  1  4 
+MXY  C5    .  C  0  ?  ?  ?  1  5 
+MXY  O2    .  O  0  ?  ?  ?  1  6 
+MXY  O3    .  O  0  ?  ?  ?  1  7 
+MXY  O4    .  O  0  ?  ?  ?  1  8 
+MXY  O5    .  O  0  ?  ?  ?  1  9 
+MXY  CM    .  C  0  ?  ?  ?  1  10
+MXY  C6    .  C  0  ?  ?  ?  1  11
+MXY  OGL   .  O  0  ?  ?  ?  1  12
+MXY  HO4   .  H  0  ?  ?  ?  1  13
+MXY  H4    .  H  0  ?  ?  ?  1  14
+MXY  H5    .  H  0  ?  ?  ?  1  15
+MXY  1H6   .  H  0  ?  ?  ?  0  16
+MXY  2H6   .  H  0  ?  ?  ?  0  17
+MXY  3H6   .  H  0  ?  ?  ?  0  18
+MXY  HO3   .  H  0  ?  ?  ?  1  19
+MXY  H3    .  H  0  ?  ?  ?  1  20
+MXY  H2    .  H  0  ?  ?  ?  1  21
+MXY  1HCM  .  H  0  ?  ?  ?  0  22
+MXY  2HCM  .  H  0  ?  ?  ?  0  23
+MXY  3HCM  .  H  0  ?  ?  ?  0  24
+MXY  HOG   .  H  0  ?  ?  ?  1  25
+MXY  H1    .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MXY  C1   C2    SING  1 
+MXY  C1   O5    SING  2 
+MXY  C1   OGL   SING  3 
+MXY  C1   H1    SING  4 
+MXY  C2   C3    SING  5 
+MXY  C2   O2    SING  6 
+MXY  C2   H2    SING  7 
+MXY  C3   C4    SING  8 
+MXY  C3   O3    SING  9 
+MXY  C3   H3    SING  10
+MXY  C4   C5    SING  11
+MXY  C4   O4    SING  12
+MXY  C4   H4    SING  13
+MXY  C5   O5    SING  14
+MXY  C5   C6    SING  15
+MXY  C5   H5    SING  16
+MXY  O2   CM    SING  17
+MXY  O3   HO3   SING  18
+MXY  O4   HO4   SING  19
+MXY  CM   1HCM  SING  20
+MXY  CM   2HCM  SING  21
+MXY  CM   3HCM  SING  22
+MXY  C6   1H6   SING  23
+MXY  C6   2H6   SING  24
+MXY  C6   3H6   SING  25
+MXY  OGL  HOG   SING  26
+#

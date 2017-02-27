@@ -1,0 +1,106 @@
+data_BRC
+#
+_chem_comp.id                   BRC
+_chem_comp.name                 '12-BROMODODECANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H23 O2 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        279.216
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRC  C1    .  C   0  ?  ?  ?  1  1 
+BRC  OE1   .  O   0  ?  ?  ?  1  2 
+BRC  OE2   .  O   0  ?  ?  ?  1  3 
+BRC  C2    .  C   0  ?  ?  ?  1  4 
+BRC  C3    .  C   0  ?  ?  ?  1  5 
+BRC  C4    .  C   0  ?  ?  ?  1  6 
+BRC  C5    .  C   0  ?  ?  ?  1  7 
+BRC  C6    .  C   0  ?  ?  ?  1  8 
+BRC  C7    .  C   0  ?  ?  ?  1  9 
+BRC  C8    .  C   0  ?  ?  ?  1  10
+BRC  C9    .  C   0  ?  ?  ?  1  11
+BRC  C10   .  C   0  ?  ?  ?  1  12
+BRC  C11   .  C   0  ?  ?  ?  1  13
+BRC  C12   .  C   0  ?  ?  ?  1  14
+BRC  BR1   .  BR  0  ?  ?  ?  0  15
+BRC  HO2   .  H   0  ?  ?  ?  1  16
+BRC  1H2   .  H   0  ?  ?  ?  0  17
+BRC  2H2   .  H   0  ?  ?  ?  0  18
+BRC  1H3   .  H   0  ?  ?  ?  0  19
+BRC  2H3   .  H   0  ?  ?  ?  0  20
+BRC  1H4   .  H   0  ?  ?  ?  0  21
+BRC  2H4   .  H   0  ?  ?  ?  0  22
+BRC  1H5   .  H   0  ?  ?  ?  0  23
+BRC  2H5   .  H   0  ?  ?  ?  0  24
+BRC  1H6   .  H   0  ?  ?  ?  0  25
+BRC  2H6   .  H   0  ?  ?  ?  0  26
+BRC  1H7   .  H   0  ?  ?  ?  0  27
+BRC  2H7   .  H   0  ?  ?  ?  0  28
+BRC  1H8   .  H   0  ?  ?  ?  0  29
+BRC  2H8   .  H   0  ?  ?  ?  0  30
+BRC  1H9   .  H   0  ?  ?  ?  0  31
+BRC  2H9   .  H   0  ?  ?  ?  0  32
+BRC  1H10  .  H   0  ?  ?  ?  0  33
+BRC  2H10  .  H   0  ?  ?  ?  0  34
+BRC  1H11  .  H   0  ?  ?  ?  0  35
+BRC  2H11  .  H   0  ?  ?  ?  0  36
+BRC  1H12  .  H   0  ?  ?  ?  0  37
+BRC  2H12  .  H   0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRC  C1   OE1   DOUB  1 
+BRC  C1   OE2   SING  2 
+BRC  C1   C2    SING  3 
+BRC  OE2  HO2   SING  4 
+BRC  C2   C3    SING  5 
+BRC  C2   1H2   SING  6 
+BRC  C2   2H2   SING  7 
+BRC  C3   C4    SING  8 
+BRC  C3   1H3   SING  9 
+BRC  C3   2H3   SING  10
+BRC  C4   C5    SING  11
+BRC  C4   1H4   SING  12
+BRC  C4   2H4   SING  13
+BRC  C5   C6    SING  14
+BRC  C5   1H5   SING  15
+BRC  C5   2H5   SING  16
+BRC  C6   C7    SING  17
+BRC  C6   1H6   SING  18
+BRC  C6   2H6   SING  19
+BRC  C7   C8    SING  20
+BRC  C7   1H7   SING  21
+BRC  C7   2H7   SING  22
+BRC  C8   C9    SING  23
+BRC  C8   1H8   SING  24
+BRC  C8   2H8   SING  25
+BRC  C9   C10   SING  26
+BRC  C9   1H9   SING  27
+BRC  C9   2H9   SING  28
+BRC  C10  C11   SING  29
+BRC  C10  1H10  SING  30
+BRC  C10  2H10  SING  31
+BRC  C11  C12   SING  32
+BRC  C11  1H11  SING  33
+BRC  C11  2H11  SING  34
+BRC  C12  BR1   SING  35
+BRC  C12  1H12  SING  36
+BRC  C12  2H12  SING  37
+#

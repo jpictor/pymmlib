@@ -1,0 +1,88 @@
+data_HPQ
+#
+_chem_comp.id                       HPQ
+_chem_comp.name                     HOMOPHENYLALANINYLMETHANE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H15 N1 O1'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            177.246
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPQ  N    .  N  0  ?  ?  ?  1  1 
+HPQ  CA   .  C  0  ?  ?  ?  1  2 
+HPQ  C    .  C  0  ?  ?  ?  1  3 
+HPQ  O    .  O  0  ?  ?  ?  1  4 
+HPQ  CB   .  C  0  ?  ?  ?  1  5 
+HPQ  CG   .  C  0  ?  ?  ?  1  6 
+HPQ  CD   .  C  0  ?  ?  ?  1  7 
+HPQ  CE1  .  C  0  ?  ?  ?  1  8 
+HPQ  CE2  .  C  0  ?  ?  ?  1  9 
+HPQ  CZ1  .  C  0  ?  ?  ?  1  10
+HPQ  CZ2  .  C  0  ?  ?  ?  1  11
+HPQ  CH   .  C  0  ?  ?  ?  1  12
+HPQ  CM   .  C  0  ?  ?  ?  1  13
+HPQ  1HN  .  H  0  ?  ?  ?  0  14
+HPQ  2HN  .  H  0  ?  ?  ?  0  15
+HPQ  HA   .  H  0  ?  ?  ?  1  16
+HPQ  1HB  .  H  0  ?  ?  ?  0  17
+HPQ  2HB  .  H  0  ?  ?  ?  0  18
+HPQ  1HG  .  H  0  ?  ?  ?  0  19
+HPQ  2HG  .  H  0  ?  ?  ?  0  20
+HPQ  1HE  .  H  0  ?  ?  ?  0  21
+HPQ  2HE  .  H  0  ?  ?  ?  0  22
+HPQ  1HZ  .  H  0  ?  ?  ?  0  23
+HPQ  2HZ  .  H  0  ?  ?  ?  0  24
+HPQ  1HH  .  H  0  ?  ?  ?  0  25
+HPQ  1HM  .  H  0  ?  ?  ?  0  26
+HPQ  2HM  .  H  0  ?  ?  ?  0  27
+HPQ  3HM  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPQ  N    1HN  SING  1 
+HPQ  N    2HN  SING  2 
+HPQ  N    CA   SING  3 
+HPQ  CA   C    SING  4 
+HPQ  CA   CB   SING  5 
+HPQ  CA   HA   SING  6 
+HPQ  C    O    DOUB  7 
+HPQ  C    CM   SING  8 
+HPQ  CB   CG   SING  9 
+HPQ  CB   1HB  SING  10
+HPQ  CB   2HB  SING  11
+HPQ  CG   CD   SING  12
+HPQ  CG   1HG  SING  13
+HPQ  CG   2HG  SING  14
+HPQ  CD   CE1  DOUB  15
+HPQ  CD   CE2  SING  16
+HPQ  CE1  CZ1  SING  17
+HPQ  CE1  1HE  SING  18
+HPQ  CE2  CZ2  DOUB  19
+HPQ  CE2  2HE  SING  20
+HPQ  CZ1  CH   DOUB  21
+HPQ  CZ1  1HZ  SING  22
+HPQ  CZ2  CH   SING  23
+HPQ  CZ2  2HZ  SING  24
+HPQ  CH   1HH  SING  25
+HPQ  CM   1HM  SING  26
+HPQ  CM   2HM  SING  27
+HPQ  CM   3HM  SING  28
+#

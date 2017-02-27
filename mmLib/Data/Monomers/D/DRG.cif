@@ -1,0 +1,85 @@
+data_DRG
+#
+_chem_comp.id                   DRG
+_chem_comp.name                 5,6-DIHYDRO-BENZO[H]CINNOLIN-3-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H11 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        197.239
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DRG  C4    .  C  0  25.540  30.363  12.390  1  1 
+DRG  C14   .  C  0  24.480  29.461  12.106  1  2 
+DRG  C5    .  C  0  23.387  29.236  13.159  1  3 
+DRG  C6    .  C  0  22.248  28.270  12.843  1  4 
+DRG  C11   .  C  0  22.237  27.561  11.485  1  5 
+DRG  C7    .  C  0  21.178  26.674  11.202  1  6 
+DRG  C8    .  C  0  21.132  26.005  9.962   1  7 
+DRG  C9    .  C  0  22.152  26.223  9.008   1  8 
+DRG  C10   .  C  0  23.222  27.107  9.273   1  9 
+DRG  C12   .  C  0  23.278  27.787  10.518  1  10
+DRG  C13   .  C  0  24.439  28.777  10.850  1  11
+DRG  N1    .  N  0  25.426  29.016  9.970   1  12
+DRG  N2    .  N  0  26.437  29.874  10.234  1  13
+DRG  C3    .  C  0  26.530  30.561  11.414  1  14
+DRG  N3    .  N  0  27.542  31.402  11.633  1  15
+DRG  HC4   .  H  0  ?       ?       ?       1  16
+DRG  1HC5  .  H  0  ?       ?       ?       0  17
+DRG  2HC5  .  H  0  ?       ?       ?       0  18
+DRG  1HC6  .  H  0  ?       ?       ?       0  19
+DRG  2HC6  .  H  0  ?       ?       ?       0  20
+DRG  HC7   .  H  0  ?       ?       ?       1  21
+DRG  HC8   .  H  0  ?       ?       ?       1  22
+DRG  HC9   .  H  0  ?       ?       ?       1  23
+DRG  CH10  .  H  0  ?       ?       ?       0  24
+DRG  1HN3  .  H  0  ?       ?       ?       0  25
+DRG  2HN3  .  H  0  ?       ?       ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DRG  C4   C14   AROM  1 
+DRG  C4   C3    AROM  2 
+DRG  C4   HC4   SING  3 
+DRG  C14  C5    SING  4 
+DRG  C14  C13   AROM  5 
+DRG  C5   C6    SING  6 
+DRG  C5   1HC5  SING  7 
+DRG  C5   2HC5  SING  8 
+DRG  C6   C11   SING  9 
+DRG  C6   1HC6  SING  10
+DRG  C6   2HC6  SING  11
+DRG  C11  C7    AROM  12
+DRG  C11  C12   AROM  13
+DRG  C7   C8    AROM  14
+DRG  C7   HC7   SING  15
+DRG  C8   C9    AROM  16
+DRG  C8   HC8   SING  17
+DRG  C9   C10   AROM  18
+DRG  C9   HC9   SING  19
+DRG  C10  C12   AROM  20
+DRG  C10  CH10  SING  21
+DRG  C12  C13   SING  22
+DRG  C13  N1    AROM  23
+DRG  N1   N2    AROM  24
+DRG  N2   C3    AROM  25
+DRG  C3   N3    SING  26
+DRG  N3   1HN3  SING  27
+DRG  N3   2HN3  SING  28
+#

@@ -1,0 +1,67 @@
+data_WO3
+#
+_chem_comp.id                   WO3
+_chem_comp.name                 'TRI-TUNGSTEN(VI) OXIDE COMPLEX'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O13 W3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        759.542
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+WO3  WA   .  W  0  55.236  33.149  41.648  1  N  1 
+WO3  WB   .  W  0  58.278  34.664  41.630  1  N  2 
+WO3  WC   .  W  0  58.088  31.261  41.669  1  N  3 
+WO3  O    .  O  0  57.178  33.037  42.749  1  N  4 
+WO3  O1A  .  O  0  54.056  33.302  40.377  1  N  5 
+WO3  O2A  .  O  0  54.685  34.152  43.003  1  N  6 
+WO3  O3A  .  O  0  56.307  34.670  40.885  1  N  7 
+WO3  O4A  .  O  0  54.290  31.420  42.600  1  N  8 
+WO3  O1B  .  O  0  58.984  35.614  40.375  1  N  9 
+WO3  O2B  .  O  0  59.439  34.689  43.011  1  N  10
+WO3  O3B  .  O  0  59.059  32.939  40.869  1  N  11
+WO3  O4B  .  O  0  57.270  36.350  42.600  1  N  12
+WO3  O1C  .  O  0  58.545  30.156  40.354  1  N  13
+WO3  O2C  .  O  0  57.505  30.273  43.029  1  N  14
+WO3  O3C  .  O  0  56.196  31.445  40.888  1  N  15
+WO3  O4C  .  O  0  60.050  31.310  42.600  1  N  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+WO3  WA  O1A  DOUB  N  1 
+WO3  WA  O3A  DOUB  N  2 
+WO3  WA  O3C  DOUB  N  3 
+WO3  WA  O4A  DOUB  N  4 
+WO3  WA  O    DOUB  N  5 
+WO3  WA  O2A  DOUB  N  6 
+WO3  WB  O1B  DOUB  N  7 
+WO3  WB  O3B  DOUB  N  8 
+WO3  WB  O3A  DOUB  N  9 
+WO3  WB  O4B  DOUB  N  10
+WO3  WB  O    DOUB  N  11
+WO3  WB  O2B  DOUB  N  12
+WO3  WC  O1C  DOUB  N  13
+WO3  WC  O3B  DOUB  N  14
+WO3  WC  O3C  DOUB  N  15
+WO3  WC  O4C  DOUB  N  16
+WO3  WC  O    DOUB  N  17
+WO3  WC  O2C  DOUB  N  18
+#

@@ -1,0 +1,111 @@
+data_QPP
+#
+_chem_comp.id                   QPP
+_chem_comp.name                 N-(5-METHYL-1H-PYRAZOL-3-YL)-2-PHENYLQUINAZOLIN-4-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H15 N5'
+_chem_comp.pdbx_synonyms        5,6-DIHYDRO-BENZO[H]CINNOLIN-3-YLAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        301.350
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+QPP  CAK   .  C  0  -13.183  -84.903  -35.55   1  1 
+QPP  CAL   .  C  0  -13.173  -85.724  -34.426  1  2 
+QPP  CAM   .  C  0  -13.921  -86.91   -34.406  1  3 
+QPP  CAN   .  C  0  -14.661  -87.255  -35.52   1  4 
+QPP  CAO   .  C  0  -14.671  -86.443  -36.642  1  5 
+QPP  CAP   .  C  0  -13.92   -85.263  -36.688  1  6 
+QPP  C2    .  C  0  -13.933  -84.423  -37.82   1  7 
+QPP  N1    .  N  0  -12.891  -83.603  -38.076  1  8 
+QPP  N3    .  N  0  -15.008  -84.391  -38.637  1  9 
+QPP  C4    .  C  0  -15.071  -83.559  -39.708  1  10
+QPP  CAA   .  C  0  -16.198  -83.534  -40.544  1  11
+QPP  CAB   .  C  0  -16.266  -82.696  -41.67   1  12
+QPP  CAC   .  C  0  -15.179  -81.865  -41.975  1  13
+QPP  CAD   .  C  0  -14.062  -81.888  -41.131  1  14
+QPP  C5    .  C  0  -13.994  -82.732  -40.002  1  15
+QPP  C6    .  C  0  -12.874  -82.763  -39.151  1  16
+QPP  NAQ   .  N  0  -11.832  -81.932  -39.408  1  17
+QPP  CAR   .  C  0  -10.708  -81.851  -38.674  1  18
+QPP  CAV   .  C  0  -10.208  -82.712  -37.778  1  19
+QPP  CAU   .  C  0  -9.073   -82.137  -37.399  1  20
+QPP  CAW   .  C  0  -8.088   -82.713  -36.387  1  21
+QPP  NAT   .  N  0  -8.904   -80.979  -38.031  1  22
+QPP  NAS   .  N  0  -9.876   -80.829  -38.78   1  23
+QPP  HAK   .  H  0  -12.605  -83.964  -35.539  1  24
+QPP  HAL   .  H  0  -12.571  -85.434  -33.549  1  25
+QPP  HAM   .  H  0  -13.927  -87.567  -33.52   1  26
+QPP  HAN   .  H  0  -15.25   -88.188  -35.514  1  27
+QPP  HAO   .  H  0  -15.284  -86.74   -37.509  1  28
+QPP  HAA   .  H  0  -17.053  -84.19   -40.31   1  29
+QPP  HAB   .  H  0  -17.165  -82.691  -42.309  1  30
+QPP  HAC   .  H  0  -15.202  -81.207  -42.86   1  31
+QPP  HAD   .  H  0  -13.213  -81.223  -41.362  1  32
+QPP  HAQ   .  H  0  -12.216  -80.989  -39.461  1  33
+QPP  HAV   .  H  0  -10.632  -83.67   -37.433  1  34
+QPP  1HAW  .  H  0  -7.824   -83.735  -36.745  0  35
+QPP  2HAW  .  H  0  -8.669   -82.917  -35.457  0  36
+QPP  3HAW  .  H  0  -7.135   -82.23   -36.069  0  37
+QPP  HAT   .  H  0  -8.763   -80.193  -37.396  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+QPP  CAK  CAL   SING  1 
+QPP  CAK  CAP   DOUB  2 
+QPP  CAK  HAK   SING  3 
+QPP  CAL  CAM   DOUB  4 
+QPP  CAL  HAL   SING  5 
+QPP  CAM  CAN   SING  6 
+QPP  CAM  HAM   SING  7 
+QPP  CAN  CAO   DOUB  8 
+QPP  CAN  HAN   SING  9 
+QPP  CAO  CAP   SING  10
+QPP  CAO  HAO   SING  11
+QPP  CAP  C2    SING  12
+QPP  C2   N1    DOUB  13
+QPP  C2   N3    SING  14
+QPP  N1   C6    SING  15
+QPP  N3   C4    DOUB  16
+QPP  C4   CAA   SING  17
+QPP  C4   C5    SING  18
+QPP  CAA  CAB   DOUB  19
+QPP  CAA  HAA   SING  20
+QPP  CAB  CAC   SING  21
+QPP  CAB  HAB   SING  22
+QPP  CAC  CAD   DOUB  23
+QPP  CAC  HAC   SING  24
+QPP  CAD  C5    SING  25
+QPP  CAD  HAD   SING  26
+QPP  C5   C6    DOUB  27
+QPP  C6   NAQ   SING  28
+QPP  NAQ  CAR   SING  29
+QPP  NAQ  HAQ   SING  30
+QPP  CAR  CAV   SING  31
+QPP  CAR  NAS   DOUB  32
+QPP  CAV  CAU   DOUB  33
+QPP  CAV  HAV   SING  34
+QPP  CAU  CAW   SING  35
+QPP  CAU  NAT   SING  36
+QPP  CAW  1HAW  SING  37
+QPP  CAW  2HAW  SING  38
+QPP  CAW  3HAW  SING  39
+QPP  NAT  NAS   SING  40
+QPP  NAT  HAT   SING  41
+#

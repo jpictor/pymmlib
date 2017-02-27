@@ -1,0 +1,52 @@
+data_2OP
+#
+_chem_comp.id                   2OP
+_chem_comp.name                 (2S)-2-HYDROXYPROPANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C3 H6 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        74.079
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2OP  C    .  C  0  72.132  118.619  101.821  1  1 
+2OP  O    .  O  0  72.826  117.630  102.047  1  2 
+2OP  CB   .  C  0  69.874  118.093  100.924  1  3 
+2OP  OHN  .  O  0  71.899  117.878  99.508   1  4 
+2OP  CA   .  C  0  71.242  118.679  100.586  1  5 
+2OP  1HB  .  H  0  ?       ?        ?        0  6 
+2OP  2HB  .  H  0  ?       ?        ?        0  7 
+2OP  3HB  .  H  0  ?       ?        ?        0  8 
+2OP  HA   .  H  0  ?       ?        ?        1  9 
+2OP  HHN  .  H  0  ?       ?        ?        1  10
+2OP  H    .  H  0  ?       ?        ?        1  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2OP  C    CA   SING  1 
+2OP  C    O    DOUB  2 
+2OP  C    H    SING  3 
+2OP  CB   CA   SING  4 
+2OP  CB   1HB  SING  5 
+2OP  CB   2HB  SING  6 
+2OP  CB   3HB  SING  7 
+2OP  OHN  CA   SING  8 
+2OP  OHN  HHN  SING  9 
+2OP  CA   HA   SING  10
+#

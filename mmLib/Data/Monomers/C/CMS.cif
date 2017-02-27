@@ -1,0 +1,64 @@
+data_CMS
+#
+_chem_comp.id                   CMS
+_chem_comp.name                 'CARBAMOYL SARCOSINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H8 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        132.119
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CMS  C1    .  C  0  ?  ?  ?  1  1 
+CMS  C2    .  C  0  ?  ?  ?  1  2 
+CMS  C3    .  C  0  ?  ?  ?  1  3 
+CMS  C4    .  C  0  ?  ?  ?  1  4 
+CMS  N1    .  N  0  ?  ?  ?  1  5 
+CMS  N3    .  N  0  ?  ?  ?  1  6 
+CMS  O1    .  O  0  ?  ?  ?  1  7 
+CMS  O2    .  O  0  ?  ?  ?  1  8 
+CMS  O3    .  O  0  ?  ?  ?  1  9 
+CMS  1H2   .  H  0  ?  ?  ?  0  10
+CMS  2H2   .  H  0  ?  ?  ?  0  11
+CMS  3H2   .  H  0  ?  ?  ?  0  12
+CMS  1H3   .  H  0  ?  ?  ?  0  13
+CMS  2H3   .  H  0  ?  ?  ?  0  14
+CMS  1HN1  .  H  0  ?  ?  ?  0  15
+CMS  2HN1  .  H  0  ?  ?  ?  0  16
+CMS  HO2   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CMS  C1  N1    SING  1 
+CMS  C1  N3    SING  2 
+CMS  C1  O3    DOUB  3 
+CMS  C2  N3    SING  4 
+CMS  C2  1H2   SING  5 
+CMS  C2  2H2   SING  6 
+CMS  C2  3H2   SING  7 
+CMS  C3  N3    SING  8 
+CMS  C3  C4    SING  9 
+CMS  C3  1H3   SING  10
+CMS  C3  2H3   SING  11
+CMS  C4  O1    DOUB  12
+CMS  C4  O2    SING  13
+CMS  N1  1HN1  SING  14
+CMS  N1  2HN1  SING  15
+CMS  O2  HO2   SING  16
+#

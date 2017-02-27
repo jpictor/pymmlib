@@ -1,0 +1,104 @@
+data_HTM
+#
+_chem_comp.id                   HTM
+_chem_comp.name                 '6-(3-HYDROXYPROPOXY)-5-ACETAMIDO-5,6-DIHYDRO-4-HYDROXY-4H-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N1 O7'
+_chem_comp.pdbx_synonyms        '3-HYDROXYPROPYL ETHER MIMETIC'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        275.258
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTM  O1A   .  O  0  8.873   14.552  24.009  1  1 
+HTM  C1    .  C  0  9.591   13.593  24.664  1  2 
+HTM  C2    .  C  0  10.005  13.777  26.009  1  3 
+HTM  C3    .  C  0  10.821  12.701  26.737  1  4 
+HTM  C4    .  C  0  11.208  13.142  28.193  1  5 
+HTM  C5    .  C  0  10.174  14.101  28.798  1  6 
+HTM  C6    .  C  0  10.067  15.345  27.872  1  7 
+HTM  C7    .  C  0  8.875   17.617  27.465  1  8 
+HTM  C8    .  C  0  7.796   18.595  27.965  1  9 
+HTM  C9    .  C  0  6.469   18.318  27.596  1  10
+HTM  C10   .  C  0  10.045  14.240  31.324  1  11
+HTM  C11   .  C  0  10.746  14.701  32.580  1  12
+HTM  N5    .  N  0  10.648  14.454  30.153  1  13
+HTM  O1B   .  O  0  9.892   12.518  24.022  1  14
+HTM  O4    .  O  0  11.341  11.936  28.995  1  15
+HTM  O6    .  O  0  9.628   14.919  26.548  1  16
+HTM  O7    .  O  0  9.022   16.365  28.362  1  17
+HTM  O9    .  O  0  5.433   19.122  27.986  1  18
+HTM  O10   .  O  0  8.817   13.622  31.455  1  19
+HTM  H1A   .  H  0  ?       ?       ?       1  20
+HTM  H3    .  H  0  ?       ?       ?       1  21
+HTM  H4    .  H  0  ?       ?       ?       1  22
+HTM  HO4   .  H  0  ?       ?       ?       1  23
+HTM  H5    .  H  0  ?       ?       ?       1  24
+HTM  HN5   .  H  0  ?       ?       ?       1  25
+HTM  1H11  .  H  0  ?       ?       ?       0  26
+HTM  2H11  .  H  0  ?       ?       ?       0  27
+HTM  3H11  .  H  0  ?       ?       ?       0  28
+HTM  H6    .  H  0  ?       ?       ?       1  29
+HTM  1H7   .  H  0  ?       ?       ?       0  30
+HTM  2H7   .  H  0  ?       ?       ?       0  31
+HTM  1H8   .  H  0  ?       ?       ?       0  32
+HTM  2H8   .  H  0  ?       ?       ?       0  33
+HTM  1H9   .  H  0  ?       ?       ?       0  34
+HTM  2H9   .  H  0  ?       ?       ?       0  35
+HTM  HO9   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTM  O1A  H1A   SING  1 
+HTM  O1A  C1    SING  2 
+HTM  C1   O1B   DOUB  3 
+HTM  C1   C2    SING  4 
+HTM  C2   C3    DOUB  5 
+HTM  C2   O6    SING  6 
+HTM  C3   H3    SING  7 
+HTM  C3   C4    SING  8 
+HTM  C4   H4    SING  9 
+HTM  C4   O4    SING  10
+HTM  C4   C5    SING  11
+HTM  C5   H5    SING  12
+HTM  C5   N5    SING  13
+HTM  C5   C6    SING  14
+HTM  C6   H6    SING  15
+HTM  C6   O6    SING  16
+HTM  C6   O7    SING  17
+HTM  C7   O7    SING  18
+HTM  C7   1H7   SING  19
+HTM  C7   2H7   SING  20
+HTM  C7   C8    SING  21
+HTM  C8   1H8   SING  22
+HTM  C8   2H8   SING  23
+HTM  C8   C9    SING  24
+HTM  C9   1H9   SING  25
+HTM  C9   2H9   SING  26
+HTM  C9   O9    SING  27
+HTM  C10  N5    SING  28
+HTM  C10  O10   DOUB  29
+HTM  C10  C11   SING  30
+HTM  C11  1H11  SING  31
+HTM  C11  2H11  SING  32
+HTM  C11  3H11  SING  33
+HTM  N5   HN5   SING  34
+HTM  O4   HO4   SING  35
+HTM  O9   HO9   SING  36
+#

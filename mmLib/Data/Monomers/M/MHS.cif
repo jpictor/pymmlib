@@ -1,0 +1,78 @@
+data_MHS
+#
+_chem_comp.id                       MHS
+_chem_comp.name                     'N1-METHYLATED HISTIDINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H11 N3 O2'
+_chem_comp.mon_nstd_parent_comp_id  HIS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            169.183
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MHS  N    .  N  0  ?  ?  ?  1  1 
+MHS  CA   .  C  0  ?  ?  ?  1  2 
+MHS  C    .  C  0  ?  ?  ?  1  3 
+MHS  O    .  O  0  ?  ?  ?  1  4 
+MHS  CB   .  C  0  ?  ?  ?  1  5 
+MHS  CG   .  C  0  ?  ?  ?  1  6 
+MHS  ND1  .  N  0  ?  ?  ?  1  7 
+MHS  CD2  .  C  0  ?  ?  ?  1  8 
+MHS  CE1  .  C  0  ?  ?  ?  1  9 
+MHS  NE2  .  N  0  ?  ?  ?  1  10
+MHS  CM   .  C  0  ?  ?  ?  1  11
+MHS  OXT  .  O  0  ?  ?  ?  1  12
+MHS  H    .  H  0  ?  ?  ?  1  13
+MHS  HN2  .  H  0  ?  ?  ?  1  14
+MHS  HA   .  H  0  ?  ?  ?  1  15
+MHS  1HB  .  H  0  ?  ?  ?  0  16
+MHS  2HB  .  H  0  ?  ?  ?  0  17
+MHS  HD2  .  H  0  ?  ?  ?  1  18
+MHS  HE1  .  H  0  ?  ?  ?  1  19
+MHS  1HM  .  H  0  ?  ?  ?  0  20
+MHS  2HM  .  H  0  ?  ?  ?  0  21
+MHS  3HM  .  H  0  ?  ?  ?  0  22
+MHS  HXT  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MHS  N    CA   SING  1 
+MHS  N    H    SING  2 
+MHS  N    HN2  SING  3 
+MHS  CA   C    SING  4 
+MHS  CA   CB   SING  5 
+MHS  CA   HA   SING  6 
+MHS  C    O    DOUB  7 
+MHS  C    OXT  SING  8 
+MHS  CB   CG   SING  9 
+MHS  CB   1HB  SING  10
+MHS  CB   2HB  SING  11
+MHS  CG   ND1  SING  12
+MHS  CG   CD2  DOUB  13
+MHS  ND1  CE1  SING  14
+MHS  ND1  CM   SING  15
+MHS  CD2  NE2  SING  16
+MHS  CD2  HD2  SING  17
+MHS  CE1  NE2  DOUB  18
+MHS  CE1  HE1  SING  19
+MHS  CM   1HM  SING  20
+MHS  CM   2HM  SING  21
+MHS  CM   3HM  SING  22
+MHS  OXT  HXT  SING  23
+#

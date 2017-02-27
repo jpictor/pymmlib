@@ -1,0 +1,63 @@
+data_OXC
+#
+_chem_comp.id                   OXC
+_chem_comp.name                 'OXONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H5 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.101
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OXC  N1   .  N  0  30.265  27.584  36.605  1  1 
+OXC  C2   .  C  0  29.566  27.406  37.763  1  2 
+OXC  O2   .  O  0  28.391  27.777  37.860  1  3 
+OXC  N3   .  N  0  30.187  26.768  38.808  1  4 
+OXC  C4   .  C  0  31.449  26.391  38.663  1  5 
+OXC  N5   .  N  0  32.165  26.587  37.544  1  6 
+OXC  C6   .  C  0  31.558  27.212  36.381  1  7 
+OXC  O6   .  O  0  32.108  27.435  35.323  1  8 
+OXC  CG   .  C  0  32.163  25.770  39.834  1  9 
+OXC  OD1  .  O  0  33.401  25.632  39.690  1  10
+OXC  OD2  .  O  0  31.531  25.488  40.856  1  11
+OXC  HN1  .  H  0  ?       ?       ?       1  12
+OXC  HN5  .  H  0  ?       ?       ?       1  13
+OXC  H4   .  H  0  ?       ?       ?       1  14
+OXC  HN3  .  H  0  ?       ?       ?       1  15
+OXC  HD1  .  H  0  ?       ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OXC  N1   C2   SING  1 
+OXC  N1   C6   SING  2 
+OXC  N1   HN1  SING  3 
+OXC  C2   O2   DOUB  4 
+OXC  C2   N3   SING  5 
+OXC  N3   C4   SING  6 
+OXC  N3   HN3  SING  7 
+OXC  C4   N5   SING  8 
+OXC  C4   CG   SING  9 
+OXC  C4   H4   SING  10
+OXC  N5   C6   SING  11
+OXC  N5   HN5  SING  12
+OXC  C6   O6   DOUB  13
+OXC  CG   OD1  SING  14
+OXC  CG   OD2  DOUB  15
+OXC  OD1  HD1  SING  16
+#

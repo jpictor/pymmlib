@@ -1,0 +1,101 @@
+data_NDT
+#
+_chem_comp.id                   NDT
+_chem_comp.name                 2-(TOLUENE-4-SULFONYL)-2H-BENZO[D][1,2,3]DIAZABORININ-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H13 N2 O3 B1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        300.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NDT  C1    .  C  0  ?  ?  ?  1  1 
+NDT  C4    .  C  0  ?  ?  ?  1  2 
+NDT  C5    .  C  0  ?  ?  ?  1  3 
+NDT  C6    .  C  0  ?  ?  ?  1  4 
+NDT  C7    .  C  0  ?  ?  ?  1  5 
+NDT  C8    .  C  0  ?  ?  ?  1  6 
+NDT  C2    .  C  0  ?  ?  ?  1  7 
+NDT  N1    .  N  0  ?  ?  ?  1  8 
+NDT  N2    .  N  0  ?  ?  ?  1  9 
+NDT  B1    .  B  0  ?  ?  ?  1  10
+NDT  O1    .  O  0  ?  ?  ?  1  11
+NDT  S1    .  S  0  ?  ?  ?  1  12
+NDT  O2    .  O  0  ?  ?  ?  1  13
+NDT  O3    .  O  0  ?  ?  ?  1  14
+NDT  C15   .  C  0  ?  ?  ?  1  15
+NDT  C16   .  C  0  ?  ?  ?  1  16
+NDT  C17   .  C  0  ?  ?  ?  1  17
+NDT  C18   .  C  0  ?  ?  ?  1  18
+NDT  C19   .  C  0  ?  ?  ?  1  19
+NDT  C20   .  C  0  ?  ?  ?  1  20
+NDT  C21   .  C  0  ?  ?  ?  1  21
+NDT  H5    .  H  0  ?  ?  ?  1  22
+NDT  H6    .  H  0  ?  ?  ?  1  23
+NDT  H7    .  H  0  ?  ?  ?  1  24
+NDT  H8    .  H  0  ?  ?  ?  1  25
+NDT  H2    .  H  0  ?  ?  ?  1  26
+NDT  HO1   .  H  0  ?  ?  ?  1  27
+NDT  H16   .  H  0  ?  ?  ?  1  28
+NDT  H17   .  H  0  ?  ?  ?  1  29
+NDT  H19   .  H  0  ?  ?  ?  1  30
+NDT  H20   .  H  0  ?  ?  ?  1  31
+NDT  1H21  .  H  0  ?  ?  ?  0  32
+NDT  2H21  .  H  0  ?  ?  ?  0  33
+NDT  3H21  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NDT  C1   C2    SING  1 
+NDT  C1   C4    DOUB  2 
+NDT  C1   C8    SING  3 
+NDT  C4   C5    SING  4 
+NDT  C4   B1    SING  5 
+NDT  C5   C6    DOUB  6 
+NDT  C5   H5    SING  7 
+NDT  C6   C7    SING  8 
+NDT  C6   H6    SING  9 
+NDT  C7   C8    DOUB  10
+NDT  C7   H7    SING  11
+NDT  C8   H8    SING  12
+NDT  C2   N1    DOUB  13
+NDT  C2   H2    SING  14
+NDT  N1   N2    SING  15
+NDT  N2   B1    SING  16
+NDT  N2   S1    SING  17
+NDT  B1   O1    SING  18
+NDT  O1   HO1   SING  19
+NDT  S1   O2    DOUB  20
+NDT  S1   O3    DOUB  21
+NDT  S1   C15   SING  22
+NDT  C15  C16   DOUB  23
+NDT  C15  C20   SING  24
+NDT  C16  C17   SING  25
+NDT  C16  H16   SING  26
+NDT  C17  C18   DOUB  27
+NDT  C17  H17   SING  28
+NDT  C18  C19   SING  29
+NDT  C18  C21   SING  30
+NDT  C19  C20   DOUB  31
+NDT  C19  H19   SING  32
+NDT  C20  H20   SING  33
+NDT  C21  1H21  SING  34
+NDT  C21  2H21  SING  35
+NDT  C21  3H21  SING  36
+#

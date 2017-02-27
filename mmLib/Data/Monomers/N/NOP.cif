@@ -1,0 +1,85 @@
+data_NOP
+#
+_chem_comp.id                   NOP
+_chem_comp.name                 PYRIDOXAL-5'-PHOSPHATE-N-OXIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H10 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        263.143
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NOP  N1    .  N  1   ?  ?  ?  1  1 
+NOP  O1    .  O  -1  ?  ?  ?  1  2 
+NOP  C2    .  C  0   ?  ?  ?  1  3 
+NOP  C2A   .  C  0   ?  ?  ?  1  4 
+NOP  C3    .  C  0   ?  ?  ?  1  5 
+NOP  O3    .  O  0   ?  ?  ?  1  6 
+NOP  C4    .  C  0   ?  ?  ?  1  7 
+NOP  C4A   .  C  0   ?  ?  ?  1  8 
+NOP  O4A   .  O  0   ?  ?  ?  1  9 
+NOP  C5    .  C  0   ?  ?  ?  1  10
+NOP  C6    .  C  0   ?  ?  ?  1  11
+NOP  C5A   .  C  0   ?  ?  ?  1  12
+NOP  O4P   .  O  0   ?  ?  ?  1  13
+NOP  P     .  P  0   ?  ?  ?  1  14
+NOP  O1P   .  O  0   ?  ?  ?  1  15
+NOP  O2P   .  O  0   ?  ?  ?  1  16
+NOP  O3P   .  O  0   ?  ?  ?  1  17
+NOP  1H2A  .  H  0   ?  ?  ?  0  18
+NOP  2H2A  .  H  0   ?  ?  ?  0  19
+NOP  3H2A  .  H  0   ?  ?  ?  0  20
+NOP  HO3   .  H  0   ?  ?  ?  1  21
+NOP  H4A   .  H  0   ?  ?  ?  1  22
+NOP  1H5A  .  H  0   ?  ?  ?  0  23
+NOP  2H5A  .  H  0   ?  ?  ?  0  24
+NOP  H6    .  H  0   ?  ?  ?  1  25
+NOP  2HOP  .  H  0   ?  ?  ?  0  26
+NOP  3HOP  .  H  0   ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NOP  N1   C2    SING  1 
+NOP  N1   C6    DOUB  2 
+NOP  N1   O1    SING  3 
+NOP  C2   C2A   SING  4 
+NOP  C2   C3    DOUB  5 
+NOP  C2A  1H2A  SING  6 
+NOP  C2A  2H2A  SING  7 
+NOP  C2A  3H2A  SING  8 
+NOP  C3   O3    SING  9 
+NOP  C3   C4    SING  10
+NOP  O3   HO3   SING  11
+NOP  C4   C4A   SING  12
+NOP  C4   C5    DOUB  13
+NOP  C4A  O4A   DOUB  14
+NOP  C4A  H4A   SING  15
+NOP  C5   C6    SING  16
+NOP  C5   C5A   SING  17
+NOP  C6   H6    SING  18
+NOP  C5A  O4P   SING  19
+NOP  C5A  1H5A  SING  20
+NOP  C5A  2H5A  SING  21
+NOP  O4P  P     SING  22
+NOP  P    O1P   DOUB  23
+NOP  P    O2P   SING  24
+NOP  P    O3P   SING  25
+NOP  O2P  2HOP  SING  26
+NOP  O3P  3HOP  SING  27
+#

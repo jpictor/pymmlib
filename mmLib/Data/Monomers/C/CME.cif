@@ -1,0 +1,75 @@
+data_CME
+#
+_chem_comp.id                       CME
+_chem_comp.name                     S,S-(2-HYDROXYETHYL)THIOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O3 S2'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            197.267
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CME  N    .  N  0  ?  ?  ?  1  1 
+CME  CA   .  C  0  ?  ?  ?  1  2 
+CME  CB   .  C  0  ?  ?  ?  1  3 
+CME  SG   .  S  0  ?  ?  ?  1  4 
+CME  SD   .  S  0  ?  ?  ?  1  5 
+CME  CE   .  C  0  ?  ?  ?  1  6 
+CME  CZ   .  C  0  ?  ?  ?  1  7 
+CME  OH   .  O  0  ?  ?  ?  1  8 
+CME  C    .  C  0  ?  ?  ?  1  9 
+CME  O    .  O  0  ?  ?  ?  1  10
+CME  OXT  .  O  0  ?  ?  ?  1  11
+CME  1HN  .  H  0  ?  ?  ?  0  12
+CME  2HN  .  H  0  ?  ?  ?  0  13
+CME  HA   .  H  0  ?  ?  ?  1  14
+CME  1HB  .  H  0  ?  ?  ?  0  15
+CME  2HB  .  H  0  ?  ?  ?  0  16
+CME  1HE  .  H  0  ?  ?  ?  0  17
+CME  2HE  .  H  0  ?  ?  ?  0  18
+CME  1HZ  .  H  0  ?  ?  ?  0  19
+CME  2HZ  .  H  0  ?  ?  ?  0  20
+CME  HO   .  H  0  ?  ?  ?  1  21
+CME  HXT  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CME  N    CA   SING  1 
+CME  N    1HN  SING  2 
+CME  N    2HN  SING  3 
+CME  CA   CB   SING  4 
+CME  CA   C    SING  5 
+CME  CA   HA   SING  6 
+CME  CB   SG   SING  7 
+CME  CB   1HB  SING  8 
+CME  CB   2HB  SING  9 
+CME  SG   SD   SING  10
+CME  SD   CE   SING  11
+CME  CE   CZ   SING  12
+CME  CE   1HE  SING  13
+CME  CE   2HE  SING  14
+CME  CZ   OH   SING  15
+CME  CZ   1HZ  SING  16
+CME  CZ   2HZ  SING  17
+CME  OH   HO   SING  18
+CME  C    O    DOUB  19
+CME  C    OXT  SING  20
+CME  OXT  HXT  SING  21
+#

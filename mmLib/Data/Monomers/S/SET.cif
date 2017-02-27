@@ -1,0 +1,61 @@
+data_SET
+#
+_chem_comp.id                       SET
+_chem_comp.name                     AMINOSERINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H8 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            104.108
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SET  N     .  N  0  ?  ?  ?  1  1 
+SET  CA    .  C  0  ?  ?  ?  1  2 
+SET  CB    .  C  0  ?  ?  ?  1  3 
+SET  OG    .  O  0  ?  ?  ?  1  4 
+SET  NT    .  N  0  ?  ?  ?  1  5 
+SET  C     .  C  0  ?  ?  ?  1  6 
+SET  O     .  O  0  ?  ?  ?  1  7 
+SET  1HN   .  H  0  ?  ?  ?  0  8 
+SET  2HN   .  H  0  ?  ?  ?  0  9 
+SET  HA    .  H  0  ?  ?  ?  1  10
+SET  1HB   .  H  0  ?  ?  ?  0  11
+SET  2HB   .  H  0  ?  ?  ?  0  12
+SET  HOG   .  H  0  ?  ?  ?  1  13
+SET  1HNT  .  H  0  ?  ?  ?  0  14
+SET  2HNT  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SET  N   CA    SING  1 
+SET  N   1HN   SING  2 
+SET  N   2HN   SING  3 
+SET  CA  CB    SING  4 
+SET  CA  C     SING  5 
+SET  CA  HA    SING  6 
+SET  CB  OG    SING  7 
+SET  CB  1HB   SING  8 
+SET  CB  2HB   SING  9 
+SET  OG  HOG   SING  10
+SET  NT  C     SING  11
+SET  NT  1HNT  SING  12
+SET  NT  2HNT  SING  13
+SET  C   O     DOUB  14
+#

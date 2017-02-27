@@ -1,0 +1,85 @@
+data_BIH
+#
+_chem_comp.id                   BIH
+_chem_comp.name                 'NAPHTHALENE-2,6-DISULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H8 O6 S2'
+_chem_comp.pdbx_synonyms        '2,6-NAPHTHALENEDISULFONIC ACID; 2,6-NAPHTHALENEDISULPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        288.290
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIH  O31  .  O  0  26.391  21.226  3.322  1  1 
+BIH  S3   .  S  0  25.051  20.924  2.848  1  2 
+BIH  O32  .  O  0  24.102  21.979  3.199  1  3 
+BIH  O3   .  O  0  25.030  20.577  1.422  1  4 
+BIH  C2   .  C  0  24.590  19.587  3.715  1  5 
+BIH  C1   .  C  0  25.421  18.458  3.784  1  6 
+BIH  C    .  C  0  25.086  17.299  4.527  1  7 
+BIH  C8A  .  C  0  23.879  17.236  5.225  1  8 
+BIH  C5   .  C  0  23.475  16.108  5.973  1  9 
+BIH  C4A  .  C  0  23.011  18.421  5.170  1  10
+BIH  C4   .  C  0  23.370  19.546  4.407  1  11
+BIH  C9   .  C  0  21.817  18.364  5.878  1  12
+BIH  C8   .  C  0  21.451  17.221  6.598  1  13
+BIH  C7   .  C  0  22.273  16.085  6.679  1  14
+BIH  S6   .  S  0  21.799  14.773  7.589  1  15
+BIH  O6   .  O  0  20.783  14.007  6.860  1  16
+BIH  O61  .  O  0  22.957  13.899  7.726  1  17
+BIH  O1   .  O  0  21.292  15.219  8.894  1  18
+BIH  HO6  .  H  0  ?       ?       ?      1  19
+BIH  H8   .  H  0  ?       ?       ?      1  20
+BIH  H9   .  H  0  ?       ?       ?      1  21
+BIH  H4   .  H  0  ?       ?       ?      1  22
+BIH  H1   .  H  0  ?       ?       ?      1  23
+BIH  H    .  H  0  ?       ?       ?      1  24
+BIH  H5   .  H  0  ?       ?       ?      1  25
+BIH  HO3  .  H  0  ?       ?       ?      1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIH  O31  S3   DOUB  1 
+BIH  S3   C2   SING  2 
+BIH  S3   O32  DOUB  3 
+BIH  S3   O3   SING  4 
+BIH  O3   HO3  SING  5 
+BIH  C2   C4   AROM  6 
+BIH  C2   C1   AROM  7 
+BIH  C1   H1   SING  8 
+BIH  C1   C    AROM  9 
+BIH  C    H    SING  10
+BIH  C    C8A  AROM  11
+BIH  C8A  C4A  AROM  12
+BIH  C8A  C5   AROM  13
+BIH  C5   C7   AROM  14
+BIH  C5   H5   SING  15
+BIH  C4A  C9   AROM  16
+BIH  C4A  C4   AROM  17
+BIH  C4   H4   SING  18
+BIH  C9   C8   AROM  19
+BIH  C9   H9   SING  20
+BIH  C8   C7   AROM  21
+BIH  C8   H8   SING  22
+BIH  C7   S6   SING  23
+BIH  S6   O6   SING  24
+BIH  S6   O61  DOUB  25
+BIH  S6   O1   DOUB  26
+BIH  O6   HO6  SING  27
+#

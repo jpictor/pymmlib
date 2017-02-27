@@ -1,0 +1,62 @@
+data_ASP
+#
+_chem_comp.id                   ASP
+_chem_comp.name                 'ASPARTIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H7 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        133.104
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASP  N    .  N  0  ?  ?  ?  1  1 
+ASP  CA   .  C  0  ?  ?  ?  1  2 
+ASP  C    .  C  0  ?  ?  ?  1  3 
+ASP  O    .  O  0  ?  ?  ?  1  4 
+ASP  CB   .  C  0  ?  ?  ?  1  5 
+ASP  CG   .  C  0  ?  ?  ?  1  6 
+ASP  OD1  .  O  0  ?  ?  ?  1  7 
+ASP  OD2  .  O  0  ?  ?  ?  1  8 
+ASP  OXT  .  O  0  ?  ?  ?  1  9 
+ASP  H    .  H  0  ?  ?  ?  1  10
+ASP  HN2  .  H  0  ?  ?  ?  1  11
+ASP  HA   .  H  0  ?  ?  ?  1  12
+ASP  1HB  .  H  0  ?  ?  ?  0  13
+ASP  2HB  .  H  0  ?  ?  ?  0  14
+ASP  HD2  .  H  0  ?  ?  ?  1  15
+ASP  HXT  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASP  N    CA   SING  1 
+ASP  N    H    SING  2 
+ASP  N    HN2  SING  3 
+ASP  CA   C    SING  4 
+ASP  CA   CB   SING  5 
+ASP  CA   HA   SING  6 
+ASP  C    O    DOUB  7 
+ASP  C    OXT  SING  8 
+ASP  CB   CG   SING  9 
+ASP  CB   1HB  SING  10
+ASP  CB   2HB  SING  11
+ASP  CG   OD1  DOUB  12
+ASP  CG   OD2  SING  13
+ASP  OD2  HD2  SING  14
+ASP  OXT  HXT  SING  15
+#

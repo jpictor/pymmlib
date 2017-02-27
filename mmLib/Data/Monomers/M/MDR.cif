@@ -1,0 +1,97 @@
+data_MDR
+#
+_chem_comp.id                   MDR
+_chem_comp.name                 9-(2-DEOXY-BETA-D-RIBOFURANOSYL)-6-METHYLPURINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C11 H14 N4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        250.257
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MDR  C6'   .  C  0  85.614  65.785  15.158  1  1 
+MDR  C6    .  C  0  86.491  65.303  16.278  1  2 
+MDR  N1    .  N  0  86.486  63.994  16.768  1  3 
+MDR  C2    .  C  0  87.315  63.632  17.788  1  4 
+MDR  N3    .  N  0  88.189  64.476  18.398  1  5 
+MDR  C4    .  C  0  88.172  65.791  17.883  1  6 
+MDR  C5    .  C  0  87.359  66.255  16.847  1  7 
+MDR  N7    .  N  0  87.584  67.602  16.581  1  8 
+MDR  C8    .  C  0  88.505  67.904  17.442  1  9 
+MDR  N9    .  N  0  88.929  66.920  18.258  1  10
+MDR  C1'   .  C  0  89.974  67.152  19.268  1  11
+MDR  C2'   .  C  0  90.103  66.259  20.506  1  12
+MDR  C3'   .  C  0  91.053  65.184  20.117  1  13
+MDR  O3'   .  O  0  91.602  64.613  21.302  1  14
+MDR  C4'   .  C  0  92.037  65.961  19.269  1  15
+MDR  C5'   .  C  0  92.752  65.042  18.250  1  16
+MDR  O5'   .  O  0  93.787  65.722  17.510  1  17
+MDR  O4'   .  O  0  91.294  67.027  18.616  1  18
+MDR  1H6'  .  H  0  ?       ?       ?       0  19
+MDR  2H6'  .  H  0  ?       ?       ?       0  20
+MDR  3H6'  .  H  0  ?       ?       ?       0  21
+MDR  H2    .  H  0  ?       ?       ?       1  22
+MDR  H8    .  H  0  ?       ?       ?       1  23
+MDR  H1'   .  H  0  ?       ?       ?       1  24
+MDR  1H2'  .  H  0  ?       ?       ?       0  25
+MDR  2H2'  .  H  0  ?       ?       ?       0  26
+MDR  H3'   .  H  0  ?       ?       ?       1  27
+MDR  H1    .  H  0  ?       ?       ?       1  28
+MDR  H4'   .  H  0  ?       ?       ?       1  29
+MDR  1H5'  .  H  0  ?       ?       ?       0  30
+MDR  2H5'  .  H  0  ?       ?       ?       0  31
+MDR  H5'   .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MDR  C6'  C6    SING  1 
+MDR  C6'  1H6'  SING  2 
+MDR  C6'  2H6'  SING  3 
+MDR  C6'  3H6'  SING  4 
+MDR  C6   N1    DOUB  5 
+MDR  C6   C5    SING  6 
+MDR  N1   C2    SING  7 
+MDR  C2   N3    DOUB  8 
+MDR  C2   H2    SING  9 
+MDR  N3   C4    SING  10
+MDR  C4   C5    DOUB  11
+MDR  C4   N9    SING  12
+MDR  C5   N7    SING  13
+MDR  N7   C8    DOUB  14
+MDR  C8   N9    SING  15
+MDR  C8   H8    SING  16
+MDR  N9   C1'   SING  17
+MDR  C1'  C2'   SING  18
+MDR  C1'  O4'   SING  19
+MDR  C1'  H1'   SING  20
+MDR  C2'  C3'   SING  21
+MDR  C2'  1H2'  SING  22
+MDR  C2'  2H2'  SING  23
+MDR  C3'  O3'   SING  24
+MDR  C3'  C4'   SING  25
+MDR  C3'  H3'   SING  26
+MDR  O3'  H1    SING  27
+MDR  C4'  C5'   SING  28
+MDR  C4'  O4'   SING  29
+MDR  C4'  H4'   SING  30
+MDR  C5'  O5'   SING  31
+MDR  C5'  1H5'  SING  32
+MDR  C5'  2H5'  SING  33
+MDR  O5'  H5'   SING  34
+#

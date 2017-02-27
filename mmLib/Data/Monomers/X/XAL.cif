@@ -1,0 +1,114 @@
+data_XAL
+#
+_chem_comp.id                       XAL
+_chem_comp.name                     '[(1S,4R,6R)-6-HYDROXY-4-(ADENIN-9-YL)CYCLOHEX-2-EN-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H16 N5 O5 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            341.263
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XAL  P     .  P  0  4.103   -2.993  26.181  1  N  1 
+XAL  O1P   .  O  0  3.607   -2.601  27.478  1  N  2 
+XAL  O2P   .  O  0  4.069   -4.407  25.717  1  N  3 
+XAL  O5*   .  O  0  5.649   -2.533  25.989  1  N  4 
+XAL  C5*   .  C  0  6.112   -1.183  26.129  1  N  5 
+XAL  C4*   .  C  0  7.562   -1.017  25.811  1  N  6 
+XAL  C6*   .  C  0  7.687   -0.995  24.365  1  N  7 
+XAL  C7*   .  C  0  8.823   -1.278  23.740  1  N  8 
+XAL  C3*   .  C  0  8.453   -2.077  26.477  1  N  9 
+XAL  O3*   .  O  0  8.647   -1.643  27.806  1  N  10
+XAL  C2*   .  C  0  9.865   -2.065  25.851  1  N  11
+XAL  C1*   .  C  0  9.742   -2.377  24.335  1  N  12
+XAL  N9    .  N  0  9.353   -3.804  24.107  1  N  13
+XAL  C8    .  C  0  8.140   -4.439  24.100  1  N  14
+XAL  N7    .  N  0  8.238   -5.722  23.854  1  N  15
+XAL  C6    .  C  0  10.375  -7.082  23.411  1  Y  16
+XAL  N6    .  N  0  9.858   -8.300  23.233  1  N  17
+XAL  C5    .  C  0  9.603   -5.935  23.692  1  Y  18
+XAL  C4    .  C  0  10.308  -4.754  23.845  1  Y  19
+XAL  N3    .  N  0  11.632  -4.576  23.759  1  Y  20
+XAL  C2    .  C  0  12.258  -5.723  23.491  1  Y  21
+XAL  N1    .  N  0  11.708  -6.927  23.319  1  Y  22
+XAL  O3P   .  O  0  3.123   -2.331  25.395  1  N  23
+XAL  2HOP  .  H  0  4.334   -2.515  28.083  0  N  24
+XAL  1H5*  .  H  0  5.951   -0.871  27.172  0  N  25
+XAL  2H5*  .  H  0  5.548   -0.568  25.412  0  N  26
+XAL  H4*   .  H  0  7.929   -0.070  26.233  1  N  27
+XAL  H6*   .  H  0  6.820   -0.738  23.774  1  N  28
+XAL  H7*   .  H  0  9.101   -0.755  22.837  1  N  29
+XAL  H3*   .  H  0  7.988   -3.069  26.376  1  N  30
+XAL  H3T   .  H  0  8.691   -2.397  28.383  1  N  31
+XAL  1H2*  .  H  0  10.493  -2.827  26.337  0  N  32
+XAL  2H2*  .  H  0  10.328  -1.078  25.993  0  N  33
+XAL  H1*   .  H  0  10.697  -2.323  23.791  1  N  34
+XAL  H8    .  H  0  7.201   -3.935  24.278  1  N  35
+XAL  1HN6  .  H  0  9.729   -8.468  22.256  0  N  36
+XAL  2HN6  .  H  0  10.482  -8.985  23.609  0  N  37
+XAL  H2    .  H  0  13.333  -5.672  23.403  1  N  38
+XAL  3HOP  .  H  0  ?       ?       ?       0  N  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XAL  P    O1P   DOUB  N  1 
+XAL  P    O5*   SING  N  2 
+XAL  P    O2P   SING  N  3 
+XAL  P    O3P   SING  N  4 
+XAL  O2P  2HOP  SING  N  5 
+XAL  O5*  C5*   SING  N  6 
+XAL  C5*  C4*   SING  N  7 
+XAL  C5*  1H5*  SING  N  8 
+XAL  C5*  2H5*  SING  N  9 
+XAL  C4*  C6*   SING  N  10
+XAL  C4*  C3*   SING  N  11
+XAL  C4*  H4*   SING  N  12
+XAL  C6*  C7*   DOUB  N  13
+XAL  C6*  H6*   SING  N  14
+XAL  C7*  C1*   SING  N  15
+XAL  C7*  H7*   SING  N  16
+XAL  C3*  C2*   SING  N  17
+XAL  C3*  O3*   SING  N  18
+XAL  C3*  H3*   SING  N  19
+XAL  O3*  H3T   SING  N  20
+XAL  C2*  C1*   SING  N  21
+XAL  C2*  1H2*  SING  N  22
+XAL  C2*  2H2*  SING  N  23
+XAL  C1*  N9    SING  N  24
+XAL  C1*  H1*   SING  N  25
+XAL  N9   C4    SING  N  26
+XAL  N9   C8    SING  N  27
+XAL  C8   N7    DOUB  N  28
+XAL  C8   H8    SING  N  29
+XAL  N7   C5    SING  N  30
+XAL  C6   N6    SING  N  31
+XAL  C6   N1    DOUB  Y  32
+XAL  C6   C5    SING  Y  33
+XAL  N6   1HN6  SING  N  34
+XAL  N6   2HN6  SING  N  35
+XAL  C5   C4    DOUB  Y  36
+XAL  C4   N3    SING  Y  37
+XAL  N3   C2    DOUB  Y  38
+XAL  C2   N1    SING  Y  39
+XAL  C2   H2    SING  N  40
+XAL  O3P  3HOP  SING  N  41
+#

@@ -1,0 +1,77 @@
+data_RAA
+#
+_chem_comp.id                   RAA
+_chem_comp.name                 ALPHA-RHAMNOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RAA  C1    .  C  0  -9.923   24.793  33.539  1  1 
+RAA  C2    .  C  0  -10.821  25.940  33.046  1  2 
+RAA  O2    .  O  0  -11.954  26.101  33.890  1  3 
+RAA  C3    .  C  0  -11.265  25.657  31.606  1  4 
+RAA  O3    .  O  0  -12.146  26.679  31.177  1  5 
+RAA  C4    .  C  0  -11.958  24.291  31.512  1  6 
+RAA  O4    .  O  0  -12.300  24.005  30.162  1  7 
+RAA  C5    .  C  0  -11.037  23.197  32.061  1  8 
+RAA  O5    .  O  0  -10.627  23.528  33.410  1  9 
+RAA  C6    .  C  0  -11.762  21.853  32.048  1  10
+RAA  O1    .  O  0  ?        ?       ?       1  11
+RAA  HC1   .  H  0  ?        ?       ?       1  12
+RAA  HO1   .  H  0  ?        ?       ?       1  13
+RAA  HO2   .  H  0  ?        ?       ?       1  14
+RAA  HC2   .  H  0  ?        ?       ?       1  15
+RAA  HC3   .  H  0  ?        ?       ?       1  16
+RAA  HO3   .  H  0  ?        ?       ?       1  17
+RAA  HC4   .  H  0  ?        ?       ?       1  18
+RAA  HO4   .  H  0  ?        ?       ?       1  19
+RAA  HC5   .  H  0  ?        ?       ?       1  20
+RAA  1HC6  .  H  0  ?        ?       ?       0  21
+RAA  2HC6  .  H  0  ?        ?       ?       0  22
+RAA  3HC6  .  H  0  ?        ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RAA  C1  C2    SING  1 
+RAA  C1  O5    SING  2 
+RAA  C1  O1    SING  3 
+RAA  C1  HC1   SING  4 
+RAA  C2  O2    SING  5 
+RAA  C2  C3    SING  6 
+RAA  C2  HC2   SING  7 
+RAA  O2  HO2   SING  8 
+RAA  C3  O3    SING  9 
+RAA  C3  C4    SING  10
+RAA  C3  HC3   SING  11
+RAA  O3  HO3   SING  12
+RAA  C4  O4    SING  13
+RAA  C4  C5    SING  14
+RAA  C4  HC4   SING  15
+RAA  O4  HO4   SING  16
+RAA  C5  O5    SING  17
+RAA  C5  C6    SING  18
+RAA  C5  HC5   SING  19
+RAA  C6  1HC6  SING  20
+RAA  C6  2HC6  SING  21
+RAA  C6  3HC6  SING  22
+RAA  O1  HO1   SING  23
+#

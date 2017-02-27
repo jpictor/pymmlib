@@ -1,0 +1,105 @@
+data_SUG
+#
+_chem_comp.id                   SUG
+_chem_comp.name                 N~2~-(3-CARBOXYPROPANOYL)-L-ARGININE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H18 N4 O5'
+_chem_comp.pdbx_synonyms        N~2~-SUCCINYLARGININE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.276
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SUG  O2    .  O  0  7.878   53.814  71.830  1  1 
+SUG  N     .  N  0  11.282  54.226  72.752  1  2 
+SUG  CA    .  C  0  9.874   54.598  72.884  1  3 
+SUG  CB    .  C  0  9.731   56.119  72.977  1  4 
+SUG  CG    .  C  0  8.434   56.569  73.614  1  5 
+SUG  CD    .  C  0  8.019   57.964  73.182  1  6 
+SUG  NE    .  N  0  6.627   58.208  73.544  1  7 
+SUG  CZ    .  C  0  5.915   59.260  73.156  1  8 
+SUG  NH1   .  N  0  6.459   60.184  72.381  1  9 
+SUG  NH2   .  N  0  4.652   59.386  73.544  1  10
+SUG  C     .  C  0  9.089   54.080  71.687  1  11
+SUG  O     .  O  0  9.711   53.945  70.615  1  12
+SUG  CW    .  C  0  13.125  52.672  72.752  1  13
+SUG  CX    .  C  0  13.620  51.519  73.623  1  14
+SUG  CY    .  C  0  15.051  51.131  73.308  1  15
+SUG  OD1   .  O  0  15.403  51.131  72.112  1  16
+SUG  OD2   .  O  0  15.822  50.838  74.254  1  17
+SUG  CV    .  C  0  11.697  52.997  73.036  1  18
+SUG  OXT   .  O  0  10.965  52.145  73.525  1  19
+SUG  HH1   .  H  0  ?       ?       ?       1  20
+SUG  1HH2  .  H  0  ?       ?       ?       0  21
+SUG  2HH2  .  H  0  ?       ?       ?       0  22
+SUG  HNE   .  H  0  ?       ?       ?       1  23
+SUG  1HD   .  H  0  ?       ?       ?       0  24
+SUG  2HD   .  H  0  ?       ?       ?       0  25
+SUG  1HG   .  H  0  ?       ?       ?       0  26
+SUG  2HG   .  H  0  ?       ?       ?       0  27
+SUG  1HB   .  H  0  ?       ?       ?       0  28
+SUG  2HB   .  H  0  ?       ?       ?       0  29
+SUG  HA    .  H  0  ?       ?       ?       1  30
+SUG  HN    .  H  0  ?       ?       ?       1  31
+SUG  1HW   .  H  0  ?       ?       ?       0  32
+SUG  2HW   .  H  0  ?       ?       ?       0  33
+SUG  1HX   .  H  0  ?       ?       ?       0  34
+SUG  2HX   .  H  0  ?       ?       ?       0  35
+SUG  HD2   .  H  0  ?       ?       ?       1  36
+SUG  HO2   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SUG  O2   C     SING  1 
+SUG  O2   HO2   SING  2 
+SUG  N    CA    SING  3 
+SUG  N    CV    SING  4 
+SUG  N    HN    SING  5 
+SUG  CA   CB    SING  6 
+SUG  CA   C     SING  7 
+SUG  CA   HA    SING  8 
+SUG  CB   CG    SING  9 
+SUG  CB   1HB   SING  10
+SUG  CB   2HB   SING  11
+SUG  CG   CD    SING  12
+SUG  CG   1HG   SING  13
+SUG  CG   2HG   SING  14
+SUG  CD   NE    SING  15
+SUG  CD   1HD   SING  16
+SUG  CD   2HD   SING  17
+SUG  NE   CZ    SING  18
+SUG  NE   HNE   SING  19
+SUG  CZ   NH1   DOUB  20
+SUG  CZ   NH2   SING  21
+SUG  NH1  HH1   SING  22
+SUG  NH2  1HH2  SING  23
+SUG  NH2  2HH2  SING  24
+SUG  C    O     DOUB  25
+SUG  CW   CV    SING  26
+SUG  CW   CX    SING  27
+SUG  CW   1HW   SING  28
+SUG  CW   2HW   SING  29
+SUG  CX   CY    SING  30
+SUG  CX   1HX   SING  31
+SUG  CX   2HX   SING  32
+SUG  CY   OD1   DOUB  33
+SUG  CY   OD2   SING  34
+SUG  OD2  HD2   SING  35
+SUG  CV   OXT   DOUB  36
+#

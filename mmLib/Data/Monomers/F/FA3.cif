@@ -1,0 +1,75 @@
+data_FA3
+#
+_chem_comp.id                   FA3
+_chem_comp.name                 '2-ANHYDRO-3-FLUORO-QUINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 O5 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        192.144
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FA3  C2    .  C  0  29.369  51.446  57.932  1  1 
+FA3  F1    .  F  0  27.745  50.324  61.439  1  2 
+FA3  C3    .  C  0  28.544  50.192  57.88   1  3 
+FA3  O3    .  O  0  29.235  49.252  57.062  1  4 
+FA3  C4    .  C  0  28.435  49.672  59.292  1  5 
+FA3  O4    .  O  0  27.476  48.636  59.354  1  6 
+FA3  C5    .  C  0  28.123  50.702  60.209  1  7 
+FA3  C6    .  C  0  28.196  52.054  59.94   1  8 
+FA3  C     .  C  0  29.438  53.699  58.866  1  9 
+FA3  O1    .  O  0  30.735  53.717  58.584  1  10
+FA3  O30   .  O  0  27.528  52.954  57.873  1  11
+FA3  O2    .  O  0  28.881  54.793  59.26   1  12
+FA3  C1    .  C  0  28.595  52.51   58.687  1  13
+FA3  H4    .  H  0  29.424  49.244  59.578  1  14
+FA3  H6    .  H  0  27.935  52.781  60.727  1  15
+FA3  HA    .  H  0  27.686  47.944  58.738  1  16
+FA3  H3    .  H  0  27.533  50.406  57.462  1  17
+FA3  HB    .  H  0  29.304  49.579  56.173  1  18
+FA3  1H2C  .  H  0  29.687  51.789  56.92   0  19
+FA3  2H2C  .  H  0  30.383  51.271  58.362  0  20
+FA3  H30   .  H  0  27.8    53.265  57.018  1  21
+FA3  H1    .  H  0  ?       ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FA3  C2   C1    SING  1 
+FA3  C2   1H2C  SING  2 
+FA3  C2   2H2C  SING  3 
+FA3  C2   C3    SING  4 
+FA3  F1   C5    SING  5 
+FA3  C3   O3    SING  6 
+FA3  C3   H3    SING  7 
+FA3  C3   C4    SING  8 
+FA3  O3   HB    SING  9 
+FA3  C4   O4    SING  10
+FA3  C4   H4    SING  11
+FA3  C4   C5    SING  12
+FA3  O4   HA    SING  13
+FA3  C5   C6    DOUB  14
+FA3  C6   C1    SING  15
+FA3  C6   H6    SING  16
+FA3  C    O1    SING  17
+FA3  C    O2    DOUB  18
+FA3  C    C1    SING  19
+FA3  O1   H1    SING  20
+FA3  O30  H30   SING  21
+FA3  O30  C1    SING  22
+#

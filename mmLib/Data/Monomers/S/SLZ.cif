@@ -1,0 +1,75 @@
+data_SLZ
+#
+_chem_comp.id                       SLZ
+_chem_comp.name                     L-THIALYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H12 N2 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            164.222
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SLZ  N    .  N  0  ?  ?  ?  1  1 
+SLZ  CA   .  C  0  ?  ?  ?  1  2 
+SLZ  CB   .  C  0  ?  ?  ?  1  3 
+SLZ  SG   .  S  0  ?  ?  ?  1  4 
+SLZ  CD   .  C  0  ?  ?  ?  1  5 
+SLZ  CE   .  C  0  ?  ?  ?  1  6 
+SLZ  NZ   .  N  0  ?  ?  ?  1  7 
+SLZ  C    .  C  0  ?  ?  ?  1  8 
+SLZ  O    .  O  0  ?  ?  ?  1  9 
+SLZ  OXT  .  O  0  ?  ?  ?  1  10
+SLZ  1HN  .  H  0  ?  ?  ?  0  11
+SLZ  2HN  .  H  0  ?  ?  ?  0  12
+SLZ  HA   .  H  0  ?  ?  ?  1  13
+SLZ  1HB  .  H  0  ?  ?  ?  0  14
+SLZ  2HB  .  H  0  ?  ?  ?  0  15
+SLZ  1HD  .  H  0  ?  ?  ?  0  16
+SLZ  2HD  .  H  0  ?  ?  ?  0  17
+SLZ  1HE  .  H  0  ?  ?  ?  0  18
+SLZ  2HE  .  H  0  ?  ?  ?  0  19
+SLZ  1HZ  .  H  0  ?  ?  ?  0  20
+SLZ  2HZ  .  H  0  ?  ?  ?  0  21
+SLZ  HXT  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SLZ  N    CA   SING  1 
+SLZ  N    1HN  SING  2 
+SLZ  N    2HN  SING  3 
+SLZ  CA   CB   SING  4 
+SLZ  CA   C    SING  5 
+SLZ  CA   HA   SING  6 
+SLZ  CB   SG   SING  7 
+SLZ  CB   1HB  SING  8 
+SLZ  CB   2HB  SING  9 
+SLZ  SG   CD   SING  10
+SLZ  CD   CE   SING  11
+SLZ  CD   1HD  SING  12
+SLZ  CD   2HD  SING  13
+SLZ  CE   NZ   SING  14
+SLZ  CE   1HE  SING  15
+SLZ  CE   2HE  SING  16
+SLZ  NZ   1HZ  SING  17
+SLZ  NZ   2HZ  SING  18
+SLZ  C    O    DOUB  19
+SLZ  C    OXT  SING  20
+SLZ  OXT  HXT  SING  21
+#

@@ -1,0 +1,116 @@
+data_OMG
+#
+_chem_comp.id                       OMG
+_chem_comp.name                     O2'-METHYLGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            377.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMG  P     .  P  0  ?  ?  ?  1  1 
+OMG  O1P   .  O  0  ?  ?  ?  1  2 
+OMG  O2P   .  O  0  ?  ?  ?  1  3 
+OMG  O3P   .  O  0  ?  ?  ?  1  4 
+OMG  O5*   .  O  0  ?  ?  ?  1  5 
+OMG  C5*   .  C  0  ?  ?  ?  1  6 
+OMG  C4*   .  C  0  ?  ?  ?  1  7 
+OMG  O4*   .  O  0  ?  ?  ?  1  8 
+OMG  C3*   .  C  0  ?  ?  ?  1  9 
+OMG  O3*   .  O  0  ?  ?  ?  1  10
+OMG  C2*   .  C  0  ?  ?  ?  1  11
+OMG  O2*   .  O  0  ?  ?  ?  1  12
+OMG  CM2   .  C  0  ?  ?  ?  1  13
+OMG  C1*   .  C  0  ?  ?  ?  1  14
+OMG  N9    .  N  0  ?  ?  ?  1  15
+OMG  C8    .  C  0  ?  ?  ?  1  16
+OMG  N7    .  N  0  ?  ?  ?  1  17
+OMG  C5    .  C  0  ?  ?  ?  1  18
+OMG  C6    .  C  0  ?  ?  ?  1  19
+OMG  O6    .  O  0  ?  ?  ?  1  20
+OMG  N1    .  N  0  ?  ?  ?  1  21
+OMG  C2    .  C  0  ?  ?  ?  1  22
+OMG  N2    .  N  0  ?  ?  ?  1  23
+OMG  N3    .  N  0  ?  ?  ?  1  24
+OMG  C4    .  C  0  ?  ?  ?  1  25
+OMG  3HOP  .  H  0  ?  ?  ?  0  26
+OMG  2HOP  .  H  0  ?  ?  ?  0  27
+OMG  H1*   .  H  0  ?  ?  ?  1  28
+OMG  H2*   .  H  0  ?  ?  ?  1  29
+OMG  H3*   .  H  0  ?  ?  ?  1  30
+OMG  H4*   .  H  0  ?  ?  ?  1  31
+OMG  1HM2  .  H  0  ?  ?  ?  0  32
+OMG  2HM2  .  H  0  ?  ?  ?  0  33
+OMG  3HM2  .  H  0  ?  ?  ?  0  34
+OMG  *HO3  .  H  0  ?  ?  ?  0  35
+OMG  1H5*  .  H  0  ?  ?  ?  0  36
+OMG  2H5*  .  H  0  ?  ?  ?  0  37
+OMG  H8    .  H  0  ?  ?  ?  1  38
+OMG  HN1   .  H  0  ?  ?  ?  1  39
+OMG  1HN2  .  H  0  ?  ?  ?  0  40
+OMG  2HN2  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMG  P    O1P   DOUB  1 
+OMG  P    O2P   SING  2 
+OMG  P    O3P   SING  3 
+OMG  P    O5*   SING  4 
+OMG  O2P  2HOP  SING  5 
+OMG  O3P  3HOP  SING  6 
+OMG  O5*  C5*   SING  7 
+OMG  C5*  C4*   SING  8 
+OMG  C5*  1H5*  SING  9 
+OMG  C5*  2H5*  SING  10
+OMG  C4*  O4*   SING  11
+OMG  C4*  C3*   SING  12
+OMG  C4*  H4*   SING  13
+OMG  O4*  C1*   SING  14
+OMG  C3*  O3*   SING  15
+OMG  C3*  C2*   SING  16
+OMG  C3*  H3*   SING  17
+OMG  O3*  *HO3  SING  18
+OMG  C2*  O2*   SING  19
+OMG  C2*  C1*   SING  20
+OMG  C2*  H2*   SING  21
+OMG  O2*  CM2   SING  22
+OMG  CM2  1HM2  SING  23
+OMG  CM2  2HM2  SING  24
+OMG  CM2  3HM2  SING  25
+OMG  C1*  N9    SING  26
+OMG  C1*  H1*   SING  27
+OMG  N9   C8    SING  28
+OMG  N9   C4    SING  29
+OMG  C8   N7    DOUB  30
+OMG  C8   H8    SING  31
+OMG  N7   C5    SING  32
+OMG  C5   C6    SING  33
+OMG  C5   C4    DOUB  34
+OMG  C6   O6    DOUB  35
+OMG  C6   N1    SING  36
+OMG  N1   C2    SING  37
+OMG  N1   HN1   SING  38
+OMG  C2   N2    SING  39
+OMG  C2   N3    DOUB  40
+OMG  N2   1HN2  SING  41
+OMG  N2   2HN2  SING  42
+OMG  N3   C4    SING  43
+#

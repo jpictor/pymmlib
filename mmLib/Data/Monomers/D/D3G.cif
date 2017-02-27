@@ -1,0 +1,78 @@
+data_D3G
+#
+_chem_comp.id                   D3G
+_chem_comp.name                 (5-(PYRIDIN-3-YL)FURAN-2-YL)METHANAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        174.202
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D3G  C_1   .  C  0  64.272  76.335  100.149  1  1 
+D3G  C_2   .  C  0  63.245  77.023  99.457   1  2 
+D3G  C_3   .  C  0  63.510  78.343  99.007   1  3 
+D3G  N_1   .  N  0  64.709  78.976  99.209   1  4 
+D3G  C_4   .  C  0  65.699  78.310  99.873   1  5 
+D3G  C_5   .  C  0  65.538  76.971  100.373  1  6 
+D3G  C_6   .  C  0  66.603  76.288  101.071  1  7 
+D3G  C_7   .  C  0  66.712  75.036  101.649  1  8 
+D3G  C_8   .  C  0  68.041  74.932  102.187  1  9 
+D3G  C_9   .  C  0  68.678  76.125  101.906  1  10
+D3G  O_1   .  O  0  67.821  76.980  101.225  1  11
+D3G  C10   .  C  0  70.040  76.655  102.166  1  12
+D3G  N_2   .  N  0  70.152  77.893  102.881  1  13
+D3G  H_1   .  H  0  ?       ?       ?        1  14
+D3G  H_2   .  H  0  ?       ?       ?        1  15
+D3G  H_3   .  H  0  ?       ?       ?        1  16
+D3G  H_4   .  H  0  ?       ?       ?        1  17
+D3G  H_7   .  H  0  ?       ?       ?        1  18
+D3G  H_8   .  H  0  ?       ?       ?        1  19
+D3G  1H10  .  H  0  ?       ?       ?        0  20
+D3G  2H10  .  H  0  ?       ?       ?        0  21
+D3G  1H_2  .  H  0  ?       ?       ?        0  22
+D3G  2H_2  .  H  0  ?       ?       ?        0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D3G  C_1  C_2   SING  1 
+D3G  C_1  C_5   DOUB  2 
+D3G  C_1  H_1   SING  3 
+D3G  C_2  C_3   DOUB  4 
+D3G  C_2  H_2   SING  5 
+D3G  C_3  N_1   SING  6 
+D3G  C_3  H_3   SING  7 
+D3G  N_1  C_4   DOUB  8 
+D3G  C_4  C_5   SING  9 
+D3G  C_4  H_4   SING  10
+D3G  C_5  C_6   SING  11
+D3G  C_6  C_7   DOUB  12
+D3G  C_6  O_1   SING  13
+D3G  C_7  C_8   SING  14
+D3G  C_7  H_7   SING  15
+D3G  C_8  C_9   DOUB  16
+D3G  C_8  H_8   SING  17
+D3G  C_9  O_1   SING  18
+D3G  C_9  C10   SING  19
+D3G  C10  N_2   SING  20
+D3G  C10  1H10  SING  21
+D3G  C10  2H10  SING  22
+D3G  N_2  1H_2  SING  23
+D3G  N_2  2H_2  SING  24
+#

@@ -1,0 +1,91 @@
+data_ALN
+#
+_chem_comp.id                       ALN
+_chem_comp.name                     NAPHTHALEN-2-YL-3-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C13 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            215.251
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALN  N    .  N  0  ?  ?  ?  1  1 
+ALN  CA   .  C  0  ?  ?  ?  1  2 
+ALN  C    .  C  0  ?  ?  ?  1  3 
+ALN  O    .  O  0  ?  ?  ?  1  4 
+ALN  CB   .  C  0  ?  ?  ?  1  5 
+ALN  CG1  .  C  0  ?  ?  ?  1  6 
+ALN  CD1  .  C  0  ?  ?  ?  1  7 
+ALN  CE1  .  C  0  ?  ?  ?  1  8 
+ALN  CD2  .  C  0  ?  ?  ?  1  9 
+ALN  CE2  .  C  0  ?  ?  ?  1  10
+ALN  CZ1  .  C  0  ?  ?  ?  1  11
+ALN  CG2  .  C  0  ?  ?  ?  1  12
+ALN  CD3  .  C  0  ?  ?  ?  1  13
+ALN  CE3  .  C  0  ?  ?  ?  1  14
+ALN  CZ2  .  C  0  ?  ?  ?  1  15
+ALN  OXT  .  O  0  ?  ?  ?  1  16
+ALN  1HN  .  H  0  ?  ?  ?  0  17
+ALN  2HN  .  H  0  ?  ?  ?  0  18
+ALN  HA   .  H  0  ?  ?  ?  1  19
+ALN  1HB  .  H  0  ?  ?  ?  0  20
+ALN  2HB  .  H  0  ?  ?  ?  0  21
+ALN  HD1  .  H  0  ?  ?  ?  1  22
+ALN  HE1  .  H  0  ?  ?  ?  1  23
+ALN  HZ1  .  H  0  ?  ?  ?  1  24
+ALN  HG2  .  H  0  ?  ?  ?  1  25
+ALN  HD3  .  H  0  ?  ?  ?  1  26
+ALN  HE3  .  H  0  ?  ?  ?  1  27
+ALN  HZ2  .  H  0  ?  ?  ?  1  28
+ALN  HXT  .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALN  N    CA   SING  1 
+ALN  N    1HN  SING  2 
+ALN  N    2HN  SING  3 
+ALN  CA   C    SING  4 
+ALN  CA   CB   SING  5 
+ALN  CA   HA   SING  6 
+ALN  C    O    DOUB  7 
+ALN  C    OXT  SING  8 
+ALN  CB   CG1  SING  9 
+ALN  CB   1HB  SING  10
+ALN  CB   2HB  SING  11
+ALN  CG1  CD1  DOUB  12
+ALN  CG1  CD2  SING  13
+ALN  CD1  CE1  SING  14
+ALN  CD1  HD1  SING  15
+ALN  CE1  CZ1  DOUB  16
+ALN  CE1  HE1  SING  17
+ALN  CD2  CE2  DOUB  18
+ALN  CD2  CG2  SING  19
+ALN  CE2  CZ1  SING  20
+ALN  CE2  CZ2  SING  21
+ALN  CZ1  HZ1  SING  22
+ALN  CG2  CD3  DOUB  23
+ALN  CG2  HG2  SING  24
+ALN  CD3  CE3  SING  25
+ALN  CD3  HD3  SING  26
+ALN  CE3  CZ2  DOUB  27
+ALN  CE3  HE3  SING  28
+ALN  CZ2  HZ2  SING  29
+ALN  OXT  HXT  SING  30
+#

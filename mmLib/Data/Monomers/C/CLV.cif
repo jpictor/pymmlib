@@ -1,0 +1,89 @@
+data_CLV
+#
+_chem_comp.id                       CLV
+_chem_comp.name                     '{(2S)-2-[(1S)-1-AMINOETHYL]-5-OXO-2,5-DIHYDRO-1H-IMIDAZOL-1-YL}ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H11 N3 O3'
+_chem_comp.pdbx_synonyms            'CHROMOPHORE (ALA-PHE-GLY)'
+_chem_comp.mon_nstd_parent_comp_id  'ALA, PHE, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            185.182
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          CLV
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@@H](C1N=CC(=O)N1CC(=O)O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+CLV  N1    .  N  0  24.130  27.040  1.110   1  N  1 
+CLV  CA1   .  C  0  25.115  26.042  1.502   1  N  2 
+CLV  CB1   .  C  0  26.120  25.681  0.430   1  N  3 
+CLV  C1    .  C  0  25.802  26.549  2.776   1  N  4 
+CLV  N2    .  N  0  27.028  27.000  2.846   1  N  5 
+CLV  N3    .  N  0  25.175  26.633  4.010   1  N  6 
+CLV  C2    .  C  0  26.094  27.165  4.903   1  N  7 
+CLV  O2    .  O  0  25.841  27.353  6.091   1  N  8 
+CLV  CA2   .  C  0  27.262  27.386  4.137   1  N  9 
+CLV  CA3   .  C  0  23.810  26.369  4.422   1  N  10
+CLV  C3    .  C  0  23.542  24.931  4.903   1  N  11
+CLV  O3    .  O  0  22.589  24.736  5.719   1  N  12
+CLV  OXT   .  O  0  24.329  23.994  4.457   1  N  13
+CLV  1HN1  .  H  0  23.904  27.613  1.898   0  N  14
+CLV  2HN1  .  H  0  24.506  27.610  0.380   0  N  15
+CLV  HA1   .  H  0  24.584  25.095  1.681   1  N  16
+CLV  1HB1  .  H  0  25.607  25.593  -0.539  0  N  17
+CLV  2HB1  .  H  0  26.888  26.466  0.369   0  N  18
+CLV  3HB1  .  H  0  26.595  24.721  0.681   0  N  19
+CLV  H1    .  H  0  25.511  25.963  1.892   1  N  20
+CLV  HA2   .  H  0  28.189  27.794  4.511   1  N  21
+CLV  1HA3  .  H  0  23.575  27.049  5.254   0  N  22
+CLV  2HA3  .  H  0  23.182  26.521  3.532   0  N  23
+CLV  HO3   .  H  0  22.548  23.814  5.944   1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+CLV  N1   CA1   SING  N  1 
+CLV  N1   1HN1  SING  N  2 
+CLV  N1   2HN1  SING  N  3 
+CLV  CA1  CB1   SING  N  4 
+CLV  CA1  C1    SING  N  5 
+CLV  CA1  HA1   SING  N  6 
+CLV  CB1  1HB1  SING  N  7 
+CLV  CB1  2HB1  SING  N  8 
+CLV  CB1  3HB1  SING  N  9 
+CLV  C1   N2    SING  N  10
+CLV  C1   N3    SING  N  11
+CLV  C1   H1    SING  N  12
+CLV  N2   CA2   DOUB  N  13
+CLV  N3   CA3   SING  N  14
+CLV  N3   C2    SING  N  15
+CLV  C2   CA2   SING  N  16
+CLV  C2   O2    DOUB  N  17
+CLV  CA2  HA2   SING  N  18
+CLV  CA3  C3    SING  N  19
+CLV  CA3  1HA3  SING  N  20
+CLV  CA3  2HA3  SING  N  21
+CLV  C3   OXT   DOUB  N  22
+CLV  C3   O3    SING  N  23
+CLV  O3   HO3   SING  N  24
+#

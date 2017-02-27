@@ -1,0 +1,108 @@
+data_TBT
+#
+_chem_comp.id                   TBT
+_chem_comp.name                 8,9,10,11-TETRAHYDRO-BENZO[A]ANTHRACENE-8,9,10-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H16 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.323
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBT  C4C   .  C  0  ?  ?  ?  1  1 
+TBT  C9C   .  C  0  ?  ?  ?  1  2 
+TBT  O3    .  O  0  ?  ?  ?  1  3 
+TBT  C8B   .  C  0  ?  ?  ?  1  4 
+TBT  O2    .  O  0  ?  ?  ?  1  5 
+TBT  C3B   .  C  0  ?  ?  ?  1  6 
+TBT  O1    .  O  0  ?  ?  ?  1  7 
+TBT  C3A   .  C  0  ?  ?  ?  1  8 
+TBT  C2A   .  C  0  ?  ?  ?  1  9 
+TBT  C4A   .  C  0  ?  ?  ?  1  10
+TBT  C1A   .  C  0  ?  ?  ?  1  11
+TBT  C5A   .  C  0  ?  ?  ?  1  12
+TBT  C4B   .  C  0  ?  ?  ?  1  13
+TBT  C6A   .  C  0  ?  ?  ?  1  14
+TBT  C7A   .  C  0  ?  ?  ?  1  15
+TBT  C8A   .  C  0  ?  ?  ?  1  16
+TBT  C5B   .  C  0  ?  ?  ?  1  17
+TBT  C9B   .  C  0  ?  ?  ?  1  18
+TBT  C11   .  C  0  ?  ?  ?  1  19
+TBT  C9A   .  C  0  ?  ?  ?  1  20
+TBT  C10   .  C  0  ?  ?  ?  1  21
+TBT  1H4C  .  H  0  ?  ?  ?  0  22
+TBT  H9C   .  H  0  ?  ?  ?  1  23
+TBT  H3    .  H  0  ?  ?  ?  1  24
+TBT  H8B   .  H  0  ?  ?  ?  1  25
+TBT  HO2   .  H  0  ?  ?  ?  1  26
+TBT  H3B   .  H  0  ?  ?  ?  1  27
+TBT  H1    .  H  0  ?  ?  ?  1  28
+TBT  H2A   .  H  0  ?  ?  ?  1  29
+TBT  H1A   .  H  0  ?  ?  ?  1  30
+TBT  H5A   .  H  0  ?  ?  ?  1  31
+TBT  H6A   .  H  0  ?  ?  ?  1  32
+TBT  H7A   .  H  0  ?  ?  ?  1  33
+TBT  H8A   .  H  0  ?  ?  ?  1  34
+TBT  H9A   .  H  0  ?  ?  ?  1  35
+TBT  H10   .  H  0  ?  ?  ?  1  36
+TBT  2H4C  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBT  C4C  1H4C  SING  1 
+TBT  C4C  C9C   SING  2 
+TBT  C4C  C4A   SING  3 
+TBT  C4C  2H4C  SING  4 
+TBT  C9C  H9C   SING  5 
+TBT  C9C  O3    SING  6 
+TBT  C9C  C8B   SING  7 
+TBT  O3   H3    SING  8 
+TBT  C8B  H8B   SING  9 
+TBT  C8B  O2    SING  10
+TBT  C8B  C3B   SING  11
+TBT  O2   HO2   SING  12
+TBT  C3B  H3B   SING  13
+TBT  C3B  O1    SING  14
+TBT  C3B  C3A   SING  15
+TBT  O1   H1    SING  16
+TBT  C3A  C4A   DOUB  17
+TBT  C3A  C10   SING  18
+TBT  C2A  H2A   SING  19
+TBT  C2A  C1A   DOUB  20
+TBT  C2A  C5B   SING  21
+TBT  C4A  C5A   SING  22
+TBT  C1A  H1A   SING  23
+TBT  C1A  C11   SING  24
+TBT  C5A  H5A   SING  25
+TBT  C5A  C4B   DOUB  26
+TBT  C4B  C9B   SING  27
+TBT  C4B  C11   SING  28
+TBT  C6A  H6A   SING  29
+TBT  C6A  C7A   DOUB  30
+TBT  C6A  C5B   SING  31
+TBT  C7A  H7A   SING  32
+TBT  C7A  C8A   SING  33
+TBT  C8A  H8A   SING  34
+TBT  C8A  C9A   DOUB  35
+TBT  C5B  C9B   DOUB  36
+TBT  C9B  C9A   SING  37
+TBT  C11  C10   DOUB  38
+TBT  C9A  H9A   SING  39
+TBT  C10  H10   SING  40
+#

@@ -1,0 +1,103 @@
+data_VIB
+#
+_chem_comp.id                   VIB
+_chem_comp.name                 3-(4-AMINO-2-METHYL-PYRIMIDIN-5-YLMETHYL)-5-(2-HYDROXY-ETHYL)-4-METHYL-THIAZOL-3-IUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N4 O1 S1'
+_chem_comp.pdbx_synonyms        'THIAMIN, VITAMIN B1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       265.353
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VIB  CM2   .  C  0  ?  ?  ?  1  1 
+VIB  N4A   .  N  0  ?  ?  ?  1  2 
+VIB  CM4   .  C  0  ?  ?  ?  1  3 
+VIB  O1    .  O  0  ?  ?  ?  1  4 
+VIB  C7    .  C  0  ?  ?  ?  1  5 
+VIB  C6    .  C  0  ?  ?  ?  1  6 
+VIB  C2    .  C  0  ?  ?  ?  1  7 
+VIB  S1    .  S  0  ?  ?  ?  1  8 
+VIB  C5    .  C  0  ?  ?  ?  1  9 
+VIB  C4    .  C  0  ?  ?  ?  1  10
+VIB  N3    .  N  1  ?  ?  ?  1  11
+VIB  C7A   .  C  0  ?  ?  ?  1  12
+VIB  C4A   .  C  0  ?  ?  ?  1  13
+VIB  N3A   .  N  0  ?  ?  ?  1  14
+VIB  C2A   .  C  0  ?  ?  ?  1  15
+VIB  N1A   .  N  0  ?  ?  ?  1  16
+VIB  C6A   .  C  0  ?  ?  ?  1  17
+VIB  C5A   .  C  0  ?  ?  ?  1  18
+VIB  HO1   .  H  0  ?  ?  ?  1  19
+VIB  1HC7  .  H  0  ?  ?  ?  0  20
+VIB  2HC7  .  H  0  ?  ?  ?  0  21
+VIB  1HC6  .  H  0  ?  ?  ?  0  22
+VIB  2HC6  .  H  0  ?  ?  ?  0  23
+VIB  1HM4  .  H  0  ?  ?  ?  0  24
+VIB  2HM4  .  H  0  ?  ?  ?  0  25
+VIB  HC2   .  H  0  ?  ?  ?  1  26
+VIB  1H7A  .  H  0  ?  ?  ?  0  27
+VIB  2H7A  .  H  0  ?  ?  ?  0  28
+VIB  CH6A  .  H  0  ?  ?  ?  0  29
+VIB  1H4A  .  H  0  ?  ?  ?  0  30
+VIB  2H4A  .  H  0  ?  ?  ?  0  31
+VIB  3HM4  .  H  0  ?  ?  ?  0  32
+VIB  1HM2  .  H  0  ?  ?  ?  0  33
+VIB  2HM2  .  H  0  ?  ?  ?  0  34
+VIB  3HM2  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VIB  CM2  C2A   SING  1 
+VIB  CM2  1HM2  SING  2 
+VIB  CM2  2HM2  SING  3 
+VIB  CM2  3HM2  SING  4 
+VIB  N4A  C4A   SING  5 
+VIB  N4A  1H4A  SING  6 
+VIB  N4A  2H4A  SING  7 
+VIB  CM4  C4    SING  8 
+VIB  CM4  1HM4  SING  9 
+VIB  CM4  2HM4  SING  10
+VIB  CM4  3HM4  SING  11
+VIB  O1   C7    SING  12
+VIB  O1   HO1   SING  13
+VIB  C7   C6    SING  14
+VIB  C7   1HC7  SING  15
+VIB  C7   2HC7  SING  16
+VIB  C6   C5    SING  17
+VIB  C6   1HC6  SING  18
+VIB  C6   2HC6  SING  19
+VIB  C2   S1    SING  20
+VIB  C2   N3    DOUB  21
+VIB  C2   HC2   SING  22
+VIB  S1   C5    SING  23
+VIB  C5   C4    DOUB  24
+VIB  C4   N3    SING  25
+VIB  N3   C7A   SING  26
+VIB  C7A  C5A   SING  27
+VIB  C7A  1H7A  SING  28
+VIB  C7A  2H7A  SING  29
+VIB  C4A  N3A   SING  30
+VIB  C4A  C5A   DOUB  31
+VIB  N3A  C2A   DOUB  32
+VIB  C2A  N1A   SING  33
+VIB  N1A  C6A   DOUB  34
+VIB  C6A  CH6A  SING  35
+VIB  C6A  C5A   SING  36
+#

@@ -1,0 +1,103 @@
+data_DCF
+#
+_chem_comp.id                   DCF
+_chem_comp.name                 2'-DEOXYCOFORMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H16 N4 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        268.272
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCF  N1    .  N  0  ?  ?  ?  1  1 
+DCF  C2    .  C  0  ?  ?  ?  1  2 
+DCF  N3    .  N  0  ?  ?  ?  1  3 
+DCF  C9    .  C  0  ?  ?  ?  1  4 
+DCF  C10   .  C  0  ?  ?  ?  1  5 
+DCF  N4    .  N  0  ?  ?  ?  1  6 
+DCF  C5    .  C  0  ?  ?  ?  1  7 
+DCF  N6    .  N  0  ?  ?  ?  1  8 
+DCF  C7    .  C  0  ?  ?  ?  1  9 
+DCF  C8    .  C  0  ?  ?  ?  1  10
+DCF  O8    .  O  0  ?  ?  ?  1  11
+DCF  C2S   .  C  0  ?  ?  ?  1  12
+DCF  C3S   .  C  0  ?  ?  ?  1  13
+DCF  O3S   .  O  0  ?  ?  ?  1  14
+DCF  O5S   .  O  0  ?  ?  ?  1  15
+DCF  C5S   .  C  0  ?  ?  ?  1  16
+DCF  C4S   .  C  0  ?  ?  ?  1  17
+DCF  O4S   .  O  0  ?  ?  ?  1  18
+DCF  C1S   .  C  0  ?  ?  ?  1  19
+DCF  H2    .  H  0  ?  ?  ?  1  20
+DCF  H5    .  H  0  ?  ?  ?  1  21
+DCF  HN6   .  H  0  ?  ?  ?  1  22
+DCF  1H7   .  H  0  ?  ?  ?  0  23
+DCF  2H7   .  H  0  ?  ?  ?  0  24
+DCF  H8    .  H  0  ?  ?  ?  1  25
+DCF  HO8   .  H  0  ?  ?  ?  1  26
+DCF  1H2S  .  H  0  ?  ?  ?  0  27
+DCF  2H2S  .  H  0  ?  ?  ?  0  28
+DCF  H3S   .  H  0  ?  ?  ?  1  29
+DCF  HO3   .  H  0  ?  ?  ?  1  30
+DCF  HO5   .  H  0  ?  ?  ?  1  31
+DCF  1H5S  .  H  0  ?  ?  ?  0  32
+DCF  2H5S  .  H  0  ?  ?  ?  0  33
+DCF  H4S   .  H  0  ?  ?  ?  1  34
+DCF  H1S   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCF  N1   C2    DOUB  1 
+DCF  N1   C9    SING  2 
+DCF  C2   N3    SING  3 
+DCF  C2   H2    SING  4 
+DCF  N3   C10   SING  5 
+DCF  N3   C1S   SING  6 
+DCF  C9   C10   DOUB  7 
+DCF  C9   C8    SING  8 
+DCF  C10  N4    SING  9 
+DCF  N4   C5    DOUB  10
+DCF  C5   N6    SING  11
+DCF  C5   H5    SING  12
+DCF  N6   C7    SING  13
+DCF  N6   HN6   SING  14
+DCF  C7   C8    SING  15
+DCF  C7   1H7   SING  16
+DCF  C7   2H7   SING  17
+DCF  C8   O8    SING  18
+DCF  C8   H8    SING  19
+DCF  O8   HO8   SING  20
+DCF  C2S  C3S   SING  21
+DCF  C2S  C1S   SING  22
+DCF  C2S  1H2S  SING  23
+DCF  C2S  2H2S  SING  24
+DCF  C3S  O3S   SING  25
+DCF  C3S  C4S   SING  26
+DCF  C3S  H3S   SING  27
+DCF  O3S  HO3   SING  28
+DCF  O5S  C5S   SING  29
+DCF  O5S  HO5   SING  30
+DCF  C5S  C4S   SING  31
+DCF  C5S  1H5S  SING  32
+DCF  C5S  2H5S  SING  33
+DCF  C4S  O4S   SING  34
+DCF  C4S  H4S   SING  35
+DCF  O4S  C1S   SING  36
+DCF  C1S  H1S   SING  37
+#

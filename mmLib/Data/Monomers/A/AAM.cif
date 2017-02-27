@@ -1,0 +1,107 @@
+data_AAM
+#
+_chem_comp.id                   AAM
+_chem_comp.name                 'ALPHA-ADENOSINE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        347.224
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAM  C8A   .  C  0  ?  ?  ?  1  1 
+AAM  N9A   .  N  0  ?  ?  ?  1  2 
+AAM  C4A   .  C  0  ?  ?  ?  1  3 
+AAM  C5A   .  C  0  ?  ?  ?  1  4 
+AAM  N7A   .  N  0  ?  ?  ?  1  5 
+AAM  N3A   .  N  0  ?  ?  ?  1  6 
+AAM  C2A   .  C  0  ?  ?  ?  1  7 
+AAM  N1A   .  N  0  ?  ?  ?  1  8 
+AAM  C6A   .  C  0  ?  ?  ?  1  9 
+AAM  N6A   .  N  0  ?  ?  ?  1  10
+AAM  P     .  P  0  ?  ?  ?  1  11
+AAM  O1P   .  O  0  ?  ?  ?  1  12
+AAM  O2P   .  O  0  ?  ?  ?  1  13
+AAM  O3P   .  O  0  ?  ?  ?  1  14
+AAM  O6*   .  O  0  ?  ?  ?  1  15
+AAM  C5*   .  C  0  ?  ?  ?  1  16
+AAM  C4*   .  C  0  ?  ?  ?  1  17
+AAM  O5*   .  O  0  ?  ?  ?  1  18
+AAM  C3*   .  C  0  ?  ?  ?  1  19
+AAM  O3*   .  O  0  ?  ?  ?  1  20
+AAM  C2*   .  C  0  ?  ?  ?  1  21
+AAM  O2*   .  O  0  ?  ?  ?  1  22
+AAM  C1*   .  C  0  ?  ?  ?  1  23
+AAM  2HOP  .  H  0  ?  ?  ?  0  24
+AAM  3HOP  .  H  0  ?  ?  ?  0  25
+AAM  1H5*  .  H  0  ?  ?  ?  0  26
+AAM  2H5*  .  H  0  ?  ?  ?  0  27
+AAM  H4*   .  H  0  ?  ?  ?  1  28
+AAM  H3*   .  H  0  ?  ?  ?  1  29
+AAM  *HO3  .  H  0  ?  ?  ?  0  30
+AAM  H2*   .  H  0  ?  ?  ?  1  31
+AAM  *HO2  .  H  0  ?  ?  ?  0  32
+AAM  H1*   .  H  0  ?  ?  ?  1  33
+AAM  H8A   .  H  0  ?  ?  ?  1  34
+AAM  1HN6  .  H  0  ?  ?  ?  0  35
+AAM  2HN6  .  H  0  ?  ?  ?  0  36
+AAM  H2A   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAM  C8A  N9A   DOUB  1 
+AAM  C8A  N7A   SING  2 
+AAM  C8A  H8A   SING  3 
+AAM  N9A  C4A   SING  4 
+AAM  C4A  C5A   DOUB  5 
+AAM  C4A  N3A   SING  6 
+AAM  C5A  N7A   SING  7 
+AAM  C5A  C6A   SING  8 
+AAM  N7A  C1*   SING  9 
+AAM  N3A  C2A   DOUB  10
+AAM  C2A  N1A   SING  11
+AAM  C2A  H2A   SING  12
+AAM  N1A  C6A   DOUB  13
+AAM  C6A  N6A   SING  14
+AAM  N6A  1HN6  SING  15
+AAM  N6A  2HN6  SING  16
+AAM  P    O1P   DOUB  17
+AAM  P    O2P   SING  18
+AAM  P    O3P   SING  19
+AAM  P    O6*   SING  20
+AAM  O2P  2HOP  SING  21
+AAM  O3P  3HOP  SING  22
+AAM  O6*  C5*   SING  23
+AAM  C5*  C4*   SING  24
+AAM  C5*  1H5*  SING  25
+AAM  C5*  2H5*  SING  26
+AAM  C4*  O5*   SING  27
+AAM  C4*  C3*   SING  28
+AAM  C4*  H4*   SING  29
+AAM  O5*  C1*   SING  30
+AAM  C3*  O3*   SING  31
+AAM  C3*  C2*   SING  32
+AAM  C3*  H3*   SING  33
+AAM  O3*  *HO3  SING  34
+AAM  C2*  O2*   SING  35
+AAM  C2*  C1*   SING  36
+AAM  C2*  H2*   SING  37
+AAM  O2*  *HO2  SING  38
+AAM  C1*  H1*   SING  39
+#

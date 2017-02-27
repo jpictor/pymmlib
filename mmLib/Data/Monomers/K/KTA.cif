@@ -1,0 +1,77 @@
+data_KTA
+#
+_chem_comp.id                   KTA
+_chem_comp.name                 (S)-CYCLOHEXANONE-2-ACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.181
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KTA  C8    .  C  0  6.825   -21.6    4.661  1  1 
+KTA  O1    .  O  0  6.202   -20.811  3.889  1  2 
+KTA  O2    .  O  0  6.517   -22.791  4.92   1  3 
+KTA  C7    .  C  0  8.082   -21.095  5.376  1  4 
+KTA  C1    .  C  0  9.085   -20.617  4.337  1  5 
+KTA  C2    .  C  0  9.585   -21.835  3.557  1  6 
+KTA  C3    .  C  0  10.678  -21.386  2.577  1  7 
+KTA  C4    .  C  0  11.834  -20.499  3.061  1  8 
+KTA  C5    .  C  0  11.3    -19.375  3.964  1  9 
+KTA  C6    .  C  0  10.27   -19.872  4.998  1  10
+KTA  O3    .  O  0  10.608  -21.706  1.402  1  11
+KTA  1H6C  .  H  0  9.911   -19.036  5.642  0  12
+KTA  2H6C  .  H  0  10.756  -20.502  5.779  0  13
+KTA  1H5C  .  H  0  12.137  -18.834  4.464  0  14
+KTA  2H5C  .  H  0  10.882  -18.54   3.355  0  15
+KTA  H1    .  H  0  8.571   -19.923  3.632  1  16
+KTA  1H4C  .  H  0  12.632  -21.093  3.564  0  17
+KTA  2H4C  .  H  0  12.436  -20.1    2.212  0  18
+KTA  1H2C  .  H  0  8.757   -22.383  3.049  0  19
+KTA  2H2C  .  H  0  9.927   -22.657  4.227  0  20
+KTA  1H7C  .  H  0  7.852   -20.312  6.136  0  21
+KTA  2H7C  .  H  0  8.515   -21.858  6.064  0  22
+KTA  HA    .  H  0  ?       ?        ?      1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KTA  C8  C7    SING  1 
+KTA  C8  O1    SING  2 
+KTA  C8  O2    DOUB  3 
+KTA  O1  HA    SING  4 
+KTA  C7  C1    SING  5 
+KTA  C7  1H7C  SING  6 
+KTA  C7  2H7C  SING  7 
+KTA  C1  C6    SING  8 
+KTA  C1  C2    SING  9 
+KTA  C1  H1    SING  10
+KTA  C2  C3    SING  11
+KTA  C2  1H2C  SING  12
+KTA  C2  2H2C  SING  13
+KTA  C3  C4    SING  14
+KTA  C3  O3    DOUB  15
+KTA  C4  C5    SING  16
+KTA  C4  1H4C  SING  17
+KTA  C4  2H4C  SING  18
+KTA  C5  C6    SING  19
+KTA  C5  1H5C  SING  20
+KTA  C5  2H5C  SING  21
+KTA  C6  1H6C  SING  22
+KTA  C6  2H6C  SING  23
+#

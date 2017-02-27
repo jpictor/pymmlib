@@ -1,0 +1,69 @@
+data_BGG
+#
+_chem_comp.id                   BGG
+_chem_comp.name                 'CARBONIC ACID MONOBENZYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H8 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BGG  C1   .  C  0  ?  ?  ?  1  1 
+BGG  C2   .  C  0  ?  ?  ?  1  2 
+BGG  C3   .  C  0  ?  ?  ?  1  3 
+BGG  C4   .  C  0  ?  ?  ?  1  4 
+BGG  C5   .  C  0  ?  ?  ?  1  5 
+BGG  C6   .  C  0  ?  ?  ?  1  6 
+BGG  C7   .  C  0  ?  ?  ?  1  7 
+BGG  O12  .  O  0  ?  ?  ?  1  8 
+BGG  C14  .  C  0  ?  ?  ?  1  9 
+BGG  O15  .  O  0  ?  ?  ?  1  10
+BGG  O16  .  O  0  ?  ?  ?  1  11
+BGG  H3   .  H  0  ?  ?  ?  1  12
+BGG  H4   .  H  0  ?  ?  ?  1  13
+BGG  H2   .  H  0  ?  ?  ?  1  14
+BGG  H1   .  H  0  ?  ?  ?  1  15
+BGG  H5   .  H  0  ?  ?  ?  1  16
+BGG  1H7  .  H  0  ?  ?  ?  0  17
+BGG  2H7  .  H  0  ?  ?  ?  0  18
+BGG  H16  .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BGG  C1   C2   DOUB  1 
+BGG  C1   C6   SING  2 
+BGG  C1   H1   SING  3 
+BGG  C2   C3   SING  4 
+BGG  C2   H2   SING  5 
+BGG  C3   C4   DOUB  6 
+BGG  C3   H3   SING  7 
+BGG  C4   C5   SING  8 
+BGG  C4   H4   SING  9 
+BGG  C5   C6   DOUB  10
+BGG  C5   H5   SING  11
+BGG  C6   C7   SING  12
+BGG  C7   O12  SING  13
+BGG  C7   1H7  SING  14
+BGG  C7   2H7  SING  15
+BGG  O12  C14  SING  16
+BGG  C14  O15  DOUB  17
+BGG  C14  O16  SING  18
+BGG  O16  H16  SING  19
+#

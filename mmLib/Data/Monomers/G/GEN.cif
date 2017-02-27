@@ -1,0 +1,94 @@
+data_GEN
+#
+_chem_comp.id                   GEN
+_chem_comp.name                 GENISTEIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O5'
+_chem_comp.pdbx_synonyms        '5,7-DIHYDROXY-3-(4-HYDROXYPHENYL)-4H-1-BENZOPYRAN-4-ONE; 4',5,7-TRIHYDROXYISOFLAVONE; PRUNETOL; GENISTEOL'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.241
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GEN  C1   .  C  0  ?  ?  ?  1  1 
+GEN  C2   .  C  0  ?  ?  ?  1  2 
+GEN  O2   .  O  0  ?  ?  ?  1  3 
+GEN  C3   .  C  0  ?  ?  ?  1  4 
+GEN  C4   .  C  0  ?  ?  ?  1  5 
+GEN  O4   .  O  0  ?  ?  ?  1  6 
+GEN  C5   .  C  0  ?  ?  ?  1  7 
+GEN  C6   .  C  0  ?  ?  ?  1  8 
+GEN  O6   .  O  0  ?  ?  ?  1  9 
+GEN  C7   .  C  0  ?  ?  ?  1  10
+GEN  C8   .  C  0  ?  ?  ?  1  11
+GEN  O9   .  O  0  ?  ?  ?  1  12
+GEN  C10  .  C  0  ?  ?  ?  1  13
+GEN  C11  .  C  0  ?  ?  ?  1  14
+GEN  C12  .  C  0  ?  ?  ?  1  15
+GEN  C13  .  C  0  ?  ?  ?  1  16
+GEN  C14  .  C  0  ?  ?  ?  1  17
+GEN  O14  .  O  0  ?  ?  ?  1  18
+GEN  C15  .  C  0  ?  ?  ?  1  19
+GEN  C16  .  C  0  ?  ?  ?  1  20
+GEN  H1   .  H  0  ?  ?  ?  1  21
+GEN  H2   .  H  0  ?  ?  ?  1  22
+GEN  H3   .  H  0  ?  ?  ?  1  23
+GEN  H4   .  H  0  ?  ?  ?  1  24
+GEN  H8   .  H  0  ?  ?  ?  1  25
+GEN  H12  .  H  0  ?  ?  ?  1  26
+GEN  H13  .  H  0  ?  ?  ?  1  27
+GEN  H14  .  H  0  ?  ?  ?  1  28
+GEN  H15  .  H  0  ?  ?  ?  1  29
+GEN  H16  .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GEN  C1   C2   AROM  1 
+GEN  C1   C10  AROM  2 
+GEN  C1   H1   SING  3 
+GEN  C2   O2   SING  4 
+GEN  C2   C3   AROM  5 
+GEN  O2   H2   SING  6 
+GEN  C3   C4   AROM  7 
+GEN  C3   H3   SING  8 
+GEN  C4   O4   SING  9 
+GEN  C4   C5   AROM  10
+GEN  O4   H4   SING  11
+GEN  C5   C6   SING  12
+GEN  C5   C10  AROM  13
+GEN  C6   O6   DOUB  14
+GEN  C6   C7   SING  15
+GEN  C7   C8   DOUB  16
+GEN  C7   C11  SING  17
+GEN  C8   O9   SING  18
+GEN  C8   H8   SING  19
+GEN  O9   C10  SING  20
+GEN  C11  C12  AROM  21
+GEN  C11  C16  AROM  22
+GEN  C12  C13  AROM  23
+GEN  C12  H12  SING  24
+GEN  C13  C14  AROM  25
+GEN  C13  H13  SING  26
+GEN  C14  O14  SING  27
+GEN  C14  C15  AROM  28
+GEN  O14  H14  SING  29
+GEN  C15  C16  AROM  30
+GEN  C15  H15  SING  31
+GEN  C16  H16  SING  32
+#

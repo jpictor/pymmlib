@@ -1,0 +1,81 @@
+data_OAC
+#
+_chem_comp.id                   OAC
+_chem_comp.name                 'TRANS-O-HYDROXY-ALPHA-METHYL CINNAMATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.203
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OAC  O     .  O  0  ?  ?  ?  1  1 
+OAC  C     .  C  0  ?  ?  ?  1  2 
+OAC  CA    .  C  0  ?  ?  ?  1  3 
+OAC  CB1   .  C  0  ?  ?  ?  1  4 
+OAC  CB2   .  C  0  ?  ?  ?  1  5 
+OAC  CG    .  C  0  ?  ?  ?  1  6 
+OAC  CD1   .  C  0  ?  ?  ?  1  7 
+OAC  CE1   .  C  0  ?  ?  ?  1  8 
+OAC  CZ    .  C  0  ?  ?  ?  1  9 
+OAC  CE2   .  C  0  ?  ?  ?  1  10
+OAC  CD2   .  C  0  ?  ?  ?  1  11
+OAC  OH    .  O  0  ?  ?  ?  1  12
+OAC  OXT   .  O  0  ?  ?  ?  1  13
+OAC  HA    .  H  0  ?  ?  ?  1  14
+OAC  1HB1  .  H  0  ?  ?  ?  0  15
+OAC  2HB1  .  H  0  ?  ?  ?  0  16
+OAC  1HB2  .  H  0  ?  ?  ?  0  17
+OAC  2HB2  .  H  0  ?  ?  ?  0  18
+OAC  3HB2  .  H  0  ?  ?  ?  0  19
+OAC  HD1   .  H  0  ?  ?  ?  1  20
+OAC  HE1   .  H  0  ?  ?  ?  1  21
+OAC  HZ    .  H  0  ?  ?  ?  1  22
+OAC  HE2   .  H  0  ?  ?  ?  1  23
+OAC  HH    .  H  0  ?  ?  ?  1  24
+OAC  HXT   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OAC  O    C     DOUB  1 
+OAC  C    CA    SING  2 
+OAC  C    OXT   SING  3 
+OAC  CA   CB1   SING  4 
+OAC  CA   CB2   SING  5 
+OAC  CA   HA    SING  6 
+OAC  CB1  CG    SING  7 
+OAC  CB1  1HB1  SING  8 
+OAC  CB1  2HB1  SING  9 
+OAC  CB2  1HB2  SING  10
+OAC  CB2  2HB2  SING  11
+OAC  CB2  3HB2  SING  12
+OAC  CG   CD1   AROM  13
+OAC  CG   CD2   AROM  14
+OAC  CD1  CE1   AROM  15
+OAC  CD1  HD1   SING  16
+OAC  CE1  CZ    AROM  17
+OAC  CE1  HE1   SING  18
+OAC  CZ   CE2   AROM  19
+OAC  CZ   HZ    SING  20
+OAC  CE2  CD2   AROM  21
+OAC  CE2  HE2   SING  22
+OAC  CD2  OH    SING  23
+OAC  OH   HH    SING  24
+OAC  OXT  HXT   SING  25
+#

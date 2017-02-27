@@ -1,0 +1,98 @@
+data_FKD
+#
+_chem_comp.id                   FKD
+_chem_comp.name                 '2,6-ANHYDRO-3-DEOXY-3-FLUORO-L-ARABINO-D-GALACTO-NONONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 O8 F1'
+_chem_comp.pdbx_synonyms        '2-KETO-3-DEOXY-D-GLYCERO-D-GALACTO-3-FLUORONONONIC ACID; 2,6-ANHYDRO-3-DEOXY-3-FLUORONONONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FKD  O1B  .  O  0  27.800  -3.454  9.800   1  1 
+FKD  C1   .  C  0  27.155  -3.979  8.840   1  2 
+FKD  O1A  .  O  0  27.292  -5.180  8.505   1  3 
+FKD  C2   .  C  0  26.245  -3.168  7.930   1  4 
+FKD  C3   .  C  0  25.676  -2.023  8.769   1  5 
+FKD  F1   .  F  0  25.349  -2.337  10.045  1  6 
+FKD  C4   .  C  0  24.434  -1.461  8.094   1  7 
+FKD  O4   .  O  0  23.972  -0.321  8.796   1  8 
+FKD  O6   .  O  0  25.211  -4.149  7.727   1  9 
+FKD  C6   .  C  0  24.007  -3.685  7.130   1  10
+FKD  C5   .  C  0  23.376  -2.539  7.941   1  11
+FKD  O5   .  O  0  22.223  -2.021  7.294   1  12
+FKD  C7   .  C  0  23.060  -4.898  7.134   1  13
+FKD  O7   .  O  0  22.840  -5.366  8.475   1  14
+FKD  C8   .  C  0  23.663  -6.035  6.325   1  15
+FKD  O8   .  O  0  23.814  -5.591  4.987   1  16
+FKD  C9   .  C  0  22.724  -7.260  6.351   1  17
+FKD  O9   .  O  0  21.473  -6.892  5.807   1  18
+FKD  H1B  .  H  0  ?       ?       ?       1  19
+FKD  H2   .  H  0  ?       ?       ?       1  20
+FKD  H3   .  H  0  ?       ?       ?       1  21
+FKD  H4   .  H  0  ?       ?       ?       1  22
+FKD  HO4  .  H  0  ?       ?       ?       1  23
+FKD  H6   .  H  0  ?       ?       ?       1  24
+FKD  H5   .  H  0  ?       ?       ?       1  25
+FKD  HO5  .  H  0  ?       ?       ?       1  26
+FKD  H7   .  H  0  ?       ?       ?       1  27
+FKD  HO7  .  H  0  ?       ?       ?       1  28
+FKD  H8   .  H  0  ?       ?       ?       1  29
+FKD  HO8  .  H  0  ?       ?       ?       1  30
+FKD  1H9  .  H  0  ?       ?       ?       0  31
+FKD  2H9  .  H  0  ?       ?       ?       0  32
+FKD  HO9  .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FKD  O1B  C1   SING  1 
+FKD  O1B  H1B  SING  2 
+FKD  C1   O1A  DOUB  3 
+FKD  C1   C2   SING  4 
+FKD  C2   C3   SING  5 
+FKD  C2   O6   SING  6 
+FKD  C2   H2   SING  7 
+FKD  C3   F1   SING  8 
+FKD  C3   C4   SING  9 
+FKD  C3   H3   SING  10
+FKD  C4   O4   SING  11
+FKD  C4   C5   SING  12
+FKD  C4   H4   SING  13
+FKD  O4   HO4  SING  14
+FKD  O6   C6   SING  15
+FKD  C6   C5   SING  16
+FKD  C6   C7   SING  17
+FKD  C6   H6   SING  18
+FKD  C5   O5   SING  19
+FKD  C5   H5   SING  20
+FKD  O5   HO5  SING  21
+FKD  C7   O7   SING  22
+FKD  C7   C8   SING  23
+FKD  C7   H7   SING  24
+FKD  O7   HO7  SING  25
+FKD  C8   O8   SING  26
+FKD  C8   C9   SING  27
+FKD  C8   H8   SING  28
+FKD  O8   HO8  SING  29
+FKD  C9   O9   SING  30
+FKD  C9   1H9  SING  31
+FKD  C9   2H9  SING  32
+FKD  O9   HO9  SING  33
+#

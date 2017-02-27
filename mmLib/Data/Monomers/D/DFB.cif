@@ -1,0 +1,63 @@
+data_DFB
+#
+_chem_comp.id                   DFB
+_chem_comp.name                 '2,3-DIFLUOROBENZYL ALCOHOL'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O1 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        144.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DFB  O1    .  O  0  20.536  0.214   9.314   1  1 
+DFB  C7    .  C  0  19.646  0.069   10.211  1  2 
+DFB  C1    .  C  0  19.899  0.569   11.571  1  3 
+DFB  C2    .  C  0  19.723  1.948   12.031  1  4 
+DFB  F2    .  F  0  19.250  2.940   11.295  1  5 
+DFB  C6    .  C  0  20.427  -0.352  12.472  1  6 
+DFB  C5    .  C  0  20.768  0.021   13.762  1  7 
+DFB  C4    .  C  0  20.627  1.322   14.217  1  8 
+DFB  C3    .  C  0  20.117  2.285   13.387  1  9 
+DFB  F3    .  F  0  19.959  3.543   13.775  1  10
+DFB  HC6   .  H  0  ?       ?       ?       1  11
+DFB  HC5   .  H  0  ?       ?       ?       1  12
+DFB  HC4   .  H  0  ?       ?       ?       1  13
+DFB  HO1   .  H  0  ?       ?       ?       1  14
+DFB  1HC7  .  H  0  ?       ?       ?       0  15
+DFB  2HC7  .  H  0  ?       ?       ?       0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DFB  O1  C7    SING  1 
+DFB  O1  HO1   SING  2 
+DFB  C7  C1    SING  3 
+DFB  C7  1HC7  SING  4 
+DFB  C7  2HC7  SING  5 
+DFB  C1  C2    AROM  6 
+DFB  C1  C6    AROM  7 
+DFB  C2  F2    SING  8 
+DFB  C2  C3    AROM  9 
+DFB  C6  C5    AROM  10
+DFB  C6  HC6   SING  11
+DFB  C5  C4    AROM  12
+DFB  C5  HC5   SING  13
+DFB  C4  C3    AROM  14
+DFB  C4  HC4   SING  15
+DFB  C3  F3    SING  16
+#

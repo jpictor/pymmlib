@@ -1,0 +1,105 @@
+data_FTA
+#
+_chem_comp.id                   FTA
+_chem_comp.name                 3-(4-PHENYLAMINO-PHENYLAMINO)-2-(1H-TETRAZOL-5-YL)-ACRYLONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H13 N7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        303.326
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FTA  N8   .  N  0  10.393  -3.542  9.535   1  1 
+FTA  C24  .  C  0  9.633   -3.172  8.391   1  2 
+FTA  C26  .  C  0  10.059  -2.210  7.464   1  3 
+FTA  C28  .  C  0  9.233   -1.908  6.382   1  4 
+FTA  C30  .  C  0  8.015   -2.546  6.181   1  5 
+FTA  C29  .  C  0  7.602   -3.486  7.113   1  6 
+FTA  C27  .  C  0  8.399   -3.794  8.219   1  7 
+FTA  C7   .  C  0  11.668  -3.033  9.952   1  8 
+FTA  C6   .  C  0  12.260  -1.920  9.356   1  9 
+FTA  C4   .  C  0  13.491  -1.450  9.803   1  10
+FTA  C5   .  C  0  12.302  -3.673  11.010  1  11
+FTA  C3   .  C  0  13.538  -3.205  11.477  1  12
+FTA  C2   .  C  0  14.137  -2.091  10.856  1  13
+FTA  N1   .  N  0  15.437  -1.713  11.271  1  14
+FTA  C17  .  C  0  16.021  -0.631  10.678  1  15
+FTA  C14  .  C  0  17.224  -0.201  11.085  1  16
+FTA  C18  .  C  0  17.879  0.890   10.421  1  17
+FTA  N21  .  N  0  18.385  1.766   9.867   1  18
+FTA  C13  .  C  0  17.942  -0.886  12.192  1  19
+FTA  N15  .  N  0  19.182  -0.473  12.635  1  20
+FTA  N19  .  N  0  19.592  -1.375  13.591  1  21
+FTA  N20  .  N  0  18.613  -2.356  13.768  1  22
+FTA  N16  .  N  0  17.590  -2.031  12.905  1  23
+FTA  H1   .  H  0  ?       ?       ?       1  24
+FTA  H8   .  H  0  ?       ?       ?       1  25
+FTA  H19  .  H  0  ?       ?       ?       1  26
+FTA  H3   .  H  0  ?       ?       ?       1  27
+FTA  H4   .  H  0  ?       ?       ?       1  28
+FTA  H5   .  H  0  ?       ?       ?       1  29
+FTA  H6   .  H  0  ?       ?       ?       1  30
+FTA  H26  .  H  0  ?       ?       ?       1  31
+FTA  H27  .  H  0  ?       ?       ?       1  32
+FTA  H28  .  H  0  ?       ?       ?       1  33
+FTA  H29  .  H  0  ?       ?       ?       1  34
+FTA  H30  .  H  0  ?       ?       ?       1  35
+FTA  H17  .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FTA  N8   C24  SING  1 
+FTA  N8   C7   SING  2 
+FTA  N8   H8   SING  3 
+FTA  C24  C26  AROM  4 
+FTA  C24  C27  AROM  5 
+FTA  C26  C28  AROM  6 
+FTA  C26  H26  SING  7 
+FTA  C28  C30  AROM  8 
+FTA  C28  H28  SING  9 
+FTA  C30  C29  AROM  10
+FTA  C30  H30  SING  11
+FTA  C29  C27  AROM  12
+FTA  C29  H29  SING  13
+FTA  C27  H27  SING  14
+FTA  C7   C6   AROM  15
+FTA  C7   C5   AROM  16
+FTA  C6   C4   AROM  17
+FTA  C6   H6   SING  18
+FTA  C4   C2   AROM  19
+FTA  C4   H4   SING  20
+FTA  C5   C3   AROM  21
+FTA  C5   H5   SING  22
+FTA  C3   C2   AROM  23
+FTA  C3   H3   SING  24
+FTA  C2   N1   SING  25
+FTA  N1   C17  SING  26
+FTA  N1   H1   SING  27
+FTA  C17  C14  DOUB  28
+FTA  C17  H17  SING  29
+FTA  C14  C18  SING  30
+FTA  C14  C13  SING  31
+FTA  C18  N21  TRIP  32
+FTA  C13  N15  DOUB  33
+FTA  C13  N16  SING  34
+FTA  N15  N19  SING  35
+FTA  N19  N20  SING  36
+FTA  N19  H19  SING  37
+FTA  N20  N16  DOUB  38
+#

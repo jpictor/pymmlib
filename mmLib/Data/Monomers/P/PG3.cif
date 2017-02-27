@@ -1,0 +1,70 @@
+data_PG3
+#
+_chem_comp.id                   PG3
+_chem_comp.name                 GUANIDINE-3-PROPANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H12 N3 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        118.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PG3  OA    .  O  0  35.598  27.161  10.589  1  1 
+PG3  CB    .  C  0  34.861  26.433  11.538  1  2 
+PG3  CG    .  C  0  33.434  26.971  11.485  1  3 
+PG3  CD    .  C  0  33.396  28.327  12.217  1  4 
+PG3  NE    .  N  0  32.031  28.593  12.699  1  5 
+PG3  CZ    .  C  0  31.656  28.071  13.873  1  6 
+PG3  NH1   .  N  1  32.168  26.914  14.311  1  7 
+PG3  NH2   .  N  0  30.836  28.718  14.705  1  8 
+PG3  HA    .  H  0  35.518  28.097  10.790  1  9 
+PG3  1HB   .  H  0  35.284  26.544  12.534  0  10
+PG3  2HB   .  H  0  34.862  25.376  11.264  0  11
+PG3  1HG   .  H  0  32.776  26.239  11.951  0  12
+PG3  2HG   .  H  0  33.111  27.106  10.451  0  13
+PG3  1HD   .  H  0  33.716  29.113  11.543  0  14
+PG3  2HD   .  H  0  34.078  28.314  13.061  0  15
+PG3  HE    .  H  0  31.590  29.446  12.389  1  16
+PG3  1HH1  .  H  0  31.953  26.587  15.239  0  17
+PG3  2HH1  .  H  0  32.801  26.398  13.721  0  18
+PG3  1HH2  .  H  0  30.442  29.605  14.425  0  19
+PG3  2HH2  .  H  0  30.609  28.318  15.603  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PG3  OA   HA    SING  1 
+PG3  OA   CB    SING  2 
+PG3  CB   1HB   SING  3 
+PG3  CB   2HB   SING  4 
+PG3  CB   CG    SING  5 
+PG3  CG   1HG   SING  6 
+PG3  CG   2HG   SING  7 
+PG3  CG   CD    SING  8 
+PG3  CD   1HD   SING  9 
+PG3  CD   2HD   SING  10
+PG3  CD   NE    SING  11
+PG3  NE   HE    SING  12
+PG3  NE   CZ    SING  13
+PG3  CZ   NH1   DOUB  14
+PG3  CZ   NH2   SING  15
+PG3  NH1  1HH1  SING  16
+PG3  NH1  2HH1  SING  17
+PG3  NH2  1HH2  SING  18
+PG3  NH2  2HH2  SING  19
+#

@@ -1,0 +1,105 @@
+data_HOQ
+#
+_chem_comp.id                   HOQ
+_chem_comp.name                 '(1R)-2-(1-CARBOXY-2-HYDROXY-2-METHYL-PROPYL)-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H19 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        277.335
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HOQ  C1    .  C  0  ?  ?  ?  1  1 
+HOQ  O1    .  O  0  ?  ?  ?  1  2 
+HOQ  OXT   .  O  0  ?  ?  ?  1  3 
+HOQ  C2    .  C  0  ?  ?  ?  1  4 
+HOQ  C21   .  C  0  ?  ?  ?  1  5 
+HOQ  O22   .  O  0  ?  ?  ?  1  6 
+HOQ  C3    .  C  0  ?  ?  ?  1  7 
+HOQ  S4    .  S  0  ?  ?  ?  1  8 
+HOQ  C5    .  C  0  ?  ?  ?  1  9 
+HOQ  C51   .  C  0  ?  ?  ?  1  10
+HOQ  C52   .  C  0  ?  ?  ?  1  11
+HOQ  C6    .  C  0  ?  ?  ?  1  12
+HOQ  C8    .  C  0  ?  ?  ?  1  13
+HOQ  O81   .  O  0  ?  ?  ?  1  14
+HOQ  O82   .  O  0  ?  ?  ?  1  15
+HOQ  N7    .  N  0  ?  ?  ?  1  16
+HOQ  C9    .  C  0  ?  ?  ?  1  17
+HOQ  C10   .  C  0  ?  ?  ?  1  18
+HOQ  HXT   .  H  0  ?  ?  ?  1  19
+HOQ  H2    .  H  0  ?  ?  ?  1  20
+HOQ  HOM   .  H  0  ?  ?  ?  1  21
+HOQ  H3    .  H  0  ?  ?  ?  1  22
+HOQ  1H51  .  H  0  ?  ?  ?  0  23
+HOQ  2H51  .  H  0  ?  ?  ?  0  24
+HOQ  3H51  .  H  0  ?  ?  ?  0  25
+HOQ  1H52  .  H  0  ?  ?  ?  0  26
+HOQ  2H52  .  H  0  ?  ?  ?  0  27
+HOQ  3H52  .  H  0  ?  ?  ?  0  28
+HOQ  H6    .  H  0  ?  ?  ?  1  29
+HOQ  HO    .  H  0  ?  ?  ?  1  30
+HOQ  HN7   .  H  0  ?  ?  ?  1  31
+HOQ  1H9   .  H  0  ?  ?  ?  0  32
+HOQ  2H9   .  H  0  ?  ?  ?  0  33
+HOQ  3H9   .  H  0  ?  ?  ?  0  34
+HOQ  1H10  .  H  0  ?  ?  ?  0  35
+HOQ  2H10  .  H  0  ?  ?  ?  0  36
+HOQ  3H10  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HOQ  C1   O1    DOUB  1 
+HOQ  C1   C2    SING  2 
+HOQ  C1   OXT   SING  3 
+HOQ  OXT  HXT   SING  4 
+HOQ  C2   C21   SING  5 
+HOQ  C2   C3    SING  6 
+HOQ  C2   H2    SING  7 
+HOQ  C21  O22   SING  8 
+HOQ  C21  C9    SING  9 
+HOQ  C21  C10   SING  10
+HOQ  O22  HOM   SING  11
+HOQ  C3   S4    SING  12
+HOQ  C3   N7    SING  13
+HOQ  C3   H3    SING  14
+HOQ  S4   C5    SING  15
+HOQ  C5   C51   SING  16
+HOQ  C5   C52   SING  17
+HOQ  C5   C6    SING  18
+HOQ  C51  1H51  SING  19
+HOQ  C51  2H51  SING  20
+HOQ  C51  3H51  SING  21
+HOQ  C52  1H52  SING  22
+HOQ  C52  2H52  SING  23
+HOQ  C52  3H52  SING  24
+HOQ  C6   C8    SING  25
+HOQ  C6   N7    SING  26
+HOQ  C6   H6    SING  27
+HOQ  C8   O81   DOUB  28
+HOQ  C8   O82   SING  29
+HOQ  O82  HO    SING  30
+HOQ  N7   HN7   SING  31
+HOQ  C9   1H9   SING  32
+HOQ  C9   2H9   SING  33
+HOQ  C9   3H9   SING  34
+HOQ  C10  1H10  SING  35
+HOQ  C10  2H10  SING  36
+HOQ  C10  3H10  SING  37
+#

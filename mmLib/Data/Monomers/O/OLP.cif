@@ -1,0 +1,119 @@
+data_OLP
+#
+_chem_comp.id                   OLP
+_chem_comp.name                 2-(2-HYDROXYETHYLAMINO)-6-(3-CHLOROANILINO)-9-ISOPROPYLPURINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H19 N6 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        346.819
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OLP  CAH   .  C   0  30.696  48.031  2.442   1  1 
+OLP  CAQ   .  C   0  31.828  47.795  1.653   1  2 
+OLP  CL    .  CL  0  32.477  49.075  .728    0  3 
+OLP  CAF   .  C   0  32.376  46.52   1.629   1  4 
+OLP  CAE   .  C   0  31.852  45.477  2.364   1  5 
+OLP  CAG   .  C   0  30.726  45.722  3.155   1  6 
+OLP  CAR   .  C   0  30.156  46.986  3.211   1  7 
+OLP  N6    .  N   0  29.005  47.179  3.983   1  8 
+OLP  C6    .  C   0  28.902  46.865  5.279   1  9 
+OLP  N1    .  N   0  29.942  46.384  5.994   1  10
+OLP  C5    .  C   0  27.676  47.036  5.972   1  11
+OLP  N7    .  N   0  26.449  47.512  5.605   1  12
+OLP  C8    .  C   0  25.654  47.455  6.691   1  13
+OLP  N9    .  N   0  26.391  47.006  7.741   1  14
+OLP  CAW   .  C   0  25.923  46.748  9.126   1  15
+OLP  CAB   .  C   0  24.817  47.744  9.588   1  16
+OLP  CAA   .  C   0  25.485  45.278  9.267   1  17
+OLP  C4    .  C   0  27.621  46.719  7.329   1  18
+OLP  N3    .  N   0  28.703  46.241  8.003   1  19
+OLP  C2    .  C   0  29.863  46.079  7.304   1  20
+OLP  N2    .  N   0  30.946  45.605  7.96    1  21
+OLP  CAK   .  C   0  32.198  45.373  7.217   1  22
+OLP  CAJ   .  C   0  32.169  43.991  6.586   1  23
+OLP  OAC   .  O   0  32.685  44.023  5.28    1  24
+OLP  HAH   .  H   0  30.231  49.031  2.46    1  25
+OLP  HAF   .  H   0  33.262  46.334  .999    1  26
+OLP  HAE   .  H   0  32.31   44.474  2.328   1  27
+OLP  HAG   .  H   0  30.285  44.9    3.743   1  28
+OLP  H8    .  H   0  24.586  47.727  6.723   1  29
+OLP  HAW   .  H   0  26.799  46.895  9.8     1  30
+OLP  1HAB  .  H   0  24.465  47.55   10.628  0  31
+OLP  2HAB  .  H   0  23.962  47.75   8.873   0  32
+OLP  3HAB  .  H   0  25.157  48.799  9.472   0  33
+OLP  1HAA  .  H   0  25.133  45.084  10.307  0  34
+OLP  2HAA  .  H   0  26.29   44.57   8.959   0  35
+OLP  3HAA  .  H   0  24.72   44.995  8.507   0  36
+OLP  H2    .  H   0  30.897  45.41   8.96    1  37
+OLP  1HAK  .  H   0  33.1    45.525  7.855   0  38
+OLP  2HAK  .  H   0  32.396  46.174  6.467   0  39
+OLP  1HAJ  .  H   0  31.146  43.548  6.613   0  40
+OLP  2HAJ  .  H   0  32.696  43.239  7.218   0  41
+OLP  HAC   .  H   0  32.667  43.159  4.885   1  42
+OLP  H6    .  H   0  ?       ?       ?       1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OLP  CAH  CAQ   AROM  1 
+OLP  CAH  CAR   AROM  2 
+OLP  CAH  HAH   SING  3 
+OLP  CAQ  CL    SING  4 
+OLP  CAQ  CAF   AROM  5 
+OLP  CAF  CAE   AROM  6 
+OLP  CAF  HAF   SING  7 
+OLP  CAE  CAG   AROM  8 
+OLP  CAE  HAE   SING  9 
+OLP  CAG  CAR   AROM  10
+OLP  CAG  HAG   SING  11
+OLP  CAR  N6    SING  12
+OLP  N6   H6    SING  13
+OLP  N6   C6    SING  14
+OLP  C6   N1    DOUB  15
+OLP  C6   C5    SING  16
+OLP  N1   C2    SING  17
+OLP  C5   N7    SING  18
+OLP  C5   C4    DOUB  19
+OLP  N7   C8    DOUB  20
+OLP  C8   N9    SING  21
+OLP  C8   H8    SING  22
+OLP  N9   CAW   SING  23
+OLP  N9   C4    SING  24
+OLP  CAW  CAB   SING  25
+OLP  CAW  CAA   SING  26
+OLP  CAW  HAW   SING  27
+OLP  CAB  1HAB  SING  28
+OLP  CAB  2HAB  SING  29
+OLP  CAB  3HAB  SING  30
+OLP  CAA  1HAA  SING  31
+OLP  CAA  2HAA  SING  32
+OLP  CAA  3HAA  SING  33
+OLP  C4   N3    SING  34
+OLP  N3   C2    DOUB  35
+OLP  C2   N2    SING  36
+OLP  N2   CAK   SING  37
+OLP  N2   H2    SING  38
+OLP  CAK  CAJ   SING  39
+OLP  CAK  1HAK  SING  40
+OLP  CAK  2HAK  SING  41
+OLP  CAJ  OAC   SING  42
+OLP  CAJ  1HAJ  SING  43
+OLP  CAJ  2HAJ  SING  44
+OLP  OAC  HAC   SING  45
+#

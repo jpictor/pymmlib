@@ -1,0 +1,97 @@
+data_PAT
+#
+_chem_comp.id                       PAT
+_chem_comp.name                     ALPHA-PHOSPHONO-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H13 N2 O5 P1'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            284.208
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAT  N     .  N  0  ?  ?  ?  1  1 
+PAT  CA    .  C  0  ?  ?  ?  1  2 
+PAT  C     .  C  0  ?  ?  ?  1  3 
+PAT  O     .  O  0  ?  ?  ?  1  4 
+PAT  CB    .  C  0  ?  ?  ?  1  5 
+PAT  CG    .  C  0  ?  ?  ?  1  6 
+PAT  CD1   .  C  0  ?  ?  ?  1  7 
+PAT  CD2   .  C  0  ?  ?  ?  1  8 
+PAT  NE1   .  N  0  ?  ?  ?  1  9 
+PAT  CE2   .  C  0  ?  ?  ?  1  10
+PAT  CE3   .  C  0  ?  ?  ?  1  11
+PAT  CZ2   .  C  0  ?  ?  ?  1  12
+PAT  CZ3   .  C  0  ?  ?  ?  1  13
+PAT  CH2   .  C  0  ?  ?  ?  1  14
+PAT  OXT   .  O  0  ?  ?  ?  1  15
+PAT  P     .  P  0  ?  ?  ?  1  16
+PAT  O1P   .  O  0  ?  ?  ?  1  17
+PAT  O2P   .  O  0  ?  ?  ?  1  18
+PAT  O3P   .  O  0  ?  ?  ?  1  19
+PAT  H     .  H  0  ?  ?  ?  1  20
+PAT  HN2   .  H  0  ?  ?  ?  1  21
+PAT  1HB   .  H  0  ?  ?  ?  0  22
+PAT  2HB   .  H  0  ?  ?  ?  0  23
+PAT  HD1   .  H  0  ?  ?  ?  1  24
+PAT  HE1   .  H  0  ?  ?  ?  1  25
+PAT  HE3   .  H  0  ?  ?  ?  1  26
+PAT  HZ2   .  H  0  ?  ?  ?  1  27
+PAT  HZ3   .  H  0  ?  ?  ?  1  28
+PAT  HH2   .  H  0  ?  ?  ?  1  29
+PAT  HXT   .  H  0  ?  ?  ?  1  30
+PAT  2HOP  .  H  0  ?  ?  ?  0  31
+PAT  3HOP  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAT  N    CA    SING  1 
+PAT  N    H     SING  2 
+PAT  N    HN2   SING  3 
+PAT  CA   C     SING  4 
+PAT  CA   CB    SING  5 
+PAT  CA   P     SING  6 
+PAT  C    O     DOUB  7 
+PAT  C    OXT   SING  8 
+PAT  CB   CG    SING  9 
+PAT  CB   1HB   SING  10
+PAT  CB   2HB   SING  11
+PAT  CG   CD1   DOUB  12
+PAT  CG   CD2   SING  13
+PAT  CD1  NE1   SING  14
+PAT  CD1  HD1   SING  15
+PAT  CD2  CE2   DOUB  16
+PAT  CD2  CE3   SING  17
+PAT  NE1  CE2   SING  18
+PAT  NE1  HE1   SING  19
+PAT  CE2  CZ2   SING  20
+PAT  CE3  CZ3   DOUB  21
+PAT  CE3  HE3   SING  22
+PAT  CZ2  CH2   DOUB  23
+PAT  CZ2  HZ2   SING  24
+PAT  CZ3  CH2   SING  25
+PAT  CZ3  HZ3   SING  26
+PAT  CH2  HH2   SING  27
+PAT  OXT  HXT   SING  28
+PAT  P    O1P   DOUB  29
+PAT  P    O2P   SING  30
+PAT  P    O3P   SING  31
+PAT  O2P  2HOP  SING  32
+PAT  O3P  3HOP  SING  33
+#

@@ -1,0 +1,64 @@
+data_BVF
+#
+_chem_comp.id                   BVF
+_chem_comp.name                 4-METHYLPYRIDIN-2-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 N2'
+_chem_comp.pdbx_synonyms        2-AMINO-4-PICOLINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        108.143
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BVF  C1    .  C  0  -9.104  72.240  16.448  1  1 
+BVF  C2    .  C  0  -9.091  71.121  17.251  1  2 
+BVF  C3    .  C  0  -8.499  69.964  16.796  1  3 
+BVF  C4    .  C  0  -7.928  69.952  15.546  1  4 
+BVF  C5    .  C  0  -7.950  71.097  14.769  1  5 
+BVF  N6    .  N  0  -8.524  72.205  15.245  1  6 
+BVF  N7    .  N  0  -7.346  71.149  13.563  1  7 
+BVF  C8    .  C  0  -8.476  68.721  17.636  1  8 
+BVF  1H8   .  H  0  ?       ?       ?       0  9 
+BVF  2H8   .  H  0  ?       ?       ?       0  10
+BVF  3H8   .  H  0  ?       ?       ?       0  11
+BVF  H2    .  H  0  ?       ?       ?       1  12
+BVF  H1    .  H  0  ?       ?       ?       1  13
+BVF  1HN7  .  H  0  ?       ?       ?       0  14
+BVF  2HN7  .  H  0  ?       ?       ?       0  15
+BVF  H4    .  H  0  ?       ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BVF  C1  C2    DOUB  1 
+BVF  C1  N6    SING  2 
+BVF  C1  H1    SING  3 
+BVF  C2  C3    SING  4 
+BVF  C2  H2    SING  5 
+BVF  C3  C8    SING  6 
+BVF  C3  C4    DOUB  7 
+BVF  C4  C5    SING  8 
+BVF  C4  H4    SING  9 
+BVF  C5  N6    DOUB  10
+BVF  C5  N7    SING  11
+BVF  N7  1HN7  SING  12
+BVF  N7  2HN7  SING  13
+BVF  C8  1H8   SING  14
+BVF  C8  2H8   SING  15
+BVF  C8  3H8   SING  16
+#

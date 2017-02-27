@@ -1,0 +1,133 @@
+data_TNC
+#
+_chem_comp.id                   TNC
+_chem_comp.name                 '4-DIMETHYLAMINO-1,10,11,12-TETRAHYDROXY-3-OXO-3,4,4A,5-TETRAHYDRO-NAPHTHACENE-2-CARBOXYLIC ACID AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H20 N2 O6'
+_chem_comp.pdbx_synonyms        'DEHYDRATED SANCYCLINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        396.399
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TNC  C2    .  C  0  32.659  26.462  -6.059  1  1 
+TNC  C1    .  C  0  33.565  25.549  -6.578  1  2 
+TNC  C6    .  C  0  34.762  25.973  -7.132  1  3 
+TNC  C5    .  C  0  35.119  27.301  -7.161  1  4 
+TNC  C4    .  C  0  34.217  28.222  -6.619  1  5 
+TNC  C3    .  C  0  33.015  27.797  -6.069  1  6 
+TNC  O1    .  O  0  34.538  29.563  -6.617  1  7 
+TNC  C8    .  C  0  30.553  27.010  -4.990  1  8 
+TNC  C7    .  C  0  31.516  26.069  -5.354  1  9 
+TNC  C10   .  C  0  32.124  28.713  -5.534  1  10
+TNC  C9    .  C  0  30.890  28.365  -5.017  1  11
+TNC  O2    .  O  0  32.520  30.019  -5.574  1  12
+TNC  C12   .  C  0  28.481  27.561  -3.939  1  13
+TNC  C11   .  C  0  29.546  26.668  -4.067  1  14
+TNC  C14   .  C  0  30.016  29.292  -4.478  1  15
+TNC  C13   .  C  0  28.784  28.927  -3.948  1  16
+TNC  O3    .  O  0  30.346  30.642  -4.501  1  17
+TNC  C15   .  C  0  27.316  27.182  -3.309  1  18
+TNC  C16   .  C  0  26.313  28.077  -2.991  1  19
+TNC  C17   .  C  0  26.596  29.416  -3.045  1  20
+TNC  C18   .  C  0  27.833  29.833  -3.522  1  21
+TNC  O4    .  O  0  28.002  31.212  -3.519  1  22
+TNC  C19   .  C  0  25.583  30.362  -2.589  1  23
+TNC  O5    .  O  0  25.096  27.597  -2.527  1  24
+TNC  N2    .  N  0  24.306  29.901  -2.597  1  25
+TNC  O6    .  O  0  25.748  31.521  -2.226  1  26
+TNC  N1    .  N  0  26.835  25.845  -3.415  1  27
+TNC  C20   .  C  0  25.850  25.612  -2.389  1  28
+TNC  C21   .  C  0  27.976  24.977  -3.224  1  29
+TNC  HC1   .  H  0  ?       ?       ?       1  30
+TNC  HC5   .  H  0  ?       ?       ?       1  31
+TNC  HC6   .  H  0  ?       ?       ?       1  32
+TNC  HC7   .  H  0  ?       ?       ?       1  33
+TNC  1H11  .  H  0  ?       ?       ?       0  34
+TNC  2H11  .  H  0  ?       ?       ?       0  35
+TNC  HC12  .  H  0  ?       ?       ?       0  36
+TNC  HC15  .  H  0  ?       ?       ?       0  37
+TNC  1H20  .  H  0  ?       ?       ?       0  38
+TNC  2H20  .  H  0  ?       ?       ?       0  39
+TNC  3H20  .  H  0  ?       ?       ?       0  40
+TNC  1H21  .  H  0  ?       ?       ?       0  41
+TNC  2H21  .  H  0  ?       ?       ?       0  42
+TNC  3H21  .  H  0  ?       ?       ?       0  43
+TNC  1HN2  .  H  0  ?       ?       ?       0  44
+TNC  2HN2  .  H  0  ?       ?       ?       0  45
+TNC  HO1   .  H  0  ?       ?       ?       1  46
+TNC  HO2   .  H  0  ?       ?       ?       1  47
+TNC  HO3   .  H  0  ?       ?       ?       1  48
+TNC  HO4   .  H  0  ?       ?       ?       1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TNC  C2   C1    AROM  1 
+TNC  C2   C3    AROM  2 
+TNC  C2   C7    AROM  3 
+TNC  C1   C6    AROM  4 
+TNC  C1   HC1   SING  5 
+TNC  C6   C5    AROM  6 
+TNC  C6   HC6   SING  7 
+TNC  C5   C4    AROM  8 
+TNC  C5   HC5   SING  9 
+TNC  C4   C3    AROM  10
+TNC  C4   O1    SING  11
+TNC  C3   C10   AROM  12
+TNC  O1   HO1   SING  13
+TNC  C8   C7    AROM  14
+TNC  C8   C9    AROM  15
+TNC  C8   C11   SING  16
+TNC  C7   HC7   SING  17
+TNC  C10  C9    AROM  18
+TNC  C10  O2    SING  19
+TNC  C9   C14   SING  20
+TNC  O2   HO2   SING  21
+TNC  C12  C11   SING  22
+TNC  C12  C13   SING  23
+TNC  C12  C15   SING  24
+TNC  C12  HC12  SING  25
+TNC  C11  1H11  SING  26
+TNC  C11  2H11  SING  27
+TNC  C14  C13   DOUB  28
+TNC  C14  O3    SING  29
+TNC  C13  C18   SING  30
+TNC  O3   HO3   SING  31
+TNC  C15  C16   SING  32
+TNC  C15  N1    SING  33
+TNC  C15  HC15  SING  34
+TNC  C16  C17   SING  35
+TNC  C16  O5    DOUB  36
+TNC  C17  C18   DOUB  37
+TNC  C17  C19   SING  38
+TNC  C18  O4    SING  39
+TNC  O4   HO4   SING  40
+TNC  C19  N2    SING  41
+TNC  C19  O6    DOUB  42
+TNC  N2   1HN2  SING  43
+TNC  N2   2HN2  SING  44
+TNC  N1   C20   SING  45
+TNC  N1   C21   SING  46
+TNC  C20  1H20  SING  47
+TNC  C20  2H20  SING  48
+TNC  C20  3H20  SING  49
+TNC  C21  1H21  SING  50
+TNC  C21  2H21  SING  51
+TNC  C21  3H21  SING  52
+#

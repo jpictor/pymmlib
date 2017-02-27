@@ -1,0 +1,97 @@
+data_BDH
+#
+_chem_comp.id                   BDH
+_chem_comp.name                 L-BETA-ASPARTYLHISTIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BDH  O1    .  O  0  53.526  26.008  23.552  1  1 
+BDH  O2    .  O  0  52.579  27.749  24.261  1  2 
+BDH  O3    .  O  0  51.289  26.399  19.442  1  3 
+BDH  O4    .  O  0  53.898  27.864  18.360  1  4 
+BDH  O5    .  O  0  53.023  27.479  16.501  1  5 
+BDH  N1    .  N  0  53.714  26.827  21.115  1  6 
+BDH  N2    .  N  0  51.708  28.661  19.382  1  7 
+BDH  C1    .  C  0  52.982  27.595  21.923  1  8 
+BDH  C2    .  C  0  51.514  27.483  21.530  1  9 
+BDH  C3    .  C  0  51.484  27.479  20.013  1  10
+BDH  C4    .  C  0  53.075  27.104  23.359  1  11
+BDH  C5    .  C  0  51.754  28.808  18.048  1  12
+BDH  C7    .  C  0  52.977  28.008  17.586  1  13
+BDH  CB    .  C  0  51.802  30.303  17.542  1  14
+BDH  CG    .  C  0  51.914  30.417  16.028  1  15
+BDH  ND1   .  N  0  52.870  31.222  15.411  1  16
+BDH  CD2   .  C  0  51.216  29.798  15.024  1  17
+BDH  CE1   .  C  0  52.738  31.079  14.090  1  18
+BDH  NE2   .  N  0  51.750  30.232  13.823  1  19
+BDH  HO1   .  H  0  ?       ?       ?       1  20
+BDH  H1    .  H  0  ?       ?       ?       1  21
+BDH  1HN1  .  H  0  ?       ?       ?       0  22
+BDH  2HN1  .  H  0  ?       ?       ?       0  23
+BDH  1H2   .  H  0  ?       ?       ?       0  24
+BDH  2H2   .  H  0  ?       ?       ?       0  25
+BDH  HN2   .  H  0  ?       ?       ?       1  26
+BDH  H5    .  H  0  ?       ?       ?       1  27
+BDH  HO5   .  H  0  ?       ?       ?       1  28
+BDH  1HB   .  H  0  ?       ?       ?       0  29
+BDH  2HB   .  H  0  ?       ?       ?       0  30
+BDH  HD2   .  H  0  ?       ?       ?       1  31
+BDH  HE1   .  H  0  ?       ?       ?       1  32
+BDH  HD1   .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BDH  O1   HO1   SING  1 
+BDH  O1   C4    SING  2 
+BDH  O2   C4    DOUB  3 
+BDH  O3   C3    DOUB  4 
+BDH  O4   C7    DOUB  5 
+BDH  O5   C7    SING  6 
+BDH  O5   HO5   SING  7 
+BDH  N1   C1    SING  8 
+BDH  N1   1HN1  SING  9 
+BDH  N1   2HN1  SING  10
+BDH  N2   C3    SING  11
+BDH  N2   HN2   SING  12
+BDH  N2   C5    SING  13
+BDH  C1   C4    SING  14
+BDH  C1   H1    SING  15
+BDH  C1   C2    SING  16
+BDH  C2   1H2   SING  17
+BDH  C2   2H2   SING  18
+BDH  C2   C3    SING  19
+BDH  C5   H5    SING  20
+BDH  C5   C7    SING  21
+BDH  C5   CB    SING  22
+BDH  CB   1HB   SING  23
+BDH  CB   2HB   SING  24
+BDH  CB   CG    SING  25
+BDH  CG   CD2   DOUB  26
+BDH  CG   ND1   SING  27
+BDH  ND1  CE1   SING  28
+BDH  ND1  HD1   SING  29
+BDH  CD2  HD2   SING  30
+BDH  CD2  NE2   SING  31
+BDH  CE1  NE2   DOUB  32
+BDH  CE1  HE1   SING  33
+#

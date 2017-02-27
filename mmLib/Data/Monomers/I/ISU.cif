@@ -1,0 +1,58 @@
+data_ISU
+#
+_chem_comp.id                   ISU
+_chem_comp.name                 SE-ETHYL-ISOSELENOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H8 N2 SE1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.070
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISU  C1    .  C   0  ?  ?  ?  1  1 
+ISU  C2    .  C   0  ?  ?  ?  1  2 
+ISU  SE    .  SE  0  ?  ?  ?  0  3 
+ISU  C3    .  C   0  ?  ?  ?  1  4 
+ISU  N1    .  N   0  ?  ?  ?  1  5 
+ISU  N2    .  N   0  ?  ?  ?  1  6 
+ISU  1HC1  .  H   0  ?  ?  ?  0  7 
+ISU  2HC1  .  H   0  ?  ?  ?  0  8 
+ISU  3HC1  .  H   0  ?  ?  ?  0  9 
+ISU  1HC2  .  H   0  ?  ?  ?  0  10
+ISU  2HC2  .  H   0  ?  ?  ?  0  11
+ISU  1HN1  .  H   0  ?  ?  ?  0  12
+ISU  2HN1  .  H   0  ?  ?  ?  0  13
+ISU  HN2   .  H   0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISU  C1  C2    SING  1 
+ISU  C1  1HC1  SING  2 
+ISU  C1  2HC1  SING  3 
+ISU  C1  3HC1  SING  4 
+ISU  C2  SE    SING  5 
+ISU  C2  1HC2  SING  6 
+ISU  C2  2HC2  SING  7 
+ISU  SE  C3    SING  8 
+ISU  C3  N1    SING  9 
+ISU  C3  N2    DOUB  10
+ISU  N1  1HN1  SING  11
+ISU  N1  2HN1  SING  12
+ISU  N2  HN2   SING  13
+#

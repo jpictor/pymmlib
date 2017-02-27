@@ -1,0 +1,40 @@
+data_2BM
+#
+_chem_comp.id                   2BM
+_chem_comp.name                 DIBROMOMETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C1 H2 BR2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        173.835
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2BM  C    .  C   0  ?  ?  ?  1  1
+2BM  BR1  .  BR  0  ?  ?  ?  0  2
+2BM  BR2  .  BR  0  ?  ?  ?  0  3
+2BM  H1   .  H   0  ?  ?  ?  1  4
+2BM  H2   .  H   0  ?  ?  ?  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2BM  C  BR1  SING  1
+2BM  C  BR2  SING  2
+2BM  C  H1   SING  3
+2BM  C  H2   SING  4
+#

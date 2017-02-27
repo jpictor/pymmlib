@@ -1,0 +1,82 @@
+data_TCC
+#
+_chem_comp.id                   TCC
+_chem_comp.name                 2-(2,4-DICHLORO-PHENYLAMINO)-PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N1 O1 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TCC  C12   .  C   0  9.929   102.822  23.975  1  1 
+TCC  C11   .  C   0  9.364   103.828  24.811  1  2 
+TCC  CL2   .  CL  0  8.434   105.109  24.083  0  3 
+TCC  C10   .  C   0  9.556   103.783  26.253  1  4 
+TCC  C9    .  C   0  10.321  102.710  26.839  1  5 
+TCC  CL1   .  CL  0  10.526  102.687  28.598  0  6 
+TCC  C8    .  C   0  10.901  101.672  25.999  1  7 
+TCC  N1    .  N   0  11.664  100.605  26.702  1  8 
+TCC  C4    .  C   0  12.293  99.492   25.989  1  9 
+TCC  C5    .  C   0  11.553  98.271   25.668  1  10
+TCC  C6    .  C   0  12.204  97.180   24.959  1  11
+TCC  C1    .  C   0  13.592  97.301   24.572  1  12
+TCC  C2    .  C   0  14.328  98.511   24.891  1  13
+TCC  C3    .  C   0  13.675  99.606   25.598  1  14
+TCC  O1    .  O   0  14.405  100.745  25.881  1  15
+TCC  C7    .  C   0  10.691  101.749  24.545  1  16
+TCC  CH12  .  H   0  ?       ?        ?       0  17
+TCC  CH10  .  H   0  ?       ?        ?       0  18
+TCC  HN1   .  H   0  ?       ?        ?       1  19
+TCC  HC5   .  H   0  ?       ?        ?       1  20
+TCC  HC6   .  H   0  ?       ?        ?       1  21
+TCC  HC1   .  H   0  ?       ?        ?       1  22
+TCC  HC2   .  H   0  ?       ?        ?       1  23
+TCC  HO1   .  H   0  ?       ?        ?       1  24
+TCC  HC7   .  H   0  ?       ?        ?       1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TCC  C12  C11   AROM  1 
+TCC  C12  C7    AROM  2 
+TCC  C12  CH12  SING  3 
+TCC  C11  CL2   SING  4 
+TCC  C11  C10   AROM  5 
+TCC  C10  C9    AROM  6 
+TCC  C10  CH10  SING  7 
+TCC  C9   CL1   SING  8 
+TCC  C9   C8    AROM  9 
+TCC  C8   N1    SING  10
+TCC  C8   C7    AROM  11
+TCC  N1   C4    SING  12
+TCC  N1   HN1   SING  13
+TCC  C4   C5    AROM  14
+TCC  C4   C3    AROM  15
+TCC  C5   C6    AROM  16
+TCC  C5   HC5   SING  17
+TCC  C6   C1    AROM  18
+TCC  C6   HC6   SING  19
+TCC  C1   C2    AROM  20
+TCC  C1   HC1   SING  21
+TCC  C2   C3    AROM  22
+TCC  C2   HC2   SING  23
+TCC  C3   O1    SING  24
+TCC  O1   HO1   SING  25
+TCC  C7   HC7   SING  26
+#

@@ -1,0 +1,82 @@
+data_LX1
+#
+_chem_comp.id                   LX1
+_chem_comp.name                 'L-XYLULOSE 5-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H13 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        216.127
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LX1  O8   .  O  0  40.638  5.045   13.019  1  1 
+LX1  P    .  P  0  40.606  5.354   11.521  1  2 
+LX1  O6   .  O  0  41.333  4.372   10.666  1  3 
+LX1  O7   .  O  0  39.164  5.578   11.074  1  4 
+LX1  O5   .  O  0  41.371  6.777   11.279  1  5 
+LX1  C5   .  C  0  40.927  7.999   11.823  1  6 
+LX1  C4   .  C  0  41.642  8.383   13.135  1  7 
+LX1  O4   .  O  0  41.066  9.608   13.625  1  8 
+LX1  C3   .  C  0  43.151  8.416   12.900  1  9 
+LX1  O3   .  O  0  43.480  9.383   11.876  1  10
+LX1  C2   .  C  0  43.858  8.778   14.234  1  11
+LX1  O2   .  O  0  43.985  10.206  14.318  1  12
+LX1  C1   .  C  0  45.216  8.117   14.293  1  13
+LX1  1H1  .  H  0  ?       ?       ?       0  14
+LX1  2H1  .  H  0  ?       ?       ?       0  15
+LX1  3H1  .  H  0  ?       ?       ?       0  16
+LX1  HO2  .  H  0  ?       ?       ?       1  17
+LX1  H2   .  H  0  ?       ?       ?       1  18
+LX1  HO3  .  H  0  ?       ?       ?       1  19
+LX1  H3   .  H  0  ?       ?       ?       1  20
+LX1  HO4  .  H  0  ?       ?       ?       1  21
+LX1  H4   .  H  0  ?       ?       ?       1  22
+LX1  1H5  .  H  0  ?       ?       ?       0  23
+LX1  2H5  .  H  0  ?       ?       ?       0  24
+LX1  HO7  .  H  0  ?       ?       ?       1  25
+LX1  HO8  .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LX1  O8  P    SING  1 
+LX1  O8  HO8  SING  2 
+LX1  P   O6   DOUB  3 
+LX1  P   O7   SING  4 
+LX1  P   O5   SING  5 
+LX1  O7  HO7  SING  6 
+LX1  O5  C5   SING  7 
+LX1  C5  C4   SING  8 
+LX1  C5  1H5  SING  9 
+LX1  C5  2H5  SING  10
+LX1  C4  O4   SING  11
+LX1  C4  C3   SING  12
+LX1  C4  H4   SING  13
+LX1  O4  HO4  SING  14
+LX1  C3  O3   SING  15
+LX1  C3  C2   SING  16
+LX1  C3  H3   SING  17
+LX1  O3  HO3  SING  18
+LX1  C2  O2   SING  19
+LX1  C2  C1   SING  20
+LX1  C2  H2   SING  21
+LX1  O2  HO2  SING  22
+LX1  C1  1H1  SING  23
+LX1  C1  2H1  SING  24
+LX1  C1  3H1  SING  25
+#

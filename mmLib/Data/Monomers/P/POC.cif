@@ -1,0 +1,82 @@
+data_POC
+#
+_chem_comp.id                   POC
+_chem_comp.name                 PHOSPHOCHOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H15 N1 O4 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       184.152
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+POC  P1   .  P  0  ?  ?  ?  1  1 
+POC  O3   .  O  0  ?  ?  ?  1  2 
+POC  O4   .  O  0  ?  ?  ?  1  3 
+POC  O5   .  O  0  ?  ?  ?  1  4 
+POC  O6   .  O  0  ?  ?  ?  1  5 
+POC  C4   .  C  0  ?  ?  ?  1  6 
+POC  C5   .  C  0  ?  ?  ?  1  7 
+POC  N1   .  N  1  ?  ?  ?  1  8 
+POC  C6   .  C  0  ?  ?  ?  1  9 
+POC  C7   .  C  0  ?  ?  ?  1  10
+POC  C8   .  C  0  ?  ?  ?  1  11
+POC  HO3  .  H  0  ?  ?  ?  1  12
+POC  HO5  .  H  0  ?  ?  ?  1  13
+POC  1H4  .  H  0  ?  ?  ?  0  14
+POC  2H4  .  H  0  ?  ?  ?  0  15
+POC  1H5  .  H  0  ?  ?  ?  0  16
+POC  2H5  .  H  0  ?  ?  ?  0  17
+POC  1H6  .  H  0  ?  ?  ?  0  18
+POC  2H6  .  H  0  ?  ?  ?  0  19
+POC  3H6  .  H  0  ?  ?  ?  0  20
+POC  1H7  .  H  0  ?  ?  ?  0  21
+POC  2H7  .  H  0  ?  ?  ?  0  22
+POC  3H7  .  H  0  ?  ?  ?  0  23
+POC  1H8  .  H  0  ?  ?  ?  0  24
+POC  2H8  .  H  0  ?  ?  ?  0  25
+POC  3H8  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+POC  P1  O3   SING  1 
+POC  P1  O4   DOUB  2 
+POC  P1  O5   SING  3 
+POC  P1  O6   SING  4 
+POC  O3  HO3  SING  5 
+POC  O5  HO5  SING  6 
+POC  O6  C4   SING  7 
+POC  C4  C5   SING  8 
+POC  C4  1H4  SING  9 
+POC  C4  2H4  SING  10
+POC  C5  N1   SING  11
+POC  C5  1H5  SING  12
+POC  C5  2H5  SING  13
+POC  N1  C6   SING  14
+POC  N1  C7   SING  15
+POC  N1  C8   SING  16
+POC  C6  1H6  SING  17
+POC  C6  2H6  SING  18
+POC  C6  3H6  SING  19
+POC  C7  1H7  SING  20
+POC  C7  2H7  SING  21
+POC  C7  3H7  SING  22
+POC  C8  1H8  SING  23
+POC  C8  2H8  SING  24
+POC  C8  3H8  SING  25
+#

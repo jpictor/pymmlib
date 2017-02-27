@@ -1,0 +1,79 @@
+data_TPH
+#
+_chem_comp.id                   TPH
+_chem_comp.name                 '2-AMINO-3-PHENYL-PROPANE-1,1-DIOL GROUP'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H12 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPH  N    .  N  0  ?  ?  ?  1  1 
+TPH  CA   .  C  0  ?  ?  ?  1  2 
+TPH  C    .  C  0  ?  ?  ?  1  3 
+TPH  O1   .  O  0  ?  ?  ?  1  4 
+TPH  O2   .  O  0  ?  ?  ?  1  5 
+TPH  CB   .  C  0  ?  ?  ?  1  6 
+TPH  CG   .  C  0  ?  ?  ?  1  7 
+TPH  CD1  .  C  0  ?  ?  ?  1  8 
+TPH  CD2  .  C  0  ?  ?  ?  1  9 
+TPH  CE1  .  C  0  ?  ?  ?  1  10
+TPH  CE2  .  C  0  ?  ?  ?  1  11
+TPH  CZ   .  C  0  ?  ?  ?  1  12
+TPH  1NH  .  H  0  ?  ?  ?  1  13
+TPH  2NH  .  H  0  ?  ?  ?  1  14
+TPH  HA   .  H  0  ?  ?  ?  1  15
+TPH  HO1  .  H  0  ?  ?  ?  1  16
+TPH  HO2  .  H  0  ?  ?  ?  1  17
+TPH  1HB  .  H  0  ?  ?  ?  0  18
+TPH  2HB  .  H  0  ?  ?  ?  0  19
+TPH  HD1  .  H  0  ?  ?  ?  1  20
+TPH  HD2  .  H  0  ?  ?  ?  1  21
+TPH  HE1  .  H  0  ?  ?  ?  1  22
+TPH  HE2  .  H  0  ?  ?  ?  1  23
+TPH  HZ   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPH  N    CA   SING  1 
+TPH  N    1NH  SING  2 
+TPH  N    2NH  SING  3 
+TPH  CA   C    SING  4 
+TPH  CA   CB   SING  5 
+TPH  CA   HA   SING  6 
+TPH  C    O1   SING  7 
+TPH  C    O2   SING  8 
+TPH  O1   HO1  SING  9 
+TPH  O2   HO2  SING  10
+TPH  CB   CG   SING  11
+TPH  CB   1HB  SING  12
+TPH  CB   2HB  SING  13
+TPH  CG   CD1  DOUB  14
+TPH  CG   CD2  SING  15
+TPH  CD1  CE1  SING  16
+TPH  CD1  HD1  SING  17
+TPH  CD2  CE2  DOUB  18
+TPH  CD2  HD2  SING  19
+TPH  CE1  CZ   DOUB  20
+TPH  CE1  HE1  SING  21
+TPH  CE2  CZ   SING  22
+TPH  CE2  HE2  SING  23
+TPH  CZ   HZ   SING  24
+#

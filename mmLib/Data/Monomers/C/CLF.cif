@@ -1,0 +1,84 @@
+data_CLF
+#
+_chem_comp.id                   CLF
+_chem_comp.name                 'FE(8)-S(7) CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE8 S7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        671.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CLF  FE1  .  FE  0  104.798  -12.323  32.528  0  1 
+CLF  FE2  .  FE  0  102.595  -12.949  31.542  0  2 
+CLF  FE3  .  FE  0  103.157  -14.014  34.02   0  3 
+CLF  FE4  .  FE  0  102.697  -11.421  33.595  0  4 
+CLF  S1   .  S   0  103.469  -10.618  31.479  1  5 
+CLF  S2A  .  S   0  104.222  -14.506  32.015  1  6 
+CLF  S4A  .  S   0  101.183  -13.094  33.318  1  7 
+CLF  S3A  .  S   0  104.453  -12.163  34.766  1  8 
+CLF  FE5  .  FE  0  101.387  -9.448   31.907  0  9 
+CLF  FE6  .  FE  0  102.971  -8.599   30.085  0  10
+CLF  FE7  .  FE  0  100.182  -8.502   29.545  0  11
+CLF  FE8  .  FE  0  101.626  -10.807  29.823  0  12
+CLF  S2B  .  S   0  101.403  -7.261   31.14   1  13
+CLF  S3B  .  S   0  101.87   -9.19    28.086  1  14
+CLF  S4B  .  S   0  99.672   -10.434  30.829  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CLF  FE1  S3A  SING  1 
+CLF  FE1  S1   SING  2 
+CLF  FE1  S2A  SING  3 
+CLF  FE1  FE2  SING  4 
+CLF  FE1  FE3  SING  5 
+CLF  FE1  FE4  SING  6 
+CLF  FE2  S1   SING  7 
+CLF  FE2  S2A  SING  8 
+CLF  FE2  S4A  SING  9 
+CLF  FE2  FE3  SING  10
+CLF  FE2  FE4  SING  11
+CLF  FE2  FE8  SING  12
+CLF  FE3  S2A  SING  13
+CLF  FE3  S4A  SING  14
+CLF  FE3  S3A  SING  15
+CLF  FE3  FE4  SING  16
+CLF  FE4  S1   SING  17
+CLF  FE4  S4A  SING  18
+CLF  FE4  S3A  SING  19
+CLF  FE4  FE5  SING  20
+CLF  S1   FE5  SING  21
+CLF  S1   FE6  SING  22
+CLF  S1   FE8  SING  23
+CLF  FE5  S2B  SING  24
+CLF  FE5  S4B  SING  25
+CLF  FE5  FE6  SING  26
+CLF  FE5  FE7  SING  27
+CLF  FE5  FE8  SING  28
+CLF  FE6  S2B  SING  29
+CLF  FE6  S3B  SING  30
+CLF  FE6  FE7  SING  31
+CLF  FE6  FE8  SING  32
+CLF  FE7  S2B  SING  33
+CLF  FE7  S3B  SING  34
+CLF  FE7  S4B  SING  35
+CLF  FE7  FE8  SING  36
+CLF  FE8  S3B  SING  37
+CLF  FE8  S4B  SING  38
+#

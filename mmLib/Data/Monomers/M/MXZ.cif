@@ -1,0 +1,83 @@
+data_MXZ
+#
+_chem_comp.id                   MXZ
+_chem_comp.name                 6-DEOXY-2-O-METHYL-ALPHA-L-GALACTOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MXZ  C1    .  C  0  43.085  16.83   38.177  1  1 
+MXZ  C2    .  C  0  42.814  15.526  38.925  1  2 
+MXZ  C3    .  C  0  44.032  14.633  38.845  1  3 
+MXZ  C4    .  C  0  45.279  15.368  39.293  1  4 
+MXZ  C5    .  C  0  45.44   16.717  38.587  1  5 
+MXZ  O1    .  O  0  43.332  16.456  36.801  1  6 
+MXZ  O2    .  O  0  41.771  14.757  38.31   1  7 
+MXZ  O3    .  O  0  43.75   13.554  39.741  1  8 
+MXZ  O4    .  O  0  45.023  15.616  40.651  1  9 
+MXZ  O5    .  O  0  44.24   17.46   38.748  1  10
+MXZ  CM    .  C  0  40.509  15.26   38.8    1  11
+MXZ  C6    .  C  0  46.625  17.56   39.107  1  12
+MXZ  1H1C  .  H  0  42.197  17.504  38.161  0  13
+MXZ  H2    .  H  0  42.56   15.738  39.99   1  14
+MXZ  H3    .  H  0  44.162  14.249  37.806  1  15
+MXZ  1HMC  .  H  0  39.698  14.662  38.322  0  16
+MXZ  2HMC  .  H  0  40.389  16.357  38.643  0  17
+MXZ  3HMC  .  H  0  40.446  15.264  39.913  0  18
+MXZ  H1    .  H  0  ?       ?       ?       1  19
+MXZ  HA    .  H  0  44.515  12.993  39.691  1  20
+MXZ  H4    .  H  0  46.188  14.735  39.164  1  21
+MXZ  HB    .  H  0  45.805  16.077  40.932  1  22
+MXZ  H5    .  H  0  45.593  16.528  37.499  1  23
+MXZ  1H6C  .  H  0  47.567  16.977  38.981  0  24
+MXZ  2H6C  .  H  0  46.475  17.902  40.158  0  25
+MXZ  3H6C  .  H  0  46.678  18.563  38.623  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MXZ  C1  O1    SING  1 
+MXZ  C1  O5    SING  2 
+MXZ  C1  1H1C  SING  3 
+MXZ  C1  C2    SING  4 
+MXZ  C2  O2    SING  5 
+MXZ  C2  C3    SING  6 
+MXZ  C2  H2    SING  7 
+MXZ  C3  O3    SING  8 
+MXZ  C3  C4    SING  9 
+MXZ  C3  H3    SING  10
+MXZ  C4  O4    SING  11
+MXZ  C4  C5    SING  12
+MXZ  C4  H4    SING  13
+MXZ  C5  C6    SING  14
+MXZ  C5  O5    SING  15
+MXZ  C5  H5    SING  16
+MXZ  O1  H1    SING  17
+MXZ  O2  CM    SING  18
+MXZ  O3  HA    SING  19
+MXZ  O4  HB    SING  20
+MXZ  CM  1HMC  SING  21
+MXZ  CM  2HMC  SING  22
+MXZ  CM  3HMC  SING  23
+MXZ  C6  1H6C  SING  24
+MXZ  C6  2H6C  SING  25
+MXZ  C6  3H6C  SING  26
+#

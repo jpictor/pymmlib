@@ -1,0 +1,135 @@
+data_TSB
+#
+_chem_comp.id                   TSB
+_chem_comp.name                 5'-O-(N-(L-THREONYL)-SULFAMOYL)ADENOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H21 N7 O8 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        447.422
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSB  CG2   .  C  0  ?  ?  ?  1  1 
+TSB  N     .  N  0  ?  ?  ?  1  2 
+TSB  CA    .  C  0  ?  ?  ?  1  3 
+TSB  CB    .  C  0  ?  ?  ?  1  4 
+TSB  OG1   .  O  0  ?  ?  ?  1  5 
+TSB  C     .  C  0  ?  ?  ?  1  6 
+TSB  O     .  O  0  ?  ?  ?  1  7 
+TSB  N8    .  N  0  ?  ?  ?  1  8 
+TSB  S1    .  S  0  ?  ?  ?  1  9 
+TSB  O1S   .  O  0  ?  ?  ?  1  10
+TSB  O2S   .  O  0  ?  ?  ?  1  11
+TSB  O5*   .  O  0  ?  ?  ?  1  12
+TSB  C5*   .  C  0  ?  ?  ?  1  13
+TSB  C4*   .  C  0  ?  ?  ?  1  14
+TSB  O4*   .  O  0  ?  ?  ?  1  15
+TSB  C3*   .  C  0  ?  ?  ?  1  16
+TSB  O3*   .  O  0  ?  ?  ?  1  17
+TSB  C2*   .  C  0  ?  ?  ?  1  18
+TSB  O2*   .  O  0  ?  ?  ?  1  19
+TSB  C1*   .  C  0  ?  ?  ?  1  20
+TSB  N9    .  N  0  ?  ?  ?  1  21
+TSB  C8    .  C  0  ?  ?  ?  1  22
+TSB  N7    .  N  0  ?  ?  ?  1  23
+TSB  C5    .  C  0  ?  ?  ?  1  24
+TSB  C6    .  C  0  ?  ?  ?  1  25
+TSB  N6    .  N  0  ?  ?  ?  1  26
+TSB  N1    .  N  0  ?  ?  ?  1  27
+TSB  C2    .  C  0  ?  ?  ?  1  28
+TSB  N3    .  N  0  ?  ?  ?  1  29
+TSB  C4    .  C  0  ?  ?  ?  1  30
+TSB  1HG2  .  H  0  ?  ?  ?  0  31
+TSB  2HG2  .  H  0  ?  ?  ?  0  32
+TSB  3HG2  .  H  0  ?  ?  ?  0  33
+TSB  H2    .  H  0  ?  ?  ?  1  34
+TSB  H8    .  H  0  ?  ?  ?  1  35
+TSB  1HN6  .  H  0  ?  ?  ?  0  36
+TSB  2HN6  .  H  0  ?  ?  ?  0  37
+TSB  H1*   .  H  0  ?  ?  ?  1  38
+TSB  H2*   .  H  0  ?  ?  ?  1  39
+TSB  *HO2  .  H  0  ?  ?  ?  0  40
+TSB  H3*   .  H  0  ?  ?  ?  1  41
+TSB  *HO3  .  H  0  ?  ?  ?  0  42
+TSB  H4*   .  H  0  ?  ?  ?  1  43
+TSB  1H5*  .  H  0  ?  ?  ?  0  44
+TSB  2H5*  .  H  0  ?  ?  ?  0  45
+TSB  HN8   .  H  0  ?  ?  ?  1  46
+TSB  HA    .  H  0  ?  ?  ?  1  47
+TSB  HB    .  H  0  ?  ?  ?  1  48
+TSB  HG1   .  H  0  ?  ?  ?  1  49
+TSB  1HN1  .  H  0  ?  ?  ?  0  50
+TSB  2HN1  .  H  0  ?  ?  ?  0  51
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSB  CG2  1HG2  SING  1 
+TSB  CG2  2HG2  SING  2 
+TSB  CG2  3HG2  SING  3 
+TSB  CG2  CB    SING  4 
+TSB  N    CA    SING  5 
+TSB  N    1HN1  SING  6 
+TSB  N    2HN1  SING  7 
+TSB  CA   CB    SING  8 
+TSB  CA   C     SING  9 
+TSB  CA   HA    SING  10
+TSB  CB   OG1   SING  11
+TSB  CB   HB    SING  12
+TSB  OG1  HG1   SING  13
+TSB  C    O     DOUB  14
+TSB  C    N8    SING  15
+TSB  N8   S1    SING  16
+TSB  N8   HN8   SING  17
+TSB  S1   O1S   DOUB  18
+TSB  S1   O2S   DOUB  19
+TSB  S1   O5*   SING  20
+TSB  O5*  C5*   SING  21
+TSB  C5*  C4*   SING  22
+TSB  C5*  1H5*  SING  23
+TSB  C5*  2H5*  SING  24
+TSB  C4*  O4*   SING  25
+TSB  C4*  C3*   SING  26
+TSB  C4*  H4*   SING  27
+TSB  O4*  C1*   SING  28
+TSB  C3*  O3*   SING  29
+TSB  C3*  C2*   SING  30
+TSB  C3*  H3*   SING  31
+TSB  O3*  *HO3  SING  32
+TSB  C2*  O2*   SING  33
+TSB  C2*  C1*   SING  34
+TSB  C2*  H2*   SING  35
+TSB  O2*  *HO2  SING  36
+TSB  C1*  N9    SING  37
+TSB  C1*  H1*   SING  38
+TSB  N9   C8    SING  39
+TSB  N9   C4    SING  40
+TSB  C8   N7    DOUB  41
+TSB  C8   H8    SING  42
+TSB  N7   C5    SING  43
+TSB  C5   C6    SING  44
+TSB  C5   C4    DOUB  45
+TSB  C6   N6    SING  46
+TSB  C6   N1    DOUB  47
+TSB  N6   1HN6  SING  48
+TSB  N6   2HN6  SING  49
+TSB  N1   C2    SING  50
+TSB  C2   N3    DOUB  51
+TSB  C2   H2    SING  52
+TSB  N3   C4    SING  53
+#

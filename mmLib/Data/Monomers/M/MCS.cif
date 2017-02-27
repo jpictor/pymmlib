@@ -1,0 +1,74 @@
+data_MCS
+#
+_chem_comp.id                   MCS
+_chem_comp.name                 'MALONYL CYSTEINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        207.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCS  O     .  O  0  -26.319  -55.767  -66.188  1  1 
+MCS  C     .  C  0  -25.161  -55.931  -65.802  1  2 
+MCS  CA    .  C  0  -23.963  -55.497  -66.669  1  3 
+MCS  N     .  N  0  -23.833  -56.42   -67.762  1  4 
+MCS  CB    .  C  0  -23.949  -54.026  -67.138  1  5 
+MCS  SAI   .  S  0  -22.453  -53.738  -68.179  1  6 
+MCS  CAK   .  C  0  -22.31   -51.917  -68.429  1  7 
+MCS  OAC   .  O  0  -21.409  -51.315  -67.853  1  8 
+MCS  CAG   .  C  0  -23.263  -51.092  -69.366  1  9 
+MCS  CAJ   .  C  0  -22.477  -50.225  -70.427  1  10
+MCS  OAE   .  O  0  -23.035  -49.179  -70.899  1  11
+MCS  OAB   .  O  0  -21.328  -50.637  -70.758  1  12
+MCS  OXT   .  O  0  -24.862  -56.508  -64.638  1  13
+MCS  HA    .  H  0  -23.068  -55.535  -66.006  1  14
+MCS  HOT   .  H  0  -23.969  -56.634  -64.34   1  15
+MCS  1HN   .  H  0  -24.694  -56.512  -68.302  0  16
+MCS  2HN   .  H  0  -23.04   -56.133  -68.336  0  17
+MCS  1HBC  .  H  0  -24.017  -53.309  -66.287  0  18
+MCS  2HBC  .  H  0  -24.891  -53.739  -67.661  0  19
+MCS  1HAG  .  H  0  -23.959  -50.458  -68.769  0  20
+MCS  2HAG  .  H  0  -24.006  -51.757  -69.865  0  21
+MCS  HAE   .  H  0  -22.562  -48.658  -71.537  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCS  O    C     DOUB  1 
+MCS  C    CA    SING  2 
+MCS  C    OXT   SING  3 
+MCS  CA   N     SING  4 
+MCS  CA   CB    SING  5 
+MCS  CA   HA    SING  6 
+MCS  N    1HN   SING  7 
+MCS  N    2HN   SING  8 
+MCS  CB   SAI   SING  9 
+MCS  CB   1HBC  SING  10
+MCS  CB   2HBC  SING  11
+MCS  SAI  CAK   SING  12
+MCS  CAK  OAC   DOUB  13
+MCS  CAK  CAG   SING  14
+MCS  CAG  CAJ   SING  15
+MCS  CAG  1HAG  SING  16
+MCS  CAG  2HAG  SING  17
+MCS  CAJ  OAE   SING  18
+MCS  CAJ  OAB   DOUB  19
+MCS  OAE  HAE   SING  20
+MCS  OXT  HOT   SING  21
+#

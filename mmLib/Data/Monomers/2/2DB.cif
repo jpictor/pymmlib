@@ -1,0 +1,78 @@
+data_2DB
+#
+_chem_comp.id                   2DB
+_chem_comp.name                 (S)-(2,3-DIHYDROXYPROPOXY)TRIHYDROXYBORATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H10 O6 B1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       152.918
+#
+_pdbx_chem_comp_descriptor.comp_id          2DB
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       B(O)(O)(O)OC[C@H](CO)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+2DB  B    .  B  -1  51.047  47.180  37.277  1  N  1 
+2DB  O6   .  O  0   50.513  47.193  35.905  1  N  2 
+2DB  O4   .  O  0   50.649  48.406  37.966  1  N  3 
+2DB  O5   .  O  0   52.502  47.152  37.284  1  N  4 
+2DB  C1   .  C  0   50.865  44.718  37.425  1  N  5 
+2DB  O1   .  O  0   50.452  46.050  37.996  1  N  6 
+2DB  C2   .  C  0   50.626  43.597  38.417  1  N  7 
+2DB  O2   .  O  0   49.230  43.527  38.961  1  N  8 
+2DB  C3   .  C  0   51.046  42.249  37.796  1  N  9 
+2DB  O3   .  O  0   51.311  41.320  38.944  1  N  10
+2DB  HO6  .  H  0   49.563  47.196  35.934  1  N  11
+2DB  HO4  .  H  0   50.563  48.233  38.896  1  N  12
+2DB  HO5  .  H  0   52.823  47.146  36.390  1  N  13
+2DB  1H1  .  H  0   50.276  44.522  36.517  0  N  14
+2DB  2H1  .  H  0   51.940  44.756  37.194  0  N  15
+2DB  H2   .  H  0   51.256  43.825  39.290  1  N  16
+2DB  HO2  .  H  0   49.260  43.512  39.910  1  N  17
+2DB  1H3  .  H  0   50.244  41.852  37.156  0  N  18
+2DB  2H3  .  H  0   51.938  42.363  37.162  0  N  19
+2DB  HO3  .  H  0   51.367  40.428  38.623  1  N  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+2DB  B   O6   SING  N  1 
+2DB  B   O4   SING  N  2 
+2DB  B   O5   SING  N  3 
+2DB  B   O1   SING  N  4 
+2DB  O6  HO6  SING  N  5 
+2DB  O4  HO4  SING  N  6 
+2DB  O5  HO5  SING  N  7 
+2DB  C1  O1   SING  N  8 
+2DB  C1  C2   SING  N  9 
+2DB  C1  1H1  SING  N  10
+2DB  C1  2H1  SING  N  11
+2DB  C2  O2   SING  N  12
+2DB  C2  C3   SING  N  13
+2DB  C2  H2   SING  N  14
+2DB  O2  HO2  SING  N  15
+2DB  C3  O3   SING  N  16
+2DB  C3  1H3  SING  N  17
+2DB  C3  2H3  SING  N  18
+2DB  O3  HO3  SING  N  19
+#

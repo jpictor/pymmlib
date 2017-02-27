@@ -1,0 +1,88 @@
+data_NDF
+#
+_chem_comp.id                       NDF
+_chem_comp.name                     N-(CARBOXYCARBONYL)-D-PHENYLALANINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H11 N1 O5'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            237.212
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NDF  CD1  .  C  0  19.964  26.253  33.016  1  1 
+NDF  CE1  .  C  0  21.092  26.391  33.835  1  2 
+NDF  CZ   .  C  0  22.163  25.529  33.687  1  3 
+NDF  CE2  .  C  0  22.118  24.517  32.717  1  4 
+NDF  CD2  .  C  0  21.004  24.379  31.909  1  5 
+NDF  CG   .  C  0  19.920  25.254  32.061  1  6 
+NDF  CB   .  C  0  18.677  25.085  31.183  1  7 
+NDF  CA   .  C  0  18.796  25.862  29.871  1  8 
+NDF  C    .  C  0  17.521  25.655  29.056  1  9 
+NDF  O    .  O  0  17.544  25.049  27.989  1  10
+NDF  OXT  .  O  0  16.444  26.101  29.474  1  11
+NDF  N    .  N  0  19.969  25.367  29.136  1  12
+NDF  C2   .  C  0  21.075  26.094  28.994  1  13
+NDF  O2'  .  O  0  21.184  27.241  29.427  1  14
+NDF  C1   .  C  0  22.263  25.498  28.238  1  15
+NDF  O1   .  O  0  22.142  24.400  27.674  1  16
+NDF  O2   .  O  0  23.332  26.087  28.195  1  17
+NDF  HO1  .  H  0  ?       ?       ?       1  18
+NDF  HN   .  H  0  ?       ?       ?       1  19
+NDF  HA   .  H  0  ?       ?       ?       1  20
+NDF  HXT  .  H  0  ?       ?       ?       1  21
+NDF  1HB  .  H  0  ?       ?       ?       0  22
+NDF  2HB  .  H  0  ?       ?       ?       0  23
+NDF  HD2  .  H  0  ?       ?       ?       1  24
+NDF  HE2  .  H  0  ?       ?       ?       1  25
+NDF  HZ   .  H  0  ?       ?       ?       1  26
+NDF  HE1  .  H  0  ?       ?       ?       1  27
+NDF  HD1  .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NDF  CD1  CE1  AROM  1 
+NDF  CD1  CG   AROM  2 
+NDF  CD1  HD1  SING  3 
+NDF  CE1  CZ   AROM  4 
+NDF  CE1  HE1  SING  5 
+NDF  CZ   CE2  AROM  6 
+NDF  CZ   HZ   SING  7 
+NDF  CE2  CD2  AROM  8 
+NDF  CE2  HE2  SING  9 
+NDF  CD2  CG   AROM  10
+NDF  CD2  HD2  SING  11
+NDF  CG   CB   SING  12
+NDF  CB   CA   SING  13
+NDF  CB   1HB  SING  14
+NDF  CB   2HB  SING  15
+NDF  CA   N    SING  16
+NDF  CA   HA   SING  17
+NDF  CA   C    SING  18
+NDF  C    O    DOUB  19
+NDF  C    OXT  SING  20
+NDF  OXT  HXT  SING  21
+NDF  N    C2   SING  22
+NDF  N    HN   SING  23
+NDF  C2   C1   SING  24
+NDF  C2   O2'  DOUB  25
+NDF  C1   O1   SING  26
+NDF  C1   O2   DOUB  27
+NDF  O1   HO1  SING  28
+#

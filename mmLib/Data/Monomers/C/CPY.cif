@@ -1,0 +1,118 @@
+data_CPY
+#
+_chem_comp.id                   CPY
+_chem_comp.name                 1-(3-AMINO-4-CYCLOHEXYL-2-HYDROXYBUTYL)PYRIDIN-2(1H)-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H24 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        264.367
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPY  N     .  N  0  ?  ?  ?  1  1 
+CPY  CA    .  C  0  ?  ?  ?  1  2 
+CPY  CB    .  C  0  ?  ?  ?  1  3 
+CPY  CG    .  C  0  ?  ?  ?  1  4 
+CPY  CD1   .  C  0  ?  ?  ?  1  5 
+CPY  CD2   .  C  0  ?  ?  ?  1  6 
+CPY  CE1   .  C  0  ?  ?  ?  1  7 
+CPY  CE2   .  C  0  ?  ?  ?  1  8 
+CPY  CZ    .  C  0  ?  ?  ?  1  9 
+CPY  CH    .  C  0  ?  ?  ?  1  10
+CPY  OH    .  O  0  ?  ?  ?  1  11
+CPY  CM    .  C  0  ?  ?  ?  1  12
+CPY  N1    .  N  0  ?  ?  ?  1  13
+CPY  C2    .  C  0  ?  ?  ?  1  14
+CPY  O2    .  O  0  ?  ?  ?  1  15
+CPY  C3    .  C  0  ?  ?  ?  1  16
+CPY  C4    .  C  0  ?  ?  ?  1  17
+CPY  C5    .  C  0  ?  ?  ?  1  18
+CPY  C6    .  C  0  ?  ?  ?  1  19
+CPY  1HN   .  H  0  ?  ?  ?  0  20
+CPY  2HN   .  H  0  ?  ?  ?  0  21
+CPY  HA    .  H  0  ?  ?  ?  1  22
+CPY  1HB   .  H  0  ?  ?  ?  0  23
+CPY  2HB   .  H  0  ?  ?  ?  0  24
+CPY  HG    .  H  0  ?  ?  ?  1  25
+CPY  1HD1  .  H  0  ?  ?  ?  0  26
+CPY  2HD1  .  H  0  ?  ?  ?  0  27
+CPY  1HD2  .  H  0  ?  ?  ?  0  28
+CPY  2HD2  .  H  0  ?  ?  ?  0  29
+CPY  1HE1  .  H  0  ?  ?  ?  0  30
+CPY  2HE1  .  H  0  ?  ?  ?  0  31
+CPY  1HE2  .  H  0  ?  ?  ?  0  32
+CPY  2HE2  .  H  0  ?  ?  ?  0  33
+CPY  1HCZ  .  H  0  ?  ?  ?  0  34
+CPY  2HCZ  .  H  0  ?  ?  ?  0  35
+CPY  HH    .  H  0  ?  ?  ?  1  36
+CPY  HO    .  H  0  ?  ?  ?  1  37
+CPY  1HM   .  H  0  ?  ?  ?  0  38
+CPY  2HM   .  H  0  ?  ?  ?  0  39
+CPY  HC3   .  H  0  ?  ?  ?  1  40
+CPY  HC4   .  H  0  ?  ?  ?  1  41
+CPY  HC5   .  H  0  ?  ?  ?  1  42
+CPY  HC6   .  H  0  ?  ?  ?  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPY  N    CA    SING  1 
+CPY  N    1HN   SING  2 
+CPY  N    2HN   SING  3 
+CPY  CA   CB    SING  4 
+CPY  CA   CH    SING  5 
+CPY  CA   HA    SING  6 
+CPY  CB   CG    SING  7 
+CPY  CB   1HB   SING  8 
+CPY  CB   2HB   SING  9 
+CPY  CG   CD1   SING  10
+CPY  CG   CD2   SING  11
+CPY  CG   HG    SING  12
+CPY  CD1  CE1   SING  13
+CPY  CD1  1HD1  SING  14
+CPY  CD1  2HD1  SING  15
+CPY  CD2  CE2   SING  16
+CPY  CD2  1HD2  SING  17
+CPY  CD2  2HD2  SING  18
+CPY  CE1  CZ    SING  19
+CPY  CE1  1HE1  SING  20
+CPY  CE1  2HE1  SING  21
+CPY  CE2  CZ    SING  22
+CPY  CE2  1HE2  SING  23
+CPY  CE2  2HE2  SING  24
+CPY  CZ   1HCZ  SING  25
+CPY  CZ   2HCZ  SING  26
+CPY  CH   OH    SING  27
+CPY  CH   CM    SING  28
+CPY  CH   HH    SING  29
+CPY  OH   HO    SING  30
+CPY  CM   N1    SING  31
+CPY  CM   1HM   SING  32
+CPY  CM   2HM   SING  33
+CPY  N1   C2    SING  34
+CPY  N1   C6    SING  35
+CPY  C2   O2    DOUB  36
+CPY  C2   C3    SING  37
+CPY  C3   C4    DOUB  38
+CPY  C3   HC3   SING  39
+CPY  C4   C5    SING  40
+CPY  C4   HC4   SING  41
+CPY  C5   C6    DOUB  42
+CPY  C5   HC5   SING  43
+CPY  C6   HC6   SING  44
+#

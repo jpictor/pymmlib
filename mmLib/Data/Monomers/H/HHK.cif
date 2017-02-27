@@ -1,0 +1,91 @@
+data_HHK
+#
+_chem_comp.id                       HHK
+_chem_comp.name                     '(2S)-2,8-DIAMINOOCTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C8 H18 N2 O2'
+_chem_comp.mon_nstd_parent_comp_id  'ALA, LYS'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            174.242
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HHK  N    .  N  0  -3.948  -1.501  1.262   1  1 
+HHK  CA   .  C  0  -4.509  -2.794  0.907   1  2 
+HHK  CB   .  C  0  -4.436  -3.011  -0.605  1  3 
+HHK  CG   .  C  0  -5.834  -3.029  -1.226  1  4 
+HHK  CD   .  C  0  -6.271  -1.619  -1.631  1  5 
+HHK  CE   .  C  0  -5.667  -1.224  -2.979  1  6 
+HHK  CZ   .  C  0  -4.324  -0.505  -2.758  1  7 
+HHK  CT   .  C  0  -3.180  -1.369  -3.319  1  8 
+HHK  NH   .  N  0  -2.075  -1.422  -2.337  1  9 
+HHK  C    .  C  0  -3.816  -3.887  1.721   1  10
+HHK  O    .  O  0  -4.461  -4.828  2.180   1  11
+HHK  OXT  .  O  0  ?       ?       ?       1  12
+HHK  H    .  H  0  -3.808  -0.875  0.495   1  13
+HHK  HN2  .  H  0  ?       ?       ?       1  14
+HHK  HA   .  H  0  -5.565  -2.777  1.179   1  15
+HHK  2HB  .  H  0  -3.841  -2.221  -1.063  0  16
+HHK  1HB  .  H  0  -3.928  -3.953  -0.815  0  17
+HHK  2HG  .  H  0  -5.839  -3.680  -2.100  0  18
+HHK  1HG  .  H  0  -6.546  -3.445  -0.513  0  19
+HHK  2HD  .  H  0  -7.358  -1.576  -1.688  0  20
+HHK  1HD  .  H  0  -5.964  -0.906  -0.866  0  21
+HHK  2HE  .  H  0  -5.521  -2.111  -3.593  0  22
+HHK  3HE  .  H  0  -6.358  -0.573  -3.516  0  23
+HHK  2HZ  .  H  0  -4.340  0.438   -3.260  0  24
+HHK  1HZ  .  H  0  -4.171  -0.348  -1.710  0  25
+HHK  2HT  .  H  0  -3.541  -2.358  -3.505  0  26
+HHK  1HT  .  H  0  -2.825  -0.942  -4.234  0  27
+HHK  1HH  .  H  0  -2.159  -0.648  -1.693  0  28
+HHK  2HH  .  H  0  ?       ?       ?       0  29
+HHK  HXT  .  H  0  ?       ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HHK  N    H    SING  1 
+HHK  N    HN2  SING  2 
+HHK  N    CA   SING  3 
+HHK  CA   HA   SING  4 
+HHK  CA   CB   SING  5 
+HHK  CA   C    SING  6 
+HHK  CB   2HB  SING  7 
+HHK  CB   1HB  SING  8 
+HHK  CB   CG   SING  9 
+HHK  CG   2HG  SING  10
+HHK  CG   1HG  SING  11
+HHK  CG   CD   SING  12
+HHK  CD   2HD  SING  13
+HHK  CD   1HD  SING  14
+HHK  CD   CE   SING  15
+HHK  CE   2HE  SING  16
+HHK  CE   3HE  SING  17
+HHK  CE   CZ   SING  18
+HHK  CZ   2HZ  SING  19
+HHK  CZ   1HZ  SING  20
+HHK  CZ   CT   SING  21
+HHK  CT   2HT  SING  22
+HHK  CT   1HT  SING  23
+HHK  CT   NH   SING  24
+HHK  NH   1HH  SING  25
+HHK  NH   2HH  SING  26
+HHK  C    O    DOUB  27
+HHK  C    OXT  SING  28
+HHK  OXT  HXT  SING  29
+#

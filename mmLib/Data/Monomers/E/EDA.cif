@@ -1,0 +1,111 @@
+data_EDA
+#
+_chem_comp.id                       EDA
+_chem_comp.name                     3-[2-DEOXY-RIBOFURANOSYL]-3H-1,3,4,5A,8-PENTAAZA-AS-INDACENE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C12 H14 N5 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            355.246
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EDA  P     .  P  0  ?  ?  ?  1  1 
+EDA  O1P   .  O  0  ?  ?  ?  1  2 
+EDA  O2P   .  O  0  ?  ?  ?  1  3 
+EDA  O3P   .  O  0  ?  ?  ?  1  4 
+EDA  O5*   .  O  0  ?  ?  ?  1  5 
+EDA  N9    .  N  0  ?  ?  ?  1  6 
+EDA  C4    .  C  0  ?  ?  ?  1  7 
+EDA  N3    .  N  0  ?  ?  ?  1  8 
+EDA  C2    .  C  0  ?  ?  ?  1  9 
+EDA  N1    .  N  0  ?  ?  ?  1  10
+EDA  C6    .  C  0  ?  ?  ?  1  11
+EDA  C10   .  C  0  ?  ?  ?  1  12
+EDA  C11   .  C  0  ?  ?  ?  1  13
+EDA  N6    .  N  0  ?  ?  ?  1  14
+EDA  C5    .  C  0  ?  ?  ?  1  15
+EDA  N7    .  N  0  ?  ?  ?  1  16
+EDA  C8    .  C  0  ?  ?  ?  1  17
+EDA  C2*   .  C  0  ?  ?  ?  1  18
+EDA  C5*   .  C  0  ?  ?  ?  1  19
+EDA  C4*   .  C  0  ?  ?  ?  1  20
+EDA  O4*   .  O  0  ?  ?  ?  1  21
+EDA  C1*   .  C  0  ?  ?  ?  1  22
+EDA  C3*   .  C  0  ?  ?  ?  1  23
+EDA  O3*   .  O  0  ?  ?  ?  1  24
+EDA  2HOP  .  H  0  ?  ?  ?  0  25
+EDA  3HOP  .  H  0  ?  ?  ?  0  26
+EDA  1H5*  .  H  0  ?  ?  ?  0  27
+EDA  2H5*  .  H  0  ?  ?  ?  0  28
+EDA  H4*   .  H  0  ?  ?  ?  1  29
+EDA  H3*   .  H  0  ?  ?  ?  1  30
+EDA  H1*   .  H  0  ?  ?  ?  1  31
+EDA  1H2*  .  H  0  ?  ?  ?  0  32
+EDA  2H2*  .  H  0  ?  ?  ?  0  33
+EDA  H3T   .  H  0  ?  ?  ?  1  34
+EDA  H2    .  H  0  ?  ?  ?  1  35
+EDA  H8    .  H  0  ?  ?  ?  1  36
+EDA  H10   .  H  0  ?  ?  ?  1  37
+EDA  H11   .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EDA  P    O1P   DOUB  1 
+EDA  P    O2P   SING  2 
+EDA  P    O3P   SING  3 
+EDA  P    O5*   SING  4 
+EDA  O2P  2HOP  SING  5 
+EDA  O3P  3HOP  SING  6 
+EDA  O5*  C5*   SING  7 
+EDA  N9   C4    SING  8 
+EDA  N9   C8    SING  9 
+EDA  N9   C1*   SING  10
+EDA  C4   N3    SING  11
+EDA  C4   C5    DOUB  12
+EDA  N3   C2    DOUB  13
+EDA  C2   N1    SING  14
+EDA  C2   H2    SING  15
+EDA  N1   C6    SING  16
+EDA  N1   C10   SING  17
+EDA  C6   N6    DOUB  18
+EDA  C6   C5    SING  19
+EDA  C10  C11   DOUB  20
+EDA  C10  H10   SING  21
+EDA  C11  N6    SING  22
+EDA  C11  H11   SING  23
+EDA  C5   N7    SING  24
+EDA  N7   C8    DOUB  25
+EDA  C8   H8    SING  26
+EDA  C2*  C1*   SING  27
+EDA  C2*  C3*   SING  28
+EDA  C2*  1H2*  SING  29
+EDA  C2*  2H2*  SING  30
+EDA  C5*  C4*   SING  31
+EDA  C5*  1H5*  SING  32
+EDA  C5*  2H5*  SING  33
+EDA  C4*  O4*   SING  34
+EDA  C4*  C3*   SING  35
+EDA  C4*  H4*   SING  36
+EDA  O4*  C1*   SING  37
+EDA  C1*  H1*   SING  38
+EDA  C3*  O3*   SING  39
+EDA  C3*  H3*   SING  40
+EDA  O3*  H3T   SING  41
+#

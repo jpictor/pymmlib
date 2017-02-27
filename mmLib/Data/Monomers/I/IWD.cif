@@ -1,0 +1,78 @@
+data_IWD
+#
+_chem_comp.id                   IWD
+_chem_comp.name                 '2-AMINO-3-(5-IODO-2,4-DIOXO-3,4-DIHYDRO-2H-PYRIMIDIN-1-YL)-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H8 N3 O4 I1'
+_chem_comp.pdbx_synonyms        IODO-WILLARDIINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        325.062
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IWD  N1    .  N  0  18.712  3.098  21.051  1  1 
+IWD  C2    .  C  0  17.841  3.776  20.157  1  2 
+IWD  O2    .  O  0  18.194  4.334  19.147  1  3 
+IWD  N3    .  N  0  16.484  3.743  20.552  1  4 
+IWD  C4    .  C  0  15.935  3.145  21.655  1  5 
+IWD  O4    .  O  0  14.744  3.197  21.902  1  6 
+IWD  C5    .  C  0  16.967  2.446  22.536  1  7 
+IWD  I5    .  I  0  16.375  1.420  24.242  1  8 
+IWD  C6    .  C  0  18.258  2.462  22.152  1  9 
+IWD  C7    .  C  0  20.153  2.981  20.749  1  10
+IWD  C8    .  C  0  20.456  2.073  19.569  1  11
+IWD  N8    .  N  0  20.160  0.651  19.960  1  12
+IWD  C9    .  C  0  21.879  2.194  18.997  1  13
+IWD  O91   .  O  0  22.564  1.189  18.891  1  14
+IWD  O92   .  O  0  22.235  3.398  18.714  1  15
+IWD  H3    .  H  0  ?       ?      ?       1  16
+IWD  H6    .  H  0  ?       ?      ?       1  17
+IWD  1H7   .  H  0  ?       ?      ?       0  18
+IWD  2H7   .  H  0  ?       ?      ?       0  19
+IWD  H8    .  H  0  ?       ?      ?       1  20
+IWD  1H8   .  H  0  ?       ?      ?       0  21
+IWD  2H8   .  H  0  ?       ?      ?       0  22
+IWD  OH92  .  H  0  ?       ?      ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IWD  N1   C2    SING  1 
+IWD  N1   C6    SING  2 
+IWD  N1   C7    SING  3 
+IWD  C2   O2    DOUB  4 
+IWD  C2   N3    SING  5 
+IWD  N3   C4    SING  6 
+IWD  N3   H3    SING  7 
+IWD  C4   O4    DOUB  8 
+IWD  C4   C5    SING  9 
+IWD  C5   I5    SING  10
+IWD  C5   C6    DOUB  11
+IWD  C6   H6    SING  12
+IWD  C7   C8    SING  13
+IWD  C7   1H7   SING  14
+IWD  C7   2H7   SING  15
+IWD  C8   N8    SING  16
+IWD  C8   C9    SING  17
+IWD  C8   H8    SING  18
+IWD  N8   1H8   SING  19
+IWD  N8   2H8   SING  20
+IWD  C9   O91   DOUB  21
+IWD  C9   O92   SING  22
+IWD  O92  OH92  SING  23
+#

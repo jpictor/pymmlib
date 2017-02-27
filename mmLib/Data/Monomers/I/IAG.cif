@@ -1,0 +1,90 @@
+data_IAG
+#
+_chem_comp.id                   IAG
+_chem_comp.name                 'N-[1H-INDOL-3-YL-ACETYL]GLYCINE ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAG  O3    .  O  0  ?  ?  ?  1  1 
+IAG  C12   .  C  0  ?  ?  ?  1  2 
+IAG  O2    .  O  0  ?  ?  ?  1  3 
+IAG  C11   .  C  0  ?  ?  ?  1  4 
+IAG  N2    .  N  0  ?  ?  ?  1  5 
+IAG  C10   .  C  0  ?  ?  ?  1  6 
+IAG  O1    .  O  0  ?  ?  ?  1  7 
+IAG  C9    .  C  0  ?  ?  ?  1  8 
+IAG  C2    .  C  0  ?  ?  ?  1  9 
+IAG  C1    .  C  0  ?  ?  ?  1  10
+IAG  N1    .  N  0  ?  ?  ?  1  11
+IAG  C7    .  C  0  ?  ?  ?  1  12
+IAG  C8    .  C  0  ?  ?  ?  1  13
+IAG  C6    .  C  0  ?  ?  ?  1  14
+IAG  C5    .  C  0  ?  ?  ?  1  15
+IAG  C4    .  C  0  ?  ?  ?  1  16
+IAG  C3    .  C  0  ?  ?  ?  1  17
+IAG  HO3   .  H  0  ?  ?  ?  1  18
+IAG  1H11  .  H  0  ?  ?  ?  0  19
+IAG  2H11  .  H  0  ?  ?  ?  0  20
+IAG  HN2   .  H  0  ?  ?  ?  1  21
+IAG  1HC9  .  H  0  ?  ?  ?  0  22
+IAG  2HC9  .  H  0  ?  ?  ?  0  23
+IAG  HN1   .  H  0  ?  ?  ?  1  24
+IAG  HC1   .  H  0  ?  ?  ?  1  25
+IAG  HC3   .  H  0  ?  ?  ?  1  26
+IAG  HC4   .  H  0  ?  ?  ?  1  27
+IAG  HC5   .  H  0  ?  ?  ?  1  28
+IAG  HC6   .  H  0  ?  ?  ?  1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAG  O3   C12   SING  1 
+IAG  O3   HO3   SING  2 
+IAG  C12  O2    DOUB  3 
+IAG  C12  C11   SING  4 
+IAG  C11  N2    SING  5 
+IAG  C11  1H11  SING  6 
+IAG  C11  2H11  SING  7 
+IAG  N2   C10   SING  8 
+IAG  N2   HN2   SING  9 
+IAG  C10  O1    DOUB  10
+IAG  C10  C9    SING  11
+IAG  C9   C2    SING  12
+IAG  C9   1HC9  SING  13
+IAG  C9   2HC9  SING  14
+IAG  C2   C1    DOUB  15
+IAG  C2   C7    SING  16
+IAG  C1   N1    SING  17
+IAG  C1   HC1   SING  18
+IAG  N1   C8    SING  19
+IAG  N1   HN1   SING  20
+IAG  C7   C8    AROM  21
+IAG  C7   C3    AROM  22
+IAG  C8   C6    AROM  23
+IAG  C6   C5    AROM  24
+IAG  C6   HC6   SING  25
+IAG  C5   C4    AROM  26
+IAG  C5   HC5   SING  27
+IAG  C4   C3    AROM  28
+IAG  C4   HC4   SING  29
+IAG  C3   HC3   SING  30
+#

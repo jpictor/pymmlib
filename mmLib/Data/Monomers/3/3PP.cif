@@ -1,0 +1,63 @@
+data_3PP
+#
+_chem_comp.id                   3PP
+_chem_comp.name                 '3-PHOSPHONOPROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 O5 P1'
+_chem_comp.pdbx_synonyms        '2-CARBOXYETHYLPHOSPHONIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.059
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3PP  CB    .  C  0  ?  ?  ?  1  1 
+3PP  CG    .  C  0  ?  ?  ?  1  2 
+3PP  P     .  P  0  ?  ?  ?  1  3 
+3PP  CD    .  C  0  ?  ?  ?  1  4 
+3PP  OE1   .  O  0  ?  ?  ?  1  5 
+3PP  OE2   .  O  0  ?  ?  ?  1  6 
+3PP  O1    .  O  0  ?  ?  ?  1  7 
+3PP  O2    .  O  0  ?  ?  ?  1  8 
+3PP  O3    .  O  0  ?  ?  ?  1  9 
+3PP  1HCB  .  H  0  ?  ?  ?  0  10
+3PP  2HCB  .  H  0  ?  ?  ?  0  11
+3PP  1HCG  .  H  0  ?  ?  ?  0  12
+3PP  2HCG  .  H  0  ?  ?  ?  0  13
+3PP  HE2   .  H  0  ?  ?  ?  1  14
+3PP  HO1   .  H  0  ?  ?  ?  1  15
+3PP  HO3   .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3PP  CB   CG    SING  1 
+3PP  CB   P     SING  2 
+3PP  CB   1HCB  SING  3 
+3PP  CB   2HCB  SING  4 
+3PP  CG   CD    SING  5 
+3PP  CG   1HCG  SING  6 
+3PP  CG   2HCG  SING  7 
+3PP  P    O1    SING  8 
+3PP  P    O2    DOUB  9 
+3PP  P    O3    SING  10
+3PP  CD   OE1   DOUB  11
+3PP  CD   OE2   SING  12
+3PP  OE2  HE2   SING  13
+3PP  O1   HO1   SING  14
+3PP  O3   HO3   SING  15
+#

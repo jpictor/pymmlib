@@ -1,0 +1,82 @@
+data_HPC
+#
+_chem_comp.id                       HPC
+_chem_comp.name                     3-AMINO-4-PHENYL-BUTAN-2-ONE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H13 N1 O1'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            163.219
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPC  N     .  N  0  ?  ?  ?  1  1 
+HPC  CA    .  C  0  ?  ?  ?  1  2 
+HPC  C     .  C  0  ?  ?  ?  1  3 
+HPC  O     .  O  0  ?  ?  ?  1  4 
+HPC  CB    .  C  0  ?  ?  ?  1  5 
+HPC  CG    .  C  0  ?  ?  ?  1  6 
+HPC  CD1   .  C  0  ?  ?  ?  1  7 
+HPC  CD2   .  C  0  ?  ?  ?  1  8 
+HPC  CE1   .  C  0  ?  ?  ?  1  9 
+HPC  CE2   .  C  0  ?  ?  ?  1  10
+HPC  CZ    .  C  0  ?  ?  ?  1  11
+HPC  CH    .  C  0  ?  ?  ?  1  12
+HPC  1HCH  .  H  0  ?  ?  ?  0  13
+HPC  2HCH  .  H  0  ?  ?  ?  0  14
+HPC  3HCH  .  H  0  ?  ?  ?  0  15
+HPC  HA    .  H  0  ?  ?  ?  1  16
+HPC  1HB   .  H  0  ?  ?  ?  0  17
+HPC  2HB   .  H  0  ?  ?  ?  0  18
+HPC  H     .  H  0  ?  ?  ?  1  19
+HPC  HN2   .  H  0  ?  ?  ?  1  20
+HPC  HD1   .  H  0  ?  ?  ?  1  21
+HPC  HD2   .  H  0  ?  ?  ?  1  22
+HPC  HE1   .  H  0  ?  ?  ?  1  23
+HPC  HE2   .  H  0  ?  ?  ?  1  24
+HPC  HZ    .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPC  N    CA    SING  1 
+HPC  N    H     SING  2 
+HPC  N    HN2   SING  3 
+HPC  CA   C     SING  4 
+HPC  CA   CB    SING  5 
+HPC  CA   HA    SING  6 
+HPC  C    O     DOUB  7 
+HPC  C    CH    SING  8 
+HPC  CB   CG    SING  9 
+HPC  CB   1HB   SING  10
+HPC  CB   2HB   SING  11
+HPC  CG   CD1   DOUB  12
+HPC  CG   CD2   SING  13
+HPC  CD1  CE1   SING  14
+HPC  CD1  HD1   SING  15
+HPC  CD2  CE2   DOUB  16
+HPC  CD2  HD2   SING  17
+HPC  CE1  CZ    DOUB  18
+HPC  CE1  HE1   SING  19
+HPC  CE2  CZ    SING  20
+HPC  CE2  HE2   SING  21
+HPC  CZ   HZ    SING  22
+HPC  CH   1HCH  SING  23
+HPC  CH   2HCH  SING  24
+HPC  CH   3HCH  SING  25
+#

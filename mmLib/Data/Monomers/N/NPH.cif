@@ -1,0 +1,116 @@
+data_NPH
+#
+_chem_comp.id                       NPH
+_chem_comp.name                     CYSTEINE-METHYLENE-CARBAMOYL-1,10-PHENANTHROLINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C17 H16 N4 O3 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            356.398
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPH  N    .  N  0  ?  ?  ?  1  1 
+NPH  CA   .  C  0  ?  ?  ?  1  2 
+NPH  CB   .  C  0  ?  ?  ?  1  3 
+NPH  SG   .  S  0  ?  ?  ?  1  4 
+NPH  CD   .  C  0  ?  ?  ?  1  5 
+NPH  CE   .  C  0  ?  ?  ?  1  6 
+NPH  OZ   .  O  0  ?  ?  ?  1  7 
+NPH  NZ   .  N  0  ?  ?  ?  1  8 
+NPH  C6   .  C  0  ?  ?  ?  1  9 
+NPH  C5   .  C  0  ?  ?  ?  1  10
+NPH  C6A  .  C  0  ?  ?  ?  1  11
+NPH  C4A  .  C  0  ?  ?  ?  1  12
+NPH  C10  .  C  0  ?  ?  ?  1  13
+NPH  C7   .  C  0  ?  ?  ?  1  14
+NPH  C4   .  C  0  ?  ?  ?  1  15
+NPH  C1A  .  C  0  ?  ?  ?  1  16
+NPH  N10  .  N  0  ?  ?  ?  1  17
+NPH  C8   .  C  0  ?  ?  ?  1  18
+NPH  C3   .  C  0  ?  ?  ?  1  19
+NPH  N1   .  N  0  ?  ?  ?  1  20
+NPH  C9   .  C  0  ?  ?  ?  1  21
+NPH  C2   .  C  0  ?  ?  ?  1  22
+NPH  C    .  C  0  ?  ?  ?  1  23
+NPH  O    .  O  0  ?  ?  ?  1  24
+NPH  OXT  .  O  0  ?  ?  ?  1  25
+NPH  1HN  .  H  0  ?  ?  ?  0  26
+NPH  2HN  .  H  0  ?  ?  ?  0  27
+NPH  HA   .  H  0  ?  ?  ?  1  28
+NPH  1HB  .  H  0  ?  ?  ?  0  29
+NPH  2HB  .  H  0  ?  ?  ?  0  30
+NPH  1HD  .  H  0  ?  ?  ?  0  31
+NPH  2HD  .  H  0  ?  ?  ?  0  32
+NPH  HNZ  .  H  0  ?  ?  ?  1  33
+NPH  H5   .  H  0  ?  ?  ?  1  34
+NPH  H7   .  H  0  ?  ?  ?  1  35
+NPH  H4   .  H  0  ?  ?  ?  1  36
+NPH  H8   .  H  0  ?  ?  ?  1  37
+NPH  H3   .  H  0  ?  ?  ?  1  38
+NPH  H9   .  H  0  ?  ?  ?  1  39
+NPH  H2   .  H  0  ?  ?  ?  1  40
+NPH  HXT  .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPH  N    CA   SING  1 
+NPH  N    1HN  SING  2 
+NPH  N    2HN  SING  3 
+NPH  CA   CB   SING  4 
+NPH  CA   C    SING  5 
+NPH  CA   HA   SING  6 
+NPH  CB   SG   SING  7 
+NPH  CB   1HB  SING  8 
+NPH  CB   2HB  SING  9 
+NPH  SG   CD   SING  10
+NPH  CD   CE   SING  11
+NPH  CD   1HD  SING  12
+NPH  CD   2HD  SING  13
+NPH  CE   OZ   DOUB  14
+NPH  CE   NZ   SING  15
+NPH  NZ   C6   SING  16
+NPH  NZ   HNZ  SING  17
+NPH  C6   C5   DOUB  18
+NPH  C6   C6A  SING  19
+NPH  C5   C4A  SING  20
+NPH  C5   H5   SING  21
+NPH  C6A  C10  SING  22
+NPH  C6A  C7   DOUB  23
+NPH  C4A  C4   DOUB  24
+NPH  C4A  C1A  SING  25
+NPH  C10  C1A  SING  26
+NPH  C10  N10  DOUB  27
+NPH  C7   C8   SING  28
+NPH  C7   H7   SING  29
+NPH  C4   C3   SING  30
+NPH  C4   H4   SING  31
+NPH  C1A  N1   DOUB  32
+NPH  N10  C9   SING  33
+NPH  C8   C9   DOUB  34
+NPH  C8   H8   SING  35
+NPH  C3   C2   DOUB  36
+NPH  C3   H3   SING  37
+NPH  N1   C2   SING  38
+NPH  C9   H9   SING  39
+NPH  C2   H2   SING  40
+NPH  C    O    DOUB  41
+NPH  C    OXT  SING  42
+NPH  OXT  HXT  SING  43
+#

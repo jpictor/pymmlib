@@ -1,0 +1,94 @@
+data_FIS
+#
+_chem_comp.id                   FIS
+_chem_comp.name                 (2S,4R)-2-AMINOFORMYL-6-FLUORO-SPIRO[CHROMAN-4,4'-IMIDAZOLIDINE]-2',5'-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 N3 O4 F1'
+_chem_comp.pdbx_synonyms        FIDARESTAT(STEREOISOMER)
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        279.227
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FIS  O3I   .  O  0  17.234  -16.421  22.162  1  1 
+FIS  O6I   .  O  0  21.146  -14.293  21.339  1  2 
+FIS  N1I   .  N  0  18.221  -15.747  20.237  1  3 
+FIS  C2I   .  C  0  18.127  -15.850  21.562  1  4 
+FIS  N4    .  N  0  19.282  -15.300  22.127  1  5 
+FIS  F17   .  F  0  22.642  -18.263  18.594  1  6 
+FIS  C16   .  C  0  20.997  -15.920  16.547  1  7 
+FIS  C11   .  C  0  20.232  -15.241  17.499  1  8 
+FIS  C12   .  C  0  20.200  -15.651  18.818  1  9 
+FIS  C13   .  C  0  21.025  -16.722  19.202  1  10
+FIS  C14   .  C  0  21.840  -17.299  18.260  1  11
+FIS  C15   .  C  0  21.863  -16.893  16.953  1  12
+FIS  O10   .  O  0  19.526  -14.186  17.003  1  13
+FIS  C5    .  C  0  20.071  -14.811  21.119  1  14
+FIS  N21   .  N  0  18.848  -11.812  16.334  1  15
+FIS  O20   .  O  0  17.284  -11.692  17.952  1  16
+FIS  C19   .  C  0  18.193  -12.347  17.351  1  17
+FIS  C7I   .  C  0  19.361  -14.937  19.872  1  18
+FIS  C8I   .  C  0  19.006  -13.534  19.306  1  19
+FIS  C9    .  C  0  18.509  -13.722  17.889  1  20
+FIS  1H21  .  H  0  ?       ?        ?       0  21
+FIS  2H21  .  H  0  ?       ?        ?       0  22
+FIS  H9    .  H  0  ?       ?        ?       1  23
+FIS  H16   .  H  0  ?       ?        ?       1  24
+FIS  H15   .  H  0  ?       ?        ?       1  25
+FIS  H13   .  H  0  ?       ?        ?       1  26
+FIS  H1I   .  H  0  ?       ?        ?       1  27
+FIS  HN4   .  H  0  ?       ?        ?       1  28
+FIS  1H8I  .  H  0  ?       ?        ?       0  29
+FIS  2H8I  .  H  0  ?       ?        ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FIS  O3I  C2I   DOUB  1 
+FIS  O6I  C5    DOUB  2 
+FIS  N1I  C7I   SING  3 
+FIS  N1I  H1I   SING  4 
+FIS  N1I  C2I   SING  5 
+FIS  C2I  N4    SING  6 
+FIS  N4   HN4   SING  7 
+FIS  N4   C5    SING  8 
+FIS  F17  C14   SING  9 
+FIS  C16  C11   AROM  10
+FIS  C16  H16   SING  11
+FIS  C16  C15   AROM  12
+FIS  C11  O10   SING  13
+FIS  C11  C12   AROM  14
+FIS  C12  C13   AROM  15
+FIS  C12  C7I   SING  16
+FIS  C13  C14   AROM  17
+FIS  C13  H13   SING  18
+FIS  C14  C15   AROM  19
+FIS  C15  H15   SING  20
+FIS  O10  C9    SING  21
+FIS  C5   C7I   SING  22
+FIS  N21  1H21  SING  23
+FIS  N21  2H21  SING  24
+FIS  N21  C19   SING  25
+FIS  O20  C19   DOUB  26
+FIS  C19  C9    SING  27
+FIS  C7I  C8I   SING  28
+FIS  C8I  C9    SING  29
+FIS  C8I  1H8I  SING  30
+FIS  C8I  2H8I  SING  31
+FIS  C9   H9    SING  32
+#

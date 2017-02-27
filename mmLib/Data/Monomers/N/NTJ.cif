@@ -1,0 +1,68 @@
+data_NTJ
+#
+_chem_comp.id                   NTJ
+_chem_comp.name                 'R-ETHYL N,N-DIMETHYLPHOSPHONAMIDOATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N1 O2 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.110
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NTJ  O1    .  O  0  29.671  15.833  13.782  1  1 
+NTJ  P1    .  P  0  28.716  16.193  12.771  1  2 
+NTJ  N1    .  N  0  29.223  16.11   11.389  1  3 
+NTJ  C2    .  C  0  30.231  15.15   10.956  1  4 
+NTJ  C1    .  C  0  28.682  16.986  10.364  1  5 
+NTJ  O2    .  O  0  28.14   17.492  12.991  1  6 
+NTJ  C3    .  C  0  29.014  18.484  13.584  1  7 
+NTJ  C4    .  C  0  30.15   18.995  12.702  1  8 
+NTJ  1H2C  .  H  0  30.614  15.087  9.911   0  9 
+NTJ  2H2C  .  H  0  29.861  14.135  11.233  0  10
+NTJ  3H2C  .  H  0  31.115  15.275  11.625  0  11
+NTJ  1H1C  .  H  0  29.065  16.923  9.319   0  12
+NTJ  2H1C  .  H  0  28.78   18.04   10.713  0  13
+NTJ  3H1C  .  H  0  27.574  16.861  10.342  0  14
+NTJ  1H3C  .  H  0  29.427  18.097  14.544  0  15
+NTJ  2H3C  .  H  0  28.41   19.344  13.957  0  16
+NTJ  1H4C  .  H  0  30.823  19.758  13.158  0  17
+NTJ  2H4C  .  H  0  29.737  19.382  11.742  0  18
+NTJ  3H4C  .  H  0  30.754  18.135  12.329  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NTJ  O1  P1    DOUB  1 
+NTJ  P1  N1    SING  2 
+NTJ  P1  O2    SING  3 
+NTJ  N1  C2    SING  4 
+NTJ  N1  C1    SING  5 
+NTJ  C2  1H2C  SING  6 
+NTJ  C2  2H2C  SING  7 
+NTJ  C2  3H2C  SING  8 
+NTJ  C1  1H1C  SING  9 
+NTJ  C1  2H1C  SING  10
+NTJ  C1  3H1C  SING  11
+NTJ  O2  C3    SING  12
+NTJ  C3  C4    SING  13
+NTJ  C3  1H3C  SING  14
+NTJ  C3  2H3C  SING  15
+NTJ  C4  1H4C  SING  16
+NTJ  C4  2H4C  SING  17
+NTJ  C4  3H4C  SING  18
+#

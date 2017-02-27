@@ -1,0 +1,133 @@
+data_AHX
+#
+_chem_comp.id                   AHX
+_chem_comp.name                 'SERYL-HYDROXAMATE-ADENOSINE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H20 N7 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        449.316
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHX  N10   .  N  0  ?  ?  ?  1  1 
+AHX  CA    .  C  0  ?  ?  ?  1  2 
+AHX  CB    .  C  0  ?  ?  ?  1  3 
+AHX  OG    .  O  0  ?  ?  ?  1  4 
+AHX  C9    .  C  0  ?  ?  ?  1  5 
+AHX  O9    .  O  0  ?  ?  ?  1  6 
+AHX  N8    .  N  0  ?  ?  ?  1  7 
+AHX  PA    .  P  0  ?  ?  ?  1  8 
+AHX  O1A   .  O  0  ?  ?  ?  1  9 
+AHX  O2A   .  O  0  ?  ?  ?  1  10
+AHX  O3A   .  O  0  ?  ?  ?  1  11
+AHX  O5*   .  O  0  ?  ?  ?  1  12
+AHX  C5*   .  C  0  ?  ?  ?  1  13
+AHX  C4*   .  C  0  ?  ?  ?  1  14
+AHX  O4*   .  O  0  ?  ?  ?  1  15
+AHX  C3*   .  C  0  ?  ?  ?  1  16
+AHX  O3*   .  O  0  ?  ?  ?  1  17
+AHX  C2*   .  C  0  ?  ?  ?  1  18
+AHX  O2*   .  O  0  ?  ?  ?  1  19
+AHX  C1*   .  C  0  ?  ?  ?  1  20
+AHX  N9    .  N  0  ?  ?  ?  1  21
+AHX  C8    .  C  0  ?  ?  ?  1  22
+AHX  N7    .  N  0  ?  ?  ?  1  23
+AHX  C5    .  C  0  ?  ?  ?  1  24
+AHX  C6    .  C  0  ?  ?  ?  1  25
+AHX  N6    .  N  0  ?  ?  ?  1  26
+AHX  N1    .  N  0  ?  ?  ?  1  27
+AHX  C2    .  C  0  ?  ?  ?  1  28
+AHX  N3    .  N  0  ?  ?  ?  1  29
+AHX  C4    .  C  0  ?  ?  ?  1  30
+AHX  H2    .  H  0  ?  ?  ?  1  31
+AHX  H8    .  H  0  ?  ?  ?  1  32
+AHX  1HN6  .  H  0  ?  ?  ?  0  33
+AHX  2HN6  .  H  0  ?  ?  ?  0  34
+AHX  H1*   .  H  0  ?  ?  ?  1  35
+AHX  H2*   .  H  0  ?  ?  ?  1  36
+AHX  *HO2  .  H  0  ?  ?  ?  0  37
+AHX  H3*   .  H  0  ?  ?  ?  1  38
+AHX  *HO3  .  H  0  ?  ?  ?  0  39
+AHX  H4*   .  H  0  ?  ?  ?  1  40
+AHX  1H5*  .  H  0  ?  ?  ?  0  41
+AHX  2H5*  .  H  0  ?  ?  ?  0  42
+AHX  2HOA  .  H  0  ?  ?  ?  0  43
+AHX  HN8   .  H  0  ?  ?  ?  1  44
+AHX  HA    .  H  0  ?  ?  ?  1  45
+AHX  1HB   .  H  0  ?  ?  ?  0  46
+AHX  2HB   .  H  0  ?  ?  ?  0  47
+AHX  HOG   .  H  0  ?  ?  ?  1  48
+AHX  1HN1  .  H  0  ?  ?  ?  0  49
+AHX  2HN1  .  H  0  ?  ?  ?  0  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHX  N10  CA    SING  1 
+AHX  N10  1HN1  SING  2 
+AHX  N10  2HN1  SING  3 
+AHX  CA   CB    SING  4 
+AHX  CA   C9    SING  5 
+AHX  CA   HA    SING  6 
+AHX  CB   OG    SING  7 
+AHX  CB   1HB   SING  8 
+AHX  CB   2HB   SING  9 
+AHX  OG   HOG   SING  10
+AHX  C9   N8    SING  11
+AHX  C9   O9    DOUB  12
+AHX  N8   O3A   SING  13
+AHX  N8   HN8   SING  14
+AHX  PA   O1A   DOUB  15
+AHX  PA   O2A   SING  16
+AHX  PA   O3A   SING  17
+AHX  PA   O5*   SING  18
+AHX  O2A  2HOA  SING  19
+AHX  O5*  C5*   SING  20
+AHX  C5*  C4*   SING  21
+AHX  C5*  1H5*  SING  22
+AHX  C5*  2H5*  SING  23
+AHX  C4*  O4*   SING  24
+AHX  C4*  C3*   SING  25
+AHX  C4*  H4*   SING  26
+AHX  O4*  C1*   SING  27
+AHX  C3*  O3*   SING  28
+AHX  C3*  C2*   SING  29
+AHX  C3*  H3*   SING  30
+AHX  O3*  *HO3  SING  31
+AHX  C2*  O2*   SING  32
+AHX  C2*  C1*   SING  33
+AHX  C2*  H2*   SING  34
+AHX  O2*  *HO2  SING  35
+AHX  C1*  N9    SING  36
+AHX  C1*  H1*   SING  37
+AHX  N9   C8    SING  38
+AHX  N9   C4    SING  39
+AHX  C8   N7    DOUB  40
+AHX  C8   H8    SING  41
+AHX  N7   C5    SING  42
+AHX  C5   C6    SING  43
+AHX  C5   C4    DOUB  44
+AHX  C6   N6    SING  45
+AHX  C6   N1    DOUB  46
+AHX  N6   1HN6  SING  47
+AHX  N6   2HN6  SING  48
+AHX  N1   C2    SING  49
+AHX  C2   N3    DOUB  50
+AHX  C2   H2    SING  51
+AHX  N3   C4    SING  52
+#

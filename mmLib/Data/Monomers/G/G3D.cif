@@ -1,0 +1,129 @@
+data_G3D
+#
+_chem_comp.id                   G3D
+_chem_comp.name                 GUANOSINE-3'-MONOPHOSPHATE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H16 N5 O14 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        523.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G3D  PB    .  P  0  6.332  19.459  -0.504  1  1 
+G3D  O1B   .  O  0  7.584  18.920  0.087   1  2 
+G3D  O2B   .  O  0  5.269  19.726  0.366   1  3 
+G3D  O3B   .  O  0  6.690  20.722  -1.452  1  4 
+G3D  PA    .  P  0  4.252  17.695  -1.632  1  5 
+G3D  O3A   .  O  0  5.766  18.378  -1.491  1  6 
+G3D  O1A   .  O  0  3.867  16.939  -0.401  1  7 
+G3D  O2A   .  O  0  3.335  18.838  -2.017  1  8 
+G3D  O5*   .  O  0  4.545  16.706  -2.795  1  9 
+G3D  C5*   .  C  0  4.997  17.170  -4.101  1  10
+G3D  C4*   .  C  0  4.601  16.314  -5.219  1  11
+G3D  O4*   .  O  0  5.183  14.951  -5.000  1  12
+G3D  C3*   .  C  0  3.064  15.974  -5.297  1  13
+G3D  O3*   .  O  0  2.809  15.761  -6.738  1  14
+G3D  C2*   .  C  0  2.860  14.632  -4.544  1  15
+G3D  O2*   .  O  0  1.691  13.842  -4.809  1  16
+G3D  C1*   .  C  0  4.150  13.869  -4.929  1  17
+G3D  N9    .  N  0  4.633  12.857  -3.962  1  18
+G3D  C8    .  C  0  4.735  13.208  -2.506  1  19
+G3D  N7    .  N  0  5.224  11.941  -2.153  1  20
+G3D  C5    .  C  0  5.415  10.990  -3.073  1  21
+G3D  C6    .  C  0  5.839  9.664   -3.318  1  22
+G3D  O6    .  O  0  6.249  8.976   -2.250  1  23
+G3D  N1    .  N  0  5.860  9.071   -4.536  1  24
+G3D  C2    .  C  0  5.398  9.873   -5.713  1  25
+G3D  N2    .  N  0  5.495  9.120   -6.802  1  26
+G3D  N3    .  N  0  5.008  11.065  -5.546  1  27
+G3D  C4    .  C  0  5.008  11.609  -4.317  1  28
+G3D  P1    .  P  0  1.494  16.353  -7.447  1  29
+G3D  O4P   .  O  0  1.741  17.799  -7.647  1  30
+G3D  O5P   .  O  0  0.268  15.905  -6.708  1  31
+G3D  O6P   .  O  0  1.489  15.641  -8.870  1  32
+G3D  1HN2  .  H  0  ?      ?       ?       0  33
+G3D  2HN2  .  H  0  ?      ?       ?       0  34
+G3D  HN1   .  H  0  ?      ?       ?       1  35
+G3D  H8    .  H  0  ?      ?       ?       1  36
+G3D  H1*   .  H  0  ?      ?       ?       1  37
+G3D  H2*   .  H  0  ?      ?       ?       1  38
+G3D  H3*   .  H  0  ?      ?       ?       1  39
+G3D  H4*   .  H  0  ?      ?       ?       1  40
+G3D  *HO2  .  H  0  ?      ?       ?       0  41
+G3D  1H5*  .  H  0  ?      ?       ?       0  42
+G3D  2H5*  .  H  0  ?      ?       ?       0  43
+G3D  2HOA  .  H  0  ?      ?       ?       0  44
+G3D  2HOB  .  H  0  ?      ?       ?       0  45
+G3D  3HOB  .  H  0  ?      ?       ?       0  46
+G3D  HO4P  .  H  0  ?      ?       ?       0  47
+G3D  HO5P  .  H  0  ?      ?       ?       0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G3D  PB   O1B   DOUB  1 
+G3D  PB   O2B   SING  2 
+G3D  PB   O3B   SING  3 
+G3D  PB   O3A   SING  4 
+G3D  O2B  2HOB  SING  5 
+G3D  O3B  3HOB  SING  6 
+G3D  PA   O3A   SING  7 
+G3D  PA   O1A   DOUB  8 
+G3D  PA   O2A   SING  9 
+G3D  PA   O5*   SING  10
+G3D  O2A  2HOA  SING  11
+G3D  O5*  C5*   SING  12
+G3D  C5*  C4*   SING  13
+G3D  C5*  1H5*  SING  14
+G3D  C5*  2H5*  SING  15
+G3D  C4*  O4*   SING  16
+G3D  C4*  C3*   SING  17
+G3D  C4*  H4*   SING  18
+G3D  O4*  C1*   SING  19
+G3D  C3*  O3*   SING  20
+G3D  C3*  C2*   SING  21
+G3D  C3*  H3*   SING  22
+G3D  O3*  P1    SING  23
+G3D  C2*  O2*   SING  24
+G3D  C2*  C1*   SING  25
+G3D  C2*  H2*   SING  26
+G3D  O2*  *HO2  SING  27
+G3D  C1*  N9    SING  28
+G3D  C1*  H1*   SING  29
+G3D  N9   C8    SING  30
+G3D  N9   C4    SING  31
+G3D  C8   N7    DOUB  32
+G3D  C8   H8    SING  33
+G3D  N7   C5    SING  34
+G3D  C5   C6    SING  35
+G3D  C5   C4    DOUB  36
+G3D  C6   O6    DOUB  37
+G3D  C6   N1    SING  38
+G3D  N1   C2    SING  39
+G3D  N1   HN1   SING  40
+G3D  C2   N2    SING  41
+G3D  C2   N3    DOUB  42
+G3D  N2   1HN2  SING  43
+G3D  N2   2HN2  SING  44
+G3D  N3   C4    SING  45
+G3D  P1   O4P   SING  46
+G3D  P1   O5P   SING  47
+G3D  P1   O6P   DOUB  48
+G3D  O4P  HO4P  SING  49
+G3D  O5P  HO5P  SING  50
+#

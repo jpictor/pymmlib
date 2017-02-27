@@ -1,0 +1,86 @@
+data_OPA
+#
+_chem_comp.id                   OPA
+_chem_comp.name                 '2-(OXALYL-AMINO)-4,7-DIHYDRO-5H-THIENO[2,3-C]PYRAN-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N1 O6 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        271.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPA  O1   .  O  0  ?  ?  ?  1  1 
+OPA  C2   .  C  0  ?  ?  ?  1  2 
+OPA  C3   .  C  0  ?  ?  ?  1  3 
+OPA  C4   .  C  0  ?  ?  ?  1  4 
+OPA  C5   .  C  0  ?  ?  ?  1  5 
+OPA  C6   .  C  0  ?  ?  ?  1  6 
+OPA  S13  .  S  0  ?  ?  ?  1  7 
+OPA  C14  .  C  0  ?  ?  ?  1  8 
+OPA  C15  .  C  0  ?  ?  ?  1  9 
+OPA  C16  .  C  0  ?  ?  ?  1  10
+OPA  O17  .  O  0  ?  ?  ?  1  11
+OPA  O18  .  O  0  ?  ?  ?  1  12
+OPA  N19  .  N  0  ?  ?  ?  1  13
+OPA  C20  .  C  0  ?  ?  ?  1  14
+OPA  C21  .  C  0  ?  ?  ?  1  15
+OPA  O22  .  O  0  ?  ?  ?  1  16
+OPA  O23  .  O  0  ?  ?  ?  1  17
+OPA  O24  .  O  0  ?  ?  ?  1  18
+OPA  1H2  .  H  0  ?  ?  ?  0  19
+OPA  2H2  .  H  0  ?  ?  ?  0  20
+OPA  1H6  .  H  0  ?  ?  ?  0  21
+OPA  2H6  .  H  0  ?  ?  ?  0  22
+OPA  1H5  .  H  0  ?  ?  ?  0  23
+OPA  2H5  .  H  0  ?  ?  ?  0  24
+OPA  H17  .  H  0  ?  ?  ?  1  25
+OPA  H19  .  H  0  ?  ?  ?  1  26
+OPA  H22  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPA  O1   C2   SING  1 
+OPA  O1   C6   SING  2 
+OPA  C2   C3   SING  3 
+OPA  C2   1H2  SING  4 
+OPA  C2   2H2  SING  5 
+OPA  C3   C4   DOUB  6 
+OPA  C3   S13  SING  7 
+OPA  C4   C5   SING  8 
+OPA  C4   C15  SING  9 
+OPA  C5   C6   SING  10
+OPA  C5   1H5  SING  11
+OPA  C5   2H5  SING  12
+OPA  C6   1H6  SING  13
+OPA  C6   2H6  SING  14
+OPA  S13  C14  SING  15
+OPA  C14  C15  DOUB  16
+OPA  C14  N19  SING  17
+OPA  C15  C16  SING  18
+OPA  C16  O17  SING  19
+OPA  C16  O18  DOUB  20
+OPA  O17  H17  SING  21
+OPA  N19  C20  SING  22
+OPA  N19  H19  SING  23
+OPA  C20  C21  SING  24
+OPA  C20  O24  DOUB  25
+OPA  C21  O22  SING  26
+OPA  C21  O23  DOUB  27
+OPA  O22  H22  SING  28
+#

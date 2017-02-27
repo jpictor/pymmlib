@@ -1,0 +1,96 @@
+data_MPE
+#
+_chem_comp.id                   MPE
+_chem_comp.name                 '(1H-INDOL-3-YL)-(2-MERCAPTO-ETHOXYIMINO)-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H14 N2 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.314
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MPE  O9   .  O  0  -9.913   -1.749  -11.659  1  1 
+MPE  C7   .  C  0  -10.779  -1.955  -10.828  1  2 
+MPE  O8   .  O  0  -11.952  -1.940  -11.157  1  3 
+MPE  C6   .  C  0  -10.384  -2.207  -9.408   1  4 
+MPE  N5   .  N  0  -9.230   -1.399  -9.104   1  5 
+MPE  O4   .  O  0  -9.098   -0.782  -7.822   1  6 
+MPE  C3   .  C  0  -9.471   0.580   -7.664   1  7 
+MPE  C2   .  C  0  -10.206  0.702   -6.342   1  8 
+MPE  S1   .  S  0  -9.227   1.607   -5.132   1  9 
+MPE  C10  .  C  0  -10.055  -3.635  -9.188   1  10
+MPE  C11  .  C  0  -10.366  -4.648  -10.072  1  11
+MPE  N12  .  N  0  -9.902   -5.803  -9.511   1  12
+MPE  C13  .  C  0  -9.308   -5.601  -8.310   1  13
+MPE  C15  .  C  0  -8.707   -6.446  -7.391   1  14
+MPE  C14  .  C  0  -9.359   -4.157  -7.999   1  15
+MPE  C18  .  C  0  -8.821   -3.662  -6.822   1  16
+MPE  C17  .  C  0  -8.225   -4.555  -5.939   1  17
+MPE  C16  .  C  0  -8.173   -5.922  -6.216   1  18
+MPE  H1   .  H  0  ?        ?       ?        1  19
+MPE  1H2  .  H  0  ?        ?       ?        0  20
+MPE  2H2  .  H  0  ?        ?       ?        0  21
+MPE  1H3  .  H  0  ?        ?       ?        0  22
+MPE  2H3  .  H  0  ?        ?       ?        0  23
+MPE  H5   .  H  0  ?        ?       ?        1  24
+MPE  H6   .  H  0  ?        ?       ?        1  25
+MPE  H8   .  H  0  ?        ?       ?        1  26
+MPE  H11  .  H  0  ?        ?       ?        1  27
+MPE  H12  .  H  0  ?        ?       ?        1  28
+MPE  H15  .  H  0  ?        ?       ?        1  29
+MPE  H16  .  H  0  ?        ?       ?        1  30
+MPE  H17  .  H  0  ?        ?       ?        1  31
+MPE  H18  .  H  0  ?        ?       ?        1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MPE  O9   C7   DOUB  1 
+MPE  C7   O8   SING  2 
+MPE  C7   C6   SING  3 
+MPE  O8   H8   SING  4 
+MPE  C6   N5   SING  5 
+MPE  C6   C10  SING  6 
+MPE  C6   H6   SING  7 
+MPE  N5   O4   SING  8 
+MPE  N5   H5   SING  9 
+MPE  O4   C3   SING  10
+MPE  C3   C2   SING  11
+MPE  C3   1H3  SING  12
+MPE  C3   2H3  SING  13
+MPE  C2   S1   SING  14
+MPE  C2   1H2  SING  15
+MPE  C2   2H2  SING  16
+MPE  S1   H1   SING  17
+MPE  C10  C11  DOUB  18
+MPE  C10  C14  SING  19
+MPE  C11  N12  SING  20
+MPE  C11  H11  SING  21
+MPE  N12  C13  SING  22
+MPE  N12  H12  SING  23
+MPE  C13  C15  SING  24
+MPE  C13  C14  DOUB  25
+MPE  C15  C16  DOUB  26
+MPE  C15  H15  SING  27
+MPE  C14  C18  SING  28
+MPE  C18  C17  DOUB  29
+MPE  C18  H18  SING  30
+MPE  C17  C16  SING  31
+MPE  C17  H17  SING  32
+MPE  C16  H16  SING  33
+#

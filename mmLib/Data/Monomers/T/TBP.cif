@@ -1,0 +1,57 @@
+data_TBP
+#
+_chem_comp.id                   TBP
+_chem_comp.name                 2,4,6-TRIBROMOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H3 O1 BR3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.801
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBP  O1   .  O   0  ?  ?  ?  1  1 
+TBP  C1   .  C   0  ?  ?  ?  1  2 
+TBP  C2   .  C   0  ?  ?  ?  1  3 
+TBP  C3   .  C   0  ?  ?  ?  1  4 
+TBP  C4   .  C   0  ?  ?  ?  1  5 
+TBP  C5   .  C   0  ?  ?  ?  1  6 
+TBP  C6   .  C   0  ?  ?  ?  1  7 
+TBP  BR2  .  BR  0  ?  ?  ?  0  8 
+TBP  BR4  .  BR  0  ?  ?  ?  0  9 
+TBP  BR6  .  BR  0  ?  ?  ?  0  10
+TBP  H1   .  H   0  ?  ?  ?  1  11
+TBP  H3   .  H   0  ?  ?  ?  1  12
+TBP  H5   .  H   0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBP  O1  C1   SING  1 
+TBP  O1  H1   SING  2 
+TBP  C1  C2   AROM  3 
+TBP  C1  C6   AROM  4 
+TBP  C2  C3   AROM  5 
+TBP  C2  BR2  SING  6 
+TBP  C3  C4   AROM  7 
+TBP  C3  H3   SING  8 
+TBP  C4  C5   AROM  9 
+TBP  C4  BR4  SING  10
+TBP  C5  C6   AROM  11
+TBP  C5  H5   SING  12
+TBP  C6  BR6  SING  13
+#

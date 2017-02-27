@@ -1,0 +1,57 @@
+data_IOL
+#
+_chem_comp.id                   IOL
+_chem_comp.name                 4-IODOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H5 O1 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        220.009
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IOL  C2   .  C  0  ?  ?  ?  1  1 
+IOL  C3   .  C  0  ?  ?  ?  1  2 
+IOL  C4   .  C  0  ?  ?  ?  1  3 
+IOL  O4   .  O  0  ?  ?  ?  1  4 
+IOL  C5   .  C  0  ?  ?  ?  1  5 
+IOL  C6   .  C  0  ?  ?  ?  1  6 
+IOL  C1   .  C  0  ?  ?  ?  1  7 
+IOL  I1   .  I  0  ?  ?  ?  1  8 
+IOL  H6   .  H  0  ?  ?  ?  1  9 
+IOL  H5   .  H  0  ?  ?  ?  1  10
+IOL  H3   .  H  0  ?  ?  ?  1  11
+IOL  H2   .  H  0  ?  ?  ?  1  12
+IOL  HO4  .  H  0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IOL  C2  C3   DOUB  1 
+IOL  C2  C1   SING  2 
+IOL  C2  H2   SING  3 
+IOL  C3  C4   SING  4 
+IOL  C3  H3   SING  5 
+IOL  C4  O4   SING  6 
+IOL  C4  C5   DOUB  7 
+IOL  O4  HO4  SING  8 
+IOL  C5  C6   SING  9 
+IOL  C5  H5   SING  10
+IOL  C6  C1   DOUB  11
+IOL  C6  H6   SING  12
+IOL  C1  I1   SING  13
+#

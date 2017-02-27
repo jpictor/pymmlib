@@ -1,0 +1,59 @@
+data_1AN
+#
+_chem_comp.id                   1AN
+_chem_comp.name                 2-FLUOROANILINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N1 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        111.119
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1AN  C4   .  C  0  26.052  5.609  5.594  1  1 
+1AN  C5   .  C  0  26.797  6.777  5.766  1  2 
+1AN  C3   .  C  0  26.113  5.013  4.340  1  3 
+1AN  C6   .  C  0  27.572  7.360  4.752  1  4 
+1AN  C2   .  C  0  26.930  5.543  3.342  1  5 
+1AN  C1   .  C  0  27.638  6.738  3.508  1  6 
+1AN  N    .  N  0  28.458  7.214  2.500  1  7 
+1AN  F2   .  F  0  26.942  4.935  2.210  1  8 
+1AN  HC3  .  H  0  ?       ?      ?      1  9 
+1AN  HC4  .  H  0  ?       ?      ?      1  10
+1AN  HC5  .  H  0  ?       ?      ?      1  11
+1AN  HC6  .  H  0  ?       ?      ?      1  12
+1AN  1HN  .  H  0  ?       ?      ?      0  13
+1AN  2HN  .  H  0  ?       ?      ?      0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1AN  C4  C5   AROM  1 
+1AN  C4  C3   AROM  2 
+1AN  C4  HC4  SING  3 
+1AN  C5  C6   AROM  4 
+1AN  C5  HC5  SING  5 
+1AN  C3  C2   AROM  6 
+1AN  C3  HC3  SING  7 
+1AN  C6  C1   AROM  8 
+1AN  C6  HC6  SING  9 
+1AN  C2  C1   AROM  10
+1AN  C2  F2   SING  11
+1AN  C1  N    SING  12
+1AN  N   1HN  SING  13
+1AN  N   2HN  SING  14
+#

@@ -1,0 +1,70 @@
+data_IOM
+#
+_chem_comp.id                   IOM
+_chem_comp.name                 '(DIAMINOMETHYL-METHYL-AMINO)-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        133.150
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IOM  NA    .  N  0  23.506  21.859  115.554  1  1 
+IOM  CA    .  C  0  24.813  21.876  115.808  1  2 
+IOM  NB    .  N  0  25.622  21.566  114.781  1  3 
+IOM  NC    .  N  0  25.297  22.185  117.012  1  4 
+IOM  CB    .  C  0  24.412  22.525  118.146  1  5 
+IOM  CC    .  C  0  26.845  22.225  117.269  1  6 
+IOM  CD    .  C  0  27.573  23.542  117.465  1  7 
+IOM  O1    .  O  0  26.938  24.622  117.307  1  8 
+IOM  O2    .  O  0  28.775  23.485  117.785  1  9 
+IOM  HO2   .  H  0  ?       ?       ?        1  10
+IOM  HCA   .  H  0  ?       ?       ?        1  11
+IOM  1HCC  .  H  0  ?       ?       ?        0  12
+IOM  2HCC  .  H  0  ?       ?       ?        0  13
+IOM  1HCB  .  H  0  ?       ?       ?        0  14
+IOM  2HCB  .  H  0  ?       ?       ?        0  15
+IOM  3HCB  .  H  0  ?       ?       ?        0  16
+IOM  1HNB  .  H  0  ?       ?       ?        0  17
+IOM  2HNB  .  H  0  ?       ?       ?        0  18
+IOM  1HNA  .  H  0  ?       ?       ?        0  19
+IOM  2HNA  .  H  0  ?       ?       ?        0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IOM  NA  CA    SING  1 
+IOM  NA  1HNA  SING  2 
+IOM  NA  2HNA  SING  3 
+IOM  CA  NB    SING  4 
+IOM  CA  NC    SING  5 
+IOM  CA  HCA   SING  6 
+IOM  NB  1HNB  SING  7 
+IOM  NB  2HNB  SING  8 
+IOM  NC  CB    SING  9 
+IOM  NC  CC    SING  10
+IOM  CB  1HCB  SING  11
+IOM  CB  2HCB  SING  12
+IOM  CB  3HCB  SING  13
+IOM  CC  CD    SING  14
+IOM  CC  1HCC  SING  15
+IOM  CC  2HCC  SING  16
+IOM  CD  O1    DOUB  17
+IOM  CD  O2    SING  18
+IOM  O2  HO2   SING  19
+#

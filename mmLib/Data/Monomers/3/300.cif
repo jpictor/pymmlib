@@ -1,0 +1,80 @@
+data_300
+#
+_chem_comp.id                   300
+_chem_comp.name                 '2-FORMYL-6-METHOXYPHENYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 O6 P1'
+_chem_comp.pdbx_synonyms        RU78300
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.129
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+300  C1    .  C  0  17.682  24.552  19.527  1  1 
+300  C2    .  C  0  18.429  24.998  20.637  1  2 
+300  C3    .  C  0  18.237  26.326  21.083  1  3 
+300  C4    .  C  0  17.277  27.193  20.476  1  4 
+300  C5    .  C  0  16.539  26.727  19.334  1  5 
+300  C6    .  C  0  16.765  25.403  18.806  1  6 
+300  C10   .  C  0  16.263  24.783  17.522  1  7 
+300  O11   .  O  0  15.549  27.608  18.803  1  8 
+300  O12   .  O  0  17.019  28.450  21.059  1  9 
+300  C13   .  C  0  17.382  28.649  22.433  1  10
+300  P17   .  P  0  15.906  28.596  17.664  1  11
+300  O18   .  O  0  14.608  29.056  17.032  1  12
+300  O19   .  O  0  16.731  27.749  16.658  1  13
+300  O20   .  O  0  16.714  29.756  18.159  1  14
+300  O21   .  O  0  16.536  24.960  16.597  1  15
+300  H1    .  H  0  ?       ?       ?       1  16
+300  H2    .  H  0  ?       ?       ?       1  17
+300  H3    .  H  0  ?       ?       ?       1  18
+300  1H13  .  H  0  ?       ?       ?       0  19
+300  2H13  .  H  0  ?       ?       ?       0  20
+300  3H13  .  H  0  ?       ?       ?       0  21
+300  H10   .  H  0  ?       ?       ?       1  22
+300  H18   .  H  0  ?       ?       ?       1  23
+300  H20   .  H  0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+300  C1   C6    SING  1 
+300  C1   H1    SING  2 
+300  C1   C2    DOUB  3 
+300  C2   H2    SING  4 
+300  C2   C3    SING  5 
+300  C3   H3    SING  6 
+300  C3   C4    DOUB  7 
+300  C4   O12   SING  8 
+300  C4   C5    SING  9 
+300  C5   O11   SING  10
+300  C5   C6    DOUB  11
+300  C6   C10   SING  12
+300  C10  O21   DOUB  13
+300  C10  H10   SING  14
+300  O11  P17   SING  15
+300  O12  C13   SING  16
+300  C13  1H13  SING  17
+300  C13  2H13  SING  18
+300  C13  3H13  SING  19
+300  P17  O18   SING  20
+300  P17  O20   SING  21
+300  P17  O19   DOUB  22
+300  O18  H18   SING  23
+300  O20  H20   SING  24
+#

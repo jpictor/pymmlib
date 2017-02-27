@@ -1,0 +1,87 @@
+data_RHA
+#
+_chem_comp.id                   RHA
+_chem_comp.name                 6-DEOXY-MANNOSE-1'-PHOSPHATE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        244.138
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RHA  C1    .  C  0  ?  ?  ?  1  1 
+RHA  O1    .  O  0  ?  ?  ?  1  2 
+RHA  C2    .  C  0  ?  ?  ?  1  3 
+RHA  O2    .  O  0  ?  ?  ?  1  4 
+RHA  C3    .  C  0  ?  ?  ?  1  5 
+RHA  O3    .  O  0  ?  ?  ?  1  6 
+RHA  C4    .  C  0  ?  ?  ?  1  7 
+RHA  O4    .  O  0  ?  ?  ?  1  8 
+RHA  C5    .  C  0  ?  ?  ?  1  9 
+RHA  O5    .  O  0  ?  ?  ?  1  10
+RHA  C6    .  C  0  ?  ?  ?  1  11
+RHA  P     .  P  0  ?  ?  ?  1  12
+RHA  O1P   .  O  0  ?  ?  ?  1  13
+RHA  O2P   .  O  0  ?  ?  ?  1  14
+RHA  O3P   .  O  0  ?  ?  ?  1  15
+RHA  H1    .  H  0  ?  ?  ?  1  16
+RHA  H2    .  H  0  ?  ?  ?  1  17
+RHA  H3    .  H  0  ?  ?  ?  1  18
+RHA  H4    .  H  0  ?  ?  ?  1  19
+RHA  H5    .  H  0  ?  ?  ?  1  20
+RHA  1H6   .  H  0  ?  ?  ?  0  21
+RHA  2H6   .  H  0  ?  ?  ?  0  22
+RHA  3H6   .  H  0  ?  ?  ?  0  23
+RHA  HO2   .  H  0  ?  ?  ?  1  24
+RHA  HO3   .  H  0  ?  ?  ?  1  25
+RHA  HO4   .  H  0  ?  ?  ?  1  26
+RHA  2HOP  .  H  0  ?  ?  ?  0  27
+RHA  3HOP  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RHA  C1   O1    SING  1 
+RHA  C1   C2    SING  2 
+RHA  C1   O5    SING  3 
+RHA  C1   H1    SING  4 
+RHA  O1   P     SING  5 
+RHA  C2   O2    SING  6 
+RHA  C2   C3    SING  7 
+RHA  C2   H2    SING  8 
+RHA  O2   HO2   SING  9 
+RHA  C3   O3    SING  10
+RHA  C3   C4    SING  11
+RHA  C3   H3    SING  12
+RHA  O3   HO3   SING  13
+RHA  C4   O4    SING  14
+RHA  C4   C5    SING  15
+RHA  C4   H4    SING  16
+RHA  O4   HO4   SING  17
+RHA  C5   O5    SING  18
+RHA  C5   C6    SING  19
+RHA  C5   H5    SING  20
+RHA  C6   1H6   SING  21
+RHA  C6   2H6   SING  22
+RHA  C6   3H6   SING  23
+RHA  P    O1P   DOUB  24
+RHA  P    O2P   SING  25
+RHA  P    O3P   SING  26
+RHA  O2P  2HOP  SING  27
+RHA  O3P  3HOP  SING  28
+#

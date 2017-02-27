@@ -1,0 +1,83 @@
+data_ADG
+#
+_chem_comp.id                   ADG
+_chem_comp.name                 O-3-AMINO-3-DEOXY-ALPHA-D-GLUCOPYRANOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 N1 O5'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       180.180
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ADG  C5   .  C  0  ?  ?  ?  1  1 
+ADG  O    .  O  0  ?  ?  ?  1  2 
+ADG  C1   .  C  0  ?  ?  ?  1  3 
+ADG  O1   .  O  0  ?  ?  ?  1  4 
+ADG  C2   .  C  0  ?  ?  ?  1  5 
+ADG  O2   .  O  0  ?  ?  ?  1  6 
+ADG  C3   .  C  0  ?  ?  ?  1  7 
+ADG  N3   .  N  1  ?  ?  ?  1  8 
+ADG  C4   .  C  0  ?  ?  ?  1  9 
+ADG  O4   .  O  0  ?  ?  ?  1  10
+ADG  C6   .  C  0  ?  ?  ?  1  11
+ADG  O6   .  O  0  ?  ?  ?  1  12
+ADG  H5   .  H  0  ?  ?  ?  1  13
+ADG  H1   .  H  0  ?  ?  ?  1  14
+ADG  HO1  .  H  0  ?  ?  ?  1  15
+ADG  H2   .  H  0  ?  ?  ?  1  16
+ADG  HO2  .  H  0  ?  ?  ?  1  17
+ADG  H3   .  H  0  ?  ?  ?  1  18
+ADG  1H3  .  H  0  ?  ?  ?  0  19
+ADG  2H3  .  H  0  ?  ?  ?  0  20
+ADG  3H3  .  H  0  ?  ?  ?  0  21
+ADG  H4   .  H  0  ?  ?  ?  1  22
+ADG  HO4  .  H  0  ?  ?  ?  1  23
+ADG  1H6  .  H  0  ?  ?  ?  0  24
+ADG  2H6  .  H  0  ?  ?  ?  0  25
+ADG  H6   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ADG  C5  O    SING  1 
+ADG  C5  C4   SING  2 
+ADG  C5  C6   SING  3 
+ADG  C5  H5   SING  4 
+ADG  O   C1   SING  5 
+ADG  C1  O1   SING  6 
+ADG  C1  C2   SING  7 
+ADG  C1  H1   SING  8 
+ADG  O1  HO1  SING  9 
+ADG  C2  O2   SING  10
+ADG  C2  C3   SING  11
+ADG  C2  H2   SING  12
+ADG  O2  HO2  SING  13
+ADG  C3  N3   SING  14
+ADG  C3  C4   SING  15
+ADG  C3  H3   SING  16
+ADG  N3  1H3  SING  17
+ADG  N3  2H3  SING  18
+ADG  N3  3H3  SING  19
+ADG  C4  O4   SING  20
+ADG  C4  H4   SING  21
+ADG  O4  HO4  SING  22
+ADG  C6  O6   SING  23
+ADG  C6  1H6  SING  24
+ADG  C6  2H6  SING  25
+ADG  O6  H6   SING  26
+#

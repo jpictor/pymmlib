@@ -1,0 +1,103 @@
+data_HXP
+#
+_chem_comp.id                   HXP
+_chem_comp.name                 '3,6-DIHYDROXY-XANTHENE-9-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H14 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.284
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HXP  C1    .  C  0  ?  ?  ?  1  1 
+HXP  C2    .  C  0  ?  ?  ?  1  2 
+HXP  C3    .  C  0  ?  ?  ?  1  3 
+HXP  O3    .  O  0  ?  ?  ?  1  4 
+HXP  C4    .  C  0  ?  ?  ?  1  5 
+HXP  C4A   .  C  0  ?  ?  ?  1  6 
+HXP  O10   .  O  0  ?  ?  ?  1  7 
+HXP  C5A   .  C  0  ?  ?  ?  1  8 
+HXP  C5    .  C  0  ?  ?  ?  1  9 
+HXP  C6    .  C  0  ?  ?  ?  1  10
+HXP  O6    .  O  0  ?  ?  ?  1  11
+HXP  C7    .  C  0  ?  ?  ?  1  12
+HXP  C8    .  C  0  ?  ?  ?  1  13
+HXP  C8A   .  C  0  ?  ?  ?  1  14
+HXP  C9    .  C  0  ?  ?  ?  1  15
+HXP  C9A   .  C  0  ?  ?  ?  1  16
+HXP  C1'   .  C  0  ?  ?  ?  1  17
+HXP  C2'   .  C  0  ?  ?  ?  1  18
+HXP  C3'   .  C  0  ?  ?  ?  1  19
+HXP  O1'   .  O  0  ?  ?  ?  1  20
+HXP  O2'   .  O  0  ?  ?  ?  1  21
+HXP  H1    .  H  0  ?  ?  ?  1  22
+HXP  H2    .  H  0  ?  ?  ?  1  23
+HXP  HO3   .  H  0  ?  ?  ?  1  24
+HXP  H4    .  H  0  ?  ?  ?  1  25
+HXP  H5    .  H  0  ?  ?  ?  1  26
+HXP  HO6   .  H  0  ?  ?  ?  1  27
+HXP  H7    .  H  0  ?  ?  ?  1  28
+HXP  H8    .  H  0  ?  ?  ?  1  29
+HXP  H9    .  H  0  ?  ?  ?  1  30
+HXP  1H1'  .  H  0  ?  ?  ?  0  31
+HXP  2H1'  .  H  0  ?  ?  ?  0  32
+HXP  1H2'  .  H  0  ?  ?  ?  0  33
+HXP  2H2'  .  H  0  ?  ?  ?  0  34
+HXP  'HO2  .  H  0  ?  ?  ?  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HXP  C1   C2    DOUB  1 
+HXP  C1   C9A   SING  2 
+HXP  C1   H1    SING  3 
+HXP  C2   C3    SING  4 
+HXP  C2   H2    SING  5 
+HXP  C3   C4    DOUB  6 
+HXP  C3   O3    SING  7 
+HXP  O3   HO3   SING  8 
+HXP  C4   C4A   SING  9 
+HXP  C4   H4    SING  10
+HXP  C4A  C9A   DOUB  11
+HXP  C4A  O10   SING  12
+HXP  O10  C5A   SING  13
+HXP  C5A  C5    DOUB  14
+HXP  C5A  C8A   SING  15
+HXP  C5   C6    SING  16
+HXP  C5   H5    SING  17
+HXP  C6   C7    DOUB  18
+HXP  C6   O6    SING  19
+HXP  O6   HO6   SING  20
+HXP  C7   C8    SING  21
+HXP  C7   H7    SING  22
+HXP  C8   C8A   DOUB  23
+HXP  C8   H8    SING  24
+HXP  C8A  C9    SING  25
+HXP  C9   C9A   SING  26
+HXP  C9   C1'   SING  27
+HXP  C9   H9    SING  28
+HXP  C1'  C2'   SING  29
+HXP  C1'  1H1'  SING  30
+HXP  C1'  2H1'  SING  31
+HXP  C2'  C3'   SING  32
+HXP  C2'  1H2'  SING  33
+HXP  C2'  2H2'  SING  34
+HXP  C3'  O1'   DOUB  35
+HXP  C3'  O2'   SING  36
+HXP  O2'  'HO2  SING  37
+#

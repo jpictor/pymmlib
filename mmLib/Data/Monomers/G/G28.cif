@@ -1,0 +1,119 @@
+data_G28
+#
+_chem_comp.id                   G28
+_chem_comp.name                 '5-N-ACETYL-4-AMINO-6-DIETHYLCARBOXAMIDE-4,5-DIHYDRO-2H-PYRAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H23 N3 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        301.342
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G28  C1    .  C  0  ?  ?  ?  1  1 
+G28  O1A   .  O  0  ?  ?  ?  1  2 
+G28  O1B   .  O  0  ?  ?  ?  1  3 
+G28  C2    .  C  0  ?  ?  ?  1  4 
+G28  C3    .  C  0  ?  ?  ?  1  5 
+G28  C4    .  C  0  ?  ?  ?  1  6 
+G28  C5    .  C  0  ?  ?  ?  1  7 
+G28  N5    .  N  0  ?  ?  ?  1  8 
+G28  C10   .  C  0  ?  ?  ?  1  9 
+G28  O10   .  O  0  ?  ?  ?  1  10
+G28  C11   .  C  0  ?  ?  ?  1  11
+G28  C6    .  C  0  ?  ?  ?  1  12
+G28  O6    .  O  0  ?  ?  ?  1  13
+G28  C7    .  C  0  ?  ?  ?  1  14
+G28  O7    .  O  0  ?  ?  ?  1  15
+G28  N8    .  N  0  ?  ?  ?  1  16
+G28  C81   .  C  0  ?  ?  ?  1  17
+G28  C82   .  C  0  ?  ?  ?  1  18
+G28  C9    .  C  0  ?  ?  ?  1  19
+G28  C91   .  C  0  ?  ?  ?  1  20
+G28  N4    .  N  0  ?  ?  ?  1  21
+G28  HO1   .  H  0  ?  ?  ?  1  22
+G28  H2    .  H  0  ?  ?  ?  1  23
+G28  1H3   .  H  0  ?  ?  ?  0  24
+G28  2H3   .  H  0  ?  ?  ?  0  25
+G28  H4    .  H  0  ?  ?  ?  1  26
+G28  H5    .  H  0  ?  ?  ?  1  27
+G28  HN5   .  H  0  ?  ?  ?  1  28
+G28  1H11  .  H  0  ?  ?  ?  0  29
+G28  2H11  .  H  0  ?  ?  ?  0  30
+G28  3H11  .  H  0  ?  ?  ?  0  31
+G28  H6    .  H  0  ?  ?  ?  1  32
+G28  1H81  .  H  0  ?  ?  ?  0  33
+G28  2H81  .  H  0  ?  ?  ?  0  34
+G28  1H82  .  H  0  ?  ?  ?  0  35
+G28  2H82  .  H  0  ?  ?  ?  0  36
+G28  3H82  .  H  0  ?  ?  ?  0  37
+G28  1H9   .  H  0  ?  ?  ?  0  38
+G28  2H9   .  H  0  ?  ?  ?  0  39
+G28  1H91  .  H  0  ?  ?  ?  0  40
+G28  2H91  .  H  0  ?  ?  ?  0  41
+G28  3H91  .  H  0  ?  ?  ?  0  42
+G28  1HN4  .  H  0  ?  ?  ?  0  43
+G28  2HN4  .  H  0  ?  ?  ?  0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G28  C1   O1A   SING  1 
+G28  C1   O1B   DOUB  2 
+G28  C1   C2    SING  3 
+G28  O1A  HO1   SING  4 
+G28  C2   C3    SING  5 
+G28  C2   O6    SING  6 
+G28  C2   H2    SING  7 
+G28  C3   C4    SING  8 
+G28  C3   1H3   SING  9 
+G28  C3   2H3   SING  10
+G28  C4   C5    SING  11
+G28  C4   N4    SING  12
+G28  C4   H4    SING  13
+G28  C5   N5    SING  14
+G28  C5   C6    SING  15
+G28  C5   H5    SING  16
+G28  N5   C10   SING  17
+G28  N5   HN5   SING  18
+G28  C10  O10   DOUB  19
+G28  C10  C11   SING  20
+G28  C11  1H11  SING  21
+G28  C11  2H11  SING  22
+G28  C11  3H11  SING  23
+G28  C6   O6    SING  24
+G28  C6   C7    SING  25
+G28  C6   H6    SING  26
+G28  C7   O7    DOUB  27
+G28  C7   N8    SING  28
+G28  N8   C81   SING  29
+G28  N8   C9    SING  30
+G28  C81  C82   SING  31
+G28  C81  1H81  SING  32
+G28  C81  2H81  SING  33
+G28  C82  1H82  SING  34
+G28  C82  2H82  SING  35
+G28  C82  3H82  SING  36
+G28  C9   C91   SING  37
+G28  C9   1H9   SING  38
+G28  C9   2H9   SING  39
+G28  C91  1H91  SING  40
+G28  C91  2H91  SING  41
+G28  C91  3H91  SING  42
+G28  N4   1HN4  SING  43
+G28  N4   2HN4  SING  44
+#

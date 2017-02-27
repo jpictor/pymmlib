@@ -1,0 +1,59 @@
+data_DCY
+#
+_chem_comp.id                       DCY
+_chem_comp.name                     D-CYSTEINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            121.154
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCY  N    .  N  0  ?  ?  ?  1  1 
+DCY  CA   .  C  0  ?  ?  ?  1  2 
+DCY  C    .  C  0  ?  ?  ?  1  3 
+DCY  O    .  O  0  ?  ?  ?  1  4 
+DCY  CB   .  C  0  ?  ?  ?  1  5 
+DCY  SG   .  S  0  ?  ?  ?  1  6 
+DCY  OXT  .  O  0  ?  ?  ?  1  7 
+DCY  H    .  H  0  ?  ?  ?  1  8 
+DCY  HN2  .  H  0  ?  ?  ?  1  9 
+DCY  HA   .  H  0  ?  ?  ?  1  10
+DCY  1HB  .  H  0  ?  ?  ?  0  11
+DCY  2HB  .  H  0  ?  ?  ?  0  12
+DCY  HG   .  H  0  ?  ?  ?  1  13
+DCY  HXT  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCY  N    CA   SING  1 
+DCY  N    H    SING  2 
+DCY  N    HN2  SING  3 
+DCY  CA   C    SING  4 
+DCY  CA   CB   SING  5 
+DCY  CA   HA   SING  6 
+DCY  C    O    DOUB  7 
+DCY  C    OXT  SING  8 
+DCY  CB   SG   SING  9 
+DCY  CB   1HB  SING  10
+DCY  CB   2HB  SING  11
+DCY  SG   HG   SING  12
+DCY  OXT  HXT  SING  13
+#

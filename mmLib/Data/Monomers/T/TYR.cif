@@ -1,0 +1,79 @@
+data_TYR
+#
+_chem_comp.id                   TYR
+_chem_comp.name                 TYROSINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C9 H11 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        181.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYR  N    .  N  0  ?  ?  ?  1  1 
+TYR  CA   .  C  0  ?  ?  ?  1  2 
+TYR  C    .  C  0  ?  ?  ?  1  3 
+TYR  O    .  O  0  ?  ?  ?  1  4 
+TYR  CB   .  C  0  ?  ?  ?  1  5 
+TYR  CG   .  C  0  ?  ?  ?  1  6 
+TYR  CD1  .  C  0  ?  ?  ?  1  7 
+TYR  CD2  .  C  0  ?  ?  ?  1  8 
+TYR  CE1  .  C  0  ?  ?  ?  1  9 
+TYR  CE2  .  C  0  ?  ?  ?  1  10
+TYR  CZ   .  C  0  ?  ?  ?  1  11
+TYR  OH   .  O  0  ?  ?  ?  1  12
+TYR  OXT  .  O  0  ?  ?  ?  1  13
+TYR  H    .  H  0  ?  ?  ?  1  14
+TYR  HN2  .  H  0  ?  ?  ?  1  15
+TYR  HA   .  H  0  ?  ?  ?  1  16
+TYR  1HB  .  H  0  ?  ?  ?  0  17
+TYR  2HB  .  H  0  ?  ?  ?  0  18
+TYR  HD1  .  H  0  ?  ?  ?  1  19
+TYR  HD2  .  H  0  ?  ?  ?  1  20
+TYR  HE1  .  H  0  ?  ?  ?  1  21
+TYR  HE2  .  H  0  ?  ?  ?  1  22
+TYR  HH   .  H  0  ?  ?  ?  1  23
+TYR  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYR  N    CA   SING  1 
+TYR  N    H    SING  2 
+TYR  N    HN2  SING  3 
+TYR  CA   C    SING  4 
+TYR  CA   CB   SING  5 
+TYR  CA   HA   SING  6 
+TYR  C    O    DOUB  7 
+TYR  C    OXT  SING  8 
+TYR  CB   CG   SING  9 
+TYR  CB   1HB  SING  10
+TYR  CB   2HB  SING  11
+TYR  CG   CD1  DOUB  12
+TYR  CG   CD2  SING  13
+TYR  CD1  CE1  SING  14
+TYR  CD1  HD1  SING  15
+TYR  CD2  CE2  DOUB  16
+TYR  CD2  HD2  SING  17
+TYR  CE1  CZ   DOUB  18
+TYR  CE1  HE1  SING  19
+TYR  CE2  CZ   SING  20
+TYR  CE2  HE2  SING  21
+TYR  CZ   OH   SING  22
+TYR  OH   HH   SING  23
+TYR  OXT  HXT  SING  24
+#

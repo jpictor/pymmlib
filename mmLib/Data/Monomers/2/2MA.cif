@@ -1,0 +1,114 @@
+data_2MA
+#
+_chem_comp.id                       2MA
+_chem_comp.name                     2-METHYLADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            361.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2MA  P     .  P  0  ?  ?  ?  1  1 
+2MA  O1P   .  O  0  ?  ?  ?  1  2 
+2MA  O2P   .  O  0  ?  ?  ?  1  3 
+2MA  O3P   .  O  0  ?  ?  ?  1  4 
+2MA  O5*   .  O  0  ?  ?  ?  1  5 
+2MA  C5*   .  C  0  ?  ?  ?  1  6 
+2MA  C4*   .  C  0  ?  ?  ?  1  7 
+2MA  O4*   .  O  0  ?  ?  ?  1  8 
+2MA  C3*   .  C  0  ?  ?  ?  1  9 
+2MA  O3*   .  O  0  ?  ?  ?  1  10
+2MA  C2*   .  C  0  ?  ?  ?  1  11
+2MA  O2*   .  O  0  ?  ?  ?  1  12
+2MA  C1*   .  C  0  ?  ?  ?  1  13
+2MA  N9    .  N  0  ?  ?  ?  1  14
+2MA  C8    .  C  0  ?  ?  ?  1  15
+2MA  N7    .  N  0  ?  ?  ?  1  16
+2MA  C5    .  C  0  ?  ?  ?  1  17
+2MA  C6    .  C  0  ?  ?  ?  1  18
+2MA  N6    .  N  0  ?  ?  ?  1  19
+2MA  N1    .  N  0  ?  ?  ?  1  20
+2MA  C2    .  C  0  ?  ?  ?  1  21
+2MA  CM2   .  C  0  ?  ?  ?  1  22
+2MA  N3    .  N  0  ?  ?  ?  1  23
+2MA  C4    .  C  0  ?  ?  ?  1  24
+2MA  2HOP  .  H  0  ?  ?  ?  0  25
+2MA  3HOP  .  H  0  ?  ?  ?  0  26
+2MA  1H5*  .  H  0  ?  ?  ?  0  27
+2MA  2H5*  .  H  0  ?  ?  ?  0  28
+2MA  H4*   .  H  0  ?  ?  ?  1  29
+2MA  H3*   .  H  0  ?  ?  ?  1  30
+2MA  *HO3  .  H  0  ?  ?  ?  0  31
+2MA  H2*   .  H  0  ?  ?  ?  1  32
+2MA  *HO2  .  H  0  ?  ?  ?  0  33
+2MA  H1*   .  H  0  ?  ?  ?  1  34
+2MA  HN1   .  H  0  ?  ?  ?  1  35
+2MA  1HM2  .  H  0  ?  ?  ?  0  36
+2MA  2HM2  .  H  0  ?  ?  ?  0  37
+2MA  3HM2  .  H  0  ?  ?  ?  0  38
+2MA  H8    .  H  0  ?  ?  ?  1  39
+2MA  HN6   .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2MA  P    O1P   DOUB  1 
+2MA  P    O2P   SING  2 
+2MA  P    O3P   SING  3 
+2MA  P    O5*   SING  4 
+2MA  O2P  2HOP  SING  5 
+2MA  O3P  3HOP  SING  6 
+2MA  O5*  C5*   SING  7 
+2MA  C5*  C4*   SING  8 
+2MA  C5*  1H5*  SING  9 
+2MA  C5*  2H5*  SING  10
+2MA  C4*  O4*   SING  11
+2MA  C4*  C3*   SING  12
+2MA  C4*  H4*   SING  13
+2MA  O4*  C1*   SING  14
+2MA  C3*  O3*   SING  15
+2MA  C3*  C2*   SING  16
+2MA  C3*  H3*   SING  17
+2MA  O3*  *HO3  SING  18
+2MA  C2*  O2*   SING  19
+2MA  C2*  C1*   SING  20
+2MA  C2*  H2*   SING  21
+2MA  O2*  *HO2  SING  22
+2MA  C1*  N9    SING  23
+2MA  C1*  H1*   SING  24
+2MA  N9   C8    SING  25
+2MA  N9   C4    SING  26
+2MA  C8   N7    DOUB  27
+2MA  C8   H8    SING  28
+2MA  N7   C5    SING  29
+2MA  C5   C6    SING  30
+2MA  C5   C4    DOUB  31
+2MA  C6   N6    DOUB  32
+2MA  C6   N1    SING  33
+2MA  N6   HN6   SING  34
+2MA  N1   C2    SING  35
+2MA  N1   HN1   SING  36
+2MA  C2   N3    DOUB  37
+2MA  C2   CM2   SING  38
+2MA  CM2  1HM2  SING  39
+2MA  CM2  2HM2  SING  40
+2MA  CM2  3HM2  SING  41
+2MA  N3   C4    SING  42
+#

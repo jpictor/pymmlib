@@ -1,0 +1,71 @@
+data_OXX
+#
+_chem_comp.id                       OXX
+_chem_comp.name                     'OXALYL-ASPARTYL ANHYDRIDE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H6 N1 O7'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            204.116
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OXX  N    .  N  0   67.207  15.463  11.143  1  1 
+OXX  CA   .  C  0   66.151  14.464  11.245  1  2 
+OXX  CB   .  C  0   65.323  14.462  9.990   1  3 
+OXX  CG   .  C  0   64.345  15.602  9.960   1  4 
+OXX  OD2  .  O  0   64.327  16.486  10.823  1  5 
+OXX  OD1  .  O  0   63.451  15.646  8.811   1  6 
+OXX  C2   .  C  0   62.186  16.221  9.213   1  7 
+OXX  O3   .  O  0   61.448  15.608  9.936   1  8 
+OXX  C1   .  C  0   61.737  17.511  8.792   1  9 
+OXX  O1   .  O  -1  62.440  18.443  9.103   1  10
+OXX  O2   .  O  0   60.664  17.668  8.183   1  11
+OXX  C    .  C  0   66.696  13.078  11.349  1  12
+OXX  O    .  O  0   66.652  12.536  12.455  1  13
+OXX  O4   .  O  0   ?       ?       ?       1  14
+OXX  HO4  .  H  0   ?       ?       ?       1  15
+OXX  HA   .  H  0   ?       ?       ?       1  16
+OXX  1HN  .  H  0   ?       ?       ?       0  17
+OXX  2HN  .  H  0   ?       ?       ?       0  18
+OXX  1HB  .  H  0   ?       ?       ?       0  19
+OXX  2HB  .  H  0   ?       ?       ?       0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OXX  N    CA   SING  1 
+OXX  N    1HN  SING  2 
+OXX  N    2HN  SING  3 
+OXX  CA   C    SING  4 
+OXX  CA   HA   SING  5 
+OXX  CA   CB   SING  6 
+OXX  CB   1HB  SING  7 
+OXX  CB   2HB  SING  8 
+OXX  CB   CG   SING  9 
+OXX  CG   OD2  DOUB  10
+OXX  CG   OD1  SING  11
+OXX  OD1  C2   SING  12
+OXX  C2   O3   DOUB  13
+OXX  C2   C1   SING  14
+OXX  C1   O1   SING  15
+OXX  C1   O2   DOUB  16
+OXX  C    O4   SING  17
+OXX  C    O    DOUB  18
+OXX  O4   HO4  SING  19
+#

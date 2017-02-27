@@ -1,0 +1,112 @@
+data_LCG
+#
+_chem_comp.id                   LCG
+_chem_comp.name                 '[(1R,3R,4R,7S)-7-HYDROXY-3-(GUANIN-9-YL)-2,5-DIOXABICYCLO[2.2.1]HEPT-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C11 H14 N5 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        375.234
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LCG  P     .  P  0  -3.891  -2.803  5.998   1  1 
+LCG  O1P   .  O  0  -3.951  -1.905  7.172   1  2 
+LCG  O5*   .  O  0  -2.35   -3.199  5.735   1  3 
+LCG  C5*   .  C  0  -1.458  -3.515  6.788   1  4 
+LCG  C3*   .  C  0  .543    -2.751  5.353   1  5 
+LCG  C6*   .  C  0  1.036   -4.135  7.189   1  6 
+LCG  N9    .  N  0  .621    -4.66   3.005   1  7 
+LCG  C8    .  C  0  -.581   -4.331  2.417   1  8 
+LCG  C4    .  C  0  1.498   -4.82   1.957   1  9 
+LCG  N7    .  N  0  -.544   -4.3    1.115   1  10
+LCG  C5    .  C  0  .771    -4.627  .803    1  11
+LCG  C6    .  C  0  1.413   -4.777  -.469   1  12
+LCG  C2*   .  C  0  1.703   -3.696  5.061   1  13
+LCG  O6    .  O  0  .924    -4.659  -1.59   1  14
+LCG  C4*   .  C  0  -.095   -3.864  6.178   1  15
+LCG  C1*   .  C  0  .963    -4.885  4.435   1  16
+LCG  C2    .  C  0  3.42    -5.262  .85     1  17
+LCG  N1    .  N  0  2.763   -5.106  -.353   1  18
+LCG  O4*   .  O  0  -.183   -4.968  5.272   1  19
+LCG  O2P   .  O  0  -4.472  -2.368  4.709   1  20
+LCG  N2    .  N  0  4.718   -5.551  .79     1  21
+LCG  N3    .  N  0  2.823   -5.135  2.047   1  22
+LCG  O2*   .  O  0  2.184   -4.11   6.342   1  23
+LCG  O3*   .  O  0  .909    -1.588  6.085   1  24
+LCG  O3P   .  O  0  -4.586  -4.199  6.407   1  25
+LCG  1H5*  .  H  0  -1.835  -4.366  7.355   0  26
+LCG  2H5*  .  H  0  -1.351  -2.655  7.449   0  27
+LCG  H1*   .  H  0  1.569   -5.791  4.496   1  28
+LCG  H8    .  H  0  -1.497  -4.127  2.955   1  29
+LCG  H1    .  H  0  3.279   -5.235  -1.211  1  30
+LCG  1H2   .  H  0  5.18    -5.637  -.108   0  31
+LCG  2H2   .  H  0  5.229   -5.684  1.649   0  32
+LCG  H3*   .  H  0  -.05    -2.509  4.469   1  33
+LCG  1H2*  .  H  0  2.475   -3.281  4.415   0  34
+LCG  1H6*  .  H  0  .928    -5.075  7.741   0  35
+LCG  2H6*  .  H  0  1.099   -3.316  7.906   0  36
+LCG  H3T   .  H  0  1.306   -.895   5.571   1  37
+LCG  3HOP  .  H  0  ?       ?       ?       0  38
+LCG  2HOP  .  H  0  ?       ?       ?       0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LCG  P    O1P   DOUB  1 
+LCG  P    O2P   SING  2 
+LCG  P    O5*   SING  3 
+LCG  P    O3P   SING  4 
+LCG  O5*  C5*   SING  5 
+LCG  C5*  1H5*  SING  6 
+LCG  C5*  2H5*  SING  7 
+LCG  C5*  C4*   SING  8 
+LCG  C3*  H3*   SING  9 
+LCG  C3*  C4*   SING  10
+LCG  C3*  C2*   SING  11
+LCG  C3*  O3*   SING  12
+LCG  C6*  1H6*  SING  13
+LCG  C6*  2H6*  SING  14
+LCG  C6*  C4*   SING  15
+LCG  C6*  O2*   SING  16
+LCG  N9   C1*   SING  17
+LCG  N9   C8    SING  18
+LCG  N9   C4    SING  19
+LCG  C8   H8    SING  20
+LCG  C8   N7    DOUB  21
+LCG  C4   C5    DOUB  22
+LCG  C4   N3    SING  23
+LCG  N7   C5    SING  24
+LCG  C5   C6    SING  25
+LCG  C6   O6    DOUB  26
+LCG  C6   N1    SING  27
+LCG  C2*  1H2*  SING  28
+LCG  C2*  C1*   SING  29
+LCG  C2*  O2*   SING  30
+LCG  C4*  O4*   SING  31
+LCG  C1*  H1*   SING  32
+LCG  C1*  O4*   SING  33
+LCG  C2   N1    SING  34
+LCG  C2   N2    SING  35
+LCG  C2   N3    DOUB  36
+LCG  N1   H1    SING  37
+LCG  O2P  2HOP  SING  38
+LCG  N2   1H2   SING  39
+LCG  N2   2H2   SING  40
+LCG  O3*  H3T   SING  41
+LCG  O3P  3HOP  SING  42
+#

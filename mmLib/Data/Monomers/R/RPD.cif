@@ -1,0 +1,137 @@
+data_RPD
+#
+_chem_comp.id                   RPD
+_chem_comp.name                 '(C8-R)-HYDANTOCIDIN 5'-PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H22 N3 O13 P1'
+_chem_comp.pdbx_synonyms        '[8,9-DIHYDROXY-3-(4-CARBOXY-HYDROXY-HYDROXYMETHYL-AMINO-BUTYL)-2,4-DIOXO-6-OXA-1,3-DIAZA-SPIRO[4.4]NON-7-YLMETHYL] PHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        459.303
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RPD  O1P   .  O  0  ?  ?  ?  1  1 
+RPD  O2P   .  O  0  ?  ?  ?  1  2 
+RPD  O3P   .  O  0  ?  ?  ?  1  3 
+RPD  P     .  P  0  ?  ?  ?  1  4 
+RPD  O5*   .  O  0  ?  ?  ?  1  5 
+RPD  C5*   .  C  0  ?  ?  ?  1  6 
+RPD  C4*   .  C  0  ?  ?  ?  1  7 
+RPD  O4*   .  O  0  ?  ?  ?  1  8 
+RPD  C3*   .  C  0  ?  ?  ?  1  9 
+RPD  O3*   .  O  0  ?  ?  ?  1  10
+RPD  C2*   .  C  0  ?  ?  ?  1  11
+RPD  O2*   .  O  0  ?  ?  ?  1  12
+RPD  C1*   .  C  0  ?  ?  ?  1  13
+RPD  N1    .  N  0  ?  ?  ?  1  14
+RPD  C2    .  C  0  ?  ?  ?  1  15
+RPD  O2    .  O  0  ?  ?  ?  1  16
+RPD  N3    .  N  0  ?  ?  ?  1  17
+RPD  C4    .  C  0  ?  ?  ?  1  18
+RPD  O4    .  O  0  ?  ?  ?  1  19
+RPD  C5A   .  C  0  ?  ?  ?  1  20
+RPD  C6A   .  C  0  ?  ?  ?  1  21
+RPD  C7A   .  C  0  ?  ?  ?  1  22
+RPD  C8A   .  C  0  ?  ?  ?  1  23
+RPD  C9A   .  C  0  ?  ?  ?  1  24
+RPD  O91A  .  O  0  ?  ?  ?  0  25
+RPD  O92A  .  O  0  ?  ?  ?  0  26
+RPD  N10A  .  N  0  ?  ?  ?  0  27
+RPD  O10A  .  O  0  ?  ?  ?  0  28
+RPD  C11A  .  C  0  ?  ?  ?  0  29
+RPD  O11A  .  O  0  ?  ?  ?  0  30
+RPD  HO2P  .  H  0  ?  ?  ?  0  31
+RPD  HO3P  .  H  0  ?  ?  ?  0  32
+RPD  1H5*  .  H  0  ?  ?  ?  0  33
+RPD  2H5*  .  H  0  ?  ?  ?  0  34
+RPD  H4    .  H  0  ?  ?  ?  1  35
+RPD  H3    .  H  0  ?  ?  ?  1  36
+RPD  H2    .  H  0  ?  ?  ?  1  37
+RPD  HO2*  .  H  0  ?  ?  ?  0  38
+RPD  HO3*  .  H  0  ?  ?  ?  0  39
+RPD  HN1   .  H  0  ?  ?  ?  1  40
+RPD  1H5   .  H  0  ?  ?  ?  0  41
+RPD  2H5   .  H  0  ?  ?  ?  0  42
+RPD  1H6   .  H  0  ?  ?  ?  0  43
+RPD  2H6   .  H  0  ?  ?  ?  0  44
+RPD  1H7   .  H  0  ?  ?  ?  0  45
+RPD  2H7   .  H  0  ?  ?  ?  0  46
+RPD  1H8   .  H  0  ?  ?  ?  0  47
+RPD  H91   .  H  0  ?  ?  ?  1  48
+RPD  H10   .  H  0  ?  ?  ?  1  49
+RPD  1H11  .  H  0  ?  ?  ?  0  50
+RPD  2H11  .  H  0  ?  ?  ?  0  51
+RPD  H11   .  H  0  ?  ?  ?  1  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RPD  O1P   P     DOUB  1 
+RPD  O2P   P     SING  2 
+RPD  O2P   HO2P  SING  3 
+RPD  O3P   P     SING  4 
+RPD  O3P   HO3P  SING  5 
+RPD  P     O5*   SING  6 
+RPD  O5*   C5*   SING  7 
+RPD  C5*   C4*   SING  8 
+RPD  C5*   1H5*  SING  9 
+RPD  C5*   2H5*  SING  10
+RPD  C4*   O4*   SING  11
+RPD  C4*   C3*   SING  12
+RPD  C4*   H4    SING  13
+RPD  O4*   C1*   SING  14
+RPD  C3*   O3*   SING  15
+RPD  C3*   C2*   SING  16
+RPD  C3*   H3    SING  17
+RPD  O3*   HO3*  SING  18
+RPD  C2*   O2*   SING  19
+RPD  C2*   C1*   SING  20
+RPD  C2*   H2    SING  21
+RPD  O2*   HO2*  SING  22
+RPD  C1*   N1    SING  23
+RPD  C1*   C4    SING  24
+RPD  N1    C2    SING  25
+RPD  N1    HN1   SING  26
+RPD  C2    O2    DOUB  27
+RPD  C2    N3    SING  28
+RPD  N3    C4    SING  29
+RPD  N3    C5A   SING  30
+RPD  C4    O4    DOUB  31
+RPD  C5A   C6A   SING  32
+RPD  C5A   1H5   SING  33
+RPD  C5A   2H5   SING  34
+RPD  C6A   C7A   SING  35
+RPD  C6A   1H6   SING  36
+RPD  C6A   2H6   SING  37
+RPD  C7A   C8A   SING  38
+RPD  C7A   1H7   SING  39
+RPD  C7A   2H7   SING  40
+RPD  C8A   C9A   SING  41
+RPD  C8A   N10A  SING  42
+RPD  C8A   1H8   SING  43
+RPD  C9A   O91A  SING  44
+RPD  C9A   O92A  DOUB  45
+RPD  O91A  H91   SING  46
+RPD  N10A  O10A  SING  47
+RPD  N10A  C11A  SING  48
+RPD  O10A  H10   SING  49
+RPD  C11A  O11A  SING  50
+RPD  C11A  1H11  SING  51
+RPD  C11A  2H11  SING  52
+RPD  O11A  H11   SING  53
+#

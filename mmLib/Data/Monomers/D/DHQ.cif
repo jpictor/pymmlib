@@ -1,0 +1,78 @@
+data_DHQ
+#
+_chem_comp.id                   DHQ
+_chem_comp.name                 3,4-DIHYDRO-5-METHYL-ISOQUINOLINONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        161.203
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHQ  C1   .  C  0  ?  ?  ?  1  1 
+DHQ  O    .  O  0  ?  ?  ?  1  2 
+DHQ  N2   .  N  0  ?  ?  ?  1  3 
+DHQ  C3   .  C  0  ?  ?  ?  1  4 
+DHQ  C4   .  C  0  ?  ?  ?  1  5 
+DHQ  C4A  .  C  0  ?  ?  ?  1  6 
+DHQ  C5   .  C  0  ?  ?  ?  1  7 
+DHQ  C6   .  C  0  ?  ?  ?  1  8 
+DHQ  C7   .  C  0  ?  ?  ?  1  9 
+DHQ  C8   .  C  0  ?  ?  ?  1  10
+DHQ  C8A  .  C  0  ?  ?  ?  1  11
+DHQ  C9   .  C  0  ?  ?  ?  1  12
+DHQ  HN2  .  H  0  ?  ?  ?  1  13
+DHQ  1H3  .  H  0  ?  ?  ?  0  14
+DHQ  2H3  .  H  0  ?  ?  ?  0  15
+DHQ  1H4  .  H  0  ?  ?  ?  0  16
+DHQ  2H4  .  H  0  ?  ?  ?  0  17
+DHQ  H6   .  H  0  ?  ?  ?  1  18
+DHQ  H7   .  H  0  ?  ?  ?  1  19
+DHQ  H8   .  H  0  ?  ?  ?  1  20
+DHQ  1H9  .  H  0  ?  ?  ?  0  21
+DHQ  2H9  .  H  0  ?  ?  ?  0  22
+DHQ  3H9  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHQ  C1   N2   SING  1 
+DHQ  C1   C8A  SING  2 
+DHQ  C1   O    DOUB  3 
+DHQ  N2   C3   SING  4 
+DHQ  N2   HN2  SING  5 
+DHQ  C3   C4   SING  6 
+DHQ  C3   1H3  SING  7 
+DHQ  C3   2H3  SING  8 
+DHQ  C4   C4A  SING  9 
+DHQ  C4   1H4  SING  10
+DHQ  C4   2H4  SING  11
+DHQ  C4A  C5   DOUB  12
+DHQ  C4A  C8A  SING  13
+DHQ  C5   C6   SING  14
+DHQ  C5   C9   SING  15
+DHQ  C6   C7   DOUB  16
+DHQ  C6   H6   SING  17
+DHQ  C7   C8   SING  18
+DHQ  C7   H7   SING  19
+DHQ  C8   C8A  DOUB  20
+DHQ  C8   H8   SING  21
+DHQ  C9   1H9  SING  22
+DHQ  C9   2H9  SING  23
+DHQ  C9   3H9  SING  24
+#

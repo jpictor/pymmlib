@@ -1,0 +1,146 @@
+data_MIA
+#
+_chem_comp.id                       MIA
+_chem_comp.name                     2-METHYLTHIO-N6-ISOPENTENYL-ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C16 H26 N5 O7 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            463.444
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MIA  O3P   .  O  0  ?  ?  ?  1  1 
+MIA  P     .  P  0  ?  ?  ?  1  2 
+MIA  O1P   .  O  0  ?  ?  ?  1  3 
+MIA  O2P   .  O  0  ?  ?  ?  1  4 
+MIA  O5*   .  O  0  ?  ?  ?  1  5 
+MIA  C5*   .  C  0  ?  ?  ?  1  6 
+MIA  C4*   .  C  0  ?  ?  ?  1  7 
+MIA  O4*   .  O  0  ?  ?  ?  1  8 
+MIA  C3*   .  C  0  ?  ?  ?  1  9 
+MIA  O3*   .  O  0  ?  ?  ?  1  10
+MIA  C2*   .  C  0  ?  ?  ?  1  11
+MIA  O2*   .  O  0  ?  ?  ?  1  12
+MIA  C1*   .  C  0  ?  ?  ?  1  13
+MIA  N9    .  N  0  ?  ?  ?  1  14
+MIA  C8    .  C  0  ?  ?  ?  1  15
+MIA  N7    .  N  0  ?  ?  ?  1  16
+MIA  C5    .  C  0  ?  ?  ?  1  17
+MIA  C6    .  C  0  ?  ?  ?  1  18
+MIA  N6    .  N  0  ?  ?  ?  1  19
+MIA  N1    .  N  0  ?  ?  ?  1  20
+MIA  C2    .  C  0  ?  ?  ?  1  21
+MIA  N3    .  N  0  ?  ?  ?  1  22
+MIA  C4    .  C  0  ?  ?  ?  1  23
+MIA  S10   .  S  0  ?  ?  ?  1  24
+MIA  C11   .  C  0  ?  ?  ?  1  25
+MIA  C12   .  C  0  ?  ?  ?  1  26
+MIA  C13   .  C  0  ?  ?  ?  1  27
+MIA  C14   .  C  0  ?  ?  ?  1  28
+MIA  C15   .  C  0  ?  ?  ?  1  29
+MIA  C16   .  C  0  ?  ?  ?  1  30
+MIA  3HOP  .  H  0  ?  ?  ?  0  31
+MIA  2HOP  .  H  0  ?  ?  ?  0  32
+MIA  1H5*  .  H  0  ?  ?  ?  0  33
+MIA  2H5*  .  H  0  ?  ?  ?  0  34
+MIA  H4*   .  H  0  ?  ?  ?  1  35
+MIA  H3*   .  H  0  ?  ?  ?  1  36
+MIA  H3T   .  H  0  ?  ?  ?  1  37
+MIA  H2*   .  H  0  ?  ?  ?  1  38
+MIA  2HO*  .  H  0  ?  ?  ?  0  39
+MIA  H1*   .  H  0  ?  ?  ?  1  40
+MIA  H8    .  H  0  ?  ?  ?  1  41
+MIA  1H11  .  H  0  ?  ?  ?  0  42
+MIA  2H11  .  H  0  ?  ?  ?  0  43
+MIA  3H11  .  H  0  ?  ?  ?  0  44
+MIA  HN6   .  H  0  ?  ?  ?  1  45
+MIA  1H12  .  H  0  ?  ?  ?  0  46
+MIA  2H12  .  H  0  ?  ?  ?  0  47
+MIA  1H13  .  H  0  ?  ?  ?  0  48
+MIA  2H13  .  H  0  ?  ?  ?  0  49
+MIA  H14   .  H  0  ?  ?  ?  1  50
+MIA  1H15  .  H  0  ?  ?  ?  0  51
+MIA  2H15  .  H  0  ?  ?  ?  0  52
+MIA  3H15  .  H  0  ?  ?  ?  0  53
+MIA  1H16  .  H  0  ?  ?  ?  0  54
+MIA  2H16  .  H  0  ?  ?  ?  0  55
+MIA  3H16  .  H  0  ?  ?  ?  0  56
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MIA  O3P  P     SING  1 
+MIA  O3P  3HOP  SING  2 
+MIA  P    O1P   DOUB  3 
+MIA  P    O2P   SING  4 
+MIA  P    O5*   SING  5 
+MIA  O2P  2HOP  SING  6 
+MIA  O5*  C5*   SING  7 
+MIA  C5*  C4*   SING  8 
+MIA  C5*  1H5*  SING  9 
+MIA  C5*  2H5*  SING  10
+MIA  C4*  O4*   SING  11
+MIA  C4*  C3*   SING  12
+MIA  C4*  H4*   SING  13
+MIA  O4*  C1*   SING  14
+MIA  C3*  C2*   SING  15
+MIA  C3*  O3*   SING  16
+MIA  C3*  H3*   SING  17
+MIA  O3*  H3T   SING  18
+MIA  C2*  C1*   SING  19
+MIA  C2*  O2*   SING  20
+MIA  C2*  H2*   SING  21
+MIA  O2*  2HO*  SING  22
+MIA  C1*  N9    SING  23
+MIA  C1*  H1*   SING  24
+MIA  N9   C4    SING  25
+MIA  N9   C8    SING  26
+MIA  C8   H8    SING  27
+MIA  C8   N7    DOUB  28
+MIA  N7   C5    SING  29
+MIA  C5   C4    DOUB  30
+MIA  C5   C6    SING  31
+MIA  C6   N1    DOUB  32
+MIA  C6   N6    SING  33
+MIA  N6   C12   SING  34
+MIA  N6   HN6   SING  35
+MIA  N1   C2    SING  36
+MIA  C2   N3    DOUB  37
+MIA  C2   S10   SING  38
+MIA  N3   C4    SING  39
+MIA  S10  C11   SING  40
+MIA  C11  1H11  SING  41
+MIA  C11  2H11  SING  42
+MIA  C11  3H11  SING  43
+MIA  C12  C13   SING  44
+MIA  C12  1H12  SING  45
+MIA  C12  2H12  SING  46
+MIA  C13  C14   SING  47
+MIA  C13  1H13  SING  48
+MIA  C13  2H13  SING  49
+MIA  C14  C15   SING  50
+MIA  C14  C16   SING  51
+MIA  C14  H14   SING  52
+MIA  C15  1H15  SING  53
+MIA  C15  2H15  SING  54
+MIA  C15  3H15  SING  55
+MIA  C16  1H16  SING  56
+MIA  C16  2H16  SING  57
+MIA  C16  3H16  SING  58
+#

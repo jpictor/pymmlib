@@ -1,0 +1,66 @@
+data_FKI
+#
+_chem_comp.id                   FKI
+_chem_comp.name                 '5,5-DI-FLUORO-2-KETO-3-AMINOPENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 N1 O3 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FKI  N    .  N  0  ?  ?  ?  1  1 
+FKI  CA   .  C  0  ?  ?  ?  1  2 
+FKI  C    .  C  0  ?  ?  ?  1  3 
+FKI  O    .  O  0  ?  ?  ?  1  4 
+FKI  CB   .  C  0  ?  ?  ?  1  5 
+FKI  CG   .  C  0  ?  ?  ?  1  6 
+FKI  F1   .  F  0  ?  ?  ?  1  7 
+FKI  F2   .  F  0  ?  ?  ?  1  8 
+FKI  CD   .  C  0  ?  ?  ?  1  9 
+FKI  OE1  .  O  0  ?  ?  ?  1  10
+FKI  OE2  .  O  0  ?  ?  ?  1  11
+FKI  2H   .  H  0  ?  ?  ?  0  12
+FKI  1H   .  H  0  ?  ?  ?  0  13
+FKI  HA   .  H  0  ?  ?  ?  1  14
+FKI  2HB  .  H  0  ?  ?  ?  0  15
+FKI  1HB  .  H  0  ?  ?  ?  0  16
+FKI  HG   .  H  0  ?  ?  ?  1  17
+FKI  HE1  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FKI  N    CA   SING  1 
+FKI  N    2H   SING  2 
+FKI  N    1H   SING  3 
+FKI  CA   C    SING  4 
+FKI  CA   CB   SING  5 
+FKI  CA   HA   SING  6 
+FKI  C    O    DOUB  7 
+FKI  C    CD   SING  8 
+FKI  CB   CG   SING  9 
+FKI  CB   2HB  SING  10
+FKI  CB   1HB  SING  11
+FKI  CG   F1   SING  12
+FKI  CG   F2   SING  13
+FKI  CG   HG   SING  14
+FKI  CD   OE1  SING  15
+FKI  CD   OE2  DOUB  16
+FKI  OE1  HE1  SING  17
+#

@@ -1,0 +1,78 @@
+data_GLO
+#
+_chem_comp.id                   GLO
+_chem_comp.name                 'D-GLUCOSE IN LINEAR FORM'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLO  C1   .  C  0  ?  ?  ?  1  1 
+GLO  C2   .  C  0  ?  ?  ?  1  2 
+GLO  C3   .  C  0  ?  ?  ?  1  3 
+GLO  C4   .  C  0  ?  ?  ?  1  4 
+GLO  C5   .  C  0  ?  ?  ?  1  5 
+GLO  C6   .  C  0  ?  ?  ?  1  6 
+GLO  O1   .  O  0  ?  ?  ?  1  7 
+GLO  O2   .  O  0  ?  ?  ?  1  8 
+GLO  O3   .  O  0  ?  ?  ?  1  9 
+GLO  O4   .  O  0  ?  ?  ?  1  10
+GLO  O5   .  O  0  ?  ?  ?  1  11
+GLO  O6   .  O  0  ?  ?  ?  1  12
+GLO  H1   .  H  0  ?  ?  ?  1  13
+GLO  H2   .  H  0  ?  ?  ?  1  14
+GLO  H3   .  H  0  ?  ?  ?  1  15
+GLO  H4   .  H  0  ?  ?  ?  1  16
+GLO  H5   .  H  0  ?  ?  ?  1  17
+GLO  1H6  .  H  0  ?  ?  ?  0  18
+GLO  2H6  .  H  0  ?  ?  ?  0  19
+GLO  HO2  .  H  0  ?  ?  ?  1  20
+GLO  HO3  .  H  0  ?  ?  ?  1  21
+GLO  HO4  .  H  0  ?  ?  ?  1  22
+GLO  HO5  .  H  0  ?  ?  ?  1  23
+GLO  HO6  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLO  C1  C2   SING  1 
+GLO  C1  O1   DOUB  2 
+GLO  C1  H1   SING  3 
+GLO  C2  C3   SING  4 
+GLO  C2  O2   SING  5 
+GLO  C2  H2   SING  6 
+GLO  C3  C4   SING  7 
+GLO  C3  O3   SING  8 
+GLO  C3  H3   SING  9 
+GLO  C4  C5   SING  10
+GLO  C4  O4   SING  11
+GLO  C4  H4   SING  12
+GLO  C5  C6   SING  13
+GLO  C5  O5   SING  14
+GLO  C5  H5   SING  15
+GLO  C6  O6   SING  16
+GLO  C6  1H6  SING  17
+GLO  C6  2H6  SING  18
+GLO  O2  HO2  SING  19
+GLO  O3  HO3  SING  20
+GLO  O4  HO4  SING  21
+GLO  O5  HO5  SING  22
+GLO  O6  HO6  SING  23
+#

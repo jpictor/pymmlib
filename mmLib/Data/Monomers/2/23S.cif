@@ -1,0 +1,80 @@
+data_23S
+#
+_chem_comp.id                   23S
+_chem_comp.name                 '(S)-2-AMINO-3-(6H-SELENOLO[2,3-B]-PYRROL-4-YL)-PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 N2 O2 SE1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        257.150
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+23S  CD2  .  C   0  21.262  33.579  26.860  1  1 
+23S  CE2  .  C   0  21.373  32.273  26.532  1  2 
+23S  NE1  .  N   0  22.671  32.032  26.224  1  3 
+23S  CD1  .  C   0  23.402  33.175  26.354  1  4 
+23S  CG   .  C   0  22.558  34.160  26.755  1  5 
+23S  SEL  .  SE  0  19.751  31.366  26.631  0  6 
+23S  CZ2  .  C   0  19.011  32.976  27.146  1  7 
+23S  CZ3  .  C   0  19.955  33.960  27.198  1  8 
+23S  CB   .  C   0  22.915  35.586  27.019  1  9 
+23S  CA   .  C   0  23.016  36.169  28.459  1  10
+23S  N    .  N   0  23.269  37.554  28.178  1  11
+23S  C    .  C   0  24.145  35.610  29.357  1  12
+23S  O    .  O   0  23.899  34.733  30.176  1  13
+23S  OXT  .  O   0  ?       ?       ?       1  14
+23S  HXT  .  H   0  ?       ?       ?       1  15
+23S  HA   .  H   0  ?       ?       ?       1  16
+23S  1HB  .  H   0  ?       ?       ?       0  17
+23S  2HB  .  H   0  ?       ?       ?       0  18
+23S  HD1  .  H   0  ?       ?       ?       1  19
+23S  HE1  .  H   0  ?       ?       ?       1  20
+23S  HZ2  .  H   0  ?       ?       ?       1  21
+23S  HZ3  .  H   0  ?       ?       ?       1  22
+23S  H    .  H   0  ?       ?       ?       1  23
+23S  HN2  .  H   0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+23S  CD2  CE2  DOUB  1 
+23S  CD2  CG   SING  2 
+23S  CD2  CZ3  SING  3 
+23S  CE2  NE1  SING  4 
+23S  CE2  SEL  SING  5 
+23S  NE1  CD1  SING  6 
+23S  NE1  HE1  SING  7 
+23S  CD1  CG   DOUB  8 
+23S  CD1  HD1  SING  9 
+23S  CG   CB   SING  10
+23S  SEL  CZ2  SING  11
+23S  CZ2  CZ3  DOUB  12
+23S  CZ2  HZ2  SING  13
+23S  CZ3  HZ3  SING  14
+23S  CB   CA   SING  15
+23S  CB   1HB  SING  16
+23S  CB   2HB  SING  17
+23S  CA   N    SING  18
+23S  CA   C    SING  19
+23S  CA   HA   SING  20
+23S  N    H    SING  21
+23S  N    HN2  SING  22
+23S  C    O    DOUB  23
+23S  C    OXT  SING  24
+23S  OXT  HXT  SING  25
+#

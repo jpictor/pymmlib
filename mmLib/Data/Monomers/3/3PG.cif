@@ -1,0 +1,66 @@
+data_3PG
+#
+_chem_comp.id                   3PG
+_chem_comp.name                 '3-PHOSPHOGLYCERIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.058
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3PG  C1    .  C  0  ?  ?  ?  1  1 
+3PG  O1    .  O  0  ?  ?  ?  1  2 
+3PG  O2    .  O  0  ?  ?  ?  1  3 
+3PG  C2    .  C  0  ?  ?  ?  1  4 
+3PG  O3    .  O  0  ?  ?  ?  1  5 
+3PG  C3    .  C  0  ?  ?  ?  1  6 
+3PG  O1P   .  O  0  ?  ?  ?  1  7 
+3PG  P     .  P  0  ?  ?  ?  1  8 
+3PG  O2P   .  O  0  ?  ?  ?  1  9 
+3PG  O3P   .  O  0  ?  ?  ?  1  10
+3PG  O4P   .  O  0  ?  ?  ?  1  11
+3PG  HO2   .  H  0  ?  ?  ?  1  12
+3PG  H2    .  H  0  ?  ?  ?  1  13
+3PG  HO3   .  H  0  ?  ?  ?  1  14
+3PG  1H3   .  H  0  ?  ?  ?  0  15
+3PG  2H3   .  H  0  ?  ?  ?  0  16
+3PG  3HOP  .  H  0  ?  ?  ?  0  17
+3PG  4HOP  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3PG  C1   C2    SING  1 
+3PG  C1   O1    DOUB  2 
+3PG  C1   O2    SING  3 
+3PG  O2   HO2   SING  4 
+3PG  C2   C3    SING  5 
+3PG  C2   O3    SING  6 
+3PG  C2   H2    SING  7 
+3PG  O3   HO3   SING  8 
+3PG  C3   O1P   SING  9 
+3PG  C3   1H3   SING  10
+3PG  C3   2H3   SING  11
+3PG  O1P  P     SING  12
+3PG  P    O2P   DOUB  13
+3PG  P    O3P   SING  14
+3PG  P    O4P   SING  15
+3PG  O3P  3HOP  SING  16
+3PG  O4P  4HOP  SING  17
+#

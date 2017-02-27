@@ -1,0 +1,106 @@
+data_OBI
+#
+_chem_comp.id                   OBI
+_chem_comp.name                 1,1'-(OXYDIMETHYLENE)BIS(4-FORMYLPYRIDINIUM)DIOXIME
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N4 O3'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       288.305
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OBI  O3   .  O  0  26.191  20.272  11.219  1  1 
+OBI  N4   .  N  0  27.381  20.999  11.255  1  2 
+OBI  C14  .  C  0  28.081  21.144  10.220  1  3 
+OBI  C11  .  C  0  29.358  21.905  10.215  1  4 
+OBI  C10  .  C  0  29.815  22.561  11.353  1  5 
+OBI  C9   .  C  0  31.011  23.270  11.292  1  6 
+OBI  C12  .  C  0  30.120  21.964  9.053   1  7 
+OBI  C13  .  C  0  31.321  22.675  9.052   1  8 
+OBI  N3   .  N  1  31.722  23.316  10.157  1  9 
+OBI  C8   .  C  0  32.975  24.052  10.127  1  10
+OBI  O2   .  O  0  33.863  23.143  9.502   1  11
+OBI  C7   .  C  0  34.854  23.799  8.742   1  12
+OBI  N2   .  N  1  36.081  23.685  9.510   1  13
+OBI  C4   .  C  0  36.222  22.681  10.388  1  14
+OBI  C3   .  C  0  37.391  22.555  11.126  1  15
+OBI  C5   .  C  0  37.028  24.601  9.296   1  16
+OBI  C6   .  C  0  38.220  24.529  10.004  1  17
+OBI  C2   .  C  0  38.401  23.490  10.916  1  18
+OBI  C1   .  C  0  39.666  23.447  11.657  1  19
+OBI  N1   .  N  0  39.779  22.734  12.672  1  20
+OBI  O1   .  O  0  40.984  22.772  13.369  1  21
+OBI  HO3  .  H  0  ?       ?       ?       1  22
+OBI  H14  .  H  0  ?       ?       ?       1  23
+OBI  H12  .  H  0  ?       ?       ?       1  24
+OBI  H13  .  H  0  ?       ?       ?       1  25
+OBI  H9   .  H  0  ?       ?       ?       1  26
+OBI  H10  .  H  0  ?       ?       ?       1  27
+OBI  1H8  .  H  0  ?       ?       ?       0  28
+OBI  2H8  .  H  0  ?       ?       ?       0  29
+OBI  1H7  .  H  0  ?       ?       ?       0  30
+OBI  2H7  .  H  0  ?       ?       ?       0  31
+OBI  H5   .  H  0  ?       ?       ?       1  32
+OBI  H6   .  H  0  ?       ?       ?       1  33
+OBI  H3   .  H  0  ?       ?       ?       1  34
+OBI  H4   .  H  0  ?       ?       ?       1  35
+OBI  H1   .  H  0  ?       ?       ?       1  36
+OBI  HO1  .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OBI  O3   N4   SING  1 
+OBI  O3   HO3  SING  2 
+OBI  N4   C14  DOUB  3 
+OBI  C14  C11  SING  4 
+OBI  C14  H14  SING  5 
+OBI  C11  C12  SING  6 
+OBI  C11  C10  DOUB  7 
+OBI  C10  C9   SING  8 
+OBI  C10  H10  SING  9 
+OBI  C9   N3   DOUB  10
+OBI  C9   H9   SING  11
+OBI  C12  C13  DOUB  12
+OBI  C12  H12  SING  13
+OBI  C13  N3   SING  14
+OBI  C13  H13  SING  15
+OBI  N3   C8   SING  16
+OBI  C8   O2   SING  17
+OBI  C8   1H8  SING  18
+OBI  C8   2H8  SING  19
+OBI  O2   C7   SING  20
+OBI  C7   N2   SING  21
+OBI  C7   1H7  SING  22
+OBI  C7   2H7  SING  23
+OBI  N2   C5   DOUB  24
+OBI  N2   C4   SING  25
+OBI  C4   C3   DOUB  26
+OBI  C4   H4   SING  27
+OBI  C3   C2   SING  28
+OBI  C3   H3   SING  29
+OBI  C5   C6   SING  30
+OBI  C5   H5   SING  31
+OBI  C6   C2   DOUB  32
+OBI  C6   H6   SING  33
+OBI  C2   C1   SING  34
+OBI  C1   N1   DOUB  35
+OBI  C1   H1   SING  36
+OBI  N1   O1   SING  37
+OBI  O1   HO1  SING  38
+#

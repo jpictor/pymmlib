@@ -1,0 +1,117 @@
+data_MNA
+#
+_chem_comp.id                   MNA
+_chem_comp.name                 '2-O-METHYL-5-N-ACETYL-ALPHA-D- NEURAMINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H21 N1 O9'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        323.299
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MNA  C1    .  C  0  ?  ?  ?  1  1 
+MNA  C2    .  C  0  ?  ?  ?  1  2 
+MNA  C3    .  C  0  ?  ?  ?  1  3 
+MNA  C4    .  C  0  ?  ?  ?  1  4 
+MNA  C5    .  C  0  ?  ?  ?  1  5 
+MNA  C6    .  C  0  ?  ?  ?  1  6 
+MNA  C7    .  C  0  ?  ?  ?  1  7 
+MNA  C8    .  C  0  ?  ?  ?  1  8 
+MNA  C9    .  C  0  ?  ?  ?  1  9 
+MNA  C10   .  C  0  ?  ?  ?  1  10
+MNA  C11   .  C  0  ?  ?  ?  1  11
+MNA  C12   .  C  0  ?  ?  ?  1  12
+MNA  N5    .  N  0  ?  ?  ?  1  13
+MNA  O1A   .  O  0  ?  ?  ?  1  14
+MNA  O1B   .  O  0  ?  ?  ?  1  15
+MNA  O2    .  O  0  ?  ?  ?  1  16
+MNA  O4    .  O  0  ?  ?  ?  1  17
+MNA  O6    .  O  0  ?  ?  ?  1  18
+MNA  O7    .  O  0  ?  ?  ?  1  19
+MNA  O8    .  O  0  ?  ?  ?  1  20
+MNA  O9    .  O  0  ?  ?  ?  1  21
+MNA  O10   .  O  0  ?  ?  ?  1  22
+MNA  1H3   .  H  0  ?  ?  ?  0  23
+MNA  2H3   .  H  0  ?  ?  ?  0  24
+MNA  H4    .  H  0  ?  ?  ?  1  25
+MNA  H5    .  H  0  ?  ?  ?  1  26
+MNA  H6    .  H  0  ?  ?  ?  1  27
+MNA  H7    .  H  0  ?  ?  ?  1  28
+MNA  H8    .  H  0  ?  ?  ?  1  29
+MNA  1H9   .  H  0  ?  ?  ?  0  30
+MNA  2H9   .  H  0  ?  ?  ?  0  31
+MNA  1H11  .  H  0  ?  ?  ?  0  32
+MNA  2H11  .  H  0  ?  ?  ?  0  33
+MNA  3H11  .  H  0  ?  ?  ?  0  34
+MNA  1H12  .  H  0  ?  ?  ?  0  35
+MNA  2H12  .  H  0  ?  ?  ?  0  36
+MNA  3H12  .  H  0  ?  ?  ?  0  37
+MNA  HN5   .  H  0  ?  ?  ?  1  38
+MNA  1HOB  .  H  0  ?  ?  ?  0  39
+MNA  HO4   .  H  0  ?  ?  ?  1  40
+MNA  HO7   .  H  0  ?  ?  ?  1  41
+MNA  HO8   .  H  0  ?  ?  ?  1  42
+MNA  HO9   .  H  0  ?  ?  ?  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MNA  C1   C2    SING  1 
+MNA  C1   O1A   DOUB  2 
+MNA  C1   O1B   SING  3 
+MNA  C2   C3    SING  4 
+MNA  C2   O6    SING  5 
+MNA  C2   O2    SING  6 
+MNA  C3   C4    SING  7 
+MNA  C3   1H3   SING  8 
+MNA  C3   2H3   SING  9 
+MNA  C4   C5    SING  10
+MNA  C4   O4    SING  11
+MNA  C4   H4    SING  12
+MNA  C5   C6    SING  13
+MNA  C5   N5    SING  14
+MNA  C5   H5    SING  15
+MNA  C6   C7    SING  16
+MNA  C6   O6    SING  17
+MNA  C6   H6    SING  18
+MNA  C7   C8    SING  19
+MNA  C7   O7    SING  20
+MNA  C7   H7    SING  21
+MNA  C8   C9    SING  22
+MNA  C8   O8    SING  23
+MNA  C8   H8    SING  24
+MNA  C9   O9    SING  25
+MNA  C9   1H9   SING  26
+MNA  C9   2H9   SING  27
+MNA  C10  C11   SING  28
+MNA  C10  N5    SING  29
+MNA  C10  O10   DOUB  30
+MNA  C11  1H11  SING  31
+MNA  C11  2H11  SING  32
+MNA  C11  3H11  SING  33
+MNA  C12  O2    SING  34
+MNA  C12  1H12  SING  35
+MNA  C12  2H12  SING  36
+MNA  C12  3H12  SING  37
+MNA  N5   HN5   SING  38
+MNA  O1B  1HOB  SING  39
+MNA  O4   HO4   SING  40
+MNA  O7   HO7   SING  41
+MNA  O8   HO8   SING  42
+MNA  O9   HO9   SING  43
+#

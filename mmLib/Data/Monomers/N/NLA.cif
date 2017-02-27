@@ -1,0 +1,80 @@
+data_NLA
+#
+_chem_comp.id                   NLA
+_chem_comp.name                 'NAPHTHALEN-1-YL-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        186.210
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NLA  C1    .  C  0  9.652   57.448  63.622  1  1 
+NLA  C2    .  C  0  10.773  56.901  62.980  1  2 
+NLA  C3    .  C  0  10.790  56.728  61.575  1  3 
+NLA  C4    .  C  0  9.673   57.164  60.811  1  4 
+NLA  C5    .  C  0  8.593   57.726  61.414  1  5 
+NLA  C6    .  C  0  8.528   57.886  62.806  1  6 
+NLA  C7    .  C  0  7.371   58.455  63.474  1  7 
+NLA  C8    .  C  0  7.346   58.589  64.844  1  8 
+NLA  C9    .  C  0  8.452   58.185  65.629  1  9 
+NLA  C10   .  C  0  9.593   57.639  65.059  1  10
+NLA  C11   .  C  0  12.019  56.410  63.813  1  11
+NLA  C12   .  C  0  12.540  55.132  63.235  1  12
+NLA  O1    .  O  0  12.115  53.918  63.471  1  13
+NLA  O2    .  O  0  13.475  55.389  62.351  1  14
+NLA  H     .  H  0  ?       ?       ?       1  15
+NLA  1H3   .  H  0  ?       ?       ?       0  16
+NLA  1H4   .  H  0  ?       ?       ?       0  17
+NLA  1H5   .  H  0  ?       ?       ?       0  18
+NLA  1H7   .  H  0  ?       ?       ?       0  19
+NLA  1H8   .  H  0  ?       ?       ?       0  20
+NLA  1H9   .  H  0  ?       ?       ?       0  21
+NLA  1H10  .  H  0  ?       ?       ?       0  22
+NLA  1H11  .  H  0  ?       ?       ?       0  23
+NLA  2H11  .  H  0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NLA  C1   C2    AROM  1 
+NLA  C1   C6    AROM  2 
+NLA  C1   C10   AROM  3 
+NLA  C2   C3    AROM  4 
+NLA  C2   C11   SING  5 
+NLA  C3   C4    AROM  6 
+NLA  C3   1H3   SING  7 
+NLA  C4   C5    AROM  8 
+NLA  C4   1H4   SING  9 
+NLA  C5   C6    AROM  10
+NLA  C5   1H5   SING  11
+NLA  C6   C7    AROM  12
+NLA  C7   C8    AROM  13
+NLA  C7   1H7   SING  14
+NLA  C8   C9    AROM  15
+NLA  C8   1H8   SING  16
+NLA  C9   C10   AROM  17
+NLA  C9   1H9   SING  18
+NLA  C10  1H10  SING  19
+NLA  C11  C12   SING  20
+NLA  C11  1H11  SING  21
+NLA  C11  2H11  SING  22
+NLA  C12  O1    DOUB  23
+NLA  C12  O2    SING  24
+NLA  O2   H     SING  25
+#

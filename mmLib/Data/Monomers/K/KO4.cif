@@ -1,0 +1,56 @@
+data_KO4
+#
+_chem_comp.id                   KO4
+_chem_comp.name                 'POTASSIUM ION, 4 WATERS COORDINATED'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H8 O4 K1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       111.159
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KO4  K    .  K  0  126.046  18.669  2.953  1  1 
+KO4  O1   .  O  0  123.740  19.829  3.170  1  2 
+KO4  O2   .  O  0  127.356  17.016  1.091  1  3 
+KO4  O3   .  O  0  128.267  17.731  3.781  1  4 
+KO4  O4   .  O  0  125.444  19.449  0.334  1  5 
+KO4  1H1  .  H  0  ?        ?       ?      0  6 
+KO4  2H1  .  H  0  ?        ?       ?      0  7 
+KO4  1H2  .  H  0  ?        ?       ?      0  8 
+KO4  2H2  .  H  0  ?        ?       ?      0  9 
+KO4  1H3  .  H  0  ?        ?       ?      0  10
+KO4  2H3  .  H  0  ?        ?       ?      0  11
+KO4  1H4  .  H  0  ?        ?       ?      0  12
+KO4  2H4  .  H  0  ?        ?       ?      0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KO4  K   O1   SING  1 
+KO4  K   O2   SING  2 
+KO4  K   O3   SING  3 
+KO4  K   O4   SING  4 
+KO4  O1  1H1  SING  5 
+KO4  O1  2H1  SING  6 
+KO4  O2  1H2  SING  7 
+KO4  O2  2H2  SING  8 
+KO4  O3  1H3  SING  9 
+KO4  O3  2H3  SING  10
+KO4  O4  1H4  SING  11
+KO4  O4  2H4  SING  12
+#

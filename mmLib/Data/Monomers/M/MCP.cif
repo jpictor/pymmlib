@@ -1,0 +1,77 @@
+data_MCP
+#
+_chem_comp.id                   MCP
+_chem_comp.name                 2-CARBOXY-4-METHYLPIPERIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        143.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCP  N    .  N  0  ?  ?  ?  1  1 
+MCP  C1   .  C  0  ?  ?  ?  1  2 
+MCP  C2   .  C  0  ?  ?  ?  1  3 
+MCP  C3   .  C  0  ?  ?  ?  1  4 
+MCP  C4   .  C  0  ?  ?  ?  1  5 
+MCP  C5   .  C  0  ?  ?  ?  1  6 
+MCP  C6   .  C  0  ?  ?  ?  1  7 
+MCP  O1   .  O  0  ?  ?  ?  1  8 
+MCP  O2   .  O  0  ?  ?  ?  1  9 
+MCP  C7   .  C  0  ?  ?  ?  1  10
+MCP  HN   .  H  0  ?  ?  ?  1  11
+MCP  H1   .  H  0  ?  ?  ?  1  12
+MCP  1H2  .  H  0  ?  ?  ?  0  13
+MCP  2H2  .  H  0  ?  ?  ?  0  14
+MCP  H3   .  H  0  ?  ?  ?  1  15
+MCP  1H4  .  H  0  ?  ?  ?  0  16
+MCP  2H4  .  H  0  ?  ?  ?  0  17
+MCP  1H5  .  H  0  ?  ?  ?  0  18
+MCP  2H5  .  H  0  ?  ?  ?  0  19
+MCP  HO2  .  H  0  ?  ?  ?  1  20
+MCP  1H7  .  H  0  ?  ?  ?  0  21
+MCP  2H7  .  H  0  ?  ?  ?  0  22
+MCP  3H7  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCP  N   C1   SING  1 
+MCP  N   C5   SING  2 
+MCP  N   HN   SING  3 
+MCP  C1  C2   SING  4 
+MCP  C1  C6   SING  5 
+MCP  C1  H1   SING  6 
+MCP  C2  C3   SING  7 
+MCP  C2  1H2  SING  8 
+MCP  C2  2H2  SING  9 
+MCP  C3  C4   SING  10
+MCP  C3  C7   SING  11
+MCP  C3  H3   SING  12
+MCP  C4  C5   SING  13
+MCP  C4  1H4  SING  14
+MCP  C4  2H4  SING  15
+MCP  C5  1H5  SING  16
+MCP  C5  2H5  SING  17
+MCP  C6  O1   DOUB  18
+MCP  C6  O2   SING  19
+MCP  O2  HO2  SING  20
+MCP  C7  1H7  SING  21
+MCP  C7  2H7  SING  22
+MCP  C7  3H7  SING  23
+#

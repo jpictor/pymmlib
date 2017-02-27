@@ -1,0 +1,80 @@
+data_PXM
+#
+_chem_comp.id                   PXM
+_chem_comp.name                 4-(AMINOMETHYL)-5-(HYDROXYMETHYL)-2-METHYLPYRIDIN-3-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2 O2'
+_chem_comp.pdbx_synonyms        PYRIDOXAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        168.195
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PXM  N1    .  N  0  40.289  45.598  -2.272  1  1 
+PXM  C2    .  C  0  40.459  44.689  -1.247  1  2 
+PXM  C2A   .  C  0  39.239  44.118  -0.547  1  3 
+PXM  C3    .  C  0  41.796  44.296  -0.937  1  4 
+PXM  O3    .  O  0  41.943  43.389  0.052   1  5 
+PXM  C4    .  C  0  42.904  44.835  -1.673  1  6 
+PXM  C5    .  C  0  42.625  45.750  -2.797  1  7 
+PXM  C5A   .  C  0  43.819  46.240  -3.657  1  8 
+PXM  O5    .  O  0  43.394  47.089  -4.680  1  9 
+PXM  C6    .  C  0  41.302  46.147  -3.065  1  10
+PXM  C4A   .  C  0  44.239  44.425  -1.331  1  11
+PXM  N4    .  N  0  44.426  43.183  -2.102  1  12
+PXM  HO3   .  H  0  ?       ?       ?       1  13
+PXM  H6    .  H  0  ?       ?       ?       1  14
+PXM  1H4A  .  H  0  ?       ?       ?       0  15
+PXM  2H4A  .  H  0  ?       ?       ?       0  16
+PXM  1HN4  .  H  0  ?       ?       ?       0  17
+PXM  2HN4  .  H  0  ?       ?       ?       0  18
+PXM  1H5A  .  H  0  ?       ?       ?       0  19
+PXM  2H5A  .  H  0  ?       ?       ?       0  20
+PXM  HO5   .  H  0  ?       ?       ?       1  21
+PXM  1H2A  .  H  0  ?       ?       ?       0  22
+PXM  2H2A  .  H  0  ?       ?       ?       0  23
+PXM  3H2A  .  H  0  ?       ?       ?       0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PXM  N1   C2    AROM  1 
+PXM  N1   C6    AROM  2 
+PXM  C2   C3    AROM  3 
+PXM  C2   C2A   SING  4 
+PXM  C2A  1H2A  SING  5 
+PXM  C2A  2H2A  SING  6 
+PXM  C2A  3H2A  SING  7 
+PXM  C3   O3    SING  8 
+PXM  C3   C4    AROM  9 
+PXM  O3   HO3   SING  10
+PXM  C4   C5    AROM  11
+PXM  C4   C4A   SING  12
+PXM  C5   C6    AROM  13
+PXM  C5   C5A   SING  14
+PXM  C5A  1H5A  SING  15
+PXM  C5A  2H5A  SING  16
+PXM  C5A  O5    SING  17
+PXM  O5   HO5   SING  18
+PXM  C6   H6    SING  19
+PXM  C4A  1H4A  SING  20
+PXM  C4A  2H4A  SING  21
+PXM  C4A  N4    SING  22
+PXM  N4   1HN4  SING  23
+PXM  N4   2HN4  SING  24
+#

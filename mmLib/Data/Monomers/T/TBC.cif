@@ -1,0 +1,109 @@
+data_TBC
+#
+_chem_comp.id                   TBC
+_chem_comp.name                 (9S,10R)-9-HYDROXY-7,8,9,10-TETRAHYDROBENZO[A]PYRENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H16 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        272.346
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TBC  C10   .  C  0  13.425  28.910  18.348  1  1 
+TBC  C2A   .  C  0  9.149   30.349  20.912  1  2 
+TBC  C2B   .  C  0  8.770   30.257  19.562  1  3 
+TBC  C9    .  C  0  14.161  28.298  17.118  1  4 
+TBC  C11   .  C  0  11.446  30.405  20.494  1  5 
+TBC  C1    .  C  0  ?       ?       ?       1  6 
+TBC  C2    .  C  0  ?       ?       ?       1  7 
+TBC  C3    .  C  0  ?       ?       ?       1  8 
+TBC  C3A   .  C  0  ?       ?       ?       1  9 
+TBC  C4    .  C  0  ?       ?       ?       1  10
+TBC  C5    .  C  0  ?       ?       ?       1  11
+TBC  C5A   .  C  0  ?       ?       ?       1  12
+TBC  C2C   .  C  0  ?       ?       ?       1  13
+TBC  C12   .  C  0  ?       ?       ?       1  14
+TBC  C1B   .  C  0  ?       ?       ?       1  15
+TBC  C6    .  C  0  ?       ?       ?       1  16
+TBC  C6A   .  C  0  ?       ?       ?       1  17
+TBC  C1A   .  C  0  ?       ?       ?       1  18
+TBC  C7    .  C  0  ?       ?       ?       1  19
+TBC  C8    .  C  0  ?       ?       ?       1  20
+TBC  O9    .  O  0  ?       ?       ?       1  21
+TBC  H6    .  H  0  10.082  29.719  15.234  1  22
+TBC  H2    .  H  0  5.789   31.155  22.003  1  23
+TBC  H5    .  H  0  8.047   29.985  15.761  1  24
+TBC  2H7   .  H  0  12.788  28.367  15.507  0  25
+TBC  H1    .  H  0  ?       ?       ?       1  26
+TBC  H3    .  H  0  ?       ?       ?       1  27
+TBC  H4    .  H  0  ?       ?       ?       1  28
+TBC  H12   .  H  0  ?       ?       ?       1  29
+TBC  H11   .  H  0  ?       ?       ?       1  30
+TBC  1H7   .  H  0  ?       ?       ?       0  31
+TBC  1H8   .  H  0  ?       ?       ?       0  32
+TBC  2H8   .  H  0  ?       ?       ?       0  33
+TBC  H9    .  H  0  ?       ?       ?       1  34
+TBC  HO9   .  H  0  ?       ?       ?       1  35
+TBC  1H10  .  H  0  ?       ?       ?       0  36
+TBC  2H10  .  H  0  ?       ?       ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TBC  C10  C9    SING  1 
+TBC  C10  C1A   SING  2 
+TBC  C10  1H10  SING  3 
+TBC  C10  2H10  SING  4 
+TBC  C2A  C2B   AROM  5 
+TBC  C2A  C1    AROM  6 
+TBC  C2A  C12   AROM  7 
+TBC  C2B  C3A   AROM  8 
+TBC  C2B  C2C   AROM  9 
+TBC  C9   C8    SING  10
+TBC  C9   H9    SING  11
+TBC  C9   O9    SING  12
+TBC  C11  C12   AROM  13
+TBC  C11  H11   SING  14
+TBC  C11  C1B   AROM  15
+TBC  C1   H1    SING  16
+TBC  C1   C2    AROM  17
+TBC  C2   H2    SING  18
+TBC  C2   C3    AROM  19
+TBC  C3   H3    SING  20
+TBC  C3   C3A   AROM  21
+TBC  C3A  C4    AROM  22
+TBC  C4   H4    SING  23
+TBC  C4   C5    AROM  24
+TBC  C5   H5    SING  25
+TBC  C5   C5A   AROM  26
+TBC  C5A  C2C   AROM  27
+TBC  C5A  C6    AROM  28
+TBC  C2C  C1B   AROM  29
+TBC  C12  H12   SING  30
+TBC  C1B  C1A   AROM  31
+TBC  C6   H6    SING  32
+TBC  C6   C6A   AROM  33
+TBC  C6A  C1A   AROM  34
+TBC  C6A  C7    SING  35
+TBC  C7   1H7   SING  36
+TBC  C7   2H7   SING  37
+TBC  C7   C8    SING  38
+TBC  C8   1H8   SING  39
+TBC  C8   2H8   SING  40
+TBC  O9   HO9   SING  41
+#

@@ -1,0 +1,65 @@
+data_URC
+#
+_chem_comp.id                   URC
+_chem_comp.name                 'URIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N4 O3'
+_chem_comp.pdbx_synonyms        7,9-DIHYDRO-1H-PURINE-2,6,8(3H)-TRIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        168.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+URC  N1   .  N  0  38.217  -59.800  98.395   1  1 
+URC  C2   .  C  0  36.879  -59.858  98.272   1  2 
+URC  C6   .  C  0  38.820  -59.260  99.467   1  3 
+URC  N3   .  N  0  36.075  -59.372  99.225   1  4 
+URC  O11  .  O  0  36.388  -60.365  97.276   1  5 
+URC  C4   .  C  0  36.584  -58.819  100.325  1  6 
+URC  C5   .  C  0  37.918  -58.723  100.521  1  7 
+URC  N9   .  N  0  36.036  -58.287  101.377  1  8 
+URC  O13  .  O  0  40.032  -59.193  99.613   1  9 
+URC  N7   .  N  0  38.101  -58.147  101.671  1  10
+URC  C8   .  C  0  36.945  -57.866  102.224  1  11
+URC  O24  .  O  0  36.753  -57.327  103.300  1  12
+URC  HN1  .  H  0  ?       ?        ?        1  13
+URC  HN3  .  H  0  ?       ?        ?        1  14
+URC  HN9  .  H  0  ?       ?        ?        1  15
+URC  HN7  .  H  0  ?       ?        ?        1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+URC  N1  C2   SING  1 
+URC  N1  C6   SING  2 
+URC  N1  HN1  SING  3 
+URC  C2  N3   SING  4 
+URC  C2  O11  DOUB  5 
+URC  C6  C5   SING  6 
+URC  C6  O13  DOUB  7 
+URC  N3  C4   SING  8 
+URC  N3  HN3  SING  9 
+URC  C4  C5   DOUB  10
+URC  C4  N9   SING  11
+URC  C5  N7   SING  12
+URC  N9  C8   SING  13
+URC  N9  HN9  SING  14
+URC  N7  C8   SING  15
+URC  N7  HN7  SING  16
+URC  C8  O24  DOUB  17
+#

@@ -1,0 +1,121 @@
+data_2ST
+#
+_chem_comp.id                       2ST
+_chem_comp.name                     '5-METHYL-2'-SE-METHYL-2'-SELENOURIDINE 5'-(DIHYDROGEN PHOSPHATE)'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N2 O8 P1 SE1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            415.198
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          2ST
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC1=CN(C(=O)NC1=O)[C@H]2[C@@H]([C@@H]([C@H](O2)COP(=O)(O)O)O)[Se]C
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+2ST  O3P   .  O   0  13.078  17.334  8.037  1  N  1 
+2ST  P     .  P   0  13.492  18.302  6.818  1  N  2 
+2ST  O1P   .  O   0  14.306  17.452  5.940  1  N  3 
+2ST  O2P   .  O   0  14.011  19.605  7.325  1  N  4 
+2ST  O5*   .  O   0  12.128  18.602  6.054  1  N  5 
+2ST  N1    .  N   0  8.711   20.572  6.456  1  N  6 
+2ST  C6    .  C   0  9.940   20.729  7.083  1  N  7 
+2ST  C2    .  C   0  7.716   21.533  6.581  1  N  8 
+2ST  O2    .  O   0  6.658   21.447  5.980  1  N  9 
+2ST  N3    .  N   0  7.993   22.604  7.392  1  N  10
+2ST  C4    .  C   0  9.167   22.860  8.082  1  N  11
+2ST  O4    .  O   0  9.259   23.857  8.783  1  N  12
+2ST  C5    .  C   0  10.242  21.831  7.892  1  N  13
+2ST  C5A   .  C   0  11.566  22.027  8.577  1  N  14
+2ST  C2*   .  C   0  8.678   19.771  4.177  1  N  15
+2ST  C5*   .  C   0  11.439  17.552  5.404  1  N  16
+2ST  C4*   .  C   0  10.121  18.045  4.868  1  N  17
+2ST  O4*   .  O   0  9.296   18.390  6.002  1  N  18
+2ST  C1*   .  C   0  8.347   19.399  5.594  1  N  19
+2ST  C3*   .  C   0  10.134  19.347  4.096  1  N  20
+2ST  SE    .  SE  0  7.479   18.552  3.031  0  N  21
+2ST  CA*   .  C   0  5.814   19.584  3.086  1  N  22
+2ST  O3*   .  O   0  10.480  19.203  2.780  1  N  23
+2ST  2HOP  .  H   0  12.996  16.442  7.720  0  N  24
+2ST  3HOP  .  H   0  14.121  19.557  8.267  0  N  25
+2ST  H6    .  H   0  10.694  19.969  6.941  1  N  26
+2ST  HN3   .  H   0  7.262   23.279  7.498  1  N  27
+2ST  1H5A  .  H   0  12.366  22.075  7.823  0  N  28
+2ST  2H5A  .  H   0  11.546  22.965  9.151  0  N  29
+2ST  3H5A  .  H   0  11.754  21.184  9.258  0  N  30
+2ST  H2*   .  H   0  8.532   20.816  3.866  1  N  31
+2ST  1H5*  .  H   0  11.256  16.740  6.123  0  N  32
+2ST  2H5*  .  H   0  12.052  17.186  4.567  0  N  33
+2ST  H4*   .  H   0  9.792   17.233  4.203  1  N  34
+2ST  H1*   .  H   0  7.295   19.088  5.675  1  N  35
+2ST  H3*   .  H   0  10.870  20.054  4.506  1  N  36
+2ST  1HA*  .  H   0  5.536   19.777  4.133  0  N  37
+2ST  2HA*  .  H   0  5.958   20.541  2.562  0  N  38
+2ST  3HA*  .  H   0  5.013   19.013  2.594  0  N  39
+2ST  H3T   .  H   0  9.694   19.170  2.247  1  N  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+2ST  O3P  P     SING  N  1 
+2ST  O3P  3HOP  SING  N  2 
+2ST  P    O1P   DOUB  N  3 
+2ST  P    O5*   SING  N  4 
+2ST  P    O2P   SING  N  5 
+2ST  O2P  2HOP  SING  N  6 
+2ST  O5*  C5*   SING  N  7 
+2ST  N1   C1*   SING  N  8 
+2ST  N1   C2    SING  N  9 
+2ST  N1   C6    SING  N  10
+2ST  C6   C5    DOUB  N  11
+2ST  C6   H6    SING  N  12
+2ST  C2   O2    DOUB  N  13
+2ST  C2   N3    SING  N  14
+2ST  N3   C4    SING  N  15
+2ST  N3   HN3   SING  N  16
+2ST  C4   C5    SING  N  17
+2ST  C4   O4    DOUB  N  18
+2ST  C5   C5A   SING  N  19
+2ST  C5A  1H5A  SING  N  20
+2ST  C5A  2H5A  SING  N  21
+2ST  C5A  3H5A  SING  N  22
+2ST  C2*  SE    SING  N  23
+2ST  C2*  C3*   SING  N  24
+2ST  C2*  C1*   SING  N  25
+2ST  C2*  H2*   SING  N  26
+2ST  C5*  C4*   SING  N  27
+2ST  C5*  1H5*  SING  N  28
+2ST  C5*  2H5*  SING  N  29
+2ST  C4*  C3*   SING  N  30
+2ST  C4*  O4*   SING  N  31
+2ST  C4*  H4*   SING  N  32
+2ST  O4*  C1*   SING  N  33
+2ST  C1*  H1*   SING  N  34
+2ST  C3*  O3*   SING  N  35
+2ST  C3*  H3*   SING  N  36
+2ST  SE   CA*   SING  N  37
+2ST  CA*  1HA*  SING  N  38
+2ST  CA*  2HA*  SING  N  39
+2ST  CA*  3HA*  SING  N  40
+2ST  O3*  H3T   SING  N  41
+#

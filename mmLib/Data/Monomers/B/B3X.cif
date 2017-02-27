@@ -1,0 +1,79 @@
+data_B3X
+#
+_chem_comp.id                       B3X
+_chem_comp.name                     '(3S)-3,5-DIAMINO-5-OXOPENTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H10 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  ASN
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            146.146
+_chem_comp.formula_weight           ?
+#
+_pdbx_chem_comp_descriptor.comp_id          B3X
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C([C@@H](CC(=O)O)N)C(=O)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+B3X  OE1   .  O  0  -5.125  -9.871   19.976  1  N  1 
+B3X  CD    .  C  0  -4.304  -9.526   19.167  1  N  2 
+B3X  NE2   .  N  0  -4.581  -9.434   17.854  1  N  3 
+B3X  CG    .  C  0  -2.897  -9.234   19.649  1  N  4 
+B3X  CB    .  C  0  -2.801  -7.909   20.465  1  N  5 
+B3X  N     .  N  0  -3.455  -6.848   19.718  1  N  6 
+B3X  CA    .  C  0  -1.352  -7.543   20.669  1  N  7 
+B3X  C     .  C  0  -1.154  -6.646   21.864  1  N  8 
+B3X  O     .  O  0  -1.300  -7.114   22.989  1  N  9 
+B3X  OXT   .  O  0  -0.828  -5.391   21.624  1  N  10
+B3X  1HE2  .  H  0  -3.742  -9.166   17.380  0  N  11
+B3X  2HE2  .  H  0  -5.469  -9.603   17.427  0  N  12
+B3X  1HG   .  H  0  -2.572  -10.063  20.295  0  N  13
+B3X  2HG   .  H  0  -2.257  -9.126   18.761  0  N  14
+B3X  HB    .  H  0  -3.287  -8.042   21.443  1  N  15
+B3X  1HN   .  H  0  -3.605  -6.062   20.317  0  N  16
+B3X  2HN   .  H  0  -2.876  -6.576   18.950  0  N  17
+B3X  1HA   .  H  0  -0.776  -8.467   20.825  0  N  18
+B3X  2HA   .  H  0  -1.011  -6.999   19.776  0  N  19
+B3X  HXT   .  H  0  ?       ?        ?       1  N  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+B3X  OE1  CD    DOUB  N  1 
+B3X  CD   NE2   SING  N  2 
+B3X  CD   CG    SING  N  3 
+B3X  NE2  1HE2  SING  N  4 
+B3X  NE2  2HE2  SING  N  5 
+B3X  CG   CB    SING  N  6 
+B3X  CG   1HG   SING  N  7 
+B3X  CG   2HG   SING  N  8 
+B3X  CB   N     SING  N  9 
+B3X  CB   CA    SING  N  10
+B3X  CB   HB    SING  N  11
+B3X  N    1HN   SING  N  12
+B3X  N    2HN   SING  N  13
+B3X  CA   C     SING  N  14
+B3X  CA   1HA   SING  N  15
+B3X  CA   2HA   SING  N  16
+B3X  C    OXT   SING  N  17
+B3X  C    O     DOUB  N  18
+B3X  OXT  HXT   SING  N  19
+#

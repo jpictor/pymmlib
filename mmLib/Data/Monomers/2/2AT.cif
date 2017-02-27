@@ -1,0 +1,121 @@
+data_2AT
+#
+_chem_comp.id                       2AT
+_chem_comp.name                     '2'-O-ALLYL THYMIDINE-5'-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H19 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            378.275
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2AT  P     .  P  0  10.735  4.070   5.432   1  1 
+2AT  O1P   .  O  0  11.921  4.570   4.664   1  2 
+2AT  O2P   .  O  0  10.942  3.310   6.696   1  3 
+2AT  O5*   .  O  0  9.759   5.278   5.659   1  4 
+2AT  C5*   .  C  0  9.471   6.141   4.583   1  5 
+2AT  C4*   .  C  0  8.429   7.133   4.989   1  6 
+2AT  O4*   .  O  0  7.159   6.453   5.155   1  7 
+2AT  C1*   .  C  0  6.433   7.071   6.218   1  8 
+2AT  N1    .  N  0  6.244   6.088   7.316   1  9 
+2AT  C6    .  C  0  7.103   5.027   7.521   1  10
+2AT  C2    .  C  0  5.163   6.307   8.138   1  11
+2AT  O2    .  O  0  4.429   7.283   8.017   1  12
+2AT  N3    .  N  0  4.992   5.380   9.127   1  13
+2AT  C4    .  C  0  5.820   4.310   9.418   1  14
+2AT  O4    .  O  0  5.583   3.609   10.371  1  15
+2AT  C5    .  C  0  6.950   4.139   8.531   1  16
+2AT  C5M   .  C  0  7.889   3.007   8.782   1  17
+2AT  C2*   .  C  0  7.261   8.272   6.685   1  18
+2AT  O2*   .  O  0  6.917   9.374   5.841   1  19
+2AT  CB'   .  C  0  5.656   9.977   6.128   1  20
+2AT  CC'   .  C  0  5.350   11.088  5.165   1  21
+2AT  CD'   .  C  0  4.410   10.978  4.214   1  22
+2AT  C3*   .  C  0  8.660   7.804   6.337   1  23
+2AT  O3*   .  O  0  9.595   8.866   6.277   1  24
+2AT  O3P   .  O  0  ?       ?       ?       1  25
+2AT  1HD'  .  H  0  ?       ?       ?       0  26
+2AT  2HD'  .  H  0  ?       ?       ?       0  27
+2AT  HC'   .  H  0  ?       ?       ?       1  28
+2AT  1HB'  .  H  0  ?       ?       ?       0  29
+2AT  2HB'  .  H  0  ?       ?       ?       0  30
+2AT  H2*   .  H  0  ?       ?       ?       1  31
+2AT  H3*   .  H  0  ?       ?       ?       1  32
+2AT  H3T   .  H  0  ?       ?       ?       1  33
+2AT  H4*   .  H  0  ?       ?       ?       1  34
+2AT  1H5*  .  H  0  ?       ?       ?       0  35
+2AT  2H5*  .  H  0  ?       ?       ?       0  36
+2AT  3HOP  .  H  0  ?       ?       ?       0  37
+2AT  H1*   .  H  0  ?       ?       ?       1  38
+2AT  H6    .  H  0  ?       ?       ?       1  39
+2AT  1H5M  .  H  0  ?       ?       ?       0  40
+2AT  2H5M  .  H  0  ?       ?       ?       0  41
+2AT  3H5M  .  H  0  ?       ?       ?       0  42
+2AT  HN3   .  H  0  ?       ?       ?       1  43
+2AT  2HOP  .  H  0  ?       ?       ?       0  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2AT  P    O5*   SING  1 
+2AT  P    O3P   SING  2 
+2AT  P    O1P   DOUB  3 
+2AT  P    O2P   SING  4 
+2AT  O2P  2HOP  SING  5 
+2AT  O5*  C5*   SING  6 
+2AT  C5*  C4*   SING  7 
+2AT  C5*  1H5*  SING  8 
+2AT  C5*  2H5*  SING  9 
+2AT  C4*  C3*   SING  10
+2AT  C4*  O4*   SING  11
+2AT  C4*  H4*   SING  12
+2AT  O4*  C1*   SING  13
+2AT  C1*  C2*   SING  14
+2AT  C1*  N1    SING  15
+2AT  C1*  H1*   SING  16
+2AT  N1   C6    SING  17
+2AT  N1   C2    SING  18
+2AT  C6   C5    DOUB  19
+2AT  C6   H6    SING  20
+2AT  C2   N3    SING  21
+2AT  C2   O2    DOUB  22
+2AT  N3   C4    SING  23
+2AT  N3   HN3   SING  24
+2AT  C4   C5    SING  25
+2AT  C4   O4    DOUB  26
+2AT  C5   C5M   SING  27
+2AT  C5M  1H5M  SING  28
+2AT  C5M  2H5M  SING  29
+2AT  C5M  3H5M  SING  30
+2AT  C2*  O2*   SING  31
+2AT  C2*  C3*   SING  32
+2AT  C2*  H2*   SING  33
+2AT  O2*  CB'   SING  34
+2AT  CB'  CC'   SING  35
+2AT  CB'  1HB'  SING  36
+2AT  CB'  2HB'  SING  37
+2AT  CC'  CD'   DOUB  38
+2AT  CC'  HC'   SING  39
+2AT  CD'  1HD'  SING  40
+2AT  CD'  2HD'  SING  41
+2AT  C3*  O3*   SING  42
+2AT  C3*  H3*   SING  43
+2AT  O3*  H3T   SING  44
+2AT  O3P  3HOP  SING  45
+#

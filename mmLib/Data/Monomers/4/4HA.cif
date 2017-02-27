@@ -1,0 +1,66 @@
+data_4HA
+#
+_chem_comp.id                   4HA
+_chem_comp.name                 4-HYDROXYBUTAN-1-AMINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H12 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        90.145
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4HA  OA   .  O  0  35.738  27.102  10.857  1  1 
+4HA  CB   .  C  0  34.948  26.436  11.797  1  2 
+4HA  CG   .  C  0  33.482  26.646  11.435  1  3 
+4HA  CD   .  C  0  32.857  27.951  11.923  1  4 
+4HA  CE   .  C  0  32.396  27.967  13.383  1  5 
+4HA  NZ   .  N  1  31.637  29.215  13.589  1  6 
+4HA  HA   .  H  0  36.660  26.994  11.102  1  7 
+4HA  2HB  .  H  0  35.141  26.810  12.800  0  8 
+4HA  3HB  .  H  0  35.178  25.373  11.751  0  9 
+4HA  2HG  .  H  0  32.894  25.818  11.832  0  10
+4HA  3HG  .  H  0  33.405  26.622  10.347  0  11
+4HA  2HD  .  H  0  31.991  28.140  11.291  0  12
+4HA  3HD  .  H  0  33.566  28.766  11.773  0  13
+4HA  2HE  .  H  0  31.760  27.107  13.591  0  14
+4HA  3HE  .  H  0  33.268  27.951  14.036  0  15
+4HA  1HZ  .  H  0  30.717  29.120  13.185  0  16
+4HA  2HZ  .  H  0  31.556  29.408  14.576  0  17
+4HA  3HZ  .  H  0  32.120  29.971  13.127  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4HA  OA  HA   SING  1 
+4HA  OA  CB   SING  2 
+4HA  CB  2HB  SING  3 
+4HA  CB  3HB  SING  4 
+4HA  CB  CG   SING  5 
+4HA  CG  2HG  SING  6 
+4HA  CG  3HG  SING  7 
+4HA  CG  CD   SING  8 
+4HA  CD  2HD  SING  9 
+4HA  CD  3HD  SING  10
+4HA  CD  CE   SING  11
+4HA  CE  2HE  SING  12
+4HA  CE  3HE  SING  13
+4HA  CE  NZ   SING  14
+4HA  NZ  1HZ  SING  15
+4HA  NZ  2HZ  SING  16
+4HA  NZ  3HZ  SING  17
+#

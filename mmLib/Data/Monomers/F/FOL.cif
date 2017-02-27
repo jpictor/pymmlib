@@ -1,0 +1,135 @@
+data_FOL
+#
+_chem_comp.id                   FOL
+_chem_comp.name                 'FOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H19 N7 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        441.402
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOL  N1    .  N  0  ?  ?  ?  1  1 
+FOL  C2    .  C  0  ?  ?  ?  1  2 
+FOL  NA2   .  N  0  ?  ?  ?  1  3 
+FOL  N3    .  N  0  ?  ?  ?  1  4 
+FOL  C4    .  C  0  ?  ?  ?  1  5 
+FOL  O4    .  O  0  ?  ?  ?  1  6 
+FOL  C4A   .  C  0  ?  ?  ?  1  7 
+FOL  N5    .  N  0  ?  ?  ?  1  8 
+FOL  C6    .  C  0  ?  ?  ?  1  9 
+FOL  C7    .  C  0  ?  ?  ?  1  10
+FOL  N8    .  N  0  ?  ?  ?  1  11
+FOL  C8A   .  C  0  ?  ?  ?  1  12
+FOL  C9    .  C  0  ?  ?  ?  1  13
+FOL  N10   .  N  0  ?  ?  ?  1  14
+FOL  C11   .  C  0  ?  ?  ?  1  15
+FOL  C12   .  C  0  ?  ?  ?  1  16
+FOL  C13   .  C  0  ?  ?  ?  1  17
+FOL  C14   .  C  0  ?  ?  ?  1  18
+FOL  C15   .  C  0  ?  ?  ?  1  19
+FOL  C16   .  C  0  ?  ?  ?  1  20
+FOL  C     .  C  0  ?  ?  ?  1  21
+FOL  O     .  O  0  ?  ?  ?  1  22
+FOL  N     .  N  0  ?  ?  ?  1  23
+FOL  CA    .  C  0  ?  ?  ?  1  24
+FOL  CB    .  C  0  ?  ?  ?  1  25
+FOL  CG    .  C  0  ?  ?  ?  1  26
+FOL  CD    .  C  0  ?  ?  ?  1  27
+FOL  OE1   .  O  0  ?  ?  ?  1  28
+FOL  OE2   .  O  0  ?  ?  ?  1  29
+FOL  CT    .  C  0  ?  ?  ?  1  30
+FOL  O1    .  O  0  ?  ?  ?  1  31
+FOL  O2    .  O  0  ?  ?  ?  1  32
+FOL  HN1   .  H  0  ?  ?  ?  1  33
+FOL  1HN2  .  H  0  ?  ?  ?  0  34
+FOL  2HN2  .  H  0  ?  ?  ?  0  35
+FOL  H7    .  H  0  ?  ?  ?  1  36
+FOL  1H9   .  H  0  ?  ?  ?  0  37
+FOL  2H9   .  H  0  ?  ?  ?  0  38
+FOL  HN0   .  H  0  ?  ?  ?  1  39
+FOL  H12   .  H  0  ?  ?  ?  1  40
+FOL  H13   .  H  0  ?  ?  ?  1  41
+FOL  H15   .  H  0  ?  ?  ?  1  42
+FOL  H16   .  H  0  ?  ?  ?  1  43
+FOL  HN    .  H  0  ?  ?  ?  1  44
+FOL  HA    .  H  0  ?  ?  ?  1  45
+FOL  1HB   .  H  0  ?  ?  ?  0  46
+FOL  2HB   .  H  0  ?  ?  ?  0  47
+FOL  1HG   .  H  0  ?  ?  ?  0  48
+FOL  2HG   .  H  0  ?  ?  ?  0  49
+FOL  2HOE  .  H  0  ?  ?  ?  0  50
+FOL  HO2   .  H  0  ?  ?  ?  1  51
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOL  N1   C2    SING  1 
+FOL  N1   C8A   SING  2 
+FOL  N1   HN1   SING  3 
+FOL  C2   NA2   SING  4 
+FOL  C2   N3    DOUB  5 
+FOL  NA2  1HN2  SING  6 
+FOL  NA2  2HN2  SING  7 
+FOL  N3   C4    SING  8 
+FOL  C4   O4    DOUB  9 
+FOL  C4   C4A   SING  10
+FOL  C4A  N5    SING  11
+FOL  C4A  C8A   DOUB  12
+FOL  N5   C6    DOUB  13
+FOL  C6   C7    SING  14
+FOL  C6   C9    SING  15
+FOL  C7   N8    DOUB  16
+FOL  C7   H7    SING  17
+FOL  N8   C8A   SING  18
+FOL  C9   N10   SING  19
+FOL  C9   1H9   SING  20
+FOL  C9   2H9   SING  21
+FOL  N10  C14   SING  22
+FOL  N10  HN0   SING  23
+FOL  C11  C12   DOUB  24
+FOL  C11  C16   SING  25
+FOL  C11  C     SING  26
+FOL  C12  C13   SING  27
+FOL  C12  H12   SING  28
+FOL  C13  C14   DOUB  29
+FOL  C13  H13   SING  30
+FOL  C14  C15   SING  31
+FOL  C15  C16   DOUB  32
+FOL  C15  H15   SING  33
+FOL  C16  H16   SING  34
+FOL  C    O     DOUB  35
+FOL  C    N     SING  36
+FOL  N    CA    SING  37
+FOL  N    HN    SING  38
+FOL  CA   CB    SING  39
+FOL  CA   CT    SING  40
+FOL  CA   HA    SING  41
+FOL  CB   CG    SING  42
+FOL  CB   1HB   SING  43
+FOL  CB   2HB   SING  44
+FOL  CG   CD    SING  45
+FOL  CG   1HG   SING  46
+FOL  CG   2HG   SING  47
+FOL  CD   OE1   DOUB  48
+FOL  CD   OE2   SING  49
+FOL  OE2  2HOE  SING  50
+FOL  CT   O1    DOUB  51
+FOL  CT   O2    SING  52
+FOL  O2   HO2   SING  53
+#

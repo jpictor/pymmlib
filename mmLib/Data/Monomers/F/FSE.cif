@@ -1,0 +1,96 @@
+data_FSE
+#
+_chem_comp.id                   FSE
+_chem_comp.name                 3,7,3',4'-TETRAHYDROXYFLAVONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H10 O6'
+_chem_comp.pdbx_synonyms        2-(3,4-DIHYDROXYPHENYL)-3,7-DIHYDROXY-4H-CHROMEN-4-ONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        286.240
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FSE  C6   .  C  0  -3.343  37.309  140.471  1  1 
+FSE  C5   .  C  0  -2.248  36.927  141.307  1  2 
+FSE  C10  .  C  0  -0.813  36.932  140.824  1  3 
+FSE  C9   .  C  0  -0.673  37.392  139.424  1  4 
+FSE  C8   .  C  0  -1.794  37.785  138.582  1  5 
+FSE  C7   .  C  0  -3.142  37.712  139.104  1  6 
+FSE  C4   .  C  0  0.386   36.505  141.592  1  7 
+FSE  C3   .  C  0  1.743   36.553  140.898  1  8 
+FSE  C2   .  C  0  1.871   37.008  139.544  1  9 
+FSE  C1'  .  C  0  3.027   37.188  138.661  1  10
+FSE  C6'  .  C  0  4.363   37.066  139.130  1  11
+FSE  C5'  .  C  0  5.456   37.255  138.260  1  12
+FSE  C4'  .  C  0  5.232   37.567  136.896  1  13
+FSE  C3'  .  C  0  3.934   37.680  136.364  1  14
+FSE  C2'  .  C  0  2.829   37.500  137.209  1  15
+FSE  O1   .  O  0  0.684   37.416  138.867  1  16
+FSE  O4   .  O  0  0.350   36.089  142.801  1  17
+FSE  O3'  .  O  0  3.850   38.004  134.995  1  18
+FSE  O4'  .  O  0  6.310   37.736  136.116  1  19
+FSE  O3   .  O  0  2.892   36.143  141.613  1  20
+FSE  O7   .  O  0  -4.220  38.024  138.260  1  21
+FSE  HO7  .  H  0  ?       ?       ?        1  22
+FSE  H6   .  H  0  ?       ?       ?        1  23
+FSE  H5   .  H  0  ?       ?       ?        1  24
+FSE  HO3  .  H  0  ?       ?       ?        1  25
+FSE  H8   .  H  0  ?       ?       ?        1  26
+FSE  H6'  .  H  0  ?       ?       ?        1  27
+FSE  H5'  .  H  0  ?       ?       ?        1  28
+FSE  H4'  .  H  0  ?       ?       ?        1  29
+FSE  H3'  .  H  0  ?       ?       ?        1  30
+FSE  H2'  .  H  0  ?       ?       ?        1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FSE  C6   C7   AROM  1 
+FSE  C6   C5   AROM  2 
+FSE  C6   H6   SING  3 
+FSE  C5   C10  AROM  4 
+FSE  C5   H5   SING  5 
+FSE  C10  C4   SING  6 
+FSE  C10  C9   AROM  7 
+FSE  C9   O1   SING  8 
+FSE  C9   C8   AROM  9 
+FSE  C8   C7   AROM  10
+FSE  C8   H8   SING  11
+FSE  C7   O7   SING  12
+FSE  C4   O4   DOUB  13
+FSE  C4   C3   SING  14
+FSE  C3   O3   SING  15
+FSE  C3   C2   DOUB  16
+FSE  C2   O1   SING  17
+FSE  C2   C1'  SING  18
+FSE  C1'  C6'  AROM  19
+FSE  C1'  C2'  AROM  20
+FSE  C6'  C5'  AROM  21
+FSE  C6'  H6'  SING  22
+FSE  C5'  C4'  AROM  23
+FSE  C5'  H5'  SING  24
+FSE  C4'  O4'  SING  25
+FSE  C4'  C3'  AROM  26
+FSE  C3'  O3'  SING  27
+FSE  C3'  C2'  AROM  28
+FSE  C2'  H2'  SING  29
+FSE  O3'  H3'  SING  30
+FSE  O4'  H4'  SING  31
+FSE  O3   HO3  SING  32
+FSE  O7   HO7  SING  33
+#

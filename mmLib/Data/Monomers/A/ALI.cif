@@ -1,0 +1,85 @@
+data_ALI
+#
+_chem_comp.id                   ALI
+_chem_comp.name                 'METHYL N-ACETYL ALLOSAMINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2 O4'
+_chem_comp.pdbx_synonyms        (4R,5R,6R)-6-(HYDROXYMETHYL)-2-(METHYLENEAMINO)-4,5,6,6A-TETRAHYDRO-3AH-CYCLOPENTA[D][1,3]OXAZOLE-4,5-DIOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        200.194
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALI  C1    .  C  0  8.794   66.606  1.202   1  1 
+ALI  C2    .  C  0  7.42    67.32   1.156   1  2 
+ALI  C3    .  C  0  6.388   66.229  .863    1  3 
+ALI  C4    .  C  0  7.131   65.195  .018    1  4 
+ALI  C5    .  C  0  8.458   65.177  .767    1  5 
+ALI  C6    .  C  0  9.592   64.507  -.016   1  6 
+ALI  C7    .  C  0  8.288   67.41   3.259   1  7 
+ALI  C8    .  C  0  9.444   67.311  5.26    1  8 
+ALI  N2    .  N  0  7.288   67.828  2.511   1  9 
+ALI  N7    .  N  0  8.422   67.755  4.545   1  10
+ALI  O3    .  O  0  5.308   66.782  .106    1  11
+ALI  O4    .  O  0  6.551   63.872  -.035   1  12
+ALI  O6    .  O  0  9.825   65.214  -1.228  1  13
+ALI  O7    .  O  0  9.187   66.613  2.614   1  14
+ALI  H4    .  H  0  5.564   63.944  -.032   1  15
+ALI  HA    .  H  0  7.149   65.46   -1.049  1  16
+ALI  H3    .  H  0  5.97    65.793  1.782   1  17
+ALI  H5    .  H  0  8.348   64.545  1.661   1  18
+ALI  HB    .  H  0  4.763   66.049  -.276   1  19
+ALI  H2    .  H  0  7.302   68.119  .409    1  20
+ALI  H1    .  H  0  9.59    67.05   .586    1  21
+ALI  1H8C  .  H  0  10.167  66.675  4.814   0  22
+ALI  2H8C  .  H  0  9.54    67.591  6.279   0  23
+ALI  1H6C  .  H  0  10.509  64.513  .592    0  24
+ALI  2H6C  .  H  0  9.308   63.47   -.25    0  25
+ALI  H6    .  H  0  8.958   65.455  -1.642  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALI  C1  C5    SING  1 
+ALI  C1  H1    SING  2 
+ALI  C1  C2    SING  3 
+ALI  C1  O7    SING  4 
+ALI  C2  N2    SING  5 
+ALI  C2  H2    SING  6 
+ALI  C2  C3    SING  7 
+ALI  C3  O3    SING  8 
+ALI  C3  H3    SING  9 
+ALI  C3  C4    SING  10
+ALI  C4  C5    SING  11
+ALI  C4  HA    SING  12
+ALI  C4  O4    SING  13
+ALI  C5  C6    SING  14
+ALI  C5  H5    SING  15
+ALI  C6  O6    SING  16
+ALI  C6  1H6C  SING  17
+ALI  C6  2H6C  SING  18
+ALI  C7  N7    SING  19
+ALI  C7  O7    SING  20
+ALI  C7  N2    DOUB  21
+ALI  C8  1H8C  SING  22
+ALI  C8  2H8C  SING  23
+ALI  C8  N7    DOUB  24
+ALI  O3  HB    SING  25
+ALI  O4  H4    SING  26
+ALI  O6  H6    SING  27
+#

@@ -1,0 +1,119 @@
+data_NCX
+#
+_chem_comp.id                   NCX
+_chem_comp.name                 1-(2-DEOXY-5-O-PHOSPHONO-BETA-D-ERYTHRO-PENTOFURANOSYL)-5-NITRO-1H-INDOLE-3-CARBOXAMIDE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C14 H16 N3 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        401.269
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NCX  P     .  P  0   6.177   5.790   13.613  1  1 
+NCX  O1P   .  O  0   6.546   7.168   13.222  1  2 
+NCX  O2P   .  O  0   6.971   5.077   14.638  1  3 
+NCX  O3P   .  O  0   6.129   4.888   12.278  1  4 
+NCX  O5*   .  O  0   4.638   5.787   14.072  1  5 
+NCX  C5*   .  C  0   3.678   6.591   13.407  1  6 
+NCX  C4*   .  C  0   2.308   6.532   14.092  1  7 
+NCX  O4*   .  O  0   1.613   5.348   13.717  1  8 
+NCX  C1*   .  C  0   1.117   4.731   14.892  1  9 
+NCX  N9    .  N  0   0.939   3.280   14.656  1  10
+NCX  C8    .  C  0   1.773   2.217   14.995  1  11
+NCX  C7    .  C  0   1.179   1.020   14.614  1  12
+NCX  CO7   .  C  0   1.840   -0.277  14.865  1  13
+NCX  O7    .  O  0   2.944   -0.419  15.334  1  14
+NCX  NH7   .  N  0   1.175   -1.394  14.589  1  15
+NCX  C5    .  C  0   -0.054  1.388   13.985  1  16
+NCX  C4    .  C  0   -0.138  2.751   14.044  1  17
+NCX  C3    .  C  0   -1.205  3.451   13.491  1  18
+NCX  C2    .  C  0   -2.187  2.728   12.824  1  19
+NCX  C1    .  C  0   -2.097  1.331   12.709  1  20
+NCX  N1    .  N  1   -3.087  0.599   11.879  1  21
+NCX  O11   .  O  0   -4.164  1.128   11.656  1  22
+NCX  O12   .  O  -1  -2.746  -0.490  11.451  1  23
+NCX  C6    .  C  0   -1.039  0.645   13.335  1  24
+NCX  C3*   .  C  0   2.398   6.563   15.624  1  25
+NCX  C2*   .  C  0   2.123   5.106   15.976  1  26
+NCX  O3*   .  O  0   1.395   7.451   16.087  1  27
+NCX  3HOP  .  H  0   ?       ?       ?       0  28
+NCX  2HOP  .  H  0   7.849   4.924   14.309  0  29
+NCX  1H5*  .  H  0   4.029   7.634   13.411  0  30
+NCX  2H5*  .  H  0   3.564   6.209   12.382  0  31
+NCX  H4*   .  H  0   1.769   7.431   13.758  1  32
+NCX  H1*   .  H  0   0.117   5.067   15.205  1  33
+NCX  H8    .  H  0   2.734   2.309   15.480  1  34
+NCX  1HH7  .  H  0   0.274   -1.147  14.232  0  35
+NCX  2HH7  .  H  0   1.518   -2.325  14.717  0  36
+NCX  H3    .  H  0   -1.269  4.526   13.577  1  37
+NCX  H2    .  H  0   -3.029  3.246   12.389  1  38
+NCX  H6    .  H  0   -0.991  -0.434  13.312  1  39
+NCX  H3*   .  H  0   3.344   6.912   16.064  1  40
+NCX  1H2*  .  H  0   1.711   4.990   16.989  0  41
+NCX  2H2*  .  H  0   3.020   4.470   15.997  0  42
+NCX  H3T   .  H  0   1.546   7.650   17.004  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NCX  P    O3P   SING  1 
+NCX  P    O1P   DOUB  2 
+NCX  P    O5*   SING  3 
+NCX  P    O2P   SING  4 
+NCX  O2P  2HOP  SING  5 
+NCX  O3P  3HOP  SING  6 
+NCX  O5*  C5*   SING  7 
+NCX  C5*  C4*   SING  8 
+NCX  C5*  1H5*  SING  9 
+NCX  C5*  2H5*  SING  10
+NCX  C4*  O4*   SING  11
+NCX  C4*  C3*   SING  12
+NCX  C4*  H4*   SING  13
+NCX  O4*  C1*   SING  14
+NCX  C1*  N9    SING  15
+NCX  C1*  C2*   SING  16
+NCX  C1*  H1*   SING  17
+NCX  N9   C4    SING  18
+NCX  N9   C8    SING  19
+NCX  C8   C7    DOUB  20
+NCX  C8   H8    SING  21
+NCX  C7   C5    SING  22
+NCX  C7   CO7   SING  23
+NCX  CO7  NH7   SING  24
+NCX  CO7  O7    DOUB  25
+NCX  NH7  1HH7  SING  26
+NCX  NH7  2HH7  SING  27
+NCX  C5   C6    DOUB  28
+NCX  C5   C4    SING  29
+NCX  C4   C3    DOUB  30
+NCX  C3   C2    SING  31
+NCX  C3   H3    SING  32
+NCX  C2   C1    DOUB  33
+NCX  C2   H2    SING  34
+NCX  C1   N1    SING  35
+NCX  C1   C6    SING  36
+NCX  N1   O12   SING  37
+NCX  N1   O11   DOUB  38
+NCX  C6   H6    SING  39
+NCX  C3*  C2*   SING  40
+NCX  C3*  O3*   SING  41
+NCX  C3*  H3*   SING  42
+NCX  C2*  1H2*  SING  43
+NCX  C2*  2H2*  SING  44
+NCX  O3*  H3T   SING  45
+#

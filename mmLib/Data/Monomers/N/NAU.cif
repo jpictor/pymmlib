@@ -1,0 +1,114 @@
+data_NAU
+#
+_chem_comp.id                   NAU
+_chem_comp.name                 '4,4,6,7,8,9-HEXAHYDROXY-5-METHYLCARBOXAMIDONONANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H21 N1 O9'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        311.288
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAU  C1    .  C  0  ?  ?  ?  1  1 
+NAU  O1A   .  O  0  ?  ?  ?  1  2 
+NAU  O1B   .  O  0  ?  ?  ?  1  3 
+NAU  C2    .  C  0  ?  ?  ?  1  4 
+NAU  C3    .  C  0  ?  ?  ?  1  5 
+NAU  C4    .  C  0  ?  ?  ?  1  6 
+NAU  C5    .  C  0  ?  ?  ?  1  7 
+NAU  N2    .  N  0  ?  ?  ?  1  8 
+NAU  C10   .  C  0  ?  ?  ?  1  9 
+NAU  C11   .  C  0  ?  ?  ?  1  10
+NAU  O10   .  O  0  ?  ?  ?  1  11
+NAU  O6    .  O  0  ?  ?  ?  1  12
+NAU  C6    .  C  0  ?  ?  ?  1  13
+NAU  C7    .  C  0  ?  ?  ?  1  14
+NAU  O7    .  O  0  ?  ?  ?  1  15
+NAU  C8    .  C  0  ?  ?  ?  1  16
+NAU  O8    .  O  0  ?  ?  ?  1  17
+NAU  C9    .  C  0  ?  ?  ?  1  18
+NAU  O9    .  O  0  ?  ?  ?  1  19
+NAU  O4A   .  O  0  ?  ?  ?  1  20
+NAU  O4B   .  O  0  ?  ?  ?  1  21
+NAU  HO9   .  H  0  ?  ?  ?  1  22
+NAU  1HC9  .  H  0  ?  ?  ?  0  23
+NAU  2HC9  .  H  0  ?  ?  ?  0  24
+NAU  HC8   .  H  0  ?  ?  ?  1  25
+NAU  HO8   .  H  0  ?  ?  ?  1  26
+NAU  HO7   .  H  0  ?  ?  ?  1  27
+NAU  HC7   .  H  0  ?  ?  ?  1  28
+NAU  HO6   .  H  0  ?  ?  ?  1  29
+NAU  HC6   .  H  0  ?  ?  ?  1  30
+NAU  HC5   .  H  0  ?  ?  ?  1  31
+NAU  HO4B  .  H  0  ?  ?  ?  0  32
+NAU  HN2   .  H  0  ?  ?  ?  1  33
+NAU  1H11  .  H  0  ?  ?  ?  0  34
+NAU  2H11  .  H  0  ?  ?  ?  0  35
+NAU  3H11  .  H  0  ?  ?  ?  0  36
+NAU  HO4A  .  H  0  ?  ?  ?  0  37
+NAU  1HC3  .  H  0  ?  ?  ?  0  38
+NAU  2HC3  .  H  0  ?  ?  ?  0  39
+NAU  1HC2  .  H  0  ?  ?  ?  0  40
+NAU  2HC2  .  H  0  ?  ?  ?  0  41
+NAU  HO1B  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAU  C1   O1A   DOUB  1 
+NAU  C1   O1B   SING  2 
+NAU  C1   C2    SING  3 
+NAU  O1B  HO1B  SING  4 
+NAU  C2   C3    SING  5 
+NAU  C2   1HC2  SING  6 
+NAU  C2   2HC2  SING  7 
+NAU  C3   C4    SING  8 
+NAU  C3   1HC3  SING  9 
+NAU  C3   2HC3  SING  10
+NAU  C4   C5    SING  11
+NAU  C4   O4A   SING  12
+NAU  C4   O4B   SING  13
+NAU  C5   N2    SING  14
+NAU  C5   C6    SING  15
+NAU  C5   HC5   SING  16
+NAU  N2   C10   SING  17
+NAU  N2   HN2   SING  18
+NAU  C10  C11   SING  19
+NAU  C10  O10   DOUB  20
+NAU  C11  1H11  SING  21
+NAU  C11  2H11  SING  22
+NAU  C11  3H11  SING  23
+NAU  O6   C6    SING  24
+NAU  O6   HO6   SING  25
+NAU  C6   C7    SING  26
+NAU  C6   HC6   SING  27
+NAU  C7   O7    SING  28
+NAU  C7   C8    SING  29
+NAU  C7   HC7   SING  30
+NAU  O7   HO7   SING  31
+NAU  C8   O8    SING  32
+NAU  C8   C9    SING  33
+NAU  C8   HC8   SING  34
+NAU  O8   HO8   SING  35
+NAU  C9   O9    SING  36
+NAU  C9   1HC9  SING  37
+NAU  C9   2HC9  SING  38
+NAU  O9   HO9   SING  39
+NAU  O4A  HO4A  SING  40
+NAU  O4B  HO4B  SING  41
+#

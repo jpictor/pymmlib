@@ -1,0 +1,80 @@
+data_PBE
+#
+_chem_comp.id                   PBE
+_chem_comp.name                 1,1-DIMETHYL-PROLINIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H14 N1 O2'
+_chem_comp.pdbx_synonyms        'PROLINE BETAINE'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       144.193
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBE  N    .  N  1  ?  ?  ?  1  1 
+PBE  CD   .  C  0  ?  ?  ?  1  2 
+PBE  CA   .  C  0  ?  ?  ?  1  3 
+PBE  CB   .  C  0  ?  ?  ?  1  4 
+PBE  CG   .  C  0  ?  ?  ?  1  5 
+PBE  CE   .  C  0  ?  ?  ?  1  6 
+PBE  CF   .  C  0  ?  ?  ?  1  7 
+PBE  C    .  C  0  ?  ?  ?  1  8 
+PBE  O    .  O  0  ?  ?  ?  1  9 
+PBE  OXT  .  O  0  ?  ?  ?  1  10
+PBE  1HE  .  H  0  ?  ?  ?  0  11
+PBE  2HE  .  H  0  ?  ?  ?  0  12
+PBE  3HE  .  H  0  ?  ?  ?  0  13
+PBE  1HF  .  H  0  ?  ?  ?  0  14
+PBE  2HF  .  H  0  ?  ?  ?  0  15
+PBE  3HF  .  H  0  ?  ?  ?  0  16
+PBE  1HB  .  H  0  ?  ?  ?  0  17
+PBE  2HB  .  H  0  ?  ?  ?  0  18
+PBE  1HG  .  H  0  ?  ?  ?  0  19
+PBE  2HG  .  H  0  ?  ?  ?  0  20
+PBE  1HD  .  H  0  ?  ?  ?  0  21
+PBE  2HD  .  H  0  ?  ?  ?  0  22
+PBE  HA   .  H  0  ?  ?  ?  1  23
+PBE  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBE  N    CD   SING  1 
+PBE  N    CA   SING  2 
+PBE  N    CE   SING  3 
+PBE  N    CF   SING  4 
+PBE  CD   CG   SING  5 
+PBE  CD   1HD  SING  6 
+PBE  CD   2HD  SING  7 
+PBE  CA   CB   SING  8 
+PBE  CA   C    SING  9 
+PBE  CA   HA   SING  10
+PBE  CB   CG   SING  11
+PBE  CB   1HB  SING  12
+PBE  CB   2HB  SING  13
+PBE  CG   1HG  SING  14
+PBE  CG   2HG  SING  15
+PBE  CE   1HE  SING  16
+PBE  CE   2HE  SING  17
+PBE  CE   3HE  SING  18
+PBE  CF   1HF  SING  19
+PBE  CF   2HF  SING  20
+PBE  CF   3HF  SING  21
+PBE  C    O    DOUB  22
+PBE  C    OXT  SING  23
+PBE  OXT  HXT  SING  24
+#

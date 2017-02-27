@@ -1,0 +1,90 @@
+data_SN0
+#
+_chem_comp.id                   SN0
+_chem_comp.name                 N-(3-CARBOXYPROPANOYL)-L-NORVALINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        217.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SN0  CA   .  C  0  44.822  -69.361  -21.769  1  1 
+SN0  C    .  C  0  45.967  -68.923  -22.694  1  2 
+SN0  O    .  O  0  46.977  -68.398  -22.165  1  3 
+SN0  OXT  .  O  0  45.851  -69.110  -23.929  1  4 
+SN0  CB   .  C  0  45.361  -70.283  -20.672  1  5 
+SN0  CG   .  C  0  46.090  -71.508  -21.187  1  6 
+SN0  CD   .  C  0  46.674  -72.308  -20.042  1  7 
+SN0  N1   .  N  0  43.668  -69.987  -22.429  1  8 
+SN0  C1   .  C  0  42.491  -69.382  -22.570  1  9 
+SN0  O1   .  O  0  42.270  -68.269  -22.095  1  10
+SN0  C2   .  C  0  41.491  -70.163  -23.346  1  11
+SN0  C3   .  C  0  40.138  -69.489  -23.310  1  12
+SN0  C4   .  C  0  39.200  -70.042  -24.343  1  13
+SN0  OD1  .  O  0  39.405  -71.145  -24.919  1  14
+SN0  OD2  .  O  0  38.206  -69.320  -24.576  1  15
+SN0  1HD  .  H  0  ?       ?        ?        0  16
+SN0  2HD  .  H  0  ?       ?        ?        0  17
+SN0  3HD  .  H  0  ?       ?        ?        0  18
+SN0  1HG  .  H  0  ?       ?        ?        0  19
+SN0  2HG  .  H  0  ?       ?        ?        0  20
+SN0  1HB  .  H  0  ?       ?        ?        0  21
+SN0  2HB  .  H  0  ?       ?        ?        0  22
+SN0  HA   .  H  0  ?       ?        ?        1  23
+SN0  HN1  .  H  0  ?       ?        ?        1  24
+SN0  1H2  .  H  0  ?       ?        ?        0  25
+SN0  2H2  .  H  0  ?       ?        ?        0  26
+SN0  1H3  .  H  0  ?       ?        ?        0  27
+SN0  2H3  .  H  0  ?       ?        ?        0  28
+SN0  HD1  .  H  0  ?       ?        ?        1  29
+SN0  HO   .  H  0  ?       ?        ?        1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SN0  CA   CB   SING  1 
+SN0  CA   N1   SING  2 
+SN0  CA   C    SING  3 
+SN0  CA   HA   SING  4 
+SN0  C    O    SING  5 
+SN0  C    OXT  DOUB  6 
+SN0  O    HO   SING  7 
+SN0  CB   CG   SING  8 
+SN0  CB   1HB  SING  9 
+SN0  CB   2HB  SING  10
+SN0  CG   CD   SING  11
+SN0  CG   1HG  SING  12
+SN0  CG   2HG  SING  13
+SN0  CD   1HD  SING  14
+SN0  CD   2HD  SING  15
+SN0  CD   3HD  SING  16
+SN0  N1   C1   SING  17
+SN0  N1   HN1  SING  18
+SN0  C1   O1   DOUB  19
+SN0  C1   C2   SING  20
+SN0  C2   C3   SING  21
+SN0  C2   1H2  SING  22
+SN0  C2   2H2  SING  23
+SN0  C3   C4   SING  24
+SN0  C3   1H3  SING  25
+SN0  C3   2H3  SING  26
+SN0  C4   OD1  SING  27
+SN0  C4   OD2  DOUB  28
+SN0  OD1  HD1  SING  29
+#

@@ -1,0 +1,59 @@
+data_WBU
+#
+_chem_comp.id                   WBU
+_chem_comp.name                 5-AMINO-1H-PYRIMIDINE-2,4-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H5 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        127.102
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+WBU  N1    .  N  0  36.005  -2.076  12.475  1  1 
+WBU  C2    .  C  0  35.082  -2.402  11.532  1  2 
+WBU  O2    .  O  0  34.747  -1.572  10.711  1  3 
+WBU  N3    .  N  0  34.525  -3.641  11.495  1  4 
+WBU  C4    .  C  0  34.883  -4.587  12.406  1  5 
+WBU  O4    .  O  0  34.38   -5.7    12.37   1  6 
+WBU  C5    .  C  0  35.858  -4.259  13.41   1  7 
+WBU  C6    .  C  0  36.402  -3.004  13.424  1  8 
+WBU  N01   .  N  0  36.253  -5.216  14.366  1  9 
+WBU  H1    .  H  0  36.409  -1.14   12.484  1  10
+WBU  H6    .  H  0  37.152  -2.733  14.186  1  11
+WBU  H3    .  H  0  33.833  -3.864  10.779  1  12
+WBU  1H01  .  H  0  35.847  -6.152  14.356  0  13
+WBU  2H01  .  H  0  36.945  -4.983  15.078  0  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+WBU  N1   C2    SING  1 
+WBU  N1   C6    SING  2 
+WBU  N1   H1    SING  3 
+WBU  C2   O2    DOUB  4 
+WBU  C2   N3    SING  5 
+WBU  N3   C4    SING  6 
+WBU  N3   H3    SING  7 
+WBU  C4   O4    DOUB  8 
+WBU  C4   C5    SING  9 
+WBU  C5   C6    DOUB  10
+WBU  C5   N01   SING  11
+WBU  C6   H6    SING  12
+WBU  N01  1H01  SING  13
+WBU  N01  2H01  SING  14
+#

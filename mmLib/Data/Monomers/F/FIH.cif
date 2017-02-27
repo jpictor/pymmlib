@@ -1,0 +1,114 @@
+data_FIH
+#
+_chem_comp.id                   FIH
+_chem_comp.name                 '5-(4-FLUOROPHENYL)-3-{[(4-METHYLPHENYL)SULFONYL]AMINO}THIOPHENE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H14 N1 O4 F1 S2'
+_chem_comp.pdbx_synonyms        '5-(4-FLUOROPHENYL)-3-(TOSYLAMINO)THIOPHENE-2-CARBOXYLIC ACI'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        391.431
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FIH  C1    .  C  0  13.180  31.379  73.304  1  1 
+FIH  C2    .  C  0  13.130  30.396  72.270  1  2 
+FIH  C3    .  C  0  11.885  29.790  71.962  1  3 
+FIH  C4    .  C  0  10.711  30.154  72.666  1  4 
+FIH  C5    .  C  0  10.739  31.136  73.700  1  5 
+FIH  C6    .  C  0  11.996  31.747  74.012  1  6 
+FIH  C7    .  C  0  7.076   31.905  74.985  1  7 
+FIH  C8    .  C  0  7.915   32.273  76.028  1  8 
+FIH  C9    .  C  0  9.297   32.041  75.690  1  9 
+FIH  C10   .  C  0  9.482   31.507  74.415  1  10
+FIH  S11   .  S  0  7.957   31.300  73.667  1  11
+FIH  F12   .  F  0  14.210  30.053  71.611  1  12
+FIH  C14   .  C  0  5.595   32.013  74.989  1  13
+FIH  O15   .  O  0  4.969   31.406  74.095  1  14
+FIH  O16   .  O  0  5.048   32.711  75.869  1  15
+FIH  N17   .  N  0  7.461   32.824  77.308  1  16
+FIH  S18   .  S  0  8.182   34.198  78.007  1  17
+FIH  C19   .  C  0  7.350   36.387  76.455  1  18
+FIH  C20   .  C  0  8.449   35.569  76.863  1  19
+FIH  C21   .  C  0  9.758   35.837  76.362  1  20
+FIH  C22   .  C  0  9.968   36.915  75.458  1  21
+FIH  C23   .  C  0  8.875   37.729  75.052  1  22
+FIH  C24   .  C  0  7.567   37.464  75.552  1  23
+FIH  C25   .  C  0  9.103   38.867  74.094  1  24
+FIH  O26   .  O  0  9.466   33.756  78.538  1  25
+FIH  O27   .  O  0  7.274   34.633  79.065  1  26
+FIH  H15   .  H  0  ?       ?       ?       1  27
+FIH  H9    .  H  0  ?       ?       ?       1  28
+FIH  H17   .  H  0  ?       ?       ?       1  29
+FIH  H21   .  H  0  ?       ?       ?       1  30
+FIH  H22   .  H  0  ?       ?       ?       1  31
+FIH  H24   .  H  0  ?       ?       ?       1  32
+FIH  H19   .  H  0  ?       ?       ?       1  33
+FIH  1H25  .  H  0  ?       ?       ?       0  34
+FIH  2H25  .  H  0  ?       ?       ?       0  35
+FIH  3H25  .  H  0  ?       ?       ?       0  36
+FIH  H6    .  H  0  ?       ?       ?       1  37
+FIH  H1    .  H  0  ?       ?       ?       1  38
+FIH  H3    .  H  0  ?       ?       ?       1  39
+FIH  H4    .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FIH  C1   C6    AROM  1 
+FIH  C1   H1    SING  2 
+FIH  C1   C2    AROM  3 
+FIH  C2   F12   SING  4 
+FIH  C2   C3    AROM  5 
+FIH  C3   H3    SING  6 
+FIH  C3   C4    AROM  7 
+FIH  C4   C5    AROM  8 
+FIH  C4   H4    SING  9 
+FIH  C5   C10   SING  10
+FIH  C5   C6    AROM  11
+FIH  C6   H6    SING  12
+FIH  C7   C14   SING  13
+FIH  C7   S11   AROM  14
+FIH  C7   C8    AROM  15
+FIH  C8   C9    AROM  16
+FIH  C8   N17   SING  17
+FIH  C9   C10   AROM  18
+FIH  C9   H9    SING  19
+FIH  C10  S11   AROM  20
+FIH  C14  O15   SING  21
+FIH  C14  O16   DOUB  22
+FIH  O15  H15   SING  23
+FIH  N17  H17   SING  24
+FIH  N17  S18   SING  25
+FIH  S18  O26   DOUB  26
+FIH  S18  O27   DOUB  27
+FIH  S18  C20   SING  28
+FIH  C19  C24   AROM  29
+FIH  C19  C20   AROM  30
+FIH  C19  H19   SING  31
+FIH  C20  C21   AROM  32
+FIH  C21  H21   SING  33
+FIH  C21  C22   AROM  34
+FIH  C22  H22   SING  35
+FIH  C22  C23   AROM  36
+FIH  C23  C24   AROM  37
+FIH  C23  C25   SING  38
+FIH  C24  H24   SING  39
+FIH  C25  1H25  SING  40
+FIH  C25  2H25  SING  41
+FIH  C25  3H25  SING  42
+#

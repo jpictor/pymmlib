@@ -1,0 +1,69 @@
+data_CXL
+#
+_chem_comp.id                   CXL
+_chem_comp.name                 CYCLOHEXANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        100.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CXL  C1   .  C  0  ?  ?  ?  1  1 
+CXL  C2   .  C  0  ?  ?  ?  1  2 
+CXL  C3   .  C  0  ?  ?  ?  1  3 
+CXL  C4   .  C  0  ?  ?  ?  1  4 
+CXL  C5   .  C  0  ?  ?  ?  1  5 
+CXL  C6   .  C  0  ?  ?  ?  1  6 
+CXL  O    .  O  0  ?  ?  ?  1  7 
+CXL  H1   .  H  0  ?  ?  ?  1  8 
+CXL  1H2  .  H  0  ?  ?  ?  0  9 
+CXL  2H2  .  H  0  ?  ?  ?  0  10
+CXL  1H3  .  H  0  ?  ?  ?  0  11
+CXL  2H3  .  H  0  ?  ?  ?  0  12
+CXL  1H4  .  H  0  ?  ?  ?  0  13
+CXL  2H4  .  H  0  ?  ?  ?  0  14
+CXL  1H5  .  H  0  ?  ?  ?  0  15
+CXL  2H5  .  H  0  ?  ?  ?  0  16
+CXL  1H6  .  H  0  ?  ?  ?  0  17
+CXL  2H6  .  H  0  ?  ?  ?  0  18
+CXL  HO   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CXL  C1  C6   SING  1 
+CXL  C1  C2   SING  2 
+CXL  C1  O    SING  3 
+CXL  C1  H1   SING  4 
+CXL  C2  C3   SING  5 
+CXL  C2  1H2  SING  6 
+CXL  C2  2H2  SING  7 
+CXL  C3  C4   SING  8 
+CXL  C3  1H3  SING  9 
+CXL  C3  2H3  SING  10
+CXL  C4  C5   SING  11
+CXL  C4  1H4  SING  12
+CXL  C4  2H4  SING  13
+CXL  C5  C6   SING  14
+CXL  C5  1H5  SING  15
+CXL  C5  2H5  SING  16
+CXL  C6  1H6  SING  17
+CXL  C6  2H6  SING  18
+CXL  O   HO   SING  19
+#

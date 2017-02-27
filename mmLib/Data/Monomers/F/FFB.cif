@@ -1,0 +1,100 @@
+data_FFB
+#
+_chem_comp.id                   FFB
+_chem_comp.name                 N-(2,3,4,5,6-PENTAFLOURO-BENZYL)-4-SULFAMOYL-BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H9 N2 O3 F5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        380.289
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FFB  C01   .  C  0  ?  ?  ?  1  1 
+FFB  C02   .  C  0  ?  ?  ?  1  2 
+FFB  C03   .  C  0  ?  ?  ?  1  3 
+FFB  C04   .  C  0  ?  ?  ?  1  4 
+FFB  C05   .  C  0  ?  ?  ?  1  5 
+FFB  C06   .  C  0  ?  ?  ?  1  6 
+FFB  C07   .  C  0  ?  ?  ?  1  7 
+FFB  O08   .  O  0  ?  ?  ?  1  8 
+FFB  N09   .  N  0  ?  ?  ?  1  9 
+FFB  C10   .  C  0  ?  ?  ?  1  10
+FFB  S11   .  S  0  ?  ?  ?  1  11
+FFB  NP2   .  N  0  ?  ?  ?  1  12
+FFB  O13   .  O  0  ?  ?  ?  1  13
+FFB  O14   .  O  0  ?  ?  ?  1  14
+FFB  C15   .  C  0  ?  ?  ?  1  15
+FFB  C16   .  C  0  ?  ?  ?  1  16
+FFB  C17   .  C  0  ?  ?  ?  1  17
+FFB  C18   .  C  0  ?  ?  ?  1  18
+FFB  C19   .  C  0  ?  ?  ?  1  19
+FFB  C20   .  C  0  ?  ?  ?  1  20
+FFB  F21   .  F  0  ?  ?  ?  1  21
+FFB  F22   .  F  0  ?  ?  ?  1  22
+FFB  F23   .  F  0  ?  ?  ?  1  23
+FFB  F24   .  F  0  ?  ?  ?  1  24
+FFB  F25   .  F  0  ?  ?  ?  1  25
+FFB  1H10  .  H  0  ?  ?  ?  0  26
+FFB  2H10  .  H  0  ?  ?  ?  0  27
+FFB  NH09  .  H  0  ?  ?  ?  0  28
+FFB  CH01  .  H  0  ?  ?  ?  0  29
+FFB  CH02  .  H  0  ?  ?  ?  0  30
+FFB  CH04  .  H  0  ?  ?  ?  0  31
+FFB  CH05  .  H  0  ?  ?  ?  0  32
+FFB  1HNP  .  H  0  ?  ?  ?  0  33
+FFB  2HNP  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FFB  C01  C02   AROM  1 
+FFB  C01  C06   AROM  2 
+FFB  C01  CH01  SING  3 
+FFB  C02  C03   AROM  4 
+FFB  C02  CH02  SING  5 
+FFB  C03  C04   AROM  6 
+FFB  C03  S11   SING  7 
+FFB  C04  C05   AROM  8 
+FFB  C04  CH04  SING  9 
+FFB  C05  C06   AROM  10
+FFB  C05  CH05  SING  11
+FFB  C06  C07   SING  12
+FFB  C07  O08   DOUB  13
+FFB  C07  N09   SING  14
+FFB  N09  C10   SING  15
+FFB  N09  NH09  SING  16
+FFB  C10  C15   SING  17
+FFB  C10  1H10  SING  18
+FFB  C10  2H10  SING  19
+FFB  S11  NP2   SING  20
+FFB  S11  O13   DOUB  21
+FFB  S11  O14   DOUB  22
+FFB  NP2  1HNP  SING  23
+FFB  NP2  2HNP  SING  24
+FFB  C15  C16   AROM  25
+FFB  C15  C20   AROM  26
+FFB  C16  C17   AROM  27
+FFB  C16  F21   SING  28
+FFB  C17  C18   AROM  29
+FFB  C17  F22   SING  30
+FFB  C18  C19   AROM  31
+FFB  C18  F23   SING  32
+FFB  C19  C20   AROM  33
+FFB  C19  F24   SING  34
+FFB  C20  F25   SING  35
+#

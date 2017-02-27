@@ -1,0 +1,87 @@
+data_6CW
+#
+_chem_comp.id                       6CW
+_chem_comp.name                     6-CHLORO-L-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H11 N2 O2 CL1'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            238.673
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+6CW  N    .  N   0  3.312  10.527  -7.564  1  1 
+6CW  CA   .  C   0  3.824  11.232  -6.421  1  2 
+6CW  CB   .  C   0  3.683  10.322  -5.274  1  3 
+6CW  CG   .  C   0  4.247  10.724  -3.974  1  4 
+6CW  CD2  .  C   0  3.738  11.653  -2.990  1  5 
+6CW  CE3  .  C   0  2.634  12.511  -2.916  1  6 
+6CW  CE2  .  C   0  4.606  11.607  -1.886  1  7 
+6CW  NE1  .  N   0  5.613  10.719  -2.179  1  8 
+6CW  CD1  .  C   0  5.408  10.233  -3.384  1  9 
+6CW  CZ2  .  C   0  4.398  12.337  -0.696  1  10
+6CW  CH2  .  C   0  3.298  13.176  -0.715  1  11
+6CW  CLL  .  CL  0  2.908  14.009  0.699   0  12
+6CW  CZ3  .  C   0  2.418  13.211  -1.778  1  13
+6CW  C    .  C   0  5.307  11.436  -6.619  1  14
+6CW  O    .  O   0  6.041  10.456  -6.639  1  15
+6CW  OXT  .  O   0  ?      ?       ?       1  16
+6CW  1HN  .  H   0  ?      ?       ?       0  17
+6CW  2HN  .  H   0  ?      ?       ?       0  18
+6CW  HA   .  H   0  ?      ?       ?       1  19
+6CW  1HB  .  H   0  ?      ?       ?       0  20
+6CW  2HB  .  H   0  ?      ?       ?       0  21
+6CW  HD1  .  H   0  ?      ?       ?       1  22
+6CW  HE1  .  H   0  ?      ?       ?       1  23
+6CW  HZ2  .  H   0  ?      ?       ?       1  24
+6CW  HZ3  .  H   0  ?      ?       ?       1  25
+6CW  HE3  .  H   0  ?      ?       ?       1  26
+6CW  HXT  .  H   0  ?      ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+6CW  N    CA   SING  1 
+6CW  N    1HN  SING  2 
+6CW  N    2HN  SING  3 
+6CW  CA   CB   SING  4 
+6CW  CA   C    SING  5 
+6CW  CA   HA   SING  6 
+6CW  CB   CG   SING  7 
+6CW  CB   1HB  SING  8 
+6CW  CB   2HB  SING  9 
+6CW  CG   CD1  DOUB  10
+6CW  CG   CD2  SING  11
+6CW  CD2  CE3  DOUB  12
+6CW  CD2  CE2  SING  13
+6CW  CE3  CZ3  SING  14
+6CW  CE3  HE3  SING  15
+6CW  CE2  NE1  SING  16
+6CW  CE2  CZ2  DOUB  17
+6CW  NE1  CD1  SING  18
+6CW  NE1  HE1  SING  19
+6CW  CD1  HD1  SING  20
+6CW  CZ2  CH2  SING  21
+6CW  CZ2  HZ2  SING  22
+6CW  CH2  CLL  SING  23
+6CW  CH2  CZ3  DOUB  24
+6CW  CZ3  HZ3  SING  25
+6CW  C    O    DOUB  26
+6CW  C    OXT  SING  27
+6CW  OXT  HXT  SING  28
+#

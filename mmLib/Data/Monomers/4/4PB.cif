@@ -1,0 +1,68 @@
+data_4PB
+#
+_chem_comp.id                   4PB
+_chem_comp.name                 N-HYDROXY-4-PHOSPHONO-BUTANAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C4 H8 N1 O5 P1'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       181.085
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4PB  C1   .  C  0   ?  ?  ?  1  1 
+4PB  C2   .  C  0   ?  ?  ?  1  2 
+4PB  C3   .  C  0   ?  ?  ?  1  3 
+4PB  C4   .  C  0   ?  ?  ?  1  4 
+4PB  N    .  N  0   ?  ?  ?  1  5 
+4PB  O1   .  O  0   ?  ?  ?  1  6 
+4PB  ON   .  O  0   ?  ?  ?  1  7 
+4PB  P    .  P  0   ?  ?  ?  1  8 
+4PB  O1P  .  O  0   ?  ?  ?  1  9 
+4PB  O2P  .  O  -1  ?  ?  ?  1  10
+4PB  O3P  .  O  -1  ?  ?  ?  1  11
+4PB  1H2  .  H  0   ?  ?  ?  0  12
+4PB  2H2  .  H  0   ?  ?  ?  0  13
+4PB  1H3  .  H  0   ?  ?  ?  0  14
+4PB  2H3  .  H  0   ?  ?  ?  0  15
+4PB  1H4  .  H  0   ?  ?  ?  0  16
+4PB  2H4  .  H  0   ?  ?  ?  0  17
+4PB  HN   .  H  0   ?  ?  ?  1  18
+4PB  HON  .  H  0   ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4PB  C1  C2   SING  1 
+4PB  C1  O1   DOUB  2 
+4PB  C1  N    SING  3 
+4PB  C2  C3   SING  4 
+4PB  C2  1H2  SING  5 
+4PB  C2  2H2  SING  6 
+4PB  C3  C4   SING  7 
+4PB  C3  1H3  SING  8 
+4PB  C3  2H3  SING  9 
+4PB  C4  P    SING  10
+4PB  C4  1H4  SING  11
+4PB  C4  2H4  SING  12
+4PB  N   ON   SING  13
+4PB  N   HN   SING  14
+4PB  ON  HON  SING  15
+4PB  P   O1P  DOUB  16
+4PB  P   O2P  SING  17
+4PB  P   O3P  SING  18
+#

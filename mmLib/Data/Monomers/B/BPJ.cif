@@ -1,0 +1,109 @@
+data_BPJ
+#
+_chem_comp.id                   BPJ
+_chem_comp.name                 (1R)-1,2,3,4-TETRAHYDRO-BENZO[C]PHENANTHRENE-2,3,4-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H16 O3'
+_chem_comp.pdbx_synonyms        1R-TRANS-ANTI-BENZO[C]PHENANTHRENE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        280.323
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPJ  C1   .  C  0  ?  ?  ?  1  1 
+BPJ  C2   .  C  0  ?  ?  ?  1  2 
+BPJ  O2   .  O  0  ?  ?  ?  1  3 
+BPJ  C3   .  C  0  ?  ?  ?  1  4 
+BPJ  O3   .  O  0  ?  ?  ?  1  5 
+BPJ  C4   .  C  0  ?  ?  ?  1  6 
+BPJ  O4   .  O  0  ?  ?  ?  1  7 
+BPJ  C5   .  C  0  ?  ?  ?  1  8 
+BPJ  C6   .  C  0  ?  ?  ?  1  9 
+BPJ  C7   .  C  0  ?  ?  ?  1  10
+BPJ  C8   .  C  0  ?  ?  ?  1  11
+BPJ  C9   .  C  0  ?  ?  ?  1  12
+BPJ  C10  .  C  0  ?  ?  ?  1  13
+BPJ  C11  .  C  0  ?  ?  ?  1  14
+BPJ  C12  .  C  0  ?  ?  ?  1  15
+BPJ  C13  .  C  0  ?  ?  ?  1  16
+BPJ  C14  .  C  0  ?  ?  ?  1  17
+BPJ  C15  .  C  0  ?  ?  ?  1  18
+BPJ  C16  .  C  0  ?  ?  ?  1  19
+BPJ  C17  .  C  0  ?  ?  ?  1  20
+BPJ  C18  .  C  0  ?  ?  ?  1  21
+BPJ  1H1  .  H  0  ?  ?  ?  0  22
+BPJ  2H1  .  H  0  ?  ?  ?  0  23
+BPJ  H2   .  H  0  ?  ?  ?  1  24
+BPJ  2HO  .  H  0  ?  ?  ?  0  25
+BPJ  H3   .  H  0  ?  ?  ?  1  26
+BPJ  3HO  .  H  0  ?  ?  ?  0  27
+BPJ  H4   .  H  0  ?  ?  ?  1  28
+BPJ  4HO  .  H  0  ?  ?  ?  0  29
+BPJ  H5   .  H  0  ?  ?  ?  1  30
+BPJ  H6   .  H  0  ?  ?  ?  1  31
+BPJ  H7   .  H  0  ?  ?  ?  1  32
+BPJ  H8   .  H  0  ?  ?  ?  1  33
+BPJ  H9   .  H  0  ?  ?  ?  1  34
+BPJ  H10  .  H  0  ?  ?  ?  1  35
+BPJ  H11  .  H  0  ?  ?  ?  1  36
+BPJ  H12  .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPJ  C1   1H1  SING  1 
+BPJ  C1   2H1  SING  2 
+BPJ  C1   C2   SING  3 
+BPJ  C1   C13  SING  4 
+BPJ  C2   H2   SING  5 
+BPJ  C2   O2   SING  6 
+BPJ  C2   C3   SING  7 
+BPJ  O2   2HO  SING  8 
+BPJ  C3   H3   SING  9 
+BPJ  C3   O3   SING  10
+BPJ  C3   C4   SING  11
+BPJ  O3   3HO  SING  12
+BPJ  C4   H4   SING  13
+BPJ  C4   O4   SING  14
+BPJ  C4   C14  SING  15
+BPJ  O4   4HO  SING  16
+BPJ  C5   H5   SING  17
+BPJ  C5   C6   DOUB  18
+BPJ  C5   C14  SING  19
+BPJ  C6   H6   SING  20
+BPJ  C6   C15  SING  21
+BPJ  C7   H7   SING  22
+BPJ  C7   C8   DOUB  23
+BPJ  C7   C15  SING  24
+BPJ  C8   H8   SING  25
+BPJ  C8   C18  SING  26
+BPJ  C9   H9   SING  27
+BPJ  C9   C10  DOUB  28
+BPJ  C9   C18  SING  29
+BPJ  C10  H10  SING  30
+BPJ  C10  C11  SING  31
+BPJ  C11  H11  SING  32
+BPJ  C11  C12  DOUB  33
+BPJ  C12  H12  SING  34
+BPJ  C12  C17  SING  35
+BPJ  C13  C14  DOUB  36
+BPJ  C13  C16  SING  37
+BPJ  C15  C16  DOUB  38
+BPJ  C16  C17  SING  39
+BPJ  C17  C18  DOUB  40
+#

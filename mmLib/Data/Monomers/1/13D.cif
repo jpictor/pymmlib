@@ -1,0 +1,60 @@
+data_13D
+#
+_chem_comp.id                   13D
+_chem_comp.name                 1,3-DIAMINOPROPANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H10 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        74.125
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+13D  CA    .  C  0  17.221  17.031  22.912  1  1 
+13D  CB    .  C  0  16.58   16.436  21.645  1  2 
+13D  CC    .  C  0  15.087  16.767  21.572  1  3 
+13D  ND    .  N  0  14.677  16.871  20.16   1  4 
+13D  NAA   .  N  0  16.747  16.324  24.11   1  5 
+13D  1HAC  .  H  0  17.051  18.131  22.985  0  6 
+13D  2HAC  .  H  0  18.334  17.039  22.849  0  7 
+13D  1HBC  .  H  0  16.76   15.338  21.571  0  8 
+13D  2HBC  .  H  0  17.117  16.76   20.723  0  9 
+13D  1HAA  .  H  0  16.318  16.77   24.921  0  10
+13D  2HAA  .  H  0  17.349  15.883  24.806  0  11
+13D  1HCC  .  H  0  14.829  17.682  22.155  0  12
+13D  2HCC  .  H  0  14.465  16.036  22.139  0  13
+13D  1HDN  .  H  0  15.558  17.07   19.686  0  14
+13D  2HDN  .  H  0  14.152  17.746  20.144  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+13D  CA   CB    SING  1 
+13D  CA   NAA   SING  2 
+13D  CA   1HAC  SING  3 
+13D  CA   2HAC  SING  4 
+13D  CB   CC    SING  5 
+13D  CB   1HBC  SING  6 
+13D  CB   2HBC  SING  7 
+13D  CC   ND    SING  8 
+13D  CC   1HCC  SING  9 
+13D  CC   2HCC  SING  10
+13D  ND   1HDN  SING  11
+13D  ND   2HDN  SING  12
+13D  NAA  1HAA  SING  13
+13D  NAA  2HAA  SING  14
+#

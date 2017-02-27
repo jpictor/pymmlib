@@ -1,0 +1,62 @@
+data_ALM
+#
+_chem_comp.id                       ALM
+_chem_comp.name                     1-METHYL-ALANINAL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O1'
+_chem_comp.pdbx_synonyms            3-AMINO-BUTAN-2-ONE
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            87.121
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALM  N    .  N  0  ?  ?  ?  1  1 
+ALM  CA   .  C  0  ?  ?  ?  1  2 
+ALM  C    .  C  0  ?  ?  ?  1  3 
+ALM  O    .  O  0  ?  ?  ?  1  4 
+ALM  CB   .  C  0  ?  ?  ?  1  5 
+ALM  CM   .  C  0  ?  ?  ?  1  6 
+ALM  1HN  .  H  0  ?  ?  ?  0  7 
+ALM  2HN  .  H  0  ?  ?  ?  0  8 
+ALM  HA   .  H  0  ?  ?  ?  1  9 
+ALM  1HB  .  H  0  ?  ?  ?  0  10
+ALM  2HB  .  H  0  ?  ?  ?  0  11
+ALM  3HB  .  H  0  ?  ?  ?  0  12
+ALM  1HM  .  H  0  ?  ?  ?  0  13
+ALM  2HM  .  H  0  ?  ?  ?  0  14
+ALM  3HM  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALM  N   CA   SING  1 
+ALM  N   1HN  SING  2 
+ALM  N   2HN  SING  3 
+ALM  CA  C    SING  4 
+ALM  CA  CB   SING  5 
+ALM  CA  HA   SING  6 
+ALM  C   O    DOUB  7 
+ALM  C   CM   SING  8 
+ALM  CB  1HB  SING  9 
+ALM  CB  2HB  SING  10
+ALM  CB  3HB  SING  11
+ALM  CM  1HM  SING  12
+ALM  CM  2HM  SING  13
+ALM  CM  3HM  SING  14
+#

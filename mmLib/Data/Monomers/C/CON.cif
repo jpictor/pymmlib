@@ -1,0 +1,81 @@
+data_CON
+#
+_chem_comp.id                   CON
+_chem_comp.name                 'COBALT TETRAAMINE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H12 N4 CO1'
+_chem_comp.pdbx_formal_charge   3+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       127.055
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+CON  SMILES             N[Co+3](N)(N)N                   CACTVS   2.87 
+CON  SMILES_CANNONICAL  N[Co+3](N)(N)N                   CACTVS   2.87 
+CON  INCHI              InChI=1/Co.4H3N/h;4*1H3/q+3;;;;  InChi    1    
+CON  SMILES             [NH3][Co+3]([NH3])([NH3])[NH3]   OpenEye  1.3.4
+CON  SMILES_CANNONICAL  [NH3][Co+3]([NH3])([NH3])[NH3]   OpenEye  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+CON  CO    .  CO  3  9.192   -0.098  11.545  0  N  N  N  1 
+CON  N1    .  N   0  10.76   -0.186  12.954  1  N  N  N  2 
+CON  N2    .  N   0  7.875   -0.974  12.945  1  N  N  N  3 
+CON  N3    .  N   0  8.668   1.821   12.248  1  N  N  N  4 
+CON  N4    .  N   0  9.72    -2.015  10.832  1  N  N  N  5 
+CON  1HN1  .  H   0  11.064  -1.091  13.025  0  N  N  N  6 
+CON  2HN1  .  H   0  10.443  0.12    13.804  0  N  N  N  7 
+CON  3HN1  .  H   0  11.482  0.372   12.665  0  N  N  N  8 
+CON  1HN2  .  H   0  6.968   -0.823  12.675  0  N  N  N  9 
+CON  2HN2  .  H   0  8.04    -1.915  12.995  0  N  N  N  10
+CON  3HN2  .  H   0  8.019   -0.584  13.807  0  N  N  N  11
+CON  1HN3  .  H   0  8.919   2.478   11.601  0  N  N  N  12
+CON  2HN3  .  H   0  9.129   1.995   13.069  0  N  N  N  13
+CON  3HN3  .  H   0  7.723   1.865   12.391  0  N  N  N  14
+CON  1HN4  .  H   0  8.938   -2.565  10.788  0  N  N  N  15
+CON  2HN4  .  H   0  10.104  -1.932  9.959   0  N  N  N  16
+CON  3HN4  .  H   0  10.357  -2.413  11.425  0  N  N  N  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+CON  CO  N1    SING  N  N  1 
+CON  CO  N2    SING  N  N  2 
+CON  CO  N3    SING  N  N  3 
+CON  CO  N4    SING  N  N  4 
+CON  N1  1HN1  SING  N  N  5 
+CON  N1  2HN1  SING  N  N  6 
+CON  N1  3HN1  SING  N  N  7 
+CON  N2  1HN2  SING  N  N  8 
+CON  N2  2HN2  SING  N  N  9 
+CON  N2  3HN2  SING  N  N  10
+CON  N3  1HN3  SING  N  N  11
+CON  N3  2HN3  SING  N  N  12
+CON  N3  3HN3  SING  N  N  13
+CON  N4  1HN4  SING  N  N  14
+CON  N4  2HN4  SING  N  N  15
+CON  N4  3HN4  SING  N  N  16
+#

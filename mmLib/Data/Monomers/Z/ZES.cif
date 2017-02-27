@@ -1,0 +1,107 @@
+data_ZES
+#
+_chem_comp.id                   ZES
+_chem_comp.name                 '[3-(4-BROMO-2-FLUORO-BENZYL)-7-CHLORO-2,4-DIOXO-3,4-DIHYDRO-2H-QUINAZOLIN-1-YL]-ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H11 N2 O4 BR1 CL1 F1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        441.640
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZES  C1    .  C   0  ?  ?  ?  1  1 
+ZES  C2    .  C   0  ?  ?  ?  1  2 
+ZES  C3    .  C   0  ?  ?  ?  1  3 
+ZES  C4    .  C   0  ?  ?  ?  1  4 
+ZES  C5    .  C   0  ?  ?  ?  1  5 
+ZES  C6    .  C   0  ?  ?  ?  1  6 
+ZES  C10   .  C   0  ?  ?  ?  1  7 
+ZES  N11   .  N   0  ?  ?  ?  1  8 
+ZES  C12   .  C   0  ?  ?  ?  1  9 
+ZES  N13   .  N   0  ?  ?  ?  1  10
+ZES  C14   .  C   0  ?  ?  ?  1  11
+ZES  C15   .  C   0  ?  ?  ?  1  12
+ZES  C18   .  C   0  ?  ?  ?  1  13
+ZES  C19   .  C   0  ?  ?  ?  1  14
+ZES  C20   .  C   0  ?  ?  ?  1  15
+ZES  C21   .  C   0  ?  ?  ?  1  16
+ZES  C22   .  C   0  ?  ?  ?  1  17
+ZES  CL6   .  CL  0  ?  ?  ?  0  18
+ZES  C27   .  C   0  ?  ?  ?  1  19
+ZES  C28   .  C   0  ?  ?  ?  1  20
+ZES  O31   .  O   0  ?  ?  ?  1  21
+ZES  O32   .  O   0  ?  ?  ?  1  22
+ZES  O33   .  O   0  ?  ?  ?  1  23
+ZES  O34   .  O   0  ?  ?  ?  1  24
+ZES  F35   .  F   0  ?  ?  ?  1  25
+ZES  BR3   .  BR  0  ?  ?  ?  0  26
+ZES  H1    .  H   0  ?  ?  ?  1  27
+ZES  H2    .  H   0  ?  ?  ?  1  28
+ZES  H5    .  H   0  ?  ?  ?  1  29
+ZES  1H14  .  H   0  ?  ?  ?  0  30
+ZES  2H14  .  H   0  ?  ?  ?  0  31
+ZES  H19   .  H   0  ?  ?  ?  1  32
+ZES  H21   .  H   0  ?  ?  ?  1  33
+ZES  H22   .  H   0  ?  ?  ?  1  34
+ZES  1H27  .  H   0  ?  ?  ?  0  35
+ZES  2H27  .  H   0  ?  ?  ?  0  36
+ZES  H32   .  H   0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZES  C1   C2    DOUB  1 
+ZES  C1   C6    SING  2 
+ZES  C1   H1    SING  3 
+ZES  C2   C3    SING  4 
+ZES  C2   H2    SING  5 
+ZES  C3   C4    DOUB  6 
+ZES  C3   C10   SING  7 
+ZES  C4   C5    SING  8 
+ZES  C4   N13   SING  9 
+ZES  C5   C6    DOUB  10
+ZES  C5   H5    SING  11
+ZES  C6   CL6   SING  12
+ZES  C10  N11   SING  13
+ZES  C10  O34   DOUB  14
+ZES  N11  C12   SING  15
+ZES  N11  C14   SING  16
+ZES  C12  N13   SING  17
+ZES  C12  O33   DOUB  18
+ZES  N13  C27   SING  19
+ZES  C14  C15   SING  20
+ZES  C14  1H14  SING  21
+ZES  C14  2H14  SING  22
+ZES  C15  C18   DOUB  23
+ZES  C15  C22   SING  24
+ZES  C18  C19   SING  25
+ZES  C18  F35   SING  26
+ZES  C19  C20   DOUB  27
+ZES  C19  H19   SING  28
+ZES  C20  C21   SING  29
+ZES  C20  BR3   SING  30
+ZES  C21  C22   DOUB  31
+ZES  C21  H21   SING  32
+ZES  C22  H22   SING  33
+ZES  C27  C28   SING  34
+ZES  C27  1H27  SING  35
+ZES  C27  2H27  SING  36
+ZES  C28  O31   DOUB  37
+ZES  C28  O32   SING  38
+ZES  O32  H32   SING  39
+#

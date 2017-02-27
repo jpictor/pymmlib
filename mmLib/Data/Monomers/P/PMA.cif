@@ -1,0 +1,79 @@
+data_PMA
+#
+_chem_comp.id                   PMA
+_chem_comp.name                 'PYROMELLITIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H6 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        254.153
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PMA  C1   .  C  0  ?  ?  ?  1  1 
+PMA  C2   .  C  0  ?  ?  ?  1  2 
+PMA  C3   .  C  0  ?  ?  ?  1  3 
+PMA  C4   .  C  0  ?  ?  ?  1  4 
+PMA  C5   .  C  0  ?  ?  ?  1  5 
+PMA  C6   .  C  0  ?  ?  ?  1  6 
+PMA  C7   .  C  0  ?  ?  ?  1  7 
+PMA  C8   .  C  0  ?  ?  ?  1  8 
+PMA  C9   .  C  0  ?  ?  ?  1  9 
+PMA  C10  .  C  0  ?  ?  ?  1  10
+PMA  O1   .  O  0  ?  ?  ?  1  11
+PMA  O2   .  O  0  ?  ?  ?  1  12
+PMA  O3   .  O  0  ?  ?  ?  1  13
+PMA  O4   .  O  0  ?  ?  ?  1  14
+PMA  O5   .  O  0  ?  ?  ?  1  15
+PMA  O6   .  O  0  ?  ?  ?  1  16
+PMA  O7   .  O  0  ?  ?  ?  1  17
+PMA  O8   .  O  0  ?  ?  ?  1  18
+PMA  H3   .  H  0  ?  ?  ?  1  19
+PMA  H6   .  H  0  ?  ?  ?  1  20
+PMA  HO2  .  H  0  ?  ?  ?  1  21
+PMA  HO4  .  H  0  ?  ?  ?  1  22
+PMA  HO6  .  H  0  ?  ?  ?  1  23
+PMA  HO8  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PMA  C1   C2   DOUB  1 
+PMA  C1   C3   SING  2 
+PMA  C1   C9   SING  3 
+PMA  C2   C6   SING  4 
+PMA  C2   C10  SING  5 
+PMA  C3   C5   DOUB  6 
+PMA  C3   H3   SING  7 
+PMA  C4   C5   SING  8 
+PMA  C4   C6   DOUB  9 
+PMA  C4   C7   SING  10
+PMA  C5   C8   SING  11
+PMA  C6   H6   SING  12
+PMA  C7   O5   DOUB  13
+PMA  C7   O6   SING  14
+PMA  C8   O7   DOUB  15
+PMA  C8   O8   SING  16
+PMA  C9   O1   DOUB  17
+PMA  C9   O2   SING  18
+PMA  C10  O3   DOUB  19
+PMA  C10  O4   SING  20
+PMA  O2   HO2  SING  21
+PMA  O4   HO4  SING  22
+PMA  O6   HO6  SING  23
+PMA  O8   HO8  SING  24
+#

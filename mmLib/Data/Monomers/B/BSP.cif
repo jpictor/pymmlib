@@ -1,0 +1,123 @@
+data_BSP
+#
+_chem_comp.id                   BSP
+_chem_comp.name                 '3,3'-(4,5,6,7-TETRABROMO-3-OXO-1(3H)-ISOBENZOFURANYLIDENE)BIS [6-HYDROXYBENZENESULFONIC ACID]ANION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H8 O10 BR4 S2'
+_chem_comp.pdbx_synonyms        BROMOSULFALEIN
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       792.013
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BSP  C5   .  C   0   ?  ?  ?  1  1 
+BSP  C4   .  C   0   ?  ?  ?  1  2 
+BSP  C3   .  C   0   ?  ?  ?  1  3 
+BSP  C8   .  C   0   ?  ?  ?  1  4 
+BSP  C7   .  C   0   ?  ?  ?  1  5 
+BSP  C6   .  C   0   ?  ?  ?  1  6 
+BSP  BR6  .  BR  0   ?  ?  ?  0  7 
+BSP  BR7  .  BR  0   ?  ?  ?  0  8 
+BSP  BR5  .  BR  0   ?  ?  ?  0  9 
+BSP  BR4  .  BR  0   ?  ?  ?  0  10
+BSP  C9   .  C   0   ?  ?  ?  1  11
+BSP  O1   .  O   0   ?  ?  ?  1  12
+BSP  O9   .  O   0   ?  ?  ?  1  13
+BSP  C2   .  C   0   ?  ?  ?  1  14
+BSP  C1'  .  C   0   ?  ?  ?  1  15
+BSP  C2'  .  C   0   ?  ?  ?  1  16
+BSP  C3'  .  C   0   ?  ?  ?  1  17
+BSP  C4'  .  C   0   ?  ?  ?  1  18
+BSP  C5'  .  C   0   ?  ?  ?  1  19
+BSP  C6'  .  C   0   ?  ?  ?  1  20
+BSP  O4'  .  O   0   ?  ?  ?  1  21
+BSP  S1'  .  S   0   ?  ?  ?  1  22
+BSP  OS1  .  O   0   ?  ?  ?  1  23
+BSP  OS2  .  O   -1  ?  ?  ?  1  24
+BSP  OS3  .  O   0   ?  ?  ?  1  25
+BSP  C1*  .  C   0   ?  ?  ?  1  26
+BSP  C2*  .  C   0   ?  ?  ?  1  27
+BSP  C3*  .  C   0   ?  ?  ?  1  28
+BSP  C4*  .  C   0   ?  ?  ?  1  29
+BSP  C5*  .  C   0   ?  ?  ?  1  30
+BSP  C6*  .  C   0   ?  ?  ?  1  31
+BSP  O4*  .  O   0   ?  ?  ?  1  32
+BSP  S1*  .  S   0   ?  ?  ?  1  33
+BSP  OSA  .  O   0   ?  ?  ?  1  34
+BSP  OSB  .  O   -1  ?  ?  ?  1  35
+BSP  OSC  .  O   0   ?  ?  ?  1  36
+BSP  H2'  .  H   0   ?  ?  ?  1  37
+BSP  H4'  .  H   0   ?  ?  ?  1  38
+BSP  H5'  .  H   0   ?  ?  ?  1  39
+BSP  H6'  .  H   0   ?  ?  ?  1  40
+BSP  H2*  .  H   0   ?  ?  ?  1  41
+BSP  H4*  .  H   0   ?  ?  ?  1  42
+BSP  H5*  .  H   0   ?  ?  ?  1  43
+BSP  H6*  .  H   0   ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BSP  C5   C4   DOUB  1 
+BSP  C5   C6   SING  2 
+BSP  C5   BR5  SING  3 
+BSP  C4   C3   SING  4 
+BSP  C4   BR4  SING  5 
+BSP  C3   C8   DOUB  6 
+BSP  C3   C2   SING  7 
+BSP  C8   C7   SING  8 
+BSP  C8   C9   SING  9 
+BSP  C7   C6   DOUB  10
+BSP  C7   BR7  SING  11
+BSP  C6   BR6  SING  12
+BSP  C9   O1   SING  13
+BSP  C9   O9   DOUB  14
+BSP  O1   C2   SING  15
+BSP  C2   C1'  SING  16
+BSP  C2   C1*  SING  17
+BSP  C1'  C2'  DOUB  18
+BSP  C1'  C6'  SING  19
+BSP  C2'  C3'  SING  20
+BSP  C2'  H2'  SING  21
+BSP  C3'  C4'  DOUB  22
+BSP  C3'  S1'  SING  23
+BSP  C4'  C5'  SING  24
+BSP  C4'  O4'  SING  25
+BSP  C5'  C6'  DOUB  26
+BSP  C5'  H5'  SING  27
+BSP  C6'  H6'  SING  28
+BSP  O4'  H4'  SING  29
+BSP  S1'  OS1  DOUB  30
+BSP  S1'  OS2  SING  31
+BSP  S1'  OS3  DOUB  32
+BSP  C1*  C2*  DOUB  33
+BSP  C1*  C6*  SING  34
+BSP  C2*  C3*  SING  35
+BSP  C2*  H2*  SING  36
+BSP  C3*  C4*  DOUB  37
+BSP  C3*  S1*  SING  38
+BSP  C4*  C5*  SING  39
+BSP  C4*  O4*  SING  40
+BSP  C5*  C6*  DOUB  41
+BSP  C5*  H5*  SING  42
+BSP  C6*  H6*  SING  43
+BSP  O4*  H4*  SING  44
+BSP  S1*  OSA  DOUB  45
+BSP  S1*  OSB  SING  46
+BSP  S1*  OSC  DOUB  47
+#

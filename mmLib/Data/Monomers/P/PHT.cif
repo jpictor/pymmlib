@@ -1,0 +1,67 @@
+data_PHT
+#
+_chem_comp.id                   PHT
+_chem_comp.name                 'PHTHALIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H6 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PHT  O8   .  O  0  ?  ?  ?  1  1 
+PHT  O9   .  O  0  ?  ?  ?  1  2 
+PHT  C10  .  C  0  ?  ?  ?  1  3 
+PHT  O11  .  O  0  ?  ?  ?  1  4 
+PHT  O12  .  O  0  ?  ?  ?  1  5 
+PHT  C7   .  C  0  ?  ?  ?  1  6 
+PHT  C1   .  C  0  ?  ?  ?  1  7 
+PHT  C2   .  C  0  ?  ?  ?  1  8 
+PHT  C3   .  C  0  ?  ?  ?  1  9 
+PHT  C4   .  C  0  ?  ?  ?  1  10
+PHT  C5   .  C  0  ?  ?  ?  1  11
+PHT  C6   .  C  0  ?  ?  ?  1  12
+PHT  H9   .  H  0  ?  ?  ?  1  13
+PHT  H12  .  H  0  ?  ?  ?  1  14
+PHT  H1   .  H  0  ?  ?  ?  1  15
+PHT  H4   .  H  0  ?  ?  ?  1  16
+PHT  H5   .  H  0  ?  ?  ?  1  17
+PHT  H6   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PHT  O8   C7   DOUB  1 
+PHT  O9   C7   SING  2 
+PHT  O9   H9   SING  3 
+PHT  C10  O11  DOUB  4 
+PHT  C10  O12  SING  5 
+PHT  C10  C2   SING  6 
+PHT  O12  H12  SING  7 
+PHT  C7   C3   SING  8 
+PHT  C1   C2   DOUB  9 
+PHT  C1   C6   SING  10
+PHT  C1   H1   SING  11
+PHT  C2   C3   SING  12
+PHT  C3   C4   DOUB  13
+PHT  C4   C5   SING  14
+PHT  C4   H4   SING  15
+PHT  C5   C6   DOUB  16
+PHT  C5   H5   SING  17
+PHT  C6   H6   SING  18
+#

@@ -1,0 +1,64 @@
+data_ISP
+#
+_chem_comp.id                   ISP
+_chem_comp.name                 PHOSPHORYLISOPROPANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H9 O4 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        140.075
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ISP  C1    .  C  0  ?  ?  ?  1  1 
+ISP  C2    .  C  0  ?  ?  ?  1  2 
+ISP  C3    .  C  0  ?  ?  ?  1  3 
+ISP  P     .  P  0  ?  ?  ?  1  4 
+ISP  O1P   .  O  0  ?  ?  ?  1  5 
+ISP  O2P   .  O  0  ?  ?  ?  1  6 
+ISP  O3P   .  O  0  ?  ?  ?  1  7 
+ISP  O4P   .  O  0  ?  ?  ?  1  8 
+ISP  1H1   .  H  0  ?  ?  ?  0  9 
+ISP  2H1   .  H  0  ?  ?  ?  0  10
+ISP  3H1   .  H  0  ?  ?  ?  0  11
+ISP  H2    .  H  0  ?  ?  ?  1  12
+ISP  1H3   .  H  0  ?  ?  ?  0  13
+ISP  2H3   .  H  0  ?  ?  ?  0  14
+ISP  3H3   .  H  0  ?  ?  ?  0  15
+ISP  2HOP  .  H  0  ?  ?  ?  0  16
+ISP  3HOP  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ISP  C1   C2    SING  1 
+ISP  C1   1H1   SING  2 
+ISP  C1   2H1   SING  3 
+ISP  C1   3H1   SING  4 
+ISP  C2   C3    SING  5 
+ISP  C2   O1P   SING  6 
+ISP  C2   H2    SING  7 
+ISP  C3   1H3   SING  8 
+ISP  C3   2H3   SING  9 
+ISP  C3   3H3   SING  10
+ISP  P    O1P   SING  11
+ISP  P    O2P   SING  12
+ISP  P    O3P   SING  13
+ISP  P    O4P   DOUB  14
+ISP  O2P  2HOP  SING  15
+ISP  O3P  3HOP  SING  16
+#

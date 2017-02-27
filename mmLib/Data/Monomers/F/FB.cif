@@ -1,0 +1,114 @@
+data_FB
+#
+_chem_comp.id                   FB
+_chem_comp.name                 5A-FORMYLBICYCLOMYCIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H18 N2 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.294
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FB  O12  .  O  0  -2.409   -8.028  33.412  1  1 
+FB  C12  .  C  0  -3.610   -8.436  33.510  1  2 
+FB  C5A  .  C  0  -4.826   -8.243  33.344  1  3 
+FB  C5   .  C  0  -5.951   -7.689  33.250  1  4 
+FB  C6   .  C  0  -5.930   -6.201  32.996  1  5 
+FB  O6   .  O  0  -4.675   -5.618  33.376  1  6 
+FB  N10  .  N  0  -7.046   -5.734  33.797  1  7 
+FB  C9   .  C  0  -8.267   -5.559  33.322  1  8 
+FB  O9   .  O  0  -9.188   -5.308  34.077  1  9 
+FB  C4   .  C  0  -7.295   -8.429  33.314  1  10
+FB  C3   .  C  0  -8.110   -8.260  32.005  1  11
+FB  O2   .  O  0  -9.071   -7.166  31.937  1  12
+FB  C1   .  C  0  -8.497   -5.846  31.847  1  13
+FB  N8   .  N  0  -7.324   -6.099  31.031  1  14
+FB  C7   .  C  0  -6.102   -6.256  31.499  1  15
+FB  O7   .  O  0  -5.171   -6.592  30.781  1  16
+FB  C1A  .  C  0  -9.368   -4.849  31.059  1  17
+FB  O1A  .  O  0  -9.372   -5.258  29.692  1  18
+FB  C2A  .  C  0  -10.807  -4.604  31.539  1  19
+FB  C2B  .  C  0  -11.798  -4.833  30.413  1  20
+FB  O2A  .  O  0  -11.193  -5.508  32.575  1  21
+FB  C3A  .  C  0  -10.946  -3.175  32.050  1  22
+FB  O3A  .  O  0  -11.040  -2.266  30.958  1  23
+FB  1H3  .  H  0  ?        ?       ?       0  24
+FB  2H3  .  H  0  ?        ?       ?       0  25
+FB  1H4  .  H  0  ?        ?       ?       0  26
+FB  2H4  .  H  0  ?        ?       ?       0  27
+FB  H12  .  H  0  ?        ?       ?       1  28
+FB  HN8  .  H  0  ?        ?       ?       1  29
+FB  H10  .  H  0  ?        ?       ?       1  30
+FB  H1A  .  H  0  ?        ?       ?       1  31
+FB  H1O  .  H  0  ?        ?       ?       1  32
+FB  H2O  .  H  0  ?        ?       ?       1  33
+FB  H5A  .  H  0  ?        ?       ?       1  34
+FB  1HB  .  H  0  ?        ?       ?       0  35
+FB  2HB  .  H  0  ?        ?       ?       0  36
+FB  3HB  .  H  0  ?        ?       ?       0  37
+FB  1HA  .  H  0  ?        ?       ?       0  38
+FB  2HA  .  H  0  ?        ?       ?       0  39
+FB  H3O  .  H  0  ?        ?       ?       1  40
+FB  HO6  .  H  0  ?        ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FB  O12  C12  DOUB  1 
+FB  C12  C5A  SING  2 
+FB  C12  H12  SING  3 
+FB  C5A  C5   DOUB  4 
+FB  C5A  H5A  SING  5 
+FB  C5   C6   SING  6 
+FB  C5   C4   SING  7 
+FB  C6   O6   SING  8 
+FB  C6   N10  SING  9 
+FB  C6   C7   SING  10
+FB  O6   HO6  SING  11
+FB  N10  C9   SING  12
+FB  N10  H10  SING  13
+FB  C9   O9   DOUB  14
+FB  C9   C1   SING  15
+FB  C4   C3   SING  16
+FB  C4   1H4  SING  17
+FB  C4   2H4  SING  18
+FB  C3   O2   SING  19
+FB  C3   1H3  SING  20
+FB  C3   2H3  SING  21
+FB  O2   C1   SING  22
+FB  C1   N8   SING  23
+FB  C1   C1A  SING  24
+FB  N8   C7   SING  25
+FB  N8   HN8  SING  26
+FB  C7   O7   DOUB  27
+FB  C1A  O1A  SING  28
+FB  C1A  C2A  SING  29
+FB  C1A  H1A  SING  30
+FB  O1A  H1O  SING  31
+FB  C2A  C2B  SING  32
+FB  C2A  O2A  SING  33
+FB  C2A  C3A  SING  34
+FB  C2B  1HB  SING  35
+FB  C2B  2HB  SING  36
+FB  C2B  3HB  SING  37
+FB  O2A  H2O  SING  38
+FB  C3A  O3A  SING  39
+FB  C3A  1HA  SING  40
+FB  C3A  2HA  SING  41
+FB  O3A  H3O  SING  42
+#

@@ -1,0 +1,88 @@
+data_FYX
+#
+_chem_comp.id                   FYX
+_chem_comp.name                 4-(5-PYRIDIN-4-YL-1H-1,2,4-TRIAZOL-3-YL)PYRIDINE-2-CARBONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H8 N6'
+_chem_comp.pdbx_synonyms        4-[5-PYRIDIN-4-YL-1H-[1,2,4]TRIAZOL-3-YL]-PYRIDINE-2-CARBONITRILE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FYX  CPO  .  C  0  151.787  46.680  35.813  1  1 
+FYX  CPR  .  C  0  151.456  46.926  34.465  1  2 
+FYX  NPS  .  N  0  152.243  47.778  33.762  1  3 
+FYX  CPT  .  C  0  153.337  48.425  34.225  1  4 
+FYX  CPQ  .  C  0  153.726  48.221  35.568  1  5 
+FYX  CPP  .  C  0  152.928  47.333  36.359  1  6 
+FYX  CPM  .  C  0  153.260  47.104  37.695  1  7 
+FYX  NPJ  .  N  0  152.610  46.296  38.605  1  8 
+FYX  NPN  .  N  0  154.314  47.639  38.399  1  9 
+FYX  NPL  .  N  0  154.314  47.218  39.595  1  10
+FYX  CPK  .  C  0  153.262  46.358  39.815  1  11
+FYX  CPH  .  C  0  152.921  45.693  41.001  1  12
+FYX  CPG  .  C  0  152.085  44.534  40.987  1  13
+FYX  CPI  .  C  0  153.427  46.198  42.225  1  14
+FYX  CPF  .  C  0  153.102  45.548  43.442  1  15
+FYX  NPE  .  N  0  152.315  44.462  43.385  1  16
+FYX  CPD  .  C  0  151.794  43.927  42.231  1  17
+FYX  CPB  .  C  0  150.990  42.790  42.318  1  18
+FYX  NPC  .  N  0  150.298  41.781  42.413  1  19
+FYX  HPG  .  H  0  ?        ?       ?       1  20
+FYX  HPI  .  H  0  ?        ?       ?       1  21
+FYX  HPF  .  H  0  ?        ?       ?       1  22
+FYX  HPN  .  H  0  ?        ?       ?       1  23
+FYX  HPQ  .  H  0  ?        ?       ?       1  24
+FYX  HPT  .  H  0  ?        ?       ?       1  25
+FYX  HPR  .  H  0  ?        ?       ?       1  26
+FYX  HPO  .  H  0  ?        ?       ?       1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FYX  CPO  CPR  SING  1 
+FYX  CPO  CPP  DOUB  2 
+FYX  CPO  HPO  SING  3 
+FYX  CPR  NPS  DOUB  4 
+FYX  CPR  HPR  SING  5 
+FYX  NPS  CPT  SING  6 
+FYX  CPT  CPQ  DOUB  7 
+FYX  CPT  HPT  SING  8 
+FYX  CPQ  CPP  SING  9 
+FYX  CPQ  HPQ  SING  10
+FYX  CPP  CPM  SING  11
+FYX  CPM  NPN  SING  12
+FYX  CPM  NPJ  DOUB  13
+FYX  NPJ  CPK  SING  14
+FYX  NPN  NPL  SING  15
+FYX  NPN  HPN  SING  16
+FYX  NPL  CPK  DOUB  17
+FYX  CPK  CPH  SING  18
+FYX  CPH  CPG  DOUB  19
+FYX  CPH  CPI  SING  20
+FYX  CPG  CPD  SING  21
+FYX  CPG  HPG  SING  22
+FYX  CPI  CPF  DOUB  23
+FYX  CPI  HPI  SING  24
+FYX  CPF  NPE  SING  25
+FYX  CPF  HPF  SING  26
+FYX  NPE  CPD  DOUB  27
+FYX  CPD  CPB  SING  28
+FYX  CPB  NPC  TRIP  29
+#

@@ -1,0 +1,81 @@
+data_BAS
+#
+_chem_comp.id                   BAS
+_chem_comp.name                 N-(1-PHENYL-PROPYL)-FORMAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        163.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BAS  C1    .  C  0  ?  ?  ?  1  1 
+BAS  O1    .  O  0  ?  ?  ?  1  2 
+BAS  N2    .  N  0  ?  ?  ?  1  3 
+BAS  C3    .  C  0  ?  ?  ?  1  4 
+BAS  C31   .  C  0  ?  ?  ?  1  5 
+BAS  C32   .  C  0  ?  ?  ?  1  6 
+BAS  C4    .  C  0  ?  ?  ?  1  7 
+BAS  C5    .  C  0  ?  ?  ?  1  8 
+BAS  C6    .  C  0  ?  ?  ?  1  9 
+BAS  C7    .  C  0  ?  ?  ?  1  10
+BAS  C8    .  C  0  ?  ?  ?  1  11
+BAS  C9    .  C  0  ?  ?  ?  1  12
+BAS  1HC1  .  H  0  ?  ?  ?  0  13
+BAS  HN2   .  H  0  ?  ?  ?  1  14
+BAS  HC3   .  H  0  ?  ?  ?  1  15
+BAS  1H31  .  H  0  ?  ?  ?  0  16
+BAS  2H31  .  H  0  ?  ?  ?  0  17
+BAS  1H32  .  H  0  ?  ?  ?  0  18
+BAS  2H32  .  H  0  ?  ?  ?  0  19
+BAS  3H32  .  H  0  ?  ?  ?  0  20
+BAS  HC5   .  H  0  ?  ?  ?  1  21
+BAS  HC6   .  H  0  ?  ?  ?  1  22
+BAS  HC7   .  H  0  ?  ?  ?  1  23
+BAS  HC8   .  H  0  ?  ?  ?  1  24
+BAS  HC9   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BAS  C1   O1    DOUB  1 
+BAS  C1   N2    SING  2 
+BAS  C1   1HC1  SING  3 
+BAS  N2   C3    SING  4 
+BAS  N2   HN2   SING  5 
+BAS  C3   C31   SING  6 
+BAS  C3   C4    SING  7 
+BAS  C3   HC3   SING  8 
+BAS  C31  C32   SING  9 
+BAS  C31  1H31  SING  10
+BAS  C31  2H31  SING  11
+BAS  C32  1H32  SING  12
+BAS  C32  2H32  SING  13
+BAS  C32  3H32  SING  14
+BAS  C4   C5    AROM  15
+BAS  C4   C9    AROM  16
+BAS  C5   C6    AROM  17
+BAS  C5   HC5   SING  18
+BAS  C6   C7    AROM  19
+BAS  C6   HC6   SING  20
+BAS  C7   C8    AROM  21
+BAS  C7   HC7   SING  22
+BAS  C8   C9    AROM  23
+BAS  C8   HC8   SING  24
+BAS  C9   HC9   SING  25
+#

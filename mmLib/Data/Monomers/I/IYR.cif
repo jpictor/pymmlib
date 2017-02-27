@@ -1,0 +1,80 @@
+data_IYR
+#
+_chem_comp.id                       IYR
+_chem_comp.name                     3-IODO-TYROSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H10 N1 O3 I1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            307.087
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IYR  N    .  N  0  ?  ?  ?  1  1 
+IYR  CA   .  C  0  ?  ?  ?  1  2 
+IYR  CB   .  C  0  ?  ?  ?  1  3 
+IYR  CC   .  C  0  ?  ?  ?  1  4 
+IYR  CD   .  C  0  ?  ?  ?  1  5 
+IYR  CE   .  C  0  ?  ?  ?  1  6 
+IYR  IE   .  I  0  ?  ?  ?  1  7 
+IYR  CF   .  C  0  ?  ?  ?  1  8 
+IYR  OF   .  O  0  ?  ?  ?  1  9 
+IYR  CG   .  C  0  ?  ?  ?  1  10
+IYR  CH   .  C  0  ?  ?  ?  1  11
+IYR  C    .  C  0  ?  ?  ?  1  12
+IYR  O    .  O  0  ?  ?  ?  1  13
+IYR  OXT  .  O  0  ?  ?  ?  1  14
+IYR  H    .  H  0  ?  ?  ?  1  15
+IYR  HN2  .  H  0  ?  ?  ?  1  16
+IYR  HA   .  H  0  ?  ?  ?  1  17
+IYR  1HB  .  H  0  ?  ?  ?  0  18
+IYR  2HB  .  H  0  ?  ?  ?  0  19
+IYR  HD   .  H  0  ?  ?  ?  1  20
+IYR  HF   .  H  0  ?  ?  ?  1  21
+IYR  HG   .  H  0  ?  ?  ?  1  22
+IYR  HH   .  H  0  ?  ?  ?  1  23
+IYR  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IYR  N    CA   SING  1 
+IYR  N    H    SING  2 
+IYR  N    HN2  SING  3 
+IYR  CA   CB   SING  4 
+IYR  CA   C    SING  5 
+IYR  CA   HA   SING  6 
+IYR  CB   CC   SING  7 
+IYR  CB   1HB  SING  8 
+IYR  CB   2HB  SING  9 
+IYR  CC   CD   DOUB  10
+IYR  CC   CH   SING  11
+IYR  CD   CE   SING  12
+IYR  CD   HD   SING  13
+IYR  CE   IE   SING  14
+IYR  CE   CF   DOUB  15
+IYR  CF   OF   SING  16
+IYR  CF   CG   SING  17
+IYR  OF   HF   SING  18
+IYR  CG   CH   DOUB  19
+IYR  CG   HG   SING  20
+IYR  CH   HH   SING  21
+IYR  C    O    DOUB  22
+IYR  C    OXT  SING  23
+IYR  OXT  HXT  SING  24
+#

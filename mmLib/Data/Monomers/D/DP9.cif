@@ -1,0 +1,121 @@
+data_DP9
+#
+_chem_comp.id                   DP9
+_chem_comp.name                 'L-N(OMEGA)-NITROARGININE-(4R)-AMINO-L-PROLINE AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H22 N8 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        330.346
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DP9  NH2   .  N  0   14.617  -0.311  23.832  1  1 
+DP9  CZ    .  C  0   13.683  0.518   23.367  1  2 
+DP9  NH1   .  N  0   13.849  1.225   22.243  1  3 
+DP9  NO    .  N  1   14.862  1.260   21.347  1  4 
+DP9  O2    .  O  -1  14.725  2.030   20.328  1  5 
+DP9  O3    .  O  0   15.874  0.607   21.455  1  6 
+DP9  NE    .  N  0   12.566  0.605   24.085  1  7 
+DP9  CD    .  C  0   11.338  1.401   23.885  1  8 
+DP9  CG    .  C  0   10.264  0.556   23.169  1  9 
+DP9  CB    .  C  0   10.069  -0.850  23.795  1  10
+DP9  CA    .  C  0   9.372   -0.847  25.180  1  11
+DP9  N     .  N  0   9.728   -2.121  25.823  1  12
+DP9  C     .  C  0   7.834   -0.670  25.093  1  13
+DP9  O     .  O  0   7.102   -1.642  24.862  1  14
+DP9  N2'   .  N  0   7.367   0.577   25.267  1  15
+DP9  CG'   .  C  0   5.904   0.985   25.284  1  16
+DP9  CD'   .  C  0   5.066   0.346   26.438  1  17
+DP9  N'    .  N  0   5.157   1.359   27.517  1  18
+DP9  CA'   .  C  0   5.545   2.679   27.003  1  19
+DP9  C'    .  C  0   4.553   3.789   27.384  1  20
+DP9  O'    .  O  0   3.414   3.540   27.778  1  21
+DP9  N1'   .  N  0   4.887   5.064   27.300  1  22
+DP9  CB'   .  C  0   5.695   2.490   25.488  1  23
+DP9  HH2   .  H  0   ?       ?       ?       1  24
+DP9  HH1   .  H  0   ?       ?       ?       1  25
+DP9  HNE   .  H  0   ?       ?       ?       1  26
+DP9  1HD   .  H  0   ?       ?       ?       0  27
+DP9  2HD   .  H  0   ?       ?       ?       0  28
+DP9  1HG   .  H  0   ?       ?       ?       0  29
+DP9  2HG   .  H  0   ?       ?       ?       0  30
+DP9  1HB   .  H  0   ?       ?       ?       0  31
+DP9  2HB   .  H  0   ?       ?       ?       0  32
+DP9  HA    .  H  0   ?       ?       ?       1  33
+DP9  1HN   .  H  0   ?       ?       ?       0  34
+DP9  2HN   .  H  0   ?       ?       ?       0  35
+DP9  H2'   .  H  0   ?       ?       ?       1  36
+DP9  HG'   .  H  0   ?       ?       ?       1  37
+DP9  1HD'  .  H  0   ?       ?       ?       0  38
+DP9  2HD'  .  H  0   ?       ?       ?       0  39
+DP9  HN'   .  H  0   ?       ?       ?       1  40
+DP9  HA'   .  H  0   ?       ?       ?       1  41
+DP9  1H1'  .  H  0   ?       ?       ?       0  42
+DP9  2H1'  .  H  0   ?       ?       ?       0  43
+DP9  1HB'  .  H  0   ?       ?       ?       0  44
+DP9  2HB'  .  H  0   ?       ?       ?       0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DP9  NH2  HH2   SING  1 
+DP9  NH2  CZ    DOUB  2 
+DP9  CZ   NH1   SING  3 
+DP9  CZ   NE    SING  4 
+DP9  NH1  HH1   SING  5 
+DP9  NH1  NO    SING  6 
+DP9  NO   O2    SING  7 
+DP9  NO   O3    DOUB  8 
+DP9  NE   HNE   SING  9 
+DP9  NE   CD    SING  10
+DP9  CD   1HD   SING  11
+DP9  CD   2HD   SING  12
+DP9  CD   CG    SING  13
+DP9  CG   1HG   SING  14
+DP9  CG   2HG   SING  15
+DP9  CG   CB    SING  16
+DP9  CB   1HB   SING  17
+DP9  CB   2HB   SING  18
+DP9  CB   CA    SING  19
+DP9  CA   HA    SING  20
+DP9  CA   N     SING  21
+DP9  CA   C     SING  22
+DP9  N    1HN   SING  23
+DP9  N    2HN   SING  24
+DP9  C    O     DOUB  25
+DP9  C    N2'   SING  26
+DP9  N2'  H2'   SING  27
+DP9  N2'  CG'   SING  28
+DP9  CG'  HG'   SING  29
+DP9  CG'  CD'   SING  30
+DP9  CG'  CB'   SING  31
+DP9  CD'  1HD'  SING  32
+DP9  CD'  2HD'  SING  33
+DP9  CD'  N'    SING  34
+DP9  N'   HN'   SING  35
+DP9  N'   CA'   SING  36
+DP9  CA'  HA'   SING  37
+DP9  CA'  C'    SING  38
+DP9  CA'  CB'   SING  39
+DP9  C'   O'    DOUB  40
+DP9  C'   N1'   SING  41
+DP9  N1'  1H1'  SING  42
+DP9  N1'  2H1'  SING  43
+DP9  CB'  1HB'  SING  44
+DP9  CB'  2HB'  SING  45
+#

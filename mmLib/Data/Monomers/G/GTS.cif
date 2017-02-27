@@ -1,0 +1,110 @@
+data_GTS
+#
+_chem_comp.id                   GTS
+_chem_comp.name                 'GLUTATHIONE SULFONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H17 N3 O9 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        355.319
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GTS  N1    .  N  0  ?  ?  ?  1  1 
+GTS  CA1   .  C  0  ?  ?  ?  1  2 
+GTS  C1    .  C  0  ?  ?  ?  1  3 
+GTS  O11   .  O  0  ?  ?  ?  1  4 
+GTS  O12   .  O  0  ?  ?  ?  1  5 
+GTS  CB1   .  C  0  ?  ?  ?  1  6 
+GTS  CG1   .  C  0  ?  ?  ?  1  7 
+GTS  CD1   .  C  0  ?  ?  ?  1  8 
+GTS  OE1   .  O  0  ?  ?  ?  1  9 
+GTS  N2    .  N  0  ?  ?  ?  1  10
+GTS  CA2   .  C  0  ?  ?  ?  1  11
+GTS  C2    .  C  0  ?  ?  ?  1  12
+GTS  O2    .  O  0  ?  ?  ?  1  13
+GTS  CB2   .  C  0  ?  ?  ?  1  14
+GTS  SG2   .  S  0  ?  ?  ?  1  15
+GTS  O1S   .  O  0  ?  ?  ?  1  16
+GTS  O2S   .  O  0  ?  ?  ?  1  17
+GTS  O3S   .  O  0  ?  ?  ?  1  18
+GTS  N3    .  N  0  ?  ?  ?  1  19
+GTS  CA3   .  C  0  ?  ?  ?  1  20
+GTS  C3    .  C  0  ?  ?  ?  1  21
+GTS  O31   .  O  0  ?  ?  ?  1  22
+GTS  O32   .  O  0  ?  ?  ?  1  23
+GTS  1HB2  .  H  0  ?  ?  ?  0  24
+GTS  2HB2  .  H  0  ?  ?  ?  0  25
+GTS  HA2   .  H  0  ?  ?  ?  1  26
+GTS  HN2   .  H  0  ?  ?  ?  1  27
+GTS  1HG1  .  H  0  ?  ?  ?  0  28
+GTS  2HG1  .  H  0  ?  ?  ?  0  29
+GTS  1HB1  .  H  0  ?  ?  ?  0  30
+GTS  2HB1  .  H  0  ?  ?  ?  0  31
+GTS  HA1   .  H  0  ?  ?  ?  1  32
+GTS  1HN1  .  H  0  ?  ?  ?  0  33
+GTS  2HN1  .  H  0  ?  ?  ?  0  34
+GTS  HN3   .  H  0  ?  ?  ?  1  35
+GTS  1HA3  .  H  0  ?  ?  ?  0  36
+GTS  2HA3  .  H  0  ?  ?  ?  0  37
+GTS  HO2   .  H  0  ?  ?  ?  1  38
+GTS  HO3   .  H  0  ?  ?  ?  1  39
+GTS  3HOS  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GTS  N1   CA1   SING  1 
+GTS  N1   1HN1  SING  2 
+GTS  N1   2HN1  SING  3 
+GTS  CA1  C1    SING  4 
+GTS  CA1  CB1   SING  5 
+GTS  CA1  HA1   SING  6 
+GTS  C1   O11   DOUB  7 
+GTS  C1   O12   SING  8 
+GTS  O12  HO2   SING  9 
+GTS  CB1  CG1   SING  10
+GTS  CB1  1HB1  SING  11
+GTS  CB1  2HB1  SING  12
+GTS  CG1  CD1   SING  13
+GTS  CG1  1HG1  SING  14
+GTS  CG1  2HG1  SING  15
+GTS  CD1  OE1   DOUB  16
+GTS  CD1  N2    SING  17
+GTS  N2   CA2   SING  18
+GTS  N2   HN2   SING  19
+GTS  CA2  C2    SING  20
+GTS  CA2  CB2   SING  21
+GTS  CA2  HA2   SING  22
+GTS  C2   O2    DOUB  23
+GTS  C2   N3    SING  24
+GTS  CB2  SG2   SING  25
+GTS  CB2  1HB2  SING  26
+GTS  CB2  2HB2  SING  27
+GTS  SG2  O1S   DOUB  28
+GTS  SG2  O2S   DOUB  29
+GTS  SG2  O3S   SING  30
+GTS  O3S  3HOS  SING  31
+GTS  N3   CA3   SING  32
+GTS  N3   HN3   SING  33
+GTS  CA3  C3    SING  34
+GTS  CA3  1HA3  SING  35
+GTS  CA3  2HA3  SING  36
+GTS  C3   O31   SING  37
+GTS  C3   O32   DOUB  38
+GTS  O31  HO3   SING  39
+#

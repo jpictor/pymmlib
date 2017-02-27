@@ -1,0 +1,77 @@
+data_XIM
+#
+_chem_comp.id                   XIM
+_chem_comp.name                 5,6,7,8-TETRAHYDRO-IMIDAZO[1,2-A]PYRIDINE-6,7,8-TRIOL
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H10 N2 O3'
+_chem_comp.pdbx_synonyms        'XYLOSE-DERIVED IMIDAZOLE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+XIM  C1   .  C  0  ?  ?  ?  1  1 
+XIM  C2   .  C  0  ?  ?  ?  1  2 
+XIM  C3   .  C  0  ?  ?  ?  1  3 
+XIM  C4   .  C  0  ?  ?  ?  1  4 
+XIM  C5   .  C  0  ?  ?  ?  1  5 
+XIM  N1   .  N  0  ?  ?  ?  1  6 
+XIM  C17  .  C  0  ?  ?  ?  1  7 
+XIM  C18  .  C  0  ?  ?  ?  1  8 
+XIM  N21  .  N  0  ?  ?  ?  1  9 
+XIM  O2   .  O  0  ?  ?  ?  1  10
+XIM  O3   .  O  0  ?  ?  ?  1  11
+XIM  O4   .  O  0  ?  ?  ?  1  12
+XIM  H17  .  H  0  ?  ?  ?  1  13
+XIM  H18  .  H  0  ?  ?  ?  1  14
+XIM  1H5  .  H  0  ?  ?  ?  0  15
+XIM  2H5  .  H  0  ?  ?  ?  0  16
+XIM  H4   .  H  0  ?  ?  ?  1  17
+XIM  HO4  .  H  0  ?  ?  ?  1  18
+XIM  H3   .  H  0  ?  ?  ?  1  19
+XIM  HO3  .  H  0  ?  ?  ?  1  20
+XIM  H2   .  H  0  ?  ?  ?  1  21
+XIM  HO2  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+XIM  C1   C2   SING  1 
+XIM  C1   N1   SING  2 
+XIM  C1   N21  DOUB  3 
+XIM  C2   C3   SING  4 
+XIM  C2   O2   SING  5 
+XIM  C2   H2   SING  6 
+XIM  C3   C4   SING  7 
+XIM  C3   O3   SING  8 
+XIM  C3   H3   SING  9 
+XIM  C4   C5   SING  10
+XIM  C4   O4   SING  11
+XIM  C4   H4   SING  12
+XIM  C5   N1   SING  13
+XIM  C5   1H5  SING  14
+XIM  C5   2H5  SING  15
+XIM  N1   C17  SING  16
+XIM  C17  C18  DOUB  17
+XIM  C17  H17  SING  18
+XIM  C18  N21  SING  19
+XIM  C18  H18  SING  20
+XIM  O2   HO2  SING  21
+XIM  O3   HO3  SING  22
+XIM  O4   HO4  SING  23
+#

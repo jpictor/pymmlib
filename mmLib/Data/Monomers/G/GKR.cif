@@ -1,0 +1,74 @@
+data_GKR
+#
+_chem_comp.id                   GKR
+_chem_comp.name                 GLUCARATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 O8'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       208.124
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GKR  O1B   .  O  0   ?  ?  ?  1  1 
+GKR  O1A   .  O  -1  ?  ?  ?  1  2 
+GKR  C1    .  C  0   ?  ?  ?  1  3 
+GKR  C2    .  C  0   ?  ?  ?  1  4 
+GKR  O2    .  O  0   ?  ?  ?  1  5 
+GKR  C3    .  C  0   ?  ?  ?  1  6 
+GKR  O3    .  O  0   ?  ?  ?  1  7 
+GKR  C4    .  C  0   ?  ?  ?  1  8 
+GKR  O4    .  O  0   ?  ?  ?  1  9 
+GKR  O5    .  O  0   ?  ?  ?  1  10
+GKR  C5    .  C  0   ?  ?  ?  1  11
+GKR  C6    .  C  0   ?  ?  ?  1  12
+GKR  O6A   .  O  0   ?  ?  ?  1  13
+GKR  O6B   .  O  -1  ?  ?  ?  1  14
+GKR  1H4   .  H  0   ?  ?  ?  0  15
+GKR  2H4   .  H  0   ?  ?  ?  0  16
+GKR  1H3   .  H  0   ?  ?  ?  0  17
+GKR  1HO3  .  H  0   ?  ?  ?  0  18
+GKR  1HO2  .  H  0   ?  ?  ?  0  19
+GKR  1H2   .  H  0   ?  ?  ?  0  20
+GKR  1HO5  .  H  0   ?  ?  ?  0  21
+GKR  1H5   .  H  0   ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GKR  O1B  C1    DOUB  1 
+GKR  O1A  C1    SING  2 
+GKR  C1   C2    SING  3 
+GKR  C2   O2    SING  4 
+GKR  C2   C3    SING  5 
+GKR  C2   1H2   SING  6 
+GKR  O2   1HO2  SING  7 
+GKR  C3   O3    SING  8 
+GKR  C3   C4    SING  9 
+GKR  C3   1H3   SING  10
+GKR  O3   1HO3  SING  11
+GKR  C4   C5    SING  12
+GKR  C4   O4    SING  13
+GKR  C4   2H4   SING  14
+GKR  O4   1H4   SING  15
+GKR  O5   C5    SING  16
+GKR  O5   1HO5  SING  17
+GKR  C5   C6    SING  18
+GKR  C5   1H5   SING  19
+GKR  C6   O6A   DOUB  20
+GKR  C6   O6B   SING  21
+#

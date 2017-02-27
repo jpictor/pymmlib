@@ -1,0 +1,143 @@
+data_GSR
+#
+_chem_comp.id                       GSR
+_chem_comp.name                     '2'-DEOXY-N2-(R)STYRENE OXIDE GUANOSINE MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C18 H22 N5 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            467.374
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSR  P     .  P  0  ?  ?  ?  1  1 
+GSR  O1P   .  O  0  ?  ?  ?  1  2 
+GSR  O2P   .  O  0  ?  ?  ?  1  3 
+GSR  O3P   .  O  0  ?  ?  ?  1  4 
+GSR  O5*   .  O  0  ?  ?  ?  1  5 
+GSR  C5*   .  C  0  ?  ?  ?  1  6 
+GSR  C4*   .  C  0  ?  ?  ?  1  7 
+GSR  O4*   .  O  0  ?  ?  ?  1  8 
+GSR  C3*   .  C  0  ?  ?  ?  1  9 
+GSR  O3*   .  O  0  ?  ?  ?  1  10
+GSR  C2*   .  C  0  ?  ?  ?  1  11
+GSR  C1*   .  C  0  ?  ?  ?  1  12
+GSR  N9    .  N  0  ?  ?  ?  1  13
+GSR  C8    .  C  0  ?  ?  ?  1  14
+GSR  N7    .  N  0  ?  ?  ?  1  15
+GSR  C5    .  C  0  ?  ?  ?  1  16
+GSR  C6    .  C  0  ?  ?  ?  1  17
+GSR  O6    .  O  0  ?  ?  ?  1  18
+GSR  N1    .  N  0  ?  ?  ?  1  19
+GSR  C2    .  C  0  ?  ?  ?  1  20
+GSR  N2    .  N  0  ?  ?  ?  1  21
+GSR  N3    .  N  0  ?  ?  ?  1  22
+GSR  C4    .  C  0  ?  ?  ?  1  23
+GSR  CA    .  C  0  ?  ?  ?  1  24
+GSR  CB    .  C  0  ?  ?  ?  1  25
+GSR  OB    .  O  0  ?  ?  ?  1  26
+GSR  CJ    .  C  0  ?  ?  ?  1  27
+GSR  CO    .  C  0  ?  ?  ?  1  28
+GSR  CO'   .  C  0  ?  ?  ?  1  29
+GSR  CM    .  C  0  ?  ?  ?  1  30
+GSR  CM'   .  C  0  ?  ?  ?  1  31
+GSR  CP    .  C  0  ?  ?  ?  1  32
+GSR  3HOP  .  H  0  ?  ?  ?  0  33
+GSR  2HOP  .  H  0  ?  ?  ?  0  34
+GSR  H1*   .  H  0  ?  ?  ?  1  35
+GSR  1H2*  .  H  0  ?  ?  ?  0  36
+GSR  2H2*  .  H  0  ?  ?  ?  0  37
+GSR  H3*   .  H  0  ?  ?  ?  1  38
+GSR  H4*   .  H  0  ?  ?  ?  1  39
+GSR  *HO3  .  H  0  ?  ?  ?  0  40
+GSR  1H5*  .  H  0  ?  ?  ?  0  41
+GSR  2H5*  .  H  0  ?  ?  ?  0  42
+GSR  H8    .  H  0  ?  ?  ?  1  43
+GSR  H1    .  H  0  ?  ?  ?  1  44
+GSR  H2    .  H  0  ?  ?  ?  1  45
+GSR  HA    .  H  0  ?  ?  ?  1  46
+GSR  1HB   .  H  0  ?  ?  ?  0  47
+GSR  2HB   .  H  0  ?  ?  ?  0  48
+GSR  HB    .  H  0  ?  ?  ?  1  49
+GSR  HO    .  H  0  ?  ?  ?  1  50
+GSR  HO'   .  H  0  ?  ?  ?  1  51
+GSR  HM    .  H  0  ?  ?  ?  1  52
+GSR  HM'   .  H  0  ?  ?  ?  1  53
+GSR  HP    .  H  0  ?  ?  ?  1  54
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSR  P    O1P   DOUB  1 
+GSR  P    O2P   SING  2 
+GSR  P    O3P   SING  3 
+GSR  P    O5*   SING  4 
+GSR  O2P  2HOP  SING  5 
+GSR  O3P  3HOP  SING  6 
+GSR  O5*  C5*   SING  7 
+GSR  C5*  C4*   SING  8 
+GSR  C5*  1H5*  SING  9 
+GSR  C5*  2H5*  SING  10
+GSR  C4*  O4*   SING  11
+GSR  C4*  C3*   SING  12
+GSR  C4*  H4*   SING  13
+GSR  O4*  C1*   SING  14
+GSR  C3*  O3*   SING  15
+GSR  C3*  C2*   SING  16
+GSR  C3*  H3*   SING  17
+GSR  O3*  *HO3  SING  18
+GSR  C2*  C1*   SING  19
+GSR  C2*  1H2*  SING  20
+GSR  C2*  2H2*  SING  21
+GSR  C1*  N9    SING  22
+GSR  C1*  H1*   SING  23
+GSR  N9   C8    SING  24
+GSR  N9   C4    SING  25
+GSR  C8   N7    DOUB  26
+GSR  C8   H8    SING  27
+GSR  N7   C5    SING  28
+GSR  C5   C6    SING  29
+GSR  C5   C4    DOUB  30
+GSR  C6   O6    DOUB  31
+GSR  C6   N1    SING  32
+GSR  N1   C2    SING  33
+GSR  N1   H1    SING  34
+GSR  C2   N2    SING  35
+GSR  C2   N3    DOUB  36
+GSR  N2   H2    SING  37
+GSR  N2   CA    SING  38
+GSR  N3   C4    SING  39
+GSR  CA   CB    SING  40
+GSR  CA   CJ    SING  41
+GSR  CA   HA    SING  42
+GSR  CB   OB    SING  43
+GSR  CB   1HB   SING  44
+GSR  CB   2HB   SING  45
+GSR  OB   HB    SING  46
+GSR  CJ   CO    DOUB  47
+GSR  CJ   CO'   SING  48
+GSR  CO   CM    SING  49
+GSR  CO   HO    SING  50
+GSR  CO'  CM'   DOUB  51
+GSR  CO'  HO'   SING  52
+GSR  CM   CP    DOUB  53
+GSR  CM   HM    SING  54
+GSR  CM'  CP    SING  55
+GSR  CM'  HM'   SING  56
+GSR  CP   HP    SING  57
+#

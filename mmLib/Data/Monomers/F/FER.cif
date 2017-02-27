@@ -1,0 +1,80 @@
+data_FER
+#
+_chem_comp.id                   FER
+_chem_comp.name                 '3-(4-HYDROXY-3-METHOXYPHENYL)-2-PROPENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 O4'
+_chem_comp.pdbx_synonyms        'FERULIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.187
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FER  C4    .  C  0  ?  ?  ?  1  1 
+FER  C5    .  C  0  ?  ?  ?  1  2 
+FER  C6    .  C  0  ?  ?  ?  1  3 
+FER  C3    .  C  0  ?  ?  ?  1  4 
+FER  C2    .  C  0  ?  ?  ?  1  5 
+FER  C1    .  C  0  ?  ?  ?  1  6 
+FER  C10   .  C  0  ?  ?  ?  1  7 
+FER  C7    .  C  0  ?  ?  ?  1  8 
+FER  C8    .  C  0  ?  ?  ?  1  9 
+FER  C9    .  C  0  ?  ?  ?  1  10
+FER  O1    .  O  0  ?  ?  ?  1  11
+FER  O2    .  O  0  ?  ?  ?  1  12
+FER  O4    .  O  0  ?  ?  ?  1  13
+FER  O3    .  O  0  ?  ?  ?  1  14
+FER  H5    .  H  0  ?  ?  ?  1  15
+FER  H6    .  H  0  ?  ?  ?  1  16
+FER  H2    .  H  0  ?  ?  ?  1  17
+FER  1H10  .  H  0  ?  ?  ?  0  18
+FER  2H10  .  H  0  ?  ?  ?  0  19
+FER  3H10  .  H  0  ?  ?  ?  0  20
+FER  H7    .  H  0  ?  ?  ?  1  21
+FER  H8    .  H  0  ?  ?  ?  1  22
+FER  HO2   .  H  0  ?  ?  ?  1  23
+FER  HO4   .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FER  C4   C5    DOUB  1 
+FER  C4   C3    SING  2 
+FER  C4   O4    SING  3 
+FER  C5   C6    SING  4 
+FER  C5   H5    SING  5 
+FER  C6   C1    DOUB  6 
+FER  C6   H6    SING  7 
+FER  C3   C2    DOUB  8 
+FER  C3   O3    SING  9 
+FER  C2   C1    SING  10
+FER  C2   H2    SING  11
+FER  C1   C7    SING  12
+FER  C10  O3    SING  13
+FER  C10  1H10  SING  14
+FER  C10  2H10  SING  15
+FER  C10  3H10  SING  16
+FER  C7   C8    DOUB  17
+FER  C7   H7    SING  18
+FER  C8   C9    SING  19
+FER  C8   H8    SING  20
+FER  C9   O1    DOUB  21
+FER  C9   O2    SING  22
+FER  O2   HO2   SING  23
+FER  O4   HO4   SING  24
+#

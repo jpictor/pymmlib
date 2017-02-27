@@ -1,0 +1,81 @@
+data_ENH
+#
+_chem_comp.id                   ENH
+_chem_comp.name                 1,7,8,9,10,10-HEXACHLORO-4-METHYL-4-AZA-TRICYCLO[5.2.1.0(2,6)]DEC-8-ENE-3,5-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H5 N1 O2 CL6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        383.873
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ENH  CL1  .  CL  0  ?  ?  ?  0  1 
+ENH  CL2  .  CL  0  ?  ?  ?  0  2 
+ENH  CL3  .  CL  0  ?  ?  ?  0  3 
+ENH  CL   .  CL  0  ?  ?  ?  0  4 
+ENH  CL8  .  CL  0  ?  ?  ?  0  5 
+ENH  CL9  .  CL  0  ?  ?  ?  0  6 
+ENH  C11  .  C   0  ?  ?  ?  1  7 
+ENH  C12  .  C   0  ?  ?  ?  1  8 
+ENH  C5   .  C   0  ?  ?  ?  1  9 
+ENH  C    .  C   0  ?  ?  ?  1  10
+ENH  C9   .  C   0  ?  ?  ?  1  11
+ENH  C10  .  C   0  ?  ?  ?  1  12
+ENH  C8   .  C   0  ?  ?  ?  1  13
+ENH  N    .  N   0  ?  ?  ?  1  14
+ENH  C6   .  C   0  ?  ?  ?  1  15
+ENH  O    .  O   0  ?  ?  ?  1  16
+ENH  C7   .  C   0  ?  ?  ?  1  17
+ENH  O1   .  O   0  ?  ?  ?  1  18
+ENH  CN   .  C   0  ?  ?  ?  1  19
+ENH  1H1  .  H   0  ?  ?  ?  0  20
+ENH  2H1  .  H   0  ?  ?  ?  0  21
+ENH  3H1  .  H   0  ?  ?  ?  0  22
+ENH  1H9  .  H   0  ?  ?  ?  0  23
+ENH  1H   .  H   0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ENH  CL1  C11  SING  1 
+ENH  CL2  C12  SING  2 
+ENH  CL3  C5   SING  3 
+ENH  CL   C10  SING  4 
+ENH  CL8  C8   SING  5 
+ENH  CL9  C8   SING  6 
+ENH  C11  C12  DOUB  7 
+ENH  C11  C10  SING  8 
+ENH  C12  C5   SING  9 
+ENH  C5   C    SING  10
+ENH  C5   C8   SING  11
+ENH  C    C9   SING  12
+ENH  C    C7   SING  13
+ENH  C    1H   SING  14
+ENH  C9   C10  SING  15
+ENH  C9   C6   SING  16
+ENH  C9   1H9  SING  17
+ENH  C10  C8   SING  18
+ENH  N    C6   SING  19
+ENH  N    C7   SING  20
+ENH  N    CN   SING  21
+ENH  C6   O    DOUB  22
+ENH  C7   O1   DOUB  23
+ENH  CN   1H1  SING  24
+ENH  CN   2H1  SING  25
+ENH  CN   3H1  SING  26
+#

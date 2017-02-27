@@ -1,0 +1,111 @@
+data_BIT
+#
+_chem_comp.id                   BIT
+_chem_comp.name                 (-)-1-PHENYL-1,2,3,4-TETRAHYDRO-4-HYDROXYPYRROLO[2,3-B]-7-METHYLQUINOLIN-4-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H16 N2 O2'
+_chem_comp.pdbx_synonyms        '(S)-BLEBBISTATIN, (3AS)-3A-HYDROXY-6-METHYL-1-PHENYL-3,3A-DIHYDRO-1H-PYRROLO[2,3-B]QUINOLIN-4(2H)-ONE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.337
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BIT  O2    .  O  0  23.002  37.797  40.682  1  1 
+BIT  C4    .  C  0  23.069  37.943  39.446  1  2 
+BIT  C5    .  C  0  23.904  37.210  38.562  1  3 
+BIT  C6    .  C  0  25.003  36.483  39.050  1  4 
+BIT  C7    .  C  0  25.860  35.856  38.168  1  5 
+BIT  C18   .  C  0  27.058  35.074  38.637  1  6 
+BIT  C8    .  C  0  25.675  35.951  36.750  1  7 
+BIT  C10   .  C  0  23.734  37.297  37.147  1  8 
+BIT  C9    .  C  0  24.600  36.690  36.237  1  9 
+BIT  C3    .  C  0  22.351  39.085  38.806  1  10
+BIT  C11   .  C  0  21.806  38.657  37.434  1  11
+BIT  N2    .  N  0  22.680  37.970  36.597  1  12
+BIT  O1    .  O  0  23.389  40.172  38.689  1  13
+BIT  C2    .  C  0  21.060  39.553  39.514  1  14
+BIT  C1    .  C  0  20.242  40.099  38.346  1  15
+BIT  N1    .  N  0  20.729  39.377  37.151  1  16
+BIT  C12   .  C  0  20.126  39.639  35.890  1  17
+BIT  C13   .  C  0  20.172  38.583  34.949  1  18
+BIT  C14   .  C  0  19.566  38.709  33.685  1  19
+BIT  C15   .  C  0  18.866  39.872  33.411  1  20
+BIT  C16   .  C  0  18.779  40.920  34.351  1  21
+BIT  C17   .  C  0  19.436  40.810  35.586  1  22
+BIT  1H18  .  H  0  ?       ?       ?       0  23
+BIT  2H18  .  H  0  ?       ?       ?       0  24
+BIT  3H18  .  H  0  ?       ?       ?       0  25
+BIT  H8    .  H  0  ?       ?       ?       1  26
+BIT  H9    .  H  0  ?       ?       ?       1  27
+BIT  1H1   .  H  0  ?       ?       ?       0  28
+BIT  2H1   .  H  0  ?       ?       ?       0  29
+BIT  1H2   .  H  0  ?       ?       ?       0  30
+BIT  2H2   .  H  0  ?       ?       ?       0  31
+BIT  HO1   .  H  0  ?       ?       ?       1  32
+BIT  H6    .  H  0  ?       ?       ?       1  33
+BIT  H17   .  H  0  ?       ?       ?       1  34
+BIT  H16   .  H  0  ?       ?       ?       1  35
+BIT  H15   .  H  0  ?       ?       ?       1  36
+BIT  H14   .  H  0  ?       ?       ?       1  37
+BIT  H13   .  H  0  ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BIT  O2   C4    DOUB  1 
+BIT  C4   C3    SING  2 
+BIT  C4   C5    SING  3 
+BIT  C5   C10   AROM  4 
+BIT  C5   C6    AROM  5 
+BIT  C6   C7    AROM  6 
+BIT  C6   H6    SING  7 
+BIT  C7   C18   SING  8 
+BIT  C7   C8    AROM  9 
+BIT  C18  1H18  SING  10
+BIT  C18  2H18  SING  11
+BIT  C18  3H18  SING  12
+BIT  C8   C9    AROM  13
+BIT  C8   H8    SING  14
+BIT  C10  C9    AROM  15
+BIT  C10  N2    SING  16
+BIT  C9   H9    SING  17
+BIT  C3   C2    SING  18
+BIT  C3   C11   SING  19
+BIT  C3   O1    SING  20
+BIT  C11  N2    DOUB  21
+BIT  C11  N1    SING  22
+BIT  O1   HO1   SING  23
+BIT  C2   C1    SING  24
+BIT  C2   1H2   SING  25
+BIT  C2   2H2   SING  26
+BIT  C1   N1    SING  27
+BIT  C1   1H1   SING  28
+BIT  C1   2H1   SING  29
+BIT  N1   C12   SING  30
+BIT  C12  C17   AROM  31
+BIT  C12  C13   AROM  32
+BIT  C13  C14   AROM  33
+BIT  C13  H13   SING  34
+BIT  C14  C15   AROM  35
+BIT  C14  H14   SING  36
+BIT  C15  C16   AROM  37
+BIT  C15  H15   SING  38
+BIT  C16  C17   AROM  39
+BIT  C16  H16   SING  40
+BIT  C17  H17   SING  41
+#

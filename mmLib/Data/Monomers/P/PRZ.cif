@@ -1,0 +1,83 @@
+data_PRZ
+#
+_chem_comp.id                   PRZ
+_chem_comp.name                 2-ISOBUTYL-3-METHOXYPYRAZINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N2 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.222
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PRZ  N1    .  N  0  ?  ?  ?  1  1 
+PRZ  C2    .  C  0  ?  ?  ?  1  2 
+PRZ  C3    .  C  0  ?  ?  ?  1  3 
+PRZ  N4    .  N  0  ?  ?  ?  1  4 
+PRZ  C5    .  C  0  ?  ?  ?  1  5 
+PRZ  C6    .  C  0  ?  ?  ?  1  6 
+PRZ  C21   .  C  0  ?  ?  ?  1  7 
+PRZ  C22   .  C  0  ?  ?  ?  1  8 
+PRZ  C23   .  C  0  ?  ?  ?  1  9 
+PRZ  C24   .  C  0  ?  ?  ?  1  10
+PRZ  O31   .  O  0  ?  ?  ?  1  11
+PRZ  C31   .  C  0  ?  ?  ?  1  12
+PRZ  H5    .  H  0  ?  ?  ?  1  13
+PRZ  H6    .  H  0  ?  ?  ?  1  14
+PRZ  2H21  .  H  0  ?  ?  ?  0  15
+PRZ  1H21  .  H  0  ?  ?  ?  0  16
+PRZ  H22   .  H  0  ?  ?  ?  1  17
+PRZ  3H23  .  H  0  ?  ?  ?  0  18
+PRZ  2H23  .  H  0  ?  ?  ?  0  19
+PRZ  1H23  .  H  0  ?  ?  ?  0  20
+PRZ  3H24  .  H  0  ?  ?  ?  0  21
+PRZ  2H24  .  H  0  ?  ?  ?  0  22
+PRZ  1H24  .  H  0  ?  ?  ?  0  23
+PRZ  3H31  .  H  0  ?  ?  ?  0  24
+PRZ  2H31  .  H  0  ?  ?  ?  0  25
+PRZ  1H31  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PRZ  N1   C2    AROM  1 
+PRZ  N1   C6    AROM  2 
+PRZ  C2   C3    AROM  3 
+PRZ  C2   C21   SING  4 
+PRZ  C3   N4    AROM  5 
+PRZ  C3   O31   SING  6 
+PRZ  N4   C5    AROM  7 
+PRZ  C5   C6    AROM  8 
+PRZ  C5   H5    SING  9 
+PRZ  C6   H6    SING  10
+PRZ  C21  C22   SING  11
+PRZ  C21  2H21  SING  12
+PRZ  C21  1H21  SING  13
+PRZ  C22  C23   SING  14
+PRZ  C22  C24   SING  15
+PRZ  C22  H22   SING  16
+PRZ  C23  3H23  SING  17
+PRZ  C23  2H23  SING  18
+PRZ  C23  1H23  SING  19
+PRZ  C24  3H24  SING  20
+PRZ  C24  2H24  SING  21
+PRZ  C24  1H24  SING  22
+PRZ  O31  C31   SING  23
+PRZ  C31  3H31  SING  24
+PRZ  C31  2H31  SING  25
+PRZ  C31  1H31  SING  26
+#

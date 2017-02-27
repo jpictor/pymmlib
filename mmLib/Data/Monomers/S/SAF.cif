@@ -1,0 +1,85 @@
+data_SAF
+#
+_chem_comp.id                   SAF
+_chem_comp.name                 3-[(1S)-1-(DIMETHYLAMINO)ETHYL]PHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        165.235
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SAF  C1    .  C  0  5.749  69.484  63.993  1  1 
+SAF  C3    .  C  0  3.529  68.466  64.46   1  2 
+SAF  C4    .  C  0  3.811  68.557  65.99   1  3 
+SAF  C5    .  C  0  5.021  69.06   66.376  1  4 
+SAF  C6    .  C  0  5.946  69.526  65.393  1  5 
+SAF  O4    .  O  0  2.976  68.139  67.041  1  6 
+SAF  N2    .  N  0  4.009  67.418  61.328  1  7 
+SAF  C7    .  C  0  4.63   66.229  61.866  1  8 
+SAF  C8    .  C  0  4.354  67.288  59.96   1  9 
+SAF  C9    .  C  0  4.592  68.814  61.832  1  10
+SAF  C10   .  C  0  3.908  69.881  61.131  1  11
+SAF  C40   .  C  0  4.581  68.966  63.457  1  12
+SAF  H1    .  H  0  6.534  69.868  63.32   1  13
+SAF  H6    .  H  0  6.895  69.955  65.756  1  14
+SAF  H3    .  H  0  3.276  67.41   64.209  1  15
+SAF  H5    .  H  0  5.283  69.106  67.446  1  16
+SAF  H4    .  H  0  3.148  68.195  67.974  1  17
+SAF  1H7C  .  H  0  4.359  66.331  62.943  0  18
+SAF  2H7C  .  H  0  5.718  66.111  61.65   0  19
+SAF  3H7C  .  H  0  4.336  65.268  61.382  0  20
+SAF  1H8C  .  H  0  3.875  68.205  59.545  0  21
+SAF  2H8C  .  H  0  4.06   66.327  59.476  0  22
+SAF  3H8C  .  H  0  5.442  67.17   59.744  0  23
+SAF  H9    .  H  0  5.66   68.851  61.512  1  24
+SAF  1H10  .  H  0  3.915  69.777  60.021  0  25
+SAF  2H10  .  H  0  4.319  70.872  61.433  0  26
+SAF  3H10  .  H  0  2.863  69.987  61.506  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SAF  C1   C40   AROM  1 
+SAF  C1   H1    SING  2 
+SAF  C1   C6    AROM  3 
+SAF  C3   C4    AROM  4 
+SAF  C3   C40   AROM  5 
+SAF  C3   H3    SING  6 
+SAF  C4   C5    AROM  7 
+SAF  C4   O4    SING  8 
+SAF  C5   C6    AROM  9 
+SAF  C5   H5    SING  10
+SAF  C6   H6    SING  11
+SAF  O4   H4    SING  12
+SAF  N2   C7    SING  13
+SAF  N2   C8    SING  14
+SAF  N2   C9    SING  15
+SAF  C7   1H7C  SING  16
+SAF  C7   2H7C  SING  17
+SAF  C7   3H7C  SING  18
+SAF  C8   1H8C  SING  19
+SAF  C8   2H8C  SING  20
+SAF  C8   3H8C  SING  21
+SAF  C9   C10   SING  22
+SAF  C9   C40   SING  23
+SAF  C9   H9    SING  24
+SAF  C10  1H10  SING  25
+SAF  C10  2H10  SING  26
+SAF  C10  3H10  SING  27
+#

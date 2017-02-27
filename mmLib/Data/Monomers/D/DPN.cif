@@ -1,0 +1,78 @@
+data_DPN
+#
+_chem_comp.id                       DPN
+_chem_comp.name                     D-PHENYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H11 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            165.191
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPN  N    .  N  0  ?  ?  ?  1  1 
+DPN  CA   .  C  0  ?  ?  ?  1  2 
+DPN  C    .  C  0  ?  ?  ?  1  3 
+DPN  O    .  O  0  ?  ?  ?  1  4 
+DPN  OXT  .  O  0  ?  ?  ?  1  5 
+DPN  CB   .  C  0  ?  ?  ?  1  6 
+DPN  CG   .  C  0  ?  ?  ?  1  7 
+DPN  CD1  .  C  0  ?  ?  ?  1  8 
+DPN  CD2  .  C  0  ?  ?  ?  1  9 
+DPN  CE1  .  C  0  ?  ?  ?  1  10
+DPN  CE2  .  C  0  ?  ?  ?  1  11
+DPN  CZ   .  C  0  ?  ?  ?  1  12
+DPN  H    .  H  0  ?  ?  ?  1  13
+DPN  HN2  .  H  0  ?  ?  ?  1  14
+DPN  HA   .  H  0  ?  ?  ?  1  15
+DPN  HXT  .  H  0  ?  ?  ?  1  16
+DPN  1HB  .  H  0  ?  ?  ?  0  17
+DPN  2HB  .  H  0  ?  ?  ?  0  18
+DPN  HD1  .  H  0  ?  ?  ?  1  19
+DPN  HD2  .  H  0  ?  ?  ?  1  20
+DPN  HE1  .  H  0  ?  ?  ?  1  21
+DPN  HE2  .  H  0  ?  ?  ?  1  22
+DPN  HZ   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPN  N    CA   SING  1 
+DPN  N    H    SING  2 
+DPN  N    HN2  SING  3 
+DPN  CA   CB   SING  4 
+DPN  CA   C    SING  5 
+DPN  CA   HA   SING  6 
+DPN  C    O    DOUB  7 
+DPN  C    OXT  SING  8 
+DPN  OXT  HXT  SING  9 
+DPN  CB   CG   SING  10
+DPN  CB   1HB  SING  11
+DPN  CB   2HB  SING  12
+DPN  CG   CD1  DOUB  13
+DPN  CG   CD2  SING  14
+DPN  CD1  CE1  SING  15
+DPN  CD1  HD1  SING  16
+DPN  CD2  CE2  DOUB  17
+DPN  CD2  HD2  SING  18
+DPN  CE1  CZ   DOUB  19
+DPN  CE1  HE1  SING  20
+DPN  CE2  CZ   SING  21
+DPN  CE2  HE2  SING  22
+DPN  CZ   HZ   SING  23
+#

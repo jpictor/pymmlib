@@ -1,0 +1,143 @@
+data_MTX
+#
+_chem_comp.id                   MTX
+_chem_comp.name                 METHOTREXATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H22 N8 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        454.444
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTX  N1    .  N  0  ?  ?  ?  1  1 
+MTX  C2    .  C  0  ?  ?  ?  1  2 
+MTX  NA2   .  N  0  ?  ?  ?  1  3 
+MTX  N3    .  N  0  ?  ?  ?  1  4 
+MTX  C4    .  C  0  ?  ?  ?  1  5 
+MTX  NA4   .  N  0  ?  ?  ?  1  6 
+MTX  C4A   .  C  0  ?  ?  ?  1  7 
+MTX  N5    .  N  0  ?  ?  ?  1  8 
+MTX  C6    .  C  0  ?  ?  ?  1  9 
+MTX  C7    .  C  0  ?  ?  ?  1  10
+MTX  N8    .  N  0  ?  ?  ?  1  11
+MTX  C8A   .  C  0  ?  ?  ?  1  12
+MTX  C9    .  C  0  ?  ?  ?  1  13
+MTX  N10   .  N  0  ?  ?  ?  1  14
+MTX  CM    .  C  0  ?  ?  ?  1  15
+MTX  C11   .  C  0  ?  ?  ?  1  16
+MTX  C12   .  C  0  ?  ?  ?  1  17
+MTX  C13   .  C  0  ?  ?  ?  1  18
+MTX  C14   .  C  0  ?  ?  ?  1  19
+MTX  C15   .  C  0  ?  ?  ?  1  20
+MTX  C16   .  C  0  ?  ?  ?  1  21
+MTX  C     .  C  0  ?  ?  ?  1  22
+MTX  O     .  O  0  ?  ?  ?  1  23
+MTX  N     .  N  0  ?  ?  ?  1  24
+MTX  CA    .  C  0  ?  ?  ?  1  25
+MTX  CT    .  C  0  ?  ?  ?  1  26
+MTX  O1    .  O  0  ?  ?  ?  1  27
+MTX  O2    .  O  0  ?  ?  ?  1  28
+MTX  CB    .  C  0  ?  ?  ?  1  29
+MTX  CG    .  C  0  ?  ?  ?  1  30
+MTX  CD    .  C  0  ?  ?  ?  1  31
+MTX  OE1   .  O  0  ?  ?  ?  1  32
+MTX  OE2   .  O  0  ?  ?  ?  1  33
+MTX  1HN2  .  H  0  ?  ?  ?  0  34
+MTX  2HN2  .  H  0  ?  ?  ?  0  35
+MTX  1HN4  .  H  0  ?  ?  ?  0  36
+MTX  2HN4  .  H  0  ?  ?  ?  0  37
+MTX  H7    .  H  0  ?  ?  ?  1  38
+MTX  1H9   .  H  0  ?  ?  ?  0  39
+MTX  2H9   .  H  0  ?  ?  ?  0  40
+MTX  1HM   .  H  0  ?  ?  ?  0  41
+MTX  2HM   .  H  0  ?  ?  ?  0  42
+MTX  3HM   .  H  0  ?  ?  ?  0  43
+MTX  H12   .  H  0  ?  ?  ?  1  44
+MTX  H13   .  H  0  ?  ?  ?  1  45
+MTX  H15   .  H  0  ?  ?  ?  1  46
+MTX  H16   .  H  0  ?  ?  ?  1  47
+MTX  HN    .  H  0  ?  ?  ?  1  48
+MTX  HA    .  H  0  ?  ?  ?  1  49
+MTX  HO2   .  H  0  ?  ?  ?  1  50
+MTX  1HB   .  H  0  ?  ?  ?  0  51
+MTX  2HB   .  H  0  ?  ?  ?  0  52
+MTX  1HG   .  H  0  ?  ?  ?  0  53
+MTX  2HG   .  H  0  ?  ?  ?  0  54
+MTX  2HOE  .  H  0  ?  ?  ?  0  55
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTX  N1   C2    DOUB  1 
+MTX  N1   C8A   SING  2 
+MTX  C2   N3    SING  3 
+MTX  C2   NA2   SING  4 
+MTX  NA2  1HN2  SING  5 
+MTX  NA2  2HN2  SING  6 
+MTX  N3   C4    DOUB  7 
+MTX  C4   C4A   SING  8 
+MTX  C4   NA4   SING  9 
+MTX  NA4  1HN4  SING  10
+MTX  NA4  2HN4  SING  11
+MTX  C4A  N5    SING  12
+MTX  C4A  C8A   DOUB  13
+MTX  N5   C6    DOUB  14
+MTX  C6   C7    SING  15
+MTX  C6   C9    SING  16
+MTX  C7   N8    DOUB  17
+MTX  C7   H7    SING  18
+MTX  N8   C8A   SING  19
+MTX  C9   N10   SING  20
+MTX  C9   1H9   SING  21
+MTX  C9   2H9   SING  22
+MTX  N10  C14   SING  23
+MTX  N10  CM    SING  24
+MTX  CM   1HM   SING  25
+MTX  CM   2HM   SING  26
+MTX  CM   3HM   SING  27
+MTX  C11  C12   DOUB  28
+MTX  C11  C16   SING  29
+MTX  C11  C     SING  30
+MTX  C12  C13   SING  31
+MTX  C12  H12   SING  32
+MTX  C13  C14   DOUB  33
+MTX  C13  H13   SING  34
+MTX  C14  C15   SING  35
+MTX  C15  C16   DOUB  36
+MTX  C15  H15   SING  37
+MTX  C16  H16   SING  38
+MTX  C    N     SING  39
+MTX  C    O     DOUB  40
+MTX  N    CA    SING  41
+MTX  N    HN    SING  42
+MTX  CA   CB    SING  43
+MTX  CA   CT    SING  44
+MTX  CA   HA    SING  45
+MTX  CT   O1    DOUB  46
+MTX  CT   O2    SING  47
+MTX  O2   HO2   SING  48
+MTX  CB   CG    SING  49
+MTX  CB   1HB   SING  50
+MTX  CB   2HB   SING  51
+MTX  CG   CD    SING  52
+MTX  CG   1HG   SING  53
+MTX  CG   2HG   SING  54
+MTX  CD   OE1   DOUB  55
+MTX  CD   OE2   SING  56
+MTX  OE2  2HOE  SING  57
+#

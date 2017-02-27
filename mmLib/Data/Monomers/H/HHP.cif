@@ -1,0 +1,78 @@
+data_HHP
+#
+_chem_comp.id                   HHP
+_chem_comp.name                 6-HYDROXYMETHYL-7,8-DIHYDROPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H9 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        195.180
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HHP  C7    .  C  0  ?  ?  ?  1  1 
+HHP  N8    .  N  0  ?  ?  ?  1  2 
+HHP  C9    .  C  0  ?  ?  ?  1  3 
+HHP  N1    .  N  0  ?  ?  ?  1  4 
+HHP  C2    .  C  0  ?  ?  ?  1  5 
+HHP  N2    .  N  0  ?  ?  ?  1  6 
+HHP  C10   .  C  0  ?  ?  ?  1  7 
+HHP  C4    .  C  0  ?  ?  ?  1  8 
+HHP  N3    .  N  0  ?  ?  ?  1  9 
+HHP  O4    .  O  0  ?  ?  ?  1  10
+HHP  N5    .  N  0  ?  ?  ?  1  11
+HHP  C6    .  C  0  ?  ?  ?  1  12
+HHP  C6A   .  C  0  ?  ?  ?  1  13
+HHP  O6A   .  O  0  ?  ?  ?  1  14
+HHP  1H7   .  H  0  ?  ?  ?  0  15
+HHP  2H7   .  H  0  ?  ?  ?  0  16
+HHP  HN8   .  H  0  ?  ?  ?  1  17
+HHP  1HN2  .  H  0  ?  ?  ?  0  18
+HHP  2HN2  .  H  0  ?  ?  ?  0  19
+HHP  HN3   .  H  0  ?  ?  ?  1  20
+HHP  1H6A  .  H  0  ?  ?  ?  0  21
+HHP  2H6A  .  H  0  ?  ?  ?  0  22
+HHP  HO6   .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HHP  C7   N8    SING  1 
+HHP  C7   C6    SING  2 
+HHP  C7   1H7   SING  3 
+HHP  C7   2H7   SING  4 
+HHP  N8   C9    SING  5 
+HHP  N8   HN8   SING  6 
+HHP  C9   N1    SING  7 
+HHP  C9   C10   DOUB  8 
+HHP  N1   C2    DOUB  9 
+HHP  C2   N2    SING  10
+HHP  C2   N3    SING  11
+HHP  N2   1HN2  SING  12
+HHP  N2   2HN2  SING  13
+HHP  C10  C4    SING  14
+HHP  C10  N5    SING  15
+HHP  C4   N3    SING  16
+HHP  C4   O4    DOUB  17
+HHP  N3   HN3   SING  18
+HHP  N5   C6    DOUB  19
+HHP  C6   C6A   SING  20
+HHP  C6A  O6A   SING  21
+HHP  C6A  1H6A  SING  22
+HHP  C6A  2H6A  SING  23
+HHP  O6A  HO6   SING  24
+#

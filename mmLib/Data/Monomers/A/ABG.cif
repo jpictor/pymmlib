@@ -1,0 +1,131 @@
+data_ABG
+#
+_chem_comp.id                   ABG
+_chem_comp.name                 'ADENOSINE 5'-[BETA,GAMMA-METHYLENE]TRIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H18 N5 O12 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        505.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABG  PG    .  P  0  24.02   67.885  44.537  1  1 
+ABG  O1G   .  O  0  25.127  68.885  44.461  1  2 
+ABG  O2G   .  O  0  24.314  66.713  45.414  1  3 
+ABG  O3G   .  O  0  22.67   68.491  44.771  1  4 
+ABG  C3B   .  C  0  23.927  67.14   42.826  1  5 
+ABG  PB    .  P  0  23.341  68.367  41.54   1  6 
+ABG  O1B   .  O  0  21.911  68.676  41.781  1  7 
+ABG  O2B   .  O  0  24.338  69.472  41.452  1  8 
+ABG  O3A   .  O  0  23.441  67.492  40.199  1  9 
+ABG  PA    .  P  0  22.365  67.412  39.011  1  10
+ABG  O1A   .  O  0  21.01   67.182  39.572  1  11
+ABG  O2A   .  O  0  22.57   68.597  38.135  1  12
+ABG  O5'   .  O  0  22.841  66.082  38.266  1  13
+ABG  C5'   .  C  0  22.071  64.882  38.338  1  14
+ABG  C4'   .  C  0  22.693  63.883  39.297  1  15
+ABG  O4'   .  O  0  24.123  63.719  39.091  1  16
+ABG  C1'   .  C  0  24.742  63.328  40.305  1  17
+ABG  N9    .  N  0  25.847  64.231  40.593  1  18
+ABG  C4    .  C  0  27.075  63.876  41.089  1  19
+ABG  N3    .  N  0  27.478  62.654  41.489  1  20
+ABG  C2    .  C  0  28.741  62.687  41.91   1  21
+ABG  N1    .  N  0  29.591  63.725  41.954  1  22
+ABG  C6    .  C  0  29.15   64.937  41.544  1  23
+ABG  N6    .  N  0  29.995  65.966  41.565  1  24
+ABG  C5    .  C  0  27.836  65.038  41.097  1  25
+ABG  N7    .  N  0  27.089  66.115  40.649  1  26
+ABG  C8    .  C  0  25.92   65.591  40.373  1  27
+ABG  C2'   .  C  0  23.637  63.28   41.379  1  28
+ABG  O2'   .  O  0  23.151  61.959  41.451  1  29
+ABG  C3'   .  C  0  22.585  64.2    40.774  1  30
+ABG  O3'   .  O  0  21.29   63.831  41.217  1  31
+ABG  2H3B  .  H  0  ?       ?       ?       0  32
+ABG  1H3B  .  H  0  ?       ?       ?       0  33
+ABG  2H5'  .  H  0  ?       ?       ?       0  34
+ABG  1H5'  .  H  0  ?       ?       ?       0  35
+ABG  H4'   .  H  0  ?       ?       ?       1  36
+ABG  H1'   .  H  0  ?       ?       ?       1  37
+ABG  H2    .  H  0  ?       ?       ?       1  38
+ABG  H8    .  H  0  ?       ?       ?       1  39
+ABG  H2'   .  H  0  ?       ?       ?       1  40
+ABG  1H2O  .  H  0  ?       ?       ?       0  41
+ABG  H3'   .  H  0  ?       ?       ?       1  42
+ABG  1H3O  .  H  0  ?       ?       ?       0  43
+ABG  2H6   .  H  0  ?       ?       ?       0  44
+ABG  1H6   .  H  0  ?       ?       ?       0  45
+ABG  H2A   .  H  0  ?       ?       ?       1  46
+ABG  H2B   .  H  0  ?       ?       ?       1  47
+ABG  H2G   .  H  0  ?       ?       ?       1  48
+ABG  H3G   .  H  0  ?       ?       ?       1  49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABG  PG   O1G   DOUB  1 
+ABG  PG   O2G   SING  2 
+ABG  PG   O3G   SING  3 
+ABG  PG   C3B   SING  4 
+ABG  O2G  H2G   SING  5 
+ABG  O3G  H3G   SING  6 
+ABG  C3B  PB    SING  7 
+ABG  C3B  2H3B  SING  8 
+ABG  C3B  1H3B  SING  9 
+ABG  PB   O1B   DOUB  10
+ABG  PB   O2B   SING  11
+ABG  PB   O3A   SING  12
+ABG  O2B  H2B   SING  13
+ABG  O3A  PA    SING  14
+ABG  PA   O1A   DOUB  15
+ABG  PA   O2A   SING  16
+ABG  PA   O5'   SING  17
+ABG  O2A  H2A   SING  18
+ABG  O5'  C5'   SING  19
+ABG  C5'  C4'   SING  20
+ABG  C5'  2H5'  SING  21
+ABG  C5'  1H5'  SING  22
+ABG  C4'  O4'   SING  23
+ABG  C4'  C3'   SING  24
+ABG  C4'  H4'   SING  25
+ABG  O4'  C1'   SING  26
+ABG  C1'  N9    SING  27
+ABG  C1'  C2'   SING  28
+ABG  C1'  H1'   SING  29
+ABG  N9   C4    SING  30
+ABG  N9   C8    SING  31
+ABG  C4   N3    AROM  32
+ABG  C4   C5    AROM  33
+ABG  N3   C2    AROM  34
+ABG  C2   N1    AROM  35
+ABG  C2   H2    SING  36
+ABG  N1   C6    AROM  37
+ABG  C6   N6    SING  38
+ABG  C6   C5    AROM  39
+ABG  N6   2H6   SING  40
+ABG  N6   1H6   SING  41
+ABG  C5   N7    SING  42
+ABG  N7   C8    DOUB  43
+ABG  C8   H8    SING  44
+ABG  C2'  O2'   SING  45
+ABG  C2'  C3'   SING  46
+ABG  C2'  H2'   SING  47
+ABG  O2'  1H2O  SING  48
+ABG  C3'  O3'   SING  49
+ABG  C3'  H3'   SING  50
+ABG  O3'  1H3O  SING  51
+#

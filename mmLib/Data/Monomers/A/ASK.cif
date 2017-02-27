@@ -1,0 +1,68 @@
+data_ASK
+#
+_chem_comp.id                       ASK
+_chem_comp.name                     'DEHYDROXYMETHYLASPARTIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O3'
+_chem_comp.pdbx_synonyms            ASPARTYLMETHANE
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.131
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASK  N    .  N  0  ?  ?  ?  1  1 
+ASK  CA   .  C  0  ?  ?  ?  1  2 
+ASK  CB   .  C  0  ?  ?  ?  1  3 
+ASK  CG   .  C  0  ?  ?  ?  1  4 
+ASK  OD1  .  O  0  ?  ?  ?  1  5 
+ASK  OD2  .  O  0  ?  ?  ?  1  6 
+ASK  C    .  C  0  ?  ?  ?  1  7 
+ASK  O    .  O  0  ?  ?  ?  1  8 
+ASK  CM   .  C  0  ?  ?  ?  1  9 
+ASK  1HN  .  H  0  ?  ?  ?  0  10
+ASK  2HN  .  H  0  ?  ?  ?  0  11
+ASK  HA   .  H  0  ?  ?  ?  1  12
+ASK  1HB  .  H  0  ?  ?  ?  0  13
+ASK  2HB  .  H  0  ?  ?  ?  0  14
+ASK  HOD  .  H  0  ?  ?  ?  1  15
+ASK  1HM  .  H  0  ?  ?  ?  0  16
+ASK  2HM  .  H  0  ?  ?  ?  0  17
+ASK  3HM  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASK  N    CA   SING  1 
+ASK  N    1HN  SING  2 
+ASK  N    2HN  SING  3 
+ASK  CA   CB   SING  4 
+ASK  CA   C    SING  5 
+ASK  CA   HA   SING  6 
+ASK  CB   CG   SING  7 
+ASK  CB   1HB  SING  8 
+ASK  CB   2HB  SING  9 
+ASK  CG   OD1  DOUB  10
+ASK  CG   OD2  SING  11
+ASK  OD2  HOD  SING  12
+ASK  C    O    DOUB  13
+ASK  C    CM   SING  14
+ASK  CM   1HM  SING  15
+ASK  CM   2HM  SING  16
+ASK  CM   3HM  SING  17
+#

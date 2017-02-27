@@ -1,0 +1,109 @@
+data_TP1
+#
+_chem_comp.id                   TP1
+_chem_comp.name                 2-(METHYLAMINO)-ETHYLGLYCINE-CARBONYLMETHYLENE-THYMINE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C12 H18 N4 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        298.298
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TP1  C8'   .  C  0  ?  ?  ?  1  1 
+TP1  C7'   .  C  0  ?  ?  ?  1  2 
+TP1  O7'   .  O  0  ?  ?  ?  1  3 
+TP1  C5'   .  C  0  ?  ?  ?  1  4 
+TP1  C'    .  C  0  ?  ?  ?  1  5 
+TP1  O1'   .  O  0  ?  ?  ?  1  6 
+TP1  OXT   .  O  0  ?  ?  ?  1  7 
+TP1  N4'   .  N  0  ?  ?  ?  1  8 
+TP1  C3'   .  C  0  ?  ?  ?  1  9 
+TP1  C2'   .  C  0  ?  ?  ?  1  10
+TP1  N1'   .  N  0  ?  ?  ?  1  11
+TP1  C1'   .  C  0  ?  ?  ?  1  12
+TP1  N1    .  N  0  ?  ?  ?  1  13
+TP1  C6    .  C  0  ?  ?  ?  1  14
+TP1  C2    .  C  0  ?  ?  ?  1  15
+TP1  O2    .  O  0  ?  ?  ?  1  16
+TP1  N3    .  N  0  ?  ?  ?  1  17
+TP1  C4    .  C  0  ?  ?  ?  1  18
+TP1  O4    .  O  0  ?  ?  ?  1  19
+TP1  C5    .  C  0  ?  ?  ?  1  20
+TP1  C5M   .  C  0  ?  ?  ?  1  21
+TP1  H1'   .  H  0  ?  ?  ?  1  22
+TP1  1H1'  .  H  0  ?  ?  ?  0  23
+TP1  2H1'  .  H  0  ?  ?  ?  0  24
+TP1  3H1'  .  H  0  ?  ?  ?  0  25
+TP1  1H2'  .  H  0  ?  ?  ?  0  26
+TP1  2H2'  .  H  0  ?  ?  ?  0  27
+TP1  HXT   .  H  0  ?  ?  ?  1  28
+TP1  1H3'  .  H  0  ?  ?  ?  0  29
+TP1  2H3'  .  H  0  ?  ?  ?  0  30
+TP1  1H5'  .  H  0  ?  ?  ?  0  31
+TP1  2H5'  .  H  0  ?  ?  ?  0  32
+TP1  1H8'  .  H  0  ?  ?  ?  0  33
+TP1  2H8'  .  H  0  ?  ?  ?  0  34
+TP1  H6    .  H  0  ?  ?  ?  1  35
+TP1  HN3   .  H  0  ?  ?  ?  1  36
+TP1  1HM5  .  H  0  ?  ?  ?  0  37
+TP1  2HM5  .  H  0  ?  ?  ?  0  38
+TP1  3HM5  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TP1  C8'  C7'   SING  1 
+TP1  C8'  N1    SING  2 
+TP1  C8'  1H8'  SING  3 
+TP1  C8'  2H8'  SING  4 
+TP1  C7'  N4'   SING  5 
+TP1  C7'  O7'   DOUB  6 
+TP1  C5'  N4'   SING  7 
+TP1  C5'  C'    SING  8 
+TP1  C5'  1H5'  SING  9 
+TP1  C5'  2H5'  SING  10
+TP1  C'   O1'   DOUB  11
+TP1  C'   OXT   SING  12
+TP1  OXT  HXT   SING  13
+TP1  N4'  C3'   SING  14
+TP1  C3'  C2'   SING  15
+TP1  C3'  1H3'  SING  16
+TP1  C3'  2H3'  SING  17
+TP1  C2'  N1'   SING  18
+TP1  C2'  1H2'  SING  19
+TP1  C2'  2H2'  SING  20
+TP1  N1'  C1'   SING  21
+TP1  N1'  H1'   SING  22
+TP1  C1'  1H1'  SING  23
+TP1  C1'  2H1'  SING  24
+TP1  C1'  3H1'  SING  25
+TP1  N1   C2    SING  26
+TP1  N1   C6    SING  27
+TP1  C6   C5    DOUB  28
+TP1  C6   H6    SING  29
+TP1  C2   N3    SING  30
+TP1  C2   O2    DOUB  31
+TP1  N3   C4    SING  32
+TP1  N3   HN3   SING  33
+TP1  C4   C5    SING  34
+TP1  C4   O4    DOUB  35
+TP1  C5   C5M   SING  36
+TP1  C5M  1HM5  SING  37
+TP1  C5M  2HM5  SING  38
+TP1  C5M  3HM5  SING  39
+#

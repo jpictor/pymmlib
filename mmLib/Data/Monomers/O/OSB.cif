@@ -1,0 +1,84 @@
+data_OSB
+#
+_chem_comp.id                   OSB
+_chem_comp.name                 2-SUCCINYLBENZOATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H10 O5'
+_chem_comp.pdbx_synonyms        O-SUCCINYLBENZOATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        222.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OSB  O1    .  O  0  ?  ?  ?  1  1 
+OSB  O2    .  O  0  ?  ?  ?  1  2 
+OSB  C7    .  C  0  ?  ?  ?  1  3 
+OSB  C6    .  C  0  ?  ?  ?  1  4 
+OSB  C5    .  C  0  ?  ?  ?  1  5 
+OSB  C4    .  C  0  ?  ?  ?  1  6 
+OSB  C3    .  C  0  ?  ?  ?  1  7 
+OSB  C2    .  C  0  ?  ?  ?  1  8 
+OSB  C1    .  C  0  ?  ?  ?  1  9 
+OSB  C8    .  C  0  ?  ?  ?  1  10
+OSB  C9    .  C  0  ?  ?  ?  1  11
+OSB  O3    .  O  0  ?  ?  ?  1  12
+OSB  C10   .  C  0  ?  ?  ?  1  13
+OSB  C11   .  C  0  ?  ?  ?  1  14
+OSB  O4    .  O  0  ?  ?  ?  1  15
+OSB  O5    .  O  0  ?  ?  ?  1  16
+OSB  1H6   .  H  0  ?  ?  ?  0  17
+OSB  1H5   .  H  0  ?  ?  ?  0  18
+OSB  1H4   .  H  0  ?  ?  ?  0  19
+OSB  1H3   .  H  0  ?  ?  ?  0  20
+OSB  HO1   .  H  0  ?  ?  ?  1  21
+OSB  1H9   .  H  0  ?  ?  ?  0  22
+OSB  2H9   .  H  0  ?  ?  ?  0  23
+OSB  1H10  .  H  0  ?  ?  ?  0  24
+OSB  2H10  .  H  0  ?  ?  ?  0  25
+OSB  HO5   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OSB  O1   C7    SING  1 
+OSB  O1   HO1   SING  2 
+OSB  O2   C7    DOUB  3 
+OSB  C7   C2    SING  4 
+OSB  C6   C5    AROM  5 
+OSB  C6   C1    AROM  6 
+OSB  C6   1H6   SING  7 
+OSB  C5   C4    AROM  8 
+OSB  C5   1H5   SING  9 
+OSB  C4   C3    AROM  10
+OSB  C4   1H4   SING  11
+OSB  C3   C2    AROM  12
+OSB  C3   1H3   SING  13
+OSB  C2   C1    AROM  14
+OSB  C1   C8    SING  15
+OSB  C8   C9    SING  16
+OSB  C8   O3    DOUB  17
+OSB  C9   C10   SING  18
+OSB  C9   1H9   SING  19
+OSB  C9   2H9   SING  20
+OSB  C10  C11   SING  21
+OSB  C10  1H10  SING  22
+OSB  C10  2H10  SING  23
+OSB  C11  O4    DOUB  24
+OSB  C11  O5    SING  25
+OSB  O5   HO5   SING  26
+#

@@ -1,0 +1,74 @@
+data_NTA
+#
+_chem_comp.id                   NTA
+_chem_comp.name                 'NITRILOTRIACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        191.140
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NTA  N1    .  N  0  ?  ?  ?  1  1 
+NTA  C6    .  C  0  ?  ?  ?  1  2 
+NTA  C10   .  C  0  ?  ?  ?  1  3 
+NTA  C2    .  C  0  ?  ?  ?  1  4 
+NTA  C7    .  C  0  ?  ?  ?  1  5 
+NTA  O8    .  O  0  ?  ?  ?  1  6 
+NTA  O9    .  O  0  ?  ?  ?  1  7 
+NTA  C3    .  C  0  ?  ?  ?  1  8 
+NTA  C11   .  C  0  ?  ?  ?  1  9 
+NTA  O12   .  O  0  ?  ?  ?  1  10
+NTA  O13   .  O  0  ?  ?  ?  1  11
+NTA  O4    .  O  0  ?  ?  ?  1  12
+NTA  O5    .  O  0  ?  ?  ?  1  13
+NTA  HO4   .  H  0  ?  ?  ?  1  14
+NTA  HO12  .  H  0  ?  ?  ?  0  15
+NTA  HO8   .  H  0  ?  ?  ?  1  16
+NTA  1H2   .  H  0  ?  ?  ?  0  17
+NTA  2H2   .  H  0  ?  ?  ?  0  18
+NTA  1H10  .  H  0  ?  ?  ?  0  19
+NTA  2H10  .  H  0  ?  ?  ?  0  20
+NTA  1H6   .  H  0  ?  ?  ?  0  21
+NTA  2H6   .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NTA  N1   C6    SING  1 
+NTA  N1   C10   SING  2 
+NTA  N1   C2    SING  3 
+NTA  C6   C7    SING  4 
+NTA  C6   1H6   SING  5 
+NTA  C6   2H6   SING  6 
+NTA  C10  C11   SING  7 
+NTA  C10  1H10  SING  8 
+NTA  C10  2H10  SING  9 
+NTA  C2   C3    SING  10
+NTA  C2   1H2   SING  11
+NTA  C2   2H2   SING  12
+NTA  C7   O8    SING  13
+NTA  C7   O9    DOUB  14
+NTA  O8   HO8   SING  15
+NTA  C3   O4    SING  16
+NTA  C3   O5    DOUB  17
+NTA  C11  O12   SING  18
+NTA  C11  O13   DOUB  19
+NTA  O12  HO12  SING  20
+NTA  O4   HO4   SING  21
+#

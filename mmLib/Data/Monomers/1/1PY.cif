@@ -1,0 +1,71 @@
+data_1PY
+#
+_chem_comp.id                   1PY
+_chem_comp.name                 '2-OXO-3-PHENYLPROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1PY  O1   .  O  0  ?  ?  ?  1  1 
+1PY  O2   .  O  0  ?  ?  ?  1  2 
+1PY  O    .  O  0  ?  ?  ?  1  3 
+1PY  CA   .  C  0  ?  ?  ?  1  4 
+1PY  CB   .  C  0  ?  ?  ?  1  5 
+1PY  CG   .  C  0  ?  ?  ?  1  6 
+1PY  CD1  .  C  0  ?  ?  ?  1  7 
+1PY  CE1  .  C  0  ?  ?  ?  1  8 
+1PY  CZ   .  C  0  ?  ?  ?  1  9 
+1PY  CE2  .  C  0  ?  ?  ?  1  10
+1PY  CD2  .  C  0  ?  ?  ?  1  11
+1PY  C    .  C  0  ?  ?  ?  1  12
+1PY  HO2  .  H  0  ?  ?  ?  1  13
+1PY  1HB  .  H  0  ?  ?  ?  0  14
+1PY  2HB  .  H  0  ?  ?  ?  0  15
+1PY  HD1  .  H  0  ?  ?  ?  1  16
+1PY  HE1  .  H  0  ?  ?  ?  1  17
+1PY  HZ   .  H  0  ?  ?  ?  1  18
+1PY  HE2  .  H  0  ?  ?  ?  1  19
+1PY  HD2  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1PY  O1   C    DOUB  1 
+1PY  O2   C    SING  2 
+1PY  O2   HO2  SING  3 
+1PY  O    CA   DOUB  4 
+1PY  CA   CB   SING  5 
+1PY  CA   C    SING  6 
+1PY  CB   CG   SING  7 
+1PY  CB   1HB  SING  8 
+1PY  CB   2HB  SING  9 
+1PY  CG   CD1  DOUB  10
+1PY  CG   CD2  SING  11
+1PY  CD1  CE1  SING  12
+1PY  CD1  HD1  SING  13
+1PY  CE1  CZ   DOUB  14
+1PY  CE1  HE1  SING  15
+1PY  CZ   CE2  SING  16
+1PY  CZ   HZ   SING  17
+1PY  CE2  CD2  DOUB  18
+1PY  CE2  HE2  SING  19
+1PY  CD2  HD2  SING  20
+#

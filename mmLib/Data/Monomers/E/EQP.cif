@@ -1,0 +1,113 @@
+data_EQP
+#
+_chem_comp.id                   EQP
+_chem_comp.name                 '(4-ACETAMIDO-2,4-DIDEOXY-D-GLYCERO-ALPHA-D-GALACTO-1-OCTOPYRANOSYL)PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H20 N1 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        329.243
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EQP  P1    .  P  0  ?  ?  ?  1  1 
+EQP  C2    .  C  0  ?  ?  ?  1  2 
+EQP  C3    .  C  0  ?  ?  ?  1  3 
+EQP  C4    .  C  0  ?  ?  ?  1  4 
+EQP  C5    .  C  0  ?  ?  ?  1  5 
+EQP  C6    .  C  0  ?  ?  ?  1  6 
+EQP  C7    .  C  0  ?  ?  ?  1  7 
+EQP  C8    .  C  0  ?  ?  ?  1  8 
+EQP  C9    .  C  0  ?  ?  ?  1  9 
+EQP  C10   .  C  0  ?  ?  ?  1  10
+EQP  C11   .  C  0  ?  ?  ?  1  11
+EQP  N5    .  N  0  ?  ?  ?  1  12
+EQP  O1P   .  O  0  ?  ?  ?  1  13
+EQP  O2P   .  O  0  ?  ?  ?  1  14
+EQP  O3P   .  O  0  ?  ?  ?  1  15
+EQP  O4    .  O  0  ?  ?  ?  1  16
+EQP  O6    .  O  0  ?  ?  ?  1  17
+EQP  O7    .  O  0  ?  ?  ?  1  18
+EQP  O8    .  O  0  ?  ?  ?  1  19
+EQP  O9    .  O  0  ?  ?  ?  1  20
+EQP  O10   .  O  0  ?  ?  ?  1  21
+EQP  H2    .  H  0  ?  ?  ?  1  22
+EQP  1H3   .  H  0  ?  ?  ?  0  23
+EQP  2H3   .  H  0  ?  ?  ?  0  24
+EQP  H4    .  H  0  ?  ?  ?  1  25
+EQP  H5    .  H  0  ?  ?  ?  1  26
+EQP  H6    .  H  0  ?  ?  ?  1  27
+EQP  H7    .  H  0  ?  ?  ?  1  28
+EQP  H8    .  H  0  ?  ?  ?  1  29
+EQP  1H9   .  H  0  ?  ?  ?  0  30
+EQP  2H9   .  H  0  ?  ?  ?  0  31
+EQP  1H11  .  H  0  ?  ?  ?  0  32
+EQP  2H11  .  H  0  ?  ?  ?  0  33
+EQP  3H11  .  H  0  ?  ?  ?  0  34
+EQP  HN5   .  H  0  ?  ?  ?  1  35
+EQP  HO4   .  H  0  ?  ?  ?  1  36
+EQP  HO7   .  H  0  ?  ?  ?  1  37
+EQP  HO8   .  H  0  ?  ?  ?  1  38
+EQP  HO9   .  H  0  ?  ?  ?  1  39
+EQP  2HOP  .  H  0  ?  ?  ?  0  40
+EQP  3HOP  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EQP  P1   C2    SING  1 
+EQP  P1   O1P   DOUB  2 
+EQP  P1   O2P   SING  3 
+EQP  P1   O3P   SING  4 
+EQP  C2   C3    SING  5 
+EQP  C2   O6    SING  6 
+EQP  C2   H2    SING  7 
+EQP  C3   C4    SING  8 
+EQP  C3   1H3   SING  9 
+EQP  C3   2H3   SING  10
+EQP  C4   C5    SING  11
+EQP  C4   O4    SING  12
+EQP  C4   H4    SING  13
+EQP  C5   C6    SING  14
+EQP  C5   N5    SING  15
+EQP  C5   H5    SING  16
+EQP  C6   C7    SING  17
+EQP  C6   O6    SING  18
+EQP  C6   H6    SING  19
+EQP  C7   C8    SING  20
+EQP  C7   O7    SING  21
+EQP  C7   H7    SING  22
+EQP  C8   C9    SING  23
+EQP  C8   O8    SING  24
+EQP  C8   H8    SING  25
+EQP  C9   O9    SING  26
+EQP  C9   1H9   SING  27
+EQP  C9   2H9   SING  28
+EQP  C10  C11   SING  29
+EQP  C10  N5    SING  30
+EQP  C10  O10   DOUB  31
+EQP  C11  1H11  SING  32
+EQP  C11  2H11  SING  33
+EQP  C11  3H11  SING  34
+EQP  N5   HN5   SING  35
+EQP  O2P  2HOP  SING  36
+EQP  O3P  3HOP  SING  37
+EQP  O4   HO4   SING  38
+EQP  O7   HO7   SING  39
+EQP  O8   HO8   SING  40
+EQP  O9   HO9   SING  41
+#

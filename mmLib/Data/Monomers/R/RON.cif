@@ -1,0 +1,68 @@
+data_RON
+#
+_chem_comp.id                   RON
+_chem_comp.name                 NORVALINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.147
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RON  N    .  N  0  ?  ?  ?  1  1 
+RON  CA   .  C  0  ?  ?  ?  1  2 
+RON  CB   .  C  0  ?  ?  ?  1  3 
+RON  CG   .  C  0  ?  ?  ?  1  4 
+RON  C    .  C  0  ?  ?  ?  1  5 
+RON  CD   .  C  0  ?  ?  ?  1  6 
+RON  O    .  O  0  ?  ?  ?  1  7 
+RON  OXT  .  O  0  ?  ?  ?  1  8 
+RON  1HN  .  H  0  ?  ?  ?  0  9 
+RON  2HN  .  H  0  ?  ?  ?  0  10
+RON  HA   .  H  0  ?  ?  ?  1  11
+RON  1HB  .  H  0  ?  ?  ?  0  12
+RON  2HB  .  H  0  ?  ?  ?  0  13
+RON  1HG  .  H  0  ?  ?  ?  0  14
+RON  2HG  .  H  0  ?  ?  ?  0  15
+RON  HXT  .  H  0  ?  ?  ?  1  16
+RON  1HD  .  H  0  ?  ?  ?  0  17
+RON  2HD  .  H  0  ?  ?  ?  0  18
+RON  3HD  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RON  N    CA   SING  1 
+RON  N    1HN  SING  2 
+RON  N    2HN  SING  3 
+RON  CA   CB   SING  4 
+RON  CA   C    SING  5 
+RON  CA   HA   SING  6 
+RON  CB   CG   SING  7 
+RON  CB   1HB  SING  8 
+RON  CB   2HB  SING  9 
+RON  CG   CD   SING  10
+RON  CG   1HG  SING  11
+RON  CG   2HG  SING  12
+RON  C    O    DOUB  13
+RON  C    OXT  SING  14
+RON  CD   1HD  SING  15
+RON  CD   2HD  SING  16
+RON  CD   3HD  SING  17
+RON  OXT  HXT  SING  18
+#

@@ -1,0 +1,114 @@
+data_A2M
+#
+_chem_comp.id                       A2M
+_chem_comp.name                     2'-O-METHYL-ADENOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            361.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+A2M  O3P   .  O  0  ?  ?  ?  1  1 
+A2M  P     .  P  0  ?  ?  ?  1  2 
+A2M  O1P   .  O  0  ?  ?  ?  1  3 
+A2M  O2P   .  O  0  ?  ?  ?  1  4 
+A2M  O5*   .  O  0  ?  ?  ?  1  5 
+A2M  C5*   .  C  0  ?  ?  ?  1  6 
+A2M  C4*   .  C  0  ?  ?  ?  1  7 
+A2M  O4*   .  O  0  ?  ?  ?  1  8 
+A2M  C3*   .  C  0  ?  ?  ?  1  9 
+A2M  O3*   .  O  0  ?  ?  ?  1  10
+A2M  C2*   .  C  0  ?  ?  ?  1  11
+A2M  O2*   .  O  0  ?  ?  ?  1  12
+A2M  C1*   .  C  0  ?  ?  ?  1  13
+A2M  CM*   .  C  0  ?  ?  ?  1  14
+A2M  N9    .  N  0  ?  ?  ?  1  15
+A2M  C8    .  C  0  ?  ?  ?  1  16
+A2M  N7    .  N  0  ?  ?  ?  1  17
+A2M  C5    .  C  0  ?  ?  ?  1  18
+A2M  C6    .  C  0  ?  ?  ?  1  19
+A2M  N6    .  N  0  ?  ?  ?  1  20
+A2M  N1    .  N  0  ?  ?  ?  1  21
+A2M  C2    .  C  0  ?  ?  ?  1  22
+A2M  N3    .  N  0  ?  ?  ?  1  23
+A2M  C4    .  C  0  ?  ?  ?  1  24
+A2M  3HOP  .  H  0  ?  ?  ?  0  25
+A2M  2HOP  .  H  0  ?  ?  ?  0  26
+A2M  1H5*  .  H  0  ?  ?  ?  0  27
+A2M  2H5*  .  H  0  ?  ?  ?  0  28
+A2M  H4*   .  H  0  ?  ?  ?  1  29
+A2M  H3*   .  H  0  ?  ?  ?  1  30
+A2M  H2*   .  H  0  ?  ?  ?  1  31
+A2M  H1*   .  H  0  ?  ?  ?  1  32
+A2M  H8    .  H  0  ?  ?  ?  1  33
+A2M  1H6   .  H  0  ?  ?  ?  0  34
+A2M  2H6   .  H  0  ?  ?  ?  0  35
+A2M  H2    .  H  0  ?  ?  ?  1  36
+A2M  H3T   .  H  0  ?  ?  ?  1  37
+A2M  1HM*  .  H  0  ?  ?  ?  0  38
+A2M  2HM*  .  H  0  ?  ?  ?  0  39
+A2M  3HM*  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+A2M  O3P  P     SING  1 
+A2M  O3P  3HOP  SING  2 
+A2M  P    O1P   DOUB  3 
+A2M  P    O2P   SING  4 
+A2M  P    O5*   SING  5 
+A2M  O2P  2HOP  SING  6 
+A2M  O5*  C5*   SING  7 
+A2M  C5*  C4*   SING  8 
+A2M  C5*  1H5*  SING  9 
+A2M  C5*  2H5*  SING  10
+A2M  C4*  O4*   SING  11
+A2M  C4*  C3*   SING  12
+A2M  C4*  H4*   SING  13
+A2M  O4*  C1*   SING  14
+A2M  C3*  O3*   SING  15
+A2M  C3*  C2*   SING  16
+A2M  C3*  H3*   SING  17
+A2M  O3*  H3T   SING  18
+A2M  C2*  O2*   SING  19
+A2M  C2*  C1*   SING  20
+A2M  C2*  H2*   SING  21
+A2M  O2*  CM*   SING  22
+A2M  C1*  N9    SING  23
+A2M  C1*  H1*   SING  24
+A2M  CM*  1HM*  SING  25
+A2M  CM*  2HM*  SING  26
+A2M  CM*  3HM*  SING  27
+A2M  N9   C8    SING  28
+A2M  N9   C4    SING  29
+A2M  C8   N7    DOUB  30
+A2M  C8   H8    SING  31
+A2M  N7   C5    SING  32
+A2M  C5   C6    SING  33
+A2M  C5   C4    DOUB  34
+A2M  C6   N6    SING  35
+A2M  C6   N1    DOUB  36
+A2M  N6   1H6   SING  37
+A2M  N6   2H6   SING  38
+A2M  N1   C2    SING  39
+A2M  C2   N3    DOUB  40
+A2M  C2   H2    SING  41
+A2M  N3   C4    SING  42
+#

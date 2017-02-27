@@ -1,0 +1,103 @@
+data_SUA
+#
+_chem_comp.id                   SUA
+_chem_comp.name                 '(4-SULFAMOYL-PHENYL)-THIOCARBAMIC ACID O-(2-THIOPHEN-3-YL-ETHYL) ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H14 N2 O3 S3'
+_chem_comp.pdbx_synonyms        16923
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.445
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SUA  S1    .  S  0  -5.875  0.976   16.723  1  1 
+SUA  O1    .  O  0  -7.294  1.067   16.596  1  2 
+SUA  O2    .  O  0  -5.324  1.122   18.057  1  3 
+SUA  N1    .  N  0  -5.345  -0.349  16.046  1  4 
+SUA  C1    .  C  0  -3.303  3.423   14.815  1  5 
+SUA  C2    .  C  0  -3.881  2.356   15.486  1  6 
+SUA  C3    .  C  0  -5.223  2.332   15.789  1  7 
+SUA  C4    .  C  0  -6.024  3.390   15.423  1  8 
+SUA  C5    .  C  0  -5.477  4.445   14.720  1  9 
+SUA  C6    .  C  0  -4.109  4.508   14.476  1  10
+SUA  N2    .  N  0  -3.586  5.638   13.871  1  11
+SUA  C7    .  C  0  -4.114  6.194   12.876  1  12
+SUA  S2    .  S  0  -2.980  7.101   12.229  1  13
+SUA  O3    .  O  0  -5.467  6.383   12.356  1  14
+SUA  C8    .  C  0  -6.205  7.482   11.634  1  15
+SUA  C9    .  C  0  -6.730  6.708   10.431  1  16
+SUA  C10   .  C  0  -7.132  7.876   9.514   1  17
+SUA  C11   .  C  0  ?       ?       ?       1  18
+SUA  C12   .  C  0  ?       ?       ?       1  19
+SUA  S3    .  S  0  ?       ?       ?       1  20
+SUA  C13   .  C  0  ?       ?       ?       1  21
+SUA  1H12  .  H  0  ?       ?       ?       0  22
+SUA  1H11  .  H  0  ?       ?       ?       0  23
+SUA  1H13  .  H  0  ?       ?       ?       0  24
+SUA  1H9   .  H  0  ?       ?       ?       0  25
+SUA  2H9   .  H  0  ?       ?       ?       0  26
+SUA  1H8   .  H  0  ?       ?       ?       0  27
+SUA  2H8   .  H  0  ?       ?       ?       0  28
+SUA  1HN2  .  H  0  ?       ?       ?       0  29
+SUA  1H1   .  H  0  ?       ?       ?       0  30
+SUA  1H2   .  H  0  ?       ?       ?       0  31
+SUA  1H4   .  H  0  ?       ?       ?       0  32
+SUA  1H5   .  H  0  ?       ?       ?       0  33
+SUA  1HN1  .  H  0  ?       ?       ?       0  34
+SUA  2HN1  .  H  0  ?       ?       ?       0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SUA  S1   O1    DOUB  1 
+SUA  S1   O2    DOUB  2 
+SUA  S1   N1    SING  3 
+SUA  S1   C3    SING  4 
+SUA  N1   1HN1  SING  5 
+SUA  N1   2HN1  SING  6 
+SUA  C1   C2    AROM  7 
+SUA  C1   C6    AROM  8 
+SUA  C1   1H1   SING  9 
+SUA  C2   C3    AROM  10
+SUA  C2   1H2   SING  11
+SUA  C3   C4    AROM  12
+SUA  C4   C5    AROM  13
+SUA  C4   1H4   SING  14
+SUA  C5   C6    AROM  15
+SUA  C5   1H5   SING  16
+SUA  C6   N2    SING  17
+SUA  N2   C7    SING  18
+SUA  N2   1HN2  SING  19
+SUA  C7   S2    DOUB  20
+SUA  C7   O3    SING  21
+SUA  O3   C8    SING  22
+SUA  C8   C9    SING  23
+SUA  C8   1H8   SING  24
+SUA  C8   2H8   SING  25
+SUA  C9   C10   SING  26
+SUA  C9   1H9   SING  27
+SUA  C9   2H9   SING  28
+SUA  C10  C11   SING  29
+SUA  C10  C13   DOUB  30
+SUA  C11  C12   DOUB  31
+SUA  C11  1H11  SING  32
+SUA  C12  S3    SING  33
+SUA  C12  1H12  SING  34
+SUA  S3   C13   SING  35
+SUA  C13  1H13  SING  36
+#

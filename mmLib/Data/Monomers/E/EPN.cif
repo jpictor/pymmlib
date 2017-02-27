@@ -1,0 +1,81 @@
+data_EPN
+#
+_chem_comp.id                   EPN
+_chem_comp.name                 3-(4-NITRO-PHENOXY)-PROPAN-1-OL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        197.190
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EPN  C1   .  C  0  ?  ?  ?  1  1 
+EPN  O17  .  O  0  ?  ?  ?  1  2 
+EPN  C2   .  C  0  ?  ?  ?  1  3 
+EPN  C3   .  C  0  ?  ?  ?  1  4 
+EPN  O18  .  O  0  ?  ?  ?  1  5 
+EPN  C4   .  C  0  ?  ?  ?  1  6 
+EPN  C5   .  C  0  ?  ?  ?  1  7 
+EPN  N11  .  N  0  ?  ?  ?  1  8 
+EPN  O14  .  O  0  ?  ?  ?  1  9 
+EPN  O16  .  O  0  ?  ?  ?  1  10
+EPN  C6   .  C  0  ?  ?  ?  1  11
+EPN  C7   .  C  0  ?  ?  ?  1  12
+EPN  C8   .  C  0  ?  ?  ?  1  13
+EPN  C9   .  C  0  ?  ?  ?  1  14
+EPN  1H1  .  H  0  ?  ?  ?  0  15
+EPN  2H1  .  H  0  ?  ?  ?  0  16
+EPN  H17  .  H  0  ?  ?  ?  1  17
+EPN  1H2  .  H  0  ?  ?  ?  0  18
+EPN  2H2  .  H  0  ?  ?  ?  0  19
+EPN  1H3  .  H  0  ?  ?  ?  0  20
+EPN  2H3  .  H  0  ?  ?  ?  0  21
+EPN  H4   .  H  0  ?  ?  ?  1  22
+EPN  H6   .  H  0  ?  ?  ?  1  23
+EPN  H7   .  H  0  ?  ?  ?  1  24
+EPN  H9   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EPN  C1   C2   SING  1 
+EPN  C1   O17  SING  2 
+EPN  C1   1H1  SING  3 
+EPN  C1   2H1  SING  4 
+EPN  O17  H17  SING  5 
+EPN  C2   C3   SING  6 
+EPN  C2   1H2  SING  7 
+EPN  C2   2H2  SING  8 
+EPN  C3   O18  SING  9 
+EPN  C3   1H3  SING  10
+EPN  C3   2H3  SING  11
+EPN  O18  C8   SING  12
+EPN  C4   C5   DOUB  13
+EPN  C4   C9   SING  14
+EPN  C4   H4   SING  15
+EPN  C5   C6   SING  16
+EPN  C5   N11  SING  17
+EPN  N11  O14  DOUB  18
+EPN  N11  O16  DOUB  19
+EPN  C6   C7   DOUB  20
+EPN  C6   H6   SING  21
+EPN  C7   C8   SING  22
+EPN  C7   H7   SING  23
+EPN  C8   C9   DOUB  24
+EPN  C9   H9   SING  25
+#

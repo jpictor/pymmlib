@@ -1,0 +1,100 @@
+data_ONE
+#
+_chem_comp.id                   ONE
+_chem_comp.name                 1-(BETA-D-RIBOFURANOSYL)-PYRIDIN-4-ONE-5'-PHOSPHATE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C10 H14 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        307.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ONE  O3P   .  O  0  ?  ?  ?  1  1 
+ONE  P     .  P  0  ?  ?  ?  1  2 
+ONE  O1P   .  O  0  ?  ?  ?  1  3 
+ONE  O2P   .  O  0  ?  ?  ?  1  4 
+ONE  O5*   .  O  0  ?  ?  ?  1  5 
+ONE  C5*   .  C  0  ?  ?  ?  1  6 
+ONE  C4*   .  C  0  ?  ?  ?  1  7 
+ONE  O4*   .  O  0  ?  ?  ?  1  8 
+ONE  C3*   .  C  0  ?  ?  ?  1  9 
+ONE  C2*   .  C  0  ?  ?  ?  1  10
+ONE  O2*   .  O  0  ?  ?  ?  1  11
+ONE  O3*   .  O  0  ?  ?  ?  1  12
+ONE  C1*   .  C  0  ?  ?  ?  1  13
+ONE  N1    .  N  0  ?  ?  ?  1  14
+ONE  C6    .  C  0  ?  ?  ?  1  15
+ONE  C2    .  C  0  ?  ?  ?  1  16
+ONE  C3    .  C  0  ?  ?  ?  1  17
+ONE  C4    .  C  0  ?  ?  ?  1  18
+ONE  O4    .  O  0  ?  ?  ?  1  19
+ONE  C5    .  C  0  ?  ?  ?  1  20
+ONE  3HOP  .  H  0  ?  ?  ?  0  21
+ONE  2HOP  .  H  0  ?  ?  ?  0  22
+ONE  2H5*  .  H  0  ?  ?  ?  0  23
+ONE  1H5*  .  H  0  ?  ?  ?  0  24
+ONE  H4*   .  H  0  ?  ?  ?  1  25
+ONE  H3*   .  H  0  ?  ?  ?  1  26
+ONE  3HO   .  H  0  ?  ?  ?  0  27
+ONE  H2*   .  H  0  ?  ?  ?  1  28
+ONE  2HO   .  H  0  ?  ?  ?  0  29
+ONE  H1*   .  H  0  ?  ?  ?  1  30
+ONE  H6    .  H  0  ?  ?  ?  1  31
+ONE  H2    .  H  0  ?  ?  ?  1  32
+ONE  H3    .  H  0  ?  ?  ?  1  33
+ONE  H5    .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ONE  O3P  P     SING  1 
+ONE  O3P  3HOP  SING  2 
+ONE  P    O1P   DOUB  3 
+ONE  P    O2P   SING  4 
+ONE  P    O5*   SING  5 
+ONE  O2P  2HOP  SING  6 
+ONE  O5*  C5*   SING  7 
+ONE  C5*  C4*   SING  8 
+ONE  C5*  2H5*  SING  9 
+ONE  C5*  1H5*  SING  10
+ONE  C4*  O4*   SING  11
+ONE  C4*  C3*   SING  12
+ONE  C4*  H4*   SING  13
+ONE  O4*  C1*   SING  14
+ONE  C3*  O3*   SING  15
+ONE  C3*  H3*   SING  16
+ONE  C3*  C2*   SING  17
+ONE  C2*  O2*   SING  18
+ONE  C2*  H2*   SING  19
+ONE  C2*  C1*   SING  20
+ONE  O2*  2HO   SING  21
+ONE  O3*  3HO   SING  22
+ONE  C1*  N1    SING  23
+ONE  C1*  H1*   SING  24
+ONE  N1   C6    SING  25
+ONE  N1   C2    SING  26
+ONE  C6   C5    DOUB  27
+ONE  C6   H6    SING  28
+ONE  C2   C3    DOUB  29
+ONE  C2   H2    SING  30
+ONE  C3   C4    SING  31
+ONE  C3   H3    SING  32
+ONE  C4   O4    DOUB  33
+ONE  C4   C5    SING  34
+ONE  C5   H5    SING  35
+#

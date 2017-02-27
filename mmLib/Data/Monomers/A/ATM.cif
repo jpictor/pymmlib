@@ -1,0 +1,107 @@
+data_ATM
+#
+_chem_comp.id                       ATM
+_chem_comp.name                     3'-AZIDO-3'-DEOXYTHYMIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            347.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATM  P     .  P  0   ?  ?  ?  1  1 
+ATM  O1P   .  O  0   ?  ?  ?  1  2 
+ATM  O2P   .  O  0   ?  ?  ?  1  3 
+ATM  O3P   .  O  0   ?  ?  ?  1  4 
+ATM  O5*   .  O  0   ?  ?  ?  1  5 
+ATM  C5*   .  C  0   ?  ?  ?  1  6 
+ATM  C4*   .  C  0   ?  ?  ?  1  7 
+ATM  O4*   .  O  0   ?  ?  ?  1  8 
+ATM  C3*   .  C  0   ?  ?  ?  1  9 
+ATM  N3*   .  N  0   ?  ?  ?  1  10
+ATM  N4*   .  N  1   ?  ?  ?  1  11
+ATM  N5*   .  N  -1  ?  ?  ?  1  12
+ATM  C2*   .  C  0   ?  ?  ?  1  13
+ATM  C1*   .  C  0   ?  ?  ?  1  14
+ATM  N1    .  N  0   ?  ?  ?  1  15
+ATM  C2    .  C  0   ?  ?  ?  1  16
+ATM  O2    .  O  0   ?  ?  ?  1  17
+ATM  N3    .  N  0   ?  ?  ?  1  18
+ATM  C4    .  C  0   ?  ?  ?  1  19
+ATM  O4    .  O  0   ?  ?  ?  1  20
+ATM  C5    .  C  0   ?  ?  ?  1  21
+ATM  C5A   .  C  0   ?  ?  ?  1  22
+ATM  C6    .  C  0   ?  ?  ?  1  23
+ATM  2HOP  .  H  0   ?  ?  ?  0  24
+ATM  3HOP  .  H  0   ?  ?  ?  0  25
+ATM  1H5*  .  H  0   ?  ?  ?  0  26
+ATM  2H5*  .  H  0   ?  ?  ?  0  27
+ATM  H4*   .  H  0   ?  ?  ?  1  28
+ATM  H3*   .  H  0   ?  ?  ?  1  29
+ATM  1H2*  .  H  0   ?  ?  ?  0  30
+ATM  2H2*  .  H  0   ?  ?  ?  0  31
+ATM  H1*   .  H  0   ?  ?  ?  1  32
+ATM  HN3   .  H  0   ?  ?  ?  1  33
+ATM  1H5   .  H  0   ?  ?  ?  0  34
+ATM  2H5   .  H  0   ?  ?  ?  0  35
+ATM  3H5   .  H  0   ?  ?  ?  0  36
+ATM  H6    .  H  0   ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATM  P    O5*   SING  1 
+ATM  P    O1P   DOUB  2 
+ATM  P    O2P   SING  3 
+ATM  P    O3P   SING  4 
+ATM  O2P  2HOP  SING  5 
+ATM  O3P  3HOP  SING  6 
+ATM  O5*  C5*   SING  7 
+ATM  C5*  C4*   SING  8 
+ATM  C5*  1H5*  SING  9 
+ATM  C5*  2H5*  SING  10
+ATM  C4*  C3*   SING  11
+ATM  C4*  O4*   SING  12
+ATM  C4*  H4*   SING  13
+ATM  O4*  C1*   SING  14
+ATM  C3*  C2*   SING  15
+ATM  C3*  N3*   SING  16
+ATM  C3*  H3*   SING  17
+ATM  N3*  N4*   DOUB  18
+ATM  N4*  N5*   DOUB  19
+ATM  C2*  C1*   SING  20
+ATM  C2*  1H2*  SING  21
+ATM  C2*  2H2*  SING  22
+ATM  C1*  N1    SING  23
+ATM  C1*  H1*   SING  24
+ATM  N1   C2    SING  25
+ATM  N1   C6    SING  26
+ATM  C2   O2    DOUB  27
+ATM  C2   N3    SING  28
+ATM  N3   C4    SING  29
+ATM  N3   HN3   SING  30
+ATM  C4   O4    DOUB  31
+ATM  C4   C5    SING  32
+ATM  C5   C6    DOUB  33
+ATM  C5   C5A   SING  34
+ATM  C5A  1H5   SING  35
+ATM  C5A  2H5   SING  36
+ATM  C5A  3H5   SING  37
+ATM  C6   H6    SING  38
+#

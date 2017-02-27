@@ -1,0 +1,160 @@
+data_SHP
+#
+_chem_comp.id                       SHP
+_chem_comp.name                     (4-HYDROXYMALTOSEPHENYL)GLYCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C20 H29 N1 O13'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            491.448
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SHP  N     .  N  0  ?  ?  ?  1  1 
+SHP  CA    .  C  0  ?  ?  ?  1  2 
+SHP  C     .  C  0  ?  ?  ?  1  3 
+SHP  O     .  O  0  ?  ?  ?  1  4 
+SHP  OXT   .  O  0  ?  ?  ?  1  5 
+SHP  C1*   .  C  0  ?  ?  ?  1  6 
+SHP  C2*   .  C  0  ?  ?  ?  1  7 
+SHP  C3*   .  C  0  ?  ?  ?  1  8 
+SHP  C4*   .  C  0  ?  ?  ?  1  9 
+SHP  O4*   .  O  0  ?  ?  ?  1  10
+SHP  C5*   .  C  0  ?  ?  ?  1  11
+SHP  C6*   .  C  0  ?  ?  ?  1  12
+SHP  C1    .  C  0  ?  ?  ?  1  13
+SHP  C2    .  C  0  ?  ?  ?  1  14
+SHP  C3    .  C  0  ?  ?  ?  1  15
+SHP  C4    .  C  0  ?  ?  ?  1  16
+SHP  C5    .  C  0  ?  ?  ?  1  17
+SHP  C6    .  C  0  ?  ?  ?  1  18
+SHP  O1    .  O  0  ?  ?  ?  1  19
+SHP  O3    .  O  0  ?  ?  ?  1  20
+SHP  O4    .  O  0  ?  ?  ?  1  21
+SHP  O5    .  O  0  ?  ?  ?  1  22
+SHP  O6    .  O  0  ?  ?  ?  1  23
+SHP  C1'   .  C  0  ?  ?  ?  1  24
+SHP  C2'   .  C  0  ?  ?  ?  1  25
+SHP  C3'   .  C  0  ?  ?  ?  1  26
+SHP  C4'   .  C  0  ?  ?  ?  1  27
+SHP  C5'   .  C  0  ?  ?  ?  1  28
+SHP  C6'   .  C  0  ?  ?  ?  1  29
+SHP  O2'   .  O  0  ?  ?  ?  1  30
+SHP  O3'   .  O  0  ?  ?  ?  1  31
+SHP  O4'   .  O  0  ?  ?  ?  1  32
+SHP  O5'   .  O  0  ?  ?  ?  1  33
+SHP  O6'   .  O  0  ?  ?  ?  1  34
+SHP  1HN   .  H  0  ?  ?  ?  0  35
+SHP  2HN   .  H  0  ?  ?  ?  0  36
+SHP  HA    .  H  0  ?  ?  ?  1  37
+SHP  HXT   .  H  0  ?  ?  ?  1  38
+SHP  H2*   .  H  0  ?  ?  ?  1  39
+SHP  H3*   .  H  0  ?  ?  ?  1  40
+SHP  H5*   .  H  0  ?  ?  ?  1  41
+SHP  H6*   .  H  0  ?  ?  ?  1  42
+SHP  H1    .  H  0  ?  ?  ?  1  43
+SHP  H2    .  H  0  ?  ?  ?  1  44
+SHP  H3    .  H  0  ?  ?  ?  1  45
+SHP  H4    .  H  0  ?  ?  ?  1  46
+SHP  H5    .  H  0  ?  ?  ?  1  47
+SHP  1H6   .  H  0  ?  ?  ?  0  48
+SHP  2H6   .  H  0  ?  ?  ?  0  49
+SHP  HO3   .  H  0  ?  ?  ?  1  50
+SHP  HO4   .  H  0  ?  ?  ?  1  51
+SHP  HO6   .  H  0  ?  ?  ?  1  52
+SHP  H1'   .  H  0  ?  ?  ?  1  53
+SHP  H2'   .  H  0  ?  ?  ?  1  54
+SHP  H3'   .  H  0  ?  ?  ?  1  55
+SHP  H4'   .  H  0  ?  ?  ?  1  56
+SHP  H5'   .  H  0  ?  ?  ?  1  57
+SHP  1H6'  .  H  0  ?  ?  ?  0  58
+SHP  2H6'  .  H  0  ?  ?  ?  0  59
+SHP  'HO2  .  H  0  ?  ?  ?  0  60
+SHP  'HO3  .  H  0  ?  ?  ?  0  61
+SHP  'HO4  .  H  0  ?  ?  ?  0  62
+SHP  'HO6  .  H  0  ?  ?  ?  0  63
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SHP  N    CA    SING  1 
+SHP  N    1HN   SING  2 
+SHP  N    2HN   SING  3 
+SHP  CA   C     SING  4 
+SHP  CA   C1*   SING  5 
+SHP  CA   HA    SING  6 
+SHP  C    O     DOUB  7 
+SHP  C    OXT   SING  8 
+SHP  OXT  HXT   SING  9 
+SHP  C1*  C2*   DOUB  10
+SHP  C1*  C6*   SING  11
+SHP  C2*  C3*   SING  12
+SHP  C2*  H2*   SING  13
+SHP  C3*  C4*   DOUB  14
+SHP  C3*  H3*   SING  15
+SHP  C4*  C5*   SING  16
+SHP  C4*  O4*   SING  17
+SHP  O4*  C1    SING  18
+SHP  C5*  C6*   DOUB  19
+SHP  C5*  H5*   SING  20
+SHP  C6*  H6*   SING  21
+SHP  C1   C2    SING  22
+SHP  C1   O5    SING  23
+SHP  C1   H1    SING  24
+SHP  C2   C3    SING  25
+SHP  C2   O1    SING  26
+SHP  C2   H2    SING  27
+SHP  C3   C4    SING  28
+SHP  C3   O3    SING  29
+SHP  C3   H3    SING  30
+SHP  C4   C5    SING  31
+SHP  C4   O4    SING  32
+SHP  C4   H4    SING  33
+SHP  C5   C6    SING  34
+SHP  C5   O5    SING  35
+SHP  C5   H5    SING  36
+SHP  C6   O6    SING  37
+SHP  C6   1H6   SING  38
+SHP  C6   2H6   SING  39
+SHP  O1   C1'   SING  40
+SHP  O3   HO3   SING  41
+SHP  O4   HO4   SING  42
+SHP  O6   HO6   SING  43
+SHP  C1'  C2'   SING  44
+SHP  C1'  O5'   SING  45
+SHP  C1'  H1'   SING  46
+SHP  C2'  C3'   SING  47
+SHP  C2'  O2'   SING  48
+SHP  C2'  H2'   SING  49
+SHP  C3'  C4'   SING  50
+SHP  C3'  O3'   SING  51
+SHP  C3'  H3'   SING  52
+SHP  C4'  C5'   SING  53
+SHP  C4'  O4'   SING  54
+SHP  C4'  H4'   SING  55
+SHP  C5'  C6'   SING  56
+SHP  C5'  O5'   SING  57
+SHP  C5'  H5'   SING  58
+SHP  C6'  O6'   SING  59
+SHP  C6'  1H6'  SING  60
+SHP  C6'  2H6'  SING  61
+SHP  O2'  'HO2  SING  62
+SHP  O3'  'HO3  SING  63
+SHP  O4'  'HO4  SING  64
+SHP  O6'  'HO6  SING  65
+#

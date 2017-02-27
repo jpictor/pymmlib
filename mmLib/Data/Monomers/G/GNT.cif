@@ -1,0 +1,118 @@
+data_GNT
+#
+_chem_comp.id                   GNT
+_chem_comp.name                 (-)-GALANTHAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H21 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        287.358
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNT  C1    .  C  0  ?  ?  ?  1  1 
+GNT  C2    .  C  0  ?  ?  ?  1  2 
+GNT  C3    .  C  0  ?  ?  ?  1  3 
+GNT  C4    .  C  0  ?  ?  ?  1  4 
+GNT  C41   .  C  0  ?  ?  ?  1  5 
+GNT  C42   .  C  0  ?  ?  ?  1  6 
+GNT  O5    .  O  0  ?  ?  ?  1  7 
+GNT  C6    .  C  0  ?  ?  ?  1  8 
+GNT  C7    .  C  0  ?  ?  ?  1  9 
+GNT  C8    .  C  0  ?  ?  ?  1  10
+GNT  C9    .  C  0  ?  ?  ?  1  11
+GNT  N10   .  N  0  ?  ?  ?  1  12
+GNT  C11   .  C  0  ?  ?  ?  1  13
+GNT  C12   .  C  0  ?  ?  ?  1  14
+GNT  C13   .  C  0  ?  ?  ?  1  15
+GNT  C14   .  C  0  ?  ?  ?  1  16
+GNT  C15   .  C  0  ?  ?  ?  1  17
+GNT  C16   .  C  0  ?  ?  ?  1  18
+GNT  O17   .  O  0  ?  ?  ?  1  19
+GNT  O18   .  O  0  ?  ?  ?  1  20
+GNT  C19   .  C  0  ?  ?  ?  1  21
+GNT  H1    .  H  0  ?  ?  ?  1  22
+GNT  H2    .  H  0  ?  ?  ?  1  23
+GNT  H3    .  H  0  ?  ?  ?  1  24
+GNT  H18   .  H  0  ?  ?  ?  1  25
+GNT  1H4   .  H  0  ?  ?  ?  0  26
+GNT  2H4   .  H  0  ?  ?  ?  0  27
+GNT  H41   .  H  0  ?  ?  ?  1  28
+GNT  1H12  .  H  0  ?  ?  ?  0  29
+GNT  2H12  .  H  0  ?  ?  ?  0  30
+GNT  1H11  .  H  0  ?  ?  ?  0  31
+GNT  2H11  .  H  0  ?  ?  ?  0  32
+GNT  1H19  .  H  0  ?  ?  ?  0  33
+GNT  2H19  .  H  0  ?  ?  ?  0  34
+GNT  3H19  .  H  0  ?  ?  ?  0  35
+GNT  1H9   .  H  0  ?  ?  ?  0  36
+GNT  2H9   .  H  0  ?  ?  ?  0  37
+GNT  H8    .  H  0  ?  ?  ?  1  38
+GNT  H7    .  H  0  ?  ?  ?  1  39
+GNT  1H16  .  H  0  ?  ?  ?  0  40
+GNT  2H16  .  H  0  ?  ?  ?  0  41
+GNT  3H16  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNT  C1   C2    DOUB  1 
+GNT  C1   C42   SING  2 
+GNT  C1   H1    SING  3 
+GNT  C2   C3    SING  4 
+GNT  C2   H2    SING  5 
+GNT  C3   C4    SING  6 
+GNT  C3   O18   SING  7 
+GNT  C3   H3    SING  8 
+GNT  C4   C41   SING  9 
+GNT  C4   1H4   SING  10
+GNT  C4   2H4   SING  11
+GNT  C41  C42   SING  12
+GNT  C41  O5    SING  13
+GNT  C41  H41   SING  14
+GNT  C42  C12   SING  15
+GNT  C42  C14   SING  16
+GNT  O5   C13   SING  17
+GNT  C6   C7    DOUB  18
+GNT  C6   C13   SING  19
+GNT  C6   O17   SING  20
+GNT  C7   C8    SING  21
+GNT  C7   H7    SING  22
+GNT  C8   C15   DOUB  23
+GNT  C8   H8    SING  24
+GNT  C9   N10   SING  25
+GNT  C9   C15   SING  26
+GNT  C9   1H9   SING  27
+GNT  C9   2H9   SING  28
+GNT  N10  C11   SING  29
+GNT  N10  C19   SING  30
+GNT  C11  C12   SING  31
+GNT  C11  1H11  SING  32
+GNT  C11  2H11  SING  33
+GNT  C12  1H12  SING  34
+GNT  C12  2H12  SING  35
+GNT  C13  C14   DOUB  36
+GNT  C14  C15   SING  37
+GNT  C16  O17   SING  38
+GNT  C16  1H16  SING  39
+GNT  C16  2H16  SING  40
+GNT  C16  3H16  SING  41
+GNT  O18  H18   SING  42
+GNT  C19  1H19  SING  43
+GNT  C19  2H19  SING  44
+GNT  C19  3H19  SING  45
+#

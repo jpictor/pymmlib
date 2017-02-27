@@ -1,0 +1,98 @@
+data_TPR
+#
+_chem_comp.id                   TPR
+_chem_comp.name                 TOSYL-D-PROLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H15 N1 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        269.315
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPR  C1    .  C  0  ?  ?  ?  1  1 
+TPR  C2    .  C  0  ?  ?  ?  1  2 
+TPR  C3    .  C  0  ?  ?  ?  1  3 
+TPR  C4    .  C  0  ?  ?  ?  1  4 
+TPR  C5    .  C  0  ?  ?  ?  1  5 
+TPR  C6    .  C  0  ?  ?  ?  1  6 
+TPR  C7    .  C  0  ?  ?  ?  1  7 
+TPR  S8    .  S  0  ?  ?  ?  1  8 
+TPR  O9    .  O  0  ?  ?  ?  1  9 
+TPR  O10   .  O  0  ?  ?  ?  1  10
+TPR  N     .  N  0  ?  ?  ?  1  11
+TPR  CD    .  C  0  ?  ?  ?  1  12
+TPR  CG    .  C  0  ?  ?  ?  1  13
+TPR  CB    .  C  0  ?  ?  ?  1  14
+TPR  CA    .  C  0  ?  ?  ?  1  15
+TPR  C     .  C  0  ?  ?  ?  1  16
+TPR  O     .  O  0  ?  ?  ?  1  17
+TPR  OXT   .  O  0  ?  ?  ?  1  18
+TPR  HC1   .  H  0  ?  ?  ?  1  19
+TPR  HC3   .  H  0  ?  ?  ?  1  20
+TPR  HC4   .  H  0  ?  ?  ?  1  21
+TPR  HC6   .  H  0  ?  ?  ?  1  22
+TPR  1HC7  .  H  0  ?  ?  ?  0  23
+TPR  2HC7  .  H  0  ?  ?  ?  0  24
+TPR  3HC7  .  H  0  ?  ?  ?  0  25
+TPR  HCA   .  H  0  ?  ?  ?  1  26
+TPR  1HCB  .  H  0  ?  ?  ?  0  27
+TPR  2HCB  .  H  0  ?  ?  ?  0  28
+TPR  1HCD  .  H  0  ?  ?  ?  0  29
+TPR  2HCD  .  H  0  ?  ?  ?  0  30
+TPR  1HCG  .  H  0  ?  ?  ?  0  31
+TPR  2HCG  .  H  0  ?  ?  ?  0  32
+TPR  HXT   .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPR  C1   C2    DOUB  1 
+TPR  C1   C6    SING  2 
+TPR  C1   HC1   SING  3 
+TPR  C2   C3    SING  4 
+TPR  C2   C7    SING  5 
+TPR  C3   C4    DOUB  6 
+TPR  C3   HC3   SING  7 
+TPR  C4   C5    SING  8 
+TPR  C4   HC4   SING  9 
+TPR  C5   C6    DOUB  10
+TPR  C5   S8    SING  11
+TPR  C6   HC6   SING  12
+TPR  C7   1HC7  SING  13
+TPR  C7   2HC7  SING  14
+TPR  C7   3HC7  SING  15
+TPR  S8   O9    DOUB  16
+TPR  S8   O10   DOUB  17
+TPR  S8   N     SING  18
+TPR  N    CD    SING  19
+TPR  N    CA    SING  20
+TPR  CD   CG    SING  21
+TPR  CD   1HCD  SING  22
+TPR  CD   2HCD  SING  23
+TPR  CG   CB    SING  24
+TPR  CG   1HCG  SING  25
+TPR  CG   2HCG  SING  26
+TPR  CB   CA    SING  27
+TPR  CB   1HCB  SING  28
+TPR  CB   2HCB  SING  29
+TPR  CA   C     SING  30
+TPR  CA   HCA   SING  31
+TPR  C    O     DOUB  32
+TPR  C    OXT   SING  33
+TPR  OXT  HXT   SING  34
+#

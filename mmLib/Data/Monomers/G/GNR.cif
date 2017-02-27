@@ -1,0 +1,84 @@
+data_GNR
+#
+_chem_comp.id                   GNR
+_chem_comp.name                 2-(3,4-DIHYDRO-3-OXO-2H-BENZO[B][1,4]THIAZIN-2-YL)-N-HYDROXYACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 N2 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.261
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNR  OAM   .  O  0  56.263  52.227  37.826  1  1 
+GNR  CAH   .  C  0  56.140  51.303  37.029  1  2 
+GNR  NAG   .  N  0  57.164  50.990  36.166  1  3 
+GNR  CAD   .  C  0  57.151  50.033  35.164  1  4 
+GNR  CAC   .  C  0  58.347  49.751  34.479  1  5 
+GNR  CAB   .  C  0  58.385  48.738  33.502  1  6 
+GNR  CAA   .  C  0  57.230  47.995  33.202  1  7 
+GNR  CAF   .  C  0  56.028  48.260  33.879  1  8 
+GNR  CAE   .  C  0  55.994  49.271  34.845  1  9 
+GNR  SAJ   .  S  0  54.432  49.714  35.628  1  10
+GNR  CAI   .  C  0  55.003  50.299  37.247  1  11
+GNR  CAK   .  C  0  53.870  50.889  38.084  1  12
+GNR  CAL   .  C  0  52.944  49.729  38.514  1  13
+GNR  OAN   .  O  0  53.249  48.995  39.445  1  14
+GNR  NAO   .  N  0  51.863  49.553  37.759  1  15
+GNR  OAP   .  O  0  50.993  48.565  38.047  1  16
+GNR  HAP   .  H  0  ?       ?       ?       1  17
+GNR  HAO   .  H  0  ?       ?       ?       1  18
+GNR  1HAK  .  H  0  ?       ?       ?       0  19
+GNR  2HAK  .  H  0  ?       ?       ?       0  20
+GNR  HAI   .  H  0  ?       ?       ?       1  21
+GNR  HAF   .  H  0  ?       ?       ?       1  22
+GNR  HAA   .  H  0  ?       ?       ?       1  23
+GNR  HAB   .  H  0  ?       ?       ?       1  24
+GNR  HAC   .  H  0  ?       ?       ?       1  25
+GNR  HAG   .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNR  OAM  CAH   DOUB  1 
+GNR  CAH  NAG   SING  2 
+GNR  CAH  CAI   SING  3 
+GNR  NAG  CAD   SING  4 
+GNR  NAG  HAG   SING  5 
+GNR  CAD  CAC   AROM  6 
+GNR  CAD  CAE   AROM  7 
+GNR  CAC  CAB   AROM  8 
+GNR  CAC  HAC   SING  9 
+GNR  CAB  CAA   AROM  10
+GNR  CAB  HAB   SING  11
+GNR  CAA  CAF   AROM  12
+GNR  CAA  HAA   SING  13
+GNR  CAF  CAE   AROM  14
+GNR  CAF  HAF   SING  15
+GNR  CAE  SAJ   SING  16
+GNR  SAJ  CAI   SING  17
+GNR  CAI  CAK   SING  18
+GNR  CAI  HAI   SING  19
+GNR  CAK  CAL   SING  20
+GNR  CAK  1HAK  SING  21
+GNR  CAK  2HAK  SING  22
+GNR  CAL  NAO   SING  23
+GNR  CAL  OAN   DOUB  24
+GNR  NAO  OAP   SING  25
+GNR  NAO  HAO   SING  26
+GNR  OAP  HAP   SING  27
+#

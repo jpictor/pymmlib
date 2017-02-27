@@ -1,0 +1,67 @@
+data_VAD
+#
+_chem_comp.id                       VAD
+_chem_comp.name                     DEAMINOHYDROXYVALINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H10 O3'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            118.132
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VAD  CA    .  C  0  ?  ?  ?  1  1 
+VAD  CB    .  C  0  ?  ?  ?  1  2 
+VAD  CG1   .  C  0  ?  ?  ?  1  3 
+VAD  CG2   .  C  0  ?  ?  ?  1  4 
+VAD  C     .  C  0  ?  ?  ?  1  5 
+VAD  O     .  O  0  ?  ?  ?  1  6 
+VAD  OXT   .  O  0  ?  ?  ?  1  7 
+VAD  OE    .  O  0  ?  ?  ?  1  8 
+VAD  HA    .  H  0  ?  ?  ?  1  9 
+VAD  HB    .  H  0  ?  ?  ?  1  10
+VAD  1HG1  .  H  0  ?  ?  ?  0  11
+VAD  2HG1  .  H  0  ?  ?  ?  0  12
+VAD  3HG1  .  H  0  ?  ?  ?  0  13
+VAD  1HG2  .  H  0  ?  ?  ?  0  14
+VAD  2HG2  .  H  0  ?  ?  ?  0  15
+VAD  3HG2  .  H  0  ?  ?  ?  0  16
+VAD  HXT   .  H  0  ?  ?  ?  1  17
+VAD  HOE   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VAD  CA   CB    SING  1 
+VAD  CA   C     SING  2 
+VAD  CA   OE    SING  3 
+VAD  CA   HA    SING  4 
+VAD  CB   CG1   SING  5 
+VAD  CB   CG2   SING  6 
+VAD  CB   HB    SING  7 
+VAD  CG1  1HG1  SING  8 
+VAD  CG1  2HG1  SING  9 
+VAD  CG1  3HG1  SING  10
+VAD  CG2  1HG2  SING  11
+VAD  CG2  2HG2  SING  12
+VAD  CG2  3HG2  SING  13
+VAD  C    O     DOUB  14
+VAD  C    OXT   SING  15
+VAD  OXT  HXT   SING  16
+VAD  OE   HOE   SING  17
+#

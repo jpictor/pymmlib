@@ -1,0 +1,94 @@
+data_BFL
+#
+_chem_comp.id                   BFL
+_chem_comp.name                 '2-(1,1'-BIPHENYL-4-YL)PROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H14 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        226.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BFL  C1   .  C  0  25.376  33.890  202.181  1  1 
+BFL  C2   .  C  0  25.416  36.199  197.449  1  2 
+BFL  C3   .  C  0  26.398  36.793  198.285  1  3 
+BFL  C4   .  C  0  26.721  36.203  199.546  1  4 
+BFL  C5   .  C  0  27.245  32.380  205.149  1  5 
+BFL  C6   .  C  0  27.422  30.907  204.817  1  6 
+BFL  C7   .  C  0  28.412  32.998  205.944  1  7 
+BFL  C8   .  C  0  25.649  33.266  203.406  1  8 
+BFL  C9   .  C  0  26.994  33.086  203.791  1  9 
+BFL  C10  .  C  0  28.057  33.542  202.933  1  10
+BFL  C11  .  C  0  27.772  34.177  201.688  1  11
+BFL  C12  .  C  0  26.387  34.363  201.281  1  12
+BFL  C13  .  C  0  26.048  35.012  199.963  1  13
+BFL  C14  .  C  0  25.041  34.413  199.100  1  14
+BFL  C15  .  C  0  24.747  35.034  197.846  1  15
+BFL  O1   .  O  0  28.396  30.445  204.274  1  16
+BFL  O2   .  O  0  26.415  30.185  205.177  1  17
+BFL  HO1  .  H  0  ?       ?       ?        1  18
+BFL  H5   .  H  0  ?       ?       ?        1  19
+BFL  H10  .  H  0  ?       ?       ?        1  20
+BFL  H11  .  H  0  ?       ?       ?        1  21
+BFL  H1   .  H  0  ?       ?       ?        1  22
+BFL  H8   .  H  0  ?       ?       ?        1  23
+BFL  H14  .  H  0  ?       ?       ?        1  24
+BFL  H15  .  H  0  ?       ?       ?        1  25
+BFL  H2   .  H  0  ?       ?       ?        1  26
+BFL  H3   .  H  0  ?       ?       ?        1  27
+BFL  H4   .  H  0  ?       ?       ?        1  28
+BFL  1H7  .  H  0  ?       ?       ?        0  29
+BFL  2H7  .  H  0  ?       ?       ?        0  30
+BFL  3H7  .  H  0  ?       ?       ?        0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BFL  C1   C12  AROM  1 
+BFL  C1   H1   SING  2 
+BFL  C1   C8   AROM  3 
+BFL  C2   C15  AROM  4 
+BFL  C2   H2   SING  5 
+BFL  C2   C3   AROM  6 
+BFL  C3   H3   SING  7 
+BFL  C3   C4   AROM  8 
+BFL  C4   C13  AROM  9 
+BFL  C4   H4   SING  10
+BFL  C5   C6   SING  11
+BFL  C5   H5   SING  12
+BFL  C5   C9   SING  13
+BFL  C5   C7   SING  14
+BFL  C6   O1   SING  15
+BFL  C6   O2   DOUB  16
+BFL  C7   1H7  SING  17
+BFL  C7   2H7  SING  18
+BFL  C7   3H7  SING  19
+BFL  C8   C9   AROM  20
+BFL  C8   H8   SING  21
+BFL  C9   C10  AROM  22
+BFL  C10  H10  SING  23
+BFL  C10  C11  AROM  24
+BFL  C11  H11  SING  25
+BFL  C11  C12  AROM  26
+BFL  C12  C13  SING  27
+BFL  C13  C14  AROM  28
+BFL  C14  H14  SING  29
+BFL  C14  C15  AROM  30
+BFL  C15  H15  SING  31
+BFL  O1   HO1  SING  32
+#

@@ -1,0 +1,77 @@
+data_AHD
+#
+_chem_comp.id                   AHD
+_chem_comp.name                 4-AMINO-1-HYDROXYBUTANE-1,1-DIYLDIPHOSPHONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H9 N1 O7 P2'
+_chem_comp.pdbx_synonyms        'ALENDRONATE, FOSAMAX (TM)'
+_chem_comp.pdbx_formal_charge   4-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       245.065
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHD  C2    .  C  0   46.705  51.497  203.213  1  1 
+AHD  C3    .  C  0   45.617  52.042  204.253  1  2 
+AHD  C7    .  C  0   47.608  50.162  203.414  1  3 
+AHD  C8    .  C  0   48.523  49.617  204.647  1  4 
+AHD  O12   .  O  -1  50.345  49.166  202.760  1  5 
+AHD  P9    .  P  0   49.644  48.430  203.817  1  6 
+AHD  O10   .  O  -1  48.812  47.504  203.116  1  7 
+AHD  O11   .  O  0   50.387  48.076  205.109  1  8 
+AHD  P14   .  P  0   49.486  51.092  205.088  1  9 
+AHD  O15   .  O  -1  50.259  51.669  203.891  1  10
+AHD  O16   .  O  -1  50.189  50.153  206.235  1  11
+AHD  O17   .  O  0   48.437  52.106  205.525  1  12
+AHD  O13   .  O  0   47.332  49.317  205.277  1  13
+AHD  N4    .  N  0   44.705  52.977  203.468  1  14
+AHD  H13   .  H  0   ?       ?       ?        1  15
+AHD  1H7   .  H  0   ?       ?       ?        0  16
+AHD  2H7   .  H  0   ?       ?       ?        0  17
+AHD  1H2   .  H  0   ?       ?       ?        0  18
+AHD  2H2   .  H  0   ?       ?       ?        0  19
+AHD  1H3   .  H  0   ?       ?       ?        0  20
+AHD  2H3   .  H  0   ?       ?       ?        0  21
+AHD  1HN4  .  H  0   ?       ?       ?        0  22
+AHD  2HN4  .  H  0   ?       ?       ?        0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHD  C2   C7    SING  1 
+AHD  C2   C3    SING  2 
+AHD  C2   1H2   SING  3 
+AHD  C2   2H2   SING  4 
+AHD  C3   N4    SING  5 
+AHD  C3   1H3   SING  6 
+AHD  C3   2H3   SING  7 
+AHD  C7   C8    SING  8 
+AHD  C7   1H7   SING  9 
+AHD  C7   2H7   SING  10
+AHD  C8   O13   SING  11
+AHD  C8   P9    SING  12
+AHD  C8   P14   SING  13
+AHD  O12  P9    SING  14
+AHD  P9   O10   SING  15
+AHD  P9   O11   DOUB  16
+AHD  P14  O15   SING  17
+AHD  P14  O16   SING  18
+AHD  P14  O17   DOUB  19
+AHD  O13  H13   SING  20
+AHD  N4   1HN4  SING  21
+AHD  N4   2HN4  SING  22
+#

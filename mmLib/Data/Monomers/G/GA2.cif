@@ -1,0 +1,94 @@
+data_GA2
+#
+_chem_comp.id                   GA2
+_chem_comp.name                 9-(1,3-DIHYDROXY-PROPOXYMETHANE)GUANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N5 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        255.233
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GA2  N1    .  N  0  ?  ?  ?  1  1 
+GA2  C2    .  C  0  ?  ?  ?  1  2 
+GA2  C4    .  C  0  ?  ?  ?  1  3 
+GA2  C8    .  C  0  ?  ?  ?  1  4 
+GA2  C4*   .  C  0  ?  ?  ?  1  5 
+GA2  O4*   .  O  0  ?  ?  ?  1  6 
+GA2  C3*   .  C  0  ?  ?  ?  1  7 
+GA2  O3*   .  O  0  ?  ?  ?  1  8 
+GA2  C2*   .  C  0  ?  ?  ?  1  9 
+GA2  O1*   .  O  0  ?  ?  ?  1  10
+GA2  C1*   .  C  0  ?  ?  ?  1  11
+GA2  N9    .  N  0  ?  ?  ?  1  12
+GA2  N3    .  N  0  ?  ?  ?  1  13
+GA2  N2    .  N  0  ?  ?  ?  1  14
+GA2  C6    .  C  0  ?  ?  ?  1  15
+GA2  O6    .  O  0  ?  ?  ?  1  16
+GA2  C5    .  C  0  ?  ?  ?  1  17
+GA2  N7    .  N  0  ?  ?  ?  1  18
+GA2  HN1   .  H  0  ?  ?  ?  1  19
+GA2  H8    .  H  0  ?  ?  ?  1  20
+GA2  1H4*  .  H  0  ?  ?  ?  0  21
+GA2  2H4*  .  H  0  ?  ?  ?  0  22
+GA2  *HO4  .  H  0  ?  ?  ?  0  23
+GA2  1H3*  .  H  0  ?  ?  ?  0  24
+GA2  2H3*  .  H  0  ?  ?  ?  0  25
+GA2  *HO3  .  H  0  ?  ?  ?  0  26
+GA2  H2*   .  H  0  ?  ?  ?  1  27
+GA2  1H1*  .  H  0  ?  ?  ?  0  28
+GA2  2H1*  .  H  0  ?  ?  ?  0  29
+GA2  1HN2  .  H  0  ?  ?  ?  0  30
+GA2  2HN2  .  H  0  ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GA2  N1   C2    SING  1 
+GA2  N1   C6    SING  2 
+GA2  N1   HN1   SING  3 
+GA2  C2   N3    DOUB  4 
+GA2  C2   N2    SING  5 
+GA2  C4   N9    SING  6 
+GA2  C4   N3    SING  7 
+GA2  C4   C5    DOUB  8 
+GA2  C8   N9    SING  9 
+GA2  C8   N7    DOUB  10
+GA2  C8   H8    SING  11
+GA2  C4*  O4*   SING  12
+GA2  C4*  C2*   SING  13
+GA2  C4*  1H4*  SING  14
+GA2  C4*  2H4*  SING  15
+GA2  O4*  *HO4  SING  16
+GA2  C3*  O3*   SING  17
+GA2  C3*  C2*   SING  18
+GA2  C3*  1H3*  SING  19
+GA2  C3*  2H3*  SING  20
+GA2  O3*  *HO3  SING  21
+GA2  C2*  O1*   SING  22
+GA2  C2*  H2*   SING  23
+GA2  O1*  C1*   SING  24
+GA2  C1*  N9    SING  25
+GA2  C1*  1H1*  SING  26
+GA2  C1*  2H1*  SING  27
+GA2  N2   1HN2  SING  28
+GA2  N2   2HN2  SING  29
+GA2  C6   O6    DOUB  30
+GA2  C6   C5    SING  31
+GA2  C5   N7    SING  32
+#

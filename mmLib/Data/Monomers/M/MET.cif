@@ -1,0 +1,70 @@
+data_MET
+#
+_chem_comp.id                   MET
+_chem_comp.name                 METHIONINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H11 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        149.207
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MET  N    .  N  0  ?  ?  ?  1  1 
+MET  CA   .  C  0  ?  ?  ?  1  2 
+MET  C    .  C  0  ?  ?  ?  1  3 
+MET  O    .  O  0  ?  ?  ?  1  4 
+MET  CB   .  C  0  ?  ?  ?  1  5 
+MET  CG   .  C  0  ?  ?  ?  1  6 
+MET  SD   .  S  0  ?  ?  ?  1  7 
+MET  CE   .  C  0  ?  ?  ?  1  8 
+MET  OXT  .  O  0  ?  ?  ?  1  9 
+MET  H    .  H  0  ?  ?  ?  1  10
+MET  HN2  .  H  0  ?  ?  ?  1  11
+MET  HA   .  H  0  ?  ?  ?  1  12
+MET  1HB  .  H  0  ?  ?  ?  0  13
+MET  2HB  .  H  0  ?  ?  ?  0  14
+MET  1HG  .  H  0  ?  ?  ?  0  15
+MET  2HG  .  H  0  ?  ?  ?  0  16
+MET  1HE  .  H  0  ?  ?  ?  0  17
+MET  2HE  .  H  0  ?  ?  ?  0  18
+MET  3HE  .  H  0  ?  ?  ?  0  19
+MET  HXT  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MET  N    CA   SING  1 
+MET  N    H    SING  2 
+MET  N    HN2  SING  3 
+MET  CA   C    SING  4 
+MET  CA   CB   SING  5 
+MET  CA   HA   SING  6 
+MET  C    O    DOUB  7 
+MET  C    OXT  SING  8 
+MET  CB   CG   SING  9 
+MET  CB   1HB  SING  10
+MET  CB   2HB  SING  11
+MET  CG   SD   SING  12
+MET  CG   1HG  SING  13
+MET  CG   2HG  SING  14
+MET  SD   CE   SING  15
+MET  CE   1HE  SING  16
+MET  CE   2HE  SING  17
+MET  CE   3HE  SING  18
+MET  OXT  HXT  SING  19
+#

@@ -1,0 +1,87 @@
+data_MNL
+#
+_chem_comp.id                       MNL
+_chem_comp.name                     4,N-DIMETHYLNORLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H17 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            159.228
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MNL  N     .  N  0  ?  ?  ?  1  1 
+MNL  CA    .  C  0  ?  ?  ?  1  2 
+MNL  C     .  C  0  ?  ?  ?  1  3 
+MNL  O     .  O  0  ?  ?  ?  1  4 
+MNL  OXT   .  O  0  ?  ?  ?  1  5 
+MNL  CB    .  C  0  ?  ?  ?  1  6 
+MNL  CG    .  C  0  ?  ?  ?  1  7 
+MNL  CD    .  C  0  ?  ?  ?  1  8 
+MNL  CE    .  C  0  ?  ?  ?  1  9 
+MNL  CM1   .  C  0  ?  ?  ?  1  10
+MNL  CM4   .  C  0  ?  ?  ?  1  11
+MNL  HN    .  H  0  ?  ?  ?  1  12
+MNL  HXT   .  H  0  ?  ?  ?  1  13
+MNL  HA    .  H  0  ?  ?  ?  1  14
+MNL  1HB   .  H  0  ?  ?  ?  0  15
+MNL  2HB   .  H  0  ?  ?  ?  0  16
+MNL  HG    .  H  0  ?  ?  ?  1  17
+MNL  1HD   .  H  0  ?  ?  ?  0  18
+MNL  2HD   .  H  0  ?  ?  ?  0  19
+MNL  1HE   .  H  0  ?  ?  ?  0  20
+MNL  2HE   .  H  0  ?  ?  ?  0  21
+MNL  3HE   .  H  0  ?  ?  ?  0  22
+MNL  1HM1  .  H  0  ?  ?  ?  0  23
+MNL  2HM1  .  H  0  ?  ?  ?  0  24
+MNL  3HM1  .  H  0  ?  ?  ?  0  25
+MNL  1HM4  .  H  0  ?  ?  ?  0  26
+MNL  2HM4  .  H  0  ?  ?  ?  0  27
+MNL  3HM4  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MNL  N    CA    SING  1 
+MNL  N    CM1   SING  2 
+MNL  N    HN    SING  3 
+MNL  CA   C     SING  4 
+MNL  CA   CB    SING  5 
+MNL  CA   HA    SING  6 
+MNL  C    O     DOUB  7 
+MNL  C    OXT   SING  8 
+MNL  OXT  HXT   SING  9 
+MNL  CB   CG    SING  10
+MNL  CB   1HB   SING  11
+MNL  CB   2HB   SING  12
+MNL  CG   CD    SING  13
+MNL  CG   CM4   SING  14
+MNL  CG   HG    SING  15
+MNL  CD   CE    SING  16
+MNL  CD   1HD   SING  17
+MNL  CD   2HD   SING  18
+MNL  CE   1HE   SING  19
+MNL  CE   2HE   SING  20
+MNL  CE   3HE   SING  21
+MNL  CM1  1HM1  SING  22
+MNL  CM1  2HM1  SING  23
+MNL  CM1  3HM1  SING  24
+MNL  CM4  1HM4  SING  25
+MNL  CM4  2HM4  SING  26
+MNL  CM4  3HM4  SING  27
+#

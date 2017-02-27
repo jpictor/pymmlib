@@ -1,0 +1,40 @@
+data_PEJ
+#
+_chem_comp.id                   PEJ
+_chem_comp.name                 PERIODATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O4 I1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       190.902
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEJ  I   .  I  0   -37.931  29.219  -13.408  1  1
+PEJ  O1  .  O  -1  -39.422  28.852  -12.728  1  2
+PEJ  O2  .  O  0   -37.235  30.636  -12.816  1  3
+PEJ  O3  .  O  0   -38.163  29.286  -15.084  1  4
+PEJ  O4  .  O  0   -36.899  27.904  -13.082  1  5
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEJ  I  O1  SING  1
+PEJ  I  O2  DOUB  2
+PEJ  I  O3  DOUB  3
+PEJ  I  O4  DOUB  4
+#

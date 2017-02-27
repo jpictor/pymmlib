@@ -1,0 +1,99 @@
+data_TYU
+#
+_chem_comp.id                   TYU
+_chem_comp.name                 TETRAHYDROURIDINE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C9 H16 N2 O6'
+_chem_comp.pdbx_synonyms        '1-(3,4-DIHYDROXY-5-HYDROXYMETHYL-TETRAHYDRO-FURAN-2-YL)-4- HYDROXY-TETRAHYDRO-PYRIMIDIN-2-ONE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.235
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYU  O5*   .  O  0  14.672  1.254   63.361  1  1 
+TYU  C5*   .  C  0  13.627  0.506   63.985  1  2 
+TYU  C4*   .  C  0  13.742  0.612   65.487  1  3 
+TYU  O4*   .  O  0  14.816  -0.265  65.930  1  4 
+TYU  C1*   .  C  0  15.741  0.473   66.700  1  5 
+TYU  N1    .  N  0  17.076  -0.120  66.525  1  6 
+TYU  C6    .  C  0  17.520  -0.597  65.301  1  7 
+TYU  C2    .  C  0  17.804  -0.367  67.655  1  8 
+TYU  O2    .  O  0  17.378  -0.189  68.781  1  9 
+TYU  N3    .  N  0  19.063  -0.828  67.408  1  10
+TYU  C4    .  C  0  19.631  -1.011  66.165  1  11
+TYU  O4    .  O  0  20.955  -0.300  66.228  1  12
+TYU  C5    .  C  0  18.844  -0.325  65.155  1  13
+TYU  C2*   .  C  0  15.609  1.907   66.194  1  14
+TYU  O2*   .  O  0  16.124  2.831   67.128  1  15
+TYU  C3*   .  C  0  14.099  2.006   66.000  1  16
+TYU  O3*   .  O  0  13.432  2.283   67.233  1  17
+TYU  H5*   .  H  0  ?       ?       ?       1  18
+TYU  1H5*  .  H  0  ?       ?       ?       0  19
+TYU  2H5*  .  H  0  ?       ?       ?       0  20
+TYU  H4*   .  H  0  ?       ?       ?       1  21
+TYU  H1*   .  H  0  ?       ?       ?       1  22
+TYU  HN3   .  H  0  ?       ?       ?       1  23
+TYU  H4    .  H  0  ?       ?       ?       1  24
+TYU  HO4   .  H  0  ?       ?       ?       1  25
+TYU  1H5   .  H  0  ?       ?       ?       0  26
+TYU  2H5   .  H  0  ?       ?       ?       0  27
+TYU  1H6   .  H  0  ?       ?       ?       0  28
+TYU  2H6   .  H  0  ?       ?       ?       0  29
+TYU  H2*   .  H  0  ?       ?       ?       1  30
+TYU  H1    .  H  0  ?       ?       ?       1  31
+TYU  H3*   .  H  0  ?       ?       ?       1  32
+TYU  H2    .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYU  O5*  H5*   SING  1 
+TYU  O5*  C5*   SING  2 
+TYU  C5*  1H5*  SING  3 
+TYU  C5*  2H5*  SING  4 
+TYU  C5*  C4*   SING  5 
+TYU  C4*  H4*   SING  6 
+TYU  C4*  O4*   SING  7 
+TYU  C4*  C3*   SING  8 
+TYU  O4*  C1*   SING  9 
+TYU  C1*  H1*   SING  10
+TYU  C1*  N1    SING  11
+TYU  C1*  C2*   SING  12
+TYU  N1   C2    SING  13
+TYU  N1   C6    SING  14
+TYU  C6   C5    SING  15
+TYU  C6   1H6   SING  16
+TYU  C6   2H6   SING  17
+TYU  C2   O2    DOUB  18
+TYU  C2   N3    SING  19
+TYU  N3   HN3   SING  20
+TYU  N3   C4    SING  21
+TYU  C4   H4    SING  22
+TYU  C4   O4    SING  23
+TYU  C4   C5    SING  24
+TYU  O4   HO4   SING  25
+TYU  C5   1H5   SING  26
+TYU  C5   2H5   SING  27
+TYU  C2*  H2*   SING  28
+TYU  C2*  O2*   SING  29
+TYU  C2*  C3*   SING  30
+TYU  O2*  H1    SING  31
+TYU  C3*  H3*   SING  32
+TYU  C3*  O3*   SING  33
+TYU  O3*  H2    SING  34
+#

@@ -1,0 +1,48 @@
+data_F50
+#
+_chem_comp.id                   F50
+_chem_comp.name                 'ETHANEPEROXOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H4 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        76.052
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+F50  C     .  C  0  -26.476  71.429  -3.55   1  1
+F50  OX1   .  O  0  -25.246  69.986  -5.376  1  2
+F50  O     .  O  0  -26.499  70.997  -2.381  1  3
+F50  OXT   .  O  0  -25.374  71.146  -4.456  1  4
+F50  CH3   .  C  0  -27.533  72.313  -4.097  1  5
+F50  1HH3  .  H  0  -27.512  72.699  -5.143  0  6
+F50  2HH3  .  H  0  -27.622  73.191  -3.416  0  7
+F50  3HH3  .  H  0  -28.511  71.799  -3.948  0  8
+F50  HX1   .  H  0  ?        ?       ?       1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+F50  C    O     DOUB  1
+F50  C    OXT   SING  2
+F50  C    CH3   SING  3
+F50  OX1  OXT   SING  4
+F50  OX1  HX1   SING  5
+F50  CH3  1HH3  SING  6
+F50  CH3  2HH3  SING  7
+F50  CH3  3HH3  SING  8
+#

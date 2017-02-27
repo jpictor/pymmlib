@@ -1,0 +1,87 @@
+data_HTI
+#
+_chem_comp.id                       HTI
+_chem_comp.name                     (4S)-4-{[(2S)-2-AMINO-3-OXOPROPYL]SULFANYL}-L-HOMOSERINATE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H14 N2 O4 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            222.259
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HTI  N     .  N  0  24.843  15.533  67.671  1  1 
+HTI  CA    .  C  0  23.883  14.966  68.591  1  2 
+HTI  CB    .  C  0  24.063  13.477  68.803  1  3 
+HTI  S     .  S  0  25.656  13.093  69.542  1  4 
+HTI  CAH   .  C  0  26.574  12.479  68.091  1  5 
+HTI  OAI   .  O  0  26.985  13.575  67.277  1  6 
+HTI  CAJ   .  C  0  27.791  11.665  68.538  1  7 
+HTI  CAK   .  C  0  28.717  12.532  69.405  1  8 
+HTI  NAL   .  N  0  29.748  13.142  68.556  1  9 
+HTI  CAM   .  C  0  29.393  11.652  70.457  1  10
+HTI  OAN   .  O  0  30.621  11.441  70.335  1  11
+HTI  OAO   .  O  0  28.658  11.213  71.367  1  12
+HTI  C     .  C  0  23.456  15.716  69.851  1  13
+HTI  O     .  O  0  22.266  15.958  70.047  1  14
+HTI  1HN   .  H  0  ?       ?       ?       0  15
+HTI  2HN   .  H  0  ?       ?       ?       0  16
+HTI  HA    .  H  0  ?       ?       ?       1  17
+HTI  1HB   .  H  0  ?       ?       ?       0  18
+HTI  2HB   .  H  0  ?       ?       ?       0  19
+HTI  HAH   .  H  0  ?       ?       ?       1  20
+HTI  HAI   .  H  0  ?       ?       ?       1  21
+HTI  1HAJ  .  H  0  ?       ?       ?       0  22
+HTI  2HAJ  .  H  0  ?       ?       ?       0  23
+HTI  HAK   .  H  0  ?       ?       ?       1  24
+HTI  1HAL  .  H  0  ?       ?       ?       0  25
+HTI  2HAL  .  H  0  ?       ?       ?       0  26
+HTI  3HAL  .  H  0  ?       ?       ?       0  27
+HTI  H     .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HTI  N    CA    SING  1 
+HTI  N    1HN   SING  2 
+HTI  N    2HN   SING  3 
+HTI  CA   CB    SING  4 
+HTI  CA   C     SING  5 
+HTI  CA   HA    SING  6 
+HTI  CB   S     SING  7 
+HTI  CB   1HB   SING  8 
+HTI  CB   2HB   SING  9 
+HTI  S    CAH   SING  10
+HTI  CAH  OAI   SING  11
+HTI  CAH  CAJ   SING  12
+HTI  CAH  HAH   SING  13
+HTI  OAI  HAI   SING  14
+HTI  CAJ  CAK   SING  15
+HTI  CAJ  1HAJ  SING  16
+HTI  CAJ  2HAJ  SING  17
+HTI  CAK  NAL   SING  18
+HTI  CAK  CAM   SING  19
+HTI  CAK  HAK   SING  20
+HTI  NAL  1HAL  SING  21
+HTI  NAL  2HAL  SING  22
+HTI  NAL  3HAL  SING  23
+HTI  CAM  OAN   SING  24
+HTI  CAM  OAO   DOUB  25
+HTI  C    O     DOUB  26
+HTI  C    H     SING  27
+#

@@ -1,0 +1,42 @@
+data_CUN
+#
+_chem_comp.id                   CUN
+_chem_comp.name                 'CU(I)-S-MO(IV)(=O)OH CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H1 O2 S1 CU1 MO1'
+_chem_comp.pdbx_formal_charge   3+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       224.553
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CUN  CU   .  CU  1  99.063  141.091  146.805  0  1
+CUN  S    .  S   0  98.059  142.928  146.324  1  2
+CUN  MO   .  MO  4  96.950  144.193  147.956  0  3
+CUN  OM2  .  O   0  97.817  142.918  149.243  1  4
+CUN  OM1  .  O   0  97.752  145.719  148.006  1  5
+CUN  HO2  .  H   0  ?       ?        ?        1  6
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CUN  CU   S    SING  1
+CUN  S    MO   SING  2
+CUN  MO   OM2  SING  3
+CUN  MO   OM1  DOUB  4
+CUN  OM2  HO2  SING  5
+#

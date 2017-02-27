@@ -1,0 +1,74 @@
+data_LOX
+#
+_chem_comp.id                   LOX
+_chem_comp.name                 3,4,5-TRIHYDOXY-PIPERIDINE-2-ONE-OXIME
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C5 H10 N2 O4'
+_chem_comp.pdbx_synonyms        'XYLOSE-DERIVED LACTAM OXIME'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.145
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LOX  C1    .  C  0  ?  ?  ?  1  1 
+LOX  C2    .  C  0  ?  ?  ?  1  2 
+LOX  C3    .  C  0  ?  ?  ?  1  3 
+LOX  C4    .  C  0  ?  ?  ?  1  4 
+LOX  C5    .  C  0  ?  ?  ?  1  5 
+LOX  N1    .  N  0  ?  ?  ?  1  6 
+LOX  O22   .  O  0  ?  ?  ?  1  7 
+LOX  N2    .  N  0  ?  ?  ?  1  8 
+LOX  O2    .  O  0  ?  ?  ?  1  9 
+LOX  O3    .  O  0  ?  ?  ?  1  10
+LOX  O4    .  O  0  ?  ?  ?  1  11
+LOX  HO22  .  H  0  ?  ?  ?  0  12
+LOX  HO2   .  H  0  ?  ?  ?  1  13
+LOX  HO3   .  H  0  ?  ?  ?  1  14
+LOX  HO4   .  H  0  ?  ?  ?  1  15
+LOX  1H5   .  H  0  ?  ?  ?  0  16
+LOX  2H5   .  H  0  ?  ?  ?  0  17
+LOX  HN1   .  H  0  ?  ?  ?  1  18
+LOX  H2    .  H  0  ?  ?  ?  1  19
+LOX  H3    .  H  0  ?  ?  ?  1  20
+LOX  H4    .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LOX  C1   C2    SING  1 
+LOX  C1   N1    SING  2 
+LOX  C1   N2    DOUB  3 
+LOX  C2   C3    SING  4 
+LOX  C2   O2    SING  5 
+LOX  C2   H2    SING  6 
+LOX  C3   C4    SING  7 
+LOX  C3   O3    SING  8 
+LOX  C3   H3    SING  9 
+LOX  C4   C5    SING  10
+LOX  C4   O4    SING  11
+LOX  C4   H4    SING  12
+LOX  C5   N1    SING  13
+LOX  C5   1H5   SING  14
+LOX  C5   2H5   SING  15
+LOX  N1   HN1   SING  16
+LOX  O22  N2    SING  17
+LOX  O22  HO22  SING  18
+LOX  O2   HO2   SING  19
+LOX  O3   HO3   SING  20
+LOX  O4   HO4   SING  21
+#

@@ -1,0 +1,87 @@
+data_SGA
+#
+_chem_comp.id                   SGA
+_chem_comp.name                 O3-SULFONYLGALACTOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O9 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.215
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SGA  C1    .  C  0  ?  ?  ?  1  1 
+SGA  C2    .  C  0  ?  ?  ?  1  2 
+SGA  C3    .  C  0  ?  ?  ?  1  3 
+SGA  C4    .  C  0  ?  ?  ?  1  4 
+SGA  C5    .  C  0  ?  ?  ?  1  5 
+SGA  C6    .  C  0  ?  ?  ?  1  6 
+SGA  O1    .  O  0  ?  ?  ?  1  7 
+SGA  O2    .  O  0  ?  ?  ?  1  8 
+SGA  O3    .  O  0  ?  ?  ?  1  9 
+SGA  O4    .  O  0  ?  ?  ?  1  10
+SGA  O5    .  O  0  ?  ?  ?  1  11
+SGA  O6    .  O  0  ?  ?  ?  1  12
+SGA  S     .  S  0  ?  ?  ?  1  13
+SGA  O1S   .  O  0  ?  ?  ?  1  14
+SGA  O2S   .  O  0  ?  ?  ?  1  15
+SGA  O3S   .  O  0  ?  ?  ?  1  16
+SGA  H1    .  H  0  ?  ?  ?  1  17
+SGA  H2    .  H  0  ?  ?  ?  1  18
+SGA  H3    .  H  0  ?  ?  ?  1  19
+SGA  H4    .  H  0  ?  ?  ?  1  20
+SGA  H5    .  H  0  ?  ?  ?  1  21
+SGA  1H6   .  H  0  ?  ?  ?  0  22
+SGA  2H6   .  H  0  ?  ?  ?  0  23
+SGA  HO1   .  H  0  ?  ?  ?  1  24
+SGA  HO2   .  H  0  ?  ?  ?  1  25
+SGA  HO4   .  H  0  ?  ?  ?  1  26
+SGA  HO6   .  H  0  ?  ?  ?  1  27
+SGA  3HOS  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SGA  C1   C2    SING  1 
+SGA  C1   O1    SING  2 
+SGA  C1   O5    SING  3 
+SGA  C1   H1    SING  4 
+SGA  C2   C3    SING  5 
+SGA  C2   O2    SING  6 
+SGA  C2   H2    SING  7 
+SGA  C3   C4    SING  8 
+SGA  C3   O3    SING  9 
+SGA  C3   H3    SING  10
+SGA  C4   C5    SING  11
+SGA  C4   O4    SING  12
+SGA  C4   H4    SING  13
+SGA  C5   C6    SING  14
+SGA  C5   O5    SING  15
+SGA  C5   H5    SING  16
+SGA  C6   O6    SING  17
+SGA  C6   1H6   SING  18
+SGA  C6   2H6   SING  19
+SGA  O1   HO1   SING  20
+SGA  O2   HO2   SING  21
+SGA  O3   S     SING  22
+SGA  O4   HO4   SING  23
+SGA  O6   HO6   SING  24
+SGA  S    O1S   DOUB  25
+SGA  S    O2S   DOUB  26
+SGA  S    O3S   SING  27
+SGA  O3S  3HOS  SING  28
+#

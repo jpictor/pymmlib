@@ -1,0 +1,112 @@
+data_4AC
+#
+_chem_comp.id                   4AC
+_chem_comp.name                 N(4)-ACETYLCYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                 'RNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C11 H16 N3 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        365.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+4AC  O3P   .  O  0  ?  ?  ?  1  1 
+4AC  P     .  P  0  ?  ?  ?  1  2 
+4AC  O1P   .  O  0  ?  ?  ?  1  3 
+4AC  O2P   .  O  0  ?  ?  ?  1  4 
+4AC  O5*   .  O  0  ?  ?  ?  1  5 
+4AC  C5*   .  C  0  ?  ?  ?  1  6 
+4AC  C4*   .  C  0  ?  ?  ?  1  7 
+4AC  O4*   .  O  0  ?  ?  ?  1  8 
+4AC  C3*   .  C  0  ?  ?  ?  1  9 
+4AC  O3*   .  O  0  ?  ?  ?  1  10
+4AC  C2*   .  C  0  ?  ?  ?  1  11
+4AC  O2*   .  O  0  ?  ?  ?  1  12
+4AC  C1*   .  C  0  ?  ?  ?  1  13
+4AC  N1    .  N  0  ?  ?  ?  1  14
+4AC  C2    .  C  0  ?  ?  ?  1  15
+4AC  O2    .  O  0  ?  ?  ?  1  16
+4AC  N3    .  N  0  ?  ?  ?  1  17
+4AC  C4    .  C  0  ?  ?  ?  1  18
+4AC  N4    .  N  0  ?  ?  ?  1  19
+4AC  C5    .  C  0  ?  ?  ?  1  20
+4AC  C6    .  C  0  ?  ?  ?  1  21
+4AC  C7    .  C  0  ?  ?  ?  1  22
+4AC  O7    .  O  0  ?  ?  ?  1  23
+4AC  CM7   .  C  0  ?  ?  ?  1  24
+4AC  3HOP  .  H  0  ?  ?  ?  0  25
+4AC  2HOP  .  H  0  ?  ?  ?  0  26
+4AC  1H5*  .  H  0  ?  ?  ?  0  27
+4AC  2H5*  .  H  0  ?  ?  ?  0  28
+4AC  H4*   .  H  0  ?  ?  ?  1  29
+4AC  H3*   .  H  0  ?  ?  ?  1  30
+4AC  H2*   .  H  0  ?  ?  ?  1  31
+4AC  2HO*  .  H  0  ?  ?  ?  0  32
+4AC  H1*   .  H  0  ?  ?  ?  1  33
+4AC  H4    .  H  0  ?  ?  ?  1  34
+4AC  H5    .  H  0  ?  ?  ?  1  35
+4AC  H6    .  H  0  ?  ?  ?  1  36
+4AC  1HM7  .  H  0  ?  ?  ?  0  37
+4AC  2HM7  .  H  0  ?  ?  ?  0  38
+4AC  3HM7  .  H  0  ?  ?  ?  0  39
+4AC  H3T   .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+4AC  O3P  P     SING  1 
+4AC  O3P  3HOP  SING  2 
+4AC  P    O1P   DOUB  3 
+4AC  P    O2P   SING  4 
+4AC  P    O5*   SING  5 
+4AC  O2P  2HOP  SING  6 
+4AC  O5*  C5*   SING  7 
+4AC  C5*  C4*   SING  8 
+4AC  C5*  1H5*  SING  9 
+4AC  C5*  2H5*  SING  10
+4AC  C4*  O4*   SING  11
+4AC  C4*  C3*   SING  12
+4AC  C4*  H4*   SING  13
+4AC  O4*  C1*   SING  14
+4AC  C3*  C2*   SING  15
+4AC  C3*  O3*   SING  16
+4AC  C3*  H3*   SING  17
+4AC  O3*  H3T   SING  18
+4AC  C2*  C1*   SING  19
+4AC  C2*  O2*   SING  20
+4AC  C2*  H2*   SING  21
+4AC  O2*  2HO*  SING  22
+4AC  C1*  N1    SING  23
+4AC  C1*  H1*   SING  24
+4AC  N1   C6    SING  25
+4AC  N1   C2    SING  26
+4AC  C2   N3    SING  27
+4AC  C2   O2    DOUB  28
+4AC  N3   C4    DOUB  29
+4AC  C4   C5    SING  30
+4AC  C4   N4    SING  31
+4AC  N4   C7    SING  32
+4AC  N4   H4    SING  33
+4AC  C5   C6    DOUB  34
+4AC  C5   H5    SING  35
+4AC  C6   H6    SING  36
+4AC  C7   O7    DOUB  37
+4AC  C7   CM7   SING  38
+4AC  CM7  1HM7  SING  39
+4AC  CM7  2HM7  SING  40
+4AC  CM7  3HM7  SING  41
+#

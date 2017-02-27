@@ -1,0 +1,91 @@
+data_GEO
+#
+_chem_comp.id                   GEO
+_chem_comp.name                 GEMCITABINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H11 N3 O4 F2'
+_chem_comp.pdbx_synonyms        2',2'-DIFLUORODEOXYCYTIDINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        263.200
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GEO  O5'   .  O  0  69.971  38.095  20.611  1  1 
+GEO  C5'   .  C  0  70.268  37.346  21.792  1  2 
+GEO  C4'   .  C  0  70.467  35.860  21.371  1  3 
+GEO  O4'   .  O  0  69.149  35.328  21.046  1  4 
+GEO  C1'   .  C  0  69.210  34.473  19.901  1  5 
+GEO  N1    .  N  0  67.922  34.422  19.161  1  6 
+GEO  C6    .  C  0  67.146  35.472  18.997  1  7 
+GEO  C5    .  C  0  65.911  35.351  18.582  1  8 
+GEO  C4    .  C  0  65.456  34.201  18.160  1  9 
+GEO  N3    .  N  0  66.250  33.126  18.194  1  10
+GEO  C2    .  C  0  67.498  33.222  18.696  1  11
+GEO  O2    .  O  0  68.273  32.128  18.727  1  12
+GEO  N4    .  N  0  64.225  34.032  17.639  1  13
+GEO  C2'   .  C  0  70.386  35.084  19.098  1  14
+GEO  F1    .  F  0  69.943  36.062  18.337  1  15
+GEO  F2    .  F  0  70.869  34.206  18.263  1  16
+GEO  C3'   .  C  0  71.368  35.602  20.169  1  17
+GEO  O3'   .  O  0  72.407  34.586  20.411  1  18
+GEO  H5'   .  H  0  ?       ?       ?       1  19
+GEO  1H5'  .  H  0  ?       ?       ?       0  20
+GEO  2H5'  .  H  0  ?       ?       ?       0  21
+GEO  H4'   .  H  0  ?       ?       ?       1  22
+GEO  H1'   .  H  0  ?       ?       ?       1  23
+GEO  H6    .  H  0  ?       ?       ?       1  24
+GEO  H5    .  H  0  ?       ?       ?       1  25
+GEO  1HN4  .  H  0  ?       ?       ?       0  26
+GEO  2HN4  .  H  0  ?       ?       ?       0  27
+GEO  H3'   .  H  0  ?       ?       ?       1  28
+GEO  H1    .  H  0  ?       ?       ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GEO  O5'  H5'   SING  1 
+GEO  O5'  C5'   SING  2 
+GEO  C5'  1H5'  SING  3 
+GEO  C5'  2H5'  SING  4 
+GEO  C5'  C4'   SING  5 
+GEO  C4'  H4'   SING  6 
+GEO  C4'  O4'   SING  7 
+GEO  C4'  C3'   SING  8 
+GEO  O4'  C1'   SING  9 
+GEO  C1'  H1'   SING  10
+GEO  C1'  N1    SING  11
+GEO  C1'  C2'   SING  12
+GEO  N1   C6    SING  13
+GEO  N1   C2    SING  14
+GEO  C6   H6    SING  15
+GEO  C6   C5    DOUB  16
+GEO  C5   H5    SING  17
+GEO  C5   C4    SING  18
+GEO  C4   N3    DOUB  19
+GEO  C4   N4    SING  20
+GEO  N3   C2    SING  21
+GEO  C2   O2    DOUB  22
+GEO  N4   1HN4  SING  23
+GEO  N4   2HN4  SING  24
+GEO  C2'  F1    SING  25
+GEO  C2'  F2    SING  26
+GEO  C2'  C3'   SING  27
+GEO  C3'  H3'   SING  28
+GEO  C3'  O3'   SING  29
+GEO  O3'  H1    SING  30
+#

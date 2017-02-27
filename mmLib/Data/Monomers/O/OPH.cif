@@ -1,0 +1,81 @@
+data_OPH
+#
+_chem_comp.id                   OPH
+_chem_comp.name                 '2-HYDROXY-3-PHENYL-PROPIONIC ACID METHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.203
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OPH  CA   .  C  0  ?  ?  ?  1  1 
+OPH  CB   .  C  0  ?  ?  ?  1  2 
+OPH  CG   .  C  0  ?  ?  ?  1  3 
+OPH  CD1  .  C  0  ?  ?  ?  1  4 
+OPH  CD2  .  C  0  ?  ?  ?  1  5 
+OPH  CE1  .  C  0  ?  ?  ?  1  6 
+OPH  CE2  .  C  0  ?  ?  ?  1  7 
+OPH  CZ   .  C  0  ?  ?  ?  1  8 
+OPH  C    .  C  0  ?  ?  ?  1  9 
+OPH  CS   .  C  0  ?  ?  ?  1  10
+OPH  OP   .  O  0  ?  ?  ?  1  11
+OPH  OS   .  O  0  ?  ?  ?  1  12
+OPH  O    .  O  0  ?  ?  ?  1  13
+OPH  HA   .  H  0  ?  ?  ?  1  14
+OPH  1HB  .  H  0  ?  ?  ?  0  15
+OPH  2HB  .  H  0  ?  ?  ?  0  16
+OPH  HD1  .  H  0  ?  ?  ?  1  17
+OPH  HD2  .  H  0  ?  ?  ?  1  18
+OPH  HE1  .  H  0  ?  ?  ?  1  19
+OPH  HE2  .  H  0  ?  ?  ?  1  20
+OPH  HZ   .  H  0  ?  ?  ?  1  21
+OPH  1HS  .  H  0  ?  ?  ?  0  22
+OPH  2HS  .  H  0  ?  ?  ?  0  23
+OPH  3HS  .  H  0  ?  ?  ?  0  24
+OPH  HO   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OPH  CA   C    SING  1 
+OPH  CA   CB   SING  2 
+OPH  CA   OP   SING  3 
+OPH  CA   HA   SING  4 
+OPH  CB   CG   SING  5 
+OPH  CB   1HB  SING  6 
+OPH  CB   2HB  SING  7 
+OPH  CG   CD1  DOUB  8 
+OPH  CG   CD2  SING  9 
+OPH  CD1  CE1  SING  10
+OPH  CD1  HD1  SING  11
+OPH  CD2  CE2  DOUB  12
+OPH  CD2  HD2  SING  13
+OPH  CE1  CZ   DOUB  14
+OPH  CE1  HE1  SING  15
+OPH  CE2  CZ   SING  16
+OPH  CE2  HE2  SING  17
+OPH  CZ   HZ   SING  18
+OPH  C    O    DOUB  19
+OPH  C    OS   SING  20
+OPH  CS   OS   SING  21
+OPH  CS   1HS  SING  22
+OPH  CS   2HS  SING  23
+OPH  CS   3HS  SING  24
+OPH  OP   HO   SING  25
+#

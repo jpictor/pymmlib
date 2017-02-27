@@ -1,0 +1,83 @@
+data_IDG
+#
+_chem_comp.id                   IDG
+_chem_comp.name                 O-2,6-DIAMINO-2,6-DIDEOXY-BETA-L-IDOPYRANOSE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 N2 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.188
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IDG  C5    .  C  0  ?  ?  ?  1  1 
+IDG  O5    .  O  0  ?  ?  ?  1  2 
+IDG  C1    .  C  0  ?  ?  ?  1  3 
+IDG  O1    .  O  0  ?  ?  ?  1  4 
+IDG  C2    .  C  0  ?  ?  ?  1  5 
+IDG  N2    .  N  0  ?  ?  ?  1  6 
+IDG  C3    .  C  0  ?  ?  ?  1  7 
+IDG  O3    .  O  0  ?  ?  ?  1  8 
+IDG  C4    .  C  0  ?  ?  ?  1  9 
+IDG  O4    .  O  0  ?  ?  ?  1  10
+IDG  C6    .  C  0  ?  ?  ?  1  11
+IDG  N6    .  N  0  ?  ?  ?  1  12
+IDG  H5    .  H  0  ?  ?  ?  1  13
+IDG  H1    .  H  0  ?  ?  ?  1  14
+IDG  HO1   .  H  0  ?  ?  ?  1  15
+IDG  H2    .  H  0  ?  ?  ?  1  16
+IDG  1HN2  .  H  0  ?  ?  ?  0  17
+IDG  2HN2  .  H  0  ?  ?  ?  0  18
+IDG  H3    .  H  0  ?  ?  ?  1  19
+IDG  HO3   .  H  0  ?  ?  ?  1  20
+IDG  H4    .  H  0  ?  ?  ?  1  21
+IDG  HO4   .  H  0  ?  ?  ?  1  22
+IDG  1H6   .  H  0  ?  ?  ?  0  23
+IDG  2H6   .  H  0  ?  ?  ?  0  24
+IDG  1HN6  .  H  0  ?  ?  ?  0  25
+IDG  2HN6  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IDG  C5  O5    SING  1 
+IDG  C5  C4    SING  2 
+IDG  C5  C6    SING  3 
+IDG  C5  H5    SING  4 
+IDG  O5  C1    SING  5 
+IDG  C1  C2    SING  6 
+IDG  C1  O1    SING  7 
+IDG  C1  H1    SING  8 
+IDG  O1  HO1   SING  9 
+IDG  C2  N2    SING  10
+IDG  C2  C3    SING  11
+IDG  C2  H2    SING  12
+IDG  N2  1HN2  SING  13
+IDG  N2  2HN2  SING  14
+IDG  C3  O3    SING  15
+IDG  C3  C4    SING  16
+IDG  C3  H3    SING  17
+IDG  O3  HO3   SING  18
+IDG  C4  O4    SING  19
+IDG  C4  H4    SING  20
+IDG  O4  HO4   SING  21
+IDG  C6  N6    SING  22
+IDG  C6  1H6   SING  23
+IDG  C6  2H6   SING  24
+IDG  N6  1HN6  SING  25
+IDG  N6  2HN6  SING  26
+#

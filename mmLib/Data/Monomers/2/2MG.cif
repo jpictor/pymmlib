@@ -1,0 +1,116 @@
+data_2MG
+#
+_chem_comp.id                       2MG
+_chem_comp.name                     2N-METHYLGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N5 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            377.250
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2MG  P     .  P  0  ?  ?  ?  1  1 
+2MG  O1P   .  O  0  ?  ?  ?  1  2 
+2MG  O2P   .  O  0  ?  ?  ?  1  3 
+2MG  O3P   .  O  0  ?  ?  ?  1  4 
+2MG  O5*   .  O  0  ?  ?  ?  1  5 
+2MG  C5*   .  C  0  ?  ?  ?  1  6 
+2MG  C4*   .  C  0  ?  ?  ?  1  7 
+2MG  O4*   .  O  0  ?  ?  ?  1  8 
+2MG  C3*   .  C  0  ?  ?  ?  1  9 
+2MG  O3*   .  O  0  ?  ?  ?  1  10
+2MG  C2*   .  C  0  ?  ?  ?  1  11
+2MG  O2*   .  O  0  ?  ?  ?  1  12
+2MG  C1*   .  C  0  ?  ?  ?  1  13
+2MG  N9    .  N  0  ?  ?  ?  1  14
+2MG  C8    .  C  0  ?  ?  ?  1  15
+2MG  N7    .  N  0  ?  ?  ?  1  16
+2MG  C5    .  C  0  ?  ?  ?  1  17
+2MG  C6    .  C  0  ?  ?  ?  1  18
+2MG  O6    .  O  0  ?  ?  ?  1  19
+2MG  N1    .  N  0  ?  ?  ?  1  20
+2MG  C2    .  C  0  ?  ?  ?  1  21
+2MG  N2    .  N  0  ?  ?  ?  1  22
+2MG  CM2   .  C  0  ?  ?  ?  1  23
+2MG  N3    .  N  0  ?  ?  ?  1  24
+2MG  C4    .  C  0  ?  ?  ?  1  25
+2MG  3HOP  .  H  0  ?  ?  ?  0  26
+2MG  2HOP  .  H  0  ?  ?  ?  0  27
+2MG  H1*   .  H  0  ?  ?  ?  1  28
+2MG  H2*   .  H  0  ?  ?  ?  1  29
+2MG  H3*   .  H  0  ?  ?  ?  1  30
+2MG  H4*   .  H  0  ?  ?  ?  1  31
+2MG  *HO2  .  H  0  ?  ?  ?  0  32
+2MG  *HO3  .  H  0  ?  ?  ?  0  33
+2MG  1H5*  .  H  0  ?  ?  ?  0  34
+2MG  2H5*  .  H  0  ?  ?  ?  0  35
+2MG  H8    .  H  0  ?  ?  ?  1  36
+2MG  HN1   .  H  0  ?  ?  ?  1  37
+2MG  HN2   .  H  0  ?  ?  ?  1  38
+2MG  1HM2  .  H  0  ?  ?  ?  0  39
+2MG  2HM2  .  H  0  ?  ?  ?  0  40
+2MG  3HM2  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2MG  P    O1P   DOUB  1 
+2MG  P    O2P   SING  2 
+2MG  P    O3P   SING  3 
+2MG  P    O5*   SING  4 
+2MG  O2P  2HOP  SING  5 
+2MG  O3P  3HOP  SING  6 
+2MG  O5*  C5*   SING  7 
+2MG  C5*  C4*   SING  8 
+2MG  C5*  1H5*  SING  9 
+2MG  C5*  2H5*  SING  10
+2MG  C4*  O4*   SING  11
+2MG  C4*  C3*   SING  12
+2MG  C4*  H4*   SING  13
+2MG  O4*  C1*   SING  14
+2MG  C3*  O3*   SING  15
+2MG  C3*  C2*   SING  16
+2MG  C3*  H3*   SING  17
+2MG  O3*  *HO3  SING  18
+2MG  C2*  O2*   SING  19
+2MG  C2*  C1*   SING  20
+2MG  C2*  H2*   SING  21
+2MG  O2*  *HO2  SING  22
+2MG  C1*  N9    SING  23
+2MG  C1*  H1*   SING  24
+2MG  N9   C8    SING  25
+2MG  N9   C4    SING  26
+2MG  C8   N7    DOUB  27
+2MG  C8   H8    SING  28
+2MG  N7   C5    SING  29
+2MG  C5   C6    SING  30
+2MG  C5   C4    DOUB  31
+2MG  C6   O6    DOUB  32
+2MG  C6   N1    SING  33
+2MG  N1   C2    SING  34
+2MG  N1   HN1   SING  35
+2MG  C2   N2    SING  36
+2MG  C2   N3    DOUB  37
+2MG  N2   CM2   SING  38
+2MG  N2   HN2   SING  39
+2MG  CM2  1HM2  SING  40
+2MG  CM2  2HM2  SING  41
+2MG  CM2  3HM2  SING  42
+2MG  N3   C4    SING  43
+#

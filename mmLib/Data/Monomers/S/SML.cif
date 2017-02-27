@@ -1,0 +1,67 @@
+data_SML
+#
+_chem_comp.id                   SML
+_chem_comp.name                 'PHENYL METHYL SULFONE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H8 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.199
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SML  C32   .  C  0  ?  ?  ?  1  1 
+SML  S33   .  S  0  ?  ?  ?  1  2 
+SML  O34   .  O  0  ?  ?  ?  1  3 
+SML  O35   .  O  0  ?  ?  ?  1  4 
+SML  C36   .  C  0  ?  ?  ?  1  5 
+SML  C37   .  C  0  ?  ?  ?  1  6 
+SML  C38   .  C  0  ?  ?  ?  1  7 
+SML  C39   .  C  0  ?  ?  ?  1  8 
+SML  C40   .  C  0  ?  ?  ?  1  9 
+SML  C41   .  C  0  ?  ?  ?  1  10
+SML  1H41  .  H  0  ?  ?  ?  0  11
+SML  1H40  .  H  0  ?  ?  ?  0  12
+SML  1H39  .  H  0  ?  ?  ?  0  13
+SML  1H38  .  H  0  ?  ?  ?  0  14
+SML  1H37  .  H  0  ?  ?  ?  0  15
+SML  1H32  .  H  0  ?  ?  ?  0  16
+SML  2H32  .  H  0  ?  ?  ?  0  17
+SML  3H32  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SML  C32  S33   SING  1 
+SML  C32  1H32  SING  2 
+SML  C32  2H32  SING  3 
+SML  C32  3H32  SING  4 
+SML  S33  O34   DOUB  5 
+SML  S33  O35   DOUB  6 
+SML  S33  C36   SING  7 
+SML  C36  C37   DOUB  8 
+SML  C36  C41   SING  9 
+SML  C37  C38   SING  10
+SML  C37  1H37  SING  11
+SML  C38  C39   DOUB  12
+SML  C38  1H38  SING  13
+SML  C39  C40   SING  14
+SML  C39  1H39  SING  15
+SML  C40  C41   DOUB  16
+SML  C40  1H40  SING  17
+SML  C41  1H41  SING  18
+#

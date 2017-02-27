@@ -1,0 +1,100 @@
+data_PYA
+#
+_chem_comp.id                       PYA
+_chem_comp.name                     3-(1,10-PHENANTHROL-2-YL)-L-ALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H13 N3 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            267.287
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PYA  C1   .  C  0  ?  ?  ?  1  1 
+PYA  C2   .  C  0  ?  ?  ?  1  2 
+PYA  C3   .  C  0  ?  ?  ?  1  3 
+PYA  N4   .  N  0  ?  ?  ?  1  4 
+PYA  C4A  .  C  0  ?  ?  ?  1  5 
+PYA  C4B  .  C  0  ?  ?  ?  1  6 
+PYA  N5   .  N  0  ?  ?  ?  1  7 
+PYA  C6   .  C  0  ?  ?  ?  1  8 
+PYA  C7   .  C  0  ?  ?  ?  1  9 
+PYA  C8   .  C  0  ?  ?  ?  1  10
+PYA  C8A  .  C  0  ?  ?  ?  1  11
+PYA  C9   .  C  0  ?  ?  ?  1  12
+PYA  C10  .  C  0  ?  ?  ?  1  13
+PYA  C1A  .  C  0  ?  ?  ?  1  14
+PYA  CB   .  C  0  ?  ?  ?  1  15
+PYA  CA   .  C  0  ?  ?  ?  1  16
+PYA  N    .  N  0  ?  ?  ?  1  17
+PYA  C    .  C  0  ?  ?  ?  1  18
+PYA  O    .  O  0  ?  ?  ?  1  19
+PYA  OXT  .  O  0  ?  ?  ?  1  20
+PYA  H1   .  H  0  ?  ?  ?  1  21
+PYA  H2   .  H  0  ?  ?  ?  1  22
+PYA  H3   .  H  0  ?  ?  ?  1  23
+PYA  H7   .  H  0  ?  ?  ?  1  24
+PYA  H8   .  H  0  ?  ?  ?  1  25
+PYA  H9   .  H  0  ?  ?  ?  1  26
+PYA  H10  .  H  0  ?  ?  ?  1  27
+PYA  1HB  .  H  0  ?  ?  ?  0  28
+PYA  2HB  .  H  0  ?  ?  ?  0  29
+PYA  HA   .  H  0  ?  ?  ?  1  30
+PYA  1HN  .  H  0  ?  ?  ?  0  31
+PYA  2HN  .  H  0  ?  ?  ?  0  32
+PYA  HXT  .  H  0  ?  ?  ?  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PYA  C1   C2   DOUB  1 
+PYA  C1   C1A  SING  2 
+PYA  C1   H1   SING  3 
+PYA  C2   C3   SING  4 
+PYA  C2   H2   SING  5 
+PYA  C3   N4   DOUB  6 
+PYA  C3   H3   SING  7 
+PYA  N4   C4A  SING  8 
+PYA  C4A  C4B  SING  9 
+PYA  C4A  C1A  DOUB  10
+PYA  C4B  N5   DOUB  11
+PYA  C4B  C8A  SING  12
+PYA  N5   C6   SING  13
+PYA  C6   C7   DOUB  14
+PYA  C6   CB   SING  15
+PYA  C7   C8   SING  16
+PYA  C7   H7   SING  17
+PYA  C8   C8A  DOUB  18
+PYA  C8   H8   SING  19
+PYA  C8A  C9   SING  20
+PYA  C9   C10  DOUB  21
+PYA  C9   H9   SING  22
+PYA  C10  C1A  SING  23
+PYA  C10  H10  SING  24
+PYA  CB   CA   SING  25
+PYA  CB   1HB  SING  26
+PYA  CB   2HB  SING  27
+PYA  CA   N    SING  28
+PYA  CA   C    SING  29
+PYA  CA   HA   SING  30
+PYA  N    1HN  SING  31
+PYA  N    2HN  SING  32
+PYA  C    O    DOUB  33
+PYA  C    OXT  SING  34
+PYA  OXT  HXT  SING  35
+#

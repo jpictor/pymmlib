@@ -1,0 +1,75 @@
+data_2CL
+#
+_chem_comp.id                   2CL
+_chem_comp.name                 '(2,6-DICHLOROPHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H6 O2 CL2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        205.040
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          2CL
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1cc(c(c(c1)Cl)CC(=O)O)Cl
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+2CL  C1   .  C   0  17.983  24.374  63.048  1  Y  1 
+2CL  C2   .  C   0  19.222  24.704  62.515  1  Y  2 
+2CL  C3   .  C   0  19.840  23.840  61.624  1  Y  3 
+2CL  C4   .  C   0  19.229  22.647  61.260  1  Y  4 
+2CL  C5   .  C   0  17.993  22.317  61.799  1  Y  5 
+2CL  C6   .  C   0  17.365  23.176  62.694  1  Y  6 
+2CL  C7   .  C   0  17.389  25.232  64.134  1  N  7 
+2CL  C8   .  C   0  16.392  26.255  63.633  1  N  8 
+2CL  CL1  .  CL  0  19.969  26.263  62.888  0  N  9 
+2CL  CL2  .  CL  0  15.790  22.738  63.375  0  N  10
+2CL  O1   .  O   0  16.239  26.435  62.406  1  N  11
+2CL  O2   .  O   0  15.756  26.892  64.489  1  N  12
+2CL  H3   .  H   0  20.804  24.097  61.210  1  N  13
+2CL  H4   .  H   0  19.713  21.980  60.562  1  N  14
+2CL  H5   .  H   0  17.517  21.388  61.522  1  N  15
+2CL  1H7  .  H   0  16.870  24.571  64.844  0  N  16
+2CL  2H7  .  H   0  18.219  25.790  64.593  0  N  17
+2CL  HO2  .  H   0  15.169  27.503  64.059  1  N  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+2CL  C1  C2   DOUB  Y  1 
+2CL  C1  C6   SING  Y  2 
+2CL  C1  C7   SING  N  3 
+2CL  C2  C3   SING  Y  4 
+2CL  C2  CL1  SING  N  5 
+2CL  C3  C4   DOUB  Y  6 
+2CL  C3  H3   SING  N  7 
+2CL  C4  C5   SING  Y  8 
+2CL  C4  H4   SING  N  9 
+2CL  C5  C6   DOUB  Y  10
+2CL  C5  H5   SING  N  11
+2CL  C6  CL2  SING  N  12
+2CL  C7  C8   SING  N  13
+2CL  C7  1H7  SING  N  14
+2CL  C7  2H7  SING  N  15
+2CL  C8  O1   DOUB  N  16
+2CL  C8  O2   SING  N  17
+2CL  O2  HO2  SING  N  18
+#

@@ -1,0 +1,76 @@
+data_2AO
+#
+_chem_comp.id                   2AO
+_chem_comp.name                 (2S)-2-AMINOHEXAN-1-OL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.191
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2AO  N     .  N  0  18.041  24.826  18.264  1  1 
+2AO  CA    .  C  0  17.308  23.836  19.069  1  2 
+2AO  C     .  C  0  15.810  23.870  18.857  1  3 
+2AO  CB    .  C  0  17.627  24.045  20.555  1  4 
+2AO  CG    .  C  0  19.114  24.062  20.922  1  5 
+2AO  CD    .  C  0  19.881  22.853  20.420  1  6 
+2AO  CE    .  C  0  19.330  21.540  20.922  1  7 
+2AO  OXT   .  O  0  15.434  23.760  17.478  1  8 
+2AO  HXT   .  H  0  14.486  23.735  17.409  1  9 
+2AO  1HC   .  H  0  15.366  23.025  19.404  0  10
+2AO  2HC   .  H  0  15.448  24.842  19.220  0  11
+2AO  HCA   .  H  0  17.646  22.844  18.733  1  12
+2AO  1HN   .  H  0  18.207  25.645  18.814  0  13
+2AO  2HN   .  H  0  18.915  24.438  17.973  0  14
+2AO  1HCB  .  H  0  17.204  25.018  20.849  0  15
+2AO  2HCB  .  H  0  17.195  23.182  21.083  0  16
+2AO  1HCG  .  H  0  19.564  24.961  20.476  0  17
+2AO  2HCG  .  H  0  19.176  24.052  22.020  0  18
+2AO  1HCD  .  H  0  19.832  22.847  19.321  0  19
+2AO  2HCD  .  H  0  20.911  22.940  20.797  0  20
+2AO  1HCE  .  H  0  19.196  20.850  20.075  0  21
+2AO  2HCE  .  H  0  20.033  21.100  21.645  0  22
+2AO  3HCE  .  H  0  18.360  21.712  21.410  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2AO  N    CA    SING  1 
+2AO  N    1HN   SING  2 
+2AO  N    2HN   SING  3 
+2AO  CA   C     SING  4 
+2AO  CA   HCA   SING  5 
+2AO  CA   CB    SING  6 
+2AO  C    OXT   SING  7 
+2AO  C    1HC   SING  8 
+2AO  C    2HC   SING  9 
+2AO  CB   1HCB  SING  10
+2AO  CB   2HCB  SING  11
+2AO  CB   CG    SING  12
+2AO  CG   1HCG  SING  13
+2AO  CG   2HCG  SING  14
+2AO  CG   CD    SING  15
+2AO  CD   1HCD  SING  16
+2AO  CD   2HCD  SING  17
+2AO  CD   CE    SING  18
+2AO  CE   1HCE  SING  19
+2AO  CE   2HCE  SING  20
+2AO  CE   3HCE  SING  21
+2AO  OXT  HXT   SING  22
+#

@@ -1,0 +1,120 @@
+data_AMA
+#
+_chem_comp.id                   AMA
+_chem_comp.name                 '2-[(3-HYDROXY-2-METHYL-5-PHOSPHONOOXYMETHYL-PYRIDIN-4-YLMETHYL)-AMINO]-2-METHYL-SUCCINIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N2 O9 P1'
+_chem_comp.pdbx_synonyms        'N-PYRIDOXYL-2-METHYLASPARTIC ACID-5-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        378.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMA  N1    .  N  0  ?  ?  ?  1  1 
+AMA  C2    .  C  0  ?  ?  ?  1  2 
+AMA  C2A   .  C  0  ?  ?  ?  1  3 
+AMA  C3    .  C  0  ?  ?  ?  1  4 
+AMA  O3    .  O  0  ?  ?  ?  1  5 
+AMA  C4    .  C  0  ?  ?  ?  1  6 
+AMA  C4A   .  C  0  ?  ?  ?  1  7 
+AMA  C5    .  C  0  ?  ?  ?  1  8 
+AMA  C6    .  C  0  ?  ?  ?  1  9 
+AMA  C5A   .  C  0  ?  ?  ?  1  10
+AMA  OP4   .  O  0  ?  ?  ?  1  11
+AMA  P     .  P  0  ?  ?  ?  1  12
+AMA  OP1   .  O  0  ?  ?  ?  1  13
+AMA  OP2   .  O  0  ?  ?  ?  1  14
+AMA  OP3   .  O  0  ?  ?  ?  1  15
+AMA  N     .  N  0  ?  ?  ?  1  16
+AMA  CA    .  C  0  ?  ?  ?  1  17
+AMA  C     .  C  0  ?  ?  ?  1  18
+AMA  O     .  O  0  ?  ?  ?  1  19
+AMA  CB2   .  C  0  ?  ?  ?  1  20
+AMA  CB1   .  C  0  ?  ?  ?  1  21
+AMA  CG    .  C  0  ?  ?  ?  1  22
+AMA  OD1   .  O  0  ?  ?  ?  1  23
+AMA  OD2   .  O  0  ?  ?  ?  1  24
+AMA  OXT   .  O  0  ?  ?  ?  1  25
+AMA  1H2A  .  H  0  ?  ?  ?  0  26
+AMA  2H2A  .  H  0  ?  ?  ?  0  27
+AMA  3H2A  .  H  0  ?  ?  ?  0  28
+AMA  HO3   .  H  0  ?  ?  ?  1  29
+AMA  1H4A  .  H  0  ?  ?  ?  0  30
+AMA  2H4A  .  H  0  ?  ?  ?  0  31
+AMA  H6    .  H  0  ?  ?  ?  1  32
+AMA  1H5A  .  H  0  ?  ?  ?  0  33
+AMA  2H5A  .  H  0  ?  ?  ?  0  34
+AMA  2HOP  .  H  0  ?  ?  ?  0  35
+AMA  3HOP  .  H  0  ?  ?  ?  0  36
+AMA  HN    .  H  0  ?  ?  ?  1  37
+AMA  1HB2  .  H  0  ?  ?  ?  0  38
+AMA  2HB2  .  H  0  ?  ?  ?  0  39
+AMA  3HB2  .  H  0  ?  ?  ?  0  40
+AMA  1HB1  .  H  0  ?  ?  ?  0  41
+AMA  2HB1  .  H  0  ?  ?  ?  0  42
+AMA  HD2   .  H  0  ?  ?  ?  1  43
+AMA  HXT   .  H  0  ?  ?  ?  1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMA  N1   C2    DOUB  1 
+AMA  N1   C6    SING  2 
+AMA  C2   C2A   SING  3 
+AMA  C2   C3    SING  4 
+AMA  C2A  1H2A  SING  5 
+AMA  C2A  2H2A  SING  6 
+AMA  C2A  3H2A  SING  7 
+AMA  C3   O3    SING  8 
+AMA  C3   C4    DOUB  9 
+AMA  O3   HO3   SING  10
+AMA  C4   C4A   SING  11
+AMA  C4   C5    SING  12
+AMA  C4A  N     SING  13
+AMA  C4A  1H4A  SING  14
+AMA  C4A  2H4A  SING  15
+AMA  C5   C6    DOUB  16
+AMA  C5   C5A   SING  17
+AMA  C6   H6    SING  18
+AMA  C5A  OP4   SING  19
+AMA  C5A  1H5A  SING  20
+AMA  C5A  2H5A  SING  21
+AMA  OP4  P     SING  22
+AMA  P    OP1   DOUB  23
+AMA  P    OP2   SING  24
+AMA  P    OP3   SING  25
+AMA  OP2  2HOP  SING  26
+AMA  OP3  3HOP  SING  27
+AMA  N    CA    SING  28
+AMA  N    HN    SING  29
+AMA  CA   C     SING  30
+AMA  CA   CB1   SING  31
+AMA  CA   CB2   SING  32
+AMA  C    O     DOUB  33
+AMA  C    OXT   SING  34
+AMA  CB2  1HB2  SING  35
+AMA  CB2  2HB2  SING  36
+AMA  CB2  3HB2  SING  37
+AMA  CB1  CG    SING  38
+AMA  CB1  1HB1  SING  39
+AMA  CB1  2HB1  SING  40
+AMA  CG   OD1   DOUB  41
+AMA  CG   OD2   SING  42
+AMA  OD2  HD2   SING  43
+AMA  OXT  HXT   SING  44
+#

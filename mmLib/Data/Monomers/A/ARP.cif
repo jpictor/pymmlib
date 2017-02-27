@@ -1,0 +1,82 @@
+data_ARP
+#
+_chem_comp.id                   ARP
+_chem_comp.name                 '9-HYDROXYPROPYLADENINE, R-ISOMER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H11 N5 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        193.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARP  C7    .  C  0  ?  ?  ?  1  1 
+ARP  C8    .  C  0  ?  ?  ?  1  2 
+ARP  O1    .  O  0  ?  ?  ?  1  3 
+ARP  C9    .  C  0  ?  ?  ?  1  4 
+ARP  C4    .  C  0  ?  ?  ?  1  5 
+ARP  C3    .  C  0  ?  ?  ?  1  6 
+ARP  C2    .  C  0  ?  ?  ?  1  7 
+ARP  N2    .  N  0  ?  ?  ?  1  8 
+ARP  C1    .  C  0  ?  ?  ?  1  9 
+ARP  N5    .  N  0  ?  ?  ?  1  10
+ARP  N4    .  N  0  ?  ?  ?  1  11
+ARP  N3    .  N  0  ?  ?  ?  1  12
+ARP  C6    .  C  0  ?  ?  ?  1  13
+ARP  N1    .  N  0  ?  ?  ?  1  14
+ARP  2H7   .  H  0  ?  ?  ?  0  15
+ARP  1H7   .  H  0  ?  ?  ?  0  16
+ARP  2H5   .  H  0  ?  ?  ?  0  17
+ARP  1H5   .  H  0  ?  ?  ?  0  18
+ARP  H8    .  H  0  ?  ?  ?  1  19
+ARP  H1    .  H  0  ?  ?  ?  1  20
+ARP  3H9   .  H  0  ?  ?  ?  0  21
+ARP  2H9   .  H  0  ?  ?  ?  0  22
+ARP  1H9   .  H  0  ?  ?  ?  0  23
+ARP  1H1C  .  H  0  ?  ?  ?  0  24
+ARP  H6    .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARP  C7  C8    SING  1 
+ARP  C7  N4    SING  2 
+ARP  C7  2H7   SING  3 
+ARP  C7  1H7   SING  4 
+ARP  C8  O1    SING  5 
+ARP  C8  C9    SING  6 
+ARP  C8  H8    SING  7 
+ARP  O1  H1    SING  8 
+ARP  C9  3H9   SING  9 
+ARP  C9  2H9   SING  10
+ARP  C9  1H9   SING  11
+ARP  C4  C3    AROM  12
+ARP  C4  N4    SING  13
+ARP  C4  N1    AROM  14
+ARP  C3  C2    AROM  15
+ARP  C3  N3    SING  16
+ARP  C2  N2    AROM  17
+ARP  C2  N5    SING  18
+ARP  N2  C1    AROM  19
+ARP  C1  N1    AROM  20
+ARP  C1  1H1C  SING  21
+ARP  N5  2H5   SING  22
+ARP  N5  1H5   SING  23
+ARP  N4  C6    SING  24
+ARP  N3  C6    DOUB  25
+ARP  C6  H6    SING  26
+#

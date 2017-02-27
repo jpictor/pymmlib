@@ -1,0 +1,71 @@
+data_ASC
+#
+_chem_comp.id                   ASC
+_chem_comp.name                 'ASCORBIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H8 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        176.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASC  C1   .  C  0  ?  ?  ?  1  1 
+ASC  C2   .  C  0  ?  ?  ?  1  2 
+ASC  C3   .  C  0  ?  ?  ?  1  3 
+ASC  C4   .  C  0  ?  ?  ?  1  4 
+ASC  C5   .  C  0  ?  ?  ?  1  5 
+ASC  C6   .  C  0  ?  ?  ?  1  6 
+ASC  O1   .  O  0  ?  ?  ?  1  7 
+ASC  O2   .  O  0  ?  ?  ?  1  8 
+ASC  O3   .  O  0  ?  ?  ?  1  9 
+ASC  O4   .  O  0  ?  ?  ?  1  10
+ASC  O5   .  O  0  ?  ?  ?  1  11
+ASC  O6   .  O  0  ?  ?  ?  1  12
+ASC  H4   .  H  0  ?  ?  ?  1  13
+ASC  H5   .  H  0  ?  ?  ?  1  14
+ASC  1H6  .  H  0  ?  ?  ?  0  15
+ASC  2H6  .  H  0  ?  ?  ?  0  16
+ASC  HO2  .  H  0  ?  ?  ?  1  17
+ASC  HO3  .  H  0  ?  ?  ?  1  18
+ASC  HO5  .  H  0  ?  ?  ?  1  19
+ASC  HO6  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASC  C1  C2   SING  1 
+ASC  C1  O1   DOUB  2 
+ASC  C1  O4   SING  3 
+ASC  C2  C3   DOUB  4 
+ASC  C2  O2   SING  5 
+ASC  C3  C4   SING  6 
+ASC  C3  O3   SING  7 
+ASC  C4  C5   SING  8 
+ASC  C4  O4   SING  9 
+ASC  C4  H4   SING  10
+ASC  C5  C6   SING  11
+ASC  C5  O5   SING  12
+ASC  C5  H5   SING  13
+ASC  C6  O6   SING  14
+ASC  C6  1H6  SING  15
+ASC  C6  2H6  SING  16
+ASC  O2  HO2  SING  17
+ASC  O3  HO3  SING  18
+ASC  O5  HO5  SING  19
+ASC  O6  HO6  SING  20
+#

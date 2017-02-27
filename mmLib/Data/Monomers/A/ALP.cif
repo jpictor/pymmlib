@@ -1,0 +1,93 @@
+data_ALP
+#
+_chem_comp.id                   ALP
+_chem_comp.name                 '2-(1-CARBOXY-2-HYDROXY-ETHYL)-5,5-DIMETHYL-THIAZOLIDINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        249.281
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ALP  C1    .  C  0  ?  ?  ?  1  1 
+ALP  O1    .  O  0  ?  ?  ?  1  2 
+ALP  O2    .  O  0  ?  ?  ?  1  3 
+ALP  C2    .  C  0  ?  ?  ?  1  4 
+ALP  C21   .  C  0  ?  ?  ?  1  5 
+ALP  O22   .  O  0  ?  ?  ?  1  6 
+ALP  C3    .  C  0  ?  ?  ?  1  7 
+ALP  S4    .  S  0  ?  ?  ?  1  8 
+ALP  C5    .  C  0  ?  ?  ?  1  9 
+ALP  C51   .  C  0  ?  ?  ?  1  10
+ALP  C52   .  C  0  ?  ?  ?  1  11
+ALP  C6    .  C  0  ?  ?  ?  1  12
+ALP  C8    .  C  0  ?  ?  ?  1  13
+ALP  O81   .  O  0  ?  ?  ?  1  14
+ALP  O82   .  O  0  ?  ?  ?  1  15
+ALP  N7    .  N  0  ?  ?  ?  1  16
+ALP  HO2   .  H  0  ?  ?  ?  1  17
+ALP  H2    .  H  0  ?  ?  ?  1  18
+ALP  1H21  .  H  0  ?  ?  ?  0  19
+ALP  2H21  .  H  0  ?  ?  ?  0  20
+ALP  H22   .  H  0  ?  ?  ?  1  21
+ALP  H3    .  H  0  ?  ?  ?  1  22
+ALP  1H51  .  H  0  ?  ?  ?  0  23
+ALP  2H51  .  H  0  ?  ?  ?  0  24
+ALP  3H51  .  H  0  ?  ?  ?  0  25
+ALP  1H52  .  H  0  ?  ?  ?  0  26
+ALP  2H52  .  H  0  ?  ?  ?  0  27
+ALP  3H52  .  H  0  ?  ?  ?  0  28
+ALP  H6    .  H  0  ?  ?  ?  1  29
+ALP  HO8   .  H  0  ?  ?  ?  1  30
+ALP  HN7   .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ALP  C1   C2    SING  1 
+ALP  C1   O1    DOUB  2 
+ALP  C1   O2    SING  3 
+ALP  O2   HO2   SING  4 
+ALP  C2   C3    SING  5 
+ALP  C2   C21   SING  6 
+ALP  C2   H2    SING  7 
+ALP  C21  O22   SING  8 
+ALP  C21  1H21  SING  9 
+ALP  C21  2H21  SING  10
+ALP  O22  H22   SING  11
+ALP  C3   S4    SING  12
+ALP  C3   N7    SING  13
+ALP  C3   H3    SING  14
+ALP  S4   C5    SING  15
+ALP  C5   C6    SING  16
+ALP  C5   C51   SING  17
+ALP  C5   C52   SING  18
+ALP  C51  1H51  SING  19
+ALP  C51  2H51  SING  20
+ALP  C51  3H51  SING  21
+ALP  C52  1H52  SING  22
+ALP  C52  2H52  SING  23
+ALP  C52  3H52  SING  24
+ALP  C6   N7    SING  25
+ALP  C6   C8    SING  26
+ALP  C6   H6    SING  27
+ALP  C8   O81   DOUB  28
+ALP  C8   O82   SING  29
+ALP  O82  HO8   SING  30
+ALP  N7   HN7   SING  31
+#

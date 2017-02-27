@@ -1,0 +1,75 @@
+data_HV5
+#
+_chem_comp.id                       HV5
+_chem_comp.name                     TERT-BUTYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HV5  N     .  N  0  ?  ?  ?  1  1 
+HV5  CA    .  C  0  ?  ?  ?  1  2 
+HV5  CB    .  C  0  ?  ?  ?  1  3 
+HV5  CG1   .  C  0  ?  ?  ?  1  4 
+HV5  CG2   .  C  0  ?  ?  ?  1  5 
+HV5  CG3   .  C  0  ?  ?  ?  1  6 
+HV5  C     .  C  0  ?  ?  ?  1  7 
+HV5  O     .  O  0  ?  ?  ?  1  8 
+HV5  OXT   .  O  0  ?  ?  ?  1  9 
+HV5  1HN   .  H  0  ?  ?  ?  0  10
+HV5  2HN   .  H  0  ?  ?  ?  0  11
+HV5  HA    .  H  0  ?  ?  ?  1  12
+HV5  1HG1  .  H  0  ?  ?  ?  0  13
+HV5  2HG1  .  H  0  ?  ?  ?  0  14
+HV5  3HG1  .  H  0  ?  ?  ?  0  15
+HV5  1HG2  .  H  0  ?  ?  ?  0  16
+HV5  2HG2  .  H  0  ?  ?  ?  0  17
+HV5  3HG2  .  H  0  ?  ?  ?  0  18
+HV5  1HG3  .  H  0  ?  ?  ?  0  19
+HV5  2HG3  .  H  0  ?  ?  ?  0  20
+HV5  3HG3  .  H  0  ?  ?  ?  0  21
+HV5  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HV5  N    CA    SING  1 
+HV5  N    1HN   SING  2 
+HV5  N    2HN   SING  3 
+HV5  CA   CB    SING  4 
+HV5  CA   C     SING  5 
+HV5  CA   HA    SING  6 
+HV5  CB   CG1   SING  7 
+HV5  CB   CG2   SING  8 
+HV5  CB   CG3   SING  9 
+HV5  CG1  1HG1  SING  10
+HV5  CG1  2HG1  SING  11
+HV5  CG1  3HG1  SING  12
+HV5  CG2  1HG2  SING  13
+HV5  CG2  2HG2  SING  14
+HV5  CG2  3HG2  SING  15
+HV5  CG3  1HG3  SING  16
+HV5  CG3  2HG3  SING  17
+HV5  CG3  3HG3  SING  18
+HV5  C    O     DOUB  19
+HV5  C    OXT   SING  20
+HV5  OXT  HXT   SING  21
+#

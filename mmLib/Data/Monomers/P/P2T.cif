@@ -1,0 +1,125 @@
+data_P2T
+#
+_chem_comp.id                       P2T
+_chem_comp.name                     '2'-O-PROPYL THYMIDINE-5-MONOPHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C13 H21 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            380.291
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P2T  P     .  P  0  10.769  3.863   5.483   1  1 
+P2T  O1P   .  O  0  11.990  4.379   4.759   1  2 
+P2T  O2P   .  O  0  10.933  3.118   6.733   1  3 
+P2T  O5*   .  O  0  9.822   5.101   5.715   1  4 
+P2T  C5*   .  C  0  9.543   5.981   4.642   1  5 
+P2T  C4*   .  C  0  8.484   6.954   5.038   1  6 
+P2T  O4*   .  O  0  7.219   6.267   5.218   1  7 
+P2T  C1*   .  C  0  6.460   6.928   6.225   1  8 
+P2T  N1    .  N  0  6.247   5.993   7.343   1  9 
+P2T  C6    .  C  0  7.101   4.932   7.569   1  10
+P2T  C2    .  C  0  5.161   6.224   8.174   1  11
+P2T  O2    .  O  0  4.415   7.177   8.032   1  12
+P2T  N3    .  N  0  5.004   5.303   9.194   1  13
+P2T  C4    .  C  0  5.812   4.227   9.465   1  14
+P2T  O4    .  O  0  5.562   3.499   10.405  1  15
+P2T  C5    .  C  0  6.942   4.050   8.569   1  16
+P2T  C5M   .  C  0  7.863   2.897   8.795   1  17
+P2T  C2*   .  C  0  7.286   8.135   6.675   1  18
+P2T  O2*   .  O  0  6.971   9.184   5.767   1  19
+P2T  CB'   .  C  0  5.729   9.824   6.017   1  20
+P2T  CC'   .  C  0  5.312   10.588  4.760   1  21
+P2T  CD'   .  C  0  5.133   9.679   3.534   1  22
+P2T  C3*   .  C  0  8.691   7.646   6.372   1  23
+P2T  O3*   .  O  0  9.639   8.687   6.312   1  24
+P2T  O3P   .  O  0  ?       ?       ?       1  25
+P2T  1HD'  .  H  0  ?       ?       ?       0  26
+P2T  2HD'  .  H  0  ?       ?       ?       0  27
+P2T  3HD'  .  H  0  ?       ?       ?       0  28
+P2T  1HC'  .  H  0  ?       ?       ?       0  29
+P2T  2HC'  .  H  0  ?       ?       ?       0  30
+P2T  1HB'  .  H  0  ?       ?       ?       0  31
+P2T  2HB'  .  H  0  ?       ?       ?       0  32
+P2T  H2*   .  H  0  ?       ?       ?       1  33
+P2T  H3*   .  H  0  ?       ?       ?       1  34
+P2T  H3T   .  H  0  ?       ?       ?       1  35
+P2T  H4*   .  H  0  ?       ?       ?       1  36
+P2T  1H5*  .  H  0  ?       ?       ?       0  37
+P2T  2H5*  .  H  0  ?       ?       ?       0  38
+P2T  3HOP  .  H  0  ?       ?       ?       0  39
+P2T  H1*   .  H  0  ?       ?       ?       1  40
+P2T  H6    .  H  0  ?       ?       ?       1  41
+P2T  1H5M  .  H  0  ?       ?       ?       0  42
+P2T  2H5M  .  H  0  ?       ?       ?       0  43
+P2T  3H5M  .  H  0  ?       ?       ?       0  44
+P2T  HN3   .  H  0  ?       ?       ?       1  45
+P2T  2HOP  .  H  0  ?       ?       ?       0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P2T  P    O5*   SING  1 
+P2T  P    O3P   SING  2 
+P2T  P    O1P   DOUB  3 
+P2T  P    O2P   SING  4 
+P2T  O2P  2HOP  SING  5 
+P2T  O5*  C5*   SING  6 
+P2T  C5*  C4*   SING  7 
+P2T  C5*  1H5*  SING  8 
+P2T  C5*  2H5*  SING  9 
+P2T  C4*  C3*   SING  10
+P2T  C4*  O4*   SING  11
+P2T  C4*  H4*   SING  12
+P2T  O4*  C1*   SING  13
+P2T  C1*  C2*   SING  14
+P2T  C1*  N1    SING  15
+P2T  C1*  H1*   SING  16
+P2T  N1   C6    SING  17
+P2T  N1   C2    SING  18
+P2T  C6   C5    DOUB  19
+P2T  C6   H6    SING  20
+P2T  C2   N3    SING  21
+P2T  C2   O2    DOUB  22
+P2T  N3   C4    SING  23
+P2T  N3   HN3   SING  24
+P2T  C4   C5    SING  25
+P2T  C4   O4    DOUB  26
+P2T  C5   C5M   SING  27
+P2T  C5M  1H5M  SING  28
+P2T  C5M  2H5M  SING  29
+P2T  C5M  3H5M  SING  30
+P2T  C2*  O2*   SING  31
+P2T  C2*  C3*   SING  32
+P2T  C2*  H2*   SING  33
+P2T  O2*  CB'   SING  34
+P2T  CB'  CC'   SING  35
+P2T  CB'  1HB'  SING  36
+P2T  CB'  2HB'  SING  37
+P2T  CC'  CD'   SING  38
+P2T  CC'  1HC'  SING  39
+P2T  CC'  2HC'  SING  40
+P2T  CD'  1HD'  SING  41
+P2T  CD'  2HD'  SING  42
+P2T  CD'  3HD'  SING  43
+P2T  C3*  O3*   SING  44
+P2T  C3*  H3*   SING  45
+P2T  O3*  H3T   SING  46
+P2T  O3P  3HOP  SING  47
+#

@@ -1,0 +1,87 @@
+data_BBC
+#
+_chem_comp.id                       BBC
+_chem_comp.name                     3-[(4-AMINOBUTYL)SULFINYL]-2-IMINOPROPAN-1-OL
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N2 O2 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            192.276
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BBC  N     .  N  0  40.817  29.087  -15.488  1  1 
+BBC  CA    .  C  0  40.151  27.850  -15.886  1  2 
+BBC  CB    .  C  0  38.627  28.023  -15.845  1  3 
+BBC  SG    .  S  0  38.016  29.091  -14.511  1  4 
+BBC  C05   .  C  0  36.984  27.902  -13.583  1  5 
+BBC  C     .  C  0  40.510  27.441  -17.305  1  6 
+BBC  O     .  O  0  41.147  28.192  -18.037  1  7 
+BBC  C08   .  C  0  37.552  26.469  -13.618  1  8 
+BBC  C09   .  C  0  37.380  25.750  -12.270  1  9 
+BBC  C10   .  C  0  38.715  25.608  -11.528  1  10
+BBC  N11   .  N  0  38.737  24.432  -10.692  1  11
+BBC  O12   .  O  0  37.124  30.051  -15.199  1  12
+BBC  1H11  .  H  0  ?       ?       ?        0  13
+BBC  2H11  .  H  0  ?       ?       ?        0  14
+BBC  1H10  .  H  0  ?       ?       ?        0  15
+BBC  2H10  .  H  0  ?       ?       ?        0  16
+BBC  1H09  .  H  0  ?       ?       ?        0  17
+BBC  2H09  .  H  0  ?       ?       ?        0  18
+BBC  1H08  .  H  0  ?       ?       ?        0  19
+BBC  2H08  .  H  0  ?       ?       ?        0  20
+BBC  1H05  .  H  0  ?       ?       ?        0  21
+BBC  2H05  .  H  0  ?       ?       ?        0  22
+BBC  1HB   .  H  0  ?       ?       ?        0  23
+BBC  2HB   .  H  0  ?       ?       ?        0  24
+BBC  HN    .  H  0  ?       ?       ?        1  25
+BBC  1H    .  H  0  ?       ?       ?        0  26
+BBC  2H    .  H  0  ?       ?       ?        0  27
+BBC  HO    .  H  0  ?       ?       ?        1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BBC  N    CA    DOUB  1 
+BBC  N    HN    SING  2 
+BBC  CA   CB    SING  3 
+BBC  CA   C     SING  4 
+BBC  CB   SG    SING  5 
+BBC  CB   1HB   SING  6 
+BBC  CB   2HB   SING  7 
+BBC  SG   C05   SING  8 
+BBC  SG   O12   DOUB  9 
+BBC  C05  C08   SING  10
+BBC  C05  1H05  SING  11
+BBC  C05  2H05  SING  12
+BBC  C    O     SING  13
+BBC  C    1H    SING  14
+BBC  C    2H    SING  15
+BBC  O    HO    SING  16
+BBC  C08  C09   SING  17
+BBC  C08  1H08  SING  18
+BBC  C08  2H08  SING  19
+BBC  C09  C10   SING  20
+BBC  C09  1H09  SING  21
+BBC  C09  2H09  SING  22
+BBC  C10  N11   SING  23
+BBC  C10  1H10  SING  24
+BBC  C10  2H10  SING  25
+BBC  N11  1H11  SING  26
+BBC  N11  2H11  SING  27
+#

@@ -1,0 +1,100 @@
+data_CMA
+#
+_chem_comp.id                   CMA
+_chem_comp.name                 N2-(CARBOXYETHYL)-L-ARGININE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H18 N4 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        246.266
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CMA  CA    .  C  0  ?  ?  ?  1  1 
+CMA  CB    .  C  0  ?  ?  ?  1  2 
+CMA  O     .  O  0  ?  ?  ?  1  3 
+CMA  C     .  C  0  ?  ?  ?  1  4 
+CMA  C1    .  C  0  ?  ?  ?  1  5 
+CMA  C2    .  C  0  ?  ?  ?  1  6 
+CMA  C3    .  C  0  ?  ?  ?  1  7 
+CMA  O1    .  O  0  ?  ?  ?  1  8 
+CMA  O2    .  O  0  ?  ?  ?  1  9 
+CMA  N     .  N  0  ?  ?  ?  1  10
+CMA  CG    .  C  0  ?  ?  ?  1  11
+CMA  CD    .  C  0  ?  ?  ?  1  12
+CMA  NE    .  N  0  ?  ?  ?  1  13
+CMA  CZ    .  C  0  ?  ?  ?  1  14
+CMA  NH1   .  N  0  ?  ?  ?  1  15
+CMA  NH2   .  N  0  ?  ?  ?  1  16
+CMA  OXT   .  O  0  ?  ?  ?  1  17
+CMA  1HH1  .  H  0  ?  ?  ?  0  18
+CMA  2HH1  .  H  0  ?  ?  ?  0  19
+CMA  1HH2  .  H  0  ?  ?  ?  0  20
+CMA  HE    .  H  0  ?  ?  ?  1  21
+CMA  1HD   .  H  0  ?  ?  ?  0  22
+CMA  2HD   .  H  0  ?  ?  ?  0  23
+CMA  1HG   .  H  0  ?  ?  ?  0  24
+CMA  2HG   .  H  0  ?  ?  ?  0  25
+CMA  1HB   .  H  0  ?  ?  ?  0  26
+CMA  2HB   .  H  0  ?  ?  ?  0  27
+CMA  HA    .  H  0  ?  ?  ?  1  28
+CMA  HXT   .  H  0  ?  ?  ?  1  29
+CMA  H     .  H  0  ?  ?  ?  1  30
+CMA  1H1   .  H  0  ?  ?  ?  0  31
+CMA  2H1   .  H  0  ?  ?  ?  0  32
+CMA  1H2   .  H  0  ?  ?  ?  0  33
+CMA  2H2   .  H  0  ?  ?  ?  0  34
+CMA  HO2   .  H  0  ?  ?  ?  1  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CMA  CA   CB    SING  1 
+CMA  CA   C     SING  2 
+CMA  CA   N     SING  3 
+CMA  CA   HA    SING  4 
+CMA  CB   CG    SING  5 
+CMA  CB   1HB   SING  6 
+CMA  CB   2HB   SING  7 
+CMA  O    C     DOUB  8 
+CMA  C    OXT   SING  9 
+CMA  C1   C2    SING  10
+CMA  C1   N     SING  11
+CMA  C1   1H1   SING  12
+CMA  C1   2H1   SING  13
+CMA  C2   C3    SING  14
+CMA  C2   1H2   SING  15
+CMA  C2   2H2   SING  16
+CMA  C3   O1    DOUB  17
+CMA  C3   O2    SING  18
+CMA  O2   HO2   SING  19
+CMA  N    H     SING  20
+CMA  CG   CD    SING  21
+CMA  CG   1HG   SING  22
+CMA  CG   2HG   SING  23
+CMA  CD   NE    SING  24
+CMA  CD   1HD   SING  25
+CMA  CD   2HD   SING  26
+CMA  NE   CZ    SING  27
+CMA  NE   HE    SING  28
+CMA  CZ   NH1   SING  29
+CMA  CZ   NH2   DOUB  30
+CMA  NH1  1HH1  SING  31
+CMA  NH1  2HH1  SING  32
+CMA  NH2  1HH2  SING  33
+CMA  OXT  HXT   SING  34
+#

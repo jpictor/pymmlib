@@ -1,0 +1,81 @@
+data_NLO
+#
+_chem_comp.id                       NLO
+_chem_comp.name                     O-METHYL-L-NORLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H15 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            145.201
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NLO  N    .  N  0  33.798  6.021  11.000  1  1 
+NLO  CA   .  C  0  34.987  5.357  10.490  1  2 
+NLO  C    .  C  0  36.150  6.336  10.641  1  3 
+NLO  O    .  O  0  35.896  7.538  10.720  1  4 
+NLO  CB   .  C  0  34.723  4.964  9.027   1  5 
+NLO  CG   .  C  0  35.936  4.370  8.298   1  6 
+NLO  CD   .  C  0  35.624  4.072  6.826   1  7 
+NLO  CE   .  C  0  34.583  2.963  6.651   1  8 
+NLO  OH   .  O  0  37.406  5.791  10.682  1  9 
+NLO  C1   .  C  0  38.424  6.774  10.774  1  10
+NLO  1HN  .  H  0  33.833  7.031  11.027  0  11
+NLO  2HN  .  H  0  ?       ?      ?       0  12
+NLO  HA   .  H  0  35.200  4.463  11.079  1  13
+NLO  H11  .  H  0  38.350  7.480  9.944   1  14
+NLO  H12  .  H  0  39.395  6.280  10.732  1  15
+NLO  H13  .  H  0  38.345  7.314  11.719  1  16
+NLO  1HB  .  H  0  33.917  4.230  9.025   0  17
+NLO  2HB  .  H  0  34.377  5.843  8.485   0  18
+NLO  1HG  .  H  0  36.756  5.087  8.307   0  19
+NLO  2HG  .  H  0  36.259  3.458  8.801   0  20
+NLO  1HD  .  H  0  35.267  4.980  6.338   0  21
+NLO  2HD  .  H  0  36.547  3.756  6.337   0  22
+NLO  1HE  .  H  0  34.501  2.711  5.593   0  23
+NLO  2HE  .  H  0  34.886  2.074  7.205   0  24
+NLO  3HE  .  H  0  33.606  3.295  7.002   0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NLO  N   1HN  SING  1 
+NLO  N   2HN  SING  2 
+NLO  N   CA   SING  3 
+NLO  CA  HA   SING  4 
+NLO  CA  C    SING  5 
+NLO  CA  CB   SING  6 
+NLO  C   O    DOUB  7 
+NLO  C   OH   SING  8 
+NLO  CB  1HB  SING  9 
+NLO  CB  2HB  SING  10
+NLO  CB  CG   SING  11
+NLO  CG  1HG  SING  12
+NLO  CG  2HG  SING  13
+NLO  CG  CD   SING  14
+NLO  CD  1HD  SING  15
+NLO  CD  2HD  SING  16
+NLO  CD  CE   SING  17
+NLO  CE  1HE  SING  18
+NLO  CE  2HE  SING  19
+NLO  CE  3HE  SING  20
+NLO  OH  C1   SING  21
+NLO  C1  H11  SING  22
+NLO  C1  H12  SING  23
+NLO  C1  H13  SING  24
+#

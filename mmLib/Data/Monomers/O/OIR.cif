@@ -1,0 +1,136 @@
+data_OIR
+#
+_chem_comp.id                   OIR
+_chem_comp.name                 N-(3-PHENYL-2-SULFANYLPROPANOYL)PHENYLALANYLALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H24 N2 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        400.492
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OIR  O19   .  O  0  30.852  42.722  31.325  1  1 
+OIR  C18   .  C  0  29.684  43.069  31.277  1  2 
+OIR  C20   .  C  0  28.821  42.520  30.190  1  3 
+OIR  C21   .  C  0  27.349  42.503  30.575  1  4 
+OIR  C23   .  C  0  26.981  41.075  30.905  1  5 
+OIR  C24   .  C  0  25.765  40.780  31.507  1  6 
+OIR  C25   .  C  0  25.443  39.464  31.813  1  7 
+OIR  C26   .  C  0  26.336  38.440  31.515  1  8 
+OIR  C27   .  C  0  27.550  38.735  30.911  1  9 
+OIR  C28   .  C  0  27.873  40.053  30.608  1  10
+OIR  S26   .  S  0  29.104  43.579  28.762  1  11
+OIR  N9    .  N  0  29.175  43.941  32.137  1  12
+OIR  C2    .  C  0  30.114  44.386  33.158  1  13
+OIR  C11   .  C  0  30.343  43.305  34.183  1  14
+OIR  O12   .  O  0  31.478  43.015  34.498  1  15
+OIR  N13   .  N  0  29.279  42.699  34.691  1  16
+OIR  C14   .  C  0  29.392  41.793  35.825  1  17
+OIR  C15   .  C  0  28.464  40.623  35.667  1  18
+OIR  O16   .  O  0  27.503  40.732  34.924  1  19
+OIR  O17   .  O  0  28.662  39.570  36.262  1  20
+OIR  C19   .  C  0  29.057  42.540  37.114  1  21
+OIR  C1    .  C  0  29.613  45.673  33.811  1  22
+OIR  C3    .  C  0  30.788  46.213  34.597  1  23
+OIR  C4    .  C  0  30.710  46.379  35.977  1  24
+OIR  C5    .  C  0  31.803  46.866  36.687  1  25
+OIR  C6    .  C  0  32.982  47.177  36.020  1  26
+OIR  C7    .  C  0  33.062  47.007  34.647  1  27
+OIR  C8    .  C  0  31.970  46.527  33.936  1  28
+OIR  H16   .  H  0  ?       ?       ?       1  29
+OIR  H14   .  H  0  ?       ?       ?       1  30
+OIR  H13   .  H  0  ?       ?       ?       1  31
+OIR  H2    .  H  0  ?       ?       ?       1  32
+OIR  HN9   .  H  0  ?       ?       ?       1  33
+OIR  H20   .  H  0  ?       ?       ?       1  34
+OIR  H26   .  H  0  ?       ?       ?       1  35
+OIR  1H21  .  H  0  ?       ?       ?       0  36
+OIR  2H21  .  H  0  ?       ?       ?       0  37
+OIR  H28   .  H  0  ?       ?       ?       1  38
+OIR  H27   .  H  0  ?       ?       ?       1  39
+OIR  H1    .  H  0  ?       ?       ?       1  40
+OIR  H25   .  H  0  ?       ?       ?       1  41
+OIR  H24   .  H  0  ?       ?       ?       1  42
+OIR  1H1   .  H  0  ?       ?       ?       0  43
+OIR  2H1   .  H  0  ?       ?       ?       0  44
+OIR  H8    .  H  0  ?       ?       ?       1  45
+OIR  H7    .  H  0  ?       ?       ?       1  46
+OIR  H6    .  H  0  ?       ?       ?       1  47
+OIR  H5    .  H  0  ?       ?       ?       1  48
+OIR  H4    .  H  0  ?       ?       ?       1  49
+OIR  1H19  .  H  0  ?       ?       ?       0  50
+OIR  2H19  .  H  0  ?       ?       ?       0  51
+OIR  3H19  .  H  0  ?       ?       ?       0  52
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OIR  O19  C18   DOUB  1 
+OIR  C18  N9    SING  2 
+OIR  C18  C20   SING  3 
+OIR  C20  H20   SING  4 
+OIR  C20  S26   SING  5 
+OIR  C20  C21   SING  6 
+OIR  C21  1H21  SING  7 
+OIR  C21  2H21  SING  8 
+OIR  C21  C23   SING  9 
+OIR  C23  C28   AROM  10
+OIR  C23  C24   AROM  11
+OIR  C24  C25   AROM  12
+OIR  C24  H24   SING  13
+OIR  C25  C26   AROM  14
+OIR  C25  H25   SING  15
+OIR  C26  C27   AROM  16
+OIR  C26  H1    SING  17
+OIR  C27  C28   AROM  18
+OIR  C27  H27   SING  19
+OIR  C28  H28   SING  20
+OIR  S26  H26   SING  21
+OIR  N9   C2    SING  22
+OIR  N9   HN9   SING  23
+OIR  C2   C11   SING  24
+OIR  C2   H2    SING  25
+OIR  C2   C1    SING  26
+OIR  C11  N13   SING  27
+OIR  C11  O12   DOUB  28
+OIR  N13  C14   SING  29
+OIR  N13  H13   SING  30
+OIR  C14  C15   SING  31
+OIR  C14  H14   SING  32
+OIR  C14  C19   SING  33
+OIR  C15  O16   SING  34
+OIR  C15  O17   DOUB  35
+OIR  O16  H16   SING  36
+OIR  C19  1H19  SING  37
+OIR  C19  2H19  SING  38
+OIR  C19  3H19  SING  39
+OIR  C1   1H1   SING  40
+OIR  C1   2H1   SING  41
+OIR  C1   C3    SING  42
+OIR  C3   C8    AROM  43
+OIR  C3   C4    AROM  44
+OIR  C4   C5    AROM  45
+OIR  C4   H4    SING  46
+OIR  C5   C6    AROM  47
+OIR  C5   H5    SING  48
+OIR  C6   C7    AROM  49
+OIR  C6   H6    SING  50
+OIR  C7   C8    AROM  51
+OIR  C7   H7    SING  52
+OIR  C8   H8    SING  53
+#

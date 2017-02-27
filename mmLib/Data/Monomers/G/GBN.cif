@@ -1,0 +1,90 @@
+data_GBN
+#
+_chem_comp.id                   GBN
+_chem_comp.name                 '[1-(AMINOMETHYL)CYCLOHEXYL]ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N1 O2'
+_chem_comp.pdbx_synonyms        GABAPENTIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.239
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GBN  N1    .  N  0  -38.704  -0.990  -15.974  1  1 
+GBN  C2    .  C  0  -38.148  -2.127  -15.297  1  2 
+GBN  C3    .  C  0  -37.391  -3.784  -16.494  1  3 
+GBN  C1R   .  C  0  -37.024  -3.179  -15.075  1  4 
+GBN  C2R   .  C  0  -37.054  -4.337  -13.983  1  5 
+GBN  C3R   .  C  0  -36.672  -3.693  -12.585  1  6 
+GBN  C4R   .  C  0  -35.215  -3.092  -12.653  1  7 
+GBN  C5R   .  C  0  -35.186  -1.941  -13.720  1  8 
+GBN  C6R   .  C  0  -35.572  -2.538  -15.100  1  9 
+GBN  C     .  C  0  -38.549  -4.459  -16.882  1  10
+GBN  OA    .  O  0  -39.276  -3.745  -17.614  1  11
+GBN  OB    .  O  0  -38.838  -5.631  -16.564  1  12
+GBN  HOA   .  H  0  ?        ?       ?        1  13
+GBN  1H3   .  H  0  ?        ?       ?        0  14
+GBN  2H3   .  H  0  ?        ?       ?        0  15
+GBN  1H2   .  H  0  ?        ?       ?        0  16
+GBN  2H2   .  H  0  ?        ?       ?        0  17
+GBN  1HN1  .  H  0  ?        ?       ?        0  18
+GBN  2HN1  .  H  0  ?        ?       ?        0  19
+GBN  1H6R  .  H  0  ?        ?       ?        0  20
+GBN  2H6R  .  H  0  ?        ?       ?        0  21
+GBN  1H5R  .  H  0  ?        ?       ?        0  22
+GBN  2H5R  .  H  0  ?        ?       ?        0  23
+GBN  1H4R  .  H  0  ?        ?       ?        0  24
+GBN  2H4R  .  H  0  ?        ?       ?        0  25
+GBN  1H3R  .  H  0  ?        ?       ?        0  26
+GBN  2H3R  .  H  0  ?        ?       ?        0  27
+GBN  1H2R  .  H  0  ?        ?       ?        0  28
+GBN  2H2R  .  H  0  ?        ?       ?        0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GBN  N1   C2    SING  1 
+GBN  N1   1HN1  SING  2 
+GBN  N1   2HN1  SING  3 
+GBN  C2   C1R   SING  4 
+GBN  C2   1H2   SING  5 
+GBN  C2   2H2   SING  6 
+GBN  C3   C     SING  7 
+GBN  C3   1H3   SING  8 
+GBN  C3   2H3   SING  9 
+GBN  C3   C1R   SING  10
+GBN  C1R  C6R   SING  11
+GBN  C1R  C2R   SING  12
+GBN  C2R  C3R   SING  13
+GBN  C2R  1H2R  SING  14
+GBN  C2R  2H2R  SING  15
+GBN  C3R  C4R   SING  16
+GBN  C3R  1H3R  SING  17
+GBN  C3R  2H3R  SING  18
+GBN  C4R  C5R   SING  19
+GBN  C4R  1H4R  SING  20
+GBN  C4R  2H4R  SING  21
+GBN  C5R  C6R   SING  22
+GBN  C5R  1H5R  SING  23
+GBN  C5R  2H5R  SING  24
+GBN  C6R  1H6R  SING  25
+GBN  C6R  2H6R  SING  26
+GBN  C    OA    SING  27
+GBN  C    OB    DOUB  28
+GBN  OA   HOA   SING  29
+#

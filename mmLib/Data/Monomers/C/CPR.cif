@@ -1,0 +1,105 @@
+data_CPR
+#
+_chem_comp.id                   CPR
+_chem_comp.name                 '6-CHLOROPURINE RIBOSIDE, 5'-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N4 O7 CL1 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       367.662
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPR  P     .  P   0  ?  ?  ?  1  1 
+CPR  O1P   .  O   0  ?  ?  ?  1  2 
+CPR  O2P   .  O   0  ?  ?  ?  1  3 
+CPR  O3P   .  O   0  ?  ?  ?  1  4 
+CPR  O5*   .  O   0  ?  ?  ?  1  5 
+CPR  C5*   .  C   0  ?  ?  ?  1  6 
+CPR  C4*   .  C   0  ?  ?  ?  1  7 
+CPR  O4*   .  O   0  ?  ?  ?  1  8 
+CPR  C3*   .  C   0  ?  ?  ?  1  9 
+CPR  O3*   .  O   0  ?  ?  ?  1  10
+CPR  C2*   .  C   0  ?  ?  ?  1  11
+CPR  O2*   .  O   0  ?  ?  ?  1  12
+CPR  C1*   .  C   0  ?  ?  ?  1  13
+CPR  N9    .  N   0  ?  ?  ?  1  14
+CPR  C8    .  C   0  ?  ?  ?  1  15
+CPR  N7    .  N   0  ?  ?  ?  1  16
+CPR  C5    .  C   0  ?  ?  ?  1  17
+CPR  C6    .  C   0  ?  ?  ?  1  18
+CPR  CL    .  CL  0  ?  ?  ?  0  19
+CPR  N1    .  N   1  ?  ?  ?  1  20
+CPR  C2    .  C   0  ?  ?  ?  1  21
+CPR  N3    .  N   0  ?  ?  ?  1  22
+CPR  C4    .  C   0  ?  ?  ?  1  23
+CPR  2HOP  .  H   0  ?  ?  ?  0  24
+CPR  3HOP  .  H   0  ?  ?  ?  0  25
+CPR  1H5*  .  H   0  ?  ?  ?  0  26
+CPR  2H5*  .  H   0  ?  ?  ?  0  27
+CPR  H4*   .  H   0  ?  ?  ?  1  28
+CPR  H3*   .  H   0  ?  ?  ?  1  29
+CPR  *HO3  .  H   0  ?  ?  ?  0  30
+CPR  H2*   .  H   0  ?  ?  ?  1  31
+CPR  *HO2  .  H   0  ?  ?  ?  0  32
+CPR  H1*   .  H   0  ?  ?  ?  1  33
+CPR  H8    .  H   0  ?  ?  ?  1  34
+CPR  HN1   .  H   0  ?  ?  ?  1  35
+CPR  H2    .  H   0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPR  P    O1P   DOUB  1 
+CPR  P    O2P   SING  2 
+CPR  P    O3P   SING  3 
+CPR  P    O5*   SING  4 
+CPR  O2P  2HOP  SING  5 
+CPR  O3P  3HOP  SING  6 
+CPR  O5*  C5*   SING  7 
+CPR  C5*  C4*   SING  8 
+CPR  C5*  1H5*  SING  9 
+CPR  C5*  2H5*  SING  10
+CPR  C4*  O4*   SING  11
+CPR  C4*  C3*   SING  12
+CPR  C4*  H4*   SING  13
+CPR  O4*  C1*   SING  14
+CPR  C3*  O3*   SING  15
+CPR  C3*  C2*   SING  16
+CPR  C3*  H3*   SING  17
+CPR  O3*  *HO3  SING  18
+CPR  C2*  O2*   SING  19
+CPR  C2*  C1*   SING  20
+CPR  C2*  H2*   SING  21
+CPR  O2*  *HO2  SING  22
+CPR  C1*  N9    SING  23
+CPR  C1*  H1*   SING  24
+CPR  N9   C8    SING  25
+CPR  N9   C4    SING  26
+CPR  C8   N7    DOUB  27
+CPR  C8   H8    SING  28
+CPR  N7   C5    SING  29
+CPR  C5   C6    SING  30
+CPR  C5   C4    DOUB  31
+CPR  C6   CL    SING  32
+CPR  C6   N1    DOUB  33
+CPR  N1   C2    SING  34
+CPR  N1   HN1   SING  35
+CPR  C2   N3    DOUB  36
+CPR  C2   H2    SING  37
+CPR  N3   C4    SING  38
+#

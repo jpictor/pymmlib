@@ -1,0 +1,100 @@
+data_AGT
+#
+_chem_comp.id                   AGT
+_chem_comp.name                 S-{(S)-AMINO[(4-AMINOBUTYL)AMINO]METHYL}-L-CYSTEINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H20 N4 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        236.332
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AGT  O     .  O  0  24.295  -3.567  64.54   1  1 
+AGT  C     .  C  0  23.569  -2.965  65.314  1  2 
+AGT  CA    .  C  0  23.406  -1.438  65.243  1  3 
+AGT  N     .  N  0  22.407  -.934   66.186  1  4 
+AGT  CB    .  C  0  24.759  -.971   65.658  1  5 
+AGT  SG    .  S  0  25.749  -1.15   64.155  1  6 
+AGT  CZ    .  C  0  26.142  .567    64.542  1  7 
+AGT  NH2   .  N  0  25.182  .952    65.668  1  8 
+AGT  NE    .  N  0  27.542  .562    64.953  1  9 
+AGT  CD    .  C  0  28.341  -.434   64.213  1  10
+AGT  CG    .  C  0  29.767  .027    64.457  1  11
+AGT  CK    .  C  0  30.261  -.718   65.621  1  12
+AGT  CJ    .  C  0  31.403  -1.588  65.112  1  13
+AGT  NB    .  N  0  32.447  -1.367  66.083  1  14
+AGT  OXT   .  O  0  22.878  -3.589  66.546  1  15
+AGT  HA    .  H  0  23.173  -1.11   64.203  1  16
+AGT  HOT   .  H  0  ?       ?       ?       1  17
+AGT  1HN   .  H  0  22.461  -.192   66.884  0  18
+AGT  2HN   .  H  0  22.004  -1.356  67.022  0  19
+AGT  HB    .  H  0  25.175  -1.496  66.55   1  20
+AGT  HZ    .  H  0  25.992  1.22    63.651  1  21
+AGT  1HH2  .  H  0  24.778  .051    66.104  0  22
+AGT  2HH2  .  H  0  25.205  1.658   66.404  0  23
+AGT  HE    .  H  0  27.629  .429    65.961  1  24
+AGT  1HDC  .  H  0  28.065  -.548   63.139  0  25
+AGT  2HDC  .  H  0  28.139  -1.494  64.493  0  26
+AGT  1HGC  .  H  0  29.858  1.132   64.572  0  27
+AGT  2HGC  .  H  0  30.421  -.075   63.56   0  28
+AGT  1HKC  .  H  0  29.466  -1.293  66.15   0  29
+AGT  2HKC  .  H  0  30.548  -.064   66.478  0  30
+AGT  1HJC  .  H  0  31.702  -1.389  64.057  0  31
+AGT  2HJC  .  H  0  31.135  -2.659  64.955  0  32
+AGT  1HBN  .  H  0  33.136  -1.549  66.812  0  33
+AGT  2HBN  .  H  0  32.924  -1.05   66.927  0  34
+AGT  2HB   .  H  0  ?       ?       ?       0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AGT  O    C     DOUB  1 
+AGT  C    CA    SING  2 
+AGT  C    OXT   SING  3 
+AGT  CA   N     SING  4 
+AGT  CA   CB    SING  5 
+AGT  CA   HA    SING  6 
+AGT  N    1HN   SING  7 
+AGT  N    2HN   SING  8 
+AGT  CB   SG    SING  9 
+AGT  CB   HB    SING  10
+AGT  CB   2HB   SING  11
+AGT  SG   CZ    SING  12
+AGT  CZ   NH2   SING  13
+AGT  CZ   NE    SING  14
+AGT  CZ   HZ    SING  15
+AGT  NH2  1HH2  SING  16
+AGT  NH2  2HH2  SING  17
+AGT  NE   CD    SING  18
+AGT  NE   HE    SING  19
+AGT  CD   CG    SING  20
+AGT  CD   1HDC  SING  21
+AGT  CD   2HDC  SING  22
+AGT  CG   CK    SING  23
+AGT  CG   1HGC  SING  24
+AGT  CG   2HGC  SING  25
+AGT  CK   CJ    SING  26
+AGT  CK   1HKC  SING  27
+AGT  CK   2HKC  SING  28
+AGT  CJ   NB    SING  29
+AGT  CJ   1HJC  SING  30
+AGT  CJ   2HJC  SING  31
+AGT  NB   1HBN  SING  32
+AGT  NB   2HBN  SING  33
+AGT  OXT  HOT   SING  34
+#

@@ -1,0 +1,66 @@
+data_PDI
+#
+_chem_comp.id                   PDI
+_chem_comp.name                 'PHOSPHORIC ACID MONO-(3-HYDROXY-PROPYL) ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H9 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.075
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDI  O3P   .  O  0  ?  ?  ?  1  1 
+PDI  P     .  P  0  ?  ?  ?  1  2 
+PDI  O1P   .  O  0  ?  ?  ?  1  3 
+PDI  O2P   .  O  0  ?  ?  ?  1  4 
+PDI  OA    .  O  0  ?  ?  ?  1  5 
+PDI  CA    .  C  0  ?  ?  ?  1  6 
+PDI  CB    .  C  0  ?  ?  ?  1  7 
+PDI  CG    .  C  0  ?  ?  ?  1  8 
+PDI  OG    .  O  0  ?  ?  ?  1  9 
+PDI  3HOP  .  H  0  ?  ?  ?  0  10
+PDI  2HOP  .  H  0  ?  ?  ?  0  11
+PDI  HA1   .  H  0  ?  ?  ?  1  12
+PDI  HA2   .  H  0  ?  ?  ?  1  13
+PDI  HB1   .  H  0  ?  ?  ?  1  14
+PDI  HB2   .  H  0  ?  ?  ?  1  15
+PDI  HG1   .  H  0  ?  ?  ?  1  16
+PDI  HG2   .  H  0  ?  ?  ?  1  17
+PDI  HGT   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDI  O3P  3HOP  SING  1 
+PDI  O3P  P     SING  2 
+PDI  P    O1P   DOUB  3 
+PDI  P    O2P   SING  4 
+PDI  P    OA    SING  5 
+PDI  O2P  2HOP  SING  6 
+PDI  OA   CA    SING  7 
+PDI  CA   HA1   SING  8 
+PDI  CA   HA2   SING  9 
+PDI  CA   CB    SING  10
+PDI  CB   HB1   SING  11
+PDI  CB   HB2   SING  12
+PDI  CB   CG    SING  13
+PDI  CG   HG1   SING  14
+PDI  CG   HG2   SING  15
+PDI  CG   OG    SING  16
+PDI  OG   HGT   SING  17
+#

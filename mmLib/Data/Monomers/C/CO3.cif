@@ -1,0 +1,38 @@
+data_CO3
+#
+_chem_comp.id                   CO3
+_chem_comp.name                 'CARBONATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C1 O3'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       60.009
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CO3  C   .  C  0   ?  ?  ?  1  1
+CO3  O1  .  O  0   ?  ?  ?  1  2
+CO3  O2  .  O  -1  ?  ?  ?  1  3
+CO3  O3  .  O  -1  ?  ?  ?  1  4
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CO3  C  O1  DOUB  1
+CO3  C  O2  SING  2
+CO3  C  O3  SING  3
+#

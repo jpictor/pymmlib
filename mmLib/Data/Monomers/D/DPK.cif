@@ -1,0 +1,98 @@
+data_DPK
+#
+_chem_comp.id                   DPK
+_chem_comp.name                 DEPRENYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N1'
+_chem_comp.pdbx_synonyms        N-METHYL-N-[(1R)-1-METHYL-2-PHENYLETHYL]PROP-2-EN-1-AMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        189.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPK  C12   .  C  0  54.817  153.452  21.896  1  1 
+DPK  C11   .  C  0  54.375  153.646  23.138  1  2 
+DPK  C10   .  C  0  53.651  154.888  23.617  1  3 
+DPK  N9    .  N  0  53.171  155.013  25.006  1  4 
+DPK  C9N   .  C  0  53.416  153.92   25.928  1  5 
+DPK  C8    .  C  0  52.438  156.19   25.528  1  6 
+DPK  C8C   .  C  0  52.379  157.354  24.545  1  7 
+DPK  C7    .  C  0  53.066  156.708  26.823  1  8 
+DPK  C1    .  C  0  52.102  157.389  27.752  1  9 
+DPK  C6    .  C  0  52.211  158.763  27.978  1  10
+DPK  C5    .  C  0  51.333  159.413  28.854  1  11
+DPK  C4    .  C  0  50.333  158.68   29.491  1  12
+DPK  C3    .  C  0  50.23   157.312  29.274  1  13
+DPK  C2    .  C  0  51.115  156.66   28.413  1  14
+DPK  1H12  .  H  0  55.344  152.548  21.547  0  15
+DPK  2H12  .  H  0  54.643  154.256  21.161  0  16
+DPK  H11   .  H  0  54.549  152.842  23.873  1  17
+DPK  1H10  .  H  0  52.785  155.063  22.938  0  18
+DPK  2H10  .  H  0  54.299  155.769  23.397  0  19
+DPK  1H9N  .  H  0  53.053  154.014  26.978  0  20
+DPK  2H9N  .  H  0  54.508  153.697  25.942  0  21
+DPK  3H9N  .  H  0  53.01   152.979  25.489  0  22
+DPK  H8    .  H  0  51.393  155.874  25.753  1  23
+DPK  1H8C  .  H  0  51.827  158.24   24.938  0  24
+DPK  2H8C  .  H  0  51.953  157.025  23.569  0  25
+DPK  3H8C  .  H  0  53.403  157.642  24.213  0  26
+DPK  1H7C  .  H  0  53.927  157.379  26.596  0  27
+DPK  2H7C  .  H  0  53.6    155.885  27.352  0  28
+DPK  H6    .  H  0  52.996  159.341  27.462  1  29
+DPK  H2    .  H  0  51.033  155.571  28.256  1  30
+DPK  H5    .  H  0  51.432  160.496  29.038  1  31
+DPK  H4    .  H  0  49.624  159.186  30.167  1  32
+DPK  H3    .  H  0  49.442  156.735  29.787  1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPK  C12  C11   DOUB  1 
+DPK  C12  1H12  SING  2 
+DPK  C12  2H12  SING  3 
+DPK  C11  C10   SING  4 
+DPK  C11  H11   SING  5 
+DPK  C10  N9    SING  6 
+DPK  C10  1H10  SING  7 
+DPK  C10  2H10  SING  8 
+DPK  N9   C9N   SING  9 
+DPK  N9   C8    SING  10
+DPK  C9N  1H9N  SING  11
+DPK  C9N  2H9N  SING  12
+DPK  C9N  3H9N  SING  13
+DPK  C8   C8C   SING  14
+DPK  C8   C7    SING  15
+DPK  C8   H8    SING  16
+DPK  C8C  1H8C  SING  17
+DPK  C8C  2H8C  SING  18
+DPK  C8C  3H8C  SING  19
+DPK  C7   C1    SING  20
+DPK  C7   1H7C  SING  21
+DPK  C7   2H7C  SING  22
+DPK  C1   C6    AROM  23
+DPK  C1   C2    AROM  24
+DPK  C6   C5    AROM  25
+DPK  C6   H6    SING  26
+DPK  C5   C4    AROM  27
+DPK  C5   H5    SING  28
+DPK  C4   C3    AROM  29
+DPK  C4   H4    SING  30
+DPK  C3   C2    AROM  31
+DPK  C3   H3    SING  32
+DPK  C2   H2    SING  33
+#

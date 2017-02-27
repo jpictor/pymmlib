@@ -1,0 +1,88 @@
+data_EPJ
+#
+_chem_comp.id                   EPJ
+_chem_comp.name                 EPIBATIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H13 N2 CL1'
+_chem_comp.pdbx_synonyms        (2R)-2-(6-CHLOROPYRIDIN-3-YL)-7-AZABICYCLO[2.2.1]HEPTANE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        208.690
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+EPJ  C1    .  C   0  32.587  21.4    27.786  1  1 
+EPJ  C2    .  C   0  32.566  19.877  27.825  1  2 
+EPJ  C3    .  C   0  33.971  19.563  28.323  1  3 
+EPJ  C4    .  C   0  34.043  19.911  29.805  1  4 
+EPJ  C5    .  C   0  34.057  21.433  29.762  1  5 
+EPJ  C6    .  C   0  34.004  21.695  28.262  1  6 
+EPJ  N1    .  N   0  34.76   20.601  27.717  1  7 
+EPJ  C7    .  C   0  32.383  21.923  26.398  1  8 
+EPJ  C8    .  C   0  31.7    23.141  26.153  1  9 
+EPJ  C9    .  C   0  31.551  23.569  24.81   1  10
+EPJ  C10   .  C   0  32.078  22.777  23.753  1  11
+EPJ  CL    .  CL  0  31.871  23.324  22.136  0  12
+EPJ  N2    .  N   0  32.735  21.608  23.987  1  13
+EPJ  C11   .  C   0  32.878  21.205  25.278  1  14
+EPJ  H1    .  H   0  31.792  21.866  28.387  1  15
+EPJ  1H2C  .  H   0  31.801  19.504  28.522  0  16
+EPJ  2H2C  .  H   0  32.318  19.408  26.861  0  17
+EPJ  H6    .  H   0  34.336  22.71   27.998  1  18
+EPJ  H3    .  H   0  34.265  18.522  28.121  1  19
+EPJ  1H4C  .  H   0  33.165  19.533  30.349  0  20
+EPJ  2H4C  .  H   0  34.905  19.47   30.327  0  21
+EPJ  HA    .  H   0  34.638  20.574  26.705  1  22
+EPJ  1H5C  .  H   0  34.977  21.839  30.209  0  23
+EPJ  2H5C  .  H   0  33.241  21.905  30.329  0  24
+EPJ  H8    .  H   0  31.31   23.718  26.955  1  25
+EPJ  H11   .  H   0  33.393  20.295  25.46   1  26
+EPJ  H9    .  H   0  31.048  24.478  24.594  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+EPJ  C1   C2    SING  1 
+EPJ  C1   C6    SING  2 
+EPJ  C1   C7    SING  3 
+EPJ  C1   H1    SING  4 
+EPJ  C2   C3    SING  5 
+EPJ  C2   1H2C  SING  6 
+EPJ  C2   2H2C  SING  7 
+EPJ  C3   C4    SING  8 
+EPJ  C3   N1    SING  9 
+EPJ  C3   H3    SING  10
+EPJ  C4   C5    SING  11
+EPJ  C4   1H4C  SING  12
+EPJ  C4   2H4C  SING  13
+EPJ  C5   C6    SING  14
+EPJ  C5   1H5C  SING  15
+EPJ  C5   2H5C  SING  16
+EPJ  C6   N1    SING  17
+EPJ  C6   H6    SING  18
+EPJ  N1   HA    SING  19
+EPJ  C7   C8    AROM  20
+EPJ  C7   C11   AROM  21
+EPJ  C8   C9    AROM  22
+EPJ  C8   H8    SING  23
+EPJ  C9   C10   AROM  24
+EPJ  C9   H9    SING  25
+EPJ  C10  CL    SING  26
+EPJ  C10  N2    AROM  27
+EPJ  N2   C11   AROM  28
+EPJ  C11  H11   SING  29
+#

@@ -1,0 +1,88 @@
+data_TSA
+#
+_chem_comp.id                   TSA
+_chem_comp.name                 '8-HYDROXY-2-OXA-BICYCLO[3.3.1]NON-6-ENE-3,5-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        228.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TSA  C1   .  C  0  ?  ?  ?  1  1 
+TSA  C2   .  C  0  ?  ?  ?  1  2 
+TSA  C3   .  C  0  ?  ?  ?  1  3 
+TSA  C4   .  C  0  ?  ?  ?  1  4 
+TSA  O5   .  O  0  ?  ?  ?  1  5 
+TSA  C5   .  C  0  ?  ?  ?  1  6 
+TSA  C6   .  C  0  ?  ?  ?  1  7 
+TSA  O7   .  O  0  ?  ?  ?  1  8 
+TSA  C8   .  C  0  ?  ?  ?  1  9 
+TSA  C9   .  C  0  ?  ?  ?  1  10
+TSA  C10  .  C  0  ?  ?  ?  1  11
+TSA  O1   .  O  0  ?  ?  ?  1  12
+TSA  O2   .  O  0  ?  ?  ?  1  13
+TSA  C11  .  C  0  ?  ?  ?  1  14
+TSA  O3   .  O  0  ?  ?  ?  1  15
+TSA  O4   .  O  0  ?  ?  ?  1  16
+TSA  H2   .  H  0  ?  ?  ?  1  17
+TSA  H3   .  H  0  ?  ?  ?  1  18
+TSA  H4   .  H  0  ?  ?  ?  1  19
+TSA  HO5  .  H  0  ?  ?  ?  1  20
+TSA  H5   .  H  0  ?  ?  ?  1  21
+TSA  1H6  .  H  0  ?  ?  ?  0  22
+TSA  2H6  .  H  0  ?  ?  ?  0  23
+TSA  H8   .  H  0  ?  ?  ?  1  24
+TSA  1H9  .  H  0  ?  ?  ?  0  25
+TSA  2H9  .  H  0  ?  ?  ?  0  26
+TSA  HO2  .  H  0  ?  ?  ?  1  27
+TSA  HO4  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TSA  C1   C2   SING  1 
+TSA  C1   C6   SING  2 
+TSA  C1   C9   SING  3 
+TSA  C1   C10  SING  4 
+TSA  C2   C3   DOUB  5 
+TSA  C2   H2   SING  6 
+TSA  C3   C4   SING  7 
+TSA  C3   H3   SING  8 
+TSA  C4   C5   SING  9 
+TSA  C4   O5   SING  10
+TSA  C4   H4   SING  11
+TSA  O5   HO5  SING  12
+TSA  C5   C6   SING  13
+TSA  C5   O7   SING  14
+TSA  C5   H5   SING  15
+TSA  C6   1H6  SING  16
+TSA  C6   2H6  SING  17
+TSA  O7   C8   SING  18
+TSA  C8   C9   SING  19
+TSA  C8   C11  SING  20
+TSA  C8   H8   SING  21
+TSA  C9   1H9  SING  22
+TSA  C9   2H9  SING  23
+TSA  C10  O1   DOUB  24
+TSA  C10  O2   SING  25
+TSA  O2   HO2  SING  26
+TSA  C11  O3   DOUB  27
+TSA  C11  O4   SING  28
+TSA  O4   HO4  SING  29
+#

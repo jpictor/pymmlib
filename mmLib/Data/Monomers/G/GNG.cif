@@ -1,0 +1,98 @@
+data_GNG
+#
+_chem_comp.id                       GNG
+_chem_comp.name                     2'-DEOXY-GUANOSINE
+_chem_comp.type                     non-polymer
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C10 H13 N5 O4'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            267.244
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNG  O5*   .  O  0  117.235  -70.320  -4.555  1  1 
+GNG  C5*   .  C  0  116.006  -70.991  -4.266  1  2 
+GNG  C4*   .  C  0  115.102  -70.124  -3.412  1  3 
+GNG  O4*   .  O  0  114.778  -68.883  -4.097  1  4 
+GNG  C1*   .  C  0  113.377  -68.796  -4.376  1  5 
+GNG  N9    .  N  0  113.225  -68.433  -5.786  1  6 
+GNG  C8    .  C  0  114.039  -68.843  -6.815  1  7 
+GNG  N7    .  N  0  113.634  -68.436  -7.987  1  8 
+GNG  C5    .  C  0  112.494  -67.700  -7.720  1  9 
+GNG  C4    .  C  0  112.229  -67.665  -6.360  1  10
+GNG  N3    .  N  0  111.217  -67.051  -5.718  1  11
+GNG  C2    .  C  0  110.406  -66.418  -6.566  1  12
+GNG  N1    .  N  0  110.585  -66.395  -7.931  1  13
+GNG  C6    .  C  0  111.618  -67.032  -8.609  1  14
+GNG  O6    .  O  0  111.674  -66.982  -9.844  1  15
+GNG  N2    .  N  0  109.332  -65.753  -6.108  1  16
+GNG  C2*   .  C  0  112.814  -70.184  -4.125  1  17
+GNG  C3*   .  C  0  113.760  -70.785  -3.105  1  18
+GNG  O3*   .  O  0  113.301  -70.489  -1.785  1  19
+GNG  H5*   .  H  0  ?        ?        ?       1  20
+GNG  1H5*  .  H  0  ?        ?        ?       0  21
+GNG  2H5*  .  H  0  ?        ?        ?       0  22
+GNG  H4*   .  H  0  ?        ?        ?       1  23
+GNG  H1*   .  H  0  ?        ?        ?       1  24
+GNG  H8    .  H  0  ?        ?        ?       1  25
+GNG  HN3   .  H  0  ?        ?        ?       1  26
+GNG  1HN2  .  H  0  ?        ?        ?       0  27
+GNG  2HN2  .  H  0  ?        ?        ?       0  28
+GNG  1H2*  .  H  0  ?        ?        ?       0  29
+GNG  2H2*  .  H  0  ?        ?        ?       0  30
+GNG  H3*   .  H  0  ?        ?        ?       1  31
+GNG  H1    .  H  0  ?        ?        ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNG  O5*  H5*   SING  1 
+GNG  O5*  C5*   SING  2 
+GNG  C5*  1H5*  SING  3 
+GNG  C5*  2H5*  SING  4 
+GNG  C5*  C4*   SING  5 
+GNG  C4*  H4*   SING  6 
+GNG  C4*  O4*   SING  7 
+GNG  C4*  C3*   SING  8 
+GNG  O4*  C1*   SING  9 
+GNG  C1*  H1*   SING  10
+GNG  C1*  N9    SING  11
+GNG  C1*  C2*   SING  12
+GNG  N9   C8    SING  13
+GNG  N9   C4    SING  14
+GNG  C8   H8    SING  15
+GNG  C8   N7    DOUB  16
+GNG  N7   C5    SING  17
+GNG  C5   C4    DOUB  18
+GNG  C5   C6    SING  19
+GNG  C4   N3    SING  20
+GNG  N3   HN3   SING  21
+GNG  N3   C2    SING  22
+GNG  C2   N1    DOUB  23
+GNG  C2   N2    SING  24
+GNG  N1   C6    SING  25
+GNG  C6   O6    DOUB  26
+GNG  N2   1HN2  SING  27
+GNG  N2   2HN2  SING  28
+GNG  C2*  1H2*  SING  29
+GNG  C2*  2H2*  SING  30
+GNG  C2*  C3*   SING  31
+GNG  C3*  H3*   SING  32
+GNG  C3*  O3*   SING  33
+GNG  O3*  H1    SING  34
+#

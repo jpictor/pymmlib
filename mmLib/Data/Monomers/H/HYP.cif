@@ -1,0 +1,69 @@
+data_HYP
+#
+_chem_comp.id                       HYP
+_chem_comp.name                     4-HYDROXYPROLINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O3'
+_chem_comp.pdbx_synonyms            HYDROXYPROLINE
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.131
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HYP  N    .  N  0  ?  ?  ?  1  1 
+HYP  CA   .  C  0  ?  ?  ?  1  2 
+HYP  C    .  C  0  ?  ?  ?  1  3 
+HYP  O    .  O  0  ?  ?  ?  1  4 
+HYP  CB   .  C  0  ?  ?  ?  1  5 
+HYP  CG   .  C  0  ?  ?  ?  1  6 
+HYP  CD   .  C  0  ?  ?  ?  1  7 
+HYP  OD   .  O  0  ?  ?  ?  1  8 
+HYP  OXT  .  O  0  ?  ?  ?  1  9 
+HYP  H    .  H  0  ?  ?  ?  1  10
+HYP  HA   .  H  0  ?  ?  ?  1  11
+HYP  1HB  .  H  0  ?  ?  ?  0  12
+HYP  2HB  .  H  0  ?  ?  ?  0  13
+HYP  1HD  .  H  0  ?  ?  ?  0  14
+HYP  2HD  .  H  0  ?  ?  ?  0  15
+HYP  HOD  .  H  0  ?  ?  ?  1  16
+HYP  HG   .  H  0  ?  ?  ?  1  17
+HYP  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HYP  N    CA   SING  1 
+HYP  N    CD   SING  2 
+HYP  N    H    SING  3 
+HYP  CA   C    SING  4 
+HYP  CA   CB   SING  5 
+HYP  CA   HA   SING  6 
+HYP  C    O    DOUB  7 
+HYP  C    OXT  SING  8 
+HYP  CB   CG   SING  9 
+HYP  CB   1HB  SING  10
+HYP  CB   2HB  SING  11
+HYP  CG   CD   SING  12
+HYP  CG   OD   SING  13
+HYP  CG   HG   SING  14
+HYP  CD   1HD  SING  15
+HYP  CD   2HD  SING  16
+HYP  OD   HOD  SING  17
+HYP  OXT  HXT  SING  18
+#

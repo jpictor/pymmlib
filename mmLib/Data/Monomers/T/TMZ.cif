@@ -1,0 +1,67 @@
+data_TMZ
+#
+_chem_comp.id                   TMZ
+_chem_comp.name                 3,4,5-TRIMETHYL-1,3-THIAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N1 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       128.212
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TMZ  S1   .  S  0  ?  ?  ?  1  1 
+TMZ  C2   .  C  0  ?  ?  ?  1  2 
+TMZ  N3   .  N  1  ?  ?  ?  1  3 
+TMZ  C4   .  C  0  ?  ?  ?  1  4 
+TMZ  C5   .  C  0  ?  ?  ?  1  5 
+TMZ  C6   .  C  0  ?  ?  ?  1  6 
+TMZ  C7   .  C  0  ?  ?  ?  1  7 
+TMZ  C8   .  C  0  ?  ?  ?  1  8 
+TMZ  H2   .  H  0  ?  ?  ?  1  9 
+TMZ  1H6  .  H  0  ?  ?  ?  0  10
+TMZ  2H6  .  H  0  ?  ?  ?  0  11
+TMZ  3H6  .  H  0  ?  ?  ?  0  12
+TMZ  1H7  .  H  0  ?  ?  ?  0  13
+TMZ  2H7  .  H  0  ?  ?  ?  0  14
+TMZ  3H7  .  H  0  ?  ?  ?  0  15
+TMZ  1H8  .  H  0  ?  ?  ?  0  16
+TMZ  2H8  .  H  0  ?  ?  ?  0  17
+TMZ  3H8  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TMZ  S1  C2   SING  1 
+TMZ  S1  C5   SING  2 
+TMZ  C2  N3   DOUB  3 
+TMZ  C2  H2   SING  4 
+TMZ  N3  C4   SING  5 
+TMZ  N3  C6   SING  6 
+TMZ  C4  C5   DOUB  7 
+TMZ  C4  C7   SING  8 
+TMZ  C5  C8   SING  9 
+TMZ  C6  1H6  SING  10
+TMZ  C6  2H6  SING  11
+TMZ  C6  3H6  SING  12
+TMZ  C7  1H7  SING  13
+TMZ  C7  2H7  SING  14
+TMZ  C7  3H7  SING  15
+TMZ  C8  1H8  SING  16
+TMZ  C8  2H8  SING  17
+TMZ  C8  3H8  SING  18
+#

@@ -1,0 +1,106 @@
+data_LAU
+#
+_chem_comp.id                   LAU
+_chem_comp.name                 'DODECANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H24 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        200.320
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LAU  O1    .  O  0  51.473  29.009  1.647   1  1 
+LAU  O2    .  O  0  53.289  30.363  1.042   1  2 
+LAU  C1    .  C  0  52.763  29.125  1.257   1  3 
+LAU  C2    .  C  0  53.630  27.849  1.073   1  4 
+LAU  C3    .  C  0  52.935  26.511  1.378   1  5 
+LAU  C4    .  C  0  53.675  25.644  2.399   1  6 
+LAU  C5    .  C  0  53.530  24.128  2.149   1  7 
+LAU  C6    .  C  0  54.877  23.364  2.145   1  8 
+LAU  C7    .  C  0  54.836  21.920  1.610   1  9 
+LAU  C8    .  C  0  55.635  21.758  0.317   1  10
+LAU  C9    .  C  0  55.376  20.462  -0.430  1  11
+LAU  C10   .  C  0  56.639  19.652  -0.569  1  12
+LAU  C11   .  C  0  56.476  18.477  -1.468  1  13
+LAU  C12   .  C  0  57.659  18.252  -2.356  1  14
+LAU  HO2   .  H  0  ?       ?       ?       1  15
+LAU  1H2   .  H  0  ?       ?       ?       0  16
+LAU  2H2   .  H  0  ?       ?       ?       0  17
+LAU  1H3   .  H  0  ?       ?       ?       0  18
+LAU  2H3   .  H  0  ?       ?       ?       0  19
+LAU  1H4   .  H  0  ?       ?       ?       0  20
+LAU  2H4   .  H  0  ?       ?       ?       0  21
+LAU  1H5   .  H  0  ?       ?       ?       0  22
+LAU  2H5   .  H  0  ?       ?       ?       0  23
+LAU  1H6   .  H  0  ?       ?       ?       0  24
+LAU  2H6   .  H  0  ?       ?       ?       0  25
+LAU  1H7   .  H  0  ?       ?       ?       0  26
+LAU  2H7   .  H  0  ?       ?       ?       0  27
+LAU  1H8   .  H  0  ?       ?       ?       0  28
+LAU  2H8   .  H  0  ?       ?       ?       0  29
+LAU  1H9   .  H  0  ?       ?       ?       0  30
+LAU  2H9   .  H  0  ?       ?       ?       0  31
+LAU  1H10  .  H  0  ?       ?       ?       0  32
+LAU  2H10  .  H  0  ?       ?       ?       0  33
+LAU  1H11  .  H  0  ?       ?       ?       0  34
+LAU  2H11  .  H  0  ?       ?       ?       0  35
+LAU  1H12  .  H  0  ?       ?       ?       0  36
+LAU  2H12  .  H  0  ?       ?       ?       0  37
+LAU  3H12  .  H  0  ?       ?       ?       0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LAU  O1   C1    DOUB  1 
+LAU  O2   C1    SING  2 
+LAU  O2   HO2   SING  3 
+LAU  C1   C2    SING  4 
+LAU  C2   C3    SING  5 
+LAU  C2   1H2   SING  6 
+LAU  C2   2H2   SING  7 
+LAU  C3   C4    SING  8 
+LAU  C3   1H3   SING  9 
+LAU  C3   2H3   SING  10
+LAU  C4   C5    SING  11
+LAU  C4   1H4   SING  12
+LAU  C4   2H4   SING  13
+LAU  C5   C6    SING  14
+LAU  C5   1H5   SING  15
+LAU  C5   2H5   SING  16
+LAU  C6   C7    SING  17
+LAU  C6   1H6   SING  18
+LAU  C6   2H6   SING  19
+LAU  C7   C8    SING  20
+LAU  C7   1H7   SING  21
+LAU  C7   2H7   SING  22
+LAU  C8   C9    SING  23
+LAU  C8   1H8   SING  24
+LAU  C8   2H8   SING  25
+LAU  C9   C10   SING  26
+LAU  C9   1H9   SING  27
+LAU  C9   2H9   SING  28
+LAU  C10  C11   SING  29
+LAU  C10  1H10  SING  30
+LAU  C10  2H10  SING  31
+LAU  C11  C12   SING  32
+LAU  C11  1H11  SING  33
+LAU  C11  2H11  SING  34
+LAU  C12  1H12  SING  35
+LAU  C12  2H12  SING  36
+LAU  C12  3H12  SING  37
+#

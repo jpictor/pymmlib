@@ -1,0 +1,101 @@
+data_LHU
+#
+_chem_comp.id                       LHU
+_chem_comp.name                     L-URIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O9 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            324.183
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LHU  O3P   .  O  0  ?       ?       ?        1  1 
+LHU  P     .  P  0  -4.674  6.848   102.070  1  2 
+LHU  O1P   .  O  0  -4.085  5.880   101.100  1  3 
+LHU  O2P   .  O  0  -5.858  7.684   101.727  1  4 
+LHU  O5*   .  O  0  -3.511  7.756   102.545  1  5 
+LHU  C5*   .  C  0  -2.268  7.168   102.852  1  6 
+LHU  C4*   .  C  0  -1.367  8.232   103.410  1  7 
+LHU  O4*   .  O  0  -1.897  8.778   104.650  1  8 
+LHU  C3*   .  C  0  -1.171  9.452   102.500  1  9 
+LHU  O3*   .  O  0  -0.152  9.207   101.515  1  10
+LHU  C2*   .  C  0  -0.673  10.463  103.515  1  11
+LHU  O2*   .  O  0  0.687   10.242  103.786  1  12
+LHU  C1*   .  C  0  -1.554  10.162  104.739  1  13
+LHU  N1    .  N  0  -2.789  11.035  104.772  1  14
+LHU  C2    .  C  0  -2.726  12.317  105.288  1  15
+LHU  O2    .  O  0  -1.708  12.786  105.768  1  16
+LHU  N3    .  N  0  -3.916  13.016  105.254  1  17
+LHU  C4    .  C  0  -5.124  12.583  104.737  1  18
+LHU  O4    .  O  0  -6.125  13.306  104.753  1  19
+LHU  C5    .  C  0  -5.111  11.252  104.196  1  20
+LHU  C6    .  C  0  -3.971  10.556  104.236  1  21
+LHU  3HOP  .  H  0  ?       ?       ?        0  22
+LHU  2HOP  .  H  0  ?       ?       ?        0  23
+LHU  1H5*  .  H  0  ?       ?       ?        0  24
+LHU  2H5*  .  H  0  ?       ?       ?        0  25
+LHU  H4*   .  H  0  ?       ?       ?        1  26
+LHU  H3*   .  H  0  ?       ?       ?        1  27
+LHU  H2*   .  H  0  ?       ?       ?        1  28
+LHU  2HO*  .  H  0  ?       ?       ?        0  29
+LHU  H1*   .  H  0  ?       ?       ?        1  30
+LHU  H3    .  H  0  ?       ?       ?        1  31
+LHU  H5    .  H  0  ?       ?       ?        1  32
+LHU  H6    .  H  0  ?       ?       ?        1  33
+LHU  H3T   .  H  0  ?       ?       ?        1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LHU  O3P  P     SING  1 
+LHU  O3P  3HOP  SING  2 
+LHU  P    O1P   DOUB  3 
+LHU  P    O2P   SING  4 
+LHU  P    O5*   SING  5 
+LHU  O2P  2HOP  SING  6 
+LHU  O5*  C5*   SING  7 
+LHU  C5*  C4*   SING  8 
+LHU  C5*  1H5*  SING  9 
+LHU  C5*  2H5*  SING  10
+LHU  C4*  O4*   SING  11
+LHU  C4*  C3*   SING  12
+LHU  C4*  H4*   SING  13
+LHU  O4*  C1*   SING  14
+LHU  C3*  O3*   SING  15
+LHU  C3*  C2*   SING  16
+LHU  C3*  H3*   SING  17
+LHU  O3*  H3T   SING  18
+LHU  C2*  O2*   SING  19
+LHU  C2*  C1*   SING  20
+LHU  C2*  H2*   SING  21
+LHU  O2*  2HO*  SING  22
+LHU  C1*  N1    SING  23
+LHU  C1*  H1*   SING  24
+LHU  N1   C2    SING  25
+LHU  N1   C6    SING  26
+LHU  C2   O2    DOUB  27
+LHU  C2   N3    SING  28
+LHU  N3   C4    SING  29
+LHU  N3   H3    SING  30
+LHU  C4   O4    DOUB  31
+LHU  C4   C5    SING  32
+LHU  C5   C6    DOUB  33
+LHU  C5   H5    SING  34
+LHU  C6   H6    SING  35
+#

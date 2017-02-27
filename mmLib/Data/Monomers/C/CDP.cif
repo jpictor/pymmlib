@@ -1,0 +1,112 @@
+data_CDP
+#
+_chem_comp.id                   CDP
+_chem_comp.name                 CYTIDINE-5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N3 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        403.178
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CDP  N1    .  N  0  ?  ?  ?  1  1 
+CDP  C2    .  C  0  ?  ?  ?  1  2 
+CDP  N3    .  N  0  ?  ?  ?  1  3 
+CDP  C4    .  C  0  ?  ?  ?  1  4 
+CDP  C5    .  C  0  ?  ?  ?  1  5 
+CDP  C6    .  C  0  ?  ?  ?  1  6 
+CDP  O2    .  O  0  ?  ?  ?  1  7 
+CDP  N4    .  N  0  ?  ?  ?  1  8 
+CDP  C1*   .  C  0  ?  ?  ?  1  9 
+CDP  C2*   .  C  0  ?  ?  ?  1  10
+CDP  O2*   .  O  0  ?  ?  ?  1  11
+CDP  C3*   .  C  0  ?  ?  ?  1  12
+CDP  C4*   .  C  0  ?  ?  ?  1  13
+CDP  O4*   .  O  0  ?  ?  ?  1  14
+CDP  O3*   .  O  0  ?  ?  ?  1  15
+CDP  C5*   .  C  0  ?  ?  ?  1  16
+CDP  O5*   .  O  0  ?  ?  ?  1  17
+CDP  PA    .  P  0  ?  ?  ?  1  18
+CDP  O1A   .  O  0  ?  ?  ?  1  19
+CDP  O2A   .  O  0  ?  ?  ?  1  20
+CDP  O3A   .  O  0  ?  ?  ?  1  21
+CDP  PB    .  P  0  ?  ?  ?  1  22
+CDP  O1B   .  O  0  ?  ?  ?  1  23
+CDP  O2B   .  O  0  ?  ?  ?  1  24
+CDP  O3B   .  O  0  ?  ?  ?  1  25
+CDP  1H4   .  H  0  ?  ?  ?  0  26
+CDP  2H4   .  H  0  ?  ?  ?  0  27
+CDP  H5    .  H  0  ?  ?  ?  1  28
+CDP  H6    .  H  0  ?  ?  ?  1  29
+CDP  H1*   .  H  0  ?  ?  ?  1  30
+CDP  H2*   .  H  0  ?  ?  ?  1  31
+CDP  H3*   .  H  0  ?  ?  ?  1  32
+CDP  H4*   .  H  0  ?  ?  ?  1  33
+CDP  2HO*  .  H  0  ?  ?  ?  0  34
+CDP  H3T   .  H  0  ?  ?  ?  1  35
+CDP  1H5*  .  H  0  ?  ?  ?  0  36
+CDP  2H5*  .  H  0  ?  ?  ?  0  37
+CDP  HO2A  .  H  0  ?  ?  ?  0  38
+CDP  HO2B  .  H  0  ?  ?  ?  0  39
+CDP  HO1B  .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CDP  N1   C2    SING  1 
+CDP  N1   C6    SING  2 
+CDP  N1   C1*   SING  3 
+CDP  C2   N3    SING  4 
+CDP  C2   O2    DOUB  5 
+CDP  N3   C4    DOUB  6 
+CDP  C4   C5    SING  7 
+CDP  C4   N4    SING  8 
+CDP  C5   C6    DOUB  9 
+CDP  C5   H5    SING  10
+CDP  C6   H6    SING  11
+CDP  N4   1H4   SING  12
+CDP  N4   2H4   SING  13
+CDP  C1*  C2*   SING  14
+CDP  C1*  O4*   SING  15
+CDP  C1*  H1*   SING  16
+CDP  C2*  O2*   SING  17
+CDP  C2*  C3*   SING  18
+CDP  C2*  H2*   SING  19
+CDP  O2*  2HO*  SING  20
+CDP  C3*  C4*   SING  21
+CDP  C3*  O3*   SING  22
+CDP  C3*  H3*   SING  23
+CDP  C4*  O4*   SING  24
+CDP  C4*  C5*   SING  25
+CDP  C4*  H4*   SING  26
+CDP  O3*  H3T   SING  27
+CDP  C5*  O5*   SING  28
+CDP  C5*  1H5*  SING  29
+CDP  C5*  2H5*  SING  30
+CDP  O5*  PA    SING  31
+CDP  PA   O1A   DOUB  32
+CDP  PA   O2A   SING  33
+CDP  PA   O3A   SING  34
+CDP  O2A  HO2A  SING  35
+CDP  O3A  PB    SING  36
+CDP  PB   O1B   SING  37
+CDP  PB   O2B   SING  38
+CDP  PB   O3B   DOUB  39
+CDP  O1B  HO1B  SING  40
+CDP  O2B  HO2B  SING  41
+#

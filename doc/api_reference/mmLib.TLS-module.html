@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.TLS</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        Module&nbsp;TLS
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.TLS-module.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== MODULE DESCRIPTION ==================== -->
+<h1 class="epydoc">Module TLS</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.TLS-pysrc.html">source&nbsp;code</a></span></p>
+<p>Utility classes for loading, manipulating, and analyzing TLS 
+  parameters.</p>
+
+<!-- ==================== CLASSES ==================== -->
+<a name="section-Classes"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Classes</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Classes"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSError-class.html" class="summary-name">TLSError</a><br />
+      Base exception class for TLS module exceptions.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatError-class.html" class="summary-name">TLSFileFormatError</a><br />
+      Raised when a file format error is encountered while loading a TLS 
+        group description file.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSGroupDesc-class.html" class="summary-name">TLSGroupDesc</a><br />
+      Description of one TLS Group.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFile-class.html" class="summary-name">TLSFile</a><br />
+      Read/Write TLS files containing one or more TLSGroupDesc objects.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormat-class.html" class="summary-name">TLSFileFormat</a><br />
+      Base class for TLS file types.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatPDB-class.html" class="summary-name">TLSFileFormatPDB</a><br />
+      Reads TLS descriptions from the REMARK records in PDB files.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatTLSOUT-class.html" class="summary-name">TLSFileFormatTLSOUT</a><br />
+      Read/Write REFMAC TLSIN/TLSOUT files.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatPureTLSOUT-class.html" class="summary-name">TLSFileFormatPureTLSOUT</a><br />
+      Read/Write REFMAC5 TLSIN/TLSOUT files.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatPHENIXOUT-class.html" class="summary-name">TLSFileFormatPHENIXOUT</a><br />
+      Write PHENIX-TLSOUT files.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSFileFormatPHENIX-class.html" class="summary-name">TLSFileFormatPHENIX</a><br />
+      Read/Write PHENIX TLSIN/TLSOUT files.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSGroup-class.html" class="summary-name">TLSGroup</a><br />
+      A subclass of AtomList implementing methods for performing TLS 
+        calculations on the contained Atom instances.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.TLSStructureAnalysis-class.html" class="summary-name">TLSStructureAnalysis</a><br />
+      Algorithm object for rigid body searches on Structure objects.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.GLTLSAtomList-class.html" class="summary-name">GLTLSAtomList</a><br />
+      OpenGL visualizations of TLS group atoms.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.GLTLSGroup-class.html" class="summary-name">GLTLSGroup</a><br />
+      Top level visualization object for a TLS group.
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS.GLTLSChain-class.html" class="summary-name">GLTLSChain</a><br />
+      Collects a list of GLTLSGroup instances which are all in the same 
+        chain.
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTIONS ==================== -->
+<a name="section-Functions"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Functions</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Functions"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="solve_TLS_Ab"></a><span class="summary-sig-name">solve_TLS_Ab</span>(<span class="summary-sig-arg">A</span>,
+        <span class="summary-sig-arg">b</span>)</span><br />
+      Solve an overdetermined TLS system by singular value decomposition.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#solve_TLS_Ab">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_rmsd"></a><span class="summary-sig-name">calc_rmsd</span>(<span class="summary-sig-arg">msd</span>)</span><br />
+      Calculate RMSD from a given MSD.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_rmsd">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_TLSiso_b"></a><span class="summary-sig-name">set_TLSiso_b</span>(<span class="summary-sig-arg">b</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">Uiso</span>,
+        <span class="summary-sig-arg">w</span>)</span><br />
+      Sets the six rows of vector b with the experimental/target 
+      anisotropic ADP values U starting at index b[i] and ending at b[i+6] 
+      with weight w.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLSiso_b">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#set_TLSiso_A" class="summary-sig-name">set_TLSiso_A</a>(<span class="summary-sig-arg">A</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">j</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">z</span>,
+        <span class="summary-sig-arg">w</span>)</span><br />
+      Sets the one row of matrix A starting at A[i,j] with the isotropic 
+      TLS model coefficients for an atom located at t position x, y, z with
+      least-squares weight w.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLSiso_A">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_itls_uiso"></a><span class="summary-sig-name">calc_itls_uiso</span>(<span class="summary-sig-arg">T</span>,
+        <span class="summary-sig-arg">L</span>,
+        <span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">position</span>)</span><br />
+      Calculate the TLS predicted uiso from the isotropic TLS model for the
+      atom at position.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_itls_uiso">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="iter_itls_uiso"></a><span class="summary-sig-name">iter_itls_uiso</span>(<span class="summary-sig-arg">atom_iter</span>,
+        <span class="summary-sig-arg">T</span>,
+        <span class="summary-sig-arg">L</span>,
+        <span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">O</span>)</span><br />
+      Iterates the pair (atom, u_iso)</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#iter_itls_uiso">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_itls_center_of_reaction"></a><span class="summary-sig-name">calc_itls_center_of_reaction</span>(<span class="summary-sig-arg">iT</span>,
+        <span class="summary-sig-arg">iL</span>,
+        <span class="summary-sig-arg">iS</span>,
+        <span class="summary-sig-arg">origin</span>)</span><br />
+      iT is a single float; iL[3,3]; iS[3]</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_itls_center_of_reaction">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_s11_s22_s33"></a><span class="summary-sig-name">calc_s11_s22_s33</span>(<span class="summary-sig-arg">s2211</span>,
+        <span class="summary-sig-arg">s1133</span>)</span><br />
+      Calculates s11, s22, s33 based on s22-s11 and s11-s33 using the 
+      constraint s11+s22+s33=0</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_s11_s22_s33">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_Utls"></a><span class="summary-sig-name">calc_Utls</span>(<span class="summary-sig-arg">T</span>,
+        <span class="summary-sig-arg">L</span>,
+        <span class="summary-sig-arg">S</span>,
+        <span class="summary-sig-arg">position</span>)</span><br />
+      Returns the calculated value for the anisotropic U tensor for the 
+      given position.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_Utls">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="calc_LS_displacement"></a><span class="summary-sig-name">calc_LS_displacement</span>(<span class="summary-sig-arg">cor</span>,
+        <span class="summary-sig-arg">Lval</span>,
+        <span class="summary-sig-arg">Lvec</span>,
+        <span class="summary-sig-arg">Lrho</span>,
+        <span class="summary-sig-arg">Lpitch</span>,
+        <span class="summary-sig-arg">position</span>,
+        <span class="summary-sig-arg">prob</span>)</span><br />
+      Returns the amount of rotational displacement from L for an atom at 
+      the given position.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_LS_displacement">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#set_TLS_A" class="summary-sig-name">set_TLS_A</a>(<span class="summary-sig-arg">A</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">j</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">z</span>,
+        <span class="summary-sig-arg">w</span>)</span><br />
+      Sets the six rows of matrix A starting at A[i,j] with the TLS 
+      coefficients for an atom located at position x,y,z with least-squares
+      weight w.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLS_A">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="set_TLS_b"></a><span class="summary-sig-name">set_TLS_b</span>(<span class="summary-sig-arg">b</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">u11</span>,
+        <span class="summary-sig-arg">u22</span>,
+        <span class="summary-sig-arg">u33</span>,
+        <span class="summary-sig-arg">u12</span>,
+        <span class="summary-sig-arg">u13</span>,
+        <span class="summary-sig-arg">u23</span>,
+        <span class="summary-sig-arg">w</span>)</span><br />
+      Sets the six rows of vector b with the experimental/target 
+      anisotropic ADP values U starting at index b[i] and ending at b[i+6] 
+      with weight w.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLS_b">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#calc_TLS_least_squares_fit" class="summary-sig-name">calc_TLS_least_squares_fit</a>(<span class="summary-sig-arg">atom_list</span>,
+        <span class="summary-sig-arg">origin</span>,
+        <span class="summary-sig-arg">weight_dict</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Perform a LSQ-TLS fit on the given AtomList.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_least_squares_fit">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#calc_TLS_center_of_reaction" class="summary-sig-name">calc_TLS_center_of_reaction</a>(<span class="summary-sig-arg">T0</span>,
+        <span class="summary-sig-arg">L0</span>,
+        <span class="summary-sig-arg">S0</span>,
+        <span class="summary-sig-arg">origin</span>)</span><br />
+      Calculate new tensors based on the center for reaction.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_center_of_reaction">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#calc_TLS_plus_b_least_squares_fit" class="summary-sig-name">calc_TLS_plus_b_least_squares_fit</a>(<span class="summary-sig-arg">atom_list</span>,
+        <span class="summary-sig-arg">origin</span>,
+        <span class="summary-sig-arg">weight_dict</span>=<span class="summary-sig-default">None</span>)</span><br />
+      Perform a LSQ-TLS fit on the given Segment object using the TLS model
+      with amino acid side chains which can pivot about the CA atom.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_plus_b_least_squares_fit">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#set_L_A" class="summary-sig-name">set_L_A</a>(<span class="summary-sig-arg">A</span>,
+        <span class="summary-sig-arg">i</span>,
+        <span class="summary-sig-arg">j</span>,
+        <span class="summary-sig-arg">x</span>,
+        <span class="summary-sig-arg">y</span>,
+        <span class="summary-sig-arg">z</span>,
+        <span class="summary-sig-arg">w</span>)</span><br />
+      Sets coefficients of a L tensor in matrix A for an atom at position 
+      x,y,z and weight w.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#set_L_A">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.TLS-module.html#calc_TLSCA_least_squares_fit" class="summary-sig-name">calc_TLSCA_least_squares_fit</a>(<span class="summary-sig-arg">segment</span>,
+        <span class="summary-sig-arg">origin</span>)</span><br />
+      Perform a LSQ-TLS fit on the given Segment object using the TLS model
+      with amino acid side chains which can pivot about the CA atom.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLSCA_least_squares_fit">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="goodness_color"></a><span class="summary-sig-name">goodness_color</span>(<span class="summary-sig-arg">x</span>)</span><br />
+      x in range 0.0-&gt;1.0</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#goodness_color">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="test_module"></a><span class="summary-sig-name">test_module</span>()</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.TLS-pysrc.html#test_module">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+</table>
+<!-- ==================== VARIABLES ==================== -->
+<a name="section-Variables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Variables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a href="mmLib.TLS-module.html#CA_PIVOT_ATOMS" class="summary-name">CA_PIVOT_ATOMS</a> = <code title="{'ALA': None,
+ 'ARG': 'CA',
+ 'ASN': 'CA',
+ 'ASP': 'CA',
+ 'CYS': 'CA',
+ 'GLN': 'CA',
+ 'GLU': 'CA',
+ 'GLY': None,
+..."><code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">ALA</code><code class="variable-quote">'</code><code class="variable-op">: </code>None<code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">ARG</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">ASN</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">, </code><code class="variable-quote">'</code><code class="variable-string">ASP</code><code class="variable-quote">'</code><code class="variable-ellipsis">...</code></code>
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="__package__"></a><span class="summary-name">__package__</span> = <code title="'mmLib'"><code class="variable-quote">'</code><code class="variable-string">mmLib</code><code class="variable-quote">'</code></code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== FUNCTION DETAILS ==================== -->
+<a name="section-FunctionDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Function Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-FunctionDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="set_TLSiso_A"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_TLSiso_A</span>(<span class="sig-arg">A</span>,
+        <span class="sig-arg">i</span>,
+        <span class="sig-arg">j</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">z</span>,
+        <span class="sig-arg">w</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLSiso_A">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Sets the one row of matrix A starting at A[i,j] with the isotropic TLS
+  model coefficients for an atom located at t position x, y, z with 
+  least-squares weight w.  Matrix A is filled to coumn j+12.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_TLS_A"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_TLS_A</span>(<span class="sig-arg">A</span>,
+        <span class="sig-arg">i</span>,
+        <span class="sig-arg">j</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">z</span>,
+        <span class="sig-arg">w</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#set_TLS_A">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Sets the six rows of matrix A starting at A[i,j] with the TLS 
+  coefficients for an atom located at position x,y,z with least-squares 
+  weight w. Matrix A is filled to row i+6 and column j+20.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_TLS_least_squares_fit"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_TLS_least_squares_fit</span>(<span class="sig-arg">atom_list</span>,
+        <span class="sig-arg">origin</span>,
+        <span class="sig-arg">weight_dict</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_least_squares_fit">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Perform a LSQ-TLS fit on the given AtomList.  The TLS tensors are 
+  calculated at the given origin, with weights of weight_dict[atm]. Return 
+  values are T, L, S, lsq_residual.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_TLS_center_of_reaction"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_TLS_center_of_reaction</span>(<span class="sig-arg">T0</span>,
+        <span class="sig-arg">L0</span>,
+        <span class="sig-arg">S0</span>,
+        <span class="sig-arg">origin</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_center_of_reaction">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <pre class="literalblock">
+Calculate new tensors based on the center for reaction.
+This method returns a dictionary of the calculations:
+
+T^: T tensor in the coordinate system of L
+L^: L tensor in the coordinate system of L
+S^: S tensor in the coordinate system of L
+
+COR: Center of Reaction
+
+T',S',L': T,L,S tensors in original coordinate system
+          with the origin shifted to the center of reaction.
+
+</pre>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_TLS_plus_b_least_squares_fit"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_TLS_plus_b_least_squares_fit</span>(<span class="sig-arg">atom_list</span>,
+        <span class="sig-arg">origin</span>,
+        <span class="sig-arg">weight_dict</span>=<span class="sig-default">None</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLS_plus_b_least_squares_fit">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Perform a LSQ-TLS fit on the given Segment object using the TLS model 
+  with amino acid side chains which can pivot about the CA atom.  This 
+  model uses 20 TLS parameters and 6 libration parameters per side 
+  chain.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="set_L_A"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">set_L_A</span>(<span class="sig-arg">A</span>,
+        <span class="sig-arg">i</span>,
+        <span class="sig-arg">j</span>,
+        <span class="sig-arg">x</span>,
+        <span class="sig-arg">y</span>,
+        <span class="sig-arg">z</span>,
+        <span class="sig-arg">w</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#set_L_A">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Sets coefficients of a L tensor in matrix A for an atom at position 
+  x,y,z and weight w. This starts at A[i,j] and ends at A[i+6,j+6] Using 
+  weight w.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="calc_TLSCA_least_squares_fit"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">calc_TLSCA_least_squares_fit</span>(<span class="sig-arg">segment</span>,
+        <span class="sig-arg">origin</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.TLS-pysrc.html#calc_TLSCA_least_squares_fit">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Perform a LSQ-TLS fit on the given Segment object using the TLS model 
+  with amino acid side chains which can pivot about the CA atom. This model
+  uses 20 TLS parameters and 6 libration parameters per side chain.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== VARIABLES DETAILS ==================== -->
+<a name="section-VariablesDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Variables Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-VariablesDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="CA_PIVOT_ATOMS"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <h3 class="epydoc">CA_PIVOT_ATOMS</h3>
+  
+  <dl class="fields">
+  </dl>
+  <dl class="fields">
+    <dt>Value:</dt>
+      <dd><table><tr><td><pre class="variable">
+<code class="variable-group">{</code><code class="variable-quote">'</code><code class="variable-string">ALA</code><code class="variable-quote">'</code><code class="variable-op">: </code>None<code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">ARG</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">ASN</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">ASP</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">CYS</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">GLN</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">GLU</code><code class="variable-quote">'</code><code class="variable-op">: </code><code class="variable-quote">'</code><code class="variable-string">CA</code><code class="variable-quote">'</code><code class="variable-op">,</code>
+ <code class="variable-quote">'</code><code class="variable-string">GLY</code><code class="variable-quote">'</code><code class="variable-op">: </code>None<code class="variable-op">,</code>
+<code class="variable-ellipsis">...</code>
+</pre></td></tr></table>
+</dd>
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:14 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

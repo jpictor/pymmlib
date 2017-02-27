@@ -1,0 +1,62 @@
+data_SEL
+#
+_chem_comp.id                       SEL
+_chem_comp.name                     2-AMINO-1,3-PROPANEDIOL
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H9 N1 O2'
+_chem_comp.pdbx_synonyms            SERINOL
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            91.110
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SEL  N     .  N  0  ?  ?  ?  1  1 
+SEL  CA    .  C  0  ?  ?  ?  1  2 
+SEL  CB    .  C  0  ?  ?  ?  1  3 
+SEL  OG    .  O  0  ?  ?  ?  1  4 
+SEL  CB2   .  C  0  ?  ?  ?  1  5 
+SEL  OG2   .  O  0  ?  ?  ?  1  6 
+SEL  HOG   .  H  0  ?  ?  ?  1  7 
+SEL  1HB   .  H  0  ?  ?  ?  0  8 
+SEL  2HB   .  H  0  ?  ?  ?  0  9 
+SEL  1HA   .  H  0  ?  ?  ?  0  10
+SEL  1HB2  .  H  0  ?  ?  ?  0  11
+SEL  2HB2  .  H  0  ?  ?  ?  0  12
+SEL  1HO2  .  H  0  ?  ?  ?  0  13
+SEL  1HN1  .  H  0  ?  ?  ?  0  14
+SEL  2HN1  .  H  0  ?  ?  ?  0  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SEL  N    CA    SING  1 
+SEL  N    1HN1  SING  2 
+SEL  N    2HN1  SING  3 
+SEL  CA   CB    SING  4 
+SEL  CA   CB2   SING  5 
+SEL  CA   1HA   SING  6 
+SEL  CB   OG    SING  7 
+SEL  CB   1HB   SING  8 
+SEL  CB   2HB   SING  9 
+SEL  OG   HOG   SING  10
+SEL  CB2  OG2   SING  11
+SEL  CB2  1HB2  SING  12
+SEL  CB2  2HB2  SING  13
+SEL  OG2  1HO2  SING  14
+#

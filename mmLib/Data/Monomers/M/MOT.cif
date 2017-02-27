@@ -1,0 +1,141 @@
+data_MOT
+#
+_chem_comp.id                   MOT
+_chem_comp.name                 N-[4-[(2,4-DIAMINOFURO[2,3D]PYRIMIDIN-5-YL)METHYL]METHYLAMINO]-BENZOYL]-L-GLUTAMATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C20 H22 N6 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        442.430
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOT  N1    .  N  0  ?  ?  ?  1  1 
+MOT  C2    .  C  0  ?  ?  ?  1  2 
+MOT  NA2   .  N  0  ?  ?  ?  1  3 
+MOT  N3    .  N  0  ?  ?  ?  1  4 
+MOT  C4    .  C  0  ?  ?  ?  1  5 
+MOT  NA4   .  N  0  ?  ?  ?  1  6 
+MOT  C4A   .  C  0  ?  ?  ?  1  7 
+MOT  C6    .  C  0  ?  ?  ?  1  8 
+MOT  C7    .  C  0  ?  ?  ?  1  9 
+MOT  O8    .  O  0  ?  ?  ?  1  10
+MOT  C8A   .  C  0  ?  ?  ?  1  11
+MOT  C9    .  C  0  ?  ?  ?  1  12
+MOT  N10   .  N  0  ?  ?  ?  1  13
+MOT  CM    .  C  0  ?  ?  ?  1  14
+MOT  C11   .  C  0  ?  ?  ?  1  15
+MOT  C12   .  C  0  ?  ?  ?  1  16
+MOT  C13   .  C  0  ?  ?  ?  1  17
+MOT  C14   .  C  0  ?  ?  ?  1  18
+MOT  C15   .  C  0  ?  ?  ?  1  19
+MOT  C16   .  C  0  ?  ?  ?  1  20
+MOT  C     .  C  0  ?  ?  ?  1  21
+MOT  O     .  O  0  ?  ?  ?  1  22
+MOT  N     .  N  0  ?  ?  ?  1  23
+MOT  CA    .  C  0  ?  ?  ?  1  24
+MOT  CT    .  C  0  ?  ?  ?  1  25
+MOT  O1    .  O  0  ?  ?  ?  1  26
+MOT  O2    .  O  0  ?  ?  ?  1  27
+MOT  CB    .  C  0  ?  ?  ?  1  28
+MOT  CG    .  C  0  ?  ?  ?  1  29
+MOT  CD    .  C  0  ?  ?  ?  1  30
+MOT  OE1   .  O  0  ?  ?  ?  1  31
+MOT  OE2   .  O  0  ?  ?  ?  1  32
+MOT  1HN2  .  H  0  ?  ?  ?  0  33
+MOT  2HN2  .  H  0  ?  ?  ?  0  34
+MOT  1HN4  .  H  0  ?  ?  ?  0  35
+MOT  2HN4  .  H  0  ?  ?  ?  0  36
+MOT  H7    .  H  0  ?  ?  ?  1  37
+MOT  1H9   .  H  0  ?  ?  ?  0  38
+MOT  2H9   .  H  0  ?  ?  ?  0  39
+MOT  1HM   .  H  0  ?  ?  ?  0  40
+MOT  2HM   .  H  0  ?  ?  ?  0  41
+MOT  3HM   .  H  0  ?  ?  ?  0  42
+MOT  H12   .  H  0  ?  ?  ?  1  43
+MOT  H13   .  H  0  ?  ?  ?  1  44
+MOT  H15   .  H  0  ?  ?  ?  1  45
+MOT  H16   .  H  0  ?  ?  ?  1  46
+MOT  HN    .  H  0  ?  ?  ?  1  47
+MOT  HA    .  H  0  ?  ?  ?  1  48
+MOT  HO2   .  H  0  ?  ?  ?  1  49
+MOT  1HB   .  H  0  ?  ?  ?  0  50
+MOT  2HB   .  H  0  ?  ?  ?  0  51
+MOT  1HG   .  H  0  ?  ?  ?  0  52
+MOT  2HG   .  H  0  ?  ?  ?  0  53
+MOT  2HOE  .  H  0  ?  ?  ?  0  54
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOT  N1   C2    DOUB  1 
+MOT  N1   C8A   SING  2 
+MOT  C2   N3    SING  3 
+MOT  C2   NA2   SING  4 
+MOT  NA2  1HN2  SING  5 
+MOT  NA2  2HN2  SING  6 
+MOT  N3   C4    DOUB  7 
+MOT  C4   C4A   SING  8 
+MOT  C4   NA4   SING  9 
+MOT  NA4  1HN4  SING  10
+MOT  NA4  2HN4  SING  11
+MOT  C4A  C6    SING  12
+MOT  C4A  C8A   DOUB  13
+MOT  C6   C7    DOUB  14
+MOT  C6   C9    SING  15
+MOT  C7   O8    SING  16
+MOT  C7   H7    SING  17
+MOT  O8   C8A   SING  18
+MOT  C9   N10   SING  19
+MOT  C9   1H9   SING  20
+MOT  C9   2H9   SING  21
+MOT  N10  C14   SING  22
+MOT  N10  CM    SING  23
+MOT  CM   1HM   SING  24
+MOT  CM   2HM   SING  25
+MOT  CM   3HM   SING  26
+MOT  C11  C12   DOUB  27
+MOT  C11  C16   SING  28
+MOT  C11  C     SING  29
+MOT  C12  C13   SING  30
+MOT  C12  H12   SING  31
+MOT  C13  C14   DOUB  32
+MOT  C13  H13   SING  33
+MOT  C14  C15   SING  34
+MOT  C15  C16   DOUB  35
+MOT  C15  H15   SING  36
+MOT  C16  H16   SING  37
+MOT  C    N     SING  38
+MOT  C    O     DOUB  39
+MOT  N    CA    SING  40
+MOT  N    HN    SING  41
+MOT  CA   CB    SING  42
+MOT  CA   CT    SING  43
+MOT  CA   HA    SING  44
+MOT  CT   O1    DOUB  45
+MOT  CT   O2    SING  46
+MOT  O2   HO2   SING  47
+MOT  CB   CG    SING  48
+MOT  CB   1HB   SING  49
+MOT  CB   2HB   SING  50
+MOT  CG   CD    SING  51
+MOT  CG   1HG   SING  52
+MOT  CG   2HG   SING  53
+MOT  CD   OE1   DOUB  54
+MOT  CD   OE2   SING  55
+MOT  OE2  2HOE  SING  56
+#

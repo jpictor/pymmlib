@@ -1,0 +1,89 @@
+data_AN3
+#
+_chem_comp.id                   AN3
+_chem_comp.name                 ANTHRACENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H10'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.233
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          AN3
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc2cc3ccccc3cc2c1
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+AN3  C1   .  C  0  14.349  50.032  78.668  1  Y  1 
+AN3  C2   .  C  0  14.614  49.605  77.405  1  Y  2 
+AN3  C3   .  C  0  14.463  49.173  79.716  1  Y  3 
+AN3  C4   .  C  0  15.004  48.309  77.163  1  Y  4 
+AN3  C5   .  C  0  14.834  47.873  79.481  1  Y  5 
+AN3  C6   .  C  0  15.110  47.428  78.212  1  Y  6 
+AN3  C7   .  C  0  13.071  52.660  82.627  1  Y  7 
+AN3  C8   .  C  0  12.961  53.521  81.557  1  Y  8 
+AN3  C9   .  C  0  13.443  51.359  82.427  1  Y  9 
+AN3  C10  .  C  0  13.255  53.068  80.307  1  Y  10
+AN3  C11  .  C  0  13.758  50.904  81.185  1  Y  11
+AN3  C12  .  C  0  13.643  51.763  80.127  1  Y  12
+AN3  C13  .  C  0  13.923  51.306  78.867  1  Y  13
+AN3  C14  .  C  0  14.160  49.610  80.983  1  Y  14
+AN3  H2   .  H  0  14.517  50.294  76.579  1  N  15
+AN3  H4   .  H  0  15.225  47.986  76.156  1  N  16
+AN3  H5   .  H  0  14.910  47.186  80.311  1  N  17
+AN3  H6   .  H  0  15.405  46.403  78.041  1  N  18
+AN3  H7   .  H  0  12.863  53.013  83.626  1  N  19
+AN3  H8   .  H  0  12.645  54.543  81.708  1  N  20
+AN3  H9   .  H  0  13.487  50.683  83.268  1  N  21
+AN3  H10  .  H  0  13.183  53.733  79.459  1  N  22
+AN3  H13  .  H  0  13.804  51.967  78.021  1  N  23
+AN3  H14  .  H  0  14.239  48.933  81.820  1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+AN3  C1   C2   SING  Y  1 
+AN3  C1   C13  DOUB  Y  2 
+AN3  C1   C3   SING  Y  3 
+AN3  C2   C4   DOUB  Y  4 
+AN3  C2   H2   SING  N  5 
+AN3  C3   C5   SING  Y  6 
+AN3  C3   C14  DOUB  Y  7 
+AN3  C4   C6   SING  Y  8 
+AN3  C4   H4   SING  N  9 
+AN3  C5   C6   DOUB  Y  10
+AN3  C5   H5   SING  N  11
+AN3  C6   H6   SING  N  12
+AN3  C7   C8   DOUB  Y  13
+AN3  C7   C9   SING  Y  14
+AN3  C7   H7   SING  N  15
+AN3  C8   C10  SING  Y  16
+AN3  C8   H8   SING  N  17
+AN3  C9   C11  DOUB  Y  18
+AN3  C9   H9   SING  N  19
+AN3  C10  C12  DOUB  Y  20
+AN3  C10  H10  SING  N  21
+AN3  C11  C12  SING  Y  22
+AN3  C11  C14  SING  Y  23
+AN3  C12  C13  SING  Y  24
+AN3  C13  H13  SING  N  25
+AN3  C14  H14  SING  N  26
+#

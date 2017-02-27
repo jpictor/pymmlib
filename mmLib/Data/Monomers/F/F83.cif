@@ -1,0 +1,114 @@
+data_F83
+#
+_chem_comp.id                   F83
+_chem_comp.name                 (3R)-N-(4-CHLOROPHENYL)-3-(HYDROXYMETHYL)-1,2,3,4-TETRAHYDROISOQUINOLINE-7-SULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H17 N2 O3 CL1 S1'
+_chem_comp.pdbx_synonyms        3-HYDROXYMETHYL-7-(N-4-CHLOROPHENYLAMINOSULFONYL)-1,2,3,4-TETRAHYDROISOQUINOLINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        352.835
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+F83  O1    .  O   0  ?  ?  ?  1  1 
+F83  C1    .  C   0  ?  ?  ?  1  2 
+F83  C2    .  C   0  ?  ?  ?  1  3 
+F83  N1    .  N   0  ?  ?  ?  1  4 
+F83  C3    .  C   0  ?  ?  ?  1  5 
+F83  C4    .  C   0  ?  ?  ?  1  6 
+F83  C5    .  C   0  ?  ?  ?  1  7 
+F83  C6    .  C   0  ?  ?  ?  1  8 
+F83  C7    .  C   0  ?  ?  ?  1  9 
+F83  C8    .  C   0  ?  ?  ?  1  10
+F83  C9    .  C   0  ?  ?  ?  1  11
+F83  C10   .  C   0  ?  ?  ?  1  12
+F83  S1    .  S   0  ?  ?  ?  1  13
+F83  O2    .  O   0  ?  ?  ?  1  14
+F83  O3    .  O   0  ?  ?  ?  1  15
+F83  N2    .  N   0  ?  ?  ?  1  16
+F83  C11   .  C   0  ?  ?  ?  1  17
+F83  C12   .  C   0  ?  ?  ?  1  18
+F83  C13   .  C   0  ?  ?  ?  1  19
+F83  C14   .  C   0  ?  ?  ?  1  20
+F83  C15   .  C   0  ?  ?  ?  1  21
+F83  C16   .  C   0  ?  ?  ?  1  22
+F83  CL1   .  CL  0  ?  ?  ?  0  23
+F83  HO1   .  H   0  ?  ?  ?  1  24
+F83  1H1   .  H   0  ?  ?  ?  0  25
+F83  2H1   .  H   0  ?  ?  ?  0  26
+F83  H2    .  H   0  ?  ?  ?  1  27
+F83  HN1   .  H   0  ?  ?  ?  1  28
+F83  1H3   .  H   0  ?  ?  ?  0  29
+F83  2H3   .  H   0  ?  ?  ?  0  30
+F83  H5    .  H   0  ?  ?  ?  1  31
+F83  H7    .  H   0  ?  ?  ?  1  32
+F83  H8    .  H   0  ?  ?  ?  1  33
+F83  1H10  .  H   0  ?  ?  ?  0  34
+F83  2H10  .  H   0  ?  ?  ?  0  35
+F83  HN2   .  H   0  ?  ?  ?  1  36
+F83  H12   .  H   0  ?  ?  ?  1  37
+F83  H13   .  H   0  ?  ?  ?  1  38
+F83  H15   .  H   0  ?  ?  ?  1  39
+F83  H16   .  H   0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+F83  O1   HO1   SING  1 
+F83  O1   C1    SING  2 
+F83  C1   1H1   SING  3 
+F83  C1   2H1   SING  4 
+F83  C1   C2    SING  5 
+F83  C2   H2    SING  6 
+F83  C2   N1    SING  7 
+F83  C2   C10   SING  8 
+F83  N1   HN1   SING  9 
+F83  N1   C3    SING  10
+F83  C3   1H3   SING  11
+F83  C3   2H3   SING  12
+F83  C3   C4    SING  13
+F83  C4   C5    AROM  14
+F83  C4   C9    AROM  15
+F83  C5   H5    SING  16
+F83  C5   C6    AROM  17
+F83  C6   C7    AROM  18
+F83  C6   S1    SING  19
+F83  C7   H7    SING  20
+F83  C7   C8    AROM  21
+F83  C8   H8    SING  22
+F83  C8   C9    AROM  23
+F83  C9   C10   SING  24
+F83  C10  1H10  SING  25
+F83  C10  2H10  SING  26
+F83  S1   O2    DOUB  27
+F83  S1   O3    DOUB  28
+F83  S1   N2    SING  29
+F83  N2   HN2   SING  30
+F83  N2   C11   SING  31
+F83  C11  C12   AROM  32
+F83  C11  C16   AROM  33
+F83  C12  H12   SING  34
+F83  C12  C13   AROM  35
+F83  C13  H13   SING  36
+F83  C13  C14   AROM  37
+F83  C14  C15   AROM  38
+F83  C14  CL1   SING  39
+F83  C15  H15   SING  40
+F83  C15  C16   AROM  41
+F83  C16  H16   SING  42
+#

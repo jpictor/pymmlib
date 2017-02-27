@@ -1,0 +1,109 @@
+data_CRK
+#
+_chem_comp.id                       CRK
+_chem_comp.name                     4-{(Z)-[2-[3-(METHYLSULFANYL)PROPANOYL]-5-OXO-1-(2-OXOETHYL)-1,5-DIHYDRO-4H-IMIDAZOL-4-YLIDENE]METHYL}BENZENOLATE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C16 H15 N2 O4 S1'
+_chem_comp.mon_nstd_parent_comp_id  'MET, TYR, GLY'
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            331.365
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRK  C1    .  C  0   49.428  50.445  58.046  1  1 
+CRK  C2    .  C  0   49.619  49.614  60.137  1  2 
+CRK  C3    .  C  0   52.729  50.115  58.582  1  3 
+CRK  CA1   .  C  0   49.901  50.743  56.713  1  4 
+CRK  CA2   .  C  0   48.334  50.283  59.847  1  5 
+CRK  CA3   .  C  0   51.579  49.151  58.779  1  6 
+CRK  CB    .  C  0   48.978  51.501  55.760  1  7 
+CRK  CB2   .  C  0   47.168  50.363  60.532  1  8 
+CRK  CD2   .  C  0   47.471  49.314  62.657  1  9 
+CRK  CD1   .  C  0   45.201  49.937  61.996  1  10
+CRK  CE    .  C  0   49.782  53.730  52.857  1  11
+CRK  CE2   .  C  0   46.979  48.633  63.751  1  12
+CRK  CE1   .  C  0   44.698  49.289  63.087  1  13
+CRK  CG    .  C  0   49.667  52.835  55.427  1  14
+CRK  CG2   .  C  0   46.587  49.953  61.702  1  15
+CRK  CZ    .  C  0   45.557  48.600  64.046  1  16
+CRK  N2    .  N  0   48.246  50.801  58.545  1  17
+CRK  N3    .  N  0   50.302  49.773  58.910  1  18
+CRK  O1    .  O  0   50.987  50.262  56.269  1  19
+CRK  O2    .  O  0   50.111  49.039  61.092  1  20
+CRK  O3    .  O  0   53.823  49.669  58.262  1  21
+CRK  OH    .  O  -1  45.066  47.912  64.984  1  22
+CRK  SD    .  S  0   48.682  53.841  54.286  1  23
+CRK  1HE   .  H  0   ?       ?       ?       0  24
+CRK  2HE   .  H  0   ?       ?       ?       0  25
+CRK  3HE   .  H  0   ?       ?       ?       0  26
+CRK  1HG   .  H  0   ?       ?       ?       0  27
+CRK  2HG   .  H  0   ?       ?       ?       0  28
+CRK  1HB   .  H  0   ?       ?       ?       0  29
+CRK  2HB   .  H  0   ?       ?       ?       0  30
+CRK  HB2   .  H  0   ?       ?       ?       1  31
+CRK  HD1   .  H  0   ?       ?       ?       1  32
+CRK  HE1   .  H  0   ?       ?       ?       1  33
+CRK  HE2   .  H  0   ?       ?       ?       1  34
+CRK  HD2   .  H  0   ?       ?       ?       1  35
+CRK  1HA3  .  H  0   ?       ?       ?       0  36
+CRK  2HA3  .  H  0   ?       ?       ?       0  37
+CRK  H3    .  H  0   ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRK  C1   CA1   SING  1 
+CRK  C1   N2    DOUB  2 
+CRK  C1   N3    SING  3 
+CRK  C2   CA2   SING  4 
+CRK  C2   O2    DOUB  5 
+CRK  C2   N3    SING  6 
+CRK  C3   CA3   SING  7 
+CRK  C3   O3    DOUB  8 
+CRK  C3   H3    SING  9 
+CRK  CA1  CB    SING  10
+CRK  CA1  O1    DOUB  11
+CRK  CA2  N2    SING  12
+CRK  CA2  CB2   DOUB  13
+CRK  CA3  N3    SING  14
+CRK  CA3  1HA3  SING  15
+CRK  CA3  2HA3  SING  16
+CRK  CB   CG    SING  17
+CRK  CB   1HB   SING  18
+CRK  CB   2HB   SING  19
+CRK  CB2  CG2   SING  20
+CRK  CB2  HB2   SING  21
+CRK  CD2  CE2   DOUB  22
+CRK  CD2  CG2   SING  23
+CRK  CD2  HD2   SING  24
+CRK  CD1  CG2   DOUB  25
+CRK  CD1  CE1   SING  26
+CRK  CD1  HD1   SING  27
+CRK  CE   SD    SING  28
+CRK  CE   1HE   SING  29
+CRK  CE   2HE   SING  30
+CRK  CE   3HE   SING  31
+CRK  CE2  CZ    SING  32
+CRK  CE2  HE2   SING  33
+CRK  CE1  CZ    DOUB  34
+CRK  CE1  HE1   SING  35
+CRK  CG   SD    SING  36
+CRK  CG   1HG   SING  37
+CRK  CG   2HG   SING  38
+CRK  CZ   OH    SING  39
+#

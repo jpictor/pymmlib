@@ -1,0 +1,49 @@
+data_FNE
+#
+_chem_comp.id                   FNE
+_chem_comp.name                 (MU-SULPHIDO)-BIS(MU-CYS,S)-[TRICARBONYLIRON-DI-(CYS,S)NICKEL(II)](FE-NI)
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 O3 FE1 NI1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.638
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FNE  NI  .  NI  0  28.952  47.577  4.461  0  1
+FNE  FE  .  FE  0  26.039  47.154  4.841  0  2
+FNE  C1  .  C   0  24.949  45.925  5.686  1  3
+FNE  C2  .  C   0  24.982  48.575  5.42   1  4
+FNE  C3  .  C   0  25.087  47.044  3.285  1  5
+FNE  O1  .  O   0  23.998  45.476  6.048  1  6
+FNE  O2  .  O   0  24.314  49.485  5.364  1  7
+FNE  O3  .  O   0  24.822  46.959  2.192  1  8
+FNE  S4  .  S   0  27.411  48.677  3.968  1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FNE  NI  FE  SING  1
+FNE  NI  S4  SING  2
+FNE  FE  S4  SING  3
+FNE  FE  C1  SING  4
+FNE  FE  C3  SING  5
+FNE  FE  C2  SING  6
+FNE  C1  O1  TRIP  7
+FNE  C2  O2  TRIP  8
+FNE  C3  O3  TRIP  9
+#

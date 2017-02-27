@@ -1,0 +1,52 @@
+data_MTG
+#
+_chem_comp.id                   MTG
+_chem_comp.name                 [METHYLTHIO]ACETATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 O2 S1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       105.131
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTG  O5   .  O  0   ?  ?  ?  1  1 
+MTG  O6   .  O  -1  ?  ?  ?  1  2 
+MTG  C1   .  C  0   ?  ?  ?  1  3 
+MTG  C2   .  C  0   ?  ?  ?  1  4 
+MTG  S3   .  S  0   ?  ?  ?  1  5 
+MTG  C4   .  C  0   ?  ?  ?  1  6 
+MTG  1H2  .  H  0   ?  ?  ?  0  7 
+MTG  2H2  .  H  0   ?  ?  ?  0  8 
+MTG  1H4  .  H  0   ?  ?  ?  0  9 
+MTG  2H4  .  H  0   ?  ?  ?  0  10
+MTG  3H4  .  H  0   ?  ?  ?  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTG  O5  C1   DOUB  1 
+MTG  O6  C1   SING  2 
+MTG  C1  C2   SING  3 
+MTG  C2  S3   SING  4 
+MTG  C2  1H2  SING  5 
+MTG  C2  2H2  SING  6 
+MTG  S3  C4   SING  7 
+MTG  C4  1H4  SING  8 
+MTG  C4  2H4  SING  9 
+MTG  C4  3H4  SING  10
+#

@@ -1,0 +1,69 @@
+data_MOG
+#
+_chem_comp.id                   MOG
+_chem_comp.name                 5-AMINO-2-METHYL-6H-OXAZOLO[5,4-D]PYRIMIDIN-7-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N4 O2'
+_chem_comp.pdbx_synonyms        8-METHYL-9-OXOGUANINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.139
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOG  N1    .  N  0  ?  ?  ?  1  1 
+MOG  C2    .  C  0  ?  ?  ?  1  2 
+MOG  N3    .  N  0  ?  ?  ?  1  3 
+MOG  C4    .  C  0  ?  ?  ?  1  4 
+MOG  C5    .  C  0  ?  ?  ?  1  5 
+MOG  C6    .  C  0  ?  ?  ?  1  6 
+MOG  O6    .  O  0  ?  ?  ?  1  7 
+MOG  N7    .  N  0  ?  ?  ?  1  8 
+MOG  C8    .  C  0  ?  ?  ?  1  9 
+MOG  O9    .  O  0  ?  ?  ?  1  10
+MOG  C10   .  C  0  ?  ?  ?  1  11
+MOG  N2    .  N  0  ?  ?  ?  1  12
+MOG  HN1   .  H  0  ?  ?  ?  1  13
+MOG  1HN2  .  H  0  ?  ?  ?  0  14
+MOG  2HN2  .  H  0  ?  ?  ?  0  15
+MOG  1H10  .  H  0  ?  ?  ?  0  16
+MOG  2H10  .  H  0  ?  ?  ?  0  17
+MOG  3H10  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOG  N1   C2    SING  1 
+MOG  N1   C6    SING  2 
+MOG  N1   HN1   SING  3 
+MOG  C2   N3    DOUB  4 
+MOG  C2   N2    SING  5 
+MOG  N3   C4    SING  6 
+MOG  C4   C5    DOUB  7 
+MOG  C4   O9    SING  8 
+MOG  C5   C6    SING  9 
+MOG  C5   N7    SING  10
+MOG  C6   O6    DOUB  11
+MOG  N7   C8    DOUB  12
+MOG  C8   O9    SING  13
+MOG  C8   C10   SING  14
+MOG  C10  1H10  SING  15
+MOG  C10  2H10  SING  16
+MOG  C10  3H10  SING  17
+MOG  N2   1HN2  SING  18
+MOG  N2   2HN2  SING  19
+#

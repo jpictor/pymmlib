@@ -1,0 +1,91 @@
+data_GP4
+#
+_chem_comp.id                   GP4
+_chem_comp.name                 'GLUCOSAMINE 4-PHOSPHATE'
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H14 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        259.152
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GP4  C1A   .  C  0  ?  ?  ?  1  1 
+GP4  C2A   .  C  0  ?  ?  ?  1  2 
+GP4  C3A   .  C  0  ?  ?  ?  1  3 
+GP4  C4A   .  C  0  ?  ?  ?  1  4 
+GP4  C5A   .  C  0  ?  ?  ?  1  5 
+GP4  C6A   .  C  0  ?  ?  ?  1  6 
+GP4  N2A   .  N  0  ?  ?  ?  1  7 
+GP4  O3A   .  O  0  ?  ?  ?  1  8 
+GP4  O4A   .  O  0  ?  ?  ?  1  9 
+GP4  O5A   .  O  0  ?  ?  ?  1  10
+GP4  O6A   .  O  0  ?  ?  ?  1  11
+GP4  O7A   .  O  0  ?  ?  ?  1  12
+GP4  P4A   .  P  0  ?  ?  ?  1  13
+GP4  O8A   .  O  0  ?  ?  ?  1  14
+GP4  O9A   .  O  0  ?  ?  ?  1  15
+GP4  O1A   .  O  0  ?  ?  ?  1  16
+GP4  1HOP  .  H  0  ?  ?  ?  0  17
+GP4  2HOP  .  H  0  ?  ?  ?  0  18
+GP4  H4    .  H  0  ?  ?  ?  1  19
+GP4  H3    .  H  0  ?  ?  ?  1  20
+GP4  HO3   .  H  0  ?  ?  ?  1  21
+GP4  H2    .  H  0  ?  ?  ?  1  22
+GP4  1HN2  .  H  0  ?  ?  ?  0  23
+GP4  2HN2  .  H  0  ?  ?  ?  0  24
+GP4  H1    .  H  0  ?  ?  ?  1  25
+GP4  HO1   .  H  0  ?  ?  ?  1  26
+GP4  H5    .  H  0  ?  ?  ?  1  27
+GP4  1H6   .  H  0  ?  ?  ?  0  28
+GP4  2H6   .  H  0  ?  ?  ?  0  29
+GP4  HO5   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GP4  C1A  C2A   SING  1 
+GP4  C1A  O6A   SING  2 
+GP4  C1A  H1    SING  3 
+GP4  C1A  O1A   SING  4 
+GP4  C2A  C3A   SING  5 
+GP4  C2A  N2A   SING  6 
+GP4  C2A  H2    SING  7 
+GP4  C3A  C4A   SING  8 
+GP4  C3A  O3A   SING  9 
+GP4  C3A  H3    SING  10
+GP4  C4A  C5A   SING  11
+GP4  C4A  O4A   SING  12
+GP4  C4A  H4    SING  13
+GP4  C5A  C6A   SING  14
+GP4  C5A  O6A   SING  15
+GP4  C5A  H5    SING  16
+GP4  C6A  O5A   SING  17
+GP4  C6A  1H6   SING  18
+GP4  C6A  2H6   SING  19
+GP4  N2A  1HN2  SING  20
+GP4  N2A  2HN2  SING  21
+GP4  O3A  HO3   SING  22
+GP4  O4A  P4A   SING  23
+GP4  O5A  HO5   SING  24
+GP4  O7A  P4A   SING  25
+GP4  O7A  1HOP  SING  26
+GP4  P4A  O8A   DOUB  27
+GP4  P4A  O9A   SING  28
+GP4  O9A  2HOP  SING  29
+GP4  O1A  HO1   SING  30
+#

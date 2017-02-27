@@ -1,0 +1,107 @@
+data_AMP
+#
+_chem_comp.id                   AMP
+_chem_comp.name                 'ADENOSINE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        347.224
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMP  P     .  P  0  ?  ?  ?  1  1 
+AMP  O1P   .  O  0  ?  ?  ?  1  2 
+AMP  O2P   .  O  0  ?  ?  ?  1  3 
+AMP  O3P   .  O  0  ?  ?  ?  1  4 
+AMP  O5*   .  O  0  ?  ?  ?  1  5 
+AMP  C5*   .  C  0  ?  ?  ?  1  6 
+AMP  C4*   .  C  0  ?  ?  ?  1  7 
+AMP  O4*   .  O  0  ?  ?  ?  1  8 
+AMP  C3*   .  C  0  ?  ?  ?  1  9 
+AMP  O3*   .  O  0  ?  ?  ?  1  10
+AMP  C2*   .  C  0  ?  ?  ?  1  11
+AMP  O2*   .  O  0  ?  ?  ?  1  12
+AMP  C1*   .  C  0  ?  ?  ?  1  13
+AMP  N9    .  N  0  ?  ?  ?  1  14
+AMP  C8    .  C  0  ?  ?  ?  1  15
+AMP  N7    .  N  0  ?  ?  ?  1  16
+AMP  C5    .  C  0  ?  ?  ?  1  17
+AMP  C6    .  C  0  ?  ?  ?  1  18
+AMP  N6    .  N  0  ?  ?  ?  1  19
+AMP  N1    .  N  0  ?  ?  ?  1  20
+AMP  C2    .  C  0  ?  ?  ?  1  21
+AMP  N3    .  N  0  ?  ?  ?  1  22
+AMP  C4    .  C  0  ?  ?  ?  1  23
+AMP  2HOP  .  H  0  ?  ?  ?  0  24
+AMP  3HOP  .  H  0  ?  ?  ?  0  25
+AMP  1H5*  .  H  0  ?  ?  ?  0  26
+AMP  2H5*  .  H  0  ?  ?  ?  0  27
+AMP  H4*   .  H  0  ?  ?  ?  1  28
+AMP  H3*   .  H  0  ?  ?  ?  1  29
+AMP  *HO3  .  H  0  ?  ?  ?  0  30
+AMP  H2*   .  H  0  ?  ?  ?  1  31
+AMP  *HO2  .  H  0  ?  ?  ?  0  32
+AMP  H1*   .  H  0  ?  ?  ?  1  33
+AMP  H8    .  H  0  ?  ?  ?  1  34
+AMP  H2    .  H  0  ?  ?  ?  1  35
+AMP  1HN6  .  H  0  ?  ?  ?  0  36
+AMP  2HN6  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMP  P    O1P   DOUB  1 
+AMP  P    O2P   SING  2 
+AMP  P    O3P   SING  3 
+AMP  P    O5*   SING  4 
+AMP  O2P  2HOP  SING  5 
+AMP  O3P  3HOP  SING  6 
+AMP  O5*  C5*   SING  7 
+AMP  C5*  C4*   SING  8 
+AMP  C5*  1H5*  SING  9 
+AMP  C5*  2H5*  SING  10
+AMP  C4*  O4*   SING  11
+AMP  C4*  C3*   SING  12
+AMP  C4*  H4*   SING  13
+AMP  O4*  C1*   SING  14
+AMP  C3*  O3*   SING  15
+AMP  C3*  C2*   SING  16
+AMP  C3*  H3*   SING  17
+AMP  O3*  *HO3  SING  18
+AMP  C2*  O2*   SING  19
+AMP  C2*  C1*   SING  20
+AMP  C2*  H2*   SING  21
+AMP  O2*  *HO2  SING  22
+AMP  C1*  N9    SING  23
+AMP  C1*  H1*   SING  24
+AMP  N9   C8    SING  25
+AMP  N9   C4    SING  26
+AMP  C8   N7    DOUB  27
+AMP  C8   H8    SING  28
+AMP  N7   C5    SING  29
+AMP  C5   C6    SING  30
+AMP  C5   C4    DOUB  31
+AMP  C6   N6    SING  32
+AMP  C6   N1    DOUB  33
+AMP  N6   1HN6  SING  34
+AMP  N6   2HN6  SING  35
+AMP  N1   C2    SING  36
+AMP  C2   N3    DOUB  37
+AMP  C2   H2    SING  38
+AMP  N3   C4    SING  39
+#

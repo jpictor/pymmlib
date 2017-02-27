@@ -1,0 +1,67 @@
+data_AHB
+#
+_chem_comp.id                       AHB
+_chem_comp.name                     BETA-HYDROXYASPARAGINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H8 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            148.118
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHB  N     .  N  0  ?  ?  ?  1  1 
+AHB  CA    .  C  0  ?  ?  ?  1  2 
+AHB  CB    .  C  0  ?  ?  ?  1  3 
+AHB  OB    .  O  0  ?  ?  ?  1  4 
+AHB  CG    .  C  0  ?  ?  ?  1  5 
+AHB  OD1   .  O  0  ?  ?  ?  1  6 
+AHB  ND2   .  N  0  ?  ?  ?  1  7 
+AHB  C     .  C  0  ?  ?  ?  1  8 
+AHB  O     .  O  0  ?  ?  ?  1  9 
+AHB  OXT   .  O  0  ?  ?  ?  1  10
+AHB  1HN   .  H  0  ?  ?  ?  0  11
+AHB  2HN   .  H  0  ?  ?  ?  0  12
+AHB  HA    .  H  0  ?  ?  ?  1  13
+AHB  HB    .  H  0  ?  ?  ?  1  14
+AHB  HOB   .  H  0  ?  ?  ?  1  15
+AHB  1HND  .  H  0  ?  ?  ?  0  16
+AHB  2HND  .  H  0  ?  ?  ?  0  17
+AHB  HXT   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHB  N    CA    SING  1 
+AHB  N    1HN   SING  2 
+AHB  N    2HN   SING  3 
+AHB  CA   CB    SING  4 
+AHB  CA   C     SING  5 
+AHB  CA   HA    SING  6 
+AHB  CB   CG    SING  7 
+AHB  CB   OB    SING  8 
+AHB  CB   HB    SING  9 
+AHB  OB   HOB   SING  10
+AHB  CG   OD1   DOUB  11
+AHB  CG   ND2   SING  12
+AHB  ND2  1HND  SING  13
+AHB  ND2  2HND  SING  14
+AHB  C    O     DOUB  15
+AHB  C    OXT   SING  16
+AHB  OXT  HXT   SING  17
+#

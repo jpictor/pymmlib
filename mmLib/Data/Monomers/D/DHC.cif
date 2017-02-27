@@ -1,0 +1,74 @@
+data_DHC
+#
+_chem_comp.id                   DHC
+_chem_comp.name                 'CAFFEIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H8 O4'
+_chem_comp.pdbx_synonyms        '3,4-DIHYDROXYCINNAMIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHC  C1   .  C  0  8.270   9.131  -7.175  1  1 
+DHC  O1   .  O  0  8.205   9.359  -8.382  1  2 
+DHC  C2   .  C  0  9.540   8.915  -6.447  1  3 
+DHC  C3   .  C  0  10.643  8.627  -7.082  1  4 
+DHC  C1'  .  C  0  12.002  8.625  -6.545  1  5 
+DHC  C2'  .  C  0  13.090  8.261  -7.326  1  6 
+DHC  C3'  .  C  0  14.396  8.237  -6.818  1  7 
+DHC  C4'  .  C  0  14.636  8.669  -5.508  1  8 
+DHC  C5'  .  C  0  13.537  9.029  -4.708  1  9 
+DHC  C6'  .  C  0  12.249  8.909  -5.217  1  10
+DHC  O4'  .  O  0  15.785  8.700  -4.963  1  11
+DHC  O3'  .  O  0  15.366  8.091  -7.615  1  12
+DHC  O2   .  O  0  ?       ?      ?       1  13
+DHC  HC2  .  H  0  ?       ?      ?       1  14
+DHC  HC3  .  H  0  ?       ?      ?       1  15
+DHC  H2'  .  H  0  ?       ?      ?       1  16
+DHC  H5'  .  H  0  ?       ?      ?       1  17
+DHC  H6'  .  H  0  ?       ?      ?       1  18
+DHC  H3'  .  H  0  ?       ?      ?       1  19
+DHC  H4'  .  H  0  ?       ?      ?       1  20
+DHC  HO2  .  H  0  ?       ?      ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHC  C1   O1   DOUB  1 
+DHC  C1   C2   SING  2 
+DHC  C1   O2   SING  3 
+DHC  C2   C3   DOUB  4 
+DHC  C2   HC2  SING  5 
+DHC  C3   C1'  SING  6 
+DHC  C3   HC3  SING  7 
+DHC  C1'  C2'  AROM  8 
+DHC  C1'  C6'  AROM  9 
+DHC  C2'  C3'  AROM  10
+DHC  C2'  H2'  SING  11
+DHC  C3'  C4'  AROM  12
+DHC  C3'  O3'  SING  13
+DHC  C4'  C5'  AROM  14
+DHC  C4'  O4'  SING  15
+DHC  C5'  C6'  AROM  16
+DHC  C5'  H5'  SING  17
+DHC  C6'  H6'  SING  18
+DHC  O4'  H4'  SING  19
+DHC  O3'  H3'  SING  20
+DHC  O2   HO2  SING  21
+#

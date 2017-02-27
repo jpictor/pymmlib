@@ -1,0 +1,105 @@
+data_IAM
+#
+_chem_comp.id                   IAM
+_chem_comp.name                 4-[(ISOPROPYLAMINO)METHYL]PHENYLALANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H20 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        236.313
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAM  N     .  N  0  3.256   5.043   1.497   1  1 
+IAM  CA    .  C  0  2.363   5.819   0.653   1  2 
+IAM  CB    .  C  0  2.353   5.149   -0.722  1  3 
+IAM  CG    .  C  0  1.230   5.633   -1.641  1  4 
+IAM  CD1   .  C  0  0.812   4.851   -2.673  1  5 
+IAM  CE1   .  C  0  -0.231  5.300   -3.527  1  6 
+IAM  CZ    .  C  0  -0.810  6.511   -3.313  1  7 
+IAM  CE2   .  C  0  -0.394  7.293   -2.280  1  8 
+IAM  CD2   .  C  0  0.650   6.843   -1.426  1  9 
+IAM  CT    .  C  0  -1.941  6.997   -4.237  1  10
+IAM  NH    .  N  0  -1.357  7.655   -5.425  1  11
+IAM  CI    .  C  0  -1.751  9.037   -5.774  1  12
+IAM  CK1   .  C  0  -0.707  9.642   -6.732  1  13
+IAM  CK2   .  C  0  -1.829  9.887   -4.495  1  14
+IAM  C     .  C  0  0.941   5.823   1.216   1  15
+IAM  O     .  O  0  0.522   6.790   1.849   1  16
+IAM  OXT   .  O  0  ?       ?       ?       1  17
+IAM  HN2   .  H  0  ?       ?       ?       1  18
+IAM  H     .  H  0  4.046   5.544   1.850   1  19
+IAM  HA    .  H  0  2.745   6.839   0.632   1  20
+IAM  HB    .  H  0  2.261   4.072   -0.590  1  21
+IAM  HD1   .  H  0  1.278   3.881   -2.845  1  22
+IAM  HE1   .  H  0  -0.567  4.674   -4.354  1  23
+IAM  HE2   .  H  0  -0.860  8.262   -2.107  1  24
+IAM  HD2   .  H  0  0.985   7.469   -0.600  1  25
+IAM  1HT   .  H  0  -2.560  7.694   -3.708  0  26
+IAM  2HT   .  H  0  -2.534  6.160   -4.548  0  27
+IAM  HH    .  H  0  -0.673  7.150   -6.008  1  28
+IAM  HI    .  H  0  -2.708  9.024   -6.254  1  29
+IAM  HXT   .  H  0  ?       ?       ?       1  30
+IAM  1HB   .  H  0  3.310   5.330   -1.210  0  31
+IAM  1HK1  .  H  0  0.250   9.655   -6.253  0  32
+IAM  2HK1  .  H  0  -0.653  9.050   -7.621  0  33
+IAM  3HK1  .  H  0  -0.993  10.642  -6.986  0  34
+IAM  1HK2  .  H  0  -2.554  9.467   -3.831  0  35
+IAM  2HK2  .  H  0  -0.874  9.901   -4.015  0  36
+IAM  3HK2  .  H  0  -2.115  10.888  -4.747  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAM  N    H     SING  1 
+IAM  N    CA    SING  2 
+IAM  N    HN2   SING  3 
+IAM  CA   HA    SING  4 
+IAM  CA   CB    SING  5 
+IAM  CA   C     SING  6 
+IAM  CB   HB    SING  7 
+IAM  CB   CG    SING  8 
+IAM  CB   1HB   SING  9 
+IAM  CG   CD1   AROM  10
+IAM  CG   CD2   AROM  11
+IAM  CD1  HD1   SING  12
+IAM  CD1  CE1   AROM  13
+IAM  CE1  HE1   SING  14
+IAM  CE1  CZ    AROM  15
+IAM  CZ   CE2   AROM  16
+IAM  CZ   CT    SING  17
+IAM  CE2  HE2   SING  18
+IAM  CE2  CD2   AROM  19
+IAM  CD2  HD2   SING  20
+IAM  CT   1HT   SING  21
+IAM  CT   2HT   SING  22
+IAM  CT   NH    SING  23
+IAM  NH   HH    SING  24
+IAM  NH   CI    SING  25
+IAM  CI   HI    SING  26
+IAM  CI   CK1   SING  27
+IAM  CI   CK2   SING  28
+IAM  CK1  1HK1  SING  29
+IAM  CK1  2HK1  SING  30
+IAM  CK1  3HK1  SING  31
+IAM  CK2  1HK2  SING  32
+IAM  CK2  2HK2  SING  33
+IAM  CK2  3HK2  SING  34
+IAM  C    O     DOUB  35
+IAM  C    OXT   SING  36
+IAM  OXT  HXT   SING  37
+#

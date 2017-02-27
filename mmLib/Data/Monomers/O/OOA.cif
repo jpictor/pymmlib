@@ -1,0 +1,80 @@
+data_OOA
+#
+_chem_comp.id                   OOA
+_chem_comp.name                 '3-OXOOCTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H14 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        158.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OOA  C1    .  C  0  58.529  29.414  130.676  1  1 
+OOA  C2    .  C  0  59.02   30.528  129.802  1  2 
+OOA  C3    .  C  0  60.527  30.538  129.662  1  3 
+OOA  C4    .  C  0  61.377  31.304  130.669  1  4 
+OOA  O1    .  O  0  61.048  29.921  128.742  1  5 
+OOA  C5    .  C  0  62.424  32.202  130.02   1  6 
+OOA  C6    .  C  0  62.675  33.365  130.967  1  7 
+OOA  C7    .  C  0  62.693  34.708  130.248  1  8 
+OOA  C8    .  C  0  64.087  35.287  130.414  1  9 
+OOA  O3    .  O  0  58.217  28.367  130.155  1  10
+OOA  O31   .  O  0  58.921  29.381  131.948  1  11
+OOA  1H2C  .  H  0  58.645  31.514  130.162  0  12
+OOA  2H2C  .  H  0  58.525  30.501  128.803  0  13
+OOA  1H4C  .  H  0  61.852  30.606  131.397  0  14
+OOA  2H4C  .  H  0  60.733  31.889  131.366  0  15
+OOA  1H5C  .  H  0  62.14   32.53   128.993  0  16
+OOA  2H5C  .  H  0  63.356  31.656  129.745  0  17
+OOA  1H6C  .  H  0  63.611  33.211  131.553  0  18
+OOA  2H6C  .  H  0  61.938  33.368  131.804  0  19
+OOA  1H7C  .  H  0  61.889  35.399  130.593  0  20
+OOA  2H7C  .  H  0  62.374  34.637  129.182  0  21
+OOA  1H8C  .  H  0  64.1    36.27   129.888  0  22
+OOA  2H8C  .  H  0  64.891  34.596  130.069  0  23
+OOA  3H8C  .  H  0  64.407  35.358  131.48   0  24
+OOA  HO'   .  H  0  ?       ?       ?        1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OOA  C1   C2    SING  1 
+OOA  C1   O3    DOUB  2 
+OOA  C1   O31   SING  3 
+OOA  C2   C3    SING  4 
+OOA  C2   1H2C  SING  5 
+OOA  C2   2H2C  SING  6 
+OOA  C3   C4    SING  7 
+OOA  C3   O1    DOUB  8 
+OOA  C4   C5    SING  9 
+OOA  C4   1H4C  SING  10
+OOA  C4   2H4C  SING  11
+OOA  C5   C6    SING  12
+OOA  C5   1H5C  SING  13
+OOA  C5   2H5C  SING  14
+OOA  C6   C7    SING  15
+OOA  C6   1H6C  SING  16
+OOA  C6   2H6C  SING  17
+OOA  C7   C8    SING  18
+OOA  C7   1H7C  SING  19
+OOA  C7   2H7C  SING  20
+OOA  C8   1H8C  SING  21
+OOA  C8   2H8C  SING  22
+OOA  C8   3H8C  SING  23
+OOA  O31  HO'   SING  24
+#

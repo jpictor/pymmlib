@@ -1,0 +1,105 @@
+data_LDT
+#
+_chem_comp.id                   LDT
+_chem_comp.name                 IDD594
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 N1 O3 BR1 F2 S1'
+_chem_comp.pdbx_synonyms        '[2-(4-BROMO-2-FLUORO-BENZYLTHIOCARBAMOYL)-5-FLUORO-PHENOXY]-ACETIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        416.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LDT  C2    .  C   0  15.64   -9.411   18.12   1  1 
+LDT  C3    .  C   0  15.972  -10.323  15.523  1  2 
+LDT  C4    .  C   0  16.525  -8.763   17.266  1  3 
+LDT  C5    .  C   0  14.952  -10.5    17.637  1  4 
+LDT  C6    .  C   0  15.09   -10.989  16.346  1  5 
+LDT  C7    .  C   0  16.686  -9.21    15.939  1  6 
+LDT  BR8   .  BR  0  14.879  -3.746   9.686   0  7 
+LDT  F9    .  F   0  14.112  -11.135  18.484  1  8 
+LDT  C11   .  C   0  17.561  -8.503   14.974  1  9 
+LDT  C13   .  C   0  18.249  -6.321   14.151  1  10
+LDT  F14   .  F   0  19.199  -4.357   12.463  1  11
+LDT  O15   .  O   0  17.338  -7.755   17.675  1  12
+LDT  S16   .  S   0  18.513  -9.364   13.888  1  13
+LDT  N17   .  N   0  17.489  -7.187   15.019  1  14
+LDT  C20   .  C   0  16.82   -6.874   18.668  1  15
+LDT  C24   .  C   0  17.42   -5.773   13.023  1  16
+LDT  C25   .  C   0  15.948  -4.598   10.974  1  17
+LDT  C26   .  C   0  16.12   -6.179   12.758  1  18
+LDT  C27   .  C   0  17.932  -4.782   12.21   1  19
+LDT  C28   .  C   0  17.236  -4.176   11.19   1  20
+LDT  C29   .  C   0  15.366  -5.601   11.74   1  21
+LDT  C32   .  C   0  15.672  -6.014   18.132  1  22
+LDT  O33   .  O   0  14.955  -5.494   19.032  1  23
+LDT  O34   .  O   0  15.553  -5.882   16.906  1  24
+LDT  H2    .  H   0  15.493  -9.062   19.156  1  25
+LDT  H3    .  H   0  16.115  -10.69   14.493  1  26
+LDT  H6    .  H   0  14.522  -11.867  15.996  1  27
+LDT  H17   .  H   0  16.864  -6.76    15.703  1  28
+LDT  1H13  .  H   0  19.161  -6.835   13.767  0  29
+LDT  2H13  .  H   0  18.737  -5.501   14.727  0  30
+LDT  1H20  .  H   0  17.626  -6.242   19.108  0  31
+LDT  2H20  .  H   0  16.514  -7.432   19.583  0  32
+LDT  H26   .  H   0  15.672  -6.98    13.37   1  33
+LDT  H28   .  H   0  17.693  -3.385   10.572  1  34
+LDT  H29   .  H   0  14.332  -5.931   11.546  1  35
+LDT  H33   .  H   0  ?       ?        ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LDT  C2   C4    AROM  1 
+LDT  C2   C5    AROM  2 
+LDT  C2   H2    SING  3 
+LDT  C3   C6    AROM  4 
+LDT  C3   C7    AROM  5 
+LDT  C3   H3    SING  6 
+LDT  C4   C7    AROM  7 
+LDT  C4   O15   SING  8 
+LDT  C5   C6    AROM  9 
+LDT  C5   F9    SING  10
+LDT  C6   H6    SING  11
+LDT  C7   C11   SING  12
+LDT  BR8  C25   SING  13
+LDT  C11  S16   DOUB  14
+LDT  C11  N17   SING  15
+LDT  C13  N17   SING  16
+LDT  C13  C24   SING  17
+LDT  C13  1H13  SING  18
+LDT  C13  2H13  SING  19
+LDT  F14  C27   SING  20
+LDT  O15  C20   SING  21
+LDT  N17  H17   SING  22
+LDT  C20  C32   SING  23
+LDT  C20  1H20  SING  24
+LDT  C20  2H20  SING  25
+LDT  C24  C26   AROM  26
+LDT  C24  C27   AROM  27
+LDT  C25  C28   AROM  28
+LDT  C25  C29   AROM  29
+LDT  C26  C29   AROM  30
+LDT  C26  H26   SING  31
+LDT  C27  C28   AROM  32
+LDT  C28  H28   SING  33
+LDT  C29  H29   SING  34
+LDT  C32  O33   SING  35
+LDT  C32  O34   DOUB  36
+LDT  O33  H33   SING  37
+#

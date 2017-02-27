@@ -1,0 +1,106 @@
+data_PCP
+#
+_chem_comp.id                   PCP
+_chem_comp.name                 1-ALPHA-PYROPHOSPHORYL-2-ALPHA,3-ALPHA-DIHYDROXY-4-BETA-CYCLOPENTANE-METHANOL-5-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 O13 P3'
+_chem_comp.pdbx_synonyms        'CARBOXYLIC PRPP; CPRPP'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        388.098
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PCP  C1    .  C  0  ?  ?  ?  1  1 
+PCP  C2    .  C  0  ?  ?  ?  1  2 
+PCP  C3    .  C  0  ?  ?  ?  1  3 
+PCP  C4    .  C  0  ?  ?  ?  1  4 
+PCP  C5    .  C  0  ?  ?  ?  1  5 
+PCP  CP    .  C  0  ?  ?  ?  1  6 
+PCP  O1    .  O  0  ?  ?  ?  1  7 
+PCP  O2    .  O  0  ?  ?  ?  1  8 
+PCP  O3    .  O  0  ?  ?  ?  1  9 
+PCP  OP    .  O  0  ?  ?  ?  1  10
+PCP  P     .  P  0  ?  ?  ?  1  11
+PCP  O1P   .  O  0  ?  ?  ?  1  12
+PCP  O2P   .  O  0  ?  ?  ?  1  13
+PCP  O3P   .  O  0  ?  ?  ?  1  14
+PCP  PA    .  P  0  ?  ?  ?  1  15
+PCP  O1A   .  O  0  ?  ?  ?  1  16
+PCP  O2A   .  O  0  ?  ?  ?  1  17
+PCP  O3A   .  O  0  ?  ?  ?  1  18
+PCP  PB    .  P  0  ?  ?  ?  1  19
+PCP  O1B   .  O  0  ?  ?  ?  1  20
+PCP  O2B   .  O  0  ?  ?  ?  1  21
+PCP  O3B   .  O  0  ?  ?  ?  1  22
+PCP  H1    .  H  0  ?  ?  ?  1  23
+PCP  H2    .  H  0  ?  ?  ?  1  24
+PCP  H3    .  H  0  ?  ?  ?  1  25
+PCP  H4    .  H  0  ?  ?  ?  1  26
+PCP  1H5   .  H  0  ?  ?  ?  0  27
+PCP  2H5   .  H  0  ?  ?  ?  0  28
+PCP  1HP   .  H  0  ?  ?  ?  0  29
+PCP  2HP   .  H  0  ?  ?  ?  0  30
+PCP  HO2   .  H  0  ?  ?  ?  1  31
+PCP  HO3   .  H  0  ?  ?  ?  1  32
+PCP  2HOP  .  H  0  ?  ?  ?  0  33
+PCP  3HOP  .  H  0  ?  ?  ?  0  34
+PCP  2HOA  .  H  0  ?  ?  ?  0  35
+PCP  2HOB  .  H  0  ?  ?  ?  0  36
+PCP  3HOB  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PCP  C1   C2    SING  1 
+PCP  C1   O1    SING  2 
+PCP  C1   C5    SING  3 
+PCP  C1   H1    SING  4 
+PCP  C2   C3    SING  5 
+PCP  C2   O2    SING  6 
+PCP  C2   H2    SING  7 
+PCP  C3   C4    SING  8 
+PCP  C3   O3    SING  9 
+PCP  C3   H3    SING  10
+PCP  C4   C5    SING  11
+PCP  C4   CP    SING  12
+PCP  C4   H4    SING  13
+PCP  C5   1H5   SING  14
+PCP  C5   2H5   SING  15
+PCP  CP   OP    SING  16
+PCP  CP   1HP   SING  17
+PCP  CP   2HP   SING  18
+PCP  O1   PA    SING  19
+PCP  O2   HO2   SING  20
+PCP  O3   HO3   SING  21
+PCP  OP   P     SING  22
+PCP  P    O1P   DOUB  23
+PCP  P    O2P   SING  24
+PCP  P    O3P   SING  25
+PCP  O2P  2HOP  SING  26
+PCP  O3P  3HOP  SING  27
+PCP  PA   O1A   DOUB  28
+PCP  PA   O2A   SING  29
+PCP  PA   O3A   SING  30
+PCP  O2A  2HOA  SING  31
+PCP  O3A  PB    SING  32
+PCP  PB   O1B   DOUB  33
+PCP  PB   O2B   SING  34
+PCP  PB   O3B   SING  35
+PCP  O2B  2HOB  SING  36
+PCP  O3B  3HOB  SING  37
+#

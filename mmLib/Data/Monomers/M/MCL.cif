@@ -1,0 +1,97 @@
+data_MCL
+#
+_chem_comp.id                       MCL
+_chem_comp.name                     NZ-(1-CARBOXYETHYL)-LYSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H18 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            218.252
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MCL  N    .  N  0  -5.976  11.587  23.288  1  1 
+MCL  CA   .  C  0  -4.591  11.730  23.672  1  2 
+MCL  CB   .  C  0  -3.777  12.183  22.464  1  3 
+MCL  CG   .  C  0  -2.325  12.550  22.818  1  4 
+MCL  CD   .  C  0  -1.514  12.921  21.566  1  5 
+MCL  CE   .  C  0  -0.073  13.302  21.952  1  6 
+MCL  NZ   .  N  0  0.470   13.978  20.770  1  7 
+MCL  CX1  .  C  0  1.649   14.294  20.479  1  8 
+MCL  C1   .  C  0  2.758   13.891  21.412  1  9 
+MCL  CX2  .  C  0  1.922   15.052  19.237  1  10
+MCL  O1   .  O  0  0.979   15.305  18.436  1  11
+MCL  O2   .  O  0  3.105   15.464  19.038  1  12
+MCL  C    .  C  0  -4.575  12.780  24.792  1  13
+MCL  O    .  O  0  -4.857  13.971  24.563  1  14
+MCL  OXT  .  O  0  ?       ?       ?       1  15
+MCL  HXT  .  H  0  ?       ?       ?       1  16
+MCL  HA   .  H  0  ?       ?       ?       1  17
+MCL  1HN  .  H  0  ?       ?       ?       0  18
+MCL  2HN  .  H  0  ?       ?       ?       0  19
+MCL  1HB  .  H  0  ?       ?       ?       0  20
+MCL  2HB  .  H  0  ?       ?       ?       0  21
+MCL  1HG  .  H  0  ?       ?       ?       0  22
+MCL  2HG  .  H  0  ?       ?       ?       0  23
+MCL  1HD  .  H  0  ?       ?       ?       0  24
+MCL  2HD  .  H  0  ?       ?       ?       0  25
+MCL  1HE  .  H  0  ?       ?       ?       0  26
+MCL  2HE  .  H  0  ?       ?       ?       0  27
+MCL  HNZ  .  H  0  ?       ?       ?       1  28
+MCL  HX1  .  H  0  ?       ?       ?       1  29
+MCL  1H1  .  H  0  ?       ?       ?       0  30
+MCL  2H1  .  H  0  ?       ?       ?       0  31
+MCL  3H1  .  H  0  ?       ?       ?       0  32
+MCL  HO1  .  H  0  ?       ?       ?       1  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MCL  N    CA   SING  1 
+MCL  N    1HN  SING  2 
+MCL  N    2HN  SING  3 
+MCL  CA   C    SING  4 
+MCL  CA   CB   SING  5 
+MCL  CA   HA   SING  6 
+MCL  CB   CG   SING  7 
+MCL  CB   1HB  SING  8 
+MCL  CB   2HB  SING  9 
+MCL  CG   CD   SING  10
+MCL  CG   1HG  SING  11
+MCL  CG   2HG  SING  12
+MCL  CD   CE   SING  13
+MCL  CD   1HD  SING  14
+MCL  CD   2HD  SING  15
+MCL  CE   NZ   SING  16
+MCL  CE   1HE  SING  17
+MCL  CE   2HE  SING  18
+MCL  NZ   CX1  SING  19
+MCL  NZ   HNZ  SING  20
+MCL  CX1  C1   SING  21
+MCL  CX1  CX2  SING  22
+MCL  CX1  HX1  SING  23
+MCL  C1   1H1  SING  24
+MCL  C1   2H1  SING  25
+MCL  C1   3H1  SING  26
+MCL  CX2  O1   SING  27
+MCL  CX2  O2   DOUB  28
+MCL  O1   HO1  SING  29
+MCL  C    OXT  SING  30
+MCL  C    O    DOUB  31
+MCL  OXT  HXT  SING  32
+#

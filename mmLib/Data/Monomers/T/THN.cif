@@ -1,0 +1,107 @@
+data_THN
+#
+_chem_comp.id                   THN
+_chem_comp.name                 '2-[CARBOXY-(2-THIOPHEN-2-YL-ACETYLAMINO)-METHYL]-5-METHYLENE-5,6-DIHYDRO-2H-[1,3]THIAZINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H14 N2 O5 S2'
+_chem_comp.pdbx_synonyms        'HYDROLYZED CEPHALOTHIN'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        354.395
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THN  S1    .  S  0  79.394  7.059  27.606  1  1 
+THN  C2    .  C  0  80.999  7.524  26.744  1  2 
+THN  C3    .  C  0  81.987  8.225  27.722  1  3 
+THN  C3'   .  C  0  82.891  9.152  27.226  1  4 
+THN  C4    .  C  0  81.958  7.866  29.254  1  5 
+THN  C4'   .  C  0  82.853  8.577  30.313  1  6 
+THN  O4A   .  O  0  83.956  8.056  30.610  1  7 
+THN  O4B   .  O  0  82.453  9.659  30.830  1  8 
+THN  N5    .  N  0  81.071  6.895  29.764  1  9 
+THN  C6    .  C  0  80.113  6.075  28.965  1  10
+THN  C7    .  C  0  79.049  5.539  29.961  1  11
+THN  C8    .  C  0  78.144  4.537  29.229  1  12
+THN  O9A   .  O  0  78.588  3.445  28.872  1  13
+THN  O9B   .  O  0  76.960  4.820  29.033  1  14
+THN  N10   .  N  0  79.670  4.791  31.035  1  15
+THN  C11   .  C  0  79.773  5.266  32.266  1  16
+THN  O12   .  O  0  79.342  6.361  32.597  1  17
+THN  C13   .  C  0  80.519  4.399  33.245  1  18
+THN  C14   .  C  0  81.972  4.699  33.468  1  19
+THN  C15   .  C  0  82.830  5.294  32.530  1  20
+THN  C16   .  C  0  84.113  5.390  33.218  1  21
+THN  C17   .  C  0  84.172  4.930  34.425  1  22
+THN  S19   .  S  0  82.675  4.323  34.885  1  23
+THN  H17   .  H  0  ?       ?      ?       1  24
+THN  H16   .  H  0  ?       ?      ?       1  25
+THN  H15   .  H  0  ?       ?      ?       1  26
+THN  1H13  .  H  0  ?       ?      ?       0  27
+THN  2H13  .  H  0  ?       ?      ?       0  28
+THN  H10   .  H  0  ?       ?      ?       1  29
+THN  H7    .  H  0  ?       ?      ?       1  30
+THN  H4    .  H  0  ?       ?      ?       1  31
+THN  HO9   .  H  0  ?       ?      ?       1  32
+THN  1H2   .  H  0  ?       ?      ?       0  33
+THN  2H2   .  H  0  ?       ?      ?       0  34
+THN  HO4   .  H  0  ?       ?      ?       1  35
+THN  1H3'  .  H  0  ?       ?      ?       0  36
+THN  2H3'  .  H  0  ?       ?      ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THN  S1   C2    SING  1 
+THN  S1   C6    SING  2 
+THN  C2   C3    SING  3 
+THN  C2   1H2   SING  4 
+THN  C2   2H2   SING  5 
+THN  C3   C3'   DOUB  6 
+THN  C3   C4    SING  7 
+THN  C3'  1H3'  SING  8 
+THN  C3'  2H3'  SING  9 
+THN  C4   C4'   SING  10
+THN  C4   N5    SING  11
+THN  C4   H4    SING  12
+THN  C4'  O4A   SING  13
+THN  C4'  O4B   DOUB  14
+THN  O4A  HO4   SING  15
+THN  N5   C6    DOUB  16
+THN  C6   C7    SING  17
+THN  C7   C8    SING  18
+THN  C7   N10   SING  19
+THN  C7   H7    SING  20
+THN  C8   O9A   DOUB  21
+THN  C8   O9B   SING  22
+THN  O9B  HO9   SING  23
+THN  N10  C11   SING  24
+THN  N10  H10   SING  25
+THN  C11  O12   DOUB  26
+THN  C11  C13   SING  27
+THN  C13  C14   SING  28
+THN  C13  1H13  SING  29
+THN  C13  2H13  SING  30
+THN  C14  C15   DOUB  31
+THN  C14  S19   SING  32
+THN  C15  C16   SING  33
+THN  C15  H15   SING  34
+THN  C16  C17   DOUB  35
+THN  C16  H16   SING  36
+THN  C17  S19   SING  37
+THN  C17  H17   SING  38
+#

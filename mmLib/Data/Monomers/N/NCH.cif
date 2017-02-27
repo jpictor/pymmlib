@@ -1,0 +1,107 @@
+data_NCH
+#
+_chem_comp.id                   NCH
+_chem_comp.name                 P-NITROPHENYL-PHOSPHOCHOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H18 N2 O6 P1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       305.247
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NCH  O4   .  O  0  ?  ?  ?  1  1 
+NCH  P1   .  P  0  ?  ?  ?  1  2 
+NCH  O1   .  O  0  ?  ?  ?  1  3 
+NCH  O3   .  O  0  ?  ?  ?  1  4 
+NCH  O2   .  O  0  ?  ?  ?  1  5 
+NCH  C1   .  C  0  ?  ?  ?  1  6 
+NCH  C2   .  C  0  ?  ?  ?  1  7 
+NCH  N1   .  N  1  ?  ?  ?  1  8 
+NCH  C3   .  C  0  ?  ?  ?  1  9 
+NCH  C5   .  C  0  ?  ?  ?  1  10
+NCH  C4   .  C  0  ?  ?  ?  1  11
+NCH  C1A  .  C  0  ?  ?  ?  1  12
+NCH  N1A  .  N  0  ?  ?  ?  1  13
+NCH  O1N  .  O  0  ?  ?  ?  1  14
+NCH  O2N  .  O  0  ?  ?  ?  1  15
+NCH  C2A  .  C  0  ?  ?  ?  1  16
+NCH  C3A  .  C  0  ?  ?  ?  1  17
+NCH  C4A  .  C  0  ?  ?  ?  1  18
+NCH  C5A  .  C  0  ?  ?  ?  1  19
+NCH  C6A  .  C  0  ?  ?  ?  1  20
+NCH  H2A  .  H  0  ?  ?  ?  1  21
+NCH  H3A  .  H  0  ?  ?  ?  1  22
+NCH  H5A  .  H  0  ?  ?  ?  1  23
+NCH  H6A  .  H  0  ?  ?  ?  1  24
+NCH  HO1  .  H  0  ?  ?  ?  1  25
+NCH  1H1  .  H  0  ?  ?  ?  0  26
+NCH  2H1  .  H  0  ?  ?  ?  0  27
+NCH  1H2  .  H  0  ?  ?  ?  0  28
+NCH  2H2  .  H  0  ?  ?  ?  0  29
+NCH  1H3  .  H  0  ?  ?  ?  0  30
+NCH  2H3  .  H  0  ?  ?  ?  0  31
+NCH  3H3  .  H  0  ?  ?  ?  0  32
+NCH  1H4  .  H  0  ?  ?  ?  0  33
+NCH  2H4  .  H  0  ?  ?  ?  0  34
+NCH  3H4  .  H  0  ?  ?  ?  0  35
+NCH  1H5  .  H  0  ?  ?  ?  0  36
+NCH  2H5  .  H  0  ?  ?  ?  0  37
+NCH  3H5  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NCH  O4   P1   DOUB  1 
+NCH  P1   O1   SING  2 
+NCH  P1   O3   SING  3 
+NCH  P1   O2   SING  4 
+NCH  O1   HO1  SING  5 
+NCH  O3   C4A  SING  6 
+NCH  O2   C1   SING  7 
+NCH  C1   C2   SING  8 
+NCH  C1   1H1  SING  9 
+NCH  C1   2H1  SING  10
+NCH  C2   N1   SING  11
+NCH  C2   1H2  SING  12
+NCH  C2   2H2  SING  13
+NCH  N1   C3   SING  14
+NCH  N1   C5   SING  15
+NCH  N1   C4   SING  16
+NCH  C3   1H3  SING  17
+NCH  C3   2H3  SING  18
+NCH  C3   3H3  SING  19
+NCH  C5   1H5  SING  20
+NCH  C5   2H5  SING  21
+NCH  C5   3H5  SING  22
+NCH  C4   1H4  SING  23
+NCH  C4   2H4  SING  24
+NCH  C4   3H4  SING  25
+NCH  C1A  N1A  SING  26
+NCH  C1A  C2A  DOUB  27
+NCH  C1A  C6A  SING  28
+NCH  N1A  O1N  DOUB  29
+NCH  N1A  O2N  DOUB  30
+NCH  C2A  C3A  SING  31
+NCH  C2A  H2A  SING  32
+NCH  C3A  C4A  DOUB  33
+NCH  C3A  H3A  SING  34
+NCH  C4A  C5A  SING  35
+NCH  C5A  C6A  DOUB  36
+NCH  C5A  H5A  SING  37
+NCH  C6A  H6A  SING  38
+#

@@ -1,0 +1,85 @@
+data_TFM
+#
+_chem_comp.id                   TFM
+_chem_comp.name                 S-ETHYL-N-[4-(TRIFLUOROMETHYL)PHENYL]ISOTHIOUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H11 N2 F3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.266
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TFM  N1    .  N  0  ?  ?  ?  1  1 
+TFM  C     .  C  0  ?  ?  ?  1  2 
+TFM  S     .  S  0  ?  ?  ?  1  3 
+TFM  N2    .  N  0  ?  ?  ?  1  4 
+TFM  C1    .  C  0  ?  ?  ?  1  5 
+TFM  C2    .  C  0  ?  ?  ?  1  6 
+TFM  C3    .  C  0  ?  ?  ?  1  7 
+TFM  C4    .  C  0  ?  ?  ?  1  8 
+TFM  C5    .  C  0  ?  ?  ?  1  9 
+TFM  C6    .  C  0  ?  ?  ?  1  10
+TFM  C1'   .  C  0  ?  ?  ?  1  11
+TFM  C2'   .  C  0  ?  ?  ?  1  12
+TFM  1H2   .  H  0  ?  ?  ?  0  13
+TFM  1H3   .  H  0  ?  ?  ?  0  14
+TFM  CM    .  C  0  ?  ?  ?  1  15
+TFM  F1    .  F  0  ?  ?  ?  1  16
+TFM  F2    .  F  0  ?  ?  ?  1  17
+TFM  F3    .  F  0  ?  ?  ?  1  18
+TFM  1H5   .  H  0  ?  ?  ?  0  19
+TFM  1H6   .  H  0  ?  ?  ?  0  20
+TFM  1HN1  .  H  0  ?  ?  ?  0  21
+TFM  2HN1  .  H  0  ?  ?  ?  0  22
+TFM  1H1'  .  H  0  ?  ?  ?  0  23
+TFM  2H1'  .  H  0  ?  ?  ?  0  24
+TFM  1H2'  .  H  0  ?  ?  ?  0  25
+TFM  2H2'  .  H  0  ?  ?  ?  0  26
+TFM  3H2'  .  H  0  ?  ?  ?  0  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TFM  N1   C     SING  1 
+TFM  N1   1HN1  SING  2 
+TFM  N1   2HN1  SING  3 
+TFM  C    S     SING  4 
+TFM  C    N2    DOUB  5 
+TFM  S    C1'   SING  6 
+TFM  N2   C1    SING  7 
+TFM  C1   C2    DOUB  8 
+TFM  C1   C6    SING  9 
+TFM  C2   C3    SING  10
+TFM  C2   1H2   SING  11
+TFM  C3   C4    DOUB  12
+TFM  C3   1H3   SING  13
+TFM  C4   C5    SING  14
+TFM  C4   CM    SING  15
+TFM  C5   C6    DOUB  16
+TFM  C5   1H5   SING  17
+TFM  C6   1H6   SING  18
+TFM  C1'  C2'   SING  19
+TFM  C1'  1H1'  SING  20
+TFM  C1'  2H1'  SING  21
+TFM  C2'  1H2'  SING  22
+TFM  C2'  2H2'  SING  23
+TFM  C2'  3H2'  SING  24
+TFM  CM   F1    SING  25
+TFM  CM   F2    SING  26
+TFM  CM   F3    SING  27
+#

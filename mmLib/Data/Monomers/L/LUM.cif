@@ -1,0 +1,90 @@
+data_LUM
+#
+_chem_comp.id                   LUM
+_chem_comp.name                 LUMICHROME
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10 N4 O2'
+_chem_comp.pdbx_synonyms        '7,8-DIMETHYLALLOXAZINE; 6,7-DIMETHYLALLOXAZINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        242.237
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LUM  N1    .  N  0  ?  ?  ?  1  1 
+LUM  C2    .  C  0  ?  ?  ?  1  2 
+LUM  C10   .  C  0  ?  ?  ?  1  3 
+LUM  O2    .  O  0  ?  ?  ?  1  4 
+LUM  N3    .  N  0  ?  ?  ?  1  5 
+LUM  C4    .  C  0  ?  ?  ?  1  6 
+LUM  O4    .  O  0  ?  ?  ?  1  7 
+LUM  C4A   .  C  0  ?  ?  ?  1  8 
+LUM  N5    .  N  0  ?  ?  ?  1  9 
+LUM  C5A   .  C  0  ?  ?  ?  1  10
+LUM  C6    .  C  0  ?  ?  ?  1  11
+LUM  C9A   .  C  0  ?  ?  ?  1  12
+LUM  C7    .  C  0  ?  ?  ?  1  13
+LUM  C7M   .  C  0  ?  ?  ?  1  14
+LUM  C8    .  C  0  ?  ?  ?  1  15
+LUM  C8M   .  C  0  ?  ?  ?  1  16
+LUM  C9    .  C  0  ?  ?  ?  1  17
+LUM  N10   .  N  0  ?  ?  ?  1  18
+LUM  HN1   .  H  0  ?  ?  ?  1  19
+LUM  HN3   .  H  0  ?  ?  ?  1  20
+LUM  HC6   .  H  0  ?  ?  ?  1  21
+LUM  1H7M  .  H  0  ?  ?  ?  0  22
+LUM  2H7M  .  H  0  ?  ?  ?  0  23
+LUM  3H7M  .  H  0  ?  ?  ?  0  24
+LUM  1H8M  .  H  0  ?  ?  ?  0  25
+LUM  2H8M  .  H  0  ?  ?  ?  0  26
+LUM  3H8M  .  H  0  ?  ?  ?  0  27
+LUM  HC9   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LUM  N1   C2    SING  1 
+LUM  N1   C10   SING  2 
+LUM  N1   HN1   SING  3 
+LUM  C2   O2    DOUB  4 
+LUM  C2   N3    SING  5 
+LUM  C10  C4A   AROM  6 
+LUM  C10  N10   AROM  7 
+LUM  N3   C4    SING  8 
+LUM  N3   HN3   SING  9 
+LUM  C4   O4    DOUB  10
+LUM  C4   C4A   SING  11
+LUM  C4A  N5    AROM  12
+LUM  N5   C5A   AROM  13
+LUM  C5A  C6    AROM  14
+LUM  C5A  C9A   AROM  15
+LUM  C6   C7    AROM  16
+LUM  C6   HC6   SING  17
+LUM  C9A  C9    AROM  18
+LUM  C9A  N10   AROM  19
+LUM  C7   C7M   SING  20
+LUM  C7   C8    AROM  21
+LUM  C7M  1H7M  SING  22
+LUM  C7M  2H7M  SING  23
+LUM  C7M  3H7M  SING  24
+LUM  C8   C8M   SING  25
+LUM  C8   C9    AROM  26
+LUM  C8M  1H8M  SING  27
+LUM  C8M  2H8M  SING  28
+LUM  C8M  3H8M  SING  29
+LUM  C9   HC9   SING  30
+#

@@ -1,0 +1,89 @@
+data_TRX
+#
+_chem_comp.id                       TRX
+_chem_comp.name                     6-HYDROXYTRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H12 N2 O3'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            220.227
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRX  N    .  N  0  ?  ?  ?  1  1 
+TRX  CA   .  C  0  ?  ?  ?  1  2 
+TRX  C    .  C  0  ?  ?  ?  1  3 
+TRX  O    .  O  0  ?  ?  ?  1  4 
+TRX  CB   .  C  0  ?  ?  ?  1  5 
+TRX  CG   .  C  0  ?  ?  ?  1  6 
+TRX  CD1  .  C  0  ?  ?  ?  1  7 
+TRX  CD2  .  C  0  ?  ?  ?  1  8 
+TRX  NE1  .  N  0  ?  ?  ?  1  9 
+TRX  CE2  .  C  0  ?  ?  ?  1  10
+TRX  CE3  .  C  0  ?  ?  ?  1  11
+TRX  CZ2  .  C  0  ?  ?  ?  1  12
+TRX  CZ3  .  C  0  ?  ?  ?  1  13
+TRX  CH2  .  C  0  ?  ?  ?  1  14
+TRX  OH2  .  O  0  ?  ?  ?  1  15
+TRX  OXT  .  O  0  ?  ?  ?  1  16
+TRX  H    .  H  0  ?  ?  ?  1  17
+TRX  HN2  .  H  0  ?  ?  ?  1  18
+TRX  HA   .  H  0  ?  ?  ?  1  19
+TRX  1HB  .  H  0  ?  ?  ?  0  20
+TRX  2HB  .  H  0  ?  ?  ?  0  21
+TRX  HD1  .  H  0  ?  ?  ?  1  22
+TRX  HE1  .  H  0  ?  ?  ?  1  23
+TRX  HE3  .  H  0  ?  ?  ?  1  24
+TRX  HZ2  .  H  0  ?  ?  ?  1  25
+TRX  HZ3  .  H  0  ?  ?  ?  1  26
+TRX  HH2  .  H  0  ?  ?  ?  1  27
+TRX  HXT  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRX  N    CA   SING  1 
+TRX  N    H    SING  2 
+TRX  N    HN2  SING  3 
+TRX  CA   C    SING  4 
+TRX  CA   CB   SING  5 
+TRX  CA   HA   SING  6 
+TRX  C    O    DOUB  7 
+TRX  C    OXT  SING  8 
+TRX  CB   CG   SING  9 
+TRX  CB   1HB  SING  10
+TRX  CB   2HB  SING  11
+TRX  CG   CD1  DOUB  12
+TRX  CG   CD2  SING  13
+TRX  CD1  NE1  SING  14
+TRX  CD1  HD1  SING  15
+TRX  CD2  CE2  DOUB  16
+TRX  CD2  CE3  SING  17
+TRX  NE1  CE2  SING  18
+TRX  NE1  HE1  SING  19
+TRX  CE2  CZ2  SING  20
+TRX  CE3  CZ3  DOUB  21
+TRX  CE3  HE3  SING  22
+TRX  CZ2  CH2  DOUB  23
+TRX  CZ2  HZ2  SING  24
+TRX  CZ3  CH2  SING  25
+TRX  CZ3  HZ3  SING  26
+TRX  CH2  OH2  SING  27
+TRX  OH2  HH2  SING  28
+TRX  OXT  HXT  SING  29
+#

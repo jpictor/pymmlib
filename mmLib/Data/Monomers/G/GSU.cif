@@ -1,0 +1,140 @@
+data_GSU
+#
+_chem_comp.id                       GSU
+_chem_comp.name                     O5'-(L-GLUTAMYL-SULFAMOYL)-ADENOSINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C15 H21 N7 O9 S1'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            475.432
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GSU  C2    .  C  0  31.424  74.878  54.371  1  1 
+GSU  S     .  S  0  39.330  78.838  54.728  1  2 
+GSU  N     .  N  0  40.745  82.225  52.568  1  3 
+GSU  CA    .  C  0  39.309  82.410  52.896  1  4 
+GSU  CB    .  C  0  38.647  82.379  51.510  1  5 
+GSU  CG    .  C  0  37.259  82.956  51.378  1  6 
+GSU  CD    .  C  0  36.839  83.047  49.934  1  7 
+GSU  OE1   .  O  0  36.573  84.115  49.402  1  8 
+GSU  OE2   .  O  0  36.793  81.906  49.284  1  9 
+GSU  C     .  C  0  38.744  81.233  53.710  1  10
+GSU  O     .  O  0  37.589  81.163  54.129  1  11
+GSU  N10   .  N  0  39.637  80.239  53.918  1  12
+GSU  O1S   .  O  0  38.921  79.146  56.098  1  13
+GSU  O2S   .  O  0  40.539  78.008  54.695  1  14
+GSU  O5*   .  O  0  38.136  78.038  54.054  1  15
+GSU  C5*   .  C  0  38.218  77.808  52.686  1  16
+GSU  C4*   .  C  0  36.901  77.573  51.963  1  17
+GSU  O4*   .  O  0  36.110  76.630  52.692  1  18
+GSU  C1*   .  C  0  34.929  77.284  53.165  1  19
+GSU  N9    .  N  0  34.483  76.722  54.521  1  20
+GSU  C4    .  C  0  33.354  75.977  54.753  1  21
+GSU  N3    .  N  0  32.423  75.605  53.822  1  22
+GSU  N1    .  N  0  31.279  74.523  55.656  1  23
+GSU  C6    .  C  0  32.240  74.917  56.573  1  24
+GSU  N6    .  N  0  32.096  74.563  57.864  1  25
+GSU  C5    .  C  0  33.347  75.694  56.101  1  26
+GSU  N7    .  N  0  34.431  76.229  56.713  1  27
+GSU  C8    .  C  0  35.081  76.831  55.742  1  28
+GSU  C2*   .  C  0  35.227  78.819  53.150  1  29
+GSU  O2*   .  O  0  34.043  79.617  53.114  1  30
+GSU  C3*   .  C  0  36.122  78.884  51.926  1  31
+GSU  O3*   .  O  0  35.339  78.987  50.733  1  32
+GSU  HE1   .  H  0  ?       ?       ?       1  33
+GSU  1HG   .  H  0  ?       ?       ?       0  34
+GSU  2HG   .  H  0  ?       ?       ?       0  35
+GSU  1HB   .  H  0  ?       ?       ?       0  36
+GSU  2HB   .  H  0  ?       ?       ?       0  37
+GSU  HA    .  H  0  ?       ?       ?       1  38
+GSU  1HN   .  H  0  ?       ?       ?       0  39
+GSU  2HN   .  H  0  ?       ?       ?       0  40
+GSU  H10   .  H  0  ?       ?       ?       1  41
+GSU  1H5*  .  H  0  ?       ?       ?       0  42
+GSU  2H5*  .  H  0  ?       ?       ?       0  43
+GSU  H4*   .  H  0  ?       ?       ?       1  44
+GSU  H1*   .  H  0  ?       ?       ?       1  45
+GSU  H8    .  H  0  ?       ?       ?       1  46
+GSU  H2    .  H  0  ?       ?       ?       1  47
+GSU  1HN6  .  H  0  ?       ?       ?       0  48
+GSU  2HN6  .  H  0  ?       ?       ?       0  49
+GSU  H2*   .  H  0  ?       ?       ?       1  50
+GSU  *HO2  .  H  0  ?       ?       ?       0  51
+GSU  H3*   .  H  0  ?       ?       ?       1  52
+GSU  *HO3  .  H  0  ?       ?       ?       0  53
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GSU  C2   N1    AROM  1 
+GSU  C2   H2    SING  2 
+GSU  C2   N3    AROM  3 
+GSU  S    N10   SING  4 
+GSU  S    O1S   DOUB  5 
+GSU  S    O2S   DOUB  6 
+GSU  S    O5*   SING  7 
+GSU  N    CA    SING  8 
+GSU  N    1HN   SING  9 
+GSU  N    2HN   SING  10
+GSU  CA   CB    SING  11
+GSU  CA   HA    SING  12
+GSU  CA   C     SING  13
+GSU  CB   CG    SING  14
+GSU  CB   1HB   SING  15
+GSU  CB   2HB   SING  16
+GSU  CG   CD    SING  17
+GSU  CG   1HG   SING  18
+GSU  CG   2HG   SING  19
+GSU  CD   OE1   SING  20
+GSU  CD   OE2   DOUB  21
+GSU  OE1  HE1   SING  22
+GSU  C    O     DOUB  23
+GSU  C    N10   SING  24
+GSU  N10  H10   SING  25
+GSU  O5*  C5*   SING  26
+GSU  C5*  1H5*  SING  27
+GSU  C5*  2H5*  SING  28
+GSU  C5*  C4*   SING  29
+GSU  C4*  H4*   SING  30
+GSU  C4*  O4*   SING  31
+GSU  C4*  C3*   SING  32
+GSU  O4*  C1*   SING  33
+GSU  C1*  H1*   SING  34
+GSU  C1*  N9    SING  35
+GSU  C1*  C2*   SING  36
+GSU  N9   C8    SING  37
+GSU  N9   C4    SING  38
+GSU  C4   N3    AROM  39
+GSU  C4   C5    AROM  40
+GSU  N1   C6    AROM  41
+GSU  C6   C5    AROM  42
+GSU  C6   N6    SING  43
+GSU  N6   1HN6  SING  44
+GSU  N6   2HN6  SING  45
+GSU  C5   N7    SING  46
+GSU  N7   C8    DOUB  47
+GSU  C8   H8    SING  48
+GSU  C2*  H2*   SING  49
+GSU  C2*  O2*   SING  50
+GSU  C2*  C3*   SING  51
+GSU  O2*  *HO2  SING  52
+GSU  C3*  H3*   SING  53
+GSU  C3*  O3*   SING  54
+GSU  O3*  *HO3  SING  55
+#

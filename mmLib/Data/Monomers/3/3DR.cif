@@ -1,0 +1,78 @@
+data_3DR
+#
+_chem_comp.id                   3DR
+_chem_comp.name                 1',2'-DIDEOXYRIBOFURANOSE-5'-PHOSPHATE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C5 H11 O6 P1'
+_chem_comp.pdbx_synonyms        'ABASIC DIDEOXYRIBOSE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.112
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3DR  O5*   .  O  0  ?  ?  ?  1  1 
+3DR  P     .  P  0  ?  ?  ?  1  2 
+3DR  O1P   .  O  0  ?  ?  ?  1  3 
+3DR  O2P   .  O  0  ?  ?  ?  1  4 
+3DR  O3P   .  O  0  ?  ?  ?  1  5 
+3DR  C2*   .  C  0  ?  ?  ?  1  6 
+3DR  C5*   .  C  0  ?  ?  ?  1  7 
+3DR  C4*   .  C  0  ?  ?  ?  1  8 
+3DR  O4*   .  O  0  ?  ?  ?  1  9 
+3DR  C1*   .  C  0  ?  ?  ?  1  10
+3DR  C3*   .  C  0  ?  ?  ?  1  11
+3DR  O3*   .  O  0  ?  ?  ?  1  12
+3DR  2HOP  .  H  0  ?  ?  ?  0  13
+3DR  3HOP  .  H  0  ?  ?  ?  0  14
+3DR  1H5*  .  H  0  ?  ?  ?  0  15
+3DR  2H5*  .  H  0  ?  ?  ?  0  16
+3DR  1H4*  .  H  0  ?  ?  ?  0  17
+3DR  H3*   .  H  0  ?  ?  ?  1  18
+3DR  HO3*  .  H  0  ?  ?  ?  0  19
+3DR  1H2*  .  H  0  ?  ?  ?  0  20
+3DR  2H2*  .  H  0  ?  ?  ?  0  21
+3DR  1H1*  .  H  0  ?  ?  ?  0  22
+3DR  2H1*  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3DR  O5*  P     SING  1 
+3DR  O5*  C5*   SING  2 
+3DR  P    O1P   DOUB  3 
+3DR  P    O2P   SING  4 
+3DR  P    O3P   SING  5 
+3DR  O2P  2HOP  SING  6 
+3DR  O3P  3HOP  SING  7 
+3DR  C2*  C1*   SING  8 
+3DR  C2*  C3*   SING  9 
+3DR  C2*  1H2*  SING  10
+3DR  C2*  2H2*  SING  11
+3DR  C5*  C4*   SING  12
+3DR  C5*  1H5*  SING  13
+3DR  C5*  2H5*  SING  14
+3DR  C4*  O4*   SING  15
+3DR  C4*  C3*   SING  16
+3DR  C4*  1H4*  SING  17
+3DR  O4*  C1*   SING  18
+3DR  C1*  1H1*  SING  19
+3DR  C1*  2H1*  SING  20
+3DR  C3*  O3*   SING  21
+3DR  C3*  H3*   SING  22
+3DR  O3*  HO3*  SING  23
+#

@@ -1,0 +1,143 @@
+data_MOD
+#
+_chem_comp.id                   MOD
+_chem_comp.name                 'L-METHIONYL ADENYLATE'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C15 H25 N6 O7 P1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        464.432
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOD  N2    .  N  0  13.519  8.169   19.724  1  1 
+MOD  CA    .  C  0  13.035  9.508   20.116  1  2 
+MOD  CB    .  C  0  11.537  9.575   20.465  1  3 
+MOD  CG    .  C  0  10.564  9.106   19.376  1  4 
+MOD  SD    .  S  0  8.903   9.291   20.024  1  5 
+MOD  CE    .  C  0  7.931   8.701   18.615  1  6 
+MOD  C9    .  C  0  13.819  10.012  21.342  1  7 
+MOD  O1    .  O  0  14.372  8.995   22.066  1  8 
+MOD  P1    .  P  0  15.204  9.370   23.387  1  9 
+MOD  O1S   .  O  0  15.610  8.061   23.817  1  10
+MOD  O2S   .  O  0  16.275  10.285  23.053  1  11
+MOD  O5*   .  O  0  14.234  10.013  24.451  1  12
+MOD  C5*   .  C  0  13.075  9.308   24.953  1  13
+MOD  C4*   .  C  0  12.350  10.231  25.946  1  14
+MOD  O4*   .  O  0  13.249  10.345  27.045  1  15
+MOD  C3*   .  C  0  12.161  11.654  25.377  1  16
+MOD  O3*   .  O  0  10.780  11.999  25.507  1  17
+MOD  C2*   .  C  0  13.081  12.511  26.228  1  18
+MOD  O2*   .  O  0  12.626  13.836  26.377  1  19
+MOD  C1*   .  C  0  13.252  11.685  27.510  1  20
+MOD  N9    .  N  0  14.543  12.017  28.126  1  21
+MOD  C8    .  C  0  15.817  11.825  27.665  1  22
+MOD  N7    .  N  0  16.770  12.271  28.501  1  23
+MOD  C5    .  C  0  16.087  12.788  29.578  1  24
+MOD  C6    .  C  0  16.431  13.402  30.777  1  25
+MOD  N6    .  N  0  17.716  13.610  31.095  1  26
+MOD  N1    .  N  0  15.471  13.815  31.673  1  27
+MOD  C2    .  C  0  14.136  13.632  31.397  1  28
+MOD  N3    .  N  0  13.704  13.041  30.241  1  29
+MOD  C4    .  C  0  14.679  12.628  29.347  1  30
+MOD  1HE   .  H  0  ?       ?       ?       0  31
+MOD  2HE   .  H  0  ?       ?       ?       0  32
+MOD  3HE   .  H  0  ?       ?       ?       0  33
+MOD  1HG   .  H  0  ?       ?       ?       0  34
+MOD  2HG   .  H  0  ?       ?       ?       0  35
+MOD  1HB   .  H  0  ?       ?       ?       0  36
+MOD  2HB   .  H  0  ?       ?       ?       0  37
+MOD  HA    .  H  0  ?       ?       ?       1  38
+MOD  1HN2  .  H  0  ?       ?       ?       0  39
+MOD  2HN2  .  H  0  ?       ?       ?       0  40
+MOD  1H9   .  H  0  ?       ?       ?       0  41
+MOD  2H9   .  H  0  ?       ?       ?       0  42
+MOD  H2S   .  H  0  ?       ?       ?       1  43
+MOD  1H5*  .  H  0  ?       ?       ?       0  44
+MOD  2H5*  .  H  0  ?       ?       ?       0  45
+MOD  H4*   .  H  0  ?       ?       ?       1  46
+MOD  H1*   .  H  0  ?       ?       ?       1  47
+MOD  H2*   .  H  0  ?       ?       ?       1  48
+MOD  H1    .  H  0  ?       ?       ?       1  49
+MOD  H3*   .  H  0  ?       ?       ?       1  50
+MOD  H2    .  H  0  ?       ?       ?       1  51
+MOD  H8    .  H  0  ?       ?       ?       1  52
+MOD  1HN6  .  H  0  ?       ?       ?       0  53
+MOD  2HN6  .  H  0  ?       ?       ?       0  54
+MOD  H3    .  H  0  ?       ?       ?       1  55
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOD  N2   CA    SING  1 
+MOD  N2   1HN2  SING  2 
+MOD  N2   2HN2  SING  3 
+MOD  CA   CB    SING  4 
+MOD  CA   C9    SING  5 
+MOD  CA   HA    SING  6 
+MOD  CB   CG    SING  7 
+MOD  CB   1HB   SING  8 
+MOD  CB   2HB   SING  9 
+MOD  CG   SD    SING  10
+MOD  CG   1HG   SING  11
+MOD  CG   2HG   SING  12
+MOD  SD   CE    SING  13
+MOD  CE   1HE   SING  14
+MOD  CE   2HE   SING  15
+MOD  CE   3HE   SING  16
+MOD  C9   O1    SING  17
+MOD  C9   1H9   SING  18
+MOD  C9   2H9   SING  19
+MOD  O1   P1    SING  20
+MOD  P1   O1S   DOUB  21
+MOD  P1   O2S   SING  22
+MOD  P1   O5*   SING  23
+MOD  O2S  H2S   SING  24
+MOD  O5*  C5*   SING  25
+MOD  C5*  C4*   SING  26
+MOD  C5*  1H5*  SING  27
+MOD  C5*  2H5*  SING  28
+MOD  C4*  O4*   SING  29
+MOD  C4*  C3*   SING  30
+MOD  C4*  H4*   SING  31
+MOD  O4*  C1*   SING  32
+MOD  C3*  C2*   SING  33
+MOD  C3*  O3*   SING  34
+MOD  C3*  H3*   SING  35
+MOD  O3*  H2    SING  36
+MOD  C2*  C1*   SING  37
+MOD  C2*  O2*   SING  38
+MOD  C2*  H2*   SING  39
+MOD  O2*  H1    SING  40
+MOD  C1*  N9    SING  41
+MOD  C1*  H1*   SING  42
+MOD  N9   C8    SING  43
+MOD  N9   C4    SING  44
+MOD  C8   N7    DOUB  45
+MOD  C8   H8    SING  46
+MOD  N7   C5    SING  47
+MOD  C5   C6    SING  48
+MOD  C5   C4    DOUB  49
+MOD  C6   N6    SING  50
+MOD  C6   N1    DOUB  51
+MOD  N6   1HN6  SING  52
+MOD  N6   2HN6  SING  53
+MOD  N1   C2    SING  54
+MOD  C2   N3    DOUB  55
+MOD  C2   H3    SING  56
+MOD  N3   C4    SING  57
+#

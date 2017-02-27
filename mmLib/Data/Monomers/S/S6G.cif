@@ -1,0 +1,108 @@
+data_S6G
+#
+_chem_comp.id                       S6G
+_chem_comp.name                     6-THIO-2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O6 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  G
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            363.284
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+S6G  P     .  P  0  ?  ?  ?  1  1 
+S6G  O1P   .  O  0  ?  ?  ?  1  2 
+S6G  O2P   .  O  0  ?  ?  ?  1  3 
+S6G  O3P   .  O  0  ?  ?  ?  1  4 
+S6G  O5*   .  O  0  ?  ?  ?  1  5 
+S6G  C5*   .  C  0  ?  ?  ?  1  6 
+S6G  C4*   .  C  0  ?  ?  ?  1  7 
+S6G  O4*   .  O  0  ?  ?  ?  1  8 
+S6G  C3*   .  C  0  ?  ?  ?  1  9 
+S6G  O3*   .  O  0  ?  ?  ?  1  10
+S6G  C2*   .  C  0  ?  ?  ?  1  11
+S6G  C1*   .  C  0  ?  ?  ?  1  12
+S6G  N9    .  N  0  ?  ?  ?  1  13
+S6G  C8    .  C  0  ?  ?  ?  1  14
+S6G  N7    .  N  0  ?  ?  ?  1  15
+S6G  C5    .  C  0  ?  ?  ?  1  16
+S6G  C6    .  C  0  ?  ?  ?  1  17
+S6G  S6    .  S  0  ?  ?  ?  1  18
+S6G  N1    .  N  0  ?  ?  ?  1  19
+S6G  C2    .  C  0  ?  ?  ?  1  20
+S6G  N2    .  N  0  ?  ?  ?  1  21
+S6G  N3    .  N  0  ?  ?  ?  1  22
+S6G  C4    .  C  0  ?  ?  ?  1  23
+S6G  2HOP  .  H  0  ?  ?  ?  0  24
+S6G  3HOP  .  H  0  ?  ?  ?  0  25
+S6G  1H5*  .  H  0  ?  ?  ?  0  26
+S6G  2H5*  .  H  0  ?  ?  ?  0  27
+S6G  H4*   .  H  0  ?  ?  ?  1  28
+S6G  H3*   .  H  0  ?  ?  ?  1  29
+S6G  *HO3  .  H  0  ?  ?  ?  0  30
+S6G  1H2*  .  H  0  ?  ?  ?  0  31
+S6G  2H2*  .  H  0  ?  ?  ?  0  32
+S6G  H1*   .  H  0  ?  ?  ?  1  33
+S6G  H8    .  H  0  ?  ?  ?  1  34
+S6G  HN1   .  H  0  ?  ?  ?  1  35
+S6G  1HN2  .  H  0  ?  ?  ?  0  36
+S6G  2HN2  .  H  0  ?  ?  ?  0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+S6G  P    O1P   DOUB  1 
+S6G  P    O2P   SING  2 
+S6G  P    O3P   SING  3 
+S6G  P    O5*   SING  4 
+S6G  O2P  2HOP  SING  5 
+S6G  O3P  3HOP  SING  6 
+S6G  O5*  C5*   SING  7 
+S6G  C5*  C4*   SING  8 
+S6G  C5*  1H5*  SING  9 
+S6G  C5*  2H5*  SING  10
+S6G  C4*  O4*   SING  11
+S6G  C4*  C3*   SING  12
+S6G  C4*  H4*   SING  13
+S6G  O4*  C1*   SING  14
+S6G  C3*  O3*   SING  15
+S6G  C3*  C2*   SING  16
+S6G  C3*  H3*   SING  17
+S6G  O3*  *HO3  SING  18
+S6G  C2*  C1*   SING  19
+S6G  C2*  1H2*  SING  20
+S6G  C2*  2H2*  SING  21
+S6G  C1*  N9    SING  22
+S6G  C1*  H1*   SING  23
+S6G  N9   C8    SING  24
+S6G  N9   C4    SING  25
+S6G  C8   N7    DOUB  26
+S6G  C8   H8    SING  27
+S6G  N7   C5    SING  28
+S6G  C5   C6    SING  29
+S6G  C5   C4    DOUB  30
+S6G  C6   S6    DOUB  31
+S6G  C6   N1    SING  32
+S6G  N1   C2    SING  33
+S6G  N1   HN1   SING  34
+S6G  C2   N2    SING  35
+S6G  C2   N3    DOUB  36
+S6G  N2   1HN2  SING  37
+S6G  N2   2HN2  SING  38
+S6G  N3   C4    SING  39
+#

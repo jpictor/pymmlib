@@ -1,0 +1,60 @@
+data_OGA
+#
+_chem_comp.id                   OGA
+_chem_comp.name                 N-OXALYOLGLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H5 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        147.087
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OGA  C1    .  C  0  22.262  25.308  27.891  1  1 
+OGA  C2    .  C  0  21.209  25.94   28.487  1  2 
+OGA  C4    .  C  0  18.882  25.73   29.253  1  3 
+OGA  C5    .  C  0  17.543  25.251  28.735  1  4 
+OGA  O1    .  O  0  22.091  24.207  27.399  1  5 
+OGA  O2    .  O  0  23.404  25.817  27.813  1  6 
+OGA  O2'   .  O  0  21.299  27.077  29.004  1  7 
+OGA  O3    .  O  0  17.43   24.476  27.795  1  8 
+OGA  N1    .  N  0  20.067  25.271  28.52   1  9 
+OGA  O4    .  O  0  16.551  25.641  29.307  1  10
+OGA  H1    .  H  0  20.008  24.39   28.009  1  11
+OGA  1H4C  .  H  0  18.885  26.843  29.313  0  12
+OGA  2H4C  .  H  0  18.983  25.468  30.332  0  13
+OGA  H3    .  H  0  ?       ?       ?       1  14
+OGA  H2    .  H  0  ?       ?       ?       1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OGA  C1  C2    SING  1 
+OGA  C1  O1    DOUB  2 
+OGA  C1  O2    SING  3 
+OGA  C2  O2'   DOUB  4 
+OGA  C2  N1    SING  5 
+OGA  C4  C5    SING  6 
+OGA  C4  N1    SING  7 
+OGA  C4  1H4C  SING  8 
+OGA  C4  2H4C  SING  9 
+OGA  C5  O4    DOUB  10
+OGA  C5  O3    SING  11
+OGA  O2  H2    SING  12
+OGA  O3  H3    SING  13
+OGA  N1  H1    SING  14
+#

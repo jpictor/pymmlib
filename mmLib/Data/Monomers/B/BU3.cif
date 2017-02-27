@@ -1,0 +1,62 @@
+data_BU3
+#
+_chem_comp.id                   BU3
+_chem_comp.name                 (R,R)-2,3-BUTANEDIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H10 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        90.122
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BU3  O6   .  O  0  6.270  57.067  20.748  1  1 
+BU3  C3   .  C  0  6.324  55.896  21.558  1  2 
+BU3  C4   .  C  0  6.912  56.276  22.925  1  3 
+BU3  C2   .  C  0  7.125  54.765  20.876  1  4 
+BU3  O5   .  O  0  6.529  54.315  19.654  1  5 
+BU3  C1   .  C  0  7.225  53.581  21.840  1  6 
+BU3  1H1  .  H  0  ?      ?       ?       0  7 
+BU3  2H1  .  H  0  ?      ?       ?       0  8 
+BU3  3H1  .  H  0  ?      ?       ?       0  9 
+BU3  1H4  .  H  0  ?      ?       ?       0  10
+BU3  2H4  .  H  0  ?      ?       ?       0  11
+BU3  3H4  .  H  0  ?      ?       ?       0  12
+BU3  H2   .  H  0  ?      ?       ?       1  13
+BU3  H3   .  H  0  ?      ?       ?       1  14
+BU3  HO5  .  H  0  ?      ?       ?       1  15
+BU3  HO6  .  H  0  ?      ?       ?       1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BU3  O6  C3   SING  1 
+BU3  O6  HO6  SING  2 
+BU3  C3  C4   SING  3 
+BU3  C3  C2   SING  4 
+BU3  C3  H3   SING  5 
+BU3  C4  1H4  SING  6 
+BU3  C4  2H4  SING  7 
+BU3  C4  3H4  SING  8 
+BU3  C2  O5   SING  9 
+BU3  C2  C1   SING  10
+BU3  C2  H2   SING  11
+BU3  O5  HO5  SING  12
+BU3  C1  1H1  SING  13
+BU3  C1  2H1  SING  14
+BU3  C1  3H1  SING  15
+#

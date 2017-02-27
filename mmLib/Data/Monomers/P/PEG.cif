@@ -1,0 +1,64 @@
+data_PEG
+#
+_chem_comp.id                   PEG
+_chem_comp.name                 DI(HYDROXYETHYL)ETHER
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAS
+_chem_comp.formula              'C4 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        106.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEG  C1   .  C  0  ?  ?  ?  1  1 
+PEG  O1   .  O  0  ?  ?  ?  1  2 
+PEG  C2   .  C  0  ?  ?  ?  1  3 
+PEG  O2   .  O  0  ?  ?  ?  1  4 
+PEG  C3   .  C  0  ?  ?  ?  1  5 
+PEG  C4   .  C  0  ?  ?  ?  1  6 
+PEG  O4   .  O  0  ?  ?  ?  1  7 
+PEG  1H1  .  H  0  ?  ?  ?  0  8 
+PEG  2H1  .  H  0  ?  ?  ?  0  9 
+PEG  HO1  .  H  0  ?  ?  ?  1  10
+PEG  1H2  .  H  0  ?  ?  ?  0  11
+PEG  2H2  .  H  0  ?  ?  ?  0  12
+PEG  1H3  .  H  0  ?  ?  ?  0  13
+PEG  2H3  .  H  0  ?  ?  ?  0  14
+PEG  1H4  .  H  0  ?  ?  ?  0  15
+PEG  2H4  .  H  0  ?  ?  ?  0  16
+PEG  HO4  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEG  C1  C2   SING  1 
+PEG  C1  O1   SING  2 
+PEG  C1  1H1  SING  3 
+PEG  C1  2H1  SING  4 
+PEG  O1  HO1  SING  5 
+PEG  C2  O2   SING  6 
+PEG  C2  1H2  SING  7 
+PEG  C2  2H2  SING  8 
+PEG  O2  C3   SING  9 
+PEG  C3  C4   SING  10
+PEG  C3  1H3  SING  11
+PEG  C3  2H3  SING  12
+PEG  C4  O4   SING  13
+PEG  C4  1H4  SING  14
+PEG  C4  2H4  SING  15
+PEG  O4  HO4  SING  16
+#

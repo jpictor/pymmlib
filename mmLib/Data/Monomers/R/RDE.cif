@@ -1,0 +1,126 @@
+data_RDE
+#
+_chem_comp.id                   RDE
+_chem_comp.name                 '2-(3-AMINO-2,5,6-TRIMETHOXYPHENYL)ETHYL 5-CHLORO-2,4-DIHYDROXYBENZOATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H20 N1 O7 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        397.811
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+RDE  CAC   .  C   0  12.880  7.100   1.700   1  1 
+RDE  OAP   .  O   0  12.630  6.600   0.370   1  2 
+RDE  CBA   .  C   0  12.480  5.240   0.280   1  3 
+RDE  CAW   .  C   0  13.640  4.460   0.110   1  4 
+RDE  OAN   .  O   0  14.850  5.110   0.080   1  5 
+RDE  CAA   .  C   0  15.880  4.700   -0.840  1  6 
+RDE  CAJ   .  C   0  13.520  3.060   0.010   1  7 
+RDE  CAS   .  C   0  12.260  2.460   0.080   1  8 
+RDE  NAD   .  N   0  12.190  1.140   -0.020  1  9 
+RDE  CAZ   .  C   0  11.100  3.250   0.250   1  10
+RDE  OAO   .  O   0  9.880   2.630   0.300   1  11
+RDE  CAB   .  C   0  9.480   2.170   1.610   1  12
+RDE  CAY   .  C   0  11.190  4.660   0.350   1  13
+RDE  CAM   .  C   0  9.930   5.530   0.500   1  14
+RDE  CAL   .  C   0  9.540   6.220   -0.810  1  15
+RDE  OAQ   .  O   0  8.400   7.110   -0.680  1  16
+RDE  CAR   .  C   0  8.590   8.350   -0.120  1  17
+RDE  OAE   .  O   0  9.680   8.710   0.320   1  18
+RDE  CAX   .  C   0  7.370   9.290   -0.040  1  19
+RDE  CAK   .  C   0  6.090   8.710   0.020   1  20
+RDE  CAV   .  C   0  4.960   9.540   0.100   1  21
+RDE  CLAH  .  CL  0  3.410   8.750   0.160   0  22
+RDE  CAT   .  C   0  5.100   10.940  0.130   1  23
+RDE  OAF   .  O   0  4.030   11.780  0.210   1  24
+RDE  CAI   .  C   0  6.380   11.530  0.080   1  25
+RDE  CAU   .  C   0  7.500   10.700  -0.010  1  26
+RDE  OAG   .  O   0  8.720   11.310  -0.070  1  27
+RDE  HAA   .  H   0  4.350   12.730  0.200   1  28
+RDE  1HAI  .  H   0  6.484   12.524  0.108   0  29
+RDE  HAB   .  H   0  8.600   12.300  -0.010  1  30
+RDE  1HAK  .  H   0  5.986   7.716   0.006   0  31
+RDE  1HAL  .  H   0  9.316   5.516   -1.484  0  32
+RDE  2HAL  .  H   0  10.322  6.753   -1.132  0  33
+RDE  1HAM  .  H   0  10.103  6.230   1.193   0  34
+RDE  2HAM  .  H   0  9.172   4.949   0.795   0  35
+RDE  1HAC  .  H   0  12.975  8.095   1.670   0  36
+RDE  2HAC  .  H   0  12.116  6.857   2.297   0  37
+RDE  3HAC  .  H   0  13.722  6.695   2.056   0  38
+RDE  1HAA  .  H   0  16.685  5.282   -0.721  0  39
+RDE  2HAA  .  H   0  16.128  3.748   -0.661  0  40
+RDE  3HAA  .  H   0  15.543  4.785   -1.778  0  41
+RDE  1HAJ  .  H   0  14.337  2.496   -0.111  0  42
+RDE  HAD   .  H   0  11.300  0.670   0.020   1  43
+RDE  HAC   .  H   0  13.020  0.600   -0.140  1  44
+RDE  1HAB  .  H   0  8.583   1.733   1.551   0  45
+RDE  2HAB  .  H   0  10.150  1.510   1.951   0  46
+RDE  3HAB  .  H   0  9.431   2.948   2.236   0  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+RDE  CAC  OAP   SING  1 
+RDE  CAC  1HAC  SING  2 
+RDE  CAC  2HAC  SING  3 
+RDE  CAC  3HAC  SING  4 
+RDE  OAP  CBA   SING  5 
+RDE  CBA  CAY   AROM  6 
+RDE  CBA  CAW   AROM  7 
+RDE  CAW  OAN   SING  8 
+RDE  CAW  CAJ   AROM  9 
+RDE  OAN  CAA   SING  10
+RDE  CAA  1HAA  SING  11
+RDE  CAA  2HAA  SING  12
+RDE  CAA  3HAA  SING  13
+RDE  CAJ  1HAJ  SING  14
+RDE  CAJ  CAS   AROM  15
+RDE  CAS  NAD   SING  16
+RDE  CAS  CAZ   AROM  17
+RDE  NAD  HAD   SING  18
+RDE  NAD  HAC   SING  19
+RDE  CAZ  CAY   AROM  20
+RDE  CAZ  OAO   SING  21
+RDE  OAO  CAB   SING  22
+RDE  CAB  1HAB  SING  23
+RDE  CAB  2HAB  SING  24
+RDE  CAB  3HAB  SING  25
+RDE  CAY  CAM   SING  26
+RDE  CAM  CAL   SING  27
+RDE  CAM  1HAM  SING  28
+RDE  CAM  2HAM  SING  29
+RDE  CAL  OAQ   SING  30
+RDE  CAL  1HAL  SING  31
+RDE  CAL  2HAL  SING  32
+RDE  OAQ  CAR   SING  33
+RDE  CAR  CAX   SING  34
+RDE  CAR  OAE   DOUB  35
+RDE  CAX  CAU   AROM  36
+RDE  CAX  CAK   AROM  37
+RDE  CAK  1HAK  SING  38
+RDE  CAK  CAV   AROM  39
+RDE  CAV  CAT   AROM  40
+RDE  CAV  CLAH  SING  41
+RDE  CAT  OAF   SING  42
+RDE  CAT  CAI   AROM  43
+RDE  OAF  HAA   SING  44
+RDE  CAI  1HAI  SING  45
+RDE  CAI  CAU   AROM  46
+RDE  CAU  OAG   SING  47
+RDE  OAG  HAB   SING  48
+#

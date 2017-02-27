@@ -1,0 +1,49 @@
+data_GOA
+#
+_chem_comp.id                   GOA
+_chem_comp.name                 'GLYCOLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H4 O3'
+_chem_comp.pdbx_synonyms        'HYDROXYACETIC ACID; HYDROXYETHANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        76.052
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GOA  C1   .  C  0  ?  ?  ?  1  1
+GOA  C2   .  C  0  ?  ?  ?  1  2
+GOA  O11  .  O  0  ?  ?  ?  1  3
+GOA  O12  .  O  0  ?  ?  ?  1  4
+GOA  O2   .  O  0  ?  ?  ?  1  5
+GOA  2H2  .  H  0  ?  ?  ?  0  6
+GOA  1H2  .  H  0  ?  ?  ?  0  7
+GOA  H2   .  H  0  ?  ?  ?  1  8
+GOA  H12  .  H  0  ?  ?  ?  1  9
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GOA  C1   C2   SING  1
+GOA  C1   O11  DOUB  2
+GOA  C1   O12  SING  3
+GOA  C2   O2   SING  4
+GOA  C2   2H2  SING  5
+GOA  C2   1H2  SING  6
+GOA  O12  H12  SING  7
+GOA  O2   H2   SING  8
+#

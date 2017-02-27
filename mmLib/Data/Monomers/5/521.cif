@@ -1,0 +1,99 @@
+data_521
+#
+_chem_comp.id                   521
+_chem_comp.name                 '5-(4-CHLORO-5-PHENYL-3-THIENYL)-1,2,5-THIADIAZOLIDIN-3-ONE 1,1-DIOXIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H9 N2 O3 CL1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        328.788
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          521
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc(cc1)C2=C(C(=CS2)N3CC(=O)NS3(=O)=O)Cl
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+521  C1    .  C   0  29.388  -32.553  1.009   1  Y  1 
+521  C2    .  C   0  30.644  -33.195  0.863   1  Y  2 
+521  C3    .  C   0  31.689  -32.566  0.140   1  Y  3 
+521  C4    .  C   0  31.508  -31.285  -0.454  1  Y  4 
+521  C5    .  C   0  30.224  -30.642  -0.295  1  Y  5 
+521  C6    .  C   0  29.176  -31.274  0.432   1  Y  6 
+521  C7    .  C   0  32.638  -30.633  -1.198  1  N  7 
+521  N1    .  N   0  34.457  -28.523  -3.748  1  N  8 
+521  N2    .  N   0  35.279  -27.497  -5.857  1  N  9 
+521  C9    .  C   0  34.033  -29.396  -2.693  1  N  10
+521  C8    .  C   0  32.684  -29.801  -2.352  1  N  11
+521  C10   .  C   0  34.929  -29.960  -1.799  1  N  12
+521  S1    .  S   0  34.224  -30.919  -0.597  1  N  13
+521  C11   .  C   0  34.482  -27.038  -3.631  1  N  14
+521  C12   .  C   0  34.991  -26.473  -4.934  1  N  15
+521  O1    .  O   0  35.132  -25.289  -5.160  1  N  16
+521  S2    .  S   0  34.986  -29.067  -5.294  1  N  17
+521  O2    .  O   0  36.256  -29.762  -5.166  1  N  18
+521  O3    .  O   0  33.873  -29.630  -6.037  1  N  19
+521  CL1   .  CL  0  31.303  -29.336  -3.263  0  N  20
+521  H1    .  H   0  28.594  -33.037  1.558   1  N  21
+521  H2    .  H   0  30.805  -34.167  1.304   1  N  22
+521  H3    .  H   0  32.640  -33.068  0.038   1  N  23
+521  H5    .  H   0  30.057  -29.669  -0.733  1  N  24
+521  H6    .  H   0  28.222  -30.781  0.544   1  N  25
+521  HN2   .  H   0  35.630  -27.311  -6.775  1  N  26
+521  H10   .  H   0  35.995  -29.800  -1.865  1  N  27
+521  1H11  .  H   0  35.147  -26.738  -2.807  0  N  28
+521  2H11  .  H   0  33.472  -26.656  -3.420  0  N  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+521  C1   C6    DOUB  Y  1 
+521  C1   C2    SING  Y  2 
+521  C1   H1    SING  N  3 
+521  C2   C3    DOUB  Y  4 
+521  C2   H2    SING  N  5 
+521  C3   C4    SING  Y  6 
+521  C3   H3    SING  N  7 
+521  C4   C7    SING  N  8 
+521  C4   C5    DOUB  Y  9 
+521  C5   C6    SING  Y  10
+521  C5   H5    SING  N  11
+521  C6   H6    SING  N  12
+521  C7   C8    DOUB  N  13
+521  C7   S1    SING  N  14
+521  N1   S2    SING  N  15
+521  N1   C11   SING  N  16
+521  N1   C9    SING  N  17
+521  N2   S2    SING  N  18
+521  N2   C12   SING  N  19
+521  N2   HN2   SING  N  20
+521  C9   C8    SING  N  21
+521  C9   C10   DOUB  N  22
+521  C8   CL1   SING  N  23
+521  C10  S1    SING  N  24
+521  C10  H10   SING  N  25
+521  C11  C12   SING  N  26
+521  C11  1H11  SING  N  27
+521  C11  2H11  SING  N  28
+521  C12  O1    DOUB  N  29
+521  S2   O3    DOUB  N  30
+521  S2   O2    DOUB  N  31
+#

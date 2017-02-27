@@ -1,0 +1,76 @@
+data_TZO
+#
+_chem_comp.id                   TZO
+_chem_comp.name                 '1,3-THIAZOLE-4-CARBOXYLIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C4 H3 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        129.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+TZO  SMILES            OC(=O)c1cscn1                                      CACTVS              2.87 
+TZO  SMILES_CANONICAL  OC(=O)c1cscn1                                      CACTVS              2.87 
+TZO  INCHI             InChI=1/C4H3NO2S/c6-4(7)3-1-8-2-5-3/h1-2H,(H,6,7)  InChi               1    
+TZO  SMILES_CANONICAL  c1c(ncs1)C(=O)O                                    OpenEye/OEToolkits  1.4.2
+TZO  SMILES            c1c(ncs1)C(=O)O                                    OpenEye/OEToolkits  1.4.2
+#
+_pdbx_chem_comp_identifier.comp_id          TZO
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '1,3-thiazole-4-carboxylic acid'
+_pdbx_chem_comp_identifier.program          OpenEye/Lexichem
+_pdbx_chem_comp_identifier.program_version  1.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+TZO  C2    .  C  0  6.836  13.094  0.622   1  Y  N  N  1 
+TZO  N1    .  N  0  6.205  14.155  0.198   1  Y  N  N  2 
+TZO  S3    .  S  0  5.775  11.701  0.688   1  Y  N  N  3 
+TZO  C5    .  C  0  4.901  13.936  -0.109  1  Y  N  N  4 
+TZO  C4    .  C  0  4.484  12.601  0.180   1  Y  N  N  5 
+TZO  C6    .  C  0  4.061  14.990  -0.577  1  N  N  N  6 
+TZO  O7    .  O  0  2.783  14.877  -0.613  1  N  N  N  7 
+TZO  O61   .  O  0  4.653  16.079  -1.038  1  N  N  Y  8 
+TZO  1HC2  .  H  0  7.895  13.301  0.846   0  N  N  N  9 
+TZO  1HC4  .  H  0  3.423  12.330  0.044   0  N  N  N  10
+TZO  HO'   .  H  0  4.093  16.780  -1.349  1  N  N  N  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+TZO  C2   N1    DOUB  Y  N  1 
+TZO  C2   S3    SING  Y  N  2 
+TZO  C2   1HC2  SING  N  N  3 
+TZO  N1   C5    SING  Y  N  4 
+TZO  S3   C4    SING  Y  N  5 
+TZO  C5   C4    DOUB  Y  N  6 
+TZO  C5   C6    SING  N  N  7 
+TZO  C4   1HC4  SING  N  N  8 
+TZO  C6   O7    DOUB  N  N  9 
+TZO  C6   O61   SING  N  N  10
+TZO  O61  HO'   SING  N  N  11
+#

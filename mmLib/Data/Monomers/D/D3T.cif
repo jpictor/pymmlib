@@ -1,0 +1,123 @@
+data_D3T
+#
+_chem_comp.id                       D3T
+_chem_comp.name                     2',3'-DIDEOXY-THYMIDINE-5'-TRIPHOSPHATE
+_chem_comp.type                     'dna oh 3 prime terminus'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H17 N2 O13 P3'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            466.171
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D3T  PA    .  P  0  62.490  190.146  22.330  1  1 
+D3T  O1A   .  O  0  62.840  188.716  22.119  1  2 
+D3T  O2A   .  O  0  61.677  190.869  21.317  1  3 
+D3T  O5*   .  O  0  61.815  190.239  23.773  1  4 
+D3T  C5*   .  C  0  61.102  191.401  24.184  1  5 
+D3T  C4*   .  C  0  61.494  191.783  25.597  1  6 
+D3T  O4*   .  O  0  61.229  190.675  26.499  1  7 
+D3T  C1*   .  C  0  62.190  190.671  27.545  1  8 
+D3T  N1    .  N  0  62.896  189.367  27.555  1  9 
+D3T  C6    .  C  0  63.020  188.603  26.410  1  10
+D3T  C2    .  C  0  63.436  188.944  28.753  1  11
+D3T  O2    .  O  0  63.357  189.586  29.785  1  12
+D3T  N3    .  N  0  64.078  187.736  28.698  1  13
+D3T  C4    .  C  0  64.241  186.921  27.598  1  14
+D3T  O4    .  O  0  64.844  185.853  27.713  1  15
+D3T  C5    .  C  0  63.661  187.422  26.370  1  16
+D3T  C5M   .  C  0  63.804  186.614  25.117  1  17
+D3T  C2*   .  C  0  63.129  191.853  27.309  1  18
+D3T  C3*   .  C  0  62.968  192.081  25.809  1  19
+D3T  O3A   .  O  0  63.817  190.975  22.639  1  20
+D3T  PB    .  P  0  64.358  192.244  21.846  1  21
+D3T  O1B   .  O  0  65.421  192.871  22.664  1  22
+D3T  O2B   .  O  0  63.208  193.061  21.384  1  23
+D3T  O3B   .  O  0  65.045  191.501  20.611  1  24
+D3T  PG    .  P  0  64.555  191.702  19.106  1  25
+D3T  O1G   .  O  0  63.069  191.596  19.063  1  26
+D3T  O2G   .  O  0  65.215  192.905  18.551  1  27
+D3T  O3G   .  O  0  65.096  190.409  18.521  1  28
+D3T  2HOG  .  H  0  ?       ?        ?       0  29
+D3T  3HOG  .  H  0  ?       ?        ?       0  30
+D3T  2HOB  .  H  0  ?       ?        ?       0  31
+D3T  2HOA  .  H  0  ?       ?        ?       0  32
+D3T  1H5*  .  H  0  ?       ?        ?       0  33
+D3T  2H5*  .  H  0  ?       ?        ?       0  34
+D3T  H4*   .  H  0  ?       ?        ?       1  35
+D3T  H1*   .  H  0  ?       ?        ?       1  36
+D3T  H6    .  H  0  ?       ?        ?       1  37
+D3T  HN3   .  H  0  ?       ?        ?       1  38
+D3T  1H5M  .  H  0  ?       ?        ?       0  39
+D3T  2H5M  .  H  0  ?       ?        ?       0  40
+D3T  3H5M  .  H  0  ?       ?        ?       0  41
+D3T  1H2*  .  H  0  ?       ?        ?       0  42
+D3T  2H2*  .  H  0  ?       ?        ?       0  43
+D3T  1H3*  .  H  0  ?       ?        ?       0  44
+D3T  2H3*  .  H  0  ?       ?        ?       0  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D3T  PA   O3A   SING  1 
+D3T  PA   O1A   DOUB  2 
+D3T  PA   O2A   SING  3 
+D3T  PA   O5*   SING  4 
+D3T  O2A  2HOA  SING  5 
+D3T  O5*  C5*   SING  6 
+D3T  C5*  1H5*  SING  7 
+D3T  C5*  2H5*  SING  8 
+D3T  C5*  C4*   SING  9 
+D3T  C4*  H4*   SING  10
+D3T  C4*  O4*   SING  11
+D3T  C4*  C3*   SING  12
+D3T  O4*  C1*   SING  13
+D3T  C1*  H1*   SING  14
+D3T  C1*  N1    SING  15
+D3T  C1*  C2*   SING  16
+D3T  N1   C6    SING  17
+D3T  N1   C2    SING  18
+D3T  C6   H6    SING  19
+D3T  C6   C5    DOUB  20
+D3T  C2   N3    SING  21
+D3T  C2   O2    DOUB  22
+D3T  N3   C4    SING  23
+D3T  N3   HN3   SING  24
+D3T  C4   C5    SING  25
+D3T  C4   O4    DOUB  26
+D3T  C5   C5M   SING  27
+D3T  C5M  1H5M  SING  28
+D3T  C5M  2H5M  SING  29
+D3T  C5M  3H5M  SING  30
+D3T  C2*  1H2*  SING  31
+D3T  C2*  2H2*  SING  32
+D3T  C2*  C3*   SING  33
+D3T  C3*  1H3*  SING  34
+D3T  C3*  2H3*  SING  35
+D3T  O3A  PB    SING  36
+D3T  PB   O3B   SING  37
+D3T  PB   O1B   DOUB  38
+D3T  PB   O2B   SING  39
+D3T  O2B  2HOB  SING  40
+D3T  O3B  PG    SING  41
+D3T  PG   O1G   DOUB  42
+D3T  PG   O2G   SING  43
+D3T  PG   O3G   SING  44
+D3T  O1G  2HOG  SING  45
+D3T  O3G  3HOG  SING  46
+#

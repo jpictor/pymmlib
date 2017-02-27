@@ -1,0 +1,66 @@
+data_APO
+#
+_chem_comp.id                   APO
+_chem_comp.name                 'D-2-AMINO-3-PHOSPHONO-PROPIONIC ACID'
+_chem_comp.type                 'D-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C3 H8 N1 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        169.074
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+APO  C1    .  C  0  -31.418  -4.168  -23.649  1  1 
+APO  N2    .  N  0  -30.143  -3.523  -23.283  1  2 
+APO  C3    .  C  0  -31.705  -5.464  -22.807  1  3 
+APO  O4    .  O  0  -32.832  -5.929  -22.701  1  4 
+APO  O5    .  O  0  -30.593  -6.037  -22.228  1  5 
+APO  C6    .  C  0  -32.525  -3.042  -23.588  1  6 
+APO  P7    .  P  0  -32.699  -2.126  -25.112  1  7 
+APO  O8    .  O  0  -31.322  -1.306  -25.280  1  8 
+APO  O9    .  O  0  -32.868  -3.130  -26.378  1  9 
+APO  O10   .  O  0  -33.855  -1.001  -25.050  1  10
+APO  HO5   .  H  0  ?        ?       ?        1  11
+APO  1HN2  .  H  0  ?        ?       ?        0  12
+APO  2HN2  .  H  0  ?        ?       ?        0  13
+APO  HC1   .  H  0  ?        ?       ?        1  14
+APO  1HC6  .  H  0  ?        ?       ?        0  15
+APO  2HC6  .  H  0  ?        ?       ?        0  16
+APO  HO8   .  H  0  ?        ?       ?        1  17
+APO  HO9   .  H  0  ?        ?       ?        1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+APO  C1  N2    SING  1 
+APO  C1  C3    SING  2 
+APO  C1  C6    SING  3 
+APO  C1  HC1   SING  4 
+APO  N2  1HN2  SING  5 
+APO  N2  2HN2  SING  6 
+APO  C3  O4    DOUB  7 
+APO  C3  O5    SING  8 
+APO  O5  HO5   SING  9 
+APO  C6  P7    SING  10
+APO  C6  1HC6  SING  11
+APO  C6  2HC6  SING  12
+APO  P7  O8    SING  13
+APO  P7  O9    SING  14
+APO  P7  O10   DOUB  15
+APO  O8  HO8   SING  16
+APO  O9  HO9   SING  17
+#

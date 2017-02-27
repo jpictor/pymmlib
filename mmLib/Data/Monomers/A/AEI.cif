@@ -1,0 +1,95 @@
+data_AEI
+#
+_chem_comp.id                       AEI
+_chem_comp.name                     'THREONINE-ASPARTIC ESTER'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H16 N2 O6'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            236.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AEI  N     .  N  0  ?  ?  ?  1  1 
+AEI  CA    .  C  0  ?  ?  ?  1  2 
+AEI  C     .  C  0  ?  ?  ?  1  3 
+AEI  O     .  O  0  ?  ?  ?  1  4 
+AEI  OXT   .  O  0  ?  ?  ?  1  5 
+AEI  CB    .  C  0  ?  ?  ?  1  6 
+AEI  CG2   .  C  0  ?  ?  ?  1  7 
+AEI  OG1   .  O  0  ?  ?  ?  1  8 
+AEI  CD    .  C  0  ?  ?  ?  1  9 
+AEI  OE1   .  O  0  ?  ?  ?  1  10
+AEI  CE2   .  C  0  ?  ?  ?  1  11
+AEI  CZ    .  C  0  ?  ?  ?  1  12
+AEI  NH1   .  N  0  ?  ?  ?  1  13
+AEI  CH2   .  C  0  ?  ?  ?  1  14
+AEI  OT1   .  O  0  ?  ?  ?  1  15
+AEI  OT2   .  O  0  ?  ?  ?  1  16
+AEI  1HN   .  H  0  ?  ?  ?  0  17
+AEI  2HN   .  H  0  ?  ?  ?  0  18
+AEI  HA    .  H  0  ?  ?  ?  1  19
+AEI  HXT   .  H  0  ?  ?  ?  1  20
+AEI  HB    .  H  0  ?  ?  ?  1  21
+AEI  1HG   .  H  0  ?  ?  ?  0  22
+AEI  2HG   .  H  0  ?  ?  ?  0  23
+AEI  3HG   .  H  0  ?  ?  ?  0  24
+AEI  HD    .  H  0  ?  ?  ?  1  25
+AEI  HOE   .  H  0  ?  ?  ?  1  26
+AEI  1HE2  .  H  0  ?  ?  ?  0  27
+AEI  2HE2  .  H  0  ?  ?  ?  0  28
+AEI  HZ    .  H  0  ?  ?  ?  1  29
+AEI  1HN1  .  H  0  ?  ?  ?  0  30
+AEI  2HN1  .  H  0  ?  ?  ?  0  31
+AEI  HOT   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AEI  N    CA    SING  1 
+AEI  N    1HN   SING  2 
+AEI  N    2HN   SING  3 
+AEI  CA   CB    SING  4 
+AEI  CA   C     SING  5 
+AEI  CA   HA    SING  6 
+AEI  C    O     DOUB  7 
+AEI  C    OXT   SING  8 
+AEI  OXT  HXT   SING  9 
+AEI  CB   CG2   SING  10
+AEI  CB   OG1   SING  11
+AEI  CB   HB    SING  12
+AEI  CG2  1HG   SING  13
+AEI  CG2  2HG   SING  14
+AEI  CG2  3HG   SING  15
+AEI  OG1  CD    SING  16
+AEI  CD   OE1   SING  17
+AEI  CD   CE2   SING  18
+AEI  CD   HD    SING  19
+AEI  OE1  HOE   SING  20
+AEI  CE2  CZ    SING  21
+AEI  CE2  1HE2  SING  22
+AEI  CE2  2HE2  SING  23
+AEI  CZ   CH2   SING  24
+AEI  CZ   NH1   SING  25
+AEI  CZ   HZ    SING  26
+AEI  NH1  1HN1  SING  27
+AEI  NH1  2HN1  SING  28
+AEI  CH2  OT1   DOUB  29
+AEI  CH2  OT2   SING  30
+AEI  OT2  HOT   SING  31
+#

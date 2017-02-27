@@ -1,0 +1,81 @@
+data_HPT
+#
+_chem_comp.id                   HPT
+_chem_comp.name                 6-HYDROXYPROPYLTHYMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        184.194
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPT  O2    .  O  0  ?  ?  ?  1  1 
+HPT  C3    .  C  0  ?  ?  ?  1  2 
+HPT  C4    .  C  0  ?  ?  ?  1  3 
+HPT  C5    .  C  0  ?  ?  ?  1  4 
+HPT  C1    .  C  0  ?  ?  ?  1  5 
+HPT  N1    .  N  0  ?  ?  ?  1  6 
+HPT  C2    .  C  0  ?  ?  ?  1  7 
+HPT  N2    .  N  0  ?  ?  ?  1  8 
+HPT  O1    .  O  0  ?  ?  ?  1  9 
+HPT  O3    .  O  0  ?  ?  ?  1  10
+HPT  C11   .  C  0  ?  ?  ?  1  11
+HPT  C12   .  C  0  ?  ?  ?  1  12
+HPT  C13   .  C  0  ?  ?  ?  1  13
+HPT  3H4   .  H  0  ?  ?  ?  0  14
+HPT  2H4   .  H  0  ?  ?  ?  0  15
+HPT  1H4   .  H  0  ?  ?  ?  0  16
+HPT  H1    .  H  0  ?  ?  ?  1  17
+HPT  H2    .  H  0  ?  ?  ?  1  18
+HPT  H3    .  H  0  ?  ?  ?  1  19
+HPT  2H11  .  H  0  ?  ?  ?  0  20
+HPT  1H11  .  H  0  ?  ?  ?  0  21
+HPT  2H12  .  H  0  ?  ?  ?  0  22
+HPT  1H12  .  H  0  ?  ?  ?  0  23
+HPT  2H13  .  H  0  ?  ?  ?  0  24
+HPT  1H13  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPT  O2   C2    DOUB  1 
+HPT  C3   C4    SING  2 
+HPT  C3   C5    DOUB  3 
+HPT  C3   C2    SING  4 
+HPT  C4   3H4   SING  5 
+HPT  C4   2H4   SING  6 
+HPT  C4   1H4   SING  7 
+HPT  C5   N1    SING  8 
+HPT  C5   C11   SING  9 
+HPT  C1   N1    SING  10
+HPT  C1   N2    SING  11
+HPT  C1   O1    DOUB  12
+HPT  N1   H1    SING  13
+HPT  C2   N2    SING  14
+HPT  N2   H2    SING  15
+HPT  O3   C13   SING  16
+HPT  O3   H3    SING  17
+HPT  C11  C12   SING  18
+HPT  C11  2H11  SING  19
+HPT  C11  1H11  SING  20
+HPT  C12  C13   SING  21
+HPT  C12  2H12  SING  22
+HPT  C12  1H12  SING  23
+HPT  C13  2H13  SING  24
+HPT  C13  1H13  SING  25
+#

@@ -1,0 +1,88 @@
+data_STY
+#
+_chem_comp.id                       STY
+_chem_comp.name                     'TYROSINE-O-SULPHONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C9 H11 N1 O6 S1'
+_chem_comp.mon_nstd_parent_comp_id  TYR
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            261.249
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+STY  N    .  N  0  ?  ?  ?  1  1 
+STY  CA   .  C  0  ?  ?  ?  1  2 
+STY  CB   .  C  0  ?  ?  ?  1  3 
+STY  CG   .  C  0  ?  ?  ?  1  4 
+STY  CD1  .  C  0  ?  ?  ?  1  5 
+STY  CE1  .  C  0  ?  ?  ?  1  6 
+STY  CD2  .  C  0  ?  ?  ?  1  7 
+STY  CE2  .  C  0  ?  ?  ?  1  8 
+STY  CZ   .  C  0  ?  ?  ?  1  9 
+STY  OH   .  O  0  ?  ?  ?  1  10
+STY  C    .  C  0  ?  ?  ?  1  11
+STY  O    .  O  0  ?  ?  ?  1  12
+STY  S    .  S  0  ?  ?  ?  1  13
+STY  O2   .  O  0  ?  ?  ?  1  14
+STY  O3   .  O  0  ?  ?  ?  1  15
+STY  O4   .  O  0  ?  ?  ?  1  16
+STY  OXT  .  O  0  ?  ?  ?  1  17
+STY  H    .  H  0  ?  ?  ?  1  18
+STY  HN2  .  H  0  ?  ?  ?  1  19
+STY  HA   .  H  0  ?  ?  ?  1  20
+STY  1HB  .  H  0  ?  ?  ?  0  21
+STY  2HB  .  H  0  ?  ?  ?  0  22
+STY  HD1  .  H  0  ?  ?  ?  1  23
+STY  HD2  .  H  0  ?  ?  ?  1  24
+STY  HE1  .  H  0  ?  ?  ?  1  25
+STY  HE2  .  H  0  ?  ?  ?  1  26
+STY  HO4  .  H  0  ?  ?  ?  1  27
+STY  HXT  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+STY  N    CA   SING  1 
+STY  N    H    SING  2 
+STY  N    HN2  SING  3 
+STY  CA   CB   SING  4 
+STY  CA   C    SING  5 
+STY  CA   HA   SING  6 
+STY  CB   CG   SING  7 
+STY  CB   1HB  SING  8 
+STY  CB   2HB  SING  9 
+STY  CG   CD1  DOUB  10
+STY  CG   CD2  SING  11
+STY  CD1  CE1  SING  12
+STY  CD1  HD1  SING  13
+STY  CE1  CZ   DOUB  14
+STY  CE1  HE1  SING  15
+STY  CD2  CE2  DOUB  16
+STY  CD2  HD2  SING  17
+STY  CE2  CZ   SING  18
+STY  CE2  HE2  SING  19
+STY  CZ   OH   SING  20
+STY  OH   S    SING  21
+STY  C    O    DOUB  22
+STY  C    OXT  SING  23
+STY  S    O2   DOUB  24
+STY  S    O3   DOUB  25
+STY  S    O4   SING  26
+STY  O4   HO4  SING  27
+STY  OXT  HXT  SING  28
+#

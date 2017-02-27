@@ -1,0 +1,99 @@
+data_TFO
+#
+_chem_comp.id                   TFO
+_chem_comp.name                 '[2-(6-AMINO-9H-PURIN-9-YL)-1-METHYLETHOXY]METHYLPHOSPHONIC ACID'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C9 H14 N5 O4 P1'
+_chem_comp.pdbx_synonyms        TENOFOVIR
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        287.214
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TFO  P     .  P  0  30.290  141.781  -17.752  1  1 
+TFO  O2P   .  O  0  31.450  141.506  -16.961  1  2 
+TFO  O1P   .  O  0  29.444  140.759  -18.471  1  3 
+TFO  C9'   .  C  0  31.065  142.510  -18.997  1  4 
+TFO  O9'   .  O  0  32.571  142.308  -18.915  1  5 
+TFO  C8'   .  C  0  32.232  140.608  -20.832  1  6 
+TFO  C7'   .  C  0  33.021  141.996  -20.163  1  7 
+TFO  C6'   .  C  0  34.499  141.773  -20.048  1  8 
+TFO  N9    .  N  0  35.634  141.815  -19.243  1  9 
+TFO  C4    .  C  0  36.761  141.501  -19.853  1  10
+TFO  N3    .  N  0  36.703  141.138  -21.099  1  11
+TFO  C2    .  C  0  37.868  140.927  -21.581  1  12
+TFO  N1    .  N  0  39.021  141.087  -20.922  1  13
+TFO  C6    .  C  0  39.041  141.516  -19.637  1  14
+TFO  N6    .  N  0  40.271  141.746  -19.092  1  15
+TFO  C5    .  C  0  37.781  141.720  -19.015  1  16
+TFO  N7    .  N  0  37.323  142.143  -17.766  1  17
+TFO  C8    .  C  0  35.973  142.161  -17.907  1  18
+TFO  O3P   .  O  0  ?       ?        ?        1  19
+TFO  1H8'  .  H  0  ?       ?        ?        0  20
+TFO  2H8'  .  H  0  ?       ?        ?        0  21
+TFO  3H8'  .  H  0  ?       ?        ?        0  22
+TFO  H7'   .  H  0  ?       ?        ?        1  23
+TFO  1H6'  .  H  0  ?       ?        ?        0  24
+TFO  2H6'  .  H  0  ?       ?        ?        0  25
+TFO  H8    .  H  0  ?       ?        ?        1  26
+TFO  H2    .  H  0  ?       ?        ?        1  27
+TFO  1HN6  .  H  0  ?       ?        ?        0  28
+TFO  2HN6  .  H  0  ?       ?        ?        0  29
+TFO  1H9'  .  H  0  ?       ?        ?        0  30
+TFO  2H9'  .  H  0  ?       ?        ?        0  31
+TFO  3HOP  .  H  0  ?       ?        ?        0  32
+TFO  2HOP  .  H  0  ?       ?        ?        0  33
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TFO  P    C9'   SING  1 
+TFO  P    O2P   SING  2 
+TFO  P    O3P   SING  3 
+TFO  P    O1P   DOUB  4 
+TFO  O2P  2HOP  SING  5 
+TFO  C9'  O9'   SING  6 
+TFO  C9'  1H9'  SING  7 
+TFO  C9'  2H9'  SING  8 
+TFO  O9'  C7'   SING  9 
+TFO  C8'  C7'   SING  10
+TFO  C8'  1H8'  SING  11
+TFO  C8'  2H8'  SING  12
+TFO  C8'  3H8'  SING  13
+TFO  C7'  C6'   SING  14
+TFO  C7'  H7'   SING  15
+TFO  C6'  N9    SING  16
+TFO  C6'  1H6'  SING  17
+TFO  C6'  2H6'  SING  18
+TFO  N9   C8    SING  19
+TFO  N9   C4    SING  20
+TFO  C4   C5    DOUB  21
+TFO  C4   N3    SING  22
+TFO  N3   C2    DOUB  23
+TFO  C2   N1    SING  24
+TFO  C2   H2    SING  25
+TFO  N1   C6    DOUB  26
+TFO  C6   C5    SING  27
+TFO  C6   N6    SING  28
+TFO  N6   1HN6  SING  29
+TFO  N6   2HN6  SING  30
+TFO  C5   N7    SING  31
+TFO  N7   C8    DOUB  32
+TFO  C8   H8    SING  33
+TFO  O3P  3HOP  SING  34
+#

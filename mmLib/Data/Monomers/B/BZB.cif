@@ -1,0 +1,70 @@
+data_BZB
+#
+_chem_comp.id                   BZB
+_chem_comp.name                 'BENZO[B]THIOPHENE-2-BORONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H7 O2 B1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.012
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZB  B     .  B  0  ?  ?  ?  1  1 
+BZB  O1    .  O  0  ?  ?  ?  1  2 
+BZB  O2    .  O  0  ?  ?  ?  1  3 
+BZB  C1    .  C  0  ?  ?  ?  1  4 
+BZB  C2    .  C  0  ?  ?  ?  1  5 
+BZB  C8    .  C  0  ?  ?  ?  1  6 
+BZB  C3    .  C  0  ?  ?  ?  1  7 
+BZB  C7    .  C  0  ?  ?  ?  1  8 
+BZB  S     .  S  0  ?  ?  ?  1  9 
+BZB  C4    .  C  0  ?  ?  ?  1  10
+BZB  C6    .  C  0  ?  ?  ?  1  11
+BZB  C5    .  C  0  ?  ?  ?  1  12
+BZB  1HO1  .  H  0  ?  ?  ?  0  13
+BZB  1HO2  .  H  0  ?  ?  ?  0  14
+BZB  1HC2  .  H  0  ?  ?  ?  0  15
+BZB  1HC4  .  H  0  ?  ?  ?  0  16
+BZB  1HC5  .  H  0  ?  ?  ?  0  17
+BZB  1HC6  .  H  0  ?  ?  ?  0  18
+BZB  1HC7  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZB  B   O1    SING  1 
+BZB  B   O2    SING  2 
+BZB  B   C1    SING  3 
+BZB  O1  1HO1  SING  4 
+BZB  O2  1HO2  SING  5 
+BZB  C1  C2    DOUB  6 
+BZB  C1  S     SING  7 
+BZB  C2  C3    SING  8 
+BZB  C2  1HC2  SING  9 
+BZB  C8  C3    DOUB  10
+BZB  C8  C7    SING  11
+BZB  C8  S     SING  12
+BZB  C3  C4    SING  13
+BZB  C7  C6    DOUB  14
+BZB  C7  1HC7  SING  15
+BZB  C4  C5    DOUB  16
+BZB  C4  1HC4  SING  17
+BZB  C6  C5    SING  18
+BZB  C6  1HC6  SING  19
+BZB  C5  1HC5  SING  20
+#

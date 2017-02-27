@@ -1,0 +1,112 @@
+data_GNE
+#
+_chem_comp.id                   GNE
+_chem_comp.name                 1,N2-ETHENOGUANINE
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C12 H14 N5 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        371.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GNE  P     .  P  0  40.45   36.81   15.271  1  1 
+GNE  O1P   .  O  0  41.42   36.154  16.169  1  2 
+GNE  O2P   .  O  0  40.604  38.244  14.984  1  3 
+GNE  O3P   .  O  0  ?       ?       ?       1  4 
+GNE  O5*   .  O  0  38.972  36.522  15.833  1  5 
+GNE  C5*   .  C  0  37.929  37.492  15.756  1  6 
+GNE  C4*   .  C  0  36.527  36.877  15.743  1  7 
+GNE  O4*   .  O  0  36.225  36.161  14.532  1  8 
+GNE  C3*   .  C  0  36.242  35.886  16.874  1  9 
+GNE  O3*   .  O  0  34.907  36.085  17.344  1  10
+GNE  C2*   .  C  0  36.248  34.547  16.145  1  11
+GNE  C1*   .  C  0  35.416  35.061  14.974  1  12
+GNE  N9    .  N  0  35.117  34.046  13.941  1  13
+GNE  C8    .  C  0  35.947  33.095  13.519  1  14
+GNE  N7    .  N  0  35.339  32.365  12.586  1  15
+GNE  C5    .  C  0  34.119  32.858  12.418  1  16
+GNE  C6    .  C  0  33.058  32.508  11.587  1  17
+GNE  O6    .  O  0  33.193  31.578  10.788  1  18
+GNE  N1    .  N  0  31.873  33.237  11.65   1  19
+GNE  C2    .  C  0  31.768  34.311  12.549  1  20
+GNE  N2    .  N  0  30.552  34.861  12.48   1  21
+GNE  CM2   .  C  0  29.764  34.17   11.455  1  22
+GNE  N3    .  N  0  32.813  34.619  13.329  1  23
+GNE  C11   .  C  0  30.723  33.087  10.979  1  24
+GNE  C4    .  C  0  33.965  33.929  13.285  1  25
+GNE  1H5*  .  H  0  38.076  38.161  14.876  0  26
+GNE  2H5*  .  H  0  38.025  38.241  16.576  0  27
+GNE  H4*   .  H  0  35.793  37.711  15.833  1  28
+GNE  H3*   .  H  0  36.999  35.935  17.691  1  29
+GNE  H1*   .  H  0  34.454  35.462  15.369  1  30
+GNE  HA    .  H  0  34.73   35.47   18.046  1  31
+GNE  1H2*  .  H  0  35.889  33.645  16.693  0  32
+GNE  2H2*  .  H  0  37.231  34.069  15.926  0  33
+GNE  H8    .  H  0  36.976  32.937  13.884  1  34
+GNE  H11   .  H  0  30.509  32.317  10.218  1  35
+GNE  H2    .  H  0  30.224  35.64   13.051  1  36
+GNE  HM2   .  H  0  28.736  34.381  11.115  1  37
+GNE  HO3   .  H  0  ?       ?       ?       1  38
+GNE  HO1   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GNE  P    O3P   SING  1 
+GNE  P    O2P   DOUB  2 
+GNE  P    O1P   SING  3 
+GNE  P    O5*   SING  4 
+GNE  O1P  HO1   SING  5 
+GNE  O3P  HO3   SING  6 
+GNE  O5*  C5*   SING  7 
+GNE  C5*  C4*   SING  8 
+GNE  C5*  1H5*  SING  9 
+GNE  C5*  2H5*  SING  10
+GNE  C4*  O4*   SING  11
+GNE  C4*  C3*   SING  12
+GNE  C4*  H4*   SING  13
+GNE  O4*  C1*   SING  14
+GNE  C3*  O3*   SING  15
+GNE  C3*  C2*   SING  16
+GNE  C3*  H3*   SING  17
+GNE  O3*  HA    SING  18
+GNE  C2*  C1*   SING  19
+GNE  C2*  1H2*  SING  20
+GNE  C2*  2H2*  SING  21
+GNE  C1*  N9    SING  22
+GNE  C1*  H1*   SING  23
+GNE  N9   C8    SING  24
+GNE  N9   C4    SING  25
+GNE  C8   N7    DOUB  26
+GNE  C8   H8    SING  27
+GNE  N7   C5    SING  28
+GNE  C5   C6    SING  29
+GNE  C5   C4    DOUB  30
+GNE  C6   O6    DOUB  31
+GNE  C6   N1    SING  32
+GNE  N1   C2    SING  33
+GNE  N1   C11   SING  34
+GNE  C2   N2    SING  35
+GNE  C2   N3    DOUB  36
+GNE  N2   CM2   SING  37
+GNE  N2   H2    SING  38
+GNE  CM2  C11   DOUB  39
+GNE  CM2  HM2   SING  40
+GNE  N3   C4    SING  41
+GNE  C11  H11   SING  42
+#

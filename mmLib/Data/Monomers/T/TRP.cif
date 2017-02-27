@@ -1,0 +1,86 @@
+data_TRP
+#
+_chem_comp.id                   TRP
+_chem_comp.name                 TRYPTOPHAN
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H12 N2 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  y
+_chem_comp.mon_nstd_flag        204.228
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRP  N    .  N  0  ?  ?  ?  1  1 
+TRP  CA   .  C  0  ?  ?  ?  1  2 
+TRP  C    .  C  0  ?  ?  ?  1  3 
+TRP  O    .  O  0  ?  ?  ?  1  4 
+TRP  CB   .  C  0  ?  ?  ?  1  5 
+TRP  CG   .  C  0  ?  ?  ?  1  6 
+TRP  CD1  .  C  0  ?  ?  ?  1  7 
+TRP  CD2  .  C  0  ?  ?  ?  1  8 
+TRP  NE1  .  N  0  ?  ?  ?  1  9 
+TRP  CE2  .  C  0  ?  ?  ?  1  10
+TRP  CE3  .  C  0  ?  ?  ?  1  11
+TRP  CZ2  .  C  0  ?  ?  ?  1  12
+TRP  CZ3  .  C  0  ?  ?  ?  1  13
+TRP  CH2  .  C  0  ?  ?  ?  1  14
+TRP  OXT  .  O  0  ?  ?  ?  1  15
+TRP  H    .  H  0  ?  ?  ?  1  16
+TRP  HN2  .  H  0  ?  ?  ?  1  17
+TRP  HA   .  H  0  ?  ?  ?  1  18
+TRP  1HB  .  H  0  ?  ?  ?  0  19
+TRP  2HB  .  H  0  ?  ?  ?  0  20
+TRP  HD1  .  H  0  ?  ?  ?  1  21
+TRP  HE1  .  H  0  ?  ?  ?  1  22
+TRP  HE3  .  H  0  ?  ?  ?  1  23
+TRP  HZ2  .  H  0  ?  ?  ?  1  24
+TRP  HZ3  .  H  0  ?  ?  ?  1  25
+TRP  HH2  .  H  0  ?  ?  ?  1  26
+TRP  HXT  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRP  N    CA   SING  1 
+TRP  N    H    SING  2 
+TRP  N    HN2  SING  3 
+TRP  CA   C    SING  4 
+TRP  CA   CB   SING  5 
+TRP  CA   HA   SING  6 
+TRP  C    O    DOUB  7 
+TRP  C    OXT  SING  8 
+TRP  CB   CG   SING  9 
+TRP  CB   1HB  SING  10
+TRP  CB   2HB  SING  11
+TRP  CG   CD1  DOUB  12
+TRP  CG   CD2  SING  13
+TRP  CD1  NE1  SING  14
+TRP  CD1  HD1  SING  15
+TRP  CD2  CE2  DOUB  16
+TRP  CD2  CE3  SING  17
+TRP  NE1  CE2  SING  18
+TRP  NE1  HE1  SING  19
+TRP  CE2  CZ2  SING  20
+TRP  CE3  CZ3  DOUB  21
+TRP  CE3  HE3  SING  22
+TRP  CZ2  CH2  DOUB  23
+TRP  CZ2  HZ2  SING  24
+TRP  CZ3  CH2  SING  25
+TRP  CZ3  HZ3  SING  26
+TRP  CH2  HH2  SING  27
+TRP  OXT  HXT  SING  28
+#

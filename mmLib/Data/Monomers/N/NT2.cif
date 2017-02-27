@@ -1,0 +1,111 @@
+data_NT2
+#
+_chem_comp.id                   NT2
+_chem_comp.name                 2,3,4,6-TETRA-O-SULFOHEXOPYRANOSE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O18 S4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        500.390
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NT2  S81   .  S  0  53.530  -8.006  -2.054  1  1 
+NT2  O82   .  O  0  53.820  -7.054  -1.111  1  2 
+NT2  C83   .  C  0  54.616  -5.901  -1.471  1  3 
+NT2  C84   .  C  0  55.727  -5.837  -0.342  1  4 
+NT2  O85   .  O  0  56.541  -4.637  -0.562  1  5 
+NT2  C86   .  C  0  56.503  -7.187  -0.666  1  6 
+NT2  O87   .  O  0  57.567  -6.949  -1.623  1  7 
+NT2  C8C   .  C  0  53.634  -4.715  -1.679  1  8 
+NT2  O8D   .  O  0  53.109  -5.421  -2.792  1  9 
+NT2  C8I   .  C  0  54.596  -3.579  -2.124  1  10
+NT2  O8J   .  O  0  54.146  -2.296  -2.492  1  11
+NT2  C8O   .  C  0  55.988  -3.456  -1.321  1  12
+NT2  O8P   .  O  0  55.856  -2.314  -0.477  1  13
+NT2  S88   .  S  0  ?       ?       ?       1  14
+NT2  O8A   .  O  0  ?       ?       ?       1  15
+NT2  O8B   .  O  0  ?       ?       ?       1  16
+NT2  O89   .  O  0  ?       ?       ?       1  17
+NT2  O8Q   .  O  0  ?       ?       ?       1  18
+NT2  O8R   .  O  0  ?       ?       ?       1  19
+NT2  O8S   .  O  0  ?       ?       ?       1  20
+NT2  S8E   .  S  0  ?       ?       ?       1  21
+NT2  O8F   .  O  0  ?       ?       ?       1  22
+NT2  O8G   .  O  0  ?       ?       ?       1  23
+NT2  O8H   .  O  0  ?       ?       ?       1  24
+NT2  S8K   .  S  0  ?       ?       ?       1  25
+NT2  O8L   .  O  0  ?       ?       ?       1  26
+NT2  O8M   .  O  0  ?       ?       ?       1  27
+NT2  O8N   .  O  0  ?       ?       ?       1  28
+NT2  H8P   .  H  0  ?       ?       ?       1  29
+NT2  H8O   .  H  0  ?       ?       ?       1  30
+NT2  H84   .  H  0  ?       ?       ?       1  31
+NT2  1H86  .  H  0  ?       ?       ?       0  32
+NT2  2H86  .  H  0  ?       ?       ?       0  33
+NT2  H89   .  H  0  ?       ?       ?       1  34
+NT2  H83   .  H  0  ?       ?       ?       1  35
+NT2  H8S   .  H  0  ?       ?       ?       1  36
+NT2  H8C   .  H  0  ?       ?       ?       1  37
+NT2  H8H   .  H  0  ?       ?       ?       1  38
+NT2  H8I   .  H  0  ?       ?       ?       1  39
+NT2  H8N   .  H  0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NT2  S81  O82   SING  1 
+NT2  S81  O8Q   DOUB  2 
+NT2  S81  O8R   DOUB  3 
+NT2  S81  O8S   SING  4 
+NT2  O82  C83   SING  5 
+NT2  C83  C84   SING  6 
+NT2  C83  H83   SING  7 
+NT2  C83  C8C   SING  8 
+NT2  C84  O85   SING  9 
+NT2  C84  H84   SING  10
+NT2  C84  C86   SING  11
+NT2  O85  C8O   SING  12
+NT2  C86  1H86  SING  13
+NT2  C86  2H86  SING  14
+NT2  C86  O87   SING  15
+NT2  O87  S88   SING  16
+NT2  C8C  H8C   SING  17
+NT2  C8C  O8D   SING  18
+NT2  C8C  C8I   SING  19
+NT2  O8D  S8E   SING  20
+NT2  C8I  C8O   SING  21
+NT2  C8I  H8I   SING  22
+NT2  C8I  O8J   SING  23
+NT2  O8J  S8K   SING  24
+NT2  C8O  O8P   SING  25
+NT2  C8O  H8O   SING  26
+NT2  O8P  H8P   SING  27
+NT2  S88  O8A   DOUB  28
+NT2  S88  O8B   DOUB  29
+NT2  S88  O89   SING  30
+NT2  O89  H89   SING  31
+NT2  O8S  H8S   SING  32
+NT2  S8E  O8F   DOUB  33
+NT2  S8E  O8G   DOUB  34
+NT2  S8E  O8H   SING  35
+NT2  O8H  H8H   SING  36
+NT2  S8K  O8L   DOUB  37
+NT2  S8K  O8M   DOUB  38
+NT2  S8K  O8N   SING  39
+NT2  O8N  H8N   SING  40
+#

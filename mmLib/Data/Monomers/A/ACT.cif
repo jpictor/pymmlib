@@ -1,0 +1,44 @@
+data_ACT
+#
+_chem_comp.id                   ACT
+_chem_comp.name                 'ACETATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C2 H3 O2'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       59.045
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACT  C    .  C  0   ?  ?  ?  1  1
+ACT  O    .  O  0   ?  ?  ?  1  2
+ACT  OXT  .  O  -1  ?  ?  ?  1  3
+ACT  CH3  .  C  0   ?  ?  ?  1  4
+ACT  1H   .  H  0   ?  ?  ?  0  5
+ACT  2H   .  H  0   ?  ?  ?  0  6
+ACT  3H   .  H  0   ?  ?  ?  0  7
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACT  C    O    DOUB  1
+ACT  C    OXT  SING  2
+ACT  C    CH3  SING  3
+ACT  CH3  1H   SING  4
+ACT  CH3  2H   SING  5
+ACT  CH3  3H   SING  6
+#

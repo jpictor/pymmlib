@@ -1,0 +1,89 @@
+data_ZIP
+#
+_chem_comp.id                   ZIP
+_chem_comp.name                 N-(3-METHYLBUT-2-EN-1-YL)-9H-PURIN-6-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5'
+_chem_comp.pdbx_synonyms        ISOPENTENYLADENINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        203.246
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZIP  C14   .  C  0  68.132  35.397  22.049  1  1 
+ZIP  C13   .  C  0  68.558  34.214  21.229  1  2 
+ZIP  C15   .  C  0  67.537  33.493  20.405  1  3 
+ZIP  C12   .  C  0  69.842  33.805  21.225  1  4 
+ZIP  C11   .  C  0  70.873  34.523  22.062  1  5 
+ZIP  N10   .  N  0  72.199  33.952  21.974  1  6 
+ZIP  C6    .  C  0  73.189  34.57   22.659  1  7 
+ZIP  C5    .  C  0  74.586  34.231  22.344  1  8 
+ZIP  N9    .  N  0  75.163  33.323  21.477  1  9 
+ZIP  C4    .  C  0  75.538  34.902  23.005  1  10
+ZIP  N7    .  N  0  76.794  34.486  22.634  1  11
+ZIP  C8    .  C  0  76.511  33.515  21.695  1  12
+ZIP  N3    .  N  0  75.261  35.857  23.923  1  13
+ZIP  C2    .  C  0  73.98   36.173  24.198  1  14
+ZIP  N1    .  N  0  72.958  35.552  23.579  1  15
+ZIP  1H14  .  H  0  68.892  35.934  22.663  0  16
+ZIP  2H14  .  H  0  67.29   35.089  22.711  0  17
+ZIP  3H14  .  H  0  67.627  36.133  21.381  0  18
+ZIP  1H15  .  H  0  67.853  32.614  19.796  0  19
+ZIP  2H15  .  H  0  67.032  34.229  19.737  0  20
+ZIP  3H15  .  H  0  66.695  33.185  21.067  0  21
+ZIP  H12   .  H  0  70.141  32.942  20.607  1  22
+ZIP  1H11  .  H  0  70.542  34.584  23.125  0  23
+ZIP  2H11  .  H  0  70.896  35.609  21.81   0  24
+ZIP  H10   .  H  0  72.381  33.117  21.418  1  25
+ZIP  H8    .  H  0  77.293  32.944  21.167  1  26
+ZIP  H7    .  H  0  77.702  34.811  22.967  1  27
+ZIP  H2    .  H  0  73.765  36.956  24.945  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZIP  C14  C13   SING  1 
+ZIP  C14  1H14  SING  2 
+ZIP  C14  2H14  SING  3 
+ZIP  C14  3H14  SING  4 
+ZIP  C13  C15   SING  5 
+ZIP  C13  C12   DOUB  6 
+ZIP  C15  1H15  SING  7 
+ZIP  C15  2H15  SING  8 
+ZIP  C15  3H15  SING  9 
+ZIP  C12  C11   SING  10
+ZIP  C12  H12   SING  11
+ZIP  C11  N10   SING  12
+ZIP  C11  1H11  SING  13
+ZIP  C11  2H11  SING  14
+ZIP  N10  C6    SING  15
+ZIP  N10  H10   SING  16
+ZIP  C6   C5    AROM  17
+ZIP  C6   N1    AROM  18
+ZIP  C5   N9    SING  19
+ZIP  C5   C4    AROM  20
+ZIP  N9   C8    DOUB  21
+ZIP  C4   N7    SING  22
+ZIP  C4   N3    AROM  23
+ZIP  N7   C8    SING  24
+ZIP  N7   H7    SING  25
+ZIP  C8   H8    SING  26
+ZIP  N3   C2    AROM  27
+ZIP  C2   N1    AROM  28
+ZIP  C2   H2    SING  29
+#

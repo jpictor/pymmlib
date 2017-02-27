@@ -1,0 +1,69 @@
+data_DCI
+#
+_chem_comp.id                   DCI
+_chem_comp.name                 2-METHYL-BUTYLAMINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H13 N1'
+_chem_comp.pdbx_synonyms        LEUCINOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        87.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DCI  N     .  N  0  ?  ?  ?  1  1 
+DCI  CA    .  C  0  ?  ?  ?  1  2 
+DCI  CB    .  C  0  ?  ?  ?  1  3 
+DCI  CG1   .  C  0  ?  ?  ?  1  4 
+DCI  CG2   .  C  0  ?  ?  ?  1  5 
+DCI  CD1   .  C  0  ?  ?  ?  1  6 
+DCI  1HN   .  H  0  ?  ?  ?  0  7 
+DCI  2HN   .  H  0  ?  ?  ?  0  8 
+DCI  1HA   .  H  0  ?  ?  ?  0  9 
+DCI  2HA   .  H  0  ?  ?  ?  0  10
+DCI  HB    .  H  0  ?  ?  ?  1  11
+DCI  1HG1  .  H  0  ?  ?  ?  0  12
+DCI  2HG1  .  H  0  ?  ?  ?  0  13
+DCI  1HG2  .  H  0  ?  ?  ?  0  14
+DCI  2HG2  .  H  0  ?  ?  ?  0  15
+DCI  3HG2  .  H  0  ?  ?  ?  0  16
+DCI  1HD   .  H  0  ?  ?  ?  0  17
+DCI  2HD   .  H  0  ?  ?  ?  0  18
+DCI  3HD   .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DCI  N    CA    SING  1 
+DCI  N    1HN   SING  2 
+DCI  N    2HN   SING  3 
+DCI  CA   CB    SING  4 
+DCI  CA   1HA   SING  5 
+DCI  CA   2HA   SING  6 
+DCI  CB   CG1   SING  7 
+DCI  CB   CG2   SING  8 
+DCI  CB   HB    SING  9 
+DCI  CG1  CD1   SING  10
+DCI  CG1  1HG1  SING  11
+DCI  CG1  2HG1  SING  12
+DCI  CG2  1HG2  SING  13
+DCI  CG2  2HG2  SING  14
+DCI  CG2  3HG2  SING  15
+DCI  CD1  1HD   SING  16
+DCI  CD1  2HD   SING  17
+DCI  CD1  3HD   SING  18
+#

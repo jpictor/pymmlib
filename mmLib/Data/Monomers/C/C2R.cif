@@ -1,0 +1,105 @@
+data_C2R
+#
+_chem_comp.id                   C2R
+_chem_comp.name                 '5-AMINO-1-(5-O-PHOSPHONO-BETA-D-RIBOFURANOSYL)-1H-IMIDAZOLE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N3 O9 P1'
+_chem_comp.pdbx_synonyms        'CAIR, 4-CARBOXY-5-AMINOIMIDAZOLE RIBONUCLEOTIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        339.198
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+C2R  PA    .  P  0  16.749  19.804  56.434  1  1 
+C2R  O1A   .  O  0  18.080  20.407  56.828  1  2 
+C2R  O2A   .  O  0  16.276  18.733  57.409  1  3 
+C2R  O3A   .  O  0  15.681  20.859  56.161  1  4 
+C2R  O5*   .  O  0  17.030  19.053  55.014  1  5 
+C2R  C2*   .  C  0  19.002  17.512  53.370  1  6 
+C2R  O2*   .  O  0  20.207  16.814  53.124  1  7 
+C2R  C3*   .  C  0  17.819  16.603  53.690  1  8 
+C2R  O3*   .  O  0  17.880  15.396  52.936  1  9 
+C2R  C5*   .  C  0  16.006  18.290  54.350  1  10
+C2R  C4*   .  C  0  16.622  17.444  53.260  1  11
+C2R  O4*   .  O  0  17.110  18.318  52.208  1  12
+C2R  C1*   .  C  0  18.519  18.229  52.110  1  13
+C2R  N1    .  N  0  19.035  19.597  52.045  1  14
+C2R  C5    .  C  0  20.298  19.994  51.679  1  15
+C2R  C4    .  C  0  20.306  21.374  51.791  1  16
+C2R  N3    .  N  0  19.070  21.839  52.211  1  17
+C2R  C2    .  C  0  18.354  20.750  52.348  1  18
+C2R  N5    .  N  0  21.306  19.207  51.303  1  19
+C2R  C6    .  C  0  21.506  22.266  51.542  1  20
+C2R  O7    .  O  0  22.563  21.739  51.138  1  21
+C2R  O8    .  O  0  21.393  23.496  51.761  1  22
+C2R  1HN5  .  H  0  ?       ?       ?       0  23
+C2R  2HN5  .  H  0  ?       ?       ?       0  24
+C2R  H2    .  H  0  ?       ?       ?       1  25
+C2R  H1*   .  H  0  ?       ?       ?       1  26
+C2R  H4*   .  H  0  ?       ?       ?       1  27
+C2R  1H5*  .  H  0  ?       ?       ?       0  28
+C2R  2H5*  .  H  0  ?       ?       ?       0  29
+C2R  H2A   .  H  0  ?       ?       ?       1  30
+C2R  H3A   .  H  0  ?       ?       ?       1  31
+C2R  H3*   .  H  0  ?       ?       ?       1  32
+C2R  H1    .  H  0  ?       ?       ?       1  33
+C2R  H2*   .  H  0  ?       ?       ?       1  34
+C2R  H3    .  H  0  ?       ?       ?       1  35
+C2R  HO7   .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+C2R  PA   O5*   SING  1 
+C2R  PA   O1A   DOUB  2 
+C2R  PA   O2A   SING  3 
+C2R  PA   O3A   SING  4 
+C2R  O2A  H2A   SING  5 
+C2R  O3A  H3A   SING  6 
+C2R  O5*  C5*   SING  7 
+C2R  C2*  C3*   SING  8 
+C2R  C2*  C1*   SING  9 
+C2R  C2*  O2*   SING  10
+C2R  C2*  H2*   SING  11
+C2R  O2*  H3    SING  12
+C2R  C3*  C4*   SING  13
+C2R  C3*  O3*   SING  14
+C2R  C3*  H3*   SING  15
+C2R  O3*  H1    SING  16
+C2R  C5*  C4*   SING  17
+C2R  C5*  1H5*  SING  18
+C2R  C5*  2H5*  SING  19
+C2R  C4*  O4*   SING  20
+C2R  C4*  H4*   SING  21
+C2R  O4*  C1*   SING  22
+C2R  C1*  N1    SING  23
+C2R  C1*  H1*   SING  24
+C2R  N1   C2    SING  25
+C2R  N1   C5    SING  26
+C2R  C5   N5    SING  27
+C2R  C5   C4    DOUB  28
+C2R  C4   N3    SING  29
+C2R  C4   C6    SING  30
+C2R  N3   C2    DOUB  31
+C2R  C2   H2    SING  32
+C2R  N5   1HN5  SING  33
+C2R  N5   2HN5  SING  34
+C2R  C6   O7    SING  35
+C2R  C6   O8    DOUB  36
+C2R  O7   HO7   SING  37
+#

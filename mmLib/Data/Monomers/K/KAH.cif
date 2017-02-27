@@ -1,0 +1,77 @@
+data_KAH
+#
+_chem_comp.id                   KAH
+_chem_comp.name                 '5-AMINO-4-HYDROXYHEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O3'
+_chem_comp.pdbx_synonyms        '4-KETO-5-AMINO-HEXANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        147.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KAH  C4    .  C  0  20.412  24.375  16.637  1  1 
+KAH  C5    .  C  0  19.776  24.199  18.016  1  2 
+KAH  N5    .  N  0  18.471  24.9    18.123  1  3 
+KAH  C6    .  C  0  20.734  24.63   19.117  1  4 
+KAH  C3    .  C  0  20.934  25.732  16.261  1  5 
+KAH  C2    .  C  0  20.449  26.345  14.972  1  6 
+KAH  C1    .  C  0  21.507  27.041  14.131  1  7 
+KAH  O1    .  O  0  21.234  28.014  13.393  1  8 
+KAH  OH1   .  O  0  22.687  26.63   14.173  1  9 
+KAH  OXT   .  O  0  21.46   23.329  16.489  1  10
+KAH  H5    .  H  0  19.58   23.11   18.154  1  11
+KAH  H4    .  H  0  ?       ?       ?       1  12
+KAH  1HC3  .  H  0  22.049  25.706  16.257  0  13
+KAH  2HC3  .  H  0  20.742  26.442  17.098  0  14
+KAH  HXT   .  H  0  21.855  23.438  15.632  1  15
+KAH  1HN5  .  H  0  18.047  24.783  19.043  0  16
+KAH  2HN5  .  H  0  17.833  24.609  17.382  0  17
+KAH  1HC   .  H  0  20.27   24.502  20.123  0  18
+KAH  2HC   .  H  0  21.097  25.673  18.962  0  19
+KAH  3HC   .  H  0  21.711  24.098  19.044  0  20
+KAH  1HC2  .  H  0  19.607  27.046  15.178  0  21
+KAH  2HC2  .  H  0  19.923  25.576  14.36   0  22
+KAH  H1    .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KAH  C4   C3    SING  1 
+KAH  C4   OXT   SING  2 
+KAH  C4   C5    SING  3 
+KAH  C4   H4    SING  4 
+KAH  C5   N5    SING  5 
+KAH  C5   C6    SING  6 
+KAH  C5   H5    SING  7 
+KAH  N5   1HN5  SING  8 
+KAH  N5   2HN5  SING  9 
+KAH  C6   1HC   SING  10
+KAH  C6   2HC   SING  11
+KAH  C6   3HC   SING  12
+KAH  C3   C2    SING  13
+KAH  C3   1HC3  SING  14
+KAH  C3   2HC3  SING  15
+KAH  C2   C1    SING  16
+KAH  C2   1HC2  SING  17
+KAH  C2   2HC2  SING  18
+KAH  C1   O1    SING  19
+KAH  C1   OH1   DOUB  20
+KAH  O1   H1    SING  21
+KAH  OXT  HXT   SING  22
+#

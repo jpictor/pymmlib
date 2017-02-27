@@ -1,0 +1,106 @@
+data_HEF
+#
+_chem_comp.id                   HEF
+_chem_comp.name                 '1-(2-HYDROXYETHYLOXYMETHYL)-6-PHENYL THIOTHYMINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        308.351
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HEF  N1    .  N  0  ?  ?  ?  1  1 
+HEF  C2    .  C  0  ?  ?  ?  1  2 
+HEF  O2    .  O  0  ?  ?  ?  1  3 
+HEF  N3    .  N  0  ?  ?  ?  1  4 
+HEF  C4    .  C  0  ?  ?  ?  1  5 
+HEF  O4    .  O  0  ?  ?  ?  1  6 
+HEF  C5    .  C  0  ?  ?  ?  1  7 
+HEF  C6    .  C  0  ?  ?  ?  1  8 
+HEF  CM5   .  C  0  ?  ?  ?  1  9 
+HEF  CM    .  C  0  ?  ?  ?  1  10
+HEF  OM    .  O  0  ?  ?  ?  1  11
+HEF  CE1   .  C  0  ?  ?  ?  1  12
+HEF  CE2   .  C  0  ?  ?  ?  1  13
+HEF  OE    .  O  0  ?  ?  ?  1  14
+HEF  S'    .  S  0  ?  ?  ?  1  15
+HEF  C1'   .  C  0  ?  ?  ?  1  16
+HEF  C2'   .  C  0  ?  ?  ?  1  17
+HEF  C3'   .  C  0  ?  ?  ?  1  18
+HEF  C4'   .  C  0  ?  ?  ?  1  19
+HEF  C5'   .  C  0  ?  ?  ?  1  20
+HEF  C6'   .  C  0  ?  ?  ?  1  21
+HEF  HN3   .  H  0  ?  ?  ?  1  22
+HEF  1HM5  .  H  0  ?  ?  ?  0  23
+HEF  2HM5  .  H  0  ?  ?  ?  0  24
+HEF  3HM5  .  H  0  ?  ?  ?  0  25
+HEF  1HM   .  H  0  ?  ?  ?  0  26
+HEF  2HM   .  H  0  ?  ?  ?  0  27
+HEF  1HE1  .  H  0  ?  ?  ?  0  28
+HEF  2HE1  .  H  0  ?  ?  ?  0  29
+HEF  1HE2  .  H  0  ?  ?  ?  0  30
+HEF  2HE2  .  H  0  ?  ?  ?  0  31
+HEF  HOE   .  H  0  ?  ?  ?  1  32
+HEF  H2'   .  H  0  ?  ?  ?  1  33
+HEF  H3'   .  H  0  ?  ?  ?  1  34
+HEF  H4'   .  H  0  ?  ?  ?  1  35
+HEF  H5'   .  H  0  ?  ?  ?  1  36
+HEF  H6'   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HEF  N1   C2    SING  1 
+HEF  N1   C6    SING  2 
+HEF  N1   CM    SING  3 
+HEF  C2   N3    SING  4 
+HEF  C2   O2    DOUB  5 
+HEF  N3   C4    SING  6 
+HEF  N3   HN3   SING  7 
+HEF  C4   C5    SING  8 
+HEF  C4   O4    DOUB  9 
+HEF  C5   C6    DOUB  10
+HEF  C5   CM5   SING  11
+HEF  C6   S'    SING  12
+HEF  CM5  1HM5  SING  13
+HEF  CM5  2HM5  SING  14
+HEF  CM5  3HM5  SING  15
+HEF  CM   OM    SING  16
+HEF  CM   1HM   SING  17
+HEF  CM   2HM   SING  18
+HEF  OM   CE1   SING  19
+HEF  CE1  CE2   SING  20
+HEF  CE1  1HE1  SING  21
+HEF  CE1  2HE1  SING  22
+HEF  CE2  OE    SING  23
+HEF  CE2  1HE2  SING  24
+HEF  CE2  2HE2  SING  25
+HEF  OE   HOE   SING  26
+HEF  S'   C1'   SING  27
+HEF  C1'  C2'   DOUB  28
+HEF  C1'  C6'   SING  29
+HEF  C2'  C3'   SING  30
+HEF  C2'  H2'   SING  31
+HEF  C3'  C4'   DOUB  32
+HEF  C3'  H3'   SING  33
+HEF  C4'  C5'   SING  34
+HEF  C4'  H4'   SING  35
+HEF  C5'  C6'   DOUB  36
+HEF  C5'  H5'   SING  37
+HEF  C6'  H6'   SING  38
+#

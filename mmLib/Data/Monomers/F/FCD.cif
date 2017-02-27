@@ -1,0 +1,76 @@
+data_FCD
+#
+_chem_comp.id                   FCD
+_chem_comp.name                 '5-(2-CHLOROPHENYL)FURAN-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H7 O3 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        222.628
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FCD  OA   .  O   0  -1.743  -0.921  8.290   1  1 
+FCD  CA   .  C   0  -0.672  -0.612  9.032   1  2 
+FCD  C    .  C   0  0.684   -0.412  8.463   1  3 
+FCD  OB   .  O   0  0.799   -0.548  7.232   1  4 
+FCD  CB   .  C   0  -1.083  -0.524  10.376  1  5 
+FCD  CG   .  C   0  -2.457  -0.799  10.400  1  6 
+FCD  CD   .  C   0  -2.836  -1.044  9.065   1  7 
+FCD  OXT  .  O   0  1.629   -0.128  9.207   1  8 
+FCD  C1   .  C   0  -4.146  -1.385  8.525   1  9 
+FCD  C2   .  C   0  -5.370  -0.767  8.964   1  10
+FCD  C3   .  C   0  -6.591  -1.163  8.368   1  11
+FCD  C4   .  C   0  -6.605  -2.152  7.356   1  12
+FCD  C5   .  C   0  -5.415  -2.764  6.919   1  13
+FCD  C6   .  C   0  -4.187  -2.380  7.503   1  14
+FCD  CL2  .  CL  0  ?       ?       ?       0  15
+FCD  H5   .  H   0  ?       ?       ?       1  16
+FCD  H4   .  H   0  ?       ?       ?       1  17
+FCD  H3   .  H   0  ?       ?       ?       1  18
+FCD  H2   .  H   0  ?       ?       ?       1  19
+FCD  HG   .  H   0  ?       ?       ?       1  20
+FCD  HB   .  H   0  ?       ?       ?       1  21
+FCD  HOB  .  H   0  ?       ?       ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FCD  OA  CA   SING  1 
+FCD  OA  CD   SING  2 
+FCD  CA  CB   DOUB  3 
+FCD  CA  C    SING  4 
+FCD  C   OB   SING  5 
+FCD  C   OXT  DOUB  6 
+FCD  OB  HOB  SING  7 
+FCD  CB  CG   SING  8 
+FCD  CB  HB   SING  9 
+FCD  CG  CD   DOUB  10
+FCD  CG  HG   SING  11
+FCD  CD  C1   SING  12
+FCD  C1  C2   AROM  13
+FCD  C1  C6   AROM  14
+FCD  C2  C3   AROM  15
+FCD  C2  H2   SING  16
+FCD  C3  C4   AROM  17
+FCD  C3  H3   SING  18
+FCD  C4  C5   AROM  19
+FCD  C4  H4   SING  20
+FCD  C5  C6   AROM  21
+FCD  C5  H5   SING  22
+FCD  C6  CL2  SING  23
+#

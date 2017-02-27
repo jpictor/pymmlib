@@ -1,0 +1,76 @@
+data_PML
+#
+_chem_comp.id                   PML
+_chem_comp.name                 'PIMELIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H12 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.169
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PML  C1    .  C  0  62.644  86.988  1.246   1  1 
+PML  O11   .  O  0  62.628  85.859  0.751   1  2 
+PML  O12   .  O  0  63.689  87.443  1.886   1  3 
+PML  C2    .  C  0  61.376  87.819  1.223   1  4 
+PML  C3    .  C  0  61.415  88.902  0.175   1  5 
+PML  C4    .  C  0  61.960  88.437  -1.164  1  6 
+PML  C5    .  C  0  62.145  89.574  -2.180  1  7 
+PML  C6    .  C  0  62.510  89.067  -3.577  1  8 
+PML  C7    .  C  0  62.480  90.122  -4.680  1  9 
+PML  O71   .  O  0  62.194  89.786  -5.833  1  10
+PML  O72   .  O  0  62.782  91.369  -4.411  1  11
+PML  1HC2  .  H  0  ?       ?       ?       0  12
+PML  2HC2  .  H  0  ?       ?       ?       0  13
+PML  1HC3  .  H  0  ?       ?       ?       0  14
+PML  2HC3  .  H  0  ?       ?       ?       0  15
+PML  1HC4  .  H  0  ?       ?       ?       0  16
+PML  2HC4  .  H  0  ?       ?       ?       0  17
+PML  1HC5  .  H  0  ?       ?       ?       0  18
+PML  2HC5  .  H  0  ?       ?       ?       0  19
+PML  1HC6  .  H  0  ?       ?       ?       0  20
+PML  2HC6  .  H  0  ?       ?       ?       0  21
+PML  H12   .  H  0  ?       ?       ?       1  22
+PML  H72   .  H  0  ?       ?       ?       1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PML  C1   O11   DOUB  1 
+PML  C1   O12   SING  2 
+PML  C1   C2    SING  3 
+PML  O12  H12   SING  4 
+PML  C2   C3    SING  5 
+PML  C2   1HC2  SING  6 
+PML  C2   2HC2  SING  7 
+PML  C3   C4    SING  8 
+PML  C3   1HC3  SING  9 
+PML  C3   2HC3  SING  10
+PML  C4   C5    SING  11
+PML  C4   1HC4  SING  12
+PML  C4   2HC4  SING  13
+PML  C5   C6    SING  14
+PML  C5   1HC5  SING  15
+PML  C5   2HC5  SING  16
+PML  C6   C7    SING  17
+PML  C6   1HC6  SING  18
+PML  C6   2HC6  SING  19
+PML  C7   O71   DOUB  20
+PML  C7   O72   SING  21
+PML  O72  H72   SING  22
+#

@@ -1,0 +1,79 @@
+data_FRU
+#
+_chem_comp.id                   FRU
+_chem_comp.name                 FRUCTOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FRU  C1   .  C  0  ?  ?  ?  1  1 
+FRU  C2   .  C  0  ?  ?  ?  1  2 
+FRU  C3   .  C  0  ?  ?  ?  1  3 
+FRU  C4   .  C  0  ?  ?  ?  1  4 
+FRU  C5   .  C  0  ?  ?  ?  1  5 
+FRU  C6   .  C  0  ?  ?  ?  1  6 
+FRU  O1   .  O  0  ?  ?  ?  1  7 
+FRU  O2   .  O  0  ?  ?  ?  1  8 
+FRU  O3   .  O  0  ?  ?  ?  1  9 
+FRU  O4   .  O  0  ?  ?  ?  1  10
+FRU  O5   .  O  0  ?  ?  ?  1  11
+FRU  O6   .  O  0  ?  ?  ?  1  12
+FRU  1H1  .  H  0  ?  ?  ?  0  13
+FRU  2H1  .  H  0  ?  ?  ?  0  14
+FRU  H3   .  H  0  ?  ?  ?  1  15
+FRU  H4   .  H  0  ?  ?  ?  1  16
+FRU  H5   .  H  0  ?  ?  ?  1  17
+FRU  1H6  .  H  0  ?  ?  ?  0  18
+FRU  2H6  .  H  0  ?  ?  ?  0  19
+FRU  HO1  .  H  0  ?  ?  ?  1  20
+FRU  HO2  .  H  0  ?  ?  ?  1  21
+FRU  HO3  .  H  0  ?  ?  ?  1  22
+FRU  HO4  .  H  0  ?  ?  ?  1  23
+FRU  HO6  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FRU  C1  C2   SING  1 
+FRU  C1  O1   SING  2 
+FRU  C1  1H1  SING  3 
+FRU  C1  2H1  SING  4 
+FRU  C2  C3   SING  5 
+FRU  C2  O2   SING  6 
+FRU  C2  O5   SING  7 
+FRU  C3  C4   SING  8 
+FRU  C3  O3   SING  9 
+FRU  C3  H3   SING  10
+FRU  C4  C5   SING  11
+FRU  C4  O4   SING  12
+FRU  C4  H4   SING  13
+FRU  C5  C6   SING  14
+FRU  C5  O5   SING  15
+FRU  C5  H5   SING  16
+FRU  C6  O6   SING  17
+FRU  C6  1H6  SING  18
+FRU  C6  2H6  SING  19
+FRU  O1  HO1  SING  20
+FRU  O2  HO2  SING  21
+FRU  O3  HO3  SING  22
+FRU  O4  HO4  SING  23
+FRU  O6  HO6  SING  24
+#

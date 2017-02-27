@@ -1,0 +1,91 @@
+data_MTJ
+#
+_chem_comp.id                   MTJ
+_chem_comp.name                 N,O-DIMETHYL-L-TYROSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        209.244
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTJ  N    .  N  0  77.519  62.006  41.854  1  1 
+MTJ  CN   .  C  0  77.003  60.693  42.241  1  2 
+MTJ  CA   .  C  0  78.415  61.975  40.691  1  3 
+MTJ  CB   .  C  0  77.603  62.203  39.414  1  4 
+MTJ  CG   .  C  0  76.272  61.505  39.299  1  5 
+MTJ  CD1  .  C  0  75.106  62.188  39.670  1  6 
+MTJ  CE1  .  C  0  73.860  61.556  39.574  1  7 
+MTJ  CZ   .  C  0  73.769  60.234  39.087  1  8 
+MTJ  OM   .  O  0  72.624  59.579  38.972  1  9 
+MTJ  CM   .  C  0  71.527  59.874  39.809  1  10
+MTJ  CE2  .  C  0  74.945  59.562  38.706  1  11
+MTJ  CD2  .  C  0  76.194  60.190  38.826  1  12
+MTJ  C    .  C  0  79.596  62.953  40.753  1  13
+MTJ  O27  .  O  0  79.946  63.570  39.742  1  14
+MTJ  O28  .  O  0  80.179  63.065  41.938  1  15
+MTJ  HE1  .  H  0  72.975  62.082  39.876  1  16
+MTJ  HD1  .  H  0  75.171  63.192  40.056  1  17
+MTJ  HD2  .  H  0  77.090  59.652  38.560  1  18
+MTJ  HE2  .  H  0  74.883  58.543  38.361  1  19
+MTJ  1HM  .  H  0  71.135  60.863  39.579  0  20
+MTJ  2HM  .  H  0  70.756  59.129  39.634  0  21
+MTJ  3HM  .  H  0  71.829  59.832  40.856  0  22
+MTJ  1HB  .  H  0  78.221  61.915  38.567  0  23
+MTJ  2HB  .  H  0  77.407  63.271  39.351  0  24
+MTJ  HA   .  H  0  78.863  60.989  40.636  1  25
+MTJ  1HN  .  H  0  75.959  60.611  41.943  0  26
+MTJ  2HN  .  H  0  77.557  59.890  41.757  0  27
+MTJ  3HN  .  H  0  77.074  60.544  43.313  0  28
+MTJ  HN1  .  H  0  ?       ?       ?       1  29
+MTJ  H28  .  H  0  ?       ?       ?       1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTJ  N    CA   SING  1 
+MTJ  N    CN   SING  2 
+MTJ  N    HN1  SING  3 
+MTJ  CN   1HN  SING  4 
+MTJ  CN   2HN  SING  5 
+MTJ  CN   3HN  SING  6 
+MTJ  CA   CB   SING  7 
+MTJ  CA   HA   SING  8 
+MTJ  CA   C    SING  9 
+MTJ  CB   CG   SING  10
+MTJ  CB   1HB  SING  11
+MTJ  CB   2HB  SING  12
+MTJ  CG   CD1  AROM  13
+MTJ  CG   CD2  AROM  14
+MTJ  CD1  CE1  AROM  15
+MTJ  CD1  HD1  SING  16
+MTJ  CE1  HE1  SING  17
+MTJ  CE1  CZ   AROM  18
+MTJ  CZ   CE2  AROM  19
+MTJ  CZ   OM   SING  20
+MTJ  OM   CM   SING  21
+MTJ  CM   1HM  SING  22
+MTJ  CM   2HM  SING  23
+MTJ  CM   3HM  SING  24
+MTJ  CE2  CD2  AROM  25
+MTJ  CE2  HE2  SING  26
+MTJ  CD2  HD2  SING  27
+MTJ  C    O27  DOUB  28
+MTJ  C    O28  SING  29
+MTJ  O28  H28  SING  30
+#

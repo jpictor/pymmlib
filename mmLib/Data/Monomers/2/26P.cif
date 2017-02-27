@@ -1,0 +1,78 @@
+data_26P
+#
+_chem_comp.id                   26P
+_chem_comp.name                 '2-AMINO-6-OXOPIMELIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        189.168
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+26P  C1    .  C  0  ?  ?  ?  1  1 
+26P  O11   .  O  0  ?  ?  ?  1  2 
+26P  O12   .  O  0  ?  ?  ?  1  3 
+26P  C2    .  C  0  ?  ?  ?  1  4 
+26P  N2    .  N  0  ?  ?  ?  1  5 
+26P  C3    .  C  0  ?  ?  ?  1  6 
+26P  C4    .  C  0  ?  ?  ?  1  7 
+26P  C5    .  C  0  ?  ?  ?  1  8 
+26P  C6    .  C  0  ?  ?  ?  1  9 
+26P  O6    .  O  0  ?  ?  ?  1  10
+26P  C7    .  C  0  ?  ?  ?  1  11
+26P  O71   .  O  0  ?  ?  ?  1  12
+26P  O72   .  O  0  ?  ?  ?  1  13
+26P  HOC   .  H  0  ?  ?  ?  1  14
+26P  H2    .  H  0  ?  ?  ?  1  15
+26P  1HN2  .  H  0  ?  ?  ?  0  16
+26P  2HN2  .  H  0  ?  ?  ?  0  17
+26P  1H3   .  H  0  ?  ?  ?  0  18
+26P  2H3   .  H  0  ?  ?  ?  0  19
+26P  1H4   .  H  0  ?  ?  ?  0  20
+26P  2H4   .  H  0  ?  ?  ?  0  21
+26P  1H5   .  H  0  ?  ?  ?  0  22
+26P  2H5   .  H  0  ?  ?  ?  0  23
+26P  HO    .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+26P  C1   O11   DOUB  1 
+26P  C1   O12   SING  2 
+26P  C1   C2    SING  3 
+26P  O12  HOC   SING  4 
+26P  C2   N2    SING  5 
+26P  C2   C3    SING  6 
+26P  C2   H2    SING  7 
+26P  N2   1HN2  SING  8 
+26P  N2   2HN2  SING  9 
+26P  C3   C4    SING  10
+26P  C3   1H3   SING  11
+26P  C3   2H3   SING  12
+26P  C4   C5    SING  13
+26P  C4   1H4   SING  14
+26P  C4   2H4   SING  15
+26P  C5   C6    SING  16
+26P  C5   1H5   SING  17
+26P  C5   2H5   SING  18
+26P  C6   O6    DOUB  19
+26P  C6   C7    SING  20
+26P  C7   O71   DOUB  21
+26P  C7   O72   SING  22
+26P  O72  HO    SING  23
+#

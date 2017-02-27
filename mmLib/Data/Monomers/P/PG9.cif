@@ -1,0 +1,72 @@
+data_PG9
+#
+_chem_comp.id                       PG9
+_chem_comp.name                     D-PHENYLGLYCINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H9 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            151.165
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PG9  N    .  N  0  29.074  45.100  189.879  1  1 
+PG9  CA   .  C  0  28.803  46.460  190.450  1  2 
+PG9  CB   .  C  0  29.471  46.561  191.765  1  3 
+PG9  CG1  .  C  0  30.591  47.390  191.901  1  4 
+PG9  CD1  .  C  0  31.239  47.487  193.131  1  5 
+PG9  CE   .  C  0  30.765  46.749  194.216  1  6 
+PG9  CD2  .  C  0  29.646  45.922  194.076  1  7 
+PG9  CG2  .  C  0  28.999  45.827  192.851  1  8 
+PG9  C    .  C  0  27.315  46.700  190.553  1  9 
+PG9  O    .  O  0  26.850  47.804  190.250  1  10
+PG9  OXT  .  O  0  26.547  45.801  190.929  1  11
+PG9  1HN  .  H  0  ?       ?       ?        0  12
+PG9  2HN  .  H  0  ?       ?       ?        0  13
+PG9  HA   .  H  0  ?       ?       ?        1  14
+PG9  HXT  .  H  0  ?       ?       ?        1  15
+PG9  HG2  .  H  0  ?       ?       ?        1  16
+PG9  HD2  .  H  0  ?       ?       ?        1  17
+PG9  HE   .  H  0  ?       ?       ?        1  18
+PG9  HD1  .  H  0  ?       ?       ?        1  19
+PG9  HG1  .  H  0  ?       ?       ?        1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PG9  N    CA   SING  1 
+PG9  N    1HN  SING  2 
+PG9  N    2HN  SING  3 
+PG9  CA   C    SING  4 
+PG9  CA   CB   SING  5 
+PG9  CA   HA   SING  6 
+PG9  CB   CG2  DOUB  7 
+PG9  CB   CG1  SING  8 
+PG9  CG1  CD1  DOUB  9 
+PG9  CG1  HG1  SING  10
+PG9  CD1  CE   SING  11
+PG9  CD1  HD1  SING  12
+PG9  CE   CD2  DOUB  13
+PG9  CE   HE   SING  14
+PG9  CD2  CG2  SING  15
+PG9  CD2  HD2  SING  16
+PG9  CG2  HG2  SING  17
+PG9  C    O    DOUB  18
+PG9  C    OXT  SING  19
+PG9  OXT  HXT  SING  20
+#

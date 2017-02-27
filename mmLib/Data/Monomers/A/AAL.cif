@@ -1,0 +1,74 @@
+data_AAL
+#
+_chem_comp.id                   AAL
+_chem_comp.name                 3,6-ANHYDRO-L-GALACTOSE
+_chem_comp.type                 L-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H10 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.142
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAL  C1   .  C  0  ?  ?  ?  1  1 
+AAL  C2   .  C  0  ?  ?  ?  1  2 
+AAL  C3   .  C  0  ?  ?  ?  1  3 
+AAL  C4   .  C  0  ?  ?  ?  1  4 
+AAL  C5   .  C  0  ?  ?  ?  1  5 
+AAL  C6   .  C  0  ?  ?  ?  1  6 
+AAL  O1   .  O  0  ?  ?  ?  1  7 
+AAL  O2   .  O  0  ?  ?  ?  1  8 
+AAL  O3   .  O  0  ?  ?  ?  1  9 
+AAL  O4   .  O  0  ?  ?  ?  1  10
+AAL  O5   .  O  0  ?  ?  ?  1  11
+AAL  H1   .  H  0  ?  ?  ?  1  12
+AAL  HO1  .  H  0  ?  ?  ?  1  13
+AAL  H2   .  H  0  ?  ?  ?  1  14
+AAL  HO2  .  H  0  ?  ?  ?  1  15
+AAL  H3   .  H  0  ?  ?  ?  1  16
+AAL  H4   .  H  0  ?  ?  ?  1  17
+AAL  HO4  .  H  0  ?  ?  ?  1  18
+AAL  H5   .  H  0  ?  ?  ?  1  19
+AAL  1H6  .  H  0  ?  ?  ?  0  20
+AAL  2H6  .  H  0  ?  ?  ?  0  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAL  C1  C2   SING  1 
+AAL  C1  O1   SING  2 
+AAL  C1  O5   SING  3 
+AAL  C1  H1   SING  4 
+AAL  C2  C3   SING  5 
+AAL  C2  O2   SING  6 
+AAL  C2  H2   SING  7 
+AAL  C3  C4   SING  8 
+AAL  C3  O3   SING  9 
+AAL  C3  H3   SING  10
+AAL  C4  C5   SING  11
+AAL  C4  O4   SING  12
+AAL  C4  H4   SING  13
+AAL  C5  C6   SING  14
+AAL  C5  O5   SING  15
+AAL  C5  H5   SING  16
+AAL  C6  O3   SING  17
+AAL  C6  1H6  SING  18
+AAL  C6  2H6  SING  19
+AAL  O1  HO1  SING  20
+AAL  O2  HO2  SING  21
+AAL  O4  HO4  SING  22
+#

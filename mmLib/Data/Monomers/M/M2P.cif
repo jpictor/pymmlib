@@ -1,0 +1,103 @@
+data_M2P
+#
+_chem_comp.id                   M2P
+_chem_comp.name                 D-MANNITOL-1,6-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H16 O12 P2'
+_chem_comp.pdbx_synonyms        1,6-DI-O-PHOSPHONO-D-MANNITOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        342.133
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+M2P  C1   .  C  0  0.836   -7.109  7.346  1  1 
+M2P  C5   .  C  0  -2.756  -8.395  4.225  1  2 
+M2P  C6   .  C  0  -4.277  -8.308  4.079  1  3 
+M2P  C4   .  C  0  -2.339  -8.206  5.684  1  4 
+M2P  C3   .  C  0  -0.815  -8.256  5.827  1  5 
+M2P  C2   .  C  0  -0.381  -8.034  7.278  1  6 
+M2P  O12  .  O  0  2.776   -4.836  7.466  1  7 
+M2P  P1   .  P  0  1.236   -4.497  7.141  1  8 
+M2P  O13  .  O  0  0.543   -4.129  8.546  1  9 
+M2P  O11  .  O  0  1.084   -3.420  6.136  1  10
+M2P  O1   .  O  0  0.561   -5.880  6.667  1  11
+M2P  O2   .  O  0  -1.454  -7.470  8.036  1  12
+M2P  O3   .  O  0  -0.347  -9.536  5.392  1  13
+M2P  O4   .  O  0  -2.934  -9.227  6.489  1  14
+M2P  O5   .  O  0  -2.144  -7.387  3.416  1  15
+M2P  O6   .  O  0  -4.661  -8.497  2.715  1  16
+M2P  P6   .  P  0  -6.208  -8.369  2.294  1  17
+M2P  O62  .  O  0  -6.548  -6.799  2.407  1  18
+M2P  O63  .  O  0  -7.062  -9.119  3.433  1  19
+M2P  O61  .  O  0  -6.467  -8.914  0.943  1  20
+M2P  HO2  .  H  0  ?       ?       ?      1  21
+M2P  H2   .  H  0  ?       ?       ?      1  22
+M2P  1H1  .  H  0  ?       ?       ?      0  23
+M2P  2H1  .  H  0  ?       ?       ?      0  24
+M2P  H13  .  H  0  ?       ?       ?      1  25
+M2P  H11  .  H  0  ?       ?       ?      1  26
+M2P  H3   .  H  0  ?       ?       ?      1  27
+M2P  HO3  .  H  0  ?       ?       ?      1  28
+M2P  H4   .  H  0  ?       ?       ?      1  29
+M2P  HO4  .  H  0  ?       ?       ?      1  30
+M2P  H5   .  H  0  ?       ?       ?      1  31
+M2P  HO5  .  H  0  ?       ?       ?      1  32
+M2P  1H6  .  H  0  ?       ?       ?      0  33
+M2P  2H6  .  H  0  ?       ?       ?      0  34
+M2P  H62  .  H  0  ?       ?       ?      1  35
+M2P  H63  .  H  0  ?       ?       ?      1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+M2P  C1   C2   SING  1 
+M2P  C1   O1   SING  2 
+M2P  C1   1H1  SING  3 
+M2P  C1   2H1  SING  4 
+M2P  C5   C4   SING  5 
+M2P  C5   O5   SING  6 
+M2P  C5   C6   SING  7 
+M2P  C5   H5   SING  8 
+M2P  C6   O6   SING  9 
+M2P  C6   1H6  SING  10
+M2P  C6   2H6  SING  11
+M2P  C4   C3   SING  12
+M2P  C4   O4   SING  13
+M2P  C4   H4   SING  14
+M2P  C3   C2   SING  15
+M2P  C3   O3   SING  16
+M2P  C3   H3   SING  17
+M2P  C2   O2   SING  18
+M2P  C2   H2   SING  19
+M2P  O12  P1   DOUB  20
+M2P  P1   O1   SING  21
+M2P  P1   O13  SING  22
+M2P  P1   O11  SING  23
+M2P  O13  H13  SING  24
+M2P  O11  H11  SING  25
+M2P  O2   HO2  SING  26
+M2P  O3   HO3  SING  27
+M2P  O4   HO4  SING  28
+M2P  O5   HO5  SING  29
+M2P  O6   P6   SING  30
+M2P  P6   O62  SING  31
+M2P  P6   O63  SING  32
+M2P  P6   O61  DOUB  33
+M2P  O62  H62  SING  34
+M2P  O63  H63  SING  35
+#

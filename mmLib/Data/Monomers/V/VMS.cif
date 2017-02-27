@@ -1,0 +1,139 @@
+data_VMS
+#
+_chem_comp.id                   VMS
+_chem_comp.name                 5'O-[N-(L-VALYL)SULPHAMOYL]ADENOSINE
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C15 H23 N7 O7 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        445.449
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VMS  CG2   .  C  0  69.886  23.367  22.625  1  1 
+VMS  CB    .  C  0  71.139  24.228  22.442  1  2 
+VMS  CG1   .  C  0  70.837  25.413  21.522  1  3 
+VMS  CA    .  C  0  72.327  23.424  21.895  1  4 
+VMS  N     .  N  0  71.988  22.788  20.614  1  5 
+VMS  C     .  C  0  72.781  22.354  22.893  1  6 
+VMS  O     .  O  0  73.432  21.375  22.533  1  7 
+VMS  NAS   .  N  0  72.272  22.515  24.109  1  8 
+VMS  SBD   .  S  0  72.590  21.534  25.372  1  9 
+VMS  OAZ   .  O  0  71.636  20.390  25.539  1  10
+VMS  OBC   .  O  0  73.042  22.309  26.575  1  11
+VMS  O5*   .  O  0  73.801  20.742  24.956  1  12
+VMS  C5*   .  C  0  75.112  21.063  25.438  1  13
+VMS  C4*   .  C  0  75.977  19.804  25.546  1  14
+VMS  O4*   .  O  0  76.171  19.272  24.221  1  15
+VMS  C3*   .  C  0  77.378  20.117  26.080  1  16
+VMS  O3*   .  O  0  78.012  18.918  26.539  1  17
+VMS  C2*   .  C  0  78.035  20.580  24.783  1  18
+VMS  O2*   .  O  0  79.459  20.539  24.906  1  19
+VMS  C1*   .  C  0  77.555  19.454  23.864  1  20
+VMS  N9    .  N  0  77.686  19.861  22.445  1  21
+VMS  C8    .  C  0  77.637  21.116  22.004  1  22
+VMS  N7    .  N  0  77.800  21.146  20.685  1  23
+VMS  C5    .  C  0  77.950  19.891  20.275  1  24
+VMS  C4    .  C  0  77.871  19.069  21.391  1  25
+VMS  N3    .  N  0  77.934  17.738  21.234  1  26
+VMS  C2    .  C  0  78.069  17.205  20.031  1  27
+VMS  N1    .  N  0  78.154  17.962  18.949  1  28
+VMS  C6    .  C  0  78.104  19.301  19.026  1  29
+VMS  N6    .  N  0  78.236  20.053  17.936  1  30
+VMS  H2*   .  H  0  ?       ?       ?       1  31
+VMS  H1    .  H  0  ?       ?       ?       1  32
+VMS  H1*   .  H  0  ?       ?       ?       1  33
+VMS  H4*   .  H  0  ?       ?       ?       1  34
+VMS  1H5*  .  H  0  ?       ?       ?       0  35
+VMS  2H5*  .  H  0  ?       ?       ?       0  36
+VMS  HAS   .  H  0  ?       ?       ?       1  37
+VMS  HA    .  H  0  ?       ?       ?       1  38
+VMS  1HN   .  H  0  ?       ?       ?       0  39
+VMS  2HN   .  H  0  ?       ?       ?       0  40
+VMS  HB    .  H  0  ?       ?       ?       1  41
+VMS  1HG2  .  H  0  ?       ?       ?       0  42
+VMS  2HG2  .  H  0  ?       ?       ?       0  43
+VMS  3HG2  .  H  0  ?       ?       ?       0  44
+VMS  1HG1  .  H  0  ?       ?       ?       0  45
+VMS  2HG1  .  H  0  ?       ?       ?       0  46
+VMS  3HG1  .  H  0  ?       ?       ?       0  47
+VMS  H3*   .  H  0  ?       ?       ?       1  48
+VMS  H2    .  H  0  ?       ?       ?       1  49
+VMS  H8    .  H  0  ?       ?       ?       1  50
+VMS  H3    .  H  0  ?       ?       ?       1  51
+VMS  1HN6  .  H  0  ?       ?       ?       0  52
+VMS  2HN6  .  H  0  ?       ?       ?       0  53
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VMS  CG2  CB    SING  1 
+VMS  CG2  1HG2  SING  2 
+VMS  CG2  2HG2  SING  3 
+VMS  CG2  3HG2  SING  4 
+VMS  CB   CA    SING  5 
+VMS  CB   HB    SING  6 
+VMS  CB   CG1   SING  7 
+VMS  CG1  1HG1  SING  8 
+VMS  CG1  2HG1  SING  9 
+VMS  CG1  3HG1  SING  10
+VMS  CA   C     SING  11
+VMS  CA   HA    SING  12
+VMS  CA   N     SING  13
+VMS  N    1HN   SING  14
+VMS  N    2HN   SING  15
+VMS  C    NAS   SING  16
+VMS  C    O     DOUB  17
+VMS  NAS  SBD   SING  18
+VMS  NAS  HAS   SING  19
+VMS  SBD  O5*   SING  20
+VMS  SBD  OAZ   DOUB  21
+VMS  SBD  OBC   DOUB  22
+VMS  O5*  C5*   SING  23
+VMS  C5*  C4*   SING  24
+VMS  C5*  1H5*  SING  25
+VMS  C5*  2H5*  SING  26
+VMS  C4*  O4*   SING  27
+VMS  C4*  H4*   SING  28
+VMS  C4*  C3*   SING  29
+VMS  O4*  C1*   SING  30
+VMS  C3*  C2*   SING  31
+VMS  C3*  H3*   SING  32
+VMS  C3*  O3*   SING  33
+VMS  O3*  H2    SING  34
+VMS  C2*  O2*   SING  35
+VMS  C2*  H1    SING  36
+VMS  C2*  C1*   SING  37
+VMS  O2*  H2*   SING  38
+VMS  C1*  H1*   SING  39
+VMS  C1*  N9    SING  40
+VMS  N9   C8    SING  41
+VMS  N9   C4    SING  42
+VMS  C8   H8    SING  43
+VMS  C8   N7    DOUB  44
+VMS  N7   C5    SING  45
+VMS  C5   C4    DOUB  46
+VMS  C5   C6    SING  47
+VMS  C4   N3    SING  48
+VMS  N3   C2    DOUB  49
+VMS  C2   H3    SING  50
+VMS  C2   N1    SING  51
+VMS  N1   C6    DOUB  52
+VMS  C6   N6    SING  53
+VMS  N6   1HN6  SING  54
+VMS  N6   2HN6  SING  55
+#

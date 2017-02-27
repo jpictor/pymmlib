@@ -1,0 +1,116 @@
+data_PM1
+#
+_chem_comp.id                   PM1
+_chem_comp.name                 [2-AMINO-6-(2,6-DIFLUORO-BENZOYL)-IMIDAZO[1,2-A]PYRIDIN-3-YL]-PHENYL-METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H13 N3 O2 F2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        377.349
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PM1  C1    .  C  0  12.164  -8.888   22.864  1  1 
+PM1  C2    .  C  0  13.034  -9.259   23.935  1  2 
+PM1  N3    .  N  0  13.976  -10.250  23.842  1  3 
+PM1  C4    .  C  0  14.134  -10.948  22.596  1  4 
+PM1  C5    .  C  0  13.315  -10.645  21.504  1  5 
+PM1  C6    .  C  0  12.335  -9.604   21.629  1  6 
+PM1  C10   .  C  0  14.941  -10.778  24.721  1  7 
+PM1  C11   .  C  0  15.594  -11.795  23.983  1  8 
+PM1  N12   .  N  0  15.113  -11.872  22.730  1  9 
+PM1  C13   .  C  0  15.293  -10.497  26.129  1  10
+PM1  C14   .  C  0  14.660  -9.462   26.984  1  11
+PM1  C15   .  C  0  13.397  -9.737   27.636  1  12
+PM1  C16   .  C  0  12.778  -8.733   28.471  1  13
+PM1  C17   .  C  0  13.423  -7.470   28.649  1  14
+PM1  C18   .  C  0  14.668  -7.193   28.000  1  15
+PM1  C19   .  C  0  15.293  -8.184   27.167  1  16
+PM1  C23   .  C  0  11.107  -7.797   22.975  1  17
+PM1  C24   .  C  0  10.944  -7.050   24.311  1  18
+PM1  C25   .  C  0  9.752   -7.248   25.088  1  19
+PM1  C26   .  C  0  9.519   -6.589   26.342  1  20
+PM1  C27   .  C  0  10.496  -5.677   26.858  1  21
+PM1  C28   .  C  0  11.707  -5.431   26.137  1  22
+PM1  C29   .  C  0  11.928  -6.094   24.883  1  23
+PM1  O33   .  O  0  10.379  -7.517   21.989  1  24
+PM1  O34   .  O  0  16.219  -11.172  26.628  1  25
+PM1  N35   .  N  0  16.674  -12.647  24.481  1  26
+PM1  F36   .  F  0  8.800   -8.083   24.669  1  27
+PM1  F39   .  F  0  13.091  -5.809   24.278  1  28
+PM1  1H35  .  H  0  ?       ?        ?       0  29
+PM1  2H35  .  H  0  ?       ?        ?       0  30
+PM1  H2    .  H  0  ?       ?        ?       1  31
+PM1  H6    .  H  0  ?       ?        ?       1  32
+PM1  H5    .  H  0  ?       ?        ?       1  33
+PM1  H28   .  H  0  ?       ?        ?       1  34
+PM1  H27   .  H  0  ?       ?        ?       1  35
+PM1  H26   .  H  0  ?       ?        ?       1  36
+PM1  H15   .  H  0  ?       ?        ?       1  37
+PM1  H16   .  H  0  ?       ?        ?       1  38
+PM1  H17   .  H  0  ?       ?        ?       1  39
+PM1  H18   .  H  0  ?       ?        ?       1  40
+PM1  H19   .  H  0  ?       ?        ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PM1  C1   C2    DOUB  1 
+PM1  C1   C6    SING  2 
+PM1  C1   C23   SING  3 
+PM1  C2   N3    SING  4 
+PM1  C2   H2    SING  5 
+PM1  N3   C10   SING  6 
+PM1  N3   C4    SING  7 
+PM1  C4   C5    SING  8 
+PM1  C4   N12   DOUB  9 
+PM1  C5   C6    DOUB  10
+PM1  C5   H5    SING  11
+PM1  C6   H6    SING  12
+PM1  C10  C11   DOUB  13
+PM1  C10  C13   SING  14
+PM1  C11  N35   SING  15
+PM1  C11  N12   SING  16
+PM1  C13  O34   DOUB  17
+PM1  C13  C14   SING  18
+PM1  C14  C15   AROM  19
+PM1  C14  C19   AROM  20
+PM1  C15  H15   SING  21
+PM1  C15  C16   AROM  22
+PM1  C16  H16   SING  23
+PM1  C16  C17   AROM  24
+PM1  C17  H17   SING  25
+PM1  C17  C18   AROM  26
+PM1  C18  H18   SING  27
+PM1  C18  C19   AROM  28
+PM1  C19  H19   SING  29
+PM1  C23  O33   DOUB  30
+PM1  C23  C24   SING  31
+PM1  C24  C29   AROM  32
+PM1  C24  C25   AROM  33
+PM1  C25  C26   AROM  34
+PM1  C25  F36   SING  35
+PM1  C26  C27   AROM  36
+PM1  C26  H26   SING  37
+PM1  C27  C28   AROM  38
+PM1  C27  H27   SING  39
+PM1  C28  C29   AROM  40
+PM1  C28  H28   SING  41
+PM1  C29  F39   SING  42
+PM1  N35  1H35  SING  43
+PM1  N35  2H35  SING  44
+#

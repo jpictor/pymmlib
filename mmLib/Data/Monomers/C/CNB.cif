@@ -1,0 +1,75 @@
+data_CNB
+#
+_chem_comp.id                   CNB
+_chem_comp.name                 'OXO-IRON CLUSTER 1'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H8 O11 FE3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        351.598
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CNB  FE1  .  FE  0  12.892  51.048  -14.846  0  1 
+CNB  FE2  .  FE  0  10.236  51.715  -13.180  0  2 
+CNB  FE3  .  FE  0  12.937  53.377  -12.495  0  3 
+CNB  O3A  .  O   0  12.091  55.028  -11.850  1  4 
+CNB  O3B  .  O   0  14.738  54.263  -12.643  1  5 
+CNB  O3U  .  O   0  13.362  52.981  -10.652  1  6 
+CNB  O23  .  O   0  11.065  53.078  -12.201  1  7 
+CNB  O13  .  O   0  12.643  52.802  -14.285  1  8 
+CNB  O12  .  O   0  11.144  51.237  -14.958  1  9 
+CNB  O1A  .  O   0  14.118  51.446  -16.365  1  10
+CNB  O1B  .  O   0  12.534  49.289  -15.690  1  11
+CNB  O2A  .  O   0  8.578   52.588  -13.604  1  12
+CNB  O2B  .  O   0  9.406   50.978  -11.568  1  13
+CNB  O2U  .  O   0  9.755   50.056  -14.095  1  14
+CNB  H3A  .  H   0  ?       ?       ?        1  15
+CNB  H3B  .  H   0  ?       ?       ?        1  16
+CNB  H3U  .  H   0  ?       ?       ?        1  17
+CNB  H1A  .  H   0  ?       ?       ?        1  18
+CNB  H1B  .  H   0  ?       ?       ?        1  19
+CNB  H2A  .  H   0  ?       ?       ?        1  20
+CNB  H2B  .  H   0  ?       ?       ?        1  21
+CNB  H2U  .  H   0  ?       ?       ?        1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CNB  FE1  O13  SING  1 
+CNB  FE1  O12  SING  2 
+CNB  FE1  O1A  SING  3 
+CNB  FE1  O1B  SING  4 
+CNB  FE2  O23  SING  5 
+CNB  FE2  O12  SING  6 
+CNB  FE2  O2A  SING  7 
+CNB  FE2  O2B  SING  8 
+CNB  FE2  O2U  SING  9 
+CNB  FE3  O3A  SING  10
+CNB  FE3  O3B  SING  11
+CNB  FE3  O3U  SING  12
+CNB  FE3  O23  SING  13
+CNB  FE3  O13  SING  14
+CNB  O3A  H3A  SING  15
+CNB  O3B  H3B  SING  16
+CNB  O3U  H3U  SING  17
+CNB  O1A  H1A  SING  18
+CNB  O1B  H1B  SING  19
+CNB  O2A  H2A  SING  20
+CNB  O2B  H2B  SING  21
+CNB  O2U  H2U  SING  22
+#

@@ -1,0 +1,113 @@
+data_PNB
+#
+_chem_comp.id                   PNB
+_chem_comp.name                 4-NITRO-BENZYLPHOSPHONOBUTANOYL-GLYCINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H17 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        360.260
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PNB  N1    .  N  0  ?  ?  ?  1  1 
+PNB  O4    .  O  0  ?  ?  ?  1  2 
+PNB  O5    .  O  0  ?  ?  ?  1  3 
+PNB  C1    .  C  0  ?  ?  ?  1  4 
+PNB  C2    .  C  0  ?  ?  ?  1  5 
+PNB  C3    .  C  0  ?  ?  ?  1  6 
+PNB  C4    .  C  0  ?  ?  ?  1  7 
+PNB  C5    .  C  0  ?  ?  ?  1  8 
+PNB  C6    .  C  0  ?  ?  ?  1  9 
+PNB  C7    .  C  0  ?  ?  ?  1  10
+PNB  O1    .  O  0  ?  ?  ?  1  11
+PNB  P1    .  P  0  ?  ?  ?  1  12
+PNB  O2    .  O  0  ?  ?  ?  1  13
+PNB  O3    .  O  0  ?  ?  ?  1  14
+PNB  C8    .  C  0  ?  ?  ?  1  15
+PNB  C9    .  C  0  ?  ?  ?  1  16
+PNB  C10   .  C  0  ?  ?  ?  1  17
+PNB  C11   .  C  0  ?  ?  ?  1  18
+PNB  O6    .  O  0  ?  ?  ?  1  19
+PNB  N2    .  N  0  ?  ?  ?  1  20
+PNB  C12   .  C  0  ?  ?  ?  1  21
+PNB  C13   .  C  0  ?  ?  ?  1  22
+PNB  O7    .  O  0  ?  ?  ?  1  23
+PNB  O8    .  O  0  ?  ?  ?  1  24
+PNB  H2    .  H  0  ?  ?  ?  1  25
+PNB  H3    .  H  0  ?  ?  ?  1  26
+PNB  H5    .  H  0  ?  ?  ?  1  27
+PNB  H6    .  H  0  ?  ?  ?  1  28
+PNB  1H7   .  H  0  ?  ?  ?  0  29
+PNB  2H7   .  H  0  ?  ?  ?  0  30
+PNB  HO3   .  H  0  ?  ?  ?  1  31
+PNB  1H8   .  H  0  ?  ?  ?  0  32
+PNB  2H8   .  H  0  ?  ?  ?  0  33
+PNB  1H9   .  H  0  ?  ?  ?  0  34
+PNB  2H9   .  H  0  ?  ?  ?  0  35
+PNB  1H10  .  H  0  ?  ?  ?  0  36
+PNB  2H10  .  H  0  ?  ?  ?  0  37
+PNB  HN2   .  H  0  ?  ?  ?  1  38
+PNB  1H12  .  H  0  ?  ?  ?  0  39
+PNB  2H12  .  H  0  ?  ?  ?  0  40
+PNB  HO8   .  H  0  ?  ?  ?  1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PNB  N1   C4    SING  1 
+PNB  N1   O4    DOUB  2 
+PNB  N1   O5    DOUB  3 
+PNB  C1   C2    DOUB  4 
+PNB  C1   C6    SING  5 
+PNB  C1   C7    SING  6 
+PNB  C2   C3    SING  7 
+PNB  C2   H2    SING  8 
+PNB  C3   C4    DOUB  9 
+PNB  C3   H3    SING  10
+PNB  C4   C5    SING  11
+PNB  C5   C6    DOUB  12
+PNB  C5   H5    SING  13
+PNB  C6   H6    SING  14
+PNB  C7   O1    SING  15
+PNB  C7   1H7   SING  16
+PNB  C7   2H7   SING  17
+PNB  O1   P1    SING  18
+PNB  P1   O2    DOUB  19
+PNB  P1   O3    SING  20
+PNB  P1   C8    SING  21
+PNB  O3   HO3   SING  22
+PNB  C8   C9    SING  23
+PNB  C8   1H8   SING  24
+PNB  C8   2H8   SING  25
+PNB  C9   C10   SING  26
+PNB  C9   1H9   SING  27
+PNB  C9   2H9   SING  28
+PNB  C10  C11   SING  29
+PNB  C10  1H10  SING  30
+PNB  C10  2H10  SING  31
+PNB  C11  N2    SING  32
+PNB  C11  O6    DOUB  33
+PNB  N2   C12   SING  34
+PNB  N2   HN2   SING  35
+PNB  C12  C13   SING  36
+PNB  C12  1H12  SING  37
+PNB  C12  2H12  SING  38
+PNB  C13  O7    DOUB  39
+PNB  C13  O8    SING  40
+PNB  O8   HO8   SING  41
+#

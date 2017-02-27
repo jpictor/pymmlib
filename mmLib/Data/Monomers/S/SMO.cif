@@ -1,0 +1,38 @@
+data_SMO
+#
+_chem_comp.id                   SMO
+_chem_comp.name                 'DIOXOSULFIDOMOLYBDENUM(VI) ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O2 MO1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.999
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SMO  S    .  S   0  133.544  73.587  119.728  1  1
+SMO  MO   .  MO  0  132.056  72.155  120.251  0  2
+SMO  OM2  .  O   0  132.522  72.910  121.792  1  3
+SMO  OM1  .  O   0  130.472  72.739  120.098  1  4
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SMO  S   MO   DOUB  1
+SMO  MO  OM2  DOUB  2
+SMO  MO  OM1  DOUB  3
+#

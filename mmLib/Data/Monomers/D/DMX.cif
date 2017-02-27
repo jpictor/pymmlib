@@ -1,0 +1,103 @@
+data_DMX
+#
+_chem_comp.id                   DMX
+_chem_comp.name                 3-[BENZYL(DIMETHYL)AMMONIO]PROPANE-1-SULFONATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H19 N1 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        257.347
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DMX  C1    .  C  0   -22.252  -38.012  1.841   1  1 
+DMX  C2    .  C  0   -23.458  -37.422  1.400   1  2 
+DMX  C3    .  C  0   -24.077  -37.844  0.197   1  3 
+DMX  C4    .  C  0   -23.494  -38.871  -0.591  1  4 
+DMX  C5    .  C  0   -22.273  -39.460  -0.133  1  5 
+DMX  C6    .  C  0   -21.656  -39.035  1.073   1  6 
+DMX  C7    .  C  0   -24.174  -39.356  -1.932  1  7 
+DMX  N8    .  N  1   -23.869  -38.826  -3.370  1  8 
+DMX  C9    .  C  0   -22.493  -39.317  -3.926  1  9 
+DMX  C10   .  C  0   -19.898  -39.367  -3.653  1  10
+DMX  S11   .  S  0   -18.661  -38.673  -2.507  1  11
+DMX  C12   .  C  0   -24.959  -39.340  -4.296  1  12
+DMX  C13   .  C  0   -23.991  -37.323  -3.421  1  13
+DMX  O14   .  O  -1  -17.192  -39.025  -3.026  1  14
+DMX  O15   .  O  0   -18.864  -39.341  -0.949  1  15
+DMX  O16   .  O  0   -18.817  -36.975  -2.436  1  16
+DMX  C17   .  C  0   -21.175  -38.508  -3.651  1  17
+DMX  H1    .  H  0   ?        ?        ?       1  18
+DMX  H6    .  H  0   ?        ?        ?       1  19
+DMX  H5    .  H  0   ?        ?        ?       1  20
+DMX  H3    .  H  0   ?        ?        ?       1  21
+DMX  H2    .  H  0   ?        ?        ?       1  22
+DMX  1H7   .  H  0   ?        ?        ?       0  23
+DMX  2H7   .  H  0   ?        ?        ?       0  24
+DMX  1H12  .  H  0   ?        ?        ?       0  25
+DMX  2H12  .  H  0   ?        ?        ?       0  26
+DMX  3H12  .  H  0   ?        ?        ?       0  27
+DMX  1H13  .  H  0   ?        ?        ?       0  28
+DMX  2H13  .  H  0   ?        ?        ?       0  29
+DMX  3H13  .  H  0   ?        ?        ?       0  30
+DMX  1H9   .  H  0   ?        ?        ?       0  31
+DMX  2H9   .  H  0   ?        ?        ?       0  32
+DMX  1H17  .  H  0   ?        ?        ?       0  33
+DMX  2H17  .  H  0   ?        ?        ?       0  34
+DMX  1H10  .  H  0   ?        ?        ?       0  35
+DMX  2H10  .  H  0   ?        ?        ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DMX  C1   H1    SING  1 
+DMX  C1   C6    DOUB  2 
+DMX  C1   C2    SING  3 
+DMX  C2   C3    DOUB  4 
+DMX  C2   H2    SING  5 
+DMX  C3   C4    SING  6 
+DMX  C3   H3    SING  7 
+DMX  C4   C5    DOUB  8 
+DMX  C4   C7    SING  9 
+DMX  C5   C6    SING  10
+DMX  C5   H5    SING  11
+DMX  C6   H6    SING  12
+DMX  C7   1H7   SING  13
+DMX  C7   2H7   SING  14
+DMX  C7   N8    SING  15
+DMX  N8   C12   SING  16
+DMX  N8   C13   SING  17
+DMX  N8   C9    SING  18
+DMX  C9   1H9   SING  19
+DMX  C9   2H9   SING  20
+DMX  C9   C17   SING  21
+DMX  C10  C17   SING  22
+DMX  C10  1H10  SING  23
+DMX  C10  2H10  SING  24
+DMX  C10  S11   SING  25
+DMX  S11  O14   SING  26
+DMX  S11  O15   DOUB  27
+DMX  S11  O16   DOUB  28
+DMX  C12  1H12  SING  29
+DMX  C12  2H12  SING  30
+DMX  C12  3H12  SING  31
+DMX  C13  1H13  SING  32
+DMX  C13  2H13  SING  33
+DMX  C13  3H13  SING  34
+DMX  C17  1H17  SING  35
+DMX  C17  2H17  SING  36
+#

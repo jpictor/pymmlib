@@ -1,0 +1,138 @@
+data_FDC
+#
+_chem_comp.id                   FDC
+_chem_comp.name                 'IRON(III) DICITRATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H22 O14 FE2'
+_chem_comp.pdbx_synonyms        'DINUCLEAR FERRIC CITRATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        501.991
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FDC  FE1   .  FE  0  23.603  0.463   1.606   0  1 
+FDC  O1    .  O   0  21.876  -0.548  1.839   1  2 
+FDC  O2    .  O   0  24.373  -0.555  3.100   1  3 
+FDC  O3    .  O   0  25.361  1.177   0.968   1  4 
+FDC  O4    .  O   0  23.816  -0.564  -0.122  1  5 
+FDC  O5    .  O   0  22.603  1.728   0.383   1  6 
+FDC  O6    .  O   0  25.283  -0.548  5.058   1  7 
+FDC  O7    .  O   0  20.351  -2.095  1.357   1  8 
+FDC  O8    .  O   0  21.244  1.722   -1.321  1  9 
+FDC  C1    .  C   0  21.225  -1.302  1.003   1  10
+FDC  C2    .  C   0  21.541  -1.243  -0.493  1  11
+FDC  C3    .  C   0  22.627  -0.250  -0.938  1  12
+FDC  C4    .  C   0  22.841  -0.393  -2.474  1  13
+FDC  C5    .  C   0  25.247  -0.151  3.890   1  14
+FDC  C6    .  C   0  22.097  1.201   -0.620  1  15
+FDC  FE2   .  FE  0  25.584  0.130   -0.779  0  16
+FDC  C7    .  C   0  23.907  0.518   -3.083  1  17
+FDC  C8    .  C   0  26.302  0.828   3.361   1  18
+FDC  C9    .  C   0  26.533  0.794   1.819   1  19
+FDC  O9    .  O   0  27.280  1.184   -0.968  1  20
+FDC  O10   .  O   0  24.747  1.092   -2.289  1  21
+FDC  O11   .  O   0  26.567  -1.148  0.444   1  22
+FDC  O12   .  O   0  23.961  0.646   -4.308  1  23
+FDC  C10   .  C   0  27.648  1.762   1.403   1  24
+FDC  C11   .  C   0  27.045  -0.646  1.484   1  25
+FDC  C12   .  C   0  27.959  1.872   -0.100  1  26
+FDC  O13   .  O   0  27.862  -1.194  2.223   1  27
+FDC  O14   .  O   0  28.868  2.643   -0.431  1  28
+FDC  HO1   .  H   0  ?       ?       ?       1  29
+FDC  H1    .  H   0  ?       ?       ?       1  30
+FDC  1H2   .  H   0  ?       ?       ?       0  31
+FDC  2H2   .  H   0  ?       ?       ?       0  32
+FDC  HO5   .  H   0  ?       ?       ?       1  33
+FDC  H6    .  H   0  ?       ?       ?       1  34
+FDC  HO4   .  H   0  ?       ?       ?       1  35
+FDC  1H4   .  H   0  ?       ?       ?       0  36
+FDC  2H4   .  H   0  ?       ?       ?       0  37
+FDC  H7    .  H   0  ?       ?       ?       1  38
+FDC  OH10  .  H   0  ?       ?       ?       0  39
+FDC  HO9   .  H   0  ?       ?       ?       1  40
+FDC  H12   .  H   0  ?       ?       ?       1  41
+FDC  1H10  .  H   0  ?       ?       ?       0  42
+FDC  2H10  .  H   0  ?       ?       ?       0  43
+FDC  HO3   .  H   0  ?       ?       ?       1  44
+FDC  OH11  .  H   0  ?       ?       ?       0  45
+FDC  H11   .  H   0  ?       ?       ?       1  46
+FDC  1H8   .  H   0  ?       ?       ?       0  47
+FDC  2H8   .  H   0  ?       ?       ?       0  48
+FDC  HO2   .  H   0  ?       ?       ?       1  49
+FDC  H5    .  H   0  ?       ?       ?       1  50
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FDC  FE1  O1    SING  1 
+FDC  FE1  O2    SING  2 
+FDC  FE1  O3    SING  3 
+FDC  FE1  O4    SING  4 
+FDC  FE1  O5    SING  5 
+FDC  O1   C1    SING  6 
+FDC  O1   HO1   SING  7 
+FDC  O2   C5    SING  8 
+FDC  O2   HO2   SING  9 
+FDC  O3   FE2   SING  10
+FDC  O3   C9    SING  11
+FDC  O3   HO3   SING  12
+FDC  O4   C3    SING  13
+FDC  O4   FE2   SING  14
+FDC  O4   HO4   SING  15
+FDC  O5   C6    SING  16
+FDC  O5   HO5   SING  17
+FDC  O6   C5    SING  18
+FDC  O7   C1    SING  19
+FDC  O8   C6    SING  20
+FDC  C1   C2    SING  21
+FDC  C1   H1    SING  22
+FDC  C2   C3    SING  23
+FDC  C2   1H2   SING  24
+FDC  C2   2H2   SING  25
+FDC  C3   C4    SING  26
+FDC  C3   C6    SING  27
+FDC  C4   C7    SING  28
+FDC  C4   1H4   SING  29
+FDC  C4   2H4   SING  30
+FDC  C5   C8    SING  31
+FDC  C5   H5    SING  32
+FDC  C6   H6    SING  33
+FDC  FE2  O9    SING  34
+FDC  FE2  O10   SING  35
+FDC  FE2  O11   SING  36
+FDC  C7   O10   SING  37
+FDC  C7   O12   SING  38
+FDC  C7   H7    SING  39
+FDC  C8   C9    SING  40
+FDC  C8   1H8   SING  41
+FDC  C8   2H8   SING  42
+FDC  C9   C10   SING  43
+FDC  C9   C11   SING  44
+FDC  O9   C12   SING  45
+FDC  O9   HO9   SING  46
+FDC  O10  OH10  SING  47
+FDC  O11  C11   SING  48
+FDC  O11  OH11  SING  49
+FDC  C10  C12   SING  50
+FDC  C10  1H10  SING  51
+FDC  C10  2H10  SING  52
+FDC  C11  O13   SING  53
+FDC  C11  H11   SING  54
+FDC  C12  O14   SING  55
+FDC  C12  H12   SING  56
+#

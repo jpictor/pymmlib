@@ -1,0 +1,114 @@
+data_ROF
+#
+_chem_comp.id                   ROF
+_chem_comp.name                 3-(CYCLOPROPYLMETHOXY)-N-(3,5-DICHLOROPYRIDIN-4-YL)-4-(DIFLUOROMETHOXY)BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H14 N2 O3 CL2 F2'
+_chem_comp.pdbx_synonyms        ROFLUMILAST
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        403.212
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ROF  O24   .  O   0  4.434   0.355   41.867  1  1 
+ROF  C23   .  C   0  2.515   -0.492  35.622  1  2 
+ROF  C22   .  C   0  1.088   0.180   35.710  1  3 
+ROF  C21   .  C   0  1.434   -0.881  36.624  1  4 
+ROF  C8    .  C   0  3.524   0.745   42.576  1  5 
+ROF  C9    .  C   0  2.127   0.699   41.988  1  6 
+ROF  C10   .  C   0  0.987   1.021   42.736  1  7 
+ROF  C11   .  C   0  -0.293  0.977   42.186  1  8 
+ROF  C12   .  C   0  -0.479  0.604   40.856  1  9 
+ROF  O15   .  O   0  -1.715  0.557   40.223  1  10
+ROF  C16   .  C   0  -2.966  0.714   40.878  1  11
+ROF  F18   .  F   0  -2.988  -0.165  41.933  1  12
+ROF  F17   .  F   0  -3.058  2.007   41.300  1  13
+ROF  C13   .  C   0  0.727   0.256   40.054  1  14
+ROF  O19   .  O   0  0.578   -0.081  38.728  1  15
+ROF  C20   .  C   0  1.376   -1.087  38.109  1  16
+ROF  C14   .  C   0  1.985   0.322   40.664  1  17
+ROF  N7    .  N   0  3.731   1.227   43.814  1  18
+ROF  C6    .  C   0  4.977   1.380   44.331  1  19
+ROF  C5    .  C   0  6.046   2.256   43.778  1  20
+ROF  CL26  .  CL  0  5.781   3.231   42.394  0  21
+ROF  C4    .  C   0  7.279   2.320   44.416  1  22
+ROF  N3    .  N   0  7.532   1.612   45.538  1  23
+ROF  C2    .  C   0  6.631   0.796   46.115  1  24
+ROF  C1    .  C   0  5.361   0.642   45.568  1  25
+ROF  CL25  .  CL  0  4.247   -0.407  46.339  0  26
+ROF  H16   .  H   0  ?       ?       ?       1  27
+ROF  H11   .  H   0  ?       ?       ?       1  28
+ROF  H10   .  H   0  ?       ?       ?       1  29
+ROF  H14   .  H   0  ?       ?       ?       1  30
+ROF  1H20  .  H   0  ?       ?       ?       0  31
+ROF  2H20  .  H   0  ?       ?       ?       0  32
+ROF  H21   .  H   0  ?       ?       ?       1  33
+ROF  1H22  .  H   0  ?       ?       ?       0  34
+ROF  2H22  .  H   0  ?       ?       ?       0  35
+ROF  1H23  .  H   0  ?       ?       ?       0  36
+ROF  2H23  .  H   0  ?       ?       ?       0  37
+ROF  HN7   .  H   0  ?       ?       ?       1  38
+ROF  H2    .  H   0  ?       ?       ?       1  39
+ROF  H4    .  H   0  ?       ?       ?       1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ROF  O24  C8    DOUB  1 
+ROF  C23  C22   SING  2 
+ROF  C23  C21   SING  3 
+ROF  C23  1H23  SING  4 
+ROF  C23  2H23  SING  5 
+ROF  C22  C21   SING  6 
+ROF  C22  1H22  SING  7 
+ROF  C22  2H22  SING  8 
+ROF  C21  C20   SING  9 
+ROF  C21  H21   SING  10
+ROF  C8   C9    SING  11
+ROF  C8   N7    SING  12
+ROF  C9   C10   AROM  13
+ROF  C9   C14   AROM  14
+ROF  C10  C11   AROM  15
+ROF  C10  H10   SING  16
+ROF  C11  C12   AROM  17
+ROF  C11  H11   SING  18
+ROF  C12  O15   SING  19
+ROF  C12  C13   AROM  20
+ROF  O15  C16   SING  21
+ROF  C16  F18   SING  22
+ROF  C16  F17   SING  23
+ROF  C16  H16   SING  24
+ROF  C13  C14   AROM  25
+ROF  C13  O19   SING  26
+ROF  O19  C20   SING  27
+ROF  C20  1H20  SING  28
+ROF  C20  2H20  SING  29
+ROF  C14  H14   SING  30
+ROF  N7   C6    SING  31
+ROF  N7   HN7   SING  32
+ROF  C6   C1    AROM  33
+ROF  C6   C5    AROM  34
+ROF  C5   C4    AROM  35
+ROF  C5   CL26  SING  36
+ROF  C4   N3    AROM  37
+ROF  C4   H4    SING  38
+ROF  N3   C2    AROM  39
+ROF  C2   C1    AROM  40
+ROF  C2   H2    SING  41
+ROF  C1   CL25  SING  42
+#

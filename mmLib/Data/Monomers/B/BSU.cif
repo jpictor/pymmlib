@@ -1,0 +1,89 @@
+data_BSU
+#
+_chem_comp.id                   BSU
+_chem_comp.name                 1,3-DIPHENYLUREA
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H12 N2 O1'
+_chem_comp.pdbx_synonyms        DIPHENYLCARBAMIDE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.251
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BSU  N7    .  N  0  ?  ?  ?  1  1 
+BSU  C8    .  C  0  ?  ?  ?  1  2 
+BSU  N9    .  N  0  ?  ?  ?  1  3 
+BSU  O11   .  O  0  ?  ?  ?  1  4 
+BSU  C5    .  C  0  ?  ?  ?  1  5 
+BSU  C4    .  C  0  ?  ?  ?  1  6 
+BSU  C3    .  C  0  ?  ?  ?  1  7 
+BSU  C2    .  C  0  ?  ?  ?  1  8 
+BSU  C1    .  C  0  ?  ?  ?  1  9 
+BSU  C6    .  C  0  ?  ?  ?  1  10
+BSU  C10   .  C  0  ?  ?  ?  1  11
+BSU  C16   .  C  0  ?  ?  ?  1  12
+BSU  C15   .  C  0  ?  ?  ?  1  13
+BSU  C14   .  C  0  ?  ?  ?  1  14
+BSU  C13   .  C  0  ?  ?  ?  1  15
+BSU  C12   .  C  0  ?  ?  ?  1  16
+BSU  H22   .  H  0  ?  ?  ?  1  17
+BSU  H23   .  H  0  ?  ?  ?  1  18
+BSU  1H12  .  H  0  ?  ?  ?  0  19
+BSU  1H13  .  H  0  ?  ?  ?  0  20
+BSU  1H14  .  H  0  ?  ?  ?  0  21
+BSU  1H15  .  H  0  ?  ?  ?  0  22
+BSU  1H16  .  H  0  ?  ?  ?  0  23
+BSU  1H4   .  H  0  ?  ?  ?  0  24
+BSU  1H3   .  H  0  ?  ?  ?  0  25
+BSU  1H2   .  H  0  ?  ?  ?  0  26
+BSU  1H1   .  H  0  ?  ?  ?  0  27
+BSU  1H6   .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BSU  N7   C8    SING  1 
+BSU  N7   H22   SING  2 
+BSU  N7   C5    SING  3 
+BSU  C8   N9    SING  4 
+BSU  C8   O11   DOUB  5 
+BSU  N9   H23   SING  6 
+BSU  N9   C10   SING  7 
+BSU  C5   C4    DOUB  8 
+BSU  C5   C6    SING  9 
+BSU  C4   C3    SING  10
+BSU  C4   1H4   SING  11
+BSU  C3   C2    DOUB  12
+BSU  C3   1H3   SING  13
+BSU  C2   C1    SING  14
+BSU  C2   1H2   SING  15
+BSU  C1   C6    DOUB  16
+BSU  C1   1H1   SING  17
+BSU  C6   1H6   SING  18
+BSU  C10  C16   DOUB  19
+BSU  C10  C12   SING  20
+BSU  C16  C15   SING  21
+BSU  C16  1H16  SING  22
+BSU  C15  C14   DOUB  23
+BSU  C15  1H15  SING  24
+BSU  C14  C13   SING  25
+BSU  C14  1H14  SING  26
+BSU  C13  C12   DOUB  27
+BSU  C13  1H13  SING  28
+BSU  C12  1H12  SING  29
+#

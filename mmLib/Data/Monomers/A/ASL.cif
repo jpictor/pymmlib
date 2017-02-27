@@ -1,0 +1,81 @@
+data_ASL
+#
+_chem_comp.id                       ASL
+_chem_comp.name                     'ASPARTIC ACID-4-CARBOXYETHYL ESTER'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H11 N1 O6'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            205.167
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASL  N     .  N  0  ?  ?  ?  1  1 
+ASL  CA    .  C  0  ?  ?  ?  1  2 
+ASL  C     .  C  0  ?  ?  ?  1  3 
+ASL  O     .  O  0  ?  ?  ?  1  4 
+ASL  CB    .  C  0  ?  ?  ?  1  5 
+ASL  CG    .  C  0  ?  ?  ?  1  6 
+ASL  OD1   .  O  0  ?  ?  ?  1  7 
+ASL  OD2   .  O  0  ?  ?  ?  1  8 
+ASL  C3    .  C  0  ?  ?  ?  1  9 
+ASL  C2    .  C  0  ?  ?  ?  1  10
+ASL  C1    .  C  0  ?  ?  ?  1  11
+ASL  O1    .  O  0  ?  ?  ?  1  12
+ASL  O2    .  O  0  ?  ?  ?  1  13
+ASL  OXT   .  O  0  ?  ?  ?  1  14
+ASL  HXT   .  H  0  ?  ?  ?  1  15
+ASL  HCA   .  H  0  ?  ?  ?  1  16
+ASL  H     .  H  0  ?  ?  ?  1  17
+ASL  HN2   .  H  0  ?  ?  ?  1  18
+ASL  1HB   .  H  0  ?  ?  ?  0  19
+ASL  2HB   .  H  0  ?  ?  ?  0  20
+ASL  HC2   .  H  0  ?  ?  ?  1  21
+ASL  HO1   .  H  0  ?  ?  ?  1  22
+ASL  1HC3  .  H  0  ?  ?  ?  0  23
+ASL  2HC3  .  H  0  ?  ?  ?  0  24
+ASL  3HC3  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASL  N    CA    SING  1 
+ASL  N    H     SING  2 
+ASL  N    HN2   SING  3 
+ASL  CA   C     SING  4 
+ASL  CA   CB    SING  5 
+ASL  CA   HCA   SING  6 
+ASL  C    O     DOUB  7 
+ASL  C    OXT   SING  8 
+ASL  CB   CG    SING  9 
+ASL  CB   1HB   SING  10
+ASL  CB   2HB   SING  11
+ASL  CG   OD1   SING  12
+ASL  CG   OD2   DOUB  13
+ASL  OD1  C2    SING  14
+ASL  C3   C2    SING  15
+ASL  C3   1HC3  SING  16
+ASL  C3   2HC3  SING  17
+ASL  C3   3HC3  SING  18
+ASL  C2   C1    SING  19
+ASL  C2   HC2   SING  20
+ASL  C1   O1    SING  21
+ASL  C1   O2    DOUB  22
+ASL  O1   HO1   SING  23
+ASL  OXT  HXT   SING  24
+#

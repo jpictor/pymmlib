@@ -1,0 +1,79 @@
+data_TNE
+#
+_chem_comp.id                   TNE
+_chem_comp.name                 8-METHYL-8-AZABICYCLO[3,2,1]OCTAN-3-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N1 O1'
+_chem_comp.pdbx_synonyms        TROPINONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        139.197
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TNE  C1   .  C  0  ?  ?  ?  1  1 
+TNE  C2   .  C  0  ?  ?  ?  1  2 
+TNE  C3   .  C  0  ?  ?  ?  1  3 
+TNE  O3   .  O  0  ?  ?  ?  1  4 
+TNE  C4   .  C  0  ?  ?  ?  1  5 
+TNE  C5   .  C  0  ?  ?  ?  1  6 
+TNE  C6   .  C  0  ?  ?  ?  1  7 
+TNE  C7   .  C  0  ?  ?  ?  1  8 
+TNE  N8   .  N  0  ?  ?  ?  1  9 
+TNE  C9   .  C  0  ?  ?  ?  1  10
+TNE  H1   .  H  0  ?  ?  ?  1  11
+TNE  1H2  .  H  0  ?  ?  ?  0  12
+TNE  2H2  .  H  0  ?  ?  ?  0  13
+TNE  1H4  .  H  0  ?  ?  ?  0  14
+TNE  2H4  .  H  0  ?  ?  ?  0  15
+TNE  H5   .  H  0  ?  ?  ?  1  16
+TNE  1H6  .  H  0  ?  ?  ?  0  17
+TNE  2H6  .  H  0  ?  ?  ?  0  18
+TNE  1H7  .  H  0  ?  ?  ?  0  19
+TNE  2H7  .  H  0  ?  ?  ?  0  20
+TNE  1H9  .  H  0  ?  ?  ?  0  21
+TNE  2H9  .  H  0  ?  ?  ?  0  22
+TNE  3H9  .  H  0  ?  ?  ?  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TNE  C1  C2   SING  1 
+TNE  C1  C7   SING  2 
+TNE  C1  N8   SING  3 
+TNE  C1  H1   SING  4 
+TNE  C2  C3   SING  5 
+TNE  C2  1H2  SING  6 
+TNE  C2  2H2  SING  7 
+TNE  C3  O3   DOUB  8 
+TNE  C3  C4   SING  9 
+TNE  C4  C5   SING  10
+TNE  C4  1H4  SING  11
+TNE  C4  2H4  SING  12
+TNE  C5  C6   SING  13
+TNE  C5  N8   SING  14
+TNE  C5  H5   SING  15
+TNE  C6  C7   SING  16
+TNE  C6  1H6  SING  17
+TNE  C6  2H6  SING  18
+TNE  C7  1H7  SING  19
+TNE  C7  2H7  SING  20
+TNE  N8  C9   SING  21
+TNE  C9  1H9  SING  22
+TNE  C9  2H9  SING  23
+TNE  C9  3H9  SING  24
+#

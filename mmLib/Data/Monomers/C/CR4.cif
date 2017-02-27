@@ -1,0 +1,96 @@
+data_CR4
+#
+_chem_comp.id                   CR4
+_chem_comp.name                 2-{5-[AMINO(IMINIO)METHYL]-1H-BENZIMIDAZOL-2-YL}BENZENOLATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 N4 O1'
+_chem_comp.pdbx_synonyms        CRA_1144
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        252.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CR4  C1    .  C  0   44.4320  -3.1000  26.2090  1  1 
+CR4  C2    .  C  0   44.8530  -1.7570  26.2780  1  2 
+CR4  C3    .  C  0   44.8200  -1.0550  27.4740  1  3 
+CR4  C4    .  C  0   44.3690  -1.7070  28.5790  1  4 
+CR4  C5    .  C  0   43.9510  -2.9880  28.5690  1  5 
+CR4  C6    .  C  0   43.9680  -3.7260  27.3860  1  6 
+CR4  C7    .  C  0   44.4890  -3.7890  24.9880  1  7 
+CR4  N1    .  N  0   44.2160  -5.0750  24.9500  1  8 
+CR4  N2    .  N  1   44.8110  -3.1340  23.8960  1  9 
+CR4  N3    .  N  0   44.2410  -1.3060  29.7810  1  10
+CR4  N4    .  N  0   43.5570  -3.4060  29.7520  1  11
+CR4  C8    .  C  0   43.7710  -2.3000  30.4570  1  12
+CR4  C1'   .  C  0   43.5750  -2.1580  31.8270  1  13
+CR4  C2'   .  C  0   43.3790  -3.3150  32.6020  1  14
+CR4  C3'   .  C  0   43.1840  -3.2160  33.9690  1  15
+CR4  C4'   .  C  0   43.1850  -1.9660  34.5710  1  16
+CR4  C5'   .  C  0   43.3800  -0.7990  33.8160  1  17
+CR4  C6'   .  C  0   43.5740  -0.8660  32.4370  1  18
+CR4  O6'   .  O  -1  43.7320  0.3260   31.7190  1  19
+CR4  HC2   .  H  0   45.2130  -1.2420  25.4060  1  20
+CR4  HC3   .  H  0   45.1360  -0.0270  27.5450  1  21
+CR4  HC6   .  H  0   43.6340  -4.7530  27.3850  1  22
+CR4  HH11  .  H  0   44.0010  -5.5520  25.8160  0  23
+CR4  HH12  .  H  0   44.2200  -5.6430  24.1330  0  24
+CR4  HH21  .  H  0   44.9960  -2.1430  23.9470  0  25
+CR4  HH22  .  H  0   44.9090  -3.5580  23.0030  0  26
+CR4  HN3   .  H  0   44.4460  -0.4320  30.1840  1  27
+CR4  HC2'  .  H  0   43.3750  -4.2930  32.1420  0  28
+CR4  HC3'  .  H  0   43.0320  -4.1060  34.5640  0  29
+CR4  HC4'  .  H  0   43.0380  -1.8990  35.6400  0  30
+CR4  HC5'  .  H  0   43.3890  0.1580   34.3170  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CR4  C1   C2    AROM  1 
+CR4  C1   C6    AROM  2 
+CR4  C1   C7    SING  3 
+CR4  C2   HC2   SING  4 
+CR4  C2   C3    AROM  5 
+CR4  C3   HC3   SING  6 
+CR4  C3   C4    AROM  7 
+CR4  C4   C5    AROM  8 
+CR4  C4   N3    AROM  9 
+CR4  C5   C6    AROM  10
+CR4  C5   N4    AROM  11
+CR4  C6   HC6   SING  12
+CR4  C7   N1    SING  13
+CR4  C7   N2    DOUB  14
+CR4  N1   HH11  SING  15
+CR4  N1   HH12  SING  16
+CR4  N2   HH21  SING  17
+CR4  N2   HH22  SING  18
+CR4  N3   HN3   SING  19
+CR4  N3   C8    AROM  20
+CR4  N4   C8    AROM  21
+CR4  C8   C1'   SING  22
+CR4  C1'  C2'   AROM  23
+CR4  C1'  C6'   AROM  24
+CR4  C2'  HC2'  SING  25
+CR4  C2'  C3'   AROM  26
+CR4  C3'  HC3'  SING  27
+CR4  C3'  C4'   AROM  28
+CR4  C4'  HC4'  SING  29
+CR4  C4'  C5'   AROM  30
+CR4  C5'  C6'   AROM  31
+CR4  C5'  HC5'  SING  32
+CR4  C6'  O6'   SING  33
+#

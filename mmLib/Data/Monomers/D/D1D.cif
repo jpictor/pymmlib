@@ -1,0 +1,63 @@
+data_D1D
+#
+_chem_comp.id                   D1D
+_chem_comp.name                 (4S,5S)-1,2-DITHIANE-4,5-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H8 O2 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.226
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+D1D  S1    .  S  0  8.463  -27.918  35.055  1  1 
+D1D  C1    .  C  0  8.684  -29.245  36.174  1  2 
+D1D  C2    .  C  0  7.755  -30.443  36.042  1  3 
+D1D  O2    .  O  0  7.044  -30.415  37.273  1  4 
+D1D  C3    .  C  0  6.653  -30.652  34.976  1  5 
+D1D  O3    .  O  0  7.042  -31.824  34.273  1  6 
+D1D  C4    .  C  0  6.204  -29.707  33.865  1  7 
+D1D  S4    .  S  0  7.025  -28.187  33.698  1  8 
+D1D  1H1C  .  H  0  8.637  -28.857  37.218  0  9 
+D1D  2H1C  .  H  0  9.742  -29.593  36.127  0  10
+D1D  H2    .  H  0  8.391  -31.359  36.046  1  11
+D1D  HA    .  H  0  6.464  -31.163  37.191  1  12
+D1D  H3    .  H  0  5.73   -30.924  35.539  1  13
+D1D  HB    .  H  0  6.365  -31.952  33.618  1  14
+D1D  1H4C  .  H  0  6.239  -30.248  32.891  0  15
+D1D  2H4C  .  H  0  5.109  -29.52   33.966  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+D1D  S1  C1    SING  1 
+D1D  S1  S4    SING  2 
+D1D  C1  C2    SING  3 
+D1D  C1  1H1C  SING  4 
+D1D  C1  2H1C  SING  5 
+D1D  C2  O2    SING  6 
+D1D  C2  C3    SING  7 
+D1D  C2  H2    SING  8 
+D1D  O2  HA    SING  9 
+D1D  C3  O3    SING  10
+D1D  C3  C4    SING  11
+D1D  C3  H3    SING  12
+D1D  O3  HB    SING  13
+D1D  C4  S4    SING  14
+D1D  C4  1H4C  SING  15
+D1D  C4  2H4C  SING  16
+#

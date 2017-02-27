@@ -1,0 +1,125 @@
+data_COG
+#
+_chem_comp.id                   COG
+_chem_comp.name                 2,4-DIAMINO-6-[N-(2',5'-DIMETHOXYBENZYL)-N-METHYLAMINO]QUINAZOLINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H21 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        339.396
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+COG  C2*   .  C  0  10.371  2.352  12.540  1  1 
+COG  C4*   .  C  0  10.829  4.306  13.877  1  2 
+COG  C4A   .  C  0  11.978  4.556  13.102  1  3 
+COG  C5*   .  C  0  12.814  5.661  13.354  1  4 
+COG  C6*   .  C  0  13.960  5.846  12.555  1  5 
+COG  C7*   .  C  0  14.245  4.962  11.533  1  6 
+COG  C8A   .  C  0  12.279  3.691  12.032  1  7 
+COG  C21   .  C  0  19.679  6.515  12.439  1  8 
+COG  C7'   .  C  0  16.116  7.073  12.806  1  9 
+COG  C61   .  C  0  13.785  8.016  13.442  1  10
+COG  C1'   .  C  0  16.485  7.310  11.333  1  11
+COG  C2'   .  C  0  17.724  6.879  10.868  1  12
+COG  C3'   .  C  0  18.070  7.132  9.539   1  13
+COG  C4'   .  C  0  17.209  7.816  8.696   1  14
+COG  C5'   .  C  0  15.992  8.272  9.189   1  15
+COG  C51   .  C  0  15.510  9.490  7.064   1  16
+COG  C6'   .  C  0  15.639  8.026  10.510  1  17
+COG  N1*   .  N  0  11.492  2.593  11.770  1  18
+COG  N2*   .  N  0  9.524   1.266  12.240  1  19
+COG  N3*   .  N  0  10.029  3.237  13.586  1  20
+COG  N4*   .  N  0  10.446  5.087  14.987  1  21
+COG  C8*   .  C  0  13.437  3.868  11.228  1  22
+COG  O2'   .  O  0  18.594  6.173  11.630  1  23
+COG  O5'   .  O  0  15.152  8.945  8.287   1  24
+COG  N6*   .  N  0  14.684  6.999  12.920  1  25
+COG  1HN2  .  H  0  ?       ?      ?       0  26
+COG  2HN2  .  H  0  ?       ?      ?       0  27
+COG  1HN4  .  H  0  ?       ?      ?       0  28
+COG  2HN4  .  H  0  ?       ?      ?       0  29
+COG  H8*   .  H  0  ?       ?      ?       1  30
+COG  H5*   .  H  0  ?       ?      ?       1  31
+COG  H7*   .  H  0  ?       ?      ?       1  32
+COG  1H61  .  H  0  ?       ?      ?       0  33
+COG  2H61  .  H  0  ?       ?      ?       0  34
+COG  3H61  .  H  0  ?       ?      ?       0  35
+COG  1H7'  .  H  0  ?       ?      ?       0  36
+COG  2H7'  .  H  0  ?       ?      ?       0  37
+COG  1H21  .  H  0  ?       ?      ?       0  38
+COG  2H21  .  H  0  ?       ?      ?       0  39
+COG  3H21  .  H  0  ?       ?      ?       0  40
+COG  1H51  .  H  0  ?       ?      ?       0  41
+COG  2H51  .  H  0  ?       ?      ?       0  42
+COG  3H51  .  H  0  ?       ?      ?       0  43
+COG  H6'   .  H  0  ?       ?      ?       1  44
+COG  H3'   .  H  0  ?       ?      ?       1  45
+COG  H4'   .  H  0  ?       ?      ?       1  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+COG  C2*  N1*   AROM  1 
+COG  C2*  N2*   SING  2 
+COG  C2*  N3*   AROM  3 
+COG  C4*  C4A   AROM  4 
+COG  C4*  N3*   AROM  5 
+COG  C4*  N4*   SING  6 
+COG  C4A  C5*   AROM  7 
+COG  C4A  C8A   AROM  8 
+COG  C5*  C6*   AROM  9 
+COG  C5*  H5*   SING  10
+COG  C6*  C7*   AROM  11
+COG  C6*  N6*   SING  12
+COG  C7*  C8*   AROM  13
+COG  C7*  H7*   SING  14
+COG  C8A  N1*   AROM  15
+COG  C8A  C8*   AROM  16
+COG  C21  O2'   SING  17
+COG  C21  1H21  SING  18
+COG  C21  2H21  SING  19
+COG  C21  3H21  SING  20
+COG  C7'  C1'   SING  21
+COG  C7'  N6*   SING  22
+COG  C7'  1H7'  SING  23
+COG  C7'  2H7'  SING  24
+COG  C61  N6*   SING  25
+COG  C61  1H61  SING  26
+COG  C61  2H61  SING  27
+COG  C61  3H61  SING  28
+COG  C1'  C2'   AROM  29
+COG  C1'  C6'   AROM  30
+COG  C2'  C3'   AROM  31
+COG  C2'  O2'   SING  32
+COG  C3'  C4'   AROM  33
+COG  C3'  H3'   SING  34
+COG  C4'  C5'   AROM  35
+COG  C4'  H4'   SING  36
+COG  C5'  C6'   AROM  37
+COG  C5'  O5'   SING  38
+COG  C51  O5'   SING  39
+COG  C51  1H51  SING  40
+COG  C51  2H51  SING  41
+COG  C51  3H51  SING  42
+COG  C6'  H6'   SING  43
+COG  N2*  1HN2  SING  44
+COG  N2*  2HN2  SING  45
+COG  N4*  1HN4  SING  46
+COG  N4*  2HN4  SING  47
+COG  C8*  H8*   SING  48
+#

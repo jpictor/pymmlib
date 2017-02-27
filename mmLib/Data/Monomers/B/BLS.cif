@@ -1,0 +1,144 @@
+data_BLS
+#
+_chem_comp.id                   BLS
+_chem_comp.name                 'BLASTICIDIN S'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAD
+_chem_comp.formula              'C17 H26 N8 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        422.443
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BLS  O4    .  O  0  ?  ?  ?  1  1 
+BLS  N1    .  N  0  ?  ?  ?  1  2 
+BLS  C2    .  C  0  ?  ?  ?  1  3 
+BLS  O2    .  O  0  ?  ?  ?  1  4 
+BLS  N3    .  N  0  ?  ?  ?  1  5 
+BLS  C4    .  C  0  ?  ?  ?  1  6 
+BLS  N4    .  N  0  ?  ?  ?  1  7 
+BLS  C5    .  C  0  ?  ?  ?  1  8 
+BLS  C6    .  C  0  ?  ?  ?  1  9 
+BLS  C1*   .  C  0  ?  ?  ?  1  10
+BLS  C2*   .  C  0  ?  ?  ?  1  11
+BLS  C3*   .  C  0  ?  ?  ?  1  12
+BLS  C4*   .  C  0  ?  ?  ?  1  13
+BLS  C5*   .  C  0  ?  ?  ?  1  14
+BLS  O5*   .  O  0  ?  ?  ?  1  15
+BLS  O3    .  O  0  ?  ?  ?  1  16
+BLS  C6*   .  C  0  ?  ?  ?  1  17
+BLS  N6    .  N  0  ?  ?  ?  1  18
+BLS  C7    .  C  0  ?  ?  ?  1  19
+BLS  O7    .  O  0  ?  ?  ?  1  20
+BLS  C8    .  C  0  ?  ?  ?  1  21
+BLS  C9    .  C  0  ?  ?  ?  1  22
+BLS  N9    .  N  0  ?  ?  ?  1  23
+BLS  C10   .  C  0  ?  ?  ?  1  24
+BLS  C11   .  C  0  ?  ?  ?  1  25
+BLS  N12   .  N  0  ?  ?  ?  1  26
+BLS  C13   .  C  0  ?  ?  ?  1  27
+BLS  C14   .  C  0  ?  ?  ?  1  28
+BLS  N14   .  N  0  ?  ?  ?  1  29
+BLS  N15   .  N  0  ?  ?  ?  1  30
+BLS  H5    .  H  0  ?  ?  ?  1  31
+BLS  H6    .  H  0  ?  ?  ?  1  32
+BLS  1H8   .  H  0  ?  ?  ?  0  33
+BLS  2H8   .  H  0  ?  ?  ?  0  34
+BLS  H9    .  H  0  ?  ?  ?  1  35
+BLS  1H10  .  H  0  ?  ?  ?  0  36
+BLS  2H10  .  H  0  ?  ?  ?  0  37
+BLS  1H11  .  H  0  ?  ?  ?  0  38
+BLS  2H11  .  H  0  ?  ?  ?  0  39
+BLS  1H13  .  H  0  ?  ?  ?  0  40
+BLS  2H13  .  H  0  ?  ?  ?  0  41
+BLS  3H13  .  H  0  ?  ?  ?  0  42
+BLS  H1*   .  H  0  ?  ?  ?  1  43
+BLS  H2*   .  H  0  ?  ?  ?  1  44
+BLS  H3*   .  H  0  ?  ?  ?  1  45
+BLS  H4*   .  H  0  ?  ?  ?  1  46
+BLS  H5*   .  H  0  ?  ?  ?  1  47
+BLS  1HN4  .  H  0  ?  ?  ?  0  48
+BLS  2HN4  .  H  0  ?  ?  ?  0  49
+BLS  HN6   .  H  0  ?  ?  ?  1  50
+BLS  1HN9  .  H  0  ?  ?  ?  0  51
+BLS  2HN9  .  H  0  ?  ?  ?  0  52
+BLS  HN14  .  H  0  ?  ?  ?  0  53
+BLS  1H15  .  H  0  ?  ?  ?  0  54
+BLS  2H15  .  H  0  ?  ?  ?  0  55
+BLS  HO4   .  H  0  ?  ?  ?  1  56
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BLS  O4   C6*   SING  1 
+BLS  O4   HO4   SING  2 
+BLS  N1   C2    SING  3 
+BLS  N1   C6    SING  4 
+BLS  N1   C1*   SING  5 
+BLS  C2   O2    DOUB  6 
+BLS  C2   N3    SING  7 
+BLS  N3   C4    DOUB  8 
+BLS  C4   N4    SING  9 
+BLS  C4   C5    SING  10
+BLS  N4   1HN4  SING  11
+BLS  N4   2HN4  SING  12
+BLS  C5   C6    DOUB  13
+BLS  C5   H5    SING  14
+BLS  C6   H6    SING  15
+BLS  C1*  C2*   SING  16
+BLS  C1*  O5*   SING  17
+BLS  C1*  H1*   SING  18
+BLS  C2*  C3*   DOUB  19
+BLS  C2*  H2*   SING  20
+BLS  C3*  C4*   SING  21
+BLS  C3*  H3*   SING  22
+BLS  C4*  C5*   SING  23
+BLS  C4*  N6    SING  24
+BLS  C4*  H4*   SING  25
+BLS  C5*  O5*   SING  26
+BLS  C5*  C6*   SING  27
+BLS  C5*  H5*   SING  28
+BLS  O3   C6*   DOUB  29
+BLS  N6   C7    SING  30
+BLS  N6   HN6   SING  31
+BLS  C7   O7    DOUB  32
+BLS  C7   C8    SING  33
+BLS  C8   C9    SING  34
+BLS  C8   1H8   SING  35
+BLS  C8   2H8   SING  36
+BLS  C9   N9    SING  37
+BLS  C9   C10   SING  38
+BLS  C9   H9    SING  39
+BLS  N9   1HN9  SING  40
+BLS  N9   2HN9  SING  41
+BLS  C10  C11   SING  42
+BLS  C10  1H10  SING  43
+BLS  C10  2H10  SING  44
+BLS  C11  N12   SING  45
+BLS  C11  1H11  SING  46
+BLS  C11  2H11  SING  47
+BLS  N12  C13   SING  48
+BLS  N12  C14   SING  49
+BLS  C13  1H13  SING  50
+BLS  C13  2H13  SING  51
+BLS  C13  3H13  SING  52
+BLS  C14  N14   DOUB  53
+BLS  C14  N15   SING  54
+BLS  N14  HN14  SING  55
+BLS  N15  1H15  SING  56
+BLS  N15  2H15  SING  57
+#

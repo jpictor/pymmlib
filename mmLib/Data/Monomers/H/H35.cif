@@ -1,0 +1,83 @@
+data_H35
+#
+_chem_comp.id                   H35
+_chem_comp.name                 N-(FURAN-2-YLMETHYL)-7H-PURIN-6-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H9 N5 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.214
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+H35  CAM   .  C  0  39.8    25.994  28.723  1  1 
+H35  CAO   .  C  0  40.6    27.069  28.641  1  2 
+H35  CAN   .  C  0  41.46   26.903  27.623  1  3 
+H35  OAL   .  O  0  41.199  25.678  27.069  1  4 
+H35  CAK   .  C  0  40.155  25.138  27.753  1  5 
+H35  CAP   .  C  0  39.595  23.764  27.375  1  6 
+H35  N6    .  N  0  39.125  23.869  25.949  1  7 
+H35  C6    .  C  0  38.751  22.821  25.234  1  8 
+H35  N1    .  N  0  38.514  21.652  25.819  1  9 
+H35  C2    .  C  0  38.152  20.579  25.104  1  10
+H35  N3    .  N  0  38      20.609  23.767  1  11
+H35  C4    .  C  0  38.204  21.763  23.12   1  12
+H35  C5    .  C  0  38.586  22.896  23.836  1  13
+H35  N7    .  N  0  38.719  23.875  22.946  1  14
+H35  C8    .  C  0  38.457  23.394  21.725  1  15
+H35  N9    .  N  0  38.132  22.1    21.824  1  16
+H35  HAM   .  H  0  38.992  25.841  29.458  1  17
+H35  HAO   .  H  0  40.557  27.949  29.305  1  18
+H35  HAN   .  H  0  42.228  27.628  27.305  1  19
+H35  1HAP  .  H  0  38.805  23.402  28.074  0  20
+H35  2HAP  .  H  0  40.319  22.932  27.541  0  21
+H35  H6    .  H  0  39.853  24.353  25.423  1  22
+H35  H2    .  H  0  37.972  19.631  25.639  1  23
+H35  H7    .  H  0  39.633  24.325  22.998  1  24
+H35  H8    .  H  0  38.502  23.972  20.787  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+H35  CAM  CAO   SING  1 
+H35  CAM  CAK   DOUB  2 
+H35  CAM  HAM   SING  3 
+H35  CAO  CAN   DOUB  4 
+H35  CAO  HAO   SING  5 
+H35  CAN  OAL   SING  6 
+H35  CAN  HAN   SING  7 
+H35  OAL  CAK   SING  8 
+H35  CAK  CAP   SING  9 
+H35  CAP  N6    SING  10
+H35  CAP  1HAP  SING  11
+H35  CAP  2HAP  SING  12
+H35  N6   C6    SING  13
+H35  N6   H6    SING  14
+H35  C6   N1    SING  15
+H35  C6   C5    DOUB  16
+H35  N1   C2    DOUB  17
+H35  C2   N3    SING  18
+H35  C2   H2    SING  19
+H35  N3   C4    DOUB  20
+H35  C4   C5    SING  21
+H35  C4   N9    SING  22
+H35  C5   N7    SING  23
+H35  N7   C8    SING  24
+H35  N7   H7    SING  25
+H35  C8   N9    DOUB  26
+H35  C8   H8    SING  27
+#

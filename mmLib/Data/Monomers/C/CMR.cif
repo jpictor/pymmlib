@@ -1,0 +1,105 @@
+data_CMR
+#
+_chem_comp.id                       CMR
+_chem_comp.name                     2'-DEOXY-CYTIDINE-5'-RP-MONOMETHYLPHOSPHONATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H16 N3 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            305.227
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CMR  P     .  P  0  ?  ?  ?  1  1 
+CMR  CMP   .  C  0  ?  ?  ?  1  2 
+CMR  O1P   .  O  0  ?  ?  ?  1  3 
+CMR  O5*   .  O  0  ?  ?  ?  1  4 
+CMR  C5*   .  C  0  ?  ?  ?  1  5 
+CMR  C4*   .  C  0  ?  ?  ?  1  6 
+CMR  O4*   .  O  0  ?  ?  ?  1  7 
+CMR  C1*   .  C  0  ?  ?  ?  1  8 
+CMR  N1    .  N  0  ?  ?  ?  1  9 
+CMR  C6    .  C  0  ?  ?  ?  1  10
+CMR  C5    .  C  0  ?  ?  ?  1  11
+CMR  C4    .  C  0  ?  ?  ?  1  12
+CMR  N4    .  N  0  ?  ?  ?  1  13
+CMR  N3    .  N  0  ?  ?  ?  1  14
+CMR  C2    .  C  0  ?  ?  ?  1  15
+CMR  O2    .  O  0  ?  ?  ?  1  16
+CMR  C3*   .  C  0  ?  ?  ?  1  17
+CMR  C2*   .  C  0  ?  ?  ?  1  18
+CMR  O3*   .  O  0  ?  ?  ?  1  19
+CMR  O3P   .  O  0  ?  ?  ?  1  20
+CMR  1HMP  .  H  0  ?  ?  ?  0  21
+CMR  2HMP  .  H  0  ?  ?  ?  0  22
+CMR  3HMP  .  H  0  ?  ?  ?  0  23
+CMR  1H5*  .  H  0  ?  ?  ?  0  24
+CMR  2H5*  .  H  0  ?  ?  ?  0  25
+CMR  H4*   .  H  0  ?  ?  ?  1  26
+CMR  H1*   .  H  0  ?  ?  ?  1  27
+CMR  H6    .  H  0  ?  ?  ?  1  28
+CMR  H5    .  H  0  ?  ?  ?  1  29
+CMR  1H4   .  H  0  ?  ?  ?  0  30
+CMR  2H4   .  H  0  ?  ?  ?  0  31
+CMR  H3*   .  H  0  ?  ?  ?  1  32
+CMR  1H2*  .  H  0  ?  ?  ?  0  33
+CMR  2H2*  .  H  0  ?  ?  ?  0  34
+CMR  H3T   .  H  0  ?  ?  ?  1  35
+CMR  3HOP  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CMR  P    CMP   SING  1 
+CMR  P    O1P   DOUB  2 
+CMR  P    O5*   SING  3 
+CMR  P    O3P   SING  4 
+CMR  CMP  1HMP  SING  5 
+CMR  CMP  2HMP  SING  6 
+CMR  CMP  3HMP  SING  7 
+CMR  O5*  C5*   SING  8 
+CMR  C5*  1H5*  SING  9 
+CMR  C5*  2H5*  SING  10
+CMR  C5*  C4*   SING  11
+CMR  C4*  H4*   SING  12
+CMR  C4*  O4*   SING  13
+CMR  C4*  C3*   SING  14
+CMR  O4*  C1*   SING  15
+CMR  C1*  H1*   SING  16
+CMR  C1*  N1    SING  17
+CMR  C1*  C2*   SING  18
+CMR  N1   C6    SING  19
+CMR  N1   C2    SING  20
+CMR  C6   H6    SING  21
+CMR  C6   C5    DOUB  22
+CMR  C5   H5    SING  23
+CMR  C5   C4    SING  24
+CMR  C4   N4    SING  25
+CMR  C4   N3    DOUB  26
+CMR  N4   1H4   SING  27
+CMR  N4   2H4   SING  28
+CMR  N3   C2    SING  29
+CMR  C2   O2    DOUB  30
+CMR  C3*  H3*   SING  31
+CMR  C3*  C2*   SING  32
+CMR  C3*  O3*   SING  33
+CMR  C2*  1H2*  SING  34
+CMR  C2*  2H2*  SING  35
+CMR  O3*  H3T   SING  36
+CMR  O3P  3HOP  SING  37
+#

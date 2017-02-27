@@ -1,0 +1,64 @@
+data_VO3
+#
+_chem_comp.id                   VO3
+_chem_comp.name                 TETRAMETAVANADATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'O13 V4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        411.758
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VO3  V1   .  V  0  33.475  20.701  20.301  1  1 
+VO3  O0   .  O  0  35.24   20.88   20.64   1  2 
+VO3  O1   .  O  0  32.942  19.152  20.102  1  3 
+VO3  O30  .  O  0  33.03   21.757  18.939  1  4 
+VO3  V2   .  V  0  31.85   22.694  22.42   1  5 
+VO3  O2   .  O  0  30.913  23.565  21.336  1  6 
+VO3  O3   .  O  0  32.52   21.197  21.774  1  7 
+VO3  O4   .  O  0  30.819  22.308  23.7    1  8 
+VO3  V3   .  V  0  34.177  25.21   23.025  1  9 
+VO3  O5   .  O  0  33.431  26.485  22.131  1  10
+VO3  O6   .  O  0  33.152  23.784  23.063  1  11
+VO3  O7   .  O  0  34.276  25.77   24.615  1  12
+VO3  V4   .  V  0  36.736  24.039  21.171  1  13
+VO3  O8   .  O  0  35.818  24.948  22.483  1  14
+VO3  O10  .  O  0  37.63   25.14   20.36   1  15
+VO3  O11  .  O  0  37.71   23.05   22.14   1  16
+VO3  O00  .  O  0  35.805  23.069  19.964  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VO3  V1  O0   DOUB  1 
+VO3  V1  O1   SING  2 
+VO3  V1  O30  SING  3 
+VO3  V1  O3   SING  4 
+VO3  V2  O2   DOUB  5 
+VO3  V2  O3   SING  6 
+VO3  V2  O4   SING  7 
+VO3  V2  O6   SING  8 
+VO3  V3  O5   DOUB  9 
+VO3  V3  O6   SING  10
+VO3  V3  O7   SING  11
+VO3  V3  O8   SING  12
+VO3  V4  O11  SING  13
+VO3  V4  O10  DOUB  14
+VO3  V4  O8   SING  15
+VO3  V4  O00  SING  16
+#

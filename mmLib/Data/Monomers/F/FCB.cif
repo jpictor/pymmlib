@@ -1,0 +1,77 @@
+data_FCB
+#
+_chem_comp.id                   FCB
+_chem_comp.name                 BETA-D-FUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FCB  C1   .  C  0  ?  ?  ?  1  1 
+FCB  C2   .  C  0  ?  ?  ?  1  2 
+FCB  C3   .  C  0  ?  ?  ?  1  3 
+FCB  C4   .  C  0  ?  ?  ?  1  4 
+FCB  C5   .  C  0  ?  ?  ?  1  5 
+FCB  C6   .  C  0  ?  ?  ?  1  6 
+FCB  O1   .  O  0  ?  ?  ?  1  7 
+FCB  O2   .  O  0  ?  ?  ?  1  8 
+FCB  O3   .  O  0  ?  ?  ?  1  9 
+FCB  O4   .  O  0  ?  ?  ?  1  10
+FCB  O5   .  O  0  ?  ?  ?  1  11
+FCB  H1   .  H  0  ?  ?  ?  1  12
+FCB  H2   .  H  0  ?  ?  ?  1  13
+FCB  H3   .  H  0  ?  ?  ?  1  14
+FCB  H4   .  H  0  ?  ?  ?  1  15
+FCB  H5   .  H  0  ?  ?  ?  1  16
+FCB  1H6  .  H  0  ?  ?  ?  0  17
+FCB  2H6  .  H  0  ?  ?  ?  0  18
+FCB  3H6  .  H  0  ?  ?  ?  0  19
+FCB  HO1  .  H  0  ?  ?  ?  1  20
+FCB  HO2  .  H  0  ?  ?  ?  1  21
+FCB  HO3  .  H  0  ?  ?  ?  1  22
+FCB  HO4  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FCB  C1  C2   SING  1 
+FCB  C1  O1   SING  2 
+FCB  C1  O5   SING  3 
+FCB  C1  H1   SING  4 
+FCB  C2  C3   SING  5 
+FCB  C2  O2   SING  6 
+FCB  C2  H2   SING  7 
+FCB  C3  C4   SING  8 
+FCB  C3  O3   SING  9 
+FCB  C3  H3   SING  10
+FCB  C4  C5   SING  11
+FCB  C4  O4   SING  12
+FCB  C4  H4   SING  13
+FCB  C5  C6   SING  14
+FCB  C5  O5   SING  15
+FCB  C5  H5   SING  16
+FCB  C6  1H6  SING  17
+FCB  C6  2H6  SING  18
+FCB  C6  3H6  SING  19
+FCB  O1  HO1  SING  20
+FCB  O2  HO2  SING  21
+FCB  O3  HO3  SING  22
+FCB  O4  HO4  SING  23
+#

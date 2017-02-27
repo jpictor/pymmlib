@@ -1,0 +1,94 @@
+data_AHU
+#
+_chem_comp.id                   AHU
+_chem_comp.name                 1',5'-ANHYDRO-2',3'-DIDEOXY-2'-(5-IODOURACIL-1-YL)-D-ABABINO-HEXITOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N2 O5 I1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        368.128
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHU  C4*   .  C  0  ?  ?  ?  1  1 
+AHU  C7*   .  C  0  ?  ?  ?  1  2 
+AHU  O7*   .  O  0  ?  ?  ?  1  3 
+AHU  O5*   .  O  0  ?  ?  ?  1  4 
+AHU  C6*   .  C  0  ?  ?  ?  1  5 
+AHU  C1*   .  C  0  ?  ?  ?  1  6 
+AHU  C2*   .  C  0  ?  ?  ?  1  7 
+AHU  C3*   .  C  0  ?  ?  ?  1  8 
+AHU  O3*   .  O  0  ?  ?  ?  1  9 
+AHU  N1    .  N  0  ?  ?  ?  1  10
+AHU  C6    .  C  0  ?  ?  ?  1  11
+AHU  C2    .  C  0  ?  ?  ?  1  12
+AHU  O2    .  O  0  ?  ?  ?  1  13
+AHU  N3    .  N  0  ?  ?  ?  1  14
+AHU  C4    .  C  0  ?  ?  ?  1  15
+AHU  O4    .  O  0  ?  ?  ?  1  16
+AHU  C5    .  C  0  ?  ?  ?  1  17
+AHU  I     .  I  0  ?  ?  ?  1  18
+AHU  H4*   .  H  0  ?  ?  ?  1  19
+AHU  1H7*  .  H  0  ?  ?  ?  0  20
+AHU  2H7*  .  H  0  ?  ?  ?  0  21
+AHU  7HO*  .  H  0  ?  ?  ?  0  22
+AHU  1H6*  .  H  0  ?  ?  ?  0  23
+AHU  2H6*  .  H  0  ?  ?  ?  0  24
+AHU  H1*   .  H  0  ?  ?  ?  1  25
+AHU  1H2*  .  H  0  ?  ?  ?  0  26
+AHU  2H2*  .  H  0  ?  ?  ?  0  27
+AHU  H3*   .  H  0  ?  ?  ?  1  28
+AHU  3HO*  .  H  0  ?  ?  ?  0  29
+AHU  H6    .  H  0  ?  ?  ?  1  30
+AHU  HN3   .  H  0  ?  ?  ?  1  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHU  C4*  C7*   SING  1 
+AHU  C4*  O5*   SING  2 
+AHU  C4*  C3*   SING  3 
+AHU  C4*  H4*   SING  4 
+AHU  C7*  O7*   SING  5 
+AHU  C7*  1H7*  SING  6 
+AHU  C7*  2H7*  SING  7 
+AHU  O7*  7HO*  SING  8 
+AHU  O5*  C6*   SING  9 
+AHU  C6*  C1*   SING  10
+AHU  C6*  1H6*  SING  11
+AHU  C6*  2H6*  SING  12
+AHU  C1*  C2*   SING  13
+AHU  C1*  N1    SING  14
+AHU  C1*  H1*   SING  15
+AHU  C2*  C3*   SING  16
+AHU  C2*  1H2*  SING  17
+AHU  C2*  2H2*  SING  18
+AHU  C3*  O3*   SING  19
+AHU  C3*  H3*   SING  20
+AHU  O3*  3HO*  SING  21
+AHU  N1   C6    SING  22
+AHU  N1   C2    SING  23
+AHU  C6   C5    DOUB  24
+AHU  C6   H6    SING  25
+AHU  C2   O2    DOUB  26
+AHU  C2   N3    SING  27
+AHU  N3   C4    SING  28
+AHU  N3   HN3   SING  29
+AHU  C4   O4    DOUB  30
+AHU  C4   C5    SING  31
+AHU  C5   I     SING  32
+#

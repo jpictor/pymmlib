@@ -1,0 +1,60 @@
+data_IAS
+#
+_chem_comp.id                       IAS
+_chem_comp.name                     'ASPARTYL GROUP'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H6 N1 O3'
+_chem_comp.pdbx_synonyms            'BETA-ASPARTYL RESIDUE; ISOASPARTYL GROUP'
+_chem_comp.mon_nstd_parent_comp_id  ASP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            116.096
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IAS  N    .  N  0  ?  ?  ?  1  1 
+IAS  CA   .  C  0  ?  ?  ?  1  2 
+IAS  C    .  C  0  ?  ?  ?  1  3 
+IAS  O    .  O  0  ?  ?  ?  1  4 
+IAS  CB   .  C  0  ?  ?  ?  1  5 
+IAS  CG   .  C  0  ?  ?  ?  1  6 
+IAS  OD1  .  O  0  ?  ?  ?  1  7 
+IAS  OXT  .  O  0  ?  ?  ?  1  8 
+IAS  1HN  .  H  0  ?  ?  ?  0  9 
+IAS  2HN  .  H  0  ?  ?  ?  0  10
+IAS  HA   .  H  0  ?  ?  ?  1  11
+IAS  1HB  .  H  0  ?  ?  ?  0  12
+IAS  2HB  .  H  0  ?  ?  ?  0  13
+IAS  HXT  .  H  0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IAS  N    CA   SING  1 
+IAS  N    1HN  SING  2 
+IAS  N    2HN  SING  3 
+IAS  CA   CB   SING  4 
+IAS  CA   C    SING  5 
+IAS  CA   HA   SING  6 
+IAS  C    O    DOUB  7 
+IAS  C    OXT  SING  8 
+IAS  CB   CG   SING  9 
+IAS  CB   1HB  SING  10
+IAS  CB   2HB  SING  11
+IAS  CG   OD1  DOUB  12
+IAS  OXT  HXT  SING  13
+#

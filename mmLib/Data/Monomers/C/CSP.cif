@@ -1,0 +1,69 @@
+data_CSP
+#
+_chem_comp.id                       CSP
+_chem_comp.name                     S-PHOSPHOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H8 N1 O5 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            201.134
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSP  N     .  N  0  ?  ?  ?  1  1 
+CSP  CA    .  C  0  ?  ?  ?  1  2 
+CSP  CB    .  C  0  ?  ?  ?  1  3 
+CSP  SG    .  S  0  ?  ?  ?  1  4 
+CSP  C     .  C  0  ?  ?  ?  1  5 
+CSP  O     .  O  0  ?  ?  ?  1  6 
+CSP  OXT   .  O  0  ?  ?  ?  1  7 
+CSP  P     .  P  0  ?  ?  ?  1  8 
+CSP  O1P   .  O  0  ?  ?  ?  1  9 
+CSP  O2P   .  O  0  ?  ?  ?  1  10
+CSP  O3P   .  O  0  ?  ?  ?  1  11
+CSP  1HN   .  H  0  ?  ?  ?  0  12
+CSP  2HN   .  H  0  ?  ?  ?  0  13
+CSP  HA    .  H  0  ?  ?  ?  1  14
+CSP  1HB   .  H  0  ?  ?  ?  0  15
+CSP  2HB   .  H  0  ?  ?  ?  0  16
+CSP  HXT   .  H  0  ?  ?  ?  1  17
+CSP  PHO2  .  H  0  ?  ?  ?  0  18
+CSP  PHO3  .  H  0  ?  ?  ?  0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSP  N    CA    SING  1 
+CSP  N    1HN   SING  2 
+CSP  N    2HN   SING  3 
+CSP  CA   CB    SING  4 
+CSP  CA   C     SING  5 
+CSP  CA   HA    SING  6 
+CSP  CB   SG    SING  7 
+CSP  CB   1HB   SING  8 
+CSP  CB   2HB   SING  9 
+CSP  SG   P     SING  10
+CSP  C    O     DOUB  11
+CSP  C    OXT   SING  12
+CSP  OXT  HXT   SING  13
+CSP  P    O1P   DOUB  14
+CSP  P    O2P   SING  15
+CSP  P    O3P   SING  16
+CSP  O2P  PHO2  SING  17
+CSP  O3P  PHO3  SING  18
+#

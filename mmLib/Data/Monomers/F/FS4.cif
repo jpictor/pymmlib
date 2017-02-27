@@ -1,0 +1,57 @@
+data_FS4
+#
+_chem_comp.id                   FS4
+_chem_comp.name                 'IRON/SULFUR CLUSTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'FE4 S4'
+_chem_comp.pdbx_formal_charge   2+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       351.628
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FS4  FE1  .  FE  0  ?  ?  ?  0  1
+FS4  FE2  .  FE  0  ?  ?  ?  0  2
+FS4  FE3  .  FE  0  ?  ?  ?  0  3
+FS4  FE4  .  FE  0  ?  ?  ?  0  4
+FS4  S1   .  S   0  ?  ?  ?  1  5
+FS4  S2   .  S   0  ?  ?  ?  1  6
+FS4  S3   .  S   0  ?  ?  ?  1  7
+FS4  S4   .  S   0  ?  ?  ?  1  8
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FS4  FE1  FE2  SING  1 
+FS4  FE1  FE3  SING  2 
+FS4  FE1  FE4  SING  3 
+FS4  FE1  S1   SING  4 
+FS4  FE1  S2   SING  5 
+FS4  FE1  S3   SING  6 
+FS4  FE2  FE3  SING  7 
+FS4  FE2  FE4  SING  8 
+FS4  FE2  S1   SING  9 
+FS4  FE2  S2   SING  10
+FS4  FE2  S4   SING  11
+FS4  FE3  FE4  SING  12
+FS4  FE3  S2   SING  13
+FS4  FE3  S3   SING  14
+FS4  FE3  S4   SING  15
+FS4  FE4  S1   SING  16
+FS4  FE4  S3   SING  17
+FS4  FE4  S4   SING  18
+#

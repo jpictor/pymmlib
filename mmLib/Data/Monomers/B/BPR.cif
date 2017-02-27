@@ -1,0 +1,96 @@
+data_BPR
+#
+_chem_comp.id                   BPR
+_chem_comp.name                 (2R)-N-[(2R)-2-(DIHYDROXYBORYL)-1-L-PROLYLPYRROLIDIN-2-YL]-N-[(5R)-5-(DIHYDROXYBORYL)-1-L-PROLYLPYRROLIDIN-2-YL]-L-PROLINAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H17 N2 O3 B1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.055
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BPR  N    .  N  0  -5.980  19.550  6.442  1  1 
+BPR  CA   .  C  0  -6.975  19.326  5.364  1  2 
+BPR  C    .  C  0  -6.472  18.375  4.277  1  3 
+BPR  O    .  O  0  -5.278  18.138  4.151  1  4 
+BPR  CB   .  C  0  -7.303  20.679  4.765  1  5 
+BPR  CG   .  C  0  -6.107  21.530  5.200  1  6 
+BPR  CD   .  C  0  -5.647  20.981  6.540  1  7 
+BPR  O1   .  O  0  -7.913  18.359  0.599  1  8 
+BPR  N1   .  N  0  -7.395  17.795  3.498  1  9 
+BPR  C1   .  C  0  -8.846  17.809  3.773  1  10
+BPR  C2   .  C  0  -7.050  16.867  2.419  1  11
+BPR  C3   .  C  0  -8.310  16.026  2.303  1  12
+BPR  C4   .  C  0  -9.402  17.016  2.636  1  13
+BPR  O2   .  O  0  -5.582  18.530  1.200  1  14
+BPR  B    .  B  0  -6.720  17.576  1.053  1  15
+BPR  HO1  .  H  0  ?       ?       ?      1  16
+BPR  HO2  .  H  0  ?       ?       ?      1  17
+BPR  H2   .  H  0  ?       ?       ?      1  18
+BPR  1H3  .  H  0  ?       ?       ?      0  19
+BPR  2H3  .  H  0  ?       ?       ?      0  20
+BPR  1H4  .  H  0  ?       ?       ?      0  21
+BPR  2H4  .  H  0  ?       ?       ?      0  22
+BPR  1H1  .  H  0  ?       ?       ?      0  23
+BPR  2H1  .  H  0  ?       ?       ?      0  24
+BPR  HA   .  H  0  ?       ?       ?      1  25
+BPR  1HB  .  H  0  ?       ?       ?      0  26
+BPR  2HB  .  H  0  ?       ?       ?      0  27
+BPR  1HG  .  H  0  ?       ?       ?      0  28
+BPR  2HG  .  H  0  ?       ?       ?      0  29
+BPR  1HD  .  H  0  ?       ?       ?      0  30
+BPR  2HD  .  H  0  ?       ?       ?      0  31
+BPR  HN   .  H  0  ?       ?       ?      1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BPR  N   CD   SING  1 
+BPR  N   CA   SING  2 
+BPR  N   HN   SING  3 
+BPR  CA  C    SING  4 
+BPR  CA  CB   SING  5 
+BPR  CA  HA   SING  6 
+BPR  C   N1   SING  7 
+BPR  C   O    DOUB  8 
+BPR  CB  CG   SING  9 
+BPR  CB  1HB  SING  10
+BPR  CB  2HB  SING  11
+BPR  CG  CD   SING  12
+BPR  CG  1HG  SING  13
+BPR  CG  2HG  SING  14
+BPR  CD  1HD  SING  15
+BPR  CD  2HD  SING  16
+BPR  O1  B    SING  17
+BPR  O1  HO1  SING  18
+BPR  N1  C1   SING  19
+BPR  N1  C2   SING  20
+BPR  C1  C4   SING  21
+BPR  C1  1H1  SING  22
+BPR  C1  2H1  SING  23
+BPR  C2  B    SING  24
+BPR  C2  C3   SING  25
+BPR  C2  H2   SING  26
+BPR  C3  C4   SING  27
+BPR  C3  1H3  SING  28
+BPR  C3  2H3  SING  29
+BPR  C4  1H4  SING  30
+BPR  C4  2H4  SING  31
+BPR  O2  B    SING  32
+BPR  O2  HO2  SING  33
+#

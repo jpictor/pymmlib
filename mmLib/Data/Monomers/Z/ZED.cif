@@ -1,0 +1,113 @@
+data_ZED
+#
+_chem_comp.id                   ZED
+_chem_comp.name                 'L-PROLINE, 1-[(2S)-3-MERCAPTO-2-METHYL-1-OXOPROPYL]-4-(PHENYLTHIO)-, 4S'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H19 N1 O3 S2'
+_chem_comp.pdbx_synonyms        ZOFENOPRILAT
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        325.440
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ZED  CZ1   .  C  0  70.892  50.934  21.691  1  1 
+ZED  CZ2   .  C  0  69.549  50.646  21.988  1  2 
+ZED  CZ3   .  C  0  69.240  49.454  22.675  1  3 
+ZED  CZ4   .  C  0  70.263  48.546  23.064  1  4 
+ZED  CZ5   .  C  0  71.615  48.842  22.762  1  5 
+ZED  CZ6   .  C  0  71.933  50.041  22.075  1  6 
+ZED  CZ7   .  C  0  66.240  49.921  19.600  1  7 
+ZED  CZ8   .  C  0  65.897  49.413  21.015  1  8 
+ZED  CZ9   .  C  0  67.742  49.984  19.307  1  9 
+ZED  CZ10  .  C  0  68.106  51.410  19.700  0  10
+ZED  CZ11  .  C  0  66.976  52.160  19.045  0  11
+ZED  CZ12  .  C  0  62.668  53.286  19.320  0  12
+ZED  CZ13  .  C  0  64.038  52.936  18.694  0  13
+ZED  CZ14  .  C  0  64.492  51.510  19.041  0  14
+ZED  CZ15  .  C  0  64.002  53.211  17.185  0  15
+ZED  OZ1   .  O  0  66.182  48.254  21.331  1  16
+ZED  OZ2   .  O  0  65.342  50.180  21.811  1  17
+ZED  OZ3   .  O  0  63.661  50.594  19.062  1  18
+ZED  NZ1   .  N  0  65.804  51.301  19.330  1  19
+ZED  SZ1   .  S  0  68.235  51.789  21.479  1  20
+ZED  SZ2   .  S  0  63.065  52.051  16.204  1  21
+ZED  HZ1   .  H  0  71.138  51.844  21.165  1  22
+ZED  HZ3   .  H  0  68.210  49.227  22.909  1  23
+ZED  HZ4   .  H  0  70.010  47.635  23.587  1  24
+ZED  HZ5   .  H  0  72.399  48.159  23.053  1  25
+ZED  HZ6   .  H  0  72.961  50.276  21.844  1  26
+ZED  HZ7   .  H  0  65.713  49.180  18.981  1  27
+ZED  1HZ9  .  H  0  68.303  49.244  19.896  0  28
+ZED  2HZ9  .  H  0  67.988  49.748  18.261  0  29
+ZED  H100  .  H  0  69.128  51.666  19.385  0  30
+ZED  1H11  .  H  0  66.856  53.168  19.469  0  31
+ZED  2H11  .  H  0  67.136  52.332  17.970  0  32
+ZED  1H12  .  H  0  62.774  53.369  20.412  0  33
+ZED  2H12  .  H  0  62.313  54.244  18.912  0  34
+ZED  3H12  .  H  0  61.943  52.494  19.081  0  35
+ZED  H133  .  H  0  64.805  53.589  19.135  0  36
+ZED  1H15  .  H  0  63.549  54.203  17.042  0  37
+ZED  2H15  .  H  0  65.043  53.128  16.838  0  38
+ZED  HOZ1  .  H  0  65.911  48.094  22.227  0  39
+ZED  HSZ2  .  H  0  62.837  52.560  15.030  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ZED  CZ1   CZ6   SING  1 
+ZED  CZ1   CZ2   DOUB  2 
+ZED  CZ1   HZ1   SING  3 
+ZED  CZ2   SZ1   SING  4 
+ZED  CZ2   CZ3   SING  5 
+ZED  CZ3   CZ4   DOUB  6 
+ZED  CZ3   HZ3   SING  7 
+ZED  CZ4   CZ5   SING  8 
+ZED  CZ4   HZ4   SING  9 
+ZED  CZ5   CZ6   DOUB  10
+ZED  CZ5   HZ5   SING  11
+ZED  CZ6   HZ6   SING  12
+ZED  CZ7   CZ9   SING  13
+ZED  CZ7   NZ1   SING  14
+ZED  CZ7   CZ8   SING  15
+ZED  CZ7   HZ7   SING  16
+ZED  CZ8   OZ1   SING  17
+ZED  CZ8   OZ2   DOUB  18
+ZED  CZ9   CZ10  SING  19
+ZED  CZ9   1HZ9  SING  20
+ZED  CZ9   2HZ9  SING  21
+ZED  CZ10  CZ11  SING  22
+ZED  CZ10  SZ1   SING  23
+ZED  CZ10  H100  SING  24
+ZED  CZ11  NZ1   SING  25
+ZED  CZ11  1H11  SING  26
+ZED  CZ11  2H11  SING  27
+ZED  CZ12  CZ13  SING  28
+ZED  CZ12  1H12  SING  29
+ZED  CZ12  2H12  SING  30
+ZED  CZ12  3H12  SING  31
+ZED  CZ13  CZ15  SING  32
+ZED  CZ13  CZ14  SING  33
+ZED  CZ13  H133  SING  34
+ZED  CZ14  OZ3   DOUB  35
+ZED  CZ14  NZ1   SING  36
+ZED  CZ15  SZ2   SING  37
+ZED  CZ15  1H15  SING  38
+ZED  CZ15  2H15  SING  39
+ZED  OZ1   HOZ1  SING  40
+ZED  SZ2   HSZ2  SING  41
+#

@@ -1,0 +1,88 @@
+data_CIP
+#
+_chem_comp.id                   CIP
+_chem_comp.name                 INOSITOL-2-METHYLENE-1,2-CYCLIC-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        240.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CIP  C1    .  C  0  ?  ?  ?  1  1 
+CIP  C2    .  C  0  ?  ?  ?  1  2 
+CIP  C3    .  C  0  ?  ?  ?  1  3 
+CIP  C4    .  C  0  ?  ?  ?  1  4 
+CIP  C5    .  C  0  ?  ?  ?  1  5 
+CIP  C6    .  C  0  ?  ?  ?  1  6 
+CIP  C7    .  C  0  ?  ?  ?  1  7 
+CIP  O1    .  O  0  ?  ?  ?  1  8 
+CIP  O3    .  O  0  ?  ?  ?  1  9 
+CIP  O4    .  O  0  ?  ?  ?  1  10
+CIP  O5    .  O  0  ?  ?  ?  1  11
+CIP  O6    .  O  0  ?  ?  ?  1  12
+CIP  P     .  P  0  ?  ?  ?  1  13
+CIP  O1P   .  O  0  ?  ?  ?  1  14
+CIP  O2P   .  O  0  ?  ?  ?  1  15
+CIP  H1    .  H  0  ?  ?  ?  1  16
+CIP  H2    .  H  0  ?  ?  ?  1  17
+CIP  H3    .  H  0  ?  ?  ?  1  18
+CIP  H4    .  H  0  ?  ?  ?  1  19
+CIP  H5    .  H  0  ?  ?  ?  1  20
+CIP  H6    .  H  0  ?  ?  ?  1  21
+CIP  1H7   .  H  0  ?  ?  ?  0  22
+CIP  2H7   .  H  0  ?  ?  ?  0  23
+CIP  HO3   .  H  0  ?  ?  ?  1  24
+CIP  HO4   .  H  0  ?  ?  ?  1  25
+CIP  HO5   .  H  0  ?  ?  ?  1  26
+CIP  HO6   .  H  0  ?  ?  ?  1  27
+CIP  2HOP  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CIP  C1   C2    SING  1 
+CIP  C1   C6    SING  2 
+CIP  C1   O1    SING  3 
+CIP  C1   H1    SING  4 
+CIP  C2   C3    SING  5 
+CIP  C2   C7    SING  6 
+CIP  C2   H2    SING  7 
+CIP  C3   C4    SING  8 
+CIP  C3   O3    SING  9 
+CIP  C3   H3    SING  10
+CIP  C4   C5    SING  11
+CIP  C4   O4    SING  12
+CIP  C4   H4    SING  13
+CIP  C5   C6    SING  14
+CIP  C5   O5    SING  15
+CIP  C5   H5    SING  16
+CIP  C6   O6    SING  17
+CIP  C6   H6    SING  18
+CIP  C7   P     SING  19
+CIP  C7   1H7   SING  20
+CIP  C7   2H7   SING  21
+CIP  O1   P     SING  22
+CIP  O3   HO3   SING  23
+CIP  O4   HO4   SING  24
+CIP  O5   HO5   SING  25
+CIP  O6   HO6   SING  26
+CIP  P    O1P   DOUB  27
+CIP  P    O2P   SING  28
+CIP  O2P  2HOP  SING  29
+#

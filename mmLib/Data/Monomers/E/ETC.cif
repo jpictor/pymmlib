@@ -1,0 +1,130 @@
+data_ETC
+#
+_chem_comp.id                   ETC
+_chem_comp.name                 (R,R)-5,11-CIS-DIETHYL-5,6,11,12-TETRAHYDROCHRYSENE-2,8-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C22 H24 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        320.430
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ETC  C22   .  C  0  3.964   -2.179  -8.488  1  1 
+ETC  C21   .  C  0  4.536   -1.041  -7.660  1  2 
+ETC  C11   .  C  0  5.439   -1.587  -6.552  1  3 
+ETC  C12   .  C  0  4.635   -2.491  -5.609  1  4 
+ETC  C9    .  C  0  6.085   -0.422  -5.791  1  5 
+ETC  C8    .  C  0  5.507   0.083   -4.682  1  6 
+ETC  C14   .  C  0  4.217   -0.446  -4.189  1  7 
+ETC  C15   .  C  0  3.413   0.293   -3.285  1  8 
+ETC  C16   .  C  0  2.158   -0.186  -2.914  1  9 
+ETC  C17   .  C  0  1.716   -1.392  -3.443  1  10
+ETC  O25   .  O  0  0.476   -1.846  -3.099  1  11
+ETC  C18   .  C  0  2.484   -2.145  -4.330  1  12
+ETC  C13   .  C  0  3.739   -1.667  -4.698  1  13
+ETC  C10   .  C  0  7.337   0.114   -6.290  1  14
+ETC  C5    .  C  0  8.193   0.793   -5.404  1  15
+ETC  C6    .  C  0  7.731   1.063   -3.985  1  16
+ETC  C7    .  C  0  6.192   1.249   -3.934  1  17
+ETC  C20   .  C  0  5.832   2.602   -4.579  1  18
+ETC  C19   .  C  0  4.362   2.959   -4.356  1  19
+ETC  C4    .  C  0  9.454   1.206   -5.824  1  20
+ETC  C3    .  C  0  9.820   0.979   -7.153  1  21
+ETC  O23   .  O  0  11.057  1.362   -7.566  1  22
+ETC  C2    .  C  0  8.977   0.352   -8.065  1  23
+ETC  C1    .  C  0  7.728   -0.079  -7.641  1  24
+ETC  H25   .  H  0  ?       ?       ?       1  25
+ETC  H23   .  H  0  ?       ?       ?       1  26
+ETC  HC1   .  H  0  ?       ?       ?       1  27
+ETC  HC2   .  H  0  ?       ?       ?       1  28
+ETC  HC4   .  H  0  ?       ?       ?       1  29
+ETC  1HC6  .  H  0  ?       ?       ?       0  30
+ETC  2HC6  .  H  0  ?       ?       ?       0  31
+ETC  HC7   .  H  0  ?       ?       ?       1  32
+ETC  H11   .  H  0  ?       ?       ?       1  33
+ETC  1H12  .  H  0  ?       ?       ?       0  34
+ETC  2H12  .  H  0  ?       ?       ?       0  35
+ETC  H15   .  H  0  ?       ?       ?       1  36
+ETC  H16   .  H  0  ?       ?       ?       1  37
+ETC  H18   .  H  0  ?       ?       ?       1  38
+ETC  1H19  .  H  0  ?       ?       ?       0  39
+ETC  2H19  .  H  0  ?       ?       ?       0  40
+ETC  3H19  .  H  0  ?       ?       ?       0  41
+ETC  1H20  .  H  0  ?       ?       ?       0  42
+ETC  2H20  .  H  0  ?       ?       ?       0  43
+ETC  1H21  .  H  0  ?       ?       ?       0  44
+ETC  2H21  .  H  0  ?       ?       ?       0  45
+ETC  1H22  .  H  0  ?       ?       ?       0  46
+ETC  2H22  .  H  0  ?       ?       ?       0  47
+ETC  3H22  .  H  0  ?       ?       ?       0  48
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ETC  C22  C21   SING  1 
+ETC  C22  1H22  SING  2 
+ETC  C22  2H22  SING  3 
+ETC  C22  3H22  SING  4 
+ETC  C21  C11   SING  5 
+ETC  C21  1H21  SING  6 
+ETC  C21  2H21  SING  7 
+ETC  C11  C12   SING  8 
+ETC  C11  C9    SING  9 
+ETC  C11  H11   SING  10
+ETC  C12  C13   SING  11
+ETC  C12  1H12  SING  12
+ETC  C12  2H12  SING  13
+ETC  C9   C8    DOUB  14
+ETC  C9   C10   SING  15
+ETC  C8   C14   SING  16
+ETC  C8   C7    SING  17
+ETC  C14  C15   AROM  18
+ETC  C14  C13   AROM  19
+ETC  C15  C16   AROM  20
+ETC  C15  H15   SING  21
+ETC  C16  C17   AROM  22
+ETC  C16  H16   SING  23
+ETC  C17  O25   SING  24
+ETC  C17  C18   AROM  25
+ETC  O25  H25   SING  26
+ETC  C18  C13   AROM  27
+ETC  C18  H18   SING  28
+ETC  C10  C5    AROM  29
+ETC  C10  C1    AROM  30
+ETC  C5   C6    SING  31
+ETC  C5   C4    AROM  32
+ETC  C6   C7    SING  33
+ETC  C6   1HC6  SING  34
+ETC  C6   2HC6  SING  35
+ETC  C7   C20   SING  36
+ETC  C7   HC7   SING  37
+ETC  C20  C19   SING  38
+ETC  C20  1H20  SING  39
+ETC  C20  2H20  SING  40
+ETC  C19  1H19  SING  41
+ETC  C19  2H19  SING  42
+ETC  C19  3H19  SING  43
+ETC  C4   C3    AROM  44
+ETC  C4   HC4   SING  45
+ETC  C3   O23   SING  46
+ETC  C3   C2    AROM  47
+ETC  O23  H23   SING  48
+ETC  C2   C1    AROM  49
+ETC  C2   HC2   SING  50
+ETC  C1   HC1   SING  51
+#

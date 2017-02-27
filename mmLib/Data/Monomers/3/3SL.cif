@@ -1,0 +1,63 @@
+data_3SL
+#
+_chem_comp.id                   3SL
+_chem_comp.name                 '(2R)-3-SULFOLACTIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H6 O6 S1'
+_chem_comp.pdbx_synonyms        '(R)-2-HYDROXY-3-SULFOPROPANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        170.137
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3SL  O11  .  O  0  25.629  44.992  210.416  1  1 
+3SL  C1   .  C  0  24.862  44.669  209.487  1  2 
+3SL  O12  .  O  0  23.859  45.328  209.113  1  3 
+3SL  C2   .  C  0  25.186  43.403  208.788  1  4 
+3SL  O2   .  O  0  25.594  42.469  209.784  1  5 
+3SL  C3   .  C  0  23.951  42.972  208.022  1  6 
+3SL  S    .  S  0  24.112  41.439  207.402  1  7 
+3SL  O3S  .  O  0  24.463  41.515  205.973  1  8 
+3SL  O1S  .  O  0  24.936  40.510  208.248  1  9 
+3SL  O2S  .  O  0  22.765  40.860  207.331  1  10
+3SL  H11  .  H  0  ?       ?       ?        1  11
+3SL  H2   .  H  0  ?       ?       ?        1  12
+3SL  HO2  .  H  0  ?       ?       ?        1  13
+3SL  1H3  .  H  0  ?       ?       ?        0  14
+3SL  2H3  .  H  0  ?       ?       ?        0  15
+3SL  H2S  .  H  0  ?       ?       ?        1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3SL  O11  H11  SING  1 
+3SL  O11  C1   SING  2 
+3SL  C1   O12  DOUB  3 
+3SL  C1   C2   SING  4 
+3SL  C2   H2   SING  5 
+3SL  C2   O2   SING  6 
+3SL  C2   C3   SING  7 
+3SL  O2   HO2  SING  8 
+3SL  C3   1H3  SING  9 
+3SL  C3   2H3  SING  10
+3SL  C3   S    SING  11
+3SL  S    O3S  DOUB  12
+3SL  S    O1S  DOUB  13
+3SL  S    O2S  SING  14
+3SL  O2S  H2S  SING  15
+#

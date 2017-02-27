@@ -1,0 +1,119 @@
+data_TGT
+#
+_chem_comp.id                   TGT
+_chem_comp.name                 TAGETITOXIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N2 O11 P1 S1'
+_chem_comp.pdbx_synonyms        '(1R,4R,5R,6R,7S,8R)-6-ACETOXY-7-AMINO-4-CARBAMOYL-4-HYDROXY-8-(PHOSPHONOOXY)-9-OXA-3-THIABICYCLO[3.3.1]NONANE-1-CARBOXYLIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        416.296
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TGT  C1    .  C  0  132.481  96.678   49.048  1  1 
+TGT  C2    .  C  0  132.207  95.296   49.860  1  2 
+TGT  C3    .  C  0  131.706  95.621   51.385  1  3 
+TGT  C4    .  C  0  132.744  96.602   52.142  1  4 
+TGT  C5    .  C  0  132.107  97.927   52.742  1  5 
+TGT  C6    .  C  0  132.989  99.125   50.305  1  6 
+TGT  C7    .  C  0  133.487  97.676   49.913  1  7 
+TGT  C8    .  C  0  130.977  97.630   53.770  1  8 
+TGT  C9    .  C  0  134.797  97.845   49.112  1  9 
+TGT  C10   .  C  0  130.580  93.913   52.843  1  10
+TGT  C11   .  C  0  130.570  94.083   54.362  1  11
+TGT  O1    .  O  0  133.858  97.014   51.204  1  12
+TGT  O2    .  O  0  133.147  98.632   53.408  1  13
+TGT  O3    .  O  0  129.620  97.536   53.396  1  14
+TGT  O4    .  O  0  134.778  98.349   47.848  1  15
+TGT  O5    .  O  0  135.977  97.485   49.649  1  16
+TGT  O6    .  O  0  131.189  97.388   48.717  1  17
+TGT  O7    .  O  0  129.288  98.527   47.116  1  18
+TGT  O8    .  O  0  131.805  98.372   46.218  1  19
+TGT  O9    .  O  0  131.146  100.059  48.001  1  20
+TGT  O10   .  O  0  131.560  94.324   52.068  1  21
+TGT  O11   .  O  0  129.381  93.239   52.180  1  22
+TGT  N1    .  N  0  131.337  97.433   55.137  1  23
+TGT  N2    .  N  0  133.500  94.522   49.895  1  24
+TGT  P1    .  P  0  130.912  98.587   47.618  1  25
+TGT  S1    .  S  0  131.497  99.058   51.401  1  26
+TGT  1H11  .  H  0  ?        ?        ?       0  27
+TGT  2H11  .  H  0  ?        ?        ?       0  28
+TGT  3H11  .  H  0  ?        ?        ?       0  29
+TGT  H3    .  H  0  ?        ?        ?       1  30
+TGT  H2    .  H  0  ?        ?        ?       1  31
+TGT  1HN2  .  H  0  ?        ?        ?       0  32
+TGT  2HN2  .  H  0  ?        ?        ?       0  33
+TGT  H1    .  H  0  ?        ?        ?       1  34
+TGT  HO7   .  H  0  ?        ?        ?       1  35
+TGT  HO9   .  H  0  ?        ?        ?       1  36
+TGT  1H6   .  H  0  ?        ?        ?       0  37
+TGT  2H6   .  H  0  ?        ?        ?       0  38
+TGT  HO2   .  H  0  ?        ?        ?       1  39
+TGT  1HN1  .  H  0  ?        ?        ?       0  40
+TGT  2HN1  .  H  0  ?        ?        ?       0  41
+TGT  H4    .  H  0  ?        ?        ?       1  42
+TGT  HO5   .  H  0  ?        ?        ?       1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TGT  C1   C2    SING  1 
+TGT  C1   O6    SING  2 
+TGT  C1   C7    SING  3 
+TGT  C1   H1    SING  4 
+TGT  C2   C3    SING  5 
+TGT  C2   N2    SING  6 
+TGT  C2   H2    SING  7 
+TGT  C3   O10   SING  8 
+TGT  C3   C4    SING  9 
+TGT  C3   H3    SING  10
+TGT  C4   C5    SING  11
+TGT  C4   O1    SING  12
+TGT  C4   H4    SING  13
+TGT  C5   S1    SING  14
+TGT  C5   O2    SING  15
+TGT  C5   C8    SING  16
+TGT  C6   C7    SING  17
+TGT  C6   S1    SING  18
+TGT  C6   1H6   SING  19
+TGT  C6   2H6   SING  20
+TGT  C7   O1    SING  21
+TGT  C7   C9    SING  22
+TGT  C8   N1    SING  23
+TGT  C8   O3    DOUB  24
+TGT  C9   O4    DOUB  25
+TGT  C9   O5    SING  26
+TGT  C10  C11   SING  27
+TGT  C10  O11   DOUB  28
+TGT  C10  O10   SING  29
+TGT  C11  1H11  SING  30
+TGT  C11  2H11  SING  31
+TGT  C11  3H11  SING  32
+TGT  O2   HO2   SING  33
+TGT  O5   HO5   SING  34
+TGT  O6   P1    SING  35
+TGT  O7   P1    SING  36
+TGT  O7   HO7   SING  37
+TGT  O8   P1    DOUB  38
+TGT  O9   P1    SING  39
+TGT  O9   HO9   SING  40
+TGT  N1   1HN1  SING  41
+TGT  N1   2HN1  SING  42
+TGT  N2   1HN2  SING  43
+TGT  N2   2HN2  SING  44
+#

@@ -1,0 +1,102 @@
+data_FC1
+#
+_chem_comp.id                   FC1
+_chem_comp.name                 THIOCOUMARIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H17 N1 O2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        263.354
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FC1  O6    .  O  0  -16.185  70.639  -23.276  1  1 
+FC1  S7    .  S  0  -17.234  68.485  -27.098  1  2 
+FC1  C8    .  C  0  -19.001  70.659  -27.316  1  3 
+FC1  C9    .  C  0  -19.115  72.418  -25.609  1  4 
+FC1  C5    .  C  0  -15.818  68.784  -24.724  1  5 
+FC1  C1    .  C  0  -17.54   70.543  -25.33   1  6 
+FC1  C2    .  C  0  -16.488  69.94   -24.448  1  7 
+FC1  C3    .  C  0  -17.993  69.994  -26.567  1  8 
+FC1  C4    .  C  0  -18.111  71.759  -24.853  1  9 
+FC1  C10   .  C  0  -16.019  67.931  -25.933  1  10
+FC1  C17   .  C  0  -15.924  73.431  -21.529  1  11
+FC1  C18   .  C  0  -14.138  73.415  -19.932  1  12
+FC1  N16   .  N  0  -14.913  72.576  -20.861  1  13
+FC1  C11   .  C  0  -15.635  69.992  -22.121  1  14
+FC1  C12   .  C  0  -19.563  71.867  -26.842  1  15
+FC1  O13   .  O  0  -15.371  66.892  -26.114  1  16
+FC1  C14   .  C  0  -16.391  70.508  -20.904  1  17
+FC1  C15   .  C  0  -15.536  71.481  -20.066  1  18
+FC1  1H11  .  H  0  -14.531  70.122  -22.034  0  19
+FC1  2H11  .  H  0  -15.645  68.88   -22.2    0  20
+FC1  H8    .  H  0  -19.347  70.231  -28.272  1  21
+FC1  H12   .  H  0  -20.346  72.38   -27.426  1  22
+FC1  H9    .  H  0  -19.55   73.362  -25.239  1  23
+FC1  H4    .  H  0  -17.772  72.188  -23.895  1  24
+FC1  H5    .  H  0  -15.064  68.451  -23.992  1  25
+FC1  1H17  .  H  0  -16.511  72.796  -22.233  0  26
+FC1  2H17  .  H  0  -15.472  74.32   -22.028  0  27
+FC1  3H17  .  H  0  -16.57   73.978  -20.803  0  28
+FC1  1H18  .  H  0  -13.378  72.772  -19.43   0  29
+FC1  2H18  .  H  0  -14.785  73.962  -19.206  0  30
+FC1  3H18  .  H  0  -13.686  74.303  -20.431  0  31
+FC1  1H15  .  H  0  -16.132  71.9    -19.222  0  32
+FC1  2H15  .  H  0  -14.76   70.925  -19.49   0  33
+FC1  1H14  .  H  0  -16.778  69.668  -20.281  0  34
+FC1  2H14  .  H  0  -17.362  70.971  -21.196  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FC1  O6   C2    SING  1 
+FC1  O6   C11   SING  2 
+FC1  S7   C3    SING  3 
+FC1  S7   C10   SING  4 
+FC1  C8   C3    AROM  5 
+FC1  C8   C12   AROM  6 
+FC1  C8   H8    SING  7 
+FC1  C9   C4    AROM  8 
+FC1  C9   C12   AROM  9 
+FC1  C9   H9    SING  10
+FC1  C5   C2    DOUB  11
+FC1  C5   C10   SING  12
+FC1  C5   H5    SING  13
+FC1  C1   C2    SING  14
+FC1  C1   C3    AROM  15
+FC1  C1   C4    AROM  16
+FC1  C4   H4    SING  17
+FC1  C10  O13   DOUB  18
+FC1  C17  N16   SING  19
+FC1  C17  1H17  SING  20
+FC1  C17  2H17  SING  21
+FC1  C17  3H17  SING  22
+FC1  C18  N16   SING  23
+FC1  C18  1H18  SING  24
+FC1  C18  2H18  SING  25
+FC1  C18  3H18  SING  26
+FC1  N16  C15   SING  27
+FC1  C11  C14   SING  28
+FC1  C11  1H11  SING  29
+FC1  C11  2H11  SING  30
+FC1  C12  H12   SING  31
+FC1  C14  C15   SING  32
+FC1  C14  1H14  SING  33
+FC1  C14  2H14  SING  34
+FC1  C15  1H15  SING  35
+FC1  C15  2H15  SING  36
+#

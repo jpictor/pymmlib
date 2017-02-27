@@ -1,0 +1,76 @@
+data_SHV
+#
+_chem_comp.id                   SHV
+_chem_comp.name                 'HEPTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H14 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        130.186
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SHV  C1   .  C  0  -0.522  26.584  2.884   1  1 
+SHV  O1   .  O  0  -1.584  25.980  3.492   1  2 
+SHV  O2   .  O  0  0.229   27.561  3.559   1  3 
+SHV  C2   .  C  0  0.108   26.521  1.528   1  4 
+SHV  C3   .  C  0  -0.842  27.336  0.677   1  5 
+SHV  C4   .  C  0  -0.244  27.444  -0.696  1  6 
+SHV  C5   .  C  0  -0.847  28.183  -1.866  1  7 
+SHV  C6   .  C  0  -1.741  28.361  -3.074  1  8 
+SHV  C7   .  C  0  -2.906  29.235  -2.662  1  9 
+SHV  HO1  .  H  0  ?       ?       ?       1  10
+SHV  1H2  .  H  0  ?       ?       ?       0  11
+SHV  2H2  .  H  0  ?       ?       ?       0  12
+SHV  1H3  .  H  0  ?       ?       ?       0  13
+SHV  2H3  .  H  0  ?       ?       ?       0  14
+SHV  1H4  .  H  0  ?       ?       ?       0  15
+SHV  2H4  .  H  0  ?       ?       ?       0  16
+SHV  1H5  .  H  0  ?       ?       ?       0  17
+SHV  2H5  .  H  0  ?       ?       ?       0  18
+SHV  1H6  .  H  0  ?       ?       ?       0  19
+SHV  2H6  .  H  0  ?       ?       ?       0  20
+SHV  1H7  .  H  0  ?       ?       ?       0  21
+SHV  2H7  .  H  0  ?       ?       ?       0  22
+SHV  3H7  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SHV  C1  O1   SING  1 
+SHV  C1  O2   DOUB  2 
+SHV  C1  C2   SING  3 
+SHV  O1  HO1  SING  4 
+SHV  C2  1H2  SING  5 
+SHV  C2  2H2  SING  6 
+SHV  C2  C3   SING  7 
+SHV  C3  1H3  SING  8 
+SHV  C3  2H3  SING  9 
+SHV  C3  C4   SING  10
+SHV  C4  1H4  SING  11
+SHV  C4  2H4  SING  12
+SHV  C4  C5   SING  13
+SHV  C5  1H5  SING  14
+SHV  C5  2H5  SING  15
+SHV  C5  C6   SING  16
+SHV  C6  1H6  SING  17
+SHV  C6  2H6  SING  18
+SHV  C6  C7   SING  19
+SHV  C7  1H7  SING  20
+SHV  C7  2H7  SING  21
+SHV  C7  3H7  SING  22
+#

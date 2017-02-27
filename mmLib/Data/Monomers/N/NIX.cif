@@ -1,0 +1,90 @@
+data_NIX
+#
+_chem_comp.id                   NIX
+_chem_comp.name                 'NALIDIXIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.238
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NIX  N1    .  N  0  .37     8.832   3.634  1  1 
+NIX  C2    .  C  0  1.716   8.7     3.396  1  2 
+NIX  C3    .  C  0  2.276   8.551   2.151  1  3 
+NIX  C4    .  C  0  1.447   8.522   .965   1  4 
+NIX  O4    .  O  0  1.882   8.392   -.192  1  5 
+NIX  C4A   .  C  0  .003    8.664   1.212  1  6 
+NIX  C5    .  C  0  -.905   8.651   .128   1  7 
+NIX  C6    .  C  0  -2.266  8.785   .363   1  8 
+NIX  C7    .  C  0  -2.718  8.933   1.705  1  9 
+NIX  N8    .  N  0  -1.884  8.95    2.766  1  10
+NIX  C8A   .  C  0  -.528   8.817   2.533  1  11
+NIX  C9    .  C  0  -4.193  9.076   1.928  1  12
+NIX  C1E   .  C  0  -.096   8.984   5.008  1  13
+NIX  C2E   .  C  0  -.339   10.423  5.43   1  14
+NIX  C1L   .  C  0  3.746   8.427   2.122  1  15
+NIX  O1L   .  O  0  4.413   8.461   3.187  1  16
+NIX  O2L   .  O  0  4.314   8.279   .894   1  17
+NIX  H2    .  H  0  2.379   8.719   4.294  1  18
+NIX  H5    .  H  0  -.501   8.533   -.896  1  19
+NIX  H6    .  H  0  -2.994  8.778   -.462  1  20
+NIX  H91   .  H  0  -4.67   9.45    .987   1  21
+NIX  H92   .  H  0  -4.682  8.112   2.216  1  22
+NIX  H93   .  H  0  -4.371  9.823   2.741  1  23
+NIX  1HE1  .  H  0  .674    8.521   5.693  0  24
+NIX  1HE2  .  H  0  -1.05   8.392   5.125  0  25
+NIX  2HE1  .  H  0  .125    10.578  6.435  0  26
+NIX  2HE2  .  H  0  .13     11.137  4.711  0  27
+NIX  2HE3  .  H  0  -1.429  10.649  5.501  0  28
+NIX  1H2L  .  H  0  ?       ?       ?      0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NIX  N1   C2    SING  1 
+NIX  N1   C8A   SING  2 
+NIX  N1   C1E   SING  3 
+NIX  C2   C3    DOUB  4 
+NIX  C2   H2    SING  5 
+NIX  C3   C4    SING  6 
+NIX  C3   C1L   SING  7 
+NIX  C4   O4    DOUB  8 
+NIX  C4   C4A   SING  9 
+NIX  C4A  C5    AROM  10
+NIX  C4A  C8A   AROM  11
+NIX  C5   C6    AROM  12
+NIX  C5   H5    SING  13
+NIX  C6   C7    AROM  14
+NIX  C6   H6    SING  15
+NIX  C7   N8    AROM  16
+NIX  C7   C9    SING  17
+NIX  N8   C8A   AROM  18
+NIX  C9   H91   SING  19
+NIX  C9   H92   SING  20
+NIX  C9   H93   SING  21
+NIX  C1E  C2E   SING  22
+NIX  C1E  1HE1  SING  23
+NIX  C1E  1HE2  SING  24
+NIX  C2E  2HE1  SING  25
+NIX  C2E  2HE2  SING  26
+NIX  C2E  2HE3  SING  27
+NIX  C1L  O1L   DOUB  28
+NIX  C1L  O2L   SING  29
+NIX  O2L  1H2L  SING  30
+#

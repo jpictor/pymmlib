@@ -1,0 +1,60 @@
+data_LVG
+#
+_chem_comp.id                       LVG
+_chem_comp.name                     L-VINYLGLYCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H7 N1 O2'
+_chem_comp.pdbx_synonyms            '(2S)-2-AMINO-3-BUTENOIC ACID, (2S)-2-AMINOBUT-3-ENOIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  GLY
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            101.105
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LVG  N     .  N  0  100.565  285.728  224.619  1  1 
+LVG  CA    .  C  0  99.297   285.884  223.922  1  2 
+LVG  C     .  C  0  99.536   286.967  222.841  1  3 
+LVG  O     .  O  0  98.987   286.842  221.753  1  4 
+LVG  CB    .  C  0  98.190   286.368  224.864  1  5 
+LVG  OXT   .  O  0  100.293  287.909  223.111  1  6 
+LVG  CG1   .  C  0  97.218   286.785  225.895  1  7 
+LVG  1HG1  .  H  0  ?        ?        ?        0  8 
+LVG  2HG1  .  H  0  ?        ?        ?        0  9 
+LVG  HB    .  H  0  ?        ?        ?        1  10
+LVG  HA    .  H  0  ?        ?        ?        1  11
+LVG  1HN   .  H  0  ?        ?        ?        0  12
+LVG  2HN   .  H  0  ?        ?        ?        0  13
+LVG  HXT   .  H  0  ?        ?        ?        1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LVG  N    CA    SING  1 
+LVG  N    1HN   SING  2 
+LVG  N    2HN   SING  3 
+LVG  CA   CB    SING  4 
+LVG  CA   C     SING  5 
+LVG  CA   HA    SING  6 
+LVG  C    O     DOUB  7 
+LVG  C    OXT   SING  8 
+LVG  CB   CG1   DOUB  9 
+LVG  CB   HB    SING  10
+LVG  OXT  HXT   SING  11
+LVG  CG1  1HG1  SING  12
+LVG  CG1  2HG1  SING  13
+#

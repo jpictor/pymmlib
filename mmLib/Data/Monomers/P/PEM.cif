@@ -1,0 +1,122 @@
+data_PEM
+#
+_chem_comp.id                   PEM
+_chem_comp.name                 '2-[P-[2-P-CHLOROBENZAMIDO)ETHYL]PHENOXY]-2-METHYLPROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H20 N1 O4 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        361.824
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PEM  C1    .  C   0  60.596  117.111  108.087  1  1 
+PEM  C2    .  C   0  60.859  118.033  107.048  1  2 
+PEM  C3    .  C   0  61.316  117.523  105.805  1  3 
+PEM  C4    .  C   0  61.509  116.125  105.651  1  4 
+PEM  C5    .  C   0  61.237  115.230  106.688  1  5 
+PEM  C6    .  C   0  60.753  115.719  107.917  1  6 
+PEM  CL    .  CL  0  62.062  115.553  104.095  0  7 
+PEM  C7    .  C   0  60.134  117.623  109.446  1  8 
+PEM  O1    .  O   0  59.640  116.807  110.224  1  9 
+PEM  N1    .  N   0  60.457  118.956  109.751  1  10
+PEM  C8    .  C   0  59.982  119.464  111.051  1  11
+PEM  C9    .  C   0  59.418  120.825  110.531  1  12
+PEM  C10   .  C   0  58.057  122.693  114.127  1  13
+PEM  C11   .  C   0  57.118  121.887  113.516  1  14
+PEM  C12   .  C   0  57.395  121.170  112.315  1  15
+PEM  C13   .  C   0  58.699  121.336  111.765  1  16
+PEM  C14   .  C   0  59.658  122.129  112.465  1  17
+PEM  C15   .  C   0  59.341  122.902  113.625  1  18
+PEM  O2    .  O   0  57.635  123.689  115.391  1  19
+PEM  C16   .  C   0  56.504  123.318  116.206  1  20
+PEM  C17   .  C   0  56.317  121.848  116.717  1  21
+PEM  C18   .  C   0  56.568  124.184  117.531  1  22
+PEM  C19   .  C   0  55.285  123.862  115.397  1  23
+PEM  O3    .  O   0  55.525  124.616  114.289  1  24
+PEM  O4    .  O   0  54.237  123.298  115.686  1  25
+PEM  HC2   .  H   0  ?       ?        ?        1  26
+PEM  HC3   .  H   0  ?       ?        ?        1  27
+PEM  HC5   .  H   0  ?       ?        ?        1  28
+PEM  HC6   .  H   0  ?       ?        ?        1  29
+PEM  1HC8  .  H   0  ?       ?        ?        0  30
+PEM  2HC8  .  H   0  ?       ?        ?        0  31
+PEM  1HC9  .  H   0  ?       ?        ?        0  32
+PEM  2HC9  .  H   0  ?       ?        ?        0  33
+PEM  H11   .  H   0  ?       ?        ?        1  34
+PEM  H12   .  H   0  ?       ?        ?        1  35
+PEM  H14   .  H   0  ?       ?        ?        1  36
+PEM  H15   .  H   0  ?       ?        ?        1  37
+PEM  1H17  .  H   0  ?       ?        ?        0  38
+PEM  2H17  .  H   0  ?       ?        ?        0  39
+PEM  3H17  .  H   0  ?       ?        ?        0  40
+PEM  1H18  .  H   0  ?       ?        ?        0  41
+PEM  2H18  .  H   0  ?       ?        ?        0  42
+PEM  3H18  .  H   0  ?       ?        ?        0  43
+PEM  HO3   .  H   0  ?       ?        ?        1  44
+PEM  HN1   .  H   0  ?       ?        ?        1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PEM  C1   C2    AROM  1 
+PEM  C1   C6    AROM  2 
+PEM  C1   C7    SING  3 
+PEM  C2   C3    AROM  4 
+PEM  C2   HC2   SING  5 
+PEM  C3   C4    AROM  6 
+PEM  C3   HC3   SING  7 
+PEM  C4   C5    AROM  8 
+PEM  C4   CL    DOUB  9 
+PEM  C5   C6    AROM  10
+PEM  C5   HC5   SING  11
+PEM  C6   HC6   SING  12
+PEM  C7   O1    DOUB  13
+PEM  C7   N1    SING  14
+PEM  N1   C8    SING  15
+PEM  N1   HN1   SING  16
+PEM  C8   C9    SING  17
+PEM  C8   1HC8  SING  18
+PEM  C8   2HC8  SING  19
+PEM  C9   C13   SING  20
+PEM  C9   1HC9  SING  21
+PEM  C9   2HC9  SING  22
+PEM  C10  C11   AROM  23
+PEM  C10  C15   AROM  24
+PEM  C10  O2    SING  25
+PEM  C11  C12   AROM  26
+PEM  C11  H11   SING  27
+PEM  C12  C13   AROM  28
+PEM  C12  H12   SING  29
+PEM  C13  C14   AROM  30
+PEM  C14  C15   AROM  31
+PEM  C14  H14   SING  32
+PEM  C15  H15   SING  33
+PEM  O2   C16   SING  34
+PEM  C16  C17   SING  35
+PEM  C16  C18   SING  36
+PEM  C16  C19   SING  37
+PEM  C17  1H17  SING  38
+PEM  C17  2H17  SING  39
+PEM  C17  3H17  SING  40
+PEM  C18  1H18  SING  41
+PEM  C18  2H18  SING  42
+PEM  C18  3H18  SING  43
+PEM  C19  O3    SING  44
+PEM  C19  O4    DOUB  45
+PEM  O3   HO3   SING  46
+#

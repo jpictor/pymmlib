@@ -1,0 +1,66 @@
+data_NPY
+#
+_chem_comp.id                   NPY
+_chem_comp.name                 'NAPHTHYL GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H7'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        127.165
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPY  C1   .  C  0  ?  ?  ?  1  1 
+NPY  C2   .  C  0  ?  ?  ?  1  2 
+NPY  C3   .  C  0  ?  ?  ?  1  3 
+NPY  C4   .  C  0  ?  ?  ?  1  4 
+NPY  C4A  .  C  0  ?  ?  ?  1  5 
+NPY  C5   .  C  0  ?  ?  ?  1  6 
+NPY  C6   .  C  0  ?  ?  ?  1  7 
+NPY  C7   .  C  0  ?  ?  ?  1  8 
+NPY  C8   .  C  0  ?  ?  ?  1  9 
+NPY  C8A  .  C  0  ?  ?  ?  1  10
+NPY  H2   .  H  0  ?  ?  ?  1  11
+NPY  H3   .  H  0  ?  ?  ?  1  12
+NPY  H4   .  H  0  ?  ?  ?  1  13
+NPY  H5   .  H  0  ?  ?  ?  1  14
+NPY  H6   .  H  0  ?  ?  ?  1  15
+NPY  H7   .  H  0  ?  ?  ?  1  16
+NPY  H8   .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPY  C1   C2   DOUB  1 
+NPY  C1   C8A  SING  2 
+NPY  C2   C3   SING  3 
+NPY  C2   H2   SING  4 
+NPY  C3   C4   DOUB  5 
+NPY  C3   H3   SING  6 
+NPY  C4   C4A  SING  7 
+NPY  C4   H4   SING  8 
+NPY  C4A  C5   SING  9 
+NPY  C4A  C8A  DOUB  10
+NPY  C5   C6   DOUB  11
+NPY  C5   H5   SING  12
+NPY  C6   C7   SING  13
+NPY  C6   H6   SING  14
+NPY  C7   C8   DOUB  15
+NPY  C7   H7   SING  16
+NPY  C8   C8A  SING  17
+NPY  C8   H8   SING  18
+#

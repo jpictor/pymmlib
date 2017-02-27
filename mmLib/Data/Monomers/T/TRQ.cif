@@ -1,0 +1,87 @@
+data_TRQ
+#
+_chem_comp.id                       TRQ
+_chem_comp.name                     '2-AMINO-3-(6,7-DIOXO-6,7-DIHYDRO-1H-INDOL-3-YL)-PROPIONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H10 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            234.211
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRQ  N    .  N  0  ?  ?  ?  1  1 
+TRQ  CA   .  C  0  ?  ?  ?  1  2 
+TRQ  C    .  C  0  ?  ?  ?  1  3 
+TRQ  O    .  O  0  ?  ?  ?  1  4 
+TRQ  OXT  .  O  0  ?  ?  ?  1  5 
+TRQ  CB   .  C  0  ?  ?  ?  1  6 
+TRQ  CG   .  C  0  ?  ?  ?  1  7 
+TRQ  CD1  .  C  0  ?  ?  ?  1  8 
+TRQ  NE1  .  N  0  ?  ?  ?  1  9 
+TRQ  CE2  .  C  0  ?  ?  ?  1  10
+TRQ  CZ2  .  C  0  ?  ?  ?  1  11
+TRQ  CH2  .  C  0  ?  ?  ?  1  12
+TRQ  CZ3  .  C  0  ?  ?  ?  1  13
+TRQ  CE3  .  C  0  ?  ?  ?  1  14
+TRQ  CD2  .  C  0  ?  ?  ?  1  15
+TRQ  O6   .  O  0  ?  ?  ?  1  16
+TRQ  O7   .  O  0  ?  ?  ?  1  17
+TRQ  1HN  .  H  0  ?  ?  ?  0  18
+TRQ  2HN  .  H  0  ?  ?  ?  0  19
+TRQ  HXT  .  H  0  ?  ?  ?  1  20
+TRQ  HA   .  H  0  ?  ?  ?  1  21
+TRQ  1HB  .  H  0  ?  ?  ?  0  22
+TRQ  2HB  .  H  0  ?  ?  ?  0  23
+TRQ  HD1  .  H  0  ?  ?  ?  1  24
+TRQ  HNE  .  H  0  ?  ?  ?  1  25
+TRQ  HZ3  .  H  0  ?  ?  ?  1  26
+TRQ  HE3  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRQ  N    CA   SING  1 
+TRQ  N    1HN  SING  2 
+TRQ  N    2HN  SING  3 
+TRQ  CA   C    SING  4 
+TRQ  CA   CB   SING  5 
+TRQ  CA   HA   SING  6 
+TRQ  C    O    DOUB  7 
+TRQ  C    OXT  SING  8 
+TRQ  OXT  HXT  SING  9 
+TRQ  CB   CG   SING  10
+TRQ  CB   1HB  SING  11
+TRQ  CB   2HB  SING  12
+TRQ  CG   CD1  DOUB  13
+TRQ  CG   CD2  SING  14
+TRQ  CD1  NE1  SING  15
+TRQ  CD1  HD1  SING  16
+TRQ  NE1  CE2  SING  17
+TRQ  NE1  HNE  SING  18
+TRQ  CE2  CZ2  SING  19
+TRQ  CE2  CD2  DOUB  20
+TRQ  CZ2  CH2  SING  21
+TRQ  CZ2  O7   DOUB  22
+TRQ  CH2  CZ3  SING  23
+TRQ  CH2  O6   DOUB  24
+TRQ  CZ3  CE3  DOUB  25
+TRQ  CZ3  HZ3  SING  26
+TRQ  CE3  CD2  SING  27
+TRQ  CE3  HE3  SING  28
+#

@@ -1,0 +1,58 @@
+data_GAQ
+#
+_chem_comp.id                   GAQ
+_chem_comp.name                 5-HYDROXYPENTANAL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H7 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        99.109
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GAQ  O5   .  O  0  -51.787  55.980  8.604   1  1 
+GAQ  C5   .  C  0  -51.089  54.849  9.156   1  2 
+GAQ  C4   .  C  0  -52.111  53.880  9.722   1  3 
+GAQ  C3   .  C  0  -52.151  53.983  11.228  1  4 
+GAQ  C2   .  C  0  -51.063  53.031  11.660  1  5 
+GAQ  C1   .  C  0  -50.852  52.913  13.170  1  6 
+GAQ  O1   .  O  0  -49.925  51.864  13.547  1  7 
+GAQ  1H4  .  H  0  ?        ?       ?       0  8 
+GAQ  2H4  .  H  0  ?        ?       ?       0  9 
+GAQ  1H3  .  H  0  ?        ?       ?       0  10
+GAQ  2H3  .  H  0  ?        ?       ?       0  11
+GAQ  1H2  .  H  0  ?        ?       ?       0  12
+GAQ  2H2  .  H  0  ?        ?       ?       0  13
+GAQ  H1   .  H  0  ?        ?       ?       1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GAQ  O5  C5   DOUB  1 
+GAQ  C5  C4   SING  2 
+GAQ  C4  1H4  SING  3 
+GAQ  C4  2H4  SING  4 
+GAQ  C4  C3   SING  5 
+GAQ  C3  1H3  SING  6 
+GAQ  C3  2H3  SING  7 
+GAQ  C3  C2   SING  8 
+GAQ  C2  1H2  SING  9 
+GAQ  C2  2H2  SING  10
+GAQ  C2  C1   SING  11
+GAQ  C1  H1   SING  12
+GAQ  C1  O1   SING  13
+#

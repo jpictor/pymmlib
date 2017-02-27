@@ -1,0 +1,88 @@
+data_KIF
+#
+_chem_comp.id                   KIF
+_chem_comp.name                 KIFUNENSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        232.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KIF  C4   .  C  0  ?  ?  ?  1  1 
+KIF  O4   .  O  0  ?  ?  ?  1  2 
+KIF  C3   .  C  0  ?  ?  ?  1  3 
+KIF  O3   .  O  0  ?  ?  ?  1  4 
+KIF  C2   .  C  0  ?  ?  ?  1  5 
+KIF  O2   .  O  0  ?  ?  ?  1  6 
+KIF  C1   .  C  0  ?  ?  ?  1  7 
+KIF  N9   .  N  0  ?  ?  ?  1  8 
+KIF  C8   .  C  0  ?  ?  ?  1  9 
+KIF  O8   .  O  0  ?  ?  ?  1  10
+KIF  C7   .  C  0  ?  ?  ?  1  11
+KIF  O7   .  O  0  ?  ?  ?  1  12
+KIF  N    .  N  0  ?  ?  ?  1  13
+KIF  C5   .  C  0  ?  ?  ?  1  14
+KIF  C6   .  C  0  ?  ?  ?  1  15
+KIF  O6   .  O  0  ?  ?  ?  1  16
+KIF  HO2  .  H  0  ?  ?  ?  1  17
+KIF  HO3  .  H  0  ?  ?  ?  1  18
+KIF  HO4  .  H  0  ?  ?  ?  1  19
+KIF  HO6  .  H  0  ?  ?  ?  1  20
+KIF  H2   .  H  0  ?  ?  ?  1  21
+KIF  H3   .  H  0  ?  ?  ?  1  22
+KIF  H4   .  H  0  ?  ?  ?  1  23
+KIF  H5   .  H  0  ?  ?  ?  1  24
+KIF  H1   .  H  0  ?  ?  ?  1  25
+KIF  1H6  .  H  0  ?  ?  ?  0  26
+KIF  2H6  .  H  0  ?  ?  ?  0  27
+KIF  H9   .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KIF  C4  O4   SING  1 
+KIF  C4  C3   SING  2 
+KIF  C4  C5   SING  3 
+KIF  C4  H4   SING  4 
+KIF  O4  HO4  SING  5 
+KIF  C3  O3   SING  6 
+KIF  C3  C2   SING  7 
+KIF  C3  H3   SING  8 
+KIF  O3  HO3  SING  9 
+KIF  C2  O2   SING  10
+KIF  C2  C1   SING  11
+KIF  C2  H2   SING  12
+KIF  O2  HO2  SING  13
+KIF  C1  N9   SING  14
+KIF  C1  N    SING  15
+KIF  C1  H1   SING  16
+KIF  N9  C8   SING  17
+KIF  N9  H9   SING  18
+KIF  C8  O8   DOUB  19
+KIF  C8  C7   SING  20
+KIF  C7  O7   DOUB  21
+KIF  C7  N    SING  22
+KIF  N   C5   SING  23
+KIF  C5  C6   SING  24
+KIF  C5  H5   SING  25
+KIF  C6  O6   SING  26
+KIF  C6  1H6  SING  27
+KIF  C6  2H6  SING  28
+KIF  O6  HO6  SING  29
+#

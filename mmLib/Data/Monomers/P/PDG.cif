@@ -1,0 +1,120 @@
+data_PDG
+#
+_chem_comp.id                   PDG
+_chem_comp.name                 'N-({3-HYDROXY-2-METHYL-5-[(PHOSPHONOOXY)METHYL]PYRIDIN-4-YL}METHYL)-D-GLUTAMIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H19 N2 O9 P1'
+_chem_comp.pdbx_synonyms        'N-PYRIDOXYL-D-GLUTAMIC ACID-5'-MONOPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        378.275
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PDG  N1    .  N  0  40.416  103.523  -11.097  1  1 
+PDG  C2    .  C  0  40.019  104.639  -11.827  1  2 
+PDG  C2A   .  C  0  41.074  105.728  -11.680  1  3 
+PDG  C3    .  C  0  38.744  104.567  -12.556  1  4 
+PDG  O3    .  O  0  38.501  105.724  -13.213  1  5 
+PDG  C4    .  C  0  37.898  103.406  -12.548  1  6 
+PDG  C4A   .  C  0  36.555  103.313  -13.317  1  7 
+PDG  C5    .  C  0  38.461  102.338  -11.739  1  8 
+PDG  C6    .  C  0  39.668  102.378  -11.036  1  9 
+PDG  C5A   .  C  0  37.771  100.990  -11.557  1  10
+PDG  OP4   .  O  0  37.280  100.364  -12.678  1  11
+PDG  P     .  P  0  36.683  98.874   -12.691  1  12
+PDG  OP1   .  O  0  37.450  97.992   -13.527  1  13
+PDG  OP2   .  O  0  35.213  99.104   -12.989  1  14
+PDG  OP3   .  O  0  36.879  98.350   -11.278  1  15
+PDG  NA    .  N  0  36.052  104.742  -13.471  1  16
+PDG  CAA   .  C  0  34.774  104.984  -12.697  1  17
+PDG  CBA   .  C  0  33.631  104.021  -13.087  1  18
+PDG  CGA   .  C  0  32.447  103.935  -12.100  1  19
+PDG  CDA   .  C  0  32.901  103.755  -10.641  1  20
+PDG  OE1   .  O  0  32.918  104.757  -9.967   1  21
+PDG  OE2   .  O  0  33.193  102.587  -10.337  1  22
+PDG  CA    .  C  0  34.373  106.454  -12.898  1  23
+PDG  OA    .  O  0  35.366  107.256  -12.436  1  24
+PDG  OXT   .  O  0  33.249  106.881  -13.436  1  25
+PDG  HE1   .  H  0  ?       ?        ?        1  26
+PDG  1HGA  .  H  0  ?       ?        ?        0  27
+PDG  2HGA  .  H  0  ?       ?        ?        0  28
+PDG  1HBA  .  H  0  ?       ?        ?        0  29
+PDG  2HBA  .  H  0  ?       ?        ?        0  30
+PDG  HAA   .  H  0  ?       ?        ?        1  31
+PDG  HNA   .  H  0  ?       ?        ?        1  32
+PDG  1H4A  .  H  0  ?       ?        ?        0  33
+PDG  2H4A  .  H  0  ?       ?        ?        0  34
+PDG  HO3   .  H  0  ?       ?        ?        1  35
+PDG  H6    .  H  0  ?       ?        ?        1  36
+PDG  1H5A  .  H  0  ?       ?        ?        0  37
+PDG  2H5A  .  H  0  ?       ?        ?        0  38
+PDG  HP2   .  H  0  ?       ?        ?        1  39
+PDG  HP3   .  H  0  ?       ?        ?        1  40
+PDG  1H2A  .  H  0  ?       ?        ?        0  41
+PDG  2H2A  .  H  0  ?       ?        ?        0  42
+PDG  3H2A  .  H  0  ?       ?        ?        0  43
+PDG  HXT   .  H  0  ?       ?        ?        1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PDG  N1   C2    DOUB  1 
+PDG  N1   C6    SING  2 
+PDG  C2   C3    SING  3 
+PDG  C2   C2A   SING  4 
+PDG  C2A  1H2A  SING  5 
+PDG  C2A  2H2A  SING  6 
+PDG  C2A  3H2A  SING  7 
+PDG  C3   C4    DOUB  8 
+PDG  C3   O3    SING  9 
+PDG  O3   HO3   SING  10
+PDG  C4   C4A   SING  11
+PDG  C4   C5    SING  12
+PDG  C4A  NA    SING  13
+PDG  C4A  1H4A  SING  14
+PDG  C4A  2H4A  SING  15
+PDG  C5   C6    DOUB  16
+PDG  C5   C5A   SING  17
+PDG  C6   H6    SING  18
+PDG  C5A  1H5A  SING  19
+PDG  C5A  2H5A  SING  20
+PDG  C5A  OP4   SING  21
+PDG  OP4  P     SING  22
+PDG  P    OP1   DOUB  23
+PDG  P    OP2   SING  24
+PDG  P    OP3   SING  25
+PDG  OP2  HP2   SING  26
+PDG  OP3  HP3   SING  27
+PDG  NA   CAA   SING  28
+PDG  NA   HNA   SING  29
+PDG  CAA  CBA   SING  30
+PDG  CAA  HAA   SING  31
+PDG  CAA  CA    SING  32
+PDG  CBA  CGA   SING  33
+PDG  CBA  1HBA  SING  34
+PDG  CBA  2HBA  SING  35
+PDG  CGA  CDA   SING  36
+PDG  CGA  1HGA  SING  37
+PDG  CGA  2HGA  SING  38
+PDG  CDA  OE1   SING  39
+PDG  CDA  OE2   DOUB  40
+PDG  OE1  HE1   SING  41
+PDG  CA   OA    DOUB  42
+PDG  CA   OXT   SING  43
+PDG  OXT  HXT   SING  44
+#

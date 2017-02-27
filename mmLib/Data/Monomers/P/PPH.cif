@@ -1,0 +1,80 @@
+data_PPH
+#
+_chem_comp.id                       PPH
+_chem_comp.name                     'PHENYLALANINE PHOSPHINIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H12 N1 O2 P1'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            185.162
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPH  N     .  N  0  ?  ?  ?  1  1 
+PPH  CA    .  C  0  ?  ?  ?  1  2 
+PPH  P     .  P  0  ?  ?  ?  1  3 
+PPH  O1P   .  O  0  ?  ?  ?  1  4 
+PPH  O2P   .  O  0  ?  ?  ?  1  5 
+PPH  CB    .  C  0  ?  ?  ?  1  6 
+PPH  CG    .  C  0  ?  ?  ?  1  7 
+PPH  CD1   .  C  0  ?  ?  ?  1  8 
+PPH  CD2   .  C  0  ?  ?  ?  1  9 
+PPH  CE1   .  C  0  ?  ?  ?  1  10
+PPH  CE2   .  C  0  ?  ?  ?  1  11
+PPH  CZ    .  C  0  ?  ?  ?  1  12
+PPH  H     .  H  0  ?  ?  ?  1  13
+PPH  1HN   .  H  0  ?  ?  ?  0  14
+PPH  2HN   .  H  0  ?  ?  ?  0  15
+PPH  HA    .  H  0  ?  ?  ?  1  16
+PPH  1HB   .  H  0  ?  ?  ?  0  17
+PPH  2HB   .  H  0  ?  ?  ?  0  18
+PPH  HD1   .  H  0  ?  ?  ?  1  19
+PPH  HD2   .  H  0  ?  ?  ?  1  20
+PPH  HE1   .  H  0  ?  ?  ?  1  21
+PPH  HE2   .  H  0  ?  ?  ?  1  22
+PPH  HZ    .  H  0  ?  ?  ?  1  23
+PPH  2HOP  .  H  0  ?  ?  ?  0  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPH  N    CA    SING  1 
+PPH  N    1HN   SING  2 
+PPH  N    2HN   SING  3 
+PPH  CA   P     SING  4 
+PPH  CA   CB    SING  5 
+PPH  CA   HA    SING  6 
+PPH  P    O1P   DOUB  7 
+PPH  P    O2P   SING  8 
+PPH  P    H     SING  9 
+PPH  O2P  2HOP  SING  10
+PPH  CB   CG    SING  11
+PPH  CB   1HB   SING  12
+PPH  CB   2HB   SING  13
+PPH  CG   CD1   DOUB  14
+PPH  CG   CD2   SING  15
+PPH  CD1  CE1   SING  16
+PPH  CD1  HD1   SING  17
+PPH  CD2  CE2   DOUB  18
+PPH  CD2  HD2   SING  19
+PPH  CE1  CZ    DOUB  20
+PPH  CE1  HE1   SING  21
+PPH  CE2  CZ    SING  22
+PPH  CE2  HE2   SING  23
+PPH  CZ   HZ    SING  24
+#

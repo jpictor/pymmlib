@@ -1,0 +1,103 @@
+data_CMP
+#
+_chem_comp.id                   CMP
+_chem_comp.name                 ADENOSINE-3',5'-CYCLIC-MONOPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N5 O6 P1'
+_chem_comp.pdbx_synonyms        'CYCLIC AMP; CAMP'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        329.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CMP  P     .  P  0  ?  ?  ?  1  1 
+CMP  O1P   .  O  0  ?  ?  ?  1  2 
+CMP  O2P   .  O  0  ?  ?  ?  1  3 
+CMP  O5*   .  O  0  ?  ?  ?  1  4 
+CMP  C5*   .  C  0  ?  ?  ?  1  5 
+CMP  C4*   .  C  0  ?  ?  ?  1  6 
+CMP  O4*   .  O  0  ?  ?  ?  1  7 
+CMP  C3*   .  C  0  ?  ?  ?  1  8 
+CMP  O3*   .  O  0  ?  ?  ?  1  9 
+CMP  C2*   .  C  0  ?  ?  ?  1  10
+CMP  O2*   .  O  0  ?  ?  ?  1  11
+CMP  C1*   .  C  0  ?  ?  ?  1  12
+CMP  N9    .  N  0  ?  ?  ?  1  13
+CMP  C8    .  C  0  ?  ?  ?  1  14
+CMP  N7    .  N  0  ?  ?  ?  1  15
+CMP  C5    .  C  0  ?  ?  ?  1  16
+CMP  C6    .  C  0  ?  ?  ?  1  17
+CMP  N6    .  N  0  ?  ?  ?  1  18
+CMP  N1    .  N  0  ?  ?  ?  1  19
+CMP  C2    .  C  0  ?  ?  ?  1  20
+CMP  N3    .  N  0  ?  ?  ?  1  21
+CMP  C4    .  C  0  ?  ?  ?  1  22
+CMP  2HOP  .  H  0  ?  ?  ?  0  23
+CMP  1H5*  .  H  0  ?  ?  ?  0  24
+CMP  2H5*  .  H  0  ?  ?  ?  0  25
+CMP  H4*   .  H  0  ?  ?  ?  1  26
+CMP  H3*   .  H  0  ?  ?  ?  1  27
+CMP  H2*   .  H  0  ?  ?  ?  1  28
+CMP  *HO2  .  H  0  ?  ?  ?  0  29
+CMP  H1*   .  H  0  ?  ?  ?  1  30
+CMP  1HN6  .  H  0  ?  ?  ?  0  31
+CMP  2HN6  .  H  0  ?  ?  ?  0  32
+CMP  H8    .  H  0  ?  ?  ?  1  33
+CMP  H2    .  H  0  ?  ?  ?  1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CMP  P    O1P   DOUB  1 
+CMP  P    O2P   SING  2 
+CMP  P    O5*   SING  3 
+CMP  P    O3*   SING  4 
+CMP  O2P  2HOP  SING  5 
+CMP  O5*  C5*   SING  6 
+CMP  C5*  C4*   SING  7 
+CMP  C5*  1H5*  SING  8 
+CMP  C5*  2H5*  SING  9 
+CMP  C4*  O4*   SING  10
+CMP  C4*  C3*   SING  11
+CMP  C4*  H4*   SING  12
+CMP  O4*  C1*   SING  13
+CMP  C3*  O3*   SING  14
+CMP  C3*  C2*   SING  15
+CMP  C3*  H3*   SING  16
+CMP  C2*  O2*   SING  17
+CMP  C2*  C1*   SING  18
+CMP  C2*  H2*   SING  19
+CMP  O2*  *HO2  SING  20
+CMP  C1*  N9    SING  21
+CMP  C1*  H1*   SING  22
+CMP  N9   C8    SING  23
+CMP  N9   C4    SING  24
+CMP  C8   N7    DOUB  25
+CMP  C8   H8    SING  26
+CMP  N7   C5    SING  27
+CMP  C5   C6    SING  28
+CMP  C5   C4    DOUB  29
+CMP  C6   N6    SING  30
+CMP  C6   N1    DOUB  31
+CMP  N6   1HN6  SING  32
+CMP  N6   2HN6  SING  33
+CMP  N1   C2    SING  34
+CMP  C2   N3    DOUB  35
+CMP  C2   H2    SING  36
+CMP  N3   C4    SING  37
+#

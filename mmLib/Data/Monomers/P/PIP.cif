@@ -1,0 +1,65 @@
+data_PIP
+#
+_chem_comp.id                   PIP
+_chem_comp.name                 PIPERIDINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H11 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        85.149
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PIP  N1   .  N  0  ?  ?  ?  1  1 
+PIP  C2   .  C  0  ?  ?  ?  1  2 
+PIP  C3   .  C  0  ?  ?  ?  1  3 
+PIP  C4   .  C  0  ?  ?  ?  1  4 
+PIP  C5   .  C  0  ?  ?  ?  1  5 
+PIP  C6   .  C  0  ?  ?  ?  1  6 
+PIP  HN1  .  H  0  ?  ?  ?  1  7 
+PIP  1H2  .  H  0  ?  ?  ?  0  8 
+PIP  2H2  .  H  0  ?  ?  ?  0  9 
+PIP  1H3  .  H  0  ?  ?  ?  0  10
+PIP  2H3  .  H  0  ?  ?  ?  0  11
+PIP  1H4  .  H  0  ?  ?  ?  0  12
+PIP  2H4  .  H  0  ?  ?  ?  0  13
+PIP  1H5  .  H  0  ?  ?  ?  0  14
+PIP  2H5  .  H  0  ?  ?  ?  0  15
+PIP  1H6  .  H  0  ?  ?  ?  0  16
+PIP  2H6  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PIP  N1  C2   SING  1 
+PIP  N1  C6   SING  2 
+PIP  N1  HN1  SING  3 
+PIP  C2  C3   SING  4 
+PIP  C2  1H2  SING  5 
+PIP  C2  2H2  SING  6 
+PIP  C3  C4   SING  7 
+PIP  C3  1H3  SING  8 
+PIP  C3  2H3  SING  9 
+PIP  C4  C5   SING  10
+PIP  C4  1H4  SING  11
+PIP  C4  2H4  SING  12
+PIP  C5  C6   SING  13
+PIP  C5  1H5  SING  14
+PIP  C5  2H5  SING  15
+PIP  C6  1H6  SING  16
+PIP  C6  2H6  SING  17
+#

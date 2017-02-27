@@ -1,0 +1,88 @@
+data_AIS
+#
+_chem_comp.id                   AIS
+_chem_comp.name                 '5-AMINOIMIDAZOLE RIBONUCLEOSIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H13 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        215.208
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AIS  O2*   .  O  0  19.492  -16.513  -12.392  1  1 
+AIS  C2*   .  C  0  19.959  -15.476  -11.524  1  2 
+AIS  C3*   .  C  0  21.027  -15.985  -10.555  1  3 
+AIS  O3*   .  O  0  21.030  -17.414  -10.569  1  4 
+AIS  C4*   .  C  0  20.545  -15.472  -9.196   1  5 
+AIS  C5*   .  C  0  21.726  -14.944  -8.379   1  6 
+AIS  O5*   .  O  0  21.268  -14.481  -7.105   1  7 
+AIS  O4*   .  O  0  19.663  -14.391  -9.534   1  8 
+AIS  C1*   .  C  0  18.870  -14.974  -10.577  1  9 
+AIS  N1    .  N  0  17.921  -14.028  -11.211  1  10
+AIS  C2    .  C  0  18.088  -12.715  -11.353  1  11
+AIS  N3    .  N  0  17.008  -12.212  -11.946  1  12
+AIS  C4    .  C  0  16.154  -13.205  -12.183  1  13
+AIS  C5    .  C  0  16.728  -14.313  -11.727  1  14
+AIS  N6    .  N  0  16.179  -15.524  -11.777  1  15
+AIS  H5*   .  H  0  ?       ?        ?        1  16
+AIS  1H5*  .  H  0  ?       ?        ?        0  17
+AIS  2H5*  .  H  0  ?       ?        ?        0  18
+AIS  H4*   .  H  0  ?       ?        ?        1  19
+AIS  H1*   .  H  0  ?       ?        ?        1  20
+AIS  H2    .  H  0  ?       ?        ?        1  21
+AIS  H4    .  H  0  ?       ?        ?        1  22
+AIS  1HN6  .  H  0  ?       ?        ?        0  23
+AIS  2HN6  .  H  0  ?       ?        ?        0  24
+AIS  H2*   .  H  0  ?       ?        ?        1  25
+AIS  H1    .  H  0  ?       ?        ?        1  26
+AIS  H3*   .  H  0  ?       ?        ?        1  27
+AIS  H3    .  H  0  ?       ?        ?        1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AIS  O2*  C2*   SING  1 
+AIS  O2*  H1    SING  2 
+AIS  C2*  C1*   SING  3 
+AIS  C2*  H2*   SING  4 
+AIS  C2*  C3*   SING  5 
+AIS  C3*  C4*   SING  6 
+AIS  C3*  H3*   SING  7 
+AIS  C3*  O3*   SING  8 
+AIS  O3*  H3    SING  9 
+AIS  C4*  C5*   SING  10
+AIS  C4*  H4*   SING  11
+AIS  C4*  O4*   SING  12
+AIS  C5*  O5*   SING  13
+AIS  C5*  1H5*  SING  14
+AIS  C5*  2H5*  SING  15
+AIS  O5*  H5*   SING  16
+AIS  O4*  C1*   SING  17
+AIS  C1*  H1*   SING  18
+AIS  C1*  N1    SING  19
+AIS  N1   C2    SING  20
+AIS  N1   C5    SING  21
+AIS  C2   H2    SING  22
+AIS  C2   N3    DOUB  23
+AIS  N3   C4    SING  24
+AIS  C4   H4    SING  25
+AIS  C4   C5    DOUB  26
+AIS  C5   N6    SING  27
+AIS  N6   1HN6  SING  28
+AIS  N6   2HN6  SING  29
+#

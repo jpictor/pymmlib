@@ -1,0 +1,75 @@
+data_MVA
+#
+_chem_comp.id                       MVA
+_chem_comp.name                     N-METHYLVALINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H13 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.174
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MVA  N     .  N  0  ?  ?  ?  1  1 
+MVA  CN    .  C  0  ?  ?  ?  1  2 
+MVA  CA    .  C  0  ?  ?  ?  1  3 
+MVA  CB    .  C  0  ?  ?  ?  1  4 
+MVA  CG1   .  C  0  ?  ?  ?  1  5 
+MVA  CG2   .  C  0  ?  ?  ?  1  6 
+MVA  C     .  C  0  ?  ?  ?  1  7 
+MVA  O     .  O  0  ?  ?  ?  1  8 
+MVA  OXT   .  O  0  ?  ?  ?  1  9 
+MVA  HN    .  H  0  ?  ?  ?  1  10
+MVA  1HN   .  H  0  ?  ?  ?  0  11
+MVA  2HN   .  H  0  ?  ?  ?  0  12
+MVA  3HN   .  H  0  ?  ?  ?  0  13
+MVA  HA    .  H  0  ?  ?  ?  1  14
+MVA  HB    .  H  0  ?  ?  ?  1  15
+MVA  1HG1  .  H  0  ?  ?  ?  0  16
+MVA  2HG1  .  H  0  ?  ?  ?  0  17
+MVA  3HG1  .  H  0  ?  ?  ?  0  18
+MVA  1HG2  .  H  0  ?  ?  ?  0  19
+MVA  2HG2  .  H  0  ?  ?  ?  0  20
+MVA  3HG2  .  H  0  ?  ?  ?  0  21
+MVA  HXT   .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MVA  N    CA    SING  1 
+MVA  N    CN    SING  2 
+MVA  N    HN    SING  3 
+MVA  CN   1HN   SING  4 
+MVA  CN   2HN   SING  5 
+MVA  CN   3HN   SING  6 
+MVA  CA   CB    SING  7 
+MVA  CA   C     SING  8 
+MVA  CA   HA    SING  9 
+MVA  CB   CG1   SING  10
+MVA  CB   CG2   SING  11
+MVA  CB   HB    SING  12
+MVA  CG1  1HG1  SING  13
+MVA  CG1  2HG1  SING  14
+MVA  CG1  3HG1  SING  15
+MVA  CG2  1HG2  SING  16
+MVA  CG2  2HG2  SING  17
+MVA  CG2  3HG2  SING  18
+MVA  C    O     DOUB  19
+MVA  C    OXT   SING  20
+MVA  OXT  HXT   SING  21
+#

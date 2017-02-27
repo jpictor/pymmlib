@@ -1,0 +1,98 @@
+data_HMO
+#
+_chem_comp.id                   HMO
+_chem_comp.name                 4'-HYDROXY-7-METHOXYISOFLAVONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H12 O4'
+_chem_comp.pdbx_synonyms        ISOFORMONONETIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        268.268
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HMO  C1    .  C  0  ?  ?  ?  1  1 
+HMO  C2    .  C  0  ?  ?  ?  1  2 
+HMO  C3    .  C  0  ?  ?  ?  1  3 
+HMO  C4    .  C  0  ?  ?  ?  1  4 
+HMO  C5    .  C  0  ?  ?  ?  1  5 
+HMO  C6    .  C  0  ?  ?  ?  1  6 
+HMO  C7    .  C  0  ?  ?  ?  1  7 
+HMO  C8    .  C  0  ?  ?  ?  1  8 
+HMO  C9    .  C  0  ?  ?  ?  1  9 
+HMO  O10   .  O  0  ?  ?  ?  1  10
+HMO  C11   .  C  0  ?  ?  ?  1  11
+HMO  C12   .  C  0  ?  ?  ?  1  12
+HMO  C13   .  C  0  ?  ?  ?  1  13
+HMO  C14   .  C  0  ?  ?  ?  1  14
+HMO  C15   .  C  0  ?  ?  ?  1  15
+HMO  C16   .  C  0  ?  ?  ?  1  16
+HMO  O17   .  O  0  ?  ?  ?  1  17
+HMO  O18   .  O  0  ?  ?  ?  1  18
+HMO  O19   .  O  0  ?  ?  ?  1  19
+HMO  C20   .  C  0  ?  ?  ?  1  20
+HMO  1H20  .  H  0  ?  ?  ?  0  21
+HMO  2H20  .  H  0  ?  ?  ?  0  22
+HMO  3H20  .  H  0  ?  ?  ?  0  23
+HMO  H2    .  H  0  ?  ?  ?  1  24
+HMO  H3    .  H  0  ?  ?  ?  1  25
+HMO  H6    .  H  0  ?  ?  ?  1  26
+HMO  H9    .  H  0  ?  ?  ?  1  27
+HMO  H12   .  H  0  ?  ?  ?  1  28
+HMO  H13   .  H  0  ?  ?  ?  1  29
+HMO  H17   .  H  0  ?  ?  ?  1  30
+HMO  H15   .  H  0  ?  ?  ?  1  31
+HMO  H16   .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HMO  C1   C2    DOUB  1 
+HMO  C1   C6    SING  2 
+HMO  C1   O19   SING  3 
+HMO  C2   C3    SING  4 
+HMO  C2   H2    SING  5 
+HMO  C3   C4    DOUB  6 
+HMO  C3   H3    SING  7 
+HMO  C4   C5    SING  8 
+HMO  C4   C7    SING  9 
+HMO  C5   C6    DOUB  10
+HMO  C5   O10   SING  11
+HMO  C6   H6    SING  12
+HMO  C7   C8    SING  13
+HMO  C7   O18   DOUB  14
+HMO  C8   C9    DOUB  15
+HMO  C8   C11   SING  16
+HMO  C9   O10   SING  17
+HMO  C9   H9    SING  18
+HMO  C11  C12   DOUB  19
+HMO  C11  C16   SING  20
+HMO  C12  C13   SING  21
+HMO  C12  H12   SING  22
+HMO  C13  C14   DOUB  23
+HMO  C13  H13   SING  24
+HMO  C14  C15   SING  25
+HMO  C14  O17   SING  26
+HMO  C15  C16   DOUB  27
+HMO  C15  H15   SING  28
+HMO  C16  H16   SING  29
+HMO  O17  H17   SING  30
+HMO  O19  C20   SING  31
+HMO  C20  1H20  SING  32
+HMO  C20  2H20  SING  33
+HMO  C20  3H20  SING  34
+#

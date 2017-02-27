@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>Class Hierarchy</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Trees&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">&nbsp;</td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="class-tree.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<center><b>
+ [ <a href="module-tree.html">Module Hierarchy</a>
+ | <a href="class-tree.html">Class Hierarchy</a> ]
+</b></center><br />
+<h1 class="epydoc">Class Hierarchy</h1>
+<ul class="nomargin-top">
+    <li> <strong class="uidlink"><a href="mmLib.CIF.CIFFile-class.html">mmLib.CIF.CIFFile</a></strong>:
+      <em class="summary">Parser for reading a CIF 1.1 file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.CIF.DataBlock-class.html">mmLib.CIF.DataBlock</a></strong>:
+      <em class="summary">CIF data block of tags and tables.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.CIF.Lexer-class.html">mmLib.CIF.Lexer</a></strong>:
+      <em class="summary">Lexical analyzer for reading a CIF 1.1 file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.CIF.Table-class.html">mmLib.CIF.Table</a></strong>:
+      <em class="summary">CIF data table.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.CIF.Token-class.html">mmLib.CIF.Token</a></strong>:
+      <em class="summary">Lexical token with type, value and line number.</em>
+    </li>
+    <li> <strong class="uidlink">object</strong>:
+      <em class="summary">The most base type</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.AlphaHelix-class.html">mmLib.Structure.AlphaHelix</a></strong>:
+      <em class="summary">Class containing information on a protein alpha helix.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Atom-class.html">mmLib.Structure.Atom</a></strong>:
+      <em class="summary">Class representing a single atom.</em>
+    </li>
+    <li> <strong class="uidlink">exceptions.BaseException</strong>:
+      <em class="summary">Common base class for all exceptions</em>
+    <ul>
+    <li> <strong class="uidlink">exceptions.Exception</strong>:
+      <em class="summary">Common base class for all non-exit exceptions.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.FileIO.FileIOUnsupportedFormat-class.html">mmLib.FileIO.FileIOUnsupportedFormat</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.R3DDriver.FinishMe-class.html">mmLib.R3DDriver.FinishMe</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.PDBError-class.html">mmLib.PDB.PDBError</a></strong>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.PDBValueError-class.html">mmLib.PDB.PDBValueError</a></strong>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.StructureBuilder.StructureBuilderError-class.html">mmLib.StructureBuilder.StructureBuilderError</a></strong>:
+      <em class="summary">Base class of errors raised by Structure objects.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.StructureError-class.html">mmLib.Structure.StructureError</a></strong>:
+      <em class="summary">Base class of errors raised by Structure objects.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.AtomOverwrite-class.html">mmLib.Structure.AtomOverwrite</a></strong>:
+      <em class="summary">Raised by Structure.add_atom() or Fragment.add_atom() when an Atom 
+        added to a Structure or Fragment has the same chain_id, 
+        fragment_id, name, and alt_loc as an Atom already in the Structure 
+        or Fragment.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.ChainOverwrite-class.html">mmLib.Structure.ChainOverwrite</a></strong>:
+      <em class="summary">Raised by Structure.add_chain() or by Model.add_chain() when a 
+        Chain added to a Structure has the same chain_id of a Chain already
+        in the Structure.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.FragmentOverwrite-class.html">mmLib.Structure.FragmentOverwrite</a></strong>:
+      <em class="summary">Raised by Chain.add_fragment() when a Fragment added to a Chain has
+        the same fragment_id as a Fragment already in the Chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.ModelOverwrite-class.html">mmLib.Structure.ModelOverwrite</a></strong>:
+      <em class="summary">Raised by Structure.add_model() when a Model added to a Structure 
+        has the same model_id of a Model already in the Structure.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSError-class.html">mmLib.TLS.TLSError</a></strong>:
+      <em class="summary">Base exception class for TLS module exceptions.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatError-class.html">mmLib.TLS.TLSFileFormatError</a></strong>:
+      <em class="summary">Raised when a file format error is encountered while loading a TLS 
+        group description file.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFError-class.html">mmLib.mmCIF.mmCIFError</a></strong>:
+      <em class="summary">Base class of errors raised by Structure objects.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFSyntaxError-class.html">mmLib.mmCIF.mmCIFSyntaxError</a></strong>:
+      <em class="summary">Base class of errors raised by Structure objects.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.CIF.CIFSyntaxError-class.html">mmLib.CIF.CIFSyntaxError</a></strong>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.BetaSheet-class.html">mmLib.Structure.BetaSheet</a></strong>:
+      <em class="summary">Class containing information on a protein beta sheet.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Bond-class.html">mmLib.Structure.Bond</a></strong>:
+      <em class="summary">Indicates two atoms are bonded together.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.ConsoleOutput.ConesoleOutput-class.html">mmLib.ConsoleOutput.ConesoleOutput</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Library.ElementDesc-class.html">mmLib.Library.ElementDesc</a></strong>:
+      <em class="summary">Element description class returned by library_get_element_desc().</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Fragment-class.html">mmLib.Structure.Fragment</a></strong>:
+      <em class="summary">Fragment objects are a basic unit for organizing small groups of 
+        Atoms.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Residue-class.html">mmLib.Structure.Residue</a></strong>:
+      <em class="summary">A subclass of Fragment representing one residue in a polymer chain.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.AminoAcidResidue-class.html">mmLib.Structure.AminoAcidResidue</a></strong>:
+      <em class="summary">A subclass of Residue representing one amino acid residue in a 
+        polypeptide chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.NucleicAcidResidue-class.html">mmLib.Structure.NucleicAcidResidue</a></strong>:
+      <em class="summary">A subclass of Residue representing one nuclic acid in a strand of 
+        DNA or RNA.</em>
+    </li>
+    </ul>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.FragmentID-class.html">mmLib.Structure.FragmentID</a></strong>:
+      <em class="summary">Stores a fragment_id as integer residue sequence number and a 
+        single-character insertion code.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLObject-class.html">mmLib.Viewer.GLObject</a></strong>:
+      <em class="summary">Base class for all OpenGL rendering objects.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLDrawList-class.html">mmLib.Viewer.GLDrawList</a></strong>:
+      <em class="summary">Fundamental OpenGL rigid entity.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLAtomList-class.html">mmLib.Viewer.GLAtomList</a></strong>:
+      <em class="summary">OpenGL renderer for a list of atoms.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLChain-class.html">mmLib.Viewer.GLChain</a></strong>:
+      <em class="summary">Visualization object for mmLib.Structure.Chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.GLTLSAtomList-class.html">mmLib.TLS.GLTLSAtomList</a></strong>:
+      <em class="summary">OpenGL visualizations of TLS group atoms.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLAxes-class.html">mmLib.Viewer.GLAxes</a></strong>:
+      <em class="summary">Draw orthogonal axes in red = x, green = y, blue = z.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLStructure-class.html">mmLib.Viewer.GLStructure</a></strong>:
+      <em class="summary">Visualization object for a mmLib.Structure.Structure.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.GLTLSChain-class.html">mmLib.TLS.GLTLSChain</a></strong>:
+      <em class="summary">Collects a list of GLTLSGroup instances which are all in the same 
+        chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.GLTLSGroup-class.html">mmLib.TLS.GLTLSGroup</a></strong>:
+      <em class="summary">Top level visualization object for a TLS group.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLUnitCell-class.html">mmLib.Viewer.GLUnitCell</a></strong>:
+      <em class="summary">Draw unit cell.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLViewer-class.html">mmLib.Viewer.GLViewer</a></strong>:
+      <em class="summary">This class renders a list of GLDrawList (or subclasses of) onto the
+        given glcontext and gldrawable objects.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLPropertyDefault-class.html">mmLib.Viewer.GLPropertyDefault</a></strong>:
+      <em class="summary">This value means a property should use its default value.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Model-class.html">mmLib.Structure.Model</a></strong>:
+      <em class="summary">Multiple models support.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Library.MonomerDesc-class.html">mmLib.Library.MonomerDesc</a></strong>:
+      <em class="summary">Monomer description class returned by library_get_monomer_desc().</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.OpenGLDriver.OpenGLDriver-class.html">mmLib.OpenGLDriver.OpenGLDriver</a></strong>:
+      <em class="summary">OpenGL render driver for Viewer.py</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDBBuilder.PDBFileBuilder-class.html">mmLib.PDBBuilder.PDBFileBuilder</a></strong>:
+      <em class="summary">Builds a PDBFile object from a Structure object.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.R3DDriver.Raster3DDriver-class.html">mmLib.R3DDriver.Raster3DDriver</a></strong>:
+      <em class="summary">Viewer.py graphics driver for producing a output file for the 
+        Raster3D ray tracer.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.RecordProcessor-class.html">mmLib.PDB.RecordProcessor</a></strong>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDBBuilder.PDBStructureBuilder-class.html">mmLib.PDBBuilder.PDBStructureBuilder</a></strong>:
+      <em class="summary">Builds a new Structure object by loading a PDB file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatPDB-class.html">mmLib.TLS.TLSFileFormatPDB</a></strong>:
+      <em class="summary">Reads TLS descriptions from the REMARK records in PDB files.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Segment-class.html">mmLib.Structure.Segment</a></strong>:
+      <em class="summary">Segment objects are a container for Fragment objects, but are 
+        disassociated with the Structure object hierarch.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Chain-class.html">mmLib.Structure.Chain</a></strong>:
+      <em class="summary">Chain objects contain an ordered list of Fragment objects.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Sequence.Sequence-class.html">mmLib.Sequence.Sequence</a></strong>:
+      <em class="summary">Sequence information for a biopolymer chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Site-class.html">mmLib.Structure.Site</a></strong>:
+      <em class="summary">List of Fragments within a structure involved in a SITE 
+        description.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.SpaceGroups.SpaceGroup-class.html">mmLib.SpaceGroups.SpaceGroup</a></strong>:
+      <em class="summary">Contains the various names and symmetry operations for one space 
+        group.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Strand-class.html">mmLib.Structure.Strand</a></strong>:
+      <em class="summary">One strand of a BetaSheet.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Structure-class.html">mmLib.Structure.Structure</a></strong>:
+      <em class="summary">The Structure object is the parent container object for the entire 
+        macromolecular data structure.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.StructureBuilder.StructureBuilder-class.html">mmLib.StructureBuilder.StructureBuilder</a></strong>:
+      <em class="summary">Builder class for the mmLib.Structure object hierarchy.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.CIFBuilder.CIFStructureBuilder-class.html">mmLib.CIFBuilder.CIFStructureBuilder</a></strong>:
+      <em class="summary">Builds a new Structure object by loading a CIF file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDBBuilder.PDBStructureBuilder-class.html">mmLib.PDBBuilder.PDBStructureBuilder</a></strong>:
+      <em class="summary">Builds a new Structure object by loading a PDB file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIFBuilder.mmCIFStructureBuilder-class.html">mmLib.mmCIFBuilder.mmCIFStructureBuilder</a></strong>:
+      <em class="summary">Builds a new Structure object by loading an mmCIF file.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Superposition.SuperpositionResults-class.html">mmLib.Superposition.SuperpositionResults</a></strong>:
+      <em class="summary">Returns the results of a superposition.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.SpaceGroups.SymOp-class.html">mmLib.SpaceGroups.SymOp</a></strong>:
+      <em class="summary">A subclass of the tuple class for performing one symmetry 
+        operation.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFile-class.html">mmLib.TLS.TLSFile</a></strong>:
+      <em class="summary">Read/Write TLS files containing one or more TLSGroupDesc objects.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormat-class.html">mmLib.TLS.TLSFileFormat</a></strong>:
+      <em class="summary">Base class for TLS file types.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatPDB-class.html">mmLib.TLS.TLSFileFormatPDB</a></strong>:
+      <em class="summary">Reads TLS descriptions from the REMARK records in PDB files.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatPHENIX-class.html">mmLib.TLS.TLSFileFormatPHENIX</a></strong>:
+      <em class="summary">Read/Write PHENIX TLSIN/TLSOUT files.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatPHENIXOUT-class.html">mmLib.TLS.TLSFileFormatPHENIXOUT</a></strong>:
+      <em class="summary">Write PHENIX-TLSOUT files.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatPureTLSOUT-class.html">mmLib.TLS.TLSFileFormatPureTLSOUT</a></strong>:
+      <em class="summary">Read/Write REFMAC5 TLSIN/TLSOUT files.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSFileFormatTLSOUT-class.html">mmLib.TLS.TLSFileFormatTLSOUT</a></strong>:
+      <em class="summary">Read/Write REFMAC TLSIN/TLSOUT files.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSGroupDesc-class.html">mmLib.TLS.TLSGroupDesc</a></strong>:
+      <em class="summary">Description of one TLS Group.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSStructureAnalysis-class.html">mmLib.TLS.TLSStructureAnalysis</a></strong>:
+      <em class="summary">Algorithm object for rigid body searches on Structure objects.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.R3DDriver.TeeWrite-class.html">mmLib.R3DDriver.TeeWrite</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.UnitCell.UnitCell-class.html">mmLib.UnitCell.UnitCell</a></strong>:
+      <em class="summary">Class for storing and performing calculations on unit cell 
+        parameters.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.GeometryDict.XYZDict-class.html">mmLib.GeometryDict.XYZDict</a></strong>:
+      <em class="summary">Hash all objects according to their position, allowing spacial 
+        location of objects quickly.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.FileIO.ZCat-class.html">mmLib.FileIO.ZCat</a></strong>
+    </li>
+    <li> <strong class="uidlink">dict</strong>:
+      <em class="summary">dict() -&gt; new empty dictionary
+dict(mapping) -&gt; new dictionary initialized from a mapping object's
+    (key, value) pairs
+dict(iterable) -&gt; new dictionary initialized as if via:
+    d = {}
+    for k, v in iterable:
+        d[k] = v
+dict(**kwargs) -&gt; new dictionary initialized with the name=value pairs
+    in the keyword argument list.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.Altloc-class.html">mmLib.Structure.Altloc</a></strong>:
+      <em class="summary">Container holding the same atom, but for different conformations 
+        and occupancies.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.Viewer.GLPropertyDict-class.html">mmLib.Viewer.GLPropertyDict</a></strong>:
+      <em class="summary">Property cache/routing dictionary</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.PDBRecord-class.html">mmLib.PDB.PDBRecord</a></strong>:
+      <em class="summary">Base class for all PDB file records.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ANISOU-class.html">mmLib.PDB.ANISOU</a></strong>:
+      <em class="summary">The ANISOU records present the anisotropic temperature factors.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ATOM-class.html">mmLib.PDB.ATOM</a></strong>:
+      <em class="summary">The ATOM records present the atomic coordinates for standard 
+        residues.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HETATM-class.html">mmLib.PDB.HETATM</a></strong>:
+      <em class="summary">The HETATM records present the atomic coordinate records for atoms 
+        within &quot;non-standard&quot; groups.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.AUTHOR-class.html">mmLib.PDB.AUTHOR</a></strong>:
+      <em class="summary">The AUTHOR record contains the names of the people responsible for 
+        the contents of the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CAVEAT-class.html">mmLib.PDB.CAVEAT</a></strong>:
+      <em class="summary">CAVEAT warns of severe errors in an entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CISPEP-class.html">mmLib.PDB.CISPEP</a></strong>:
+      <em class="summary">CISPEP records specify the prolines and other peptides found to be 
+        in the cis conformation.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.COMPND-class.html">mmLib.PDB.COMPND</a></strong>:
+      <em class="summary">The COMPND record describes the macromolecular contents of an 
+        entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CONECT-class.html">mmLib.PDB.CONECT</a></strong>:
+      <em class="summary">The CONECT records specify connectivity between atoms for which 
+        coordinates are supplied.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CRYSTn-class.html">mmLib.PDB.CRYSTn</a></strong>:
+      <em class="summary">The CRYSTn (n=1,2,3) record presents the unit cell parameters, 
+        space group, and Z value.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CRYST1-class.html">mmLib.PDB.CRYST1</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CRYST2-class.html">mmLib.PDB.CRYST2</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.CRYST3-class.html">mmLib.PDB.CRYST3</a></strong>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.DBREF-class.html">mmLib.PDB.DBREF</a></strong>:
+      <em class="summary">The DBREF record provides cross-reference links between PDB 
+        sequences and the corresponding database entry or entries.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.END-class.html">mmLib.PDB.END</a></strong>:
+      <em class="summary">The END record marks the end of the PDB file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ENDMDL-class.html">mmLib.PDB.ENDMDL</a></strong>:
+      <em class="summary">The ENDMDL records are paired with MODEL records to group 
+        individual structures found in a coordinate entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.EXPDTA-class.html">mmLib.PDB.EXPDTA</a></strong>:
+      <em class="summary">The EXPDTA record presents information about the experiment.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.FORMUL-class.html">mmLib.PDB.FORMUL</a></strong>:
+      <em class="summary">The FORMUL record presents the chemical formula and charge of a 
+        non-standard group.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HEADER-class.html">mmLib.PDB.HEADER</a></strong>:
+      <em class="summary">This section contains records used to describe the experiment and 
+        the biological macromolecules present in the entry: HEADER, OBSLTE,
+        TITLE, CAVEAT, COMPND, SOURCE, KEYWDS, EXPDTA, AUTHOR, REVDAT, 
+        SPRSDE, JRNL, and REMARK records.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HELIX-class.html">mmLib.PDB.HELIX</a></strong>:
+      <em class="summary">HELIX records are used to identify the position of helices in the 
+        molecule.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HET-class.html">mmLib.PDB.HET</a></strong>:
+      <em class="summary">The HET records are used to describe non-standard residues, such as
+prosthetic groups, inhibitors, solvent molecules, and ions for
+which coordinates are supplied.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HETNAM-class.html">mmLib.PDB.HETNAM</a></strong>:
+      <em class="summary">This record gives the chemical name of the compound with the given 
+        hetID.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HETSYN-class.html">mmLib.PDB.HETSYN</a></strong>:
+      <em class="summary">This record provides synonyms, if any, for the compound in the 
+        corresponding (i.e., same hetID) HETNAM record.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.HYDBND-class.html">mmLib.PDB.HYDBND</a></strong>:
+      <em class="summary">The HYDBND records specify hydrogen bonds in the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.JRNL-class.html">mmLib.PDB.JRNL</a></strong>:
+      <em class="summary">The JRNL record contains the primary literature citation that 
+        describes the experiment which resulted in the deposited coordinate
+        set.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.KEYWDS-class.html">mmLib.PDB.KEYWDS</a></strong>:
+      <em class="summary">The KEYWDS record contains a set of terms relevant to the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.LINK-class.html">mmLib.PDB.LINK</a></strong>:
+      <em class="summary">The LINK records specify connectivity between residues that is not 
+        implied by the primary structure.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MASTER-class.html">mmLib.PDB.MASTER</a></strong>:
+      <em class="summary">The MASTER record is a control record for bookkeeping.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MODEL-class.html">mmLib.PDB.MODEL</a></strong>:
+      <em class="summary">The MODEL record specifies the model serial number when multiple 
+        structures are presented in a single coordinate entry, as is often 
+        the case with structures determined by NMR.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MODRES-class.html">mmLib.PDB.MODRES</a></strong>:
+      <em class="summary">The MODRES record provides descriptions of modifications (e.g., 
+        chemical or post-translational) to protein and nucleic acid 
+        residues.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MTRIXn-class.html">mmLib.PDB.MTRIXn</a></strong>:
+      <em class="summary">The MTRIXn (n = 1, 2, or 3) records present transformations 
+        expressing non-crystallographic symmetry.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MTRIX1-class.html">mmLib.PDB.MTRIX1</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MTRIX2-class.html">mmLib.PDB.MTRIX2</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.MTRIX3-class.html">mmLib.PDB.MTRIX3</a></strong>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.OBSLTE-class.html">mmLib.PDB.OBSLTE</a></strong>:
+      <em class="summary">OBSLTE appears in entries which have been withdrawn from 
+        distribution.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ORIGXn-class.html">mmLib.PDB.ORIGXn</a></strong>:
+      <em class="summary">The ORIGXn (n = 1, 2, or 3) records present the transformation from
+        the orthogonal coordinates contained in the entry to the submitted 
+        coordinates.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ORIGX1-class.html">mmLib.PDB.ORIGX1</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ORIGX2-class.html">mmLib.PDB.ORIGX2</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.ORIGX3-class.html">mmLib.PDB.ORIGX3</a></strong>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.REMARK-class.html">mmLib.PDB.REMARK</a></strong>:
+      <em class="summary">REMARK records present experimental details, annotations, comments,
+        and information not included in other records.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.REVDAT-class.html">mmLib.PDB.REVDAT</a></strong>:
+      <em class="summary">REVDAT records contain a history of the modifications made to an 
+        entry since its release.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SCALEn-class.html">mmLib.PDB.SCALEn</a></strong>:
+      <em class="summary">The SCALEn (n = 1, 2, or 3) records present the transformation from
+        the orthogonal coordinates as contained in the entry to fractional 
+        crystallographic coordinates.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SCALE1-class.html">mmLib.PDB.SCALE1</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SCALE2-class.html">mmLib.PDB.SCALE2</a></strong>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SCALE3-class.html">mmLib.PDB.SCALE3</a></strong>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SEQADV-class.html">mmLib.PDB.SEQADV</a></strong>:
+      <em class="summary">The SEQADV record identifies conflicts between sequence information
+        in the ATOM records of the PDB entry and the sequence database 
+        entry given on DBREF.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SEQRES-class.html">mmLib.PDB.SEQRES</a></strong>:
+      <em class="summary">The SEQRES records contain the amino acid or nucleic acid sequence 
+        of residues in each chain of the macromolecule that was studied.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SHEET-class.html">mmLib.PDB.SHEET</a></strong>:
+      <em class="summary">SHEET records are used to identify the position of sheets in the 
+        molecule.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SIGATM-class.html">mmLib.PDB.SIGATM</a></strong>:
+      <em class="summary">The SIGATM records present the standard deviation of atomic 
+        parameters as they appear in ATOM and HETATM records.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SIGUIJ-class.html">mmLib.PDB.SIGUIJ</a></strong>:
+      <em class="summary">The SIGUIJ records present the standard deviations of anisotropic 
+        temperature factors scaled by a factor of 10**4 (Angstroms**2).</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SITE-class.html">mmLib.PDB.SITE</a></strong>:
+      <em class="summary">The SITE records supply the identification of groups comprising 
+        important sites in the macromolecule.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SLTBRG-class.html">mmLib.PDB.SLTBRG</a></strong>:
+      <em class="summary">The SLTBRG records specify salt bridges in the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SOURCE-class.html">mmLib.PDB.SOURCE</a></strong>:
+      <em class="summary">The SOURCE record specifies the biological and/or chemical source 
+        of each biological molecule in the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SPRSDE-class.html">mmLib.PDB.SPRSDE</a></strong>:
+      <em class="summary">The SPRSDE records contain a list of the ID codes of entries that 
+        were made obsolete by the given coordinate entry and withdrawn from
+        the PDB release set.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.SSBOND-class.html">mmLib.PDB.SSBOND</a></strong>:
+      <em class="summary">The SSBOND record identifies each disulfide bond in protein and 
+        polypeptide structures by identifying the two residues involved in 
+        the bond.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.TER-class.html">mmLib.PDB.TER</a></strong>:
+      <em class="summary">The TER record indicates the end of a list of ATOM/HETATM records 
+        for a chain.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.TITLE-class.html">mmLib.PDB.TITLE</a></strong>:
+      <em class="summary">The TITLE record contains a title for the experiment or analysis 
+        that is represented in the entry.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.TURN-class.html">mmLib.PDB.TURN</a></strong>:
+      <em class="summary">The TURN records identify turns and other short loop turns which 
+        normally connect other secondary structure segments.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.TVECT-class.html">mmLib.PDB.TVECT</a></strong>:
+      <em class="summary">The TVECT records present the translation vector for infinite 
+        covalently connected structures.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFRow-class.html">mmLib.mmCIF.mmCIFRow</a></strong>:
+      <em class="summary">Contains one row of data.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink">list</strong>:
+      <em class="summary">list() -&gt; new empty list list(iterable) -&gt; new list 
+        initialized from iterable's items</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.Structure.AtomList-class.html">mmLib.Structure.AtomList</a></strong>:
+      <em class="summary">Provides the functionality of a Python list class for containing 
+        Atom instances.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.TLS.TLSGroup-class.html">mmLib.TLS.TLSGroup</a></strong>:
+      <em class="summary">A subclass of AtomList implementing methods for performing TLS 
+        calculations on the contained Atom instances.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.PDB.PDBFile-class.html">mmLib.PDB.PDBFile</a></strong>:
+      <em class="summary">Class for managing a PDB file.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFData-class.html">mmLib.mmCIF.mmCIFData</a></strong>:
+      <em class="summary">Contains all information found under a data_ block in a mmCIF file.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIFDB.mmCIFDB-class.html">mmLib.mmCIFDB.mmCIFDB</a></strong>:
+      <em class="summary">Database class for the storage and access of structural data.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFSave-class.html">mmLib.mmCIF.mmCIFSave</a></strong>:
+      <em class="summary">Class to store data from mmCIF dictionary save_ blocks.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFFile-class.html">mmLib.mmCIF.mmCIFFile</a></strong>:
+      <em class="summary">Class representing a mmCIF files.</em>
+    <ul>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFDictionary-class.html">mmLib.mmCIF.mmCIFDictionary</a></strong>:
+      <em class="summary">Class representing a mmCIF dictionary.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFTable-class.html">mmLib.mmCIF.mmCIFTable</a></strong>:
+      <em class="summary">Contains columns and rows of data for a mmCIF section.</em>
+    </li>
+    </ul>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIFBuilder.mmCIFFileBuilder-class.html">mmLib.mmCIFBuilder.mmCIFFileBuilder</a></strong>:
+      <em class="summary">Builds a mmCIF file from a Structure object.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFFileParser-class.html">mmLib.mmCIF.mmCIFFileParser</a></strong>:
+      <em class="summary">Stateful parser which uses the mmCIFElementFile tokenizer to read a
+        mmCIF file and convert it into the mmCIFData/mmCIFTable/mmCIFRow 
+        data hierarchy.</em>
+    </li>
+    <li> <strong class="uidlink"><a href="mmLib.mmCIF.mmCIFFileWriter-class.html">mmLib.mmCIF.mmCIFFileWriter</a></strong>:
+      <em class="summary">Writes out a mmCIF file using the data in the mmCIFData list.</em>
+    </li>
+    </ul>
+    </li>
+</ul>
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th bgcolor="#70b0f0" class="navbar-select"
+          >&nbsp;&nbsp;&nbsp;Trees&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:13 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

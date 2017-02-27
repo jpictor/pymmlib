@@ -1,0 +1,80 @@
+data_DON
+#
+_chem_comp.id                       DON
+_chem_comp.name                     6-DIAZENYL-5-OXO-L-NORLEUCINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H11 N3 O3'
+_chem_comp.pdbx_synonyms            '(S)-2-AMINO-6-DIAZENYL-5-OXOHEXANOIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  LEU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            173.171
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+DON  O     .  O  0  56.846  8.161   22.650  1  N  1 
+DON  C     .  C  0  56.697  8.908   21.645  1  N  2 
+DON  OXT   .  O  0  56.788  8.517   20.453  1  N  3 
+DON  CA    .  C  0  56.387  10.422  21.938  1  N  4 
+DON  N     .  N  0  57.550  11.027  22.590  1  N  5 
+DON  CB    .  C  0  56.036  11.303  20.712  1  N  6 
+DON  C1E   .  C  0  55.097  12.500  21.045  1  N  7 
+DON  C1D   .  C  0  53.858  12.445  20.143  1  N  8 
+DON  O1J   .  O  0  53.739  11.491  19.382  1  N  9 
+DON  C1C   .  C  0  52.826  13.391  20.092  1  N  10
+DON  N1B   .  N  0  52.651  14.514  20.770  1  N  11
+DON  N1A   .  N  0  52.384  15.648  21.395  1  N  12
+DON  HOXT  .  H  0  56.983  7.587   20.438  0  N  13
+DON  HA    .  H  0  55.484  10.399  22.566  1  N  14
+DON  1HN   .  H  0  58.276  11.165  21.916  0  N  15
+DON  2HN   .  H  0  57.290  11.908  22.985  0  N  16
+DON  1HB   .  H  0  56.974  11.709  20.305  0  N  17
+DON  2HB   .  H  0  55.500  10.662  19.997  0  N  18
+DON  1H1E  .  H  0  54.786  12.440  22.099  0  N  19
+DON  2H1E  .  H  0  55.633  13.445  20.874  0  N  20
+DON  1H1C  .  H  0  52.860  13.736  19.048  0  N  21
+DON  2H1C  .  H  0  52.045  12.792  20.584  0  N  22
+DON  1H1A  .  H  0  52.317  15.479  22.378  0  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+DON  O    C     DOUB  N  1 
+DON  C    OXT   SING  N  2 
+DON  C    CA    SING  N  3 
+DON  OXT  HOXT  SING  N  4 
+DON  CA   N     SING  N  5 
+DON  CA   CB    SING  N  6 
+DON  CA   HA    SING  N  7 
+DON  N    1HN   SING  N  8 
+DON  N    2HN   SING  N  9 
+DON  CB   C1E   SING  N  10
+DON  CB   1HB   SING  N  11
+DON  CB   2HB   SING  N  12
+DON  C1E  C1D   SING  N  13
+DON  C1E  1H1E  SING  N  14
+DON  C1E  2H1E  SING  N  15
+DON  C1D  O1J   DOUB  N  16
+DON  C1D  C1C   SING  N  17
+DON  C1C  N1B   SING  N  18
+DON  C1C  1H1C  SING  N  19
+DON  C1C  2H1C  SING  N  20
+DON  N1B  N1A   DOUB  N  21
+DON  N1A  1H1A  SING  N  22
+#

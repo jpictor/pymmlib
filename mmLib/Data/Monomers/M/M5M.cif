@@ -1,0 +1,115 @@
+data_M5M
+#
+_chem_comp.id                       M5M
+_chem_comp.name                     2'-(N-ACETAMIDE)-CYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H17 N4 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            364.251
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+M5M  P     .  P  0  -1.561  35.026  57.421  1  1 
+M5M  N2*   .  N  0  4.845   33.413  58.668  1  2 
+M5M  C6*   .  C  0  6.050   32.867  58.808  1  3 
+M5M  C7*   .  C  0  7.181   33.659  58.213  1  4 
+M5M  O8*   .  O  0  6.242   31.806  59.407  1  5 
+M5M  O1P   .  O  0  -1.560  36.032  56.333  1  6 
+M5M  O2P   .  O  0  -2.584  33.952  57.423  1  7 
+M5M  O5*   .  O  0  -0.093  34.403  57.537  1  8 
+M5M  C5*   .  C  0  1.050   35.262  57.542  1  9 
+M5M  C4*   .  C  0  2.269   34.558  58.107  1  10
+M5M  O4*   .  O  0  1.957   34.044  59.427  1  11
+M5M  C1*   .  C  0  2.710   32.867  59.668  1  12
+M5M  N1    .  N  0  1.773   31.758  59.865  1  13
+M5M  C6    .  C  0  0.449   31.892  59.561  1  14
+M5M  C2    .  C  0  2.262   30.554  60.360  1  15
+M5M  O2    .  O  0  3.463   30.475  60.649  1  16
+M5M  N3    .  N  0  1.424   29.511  60.515  1  17
+M5M  C4    .  C  0  0.138   29.643  60.198  1  18
+M5M  N4    .  N  0  -0.654  28.579  60.341  1  19
+M5M  C5    .  C  0  -0.396  30.869  59.712  1  20
+M5M  C2*   .  C  0  3.622   32.657  58.460  1  21
+M5M  C3*   .  C  0  2.819   33.347  57.365  1  22
+M5M  O3*   .  O  0  3.680   33.723  56.292  1  23
+M5M  O3P   .  O  0  ?       ?       ?       1  24
+M5M  1H7*  .  H  0  ?       ?       ?       0  25
+M5M  2H7*  .  H  0  ?       ?       ?       0  26
+M5M  3H7*  .  H  0  ?       ?       ?       0  27
+M5M  2HN*  .  H  0  ?       ?       ?       0  28
+M5M  H2*   .  H  0  ?       ?       ?       1  29
+M5M  H3*   .  H  0  ?       ?       ?       1  30
+M5M  H3T   .  H  0  ?       ?       ?       1  31
+M5M  H4*   .  H  0  ?       ?       ?       1  32
+M5M  1H5*  .  H  0  ?       ?       ?       0  33
+M5M  2H5*  .  H  0  ?       ?       ?       0  34
+M5M  3HOP  .  H  0  ?       ?       ?       0  35
+M5M  H1*   .  H  0  ?       ?       ?       1  36
+M5M  H6    .  H  0  ?       ?       ?       1  37
+M5M  H5    .  H  0  ?       ?       ?       1  38
+M5M  1HN4  .  H  0  ?       ?       ?       0  39
+M5M  2HN4  .  H  0  ?       ?       ?       0  40
+M5M  2HOP  .  H  0  ?       ?       ?       0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+M5M  P    O5*   SING  1 
+M5M  P    O3P   SING  2 
+M5M  P    O1P   DOUB  3 
+M5M  P    O2P   SING  4 
+M5M  N2*  C6*   SING  5 
+M5M  N2*  C2*   SING  6 
+M5M  N2*  2HN*  SING  7 
+M5M  C6*  C7*   SING  8 
+M5M  C6*  O8*   DOUB  9 
+M5M  C7*  1H7*  SING  10
+M5M  C7*  2H7*  SING  11
+M5M  C7*  3H7*  SING  12
+M5M  O2P  2HOP  SING  13
+M5M  O5*  C5*   SING  14
+M5M  C5*  C4*   SING  15
+M5M  C5*  1H5*  SING  16
+M5M  C5*  2H5*  SING  17
+M5M  C4*  C3*   SING  18
+M5M  C4*  O4*   SING  19
+M5M  C4*  H4*   SING  20
+M5M  O4*  C1*   SING  21
+M5M  C1*  C2*   SING  22
+M5M  C1*  N1    SING  23
+M5M  C1*  H1*   SING  24
+M5M  N1   C6    SING  25
+M5M  N1   C2    SING  26
+M5M  C6   C5    DOUB  27
+M5M  C6   H6    SING  28
+M5M  C2   N3    SING  29
+M5M  C2   O2    DOUB  30
+M5M  N3   C4    DOUB  31
+M5M  C4   C5    SING  32
+M5M  C4   N4    SING  33
+M5M  N4   1HN4  SING  34
+M5M  N4   2HN4  SING  35
+M5M  C5   H5    SING  36
+M5M  C2*  C3*   SING  37
+M5M  C2*  H2*   SING  38
+M5M  C3*  O3*   SING  39
+M5M  C3*  H3*   SING  40
+M5M  O3*  H3T   SING  41
+M5M  O3P  3HOP  SING  42
+#

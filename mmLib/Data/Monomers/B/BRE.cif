@@ -1,0 +1,121 @@
+data_BRE
+#
+_chem_comp.id                   BRE
+_chem_comp.name                 '2-BIPHENYL-4-YL-6-FLUORO-3-METHYL-QUINOLINE-4-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C23 H16 N1 O2 F1'
+_chem_comp.pdbx_synonyms        'BREQUINAR ANALOG'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        357.383
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRE  C1    .  C  0  ?  ?  ?  1  1 
+BRE  C2    .  C  0  ?  ?  ?  1  2 
+BRE  C3    .  C  0  ?  ?  ?  1  3 
+BRE  C4    .  C  0  ?  ?  ?  1  4 
+BRE  N1    .  N  0  ?  ?  ?  1  5 
+BRE  C5    .  C  0  ?  ?  ?  1  6 
+BRE  C23   .  C  0  ?  ?  ?  1  7 
+BRE  C6    .  C  0  ?  ?  ?  1  8 
+BRE  C7    .  C  0  ?  ?  ?  1  9 
+BRE  C8    .  C  0  ?  ?  ?  1  10
+BRE  C9    .  C  0  ?  ?  ?  1  11
+BRE  O1    .  O  0  ?  ?  ?  1  12
+BRE  O2    .  O  0  ?  ?  ?  1  13
+BRE  C10   .  C  0  ?  ?  ?  1  14
+BRE  C11   .  C  0  ?  ?  ?  1  15
+BRE  C12   .  C  0  ?  ?  ?  1  16
+BRE  C13   .  C  0  ?  ?  ?  1  17
+BRE  C14   .  C  0  ?  ?  ?  1  18
+BRE  C15   .  C  0  ?  ?  ?  1  19
+BRE  C16   .  C  0  ?  ?  ?  1  20
+BRE  F1    .  F  0  ?  ?  ?  1  21
+BRE  C17   .  C  0  ?  ?  ?  1  22
+BRE  C18   .  C  0  ?  ?  ?  1  23
+BRE  C19   .  C  0  ?  ?  ?  1  24
+BRE  C20   .  C  0  ?  ?  ?  1  25
+BRE  C21   .  C  0  ?  ?  ?  1  26
+BRE  C22   .  C  0  ?  ?  ?  1  27
+BRE  1H10  .  H  0  ?  ?  ?  0  28
+BRE  1H15  .  H  0  ?  ?  ?  0  29
+BRE  1H11  .  H  0  ?  ?  ?  0  30
+BRE  1H13  .  H  0  ?  ?  ?  0  31
+BRE  1H12  .  H  0  ?  ?  ?  0  32
+BRE  1H19  .  H  0  ?  ?  ?  0  33
+BRE  1H22  .  H  0  ?  ?  ?  0  34
+BRE  1H21  .  H  0  ?  ?  ?  0  35
+BRE  1H20  .  H  0  ?  ?  ?  0  36
+BRE  1H18  .  H  0  ?  ?  ?  0  37
+BRE  HO2   .  H  0  ?  ?  ?  1  38
+BRE  1H1   .  H  0  ?  ?  ?  0  39
+BRE  2H1   .  H  0  ?  ?  ?  0  40
+BRE  3H1   .  H  0  ?  ?  ?  0  41
+BRE  1H9   .  H  0  ?  ?  ?  0  42
+BRE  1H8   .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRE  C1   C2    SING  1 
+BRE  C1   1H1   SING  2 
+BRE  C1   2H1   SING  3 
+BRE  C1   3H1   SING  4 
+BRE  C2   C3    SING  5 
+BRE  C2   C4    DOUB  6 
+BRE  C3   N1    DOUB  7 
+BRE  C3   C23   SING  8 
+BRE  C4   C5    SING  9 
+BRE  C4   C6    SING  10
+BRE  N1   C7    SING  11
+BRE  C5   O1    DOUB  12
+BRE  C5   O2    SING  13
+BRE  C23  C8    DOUB  14
+BRE  C23  C9    SING  15
+BRE  C6   C7    DOUB  16
+BRE  C6   C10   SING  17
+BRE  C7   C11   SING  18
+BRE  C8   C12   SING  19
+BRE  C8   1H8   SING  20
+BRE  C9   C13   DOUB  21
+BRE  C9   1H9   SING  22
+BRE  O2   HO2   SING  23
+BRE  C10  C14   DOUB  24
+BRE  C10  1H10  SING  25
+BRE  C11  C15   DOUB  26
+BRE  C11  1H11  SING  27
+BRE  C12  C16   DOUB  28
+BRE  C12  1H12  SING  29
+BRE  C13  C16   SING  30
+BRE  C13  1H13  SING  31
+BRE  C14  C15   SING  32
+BRE  C14  F1    SING  33
+BRE  C15  1H15  SING  34
+BRE  C16  C17   SING  35
+BRE  C17  C18   DOUB  36
+BRE  C17  C19   SING  37
+BRE  C18  C20   SING  38
+BRE  C18  1H18  SING  39
+BRE  C19  C22   DOUB  40
+BRE  C19  1H19  SING  41
+BRE  C20  C21   DOUB  42
+BRE  C20  1H20  SING  43
+BRE  C21  C22   SING  44
+BRE  C21  1H21  SING  45
+BRE  C22  1H22  SING  46
+#

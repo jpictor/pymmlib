@@ -1,0 +1,77 @@
+data_PPP
+#
+_chem_comp.id                   PPP
+_chem_comp.name                 3-PHENYL-1,2-PROPANDIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H12 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        152.193
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PPP  C1   .  C  0  ?  ?  ?  1  1 
+PPP  C2   .  C  0  ?  ?  ?  1  2 
+PPP  C3   .  C  0  ?  ?  ?  1  3 
+PPP  C1'  .  C  0  ?  ?  ?  1  4 
+PPP  C2'  .  C  0  ?  ?  ?  1  5 
+PPP  C3'  .  C  0  ?  ?  ?  1  6 
+PPP  C4'  .  C  0  ?  ?  ?  1  7 
+PPP  C5'  .  C  0  ?  ?  ?  1  8 
+PPP  C6'  .  C  0  ?  ?  ?  1  9 
+PPP  O1   .  O  0  ?  ?  ?  1  10
+PPP  O2   .  O  0  ?  ?  ?  1  11
+PPP  1H1  .  H  0  ?  ?  ?  0  12
+PPP  2H1  .  H  0  ?  ?  ?  0  13
+PPP  H2   .  H  0  ?  ?  ?  1  14
+PPP  1H3  .  H  0  ?  ?  ?  0  15
+PPP  2H3  .  H  0  ?  ?  ?  0  16
+PPP  H2'  .  H  0  ?  ?  ?  1  17
+PPP  H3'  .  H  0  ?  ?  ?  1  18
+PPP  H4'  .  H  0  ?  ?  ?  1  19
+PPP  H5'  .  H  0  ?  ?  ?  1  20
+PPP  H6'  .  H  0  ?  ?  ?  1  21
+PPP  HO1  .  H  0  ?  ?  ?  1  22
+PPP  HO2  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PPP  C1   C2   SING  1 
+PPP  C1   O1   SING  2 
+PPP  C1   1H1  SING  3 
+PPP  C1   2H1  SING  4 
+PPP  C2   C3   SING  5 
+PPP  C2   O2   SING  6 
+PPP  C2   H2   SING  7 
+PPP  C3   C1'  SING  8 
+PPP  C3   1H3  SING  9 
+PPP  C3   2H3  SING  10
+PPP  C1'  C2'  DOUB  11
+PPP  C1'  C6'  SING  12
+PPP  C2'  C3'  SING  13
+PPP  C2'  H2'  SING  14
+PPP  C3'  C4'  DOUB  15
+PPP  C3'  H3'  SING  16
+PPP  C4'  C5'  SING  17
+PPP  C4'  H4'  SING  18
+PPP  C5'  C6'  DOUB  19
+PPP  C5'  H5'  SING  20
+PPP  C6'  H6'  SING  21
+PPP  O1   HO1  SING  22
+PPP  O2   HO2  SING  23
+#

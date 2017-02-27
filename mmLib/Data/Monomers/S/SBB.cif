@@ -1,0 +1,127 @@
+data_SBB
+#
+_chem_comp.id                   SBB
+_chem_comp.name                 N-[2-(1H-INDOL-5-YL)-BUTYL]-4-SULFAMOYL-BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C19 H21 N3 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        371.453
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SBB  C01   .  C  0  ?  ?  ?  1  1 
+SBB  C02   .  C  0  ?  ?  ?  1  2 
+SBB  C03   .  C  0  ?  ?  ?  1  3 
+SBB  C04   .  C  0  ?  ?  ?  1  4 
+SBB  C05   .  C  0  ?  ?  ?  1  5 
+SBB  C06   .  C  0  ?  ?  ?  1  6 
+SBB  C07   .  C  0  ?  ?  ?  1  7 
+SBB  O08   .  O  0  ?  ?  ?  1  8 
+SBB  N09   .  N  0  ?  ?  ?  1  9 
+SBB  C10   .  C  0  ?  ?  ?  1  10
+SBB  C11   .  C  0  ?  ?  ?  1  11
+SBB  C12   .  C  0  ?  ?  ?  1  12
+SBB  C13   .  C  0  ?  ?  ?  1  13
+SBB  S14   .  S  0  ?  ?  ?  1  14
+SBB  N15   .  N  0  ?  ?  ?  1  15
+SBB  O16   .  O  0  ?  ?  ?  1  16
+SBB  O17   .  O  0  ?  ?  ?  1  17
+SBB  C18   .  C  0  ?  ?  ?  1  18
+SBB  C19   .  C  0  ?  ?  ?  1  19
+SBB  C20   .  C  0  ?  ?  ?  1  20
+SBB  N21   .  N  0  ?  ?  ?  1  21
+SBB  C22   .  C  0  ?  ?  ?  1  22
+SBB  C23   .  C  0  ?  ?  ?  1  23
+SBB  C24   .  C  0  ?  ?  ?  1  24
+SBB  C25   .  C  0  ?  ?  ?  1  25
+SBB  C26   .  C  0  ?  ?  ?  1  26
+SBB  1H15  .  H  0  ?  ?  ?  0  27
+SBB  2H15  .  H  0  ?  ?  ?  0  28
+SBB  HC1   .  H  0  ?  ?  ?  1  29
+SBB  HC2   .  H  0  ?  ?  ?  1  30
+SBB  HC4   .  H  0  ?  ?  ?  1  31
+SBB  HC5   .  H  0  ?  ?  ?  1  32
+SBB  HN9   .  H  0  ?  ?  ?  1  33
+SBB  1H10  .  H  0  ?  ?  ?  0  34
+SBB  2H10  .  H  0  ?  ?  ?  0  35
+SBB  H11   .  H  0  ?  ?  ?  1  36
+SBB  1H12  .  H  0  ?  ?  ?  0  37
+SBB  2H12  .  H  0  ?  ?  ?  0  38
+SBB  1H13  .  H  0  ?  ?  ?  0  39
+SBB  2H13  .  H  0  ?  ?  ?  0  40
+SBB  3H13  .  H  0  ?  ?  ?  0  41
+SBB  H23   .  H  0  ?  ?  ?  1  42
+SBB  H24   .  H  0  ?  ?  ?  1  43
+SBB  H26   .  H  0  ?  ?  ?  1  44
+SBB  H18   .  H  0  ?  ?  ?  1  45
+SBB  H19   .  H  0  ?  ?  ?  1  46
+SBB  H21   .  H  0  ?  ?  ?  1  47
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SBB  C01  C02   AROM  1 
+SBB  C01  C06   AROM  2 
+SBB  C01  HC1   SING  3 
+SBB  C02  C03   AROM  4 
+SBB  C02  HC2   SING  5 
+SBB  C03  C04   AROM  6 
+SBB  C03  S14   SING  7 
+SBB  C04  C05   AROM  8 
+SBB  C04  HC4   SING  9 
+SBB  C05  C06   AROM  10
+SBB  C05  HC5   SING  11
+SBB  C06  C07   SING  12
+SBB  C07  O08   DOUB  13
+SBB  C07  N09   SING  14
+SBB  N09  C10   SING  15
+SBB  N09  HN9   SING  16
+SBB  C10  C11   SING  17
+SBB  C10  1H10  SING  18
+SBB  C10  2H10  SING  19
+SBB  C11  C12   SING  20
+SBB  C11  C25   SING  21
+SBB  C11  H11   SING  22
+SBB  C12  C13   SING  23
+SBB  C12  1H12  SING  24
+SBB  C12  2H12  SING  25
+SBB  C13  1H13  SING  26
+SBB  C13  2H13  SING  27
+SBB  C13  3H13  SING  28
+SBB  S14  N15   SING  29
+SBB  S14  O16   DOUB  30
+SBB  S14  O17   DOUB  31
+SBB  N15  1H15  SING  32
+SBB  N15  2H15  SING  33
+SBB  C18  C19   DOUB  34
+SBB  C18  C20   SING  35
+SBB  C18  H18   SING  36
+SBB  C19  N21   SING  37
+SBB  C19  H19   SING  38
+SBB  C20  C22   AROM  39
+SBB  C20  C23   AROM  40
+SBB  N21  C22   SING  41
+SBB  N21  H21   SING  42
+SBB  C22  C24   AROM  43
+SBB  C23  C25   AROM  44
+SBB  C23  H23   SING  45
+SBB  C24  C26   AROM  46
+SBB  C24  H24   SING  47
+SBB  C25  C26   AROM  48
+SBB  C26  H26   SING  49
+#

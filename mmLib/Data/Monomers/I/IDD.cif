@@ -1,0 +1,106 @@
+data_IDD
+#
+_chem_comp.id                   IDD
+_chem_comp.name                 (5R,6R,7S,8S)-5-(HYDROXYMETHYL)-2-PHENYL-5,6,7,8-TETRAHYDROIMIDAZO[1,2-A]PYRIDINE-6,7,8-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O4'
+_chem_comp.pdbx_synonyms        GLUCO-PHENYLIMIDAZOLE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        276.291
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IDD  C1    .  C  0  27.046  29.563  35.881  1  1 
+IDD  C2    .  C  0  27.587  29.962  37.140  1  2 
+IDD  C3    .  C  0  28.316  31.180  37.243  1  3 
+IDD  C4    .  C  0  28.497  31.989  36.098  1  4 
+IDD  C5    .  C  0  27.958  31.596  34.852  1  5 
+IDD  C6    .  C  0  27.238  30.386  34.745  1  6 
+IDD  C1B   .  C  0  25.349  26.327  36.364  1  7 
+IDD  C2B   .  C  0  24.855  25.160  37.186  1  8 
+IDD  C3B   .  C  0  24.099  24.109  36.331  1  9 
+IDD  C4B   .  C  0  23.396  24.770  35.093  1  10
+IDD  C5B   .  C  0  24.430  25.440  34.179  1  11
+IDD  C6B   .  C  0  23.872  26.105  32.864  1  12
+IDD  O2B   .  O  0  25.945  24.562  37.894  1  13
+IDD  O3B   .  O  0  23.187  23.489  37.186  1  14
+IDD  O4B   .  O  0  22.693  23.745  34.335  1  15
+IDD  N1B   .  N  0  25.158  26.464  35.026  1  16
+IDD  O6B   .  O  0  23.010  27.245  33.141  1  17
+IDD  N2B   .  N  0  26.028  27.380  36.815  1  18
+IDD  C7B   .  C  0  26.293  28.246  35.764  1  19
+IDD  C8B   .  C  0  25.748  27.669  34.664  1  20
+IDD  1H6   .  H  0  ?       ?       ?       0  21
+IDD  1H5   .  H  0  ?       ?       ?       0  22
+IDD  1H4   .  H  0  ?       ?       ?       0  23
+IDD  1H3   .  H  0  ?       ?       ?       0  24
+IDD  1H2   .  H  0  ?       ?       ?       0  25
+IDD  1H8B  .  H  0  ?       ?       ?       0  26
+IDD  1H5B  .  H  0  ?       ?       ?       0  27
+IDD  1H6B  .  H  0  ?       ?       ?       0  28
+IDD  2H6B  .  H  0  ?       ?       ?       0  29
+IDD  1H4B  .  H  0  ?       ?       ?       0  30
+IDD  1H3B  .  H  0  ?       ?       ?       0  31
+IDD  1H2B  .  H  0  ?       ?       ?       0  32
+IDD  1HO2  .  H  0  ?       ?       ?       0  33
+IDD  1HO3  .  H  0  ?       ?       ?       0  34
+IDD  1HO4  .  H  0  ?       ?       ?       0  35
+IDD  1HO6  .  H  0  ?       ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IDD  C1   C2    AROM  1 
+IDD  C1   C6    AROM  2 
+IDD  C1   C7B   SING  3 
+IDD  C2   C3    AROM  4 
+IDD  C2   1H2   SING  5 
+IDD  C3   C4    AROM  6 
+IDD  C3   1H3   SING  7 
+IDD  C4   C5    AROM  8 
+IDD  C4   1H4   SING  9 
+IDD  C5   C6    AROM  10
+IDD  C5   1H5   SING  11
+IDD  C6   1H6   SING  12
+IDD  C1B  C2B   SING  13
+IDD  C1B  N1B   SING  14
+IDD  C1B  N2B   DOUB  15
+IDD  C2B  C3B   SING  16
+IDD  C2B  O2B   SING  17
+IDD  C2B  1H2B  SING  18
+IDD  C3B  C4B   SING  19
+IDD  C3B  O3B   SING  20
+IDD  C3B  1H3B  SING  21
+IDD  C4B  C5B   SING  22
+IDD  C4B  O4B   SING  23
+IDD  C4B  1H4B  SING  24
+IDD  C5B  C6B   SING  25
+IDD  C5B  N1B   SING  26
+IDD  C5B  1H5B  SING  27
+IDD  C6B  O6B   SING  28
+IDD  C6B  1H6B  SING  29
+IDD  C6B  2H6B  SING  30
+IDD  O2B  1HO2  SING  31
+IDD  O3B  1HO3  SING  32
+IDD  O4B  1HO4  SING  33
+IDD  N1B  C8B   SING  34
+IDD  O6B  1HO6  SING  35
+IDD  N2B  C7B   SING  36
+IDD  C7B  C8B   DOUB  37
+IDD  C8B  1H8B  SING  38
+#

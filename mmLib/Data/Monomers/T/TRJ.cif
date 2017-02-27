@@ -1,0 +1,75 @@
+data_TRJ
+#
+_chem_comp.id                   TRJ
+_chem_comp.name                 META-DI(AMINOMETHYL)BENZENE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H12 N2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        136.196
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TRJ  N     .  N  0  ?  ?  ?  1  1 
+TRJ  CA    .  C  0  ?  ?  ?  1  2 
+TRJ  CG    .  C  0  ?  ?  ?  1  3 
+TRJ  CD1   .  C  0  ?  ?  ?  1  4 
+TRJ  CD2   .  C  0  ?  ?  ?  1  5 
+TRJ  CE1   .  C  0  ?  ?  ?  1  6 
+TRJ  CE2   .  C  0  ?  ?  ?  1  7 
+TRJ  CZ    .  C  0  ?  ?  ?  1  8 
+TRJ  CB    .  C  0  ?  ?  ?  1  9 
+TRJ  N2    .  N  0  ?  ?  ?  1  10
+TRJ  1HD2  .  H  0  ?  ?  ?  0  11
+TRJ  1HE2  .  H  0  ?  ?  ?  0  12
+TRJ  1HZ   .  H  0  ?  ?  ?  0  13
+TRJ  1HD1  .  H  0  ?  ?  ?  0  14
+TRJ  1HA   .  H  0  ?  ?  ?  0  15
+TRJ  2HA   .  H  0  ?  ?  ?  0  16
+TRJ  1HN   .  H  0  ?  ?  ?  0  17
+TRJ  2HN   .  H  0  ?  ?  ?  0  18
+TRJ  1HN2  .  H  0  ?  ?  ?  0  19
+TRJ  2HN2  .  H  0  ?  ?  ?  0  20
+TRJ  1HB   .  H  0  ?  ?  ?  0  21
+TRJ  2HB   .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TRJ  N    CA    SING  1 
+TRJ  N    1HN   SING  2 
+TRJ  N    2HN   SING  3 
+TRJ  CA   CG    SING  4 
+TRJ  CA   1HA   SING  5 
+TRJ  CA   2HA   SING  6 
+TRJ  CG   CD1   AROM  7 
+TRJ  CG   CD2   AROM  8 
+TRJ  CD1  CE1   AROM  9 
+TRJ  CD1  1HD1  SING  10
+TRJ  CD2  CE2   AROM  11
+TRJ  CD2  1HD2  SING  12
+TRJ  CE1  CZ    AROM  13
+TRJ  CE1  CB    SING  14
+TRJ  CE2  CZ    AROM  15
+TRJ  CE2  1HE2  SING  16
+TRJ  CZ   1HZ   SING  17
+TRJ  CB   N2    SING  18
+TRJ  CB   1HB   SING  19
+TRJ  CB   2HB   SING  20
+TRJ  N2   1HN2  SING  21
+TRJ  N2   2HN2  SING  22
+#

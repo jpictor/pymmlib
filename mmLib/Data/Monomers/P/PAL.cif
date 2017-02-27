@@ -1,0 +1,82 @@
+data_PAL
+#
+_chem_comp.id                   PAL
+_chem_comp.name                 'N-(PHOSPHONACETYL)-L-ASPARTIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H10 N1 O8 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        255.121
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAL  P     .  P  0  ?  ?  ?  1  1 
+PAL  O1P   .  O  0  ?  ?  ?  1  2 
+PAL  O2P   .  O  0  ?  ?  ?  1  3 
+PAL  O3P   .  O  0  ?  ?  ?  1  4 
+PAL  C1P   .  C  0  ?  ?  ?  1  5 
+PAL  C1    .  C  0  ?  ?  ?  1  6 
+PAL  O1    .  O  0  ?  ?  ?  1  7 
+PAL  N2    .  N  0  ?  ?  ?  1  8 
+PAL  C2    .  C  0  ?  ?  ?  1  9 
+PAL  C4    .  C  0  ?  ?  ?  1  10
+PAL  O2    .  O  0  ?  ?  ?  1  11
+PAL  O3    .  O  0  ?  ?  ?  1  12
+PAL  C3    .  C  0  ?  ?  ?  1  13
+PAL  C5    .  C  0  ?  ?  ?  1  14
+PAL  O4    .  O  0  ?  ?  ?  1  15
+PAL  O5    .  O  0  ?  ?  ?  1  16
+PAL  2HOP  .  H  0  ?  ?  ?  0  17
+PAL  3HOP  .  H  0  ?  ?  ?  0  18
+PAL  1H1P  .  H  0  ?  ?  ?  0  19
+PAL  2H1P  .  H  0  ?  ?  ?  0  20
+PAL  HN2   .  H  0  ?  ?  ?  1  21
+PAL  H2    .  H  0  ?  ?  ?  1  22
+PAL  HO3   .  H  0  ?  ?  ?  1  23
+PAL  1H3   .  H  0  ?  ?  ?  0  24
+PAL  2H3   .  H  0  ?  ?  ?  0  25
+PAL  HO5   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAL  P    O1P   DOUB  1 
+PAL  P    O2P   SING  2 
+PAL  P    O3P   SING  3 
+PAL  P    C1P   SING  4 
+PAL  O2P  2HOP  SING  5 
+PAL  O3P  3HOP  SING  6 
+PAL  C1P  C1    SING  7 
+PAL  C1P  1H1P  SING  8 
+PAL  C1P  2H1P  SING  9 
+PAL  C1   O1    DOUB  10
+PAL  C1   N2    SING  11
+PAL  N2   C2    SING  12
+PAL  N2   HN2   SING  13
+PAL  C2   C4    SING  14
+PAL  C2   C3    SING  15
+PAL  C2   H2    SING  16
+PAL  C4   O2    DOUB  17
+PAL  C4   O3    SING  18
+PAL  O3   HO3   SING  19
+PAL  C3   C5    SING  20
+PAL  C3   1H3   SING  21
+PAL  C3   2H3   SING  22
+PAL  C5   O4    DOUB  23
+PAL  C5   O5    SING  24
+PAL  O5   HO5   SING  25
+#

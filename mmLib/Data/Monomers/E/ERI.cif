@@ -1,0 +1,91 @@
+data_ERI
+#
+_chem_comp.id                   ERI
+_chem_comp.name                 (4O)-ACETOXY-2-DEOXY-3-METHYLFUCOSE
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C9 H16 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        204.222
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ERI  OGL  .  O  0  ?  ?  ?  1  1 
+ERI  C1   .  C  0  ?  ?  ?  1  2 
+ERI  C2   .  C  0  ?  ?  ?  1  3 
+ERI  C3   .  C  0  ?  ?  ?  1  4 
+ERI  O3   .  O  0  ?  ?  ?  1  5 
+ERI  CC3  .  C  0  ?  ?  ?  1  6 
+ERI  C4   .  C  0  ?  ?  ?  1  7 
+ERI  O4   .  O  0  ?  ?  ?  1  8 
+ERI  CME  .  C  0  ?  ?  ?  1  9 
+ERI  CO4  .  C  0  ?  ?  ?  1  10
+ERI  OC4  .  O  0  ?  ?  ?  1  11
+ERI  C5   .  C  0  ?  ?  ?  1  12
+ERI  O1   .  O  0  ?  ?  ?  1  13
+ERI  C6   .  C  0  ?  ?  ?  1  14
+ERI  HOG  .  H  0  ?  ?  ?  1  15
+ERI  H1   .  H  0  ?  ?  ?  1  16
+ERI  1H2  .  H  0  ?  ?  ?  0  17
+ERI  2H2  .  H  0  ?  ?  ?  0  18
+ERI  HO3  .  H  0  ?  ?  ?  1  19
+ERI  1H3  .  H  0  ?  ?  ?  0  20
+ERI  2H3  .  H  0  ?  ?  ?  0  21
+ERI  3H3  .  H  0  ?  ?  ?  0  22
+ERI  H4   .  H  0  ?  ?  ?  1  23
+ERI  1H4  .  H  0  ?  ?  ?  0  24
+ERI  2H4  .  H  0  ?  ?  ?  0  25
+ERI  3H4  .  H  0  ?  ?  ?  0  26
+ERI  H5   .  H  0  ?  ?  ?  1  27
+ERI  1H6  .  H  0  ?  ?  ?  0  28
+ERI  2H6  .  H  0  ?  ?  ?  0  29
+ERI  3H6  .  H  0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ERI  OGL  C1   SING  1 
+ERI  OGL  HOG  SING  2 
+ERI  C1   H1   SING  3 
+ERI  C1   C2   SING  4 
+ERI  C1   O1   SING  5 
+ERI  C2   C3   SING  6 
+ERI  C2   1H2  SING  7 
+ERI  C2   2H2  SING  8 
+ERI  C3   C4   SING  9 
+ERI  C3   CC3  SING  10
+ERI  C3   O3   SING  11
+ERI  O3   HO3  SING  12
+ERI  CC3  1H3  SING  13
+ERI  CC3  2H3  SING  14
+ERI  CC3  3H3  SING  15
+ERI  C4   O4   SING  16
+ERI  C4   C5   SING  17
+ERI  C4   H4   SING  18
+ERI  O4   CO4  SING  19
+ERI  CME  CO4  SING  20
+ERI  CME  1H4  SING  21
+ERI  CME  2H4  SING  22
+ERI  CME  3H4  SING  23
+ERI  CO4  OC4  DOUB  24
+ERI  C5   O1   SING  25
+ERI  C5   C6   SING  26
+ERI  C5   H5   SING  27
+ERI  C6   1H6  SING  28
+ERI  C6   2H6  SING  29
+ERI  C6   3H6  SING  30
+#

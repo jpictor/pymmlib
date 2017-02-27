@@ -1,0 +1,80 @@
+data_DPH
+#
+_chem_comp.id                       DPH
+_chem_comp.name                     DEAMINO-METHYL-PHENYLALANINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C10 H12 O2'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            164.204
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DPH  CM   .  C  0  ?  ?  ?  1  1 
+DPH  CA   .  C  0  ?  ?  ?  1  2 
+DPH  CB   .  C  0  ?  ?  ?  1  3 
+DPH  CG   .  C  0  ?  ?  ?  1  4 
+DPH  CD1  .  C  0  ?  ?  ?  1  5 
+DPH  CD2  .  C  0  ?  ?  ?  1  6 
+DPH  CE1  .  C  0  ?  ?  ?  1  7 
+DPH  CE2  .  C  0  ?  ?  ?  1  8 
+DPH  CZ   .  C  0  ?  ?  ?  1  9 
+DPH  C    .  C  0  ?  ?  ?  1  10
+DPH  O    .  O  0  ?  ?  ?  1  11
+DPH  OXT  .  O  0  ?  ?  ?  1  12
+DPH  1HM  .  H  0  ?  ?  ?  0  13
+DPH  2HM  .  H  0  ?  ?  ?  0  14
+DPH  3HM  .  H  0  ?  ?  ?  0  15
+DPH  HA   .  H  0  ?  ?  ?  1  16
+DPH  1HB  .  H  0  ?  ?  ?  0  17
+DPH  2HB  .  H  0  ?  ?  ?  0  18
+DPH  HD1  .  H  0  ?  ?  ?  1  19
+DPH  HD2  .  H  0  ?  ?  ?  1  20
+DPH  HE1  .  H  0  ?  ?  ?  1  21
+DPH  HE2  .  H  0  ?  ?  ?  1  22
+DPH  HZ   .  H  0  ?  ?  ?  1  23
+DPH  HXT  .  H  0  ?  ?  ?  1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DPH  CM   CA   SING  1 
+DPH  CM   1HM  SING  2 
+DPH  CM   2HM  SING  3 
+DPH  CM   3HM  SING  4 
+DPH  CA   CB   SING  5 
+DPH  CA   C    SING  6 
+DPH  CA   HA   SING  7 
+DPH  CB   CG   SING  8 
+DPH  CB   1HB  SING  9 
+DPH  CB   2HB  SING  10
+DPH  CG   CD1  DOUB  11
+DPH  CG   CD2  SING  12
+DPH  CD1  CE1  SING  13
+DPH  CD1  HD1  SING  14
+DPH  CD2  CE2  DOUB  15
+DPH  CD2  HD2  SING  16
+DPH  CE1  CZ   DOUB  17
+DPH  CE1  HE1  SING  18
+DPH  CE2  CZ   SING  19
+DPH  CE2  HE2  SING  20
+DPH  CZ   HZ   SING  21
+DPH  C    O    DOUB  22
+DPH  C    OXT  SING  23
+DPH  OXT  HXT  SING  24
+#

@@ -1,0 +1,111 @@
+data_GCQ
+#
+_chem_comp.id                   GCQ
+_chem_comp.name                 'GEMCITABINE DIPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H13 N3 O10 F2 P2'
+_chem_comp.pdbx_synonyms        '((2R,3R,5R)-5-(4-AMINO-2-OXOPYRIMIDIN-1(2H)-YL)-4,4-DIFLUORO-3-HYDROXYTETRAHYDROFURAN-2-YL)METHYL TRIHYDROGEN DIPHOSPHATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        423.160
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GCQ  O3B   .  O  0  27.556  53.497  17.439  1  1 
+GCQ  PB    .  P  0  27.583  53.005  16.010  1  2 
+GCQ  O1B   .  O  0  28.940  52.871  15.396  1  3 
+GCQ  O2B   .  O  0  26.730  53.765  15.013  1  4 
+GCQ  O3A   .  O  0  27.176  51.456  16.177  1  5 
+GCQ  PA    .  P  0  26.062  50.482  15.517  1  6 
+GCQ  O1A   .  O  0  26.561  49.141  15.957  1  7 
+GCQ  O2A   .  O  0  25.907  50.681  13.982  1  8 
+GCQ  O5*   .  O  0  24.769  50.856  16.376  1  9 
+GCQ  C5*   .  C  0  23.540  50.189  16.173  1  10
+GCQ  C4*   .  C  0  22.393  50.855  16.925  1  11
+GCQ  C3*   .  C  0  21.191  51.143  16.069  1  12
+GCQ  O3*   .  O  0  20.149  50.235  16.467  1  13
+GCQ  C2*   .  C  0  20.842  52.604  16.294  1  14
+GCQ  F1    .  F  0  19.506  52.698  16.786  1  15
+GCQ  O4*   .  O  0  22.772  52.068  17.632  1  16
+GCQ  C1*   .  C  0  21.848  53.147  17.321  1  17
+GCQ  N1    .  N  0  22.510  54.423  16.806  1  18
+GCQ  C6    .  C  0  23.651  54.422  16.019  1  19
+GCQ  C5    .  C  0  24.237  55.616  15.553  1  20
+GCQ  C4    .  C  0  23.633  56.848  15.907  1  21
+GCQ  N4    .  N  0  24.187  58.015  15.464  1  22
+GCQ  N3    .  N  0  22.500  56.865  16.690  1  23
+GCQ  C2    .  C  0  21.916  55.703  17.152  1  24
+GCQ  O2    .  O  0  20.874  55.747  17.868  1  25
+GCQ  F2    .  F  0  20.837  53.254  15.141  1  26
+GCQ  1HN4  .  H  0  ?       ?       ?       0  27
+GCQ  2HN4  .  H  0  ?       ?       ?       0  28
+GCQ  H5    .  H  0  ?       ?       ?       1  29
+GCQ  H6    .  H  0  ?       ?       ?       1  30
+GCQ  H1*   .  H  0  ?       ?       ?       1  31
+GCQ  H4*   .  H  0  ?       ?       ?       1  32
+GCQ  1H5*  .  H  0  ?       ?       ?       0  33
+GCQ  2H5*  .  H  0  ?       ?       ?       0  34
+GCQ  H1A   .  H  0  ?       ?       ?       1  35
+GCQ  H3B   .  H  0  ?       ?       ?       1  36
+GCQ  H1B   .  H  0  ?       ?       ?       1  37
+GCQ  H3*   .  H  0  ?       ?       ?       1  38
+GCQ  H1    .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GCQ  O3B  PB    SING  1 
+GCQ  O3B  H3B   SING  2 
+GCQ  PB   O3A   SING  3 
+GCQ  PB   O1B   SING  4 
+GCQ  PB   O2B   DOUB  5 
+GCQ  O1B  H1B   SING  6 
+GCQ  O3A  PA    SING  7 
+GCQ  PA   O5*   SING  8 
+GCQ  PA   O1A   SING  9 
+GCQ  PA   O2A   DOUB  10
+GCQ  O1A  H1A   SING  11
+GCQ  O5*  C5*   SING  12
+GCQ  C5*  C4*   SING  13
+GCQ  C5*  1H5*  SING  14
+GCQ  C5*  2H5*  SING  15
+GCQ  C4*  O4*   SING  16
+GCQ  C4*  C3*   SING  17
+GCQ  C4*  H4*   SING  18
+GCQ  C3*  O3*   SING  19
+GCQ  C3*  C2*   SING  20
+GCQ  C3*  H3*   SING  21
+GCQ  O3*  H1    SING  22
+GCQ  C2*  C1*   SING  23
+GCQ  C2*  F1    SING  24
+GCQ  C2*  F2    SING  25
+GCQ  O4*  C1*   SING  26
+GCQ  C1*  N1    SING  27
+GCQ  C1*  H1*   SING  28
+GCQ  N1   C6    SING  29
+GCQ  N1   C2    SING  30
+GCQ  C6   C5    DOUB  31
+GCQ  C6   H6    SING  32
+GCQ  C5   C4    SING  33
+GCQ  C5   H5    SING  34
+GCQ  C4   N4    SING  35
+GCQ  C4   N3    DOUB  36
+GCQ  N4   1HN4  SING  37
+GCQ  N4   2HN4  SING  38
+GCQ  N3   C2    SING  39
+GCQ  C2   O2    DOUB  40
+#

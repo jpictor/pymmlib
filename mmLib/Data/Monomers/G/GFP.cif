@@ -1,0 +1,87 @@
+data_GFP
+#
+_chem_comp.id                   GFP
+_chem_comp.name                 2-DEOXY-2-FLUORO-ALPHA-D-GLUCOSE-1-PHOSPHATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O8 F1 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        262.128
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GFP  C1    .  C  0  ?  ?  ?  1  1 
+GFP  C2    .  C  0  ?  ?  ?  1  2 
+GFP  C3    .  C  0  ?  ?  ?  1  3 
+GFP  C4    .  C  0  ?  ?  ?  1  4 
+GFP  C5    .  C  0  ?  ?  ?  1  5 
+GFP  C6    .  C  0  ?  ?  ?  1  6 
+GFP  O1    .  O  0  ?  ?  ?  1  7 
+GFP  O3    .  O  0  ?  ?  ?  1  8 
+GFP  O4    .  O  0  ?  ?  ?  1  9 
+GFP  O5    .  O  0  ?  ?  ?  1  10
+GFP  O6    .  O  0  ?  ?  ?  1  11
+GFP  F2    .  F  0  ?  ?  ?  1  12
+GFP  P     .  P  0  ?  ?  ?  1  13
+GFP  O1P   .  O  0  ?  ?  ?  1  14
+GFP  O2P   .  O  0  ?  ?  ?  1  15
+GFP  O3P   .  O  0  ?  ?  ?  1  16
+GFP  H1    .  H  0  ?  ?  ?  1  17
+GFP  H2    .  H  0  ?  ?  ?  1  18
+GFP  H3    .  H  0  ?  ?  ?  1  19
+GFP  H4    .  H  0  ?  ?  ?  1  20
+GFP  H5    .  H  0  ?  ?  ?  1  21
+GFP  1H6   .  H  0  ?  ?  ?  0  22
+GFP  2H6   .  H  0  ?  ?  ?  0  23
+GFP  HO3   .  H  0  ?  ?  ?  1  24
+GFP  HO4   .  H  0  ?  ?  ?  1  25
+GFP  HO6   .  H  0  ?  ?  ?  1  26
+GFP  2HOP  .  H  0  ?  ?  ?  0  27
+GFP  3HOP  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GFP  C1   C2    SING  1 
+GFP  C1   O1    SING  2 
+GFP  C1   O5    SING  3 
+GFP  C1   H1    SING  4 
+GFP  C2   C3    SING  5 
+GFP  C2   F2    SING  6 
+GFP  C2   H2    SING  7 
+GFP  C3   C4    SING  8 
+GFP  C3   O3    SING  9 
+GFP  C3   H3    SING  10
+GFP  C4   C5    SING  11
+GFP  C4   O4    SING  12
+GFP  C4   H4    SING  13
+GFP  C5   C6    SING  14
+GFP  C5   O5    SING  15
+GFP  C5   H5    SING  16
+GFP  C6   O6    SING  17
+GFP  C6   1H6   SING  18
+GFP  C6   2H6   SING  19
+GFP  O1   P     SING  20
+GFP  O3   HO3   SING  21
+GFP  O4   HO4   SING  22
+GFP  O6   HO6   SING  23
+GFP  P    O1P   DOUB  24
+GFP  P    O2P   SING  25
+GFP  P    O3P   SING  26
+GFP  O2P  2HOP  SING  27
+GFP  O3P  3HOP  SING  28
+#

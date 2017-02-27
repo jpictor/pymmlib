@@ -1,0 +1,111 @@
+data_P34
+#
+_chem_comp.id                   P34
+_chem_comp.name                 N~2~,N~2~-DIMETHYL-N~1~-(6-OXO-5,6-DIHYDROPHENANTHRIDIN-2-YL)GLYCINAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H17 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        295.340
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P34  CAA   .  C  0  31.888  7.603   18.138  1  1 
+P34  N     .  N  0  32.851  8.717   18.068  1  2 
+P34  CAB   .  C  0  32.886  9.462   19.336  1  3 
+P34  CA    .  C  0  32.525  9.649   16.908  1  4 
+P34  C     .  C  0  31.022  10.021  16.615  1  5 
+P34  O     .  O  0  30.809  10.781  15.649  1  6 
+P34  NAM   .  N  0  29.871  9.562   17.327  1  7 
+P34  CAP   .  C  0  29.351  9.377   18.613  1  8 
+P34  CAK   .  C  0  28.142  8.517   18.614  1  9 
+P34  CAU   .  C  0  27.400  8.156   19.849  1  10
+P34  CAT   .  C  0  26.168  7.312   19.900  1  11
+P34  CAI   .  C  0  25.570  6.707   18.721  1  12
+P34  CAF   .  C  0  24.369  5.876   18.809  1  13
+P34  CAE   .  C  0  23.770  5.612   20.060  1  14
+P34  CAH   .  C  0  24.327  6.179   21.249  1  15
+P34  CAS   .  C  0  25.533  7.005   21.197  1  16
+P34  CAQ   .  C  0  26.074  7.570   22.384  1  17
+P34  OAD   .  O  0  25.596  7.370   23.506  1  18
+P34  NAN   .  N  0  27.265  8.389   22.310  1  19
+P34  CAR   .  C  0  27.922  8.693   21.077  1  20
+P34  CAJ   .  C  0  29.112  9.536   21.115  1  21
+P34  CAG   .  C  0  29.816  9.862   19.881  1  22
+P34  1HAA  .  H  0  ?       ?       ?       0  23
+P34  2HAA  .  H  0  ?       ?       ?       0  24
+P34  3HAA  .  H  0  ?       ?       ?       0  25
+P34  1HAB  .  H  0  ?       ?       ?       0  26
+P34  2HAB  .  H  0  ?       ?       ?       0  27
+P34  3HAB  .  H  0  ?       ?       ?       0  28
+P34  1HA   .  H  0  ?       ?       ?       0  29
+P34  2HA   .  H  0  ?       ?       ?       0  30
+P34  HAM   .  H  0  ?       ?       ?       1  31
+P34  HAG   .  H  0  ?       ?       ?       1  32
+P34  HAJ   .  H  0  ?       ?       ?       1  33
+P34  HAN   .  H  0  ?       ?       ?       1  34
+P34  HAH   .  H  0  ?       ?       ?       1  35
+P34  HAE   .  H  0  ?       ?       ?       1  36
+P34  HAF   .  H  0  ?       ?       ?       1  37
+P34  HAI   .  H  0  ?       ?       ?       1  38
+P34  HAK   .  H  0  ?       ?       ?       1  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P34  CAA  N     SING  1 
+P34  CAA  1HAA  SING  2 
+P34  CAA  2HAA  SING  3 
+P34  CAA  3HAA  SING  4 
+P34  N    CAB   SING  5 
+P34  N    CA    SING  6 
+P34  CAB  1HAB  SING  7 
+P34  CAB  2HAB  SING  8 
+P34  CAB  3HAB  SING  9 
+P34  CA   C     SING  10
+P34  CA   1HA   SING  11
+P34  CA   2HA   SING  12
+P34  C    O     DOUB  13
+P34  C    NAM   SING  14
+P34  NAM  CAP   SING  15
+P34  NAM  HAM   SING  16
+P34  CAP  CAG   DOUB  17
+P34  CAP  CAK   SING  18
+P34  CAK  CAU   DOUB  19
+P34  CAK  HAK   SING  20
+P34  CAU  CAT   SING  21
+P34  CAU  CAR   SING  22
+P34  CAT  CAI   SING  23
+P34  CAT  CAS   DOUB  24
+P34  CAI  CAF   DOUB  25
+P34  CAI  HAI   SING  26
+P34  CAF  CAE   SING  27
+P34  CAF  HAF   SING  28
+P34  CAE  CAH   DOUB  29
+P34  CAE  HAE   SING  30
+P34  CAH  CAS   SING  31
+P34  CAH  HAH   SING  32
+P34  CAS  CAQ   SING  33
+P34  CAQ  NAN   SING  34
+P34  CAQ  OAD   DOUB  35
+P34  NAN  CAR   SING  36
+P34  NAN  HAN   SING  37
+P34  CAR  CAJ   DOUB  38
+P34  CAJ  CAG   SING  39
+P34  CAJ  HAJ   SING  40
+P34  CAG  HAG   SING  41
+#

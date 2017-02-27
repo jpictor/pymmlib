@@ -1,0 +1,104 @@
+data_IIC
+#
+_chem_comp.id                   IIC
+_chem_comp.name                 '4-IMIDAZOLMETHYLENE-5-IMIDAZOLONE CHROMOPHORE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H17 N5 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        267.287
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IIC  C1    .  C  0  ?  ?  ?  1  1 
+IIC  N2    .  N  0  ?  ?  ?  1  2 
+IIC  CA2   .  C  0  ?  ?  ?  1  3 
+IIC  C2    .  C  0  ?  ?  ?  1  4 
+IIC  O2    .  O  0  ?  ?  ?  1  5 
+IIC  N3    .  N  0  ?  ?  ?  1  6 
+IIC  CA1   .  C  0  ?  ?  ?  1  7 
+IIC  N1    .  N  0  ?  ?  ?  1  8 
+IIC  CB1   .  C  0  ?  ?  ?  1  9 
+IIC  OG1   .  O  0  ?  ?  ?  1  10
+IIC  CA3   .  C  0  ?  ?  ?  1  11
+IIC  C3    .  C  0  ?  ?  ?  1  12
+IIC  O3    .  O  0  ?  ?  ?  1  13
+IIC  CB2   .  C  0  ?  ?  ?  1  14
+IIC  CG2   .  C  0  ?  ?  ?  1  15
+IIC  ND1   .  N  0  ?  ?  ?  1  16
+IIC  CE1   .  C  0  ?  ?  ?  1  17
+IIC  NE2   .  N  0  ?  ?  ?  1  18
+IIC  CD2   .  C  0  ?  ?  ?  1  19
+IIC  H1    .  H  0  ?  ?  ?  1  20
+IIC  HA1   .  H  0  ?  ?  ?  1  21
+IIC  1HN1  .  H  0  ?  ?  ?  0  22
+IIC  2HN1  .  H  0  ?  ?  ?  0  23
+IIC  1HB1  .  H  0  ?  ?  ?  0  24
+IIC  2HB1  .  H  0  ?  ?  ?  0  25
+IIC  HOG   .  H  0  ?  ?  ?  1  26
+IIC  1HA3  .  H  0  ?  ?  ?  0  27
+IIC  2HA3  .  H  0  ?  ?  ?  0  28
+IIC  1H3   .  H  0  ?  ?  ?  0  29
+IIC  2H3   .  H  0  ?  ?  ?  0  30
+IIC  HO3   .  H  0  ?  ?  ?  1  31
+IIC  1HB2  .  H  0  ?  ?  ?  0  32
+IIC  2HB2  .  H  0  ?  ?  ?  0  33
+IIC  HND   .  H  0  ?  ?  ?  1  34
+IIC  HE1   .  H  0  ?  ?  ?  1  35
+IIC  HD2   .  H  0  ?  ?  ?  1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IIC  C1   N2    SING  1 
+IIC  C1   N3    SING  2 
+IIC  C1   CA1   SING  3 
+IIC  C1   H1    SING  4 
+IIC  N2   CA2   DOUB  5 
+IIC  CA2  CB2   SING  6 
+IIC  CA2  C2    SING  7 
+IIC  C2   N3    SING  8 
+IIC  C2   O2    DOUB  9 
+IIC  N3   CA3   SING  10
+IIC  CA1  N1    SING  11
+IIC  CA1  CB1   SING  12
+IIC  CA1  HA1   SING  13
+IIC  N1   1HN1  SING  14
+IIC  N1   2HN1  SING  15
+IIC  CB1  OG1   SING  16
+IIC  CB1  1HB1  SING  17
+IIC  CB1  2HB1  SING  18
+IIC  OG1  HOG   SING  19
+IIC  CA3  C3    SING  20
+IIC  CA3  1HA3  SING  21
+IIC  CA3  2HA3  SING  22
+IIC  C3   O3    SING  23
+IIC  C3   1H3   SING  24
+IIC  C3   2H3   SING  25
+IIC  O3   HO3   SING  26
+IIC  CB2  CG2   SING  27
+IIC  CB2  1HB2  SING  28
+IIC  CB2  2HB2  SING  29
+IIC  CG2  ND1   SING  30
+IIC  CG2  CD2   DOUB  31
+IIC  ND1  CE1   SING  32
+IIC  ND1  HND   SING  33
+IIC  CE1  NE2   DOUB  34
+IIC  CE1  HE1   SING  35
+IIC  NE2  CD2   SING  36
+IIC  CD2  HD2   SING  37
+#

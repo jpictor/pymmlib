@@ -1,0 +1,115 @@
+data_IMO
+#
+_chem_comp.id                   IMO
+_chem_comp.name                 '6-O-PHOSPHORYL INOSINE MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N4 O11 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        428.188
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IMO  P     .  P  0  ?  ?  ?  1  1 
+IMO  O1    .  O  0  ?  ?  ?  1  2 
+IMO  C2    .  C  0  ?  ?  ?  1  3 
+IMO  C1'   .  C  0  ?  ?  ?  1  4 
+IMO  C2'   .  C  0  ?  ?  ?  1  5 
+IMO  C3'   .  C  0  ?  ?  ?  1  6 
+IMO  C4'   .  C  0  ?  ?  ?  1  7 
+IMO  C5'   .  C  0  ?  ?  ?  1  8 
+IMO  O2    .  O  0  ?  ?  ?  1  9 
+IMO  O3    .  O  0  ?  ?  ?  1  10
+IMO  PA    .  P  0  ?  ?  ?  1  11
+IMO  O1A   .  O  0  ?  ?  ?  1  12
+IMO  O2A   .  O  0  ?  ?  ?  1  13
+IMO  O3A   .  O  0  ?  ?  ?  1  14
+IMO  O5'   .  O  0  ?  ?  ?  1  15
+IMO  O4'   .  O  0  ?  ?  ?  1  16
+IMO  N9    .  N  0  ?  ?  ?  1  17
+IMO  C4    .  C  0  ?  ?  ?  1  18
+IMO  N3    .  N  0  ?  ?  ?  1  19
+IMO  N1    .  N  0  ?  ?  ?  1  20
+IMO  C6    .  C  0  ?  ?  ?  1  21
+IMO  O6    .  O  0  ?  ?  ?  1  22
+IMO  C5    .  C  0  ?  ?  ?  1  23
+IMO  N7    .  N  0  ?  ?  ?  1  24
+IMO  C8    .  C  0  ?  ?  ?  1  25
+IMO  O2'   .  O  0  ?  ?  ?  1  26
+IMO  O3'   .  O  0  ?  ?  ?  1  27
+IMO  1H5'  .  H  0  ?  ?  ?  0  28
+IMO  2H5'  .  H  0  ?  ?  ?  0  29
+IMO  H4'   .  H  0  ?  ?  ?  1  30
+IMO  H3'   .  H  0  ?  ?  ?  1  31
+IMO  3HO'  .  H  0  ?  ?  ?  0  32
+IMO  H2'   .  H  0  ?  ?  ?  1  33
+IMO  2HO'  .  H  0  ?  ?  ?  0  34
+IMO  H1'   .  H  0  ?  ?  ?  1  35
+IMO  1H8   .  H  0  ?  ?  ?  0  36
+IMO  H2    .  H  0  ?  ?  ?  1  37
+IMO  HO1   .  H  0  ?  ?  ?  1  38
+IMO  HO2   .  H  0  ?  ?  ?  1  39
+IMO  1HOA  .  H  0  ?  ?  ?  0  40
+IMO  2HOA  .  H  0  ?  ?  ?  0  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IMO  P    O1    SING  1 
+IMO  P    O2    SING  2 
+IMO  P    O3    DOUB  3 
+IMO  P    O6    SING  4 
+IMO  O1   HO1   SING  5 
+IMO  C2   N3    DOUB  6 
+IMO  C2   N1    SING  7 
+IMO  C2   H2    SING  8 
+IMO  C1'  C2'   SING  9 
+IMO  C1'  O4'   SING  10
+IMO  C1'  N9    SING  11
+IMO  C1'  H1'   SING  12
+IMO  C2'  C3'   SING  13
+IMO  C2'  O2'   SING  14
+IMO  C2'  H2'   SING  15
+IMO  C3'  C4'   SING  16
+IMO  C3'  O3'   SING  17
+IMO  C3'  H3'   SING  18
+IMO  C4'  C5'   SING  19
+IMO  C4'  O4'   SING  20
+IMO  C4'  H4'   SING  21
+IMO  C5'  O5'   SING  22
+IMO  C5'  1H5'  SING  23
+IMO  C5'  2H5'  SING  24
+IMO  O2   HO2   SING  25
+IMO  PA   O1A   SING  26
+IMO  PA   O2A   SING  27
+IMO  PA   O3A   DOUB  28
+IMO  PA   O5'   SING  29
+IMO  O1A  1HOA  SING  30
+IMO  O2A  2HOA  SING  31
+IMO  N9   C4    SING  32
+IMO  N9   C8    SING  33
+IMO  C4   N3    SING  34
+IMO  C4   C5    DOUB  35
+IMO  N1   C6    DOUB  36
+IMO  C6   O6    SING  37
+IMO  C6   C5    SING  38
+IMO  C5   N7    SING  39
+IMO  N7   C8    DOUB  40
+IMO  C8   1H8   SING  41
+IMO  O2'  2HO'  SING  42
+IMO  O3'  3HO'  SING  43
+#

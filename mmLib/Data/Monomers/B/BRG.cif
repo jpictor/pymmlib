@@ -1,0 +1,64 @@
+data_BRG
+#
+_chem_comp.id                   BRG
+_chem_comp.name                 8-BROMOGUANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H4 N5 O1 BR1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.023
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRG  N9   .  N   0  20.645  23.850  33.932  1  1 
+BRG  C4   .  C   0  20.502  24.039  32.579  1  2 
+BRG  N3   .  N   0  20.432  25.229  31.950  1  3 
+BRG  C2   .  C   0  20.319  25.088  30.640  1  4 
+BRG  N2   .  N   0  20.253  26.175  29.862  1  5 
+BRG  N1   .  N   0  20.267  23.869  29.999  1  6 
+BRG  C6   .  C   0  20.334  22.631  30.630  1  7 
+BRG  O6   .  O   0  20.281  21.594  29.963  1  8 
+BRG  C5   .  C   0  20.464  22.770  32.034  1  9 
+BRG  N7   .  N   0  20.580  21.804  33.025  1  10
+BRG  C8   .  C   0  20.707  22.494  34.124  1  11
+BRG  BR   .  BR  0  20.994  21.677  35.862  0  12
+BRG  H7   .  H   0  ?       ?       ?       1  13
+BRG  H1   .  H   0  ?       ?       ?       1  14
+BRG  1H2  .  H   0  ?       ?       ?       0  15
+BRG  2H2  .  H   0  ?       ?       ?       0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRG  N9  C4   SING  1 
+BRG  N9  C8   DOUB  2 
+BRG  C4  N3   SING  3 
+BRG  C4  C5   DOUB  4 
+BRG  N3  C2   DOUB  5 
+BRG  C2  N2   SING  6 
+BRG  C2  N1   SING  7 
+BRG  N2  1H2  SING  8 
+BRG  N2  2H2  SING  9 
+BRG  N1  C6   SING  10
+BRG  N1  H1   SING  11
+BRG  C6  O6   DOUB  12
+BRG  C6  C5   SING  13
+BRG  C5  N7   SING  14
+BRG  N7  C8   SING  15
+BRG  N7  H7   SING  16
+BRG  C8  BR   SING  17
+#

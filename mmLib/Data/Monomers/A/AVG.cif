@@ -1,0 +1,80 @@
+data_AVG
+#
+_chem_comp.id                   AVG
+_chem_comp.name                 '2-AMINO-4-(2-AMINO-ETHOXY)-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.188
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AVG  O1    .  O  0  ?  ?  ?  1  1 
+AVG  O2    .  O  0  ?  ?  ?  1  2 
+AVG  C1    .  C  0  ?  ?  ?  1  3 
+AVG  C2    .  C  0  ?  ?  ?  1  4 
+AVG  N1    .  N  0  ?  ?  ?  1  5 
+AVG  C3    .  C  0  ?  ?  ?  1  6 
+AVG  C4    .  C  0  ?  ?  ?  1  7 
+AVG  O3    .  O  0  ?  ?  ?  1  8 
+AVG  C5    .  C  0  ?  ?  ?  1  9 
+AVG  C6    .  C  0  ?  ?  ?  1  10
+AVG  N2    .  N  0  ?  ?  ?  1  11
+AVG  HC2   .  H  0  ?  ?  ?  1  12
+AVG  1HC3  .  H  0  ?  ?  ?  0  13
+AVG  2HC3  .  H  0  ?  ?  ?  0  14
+AVG  1HC4  .  H  0  ?  ?  ?  0  15
+AVG  2HC4  .  H  0  ?  ?  ?  0  16
+AVG  1HC5  .  H  0  ?  ?  ?  0  17
+AVG  2HC5  .  H  0  ?  ?  ?  0  18
+AVG  1HC6  .  H  0  ?  ?  ?  0  19
+AVG  2HC6  .  H  0  ?  ?  ?  0  20
+AVG  1HN2  .  H  0  ?  ?  ?  0  21
+AVG  2HN2  .  H  0  ?  ?  ?  0  22
+AVG  1HN1  .  H  0  ?  ?  ?  0  23
+AVG  2HN1  .  H  0  ?  ?  ?  0  24
+AVG  HO1   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AVG  O1  C1    SING  1 
+AVG  O1  HO1   SING  2 
+AVG  O2  C1    DOUB  3 
+AVG  C1  C2    SING  4 
+AVG  C2  N1    SING  5 
+AVG  C2  C3    SING  6 
+AVG  C2  HC2   SING  7 
+AVG  N1  1HN1  SING  8 
+AVG  N1  2HN1  SING  9 
+AVG  C3  C4    SING  10
+AVG  C3  1HC3  SING  11
+AVG  C3  2HC3  SING  12
+AVG  C4  O3    SING  13
+AVG  C4  1HC4  SING  14
+AVG  C4  2HC4  SING  15
+AVG  O3  C5    SING  16
+AVG  C5  C6    SING  17
+AVG  C5  1HC5  SING  18
+AVG  C5  2HC5  SING  19
+AVG  C6  N2    SING  20
+AVG  C6  1HC6  SING  21
+AVG  C6  2HC6  SING  22
+AVG  N2  1HN2  SING  23
+AVG  N2  2HN2  SING  24
+#

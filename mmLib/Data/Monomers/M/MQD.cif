@@ -1,0 +1,76 @@
+data_MQD
+#
+_chem_comp.id                   MQD
+_chem_comp.name                 2-METHYLPENTANE-1,2,4-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        134.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MQD  C1    .  C  0  64.434  52.651  1.095   1  1 
+MQD  C2    .  C  0  63.017  52.227  .71     1  2 
+MQD  O2    .  O  0  62.457  51.364  1.738   1  3 
+MQD  CM    .  C  0  62.111  53.443  .454    1  4 
+MQD  C3    .  C  0  62.991  51.379  -.536   1  5 
+MQD  C4    .  C  0  63.105  52.193  -1.841  1  6 
+MQD  O4    .  O  0  64.422  52.739  -1.971  1  7 
+MQD  C5    .  C  0  62.858  51.23   -2.998  1  8 
+MQD  O6    .  O  0  60.733  53.103  .7      1  9 
+MQD  1H1C  .  H  0  65.052  51.757  1.263   0  10
+MQD  2H1C  .  H  0  64.87   53.251  .283    0  11
+MQD  3H1C  .  H  0  64.399  53.251  2.016   0  12
+MQD  H2    .  H  0  61.468  51.399  1.696   1  13
+MQD  1HMC  .  H  0  62.407  54.263  1.124   0  14
+MQD  2HMC  .  H  0  62.22   53.755  -.595   0  15
+MQD  1H3C  .  H  0  63.833  50.672  -.493   0  16
+MQD  2H3C  .  H  0  62.016  50.869  -.558   0  17
+MQD  H6    .  H  0  60.634  52.118  .718    1  18
+MQD  H4    .  H  0  62.379  53.019  -1.838  1  19
+MQD  HA    .  H  0  65.08   52.002  -2.036  1  20
+MQD  1H5C  .  H  0  61.775  51.106  -3.148  0  21
+MQD  2H5C  .  H  0  63.31   51.635  -3.915  0  22
+MQD  3H5C  .  H  0  63.31   50.255  -2.766  0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MQD  C1  C2    SING  1 
+MQD  C1  1H1C  SING  2 
+MQD  C1  2H1C  SING  3 
+MQD  C1  3H1C  SING  4 
+MQD  C2  O2    SING  5 
+MQD  C2  CM    SING  6 
+MQD  C2  C3    SING  7 
+MQD  O2  H2    SING  8 
+MQD  CM  O6    SING  9 
+MQD  CM  1HMC  SING  10
+MQD  CM  2HMC  SING  11
+MQD  C3  C4    SING  12
+MQD  C3  1H3C  SING  13
+MQD  C3  2H3C  SING  14
+MQD  C4  O4    SING  15
+MQD  C4  C5    SING  16
+MQD  C4  H4    SING  17
+MQD  O4  HA    SING  18
+MQD  C5  1H5C  SING  19
+MQD  C5  2H5C  SING  20
+MQD  C5  3H5C  SING  21
+MQD  O6  H6    SING  22
+#

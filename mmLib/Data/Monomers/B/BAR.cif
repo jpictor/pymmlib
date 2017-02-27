@@ -1,0 +1,88 @@
+data_BAR
+#
+_chem_comp.id                   BAR
+_chem_comp.name                 '8-HYDROXY-2-OXA-BICYCLO[3.3.1]NON-6-ENE-3,5-DICARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        228.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BAR  C'   .  C  0  ?  ?  ?  1  1 
+BAR  C1   .  C  0  ?  ?  ?  1  2 
+BAR  C2   .  C  0  ?  ?  ?  1  3 
+BAR  C3   .  C  0  ?  ?  ?  1  4 
+BAR  C4   .  C  0  ?  ?  ?  1  5 
+BAR  C5   .  C  0  ?  ?  ?  1  6 
+BAR  C6   .  C  0  ?  ?  ?  1  7 
+BAR  C7   .  C  0  ?  ?  ?  1  8 
+BAR  C8   .  C  0  ?  ?  ?  1  9 
+BAR  C9   .  C  0  ?  ?  ?  1  10
+BAR  O1   .  O  0  ?  ?  ?  1  11
+BAR  O2   .  O  0  ?  ?  ?  1  12
+BAR  O3   .  O  0  ?  ?  ?  1  13
+BAR  O4   .  O  0  ?  ?  ?  1  14
+BAR  O5   .  O  0  ?  ?  ?  1  15
+BAR  O'   .  O  0  ?  ?  ?  1  16
+BAR  H'   .  H  0  ?  ?  ?  1  17
+BAR  H1   .  H  0  ?  ?  ?  1  18
+BAR  1H3  .  H  0  ?  ?  ?  0  19
+BAR  2H3  .  H  0  ?  ?  ?  0  20
+BAR  H4   .  H  0  ?  ?  ?  1  21
+BAR  H5   .  H  0  ?  ?  ?  1  22
+BAR  1H6  .  H  0  ?  ?  ?  0  23
+BAR  2H6  .  H  0  ?  ?  ?  0  24
+BAR  H7   .  H  0  ?  ?  ?  1  25
+BAR  HO1  .  H  0  ?  ?  ?  1  26
+BAR  HO3  .  H  0  ?  ?  ?  1  27
+BAR  HO5  .  H  0  ?  ?  ?  1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BAR  C'  C1   DOUB  1 
+BAR  C'  C4   SING  2 
+BAR  C'  H'   SING  3 
+BAR  C1  C2   SING  4 
+BAR  C1  H1   SING  5 
+BAR  C2  C3   SING  6 
+BAR  C2  C6   SING  7 
+BAR  C2  C8   SING  8 
+BAR  C3  C5   SING  9 
+BAR  C3  1H3  SING  10
+BAR  C3  2H3  SING  11
+BAR  C4  C5   SING  12
+BAR  C4  O1   SING  13
+BAR  C4  H4   SING  14
+BAR  C5  O'   SING  15
+BAR  C5  H5   SING  16
+BAR  C6  C7   SING  17
+BAR  C6  1H6  SING  18
+BAR  C6  2H6  SING  19
+BAR  C7  C9   SING  20
+BAR  C7  O'   SING  21
+BAR  C7  H7   SING  22
+BAR  C8  O4   DOUB  23
+BAR  C8  O5   SING  24
+BAR  C9  O2   DOUB  25
+BAR  C9  O3   SING  26
+BAR  O1  HO1  SING  27
+BAR  O3  HO3  SING  28
+BAR  O5  HO5  SING  29
+#

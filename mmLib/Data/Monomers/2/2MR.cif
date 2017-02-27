@@ -1,0 +1,95 @@
+data_2MR
+#
+_chem_comp.id                       2MR
+_chem_comp.name                     'N3, N4-DIMETHYLARGININE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H18 N4 O2'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            202.256
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2MR  N     .  N  0  ?  ?  ?  1  1 
+2MR  CA    .  C  0  ?  ?  ?  1  2 
+2MR  CB    .  C  0  ?  ?  ?  1  3 
+2MR  CG    .  C  0  ?  ?  ?  1  4 
+2MR  CD    .  C  0  ?  ?  ?  1  5 
+2MR  NE    .  N  0  ?  ?  ?  1  6 
+2MR  CZ    .  C  0  ?  ?  ?  1  7 
+2MR  NH1   .  N  0  ?  ?  ?  1  8 
+2MR  CQ1   .  C  0  ?  ?  ?  1  9 
+2MR  NH2   .  N  0  ?  ?  ?  1  10
+2MR  CQ2   .  C  0  ?  ?  ?  1  11
+2MR  C     .  C  0  ?  ?  ?  1  12
+2MR  O     .  O  0  ?  ?  ?  1  13
+2MR  OXT   .  O  0  ?  ?  ?  1  14
+2MR  HXT   .  H  0  ?  ?  ?  1  15
+2MR  HA    .  H  0  ?  ?  ?  1  16
+2MR  H     .  H  0  ?  ?  ?  1  17
+2MR  HN2   .  H  0  ?  ?  ?  1  18
+2MR  1HB   .  H  0  ?  ?  ?  0  19
+2MR  2HB   .  H  0  ?  ?  ?  0  20
+2MR  1HG   .  H  0  ?  ?  ?  0  21
+2MR  2HG   .  H  0  ?  ?  ?  0  22
+2MR  1HD   .  H  0  ?  ?  ?  0  23
+2MR  2HD   .  H  0  ?  ?  ?  0  24
+2MR  HE    .  H  0  ?  ?  ?  1  25
+2MR  1HH2  .  H  0  ?  ?  ?  0  26
+2MR  1HQ1  .  H  0  ?  ?  ?  0  27
+2MR  2HQ1  .  H  0  ?  ?  ?  0  28
+2MR  3HQ1  .  H  0  ?  ?  ?  0  29
+2MR  1HQ2  .  H  0  ?  ?  ?  0  30
+2MR  2HQ2  .  H  0  ?  ?  ?  0  31
+2MR  3HQ2  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2MR  N    CA    SING  1 
+2MR  N    H     SING  2 
+2MR  N    HN2   SING  3 
+2MR  CA   CB    SING  4 
+2MR  CA   C     SING  5 
+2MR  CA   HA    SING  6 
+2MR  CB   CG    SING  7 
+2MR  CB   1HB   SING  8 
+2MR  CB   2HB   SING  9 
+2MR  CG   CD    SING  10
+2MR  CG   1HG   SING  11
+2MR  CG   2HG   SING  12
+2MR  CD   NE    SING  13
+2MR  CD   1HD   SING  14
+2MR  CD   2HD   SING  15
+2MR  NE   CZ    SING  16
+2MR  NE   HE    SING  17
+2MR  CZ   NH1   DOUB  18
+2MR  CZ   NH2   SING  19
+2MR  NH1  CQ1   SING  20
+2MR  CQ1  1HQ1  SING  21
+2MR  CQ1  2HQ1  SING  22
+2MR  CQ1  3HQ1  SING  23
+2MR  NH2  CQ2   SING  24
+2MR  NH2  1HH2  SING  25
+2MR  CQ2  1HQ2  SING  26
+2MR  CQ2  2HQ2  SING  27
+2MR  CQ2  3HQ2  SING  28
+2MR  C    O     DOUB  29
+2MR  C    OXT   SING  30
+2MR  OXT  HXT   SING  31
+#

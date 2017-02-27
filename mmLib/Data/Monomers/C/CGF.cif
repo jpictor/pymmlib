@@ -1,0 +1,89 @@
+data_CGF
+#
+_chem_comp.id                   CGF
+_chem_comp.name                 'C-(1-AZIDO-ALPHA-D-GLUCOPYRANOSYL) FORMAMIDE'
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H12 N4 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        248.195
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CGF  O5    .  O  0   33.623  21.306  27.844  1  1 
+CGF  C1    .  C  0   33.919  22.737  27.506  1  2 
+CGF  C7    .  C  0   32.868  23.712  28.190  1  3 
+CGF  N7    .  N  0   32.630  23.574  29.466  1  4 
+CGF  O7    .  O  0   32.298  24.555  27.574  1  5 
+CGF  N1    .  N  0   35.198  23.137  28.086  1  6 
+CGF  N2    .  N  1   35.425  23.041  29.257  1  7 
+CGF  N3    .  N  -1  35.623  22.908  30.417  1  8 
+CGF  C2    .  C  0   34.095  22.962  25.957  1  9 
+CGF  O2    .  O  0   34.374  24.322  25.641  1  10
+CGF  C3    .  C  0   32.777  22.469  25.225  1  11
+CGF  O3    .  O  0   32.915  22.652  23.788  1  12
+CGF  C4    .  C  0   32.525  20.957  25.624  1  13
+CGF  O4    .  O  0   31.336  20.543  24.948  1  14
+CGF  C5    .  C  0   32.378  20.839  27.243  1  15
+CGF  C6    .  C  0   32.151  19.373  27.690  1  16
+CGF  O6    .  O  0   33.206  18.586  27.133  1  17
+CGF  HO6   .  H  0   ?       ?       ?       1  18
+CGF  1H6   .  H  0   ?       ?       ?       0  19
+CGF  2H6   .  H  0   ?       ?       ?       0  20
+CGF  H5    .  H  0   ?       ?       ?       1  21
+CGF  1HN7  .  H  0   ?       ?       ?       0  22
+CGF  2HN7  .  H  0   ?       ?       ?       0  23
+CGF  H2    .  H  0   ?       ?       ?       1  24
+CGF  HO2   .  H  0   ?       ?       ?       1  25
+CGF  H3    .  H  0   ?       ?       ?       1  26
+CGF  HO3   .  H  0   ?       ?       ?       1  27
+CGF  H4    .  H  0   ?       ?       ?       1  28
+CGF  HO4   .  H  0   ?       ?       ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CGF  O5  C5    SING  1 
+CGF  O5  C1    SING  2 
+CGF  C1  N1    SING  3 
+CGF  C1  C7    SING  4 
+CGF  C1  C2    SING  5 
+CGF  C7  O7    DOUB  6 
+CGF  C7  N7    SING  7 
+CGF  N7  1HN7  SING  8 
+CGF  N7  2HN7  SING  9 
+CGF  N1  N2    DOUB  10
+CGF  N2  N3    DOUB  11
+CGF  C2  H2    SING  12
+CGF  C2  O2    SING  13
+CGF  C2  C3    SING  14
+CGF  O2  HO2   SING  15
+CGF  C3  H3    SING  16
+CGF  C3  O3    SING  17
+CGF  C3  C4    SING  18
+CGF  O3  HO3   SING  19
+CGF  C4  C5    SING  20
+CGF  C4  H4    SING  21
+CGF  C4  O4    SING  22
+CGF  O4  HO4   SING  23
+CGF  C5  C6    SING  24
+CGF  C5  H5    SING  25
+CGF  C6  O6    SING  26
+CGF  C6  1H6   SING  27
+CGF  C6  2H6   SING  28
+CGF  O6  HO6   SING  29
+#

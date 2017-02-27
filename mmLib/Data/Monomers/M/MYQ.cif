@@ -1,0 +1,61 @@
+data_MYQ
+#
+_chem_comp.id                   MYQ
+_chem_comp.name                 (S)-(1,2-DICARBOXYETHYLTHIO)GOLD
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H5 O4 AU1 S1'
+_chem_comp.pdbx_synonyms        MYOCRISIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        346.108
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MYQ  S    .  S   0  29.154  55.978  64.476  1  1 
+MYQ  O1   .  O   0  32.426  55.729  64.162  1  2 
+MYQ  O2   .  O   0  32.557  53.640  64.844  1  3 
+MYQ  O3   .  O   0  30.288  51.147  63.535  1  4 
+MYQ  O4   .  O   0  31.022  52.820  62.235  1  5 
+MYQ  C1   .  C   0  31.805  54.658  64.559  1  6 
+MYQ  C2   .  C   0  30.328  54.639  64.731  1  7 
+MYQ  C3   .  C   0  29.669  53.329  64.279  1  8 
+MYQ  C4   .  C   0  30.371  52.385  63.310  1  9 
+MYQ  AU   .  AU  0  30.253  58.189  64.077  0  10
+MYQ  HO3  .  H   0  ?       ?       ?       1  11
+MYQ  1H3  .  H   0  ?       ?       ?       0  12
+MYQ  2H3  .  H   0  ?       ?       ?       0  13
+MYQ  H2   .  H   0  ?       ?       ?       1  14
+MYQ  HO2  .  H   0  ?       ?       ?       1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MYQ  S   C2   SING  1 
+MYQ  S   AU   SING  2 
+MYQ  O1  C1   DOUB  3 
+MYQ  O2  C1   SING  4 
+MYQ  O2  HO2  SING  5 
+MYQ  O3  HO3  SING  6 
+MYQ  O3  C4   SING  7 
+MYQ  O4  C4   DOUB  8 
+MYQ  C1  C2   SING  9 
+MYQ  C2  C3   SING  10
+MYQ  C2  H2   SING  11
+MYQ  C3  C4   SING  12
+MYQ  C3  1H3  SING  13
+MYQ  C3  2H3  SING  14
+#

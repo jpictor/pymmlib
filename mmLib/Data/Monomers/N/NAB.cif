@@ -1,0 +1,101 @@
+data_NAB
+#
+_chem_comp.id                   NAB
+_chem_comp.name                 '2-((4'-HYDROXYNAPHTHYL)-AZO)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        292.293
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NAB  C1    .  C  0  ?  ?  ?  1  1 
+NAB  C2    .  C  0  ?  ?  ?  1  2 
+NAB  C3    .  C  0  ?  ?  ?  1  3 
+NAB  C4    .  C  0  ?  ?  ?  1  4 
+NAB  C5    .  C  0  ?  ?  ?  1  5 
+NAB  C6    .  C  0  ?  ?  ?  1  6 
+NAB  C1'   .  C  0  ?  ?  ?  1  7 
+NAB  C2'   .  C  0  ?  ?  ?  1  8 
+NAB  C3'   .  C  0  ?  ?  ?  1  9 
+NAB  C4'   .  C  0  ?  ?  ?  1  10
+NAB  C4A   .  C  0  ?  ?  ?  1  11
+NAB  C5'   .  C  0  ?  ?  ?  1  12
+NAB  C6'   .  C  0  ?  ?  ?  1  13
+NAB  C7'   .  C  0  ?  ?  ?  1  14
+NAB  C8'   .  C  0  ?  ?  ?  1  15
+NAB  C8A   .  C  0  ?  ?  ?  1  16
+NAB  C     .  C  0  ?  ?  ?  1  17
+NAB  N1    .  N  0  ?  ?  ?  1  18
+NAB  N1'   .  N  0  ?  ?  ?  1  19
+NAB  O     .  O  0  ?  ?  ?  1  20
+NAB  OXT   .  O  0  ?  ?  ?  1  21
+NAB  O4'   .  O  0  ?  ?  ?  1  22
+NAB  H3    .  H  0  ?  ?  ?  1  23
+NAB  H4    .  H  0  ?  ?  ?  1  24
+NAB  H5    .  H  0  ?  ?  ?  1  25
+NAB  H6    .  H  0  ?  ?  ?  1  26
+NAB  H2'   .  H  0  ?  ?  ?  1  27
+NAB  H3'   .  H  0  ?  ?  ?  1  28
+NAB  H5'   .  H  0  ?  ?  ?  1  29
+NAB  H6'   .  H  0  ?  ?  ?  1  30
+NAB  H7'   .  H  0  ?  ?  ?  1  31
+NAB  H8'   .  H  0  ?  ?  ?  1  32
+NAB  HXT   .  H  0  ?  ?  ?  1  33
+NAB  'HO4  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NAB  C1   C2    SING  1 
+NAB  C1   C6    DOUB  2 
+NAB  C1   N1    SING  3 
+NAB  C2   C3    DOUB  4 
+NAB  C2   C     SING  5 
+NAB  C3   C4    SING  6 
+NAB  C3   H3    SING  7 
+NAB  C4   C5    DOUB  8 
+NAB  C4   H4    SING  9 
+NAB  C5   C6    SING  10
+NAB  C5   H5    SING  11
+NAB  C6   H6    SING  12
+NAB  C1'  C2'   SING  13
+NAB  C1'  C8A   DOUB  14
+NAB  C1'  N1'   SING  15
+NAB  C2'  C3'   DOUB  16
+NAB  C2'  H2'   SING  17
+NAB  C3'  C4'   SING  18
+NAB  C3'  H3'   SING  19
+NAB  C4'  C4A   DOUB  20
+NAB  C4'  O4'   SING  21
+NAB  C4A  C5'   SING  22
+NAB  C4A  C8A   SING  23
+NAB  C5'  C6'   DOUB  24
+NAB  C5'  H5'   SING  25
+NAB  C6'  C7'   SING  26
+NAB  C6'  H6'   SING  27
+NAB  C7'  C8'   DOUB  28
+NAB  C7'  H7'   SING  29
+NAB  C8'  C8A   SING  30
+NAB  C8'  H8'   SING  31
+NAB  C    O     DOUB  32
+NAB  C    OXT   SING  33
+NAB  N1   N1'   DOUB  34
+NAB  OXT  HXT   SING  35
+NAB  O4'  'HO4  SING  36
+#

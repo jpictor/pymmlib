@@ -1,0 +1,72 @@
+data_NNS
+#
+_chem_comp.id                   NNS
+_chem_comp.name                 4-ACETYL-AMINOPHENOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O2'
+_chem_comp.pdbx_synonyms        PARACETAMOL
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.165
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NNS  C    .  C  0  ?  ?  ?  1  1 
+NNS  C1   .  C  0  ?  ?  ?  1  2 
+NNS  C2   .  C  0  ?  ?  ?  1  3 
+NNS  C3   .  C  0  ?  ?  ?  1  4 
+NNS  C4   .  C  0  ?  ?  ?  1  5 
+NNS  O    .  O  0  ?  ?  ?  1  6 
+NNS  C5   .  C  0  ?  ?  ?  1  7 
+NNS  C6   .  C  0  ?  ?  ?  1  8 
+NNS  N    .  N  0  ?  ?  ?  1  9 
+NNS  C7   .  C  0  ?  ?  ?  1  10
+NNS  O1   .  O  0  ?  ?  ?  1  11
+NNS  1H1  .  H  0  ?  ?  ?  0  12
+NNS  2H1  .  H  0  ?  ?  ?  0  13
+NNS  3H1  .  H  0  ?  ?  ?  0  14
+NNS  H1   .  H  0  ?  ?  ?  1  15
+NNS  H2   .  H  0  ?  ?  ?  1  16
+NNS  H3   .  H  0  ?  ?  ?  1  17
+NNS  H4   .  H  0  ?  ?  ?  1  18
+NNS  H5   .  H  0  ?  ?  ?  1  19
+NNS  H6   .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NNS  C   C7   SING  1 
+NNS  C   1H1  SING  2 
+NNS  C   2H1  SING  3 
+NNS  C   3H1  SING  4 
+NNS  C1  C2   DOUB  5 
+NNS  C1  C6   SING  6 
+NNS  C1  N    SING  7 
+NNS  C2  C3   SING  8 
+NNS  C2  H2   SING  9 
+NNS  C3  C4   DOUB  10
+NNS  C3  H3   SING  11
+NNS  C4  O    SING  12
+NNS  C4  C5   SING  13
+NNS  O   H4   SING  14
+NNS  C5  C6   DOUB  15
+NNS  C5  H5   SING  16
+NNS  C6  H6   SING  17
+NNS  N   C7   SING  18
+NNS  N   H1   SING  19
+NNS  C7  O1   DOUB  20
+#

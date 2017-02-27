@@ -1,0 +1,107 @@
+data_EAB
+#
+_chem_comp.id                   EAB
+_chem_comp.name                 '(3-{(E)-[3-(AMINOMETHYL)PHENYL]DIAZENYL}PHENYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H15 N3 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        269.302
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+EAB  N    .  N  0  17.180  4.332  0.463   1  N  N  N  1 
+EAB  CA   .  C  0  17.695  4.662  -0.857  1  N  N  N  2 
+EAB  CB   .  C  0  17.015  3.867  -1.957  1  Y  N  N  3 
+EAB  CG2  .  C  0  17.675  2.751  -2.500  1  Y  N  N  4 
+EAB  CD2  .  C  0  17.038  1.956  -3.466  1  Y  N  N  5 
+EAB  CE   .  C  0  15.751  2.291  -3.917  1  Y  N  N  6 
+EAB  CD1  .  C  0  15.115  3.446  -3.433  1  Y  N  N  7 
+EAB  CG1  .  C  0  15.737  4.226  -2.434  1  Y  N  N  8 
+EAB  NG   .  N  0  13.879  3.780  -3.969  1  N  N  N  9 
+EAB  NI   .  N  0  13.399  4.745  -4.172  1  N  N  N  10
+EAB  CI   .  C  0  12.167  5.066  -4.724  1  Y  N  N  11
+EAB  CJ2  .  C  0  11.107  4.139  -4.744  1  Y  N  N  12
+EAB  CK2  .  C  0  9.897   4.484  -5.370  1  Y  N  N  13
+EAB  CL   .  C  0  9.731   5.742  -5.961  1  Y  N  N  14
+EAB  CK1  .  C  0  10.792  6.664  -5.948  1  Y  N  N  15
+EAB  CJ1  .  C  0  12.008  6.325  -5.330  1  Y  N  N  16
+EAB  CM   .  C  0  10.616  8.023  -6.583  1  N  N  N  17
+EAB  C    .  C  0  9.607   8.877  -5.809  1  N  N  N  18
+EAB  O    .  O  0  9.783   9.146  -4.615  1  N  N  N  19
+EAB  OXT  .  O  0  8.570   9.417  -6.443  1  N  N  Y  20
+EAB  HXT  .  H  0  ?       ?      ?       1  N  N  N  21
+EAB  3HM  .  H  0  10.303  7.851  -7.613  0  N  N  N  22
+EAB  2HM  .  H  0  11.574  8.539  -6.598  0  N  N  N  23
+EAB  HL   .  H  0  8.773   5.980  -6.404  1  N  N  N  24
+EAB  HK2  .  H  0  9.070   3.793  -5.390  1  N  N  N  25
+EAB  HJ2  .  H  0  11.202  3.165  -4.280  1  N  N  N  26
+EAB  HG1  .  H  0  15.226  5.081  -2.018  1  N  N  N  27
+EAB  HG2  .  H  0  18.660  2.484  -2.144  1  N  N  N  28
+EAB  HD2  .  H  0  17.527  1.071  -3.845  1  N  N  N  29
+EAB  HE   .  H  0  15.255  1.666  -4.643  1  N  N  N  30
+EAB  2HA  .  H  0  17.533  5.722  -1.058  0  N  N  N  31
+EAB  3HA  .  H  0  18.763  4.455  -0.887  0  N  N  N  32
+EAB  1HN  .  H  0  16.638  5.054  0.931   0  N  N  N  33
+EAB  2HN  .  H  0  ?       ?      ?       0  N  N  N  34
+EAB  HJ1  .  H  0  12.815  7.041  -5.332  1  N  N  N  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+EAB  N    CA   SING  N  N  1 
+EAB  N    1HN  SING  N  N  2 
+EAB  N    2HN  SING  N  N  3 
+EAB  CA   CB   SING  N  N  4 
+EAB  CA   2HA  SING  N  N  5 
+EAB  CA   3HA  SING  N  N  6 
+EAB  CB   CG1  SING  Y  N  7 
+EAB  CB   CG2  DOUB  Y  N  8 
+EAB  CG2  HG2  SING  N  N  9 
+EAB  CG2  CD2  SING  Y  N  10
+EAB  CD2  HD2  SING  N  N  11
+EAB  CD2  CE   DOUB  Y  N  12
+EAB  CE   CD1  SING  Y  N  13
+EAB  CE   HE   SING  N  N  14
+EAB  CD1  NG   SING  N  N  15
+EAB  CD1  CG1  DOUB  Y  N  16
+EAB  CG1  HG1  SING  N  N  17
+EAB  NG   NI   DOUB  N  N  18
+EAB  NI   CI   SING  N  N  19
+EAB  CI   CJ2  SING  Y  N  20
+EAB  CI   CJ1  DOUB  Y  N  21
+EAB  CJ2  CK2  DOUB  Y  N  22
+EAB  CJ2  HJ2  SING  N  N  23
+EAB  CK2  CL   SING  Y  N  24
+EAB  CK2  HK2  SING  N  N  25
+EAB  CL   CK1  DOUB  Y  N  26
+EAB  CL   HL   SING  N  N  27
+EAB  CK1  CM   SING  N  N  28
+EAB  CK1  CJ1  SING  Y  N  29
+EAB  CJ1  HJ1  SING  N  N  30
+EAB  CM   C    SING  N  N  31
+EAB  CM   3HM  SING  N  N  32
+EAB  CM   2HM  SING  N  N  33
+EAB  C    OXT  SING  N  N  34
+EAB  C    O    DOUB  N  N  35
+EAB  OXT  HXT  SING  N  N  36
+#

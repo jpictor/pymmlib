@@ -1,0 +1,109 @@
+data_OMC
+#
+_chem_comp.id                       OMC
+_chem_comp.name                     O2'-METHYLYCYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H16 N3 O8 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            337.225
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OMC  N1    .  N  0  ?  ?  ?  1  1 
+OMC  C2    .  C  0  ?  ?  ?  1  2 
+OMC  N3    .  N  0  ?  ?  ?  1  3 
+OMC  C4    .  C  0  ?  ?  ?  1  4 
+OMC  C5    .  C  0  ?  ?  ?  1  5 
+OMC  C6    .  C  0  ?  ?  ?  1  6 
+OMC  O2    .  O  0  ?  ?  ?  1  7 
+OMC  N4    .  N  0  ?  ?  ?  1  8 
+OMC  C1*   .  C  0  ?  ?  ?  1  9 
+OMC  C2*   .  C  0  ?  ?  ?  1  10
+OMC  O2*   .  O  0  ?  ?  ?  1  11
+OMC  CM2   .  C  0  ?  ?  ?  1  12
+OMC  C3*   .  C  0  ?  ?  ?  1  13
+OMC  C4*   .  C  0  ?  ?  ?  1  14
+OMC  O4*   .  O  0  ?  ?  ?  1  15
+OMC  O3*   .  O  0  ?  ?  ?  1  16
+OMC  C5*   .  C  0  ?  ?  ?  1  17
+OMC  O5*   .  O  0  ?  ?  ?  1  18
+OMC  P     .  P  0  ?  ?  ?  1  19
+OMC  O1P   .  O  0  ?  ?  ?  1  20
+OMC  O2P   .  O  0  ?  ?  ?  1  21
+OMC  O3P   .  O  0  ?  ?  ?  1  22
+OMC  1HN4  .  H  0  ?  ?  ?  0  23
+OMC  2HN4  .  H  0  ?  ?  ?  0  24
+OMC  H5    .  H  0  ?  ?  ?  1  25
+OMC  H6    .  H  0  ?  ?  ?  1  26
+OMC  H1*   .  H  0  ?  ?  ?  1  27
+OMC  H2*   .  H  0  ?  ?  ?  1  28
+OMC  1HM2  .  H  0  ?  ?  ?  0  29
+OMC  2HM2  .  H  0  ?  ?  ?  0  30
+OMC  3HM2  .  H  0  ?  ?  ?  0  31
+OMC  H3*   .  H  0  ?  ?  ?  1  32
+OMC  *HO3  .  H  0  ?  ?  ?  0  33
+OMC  H4*   .  H  0  ?  ?  ?  1  34
+OMC  1H5*  .  H  0  ?  ?  ?  0  35
+OMC  2H5*  .  H  0  ?  ?  ?  0  36
+OMC  2HOP  .  H  0  ?  ?  ?  0  37
+OMC  3HOP  .  H  0  ?  ?  ?  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OMC  N1   C2    SING  1 
+OMC  N1   C6    SING  2 
+OMC  N1   C1*   SING  3 
+OMC  C2   N3    SING  4 
+OMC  C2   O2    DOUB  5 
+OMC  N3   C4    DOUB  6 
+OMC  C4   C5    SING  7 
+OMC  C4   N4    SING  8 
+OMC  C5   C6    DOUB  9 
+OMC  C5   H5    SING  10
+OMC  C6   H6    SING  11
+OMC  N4   1HN4  SING  12
+OMC  N4   2HN4  SING  13
+OMC  C1*  C2*   SING  14
+OMC  C1*  O4*   SING  15
+OMC  C1*  H1*   SING  16
+OMC  C2*  C3*   SING  17
+OMC  C2*  O2*   SING  18
+OMC  C2*  H2*   SING  19
+OMC  O2*  CM2   SING  20
+OMC  CM2  1HM2  SING  21
+OMC  CM2  2HM2  SING  22
+OMC  CM2  3HM2  SING  23
+OMC  C3*  C4*   SING  24
+OMC  C3*  O3*   SING  25
+OMC  C3*  H3*   SING  26
+OMC  C4*  O4*   SING  27
+OMC  C4*  C5*   SING  28
+OMC  C4*  H4*   SING  29
+OMC  O3*  *HO3  SING  30
+OMC  C5*  O5*   SING  31
+OMC  C5*  1H5*  SING  32
+OMC  C5*  2H5*  SING  33
+OMC  O5*  P     SING  34
+OMC  P    O1P   DOUB  35
+OMC  P    O2P   SING  36
+OMC  P    O3P   SING  37
+OMC  O2P  2HOP  SING  38
+OMC  O3P  3HOP  SING  39
+#

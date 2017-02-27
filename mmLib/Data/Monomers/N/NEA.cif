@@ -1,0 +1,113 @@
+data_NEA
+#
+_chem_comp.id                   NEA
+_chem_comp.name                 5'-DEOXY-5'-[2-(AMINO)ETHYLTHIO]ADENOSINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H18 N6 O3 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        326.373
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEA  N     .  N  0  ?  ?  ?  1  1 
+NEA  CB    .  C  0  ?  ?  ?  1  2 
+NEA  CG    .  C  0  ?  ?  ?  1  3 
+NEA  SD    .  S  0  ?  ?  ?  1  4 
+NEA  C5*   .  C  0  ?  ?  ?  1  5 
+NEA  C4*   .  C  0  ?  ?  ?  1  6 
+NEA  O4*   .  O  0  ?  ?  ?  1  7 
+NEA  C3*   .  C  0  ?  ?  ?  1  8 
+NEA  O3*   .  O  0  ?  ?  ?  1  9 
+NEA  C2*   .  C  0  ?  ?  ?  1  10
+NEA  O2*   .  O  0  ?  ?  ?  1  11
+NEA  C1*   .  C  0  ?  ?  ?  1  12
+NEA  N9    .  N  0  ?  ?  ?  1  13
+NEA  C8    .  C  0  ?  ?  ?  1  14
+NEA  N7    .  N  0  ?  ?  ?  1  15
+NEA  C5    .  C  0  ?  ?  ?  1  16
+NEA  C6    .  C  0  ?  ?  ?  1  17
+NEA  N6    .  N  0  ?  ?  ?  1  18
+NEA  N1    .  N  0  ?  ?  ?  1  19
+NEA  C2    .  C  0  ?  ?  ?  1  20
+NEA  N3    .  N  0  ?  ?  ?  1  21
+NEA  C4    .  C  0  ?  ?  ?  1  22
+NEA  1H6   .  H  0  ?  ?  ?  0  23
+NEA  2H6   .  H  0  ?  ?  ?  0  24
+NEA  H2    .  H  0  ?  ?  ?  1  25
+NEA  H8    .  H  0  ?  ?  ?  1  26
+NEA  2HO*  .  H  0  ?  ?  ?  0  27
+NEA  H1*   .  H  0  ?  ?  ?  1  28
+NEA  H2*   .  H  0  ?  ?  ?  1  29
+NEA  H3*   .  H  0  ?  ?  ?  1  30
+NEA  H3T   .  H  0  ?  ?  ?  1  31
+NEA  H4*   .  H  0  ?  ?  ?  1  32
+NEA  1H5*  .  H  0  ?  ?  ?  0  33
+NEA  2H5*  .  H  0  ?  ?  ?  0  34
+NEA  1HG   .  H  0  ?  ?  ?  0  35
+NEA  2HG   .  H  0  ?  ?  ?  0  36
+NEA  1HB   .  H  0  ?  ?  ?  0  37
+NEA  2HB   .  H  0  ?  ?  ?  0  38
+NEA  1HN   .  H  0  ?  ?  ?  0  39
+NEA  2HN   .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEA  N    CB    SING  1 
+NEA  N    1HN   SING  2 
+NEA  N    2HN   SING  3 
+NEA  CB   CG    SING  4 
+NEA  CB   1HB   SING  5 
+NEA  CB   2HB   SING  6 
+NEA  CG   SD    SING  7 
+NEA  CG   1HG   SING  8 
+NEA  CG   2HG   SING  9 
+NEA  SD   C5*   SING  10
+NEA  C5*  C4*   SING  11
+NEA  C5*  1H5*  SING  12
+NEA  C5*  2H5*  SING  13
+NEA  C4*  O4*   SING  14
+NEA  C4*  C3*   SING  15
+NEA  C4*  H4*   SING  16
+NEA  O4*  C1*   SING  17
+NEA  C3*  O3*   SING  18
+NEA  C3*  C2*   SING  19
+NEA  C3*  H3*   SING  20
+NEA  O3*  H3T   SING  21
+NEA  C2*  O2*   SING  22
+NEA  C2*  C1*   SING  23
+NEA  C2*  H2*   SING  24
+NEA  O2*  2HO*  SING  25
+NEA  C1*  N9    SING  26
+NEA  C1*  H1*   SING  27
+NEA  N9   C8    SING  28
+NEA  N9   C4    SING  29
+NEA  C8   N7    DOUB  30
+NEA  C8   H8    SING  31
+NEA  N7   C5    SING  32
+NEA  C5   C6    DOUB  33
+NEA  C5   C4    SING  34
+NEA  C6   N6    SING  35
+NEA  C6   N1    SING  36
+NEA  N6   1H6   SING  37
+NEA  N6   2H6   SING  38
+NEA  N1   C2    DOUB  39
+NEA  C2   N3    SING  40
+NEA  C2   H2    SING  41
+NEA  N3   C4    DOUB  42
+#

@@ -1,0 +1,108 @@
+data_3PD
+#
+_chem_comp.id                   3PD
+_chem_comp.name                 2-AMINO-9-(2-DEOXY-3-O-PHOSPHONOPENTOFURANOSYL)-1,9-DIHYDRO-6H-PURIN-6-ONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H14 N5 O7 P1'
+_chem_comp.pdbx_synonyms        2'-DEOXYGUANOSINE-3'-MONOPHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        347.224
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3PD  O5'   .  O  0  11.162  13.419  0.929   1  1 
+3PD  C5'   .  C  0  11.969  12.786  1.922   1  2 
+3PD  C4'   .  C  0  13.049  13.724  2.431   1  3 
+3PD  O4'   .  O  0  13.999  14.095  1.382   1  4 
+3PD  C1'   .  C  0  14.465  15.412  1.567   1  5 
+3PD  C2'   .  C  0  13.768  16.007  2.807   1  6 
+3PD  C3'   .  C  0  12.553  15.059  3.019   1  7 
+3PD  O3'   .  O  0  12.253  14.819  4.418   1  8 
+3PD  N9    .  N  0  14.282  16.183  0.267   1  9 
+3PD  C4    .  C  0  13.104  16.516  -0.407  1  10
+3PD  N3    .  N  0  11.798  16.192  -0.006  1  11
+3PD  C2    .  C  0  10.835  16.654  -0.858  1  12
+3PD  N2    .  N  0  9.536   16.441  -0.624  1  13
+3PD  N1    .  N  0  11.153  17.382  -2.023  1  14
+3PD  C6    .  C  0  12.488  17.721  -2.453  1  15
+3PD  O6    .  O  0  12.639  18.363  -3.493  1  16
+3PD  C5    .  C  0  13.505  17.234  -1.550  1  17
+3PD  N7    .  N  0  14.885  17.352  -1.600  1  18
+3PD  C8    .  C  0  15.291  16.725  -0.523  1  19
+3PD  P     .  P  0  12.056  15.963  5.526   1  20
+3PD  O1P   .  O  0  13.310  16.097  6.284   1  21
+3PD  O2P   .  O  0  11.528  17.191  4.890   1  22
+3PD  O1    .  O  0  ?       ?       ?       1  23
+3PD  1HN2  .  H  0  ?       ?       ?       0  24
+3PD  2HN2  .  H  0  ?       ?       ?       0  25
+3PD  HN1   .  H  0  ?       ?       ?       1  26
+3PD  H8    .  H  0  ?       ?       ?       1  27
+3PD  H1'   .  H  0  ?       ?       ?       1  28
+3PD  1H2'  .  H  0  ?       ?       ?       0  29
+3PD  2H2'  .  H  0  ?       ?       ?       0  30
+3PD  H3'   .  H  0  ?       ?       ?       1  31
+3PD  H1P   .  H  0  ?       ?       ?       1  32
+3PD  H4'   .  H  0  ?       ?       ?       1  33
+3PD  1H5'  .  H  0  ?       ?       ?       0  34
+3PD  2H5'  .  H  0  ?       ?       ?       0  35
+3PD  H5'   .  H  0  ?       ?       ?       1  36
+3PD  H2P   .  H  0  ?       ?       ?       1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3PD  O5'  C5'   SING  1 
+3PD  O5'  H5'   SING  2 
+3PD  C5'  C4'   SING  3 
+3PD  C5'  1H5'  SING  4 
+3PD  C5'  2H5'  SING  5 
+3PD  C4'  C3'   SING  6 
+3PD  C4'  O4'   SING  7 
+3PD  C4'  H4'   SING  8 
+3PD  O4'  C1'   SING  9 
+3PD  C1'  N9    SING  10
+3PD  C1'  C2'   SING  11
+3PD  C1'  H1'   SING  12
+3PD  C2'  C3'   SING  13
+3PD  C2'  1H2'  SING  14
+3PD  C2'  2H2'  SING  15
+3PD  C3'  O3'   SING  16
+3PD  C3'  H3'   SING  17
+3PD  O3'  P     SING  18
+3PD  N9   C8    SING  19
+3PD  N9   C4    SING  20
+3PD  C4   C5    DOUB  21
+3PD  C4   N3    SING  22
+3PD  N3   C2    DOUB  23
+3PD  C2   N2    SING  24
+3PD  C2   N1    SING  25
+3PD  N2   1HN2  SING  26
+3PD  N2   2HN2  SING  27
+3PD  N1   C6    SING  28
+3PD  N1   HN1   SING  29
+3PD  C6   O6    DOUB  30
+3PD  C6   C5    SING  31
+3PD  C5   N7    SING  32
+3PD  N7   C8    DOUB  33
+3PD  C8   H8    SING  34
+3PD  P    O1    DOUB  35
+3PD  P    O1P   SING  36
+3PD  P    O2P   SING  37
+3PD  O1P  H1P   SING  38
+3PD  O2P  H2P   SING  39
+#

@@ -1,0 +1,88 @@
+data_LCX
+#
+_chem_comp.id                       LCX
+_chem_comp.name                     'CARBOXYLATED LYSINE'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N2 O3'
+_chem_comp.pdbx_synonyms            '(5R)-5-AMINO-6-HYDROXYHEXYLCARBAMIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            176.215
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+LCX  N    .  N  0  44.001  -0.488  19.840  1  1 
+LCX  CA   .  C  0  45.029  -0.921  20.796  1  2 
+LCX  C    .  C  0  46.187  -1.579  20.045  1  3 
+LCX  O    .  O  0  45.971  -2.472  19.208  1  4 
+LCX  CB   .  C  0  44.415  -1.852  21.867  1  5 
+LCX  CG   .  C  0  45.352  -2.706  22.757  1  6 
+LCX  CD   .  C  0  46.382  -1.904  23.544  1  7 
+LCX  CE   .  C  0  47.220  -2.783  24.464  1  8 
+LCX  NZ   .  N  0  46.407  -3.487  25.471  1  9 
+LCX  CX   .  C  0  47.120  -4.063  26.641  1  10
+LCX  OX1  .  O  0  48.303  -3.927  26.830  1  11
+LCX  OX2  .  O  0  46.335  -4.746  27.412  1  12
+LCX  1HN  .  H  0  ?       ?       ?       0  13
+LCX  2HN  .  H  0  ?       ?       ?       0  14
+LCX  HA   .  H  0  ?       ?       ?       1  15
+LCX  1H   .  H  0  ?       ?       ?       0  16
+LCX  2H   .  H  0  ?       ?       ?       0  17
+LCX  HO   .  H  0  ?       ?       ?       1  18
+LCX  1HB  .  H  0  ?       ?       ?       0  19
+LCX  2HB  .  H  0  ?       ?       ?       0  20
+LCX  1HG  .  H  0  ?       ?       ?       0  21
+LCX  2HG  .  H  0  ?       ?       ?       0  22
+LCX  1HD  .  H  0  ?       ?       ?       0  23
+LCX  2HD  .  H  0  ?       ?       ?       0  24
+LCX  1HE  .  H  0  ?       ?       ?       0  25
+LCX  2HE  .  H  0  ?       ?       ?       0  26
+LCX  HNZ  .  H  0  ?       ?       ?       1  27
+LCX  HX1  .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+LCX  N    CA   SING  1 
+LCX  N    1HN  SING  2 
+LCX  N    2HN  SING  3 
+LCX  CA   C    SING  4 
+LCX  CA   CB   SING  5 
+LCX  CA   HA   SING  6 
+LCX  C    O    SING  7 
+LCX  C    1H   SING  8 
+LCX  C    2H   SING  9 
+LCX  O    HO   SING  10
+LCX  CB   CG   SING  11
+LCX  CB   1HB  SING  12
+LCX  CB   2HB  SING  13
+LCX  CG   CD   SING  14
+LCX  CG   1HG  SING  15
+LCX  CG   2HG  SING  16
+LCX  CD   CE   SING  17
+LCX  CD   1HD  SING  18
+LCX  CD   2HD  SING  19
+LCX  CE   NZ   SING  20
+LCX  CE   1HE  SING  21
+LCX  CE   2HE  SING  22
+LCX  NZ   CX   SING  23
+LCX  NZ   HNZ  SING  24
+LCX  CX   OX1  SING  25
+LCX  CX   OX2  DOUB  26
+LCX  OX1  HX1  SING  27
+#

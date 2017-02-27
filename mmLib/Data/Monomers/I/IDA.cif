@@ -1,0 +1,108 @@
+data_IDA
+#
+_chem_comp.id                   IDA
+_chem_comp.name                 '(2-CARBAMOYLMETHYL-5-PROPYL-OCTAHYDRO-INDOL-7-YL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H18 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        274.319
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IDA  N2    .  N  0  21.248  21.374  48.504  1  1 
+IDA  C10   .  C  0  20.116  20.725  47.836  1  2 
+IDA  O1    .  O  0  19.035  20.654  48.746  1  3 
+IDA  C9    .  C  0  19.823  21.568  46.599  1  4 
+IDA  C1    .  C  0  18.464  21.896  45.942  1  5 
+IDA  N1    .  N  0  18.496  22.519  44.720  1  6 
+IDA  C4    .  C  0  17.251  22.748  44.306  1  7 
+IDA  C3    .  C  0  16.350  22.249  45.305  1  8 
+IDA  C2    .  C  0  17.094  21.717  46.328  1  9 
+IDA  C5    .  C  0  14.888  22.300  45.274  1  10
+IDA  C6    .  C  0  14.319  22.775  44.086  1  11
+IDA  C12   .  C  0  12.939  22.270  43.514  1  12
+IDA  C13   .  C  0  12.706  20.850  42.904  1  13
+IDA  C14   .  C  0  12.690  19.941  41.688  1  14
+IDA  C7    .  C  0  15.221  23.375  43.094  1  15
+IDA  C8    .  C  0  16.647  23.373  43.131  1  16
+IDA  C11   .  C  0  17.329  23.190  41.826  1  17
+IDA  C15   .  C  0  18.751  23.521  41.415  1  18
+IDA  O3    .  O  0  18.791  24.928  41.399  1  19
+IDA  O2    .  O  0  19.733  22.937  42.247  1  20
+IDA  1HN2  .  H  0  ?       ?       ?       0  21
+IDA  2HN2  .  H  0  ?       ?       ?       0  22
+IDA  1HC9  .  H  0  ?       ?       ?       0  23
+IDA  2HC9  .  H  0  ?       ?       ?       0  24
+IDA  HN1   .  H  0  ?       ?       ?       1  25
+IDA  HC2   .  H  0  ?       ?       ?       1  26
+IDA  HC5   .  H  0  ?       ?       ?       1  27
+IDA  1H12  .  H  0  ?       ?       ?       0  28
+IDA  2H12  .  H  0  ?       ?       ?       0  29
+IDA  1H13  .  H  0  ?       ?       ?       0  30
+IDA  2H13  .  H  0  ?       ?       ?       0  31
+IDA  1H14  .  H  0  ?       ?       ?       0  32
+IDA  2H14  .  H  0  ?       ?       ?       0  33
+IDA  3H14  .  H  0  ?       ?       ?       0  34
+IDA  HC7   .  H  0  ?       ?       ?       1  35
+IDA  1H11  .  H  0  ?       ?       ?       0  36
+IDA  2H11  .  H  0  ?       ?       ?       0  37
+IDA  HO2   .  H  0  ?       ?       ?       1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IDA  N2   C10   SING  1 
+IDA  N2   1HN2  SING  2 
+IDA  N2   2HN2  SING  3 
+IDA  C10  O1    DOUB  4 
+IDA  C10  C9    SING  5 
+IDA  C9   C1    SING  6 
+IDA  C9   1HC9  SING  7 
+IDA  C9   2HC9  SING  8 
+IDA  C1   N1    SING  9 
+IDA  C1   C2    DOUB  10
+IDA  N1   C4    SING  11
+IDA  N1   HN1   SING  12
+IDA  C4   C3    AROM  13
+IDA  C4   C8    AROM  14
+IDA  C3   C2    SING  15
+IDA  C3   C5    AROM  16
+IDA  C2   HC2   SING  17
+IDA  C5   C6    AROM  18
+IDA  C5   HC5   SING  19
+IDA  C6   C12   SING  20
+IDA  C6   C7    AROM  21
+IDA  C12  C13   SING  22
+IDA  C12  1H12  SING  23
+IDA  C12  2H12  SING  24
+IDA  C13  C14   SING  25
+IDA  C13  1H13  SING  26
+IDA  C13  2H13  SING  27
+IDA  C14  1H14  SING  28
+IDA  C14  2H14  SING  29
+IDA  C14  3H14  SING  30
+IDA  C7   C8    AROM  31
+IDA  C7   HC7   SING  32
+IDA  C8   C11   SING  33
+IDA  C11  C15   SING  34
+IDA  C11  1H11  SING  35
+IDA  C11  2H11  SING  36
+IDA  C15  O3    DOUB  37
+IDA  C15  O2    SING  38
+IDA  O2   HO2   SING  39
+#

@@ -1,0 +1,86 @@
+data_DFU
+#
+_chem_comp.id                   DFU
+_chem_comp.name                 (2S,3R,4S,5R)-2-METHYLPIPERIDINE-3,4,5-TRIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H13 N1 O3'
+_chem_comp.pdbx_synonyms        DEOXYFUCONOJIRIMYCIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        147.174
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          DFU
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C[C@H]1[C@H]([C@H]([C@@H](CN1)O)O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.4.0
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+DFU  C1   .  C  0  74.471  55.522  68.795  1  N  1 
+DFU  C2   .  C  0  73.751  54.213  69.112  1  N  2 
+DFU  C3   .  C  0  72.359  54.486  69.698  1  N  3 
+DFU  C4   .  C  0  71.532  55.365  68.757  1  N  4 
+DFU  C5   .  C  0  72.278  56.677  68.448  1  N  5 
+DFU  C6   .  C  0  71.502  57.547  67.457  1  N  6 
+DFU  O4   .  O  0  71.312  54.665  67.511  1  N  7 
+DFU  O3   .  O  0  71.688  53.242  69.928  1  N  8 
+DFU  O2   .  O  0  74.566  53.395  69.978  1  N  9 
+DFU  N5   .  N  0  73.603  56.351  67.961  1  N  10
+DFU  1H1  .  H  0  74.702  56.053  69.730  0  N  11
+DFU  2H1  .  H  0  75.409  55.311  68.261  0  N  12
+DFU  H2   .  H  0  73.596  53.649  68.180  1  N  13
+DFU  H3   .  H  0  72.475  55.024  70.650  1  N  14
+DFU  H4   .  H  0  70.574  55.592  69.248  1  N  15
+DFU  H5   .  H  0  72.368  57.274  69.368  1  N  16
+DFU  1H6  .  H  0  71.316  58.535  67.903  0  N  17
+DFU  2H6  .  H  0  72.090  57.666  66.535  0  N  18
+DFU  3H6  .  H  0  70.542  57.065  67.220  0  N  19
+DFU  HO4  .  H  0  71.264  55.292  66.799  1  N  20
+DFU  HO3  .  H  0  71.539  52.804  69.098  1  N  21
+DFU  HO2  .  H  0  74.745  52.564  69.553  1  N  22
+DFU  HN5  .  H  0  74.080  57.220  67.830  1  N  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+DFU  C1  C2   SING  N  1 
+DFU  C1  N5   SING  N  2 
+DFU  C1  1H1  SING  N  3 
+DFU  C1  2H1  SING  N  4 
+DFU  C2  C3   SING  N  5 
+DFU  C2  O2   SING  N  6 
+DFU  C2  H2   SING  N  7 
+DFU  C3  C4   SING  N  8 
+DFU  C3  O3   SING  N  9 
+DFU  C3  H3   SING  N  10
+DFU  C4  C5   SING  N  11
+DFU  C4  O4   SING  N  12
+DFU  C4  H4   SING  N  13
+DFU  C5  C6   SING  N  14
+DFU  C5  N5   SING  N  15
+DFU  C5  H5   SING  N  16
+DFU  C6  1H6  SING  N  17
+DFU  C6  2H6  SING  N  18
+DFU  C6  3H6  SING  N  19
+DFU  O4  HO4  SING  N  20
+DFU  O3  HO3  SING  N  21
+DFU  O2  HO2  SING  N  22
+DFU  N5  HN5  SING  N  23
+#

@@ -1,0 +1,93 @@
+data_GAR
+#
+_chem_comp.id                   GAR
+_chem_comp.name                 'GLYCINAMIDE RIBONUCLEOTIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H13 N2 O8 P1'
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       284.162
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GAR  C1    .  C  0   ?  ?  ?  1  1 
+GAR  O6    .  O  0   ?  ?  ?  1  2 
+GAR  C2    .  C  0   ?  ?  ?  1  3 
+GAR  O8    .  O  0   ?  ?  ?  1  4 
+GAR  C3    .  C  0   ?  ?  ?  1  5 
+GAR  O4    .  O  0   ?  ?  ?  1  6 
+GAR  C5    .  C  0   ?  ?  ?  1  7 
+GAR  C10   .  C  0   ?  ?  ?  1  8 
+GAR  O12   .  O  0   ?  ?  ?  1  9 
+GAR  N19   .  N  0   ?  ?  ?  1  10
+GAR  C21   .  C  0   ?  ?  ?  1  11
+GAR  O22   .  O  0   ?  ?  ?  1  12
+GAR  C23   .  C  0   ?  ?  ?  1  13
+GAR  N24   .  N  0   ?  ?  ?  1  14
+GAR  P15   .  P  0   ?  ?  ?  1  15
+GAR  O16   .  O  0   ?  ?  ?  1  16
+GAR  O17   .  O  -1  ?  ?  ?  1  17
+GAR  O18   .  O  -1  ?  ?  ?  1  18
+GAR  H1    .  H  0   ?  ?  ?  1  19
+GAR  HO6   .  H  0   ?  ?  ?  1  20
+GAR  H2    .  H  0   ?  ?  ?  1  21
+GAR  HO8   .  H  0   ?  ?  ?  1  22
+GAR  H3    .  H  0   ?  ?  ?  1  23
+GAR  H5    .  H  0   ?  ?  ?  1  24
+GAR  1H10  .  H  0   ?  ?  ?  0  25
+GAR  2H10  .  H  0   ?  ?  ?  0  26
+GAR  H19   .  H  0   ?  ?  ?  1  27
+GAR  1H23  .  H  0   ?  ?  ?  0  28
+GAR  2H23  .  H  0   ?  ?  ?  0  29
+GAR  1H24  .  H  0   ?  ?  ?  0  30
+GAR  2H24  .  H  0   ?  ?  ?  0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GAR  C1   C2    SING  1 
+GAR  C1   C5    SING  2 
+GAR  C1   O6    SING  3 
+GAR  C1   H1    SING  4 
+GAR  O6   HO6   SING  5 
+GAR  C2   C3    SING  6 
+GAR  C2   O8    SING  7 
+GAR  C2   H2    SING  8 
+GAR  O8   HO8   SING  9 
+GAR  C3   O4    SING  10
+GAR  C3   N19   SING  11
+GAR  C3   H3    SING  12
+GAR  O4   C5    SING  13
+GAR  C5   C10   SING  14
+GAR  C5   H5    SING  15
+GAR  C10  O12   SING  16
+GAR  C10  1H10  SING  17
+GAR  C10  2H10  SING  18
+GAR  O12  P15   SING  19
+GAR  N19  C21   SING  20
+GAR  N19  H19   SING  21
+GAR  C21  C23   SING  22
+GAR  C21  O22   DOUB  23
+GAR  C23  N24   SING  24
+GAR  C23  1H23  SING  25
+GAR  C23  2H23  SING  26
+GAR  N24  1H24  SING  27
+GAR  N24  2H24  SING  28
+GAR  P15  O16   DOUB  29
+GAR  P15  O17   SING  30
+GAR  P15  O18   SING  31
+#

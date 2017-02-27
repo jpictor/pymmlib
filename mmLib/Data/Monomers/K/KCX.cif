@@ -1,0 +1,85 @@
+data_KCX
+#
+_chem_comp.id                       KCX
+_chem_comp.name                     'LYSINE NZ-CARBOXYLIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H14 N2 O4'
+_chem_comp.mon_nstd_parent_comp_id  LYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            190.199
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+KCX  N    .  N  0  ?  ?  ?  1  1 
+KCX  CA   .  C  0  ?  ?  ?  1  2 
+KCX  CB   .  C  0  ?  ?  ?  1  3 
+KCX  CG   .  C  0  ?  ?  ?  1  4 
+KCX  CD   .  C  0  ?  ?  ?  1  5 
+KCX  CE   .  C  0  ?  ?  ?  1  6 
+KCX  NZ   .  N  0  ?  ?  ?  1  7 
+KCX  C    .  C  0  ?  ?  ?  1  8 
+KCX  O    .  O  0  ?  ?  ?  1  9 
+KCX  CX   .  C  0  ?  ?  ?  1  10
+KCX  OXT  .  O  0  ?  ?  ?  1  11
+KCX  OX1  .  O  0  ?  ?  ?  1  12
+KCX  OX2  .  O  0  ?  ?  ?  1  13
+KCX  1HN  .  H  0  ?  ?  ?  0  14
+KCX  2HN  .  H  0  ?  ?  ?  0  15
+KCX  HA   .  H  0  ?  ?  ?  1  16
+KCX  1HB  .  H  0  ?  ?  ?  0  17
+KCX  2HB  .  H  0  ?  ?  ?  0  18
+KCX  1HG  .  H  0  ?  ?  ?  0  19
+KCX  2HG  .  H  0  ?  ?  ?  0  20
+KCX  1HD  .  H  0  ?  ?  ?  0  21
+KCX  2HD  .  H  0  ?  ?  ?  0  22
+KCX  1HE  .  H  0  ?  ?  ?  0  23
+KCX  2HE  .  H  0  ?  ?  ?  0  24
+KCX  1HZ  .  H  0  ?  ?  ?  0  25
+KCX  HXT  .  H  0  ?  ?  ?  1  26
+KCX  HX2  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+KCX  N    CA   SING  1 
+KCX  N    1HN  SING  2 
+KCX  N    2HN  SING  3 
+KCX  CA   CB   SING  4 
+KCX  CA   C    SING  5 
+KCX  CA   HA   SING  6 
+KCX  CB   CG   SING  7 
+KCX  CB   1HB  SING  8 
+KCX  CB   2HB  SING  9 
+KCX  CG   CD   SING  10
+KCX  CG   1HG  SING  11
+KCX  CG   2HG  SING  12
+KCX  CD   CE   SING  13
+KCX  CD   1HD  SING  14
+KCX  CD   2HD  SING  15
+KCX  CE   NZ   SING  16
+KCX  CE   1HE  SING  17
+KCX  CE   2HE  SING  18
+KCX  NZ   1HZ  SING  19
+KCX  NZ   CX   SING  20
+KCX  C    O    DOUB  21
+KCX  C    OXT  SING  22
+KCX  CX   OX1  DOUB  23
+KCX  CX   OX2  SING  24
+KCX  OXT  HXT  SING  25
+KCX  OX2  HX2  SING  26
+#

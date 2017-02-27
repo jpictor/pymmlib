@@ -1,0 +1,71 @@
+data_PBZ
+#
+_chem_comp.id                   PBZ
+_chem_comp.name                 'P-AMINO BENZAMIDINE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H10 N3'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       136.176
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBZ  N2    .  N  0  ?  ?  ?  1  1 
+PBZ  N3    .  N  1  ?  ?  ?  1  2 
+PBZ  C7    .  C  0  ?  ?  ?  1  3 
+PBZ  C4    .  C  0  ?  ?  ?  1  4 
+PBZ  C2    .  C  0  ?  ?  ?  1  5 
+PBZ  C3    .  C  0  ?  ?  ?  1  6 
+PBZ  C5    .  C  0  ?  ?  ?  1  7 
+PBZ  C6    .  C  0  ?  ?  ?  1  8 
+PBZ  C1    .  C  0  ?  ?  ?  1  9 
+PBZ  N1    .  N  0  ?  ?  ?  1  10
+PBZ  1HN1  .  H  0  ?  ?  ?  0  11
+PBZ  2HN1  .  H  0  ?  ?  ?  0  12
+PBZ  H2    .  H  0  ?  ?  ?  1  13
+PBZ  H3    .  H  0  ?  ?  ?  1  14
+PBZ  H5    .  H  0  ?  ?  ?  1  15
+PBZ  H6    .  H  0  ?  ?  ?  1  16
+PBZ  1HN2  .  H  0  ?  ?  ?  0  17
+PBZ  2HN2  .  H  0  ?  ?  ?  0  18
+PBZ  1HN3  .  H  0  ?  ?  ?  0  19
+PBZ  2HN3  .  H  0  ?  ?  ?  0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBZ  N2  C7    SING  1 
+PBZ  N2  1HN2  SING  2 
+PBZ  N2  2HN2  SING  3 
+PBZ  N3  C7    DOUB  4 
+PBZ  N3  1HN3  SING  5 
+PBZ  N3  2HN3  SING  6 
+PBZ  C7  C4    SING  7 
+PBZ  C4  C3    SING  8 
+PBZ  C4  C5    DOUB  9 
+PBZ  C2  C3    DOUB  10
+PBZ  C2  C1    SING  11
+PBZ  C2  H2    SING  12
+PBZ  C3  H3    SING  13
+PBZ  C5  C6    SING  14
+PBZ  C5  H5    SING  15
+PBZ  C6  C1    DOUB  16
+PBZ  C6  H6    SING  17
+PBZ  C1  N1    SING  18
+PBZ  N1  1HN1  SING  19
+PBZ  N1  2HN1  SING  20
+#

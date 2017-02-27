@@ -1,0 +1,77 @@
+data_SGR
+#
+_chem_comp.id                   SGR
+_chem_comp.name                 O-[(R)-AMINO(METHOXY)PHOSPHORYL]-L-SERINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H11 N2 O5 P1'
+_chem_comp.pdbx_synonyms        'O-(R)-METHYL PHOSPHOROAMIDATE-L-SERINE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.115
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SGR  N     .  N  0  25.859  12.606  14.297  1  1 
+SGR  CA    .  C  0  26.986  12.798  13.323  1  2 
+SGR  C     .  C  0  28.268  11.929  13.578  1  3 
+SGR  O     .  O  0  28.233  10.712  13.403  1  4 
+SGR  CB    .  C  0  27.287  14.287  13.098  1  5 
+SGR  OG    .  O  0  28.2    14.521  12.014  1  6 
+SGR  N4    .  N  0  29.612  15.145  10.845  1  7 
+SGR  P1    .  P  0  28.985  15.873  12.282  1  8 
+SGR  O5    .  O  0  29.812  15.383  13.527  1  9 
+SGR  O2    .  O  0  29.075  17.446  12.248  1  10
+SGR  C3    .  C  0  30.373  18.035  12.047  1  11
+SGR  OXT   .  O  0  25.859  12.606  14.297  1  12
+SGR  H     .  H  0  25.094  12.476  14.958  1  13
+SGR  1HBC  .  H  0  27.654  14.764  14.036  0  14
+SGR  2HBC  .  H  0  26.344  14.865  12.955  0  15
+SGR  1H4N  .  H  0  29.111  14.852  10.006  0  16
+SGR  2H4N  .  H  0  30.117  16.014  11.017  0  17
+SGR  1H3C  .  H  0  30.825  17.62   11.116  0  18
+SGR  2H3C  .  H  0  31.078  17.642  12.816  0  19
+SGR  3H3C  .  H  0  30.437  19.148  12.023  0  20
+SGR  HXT   .  H  0  25.307  11.834  14.322  1  21
+SGR  H1    .  H  0  26.611  12.387  12.374  1  22
+SGR  H2    .  H  0  25.504  11.857  13.738  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SGR  N    CA    SING  1 
+SGR  N    H     SING  2 
+SGR  N    H2    SING  3 
+SGR  CA   H1    SING  4 
+SGR  CA   C     SING  5 
+SGR  CA   CB    SING  6 
+SGR  C    O     DOUB  7 
+SGR  C    OXT   SING  8 
+SGR  CB   OG    SING  9 
+SGR  CB   1HBC  SING  10
+SGR  CB   2HBC  SING  11
+SGR  OG   P1    SING  12
+SGR  N4   P1    SING  13
+SGR  N4   1H4N  SING  14
+SGR  N4   2H4N  SING  15
+SGR  P1   O5    DOUB  16
+SGR  P1   O2    SING  17
+SGR  O2   C3    SING  18
+SGR  C3   1H3C  SING  19
+SGR  C3   2H3C  SING  20
+SGR  C3   3H3C  SING  21
+SGR  OXT  HXT   SING  22
+#

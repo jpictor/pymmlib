@@ -1,0 +1,76 @@
+data_DG2
+#
+_chem_comp.id                   DG2
+_chem_comp.name                 '2,3-DIPHOSPHOGLYCERIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H8 O10 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.038
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DG2  C3   .  C  0  ?  ?  ?  1  1 
+DG2  C4   .  C  0  ?  ?  ?  1  2 
+DG2  O2   .  O  0  ?  ?  ?  1  3 
+DG2  O5   .  O  0  ?  ?  ?  1  4 
+DG2  O7   .  O  0  ?  ?  ?  1  5 
+DG2  O8   .  O  0  ?  ?  ?  1  6 
+DG2  O9   .  O  0  ?  ?  ?  1  7 
+DG2  O10  .  O  0  ?  ?  ?  1  8 
+DG2  O11  .  O  0  ?  ?  ?  1  9 
+DG2  P1   .  P  0  ?  ?  ?  1  10
+DG2  C7   .  C  0  ?  ?  ?  1  11
+DG2  P6   .  P  0  ?  ?  ?  1  12
+DG2  O15  .  O  0  ?  ?  ?  1  13
+DG2  O14  .  O  0  ?  ?  ?  1  14
+DG2  O13  .  O  0  ?  ?  ?  1  15
+DG2  H3   .  H  0  ?  ?  ?  1  16
+DG2  1H4  .  H  0  ?  ?  ?  0  17
+DG2  2H4  .  H  0  ?  ?  ?  0  18
+DG2  H7   .  H  0  ?  ?  ?  1  19
+DG2  H9   .  H  0  ?  ?  ?  1  20
+DG2  H10  .  H  0  ?  ?  ?  1  21
+DG2  H13  .  H  0  ?  ?  ?  1  22
+DG2  H14  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DG2  C3   C4   SING  1 
+DG2  C3   O2   SING  2 
+DG2  C3   C7   SING  3 
+DG2  C3   H3   SING  4 
+DG2  C4   O5   SING  5 
+DG2  C4   1H4  SING  6 
+DG2  C4   2H4  SING  7 
+DG2  O2   P1   SING  8 
+DG2  O5   P6   SING  9 
+DG2  O7   C7   SING  10
+DG2  O7   H7   SING  11
+DG2  O8   C7   DOUB  12
+DG2  O9   P1   SING  13
+DG2  O9   H9   SING  14
+DG2  O10  P1   SING  15
+DG2  O10  H10  SING  16
+DG2  O11  P1   DOUB  17
+DG2  P6   O15  DOUB  18
+DG2  P6   O14  SING  19
+DG2  P6   O13  SING  20
+DG2  O14  H14  SING  21
+DG2  O13  H13  SING  22
+#

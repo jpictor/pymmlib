@@ -1,0 +1,73 @@
+data_2MN
+#
+_chem_comp.id                   2MN
+_chem_comp.name                 2-(2-METHYL-5-NITRO-1H-IMIDAZOL-1-YL)ETHANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H9 N3 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.155
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2MN  OHD   .  O  0  -10.197  14.913  2.573   1  1 
+2MN  CB6   .  C  0  -11.331  15.406  2.077   1  2 
+2MN  CB5   .  C  0  -11.532  16.648  2.087   1  3 
+2MN  NC1   .  N  0  -10.613  17.491  1.756   1  4 
+2MN  CC3   .  C  0  -10.043  17.597  .561    1  5 
+2MN  CA5   .  C  0  -10.167  16.95   -.761   1  6 
+2MN  NC4   .  N  0  -9.102   18.569  .568    1  7 
+2MN  CC5   .  C  0  -9.084   19.077  1.819   1  8 
+2MN  CC2   .  C  0  -10.04   18.39   2.56    1  9 
+2MN  NO    .  N  0  -10.29   18.644  3.875   1  10
+2MN  OB    .  O  0  -11.143  17.992  4.455   1  11
+2MN  OA    .  O  0  -9.658   19.519  4.463   1  12
+2MN  HHD   .  H  0  -10.045  13.975  2.565   1  13
+2MN  HB6   .  H  0  -12.092  14.726  1.658   1  14
+2MN  HB5   .  H  0  -12.523  17.027  2.388   1  15
+2MN  1HA5  .  H  0  -9.689   17.039  -1.764  0  16
+2MN  2HA5  .  H  0  -11.25   17.072  -.994   0  17
+2MN  3HA5  .  H  0  -10.033  15.87   -.52    0  18
+2MN  HC5   .  H  0  -8.432   19.887  2.186   1  19
+2MN  H5    .  H  0  ?        ?       ?       1  20
+2MN  H6    .  H  0  ?        ?       ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2MN  OHD  CB6   SING  1 
+2MN  OHD  HHD   SING  2 
+2MN  CB6  CB5   SING  3 
+2MN  CB6  HB6   SING  4 
+2MN  CB6  H6    SING  5 
+2MN  CB5  NC1   SING  6 
+2MN  CB5  HB5   SING  7 
+2MN  CB5  H5    SING  8 
+2MN  NC1  CC3   SING  9 
+2MN  NC1  CC2   SING  10
+2MN  CC3  CA5   SING  11
+2MN  CC3  NC4   DOUB  12
+2MN  CA5  1HA5  SING  13
+2MN  CA5  2HA5  SING  14
+2MN  CA5  3HA5  SING  15
+2MN  NC4  CC5   SING  16
+2MN  CC5  CC2   DOUB  17
+2MN  CC5  HC5   SING  18
+2MN  CC2  NO    SING  19
+2MN  NO   OB    DOUB  20
+2MN  NO   OA    DOUB  21
+#

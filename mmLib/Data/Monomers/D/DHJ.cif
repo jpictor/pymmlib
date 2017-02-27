@@ -1,0 +1,89 @@
+data_DHJ
+#
+_chem_comp.id                   DHJ
+_chem_comp.name                 '4-(2-CARBOXYETHYL)(HYDROXY)PHOSPHORYL]-3-OXOBUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 O7 P1'
+_chem_comp.pdbx_synonyms        '4-[(2-CARBOXYETHYL)HYDROXYPHOSPHINYL] 3-OXOBUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        238.133
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          DHJ
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       C(C(=O)C[P@@](=O)(\CC\C(=O)O)O)C(=O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DHJ  O2   .  O  0  44.864  38.006  56.880  1  1 
+DHJ  C3   .  C  0  44.840  38.175  58.164  1  2 
+DHJ  O4   .  O  0  44.562  37.237  58.903  1  3 
+DHJ  C1   .  C  0  45.159  39.485  58.852  1  4 
+DHJ  C7   .  C  0  45.509  40.569  58.148  1  5 
+DHJ  P1   .  P  0  45.919  42.132  58.841  1  6 
+DHJ  O6   .  O  0  45.481  43.162  57.825  1  7 
+DHJ  O7   .  O  0  45.476  42.309  60.255  1  8 
+DHJ  C6   .  C  0  47.741  42.115  58.850  1  9 
+DHJ  C5   .  C  0  48.245  43.245  59.688  1  10
+DHJ  O5   .  O  0  48.343  44.415  59.301  1  11
+DHJ  C4   .  C  0  48.659  42.913  61.130  1  12
+DHJ  C2   .  C  0  47.913  43.760  62.164  1  13
+DHJ  O1   .  O  0  47.881  45.008  62.005  1  14
+DHJ  O3   .  O  0  47.365  43.166  63.136  1  15
+DHJ  HO4  .  H  0  44.391  36.462  58.381  1  16
+DHJ  H2   .  H  0  ?       ?       ?       1  17
+DHJ  H3   .  H  0  ?       ?       ?       1  18
+DHJ  HO7  .  H  0  46.236  42.347  60.823  1  19
+DHJ  1H6  .  H  0  48.097  41.162  59.268  0  20
+DHJ  2H6  .  H  0  48.114  42.226  57.821  0  21
+DHJ  1H4  .  H  0  48.436  41.853  61.321  0  22
+DHJ  2H4  .  H  0  49.733  43.130  61.230  0  23
+DHJ  HO3  .  H  0  46.943  43.803  63.700  1  24
+DHJ  H1   .  H  0  45.103  39.546  59.929  1  25
+DHJ  H7   .  H  0  45.542  40.476  57.073  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DHJ  O2  C3   DOUB  1 
+DHJ  C3  C1   SING  2 
+DHJ  C3  O4   SING  3 
+DHJ  O4  HO4  SING  4 
+DHJ  C1  C7   SING  5 
+DHJ  C1  H2   SING  6 
+DHJ  C1  H1   SING  7 
+DHJ  C7  P1   SING  8 
+DHJ  C7  H3   SING  9 
+DHJ  C7  H7   SING  10
+DHJ  P1  O6   DOUB  11
+DHJ  P1  C6   SING  12
+DHJ  P1  O7   SING  13
+DHJ  O7  HO7  SING  14
+DHJ  C6  C5   SING  15
+DHJ  C6  1H6  SING  16
+DHJ  C6  2H6  SING  17
+DHJ  C5  O5   DOUB  18
+DHJ  C5  C4   SING  19
+DHJ  C4  C2   SING  20
+DHJ  C4  1H4  SING  21
+DHJ  C4  2H4  SING  22
+DHJ  C2  O1   DOUB  23
+DHJ  C2  O3   SING  24
+DHJ  O3  HO3  SING  25
+#

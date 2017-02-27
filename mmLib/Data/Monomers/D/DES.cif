@@ -1,0 +1,112 @@
+data_DES
+#
+_chem_comp.id                   DES
+_chem_comp.name                 DIETHYLSTILBESTROL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H20 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        268.355
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DES  CP9   .  C  0  ?  ?  ?  1  1 
+DES  CP8   .  C  0  ?  ?  ?  1  2 
+DES  CP7   .  C  0  ?  ?  ?  1  3 
+DES  CP6   .  C  0  ?  ?  ?  1  4 
+DES  CP1   .  C  0  ?  ?  ?  1  5 
+DES  CP2   .  C  0  ?  ?  ?  1  6 
+DES  CP3   .  C  0  ?  ?  ?  1  7 
+DES  OP3   .  O  0  ?  ?  ?  1  8 
+DES  CP4   .  C  0  ?  ?  ?  1  9 
+DES  CP5   .  C  0  ?  ?  ?  1  10
+DES  C7    .  C  0  ?  ?  ?  1  11
+DES  C6    .  C  0  ?  ?  ?  1  12
+DES  C5    .  C  0  ?  ?  ?  1  13
+DES  C4    .  C  0  ?  ?  ?  1  14
+DES  C3    .  C  0  ?  ?  ?  1  15
+DES  O3    .  O  0  ?  ?  ?  1  16
+DES  C2    .  C  0  ?  ?  ?  1  17
+DES  C1    .  C  0  ?  ?  ?  1  18
+DES  C8    .  C  0  ?  ?  ?  1  19
+DES  C9    .  C  0  ?  ?  ?  1  20
+DES  1HP9  .  H  0  ?  ?  ?  0  21
+DES  2HP9  .  H  0  ?  ?  ?  0  22
+DES  3HP9  .  H  0  ?  ?  ?  0  23
+DES  1HP8  .  H  0  ?  ?  ?  0  24
+DES  2HP8  .  H  0  ?  ?  ?  0  25
+DES  HP1   .  H  0  ?  ?  ?  1  26
+DES  HP2   .  H  0  ?  ?  ?  1  27
+DES  3HOP  .  H  0  ?  ?  ?  0  28
+DES  HP4   .  H  0  ?  ?  ?  1  29
+DES  HP5   .  H  0  ?  ?  ?  1  30
+DES  H5    .  H  0  ?  ?  ?  1  31
+DES  H4    .  H  0  ?  ?  ?  1  32
+DES  3HO   .  H  0  ?  ?  ?  0  33
+DES  H2    .  H  0  ?  ?  ?  1  34
+DES  H1    .  H  0  ?  ?  ?  1  35
+DES  1H8   .  H  0  ?  ?  ?  0  36
+DES  2H8   .  H  0  ?  ?  ?  0  37
+DES  1H9   .  H  0  ?  ?  ?  0  38
+DES  2H9   .  H  0  ?  ?  ?  0  39
+DES  3H9   .  H  0  ?  ?  ?  0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DES  CP9  CP8   SING  1 
+DES  CP9  1HP9  SING  2 
+DES  CP9  2HP9  SING  3 
+DES  CP9  3HP9  SING  4 
+DES  CP8  CP7   SING  5 
+DES  CP8  1HP8  SING  6 
+DES  CP8  2HP8  SING  7 
+DES  CP7  CP6   SING  8 
+DES  CP7  C7    DOUB  9 
+DES  CP6  CP1   SING  10
+DES  CP6  CP5   DOUB  11
+DES  CP1  CP2   DOUB  12
+DES  CP1  HP1   SING  13
+DES  CP2  CP3   SING  14
+DES  CP2  HP2   SING  15
+DES  CP3  OP3   SING  16
+DES  CP3  CP4   DOUB  17
+DES  OP3  3HOP  SING  18
+DES  CP4  CP5   SING  19
+DES  CP4  HP4   SING  20
+DES  CP5  HP5   SING  21
+DES  C7   C6    SING  22
+DES  C7   C8    SING  23
+DES  C6   C5    SING  24
+DES  C6   C1    DOUB  25
+DES  C5   C4    DOUB  26
+DES  C5   H5    SING  27
+DES  C4   C3    SING  28
+DES  C4   H4    SING  29
+DES  C3   O3    SING  30
+DES  C3   C2    DOUB  31
+DES  O3   3HO   SING  32
+DES  C2   C1    SING  33
+DES  C2   H2    SING  34
+DES  C1   H1    SING  35
+DES  C8   C9    SING  36
+DES  C8   1H8   SING  37
+DES  C8   2H8   SING  38
+DES  C9   1H9   SING  39
+DES  C9   2H9   SING  40
+DES  C9   3H9   SING  41
+#

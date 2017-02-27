@@ -1,0 +1,77 @@
+data_CDV
+#
+_chem_comp.id                   CDV
+_chem_comp.name                 '3-METHYL-2-UREIDO-BUTYRIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C6 H12 N2 O3'
+_chem_comp.pdbx_synonyms        N-CARBAMYL-D-VALINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CDV  NT    .  N  0  53.392  80.128  -4.397  1  1 
+CDV  CT    .  C  0  52.788  80.433  -3.223  1  2 
+CDV  OT    .  O  0  52.378  81.570  -3.042  1  3 
+CDV  N     .  N  0  52.641  79.465  -2.264  1  4 
+CDV  CA    .  C  0  52.071  79.733  -0.948  1  5 
+CDV  CB    .  C  0  52.548  78.645  0.042   1  6 
+CDV  CG1   .  C  0  54.064  78.712  0.194   1  7 
+CDV  CG2   .  C  0  51.918  78.835  1.427   1  8 
+CDV  C     .  C  0  50.555  79.734  -1.062  1  9 
+CDV  O     .  O  0  49.984  78.913  -1.756  1  10
+CDV  OXT   .  O  0  49.848  80.644  -0.385  1  11
+CDV  HXT   .  H  0  ?       ?       ?       1  12
+CDV  HA    .  H  0  ?       ?       ?       1  13
+CDV  HB    .  H  0  ?       ?       ?       1  14
+CDV  1HG1  .  H  0  ?       ?       ?       0  15
+CDV  2HG1  .  H  0  ?       ?       ?       0  16
+CDV  3HG1  .  H  0  ?       ?       ?       0  17
+CDV  1HG2  .  H  0  ?       ?       ?       0  18
+CDV  2HG2  .  H  0  ?       ?       ?       0  19
+CDV  3HG2  .  H  0  ?       ?       ?       0  20
+CDV  1HN   .  H  0  ?       ?       ?       0  21
+CDV  1HT   .  H  0  ?       ?       ?       0  22
+CDV  2HT   .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CDV  NT   CT    SING  1 
+CDV  NT   1HT   SING  2 
+CDV  NT   2HT   SING  3 
+CDV  CT   OT    DOUB  4 
+CDV  CT   N     SING  5 
+CDV  N    CA    SING  6 
+CDV  N    1HN   SING  7 
+CDV  CA   CB    SING  8 
+CDV  CA   C     SING  9 
+CDV  CA   HA    SING  10
+CDV  CB   CG1   SING  11
+CDV  CB   CG2   SING  12
+CDV  CB   HB    SING  13
+CDV  CG1  1HG1  SING  14
+CDV  CG1  2HG1  SING  15
+CDV  CG1  3HG1  SING  16
+CDV  CG2  1HG2  SING  17
+CDV  CG2  2HG2  SING  18
+CDV  CG2  3HG2  SING  19
+CDV  C    O     DOUB  20
+CDV  C    OXT   SING  21
+CDV  OXT  HXT   SING  22
+#

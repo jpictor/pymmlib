@@ -1,0 +1,84 @@
+data_U19
+#
+_chem_comp.id                   U19
+_chem_comp.name                 5-IMINO-4-(2-TRIFLUOROMETHYL-PHENYLAZO)-5H-PYRAZOL-3-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H7 N6 F3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        268.201
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+U19  F3    .  F  0  16.330  0.629   14.189  1  1 
+U19  C7    .  C  0  16.877  1.015   15.327  1  2 
+U19  F1    .  F  0  18.040  1.616   15.096  1  3 
+U19  F2    .  F  0  16.097  1.965   15.821  1  4 
+U19  C3    .  C  0  17.023  -0.069  16.396  1  5 
+U19  C6    .  C  0  18.273  -0.562  16.780  1  6 
+U19  C2    .  C  0  18.382  -1.537  17.769  1  7 
+U19  C1    .  C  0  15.885  -0.583  17.030  1  8 
+U19  C4    .  C  0  15.980  -1.569  18.028  1  9 
+U19  C5    .  C  0  17.242  -2.043  18.385  1  10
+U19  N1    .  N  0  14.657  -0.113  16.661  1  11
+U19  N2    .  N  0  13.666  -0.568  17.239  1  12
+U19  C8    .  C  0  12.393  -0.183  16.958  1  13
+U19  C10   .  C  0  11.894  0.792   15.992  1  14
+U19  N5    .  N  0  12.679  1.515   15.147  1  15
+U19  N6    .  N  0  10.555  0.858   16.062  1  16
+U19  N3    .  N  0  10.081  -0.035  17.047  1  17
+U19  C9    .  C  0  11.166  -0.658  17.592  1  18
+U19  N4    .  N  0  11.176  -1.607  18.571  1  19
+U19  2HN4  .  H  0  10.378  -1.982  19.042  0  20
+U19  1HN5  .  H  0  12.181  1.692   14.298  0  21
+U19  2HN5  .  H  0  12.921  2.384   15.579  0  22
+U19  H4    .  H  0  15.092  -1.952  18.509  1  23
+U19  H5    .  H  0  17.335  -2.806  19.143  1  24
+U19  H2    .  H  0  19.356  -1.902  18.059  1  25
+U19  H6    .  H  0  19.165  -0.183  16.304  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+U19  F3   C7    SING  1 
+U19  C7   C3    SING  2 
+U19  C7   F1    SING  3 
+U19  C7   F2    SING  4 
+U19  C3   C6    DOUB  5 
+U19  C3   C1    SING  6 
+U19  C6   C2    SING  7 
+U19  C6   H6    SING  8 
+U19  C2   C5    DOUB  9 
+U19  C2   H2    SING  10
+U19  C1   N1    SING  11
+U19  C1   C4    DOUB  12
+U19  C4   H4    SING  13
+U19  C4   C5    SING  14
+U19  C5   H5    SING  15
+U19  N1   N2    DOUB  16
+U19  N2   C8    SING  17
+U19  C8   C10   DOUB  18
+U19  C8   C9    SING  19
+U19  C10  N6    SING  20
+U19  C10  N5    SING  21
+U19  N5   1HN5  SING  22
+U19  N5   2HN5  SING  23
+U19  N6   N3    DOUB  24
+U19  N3   C9    SING  25
+U19  C9   N4    DOUB  26
+U19  N4   2HN4  SING  27
+#

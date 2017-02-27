@@ -1,0 +1,50 @@
+data_ATO
+#
+_chem_comp.id                   ATO
+_chem_comp.name                 CHLOROACETONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 O1 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        92.525
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ATO  C1   .  C   0  ?  ?  ?  1  1 
+ATO  C2   .  C   0  ?  ?  ?  1  2 
+ATO  C3   .  C   0  ?  ?  ?  1  3 
+ATO  O4   .  O   0  ?  ?  ?  1  4 
+ATO  CL   .  CL  0  ?  ?  ?  0  5 
+ATO  3H1  .  H   0  ?  ?  ?  0  6 
+ATO  2H1  .  H   0  ?  ?  ?  0  7 
+ATO  1H1  .  H   0  ?  ?  ?  0  8 
+ATO  2H3  .  H   0  ?  ?  ?  0  9 
+ATO  1H3  .  H   0  ?  ?  ?  0  10
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ATO  C1  C2   SING  1
+ATO  C1  3H1  SING  2
+ATO  C1  2H1  SING  3
+ATO  C1  1H1  SING  4
+ATO  C2  C3   SING  5
+ATO  C2  O4   DOUB  6
+ATO  C3  CL   SING  7
+ATO  C3  2H3  SING  8
+ATO  C3  1H3  SING  9
+#

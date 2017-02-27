@@ -1,0 +1,106 @@
+data_T98
+#
+_chem_comp.id                   T98
+_chem_comp.name                 5-(4,4-DIMETHYL-2-THIOXO-1,4-DIHYDRO-2H-3,1-BENZOXAZIN-6-YL)-1-METHYL-1H-PYRROLE-2-CARBONITRILE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H15 N3 O1 S1'
+_chem_comp.pdbx_synonyms        TANAPROGET
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        297.374
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+T98  C1    .  C  0  13.917  16.387  23.117  1  1 
+T98  C2    .  C  0  14.157  14.914  23.541  1  2 
+T98  C3    .  C  0  14.432  14.891  25.027  1  3 
+T98  C4    .  C  0  13.422  15.041  26.009  1  4 
+T98  C5    .  C  0  13.722  15.026  27.376  1  5 
+T98  C6    .  C  0  15.053  14.941  27.795  1  6 
+T98  C7    .  C  0  16.076  14.805  26.857  1  7 
+T98  C8    .  C  0  15.754  14.777  25.495  1  8 
+T98  N1    .  N  0  16.800  14.639  24.600  1  9 
+T98  C9    .  C  0  16.579  14.608  23.248  1  10
+T98  S1    .  S  0  17.771  14.499  22.145  1  11
+T98  O1    .  O  0  15.349  14.666  22.725  1  12
+T98  C10   .  C  0  12.612  15.264  28.298  1  13
+T98  C11   .  C  0  11.238  14.977  28.164  1  14
+T98  C12   .  C  0  10.596  15.569  29.283  1  15
+T98  C13   .  C  0  11.550  16.199  30.047  1  16
+T98  N2    .  N  0  12.778  16.051  29.444  1  17
+T98  C14   .  C  0  14.021  16.625  30.004  1  18
+T98  C15   .  C  0  11.396  16.905  31.261  1  19
+T98  N3    .  N  0  11.332  17.504  32.239  1  20
+T98  C16   .  C  0  13.061  13.970  23.037  1  21
+T98  1H14  .  H  0  ?       ?       ?       0  22
+T98  2H14  .  H  0  ?       ?       ?       0  23
+T98  3H14  .  H  0  ?       ?       ?       0  24
+T98  H12   .  H  0  ?       ?       ?       1  25
+T98  H11   .  H  0  ?       ?       ?       1  26
+T98  H6    .  H  0  ?       ?       ?       1  27
+T98  H7    .  H  0  ?       ?       ?       1  28
+T98  HN1   .  H  0  ?       ?       ?       1  29
+T98  1H1   .  H  0  ?       ?       ?       0  30
+T98  2H1   .  H  0  ?       ?       ?       0  31
+T98  3H1   .  H  0  ?       ?       ?       0  32
+T98  1H16  .  H  0  ?       ?       ?       0  33
+T98  2H16  .  H  0  ?       ?       ?       0  34
+T98  3H16  .  H  0  ?       ?       ?       0  35
+T98  H4    .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+T98  C1   C2    SING  1 
+T98  C1   1H1   SING  2 
+T98  C1   2H1   SING  3 
+T98  C1   3H1   SING  4 
+T98  C2   O1    SING  5 
+T98  C2   C16   SING  6 
+T98  C2   C3    SING  7 
+T98  C3   C8    AROM  8 
+T98  C3   C4    AROM  9 
+T98  C4   C5    AROM  10
+T98  C4   H4    SING  11
+T98  C5   C10   SING  12
+T98  C5   C6    AROM  13
+T98  C6   C7    AROM  14
+T98  C6   H6    SING  15
+T98  C7   C8    AROM  16
+T98  C7   H7    SING  17
+T98  C8   N1    SING  18
+T98  N1   C9    SING  19
+T98  N1   HN1   SING  20
+T98  C9   S1    DOUB  21
+T98  C9   O1    SING  22
+T98  C10  C11   DOUB  23
+T98  C10  N2    SING  24
+T98  C11  C12   SING  25
+T98  C11  H11   SING  26
+T98  C12  C13   DOUB  27
+T98  C12  H12   SING  28
+T98  C13  N2    SING  29
+T98  C13  C15   SING  30
+T98  N2   C14   SING  31
+T98  C14  1H14  SING  32
+T98  C14  2H14  SING  33
+T98  C14  3H14  SING  34
+T98  C15  N3    TRIP  35
+T98  C16  1H16  SING  36
+T98  C16  2H16  SING  37
+T98  C16  3H16  SING  38
+#

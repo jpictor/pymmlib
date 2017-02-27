@@ -1,0 +1,69 @@
+data_G2H
+#
+_chem_comp.id                   G2H
+_chem_comp.name                 '2-HYDROXY-1-(HYDROXYMETHYL)ETHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H9 O6 P1'
+_chem_comp.pdbx_synonyms        GLYCEROL-2-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        172.074
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G2H  C1   .  C  0  64.978  48.678  111.226  1  1 
+G2H  C2   .  C  0  66.258  48.375  111.610  1  2 
+G2H  C3   .  C  0  67.072  49.261  112.646  1  3 
+G2H  P    .  P  0  67.470  46.891  109.604  1  4 
+G2H  O11  .  O  0  64.104  48.352  110.574  1  5 
+G2H  O31  .  O  0  66.626  49.986  113.885  1  6 
+G2H  O1P  .  O  0  67.059  47.263  111.182  1  7 
+G2H  O2P  .  O  0  68.922  46.357  109.638  1  8 
+G2H  O3P  .  O  0  67.376  48.191  108.759  1  9 
+G2H  O4P  .  O  0  66.453  45.798  109.108  1  10
+G2H  H11  .  H  0  ?       ?       ?        1  11
+G2H  1H1  .  H  0  ?       ?       ?        0  12
+G2H  2H1  .  H  0  ?       ?       ?        0  13
+G2H  H2   .  H  0  ?       ?       ?        1  14
+G2H  H3P  .  H  0  ?       ?       ?        1  15
+G2H  H4P  .  H  0  ?       ?       ?        1  16
+G2H  1H3  .  H  0  ?       ?       ?        0  17
+G2H  2H3  .  H  0  ?       ?       ?        0  18
+G2H  H31  .  H  0  ?       ?       ?        1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G2H  C1   O11  SING  1 
+G2H  C1   1H1  SING  2 
+G2H  C1   2H1  SING  3 
+G2H  C1   C2   SING  4 
+G2H  C2   H2   SING  5 
+G2H  C2   O1P  SING  6 
+G2H  C2   C3   SING  7 
+G2H  C3   1H3  SING  8 
+G2H  C3   2H3  SING  9 
+G2H  C3   O31  SING  10
+G2H  P    O1P  SING  11
+G2H  P    O2P  DOUB  12
+G2H  P    O3P  SING  13
+G2H  P    O4P  SING  14
+G2H  O11  H11  SING  15
+G2H  O31  H31  SING  16
+G2H  O3P  H3P  SING  17
+G2H  O4P  H4P  SING  18
+#

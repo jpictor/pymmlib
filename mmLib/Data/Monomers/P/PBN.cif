@@ -1,0 +1,83 @@
+data_PBN
+#
+_chem_comp.id                   PBN
+_chem_comp.name                 4-PHENYLBUTYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H15 N1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        149.235
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PBN  C1   .  C  0  ?  ?  ?  1  1 
+PBN  C2   .  C  0  ?  ?  ?  1  2 
+PBN  C3   .  C  0  ?  ?  ?  1  3 
+PBN  C4   .  C  0  ?  ?  ?  1  4 
+PBN  C1'  .  C  0  ?  ?  ?  1  5 
+PBN  C2'  .  C  0  ?  ?  ?  1  6 
+PBN  C3'  .  C  0  ?  ?  ?  1  7 
+PBN  C4'  .  C  0  ?  ?  ?  1  8 
+PBN  C5'  .  C  0  ?  ?  ?  1  9 
+PBN  C6'  .  C  0  ?  ?  ?  1  10
+PBN  N    .  N  0  ?  ?  ?  1  11
+PBN  1H1  .  H  0  ?  ?  ?  0  12
+PBN  2H1  .  H  0  ?  ?  ?  0  13
+PBN  1H2  .  H  0  ?  ?  ?  0  14
+PBN  2H2  .  H  0  ?  ?  ?  0  15
+PBN  1H3  .  H  0  ?  ?  ?  0  16
+PBN  2H3  .  H  0  ?  ?  ?  0  17
+PBN  1H4  .  H  0  ?  ?  ?  0  18
+PBN  2H4  .  H  0  ?  ?  ?  0  19
+PBN  H2'  .  H  0  ?  ?  ?  1  20
+PBN  H3'  .  H  0  ?  ?  ?  1  21
+PBN  H4'  .  H  0  ?  ?  ?  1  22
+PBN  H5'  .  H  0  ?  ?  ?  1  23
+PBN  H6'  .  H  0  ?  ?  ?  1  24
+PBN  1HN  .  H  0  ?  ?  ?  0  25
+PBN  2HN  .  H  0  ?  ?  ?  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PBN  C1   C2   SING  1 
+PBN  C1   N    SING  2 
+PBN  C1   1H1  SING  3 
+PBN  C1   2H1  SING  4 
+PBN  C2   C3   SING  5 
+PBN  C2   1H2  SING  6 
+PBN  C2   2H2  SING  7 
+PBN  C3   C4   SING  8 
+PBN  C3   1H3  SING  9 
+PBN  C3   2H3  SING  10
+PBN  C4   C1'  SING  11
+PBN  C4   1H4  SING  12
+PBN  C4   2H4  SING  13
+PBN  C1'  C2'  DOUB  14
+PBN  C1'  C6'  SING  15
+PBN  C2'  C3'  SING  16
+PBN  C2'  H2'  SING  17
+PBN  C3'  C4'  DOUB  18
+PBN  C3'  H3'  SING  19
+PBN  C4'  C5'  SING  20
+PBN  C4'  H4'  SING  21
+PBN  C5'  C6'  DOUB  22
+PBN  C5'  H5'  SING  23
+PBN  C6'  H6'  SING  24
+PBN  N    1HN  SING  25
+PBN  N    2HN  SING  26
+#

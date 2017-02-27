@@ -1,0 +1,86 @@
+data_ABH
+#
+_chem_comp.id                   ABH
+_chem_comp.name                 '2(S)-AMINO-6-BORONOHEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H15 N1 O5 B1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       191.998
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABH  N     .  N  0   ?  ?  ?  1  1 
+ABH  CA    .  C  0   ?  ?  ?  1  2 
+ABH  C     .  C  0   ?  ?  ?  1  3 
+ABH  O     .  O  0   ?  ?  ?  1  4 
+ABH  OT    .  O  0   ?  ?  ?  1  5 
+ABH  CB    .  C  0   ?  ?  ?  1  6 
+ABH  CG    .  C  0   ?  ?  ?  1  7 
+ABH  CD    .  C  0   ?  ?  ?  1  8 
+ABH  CE    .  C  0   ?  ?  ?  1  9 
+ABH  B     .  B  -1  ?  ?  ?  1  10
+ABH  O2    .  O  0   ?  ?  ?  1  11
+ABH  O1    .  O  0   ?  ?  ?  1  12
+ABH  O3    .  O  0   ?  ?  ?  1  13
+ABH  1HOT  .  H  0   ?  ?  ?  0  14
+ABH  HCA   .  H  0   ?  ?  ?  1  15
+ABH  1HCB  .  H  0   ?  ?  ?  0  16
+ABH  2HCB  .  H  0   ?  ?  ?  0  17
+ABH  1HCG  .  H  0   ?  ?  ?  0  18
+ABH  2HCG  .  H  0   ?  ?  ?  0  19
+ABH  1HCD  .  H  0   ?  ?  ?  0  20
+ABH  2HCD  .  H  0   ?  ?  ?  0  21
+ABH  1HCE  .  H  0   ?  ?  ?  0  22
+ABH  2HCE  .  H  0   ?  ?  ?  0  23
+ABH  HO1   .  H  0   ?  ?  ?  1  24
+ABH  HO2   .  H  0   ?  ?  ?  1  25
+ABH  HO3   .  H  0   ?  ?  ?  1  26
+ABH  1HN   .  H  0   ?  ?  ?  0  27
+ABH  2HN   .  H  0   ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABH  N   CA    SING  1 
+ABH  N   1HN   SING  2 
+ABH  N   2HN   SING  3 
+ABH  CA  C     SING  4 
+ABH  CA  CB    SING  5 
+ABH  CA  HCA   SING  6 
+ABH  C   O     DOUB  7 
+ABH  C   OT    SING  8 
+ABH  OT  1HOT  SING  9 
+ABH  CB  CG    SING  10
+ABH  CB  1HCB  SING  11
+ABH  CB  2HCB  SING  12
+ABH  CG  CD    SING  13
+ABH  CG  1HCG  SING  14
+ABH  CG  2HCG  SING  15
+ABH  CD  CE    SING  16
+ABH  CD  1HCD  SING  17
+ABH  CD  2HCD  SING  18
+ABH  CE  B     SING  19
+ABH  CE  1HCE  SING  20
+ABH  CE  2HCE  SING  21
+ABH  B   O2    SING  22
+ABH  B   O1    SING  23
+ABH  B   O3    SING  24
+ABH  O2  HO2   SING  25
+ABH  O1  HO1   SING  26
+ABH  O3  HO3   SING  27
+#

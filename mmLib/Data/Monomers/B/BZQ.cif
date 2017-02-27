@@ -1,0 +1,81 @@
+data_BZQ
+#
+_chem_comp.id                   BZQ
+_chem_comp.name                 DIPHENYLMETHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H10 O1'
+_chem_comp.pdbx_synonyms        'BENZENE, BENZOYL-; BENZOPHENONE (8CI); BENZOYLBENZENE; DIPHENYL KETONE; KETONE, DIPHENYL; METHANONE, DIPHENYL- (9CI); PHENYL KETONE; WLN: RVR'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        182.221
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BZQ  C1   .  C  0  14.988  4.107  25.836  1  1 
+BZQ  C2   .  C  0  14.243  4.572  26.948  1  2 
+BZQ  C3   .  C  0  12.894  4.899  26.796  1  3 
+BZQ  C4   .  C  0  12.292  4.763  25.532  1  4 
+BZQ  C5   .  C  0  13.018  4.306  24.421  1  5 
+BZQ  C6   .  C  0  14.377  3.975  24.589  1  6 
+BZQ  C7   .  C  0  12.409  4.143  23.041  1  7 
+BZQ  C8   .  C  0  10.14   4.756  22.183  1  8 
+BZQ  C9   .  C  0  11.457  5.126  22.434  1  9 
+BZQ  C10  .  C  0  11.874  6.411  22.088  1  10
+BZQ  C11  .  C  0  10.989  7.299  21.519  1  11
+BZQ  C12  .  C  0  9.669   6.915  21.28   1  12
+BZQ  C13  .  C  0  9.246   5.639  21.614  1  13
+BZQ  O    .  O  0  12.764  3.025  22.265  1  14
+BZQ  H1   .  H  0  ?       ?      ?       1  15
+BZQ  H2   .  H  0  ?       ?      ?       1  16
+BZQ  H3   .  H  0  ?       ?      ?       1  17
+BZQ  H4   .  H  0  ?       ?      ?       1  18
+BZQ  H6   .  H  0  ?       ?      ?       1  19
+BZQ  H8   .  H  0  ?       ?      ?       1  20
+BZQ  H10  .  H  0  ?       ?      ?       1  21
+BZQ  H11  .  H  0  ?       ?      ?       1  22
+BZQ  H12  .  H  0  ?       ?      ?       1  23
+BZQ  H13  .  H  0  ?       ?      ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BZQ  C1   H1   SING  1 
+BZQ  C1   C2   AROM  2 
+BZQ  C1   C6   AROM  3 
+BZQ  C2   C3   AROM  4 
+BZQ  C2   H2   SING  5 
+BZQ  C3   C4   AROM  6 
+BZQ  C3   H3   SING  7 
+BZQ  C4   C5   AROM  8 
+BZQ  C4   H4   SING  9 
+BZQ  C5   C6   AROM  10
+BZQ  C5   C7   SING  11
+BZQ  C6   H6   SING  12
+BZQ  C7   C9   SING  13
+BZQ  C7   O    DOUB  14
+BZQ  C8   C9   AROM  15
+BZQ  C8   C13  AROM  16
+BZQ  C8   H8   SING  17
+BZQ  C9   C10  AROM  18
+BZQ  C10  C11  AROM  19
+BZQ  C10  H10  SING  20
+BZQ  C11  C12  AROM  21
+BZQ  C11  H11  SING  22
+BZQ  C12  C13  AROM  23
+BZQ  C12  H12  SING  24
+BZQ  C13  H13  SING  25
+#

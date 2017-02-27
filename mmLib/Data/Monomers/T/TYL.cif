@@ -1,0 +1,71 @@
+data_TYL
+#
+_chem_comp.id                   TYL
+_chem_comp.name                 'N-(4-HYDROXYPHENYL)ACETAMIDE (TYLENOL)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H9 N1 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        151.165
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYL  C1   .  C  0  ?  ?  ?  1  1 
+TYL  C2   .  C  0  ?  ?  ?  1  2 
+TYL  C3   .  C  0  ?  ?  ?  1  3 
+TYL  C4   .  C  0  ?  ?  ?  1  4 
+TYL  C5   .  C  0  ?  ?  ?  1  5 
+TYL  C6   .  C  0  ?  ?  ?  1  6 
+TYL  N    .  N  0  ?  ?  ?  1  7 
+TYL  C    .  C  0  ?  ?  ?  1  8 
+TYL  CM   .  C  0  ?  ?  ?  1  9 
+TYL  O4   .  O  0  ?  ?  ?  1  10
+TYL  O    .  O  0  ?  ?  ?  1  11
+TYL  H2   .  H  0  ?  ?  ?  1  12
+TYL  H3   .  H  0  ?  ?  ?  1  13
+TYL  H5   .  H  0  ?  ?  ?  1  14
+TYL  H6   .  H  0  ?  ?  ?  1  15
+TYL  HN   .  H  0  ?  ?  ?  1  16
+TYL  1HM  .  H  0  ?  ?  ?  0  17
+TYL  2HM  .  H  0  ?  ?  ?  0  18
+TYL  3HM  .  H  0  ?  ?  ?  0  19
+TYL  HO4  .  H  0  ?  ?  ?  1  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYL  C1  C2   DOUB  1 
+TYL  C1  C6   SING  2 
+TYL  C1  N    SING  3 
+TYL  C2  C3   SING  4 
+TYL  C2  H2   SING  5 
+TYL  C3  C4   DOUB  6 
+TYL  C3  H3   SING  7 
+TYL  C4  C5   SING  8 
+TYL  C4  O4   SING  9 
+TYL  C5  C6   DOUB  10
+TYL  C5  H5   SING  11
+TYL  C6  H6   SING  12
+TYL  N   C    SING  13
+TYL  N   HN   SING  14
+TYL  C   O    DOUB  15
+TYL  C   CM   SING  16
+TYL  CM  1HM  SING  17
+TYL  CM  2HM  SING  18
+TYL  CM  3HM  SING  19
+TYL  O4  HO4  SING  20
+#

@@ -1,0 +1,105 @@
+data_MPN
+#
+_chem_comp.id                   MPN
+_chem_comp.name                 'PHOSPHORIC ACID MONO-(2-AMINO-4-OXO-5,6-DITHIOXO-1,5,6,7,8A,9,10,10A-OCTAHYDRO-4H-8-OXA-1,3,9,10-TETRAAZA-ANTHRACEN-7-YLMETHYL) ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N5 O6 P1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        393.328
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MPN  O3P   .  O  0  ?  ?  ?  1  1 
+MPN  P     .  P  0  ?  ?  ?  1  2 
+MPN  O1P   .  O  0  ?  ?  ?  1  3 
+MPN  O2P   .  O  0  ?  ?  ?  1  4 
+MPN  O4'   .  O  0  ?  ?  ?  1  5 
+MPN  C4'   .  C  0  ?  ?  ?  1  6 
+MPN  C3'   .  C  0  ?  ?  ?  1  7 
+MPN  C2'   .  C  0  ?  ?  ?  1  8 
+MPN  S2'   .  S  0  ?  ?  ?  1  9 
+MPN  O3'   .  O  0  ?  ?  ?  1  10
+MPN  C7    .  C  0  ?  ?  ?  1  11
+MPN  C6    .  C  0  ?  ?  ?  1  12
+MPN  C1'   .  C  0  ?  ?  ?  1  13
+MPN  S1'   .  S  0  ?  ?  ?  1  14
+MPN  N5    .  N  0  ?  ?  ?  1  15
+MPN  N8    .  N  0  ?  ?  ?  1  16
+MPN  C10   .  C  0  ?  ?  ?  1  17
+MPN  C9    .  C  0  ?  ?  ?  1  18
+MPN  C4    .  C  0  ?  ?  ?  1  19
+MPN  O4    .  O  0  ?  ?  ?  1  20
+MPN  N3    .  N  0  ?  ?  ?  1  21
+MPN  C2    .  C  0  ?  ?  ?  1  22
+MPN  N1    .  N  0  ?  ?  ?  1  23
+MPN  N2    .  N  0  ?  ?  ?  1  24
+MPN  2HOP  .  H  0  ?  ?  ?  0  25
+MPN  3HOP  .  H  0  ?  ?  ?  0  26
+MPN  1H4'  .  H  0  ?  ?  ?  0  27
+MPN  2H4'  .  H  0  ?  ?  ?  0  28
+MPN  H3'   .  H  0  ?  ?  ?  1  29
+MPN  H6    .  H  0  ?  ?  ?  1  30
+MPN  H7    .  H  0  ?  ?  ?  1  31
+MPN  H5    .  H  0  ?  ?  ?  1  32
+MPN  H8    .  H  0  ?  ?  ?  1  33
+MPN  H1    .  H  0  ?  ?  ?  1  34
+MPN  1H2   .  H  0  ?  ?  ?  0  35
+MPN  2H2   .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MPN  O3P  P     SING  1 
+MPN  O3P  3HOP  SING  2 
+MPN  P    O1P   DOUB  3 
+MPN  P    O2P   SING  4 
+MPN  P    O4'   SING  5 
+MPN  O2P  2HOP  SING  6 
+MPN  O4'  C4'   SING  7 
+MPN  C4'  C3'   SING  8 
+MPN  C4'  1H4'  SING  9 
+MPN  C4'  2H4'  SING  10
+MPN  C3'  C2'   SING  11
+MPN  C3'  O3'   SING  12
+MPN  C3'  H3'   SING  13
+MPN  C2'  S2'   DOUB  14
+MPN  C2'  C1'   SING  15
+MPN  O3'  C7    SING  16
+MPN  C7   C6    SING  17
+MPN  C7   N8    SING  18
+MPN  C7   H7    SING  19
+MPN  C6   C1'   SING  20
+MPN  C6   N5    SING  21
+MPN  C6   H6    SING  22
+MPN  C1'  S1'   DOUB  23
+MPN  N5   C9    SING  24
+MPN  N5   H5    SING  25
+MPN  N8   C10   SING  26
+MPN  N8   H8    SING  27
+MPN  C10  C9    DOUB  28
+MPN  C10  N1    SING  29
+MPN  C9   C4    SING  30
+MPN  C4   O4    DOUB  31
+MPN  C4   N3    SING  32
+MPN  N3   C2    DOUB  33
+MPN  C2   N1    SING  34
+MPN  C2   N2    SING  35
+MPN  N1   H1    SING  36
+MPN  N2   1H2   SING  37
+MPN  N2   2H2   SING  38
+#

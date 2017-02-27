@@ -1,0 +1,62 @@
+data_PGC
+#
+_chem_comp.id                   PGC
+_chem_comp.name                 O-PHOSPHOGLYCOLOHYDROXAMATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C2 H6 N1 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        171.046
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PGC  C1    .  C  0  ?  ?  ?  1  1 
+PGC  C2    .  C  0  ?  ?  ?  1  2 
+PGC  N2    .  N  0  ?  ?  ?  1  3 
+PGC  O2    .  O  0  ?  ?  ?  1  4 
+PGC  O1    .  O  0  ?  ?  ?  1  5 
+PGC  O1P   .  O  0  ?  ?  ?  1  6 
+PGC  O2P   .  O  0  ?  ?  ?  1  7 
+PGC  O3P   .  O  0  ?  ?  ?  1  8 
+PGC  O4P   .  O  0  ?  ?  ?  1  9 
+PGC  P     .  P  0  ?  ?  ?  1  10
+PGC  1H2   .  H  0  ?  ?  ?  0  11
+PGC  2H2   .  H  0  ?  ?  ?  0  12
+PGC  HN    .  H  0  ?  ?  ?  1  13
+PGC  HO2   .  H  0  ?  ?  ?  1  14
+PGC  3HOP  .  H  0  ?  ?  ?  0  15
+PGC  4HOP  .  H  0  ?  ?  ?  0  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PGC  C1   C2    SING  1 
+PGC  C1   N2    SING  2 
+PGC  C1   O1    DOUB  3 
+PGC  C2   O1P   SING  4 
+PGC  C2   1H2   SING  5 
+PGC  C2   2H2   SING  6 
+PGC  N2   O2    SING  7 
+PGC  N2   HN    SING  8 
+PGC  O2   HO2   SING  9 
+PGC  O1P  P     SING  10
+PGC  O2P  P     DOUB  11
+PGC  O3P  P     SING  12
+PGC  O3P  3HOP  SING  13
+PGC  O4P  P     SING  14
+PGC  O4P  4HOP  SING  15
+#

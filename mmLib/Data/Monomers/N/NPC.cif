@@ -1,0 +1,109 @@
+data_NPC
+#
+_chem_comp.id                   NPC
+_chem_comp.name                 '4-HYDROXY-3-NITROPHENYLACETYL-EPSILON-AMINOCAPROIC ACID ANION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H17 N2 O6'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       309.298
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NPC  C1    .  C  0   ?  ?  ?  1  1 
+NPC  C2    .  C  0   ?  ?  ?  1  2 
+NPC  C3    .  C  0   ?  ?  ?  1  3 
+NPC  N3    .  N  0   ?  ?  ?  1  4 
+NPC  O3A   .  O  0   ?  ?  ?  1  5 
+NPC  O3B   .  O  0   ?  ?  ?  1  6 
+NPC  C4    .  C  0   ?  ?  ?  1  7 
+NPC  O4    .  O  0   ?  ?  ?  1  8 
+NPC  C5    .  C  0   ?  ?  ?  1  9 
+NPC  C6    .  C  0   ?  ?  ?  1  10
+NPC  C7    .  C  0   ?  ?  ?  1  11
+NPC  C8    .  C  0   ?  ?  ?  1  12
+NPC  O8    .  O  0   ?  ?  ?  1  13
+NPC  N9    .  N  0   ?  ?  ?  1  14
+NPC  C10   .  C  0   ?  ?  ?  1  15
+NPC  C11   .  C  0   ?  ?  ?  1  16
+NPC  C12   .  C  0   ?  ?  ?  1  17
+NPC  C13   .  C  0   ?  ?  ?  1  18
+NPC  C14   .  C  0   ?  ?  ?  1  19
+NPC  C15   .  C  0   ?  ?  ?  1  20
+NPC  O15   .  O  0   ?  ?  ?  1  21
+NPC  O16   .  O  -1  ?  ?  ?  1  22
+NPC  H2    .  H  0   ?  ?  ?  1  23
+NPC  HO4   .  H  0   ?  ?  ?  1  24
+NPC  H5    .  H  0   ?  ?  ?  1  25
+NPC  H6    .  H  0   ?  ?  ?  1  26
+NPC  1H7   .  H  0   ?  ?  ?  0  27
+NPC  2H7   .  H  0   ?  ?  ?  0  28
+NPC  HN9   .  H  0   ?  ?  ?  1  29
+NPC  1H10  .  H  0   ?  ?  ?  0  30
+NPC  2H10  .  H  0   ?  ?  ?  0  31
+NPC  1H11  .  H  0   ?  ?  ?  0  32
+NPC  2H11  .  H  0   ?  ?  ?  0  33
+NPC  1H12  .  H  0   ?  ?  ?  0  34
+NPC  2H12  .  H  0   ?  ?  ?  0  35
+NPC  1H13  .  H  0   ?  ?  ?  0  36
+NPC  2H13  .  H  0   ?  ?  ?  0  37
+NPC  1H14  .  H  0   ?  ?  ?  0  38
+NPC  2H14  .  H  0   ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NPC  C1   C2    DOUB  1 
+NPC  C1   C6    SING  2 
+NPC  C1   C7    SING  3 
+NPC  C2   C3    SING  4 
+NPC  C2   H2    SING  5 
+NPC  C3   N3    SING  6 
+NPC  C3   C4    DOUB  7 
+NPC  N3   O3A   DOUB  8 
+NPC  N3   O3B   DOUB  9 
+NPC  C4   O4    SING  10
+NPC  C4   C5    SING  11
+NPC  O4   HO4   SING  12
+NPC  C5   C6    DOUB  13
+NPC  C5   H5    SING  14
+NPC  C6   H6    SING  15
+NPC  C7   C8    SING  16
+NPC  C7   1H7   SING  17
+NPC  C7   2H7   SING  18
+NPC  C8   O8    DOUB  19
+NPC  C8   N9    SING  20
+NPC  N9   C10   SING  21
+NPC  N9   HN9   SING  22
+NPC  C10  C11   SING  23
+NPC  C10  1H10  SING  24
+NPC  C10  2H10  SING  25
+NPC  C11  C12   SING  26
+NPC  C11  1H11  SING  27
+NPC  C11  2H11  SING  28
+NPC  C12  C13   SING  29
+NPC  C12  1H12  SING  30
+NPC  C12  2H12  SING  31
+NPC  C13  C14   SING  32
+NPC  C13  1H13  SING  33
+NPC  C13  2H13  SING  34
+NPC  C14  C15   SING  35
+NPC  C14  1H14  SING  36
+NPC  C14  2H14  SING  37
+NPC  C15  O15   DOUB  38
+NPC  C15  O16   SING  39
+#

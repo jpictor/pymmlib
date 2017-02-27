@@ -1,0 +1,75 @@
+data_ACA
+#
+_chem_comp.id                   ACA
+_chem_comp.name                 '6-AMINOHEXANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C6 H13 N1 O2'
+_chem_comp.pdbx_synonyms        'AMINOCAPROIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        131.174
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ACA  C1    .  C  0  ?  ?  ?  1  1 
+ACA  O1    .  O  0  ?  ?  ?  1  2 
+ACA  O2    .  O  0  ?  ?  ?  1  3 
+ACA  C2    .  C  0  ?  ?  ?  1  4 
+ACA  C3    .  C  0  ?  ?  ?  1  5 
+ACA  C4    .  C  0  ?  ?  ?  1  6 
+ACA  C5    .  C  0  ?  ?  ?  1  7 
+ACA  C6    .  C  0  ?  ?  ?  1  8 
+ACA  N6    .  N  0  ?  ?  ?  1  9 
+ACA  HO2   .  H  0  ?  ?  ?  1  10
+ACA  1H2   .  H  0  ?  ?  ?  0  11
+ACA  2H2   .  H  0  ?  ?  ?  0  12
+ACA  1H3   .  H  0  ?  ?  ?  0  13
+ACA  2H3   .  H  0  ?  ?  ?  0  14
+ACA  1H4   .  H  0  ?  ?  ?  0  15
+ACA  2H4   .  H  0  ?  ?  ?  0  16
+ACA  1H5   .  H  0  ?  ?  ?  0  17
+ACA  2H5   .  H  0  ?  ?  ?  0  18
+ACA  1H6   .  H  0  ?  ?  ?  0  19
+ACA  2H6   .  H  0  ?  ?  ?  0  20
+ACA  1HN6  .  H  0  ?  ?  ?  0  21
+ACA  2HN6  .  H  0  ?  ?  ?  0  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ACA  C1  C2    SING  1 
+ACA  C1  O1    DOUB  2 
+ACA  C1  O2    SING  3 
+ACA  O2  HO2   SING  4 
+ACA  C2  C3    SING  5 
+ACA  C2  1H2   SING  6 
+ACA  C2  2H2   SING  7 
+ACA  C3  C4    SING  8 
+ACA  C3  1H3   SING  9 
+ACA  C3  2H3   SING  10
+ACA  C4  C5    SING  11
+ACA  C4  1H4   SING  12
+ACA  C4  2H4   SING  13
+ACA  C5  C6    SING  14
+ACA  C5  1H5   SING  15
+ACA  C5  2H5   SING  16
+ACA  C6  N6    SING  17
+ACA  C6  1H6   SING  18
+ACA  C6  2H6   SING  19
+ACA  N6  1HN6  SING  20
+ACA  N6  2HN6  SING  21
+#

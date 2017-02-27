@@ -1,0 +1,61 @@
+data_NMG
+#
+_chem_comp.id                   NMG
+_chem_comp.name                 'GUANIDINO ACETATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H7 N3 O2'
+_chem_comp.pdbx_synonyms        N-[AMINO(IMINO)METHYL]GLYCINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        117.107
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NMG  CG    .  C  0  3.045  -0.666  -5.062  1  1 
+NMG  CD    .  C  0  3.409  0.212   -3.831  1  2 
+NMG  NE    .  N  0  4.775  0.643   -3.868  1  3 
+NMG  CZ    .  C  0  5.831  -0.159  -3.776  1  4 
+NMG  NH1   .  N  0  7.032  0.361   -3.853  1  5 
+NMG  NH2   .  N  0  5.663  -1.485  -3.624  1  6 
+NMG  O1    .  O  0  2.115  -1.438  -4.935  1  7 
+NMG  O2    .  O  0  3.873  -0.419  -6.120  1  8 
+NMG  1HH1  .  H  0  ?      ?       ?       0  9 
+NMG  2HH1  .  H  0  ?      ?       ?       0  10
+NMG  HH2   .  H  0  ?      ?       ?       1  11
+NMG  HNE   .  H  0  ?      ?       ?       1  12
+NMG  1HD   .  H  0  ?      ?       ?       0  13
+NMG  2HD   .  H  0  ?      ?       ?       0  14
+NMG  HO1   .  H  0  ?      ?       ?       1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NMG  CG   CD    SING  1 
+NMG  CG   O1    SING  2 
+NMG  CG   O2    DOUB  3 
+NMG  CD   NE    SING  4 
+NMG  CD   1HD   SING  5 
+NMG  CD   2HD   SING  6 
+NMG  NE   CZ    SING  7 
+NMG  NE   HNE   SING  8 
+NMG  CZ   NH1   SING  9 
+NMG  CZ   NH2   DOUB  10
+NMG  NH1  1HH1  SING  11
+NMG  NH1  2HH1  SING  12
+NMG  NH2  HH2   SING  13
+NMG  O1   HO1   SING  14
+#

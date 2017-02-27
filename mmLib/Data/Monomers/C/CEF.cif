@@ -1,0 +1,158 @@
+data_CEF
+#
+_chem_comp.id                   CEF
+_chem_comp.name                 'CEFOTAXIME GROUP'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H19 N5 O7 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  N
+_chem_comp.pdbx_ambiguous_flag  n
+_chem_comp.mon_nstd_flag        457.475
+_chem_comp.formula_weight       ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+CEF  INCHI             InChI=1/C16H19N5O7S2/c1-27-10(23)3-7-5-29-14(20-11(7)15(25)26)8(4-22)18-13(24)12(21-28-2)9-6-30-16(17)19-9/h4,6,8,14,20H,3,5H2,1-2H3,(H2,17,19)(H,18,24)(H,25,26)/b21-12-/t8-,14-/m1/s1  'InChi'               1    
+CEF  SMILES_CANONICAL  CC(=O)OC/C/1=C(\C(=O)O)/N[C@@H]([C@@H](C=O)NC(=O)C(=NOC)/C/2=C/S/C(=N2)/N)SC1                                                                                                            'OpenEye OEToolkits'  1.4.2
+CEF  SMILES            CC(=O)OCC1=C(C(=O)O)NC(C(C=O)NC(=O)C(=NOC)C2=CSC(=N2)N)SC1                                                                                                                               'OpenEye OEToolkits'  1.4.2
+CEF  SMILES_CANONICAL  CO\N=C(/C(=O)N[C@H](C=O)[C@@H]1NC(=C(COC(C)=O)CS1)C(O)=O)c2csc(N)n2                                                                                                                      'CACTVS'              3.341
+CEF  SMILES            CON=C(C(=O)N[CH](C=O)[CH]1NC(=C(COC(C)=O)CS1)C(O)=O)c2csc(N)n2                                                                                                                           'CACTVS'              3.341
+CEF  InChI             1/C16H19N5O7S2/c1-7(23)28-4-8-5-29-14(20-11(8)15(25)26)9(3-22)18-13(24)12(21-27-2)10-6-30-16(17)19-10/h3,6,9,14,20H,4-5H2,1-2H3,(H2,17,19)(H,18,24)(H,25,26)/b21-12-/t9-,14-/m1/s1       'InChI'               1.01 
+#
+_pdbx_chem_comp_identifier.comp_id          CEF
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '(2R)-5-(acetyloxymethyl)-2-[(1S)-1-[[2-(2-amino-1,3-thiazol-4-yl)-2-methoxyimino-ethanoyl]amino]-2-oxo-ethyl]-3,6-dihydro-2H-1,3-thiazine-4-carboxylic acid'
+_pdbx_chem_comp_identifier.program          'OpenEye OEToolkits'
+_pdbx_chem_comp_identifier.program_version  1.4.2
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_model_Cartn_x_ideal
+_chem_comp_atom.pdbx_model_Cartn_y_ideal
+_chem_comp_atom.pdbx_model_Cartn_z_ideal
+_chem_comp_atom.pdbx_ordinal
+CEF  S1    S1    S  0  17.748  -13.029  42.987  1  N  N  N  -3.318  -1.172  -0.950  1 
+CEF  C2    C2    C  0  18.146  -11.819  44.238  1  N  N  N  -3.810  0.572   -0.840  2 
+CEF  C3    C3    C  0  18.954  -10.717  43.847  1  N  N  N  -5.107  0.812   -0.089  3 
+CEF  C3'   C3'   C  0  19.840  -10.169  44.694  1  N  N  N  -5.757  2.120   -0.467  4 
+CEF  C2'   C2'   C  0  ?       ?        ?       1  N  N  N  -6.716  1.919   -1.609  5 
+CEF  O1'   O1'   O  0  ?       ?        ?       1  N  N  N  -6.970  0.860   -2.167  6 
+CEF  O2'   O2'   O  0  ?       ?        ?       1  N  N  N  -7.246  3.138   -1.932  7 
+CEF  C1'   C1'   C  0  ?       ?        ?       1  N  N  N  -8.174  3.139   -3.021  8 
+CEF  C4    C4    C  0  18.795  -10.108  42.490  1  N  N  N  -5.577  -0.065  0.827   9 
+CEF  C4'   C4'   C  0  19.674  -8.923   41.918  1  N  N  N  -6.870  0.162   1.496   10
+CEF  O4A   O4A   O  0  19.079  -7.876   41.567  1  N  N  N  -7.804  0.748   0.991   11
+CEF  O4B   O4B   O  0  20.917  -9.069   41.826  1  N  N  N  -6.833  -0.378  2.729   12
+CEF  N5    N5    N  0  17.740  -10.509  41.741  1  N  N  N  -4.936  -1.226  1.208   13
+CEF  C6    C6    C  0  17.120  -11.852  41.766  1  N  R  N  -3.608  -1.627  0.788   14
+CEF  C7    C7    C  0  17.117  -12.449  40.274  1  N  S  N  -3.449  -3.133  0.948   15
+CEF  C8    C8    C  0  16.646  -11.350  39.341  1  N  N  N  -3.640  -3.565  2.381   16
+CEF  O9    O9    O  0  17.302  -11.031  38.346  1  N  N  N  -2.913  -3.200  3.302   17
+CEF  N10   N10   N  0  18.436  -12.943  39.903  1  N  N  N  -4.412  -3.844  0.154   18
+CEF  C11   C11   C  0  18.727  -14.238  39.953  1  N  N  N  -4.061  -4.754  -0.823  19
+CEF  O12   O12   O  0  17.855  -15.100  40.085  1  N  N  N  -2.949  -5.109  -1.180  20
+CEF  C13   C13   C  0  20.126  -14.482  39.805  1  N  N  N  -5.256  -5.364  -1.508  21
+CEF  N16   N16   N  0  20.642  -15.335  38.922  1  N  N  N  -5.787  -6.456  -1.048  22
+CEF  O17   O17   O  0  19.770  -15.520  37.792  1  N  N  N  -5.115  -6.921  0.091   23
+CEF  C18   C18   C  0  20.510  -16.198  36.803  1  N  N  N  -5.756  -8.110  0.526   24
+CEF  C14   C14   C  0  21.166  -13.841  40.642  1  Y  N  N  -5.808  -4.698  -2.719  25
+CEF  C15   C15   C  0  20.954  -13.384  41.980  1  Y  N  N  -6.877  -5.191  -3.381  26
+CEF  S16   S16   S  0  22.206  -12.421  42.535  1  Y  N  N  -7.197  -4.152  -4.707  27
+CEF  C17   C17   C  0  23.166  -12.860  41.234  1  Y  N  N  -5.867  -3.177  -4.231  28
+CEF  N18   N18   N  0  24.500  -12.464  41.059  1  N  N  N  -5.560  -2.071  -4.960  29
+CEF  N19   N19   N  0  22.494  -13.625  40.377  1  Y  N  N  -5.208  -3.566  -3.163  30
+CEF  1H2   H21   H  0  18.615  -12.330  45.111  0  N  N  N  -3.913  0.927   -1.871  31
+CEF  2H2   H22   H  0  17.204  -11.441  44.700  0  N  N  N  -3.002  1.147   -0.374  32
+CEF  1H3'  H3'1  H  0  20.775  -10.316  45.283  0  N  N  N  -4.978  2.817   -0.769  33
+CEF  2H3'  H3'2  H  0  20.031  -9.804   45.730  0  N  N  N  -6.288  2.496   0.405   34
+CEF  1H1'  H1'1  H  0  ?       ?        ?       0  N  N  N  -8.726  2.196   -3.031  35
+CEF  2H1'  H1'2  H  0  ?       ?        ?       0  N  N  N  -7.632  3.265   -3.962  36
+CEF  3H1'  H1'3  H  0  ?       ?        ?       0  N  N  N  -8.873  3.968   -2.892  37
+CEF  HO4   HO4   H  0  21.445  -8.358   41.483  1  N  N  N  -7.680  -0.246  3.206   38
+CEF  H6    H6    H  0  16.079  -11.696  42.134  1  N  N  N  -2.859  -1.125  1.409   39
+CEF  H7    H7    H  0  16.428  -13.323  40.206  1  N  N  N  -2.460  -3.459  0.620   40
+CEF  8H8   H88   H  0  15.740  -10.723  39.391  0  N  N  N  -4.541  -4.166  2.599   41
+CEF  HN1   HN1   H  0  19.202  -12.346  39.590  1  N  N  N  -5.401  -3.657  0.316   42
+CEF  1H18  H181  H  0  20.959  -17.151  37.169  0  N  N  N  -6.806  -7.900  0.746   43
+CEF  2H18  H182  H  0  19.835  -16.341  35.928  0  N  N  N  -5.254  -8.490  1.420   44
+CEF  3H18  H183  H  0  21.463  -15.682  36.540  0  N  N  N  -5.696  -8.858  -0.268  45
+CEF  H15   H15   H  0  20.024  -13.706  42.478  1  N  N  N  -7.482  -6.067  -3.192  46
+CEF  1HN8  HN81  H  0  25.003  -12.737  41.903  0  N  N  N  -4.749  -2.048  -5.587  47
+CEF  2HN8  HN82  H  0  25.085  -12.731  40.267  0  N  N  N  -6.070  -1.189  -4.841  48
+CEF  HN2   HN2   H  0  17.000  -9.890   42.004  1  N  N  N  -5.381  -1.763  1.947   49
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+CEF  S1   C2    SING  N  N  1 
+CEF  S1   C6    SING  N  N  2 
+CEF  C2   C3    SING  N  N  3 
+CEF  C2   1H2   SING  N  N  4 
+CEF  C2   2H2   SING  N  N  5 
+CEF  C3   C3'   SING  N  N  6 
+CEF  C3   C4    DOUB  N  N  7 
+CEF  C3'  O2'   SING  N  N  8 
+CEF  C3'  1H3'  SING  N  N  9 
+CEF  C3'  2H3'  SING  N  N  10
+CEF  C2'  O1'   DOUB  N  N  11
+CEF  C2'  O2'   SING  N  N  12
+CEF  C2'  C1'   SING  N  N  13
+CEF  C1'  1H1'  SING  N  N  14
+CEF  C1'  2H1'  SING  N  N  15
+CEF  C1'  3H1'  SING  N  N  16
+CEF  C4   C4'   SING  N  N  17
+CEF  C4   N5    SING  N  N  18
+CEF  C4'  O4A   DOUB  N  N  19
+CEF  C4'  O4B   SING  N  N  20
+CEF  O4B  HO4   SING  N  N  21
+CEF  N5   C6    SING  N  N  22
+CEF  N5   HN2   SING  N  N  23
+CEF  C6   C7    SING  N  N  24
+CEF  C6   H6    SING  N  N  25
+CEF  C7   C8    SING  N  N  26
+CEF  C7   N10   SING  N  N  27
+CEF  C7   H7    SING  N  N  28
+CEF  C8   O9    DOUB  N  N  29
+CEF  C8   8H8   SING  N  N  30
+CEF  N10  C11   SING  N  N  31
+CEF  N10  HN1   SING  N  N  32
+CEF  C11  O12   DOUB  N  N  33
+CEF  C11  C13   SING  N  N  34
+CEF  C13  N16   DOUB  N  N  35
+CEF  C13  C14   SING  N  N  36
+CEF  N16  O17   SING  N  N  37
+CEF  O17  C18   SING  N  N  38
+CEF  C18  1H18  SING  N  N  39
+CEF  C18  2H18  SING  N  N  40
+CEF  C18  3H18  SING  N  N  41
+CEF  C14  C15   DOUB  Y  N  42
+CEF  C14  N19   SING  Y  N  43
+CEF  C15  S16   SING  Y  N  44
+CEF  C15  H15   SING  N  N  45
+CEF  S16  C17   SING  Y  N  46
+CEF  C17  N18   SING  N  N  47
+CEF  C17  N19   DOUB  Y  N  48
+CEF  N18  1HN8  SING  N  N  49
+CEF  N18  2HN8  SING  N  N  50
+#

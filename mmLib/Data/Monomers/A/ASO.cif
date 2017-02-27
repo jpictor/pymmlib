@@ -1,0 +1,77 @@
+data_ASO
+#
+_chem_comp.id                   ASO
+_chem_comp.name                 1,5-ANHYDROSORBITOL
+_chem_comp.type                 saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H12 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        164.158
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ASO  C1   .  C  0  ?  ?  ?  1  1 
+ASO  C2   .  C  0  ?  ?  ?  1  2 
+ASO  C3   .  C  0  ?  ?  ?  1  3 
+ASO  C4   .  C  0  ?  ?  ?  1  4 
+ASO  C5   .  C  0  ?  ?  ?  1  5 
+ASO  C6   .  C  0  ?  ?  ?  1  6 
+ASO  O2   .  O  0  ?  ?  ?  1  7 
+ASO  O3   .  O  0  ?  ?  ?  1  8 
+ASO  O4   .  O  0  ?  ?  ?  1  9 
+ASO  O5   .  O  0  ?  ?  ?  1  10
+ASO  O6   .  O  0  ?  ?  ?  1  11
+ASO  1H1  .  H  0  ?  ?  ?  0  12
+ASO  2H1  .  H  0  ?  ?  ?  0  13
+ASO  H2   .  H  0  ?  ?  ?  1  14
+ASO  H3   .  H  0  ?  ?  ?  1  15
+ASO  H4   .  H  0  ?  ?  ?  1  16
+ASO  H5   .  H  0  ?  ?  ?  1  17
+ASO  1H6  .  H  0  ?  ?  ?  0  18
+ASO  2H6  .  H  0  ?  ?  ?  0  19
+ASO  HO2  .  H  0  ?  ?  ?  1  20
+ASO  HO3  .  H  0  ?  ?  ?  1  21
+ASO  HO4  .  H  0  ?  ?  ?  1  22
+ASO  HO6  .  H  0  ?  ?  ?  1  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ASO  C1  C2   SING  1 
+ASO  C1  O5   SING  2 
+ASO  C1  1H1  SING  3 
+ASO  C1  2H1  SING  4 
+ASO  C2  C3   SING  5 
+ASO  C2  O2   SING  6 
+ASO  C2  H2   SING  7 
+ASO  C3  C4   SING  8 
+ASO  C3  O3   SING  9 
+ASO  C3  H3   SING  10
+ASO  C4  C5   SING  11
+ASO  C4  O4   SING  12
+ASO  C4  H4   SING  13
+ASO  C5  C6   SING  14
+ASO  C5  O5   SING  15
+ASO  C5  H5   SING  16
+ASO  C6  O6   SING  17
+ASO  C6  1H6  SING  18
+ASO  C6  2H6  SING  19
+ASO  O2  HO2  SING  20
+ASO  O3  HO3  SING  21
+ASO  O4  HO4  SING  22
+ASO  O6  HO6  SING  23
+#

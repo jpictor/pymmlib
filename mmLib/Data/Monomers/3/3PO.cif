@@ -1,0 +1,66 @@
+data_3PO
+#
+_chem_comp.id                   3PO
+_chem_comp.name                 TRIPHOSPATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'H5 O10 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        257.955
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3PO  PG    .  P  0  ?  ?  ?  1  1 
+3PO  O1G   .  O  0  ?  ?  ?  1  2 
+3PO  O2G   .  O  0  ?  ?  ?  1  3 
+3PO  O3G   .  O  0  ?  ?  ?  1  4 
+3PO  PB    .  P  0  ?  ?  ?  1  5 
+3PO  O1B   .  O  0  ?  ?  ?  1  6 
+3PO  O2B   .  O  0  ?  ?  ?  1  7 
+3PO  O3B   .  O  0  ?  ?  ?  1  8 
+3PO  PA    .  P  0  ?  ?  ?  1  9 
+3PO  O1A   .  O  0  ?  ?  ?  1  10
+3PO  O2A   .  O  0  ?  ?  ?  1  11
+3PO  O3A   .  O  0  ?  ?  ?  1  12
+3PO  O5*   .  O  0  ?  ?  ?  1  13
+3PO  2HOG  .  H  0  ?  ?  ?  0  14
+3PO  3HOG  .  H  0  ?  ?  ?  0  15
+3PO  2HOB  .  H  0  ?  ?  ?  0  16
+3PO  2HOA  .  H  0  ?  ?  ?  0  17
+3PO  HO5*  .  H  0  ?  ?  ?  0  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3PO  PG   O1G   DOUB  1 
+3PO  PG   O2G   SING  2 
+3PO  PG   O3G   SING  3 
+3PO  PG   O3B   SING  4 
+3PO  O2G  2HOG  SING  5 
+3PO  O3G  3HOG  SING  6 
+3PO  PB   O1B   DOUB  7 
+3PO  PB   O2B   SING  8 
+3PO  PB   O3B   SING  9 
+3PO  PB   O3A   SING  10
+3PO  O2B  2HOB  SING  11
+3PO  PA   O1A   DOUB  12
+3PO  PA   O2A   SING  13
+3PO  PA   O3A   SING  14
+3PO  PA   O5*   SING  15
+3PO  O2A  2HOA  SING  16
+3PO  O5*  HO5*  SING  17
+#

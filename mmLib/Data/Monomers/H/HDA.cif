@@ -1,0 +1,56 @@
+data_HDA
+#
+_chem_comp.id                   HDA
+_chem_comp.name                 HADACIDIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C3 H5 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        119.077
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HDA  NA   .  N  0  ?  ?  ?  1  1 
+HDA  C    .  C  0  ?  ?  ?  1  2 
+HDA  O    .  O  0  ?  ?  ?  1  3 
+HDA  OB   .  O  0  ?  ?  ?  1  4 
+HDA  CB   .  C  0  ?  ?  ?  1  5 
+HDA  CG   .  C  0  ?  ?  ?  1  6 
+HDA  OD1  .  O  0  ?  ?  ?  1  7 
+HDA  OD2  .  O  0  ?  ?  ?  1  8 
+HDA  HC   .  H  0  ?  ?  ?  1  9 
+HDA  HOB  .  H  0  ?  ?  ?  1  10
+HDA  1HB  .  H  0  ?  ?  ?  0  11
+HDA  2HB  .  H  0  ?  ?  ?  0  12
+HDA  HOD  .  H  0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HDA  NA   C    SING  1 
+HDA  NA   CB   SING  2 
+HDA  NA   OB   SING  3 
+HDA  C    O    DOUB  4 
+HDA  C    HC   SING  5 
+HDA  OB   HOB  SING  6 
+HDA  CB   CG   SING  7 
+HDA  CB   1HB  SING  8 
+HDA  CB   2HB  SING  9 
+HDA  CG   OD1  DOUB  10
+HDA  CG   OD2  SING  11
+HDA  OD2  HOD  SING  12
+#

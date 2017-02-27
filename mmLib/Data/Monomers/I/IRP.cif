@@ -1,0 +1,109 @@
+data_IRP
+#
+_chem_comp.id                   IRP
+_chem_comp.name                 (1S)-1(9-DEAZAHYPOXANTHIN-9YL)1,4-DIDEOXY-1,4-IMINO-D-RIBITOL-5-PHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H15 N4 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        346.236
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IRP  P     .  P  0  ?  ?  ?  1  1 
+IRP  O1P   .  O  0  ?  ?  ?  1  2 
+IRP  O2P   .  O  0  ?  ?  ?  1  3 
+IRP  O3P   .  O  0  ?  ?  ?  1  4 
+IRP  O5*   .  O  0  ?  ?  ?  1  5 
+IRP  C5*   .  C  0  ?  ?  ?  1  6 
+IRP  C4*   .  C  0  ?  ?  ?  1  7 
+IRP  N4*   .  N  0  ?  ?  ?  1  8 
+IRP  C3*   .  C  0  ?  ?  ?  1  9 
+IRP  O3*   .  O  0  ?  ?  ?  1  10
+IRP  C2*   .  C  0  ?  ?  ?  1  11
+IRP  O2*   .  O  0  ?  ?  ?  1  12
+IRP  C1*   .  C  0  ?  ?  ?  1  13
+IRP  C9    .  C  0  ?  ?  ?  1  14
+IRP  C8    .  C  0  ?  ?  ?  1  15
+IRP  N7    .  N  0  ?  ?  ?  1  16
+IRP  C4    .  C  0  ?  ?  ?  1  17
+IRP  O6    .  O  0  ?  ?  ?  1  18
+IRP  C6    .  C  0  ?  ?  ?  1  19
+IRP  N1    .  N  0  ?  ?  ?  1  20
+IRP  C2    .  C  0  ?  ?  ?  1  21
+IRP  N3    .  N  0  ?  ?  ?  1  22
+IRP  C5    .  C  0  ?  ?  ?  1  23
+IRP  HO1   .  H  0  ?  ?  ?  1  24
+IRP  HO2   .  H  0  ?  ?  ?  1  25
+IRP  1H5*  .  H  0  ?  ?  ?  0  26
+IRP  2H5*  .  H  0  ?  ?  ?  0  27
+IRP  H4*   .  H  0  ?  ?  ?  1  28
+IRP  4HN*  .  H  0  ?  ?  ?  0  29
+IRP  H3*   .  H  0  ?  ?  ?  1  30
+IRP  3HO*  .  H  0  ?  ?  ?  0  31
+IRP  H2*   .  H  0  ?  ?  ?  1  32
+IRP  2HO*  .  H  0  ?  ?  ?  0  33
+IRP  H1*   .  H  0  ?  ?  ?  1  34
+IRP  H8    .  H  0  ?  ?  ?  1  35
+IRP  H7    .  H  0  ?  ?  ?  1  36
+IRP  H1    .  H  0  ?  ?  ?  1  37
+IRP  H2    .  H  0  ?  ?  ?  1  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IRP  P    O1P   SING  1 
+IRP  P    O2P   SING  2 
+IRP  P    O3P   DOUB  3 
+IRP  P    O5*   SING  4 
+IRP  O1P  HO1   SING  5 
+IRP  O2P  HO2   SING  6 
+IRP  O5*  C5*   SING  7 
+IRP  C5*  C4*   SING  8 
+IRP  C5*  1H5*  SING  9 
+IRP  C5*  2H5*  SING  10
+IRP  C4*  N4*   SING  11
+IRP  C4*  C3*   SING  12
+IRP  C4*  H4*   SING  13
+IRP  N4*  C1*   SING  14
+IRP  N4*  4HN*  SING  15
+IRP  C3*  O3*   SING  16
+IRP  C3*  C2*   SING  17
+IRP  C3*  H3*   SING  18
+IRP  O3*  3HO*  SING  19
+IRP  C2*  O2*   SING  20
+IRP  C2*  C1*   SING  21
+IRP  C2*  H2*   SING  22
+IRP  O2*  2HO*  SING  23
+IRP  C1*  C9    SING  24
+IRP  C1*  H1*   SING  25
+IRP  C9   C4    SING  26
+IRP  C9   C8    DOUB  27
+IRP  C8   N7    SING  28
+IRP  C8   H8    SING  29
+IRP  N7   C5    SING  30
+IRP  N7   H7    SING  31
+IRP  C4   C5    DOUB  32
+IRP  C4   N3    SING  33
+IRP  O6   C6    DOUB  34
+IRP  C6   C5    SING  35
+IRP  C6   N1    SING  36
+IRP  N1   C2    SING  37
+IRP  N1   H1    SING  38
+IRP  C2   N3    DOUB  39
+IRP  C2   H2    SING  40
+#

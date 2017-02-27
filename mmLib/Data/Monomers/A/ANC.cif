@@ -1,0 +1,86 @@
+data_ANC
+#
+_chem_comp.id                   ANC
+_chem_comp.name                 ANTHRACEN-1-YLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H11 N1'
+_chem_comp.pdbx_synonyms        AMINOANTHRACENE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        193.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ANC  C1    .  C  0  ?  ?  ?  1  1 
+ANC  C2    .  C  0  ?  ?  ?  1  2 
+ANC  C3    .  C  0  ?  ?  ?  1  3 
+ANC  C4    .  C  0  ?  ?  ?  1  4 
+ANC  C5    .  C  0  ?  ?  ?  1  5 
+ANC  C6    .  C  0  ?  ?  ?  1  6 
+ANC  C7    .  C  0  ?  ?  ?  1  7 
+ANC  C8    .  C  0  ?  ?  ?  1  8 
+ANC  C9    .  C  0  ?  ?  ?  1  9 
+ANC  C10   .  C  0  ?  ?  ?  1  10
+ANC  C11   .  C  0  ?  ?  ?  1  11
+ANC  C12   .  C  0  ?  ?  ?  1  12
+ANC  C13   .  C  0  ?  ?  ?  1  13
+ANC  C14   .  C  0  ?  ?  ?  1  14
+ANC  N1    .  N  0  ?  ?  ?  1  15
+ANC  HC6   .  H  0  ?  ?  ?  1  16
+ANC  HC4   .  H  0  ?  ?  ?  1  17
+ANC  HC2   .  H  0  ?  ?  ?  1  18
+ANC  CH13  .  H  0  ?  ?  ?  0  19
+ANC  CH10  .  H  0  ?  ?  ?  0  20
+ANC  HC8   .  H  0  ?  ?  ?  1  21
+ANC  HC7   .  H  0  ?  ?  ?  1  22
+ANC  HC9   .  H  0  ?  ?  ?  1  23
+ANC  CH14  .  H  0  ?  ?  ?  0  24
+ANC  H1N   .  H  0  ?  ?  ?  1  25
+ANC  H2N   .  H  0  ?  ?  ?  1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ANC  C1   C2    DOUB  1 
+ANC  C1   C3    SING  2 
+ANC  C1   C13   SING  3 
+ANC  C2   C4    SING  4 
+ANC  C2   HC2   SING  5 
+ANC  C3   C5    DOUB  6 
+ANC  C3   C14   SING  7 
+ANC  C4   C6    DOUB  8 
+ANC  C4   HC4   SING  9 
+ANC  C5   C6    SING  10
+ANC  C5   N1    SING  11
+ANC  C6   HC6   SING  12
+ANC  C7   C8    SING  13
+ANC  C7   C9    DOUB  14
+ANC  C7   HC7   SING  15
+ANC  C8   C10   DOUB  16
+ANC  C8   HC8   SING  17
+ANC  C9   C11   SING  18
+ANC  C9   HC9   SING  19
+ANC  C10  C12   SING  20
+ANC  C10  CH10  SING  21
+ANC  C11  C12   SING  22
+ANC  C11  C14   DOUB  23
+ANC  C12  C13   DOUB  24
+ANC  C13  CH13  SING  25
+ANC  C14  CH14  SING  26
+ANC  N1   H1N   SING  27
+ANC  N1   H2N   SING  28
+#

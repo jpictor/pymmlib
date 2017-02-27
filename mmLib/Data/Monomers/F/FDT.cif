@@ -1,0 +1,89 @@
+data_FDT
+#
+_chem_comp.id                   FDT
+_chem_comp.name                 '(7R)-6-FORMYL-7-(1-METHYL-1H-1,2,3-TRIAZOL-4-YL)-4,7-DIHYDRO-1,4-THIAZEPINE-3-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H10 N4 O3 S1'
+_chem_comp.pdbx_synonyms        '7-(1-METHYL-1,2,3-TRIAZOL-4-YL)-6-FORMYL-2,7-DIHYDRO-[1,4]THIAZEPINE-3-CARBOXYLIC ACID, BRL42715, C6-(N1-METHYL-1,2,3-TRIAZOLYLMETHYLENE)PENEM'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        266.274
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FDT  C1    .  C  0  14.026  28.103  22.492  1  1 
+FDT  C2    .  C  0  14.115  27.652  23.786  1  2 
+FDT  C3    .  C  0  12.978  26.753  23.982  1  3 
+FDT  C5    .  C  0  14.908  28.089  24.906  1  4 
+FDT  S6    .  S  0  14.660  29.713  25.718  1  5 
+FDT  O7    .  O  0  12.228  26.595  23.012  1  6 
+FDT  N8    .  N  0  14.971  29.426  22.300  1  7 
+FDT  C9    .  C  0  14.604  30.340  23.269  1  8 
+FDT  C10   .  C  0  16.429  27.978  24.670  1  9 
+FDT  C11   .  C  0  15.369  30.828  24.361  1  10
+FDT  C12   .  C  0  13.212  30.787  23.317  1  11
+FDT  O13   .  O  0  12.409  30.387  22.424  1  12
+FDT  C14   .  C  0  17.120  27.461  23.609  1  13
+FDT  O15   .  O  0  12.855  31.549  24.178  1  14
+FDT  N16   .  N  0  17.271  28.485  25.699  1  15
+FDT  N17   .  N  0  18.489  28.243  25.197  1  16
+FDT  N18   .  N  0  18.497  27.654  23.995  1  17
+FDT  C19   .  C  0  19.623  27.252  23.165  1  18
+FDT  H13   .  H  0  ?       ?       ?       1  19
+FDT  H11   .  H  0  ?       ?       ?       1  20
+FDT  H5    .  H  0  ?       ?       ?       1  21
+FDT  H14   .  H  0  ?       ?       ?       1  22
+FDT  1H19  .  H  0  ?       ?       ?       0  23
+FDT  2H19  .  H  0  ?       ?       ?       0  24
+FDT  3H19  .  H  0  ?       ?       ?       0  25
+FDT  H3    .  H  0  ?       ?       ?       1  26
+FDT  H1    .  H  0  ?       ?       ?       1  27
+FDT  HN8   .  H  0  ?       ?       ?       1  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FDT  C1   C2    DOUB  1 
+FDT  C1   H1    SING  2 
+FDT  C1   N8    SING  3 
+FDT  C2   C5    SING  4 
+FDT  C2   C3    SING  5 
+FDT  C3   H3    SING  6 
+FDT  C3   O7    DOUB  7 
+FDT  C5   S6    SING  8 
+FDT  C5   H5    SING  9 
+FDT  C5   C10   SING  10
+FDT  S6   C11   SING  11
+FDT  N8   C9    SING  12
+FDT  N8   HN8   SING  13
+FDT  C9   C12   SING  14
+FDT  C9   C11   DOUB  15
+FDT  C10  C14   DOUB  16
+FDT  C10  N16   SING  17
+FDT  C11  H11   SING  18
+FDT  C12  O13   SING  19
+FDT  C12  O15   DOUB  20
+FDT  O13  H13   SING  21
+FDT  C14  H14   SING  22
+FDT  C14  N18   SING  23
+FDT  N16  N17   DOUB  24
+FDT  N17  N18   SING  25
+FDT  N18  C19   SING  26
+FDT  C19  1H19  SING  27
+FDT  C19  2H19  SING  28
+FDT  C19  3H19  SING  29
+#

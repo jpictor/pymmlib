@@ -1,0 +1,111 @@
+data_TPX
+#
+_chem_comp.id                   TPX
+_chem_comp.name                 '(2S,3S)-3-FORMYL-2-({[(4-METHYLPHENYL)SULFONYL]AMINO}METHYL)PENTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H19 N1 O5 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        313.368
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TPX  'C'     .  C  0  ?  ?  ?  1  1 
+TPX  'CA'    .  C  0  ?  ?  ?  1  2 
+TPX  'CB'    .  C  0  ?  ?  ?  1  3 
+TPX  'CC'    .  C  0  ?  ?  ?  1  4 
+TPX  'CD'    .  C  0  ?  ?  ?  1  5 
+TPX  'CE'    .  C  0  ?  ?  ?  1  6 
+TPX  'O'     .  O  0  ?  ?  ?  1  7 
+TPX  'OA'    .  O  0  ?  ?  ?  1  8 
+TPX  'OB'    .  O  0  ?  ?  ?  1  9 
+TPX  'CK'    .  C  0  ?  ?  ?  1  10
+TPX  'N'     .  N  0  ?  ?  ?  1  11
+TPX  'OC'    .  O  0  ?  ?  ?  1  12
+TPX  'OD'    .  O  0  ?  ?  ?  1  13
+TPX  'S'     .  S  0  ?  ?  ?  1  14
+TPX  'CF'    .  C  0  ?  ?  ?  1  15
+TPX  'CG1'   .  C  0  ?  ?  ?  1  16
+TPX  'CG2'   .  C  0  ?  ?  ?  1  17
+TPX  'CH1'   .  C  0  ?  ?  ?  1  18
+TPX  'CH2'   .  C  0  ?  ?  ?  1  19
+TPX  'CI'    .  C  0  ?  ?  ?  1  20
+TPX  'CJ'    .  C  0  ?  ?  ?  1  21
+TPX  'H'     .  H  0  ?  ?  ?  1  22
+TPX  'HA'    .  H  0  ?  ?  ?  1  23
+TPX  'HB'    .  H  0  ?  ?  ?  1  24
+TPX  '2HD'   .  H  0  ?  ?  ?  0  25
+TPX  '1HD'   .  H  0  ?  ?  ?  0  26
+TPX  '3HE'   .  H  0  ?  ?  ?  0  27
+TPX  '2HE'   .  H  0  ?  ?  ?  0  28
+TPX  '1HE'   .  H  0  ?  ?  ?  0  29
+TPX  '2HK'   .  H  0  ?  ?  ?  0  30
+TPX  '1HK'   .  H  0  ?  ?  ?  0  31
+TPX  '1H N'  .  H  0  ?  ?  ?  0  32
+TPX  'HG1'   .  H  0  ?  ?  ?  1  33
+TPX  'HG2'   .  H  0  ?  ?  ?  1  34
+TPX  'HH1'   .  H  0  ?  ?  ?  1  35
+TPX  'HH2'   .  H  0  ?  ?  ?  1  36
+TPX  '3HJ'   .  H  0  ?  ?  ?  0  37
+TPX  '2HJ'   .  H  0  ?  ?  ?  0  38
+TPX  '1HJ'   .  H  0  ?  ?  ?  0  39
+TPX  'HOA'   .  H  0  ?  ?  ?  1  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TPX  C    'CA'    SING  1 
+TPX  C    'O'     DOUB  2 
+TPX  C    'H'     SING  3 
+TPX  CA   'CB'    SING  4 
+TPX  CA   'CD'    SING  5 
+TPX  CA   'HA'    SING  6 
+TPX  CB   'CC'    SING  7 
+TPX  CB   'CK'    SING  8 
+TPX  CB   'HB'    SING  9 
+TPX  CC   'OA'    SING  10
+TPX  CC   'OB'    DOUB  11
+TPX  CD   'CE'    SING  12
+TPX  CD   '2HD'   SING  13
+TPX  CD   '1HD'   SING  14
+TPX  CE   '3HE'   SING  15
+TPX  CE   '2HE'   SING  16
+TPX  CE   '1HE'   SING  17
+TPX  OA   'HOA'   SING  18
+TPX  CK   'N'     SING  19
+TPX  CK   '2HK'   SING  20
+TPX  CK   '1HK'   SING  21
+TPX  N    'S'     SING  22
+TPX  N    '1H N'  SING  23
+TPX  OC   'S'     DOUB  24
+TPX  OD   'S'     DOUB  25
+TPX  S    'CF'    SING  26
+TPX  CF   'CG1'   AROM  27
+TPX  CF   'CG2'   AROM  28
+TPX  CG1  'CH1'   AROM  29
+TPX  CG1  'HG1'   SING  30
+TPX  CG2  'CH2'   AROM  31
+TPX  CG2  'HG2'   SING  32
+TPX  CH1  'CI'    AROM  33
+TPX  CH1  'HH1'   SING  34
+TPX  CH2  'CI'    AROM  35
+TPX  CH2  'HH2'   SING  36
+TPX  CI   'CJ'    SING  37
+TPX  CJ   '3HJ'   SING  38
+TPX  CJ   '2HJ'   SING  39
+TPX  CJ   '1HJ'   SING  40
+#

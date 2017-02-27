@@ -1,0 +1,91 @@
+data_SNR
+#
+_chem_comp.id                   SNR
+_chem_comp.name                 NORBIOTIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N2 O3 S1'
+_chem_comp.pdbx_synonyms        '4-(2-OXO-HEXAHYDRO-THIENO[3,4-D]IMIDAZOL-4-YL)-BUTYRIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        230.281
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SNR  C1   .  C  0  -4.471   35.901  11.743  1  1 
+SNR  N2   .  N  0  -3.974   35.337  10.647  1  2 
+SNR  C3   .  C  0  -4.879   34.312  10.152  1  3 
+SNR  C4   .  C  0  -6.058   34.337  11.146  1  4 
+SNR  N5   .  N  0  -5.659   35.377  12.084  1  5 
+SNR  C6   .  C  0  -6.242   32.872  11.717  1  6 
+SNR  S7   .  S  0  -4.536   32.245  11.757  1  7 
+SNR  C8   .  C  0  -4.122   32.940  10.124  1  8 
+SNR  O11  .  O  0  -3.909   36.794  12.360  1  9 
+SNR  C12  .  C  0  -7.051   32.738  13.049  1  10
+SNR  C13  .  C  0  -7.867   31.463  13.163  1  11
+SNR  C14  .  C  0  -8.649   31.329  14.455  1  12
+SNR  C15  .  C  0  -9.393   30.024  14.400  1  13
+SNR  O16  .  O  0  -8.803   28.983  14.629  1  14
+SNR  O17  .  O  0  -10.704  29.986  14.073  1  15
+SNR  HN2  .  H  0  ?        ?       ?       1  16
+SNR  H3   .  H  0  ?        ?       ?       1  17
+SNR  H4   .  H  0  ?        ?       ?       1  18
+SNR  HN5  .  H  0  ?        ?       ?       1  19
+SNR  H6   .  H  0  ?        ?       ?       1  20
+SNR  H81  .  H  0  ?        ?       ?       1  21
+SNR  H82  .  H  0  ?        ?       ?       1  22
+SNR  1H1  .  H  0  ?        ?       ?       0  23
+SNR  1H2  .  H  0  ?        ?       ?       0  24
+SNR  2H1  .  H  0  ?        ?       ?       0  25
+SNR  2H2  .  H  0  ?        ?       ?       0  26
+SNR  3H1  .  H  0  ?        ?       ?       0  27
+SNR  3H2  .  H  0  ?        ?       ?       0  28
+SNR  H16  .  H  0  ?        ?       ?       1  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SNR  C1   N2   SING  1 
+SNR  C1   N5   SING  2 
+SNR  C1   O11  DOUB  3 
+SNR  N2   C3   SING  4 
+SNR  N2   HN2  SING  5 
+SNR  C3   C4   SING  6 
+SNR  C3   C8   SING  7 
+SNR  C3   H3   SING  8 
+SNR  C4   N5   SING  9 
+SNR  C4   C6   SING  10
+SNR  C4   H4   SING  11
+SNR  N5   HN5  SING  12
+SNR  C6   S7   SING  13
+SNR  C6   C12  SING  14
+SNR  C6   H6   SING  15
+SNR  S7   C8   SING  16
+SNR  C8   H81  SING  17
+SNR  C8   H82  SING  18
+SNR  C12  C13  SING  19
+SNR  C12  1H1  SING  20
+SNR  C12  1H2  SING  21
+SNR  C13  C14  SING  22
+SNR  C13  2H1  SING  23
+SNR  C13  2H2  SING  24
+SNR  C14  C15  SING  25
+SNR  C14  3H1  SING  26
+SNR  C14  3H2  SING  27
+SNR  C15  O16  SING  28
+SNR  C15  O17  DOUB  29
+SNR  O16  H16  SING  30
+#

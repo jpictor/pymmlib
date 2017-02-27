@@ -1,0 +1,107 @@
+data_MFM
+#
+_chem_comp.id                   MFM
+_chem_comp.name                 '(E)-3-(5((5-(4-CHLOROPHENYL)FURAN-2-YL)METHYLENE)-4-OXO-2-THIOXOTHIAZOLIDIN-3-YL)PROPANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H12 N1 O4 CL1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        393.859
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MFM  C4    .  C   0  86.212  44.714  139.720  1  1 
+MFM  C3    .  C   0  86.944  45.862  140.011  1  2 
+MFM  C2    .  C   0  88.246  45.756  140.490  1  3 
+MFM  CL1   .  CL  0  89.148  47.193  140.833  0  4 
+MFM  C1    .  C   0  88.817  44.502  140.681  1  5 
+MFM  C6    .  C   0  88.082  43.357  140.388  1  6 
+MFM  C5    .  C   0  86.780  43.457  139.903  1  7 
+MFM  C7    .  C   0  86.078  42.323  139.516  1  8 
+MFM  O1    .  O   0  84.731  42.176  139.689  1  9 
+MFM  C8    .  C   0  86.547  41.252  138.878  1  10
+MFM  C9    .  C   0  85.532  40.441  138.601  1  11
+MFM  C10   .  C   0  84.420  40.989  139.089  1  12
+MFM  C11   .  C   0  83.150  40.420  139.079  1  13
+MFM  C12   .  C   0  82.806  39.230  138.446  1  14
+MFM  C14   .  C   0  83.489  38.566  137.422  1  15
+MFM  O2    .  O   0  84.637  38.853  137.089  1  16
+MFM  S1    .  S   0  81.237  38.540  138.491  1  17
+MFM  C13   .  C   0  81.544  37.439  137.214  1  18
+MFM  S2    .  S   0  80.418  36.243  136.603  1  19
+MFM  N1    .  N   0  82.796  37.617  136.788  1  20
+MFM  C15   .  C   0  83.368  36.803  135.702  1  21
+MFM  C16   .  C   0  83.941  35.497  136.258  1  22
+MFM  C17   .  C   0  84.368  34.558  135.129  1  23
+MFM  O4    .  O   0  83.654  33.614  134.801  1  24
+MFM  O3    .  O   0  85.438  34.735  134.544  1  25
+MFM  HO3   .  H   0  ?       ?       ?        1  26
+MFM  1H16  .  H   0  ?       ?       ?        0  27
+MFM  2H16  .  H   0  ?       ?       ?        0  28
+MFM  1H15  .  H   0  ?       ?       ?        0  29
+MFM  2H15  .  H   0  ?       ?       ?        0  30
+MFM  H11   .  H   0  ?       ?       ?        1  31
+MFM  H9    .  H   0  ?       ?       ?        1  32
+MFM  H8    .  H   0  ?       ?       ?        1  33
+MFM  H6    .  H   0  ?       ?       ?        1  34
+MFM  H1    .  H   0  ?       ?       ?        1  35
+MFM  H3    .  H   0  ?       ?       ?        1  36
+MFM  H4    .  H   0  ?       ?       ?        1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MFM  C4   C3    AROM  1 
+MFM  C4   C5    AROM  2 
+MFM  C4   H4    SING  3 
+MFM  C3   C2    AROM  4 
+MFM  C3   H3    SING  5 
+MFM  C2   C1    AROM  6 
+MFM  C2   CL1   SING  7 
+MFM  C1   C6    AROM  8 
+MFM  C1   H1    SING  9 
+MFM  C6   C5    AROM  10
+MFM  C6   H6    SING  11
+MFM  C5   C7    SING  12
+MFM  C7   C8    DOUB  13
+MFM  C7   O1    SING  14
+MFM  O1   C10   SING  15
+MFM  C8   C9    SING  16
+MFM  C8   H8    SING  17
+MFM  C9   C10   DOUB  18
+MFM  C9   H9    SING  19
+MFM  C10  C11   SING  20
+MFM  C11  C12   DOUB  21
+MFM  C11  H11   SING  22
+MFM  C12  C14   SING  23
+MFM  C12  S1    SING  24
+MFM  C14  O2    DOUB  25
+MFM  C14  N1    SING  26
+MFM  S1   C13   SING  27
+MFM  C13  N1    SING  28
+MFM  C13  S2    DOUB  29
+MFM  N1   C15   SING  30
+MFM  C15  C16   SING  31
+MFM  C15  1H15  SING  32
+MFM  C15  2H15  SING  33
+MFM  C16  C17   SING  34
+MFM  C16  1H16  SING  35
+MFM  C16  2H16  SING  36
+MFM  C17  O4    DOUB  37
+MFM  C17  O3    SING  38
+MFM  O3   HO3   SING  39
+#

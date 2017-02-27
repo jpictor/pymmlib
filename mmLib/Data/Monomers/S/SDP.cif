@@ -1,0 +1,93 @@
+data_SDP
+#
+_chem_comp.id                       SDP
+_chem_comp.name                     '2-AMINO-3-(DIETHOXY-PHOSPHORYLOXY)-PROPIONIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N1 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            241.180
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SDP  N     .  N  0  9.202   32.649  49.046  1  1 
+SDP  CA    .  C  0  10.284  33.498  49.526  1  2 
+SDP  CB    .  C  0  9.769   34.908  49.841  1  3 
+SDP  OG    .  O  0  8.764   34.817  50.819  1  4 
+SDP  C     .  C  0  11.047  32.969  50.742  1  5 
+SDP  O     .  O  0  12.229  33.270  50.894  1  6 
+SDP  C31   .  C  0  5.717   33.583  52.243  1  7 
+SDP  C32   .  C  0  5.215   33.604  53.673  1  8 
+SDP  C41   .  C  0  6.039   37.408  49.529  1  9 
+SDP  C42   .  C  0  5.790   38.674  50.366  1  10
+SDP  O1    .  O  0  6.363   34.853  51.944  1  11
+SDP  O2    .  O  0  7.134   36.762  50.191  1  12
+SDP  O3    .  O  0  6.706   34.306  49.538  1  13
+SDP  P     .  P  0  7.238   35.179  50.590  1  14
+SDP  OXT   .  O  0  ?       ?       ?       1  15
+SDP  HXT   .  H  0  ?       ?       ?       1  16
+SDP  HA    .  H  0  ?       ?       ?       1  17
+SDP  H     .  H  0  ?       ?       ?       1  18
+SDP  HN2   .  H  0  ?       ?       ?       1  19
+SDP  1HB   .  H  0  ?       ?       ?       0  20
+SDP  2HB   .  H  0  ?       ?       ?       0  21
+SDP  1H31  .  H  0  ?       ?       ?       0  22
+SDP  2H31  .  H  0  ?       ?       ?       0  23
+SDP  1H32  .  H  0  ?       ?       ?       0  24
+SDP  2H32  .  H  0  ?       ?       ?       0  25
+SDP  3H32  .  H  0  ?       ?       ?       0  26
+SDP  1H41  .  H  0  ?       ?       ?       0  27
+SDP  2H41  .  H  0  ?       ?       ?       0  28
+SDP  1H42  .  H  0  ?       ?       ?       0  29
+SDP  2H42  .  H  0  ?       ?       ?       0  30
+SDP  3H42  .  H  0  ?       ?       ?       0  31
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SDP  N    CA    SING  1 
+SDP  N    H     SING  2 
+SDP  N    HN2   SING  3 
+SDP  CA   CB    SING  4 
+SDP  CA   C     SING  5 
+SDP  CA   HA    SING  6 
+SDP  CB   OG    SING  7 
+SDP  CB   1HB   SING  8 
+SDP  CB   2HB   SING  9 
+SDP  OG   P     SING  10
+SDP  C    O     DOUB  11
+SDP  C    OXT   SING  12
+SDP  C31  C32   SING  13
+SDP  C31  O1    SING  14
+SDP  C31  1H31  SING  15
+SDP  C31  2H31  SING  16
+SDP  C32  1H32  SING  17
+SDP  C32  2H32  SING  18
+SDP  C32  3H32  SING  19
+SDP  C41  C42   SING  20
+SDP  C41  O2    SING  21
+SDP  C41  1H41  SING  22
+SDP  C41  2H41  SING  23
+SDP  C42  1H42  SING  24
+SDP  C42  2H42  SING  25
+SDP  C42  3H42  SING  26
+SDP  O1   P     SING  27
+SDP  O2   P     SING  28
+SDP  O3   P     DOUB  29
+SDP  OXT  HXT   SING  30
+#

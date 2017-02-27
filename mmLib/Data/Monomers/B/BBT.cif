@@ -1,0 +1,123 @@
+data_BBT
+#
+_chem_comp.id                   BBT
+_chem_comp.name                 2-HYDROXY-5-[4-(2-HYDROXY-ETHYL)-PIPERIDIN-1-YL]-5-PHENYL-1H-PYRIMIDINE-4,6-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H21 N3 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        331.371
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BBT  N1    .  N  0  ?  ?  ?  1  1 
+BBT  C2    .  C  0  ?  ?  ?  1  2 
+BBT  O2    .  O  0  ?  ?  ?  1  3 
+BBT  N3    .  N  0  ?  ?  ?  1  4 
+BBT  C4    .  C  0  ?  ?  ?  1  5 
+BBT  O4    .  O  0  ?  ?  ?  1  6 
+BBT  C5    .  C  0  ?  ?  ?  1  7 
+BBT  C6    .  C  0  ?  ?  ?  1  8 
+BBT  O6    .  O  0  ?  ?  ?  1  9 
+BBT  NP1   .  N  0  ?  ?  ?  1  10
+BBT  CP2   .  C  0  ?  ?  ?  1  11
+BBT  CP3   .  C  0  ?  ?  ?  1  12
+BBT  CP4   .  C  0  ?  ?  ?  1  13
+BBT  CP5   .  C  0  ?  ?  ?  1  14
+BBT  CP6   .  C  0  ?  ?  ?  1  15
+BBT  CP7   .  C  0  ?  ?  ?  1  16
+BBT  CP8   .  C  0  ?  ?  ?  1  17
+BBT  OP9   .  O  0  ?  ?  ?  1  18
+BBT  CG    .  C  0  ?  ?  ?  1  19
+BBT  CD1   .  C  0  ?  ?  ?  1  20
+BBT  CD2   .  C  0  ?  ?  ?  1  21
+BBT  CE1   .  C  0  ?  ?  ?  1  22
+BBT  CE2   .  C  0  ?  ?  ?  1  23
+BBT  CZ    .  C  0  ?  ?  ?  1  24
+BBT  HO2   .  H  0  ?  ?  ?  1  25
+BBT  H3    .  H  0  ?  ?  ?  1  26
+BBT  HO9   .  H  0  ?  ?  ?  1  27
+BBT  1HP2  .  H  0  ?  ?  ?  0  28
+BBT  2HP2  .  H  0  ?  ?  ?  0  29
+BBT  1HP3  .  H  0  ?  ?  ?  0  30
+BBT  2HP3  .  H  0  ?  ?  ?  0  31
+BBT  HP4   .  H  0  ?  ?  ?  1  32
+BBT  1HP5  .  H  0  ?  ?  ?  0  33
+BBT  2HP5  .  H  0  ?  ?  ?  0  34
+BBT  1HP6  .  H  0  ?  ?  ?  0  35
+BBT  2HP6  .  H  0  ?  ?  ?  0  36
+BBT  1HP7  .  H  0  ?  ?  ?  0  37
+BBT  2HP7  .  H  0  ?  ?  ?  0  38
+BBT  1HP8  .  H  0  ?  ?  ?  0  39
+BBT  2HP8  .  H  0  ?  ?  ?  0  40
+BBT  HD1   .  H  0  ?  ?  ?  1  41
+BBT  HD2   .  H  0  ?  ?  ?  1  42
+BBT  HE1   .  H  0  ?  ?  ?  1  43
+BBT  HE2   .  H  0  ?  ?  ?  1  44
+BBT  HZ    .  H  0  ?  ?  ?  1  45
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BBT  N1   C2    DOUB  1 
+BBT  N1   C6    SING  2 
+BBT  C2   O2    SING  3 
+BBT  C2   N3    SING  4 
+BBT  O2   HO2   SING  5 
+BBT  N3   H3    SING  6 
+BBT  N3   C4    SING  7 
+BBT  C4   O4    DOUB  8 
+BBT  C4   C5    SING  9 
+BBT  C5   C6    SING  10
+BBT  C5   NP1   SING  11
+BBT  C5   CG    SING  12
+BBT  C6   O6    DOUB  13
+BBT  NP1  CP2   SING  14
+BBT  NP1  CP6   SING  15
+BBT  CP2  CP3   SING  16
+BBT  CP2  1HP2  SING  17
+BBT  CP2  2HP2  SING  18
+BBT  CP3  CP4   SING  19
+BBT  CP3  1HP3  SING  20
+BBT  CP3  2HP3  SING  21
+BBT  CP4  CP5   SING  22
+BBT  CP4  CP7   SING  23
+BBT  CP4  HP4   SING  24
+BBT  CP5  CP6   SING  25
+BBT  CP5  1HP5  SING  26
+BBT  CP5  2HP5  SING  27
+BBT  CP6  1HP6  SING  28
+BBT  CP6  2HP6  SING  29
+BBT  CP7  CP8   SING  30
+BBT  CP7  1HP7  SING  31
+BBT  CP7  2HP7  SING  32
+BBT  CP8  OP9   SING  33
+BBT  CP8  1HP8  SING  34
+BBT  CP8  2HP8  SING  35
+BBT  OP9  HO9   SING  36
+BBT  CG   CD1   DOUB  37
+BBT  CG   CD2   SING  38
+BBT  CD1  CE1   SING  39
+BBT  CD1  HD1   SING  40
+BBT  CD2  CE2   DOUB  41
+BBT  CD2  HD2   SING  42
+BBT  CE1  CZ    DOUB  43
+BBT  CE1  HE1   SING  44
+BBT  CE2  CZ    SING  45
+BBT  CE2  HE2   SING  46
+BBT  CZ   HZ    SING  47
+#

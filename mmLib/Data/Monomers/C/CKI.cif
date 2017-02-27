@@ -1,0 +1,92 @@
+data_CKI
+#
+_chem_comp.id                   CKI
+_chem_comp.name                 N-(2-AMINOETHYL)-5-CHLOROISOQUINOLINE-8-SULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H12 N3 O2 CL1 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        285.748
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CKI  C1    .  C   0  ?  ?  ?  1  1 
+CKI  N2    .  N   0  ?  ?  ?  1  2 
+CKI  C3    .  C   0  ?  ?  ?  1  3 
+CKI  C4    .  C   0  ?  ?  ?  1  4 
+CKI  C5    .  C   0  ?  ?  ?  1  5 
+CKI  CL5   .  CL  0  ?  ?  ?  0  6 
+CKI  C6    .  C   0  ?  ?  ?  1  7 
+CKI  C7    .  C   0  ?  ?  ?  1  8 
+CKI  C8    .  C   0  ?  ?  ?  1  9 
+CKI  C9    .  C   0  ?  ?  ?  1  10
+CKI  C10   .  C   0  ?  ?  ?  1  11
+CKI  S     .  S   0  ?  ?  ?  1  12
+CKI  O1S   .  O   0  ?  ?  ?  1  13
+CKI  O2S   .  O   0  ?  ?  ?  1  14
+CKI  N1'   .  N   0  ?  ?  ?  1  15
+CKI  C1'   .  C   0  ?  ?  ?  1  16
+CKI  C2'   .  C   0  ?  ?  ?  1  17
+CKI  N2'   .  N   0  ?  ?  ?  1  18
+CKI  H1    .  H   0  ?  ?  ?  1  19
+CKI  H3    .  H   0  ?  ?  ?  1  20
+CKI  H4    .  H   0  ?  ?  ?  1  21
+CKI  H6    .  H   0  ?  ?  ?  1  22
+CKI  H7    .  H   0  ?  ?  ?  1  23
+CKI  HN1   .  H   0  ?  ?  ?  1  24
+CKI  1H1'  .  H   0  ?  ?  ?  0  25
+CKI  2H1'  .  H   0  ?  ?  ?  0  26
+CKI  1H2'  .  H   0  ?  ?  ?  0  27
+CKI  2H2'  .  H   0  ?  ?  ?  0  28
+CKI  1HN2  .  H   0  ?  ?  ?  0  29
+CKI  2HN2  .  H   0  ?  ?  ?  0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CKI  C1   N2    DOUB  1 
+CKI  C1   C9    SING  2 
+CKI  C1   H1    SING  3 
+CKI  N2   C3    SING  4 
+CKI  C3   C4    DOUB  5 
+CKI  C3   H3    SING  6 
+CKI  C4   C10   SING  7 
+CKI  C4   H4    SING  8 
+CKI  C5   C6    DOUB  9 
+CKI  C5   C10   SING  10
+CKI  C5   CL5   SING  11
+CKI  C6   C7    SING  12
+CKI  C6   H6    SING  13
+CKI  C7   C8    DOUB  14
+CKI  C7   H7    SING  15
+CKI  C8   C9    SING  16
+CKI  C8   S     SING  17
+CKI  C9   C10   DOUB  18
+CKI  S    O1S   DOUB  19
+CKI  S    O2S   DOUB  20
+CKI  S    N1'   SING  21
+CKI  N1'  C1'   SING  22
+CKI  N1'  HN1   SING  23
+CKI  C1'  C2'   SING  24
+CKI  C1'  1H1'  SING  25
+CKI  C1'  2H1'  SING  26
+CKI  C2'  N2'   SING  27
+CKI  C2'  1H2'  SING  28
+CKI  C2'  2H2'  SING  29
+CKI  N2'  1HN2  SING  30
+CKI  N2'  2HN2  SING  31
+#

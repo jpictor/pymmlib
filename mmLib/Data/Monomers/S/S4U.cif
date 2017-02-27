@@ -1,0 +1,101 @@
+data_S4U
+#
+_chem_comp.id                       S4U
+_chem_comp.name                     4-THIOURIDINE-5'-PHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N2 O8 P1 S1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            340.244
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+S4U  P     .  P  0  ?  ?  ?  1  1 
+S4U  O1P   .  O  0  ?  ?  ?  1  2 
+S4U  O2P   .  O  0  ?  ?  ?  1  3 
+S4U  O3P   .  O  0  ?  ?  ?  1  4 
+S4U  O5'   .  O  0  ?  ?  ?  1  5 
+S4U  S4    .  S  0  ?  ?  ?  1  6 
+S4U  C5'   .  C  0  ?  ?  ?  1  7 
+S4U  C4'   .  C  0  ?  ?  ?  1  8 
+S4U  O4'   .  O  0  ?  ?  ?  1  9 
+S4U  C1'   .  C  0  ?  ?  ?  1  10
+S4U  N1    .  N  0  ?  ?  ?  1  11
+S4U  C6    .  C  0  ?  ?  ?  1  12
+S4U  C2    .  C  0  ?  ?  ?  1  13
+S4U  O2    .  O  0  ?  ?  ?  1  14
+S4U  N3    .  N  0  ?  ?  ?  1  15
+S4U  C4    .  C  0  ?  ?  ?  1  16
+S4U  C5    .  C  0  ?  ?  ?  1  17
+S4U  C2'   .  C  0  ?  ?  ?  1  18
+S4U  O2'   .  O  0  ?  ?  ?  1  19
+S4U  C3'   .  C  0  ?  ?  ?  1  20
+S4U  O3'   .  O  0  ?  ?  ?  1  21
+S4U  1HOP  .  H  0  ?  ?  ?  0  22
+S4U  2HOP  .  H  0  ?  ?  ?  0  23
+S4U  1H5'  .  H  0  ?  ?  ?  0  24
+S4U  2H5'  .  H  0  ?  ?  ?  0  25
+S4U  H4'   .  H  0  ?  ?  ?  1  26
+S4U  H1'   .  H  0  ?  ?  ?  1  27
+S4U  H6    .  H  0  ?  ?  ?  1  28
+S4U  H3    .  H  0  ?  ?  ?  1  29
+S4U  H5    .  H  0  ?  ?  ?  1  30
+S4U  H2'   .  H  0  ?  ?  ?  1  31
+S4U  'HO2  .  H  0  ?  ?  ?  0  32
+S4U  H3'   .  H  0  ?  ?  ?  1  33
+S4U  'HO3  .  H  0  ?  ?  ?  0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+S4U  P    O1P   SING  1 
+S4U  P    O2P   SING  2 
+S4U  P    O3P   DOUB  3 
+S4U  P    O5'   SING  4 
+S4U  O1P  1HOP  SING  5 
+S4U  O2P  2HOP  SING  6 
+S4U  O5'  C5'   SING  7 
+S4U  S4   C4    DOUB  8 
+S4U  C5'  C4'   SING  9 
+S4U  C5'  1H5'  SING  10
+S4U  C5'  2H5'  SING  11
+S4U  C4'  O4'   SING  12
+S4U  C4'  C3'   SING  13
+S4U  C4'  H4'   SING  14
+S4U  O4'  C1'   SING  15
+S4U  C1'  N1    SING  16
+S4U  C1'  C2'   SING  17
+S4U  C1'  H1'   SING  18
+S4U  N1   C6    SING  19
+S4U  N1   C2    SING  20
+S4U  C6   C5    DOUB  21
+S4U  C6   H6    SING  22
+S4U  C2   O2    DOUB  23
+S4U  C2   N3    SING  24
+S4U  N3   C4    SING  25
+S4U  N3   H3    SING  26
+S4U  C4   C5    SING  27
+S4U  C5   H5    SING  28
+S4U  C2'  O2'   SING  29
+S4U  C2'  C3'   SING  30
+S4U  C2'  H2'   SING  31
+S4U  O2'  'HO2  SING  32
+S4U  C3'  O3'   SING  33
+S4U  C3'  H3'   SING  34
+S4U  O3'  'HO3  SING  35
+#

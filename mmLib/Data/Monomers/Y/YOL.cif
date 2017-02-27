@@ -1,0 +1,121 @@
+data_YOL
+#
+_chem_comp.id                   YOL
+_chem_comp.name                 [[2,2'-[4-CARBOXY-1,2-PHENYLENEBIS(NITRILOMETHYLIDYNE)]BIS[PHENOLATO]](2-)-N,N',O,O']-IRON
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C21 H14 N2 O4 FE1'
+_chem_comp.pdbx_synonyms        'SALOPHEN-10-CARBOXYLATE IRON CHELATE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        414.200
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+YOL  O2A  .  O   0  -2.907  12.601  43.428  1  1 
+YOL  CAA  .  C   0  -3.596  12.737  42.418  1  2 
+YOL  O1A  .  O   0  -4.676  13.493  42.466  1  3 
+YOL  CC5  .  C   0  -3.302  12.075  41.057  1  4 
+YOL  CC6  .  C   0  -3.657  12.864  39.889  1  5 
+YOL  CC1  .  C   0  -3.221  12.383  38.601  1  6 
+YOL  CC2  .  C   0  -2.455  11.152  38.566  1  7 
+YOL  CC3  .  C   0  -2.117  10.366  39.731  1  8 
+YOL  CC4  .  C   0  -2.541  10.831  41.009  1  9 
+YOL  NA   .  N   1  -3.438  12.959  37.338  1  10
+YOL  CA   .  C   0  -4.279  13.930  37.003  1  11
+YOL  CA1  .  C   0  -4.717  14.355  35.675  1  12
+YOL  CA6  .  C   0  -5.789  15.224  35.429  1  13
+YOL  CA5  .  C   0  -6.217  15.625  34.134  1  14
+YOL  CA4  .  C   0  -5.548  15.143  32.995  1  15
+YOL  CA3  .  C   0  -4.447  14.263  33.175  1  16
+YOL  CA2  .  C   0  -4.027  13.865  34.480  1  17
+YOL  OA   .  O   0  -2.969  13.020  34.628  1  18
+YOL  FE   .  FE  0  -1.676  12.534  36.073  0  19
+YOL  OB   .  O   0  -0.675  11.425  34.671  1  20
+YOL  CB2  .  C   0  -0.634  10.057  34.652  1  21
+YOL  CB3  .  C   0  0.015   9.527   33.502  1  22
+YOL  CB4  .  C   0  0.109   8.119   33.379  1  23
+YOL  CB5  .  C   0  -0.418  7.220   34.319  1  24
+YOL  CB6  .  C   0  -1.065  7.712   35.445  1  25
+YOL  CB1  .  C   0  -1.190  9.104   35.643  1  26
+YOL  CB   .  C   0  -1.871  9.526   36.843  1  27
+YOL  NB   .  N   1  -2.011  10.678  37.287  1  28
+YOL  H2A  .  H   0  ?       ?       ?       1  29
+YOL  HC4  .  H   0  ?       ?       ?       1  30
+YOL  HC3  .  H   0  ?       ?       ?       1  31
+YOL  HC6  .  H   0  ?       ?       ?       1  32
+YOL  HA   .  H   0  ?       ?       ?       1  33
+YOL  HA6  .  H   0  ?       ?       ?       1  34
+YOL  HA5  .  H   0  ?       ?       ?       1  35
+YOL  HA4  .  H   0  ?       ?       ?       1  36
+YOL  HA3  .  H   0  ?       ?       ?       1  37
+YOL  HB3  .  H   0  ?       ?       ?       1  38
+YOL  HB4  .  H   0  ?       ?       ?       1  39
+YOL  HB5  .  H   0  ?       ?       ?       1  40
+YOL  HB6  .  H   0  ?       ?       ?       1  41
+YOL  HB   .  H   0  ?       ?       ?       1  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+YOL  O2A  H2A  SING  1 
+YOL  O2A  CAA  SING  2 
+YOL  CAA  O1A  DOUB  3 
+YOL  CAA  CC5  SING  4 
+YOL  CC5  CC4  DOUB  5 
+YOL  CC5  CC6  SING  6 
+YOL  CC6  CC1  DOUB  7 
+YOL  CC6  HC6  SING  8 
+YOL  CC1  CC2  SING  9 
+YOL  CC1  NA   SING  10
+YOL  CC2  CC3  DOUB  11
+YOL  CC2  NB   SING  12
+YOL  CC3  CC4  SING  13
+YOL  CC3  HC3  SING  14
+YOL  CC4  HC4  SING  15
+YOL  NA   CA   DOUB  16
+YOL  NA   FE   SING  17
+YOL  CA   HA   SING  18
+YOL  CA   CA1  SING  19
+YOL  CA1  CA6  DOUB  20
+YOL  CA1  CA2  SING  21
+YOL  CA6  HA6  SING  22
+YOL  CA6  CA5  SING  23
+YOL  CA5  HA5  SING  24
+YOL  CA5  CA4  DOUB  25
+YOL  CA4  HA4  SING  26
+YOL  CA4  CA3  SING  27
+YOL  CA3  HA3  SING  28
+YOL  CA3  CA2  DOUB  29
+YOL  CA2  OA   SING  30
+YOL  OA   FE   SING  31
+YOL  FE   OB   SING  32
+YOL  FE   NB   SING  33
+YOL  OB   CB2  SING  34
+YOL  CB2  CB3  DOUB  35
+YOL  CB2  CB1  SING  36
+YOL  CB3  HB3  SING  37
+YOL  CB3  CB4  SING  38
+YOL  CB4  HB4  SING  39
+YOL  CB4  CB5  DOUB  40
+YOL  CB5  HB5  SING  41
+YOL  CB5  CB6  SING  42
+YOL  CB6  HB6  SING  43
+YOL  CB6  CB1  DOUB  44
+YOL  CB1  CB   SING  45
+YOL  CB   HB   SING  46
+YOL  CB   NB   DOUB  47
+#

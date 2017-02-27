@@ -1,0 +1,107 @@
+data_BSC
+#
+_chem_comp.id                   BSC
+_chem_comp.name                 '(S)-2-AMINO-4-(AMINO-BUTYLHYDROSULFINYL)BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H20 N2 O3 S1'
+_chem_comp.pdbx_synonyms        L-BUTHIONINE-[S,R]-SULFOXIMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        224.318
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          BSC
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCCCS(=O)(CC[C@@H](C(=O)O)N)N
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+BSC  CAB   .  C  0  -1.842  -9.558   -12.888  1  N  1 
+BSC  CAC   .  C  0  -2.527  -8.810   -11.739  1  N  2 
+BSC  CAD   .  C  0  -1.821  -9.003   -10.397  1  N  3 
+BSC  CAE   .  C  0  -0.510  -8.222   -10.366  1  N  4 
+BSC  SAF   .  S  0  -0.576  -6.593   -9.514   1  N  5 
+BSC  NAA   .  N  0  -1.409  -6.680   -8.177   1  N  6 
+BSC  OAG   .  O  0  0.814   -6.157   -9.154   1  N  7 
+BSC  CAH   .  C  0  -1.256  -5.372   -10.681  1  N  8 
+BSC  CB    .  C  0  -1.548  -4.032   -10.038  1  N  9 
+BSC  CA    .  C  0  -2.279  -3.093   -11.013  1  N  10
+BSC  C     .  C  0  -2.559  -1.775   -10.310  1  N  11
+BSC  O     .  O  0  -2.476  -0.753   -10.954  1  N  12
+BSC  OXT   .  O  0  -2.877  -1.786   -9.134   1  N  13
+BSC  N     .  N  0  -1.507  -2.880   -12.259  1  N  14
+BSC  1HAB  .  H  0  -1.678  -8.868   -13.729  0  N  15
+BSC  2HAB  .  H  0  -0.875  -9.952   -12.543  0  N  16
+BSC  3HAB  .  H  0  -2.482  -10.390  -13.216  0  N  17
+BSC  1HAC  .  H  0  -2.529  -7.736   -11.978  0  N  18
+BSC  2HAC  .  H  0  -3.545  -9.216   -11.639  0  N  19
+BSC  1HAD  .  H  0  -2.475  -8.641   -9.590   0  N  20
+BSC  2HAD  .  H  0  -1.602  -10.072  -10.260  0  N  21
+BSC  1HAE  .  H  0  0.231   -8.841   -9.839   0  N  22
+BSC  2HAE  .  H  0  -0.258  -8.007   -11.415  0  N  23
+BSC  HSAF  .  H  0  -0.576  -6.593   -9.514   0  N  24
+BSC  1HAA  .  H  0  -0.785  -6.698   -7.396   0  N  25
+BSC  2HAA  .  H  0  -2.009  -5.883   -8.106   0  N  26
+BSC  1HAH  .  H  0  -2.197  -5.771   -11.088  0  N  27
+BSC  2HAH  .  H  0  -0.499  -5.205   -11.461  0  N  28
+BSC  1HB   .  H  0  -0.597  -3.566   -9.740   0  N  29
+BSC  2HB   .  H  0  -2.194  -4.198   -9.164   0  N  30
+BSC  HA    .  H  0  -3.229  -3.561   -11.311  1  N  31
+BSC  HOXT  .  H  0  -3.036  -0.897   -8.840   0  N  32
+BSC  1HN   .  H  0  -2.134  -2.832   -13.036  0  N  33
+BSC  2HN   .  H  0  -0.994  -2.024   -12.191  0  N  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+BSC  CAB  CAC   SING  N  1 
+BSC  CAB  1HAB  SING  N  2 
+BSC  CAB  2HAB  SING  N  3 
+BSC  CAB  3HAB  SING  N  4 
+BSC  CAC  CAD   SING  N  5 
+BSC  CAC  1HAC  SING  N  6 
+BSC  CAC  2HAC  SING  N  7 
+BSC  CAD  CAE   SING  N  8 
+BSC  CAD  1HAD  SING  N  9 
+BSC  CAD  2HAD  SING  N  10
+BSC  CAE  SAF   SING  N  11
+BSC  CAE  1HAE  SING  N  12
+BSC  CAE  2HAE  SING  N  13
+BSC  SAF  CAH   SING  N  14
+BSC  SAF  OAG   DOUB  N  15
+BSC  SAF  NAA   SING  N  16
+BSC  SAF  HSAF  SING  N  17
+BSC  NAA  1HAA  SING  N  18
+BSC  NAA  2HAA  SING  N  19
+BSC  CAH  CB    SING  N  20
+BSC  CAH  1HAH  SING  N  21
+BSC  CAH  2HAH  SING  N  22
+BSC  CB   CA    SING  N  23
+BSC  CB   1HB   SING  N  24
+BSC  CB   2HB   SING  N  25
+BSC  CA   N     SING  N  26
+BSC  CA   C     SING  N  27
+BSC  CA   HA    SING  N  28
+BSC  C    O     DOUB  N  29
+BSC  C    OXT   SING  N  30
+BSC  OXT  HOXT  SING  N  31
+BSC  N    1HN   SING  N  32
+BSC  N    2HN   SING  N  33
+#

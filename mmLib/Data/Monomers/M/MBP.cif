@@ -1,0 +1,92 @@
+data_MBP
+#
+_chem_comp.id                   MBP
+_chem_comp.name                 1-[(2-AMINO-6,9-DIHYDRO-1H-PURIN-6-YL)OXY]-3-METHYL-2-BUTANOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H13 N5 O2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.245
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MBP  C2    .  C  0  1.945   29.163  6.453   1  1 
+MBP  C4    .  C  0  .587    30.802  7.306   1  2 
+MBP  C5    .  C  0  -.098   29.892  8.173   1  3 
+MBP  C4*   .  C  0  -.813   25.346  9.523   1  4 
+MBP  O4*   .  O  0  -1.745  25.765  10.248  1  5 
+MBP  C3*   .  C  0  -1.338  23.023  8.846   1  6 
+MBP  C2*   .  C  0  -.326   23.927  9.52    1  7 
+MBP  C12   .  C  0  -.006   23.463  10.927  1  8 
+MBP  N9    .  N  0  -.028   31.951  7.589   1  9 
+MBP  N3    .  N  0  1.61    30.448  6.495   1  10
+MBP  N2    .  N  0  2.952   28.802  5.646   1  11
+MBP  N1    .  N  0  1.321   28.241  7.247   1  12
+MBP  C6    .  C  0  .304    28.51   8.04    1  13
+MBP  O6    .  O  0  -.276   27.574  8.785   1  14
+MBP  C60   .  C  0  -.046   26.21   8.56    1  15
+MBP  N7    .  N  0  -1.05   30.539  8.872   1  16
+MBP  C8    .  C  0  -.987   31.782  8.488   1  17
+MBP  1H2N  .  H  0  3.209   27.816  5.614   0  18
+MBP  2H2N  .  H  0  3.418   29.49   5.054   0  19
+MBP  H7    .  H  0  -1.688  30.139  9.56    1  20
+MBP  H2*   .  H  0  .616    23.89   8.925   1  21
+MBP  1H60  .  H  0  -.264   25.931  7.503   0  22
+MBP  2H60  .  H  0  1.043   25.973  8.582   0  23
+MBP  1H3*  .  H  0  -.976   21.968  8.844   0  24
+MBP  2H3*  .  H  0  -1.592  23.377  7.82    0  25
+MBP  3H3*  .  H  0  -2.349  23.114  9.308   0  26
+MBP  1H12  .  H  0  .356    22.408  10.925  0  27
+MBP  2H12  .  H  0  -.874   23.599  11.613  0  28
+MBP  3H12  .  H  0  .717    24.146  11.432  0  29
+MBP  H8    .  H  0  -1.644  32.586  8.861   1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MBP  C2   N3    AROM  1 
+MBP  C2   N2    SING  2 
+MBP  C2   N1    AROM  3 
+MBP  C4   C5    AROM  4 
+MBP  C4   N9    SING  5 
+MBP  C4   N3    AROM  6 
+MBP  C5   C6    AROM  7 
+MBP  C5   N7    SING  8 
+MBP  C4*  O4*   DOUB  9 
+MBP  C4*  C2*   SING  10
+MBP  C4*  C60   SING  11
+MBP  C3*  C2*   SING  12
+MBP  C3*  1H3*  SING  13
+MBP  C3*  2H3*  SING  14
+MBP  C3*  3H3*  SING  15
+MBP  C2*  C12   SING  16
+MBP  C2*  H2*   SING  17
+MBP  C12  1H12  SING  18
+MBP  C12  2H12  SING  19
+MBP  C12  3H12  SING  20
+MBP  N9   C8    DOUB  21
+MBP  N2   1H2N  SING  22
+MBP  N2   2H2N  SING  23
+MBP  N1   C6    AROM  24
+MBP  C6   O6    SING  25
+MBP  O6   C60   SING  26
+MBP  C60  1H60  SING  27
+MBP  C60  2H60  SING  28
+MBP  N7   C8    SING  29
+MBP  N7   H7    SING  30
+MBP  C8   H8    SING  31
+#

@@ -1,0 +1,57 @@
+data_DAL
+#
+_chem_comp.id                       DAL
+_chem_comp.name                     D-ALANINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            89.094
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DAL  N    .  N  0  ?  ?  ?  1  1 
+DAL  CA   .  C  0  ?  ?  ?  1  2 
+DAL  CB   .  C  0  ?  ?  ?  1  3 
+DAL  C    .  C  0  ?  ?  ?  1  4 
+DAL  O    .  O  0  ?  ?  ?  1  5 
+DAL  OXT  .  O  0  ?  ?  ?  1  6 
+DAL  H    .  H  0  ?  ?  ?  1  7 
+DAL  HN2  .  H  0  ?  ?  ?  1  8 
+DAL  HA   .  H  0  ?  ?  ?  1  9 
+DAL  1HB  .  H  0  ?  ?  ?  0  10
+DAL  2HB  .  H  0  ?  ?  ?  0  11
+DAL  3HB  .  H  0  ?  ?  ?  0  12
+DAL  HXT  .  H  0  ?  ?  ?  1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DAL  N    CA   SING  1 
+DAL  N    H    SING  2 
+DAL  N    HN2  SING  3 
+DAL  CA   CB   SING  4 
+DAL  CA   C    SING  5 
+DAL  CA   HA   SING  6 
+DAL  CB   1HB  SING  7 
+DAL  CB   2HB  SING  8 
+DAL  CB   3HB  SING  9 
+DAL  C    O    DOUB  10
+DAL  C    OXT  SING  11
+DAL  OXT  HXT  SING  12
+#

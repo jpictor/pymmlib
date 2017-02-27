@@ -1,0 +1,116 @@
+data_OBE
+#
+_chem_comp.id                   OBE
+_chem_comp.name                 '3-(3-HYDROXY-BENZOYLOXY)-8-METHYL-8-AZA-BICYCLO[3.2.1]OCTANE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H19 N1 O5'
+_chem_comp.pdbx_synonyms        META-OXYBENZOYLECGONINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        305.330
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+OBE  C1    .  C  0   22.868  -1.275  26.887  1  1 
+OBE  C2    .  C  0   24.275  -1.939  26.472  1  2 
+OBE  C3    .  C  0   24.138  -2.362  24.940  1  3 
+OBE  C4    .  C  0   22.871  -3.166  24.663  1  4 
+OBE  C5    .  C  0   21.664  -2.301  25.232  1  5 
+OBE  C6    .  C  0   21.662  -0.798  24.780  1  6 
+OBE  C7    .  C  0   22.479  -0.084  25.940  1  7 
+OBE  C8    .  C  0   26.611  -2.572  24.563  1  8 
+OBE  C9    .  C  0   27.638  -3.593  24.110  1  9 
+OBE  C10   .  C  0   29.020  -3.290  24.139  1  10
+OBE  C11   .  C  0   29.975  -4.271  23.717  1  11
+OBE  C12   .  C  0   29.538  -5.557  23.265  1  12
+OBE  C13   .  C  0   28.177  -5.873  23.227  1  13
+OBE  C14   .  C  0   27.196  -4.899  23.653  1  14
+OBE  C15   .  C  0   24.725  -3.136  27.406  1  15
+OBE  C16   .  C  0   20.533  -2.037  27.441  1  16
+OBE  N1    .  N  1   21.820  -2.333  26.716  1  17
+OBE  O1    .  O  0   25.350  -3.062  24.488  1  18
+OBE  O2    .  O  0   26.881  -1.489  24.963  1  19
+OBE  O3    .  O  -1  25.782  -3.225  27.941  1  20
+OBE  O4    .  O  0   23.810  -4.086  27.519  1  21
+OBE  O5    .  O  0   31.267  -3.891  23.783  1  22
+OBE  H2    .  H  0   ?       ?       ?       1  23
+OBE  H3    .  H  0   ?       ?       ?       1  24
+OBE  H14   .  H  0   ?       ?       ?       1  25
+OBE  H13   .  H  0   ?       ?       ?       1  26
+OBE  H12   .  H  0   ?       ?       ?       1  27
+OBE  HO5   .  H  0   ?       ?       ?       1  28
+OBE  H10   .  H  0   ?       ?       ?       1  29
+OBE  1H4   .  H  0   ?       ?       ?       0  30
+OBE  2H4   .  H  0   ?       ?       ?       0  31
+OBE  H5    .  H  0   ?       ?       ?       1  32
+OBE  1H16  .  H  0   ?       ?       ?       0  33
+OBE  2H16  .  H  0   ?       ?       ?       0  34
+OBE  3H16  .  H  0   ?       ?       ?       0  35
+OBE  H1    .  H  0   ?       ?       ?       1  36
+OBE  1H7   .  H  0   ?       ?       ?       0  37
+OBE  2H7   .  H  0   ?       ?       ?       0  38
+OBE  1H6   .  H  0   ?       ?       ?       0  39
+OBE  2H6   .  H  0   ?       ?       ?       0  40
+OBE  HN1   .  H  0   ?       ?       ?       1  41
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+OBE  C1   N1    SING  1 
+OBE  C1   C2    SING  2 
+OBE  C1   H1    SING  3 
+OBE  C1   C7    SING  4 
+OBE  C2   C15   SING  5 
+OBE  C2   H2    SING  6 
+OBE  C2   C3    SING  7 
+OBE  C3   H3    SING  8 
+OBE  C3   O1    SING  9 
+OBE  C3   C4    SING  10
+OBE  C4   1H4   SING  11
+OBE  C4   2H4   SING  12
+OBE  C4   C5    SING  13
+OBE  C5   H5    SING  14
+OBE  C5   N1    SING  15
+OBE  C5   C6    SING  16
+OBE  C6   C7    SING  17
+OBE  C6   1H6   SING  18
+OBE  C6   2H6   SING  19
+OBE  C7   1H7   SING  20
+OBE  C7   2H7   SING  21
+OBE  C8   O1    SING  22
+OBE  C8   O2    DOUB  23
+OBE  C8   C9    SING  24
+OBE  C9   C14   AROM  25
+OBE  C9   C10   AROM  26
+OBE  C10  C11   AROM  27
+OBE  C10  H10   SING  28
+OBE  C11  C12   AROM  29
+OBE  C11  O5    SING  30
+OBE  C12  C13   AROM  31
+OBE  C12  H12   SING  32
+OBE  C13  C14   AROM  33
+OBE  C13  H13   SING  34
+OBE  C14  H14   SING  35
+OBE  C15  O3    SING  36
+OBE  C15  O4    DOUB  37
+OBE  C16  N1    SING  38
+OBE  C16  1H16  SING  39
+OBE  C16  2H16  SING  40
+OBE  C16  3H16  SING  41
+OBE  N1   HN1   SING  42
+OBE  O5   HO5   SING  43
+#

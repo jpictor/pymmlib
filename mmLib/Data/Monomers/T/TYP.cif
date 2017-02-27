@@ -1,0 +1,104 @@
+data_TYP
+#
+_chem_comp.id                   TYP
+_chem_comp.name                 'CYCLO-(L-TYROSINE-L-PROLINE) INHIBITOR'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N2 O3'
+_chem_comp.pdbx_synonyms        (3S,8AR)-3-(4-HYDROXYBENZYL)HEXAHYDROPYRROLO[1,2-A]PYRAZINE-1,4-DIONE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.292
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+TYP  N     .  N  0  17.971  43.016  100.477  1  1 
+TYP  CA    .  C  0  18.872  42.586  101.565  1  2 
+TYP  C     .  C  0  19.497  43.815  102.206  1  3 
+TYP  O     .  O  0  20.654  43.803  102.585  1  4 
+TYP  CB    .  C  0  19.951  41.665  100.984  1  5 
+TYP  CG    .  C  0  19.338  40.301  100.682  1  6 
+TYP  CD1   .  C  0  18.684  40.068  99.447   1  7 
+TYP  CE1   .  C  0  18.101  38.81   99.195   1  8 
+TYP  CE2   .  C  0  18.827  38.025  101.396  1  9 
+TYP  CD2   .  C  0  19.41   39.279  101.654  1  10
+TYP  CZ    .  C  0  18.171  37.79   100.17   1  11
+TYP  OH    .  O  0  17.592  36.578  99.93    1  12
+TYP  NP    .  N  0  18.705  44.951  102.399  1  13
+TYP  CAP   .  C  0  17.277  44.893  101.993  1  14
+TYP  CP    .  C  0  17.189  44.168  100.648  1  15
+TYP  OP    .  O  0  16.473  44.583  99.729   1  16
+TYP  CBP   .  C  0  16.837  46.358  101.913  1  17
+TYP  CGP   .  C  0  18.134  47.168  101.952  1  18
+TYP  CDP   .  C  0  19.104  46.324  102.774  1  19
+TYP  H     .  H  0  17.918  42.481  99.61    1  20
+TYP  HA    .  H  0  18.285  42.028  102.331  1  21
+TYP  1HBC  .  H  0  20.845  41.59   101.646  0  22
+TYP  2HBC  .  H  0  20.452  42.11   100.093  0  23
+TYP  HD1   .  H  0  18.632  40.866  98.688   1  24
+TYP  HD2   .  H  0  19.922  39.464  102.613  1  25
+TYP  HE1   .  H  0  17.59   38.622  98.236   1  26
+TYP  HE2   .  H  0  18.883  37.225  102.153  1  27
+TYP  HH    .  H  0  17.639  35.892  100.586  1  28
+TYP  HAP   .  H  0  16.679  44.352  102.763  1  29
+TYP  1HDP  .  H  0  20.183  46.561  102.623  0  30
+TYP  2HDP  .  H  0  19.104  46.535  103.869  0  31
+TYP  1HBP  .  H  0  16.1    46.65   102.697  0  32
+TYP  2HBP  .  H  0  16.189  46.587  101.035  0  33
+TYP  1HGP  .  H  0  18.521  47.448  100.945  0  34
+TYP  2HGP  .  H  0  18.005  48.208  102.334  0  35
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+TYP  N    CA    SING  1 
+TYP  N    CP    SING  2 
+TYP  N    H     SING  3 
+TYP  CA   C     SING  4 
+TYP  CA   CB    SING  5 
+TYP  CA   HA    SING  6 
+TYP  C    O     DOUB  7 
+TYP  C    NP    SING  8 
+TYP  CB   CG    SING  9 
+TYP  CB   1HBC  SING  10
+TYP  CB   2HBC  SING  11
+TYP  CG   CD1   AROM  12
+TYP  CG   CD2   AROM  13
+TYP  CD1  CE1   AROM  14
+TYP  CD1  HD1   SING  15
+TYP  CE1  CZ    AROM  16
+TYP  CE1  HE1   SING  17
+TYP  CE2  CD2   AROM  18
+TYP  CE2  CZ    AROM  19
+TYP  CE2  HE2   SING  20
+TYP  CD2  HD2   SING  21
+TYP  CZ   OH    SING  22
+TYP  OH   HH    SING  23
+TYP  NP   CAP   SING  24
+TYP  NP   CDP   SING  25
+TYP  CAP  CP    SING  26
+TYP  CAP  CBP   SING  27
+TYP  CAP  HAP   SING  28
+TYP  CP   OP    DOUB  29
+TYP  CBP  CGP   SING  30
+TYP  CBP  1HBP  SING  31
+TYP  CBP  2HBP  SING  32
+TYP  CGP  CDP   SING  33
+TYP  CGP  1HGP  SING  34
+TYP  CGP  2HGP  SING  35
+TYP  CDP  1HDP  SING  36
+TYP  CDP  2HDP  SING  37
+#

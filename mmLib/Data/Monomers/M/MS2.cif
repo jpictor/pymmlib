@@ -1,0 +1,106 @@
+data_MS2
+#
+_chem_comp.id                   MS2
+_chem_comp.name                 '2,2-DICHLORO-1-METHANESULFINYL-3-METHYL-CYCLOPROPANECARBOXYLIC ACID [1-(4-BROMO-PHENYL)-ETHYL]-AMIDE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H16 N1 O2 BR1 CL2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        413.156
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MS2  C     .  C   0  ?  ?  ?  1  1 
+MS2  BR1   .  BR  0  ?  ?  ?  0  2 
+MS2  C1    .  C   0  ?  ?  ?  1  3 
+MS2  C2A   .  C   0  ?  ?  ?  1  4 
+MS2  C3A   .  C   0  ?  ?  ?  1  5 
+MS2  C4    .  C   0  ?  ?  ?  1  6 
+MS2  C3B   .  C   0  ?  ?  ?  1  7 
+MS2  C2B   .  C   0  ?  ?  ?  1  8 
+MS2  C5    .  C   0  ?  ?  ?  1  9 
+MS2  C6    .  C   0  ?  ?  ?  1  10
+MS2  N1    .  N   0  ?  ?  ?  1  11
+MS2  C7    .  C   0  ?  ?  ?  1  12
+MS2  O1    .  O   0  ?  ?  ?  1  13
+MS2  C8    .  C   0  ?  ?  ?  1  14
+MS2  C9A   .  C   0  ?  ?  ?  1  15
+MS2  CL15  .  CL  0  ?  ?  ?  0  16
+MS2  CL16  .  CL  0  ?  ?  ?  0  17
+MS2  C17   .  C   0  ?  ?  ?  1  18
+MS2  O9B   .  O   0  ?  ?  ?  1  19
+MS2  S9B   .  S   0  ?  ?  ?  1  20
+MS2  C12   .  C   0  ?  ?  ?  1  21
+MS2  H99   .  H   0  ?  ?  ?  1  22
+MS2  H1    .  H   0  ?  ?  ?  1  23
+MS2  H2    .  H   0  ?  ?  ?  1  24
+MS2  H3    .  H   0  ?  ?  ?  1  25
+MS2  H17   .  H   0  ?  ?  ?  1  26
+MS2  1H12  .  H   0  ?  ?  ?  0  27
+MS2  2H12  .  H   0  ?  ?  ?  0  28
+MS2  3H12  .  H   0  ?  ?  ?  0  29
+MS2  H5    .  H   0  ?  ?  ?  1  30
+MS2  1H6   .  H   0  ?  ?  ?  0  31
+MS2  2H6   .  H   0  ?  ?  ?  0  32
+MS2  3H6   .  H   0  ?  ?  ?  0  33
+MS2  H3B   .  H   0  ?  ?  ?  1  34
+MS2  H2B   .  H   0  ?  ?  ?  1  35
+MS2  H2A   .  H   0  ?  ?  ?  1  36
+MS2  H3A   .  H   0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MS2  C    C17   SING  1 
+MS2  C    H1    SING  2 
+MS2  C    H2    SING  3 
+MS2  C    H3    SING  4 
+MS2  BR1  C1    SING  5 
+MS2  C1   C2A   DOUB  6 
+MS2  C1   C2B   SING  7 
+MS2  C2A  C3A   SING  8 
+MS2  C2A  H2A   SING  9 
+MS2  C3A  C4    DOUB  10
+MS2  C3A  H3A   SING  11
+MS2  C4   C3B   SING  12
+MS2  C4   C5    SING  13
+MS2  C3B  C2B   DOUB  14
+MS2  C3B  H3B   SING  15
+MS2  C2B  H2B   SING  16
+MS2  C5   C6    SING  17
+MS2  C5   N1    SING  18
+MS2  C5   H5    SING  19
+MS2  C6   1H6   SING  20
+MS2  C6   2H6   SING  21
+MS2  C6   3H6   SING  22
+MS2  N1   C7    SING  23
+MS2  N1   H99   SING  24
+MS2  C7   O1    DOUB  25
+MS2  C7   C8    SING  26
+MS2  C8   C9A   SING  27
+MS2  C8   C17   SING  28
+MS2  C8   S9B   SING  29
+MS2  C9A  CL15  SING  30
+MS2  C9A  CL16  SING  31
+MS2  C9A  C17   SING  32
+MS2  C17  H17   SING  33
+MS2  O9B  S9B   DOUB  34
+MS2  S9B  C12   SING  35
+MS2  C12  1H12  SING  36
+MS2  C12  2H12  SING  37
+MS2  C12  3H12  SING  38
+#

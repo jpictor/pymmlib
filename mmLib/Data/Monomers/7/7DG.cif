@@ -1,0 +1,66 @@
+data_7DG
+#
+_chem_comp.id                   7DG
+_chem_comp.name                 7-DEAZAGUANINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H6 N4 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        150.140
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+7DG  N9    .  N  0  ?  ?  ?  1  1 
+7DG  C8    .  C  0  ?  ?  ?  1  2 
+7DG  C7    .  C  0  ?  ?  ?  1  3 
+7DG  C5    .  C  0  ?  ?  ?  1  4 
+7DG  C6    .  C  0  ?  ?  ?  1  5 
+7DG  O6    .  O  0  ?  ?  ?  1  6 
+7DG  N1    .  N  0  ?  ?  ?  1  7 
+7DG  C2    .  C  0  ?  ?  ?  1  8 
+7DG  N2    .  N  0  ?  ?  ?  1  9 
+7DG  N3    .  N  0  ?  ?  ?  1  10
+7DG  C4    .  C  0  ?  ?  ?  1  11
+7DG  H8    .  H  0  ?  ?  ?  1  12
+7DG  1H7   .  H  0  ?  ?  ?  0  13
+7DG  2H7   .  H  0  ?  ?  ?  0  14
+7DG  HN1   .  H  0  ?  ?  ?  1  15
+7DG  1HN2  .  H  0  ?  ?  ?  0  16
+7DG  2HN2  .  H  0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+7DG  N9  C8    DOUB  1 
+7DG  N9  C4    SING  2 
+7DG  C8  C7    SING  3 
+7DG  C8  H8    SING  4 
+7DG  C7  C5    SING  5 
+7DG  C7  1H7   SING  6 
+7DG  C7  2H7   SING  7 
+7DG  C5  C6    SING  8 
+7DG  C5  C4    DOUB  9 
+7DG  C6  O6    DOUB  10
+7DG  C6  N1    SING  11
+7DG  N1  C2    SING  12
+7DG  N1  HN1   SING  13
+7DG  C2  N2    SING  14
+7DG  C2  N3    DOUB  15
+7DG  N2  1HN2  SING  16
+7DG  N2  2HN2  SING  17
+7DG  N3  C4    SING  18
+#

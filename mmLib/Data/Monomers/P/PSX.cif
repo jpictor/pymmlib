@@ -1,0 +1,98 @@
+data_PSX
+#
+_chem_comp.id                   PSX
+_chem_comp.name                 '[(2S,3R,4S)-2,4-DIHYDROXY-3-METHYLHEXYL]PHOSPHONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H17 O5 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.182
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          PSX
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC[C@H](O)[C@@H](C)[C@H](O)CP(O)(O)=O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+PSX  CAA   .  C  0  45.658  52.273  15.775  1  N  1 
+PSX  C6    .  C  0  45.236  51.945  14.350  1  N  2 
+PSX  C5    .  C  0  43.706  51.957  14.207  1  N  3 
+PSX  OC5   .  O  0  43.115  51.408  15.404  1  N  4 
+PSX  C4    .  C  0  43.186  51.158  12.982  1  N  5 
+PSX  CAB   .  C  0  42.179  51.924  12.105  1  N  6 
+PSX  C3    .  C  0  44.298  50.486  12.159  1  N  7 
+PSX  OC3   .  O  0  44.842  51.447  11.255  1  N  8 
+PSX  C2    .  C  0  43.656  49.405  11.333  1  N  9 
+PSX  P1    .  P  0  44.842  48.311  10.516  1  N  10
+PSX  O2P   .  O  0  45.601  47.768  11.859  1  N  11
+PSX  O1P   .  O  0  44.216  47.211  9.754   1  N  12
+PSX  O3P   .  O  0  45.648  48.929  9.524   1  N  13
+PSX  1HAA  .  H  0  46.754  52.352  15.824  0  N  14
+PSX  2HAA  .  H  0  45.207  53.229  16.080  0  N  15
+PSX  3HAA  .  H  0  45.317  51.475  16.451  0  N  16
+PSX  1H6   .  H  0  45.663  52.697  13.670  0  N  17
+PSX  2H6   .  H  0  45.602  50.938  14.100  0  N  18
+PSX  H5    .  H  0  43.414  53.006  14.052  1  N  19
+PSX  HOC5  .  H  0  43.788  51.287  16.063  0  N  20
+PSX  H4    .  H  0  42.609  50.337  13.433  1  N  21
+PSX  1HAB  .  H  0  41.258  52.107  12.678  0  N  22
+PSX  2HAB  .  H  0  42.617  52.885  11.799  0  N  23
+PSX  3HAB  .  H  0  41.943  51.327  11.212  0  N  24
+PSX  H3    .  H  0  45.082  50.087  12.819  1  N  25
+PSX  HOC3  .  H  0  44.963  52.274  11.706  0  N  26
+PSX  1H2   .  H  0  43.030  48.793  11.999  0  N  27
+PSX  2H2   .  H  0  43.078  49.904  10.541  0  N  28
+PSX  HO1P  .  H  0  44.082  47.485  8.854   0  N  29
+PSX  HO3P  .  H  0  ?       ?       ?       0  N  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+PSX  CAA  C6    SING  N  1 
+PSX  CAA  1HAA  SING  N  2 
+PSX  CAA  2HAA  SING  N  3 
+PSX  CAA  3HAA  SING  N  4 
+PSX  C6   C5    SING  N  5 
+PSX  C6   1H6   SING  N  6 
+PSX  C6   2H6   SING  N  7 
+PSX  C5   OC5   SING  N  8 
+PSX  C5   C4    SING  N  9 
+PSX  C5   H5    SING  N  10
+PSX  OC5  HOC5  SING  N  11
+PSX  C4   CAB   SING  N  12
+PSX  C4   C3    SING  N  13
+PSX  C4   H4    SING  N  14
+PSX  CAB  1HAB  SING  N  15
+PSX  CAB  2HAB  SING  N  16
+PSX  CAB  3HAB  SING  N  17
+PSX  C3   OC3   SING  N  18
+PSX  C3   C2    SING  N  19
+PSX  C3   H3    SING  N  20
+PSX  OC3  HOC3  SING  N  21
+PSX  C2   P1    SING  N  22
+PSX  C2   1H2   SING  N  23
+PSX  C2   2H2   SING  N  24
+PSX  P1   O2P   DOUB  N  25
+PSX  P1   O1P   SING  N  26
+PSX  P1   O3P   SING  N  27
+PSX  O1P  HO1P  SING  N  28
+PSX  O3P  HO3P  SING  N  29
+#

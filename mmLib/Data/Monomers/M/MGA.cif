@@ -1,0 +1,85 @@
+data_MGA
+#
+_chem_comp.id                   MGA
+_chem_comp.name                 BETA-METHYL-D-GALACTOSIDE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H14 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        194.184
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MGA  C1   .  C  0  ?  ?  ?  1  1 
+MGA  C2   .  C  0  ?  ?  ?  1  2 
+MGA  C3   .  C  0  ?  ?  ?  1  3 
+MGA  C4   .  C  0  ?  ?  ?  1  4 
+MGA  C5   .  C  0  ?  ?  ?  1  5 
+MGA  C6   .  C  0  ?  ?  ?  1  6 
+MGA  C7   .  C  0  ?  ?  ?  1  7 
+MGA  O1   .  O  0  ?  ?  ?  1  8 
+MGA  O2   .  O  0  ?  ?  ?  1  9 
+MGA  O3   .  O  0  ?  ?  ?  1  10
+MGA  O4   .  O  0  ?  ?  ?  1  11
+MGA  O5   .  O  0  ?  ?  ?  1  12
+MGA  O6   .  O  0  ?  ?  ?  1  13
+MGA  H1   .  H  0  ?  ?  ?  1  14
+MGA  H2   .  H  0  ?  ?  ?  1  15
+MGA  H3   .  H  0  ?  ?  ?  1  16
+MGA  H4   .  H  0  ?  ?  ?  1  17
+MGA  H5   .  H  0  ?  ?  ?  1  18
+MGA  1H6  .  H  0  ?  ?  ?  0  19
+MGA  2H6  .  H  0  ?  ?  ?  0  20
+MGA  1H7  .  H  0  ?  ?  ?  0  21
+MGA  2H7  .  H  0  ?  ?  ?  0  22
+MGA  3H7  .  H  0  ?  ?  ?  0  23
+MGA  HO2  .  H  0  ?  ?  ?  1  24
+MGA  HO3  .  H  0  ?  ?  ?  1  25
+MGA  HO4  .  H  0  ?  ?  ?  1  26
+MGA  HO6  .  H  0  ?  ?  ?  1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MGA  C1  C2   SING  1 
+MGA  C1  O1   SING  2 
+MGA  C1  O5   SING  3 
+MGA  C1  H1   SING  4 
+MGA  C2  C3   SING  5 
+MGA  C2  O2   SING  6 
+MGA  C2  H2   SING  7 
+MGA  C3  C4   SING  8 
+MGA  C3  O3   SING  9 
+MGA  C3  H3   SING  10
+MGA  C4  C5   SING  11
+MGA  C4  O4   SING  12
+MGA  C4  H4   SING  13
+MGA  C5  C6   SING  14
+MGA  C5  O5   SING  15
+MGA  C5  H5   SING  16
+MGA  C6  O6   SING  17
+MGA  C6  1H6  SING  18
+MGA  C6  2H6  SING  19
+MGA  C7  O1   SING  20
+MGA  C7  1H7  SING  21
+MGA  C7  2H7  SING  22
+MGA  C7  3H7  SING  23
+MGA  O2  HO2  SING  24
+MGA  O3  HO3  SING  25
+MGA  O4  HO4  SING  26
+MGA  O6  HO6  SING  27
+#

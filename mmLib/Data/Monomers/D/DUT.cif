@@ -1,0 +1,118 @@
+data_DUT
+#
+_chem_comp.id                   DUT
+_chem_comp.name                 DEOXYURIDINE-5'-TRIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N2 O14 P3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        468.144
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DUT  N1    .  N  0  ?  ?  ?  1  1 
+DUT  C2    .  C  0  ?  ?  ?  1  2 
+DUT  N3    .  N  0  ?  ?  ?  1  3 
+DUT  C4    .  C  0  ?  ?  ?  1  4 
+DUT  C5    .  C  0  ?  ?  ?  1  5 
+DUT  C6    .  C  0  ?  ?  ?  1  6 
+DUT  O2    .  O  0  ?  ?  ?  1  7 
+DUT  O4    .  O  0  ?  ?  ?  1  8 
+DUT  C1*   .  C  0  ?  ?  ?  1  9 
+DUT  C2*   .  C  0  ?  ?  ?  1  10
+DUT  C3*   .  C  0  ?  ?  ?  1  11
+DUT  C4*   .  C  0  ?  ?  ?  1  12
+DUT  O4*   .  O  0  ?  ?  ?  1  13
+DUT  O3*   .  O  0  ?  ?  ?  1  14
+DUT  C5*   .  C  0  ?  ?  ?  1  15
+DUT  O5*   .  O  0  ?  ?  ?  1  16
+DUT  PA    .  P  0  ?  ?  ?  1  17
+DUT  O1A   .  O  0  ?  ?  ?  1  18
+DUT  O2A   .  O  0  ?  ?  ?  1  19
+DUT  O3A   .  O  0  ?  ?  ?  1  20
+DUT  PB    .  P  0  ?  ?  ?  1  21
+DUT  O1B   .  O  0  ?  ?  ?  1  22
+DUT  O2B   .  O  0  ?  ?  ?  1  23
+DUT  O3B   .  O  0  ?  ?  ?  1  24
+DUT  PG    .  P  0  ?  ?  ?  1  25
+DUT  O1G   .  O  0  ?  ?  ?  1  26
+DUT  O2G   .  O  0  ?  ?  ?  1  27
+DUT  O3G   .  O  0  ?  ?  ?  1  28
+DUT  HN3   .  H  0  ?  ?  ?  1  29
+DUT  H5    .  H  0  ?  ?  ?  1  30
+DUT  H6    .  H  0  ?  ?  ?  1  31
+DUT  H1*   .  H  0  ?  ?  ?  1  32
+DUT  1H2*  .  H  0  ?  ?  ?  0  33
+DUT  2H2*  .  H  0  ?  ?  ?  0  34
+DUT  H3*   .  H  0  ?  ?  ?  1  35
+DUT  *HO3  .  H  0  ?  ?  ?  0  36
+DUT  H4*   .  H  0  ?  ?  ?  1  37
+DUT  1H5*  .  H  0  ?  ?  ?  0  38
+DUT  2H5*  .  H  0  ?  ?  ?  0  39
+DUT  2HOA  .  H  0  ?  ?  ?  0  40
+DUT  2HOB  .  H  0  ?  ?  ?  0  41
+DUT  2HOG  .  H  0  ?  ?  ?  0  42
+DUT  3HOG  .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DUT  N1   C2    SING  1 
+DUT  N1   C6    SING  2 
+DUT  N1   C1*   SING  3 
+DUT  C2   N3    SING  4 
+DUT  C2   O2    DOUB  5 
+DUT  N3   C4    SING  6 
+DUT  N3   HN3   SING  7 
+DUT  C4   C5    SING  8 
+DUT  C4   O4    DOUB  9 
+DUT  C5   C6    DOUB  10
+DUT  C5   H5    SING  11
+DUT  C6   H6    SING  12
+DUT  C1*  C2*   SING  13
+DUT  C1*  O4*   SING  14
+DUT  C1*  H1*   SING  15
+DUT  C2*  C3*   SING  16
+DUT  C2*  1H2*  SING  17
+DUT  C2*  2H2*  SING  18
+DUT  C3*  C4*   SING  19
+DUT  C3*  O3*   SING  20
+DUT  C3*  H3*   SING  21
+DUT  C4*  O4*   SING  22
+DUT  C4*  C5*   SING  23
+DUT  C4*  H4*   SING  24
+DUT  O3*  *HO3  SING  25
+DUT  C5*  O5*   SING  26
+DUT  C5*  1H5*  SING  27
+DUT  C5*  2H5*  SING  28
+DUT  O5*  PA    SING  29
+DUT  PA   O1A   DOUB  30
+DUT  PA   O2A   SING  31
+DUT  PA   O3A   SING  32
+DUT  O2A  2HOA  SING  33
+DUT  O3A  PB    SING  34
+DUT  PB   O1B   DOUB  35
+DUT  PB   O2B   SING  36
+DUT  PB   O3B   SING  37
+DUT  O2B  2HOB  SING  38
+DUT  O3B  PG    SING  39
+DUT  PG   O1G   DOUB  40
+DUT  PG   O2G   SING  41
+DUT  PG   O3G   SING  42
+DUT  O2G  2HOG  SING  43
+DUT  O3G  3HOG  SING  44
+#

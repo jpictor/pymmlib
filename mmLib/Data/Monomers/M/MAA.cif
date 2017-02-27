@@ -1,0 +1,63 @@
+data_MAA
+#
+_chem_comp.id                       MAA
+_chem_comp.name                     N-METHYLALANINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  ALA
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            103.121
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MAA  N    .  N  0  ?  ?  ?  1  1 
+MAA  CM   .  C  0  ?  ?  ?  1  2 
+MAA  CA   .  C  0  ?  ?  ?  1  3 
+MAA  CB   .  C  0  ?  ?  ?  1  4 
+MAA  C    .  C  0  ?  ?  ?  1  5 
+MAA  O    .  O  0  ?  ?  ?  1  6 
+MAA  OXT  .  O  0  ?  ?  ?  1  7 
+MAA  HN   .  H  0  ?  ?  ?  1  8 
+MAA  1HM  .  H  0  ?  ?  ?  0  9 
+MAA  2HM  .  H  0  ?  ?  ?  0  10
+MAA  3HM  .  H  0  ?  ?  ?  0  11
+MAA  HA   .  H  0  ?  ?  ?  1  12
+MAA  1HB  .  H  0  ?  ?  ?  0  13
+MAA  2HB  .  H  0  ?  ?  ?  0  14
+MAA  3HB  .  H  0  ?  ?  ?  0  15
+MAA  HXT  .  H  0  ?  ?  ?  1  16
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MAA  N    CA   SING  1 
+MAA  N    CM   SING  2 
+MAA  N    HN   SING  3 
+MAA  CM   1HM  SING  4 
+MAA  CM   2HM  SING  5 
+MAA  CM   3HM  SING  6 
+MAA  CA   CB   SING  7 
+MAA  CA   C    SING  8 
+MAA  CA   HA   SING  9 
+MAA  CB   1HB  SING  10
+MAA  CB   2HB  SING  11
+MAA  CB   3HB  SING  12
+MAA  C    O    DOUB  13
+MAA  C    OXT  SING  14
+MAA  OXT  HXT  SING  15
+#

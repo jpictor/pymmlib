@@ -1,0 +1,52 @@
+data_CAC
+#
+_chem_comp.id                   CAC
+_chem_comp.name                 'CACODYLATE ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'C2 H6 O2 AS1'
+_chem_comp.pdbx_formal_charge   1-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       136.990
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CAC  AS   .  AS  0   ?  ?  ?  0  1 
+CAC  O1   .  O   0   ?  ?  ?  1  2 
+CAC  O2   .  O   -1  ?  ?  ?  1  3 
+CAC  C1   .  C   0   ?  ?  ?  1  4 
+CAC  C2   .  C   0   ?  ?  ?  1  5 
+CAC  1H1  .  H   0   ?  ?  ?  0  6 
+CAC  2H1  .  H   0   ?  ?  ?  0  7 
+CAC  3H1  .  H   0   ?  ?  ?  0  8 
+CAC  1H2  .  H   0   ?  ?  ?  0  9 
+CAC  2H2  .  H   0   ?  ?  ?  0  10
+CAC  3H2  .  H   0   ?  ?  ?  0  11
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CAC  AS  O1   DOUB  1 
+CAC  AS  O2   SING  2 
+CAC  AS  C1   SING  3 
+CAC  AS  C2   SING  4 
+CAC  C1  1H1  SING  5 
+CAC  C1  2H1  SING  6 
+CAC  C1  3H1  SING  7 
+CAC  C2  1H2  SING  8 
+CAC  C2  2H2  SING  9 
+CAC  C2  3H2  SING  10
+#

@@ -1,0 +1,103 @@
+data_HHG
+#
+_chem_comp.id                   HHG
+_chem_comp.name                 '(2R)-2-HYDROXY-3-(PHOSPHONOOXY)PROPYL HEXANOATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H19 O7 P1'
+_chem_comp.pdbx_synonyms        1-MONOHEXANOYL-2-HYDROXY-SN-GLYCERO-3-PHOSPHATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        270.219
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HHG  O2P  .  O  0  14.822  43.672  8.610   1  1 
+HHG  P    .  P  0  15.750  44.252  9.660   1  2 
+HHG  O4P  .  O  0  15.030  44.632  10.939  1  3 
+HHG  O1P  .  O  0  16.721  45.311  9.172   1  4 
+HHG  O3P  .  O  0  16.667  42.988  10.078  1  5 
+HHG  C1   .  C  0  17.262  42.141  9.100   1  6 
+HHG  C2   .  C  0  18.774  42.199  9.278   1  7 
+HHG  O2   .  O  0  19.141  41.508  10.486  1  8 
+HHG  C3   .  C  0  19.450  41.569  8.060   1  9 
+HHG  O3   .  O  0  20.851  41.819  8.155   1  10
+HHG  C4   .  C  0  21.781  41.557  7.067   1  11
+HHG  O1   .  O  0  21.376  41.123  5.992   1  12
+HHG  C5   .  C  0  23.247  41.836  7.317   1  13
+HHG  C6   .  C  0  24.097  41.513  6.099   1  14
+HHG  C7   .  C  0  25.189  42.561  5.941   1  15
+HHG  C8   .  C  0  24.987  43.380  4.674   1  16
+HHG  C9   .  C  0  25.727  42.855  3.461   1  17
+HHG  1H9  .  H  0  ?       ?       ?       0  18
+HHG  2H9  .  H  0  ?       ?       ?       0  19
+HHG  3H9  .  H  0  ?       ?       ?       0  20
+HHG  1H8  .  H  0  ?       ?       ?       0  21
+HHG  2H8  .  H  0  ?       ?       ?       0  22
+HHG  1H7  .  H  0  ?       ?       ?       0  23
+HHG  2H7  .  H  0  ?       ?       ?       0  24
+HHG  1H6  .  H  0  ?       ?       ?       0  25
+HHG  2H6  .  H  0  ?       ?       ?       0  26
+HHG  1H5  .  H  0  ?       ?       ?       0  27
+HHG  2H5  .  H  0  ?       ?       ?       0  28
+HHG  1H3  .  H  0  ?       ?       ?       0  29
+HHG  2H3  .  H  0  ?       ?       ?       0  30
+HHG  H2   .  H  0  ?       ?       ?       1  31
+HHG  HO2  .  H  0  ?       ?       ?       1  32
+HHG  1H1  .  H  0  ?       ?       ?       0  33
+HHG  2H1  .  H  0  ?       ?       ?       0  34
+HHG  H2P  .  H  0  ?       ?       ?       1  35
+HHG  H1P  .  H  0  ?       ?       ?       1  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HHG  O2P  P    SING  1 
+HHG  O2P  H2P  SING  2 
+HHG  P    O3P  SING  3 
+HHG  P    O4P  DOUB  4 
+HHG  P    O1P  SING  5 
+HHG  O1P  H1P  SING  6 
+HHG  O3P  C1   SING  7 
+HHG  C1   C2   SING  8 
+HHG  C1   1H1  SING  9 
+HHG  C1   2H1  SING  10
+HHG  C2   C3   SING  11
+HHG  C2   O2   SING  12
+HHG  C2   H2   SING  13
+HHG  O2   HO2  SING  14
+HHG  C3   O3   SING  15
+HHG  C3   1H3  SING  16
+HHG  C3   2H3  SING  17
+HHG  O3   C4   SING  18
+HHG  C4   C5   SING  19
+HHG  C4   O1   DOUB  20
+HHG  C5   C6   SING  21
+HHG  C5   1H5  SING  22
+HHG  C5   2H5  SING  23
+HHG  C6   C7   SING  24
+HHG  C6   1H6  SING  25
+HHG  C6   2H6  SING  26
+HHG  C7   C8   SING  27
+HHG  C7   1H7  SING  28
+HHG  C7   2H7  SING  29
+HHG  C8   C9   SING  30
+HHG  C8   1H8  SING  31
+HHG  C8   2H8  SING  32
+HHG  C9   1H9  SING  33
+HHG  C9   2H9  SING  34
+HHG  C9   3H9  SING  35
+#

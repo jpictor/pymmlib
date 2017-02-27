@@ -1,0 +1,101 @@
+data_I5C
+#
+_chem_comp.id                       I5C
+_chem_comp.name                     5-IODO-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H13 N3 O7 I1 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            433.096
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+I5C  I     .  I  0  3.652   18.357  36.148  1  1 
+I5C  P     .  P  0  -2.283  16.517  34.319  1  2 
+I5C  O1P   .  O  0  -1.936  17.886  34.810  1  3 
+I5C  O2P   .  O  0  -3.694  16.177  34.050  1  4 
+I5C  O5*   .  O  0  -1.727  15.474  35.378  1  5 
+I5C  N1    .  N  0  2.302   14.350  37.013  1  6 
+I5C  C6    .  C  0  2.373   15.707  36.809  1  7 
+I5C  C2    .  C  0  3.473   13.582  37.055  1  8 
+I5C  O2    .  O  0  3.367   12.345  37.212  1  9 
+I5C  N3    .  N  0  4.675   14.184  36.921  1  10
+I5C  C4    .  C  0  4.748   15.504  36.723  1  11
+I5C  N4    .  N  0  5.952   16.046  36.620  1  12
+I5C  C5    .  C  0  3.564   16.321  36.641  1  13
+I5C  C2*   .  C  0  -0.002  14.342  38.063  1  14
+I5C  C5*   .  C  0  -1.811  14.078  35.107  1  15
+I5C  C4*   .  C  0  -0.993  13.317  36.118  1  16
+I5C  O4*   .  O  0  0.410   13.602  35.919  1  17
+I5C  C1*   .  C  0  1.019   13.658  37.177  1  18
+I5C  C3*   .  C  0  -1.307  13.736  37.557  1  19
+I5C  O3*   .  O  0  -1.696  12.570  38.284  1  20
+I5C  O3P   .  O  0  ?       ?       ?       1  21
+I5C  H3T   .  H  0  ?       ?       ?       1  22
+I5C  H3*   .  H  0  ?       ?       ?       1  23
+I5C  1H2*  .  H  0  ?       ?       ?       0  24
+I5C  2H2*  .  H  0  ?       ?       ?       0  25
+I5C  H1*   .  H  0  ?       ?       ?       1  26
+I5C  H4*   .  H  0  ?       ?       ?       1  27
+I5C  1H5*  .  H  0  ?       ?       ?       0  28
+I5C  2H5*  .  H  0  ?       ?       ?       0  29
+I5C  3HOP  .  H  0  ?       ?       ?       0  30
+I5C  2HOP  .  H  0  ?       ?       ?       0  31
+I5C  H6    .  H  0  ?       ?       ?       1  32
+I5C  1H4   .  H  0  ?       ?       ?       0  33
+I5C  2H4   .  H  0  ?       ?       ?       0  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+I5C  I    C5    SING  1 
+I5C  P    O5*   SING  2 
+I5C  P    O1P   DOUB  3 
+I5C  P    O3P   SING  4 
+I5C  P    O2P   SING  5 
+I5C  O2P  2HOP  SING  6 
+I5C  O5*  C5*   SING  7 
+I5C  N1   C1*   SING  8 
+I5C  N1   C6    SING  9 
+I5C  N1   C2    SING  10
+I5C  C6   H6    SING  11
+I5C  C6   C5    DOUB  12
+I5C  C2   N3    SING  13
+I5C  C2   O2    DOUB  14
+I5C  N3   C4    DOUB  15
+I5C  C4   C5    SING  16
+I5C  C4   N4    SING  17
+I5C  N4   1H4   SING  18
+I5C  N4   2H4   SING  19
+I5C  C2*  C3*   SING  20
+I5C  C2*  1H2*  SING  21
+I5C  C2*  2H2*  SING  22
+I5C  C2*  C1*   SING  23
+I5C  C5*  C4*   SING  24
+I5C  C5*  1H5*  SING  25
+I5C  C5*  2H5*  SING  26
+I5C  C4*  O4*   SING  27
+I5C  C4*  C3*   SING  28
+I5C  C4*  H4*   SING  29
+I5C  O4*  C1*   SING  30
+I5C  C1*  H1*   SING  31
+I5C  C3*  O3*   SING  32
+I5C  C3*  H3*   SING  33
+I5C  O3*  H3T   SING  34
+I5C  O3P  3HOP  SING  35
+#

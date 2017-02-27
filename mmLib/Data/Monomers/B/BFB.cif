@@ -1,0 +1,120 @@
+data_BFB
+#
+_chem_comp.id                   BFB
+_chem_comp.name                 N-[(1S)-1-(AMINOCARBONYL)-4-(ETHANIMIDOYLAMINO)BUTYL]BENZAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H20 N4 O2'
+_chem_comp.pdbx_synonyms        '(S)-N-ALPHA-BENZOYL-N5-(2-FLUORO-1-IMINOETHYL)-L-ORNITHINE AMIDE'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        276.338
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          BFB
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CC(=N)NCCC[C@@H](C(=O)N)NC(=O)c1ccccc1
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+BFB  OAE   .  O  0  22.050  49.449  20.359  1  N  1 
+BFB  CAU   .  C  0  22.450  49.643  21.481  1  N  2 
+BFB  NAA   .  N  0  21.643  49.810  22.529  1  N  3 
+BFB  CAZ   .  C  0  23.931  49.681  21.673  1  N  4 
+BFB  CAO   .  C  0  24.431  48.354  22.230  1  N  5 
+BFB  CAM   .  C  0  23.653  47.103  21.859  1  N  6 
+BFB  CAN   .  C  0  23.892  46.517  20.468  1  N  7 
+BFB  NAR   .  N  0  24.181  45.126  20.796  1  N  8 
+BFB  CAV   .  C  0  24.094  43.866  20.356  1  N  9 
+BFB  CAP   .  C  0  24.677  43.059  21.479  1  N  10
+BFB  NAC   .  N  0  23.680  43.360  19.202  1  N  11
+BFB  NAS   .  N  0  24.401  50.725  22.606  1  N  12
+BFB  CAW   .  C  0  24.089  52.021  22.518  1  N  13
+BFB  OAF   .  O  0  23.377  52.445  21.620  1  N  14
+BFB  CAX   .  C  0  24.629  52.981  23.552  1  Y  15
+BFB  CAK   .  C  0  25.200  52.518  24.746  1  Y  16
+BFB  CAL   .  C  0  24.567  54.370  23.340  1  Y  17
+BFB  CAJ   .  C  0  25.066  55.260  24.299  1  Y  18
+BFB  CAH   .  C  0  25.630  54.775  25.475  1  Y  19
+BFB  CAI   .  C  0  25.700  53.409  25.706  1  Y  20
+BFB  1HAA  .  H  0  20.689  49.753  22.234  0  N  21
+BFB  2HAA  .  H  0  21.946  49.968  23.469  0  N  22
+BFB  HAZ   .  H  0  24.329  49.900  20.671  1  N  23
+BFB  1HAO  .  H  0  25.456  48.216  21.856  0  N  24
+BFB  2HAO  .  H  0  24.326  48.444  23.321  0  N  25
+BFB  1HAM  .  H  0  22.585  47.360  21.920  0  N  26
+BFB  2HAM  .  H  0  24.000  46.330  22.560  0  N  27
+BFB  1HAN  .  H  0  24.727  47.006  19.945  0  N  28
+BFB  2HAN  .  H  0  23.049  46.649  19.774  0  N  29
+BFB  HNAR  .  H  0  24.610  45.107  21.699  0  N  30
+BFB  1HAP  .  H  0  24.820  42.020  21.149  0  N  31
+BFB  2HAP  .  H  0  25.647  43.487  21.773  0  N  32
+BFB  3HAP  .  H  0  23.992  43.079  22.339  0  N  33
+BFB  HNAC  .  H  0  23.380  44.053  18.546  0  N  34
+BFB  HNAS  .  H  0  24.996  50.441  23.358  0  N  35
+BFB  HAK   .  H  0  25.256  51.455  24.930  1  N  36
+BFB  HAL   .  H  0  24.131  54.754  22.430  1  N  37
+BFB  HAJ   .  H  0  25.013  56.325  24.126  1  N  38
+BFB  HAH   .  H  0  26.015  55.465  26.211  1  N  39
+BFB  HAI   .  H  0  26.137  53.034  26.620  1  N  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+BFB  OAE  CAU   DOUB  N  1 
+BFB  CAU  CAZ   SING  N  2 
+BFB  CAU  NAA   SING  N  3 
+BFB  NAA  1HAA  SING  N  4 
+BFB  NAA  2HAA  SING  N  5 
+BFB  CAZ  CAO   SING  N  6 
+BFB  CAZ  NAS   SING  N  7 
+BFB  CAZ  HAZ   SING  N  8 
+BFB  CAO  CAM   SING  N  9 
+BFB  CAO  1HAO  SING  N  10
+BFB  CAO  2HAO  SING  N  11
+BFB  CAM  CAN   SING  N  12
+BFB  CAM  1HAM  SING  N  13
+BFB  CAM  2HAM  SING  N  14
+BFB  CAN  NAR   SING  N  15
+BFB  CAN  1HAN  SING  N  16
+BFB  CAN  2HAN  SING  N  17
+BFB  NAR  CAV   SING  N  18
+BFB  NAR  HNAR  SING  N  19
+BFB  CAV  NAC   DOUB  N  20
+BFB  CAV  CAP   SING  N  21
+BFB  CAP  1HAP  SING  N  22
+BFB  CAP  2HAP  SING  N  23
+BFB  CAP  3HAP  SING  N  24
+BFB  NAC  HNAC  SING  N  25
+BFB  NAS  CAW   SING  N  26
+BFB  NAS  HNAS  SING  N  27
+BFB  CAW  OAF   DOUB  N  28
+BFB  CAW  CAX   SING  N  29
+BFB  CAX  CAL   DOUB  Y  30
+BFB  CAX  CAK   SING  Y  31
+BFB  CAK  CAI   DOUB  Y  32
+BFB  CAK  HAK   SING  N  33
+BFB  CAL  CAJ   SING  Y  34
+BFB  CAL  HAL   SING  N  35
+BFB  CAJ  CAH   DOUB  Y  36
+BFB  CAJ  HAJ   SING  N  37
+BFB  CAH  CAI   SING  Y  38
+BFB  CAH  HAH   SING  N  39
+BFB  CAI  HAI   SING  N  40
+#

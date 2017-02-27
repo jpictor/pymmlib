@@ -1,0 +1,101 @@
+data_5BU
+#
+_chem_comp.id                       5BU
+_chem_comp.name                     5-BROMO-URIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C9 H12 N2 O9 BR1 P1'
+_chem_comp.mon_nstd_parent_comp_id  U
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            403.080
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5BU  P     .  P   0  8.918  26.449  66.999  1  1 
+5BU  O1P   .  O   0  9.879  27.593  66.855  1  2 
+5BU  O2P   .  O   0  8.687  25.535  65.863  1  3 
+5BU  O3P   .  O   0  ?      ?       ?       1  4 
+5BU  O5*   .  O   0  7.559  27.076  67.518  1  5 
+5BU  C5*   .  C   0  6.433  26.247  67.792  1  6 
+5BU  C4*   .  C   0  5.190  27.097  67.997  1  7 
+5BU  O4*   .  O   0  5.272  27.835  69.250  1  8 
+5BU  C3*   .  C   0  4.951  28.186  66.961  1  9 
+5BU  O3*   .  O   0  4.330  27.702  65.781  1  10
+5BU  C2*   .  C   0  4.030  29.129  67.705  1  11
+5BU  O2*   .  O   0  2.714  28.628  67.777  1  12
+5BU  C1*   .  C   0  4.644  29.095  69.102  1  13
+5BU  N1    .  N   0  5.637  30.152  69.329  1  14
+5BU  C2    .  C   0  5.166  31.351  69.802  1  15
+5BU  O2    .  O   0  3.971  31.574  69.935  1  16
+5BU  N3    .  N   0  6.124  32.282  70.094  1  17
+5BU  C4    .  C   0  7.492  32.132  69.925  1  18
+5BU  O4    .  O   0  8.263  33.029  70.302  1  19
+5BU  C5    .  C   0  7.885  30.873  69.373  1  20
+5BU  C6    .  C   0  6.984  29.949  69.104  1  21
+5BU  BR    .  BR  0  9.700  30.535  69.023  0  22
+5BU  2HO*  .  H   0  ?      ?       ?       0  23
+5BU  H2*   .  H   0  ?      ?       ?       1  24
+5BU  H1*   .  H   0  ?      ?       ?       1  25
+5BU  H4*   .  H   0  ?      ?       ?       1  26
+5BU  1H5*  .  H   0  ?      ?       ?       0  27
+5BU  2H5*  .  H   0  ?      ?       ?       0  28
+5BU  2HOP  .  H   0  ?      ?       ?       0  29
+5BU  3HOP  .  H   0  ?      ?       ?       0  30
+5BU  H3*   .  H   0  ?      ?       ?       1  31
+5BU  H3T   .  H   0  ?      ?       ?       1  32
+5BU  H6    .  H   0  ?      ?       ?       1  33
+5BU  H3    .  H   0  ?      ?       ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5BU  P    O5*   SING  1 
+5BU  P    O1P   DOUB  2 
+5BU  P    O2P   SING  3 
+5BU  P    O3P   SING  4 
+5BU  O2P  2HOP  SING  5 
+5BU  O3P  3HOP  SING  6 
+5BU  O5*  C5*   SING  7 
+5BU  C5*  C4*   SING  8 
+5BU  C5*  1H5*  SING  9 
+5BU  C5*  2H5*  SING  10
+5BU  C4*  O4*   SING  11
+5BU  C4*  H4*   SING  12
+5BU  C4*  C3*   SING  13
+5BU  O4*  C1*   SING  14
+5BU  C3*  C2*   SING  15
+5BU  C3*  H3*   SING  16
+5BU  C3*  O3*   SING  17
+5BU  O3*  H3T   SING  18
+5BU  C2*  O2*   SING  19
+5BU  C2*  H2*   SING  20
+5BU  C2*  C1*   SING  21
+5BU  O2*  2HO*  SING  22
+5BU  C1*  H1*   SING  23
+5BU  C1*  N1    SING  24
+5BU  N1   C6    SING  25
+5BU  N1   C2    SING  26
+5BU  C2   N3    SING  27
+5BU  C2   O2    DOUB  28
+5BU  N3   C4    SING  29
+5BU  N3   H3    SING  30
+5BU  C4   C5    SING  31
+5BU  C4   O4    DOUB  32
+5BU  C5   C6    DOUB  33
+5BU  C5   BR    SING  34
+5BU  C6   H6    SING  35
+#

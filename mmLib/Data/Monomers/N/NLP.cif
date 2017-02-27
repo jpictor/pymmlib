@@ -1,0 +1,86 @@
+data_NLP
+#
+_chem_comp.id                   NLP
+_chem_comp.name                 '[(1R)-1-AMINOPENTYL]PHOSPHONIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H14 N1 O3 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        167.144
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          NLP
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CCCC[C@H](N)P(=O)(O)O
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+NLP  N    .  N  0  4.344  2.083   39.510  1  N  1 
+NLP  CA   .  C  0  4.117  0.954   38.596  1  N  2 
+NLP  CB   .  C  0  4.157  1.428   37.144  1  N  3 
+NLP  CG   .  C  0  2.748  1.406   36.560  1  N  4 
+NLP  CD   .  C  0  2.829  1.264   35.039  1  N  5 
+NLP  CE   .  C  0  2.152  2.467   34.385  1  N  6 
+NLP  P    .  P  0  5.343  -0.364  38.889  1  N  7 
+NLP  O1   .  O  0  6.391  -0.336  37.845  1  N  8 
+NLP  O2   .  O  0  6.008  -0.151  40.335  1  N  9 
+NLP  O3   .  O  0  4.595  -1.778  38.847  1  N  10
+NLP  1HN  .  H  0  4.396  1.746   40.450  0  N  11
+NLP  2HN  .  H  0  5.202  2.537   39.271  0  N  12
+NLP  HA   .  H  0  3.118  0.538   38.793  1  N  13
+NLP  1HB  .  H  0  4.554  2.453   37.104  0  N  14
+NLP  2HB  .  H  0  4.806  0.759   36.559  0  N  15
+NLP  1HG  .  H  0  2.191  0.555   36.979  0  N  16
+NLP  2HG  .  H  0  2.231  2.343   36.814  0  N  17
+NLP  1HD  .  H  0  3.883  1.221   34.729  0  N  18
+NLP  2HD  .  H  0  2.321  0.340   34.727  0  N  19
+NLP  1HE  .  H  0  1.989  3.251   35.139  0  N  20
+NLP  2HE  .  H  0  2.795  2.858   33.582  0  N  21
+NLP  3HE  .  H  0  1.184  2.158   33.963  0  N  22
+NLP  HO2  .  H  0  6.953  -0.109  40.246  1  N  23
+NLP  HO3  .  H  0  4.447  -2.032  37.944  1  N  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+NLP  N   CA   SING  N  1 
+NLP  N   1HN  SING  N  2 
+NLP  N   2HN  SING  N  3 
+NLP  CA  CB   SING  N  4 
+NLP  CA  P    SING  N  5 
+NLP  CA  HA   SING  N  6 
+NLP  CB  CG   SING  N  7 
+NLP  CB  1HB  SING  N  8 
+NLP  CB  2HB  SING  N  9 
+NLP  CG  CD   SING  N  10
+NLP  CG  1HG  SING  N  11
+NLP  CG  2HG  SING  N  12
+NLP  CD  CE   SING  N  13
+NLP  CD  1HD  SING  N  14
+NLP  CD  2HD  SING  N  15
+NLP  CE  1HE  SING  N  16
+NLP  CE  2HE  SING  N  17
+NLP  CE  3HE  SING  N  18
+NLP  P   O1   DOUB  N  19
+NLP  P   O2   SING  N  20
+NLP  P   O3   SING  N  21
+NLP  O2  HO2  SING  N  22
+NLP  O3  HO3  SING  N  23
+#

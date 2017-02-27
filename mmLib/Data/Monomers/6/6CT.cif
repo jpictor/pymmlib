@@ -1,0 +1,111 @@
+data_6CT
+#
+_chem_comp.id                       6CT
+_chem_comp.name                     'PHOSPHORIC ACID MONO-[5-HYDROXYMETHYL-2-METHYL-3-THYMINYL-CYCLOPENTYLMETHYL]ESTER GROUP'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C12 H18 N2 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  T
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            317.258
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+6CT  P     .  P  0  ?  ?  ?  1  1 
+6CT  O1P   .  O  0  ?  ?  ?  1  2 
+6CT  O2P   .  O  0  ?  ?  ?  1  3 
+6CT  O5*   .  O  0  ?  ?  ?  1  4 
+6CT  C5*   .  C  0  ?  ?  ?  1  5 
+6CT  C4*   .  C  0  ?  ?  ?  1  6 
+6CT  C3*   .  C  0  ?  ?  ?  1  7 
+6CT  O3*   .  O  0  ?  ?  ?  1  8 
+6CT  C2*   .  C  0  ?  ?  ?  1  9 
+6CT  C1*   .  C  0  ?  ?  ?  1  10
+6CT  N1    .  N  0  ?  ?  ?  1  11
+6CT  C2    .  C  0  ?  ?  ?  1  12
+6CT  O2    .  O  0  ?  ?  ?  1  13
+6CT  N3    .  N  0  ?  ?  ?  1  14
+6CT  C4    .  C  0  ?  ?  ?  1  15
+6CT  O4    .  O  0  ?  ?  ?  1  16
+6CT  C5    .  C  0  ?  ?  ?  1  17
+6CT  C5M   .  C  0  ?  ?  ?  1  18
+6CT  C6    .  C  0  ?  ?  ?  1  19
+6CT  C*    .  C  0  ?  ?  ?  1  20
+6CT  CM*   .  C  0  ?  ?  ?  1  21
+6CT  PHO1  .  H  0  ?  ?  ?  0  22
+6CT  1H5*  .  H  0  ?  ?  ?  0  23
+6CT  2H5*  .  H  0  ?  ?  ?  0  24
+6CT  H4*   .  H  0  ?  ?  ?  1  25
+6CT  H3*   .  H  0  ?  ?  ?  1  26
+6CT  *HO3  .  H  0  ?  ?  ?  0  27
+6CT  1H2*  .  H  0  ?  ?  ?  0  28
+6CT  2H2*  .  H  0  ?  ?  ?  0  29
+6CT  H1*   .  H  0  ?  ?  ?  1  30
+6CT  HN3   .  H  0  ?  ?  ?  1  31
+6CT  1H5M  .  H  0  ?  ?  ?  0  32
+6CT  2H5M  .  H  0  ?  ?  ?  0  33
+6CT  3H5M  .  H  0  ?  ?  ?  0  34
+6CT  H6    .  H  0  ?  ?  ?  1  35
+6CT  H*    .  H  0  ?  ?  ?  1  36
+6CT  1HM*  .  H  0  ?  ?  ?  0  37
+6CT  2HM*  .  H  0  ?  ?  ?  0  38
+6CT  3HM*  .  H  0  ?  ?  ?  0  39
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+6CT  P    O1P   SING  1 
+6CT  P    O2P   DOUB  2 
+6CT  P    O5*   SING  3 
+6CT  O1P  PHO1  SING  4 
+6CT  O5*  C5*   SING  5 
+6CT  C5*  C4*   SING  6 
+6CT  C5*  1H5*  SING  7 
+6CT  C5*  2H5*  SING  8 
+6CT  C4*  C3*   SING  9 
+6CT  C4*  C*    SING  10
+6CT  C4*  H4*   SING  11
+6CT  C3*  O3*   SING  12
+6CT  C3*  C2*   SING  13
+6CT  C3*  H3*   SING  14
+6CT  O3*  *HO3  SING  15
+6CT  C2*  C1*   SING  16
+6CT  C2*  1H2*  SING  17
+6CT  C2*  2H2*  SING  18
+6CT  C1*  N1    SING  19
+6CT  C1*  C*    SING  20
+6CT  C1*  H1*   SING  21
+6CT  N1   C2    SING  22
+6CT  N1   C6    SING  23
+6CT  C2   O2    DOUB  24
+6CT  C2   N3    SING  25
+6CT  N3   C4    SING  26
+6CT  N3   HN3   SING  27
+6CT  C4   O4    DOUB  28
+6CT  C4   C5    SING  29
+6CT  C5   C5M   SING  30
+6CT  C5   C6    DOUB  31
+6CT  C5M  1H5M  SING  32
+6CT  C5M  2H5M  SING  33
+6CT  C5M  3H5M  SING  34
+6CT  C6   H6    SING  35
+6CT  C*   CM*   SING  36
+6CT  C*   H*    SING  37
+6CT  CM*  1HM*  SING  38
+6CT  CM*  2HM*  SING  39
+6CT  CM*  3HM*  SING  40
+#

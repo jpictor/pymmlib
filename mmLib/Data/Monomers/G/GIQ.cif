@@ -1,0 +1,92 @@
+data_GIQ
+#
+_chem_comp.id                   GIQ
+_chem_comp.name                 3-METHYL-3H-IMIDAZO[4,5-F]QUINOLIN-2-AMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H10 N4'
+_chem_comp.pdbx_synonyms        2-AMINO-3-METHYLIMIDAZO[4,5-F]QUINOLINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        198.227
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          GIQ
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       CN1c2ccc3c(c2N=C1N)cccn3
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+GIQ  N3A   .  N  0  -1.717  -1.834  20.432  1  N  1 
+GIQ  C3A   .  C  0  -0.754  -2.826  20.475  1  Y  2 
+GIQ  C1A   .  C  0  -1.253  -3.848  21.266  1  Y  3 
+GIQ  N1A   .  N  0  -2.535  -3.507  21.723  1  N  4 
+GIQ  C     .  C  0  -1.610  -0.587  19.680  1  N  5 
+GIQ  C4A   .  C  0  0.504   -2.901  19.885  1  Y  6 
+GIQ  C5A   .  C  0  1.243   -4.040  20.113  1  Y  7 
+GIQ  C6A   .  C  0  0.813   -5.068  20.888  1  Y  8 
+GIQ  C10   .  C  0  -0.443  -5.027  21.501  1  Y  9 
+GIQ  N6A   .  N  0  1.684   -6.089  21.015  1  Y  10
+GIQ  C7A   .  C  0  1.334   -7.083  21.749  1  Y  11
+GIQ  C8A   .  C  0  0.111   -7.168  22.399  1  Y  12
+GIQ  C9A   .  C  0  -0.774  -6.135  22.266  1  Y  13
+GIQ  N10   .  N  0  -3.920  -1.454  21.361  1  N  14
+GIQ  C2A   .  C  0  -2.781  -2.305  21.198  1  N  15
+GIQ  H1    .  H  0  -2.606  -0.252  19.376  1  N  16
+GIQ  H2    .  H  0  -1.000  -0.750  18.789  1  N  17
+GIQ  H3    .  H  0  -1.140  0.180   20.301  1  N  18
+GIQ  H5A   .  H  0  2.176   -4.227  19.682  1  N  19
+GIQ  H4A   .  H  0  0.878   -2.095  19.294  1  N  20
+GIQ  H7A   .  H  0  2.051   -7.883  21.841  1  N  21
+GIQ  H8A   .  H  0  -0.111  -8.031  23.017  1  N  22
+GIQ  H9A   .  H  0  -1.704  -6.170  22.689  1  N  23
+GIQ  1H10  .  H  0  -4.778  -1.947  21.581  0  N  24
+GIQ  2H10  .  H  0  ?       ?       ?       0  N  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+GIQ  N3A  C     SING  N  1 
+GIQ  N3A  C3A   SING  N  2 
+GIQ  N3A  C2A   SING  N  3 
+GIQ  C3A  C4A   SING  Y  4 
+GIQ  C3A  C1A   DOUB  Y  5 
+GIQ  C1A  C10   SING  Y  6 
+GIQ  C1A  N1A   SING  N  7 
+GIQ  N1A  C2A   DOUB  N  8 
+GIQ  C    H2    SING  N  9 
+GIQ  C    H1    SING  N  10
+GIQ  C    H3    SING  N  11
+GIQ  C4A  H4A   SING  N  12
+GIQ  C4A  C5A   DOUB  Y  13
+GIQ  C5A  H5A   SING  N  14
+GIQ  C5A  C6A   SING  Y  15
+GIQ  C6A  N6A   DOUB  Y  16
+GIQ  C6A  C10   SING  Y  17
+GIQ  C10  C9A   DOUB  Y  18
+GIQ  N6A  C7A   SING  Y  19
+GIQ  C7A  H7A   SING  N  20
+GIQ  C7A  C8A   DOUB  Y  21
+GIQ  C8A  C9A   SING  Y  22
+GIQ  C8A  H8A   SING  N  23
+GIQ  C9A  H9A   SING  N  24
+GIQ  N10  C2A   SING  N  25
+GIQ  N10  1H10  SING  N  26
+GIQ  N10  2H10  SING  N  27
+#

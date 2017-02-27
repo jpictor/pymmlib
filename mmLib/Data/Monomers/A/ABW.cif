@@ -1,0 +1,119 @@
+data_ABW
+#
+_chem_comp.id                   ABW
+_chem_comp.name                 '5-[1-(ACETYLAMINO)-3-METHYLBUTYL]-2,5-ANHYDRO-3,4-DIDEOXY-4-(METHOXYCARBONYL)PENTONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H23 N1 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        301.339
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ABW  C1    .  C  0  24.483  16.493  63.006  1  1 
+ABW  C13   .  C  0  25.362  17.627  62.461  1  2 
+ABW  O6    .  O  0  25.450  18.530  63.557  1  3 
+ABW  C3    .  C  0  24.347  18.354  64.415  1  4 
+ABW  C4    .  C  0  23.466  17.278  63.797  1  5 
+ABW  C5    .  C  0  23.592  19.662  64.645  1  6 
+ABW  O1    .  O  0  22.604  19.634  65.356  1  7 
+ABW  O2    .  O  0  24.033  20.686  64.094  1  8 
+ABW  N2    .  N  0  26.810  16.309  60.921  1  9 
+ABW  C6    .  C  0  27.194  15.007  61.079  1  10
+ABW  C7    .  C  0  27.093  14.149  59.807  1  11
+ABW  O4    .  O  0  27.578  14.544  62.136  1  12
+ABW  C8    .  C  0  26.822  17.287  62.019  1  13
+ABW  C2    .  C  0  27.468  18.596  61.506  1  14
+ABW  C9    .  C  0  28.778  19.162  62.101  1  15
+ABW  C10   .  C  0  29.050  20.449  61.316  1  16
+ABW  C15   .  C  0  28.697  19.527  63.607  1  17
+ABW  C14   .  C  0  23.780  15.674  61.893  1  18
+ABW  O3    .  O  0  23.217  16.167  60.949  1  19
+ABW  O5    .  O  0  23.869  14.357  62.103  1  20
+ABW  C16   .  C  0  23.274  13.444  61.179  1  21
+ABW  1H16  .  H  0  ?       ?       ?       0  22
+ABW  2H16  .  H  0  ?       ?       ?       0  23
+ABW  3H16  .  H  0  ?       ?       ?       0  24
+ABW  H1    .  H  0  ?       ?       ?       1  25
+ABW  1H4   .  H  0  ?       ?       ?       0  26
+ABW  2H4   .  H  0  ?       ?       ?       0  27
+ABW  H3    .  H  0  ?       ?       ?       1  28
+ABW  H13   .  H  0  ?       ?       ?       1  29
+ABW  H8    .  H  0  ?       ?       ?       1  30
+ABW  1H2   .  H  0  ?       ?       ?       0  31
+ABW  2H2   .  H  0  ?       ?       ?       0  32
+ABW  H9    .  H  0  ?       ?       ?       1  33
+ABW  1H10  .  H  0  ?       ?       ?       0  34
+ABW  2H10  .  H  0  ?       ?       ?       0  35
+ABW  3H10  .  H  0  ?       ?       ?       0  36
+ABW  1H15  .  H  0  ?       ?       ?       0  37
+ABW  2H15  .  H  0  ?       ?       ?       0  38
+ABW  3H15  .  H  0  ?       ?       ?       0  39
+ABW  HN2   .  H  0  ?       ?       ?       1  40
+ABW  1H7   .  H  0  ?       ?       ?       0  41
+ABW  2H7   .  H  0  ?       ?       ?       0  42
+ABW  3H7   .  H  0  ?       ?       ?       0  43
+ABW  HO1   .  H  0  ?       ?       ?       1  44
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ABW  C1   C14   SING  1 
+ABW  C1   C4    SING  2 
+ABW  C1   C13   SING  3 
+ABW  C1   H1    SING  4 
+ABW  C13  O6    SING  5 
+ABW  C13  C8    SING  6 
+ABW  C13  H13   SING  7 
+ABW  O6   C3    SING  8 
+ABW  C3   C4    SING  9 
+ABW  C3   C5    SING  10
+ABW  C3   H3    SING  11
+ABW  C4   1H4   SING  12
+ABW  C4   2H4   SING  13
+ABW  C5   O1    SING  14
+ABW  C5   O2    DOUB  15
+ABW  O1   HO1   SING  16
+ABW  N2   C8    SING  17
+ABW  N2   C6    SING  18
+ABW  N2   HN2   SING  19
+ABW  C6   C7    SING  20
+ABW  C6   O4    DOUB  21
+ABW  C7   1H7   SING  22
+ABW  C7   2H7   SING  23
+ABW  C7   3H7   SING  24
+ABW  C8   C2    SING  25
+ABW  C8   H8    SING  26
+ABW  C2   C9    SING  27
+ABW  C2   1H2   SING  28
+ABW  C2   2H2   SING  29
+ABW  C9   C10   SING  30
+ABW  C9   C15   SING  31
+ABW  C9   H9    SING  32
+ABW  C10  1H10  SING  33
+ABW  C10  2H10  SING  34
+ABW  C10  3H10  SING  35
+ABW  C15  1H15  SING  36
+ABW  C15  2H15  SING  37
+ABW  C15  3H15  SING  38
+ABW  C14  O5    SING  39
+ABW  C14  O3    DOUB  40
+ABW  O5   C16   SING  41
+ABW  C16  1H16  SING  42
+ABW  C16  2H16  SING  43
+ABW  C16  3H16  SING  44
+#

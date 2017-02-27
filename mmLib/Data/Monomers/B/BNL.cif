@@ -1,0 +1,76 @@
+data_BNL
+#
+_chem_comp.id                   BNL
+_chem_comp.name                 BIPHENYL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H10'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        154.211
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BNL  C17  .  C  0  5.115   12.074  94.920  1  1 
+BNL  C16  .  C  0  6.108   12.862  95.492  1  2 
+BNL  C15  .  C  0  6.327   14.151  95.024  1  3 
+BNL  C14  .  C  0  5.543   14.660  93.997  1  4 
+BNL  C13  .  C  0  4.544   13.882  93.423  1  5 
+BNL  C12  .  C  0  4.333   12.586  93.888  1  6 
+BNL  C2   .  C  0  6.911   12.346  96.501  1  7 
+BNL  C1   .  C  0  8.291   12.309  96.289  1  8 
+BNL  C3   .  C  0  6.368   11.860  97.682  1  9 
+BNL  C4   .  C  0  7.202   11.326  98.659  1  10
+BNL  C5   .  C  0  8.577   11.288  98.454  1  11
+BNL  C6   .  C  0  9.126   11.777  97.266  1  12
+BNL  H17  .  H  0  4.951   11.067  95.275  1  13
+BNL  H15  .  H  0  7.107   14.758  95.459  1  14
+BNL  H14  .  H  0  5.710   15.666  93.642  1  15
+BNL  H13  .  H  0  3.937   14.279  92.623  1  16
+BNL  H12  .  H  0  3.559   11.976  93.446  1  17
+BNL  H1   .  H  0  8.708   12.692  95.370  1  18
+BNL  H3   .  H  0  5.301   11.896  97.842  1  19
+BNL  H4   .  H  0  6.782   10.941  99.576  1  20
+BNL  H5   .  H  0  9.223   10.879  99.216  1  21
+BNL  H6   .  H  0  10.194  11.742  97.107  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BNL  C17  C16  DOUB  1 
+BNL  C17  C12  SING  2 
+BNL  C17  H17  SING  3 
+BNL  C16  C15  SING  4 
+BNL  C16  C2   SING  5 
+BNL  C15  C14  DOUB  6 
+BNL  C15  H15  SING  7 
+BNL  C14  C13  SING  8 
+BNL  C14  H14  SING  9 
+BNL  C13  C12  DOUB  10
+BNL  C13  H13  SING  11
+BNL  C12  H12  SING  12
+BNL  C2   C3   DOUB  13
+BNL  C2   C1   SING  14
+BNL  C1   C6   DOUB  15
+BNL  C1   H1   SING  16
+BNL  C3   C4   SING  17
+BNL  C3   H3   SING  18
+BNL  C4   C5   DOUB  19
+BNL  C4   H4   SING  20
+BNL  C5   C6   SING  21
+BNL  C5   H5   SING  22
+BNL  C6   H6   SING  23
+#

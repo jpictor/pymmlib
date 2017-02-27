@@ -1,0 +1,57 @@
+data_1MZ
+#
+_chem_comp.id                   1MZ
+_chem_comp.name                 1-METHYLIMIDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H7 N2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       83.113
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+1MZ  N1    .  N  0  ?  ?  ?  1  1 
+1MZ  C2    .  C  0  ?  ?  ?  1  2 
+1MZ  N3    .  N  1  ?  ?  ?  1  3 
+1MZ  C4    .  C  0  ?  ?  ?  1  4 
+1MZ  C5    .  C  0  ?  ?  ?  1  5 
+1MZ  CM1   .  C  0  ?  ?  ?  1  6 
+1MZ  H2    .  H  0  ?  ?  ?  1  7 
+1MZ  HN3   .  H  0  ?  ?  ?  1  8 
+1MZ  H4    .  H  0  ?  ?  ?  1  9 
+1MZ  H5    .  H  0  ?  ?  ?  1  10
+1MZ  1HM1  .  H  0  ?  ?  ?  0  11
+1MZ  2HM1  .  H  0  ?  ?  ?  0  12
+1MZ  3HM1  .  H  0  ?  ?  ?  0  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+1MZ  N1   CM1   SING  1 
+1MZ  N1   C2    SING  2 
+1MZ  N1   C5    SING  3 
+1MZ  C2   N3    DOUB  4 
+1MZ  C2   H2    SING  5 
+1MZ  N3   C4    SING  6 
+1MZ  N3   HN3   SING  7 
+1MZ  C4   C5    DOUB  8 
+1MZ  C4   H4    SING  9 
+1MZ  C5   H5    SING  10
+1MZ  CM1  1HM1  SING  11
+1MZ  CM1  2HM1  SING  12
+1MZ  CM1  3HM1  SING  13
+#

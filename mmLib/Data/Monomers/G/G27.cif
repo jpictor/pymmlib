@@ -1,0 +1,124 @@
+data_G27
+#
+_chem_comp.id                   G27
+_chem_comp.name                 (3R,4R,5R)-5-(HYDROXYMETHYL)-1-(3-PHENYLPROPYL)PIPERIDINE-3,4-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H23 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        265.352
+_chem_comp.formula_weight       ?
+#
+_pdbx_chem_comp_descriptor.comp_id          G27
+_pdbx_chem_comp_descriptor.type             SMILES
+_pdbx_chem_comp_descriptor.descriptor       c1ccc(cc1)CCCN2C[C@@H]([C@H]([C@@H](C2)O)O)CO
+_pdbx_chem_comp_descriptor.program          OpenEye
+_pdbx_chem_comp_descriptor.program_version  1.3.4
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+G27  C12   .  C  0  36.310  28.361  29.440  1  Y  1 
+G27  C13   .  C  0  36.566  29.725  29.279  1  Y  2 
+G27  C14   .  C  0  37.260  30.172  28.156  1  Y  3 
+G27  C15   .  C  0  37.695  29.253  27.201  1  Y  4 
+G27  C16   .  C  0  37.437  27.890  27.364  1  Y  5 
+G27  C11   .  C  0  36.735  27.444  28.481  1  Y  6 
+G27  C10   .  C  0  36.460  25.949  28.679  1  N  7 
+G27  C9    .  C  0  35.175  25.455  28.006  1  N  8 
+G27  C8    .  C  0  35.102  23.924  28.157  1  N  9 
+G27  N1    .  N  0  33.924  23.332  27.493  1  N  10
+G27  C7    .  C  0  33.779  21.943  28.008  1  N  11
+G27  C2    .  C  0  34.063  23.366  26.012  1  N  12
+G27  C3    .  C  0  32.832  22.717  25.336  1  N  13
+G27  O3    .  O  0  33.040  22.662  23.927  1  N  14
+G27  C4    .  C  0  32.581  21.292  25.861  1  N  15
+G27  O4    .  O  0  31.354  20.794  25.304  1  N  16
+G27  C5    .  C  0  32.533  21.269  27.411  1  N  17
+G27  C6    .  C  0  32.383  19.851  27.989  1  N  18
+G27  O6    .  O  0  33.367  18.965  27.436  1  N  19
+G27  H12   .  H  0  35.779  28.015  30.314  1  N  20
+G27  H13   .  H  0  36.227  30.431  30.023  1  N  21
+G27  H14   .  H  0  37.460  31.225  28.026  1  N  22
+G27  H15   .  H  0  38.234  29.597  26.331  1  N  23
+G27  H16   .  H  0  37.782  27.183  26.624  1  N  24
+G27  1H10  .  H  0  36.371  25.761  29.759  0  N  25
+G27  2H10  .  H  0  37.295  25.406  28.212  0  N  26
+G27  1H9   .  H  0  35.186  25.724  26.939  0  N  27
+G27  2H9   .  H  0  34.299  25.922  28.479  0  N  28
+G27  1H8   .  H  0  35.050  23.685  29.229  0  N  29
+G27  2H8   .  H  0  35.998  23.502  27.678  0  N  30
+G27  1H7   .  H  0  33.680  21.974  29.103  0  N  31
+G27  2H7   .  H  0  34.668  21.363  27.719  0  N  32
+G27  1H2   .  H  0  34.967  22.811  25.722  0  N  33
+G27  2H2   .  H  0  34.137  24.414  25.686  0  N  34
+G27  H3    .  H  0  31.952  23.333  25.574  1  N  35
+G27  HO3   .  H  0  32.200  22.650  23.483  1  N  36
+G27  H4    .  H  0  33.412  20.642  25.549  1  N  37
+G27  HO4   .  H  0  30.713  20.684  25.996  1  N  38
+G27  H5    .  H  0  31.634  21.835  27.696  1  N  39
+G27  1H6   .  H  0  32.513  19.894  29.080  0  N  40
+G27  2H6   .  H  0  31.383  19.470  27.733  0  N  41
+G27  HO6   .  H  0  33.146  18.769  26.533  1  N  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+G27  C12  C11   DOUB  Y  1 
+G27  C12  C13   SING  Y  2 
+G27  C12  H12   SING  N  3 
+G27  C13  C14   DOUB  Y  4 
+G27  C13  H13   SING  N  5 
+G27  C14  C15   SING  Y  6 
+G27  C14  H14   SING  N  7 
+G27  C15  C16   DOUB  Y  8 
+G27  C15  H15   SING  N  9 
+G27  C16  C11   SING  Y  10
+G27  C16  H16   SING  N  11
+G27  C11  C10   SING  N  12
+G27  C10  C9    SING  N  13
+G27  C10  1H10  SING  N  14
+G27  C10  2H10  SING  N  15
+G27  C9   C8    SING  N  16
+G27  C9   1H9   SING  N  17
+G27  C9   2H9   SING  N  18
+G27  C8   N1    SING  N  19
+G27  C8   1H8   SING  N  20
+G27  C8   2H8   SING  N  21
+G27  N1   C2    SING  N  22
+G27  N1   C7    SING  N  23
+G27  C7   C5    SING  N  24
+G27  C7   1H7   SING  N  25
+G27  C7   2H7   SING  N  26
+G27  C2   C3    SING  N  27
+G27  C2   1H2   SING  N  28
+G27  C2   2H2   SING  N  29
+G27  C3   O3    SING  N  30
+G27  C3   C4    SING  N  31
+G27  C3   H3    SING  N  32
+G27  O3   HO3   SING  N  33
+G27  C4   O4    SING  N  34
+G27  C4   C5    SING  N  35
+G27  C4   H4    SING  N  36
+G27  O4   HO4   SING  N  37
+G27  C5   C6    SING  N  38
+G27  C5   H5    SING  N  39
+G27  C6   O6    SING  N  40
+G27  C6   1H6   SING  N  41
+G27  C6   2H6   SING  N  42
+G27  O6   HO6   SING  N  43
+#

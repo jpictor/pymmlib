@@ -1,0 +1,97 @@
+data_THB
+#
+_chem_comp.id                   THB
+_chem_comp.name                 TETRAHYDROBIOPTERIN
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H15 N5 O3'
+_chem_comp.pdbx_synonyms        5,6,7,8-TETRAHYDROBIOPTERIN
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        241.249
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+THB  N1    .  N  0  ?  ?  ?  1  1 
+THB  N2    .  N  0  ?  ?  ?  1  2 
+THB  C2    .  C  0  ?  ?  ?  1  3 
+THB  N3    .  N  0  ?  ?  ?  1  4 
+THB  C4    .  C  0  ?  ?  ?  1  5 
+THB  O4    .  O  0  ?  ?  ?  1  6 
+THB  C4A   .  C  0  ?  ?  ?  1  7 
+THB  C8A   .  C  0  ?  ?  ?  1  8 
+THB  N8    .  N  0  ?  ?  ?  1  9 
+THB  C7    .  C  0  ?  ?  ?  1  10
+THB  C6    .  C  0  ?  ?  ?  1  11
+THB  N5    .  N  0  ?  ?  ?  1  12
+THB  C9    .  C  0  ?  ?  ?  1  13
+THB  O9    .  O  0  ?  ?  ?  1  14
+THB  C10   .  C  0  ?  ?  ?  1  15
+THB  O10   .  O  0  ?  ?  ?  1  16
+THB  C11   .  C  0  ?  ?  ?  1  17
+THB  1HN2  .  H  0  ?  ?  ?  0  18
+THB  2HN2  .  H  0  ?  ?  ?  0  19
+THB  H3    .  H  0  ?  ?  ?  1  20
+THB  1H7   .  H  0  ?  ?  ?  0  21
+THB  2H7   .  H  0  ?  ?  ?  0  22
+THB  H8    .  H  0  ?  ?  ?  1  23
+THB  H9    .  H  0  ?  ?  ?  1  24
+THB  HO9   .  H  0  ?  ?  ?  1  25
+THB  H10   .  H  0  ?  ?  ?  1  26
+THB  HO1   .  H  0  ?  ?  ?  1  27
+THB  1H11  .  H  0  ?  ?  ?  0  28
+THB  2H11  .  H  0  ?  ?  ?  0  29
+THB  3H11  .  H  0  ?  ?  ?  0  30
+THB  H5    .  H  0  ?  ?  ?  1  31
+THB  H6    .  H  0  ?  ?  ?  1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+THB  N1   C2    DOUB  1 
+THB  N1   C8A   SING  2 
+THB  N2   C2    SING  3 
+THB  N2   1HN2  SING  4 
+THB  N2   2HN2  SING  5 
+THB  C2   N3    SING  6 
+THB  N3   C4    SING  7 
+THB  N3   H3    SING  8 
+THB  C4   O4    DOUB  9 
+THB  C4   C4A   SING  10
+THB  C4A  C8A   DOUB  11
+THB  C4A  N5    SING  12
+THB  C8A  N8    SING  13
+THB  N8   C7    SING  14
+THB  N8   H8    SING  15
+THB  C7   C6    SING  16
+THB  C7   1H7   SING  17
+THB  C7   2H7   SING  18
+THB  C6   C9    SING  19
+THB  C6   N5    SING  20
+THB  C6   H6    SING  21
+THB  N5   H5    SING  22
+THB  C9   C10   SING  23
+THB  C9   O9    SING  24
+THB  C9   H9    SING  25
+THB  O9   HO9   SING  26
+THB  C10  C11   SING  27
+THB  C10  O10   SING  28
+THB  C10  H10   SING  29
+THB  O10  HO1   SING  30
+THB  C11  1H11  SING  31
+THB  C11  2H11  SING  32
+THB  C11  3H11  SING  33
+#

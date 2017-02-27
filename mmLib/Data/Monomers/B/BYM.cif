@@ -1,0 +1,81 @@
+data_BYM
+#
+_chem_comp.id                   BYM
+_chem_comp.name                 (5E)-5-[(2,2-DIFLUORO-1,3-BENZODIOXOL-5-YL)METHYLENE]-1,3-THIAZOLIDINE-2,4-DIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C11 H5 N1 O4 F2 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        285.222
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BYM  C1   .  C  0  40.170  14.192  32.572  1  1 
+BYM  C3   .  C  0  41.086  15.569  34.236  1  2 
+BYM  C8   .  C  0  45.662  14.382  29.998  1  3 
+BYM  C9   .  C  0  45.918  13.313  29.245  1  4 
+BYM  C11  .  C  0  44.329  14.608  30.581  1  5 
+BYM  C13  .  C  0  44.887  12.305  28.959  1  6 
+BYM  C14  .  C  0  47.801  14.297  29.652  1  7 
+BYM  C15  .  C  0  43.335  13.684  30.340  1  8 
+BYM  C16  .  C  0  43.651  12.483  29.480  1  9 
+BYM  N2   .  N  0  39.942  14.870  33.792  1  10
+BYM  S4   .  S  0  42.468  15.390  33.151  1  11
+BYM  C5   .  C  0  41.532  14.365  32.045  1  12
+BYM  O6   .  O  0  41.101  16.232  35.272  1  13
+BYM  O7   .  O  0  39.297  13.525  32.017  1  14
+BYM  O10  .  O  0  46.760  15.197  30.136  1  15
+BYM  O12  .  O  0  47.211  13.278  28.804  1  16
+BYM  F17  .  F  0  48.429  13.723  30.745  1  17
+BYM  C18  .  C  0  41.939  13.797  30.882  1  18
+BYM  F19  .  F  0  48.736  14.975  28.906  1  19
+BYM  HN2  .  H  0  ?       ?       ?       1  20
+BYM  H18  .  H  0  ?       ?       ?       1  21
+BYM  H16  .  H  0  ?       ?       ?       1  22
+BYM  H13  .  H  0  ?       ?       ?       1  23
+BYM  H11  .  H  0  ?       ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BYM  C1   C5   SING  1 
+BYM  C1   N2   SING  2 
+BYM  C1   O7   DOUB  3 
+BYM  C3   N2   SING  4 
+BYM  C3   O6   DOUB  5 
+BYM  C3   S4   SING  6 
+BYM  C8   O10  SING  7 
+BYM  C8   C9   AROM  8 
+BYM  C8   C11  AROM  9 
+BYM  C9   C13  AROM  10
+BYM  C9   O12  SING  11
+BYM  C11  C15  AROM  12
+BYM  C11  H11  SING  13
+BYM  C13  C16  AROM  14
+BYM  C13  H13  SING  15
+BYM  C14  O12  SING  16
+BYM  C14  F17  SING  17
+BYM  C14  F19  SING  18
+BYM  C14  O10  SING  19
+BYM  C15  C18  SING  20
+BYM  C15  C16  AROM  21
+BYM  C16  H16  SING  22
+BYM  N2   HN2  SING  23
+BYM  S4   C5   SING  24
+BYM  C5   C18  DOUB  25
+BYM  C18  H18  SING  26
+#

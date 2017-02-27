@@ -1,0 +1,81 @@
+data_PA1
+#
+_chem_comp.id                   PA1
+_chem_comp.name                 'PAROMOMYCIN (RING 1)'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 N1 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        179.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PA1  C1    .  C  0  ?  ?  ?  1  1 
+PA1  O1    .  O  0  ?  ?  ?  1  2 
+PA1  C2    .  C  0  ?  ?  ?  1  3 
+PA1  N2    .  N  0  ?  ?  ?  1  4 
+PA1  C3    .  C  0  ?  ?  ?  1  5 
+PA1  O3    .  O  0  ?  ?  ?  1  6 
+PA1  C4    .  C  0  ?  ?  ?  1  7 
+PA1  O4    .  O  0  ?  ?  ?  1  8 
+PA1  C5    .  C  0  ?  ?  ?  1  9 
+PA1  O5    .  O  0  ?  ?  ?  1  10
+PA1  C6    .  C  0  ?  ?  ?  1  11
+PA1  O6    .  O  0  ?  ?  ?  1  12
+PA1  H1    .  H  0  ?  ?  ?  1  13
+PA1  HO1   .  H  0  ?  ?  ?  1  14
+PA1  H2    .  H  0  ?  ?  ?  1  15
+PA1  1HN2  .  H  0  ?  ?  ?  0  16
+PA1  2HN2  .  H  0  ?  ?  ?  0  17
+PA1  H3    .  H  0  ?  ?  ?  1  18
+PA1  HO3   .  H  0  ?  ?  ?  1  19
+PA1  H4    .  H  0  ?  ?  ?  1  20
+PA1  HO4   .  H  0  ?  ?  ?  1  21
+PA1  H5    .  H  0  ?  ?  ?  1  22
+PA1  1H6   .  H  0  ?  ?  ?  0  23
+PA1  2H6   .  H  0  ?  ?  ?  0  24
+PA1  HO6   .  H  0  ?  ?  ?  1  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PA1  C1  C2    SING  1 
+PA1  C1  O1    SING  2 
+PA1  C1  O5    SING  3 
+PA1  C1  H1    SING  4 
+PA1  O1  HO1   SING  5 
+PA1  C2  C3    SING  6 
+PA1  C2  N2    SING  7 
+PA1  C2  H2    SING  8 
+PA1  N2  1HN2  SING  9 
+PA1  N2  2HN2  SING  10
+PA1  C3  C4    SING  11
+PA1  C3  O3    SING  12
+PA1  C3  H3    SING  13
+PA1  O3  HO3   SING  14
+PA1  C4  C5    SING  15
+PA1  C4  O4    SING  16
+PA1  C4  H4    SING  17
+PA1  O4  HO4   SING  18
+PA1  C5  C6    SING  19
+PA1  C5  O5    SING  20
+PA1  C5  H5    SING  21
+PA1  C6  O6    SING  22
+PA1  C6  1H6   SING  23
+PA1  C6  2H6   SING  24
+PA1  O6  HO6   SING  25
+#

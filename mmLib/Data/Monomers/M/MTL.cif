@@ -1,0 +1,82 @@
+data_MTL
+#
+_chem_comp.id                   MTL
+_chem_comp.name                 D-MANNITOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O6'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        182.173
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTL  O1   .  O  0  69.525  74.921  44.219  1  1 
+MTL  C1   .  C  0  69.274  74.877  42.800  1  2 
+MTL  C2   .  C  0  68.848  76.281  42.374  1  3 
+MTL  O2   .  O  0  69.886  77.260  42.659  1  4 
+MTL  C3   .  C  0  68.454  76.299  40.893  1  5 
+MTL  O3   .  O  0  67.202  75.563  40.766  1  6 
+MTL  C4   .  C  0  68.251  77.757  40.409  1  7 
+MTL  O4   .  O  0  67.010  78.272  40.903  1  8 
+MTL  C5   .  C  0  68.222  77.795  38.880  1  9 
+MTL  O5   .  O  0  69.496  77.423  38.357  1  10
+MTL  C6   .  C  0  67.834  79.228  38.352  1  11
+MTL  O6   .  O  0  68.069  79.254  36.946  1  12
+MTL  HO1  .  H  0  ?       ?       ?       1  13
+MTL  1H1  .  H  0  ?       ?       ?       0  14
+MTL  2H1  .  H  0  ?       ?       ?       0  15
+MTL  HO2  .  H  0  ?       ?       ?       1  16
+MTL  H2   .  H  0  ?       ?       ?       1  17
+MTL  HO3  .  H  0  ?       ?       ?       1  18
+MTL  H3   .  H  0  ?       ?       ?       1  19
+MTL  HO4  .  H  0  ?       ?       ?       1  20
+MTL  H4   .  H  0  ?       ?       ?       1  21
+MTL  HO5  .  H  0  ?       ?       ?       1  22
+MTL  H5   .  H  0  ?       ?       ?       1  23
+MTL  HO6  .  H  0  ?       ?       ?       1  24
+MTL  1H6  .  H  0  ?       ?       ?       0  25
+MTL  2H6  .  H  0  ?       ?       ?       0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTL  O1  C1   SING  1 
+MTL  O1  HO1  SING  2 
+MTL  C1  C2   SING  3 
+MTL  C1  1H1  SING  4 
+MTL  C1  2H1  SING  5 
+MTL  C2  O2   SING  6 
+MTL  C2  C3   SING  7 
+MTL  C2  H2   SING  8 
+MTL  O2  HO2  SING  9 
+MTL  C3  O3   SING  10
+MTL  C3  C4   SING  11
+MTL  C3  H3   SING  12
+MTL  O3  HO3  SING  13
+MTL  C4  O4   SING  14
+MTL  C4  C5   SING  15
+MTL  C4  H4   SING  16
+MTL  O4  HO4  SING  17
+MTL  C5  O5   SING  18
+MTL  C5  C6   SING  19
+MTL  C5  H5   SING  20
+MTL  O5  HO5  SING  21
+MTL  C6  O6   SING  22
+MTL  C6  1H6  SING  23
+MTL  C6  2H6  SING  24
+MTL  O6  HO6  SING  25
+#

@@ -1,0 +1,934 @@
+<?xml version="1.0" encoding="ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <title>mmLib.Viewer.GLObject</title>
+  <link rel="stylesheet" href="epydoc.css" type="text/css" />
+  <script type="text/javascript" src="epydoc.js"></script>
+</head>
+
+<body bgcolor="white" text="black" link="blue" vlink="#204080"
+      alink="#204080">
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table width="100%" cellpadding="0" cellspacing="0">
+  <tr valign="top">
+    <td width="100%">
+      <span class="breadcrumbs">
+        <a href="mmLib-module.html">Package&nbsp;mmLib</a> ::
+        <a href="mmLib.Viewer-module.html">Module&nbsp;Viewer</a> ::
+        Class&nbsp;GLObject
+      </span>
+    </td>
+    <td>
+      <table cellpadding="0" cellspacing="0">
+        <!-- hide/show private -->
+        <tr><td align="right"><span class="options">[<a href="javascript:void(0);" class="privatelink"
+    onclick="toggle_private();">hide&nbsp;private</a>]</span></td></tr>
+        <tr><td align="right"><span class="options"
+            >[<a href="frames.html" target="_top">frames</a
+            >]&nbsp;|&nbsp;<a href="mmLib.Viewer.GLObject-class.html"
+            target="_top">no&nbsp;frames</a>]</span></td></tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS DESCRIPTION ==================== -->
+<h1 class="epydoc">Class GLObject</h1><p class="nomargin-top"><span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject">source&nbsp;code</a></span></p>
+<pre class="base-tree">
+object --+
+         |
+        <strong class="uidshort">GLObject</strong>
+</pre>
+
+<dl><dt>Known Subclasses:</dt>
+<dd>
+      <ul class="subclass-list">
+<li><a href="mmLib.Viewer.GLDrawList-class.html">GLDrawList</a></li><li>, <a href="mmLib.Viewer.GLViewer-class.html">GLViewer</a></li>  </ul>
+</dd></dl>
+
+<hr />
+<p>Base class for all OpenGL rendering objects.  It combines a 
+  composite-style tree structure with a system for setting properties. The 
+  properties are used for the specific OpenGL drawing objects to control 
+  color, position, line width, etc...  Implementing properties requres the 
+  GLProperties object which is the access object for the properties.</p>
+
+<!-- ==================== INSTANCE METHODS ==================== -->
+<a name="section-InstanceMethods"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Instance Methods</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-InstanceMethods"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Viewer.GLObject-class.html#__init__" class="summary-sig-name">__init__</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">**args</span>)</span><br />
+      x.__init__(...) initializes x; see x.__class__.__doc__ for signature</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.__init__">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_name"></a><span class="summary-sig-name">glo_name</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the GLObject name.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_name">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_set_name"></a><span class="summary-sig-name">glo_set_name</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Sets the GLObject name.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_set_name">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_add_child"></a><span class="summary-sig-name">glo_add_child</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">child</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_add_child">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_prepend_child"></a><span class="summary-sig-name">glo_prepend_child</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">child</span>)</span><br />
+      Adds a child GLObject to the beginning of the GLObject's child list.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_prepend_child">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_append_child"></a><span class="summary-sig-name">glo_append_child</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">child</span>)</span><br />
+      Adds a child GLObject to the end of the GLObject's child list.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_append_child">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_remove_child"></a><span class="summary-sig-name">glo_remove_child</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">child</span>)</span><br />
+      Removes the child GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_remove_child">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_remove"></a><span class="summary-sig-name">glo_remove</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      The GLObject removes itself from its parent.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_remove">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_iter_children"></a><span class="summary-sig-name">glo_iter_children</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterate immediate children.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_iter_children">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_iter_preorder_traversal"></a><span class="summary-sig-name">glo_iter_preorder_traversal</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Preorder Traversal for GLObject composite.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_iter_preorder_traversal">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_depth"></a><span class="summary-sig-name">glo_get_depth</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the depth, the root composite is depth 0.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_depth">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_degree"></a><span class="summary-sig-name">glo_get_degree</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the number of children (degree).</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_degree">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_count_descendants"></a><span class="summary-sig-name">glo_count_descendants</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Counts all decendant GLObjects.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_count_descendants">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_root"></a><span class="summary-sig-name">glo_get_root</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the root GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_root">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_parent"></a><span class="summary-sig-name">glo_get_parent</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the parent GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_parent">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_path"></a><span class="summary-sig-name">glo_get_path</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the tree-path to the composite as a list of its parent 
+      composites.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_path">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_index_path"></a><span class="summary-sig-name">glo_get_index_path</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the tree-path to the GLObject as a list of its integer 
+      indexes.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_index_path">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_parent_list"></a><span class="summary-sig-name">glo_get_parent_list</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns a list of the parent GLObjects back to the root.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_parent_list">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_lowest_common_ancestor"></a><span class="summary-sig-name">glo_get_lowest_common_ancestor</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">gl_object</span>)</span><br />
+      Returns the lowest common ancesotry of self and argument composite.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_lowest_common_ancestor">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_is_descendant_of"></a><span class="summary-sig-name">glo_is_descendant_of</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">gl_object</span>)</span><br />
+      Returns true if self composite is a decent of argument GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_is_descendant_of">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_set_properties_id"></a><span class="summary-sig-name">glo_set_properties_id</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">gl_object_id</span>)</span><br />
+      Set the property name for this GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_set_properties_id">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_properties_id"></a><span class="summary-sig-name">glo_get_properties_id</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the properties ID of this object.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_properties_id">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_install_properties"></a><span class="summary-sig-name">glo_install_properties</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Called by GLObject.__init__ to install properties.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_install_properties">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Viewer.GLObject-class.html#glo_add_property" class="summary-sig-name">glo_add_property</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">prop_desc</span>)</span><br />
+      Adds a new property to the GLObject.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_add_property">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_iter_property_desc"></a><span class="summary-sig-name">glo_iter_property_desc</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Iterates over all property descriptions.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_iter_property_desc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_property_desc"></a><span class="summary-sig-name">glo_get_property_desc</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">name</span>)</span><br />
+      Return the property description dictionary for the given property 
+      name.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_property_desc">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_link_child_property"></a><span class="summary-sig-name">glo_link_child_property</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">name</span>,
+        <span class="summary-sig-arg">child_gl_object_id</span>,
+        <span class="summary-sig-arg">child_name</span>)</span><br />
+      Link the value of the GLObject's property to the value of a child 
+      property.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_link_child_property">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_child"></a><span class="summary-sig-name">glo_get_child</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">gl_object_id</span>)</span><br />
+      Returns the child GLObject matching the given gl_object_id.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_child">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_child_path"></a><span class="summary-sig-name">glo_get_child_path</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">glo_id_path</span>)</span><br />
+      Returns the object at the given path, or None if the object does not 
+      exist.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_child_path">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_init_properties"></a><span class="summary-sig-name">glo_init_properties</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">**args</span>)</span><br />
+      This is a special form of update which propagates all linked values, 
+      not just the changed ones.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_init_properties">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_update_properties"></a><span class="summary-sig-name">glo_update_properties</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">**args</span>)</span><br />
+      Update property values and trigger update callbacks.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_update_properties">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_update_properties_path"></a><span class="summary-sig-name">glo_update_properties_path</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">glo_id_path</span>,
+        <span class="summary-sig-arg">value</span>)</span></td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_update_properties_path">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a href="mmLib.Viewer.GLObject-class.html#glo_add_update_callback" class="summary-sig-name">glo_add_update_callback</a>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">func</span>)</span><br />
+      Adds a function which is called whenever property values change.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_add_update_callback">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_remove_update_callback"></a><span class="summary-sig-name">glo_remove_update_callback</span>(<span class="summary-sig-arg">self</span>,
+        <span class="summary-sig-arg">func</span>)</span><br />
+      Removes the update callback.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_remove_update_callback">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0">
+        <tr>
+          <td><span class="summary-sig"><a name="glo_get_glstructure"></a><span class="summary-sig-name">glo_get_glstructure</span>(<span class="summary-sig-arg">self</span>)</span><br />
+      Returns the parent GLStructure object, or None if the GLObject is not
+      a child of a GLStructure.</td>
+          <td align="right" valign="top">
+            <span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_get_glstructure">source&nbsp;code</a></span>
+            
+          </td>
+        </tr>
+      </table>
+      
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__delattr__</code>,
+      <code>__format__</code>,
+      <code>__getattribute__</code>,
+      <code>__hash__</code>,
+      <code>__new__</code>,
+      <code>__reduce__</code>,
+      <code>__reduce_ex__</code>,
+      <code>__repr__</code>,
+      <code>__setattr__</code>,
+      <code>__sizeof__</code>,
+      <code>__str__</code>,
+      <code>__subclasshook__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== CLASS VARIABLES ==================== -->
+<a name="section-ClassVariables"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Class Variables</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-ClassVariables"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+    <td width="15%" align="right" valign="top" class="summary">
+      <span class="summary-type">&nbsp;</span>
+    </td><td class="summary">
+        <a name="PropertyDefault"></a><span class="summary-name">PropertyDefault</span> = <code title="GLPropertyDefault()">GLPropertyDefault()</code>
+    </td>
+  </tr>
+</table>
+<!-- ==================== PROPERTIES ==================== -->
+<a name="section-Properties"></a>
+<table class="summary" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Properties</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-Properties"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+  <tr>
+    <td colspan="2" class="summary">
+    <p class="indent-wrapped-lines"><b>Inherited from <code>object</code></b>:
+      <code>__class__</code>
+      </p>
+    </td>
+  </tr>
+</table>
+<!-- ==================== METHOD DETAILS ==================== -->
+<a name="section-MethodDetails"></a>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr bgcolor="#70b0f0" class="table-header">
+  <td colspan="2" class="table-header">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr valign="top">
+        <td align="left"><span class="table-header">Method Details</span></td>
+        <td align="right" valign="top"
+         ><span class="options">[<a href="#section-MethodDetails"
+         class="privatelink" onclick="toggle_private();"
+         >hide private</a>]</span></td>
+      </tr>
+    </table>
+  </td>
+</tr>
+</table>
+<a name="__init__"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">__init__</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">**args</span>)</span>
+    <br /><em class="fname">(Constructor)</em>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.__init__">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>x.__init__(...) initializes x; see x.__class__.__doc__ for 
+  signature</p>
+  <dl class="fields">
+    <dt>Overrides:
+        object.__init__
+        <dd><em class="note">(inherited documentation)</em></dd>
+    </dt>
+  </dl>
+</td></tr></table>
+</div>
+<a name="glo_add_property"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">glo_add_property</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">prop_desc</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_add_property">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds a new property to the GLObject.  The prop_desc is a dictionary 
+  with attributes describing the property.  See comments in source code for
+  a description of the key values for property descriptions.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<a name="glo_add_update_callback"></a>
+<div>
+<table class="details" border="1" cellpadding="3"
+       cellspacing="0" width="100%" bgcolor="white">
+<tr><td>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0">
+  <tr valign="top"><td>
+  <h3 class="epydoc"><span class="sig"><span class="sig-name">glo_add_update_callback</span>(<span class="sig-arg">self</span>,
+        <span class="sig-arg">func</span>)</span>
+  </h3>
+  </td><td align="right" valign="top"
+    ><span class="codelink"><a href="mmLib.Viewer-pysrc.html#GLObject.glo_add_update_callback">source&nbsp;code</a></span>&nbsp;
+    </td>
+  </tr></table>
+  
+  <p>Adds a function which is called whenever property values change. The 
+  function is called with two arguments: a updates dictionary containing 
+  all updated properties and the values they were changed to, and a actions
+  list which contains a unique list of action key words forme 
+  self.prop_list = [] self.callback_list = [] from the action fields of the
+  updated properties.</p>
+  <dl class="fields">
+  </dl>
+</td></tr></table>
+</div>
+<br />
+<!-- ==================== NAVIGATION BAR ==================== -->
+<table class="navbar" border="0" width="100%" cellpadding="0"
+       bgcolor="#a0c0ff" cellspacing="0">
+  <tr valign="middle">
+  <!-- Home link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="mmLib-module.html">Home</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Tree link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="module-tree.html">Trees</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Index link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="identifier-index.html">Indices</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Help link -->
+      <th>&nbsp;&nbsp;&nbsp;<a
+        href="help.html">Help</a>&nbsp;&nbsp;&nbsp;</th>
+
+  <!-- Project homepage -->
+      <th class="navbar" align="right" width="100%">
+        <table border="0" cellpadding="0" cellspacing="0">
+          <tr><th class="navbar" align="center"
+            >Python Macromolecular Library</th>
+          </tr></table></th>
+  </tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%%">
+  <tr>
+    <td align="left" class="footer">
+    Generated by Epydoc 3.0.1 on Mon Jun 27 14:43:16 2011
+    </td>
+    <td align="right" class="footer">
+      <a target="mainFrame" href="http://epydoc.sourceforge.net"
+        >http://epydoc.sourceforge.net</a>
+    </td>
+  </tr>
+</table>
+
+<script type="text/javascript">
+  <!--
+  // Private objects are initially displayed (because if
+  // javascript is turned off then we want them to be
+  // visible); but by default, we want to hide them.  So hide
+  // them unless we have a cookie that says to show them.
+  checkCookie();
+  // -->
+</script>
+</body>
+</html>

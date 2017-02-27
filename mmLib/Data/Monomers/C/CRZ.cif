@@ -1,0 +1,102 @@
+data_CRZ
+#
+_chem_comp.id                   CRZ
+_chem_comp.name                 '4-(9H-CARBAZOL-9-YL)BUTANOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H15 N1 O2'
+_chem_comp.pdbx_synonyms        'CARBAZOLE BUTANOIC ACID'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        253.300
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CRZ  O19  .  O  0  17.408  7.229  2.002   1  1 
+CRZ  C1   .  C  0  17.928  6.424  2.761   1  2 
+CRZ  O18  .  O  0  17.192  5.406  3.196   1  3 
+CRZ  C2   .  C  0  19.371  6.573  3.192   1  4 
+CRZ  C3   .  C  0  19.838  5.404  4.081   1  5 
+CRZ  C4   .  C  0  20.133  4.117  3.289   1  6 
+CRZ  N5   .  N  0  21.033  4.335  2.146   1  7 
+CRZ  C6   .  C  0  20.615  4.517  0.849   1  8 
+CRZ  C17  .  C  0  19.382  4.610  0.201   1  9 
+CRZ  C7   .  C  0  21.827  4.658  0.011   1  10
+CRZ  C14  .  C  0  21.787  4.862  -1.362  1  11
+CRZ  C15  .  C  0  20.519  4.952  -1.953  1  12
+CRZ  C16  .  C  0  19.348  4.822  -1.188  1  13
+CRZ  C8   .  C  0  22.960  4.525  0.906   1  14
+CRZ  C9   .  C  0  22.398  4.321  2.256   1  15
+CRZ  C10  .  C  0  23.306  4.174  3.311   1  16
+CRZ  C13  .  C  0  24.329  4.570  0.641   1  17
+CRZ  C12  .  C  0  25.183  4.405  1.738   1  18
+CRZ  C11  .  C  0  24.677  4.215  3.032   1  19
+CRZ  H19  .  H  0  ?       ?      ?       1  20
+CRZ  1H2  .  H  0  ?       ?      ?       0  21
+CRZ  2H2  .  H  0  ?       ?      ?       0  22
+CRZ  1H3  .  H  0  ?       ?      ?       0  23
+CRZ  2H3  .  H  0  ?       ?      ?       0  24
+CRZ  1H4  .  H  0  ?       ?      ?       0  25
+CRZ  2H4  .  H  0  ?       ?      ?       0  26
+CRZ  H10  .  H  0  ?       ?      ?       1  27
+CRZ  H11  .  H  0  ?       ?      ?       1  28
+CRZ  H12  .  H  0  ?       ?      ?       1  29
+CRZ  H13  .  H  0  ?       ?      ?       1  30
+CRZ  H14  .  H  0  ?       ?      ?       1  31
+CRZ  H15  .  H  0  ?       ?      ?       1  32
+CRZ  H16  .  H  0  ?       ?      ?       1  33
+CRZ  H17  .  H  0  ?       ?      ?       1  34
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CRZ  O19  H19  SING  1 
+CRZ  O19  C1   SING  2 
+CRZ  C1   O18  DOUB  3 
+CRZ  C1   C2   SING  4 
+CRZ  C2   1H2  SING  5 
+CRZ  C2   2H2  SING  6 
+CRZ  C2   C3   SING  7 
+CRZ  C3   1H3  SING  8 
+CRZ  C3   2H3  SING  9 
+CRZ  C3   C4   SING  10
+CRZ  C4   1H4  SING  11
+CRZ  C4   2H4  SING  12
+CRZ  C4   N5   SING  13
+CRZ  N5   C9   SING  14
+CRZ  N5   C6   SING  15
+CRZ  C6   C17  AROM  16
+CRZ  C6   C7   AROM  17
+CRZ  C17  C16  AROM  18
+CRZ  C17  H17  SING  19
+CRZ  C7   C8   SING  20
+CRZ  C7   C14  AROM  21
+CRZ  C14  H14  SING  22
+CRZ  C14  C15  AROM  23
+CRZ  C15  H15  SING  24
+CRZ  C15  C16  AROM  25
+CRZ  C16  H16  SING  26
+CRZ  C8   C13  AROM  27
+CRZ  C8   C9   AROM  28
+CRZ  C9   C10  AROM  29
+CRZ  C10  H10  SING  30
+CRZ  C10  C11  AROM  31
+CRZ  C13  C12  AROM  32
+CRZ  C13  H13  SING  33
+CRZ  C12  C11  AROM  34
+CRZ  C12  H12  SING  35
+CRZ  C11  H11  SING  36
+#

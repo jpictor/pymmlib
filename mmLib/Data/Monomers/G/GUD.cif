@@ -1,0 +1,153 @@
+data_GUD
+#
+_chem_comp.id                   GUD
+_chem_comp.name                 GLUCOSE-URIDINE-C1,5'-DIPHOSPHATE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H24 N2 O17 P2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        566.305
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GUD  N1    .  N  0  ?  ?  ?  1  1 
+GUD  C2    .  C  0  ?  ?  ?  1  2 
+GUD  N3    .  N  0  ?  ?  ?  1  3 
+GUD  C4    .  C  0  ?  ?  ?  1  4 
+GUD  C5    .  C  0  ?  ?  ?  1  5 
+GUD  C6    .  C  0  ?  ?  ?  1  6 
+GUD  O2    .  O  0  ?  ?  ?  1  7 
+GUD  O4    .  O  0  ?  ?  ?  1  8 
+GUD  C1*   .  C  0  ?  ?  ?  1  9 
+GUD  C2*   .  C  0  ?  ?  ?  1  10
+GUD  O2*   .  O  0  ?  ?  ?  1  11
+GUD  C3*   .  C  0  ?  ?  ?  1  12
+GUD  C4*   .  C  0  ?  ?  ?  1  13
+GUD  O4*   .  O  0  ?  ?  ?  1  14
+GUD  O3*   .  O  0  ?  ?  ?  1  15
+GUD  C5*   .  C  0  ?  ?  ?  1  16
+GUD  O5*   .  O  0  ?  ?  ?  1  17
+GUD  PA    .  P  0  ?  ?  ?  1  18
+GUD  O1A   .  O  0  ?  ?  ?  1  19
+GUD  O2A   .  O  0  ?  ?  ?  1  20
+GUD  O3A   .  O  0  ?  ?  ?  1  21
+GUD  PB    .  P  0  ?  ?  ?  1  22
+GUD  O1B   .  O  0  ?  ?  ?  1  23
+GUD  O2B   .  O  0  ?  ?  ?  1  24
+GUD  O3B   .  O  0  ?  ?  ?  1  25
+GUD  C1'   .  C  0  ?  ?  ?  1  26
+GUD  C2'   .  C  0  ?  ?  ?  1  27
+GUD  C3'   .  C  0  ?  ?  ?  1  28
+GUD  C4'   .  C  0  ?  ?  ?  1  29
+GUD  C5'   .  C  0  ?  ?  ?  1  30
+GUD  C6'   .  C  0  ?  ?  ?  1  31
+GUD  O2'   .  O  0  ?  ?  ?  1  32
+GUD  O3'   .  O  0  ?  ?  ?  1  33
+GUD  O4'   .  O  0  ?  ?  ?  1  34
+GUD  O5'   .  O  0  ?  ?  ?  1  35
+GUD  O6'   .  O  0  ?  ?  ?  1  36
+GUD  HN3   .  H  0  ?  ?  ?  1  37
+GUD  H5    .  H  0  ?  ?  ?  1  38
+GUD  H6    .  H  0  ?  ?  ?  1  39
+GUD  H1*   .  H  0  ?  ?  ?  1  40
+GUD  H2*   .  H  0  ?  ?  ?  1  41
+GUD  *HO2  .  H  0  ?  ?  ?  0  42
+GUD  H3*   .  H  0  ?  ?  ?  1  43
+GUD  *HO3  .  H  0  ?  ?  ?  0  44
+GUD  H4*   .  H  0  ?  ?  ?  1  45
+GUD  1H5*  .  H  0  ?  ?  ?  0  46
+GUD  2H5*  .  H  0  ?  ?  ?  0  47
+GUD  2HOA  .  H  0  ?  ?  ?  0  48
+GUD  2HOB  .  H  0  ?  ?  ?  0  49
+GUD  H1'   .  H  0  ?  ?  ?  1  50
+GUD  H2'   .  H  0  ?  ?  ?  1  51
+GUD  H3'   .  H  0  ?  ?  ?  1  52
+GUD  H4'   .  H  0  ?  ?  ?  1  53
+GUD  H5'   .  H  0  ?  ?  ?  1  54
+GUD  1H6'  .  H  0  ?  ?  ?  0  55
+GUD  2H6'  .  H  0  ?  ?  ?  0  56
+GUD  'HO2  .  H  0  ?  ?  ?  0  57
+GUD  'HO3  .  H  0  ?  ?  ?  0  58
+GUD  'HO4  .  H  0  ?  ?  ?  0  59
+GUD  'HO6  .  H  0  ?  ?  ?  0  60
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GUD  N1   C2    SING  1 
+GUD  N1   C6    SING  2 
+GUD  N1   C1*   SING  3 
+GUD  C2   N3    SING  4 
+GUD  C2   O2    DOUB  5 
+GUD  N3   C4    SING  6 
+GUD  N3   HN3   SING  7 
+GUD  C4   C5    SING  8 
+GUD  C4   O4    DOUB  9 
+GUD  C5   C6    DOUB  10
+GUD  C5   H5    SING  11
+GUD  C6   H6    SING  12
+GUD  C1*  C2*   SING  13
+GUD  C1*  O4*   SING  14
+GUD  C1*  H1*   SING  15
+GUD  C2*  C3*   SING  16
+GUD  C2*  O2*   SING  17
+GUD  C2*  H2*   SING  18
+GUD  O2*  *HO2  SING  19
+GUD  C3*  C4*   SING  20
+GUD  C3*  O3*   SING  21
+GUD  C3*  H3*   SING  22
+GUD  C4*  O4*   SING  23
+GUD  C4*  C5*   SING  24
+GUD  C4*  H4*   SING  25
+GUD  O3*  *HO3  SING  26
+GUD  C5*  O5*   SING  27
+GUD  C5*  1H5*  SING  28
+GUD  C5*  2H5*  SING  29
+GUD  O5*  PA    SING  30
+GUD  PA   O1A   DOUB  31
+GUD  PA   O2A   SING  32
+GUD  PA   O3A   SING  33
+GUD  O2A  2HOA  SING  34
+GUD  O3A  PB    SING  35
+GUD  PB   O1B   DOUB  36
+GUD  PB   O2B   SING  37
+GUD  PB   O3B   SING  38
+GUD  O2B  2HOB  SING  39
+GUD  O3B  C1'   SING  40
+GUD  C1'  C2'   SING  41
+GUD  C1'  O5'   SING  42
+GUD  C1'  H1'   SING  43
+GUD  C2'  C3'   SING  44
+GUD  C2'  O2'   SING  45
+GUD  C2'  H2'   SING  46
+GUD  C3'  C4'   SING  47
+GUD  C3'  O3'   SING  48
+GUD  C3'  H3'   SING  49
+GUD  C4'  C5'   SING  50
+GUD  C4'  O4'   SING  51
+GUD  C4'  H4'   SING  52
+GUD  C5'  C6'   SING  53
+GUD  C5'  O5'   SING  54
+GUD  C5'  H5'   SING  55
+GUD  C6'  O6'   SING  56
+GUD  C6'  1H6'  SING  57
+GUD  C6'  2H6'  SING  58
+GUD  O2'  'HO2  SING  59
+GUD  O3'  'HO3  SING  60
+GUD  O4'  'HO4  SING  61
+GUD  O6'  'HO6  SING  62
+#

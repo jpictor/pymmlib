@@ -1,0 +1,109 @@
+data_XCL
+#
+_chem_comp.id                       XCL
+_chem_comp.name                     '[(1S,4R,6R)-6-HYDROXY-4-(CYTOSIN-9-YL)CYCLOHEX-2-EN-1-YL]METHYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                     'DNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C11 H16 N3 O6 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            317.238
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_ordinal
+XCL  P     .  P  0  16.022  -8.955   34.779  1  N  1 
+XCL  O1P   .  O  0  16.122  -8.411   36.104  1  N  2 
+XCL  O2P   .  O  0  14.694  -9.081   34.140  1  N  3 
+XCL  O5*   .  O  0  16.673  -10.461  34.739  1  N  4 
+XCL  C5*   .  C  0  17.918  -10.895  35.279  1  N  5 
+XCL  C4*   .  C  0  18.181  -12.335  34.865  1  N  6 
+XCL  C6*   .  C  0  18.258  -12.323  33.400  1  N  7 
+XCL  C7*   .  C  0  17.789  -13.255  32.587  1  N  8 
+XCL  C3*   .  C  0  16.879  -13.117  35.241  1  N  9 
+XCL  O3*   .  O  0  17.023  -13.217  36.643  1  N  10
+XCL  C2*   .  C  0  16.925  -14.492  34.571  1  N  11
+XCL  C1*   .  C  0  16.672  -14.237  33.043  1  N  12
+XCL  C6    .  C  0  14.723  -12.724  32.776  1  N  13
+XCL  C5    .  C  0  13.433  -12.484  32.507  1  N  14
+XCL  C4    .  C  0  12.619  -13.614  32.181  1  N  15
+XCL  N4    .  N  0  11.322  -13.450  31.902  1  N  16
+XCL  N3    .  N  0  13.124  -14.839  32.148  1  N  17
+XCL  C2    .  C  0  14.425  -15.080  32.421  1  N  18
+XCL  O2    .  O  0  14.887  -16.231  32.388  1  N  19
+XCL  N1    .  N  0  15.237  -13.986  32.742  1  N  20
+XCL  O3P   .  O  0  16.710  -7.960   34.035  1  N  21
+XCL  2HOP  .  H  0  16.144  -9.119   36.737  0  N  22
+XCL  1H5*  .  H  0  18.725  -10.252  34.899  0  N  23
+XCL  2H5*  .  H  0  17.882  -10.832  36.377  0  N  24
+XCL  H4*   .  H  0  19.083  -12.766  35.325  1  N  25
+XCL  H6*   .  H  0  18.743  -11.473  32.942  1  N  26
+XCL  H7*   .  H  0  18.189  -13.336  31.587  1  N  27
+XCL  H3*   .  H  0  15.930  -12.655  34.932  1  N  28
+XCL  H3T   .  H  0  17.946  -13.239  36.866  1  N  29
+XCL  1H2*  .  H  0  16.150  -15.153  34.988  0  N  30
+XCL  2H2*  .  H  0  17.892  -14.989  34.740  0  N  31
+XCL  H1*   .  H  0  16.789  -15.112  32.387  1  N  32
+XCL  H6    .  H  0  15.372  -11.897  33.026  1  N  33
+XCL  H5    .  H  0  13.026  -11.484  32.535  1  N  34
+XCL  1HN4  .  H  0  10.896  -14.331  31.696  0  N  35
+XCL  2HN4  .  H  0  10.845  -12.571  31.899  0  N  36
+XCL  3HOP  .  H  0  ?       ?        ?       0  N  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_ordinal
+XCL  P    O1P   DOUB  N  1 
+XCL  P    O5*   SING  N  2 
+XCL  P    O2P   SING  N  3 
+XCL  P    O3P   SING  N  4 
+XCL  O2P  2HOP  SING  N  5 
+XCL  O5*  C5*   SING  N  6 
+XCL  C5*  C4*   SING  N  7 
+XCL  C5*  1H5*  SING  N  8 
+XCL  C5*  2H5*  SING  N  9 
+XCL  C4*  C6*   SING  N  10
+XCL  C4*  C3*   SING  N  11
+XCL  C4*  H4*   SING  N  12
+XCL  C6*  C7*   DOUB  N  13
+XCL  C6*  H6*   SING  N  14
+XCL  C7*  C1*   SING  N  15
+XCL  C7*  H7*   SING  N  16
+XCL  C3*  C2*   SING  N  17
+XCL  C3*  O3*   SING  N  18
+XCL  C3*  H3*   SING  N  19
+XCL  O3*  H3T   SING  N  20
+XCL  C2*  C1*   SING  N  21
+XCL  C2*  1H2*  SING  N  22
+XCL  C2*  2H2*  SING  N  23
+XCL  C1*  N1    SING  N  24
+XCL  C1*  H1*   SING  N  25
+XCL  C6   C5    DOUB  N  26
+XCL  C6   N1    SING  N  27
+XCL  C6   H6    SING  N  28
+XCL  C5   C4    SING  N  29
+XCL  C5   H5    SING  N  30
+XCL  C4   N4    SING  N  31
+XCL  C4   N3    DOUB  N  32
+XCL  N4   1HN4  SING  N  33
+XCL  N4   2HN4  SING  N  34
+XCL  N3   C2    SING  N  35
+XCL  C2   O2    DOUB  N  36
+XCL  C2   N1    SING  N  37
+XCL  O3P  3HOP  SING  N  38
+#

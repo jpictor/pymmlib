@@ -1,0 +1,83 @@
+data_GRF
+#
+_chem_comp.id                   GRF
+_chem_comp.name                 5-O-PHOSPHONO-BETA-D-RIBOFURANOSYLAMINE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H12 N1 O7 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        229.126
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GRF  C1    .  C  0  40.632  27.187  31.545  1  1 
+GRF  O6    .  O  0  41.644  26.860  30.620  1  2 
+GRF  C2    .  C  0  40.963  28.424  32.418  1  3 
+GRF  O8    .  O  0  41.697  29.362  31.703  1  4 
+GRF  C3    .  C  0  39.571  28.909  32.912  1  5 
+GRF  O4    .  O  0  38.650  28.316  32.009  1  6 
+GRF  C5    .  C  0  39.286  27.489  30.962  1  7 
+GRF  C10   .  C  0  38.443  26.305  30.627  1  8 
+GRF  O12   .  O  0  38.576  25.280  31.619  1  9 
+GRF  N19   .  N  0  39.169  28.491  34.296  1  10
+GRF  P15   .  P  0  37.862  23.875  31.645  1  11
+GRF  O16   .  O  0  38.472  23.032  32.658  1  12
+GRF  O17   .  O  0  37.886  23.235  30.334  1  13
+GRF  O18   .  O  0  36.391  24.237  32.199  1  14
+GRF  1H19  .  H  0  ?       ?       ?       0  15
+GRF  2H19  .  H  0  ?       ?       ?       0  16
+GRF  H3    .  H  0  ?       ?       ?       1  17
+GRF  H5    .  H  0  ?       ?       ?       1  18
+GRF  1H10  .  H  0  ?       ?       ?       0  19
+GRF  2H10  .  H  0  ?       ?       ?       0  20
+GRF  H16   .  H  0  ?       ?       ?       1  21
+GRF  H18   .  H  0  ?       ?       ?       1  22
+GRF  H1    .  H  0  ?       ?       ?       1  23
+GRF  HO6   .  H  0  ?       ?       ?       1  24
+GRF  H2    .  H  0  ?       ?       ?       1  25
+GRF  HO8   .  H  0  ?       ?       ?       1  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GRF  C1   C5    SING  1 
+GRF  C1   O6    SING  2 
+GRF  C1   C2    SING  3 
+GRF  C1   H1    SING  4 
+GRF  O6   HO6   SING  5 
+GRF  C2   C3    SING  6 
+GRF  C2   O8    SING  7 
+GRF  C2   H2    SING  8 
+GRF  O8   HO8   SING  9 
+GRF  C3   N19   SING  10
+GRF  C3   O4    SING  11
+GRF  C3   H3    SING  12
+GRF  O4   C5    SING  13
+GRF  C5   C10   SING  14
+GRF  C5   H5    SING  15
+GRF  C10  O12   SING  16
+GRF  C10  1H10  SING  17
+GRF  C10  2H10  SING  18
+GRF  O12  P15   SING  19
+GRF  N19  1H19  SING  20
+GRF  N19  2H19  SING  21
+GRF  P15  O16   SING  22
+GRF  P15  O17   DOUB  23
+GRF  P15  O18   SING  24
+GRF  O16  H16   SING  25
+GRF  O18  H18   SING  26
+#

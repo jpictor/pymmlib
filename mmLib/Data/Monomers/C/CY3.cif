@@ -1,0 +1,61 @@
+data_CY3
+#
+_chem_comp.id                       CY3
+_chem_comp.name                     2-AMINO-3-MERCAPTO-PROPIONAMIDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H8 N2 O1 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            120.169
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CY3  N     .  N  0  ?  ?  ?  1  1 
+CY3  CA    .  C  0  ?  ?  ?  1  2 
+CY3  C     .  C  0  ?  ?  ?  1  3 
+CY3  O     .  O  0  ?  ?  ?  1  4 
+CY3  CB    .  C  0  ?  ?  ?  1  5 
+CY3  SG    .  S  0  ?  ?  ?  1  6 
+CY3  N1    .  N  0  ?  ?  ?  1  7 
+CY3  H     .  H  0  ?  ?  ?  1  8 
+CY3  HA    .  H  0  ?  ?  ?  1  9 
+CY3  1HB   .  H  0  ?  ?  ?  0  10
+CY3  2HB   .  H  0  ?  ?  ?  0  11
+CY3  1HN1  .  H  0  ?  ?  ?  0  12
+CY3  2HN1  .  H  0  ?  ?  ?  0  13
+CY3  HG    .  H  0  ?  ?  ?  1  14
+CY3  HN2   .  H  0  ?  ?  ?  1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CY3  N   CA    SING  1 
+CY3  N   H     SING  2 
+CY3  N   HN2   SING  3 
+CY3  CA  C     SING  4 
+CY3  CA  CB    SING  5 
+CY3  CA  HA    SING  6 
+CY3  C   O     DOUB  7 
+CY3  C   N1    SING  8 
+CY3  CB  SG    SING  9 
+CY3  CB  1HB   SING  10
+CY3  CB  2HB   SING  11
+CY3  SG  HG    SING  12
+CY3  N1  1HN1  SING  13
+CY3  N1  2HN1  SING  14
+#

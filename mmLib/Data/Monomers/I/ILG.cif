@@ -1,0 +1,67 @@
+data_ILG
+#
+_chem_comp.id                       ILG
+_chem_comp.name                     'GLUTAMYL GROUP'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           131.131
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ILG  N    .  N  1  ?  ?  ?  1  1 
+ILG  CA   .  C  0  ?  ?  ?  1  2 
+ILG  C    .  C  0  ?  ?  ?  1  3 
+ILG  O    .  O  0  ?  ?  ?  1  4 
+ILG  CB   .  C  0  ?  ?  ?  1  5 
+ILG  CG   .  C  0  ?  ?  ?  1  6 
+ILG  CD   .  C  0  ?  ?  ?  1  7 
+ILG  OE1  .  O  0  ?  ?  ?  1  8 
+ILG  OXT  .  O  0  ?  ?  ?  1  9 
+ILG  1HN  .  H  0  ?  ?  ?  0  10
+ILG  2HN  .  H  0  ?  ?  ?  0  11
+ILG  3HN  .  H  0  ?  ?  ?  0  12
+ILG  HA   .  H  0  ?  ?  ?  1  13
+ILG  1HB  .  H  0  ?  ?  ?  0  14
+ILG  2HB  .  H  0  ?  ?  ?  0  15
+ILG  1HG  .  H  0  ?  ?  ?  0  16
+ILG  2HG  .  H  0  ?  ?  ?  0  17
+ILG  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ILG  N    CA   SING  1 
+ILG  N    1HN  SING  2 
+ILG  N    2HN  SING  3 
+ILG  N    3HN  SING  4 
+ILG  CA   CB   SING  5 
+ILG  CA   C    SING  6 
+ILG  CA   HA   SING  7 
+ILG  C    O    DOUB  8 
+ILG  C    OXT  SING  9 
+ILG  CB   CG   SING  10
+ILG  CB   1HB  SING  11
+ILG  CB   2HB  SING  12
+ILG  CG   CD   SING  13
+ILG  CG   1HG  SING  14
+ILG  CG   2HG  SING  15
+ILG  CD   OE1  DOUB  16
+ILG  OXT  HXT  SING  17
+#

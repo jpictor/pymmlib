@@ -1,0 +1,80 @@
+data_NEW
+#
+_chem_comp.id                   NEW
+_chem_comp.name                 3,3',5,5'-TETRACHLOROBIPHENYL-4,4'-DIOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H6 O2 CL4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        323.990
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+NEW  O2   .  O   0  21.606  42.873  11.339  1  1 
+NEW  C9   .  C   0  21.583  42.880  9.971   1  2 
+NEW  C8   .  C   0  21.593  41.674  9.273   1  3 
+NEW  CL2  .  CL  0  21.627  40.368  10.040  0  4 
+NEW  C10  .  C   0  21.547  44.088  9.278   1  5 
+NEW  CL4  .  CL  0  21.540  45.394  10.044  0  6 
+NEW  C11  .  C   0  21.527  44.085  7.877   1  7 
+NEW  C12  .  C   0  21.534  42.882  7.153   1  8 
+NEW  C7   .  C   0  21.564  41.679  7.873   1  9 
+NEW  C3   .  C   0  21.509  42.880  5.748   1  10
+NEW  C2   .  C   0  22.346  43.723  5.008   1  11
+NEW  C4   .  C   0  20.648  42.037  5.039   1  12
+NEW  C5   .  C   0  20.616  42.031  3.641   1  13
+NEW  CL5  .  CL  0  19.657  41.095  2.949   0  14
+NEW  C6   .  C   0  21.458  42.872  2.914   1  15
+NEW  O1   .  O   0  21.426  42.861  1.542   1  16
+NEW  C1   .  C   0  22.325  43.721  3.609   1  17
+NEW  CL1  .  CL  0  23.265  44.653  2.885   0  18
+NEW  HO2  .  H   0  22.507  42.871  11.641  1  19
+NEW  H7   .  H   0  21.565  40.740  7.339   1  20
+NEW  H11  .  H   0  21.506  45.024  7.345   1  21
+NEW  H4   .  H   0  19.992  41.375  5.584   1  22
+NEW  HO1  .  H   0  20.523  42.858  1.246   1  23
+NEW  H2   .  H   0  23.021  44.388  5.527   1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+NEW  O2   HO2  SING  1 
+NEW  O2   C9   SING  2 
+NEW  C9   C8   DOUB  3 
+NEW  C9   C10  SING  4 
+NEW  C8   CL2  SING  5 
+NEW  C8   C7   SING  6 
+NEW  C10  C11  DOUB  7 
+NEW  C10  CL4  SING  8 
+NEW  C11  C12  SING  9 
+NEW  C11  H11  SING  10
+NEW  C12  C7   DOUB  11
+NEW  C12  C3   SING  12
+NEW  C7   H7   SING  13
+NEW  C3   C4   DOUB  14
+NEW  C3   C2   SING  15
+NEW  C2   C1   DOUB  16
+NEW  C2   H2   SING  17
+NEW  C4   H4   SING  18
+NEW  C4   C5   SING  19
+NEW  C5   CL5  SING  20
+NEW  C5   C6   DOUB  21
+NEW  C6   O1   SING  22
+NEW  C6   C1   SING  23
+NEW  O1   HO1  SING  24
+NEW  C1   CL1  SING  25
+#

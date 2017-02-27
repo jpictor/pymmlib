@@ -1,0 +1,67 @@
+data_GLQ
+#
+_chem_comp.id                       GLQ
+_chem_comp.name                     '4-AMINO-5-OXO-PENTANOIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  GLU
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            131.131
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+GLQ  N    .  N  0  ?  ?  ?  1  1 
+GLQ  CA   .  C  0  ?  ?  ?  1  2 
+GLQ  C    .  C  0  ?  ?  ?  1  3 
+GLQ  O    .  O  0  ?  ?  ?  1  4 
+GLQ  CB   .  C  0  ?  ?  ?  1  5 
+GLQ  CG   .  C  0  ?  ?  ?  1  6 
+GLQ  CD   .  C  0  ?  ?  ?  1  7 
+GLQ  OE1  .  O  0  ?  ?  ?  1  8 
+GLQ  OE2  .  O  0  ?  ?  ?  1  9 
+GLQ  H    .  H  0  ?  ?  ?  1  10
+GLQ  HN2  .  H  0  ?  ?  ?  1  11
+GLQ  HA   .  H  0  ?  ?  ?  1  12
+GLQ  1HB  .  H  0  ?  ?  ?  0  13
+GLQ  2HB  .  H  0  ?  ?  ?  0  14
+GLQ  1HG  .  H  0  ?  ?  ?  0  15
+GLQ  2HG  .  H  0  ?  ?  ?  0  16
+GLQ  HE2  .  H  0  ?  ?  ?  1  17
+GLQ  HXT  .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+GLQ  N    CA   SING  1 
+GLQ  N    H    SING  2 
+GLQ  N    HN2  SING  3 
+GLQ  CA   C    SING  4 
+GLQ  CA   CB   SING  5 
+GLQ  CA   HA   SING  6 
+GLQ  C    O    DOUB  7 
+GLQ  C    HXT  SING  8 
+GLQ  CB   CG   SING  9 
+GLQ  CB   1HB  SING  10
+GLQ  CB   2HB  SING  11
+GLQ  CG   CD   SING  12
+GLQ  CG   1HG  SING  13
+GLQ  CG   2HG  SING  14
+GLQ  CD   OE1  DOUB  15
+GLQ  CD   OE2  SING  16
+GLQ  OE2  HE2  SING  17
+#

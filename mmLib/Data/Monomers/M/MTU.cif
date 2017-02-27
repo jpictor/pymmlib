@@ -1,0 +1,108 @@
+data_MTU
+#
+_chem_comp.id                       MTU
+_chem_comp.name                     9-BETA-D-RIBOFURANOSYL-9H-PURIN-2-AMINE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                ATOMN
+_chem_comp.formula                  'C10 H14 N5 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  A
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            347.224
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTU  P     .  P  0  -9.332   -5.668  3.728   1  1 
+MTU  O1P   .  O  0  -10.530  -6.410  4.215   1  2 
+MTU  O2P   .  O  0  -7.977   -6.031  4.239   1  3 
+MTU  O5*   .  O  0  -9.293   -5.779  2.144   1  4 
+MTU  C5*   .  C  0  -10.405  -5.375  1.356   1  5 
+MTU  C4*   .  C  0  -10.068  -5.542  -0.100  1  6 
+MTU  O4*   .  O  0  -9.234   -4.448  -0.552  1  7 
+MTU  C1*   .  C  0  -8.244   -4.939  -1.431  1  8 
+MTU  N9    .  N  0  -6.939   -4.587  -0.872  1  9 
+MTU  C4    .  C  0  -5.903   -4.002  -1.555  1  10
+MTU  N3    .  N  0  -5.880   -3.658  -2.854  1  11
+MTU  C2    .  C  0  -4.712   -3.109  -3.169  1  12
+MTU  N2    .  N  0  -4.580   -2.710  -4.390  1  13
+MTU  N1    .  N  0  -3.645   -2.885  -2.390  1  14
+MTU  C6    .  C  0  -3.703   -3.244  -1.088  1  15
+MTU  C5    .  C  0  -4.888   -3.834  -0.630  1  16
+MTU  N7    .  N  0  -5.274   -4.308  0.615   1  17
+MTU  C8    .  C  0  -6.493   -4.747  0.420   1  18
+MTU  C2*   .  C  0  -8.484   -6.438  -1.628  1  19
+MTU  O2*   .  O  0  -9.205   -6.625  -2.828  1  20
+MTU  C3*   .  C  0  -9.263   -6.798  -0.365  1  21
+MTU  O3*   .  O  0  -10.180  -7.879  -0.497  1  22
+MTU  O3P   .  O  0  -9.625   -4.107  3.979   1  23
+MTU  3HOP  .  H  0  ?        ?       ?       0  24
+MTU  1H5*  .  H  0  ?        ?       ?       0  25
+MTU  2H5*  .  H  0  ?        ?       ?       0  26
+MTU  H4*   .  H  0  ?        ?       ?       1  27
+MTU  H1*   .  H  0  ?        ?       ?       1  28
+MTU  1HN2  .  H  0  ?        ?       ?       0  29
+MTU  2HN2  .  H  0  ?        ?       ?       0  30
+MTU  H6    .  H  0  ?        ?       ?       1  31
+MTU  H8    .  H  0  ?        ?       ?       1  32
+MTU  H2*   .  H  0  ?        ?       ?       1  33
+MTU  2HO*  .  H  0  ?        ?       ?       0  34
+MTU  H3*   .  H  0  ?        ?       ?       1  35
+MTU  H3T   .  H  0  ?        ?       ?       1  36
+MTU  2HOP  .  H  0  ?        ?       ?       0  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTU  P    O5*   SING  1 
+MTU  P    O1P   DOUB  2 
+MTU  P    O2P   SING  3 
+MTU  P    O3P   SING  4 
+MTU  O2P  2HOP  SING  5 
+MTU  O5*  C5*   SING  6 
+MTU  C5*  C4*   SING  7 
+MTU  C5*  1H5*  SING  8 
+MTU  C5*  2H5*  SING  9 
+MTU  C4*  O4*   SING  10
+MTU  C4*  C3*   SING  11
+MTU  C4*  H4*   SING  12
+MTU  O4*  C1*   SING  13
+MTU  C1*  N9    SING  14
+MTU  C1*  C2*   SING  15
+MTU  C1*  H1*   SING  16
+MTU  N9   C8    SING  17
+MTU  N9   C4    SING  18
+MTU  C4   C5    DOUB  19
+MTU  C4   N3    SING  20
+MTU  N3   C2    DOUB  21
+MTU  C2   N2    SING  22
+MTU  C2   N1    SING  23
+MTU  N2   1HN2  SING  24
+MTU  N2   2HN2  SING  25
+MTU  N1   C6    DOUB  26
+MTU  C6   C5    SING  27
+MTU  C6   H6    SING  28
+MTU  C5   N7    SING  29
+MTU  N7   C8    DOUB  30
+MTU  C8   H8    SING  31
+MTU  C2*  C3*   SING  32
+MTU  C2*  O2*   SING  33
+MTU  C2*  H2*   SING  34
+MTU  O2*  2HO*  SING  35
+MTU  C3*  O3*   SING  36
+MTU  C3*  H3*   SING  37
+MTU  O3*  H3T   SING  38
+MTU  O3P  3HOP  SING  39
+#

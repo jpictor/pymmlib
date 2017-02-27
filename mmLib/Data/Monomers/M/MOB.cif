@@ -1,0 +1,104 @@
+data_MOB
+#
+_chem_comp.id                   MOB
+_chem_comp.name                 '2-((3',5'-DIMETHOXY-4'-HYDROXYPHENYL)AZO)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C15 H14 N2 O5'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        302.286
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MOB  C1    .  C  0  ?  ?  ?  1  1 
+MOB  C2    .  C  0  ?  ?  ?  1  2 
+MOB  C3    .  C  0  ?  ?  ?  1  3 
+MOB  C4    .  C  0  ?  ?  ?  1  4 
+MOB  C5    .  C  0  ?  ?  ?  1  5 
+MOB  C6    .  C  0  ?  ?  ?  1  6 
+MOB  C1'   .  C  0  ?  ?  ?  1  7 
+MOB  C2'   .  C  0  ?  ?  ?  1  8 
+MOB  C3'   .  C  0  ?  ?  ?  1  9 
+MOB  C4'   .  C  0  ?  ?  ?  1  10
+MOB  C5'   .  C  0  ?  ?  ?  1  11
+MOB  C6'   .  C  0  ?  ?  ?  1  12
+MOB  C     .  C  0  ?  ?  ?  1  13
+MOB  3CH3  .  C  0  ?  ?  ?  0  14
+MOB  5CH3  .  C  0  ?  ?  ?  0  15
+MOB  N1    .  N  0  ?  ?  ?  1  16
+MOB  N1'   .  N  0  ?  ?  ?  1  17
+MOB  O     .  O  0  ?  ?  ?  1  18
+MOB  OXT   .  O  0  ?  ?  ?  1  19
+MOB  O3'   .  O  0  ?  ?  ?  1  20
+MOB  O4'   .  O  0  ?  ?  ?  1  21
+MOB  O5'   .  O  0  ?  ?  ?  1  22
+MOB  H3    .  H  0  ?  ?  ?  1  23
+MOB  H4    .  H  0  ?  ?  ?  1  24
+MOB  H5    .  H  0  ?  ?  ?  1  25
+MOB  H6    .  H  0  ?  ?  ?  1  26
+MOB  H2'   .  H  0  ?  ?  ?  1  27
+MOB  H6'   .  H  0  ?  ?  ?  1  28
+MOB  1H3   .  H  0  ?  ?  ?  0  29
+MOB  2H3   .  H  0  ?  ?  ?  0  30
+MOB  3H3   .  H  0  ?  ?  ?  0  31
+MOB  1H5   .  H  0  ?  ?  ?  0  32
+MOB  2H5   .  H  0  ?  ?  ?  0  33
+MOB  3H5   .  H  0  ?  ?  ?  0  34
+MOB  HXT   .  H  0  ?  ?  ?  1  35
+MOB  'HO4  .  H  0  ?  ?  ?  0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MOB  C1    C2    SING  1 
+MOB  C1    C6    DOUB  2 
+MOB  C1    N1    SING  3 
+MOB  C2    C3    DOUB  4 
+MOB  C2    C     SING  5 
+MOB  C3    C4    SING  6 
+MOB  C3    H3    SING  7 
+MOB  C4    C5    DOUB  8 
+MOB  C4    H4    SING  9 
+MOB  C5    C6    SING  10
+MOB  C5    H5    SING  11
+MOB  C6    H6    SING  12
+MOB  C1'   C2'   SING  13
+MOB  C1'   C6'   DOUB  14
+MOB  C1'   N1'   SING  15
+MOB  C2'   C3'   DOUB  16
+MOB  C2'   H2'   SING  17
+MOB  C3'   C4'   SING  18
+MOB  C3'   O3'   SING  19
+MOB  C4'   C5'   DOUB  20
+MOB  C4'   O4'   SING  21
+MOB  C5'   C6'   SING  22
+MOB  C5'   O5'   SING  23
+MOB  C6'   H6'   SING  24
+MOB  C     O     DOUB  25
+MOB  C     OXT   SING  26
+MOB  3CH3  O3'   SING  27
+MOB  3CH3  1H3   SING  28
+MOB  3CH3  2H3   SING  29
+MOB  3CH3  3H3   SING  30
+MOB  5CH3  O5'   SING  31
+MOB  5CH3  1H5   SING  32
+MOB  5CH3  2H5   SING  33
+MOB  5CH3  3H5   SING  34
+MOB  N1    N1'   DOUB  35
+MOB  OXT   HXT   SING  36
+MOB  O4'   'HO4  SING  37
+#

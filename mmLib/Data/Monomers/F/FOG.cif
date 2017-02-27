@@ -1,0 +1,92 @@
+data_FOG
+#
+_chem_comp.id                       FOG
+_chem_comp.name                     PHENYLALANINOYL-[1-HYDROXY]-2-PROPYLENE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C12 H15 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  PHE
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            205.256
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+FOG  C    .  C  0  ?  ?  ?  1  1 
+FOG  O    .  O  0  ?  ?  ?  1  2 
+FOG  CA1  .  C  0  ?  ?  ?  1  3 
+FOG  CM   .  C  0  ?  ?  ?  1  4 
+FOG  CH   .  C  0  ?  ?  ?  1  5 
+FOG  OH   .  O  0  ?  ?  ?  1  6 
+FOG  CA   .  C  0  ?  ?  ?  1  7 
+FOG  N    .  N  0  ?  ?  ?  1  8 
+FOG  CB   .  C  0  ?  ?  ?  1  9 
+FOG  CG   .  C  0  ?  ?  ?  1  10
+FOG  CD1  .  C  0  ?  ?  ?  1  11
+FOG  CD2  .  C  0  ?  ?  ?  1  12
+FOG  CE1  .  C  0  ?  ?  ?  1  13
+FOG  CE2  .  C  0  ?  ?  ?  1  14
+FOG  CZ   .  C  0  ?  ?  ?  1  15
+FOG  1H   .  H  0  ?  ?  ?  0  16
+FOG  2H   .  H  0  ?  ?  ?  0  17
+FOG  HO   .  H  0  ?  ?  ?  1  18
+FOG  HA1  .  H  0  ?  ?  ?  1  19
+FOG  HM   .  H  0  ?  ?  ?  1  20
+FOG  HA   .  H  0  ?  ?  ?  1  21
+FOG  1HN  .  H  0  ?  ?  ?  0  22
+FOG  2HN  .  H  0  ?  ?  ?  0  23
+FOG  1HB  .  H  0  ?  ?  ?  0  24
+FOG  2HB  .  H  0  ?  ?  ?  0  25
+FOG  HD1  .  H  0  ?  ?  ?  1  26
+FOG  HD2  .  H  0  ?  ?  ?  1  27
+FOG  HE1  .  H  0  ?  ?  ?  1  28
+FOG  HE2  .  H  0  ?  ?  ?  1  29
+FOG  HZ   .  H  0  ?  ?  ?  1  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+FOG  C    CA1  SING  1 
+FOG  C    O    SING  2 
+FOG  C    1H   SING  3 
+FOG  C    2H   SING  4 
+FOG  O    HO   SING  5 
+FOG  CA1  CM   DOUB  6 
+FOG  CA1  HA1  SING  7 
+FOG  CM   CH   SING  8 
+FOG  CM   HM   SING  9 
+FOG  CH   OH   DOUB  10
+FOG  CH   CA   SING  11
+FOG  CA   CB   SING  12
+FOG  CA   N    SING  13
+FOG  CA   HA   SING  14
+FOG  N    1HN  SING  15
+FOG  N    2HN  SING  16
+FOG  CB   CG   SING  17
+FOG  CB   1HB  SING  18
+FOG  CB   2HB  SING  19
+FOG  CG   CD1  DOUB  20
+FOG  CG   CD2  SING  21
+FOG  CD1  CE1  SING  22
+FOG  CD1  HD1  SING  23
+FOG  CD2  CE2  DOUB  24
+FOG  CD2  HD2  SING  25
+FOG  CE1  CZ   DOUB  26
+FOG  CE1  HE1  SING  27
+FOG  CE2  CZ   SING  28
+FOG  CE2  HE2  SING  29
+FOG  CZ   HZ   SING  30
+#

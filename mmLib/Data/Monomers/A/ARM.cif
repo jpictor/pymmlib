@@ -1,0 +1,87 @@
+data_ARM
+#
+_chem_comp.id                       ARM
+_chem_comp.name                     DEOXY-METHYL-ARGININE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C7 H16 N4 O1'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            172.230
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+ARM  N     .  N  0  ?  ?  ?  1  1 
+ARM  CA    .  C  0  ?  ?  ?  1  2 
+ARM  CB    .  C  0  ?  ?  ?  1  3 
+ARM  CG    .  C  0  ?  ?  ?  1  4 
+ARM  CD    .  C  0  ?  ?  ?  1  5 
+ARM  NE    .  N  0  ?  ?  ?  1  6 
+ARM  CZ    .  C  0  ?  ?  ?  1  7 
+ARM  NH1   .  N  0  ?  ?  ?  1  8 
+ARM  NH2   .  N  0  ?  ?  ?  1  9 
+ARM  C     .  C  0  ?  ?  ?  1  10
+ARM  O     .  O  0  ?  ?  ?  1  11
+ARM  CM    .  C  0  ?  ?  ?  1  12
+ARM  1HN   .  H  0  ?  ?  ?  0  13
+ARM  2HN   .  H  0  ?  ?  ?  0  14
+ARM  HA    .  H  0  ?  ?  ?  1  15
+ARM  1HB   .  H  0  ?  ?  ?  0  16
+ARM  2HB   .  H  0  ?  ?  ?  0  17
+ARM  1HG   .  H  0  ?  ?  ?  0  18
+ARM  2HG   .  H  0  ?  ?  ?  0  19
+ARM  1HD   .  H  0  ?  ?  ?  0  20
+ARM  2HD   .  H  0  ?  ?  ?  0  21
+ARM  HNE   .  H  0  ?  ?  ?  1  22
+ARM  HN1   .  H  0  ?  ?  ?  1  23
+ARM  1HN2  .  H  0  ?  ?  ?  0  24
+ARM  2HN2  .  H  0  ?  ?  ?  0  25
+ARM  1HM   .  H  0  ?  ?  ?  0  26
+ARM  2HM   .  H  0  ?  ?  ?  0  27
+ARM  3HM   .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+ARM  N    CA    SING  1 
+ARM  N    1HN   SING  2 
+ARM  N    2HN   SING  3 
+ARM  CA   CB    SING  4 
+ARM  CA   C     SING  5 
+ARM  CA   HA    SING  6 
+ARM  CB   CG    SING  7 
+ARM  CB   1HB   SING  8 
+ARM  CB   2HB   SING  9 
+ARM  CG   CD    SING  10
+ARM  CG   1HG   SING  11
+ARM  CG   2HG   SING  12
+ARM  CD   NE    SING  13
+ARM  CD   1HD   SING  14
+ARM  CD   2HD   SING  15
+ARM  NE   CZ    SING  16
+ARM  NE   HNE   SING  17
+ARM  CZ   NH1   DOUB  18
+ARM  CZ   NH2   SING  19
+ARM  NH1  HN1   SING  20
+ARM  NH2  1HN2  SING  21
+ARM  NH2  2HN2  SING  22
+ARM  C    CM    SING  23
+ARM  C    O     DOUB  24
+ARM  CM   1HM   SING  25
+ARM  CM   2HM   SING  26
+ARM  CM   3HM   SING  27
+#

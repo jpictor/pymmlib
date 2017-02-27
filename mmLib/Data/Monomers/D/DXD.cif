@@ -1,0 +1,83 @@
+data_DXD
+#
+_chem_comp.id                   DXD
+_chem_comp.name                 (1S,3S,4R)-4-(PHOSPHOOXYMETHYL)-CYCLOPENTANE-1,3-DIOL
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C6 H13 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        212.139
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DXD  P     .  P  0  -1.296  6.916  17.265  1  1 
+DXD  O1P   .  O  0  -1.669  8.268  17.741  1  2 
+DXD  O2P   .  O  0  -0.595  5.976  18.169  1  3 
+DXD  O5*   .  O  0  -2.609  6.188  16.685  1  4 
+DXD  C5*   .  C  0  -3.244  6.674  15.491  1  5 
+DXD  C4*   .  C  0  -4.484  5.795  15.039  1  6 
+DXD  C1*   .  C  0  -4.838  3.600  16.242  1  7 
+DXD  C6*   .  C  0  -4.290  4.221  14.957  1  8 
+DXD  O6*   .  O  0  -6.167  3.214  15.912  1  9 
+DXD  C2*   .  C  0  -4.933  4.747  17.251  1  10
+DXD  C3*   .  C  0  -5.519  5.879  16.361  1  11
+DXD  O3*   .  O  0  -6.859  5.615  15.905  1  12
+DXD  O3P   .  O  0  ?       ?      ?       1  13
+DXD  H7*   .  H  0  -6.621  4.014  15.637  1  14
+DXD  H1*   .  H  0  -4.390  2.651  16.536  1  15
+DXD  1H2*  .  H  0  -5.547  4.553  18.130  0  16
+DXD  2H2*  .  H  0  -3.920  4.950  17.599  0  17
+DXD  H3*   .  H  0  -5.689  6.685  17.076  1  18
+DXD  H3T   .  H  0  ?       ?      ?       1  19
+DXD  H4*   .  H  0  -4.645  6.100  14.005  1  20
+DXD  1H5*  .  H  0  -2.446  6.875  14.776  0  21
+DXD  2H5*  .  H  0  -3.648  7.667  15.688  0  22
+DXD  3HOP  .  H  0  ?       ?      ?       0  23
+DXD  2HOP  .  H  0  ?       ?      ?       0  24
+DXD  1H6*  .  H  0  -4.964  3.729  14.256  0  25
+DXD  2H6*  .  H  0  -3.327  3.826  14.633  0  26
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DXD  P    O5*   SING  1 
+DXD  P    O1P   DOUB  2 
+DXD  P    O3P   SING  3 
+DXD  P    O2P   SING  4 
+DXD  O2P  2HOP  SING  5 
+DXD  O5*  C5*   SING  6 
+DXD  C5*  C4*   SING  7 
+DXD  C5*  1H5*  SING  8 
+DXD  C5*  2H5*  SING  9 
+DXD  C4*  C3*   SING  10
+DXD  C4*  C6*   SING  11
+DXD  C4*  H4*   SING  12
+DXD  C1*  O6*   SING  13
+DXD  C1*  C2*   SING  14
+DXD  C1*  C6*   SING  15
+DXD  C1*  H1*   SING  16
+DXD  C6*  1H6*  SING  17
+DXD  C6*  2H6*  SING  18
+DXD  O6*  H7*   SING  19
+DXD  C2*  C3*   SING  20
+DXD  C2*  1H2*  SING  21
+DXD  C2*  2H2*  SING  22
+DXD  C3*  O3*   SING  23
+DXD  C3*  H3*   SING  24
+DXD  O3*  H3T   SING  25
+DXD  O3P  3HOP  SING  26
+#

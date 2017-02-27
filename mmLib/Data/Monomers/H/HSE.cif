@@ -1,0 +1,65 @@
+data_HSE
+#
+_chem_comp.id                       HSE
+_chem_comp.name                     L-HOMOSERINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            119.120
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HSE  NA   .  N  0  ?  ?  ?  1  1 
+HSE  C1   .  C  0  ?  ?  ?  1  2 
+HSE  C2   .  C  0  ?  ?  ?  1  3 
+HSE  C3   .  C  0  ?  ?  ?  1  4 
+HSE  O1   .  O  0  ?  ?  ?  1  5 
+HSE  O2   .  O  0  ?  ?  ?  1  6 
+HSE  C4   .  C  0  ?  ?  ?  1  7 
+HSE  O3   .  O  0  ?  ?  ?  1  8 
+HSE  HN1  .  H  0  ?  ?  ?  1  9 
+HSE  HN2  .  H  0  ?  ?  ?  1  10
+HSE  H1   .  H  0  ?  ?  ?  1  11
+HSE  1H3  .  H  0  ?  ?  ?  0  12
+HSE  2H3  .  H  0  ?  ?  ?  0  13
+HSE  HO2  .  H  0  ?  ?  ?  1  14
+HSE  1H4  .  H  0  ?  ?  ?  0  15
+HSE  2H4  .  H  0  ?  ?  ?  0  16
+HSE  HO3  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HSE  NA  C1   SING  1 
+HSE  NA  HN1  SING  2 
+HSE  NA  HN2  SING  3 
+HSE  C1  C2   SING  4 
+HSE  C1  C3   SING  5 
+HSE  C1  H1   SING  6 
+HSE  C2  O1   DOUB  7 
+HSE  C2  O2   SING  8 
+HSE  C3  C4   SING  9 
+HSE  C3  1H3  SING  10
+HSE  C3  2H3  SING  11
+HSE  O2  HO2  SING  12
+HSE  C4  O3   SING  13
+HSE  C4  1H4  SING  14
+HSE  C4  2H4  SING  15
+HSE  O3  HO3  SING  16
+#

@@ -1,0 +1,76 @@
+data_AHN
+#
+_chem_comp.id                   AHN
+_chem_comp.name                 N-[2-(1H-IMIDAZOL-4-YL)ETHYL]ACETAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H11 N3 O1'
+_chem_comp.pdbx_synonyms        N-ACETYLHISTAMINE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        153.183
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AHN  C    .  C  0  -10.634  3.704  22.228  1  1 
+AHN  O    .  O  0  -9.445   3.268  22.336  1  2 
+AHN  CT   .  C  0  -10.925  5.050  21.586  1  3 
+AHN  N    .  N  0  -11.710  3.028  22.642  1  4 
+AHN  CA   .  C  0  -13.059  3.554  22.520  1  5 
+AHN  CB   .  C  0  -13.984  2.539  21.803  1  6 
+AHN  CG   .  C  0  -15.440  2.898  21.879  1  7 
+AHN  CD2  .  C  0  -16.061  4.082  22.086  1  8 
+AHN  ND1  .  N  0  -16.443  1.967  21.719  1  9 
+AHN  CE1  .  C  0  -17.621  2.561  21.805  1  10
+AHN  NE2  .  N  0  -17.418  3.848  22.027  1  11
+AHN  1HT  .  H  0  ?        ?      ?       0  12
+AHN  2HT  .  H  0  ?        ?      ?       0  13
+AHN  3HT  .  H  0  ?        ?      ?       0  14
+AHN  HN   .  H  0  ?        ?      ?       1  15
+AHN  1HA  .  H  0  ?        ?      ?       0  16
+AHN  2HA  .  H  0  ?        ?      ?       0  17
+AHN  1HB  .  H  0  ?        ?      ?       0  18
+AHN  2HB  .  H  0  ?        ?      ?       0  19
+AHN  HD2  .  H  0  ?        ?      ?       1  20
+AHN  HE1  .  H  0  ?        ?      ?       1  21
+AHN  HE2  .  H  0  ?        ?      ?       1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AHN  C    O    DOUB  1 
+AHN  C    CT   SING  2 
+AHN  C    N    SING  3 
+AHN  CT   1HT  SING  4 
+AHN  CT   2HT  SING  5 
+AHN  CT   3HT  SING  6 
+AHN  N    CA   SING  7 
+AHN  N    HN   SING  8 
+AHN  CA   CB   SING  9 
+AHN  CA   1HA  SING  10
+AHN  CA   2HA  SING  11
+AHN  CB   CG   SING  12
+AHN  CB   1HB  SING  13
+AHN  CB   2HB  SING  14
+AHN  CG   CD2  DOUB  15
+AHN  CG   ND1  SING  16
+AHN  CD2  NE2  SING  17
+AHN  CD2  HD2  SING  18
+AHN  ND1  CE1  DOUB  19
+AHN  CE1  NE2  SING  20
+AHN  CE1  HE1  SING  21
+AHN  NE2  HE2  SING  22
+#

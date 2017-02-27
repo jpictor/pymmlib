@@ -1,0 +1,74 @@
+data_R20
+#
+_chem_comp.id                   R20
+_chem_comp.name                 4-(3-METHYLPHENYL)-1H-1,2,3-TRIAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H9 N3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        159.190
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+R20  C1    .  C  0  19.618  30.746  16.243  1  1 
+R20  C2    .  C  0  19.835  29.291  16.294  1  2 
+R20  C3    .  C  0  18.294  31.289  16.302  1  3 
+R20  C4    .  C  0  20.714  31.656  16.097  1  4 
+R20  C5    .  C  0  20.975  28.497  16.183  1  5 
+R20  C7    .  C  0  18.069  32.708  16.261  1  6 
+R20  C8    .  C  0  20.488  33.066  16.057  1  7 
+R20  C11   .  C  0  19.164  33.586  16.121  1  8 
+R20  C12   .  C  0  16.672  33.257  16.334  1  9 
+R20  N6    .  N  0  18.835  28.354  16.501  1  10
+R20  N9    .  N  0  20.652  27.175  16.312  1  11
+R20  N10   .  N  0  19.332  27.092  16.507  1  12
+R20  1H12  .  H  0  ?       ?       ?       0  13
+R20  2H12  .  H  0  ?       ?       ?       0  14
+R20  3H12  .  H  0  ?       ?       ?       0  15
+R20  H11   .  H  0  ?       ?       ?       1  16
+R20  H8    .  H  0  ?       ?       ?       1  17
+R20  H4    .  H  0  ?       ?       ?       1  18
+R20  H3    .  H  0  ?       ?       ?       1  19
+R20  H5    .  H  0  ?       ?       ?       1  20
+R20  HN9   .  H  0  ?       ?       ?       1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+R20  C1   C4    AROM  1 
+R20  C1   C3    AROM  2 
+R20  C1   C2    SING  3 
+R20  C2   C5    DOUB  4 
+R20  C2   N6    SING  5 
+R20  C3   C7    AROM  6 
+R20  C3   H3    SING  7 
+R20  C4   C8    AROM  8 
+R20  C4   H4    SING  9 
+R20  C5   N9    SING  10
+R20  C5   H5    SING  11
+R20  C7   C12   SING  12
+R20  C7   C11   AROM  13
+R20  C8   C11   AROM  14
+R20  C8   H8    SING  15
+R20  C11  H11   SING  16
+R20  C12  1H12  SING  17
+R20  C12  2H12  SING  18
+R20  C12  3H12  SING  19
+R20  N6   N10   DOUB  20
+R20  N9   N10   SING  21
+R20  N9   HN9   SING  22
+#

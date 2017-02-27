@@ -1,0 +1,92 @@
+data_HDI
+#
+_chem_comp.id                   HDI
+_chem_comp.name                 '3-(4-HYDROXYPHENYL)-4,5-DIHYDRO-5-ISOXAZOLE-ACETIC ACID METHYL ESTER'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H13 N1 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        235.239
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HDI  C12   .  C  0  -44.265  43.120  11.882  1  1 
+HDI  C11   .  C  0  -42.859  42.623  9.960   1  2 
+HDI  O3    .  O  0  -42.397  43.739  9.698   1  3 
+HDI  O4    .  O  0  -44.019  42.362  10.677  1  4 
+HDI  C10   .  C  0  -42.179  41.340  9.508   1  5 
+HDI  N1    .  N  0  -40.610  41.718  6.431   1  6 
+HDI  O2    .  O  0  -41.080  42.313  7.495   1  7 
+HDI  C9    .  C  0  -40.880  41.574  8.711   1  8 
+HDI  C8    .  C  0  -40.168  40.304  8.230   1  9 
+HDI  C7    .  C  0  -40.089  40.605  6.755   1  10
+HDI  O1    .  O  0  -37.593  37.054  3.054   1  11
+HDI  C5    .  C  0  -39.637  39.823  4.358   1  12
+HDI  C6    .  C  0  -39.439  39.663  5.745   1  13
+HDI  C1    .  C  0  -38.616  38.621  6.203   1  14
+HDI  C2    .  C  0  -38.008  37.760  5.310   1  15
+HDI  C3    .  C  0  -38.204  37.917  3.935   1  16
+HDI  C4    .  C  0  -39.027  38.958  3.462   1  17
+HDI  HO1   .  H  0  ?        ?       ?       1  18
+HDI  HC2   .  H  0  ?        ?       ?       1  19
+HDI  HC1   .  H  0  ?        ?       ?       1  20
+HDI  HC4   .  H  0  ?        ?       ?       1  21
+HDI  HC5   .  H  0  ?        ?       ?       1  22
+HDI  HC9   .  H  0  ?        ?       ?       1  23
+HDI  1HC8  .  H  0  ?        ?       ?       0  24
+HDI  2HC8  .  H  0  ?        ?       ?       0  25
+HDI  1H10  .  H  0  ?        ?       ?       0  26
+HDI  2H10  .  H  0  ?        ?       ?       0  27
+HDI  1H12  .  H  0  ?        ?       ?       0  28
+HDI  2H12  .  H  0  ?        ?       ?       0  29
+HDI  3H12  .  H  0  ?        ?       ?       0  30
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HDI  C12  O4    SING  1 
+HDI  C12  1H12  SING  2 
+HDI  C12  2H12  SING  3 
+HDI  C12  3H12  SING  4 
+HDI  C11  O3    DOUB  5 
+HDI  C11  O4    SING  6 
+HDI  C11  C10   SING  7 
+HDI  C10  C9    SING  8 
+HDI  C10  1H10  SING  9 
+HDI  C10  2H10  SING  10
+HDI  N1   O2    SING  11
+HDI  N1   C7    DOUB  12
+HDI  O2   C9    SING  13
+HDI  C9   C8    SING  14
+HDI  C9   HC9   SING  15
+HDI  C8   C7    SING  16
+HDI  C8   1HC8  SING  17
+HDI  C8   2HC8  SING  18
+HDI  C7   C6    SING  19
+HDI  O1   C3    SING  20
+HDI  O1   HO1   SING  21
+HDI  C5   C6    AROM  22
+HDI  C5   C4    AROM  23
+HDI  C5   HC5   SING  24
+HDI  C6   C1    AROM  25
+HDI  C1   C2    AROM  26
+HDI  C1   HC1   SING  27
+HDI  C2   C3    AROM  28
+HDI  C2   HC2   SING  29
+HDI  C3   C4    AROM  30
+HDI  C4   HC4   SING  31
+#

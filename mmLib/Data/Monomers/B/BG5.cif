@@ -1,0 +1,77 @@
+data_BG5
+#
+_chem_comp.id                   BG5
+_chem_comp.name                 '5-HYDROXYAMINO-3-METHYL-PYRROLIDINE-2-CARBOXYLIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 N2 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        160.172
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BG5  C1   .  C  0  24.257  90.138  84.905  1  1 
+BG5  C2   .  C  0  25.675  89.592  85.010  1  2 
+BG5  C3   .  C  0  26.525  90.414  85.965  1  3 
+BG5  C4   .  C  0  26.554  89.626  87.276  1  4 
+BG5  C5   .  C  0  26.326  88.160  86.915  1  5 
+BG5  C6   .  C  0  27.812  90.519  85.352  1  6 
+BG5  N1   .  N  0  25.734  88.147  85.520  1  7 
+BG5  O1   .  O  0  23.996  90.983  84.044  1  8 
+BG5  N2   .  N  0  25.380  87.583  87.819  1  9 
+BG5  O2   .  O  0  23.936  87.582  87.681  1  10
+BG5  O3   .  O  0  ?       ?       ?       1  11
+BG5  HO2  .  H  0  ?       ?       ?       1  12
+BG5  HN2  .  H  0  ?       ?       ?       1  13
+BG5  H5   .  H  0  ?       ?       ?       1  14
+BG5  HN1  .  H  0  ?       ?       ?       1  15
+BG5  H2   .  H  0  ?       ?       ?       1  16
+BG5  HO1  .  H  0  ?       ?       ?       1  17
+BG5  H3   .  H  0  ?       ?       ?       1  18
+BG5  1H6  .  H  0  ?       ?       ?       0  19
+BG5  2H6  .  H  0  ?       ?       ?       0  20
+BG5  3H6  .  H  0  ?       ?       ?       0  21
+BG5  1H4  .  H  0  ?       ?       ?       0  22
+BG5  2H4  .  H  0  ?       ?       ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BG5  C1  O3   DOUB  1 
+BG5  C1  O1   SING  2 
+BG5  C1  C2   SING  3 
+BG5  C2  N1   SING  4 
+BG5  C2  H2   SING  5 
+BG5  C2  C3   SING  6 
+BG5  C3  H3   SING  7 
+BG5  C3  C4   SING  8 
+BG5  C3  C6   SING  9 
+BG5  C4  C5   SING  10
+BG5  C4  1H4  SING  11
+BG5  C4  2H4  SING  12
+BG5  C5  H5   SING  13
+BG5  C5  N1   SING  14
+BG5  C5  N2   SING  15
+BG5  C6  1H6  SING  16
+BG5  C6  2H6  SING  17
+BG5  C6  3H6  SING  18
+BG5  N1  HN1  SING  19
+BG5  O1  HO1  SING  20
+BG5  N2  O2   SING  21
+BG5  N2  HN2  SING  22
+BG5  O2  HO2  SING  23
+#

@@ -1,0 +1,75 @@
+data_HPP
+#
+_chem_comp.id                   HPP
+_chem_comp.name                 'HYDROXYPHENYL PROPIONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H10 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        166.176
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HPP  C1   .  C  0  ?  ?  ?  1  1 
+HPP  C2   .  C  0  ?  ?  ?  1  2 
+HPP  C3   .  C  0  ?  ?  ?  1  3 
+HPP  C4   .  C  0  ?  ?  ?  1  4 
+HPP  O4   .  O  0  ?  ?  ?  1  5 
+HPP  C5   .  C  0  ?  ?  ?  1  6 
+HPP  C6   .  C  0  ?  ?  ?  1  7 
+HPP  C7   .  C  0  ?  ?  ?  1  8 
+HPP  C8   .  C  0  ?  ?  ?  1  9 
+HPP  C9   .  C  0  ?  ?  ?  1  10
+HPP  O1   .  O  0  ?  ?  ?  1  11
+HPP  O2   .  O  0  ?  ?  ?  1  12
+HPP  H2   .  H  0  ?  ?  ?  1  13
+HPP  H3   .  H  0  ?  ?  ?  1  14
+HPP  HO4  .  H  0  ?  ?  ?  1  15
+HPP  H5   .  H  0  ?  ?  ?  1  16
+HPP  H6   .  H  0  ?  ?  ?  1  17
+HPP  1H7  .  H  0  ?  ?  ?  0  18
+HPP  2H7  .  H  0  ?  ?  ?  0  19
+HPP  1H8  .  H  0  ?  ?  ?  0  20
+HPP  2H8  .  H  0  ?  ?  ?  0  21
+HPP  HO2  .  H  0  ?  ?  ?  1  22
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HPP  C1  C2   DOUB  1 
+HPP  C1  C6   SING  2 
+HPP  C1  C7   SING  3 
+HPP  C2  C3   SING  4 
+HPP  C2  H2   SING  5 
+HPP  C3  C4   DOUB  6 
+HPP  C3  H3   SING  7 
+HPP  C4  C5   SING  8 
+HPP  C4  O4   SING  9 
+HPP  O4  HO4  SING  10
+HPP  C5  C6   DOUB  11
+HPP  C5  H5   SING  12
+HPP  C6  H6   SING  13
+HPP  C7  C8   SING  14
+HPP  C7  1H7  SING  15
+HPP  C7  2H7  SING  16
+HPP  C8  C9   SING  17
+HPP  C8  1H8  SING  18
+HPP  C8  2H8  SING  19
+HPP  C9  O1   DOUB  20
+HPP  C9  O2   SING  21
+HPP  O2  HO2  SING  22
+#

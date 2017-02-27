@@ -1,0 +1,117 @@
+data_MUG
+#
+_chem_comp.id                   MUG
+_chem_comp.name                 4-METHYLUMBELLIFERYL-ALPHA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C16 H18 O8'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.313
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MUG  O1    .  O  0  ?  ?  ?  1  1 
+MUG  C2    .  C  0  ?  ?  ?  1  2 
+MUG  O2    .  O  0  ?  ?  ?  1  3 
+MUG  C3    .  C  0  ?  ?  ?  1  4 
+MUG  C4    .  C  0  ?  ?  ?  1  5 
+MUG  CM4   .  C  0  ?  ?  ?  1  6 
+MUG  C4A   .  C  0  ?  ?  ?  1  7 
+MUG  C5    .  C  0  ?  ?  ?  1  8 
+MUG  C6    .  C  0  ?  ?  ?  1  9 
+MUG  C7    .  C  0  ?  ?  ?  1  10
+MUG  C8    .  C  0  ?  ?  ?  1  11
+MUG  C8A   .  C  0  ?  ?  ?  1  12
+MUG  C1'   .  C  0  ?  ?  ?  1  13
+MUG  O1'   .  O  0  ?  ?  ?  1  14
+MUG  C2'   .  C  0  ?  ?  ?  1  15
+MUG  O2'   .  O  0  ?  ?  ?  1  16
+MUG  C3'   .  C  0  ?  ?  ?  1  17
+MUG  O3'   .  O  0  ?  ?  ?  1  18
+MUG  C4'   .  C  0  ?  ?  ?  1  19
+MUG  O4'   .  O  0  ?  ?  ?  1  20
+MUG  C5'   .  C  0  ?  ?  ?  1  21
+MUG  O5'   .  O  0  ?  ?  ?  1  22
+MUG  C6'   .  C  0  ?  ?  ?  1  23
+MUG  O6'   .  O  0  ?  ?  ?  1  24
+MUG  H3    .  H  0  ?  ?  ?  1  25
+MUG  1HM4  .  H  0  ?  ?  ?  0  26
+MUG  2HM4  .  H  0  ?  ?  ?  0  27
+MUG  3HM4  .  H  0  ?  ?  ?  0  28
+MUG  H5    .  H  0  ?  ?  ?  1  29
+MUG  H6    .  H  0  ?  ?  ?  1  30
+MUG  H8    .  H  0  ?  ?  ?  1  31
+MUG  H1'   .  H  0  ?  ?  ?  1  32
+MUG  H2'   .  H  0  ?  ?  ?  1  33
+MUG  'HO2  .  H  0  ?  ?  ?  0  34
+MUG  H3'   .  H  0  ?  ?  ?  1  35
+MUG  'HO3  .  H  0  ?  ?  ?  0  36
+MUG  H4'   .  H  0  ?  ?  ?  1  37
+MUG  'HO4  .  H  0  ?  ?  ?  0  38
+MUG  H5'   .  H  0  ?  ?  ?  1  39
+MUG  1H6'  .  H  0  ?  ?  ?  0  40
+MUG  2H6'  .  H  0  ?  ?  ?  0  41
+MUG  'HO6  .  H  0  ?  ?  ?  0  42
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MUG  O1   C2    SING  1 
+MUG  O1   C8A   SING  2 
+MUG  C2   C3    SING  3 
+MUG  C2   O2    DOUB  4 
+MUG  C3   C4    DOUB  5 
+MUG  C3   H3    SING  6 
+MUG  C4   C4A   SING  7 
+MUG  C4   CM4   SING  8 
+MUG  CM4  1HM4  SING  9 
+MUG  CM4  2HM4  SING  10
+MUG  CM4  3HM4  SING  11
+MUG  C4A  C5    DOUB  12
+MUG  C4A  C8A   SING  13
+MUG  C5   C6    SING  14
+MUG  C5   H5    SING  15
+MUG  C6   C7    DOUB  16
+MUG  C6   H6    SING  17
+MUG  C7   C8    SING  18
+MUG  C7   O1'   SING  19
+MUG  C8   C8A   DOUB  20
+MUG  C8   H8    SING  21
+MUG  C1'  C2'   SING  22
+MUG  C1'  O1'   SING  23
+MUG  C1'  O5'   SING  24
+MUG  C1'  H1'   SING  25
+MUG  C2'  C3'   SING  26
+MUG  C2'  O2'   SING  27
+MUG  C2'  H2'   SING  28
+MUG  O2'  'HO2  SING  29
+MUG  C3'  C4'   SING  30
+MUG  C3'  O3'   SING  31
+MUG  C3'  H3'   SING  32
+MUG  O3'  'HO3  SING  33
+MUG  C4'  C5'   SING  34
+MUG  C4'  O4'   SING  35
+MUG  C4'  H4'   SING  36
+MUG  O4'  'HO4  SING  37
+MUG  C5'  C6'   SING  38
+MUG  C5'  O5'   SING  39
+MUG  C5'  H5'   SING  40
+MUG  C6'  O6'   SING  41
+MUG  C6'  1H6'  SING  42
+MUG  C6'  2H6'  SING  43
+MUG  O6'  'HO6  SING  44
+#

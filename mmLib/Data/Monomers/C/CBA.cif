@@ -1,0 +1,117 @@
+data_CBA
+#
+_chem_comp.id                   CBA
+_chem_comp.name                 'N-PYRIDOXYL-2,3-DIHYDROXYASPARTIC ACID-5-MONOPHOSPHATE'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C12 H17 N2 O11 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        396.247
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CBA  N1    .  N  0  ?  ?  ?  1  1 
+CBA  C2    .  C  0  ?  ?  ?  1  2 
+CBA  C2A   .  C  0  ?  ?  ?  1  3 
+CBA  C3    .  C  0  ?  ?  ?  1  4 
+CBA  O3    .  O  0  ?  ?  ?  1  5 
+CBA  C4    .  C  0  ?  ?  ?  1  6 
+CBA  C4A   .  C  0  ?  ?  ?  1  7 
+CBA  C5    .  C  0  ?  ?  ?  1  8 
+CBA  C5A   .  C  0  ?  ?  ?  1  9 
+CBA  C6    .  C  0  ?  ?  ?  1  10
+CBA  P     .  P  0  ?  ?  ?  1  11
+CBA  O1P   .  O  0  ?  ?  ?  1  12
+CBA  O2P   .  O  0  ?  ?  ?  1  13
+CBA  O3P   .  O  0  ?  ?  ?  1  14
+CBA  O4P   .  O  0  ?  ?  ?  1  15
+CBA  N     .  N  0  ?  ?  ?  1  16
+CBA  CA    .  C  0  ?  ?  ?  1  17
+CBA  OA    .  O  0  ?  ?  ?  1  18
+CBA  CB    .  C  0  ?  ?  ?  1  19
+CBA  OB    .  O  0  ?  ?  ?  1  20
+CBA  C     .  C  0  ?  ?  ?  1  21
+CBA  O     .  O  0  ?  ?  ?  1  22
+CBA  OT    .  O  0  ?  ?  ?  1  23
+CBA  CG    .  C  0  ?  ?  ?  1  24
+CBA  OD1   .  O  0  ?  ?  ?  1  25
+CBA  OD2   .  O  0  ?  ?  ?  1  26
+CBA  1H2A  .  H  0  ?  ?  ?  0  27
+CBA  2H2A  .  H  0  ?  ?  ?  0  28
+CBA  3H2A  .  H  0  ?  ?  ?  0  29
+CBA  HO3   .  H  0  ?  ?  ?  1  30
+CBA  1H4A  .  H  0  ?  ?  ?  0  31
+CBA  2H4A  .  H  0  ?  ?  ?  0  32
+CBA  1H5A  .  H  0  ?  ?  ?  0  33
+CBA  2H5A  .  H  0  ?  ?  ?  0  34
+CBA  H6    .  H  0  ?  ?  ?  1  35
+CBA  2HOP  .  H  0  ?  ?  ?  0  36
+CBA  3HOP  .  H  0  ?  ?  ?  0  37
+CBA  HN    .  H  0  ?  ?  ?  1  38
+CBA  HOA   .  H  0  ?  ?  ?  1  39
+CBA  HB    .  H  0  ?  ?  ?  1  40
+CBA  HOB   .  H  0  ?  ?  ?  1  41
+CBA  HOT   .  H  0  ?  ?  ?  1  42
+CBA  2HOD  .  H  0  ?  ?  ?  0  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CBA  N1   C2    DOUB  1 
+CBA  N1   C6    SING  2 
+CBA  C2   C2A   SING  3 
+CBA  C2   C3    SING  4 
+CBA  C2A  1H2A  SING  5 
+CBA  C2A  2H2A  SING  6 
+CBA  C2A  3H2A  SING  7 
+CBA  C3   C4    DOUB  8 
+CBA  C3   O3    SING  9 
+CBA  O3   HO3   SING  10
+CBA  C4   C5    SING  11
+CBA  C4   C4A   SING  12
+CBA  C4A  N     SING  13
+CBA  C4A  1H4A  SING  14
+CBA  C4A  2H4A  SING  15
+CBA  C5   C6    DOUB  16
+CBA  C5   C5A   SING  17
+CBA  C5A  O4P   SING  18
+CBA  C5A  1H5A  SING  19
+CBA  C5A  2H5A  SING  20
+CBA  C6   H6    SING  21
+CBA  P    O1P   DOUB  22
+CBA  P    O2P   SING  23
+CBA  P    O3P   SING  24
+CBA  P    O4P   SING  25
+CBA  O2P  2HOP  SING  26
+CBA  O3P  3HOP  SING  27
+CBA  N    CA    SING  28
+CBA  N    HN    SING  29
+CBA  CA   CB    SING  30
+CBA  CA   OA    SING  31
+CBA  CA   C     SING  32
+CBA  OA   HOA   SING  33
+CBA  CB   CG    SING  34
+CBA  CB   OB    SING  35
+CBA  CB   HB    SING  36
+CBA  OB   HOB   SING  37
+CBA  C    O     DOUB  38
+CBA  C    OT    SING  39
+CBA  OT   HOT   SING  40
+CBA  CG   OD1   DOUB  41
+CBA  CG   OD2   SING  42
+CBA  OD2  2HOD  SING  43
+#

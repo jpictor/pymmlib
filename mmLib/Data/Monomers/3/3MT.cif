@@ -1,0 +1,55 @@
+data_3MT
+#
+_chem_comp.id                   3MT
+_chem_comp.name                 '3-METHYLTHIAZOLIUM ION'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 N1 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       100.158
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+3MT  C1   .  C  0  ?  ?  ?  1  1 
+3MT  N7   .  N  1  ?  ?  ?  1  2 
+3MT  C5   .  C  0  ?  ?  ?  1  3 
+3MT  C11  .  C  0  ?  ?  ?  1  4 
+3MT  S10  .  S  0  ?  ?  ?  1  5 
+3MT  C8   .  C  0  ?  ?  ?  1  6 
+3MT  1H1  .  H  0  ?  ?  ?  0  7 
+3MT  2H1  .  H  0  ?  ?  ?  0  8 
+3MT  3H1  .  H  0  ?  ?  ?  0  9 
+3MT  H5   .  H  0  ?  ?  ?  1  10
+3MT  H11  .  H  0  ?  ?  ?  1  11
+3MT  H8   .  H  0  ?  ?  ?  1  12
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+3MT  C1   N7   SING  1 
+3MT  C1   1H1  SING  2 
+3MT  C1   2H1  SING  3 
+3MT  C1   3H1  SING  4 
+3MT  N7   C5   SING  5 
+3MT  N7   C8   DOUB  6 
+3MT  C5   C11  DOUB  7 
+3MT  C5   H5   SING  8 
+3MT  C11  S10  SING  9 
+3MT  C11  H11  SING  10
+3MT  S10  C8   SING  11
+3MT  C8   H8   SING  12
+#

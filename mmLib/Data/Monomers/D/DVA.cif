@@ -1,0 +1,69 @@
+data_DVA
+#
+_chem_comp.id                       DVA
+_chem_comp.name                     D-VALINE
+_chem_comp.type                     'D-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H11 N1 O2'
+_chem_comp.mon_nstd_parent_comp_id  VAL
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            117.147
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DVA  N     .  N  0  ?  ?  ?  1  1 
+DVA  CA    .  C  0  ?  ?  ?  1  2 
+DVA  CB    .  C  0  ?  ?  ?  1  3 
+DVA  CG1   .  C  0  ?  ?  ?  1  4 
+DVA  CG2   .  C  0  ?  ?  ?  1  5 
+DVA  C     .  C  0  ?  ?  ?  1  6 
+DVA  O     .  O  0  ?  ?  ?  1  7 
+DVA  OXT   .  O  0  ?  ?  ?  1  8 
+DVA  1HN   .  H  0  ?  ?  ?  0  9 
+DVA  2HN   .  H  0  ?  ?  ?  0  10
+DVA  HA    .  H  0  ?  ?  ?  1  11
+DVA  HB    .  H  0  ?  ?  ?  1  12
+DVA  1HG1  .  H  0  ?  ?  ?  0  13
+DVA  2HG1  .  H  0  ?  ?  ?  0  14
+DVA  3HG1  .  H  0  ?  ?  ?  0  15
+DVA  1HG2  .  H  0  ?  ?  ?  0  16
+DVA  2HG2  .  H  0  ?  ?  ?  0  17
+DVA  3HG2  .  H  0  ?  ?  ?  0  18
+DVA  HXT   .  H  0  ?  ?  ?  1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DVA  N    CA    SING  1 
+DVA  N    1HN   SING  2 
+DVA  N    2HN   SING  3 
+DVA  CA   CB    SING  4 
+DVA  CA   C     SING  5 
+DVA  CA   HA    SING  6 
+DVA  CB   CG1   SING  7 
+DVA  CB   CG2   SING  8 
+DVA  CB   HB    SING  9 
+DVA  CG1  1HG1  SING  10
+DVA  CG1  2HG1  SING  11
+DVA  CG1  3HG1  SING  12
+DVA  CG2  1HG2  SING  13
+DVA  CG2  2HG2  SING  14
+DVA  CG2  3HG2  SING  15
+DVA  C    O     DOUB  16
+DVA  C    OXT   SING  17
+DVA  OXT  HXT   SING  18
+#

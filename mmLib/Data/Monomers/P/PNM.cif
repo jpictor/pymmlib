@@ -1,0 +1,118 @@
+data_PNM
+#
+_chem_comp.id                   PNM
+_chem_comp.name                 'OPEN FORM - PENICILLIN G'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C16 H20 N2 O4 S1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        336.405
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PNM  O8    .  O  0  ?  ?  ?  1  1 
+PNM  C7    .  C  0  ?  ?  ?  1  2 
+PNM  N4    .  N  0  ?  ?  ?  1  3 
+PNM  C3    .  C  0  ?  ?  ?  1  4 
+PNM  C11   .  C  0  ?  ?  ?  1  5 
+PNM  O13   .  O  0  ?  ?  ?  1  6 
+PNM  O12   .  O  0  ?  ?  ?  1  7 
+PNM  C2    .  C  0  ?  ?  ?  1  8 
+PNM  C10   .  C  0  ?  ?  ?  1  9 
+PNM  C9    .  C  0  ?  ?  ?  1  10
+PNM  S1    .  S  0  ?  ?  ?  1  11
+PNM  C5    .  C  0  ?  ?  ?  1  12
+PNM  C6    .  C  0  ?  ?  ?  1  13
+PNM  N14   .  N  0  ?  ?  ?  1  14
+PNM  C15   .  C  0  ?  ?  ?  1  15
+PNM  O16   .  O  0  ?  ?  ?  1  16
+PNM  C17   .  C  0  ?  ?  ?  1  17
+PNM  C18   .  C  0  ?  ?  ?  1  18
+PNM  C19   .  C  0  ?  ?  ?  1  19
+PNM  C20   .  C  0  ?  ?  ?  1  20
+PNM  C21   .  C  0  ?  ?  ?  1  21
+PNM  C22   .  C  0  ?  ?  ?  1  22
+PNM  C23   .  C  0  ?  ?  ?  1  23
+PNM  H19   .  H  0  ?  ?  ?  1  24
+PNM  H20   .  H  0  ?  ?  ?  1  25
+PNM  H21   .  H  0  ?  ?  ?  1  26
+PNM  H22   .  H  0  ?  ?  ?  1  27
+PNM  H23   .  H  0  ?  ?  ?  1  28
+PNM  1H17  .  H  0  ?  ?  ?  0  29
+PNM  2H17  .  H  0  ?  ?  ?  0  30
+PNM  H14   .  H  0  ?  ?  ?  1  31
+PNM  HC6   .  H  0  ?  ?  ?  1  32
+PNM  HC5   .  H  0  ?  ?  ?  1  33
+PNM  HC3   .  H  0  ?  ?  ?  1  34
+PNM  HC7   .  H  0  ?  ?  ?  1  35
+PNM  H4    .  H  0  ?  ?  ?  1  36
+PNM  1HC9  .  H  0  ?  ?  ?  0  37
+PNM  2HC9  .  H  0  ?  ?  ?  0  38
+PNM  3HC9  .  H  0  ?  ?  ?  0  39
+PNM  1H10  .  H  0  ?  ?  ?  0  40
+PNM  2H10  .  H  0  ?  ?  ?  0  41
+PNM  3H10  .  H  0  ?  ?  ?  0  42
+PNM  HXT   .  H  0  ?  ?  ?  1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PNM  O8   C7    DOUB  1 
+PNM  C7   C6    SING  2 
+PNM  C7   HC7   SING  3 
+PNM  N4   H4    SING  4 
+PNM  N4   C3    SING  5 
+PNM  N4   C5    SING  6 
+PNM  C3   C11   SING  7 
+PNM  C3   C2    SING  8 
+PNM  C3   HC3   SING  9 
+PNM  C11  O13   SING  10
+PNM  C11  O12   DOUB  11
+PNM  O13  HXT   SING  12
+PNM  C2   C10   SING  13
+PNM  C2   C9    SING  14
+PNM  C2   S1    SING  15
+PNM  C10  1H10  SING  16
+PNM  C10  2H10  SING  17
+PNM  C10  3H10  SING  18
+PNM  C9   1HC9  SING  19
+PNM  C9   2HC9  SING  20
+PNM  C9   3HC9  SING  21
+PNM  S1   C5    SING  22
+PNM  C5   C6    SING  23
+PNM  C5   HC5   SING  24
+PNM  C6   N14   SING  25
+PNM  C6   HC6   SING  26
+PNM  N14  C15   SING  27
+PNM  N14  H14   SING  28
+PNM  C15  O16   DOUB  29
+PNM  C15  C17   SING  30
+PNM  C17  C18   SING  31
+PNM  C17  1H17  SING  32
+PNM  C17  2H17  SING  33
+PNM  C18  C19   AROM  34
+PNM  C18  C23   AROM  35
+PNM  C19  C20   AROM  36
+PNM  C19  H19   SING  37
+PNM  C20  C21   AROM  38
+PNM  C20  H20   SING  39
+PNM  C21  C22   AROM  40
+PNM  C21  H21   SING  41
+PNM  C22  C23   AROM  42
+PNM  C22  H22   SING  43
+PNM  C23  H23   SING  44
+#

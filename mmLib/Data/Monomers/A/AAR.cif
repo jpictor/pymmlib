@@ -1,0 +1,87 @@
+data_AAR
+#
+_chem_comp.id                       AAR
+_chem_comp.name                     ARGININEAMIDE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C6 H16 N5 O1'
+_chem_comp.mon_nstd_parent_comp_id  ARG
+_chem_comp.pdbx_formal_charge       1+
+_chem_comp.pdbx_release_status      REL
+_chem_comp.mon_nstd_flag            n
+_chem_comp.formula_weight           174.225
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AAR  N     .  N  0  ?  ?  ?  1  1 
+AAR  CA    .  C  0  ?  ?  ?  1  2 
+AAR  CB    .  C  0  ?  ?  ?  1  3 
+AAR  CG    .  C  0  ?  ?  ?  1  4 
+AAR  CD    .  C  0  ?  ?  ?  1  5 
+AAR  NE    .  N  0  ?  ?  ?  1  6 
+AAR  CZ    .  C  0  ?  ?  ?  1  7 
+AAR  NH1   .  N  0  ?  ?  ?  1  8 
+AAR  NH2   .  N  1  ?  ?  ?  1  9 
+AAR  C     .  C  0  ?  ?  ?  1  10
+AAR  O     .  O  0  ?  ?  ?  1  11
+AAR  NT    .  N  0  ?  ?  ?  1  12
+AAR  1HN   .  H  0  ?  ?  ?  0  13
+AAR  2HN   .  H  0  ?  ?  ?  0  14
+AAR  HA    .  H  0  ?  ?  ?  1  15
+AAR  1HB   .  H  0  ?  ?  ?  0  16
+AAR  2HB   .  H  0  ?  ?  ?  0  17
+AAR  1HG   .  H  0  ?  ?  ?  0  18
+AAR  2HG   .  H  0  ?  ?  ?  0  19
+AAR  1HD   .  H  0  ?  ?  ?  0  20
+AAR  2HD   .  H  0  ?  ?  ?  0  21
+AAR  HE    .  H  0  ?  ?  ?  1  22
+AAR  1HH1  .  H  0  ?  ?  ?  0  23
+AAR  2HH1  .  H  0  ?  ?  ?  0  24
+AAR  1HH2  .  H  0  ?  ?  ?  0  25
+AAR  2HH2  .  H  0  ?  ?  ?  0  26
+AAR  1HNT  .  H  0  ?  ?  ?  0  27
+AAR  2HNT  .  H  0  ?  ?  ?  0  28
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AAR  N    CA    SING  1 
+AAR  N    1HN   SING  2 
+AAR  N    2HN   SING  3 
+AAR  CA   CB    SING  4 
+AAR  CA   C     SING  5 
+AAR  CA   HA    SING  6 
+AAR  CB   CG    SING  7 
+AAR  CB   1HB   SING  8 
+AAR  CB   2HB   SING  9 
+AAR  CG   CD    SING  10
+AAR  CG   1HG   SING  11
+AAR  CG   2HG   SING  12
+AAR  CD   NE    SING  13
+AAR  CD   1HD   SING  14
+AAR  CD   2HD   SING  15
+AAR  NE   CZ    SING  16
+AAR  NE   HE    SING  17
+AAR  CZ   NH1   SING  18
+AAR  CZ   NH2   DOUB  19
+AAR  NH1  1HH1  SING  20
+AAR  NH1  2HH1  SING  21
+AAR  NH2  1HH2  SING  22
+AAR  NH2  2HH2  SING  23
+AAR  C    O     DOUB  24
+AAR  C    NT    SING  25
+AAR  NT   1HNT  SING  26
+AAR  NT   2HNT  SING  27
+#

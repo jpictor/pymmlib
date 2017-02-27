@@ -1,0 +1,89 @@
+data_G1P
+#
+_chem_comp.id                   G1P
+_chem_comp.name                 ALPHA-D-GLUCOSE-1-PHOSPHATE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C6 H13 O9 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        260.137
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+G1P  C1    .  C  0  ?  ?  ?  1  1 
+G1P  C2    .  C  0  ?  ?  ?  1  2 
+G1P  C3    .  C  0  ?  ?  ?  1  3 
+G1P  C4    .  C  0  ?  ?  ?  1  4 
+G1P  C5    .  C  0  ?  ?  ?  1  5 
+G1P  C6    .  C  0  ?  ?  ?  1  6 
+G1P  O1    .  O  0  ?  ?  ?  1  7 
+G1P  O2    .  O  0  ?  ?  ?  1  8 
+G1P  O3    .  O  0  ?  ?  ?  1  9 
+G1P  O4    .  O  0  ?  ?  ?  1  10
+G1P  O5    .  O  0  ?  ?  ?  1  11
+G1P  O6    .  O  0  ?  ?  ?  1  12
+G1P  P     .  P  0  ?  ?  ?  1  13
+G1P  O1P   .  O  0  ?  ?  ?  1  14
+G1P  O2P   .  O  0  ?  ?  ?  1  15
+G1P  O3P   .  O  0  ?  ?  ?  1  16
+G1P  H1    .  H  0  ?  ?  ?  1  17
+G1P  H2    .  H  0  ?  ?  ?  1  18
+G1P  H3    .  H  0  ?  ?  ?  1  19
+G1P  H4    .  H  0  ?  ?  ?  1  20
+G1P  H5    .  H  0  ?  ?  ?  1  21
+G1P  1H6   .  H  0  ?  ?  ?  0  22
+G1P  2H6   .  H  0  ?  ?  ?  0  23
+G1P  HO2   .  H  0  ?  ?  ?  1  24
+G1P  HO3   .  H  0  ?  ?  ?  1  25
+G1P  HO4   .  H  0  ?  ?  ?  1  26
+G1P  HO6   .  H  0  ?  ?  ?  1  27
+G1P  2HOP  .  H  0  ?  ?  ?  0  28
+G1P  3HOP  .  H  0  ?  ?  ?  0  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+G1P  C1   C2    SING  1 
+G1P  C1   O1    SING  2 
+G1P  C1   O5    SING  3 
+G1P  C1   H1    SING  4 
+G1P  C2   C3    SING  5 
+G1P  C2   O2    SING  6 
+G1P  C2   H2    SING  7 
+G1P  C3   C4    SING  8 
+G1P  C3   O3    SING  9 
+G1P  C3   H3    SING  10
+G1P  C4   C5    SING  11
+G1P  C4   O4    SING  12
+G1P  C4   H4    SING  13
+G1P  C5   C6    SING  14
+G1P  C5   O5    SING  15
+G1P  C5   H5    SING  16
+G1P  C6   O6    SING  17
+G1P  C6   1H6   SING  18
+G1P  C6   2H6   SING  19
+G1P  O1   P     SING  20
+G1P  O2   HO2   SING  21
+G1P  O3   HO3   SING  22
+G1P  O4   HO4   SING  23
+G1P  O6   HO6   SING  24
+G1P  P    O1P   DOUB  25
+G1P  P    O2P   SING  26
+G1P  P    O3P   SING  27
+G1P  O2P  2HOP  SING  28
+G1P  O3P  3HOP  SING  29
+#

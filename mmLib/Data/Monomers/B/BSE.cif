@@ -1,0 +1,65 @@
+data_BSE
+#
+_chem_comp.id                       BSE
+_chem_comp.name                     BETA-3-SERINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C4 H9 N1 O3'
+_chem_comp.mon_nstd_parent_comp_id  SER
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            119.120
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BSE  N    .  N  0  ?  ?  ?  1  1 
+BSE  CC   .  C  0  ?  ?  ?  1  2 
+BSE  CA   .  C  0  ?  ?  ?  1  3 
+BSE  C    .  C  0  ?  ?  ?  1  4 
+BSE  O    .  O  0  ?  ?  ?  1  5 
+BSE  CB   .  C  0  ?  ?  ?  1  6 
+BSE  OG   .  O  0  ?  ?  ?  1  7 
+BSE  OXT  .  O  0  ?  ?  ?  1  8 
+BSE  1HC  .  H  0  ?  ?  ?  0  9 
+BSE  2HC  .  H  0  ?  ?  ?  0  10
+BSE  H    .  H  0  ?  ?  ?  1  11
+BSE  HN2  .  H  0  ?  ?  ?  1  12
+BSE  HA   .  H  0  ?  ?  ?  1  13
+BSE  1HB  .  H  0  ?  ?  ?  0  14
+BSE  2HB  .  H  0  ?  ?  ?  0  15
+BSE  HG   .  H  0  ?  ?  ?  1  16
+BSE  HXT  .  H  0  ?  ?  ?  1  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BSE  N    CC   SING  1 
+BSE  N    H    SING  2 
+BSE  N    HN2  SING  3 
+BSE  CC   1HC  SING  4 
+BSE  CC   2HC  SING  5 
+BSE  CC   CA   SING  6 
+BSE  CA   C    SING  7 
+BSE  CA   CB   SING  8 
+BSE  CA   HA   SING  9 
+BSE  C    O    DOUB  10
+BSE  C    OXT  SING  11
+BSE  CB   OG   SING  12
+BSE  CB   1HB  SING  13
+BSE  CB   2HB  SING  14
+BSE  OG   HG   SING  15
+BSE  OXT  HXT  SING  16
+#

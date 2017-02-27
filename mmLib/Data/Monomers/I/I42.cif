@@ -1,0 +1,43 @@
+data_I42
+#
+_chem_comp.id                   I42
+_chem_comp.name                 HYDROXY(DIOXIDO)OXOVANADIUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAI
+_chem_comp.formula              'H1 O4 V1'
+_chem_comp.pdbx_synonyms        VANADATE
+_chem_comp.pdbx_formal_charge   2-
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       115.947
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+I42  V    .  V  0   22.989  -5.717  50.954  1  1
+I42  OV1  .  O  -1  22.863  -6.548  52.441  1  2
+I42  OV2  .  O  -1  22.206  -5.336  49.522  1  3
+I42  OV3  .  O  0   24.471  -5.089  51.008  1  4
+I42  OV4  .  O  0   23.520  -6.865  49.485  1  5
+I42  HV4  .  H  0   ?       ?       ?       1  6
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+I42  V    OV1  SING  1
+I42  V    OV2  SING  2
+I42  V    OV3  DOUB  3
+I42  V    OV4  SING  4
+I42  OV4  HV4  SING  5
+#

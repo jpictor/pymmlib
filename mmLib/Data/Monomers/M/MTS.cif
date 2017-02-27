@@ -1,0 +1,96 @@
+data_MTS
+#
+_chem_comp.id                   MTS
+_chem_comp.name                 (4S-TRANS)-4-(METHYLAMINO)-5,6-DIHYDRO-6-METHYL-4H-THIENO(2,3-B)THIOPYRAN-2-SULFONAMIDE-7,7-DIOXIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H14 N2 O4 S3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        310.401
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MTS  S1    .  S  0  ?  ?  ?  1  1 
+MTS  C2    .  C  0  ?  ?  ?  1  2 
+MTS  C3    .  C  0  ?  ?  ?  1  3 
+MTS  C4    .  C  0  ?  ?  ?  1  4 
+MTS  C5    .  C  0  ?  ?  ?  1  5 
+MTS  C6    .  C  0  ?  ?  ?  1  6 
+MTS  C7    .  C  0  ?  ?  ?  1  7 
+MTS  S8    .  S  0  ?  ?  ?  1  8 
+MTS  C9    .  C  0  ?  ?  ?  1  9 
+MTS  S10   .  S  0  ?  ?  ?  1  10
+MTS  O11   .  O  0  ?  ?  ?  1  11
+MTS  O12   .  O  0  ?  ?  ?  1  12
+MTS  N13   .  N  0  ?  ?  ?  1  13
+MTS  N14   .  N  0  ?  ?  ?  1  14
+MTS  C15   .  C  0  ?  ?  ?  1  15
+MTS  O16   .  O  0  ?  ?  ?  1  16
+MTS  O17   .  O  0  ?  ?  ?  1  17
+MTS  C18   .  C  0  ?  ?  ?  1  18
+MTS  H3    .  H  0  ?  ?  ?  1  19
+MTS  H5    .  H  0  ?  ?  ?  1  20
+MTS  H61   .  H  0  ?  ?  ?  1  21
+MTS  H62   .  H  0  ?  ?  ?  1  22
+MTS  H7    .  H  0  ?  ?  ?  1  23
+MTS  1HN3  .  H  0  ?  ?  ?  0  24
+MTS  2HN3  .  H  0  ?  ?  ?  0  25
+MTS  HN4   .  H  0  ?  ?  ?  1  26
+MTS  1H15  .  H  0  ?  ?  ?  0  27
+MTS  2H15  .  H  0  ?  ?  ?  0  28
+MTS  3H15  .  H  0  ?  ?  ?  0  29
+MTS  1H18  .  H  0  ?  ?  ?  0  30
+MTS  2H18  .  H  0  ?  ?  ?  0  31
+MTS  3H18  .  H  0  ?  ?  ?  0  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MTS  S1   C2    SING  1 
+MTS  S1   C9    SING  2 
+MTS  C2   C3    DOUB  3 
+MTS  C2   S10   SING  4 
+MTS  C3   C4    SING  5 
+MTS  C3   H3    SING  6 
+MTS  C4   C5    SING  7 
+MTS  C4   C9    DOUB  8 
+MTS  C5   C6    SING  9 
+MTS  C5   N14   SING  10
+MTS  C5   H5    SING  11
+MTS  C6   C7    SING  12
+MTS  C6   H61   SING  13
+MTS  C6   H62   SING  14
+MTS  C7   S8    SING  15
+MTS  C7   C15   SING  16
+MTS  C7   H7    SING  17
+MTS  S8   C9    SING  18
+MTS  S8   O16   DOUB  19
+MTS  S8   O17   DOUB  20
+MTS  S10  O11   DOUB  21
+MTS  S10  O12   DOUB  22
+MTS  S10  N13   SING  23
+MTS  N13  1HN3  SING  24
+MTS  N13  2HN3  SING  25
+MTS  N14  C18   SING  26
+MTS  N14  HN4   SING  27
+MTS  C15  1H15  SING  28
+MTS  C15  2H15  SING  29
+MTS  C15  3H15  SING  30
+MTS  C18  1H18  SING  31
+MTS  C18  2H18  SING  32
+MTS  C18  3H18  SING  33
+#

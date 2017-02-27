@@ -1,0 +1,107 @@
+data_IN9
+#
+_chem_comp.id                   IN9
+_chem_comp.name                 2-[3-(5-MERCAPTO-[1,3,4]THIADIAZOL-2YL)-UREIDO]-N-METHYL-3-PENTAFLUOROPHENYL-PROPIONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C13 H10 N5 O2 F5 S2'
+_chem_comp.pdbx_synonyms        PNU-142372
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        427.366
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+IN9  C1    .  C  0  ?  ?  ?  1  1 
+IN9  C2    .  C  0  ?  ?  ?  1  2 
+IN9  C3    .  C  0  ?  ?  ?  1  3 
+IN9  C7    .  C  0  ?  ?  ?  1  4 
+IN9  C8    .  C  0  ?  ?  ?  1  5 
+IN9  C9    .  C  0  ?  ?  ?  1  6 
+IN9  C10   .  C  0  ?  ?  ?  1  7 
+IN9  C11   .  C  0  ?  ?  ?  1  8 
+IN9  C12   .  C  0  ?  ?  ?  1  9 
+IN9  C13   .  C  0  ?  ?  ?  1  10
+IN9  C14   .  C  0  ?  ?  ?  1  11
+IN9  S1    .  S  0  ?  ?  ?  1  12
+IN9  N1    .  N  0  ?  ?  ?  1  13
+IN9  N2    .  N  0  ?  ?  ?  1  14
+IN9  N3    .  N  0  ?  ?  ?  1  15
+IN9  S2    .  S  0  ?  ?  ?  1  16
+IN9  O1    .  O  0  ?  ?  ?  1  17
+IN9  N4    .  N  0  ?  ?  ?  1  18
+IN9  C5    .  C  0  ?  ?  ?  1  19
+IN9  C6    .  C  0  ?  ?  ?  1  20
+IN9  O2    .  O  0  ?  ?  ?  1  21
+IN9  N5    .  N  0  ?  ?  ?  1  22
+IN9  F10   .  F  0  ?  ?  ?  1  23
+IN9  F11   .  F  0  ?  ?  ?  1  24
+IN9  F12   .  F  0  ?  ?  ?  1  25
+IN9  F13   .  F  0  ?  ?  ?  1  26
+IN9  F8    .  F  0  ?  ?  ?  1  27
+IN9  1H7   .  H  0  ?  ?  ?  0  28
+IN9  2H7   .  H  0  ?  ?  ?  0  29
+IN9  1H14  .  H  0  ?  ?  ?  0  30
+IN9  2H14  .  H  0  ?  ?  ?  0  31
+IN9  3H14  .  H  0  ?  ?  ?  0  32
+IN9  HN3   .  H  0  ?  ?  ?  1  33
+IN9  HN4   .  H  0  ?  ?  ?  1  34
+IN9  H5    .  H  0  ?  ?  ?  1  35
+IN9  HN5   .  H  0  ?  ?  ?  1  36
+IN9  HS2   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+IN9  C1   S1    SING  1 
+IN9  C1   N1    DOUB  2 
+IN9  C1   N3    SING  3 
+IN9  C2   S1    SING  4 
+IN9  C2   N2    DOUB  5 
+IN9  C2   S2    SING  6 
+IN9  C3   N3    SING  7 
+IN9  C3   O1    DOUB  8 
+IN9  C3   N4    SING  9 
+IN9  C7   C9    SING  10
+IN9  C7   C5    SING  11
+IN9  C7   1H7   SING  12
+IN9  C7   2H7   SING  13
+IN9  C8   C9    DOUB  14
+IN9  C8   C13   SING  15
+IN9  C8   F8    SING  16
+IN9  C9   C10   SING  17
+IN9  C10  C11   DOUB  18
+IN9  C10  F10   SING  19
+IN9  C11  C12   SING  20
+IN9  C11  F11   SING  21
+IN9  C12  C13   DOUB  22
+IN9  C12  F12   SING  23
+IN9  C13  F13   SING  24
+IN9  C14  N5    SING  25
+IN9  C14  1H14  SING  26
+IN9  C14  2H14  SING  27
+IN9  C14  3H14  SING  28
+IN9  N1   N2    SING  29
+IN9  N3   HN3   SING  30
+IN9  S2   HS2   SING  31
+IN9  N4   C5    SING  32
+IN9  N4   HN4   SING  33
+IN9  C5   C6    SING  34
+IN9  C5   H5    SING  35
+IN9  C6   O2    DOUB  36
+IN9  C6   N5    SING  37
+IN9  N5   HN5   SING  38
+#

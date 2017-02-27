@@ -1,0 +1,59 @@
+data_CSE
+#
+_chem_comp.id                       CSE
+_chem_comp.name                     SELENOCYSTEINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C3 H7 N1 O2 SE1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            168.054
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSE  N    .  N   0  ?  ?  ?  1  1 
+CSE  CA   .  C   0  ?  ?  ?  1  2 
+CSE  CB   .  C   0  ?  ?  ?  1  3 
+CSE  SE   .  SE  0  ?  ?  ?  0  4 
+CSE  C    .  C   0  ?  ?  ?  1  5 
+CSE  O    .  O   0  ?  ?  ?  1  6 
+CSE  OXT  .  O   0  ?  ?  ?  1  7 
+CSE  1HN  .  H   0  ?  ?  ?  0  8 
+CSE  2HN  .  H   0  ?  ?  ?  0  9 
+CSE  HA   .  H   0  ?  ?  ?  1  10
+CSE  1HB  .  H   0  ?  ?  ?  0  11
+CSE  2HB  .  H   0  ?  ?  ?  0  12
+CSE  HE   .  H   0  ?  ?  ?  1  13
+CSE  HXT  .  H   0  ?  ?  ?  1  14
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSE  N    CA   SING  1 
+CSE  N    1HN  SING  2 
+CSE  N    2HN  SING  3 
+CSE  CA   CB   SING  4 
+CSE  CA   C    SING  5 
+CSE  CA   HA   SING  6 
+CSE  CB   SE   SING  7 
+CSE  CB   1HB  SING  8 
+CSE  CB   2HB  SING  9 
+CSE  SE   HE   SING  10
+CSE  C    O    DOUB  11
+CSE  C    OXT  SING  12
+CSE  OXT  HXT  SING  13
+#

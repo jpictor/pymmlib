@@ -1,0 +1,82 @@
+data_DRI
+#
+_chem_comp.id                   DRI
+_chem_comp.name                 4-O-METHYL-2,6-DIDEOXY-BETA-D-GLUCOSE
+_chem_comp.type                 D-saccharide
+_chem_comp.pdbx_type            ATOMS
+_chem_comp.formula              'C7 H14 O4'
+_chem_comp.pdbx_synonyms        4-O-METHYL-2,6-DIDEOXY-BETA-D-MANNOSE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        162.185
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+DRI  O1   .  O  0  ?  ?  ?  1  1 
+DRI  C1   .  C  0  ?  ?  ?  1  2 
+DRI  C5   .  C  0  ?  ?  ?  1  3 
+DRI  C2   .  C  0  ?  ?  ?  1  4 
+DRI  C3   .  C  0  ?  ?  ?  1  5 
+DRI  O3   .  O  0  ?  ?  ?  1  6 
+DRI  C4   .  C  0  ?  ?  ?  1  7 
+DRI  O4   .  O  0  ?  ?  ?  1  8 
+DRI  CME  .  C  0  ?  ?  ?  1  9 
+DRI  O5   .  O  0  ?  ?  ?  1  10
+DRI  C6   .  C  0  ?  ?  ?  1  11
+DRI  HO1  .  H  0  ?  ?  ?  1  12
+DRI  H1   .  H  0  ?  ?  ?  1  13
+DRI  1H2  .  H  0  ?  ?  ?  0  14
+DRI  2H2  .  H  0  ?  ?  ?  0  15
+DRI  HO3  .  H  0  ?  ?  ?  1  16
+DRI  H3   .  H  0  ?  ?  ?  1  17
+DRI  H4   .  H  0  ?  ?  ?  1  18
+DRI  1H4  .  H  0  ?  ?  ?  0  19
+DRI  2H4  .  H  0  ?  ?  ?  0  20
+DRI  3H4  .  H  0  ?  ?  ?  0  21
+DRI  H5   .  H  0  ?  ?  ?  1  22
+DRI  1H6  .  H  0  ?  ?  ?  0  23
+DRI  2H6  .  H  0  ?  ?  ?  0  24
+DRI  3H6  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+DRI  O1   C1   SING  1 
+DRI  O1   HO1  SING  2 
+DRI  C1   C2   SING  3 
+DRI  C1   O5   SING  4 
+DRI  C1   H1   SING  5 
+DRI  C5   C4   SING  6 
+DRI  C5   O5   SING  7 
+DRI  C5   C6   SING  8 
+DRI  C5   H5   SING  9 
+DRI  C2   C3   SING  10
+DRI  C2   1H2  SING  11
+DRI  C2   2H2  SING  12
+DRI  C3   O3   SING  13
+DRI  C3   C4   SING  14
+DRI  C3   H3   SING  15
+DRI  O3   HO3  SING  16
+DRI  C4   O4   SING  17
+DRI  C4   H4   SING  18
+DRI  O4   CME  SING  19
+DRI  CME  1H4  SING  20
+DRI  CME  2H4  SING  21
+DRI  CME  3H4  SING  22
+DRI  C6   1H6  SING  23
+DRI  C6   2H6  SING  24
+DRI  C6   3H6  SING  25
+#

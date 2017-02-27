@@ -1,0 +1,70 @@
+data_CPZ
+#
+_chem_comp.id                   CPZ
+_chem_comp.name                 4-(4-CHLOROPHENYL)IMIDAZOLE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C9 H7 N2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        178.621
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CPZ  C11  .  C   0  -17.741  89.481  5.350  1  1 
+CPZ  C10  .  C   0  -16.650  88.861  4.744  1  2 
+CPZ  C9   .  C   0  -16.579  88.745  3.358  1  3 
+CPZ  C8   .  C   0  -17.619  89.244  2.576  1  4 
+CPZ  C7   .  C   0  -18.707  89.865  3.189  1  5 
+CPZ  C6   .  C   0  -18.780  89.993  4.574  1  6 
+CPZ  C4   .  C   0  -19.878  90.626  5.156  1  7 
+CPZ  C2   .  C   0  -20.340  90.470  6.394  1  8 
+CPZ  N1   .  N   0  -21.429  91.220  6.560  1  9 
+CPZ  C5   .  C   0  -21.637  91.849  5.406  1  10
+CPZ  N3   .  N   0  -20.689  91.488  4.548  1  11
+CPZ  CL   .  CL  0  ?        ?       ?      0  12
+CPZ  H8   .  H   0  ?        ?       ?      1  13
+CPZ  H7   .  H   0  ?        ?       ?      1  14
+CPZ  H11  .  H   0  ?        ?       ?      1  15
+CPZ  H10  .  H   0  ?        ?       ?      1  16
+CPZ  H2   .  H   0  ?        ?       ?      1  17
+CPZ  H5   .  H   0  ?        ?       ?      1  18
+CPZ  HN3  .  H   0  ?        ?       ?      1  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CPZ  C11  C6   AROM  1 
+CPZ  C11  C10  AROM  2 
+CPZ  C11  H11  SING  3 
+CPZ  C10  C9   AROM  4 
+CPZ  C10  H10  SING  5 
+CPZ  C9   CL   SING  6 
+CPZ  C9   C8   AROM  7 
+CPZ  C8   C7   AROM  8 
+CPZ  C8   H8   SING  9 
+CPZ  C7   C6   AROM  10
+CPZ  C7   H7   SING  11
+CPZ  C6   C4   SING  12
+CPZ  C4   C2   DOUB  13
+CPZ  C4   N3   SING  14
+CPZ  C2   N1   SING  15
+CPZ  C2   H2   SING  16
+CPZ  N1   C5   DOUB  17
+CPZ  C5   N3   SING  18
+CPZ  C5   H5   SING  19
+CPZ  N3   HN3  SING  20
+#

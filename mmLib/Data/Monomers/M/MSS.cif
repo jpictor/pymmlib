@@ -1,0 +1,110 @@
+data_MSS
+#
+_chem_comp.id                   MSS
+_chem_comp.name                 (MOLYBDOPTERIN-S,S)-OXO-MOLYBDENUM
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C10 H12 N5 O7 MO1 P1 S2'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        505.268
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MSS  N1    .  N   0  69.624  13.175  21.096  1  1 
+MSS  C2    .  C   0  70.357  14.3    20.963  1  2 
+MSS  N2    .  N   0  70.083  15.15   19.959  1  3 
+MSS  N3    .  N   0  71.391  14.608  21.787  1  4 
+MSS  C4    .  C   0  71.74   13.808  22.83   1  5 
+MSS  O4    .  O   0  72.694  14.108  23.58   1  6 
+MSS  N5    .  N   0  71.273  11.668  24.02   1  7 
+MSS  C6    .  C   0  70.797  10.302  23.869  1  8 
+MSS  C7    .  C   0  69.394  10.238  23.264  1  9 
+MSS  N8    .  N   0  69.167  11.212  22.234  1  10
+MSS  C9    .  C   0  70.973  12.581  23.061  1  11
+MSS  C10   .  C   0  69.885  12.318  22.112  1  12
+MSS  C1'   .  C   0  70.914  9.401   25.071  1  13
+MSS  S1'   .  S   0  72.483  8.892   25.511  1  14
+MSS  C2'   .  C   0  69.805  8.934   25.676  1  15
+MSS  S2'   .  S   0  69.922  7.752   26.9    1  16
+MSS  C3'   .  C   0  68.421  9.394   25.253  1  17
+MSS  O3'   .  O   0  68.41   10.439  24.259  1  18
+MSS  C4'   .  C   0  67.621  9.892   26.435  1  19
+MSS  O4'   .  O   0  66.338  10.349  25.969  1  20
+MSS  P     .  P   0  65.442  11.276  26.94   1  21
+MSS  O1P   .  O   0  66.326  12.426  27.334  1  22
+MSS  O2P   .  O   0  65.104  10.322  28.096  1  23
+MSS  O3P   .  O   0  64.205  11.587  26.179  1  24
+MSS  MOM1  .  MO  0  72.282  7.09    27.084  0  25
+MSS  OM1   .  O   0  72.591  5.619   26.201  1  26
+MSS  1HP   .  H   0  ?       ?       ?       0  27
+MSS  2HP   .  H   0  ?       ?       ?       0  28
+MSS  1H2N  .  H   0  70.637  16      19.858  0  29
+MSS  2H2N  .  H   0  69.306  14.919  19.34   0  30
+MSS  H3    .  H   0  71.921  15.463  21.619  1  31
+MSS  H5    .  H   0  71.825  11.936  24.835  1  32
+MSS  H6    .  H   0  71.464  9.847   23.1    1  33
+MSS  H7    .  H   0  69.247  9.223   22.826  1  34
+MSS  H8    .  H   0  68.417  11.044  21.564  1  35
+MSS  H3'   .  H   0  67.886  8.514   24.827  1  36
+MSS  1H4'  .  H   0  68.164  10.672  27.018  0  37
+MSS  2H4'  .  H   0  67.533  9.127   27.242  0  38
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MSS  N1    C2    DOUB  1 
+MSS  N1    C10   SING  2 
+MSS  C2    N2    SING  3 
+MSS  C2    N3    SING  4 
+MSS  N2    1H2N  SING  5 
+MSS  N2    2H2N  SING  6 
+MSS  N3    C4    SING  7 
+MSS  N3    H3    SING  8 
+MSS  C4    O4    DOUB  9 
+MSS  C4    C9    SING  10
+MSS  N5    C6    SING  11
+MSS  N5    C9    SING  12
+MSS  N5    H5    SING  13
+MSS  C6    C7    SING  14
+MSS  C6    C1'   SING  15
+MSS  C6    H6    SING  16
+MSS  C7    N8    SING  17
+MSS  C7    O3'   SING  18
+MSS  C7    H7    SING  19
+MSS  N8    C10   SING  20
+MSS  N8    H8    SING  21
+MSS  C9    C10   DOUB  22
+MSS  C1'   S1'   SING  23
+MSS  C1'   C2'   DOUB  24
+MSS  S1'   MOM1  SING  25
+MSS  C2'   S2'   SING  26
+MSS  C2'   C3'   SING  27
+MSS  S2'   MOM1  SING  28
+MSS  C3'   O3'   SING  29
+MSS  C3'   C4'   SING  30
+MSS  C3'   H3'   SING  31
+MSS  C4'   O4'   SING  32
+MSS  C4'   1H4'  SING  33
+MSS  C4'   2H4'  SING  34
+MSS  O4'   P     SING  35
+MSS  P     O3P   DOUB  36
+MSS  P     O1P   SING  37
+MSS  P     O2P   SING  38
+MSS  O1P   1HP   SING  39
+MSS  O2P   2HP   SING  40
+MSS  MOM1  OM1   DOUB  41
+#

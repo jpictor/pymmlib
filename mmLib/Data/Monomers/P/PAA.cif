@@ -1,0 +1,73 @@
+data_PAA
+#
+_chem_comp.id                   PAA
+_chem_comp.name                 '(N-METHYLPYRIDYL)ACETIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C8 H10 N1 O2'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       152.173
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+PAA  CM    .  C  0  ?  ?  ?  1  1 
+PAA  N1    .  N  1  ?  ?  ?  1  2 
+PAA  C2    .  C  0  ?  ?  ?  1  3 
+PAA  C3    .  C  0  ?  ?  ?  1  4 
+PAA  C4    .  C  0  ?  ?  ?  1  5 
+PAA  C5    .  C  0  ?  ?  ?  1  6 
+PAA  C6    .  C  0  ?  ?  ?  1  7 
+PAA  C2'   .  C  0  ?  ?  ?  1  8 
+PAA  C1'   .  C  0  ?  ?  ?  1  9 
+PAA  O1'   .  O  0  ?  ?  ?  1  10
+PAA  O2'   .  O  0  ?  ?  ?  1  11
+PAA  1HM   .  H  0  ?  ?  ?  0  12
+PAA  2HM   .  H  0  ?  ?  ?  0  13
+PAA  3HM   .  H  0  ?  ?  ?  0  14
+PAA  H2    .  H  0  ?  ?  ?  1  15
+PAA  H3    .  H  0  ?  ?  ?  1  16
+PAA  H5    .  H  0  ?  ?  ?  1  17
+PAA  H6    .  H  0  ?  ?  ?  1  18
+PAA  1H2'  .  H  0  ?  ?  ?  0  19
+PAA  2H2'  .  H  0  ?  ?  ?  0  20
+PAA  HO2   .  H  0  ?  ?  ?  1  21
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+PAA  CM   N1    SING  1 
+PAA  CM   1HM   SING  2 
+PAA  CM   2HM   SING  3 
+PAA  CM   3HM   SING  4 
+PAA  N1   C2    SING  5 
+PAA  N1   C6    DOUB  6 
+PAA  C2   C3    DOUB  7 
+PAA  C2   H2    SING  8 
+PAA  C3   C4    SING  9 
+PAA  C3   H3    SING  10
+PAA  C4   C5    DOUB  11
+PAA  C4   C2'   SING  12
+PAA  C5   C6    SING  13
+PAA  C5   H5    SING  14
+PAA  C6   H6    SING  15
+PAA  C2'  C1'   SING  16
+PAA  C2'  1H2'  SING  17
+PAA  C2'  2H2'  SING  18
+PAA  C1'  O1'   DOUB  19
+PAA  C1'  O2'   SING  20
+PAA  O2'  HO2   SING  21
+#

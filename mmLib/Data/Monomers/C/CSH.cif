@@ -1,0 +1,106 @@
+data_CSH
+#
+_chem_comp.id                   CSH
+_chem_comp.name                 '[2-(2-HYDROXY-1-METHYL-ETHYL)-4-(1H-IMIDAZOL-4-YLMETHYL)-5-OXO-IMIDAZOLIDIN-1-YL]-ACETIC ACID'
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C11 H17 N5 O4'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        283.286
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CSH  C1    .  C  0  ?  ?  ?  1  1 
+CSH  N2    .  N  0  ?  ?  ?  1  2 
+CSH  CA2   .  C  0  ?  ?  ?  1  3 
+CSH  C2    .  C  0  ?  ?  ?  1  4 
+CSH  O2    .  O  0  ?  ?  ?  1  5 
+CSH  N3    .  N  0  ?  ?  ?  1  6 
+CSH  CA3   .  C  0  ?  ?  ?  1  7 
+CSH  C3    .  C  0  ?  ?  ?  1  8 
+CSH  O3    .  O  0  ?  ?  ?  1  9 
+CSH  OXT   .  O  0  ?  ?  ?  1  10
+CSH  CA1   .  C  0  ?  ?  ?  1  11
+CSH  N1    .  N  0  ?  ?  ?  1  12
+CSH  CB1   .  C  0  ?  ?  ?  1  13
+CSH  OG2   .  O  0  ?  ?  ?  1  14
+CSH  CB2   .  C  0  ?  ?  ?  1  15
+CSH  CG    .  C  0  ?  ?  ?  1  16
+CSH  ND1   .  N  0  ?  ?  ?  1  17
+CSH  CD2   .  C  0  ?  ?  ?  1  18
+CSH  CE1   .  C  0  ?  ?  ?  1  19
+CSH  NE2   .  N  0  ?  ?  ?  1  20
+CSH  H1    .  H  0  ?  ?  ?  1  21
+CSH  HN2   .  H  0  ?  ?  ?  1  22
+CSH  HA2   .  H  0  ?  ?  ?  1  23
+CSH  1HA3  .  H  0  ?  ?  ?  0  24
+CSH  2HA3  .  H  0  ?  ?  ?  0  25
+CSH  HXT   .  H  0  ?  ?  ?  1  26
+CSH  HA1   .  H  0  ?  ?  ?  1  27
+CSH  1HN1  .  H  0  ?  ?  ?  0  28
+CSH  2HN1  .  H  0  ?  ?  ?  0  29
+CSH  1HB1  .  H  0  ?  ?  ?  0  30
+CSH  2HB1  .  H  0  ?  ?  ?  0  31
+CSH  HOG   .  H  0  ?  ?  ?  1  32
+CSH  1HB2  .  H  0  ?  ?  ?  0  33
+CSH  2HB2  .  H  0  ?  ?  ?  0  34
+CSH  HD2   .  H  0  ?  ?  ?  1  35
+CSH  HE2   .  H  0  ?  ?  ?  1  36
+CSH  HE1   .  H  0  ?  ?  ?  1  37
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CSH  C1   N2    SING  1 
+CSH  C1   N3    SING  2 
+CSH  C1   CA1   SING  3 
+CSH  C1   H1    SING  4 
+CSH  N2   CA2   SING  5 
+CSH  N2   HN2   SING  6 
+CSH  CA2  C2    SING  7 
+CSH  CA2  CB2   SING  8 
+CSH  CA2  HA2   SING  9 
+CSH  C2   N3    SING  10
+CSH  C2   O2    DOUB  11
+CSH  N3   CA3   SING  12
+CSH  CA3  C3    SING  13
+CSH  CA3  1HA3  SING  14
+CSH  CA3  2HA3  SING  15
+CSH  C3   O3    DOUB  16
+CSH  C3   OXT   SING  17
+CSH  OXT  HXT   SING  18
+CSH  CA1  CB1   SING  19
+CSH  CA1  N1    SING  20
+CSH  CA1  HA1   SING  21
+CSH  N1   1HN1  SING  22
+CSH  N1   2HN1  SING  23
+CSH  CB1  OG2   SING  24
+CSH  CB1  1HB1  SING  25
+CSH  CB1  2HB1  SING  26
+CSH  OG2  HOG   SING  27
+CSH  CB2  CG    SING  28
+CSH  CB2  1HB2  SING  29
+CSH  CB2  2HB2  SING  30
+CSH  CG   ND1   SING  31
+CSH  CG   CD2   DOUB  32
+CSH  ND1  CE1   DOUB  33
+CSH  CD2  NE2   SING  34
+CSH  CD2  HD2   SING  35
+CSH  CE1  NE2   SING  36
+CSH  CE1  HE1   SING  37
+CSH  NE2  HE2   SING  38
+#

@@ -1,0 +1,86 @@
+data_BP4
+#
+_chem_comp.id                   BP4
+_chem_comp.name                 BIPHENYL-4-YL-ACETALDEHYDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C14 H12 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        196.248
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BP4  CA   .  C  0  -8.824   10.336  131.511  1  1 
+BP4  C    .  C  0  -8.526   10.302  132.722  1  2 
+BP4  O    .  O  0  -8.221   11.520  133.272  1  3 
+BP4  C2   .  C  0  -12.961  11.640  130.567  1  4 
+BP4  C3   .  C  0  -12.741  10.436  131.418  1  5 
+BP4  C4   .  C  0  -11.387  9.995   131.736  1  6 
+BP4  C5   .  C  0  -10.239  10.755  131.204  1  7 
+BP4  C6   .  C  0  -10.444  11.929  130.372  1  8 
+BP4  C1   .  C  0  -11.775  12.368  130.057  1  9 
+BP4  C11  .  C  0  -17.076  13.113  129.506  1  10
+BP4  C18  .  C  0  -14.629  12.641  128.853  1  11
+BP4  C20  .  C  0  -14.353  12.133  130.214  1  12
+BP4  C23  .  C  0  -15.982  13.127  128.508  1  13
+BP4  C25  .  C  0  -15.432  12.111  131.219  1  14
+BP4  C26  .  C  0  -16.780  12.599  130.862  1  15
+BP4  H25  .  H  0  ?        ?       ?        1  16
+BP4  H26  .  H  0  ?        ?       ?        1  17
+BP4  H23  .  H  0  ?        ?       ?        1  18
+BP4  H18  .  H  0  ?        ?       ?        1  19
+BP4  H11  .  H  0  ?        ?       ?        1  20
+BP4  H3   .  H  0  ?        ?       ?        1  21
+BP4  H4   .  H  0  ?        ?       ?        1  22
+BP4  H1   .  H  0  ?        ?       ?        1  23
+BP4  H6   .  H  0  ?        ?       ?        1  24
+BP4  1HA  .  H  0  ?        ?       ?        0  25
+BP4  2HA  .  H  0  ?        ?       ?        0  26
+BP4  H    .  H  0  ?        ?       ?        1  27
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BP4  CA   C    SING  1 
+BP4  CA   C5   SING  2 
+BP4  CA   1HA  SING  3 
+BP4  CA   2HA  SING  4 
+BP4  C    O    DOUB  5 
+BP4  C    H    SING  6 
+BP4  C2   C3   AROM  7 
+BP4  C2   C1   AROM  8 
+BP4  C2   C20  SING  9 
+BP4  C3   C4   AROM  10
+BP4  C3   H3   SING  11
+BP4  C4   C5   AROM  12
+BP4  C4   H4   SING  13
+BP4  C5   C6   AROM  14
+BP4  C6   C1   AROM  15
+BP4  C6   H6   SING  16
+BP4  C1   H1   SING  17
+BP4  C11  C23  AROM  18
+BP4  C11  C26  AROM  19
+BP4  C11  H11  SING  20
+BP4  C18  C20  AROM  21
+BP4  C18  C23  AROM  22
+BP4  C18  H18  SING  23
+BP4  C20  C25  AROM  24
+BP4  C23  H23  SING  25
+BP4  C25  C26  AROM  26
+BP4  C25  H25  SING  27
+BP4  C26  H26  SING  28
+#

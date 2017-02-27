@@ -1,0 +1,70 @@
+data_P2Y
+#
+_chem_comp.id                       P2Y
+_chem_comp.name                     (2S)-PYRROLIDIN-2-YLMETHYLAMINE
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C5 H12 N2'
+_chem_comp.mon_nstd_parent_comp_id  PRO
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            100.163
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+P2Y  NA    .  N  0  8.948  -34.286  70.832  1  1 
+P2Y  C     .  C  0  8.797  -32.971  70.489  1  2 
+P2Y  CA    .  C  0  7.992  -32.521  69.307  1  3 
+P2Y  N     .  N  0  7.817  -33.486  68.242  1  4 
+P2Y  CD    .  C  0  6.396  -33.745  68.050  1  5 
+P2Y  CG    .  C  0  5.825  -33.351  69.378  1  6 
+P2Y  CB    .  C  0  6.610  -32.148  69.711  1  7 
+P2Y  1HNA  .  H  0  ?      ?        ?       0  8 
+P2Y  2HNA  .  H  0  ?      ?        ?       0  9 
+P2Y  1H    .  H  0  ?      ?        ?       0  10
+P2Y  2H    .  H  0  ?      ?        ?       0  11
+P2Y  HA    .  H  0  ?      ?        ?       1  12
+P2Y  HN    .  H  0  ?      ?        ?       1  13
+P2Y  1HD   .  H  0  ?      ?        ?       0  14
+P2Y  2HD   .  H  0  ?      ?        ?       0  15
+P2Y  1HG   .  H  0  ?      ?        ?       0  16
+P2Y  2HG   .  H  0  ?      ?        ?       0  17
+P2Y  1HB   .  H  0  ?      ?        ?       0  18
+P2Y  2HB   .  H  0  ?      ?        ?       0  19
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+P2Y  NA  1HNA  SING  1 
+P2Y  NA  2HNA  SING  2 
+P2Y  NA  C     SING  3 
+P2Y  C   1H    SING  4 
+P2Y  C   2H    SING  5 
+P2Y  C   CA    SING  6 
+P2Y  CA  HA    SING  7 
+P2Y  CA  N     SING  8 
+P2Y  CA  CB    SING  9 
+P2Y  N   HN    SING  10
+P2Y  N   CD    SING  11
+P2Y  CD  1HD   SING  12
+P2Y  CD  2HD   SING  13
+P2Y  CD  CG    SING  14
+P2Y  CG  1HG   SING  15
+P2Y  CG  2HG   SING  16
+P2Y  CG  CB    SING  17
+P2Y  CB  1HB   SING  18
+P2Y  CB  2HB   SING  19
+#

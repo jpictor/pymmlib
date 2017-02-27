@@ -1,0 +1,114 @@
+data_CEL
+#
+_chem_comp.id                   CEL
+_chem_comp.name                 4-[5-(4-METHYLPHENYL)-3-(TRIFLUOROMETHYL)-1H-PYRAZOL-1-YL]BENZENESULFONAMIDE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C17 H14 N3 O2 F3 S1'
+_chem_comp.pdbx_synonyms        CELECOXIB
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        381.372
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CEL  S1    .  S  0  15.289  2.846   16.652  1  1 
+CEL  C15   .  C  0  15.988  4.196   15.712  1  2 
+CEL  C14   .  C  0  15.186  5.215   15.256  1  3 
+CEL  C13   .  C  0  15.754  6.300   14.604  1  4 
+CEL  C12   .  C  0  17.113  6.332   14.441  1  5 
+CEL  C17   .  C  0  17.926  5.311   14.892  1  6 
+CEL  C16   .  C  0  17.358  4.211   15.545  1  7 
+CEL  N2    .  N  0  17.697  7.528   13.849  1  8 
+CEL  C3    .  C  0  17.520  8.191   12.667  1  9 
+CEL  C5    .  C  0  16.762  7.819   11.478  1  10
+CEL  C10   .  C  0  16.818  6.497   11.064  1  11
+CEL  C9    .  C  0  16.152  6.097   9.930   1  12
+CEL  C8    .  C  0  15.381  6.993   9.225   1  13
+CEL  C11   .  C  0  14.663  6.537   7.981   1  14
+CEL  C7    .  C  0  15.256  8.300   9.682   1  15
+CEL  C6    .  C  0  15.971  8.706   10.778  1  16
+CEL  C2    .  C  0  18.357  9.303   12.705  1  17
+CEL  C1    .  C  0  18.923  9.270   13.975  1  18
+CEL  C4    .  C  0  19.849  10.267  14.582  1  19
+CEL  F3    .  F  0  21.060  10.258  14.089  1  20
+CEL  F2    .  F  0  19.916  10.213  15.908  1  21
+CEL  F1    .  F  0  19.380  11.489  14.361  1  22
+CEL  N1    .  N  0  18.531  8.211   14.657  1  23
+CEL  N3    .  N  0  15.813  1.484   16.022  1  24
+CEL  O2    .  O  0  13.890  2.912   16.527  1  25
+CEL  O1    .  O  0  15.814  3.012   17.985  1  26
+CEL  CH14  .  H  0  ?       ?       ?       0  27
+CEL  CH13  .  H  0  ?       ?       ?       0  28
+CEL  CH17  .  H  0  ?       ?       ?       0  29
+CEL  CH16  .  H  0  ?       ?       ?       0  30
+CEL  CH10  .  H  0  ?       ?       ?       0  31
+CEL  HC9   .  H  0  ?       ?       ?       1  32
+CEL  1H11  .  H  0  ?       ?       ?       0  33
+CEL  2H11  .  H  0  ?       ?       ?       0  34
+CEL  3H11  .  H  0  ?       ?       ?       0  35
+CEL  HC7   .  H  0  ?       ?       ?       1  36
+CEL  HC6   .  H  0  ?       ?       ?       1  37
+CEL  HC2   .  H  0  ?       ?       ?       1  38
+CEL  1HN3  .  H  0  ?       ?       ?       0  39
+CEL  2HN3  .  H  0  ?       ?       ?       0  40
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CEL  S1   C15   SING  1 
+CEL  S1   N3    SING  2 
+CEL  S1   O2    DOUB  3 
+CEL  S1   O1    DOUB  4 
+CEL  C15  C14   AROM  5 
+CEL  C15  C16   AROM  6 
+CEL  C14  C13   AROM  7 
+CEL  C14  CH14  SING  8 
+CEL  C13  C12   AROM  9 
+CEL  C13  CH13  SING  10
+CEL  C12  C17   AROM  11
+CEL  C12  N2    SING  12
+CEL  C17  C16   AROM  13
+CEL  C17  CH17  SING  14
+CEL  C16  CH16  SING  15
+CEL  N2   C3    SING  16
+CEL  N2   N1    SING  17
+CEL  C3   C5    SING  18
+CEL  C3   C2    DOUB  19
+CEL  C5   C10   AROM  20
+CEL  C5   C6    AROM  21
+CEL  C10  C9    AROM  22
+CEL  C10  CH10  SING  23
+CEL  C9   C8    AROM  24
+CEL  C9   HC9   SING  25
+CEL  C8   C11   SING  26
+CEL  C8   C7    AROM  27
+CEL  C11  1H11  SING  28
+CEL  C11  2H11  SING  29
+CEL  C11  3H11  SING  30
+CEL  C7   C6    AROM  31
+CEL  C7   HC7   SING  32
+CEL  C6   HC6   SING  33
+CEL  C2   C1    SING  34
+CEL  C2   HC2   SING  35
+CEL  C1   C4    SING  36
+CEL  C1   N1    DOUB  37
+CEL  C4   F3    SING  38
+CEL  C4   F2    SING  39
+CEL  C4   F1    SING  40
+CEL  N3   1HN3  SING  41
+CEL  N3   2HN3  SING  42
+#

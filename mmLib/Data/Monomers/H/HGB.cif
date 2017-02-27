@@ -1,0 +1,65 @@
+data_HGB
+#
+_chem_comp.id                   HGB
+_chem_comp.name                 '4-(HYDROXYMERCURY)BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H6 O3 HG1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        338.713
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+HGB  C1    .  C   0  ?  ?  ?  1  1 
+HGB  C3    .  C   0  ?  ?  ?  1  2 
+HGB  C5    .  C   0  ?  ?  ?  1  3 
+HGB  C7    .  C   0  ?  ?  ?  1  4 
+HGB  HG    .  HG  0  ?  ?  ?  0  5 
+HGB  C6    .  C   0  ?  ?  ?  1  6 
+HGB  C4    .  C   0  ?  ?  ?  1  7 
+HGB  O1    .  O   0  ?  ?  ?  1  8 
+HGB  O2    .  O   0  ?  ?  ?  1  9 
+HGB  O3    .  O   0  ?  ?  ?  1  10
+HGB  C2    .  C   0  ?  ?  ?  1  11
+HGB  1HO1  .  H   0  ?  ?  ?  0  12
+HGB  HC3   .  H   0  ?  ?  ?  1  13
+HGB  HC4   .  H   0  ?  ?  ?  1  14
+HGB  HC5   .  H   0  ?  ?  ?  1  15
+HGB  HC6   .  H   0  ?  ?  ?  1  16
+HGB  1HO3  .  H   0  ?  ?  ?  0  17
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+HGB  C1  O1    SING  1 
+HGB  C1  O2    DOUB  2 
+HGB  C1  C2    SING  3 
+HGB  C3  C5    DOUB  4 
+HGB  C3  C2    SING  5 
+HGB  C3  HC3   SING  6 
+HGB  C5  C7    SING  7 
+HGB  C5  HC5   SING  8 
+HGB  C7  C6    DOUB  9 
+HGB  C7  HG    SING  10
+HGB  HG  O3    SING  11
+HGB  C6  C4    SING  12
+HGB  C6  HC6   SING  13
+HGB  C4  C2    DOUB  14
+HGB  C4  HC4   SING  15
+HGB  O1  1HO1  SING  16
+HGB  O3  1HO3  SING  17
+#

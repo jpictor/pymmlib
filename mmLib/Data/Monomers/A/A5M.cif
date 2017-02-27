@@ -1,0 +1,105 @@
+data_A5M
+#
+_chem_comp.id                       A5M
+_chem_comp.name                     2'-AMINE-CYTIDINE-5'-MONOPHOSPHATE
+_chem_comp.type                     'RNA linking'
+_chem_comp.pdbx_type                HETAIN
+_chem_comp.formula                  'C9 H15 N4 O7 P1'
+_chem_comp.mon_nstd_parent_comp_id  C
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            322.214
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+A5M  P     .  P  0  -9.460   29.698  52.637  1  1 
+A5M  O1P   .  O  0  -10.659  30.137  53.398  1  2 
+A5M  O2P   .  O  0  -8.106   30.004  53.165  1  3 
+A5M  O5*   .  O  0  -9.589   28.125  52.453  1  4 
+A5M  C5*   .  C  0  -10.740  27.578  51.827  1  5 
+A5M  C4*   .  C  0  -10.457  26.178  51.370  1  6 
+A5M  O4*   .  O  0  -9.420   26.202  50.352  1  7 
+A5M  C1*   .  C  0  -8.634   25.027  50.446  1  8 
+A5M  N1    .  N  0  -7.231   25.429  50.636  1  9 
+A5M  C6    .  C  0  -6.917   26.645  51.173  1  10
+A5M  C2    .  C  0  -6.212   24.537  50.257  1  11
+A5M  O2    .  O  0  -6.529   23.446  49.753  1  12
+A5M  N3    .  N  0  -4.915   24.890  50.444  1  13
+A5M  C4    .  C  0  -4.620   26.081  50.974  1  14
+A5M  N4    .  N  0  -3.328   26.394  51.139  1  15
+A5M  C5    .  C  0  -5.639   27.010  51.358  1  16
+A5M  C2*   .  C  0  -9.212   24.196  51.597  1  17
+A5M  N2*   .  N  0  -10.205  23.259  51.046  1  18
+A5M  C3*   .  C  0  -9.870   25.282  52.440  1  19
+A5M  O3*   .  O  0  ?        ?       ?       1  20
+A5M  O3P   .  O  0  ?        ?       ?       1  21
+A5M  H3T   .  H  0  ?        ?       ?       1  22
+A5M  H3*   .  H  0  ?        ?       ?       1  23
+A5M  H4*   .  H  0  ?        ?       ?       1  24
+A5M  H1*   .  H  0  ?        ?       ?       1  25
+A5M  H6    .  H  0  ?        ?       ?       1  26
+A5M  H5    .  H  0  ?        ?       ?       1  27
+A5M  1H4   .  H  0  ?        ?       ?       0  28
+A5M  2H4   .  H  0  ?        ?       ?       0  29
+A5M  H2*   .  H  0  ?        ?       ?       1  30
+A5M  1NH*  .  H  0  ?        ?       ?       0  31
+A5M  2NH*  .  H  0  ?        ?       ?       0  32
+A5M  1H5*  .  H  0  ?        ?       ?       0  33
+A5M  2H5*  .  H  0  ?        ?       ?       0  34
+A5M  3HOP  .  H  0  ?        ?       ?       0  35
+A5M  2HOP  .  H  0  ?        ?       ?       0  36
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+A5M  P    O5*   SING  1 
+A5M  P    O1P   DOUB  2 
+A5M  P    O3P   SING  3 
+A5M  P    O2P   SING  4 
+A5M  O2P  2HOP  SING  5 
+A5M  O5*  C5*   SING  6 
+A5M  C5*  C4*   SING  7 
+A5M  C5*  1H5*  SING  8 
+A5M  C5*  2H5*  SING  9 
+A5M  C4*  C3*   SING  10
+A5M  C4*  H4*   SING  11
+A5M  C4*  O4*   SING  12
+A5M  O4*  C1*   SING  13
+A5M  C1*  H1*   SING  14
+A5M  C1*  N1    SING  15
+A5M  C1*  C2*   SING  16
+A5M  N1   C6    SING  17
+A5M  N1   C2    SING  18
+A5M  C6   H6    SING  19
+A5M  C6   C5    DOUB  20
+A5M  C2   N3    SING  21
+A5M  C2   O2    DOUB  22
+A5M  N3   C4    DOUB  23
+A5M  C4   C5    SING  24
+A5M  C4   N4    SING  25
+A5M  N4   1H4   SING  26
+A5M  N4   2H4   SING  27
+A5M  C5   H5    SING  28
+A5M  C2*  C3*   SING  29
+A5M  C2*  H2*   SING  30
+A5M  C2*  N2*   SING  31
+A5M  N2*  1NH*  SING  32
+A5M  N2*  2NH*  SING  33
+A5M  C3*  O3*   SING  34
+A5M  C3*  H3*   SING  35
+A5M  O3*  H3T   SING  36
+A5M  O3P  3HOP  SING  37
+#

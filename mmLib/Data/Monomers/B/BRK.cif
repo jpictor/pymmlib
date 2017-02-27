@@ -1,0 +1,119 @@
+data_BRK
+#
+_chem_comp.id                   BRK
+_chem_comp.name                 [4-AMINO-2-(4-METHOXYANILINO)-1,3-THIAZOL-5-YL](4-METHOXYPHENYL)METHANONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C18 H18 N3 O3 S1'
+_chem_comp.pdbx_formal_charge   1+
+_chem_comp.pdbx_release_status  REL
+_chem_comp.mon_nstd_flag        n
+_chem_comp.formula_weight       356.418
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+BRK  CAB   .  C  0  9.799   31.963  20.155  1  1 
+BRK  OAP   .  O  0  10.895  32.485  20.928  1  2 
+BRK  CAU   .  C  0  10.565  33.097  22.126  1  3 
+BRK  CAJ   .  C  0  11.574  33.768  22.804  1  4 
+BRK  CAL   .  C  0  11.339  34.412  24.015  1  5 
+BRK  CAI   .  C  0  9.288   33.052  22.68   1  6 
+BRK  CAK   .  C  0  9.026   33.685  23.902  1  7 
+BRK  CAW   .  C  0  10.058  34.357  24.568  1  8 
+BRK  CAR   .  C  0  9.831   35.077  25.887  1  9 
+BRK  OAD   .  O  0  10.352  36.173  26.12   1  10
+BRK  CAY   .  C  0  9.065   34.358  26.958  1  11
+BRK  SAQ   .  S  0  8.526   32.735  26.848  1  12
+BRK  CAV   .  C  0  8.759   34.889  28.215  1  13
+BRK  NAC   .  N  0  9.049   36.14   28.611  1  14
+BRK  NAM   .  N  1  8.14    34.021  29.044  1  15
+BRK  CAX   .  C  0  7.931   32.794  28.493  1  16
+BRK  NAN   .  N  0  7.299   31.837  29.103  1  17
+BRK  CAS   .  C  0  7.067   30.6    28.589  1  18
+BRK  CAE   .  C  0  5.798   30.031  28.727  1  19
+BRK  CAG   .  C  0  5.514   28.756  28.238  1  20
+BRK  CAT   .  C  0  6.527   28.018  27.623  1  21
+BRK  OAO   .  O  0  6.303   26.752  27.128  1  22
+BRK  CAA   .  C  0  5.021   26.587  26.497  1  23
+BRK  CAH   .  C  0  7.796   28.569  27.507  1  24
+BRK  CAF   .  C  0  8.065   29.846  28.002  1  25
+BRK  1HAB  .  H  0  10.065  31.47   19.191  0  26
+BRK  2HAB  .  H  0  9.05    32.769  19.972  0  27
+BRK  3HAB  .  H  0  9.196   31.264  20.781  0  28
+BRK  HAJ   .  H  0  12.588  33.791  22.371  1  29
+BRK  HAI   .  H  0  8.48    32.516  22.155  1  30
+BRK  HAL   .  H  0  12.15   34.956  24.529  1  31
+BRK  HAK   .  H  0  8.013   33.654  24.337  1  32
+BRK  1HAC  .  H  0  8.826   36.527  29.528  0  33
+BRK  2HAC  .  H  0  9.517   36.796  27.985  0  34
+BRK  HAM   .  H  0  7.856   34.262  29.993  1  35
+BRK  HAE   .  H  0  5.003   30.603  29.234  1  36
+BRK  HAF   .  H  0  9.085   30.258  27.924  1  37
+BRK  HAG   .  H  0  4.499   28.335  28.336  1  38
+BRK  HAH   .  H  0  8.599   27.992  27.019  1  39
+BRK  1HAA  .  H  0  4.84    25.562  26.096  0  40
+BRK  2HAA  .  H  0  4.878   27.351  25.697  0  41
+BRK  3HAA  .  H  0  4.202   26.886  27.192  0  42
+BRK  HAN   .  H  0  ?       ?       ?       1  43
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+BRK  CAB  OAP   SING  1 
+BRK  CAB  1HAB  SING  2 
+BRK  CAB  2HAB  SING  3 
+BRK  CAB  3HAB  SING  4 
+BRK  OAP  CAU   SING  5 
+BRK  CAU  CAJ   AROM  6 
+BRK  CAU  CAI   AROM  7 
+BRK  CAJ  CAL   AROM  8 
+BRK  CAJ  HAJ   SING  9 
+BRK  CAL  CAW   AROM  10
+BRK  CAL  HAL   SING  11
+BRK  CAI  CAK   AROM  12
+BRK  CAI  HAI   SING  13
+BRK  CAK  CAW   AROM  14
+BRK  CAK  HAK   SING  15
+BRK  CAW  CAR   SING  16
+BRK  CAR  OAD   DOUB  17
+BRK  CAR  CAY   SING  18
+BRK  CAY  SAQ   SING  19
+BRK  CAY  CAV   DOUB  20
+BRK  SAQ  CAX   SING  21
+BRK  CAV  NAC   SING  22
+BRK  CAV  NAM   SING  23
+BRK  NAC  1HAC  SING  24
+BRK  NAC  2HAC  SING  25
+BRK  NAM  CAX   DOUB  26
+BRK  NAM  HAM   SING  27
+BRK  CAX  NAN   SING  28
+BRK  NAN  CAS   SING  29
+BRK  NAN  HAN   SING  30
+BRK  CAS  CAE   AROM  31
+BRK  CAS  CAF   AROM  32
+BRK  CAE  CAG   AROM  33
+BRK  CAE  HAE   SING  34
+BRK  CAG  CAT   AROM  35
+BRK  CAG  HAG   SING  36
+BRK  CAT  OAO   SING  37
+BRK  CAT  CAH   AROM  38
+BRK  OAO  CAA   SING  39
+BRK  CAA  1HAA  SING  40
+BRK  CAA  2HAA  SING  41
+BRK  CAA  3HAA  SING  42
+BRK  CAH  CAF   AROM  43
+BRK  CAH  HAH   SING  44
+BRK  CAF  HAF   SING  45
+#

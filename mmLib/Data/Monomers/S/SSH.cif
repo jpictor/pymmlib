@@ -1,0 +1,79 @@
+data_SSH
+#
+_chem_comp.id                   SSH
+_chem_comp.name                 '3-DEOXY-D-ARABINO-HEXONIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H12 O6'
+_chem_comp.pdbx_synonyms        D-2-KETO-3-DEOXYGLUCONATE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        180.157
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+SSH  O2    .  O  0  -14.098  62.103  12.584  1  1 
+SSH  C1    .  C  0  -14.338  62.75   13.663  1  2 
+SSH  O1    .  O  0  -14.653  63.975  13.704  1  3 
+SSH  C2    .  C  0  -14.23   62.118  15.008  1  4 
+SSH  C3    .  C  0  -13.61   60.72   15.079  1  5 
+SSH  C4    .  C  0  -12.044  60.932  15.2    1  6 
+SSH  O4    .  O  0  -11.805  62.352  15.23   1  7 
+SSH  C5    .  C  0  -11.308  60.334  13.984  1  8 
+SSH  O5    .  O  0  -11.812  58.995  13.84   1  9 
+SSH  C6    .  C  0  -9.785   60.152  14.164  1  10
+SSH  O6    .  O  0  -9.289   59.854  12.848  1  11
+SSH  OT    .  O  0  -15.235  62.102  15.491  1  12
+SSH  H2    .  H  0  ?        ?       ?       1  13
+SSH  1H2C  .  H  0  -13.68   62.802  15.695  0  14
+SSH  1H3C  .  H  0  -13.903  60.062  14.228  0  15
+SSH  2H3C  .  H  0  -14.035  60.088  15.894  0  16
+SSH  H4    .  H  0  -11.669  60.464  16.14   1  17
+SSH  HA    .  H  0  -10.866  62.479  15.302  1  18
+SSH  H5    .  H  0  -11.523  60.931  13.067  1  19
+SSH  HB    .  H  0  -11.359  58.627  13.091  1  20
+SSH  1H6C  .  H  0  -9.508   59.394  14.934  0  21
+SSH  2H6C  .  H  0  -9.281   61.019  14.651  0  22
+SSH  H6    .  H  0  -8.352   59.742  12.959  1  23
+SSH  HT    .  H  0  ?        ?       ?       1  24
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+SSH  O2  H2    SING  1 
+SSH  O2  C1    SING  2 
+SSH  C1  O1    DOUB  3 
+SSH  C1  C2    SING  4 
+SSH  C2  C3    SING  5 
+SSH  C2  OT    SING  6 
+SSH  C2  1H2C  SING  7 
+SSH  C3  C4    SING  8 
+SSH  C3  1H3C  SING  9 
+SSH  C3  2H3C  SING  10
+SSH  C4  O4    SING  11
+SSH  C4  C5    SING  12
+SSH  C4  H4    SING  13
+SSH  O4  HA    SING  14
+SSH  C5  O5    SING  15
+SSH  C5  C6    SING  16
+SSH  C5  H5    SING  17
+SSH  O5  HB    SING  18
+SSH  C6  O6    SING  19
+SSH  C6  1H6C  SING  20
+SSH  C6  2H6C  SING  21
+SSH  O6  H6    SING  22
+SSH  OT  HT    SING  23
+#

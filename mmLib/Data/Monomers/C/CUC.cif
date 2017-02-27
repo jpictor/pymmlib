@@ -1,0 +1,81 @@
+data_CUC
+#
+_chem_comp.id                   CUC
+_chem_comp.name                 CYCLOHEXYLGLYCYL
+_chem_comp.type                 'L-peptide linking'
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C8 H15 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        141.213
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+CUC  N    .  N  0  ?  ?  ?  1  1 
+CUC  CA   .  C  0  ?  ?  ?  1  2 
+CUC  C    .  C  0  ?  ?  ?  1  3 
+CUC  O    .  O  0  ?  ?  ?  1  4 
+CUC  C1   .  C  0  ?  ?  ?  1  5 
+CUC  C2   .  C  0  ?  ?  ?  1  6 
+CUC  C3   .  C  0  ?  ?  ?  1  7 
+CUC  C4   .  C  0  ?  ?  ?  1  8 
+CUC  C5   .  C  0  ?  ?  ?  1  9 
+CUC  C6   .  C  0  ?  ?  ?  1  10
+CUC  H    .  H  0  ?  ?  ?  1  11
+CUC  HN2  .  H  0  ?  ?  ?  1  12
+CUC  HA   .  H  0  ?  ?  ?  1  13
+CUC  H7   .  H  0  ?  ?  ?  1  14
+CUC  H1   .  H  0  ?  ?  ?  1  15
+CUC  1H2  .  H  0  ?  ?  ?  0  16
+CUC  2H2  .  H  0  ?  ?  ?  0  17
+CUC  1H3  .  H  0  ?  ?  ?  0  18
+CUC  2H3  .  H  0  ?  ?  ?  0  19
+CUC  1H4  .  H  0  ?  ?  ?  0  20
+CUC  2H4  .  H  0  ?  ?  ?  0  21
+CUC  1H5  .  H  0  ?  ?  ?  0  22
+CUC  2H5  .  H  0  ?  ?  ?  0  23
+CUC  1H6  .  H  0  ?  ?  ?  0  24
+CUC  2H6  .  H  0  ?  ?  ?  0  25
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+CUC  N   CA   SING  1 
+CUC  N   H    SING  2 
+CUC  N   HN2  SING  3 
+CUC  CA  C    SING  4 
+CUC  CA  C1   SING  5 
+CUC  CA  HA   SING  6 
+CUC  C   O    DOUB  7 
+CUC  C   H7   SING  8 
+CUC  C1  C2   SING  9 
+CUC  C1  C6   SING  10
+CUC  C1  H1   SING  11
+CUC  C2  C3   SING  12
+CUC  C2  1H2  SING  13
+CUC  C2  2H2  SING  14
+CUC  C3  C4   SING  15
+CUC  C3  1H3  SING  16
+CUC  C3  2H3  SING  17
+CUC  C4  C5   SING  18
+CUC  C4  1H4  SING  19
+CUC  C4  2H4  SING  20
+CUC  C5  C6   SING  21
+CUC  C5  1H5  SING  22
+CUC  C5  2H5  SING  23
+CUC  C6  1H6  SING  24
+CUC  C6  2H6  SING  25
+#

@@ -1,0 +1,126 @@
+data_2DM
+#
+_chem_comp.id                   2DM
+_chem_comp.name                 '2-HYDROXY-3-(PYREN-1-YLMETHOXY)PROPYL DIHYDROGEN PHOSPHATE'
+_chem_comp.type                 'DNA linking'
+_chem_comp.pdbx_type            ATOMN
+_chem_comp.formula              'C20 H19 O6 P1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        386.340
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+2DM  P     .  P  0  -6.921  3.687   19.275  1  1 
+2DM  O1P   .  O  0  -7.692  2.655   18.546  1  2 
+2DM  O2P   .  O  0  -7.613  4.906   19.745  1  3 
+2DM  O1'   .  O  0  -6.205  2.993   20.553  1  4 
+2DM  O3*   .  O  0  -4.768  4.072   23.533  1  5 
+2DM  C1'   .  C  0  -5.016  3.527   21.123  1  6 
+2DM  C2'   .  C  0  -4.695  3.042   22.547  1  7 
+2DM  C3'   .  C  0  -5.439  1.762   22.974  1  8 
+2DM  O4'   .  O  0  -5.020  0.563   22.312  1  9 
+2DM  C4'   .  C  0  -3.619  0.284   22.216  1  10
+2DM  C1    .  C  0  -3.314  -1.159  21.856  1  11
+2DM  C2    .  C  0  -4.360  -2.099  21.768  1  12
+2DM  C11   .  C  0  -1.972  -1.585  21.694  1  13
+2DM  C15   .  C  0  -1.703  -2.952  21.450  1  14
+2DM  C3    .  C  0  -4.081  -3.458  21.572  1  15
+2DM  C12   .  C  0  -2.754  -3.888  21.414  1  16
+2DM  C16   .  C  0  -0.381  -3.395  21.253  1  17
+2DM  C5    .  C  0  -1.169  -5.697  20.926  1  18
+2DM  C4    .  C  0  -2.492  -5.254  21.211  1  19
+2DM  C10   .  C  0  -0.890  -0.677  21.761  1  20
+2DM  C14   .  C  0  0.689   -2.480  21.334  1  21
+2DM  C9    .  C  0  0.430   -1.124  21.580  1  22
+2DM  C8    .  C  0  2.013   -2.923  21.179  1  23
+2DM  C7    .  C  0  2.259   -4.270  20.877  1  24
+2DM  C6    .  C  0  1.191   -5.156  20.697  1  25
+2DM  C13   .  C  0  -0.127  -4.750  20.952  1  26
+2DM  O3P   .  O  0  ?       ?       ?       1  27
+2DM  H3T   .  H  0  ?       ?       ?       1  28
+2DM  H2'   .  H  0  -3.634  2.824   22.514  1  29
+2DM  H3'1  .  H  0  -6.499  1.910   22.782  0  30
+2DM  H3'2  .  H  0  -5.390  1.641   24.054  0  31
+2DM  H4'1  .  H  0  -3.168  0.949   21.479  0  32
+2DM  H4'2  .  H  0  -3.101  0.420   23.156  0  33
+2DM  H2    .  H  0  -5.392  -1.793  21.853  1  34
+2DM  H3    .  H  0  -4.899  -4.163  21.526  1  35
+2DM  H4    .  H  0  -3.377  -5.877  21.295  1  36
+2DM  H5    .  H  0  -0.873  -6.733  20.696  1  37
+2DM  H6    .  H  0  1.410   -6.168  20.398  1  38
+2DM  H7    .  H  0  3.260   -4.650  20.783  1  39
+2DM  H8    .  H  0  2.841   -2.236  21.283  1  40
+2DM  H9    .  H  0  1.255   -0.427  21.604  1  41
+2DM  H10   .  H  0  -1.044  0.377   21.942  1  42
+2DM  H1'1  .  H  0  -5.059  4.611   21.155  0  43
+2DM  H1'2  .  H  0  -4.185  3.254   20.472  0  44
+2DM  3HOP  .  H  0  ?       ?       ?       0  45
+2DM  2HOP  .  H  0  ?       ?       ?       0  46
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+2DM  P    O1'   SING  1 
+2DM  P    O1P   DOUB  2 
+2DM  P    O3P   SING  3 
+2DM  P    O2P   SING  4 
+2DM  O2P  2HOP  SING  5 
+2DM  O1'  C1'   SING  6 
+2DM  O3*  H3T   SING  7 
+2DM  O3*  C2'   SING  8 
+2DM  C1'  C2'   SING  9 
+2DM  C1'  H1'1  SING  10
+2DM  C1'  H1'2  SING  11
+2DM  C2'  H2'   SING  12
+2DM  C2'  C3'   SING  13
+2DM  C3'  H3'1  SING  14
+2DM  C3'  H3'2  SING  15
+2DM  C3'  O4'   SING  16
+2DM  O4'  C4'   SING  17
+2DM  C4'  H4'1  SING  18
+2DM  C4'  H4'2  SING  19
+2DM  C4'  C1    SING  20
+2DM  C1   C2    AROM  21
+2DM  C1   C11   AROM  22
+2DM  C2   H2    SING  23
+2DM  C2   C3    AROM  24
+2DM  C11  C10   AROM  25
+2DM  C11  C15   AROM  26
+2DM  C15  C12   AROM  27
+2DM  C15  C16   AROM  28
+2DM  C3   H3    SING  29
+2DM  C3   C12   AROM  30
+2DM  C12  C4    SING  31
+2DM  C16  C13   AROM  32
+2DM  C16  C14   AROM  33
+2DM  C5   C4    DOUB  34
+2DM  C5   H5    SING  35
+2DM  C5   C13   SING  36
+2DM  C4   H4    SING  37
+2DM  C10  C9    AROM  38
+2DM  C10  H10   SING  39
+2DM  C14  C8    AROM  40
+2DM  C14  C9    AROM  41
+2DM  C9   H9    SING  42
+2DM  C8   C7    AROM  43
+2DM  C8   H8    SING  44
+2DM  C7   C6    AROM  45
+2DM  C7   H7    SING  46
+2DM  C6   C13   AROM  47
+2DM  C6   H6    SING  48
+2DM  O3P  3HOP  SING  49
+#

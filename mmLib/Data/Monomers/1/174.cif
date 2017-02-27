@@ -1,0 +1,61 @@
+data_174
+#
+_chem_comp.id                   174
+_chem_comp.name                 '4-CHLORO-BENZOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C7 H5 O2 CL1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        156.568
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+174  CL4  .  CL  0  -19.787  95.862  18.541  0  1 
+174  C4   .  C   0  -19.932  94.201  19.219  1  2 
+174  C5   .  C   0  -18.817  93.715  19.901  1  3 
+174  C6   .  C   0  -18.847  92.452  20.466  1  4 
+174  C3   .  C   0  -21.099  93.428  19.089  1  5 
+174  C2   .  C   0  -21.127  92.158  19.664  1  6 
+174  C1   .  C   0  -19.996  91.681  20.342  1  7 
+174  C    .  C   0  -19.962  90.330  20.989  1  8 
+174  O1   .  O   0  -20.968  89.592  20.924  1  9 
+174  O2   .  O   0  -18.919  89.991  21.597  1  10
+174  HO1  .  H   0  ?        ?       ?       1  11
+174  H2   .  H   0  ?        ?       ?       1  12
+174  H3   .  H   0  ?        ?       ?       1  13
+174  H5   .  H   0  ?        ?       ?       1  14
+174  H6   .  H   0  ?        ?       ?       1  15
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+174  CL4  C4   SING  1 
+174  C4   C5   AROM  2 
+174  C4   C3   AROM  3 
+174  C5   C6   AROM  4 
+174  C5   H5   SING  5 
+174  C6   C1   AROM  6 
+174  C6   H6   SING  7 
+174  C3   C2   AROM  8 
+174  C3   H3   SING  9 
+174  C2   C1   AROM  10
+174  C2   H2   SING  11
+174  C1   C    SING  12
+174  C    O1   SING  13
+174  C    O2   DOUB  14
+174  O1   HO1  SING  15
+#

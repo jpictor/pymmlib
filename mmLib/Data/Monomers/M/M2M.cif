@@ -1,0 +1,76 @@
+data_M2M
+#
+_chem_comp.id                   M2M
+_chem_comp.name                 1-METHOXY-2-(2-METHOXYETHOXY)ETHANE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C6 H14 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        134.175
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+M2M  C1   .  C  0  9.713   4.791  61.280  1  1 
+M2M  O1   .  O  0  10.609  4.487  62.367  1  2 
+M2M  C2   .  C  0  10.078  3.443  63.186  1  3 
+M2M  C3   .  C  0  11.074  3.221  64.289  1  4 
+M2M  O2   .  O  0  12.306  2.849  63.687  1  5 
+M2M  C4   .  C  0  13.260  2.682  64.668  1  6 
+M2M  C5   .  C  0  14.491  2.314  63.949  1  7 
+M2M  O3   .  O  0  14.234  1.142  63.278  1  8 
+M2M  C6   .  C  0  15.400  0.780  62.526  1  9 
+M2M  1H1  .  H  0  ?       ?      ?       0  10
+M2M  2H1  .  H  0  ?       ?      ?       0  11
+M2M  3H1  .  H  0  ?       ?      ?       0  12
+M2M  1H2  .  H  0  ?       ?      ?       0  13
+M2M  2H2  .  H  0  ?       ?      ?       0  14
+M2M  1H3  .  H  0  ?       ?      ?       0  15
+M2M  2H3  .  H  0  ?       ?      ?       0  16
+M2M  1H4  .  H  0  ?       ?      ?       0  17
+M2M  2H4  .  H  0  ?       ?      ?       0  18
+M2M  1H5  .  H  0  ?       ?      ?       0  19
+M2M  2H5  .  H  0  ?       ?      ?       0  20
+M2M  1H6  .  H  0  ?       ?      ?       0  21
+M2M  2H6  .  H  0  ?       ?      ?       0  22
+M2M  3H6  .  H  0  ?       ?      ?       0  23
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+M2M  C1  O1   SING  1 
+M2M  C1  1H1  SING  2 
+M2M  C1  2H1  SING  3 
+M2M  C1  3H1  SING  4 
+M2M  O1  C2   SING  5 
+M2M  C2  C3   SING  6 
+M2M  C2  1H2  SING  7 
+M2M  C2  2H2  SING  8 
+M2M  C3  O2   SING  9 
+M2M  C3  1H3  SING  10
+M2M  C3  2H3  SING  11
+M2M  O2  C4   SING  12
+M2M  C4  C5   SING  13
+M2M  C4  1H4  SING  14
+M2M  C4  2H4  SING  15
+M2M  C5  O3   SING  16
+M2M  C5  1H5  SING  17
+M2M  C5  2H5  SING  18
+M2M  O3  C6   SING  19
+M2M  C6  1H6  SING  20
+M2M  C6  2H6  SING  21
+M2M  C6  3H6  SING  22
+#

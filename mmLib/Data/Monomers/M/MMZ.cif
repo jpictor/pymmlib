@@ -1,0 +1,58 @@
+data_MMZ
+#
+_chem_comp.id                   MMZ
+_chem_comp.name                 1-METHYL-1,3-DIHYDRO-2H-IMIDAZOLE-2-THIONE
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C4 H6 N2 S1'
+_chem_comp.pdbx_synonyms        METHIMAZOLE
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        114.165
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+MMZ  N1   .  N  0  -22.919  44.821  -57.497  1  1 
+MMZ  C1A  .  C  0  -22.400  45.128  -58.770  1  2 
+MMZ  C2   .  C  0  -23.683  45.864  -57.086  1  3 
+MMZ  S2   .  S  0  -24.393  45.972  -55.534  1  4 
+MMZ  N3   .  N  0  -23.757  46.790  -58.064  1  5 
+MMZ  C3A  .  C  0  -22.889  46.391  -59.144  1  6 
+MMZ  C4   .  C  0  -24.549  48.016  -58.176  1  7 
+MMZ  1H4  .  H  0  ?        ?       ?        0  8 
+MMZ  2H4  .  H  0  ?        ?       ?        0  9 
+MMZ  3H4  .  H  0  ?        ?       ?        0  10
+MMZ  H3A  .  H  0  ?        ?       ?        1  11
+MMZ  H1A  .  H  0  ?        ?       ?        1  12
+MMZ  HN1  .  H  0  ?        ?       ?        1  13
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+MMZ  N1   C1A  SING  1 
+MMZ  N1   C2   SING  2 
+MMZ  N1   HN1  SING  3 
+MMZ  C1A  C3A  DOUB  4 
+MMZ  C1A  H1A  SING  5 
+MMZ  C2   N3   SING  6 
+MMZ  C2   S2   DOUB  7 
+MMZ  N3   C4   SING  8 
+MMZ  N3   C3A  SING  9 
+MMZ  C3A  H3A  SING  10
+MMZ  C4   1H4  SING  11
+MMZ  C4   2H4  SING  12
+MMZ  C4   3H4  SING  13
+#

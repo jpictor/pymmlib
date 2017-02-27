@@ -1,0 +1,66 @@
+data_AMB
+#
+_chem_comp.id                   AMB
+_chem_comp.name                 'L-2-AMINO-4-METHOXY-CIS-BUT-3-ENOIC ACID'
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            HETAIN
+_chem_comp.formula              'C5 H9 N1 O3'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        131.131
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+AMB  CB   .  C  0  ?  ?  ?  1  1 
+AMB  CG   .  C  0  ?  ?  ?  1  2 
+AMB  OD   .  O  0  ?  ?  ?  1  3 
+AMB  CE   .  C  0  ?  ?  ?  1  4 
+AMB  C    .  C  0  ?  ?  ?  1  5 
+AMB  O    .  O  0  ?  ?  ?  1  6 
+AMB  OXT  .  O  0  ?  ?  ?  1  7 
+AMB  N    .  N  0  ?  ?  ?  1  8 
+AMB  CA   .  C  0  ?  ?  ?  1  9 
+AMB  HB   .  H  0  ?  ?  ?  1  10
+AMB  HG   .  H  0  ?  ?  ?  1  11
+AMB  3HE  .  H  0  ?  ?  ?  0  12
+AMB  2HE  .  H  0  ?  ?  ?  0  13
+AMB  1HE  .  H  0  ?  ?  ?  0  14
+AMB  HO   .  H  0  ?  ?  ?  1  15
+AMB  2H   .  H  0  ?  ?  ?  0  16
+AMB  1H   .  H  0  ?  ?  ?  0  17
+AMB  HA   .  H  0  ?  ?  ?  1  18
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+AMB  CB   CG   DOUB  1 
+AMB  CB   CA   SING  2 
+AMB  CB   HB   SING  3 
+AMB  CG   OD   SING  4 
+AMB  CG   HG   SING  5 
+AMB  OD   CE   SING  6 
+AMB  CE   3HE  SING  7 
+AMB  CE   2HE  SING  8 
+AMB  CE   1HE  SING  9 
+AMB  C    O    DOUB  10
+AMB  C    OXT  SING  11
+AMB  C    CA   SING  12
+AMB  OXT  HO   SING  13
+AMB  N    CA   SING  14
+AMB  N    2H   SING  15
+AMB  N    1H   SING  16
+AMB  CA   HA   SING  17
+#

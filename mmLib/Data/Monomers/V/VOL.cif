@@ -1,0 +1,70 @@
+data_VOL
+#
+_chem_comp.id                   VOL
+_chem_comp.name                 L-VALINOL
+_chem_comp.type                 non-polymer
+_chem_comp.pdbx_type            ATOMP
+_chem_comp.formula              'C5 H13 N1 O1'
+_chem_comp.pdbx_formal_charge   REL
+_chem_comp.pdbx_release_status  n
+_chem_comp.mon_nstd_flag        103.164
+_chem_comp.formula_weight       ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+VOL  N    .  N  0  9.817   8.445   3.235  1  1 
+VOL  CA   .  C  0  10.698  9.460   2.757  1  2 
+VOL  CB   .  C  0  10.418  10.769  3.317  1  3 
+VOL  CG1  .  C  0  11.211  11.932  2.739  1  4 
+VOL  CG2  .  C  0  8.947   11.146  3.384  1  5 
+VOL  CH2  .  C  0  12.073  9.008   2.495  1  6 
+VOL  OH   .  O  0  12.288  7.848   1.824  1  7 
+VOL  1HN  .  H  0  9.767   8.382   4.091  0  8 
+VOL  HA   .  H  0  10.366  9.576   1.842  1  9 
+VOL  HB   .  H  0  10.705  10.708  4.253  1  10
+VOL  HG1  .  H  0  11.026  12.727  3.243  1  11
+VOL  HG2  .  H  0  10.958  12.067  1.823  1  12
+VOL  HG3  .  H  0  12.149  11.734  2.786  1  13
+VOL  HH1  .  H  0  12.521  9.714   2.003  1  14
+VOL  HH2  .  H  0  12.521  8.934   3.352  1  15
+VOL  HH   .  H  0  11.847  7.248   2.168  1  16
+VOL  H21  .  H  0  ?       ?       ?      1  17
+VOL  H22  .  H  0  ?       ?       ?      1  18
+VOL  H23  .  H  0  ?       ?       ?      1  19
+VOL  2HN  .  H  0  ?       ?       ?      0  20
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+VOL  N    1HN  SING  1 
+VOL  N    CA   SING  2 
+VOL  N    2HN  SING  3 
+VOL  CA   HA   SING  4 
+VOL  CA   CB   SING  5 
+VOL  CA   CH2  SING  6 
+VOL  CB   HB   SING  7 
+VOL  CB   CG1  SING  8 
+VOL  CB   CG2  SING  9 
+VOL  CG1  HG1  SING  10
+VOL  CG1  HG2  SING  11
+VOL  CG1  HG3  SING  12
+VOL  CG2  H21  SING  13
+VOL  CG2  H22  SING  14
+VOL  CG2  H23  SING  15
+VOL  CH2  HH1  SING  16
+VOL  CH2  HH2  SING  17
+VOL  CH2  OH   SING  18
+VOL  OH   HH   SING  19
+#

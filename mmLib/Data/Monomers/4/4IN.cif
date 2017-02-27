@@ -1,0 +1,114 @@
+data_4IN
+#
+_chem_comp.id                       4IN
+_chem_comp.name                     4-AMINO-L-TRYPTOPHAN
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C11 H13 N3 O2'
+_chem_comp.pdbx_synonyms            '2-AMINO-3-(4-AMINO-1H-INDOL-3-YL)PROPANOIC ACID'
+_chem_comp.mon_nstd_parent_comp_id  TRP
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            219.243
+_chem_comp.formula_weight           ?
+#
+loop_
+_pdbx_chem_comp_descriptor.comp_id
+_pdbx_chem_comp_descriptor.type
+_pdbx_chem_comp_descriptor.descriptor
+_pdbx_chem_comp_descriptor.program
+_pdbx_chem_comp_descriptor.program_version
+4IN  SMILES_CANNONICAL  NC(Cc1c[nH]c2cccc(N)c12)C(O)=O                                                                             CACTVS   2.87 
+4IN  INCHI              InChI=1/C11H13N3O2/c12-7-2-1-3-9-10(7)6(5-14-9)4-8(13)11(15)16/h1-3,5,8,14H,4,12-13H2,(H,15,16)/t8-/m0/s1  InChi    1    
+4IN  SMILES             c1cc(c2c(c1)NC=C2C[C@@H](C(=O)O)N)N                                                                        OpenEye  1.3.4
+4IN  SMILES_CANNONICAL  c1cc(c2c(c1)NC=C2CC(C(=O)O)N)N                                                                             OpenEye  1.3.4
+#
+_pdbx_chem_comp_identifier.comp_id          4IN
+_pdbx_chem_comp_identifier.type             'SYSTEMATIC NAME'
+_pdbx_chem_comp_identifier.identifier       '(2S)-2-amino-3-(4-amino-1H-indol-3-yl)propanoic acid'
+_pdbx_chem_comp_identifier.program          Lexichem
+_pdbx_chem_comp_identifier.program_version  1.1
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_aromatic_flag
+_chem_comp_atom.pdbx_stereo_config
+_chem_comp_atom.pdbx_leaving_atom_flag
+_chem_comp_atom.pdbx_ordinal
+4IN  N     .  N  0  67.478  -8.039   -1.257  1  N  N  N  1 
+4IN  CA    .  C  0  66.118  -7.510   -1.149  1  N  S  N  2 
+4IN  CB    .  C  0  65.110  -8.643   -0.890  1  N  N  N  3 
+4IN  CG    .  C  0  64.752  -9.425   -2.086  1  N  N  N  4 
+4IN  CD1   .  C  0  65.141  -10.700  -2.376  1  N  N  N  5 
+4IN  NE1   .  N  0  64.588  -11.104  -3.567  1  N  N  N  6 
+4IN  CE2   .  C  0  63.820  -10.087  -4.073  1  Y  N  N  7 
+4IN  CZ2   .  C  0  63.063  -10.028  -5.250  1  Y  N  N  8 
+4IN  CH2   .  C  0  62.384  -8.861   -5.516  1  Y  N  N  9 
+4IN  CZ3   .  C  0  62.445  -7.770   -4.643  1  Y  N  N  10
+4IN  CE3   .  C  0  63.198  -7.830   -3.463  1  Y  N  N  11
+4IN  N16   .  N  0  63.208  -6.710   -2.650  1  N  N  N  12
+4IN  CD2   .  C  0  63.900  -9.009   -3.169  1  Y  N  N  13
+4IN  C     .  C  0  65.989  -6.452   -0.048  1  N  N  N  14
+4IN  OXT   .  O  0  ?       ?        ?       1  N  N  N  15
+4IN  O     .  O  0  65.312  -5.442   -0.233  1  N  N  N  16
+4IN  1HN   .  H  0  ?       ?        ?       0  N  N  N  17
+4IN  2HN   .  H  0  ?       ?        ?       0  N  N  N  18
+4IN  HA    .  H  0  ?       ?        ?       1  N  N  N  19
+4IN  1HB   .  H  0  ?       ?        ?       0  N  N  N  20
+4IN  2HB   .  H  0  ?       ?        ?       0  N  N  N  21
+4IN  HD1   .  H  0  ?       ?        ?       1  N  N  N  22
+4IN  HE1   .  H  0  ?       ?        ?       1  N  N  N  23
+4IN  HZ2   .  H  0  ?       ?        ?       1  N  N  N  24
+4IN  HH2   .  H  0  ?       ?        ?       1  N  N  N  25
+4IN  HZ3   .  H  0  ?       ?        ?       1  N  N  N  26
+4IN  1H16  .  H  0  ?       ?        ?       0  N  N  N  27
+4IN  2H16  .  H  0  ?       ?        ?       0  N  N  N  28
+4IN  HXT   .  H  0  ?       ?        ?       1  N  N  N  29
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_aromatic_flag
+_chem_comp_bond.pdbx_stereo_config
+_chem_comp_bond.pdbx_ordinal
+4IN  N    CA    SING  N  N  1 
+4IN  N    1HN   SING  N  N  2 
+4IN  N    2HN   SING  N  N  3 
+4IN  CA   CB    SING  N  N  4 
+4IN  CA   C     SING  N  N  5 
+4IN  CA   HA    SING  N  N  6 
+4IN  CB   CG    SING  N  N  7 
+4IN  CB   1HB   SING  N  N  8 
+4IN  CB   2HB   SING  N  N  9 
+4IN  CG   CD1   DOUB  N  N  10
+4IN  CG   CD2   SING  N  N  11
+4IN  CD1  NE1   SING  N  N  12
+4IN  CD1  HD1   SING  N  N  13
+4IN  NE1  CE2   SING  N  N  14
+4IN  NE1  HE1   SING  N  N  15
+4IN  CE2  CZ2   DOUB  Y  N  16
+4IN  CE2  CD2   SING  Y  N  17
+4IN  CZ2  CH2   SING  Y  N  18
+4IN  CZ2  HZ2   SING  N  N  19
+4IN  CH2  CZ3   DOUB  Y  N  20
+4IN  CH2  HH2   SING  N  N  21
+4IN  CZ3  CE3   SING  Y  N  22
+4IN  CZ3  HZ3   SING  N  N  23
+4IN  CE3  N16   SING  N  N  24
+4IN  CE3  CD2   DOUB  Y  N  25
+4IN  N16  1H16  SING  N  N  26
+4IN  N16  2H16  SING  N  N  27
+4IN  C    OXT   SING  N  N  28
+4IN  C    O     DOUB  N  N  29
+4IN  OXT  HXT   SING  N  N  30
+#

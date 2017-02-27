@@ -1,0 +1,96 @@
+data_5CS
+#
+_chem_comp.id                       5CS
+_chem_comp.name                     '2-AMINO-3-(CYSTEIN-S-YL)-ISOXAZOLIDIN-5-YL-ACETIC ACID'
+_chem_comp.type                     'L-peptide linking'
+_chem_comp.pdbx_type                ATOMP
+_chem_comp.formula                  'C8 H15 N3 O5 S1'
+_chem_comp.mon_nstd_parent_comp_id  CYS
+_chem_comp.pdbx_formal_charge       REL
+_chem_comp.pdbx_release_status      n
+_chem_comp.mon_nstd_flag            265.284
+_chem_comp.formula_weight           ?
+#
+loop_
+_chem_comp_atom.comp_id
+_chem_comp_atom.atom_id
+_chem_comp_atom.alt_atom_id
+_chem_comp_atom.type_symbol
+_chem_comp_atom.charge
+_chem_comp_atom.model_Cartn_x
+_chem_comp_atom.model_Cartn_y
+_chem_comp_atom.model_Cartn_z
+_chem_comp_atom.pdbx_align
+_chem_comp_atom.pdbx_ordinal
+5CS  N    .  N  0  68.387  89.778  5.381   1  1 
+5CS  CA   .  C  0  67.918  88.753  4.432   1  2 
+5CS  CB   .  C  0  67.318  87.611  5.260   1  3 
+5CS  SG   .  S  0  66.281  86.343  4.563   1  4 
+5CS  C    .  C  0  66.962  89.359  3.399   1  5 
+5CS  O    .  O  0  67.410  90.097  2.524   1  6 
+5CS  CI   .  C  0  65.860  84.798  -0.148  1  7 
+5CS  NI   .  N  0  64.539  85.439  -0.281  1  8 
+5CS  CJ   .  C  0  65.865  83.436  -0.835  1  9 
+5CS  OJ1  .  O  0  66.820  83.276  -1.619  1  10
+5CS  OJ2  .  O  0  64.997  82.564  -0.568  1  11
+5CS  CF   .  C  0  66.506  84.900  1.219   1  12
+5CS  OF   .  O  0  66.533  83.828  2.089   1  13
+5CS  NX   .  N  0  66.789  84.306  3.442   1  14
+5CS  CD   .  C  0  67.243  85.631  3.246   1  15
+5CS  CE   .  C  0  66.962  86.186  1.851   1  16
+5CS  OXT  .  O  0  ?       ?       ?       1  17
+5CS  H    .  H  0  ?       ?       ?       1  18
+5CS  HN2  .  H  0  ?       ?       ?       1  19
+5CS  HXT  .  H  0  ?       ?       ?       1  20
+5CS  HA   .  H  0  ?       ?       ?       1  21
+5CS  1HB  .  H  0  ?       ?       ?       0  22
+5CS  2HB  .  H  0  ?       ?       ?       0  23
+5CS  HD   .  H  0  ?       ?       ?       1  24
+5CS  1HE  .  H  0  ?       ?       ?       0  25
+5CS  2HE  .  H  0  ?       ?       ?       0  26
+5CS  HX   .  H  0  ?       ?       ?       1  27
+5CS  HF   .  H  0  ?       ?       ?       1  28
+5CS  HI   .  H  0  ?       ?       ?       1  29
+5CS  1HN  .  H  0  ?       ?       ?       0  30
+5CS  2HN  .  H  0  ?       ?       ?       0  31
+5CS  HJ1  .  H  0  ?       ?       ?       1  32
+#
+loop_
+_chem_comp_bond.comp_id
+_chem_comp_bond.atom_id_1
+_chem_comp_bond.atom_id_2
+_chem_comp_bond.value_order
+_chem_comp_bond.pdbx_ordinal
+5CS  N    CA   SING  1 
+5CS  N    H    SING  2 
+5CS  N    HN2  SING  3 
+5CS  CA   CB   SING  4 
+5CS  CA   C    SING  5 
+5CS  CA   HA   SING  6 
+5CS  CB   SG   SING  7 
+5CS  CB   1HB  SING  8 
+5CS  CB   2HB  SING  9 
+5CS  SG   CD   SING  10
+5CS  C    O    DOUB  11
+5CS  C    OXT  SING  12
+5CS  CI   NI   SING  13
+5CS  CI   CJ   SING  14
+5CS  CI   CF   SING  15
+5CS  CI   HI   SING  16
+5CS  NI   1HN  SING  17
+5CS  NI   2HN  SING  18
+5CS  CJ   OJ1  SING  19
+5CS  CJ   OJ2  DOUB  20
+5CS  OJ1  HJ1  SING  21
+5CS  CF   OF   SING  22
+5CS  CF   CE   SING  23
+5CS  CF   HF   SING  24
+5CS  OF   NX   SING  25
+5CS  NX   CD   SING  26
+5CS  NX   HX   SING  27
+5CS  CD   CE   SING  28
+5CS  CD   HD   SING  29
+5CS  CE   1HE  SING  30
+5CS  CE   2HE  SING  31
+5CS  OXT  HXT  SING  32
+#
